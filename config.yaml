@@ -5,7 +5,7 @@ theme: hugo-PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 enableEmoji: true
@@ -29,8 +29,16 @@ languages:
                 - name: Archive
                   url: archives
                   weight: 5
-                - name: Posts
-                  url: posts/
+                - name: DevOps
+                  url: posts/devops
+                - name: Future Tech
+                  url: posts/future-tech
+              # - name: Posts
+              #   url: posts/
+                - name: Personal Development
+                  url: posts/personal-development
+                - name: Productivity
+                  url: posts/productivity
                 - name: Music Production
                   url: posts/music-production
                 - name: Search
