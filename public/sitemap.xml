@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tools/chatgpt-app/</loc>
+    <lastmod>2023-05-21T19:05:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-05-21T19:05:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tools/</loc>
+    <lastmod>2023-05-21T19:05:35+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/about/</loc>
     <lastmod>2023-05-21T12:54:16+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/about/about/</loc>
-    <lastmod>2023-05-21T12:54:16+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2023-05-21T12:54:16+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music-production/</loc>
@@ -20,11 +26,11 @@
     <loc>https://jamesm.blog/tools/speechify/</loc>
     <lastmod>2023-05-20T12:54:16+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tools/</loc>
-    <lastmod>2023-05-20T12:54:16+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tools/github-copilot/</loc>
     <lastmod>2023-05-14T11:51:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tools/brew-packages/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tools/notion/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
