@@ -7,15 +7,168 @@ draft: false
 ## Music Hardware
 
 ### Current
-- [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
-- [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
-- [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
+- Drum Machines
+  - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
+- Keyboards
+  - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
+- Synthesizers
+  - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
 ### Past
-- [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/)
-- [JVC KB-700](https://jvckeyboards.tripod.com/kb700.html)
-- [Roland R8](https://www.vintagesynth.com/roland/r8.php)
-- [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
+- Drum Machines
+  - [Roland R8](https://www.vintagesynth.com/roland/r8.php)
+- Keyboards
+  - [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/)
+  - [JVC KB-700](https://jvckeyboards.tripod.com/kb700.html)
+- Synthesizers
+  - [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php)
+  - [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
 
 ## Music Software
 - [Native Instruments Komplete Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
+  - ORCHESTRAL AND CINEMATIC INSTRUMENTS
+    - Action Strings 2
+    - STRADIVARI VIOLIN
+    - PIANO COLORS
+    - ASHLIGHT
+    - PHARLIGHT
+    - STRAYLIGHT
+    - Thrill
+    - MYSTERIA
+    - Rise & Hit
+    - Action Strikes
+    - MALLET FLUX
+    - EMOTIVE STRINGS
+    - KINETIC METAL
+    - The Giant
+    - KINETIC TOYS
+    - SYMPHONY ESSENTIALS
+      - STRING ENSEMBLE
+      - BRASS ENSEMBLE
+      - WOODWIND ENSEMBLE
+      - BRASS SOLO
+      - WOODWIND SOLO
+      - PERCUSSION
+  - SYNTHESIZERS
+    - MASSIVE X
+    - RAZOR
+    - REAKTOR 6
+    - FORM
+    - SUPER 8
+    - ROUNDS
+    - TRK-01
+    - BX_OBERHAUSEN
+    - KONTOUR
+    - MONARK
+    - MASSIVE
+    - FM8
+    - REAKTOR PRISM
+    - RETRO MACHINES MK2
+    - REAKTOR SPARK
+    - BLOCKS PRIMES
+    - SKANNER XT
+    - FLESH
+  - SAMPLED INSTRUMENTS
+    - 40’S VERY OWN KEYS
+    - KONTAKT 7
+    - PLAYBOX
+    - SESSION GUITARIST
+      - ELECTRIC MINT
+      - PICKED NYLON
+    - EAST ASIA
+    - SEQUIS
+    - ALICIA'S KEYS
+    - UNA CORDA
+    - SESSION BASSIST – PRIME BASS
+    - SOUL SESSIONS
+    - SCARBEE RICKENBACKER BASS
+    - NOIRE
+    - SESSION GUITARIST – ELECTRIC VINTAGE
+    - SESSION GUITARIST – ELECTRIC SUNBURST DELUXE
+    - SESSION GUITARIST – STRUMMED ACOUSTIC
+    - SESSION GUITARIST – STRUMMED ACOUSTIC 2
+    - SESSION GUITARIST – PICKED ACOUSTIC
+    - SESSION HORNS PRO
+    - GEORGE DUKE SOUL TREASURES
+    - SESSION STRINGS PRO 2
+    - THE MAVERICK
+    - THE GRANDEUR
+    - THE GENTLEMAN
+    - SCARBEE A-200
+    - VINTAGE ORGANS
+    - SCARBEE MARK I  
+    - INDIA
+    - Cuba
+    - Middle East
+    - SCARBEE PRE-BASS
+    - SCARBEE PRE-BASS AMPED
+    - BALINESE GAMELAN
+    - SCARBEE CLAVINET/PIANET
+    - SCARBEE MM-BASS
+    - SCARBEE MM-BASS AMPED
+    - SCARBEE JAY-BASS
+    - IGNITION KEYS
+    - Glaze
+    - DEFT LINES
+    - CLOUD SUPPLY
+    - LO-FI GLOW
+    - MODULAR ICONS
+    - ETHEREAL EARTH
+    - MELTED VIBES
+    - HYBRID KEYS
+    - ANALOG DREAMS
+  - DRUMS AND PERCUSSION INSTRUMENTS
+    - BATTERY 4
+    - 40’S VERY OWN DRUMS
+    - POLYPLEX
+    - EMPIRE BREAKS
+    - DRUMLAB
+    - BUTCH VIG DRUMS
+    - DAMAGE
+    - STUDIO DRUMMER
+    - WEST AFRICA
+    - ABBEY ROAD VINTAGE DRUMMER
+    - ABBEY ROAD 50S DRUMMER
+    - ABBEY ROAD 60S DRUMMER
+    - ABBEY ROAD 70S DRUMMER
+    - ABBEY ROAD 80S DRUMMER
+    - ABBEY ROAD MODERN DRUMMER
+  - EFFECTS
+    - OZONE 10 STANDARD
+    - BX_CONSOLE N
+    - BX_LIMITER TRUE PEAK
+    - BX_CRISPYTUNER
+    - REPLIKA XT
+    - LO-FI-AF
+    - MOLEKULAR
+    - SUPERCHARGER GT
+    - RAUM
+    - THE MOUTH
+    - The Finger
+    - RC 24
+    - RC 48
+    - TRANSIENT MASTER
+    - ENHANCED EQ
+    - VARI COMP
+    - PASSIVE EQ
+- [UVI](https://www.uvi.net/)
+  - 8-Bit Synth
+  - Augmented Orchestra
+  - Austrian Grand
+  - BeatBox Anthology 2
+  - Drum Designer
+  - Dual Delay X
+  - Emulation II+
+  - FM Suite
+  - Key Suite Acoustic
+  - Key Suite Digital
+  - Key Suite Electric
+  - Meteor
+  - Percussion Factory
+  - Program 24
+  - PX Memories
+  - Quadra - Muted and Harmonics
+  - Scratch Machine
+  - Shade
+  - Sparkverb
+  - Synth Anthology 3
