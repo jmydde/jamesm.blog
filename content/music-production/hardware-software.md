@@ -1,0 +1,262 @@
+---
+title: "My Music Hardware & Software"
+date: 2023-05-20T14:53:39+01:00
+draft: false
+---
+
+## Music Hardware
+
+### Current
+- Drum Machines
+  - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
+- Keyboards
+  - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
+- Synthesizers
+  - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
+
+### Past
+- Drum Machines
+  - [Roland R8](https://www.vintagesynth.com/roland/r8.php)
+- Keyboards
+  - [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/)
+  - [JVC KB-700](https://jvckeyboards.tripod.com/kb700.html)
+- Synthesizers
+  - [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php)
+  - [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
+
+## Music Software
+
+### PluginGuru
+- [Unify](https://www.pluginguru.com/products/unify-standard/)
+
+### UVI
+- [Homepage](https://www.uvi.net/)
+- 8-Bit Synth
+- Augmented Orchestra
+- Austrian Grand
+- BeatBox Anthology 2
+- Drum Designer
+- Dual Delay X
+- Emulation II+
+- FM Suite
+- Key Suite Acoustic
+- Key Suite Digital
+- Key Suite Electric
+- Meteor
+- Percussion Factory
+- Program 24
+- PX Memories
+- Quadra - Muted and Harmonics
+- Scratch Machine
+- Shade
+- Sparkverb
+- Synth Anthology 3
+
+### Native Instruments
+- [Native Instruments Komplete Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
+  - Orchestral & Cinematic Instruments
+    - Action Strikes
+    - Action Strings 2
+    - Ashlight
+    - Emotive Strings
+    - Kinetic Metal
+    - Kinetic Toys
+    - Mallet Flux
+    - Mysteria
+    - Piano Colors
+    - Pharlight
+    - Rise & Hit
+    - Stradivari Violin
+    - Straylight
+    - Symphony Essentials
+      - Brass Ensemble
+      - Brass Solo
+      - String Ensemble
+      - Percussion
+      - Woodwind Ensemble
+      - Woodwind Solo
+    - The Giant
+    - Thrill
+  - Synthesizers
+    - Blocks Primes
+    - BX_Oberhausen
+    - Massive X
+    - Flesh
+    - FM8
+    - Form
+    - Kontour
+    - Massive
+    - Monark
+    - Razor
+    - Reaktor 6
+    - Reaktor Prism
+    - Reaktor Spark
+    - Retro Machines MK2
+    - Rounds
+    - Skanner XT
+    - Super 8
+    - TRK-01
+  - SAMPLED INSTRUMENTS
+    - 40’S Very Own Keys
+    - Alicia's Keys
+    - Balinese Gamelan
+    - East Asia
+    - George Duke Soul Treasures
+    - Kontakt 7
+    - Playbox
+    - Session Guitarist
+      - Electric Mint
+      - Picked Nylon
+    - Sequis
+    - Noire
+    - Session Bassist – Prime Bass
+    - Soul Sessions
+    - Scarbee Rickenbacker Bass
+    - Session Guitarist 
+    - Electric Sunburst deluxe
+    - Electric Vintage
+    - Picked Acoustic
+    - Strummed Acoustic
+    - Strummed Acoustic 2
+    - SESSION HORNS PRO
+    - SESSION STRINGS PRO 2
+    - The MAVERICK
+    - The GRANDEUR
+    - The GENTLEMAN
+    - SCARBEE A-200
+    - Una Corda
+    - VINTAGE ORGANS
+    - SCARBEE MARK I  
+    - INDIA
+    - Cuba
+    - Middle East
+    - SCARBEE 
+      - PRE-BASS
+      - PRE-BASS AMPED
+      - CLAVINET/PIANET
+      - MM-BASS
+      - MM-BASS AMPED
+      - JAY-BASS
+    - IGNITION KEYS
+    - Glaze
+    - DEFT LINES
+    - CLOUD SUPPLY
+    - LO-FI GLOW
+    - MODULAR ICONS
+    - ETHEREAL EARTH
+    - MELTED VIBES
+    - HYBRID KEYS
+    - ANALOG DREAMS
+  - DRUMS AND PERCUSSION INSTRUMENTS
+    - BATTERY 4
+    - 40’S VERY OWN DRUMS
+    - POLYPLEX
+    - EMPIRE BREAKS
+    - DRUMLAB
+    - BUTCH VIG DRUMS
+    - DAMAGE
+    - STUDIO DRUMMER
+    - WEST AFRICA
+    - ABBEY ROAD 
+      - VINTAGE DRUMMER
+      - 50S DRUMMER
+      - 60S DRUMMER
+      - 70S DRUMMER
+      - 80S DRUMMER
+      - MODERN DRUMMER
+  - EFFECTS
+    - OZONE 10 STANDARD
+    - BX_CONSOLE N
+    - BX_LIMITER TRUE PEAK
+    - BX_CRISPYTUNER
+    - REPLIKA XT
+    - LO-FI-AF
+    - MOLEKULAR
+    - SUPERCHARGER GT
+    - RAUM
+    - The MOUTH
+    - The Finger
+    - RC 24
+    - RC 48
+    - TRANSIENT MASTER
+    - ENHANCED EQ
+    - VARI COMP
+    - PASSIVE EQ
+    - SOLID BUS COMP
+    - SOLID DYNAMICS
+    - SOLID EQ
+    - VC 2A
+    - VC 76
+    - VC 160
+    - CRUSH PACK
+      - BITE
+      - DIRT
+      - FREAK
+    - MOD PACK
+      - CHORAL
+      - FLAIR
+      - PHASIS
+    - DRIVER
+  - EXPANSIONS
+    - FREE FORM
+    - LIQUID ENERGY
+    - RHYTHM SOURCE
+    - SOUL MAGIC
+    - BODY MECHANIK
+    - BUMPIN FLAVA
+    - BACKYARD JAMS
+    - MOTHER BOARD
+    - NEO BOOGIE
+    - BASEMENT ERA
+    - CARBON DECAY
+    - AMPLIFIED FUNK
+    - AQUARIUS EARTH
+    - GLOBAL SHAKE
+    - INFINITE ESCAPE
+    - PURE DRIP
+    - DROP SQUAD
+    - FADED REELS
+    - PRISMATIC BLISS
+    - MOLTEN VEIL
+    - PLATINUM BOUNCE
+    - LAZER DICE
+    - MARBLE RIMS
+    - CARIBBEAN CURRENT
+    - ASTRAL FLUTTER
+    - CAVERN FLOOR
+    - GOLDEN KINGDOM
+    - BYTE RIOT
+    - DECODED FORMS
+    - INDIGO DUST
+    - NEON DRIVE
+    - LUCID MISSION
+    - LONDON GRIT
+    - RISING CRESCENT
+    - HALCYON SKY
+    - QUEENSBRIDGE STORY
+    - ELASTIC THUMP
+    - DEEP MATTER
+    - SOLAR BREEZE
+    - LILAC GLARE
+    - TRUE SCHOOL
+    - VELVET LOUNGE
+    - ARTIST EXPANSION: SASHA
+    - NOCTURNAL STATE
+    - STADIUM FLEX
+    - SPECTRUM QUAKE
+    - KINO
+    - Wake
+    - Fade
+    - Charge
+    - Beam
+    - Bump
+    - Haze
+    - Quest
+    - Bounce
+    - Rush
+    - Pulse
+    - Scene
+    - Moebius 
+    - MECHANIX
+    - Drive
+    - Our House

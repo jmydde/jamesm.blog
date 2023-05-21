@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TV &amp; Movies on jamesm.blog</title>
+    <link>https://jamesm.blog/tv-movies/</link>
+    <description>Recent content in TV &amp; Movies on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://jamesm.blog/tv-movies/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
