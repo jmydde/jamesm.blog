@@ -29,18 +29,20 @@ languages:
                 - name: Archive
                   url: archives
                   weight: 5
+                - name: Tools
+                  url: /tools
                 - name: DevOps
-                  url: posts/devops
+                  url: /devops
                 - name: Future Tech
-                  url: posts/future-tech
+                  url: /future-tech
               # - name: Posts
               #   url: posts/
                 - name: Personal Development
-                  url: posts/personal-development
-                - name: Productivity
-                  url: posts/productivity
+                  url: /personal-development
+                - name: Music
+                  url: /music
                 - name: Music Production
-                  url: posts/music-production
+                  url: /music-production
                 - name: Search
                   url: search/
                   weight: 10
