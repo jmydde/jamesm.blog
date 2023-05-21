@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ideas on jamesm.blog</title>
+    <link>https://jamesm.blog/ideas/</link>
+    <description>Recent content in Ideas on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 20 May 2023 12:54:16 +0100</lastBuildDate><atom:link href="https://jamesm.blog/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Websites</title>
+      <link>https://jamesm.blog/ideas/my-websites/</link>
+      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ideas/my-websites/</guid>
+      <description>Current DevOpsForum.uk - UK DevOps Forum JamesM.blog - My personal blog PolkaView.io - Polkadot Dashboards Not Started CloudETL.io - Cloud-based ETL Tool DataForum.uk - UK Data Forum DevForum.uk - UK Developers Forum DivoceForum.uk - UK Divorce Forum HyperAuto.ai - Hyper Automation Archived BlockForum.uk - UK Blockchain Forum ClubTheWorld.uk - ClubTheWorld Community (prviously ClubTheWorld.com &amp;amp; ClubbingNetwork.com) Coiners.uk - BLockchain Forum DataTransforms.com - Data Transforms LTD KatKinz.com - Katie&amp;rsquo;s web site PolkaCloud.io </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,10 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>jamesm.blog</title>
     <link>https://jamesm.blog/</link>
     <description>Recent content on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 14:53:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music</title>
+      <link>https://jamesm.blog/music/music/</link>
+      <pubDate>Sat, 20 May 2023 14:53:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music/music/</guid>
+      <description>Favourite Artists
+Mezerg https://www.youtube.com/channel/UCUaQxmkh81tJAWrreHe3CJg </description>
+    </item>
+    
+    <item>
+      <title>Music Production</title>
+      <link>https://jamesm.blog/music-production/music-production/</link>
+      <pubDate>Sat, 20 May 2023 14:53:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/music-production/</guid>
+      <description>Hardware Current Yamaha Motif ES-8 Native Instruments Komplete Kontrol Past Roland R8 https://www.vintagesynth.com/roland/r8.php Software Native Instruments Komplete </description>
+    </item>
+    
+    <item>
+      <title>My Websites</title>
+      <link>https://jamesm.blog/ideas/my-websites/</link>
+      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ideas/my-websites/</guid>
+      <description>Current DevOpsForum.uk - UK DevOps Forum JamesM.blog - My personal blog PolkaView.io - Polkadot Dashboards Not Started CloudETL.io - Cloud-based ETL Tool DataForum.uk - UK Data Forum DevForum.uk - UK Developers Forum DivoceForum.uk - UK Divorce Forum HyperAuto.ai - Hyper Automation Archived BlockForum.uk - UK Blockchain Forum ClubTheWorld.uk - ClubTheWorld Community (prviously ClubTheWorld.com &amp;amp; ClubbingNetwork.com) Coiners.uk - BLockchain Forum DataTransforms.com - Data Transforms LTD KatKinz.com - Katie&amp;rsquo;s web site PolkaCloud.io </description>
+    </item>
+    
+    <item>
+      <title>Speechify</title>
+      <link>https://jamesm.blog/tools/speechify/</link>
+      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/speechify/</guid>
+      <description>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice. The app also uses optical character recognition technology to turn physical books or printed text into audio. The app lets users take photos of text and then listen to it read out loud.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot</title>
+      <link>https://jamesm.blog/tools/github-copilot/</link>
+      <pubDate>Sun, 14 May 2023 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/github-copilot/</guid>
+      <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
+GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
+Focus on more satisfying work, be more producttive, speed up repetitve tasks.
+Supported IDEs
+Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
+    </item>
+    
+    <item>
+      <title>Notion</title>
+      <link>https://jamesm.blog/tools/notion/</link>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/notion/</guid>
+      <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>https://jamesm.blog/devops/monitoring/</link>
+      <pubDate>Fri, 21 Jan 2022 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/monitoring/</guid>
+      <description>Overview &amp;hellip;
+Tools AWS CloudWatch - Observe and monitor resources and applications on AWS, on premises, and on other clouds Datadog - Cloud Monitoring as a Service Application Performance Monitoring (APM), Application Security Management, Application Vulnerability Management, Cloud SIEM, Container Monitoring, Cost Management, CSPM, DB Monitoring, Infrastructure Monitoring, Sensitive Data Scanner, Service Catalog &amp;hellip; Graphana Prometheus </description>
+    </item>
+    
+    <item>
+      <title>DevOps Training Links</title>
+      <link>https://jamesm.blog/devops/training-links/</link>
+      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/training-links/</guid>
+      <description>AWS Associate Level Exams AWS Certified Developer (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) AWS Solutions Architect (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) AWS SysOps Administrator (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) Professional Level Exams AWS DevOps Engineer Online Courses AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru) https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01 (Pluralsight) Whitepapers AWS DevOps Blue/Green Deployments CI/CD on AWS Development &amp;amp; Test Environments Infrastructure-as-Code Jenkins on AWS Microservices on AWS Running Containerized Microservices on AWS Solutions Architect Online Courses AWS Certified Solutions Architect - Professional (Cloud Guru) Other AWS Cognito Introduction to Amazon Cognito (Cloud Guru) CI/CD AWS CodePipeline/Build Azure DevOps Continuous Delivery and DevOps with Azure DevOps: Source Control with Git (Pluralsight) Deploying Microservices to Kubernetes using Azure DevOps - Whizlabs (Whizlabs) Advanced Azure DevOps and AKS Patterns for Scalable Solutions Course (Whizlabs) Jenkins Docker &amp;amp; Containers Hands-on Labs https://www.</description>
+    </item>
+    
+    
   </channel>
 </rss>

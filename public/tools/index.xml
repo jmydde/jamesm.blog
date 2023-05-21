@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tools on jamesm.blog</title>
+    <link>https://jamesm.blog/tools/</link>
+    <description>Recent content in Tools on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 20 May 2023 12:54:16 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speechify</title>
+      <link>https://jamesm.blog/tools/speechify/</link>
+      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/speechify/</guid>
+      <description>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice. The app also uses optical character recognition technology to turn physical books or printed text into audio. The app lets users take photos of text and then listen to it read out loud.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot</title>
+      <link>https://jamesm.blog/tools/github-copilot/</link>
+      <pubDate>Sun, 14 May 2023 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/github-copilot/</guid>
+      <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
+GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
+Focus on more satisfying work, be more producttive, speed up repetitve tasks.
+Supported IDEs
+Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
+    </item>
+    
+    <item>
+      <title>Notion</title>
+      <link>https://jamesm.blog/tools/notion/</link>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/notion/</guid>
+      <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
+    </item>
+    
+  </channel>
+</rss>
