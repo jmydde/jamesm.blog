@@ -1,10 +1,10 @@
 ---
-title: "Favourites"
+title: "Favourite Producers, DJs, Artists, Bands, Concerts & Shows"
 date: 2020-01-01T14:53:39+01:00
 draft: false
 ---
 
-# Favourite Producers
+# Producers
 - [Above & Beyond](https://www.youtube.com/@aboveandbeyond)
 - [Anthony Marinelli](https://www.youtube.com/@anthonymarinellimusic)
 - [Armin Van Buuren](https://www.youtube.com/@arminvanbuuren)
@@ -15,7 +15,7 @@ draft: false
 - [Paul Hardcastle](https://paulhardcastle.com/)
 - [Technotronic](https://www.youtube.com/@TechnotronicVEVO)
 
-# Favourite DJs
+# DJs
 - [Andy Farley](https://soundcloud.com/andyfarley)
 - [Andy Whitby](https://www.youtube.com/@BounceHeaven)
 - BK
@@ -25,7 +25,7 @@ draft: false
 - Paul Glazby
 - Paul Maddox
 
-# Favourite Arists & Bands
+# Arists & Bands
 - Al Marconi
 - Awesome 3
 - Barry Manilow

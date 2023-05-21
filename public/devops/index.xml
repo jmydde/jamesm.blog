@@ -9,6 +9,17 @@
       <url>https://jamesm.blog/papermod-cover.png</url>
       <link>https://jamesm.blog/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://jamesm.blog/devops/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 21 May 2023 23:07:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Projects</title>
+      <link>https://jamesm.blog/devops/github/</link>
+      <pubDate>Sun, 21 May 2023 23:07:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/github/</guid>
+      <description>A list of useful GitHub projects;
+bat - a cat clone with syntax highlighting and Git integration k9s - terminal UI to interact with your Kubernetes clusters Prompt Engineering Guide - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
+    </item>
+    
   </channel>
 </rss>

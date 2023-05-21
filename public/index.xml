@@ -10,7 +10,17 @@
       <link>https://jamesm.blog/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 May 2023 19:05:35 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 23:07:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Projects</title>
+      <link>https://jamesm.blog/devops/github/</link>
+      <pubDate>Sun, 21 May 2023 23:07:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/github/</guid>
+      <description>A list of useful GitHub projects;
+bat - a cat clone with syntax highlighting and Git integration k9s - terminal UI to interact with your Kubernetes clusters Prompt Engineering Guide - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
+    </item>
+    
     <item>
       <title>ChatGPT App (iOS)</title>
       <link>https://jamesm.blog/tools/chatgpt-app/</link>
@@ -80,12 +90,12 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     </item>
     
     <item>
-      <title>Favourites</title>
+      <title>Favourite Producers, DJs, Artists, Bands, Concerts &amp; Shows</title>
       <link>https://jamesm.blog/music/favourites/</link>
       <pubDate>Wed, 01 Jan 2020 14:53:39 +0100</pubDate>
       
       <guid>https://jamesm.blog/music/favourites/</guid>
-      <description>Favourite Producers Above &amp;amp; Beyond Anthony Marinelli Armin Van Buuren Calvin Harris DJ Fresh Jeremy Ellis Mezerg Paul Hardcastle Technotronic Favourite DJs Andy Farley Andy Whitby BK Carl Nicholson Guyver Jaguar Skills Paul Glazby Paul Maddox Favourite Arists &amp;amp; Bands Al Marconi Awesome 3 Barry Manilow Bronski Beat Carpenters Christopher Cross Coldplay Craig David Curiosity Killed The Cat D:Ream Dadi Freyr Deacon Blue Dead Or Alive Eagles Erasure Fleetwood Mac Gloria Estefan Howard Jones Hyper Go Go Josh Groban Kool &amp;amp; The Gang Kylie Minogue Level 42 Lighthouse Family Limahl Maria Carey Matt Johnson Michael Jackson Pet Shop Boys Rozalla Shades of Rhythm The Beach Boys The Communards The Piano Guys Tony Mortimer Years &amp;amp; Years Youngr Concerts Erasure Howard Jones Pet Shop Boys Prince - Lovesexy Theatre Shows Cats Les Miserables Mary Poppins Phantom of the Opera Woman in White </description>
+      <description>Producers Above &amp;amp; Beyond Anthony Marinelli Armin Van Buuren Calvin Harris DJ Fresh Jeremy Ellis Mezerg Paul Hardcastle Technotronic DJs Andy Farley Andy Whitby BK Carl Nicholson Guyver Jaguar Skills Paul Glazby Paul Maddox Arists &amp;amp; Bands Al Marconi Awesome 3 Barry Manilow Bronski Beat Carpenters Christopher Cross Coldplay Craig David Curiosity Killed The Cat D:Ream Dadi Freyr Deacon Blue Dead Or Alive Eagles Erasure Fleetwood Mac Gloria Estefan Howard Jones Hyper Go Go Josh Groban Kool &amp;amp; The Gang Kylie Minogue Level 42 Lighthouse Family Limahl Maria Carey Matt Johnson Michael Jackson Pet Shop Boys Rozalla Shades of Rhythm The Beach Boys The Communards The Piano Guys Tony Mortimer Years &amp;amp; Years Youngr Concerts Erasure Howard Jones Pet Shop Boys Prince - Lovesexy Theatre Shows Cats Les Miserables Mary Poppins Phantom of the Opera Woman in White </description>
     </item>
     
     
