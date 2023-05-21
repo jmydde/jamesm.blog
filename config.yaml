@@ -29,6 +29,8 @@ languages:
                 - name: Archive
                   url: archives
                   weight: 5
+                - name: Ideas
+                  url: /ideas
                 - name: Tools
                   url: /tools
                 - name: DevOps
@@ -49,10 +51,8 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-              # - name: WiKi
-              #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-              # - name: Discord
-              #   url: https://discord.gg/ahpmTvhVmp
+                - name: About
+                  url: /about-me
 
 outputs:
     home:
