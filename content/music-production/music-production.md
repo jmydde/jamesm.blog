@@ -28,87 +28,89 @@ draft: false
 
 ### Native Instruments Komplete Ultimate
 - [Homepage](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
-- ORCHESTRAL AND CINEMATIC INSTRUMENTS
-  - Action Strings 2
-  - STRADIVARI VIOLIN
-  - PIANO COLORS
-  - ASHLIGHT
-  - PHARLIGHT
-  - STRAYLIGHT
-  - Thrill
-  - MYSTERIA
-  - Rise & Hit
+- Orchestral & Cinematic Instruments
   - Action Strikes
-  - MALLET FLUX
-  - EMOTIVE STRINGS
-  - KINETIC METAL
+  - Action Strings 2
+  - Ashlight
+  - Emotive Strings
+  - Kinetic Metal
+  - Kinetic Toys
+  - Mallet Flux
+  - Mysteria
+  - Piano Colors
+  - Pharlight
+  - Rise & Hit
+  - Stradivari Violin
+  - Straylight
+  - Symphony Essentials
+    - Brass Ensemble
+    - Brass Solo
+    - String Ensemble
+    - Percussion
+    - Woodwind Ensemble
+    - Woodwind Solo
   - The Giant
-  - KINETIC TOYS
-  - SYMPHONY ESSENTIALS
-    - STRING ENSEMBLE
-    - BRASS ENSEMBLE
-    - WOODWIND ENSEMBLE
-    - BRASS SOLO
-    - WOODWIND SOLO
-    - PERCUSSION
-- SYNTHESIZERS
-  - MASSIVE X
-  - RAZOR
-  - REAKTOR 6
-  - FORM
-  - SUPER 8
-  - ROUNDS
-  - TRK-01
-  - BX_OBERHAUSEN
-  - KONTOUR
-  - MONARK
-  - MASSIVE
+  - Thrill
+- Synthesizers
+  - Blocks Primes
+  - BX_Oberhausen
+  - Massive X
+  - Flesh
   - FM8
-  - REAKTOR PRISM
-  - RETRO MACHINES MK2
-  - REAKTOR SPARK
-  - BLOCKS PRIMES
-  - SKANNER XT
-  - FLESH
+  - Form
+  - Kontour
+  - Massive
+  - Monark
+  - Razor
+  - Reaktor 6
+  - Reaktor Prism
+  - Reaktor Spark
+  - Retro Machines MK2
+  - Rounds
+  - Skanner XT
+  - Super 8
+  - TRK-01
 - SAMPLED INSTRUMENTS
-  - 40’S VERY OWN KEYS
-  - KONTAKT 7
-  - PLAYBOX
-  - SESSION GUITARIST
-    - ELECTRIC MINT
-    - PICKED NYLON
-  - EAST ASIA
-  - SEQUIS
-  - ALICIA'S KEYS
-  - UNA CORDA
-  - SESSION BASSIST – PRIME BASS
-  - SOUL SESSIONS
-  - SCARBEE RICKENBACKER BASS
-  - NOIRE
-  - SESSION GUITARIST – ELECTRIC VINTAGE
-  - SESSION GUITARIST – ELECTRIC SUNBURST DELUXE
-  - SESSION GUITARIST – STRUMMED ACOUSTIC
-  - SESSION GUITARIST – STRUMMED ACOUSTIC 2
-  - SESSION GUITARIST – PICKED ACOUSTIC
+  - 40’S Very Own Keys
+  - Alicia's Keys
+  - Balinese Gamelan
+  - East Asia
+  - George Duke Soul Treasures
+  - Kontakt 7
+  - Playbox
+  - Session Guitarist
+    - Electric Mint
+    - Picked Nylon
+  - Sequis
+  - Noire
+  - Session Bassist – Prime Bass
+  - Soul Sessions
+  - Scarbee Rickenbacker Bass
+  - Session Guitarist 
+    - Electric Sunburst deluxe
+    - Electric Vintage
+    - Picked Acoustic
+    - Strummed Acoustic
+    - Strummed Acoustic 2
   - SESSION HORNS PRO
-  - GEORGE DUKE SOUL TREASURES
   - SESSION STRINGS PRO 2
-  - THE MAVERICK
-  - THE GRANDEUR
-  - THE GENTLEMAN
+  - The MAVERICK
+  - The GRANDEUR
+  - The GENTLEMAN
   - SCARBEE A-200
+  - Una Corda
   - VINTAGE ORGANS
   - SCARBEE MARK I  
   - INDIA
   - Cuba
   - Middle East
-  - SCARBEE PRE-BASS
-  - SCARBEE PRE-BASS AMPED
-  - BALINESE GAMELAN
-  - SCARBEE CLAVINET/PIANET
-  - SCARBEE MM-BASS
-  - SCARBEE MM-BASS AMPED
-  - SCARBEE JAY-BASS
+  - SCARBEE 
+    - PRE-BASS
+    - PRE-BASS AMPED
+    - CLAVINET/PIANET
+    - MM-BASS
+    - MM-BASS AMPED
+    - JAY-BASS
   - IGNITION KEYS
   - Glaze
   - DEFT LINES
@@ -129,12 +131,13 @@ draft: false
   - DAMAGE
   - STUDIO DRUMMER
   - WEST AFRICA
-  - ABBEY ROAD VINTAGE DRUMMER
-  - ABBEY ROAD 50S DRUMMER
-  - ABBEY ROAD 60S DRUMMER
-  - ABBEY ROAD 70S DRUMMER
-  - ABBEY ROAD 80S DRUMMER
-  - ABBEY ROAD MODERN DRUMMER
+  - ABBEY ROAD 
+    - VINTAGE DRUMMER
+    - 50S DRUMMER
+    - 60S DRUMMER
+    - 70S DRUMMER
+    - 80S DRUMMER
+    - MODERN DRUMMER
 - EFFECTS
   - OZONE 10 STANDARD
   - BX_CONSOLE N
@@ -145,7 +148,7 @@ draft: false
   - MOLEKULAR
   - SUPERCHARGER GT
   - RAUM
-  - THE MOUTH
+  - The MOUTH
   - The Finger
   - RC 24
   - RC 48
@@ -159,12 +162,14 @@ draft: false
   - VC 2A
   - VC 76
   - VC 160
-  - CRUSH PACK – BITE
-  - CRUSH PACK – DIRT
-  - CRUSH PACK – FREAK
-  - MOD PACK – CHORAL
-  - MOD PACK – FLAIR
-  - MOD PACK – PHASIS
+  - CRUSH PACK
+    - BITE
+    - DIRT
+    - FREAK
+  - MOD PACK
+    - CHORAL
+    - FLAIR
+    - PHASIS
   - DRIVER
 - EXPANSIONS
   - FREE FORM
