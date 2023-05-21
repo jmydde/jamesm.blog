@@ -9,26 +9,6 @@
       <url>https://jamesm.blog/papermod-cover.png</url>
       <link>https://jamesm.blog/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Jan 2022 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/devops/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Monitoring</title>
-      <link>https://jamesm.blog/devops/monitoring/</link>
-      <pubDate>Fri, 21 Jan 2022 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/devops/monitoring/</guid>
-      <description>Overview &amp;hellip;
-Tools AWS CloudWatch - Observe and monitor resources and applications on AWS, on premises, and on other clouds Datadog - Cloud Monitoring as a Service Application Performance Monitoring (APM), Application Security Management, Application Vulnerability Management, Cloud SIEM, Container Monitoring, Cost Management, CSPM, DB Monitoring, Infrastructure Monitoring, Sensitive Data Scanner, Service Catalog &amp;hellip; Graphana Prometheus </description>
-    </item>
-    
-    <item>
-      <title>DevOps Training Links</title>
-      <link>https://jamesm.blog/devops/training-links/</link>
-      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/devops/training-links/</guid>
-      <description>AWS Associate Level Exams AWS Certified Developer (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) AWS Solutions Architect (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) AWS SysOps Administrator (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) Professional Level Exams AWS DevOps Engineer Online Courses AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru) https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01 (Pluralsight) Whitepapers AWS DevOps Blue/Green Deployments CI/CD on AWS Development &amp;amp; Test Environments Infrastructure-as-Code Jenkins on AWS Microservices on AWS Running Containerized Microservices on AWS Solutions Architect Online Courses AWS Certified Solutions Architect - Professional (Cloud Guru) Other AWS Cognito Introduction to Amazon Cognito (Cloud Guru) CI/CD AWS CodePipeline/Build Azure DevOps Continuous Delivery and DevOps with Azure DevOps: Source Control with Git (Pluralsight) Deploying Microservices to Kubernetes using Azure DevOps - Whizlabs (Whizlabs) Advanced Azure DevOps and AKS Patterns for Scalable Solutions Course (Whizlabs) Jenkins Docker &amp;amp; Containers Hands-on Labs https://www.</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://jamesm.blog/devops/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

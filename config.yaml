@@ -1,20 +1,20 @@
-baseURL: "https://jamesm.blog/"
-title: jamesm.blog
+baseURL:  "https://jamesm.blog/"
+title:    jamesm.blog
 paginate: 5
-theme: hugo-PaperMod
+theme:    hugo-PaperMod
 
 enableInlineShortcodes: true
-enableRobotsTXT: true
-buildDrafts: true
-buildFuture: false
-buildExpired: false
-enableEmoji: true
-pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+enableRobotsTXT:        true
+buildDrafts:            false
+buildFuture:            false
+buildExpired:           false
+enableEmoji:            true
+pygmentsUseClasses:     true
+#googleAnalytics:        UA-123-45
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    #minifyOutput: true
 
 languages:
     en:

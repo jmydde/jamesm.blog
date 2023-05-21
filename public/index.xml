@@ -10,32 +10,24 @@
       <link>https://jamesm.blog/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 20 May 2023 14:53:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 12:54:16 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Music Production</title>
+      <title>About Me</title>
+      <link>https://jamesm.blog/about/about/</link>
+      <pubDate>Sun, 21 May 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/about/about/</guid>
+      <description>About me &amp;hellip;
+Social Media Facebook GitHub Instagram LinkedIn Twitter </description>
+    </item>
+    
+    <item>
+      <title>My Music Hardware &amp; Software</title>
       <link>https://jamesm.blog/music-production/music-production/</link>
       <pubDate>Sat, 20 May 2023 14:53:39 +0100</pubDate>
       
       <guid>https://jamesm.blog/music-production/music-production/</guid>
-      <description>Hardware Current Yamaha Motif ES-8 Native Instruments Komplete Kontrol Past Roland R8 https://www.vintagesynth.com/roland/r8.php Software Native Instruments Komplete </description>
-    </item>
-    
-    <item>
-      <title>My Websites</title>
-      <link>https://jamesm.blog/ideas/my-websites/</link>
-      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ideas/my-websites/</guid>
-      <description>Current DevOpsForum.uk - UK DevOps Forum JamesM.blog - My personal blog PolkaView.io - Polkadot Dashboards Not Started CloudETL.io - Cloud-based ETL Tool DataForum.uk - UK Data Forum DevForum.uk - UK Developers Forum DivoceForum.uk - UK Divorce Forum HyperAuto.ai - Hyper Automation Archived BlockForum.uk - UK Blockchain Forum ClubTheWorld.uk - ClubTheWorld Community (prviously ClubTheWorld.com &amp;amp; ClubbingNetwork.com) Coiners.uk - BLockchain Forum DataTransforms.com - Data Transforms LTD KatKinz.com - Katie&amp;rsquo;s web site PolkaCloud.io </description>
-    </item>
-    
-    <item>
-      <title>Quotes</title>
-      <link>https://jamesm.blog/quotes/quotes/</link>
-      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/quotes/quotes/</guid>
-      <description>Famous &amp;hellip; Friends John B John V Paul A Phil B Shika S </description>
+      <description>Music Hardware Current Yamaha Motif ES8 Native Instruments Komplete Kontrol M32 Native Instruments Maschine MK3 Past Casio PT-50 JVC KB-700 Roland R8 Yamaha SY85 Music Software Native Instruments Komplete Ultimate </description>
     </item>
     
     <item>
@@ -67,25 +59,6 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
       
       <guid>https://jamesm.blog/tools/notion/</guid>
       <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
-    </item>
-    
-    <item>
-      <title>Monitoring</title>
-      <link>https://jamesm.blog/devops/monitoring/</link>
-      <pubDate>Fri, 21 Jan 2022 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/devops/monitoring/</guid>
-      <description>Overview &amp;hellip;
-Tools AWS CloudWatch - Observe and monitor resources and applications on AWS, on premises, and on other clouds Datadog - Cloud Monitoring as a Service Application Performance Monitoring (APM), Application Security Management, Application Vulnerability Management, Cloud SIEM, Container Monitoring, Cost Management, CSPM, DB Monitoring, Infrastructure Monitoring, Sensitive Data Scanner, Service Catalog &amp;hellip; Graphana Prometheus </description>
-    </item>
-    
-    <item>
-      <title>DevOps Training Links</title>
-      <link>https://jamesm.blog/devops/training-links/</link>
-      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/devops/training-links/</guid>
-      <description>AWS Associate Level Exams AWS Certified Developer (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) AWS Solutions Architect (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) AWS SysOps Administrator (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) Professional Level Exams AWS DevOps Engineer Online Courses AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru) https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01 (Pluralsight) Whitepapers AWS DevOps Blue/Green Deployments CI/CD on AWS Development &amp;amp; Test Environments Infrastructure-as-Code Jenkins on AWS Microservices on AWS Running Containerized Microservices on AWS Solutions Architect Online Courses AWS Certified Solutions Architect - Professional (Cloud Guru) Other AWS Cognito Introduction to Amazon Cognito (Cloud Guru) CI/CD AWS CodePipeline/Build Azure DevOps Continuous Delivery and DevOps with Azure DevOps: Source Control with Git (Pluralsight) Deploying Microservices to Kubernetes using Azure DevOps - Whizlabs (Whizlabs) Advanced Azure DevOps and AKS Patterns for Scalable Solutions Course (Whizlabs) Jenkins Docker &amp;amp; Containers Hands-on Labs https://www.</description>
     </item>
     
     <item>
