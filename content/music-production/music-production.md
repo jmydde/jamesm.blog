@@ -25,150 +25,230 @@ draft: false
   - [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
 
 ## Music Software
-- [Native Instruments Komplete Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
-  - ORCHESTRAL AND CINEMATIC INSTRUMENTS
-    - Action Strings 2
-    - STRADIVARI VIOLIN
-    - PIANO COLORS
-    - ASHLIGHT
-    - PHARLIGHT
-    - STRAYLIGHT
-    - Thrill
-    - MYSTERIA
-    - Rise & Hit
-    - Action Strikes
-    - MALLET FLUX
-    - EMOTIVE STRINGS
-    - KINETIC METAL
-    - The Giant
-    - KINETIC TOYS
-    - SYMPHONY ESSENTIALS
-      - STRING ENSEMBLE
-      - BRASS ENSEMBLE
-      - WOODWIND ENSEMBLE
-      - BRASS SOLO
-      - WOODWIND SOLO
-      - PERCUSSION
-  - SYNTHESIZERS
-    - MASSIVE X
-    - RAZOR
-    - REAKTOR 6
-    - FORM
-    - SUPER 8
-    - ROUNDS
-    - TRK-01
-    - BX_OBERHAUSEN
-    - KONTOUR
-    - MONARK
-    - MASSIVE
-    - FM8
-    - REAKTOR PRISM
-    - RETRO MACHINES MK2
-    - REAKTOR SPARK
-    - BLOCKS PRIMES
-    - SKANNER XT
-    - FLESH
-  - SAMPLED INSTRUMENTS
-    - 40’S VERY OWN KEYS
-    - KONTAKT 7
-    - PLAYBOX
-    - SESSION GUITARIST
-      - ELECTRIC MINT
-      - PICKED NYLON
-    - EAST ASIA
-    - SEQUIS
-    - ALICIA'S KEYS
-    - UNA CORDA
-    - SESSION BASSIST – PRIME BASS
-    - SOUL SESSIONS
-    - SCARBEE RICKENBACKER BASS
-    - NOIRE
-    - SESSION GUITARIST – ELECTRIC VINTAGE
-    - SESSION GUITARIST – ELECTRIC SUNBURST DELUXE
-    - SESSION GUITARIST – STRUMMED ACOUSTIC
-    - SESSION GUITARIST – STRUMMED ACOUSTIC 2
-    - SESSION GUITARIST – PICKED ACOUSTIC
-    - SESSION HORNS PRO
-    - GEORGE DUKE SOUL TREASURES
-    - SESSION STRINGS PRO 2
-    - THE MAVERICK
-    - THE GRANDEUR
-    - THE GENTLEMAN
-    - SCARBEE A-200
-    - VINTAGE ORGANS
-    - SCARBEE MARK I  
-    - INDIA
-    - Cuba
-    - Middle East
-    - SCARBEE PRE-BASS
-    - SCARBEE PRE-BASS AMPED
-    - BALINESE GAMELAN
-    - SCARBEE CLAVINET/PIANET
-    - SCARBEE MM-BASS
-    - SCARBEE MM-BASS AMPED
-    - SCARBEE JAY-BASS
-    - IGNITION KEYS
-    - Glaze
-    - DEFT LINES
-    - CLOUD SUPPLY
-    - LO-FI GLOW
-    - MODULAR ICONS
-    - ETHEREAL EARTH
-    - MELTED VIBES
-    - HYBRID KEYS
-    - ANALOG DREAMS
-  - DRUMS AND PERCUSSION INSTRUMENTS
-    - BATTERY 4
-    - 40’S VERY OWN DRUMS
-    - POLYPLEX
-    - EMPIRE BREAKS
-    - DRUMLAB
-    - BUTCH VIG DRUMS
-    - DAMAGE
-    - STUDIO DRUMMER
-    - WEST AFRICA
-    - ABBEY ROAD VINTAGE DRUMMER
-    - ABBEY ROAD 50S DRUMMER
-    - ABBEY ROAD 60S DRUMMER
-    - ABBEY ROAD 70S DRUMMER
-    - ABBEY ROAD 80S DRUMMER
-    - ABBEY ROAD MODERN DRUMMER
-  - EFFECTS
-    - OZONE 10 STANDARD
-    - BX_CONSOLE N
-    - BX_LIMITER TRUE PEAK
-    - BX_CRISPYTUNER
-    - REPLIKA XT
-    - LO-FI-AF
-    - MOLEKULAR
-    - SUPERCHARGER GT
-    - RAUM
-    - THE MOUTH
-    - The Finger
-    - RC 24
-    - RC 48
-    - TRANSIENT MASTER
-    - ENHANCED EQ
-    - VARI COMP
-    - PASSIVE EQ
-- [UVI](https://www.uvi.net/)
-  - 8-Bit Synth
-  - Augmented Orchestra
-  - Austrian Grand
-  - BeatBox Anthology 2
-  - Drum Designer
-  - Dual Delay X
-  - Emulation II+
-  - FM Suite
-  - Key Suite Acoustic
-  - Key Suite Digital
-  - Key Suite Electric
-  - Meteor
-  - Percussion Factory
-  - Program 24
-  - PX Memories
-  - Quadra - Muted and Harmonics
-  - Scratch Machine
-  - Shade
-  - Sparkverb
-  - Synth Anthology 3
+
+### Native Instruments Komplete Ultimate
+- [Homepage](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
+- ORCHESTRAL AND CINEMATIC INSTRUMENTS
+  - Action Strings 2
+  - STRADIVARI VIOLIN
+  - PIANO COLORS
+  - ASHLIGHT
+  - PHARLIGHT
+  - STRAYLIGHT
+  - Thrill
+  - MYSTERIA
+  - Rise & Hit
+  - Action Strikes
+  - MALLET FLUX
+  - EMOTIVE STRINGS
+  - KINETIC METAL
+  - The Giant
+  - KINETIC TOYS
+  - SYMPHONY ESSENTIALS
+    - STRING ENSEMBLE
+    - BRASS ENSEMBLE
+    - WOODWIND ENSEMBLE
+    - BRASS SOLO
+    - WOODWIND SOLO
+    - PERCUSSION
+- SYNTHESIZERS
+  - MASSIVE X
+  - RAZOR
+  - REAKTOR 6
+  - FORM
+  - SUPER 8
+  - ROUNDS
+  - TRK-01
+  - BX_OBERHAUSEN
+  - KONTOUR
+  - MONARK
+  - MASSIVE
+  - FM8
+  - REAKTOR PRISM
+  - RETRO MACHINES MK2
+  - REAKTOR SPARK
+  - BLOCKS PRIMES
+  - SKANNER XT
+  - FLESH
+- SAMPLED INSTRUMENTS
+  - 40’S VERY OWN KEYS
+  - KONTAKT 7
+  - PLAYBOX
+  - SESSION GUITARIST
+    - ELECTRIC MINT
+    - PICKED NYLON
+  - EAST ASIA
+  - SEQUIS
+  - ALICIA'S KEYS
+  - UNA CORDA
+  - SESSION BASSIST – PRIME BASS
+  - SOUL SESSIONS
+  - SCARBEE RICKENBACKER BASS
+  - NOIRE
+  - SESSION GUITARIST – ELECTRIC VINTAGE
+  - SESSION GUITARIST – ELECTRIC SUNBURST DELUXE
+  - SESSION GUITARIST – STRUMMED ACOUSTIC
+  - SESSION GUITARIST – STRUMMED ACOUSTIC 2
+  - SESSION GUITARIST – PICKED ACOUSTIC
+  - SESSION HORNS PRO
+  - GEORGE DUKE SOUL TREASURES
+  - SESSION STRINGS PRO 2
+  - THE MAVERICK
+  - THE GRANDEUR
+  - THE GENTLEMAN
+  - SCARBEE A-200
+  - VINTAGE ORGANS
+  - SCARBEE MARK I  
+  - INDIA
+  - Cuba
+  - Middle East
+  - SCARBEE PRE-BASS
+  - SCARBEE PRE-BASS AMPED
+  - BALINESE GAMELAN
+  - SCARBEE CLAVINET/PIANET
+  - SCARBEE MM-BASS
+  - SCARBEE MM-BASS AMPED
+  - SCARBEE JAY-BASS
+  - IGNITION KEYS
+  - Glaze
+  - DEFT LINES
+  - CLOUD SUPPLY
+  - LO-FI GLOW
+  - MODULAR ICONS
+  - ETHEREAL EARTH
+  - MELTED VIBES
+  - HYBRID KEYS
+  - ANALOG DREAMS
+- DRUMS AND PERCUSSION INSTRUMENTS
+  - BATTERY 4
+  - 40’S VERY OWN DRUMS
+  - POLYPLEX
+  - EMPIRE BREAKS
+  - DRUMLAB
+  - BUTCH VIG DRUMS
+  - DAMAGE
+  - STUDIO DRUMMER
+  - WEST AFRICA
+  - ABBEY ROAD VINTAGE DRUMMER
+  - ABBEY ROAD 50S DRUMMER
+  - ABBEY ROAD 60S DRUMMER
+  - ABBEY ROAD 70S DRUMMER
+  - ABBEY ROAD 80S DRUMMER
+  - ABBEY ROAD MODERN DRUMMER
+- EFFECTS
+  - OZONE 10 STANDARD
+  - BX_CONSOLE N
+  - BX_LIMITER TRUE PEAK
+  - BX_CRISPYTUNER
+  - REPLIKA XT
+  - LO-FI-AF
+  - MOLEKULAR
+  - SUPERCHARGER GT
+  - RAUM
+  - THE MOUTH
+  - The Finger
+  - RC 24
+  - RC 48
+  - TRANSIENT MASTER
+  - ENHANCED EQ
+  - VARI COMP
+  - PASSIVE EQ
+  - SOLID BUS COMP
+  - SOLID DYNAMICS
+  - SOLID EQ
+  - VC 2A
+  - VC 76
+  - VC 160
+  - CRUSH PACK – BITE
+  - CRUSH PACK – DIRT
+  - CRUSH PACK – FREAK
+  - MOD PACK – CHORAL
+  - MOD PACK – FLAIR
+  - MOD PACK – PHASIS
+  - DRIVER
+- EXPANSIONS
+  - FREE FORM
+  - LIQUID ENERGY
+  - RHYTHM SOURCE
+  - SOUL MAGIC
+  - BODY MECHANIK
+  - BUMPIN FLAVA
+  - BACKYARD JAMS
+  - MOTHER BOARD
+  - NEO BOOGIE
+  - BASEMENT ERA
+  - CARBON DECAY
+  - AMPLIFIED FUNK
+  - AQUARIUS EARTH
+  - GLOBAL SHAKE
+  - INFINITE ESCAPE
+  - PURE DRIP
+  - DROP SQUAD
+  - FADED REELS
+  - PRISMATIC BLISS
+  - MOLTEN VEIL
+  - PLATINUM BOUNCE
+  - LAZER DICE
+  - MARBLE RIMS
+  - CARIBBEAN CURRENT
+  - ASTRAL FLUTTER
+  - CAVERN FLOOR
+  - GOLDEN KINGDOM
+  - BYTE RIOT
+  - DECODED FORMS
+  - INDIGO DUST
+  - NEON DRIVE
+  - LUCID MISSION
+  - LONDON GRIT
+  - RISING CRESCENT
+  - HALCYON SKY
+  - QUEENSBRIDGE STORY
+  - ELASTIC THUMP
+  - DEEP MATTER
+  - SOLAR BREEZE
+  - LILAC GLARE
+  - TRUE SCHOOL
+  - VELVET LOUNGE
+  - ARTIST EXPANSION: SASHA
+  - NOCTURNAL STATE
+  - STADIUM FLEX
+  - SPECTRUM QUAKE
+  - KINO
+  - Wake
+  - Fade
+  - Charge
+  - Beam
+  - Bump
+  - Haze
+  - Quest
+  - Bounce
+  - Rush
+  - Pulse
+  - Scene
+  - Moebius 
+  - MECHANIX
+  - Drive
+  - Our House
+
+### UVI
+- [Homepage](https://www.uvi.net/)
+- 8-Bit Synth
+- Augmented Orchestra
+- Austrian Grand
+- BeatBox Anthology 2
+- Drum Designer
+- Dual Delay X
+- Emulation II+
+- FM Suite
+- Key Suite Acoustic
+- Key Suite Digital
+- Key Suite Electric
+- Meteor
+- Percussion Factory
+- Program 24
+- PX Memories
+- Quadra - Muted and Harmonics
+- Scratch Machine
+- Shade
+- Sparkverb
+- Synth Anthology 3
