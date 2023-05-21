@@ -5,11 +5,13 @@ draft: true
 ---
 
 # Famous
+* "We're not at home to Mr Cockup"
 * ...
 
 # Friends
 * John B
+  * "Focus on the good stuff"
 * John V
 * Paul A
 * Phil B
-* Shika S
+* Shikha P
