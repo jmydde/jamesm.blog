@@ -6,10 +6,28 @@ draft: true
 
 ## Favourite TV
 
+### Documentaries
+* ...
+
 ### Comedy
 * Blackadder
 * Fawlty Towers
 * The Office
 
+### Magic
+* Paul Daniels Magic Show (1979 - 1994)
+
 ## Favourite Movies
 * ...
+
+## Favourite Actors
+
+## Favourite Comedians
+* John Cleese
+* Stuart Lee
+
+## Favourite Physicists
+* Max Tegmark
+* Michio Kaku
+* Neil deGrasse Tyson
+* Richard Feynman

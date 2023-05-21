@@ -5,19 +5,19 @@ draft: false
 ---
 
 # Favourite Producers
-- Above & Beyond
-- Armin Van Buuren
-- Calvin Harris
-- DJ Fresh
-- Jeremy Ellis
-- Mezerg
-  - [YouTube](https://www.youtube.com/channel/UCUaQxmkh81tJAWrreHe3CJg)
-- Paul Hardcastle
-- Technotronic
+- [Above & Beyond](https://www.youtube.com/@aboveandbeyond)
+- [Anthony Marinelli](https://www.youtube.com/@anthonymarinellimusic)
+- [Armin Van Buuren](https://www.youtube.com/@arminvanbuuren)
+- [Calvin Harris](https://www.youtube.com/channel/UCIjYyZxkFucP_W-tmXg_9Ow)
+- [DJ Fresh](https://www.youtube.com/channel/UC0y8P5OjTKLTpnDt62WJzCA)
+- [Jeremy Ellis](https://www.youtube.com/@jeremyellismusic)
+- [Mezerg](https://www.youtube.com/channel/UCUaQxmkh81tJAWrreHe3CJg)
+- [Paul Hardcastle](https://paulhardcastle.com/)
+- [Technotronic](https://www.youtube.com/@TechnotronicVEVO)
 
 # Favourite DJs
-- Andy Farley
-- Andy Whitby
+- [Andy Farley](https://soundcloud.com/andyfarley)
+- [Andy Whitby](https://www.youtube.com/@BounceHeaven)
 - BK
 - Carl Nicholson
 - Guyver
