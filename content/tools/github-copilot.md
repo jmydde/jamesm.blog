@@ -1,11 +1,13 @@
 ---
 title: "GitHub Copilot"
 date: 2023-05-14T11:51:18+01:00
-draft: true
+draft: false
 ---
-GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor
+[GitHub Copilot](https://github.com/features/copilot) is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
 
-Focus on more satisfying work, be more producttive, speed up repetitve tasks
+GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
+
+Focus on more satisfying work, be more producttive, speed up repetitve tasks.
 
 Supported IDEs
 - Neovim
@@ -16,5 +18,4 @@ Supported IDEs
 Price: $10 / month
 
 Links
-- Homepage: https://github.com/features/copilot
-- Documentation: https://docs.github.com/en/copilot
+- [Documentation](https://docs.github.com/en/copilot)
