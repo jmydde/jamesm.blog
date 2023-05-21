@@ -1,5 +1,5 @@
 ---
-title: "Music"
+title: "Favourites"
 date: 2020-01-01T14:53:39+01:00
 draft: false
 ---

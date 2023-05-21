@@ -26,33 +26,33 @@ languages:
           series: series
         menu:
             main:
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Ideas
-                  url: /ideas
-                - name: Tools
-                  url: /tools
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: About
+                  url: /about
                 - name: DevOps
                   url: /devops
                 - name: Future Tech
                   url: /future-tech
-              # - name: Posts
-              #   url: posts/
-                - name: Personal Development
-                  url: /personal-development
+                - name: Ideas
+                  url: /ideas
                 - name: Music
                   url: /music
                 - name: Music Production
                   url: /music-production
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: About
-                  url: /about-me
+                - name: Personal Development
+                  url: /personal-development
+                - name: Quotes
+                  url: /quotes
+                - name: Tools
+                  url: /tools
+              # - name: Archive
+              #   url: archives
+              #   weight: 5
+              # - name: Tags
+              #   url: tags/
+              #   weight: 10
 
 outputs:
     home:
@@ -61,10 +61,9 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    env: production
+  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     author: James M
-    # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
     # disableThemeToggle: true
