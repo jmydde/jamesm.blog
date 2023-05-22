@@ -1,9 +1,8 @@
 ---
-title: "YouTube Channels"
+title: "YouTube"
 date: 2023-05-20T14:53:39+01:00
 draft: false
 ---
-
 ## Podcasts
 * [Joe Rogan](https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk) - The Joe Rogan Experience podcast is a long form conversation hosted by comedian Joe Rogan with friends and guests that have included comedians, actors, musicians, MMA fighters, authors, artists, and beyond
 * [Lex Fridman](https://www.youtube.com/@lexfridman) - Conversations about science, technology, history, philosophy and the nature of intelligence, consciousness, love, and power
@@ -13,3 +12,5 @@ draft: false
 * [Jef Gibbons](https://www.youtube.com/@jefgibbons)
 * [Sanjay C](https://www.youtube.com/@SanjayC)
 * [Simeon Amburgey](https://www.youtube.com/@PraiseTracks)
+* [Venus Theory](https://www.youtube.com/@VenusTheory)
+* [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack)

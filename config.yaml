@@ -29,8 +29,8 @@ languages:
                 - name: Search
                   url: search/
                   weight: 10
-                - name: YouTube
-                  url: /youtube
+                - name: Links
+                  url: /links
                 - name: About
                   url: /about
                 - name: DevOps
