@@ -2,44 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesm.blog/devops/</loc>
-    <lastmod>2023-05-21T23:07:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/devops/books/</loc>
-    <lastmod>2023-05-21T23:07:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2023-05-21T23:07:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/devops/github/</loc>
-    <lastmod>2023-05-21T23:07:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tools/chatgpt-app/</loc>
-    <lastmod>2023-05-21T19:05:35+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tools/</loc>
-    <lastmod>2023-05-21T19:05:35+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/about/</loc>
     <lastmod>2023-05-21T12:54:16+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/links/blogs/</loc>
-    <lastmod>2023-05-21T11:50:32+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/links/</loc>
-    <lastmod>2023-05-21T11:50:32+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/music/</loc>
-    <lastmod>2023-05-20T14:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/music/hardware-software/</loc>
-    <lastmod>2023-05-20T14:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/links/youtube/</loc>
-    <lastmod>2023-05-20T14:53:39+01:00</lastmod>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-05-21T12:54:16+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tools/speechify/</loc>
     <lastmod>2023-05-20T12:54:16+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tools/</loc>
+    <lastmod>2023-05-20T12:54:16+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2023-05-18T19:05:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/chatgpt-app-ios/</loc>
+    <lastmod>2023-05-18T19:05:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tools/github-copilot/</loc>
     <lastmod>2023-05-14T11:51:18+01:00</lastmod>
@@ -50,12 +29,34 @@
     <loc>https://jamesm.blog/tools/notion/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/links/</loc>
+    <lastmod>2023-05-10T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/links/youtube-channels/</loc>
+    <lastmod>2023-05-10T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/cool-github-projects/</loc>
+    <lastmod>2023-04-21T23:07:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/</loc>
+    <lastmod>2023-04-21T23:07:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/books/</loc>
+    <lastmod>2023-04-21T23:07:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/blogs/</loc>
+    <lastmod>2023-04-21T11:50:32+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/music/</loc>
+    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/music/my-hardware-software/</loc>
+    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/music/favourites/</loc>
     <lastmod>2020-01-01T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/categories/</loc>
-  </url><url>
-    <loc>https://jamesm.blog/future-tech/</loc>
   </url><url>
     <loc>https://jamesm.blog/ideas/</loc>
   </url><url>

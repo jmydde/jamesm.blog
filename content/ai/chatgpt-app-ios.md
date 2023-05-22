@@ -1,6 +1,6 @@
 ---
-title: "ChatGPT App (iOS)"
-date: 2023-05-21T19:05:35+01:00
+title: "OpenAI release ChatGPT app (iOS)"
+date: 2023-05-18T19:05:35+01:00
 draft: false
 ---
 OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
@@ -14,3 +14,5 @@ Discover the versatility of ChatGPT:
 * **Creative Inspiration:** Generate gift ideas, outline presentations, or write the perfect poem.
 * **Professional Input:** Boost productivity with idea feedback, note summarization, and technical topic assistance.
 * **Learning Opportunities:** Explore new languages, modern history, and more at your own pace.
+
+_Note_: Android app coming soon

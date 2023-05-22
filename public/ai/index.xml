@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on jamesm.blog</title>
+    <link>https://jamesm.blog/ai/</link>
+    <description>Recent content in AI on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 18 May 2023 19:05:35 +0100</lastBuildDate><atom:link href="https://jamesm.blog/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI release ChatGPT app (iOS)</title>
+      <link>https://jamesm.blog/ai/chatgpt-app-ios/</link>
+      <pubDate>Thu, 18 May 2023 19:05:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
+      <description>OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
+Download on the App Store The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS.</description>
+    </item>
+    
+  </channel>
+</rss>

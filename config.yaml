@@ -29,14 +29,14 @@ languages:
         - name: Search
           url: search/
           weight: 10
+        - name: AI
+          url: /ai
         - name: Links
           url: /links
         - name: About
           url: /about
         - name: DevOps
           url: /devops
-        - name: Future Tech
-          url: /future-tech
         - name: Ideas
           url: /ideas
         - name: Music
@@ -66,8 +66,8 @@ params:
   displayFullLangName:            true
   images:                         ["papermod-cover.png"]
   mainSections: 
+    - ai
     - devops
-    - future-tech
     - ideas
     - links
     - music

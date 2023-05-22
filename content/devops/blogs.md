@@ -1,6 +1,6 @@
 ---
-title: "Blog Links"
-date: 2023-05-21T11:50:32+01:00
+title: "DevOps Blogs"
+date: 2023-04-21T11:50:32+01:00
 draft: false
 ---
 
@@ -9,7 +9,3 @@ draft: false
 * [AWS DevOps Blog](https://aws.amazon.com/blogs/devops/)
 * [Everything DevOps (Reddit)](https://www.reddit.com/r/devops/)
 * [Ricard](https://www.bejarano.io/) - SRE at Cisco
-
-## General
-* https://www.etsy.com/codeascraft
-* https://itrevolution.com/articles/
