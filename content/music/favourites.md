@@ -1,5 +1,5 @@
 ---
-title: "Favourite Producers, DJs, Artists, Bands, Concerts & Shows"
+title: "My Favourite Producers, DJs, Artists, Bands, Concerts & Shows"
 date: 2020-01-01T14:53:39+01:00
 draft: false
 ---
