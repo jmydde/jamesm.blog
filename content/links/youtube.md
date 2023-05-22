@@ -9,8 +9,11 @@ draft: false
 * [PBD Podcast](https://www.youtube.com/@PBDPodcast) - The PBD Podcast is hosted by Patrick Bet-David where he discusses a wide range of topics from business to current events, politics and sports
 
 ## Music Production
-* [Jef Gibbons](https://www.youtube.com/@jefgibbons)
-* [Sanjay C](https://www.youtube.com/@SanjayC)
-* [Simeon Amburgey](https://www.youtube.com/@PraiseTracks)
-* [Venus Theory](https://www.youtube.com/@VenusTheory)
-* [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack)
+* [Doctor Mix](https://www.youtube.com/@Doctormix) - Weekly reviews, tips & techniques on music production, mixing and mastering
+* [Jef Gibbons](https://www.youtube.com/@jefgibbons) - Video production, photography & music production
+* [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw) - Synthesizer reviews & music production
+* [Sanjay C](https://www.youtube.com/@SanjayC) - Music production, gear & tips
+* [Simeon Amburgey](https://www.youtube.com/@PraiseTracks) - Virtual instruments from developers all over the world
+* [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg) - Electronic music producer from the UK
+* [Venus Theory](https://www.youtube.com/@VenusTheory) - Music production & reviews
+* [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack) - Music production & reviews
