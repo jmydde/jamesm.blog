@@ -12,44 +12,41 @@ theme:                  hugo-PaperMod
 title:                  jamesm.blog
 
 minify:
-  disableXML: true
+  disableXML:    true
   #minifyOutput: true
 
 languages:
   en:
-      languageName: "English"
-      weight: 1
-      taxonomies:
-        category: categories
-        tag: tags
-        series: series
-      menu:
-          main:
-              - name: Search
-                url: search/
-                weight: 10
-              - name: Links
-                url: /links
-              - name: About
-                url: /about
-              - name: DevOps
-                url: /devops
-              - name: Future Tech
-                url: /future-tech
-              - name: Ideas
-                url: /ideas
-              - name: Music
-                url: /music
-              - name: Quotes
-                url: /quotes
-              - name: Tools
-                url: /tools
-            # - name: Archive
-            #   url: archives
-            #   weight: 5
-            # - name: Tags
-            #   url: tags/
-            #   weight: 10
+    languageName: "English"
+    weight:       1
+    taxonomies:
+      category: categories
+      tag:      tags
+      series:   series
+    menu:
+      main:
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Links
+          url: /links
+        - name: About
+          url: /about
+        - name: DevOps
+          url: /devops
+        - name: Future Tech
+          url: /future-tech
+        - name: Ideas
+          url: /ideas
+        - name: Music
+          url: /music
+        - name: Quotes
+          url: /quotes
+        - name: Tools
+          url: /tools
+        - name: Tags
+          url: tags/
+          weight: 10
 
 outputs:
   home:
@@ -58,31 +55,30 @@ outputs:
     - RSS
 
 params:
-  author: James M
-  env: production
- #description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-
-  defaultTheme: auto
-  # disableThemeToggle: true
-  ShowShareButtons: true
-  ShowReadingTime: true
-  # disableSpecial1stPost: true
-  displayFullLangName: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
+  author:                         James M
+  #comments:                      false
+  env:                            production
+  #description:                   "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  defaultTheme:                   auto
+  #disableSpecial1stPost:         true
+  #disableThemeToggle:            true
+  displayFullLangName:            true
+  images:                         ["papermod-cover.png"]
+  ShowCodeCopyButtons:            true
+  ShowBreadCrumbs:                true
+  ShowPostNavLinks:               true
+  ShowReadingTime:                true
   ShowRssButtonInSectionTermList: true
-  ShowToc: true
-  # comments: false
-  images: ["papermod-cover.png"]
+  ShowShareButtons:               true
+  ShowToc:                        true
 
   profileMode:
     enabled: false
     title: PaperMod
     imageUrl: "#"
     imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
+    #imageWidth: 120
+    #imageHeight: 120
     buttons:
       - name: Archives
         url: archives
@@ -107,48 +103,48 @@ params:
   #     Text: "Suggest Changes" # edit text
   #     appendFilePath: true # to append file path to Edit link
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
+  # label:
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
 
-    assets:
-        disableHLJS: true
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
+  assets:
+      disableHLJS: true
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
 
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
 
 markup:
   goldmark:
     renderer:
       unsafe: true
   highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    noClasses:      false
+    #anchorLineNos: true
+    #codeFences:    true
+    #guessSyntax:   true
+    #lineNos:       true
+    #style:         monokai
 
 privacy:
   vimeo:
