@@ -59,6 +59,7 @@ draft: false
 - Shades of Rhythm
 - The Beach Boys
 - The Communards
+- The Cure
 - The Piano Guys
 - Tony Mortimer
 - Years & Years
