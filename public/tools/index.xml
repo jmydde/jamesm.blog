@@ -23,20 +23,16 @@ The app lets users take photos of text and then listen to it read out loud.</des
     </item>
     
     <item>
-      <title>GitHub Copilot</title>
-      <link>https://jamesm.blog/tools/github-copilot/</link>
-      <pubDate>Sun, 14 May 2023 11:51:18 +0100</pubDate>
+      <title>Notion</title>
+      <link>https://jamesm.blog/tools/notion/</link>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tools/github-copilot/</guid>
-      <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
-GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
-Focus on more satisfying work, be more producttive, speed up repetitve tasks.
-Supported IDEs
-Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
+      <guid>https://jamesm.blog/tools/notion/</guid>
+      <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
     </item>
     
     <item>
-      <title>Brew Packages (MacOS)</title>
+      <title>Useful Homebrew packages (MacOS)</title>
       <link>https://jamesm.blog/tools/brew-packages/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       
@@ -45,12 +41,16 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     </item>
     
     <item>
-      <title>Notion</title>
-      <link>https://jamesm.blog/tools/notion/</link>
-      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
+      <title>GitHub Copilot</title>
+      <link>https://jamesm.blog/tools/github-copilot/</link>
+      <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tools/notion/</guid>
-      <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
+      <guid>https://jamesm.blog/tools/github-copilot/</guid>
+      <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
+GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
+Focus on more satisfying work, be more producttive, speed up repetitve tasks.
+Supported IDEs
+Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
     </item>
     
   </channel>

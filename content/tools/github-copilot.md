@@ -1,6 +1,6 @@
 ---
 title: "GitHub Copilot"
-date: 2023-05-14T11:51:18+01:00
+date: 2023-01-14T11:51:18+01:00
 draft: false
 ---
 [GitHub Copilot](https://github.com/features/copilot) is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
