@@ -1,5 +1,5 @@
 ---
-title: "GitHub Projects"
+title: "Useful GitHub Projects"
 date: 2023-05-21T23:07:18+01:00
 draft: false
 ---

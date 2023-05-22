@@ -8,6 +8,7 @@ enableRobotsTXT:        true
 #googleAnalytics:        UA-123-45
 paginate:               5
 pygmentsUseClasses:     true
+#theme:                  ananke
 theme:                  hugo-PaperMod
 title:                  jamesm.blog
 
@@ -64,6 +65,14 @@ params:
   #disableThemeToggle:            true
   displayFullLangName:            true
   images:                         ["papermod-cover.png"]
+  mainSections: 
+    - devops
+    - future-tech
+    - ideas
+    - links
+    - music
+    - tools
+    - tv-movies
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
   ShowPostNavLinks:               true
