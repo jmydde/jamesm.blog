@@ -37,6 +37,8 @@ languages:
           url: /about
         - name: DevOps
           url: /devops
+        - name: General
+          url: /general
         - name: Ideas
           url: /ideas
         - name: Music
@@ -68,6 +70,7 @@ params:
   mainSections: 
     - ai
     - devops
+    - general
     - ideas
     - links
     - music

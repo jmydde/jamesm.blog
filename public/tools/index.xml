@@ -41,6 +41,16 @@ The app lets users take photos of text and then listen to it read out loud.</des
     </item>
     
     <item>
+      <title>K9s - Kubernetes CLI</title>
+      <link>https://jamesm.blog/tools/k9s/</link>
+      <pubDate>Sat, 15 Apr 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/k9s/</guid>
+      <description>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
+https://k9scli.io/ </description>
+    </item>
+    
+    <item>
       <title>GitHub Copilot</title>
       <link>https://jamesm.blog/tools/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>

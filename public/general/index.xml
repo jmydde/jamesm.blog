@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>General on jamesm.blog</title>
+    <link>https://jamesm.blog/general/</link>
+    <description>Recent content in General on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 May 2023 14:53:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Worst User Interfaces</title>
+      <link>https://jamesm.blog/general/worst-uis/</link>
+      <pubDate>Mon, 15 May 2023 14:53:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/general/worst-uis/</guid>
+      <description>Engineers are competing for who can create the worst UI
+https://threadreaderapp.com/thread/1657755496852475906.html </description>
+    </item>
+    
+    <item>
+      <title>China syncs monkey brain with a computer</title>
+      <link>https://jamesm.blog/general/monkey-computer-sync/</link>
+      <pubDate>Sun, 07 May 2023 14:53:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/general/monkey-computer-sync/</guid>
+      <description>Chinese researchers claim to have successfully conducted the &amp;ldquo;world&amp;rsquo;s first&amp;rdquo; brain-computer interface (BCI) experiment on a monkey
+https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer </description>
+    </item>
+    
+  </channel>
+</rss>
