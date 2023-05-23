@@ -9,6 +9,7 @@ enableRobotsTXT:        true
 paginate:               5
 pygmentsUseClasses:     true
 #theme:                  ananke
+#theme:                  LoveIt
 theme:                  hugo-PaperMod
 title:                  jamesm.blog
 
