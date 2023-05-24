@@ -10,6 +10,7 @@ paginate:               5
 pygmentsUseClasses:     true
 #theme:                  ananke
 #theme:                  LoveIt
+#theme:                  hugo-paper
 theme:                  hugo-PaperMod
 title:                  jamesm.blog
 
@@ -86,17 +87,17 @@ params:
   ShowToc:                        true
 
   profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    #imageWidth: 120
+    enabled:      false
+    title:        PaperMod
+    imageUrl:     "#"
+    imageTitle:   my image
+    #imageWidth:  120
     #imageHeight: 120
     buttons:
       - name: Archives
-        url: archives
+        url:  archives
       - name: Tags
-        url: tags
+        url:  tags
 
   # homeInfoParams:
   #     Title: "jamesm.blog"
@@ -162,19 +163,19 @@ markup:
 privacy:
   vimeo:
     disabled: false
-    simple: true
+    simple:   true
 
   twitter:
-    disabled: false
+    disabled:  false
     enableDNT: true
-    simple: true
+    simple:    false
 
   instagram:
     disabled: false
-    simple: true
+    simple:   true
 
   youtube:
-    disabled: false
+    disabled:        false
     privacyEnhanced: true
 
 services:
