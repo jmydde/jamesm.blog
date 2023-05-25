@@ -202,6 +202,17 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
       <description>Producers Above &amp;amp; Beyond Anthony Marinelli Armin Van Buuren Calvin Harris DJ Fresh Jeremy Ellis Mezerg Paul Hardcastle Technotronic DJs Andy Farley Andy Whitby BK Carl Nicholson Guyver Jaguar Skills Paul Glazby Paul Maddox Arists &amp;amp; Bands Al Marconi Awesome 3 Barry Manilow Bronski Beat Carpenters Christopher Cross Coldplay Craig David Curiosity Killed The Cat D:Ream Dadi Freyr Deacon Blue Dead Or Alive Eagles Erasure Fleetwood Mac Gloria Estefan Howard Jones Hyper Go Go Josh Groban Kool &amp;amp; The Gang Kylie Minogue Level 42 Lighthouse Family Limahl Maria Carey Matt Johnson Michael Jackson Pet Shop Boys Rozalla Shades of Rhythm The Beach Boys The Communards The Cure The Piano Guys Tony Mortimer Years &amp;amp; Years Youngr Concerts Erasure Howard Jones Pet Shop Boys Prince - Lovesexy Theatre Shows Cats Les Miserables Mary Poppins Phantom of the Opera Woman in White </description>
     </item>
     
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://jamesm.blog/general/test/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/general/test/</guid>
+      <description>Headings Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Links Internal: Heading 1 External: Google Lists item 1 sub-item 1 sub-item 2 item 2 Task Lists Write the press release Update the website Contact the media Highlight - not working I need to highlight these ==very important words==.
+Strikethrough The world is flat. We now know that the world is round.
+Emojis Gone camping! ⛺ Be back soon.</description>
+    </item>
+    
     
   </channel>
 </rss>
