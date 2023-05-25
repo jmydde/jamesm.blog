@@ -45,13 +45,13 @@ languages:
           url: /ideas
         - name: Music
           url: /music
-        - name: Quotes
-          url: /quotes
         - name: Tools
           url: /tools
         - name: Tags
           url: tags/
           weight: 10
+        - name: Web3
+          url: /web3
 
 outputs:
   home:
@@ -78,6 +78,7 @@ params:
     - music
     - tools
     - tv-movies
+    - web3
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
   ShowPostNavLinks:               true

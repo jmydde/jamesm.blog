@@ -1,12 +1,16 @@
 ---
 title: "Quotes"
-date: 2023-05-20T12:54:16+01:00
+date: 2020-01-01T12:54:16+01:00
 draft: true
 ---
 
 # Famous
 * "We're not at home to Mr Cockup"
-* ...
+
+# General
+- "What's the worst that can happen?"
+- "It is what it is"
+- "We are where we are"
 
 # Friends
 * John B
