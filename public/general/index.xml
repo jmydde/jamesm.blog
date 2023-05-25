@@ -4,11 +4,6 @@
     <title>General on jamesm.blog</title>
     <link>https://jamesm.blog/general/</link>
     <description>Recent content in General on jamesm.blog</description>
-    <image>
-      <title>jamesm.blog</title>
-      <url>https://jamesm.blog/papermod-cover.png</url>
-      <link>https://jamesm.blog/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 15 May 2023 14:53:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -21,6 +16,10 @@
 This is hilarious. Engineers are competing who creates the worst UI on Reddit. I think the winners are:
 1/ Enter your phone number pic.twitter.com/944duji1Im
 &amp;mdash; Aleksandr Volodarsky (@volodarik) May 14, 2023 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Sunday read.<br><br>This is hilarious. Engineers are competing who creates the worst UI on Reddit. <br><br>I think the winners are:<br><br>1/ Enter your phone number <a href="https://t.co/944duji1Im">pic.twitter.com/944duji1Im</a></p>&mdash; Aleksandr Volodarsky (@volodarik) <a href="https://twitter.com/volodarik/status/1657755496852475906?ref_src=twsrc%5Etfw">May 14, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -31,6 +30,11 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
       <guid>https://jamesm.blog/general/monkey-computer-sync/</guid>
       <description>Chinese researchers claim to have successfully conducted the &amp;ldquo;world&amp;rsquo;s first&amp;rdquo; brain-computer interface (BCI) experiment on a monkey
 https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer </description>
+      <content:encoded><![CDATA[<p>Chinese researchers claim to have successfully conducted the &ldquo;world&rsquo;s first&rdquo; brain-computer interface (BCI) experiment on a monkey</p>
+<ul>
+<li><a href="https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer">https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -42,6 +46,10 @@ https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-compu
       <description>15 Powerful Visuals About Psychology &amp;amp; Life
 1. pic.twitter.com/3qCPGoSLvv
 &amp;mdash; Mind Essentials (@Mind_Essentials) October 26, 2022 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">15 Powerful Visuals About Psychology &amp; Life<br><br>1. <a href="https://t.co/3qCPGoSLvv">pic.twitter.com/3qCPGoSLvv</a></p>&mdash; Mind Essentials (@Mind_Essentials) <a href="https://twitter.com/Mind_Essentials/status/1585291946586619909?ref_src=twsrc%5Etfw">October 26, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -55,6 +63,91 @@ Code Block # some code echo &amp;#34;Hello World&amp;#34; Code Block with Highli
 &amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 Vimeo YouTube Instagram (requires an Access Token)
 Buttons (not working)
 Columns (not working)</description>
+      <content:encoded><![CDATA[<h1 id="code">Code</h1>
+<p><code>echo &quot;Hello World&quot;</code></p>
+<h1 id="code-block">Code Block</h1>
+<pre tabindex="0"><code># some code
+echo &#34;Hello World&#34;
+</code></pre><h1 id="code-block-with-highlighting">Code Block with Highlighting</h1>
+<p>not working ?
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl"><span class="c1"># some code</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hello World&#34;</span></span></span></code></pre></td></tr></table>
+</div>
+</div></p>
+<h1 id="figure">Figure</h1>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg"/> <figcaption>
+            Google Logo
+        </figcaption>
+</figure>
+
+<h1 id="github-gist">GitHub Gist</h1>
+<p><a href="https://gist.github.com/sansmischevia/5148109">https://gist.github.com/sansmischevia/5148109</a>
+<script type="application/javascript" src="https://gist.github.com/sansmischevia/5148109.js"></script>
+</p>
+<h1 id="tweet">Tweet</h1>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Owl bet you&#39;ll lose this staring contest 🦉 <a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC</a></p>&mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) <a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h1 id="vimeo">Vimeo</h1>
+
+
+
+
+
+
+<style>
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+</style>
+
+
+<div class="s_video_simple __h_video">
+<a href="https://vimeo.com/5.5073825e&#43;07" rel="noopener" target="_blank">
+
+
+<img src="https://i.vimeocdn.com/video/424130492-d4f7b89b408e257d26f9385e1a3cce0b96784fe6833362e857e2702b4adaec5d-d_295x166" srcset="https://i.vimeocdn.com/video/424130492-d4f7b89b408e257d26f9385e1a3cce0b96784fe6833362e857e2702b4adaec5d-d_295x166 1x, https://i.vimeocdn.com/video/424130492-d4f7b89b408e257d26f9385e1a3cce0b96784fe6833362e857e2702b4adaec5d-d_295x166 2x" alt="OVERVIEW">
+<div class="play"><svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"><circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"></circle><path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"></path></svg></div></a></div>
+<h1 id="youtube">YouTube</h1>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h1 id="instagram">Instagram</h1>
+<p>(requires an Access Token)</p>
+<h1 id="buttons">Buttons</h1>
+<p>(not working)</p>
+<h1 id="columns">Columns</h1>
+<p>(not working)</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -66,6 +159,98 @@ Columns (not working)</description>
       <description>Headings Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Links Internal: Heading 1 External: Google Lists item 1 sub-item 1 sub-item 2 item 2 Task Lists Write the press release Update the website Contact the media Highlight - not working I need to highlight these ==very important words==.
 Strikethrough The world is flat. We now know that the world is round.
 Emojis Gone camping! ⛺ Be back soon.</description>
+      <content:encoded><![CDATA[<h1 id="headings">Headings</h1>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h1 id="links">Links</h1>
+<ul>
+<li>Internal: <a href="#heading-1">Heading 1</a></li>
+<li>External: <a href="https://google.com">Google</a></li>
+</ul>
+<h1 id="lists">Lists</h1>
+<ul>
+<li>item 1
+<ul>
+<li>sub-item 1</li>
+<li>sub-item 2</li>
+</ul>
+</li>
+<li>item 2</li>
+</ul>
+<h1 id="task-lists">Task Lists</h1>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Write the press release</li>
+<li><input disabled="" type="checkbox"> Update the website</li>
+<li><input disabled="" type="checkbox"> Contact the media</li>
+</ul>
+<h1 id="highlight---not-working">Highlight - not working</h1>
+<p>I need to highlight these ==very important words==.</p>
+<h1 id="strikethrough">Strikethrough</h1>
+<p><del>The world is flat.</del> We now know that the world is round.</p>
+<h1 id="emojis">Emojis</h1>
+<p>Gone camping! ⛺ Be back soon.</p>
+<p>That is so funny! 😂</p>
+<h1 id="table">Table</h1>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<h1 id="table-alignment">Table Alignment</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Syntax</th>
+<th style="text-align:center">Description</th>
+<th style="text-align:right">Test Text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Header</td>
+<td style="text-align:center">Title</td>
+<td style="text-align:right">Here&rsquo;s this</td>
+</tr>
+<tr>
+<td style="text-align:left">Paragraph</td>
+<td style="text-align:center">Text</td>
+<td style="text-align:right">And more</td>
+</tr>
+</tbody>
+</table>
+<h1 id="code-block">Code Block</h1>
+<pre tabindex="0"><code>{
+  &#34;firstName&#34;: &#34;John&#34;,
+  &#34;lastName&#34;: &#34;Smith&#34;,
+  &#34;age&#34;: 25
+}
+</code></pre><h1 id="syntax-highlighting---not-working">Syntax Highlighting - not working</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;John&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">25</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h1 id="references">References</h1>
+<ul>
+<li><a href="https://www.markdownguide.org/extended-syntax/">https://www.markdownguide.org/extended-syntax/</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
   </channel>

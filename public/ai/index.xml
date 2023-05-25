@@ -4,11 +4,6 @@
     <title>AI on jamesm.blog</title>
     <link>https://jamesm.blog/ai/</link>
     <description>Recent content in AI on jamesm.blog</description>
-    <image>
-      <title>jamesm.blog</title>
-      <url>https://jamesm.blog/papermod-cover.png</url>
-      <link>https://jamesm.blog/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 23 May 2023 19:58:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -18,6 +13,29 @@
       
       <guid>https://jamesm.blog/ai/links/</guid>
       <description>Companies Google OpenAI Stability Tesla Tools Bard ChatGPT Cleanup.pictures - Remove unwanted object, defect, people or text from your pictures DALL·E 2 - Creates realistic images &amp;amp; art from a description in natural language Deep Nostalgia - Animate your family photos GitHub Copilot Krisp - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant LALAL.AI - Extract vocal, accompaniment &amp;amp; various instruments from any audio / video Murf - Text to speech AI voice generator Notion Soundraw - Royalty-free AI generated music Speechify </description>
+      <content:encoded><![CDATA[<h2 id="companies">Companies</h2>
+<ul>
+<li><a href="https://ai.google/">Google</a></li>
+<li><a href="https://openai.com/">OpenAI</a></li>
+<li><a href="https://stability.ai/">Stability</a></li>
+<li><a href="https://www.tesla.com/AI">Tesla</a></li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://bard.google.com/">Bard</a></li>
+<li><a href="https://openai.com/blog/chatgpt">ChatGPT</a></li>
+<li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - Remove unwanted object, defect, people or text from your pictures</li>
+<li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - Creates realistic images &amp; art from a description in natural language</li>
+<li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - Animate your family photos</li>
+<li><a href="https://github.com/features/copilot">GitHub Copilot</a></li>
+<li><a href="https://krisp.ai/">Krisp</a> - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
+<li><a href="https://www.lalal.ai/">LALAL.AI</a> - Extract vocal, accompaniment &amp; various instruments from any audio / video</li>
+<li><a href="https://murf.ai/">Murf</a> - Text to speech AI voice generator</li>
+<li><a href="https://www.notion.so/product/ai">Notion</a></li>
+<li><a href="https://soundraw.io/">Soundraw</a> - Royalty-free AI generated music</li>
+<li><a href="https://speechify.com/">Speechify</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -28,6 +46,21 @@
       <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
       <description>OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
 Download on the App Store The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS.</description>
+      <content:encoded><![CDATA[<p>OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.</p>
+<ul>
+<li><a href="https://apps.apple.com/app/openai-chatgpt/id6448311069">Download on the App Store</a></li>
+</ul>
+<p>The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS.</p>
+<p>Discover the versatility of ChatGPT:</p>
+<ul>
+<li><strong>Instant Answers:</strong> Get precise information without sifting through ads or multiple results.</li>
+<li><strong>Tailored Advice:</strong> Seek guidance on cooking, travel plans, or crafting thoughtful messages.</li>
+<li><strong>Creative Inspiration:</strong> Generate gift ideas, outline presentations, or write the perfect poem.</li>
+<li><strong>Professional Input:</strong> Boost productivity with idea feedback, note summarization, and technical topic assistance.</li>
+<li><strong>Learning Opportunities:</strong> Explore new languages, modern history, and more at your own pace.</li>
+</ul>
+<p><em>Note</em>: Android app coming soon</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -38,6 +71,14 @@ Download on the App Store The ChatGPT app is free to use and syncs your history 
       <guid>https://jamesm.blog/ai/tesla-bot-update-20230516/</guid>
       <description>Multiple fully Tesla-made bots now walking around &amp;amp; learning about the real world 🤖
 Join the Tesla AI team → https://tesla.com/ai</description>
+      <content:encoded><![CDATA[<p>Multiple fully Tesla-made bots now walking around &amp; learning about the real world 🤖</p>
+<p>Join the Tesla AI team → <a href="https://tesla.com/ai">https://tesla.com/ai</a></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/XiQkeWOFwmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -49,6 +90,10 @@ Join the Tesla AI team → https://tesla.com/ai</description>
       <description>Massive Update for Auto-GPT: Code Execution! 🤖💻
 Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute python scripts! This allows it to recursively debug, develop and self-improve... 🤯 👇 pic.twitter.com/GEkMb1LyxV
 &amp;mdash; Significant Gravitas (@SigGravitas) April 1, 2023 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Massive Update for Auto-GPT: Code Execution! 🤖💻<br><br>Auto-GPT is now able to write it&#39;s own code using <a href="https://twitter.com/hashtag/gpt4?src=hash&amp;ref_src=twsrc%5Etfw">#gpt4</a> and execute python scripts! <br><br>This allows it to recursively debug, develop and self-improve... 🤯 👇 <a href="https://t.co/GEkMb1LyxV">pic.twitter.com/GEkMb1LyxV</a></p>&mdash; Significant Gravitas (@SigGravitas) <a href="https://twitter.com/SigGravitas/status/1642181498278408193?ref_src=twsrc%5Etfw">April 1, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -59,6 +104,10 @@ Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute pyth
       <guid>https://jamesm.blog/ai/gpt-4/</guid>
       <description>Fully intent on being the next Skynet, OpenAI has released GPT-4, its most robust AI to date that the company claims is even more accurate while generating language and even better at solving problems. GPT-4 is so good at its job, in fact, that it report… https://t.co/Q2btYgtWSA
 &amp;mdash; GrindZero Tribe (@Snapzu_Blogs) March 16, 2023 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Fully intent on being the next Skynet, OpenAI has released GPT-4, its most robust AI to date that the company claims is even more accurate while generating language and even better at solving problems. GPT-4 is so good at its job, in fact, that it report… <a href="https://t.co/Q2btYgtWSA">https://t.co/Q2btYgtWSA</a></p>&mdash; GrindZero Tribe (@Snapzu_Blogs) <a href="https://twitter.com/Snapzu_Blogs/status/1636353726519689217?ref_src=twsrc%5Etfw">March 16, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
   </channel>

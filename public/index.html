@@ -11,16 +11,34 @@
 <meta name="description" content="">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.7140587df96a2b1a49eb723fa7063dc0c641a6cb638f3140e8d3beb4deae4f5c.css" integrity="sha256-cUBYfflqKxpJ63I/pwY9wMZBpstjjzFA6NO&#43;tN6uT1w=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.d13dc9670c54a799901d8f51eb366234127600b84f76504283993a1e6bb2ffd7.css" integrity="sha256-0T3JZwxUp5mQHY9R6zZiNBJ2ALhPdlBCg5k6Hmuy/9c=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
 <link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
-<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/json" href="https://jamesm.blog/index.json">
 <link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/index.xml">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="jamesm.blog" />
+<meta name="twitter:description" content="" />
+<meta property="og:title" content="jamesm.blog" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jamesm.blog/" />
+    <meta property="og:image" content="https://jamesm.blog/papermod-cover.png"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "jamesm.blog",
+  "url": "https://jamesm.blog/",
+  "description": "",
+  "thumbnailUrl": "https://jamesm.blog/favicon.ico",
+  "sameAs": [
+      "https://github.com/jmydde/", "https://ko-fi.com/U6U1LGXXV", "index.xml"
+  ]
+}
+</script>
 <noscript>
     <style>
         #theme-toggle,
@@ -36,77 +54,111 @@
                 --entry: rgb(46, 46, 51);
                 --primary: rgb(218, 218, 219);
                 --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
+                --tertiary-bg: rgb(65, 66, 68);
                 --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
             }
 
-            .list {
+            .list-page {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
+            .list-page:not(.dark)::-webkit-scrollbar-track {
                 background: 0 0;
             }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
+            .list-page:not(.dark)::-webkit-scrollbar-thumb {
                 border-color: var(--theme);
             }
         }
 
     </style>
-</noscript><meta property="og:title" content="jamesm.blog" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jamesm.blog/" /><meta property="og:image" content="https://jamesm.blog/papermod-cover.png"/>
+</noscript>
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png"/>
-
-<meta name="twitter:title" content="jamesm.blog"/>
-<meta name="twitter:description" content=""/>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "jamesm.blog",
-  "url": "https://jamesm.blog/",
-  "description": "",
-  "thumbnailUrl": "https://jamesm.blog/favicon.ico",
-  "sameAs": [
-      
-  ]
-}
-</script>
 </head>
 
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+<body class="list-page type-page kind-home layout-" id="top"><script data-no-instant>
+function switchTheme(theme) {
+  switch (theme) {
+    case 'light':
+      document.body.classList.remove('dark');
+      break;
+    case 'dark':
+      document.body.classList.add('dark');
+      break;
+    
+    default:
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
+      }
+  }
+}
 
+function isDarkTheme() {
+  return document.body.className.includes("dark");
+}
+
+function getPrefTheme() {
+  return localStorage.getItem("pref-theme");
+}
+
+function setPrefTheme(theme) {
+  switchTheme(theme)
+  localStorage.setItem("pref-theme", theme);
+}
+
+const toggleThemeCallbacks = {}
+toggleThemeCallbacks['main'] = (isDark) => {
+  
+  if (isDark) {
+    setPrefTheme('light');
+  } else {
+    setPrefTheme('dark');
+  }
+}
+
+
+
+
+window.addEventListener('toggle-theme', function() {
+  
+  const isDark = isDarkTheme()
+  for (const key in toggleThemeCallbacks) {
+    toggleThemeCallbacks[key](isDark)
+  }
+});
+
+
+function toggleThemeListener() {
+  
+  window.dispatchEvent(new CustomEvent('toggle-theme'));
+}
+
+</script>
+<script>
+  
+  (function() {
+    const defaultTheme = 'auto';
+    const prefTheme = getPrefTheme();
+    const theme = prefTheme ? prefTheme : defaultTheme;
+
+    switchTheme(theme);
+  })();
 </script>
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
-            <div class="logo-switches">
+            <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -120,78 +172,125 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-            </div>
+            </span>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)"data-no-instant accesskey=/
+                >Search
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/tags/" title="Tags">
-                    <span>Tags</span>
+                <a href="https://jamesm.blog/tags/" title="Tags"
+                >Tags
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/about" title="About">
-                    <span>About</span>
+                <a href="https://jamesm.blog/about/" title="About"
+                >About
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/ai" title="AI">
-                    <span>AI</span>
+                <a href="https://jamesm.blog/ai/" title="AI"
+                >AI
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/devops" title="DevOps">
-                    <span>DevOps</span>
+                <a href="https://jamesm.blog/devops/" title="DevOps"
+                >DevOps
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/general" title="General">
-                    <span>General</span>
+                <a href="https://jamesm.blog/general/" title="General"
+                >General
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/ideas" title="Ideas">
-                    <span>Ideas</span>
+                <a href="https://jamesm.blog/ideas/" title="Ideas"
+                >Ideas
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/links" title="Links">
-                    <span>Links</span>
+                <a href="https://jamesm.blog/links/" title="Links"
+                >Links
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/music" title="Music">
-                    <span>Music</span>
+                <a href="https://jamesm.blog/music/" title="Music"
+                >Music
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/tools" title="Tools">
-                    <span>Tools</span>
+                <a href="https://jamesm.blog/tools/" title="Tools"
+                >Tools
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/web3" title="Web3">
-                    <span>Web3</span>
+                <a href="https://jamesm.blog/web3/" title="Web3"
+                >Web3
                 </a>
             </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
+  
 
-<article class="first-entry"> 
+
+
+
+
+<article class="first-entry home-info">
+  <header class="entry-header">
+    <h1>jamesm.blog</h1>
+  </header>
+  <section class="entry-content"><p>Welcome to James&rsquo; blog, the following topics are covered here;</p>
+<ul>
+<li>AI</li>
+<li>DevOps</li>
+<li>Music</li>
+<li>Tools</li>
+<li>Web3</li>
+</ul>
+</section>
+  <footer class="entry-footer"><div class="social-icons">
+    <a href="https://github.com/jmydde/" target="_blank" rel="noopener noreferrer me" title="Github-Simple">
+        <svg role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+
+    </a>
+    <a href="https://ko-fi.com/U6U1LGXXV" target="_blank" rel="noopener noreferrer me" title="KoFi">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet"
+    viewBox="0 -3 23 27" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path
+        d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734c4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09c-.443-.441-3.368-3.049-4.034-3.954c-.709-.965-1.041-2.7-.091-3.71c.951-1.01 3.005-1.086 4.363.407c0 0 1.565-1.782 3.468-.963c1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z" />
+</svg>
+
+    </a>
+    <a href="index.xml" target="_blank" rel="noopener noreferrer me" title="Rss-Simple">
+        <svg role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><title>RSS</title><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg>
+
+    </a>
+</div>
+</footer>
+</article>
+
+<article class="post-entry"> 
   <header class="entry-header">
     <h2>AI Links
     </h2>
   </header>
-  <div class="entry-content">
-    <p>Companies Google OpenAI Stability Tesla Tools Bard ChatGPT Cleanup.pictures - Remove unwanted object, defect, people or text from your pictures DALL·E 2 - Creates realistic images &amp; art from a description in natural language Deep Nostalgia - Animate your family photos GitHub Copilot Krisp - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant LALAL.AI - Extract vocal, accompaniment &amp; various instruments from any audio / video Murf - Text to speech AI voice generator Notion Soundraw - Royalty-free AI generated music Speechify </p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-23 19:58:14 +0100 BST'>May 23, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;James M</footer>
+  <section class="entry-content">
+    
+      <p>Companies Google OpenAI Stability Tesla Tools Bard ChatGPT Cleanup.pictures - Remove unwanted object, defect, people or text from your pictures DALL·E 2 - Creates realistic images &amp; art from a description in natural language Deep Nostalgia - Animate your family photos GitHub Copilot Krisp - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant LALAL.AI - Extract vocal, accompaniment &amp; various instruments from any audio / video Murf - Text to speech AI voice generator Notion Soundraw - Royalty-free AI generated music Speechify </p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>May 23, 2023</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
   <a class="entry-link" aria-label="post link to AI Links" href="https://jamesm.blog/ai/links/"></a>
 </article>
 
@@ -200,12 +299,19 @@
     <h2>Speechify - best text to speech app
     </h2>
   </header>
-  <div class="entry-content">
-    <p>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.
+  <section class="entry-content">
+    
+      <p>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.
 The app also uses optical character recognition technology to turn physical books or printed text into audio.
 The app lets users take photos of text and then listen to it read out loud.</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-20 12:54:16 +0100 BST'>May 20, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;James M</footer>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>May 20, 2023</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
   <a class="entry-link" aria-label="post link to Speechify - best text to speech app" href="https://jamesm.blog/tools/speechify/"></a>
 </article>
 
@@ -214,11 +320,18 @@ The app lets users take photos of text and then listen to it read out loud.</p>
     <h2>OpenAI release ChatGPT app (iOS)
     </h2>
   </header>
-  <div class="entry-content">
-    <p>OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
+  <section class="entry-content">
+    
+      <p>OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
 Download on the App Store The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS....</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-18 19:05:35 +0100 BST'>May 18, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;James M</footer>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>May 18, 2023</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
   <a class="entry-link" aria-label="post link to OpenAI release ChatGPT app (iOS)" href="https://jamesm.blog/ai/chatgpt-app-ios/"></a>
 </article>
 
@@ -227,11 +340,18 @@ Download on the App Store The ChatGPT app is free to use and syncs your history 
     <h2>Tesla Bot Update
     </h2>
   </header>
-  <div class="entry-content">
-    <p>Multiple fully Tesla-made bots now walking around &amp; learning about the real world 🤖
+  <section class="entry-content">
+    
+      <p>Multiple fully Tesla-made bots now walking around &amp; learning about the real world 🤖
 Join the Tesla AI team → https://tesla.com/ai</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-16 21:24:14 +0100 BST'>May 16, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;James M</footer>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>May 16, 2023</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
   <a class="entry-link" aria-label="post link to Tesla Bot Update" href="https://jamesm.blog/ai/tesla-bot-update-20230516/"></a>
 </article>
 
@@ -240,91 +360,120 @@ Join the Tesla AI team → https://tesla.com/ai</p>
     <h2>Worst User Interfaces
     </h2>
   </header>
-  <div class="entry-content">
-    <p>Sunday read.
+  <section class="entry-content">
+    
+      <p>Sunday read.
 This is hilarious. Engineers are competing who creates the worst UI on Reddit. I think the winners are:
 1/ Enter your phone number pic.twitter.com/944duji1Im
 — Aleksandr Volodarsky (@volodarik) May 14, 2023 </p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-15 14:53:39 +0100 BST'>May 15, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;James M</footer>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>May 15, 2023</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
   <a class="entry-link" aria-label="post link to Worst User Interfaces" href="https://jamesm.blog/general/worst-uis/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="next" href="https://jamesm.blog/page/2/">Next&nbsp;&nbsp;»
-    </a>
+    <a class="next" href="https://jamesm.blog/page/2/">Next Page »</a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://jamesm.blog/">jamesm.blog</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+  <span>&copy; 2023 <a href="https://jamesm.blog/">jamesm.blog</a></span><span style="display: inline-block; margin-left: 1em;">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+  </span>
+  <span style="display: inline-block; margin-left: 1em;">
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
+  </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
+  (function() {
+     
+    const disableThemeToggle = '' == '1';
+    if (disableThemeToggle) {
+      return;
     }
 
+    let button = document.getElementById("theme-toggle")
+    
+    button.removeEventListener('click', toggleThemeListener)
+    
+    button.addEventListener('click', toggleThemeListener)
+  })();
+</script>
+
+<script>
+  (function () {
+    let menu = document.getElementById('menu')
+    if (menu) {
+      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      }
+    }
+
+    const disableSmoothScroll = '' == '1';
+    const enableInstantClick = '' == '1';
+    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = this.getAttribute("href").substr(1);
+        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+          behavior: "smooth"
         });
+        if (id === "top") {
+          history.replaceState(null, null, " ");
+        } else {
+          history.pushState(null, null, `#${id}`);
+        }
+      });
     });
-
+  })();
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
 </script>
 <script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
+  if (window.scrollListeners) {
+    
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+  }
+  window.scrollListeners = []
 </script>
+
+
+
+<script src="/js/medium-zoom.min.js" data-no-instant
+></script>
 </body>
 
 </html>

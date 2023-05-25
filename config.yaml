@@ -17,7 +17,8 @@ pygmentsUseClasses:     true
 #theme:                  terminal
 #theme:                  beautifulhugo
 #theme:                  m10c
-theme:                  hugo-PaperMod
+#theme:                  hugo-PaperMod
+theme:                  hugo-PaperModX
 title:                  jamesm.blog
 
 minify:
@@ -106,18 +107,23 @@ params:
       - name: Tags
         url:  tags
 
-  # homeInfoParams:
-  #     Title: "jamesm.blog"
-  #     Content: >
-  #         Welcome to James M's blog.
+  homeInfoParams:
+    Title: "jamesm.blog"
+    Content: |
+      Welcome to James' blog, the following topics are covered here;
+      - AI
+      - DevOps 
+      - Music
+      - Tools
+      - Web3
 
-  # socialIcons:
-  #     - name: github
-  #       url: "https://github.com/jmydde"
-  #     - name: KoFi
-  #       url: "https://ko-fi.com/U6U1LGXXV"
-  #     - name: Rss
-  #       url: "index.xml"
+  socialIcons:
+    - name: github-simple
+      url: "https://github.com/jmydde/"
+    - name: KoFi
+      url: "https://ko-fi.com/U6U1LGXXV"
+    - name: rss-simple
+      url: "index.xml"
 
   # editPost:
   #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
@@ -156,14 +162,14 @@ params:
   #     keys: ["title", "permalink", "summary", "content"]
 
   # m10c Default theme
-  style:
-    darkestColor: "#242930"
-    darkColor: "#353b43"
-    lightColor: "#afbac4"
-    lightestColor: "#ffffff"
-    #primaryColor: "#57cc8a"
-    primaryColor: "#57bacc"
-    #primaryColor: "#575dcc"
+# style:
+#   darkestColor: "#242930"
+#   darkColor: "#353b43"
+#   lightColor: "#afbac4"
+#   lightestColor: "#ffffff"
+#   #primaryColor: "#57cc8a"
+#   primaryColor: "#57bacc"
+#   #primaryColor: "#575dcc"
 
   # m10c Green theme
 # style:

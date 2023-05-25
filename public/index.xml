@@ -4,11 +4,6 @@
     <title>jamesm.blog</title>
     <link>https://jamesm.blog/</link>
     <description>Recent content on jamesm.blog</description>
-    <image>
-      <title>jamesm.blog</title>
-      <url>https://jamesm.blog/papermod-cover.png</url>
-      <link>https://jamesm.blog/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 23 May 2023 19:58:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -18,6 +13,29 @@
       
       <guid>https://jamesm.blog/ai/links/</guid>
       <description>Companies Google OpenAI Stability Tesla Tools Bard ChatGPT Cleanup.pictures - Remove unwanted object, defect, people or text from your pictures DALL·E 2 - Creates realistic images &amp;amp; art from a description in natural language Deep Nostalgia - Animate your family photos GitHub Copilot Krisp - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant LALAL.AI - Extract vocal, accompaniment &amp;amp; various instruments from any audio / video Murf - Text to speech AI voice generator Notion Soundraw - Royalty-free AI generated music Speechify </description>
+      <content:encoded><![CDATA[<h2 id="companies">Companies</h2>
+<ul>
+<li><a href="https://ai.google/">Google</a></li>
+<li><a href="https://openai.com/">OpenAI</a></li>
+<li><a href="https://stability.ai/">Stability</a></li>
+<li><a href="https://www.tesla.com/AI">Tesla</a></li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="https://bard.google.com/">Bard</a></li>
+<li><a href="https://openai.com/blog/chatgpt">ChatGPT</a></li>
+<li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - Remove unwanted object, defect, people or text from your pictures</li>
+<li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - Creates realistic images &amp; art from a description in natural language</li>
+<li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - Animate your family photos</li>
+<li><a href="https://github.com/features/copilot">GitHub Copilot</a></li>
+<li><a href="https://krisp.ai/">Krisp</a> - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
+<li><a href="https://www.lalal.ai/">LALAL.AI</a> - Extract vocal, accompaniment &amp; various instruments from any audio / video</li>
+<li><a href="https://murf.ai/">Murf</a> - Text to speech AI voice generator</li>
+<li><a href="https://www.notion.so/product/ai">Notion</a></li>
+<li><a href="https://soundraw.io/">Soundraw</a> - Royalty-free AI generated music</li>
+<li><a href="https://speechify.com/">Speechify</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -29,6 +47,10 @@
       <description>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.
 The app also uses optical character recognition technology to turn physical books or printed text into audio.
 The app lets users take photos of text and then listen to it read out loud.</description>
+      <content:encoded><![CDATA[<p><a href="https://speechify.com/">Speechify</a> is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.</p>
+<p>The app also uses optical character recognition technology to turn physical books or printed text into audio.</p>
+<p>The app lets users take photos of text and then listen to it read out loud.</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -39,6 +61,21 @@ The app lets users take photos of text and then listen to it read out loud.</des
       <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
       <description>OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
 Download on the App Store The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS.</description>
+      <content:encoded><![CDATA[<p>OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.</p>
+<ul>
+<li><a href="https://apps.apple.com/app/openai-chatgpt/id6448311069">Download on the App Store</a></li>
+</ul>
+<p>The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS.</p>
+<p>Discover the versatility of ChatGPT:</p>
+<ul>
+<li><strong>Instant Answers:</strong> Get precise information without sifting through ads or multiple results.</li>
+<li><strong>Tailored Advice:</strong> Seek guidance on cooking, travel plans, or crafting thoughtful messages.</li>
+<li><strong>Creative Inspiration:</strong> Generate gift ideas, outline presentations, or write the perfect poem.</li>
+<li><strong>Professional Input:</strong> Boost productivity with idea feedback, note summarization, and technical topic assistance.</li>
+<li><strong>Learning Opportunities:</strong> Explore new languages, modern history, and more at your own pace.</li>
+</ul>
+<p><em>Note</em>: Android app coming soon</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -49,6 +86,14 @@ Download on the App Store The ChatGPT app is free to use and syncs your history 
       <guid>https://jamesm.blog/ai/tesla-bot-update-20230516/</guid>
       <description>Multiple fully Tesla-made bots now walking around &amp;amp; learning about the real world 🤖
 Join the Tesla AI team → https://tesla.com/ai</description>
+      <content:encoded><![CDATA[<p>Multiple fully Tesla-made bots now walking around &amp; learning about the real world 🤖</p>
+<p>Join the Tesla AI team → <a href="https://tesla.com/ai">https://tesla.com/ai</a></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/XiQkeWOFwmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -61,6 +106,10 @@ Join the Tesla AI team → https://tesla.com/ai</description>
 This is hilarious. Engineers are competing who creates the worst UI on Reddit. I think the winners are:
 1/ Enter your phone number pic.twitter.com/944duji1Im
 &amp;mdash; Aleksandr Volodarsky (@volodarik) May 14, 2023 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Sunday read.<br><br>This is hilarious. Engineers are competing who creates the worst UI on Reddit. <br><br>I think the winners are:<br><br>1/ Enter your phone number <a href="https://t.co/944duji1Im">pic.twitter.com/944duji1Im</a></p>&mdash; Aleksandr Volodarsky (@volodarik) <a href="https://twitter.com/volodarik/status/1657755496852475906?ref_src=twsrc%5Etfw">May 14, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -70,6 +119,8 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
       
       <guid>https://jamesm.blog/tools/notion/</guid>
       <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
+      <content:encoded><![CDATA[<p><a href="https://www.notion.so/">Notion</a> is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -79,6 +130,43 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
       
       <guid>https://jamesm.blog/tools/brew-packages/</guid>
       <description>Essential bat - Linux “cat” command alternative with syntax highlighting glow - Markdown reader htop - Top clone with syntax highlighting and mouse support jq - sed for JSON data jupyter - JupyterHub notebooks k9s - Monitor Kubernetes resources pyenv - Python version management python - Python (3.11) terraform - Terraform tfswitch - Switch Terraform versions (warrensbox/tap/tfswitch) tree - View folders and files in a visual tree (tree -L ) wget - Download files yq - Lightweight and portable command-line YAML, JSON and XML processor Others django - Python Web framework glances - Console (and web) based server monitoring tool httpie - A curl-like tool to interact with HTTP servers lnav - Explore and troubleshoot cryptic log files midnight-commander - File explorer mtr - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues navi - Interactive cheatsheet tool ncdu - Disk space analyzer, find big files &amp;amp; directories npm - Node Package Manager pytorch ranger - Directory / file explorer providing an easier way to find files via the terminal snappy speedtest-cli - Test upload/download speed task - A todo app tensorflow tmux - Run multiple terminal sessions within the same window youtube-dl - YouTube downloader </description>
+      <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
+<ul>
+<li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>
+<li><strong>glow</strong> - Markdown reader</li>
+<li><strong>htop</strong> - Top clone with syntax highlighting and mouse support</li>
+<li><strong>jq</strong> - sed for JSON data</li>
+<li><strong>jupyter</strong> - JupyterHub notebooks</li>
+<li><strong>k9s</strong> - Monitor Kubernetes resources</li>
+<li><strong>pyenv</strong> - Python version management</li>
+<li><strong>python</strong> - Python (3.11)</li>
+<li><strong>terraform</strong> - Terraform</li>
+<li><strong>tfswitch</strong> - Switch Terraform versions (warrensbox/tap/tfswitch)</li>
+<li><strong>tree</strong> - View folders and files in a visual tree (tree -L <level>)</li>
+<li><strong>wget</strong> - Download files</li>
+<li><strong>yq</strong> - Lightweight and portable command-line YAML, JSON and XML processor</li>
+</ul>
+<h2 id="others">Others</h2>
+<ul>
+<li><strong>django</strong> - Python Web framework</li>
+<li><strong>glances</strong> - Console (and web) based server monitoring tool</li>
+<li><strong>httpie</strong> - A curl-like tool to interact with HTTP servers</li>
+<li><strong>lnav</strong> - Explore and troubleshoot cryptic log files</li>
+<li><strong>midnight-commander</strong> - File explorer</li>
+<li><strong>mtr</strong> - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues</li>
+<li><strong>navi</strong> - Interactive cheatsheet tool</li>
+<li><strong>ncdu</strong> - Disk space analyzer, find big files &amp; directories</li>
+<li><strong>npm</strong> - Node Package Manager</li>
+<li><strong>pytorch</strong></li>
+<li><strong>ranger</strong> - Directory / file explorer providing an easier way to find files via the terminal</li>
+<li><strong>snappy</strong></li>
+<li><strong>speedtest-cli</strong> - Test upload/download speed</li>
+<li><strong>task</strong> - A todo app</li>
+<li><strong>tensorflow</strong></li>
+<li><strong>tmux</strong> - Run multiple terminal sessions within the same window</li>
+<li><strong>youtube-dl</strong> - YouTube downloader</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -88,6 +176,36 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
       
       <guid>https://jamesm.blog/links/youtube-channels/</guid>
       <description>AI Boston Dynamics Create exceptional robots that enrich people’s lives Technology Linus Tech Tips - Consumer technology &amp;amp; video production TED - Talks on Technology, Entertainment &amp;amp; Design Podcasts Joe Rogan - The Joe Rogan Experience podcast is a long form conversation hosted by comedian Joe Rogan with friends and guests that have included comedians, actors, musicians, MMA fighters, authors, artists, and beyond Lex Fridman - Conversations about science, technology, history, philosophy and the nature of intelligence, consciousness, love, and power PBD Podcast - The PBD Podcast is hosted by Patrick Bet-David where he discusses a wide range of topics from business to current events, politics and sports Music Production Andertons - Music hardware &amp;amp; software reviews Doctor Mix - Weekly reviews, tips &amp;amp; techniques on music production, mixing and mastering Glenn Main - Norwegian electronic music composer Jef Gibbons - Video production, photography &amp;amp; music production Nu-Trix The Synth Guy - Synthesizer reviews &amp;amp; music production Sanjay C - Music production, gear &amp;amp; tips Simeon Amburgey - Virtual instruments from developers all over the world Sound On Sound - Recording &amp;amp; music technology magazine State Azure - Electronic music producer from the UK Venus Theory - Music production &amp;amp; reviews Woody Piano Shack - Music production &amp;amp; reviews </description>
+      <content:encoded><![CDATA[<h2 id="ai">AI</h2>
+<ul>
+<li><a href="https://www.youtube.com/@BostonDynamics">Boston Dynamics</a> Create exceptional robots that enrich people’s lives</li>
+</ul>
+<h2 id="technology">Technology</h2>
+<ul>
+<li><a href="https://www.youtube.com/@LinusTechTips">Linus Tech Tips</a> - Consumer technology &amp; video production</li>
+<li><a href="https://www.youtube.com/@TED">TED</a> - Talks on Technology, Entertainment &amp; Design</li>
+</ul>
+<h2 id="podcasts">Podcasts</h2>
+<ul>
+<li><a href="https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk">Joe Rogan</a> - The Joe Rogan Experience podcast is a long form conversation hosted by comedian Joe Rogan with friends and guests that have included comedians, actors, musicians, MMA fighters, authors, artists, and beyond</li>
+<li><a href="https://www.youtube.com/@lexfridman">Lex Fridman</a> - Conversations about science, technology, history, philosophy and the nature of intelligence, consciousness, love, and power</li>
+<li><a href="https://www.youtube.com/@PBDPodcast">PBD Podcast</a> - The PBD Podcast is hosted by Patrick Bet-David where he discusses a wide range of topics from business to current events, politics and sports</li>
+</ul>
+<h2 id="music-production">Music Production</h2>
+<ul>
+<li><a href="https://www.youtube.com/@AndertonsKeyboardDept">Andertons</a> - Music hardware &amp; software reviews</li>
+<li><a href="https://www.youtube.com/@Doctormix">Doctor Mix</a> - Weekly reviews, tips &amp; techniques on music production, mixing and mastering</li>
+<li><a href="https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA">Glenn Main</a> - Norwegian electronic music composer</li>
+<li><a href="https://www.youtube.com/@jefgibbons">Jef Gibbons</a> - Video production, photography &amp; music production</li>
+<li><a href="https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw">Nu-Trix The Synth Guy</a> - Synthesizer reviews &amp; music production</li>
+<li><a href="https://www.youtube.com/@SanjayC">Sanjay C</a> - Music production, gear &amp; tips</li>
+<li><a href="https://www.youtube.com/@PraiseTracks">Simeon Amburgey</a> - Virtual instruments from developers all over the world</li>
+<li><a href="https://www.youtube.com/@soundonsound/">Sound On Sound</a> - Recording &amp; music technology magazine</li>
+<li><a href="https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg">State Azure</a> - Electronic music producer from the UK</li>
+<li><a href="https://www.youtube.com/@VenusTheory">Venus Theory</a> - Music production &amp; reviews</li>
+<li><a href="https://www.youtube.com/@WoodyPianoShack">Woody Piano Shack</a> - Music production &amp; reviews</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -98,6 +216,11 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
       <guid>https://jamesm.blog/general/monkey-computer-sync/</guid>
       <description>Chinese researchers claim to have successfully conducted the &amp;ldquo;world&amp;rsquo;s first&amp;rdquo; brain-computer interface (BCI) experiment on a monkey
 https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer </description>
+      <content:encoded><![CDATA[<p>Chinese researchers claim to have successfully conducted the &ldquo;world&rsquo;s first&rdquo; brain-computer interface (BCI) experiment on a monkey</p>
+<ul>
+<li><a href="https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer">https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -108,6 +231,16 @@ https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-compu
       <guid>https://jamesm.blog/devops/cool-github-projects/</guid>
       <description>A list of useful GitHub projects;
 bat - a cat clone with syntax highlighting and Git integration k9s - terminal UI to interact with your Kubernetes clusters Prompt Engineering Guide - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
+      <content:encoded><![CDATA[<p>A list of useful GitHub projects;</p>
+<ul>
+<li><a href="https://github.com/sharkdp/bat">bat</a> - a cat clone with syntax highlighting and Git integration</li>
+<li><a href="https://github.com/derailed/k9s">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
+<li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">Prompt Engineering Guide</a> - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs</li>
+<li><a href="https://github.com/Nukesor/pueue">Pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
+<li><a href="https://github.com/awslabs/specctl">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
+<li><a href="https://github.com/twitter/the-algorithm">Twitter&rsquo;s Recommendation Algorithm</a> - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -118,6 +251,60 @@ bat - a cat clone with syntax highlighting and Git integration k9s - terminal UI
       <guid>https://jamesm.blog/devops/books/</guid>
       <description>A list of recommended books &amp;hellip;
 DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Go Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
+      <content:encoded><![CDATA[<p>A list of recommended books &hellip;</p>
+<h2 id="devops">DevOps</h2>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/">The DevOps Handbook</a></li>
+<li><a href="https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/">The Phoenix Project</a></li>
+</ul>
+<h2 id="containers">Containers</h2>
+<h3 id="docker">Docker</h3>
+<ul>
+<li><a href="https://nigelpoulton.com/books/">Docker Deep Dive</a></li>
+</ul>
+<h3 id="kubernetes">Kubernetes</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/">Kubernetes: Up and Running</a></li>
+<li><a href="https://nigelpoulton.com/books/">The Kubernetes Book</a></li>
+</ul>
+<h2 id="iac">IaC</h2>
+<h3 id="terraform">Terraform</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/terraform-up-and/9781098116736/">Terraform: Up and Running: Writing Infrastructure as Code</a></li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/linux-in-a/9780596806088/">Linux in a Nutshell</a></li>
+</ul>
+<h2 id="programming">Programming</h2>
+<h3 id="bash">Bash</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-the-bash/0596009658/">Learning the bash Shell</a></li>
+</ul>
+<h3 id="cc">C/C++</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
+</ul>
+<h3 id="go">Go</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
+<li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
+</ul>
+<h3 id="perl">Perl</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/">Learning Perl</a></li>
+<li><a href="https://www.oreilly.com/library/view/mastering-perl/9780596527242/">Mastering Perl</a></li>
+<li><a href="https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/">Programming Perl</a></li>
+</ul>
+<h3 id="python">Python</h3>
+<ul>
+<li><a href="https://diveintopython3.net/">Dive Into Python</a></li>
+</ul>
+<h3 id="sql">SQL</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/">Learning SQL</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -127,6 +314,14 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
       
       <guid>https://jamesm.blog/devops/blogs/</guid>
       <description>DevOps &amp;amp; SRE Atlassian DevOps Blog AWS DevOps Blog Everything DevOps (Reddit) Ricard - SRE at Cisco </description>
+      <content:encoded><![CDATA[<h2 id="devops--sre">DevOps &amp; SRE</h2>
+<ul>
+<li><a href="https://www.atlassian.com/blog/devops">Atlassian DevOps Blog</a></li>
+<li><a href="https://aws.amazon.com/blogs/devops/">AWS DevOps Blog</a></li>
+<li><a href="https://www.reddit.com/r/devops/">Everything DevOps (Reddit)</a></li>
+<li><a href="https://www.bejarano.io/">Ricard</a> - SRE at Cisco</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -137,6 +332,11 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
       <guid>https://jamesm.blog/tools/k9s/</guid>
       <description>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
 https://k9scli.io/ </description>
+      <content:encoded><![CDATA[<p>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.</p>
+<ul>
+<li><a href="https://k9scli.io/">https://k9scli.io/</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -148,6 +348,10 @@ https://k9scli.io/ </description>
       <description>Massive Update for Auto-GPT: Code Execution! 🤖💻
 Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute python scripts! This allows it to recursively debug, develop and self-improve... 🤯 👇 pic.twitter.com/GEkMb1LyxV
 &amp;mdash; Significant Gravitas (@SigGravitas) April 1, 2023 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Massive Update for Auto-GPT: Code Execution! 🤖💻<br><br>Auto-GPT is now able to write it&#39;s own code using <a href="https://twitter.com/hashtag/gpt4?src=hash&amp;ref_src=twsrc%5Etfw">#gpt4</a> and execute python scripts! <br><br>This allows it to recursively debug, develop and self-improve... 🤯 👇 <a href="https://t.co/GEkMb1LyxV">pic.twitter.com/GEkMb1LyxV</a></p>&mdash; Significant Gravitas (@SigGravitas) <a href="https://twitter.com/SigGravitas/status/1642181498278408193?ref_src=twsrc%5Etfw">April 1, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -158,6 +362,10 @@ Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute pyth
       <guid>https://jamesm.blog/ai/gpt-4/</guid>
       <description>Fully intent on being the next Skynet, OpenAI has released GPT-4, its most robust AI to date that the company claims is even more accurate while generating language and even better at solving problems. GPT-4 is so good at its job, in fact, that it report… https://t.co/Q2btYgtWSA
 &amp;mdash; GrindZero Tribe (@Snapzu_Blogs) March 16, 2023 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Fully intent on being the next Skynet, OpenAI has released GPT-4, its most robust AI to date that the company claims is even more accurate while generating language and even better at solving problems. GPT-4 is so good at its job, in fact, that it report… <a href="https://t.co/Q2btYgtWSA">https://t.co/Q2btYgtWSA</a></p>&mdash; GrindZero Tribe (@Snapzu_Blogs) <a href="https://twitter.com/Snapzu_Blogs/status/1636353726519689217?ref_src=twsrc%5Etfw">March 16, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -167,6 +375,324 @@ Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute pyth
       
       <guid>https://jamesm.blog/music/my-hardware-software/</guid>
       <description>Music Hardware Current Drum Machines Native Instruments Maschine MK3 Keyboards Native Instruments Komplete Kontrol M32 Synthesizers Yamaha Motif ES8 Past Drum Machines Roland R8 Keyboards Casio PT-50 JVC KB-700 Synthesizers Casio CZ-101 Yamaha SY85 Music Software PluginGuru Unify UVI Homepage 8-Bit Synth Augmented Orchestra Austrian Grand BeatBox Anthology 2 Drum Designer Dual Delay X Emulation II+ FM Suite Key Suite Acoustic Key Suite Digital Key Suite Electric Meteor Percussion Factory Program 24 PX Memories Quadra - Muted and Harmonics Scratch Machine Shade Sparkverb Synth Anthology 3 Native Instruments Native Instruments Komplete Ultimate Orchestral &amp;amp; Cinematic Instruments Action Strikes Action Strings 2 Ashlight Emotive Strings Kinetic Metal Kinetic Toys Mallet Flux Mysteria Piano Colors Pharlight Rise &amp;amp; Hit Stradivari Violin Straylight Symphony Essentials Brass Ensemble Brass Solo String Ensemble Percussion Woodwind Ensemble Woodwind Solo The Giant Thrill Synthesizers Blocks Primes BX_Oberhausen Massive X Flesh FM8 Form Kontour Massive Monark Razor Reaktor 6 Reaktor Prism Reaktor Spark Retro Machines MK2 Rounds Skanner XT Super 8 TRK-01 SAMPLED INSTRUMENTS 40’S Very Own Keys Alicia&amp;rsquo;s Keys Balinese Gamelan East Asia George Duke Soul Treasures Kontakt 7 Playbox Session Guitarist Electric Mint Picked Nylon Sequis Noire Session Bassist – Prime Bass Soul Sessions Scarbee Rickenbacker Bass Session Guitarist Electric Sunburst deluxe Electric Vintage Picked Acoustic Strummed Acoustic Strummed Acoustic 2 SESSION HORNS PRO SESSION STRINGS PRO 2 The MAVERICK The GRANDEUR The GENTLEMAN SCARBEE A-200 Una Corda VINTAGE ORGANS SCARBEE MARK I INDIA Cuba Middle East SCARBEE PRE-BASS PRE-BASS AMPED CLAVINET/PIANET MM-BASS MM-BASS AMPED JAY-BASS IGNITION KEYS Glaze DEFT LINES CLOUD SUPPLY LO-FI GLOW MODULAR ICONS ETHEREAL EARTH MELTED VIBES HYBRID KEYS ANALOG DREAMS DRUMS AND PERCUSSION INSTRUMENTS BATTERY 4 40’S VERY OWN DRUMS POLYPLEX EMPIRE BREAKS DRUMLAB BUTCH VIG DRUMS DAMAGE STUDIO DRUMMER WEST AFRICA ABBEY ROAD VINTAGE DRUMMER 50S DRUMMER 60S DRUMMER 70S DRUMMER 80S DRUMMER MODERN DRUMMER EFFECTS OZONE 10 STANDARD BX_CONSOLE N BX_LIMITER TRUE PEAK BX_CRISPYTUNER REPLIKA XT LO-FI-AF MOLEKULAR SUPERCHARGER GT RAUM The MOUTH The Finger RC 24 RC 48 TRANSIENT MASTER ENHANCED EQ VARI COMP PASSIVE EQ SOLID BUS COMP SOLID DYNAMICS SOLID EQ VC 2A VC 76 VC 160 CRUSH PACK BITE DIRT FREAK MOD PACK CHORAL FLAIR PHASIS DRIVER EXPANSIONS FREE FORM LIQUID ENERGY RHYTHM SOURCE SOUL MAGIC BODY MECHANIK BUMPIN FLAVA BACKYARD JAMS MOTHER BOARD NEO BOOGIE BASEMENT ERA CARBON DECAY AMPLIFIED FUNK AQUARIUS EARTH GLOBAL SHAKE INFINITE ESCAPE PURE DRIP DROP SQUAD FADED REELS PRISMATIC BLISS MOLTEN VEIL PLATINUM BOUNCE LAZER DICE MARBLE RIMS CARIBBEAN CURRENT ASTRAL FLUTTER CAVERN FLOOR GOLDEN KINGDOM BYTE RIOT DECODED FORMS INDIGO DUST NEON DRIVE LUCID MISSION LONDON GRIT RISING CRESCENT HALCYON SKY QUEENSBRIDGE STORY ELASTIC THUMP DEEP MATTER SOLAR BREEZE LILAC GLARE TRUE SCHOOL VELVET LOUNGE ARTIST EXPANSION: SASHA NOCTURNAL STATE STADIUM FLEX SPECTRUM QUAKE KINO Wake Fade Charge Beam Bump Haze Quest Bounce Rush Pulse Scene Moebius MECHANIX Drive Our House </description>
+      <content:encoded><![CDATA[<h2 id="music-hardware">Music Hardware</h2>
+<h3 id="current">Current</h3>
+<ul>
+<li>Drum Machines
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/maschine/production-systems/maschine/">Native Instruments Maschine MK3</a></li>
+</ul>
+</li>
+<li>Keyboards
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/">Native Instruments Komplete Kontrol M32</a></li>
+</ul>
+</li>
+<li>Synthesizers
+<ul>
+<li><a href="https://www.soundonsound.com/reviews/yamaha-motif-es">Yamaha Motif ES8</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="past">Past</h3>
+<ul>
+<li>Drum Machines
+<ul>
+<li><a href="https://www.vintagesynth.com/roland/r8.php">Roland R8</a></li>
+</ul>
+</li>
+<li>Keyboards
+<ul>
+<li><a href="https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/">Casio PT-50</a></li>
+<li><a href="https://jvckeyboards.tripod.com/kb700.html">JVC KB-700</a></li>
+</ul>
+</li>
+<li>Synthesizers
+<ul>
+<li><a href="https://www.vintagesynth.com/casio/cz101.php">Casio CZ-101</a></li>
+<li><a href="https://www.vintagesynth.com/yamaha/sy85.php">Yamaha SY85</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="music-software">Music Software</h2>
+<h3 id="pluginguru">PluginGuru</h3>
+<ul>
+<li><a href="https://www.pluginguru.com/products/unify-standard/">Unify</a></li>
+</ul>
+<h3 id="uvi">UVI</h3>
+<ul>
+<li><a href="https://www.uvi.net/">Homepage</a></li>
+<li>8-Bit Synth</li>
+<li>Augmented Orchestra</li>
+<li>Austrian Grand</li>
+<li>BeatBox Anthology 2</li>
+<li>Drum Designer</li>
+<li>Dual Delay X</li>
+<li>Emulation II+</li>
+<li>FM Suite</li>
+<li>Key Suite Acoustic</li>
+<li>Key Suite Digital</li>
+<li>Key Suite Electric</li>
+<li>Meteor</li>
+<li>Percussion Factory</li>
+<li>Program 24</li>
+<li>PX Memories</li>
+<li>Quadra - Muted and Harmonics</li>
+<li>Scratch Machine</li>
+<li>Shade</li>
+<li>Sparkverb</li>
+<li>Synth Anthology 3</li>
+</ul>
+<h3 id="native-instruments">Native Instruments</h3>
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/">Native Instruments Komplete Ultimate</a>
+<ul>
+<li>Orchestral &amp; Cinematic Instruments
+<ul>
+<li>Action Strikes</li>
+<li>Action Strings 2</li>
+<li>Ashlight</li>
+<li>Emotive Strings</li>
+<li>Kinetic Metal</li>
+<li>Kinetic Toys</li>
+<li>Mallet Flux</li>
+<li>Mysteria</li>
+<li>Piano Colors</li>
+<li>Pharlight</li>
+<li>Rise &amp; Hit</li>
+<li>Stradivari Violin</li>
+<li>Straylight</li>
+<li>Symphony Essentials
+<ul>
+<li>Brass Ensemble</li>
+<li>Brass Solo</li>
+<li>String Ensemble</li>
+<li>Percussion</li>
+<li>Woodwind Ensemble</li>
+<li>Woodwind Solo</li>
+</ul>
+</li>
+<li>The Giant</li>
+<li>Thrill</li>
+</ul>
+</li>
+<li>Synthesizers
+<ul>
+<li>Blocks Primes</li>
+<li>BX_Oberhausen</li>
+<li>Massive X</li>
+<li>Flesh</li>
+<li>FM8</li>
+<li>Form</li>
+<li>Kontour</li>
+<li>Massive</li>
+<li>Monark</li>
+<li>Razor</li>
+<li>Reaktor 6</li>
+<li>Reaktor Prism</li>
+<li>Reaktor Spark</li>
+<li>Retro Machines MK2</li>
+<li>Rounds</li>
+<li>Skanner XT</li>
+<li>Super 8</li>
+<li>TRK-01</li>
+</ul>
+</li>
+<li>SAMPLED INSTRUMENTS
+<ul>
+<li>40’S Very Own Keys</li>
+<li>Alicia&rsquo;s Keys</li>
+<li>Balinese Gamelan</li>
+<li>East Asia</li>
+<li>George Duke Soul Treasures</li>
+<li>Kontakt 7</li>
+<li>Playbox</li>
+<li>Session Guitarist
+<ul>
+<li>Electric Mint</li>
+<li>Picked Nylon</li>
+</ul>
+</li>
+<li>Sequis</li>
+<li>Noire</li>
+<li>Session Bassist – Prime Bass</li>
+<li>Soul Sessions</li>
+<li>Scarbee Rickenbacker Bass</li>
+<li>Session Guitarist</li>
+<li>Electric Sunburst deluxe</li>
+<li>Electric Vintage</li>
+<li>Picked Acoustic</li>
+<li>Strummed Acoustic</li>
+<li>Strummed Acoustic 2</li>
+<li>SESSION HORNS PRO</li>
+<li>SESSION STRINGS PRO 2</li>
+<li>The MAVERICK</li>
+<li>The GRANDEUR</li>
+<li>The GENTLEMAN</li>
+<li>SCARBEE A-200</li>
+<li>Una Corda</li>
+<li>VINTAGE ORGANS</li>
+<li>SCARBEE MARK I</li>
+<li>INDIA</li>
+<li>Cuba</li>
+<li>Middle East</li>
+<li>SCARBEE
+<ul>
+<li>PRE-BASS</li>
+<li>PRE-BASS AMPED</li>
+<li>CLAVINET/PIANET</li>
+<li>MM-BASS</li>
+<li>MM-BASS AMPED</li>
+<li>JAY-BASS</li>
+</ul>
+</li>
+<li>IGNITION KEYS</li>
+<li>Glaze</li>
+<li>DEFT LINES</li>
+<li>CLOUD SUPPLY</li>
+<li>LO-FI GLOW</li>
+<li>MODULAR ICONS</li>
+<li>ETHEREAL EARTH</li>
+<li>MELTED VIBES</li>
+<li>HYBRID KEYS</li>
+<li>ANALOG DREAMS</li>
+</ul>
+</li>
+<li>DRUMS AND PERCUSSION INSTRUMENTS
+<ul>
+<li>BATTERY 4</li>
+<li>40’S VERY OWN DRUMS</li>
+<li>POLYPLEX</li>
+<li>EMPIRE BREAKS</li>
+<li>DRUMLAB</li>
+<li>BUTCH VIG DRUMS</li>
+<li>DAMAGE</li>
+<li>STUDIO DRUMMER</li>
+<li>WEST AFRICA</li>
+<li>ABBEY ROAD
+<ul>
+<li>VINTAGE DRUMMER</li>
+<li>50S DRUMMER</li>
+<li>60S DRUMMER</li>
+<li>70S DRUMMER</li>
+<li>80S DRUMMER</li>
+<li>MODERN DRUMMER</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>EFFECTS
+<ul>
+<li>OZONE 10 STANDARD</li>
+<li>BX_CONSOLE N</li>
+<li>BX_LIMITER TRUE PEAK</li>
+<li>BX_CRISPYTUNER</li>
+<li>REPLIKA XT</li>
+<li>LO-FI-AF</li>
+<li>MOLEKULAR</li>
+<li>SUPERCHARGER GT</li>
+<li>RAUM</li>
+<li>The MOUTH</li>
+<li>The Finger</li>
+<li>RC 24</li>
+<li>RC 48</li>
+<li>TRANSIENT MASTER</li>
+<li>ENHANCED EQ</li>
+<li>VARI COMP</li>
+<li>PASSIVE EQ</li>
+<li>SOLID BUS COMP</li>
+<li>SOLID DYNAMICS</li>
+<li>SOLID EQ</li>
+<li>VC 2A</li>
+<li>VC 76</li>
+<li>VC 160</li>
+<li>CRUSH PACK
+<ul>
+<li>BITE</li>
+<li>DIRT</li>
+<li>FREAK</li>
+</ul>
+</li>
+<li>MOD PACK
+<ul>
+<li>CHORAL</li>
+<li>FLAIR</li>
+<li>PHASIS</li>
+</ul>
+</li>
+<li>DRIVER</li>
+</ul>
+</li>
+<li>EXPANSIONS
+<ul>
+<li>FREE FORM</li>
+<li>LIQUID ENERGY</li>
+<li>RHYTHM SOURCE</li>
+<li>SOUL MAGIC</li>
+<li>BODY MECHANIK</li>
+<li>BUMPIN FLAVA</li>
+<li>BACKYARD JAMS</li>
+<li>MOTHER BOARD</li>
+<li>NEO BOOGIE</li>
+<li>BASEMENT ERA</li>
+<li>CARBON DECAY</li>
+<li>AMPLIFIED FUNK</li>
+<li>AQUARIUS EARTH</li>
+<li>GLOBAL SHAKE</li>
+<li>INFINITE ESCAPE</li>
+<li>PURE DRIP</li>
+<li>DROP SQUAD</li>
+<li>FADED REELS</li>
+<li>PRISMATIC BLISS</li>
+<li>MOLTEN VEIL</li>
+<li>PLATINUM BOUNCE</li>
+<li>LAZER DICE</li>
+<li>MARBLE RIMS</li>
+<li>CARIBBEAN CURRENT</li>
+<li>ASTRAL FLUTTER</li>
+<li>CAVERN FLOOR</li>
+<li>GOLDEN KINGDOM</li>
+<li>BYTE RIOT</li>
+<li>DECODED FORMS</li>
+<li>INDIGO DUST</li>
+<li>NEON DRIVE</li>
+<li>LUCID MISSION</li>
+<li>LONDON GRIT</li>
+<li>RISING CRESCENT</li>
+<li>HALCYON SKY</li>
+<li>QUEENSBRIDGE STORY</li>
+<li>ELASTIC THUMP</li>
+<li>DEEP MATTER</li>
+<li>SOLAR BREEZE</li>
+<li>LILAC GLARE</li>
+<li>TRUE SCHOOL</li>
+<li>VELVET LOUNGE</li>
+<li>ARTIST EXPANSION: SASHA</li>
+<li>NOCTURNAL STATE</li>
+<li>STADIUM FLEX</li>
+<li>SPECTRUM QUAKE</li>
+<li>KINO</li>
+<li>Wake</li>
+<li>Fade</li>
+<li>Charge</li>
+<li>Beam</li>
+<li>Bump</li>
+<li>Haze</li>
+<li>Quest</li>
+<li>Bounce</li>
+<li>Rush</li>
+<li>Pulse</li>
+<li>Scene</li>
+<li>Moebius</li>
+<li>MECHANIX</li>
+<li>Drive</li>
+<li>Our House</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -180,6 +706,22 @@ GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in rea
 Focus on more satisfying work, be more producttive, speed up repetitve tasks.
 Supported IDEs
 Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
+      <content:encoded><![CDATA[<p><a href="https://github.com/features/copilot">GitHub Copilot</a> is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</p>
+<p>GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.</p>
+<p>Focus on more satisfying work, be more producttive, speed up repetitve tasks.</p>
+<p>Supported IDEs</p>
+<ul>
+<li>Neovim</li>
+<li>JetBrains IDEs</li>
+<li>Visual Studio</li>
+<li>Visual Studio Code</li>
+</ul>
+<p>Price: $10 / month</p>
+<p>Links</p>
+<ul>
+<li><a href="https://docs.github.com/en/copilot">Documentation</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -191,6 +733,10 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
       <description>15 Powerful Visuals About Psychology &amp;amp; Life
 1. pic.twitter.com/3qCPGoSLvv
 &amp;mdash; Mind Essentials (@Mind_Essentials) October 26, 2022 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">15 Powerful Visuals About Psychology &amp; Life<br><br>1. <a href="https://t.co/3qCPGoSLvv">pic.twitter.com/3qCPGoSLvv</a></p>&mdash; Mind Essentials (@Mind_Essentials) <a href="https://twitter.com/Mind_Essentials/status/1585291946586619909?ref_src=twsrc%5Etfw">October 26, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
     </item>
     
     <item>
@@ -200,6 +746,86 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
       
       <guid>https://jamesm.blog/music/favourites/</guid>
       <description>Producers Above &amp;amp; Beyond Anthony Marinelli Armin Van Buuren Calvin Harris DJ Fresh Jeremy Ellis Mezerg Paul Hardcastle Technotronic DJs Andy Farley Andy Whitby BK Carl Nicholson Guyver Jaguar Skills Paul Glazby Paul Maddox Arists &amp;amp; Bands Al Marconi Awesome 3 Barry Manilow Bronski Beat Carpenters Christopher Cross Coldplay Craig David Curiosity Killed The Cat D:Ream Dadi Freyr Deacon Blue Dead Or Alive Eagles Erasure Fleetwood Mac Gloria Estefan Howard Jones Hyper Go Go Josh Groban Kool &amp;amp; The Gang Kylie Minogue Level 42 Lighthouse Family Limahl Maria Carey Matt Johnson Michael Jackson Pet Shop Boys Rozalla Shades of Rhythm The Beach Boys The Communards The Cure The Piano Guys Tony Mortimer Years &amp;amp; Years Youngr Concerts Erasure Howard Jones Pet Shop Boys Prince - Lovesexy Theatre Shows Cats Les Miserables Mary Poppins Phantom of the Opera Woman in White </description>
+      <content:encoded><![CDATA[<h1 id="producers">Producers</h1>
+<ul>
+<li><a href="https://www.youtube.com/@aboveandbeyond">Above &amp; Beyond</a></li>
+<li><a href="https://www.youtube.com/@anthonymarinellimusic">Anthony Marinelli</a></li>
+<li><a href="https://www.youtube.com/@arminvanbuuren">Armin Van Buuren</a></li>
+<li><a href="https://www.youtube.com/channel/UCIjYyZxkFucP_W-tmXg_9Ow">Calvin Harris</a></li>
+<li><a href="https://www.youtube.com/channel/UC0y8P5OjTKLTpnDt62WJzCA">DJ Fresh</a></li>
+<li><a href="https://www.youtube.com/@jeremyellismusic">Jeremy Ellis</a></li>
+<li><a href="https://www.youtube.com/channel/UCUaQxmkh81tJAWrreHe3CJg">Mezerg</a></li>
+<li><a href="https://paulhardcastle.com/">Paul Hardcastle</a></li>
+<li><a href="https://www.youtube.com/@TechnotronicVEVO">Technotronic</a></li>
+</ul>
+<h1 id="djs">DJs</h1>
+<ul>
+<li><a href="https://soundcloud.com/andyfarley">Andy Farley</a></li>
+<li><a href="https://www.youtube.com/@BounceHeaven">Andy Whitby</a></li>
+<li>BK</li>
+<li>Carl Nicholson</li>
+<li>Guyver</li>
+<li>Jaguar Skills</li>
+<li>Paul Glazby</li>
+<li>Paul Maddox</li>
+</ul>
+<h1 id="arists--bands">Arists &amp; Bands</h1>
+<ul>
+<li>Al Marconi</li>
+<li>Awesome 3</li>
+<li>Barry Manilow</li>
+<li>Bronski Beat</li>
+<li>Carpenters</li>
+<li>Christopher Cross</li>
+<li>Coldplay</li>
+<li>Craig David</li>
+<li>Curiosity Killed The Cat</li>
+<li>D:Ream</li>
+<li>Dadi Freyr</li>
+<li>Deacon Blue</li>
+<li>Dead Or Alive</li>
+<li>Eagles</li>
+<li>Erasure</li>
+<li>Fleetwood Mac</li>
+<li>Gloria Estefan</li>
+<li>Howard Jones</li>
+<li>Hyper Go Go</li>
+<li>Josh Groban</li>
+<li>Kool &amp; The Gang</li>
+<li>Kylie Minogue</li>
+<li>Level 42</li>
+<li>Lighthouse Family</li>
+<li>Limahl</li>
+<li>Maria Carey</li>
+<li>Matt Johnson</li>
+<li>Michael Jackson</li>
+<li>Pet Shop Boys</li>
+<li>Rozalla</li>
+<li>Shades of Rhythm</li>
+<li>The Beach Boys</li>
+<li>The Communards</li>
+<li>The Cure</li>
+<li>The Piano Guys</li>
+<li>Tony Mortimer</li>
+<li>Years &amp; Years</li>
+<li>Youngr</li>
+</ul>
+<h1 id="concerts">Concerts</h1>
+<ul>
+<li>Erasure</li>
+<li>Howard Jones</li>
+<li>Pet Shop Boys</li>
+<li>Prince - Lovesexy</li>
+</ul>
+<h1 id="theatre-shows">Theatre Shows</h1>
+<ul>
+<li>Cats</li>
+<li>Les Miserables</li>
+<li>Mary Poppins</li>
+<li>Phantom of the Opera</li>
+<li>Woman in White</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -213,6 +839,91 @@ Code Block # some code echo &amp;#34;Hello World&amp;#34; Code Block with Highli
 &amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 Vimeo YouTube Instagram (requires an Access Token)
 Buttons (not working)
 Columns (not working)</description>
+      <content:encoded><![CDATA[<h1 id="code">Code</h1>
+<p><code>echo &quot;Hello World&quot;</code></p>
+<h1 id="code-block">Code Block</h1>
+<pre tabindex="0"><code># some code
+echo &#34;Hello World&#34;
+</code></pre><h1 id="code-block-with-highlighting">Code Block with Highlighting</h1>
+<p>not working ?
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl"><span class="c1"># some code</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hello World&#34;</span></span></span></code></pre></td></tr></table>
+</div>
+</div></p>
+<h1 id="figure">Figure</h1>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg"/> <figcaption>
+            Google Logo
+        </figcaption>
+</figure>
+
+<h1 id="github-gist">GitHub Gist</h1>
+<p><a href="https://gist.github.com/sansmischevia/5148109">https://gist.github.com/sansmischevia/5148109</a>
+<script type="application/javascript" src="https://gist.github.com/sansmischevia/5148109.js"></script>
+</p>
+<h1 id="tweet">Tweet</h1>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Owl bet you&#39;ll lose this staring contest 🦉 <a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC</a></p>&mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) <a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h1 id="vimeo">Vimeo</h1>
+
+
+
+
+
+
+<style>
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+</style>
+
+
+<div class="s_video_simple __h_video">
+<a href="https://vimeo.com/5.5073825e&#43;07" rel="noopener" target="_blank">
+
+
+<img src="https://i.vimeocdn.com/video/424130492-d4f7b89b408e257d26f9385e1a3cce0b96784fe6833362e857e2702b4adaec5d-d_295x166" srcset="https://i.vimeocdn.com/video/424130492-d4f7b89b408e257d26f9385e1a3cce0b96784fe6833362e857e2702b4adaec5d-d_295x166 1x, https://i.vimeocdn.com/video/424130492-d4f7b89b408e257d26f9385e1a3cce0b96784fe6833362e857e2702b4adaec5d-d_295x166 2x" alt="OVERVIEW">
+<div class="play"><svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"><circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"></circle><path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"></path></svg></div></a></div>
+<h1 id="youtube">YouTube</h1>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h1 id="instagram">Instagram</h1>
+<p>(requires an Access Token)</p>
+<h1 id="buttons">Buttons</h1>
+<p>(not working)</p>
+<h1 id="columns">Columns</h1>
+<p>(not working)</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -224,8 +935,99 @@ Columns (not working)</description>
       <description>Headings Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Links Internal: Heading 1 External: Google Lists item 1 sub-item 1 sub-item 2 item 2 Task Lists Write the press release Update the website Contact the media Highlight - not working I need to highlight these ==very important words==.
 Strikethrough The world is flat. We now know that the world is round.
 Emojis Gone camping! ⛺ Be back soon.</description>
+      <content:encoded><![CDATA[<h1 id="headings">Headings</h1>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h1 id="links">Links</h1>
+<ul>
+<li>Internal: <a href="#heading-1">Heading 1</a></li>
+<li>External: <a href="https://google.com">Google</a></li>
+</ul>
+<h1 id="lists">Lists</h1>
+<ul>
+<li>item 1
+<ul>
+<li>sub-item 1</li>
+<li>sub-item 2</li>
+</ul>
+</li>
+<li>item 2</li>
+</ul>
+<h1 id="task-lists">Task Lists</h1>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Write the press release</li>
+<li><input disabled="" type="checkbox"> Update the website</li>
+<li><input disabled="" type="checkbox"> Contact the media</li>
+</ul>
+<h1 id="highlight---not-working">Highlight - not working</h1>
+<p>I need to highlight these ==very important words==.</p>
+<h1 id="strikethrough">Strikethrough</h1>
+<p><del>The world is flat.</del> We now know that the world is round.</p>
+<h1 id="emojis">Emojis</h1>
+<p>Gone camping! ⛺ Be back soon.</p>
+<p>That is so funny! 😂</p>
+<h1 id="table">Table</h1>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<h1 id="table-alignment">Table Alignment</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Syntax</th>
+<th style="text-align:center">Description</th>
+<th style="text-align:right">Test Text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Header</td>
+<td style="text-align:center">Title</td>
+<td style="text-align:right">Here&rsquo;s this</td>
+</tr>
+<tr>
+<td style="text-align:left">Paragraph</td>
+<td style="text-align:center">Text</td>
+<td style="text-align:right">And more</td>
+</tr>
+</tbody>
+</table>
+<h1 id="code-block">Code Block</h1>
+<pre tabindex="0"><code>{
+  &#34;firstName&#34;: &#34;John&#34;,
+  &#34;lastName&#34;: &#34;Smith&#34;,
+  &#34;age&#34;: 25
+}
+</code></pre><h1 id="syntax-highlighting---not-working">Syntax Highlighting - not working</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;John&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">25</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h1 id="references">References</h1>
+<ul>
+<li><a href="https://www.markdownguide.org/extended-syntax/">https://www.markdownguide.org/extended-syntax/</a></li>
+</ul>
+]]></content:encoded>
     </item>
-    
     
   </channel>
 </rss>

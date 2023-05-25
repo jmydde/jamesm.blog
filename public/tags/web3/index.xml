@@ -4,11 +4,6 @@
     <title>web3 on jamesm.blog</title>
     <link>https://jamesm.blog/tags/web3/</link>
     <description>Recent content in web3 on jamesm.blog</description>
-    <image>
-      <title>jamesm.blog</title>
-      <url>https://jamesm.blog/papermod-cover.png</url>
-      <link>https://jamesm.blog/papermod-cover.png</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://jamesm.blog/tags/web3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web3</title>
@@ -17,6 +12,7 @@
       
       <guid>https://jamesm.blog/web3/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
   </channel>
