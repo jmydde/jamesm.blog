@@ -107,9 +107,9 @@ params:
         url:  tags
 
   homeInfoParams:
-    Title: "jamesm.blog"
+    Title: "James Myddelton"
     Content: |
-      Welcome to James' blog, the following topics are covered here;
+      Welcome to James Myddelton's blog, the following topics are covered here;
       - AI
       - DevOps (AWS, CI/CD, Docker, K8s)
       - Music Production
@@ -117,10 +117,26 @@ params:
       - Web3
 
   socialIcons:
-    - name: github-simple
+    - name: twitter
+      url: "https://twitter.com/jamesmyddelton/"
+    - name: facebook
+      url: "https://www.facebook.com/jamesmyddelton/"
+    - name: instagram
+      url: "https://www.instagram.com/jamesmyddelton/"
+    - name: youtube
+      url: "https://www.youtube.com/@JamesMyddelton/playlists/"
+    - name: soundcloud
+      url: "https://soundcloud.com/jamesm/"
+    - name: linkedin
+      url: "https://uk.linkedin.com/in/jamesmyddelton/"
+  # - name: github-simple
+  #   url: "https://github.com/jmydde/"
+    - name: github
       url: "https://github.com/jmydde/"
+    - name: gmail
+      url: "mailto:jamesmyddelton@gmail.com"
     - name: KoFi
-      url: "https://ko-fi.com/U6U1LGXXV"
+      url: "https://ko-fi.com/U6U1LGXXV/"
     - name: rss-simple
       url: "index.xml"
 
