@@ -7,33 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 23 May 2023 19:58:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Links</title>
+      <title>AI Links</title>
       <link>https://jamesm.blog/ai/links/</link>
       <pubDate>Tue, 23 May 2023 19:58:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/links/</guid>
-      <description>Companies Boston Dynamics - create exceptional robots that enrich people’s lives Google OpenAI Stability Tesla Tools Bard ChatGPT Cleanup.pictures - Remove unwanted object, defect, people or text from your pictures DALL·E 2 - Creates realistic images &amp;amp; art from a description in natural language Deep Nostalgia - Animate your family photos GitHub Copilot Krisp - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant LALAL.AI - Extract vocal, accompaniment &amp;amp; various instruments from any audio / video Murf - Text to speech AI voice generator Notion Soundraw - Royalty-free AI generated music Speechify </description>
-      <content:encoded><![CDATA[<h2 id="companies">Companies</h2>
+      <description>AI Companies Boston Dynamics - create exceptional robots that enrich people’s lives Google AI - a division of Google dedicated to artificial intelligence OpenAI - AI research and deployment company Stability - building the foundation to activate humanity&amp;rsquo;s potential Tesla AI &amp;amp; Robotics - developing &amp;amp; deploying autonomy at scale in vehicles &amp;amp; robots AI Tools Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) Cleanup.</description>
+      <content:encoded><![CDATA[<h2 id="ai-companies">AI Companies</h2>
 <ul>
 <li><a href="https://www.youtube.com/@BostonDynamics">Boston Dynamics</a> - create exceptional robots that enrich people’s lives</li>
-<li><a href="https://ai.google/">Google</a></li>
-<li><a href="https://openai.com/">OpenAI</a></li>
-<li><a href="https://stability.ai/">Stability</a></li>
-<li><a href="https://www.tesla.com/AI">Tesla</a></li>
+<li><a href="https://ai.google/">Google AI</a> - a division of Google dedicated to artificial intelligence</li>
+<li><a href="https://openai.com/">OpenAI</a> - AI research and deployment company</li>
+<li><a href="https://stability.ai/">Stability</a> - building the foundation to activate humanity&rsquo;s potential</li>
+<li><a href="https://www.tesla.com/en_gb/AI">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
 </ul>
-<h2 id="tools">Tools</h2>
+<h2 id="ai-tools">AI Tools</h2>
 <ul>
-<li><a href="https://bard.google.com/">Bard</a></li>
-<li><a href="https://openai.com/blog/chatgpt">ChatGPT</a></li>
-<li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - Remove unwanted object, defect, people or text from your pictures</li>
-<li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - Creates realistic images &amp; art from a description in natural language</li>
-<li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - Animate your family photos</li>
-<li><a href="https://github.com/features/copilot">GitHub Copilot</a></li>
-<li><a href="https://krisp.ai/">Krisp</a> - Improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
-<li><a href="https://www.lalal.ai/">LALAL.AI</a> - Extract vocal, accompaniment &amp; various instruments from any audio / video</li>
-<li><a href="https://murf.ai/">Murf</a> - Text to speech AI voice generator</li>
+<li><a href="https://bard.google.com/">Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
+<li><a href="https://openai.com/blog/chatgpt">ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
+<li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - remove unwanted object, defect, people or text from your pictures</li>
+<li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
+<li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - animate your family photos</li>
+<li><a href="https://github.com/features/copilot">GitHub Copilot</a> - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
+<li><a href="https://krisp.ai/">Krisp</a> - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
+<li><a href="https://www.lalal.ai/">LALAL.AI</a> - extract vocal, accompaniment &amp; various instruments from any audio / video</li>
+<li><a href="https://murf.ai/">Murf</a> - text to speech AI voice generator</li>
 <li><a href="https://www.notion.so/product/ai">Notion</a></li>
-<li><a href="https://soundraw.io/">Soundraw</a> - Royalty-free AI generated music</li>
+<li><a href="https://soundraw.io/">Soundraw</a> - royalty-free AI generated music</li>
 <li><a href="https://speechify.com/">Speechify</a></li>
 </ul>
 ]]></content:encoded>
@@ -65,15 +65,17 @@ Download on the App Store The ChatGPT app is free to use and syncs your history 
     </item>
     
     <item>
-      <title>Tesla Bot Update</title>
-      <link>https://jamesm.blog/ai/tesla-bot-update-20230516/</link>
+      <title>Tesla Bot</title>
+      <link>https://jamesm.blog/ai/tesla-bot/</link>
       <pubDate>Tue, 16 May 2023 21:24:14 +0100</pubDate>
       
-      <guid>https://jamesm.blog/ai/tesla-bot-update-20230516/</guid>
+      <guid>https://jamesm.blog/ai/tesla-bot/</guid>
       <description>Multiple fully Tesla-made bots now walking around &amp;amp; learning about the real world 🤖
-Join the Tesla AI team → https://tesla.com/ai</description>
+https://tesla.com/ai </description>
       <content:encoded><![CDATA[<p>Multiple fully Tesla-made bots now walking around &amp; learning about the real world 🤖</p>
-<p>Join the Tesla AI team → <a href="https://tesla.com/ai">https://tesla.com/ai</a></p>
+<ul>
+<li><a href="https://tesla.com/ai">https://tesla.com/ai</a></li>
+</ul>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/XiQkeWOFwmk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
