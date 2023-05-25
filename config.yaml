@@ -8,18 +8,20 @@ enableRobotsTXT:        true
 #googleAnalytics:        UA-123-45
 paginate:               5
 pygmentsUseClasses:     true
-#theme:                  ananke
-#theme:                  LoveIt
-#theme:                  hugo-paper
-#theme:                  hugo-book
-#theme:                  hugo-devresume-theme
-#theme:                  hugo-theme-stack
-#theme:                  terminal
-#theme:                  beautifulhugo
-#theme:                  m10c
-#theme:                  hugo-PaperMod
-theme:                  hugo-PaperModX
 title:                  jamesm.blog
+
+# Theme
+#theme: ananke
+#theme: beautifulhugo
+#theme: hugo-book
+#theme: hugo-devresume-theme
+#theme: hugo-paper
+#theme: hugo-PaperMod
+theme: hugo-PaperModX
+#theme: hugo-theme-stack
+#theme: LoveIt
+#theme: m10c
+#theme: terminal
 
 minify:
   disableXML:    true
@@ -112,9 +114,9 @@ params:
     Content: |
       Welcome to James' blog, the following topics are covered here;
       - AI
-      - DevOps 
-      - Music
-      - Tools
+      - DevOps (AWS, CI/CD, Docker, K8s)
+      - Music Production
+      - Tools (Development, Productivity)
       - Web3
 
   socialIcons:
