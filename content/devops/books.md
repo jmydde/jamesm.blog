@@ -3,7 +3,7 @@ title: "DevOps Books"
 date: 2023-04-21T23:07:18+01:00
 draft: false
 ---
-A list of recommended books ...
+A list of recommended DevOps books ...
 
 ## DevOps
 * [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)

@@ -107,7 +107,7 @@ params:
         url:  tags
 
   homeInfoParams:
-    Title: "James M's Blog"
+    Title: "James' Blog"
     Content: |
       Welcome to my blog, the following topics are covered here;
       - Artificial Intelligence (AI)
