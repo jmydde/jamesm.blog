@@ -1,9 +1,11 @@
 ---
-title: "AI Links"
+title: "Links"
 date: 2023-05-23T19:58:14+01:00
 draft: false
+tags: ["ai", "links"]
 ---
 ## Companies
+- [Boston Dynamics](https://www.youtube.com/@BostonDynamics) - create exceptional robots that enrich people’s lives
 - [Google](https://ai.google/)
 - [OpenAI](https://openai.com/)
 - [Stability](https://stability.ai/)

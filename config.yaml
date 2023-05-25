@@ -42,8 +42,6 @@ languages:
           weight: 10
         - name: AI
           url: /ai
-        - name: Links
-          url: /links
         - name: About
           url: /about
         - name: DevOps
@@ -83,7 +81,6 @@ params:
     - devops
     - general
     - ideas
-    - links
     - music
     - tools
     - tv-movies

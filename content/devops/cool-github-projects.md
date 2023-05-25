@@ -2,6 +2,7 @@
 title: "Cool GitHub Projects"
 date: 2023-04-21T23:07:18+01:00
 draft: false
+tags: ["devops"]
 ---
 A list of useful GitHub projects;
 * [bat](https://github.com/sharkdp/bat) - a cat clone with syntax highlighting and Git integration

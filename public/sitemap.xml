@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2023-05-23T19:58:14+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2023-05-23T19:58:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-05-23T19:58:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/links/</loc>
     <lastmod>2023-05-23T19:58:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/links/</loc>
     <lastmod>2023-05-23T19:58:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
+    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2023-05-23T19:58:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/about/</loc>
@@ -20,8 +29,23 @@
     <loc>https://jamesm.blog/tools/</loc>
     <lastmod>2023-05-20T12:54:16+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/apps/</loc>
+    <lastmod>2023-05-18T19:05:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/gpt/</loc>
+    <lastmod>2023-05-18T19:05:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/ios/</loc>
+    <lastmod>2023-05-18T19:05:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/llm/</loc>
+    <lastmod>2023-05-18T19:05:35+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/ai/chatgpt-app-ios/</loc>
     <lastmod>2023-05-18T19:05:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/robots/</loc>
+    <lastmod>2023-05-16T21:24:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/tesla-bot-update-20230516/</loc>
     <lastmod>2023-05-16T21:24:14+01:00</lastmod>
@@ -38,10 +62,13 @@
     <loc>https://jamesm.blog/tools/brew-packages/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/links/</loc>
+    <loc>https://jamesm.blog/general/links/</loc>
     <lastmod>2023-05-10T14:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/links/youtube-channels/</loc>
+    <loc>https://jamesm.blog/music/links/</loc>
+    <lastmod>2023-05-10T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/music/</loc>
     <lastmod>2023-05-10T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/monkey-computer-sync/</loc>
@@ -50,11 +77,17 @@
     <loc>https://jamesm.blog/devops/cool-github-projects/</loc>
     <lastmod>2023-04-21T23:07:18+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/devops/</loc>
+    <lastmod>2023-04-21T23:07:18+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2023-04-21T23:07:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/books/</loc>
     <lastmod>2023-04-21T23:07:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/blogs/</loc>
+    <lastmod>2023-04-21T11:50:32+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/blogs/</loc>
     <lastmod>2023-04-21T11:50:32+01:00</lastmod>
@@ -67,9 +100,6 @@
   </url><url>
     <loc>https://jamesm.blog/ai/gpt-4/</loc>
     <lastmod>2023-03-16T14:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/music/</loc>
-    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music/my-hardware-software/</loc>
     <lastmod>2023-02-20T14:53:39+01:00</lastmod>
@@ -89,19 +119,13 @@
     <loc>https://jamesm.blog/general/markdown/</loc>
     <lastmod>2020-01-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-  </url><url>
     <loc>https://jamesm.blog/categories/</loc>
-  </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/general/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/ideas/</loc>
   </url><url>
     <loc>https://jamesm.blog/ideas/</loc>
-  </url><url>
-    <loc>https://jamesm.blog/tags/links/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/movies/</loc>
   </url><url>
@@ -114,8 +138,6 @@
     <loc>https://jamesm.blog/search/</loc>
   </url><url>
     <loc>https://jamesm.blog/series/</loc>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/tools/</loc>
   </url><url>

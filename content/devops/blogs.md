@@ -2,6 +2,7 @@
 title: "DevOps Blogs"
 date: 2023-04-21T11:50:32+01:00
 draft: false
+tags: ["devops", "blogs"]
 ---
 
 ## DevOps & SRE
