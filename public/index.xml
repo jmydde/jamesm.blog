@@ -203,11 +203,22 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     </item>
     
     <item>
+      <title>Hugo Shortcode Syntax</title>
+      <link>https://jamesm.blog/general/shortcodes/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:01 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/general/shortcodes/</guid>
+      <description>Figure Google Logo GitHub Gist https://gist.github.com/sansmischevia/5148109 Instagram (requires an Access Token)
+Tweet Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
+&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 Vimeo YouTube </description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax</title>
-      <link>https://jamesm.blog/general/test/</link>
+      <link>https://jamesm.blog/general/markdown/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://jamesm.blog/general/test/</guid>
+      <guid>https://jamesm.blog/general/markdown/</guid>
       <description>Headings Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Links Internal: Heading 1 External: Google Lists item 1 sub-item 1 sub-item 2 item 2 Task Lists Write the press release Update the website Contact the media Highlight - not working I need to highlight these ==very important words==.
 Strikethrough The world is flat. We now know that the world is round.
 Emojis Gone camping! ⛺ Be back soon.</description>
