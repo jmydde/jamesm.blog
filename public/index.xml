@@ -208,9 +208,11 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
       <pubDate>Wed, 01 Jan 2020 00:00:01 +0100</pubDate>
       
       <guid>https://jamesm.blog/general/shortcodes/</guid>
-      <description>Figure Google Logo GitHub Gist https://gist.github.com/sansmischevia/5148109 Instagram (requires an Access Token)
-Tweet Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
-&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 Vimeo YouTube </description>
+      <description>Code echo &amp;quot;Hello World&amp;quot;
+Code Block # some code echo &amp;#34;Hello World&amp;#34; Code Block with Highlighting not working ? 1 2 # some code echo &amp;#34;Hello World&amp;#34; Figure Google Logo GitHub Gist https://gist.github.com/sansmischevia/5148109 Tweet Owl bet you&amp;#39;ll lose this staring contest 🦉 pic.twitter.com/eJh4f2zncC
+&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) October 26, 2021 Vimeo YouTube Instagram (requires an Access Token)
+Buttons (not working)
+Columns (not working)</description>
     </item>
     
     <item>
