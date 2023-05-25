@@ -42,8 +42,6 @@ languages:
           weight: 10
         - name: AI
           url: /ai
-        - name: About
-          url: /about
         - name: DevOps
           url: /devops
         - name: General
@@ -156,7 +154,7 @@ params:
 
   assets:
       disableHLJS: true
-  #     favicon: "<link / abs url>"
+      favicon: "/themes/hugo-PaperModX/static/favicon.ico"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
   #     apple_touch_icon: "<link / abs url>"

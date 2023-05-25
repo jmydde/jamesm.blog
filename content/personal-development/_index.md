@@ -1,6 +1,6 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs", "personal-development"]
-title = "Personal Development"
+title = "Category: Personal Development"
 author = "James M"
 tags = ["personal-dev"]
 +++

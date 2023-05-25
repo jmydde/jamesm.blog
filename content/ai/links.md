@@ -6,6 +6,7 @@ tags: ["ai", "links", "tools"]
 ---
 ## AI Companies
 - [Boston Dynamics](https://www.youtube.com/@BostonDynamics) - create exceptional robots that enrich people’s lives
+- [Fast.ai](https://www.fast.ai/) - making deep learning easier to use
 - [Google AI](https://ai.google/) - a division of Google dedicated to artificial intelligence
 - [OpenAI](https://openai.com/) - AI research and deployment company
 - [Stability](https://stability.ai/) - building the foundation to activate humanity's potential
@@ -17,6 +18,7 @@ tags: ["ai", "links", "tools"]
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
 - [DALL·E 2](https://openai.com/product/dall-e-2) - creates realistic images & art from a description in natural language
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia) - animate your family photos
+- [DoNotPay](https://donotpay.com/) - the world's first robot lawyer
 - [GitHub Copilot](https://github.com/features/copilot) - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
 - [Krisp](https://krisp.ai/) - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant
 - [LALAL.AI](https://www.lalal.ai/) - extract vocal, accompaniment & various instruments from any audio / video
