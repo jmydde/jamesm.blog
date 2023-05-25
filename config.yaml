@@ -107,9 +107,9 @@ params:
         url:  tags
 
   homeInfoParams:
-    Title: "James Myddelton"
+    Title: "James M's Blog"
     Content: |
-      Welcome to James Myddelton's blog, the following topics are covered here;
+      Welcome to my blog, the following topics are covered here;
       - AI
       - DevOps (AWS, CI/CD, Docker, K8s)
       - Music Production
