@@ -1,18 +1,9 @@
 ---
-title: "AI Links"
-date: 2023-05-23T19:58:14+01:00
+title: "AI Tools & Companies"
+date: 2023-05-26T07:45:14+01:00
 draft: false
 tags: ["ai", "links", "tools"]
 ---
-## AI Companies
-List of AI companies
-- [Boston Dynamics](https://www.youtube.com/@BostonDynamics) - create exceptional robots that enrich people’s lives
-- [Fast.ai](https://www.fast.ai/) - making deep learning easier to use
-- [Google AI](https://ai.google/) - a division of Google dedicated to artificial intelligence
-- [OpenAI](https://openai.com/) - AI research and deployment company
-- [Stability](https://stability.ai/) - building the foundation to activate humanity's potential
-- [Tesla AI & Robotics](https://www.tesla.com/en_gb/AI) - developing & deploying autonomy at scale in vehicles & robots
-
 ## AI Tools
 List of AI tools
 - [10Web](https://10web.io)
@@ -37,3 +28,12 @@ List of AI tools
 - [Trinka](https://trinka.ai)
 - [Voicemaker](https://voicemaker.in)
 - [WNR](https://wnr.ai)
+
+## AI Companies
+List of AI companies
+- [Boston Dynamics](https://www.youtube.com/@BostonDynamics) - create exceptional robots that enrich people’s lives
+- [Fast.ai](https://www.fast.ai/) - making deep learning easier to use
+- [Google AI](https://ai.google/) - a division of Google dedicated to artificial intelligence
+- [OpenAI](https://openai.com/) - AI research and deployment company
+- [Stability](https://stability.ai/) - building the foundation to activate humanity's potential
+- [Tesla AI & Robotics](https://www.tesla.com/en_gb/AI) - developing & deploying autonomy at scale in vehicles & robots

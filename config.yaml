@@ -42,6 +42,8 @@ languages:
           weight: 10
         - name: AI
           url: /ai
+        - name: Data
+          url: /data
         - name: DevOps
           url: /devops
         - name: General
@@ -74,6 +76,7 @@ params:
   images:                         ["papermod-cover.png"]
   mainSections: 
     - ai
+    - data
     - devops
     - general
     - ideas
@@ -105,6 +108,7 @@ params:
     Content: |
       Welcome to my blog, I cover the following topics here;
       - [**AI**](/ai)
+      - [**Data**](/data)
       - [**DevOps**](/devops) (AWS, CI/CD, Docker, Infrastructure-as-Code, Kubernetes)
       - [**General**](/general) (general topics & news)
       - [**Music**](/music) (artists, groups, music production)
