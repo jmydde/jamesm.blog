@@ -42,6 +42,21 @@
     </item>
     
     <item>
+      <title>Speechify - best text to speech app</title>
+      <link>https://jamesm.blog/ai/speechify/</link>
+      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/speechify/</guid>
+      <description>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.
+The app also uses optical character recognition technology to turn physical books or printed text into audio.
+The app lets users take photos of text and then listen to it read out loud.</description>
+      <content:encoded><![CDATA[<p><a href="https://speechify.com/">Speechify</a> is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.</p>
+<p>The app also uses optical character recognition technology to turn physical books or printed text into audio.</p>
+<p>The app lets users take photos of text and then listen to it read out loud.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>OpenAI release ChatGPT app (iOS)</title>
       <link>https://jamesm.blog/ai/chatgpt-app-ios/</link>
       <pubDate>Thu, 18 May 2023 19:05:35 +0100</pubDate>
@@ -87,6 +102,17 @@ https://tesla.com/ai </description>
     </item>
     
     <item>
+      <title>Notion</title>
+      <link>https://jamesm.blog/ai/notion/</link>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/notion/</guid>
+      <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
+      <content:encoded><![CDATA[<p><a href="https://www.notion.so/">Notion</a> is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Auto-GPT is now able to write it&#39;s own code</title>
       <link>https://jamesm.blog/ai/auto-gpt/</link>
       <pubDate>Sat, 01 Apr 2023 14:53:39 +0100</pubDate>
@@ -112,6 +138,35 @@ Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute pyth
       <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Fully intent on being the next Skynet, OpenAI has released GPT-4, its most robust AI to date that the company claims is even more accurate while generating language and even better at solving problems. GPT-4 is so good at its job, in fact, that it report… <a href="https://t.co/Q2btYgtWSA">https://t.co/Q2btYgtWSA</a></p>&mdash; GrindZero Tribe (@Snapzu_Blogs) <a href="https://twitter.com/Snapzu_Blogs/status/1636353726519689217?ref_src=twsrc%5Etfw">March 16, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>GitHub Copilot</title>
+      <link>https://jamesm.blog/ai/github-copilot/</link>
+      <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/github-copilot/</guid>
+      <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
+GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
+Focus on more satisfying work, be more producttive, speed up repetitve tasks.
+Supported IDEs
+Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
+      <content:encoded><![CDATA[<p><a href="https://github.com/features/copilot">GitHub Copilot</a> is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</p>
+<p>GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.</p>
+<p>Focus on more satisfying work, be more producttive, speed up repetitve tasks.</p>
+<p>Supported IDEs</p>
+<ul>
+<li>Neovim</li>
+<li>JetBrains IDEs</li>
+<li>Visual Studio</li>
+<li>Visual Studio Code</li>
+</ul>
+<p>Price: $10 / month</p>
+<p>Links</p>
+<ul>
+<li><a href="https://docs.github.com/en/copilot">Documentation</a></li>
+</ul>
 ]]></content:encoded>
     </item>
     

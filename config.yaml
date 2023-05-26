@@ -17,11 +17,11 @@ title:                  jamesm.blog
 #theme: hugo-devresume-theme
 #theme: hugo-paper
 #theme: hugo-PaperMod
-theme: hugo-PaperModX
 #theme: hugo-theme-stack
 #theme: LoveIt
 #theme: m10c
 #theme: terminal
+theme: hugo-PaperModX
 
 minify:
   disableXML:    true
@@ -46,12 +46,10 @@ languages:
           url: /devops
         - name: General
           url: /general
-        - name: Ideas
-          url: /ideas
+      # - name: Ideas
+      #   url: /ideas
         - name: Music
           url: /music
-        - name: Tools
-          url: /tools
         - name: Tags
           url: tags/
           weight: 10
@@ -80,7 +78,6 @@ params:
     - general
     - ideas
     - music
-    - tools
     - web3
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
@@ -104,14 +101,14 @@ params:
         url:  tags
 
   homeInfoParams:
-    Title: "James' Blog"
+    #Title: "James' Blog"
     Content: |
-      Welcome to my blog, the following topics are covered here;
-      - Artificial Intelligence (AI)
-      - DevOps (AWS, CI/CD, Docker, K8s)
-      - Music Production
-      - Tools (Development, Productivity)
-      - Web3
+      Welcome to my blog, I cover the following topics here;
+      - [Artificial Intelligence (AI)](/ai)
+      - [DevOps](/devops) (AWS, CI/CD, Docker, Infrastructure-as-Code, Kubernetes)
+      - [General](/general) (general topics)
+      - [Music](/music) (artists, groups, music production)
+      - [Web3](/web3) (Blockchain)
 
   socialIcons:
     - name: twitter

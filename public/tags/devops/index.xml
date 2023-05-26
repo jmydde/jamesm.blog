@@ -44,9 +44,24 @@ bat - a cat clone with syntax highlighting and Git integration k9s - terminal UI
     </item>
     
     <item>
+      <title>K9s - Awesome Kubernetes CLI</title>
+      <link>https://jamesm.blog/devops/k9s/</link>
+      <pubDate>Sat, 15 Apr 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/k9s/</guid>
+      <description>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
+https://k9scli.io/ </description>
+      <content:encoded><![CDATA[<p>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.</p>
+<ul>
+<li><a href="https://k9scli.io/">https://k9scli.io/</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Category: DevOps</title>
       <link>https://jamesm.blog/devops/</link>
-      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/</guid>
       <description></description>

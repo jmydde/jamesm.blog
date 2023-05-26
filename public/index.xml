@@ -43,10 +43,10 @@
     
     <item>
       <title>Speechify - best text to speech app</title>
-      <link>https://jamesm.blog/tools/speechify/</link>
+      <link>https://jamesm.blog/ai/speechify/</link>
       <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tools/speechify/</guid>
+      <guid>https://jamesm.blog/ai/speechify/</guid>
       <description>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.
 The app also uses optical character recognition technology to turn physical books or printed text into audio.
 The app lets users take photos of text and then listen to it read out loud.</description>
@@ -119,10 +119,10 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
     
     <item>
       <title>Notion</title>
-      <link>https://jamesm.blog/tools/notion/</link>
+      <link>https://jamesm.blog/ai/notion/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tools/notion/</guid>
+      <guid>https://jamesm.blog/ai/notion/</guid>
       <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
       <content:encoded><![CDATA[<p><a href="https://www.notion.so/">Notion</a> is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</p>
 ]]></content:encoded>
@@ -130,10 +130,10 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
     
     <item>
       <title>Useful Homebrew packages (MacOS)</title>
-      <link>https://jamesm.blog/tools/brew-packages/</link>
+      <link>https://jamesm.blog/devops/brew-packages/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tools/brew-packages/</guid>
+      <guid>https://jamesm.blog/devops/brew-packages/</guid>
       <description>Essential bat - Linux “cat” command alternative with syntax highlighting glow - Markdown reader htop - Top clone with syntax highlighting and mouse support jq - sed for JSON data jupyter - JupyterHub notebooks k9s - Monitor Kubernetes resources pyenv - Python version management python - Python (3.11) terraform - Terraform tfswitch - Switch Terraform versions (warrensbox/tap/tfswitch) tree - View folders and files in a visual tree (tree -L ) wget - Download files yq - Lightweight and portable command-line YAML, JSON and XML processor Others django - Python Web framework glances - Console (and web) based server monitoring tool httpie - A curl-like tool to interact with HTTP servers lnav - Explore and troubleshoot cryptic log files midnight-commander - File explorer mtr - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues navi - Interactive cheatsheet tool ncdu - Disk space analyzer, find big files &amp;amp; directories npm - Node Package Manager pytorch ranger - Directory / file explorer providing an easier way to find files via the terminal snappy speedtest-cli - Test upload/download speed task - A todo app tensorflow tmux - Run multiple terminal sessions within the same window youtube-dl - YouTube downloader </description>
       <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
 <ul>
@@ -341,11 +341,11 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
     </item>
     
     <item>
-      <title>K9s - Kubernetes CLI</title>
-      <link>https://jamesm.blog/tools/k9s/</link>
+      <title>K9s - Awesome Kubernetes CLI</title>
+      <link>https://jamesm.blog/devops/k9s/</link>
       <pubDate>Sat, 15 Apr 2023 12:54:16 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tools/k9s/</guid>
+      <guid>https://jamesm.blog/devops/k9s/</guid>
       <description>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
 https://k9scli.io/ </description>
       <content:encoded><![CDATA[<p>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.</p>
@@ -713,10 +713,10 @@ Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute pyth
     
     <item>
       <title>GitHub Copilot</title>
-      <link>https://jamesm.blog/tools/github-copilot/</link>
+      <link>https://jamesm.blog/ai/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tools/github-copilot/</guid>
+      <guid>https://jamesm.blog/ai/github-copilot/</guid>
       <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
 GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
 Focus on more satisfying work, be more producttive, speed up repetitve tasks.
