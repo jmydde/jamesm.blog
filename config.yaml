@@ -104,11 +104,11 @@ params:
     #Title: "James' Blog"
     Content: |
       Welcome to my blog, I cover the following topics here;
-      - [Artificial Intelligence (AI)](/ai)
-      - [DevOps](/devops) (AWS, CI/CD, Docker, Infrastructure-as-Code, Kubernetes)
-      - [General](/general) (general topics)
-      - [Music](/music) (artists, groups, music production)
-      - [Web3](/web3) (Blockchain)
+      - [**AI**](/ai)
+      - [**DevOps**](/devops) (AWS, CI/CD, Docker, Infrastructure-as-Code, Kubernetes)
+      - [**General**](/general) (general topics & news)
+      - [**Music**](/music) (artists, groups, music production)
+      - [**Web3**](/web3) (Blockchain)
 
   socialIcons:
     - name: twitter
