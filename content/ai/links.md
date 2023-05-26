@@ -6,28 +6,28 @@ tags: ["ai", "links", "tools"]
 ---
 ## AI Tools
 List of AI tools
-- [10Web](https://10web.io)
-- [AskCodi](https://askcodi.com)
+- [10Web](https://10web.io) - AI-powered WordPress platform
+- [AskCodi](https://askcodi.com) - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code
 - [Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM
-- [Brancher](https://brancher.ai)
+- [Brancher](https://brancher.ai) - connect AI models to build AI apps in minutes, with no-code
 - [ChatGPT](https://openai.com/blog/chatgpt) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
 - [DALL·E 2](https://openai.com/product/dall-e-2) - creates realistic images & art from a description in natural language
-- [Decoherence](https://decoherence.co)
+- [Decoherence](https://decoherence.co) - create what can't be filmed
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia) - animate your family photos
 - [DoNotPay](https://donotpay.com/) - the world's first robot lawyer
 - [GitHub Copilot](https://github.com/features/copilot) - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
 - [Krisp](https://krisp.ai/) - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant
 - [LALAL.AI](https://www.lalal.ai/) - extract vocal, accompaniment & various instruments from any audio / video
-- [Leap](https://tryleap.ai)
-- [MosaicTrack](https://mosaic.ai)
+- [Leap](https://tryleap.ai) - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs
+- [MosaicTrack](https://mosaic.ai) - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set
 - [Murf](https://murf.ai/) - text to speech AI voice generator
-- [Notion](https://www.notion.so/product/ai)
+- [Notion](https://www.notion.so/product/ai) - organizational tools including task management, project tracking, to-do lists, bookmarking, and more
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
-- [Speechify](https://speechify.com/)
-- [Trinka](https://trinka.ai)
-- [Voicemaker](https://voicemaker.in)
-- [WNR](https://wnr.ai)
+- [Speechify](https://speechify.com/) - mobile and desktop app that reads text aloud using a computer generated text to speech voice
+- [Trinka](https://trinka.ai) - online grammar checker and language correction AI tool for academic and technical writing
+- [Voicemaker](https://voicemaker.in) - online free text to speech converter
+- [WNR](https://wnr.ai) - prompts made easy with AI templates
 
 ## AI Companies
 List of AI companies
