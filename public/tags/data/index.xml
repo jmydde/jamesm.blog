@@ -49,13 +49,13 @@
       
       <guid>https://jamesm.blog/data/etl-tools/</guid>
       <description>What is ETL ? Extracting data from sources Transforming data into data models Loading data into data warehouses List of ETL Tools Ab Initio (Best of Breed) AWS Data Pipeline AWS Glue Azure Data Factory CloverDX Datastage Google Cloud Dataflow Hevo Informatica Integrate Matillion Pentaho Data Integration (PDI) Qlik Compose SAP Data Services SQL Server Integration Services (SSIS) Stitch Talend </description>
-      <content:encoded><![CDATA[<h1 id="what-is-etl-">What is ETL ?</h1>
+      <content:encoded><![CDATA[<h3 id="what-is-etl-">What is ETL ?</h3>
 <ul>
 <li><strong>E</strong>xtracting data from sources</li>
 <li><strong>T</strong>ransforming data into data models</li>
 <li><strong>L</strong>oading data into data warehouses</li>
 </ul>
-<h1 id="list-of-etl-tools">List of ETL Tools</h1>
+<h3 id="list-of-etl-tools">List of ETL Tools</h3>
 <ul>
 <li><a href="https://www.abinitio.com/">Ab Initio</a> (Best of Breed)</li>
 <li><a href="https://aws.amazon.com/datapipeline/">AWS Data Pipeline</a></li>
