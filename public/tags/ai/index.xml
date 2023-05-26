@@ -5,15 +5,32 @@
     <link>https://jamesm.blog/tags/ai/</link>
     <description>Recent content in ai on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 May 2023 19:58:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 11:30:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neuralink receives FDA approval to launch first-in-human clinical study</title>
+      <link>https://jamesm.blog/ai/neurallink/</link>
+      <pubDate>Thu, 25 May 2023 11:30:14 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/neurallink/</guid>
+      <description>We are excited to share that we have received the FDA’s approval to launch our first-in-human clinical study!
+This is the result of incredible work by the Neuralink team in close collaboration with the FDA and represents an important first step that will one day allow our…
+&amp;mdash; Neuralink (@neuralink) May 25, 2023 </description>
+      <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">We are excited to share that we have received the FDA’s approval to launch our first-in-human clinical study!<br><br>This is the result of incredible work by the Neuralink team in close collaboration with the FDA and represents an important first step that will one day allow our…</p>&mdash; Neuralink (@neuralink) <a href="https://twitter.com/neuralink/status/1661857379460468736?ref_src=twsrc%5Etfw">May 25, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>AI Links</title>
       <link>https://jamesm.blog/ai/links/</link>
       <pubDate>Tue, 23 May 2023 19:58:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/links/</guid>
-      <description>AI Companies Boston Dynamics - create exceptional robots that enrich people’s lives Fast.ai - making deep learning easier to use Google AI - a division of Google dedicated to artificial intelligence OpenAI - AI research and deployment company Stability - building the foundation to activate humanity&amp;rsquo;s potential Tesla AI &amp;amp; Robotics - developing &amp;amp; deploying autonomy at scale in vehicles &amp;amp; robots AI Tools Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) Cleanup.</description>
+      <description>AI Companies List of AI companies
+Boston Dynamics - create exceptional robots that enrich people’s lives Fast.ai - making deep learning easier to use Google AI - a division of Google dedicated to artificial intelligence OpenAI - AI research and deployment company Stability - building the foundation to activate humanity&amp;rsquo;s potential Tesla AI &amp;amp; Robotics - developing &amp;amp; deploying autonomy at scale in vehicles &amp;amp; robots AI Tools List of AI tools</description>
       <content:encoded><![CDATA[<h2 id="ai-companies">AI Companies</h2>
+<p>List of AI companies</p>
 <ul>
 <li><a href="https://www.youtube.com/@BostonDynamics">Boston Dynamics</a> - create exceptional robots that enrich people’s lives</li>
 <li><a href="https://www.fast.ai/">Fast.ai</a> - making deep learning easier to use</li>
@@ -23,20 +40,30 @@
 <li><a href="https://www.tesla.com/en_gb/AI">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
 </ul>
 <h2 id="ai-tools">AI Tools</h2>
+<p>List of AI tools</p>
 <ul>
+<li><a href="https://10web.io">10Web</a></li>
+<li><a href="https://askcodi.com">AskCodi</a></li>
 <li><a href="https://bard.google.com/">Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
+<li><a href="https://brancher.ai">Brancher</a></li>
 <li><a href="https://openai.com/blog/chatgpt">ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
 <li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - remove unwanted object, defect, people or text from your pictures</li>
 <li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
+<li><a href="https://decoherence.co">Decoherence</a></li>
 <li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - animate your family photos</li>
 <li><a href="https://donotpay.com/">DoNotPay</a> - the world&rsquo;s first robot lawyer</li>
 <li><a href="https://github.com/features/copilot">GitHub Copilot</a> - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
 <li><a href="https://krisp.ai/">Krisp</a> - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
 <li><a href="https://www.lalal.ai/">LALAL.AI</a> - extract vocal, accompaniment &amp; various instruments from any audio / video</li>
+<li><a href="https://tryleap.ai">Leap</a></li>
+<li><a href="https://mosaic.ai">MosaicTrack</a></li>
 <li><a href="https://murf.ai/">Murf</a> - text to speech AI voice generator</li>
 <li><a href="https://www.notion.so/product/ai">Notion</a></li>
 <li><a href="https://soundraw.io/">Soundraw</a> - royalty-free AI generated music</li>
 <li><a href="https://speechify.com/">Speechify</a></li>
+<li><a href="https://trinka.ai">Trinka</a></li>
+<li><a href="https://voicemaker.in">Voicemaker</a></li>
+<li><a href="https://wnr.ai">WNR</a></li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -173,7 +200,7 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     <item>
       <title>Category: AI</title>
       <link>https://jamesm.blog/ai/</link>
-      <pubDate>Tue, 23 May 2023 19:58:14 +0100</pubDate>
+      <pubDate>Thu, 25 May 2023 11:30:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/</guid>
       <description></description>
