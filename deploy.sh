@@ -1,1 +1,1 @@
-hugo && rsync -avz --delete public/ root@polkaview.io:/var/www/vhosts/jamesm.blog/httpdocs/
+hugo && rsync -avz --delete public/ root@jamesm.blog:/var/www/vhosts/jamesm.blog/httpdocs/
