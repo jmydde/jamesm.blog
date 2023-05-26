@@ -5,6 +5,6 @@ draft: false
 tags: ['ai', 'training', 'links']
 ---
 
-# AI
+# DataCamp
 - [AI Fundamentals](https://www.datacamp.com/courses/ai-fundamentals)
 - [Introduction to ChatGPT](https://www.datacamp.com/courses/introduction-to-chatgpt)

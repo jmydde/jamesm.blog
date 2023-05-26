@@ -190,5 +190,22 @@ https://k9scli.io/ </description>
 ]]></content:encoded>
     </item>
     
+    <item>
+      <title>CI/CD Tools</title>
+      <link>https://jamesm.blog/devops/cicd-tools/</link>
+      <pubDate>Sun, 21 Aug 2022 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/cicd-tools/</guid>
+      <description> ArgoCD - a declarative, GitOps continuous delivery tool for Kubernetes AWS CodePipeline - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software Azure DevOps - provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities GitLab - allows software development teams to plan, code, test, deploy and monitor product changes in one place Jenkins - the leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project </description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://argo-cd.readthedocs.io/en/stable/">ArgoCD</a> - a declarative, GitOps continuous delivery tool for Kubernetes</li>
+<li><a href="https://aws.amazon.com/codepipeline/">AWS CodePipeline</a> - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software</li>
+<li><a href="https://azure.microsoft.com/en-gb/products/devops">Azure DevOps</a> - provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities</li>
+<li><a href="https://about.gitlab.com/">GitLab</a> - allows software development teams to plan, code, test, deploy and monitor product changes in one place</li>
+<li><a href="https://www.jenkins.io/">Jenkins</a> - the leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>
