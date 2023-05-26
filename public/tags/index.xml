@@ -87,6 +87,36 @@
     </item>
     
     <item>
+      <title>ui</title>
+      <link>https://jamesm.blog/tags/ui/</link>
+      <pubDate>Mon, 15 May 2023 14:53:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/ui/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://jamesm.blog/tags/news/</link>
+      <pubDate>Sun, 07 May 2023 14:53:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/news/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://jamesm.blog/tags/tech/</link>
+      <pubDate>Sun, 07 May 2023 14:53:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
@@ -102,6 +132,26 @@
       <pubDate>Fri, 21 Apr 2023 11:50:32 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/blogs/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://jamesm.blog/tags/cli/</link>
+      <pubDate>Sat, 15 Apr 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/cli/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://jamesm.blog/tags/kubernetes/</link>
+      <pubDate>Sat, 15 Apr 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/kubernetes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -127,16 +177,6 @@
     </item>
     
     <item>
-      <title>movies</title>
-      <link>https://jamesm.blog/tags/movies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesm.blog/tags/movies/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>music</title>
       <link>https://jamesm.blog/tags/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -152,16 +192,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jamesm.blog/tags/personal-dev/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>tv</title>
-      <link>https://jamesm.blog/tags/tv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesm.blog/tags/tv/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cli on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/cli/</link>
+    <description>Recent content in cli on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 15 Apr 2023 12:54:16 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K9s - Kubernetes CLI</title>
+      <link>https://jamesm.blog/tools/k9s/</link>
+      <pubDate>Sat, 15 Apr 2023 12:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tools/k9s/</guid>
+      <description>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
+https://k9scli.io/ </description>
+      <content:encoded><![CDATA[<p>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.</p>
+<ul>
+<li><a href="https://k9scli.io/">https://k9scli.io/</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

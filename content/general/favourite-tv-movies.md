@@ -2,6 +2,7 @@
 title: "Favourite TV & Movies"
 date: 2023-05-11T21:06:35+01:00
 draft: true
+tags: ["movies", "tv", "comedy", "documentaries", "magic", "directors", "actors"]
 ---
 
 ## Television
@@ -68,9 +69,3 @@ draft: true
 * [Joe Pesci](https://www.imdb.com/name/nm0000582/?ref_=nv_sr_srsg_0_tt_5_nm_3_q_Joe%2520Pesci)
 * [Ray Liotta](https://www.imdb.com/name/nm0000501/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_Ray%2520Liotta)
 * [Robert De Niro](https://www.imdb.com/name/nm0000134/?ref_=nv_sr_srsg_1_tt_5_nm_2_q_Robert%2520De%2520Niro)
-
-## Physicists
-* Max Tegmark
-* Michio Kaku
-* Neil deGrasse Tyson
-* Richard Feynman
