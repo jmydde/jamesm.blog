@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>chatgpt on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/chatgpt/</link>
+    <description>Recent content in chatgpt on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Feb 2023 19:05:35 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Explainers</title>
+      <link>https://jamesm.blog/ai/explainers/</link>
+      <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/explainers/</guid>
+      <description> Deep Learning in a Nutshell: Core Concepts How Stable Diffusion works Practical Deep Learning What is ChatGPT doing &amp;amp; why does it work? Word2Vec Explained Yes you should understand backprop </description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/">Deep Learning in a Nutshell: Core Concepts</a></li>
+<li><a href="https://mccormickml.com/2022/12/21/how-stable-diffusion-works/">How Stable Diffusion works</a></li>
+<li><a href="https://course.fast.ai/">Practical Deep Learning</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What is ChatGPT doing &amp; why does it work?</a></li>
+<li><a href="https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/">Word2Vec Explained</a></li>
+<li><a href="https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/">Yes you should understand backprop</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -45,5 +45,23 @@ Download on the App Store The ChatGPT app is free to use and syncs your history 
 ]]></content:encoded>
     </item>
     
+    <item>
+      <title>AI Explainers</title>
+      <link>https://jamesm.blog/ai/explainers/</link>
+      <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/explainers/</guid>
+      <description> Deep Learning in a Nutshell: Core Concepts How Stable Diffusion works Practical Deep Learning What is ChatGPT doing &amp;amp; why does it work? Word2Vec Explained Yes you should understand backprop </description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/">Deep Learning in a Nutshell: Core Concepts</a></li>
+<li><a href="https://mccormickml.com/2022/12/21/how-stable-diffusion-works/">How Stable Diffusion works</a></li>
+<li><a href="https://course.fast.ai/">Practical Deep Learning</a></li>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What is ChatGPT doing &amp; why does it work?</a></li>
+<li><a href="https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/">Word2Vec Explained</a></li>
+<li><a href="https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/">Yes you should understand backprop</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>
