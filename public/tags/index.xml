@@ -17,11 +17,31 @@
     </item>
     
     <item>
+      <title>airflow</title>
+      <link>https://jamesm.blog/tags/airflow/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/airflow/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>algorithms</title>
       <link>https://jamesm.blog/tags/algorithms/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/algorithms/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>apache</title>
+      <link>https://jamesm.blog/tags/apache/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/apache/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -122,6 +142,16 @@
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/terminal/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://jamesm.blog/tags/twitter/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/twitter/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -467,6 +497,106 @@
     </item>
     
     <item>
+      <title>database</title>
+      <link>https://jamesm.blog/tags/database/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/database/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>db</title>
+      <link>https://jamesm.blog/tags/db/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/db/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://jamesm.blog/tags/deep-learning/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/deep-learning/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://jamesm.blog/tags/design/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/design/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>etl</title>
+      <link>https://jamesm.blog/tags/etl/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/etl/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>nosql</title>
+      <link>https://jamesm.blog/tags/nosql/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/nosql/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>pipelines</title>
+      <link>https://jamesm.blog/tags/pipelines/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/pipelines/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://jamesm.blog/tags/python/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/python/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>streaming</title>
+      <link>https://jamesm.blog/tags/streaming/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/streaming/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>tensorflow</title>
+      <link>https://jamesm.blog/tags/tensorflow/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/tensorflow/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>training</title>
       <link>https://jamesm.blog/tags/training/</link>
       <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
@@ -492,16 +622,6 @@
       <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/explainer/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>etl</title>
-      <link>https://jamesm.blog/tags/etl/</link>
-      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/etl/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

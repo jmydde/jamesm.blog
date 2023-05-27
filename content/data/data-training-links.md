@@ -2,12 +2,12 @@
 title: "Data Training Links"
 date: 2023-05-06T06:51:25+01:00
 draft: false
-tags: ['data', 'data engineering', 'data science', 'training', 'links']
+tags: ['data', 'data engineering', 'data science', 'training', 'links', 'airflow', 'scheduling', 'etl', 'nosql', 'python', 'tensorflow', 'deep learning', 'db', 'database', 'design', 'pipelines', 'streaming']
 ---
 
-# Data Engineering
+## Data Engineering
 
-## DataCamp
+### DataCamp
 - [Building Data Engineering Pipelines in Python](https://www.datacamp.com/courses/building-data-engineering-pipelines-in-python/)
 - [Database Design](https://www.datacamp.com/courses/database-design/)
 - [ETL in Python](https://www.datacamp.com/courses/etl-in-python/)
@@ -17,13 +17,13 @@ tags: ['data', 'data engineering', 'data science', 'training', 'links']
 - [Streaming Concepts](https://www.datacamp.com/courses/streaming-concepts/)
 - [Understanding Data Engineering](https://www.datacamp.com/courses/understanding-data-engineering/)
 
-# Data Science
+## Data Science
 
-## DataCamp
+### DataCamp
 - [Introduction to Data Science in Python](https://www.datacamp.com/courses/introduction-to-data-science-in-python/)
 - [Python Data Science Toolbox (Part 1)](https://www.datacamp.com/courses/python-data-science-toolbox-part-1/)
 
-## Google
+### Google
 1. [Learn Python basics for data analysis](https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis/)
 2. [Data Science Foundations](https://learndigital.withgoogle.com/digitalunlocked/course/data-science-foundations/)
 3. [Data Science with Python](https://learndigital.withgoogle.com/digitalunlocked/course/data-science-with-python/)

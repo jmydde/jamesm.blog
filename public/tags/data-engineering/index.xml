@@ -13,8 +13,8 @@
       
       <guid>https://jamesm.blog/data/data-training-links/</guid>
       <description>Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Data Science DataCamp Introduction to Data Science in Python Python Data Science Toolbox (Part 1) Google Learn Python basics for data analysis Data Science Foundations Data Science with Python Machine Learning Crash Course Intro to TensorFlow for Deep Learning </description>
-      <content:encoded><![CDATA[<h1 id="data-engineering">Data Engineering</h1>
-<h2 id="datacamp">DataCamp</h2>
+      <content:encoded><![CDATA[<h2 id="data-engineering">Data Engineering</h2>
+<h3 id="datacamp">DataCamp</h3>
 <ul>
 <li><a href="https://www.datacamp.com/courses/building-data-engineering-pipelines-in-python/">Building Data Engineering Pipelines in Python</a></li>
 <li><a href="https://www.datacamp.com/courses/database-design/">Database Design</a></li>
@@ -25,13 +25,13 @@
 <li><a href="https://www.datacamp.com/courses/streaming-concepts/">Streaming Concepts</a></li>
 <li><a href="https://www.datacamp.com/courses/understanding-data-engineering/">Understanding Data Engineering</a></li>
 </ul>
-<h1 id="data-science">Data Science</h1>
-<h2 id="datacamp-1">DataCamp</h2>
+<h2 id="data-science">Data Science</h2>
+<h3 id="datacamp-1">DataCamp</h3>
 <ul>
 <li><a href="https://www.datacamp.com/courses/introduction-to-data-science-in-python/">Introduction to Data Science in Python</a></li>
 <li><a href="https://www.datacamp.com/courses/python-data-science-toolbox-part-1/">Python Data Science Toolbox (Part 1)</a></li>
 </ul>
-<h2 id="google">Google</h2>
+<h3 id="google">Google</h3>
 <ol>
 <li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis/">Learn Python basics for data analysis</a></li>
 <li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/data-science-foundations/">Data Science Foundations</a></li>

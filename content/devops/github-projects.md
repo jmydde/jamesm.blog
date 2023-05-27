@@ -2,7 +2,7 @@
 title: "GitHub Projects"
 date: 2023-05-27T08:01:18+01:00
 draft: false
-tags: ["devops", "github", "ai", "command line", "shell", "terminal", "kubernetes", "k8s", "chatgpt", "bots", "scheduling", "algorithms"]
+tags: ["devops", "github", "ai", "command line", "shell", "terminal", "kubernetes", "k8s", "chatgpt", "bots", "scheduling", "airflow", "apache", "algorithms", "twitter"]
 ---
 
 ### AI
