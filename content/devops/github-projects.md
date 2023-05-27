@@ -19,6 +19,7 @@ tags: ["devops", "github", "ai", "command line", "shell", "terminal", "kubernete
 - [k9s](https://github.com/derailed/k9s) - terminal UI to interact with your Kubernetes clusters
 
 ### Scheduling
+- [Airflow](https://github.com/apache/airflow) - platform to programmatically author, schedule, and monitor workflows
 - [Dkron](https://github.com/distribworks/dkron) - distributed, fault tolerant job scheduling system for cloud native environments
 
 ### Other

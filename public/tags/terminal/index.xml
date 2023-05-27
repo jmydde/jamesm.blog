@@ -12,7 +12,7 @@
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>AI Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Dkron - distributed, fault tolerant job scheduling system for cloud native environments Other Twitter&amp;amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
+      <description>AI Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows Dkron - distributed, fault tolerant job scheduling system for cloud native environments Other Twitter&amp;amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
       <content:encoded><![CDATA[<h3 id="ai">AI</h3>
 <ul>
 <li><a
@@ -185,6 +185,29 @@
 </ul>
 <h3 id="scheduling">Scheduling</h3>
 <ul>
+<li><a
+
+	
+	
+		href = "https://github.com/apache/airflow"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Airflow
+	</span>
+
+</a>
+ - platform to programmatically author, schedule, and monitor workflows</li>
 <li><a
 
 	
