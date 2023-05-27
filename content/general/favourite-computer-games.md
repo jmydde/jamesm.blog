@@ -30,27 +30,43 @@ The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first 
 ### Magazines
 - [Crash](https://en.wikipedia.org/wiki/Crash_(magazine)/)
 
+## IBM Personal Computer (1983)
+We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_Computer/) at computing college to learn;
+- [Borland Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal/)
+- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language/)
+
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/1920px-IBM_PC-IMG_7271_%28transparent%29.png" title="IBM Personal Computer" height=250 width=300 >}}
+
 ## Commodore 64
+### Favourite Games
  - [Commando](https://en.wikipedia.org/wiki/Commando_(video_game)/)
 
-## IBM PC
-- 
+## Commodore Amiga 500, 600, 1200, 1500
 
-## Amiga 500, 600, 1200, 1500
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Amiga500_system.jpg/1920px-Amiga500_system.jpg" title="Amiga 500" height=250 width=300 >}}
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Commodore_Amiga_600_top.png/1920px-Commodore_Amiga_600_top.png" title="Amiga 600" height=250 width=600 >}}
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Commodore_Amiga_A1200.jpg/1920px-Commodore_Amiga_A1200.jpg" title="Amiga 1200" height=250 width=600 >}}
+{{< figure src="https://www.computinghistory.org.uk/userdata/images/large/81/93/product-78193.jpg" title="Amiga 1500" height=250 width=250 >}}
+
+### Favourite Games
 - [Rainbow Islands](https://en.wikipedia.org/wiki/Rainbow_Islands:_The_Story_of_Bubble_Bobble_2/)
 
 ## Super Nintendo Entertainment System (SNES)
+### Favourite Games
 - [Super Mario World](https://en.wikipedia.org/wiki/Super_Mario_World/)
 
 ## Sega Megadrive
+### Favourite Games
 - Echo the Dolphin
 
 ## Nintendo 64
+### Favourite Games
 - GoldenEye
 - Waverace
 - Super Mario 64
 
 ## PC
+### Favourite Games
 - BoxWorld
 - Doom
 - Half-Life
@@ -62,6 +78,7 @@ The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first 
 - ...
 
 ## Sony PlayStation 1-5
+### Favourite Games
 - God of War
 - Lego games ...
 - Metal Gear Solid
