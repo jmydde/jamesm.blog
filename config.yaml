@@ -40,6 +40,9 @@ languages:
         - name: Search
           url: search/
           weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
         - name: AI
           url: /ai
         - name: Data
@@ -52,9 +55,8 @@ languages:
       #   url: /ideas
         - name: Music
           url: /music
-        - name: Tags
-          url: tags/
-          weight: 10
+        - name: Self Improvement
+          url: /self-improvement
         - name: Web3
           url: /web3
 
@@ -79,8 +81,9 @@ params:
     - data
     - devops
     - general
-    - ideas
+  # - ideas
     - music
+    - self-improvement
     - web3
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
@@ -112,6 +115,7 @@ params:
       - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
       - [**General**](/general) (general topics & news)
       - [**Music**](/music) (artists, groups, music production)
+      - [**Self Improvement**](/self-improvement)
       - [**Web3**](/web3) (Blockchain, decentralization)
 
   socialIcons:

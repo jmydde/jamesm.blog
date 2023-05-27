@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/self-improvement/</loc>
+    <lastmod>2023-05-27T08:30:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-05-27T08:30:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/self-improvement/life-cheat-codes/</loc>
+    <lastmod>2023-05-27T08:30:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/self-improvement/</loc>
+    <lastmod>2023-05-27T08:30:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2023-05-27T08:30:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
@@ -35,9 +50,6 @@
     <loc>https://jamesm.blog/devops/github-projects/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2023-05-27T08:01:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/k8s/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
@@ -48,9 +60,6 @@
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/shell/</loc>
-    <lastmod>2023-05-27T08:01:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/terminal/</loc>
@@ -128,13 +137,10 @@
     <loc>https://jamesm.blog/tags/sale/</loc>
     <lastmod>2023-05-26T07:01:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/</loc>
-    <lastmod>2023-05-25T12:53:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/habits/</loc>
     <lastmod>2023-05-25T12:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/15-habits-intelligent-people/</loc>
+    <loc>https://jamesm.blog/self-improvement/intelligent-people-habits/</loc>
     <lastmod>2023-05-25T12:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/intelligence/</loc>
@@ -175,6 +181,9 @@
   </url><url>
     <loc>https://jamesm.blog/ai/tesla-bot/</loc>
     <lastmod>2023-05-16T21:24:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/</loc>
+    <lastmod>2023-05-15T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ui/</loc>
     <lastmod>2023-05-15T14:53:39+01:00</lastmod>
@@ -309,15 +318,11 @@
   </url><url>
     <loc>https://jamesm.blog/ideas/</loc>
   </url><url>
-    <loc>https://jamesm.blog/personal-development/</loc>
-  </url><url>
     <loc>https://jamesm.blog/web3/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/general/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/ideas/</loc>
-  </url><url>
-    <loc>https://jamesm.blog/tags/personal-dev/</loc>
   </url><url>
     <loc>https://jamesm.blog/search/</loc>
   </url><url>
