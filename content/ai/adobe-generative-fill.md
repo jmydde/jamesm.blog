@@ -1,6 +1,6 @@
 ---
-title: "Adobe integrates generative AI directly into Photoshop with new Firefly capabilities"
-date: 2023-05-24T20:04:28+01:00
+title: "Adobe's new Generative Fill is simply mind-blowing 🤯"
+date: 2023-05-26T20:04:28+01:00
 draft: false
 tags: ["ai", "adobe", "photoshop", "photos", "photograpy", "generative ai"]
 ---
