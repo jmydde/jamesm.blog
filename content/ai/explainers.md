@@ -2,7 +2,7 @@
 title: "AI Explainers"
 date: 2023-02-15T19:05:35+01:00
 draft: false
-tags: ["ai", "chatgpt", "llm", "explainer"]
+tags: ["ai", "bots", "chatgpt", "llm", "explainer"]
 ---
 - [Deep Learning in a Nutshell: Core Concepts](https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/)
 - [How Stable Diffusion works](https://mccormickml.com/2022/12/21/how-stable-diffusion-works/)

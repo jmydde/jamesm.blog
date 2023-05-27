@@ -17,3 +17,6 @@ Generative AI with Firefly
 
 ## This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER
 {{< youtube 2iEQ6p9iGng >}}
+
+# Related
+- [List of AI Tools](/ai/tools)

@@ -2,7 +2,7 @@
 title: "AI Training Links"
 date: 2023-05-06T06:51:25+01:00
 draft: false
-tags: ['ai', 'training', 'links']
+tags: ['ai', 'bots', 'chatgpt', 'training', 'links']
 ---
 
 # DataCamp

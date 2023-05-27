@@ -2,7 +2,7 @@
 title: "List of AI Tools & Companies"
 date: 2023-05-27T06:33:14+01:00
 draft: false
-tags: ["ai", "links", "tools", "images", "graphics", "llm", "bots", "chatbots", "music", "text-to-speech", "writing"]
+tags: ["ai", "links", "tools", "images", "graphics", "llm", "bots", "chatgpt", "music", "text-to-speech", "writing"]
 ---
 ## AI Tools
 

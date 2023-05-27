@@ -2,7 +2,7 @@
 title: "OpenAI release ChatGPT app (iOS)"
 date: 2023-05-18T19:05:35+01:00
 draft: false
-tags: ["ai", "gpt", "llm", "apps" ,"ios"]
+tags: ["ai", "bots", "chatgpt", "llm", "apps" ,"ios"]
 ---
 OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
 - [Download on the App Store](https://apps.apple.com/app/openai-chatgpt/id6448311069)
