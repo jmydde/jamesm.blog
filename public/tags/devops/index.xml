@@ -29,20 +29,28 @@ https://go.aws/3OnFKZa </description>
     </item>
     
     <item>
-      <title>Cool GitHub Projects</title>
+      <title>GitHub Projects</title>
       <link>https://jamesm.blog/devops/github-projects/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>A list of useful GitHub projects;
-bat - a cat clone with syntax highlighting and Git integration k9s - terminal UI to interact with your Kubernetes clusters Prompt Engineering Guide - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
-      <content:encoded><![CDATA[<p>A list of useful GitHub projects;</p>
+      <description>AI Prompt Engineering Guide - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Other Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
+      <content:encoded><![CDATA[<h3 id="ai">AI</h3>
+<ul>
+<li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">Prompt Engineering Guide</a> - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs</li>
+</ul>
+<h3 id="command-line">Command Line</h3>
 <ul>
 <li><a href="https://github.com/sharkdp/bat">bat</a> - a cat clone with syntax highlighting and Git integration</li>
-<li><a href="https://github.com/derailed/k9s">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
-<li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">Prompt Engineering Guide</a> - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs</li>
 <li><a href="https://github.com/Nukesor/pueue">Pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
 <li><a href="https://github.com/awslabs/specctl">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
+</ul>
+<h3 id="kubernetes">Kubernetes</h3>
+<ul>
+<li><a href="https://github.com/derailed/k9s">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
 <li><a href="https://github.com/twitter/the-algorithm">Twitter&rsquo;s Recommendation Algorithm</a> - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
 </ul>
 ]]></content:encoded>
