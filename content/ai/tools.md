@@ -1,5 +1,5 @@
 ---
-title: "AI Tools & Companies"
+title: "List of AI Tools & Companies"
 date: 2023-05-27T06:33:14+01:00
 draft: false
 tags: ["ai", "links", "tools", "images", "graphics", "llm", "bots", "chatbots", "music", "text-to-speech", "writing"]
@@ -15,7 +15,7 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "bots", "chatbots", 
 - [GitHub Copilot](https://github.com/features/copilot) - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
 
 ### Images
-- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html) - mind-blowing generative AI tool with Generative Fill, part of Photoshop
+- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html) - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
 - [DALL·E 2](https://openai.com/product/dall-e-2) - creates realistic images & art from a description in natural language
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia) - animate your family photos

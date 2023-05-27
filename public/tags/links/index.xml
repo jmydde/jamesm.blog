@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 27 May 2023 06:33:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Tools &amp; Companies</title>
-      <link>https://jamesm.blog/ai/links/</link>
+      <title>List of AI Tools &amp; Companies</title>
+      <link>https://jamesm.blog/ai/tools/</link>
       <pubDate>Sat, 27 May 2023 06:33:14 +0100</pubDate>
       
-      <guid>https://jamesm.blog/ai/links/</guid>
+      <guid>https://jamesm.blog/ai/tools/</guid>
       <description>AI Tools Chat Bots Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) Development AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
       <content:encoded><![CDATA[<h2 id="ai-tools">AI Tools</h2>
 <h3 id="chat-bots">Chat Bots</h3>
@@ -26,7 +26,7 @@
 </ul>
 <h3 id="images">Images</h3>
 <ul>
-<li><a href="https://www.adobe.com/ie/sensei/generative-ai/firefly.html">Adobe Firefly</a> - mind-blowing generative AI tool with Generative Fill, part of Photoshop</li>
+<li><a href="https://www.adobe.com/ie/sensei/generative-ai/firefly.html">Adobe Firefly</a> - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop</li>
 <li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - remove unwanted object, defect, people or text from your pictures</li>
 <li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
 <li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - animate your family photos</li>
