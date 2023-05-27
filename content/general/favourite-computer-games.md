@@ -1,11 +1,12 @@
 ---
 title: "Favourite Computers & Games"
 date: 2020-01-01T00:00:01+01:00
-draft: true
+draft: false
+tags: ['computers', 'computer hardware', 'software', 'consoles', 'gaming', 'games']
 ---
 
 ## Commodore PET (1977)
-The [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET/)  was the first computer I learnt BASIC on at school, in the computing club.  
+The [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET/) was the first computer I learnt BASIC on at school, in the computing club.  
 
 The first program I wrote was an animated Christmas card as part of a  school competition, I was quite proud of it.  We were meant to showcase all of our programs at a public school event however I forgot to take the tape with me to school, I was truly gutted.   I also mislaid the tape at home so have lost all those initial programs I wrote :(
 
