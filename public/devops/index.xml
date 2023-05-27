@@ -12,30 +12,228 @@
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>AI Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Dkron - distributed, fault tolerant job scheduling system for cloud native environments Other Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
+      <description>AI Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Dkron - distributed, fault tolerant job scheduling system for cloud native environments Other Twitter&amp;amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
       <content:encoded><![CDATA[<h3 id="ai">AI</h3>
 <ul>
-<li><a href="https://github.com/Significant-Gravitas/Auto-GPT">Auto-GPT</a> - autonomous GPT</li>
-<li><a href="https://github.com/jina-ai/dev-gpt">Dev-GPT</a> - your automated development team</li>
-<li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">Prompt Engineering Guide</a> - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering</li>
+<li><a
+
+	
+	
+		href = "https://github.com/Significant-Gravitas/Auto-GPT"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Auto-GPT
+	</span>
+
+</a>
+ - autonomous GPT</li>
+<li><a
+
+	
+	
+		href = "https://github.com/jina-ai/dev-gpt"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Dev-GPT
+	</span>
+
+</a>
+ - your automated development team</li>
+<li><a
+
+	
+	
+		href = "https://github.com/dair-ai/Prompt-Engineering-Guide"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Prompt Engineering Guide
+	</span>
+
+</a>
+ - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering</li>
 </ul>
 <h3 id="command-line">Command Line</h3>
 <ul>
-<li><a href="https://github.com/sharkdp/bat">bat</a> - a cat clone with syntax highlighting and Git integration</li>
-<li><a href="https://github.com/Nukesor/pueue">Pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
-<li><a href="https://github.com/awslabs/specctl">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
+<li><a
+
+	
+	
+		href = "https://github.com/sharkdp/bat"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		bat
+	</span>
+
+</a>
+ - a cat clone with syntax highlighting and Git integration</li>
+<li><a
+
+	
+	
+		href = "https://github.com/Nukesor/pueue"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Pueue
+	</span>
+
+</a>
+ - command-line task management tool for sequential and parallel execution of long-running tasks</li>
+<li><a
+
+	
+	
+		href = "https://github.com/awslabs/specctl"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		specctl
+	</span>
+
+</a>
+ - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
 </ul>
 <h3 id="kubernetes">Kubernetes</h3>
 <ul>
-<li><a href="https://github.com/derailed/k9s">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
+<li><a
+
+	
+	
+		href = "https://github.com/derailed/k9s"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		k9s
+	</span>
+
+</a>
+ - terminal UI to interact with your Kubernetes clusters</li>
 </ul>
 <h3 id="scheduling">Scheduling</h3>
 <ul>
-<li><a href="https://github.com/distribworks/dkron">Dkron</a> - distributed, fault tolerant job scheduling system for cloud native environments</li>
+<li><a
+
+	
+	
+		href = "https://github.com/distribworks/dkron"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Dkron
+	</span>
+
+</a>
+ - distributed, fault tolerant job scheduling system for cloud native environments</li>
 </ul>
 <h3 id="other">Other</h3>
 <ul>
-<li><a href="https://github.com/twitter/the-algorithm">Twitter&rsquo;s Recommendation Algorithm</a> - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
+<li><a
+
+	
+	
+		href = "https://github.com/twitter/the-algorithm"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Twitter&amp;rsquo;s Recommendation Algorithm
+	</span>
+
+</a>
+ - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -52,7 +250,29 @@ https://go.aws/3OnFKZa </description>
       <content:encoded><![CDATA[<p>The <strong>AWS Summit London</strong> agenda is now available</p>
 <p>Plan your day &amp; get ready to explore technical sessions, hands-on workshops &amp; keynotes</p>
 <ul>
-<li><a href="https://go.aws/3OnFKZa">https://go.aws/3OnFKZa</a></li>
+<li><a
+
+	
+	
+		href = "https://go.aws/3OnFKZa"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		https://go.aws/3OnFKZa
+	</span>
+
+</a>
+</li>
 </ul>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -119,55 +339,407 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
       <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
 <h2 id="devops">DevOps</h2>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/">The DevOps Handbook</a></li>
-<li><a href="https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/">The Phoenix Project</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		The DevOps Handbook
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		The Phoenix Project
+	</span>
+
+</a>
+</li>
 </ul>
 <h2 id="containers">Containers</h2>
 <h3 id="docker">Docker</h3>
 <ul>
-<li><a href="https://nigelpoulton.com/books/">Docker Deep Dive</a></li>
+<li><a
+
+	
+	
+		href = "https://nigelpoulton.com/books/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Docker Deep Dive
+	</span>
+
+</a>
+</li>
 </ul>
 <h3 id="kubernetes">Kubernetes</h3>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/">Kubernetes: Up and Running</a></li>
-<li><a href="https://nigelpoulton.com/books/">The Kubernetes Book</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Kubernetes: Up and Running
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://nigelpoulton.com/books/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		The Kubernetes Book
+	</span>
+
+</a>
+</li>
 </ul>
 <h2 id="iac">IaC</h2>
 <h3 id="terraform">Terraform</h3>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/terraform-up-and/9781098116736/">Terraform: Up and Running: Writing Infrastructure as Code</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/terraform-up-and/9781098116736/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Terraform: Up and Running: Writing Infrastructure as Code
+	</span>
+
+</a>
+</li>
 </ul>
 <h2 id="linux">Linux</h2>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/linux-in-a/9780596806088/">Linux in a Nutshell</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/linux-in-a/9780596806088/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Linux in a Nutshell
+	</span>
+
+</a>
+</li>
 </ul>
 <h2 id="programming">Programming</h2>
 <h3 id="bash">Bash</h3>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/learning-the-bash/0596009658/">Learning the bash Shell</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/learning-the-bash/0596009658/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Learning the bash Shell
+	</span>
+
+</a>
+</li>
 </ul>
 <h3 id="cc">C/C++</h3>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
+<li><a
+
+	
+	
+		href = "https://en.wikipedia.org/wiki/The_C_Programming_Language"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		The C Programming Language
+	</span>
+
+</a>
+</li>
 </ul>
 <h3 id="go">Go</h3>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
-<li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/introducing-go/9781491941997/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Introducing Go
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/learning-go/9781492077206/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Learning Go
+	</span>
+
+</a>
+</li>
 </ul>
 <h3 id="perl">Perl</h3>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/">Learning Perl</a></li>
-<li><a href="https://www.oreilly.com/library/view/mastering-perl/9780596527242/">Mastering Perl</a></li>
-<li><a href="https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/">Programming Perl</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Learning Perl
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/mastering-perl/9780596527242/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Mastering Perl
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Programming Perl
+	</span>
+
+</a>
+</li>
 </ul>
 <h3 id="python">Python</h3>
 <ul>
-<li><a href="https://diveintopython3.net/">Dive Into Python</a></li>
+<li><a
+
+	
+	
+		href = "https://diveintopython3.net/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Dive Into Python
+	</span>
+
+</a>
+</li>
 </ul>
 <h3 id="sql">SQL</h3>
 <ul>
-<li><a href="https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/">Learning SQL</a></li>
+<li><a
+
+	
+	
+		href = "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Learning SQL
+	</span>
+
+</a>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -181,10 +753,98 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
       <description>DevOps &amp;amp; SRE Atlassian DevOps Blog AWS DevOps Blog Everything DevOps (Reddit) Ricard - SRE at Cisco </description>
       <content:encoded><![CDATA[<h2 id="devops--sre">DevOps &amp; SRE</h2>
 <ul>
-<li><a href="https://www.atlassian.com/blog/devops">Atlassian DevOps Blog</a></li>
-<li><a href="https://aws.amazon.com/blogs/devops/">AWS DevOps Blog</a></li>
-<li><a href="https://www.reddit.com/r/devops/">Everything DevOps (Reddit)</a></li>
-<li><a href="https://www.bejarano.io/">Ricard</a> - SRE at Cisco</li>
+<li><a
+
+	
+	
+		href = "https://www.atlassian.com/blog/devops"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Atlassian DevOps Blog
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://aws.amazon.com/blogs/devops/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		AWS DevOps Blog
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.reddit.com/r/devops/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Everything DevOps (Reddit)
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.bejarano.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Ricard
+	</span>
+
+</a>
+ - SRE at Cisco</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -197,11 +857,121 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
       <guid>https://jamesm.blog/devops/cicd-tools/</guid>
       <description> ArgoCD - a declarative, GitOps continuous delivery tool for Kubernetes AWS CodePipeline - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software Azure DevOps - provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities GitLab - allows software development teams to plan, code, test, deploy and monitor product changes in one place Jenkins - the leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project </description>
       <content:encoded><![CDATA[<ul>
-<li><a href="https://argo-cd.readthedocs.io/en/stable/">ArgoCD</a> - a declarative, GitOps continuous delivery tool for Kubernetes</li>
-<li><a href="https://aws.amazon.com/codepipeline/">AWS CodePipeline</a> - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software</li>
-<li><a href="https://azure.microsoft.com/en-gb/products/devops">Azure DevOps</a> - provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities</li>
-<li><a href="https://about.gitlab.com/">GitLab</a> - allows software development teams to plan, code, test, deploy and monitor product changes in one place</li>
-<li><a href="https://www.jenkins.io/">Jenkins</a> - the leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project</li>
+<li><a
+
+	
+	
+		href = "https://argo-cd.readthedocs.io/en/stable/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		ArgoCD
+	</span>
+
+</a>
+ - a declarative, GitOps continuous delivery tool for Kubernetes</li>
+<li><a
+
+	
+	
+		href = "https://aws.amazon.com/codepipeline/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		AWS CodePipeline
+	</span>
+
+</a>
+ - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software</li>
+<li><a
+
+	
+	
+		href = "https://azure.microsoft.com/en-gb/products/devops"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Azure DevOps
+	</span>
+
+</a>
+ - provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities</li>
+<li><a
+
+	
+	
+		href = "https://about.gitlab.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		GitLab
+	</span>
+
+</a>
+ - allows software development teams to plan, code, test, deploy and monitor product changes in one place</li>
+<li><a
+
+	
+	
+		href = "https://www.jenkins.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Jenkins
+	</span>
+
+</a>
+ - the leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project</li>
 </ul>
 ]]></content:encoded>
     </item>

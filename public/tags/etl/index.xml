@@ -21,23 +21,397 @@
 </ul>
 <h3 id="list-of-etl-tools">List of ETL Tools</h3>
 <ul>
-<li><a href="https://www.abinitio.com/">Ab Initio</a> (Best of Breed)</li>
-<li><a href="https://aws.amazon.com/datapipeline/">AWS Data Pipeline</a></li>
-<li><a href="https://aws.amazon.com/glue/">AWS Glue</a></li>
-<li><a href="https://learn.microsoft.com/en-us/azure/data-factory/">Azure Data Factory</a></li>
-<li><a href="https://www.cloverdx.com/">CloverDX</a></li>
-<li><a href="https://www.ibm.com/products/datastage">Datastage</a></li>
-<li><a href="https://cloud.google.com/dataflow">Google Cloud Dataflow</a></li>
-<li><a href="https://hevodata.com/">Hevo</a></li>
-<li><a href="https://www.informatica.com/">Informatica</a></li>
-<li><a href="https://www.integrate.io/">Integrate</a></li>
-<li><a href="https://www.matillion.com/">Matillion</a></li>
-<li><a href="https://help.hitachivantara.com/Documentation/Pentaho/8.3/Products/Pentaho_Data_Integration">Pentaho Data Integration (PDI)</a></li>
-<li><a href="https://www.qlik.com/us/products/qlik-compose-data-warehouses">Qlik Compose</a></li>
-<li><a href="https://www.sap.com/products/technology-platform/data-services.html">SAP Data Services</a></li>
-<li><a href="https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services/">SQL Server Integration Services (SSIS)</a></li>
-<li><a href="https://www.stitchdata.com/">Stitch</a></li>
-<li><a href="https://www.talend.com/">Talend</a></li>
+<li><a
+
+	
+	
+		href = "https://www.abinitio.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Ab Initio
+	</span>
+
+</a>
+ (Best of Breed)</li>
+<li><a
+
+	
+	
+		href = "https://aws.amazon.com/datapipeline/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		AWS Data Pipeline
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://aws.amazon.com/glue/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		AWS Glue
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://learn.microsoft.com/en-us/azure/data-factory/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Azure Data Factory
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.cloverdx.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		CloverDX
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.ibm.com/products/datastage"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Datastage
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://cloud.google.com/dataflow"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Google Cloud Dataflow
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://hevodata.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Hevo
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.informatica.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Informatica
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.integrate.io/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Integrate
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.matillion.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Matillion
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://help.hitachivantara.com/Documentation/Pentaho/8.3/Products/Pentaho_Data_Integration"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Pentaho Data Integration (PDI)
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.qlik.com/us/products/qlik-compose-data-warehouses"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Qlik Compose
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.sap.com/products/technology-platform/data-services.html"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		SAP Data Services
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		SQL Server Integration Services (SSIS)
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.stitchdata.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Stitch
+	</span>
+
+</a>
+</li>
+<li><a
+
+	
+	
+		href = "https://www.talend.com/"
+
+		
+
+	
+
+	
+
+		target = "_blank"
+		rel = "nofollow noopener noreferrer"
+
+		>
+	
+	<span>
+		Talend
+	</span>
+
+</a>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
