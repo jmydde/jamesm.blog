@@ -443,10 +443,10 @@ https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-compu
     
     <item>
       <title>Cool GitHub Projects</title>
-      <link>https://jamesm.blog/devops/cool-github-projects/</link>
+      <link>https://jamesm.blog/devops/github-projects/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/devops/cool-github-projects/</guid>
+      <guid>https://jamesm.blog/devops/github-projects/</guid>
       <description>A list of useful GitHub projects;
 bat - a cat clone with syntax highlighting and Git integration k9s - terminal UI to interact with your Kubernetes clusters Prompt Engineering Guide - contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
       <content:encoded><![CDATA[<p>A list of useful GitHub projects;</p>
@@ -538,21 +538,6 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
 <li><a href="https://aws.amazon.com/blogs/devops/">AWS DevOps Blog</a></li>
 <li><a href="https://www.reddit.com/r/devops/">Everything DevOps (Reddit)</a></li>
 <li><a href="https://www.bejarano.io/">Ricard</a> - SRE at Cisco</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>K9s - Awesome Kubernetes CLI</title>
-      <link>https://jamesm.blog/devops/k9s/</link>
-      <pubDate>Sat, 15 Apr 2023 12:54:16 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/devops/k9s/</guid>
-      <description>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
-https://k9scli.io/ </description>
-      <content:encoded><![CDATA[<p>K9s is a terminal based UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.</p>
-<ul>
-<li><a href="https://k9scli.io/">https://k9scli.io/</a></li>
 </ul>
 ]]></content:encoded>
     </item>
