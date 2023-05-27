@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>github on jamesm.blog</title>
-    <link>https://jamesm.blog/tags/github/</link>
-    <description>Recent content in github on jamesm.blog</description>
+    <title>algorithms on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/algorithms/</link>
+    <description>Recent content in algorithms on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 May 2023 08:01:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 May 2023 08:01:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Projects</title>
       <link>https://jamesm.blog/devops/github-projects/</link>
@@ -36,35 +36,6 @@
 <h3 id="other">Other</h3>
 <ul>
 <li><a href="https://github.com/twitter/the-algorithm">Twitter&rsquo;s Recommendation Algorithm</a> - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>GitHub Copilot</title>
-      <link>https://jamesm.blog/ai/github-copilot/</link>
-      <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
-GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
-Focus on more satisfying work, be more producttive, speed up repetitve tasks.
-Supported IDEs
-Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
-      <content:encoded><![CDATA[<p><a href="https://github.com/features/copilot">GitHub Copilot</a> is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</p>
-<p>GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.</p>
-<p>Focus on more satisfying work, be more producttive, speed up repetitve tasks.</p>
-<p>Supported IDEs</p>
-<ul>
-<li>Neovim</li>
-<li>JetBrains IDEs</li>
-<li>Visual Studio</li>
-<li>Visual Studio Code</li>
-</ul>
-<p>Price: $10 / month</p>
-<p>Links</p>
-<ul>
-<li><a href="https://docs.github.com/en/copilot">Documentation</a></li>
 </ul>
 ]]></content:encoded>
     </item>

@@ -5,11 +5,11 @@
     <link>https://jamesm.blog/tags/</link>
     <description>Recent content in Tags on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 May 2023 06:33:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 May 2023 08:01:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Sat, 27 May 2023 06:33:14 +0100</pubDate>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
@@ -17,9 +17,19 @@
     </item>
     
     <item>
+      <title>algorithms</title>
+      <link>https://jamesm.blog/tags/algorithms/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/algorithms/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>bots</title>
       <link>https://jamesm.blog/tags/bots/</link>
-      <pubDate>Sat, 27 May 2023 06:33:14 +0100</pubDate>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/bots/</guid>
       <description></description>
@@ -29,9 +39,89 @@
     <item>
       <title>chatgpt</title>
       <link>https://jamesm.blog/tags/chatgpt/</link>
-      <pubDate>Sat, 27 May 2023 06:33:14 +0100</pubDate>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/chatgpt/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>command line</title>
+      <link>https://jamesm.blog/tags/command-line/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/command-line/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://jamesm.blog/tags/devops/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/devops/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://jamesm.blog/tags/github/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/github/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://jamesm.blog/tags/k8s/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/k8s/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://jamesm.blog/tags/kubernetes/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/kubernetes/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>scheduling</title>
+      <link>https://jamesm.blog/tags/scheduling/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/scheduling/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://jamesm.blog/tags/shell/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/shell/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://jamesm.blog/tags/terminal/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/terminal/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -277,16 +367,6 @@
     </item>
     
     <item>
-      <title>devops</title>
-      <link>https://jamesm.blog/tags/devops/</link>
-      <pubDate>Thu, 18 May 2023 09:54:16 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/devops/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>summit</title>
       <link>https://jamesm.blog/tags/summit/</link>
       <pubDate>Thu, 18 May 2023 09:54:16 +0100</pubDate>
@@ -392,56 +472,6 @@
       <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/training/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>command line</title>
-      <link>https://jamesm.blog/tags/command-line/</link>
-      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/command-line/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://jamesm.blog/tags/github/</link>
-      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/github/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>k8s</title>
-      <link>https://jamesm.blog/tags/k8s/</link>
-      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/k8s/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://jamesm.blog/tags/kubernetes/</link>
-      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/kubernetes/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>shell</title>
-      <link>https://jamesm.blog/tags/shell/</link>
-      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/shell/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
