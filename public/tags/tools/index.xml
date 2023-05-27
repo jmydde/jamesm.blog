@@ -16,695 +16,57 @@
       <content:encoded><![CDATA[<h2 id="ai-tools">AI Tools</h2>
 <h3 id="chat-bots">Chat Bots</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://bard.google.com/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Bard
-	</span>
-
-</a>
- - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
-<li><a
-
-	
-	
-		href = "https://openai.com/blog/chatgpt"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		ChatGPT
-	</span>
-
-</a>
- - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
+<li><a href="https://bard.google.com/">Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
+<li><a href="https://openai.com/blog/chatgpt">ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
 </ul>
 <h3 id="development">Development</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://askcodi.com"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		AskCodi
-	</span>
-
-</a>
- - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code</li>
-<li><a
-
-	
-	
-		href = "https://github.com/features/copilot"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		GitHub Copilot
-	</span>
-
-</a>
- - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
+<li><a href="https://askcodi.com">AskCodi</a> - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code</li>
+<li><a href="https://github.com/features/copilot">GitHub Copilot</a> - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
 </ul>
 <h3 id="images">Images</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://www.adobe.com/ie/sensei/generative-ai/firefly.html"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Adobe Firefly
-	</span>
-
-</a>
- - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop</li>
-<li><a
-
-	
-	
-		href = "https://cleanup.pictures/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Cleanup.pictures
-	</span>
-
-</a>
- - remove unwanted object, defect, people or text from your pictures</li>
-<li><a
-
-	
-	
-		href = "https://openai.com/product/dall-e-2"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		DALL·E 2
-	</span>
-
-</a>
- - creates realistic images &amp; art from a description in natural language</li>
-<li><a
-
-	
-	
-		href = "https://www.myheritage.com/deep-nostalgia"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Deep Nostalgia
-	</span>
-
-</a>
- - animate your family photos</li>
-<li><a
-
-	
-	
-		href = "https://tryleap.ai"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Leap
-	</span>
-
-</a>
- - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs</li>
+<li><a href="https://www.adobe.com/ie/sensei/generative-ai/firefly.html">Adobe Firefly</a> - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop</li>
+<li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - remove unwanted object, defect, people or text from your pictures</li>
+<li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
+<li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - animate your family photos</li>
+<li><a href="https://tryleap.ai">Leap</a> - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs</li>
 </ul>
 <h3 id="music">Music</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://www.lalal.ai/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		LALAL.AI
-	</span>
-
-</a>
- - extract vocal, accompaniment &amp; various instruments from any audio / video</li>
-<li><a
-
-	
-	
-		href = "https://soundraw.io/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Soundraw
-	</span>
-
-</a>
- - royalty-free AI generated music</li>
+<li><a href="https://www.lalal.ai/">LALAL.AI</a> - extract vocal, accompaniment &amp; various instruments from any audio / video</li>
+<li><a href="https://soundraw.io/">Soundraw</a> - royalty-free AI generated music</li>
 </ul>
 <h3 id="text-to-speech">Text to Speech</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://murf.ai/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Murf
-	</span>
-
-</a>
- - text to speech AI voice generator</li>
-<li><a
-
-	
-	
-		href = "https://speechify.com/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Speechify
-	</span>
-
-</a>
- - mobile and desktop app that reads text aloud using a computer generated text to speech voice</li>
-<li><a
-
-	
-	
-		href = "https://voicemaker.in"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Voicemaker
-	</span>
-
-</a>
- - online free text to speech converter</li>
+<li><a href="https://murf.ai/">Murf</a> - text to speech AI voice generator</li>
+<li><a href="https://speechify.com/">Speechify</a> - mobile and desktop app that reads text aloud using a computer generated text to speech voice</li>
+<li><a href="https://voicemaker.in">Voicemaker</a> - online free text to speech converter</li>
 </ul>
 <h3 id="writing">Writing</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://10web.io"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		10Web
-	</span>
-
-</a>
- - AI-powered WordPress platform</li>
-<li><a
-
-	
-	
-		href = "https://www.notion.so/product/ai"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Notion
-	</span>
-
-</a>
- - organizational tools including task management, project tracking, to-do lists, bookmarking, and more</li>
-<li><a
-
-	
-	
-		href = "https://trinka.ai"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Trinka
-	</span>
-
-</a>
- - online grammar checker and language correction AI tool for academic and technical writing</li>
+<li><a href="https://10web.io">10Web</a> - AI-powered WordPress platform</li>
+<li><a href="https://www.notion.so/product/ai">Notion</a> - organizational tools including task management, project tracking, to-do lists, bookmarking, and more</li>
+<li><a href="https://trinka.ai">Trinka</a> - online grammar checker and language correction AI tool for academic and technical writing</li>
 </ul>
 <h3 id="other">Other</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://brancher.ai"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Brancher
-	</span>
-
-</a>
- - connect AI models to build AI apps in minutes, with no-code</li>
-<li><a
-
-	
-	
-		href = "https://decoherence.co"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Decoherence
-	</span>
-
-</a>
- - create what can&rsquo;t be filmed</li>
-<li><a
-
-	
-	
-		href = "https://donotpay.com/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		DoNotPay
-	</span>
-
-</a>
- - the world&rsquo;s first robot lawyer</li>
-<li><a
-
-	
-	
-		href = "https://krisp.ai/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Krisp
-	</span>
-
-</a>
- - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
-<li><a
-
-	
-	
-		href = "https://mosaic.ai"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		MosaicTrack
-	</span>
-
-</a>
- - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set</li>
-<li><a
-
-	
-	
-		href = "https://wnr.ai"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		WNR
-	</span>
-
-</a>
- - prompts made easy with AI templates</li>
+<li><a href="https://brancher.ai">Brancher</a> - connect AI models to build AI apps in minutes, with no-code</li>
+<li><a href="https://decoherence.co">Decoherence</a> - create what can&rsquo;t be filmed</li>
+<li><a href="https://donotpay.com/">DoNotPay</a> - the world&rsquo;s first robot lawyer</li>
+<li><a href="https://krisp.ai/">Krisp</a> - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
+<li><a href="https://mosaic.ai">MosaicTrack</a> - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set</li>
+<li><a href="https://wnr.ai">WNR</a> - prompts made easy with AI templates</li>
 </ul>
 <h2 id="ai-companies">AI Companies</h2>
 <p>List of AI companies</p>
 <ul>
-<li><a
-
-	
-	
-		href = "https://www.youtube.com/@BostonDynamics"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Boston Dynamics
-	</span>
-
-</a>
- - create exceptional robots that enrich people’s lives</li>
-<li><a
-
-	
-	
-		href = "https://www.fast.ai/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Fast.ai
-	</span>
-
-</a>
- - making deep learning easier to use</li>
-<li><a
-
-	
-	
-		href = "https://ai.google/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Google AI
-	</span>
-
-</a>
- - a division of Google dedicated to artificial intelligence</li>
-<li><a
-
-	
-	
-		href = "https://openai.com/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		OpenAI
-	</span>
-
-</a>
- - AI research and deployment company</li>
-<li><a
-
-	
-	
-		href = "https://stability.ai/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Stability
-	</span>
-
-</a>
- - building the foundation to activate humanity&rsquo;s potential</li>
-<li><a
-
-	
-	
-		href = "https://www.tesla.com/en_gb/AI"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Tesla AI &amp;amp; Robotics
-	</span>
-
-</a>
- - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
+<li><a href="https://www.youtube.com/@BostonDynamics">Boston Dynamics</a> - create exceptional robots that enrich people’s lives</li>
+<li><a href="https://www.fast.ai/">Fast.ai</a> - making deep learning easier to use</li>
+<li><a href="https://ai.google/">Google AI</a> - a division of Google dedicated to artificial intelligence</li>
+<li><a href="https://openai.com/">OpenAI</a> - AI research and deployment company</li>
+<li><a href="https://stability.ai/">Stability</a> - building the foundation to activate humanity&rsquo;s potential</li>
+<li><a href="https://www.tesla.com/en_gb/AI">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -718,29 +80,7 @@
       <description>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.
 The app also uses optical character recognition technology to turn physical books or printed text into audio.
 The app lets users take photos of text and then listen to it read out loud.</description>
-      <content:encoded><![CDATA[<p><a
-
-	
-	
-		href = "https://speechify.com/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Speechify
-	</span>
-
-</a>
- is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.</p>
+      <content:encoded><![CDATA[<p><a href="https://speechify.com/">Speechify</a> is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.</p>
 <p>The app also uses optical character recognition technology to turn physical books or printed text into audio.</p>
 <p>The app lets users take photos of text and then listen to it read out loud.</p>
 ]]></content:encoded>
@@ -753,29 +93,7 @@ The app lets users take photos of text and then listen to it read out loud.</des
       
       <guid>https://jamesm.blog/ai/notion/</guid>
       <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
-      <content:encoded><![CDATA[<p><a
-
-	
-	
-		href = "https://www.notion.so/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Notion
-	</span>
-
-</a>
- is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</p>
+      <content:encoded><![CDATA[<p><a href="https://www.notion.so/">Notion</a> is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</p>
 ]]></content:encoded>
     </item>
     
@@ -790,29 +108,7 @@ GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in rea
 Focus on more satisfying work, be more producttive, speed up repetitve tasks.
 Supported IDEs
 Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
-      <content:encoded><![CDATA[<p><a
-
-	
-	
-		href = "https://github.com/features/copilot"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		GitHub Copilot
-	</span>
-
-</a>
- is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</p>
+      <content:encoded><![CDATA[<p><a href="https://github.com/features/copilot">GitHub Copilot</a> is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</p>
 <p>GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.</p>
 <p>Focus on more satisfying work, be more producttive, speed up repetitve tasks.</p>
 <p>Supported IDEs</p>
@@ -825,29 +121,7 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
 <p>Price: $10 / month</p>
 <p>Links</p>
 <ul>
-<li><a
-
-	
-	
-		href = "https://docs.github.com/en/copilot"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Documentation
-	</span>
-
-</a>
-</li>
+<li><a href="https://docs.github.com/en/copilot">Documentation</a></li>
 </ul>
 ]]></content:encoded>
     </item>

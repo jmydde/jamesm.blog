@@ -12,251 +12,31 @@
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>AI Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows Dkron - distributed, fault tolerant job scheduling system for cloud native environments Other Twitter&amp;amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
+      <description>AI Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows Dkron - distributed, fault tolerant job scheduling system for cloud native environments Other Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
       <content:encoded><![CDATA[<h3 id="ai">AI</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://github.com/Significant-Gravitas/Auto-GPT"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Auto-GPT
-	</span>
-
-</a>
- - autonomous GPT</li>
-<li><a
-
-	
-	
-		href = "https://github.com/jina-ai/dev-gpt"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Dev-GPT
-	</span>
-
-</a>
- - your automated development team</li>
-<li><a
-
-	
-	
-		href = "https://github.com/dair-ai/Prompt-Engineering-Guide"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Prompt Engineering Guide
-	</span>
-
-</a>
- - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering</li>
+<li><a href="https://github.com/Significant-Gravitas/Auto-GPT">Auto-GPT</a> - autonomous GPT</li>
+<li><a href="https://github.com/jina-ai/dev-gpt">Dev-GPT</a> - your automated development team</li>
+<li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">Prompt Engineering Guide</a> - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering</li>
 </ul>
 <h3 id="command-line">Command Line</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://github.com/sharkdp/bat"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		bat
-	</span>
-
-</a>
- - a cat clone with syntax highlighting and Git integration</li>
-<li><a
-
-	
-	
-		href = "https://github.com/Nukesor/pueue"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Pueue
-	</span>
-
-</a>
- - command-line task management tool for sequential and parallel execution of long-running tasks</li>
-<li><a
-
-	
-	
-		href = "https://github.com/awslabs/specctl"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		specctl
-	</span>
-
-</a>
- - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
+<li><a href="https://github.com/sharkdp/bat">bat</a> - a cat clone with syntax highlighting and Git integration</li>
+<li><a href="https://github.com/Nukesor/pueue">Pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
+<li><a href="https://github.com/awslabs/specctl">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
 </ul>
 <h3 id="kubernetes">Kubernetes</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://github.com/derailed/k9s"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		k9s
-	</span>
-
-</a>
- - terminal UI to interact with your Kubernetes clusters</li>
+<li><a href="https://github.com/derailed/k9s">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
 </ul>
 <h3 id="scheduling">Scheduling</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://github.com/apache/airflow"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Airflow
-	</span>
-
-</a>
- - platform to programmatically author, schedule, and monitor workflows</li>
-<li><a
-
-	
-	
-		href = "https://github.com/distribworks/dkron"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Dkron
-	</span>
-
-</a>
- - distributed, fault tolerant job scheduling system for cloud native environments</li>
+<li><a href="https://github.com/apache/airflow">Airflow</a> - platform to programmatically author, schedule, and monitor workflows</li>
+<li><a href="https://github.com/distribworks/dkron">Dkron</a> - distributed, fault tolerant job scheduling system for cloud native environments</li>
 </ul>
 <h3 id="other">Other</h3>
 <ul>
-<li><a
-
-	
-	
-		href = "https://github.com/twitter/the-algorithm"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Twitter&amp;rsquo;s Recommendation Algorithm
-	</span>
-
-</a>
- - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
+<li><a href="https://github.com/twitter/the-algorithm">Twitter&rsquo;s Recommendation Algorithm</a> - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -273,29 +53,7 @@ https://go.aws/3OnFKZa </description>
       <content:encoded><![CDATA[<p>The <strong>AWS Summit London</strong> agenda is now available</p>
 <p>Plan your day &amp; get ready to explore technical sessions, hands-on workshops &amp; keynotes</p>
 <ul>
-<li><a
-
-	
-	
-		href = "https://go.aws/3OnFKZa"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		https://go.aws/3OnFKZa
-	</span>
-
-</a>
-</li>
+<li><a href="https://go.aws/3OnFKZa">https://go.aws/3OnFKZa</a></li>
 </ul>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -314,98 +72,10 @@ https://go.aws/3OnFKZa </description>
       <description>DevOps &amp;amp; SRE Atlassian DevOps Blog AWS DevOps Blog Everything DevOps (Reddit) Ricard - SRE at Cisco </description>
       <content:encoded><![CDATA[<h2 id="devops--sre">DevOps &amp; SRE</h2>
 <ul>
-<li><a
-
-	
-	
-		href = "https://www.atlassian.com/blog/devops"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Atlassian DevOps Blog
-	</span>
-
-</a>
-</li>
-<li><a
-
-	
-	
-		href = "https://aws.amazon.com/blogs/devops/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		AWS DevOps Blog
-	</span>
-
-</a>
-</li>
-<li><a
-
-	
-	
-		href = "https://www.reddit.com/r/devops/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Everything DevOps (Reddit)
-	</span>
-
-</a>
-</li>
-<li><a
-
-	
-	
-		href = "https://www.bejarano.io/"
-
-		
-
-	
-
-	
-
-		target = "_blank"
-		rel = "nofollow noopener noreferrer"
-
-		>
-	
-	<span>
-		Ricard
-	</span>
-
-</a>
- - SRE at Cisco</li>
+<li><a href="https://www.atlassian.com/blog/devops">Atlassian DevOps Blog</a></li>
+<li><a href="https://aws.amazon.com/blogs/devops/">AWS DevOps Blog</a></li>
+<li><a href="https://www.reddit.com/r/devops/">Everything DevOps (Reddit)</a></li>
+<li><a href="https://www.bejarano.io/">Ricard</a> - SRE at Cisco</li>
 </ul>
 ]]></content:encoded>
     </item>
