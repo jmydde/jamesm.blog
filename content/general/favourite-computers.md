@@ -34,6 +34,16 @@ We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_C
 
 ## Commodore 64
 
+## Data General MV/15000
+My first job, as a computer operator, operating the [Data General MV/15000](https://en.wikipedia.org/wiki/Data_General/) mainframe computer & writing automation scripts
+{{< figure src="images/Data-General-MV15000-1986.png" title="Data General MV/15000" >}}
+
+### Software
+- [AOS/VS II](https://en.wikipedia.org/wiki/AOS/VS_II/) - Operating System
+  - [CLI32](http://phrack.org/issues/44/14.html/) - developing automation scripts
+- [Micro Focus COBOL](https://en.wikipedia.org/wiki/Micro_Focus) - developing reports
+- [Cyberscience CyberQuery / CyberScreen (CQCS)](https://www.cyberscience.com/what-is-cyberquery/) - building Business Intelligence & database solutions
+
 ## Commodore Amiga 500, 600, 1200, 1500
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Amiga500_system.jpg/1920px-Amiga500_system.jpg" title="Amiga 500" height=250 width=300 >}}
