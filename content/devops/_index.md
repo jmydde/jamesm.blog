@@ -1,6 +1,7 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs", "devops"]
-title = "Category: DevOps"
+title = "DevOps"
 author = "James M"
 tags = ["devops"]
 +++
+{{< figure src="images/cogs.jpg" title="" >}}

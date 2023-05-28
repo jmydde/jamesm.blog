@@ -53,8 +53,8 @@ languages:
           url: /general
       # - name: Ideas
       #   url: /ideas
-        - name: Music
-          url: /music
+        - name: Music Production
+          url: /music-production
         - name: Self Improvement
           url: /self-improvement
         - name: Web3
@@ -82,7 +82,7 @@ params:
     - devops
     - general
   # - ideas
-    - music
+    - music-production
     - self-improvement
     - web3
   ShowCodeCopyButtons:            true

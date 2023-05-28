@@ -324,13 +324,17 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     </item>
     
     <item>
-      <title>Category: AI</title>
+      <title>Artificial Intelligence</title>
       <link>https://jamesm.blog/ai/</link>
       <pubDate>Sat, 27 May 2023 06:33:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <description> </description>
+      <content:encoded><![CDATA[<figure>
+    <img loading="lazy" src="images/ai.jpg"/> 
+</figure>
+
+]]></content:encoded>
     </item>
     
   </channel>
