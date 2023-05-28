@@ -16,6 +16,10 @@ The first program I wrote was an animated Christmas card as part of a  school co
 I didn't own this personally at home but used it in the school computing club
 - https://en.wikipedia.org/wiki/BBC_Micro
 
+## Commodore VIC-20 (1981)
+I didn't own this personally at home but used it in the school computing club
+- https://en.wikipedia.org/wiki/VIC-20
+
 ## Oric-1 (1982)
 I didn't own this personally at home but used it in the school computing club
 - https://en.wikipedia.org/wiki/Oric#Oric-1
@@ -23,7 +27,6 @@ I didn't own this personally at home but used it in the school computing club
 ## Dragon 32 (1982)
 I didn't own this personally at home but used it in the school computing club
 - https://en.wikipedia.org/wiki/Dragon_32/64
-
 
 ## Sinclair ZX Spectrum 48k (1982)
 The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first home computer and therefore was very special to me.  It had a unique rubber keyboard.  I used to spend hours on it writing BASIC programs & playing games.
