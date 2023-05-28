@@ -47,7 +47,7 @@ I was just blown away by this computer, it was the first time I appreciated the 
 - [Action Replay](https://rr.pokefinder.org/wiki/Action_Replay/) (Datel Electronics)
   - This was pretty much the first peripheral I bought for a home computer, I was blown away that the computer could be extended and modified at the hardware level.  I used this to save game state and hacking games typing in pokes & cheat codes etc.
 - [Commodore 64 Communications Modem (Compunet)](https://www.nightfallcrew.com/27/02/2021/commodore-64-communications-modem-compunet/)
-  - This completely blew my mind as it was the first time I got online and connected to other computer systems such as bulletin boards & Compunet.  Compunet was also the first time I sent & received email, I remember I couldn't wait to get home for school to see if I had any new email.  My phone bill was ridiculous, to this day I still can't believe I got away with spending so long and so much money on phone bills, my parents obviously thought it was worthwhile.
+  - This completely blew my mind as it was the first time I got online and connected to other computer systems such as bulletin boards & Compunet.  Compunet was also the first time I sent & received email, I remember I couldn't wait to get home for school to see if I had any new email.  My phone bill was ridiculous, to this day I still can't believe I got away with spending so long and so much money on phone bills, my parents obviously thought it was worthwhile.  Come to think of it I was **extremely** lucky to have early access to many great computers & peripherals.
 
 ## Apple IIe (1983)
 My dad had one of these at home, although I only really used it to play a few games
@@ -62,9 +62,13 @@ We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_C
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/1920px-IBM_PC-IMG_7271_%28transparent%29.png" title="IBM Personal Computer" height=250 width=300 >}}
 
-## Data General MV/15000 (1986)
+## Data General Eclipse MV/15000 (1986)
 As part of my first job as a computer operator (1992) I was responsible for operating the [Data General](https://en.wikipedia.org/wiki/Data_General/) **MV/15000** mainframe computer & writing automation scripts.  This has been one of my favourite jobs over the years as I had a lot of responsbility and had to do a lot of problem solving late into the evening, I learnt a lot.   We didn't have the internet or up-to-date manuals back then :)
 {{< figure src="images/Data-General-MV15000-1986.png" title="Data General MV/15000" >}}
+
+### Peripherals
+- [Kyocera Laser Printer](https://en.wikipedia.org/wiki/Kyocera/)
+  - I programmed using Page Description Language (PDL) to re-create a load of forms which we previously had to buy externally pre-printed, this saved us a lot of money.
 
 ### Software
 - [AOS/VS II](https://en.wikipedia.org/wiki/AOS/VS_II/) - Operating System
