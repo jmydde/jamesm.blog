@@ -32,9 +32,6 @@
     <loc>https://jamesm.blog/tags/bots/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
-    <lastmod>2023-05-27T08:01:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/chatgpt/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
@@ -42,6 +39,9 @@
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/devops/</loc>
+    <lastmod>2023-05-27T08:01:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/github/</loc>
@@ -116,19 +116,19 @@
     <loc>https://jamesm.blog/tags/photoshop/</loc>
     <lastmod>2023-05-26T20:04:28+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/music/</loc>
-    <lastmod>2023-05-26T07:01:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/discounts/</loc>
     <lastmod>2023-05-26T07:01:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/music-production/</loc>
     <lastmod>2023-05-26T07:01:39+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/music-production/</loc>
+    <lastmod>2023-05-26T07:01:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/native-instruments/</loc>
     <lastmod>2023-05-26T07:01:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/music/ni-summer-of-sound-2023/</loc>
+    <loc>https://jamesm.blog/music-production/ni-summer-of-sound-2023/</loc>
     <lastmod>2023-05-26T07:01:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/plugins/</loc>
@@ -224,7 +224,7 @@
     <loc>https://jamesm.blog/general/links/</loc>
     <lastmod>2023-05-10T14:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/music/links/</loc>
+    <loc>https://jamesm.blog/music-production/links/</loc>
     <lastmod>2023-05-10T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/monkey-computer-sync/</loc>
@@ -299,7 +299,7 @@
     <loc>https://jamesm.blog/ai/gpt-4/</loc>
     <lastmod>2023-03-16T14:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/music/my-hardware-software/</loc>
+    <loc>https://jamesm.blog/music-production/my-hardware-software/</loc>
     <lastmod>2023-02-20T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/explainers/</loc>
@@ -320,7 +320,7 @@
     <loc>https://jamesm.blog/data/etl-tools/</loc>
     <lastmod>2021-01-01T06:51:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/music/favourites/</loc>
+    <loc>https://jamesm.blog/music-production/favourites/</loc>
     <lastmod>2020-01-01T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/computer-hardware/</loc>
@@ -353,11 +353,15 @@
     <loc>https://jamesm.blog/general/markdown/</loc>
     <lastmod>2020-01-01T00:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/ableton/</loc>
+  </url><url>
     <loc>https://jamesm.blog/categories/</loc>
   </url><url>
     <loc>https://jamesm.blog/ideas/</loc>
   </url><url>
     <loc>https://jamesm.blog/web3/</loc>
+  </url><url>
+    <loc>https://jamesm.blog/tags/cubase/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/general/</loc>
   </url><url>
