@@ -27,6 +27,8 @@ I didn't own this personally at home but used it in the school computing club
 ## Sinclair ZX Spectrum 48k (1982)
 The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first home computer and therefore was very special to me.  It had a unique rubber keyboard.  I used to spend hours on it writing BASIC programs & playing games.
 
+I spent so long on the Spectrum one of my sisters suggested I should go to computing college which was absolutely the right decision for me, I never looked back.
+
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1920px-ZXSpectrum48k.jpg" title="ZX Spectrum 48k" height=250 width=250 >}}
 
 ### Peripherals
@@ -38,6 +40,10 @@ The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first 
 - [Crash](https://en.wikipedia.org/wiki/Crash_(magazine)/)
 
 ## Commodore 64 (1982)
+
+### Peripherals
+- [Action Replay](https://rr.pokefinder.org/wiki/Action_Replay/) (Datel Electronics)
+  - This was pretty much the first peripheral I bought for a home computer, I was blown away that the computer could be extended and modified at the hardware level.  I used this to save game state and hacking games typing in pokes & cheat codes etc.
 
 ## IBM Personal Computer (1983)
 We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_Computer/) at computing college to learn;
