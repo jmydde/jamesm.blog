@@ -24,6 +24,7 @@ I didn't own this personally at home but used it in the school computing club
 I didn't own this personally at home but used it in the school computing club
 - https://en.wikipedia.org/wiki/Dragon_32/64
 
+
 ## Sinclair ZX Spectrum 48k (1982)
 The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first home computer and therefore was very special to me.  It had a unique rubber keyboard.  I used to spend hours on it writing BASIC programs & playing games.
 
@@ -40,15 +41,24 @@ I spent so long on the Spectrum one of my sisters suggested I should go to compu
 - [Crash](https://en.wikipedia.org/wiki/Crash_(magazine)/)
 
 ## Commodore 64 (1982)
+I was just blown away by this computer, it was the first time I appreciated the impact of [Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law/)
 
 ### Peripherals
 - [Action Replay](https://rr.pokefinder.org/wiki/Action_Replay/) (Datel Electronics)
   - This was pretty much the first peripheral I bought for a home computer, I was blown away that the computer could be extended and modified at the hardware level.  I used this to save game state and hacking games typing in pokes & cheat codes etc.
+- [Commodore 64 Communications Modem (Compunet)](https://www.nightfallcrew.com/27/02/2021/commodore-64-communications-modem-compunet/)
+  - This completely blew my mind as it was the first time I got online and connected to other computer systems such as bulletin boards & Compunet.  Compunet was also the first time I sent & received email, I remember I couldn't wait to get home for school to see if I had any new email.  My phone bill was ridiculous, to this day I still can't believe I got away with spending so long and so much money on phone bills, my parents obviously thought it was worthwhile.
+
+## Apple IIe (1983)
+My dad had one of these at home, although I only really used it to play a few games
+- https://en.wikipedia.org/wiki/Apple_IIe
 
 ## IBM Personal Computer (1983)
 We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_Computer/) at computing college to learn;
-- [Borland Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal/)
-- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language/)
+- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language/) - low level programming
+- [Borland Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal/) - programming language
+- [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3) - spreadsheet
+- [Microsoft MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) - operating system
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/1920px-IBM_PC-IMG_7271_%28transparent%29.png" title="IBM Personal Computer" height=250 width=300 >}}
 
@@ -64,10 +74,17 @@ As part of my first job as a computer operator (1992) I was responsible for oper
 
 ## Commodore Amiga 500, 600, 1200, 1500 (1987)
 
+Another ground-breaking computer, the Amiga 500 was by far the best Christmas present I ever had.  I subseqently purchased 3 further models below.  This was the first computer I used which had a 'windows' system.   The graphics & sound were game changing.
+
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Amiga500_system.jpg/1920px-Amiga500_system.jpg" title="Amiga 500" height=250 width=300 >}}
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Commodore_Amiga_600_top.png/1920px-Commodore_Amiga_600_top.png" title="Amiga 600" height=250 width=600 >}}
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Commodore_Amiga_A1200.jpg/1920px-Commodore_Amiga_A1200.jpg" title="Amiga 1200" height=250 width=600 >}}
 {{< figure src="https://www.computinghistory.org.uk/userdata/images/large/81/93/product-78193.jpg" title="Amiga 1500" height=250 width=250 >}}
+
+### Peripherals
+- A500-HD+ - hard drive
+- Amiga 500 512KB RAM expansion
+- Commodore 1084 Monitor
 
 ## Sega Megadrive (1990)
 
