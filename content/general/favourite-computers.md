@@ -30,6 +30,8 @@ The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first 
 
 I spent so long on the Spectrum one of my sisters suggested I should go to computing college which was absolutely the right decision for me, I never looked back.
 
+[Tomorrow's World broadcast a computer program](https://www.youtube.com/watch?v=jeKWMXuSGCc) which I saved and loaded on the Spectrum, this was the first time I received anything remotely, I couldn't understand how this was possible at the time, it took a few days for it to sink in !
+
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1920px-ZXSpectrum48k.jpg" title="ZX Spectrum 48k" height=250 width=250 >}}
 
 ### Peripherals
