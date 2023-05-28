@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/books/</loc>
+    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/self-improvement/books/</loc>
+    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/self-improvement/</loc>
+    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/self-improvement/</loc>
+    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
     <lastmod>2023-05-28T08:33:14+01:00</lastmod>
   </url><url>
@@ -20,9 +38,6 @@
     <loc>https://jamesm.blog/tags/images/</loc>
     <lastmod>2023-05-28T08:33:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/links/</loc>
     <lastmod>2023-05-28T08:33:14+01:00</lastmod>
   </url><url>
@@ -35,9 +50,6 @@
     <loc>https://jamesm.blog/tags/music/</loc>
     <lastmod>2023-05-28T08:33:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/text-to-speech/</loc>
     <lastmod>2023-05-28T08:33:14+01:00</lastmod>
   </url><url>
@@ -48,12 +60,6 @@
     <lastmod>2023-05-28T08:33:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/self-improvement/life-cheat-codes/</loc>
-    <lastmod>2023-05-27T08:30:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/self-improvement/</loc>
-    <lastmod>2023-05-27T08:30:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/self-improvement/</loc>
     <lastmod>2023-05-27T08:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/airflow/</loc>
@@ -284,9 +290,6 @@
     <loc>https://jamesm.blog/tags/training/</loc>
     <lastmod>2023-05-06T06:51:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/self-improvement/links/</loc>
-    <lastmod>2023-05-01T08:30:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/books/</loc>
     <lastmod>2023-04-21T23:07:18+01:00</lastmod>
   </url><url>
@@ -362,8 +365,6 @@
   </url><url>
     <loc>https://jamesm.blog/ideas/</loc>
   </url><url>
-    <loc>https://jamesm.blog/web3/</loc>
-  </url><url>
     <loc>https://jamesm.blog/tags/cubase/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/general/</loc>
@@ -375,5 +376,7 @@
     <loc>https://jamesm.blog/series/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/web3/</loc>
+  </url><url>
+    <loc>https://jamesm.blog/web3/</loc>
   </url>
 </urlset>
