@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/linux/</link>
+    <description>Recent content in linux on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 May 2023 21:06:35 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac Homebrew packages</title>
+      <link>https://jamesm.blog/devops/mac-brew-packages/</link>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/mac-brew-packages/</guid>
+      <description>Essential bat - Linux “cat” command alternative with syntax highlighting glow - Markdown reader htop - Top clone with syntax highlighting and mouse support jq - sed for JSON data jupyter - JupyterHub notebooks k9s - Monitor Kubernetes resources pyenv - Python version management python - Python (3.11) terraform - Terraform tfswitch - Switch Terraform versions (warrensbox/tap/tfswitch) tree - View folders and files in a visual tree (tree -L ) wget - Download files yq - Lightweight and portable command-line YAML, JSON and XML processor Others django - Python Web framework glances - Console (and web) based server monitoring tool httpie - A curl-like tool to interact with HTTP servers lnav - Explore and troubleshoot cryptic log files midnight-commander - File explorer mtr - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues navi - Interactive cheatsheet tool ncdu - Disk space analyzer, find big files &amp;amp; directories npm - Node Package Manager pytorch - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing ranger - Directory / file explorer providing an easier way to find files via the terminal snappy - compression/decompression library aiming for high speed speedtest-cli - Test upload/download speed task - A todo app tensorflow - free and open-source software library for machine learning and artificial intelligence tmux - Run multiple terminal sessions within the same window youtube-dl - YouTube downloader </description>
+      <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
+<ul>
+<li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>
+<li><strong>glow</strong> - Markdown reader</li>
+<li><strong>htop</strong> - Top clone with syntax highlighting and mouse support</li>
+<li><strong>jq</strong> - sed for JSON data</li>
+<li><strong>jupyter</strong> - JupyterHub notebooks</li>
+<li><strong>k9s</strong> - Monitor Kubernetes resources</li>
+<li><strong>pyenv</strong> - Python version management</li>
+<li><strong>python</strong> - Python (3.11)</li>
+<li><strong>terraform</strong> - Terraform</li>
+<li><strong>tfswitch</strong> - Switch Terraform versions (warrensbox/tap/tfswitch)</li>
+<li><strong>tree</strong> - View folders and files in a visual tree (tree -L <level>)</li>
+<li><strong>wget</strong> - Download files</li>
+<li><strong>yq</strong> - Lightweight and portable command-line YAML, JSON and XML processor</li>
+</ul>
+<h2 id="others">Others</h2>
+<ul>
+<li><strong>django</strong> - Python Web framework</li>
+<li><strong>glances</strong> - Console (and web) based server monitoring tool</li>
+<li><strong>httpie</strong> - A curl-like tool to interact with HTTP servers</li>
+<li><strong>lnav</strong> - Explore and troubleshoot cryptic log files</li>
+<li><strong>midnight-commander</strong> - File explorer</li>
+<li><strong>mtr</strong> - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues</li>
+<li><strong>navi</strong> - Interactive cheatsheet tool</li>
+<li><strong>ncdu</strong> - Disk space analyzer, find big files &amp; directories</li>
+<li><strong>npm</strong> - Node Package Manager</li>
+<li><strong>pytorch</strong> - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing</li>
+<li><strong>ranger</strong> - Directory / file explorer providing an easier way to find files via the terminal</li>
+<li><strong>snappy</strong> - compression/decompression library aiming for high speed</li>
+<li><strong>speedtest-cli</strong> - Test upload/download speed</li>
+<li><strong>task</strong> - A todo app</li>
+<li><strong>tensorflow</strong> - free and open-source software library for machine learning and artificial intelligence</li>
+<li><strong>tmux</strong> - Run multiple terminal sessions within the same window</li>
+<li><strong>youtube-dl</strong> - YouTube downloader</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

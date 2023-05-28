@@ -68,6 +68,9 @@
     <loc>https://jamesm.blog/tags/twitter/</loc>
     <lastmod>2023-05-27T08:01:18+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/ai/tools/</loc>
+    <lastmod>2023-05-27T06:33:14+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/ai/</loc>
     <lastmod>2023-05-27T06:33:14+01:00</lastmod>
   </url><url>
@@ -78,9 +81,6 @@
     <lastmod>2023-05-27T06:33:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/links/</loc>
-    <lastmod>2023-05-27T06:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/tools/</loc>
     <lastmod>2023-05-27T06:33:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/llm/</loc>
@@ -191,13 +191,34 @@
     <loc>https://jamesm.blog/tags/brew/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/brew-packages/</loc>
+    <loc>https://jamesm.blog/tags/cli/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/linux/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/mac-brew-packages/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/macos/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/monitoring/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/ai/notion/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/package-manager/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/python/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/syntax-highlighting/</loc>
+    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/terraform/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/links/</loc>
@@ -252,9 +273,6 @@
     <lastmod>2023-05-06T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/pipelines/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/python/</loc>
     <lastmod>2023-05-06T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/streaming/</loc>

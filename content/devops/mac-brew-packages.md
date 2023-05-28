@@ -1,8 +1,8 @@
 ---
-title: "Homebrew packages (MacOS)"
+title: "Mac Homebrew packages"
 date: 2023-05-11T21:06:35+01:00
 draft: false
-tags: ['brew', 'macos']
+tags: ['brew', 'macos', 'terminal', 'cli', 'k8s', 'terraform', 'python', 'syntax highlighting', 'monitoring', 'package manager', 'linux']
 ---
 ## Essential
 * **bat** - Linux “cat” command alternative with syntax highlighting
@@ -29,11 +29,11 @@ tags: ['brew', 'macos']
 * **navi** - Interactive cheatsheet tool
 * **ncdu** - Disk space analyzer, find big files & directories
 * **npm** - Node Package Manager
-* **pytorch**
+* **pytorch** - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing
 * **ranger** - Directory / file explorer providing an easier way to find files via the terminal
-* **snappy**
+* **snappy** - compression/decompression library aiming for high speed
 * **speedtest-cli** - Test upload/download speed
 * **task** - A todo app
-* **tensorflow**
+* **tensorflow** - free and open-source software library for machine learning and artificial intelligence
 * **tmux** - Run multiple terminal sessions within the same window
 * **youtube-dl** - YouTube downloader

@@ -1,10 +1,11 @@
 ---
-title: "List of AI Tools & Companies"
+title: "AI Tools & Companies"
 date: 2023-05-27T06:33:14+01:00
 draft: false
 tags: ["ai", "links", "tools", "images", "graphics", "llm", "bots", "chatgpt", "music", "text-to-speech", "writing"]
 ---
 ## AI Tools
+List of AI tools ..
 
 ### Chat Bots
 - [Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM
@@ -44,10 +45,11 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "bots", "chatgpt", "
 - [WNR](https://wnr.ai) - prompts made easy with AI templates
 
 ## AI Companies
-List of AI companies
+List of AI companies ...
 - [Boston Dynamics](https://www.youtube.com/@BostonDynamics) - create exceptional robots that enrich people’s lives
 - [Fast.ai](https://www.fast.ai/) - making deep learning easier to use
 - [Google AI](https://ai.google/) - a division of Google dedicated to artificial intelligence
+- [Midjourney](https://www.midjourney.com/) - independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species
 - [OpenAI](https://openai.com/) - AI research and deployment company
 - [Stability](https://stability.ai/) - building the foundation to activate humanity's potential
 - [Tesla AI & Robotics](https://www.tesla.com/en_gb/AI) - developing & deploying autonomy at scale in vehicles & robots
