@@ -11,6 +11,7 @@ draft: false
   - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
 - Keyboards
   - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
+  - [Novation LaunchKey 61](https://novationmusic.com/en/keys/launchkey/)
 - Synthesizers
   - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
@@ -29,31 +30,11 @@ draft: false
 ### PluginGuru
 - [Unify](https://www.pluginguru.com/products/unify-standard/)
 
-### UVI
-- [Homepage](https://www.uvi.net/)
-- 8-Bit Synth
-- Augmented Orchestra
-- Austrian Grand
-- BeatBox Anthology 2
-- Drum Designer
-- Dual Delay X
-- Emulation II+
-- FM Suite
-- Key Suite Acoustic
-- Key Suite Digital
-- Key Suite Electric
-- Meteor
-- Percussion Factory
-- Program 24
-- PX Memories
-- Quadra - Muted and Harmonics
-- Scratch Machine
-- Shade
-- Sparkverb
-- Synth Anthology 3
+### Lennar Digital
+- [Sylenth1](https://www.lennardigital.com/sylenth1/)
 
 ### Native Instruments
-- [Native Instruments Komplete Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
+- [Native Instruments Komplete 14 Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
   - Orchestral & Cinematic Instruments
     - Action Strikes
     - Action Strings 2
@@ -260,3 +241,29 @@ draft: false
     - MECHANIX
     - Drive
     - Our House
+
+### Steinberg
+- [Cubase Artist](https://www.steinberg.net/cubase/compare-editions/)
+
+### UVI
+- [Homepage](https://www.uvi.net/)
+- 8-Bit Synth
+- Augmented Orchestra
+- Austrian Grand
+- BeatBox Anthology 2
+- Drum Designer
+- Dual Delay X
+- Emulation II+
+- FM Suite
+- Key Suite Acoustic
+- Key Suite Digital
+- Key Suite Electric
+- Meteor
+- Percussion Factory
+- Program 24
+- PX Memories
+- Quadra - Muted and Harmonics
+- Scratch Machine
+- Shade
+- Sparkverb
+- Synth Anthology 3
