@@ -5,21 +5,25 @@
     <link>https://jamesm.blog/tags/tools/</link>
     <description>Recent content in tools on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 May 2023 06:33:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 08:33:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Tools &amp; Companies</title>
+      <title>List of AI Tools &amp; Companies</title>
       <link>https://jamesm.blog/ai/tools/</link>
-      <pubDate>Sat, 27 May 2023 06:33:14 +0100</pubDate>
+      <pubDate>Sun, 28 May 2023 08:33:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>AI Tools List of AI tools ..
-Chat Bots Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) Development AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
+      <description>AI Tools Chat Bots Google Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM OpenAI ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) OpenAI Playground - explore the capabilities of various AI models developed by OpenAI Design Flair - AI design tool for branded content Galileo AI - creates delightful, editable UI designs from a simple text description Development AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
       <content:encoded><![CDATA[<h2 id="ai-tools">AI Tools</h2>
-<p>List of AI tools ..</p>
 <h3 id="chat-bots">Chat Bots</h3>
 <ul>
-<li><a href="https://bard.google.com/">Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
-<li><a href="https://openai.com/blog/chatgpt">ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
+<li><a href="https://bard.google.com/">Google Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
+<li><a href="https://openai.com/blog/chatgpt">OpenAI ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
+<li><a href="https://platform.openai.com/playground/">OpenAI Playground</a> - explore the capabilities of various AI models developed by OpenAI</li>
+</ul>
+<h3 id="design">Design</h3>
+<ul>
+<li><a href="https://flair.ai/">Flair</a> - AI design tool for branded content</li>
+<li><a href="https://www.usegalileo.ai/">Galileo AI</a> - creates delightful, editable UI designs from a simple text description</li>
 </ul>
 <h3 id="development">Development</h3>
 <ul>
@@ -33,14 +37,17 @@ Chat Bots Bard - conversational generative artificial intelligence chatbot devel
 <li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
 <li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - animate your family photos</li>
 <li><a href="https://tryleap.ai">Leap</a> - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs</li>
+<li><a href="https://playgroundai.com/">Playground</a> - create any image from your imagination</li>
 </ul>
 <h3 id="music">Music</h3>
 <ul>
+<li><a href="https://www.beatoven.ai/">Beatoven</a> - create customisable royalty free music that elevates your story</li>
 <li><a href="https://www.lalal.ai/">LALAL.AI</a> - extract vocal, accompaniment &amp; various instruments from any audio / video</li>
 <li><a href="https://soundraw.io/">Soundraw</a> - royalty-free AI generated music</li>
 </ul>
-<h3 id="text-to-speech">Text to Speech</h3>
+<h3 id="text-to-speech--voice">Text to Speech &amp; Voice</h3>
 <ul>
+<li><a href="https://cleanvoice.ai/">Cleanvoice</a> - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording</li>
 <li><a href="https://murf.ai/">Murf</a> - text to speech AI voice generator</li>
 <li><a href="https://speechify.com/">Speechify</a> - mobile and desktop app that reads text aloud using a computer generated text to speech voice</li>
 <li><a href="https://voicemaker.in">Voicemaker</a> - online free text to speech converter</li>
@@ -48,7 +55,11 @@ Chat Bots Bard - conversational generative artificial intelligence chatbot devel
 <h3 id="writing">Writing</h3>
 <ul>
 <li><a href="https://10web.io">10Web</a> - AI-powered WordPress platform</li>
+<li><a href="https://www.jasper.ai/">Jasper</a> - AI writer and AI art generator</li>
 <li><a href="https://www.notion.so/product/ai">Notion</a> - organizational tools including task management, project tracking, to-do lists, bookmarking, and more</li>
+<li><a href="https://www.ocoya.com/">Ocoya</a> - Create and schedule social media, content marketing &amp; copywriting quicker using AI</li>
+<li><a href="https://quillbot.com/">Quillbot</a> - AI-powered paraphrasing tool to enhance your writing</li>
+<li><a href="https://tome.app/">Tome</a> - world’s first generative storytelling format to truly harness the power of artificial intelligence</li>
 <li><a href="https://trinka.ai">Trinka</a> - online grammar checker and language correction AI tool for academic and technical writing</li>
 </ul>
 <h3 id="other">Other</h3>
@@ -57,11 +68,12 @@ Chat Bots Bard - conversational generative artificial intelligence chatbot devel
 <li><a href="https://decoherence.co">Decoherence</a> - create what can&rsquo;t be filmed</li>
 <li><a href="https://donotpay.com/">DoNotPay</a> - the world&rsquo;s first robot lawyer</li>
 <li><a href="https://krisp.ai/">Krisp</a> - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
+<li><a href="https://www.mixo.io/">Mixo</a> - helps entrepreneurs quickly launch and validate their business ideas</li>
 <li><a href="https://mosaic.ai">MosaicTrack</a> - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set</li>
+<li><a href="https://www.outfitsai.com/">Outfits AI</a> - try on any outfits using AI</li>
 <li><a href="https://wnr.ai">WNR</a> - prompts made easy with AI templates</li>
 </ul>
 <h2 id="ai-companies">AI Companies</h2>
-<p>List of AI companies &hellip;</p>
 <ul>
 <li><a href="https://www.youtube.com/@BostonDynamics">Boston Dynamics</a> - create exceptional robots that enrich people’s lives</li>
 <li><a href="https://www.fast.ai/">Fast.ai</a> - making deep learning easier to use</li>
