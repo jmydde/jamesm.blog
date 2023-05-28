@@ -53,7 +53,7 @@ languages:
           url: /general
       # - name: Ideas
       #   url: /ideas
-        - name: Music Production
+        - name: Music
           url: /music-production
         - name: Self Improvement
           url: /self-improvement
@@ -114,7 +114,7 @@ params:
       - [**Data**](/data) (Data Engineering, Data Science, databases, datasets, ETL)
       - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
       - [**General**](/general) (general topics & news)
-      - [**Music**](/music) (artists, groups, music production)
+      - [**Music Production**](/music-production) (computer hardware & software)
       - [**Self Improvement**](/self-improvement)
       - [**Web3**](/web3) (Blockchain, decentralization)
 
