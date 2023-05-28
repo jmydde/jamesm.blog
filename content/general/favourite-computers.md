@@ -12,7 +12,19 @@ The first program I wrote was an animated Christmas card as part of a  school co
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Commodore_2001_Series-IMG_0448b.jpg/1200px-Commodore_2001_Series-IMG_0448b.jpg" title="Commodore PET" height=250 width=250 >}}
 
-## Sinclair ZX Spectrum 48k
+## BBC Micro Model B
+I didn't own this personally at home but used it in the school computing club
+- https://en.wikipedia.org/wiki/BBC_Micro
+
+## Oric-1 (1982)
+I didn't own this personally at home but used it in the school computing club
+- https://en.wikipedia.org/wiki/Oric#Oric-1
+
+## Dragon 32 (1982)
+I didn't own this personally at home but used it in the school computing club
+- https://en.wikipedia.org/wiki/Dragon_32/64
+
+## Sinclair ZX Spectrum 48k (1982)
 The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first home computer and therefore was very special to me.  It had a unique rubber keyboard.  I used to spend hours on it writing BASIC programs & playing games.
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1920px-ZXSpectrum48k.jpg" title="ZX Spectrum 48k" height=250 width=250 >}}
@@ -25,6 +37,8 @@ The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first 
 ### Magazines
 - [Crash](https://en.wikipedia.org/wiki/Crash_(magazine)/)
 
+## Commodore 64 (1982)
+
 ## IBM Personal Computer (1983)
 We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_Computer/) at computing college to learn;
 - [Borland Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal/)
@@ -32,10 +46,8 @@ We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_C
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/1920px-IBM_PC-IMG_7271_%28transparent%29.png" title="IBM Personal Computer" height=250 width=300 >}}
 
-## Commodore 64
-
-## Data General MV/15000
-My first job, as a computer operator, operating the [Data General MV/15000](https://en.wikipedia.org/wiki/Data_General/) mainframe computer & writing automation scripts
+## Data General MV/15000 (1986)
+As part of my first job as a computer operator (1992) I was responsible for operating the [Data General](https://en.wikipedia.org/wiki/Data_General/) **MV/15000** mainframe computer & writing automation scripts.  This has been one of my favourite jobs over the years as I had a lot of responsbility and had to do a lot of problem solving late into the evening, I learnt a lot.   We didn't have the internet or up-to-date manuals back then :)
 {{< figure src="images/Data-General-MV15000-1986.png" title="Data General MV/15000" >}}
 
 ### Software
