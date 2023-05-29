@@ -7,13 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 06 May 2023 06:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Training Links</title>
-      <link>https://jamesm.blog/data/data-training-links/</link>
+      <title>List of Data Engineering &amp; Data Science Courses</title>
+      <link>https://jamesm.blog/data/data-eng-science-courses/</link>
       <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
       
-      <guid>https://jamesm.blog/data/data-training-links/</guid>
-      <description>Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Data Science DataCamp Introduction to Data Science in Python Python Data Science Toolbox (Part 1) Google Learn Python basics for data analysis Data Science Foundations Data Science with Python Machine Learning Crash Course Intro to TensorFlow for Deep Learning </description>
+      <guid>https://jamesm.blog/data/data-eng-science-courses/</guid>
+      <description>Data Engineering A Cloud Guru AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Whizlabs Apache Kafka Fundamentals Snowflake SnowPro Core Certification Udemy Taming Big Data with Apache Spark and Python - Hands On! Data Science A Cloud Guru Introduction to Machine Learning Coursera Data Science with Databricks for Data Analysts Specialization DataCamp Introduction to Data Science in Python Python Data Science Toolbox (Part 1) Google Learn Python basics for data analysis Data Science Foundations Data Science with Python Machine Learning Crash Course Intro to TensorFlow for Deep Learning Whizlabs AWS Certified Machine Learning Specialty Introduction to Data Science with Python TensorFlow for Deep Learning with Python Udemy AWS Certified Machine Learning Specialty 2023 - Hands On!</description>
       <content:encoded><![CDATA[<h2 id="data-engineering">Data Engineering</h2>
+<h3 id="a-cloud-guru">A Cloud Guru</h3>
+<ul>
+<li><a href="https://acloudguru.com/course/aws-certified-big-data-specialty/">AWS Certified Big Data Specialty</a></li>
+<li><a href="https://acloudguru.com/course/google-certified-professional-data-engineer/">Google Certified Professional Data Engineer</a></li>
+<li><a href="https://acloudguru.com/course/microsoft-certified-azure-data-engineer-associate-dp-203/">Microsoft Certified: Azure Data Engineer Associate (DP-203)</a></li>
+</ul>
 <h3 id="datacamp">DataCamp</h3>
 <ul>
 <li><a href="https://www.datacamp.com/courses/building-data-engineering-pipelines-in-python/">Building Data Engineering Pipelines in Python</a></li>
@@ -25,7 +31,24 @@
 <li><a href="https://www.datacamp.com/courses/streaming-concepts/">Streaming Concepts</a></li>
 <li><a href="https://www.datacamp.com/courses/understanding-data-engineering/">Understanding Data Engineering</a></li>
 </ul>
+<h3 id="whizlabs">Whizlabs</h3>
+<ul>
+<li><a href="https://www.whizlabs.com/learn/course/apache-kafka-fundamentals/297/">Apache Kafka Fundamentals</a></li>
+<li><a href="https://www.whizlabs.com/learn/course/snowflake-snowpro-core-certification/384/">Snowflake SnowPro Core Certification</a></li>
+</ul>
+<h3 id="udemy">Udemy</h3>
+<ul>
+<li><a href="https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/">Taming Big Data with Apache Spark and Python - Hands On!</a></li>
+</ul>
 <h2 id="data-science">Data Science</h2>
+<h3 id="a-cloud-guru-1">A Cloud Guru</h3>
+<ul>
+<li><a href="https://acloudguru.com/course/introduction-to-machine-learning/">Introduction to Machine Learning</a></li>
+</ul>
+<h3 id="coursera">Coursera</h3>
+<ul>
+<li><a href="https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/">Data Science with Databricks for Data Analysts Specialization</a></li>
+</ul>
 <h3 id="datacamp-1">DataCamp</h3>
 <ul>
 <li><a href="https://www.datacamp.com/courses/introduction-to-data-science-in-python/">Introduction to Data Science in Python</a></li>
@@ -39,11 +62,21 @@
 <li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course/">Machine Learning Crash Course</a></li>
 <li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/intro-to-tensorflow-for-deep-learning/">Intro to TensorFlow for Deep Learning</a></li>
 </ol>
+<h3 id="whizlabs-1">Whizlabs</h3>
+<ul>
+<li><a href="https://www.whizlabs.com/learn/course/aws-certified-machine-learning-specialty/281/">AWS Certified Machine Learning Specialty</a></li>
+<li><a href="https://www.whizlabs.com/learn/course/data-science-with-python/379/">Introduction to Data Science with Python</a></li>
+<li><a href="https://www.whizlabs.com/learn/course/tensorflow-for-deep-learning-with-python/1117/">TensorFlow for Deep Learning with Python</a></li>
+</ul>
+<h3 id="udemy-1">Udemy</h3>
+<ul>
+<li><a href="https://www.udemy.com/course/aws-machine-learning/">AWS Certified Machine Learning Specialty 2023 - Hands On!</a></li>
+</ul>
 ]]></content:encoded>
     </item>
     
     <item>
-      <title>Category: Data</title>
+      <title>Data</title>
       <link>https://jamesm.blog/data/</link>
       <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
       

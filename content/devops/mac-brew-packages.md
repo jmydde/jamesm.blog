@@ -2,7 +2,7 @@
 title: "Mac Homebrew packages"
 date: 2023-05-11T21:06:35+01:00
 draft: false
-tags: ['brew', 'macos', 'terminal', 'cli', 'k8s', 'terraform', 'python', 'syntax highlighting', 'monitoring', 'package manager', 'linux']
+tags: ['brew', 'macos', 'terminal', 'cli', 'k8s', 'terraform', 'python', 'syntax highlighting', 'monitoring', 'package management', 'linux']
 ---
 ## Essential
 * **bat** - Linux “cat” command alternative with syntax highlighting
