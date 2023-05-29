@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>whitepapers on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/whitepapers/</link>
+    <description>Recent content in whitepapers on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Jul 2021 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/whitepapers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps Whitepapers</title>
+      <link>https://jamesm.blog/devops/whitepapers/</link>
+      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/whitepapers/</guid>
+      <description>AWS AWS Whitepapers &amp;amp; Guides - expand your knowledge of the cloud with AWS technical content authored by AWS and the AWS community, including technical whitepapers, technical guides, reference material, and reference architecture diagrams Introduction to DevOps on AWS </description>
+      <content:encoded><![CDATA[<h1 id="aws">AWS</h1>
+<ul>
+<li><a href="https://aws.amazon.com/whitepapers/">AWS Whitepapers &amp; Guides</a> - expand your knowledge of the cloud with AWS technical content authored by AWS and the AWS community, including technical whitepapers, technical guides, reference material, and reference architecture diagrams</li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html/">Introduction to DevOps on AWS</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
