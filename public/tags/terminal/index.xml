@@ -5,19 +5,20 @@
     <link>https://jamesm.blog/tags/terminal/</link>
     <description>Recent content in terminal on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 May 2023 08:01:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 06:45:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of DevOps GitHub Projects</title>
       <link>https://jamesm.blog/devops/github-projects/</link>
-      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>Command Line bat - a cat clone with syntax highlighting and Git integration pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters kOps - Kubernetes operations kube-state-metrics (KSM) - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects Kubernetes Dashboard - general purpose, web-based UI for Kubernetes clusters Kubespray - Kubernetes cluster lifecycle management minikube - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn Popeye - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows dkron - distributed, fault tolerant job scheduling system for cloud native environments </description>
-      <content:encoded><![CDATA[<h3 id="command-line">Command Line</h3>
+      <description>DevOps &amp;amp; Site Reliability Engineering (SRE) Awesome Scalability - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems Awesome Site Reliability Engineering - curated list of awesome Site Reliability and Production Engineering resources DevOps Exercises - contains questions and exercises on technical topics related to DevOps and SRE How they SRE - curated collection of publicly available resources about SRE Kubernetes k9s - terminal UI to interact with your Kubernetes clusters kOps - Kubernetes operations kube-state-metrics (KSM) - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects Kubernetes Dashboard - general purpose, web-based UI for Kubernetes clusters Kubespray - Kubernetes cluster lifecycle management minikube - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn Popeye - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations Linux bat - a cat clone with syntax highlighting and Git integration pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Test your SysAdmin skills - interview questions and answers for system administration Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows dkron - distributed, fault tolerant job scheduling system for cloud native environments </description>
+      <content:encoded><![CDATA[<h3 id="devops--site-reliability-engineering-sre">DevOps &amp; Site Reliability Engineering (SRE)</h3>
 <ul>
-<li><a href="https://github.com/sharkdp/bat/">bat</a> - a cat clone with syntax highlighting and Git integration</li>
-<li><a href="https://github.com/Nukesor/pueue/">pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
-<li><a href="https://github.com/awslabs/specctl/">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
+<li><a href="https://github.com/binhnguyennus/awesome-scalability/">Awesome Scalability</a> - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems</li>
+<li><a href="https://github.com/dastergon/awesome-sre/">Awesome Site Reliability Engineering</a> - curated list of awesome Site Reliability and Production Engineering resources</li>
+<li><a href="https://github.com/bregman-arie/devops-exercises/">DevOps Exercises</a> - contains questions and exercises on technical topics related to DevOps and SRE</li>
+<li><a href="https://github.com/upgundecha/howtheysre/">How they SRE</a> - curated collection of publicly available resources about SRE</li>
 </ul>
 <h3 id="kubernetes">Kubernetes</h3>
 <ul>
@@ -28,6 +29,13 @@
 <li><a href="https://github.com/kubernetes-sigs/kubespray/">Kubespray</a> - Kubernetes cluster lifecycle management</li>
 <li><a href="https://github.com/kubernetes/minikube/">minikube</a> - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn</li>
 <li><a href="https://github.com/derailed/popeye/">Popeye</a> - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations</li>
+</ul>
+<h3 id="linux">Linux</h3>
+<ul>
+<li><a href="https://github.com/sharkdp/bat/">bat</a> - a cat clone with syntax highlighting and Git integration</li>
+<li><a href="https://github.com/Nukesor/pueue/">pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
+<li><a href="https://github.com/awslabs/specctl/">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
+<li><a href="https://github.com/trimstray/test-your-sysadmin-skills/">Test your SysAdmin skills</a> - interview questions and answers for system administration</li>
 </ul>
 <h3 id="scheduling">Scheduling</h3>
 <ul>
