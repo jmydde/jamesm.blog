@@ -1,8 +1,8 @@
 ---
-title: "AI Training Links"
+title: "List of AI Courses"
 date: 2023-05-06T06:51:25+01:00
 draft: false
-tags: ['ai', 'bots', 'chatgpt', 'training', 'links']
+tags: ['ai', 'chatbots', 'chatgpt', 'training', 'links']
 ---
 
 # DataCamp
