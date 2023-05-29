@@ -12,6 +12,9 @@ The first program I wrote was an animated Christmas card as part of a  school co
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Commodore_2001_Series-IMG_0448b.jpg/1200px-Commodore_2001_Series-IMG_0448b.jpg" title="Commodore PET" height=250 width=250 >}}
 
+## Atari 2600 (1978)
+- https://en.wikipedia.org/wiki/Atari_2600
+
 ## BBC Micro Model B (1981)
 I didn't own this personally at home but used it in the school computing club
 - https://en.wikipedia.org/wiki/BBC_Micro
@@ -38,8 +41,10 @@ I spent so long on the Spectrum one of my sisters suggested I should go to compu
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1920px-ZXSpectrum48k.jpg" title="ZX Spectrum 48k" height=250 width=250 >}}
 
 ### Peripherals
-- Tape player/recorder
 - [Alphacom 32](https://worldofspectrum.org/hardware/feat11.html) thermal printer
+- [Competition Pro joystick](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics/)
+- [Kempston joystick interface](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics/)
+- Tape player/recorder
 - I always wanted a [ZX Microdrive](https://en.wikipedia.org/wiki/ZX_Microdrive) but couldn't afford it
 
 ### Magazines
@@ -94,6 +99,7 @@ Another ground-breaking computer, the Amiga 500 was by far the best Christmas pr
 - A500-HD+ - hard drive
 - Amiga 500 512KB RAM expansion
 - Commodore 1084 Monitor
+- [Competition Pro Extra (clear) joystick](https://www.retrogames.co.uk/015729/Other-Formats/Competition-Pro-Extra-Joystick-Green/)
 
 ## Sega Megadrive (1990)
 

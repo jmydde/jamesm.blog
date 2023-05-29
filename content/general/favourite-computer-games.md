@@ -8,6 +8,11 @@ tags: ['computers', 'software', 'consoles', 'gaming', 'games']
 ## Apple IIe
 - ...
 
+## Atari 2600
+- Adventure
+- Space Invaders
+- ...
+
 ## BBC Micro Model B
 - [Elite](https://en.wikipedia.org/wiki/Elite_(video_game)/) (1984)
 - Also games typed in from computer magazines
