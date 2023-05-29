@@ -1,6 +1,0 @@
-baseURL = 'https://jamesm.blog/'
-languageCode = 'en-us'
-title = 'jamesm.blog'
-#theme = 'ananke'
-theme = 'hugo-PaperMod'
-sectionPagesMenu = 'main'
