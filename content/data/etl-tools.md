@@ -1,16 +1,16 @@
 ---
-title: "ETL Tools"
+title: "List of ETL Tools"
 date: 2021-01-01T06:51:25+01:00
 draft: false
-tags: ['data', 'etl', 'links']
+tags: ['abinitio', 'aws', 'azure', 'data', 'etl', 'links', 'tools']
 ---
 ### What is ETL ?
 - **E**xtracting data from sources
 - **T**ransforming data into data models
 - **L**oading data into data warehouses
 
-### List of ETL Tools
-- [Ab Initio](https://www.abinitio.com/) (Best of Breed)
+### ETL Tools
+- [Ab Initio](https://www.abinitio.com/)
 - [AWS Data Pipeline](https://aws.amazon.com/datapipeline/)
 - [AWS Glue](https://aws.amazon.com/glue/)
 - [Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/)
