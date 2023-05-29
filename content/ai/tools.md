@@ -44,6 +44,7 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 - [Notion](https://www.notion.so/product/ai) - organizational tools including task management, project tracking, to-do lists, bookmarking, and more
 - [Ocoya](https://www.ocoya.com/) - Create and schedule social media, content marketing & copywriting quicker using AI
 - [Quillbot](https://quillbot.com/) - AI-powered paraphrasing tool to enhance your writing
+- [Sudowrite](https://www.sudowrite.com/) - AI novel writing assistant that makes the creative writing process more fun and interactive
 - [Tome](https://tome.app/) - world’s first generative storytelling format to truly harness the power of artificial intelligence
 - [Trinka](https://trinka.ai) - online grammar checker and language correction AI tool for academic and technical writing
 
