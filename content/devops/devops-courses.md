@@ -42,12 +42,14 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
 ## Continous Integration / Continous Deployment (CI/CD)
-- AWS CodePipeline/Build
-- Azure DevOps
-  - Continuous Delivery and DevOps with Azure DevOps: Source Control with Git (Pluralsight)
-  - Deploying Microservices to Kubernetes using Azure DevOps - Whizlabs (Whizlabs)
-  - Advanced Azure DevOps and AKS Patterns for Scalable Solutions Course (Whizlabs)
+- Pluralsight
+  - [Continuous Delivery and DevOps with Azure DevOps: Source Control with Git](https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/)
+  - [Practicing CI/CD with AWS CodePipeline](https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/)
+- Whizlabs
+  - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
+  - [Advanced Azure DevOps and AKS Patterns for Scalable Solutions](https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/)
 - Jenkins
+  - ...
 
 ## Docker & Containers
 - Hands-on Labs
