@@ -8,6 +8,7 @@ tags: ['a cloud guru', 'airflow', 'data', 'data engineering', 'data science', 'd
 ## Data Engineering
 
 ### A Cloud Guru
+- [Apache Kafka Deep Dive](https://acloudguru.com/course/apache-kafka-deep-dive/)
 - [AWS Certified Big Data Specialty](https://acloudguru.com/course/aws-certified-big-data-specialty/)
 - [Google Certified Professional Data Engineer](https://acloudguru.com/course/google-certified-professional-data-engineer/)
 - [Microsoft Certified: Azure Data Engineer Associate (DP-203)](https://acloudguru.com/course/microsoft-certified-azure-data-engineer-associate-dp-203/)

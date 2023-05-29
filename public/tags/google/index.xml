@@ -8,14 +8,15 @@
     <lastBuildDate>Sat, 06 May 2023 06:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of Data Engineering &amp; Data Science Courses</title>
-      <link>https://jamesm.blog/data/data-eng-science-courses/</link>
+      <link>https://jamesm.blog/data/data-engineering-science-courses/</link>
       <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
       
-      <guid>https://jamesm.blog/data/data-eng-science-courses/</guid>
-      <description>Data Engineering A Cloud Guru AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) Coursera Introduction to Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Google Building Batch Data Pipelines on Google Cloud Building Resilient Streaming Analytics Systems on Google Cloud Modernizing Data Lakes and Data Warehouses with Google Cloud Preparing for the Google Cloud Professional Data Engineer Exam Serverless Data Processing with Dataflow: Develop Pipelines Serverless Data Processing with Dataflow: Foundations Serverless Data Processing with Dataflow: Operations Udacity How to Become a Data Engineer Udemy Taming Big Data with Apache Spark and Python - Hands On!</description>
+      <guid>https://jamesm.blog/data/data-engineering-science-courses/</guid>
+      <description>Data Engineering A Cloud Guru Apache Kafka Deep Dive AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) Coursera Introduction to Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Google Building Batch Data Pipelines on Google Cloud Building Resilient Streaming Analytics Systems on Google Cloud Modernizing Data Lakes and Data Warehouses with Google Cloud Preparing for the Google Cloud Professional Data Engineer Exam Serverless Data Processing with Dataflow: Develop Pipelines Serverless Data Processing with Dataflow: Foundations Serverless Data Processing with Dataflow: Operations Udacity How to Become a Data Engineer Udemy Taming Big Data with Apache Spark and Python - Hands On!</description>
       <content:encoded><![CDATA[<h2 id="data-engineering">Data Engineering</h2>
 <h3 id="a-cloud-guru">A Cloud Guru</h3>
 <ul>
+<li><a href="https://acloudguru.com/course/apache-kafka-deep-dive/">Apache Kafka Deep Dive</a></li>
 <li><a href="https://acloudguru.com/course/aws-certified-big-data-specialty/">AWS Certified Big Data Specialty</a></li>
 <li><a href="https://acloudguru.com/course/google-certified-professional-data-engineer/">Google Certified Professional Data Engineer</a></li>
 <li><a href="https://acloudguru.com/course/microsoft-certified-azure-data-engineer-associate-dp-203/">Microsoft Certified: Azure Data Engineer Associate (DP-203)</a></li>
