@@ -4,25 +4,28 @@ date: 2021-07-21T11:51:18+01:00
 draft: false
 tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd']
 ---
-## AWS Associate Level Exams
-- AWS Certified Cloud Practitioner
-  - [CBT Nuggets](https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/)
-- AWS Certified Developer (Associate)
-  - [A Cloud Guru]
-  - [Pluralsight](https://www.pluralsight.com/paths/aws-certified-developer-associate)
-  - [Whizlabs](course + practice tests)
-- AWS Certified Solutions Architect (Associate)
-  - [A Cloud Guru]
-  - [CBT Nuggets](https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/)
-  - [Pluralsight](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
-  - [Whizlabs](course + practice tests)
-- AWS Certified SysOps Administrator (Associate)
-  - [A Cloud Guru]
-  - [CBT Nuggets](https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/)
-  - [Pluralsight](https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02)
-  - [Whizlabs](course + practice tests)
 
-## AWS Professional Level Exams
+## Amazon Web Services (AWS)
+
+### AWS Associate Level Exams
+- A Cloud Guru
+  - AWS Certified Developer (Associate)
+  - AWS Certified Solutions Architect (Associate)
+  - AWS Certified SysOps Administrator (Associate)
+- CBT Nuggets
+  - [AWS Certified Cloud Practitioner](https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/)
+  - [AWS Certified Solutions Architect (Associate)](https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/)
+  - [AWS Certified SysOps Administrator (Associate)](https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/)
+- Pluralsight
+  - [AWS Certified Developer (Associate)](https://www.pluralsight.com/paths/aws-certified-developer-associate)
+  - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
+  - [AWS Certified SysOps Administrator (Associate)](https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02)
+- Whizlabs
+  - [AWS Certified Developer (Associate)]
+  - [AWS Certified Solutions Architect (Associate)]
+  - [AWS Certified SysOps Administrator (Associate)]
+
+### AWS Professional Level Exams
 - AWS DevOps Engineer
   - Online Courses
     - AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru)
@@ -40,7 +43,7 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - Online Courses
     - AWS Certified Solutions Architect - Professional (Cloud Guru)
 
-## AWS Other
+### AWS Other
 - AWS Cognito
   - Introduction to Amazon Cognito (Cloud Guru)
 - AWS Technical Essentials
@@ -126,5 +129,6 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - AWS Networking (Pluralsight)
 
 # Security
-- Online Courses
-  - ...
+- CBT Nuggets
+  - [CompTIA Security+ (SY0-601)](https://www.cbtnuggets.com/it-training/comptia/security-plus/)
+  - [Security Threats, Attacks & Vulnerabilities](https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/)
