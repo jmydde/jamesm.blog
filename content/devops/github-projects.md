@@ -1,14 +1,9 @@
 ---
-title: "GitHub Projects"
+title: "List of DevOps GitHub Projects"
 date: 2023-05-27T08:01:18+01:00
 draft: false
-tags: ["devops", "github", "ai", "command line", "shell", "terminal", "kubernetes", "k8s", "chatgpt", "bots", "scheduling", "airflow", "apache", "algorithms", "twitter"]
+tags: ["devops", "github", "command line", "shell", "terminal", "kubernetes", "k8s", "scheduling", "airflow", "apache"]
 ---
-
-### AI
-- [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - autonomous GPT
-- [Dev-GPT](https://github.com/jina-ai/dev-gpt) - your automated development team
-- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - latest papers, learning guides, lectures, references & tools related for prompt engineering
 
 ### Command Line
 - [bat](https://github.com/sharkdp/bat) - a cat clone with syntax highlighting and Git integration
@@ -21,6 +16,3 @@ tags: ["devops", "github", "ai", "command line", "shell", "terminal", "kubernete
 ### Scheduling
 - [Airflow](https://github.com/apache/airflow) - platform to programmatically author, schedule, and monitor workflows
 - [Dkron](https://github.com/distribworks/dkron) - distributed, fault tolerant job scheduling system for cloud native environments
-
-### Other
-- [Twitter's Recommendation Algorithm](https://github.com/twitter/the-algorithm) - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)

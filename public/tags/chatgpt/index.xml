@@ -87,32 +87,17 @@
     </item>
     
     <item>
-      <title>GitHub Projects</title>
-      <link>https://jamesm.blog/devops/github-projects/</link>
+      <title>List of AI GitHub Projects</title>
+      <link>https://jamesm.blog/ai/github-projects/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>AI Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows Dkron - distributed, fault tolerant job scheduling system for cloud native environments Other Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.</description>
-      <content:encoded><![CDATA[<h3 id="ai">AI</h3>
+      <guid>https://jamesm.blog/ai/github-projects/</guid>
+      <description>Chatbots Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Other Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore) </description>
+      <content:encoded><![CDATA[<h3 id="chatbots">Chatbots</h3>
 <ul>
 <li><a href="https://github.com/Significant-Gravitas/Auto-GPT">Auto-GPT</a> - autonomous GPT</li>
 <li><a href="https://github.com/jina-ai/dev-gpt">Dev-GPT</a> - your automated development team</li>
 <li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">Prompt Engineering Guide</a> - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering</li>
-</ul>
-<h3 id="command-line">Command Line</h3>
-<ul>
-<li><a href="https://github.com/sharkdp/bat">bat</a> - a cat clone with syntax highlighting and Git integration</li>
-<li><a href="https://github.com/Nukesor/pueue">Pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
-<li><a href="https://github.com/awslabs/specctl">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
-</ul>
-<h3 id="kubernetes">Kubernetes</h3>
-<ul>
-<li><a href="https://github.com/derailed/k9s">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
-</ul>
-<h3 id="scheduling">Scheduling</h3>
-<ul>
-<li><a href="https://github.com/apache/airflow">Airflow</a> - platform to programmatically author, schedule, and monitor workflows</li>
-<li><a href="https://github.com/distribworks/dkron">Dkron</a> - distributed, fault tolerant job scheduling system for cloud native environments</li>
 </ul>
 <h3 id="other">Other</h3>
 <ul>
