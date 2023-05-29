@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>networking on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/networking/</link>
+    <description>Recent content in networking on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Jul 2021 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of DevOps Courses</title>
+      <link>https://jamesm.blog/devops/devops-courses/</link>
+      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/devops-courses/</guid>
+      <description>AWS Associate Level Exams AWS Certified Cloud Practitioner CBT Nuggets AWS Certified Developer (Associate) [A Cloud Guru] Pluralsight [Whizlabs](course + practice tests) AWS Certified Solutions Architect (Associate) [A Cloud Guru] CBT Nuggets Pluralsight [Whizlabs](course + practice tests) AWS Certified SysOps Administrator (Associate) [A Cloud Guru] CBT Nuggets Pluralsight [Whizlabs](course + practice tests) AWS Professional Level Exams AWS DevOps Engineer Online Courses AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru) https://www.</description>
+      <content:encoded><![CDATA[<h2 id="aws-associate-level-exams">AWS Associate Level Exams</h2>
+<ul>
+<li>AWS Certified Cloud Practitioner
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/">CBT Nuggets</a></li>
+</ul>
+</li>
+<li>AWS Certified Developer (Associate)
+<ul>
+<li>[A Cloud Guru]</li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-developer-associate">Pluralsight</a></li>
+<li>[Whizlabs](course + practice tests)</li>
+</ul>
+</li>
+<li>AWS Certified Solutions Architect (Associate)
+<ul>
+<li>[A Cloud Guru]</li>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/">CBT Nuggets</a></li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate">Pluralsight</a></li>
+<li>[Whizlabs](course + practice tests)</li>
+</ul>
+</li>
+<li>AWS Certified SysOps Administrator (Associate)
+<ul>
+<li>[A Cloud Guru]</li>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/">CBT Nuggets</a></li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02">Pluralsight</a></li>
+<li>[Whizlabs](course + practice tests)</li>
+</ul>
+</li>
+</ul>
+<h2 id="aws-professional-level-exams">AWS Professional Level Exams</h2>
+<ul>
+<li>AWS DevOps Engineer
+<ul>
+<li>Online Courses
+<ul>
+<li>AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru)</li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01">https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01</a> (Pluralsight)</li>
+</ul>
+</li>
+<li>Whitepapers
+<ul>
+<li>AWS DevOps</li>
+<li>Blue/Green Deployments</li>
+<li>CI/CD on AWS</li>
+<li>Development &amp; Test Environments</li>
+<li>Infrastructure-as-Code</li>
+<li>Jenkins on AWS</li>
+<li>Microservices on AWS</li>
+<li>Running Containerized Microservices on AWS</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Solutions Architect
+<ul>
+<li>Online Courses
+<ul>
+<li>AWS Certified Solutions Architect - Professional (Cloud Guru)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="aws-other">AWS Other</h2>
+<ul>
+<li>AWS Cognito
+<ul>
+<li>Introduction to Amazon Cognito (Cloud Guru)</li>
+</ul>
+</li>
+<li>AWS Technical Essentials
+<ul>
+<li><a href="https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/">CBT Nuggets</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="cicd">CI/CD</h2>
+<ul>
+<li>AWS CodePipeline/Build</li>
+<li>Azure DevOps
+<ul>
+<li>Continuous Delivery and DevOps with Azure DevOps: Source Control with Git (Pluralsight)</li>
+<li>Deploying Microservices to Kubernetes using Azure DevOps - Whizlabs (Whizlabs)</li>
+<li>Advanced Azure DevOps and AKS Patterns for Scalable Solutions Course (Whizlabs)</li>
+</ul>
+</li>
+<li>Jenkins</li>
+</ul>
+<h2 id="docker--containers">Docker &amp; Containers</h2>
+<ul>
+<li>Hands-on Labs
+<ul>
+<li><a href="https://www.katacoda.com/courses/docker">https://www.katacoda.com/courses/docker</a> (Katacoda)</li>
+<li><a href="https://www.katacoda.com/courses/container-runtimes">https://www.katacoda.com/courses/container-runtimes</a> (Katacoda)</li>
+</ul>
+</li>
+<li>Online Courses
+<ul>
+<li>Online Docker Training Course | KodeKloud (KodeKloud)</li>
+<li>Docker Fundamentals for Developers (Pluralsight)</li>
+<li>Online Docker Training Course For Beginners &amp; Advanced | KodeKloud (KodeKloud)</li>
+<li>Containerized Applications on AWS  (Coursera)</li>
+</ul>
+</li>
+</ul>
+<h2 id="infrastructure-as-code">Infrastructure-as-Code</h2>
+<ul>
+<li>Ansible
+<ul>
+<li>
+<here>
+</li>
+</ul>
+</li>
+<li>Hashicorp
+<ul>
+<li>Consul
+<ul>
+<li>HashiCorp Certified Consul Associate - Practice Exam [2022 - New] (Whizlabs: practice tests)</li>
+</ul>
+</li>
+<li>Terraform
+<ul>
+<li>Hashicorp Terraform Associate Certification - [NEW 2023] (Whizlabs: course + practice tests)</li>
+<li>Using Terraform to Manage Applications and Infrastructure (Cloud Guru)</li>
+<li>HashiCorp Certified Terraform Associate (Cloud Guru)</li>
+</ul>
+</li>
+<li>Vault
+<ul>
+<li>HashiCorp Certified Vault Associate - Practice Exam [2022 - New] (Whizlabs: practice tests)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>General
+<ul>
+<li>Infrastructure as Code Tutorial &amp; Course | KodeKloud (KodeKloud)</li>
+</ul>
+</li>
+</ul>
+<h2 id="kubernetes">Kubernetes</h2>
+<ul>
+<li>Hands-on Labs
+<ul>
+<li><a href="https://www.katacoda.com/courses/kubernetes">https://www.katacoda.com/courses/kubernetes</a></li>
+</ul>
+</li>
+<li>Online Courses
+<ul>
+<li>A Cloud Guru
+<ul>
+<li>EKS Basics</li>
+<li>Kubernetes Essentials</li>
+<li>Kubernetes Deep Dive</li>
+<li>Service Mesh with Istio</li>
+</ul>
+</li>
+<li>Coursera
+<ul>
+<li><a href="https://www.coursera.org/projects/kubernetes-basic-architecture-first-deployment">https://www.coursera.org/projects/kubernetes-basic-architecture-first-deployment</a></li>
+<li>Kubernetes: Create Multi-App Cluster with Ingress &amp; Logging</li>
+</ul>
+</li>
+<li>KodeKloud
+<ul>
+<li>Learn Kubernetes Online - Kubernetes Learning Path |KodeKloud  (Paid)</li>
+<li>Kubernetes Challenges | KodeKloud (Free)</li>
+</ul>
+</li>
+<li>KubeCampus
+<ul>
+<li>Free Kubernetes Training(Free)</li>
+</ul>
+</li>
+<li>Pluralsight
+<ul>
+<li>Getting Started with Kubernetes</li>
+<li>Certified Kubernetes Administrator (CKA)</li>
+<li><a href="https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad">https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad</a></li>
+</ul>
+</li>
+<li>StackSimplify
+<ul>
+<li>Kubernetes for Absolute Beginners on AWS EKS</li>
+</ul>
+</li>
+<li>Online Courses - Tools &amp; Extensions
+<ul>
+<li>Istio Fundamentals</li>
+</ul>
+</li>
+<li>Tutorials
+<ul>
+<li>EKS Workshop | EKS Workshop</li>
+<li>GitHub - kelseyhightower/kubernetes-the-hard-way: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.</li>
+</ul>
+</li>
+<li>Articles
+<ul>
+<li>EKS Fargate Profiles;
+<ul>
+<li>EKS Fargate Profiles - Basics</li>
+<li>EKS Mixed Mode Deployment Fargate Serverless &amp; EC2 Worker Nodes - 3 Apps</li>
+</ul>
+</li>
+<li>Kubernetes Failure Stories</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li>Hands-on Labs
+<ul>
+<li><a href="https://www.katacoda.com/courses/operating-systems">https://www.katacoda.com/courses/operating-systems</a> (Katacoda)</li>
+</ul>
+</li>
+<li>Online Courses
+<ul>
+<li>LPIC-1: Linux Administrator (101-500 and 102-500) (Pluralsight)</li>
+<li>LPIC-2: Linux Engineer (201-450 and 202-450) (Pluralsight)</li>
+</ul>
+</li>
+</ul>
+<h2 id="networking">Networking</h2>
+<ul>
+<li>Online Courses
+<ul>
+<li>AWS Certified Advanced Networking - Specialty 2020 (Cloud Guru)</li>
+<li>AWS Networking (Pluralsight)</li>
+</ul>
+</li>
+</ul>
+<h1 id="security">Security</h1>
+<ul>
+<li>Online Courses
+<ul>
+<li>&hellip;</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

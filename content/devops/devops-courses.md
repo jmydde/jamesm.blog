@@ -1,8 +1,8 @@
 ---
 title: "List of DevOps Courses"
 date: 2021-07-21T11:51:18+01:00
-draft: true
-tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'ci/cd']
+draft: false
+tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd']
 ---
 ## AWS Associate Level Exams
 - AWS Certified Cloud Practitioner
