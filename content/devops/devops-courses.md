@@ -9,13 +9,15 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 
 ### AWS Associate Level Exams
 - A Cloud Guru
-  - AWS Certified Developer (Associate)
-  - AWS Certified Solutions Architect (Associate)
-  - AWS Certified SysOps Administrator (Associate)
+  - [AWS Certified Developer (Associate)]
+  - [AWS Certified Solutions Architect (Associate)]
+  - [AWS Certified SysOps Administrator (Associate)]
+  - [Introduction to Amazon Cognito]
 - CBT Nuggets
   - [AWS Certified Cloud Practitioner](https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/)
   - [AWS Certified Solutions Architect (Associate)](https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/)
   - [AWS Certified SysOps Administrator (Associate)](https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/)
+  - [AWS Technical Essentials](https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/)
 - Pluralsight
   - [AWS Certified Developer (Associate)](https://www.pluralsight.com/paths/aws-certified-developer-associate)
   - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
@@ -26,30 +28,22 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [AWS Certified SysOps Administrator (Associate)]
 
 ### AWS Professional Level Exams
-- AWS DevOps Engineer
-  - Online Courses
-    - AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru)
-    - https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01 (Pluralsight)
-  - Whitepapers
-    - AWS DevOps
-    - Blue/Green Deployments
-    - CI/CD on AWS
-    - Development & Test Environments
-    - Infrastructure-as-Code
-    - Jenkins on AWS
-    - Microservices on AWS
-    - Running Containerized Microservices on AWS
-- Solutions Architect
-  - Online Courses
-    - AWS Certified Solutions Architect - Professional (Cloud Guru)
+- A Cloud Guru
+  - [AWS Certified DevOps Engineer (Professional)]
+  - [AWS Certified Solutions Architect (Professional)]
+- Pluralsight
+  - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
+- Whitepapers
+  - AWS DevOps
+  - Blue/Green Deployments
+  - CI/CD on AWS
+  - Development & Test Environments
+  - Infrastructure-as-Code
+  - Jenkins on AWS
+  - Microservices on AWS
+  - Running Containerized Microservices on AWS
 
-### AWS Other
-- AWS Cognito
-  - Introduction to Amazon Cognito (Cloud Guru)
-- AWS Technical Essentials
-  - [CBT Nuggets](https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/)
-
-## CI/CD
+## Continous Integration / Continous Deployment (CI/CD)
 - AWS CodePipeline/Build
 - Azure DevOps
   - Continuous Delivery and DevOps with Azure DevOps: Source Control with Git (Pluralsight)
