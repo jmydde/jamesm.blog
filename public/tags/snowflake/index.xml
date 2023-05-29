@@ -12,13 +12,17 @@
       <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data/data-eng-science-courses/</guid>
-      <description>Data Engineering A Cloud Guru AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Whizlabs Apache Kafka Fundamentals Snowflake SnowPro Core Certification Udemy Taming Big Data with Apache Spark and Python - Hands On! Data Science A Cloud Guru Introduction to Machine Learning Coursera Data Science with Databricks for Data Analysts Specialization DataCamp Introduction to Data Science in Python Python Data Science Toolbox (Part 1) Google Learn Python basics for data analysis Data Science Foundations Data Science with Python Machine Learning Crash Course Intro to TensorFlow for Deep Learning Whizlabs AWS Certified Machine Learning Specialty Introduction to Data Science with Python TensorFlow for Deep Learning with Python Udemy AWS Certified Machine Learning Specialty 2023 - Hands On!</description>
+      <description>Data Engineering A Cloud Guru AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) Coursera Introduction to Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Google Building Batch Data Pipelines on Google Cloud Building Resilient Streaming Analytics Systems on Google Cloud Modernizing Data Lakes and Data Warehouses with Google Cloud Preparing for the Google Cloud Professional Data Engineer Exam Serverless Data Processing with Dataflow: Develop Pipelines Serverless Data Processing with Dataflow: Foundations Serverless Data Processing with Dataflow: Operations Udacity How to Become a Data Engineer Udemy Taming Big Data with Apache Spark and Python - Hands On!</description>
       <content:encoded><![CDATA[<h2 id="data-engineering">Data Engineering</h2>
 <h3 id="a-cloud-guru">A Cloud Guru</h3>
 <ul>
 <li><a href="https://acloudguru.com/course/aws-certified-big-data-specialty/">AWS Certified Big Data Specialty</a></li>
 <li><a href="https://acloudguru.com/course/google-certified-professional-data-engineer/">Google Certified Professional Data Engineer</a></li>
 <li><a href="https://acloudguru.com/course/microsoft-certified-azure-data-engineer-associate-dp-203/">Microsoft Certified: Azure Data Engineer Associate (DP-203)</a></li>
+</ul>
+<h3 id="coursera">Coursera</h3>
+<ul>
+<li><a href="https://www.coursera.org/learn/introduction-to-data-engineering/">Introduction to Data Engineering</a></li>
 </ul>
 <h3 id="datacamp">DataCamp</h3>
 <ul>
@@ -31,21 +35,35 @@
 <li><a href="https://www.datacamp.com/courses/streaming-concepts/">Streaming Concepts</a></li>
 <li><a href="https://www.datacamp.com/courses/understanding-data-engineering/">Understanding Data Engineering</a></li>
 </ul>
-<h3 id="whizlabs">Whizlabs</h3>
+<h3 id="google">Google</h3>
 <ul>
-<li><a href="https://www.whizlabs.com/learn/course/apache-kafka-fundamentals/297/">Apache Kafka Fundamentals</a></li>
-<li><a href="https://www.whizlabs.com/learn/course/snowflake-snowpro-core-certification/384/">Snowflake SnowPro Core Certification</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/53/">Building Batch Data Pipelines on Google Cloud</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/52/">Building Resilient Streaming Analytics Systems on Google Cloud</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/54/">Modernizing Data Lakes and Data Warehouses with Google Cloud</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/72/">Preparing for the Google Cloud Professional Data Engineer Exam</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/229/">Serverless Data Processing with Dataflow: Develop Pipelines</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/218/">Serverless Data Processing with Dataflow: Foundations</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/264/">Serverless Data Processing with Dataflow: Operations</a></li>
+</ul>
+<h3 id="udacity">Udacity</h3>
+<ul>
+<li><a href="https://www.udacity.com/course/data-engineer-nanodegree--nd027/">How to Become a Data Engineer</a></li>
 </ul>
 <h3 id="udemy">Udemy</h3>
 <ul>
 <li><a href="https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/">Taming Big Data with Apache Spark and Python - Hands On!</a></li>
+</ul>
+<h3 id="whizlabs">Whizlabs</h3>
+<ul>
+<li><a href="https://www.whizlabs.com/learn/course/apache-kafka-fundamentals/297/">Apache Kafka Fundamentals</a></li>
+<li><a href="https://www.whizlabs.com/learn/course/snowflake-snowpro-core-certification/384/">Snowflake SnowPro Core Certification</a></li>
 </ul>
 <h2 id="data-science">Data Science</h2>
 <h3 id="a-cloud-guru-1">A Cloud Guru</h3>
 <ul>
 <li><a href="https://acloudguru.com/course/introduction-to-machine-learning/">Introduction to Machine Learning</a></li>
 </ul>
-<h3 id="coursera">Coursera</h3>
+<h3 id="coursera-1">Coursera</h3>
 <ul>
 <li><a href="https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/">Data Science with Databricks for Data Analysts Specialization</a></li>
 </ul>
@@ -54,23 +72,25 @@
 <li><a href="https://www.datacamp.com/courses/introduction-to-data-science-in-python/">Introduction to Data Science in Python</a></li>
 <li><a href="https://www.datacamp.com/courses/python-data-science-toolbox-part-1/">Python Data Science Toolbox (Part 1)</a></li>
 </ul>
-<h3 id="google">Google</h3>
-<ol>
-<li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis/">Learn Python basics for data analysis</a></li>
+<h3 id="google-1">Google</h3>
+<ul>
 <li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/data-science-foundations/">Data Science Foundations</a></li>
 <li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/data-science-with-python/">Data Science with Python</a></li>
-<li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course/">Machine Learning Crash Course</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/3/">Google Cloud Big Data and Machine Learning Fundamentals</a></li>
 <li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/intro-to-tensorflow-for-deep-learning/">Intro to TensorFlow for Deep Learning</a></li>
-</ol>
+<li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis/">Learn Python basics for data analysis</a></li>
+<li><a href="https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course/">Machine Learning Crash Course</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/55/">Smart Analytics, Machine Learning, and AI on Google Cloud</a></li>
+</ul>
+<h3 id="udemy-1">Udemy</h3>
+<ul>
+<li><a href="https://www.udemy.com/course/aws-machine-learning/">AWS Certified Machine Learning Specialty 2023 - Hands On!</a></li>
+</ul>
 <h3 id="whizlabs-1">Whizlabs</h3>
 <ul>
 <li><a href="https://www.whizlabs.com/learn/course/aws-certified-machine-learning-specialty/281/">AWS Certified Machine Learning Specialty</a></li>
 <li><a href="https://www.whizlabs.com/learn/course/data-science-with-python/379/">Introduction to Data Science with Python</a></li>
 <li><a href="https://www.whizlabs.com/learn/course/tensorflow-for-deep-learning-with-python/1117/">TensorFlow for Deep Learning with Python</a></li>
-</ul>
-<h3 id="udemy-1">Udemy</h3>
-<ul>
-<li><a href="https://www.udemy.com/course/aws-machine-learning/">AWS Certified Machine Learning Specialty 2023 - Hands On!</a></li>
 </ul>
 ]]></content:encoded>
     </item>
