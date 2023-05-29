@@ -5,6 +5,10 @@ draft: false
 tags: ['computers', 'computer hardware', 'software']
 ---
 
+## Binatone TV Master (1976)
+I don't remember the exact model (I was 5), however thin it was this one;
+- https://www.computinghistory.org.uk/det/33633/Binatone-TV-Master-Mk-IV-01-4974/
+
 ## Commodore PET (1977)
 The [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET/) was the first computer I learnt BASIC in the school computing club (1981)
 
