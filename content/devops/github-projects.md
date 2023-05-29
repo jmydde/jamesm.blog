@@ -8,6 +8,9 @@ tags: ["airflow", "apache", "devops", "github", "command line", "shell", "termin
 - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability/) - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems
 - [Awesome Site Reliability Engineering](https://github.com/dastergon/awesome-sre/) - curated list of awesome Site Reliability and Production Engineering resources
 - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises/) - contains questions and exercises on technical topics related to DevOps and SRE
+- [DevOps Resources](https://github.com/bregman-arie/devops-resources/) - useful resources and information regarding DevOps including a learning roadmap
+- [DevOps Roadmap 2023](https://github.com/milanm/DevOps-Roadmap/) - step-by-step guide on how to become a DevOps engineer
+- [DevOps Tools](https://github.com/collections/devops-tools/) - GitHub collection of DevOps tools
 - [How they SRE](https://github.com/upgundecha/howtheysre/) - curated collection of publicly available resources about SRE
 
 ### Kubernetes
