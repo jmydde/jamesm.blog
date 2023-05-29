@@ -1,25 +1,28 @@
 ---
-title: "DevOps Training Links"
+title: "List of DevOps Courses"
 date: 2021-07-21T11:51:18+01:00
 draft: true
+tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'ci/cd']
 ---
-# AWS
-
-## Associate Level Exams
+## AWS Associate Level Exams
+- AWS Certified Cloud Practitioner
+  - [CBT Nuggets](https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/)
 - AWS Certified Developer (Associate)
   - [A Cloud Guru]
   - [Pluralsight](https://www.pluralsight.com/paths/aws-certified-developer-associate)
   - [Whizlabs](course + practice tests)
-- AWS Solutions Architect (Associate)
+- AWS Certified Solutions Architect (Associate)
   - [A Cloud Guru]
+  - [CBT Nuggets](https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/)
   - [Pluralsight](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
   - [Whizlabs](course + practice tests)
-- AWS SysOps Administrator (Associate)
+- AWS Certified SysOps Administrator (Associate)
   - [A Cloud Guru]
+  - [CBT Nuggets](https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/)
   - [Pluralsight](https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02)
   - [Whizlabs](course + practice tests)
 
-## Professional Level Exams
+## AWS Professional Level Exams
 - AWS DevOps Engineer
   - Online Courses
     - AWS Certified DevOps Engineer - Professional 2020 (Cloud Guru)
@@ -37,11 +40,13 @@ draft: true
   - Online Courses
     - AWS Certified Solutions Architect - Professional (Cloud Guru)
 
-## Other
+## AWS Other
 - AWS Cognito
   - Introduction to Amazon Cognito (Cloud Guru)
+- AWS Technical Essentials
+  - [CBT Nuggets](https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/)
 
-# CI/CD
+## CI/CD
 - AWS CodePipeline/Build
 - Azure DevOps
   - Continuous Delivery and DevOps with Azure DevOps: Source Control with Git (Pluralsight)
@@ -49,7 +54,7 @@ draft: true
   - Advanced Azure DevOps and AKS Patterns for Scalable Solutions Course (Whizlabs)
 - Jenkins
 
-# Docker & Containers
+## Docker & Containers
 - Hands-on Labs
   - https://www.katacoda.com/courses/docker (Katacoda)
   - https://www.katacoda.com/courses/container-runtimes (Katacoda)
@@ -59,7 +64,7 @@ draft: true
   - Online Docker Training Course For Beginners & Advanced | KodeKloud (KodeKloud)
   - Containerized Applications on AWS  (Coursera)
 
-# Infrastructure-as-Code
+## Infrastructure-as-Code
 - Ansible
   - <here>
 - Hashicorp
@@ -74,7 +79,7 @@ draft: true
 - General
   - Infrastructure as Code Tutorial & Course | KodeKloud (KodeKloud)
 
-# Kubernetes
+## Kubernetes
 - Hands-on Labs
   - https://www.katacoda.com/courses/kubernetes 
 - Online Courses
@@ -108,17 +113,18 @@ draft: true
       - EKS Mixed Mode Deployment Fargate Serverless & EC2 Worker Nodes - 3 Apps
     - Kubernetes Failure Stories 
 
-# Linux
+## Linux
 - Hands-on Labs
   - https://www.katacoda.com/courses/operating-systems (Katacoda)
 - Online Courses
   - LPIC-1: Linux Administrator (101-500 and 102-500) (Pluralsight)
   - LPIC-2: Linux Engineer (201-450 and 202-450) (Pluralsight)
 
-# Networking
+## Networking
 - Online Courses
   - AWS Certified Advanced Networking - Specialty 2020 (Cloud Guru)
   - AWS Networking (Pluralsight)
 
 # Security
 - Online Courses
+  - ...
