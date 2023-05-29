@@ -9,10 +9,10 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 
 ### AWS Associate Level Exams
 - A Cloud Guru
-  - [AWS Certified Developer (Associate)]
-  - [AWS Certified Solutions Architect (Associate)]
-  - [AWS Certified SysOps Administrator (Associate)]
-  - [Introduction to Amazon Cognito]
+  - [AWS Certified Developer (Associate)](https://acloudguru.com/course/aws-certified-developer-associate/)
+  - [AWS Certified Solutions Architect (Associate)](https://acloudguru.com/course/aws-certified-solutions-architect-associate-saa-c03/)
+  - [AWS Certified SysOps Administrator (Associate)](https://acloudguru.com/course/aws-certified-sysops-administrator-associate-8Lkj/)
+  - [Introduction to Amazon Cognito](https://acloudguru.com/course/introduction-to-amazon-cognito/)
 - CBT Nuggets
   - [AWS Certified Cloud Practitioner](https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/)
   - [AWS Certified Solutions Architect (Associate)](https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/)
@@ -23,25 +23,23 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
   - [AWS Certified SysOps Administrator (Associate)](https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02)
 - Whizlabs
-  - [AWS Certified Developer (Associate)]
-  - [AWS Certified Solutions Architect (Associate)]
-  - [AWS Certified SysOps Administrator (Associate)]
+  - [AWS Certified Developer (Associate)](https://www.whizlabs.com/aws-developer-associate/)
+  - [AWS Certified Solutions Architect (Associate)](https://www.whizlabs.com/aws-solutions-architect-associate/)
+  - [AWS Certified SysOps Administrator (Associate)](https://www.whizlabs.com/aws-sysops-administrator-associate/)
 
 ### AWS Professional Level Exams
 - A Cloud Guru
-  - [AWS Certified DevOps Engineer (Professional)]
-  - [AWS Certified Solutions Architect (Professional)]
+  - [AWS Certified DevOps Engineer (Professional)](https://acloudguru.com/course/aws-certified-devops-engineer-professional/)
+  - [AWS Certified Solutions Architect (Professional)](https://acloudguru.com/course/aws-certified-solutions-architect-professional/)
 - Pluralsight
   - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
-- Whitepapers
-  - AWS DevOps
-  - Blue/Green Deployments
-  - CI/CD on AWS
-  - Development & Test Environments
-  - Infrastructure-as-Code
-  - Jenkins on AWS
-  - Microservices on AWS
-  - Running Containerized Microservices on AWS
+
+### AWS Whitepapers
+- [Blue/Green Deployments on AWS](https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&trk=wp_card/)
+- [Development and Test on Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&trk=wp_card/)
+- [Introduction to DevOps on AWS](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&trk=wp_card/)
+- [Practicing Continuous Integration and Continuous Delivery on AWS](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/)
+- [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
 ## Continous Integration / Continous Deployment (CI/CD)
 - AWS CodePipeline/Build
