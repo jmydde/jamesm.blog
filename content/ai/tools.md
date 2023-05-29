@@ -31,6 +31,7 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 - [Beatoven](https://www.beatoven.ai/) - create customisable royalty free music that elevates your story
 - [LALAL.AI](https://www.lalal.ai/) - extract vocal, accompaniment & various instruments from any audio / video
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
+- [WavTool](https://wavtool.com/) - Make high-quality music with an AI assistant in the browser, for free
 
 ### Text to Speech & Voice
 - [Cleanvoice](https://cleanvoice.ai/) - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording
