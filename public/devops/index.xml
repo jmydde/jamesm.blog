@@ -12,21 +12,27 @@
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>Command Line bat - a cat clone with syntax highlighting and Git integration Pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows Dkron - distributed, fault tolerant job scheduling system for cloud native environments </description>
+      <description>Command Line bat - a cat clone with syntax highlighting and Git integration pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Kubernetes k9s - terminal UI to interact with your Kubernetes clusters kOps - Kubernetes operations kube-state-metrics (KSM) - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects Kubernetes Dashboard - general purpose, web-based UI for Kubernetes clusters Kubespray - Kubernetes cluster lifecycle management minikube - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn Popeye - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows dkron - distributed, fault tolerant job scheduling system for cloud native environments </description>
       <content:encoded><![CDATA[<h3 id="command-line">Command Line</h3>
 <ul>
-<li><a href="https://github.com/sharkdp/bat">bat</a> - a cat clone with syntax highlighting and Git integration</li>
-<li><a href="https://github.com/Nukesor/pueue">Pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
-<li><a href="https://github.com/awslabs/specctl">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
+<li><a href="https://github.com/sharkdp/bat/">bat</a> - a cat clone with syntax highlighting and Git integration</li>
+<li><a href="https://github.com/Nukesor/pueue/">pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
+<li><a href="https://github.com/awslabs/specctl/">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
 </ul>
 <h3 id="kubernetes">Kubernetes</h3>
 <ul>
-<li><a href="https://github.com/derailed/k9s">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
+<li><a href="https://github.com/derailed/k9s/">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
+<li><a href="https://github.com/kubernetes/kops/">kOps</a> - Kubernetes operations</li>
+<li><a href="https://github.com/kubernetes/kube-state-metrics/">kube-state-metrics (KSM)</a> - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects</li>
+<li><a href="https://github.com/kubernetes/dashboard/">Kubernetes Dashboard</a> - general purpose, web-based UI for Kubernetes clusters</li>
+<li><a href="https://github.com/kubernetes-sigs/kubespray/">Kubespray</a> - Kubernetes cluster lifecycle management</li>
+<li><a href="https://github.com/kubernetes/minikube/">minikube</a> - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn</li>
+<li><a href="https://github.com/derailed/popeye/">Popeye</a> - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations</li>
 </ul>
 <h3 id="scheduling">Scheduling</h3>
 <ul>
-<li><a href="https://github.com/apache/airflow">Airflow</a> - platform to programmatically author, schedule, and monitor workflows</li>
-<li><a href="https://github.com/distribworks/dkron">Dkron</a> - distributed, fault tolerant job scheduling system for cloud native environments</li>
+<li><a href="https://github.com/apache/airflow/">Airflow</a> - platform to programmatically author, schedule, and monitor workflows</li>
+<li><a href="https://github.com/distribworks/dkron/">dkron</a> - distributed, fault tolerant job scheduling system for cloud native environments</li>
 </ul>
 ]]></content:encoded>
     </item>
