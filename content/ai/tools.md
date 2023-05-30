@@ -6,7 +6,7 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 ---
 ## AI Tools
 
-### Chat Bots
+### ChatBot
 - [Google Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM
 - [OpenAI ChatGPT](https://openai.com/blog/chatgpt/) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
 - [OpenAI Playground](https://platform.openai.com/playground/) - explore the capabilities of various AI models developed by OpenAI
@@ -16,9 +16,12 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 - [Flair](https://flair.ai/) - AI design tool for branded content
 - [Galileo AI](https://www.usegalileo.ai/) - creates delightful, editable UI designs from a simple text description
 
-### Development
+### Co-Pilot
 - [AskCodi](https://askcodi.com/) - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code
 - [GitHub Copilot](https://github.com/features/copilot/) - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
+- [Monica](https://monica.im/) - Chrome extension powered by ChatGPT
+- [UseChatGPT](https://usechatgpt.ai/) - use ChatGPT, Bard, Bing Chat & Claude on any website without copy & pasting
+- [Wiseone](https://wiseone.io/) - AI-powered browser extension that offers a new way of reading & exploring information
 
 ### Images & Art
 - [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop
@@ -33,7 +36,10 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 - [Beatoven](https://www.beatoven.ai/) - create customisable royalty free music that elevates your story
 - [LALAL.AI](https://www.lalal.ai/) - extract vocal, accompaniment & various instruments from any audio / video
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
-- [WavTool](https://wavtool.com/) - Make high-quality music with an AI assistant in the browser, for free
+- [WavTool](https://wavtool.com/) - make high-quality music with an AI assistant in the browser, for free
+
+### Research
+- [SciSpace](https://scispace.com/) - do hours worth of reading and understanding in minutes
 
 ### Text to Speech & Voice
 - [Cleanvoice](https://cleanvoice.ai/) - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording
@@ -44,6 +50,8 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 
 ### Writing
 - [10Web](https://10web.io/) - AI-powered WordPress platform
+- [Compose](https://www.compose.ai/) - Chrome extension that cuts down your writing time with AI-powered autocompletion & text generation
+- [Fireflies](https://fireflies.ai/) - automate your meeting notes: record, transcribe, search and analyze voice conversations
 - [Gamma](https://gamma.app/) - start writing beautiful & engaging content with none of the formatting and design work
 - [Jasper](https://www.jasper.ai/) - AI writer and AI art generator
 - [Kickresume](https://www.kickresume.com/en/) - create a beautiful resume in minutes using AI & customizable templates

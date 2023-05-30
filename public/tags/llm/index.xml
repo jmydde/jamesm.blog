@@ -12,9 +12,9 @@
       <pubDate>Mon, 29 May 2023 22:17:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>AI Tools Chat Bots Google Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM OpenAI ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) OpenAI Playground - explore the capabilities of various AI models developed by OpenAI Perplexity - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions Design Flair - AI design tool for branded content Galileo AI - creates delightful, editable UI designs from a simple text description Development AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
+      <description>AI Tools ChatBot Google Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM OpenAI ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) OpenAI Playground - explore the capabilities of various AI models developed by OpenAI Perplexity - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions Design Flair - AI design tool for branded content Galileo AI - creates delightful, editable UI designs from a simple text description Co-Pilot AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
       <content:encoded><![CDATA[<h2 id="ai-tools">AI Tools</h2>
-<h3 id="chat-bots">Chat Bots</h3>
+<h3 id="chatbot">ChatBot</h3>
 <ul>
 <li><a href="https://bard.google.com/">Google Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
 <li><a href="https://openai.com/blog/chatgpt/">OpenAI ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
@@ -26,10 +26,13 @@
 <li><a href="https://flair.ai/">Flair</a> - AI design tool for branded content</li>
 <li><a href="https://www.usegalileo.ai/">Galileo AI</a> - creates delightful, editable UI designs from a simple text description</li>
 </ul>
-<h3 id="development">Development</h3>
+<h3 id="co-pilot">Co-Pilot</h3>
 <ul>
 <li><a href="https://askcodi.com/">AskCodi</a> - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code</li>
 <li><a href="https://github.com/features/copilot/">GitHub Copilot</a> - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
+<li><a href="https://monica.im/">Monica</a> - Chrome extension powered by ChatGPT</li>
+<li><a href="https://usechatgpt.ai/">UseChatGPT</a> - use ChatGPT, Bard, Bing Chat &amp; Claude on any website without copy &amp; pasting</li>
+<li><a href="https://wiseone.io/">Wiseone</a> - AI-powered browser extension that offers a new way of reading &amp; exploring information</li>
 </ul>
 <h3 id="images--art">Images &amp; Art</h3>
 <ul>
@@ -46,7 +49,11 @@
 <li><a href="https://www.beatoven.ai/">Beatoven</a> - create customisable royalty free music that elevates your story</li>
 <li><a href="https://www.lalal.ai/">LALAL.AI</a> - extract vocal, accompaniment &amp; various instruments from any audio / video</li>
 <li><a href="https://soundraw.io/">Soundraw</a> - royalty-free AI generated music</li>
-<li><a href="https://wavtool.com/">WavTool</a> - Make high-quality music with an AI assistant in the browser, for free</li>
+<li><a href="https://wavtool.com/">WavTool</a> - make high-quality music with an AI assistant in the browser, for free</li>
+</ul>
+<h3 id="research">Research</h3>
+<ul>
+<li><a href="https://scispace.com/">SciSpace</a> - do hours worth of reading and understanding in minutes</li>
 </ul>
 <h3 id="text-to-speech--voice">Text to Speech &amp; Voice</h3>
 <ul>
@@ -59,6 +66,8 @@
 <h3 id="writing">Writing</h3>
 <ul>
 <li><a href="https://10web.io/">10Web</a> - AI-powered WordPress platform</li>
+<li><a href="https://www.compose.ai/">Compose</a> - Chrome extension that cuts down your writing time with AI-powered autocompletion &amp; text generation</li>
+<li><a href="https://fireflies.ai/">Fireflies</a> - automate your meeting notes: record, transcribe, search and analyze voice conversations</li>
 <li><a href="https://gamma.app/">Gamma</a> - start writing beautiful &amp; engaging content with none of the formatting and design work</li>
 <li><a href="https://www.jasper.ai/">Jasper</a> - AI writer and AI art generator</li>
 <li><a href="https://www.kickresume.com/en/">Kickresume</a> - create a beautiful resume in minutes using AI &amp; customizable templates</li>
