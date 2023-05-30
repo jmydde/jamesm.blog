@@ -110,6 +110,12 @@
     <loc>https://jamesm.blog/tags/courses/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/databases/</loc>
+    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/db/</loc>
+    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/docker/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
@@ -119,7 +125,7 @@
     <loc>https://jamesm.blog/tags/git/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/glacier/</loc>
+    <loc>https://jamesm.blog/tags/gitops/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/iac/</loc>
@@ -134,13 +140,7 @@
     <loc>https://jamesm.blog/devops/devops-courses/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/mysql/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/networking/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/php/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/s3/</loc>
@@ -339,9 +339,6 @@
     <lastmod>2023-05-06T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/datacamp/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/db/</loc>
     <lastmod>2023-05-06T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/deep-learning/</loc>

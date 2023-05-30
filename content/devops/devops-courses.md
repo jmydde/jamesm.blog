@@ -2,7 +2,7 @@
 title: "List of DevOps Courses"
 date: 2023-05-28T11:51:18+01:00
 draft: false
-tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'cloudacademy', 'courses', 'devops', 'docker', 'gcp', 'git', 'glacier', 'iac', 'k8s', 'k8s', 'kubernetes', 'lambda', 'linux', 'mysql', 'networking', 'php', 's3', 'security', 'storage', 'training', 'vpc', 'whitepapers', 'whizlabs']
+tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'cloudacademy', 'courses', 'databases', 'db', 'devops', 'docker', 'gcp', 'git', 'gitops', 'iac', 'k8s', 'k8s', 'kubernetes', 'lambda', 'linux', 'networking', 's3', 'security', 'storage', 'training', 'vpc', 'whitepapers', 'whizlabs']
 ---
 
 ## Amazon Web Services (AWS)
@@ -111,13 +111,15 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 - [Coursera](https://www.coursera.org/)
   - [Containerized Applications on AWS](https://www.coursera.org/learn/containerized-applications-on-aws/)
 - [KodeKloud](https://kodekloud.com/)
+  - [Docker Certified Associate Exam Course](https://kodekloud.com/courses/docker-certified-associate-exam-course/)
+  - [Docker – SWARM | SERVICES | STACKS – Hands-on](https://kodekloud.com/courses/docker-swarm-services-stacks-hands-on/)
   - [Docker Training Course for the Absolute Beginner](https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 - [Pluralsight](https://www.pluralsight.com/)
   - [Docker Deep Dive](https://www.pluralsight.com/courses/docker-deep-dive-update/)
   - [Docker Fundamentals for Developers](https://www.pluralsight.com/paths/docker-fundamentals-for-developers/)
-- Udemy
-  - Docker Mastery The Complete Toolset From a Docker Captain
-  - Docker and Kubernetes - The Complete Guide
+- [Udemy](https://www.udemy.com/)
+  - [Docker Mastery: with Kubernetes +Swarm from a Docker Captain](https://www.udemy.com/course/docker-mastery/)
+  - [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)
 
 ## Git
 - [Codecademy](https://www.codecademy.com/)
@@ -125,17 +127,19 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 - [Coursera](https://www.coursera.org/)
   - [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github/)
 
+## GitOps
+- [KodeKloud](https://kodekloud.com/)
+  - [GitOps with ArgoCD](https://kodekloud.com/courses/argocd/)
+
 ## Google Cloud Platform (GCP)
 - [CBT Nuggets](https://www.cbtnuggets.com/)
-  - Developing Solutions for Google Cloud Platform
-  - Google Cloud Platform Fundamentals
+  - [Developing Solutions for Google Cloud Platform](https://www.cbtnuggets.com/it-training/skills/cpd200-developing-solutions-for-google-cloud-platform/)
 - [CloudAcademy](https://cloudacademy.com/)
-  - Getting Started With Google Compute Engine
-  - Introduction To The Google Cloud Platform
+  - [Google Cloud Platform Fundamentals](https://cloudacademy.com/learning-paths/google-cloud-platform-fundamentals-54/)
 
 ## Integrated Development Environments (IDEs)
 - [Pluralsight](https://www.pluralsight.com/)
-  - Visual Studio Data Tools for Developers
+  - [Visual Studio Data Tools for Developers](https://www.pluralsight.com/courses/visual-studio-data-tools-developers/)
 
 ## Infrastructure-as-Code
 - [A Cloud Guru](https://acloudguru.com/)
@@ -154,16 +158,21 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 
 ## Kubernetes
 - [A Cloud Guru](https://acloudguru.com/)
-  - EKS Basics 
-  - Kubernetes Essentials 
-  - Kubernetes Deep Dive 
+  - [EKS Basics](https://acloudguru.com/course/eks-basics/)
+  - [Istio in Kubernetes](https://acloudguru.com/hands-on-labs/istio-in-kubernetes/)
+  - [Kubernetes Essentials](https://acloudguru.com/course/kubernetes-essentials/)
+  - [Kubernetes Deep Dive](https://acloudguru.com/course/kubernetes-deep-dive/)
   - [Kubernetes the Hard Way](https://acloudguru.com/course/kubernetes-the-hard-way/)
-  - Service Mesh with Istio 
 - [Coursera](https://www.coursera.org/)
   - [Architecting with Google Kubernetes Engine Specialization](https://www.coursera.org/specializations/architecting-google-kubernetes-engine/)
 - [KodeKloud](https://kodekloud.com/)
-  - Learn Kubernetes Online - Kubernetes Learning Path |KodeKloud  (Paid)
-  - Kubernetes Challenges | KodeKloud (Free)
+  - [Certified Kubernetes Administrator (CKA)](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/)
+  - [Certified Kubernetes Application Developer (CKAD)](https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/)
+  - [Certified Kubernetes Security Specialist (CKS)](https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks/)
+  - [Kubernetes Challenges](https://kodekloud.com/courses/kubernetes-challenges/)
+  - [Kubernetes for the Absolute Beginners – Hands-on Tutorial](https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/)
+  - [Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series](https://kodekloud.com/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam/)
+  - [Ultimate Certified Kubernetes Application Developer (CKAD) Mock Exam Series](https://kodekloud.com/courses/ultimate-certified-kubernetes-application-developer-ckad-mock-exam-series/)
 - KubeCampus
   - Free Kubernetes Training(Free) 
 - [Pluralsight](https://www.pluralsight.com/)
