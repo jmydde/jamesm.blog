@@ -2,7 +2,7 @@
 title: "List of DevOps Courses"
 date: 2023-05-28T11:51:18+01:00
 draft: false
-tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'glacier', 's3', 'whitepapers']
+tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'glacier', 's3', 'whitepapers', 'vpc']
 ---
 
 ## Amazon Web Services (AWS)
@@ -53,6 +53,12 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 ### Lambda
 - [CloudAcademy](https://cloudacademy.com/)
   - [AWS Lambda](https://cloudacademy.com/course/compute-fundamentals-for-aws/aws-lambda/)
+
+### Networking
+- [Pluralsight](https://www.pluralsight.com/)
+  - [AWS Networking Deep Dive: Virtual Private Cloud (VPC)](https://www.pluralsight.com/courses/aws-networking-deep-dive-vpc/)
+  - [AWS VPC Operations](https://www.pluralsight.com/courses/aws-vpc-operations/)
+  - [Introduction to Amazon Virtual Private Cloud (VPC)](https://www.pluralsight.com/courses/introduction-amazon-virtual-private-cloud-vpc/)
 
 ### Storage
 - [CloudAcademy](https://cloudacademy.com/)
