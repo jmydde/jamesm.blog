@@ -6,6 +6,15 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 ---
 ## AI Tools
 
+### Art, Graphics & Images
+- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - mind-blowing 🤯 generative AI tool with Generative Fill, part of Adobe Photoshop
+- [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
+- [DALL·E 2](https://openai.com/product/dall-e-2/) - creates realistic images & art from a description in natural language
+- [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia/) - animate your family photos
+- [Leap](https://tryleap.ai/) - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs
+- [Playground](https://playgroundai.com/) - create any image from your imagination
+- [Stockimg AI](https://stockimg.ai/) - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations & art
+
 ### ChatBot
 - [Google Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM
 - [OpenAI ChatGPT](https://openai.com/blog/chatgpt/) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
@@ -22,15 +31,6 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 - [Monica](https://monica.im/) - Chrome extension powered by ChatGPT
 - [UseChatGPT](https://usechatgpt.ai/) - use ChatGPT, Bard, Bing Chat & Claude on any website without copy & pasting
 - [Wiseone](https://wiseone.io/) - AI-powered browser extension that offers a new way of reading & exploring information
-
-### Images & Art
-- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop
-- [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
-- [DALL·E 2](https://openai.com/product/dall-e-2/) - creates realistic images & art from a description in natural language
-- [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia/) - animate your family photos
-- [Leap](https://tryleap.ai/) - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs
-- [Playground](https://playgroundai.com/) - create any image from your imagination
-- [Stockimg AI](https://stockimg.ai/) - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations & art
 
 ### Music
 - [Beatoven](https://www.beatoven.ai/) - create customisable royalty free music that elevates your story
@@ -51,6 +51,7 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 ### Writing
 - [10Web](https://10web.io/) - AI-powered WordPress platform
 - [Compose](https://www.compose.ai/) - Chrome extension that cuts down your writing time with AI-powered autocompletion & text generation
+- [Decktopus](https://www.decktopus.com/) - AI-powered presentation generator
 - [Fireflies](https://fireflies.ai/) - automate your meeting notes: record, transcribe, search and analyze voice conversations
 - [Gamma](https://gamma.app/) - start writing beautiful & engaging content with none of the formatting and design work
 - [Jasper](https://www.jasper.ai/) - AI writer and AI art generator
@@ -59,11 +60,15 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 - [Ocoya](https://www.ocoya.com/) - Create and schedule social media, content marketing & copywriting quicker using AI
 - [Quillbot](https://quillbot.com/) - AI-powered paraphrasing tool to enhance your writing
 - [Saga AI](https://saga.so/ai/) - write faster, and do better work directly in Saga with the help of a digital AI assistant
+- [Scribe](http://getscribe.how/chrome/) - automatically create step-by-step guides in seconds simply by watching you work
+- [Simplified](https://simplified.com/) - content marketing
 - [Sudowrite](https://www.sudowrite.com/) - AI novel writing assistant that makes the creative writing process more fun and interactive
+- [Text Blaze](https://blaze.today/) - eliminate repetitive typing and mistakes
 - [Tome](https://tome.app/) - world’s first generative storytelling format to truly harness the power of artificial intelligence
 - [Trinka](https://trinka.ai) - online grammar checker and language correction AI tool for academic and technical writing
 
 ### Video
+- [Descript](https://www.descript.com/) - write, record, transcribe, edit, collaborate, and share your videos and podcasts
 - [Elai](https://elai.io/) - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen
 
 ### Other
@@ -77,7 +82,7 @@ tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
 - [WNR](https://wnr.ai/) - prompts made easy with AI templates
 
-## AI Companies
+## AI Research Companies
 - [Boston Dynamics](https://www.youtube.com/@BostonDynamics/) - create exceptional robots that enrich people’s lives
 - [Fast.ai](https://www.fast.ai/) - making deep learning easier to use
 - [Google AI](https://ai.google/) - a division of Google dedicated to artificial intelligence

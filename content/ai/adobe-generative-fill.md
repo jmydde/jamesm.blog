@@ -10,6 +10,12 @@ Experience the future of Photoshop with Generative Fill
 Generative AI with Firefly
 - https://www.adobe.com/sensei/generative-ai/firefly.html
 
+Other new features & improvements
+- Adjustment presets
+- Contextual task bar
+- Gradients
+- Remove tool: easily remove any object or person from an image instantly
+
 # YouTube
 
 ## Adobes New AI 'FIREFLY Photoshop' Has Everyone Stunned! 
