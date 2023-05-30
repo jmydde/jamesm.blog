@@ -4,3 +4,4 @@ title = "Data"
 author = "James M"
 tags = ["data", "data science"]
 +++
+{{< figure src="images/data.jpg" title="" >}}

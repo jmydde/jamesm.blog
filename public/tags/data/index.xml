@@ -138,8 +138,12 @@
       <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <description> </description>
+      <content:encoded><![CDATA[<figure>
+    <img loading="lazy" src="images/data.jpg"/> 
+</figure>
+
+]]></content:encoded>
     </item>
     
   </channel>

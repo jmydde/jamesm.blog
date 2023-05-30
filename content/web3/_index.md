@@ -4,4 +4,5 @@ title = "Web3"
 author = "James M"
 tags = ["web3"]
 +++
+{{< figure src="images/decentralized.png" title="" >}}
 (work in progress)
