@@ -39,10 +39,10 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 - [Pluralsight](https://www.pluralsight.com/)
   - [Mastering AWS Command-line Interface Operations](https://www.pluralsight.com/courses/aws-command-line-interface-mastering-operations/)
 
-## Continous Integration / Continous Deployment (CI/CD)
+### Continous Integration / Continous Deployment (CI/CD)
 - [Pluralsight](https://www.pluralsight.com/)
   - [Continuous Delivery and DevOps with Azure DevOps: Source Control with Git](https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/)
-  - Getting Started with Jenkins 2
+  - [Getting Started with Jenkins](https://www.pluralsight.com/courses/getting-started-jenkins/)
   - [Practicing CI/CD with AWS CodePipeline](https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/)
 - [Whizlabs](https://www.whizlabs.com/)
   - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
@@ -182,14 +182,15 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - [Prometheus Certified Associate (PCA)](https://kodekloud.com/courses/prometheus-certified-associate-pca/)
   - [Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series](https://kodekloud.com/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam/)
   - [Ultimate Certified Kubernetes Application Developer (CKAD) Mock Exam Series](https://kodekloud.com/courses/ultimate-certified-kubernetes-application-developer-ckad-mock-exam-series/)
-- KubeCampus
-  - Free Kubernetes Training(Free) 
+- [KubeCampus: Free Kubernetes Training](https://kubecampus.io/)
 - [Pluralsight](https://www.pluralsight.com/)
-  - Getting Started with Kubernetes 
-  - Certified Kubernetes Administrator (CKA) 
-  - https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad 
-- StackSimplify
-  - Kubernetes for Absolute Beginners on AWS EKS 
+  - [Certified Kubernetes Administrator (CKA)](https://www.pluralsight.com/paths/certified-kubernetes-administrator/)
+  - [Certified Kubernetes Application Developer (CKAD)](https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad-2023/)
+  - [Certified Kubernetes Application Developer: Services and Networking](https://www.pluralsight.com/courses/ckad-services-networking-cert/)
+  - [Certified Kubernetes Security Specialist (CKS)](https://www.pluralsight.com/paths/certified-kubernetes-security-specialist-cks/)
+  - [Getting Started with Kubernetes](https://www.pluralsight.com/courses/getting-started-kubernetes/)
+- [StackSimplify](https://courses.stacksimplify.com/)
+  - [Kubernetes for Absolute Beginners on AWS EKS](https://courses.stacksimplify.com/p/kubernetes-for-absolute-beginners-on-aws-eks/)
 - Udemy
   - Docker and Kubernetes - The Complete Guide
   - Learn DevOps - The Complete Kubernetes Course
