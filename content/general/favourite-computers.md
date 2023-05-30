@@ -2,7 +2,7 @@
 title: "Favourite Computers & Consoles"
 date: 2020-01-01T00:00:01+01:00
 draft: false
-tags: ['computers', 'computer hardware', 'software']
+tags: ['computers', 'computer hardware', 'software', 'console gaming', 'gaming']
 ---
 
 ## Binatone TV Master (1976)
