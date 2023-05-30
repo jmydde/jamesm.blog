@@ -2,7 +2,7 @@
 title: "List of DevOps Courses"
 date: 2023-05-28T11:51:18+01:00
 draft: false
-tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'glacier', 's3', 'whitepapers', 'vpc', 'gcp', 'azure']
+tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'cloudacademy', 'courses', 'devops', 'docker', 'gcp', 'glacier', 'iac', 'k8s', 'k8s', 'kubernetes', 'lambda', 'linux', 'mysql', 'networking', 'php', 's3', 'security', 'storage', 'training', 'vpc', 'whitepapers', 'whizlabs']
 ---
 
 ## Amazon Web Services (AWS)
