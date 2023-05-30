@@ -176,7 +176,7 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - [Kubernetes Challenges](https://kodekloud.com/courses/kubernetes-challenges/)
   - [Kubernetes for the Absolute Beginners – Hands-on Tutorial](https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/)
   - [Kustomize](https://kodekloud.com/courses/kustomize/)
-  - [Lens – Kubernetes IDE](https://kodekloud.com/courses/lens-introduction/)
+  - [Lens: Kubernetes IDE](https://kodekloud.com/courses/lens-introduction/)
   - [Linode: Kubernetes Engine](https://kodekloud.com/courses/linode-kubernetes-engine/)
   - [OpenShift 4](https://kodekloud.com/courses/openshift-4/)
   - [Prometheus Certified Associate (PCA)](https://kodekloud.com/courses/prometheus-certified-associate-pca/)
@@ -191,20 +191,16 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - [Getting Started with Kubernetes](https://www.pluralsight.com/courses/getting-started-kubernetes/)
 - [StackSimplify](https://courses.stacksimplify.com/)
   - [Kubernetes for Absolute Beginners on AWS EKS](https://courses.stacksimplify.com/p/kubernetes-for-absolute-beginners-on-aws-eks/)
-- Udemy
-  - Docker and Kubernetes - The Complete Guide
-  - Learn DevOps - The Complete Kubernetes Course
+- [Udemy](https://www.udemy.com/)
+  - [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)
+  - [Learn DevOps: The Complete Kubernetes Course](https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/)
 - [Whizlabs](https://www.whizlabs.com/)
   - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
-- Other
-  - Istio Fundamentals 
-  - EKS Workshop | EKS Workshop 
-  - GitHub - kelseyhightower/kubernetes-the-hard-way: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts. 
-  - Articles
-    - EKS Fargate Profiles;
-      - EKS Fargate Profiles - Basics
-      - EKS Mixed Mode Deployment Fargate Serverless & EC2 Worker Nodes - 3 Apps
-    - Kubernetes Failure Stories 
+- Tutorials
+  - [EKS Workshop](https://www.eksworkshop.com/)
+  - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way/)
+- Articles
+  - [Kubernetes Failure Stories](https://k8s.af/)
 
 ## Linux
 - [CBT Nuggets](https://www.cbtnuggets.com/)
@@ -253,12 +249,7 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - Introduction to Versioning Environments With Vagrant
 
 ## Archived
-Sadly these are no longer available
-- Katacoda - used to have a lot of excellent free labs, now all moved to paid subscription (O’Reilly)
-  - https://www.katacoda.com/courses/container-runtimes
-  - https://www.katacoda.com/courses/docker
-  - https://www.katacoda.com/courses/kubernetes 
-  - https://www.katacoda.com/courses/operating-systems
+These are no longer available
+- Katacoda - this used to have a lot of excellent free online labs, this has now all moved over to a paid subscription (O’Reilly)
 - Lynda - now LinkedIn
-- LinuxAcademy - bought by A Cloud Guru
-  - OpenStack Essentials
+- LinuxAcademy - now A Cloud Guru
