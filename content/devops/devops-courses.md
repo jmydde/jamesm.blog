@@ -55,8 +55,8 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 ### Data & Databases
 - [Pluralsight](https://www.pluralsight.com/)
   - [Big Data on Amazon Web Services](https://www.pluralsight.com/courses/big-data-amazon-web-services/)
-  - MongoDB
-  - SQL on Hadoop - Analyzing Big Data with Hiv
+  - [Foundations of Document Databases with MongoDB](https://www.pluralsight.com/courses/foundations-document-databases-mongodb/)
+  - [SQL on Hadoop - Analyzing Big Data with Hive](https://www.pluralsight.com/courses/sql-hadoop-analyzing-big-data-hive/)
 
 ### General
 - [CBT Nuggets](https://www.cbtnuggets.com/)
@@ -93,32 +93,28 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
 ## Azure
-- CloudAcademy
-  - Getting Started With Azure Virtual Machine
-  - Introduction To Microsoft Azure
-- Pluralsight
-  - Applied Windows Azure
-  - Play By Play - Azure Security With Mark Russinovich
-  - Windows Azure Diagnostics
-  - Windows Azure Mobile Services
-  - Windows Azure Storage In Depth
+- [CloudAcademy](https://cloudacademy.com/)
+  - [Getting Started With Azure Virtual Machine](https://cloudacademy.com/course/getting-started-with-azure-virtual-machines-988/)
+  - [Microsoft Azure Fundamentals](https://cloudacademy.com/learning-paths/microsoft-azure-fundamentals-05062020215806-1625/)
+- [Pluralsight](https://www.pluralsight.com/)
+  - [Microsoft Azure Fundamentals](https://www.pluralsight.com/courses/azure-fundamentals/)
 
 ## CompTIA
 - [Pluralsight](https://www.pluralsight.com/)
-  - CompTIA Storage+ Part 1 - Storage Fundamentals
-  - CompTIA Storage+ Part 2 - Network Storage & Data Replicatio
+  - [CompTIA Storage+ Part 1: Storage Fundamentals](https://www.pluralsight.com/courses/comptia-storage-plus-pt1-storage-fundamentals/)
+  - [CompTIA Storage+ Part 2: Network Storage & Data Replication](https://www.pluralsight.com/courses/comptia-storage-plus-pt2-network-storage-data-replication/)
+  - [CompTIA Storage+ Part 3: Data Protection & Storage](https://www.pluralsight.com/courses/comptia-storage-plus-pt3-data-protection-storage/)
 
 ## Docker & Containers
-- CloudAcademy
-  - Getting Started With Docker
+- [CloudAcademy](https://cloudacademy.com/)
+  - [Docker in Depth](https://cloudacademy.com/learning-paths/cloud-academy-docker-in-depth-129/)
 - [Coursera](https://www.coursera.org/)
   - [Containerized Applications on AWS](https://www.coursera.org/learn/containerized-applications-on-aws/)
 - [KodeKloud](https://kodekloud.com/)
   - [Docker Training Course for the Absolute Beginner](https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 - [Pluralsight](https://www.pluralsight.com/)
-  - Docker Deep Dive
+  - [Docker Deep Dive](https://www.pluralsight.com/courses/docker-deep-dive-update/)
   - [Docker Fundamentals for Developers](https://www.pluralsight.com/paths/docker-fundamentals-for-developers/)
-  - First Look Native Docker Clustering
 - Udemy
   - Docker Mastery The Complete Toolset From a Docker Captain
   - Docker and Kubernetes - The Complete Guide
