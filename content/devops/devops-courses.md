@@ -112,6 +112,8 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - [Docker in Depth](https://cloudacademy.com/learning-paths/cloud-academy-docker-in-depth-129/)
 - [Coursera](https://www.coursera.org/)
   - [Containerized Applications on AWS](https://www.coursera.org/learn/containerized-applications-on-aws/)
+- [DataCamp](https://www.datacamp.com/)
+  - [Introduction to Docker](https://www.datacamp.com/courses/introduction-to-docker/)
 - [KodeKloud](https://kodekloud.com/)
   - [Docker Certified Associate Exam Course](https://kodekloud.com/courses/docker-certified-associate-exam-course/)
   - [Docker – SWARM | SERVICES | STACKS – Hands-on](https://kodekloud.com/courses/docker-swarm-services-stacks-hands-on/)
