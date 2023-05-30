@@ -137,16 +137,17 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
     - Kubernetes Failure Stories 
 
 ## Linux
-- Hands-on Labs
-  - https://www.katacoda.com/courses/operating-systems (Katacoda)
-- Online Courses
-  - LPIC-1: Linux Administrator (101-500 and 102-500) (Pluralsight)
-  - LPIC-2: Linux Engineer (201-450 and 202-450) (Pluralsight)
+- Katacoda
+  - https://www.katacoda.com/courses/operating-systems
+- [Pluralsight](https://www.pluralsight.com/)
+  - LPIC-1: Linux Administrator (101-500 and 102-500)
+  - LPIC-2: Linux Engineer (201-450 and 202-450)
 
 ## Networking
-- Online Courses
-  - AWS Certified Advanced Networking - Specialty 2020 (Cloud Guru)
-  - AWS Networking (Pluralsight)
+- [A Cloud Guru](https://acloudguru.com/)
+  - AWS Certified Advanced Networking Specialty
+- [Pluralsight](https://www.pluralsight.com/)
+  - AWS Networking
 
 # Security
 - [CBT Nuggets](https://www.cbtnuggets.com/)
