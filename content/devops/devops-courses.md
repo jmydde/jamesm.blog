@@ -2,7 +2,7 @@
 title: "List of DevOps Courses"
 date: 2021-07-21T11:51:18+01:00
 draft: false
-tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd']
+tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'billing', 'pricing', 'glacier', 's3', 'whitepapers']
 ---
 
 ## Amazon Web Services (AWS)
@@ -18,6 +18,8 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [AWS Certified Solutions Architect (Associate)](https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/)
   - [AWS Certified SysOps Administrator (Associate)](https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/)
   - [AWS Technical Essentials](https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/)
+- CloudAcademy
+  - AWS Solutions Architect Associate Level Certification
 - Pluralsight
   - [AWS Certified Developer (Associate)](https://www.pluralsight.com/paths/aws-certified-developer-associate)
   - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
@@ -34,12 +36,35 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - Pluralsight
   - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
 
-### AWS Whitepapers
-- [Blue/Green Deployments on AWS](https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&trk=wp_card/)
-- [Development and Test on Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&trk=wp_card/)
-- [Introduction to DevOps on AWS](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&trk=wp_card/)
-- [Practicing Continuous Integration and Continuous Delivery on AWS](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/)
-- [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
+### Cost Optimization
+- CloudAcademy
+  - AWS Billing Understand Billing And Pricing In Amazon Web Services
+
+### General
+- CloudAcademy
+  - Amazon Web Services AWS Introduction For Beginners
+  - Move Your Website To AWS With PHP MySQL And Apache
+
+### High Availability
+- CloudAcademy
+  - [How to Architect with a Design for Failure Approach](https://cloudacademy.com/course/how-to-architect-with-a-design-for-failure-approach/)
+
+### Lambda
+- CloudAcademy
+  - Understanding AWS Lambda
+
+### Storage
+- CloudAcademy
+  - Automated Data Management With EBS S3 And Glacier
+  - Storage On AWS
+
+### Whitepapers
+- AWS
+  - [Blue/Green Deployments on AWS](https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&trk=wp_card/)
+  - [Development and Test on Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&trk=wp_card/)
+  - [Introduction to DevOps on AWS](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&trk=wp_card/)
+  - [Practicing Continuous Integration and Continuous Delivery on AWS](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/)
+  - [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
 ## Continous Integration / Continous Deployment (CI/CD)
 - Pluralsight

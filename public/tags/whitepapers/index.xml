@@ -21,5 +21,298 @@
 ]]></content:encoded>
     </item>
     
+    <item>
+      <title>List of DevOps Courses</title>
+      <link>https://jamesm.blog/devops/devops-courses/</link>
+      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/devops-courses/</guid>
+      <description>Amazon Web Services (AWS) AWS Associate Level Exams A Cloud Guru AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) Introduction to Amazon Cognito CBT Nuggets AWS Certified Cloud Practitioner AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) AWS Technical Essentials CloudAcademy AWS Solutions Architect Associate Level Certification Pluralsight AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) Whizlabs AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) AWS Professional Level Exams A Cloud Guru AWS Certified DevOps Engineer (Professional) AWS Certified Solutions Architect (Professional) Pluralsight AWS Certified DevOps Engineer (Professional) Cost Optimization CloudAcademy AWS Billing Understand Billing And Pricing In Amazon Web Services General CloudAcademy Amazon Web Services AWS Introduction For Beginners Move Your Website To AWS With PHP MySQL And Apache High Availability CloudAcademy How to Architect with a Design for Failure Approach Lambda CloudAcademy Understanding AWS Lambda Storage CloudAcademy Automated Data Management With EBS S3 And Glacier Storage On AWS Whitepapers AWS Blue/Green Deployments on AWS Development and Test on Amazon Web Services Introduction to DevOps on AWS Practicing Continuous Integration and Continuous Delivery on AWS Running Containerized Microservices on AWS Continous Integration / Continous Deployment (CI/CD) Pluralsight Continuous Delivery and DevOps with Azure DevOps: Source Control with Git Practicing CI/CD with AWS CodePipeline Whizlabs Deploying Microservices to Kubernetes using Azure DevOps Advanced Azure DevOps and AKS Patterns for Scalable Solutions Jenkins &amp;hellip; Docker &amp;amp; Containers Hands-on Labs https://www.</description>
+      <content:encoded><![CDATA[<h2 id="amazon-web-services-aws">Amazon Web Services (AWS)</h2>
+<h3 id="aws-associate-level-exams">AWS Associate Level Exams</h3>
+<ul>
+<li>A Cloud Guru
+<ul>
+<li><a href="https://acloudguru.com/course/aws-certified-developer-associate/">AWS Certified Developer (Associate)</a></li>
+<li><a href="https://acloudguru.com/course/aws-certified-solutions-architect-associate-saa-c03/">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://acloudguru.com/course/aws-certified-sysops-administrator-associate-8Lkj/">AWS Certified SysOps Administrator (Associate)</a></li>
+<li><a href="https://acloudguru.com/course/introduction-to-amazon-cognito/">Introduction to Amazon Cognito</a></li>
+</ul>
+</li>
+<li>CBT Nuggets
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/">AWS Certified Cloud Practitioner</a></li>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/">AWS Certified SysOps Administrator (Associate)</a></li>
+<li><a href="https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/">AWS Technical Essentials</a></li>
+</ul>
+</li>
+<li>CloudAcademy
+<ul>
+<li>AWS Solutions Architect Associate Level Certification</li>
+</ul>
+</li>
+<li>Pluralsight
+<ul>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-developer-associate">AWS Certified Developer (Associate)</a></li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02">AWS Certified SysOps Administrator (Associate)</a></li>
+</ul>
+</li>
+<li>Whizlabs
+<ul>
+<li><a href="https://www.whizlabs.com/aws-developer-associate/">AWS Certified Developer (Associate)</a></li>
+<li><a href="https://www.whizlabs.com/aws-solutions-architect-associate/">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://www.whizlabs.com/aws-sysops-administrator-associate/">AWS Certified SysOps Administrator (Associate)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="aws-professional-level-exams">AWS Professional Level Exams</h3>
+<ul>
+<li>A Cloud Guru
+<ul>
+<li><a href="https://acloudguru.com/course/aws-certified-devops-engineer-professional/">AWS Certified DevOps Engineer (Professional)</a></li>
+<li><a href="https://acloudguru.com/course/aws-certified-solutions-architect-professional/">AWS Certified Solutions Architect (Professional)</a></li>
+</ul>
+</li>
+<li>Pluralsight
+<ul>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/">AWS Certified DevOps Engineer (Professional)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="cost-optimization">Cost Optimization</h3>
+<ul>
+<li>CloudAcademy
+<ul>
+<li>AWS Billing Understand Billing And Pricing In Amazon Web Services</li>
+</ul>
+</li>
+</ul>
+<h3 id="general">General</h3>
+<ul>
+<li>CloudAcademy
+<ul>
+<li>Amazon Web Services AWS Introduction For Beginners</li>
+<li>Move Your Website To AWS With PHP MySQL And Apache</li>
+</ul>
+</li>
+</ul>
+<h3 id="high-availability">High Availability</h3>
+<ul>
+<li>CloudAcademy
+<ul>
+<li><a href="https://cloudacademy.com/course/how-to-architect-with-a-design-for-failure-approach/">How to Architect with a Design for Failure Approach</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="lambda">Lambda</h3>
+<ul>
+<li>CloudAcademy
+<ul>
+<li>Understanding AWS Lambda</li>
+</ul>
+</li>
+</ul>
+<h3 id="storage">Storage</h3>
+<ul>
+<li>CloudAcademy
+<ul>
+<li>Automated Data Management With EBS S3 And Glacier</li>
+<li>Storage On AWS</li>
+</ul>
+</li>
+</ul>
+<h3 id="whitepapers">Whitepapers</h3>
+<ul>
+<li>AWS
+<ul>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&amp;trk=wp_card/">Blue/Green Deployments on AWS</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&amp;trk=wp_card/">Development and Test on Amazon Web Services</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&amp;trk=wp_card/">Introduction to DevOps on AWS</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&amp;trk=wp_card/">Practicing Continuous Integration and Continuous Delivery on AWS</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&amp;trk=wp_card/">Running Containerized Microservices on AWS</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="continous-integration--continous-deployment-cicd">Continous Integration / Continous Deployment (CI/CD)</h2>
+<ul>
+<li>Pluralsight
+<ul>
+<li><a href="https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/">Continuous Delivery and DevOps with Azure DevOps: Source Control with Git</a></li>
+<li><a href="https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/">Practicing CI/CD with AWS CodePipeline</a></li>
+</ul>
+</li>
+<li>Whizlabs
+<ul>
+<li><a href="/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/">Deploying Microservices to Kubernetes using Azure DevOps</a></li>
+<li><a href="https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/">Advanced Azure DevOps and AKS Patterns for Scalable Solutions</a></li>
+</ul>
+</li>
+<li>Jenkins
+<ul>
+<li>&hellip;</li>
+</ul>
+</li>
+</ul>
+<h2 id="docker--containers">Docker &amp; Containers</h2>
+<ul>
+<li>Hands-on Labs
+<ul>
+<li><a href="https://www.katacoda.com/courses/docker">https://www.katacoda.com/courses/docker</a> (Katacoda)</li>
+<li><a href="https://www.katacoda.com/courses/container-runtimes">https://www.katacoda.com/courses/container-runtimes</a> (Katacoda)</li>
+</ul>
+</li>
+<li>Online Courses
+<ul>
+<li>Online Docker Training Course | KodeKloud (KodeKloud)</li>
+<li>Docker Fundamentals for Developers (Pluralsight)</li>
+<li>Online Docker Training Course For Beginners &amp; Advanced | KodeKloud (KodeKloud)</li>
+<li>Containerized Applications on AWS  (Coursera)</li>
+</ul>
+</li>
+</ul>
+<h2 id="infrastructure-as-code">Infrastructure-as-Code</h2>
+<ul>
+<li>Ansible
+<ul>
+<li>
+<here>
+</li>
+</ul>
+</li>
+<li>Hashicorp
+<ul>
+<li>Consul
+<ul>
+<li>HashiCorp Certified Consul Associate - Practice Exam [2022 - New] (Whizlabs: practice tests)</li>
+</ul>
+</li>
+<li>Terraform
+<ul>
+<li>Hashicorp Terraform Associate Certification - [NEW 2023] (Whizlabs: course + practice tests)</li>
+<li>Using Terraform to Manage Applications and Infrastructure (Cloud Guru)</li>
+<li>HashiCorp Certified Terraform Associate (Cloud Guru)</li>
+</ul>
+</li>
+<li>Vault
+<ul>
+<li>HashiCorp Certified Vault Associate - Practice Exam [2022 - New] (Whizlabs: practice tests)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>General
+<ul>
+<li>Infrastructure as Code Tutorial &amp; Course | KodeKloud (KodeKloud)</li>
+</ul>
+</li>
+</ul>
+<h2 id="kubernetes">Kubernetes</h2>
+<ul>
+<li>Hands-on Labs
+<ul>
+<li><a href="https://www.katacoda.com/courses/kubernetes">https://www.katacoda.com/courses/kubernetes</a></li>
+</ul>
+</li>
+<li>Online Courses
+<ul>
+<li>A Cloud Guru
+<ul>
+<li>EKS Basics</li>
+<li>Kubernetes Essentials</li>
+<li>Kubernetes Deep Dive</li>
+<li>Service Mesh with Istio</li>
+</ul>
+</li>
+<li>Coursera
+<ul>
+<li><a href="https://www.coursera.org/projects/kubernetes-basic-architecture-first-deployment">https://www.coursera.org/projects/kubernetes-basic-architecture-first-deployment</a></li>
+<li>Kubernetes: Create Multi-App Cluster with Ingress &amp; Logging</li>
+</ul>
+</li>
+<li>KodeKloud
+<ul>
+<li>Learn Kubernetes Online - Kubernetes Learning Path |KodeKloud  (Paid)</li>
+<li>Kubernetes Challenges | KodeKloud (Free)</li>
+</ul>
+</li>
+<li>KubeCampus
+<ul>
+<li>Free Kubernetes Training(Free)</li>
+</ul>
+</li>
+<li>Pluralsight
+<ul>
+<li>Getting Started with Kubernetes</li>
+<li>Certified Kubernetes Administrator (CKA)</li>
+<li><a href="https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad">https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad</a></li>
+</ul>
+</li>
+<li>StackSimplify
+<ul>
+<li>Kubernetes for Absolute Beginners on AWS EKS</li>
+</ul>
+</li>
+<li>Online Courses - Tools &amp; Extensions
+<ul>
+<li>Istio Fundamentals</li>
+</ul>
+</li>
+<li>Tutorials
+<ul>
+<li>EKS Workshop | EKS Workshop</li>
+<li>GitHub - kelseyhightower/kubernetes-the-hard-way: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.</li>
+</ul>
+</li>
+<li>Articles
+<ul>
+<li>EKS Fargate Profiles;
+<ul>
+<li>EKS Fargate Profiles - Basics</li>
+<li>EKS Mixed Mode Deployment Fargate Serverless &amp; EC2 Worker Nodes - 3 Apps</li>
+</ul>
+</li>
+<li>Kubernetes Failure Stories</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li>Hands-on Labs
+<ul>
+<li><a href="https://www.katacoda.com/courses/operating-systems">https://www.katacoda.com/courses/operating-systems</a> (Katacoda)</li>
+</ul>
+</li>
+<li>Online Courses
+<ul>
+<li>LPIC-1: Linux Administrator (101-500 and 102-500) (Pluralsight)</li>
+<li>LPIC-2: Linux Engineer (201-450 and 202-450) (Pluralsight)</li>
+</ul>
+</li>
+</ul>
+<h2 id="networking">Networking</h2>
+<ul>
+<li>Online Courses
+<ul>
+<li>AWS Certified Advanced Networking - Specialty 2020 (Cloud Guru)</li>
+<li>AWS Networking (Pluralsight)</li>
+</ul>
+</li>
+</ul>
+<h1 id="security">Security</h1>
+<ul>
+<li>CBT Nuggets
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/comptia/security-plus/">CompTIA Security+ (SY0-601)</a></li>
+<li><a href="https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/">Security Threats, Attacks &amp; Vulnerabilities</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>
