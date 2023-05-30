@@ -528,5 +528,69 @@
 ]]></content:encoded>
     </item>
     
+    <item>
+      <title>DevOps Books</title>
+      <link>https://jamesm.blog/devops/books/</link>
+      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/books/</guid>
+      <description>A list of recommended DevOps books &amp;hellip;
+DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Go Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
+      <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
+<h2 id="devops">DevOps</h2>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/">The DevOps Handbook</a></li>
+<li><a href="https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/">The Phoenix Project</a></li>
+</ul>
+<h2 id="containers">Containers</h2>
+<h3 id="docker">Docker</h3>
+<ul>
+<li><a href="https://nigelpoulton.com/books/">Docker Deep Dive</a></li>
+</ul>
+<h3 id="kubernetes">Kubernetes</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/">Kubernetes: Up and Running</a></li>
+<li><a href="https://nigelpoulton.com/books/">The Kubernetes Book</a></li>
+</ul>
+<h2 id="iac">IaC</h2>
+<h3 id="terraform">Terraform</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/terraform-up-and/9781098116736/">Terraform: Up and Running: Writing Infrastructure as Code</a></li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/linux-in-a/9780596806088/">Linux in a Nutshell</a></li>
+</ul>
+<h2 id="programming">Programming</h2>
+<h3 id="bash">Bash</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-the-bash/0596009658/">Learning the bash Shell</a></li>
+</ul>
+<h3 id="cc">C/C++</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
+</ul>
+<h3 id="go">Go</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
+<li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
+</ul>
+<h3 id="perl">Perl</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/">Learning Perl</a></li>
+<li><a href="https://www.oreilly.com/library/view/mastering-perl/9780596527242/">Mastering Perl</a></li>
+<li><a href="https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/">Programming Perl</a></li>
+</ul>
+<h3 id="python">Python</h3>
+<ul>
+<li><a href="https://diveintopython3.net/">Dive Into Python</a></li>
+</ul>
+<h3 id="sql">SQL</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/">Learning SQL</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>
