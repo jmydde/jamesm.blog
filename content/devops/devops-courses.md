@@ -74,7 +74,10 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - [AWS Lambda](https://cloudacademy.com/course/compute-fundamentals-for-aws/aws-lambda/)
 
 ### Networking
+- [A Cloud Guru](https://acloudguru.com/)
+  - [AWS Certified Advanced Networking Specialty](https://acloudguru.com/course/aws-certified-advanced-networking-specialty-2/)
 - [Pluralsight](https://www.pluralsight.com/)
+  - [AWS Networking](https://www.pluralsight.com/paths/aws-networking/)
   - [AWS Networking Deep Dive: Virtual Private Cloud (VPC)](https://www.pluralsight.com/courses/aws-networking-deep-dive-vpc/)
   - [AWS VPC Operations](https://www.pluralsight.com/courses/aws-vpc-operations/)
   - [Introduction to Amazon Virtual Private Cloud (VPC)](https://www.pluralsight.com/courses/introduction-amazon-virtual-private-cloud-vpc/)
@@ -85,12 +88,11 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - [Storage Fundamentals for AWS](https://cloudacademy.com/course/aws-storage-fundamentals-2016/introduction-32/)
 
 ### Whitepapers
-- AWS
-  - [Blue/Green Deployments on AWS](https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&trk=wp_card/)
-  - [Development and Test on Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&trk=wp_card/)
-  - [Introduction to DevOps on AWS](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&trk=wp_card/)
-  - [Practicing Continuous Integration and Continuous Delivery on AWS](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/)
-  - [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
+- [Blue/Green Deployments on AWS](https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&trk=wp_card/)
+- [Development and Test on Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&trk=wp_card/)
+- [Introduction to DevOps on AWS](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&trk=wp_card/)
+- [Practicing Continuous Integration and Continuous Delivery on AWS](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/)
+- [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
 ## Azure
 - [CloudAcademy](https://cloudacademy.com/)
@@ -221,16 +223,11 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 ## Networking
 - [CBT Nuggets](https://www.cbtnuggets.com/)
   - Building a Network Design that Works
-- [A Cloud Guru](https://acloudguru.com/)
-  - AWS Certified Advanced Networking Specialty
-- [Pluralsight](https://www.pluralsight.com/)
-  - AWS Networking
 
 ## OpenStack
-- LinuxAcademy
-  - OpenStack Essentials
-- Pluralsight
-  - Introduction to OpenStack
+- [Pluralsight](https://www.pluralsight.com/)
+  - [Getting Started with OpenStack](https://www.pluralsight.com/courses/openstack-getting-started/)
+  - [Introduction to OpenStack](https://www.pluralsight.com/courses/openstack-introduction/)
 
 ## Programming
 - [CBT Nuggets](https://www.cbtnuggets.com/)
@@ -262,3 +259,5 @@ Sadly these are no longer available
   - https://www.katacoda.com/courses/kubernetes 
   - https://www.katacoda.com/courses/operating-systems
 - Lynda - now LinkedIn
+- LinuxAcademy - bought by A Cloud Guru
+  - OpenStack Essentials
