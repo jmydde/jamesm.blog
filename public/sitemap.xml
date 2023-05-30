@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/chatbots/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/chatgpt/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/copilot/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/graphics/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/images/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/links/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/tools/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/llm/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/music/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/text-to-speech/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/tools/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/writing/</loc>
+    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/airflow/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
@@ -20,9 +68,6 @@
     <loc>https://jamesm.blog/tags/github/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/k8s/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
@@ -36,9 +81,6 @@
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/shell/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/terminal/</loc>
@@ -55,45 +97,6 @@
   </url><url>
     <loc>https://jamesm.blog/self-improvement/</loc>
     <lastmod>2023-05-28T09:02:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/chatbots/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/chatgpt/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/graphics/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/images/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/links/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/tools/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/llm/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/music/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/text-to-speech/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/tools/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/writing/</loc>
-    <lastmod>2023-05-28T08:33:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/self-improvement/life-cheat-codes/</loc>
     <lastmod>2023-05-27T08:30:39+01:00</lastmod>

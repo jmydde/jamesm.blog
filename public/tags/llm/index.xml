@@ -5,20 +5,21 @@
     <link>https://jamesm.blog/tags/llm/</link>
     <description>Recent content in llm on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 May 2023 08:33:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 22:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of AI Tools &amp; Companies</title>
       <link>https://jamesm.blog/ai/tools/</link>
-      <pubDate>Sun, 28 May 2023 08:33:14 +0100</pubDate>
+      <pubDate>Mon, 29 May 2023 22:17:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>AI Tools Chat Bots Google Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM OpenAI ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) OpenAI Playground - explore the capabilities of various AI models developed by OpenAI Design Flair - AI design tool for branded content Galileo AI - creates delightful, editable UI designs from a simple text description Development AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
+      <description>AI Tools Chat Bots Google Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM OpenAI ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) OpenAI Playground - explore the capabilities of various AI models developed by OpenAI Perplexity - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions Design Flair - AI design tool for branded content Galileo AI - creates delightful, editable UI designs from a simple text description Development AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
       <content:encoded><![CDATA[<h2 id="ai-tools">AI Tools</h2>
 <h3 id="chat-bots">Chat Bots</h3>
 <ul>
 <li><a href="https://bard.google.com/">Google Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
-<li><a href="https://openai.com/blog/chatgpt">OpenAI ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
+<li><a href="https://openai.com/blog/chatgpt/">OpenAI ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
 <li><a href="https://platform.openai.com/playground/">OpenAI Playground</a> - explore the capabilities of various AI models developed by OpenAI</li>
+<li><a href="https://www.perplexity.ai/">Perplexity</a> - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions</li>
 </ul>
 <h3 id="design">Design</h3>
 <ul>
@@ -27,17 +28,18 @@
 </ul>
 <h3 id="development">Development</h3>
 <ul>
-<li><a href="https://askcodi.com">AskCodi</a> - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code</li>
-<li><a href="https://github.com/features/copilot">GitHub Copilot</a> - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
+<li><a href="https://askcodi.com/">AskCodi</a> - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code</li>
+<li><a href="https://github.com/features/copilot/">GitHub Copilot</a> - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
 </ul>
-<h3 id="images">Images</h3>
+<h3 id="images--art">Images &amp; Art</h3>
 <ul>
-<li><a href="https://www.adobe.com/ie/sensei/generative-ai/firefly.html">Adobe Firefly</a> - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop</li>
+<li><a href="https://www.adobe.com/ie/sensei/generative-ai/firefly.html/">Adobe Firefly</a> - mind-blowing 🤯 generative AI tool with Generative Fill, part of Photoshop</li>
 <li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - remove unwanted object, defect, people or text from your pictures</li>
-<li><a href="https://openai.com/product/dall-e-2">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
-<li><a href="https://www.myheritage.com/deep-nostalgia">Deep Nostalgia</a> - animate your family photos</li>
-<li><a href="https://tryleap.ai">Leap</a> - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs</li>
+<li><a href="https://openai.com/product/dall-e-2/">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
+<li><a href="https://www.myheritage.com/deep-nostalgia/">Deep Nostalgia</a> - animate your family photos</li>
+<li><a href="https://tryleap.ai/">Leap</a> - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs</li>
 <li><a href="https://playgroundai.com/">Playground</a> - create any image from your imagination</li>
+<li><a href="https://stockimg.ai/">Stockimg AI</a> - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp; art</li>
 </ul>
 <h3 id="music">Music</h3>
 <ul>
@@ -49,41 +51,50 @@
 <h3 id="text-to-speech--voice">Text to Speech &amp; Voice</h3>
 <ul>
 <li><a href="https://cleanvoice.ai/">Cleanvoice</a> - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording</li>
-<li><a href="https://murf.ai/">Murf</a> - text to speech AI voice generator</li>
-<li><a href="https://speechify.com/">Speechify</a> - mobile and desktop app that reads text aloud using a computer generated text to speech voice</li>
-<li><a href="https://voicemaker.in">Voicemaker</a> - online free text to speech converter</li>
+<li><a href="https://lovo.ai/">LOVO</a> - AI voice generator and Text to Speech</li>
+<li><a href="https://murf.ai/">Murf</a> - AI voice generator and Text to Speech</li>
+<li><a href="https://speechify.com/">Speechify</a> - mobile and desktop app that reads text aloud using a computer generated Text to Speech voice</li>
+<li><a href="https://voicemaker.in/">Voicemaker</a> - online free Text to Speech converter</li>
 </ul>
 <h3 id="writing">Writing</h3>
 <ul>
-<li><a href="https://10web.io">10Web</a> - AI-powered WordPress platform</li>
+<li><a href="https://10web.io/">10Web</a> - AI-powered WordPress platform</li>
+<li><a href="https://gamma.app/">Gamma</a> - start writing beautiful &amp; engaging content with none of the formatting and design work</li>
 <li><a href="https://www.jasper.ai/">Jasper</a> - AI writer and AI art generator</li>
-<li><a href="https://www.notion.so/product/ai">Notion</a> - organizational tools including task management, project tracking, to-do lists, bookmarking, and more</li>
+<li><a href="https://www.kickresume.com/en/">Kickresume</a> - create a beautiful resume in minutes using AI &amp; customizable templates</li>
+<li><a href="https://www.notion.so/product/ai/">Notion</a> - organizational tools including task management, project tracking, to-do lists, bookmarking, and more</li>
 <li><a href="https://www.ocoya.com/">Ocoya</a> - Create and schedule social media, content marketing &amp; copywriting quicker using AI</li>
 <li><a href="https://quillbot.com/">Quillbot</a> - AI-powered paraphrasing tool to enhance your writing</li>
+<li><a href="https://saga.so/ai/">Saga AI</a> - write faster, and do better work directly in Saga with the help of a digital AI assistant</li>
 <li><a href="https://www.sudowrite.com/">Sudowrite</a> - AI novel writing assistant that makes the creative writing process more fun and interactive</li>
 <li><a href="https://tome.app/">Tome</a> - world’s first generative storytelling format to truly harness the power of artificial intelligence</li>
 <li><a href="https://trinka.ai">Trinka</a> - online grammar checker and language correction AI tool for academic and technical writing</li>
 </ul>
+<h3 id="video">Video</h3>
+<ul>
+<li><a href="https://elai.io/">Elai</a> - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen</li>
+</ul>
 <h3 id="other">Other</h3>
 <ul>
-<li><a href="https://brancher.ai">Brancher</a> - connect AI models to build AI apps in minutes, with no-code</li>
-<li><a href="https://decoherence.co">Decoherence</a> - create what can&rsquo;t be filmed</li>
+<li><a href="https://brancher.ai/">Brancher</a> - connect AI models to build AI apps in minutes, with no-code</li>
+<li><a href="https://decoherence.co/">Decoherence</a> - create what can&rsquo;t be filmed</li>
 <li><a href="https://donotpay.com/">DoNotPay</a> - the world&rsquo;s first robot lawyer</li>
+<li><a href="https://hints.so/">Hints</a> - AI assistant that integrates with any software to perform tasks on your behalf</li>
 <li><a href="https://krisp.ai/">Krisp</a> - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
 <li><a href="https://www.mixo.io/">Mixo</a> - helps entrepreneurs quickly launch and validate their business ideas</li>
-<li><a href="https://mosaic.ai">MosaicTrack</a> - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set</li>
+<li><a href="https://mosaic.ai/">MosaicTrack</a> - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set</li>
 <li><a href="https://www.outfitsai.com/">Outfits AI</a> - try on any outfits using AI</li>
-<li><a href="https://wnr.ai">WNR</a> - prompts made easy with AI templates</li>
+<li><a href="https://wnr.ai/">WNR</a> - prompts made easy with AI templates</li>
 </ul>
 <h2 id="ai-companies">AI Companies</h2>
 <ul>
-<li><a href="https://www.youtube.com/@BostonDynamics">Boston Dynamics</a> - create exceptional robots that enrich people’s lives</li>
+<li><a href="https://www.youtube.com/@BostonDynamics/">Boston Dynamics</a> - create exceptional robots that enrich people’s lives</li>
 <li><a href="https://www.fast.ai/">Fast.ai</a> - making deep learning easier to use</li>
 <li><a href="https://ai.google/">Google AI</a> - a division of Google dedicated to artificial intelligence</li>
 <li><a href="https://www.midjourney.com/">Midjourney</a> - independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species</li>
 <li><a href="https://openai.com/">OpenAI</a> - AI research and deployment company</li>
 <li><a href="https://stability.ai/">Stability</a> - building the foundation to activate humanity&rsquo;s potential</li>
-<li><a href="https://www.tesla.com/en_gb/AI">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
+<li><a href="https://www.tesla.com/en_gb/AI/">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
 </ul>
 ]]></content:encoded>
     </item>
