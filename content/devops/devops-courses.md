@@ -204,22 +204,20 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 
 ## Linux
 - [CBT Nuggets](https://www.cbtnuggets.com/)
-  - CentOS System Administrator Prep
+  - [CentOS System Administrator Prep](https://www.cbtnuggets.com/it-training/skills/linux-centos-system-administrator/)
 - [Pluralsight](https://www.pluralsight.com/)
-  - Getting Started with Ubuntu
-  - Linux Administration with Sed and Awk
-  - LPIC-1: Linux Administrator (101-500 and 102-500)
-  - LPIC-2: Linux Engineer (201-450 and 202-450)
-  - Red Hat Enterprise Linux 6 Booting and Runlevels
-  - Red Hat Enterprise Linux Shell Fundamentals
-  - Red Hat Enterprise Linux Shell Scripting Fundamentals
-  - Red Hat Enterprise Linux Storage Fundamentals
-- Udemy
-  - Learning Ubuntu Linux Server
+  - [Getting Started with Ubuntu](https://www.pluralsight.com/courses/ubuntu-getting-started/)
+  - [LPIC-1: Linux Administrator (101-500 and 102-500)](https://www.pluralsight.com/paths/lpic-one/)
+  - [LPIC-2: Linux Engineer (201-450 and 202-450)](https://www.pluralsight.com/paths/lpic-2/)
+  - [Manage Linux with sed and awk](https://www.pluralsight.com/labs/aws/manage-linux-with-sed-awk/)
+  - [Red Hat Enterprise Linux Shell Fundamentals](https://www.pluralsight.com/courses/red-hat-enterprise-linux-shell-fundamentals/)
+  - [RHCSA: Red Hat Certified System Administrator (EX200)](https://www.pluralsight.com/paths/rhcsa-red-hat-certified-system-administrator-ex200/)
+- [Udemy](https://www.udemy.com/)
+  - [The Complete Ubuntu Linux Server Administration Course !](https://www.udemy.com/course/the-complete-ubuntu-linux-server-administration-course/)
 
 ## Networking
 - [CBT Nuggets](https://www.cbtnuggets.com/)
-  - Building a Network Design that Works
+  - [Building a Network Design](https://www.cbtnuggets.com/it-training/networking/network-design/)
 
 ## OpenStack
 - [Pluralsight](https://www.pluralsight.com/)
