@@ -2,7 +2,7 @@
 title: "List of DevOps Courses"
 date: 2023-05-28T11:51:18+01:00
 draft: false
-tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'cloudacademy', 'courses', 'devops', 'docker', 'gcp', 'glacier', 'iac', 'k8s', 'k8s', 'kubernetes', 'lambda', 'linux', 'mysql', 'networking', 'php', 's3', 'security', 'storage', 'training', 'vpc', 'whitepapers', 'whizlabs']
+tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'cloudacademy', 'courses', 'devops', 'docker', 'gcp', 'git', 'glacier', 'iac', 'k8s', 'k8s', 'kubernetes', 'lambda', 'linux', 'mysql', 'networking', 'php', 's3', 'security', 'storage', 'training', 'vpc', 'whitepapers', 'whizlabs']
 ---
 
 ## Amazon Web Services (AWS)
@@ -124,7 +124,10 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - Docker and Kubernetes - The Complete Guide
 
 ## Git
-- (to add)
+- [Codecademy](https://www.codecademy.com/)
+  - [Learn Git & GitHub](https://www.codecademy.com/learn/learn-git/)
+- [Coursera](https://www.coursera.org/)
+  - [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github/)
 
 ## Google Cloud Platform (GCP)
 - [CBT Nuggets](https://www.cbtnuggets.com/)
