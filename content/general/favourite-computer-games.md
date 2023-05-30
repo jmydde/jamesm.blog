@@ -17,9 +17,6 @@ tags: ['computers', 'software', 'console gaming', 'gaming', 'games']
 - [Elite](https://en.wikipedia.org/wiki/Elite_(video_game)/) (1984)
 - Also games typed in from computer magazines
 
-## PC
-- (a golf game, TBC)
-- ...
 
 ## Sinclair ZX Spectrum 48k
 - Atic Atac
@@ -56,31 +53,32 @@ tags: ['computers', 'software', 'console gaming', 'gaming', 'games']
 - [Rainbow Islands](https://en.wikipedia.org/wiki/Rainbow_Islands:_The_Story_of_Bubble_Bobble_2/)
 - ...
 
-## Super Nintendo Entertainment System (SNES)
-- [Super Mario World](https://en.wikipedia.org/wiki/Super_Mario_World/)
-- ...
-
-## Sega Megadrive
-- Echo the Dolphin
-- ...
 
 ## Nintendo 64
-- GoldenEye
-- Waverace
-- Super Mario 64
-- ...
-
-## PC
-- BoxWorld
-- Doom
-- Half-Life
-- Minecraft
-- Quake
-- Tetris
-- ...
+- [GoldenEye 007](https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game)/)(1997)
+- [Super Mario 64](https://en.wikipedia.org/wiki/Super_Mario_64/)(1997)
+- [Wave Race 64](https://en.wikipedia.org/wiki/Wave_Race_64/)(1996)
 
 ## Nintendo Wii
-- ...
+- [Metroid Prime](https://en.wikipedia.org/wiki/Metroid_Prime:_Trilogy/)
+- [New Super Mario Bros. Wii](https://en.wikipedia.org/wiki/New_Super_Mario_Bros._Wii/)
+- [Super Mario Galaxy](https://en.wikipedia.org/wiki/Super_Mario_Galaxy/)
+
+## PC
+- [BoxWorld](https://en.wikipedia.org/wiki/Sokoban/)
+- [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)/)(1993)
+- [Half-Life](https://en.wikipedia.org/wiki/Half-Life_(series)/)(1998)
+- [Minecraft](https://en.wikipedia.org/wiki/Minecraft/)(2011)
+- [Prince of Persia](https://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)/)(1989)
+- [Quake](https://en.wikipedia.org/wiki/Quake_(video_game)/)(1996)
+- [Tetris](https://en.wikipedia.org/wiki/Tetris/)(1985)
+
+## Super Nintendo Entertainment System (SNES)
+- [Super Mario World](https://en.wikipedia.org/wiki/Super_Mario_World/)
+
+## Sega Megadrive
+- [Echo the Dolphin](https://en.wikipedia.org/wiki/Ecco_the_Dolphin_(video_game)/)(1992)
+- [Sonic the Hedgehog](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)/)(1991)
 
 ## Sony PlayStation 1-5
 - God of War
