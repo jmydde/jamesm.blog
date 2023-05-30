@@ -53,9 +53,10 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [CloudAcademy](https://cloudacademy.com/)
   - [AWS Cost Management and Customer Support](https://cloudacademy.com/course/aws-cost-management-and-customer-support/introduction-36/)
 
-### Data
+### Data & Databases
 - [Pluralsight](https://www.pluralsight.com/)
   - [Big Data on Amazon Web Services](https://www.pluralsight.com/courses/big-data-amazon-web-services/)
+  - MongoDB
 
 ### General
 - [CBT Nuggets](https://www.cbtnuggets.com/)
@@ -91,12 +92,26 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [Practicing Continuous Integration and Continuous Delivery on AWS](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/)
   - [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
+## Azure
+- CloudAcademy
+  - Getting Started With Azure Virtual Machine
+  - Introduction To Microsoft Azure
+- Pluralsight
+  - Applied Windows Azure
+  - Play By Play - Azure Security With Mark Russinovich
+  - Windows Azure Diagnostics
+  - Windows Azure Mobile Services
+  - Windows Azure Storage In Depth
+
 ## Docker & Containers
+- CloudAcademy
+  - Getting Started With Docker
 - [Coursera](https://www.coursera.org/)
   - [Containerized Applications on AWS](https://www.coursera.org/learn/containerized-applications-on-aws/)
 - [KodeKloud](https://kodekloud.com/)
   - [Docker Training Course for the Absolute Beginner](https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 - [Pluralsight](https://www.pluralsight.com/)
+  - Docker Deep Dive
   - [Docker Fundamentals for Developers](https://www.pluralsight.com/paths/docker-fundamentals-for-developers/)
 
 ## Google Cloud Platform (GCP)
@@ -167,9 +182,15 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [Pluralsight](https://www.pluralsight.com/)
   - AWS Networking
 
+## OpenStack
+- LinuxAcademy
+  - OpenStack Essentials
+- Pluralsight
+  - Introduction to OpenStack
+
 # Security
 - [CBT Nuggets](https://www.cbtnuggets.com/)
-  - [CompTIA Security+ (SY0-601)](https://www.cbtnuggets.com/it-training/comptia/security-plus/)
+  - [CompTIA Security+](https://www.cbtnuggets.com/it-training/comptia/security-plus/)
   - [Security Threats, Attacks & Vulnerabilities](https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/)
 
 # Archived
