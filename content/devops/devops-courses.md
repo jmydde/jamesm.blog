@@ -32,8 +32,6 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [A Cloud Guru](https://acloudguru.com/)
   - [AWS Certified DevOps Engineer (Professional)](https://acloudguru.com/course/aws-certified-devops-engineer-professional/)
   - [AWS Certified Solutions Architect (Professional)](https://acloudguru.com/course/aws-certified-solutions-architect-professional/)
-- Linux Academy
-  - AWS Certified DevOps Engineer - Professional Level
 - [Pluralsight](https://www.pluralsight.com/)
   - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
 
@@ -80,31 +78,27 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - ...
 
 ## Docker & Containers
-- Coursera
-  - Containerized Applications on AWS
-- Katacoda
-  - https://www.katacoda.com/courses/docker
-  - https://www.katacoda.com/courses/container-runtimes
-- KodeKloud
-  - Online Docker Training Course
-  - Online Docker Training Course For Beginners & Advanced
+- [Coursera](https://www.coursera.org/)
+  - [Containerized Applications on AWS](https://www.coursera.org/learn/containerized-applications-on-aws/)
+- [KodeKloud](https://kodekloud.com/)
+  - [Docker Training Course for the Absolute Beginner](https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 - [Pluralsight](https://www.pluralsight.com/)
-  - Docker Fundamentals for Developers (Pluralsight)
+  - [Docker Fundamentals for Developers](https://www.pluralsight.com/paths/docker-fundamentals-for-developers/)
 
 ## Infrastructure-as-Code
-- Ansible
-  - <here>
-- Hashicorp
-  - Consul
-    - HashiCorp Certified Consul Associate - Practice Exam [2022 - New] (Whizlabs: practice tests)
-  - Terraform
-    - Hashicorp Terraform Associate Certification - [NEW 2023] (Whizlabs: course + practice tests)
-    - Using Terraform to Manage Applications and Infrastructure (Cloud Guru)
-    - HashiCorp Certified Terraform Associate (Cloud Guru)
-  - Vault
-    - HashiCorp Certified Vault Associate - Practice Exam [2022 - New] (Whizlabs: practice tests)
-- General
-  - Infrastructure as Code Tutorial & Course | KodeKloud (KodeKloud)
+- [A Cloud Guru](https://acloudguru.com/)
+  - [HashiCorp Certified Terraform Associate](https://acloudguru.com/course/hashicorp-certified-terraform-associate/)
+  - [HashiCorp Packer](https://acloudguru.com/course/hashicorp-packer)
+- [KodeKloud](https://kodekloud.com/)
+  - [HashiCorp Certified: Consul Associate Certification](https://kodekloud.com/courses/hashicorp-certified-consul-associate-certification/)
+  - [HashiCorp Certified: Terraform Associate Certification](https://kodekloud.com/courses/hashicorp-certified-terraform-associate/)
+  - [HashiCorp Certified: Vault Associate Certification](https://kodekloud.com/courses/hashicorp-certified-vault-associate-certification/)
+- [Pluralsight](https://www.pluralsight.com/)
+  - [Hands-on Ansible](https://www.pluralsight.com/courses/hands-on-ansible/)
+- [Whizlabs](https://www.whizlabs.com/)
+  - [HashiCorp Certified Consul Associate](https://www.whizlabs.com/hashicorp-certified-consul-associate/)
+  - [HashiCorp Certified Terraform Associate Certification](https://www.whizlabs.com/hashicorp-certified-terraform-associate/)
+  - [HashiCorp Certified Vault Associate](https://www.whizlabs.com/hashicorp-certified-vault-associate/)
 
 ## Kubernetes
 - Hands-on Labs
@@ -141,8 +135,6 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
     - Kubernetes Failure Stories 
 
 ## Linux
-- Katacoda
-  - https://www.katacoda.com/courses/operating-systems
 - [Pluralsight](https://www.pluralsight.com/)
   - LPIC-1: Linux Administrator (101-500 and 102-500)
   - LPIC-2: Linux Engineer (201-450 and 202-450)
@@ -157,3 +149,10 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [CBT Nuggets](https://www.cbtnuggets.com/)
   - [CompTIA Security+ (SY0-601)](https://www.cbtnuggets.com/it-training/comptia/security-plus/)
   - [Security Threats, Attacks & Vulnerabilities](https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/)
+
+# Archived
+Sadly these are no longer available
+- Katacoda - used to have a lot of excellent free labs, now all moved to paid subscription (O’Reilly)
+  - https://www.katacoda.com/courses/container-runtimes
+  - https://www.katacoda.com/courses/docker
+  - https://www.katacoda.com/courses/operating-systems
