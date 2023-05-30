@@ -56,6 +56,7 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 - [Pluralsight](https://www.pluralsight.com/)
   - [Big Data on Amazon Web Services](https://www.pluralsight.com/courses/big-data-amazon-web-services/)
   - MongoDB
+  - SQL on Hadoop - Analyzing Big Data with Hiv
 
 ### General
 - [CBT Nuggets](https://www.cbtnuggets.com/)
@@ -102,6 +103,11 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - Windows Azure Mobile Services
   - Windows Azure Storage In Depth
 
+## CompTIA
+- [Pluralsight](https://www.pluralsight.com/)
+  - CompTIA Storage+ Part 1 - Storage Fundamentals
+  - CompTIA Storage+ Part 2 - Network Storage & Data Replicatio
+
 ## Docker & Containers
 - CloudAcademy
   - Getting Started With Docker
@@ -117,6 +123,9 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
   - Docker Mastery The Complete Toolset From a Docker Captain
   - Docker and Kubernetes - The Complete Guide
 
+## Git
+- (to add)
+
 ## Google Cloud Platform (GCP)
 - [CBT Nuggets](https://www.cbtnuggets.com/)
   - Developing Solutions for Google Cloud Platform
@@ -124,6 +133,10 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 - [CloudAcademy](https://cloudacademy.com/)
   - Getting Started With Google Compute Engine
   - Introduction To The Google Cloud Platform
+
+## Integrated Development Environments (IDEs)
+- [Pluralsight](https://www.pluralsight.com/)
+  - Visual Studio Data Tools for Developers
 
 ## Infrastructure-as-Code
 - [A Cloud Guru](https://acloudguru.com/)
@@ -176,11 +189,23 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
     - Kubernetes Failure Stories 
 
 ## Linux
+- [CBT Nuggets](https://www.cbtnuggets.com/)
+  - CentOS System Administrator Prep
 - [Pluralsight](https://www.pluralsight.com/)
+  - Getting Started with Ubuntu
+  - Linux Administration with Sed and Awk
   - LPIC-1: Linux Administrator (101-500 and 102-500)
   - LPIC-2: Linux Engineer (201-450 and 202-450)
+  - Red Hat Enterprise Linux 6 Booting and Runlevels
+  - Red Hat Enterprise Linux Shell Fundamentals
+  - Red Hat Enterprise Linux Shell Scripting Fundamentals
+  - Red Hat Enterprise Linux Storage Fundamentals
+- Udemy
+  - Learning Ubuntu Linux Server
 
 ## Networking
+- [CBT Nuggets](https://www.cbtnuggets.com/)
+  - Building a Network Design that Works
 - [A Cloud Guru](https://acloudguru.com/)
   - AWS Certified Advanced Networking Specialty
 - [Pluralsight](https://www.pluralsight.com/)
@@ -192,12 +217,29 @@ tags: ['a cloud guru', 'architecture', 'aws', 'azure', 'cbt nuggets', 'cicd', 'c
 - Pluralsight
   - Introduction to OpenStack
 
-# Security
+## Programming
+- [CBT Nuggets](https://www.cbtnuggets.com/)
+  - Python Programming Language
+- [Pluralsight](https://www.pluralsight.com/)
+  - Python: Beyond The Basics
+  - Python Desktop Application Development
+  - Python Developers Toolkit
+  - Unit Testing With Python
+
+## Search
+- [Pluralsight](https://www.pluralsight.com/)
+  - Getting Started With Enterprise Search Using Apache Solr
+
+## Security
 - [CBT Nuggets](https://www.cbtnuggets.com/)
   - [CompTIA Security+](https://www.cbtnuggets.com/it-training/comptia/security-plus/)
   - [Security Threats, Attacks & Vulnerabilities](https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/)
 
-# Archived
+## Virtualization
+- [Pluralsight](https://www.pluralsight.com/)
+  - Introduction to Versioning Environments With Vagrant
+
+## Archived
 Sadly these are no longer available
 - Katacoda - used to have a lot of excellent free labs, now all moved to paid subscription (O’Reilly)
   - https://www.katacoda.com/courses/container-runtimes
