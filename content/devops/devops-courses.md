@@ -2,7 +2,7 @@
 title: "List of DevOps Courses"
 date: 2023-05-28T11:51:18+01:00
 draft: false
-tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'glacier', 's3', 'whitepapers', 'vpc']
+tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'glacier', 's3', 'whitepapers', 'vpc', 'gcp', 'azure']
 ---
 
 ## Amazon Web Services (AWS)
@@ -35,9 +35,27 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [Pluralsight](https://www.pluralsight.com/)
   - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
 
+### Command-line Interface (CLI)
+- [Pluralsight](https://www.pluralsight.com/)
+  - [Mastering AWS Command-line Interface Operations](https://www.pluralsight.com/courses/aws-command-line-interface-mastering-operations/)
+
+## Continous Integration / Continous Deployment (CI/CD)
+- [Pluralsight](https://www.pluralsight.com/)
+  - [Continuous Delivery and DevOps with Azure DevOps: Source Control with Git](https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/)
+  - [Practicing CI/CD with AWS CodePipeline](https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/)
+- [Whizlabs](https://www.whizlabs.com/)
+  - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
+  - [Advanced Azure DevOps and AKS Patterns for Scalable Solutions](https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/)
+- Jenkins
+  - ...
+
 ### Cost Optimization
 - [CloudAcademy](https://cloudacademy.com/)
   - [AWS Cost Management and Customer Support](https://cloudacademy.com/course/aws-cost-management-and-customer-support/introduction-36/)
+
+### Data
+- [Pluralsight](https://www.pluralsight.com/)
+  - [Big Data on Amazon Web Services](https://www.pluralsight.com/courses/big-data-amazon-web-services/)
 
 ### General
 - [CBT Nuggets](https://www.cbtnuggets.com/)
@@ -73,16 +91,6 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [Practicing Continuous Integration and Continuous Delivery on AWS](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/)
   - [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
-## Continous Integration / Continous Deployment (CI/CD)
-- [Pluralsight](https://www.pluralsight.com/)
-  - [Continuous Delivery and DevOps with Azure DevOps: Source Control with Git](https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/)
-  - [Practicing CI/CD with AWS CodePipeline](https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/)
-- [Whizlabs](https://www.whizlabs.com/)
-  - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
-  - [Advanced Azure DevOps and AKS Patterns for Scalable Solutions](https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/)
-- Jenkins
-  - ...
-
 ## Docker & Containers
 - [Coursera](https://www.coursera.org/)
   - [Containerized Applications on AWS](https://www.coursera.org/learn/containerized-applications-on-aws/)
@@ -90,6 +98,14 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [Docker Training Course for the Absolute Beginner](https://kodekloud.com/courses/docker-for-the-absolute-beginner/)
 - [Pluralsight](https://www.pluralsight.com/)
   - [Docker Fundamentals for Developers](https://www.pluralsight.com/paths/docker-fundamentals-for-developers/)
+
+## Google Cloud Platform (GCP)
+- [CBT Nuggets](https://www.cbtnuggets.com/)
+  - Developing Solutions for Google Cloud Platform
+  - Google Cloud Platform Fundamentals
+- [CloudAcademy](https://cloudacademy.com/)
+  - Getting Started With Google Compute Engine
+  - Introduction To The Google Cloud Platform
 
 ## Infrastructure-as-Code
 - [A Cloud Guru](https://acloudguru.com/)
@@ -162,3 +178,4 @@ Sadly these are no longer available
   - https://www.katacoda.com/courses/container-runtimes
   - https://www.katacoda.com/courses/docker
   - https://www.katacoda.com/courses/operating-systems
+- Lynda - now LinkedIn
