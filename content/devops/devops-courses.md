@@ -42,12 +42,11 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 ## Continous Integration / Continous Deployment (CI/CD)
 - [Pluralsight](https://www.pluralsight.com/)
   - [Continuous Delivery and DevOps with Azure DevOps: Source Control with Git](https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/)
+  - Getting Started with Jenkins 2
   - [Practicing CI/CD with AWS CodePipeline](https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/)
 - [Whizlabs](https://www.whizlabs.com/)
   - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
   - [Advanced Azure DevOps and AKS Patterns for Scalable Solutions](https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/)
-- Jenkins
-  - ...
 
 ### Cost Optimization
 - [CloudAcademy](https://cloudacademy.com/)
@@ -113,6 +112,10 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [Pluralsight](https://www.pluralsight.com/)
   - Docker Deep Dive
   - [Docker Fundamentals for Developers](https://www.pluralsight.com/paths/docker-fundamentals-for-developers/)
+  - First Look Native Docker Clustering
+- Udemy
+  - Docker Mastery The Complete Toolset From a Docker Captain
+  - Docker and Kubernetes - The Complete Guide
 
 ## Google Cloud Platform (GCP)
 - [CBT Nuggets](https://www.cbtnuggets.com/)
@@ -138,33 +141,34 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [HashiCorp Certified Vault Associate](https://www.whizlabs.com/hashicorp-certified-vault-associate/)
 
 ## Kubernetes
-- Hands-on Labs
-  - https://www.katacoda.com/courses/kubernetes 
-- Online Courses
-  - A Cloud Guru
-    - EKS Basics 
-    - Kubernetes Essentials 
-    - Kubernetes Deep Dive 
-    - Service Mesh with Istio 
-  - Coursera
-    - https://www.coursera.org/projects/kubernetes-basic-architecture-first-deployment 
-    - Kubernetes: Create Multi-App Cluster with Ingress & Logging 
-  - KodeKloud
-    - Learn Kubernetes Online - Kubernetes Learning Path |KodeKloud  (Paid)
-    - Kubernetes Challenges | KodeKloud (Free)
-  - KubeCampus
-    - Free Kubernetes Training(Free) 
-  - Pluralsight
-    - Getting Started with Kubernetes 
-    - Certified Kubernetes Administrator (CKA) 
-    - https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad 
-  - StackSimplify
-    - Kubernetes for Absolute Beginners on AWS EKS 
-  - Online Courses - Tools & Extensions
-    - Istio Fundamentals 
-  - Tutorials
-    - EKS Workshop | EKS Workshop 
-    - GitHub - kelseyhightower/kubernetes-the-hard-way: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts. 
+- [A Cloud Guru](https://acloudguru.com/)
+  - EKS Basics 
+  - Kubernetes Essentials 
+  - Kubernetes Deep Dive 
+  - [Kubernetes the Hard Way](https://acloudguru.com/course/kubernetes-the-hard-way/)
+  - Service Mesh with Istio 
+- [Coursera](https://www.coursera.org/)
+  - [Architecting with Google Kubernetes Engine Specialization](https://www.coursera.org/specializations/architecting-google-kubernetes-engine/)
+- [KodeKloud](https://kodekloud.com/)
+  - Learn Kubernetes Online - Kubernetes Learning Path |KodeKloud  (Paid)
+  - Kubernetes Challenges | KodeKloud (Free)
+- KubeCampus
+  - Free Kubernetes Training(Free) 
+- [Pluralsight](https://www.pluralsight.com/)
+  - Getting Started with Kubernetes 
+  - Certified Kubernetes Administrator (CKA) 
+  - https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad 
+- StackSimplify
+  - Kubernetes for Absolute Beginners on AWS EKS 
+- Udemy
+  - Docker and Kubernetes - The Complete Guide
+  - Learn DevOps - The Complete Kubernetes Course
+- [Whizlabs](https://www.whizlabs.com/)
+  - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
+- Other
+  - Istio Fundamentals 
+  - EKS Workshop | EKS Workshop 
+  - GitHub - kelseyhightower/kubernetes-the-hard-way: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts. 
   - Articles
     - EKS Fargate Profiles;
       - EKS Fargate Profiles - Basics
@@ -198,5 +202,6 @@ Sadly these are no longer available
 - Katacoda - used to have a lot of excellent free labs, now all moved to paid subscription (O’Reilly)
   - https://www.katacoda.com/courses/container-runtimes
   - https://www.katacoda.com/courses/docker
+  - https://www.katacoda.com/courses/kubernetes 
   - https://www.katacoda.com/courses/operating-systems
 - Lynda - now LinkedIn
