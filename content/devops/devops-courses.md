@@ -1,6 +1,6 @@
 ---
 title: "List of DevOps Courses"
-date: 2021-07-21T11:51:18+01:00
+date: 2023-05-28T11:51:18+01:00
 draft: false
 tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'glacier', 's3', 'whitepapers']
 ---
@@ -19,11 +19,11 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [AWS Certified SysOps Administrator (Associate)](https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/)
 - [CloudAcademy](https://cloudacademy.com/)
   - [AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS](https://cloudacademy.com/learning-paths/aws-solutions-architect-associate-saa-c03-certification-preparation-for-aws-1-7446/)
-- Pluralsight
+- [Pluralsight](https://www.pluralsight.com/)
   - [AWS Certified Developer (Associate)](https://www.pluralsight.com/paths/aws-certified-developer-associate)
   - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
   - [AWS Certified SysOps Administrator (Associate)](https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02)
-- Whizlabs
+- [Whizlabs](https://www.whizlabs.com/)
   - [AWS Certified Developer (Associate)](https://www.whizlabs.com/aws-developer-associate/)
   - [AWS Certified Solutions Architect (Associate)](https://www.whizlabs.com/aws-solutions-architect-associate/)
   - [AWS Certified SysOps Administrator (Associate)](https://www.whizlabs.com/aws-sysops-administrator-associate/)
@@ -32,7 +32,9 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
 - [A Cloud Guru](https://acloudguru.com/)
   - [AWS Certified DevOps Engineer (Professional)](https://acloudguru.com/course/aws-certified-devops-engineer-professional/)
   - [AWS Certified Solutions Architect (Professional)](https://acloudguru.com/course/aws-certified-solutions-architect-professional/)
-- Pluralsight
+- Linux Academy
+  - AWS Certified DevOps Engineer - Professional Level
+- [Pluralsight](https://www.pluralsight.com/)
   - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
 
 ### Cost Optimization
@@ -68,24 +70,26 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [Running Containerized Microservices on AWS](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/)
 
 ## Continous Integration / Continous Deployment (CI/CD)
-- Pluralsight
+- [Pluralsight](https://www.pluralsight.com/)
   - [Continuous Delivery and DevOps with Azure DevOps: Source Control with Git](https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/)
   - [Practicing CI/CD with AWS CodePipeline](https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/)
-- Whizlabs
+- [Whizlabs](https://www.whizlabs.com/)
   - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
   - [Advanced Azure DevOps and AKS Patterns for Scalable Solutions](https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/)
 - Jenkins
   - ...
 
 ## Docker & Containers
-- Hands-on Labs
-  - https://www.katacoda.com/courses/docker (Katacoda)
-  - https://www.katacoda.com/courses/container-runtimes (Katacoda)
-- Online Courses
-  - Online Docker Training Course | KodeKloud (KodeKloud)
+- Coursera
+  - Containerized Applications on AWS
+- Katacoda
+  - https://www.katacoda.com/courses/docker
+  - https://www.katacoda.com/courses/container-runtimes
+- KodeKloud
+  - Online Docker Training Course
+  - Online Docker Training Course For Beginners & Advanced
+- [Pluralsight](https://www.pluralsight.com/)
   - Docker Fundamentals for Developers (Pluralsight)
-  - Online Docker Training Course For Beginners & Advanced | KodeKloud (KodeKloud)
-  - Containerized Applications on AWS  (Coursera)
 
 ## Infrastructure-as-Code
 - Ansible

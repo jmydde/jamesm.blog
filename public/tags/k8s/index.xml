@@ -49,58 +49,12 @@
     </item>
     
     <item>
-      <title>Mac Homebrew packages</title>
-      <link>https://jamesm.blog/devops/mac-brew-packages/</link>
-      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/devops/mac-brew-packages/</guid>
-      <description>Essential bat - Linux “cat” command alternative with syntax highlighting glow - Markdown reader htop - Top clone with syntax highlighting and mouse support jq - sed for JSON data jupyter - JupyterHub notebooks k9s - Monitor Kubernetes resources pyenv - Python version management python - Python (3.11) terraform - Terraform tfswitch - Switch Terraform versions (warrensbox/tap/tfswitch) tree - View folders and files in a visual tree (tree -L ) wget - Download files yq - Lightweight and portable command-line YAML, JSON and XML processor Others django - Python Web framework glances - Console (and web) based server monitoring tool httpie - A curl-like tool to interact with HTTP servers lnav - Explore and troubleshoot cryptic log files midnight-commander - File explorer mtr - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues navi - Interactive cheatsheet tool ncdu - Disk space analyzer, find big files &amp;amp; directories npm - Node Package Manager pytorch - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing ranger - Directory / file explorer providing an easier way to find files via the terminal snappy - compression/decompression library aiming for high speed speedtest-cli - Test upload/download speed task - A todo app tensorflow - free and open-source software library for machine learning and artificial intelligence tmux - Run multiple terminal sessions within the same window youtube-dl - YouTube downloader </description>
-      <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
-<ul>
-<li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>
-<li><strong>glow</strong> - Markdown reader</li>
-<li><strong>htop</strong> - Top clone with syntax highlighting and mouse support</li>
-<li><strong>jq</strong> - sed for JSON data</li>
-<li><strong>jupyter</strong> - JupyterHub notebooks</li>
-<li><strong>k9s</strong> - Monitor Kubernetes resources</li>
-<li><strong>pyenv</strong> - Python version management</li>
-<li><strong>python</strong> - Python (3.11)</li>
-<li><strong>terraform</strong> - Terraform</li>
-<li><strong>tfswitch</strong> - Switch Terraform versions (warrensbox/tap/tfswitch)</li>
-<li><strong>tree</strong> - View folders and files in a visual tree (tree -L <level>)</li>
-<li><strong>wget</strong> - Download files</li>
-<li><strong>yq</strong> - Lightweight and portable command-line YAML, JSON and XML processor</li>
-</ul>
-<h2 id="others">Others</h2>
-<ul>
-<li><strong>django</strong> - Python Web framework</li>
-<li><strong>glances</strong> - Console (and web) based server monitoring tool</li>
-<li><strong>httpie</strong> - A curl-like tool to interact with HTTP servers</li>
-<li><strong>lnav</strong> - Explore and troubleshoot cryptic log files</li>
-<li><strong>midnight-commander</strong> - File explorer</li>
-<li><strong>mtr</strong> - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues</li>
-<li><strong>navi</strong> - Interactive cheatsheet tool</li>
-<li><strong>ncdu</strong> - Disk space analyzer, find big files &amp; directories</li>
-<li><strong>npm</strong> - Node Package Manager</li>
-<li><strong>pytorch</strong> - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing</li>
-<li><strong>ranger</strong> - Directory / file explorer providing an easier way to find files via the terminal</li>
-<li><strong>snappy</strong> - compression/decompression library aiming for high speed</li>
-<li><strong>speedtest-cli</strong> - Test upload/download speed</li>
-<li><strong>task</strong> - A todo app</li>
-<li><strong>tensorflow</strong> - free and open-source software library for machine learning and artificial intelligence</li>
-<li><strong>tmux</strong> - Run multiple terminal sessions within the same window</li>
-<li><strong>youtube-dl</strong> - YouTube downloader</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>List of DevOps Courses</title>
       <link>https://jamesm.blog/devops/devops-courses/</link>
-      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
+      <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/devops-courses/</guid>
-      <description>Amazon Web Services (AWS) AWS Associate Level Exams A Cloud Guru AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) Introduction to Amazon Cognito CBT Nuggets AWS Certified Cloud Practitioner AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) CloudAcademy AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS Pluralsight AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) Whizlabs AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) AWS Professional Level Exams A Cloud Guru AWS Certified DevOps Engineer (Professional) AWS Certified Solutions Architect (Professional) Pluralsight AWS Certified DevOps Engineer (Professional) Cost Optimization CloudAcademy AWS Cost Management and Customer Support General CBT Nuggets AWS Technical Essentials CloudAcademy Introduction to Amazon Web Services (AWS) How to Move Your Website to AWS with PHP, MySQL, and Apache High Availability CloudAcademy How to Architect with a Design for Failure Approach Lambda CloudAcademy AWS Lambda Storage CloudAcademy Automated Data Management with EBS, S3, and Glacier Storage Fundamentals for AWS Whitepapers AWS Blue/Green Deployments on AWS Development and Test on Amazon Web Services Introduction to DevOps on AWS Practicing Continuous Integration and Continuous Delivery on AWS Running Containerized Microservices on AWS Continous Integration / Continous Deployment (CI/CD) Pluralsight Continuous Delivery and DevOps with Azure DevOps: Source Control with Git Practicing CI/CD with AWS CodePipeline Whizlabs Deploying Microservices to Kubernetes using Azure DevOps Advanced Azure DevOps and AKS Patterns for Scalable Solutions Jenkins &amp;hellip; Docker &amp;amp; Containers Hands-on Labs https://www.</description>
+      <description>Amazon Web Services (AWS) AWS Associate Level Exams A Cloud Guru AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) Introduction to Amazon Cognito CBT Nuggets AWS Certified Cloud Practitioner AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) CloudAcademy AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS Pluralsight AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) Whizlabs AWS Certified Developer (Associate) AWS Certified Solutions Architect (Associate) AWS Certified SysOps Administrator (Associate) AWS Professional Level Exams A Cloud Guru AWS Certified DevOps Engineer (Professional) AWS Certified Solutions Architect (Professional) Linux Academy AWS Certified DevOps Engineer - Professional Level Pluralsight AWS Certified DevOps Engineer (Professional) Cost Optimization CloudAcademy AWS Cost Management and Customer Support General CBT Nuggets AWS Technical Essentials CloudAcademy Introduction to Amazon Web Services (AWS) How to Move Your Website to AWS with PHP, MySQL, and Apache High Availability CloudAcademy How to Architect with a Design for Failure Approach Lambda CloudAcademy AWS Lambda Storage CloudAcademy Automated Data Management with EBS, S3, and Glacier Storage Fundamentals for AWS Whitepapers AWS Blue/Green Deployments on AWS Development and Test on Amazon Web Services Introduction to DevOps on AWS Practicing Continuous Integration and Continuous Delivery on AWS Running Containerized Microservices on AWS Continous Integration / Continous Deployment (CI/CD) Pluralsight Continuous Delivery and DevOps with Azure DevOps: Source Control with Git Practicing CI/CD with AWS CodePipeline Whizlabs Deploying Microservices to Kubernetes using Azure DevOps Advanced Azure DevOps and AKS Patterns for Scalable Solutions Jenkins &amp;hellip; Docker &amp;amp; Containers Coursera Containerized Applications on AWS Katacoda https://www.</description>
       <content:encoded><![CDATA[<h2 id="amazon-web-services-aws">Amazon Web Services (AWS)</h2>
 <h3 id="aws-associate-level-exams">AWS Associate Level Exams</h3>
 <ul>
@@ -124,14 +78,14 @@
 <li><a href="https://cloudacademy.com/learning-paths/aws-solutions-architect-associate-saa-c03-certification-preparation-for-aws-1-7446/">AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS</a></li>
 </ul>
 </li>
-<li>Pluralsight
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
 <ul>
 <li><a href="https://www.pluralsight.com/paths/aws-certified-developer-associate">AWS Certified Developer (Associate)</a></li>
 <li><a href="https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate">AWS Certified Solutions Architect (Associate)</a></li>
 <li><a href="https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02">AWS Certified SysOps Administrator (Associate)</a></li>
 </ul>
 </li>
-<li>Whizlabs
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
 <ul>
 <li><a href="https://www.whizlabs.com/aws-developer-associate/">AWS Certified Developer (Associate)</a></li>
 <li><a href="https://www.whizlabs.com/aws-solutions-architect-associate/">AWS Certified Solutions Architect (Associate)</a></li>
@@ -147,7 +101,12 @@
 <li><a href="https://acloudguru.com/course/aws-certified-solutions-architect-professional/">AWS Certified Solutions Architect (Professional)</a></li>
 </ul>
 </li>
-<li>Pluralsight
+<li>Linux Academy
+<ul>
+<li>AWS Certified DevOps Engineer - Professional Level</li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
 <ul>
 <li><a href="https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/">AWS Certified DevOps Engineer (Professional)</a></li>
 </ul>
@@ -214,13 +173,13 @@
 </ul>
 <h2 id="continous-integration--continous-deployment-cicd">Continous Integration / Continous Deployment (CI/CD)</h2>
 <ul>
-<li>Pluralsight
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
 <ul>
 <li><a href="https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/">Continuous Delivery and DevOps with Azure DevOps: Source Control with Git</a></li>
 <li><a href="https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/">Practicing CI/CD with AWS CodePipeline</a></li>
 </ul>
 </li>
-<li>Whizlabs
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
 <ul>
 <li><a href="/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/">Deploying Microservices to Kubernetes using Azure DevOps</a></li>
 <li><a href="https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/">Advanced Azure DevOps and AKS Patterns for Scalable Solutions</a></li>
@@ -234,18 +193,26 @@
 </ul>
 <h2 id="docker--containers">Docker &amp; Containers</h2>
 <ul>
-<li>Hands-on Labs
+<li>Coursera
 <ul>
-<li><a href="https://www.katacoda.com/courses/docker">https://www.katacoda.com/courses/docker</a> (Katacoda)</li>
-<li><a href="https://www.katacoda.com/courses/container-runtimes">https://www.katacoda.com/courses/container-runtimes</a> (Katacoda)</li>
+<li>Containerized Applications on AWS</li>
 </ul>
 </li>
-<li>Online Courses
+<li>Katacoda
 <ul>
-<li>Online Docker Training Course | KodeKloud (KodeKloud)</li>
+<li><a href="https://www.katacoda.com/courses/docker">https://www.katacoda.com/courses/docker</a></li>
+<li><a href="https://www.katacoda.com/courses/container-runtimes">https://www.katacoda.com/courses/container-runtimes</a></li>
+</ul>
+</li>
+<li>KodeKloud
+<ul>
+<li>Online Docker Training Course</li>
+<li>Online Docker Training Course For Beginners &amp; Advanced</li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
 <li>Docker Fundamentals for Developers (Pluralsight)</li>
-<li>Online Docker Training Course For Beginners &amp; Advanced | KodeKloud (KodeKloud)</li>
-<li>Containerized Applications on AWS  (Coursera)</li>
 </ul>
 </li>
 </ul>
@@ -391,6 +358,52 @@
 <li><a href="https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/">Security Threats, Attacks &amp; Vulnerabilities</a></li>
 </ul>
 </li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Mac Homebrew packages</title>
+      <link>https://jamesm.blog/devops/mac-brew-packages/</link>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/mac-brew-packages/</guid>
+      <description>Essential bat - Linux “cat” command alternative with syntax highlighting glow - Markdown reader htop - Top clone with syntax highlighting and mouse support jq - sed for JSON data jupyter - JupyterHub notebooks k9s - Monitor Kubernetes resources pyenv - Python version management python - Python (3.11) terraform - Terraform tfswitch - Switch Terraform versions (warrensbox/tap/tfswitch) tree - View folders and files in a visual tree (tree -L ) wget - Download files yq - Lightweight and portable command-line YAML, JSON and XML processor Others django - Python Web framework glances - Console (and web) based server monitoring tool httpie - A curl-like tool to interact with HTTP servers lnav - Explore and troubleshoot cryptic log files midnight-commander - File explorer mtr - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues navi - Interactive cheatsheet tool ncdu - Disk space analyzer, find big files &amp;amp; directories npm - Node Package Manager pytorch - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing ranger - Directory / file explorer providing an easier way to find files via the terminal snappy - compression/decompression library aiming for high speed speedtest-cli - Test upload/download speed task - A todo app tensorflow - free and open-source software library for machine learning and artificial intelligence tmux - Run multiple terminal sessions within the same window youtube-dl - YouTube downloader </description>
+      <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
+<ul>
+<li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>
+<li><strong>glow</strong> - Markdown reader</li>
+<li><strong>htop</strong> - Top clone with syntax highlighting and mouse support</li>
+<li><strong>jq</strong> - sed for JSON data</li>
+<li><strong>jupyter</strong> - JupyterHub notebooks</li>
+<li><strong>k9s</strong> - Monitor Kubernetes resources</li>
+<li><strong>pyenv</strong> - Python version management</li>
+<li><strong>python</strong> - Python (3.11)</li>
+<li><strong>terraform</strong> - Terraform</li>
+<li><strong>tfswitch</strong> - Switch Terraform versions (warrensbox/tap/tfswitch)</li>
+<li><strong>tree</strong> - View folders and files in a visual tree (tree -L <level>)</li>
+<li><strong>wget</strong> - Download files</li>
+<li><strong>yq</strong> - Lightweight and portable command-line YAML, JSON and XML processor</li>
+</ul>
+<h2 id="others">Others</h2>
+<ul>
+<li><strong>django</strong> - Python Web framework</li>
+<li><strong>glances</strong> - Console (and web) based server monitoring tool</li>
+<li><strong>httpie</strong> - A curl-like tool to interact with HTTP servers</li>
+<li><strong>lnav</strong> - Explore and troubleshoot cryptic log files</li>
+<li><strong>midnight-commander</strong> - File explorer</li>
+<li><strong>mtr</strong> - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues</li>
+<li><strong>navi</strong> - Interactive cheatsheet tool</li>
+<li><strong>ncdu</strong> - Disk space analyzer, find big files &amp; directories</li>
+<li><strong>npm</strong> - Node Package Manager</li>
+<li><strong>pytorch</strong> - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing</li>
+<li><strong>ranger</strong> - Directory / file explorer providing an easier way to find files via the terminal</li>
+<li><strong>snappy</strong> - compression/decompression library aiming for high speed</li>
+<li><strong>speedtest-cli</strong> - Test upload/download speed</li>
+<li><strong>task</strong> - A todo app</li>
+<li><strong>tensorflow</strong> - free and open-source software library for machine learning and artificial intelligence</li>
+<li><strong>tmux</strong> - Run multiple terminal sessions within the same window</li>
+<li><strong>youtube-dl</strong> - YouTube downloader</li>
 </ul>
 ]]></content:encoded>
     </item>
