@@ -2,24 +2,23 @@
 title: "List of DevOps Courses"
 date: 2021-07-21T11:51:18+01:00
 draft: false
-tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'billing', 'pricing', 'glacier', 's3', 'whitepapers']
+tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a cloud guru', 'docker', 'iac', 'k8s', 'linux', 'networking', 'security', 'cicd', 'lambda', 'cloudacademy', 'architecture', 'php', 'mysql', 'storage', 'glacier', 's3', 'whitepapers']
 ---
 
 ## Amazon Web Services (AWS)
 
 ### AWS Associate Level Exams
-- A Cloud Guru
+- [A Cloud Guru](https://acloudguru.com/)
   - [AWS Certified Developer (Associate)](https://acloudguru.com/course/aws-certified-developer-associate/)
   - [AWS Certified Solutions Architect (Associate)](https://acloudguru.com/course/aws-certified-solutions-architect-associate-saa-c03/)
   - [AWS Certified SysOps Administrator (Associate)](https://acloudguru.com/course/aws-certified-sysops-administrator-associate-8Lkj/)
   - [Introduction to Amazon Cognito](https://acloudguru.com/course/introduction-to-amazon-cognito/)
-- CBT Nuggets
+- [CBT Nuggets](https://www.cbtnuggets.com/)
   - [AWS Certified Cloud Practitioner](https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/)
   - [AWS Certified Solutions Architect (Associate)](https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/)
   - [AWS Certified SysOps Administrator (Associate)](https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/)
-  - [AWS Technical Essentials](https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/)
-- CloudAcademy
-  - AWS Solutions Architect Associate Level Certification
+- [CloudAcademy](https://cloudacademy.com/)
+  - [AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS](https://cloudacademy.com/learning-paths/aws-solutions-architect-associate-saa-c03-certification-preparation-for-aws-1-7446/)
 - Pluralsight
   - [AWS Certified Developer (Associate)](https://www.pluralsight.com/paths/aws-certified-developer-associate)
   - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
@@ -30,33 +29,35 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - [AWS Certified SysOps Administrator (Associate)](https://www.whizlabs.com/aws-sysops-administrator-associate/)
 
 ### AWS Professional Level Exams
-- A Cloud Guru
+- [A Cloud Guru](https://acloudguru.com/)
   - [AWS Certified DevOps Engineer (Professional)](https://acloudguru.com/course/aws-certified-devops-engineer-professional/)
   - [AWS Certified Solutions Architect (Professional)](https://acloudguru.com/course/aws-certified-solutions-architect-professional/)
 - Pluralsight
   - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
 
 ### Cost Optimization
-- CloudAcademy
-  - AWS Billing Understand Billing And Pricing In Amazon Web Services
+- [CloudAcademy](https://cloudacademy.com/)
+  - [AWS Cost Management and Customer Support](https://cloudacademy.com/course/aws-cost-management-and-customer-support/introduction-36/)
 
 ### General
-- CloudAcademy
-  - Amazon Web Services AWS Introduction For Beginners
-  - Move Your Website To AWS With PHP MySQL And Apache
+- [CBT Nuggets](https://www.cbtnuggets.com/)
+  - [AWS Technical Essentials](https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/)
+- [CloudAcademy](https://cloudacademy.com/)
+  - [Introduction to Amazon Web Services (AWS)](https://cloudacademy.com/course/introduction-to-amazon-web-services-aws/course-introduction-and-overview-1/)
+  - [How to Move Your Website to AWS with PHP, MySQL, and Apache](https://cloudacademy.com/course/move-your-lamp-stack-to-aws/installing-the-lamp-stack-1/)
 
 ### High Availability
-- CloudAcademy
+- [CloudAcademy](https://cloudacademy.com/)
   - [How to Architect with a Design for Failure Approach](https://cloudacademy.com/course/how-to-architect-with-a-design-for-failure-approach/)
 
 ### Lambda
-- CloudAcademy
-  - Understanding AWS Lambda
+- [CloudAcademy](https://cloudacademy.com/)
+  - [AWS Lambda](https://cloudacademy.com/course/compute-fundamentals-for-aws/aws-lambda/)
 
 ### Storage
-- CloudAcademy
-  - Automated Data Management With EBS S3 And Glacier
-  - Storage On AWS
+- [CloudAcademy](https://cloudacademy.com/)
+  - [Automated Data Management with EBS, S3, and Glacier](https://cloudacademy.com/course/automated-data-management-with-ebs-s3-and-glacier/getting-started-5/)
+  - [Storage Fundamentals for AWS](https://cloudacademy.com/course/aws-storage-fundamentals-2016/introduction-32/)
 
 ### Whitepapers
 - AWS
@@ -148,6 +149,6 @@ tags: ['devops', 'training', 'courses', 'aws', 'cbt nuggets', 'whizlabs', 'a clo
   - AWS Networking (Pluralsight)
 
 # Security
-- CBT Nuggets
+- [CBT Nuggets](https://www.cbtnuggets.com/)
   - [CompTIA Security+ (SY0-601)](https://www.cbtnuggets.com/it-training/comptia/security-plus/)
   - [Security Threats, Attacks & Vulnerabilities](https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/)
