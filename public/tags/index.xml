@@ -187,11 +187,11 @@
     </item>
     
     <item>
-      <title>command line</title>
-      <link>https://jamesm.blog/tags/command-line/</link>
+      <title>cli</title>
+      <link>https://jamesm.blog/tags/cli/</link>
       <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tags/command-line/</guid>
+      <guid>https://jamesm.blog/tags/cli/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -247,31 +247,11 @@
     </item>
     
     <item>
-      <title>shell</title>
-      <link>https://jamesm.blog/tags/shell/</link>
-      <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/shell/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>terminal</title>
       <link>https://jamesm.blog/tags/terminal/</link>
       <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/terminal/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>a cloud guru</title>
-      <link>https://jamesm.blog/tags/a-cloud-guru/</link>
-      <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/a-cloud-guru/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -307,31 +287,11 @@
     </item>
     
     <item>
-      <title>cbt nuggets</title>
-      <link>https://jamesm.blog/tags/cbt-nuggets/</link>
-      <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/cbt-nuggets/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>cicd</title>
       <link>https://jamesm.blog/tags/cicd/</link>
       <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/cicd/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>cloudacademy</title>
-      <link>https://jamesm.blog/tags/cloudacademy/</link>
-      <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/cloudacademy/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -512,16 +472,6 @@
       <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/whitepapers/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>whizlabs</title>
-      <link>https://jamesm.blog/tags/whizlabs/</link>
-      <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/whizlabs/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -737,16 +687,6 @@
     </item>
     
     <item>
-      <title>cli</title>
-      <link>https://jamesm.blog/tags/cli/</link>
-      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/cli/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>macos</title>
       <link>https://jamesm.blog/tags/macos/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
@@ -832,6 +772,16 @@
       <pubDate>Sun, 07 May 2023 14:53:39 +0100</pubDate>
       
       <guid>https://jamesm.blog/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>a cloud guru</title>
+      <link>https://jamesm.blog/tags/a-cloud-guru/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/a-cloud-guru/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -997,6 +947,16 @@
     </item>
     
     <item>
+      <title>whizlabs</title>
+      <link>https://jamesm.blog/tags/whizlabs/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/tags/whizlabs/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>bash</title>
       <link>https://jamesm.blog/tags/bash/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
@@ -1147,16 +1107,6 @@
     </item>
     
     <item>
-      <title>code with mosh</title>
-      <link>https://jamesm.blog/tags/code-with-mosh/</link>
-      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/code-with-mosh/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>crypto</title>
       <link>https://jamesm.blog/tags/crypto/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
@@ -1197,11 +1147,11 @@
     </item>
     
     <item>
-      <title>tutorial</title>
-      <link>https://jamesm.blog/tags/tutorial/</link>
+      <title>tutorials</title>
+      <link>https://jamesm.blog/tags/tutorials/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tags/tutorial/</guid>
+      <guid>https://jamesm.blog/tags/tutorials/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -1227,21 +1177,11 @@
     </item>
     
     <item>
-      <title>computer hardware</title>
-      <link>https://jamesm.blog/tags/computer-hardware/</link>
+      <title>computing</title>
+      <link>https://jamesm.blog/tags/computing/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:01 +0100</pubDate>
       
-      <guid>https://jamesm.blog/tags/computer-hardware/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>computers</title>
-      <link>https://jamesm.blog/tags/computers/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:01 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/tags/computers/</guid>
+      <guid>https://jamesm.blog/tags/computing/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

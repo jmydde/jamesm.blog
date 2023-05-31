@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tutorials on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/tutorials/</link>
+    <description>Recent content in tutorials on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 28 May 2021 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of Development Courses</title>
+      <link>https://jamesm.blog/devops/dev-courses/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/dev-courses/</guid>
+      <description>Code With Mosh The Ultimate Django Series The Ultimate React Native Series Ultimate C++ Series </description>
+      <content:encoded><![CDATA[<h2 id="code-with-mosh">Code With Mosh</h2>
+<ul>
+<li>The Ultimate Django Series</li>
+<li>The Ultimate React Native Series</li>
+<li>Ultimate C++ Series</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

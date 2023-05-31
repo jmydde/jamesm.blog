@@ -2,7 +2,7 @@
 title: "List of DevOps GitHub Projects"
 date: 2023-05-29T06:45:18+01:00
 draft: false
-tags: ["airflow", "apache", "devops", "github", "command line", "shell", "terminal", "kubernetes", "k8s", "scheduling"]
+tags: ["airflow", "apache", "devops", "github", "cli", "terminal", "kubernetes", "k8s", "scheduling"]
 ---
 ### DevOps & Site Reliability Engineering (SRE)
 - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability/) - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems
