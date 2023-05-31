@@ -70,9 +70,8 @@ params:
     - data
     - devops
     - general
-    - general/tweets
     - music-production
-    - self-improvement
+    - self-development
     - web3
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
