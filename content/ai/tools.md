@@ -2,11 +2,11 @@
 title: "List of AI Tools & Companies"
 date: 2023-05-29T22:17:14+01:00
 draft: false
-tags: ["ai", "links", "tools", "images", "graphics", "llm", "chatbots", "chatgpt", "music", "text-to-speech", "writing", "copilot"]
+tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "chatgpt", "music", "text-to-speech", "writing", "copilot", "robotics"]
 ---
 ## AI Tools
 
-### Art, Graphics & Images
+### Art & Graphic Design
 - [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - mind-blowing 🤯 generative AI tool with Generative Fill, part of Adobe Photoshop
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
 - [DALL·E 2](https://openai.com/product/dall-e-2/) - creates realistic images & art from a description in natural language

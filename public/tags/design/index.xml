@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tools on jamesm.blog</title>
-    <link>https://jamesm.blog/tags/tools/</link>
-    <description>Recent content in tools on jamesm.blog</description>
+    <title>design on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/design/</link>
+    <description>Recent content in design on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 29 May 2023 22:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 22:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of AI Tools &amp; Companies</title>
       <link>https://jamesm.blog/ai/tools/</link>
@@ -109,97 +109,6 @@
 <li><a href="https://openai.com/">OpenAI</a> - AI research and deployment company</li>
 <li><a href="https://stability.ai/">Stability</a> - building the foundation to activate humanity&rsquo;s potential</li>
 <li><a href="https://www.tesla.com/en_gb/AI/">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Speechify - best text to speech app</title>
-      <link>https://jamesm.blog/ai/speechify/</link>
-      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/speechify/</guid>
-      <description>Speechify is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.
-The app also uses optical character recognition technology to turn physical books or printed text into audio.
-The app lets users take photos of text and then listen to it read out loud.</description>
-      <content:encoded><![CDATA[<p><a href="https://speechify.com/">Speechify</a> is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.</p>
-<p>The app also uses optical character recognition technology to turn physical books or printed text into audio.</p>
-<p>The app lets users take photos of text and then listen to it read out loud.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Notion</title>
-      <link>https://jamesm.blog/ai/notion/</link>
-      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/notion/</guid>
-      <description>Notion is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</description>
-      <content:encoded><![CDATA[<p><a href="https://www.notion.so/">Notion</a> is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>GitHub Copilot</title>
-      <link>https://jamesm.blog/ai/github-copilot/</link>
-      <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
-GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
-Focus on more satisfying work, be more producttive, speed up repetitve tasks.
-Supported IDEs
-Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</description>
-      <content:encoded><![CDATA[<p><a href="https://github.com/features/copilot">GitHub Copilot</a> is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</p>
-<p>GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.</p>
-<p>Focus on more satisfying work, be more producttive, speed up repetitve tasks.</p>
-<p>Supported IDEs</p>
-<ul>
-<li>Neovim</li>
-<li>JetBrains IDEs</li>
-<li>Visual Studio</li>
-<li>Visual Studio Code</li>
-</ul>
-<p>Price: $10 / month</p>
-<p>Links</p>
-<ul>
-<li><a href="https://docs.github.com/en/copilot">Documentation</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>List of ETL Tools</title>
-      <link>https://jamesm.blog/data/etl-tools/</link>
-      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/data/etl-tools/</guid>
-      <description>What is ETL ? Extracting data from sources Transforming data into data models Loading data into data warehouses ETL Tools Ab Initio AWS Data Pipeline AWS Glue Azure Data Factory CloverDX Datastage Google Cloud Dataflow Hevo Informatica Integrate Matillion Pentaho Data Integration (PDI) Qlik Compose SAP Data Services SQL Server Integration Services (SSIS) Stitch Talend </description>
-      <content:encoded><![CDATA[<h3 id="what-is-etl-">What is ETL ?</h3>
-<ul>
-<li><strong>E</strong>xtracting data from sources</li>
-<li><strong>T</strong>ransforming data into data models</li>
-<li><strong>L</strong>oading data into data warehouses</li>
-</ul>
-<h3 id="etl-tools">ETL Tools</h3>
-<ul>
-<li><a href="https://www.abinitio.com/">Ab Initio</a></li>
-<li><a href="https://aws.amazon.com/datapipeline/">AWS Data Pipeline</a></li>
-<li><a href="https://aws.amazon.com/glue/">AWS Glue</a></li>
-<li><a href="https://learn.microsoft.com/en-us/azure/data-factory/">Azure Data Factory</a></li>
-<li><a href="https://www.cloverdx.com/">CloverDX</a></li>
-<li><a href="https://www.ibm.com/products/datastage">Datastage</a></li>
-<li><a href="https://cloud.google.com/dataflow">Google Cloud Dataflow</a></li>
-<li><a href="https://hevodata.com/">Hevo</a></li>
-<li><a href="https://www.informatica.com/">Informatica</a></li>
-<li><a href="https://www.integrate.io/">Integrate</a></li>
-<li><a href="https://www.matillion.com/">Matillion</a></li>
-<li><a href="https://help.hitachivantara.com/Documentation/Pentaho/8.3/Products/Pentaho_Data_Integration">Pentaho Data Integration (PDI)</a></li>
-<li><a href="https://www.qlik.com/us/products/qlik-compose-data-warehouses">Qlik Compose</a></li>
-<li><a href="https://www.sap.com/products/technology-platform/data-services.html">SAP Data Services</a></li>
-<li><a href="https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services/">SQL Server Integration Services (SSIS)</a></li>
-<li><a href="https://www.stitchdata.com/">Stitch</a></li>
-<li><a href="https://www.talend.com/">Talend</a></li>
 </ul>
 ]]></content:encoded>
     </item>
