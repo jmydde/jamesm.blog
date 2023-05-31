@@ -2,7 +2,7 @@
 title: "List of Data Engineering & Data Science Courses"
 date: 2023-05-06T06:51:25+01:00
 draft: false
-tags: ['a cloud guru', 'airflow', 'data', 'data engineering', 'data science', 'database', 'databricks', 'datacamp', 'db', 'deep learning', 'coursera', 'courses', 'etl', 'google', 'links', 'nosql', 'pipelines', 'python', 'scheduling', 'streaming', 'snowflake', 'tensorflow', 'training', 'udemy', 'whizlabs']
+tags: ['airflow', 'data', 'data engineering', 'data science', 'database', 'databricks', 'datacamp', 'db', 'deep learning', 'courses', 'etl', 'google', 'nosql', 'pipelines', 'python', 'scheduling', 'streaming', 'snowflake', 'tensorflow', 'training']
 ---
 
 ## Data Engineering

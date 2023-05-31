@@ -2,7 +2,7 @@
 title: "List of ETL Tools"
 date: 2021-01-01T06:51:25+01:00
 draft: false
-tags: ['abinitio', 'aws', 'azure', 'data', 'etl', 'links', 'tools']
+tags: ['abinitio', 'aws', 'azure', 'data', 'etl']
 ---
 ### What is ETL ?
 - **E**xtracting data from sources
