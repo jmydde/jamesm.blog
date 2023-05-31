@@ -599,7 +599,7 @@ https://go.aws/3OnFKZa </description>
       
       <guid>https://jamesm.blog/devops/books/</guid>
       <description>A list of recommended DevOps books &amp;hellip;
-DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Go Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
+DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Golang Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
       <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
 <h2 id="devops">DevOps</h2>
 <ul>
@@ -634,7 +634,7 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
 </ul>
-<h3 id="go">Go</h3>
+<h3 id="golang">Golang</h3>
 <ul>
 <li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
 <li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
@@ -686,21 +686,6 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
 <li><a href="https://azure.microsoft.com/en-gb/products/devops">Azure DevOps</a> - provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities</li>
 <li><a href="https://about.gitlab.com/">GitLab</a> - allows software development teams to plan, code, test, deploy and monitor product changes in one place</li>
 <li><a href="https://www.jenkins.io/">Jenkins</a> - the leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>DevOps Whitepapers</title>
-      <link>https://jamesm.blog/devops/whitepapers/</link>
-      <pubDate>Wed, 21 Jul 2021 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/devops/whitepapers/</guid>
-      <description>AWS AWS Whitepapers &amp;amp; Guides - expand your knowledge of the cloud with AWS technical content authored by AWS and the AWS community, including technical whitepapers, technical guides, reference material, and reference architecture diagrams Introduction to DevOps on AWS </description>
-      <content:encoded><![CDATA[<h1 id="aws">AWS</h1>
-<ul>
-<li><a href="https://aws.amazon.com/whitepapers/">AWS Whitepapers &amp; Guides</a> - expand your knowledge of the cloud with AWS technical content authored by AWS and the AWS community, including technical whitepapers, technical guides, reference material, and reference architecture diagrams</li>
-<li><a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html/">Introduction to DevOps on AWS</a></li>
 </ul>
 ]]></content:encoded>
     </item>

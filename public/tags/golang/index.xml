@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>perl on jamesm.blog</title>
-    <link>https://jamesm.blog/tags/perl/</link>
-    <description>Recent content in perl on jamesm.blog</description>
+    <title>golang on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/golang/</link>
+    <description>Recent content in golang on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Apr 2023 23:07:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 23:07:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevOps Books</title>
       <link>https://jamesm.blog/devops/books/</link>
@@ -13,7 +13,7 @@
       
       <guid>https://jamesm.blog/devops/books/</guid>
       <description>A list of recommended DevOps books &amp;hellip;
-DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Go Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
+DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Golang Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
       <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
 <h2 id="devops">DevOps</h2>
 <ul>
@@ -48,7 +48,7 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
 </ul>
-<h3 id="go">Go</h3>
+<h3 id="golang">Golang</h3>
 <ul>
 <li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
 <li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>

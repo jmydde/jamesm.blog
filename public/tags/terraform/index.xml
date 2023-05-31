@@ -59,7 +59,7 @@
       
       <guid>https://jamesm.blog/devops/books/</guid>
       <description>A list of recommended DevOps books &amp;hellip;
-DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Go Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
+DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Dive Kubernetes Kubernetes: Up and Running The Kubernetes Book IaC Terraform Terraform: Up and Running: Writing Infrastructure as Code Linux Linux in a Nutshell Programming Bash Learning the bash Shell C/C++ The C Programming Language Golang Introducing Go Learning Go Perl Learning Perl Mastering Perl Programming Perl Python Dive Into Python SQL Learning SQL </description>
       <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
 <h2 id="devops">DevOps</h2>
 <ul>
@@ -94,7 +94,7 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
 </ul>
-<h3 id="go">Go</h3>
+<h3 id="golang">Golang</h3>
 <ul>
 <li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
 <li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>

@@ -2,7 +2,7 @@
 title: "DevOps Books"
 date: 2023-04-21T23:07:18+01:00
 draft: false
-tags: ['devops', 'books', 'python', 'docker', 'k8s', 'kubernetes', 'terraform', 'iac', 'linux', 'programming', 'bash', 'c++', 'go', 'perl', 'sql']
+tags: ['devops', 'books', 'python', 'docker', 'k8s', 'kubernetes', 'terraform', 'iac', 'linux', 'programming', 'bash', 'sql', 'golang']
 ---
 A list of recommended DevOps books ...
 
@@ -35,7 +35,7 @@ A list of recommended DevOps books ...
 ### C/C++
 * [The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language)
 
-### Go
+### Golang
 * [Introducing Go](https://www.oreilly.com/library/view/introducing-go/9781491941997/)
 * [Learning Go](https://www.oreilly.com/library/view/learning-go/9781492077206/)
 
