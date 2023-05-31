@@ -17,4 +17,4 @@ All offers end on **6th July 2023**
 See the full details here;
 - https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/
 
-{{< figure src="https://www.native-instruments.com/typo3temp/pics/img-homepage-summer-of-sound-2023-homepage-level-2-hardware-87b911435f812d4fe19451d573590e50-t@2x.jpg" title="Summer of Sound Sale (2023)" >}}
+{{< figure src="/music-production/news/images/ni-summer-of-sound-2023.jpg" title="Summer of Sound Sale (2023)" >}}
