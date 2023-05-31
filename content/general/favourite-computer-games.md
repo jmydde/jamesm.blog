@@ -2,7 +2,7 @@
 title: "Favourite Computer Games"
 date: 2020-01-01T00:00:01+01:00
 draft: false
-tags: ['computers', 'software', 'console gaming', 'gaming', 'games']
+tags: ['computers', 'software', 'console gaming', 'gaming']
 ---
 
 ## Apple IIe

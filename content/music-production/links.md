@@ -2,7 +2,7 @@
 title: "Music Production Links"
 date: 2023-05-10T14:53:39+01:00
 draft: false
-tags: ['music production', 'youtube', 'deals', 'discount', 'plugins']
+tags: ['music production', 'youtube', 'plugins', 'synths']
 ---
 
 ## YouTube

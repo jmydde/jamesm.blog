@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/general/</loc>
+    <lastmod>2023-05-31T08:52:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-05-31T08:52:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/phrases/</loc>
+    <lastmod>2023-05-31T08:52:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/tweets/phrases-to-teach-your-kids/</loc>
+    <lastmod>2023-05-31T08:52:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/self-development/</loc>
+    <lastmod>2023-05-31T08:52:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2023-05-31T08:52:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
     <lastmod>2023-05-29T22:17:14+01:00</lastmod>
   </url><url>
@@ -23,9 +41,6 @@
     <loc>https://jamesm.blog/tags/images/</loc>
     <lastmod>2023-05-29T22:17:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/links/</loc>
     <lastmod>2023-05-29T22:17:14+01:00</lastmod>
   </url><url>
@@ -36,9 +51,6 @@
     <lastmod>2023-05-29T22:17:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/music/</loc>
-    <lastmod>2023-05-29T22:17:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2023-05-29T22:17:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/text-to-speech/</loc>
@@ -266,13 +278,10 @@
     <loc>https://jamesm.blog/ai/tesla-bot/</loc>
     <lastmod>2023-05-16T21:24:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/</loc>
-    <lastmod>2023-05-15T14:53:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/ui/</loc>
     <lastmod>2023-05-15T14:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/worst-uis/</loc>
+    <loc>https://jamesm.blog/general/tweets/worst-uis/</loc>
     <lastmod>2023-05-15T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/brew/</loc>
@@ -302,16 +311,13 @@
     <loc>https://jamesm.blog/tags/terraform/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/deals/</loc>
-    <lastmod>2023-05-10T14:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/discount/</loc>
-    <lastmod>2023-05-10T14:53:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/general/links/</loc>
     <lastmod>2023-05-10T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music-production/links/</loc>
+    <lastmod>2023-05-10T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/synths/</loc>
     <lastmod>2023-05-10T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/youtube/</loc>
@@ -416,19 +422,34 @@
     <loc>https://jamesm.blog/ai/gpt-4/</loc>
     <lastmod>2023-03-16T14:53:39+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/keyboards/</loc>
+    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/music-production/my-hardware-software/</loc>
+    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/roland/</loc>
+    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/steinberg/</loc>
+    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/uvi/</loc>
+    <lastmod>2023-02-20T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/yamaha/</loc>
     <lastmod>2023-02-20T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/explainers/</loc>
     <lastmod>2023-02-15T19:05:35+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/explainer/</loc>
+    <loc>https://jamesm.blog/tags/stable-diffusion/</loc>
     <lastmod>2023-02-15T19:05:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/github-copilot/</loc>
     <lastmod>2023-01-14T11:51:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/15-visual-about-life/</loc>
+    <loc>https://jamesm.blog/general/tweets/visuals-about-life/</loc>
     <lastmod>2022-10-26T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/cicd-tools/</loc>
@@ -497,9 +518,6 @@
     <loc>https://jamesm.blog/general/favourite-computers/</loc>
     <lastmod>2020-01-01T00:00:01+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/games/</loc>
-    <lastmod>2020-01-01T00:00:01+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/gaming/</loc>
     <lastmod>2020-01-01T00:00:01+01:00</lastmod>
   </url><url>
@@ -516,17 +534,15 @@
   </url><url>
     <loc>https://jamesm.blog/categories/</loc>
   </url><url>
-    <loc>https://jamesm.blog/ideas/</loc>
-  </url><url>
     <loc>https://jamesm.blog/tags/cubase/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/general/</loc>
   </url><url>
     <loc>https://jamesm.blog/tags/ideas/</loc>
   </url><url>
-    <loc>https://jamesm.blog/search/</loc>
+    <loc>https://jamesm.blog/ideas/</loc>
   </url><url>
-    <loc>https://jamesm.blog/tags/self-development/</loc>
+    <loc>https://jamesm.blog/search/</loc>
   </url><url>
     <loc>https://jamesm.blog/series/</loc>
   </url>

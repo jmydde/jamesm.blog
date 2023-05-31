@@ -11,16 +11,7 @@ pygmentsUseClasses:     true
 title:                  jamesm.blog
 
 # Theme
-#theme: ananke
-#theme: beautifulhugo
-#theme: hugo-book
-#theme: hugo-devresume-theme
-#theme: hugo-paper
-#theme: hugo-PaperMod
-#theme: hugo-theme-stack
-#theme: LoveIt
-#theme: m10c
-#theme: terminal
+# Others: ananke beautifulhugo hugo-book hugo-devresume-theme hugo-paper hugo-PaperMod hugo-theme-stack LoveIt m10c terminal
 theme: hugo-PaperModX
 
 minify:
@@ -65,20 +56,21 @@ outputs:
     - RSS
 
 params:
-  author:                         James M
-  #comments:                      false
-  env:                            production
-  #description:                   "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  defaultTheme:                   auto
-  #disableSpecial1stPost:         true
-  #disableThemeToggle:            true
-  displayFullLangName:            true
-  images:                         ["papermod-cover.png"]
+  author:                 James M
+  #comments:              false
+  env:                    production
+  #description:           "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  defaultTheme:           auto
+  #disableSpecial1stPost: true
+  #disableThemeToggle:    true
+  displayFullLangName:    true
+  images:                 ["papermod-cover.png"]
   mainSections: 
     - ai
     - data
     - devops
     - general
+    - general/tweets
     - music-production
     - self-improvement
     - web3

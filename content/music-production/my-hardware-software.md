@@ -2,6 +2,7 @@
 title: "My Music Hardware & Software"
 date: 2023-02-20T14:53:39+01:00
 draft: false
+tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', 'steinberg']
 ---
 
 ## Music Hardware

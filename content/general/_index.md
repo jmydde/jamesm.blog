@@ -1,6 +1,6 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs", "general"]
-title = "Category: General"
+title = "General"
 author = "James M"
 tags = ["general"]
 +++
