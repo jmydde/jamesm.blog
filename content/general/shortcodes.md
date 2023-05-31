@@ -2,6 +2,7 @@
 title: "Hugo Shortcode Syntax"
 date: 2020-01-01T00:00:01+01:00
 draft: false
+tags: ['hugo', 'tweets']
 ---
 
 ### Code
