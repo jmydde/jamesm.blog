@@ -52,10 +52,12 @@ tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
 ## AI Newsletters
 - [Lore](https://www.lore.ai/) - weekly newsletter with the latest Generative AI news, insights and featured tools
 
-## Twitter
-- (to add)
+## AI Twitter Accounts
+- [Borriss](https://twitter.com/_Borriss_/) - developer & writer of practical AI
+- [Lex Fridman](https://twitter.com/lexfridman/) - host of Lex Fridman Podcast, research scientist at MIT
+- [Steve Mills](https://twitter.com/SteveMills/) - exploring creative uses of Generative AI
 
-## YouTube
+## AI YouTube Channels
 - [Artificial Intelligence - All in One](https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/)
 - [Connor Shorten](https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/)
 - [DeepLearningAI](https://www.youtube.com/c/Deeplearningai/)

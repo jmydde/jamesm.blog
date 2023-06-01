@@ -38,6 +38,10 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
 - [WavTool](https://wavtool.com/) - make high-quality music with an AI assistant in the browser, for free
 
+### Prompt Engineering
+- [Borriss](https://borriss.gumroad.com/)
+  - [The Advanced Prompt Writer Tool](https://borriss.gumroad.com/l/APW/) - write complex prompts in seconds
+
 ### Research
 - [SciSpace](https://scispace.com/) - do hours worth of reading and understanding in minutes
 
