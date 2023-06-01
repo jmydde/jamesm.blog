@@ -24,7 +24,7 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
     - [Harmony One](https://thinkspaceeducation.com/courses/hm1/)
     - [Harmony Two](https://thinkspaceeducation.com/courses/hm2/)
     - [How To Write Music](https://thinkspaceeducation.com/courses/htwm/)
-    - [Learn Music Theory](https://thinkspaceeducation.com/courses/lmt/) (Guy Michelmore)
+    - [Learn Music Theory](https://thinkspaceeducation.com/courses/lmt/)
 
 ### Piano Lessons
 - [Flowkey](https://www.flowkey.com/en)
@@ -37,28 +37,26 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 - [Mastering․com](https://www.youtube.com/@masteringcom/)
 - [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/)
 - [School of Synthesis](https://www.youtube.com/@SchoolofSynthesis/)
+- [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
 
 ## Music Production Reviews
 
 ### YouTube Channels
-- [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - Music hardware & software reviews
-- [Doctor Mix](https://www.youtube.com/@Doctormix/) - Weekly reviews, tips & techniques on music production, mixing and mastering
+- [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
+- [Doctor Mix](https://www.youtube.com/@Doctormix/) - weekly reviews, tips & techniques on music production, mixing and mastering
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
-- [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - Video production, photography & music production
-- [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/) - Synthesizer reviews & music production
-- [Sanjay C](https://www.youtube.com/@SanjayC/) - Music production, gear & tips
-- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) - Virtual instruments from developers all over the world
-- [Sound On Sound](https://www.youtube.com/@soundonsound/) - Recording & music technology magazine
-- [Venus Theory](https://www.youtube.com/@VenusTheory/) - Music production & reviews
-- [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - Music production & reviews
+- [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
+- [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
+- [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/) - synthesizer reviews & music production
+- [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
+- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) - virtual instruments from developers all over the world
+- [Sound On Sound](https://www.youtube.com/@soundonsound/) - recording & music technology magazine
+- [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
+- [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 
-## Other
-
-### YouTube Channels
+## Music Producers
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
-- [In The Mix](https://www.youtube.com/@inthemix/)
-- [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
-- [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - Electronic music producer from the UK
+- [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
 
-### Music Software & Plugin Deals
+## Music Software & Plugin Deals
 - [Audio Plugin Guy](https://www.audiopluginguy.com/deals/)

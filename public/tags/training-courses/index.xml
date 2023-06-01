@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>training courses on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/training-courses/</link>
+    <description>Recent content in training courses on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 06 May 2023 06:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/training-courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of AI Courses &amp; Learning Resources</title>
+      <link>https://jamesm.blog/ai/courses/</link>
+      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/courses/</guid>
+      <description>AI Books Deep Learning with Python The Elements of Statistical Learning AI Courses Class Central Elements of AI Coursera AI for Everyone Supervised Machine Learning: Regression and Classification DataCamp AI Fundamentals Introduction to ChatGPT edX Learning From Data (Introductory Machine Learning) Fast.ai Machine Learning Mastery PyTorch TensorFlow Udacity Intro to Artificial Intelligence (Free) Udemy Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4 AI Newsletters Lore - weekly newsletter with the latest Generative AI news, insights and featured tools Twitter (to add) YouTube Artificial Intelligence - All in One Connor Shorten DeepLearningAI Jeremy Howard Kaggle Lex Fridman sentdex The Artificial Intelligence Channel Two Minute Papers Yannic Kilcher- </description>
+      <content:encoded><![CDATA[<h2 id="ai-books">AI Books</h2>
+<ul>
+<li><a href="https://www.manning.com/books/deep-learning-with-python/">Deep Learning with Python</a></li>
+<li><a href="https://hastie.su.domains/Papers/ESLII.pdf/">The Elements of Statistical Learning</a></li>
+</ul>
+<h2 id="ai-courses">AI Courses</h2>
+<ul>
+<li><a href="https://www.classcentral.com/">Class Central</a>
+<ul>
+<li><a href="https://www.classcentral.com/course/independent-elements-of-ai-12469/">Elements of AI</a></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/learn/ai-for-everyone/">AI for Everyone</a></li>
+<li><a href="https://www.coursera.org/learn/machine-learning/">Supervised Machine Learning: Regression and Classification</a></li>
+</ul>
+</li>
+<li><a href="https://www.datacamp.com/">DataCamp</a>
+<ul>
+<li><a href="https://www.datacamp.com/courses/ai-fundamentals">AI Fundamentals</a></li>
+<li><a href="https://www.datacamp.com/courses/introduction-to-chatgpt">Introduction to ChatGPT</a></li>
+</ul>
+</li>
+<li><a href="https://www.edx.org/">edX</a>
+<ul>
+<li><a href="https://www.edx.org/course/learning-from-data-introductory-machine-learning/">Learning From Data (Introductory Machine Learning)</a></li>
+</ul>
+</li>
+<li><a href="https://www.fast.ai/">Fast.ai</a></li>
+<li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
+<li><a href="https://pytorch.org/tutorials/">PyTorch</a></li>
+<li><a href="https://www.tensorflow.org/learn/">TensorFlow</a></li>
+<li><a href="https://www.udacity.com/">Udacity</a>
+<ul>
+<li><a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/">Intro to Artificial Intelligence</a> (Free)</li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-az/">Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="ai-newsletters">AI Newsletters</h2>
+<ul>
+<li><a href="https://www.lore.ai/">Lore</a> - weekly newsletter with the latest Generative AI news, insights and featured tools</li>
+</ul>
+<h2 id="twitter">Twitter</h2>
+<ul>
+<li>(to add)</li>
+</ul>
+<h2 id="youtube">YouTube</h2>
+<ul>
+<li><a href="https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/">Artificial Intelligence - All in One</a></li>
+<li><a href="https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/">Connor Shorten</a></li>
+<li><a href="https://www.youtube.com/c/Deeplearningai/">DeepLearningAI</a></li>
+<li><a href="https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/">Jeremy Howard</a></li>
+<li><a href="https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/">Kaggle</a></li>
+<li><a href="https://www.youtube.com/user/lexfridman/">Lex Fridman</a></li>
+<li><a href="https://www.youtube.com/user/sentdex/">sentdex</a></li>
+<li><a href="https://www.youtube.com/c/TheArtificialIntelligenceChannel/">The Artificial Intelligence Channel</a></li>
+<li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/">Two Minute Papers</a></li>
+<li><a href="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/">Yannic Kilcher</a>-</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
