@@ -27,11 +27,11 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
     - [Learn Music Theory](https://thinkspaceeducation.com/courses/lmt/)
 
 ### Piano Lessons
-- [Flowkey](https://www.flowkey.com/en)
-- [Piano Genius](https://www.pianogenius.com/)
-- [Piano University](https://www.bestpianoclass.com/)
-- [Pianote](https://www.pianote.com/)
-- [Skoove](https://www.skoove.com/)
+- [Flowkey](https://www.flowkey.com/en) - practice notes and chords interactively and receive instant feedback
+- [Piano Genius](https://www.pianogenius.com/) - how to start playing your favorite songs now without the time and frustration of traditional lessons
+- [Piano University](https://www.bestpianoclass.com/dashboard/the-best-piano-theory-course-for-beginners/piano-superhuman-overview/) - become a piano superhuman
+- [Pianote](https://www.pianote.com/) - online piano lessons for all skill levels
+- [Skoove](https://www.skoove.com/) - complete online piano learning method
 
 ### YouTube Channels
 - [Mastering․com](https://www.youtube.com/@masteringcom/)
@@ -42,6 +42,7 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 ## Music Production Reviews
 
 ### YouTube Channels
+- [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
 - [Doctor Mix](https://www.youtube.com/@Doctormix/) - weekly reviews, tips & techniques on music production, mixing and mastering
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
