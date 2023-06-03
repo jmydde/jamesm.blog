@@ -45,6 +45,8 @@ tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
   - [Artificial Intelligence Masterclass](https://www.udemy.com/course/artificial-intelligence-masterclass/)
   - [Artificial Intelligence: Reinforcement Learning in Python](https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/)
   - [The Beginner's Guide to Artificial Intelligence (Unity 2022)](https://www.udemy.com/course/artificial-intelligence-in-unity/)
+- [Unity](https://learn.unity.com/)
+  - [Artificial Intelligence for Beginners](https://learn.unity.com/course/artificial-intelligence-for-beginners/)
 
 ## AI Learning Resources
 - [Google AI Build](https://ai.google/build/machine-learning/)

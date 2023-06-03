@@ -11,6 +11,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
 - [DALL·E 2](https://openai.com/product/dall-e-2/) - creates realistic images & art from a description in natural language
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia/) - animate your family photos
+- [Instorier](https://instorier.com/) - picture to 3D tool
 - [Leap](https://tryleap.ai/) - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs
 - [Playground](https://playgroundai.com/) - create any image from your imagination
 - [Stockimg AI](https://stockimg.ai/) - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations & art
@@ -31,6 +32,11 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Monica](https://monica.im/) - Chrome extension powered by ChatGPT
 - [UseChatGPT](https://usechatgpt.ai/) - use ChatGPT, Bard, Bing Chat & Claude on any website without copy & pasting
 - [Wiseone](https://wiseone.io/) - AI-powered browser extension that offers a new way of reading & exploring information
+
+### Gaming
+- [Nvidia Game AI](https://www.youtube.com/watch?v=nAEQdF3JAJo/)
+- [Unity](https://create.unity.com/ai-beta/) - AI ecosystem that will put AI-powered game-development tools in the hands of millions of creators
+- [Voyager](https://voyager.minedojo.org/) - open-ended embodied agent with large language models (LLMs)
 
 ### Music
 - [Beatoven](https://www.beatoven.ai/) - create customisable royalty free music that elevates your story
@@ -79,6 +85,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Brancher](https://brancher.ai/) - connect AI models to build AI apps in minutes, with no-code
 - [Decoherence](https://decoherence.co/) - create what can't be filmed
 - [DoNotPay](https://donotpay.com/) - the world's first robot lawyer
+- [Google Flood AI](https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/)
 - [Hints](https://hints.so/) - AI assistant that integrates with any software to perform tasks on your behalf
 - [Krisp](https://krisp.ai/) - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant
 - [Mixo](https://www.mixo.io/) - helps entrepreneurs quickly launch and validate their business ideas
