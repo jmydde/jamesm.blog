@@ -1,13 +1,14 @@
 ---
 title: "List of AI Tools & Companies"
 date: 2023-05-29T22:17:14+01:00
+lastmod: 2023-06-03T13:23:14+01:00
 draft: false
 tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "chatgpt", "music", "text-to-speech", "writing", "copilot", "robotics"]
 ---
 ## AI Tools
 
 ### Art & Graphic Design
-- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - mind-blowing 🤯 generative AI tool with Generative Fill, part of Adobe Photoshop
+- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - 🤯 generative AI tool with Generative Fill, part of Adobe Photoshop
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
 - [DALL·E 2](https://openai.com/product/dall-e-2/) - creates realistic images & art from a description in natural language
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia/) - animate your family photos
@@ -15,6 +16,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Leap](https://tryleap.ai/) - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs
 - [Playground](https://playgroundai.com/) - create any image from your imagination
 - [Stockimg AI](https://stockimg.ai/) - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations & art
+- [StyleDrop](https://styledrop.github.io/) - 🤯 text-to-image generation in any style
 
 ### ChatBot
 - [Google Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM

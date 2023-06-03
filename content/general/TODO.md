@@ -4,6 +4,7 @@ date: 2023-05-29T07:26:16+01:00
 draft: true
 ---
 ## TODO
+- Show last modified date - lastmod ?
 - Online editor plugin ?
 - Vim helper
 - Shortcode syntax highlighting
