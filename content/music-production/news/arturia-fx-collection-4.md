@@ -1,5 +1,5 @@
 ---
-title: "Arturia have released FX Collection 4"
+title: "Arturia releases FX Collection 4"
 date: 2023-06-02T09:53:39+01:00
 draft: false
 tags: ['music production', 'arturia', 'plugins', 'fx']
