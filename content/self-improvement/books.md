@@ -16,6 +16,7 @@ tags: ["self improvement", "books"]
 - [Zero to One](https://www.audible.co.uk/pd/Zero-to-One-Audiobook/) (Peter Thiel)
 
 ## Books
+- [100 Mental Models](https://wisdomtheory.gumroad.com/l/100MM/) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics & history
 - [Choose Yourself: Be Happy, Make Millions, Live the Dream](https://www.goodreads.com/book/show/17977529-choose-yourself/) (James Altucher)
 - [Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time](https://www.goodreads.com/book/show/95887.Eat_That_Frog_/) (Brian Tracy)
 - [Ego Is the Enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/) (Ryan Holiday)
