@@ -31,6 +31,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 ### Co-Pilot
 - [AskCodi](https://askcodi.com/) - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code
 - [GitHub Copilot](https://github.com/features/copilot/) - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
+- [KoPylot](https://github.com/avsthiago/kopylot/) - open-source AI-powered Kubernetes assistant to help developers & DevOps engineers easily manage & monitor their Kubernetes clusters
 - [Monica](https://monica.im/) - Chrome extension powered by ChatGPT
 - [UseChatGPT](https://usechatgpt.ai/) - use ChatGPT, Bard, Bing Chat & Claude on any website without copy & pasting
 - [Wiseone](https://wiseone.io/) - AI-powered browser extension that offers a new way of reading & exploring information
