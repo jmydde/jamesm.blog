@@ -33,6 +33,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [GitHub Copilot](https://github.com/features/copilot/) - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.
 - [KoPylot](https://github.com/avsthiago/kopylot/) - open-source AI-powered Kubernetes assistant to help developers & DevOps engineers easily manage & monitor their Kubernetes clusters
 - [Monica](https://monica.im/) - Chrome extension powered by ChatGPT
+- [Replit](https://replit.com/) - build software collaboratively with the power of AI, on any device, without spending a second on setup
 - [UseChatGPT](https://usechatgpt.ai/) - use ChatGPT, Bard, Bing Chat & Claude on any website without copy & pasting
 - [Wiseone](https://wiseone.io/) - AI-powered browser extension that offers a new way of reading & exploring information
 
@@ -64,8 +65,17 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Speechify](https://speechify.com/) - mobile and desktop app that reads text aloud using a computer generated Text to Speech voice
 - [Voicemaker](https://voicemaker.in/) - online free Text to Speech converter
 
-### Writing
+### Video
+- [Descript](https://www.descript.com/) - write, record, transcribe, edit, collaborate, and share your videos and podcasts
+- [Elai](https://elai.io/) - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen
+
+### Website Builders
 - [10Web](https://10web.io/) - AI-powered WordPress platform
+- [Durable](https://durable.co/) - AI website builder that generates an entire website with images and copy in seconds
+
+### Writing
+- [AISEO](https://aiseo.ai/) - AI writing assistant that delivers undetectable, human-like content in just a few clicks
+- [Bertha](https://bertha.ai/) - create engaging content without the hassle of creating it
 - [Compose](https://www.compose.ai/) - Chrome extension that cuts down your writing time with AI-powered autocompletion & text generation
 - [Decktopus](https://www.decktopus.com/) - AI-powered presentation generator
 - [Fireflies](https://fireflies.ai/) - automate your meeting notes: record, transcribe, search and analyze voice conversations
@@ -79,18 +89,19 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Quillbot](https://quillbot.com/) - AI-powered paraphrasing tool to enhance your writing
 - [Saga AI](https://saga.so/ai/) - write faster, and do better work directly in Saga with the help of a digital AI assistant
 - [Scribe](http://getscribe.how/chrome/) - automatically create step-by-step guides in seconds simply by watching you work
-- [Simplified](https://simplified.com/) - content marketing
+- [Simplified](https://simplified.com/) - supercharge content creation
 - [Sudowrite](https://www.sudowrite.com/) - AI novel writing assistant that makes the creative writing process more fun and interactive
 - [Text Blaze](https://blaze.today/) - eliminate repetitive typing and mistakes
 - [Tome](https://tome.app/) - world’s first generative storytelling format to truly harness the power of artificial intelligence
 - [Trinka](https://trinka.ai) - online grammar checker and language correction AI tool for academic and technical writing
 - [Writesonic](https://writesonic.com/) - create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster
 
-### Video
-- [Descript](https://www.descript.com/) - write, record, transcribe, edit, collaborate, and share your videos and podcasts
-- [Elai](https://elai.io/) - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen
+### YouTube
+- [Eightify](https://eightify.app/) - YouTube summaries powered by ChatGPT
+- [TubeBuddy](https://www.tubebuddy.com/) - optimize your YouTube channel faster
 
 ### Other
+- [Akkio](https://www.akkio.com/) - predictive AI for Analysts
 - [Brancher](https://brancher.ai/) - connect AI models to build AI apps in minutes, with no-code
 - [Decoherence](https://decoherence.co/) - create what can't be filmed
 - [DoNotPay](https://donotpay.com/) - the world's first robot lawyer
