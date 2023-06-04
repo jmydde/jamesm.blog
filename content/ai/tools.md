@@ -5,24 +5,44 @@ lastmod: 2023-06-03T13:23:14+01:00
 draft: false
 tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "chatgpt", "music", "text-to-speech", "writing", "copilot", "robotics"]
 ---
+
 ## AI Tools
 
 ### Art & Graphic Design
-- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - 🤯 generative AI tool with Generative Fill, part of Adobe Photoshop
+- [AutoDraw](http://autodraw.com) - fast drawing for everyone
+- [Adobe Firefly](https://www.adobe.com/ie/sensei/generative-ai/firefly.html/) - generative AI tool with Generative Fill, part of Adobe Photoshop
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted object, defect, people or text from your pictures
 - [DALL·E 2](https://openai.com/product/dall-e-2/) - creates realistic images & art from a description in natural language
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia/) - animate your family photos
 - [Instorier](https://instorier.com/) - picture to 3D tool
 - [Leap](https://tryleap.ai/) - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs
+- [Leonardo](http://leonardo.ai/) - create stunning game assets with AI
+- [Microsoft Designer](http://designer.microsoft.com/) - stunning designs, made lightning fast with AI
+- [Midjourney](http://midjourney.com) - generates images from natural language descriptions, called "prompts" (similar to OpenAI's DALL-E & Stable Diffusion)
 - [Playground](https://playgroundai.com/) - create any image from your imagination
 - [Stockimg AI](https://stockimg.ai/) - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations & art
-- [StyleDrop](https://styledrop.github.io/) - 🤯 text-to-image generation in any style
+- [StyleDrop](https://styledrop.github.io/) - text-to-image generation in any style
 
 ### ChatBot
+- http://buddygpt.ai
+- [ChatABC](https://chatabc.ai/) - features such as search web, team collaboration, prompt library & service never-goes-down
+- [ChatGPT](https://openai.com/blog/chatgpt/) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
+- http://cohere.com
 - [Google Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM
-- [OpenAI ChatGPT](https://openai.com/blog/chatgpt/) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
-- [OpenAI Playground](https://platform.openai.com/playground/) - explore the capabilities of various AI models developed by OpenAI
+- http://kaizan.ai
 - [Perplexity](https://www.perplexity.ai/) - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions
+- [Playground](https://platform.openai.com/playground/) - explore the capabilities of various AI models developed by OpenAI
+- http://quickchat.ai
+- http://typewise.app
+- http://yatterplus.in
+
+## Chrome Extensions
+- http://alicent.ai
+- http://compose.ai
+- http://finalscout.com
+- http://getvoila.ai
+- http://poised.com
+- http://wiseone.io
 
 ### Design
 - [Flair](https://flair.ai/) - AI design tool for branded content
@@ -73,6 +93,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 ### Video
 - [Descript](https://www.descript.com/) - write, record, transcribe, edit, collaborate, and share your videos and podcasts
 - [Elai](https://elai.io/) - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen
+- [Steve AI](https://www.steve.ai/) - make professional videos in minutes
 
 ### Website Builders
 - [10Web](https://10web.io/) - AI-powered WordPress platform
@@ -80,6 +101,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 
 ### Writing
 - [AISEO](https://aiseo.ai/) - AI writing assistant that delivers undetectable, human-like content in just a few clicks
+- [Beautiful](https://www.beautiful.ai/) - jumpstart your presentations
 - [Bertha](https://bertha.ai/) - create engaging content without the hassle of creating it
 - [Compose](https://www.compose.ai/) - Chrome extension that cuts down your writing time with AI-powered autocompletion & text generation
 - [Decktopus](https://www.decktopus.com/) - AI-powered presentation generator
@@ -106,6 +128,17 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [TubeBuddy](https://www.tubebuddy.com/) - optimize your YouTube channel faster
 
 ### Other
+1. http://vondy.com
+2. http://tldv.io
+3. http://taskade.com
+4. http://notion.so 
+5. http://bardeen.ai
+1. http://regie.ai
+2. http://twain.ai
+3. http://octaneai.com
+4. http://warmer.ai
+5. http://lavender.ai
+6. http://simplified.com
 - [Akkio](https://www.akkio.com/) - predictive AI for Analysts
 - [Brancher](https://brancher.ai/) - connect AI models to build AI apps in minutes, with no-code
 - [Decoherence](https://decoherence.co/) - create what can't be filmed
