@@ -4,9 +4,40 @@ date: 2023-05-28T09:02:39+01:00
 draft: false
 tags: ["self improvement", "youtube", "videos"]
 ---
-## YouTube Videos
+## [Absolute Motivation](https://www.youtube.com/channel/UCpmZQGTZXn9xd4nN59pbIWQ/)
+- ...
 
-### [TED Talks](https://www.ted.com/talks/)
+## [Actualized.org](https://www.youtube.com/user/ActualizedOrg/)
+- ...
+
+## [Be Inspired](https://www.youtube.com/@BeInspiredChannel/)
+- ...
+
+## [Big Think](https://www.youtube.com/@bigthink/)
+- ...
+
+## [etthehiphoppreacher](https://www.youtube.com/user/etthehiphoppreacher/)
+- ...
+
+## [FightMediocrity](https://www.youtube.com/user/phuckmediocrity/)
+- ...
+
+## [Improvement Pill](https://www.youtube.com/@ImprovementPill/)
+- ...
+
+## [Matt D'Avella](https://www.youtube.com/@mattdavella/)
+- ...
+
+## [Motivation Madness](https://www.youtube.com/user/viralrescue/)
+- ...
+
+## Podcasts
+- ...
+
+## [Team Fearless](https://www.youtube.com/@TeamFearless/)
+- ...
+
+## [TED Talks](https://www.ted.com/talks/)
 - [5 hindrances to self-mastery | Master Shi Heng YI](https://www.youtube.com/watch?v=4-079YIasck/) - serene talk about self-discovery
 - [A simple way to break a bad habit | Judson Brewer](https://www.youtube.com/watch?v=-moW9jvvMr4/) - Psychiatrist Judson Brewer studies the relationship between mindfulness and addiction
 - [Extreme Ownership | Jocko Willink](https://www.youtube.com/watch?v=ljqra3BcqWM/) - Jocko Willink explains from personal experience how war teaches you the most when things go wrong
@@ -22,5 +53,11 @@ tags: ["self improvement", "youtube", "videos"]
 - [What I learned from going blind in space | Chris Hadfield](https://www.youtube.com/watch?v=Zo62S0ulqhA/) - Chris Hadfield paints a vivid portrait of how to be prepared for the worst in space (and life)
 - [Why reading matters | Rita Carter](https://www.youtube.com/watch?v=muuWRKYi09s/) - speaking is already in our genes. But reading is not. Until about 100 years ago most people didn't do it all. When we read fiction especially, we create new pathways in our brain
 
-### [Tony Robbins](https://www.youtube.com/@TonyRobbinsLive/)
+## [The School of Life](https://www.youtube.com/@theschooloflifetv/)
+- ...
+
+## [Thomas Frank](https://www.youtube.com/@Thomasfrank/)
+- ...
+
+## [Tony Robbins](https://www.youtube.com/@TonyRobbinsLive/)
 - ...
