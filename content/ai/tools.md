@@ -24,25 +24,25 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [StyleDrop](https://styledrop.github.io/) - text-to-image generation in any style
 
 ### ChatBot
-- http://buddygpt.ai
+- [BuddyGPT](http://buddygpt.ai/) - the power of ChatGPT, on WhatsApp & Telegram
 - [ChatABC](https://chatabc.ai/) - features such as search web, team collaboration, prompt library & service never-goes-down
 - [ChatGPT](https://openai.com/blog/chatgpt/) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
-- http://cohere.com
+- [Cohere](http://cohere.com/) - build incredible products with world-class language AI
 - [Google Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM
-- http://kaizan.ai
+- [Kaizan](http://kaizan.ai/) - uses conversation intelligence to highlight client health and what will increase revenue
 - [Perplexity](https://www.perplexity.ai/) - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions
 - [Playground](https://platform.openai.com/playground/) - explore the capabilities of various AI models developed by OpenAI
-- http://quickchat.ai
-- http://typewise.app
-- http://yatterplus.in
+- [Quickchat](http://quickchat.ai/) - technology to build AI assistants that talk like a human
+- [Typewise](http://typewise.app/) - AI writing solution for customer service and sales teams
+- [Yatter+](http://yatterplus.in/) - personal AI-powered assistant on WhatsApp
 
 ## Chrome Extensions
-- http://alicent.ai
-- http://compose.ai
-- http://finalscout.com
-- http://getvoila.ai
-- http://poised.com
-- http://wiseone.io
+- [alicent](http://alicent.ai/) - browser extension for ChatGPT
+- [Compose](https://www.compose.ai/) - Chrome extension that cuts down your writing time with AI-powered autocompletion & text generation
+- [FinalScout](http://finalscout.com/) - ChatGPT-powered email finding & outreach at scale
+- [Voilà](http://getvoila.ai/) - personal AI assistant for supercharged productivity
+- [Poised](http://poised.com/) - AI-powered communication coach that helps you speak with confidence and clarity
+- [Wiseone](http://wiseone.io/) - helps you master any topic you are reading online by bringing relevant and reliable information
 
 ### Design
 - [Flair](https://flair.ai/) - AI design tool for branded content
@@ -73,9 +73,6 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
 - [WavTool](https://wavtool.com/) - make high-quality music with an AI assistant in the browser, for free
 
-### Productivity
-- [Bardeen](https://www.bardeen.ai/) - mission is to help people leverage technology, do more of what they love, and stay in the flow
-
 ### Prompt Engineering
 - [Borriss](https://borriss.gumroad.com/)
   - [The Advanced Prompt Writer Tool](https://borriss.gumroad.com/l/APW/) - write complex prompts in seconds
@@ -103,7 +100,6 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [AISEO](https://aiseo.ai/) - AI writing assistant that delivers undetectable, human-like content in just a few clicks
 - [Beautiful](https://www.beautiful.ai/) - jumpstart your presentations
 - [Bertha](https://bertha.ai/) - create engaging content without the hassle of creating it
-- [Compose](https://www.compose.ai/) - Chrome extension that cuts down your writing time with AI-powered autocompletion & text generation
 - [Decktopus](https://www.decktopus.com/) - AI-powered presentation generator
 - [Fireflies](https://fireflies.ai/) - automate your meeting notes: record, transcribe, search and analyze voice conversations
 - [Gamma](https://gamma.app/) - start writing beautiful & engaging content with none of the formatting and design work
@@ -128,27 +124,25 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [TubeBuddy](https://www.tubebuddy.com/) - optimize your YouTube channel faster
 
 ### Other
-1. http://vondy.com
-2. http://tldv.io
-3. http://taskade.com
-4. http://notion.so 
-5. http://bardeen.ai
-1. http://regie.ai
-2. http://twain.ai
-3. http://octaneai.com
-4. http://warmer.ai
-5. http://lavender.ai
-6. http://simplified.com
 - [Akkio](https://www.akkio.com/) - predictive AI for Analysts
+- [Bardeen](https://www.bardeen.ai/) - mission is to help people leverage technology, do more of what they love, and stay in the flow
 - [Brancher](https://brancher.ai/) - connect AI models to build AI apps in minutes, with no-code
 - [Decoherence](https://decoherence.co/) - create what can't be filmed
 - [DoNotPay](https://donotpay.com/) - the world's first robot lawyer
 - [Google Flood AI](https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/)
 - [Hints](https://hints.so/) - AI assistant that integrates with any software to perform tasks on your behalf
 - [Krisp](https://krisp.ai/) - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant
+- http://lavender.ai
 - [Mixo](https://www.mixo.io/) - helps entrepreneurs quickly launch and validate their business ideas
 - [MosaicTrack](https://mosaic.ai/) - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set
+- http://octaneai.com
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
+- http://regie.ai
+- http://taskade.com
+- http://tldv.io
+- http://twain.ai
+- http://vondy.com
+- http://warmer.ai
 - [WNR](https://wnr.ai/) - prompts made easy with AI templates
 
 ### Research
