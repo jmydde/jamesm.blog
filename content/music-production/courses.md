@@ -2,21 +2,29 @@
 title: "List of Music Production Courses & Reviews"
 date: 2023-01-01T14:53:39+01:00
 draft: false
-tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music theory']
+tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music theory', 'logic pro', 'ableton']
 ---
 
-## Music Production Courses
-
-### General
-- [Ask Video](https://ask.video/)
-  - Ableton, Cubase, Logic Pro, Native Instruments ...
+### Music Production Websites
+- [Ask Video](https://ask.video/) - Ableton, Cubase, Logic Pro, Native Instruments ...
 - [Born to Produce](https://www.borntoproduce.com/)
-- [Groove3](https://www.groove3.com/)
-  - Ableton, BitWig Studio, Cubase, FL Studio, Logic Pro, Maschine ...
+- [Groove3](https://www.groove3.com/) - Ableton, BitWig Studio, Cubase, FL Studio, Logic Pro, Maschine ...
 - [macProVideo](https://www.macprovideo.com/)
 - [Point Blank Music School](https://www.pointblankmusicschool.com/)
 - [Steinberg](https://www.steinberg.net/education/certified-training/)
+
+## Music Production Courses
+
+### Ableton
 - [Udemy](https://www.udemy.com/)
+  - [Tomas George](https://www.udemy.com/user/tomas-george/) - music producer, composer & audio engineer
+    - [Ableton Live 11 - Music Production in Ableton Live](https://www.udemy.com/course/ableton-live-11-course/) - learn music production, recording, editing, music mixing, songwriting & music theory
+
+### Logic Pro
+- [Udemy](https://www.udemy.com/)
+  - [Tomas George](https://www.udemy.com/user/tomas-george/) - music producer, composer & audio engineer
+    - [Music Production in Logic Pro X - The Beginners Guide!](https://www.udemy.com/course/logicproxintro/) - learn the basics of setting up, creating music & music production in Logic Pro X
+    - [Music Production in Logic Pro X - The Complete Course!](https://www.udemy.com/course/thecompletelogicprox/) - creating, recording, mixing music & mastering in Logic Pro X
 
 ### Music Theory
 - [ThinkSpace Education](https://thinkspaceeducation.com/)
