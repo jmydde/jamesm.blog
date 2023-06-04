@@ -53,6 +53,7 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
 - [Doctor Mix](https://www.youtube.com/@Doctormix/) - weekly reviews, tips & techniques on music production, mixing and mastering
+- [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
@@ -60,12 +61,9 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
 - [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) - virtual instruments from developers all over the world
 - [Sound On Sound](https://www.youtube.com/@soundonsound/) - recording & music technology magazine
+- [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
 - [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
-
-## Music Producers
-- [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
-- [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
 
 ## Music Software & Plugin Deals
 - [Audio Plugin Guy](https://www.audiopluginguy.com/deals/)
