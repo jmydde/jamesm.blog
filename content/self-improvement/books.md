@@ -16,8 +16,8 @@ tags: ["self improvement", "books"]
 - [Zero to One](https://www.audible.co.uk/pd/Zero-to-One-Audiobook/) (Peter Thiel)
 
 ## Books
-- [100 Mental Models](https://wisdomtheory.gumroad.com/l/100MM/) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics & history
-- [Choose Yourself: Be Happy, Make Millions, Live the Dream](https://www.goodreads.com/book/show/17977529-choose-yourself/) (James Altucher)
+- [100 Mental Models](https://wisdomtheory.gumroad.com/l/100MM/) ([Wisdom Theory](https://wisdomtheory.gumroad.com/)) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics & history
+- [Choose Yourself: Be Happy, Make Millions, Live the Dream](https://www.goodreads.com/book/show/17977529-choose-yourself/) ([James Altucher](https://www.goodreads.com/author/show/740.James_Altucher/)) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)
 - [Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time](https://www.goodreads.com/book/show/95887.Eat_That_Frog_/) (Brian Tracy)
 - [Ego Is the Enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/) (Ryan Holiday)
 - [Get the Edge](https://www.goodreads.com/en/book/show/6235336/) (Tony Robbins)
