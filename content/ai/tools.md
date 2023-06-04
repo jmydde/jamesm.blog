@@ -47,6 +47,9 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
 - [WavTool](https://wavtool.com/) - make high-quality music with an AI assistant in the browser, for free
 
+### Productivity
+- [Bardeen](https://www.bardeen.ai/) - mission is to help people leverage technology, do more of what they love, and stay in the flow
+
 ### Prompt Engineering
 - [Borriss](https://borriss.gumroad.com/)
   - [The Advanced Prompt Writer Tool](https://borriss.gumroad.com/l/APW/) - write complex prompts in seconds
@@ -70,7 +73,9 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Jasper](https://www.jasper.ai/) - AI writer and AI art generator
 - [Kickresume](https://www.kickresume.com/en/) - create a beautiful resume in minutes using AI & customizable templates
 - [Notion](https://www.notion.so/product/ai/) - organizational tools including task management, project tracking, to-do lists, bookmarking, and more
-- [Ocoya](https://www.ocoya.com/) - Create and schedule social media, content marketing & copywriting quicker using AI
+- [Ocoya](https://www.ocoya.com/) - create and schedule social media, content marketing & copywriting quicker using AI
+- [Paperpal](https://paperpal.com/) - real-time, subject-specific language suggestions that help you write better, faster
+- [Postwise](https://postwise.ai/) - craft engaging posts with AI, schedule effortlessly and watch your followers grow
 - [Quillbot](https://quillbot.com/) - AI-powered paraphrasing tool to enhance your writing
 - [Saga AI](https://saga.so/ai/) - write faster, and do better work directly in Saga with the help of a digital AI assistant
 - [Scribe](http://getscribe.how/chrome/) - automatically create step-by-step guides in seconds simply by watching you work
@@ -79,6 +84,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Text Blaze](https://blaze.today/) - eliminate repetitive typing and mistakes
 - [Tome](https://tome.app/) - world’s first generative storytelling format to truly harness the power of artificial intelligence
 - [Trinka](https://trinka.ai) - online grammar checker and language correction AI tool for academic and technical writing
+- [Writesonic](https://writesonic.com/) - create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster
 
 ### Video
 - [Descript](https://www.descript.com/) - write, record, transcribe, edit, collaborate, and share your videos and podcasts
@@ -95,6 +101,17 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [MosaicTrack](https://mosaic.ai/) - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
 - [WNR](https://wnr.ai/) - prompts made easy with AI templates
+
+### Research
+- [Consensus](https://consensus.app/) - search engine that uses AI to extract and distill findings directly from scientific research
+- [Scholarcy](https://www.scholarcy.com/) - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections
+
+### Twitter
+- [BlackMagic](https://blackmagic.so/) - enhanced Twitter for pro tweeters
+- [Hypefury](https://hypefury.com/) - personal assistant to grow & monetize your Twitter audience
+- [Tribescaler](https://tribescaler.com/) - get more impressions, grow a better network and earn more money
+- [Tweet Hunter](https://tweethunter.io/) - build & monetize your Twitter audience
+- [Tweetlify](https://www.tweetlify.co/) - create viral tweets, grow followers & make money
 
 ## AI Research Companies
 - [Boston Dynamics](https://www.youtube.com/@BostonDynamics/) - create exceptional robots that enrich people’s lives
