@@ -43,8 +43,13 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Voyager](https://voyager.minedojo.org/) - open-ended embodied agent with large language models (LLMs)
 
 ### Music
+- [Audoir](https://www.audoir.com/) - AI lyrics & poetry generator
 - [Beatoven](https://www.beatoven.ai/) - create customisable royalty free music that elevates your story
+- [Boomy](https://boomy.com/) - create original songs in seconds
+- [Brain.fm](https://www.brain.fm/) - get more done with less effort & unlock your best self on demand
+- [Infinite Album](https://www.infinitealbum.io/) - generative AI music for gamers
 - [LALAL.AI](https://www.lalal.ai/) - extract vocal, accompaniment & various instruments from any audio / video
+- [Muzeek](https://muzeek.com/) - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
 - [WavTool](https://wavtool.com/) - make high-quality music with an AI assistant in the browser, for free
 
