@@ -44,8 +44,8 @@ languages:
           url: /general
         - name: Music
           url: /music-production
-        - name: Self Improvement
-          url: /self-improvement
+        - name: Personal Development
+          url: /personal-development
         - name: Web3
           url: /web3
 
@@ -71,7 +71,7 @@ params:
     - devops
     - general
     - music-production
-    - self-improvement
+    - personal-development
     - web3
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
@@ -103,7 +103,7 @@ params:
       - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
       - [**General**](/general) (general topics & news)
       - [**Music Production**](/music-production) (computer hardware & software)
-      - [**Self Improvement**](/self-improvement) (books, courses)
+      - [**Personal Development**](/personal-development) (books, courses)
       - [**Web3**](/web3) (Blockchain, decentralization)
 
   socialIcons:
