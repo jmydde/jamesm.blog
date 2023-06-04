@@ -2,7 +2,7 @@
 title: "DevOps Books"
 date: 2023-04-21T23:07:18+01:00
 draft: false
-tags: ['devops', 'books', 'python', 'docker', 'k8s', 'kubernetes', 'terraform', 'iac', 'linux', 'programming', 'bash', 'sql', 'golang']
+tags: ['devops', 'books', 'python', 'docker', 'kubernetes', 'terraform', 'iac', 'linux', 'programming', 'bash', 'sql', 'golang']
 ---
 A list of recommended DevOps books ...
 

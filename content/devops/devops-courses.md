@@ -2,7 +2,7 @@
 title: "List of DevOps Courses"
 date: 2023-05-28T11:51:18+01:00
 draft: false
-tags: ['architecture', 'aws', 'azure', 'cicd', 'consul', 'courses', 'databases', 'db', 'devops', 'docker', 'gcp', 'git', 'gitops', 'hashicorp', 'iac', 'k8s', 'k8s', 'kubernetes', 'lambda', 'linux', 'networking', 'python', 's3', 'security', 'storage', 'terraform', 'training', 'vpc', 'whitepapers', 'vault']
+tags: ['architecture', 'aws', 'azure', 'cicd', 'consul', 'courses', 'databases', 'db', 'devops', 'docker', 'gcp', 'git', 'gitops', 'hashicorp', 'iac', 'kubernetes', 'lambda', 'linux', 'networking', 'python', 's3', 'security', 'storage', 'terraform', 'training', 'vpc', 'whitepapers', 'vault']
 ---
 
 ## Amazon Web Services (AWS)

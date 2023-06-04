@@ -2,7 +2,7 @@
 title: "List of DevOps GitHub Projects"
 date: 2023-05-29T06:45:18+01:00
 draft: false
-tags: ["airflow", "apache", "devops", "github", "cli", "terminal", "kubernetes", "k8s", "scheduling"]
+tags: ["airflow", "apache", "devops", "github", "cli", "terminal", "kubernetes", "scheduling"]
 ---
 ### DevOps & Site Reliability Engineering (SRE)
 - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability/) - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems
@@ -15,7 +15,7 @@ tags: ["airflow", "apache", "devops", "github", "cli", "terminal", "kubernetes",
 
 ### Kubernetes
 - [k9s](https://github.com/derailed/k9s/) - terminal UI to interact with your Kubernetes clusters
-- [kOps](https://github.com/kubernetes/kops/) - Kubernetes operations
+- [kOps](https://github.com/kubernetes/kops/) - helps you create, destroy, upgrade & maintain a production-grade, highly available, Kubernetes cluster
 - [KoPylot](https://github.com/avsthiago/kopylot/) - open-source AI-powered Kubernetes assistant to help developers & DevOps engineers easily manage & monitor their Kubernetes clusters
 - [kube-state-metrics (KSM)](https://github.com/kubernetes/kube-state-metrics/) - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects
 - [Kubernetes Dashboard](https://github.com/kubernetes/dashboard/) - general purpose, web-based UI for Kubernetes clusters
