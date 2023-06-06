@@ -5,14 +5,171 @@
     <link>https://jamesm.blog/tags/ai/</link>
     <description>Recent content in ai on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 29 May 2023 22:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jun 2023 06:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of AI Courses &amp; Learning Resources</title>
+      <link>https://jamesm.blog/ai/courses/</link>
+      <pubDate>Sun, 04 Jun 2023 06:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/courses/</guid>
+      <description>Books Deep Learning with Python The Elements of Statistical Learning Courses Class Central Artificial Intelligence Courses ChatGPT Courses Elements of AI Midjourney Courses Coursera AI for Everyone IBM Applied AI Professional Certificate Supervised Machine Learning: Regression and Classification DataCamp AI Fundamentals Introduction to ChatGPT DeepLearning ChatGPT Prompt Engineering for Developers edX Learning From Data (Introductory Machine Learning) Elements of AI Fast.ai Future Learn Digital Skills: Artificial Intelligence Google Cloud Skills Boost Generative AI learning path Attention Mechanism Create Image Captioning Models Encoder-Decoder Architecture Generative AI Explorer - Vertex AI Introduction to Generative AI Introduction to Generative AI Studio Introduction to Image Generation Introduction to Large Language Models Introduction to Responsible AI Transformer Models and BERT Model Harvard Artificial Intelligence Courses Machine Learning Mastery Oxford AI Online Courses PyTorch Reed AI Online Courses Stanford Artificial Intelligence Graduate Certificate Artificial Intelligence Programs TensorFlow Udacity Intro to Artificial Intelligence (Free) Udemy Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4 Artificial Intelligence (ARS): Build the Most Powerful AI Artificial Intelligence Masterclass Artificial Intelligence: Reinforcement Learning in Python The Beginner&amp;rsquo;s Guide to Artificial Intelligence (Unity 2022) Unity Artificial Intelligence for Beginners Learning Resources Google AI Build How to use ChatGPT to create an app Newsletters Lore - weekly newsletter with the latest Generative AI news, insights and featured tools Twitter Accounts AI Daily - teaches about AI Borriss - developer &amp;amp; writer of practical AI Javi Lopez - AI educator Lex Fridman - host of Lex Fridman Podcast, research scientist at MIT Linus - AI educator &amp;amp; designer Steve Mills - exploring creative uses of Generative AI YouTube Channels Artificial Intelligence - All in One Connor Shorten DeepLearningAI Jeremy Howard Kaggle Lex Fridman sentdex The Artificial Intelligence Channel Two Minute Papers Yannic Kilcher- YouTube Videos Excel AI - data analysis made easy Google Bard: A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot How to Build a FULL App With ChatGPT in 20 minutes!</description>
+      <content:encoded><![CDATA[<h2 id="books">Books</h2>
+<ul>
+<li><a href="https://www.manning.com/books/deep-learning-with-python/">Deep Learning with Python</a></li>
+<li><a href="https://hastie.su.domains/Papers/ESLII.pdf/">The Elements of Statistical Learning</a></li>
+</ul>
+<h2 id="courses">Courses</h2>
+<ul>
+<li><a href="https://www.classcentral.com/">Class Central</a>
+<ul>
+<li><a href="https://www.classcentral.com/subject/ai/">Artificial Intelligence Courses</a></li>
+<li><a href="https://www.classcentral.com/subject/chatgpt/">ChatGPT Courses</a></li>
+<li><a href="https://www.classcentral.com/course/independent-elements-of-ai-12469/">Elements of AI</a></li>
+<li><a href="https://www.classcentral.com/subject/midjourney/">Midjourney Courses</a></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/learn/ai-for-everyone/">AI for Everyone</a></li>
+<li><a href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/">IBM Applied AI Professional Certificate</a></li>
+<li><a href="https://www.coursera.org/learn/machine-learning/">Supervised Machine Learning: Regression and Classification</a></li>
+</ul>
+</li>
+<li><a href="https://www.datacamp.com/">DataCamp</a>
+<ul>
+<li><a href="https://www.datacamp.com/courses/ai-fundamentals">AI Fundamentals</a></li>
+<li><a href="https://www.datacamp.com/courses/introduction-to-chatgpt">Introduction to ChatGPT</a></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/">DeepLearning</a>
+<ul>
+<li><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">ChatGPT Prompt Engineering for Developers</a></li>
+</ul>
+</li>
+<li><a href="https://www.edx.org/">edX</a>
+<ul>
+<li><a href="https://www.edx.org/course/learning-from-data-introductory-machine-learning/">Learning From Data (Introductory Machine Learning)</a></li>
+</ul>
+</li>
+<li><a href="https://www.elementsofai.com/">Elements of AI</a></li>
+<li><a href="https://www.fast.ai/">Fast.ai</a></li>
+<li><a href="https://www.futurelearn.com/">Future Learn</a>
+<ul>
+<li><a href="https://www.futurelearn.com/courses/artificial-intelligence/">Digital Skills: Artificial Intelligence</a></li>
+</ul>
+</li>
+<li><a href="https://www.cloudskillsboost.google/">Google Cloud Skills Boost</a>
+<ul>
+<li><a href="https://www.cloudskillsboost.google/journeys/118/">Generative AI learning path</a>
+<ul>
+<li><a href="https://www.cloudskillsboost.google/course_templates/537/">Attention Mechanism</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/542/">Create Image Captioning Models</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/543/">Encoder-Decoder Architecture</a></li>
+<li><a href="https://www.cloudskillsboost.google/quests/299/">Generative AI Explorer - Vertex AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/536/">Introduction to Generative AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/552/">Introduction to Generative AI Studio</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/541/">Introduction to Image Generation</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/539/">Introduction to Large Language Models</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/554/">Introduction to Responsible AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/538/">Transformer Models and BERT Model</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://pll.harvard.edu/">Harvard</a>
+<ul>
+<li><a href="https://pll.harvard.edu/subject/artificial-intelligence/">Artificial Intelligence Courses</a></li>
+</ul>
+</li>
+<li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
+<li><a href="https://www.conted.ox.ac.uk/">Oxford</a>
+<ul>
+<li><a href="https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/">AI Online Courses</a></li>
+</ul>
+</li>
+<li><a href="https://pytorch.org/tutorials/">PyTorch</a></li>
+<li><a href="https://www.reed.co.uk/">Reed</a>
+<ul>
+<li><a href="https://www.reed.co.uk/courses/ai-artificial-intelligence/online/">AI Online Courses</a></li>
+</ul>
+</li>
+<li><a href="https://learn.stanford.edu/">Stanford</a>
+<ul>
+<li><a href="https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/">Artificial Intelligence Graduate Certificate</a></li>
+<li><a href="https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/">Artificial Intelligence Programs</a></li>
+</ul>
+</li>
+<li><a href="https://www.tensorflow.org/learn/">TensorFlow</a></li>
+<li><a href="https://www.udacity.com/">Udacity</a>
+<ul>
+<li><a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/">Intro to Artificial Intelligence</a> (Free)</li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-az/">Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-ars/">Artificial Intelligence (ARS): Build the Most Powerful AI</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-masterclass/">Artificial Intelligence Masterclass</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/">Artificial Intelligence: Reinforcement Learning in Python</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-in-unity/">The Beginner&rsquo;s Guide to Artificial Intelligence (Unity 2022)</a></li>
+</ul>
+</li>
+<li><a href="https://learn.unity.com/">Unity</a>
+<ul>
+<li><a href="https://learn.unity.com/course/artificial-intelligence-for-beginners/">Artificial Intelligence for Beginners</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="learning-resources">Learning Resources</h2>
+<ul>
+<li><a href="https://ai.google/build/machine-learning/">Google AI Build</a></li>
+<li><a href="https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/">How to use ChatGPT to create an app</a></li>
+</ul>
+<h2 id="newsletters">Newsletters</h2>
+<ul>
+<li><a href="https://www.lore.ai/">Lore</a> - weekly newsletter with the latest Generative AI news, insights and featured tools</li>
+</ul>
+<h2 id="twitter-accounts">Twitter Accounts</h2>
+<ul>
+<li><a href="https://twitter.com/AlexAIDaily/">AI Daily</a> - teaches about AI</li>
+<li><a href="https://twitter.com/_Borriss_/">Borriss</a> - developer &amp; writer of practical AI</li>
+<li><a href="https://twitter.com/javilopen/">Javi Lopez</a> - AI educator</li>
+<li><a href="https://twitter.com/lexfridman/">Lex Fridman</a> - host of Lex Fridman Podcast, research scientist at MIT</li>
+<li><a href="https://twitter.com/LinusEkenstam/">Linus</a> - AI educator &amp; designer</li>
+<li><a href="https://twitter.com/SteveMills/">Steve Mills</a> - exploring creative uses of Generative AI</li>
+</ul>
+<h2 id="youtube-channels">YouTube Channels</h2>
+<ul>
+<li><a href="https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/">Artificial Intelligence - All in One</a></li>
+<li><a href="https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/">Connor Shorten</a></li>
+<li><a href="https://www.youtube.com/c/Deeplearningai/">DeepLearningAI</a></li>
+<li><a href="https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/">Jeremy Howard</a></li>
+<li><a href="https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/">Kaggle</a></li>
+<li><a href="https://www.youtube.com/user/lexfridman/">Lex Fridman</a></li>
+<li><a href="https://www.youtube.com/user/sentdex/">sentdex</a></li>
+<li><a href="https://www.youtube.com/c/TheArtificialIntelligenceChannel/">The Artificial Intelligence Channel</a></li>
+<li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/">Two Minute Papers</a></li>
+<li><a href="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/">Yannic Kilcher</a>-</li>
+</ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=b-cFv2DvEqE/">Excel AI - data analysis made easy</a></li>
+<li><a href="https://www.youtube.com/watch?v=f4LiRtjaW28/">Google Bard: A beginner&rsquo;s guide to Google&rsquo;s AI chatbot</a></li>
+<li><a href="https://www.youtube.com/watch?v=i_a9bqvqmzo/">How to Build a FULL App With ChatGPT in 20 minutes!</a></li>
+<li><a href="https://www.youtube.com/watch?v=5wdCev86RYE/">How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website</a></li>
+<li><a href="https://www.youtube.com/watch?v=hDK8W5SLzlw/">Midjourney Prompt Tips for Beginners and Veterans</a></li>
+<li><a href="https://www.youtube.com/watch?v=NU2TYgfQwcA/">Stable diffusion prompt tutorial</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>List of AI Tools &amp; Companies</title>
       <link>https://jamesm.blog/ai/tools/</link>
       <pubDate>Mon, 29 May 2023 22:17:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>AI Tools Art &amp;amp; Graphic Design AutoDraw - fast drawing for everyone Adobe Firefly - generative AI tool with Generative Fill, part of Adobe Photoshop Cleanup.pictures - remove unwanted object, defect, people or text from your pictures DALL·E 2 - creates realistic images &amp;amp; art from a description in natural language Deep Nostalgia - animate your family photos Instorier - picture to 3D tool Leap - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs Leonardo - create stunning game assets with AI Microsoft Designer - stunning designs, made lightning fast with AI Midjourney - generates images from natural language descriptions, called &amp;ldquo;prompts&amp;rdquo; (similar to OpenAI&amp;rsquo;s DALL-E &amp;amp; Stable Diffusion) Playground - create any image from your imagination Stockimg AI - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp;amp; art StyleDrop - text-to-image generation in any style ChatBot BuddyGPT - the power of ChatGPT, on WhatsApp &amp;amp; Telegram ChatABC - features such as search web, team collaboration, prompt library &amp;amp; service never-goes-down ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) Cohere - build incredible products with world-class language AI Google Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM Kaizan - uses conversation intelligence to highlight client health and what will increase revenue Perplexity - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions Playground - explore the capabilities of various AI models developed by OpenAI Quickchat - technology to build AI assistants that talk like a human Typewise - AI writing solution for customer service and sales teams Yatter+ - personal AI-powered assistant on WhatsApp Chrome Extensions alicent - browser extension for ChatGPT Compose - Chrome extension that cuts down your writing time with AI-powered autocompletion &amp;amp; text generation FinalScout - ChatGPT-powered email finding &amp;amp; outreach at scale Voilà - personal AI assistant for supercharged productivity Poised - AI-powered communication coach that helps you speak with confidence and clarity Wiseone - helps you master any topic you are reading online by bringing relevant and reliable information Design Flair - AI design tool for branded content Galileo AI - creates delightful, editable UI designs from a simple text description Co-Pilot AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
+      <description>AI Tools Art &amp;amp; Graphic Design AutoDraw - fast drawing for everyone Adobe Firefly - generative AI tool with Generative Fill, part of Adobe Photoshop Cleanup.pictures - remove unwanted object, defect, people or text from your pictures DALL·E 2 - creates realistic images &amp;amp; art from a description in natural language Deep Nostalgia - animate your family photos Instorier - picture to 3D tool Leap - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs Leonardo - create stunning game assets with AI Microsoft Designer - stunning designs, made lightning fast with AI Midjourney - generates images from natural language descriptions, called &amp;ldquo;prompts&amp;rdquo; (similar to OpenAI&amp;rsquo;s DALL-E &amp;amp; Stable Diffusion) PixTeller online image editor &amp;amp; animation maker to create posters, animated gifs, logos, banners, invitations, flyers, animated logos, video thumbnails &amp;amp; more Playground - create any image from your imagination Stockimg AI - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp;amp; art StyleDrop - text-to-image generation in any style ChatBot BuddyGPT - the power of ChatGPT, on WhatsApp &amp;amp; Telegram ChatABC - features such as search web, team collaboration, prompt library &amp;amp; service never-goes-down ChatGPT - an artificial intelligence chatbot developed by OpenAI (Generative Pre-trained Transformer) Cohere - build incredible products with world-class language AI Google Bard - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM Kaizan - uses conversation intelligence to highlight client health and what will increase revenue Perplexity - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions Playground - explore the capabilities of various AI models developed by OpenAI Quickchat - technology to build AI assistants that talk like a human Typewise - AI writing solution for customer service and sales teams Yatter+ - personal AI-powered assistant on WhatsApp Chrome Extensions alicent - browser extension for ChatGPT Compose - Chrome extension that cuts down your writing time with AI-powered autocompletion &amp;amp; text generation FinalScout - ChatGPT-powered email finding &amp;amp; outreach at scale Voilà - personal AI assistant for supercharged productivity Poised - AI-powered communication coach that helps you speak with confidence and clarity Wiseone - helps you master any topic you are reading online by bringing relevant and reliable information Customer Support Forethought - generative AI for customer support Design Flair - AI design tool for branded content Galileo AI - creates delightful, editable UI designs from a simple text description Co-Pilot AskCodi - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code GitHub Copilot - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</description>
       <content:encoded><![CDATA[<h2 id="ai-tools">AI Tools</h2>
 <h3 id="art--graphic-design">Art &amp; Graphic Design</h3>
 <ul>
@@ -26,6 +183,7 @@
 <li><a href="http://leonardo.ai/">Leonardo</a> - create stunning game assets with AI</li>
 <li><a href="http://designer.microsoft.com/">Microsoft Designer</a> - stunning designs, made lightning fast with AI</li>
 <li><a href="http://midjourney.com">Midjourney</a> - generates images from natural language descriptions, called &ldquo;prompts&rdquo; (similar to OpenAI&rsquo;s DALL-E &amp; Stable Diffusion)</li>
+<li><a href="https://pixteller.com/">PixTeller</a> online image editor &amp; animation maker to create posters, animated gifs, logos, banners, invitations, flyers, animated logos, video thumbnails &amp; more</li>
 <li><a href="https://playgroundai.com/">Playground</a> - create any image from your imagination</li>
 <li><a href="https://stockimg.ai/">Stockimg AI</a> - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp; art</li>
 <li><a href="https://styledrop.github.io/">StyleDrop</a> - text-to-image generation in any style</li>
@@ -53,6 +211,10 @@
 <li><a href="http://poised.com/">Poised</a> - AI-powered communication coach that helps you speak with confidence and clarity</li>
 <li><a href="http://wiseone.io/">Wiseone</a> - helps you master any topic you are reading online by bringing relevant and reliable information</li>
 </ul>
+<h2 id="customer-support">Customer Support</h2>
+<ul>
+<li><a href="https://forethought.ai/">Forethought</a> - generative AI for customer support</li>
+</ul>
 <h3 id="design">Design</h3>
 <ul>
 <li><a href="https://flair.ai/">Flair</a> - AI design tool for branded content</li>
@@ -74,6 +236,10 @@
 <li><a href="https://create.unity.com/ai-beta/">Unity</a> - AI ecosystem that will put AI-powered game-development tools in the hands of millions of creators</li>
 <li><a href="https://voyager.minedojo.org/">Voyager</a> - open-ended embodied agent with large language models (LLMs)</li>
 </ul>
+<h3 id="marketing">Marketing</h3>
+<ul>
+<li><a href="https://automizy.com/">Automizy</a> - email marketing software designed to increase your email open rates</li>
+</ul>
 <h3 id="music">Music</h3>
 <ul>
 <li><a href="https://www.audoir.com/">Audoir</a> - AI lyrics &amp; poetry generator</li>
@@ -85,6 +251,10 @@
 <li><a href="https://muzeek.com/">Muzeek</a> - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities</li>
 <li><a href="https://soundraw.io/">Soundraw</a> - royalty-free AI generated music</li>
 <li><a href="https://wavtool.com/">WavTool</a> - make high-quality music with an AI assistant in the browser, for free</li>
+</ul>
+<h3 id="project-management">Project Management</h3>
+<ul>
+<li><a href="https://www.liquidplanner.com/">LiquidPlanner</a> - project management solution that dynamically adapts to change and manages uncertainty to help teams plan, predict, and perform with confidence</li>
 </ul>
 <h3 id="prompt-engineering">Prompt Engineering</h3>
 <ul>
@@ -148,24 +318,32 @@
 </ul>
 <h3 id="other">Other</h3>
 <ul>
+<li><a href="https://www.adriel.com/">Adriel</a> - handle complex marketing campaigns and reach your advertising goals</li>
+<li><a href="https://adscale.com/">AdScale</a> - boost your ad performance by automating everything from ad creation, and optimization, to audience targeting and performance tracking</li>
 <li><a href="https://www.akkio.com/">Akkio</a> - predictive AI for Analysts</li>
+<li><a href="https://www.audiense.com/">Audiense</a> - audience Intelligence platform, helping marketers and consumer researchers to be innovative and develop relevant audience-centric strategies through proprietary social consumer segmentation</li>
 <li><a href="https://www.bardeen.ai/">Bardeen</a> - mission is to help people leverage technology, do more of what they love, and stay in the flow</li>
 <li><a href="https://brancher.ai/">Brancher</a> - connect AI models to build AI apps in minutes, with no-code</li>
 <li><a href="https://decoherence.co/">Decoherence</a> - create what can&rsquo;t be filmed</li>
 <li><a href="https://donotpay.com/">DoNotPay</a> - the world&rsquo;s first robot lawyer</li>
+<li><a href="https://www.fylehq.com/">Fyle</a> - real-time expense management</li>
 <li><a href="https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/">Google Flood AI</a></li>
 <li><a href="https://hints.so/">Hints</a> - AI assistant that integrates with any software to perform tasks on your behalf</li>
 <li><a href="https://krisp.ai/">Krisp</a> - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
 <li><a href="http://lavender.ai">http://lavender.ai</a></li>
 <li><a href="https://www.mixo.io/">Mixo</a> - helps entrepreneurs quickly launch and validate their business ideas</li>
 <li><a href="https://mosaic.ai/">MosaicTrack</a> - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set</li>
+<li><a href="https://www.nosto.com/">Nosto</a> - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions</li>
 <li><a href="http://octaneai.com">http://octaneai.com</a></li>
 <li><a href="https://www.outfitsai.com/">Outfits AI</a> - try on any outfits using AI</li>
 <li><a href="http://regie.ai">http://regie.ai</a></li>
+<li><a href="https://snazzy.ai/">Snazzy</a> - givse you great content ideas for social media ads, landing pages and more</li>
+<li><a href="https://sproutsocial.com/">Sprout Social</a> - extract real business value from social</li>
 <li><a href="http://taskade.com">http://taskade.com</a></li>
 <li><a href="http://tldv.io">http://tldv.io</a></li>
 <li><a href="http://twain.ai">http://twain.ai</a></li>
 <li><a href="http://vondy.com">http://vondy.com</a></li>
+<li><a href="https://www.apptus.com/voyado-elevate/">Voyado Elevate</a> - intelligent search and merchandising for online retailers</li>
 <li><a href="http://warmer.ai">http://warmer.ai</a></li>
 <li><a href="https://wnr.ai/">WNR</a> - prompts made easy with AI templates</li>
 </ul>
@@ -347,163 +525,6 @@ https://tesla.com/ai </description>
     </item>
     
     <item>
-      <title>List of AI Courses &amp; Learning Resources</title>
-      <link>https://jamesm.blog/ai/courses/</link>
-      <pubDate>Sat, 06 May 2023 06:51:25 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/courses/</guid>
-      <description>Books Deep Learning with Python The Elements of Statistical Learning Courses Class Central Artificial Intelligence Courses ChatGPT Courses Elements of AI Midjourney Courses Coursera AI for Everyone IBM Applied AI Professional Certificate Supervised Machine Learning: Regression and Classification DataCamp AI Fundamentals Introduction to ChatGPT DeepLearning ChatGPT Prompt Engineering for Developers edX Learning From Data (Introductory Machine Learning) Elements of AI Fast.ai Future Learn Digital Skills: Artificial Intelligence Google Cloud Skills Boost Generative AI learning path Attention Mechanism Create Image Captioning Models Encoder-Decoder Architecture Generative AI Explorer - Vertex AI Introduction to Generative AI Introduction to Generative AI Studio Introduction to Image Generation Introduction to Large Language Models Introduction to Responsible AI Transformer Models and BERT Model Harvard Artificial Intelligence Courses Machine Learning Mastery Oxford AI Online Courses PyTorch Reed AI Online Courses Stanford Artificial Intelligence Graduate Certificate Artificial Intelligence Programs TensorFlow Udacity Intro to Artificial Intelligence (Free) Udemy Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4 Artificial Intelligence (ARS): Build the Most Powerful AI Artificial Intelligence Masterclass Artificial Intelligence: Reinforcement Learning in Python The Beginner&amp;rsquo;s Guide to Artificial Intelligence (Unity 2022) Unity Artificial Intelligence for Beginners Learning Resources Google AI Build How to use ChatGPT to create an app Newsletters Lore - weekly newsletter with the latest Generative AI news, insights and featured tools Twitter Accounts AI Daily - teaches about AI Borriss - developer &amp;amp; writer of practical AI Javi Lopez - AI educator Lex Fridman - host of Lex Fridman Podcast, research scientist at MIT Linus - AI educator &amp;amp; designer Steve Mills - exploring creative uses of Generative AI YouTube Channels Artificial Intelligence - All in One Connor Shorten DeepLearningAI Jeremy Howard Kaggle Lex Fridman sentdex The Artificial Intelligence Channel Two Minute Papers Yannic Kilcher- YouTube Videos Excel AI - data analysis made easy Google Bard: A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot How to Build a FULL App With ChatGPT in 20 minutes!</description>
-      <content:encoded><![CDATA[<h2 id="books">Books</h2>
-<ul>
-<li><a href="https://www.manning.com/books/deep-learning-with-python/">Deep Learning with Python</a></li>
-<li><a href="https://hastie.su.domains/Papers/ESLII.pdf/">The Elements of Statistical Learning</a></li>
-</ul>
-<h2 id="courses">Courses</h2>
-<ul>
-<li><a href="https://www.classcentral.com/">Class Central</a>
-<ul>
-<li><a href="https://www.classcentral.com/subject/ai/">Artificial Intelligence Courses</a></li>
-<li><a href="https://www.classcentral.com/subject/chatgpt/">ChatGPT Courses</a></li>
-<li><a href="https://www.classcentral.com/course/independent-elements-of-ai-12469/">Elements of AI</a></li>
-<li><a href="https://www.classcentral.com/subject/midjourney/">Midjourney Courses</a></li>
-</ul>
-</li>
-<li><a href="https://www.coursera.org/">Coursera</a>
-<ul>
-<li><a href="https://www.coursera.org/learn/ai-for-everyone/">AI for Everyone</a></li>
-<li><a href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/">IBM Applied AI Professional Certificate</a></li>
-<li><a href="https://www.coursera.org/learn/machine-learning/">Supervised Machine Learning: Regression and Classification</a></li>
-</ul>
-</li>
-<li><a href="https://www.datacamp.com/">DataCamp</a>
-<ul>
-<li><a href="https://www.datacamp.com/courses/ai-fundamentals">AI Fundamentals</a></li>
-<li><a href="https://www.datacamp.com/courses/introduction-to-chatgpt">Introduction to ChatGPT</a></li>
-</ul>
-</li>
-<li><a href="https://www.deeplearning.ai/">DeepLearning</a>
-<ul>
-<li><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">ChatGPT Prompt Engineering for Developers</a></li>
-</ul>
-</li>
-<li><a href="https://www.edx.org/">edX</a>
-<ul>
-<li><a href="https://www.edx.org/course/learning-from-data-introductory-machine-learning/">Learning From Data (Introductory Machine Learning)</a></li>
-</ul>
-</li>
-<li><a href="https://www.elementsofai.com/">Elements of AI</a></li>
-<li><a href="https://www.fast.ai/">Fast.ai</a></li>
-<li><a href="https://www.futurelearn.com/">Future Learn</a>
-<ul>
-<li><a href="https://www.futurelearn.com/courses/artificial-intelligence/">Digital Skills: Artificial Intelligence</a></li>
-</ul>
-</li>
-<li><a href="https://www.cloudskillsboost.google/">Google Cloud Skills Boost</a>
-<ul>
-<li><a href="https://www.cloudskillsboost.google/journeys/118/">Generative AI learning path</a>
-<ul>
-<li><a href="https://www.cloudskillsboost.google/course_templates/537/">Attention Mechanism</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/542/">Create Image Captioning Models</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/543/">Encoder-Decoder Architecture</a></li>
-<li><a href="https://www.cloudskillsboost.google/quests/299/">Generative AI Explorer - Vertex AI</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/536/">Introduction to Generative AI</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/552/">Introduction to Generative AI Studio</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/541/">Introduction to Image Generation</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/539/">Introduction to Large Language Models</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/554/">Introduction to Responsible AI</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/538/">Transformer Models and BERT Model</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="https://pll.harvard.edu/">Harvard</a>
-<ul>
-<li><a href="https://pll.harvard.edu/subject/artificial-intelligence/">Artificial Intelligence Courses</a></li>
-</ul>
-</li>
-<li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
-<li><a href="https://www.conted.ox.ac.uk/">Oxford</a>
-<ul>
-<li><a href="https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/">AI Online Courses</a></li>
-</ul>
-</li>
-<li><a href="https://pytorch.org/tutorials/">PyTorch</a></li>
-<li><a href="https://www.reed.co.uk/">Reed</a>
-<ul>
-<li><a href="https://www.reed.co.uk/courses/ai-artificial-intelligence/online/">AI Online Courses</a></li>
-</ul>
-</li>
-<li><a href="https://learn.stanford.edu/">Stanford</a>
-<ul>
-<li><a href="https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/">Artificial Intelligence Graduate Certificate</a></li>
-<li><a href="https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/">Artificial Intelligence Programs</a></li>
-</ul>
-</li>
-<li><a href="https://www.tensorflow.org/learn/">TensorFlow</a></li>
-<li><a href="https://www.udacity.com/">Udacity</a>
-<ul>
-<li><a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/">Intro to Artificial Intelligence</a> (Free)</li>
-</ul>
-</li>
-<li><a href="https://www.udemy.com/">Udemy</a>
-<ul>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-az/">Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-ars/">Artificial Intelligence (ARS): Build the Most Powerful AI</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-masterclass/">Artificial Intelligence Masterclass</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/">Artificial Intelligence: Reinforcement Learning in Python</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-in-unity/">The Beginner&rsquo;s Guide to Artificial Intelligence (Unity 2022)</a></li>
-</ul>
-</li>
-<li><a href="https://learn.unity.com/">Unity</a>
-<ul>
-<li><a href="https://learn.unity.com/course/artificial-intelligence-for-beginners/">Artificial Intelligence for Beginners</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="learning-resources">Learning Resources</h2>
-<ul>
-<li><a href="https://ai.google/build/machine-learning/">Google AI Build</a></li>
-<li><a href="https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/">How to use ChatGPT to create an app</a></li>
-</ul>
-<h2 id="newsletters">Newsletters</h2>
-<ul>
-<li><a href="https://www.lore.ai/">Lore</a> - weekly newsletter with the latest Generative AI news, insights and featured tools</li>
-</ul>
-<h2 id="twitter-accounts">Twitter Accounts</h2>
-<ul>
-<li><a href="https://twitter.com/AlexAIDaily/">AI Daily</a> - teaches about AI</li>
-<li><a href="https://twitter.com/_Borriss_/">Borriss</a> - developer &amp; writer of practical AI</li>
-<li><a href="https://twitter.com/javilopen/">Javi Lopez</a> - AI educator</li>
-<li><a href="https://twitter.com/lexfridman/">Lex Fridman</a> - host of Lex Fridman Podcast, research scientist at MIT</li>
-<li><a href="https://twitter.com/LinusEkenstam/">Linus</a> - AI educator &amp; designer</li>
-<li><a href="https://twitter.com/SteveMills/">Steve Mills</a> - exploring creative uses of Generative AI</li>
-</ul>
-<h2 id="youtube-channels">YouTube Channels</h2>
-<ul>
-<li><a href="https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/">Artificial Intelligence - All in One</a></li>
-<li><a href="https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/">Connor Shorten</a></li>
-<li><a href="https://www.youtube.com/c/Deeplearningai/">DeepLearningAI</a></li>
-<li><a href="https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/">Jeremy Howard</a></li>
-<li><a href="https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/">Kaggle</a></li>
-<li><a href="https://www.youtube.com/user/lexfridman/">Lex Fridman</a></li>
-<li><a href="https://www.youtube.com/user/sentdex/">sentdex</a></li>
-<li><a href="https://www.youtube.com/c/TheArtificialIntelligenceChannel/">The Artificial Intelligence Channel</a></li>
-<li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/">Two Minute Papers</a></li>
-<li><a href="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/">Yannic Kilcher</a>-</li>
-</ul>
-<h2 id="youtube-videos">YouTube Videos</h2>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=b-cFv2DvEqE/">Excel AI - data analysis made easy</a></li>
-<li><a href="https://www.youtube.com/watch?v=f4LiRtjaW28/">Google Bard: A beginner&rsquo;s guide to Google&rsquo;s AI chatbot</a></li>
-<li><a href="https://www.youtube.com/watch?v=i_a9bqvqmzo/">How to Build a FULL App With ChatGPT in 20 minutes!</a></li>
-<li><a href="https://www.youtube.com/watch?v=5wdCev86RYE/">How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website</a></li>
-<li><a href="https://www.youtube.com/watch?v=hDK8W5SLzlw/">Midjourney Prompt Tips for Beginners and Veterans</a></li>
-<li><a href="https://www.youtube.com/watch?v=NU2TYgfQwcA/">Stable diffusion prompt tutorial</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>Auto-GPT is now able to write it&#39;s own code</title>
       <link>https://jamesm.blog/ai/tweets/auto-gpt/</link>
       <pubDate>Sat, 01 Apr 2023 14:53:39 +0100</pubDate>
@@ -582,7 +603,7 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     <item>
       <title>Artificial Intelligence</title>
       <link>https://jamesm.blog/ai/</link>
-      <pubDate>Mon, 29 May 2023 22:17:14 +0100</pubDate>
+      <pubDate>Sun, 04 Jun 2023 06:51:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/</guid>
       <description> </description>

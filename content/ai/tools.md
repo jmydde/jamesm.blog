@@ -19,6 +19,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Leonardo](http://leonardo.ai/) - create stunning game assets with AI
 - [Microsoft Designer](http://designer.microsoft.com/) - stunning designs, made lightning fast with AI
 - [Midjourney](http://midjourney.com) - generates images from natural language descriptions, called "prompts" (similar to OpenAI's DALL-E & Stable Diffusion)
+- [PixTeller](https://pixteller.com/) online image editor & animation maker to create posters, animated gifs, logos, banners, invitations, flyers, animated logos, video thumbnails & more
 - [Playground](https://playgroundai.com/) - create any image from your imagination
 - [Stockimg AI](https://stockimg.ai/) - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations & art
 - [StyleDrop](https://styledrop.github.io/) - text-to-image generation in any style
@@ -44,6 +45,9 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Poised](http://poised.com/) - AI-powered communication coach that helps you speak with confidence and clarity
 - [Wiseone](http://wiseone.io/) - helps you master any topic you are reading online by bringing relevant and reliable information
 
+## Customer Support
+- [Forethought](https://forethought.ai/) - generative AI for customer support
+
 ### Design
 - [Flair](https://flair.ai/) - AI design tool for branded content
 - [Galileo AI](https://www.usegalileo.ai/) - creates delightful, editable UI designs from a simple text description
@@ -62,6 +66,9 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Unity](https://create.unity.com/ai-beta/) - AI ecosystem that will put AI-powered game-development tools in the hands of millions of creators
 - [Voyager](https://voyager.minedojo.org/) - open-ended embodied agent with large language models (LLMs)
 
+### Marketing
+- [Automizy](https://automizy.com/) - email marketing software designed to increase your email open rates
+
 ### Music
 - [Audoir](https://www.audoir.com/) - AI lyrics & poetry generator
 - [Beatoven](https://www.beatoven.ai/) - create customisable royalty free music that elevates your story
@@ -72,6 +79,9 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Muzeek](https://muzeek.com/) - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
 - [WavTool](https://wavtool.com/) - make high-quality music with an AI assistant in the browser, for free
+
+### Project Management
+- [LiquidPlanner](https://www.liquidplanner.com/) - project management solution that dynamically adapts to change and manages uncertainty to help teams plan, predict, and perform with confidence
 
 ### Prompt Engineering
 - [Borriss](https://borriss.gumroad.com/)
@@ -124,24 +134,32 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [TubeBuddy](https://www.tubebuddy.com/) - optimize your YouTube channel faster
 
 ### Other
+- [Adriel](https://www.adriel.com/) - handle complex marketing campaigns and reach your advertising goals
+- [AdScale](https://adscale.com/) - boost your ad performance by automating everything from ad creation, and optimization, to audience targeting and performance tracking
 - [Akkio](https://www.akkio.com/) - predictive AI for Analysts
+- [Audiense](https://www.audiense.com/) - audience Intelligence platform, helping marketers and consumer researchers to be innovative and develop relevant audience-centric strategies through proprietary social consumer segmentation
 - [Bardeen](https://www.bardeen.ai/) - mission is to help people leverage technology, do more of what they love, and stay in the flow
 - [Brancher](https://brancher.ai/) - connect AI models to build AI apps in minutes, with no-code
 - [Decoherence](https://decoherence.co/) - create what can't be filmed
 - [DoNotPay](https://donotpay.com/) - the world's first robot lawyer
+- [Fyle](https://www.fylehq.com/) - real-time expense management
 - [Google Flood AI](https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/)
 - [Hints](https://hints.so/) - AI assistant that integrates with any software to perform tasks on your behalf
 - [Krisp](https://krisp.ai/) - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant
 - http://lavender.ai
 - [Mixo](https://www.mixo.io/) - helps entrepreneurs quickly launch and validate their business ideas
 - [MosaicTrack](https://mosaic.ai/) - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set
+- [Nosto](https://www.nosto.com/) - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions
 - http://octaneai.com
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
 - http://regie.ai
+- [Snazzy](https://snazzy.ai/) - givse you great content ideas for social media ads, landing pages and more
+- [Sprout Social](https://sproutsocial.com/) - extract real business value from social
 - http://taskade.com
 - http://tldv.io
 - http://twain.ai
 - http://vondy.com
+- [Voyado Elevate](https://www.apptus.com/voyado-elevate/) - intelligent search and merchandising for online retailers
 - http://warmer.ai
 - [WNR](https://wnr.ai/) - prompts made easy with AI templates
 

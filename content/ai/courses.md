@@ -1,6 +1,6 @@
 ---
 title: "List of AI Courses & Learning Resources"
-date: 2023-05-06T06:51:25+01:00
+date: 2023-06-04T06:51:25+01:00
 draft: false
 tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
 ---
