@@ -5,7 +5,298 @@
     <link>https://jamesm.blog/tags/aws/</link>
     <description>Recent content in aws on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 May 2023 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jun 2023 07:54:16 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Summit London Agenda (2023)</title>
+      <link>https://jamesm.blog/devops/aws-summit-2023-agenda/</link>
+      <pubDate>Wed, 07 Jun 2023 07:54:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/aws-summit-2023-agenda/</guid>
+      <description>Code Item Level AIM201 Building a data science platform on AWS to help Britain achieve net zero 200 - Intermediate AWS AIM202 Data-Driven Success: How INEOS Grenadiers Cycling Team Leverages No-code ML for Competitive Advantage 200 - Intermediate AWS AIM204 How Aviva built a scalable, secure and reliable MLOps platform on AWS 200 - Intermediate AWS AIM205 Solving global sustainability challenges using Geospatial ML with Amazon SageMaker 200 - Intermediate AWS AIM206 Transform your Enterprises with Generative AI industry accelerators 200 - Intermediate AWS AIM207 Accelerate Enterprise transformation with Amazon Kendra and LLMs 200 - Intermediate AWS AIM301 Implement MLOps Best Practices with Amazon SageMaker 300 - Advanced AWS AIM302 How to create delightful conversational experiences using Amazon Lex 300 - Advanced AWS ANA102 Democratising Data at Direct Line Group 100 - Introductory AWS ANA202 How Motability Operations built a Connected Vehicles Platform on AWS 200 - Intermediate AWS ANA203 Stages of a Data &amp;amp; Analytics Driven Startup 200 - Intermediate AWS ANA205 Privacy-enhanced collaboration with AWS Clean Rooms 200 - Intermediate AWS ANA301 Running mission critical workloads on Amazon Redshift 300 - Advanced AWS ANA302 Building an Enterprise Data &amp;amp; Analytics Platform in AWS From 1 to 100 teams ARC302 Patterns and practices for building resilient applications 300 - Advanced AWS ARC303 Verify priority architecture characteristics to design well-architected applications 300 - Advanced AWS BIZ102 Contact Centre enabling Digital Transformation at speed with Amazon Connect and AI/ML Services 100 - Introductory AWS BIZ103 Lower risks and optimize costs with AWS Supply Chain 200 - Intermediate AWS BSI201 Simplify the path from data to action with Amazon QuickSight 200 - Intermediate AWS CMP201 How Ably optimised its compute costs and performance with AWS Graviton 200 - Intermediate AWS CMP301 Migrating latency sensitive workload to AWS Region and edge services 300 - Advanced AWS COP201 Best practices for implementing observability in a modern application 200 - Intermediate AWS COP202 Cost Optimization as Culture 200 - Intermediate AWS COP203 How to implement AWS cost optimization strategy that works 200 - Intermediate AWS COP301 Unlocking Application Visibility with AWS Observability Tools 200 - Intermediate AWS DAT201 How to manage a Managed Service – A journey of ElastiCache at scale 200 - Intermediate AWS DAT301 Migrating Deliveroo’s Dispatcher Service to Amazon DynamoDB 300 - Advanced AWS DAT302 Amazon DynamoDB: Peeling the onion 300 - Advanced AWS DEV201 Maximizing Developer Productivity with Amazon CodeWhisperer 200 - Intermediate AWS DEV202 Catalyzing software development with Amazon CodeCatalyst 200 - Intermediate AWS DEV301 A deployment is not a release: Control your launches w/ feature flags 300 - Advanced AWS DOP301 Create Modern and Sustainable Apps with Amazon CodeGuru 300 - Advanced AWS DOP302 Database DevOps on AWS: The Forgotten Automation 300 - Advanced AWS FSI102 How NatWest and AWS worked together to boost personalised insight generation: A machine learning approach to transaction categorisation 100 - Introductory AWS FSI201 Amazon EKS production grade Kubernetes IOT301 Building an IoT SuperNetwork on top of the AWS Global Infrastructure 300 - Advanced AWS KUB201 Accelerating your Kubernetes journey with Amazon EKS Blueprints 200 - Intermediate AWS KUB301 How Skyscanner Built a Resilient k8s Platform on EC2 Spot/EKS and Saved 73% of Their Cloud Spend 300 - Advanced AWS MGR201 Thinking Asynchronously: application integration patterns for microservices 200 - Intermediate AWS NET201 Simplify and scale your hybrid global networking with AWS 200 - Intermediate AWS OPN301 Speeding up the development of Containerized Applications 300 - Advanced AWS SEC201 MoneySuperMarket journey to modernise customer identity solution with Amazon Cognito 200 - Intermediate AWS SEC202 Threat detection and incident response on AWS 200 - Intermediate AWS SEC301 Defending your Serverless App against the OWASP top 10 300 - Advanced AWS SER201 Small Teams, Big Ideas: Empowering Microservices with Serverless Architecture 200 - Intermediate AWS SER202 Building modern API architectures: Which front door should I use?</description>
+      <content:encoded><![CDATA[<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Item</th>
+<th>Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AIM201</td>
+<td>Building a data science platform on AWS to help Britain achieve net zero</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>AIM202</td>
+<td>Data-Driven Success: How INEOS Grenadiers Cycling Team Leverages No-code ML for Competitive Advantage</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>AIM204</td>
+<td>How Aviva built a scalable, secure and reliable MLOps platform on AWS</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>AIM205</td>
+<td>Solving global sustainability challenges using Geospatial ML with Amazon SageMaker</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>AIM206</td>
+<td>Transform your Enterprises with Generative AI industry accelerators</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>AIM207</td>
+<td>Accelerate Enterprise transformation with Amazon Kendra and LLMs</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>AIM301</td>
+<td>Implement MLOps Best Practices with Amazon SageMaker</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>AIM302</td>
+<td>How to create delightful conversational experiences using Amazon Lex</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>ANA102</td>
+<td>Democratising Data at Direct Line Group</td>
+<td>100 - Introductory AWS</td>
+</tr>
+<tr>
+<td>ANA202</td>
+<td>How Motability Operations built a Connected Vehicles Platform on AWS</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>ANA203</td>
+<td>Stages of a Data &amp; Analytics Driven Startup</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>ANA205</td>
+<td>Privacy-enhanced collaboration with AWS Clean Rooms</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>ANA301</td>
+<td>Running mission critical workloads on Amazon Redshift</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>ANA302</td>
+<td>Building an Enterprise Data &amp; Analytics Platform in AWS</td>
+<td>From 1 to 100 teams</td>
+</tr>
+<tr>
+<td>ARC302</td>
+<td>Patterns and practices for building resilient applications</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>ARC303</td>
+<td>Verify priority architecture characteristics to design well-architected applications</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>BIZ102</td>
+<td>Contact Centre enabling Digital Transformation at speed with Amazon Connect and AI/ML Services</td>
+<td>100 - Introductory AWS</td>
+</tr>
+<tr>
+<td>BIZ103</td>
+<td>Lower risks and optimize costs with AWS Supply Chain</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>BSI201</td>
+<td>Simplify the path from data to action with Amazon QuickSight</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>CMP201</td>
+<td>How Ably optimised its compute costs and performance with AWS Graviton</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>CMP301</td>
+<td>Migrating latency sensitive workload to AWS Region and edge services</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>COP201</td>
+<td>Best practices for implementing observability in a modern application</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>COP202</td>
+<td>Cost Optimization as Culture</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>COP203</td>
+<td>How to implement AWS cost optimization strategy that works</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>COP301</td>
+<td>Unlocking Application Visibility with AWS Observability Tools</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>DAT201</td>
+<td>How to manage a Managed Service – A journey of ElastiCache at scale</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>DAT301</td>
+<td>Migrating Deliveroo’s Dispatcher Service to Amazon DynamoDB</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>DAT302</td>
+<td>Amazon DynamoDB: Peeling the onion</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>DEV201</td>
+<td>Maximizing Developer Productivity with Amazon CodeWhisperer</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>DEV202</td>
+<td>Catalyzing software development with Amazon CodeCatalyst</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>DEV301</td>
+<td>A deployment is not a release: Control your launches w/ feature flags</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>DOP301</td>
+<td>Create Modern and Sustainable Apps with Amazon CodeGuru</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>DOP302</td>
+<td>Database DevOps on AWS: The Forgotten Automation</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>FSI102</td>
+<td>How NatWest and AWS worked together to boost personalised insight generation: A machine learning approach to transaction categorisation</td>
+<td>100 - Introductory AWS</td>
+</tr>
+<tr>
+<td>FSI201</td>
+<td>Amazon EKS</td>
+<td>production grade Kubernetes</td>
+</tr>
+<tr>
+<td>IOT301</td>
+<td>Building an IoT SuperNetwork on top of the AWS Global Infrastructure</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>KUB201</td>
+<td>Accelerating your Kubernetes journey with Amazon EKS Blueprints</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>KUB301</td>
+<td>How Skyscanner Built a Resilient k8s Platform on EC2 Spot/EKS and Saved 73% of Their Cloud Spend</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>MGR201</td>
+<td>Thinking Asynchronously: application integration patterns for microservices</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>NET201</td>
+<td>Simplify and scale your hybrid global networking with AWS</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>OPN301</td>
+<td>Speeding up the development of Containerized Applications</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>SEC201</td>
+<td>MoneySuperMarket journey to modernise customer identity solution with Amazon Cognito</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>SEC202</td>
+<td>Threat detection and incident response on AWS</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>SEC301</td>
+<td>Defending your Serverless App against the OWASP top 10</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>SER201</td>
+<td>Small Teams, Big Ideas: Empowering Microservices with Serverless Architecture</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>SER202</td>
+<td>Building modern API architectures: Which front door should I use?</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>SER301</td>
+<td>Designing and deploying cloudoptimized Java applications</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>SER302</td>
+<td>Adopting AWS serverless in your organisation</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>SER303</td>
+<td>Refactoring to serverless</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>SER304</td>
+<td>Building lowcode applications with serverless workflows</td>
+<td>300 - Advanced AWS</td>
+</tr>
+<tr>
+<td>STG101</td>
+<td>Optimising cost and performance of your data lake on Amazon S3</td>
+<td>100 - Introductory AWS</td>
+</tr>
+<tr>
+<td>STG201</td>
+<td>How to understand and improve the resiliency of your AWS applications</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>SUS201</td>
+<td>Architecting for Sustainability</td>
+<td>200 - Intermediate AWS</td>
+</tr>
+<tr>
+<td>SUS301</td>
+<td>How Channel 4 Optimize for Sustainability with AWS Well-Architected</td>
+<td>300 - Advanced AWS</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>List of DevOps Courses</title>
       <link>https://jamesm.blog/devops/devops-courses/</link>
