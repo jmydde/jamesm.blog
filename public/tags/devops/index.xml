@@ -1219,8 +1219,46 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
       <pubDate>Sat, 03 Dec 2022 11:04:16 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
-      <description>Kubernetes (EKS) Amazon EKS SaaS: Building a working multi-tenant environment Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning.</description>
-      <content:encoded><![CDATA[<h2 id="kubernetes-eks">Kubernetes (EKS)</h2>
+      <description>DevOps Amazon&amp;rsquo;s approach to high-availability deployment Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&amp;rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures. Automating cross-account CI/CD pipelines When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice.</description>
+      <content:encoded><![CDATA[<h3 id="devops">DevOps</h3>
+<ul>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon's_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf">Amazon&rsquo;s approach to high-availability deployment</a>
+<ul>
+<li>Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2021/Automating_crossaccount_CICD_pipelines_REPEAT_DOP402-R1.pdf">Automating cross-account CI/CD pipelines</a>
+<ul>
+<li>When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice. This limits the area of impact for changes made and results in better modularity, security, and governance. In this session, dive deep into an example multi-account deployment using infrastructure-as-code (IaC) services such as the AWS CDK, AWS CodePipeline, and AWS CloudFormation. Also explore a real-world customer use case that is deploying at scale across hundreds of AWS accounts.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2020/Continuous_improvement_of_code_quality_with_Amazon_CodeGuru_DOP403.pdf">Continuous improvement of code quality with Amazon CodeGuru</a>
+<ul>
+<li>Software development teams are using modern tools that help automate developer workflows in order to improve speed and code quality. Amazon CodeGuru is powered by machine learning to provide intelligent recommendations and help you identify your application’s most expensive lines of code. CodeGuru enables developers to mitigate potential defects and optimize performance early in the development cycle. In this session, you walk through how to onboard CodeGuru, review architectural diagrams, and witness CodeGuru in a pipeline, providing continuous feedback to the developer to iterate through code improvements.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2021/Continuous_security_and_compliance_for_your_CICD_pipeline_REPEAT_DOP401-R2.pdf">Continuous security and compliance for your CI/CD pipeline</a>
+<ul>
+<li>This workshop dives deep into the importance of and mechanisms for meeting security and compliance requirements for your organization. Learn ways that you can enforce pre- and post-deployment standards, shift-left testing, and use of services like Amazon CodeGuru Reviewer, AWS CloudFormation Guard, and AWS Config for security static analysis and runtime compliance checks.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Deep_dive_into_AWS_Cloud_Development_Kit_DOP402-R1.pdf">Deep dive into AWS Cloud Development Kit</a>
+<ul>
+<li>The AWS Cloud Development Kit (AWS CDK) is a multi-language, open-source framework that enables developers to harness the full power of familiar programming languages to define reusable cloud components and provision applications built from those components using AWS CloudFormation. In this session, you develop an AWS CDK application and learn how to quickly assemble AWS infrastructure. We explore the AWS Construct Library and show you how easy it is to configure your cloud resources, manage permissions, connect event sources, and build and publish your own constructs.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/DOP402-R_Implementing-DevSecOps-pipelines-with-compliance-in-mind.pdf">Implementing DevSecOps pipelines with compliance in mind</a>
+<ul>
+<li>Review a DevSecOps CI/CD pipeline that includes software composition analysis, static application security testing, and dynamic application security testing. Also learn about best practices for incorporating security checkpoints across various pipeline stages and aggregating vulnerability findings into a single pane of glass. Finally, hear about processes and tools that can increase an organization’s ability to deliver applications and services in a secure manner.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/DOP403-R_Multi-account-and-multi-Region-deployments-at-scale.pdf">Multi-account and multi-Region deployments at scale</a>
+<ul>
+<li>Many AWS customers are implementing multi-account strategies in order to more easily manage their cloud infrastructure and improve their security and compliance posture. In this chalk talk, learn about various options for deploying resources into multiple accounts and AWS Regions including across partitions (as in AWS GovCloud [US]). The talk also covers how these options can align to your organizational units in AWS Control Tower.</li>
+</ul>
+</li>
+</ul>
+<h2 id="kubernetes-eks">Kubernetes (EKS)</h2>
 <ul>
 <li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/SAS401-R_Amazon-EKS-SaaS-Building-a-working-multi-tenant-environment.pdf">Amazon EKS SaaS: Building a working multi-tenant environment</a>
 <ul>
@@ -1270,6 +1308,11 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
 <li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP405-R_Running-efficient-Kubernetes-clusters-on-Amazon-EC2-with-Karpenter.pdf">Running efficient Kubernetes clusters on Amazon EC2 with Karpenter</a>
 <ul>
 <li>Learn how to provision, manage, and maintain your Kubernetes clusters with Amazon EKS at virtually any scale using Karpenter. Karpenter is a node lifecycle management solution used to scale your Kubernetes cluster. It observes incoming pods and launches the right instances for the situation. Instance selection decisions are intent-based and driven by the specification of incoming pods, including resource requests and scheduling constraints.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2020/Simplifying_Kubernetes_application_management_with_cdk8s_DOP401.pdf">Simplifying Kubernetes application management with cdk8s</a>
+<ul>
+<li>The CDK for Kubernetes (cdk8s) is a new open-source software development framework that lets you define Kubernetes applications and resources using familiar programming languages. In this session, learn how to use the construct programing model and the cdk8s+ library to define your Kubernetes applications and share common definitions as reusable components with your team, organization, and Community Heroes (AWS). Come learn the fundamentals you need to use cdk8s to accelerate application development on any Kubernetes cluster running anywhere.</li>
 </ul>
 </li>
 <li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP001_Spot-invaders-A-fault-tolerant-chaos-engineering-game.pdf">Spot invaders: A fault-tolerant chaos engineering game</a>

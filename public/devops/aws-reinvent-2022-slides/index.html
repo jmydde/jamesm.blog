@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>AWS re:Invent Slides (2022) | jamesm.blog</title>
-<meta name="keywords" content="aws, devops, conference, re:invent, kubernetes, eks">
-<meta name="description" content="Kubernetes (EKS) Amazon EKS SaaS: Building a working multi-tenant environment Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning.">
+<meta name="keywords" content="aws, devops, conference, re:invent, kubernetes, eks, ci/cd, pipelines, security, compliance, devsecops">
+<meta name="description" content="DevOps Amazon&rsquo;s approach to high-availability deployment Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures. Automating cross-account CI/CD pipelines When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/devops/aws-reinvent-2022-slides/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.d13dc9670c54a799901d8f51eb366234127600b84f76504283993a1e6bb2ffd7.css" integrity="sha256-0T3JZwxUp5mQHY9R6zZiNBJ2ALhPdlBCg5k6Hmuy/9c=" rel="preload stylesheet" as="style">
@@ -15,9 +15,9 @@
 <link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="AWS re:Invent Slides (2022) | jamesm.blog" />
-<meta name="twitter:description" content="Kubernetes (EKS) Amazon EKS SaaS: Building a working multi-tenant environment Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning." />
+<meta name="twitter:description" content="DevOps Amazon&rsquo;s approach to high-availability deployment Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures. Automating cross-account CI/CD pipelines When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice." />
 <meta property="og:title" content="AWS re:Invent Slides (2022) | jamesm.blog" />
-<meta property="og:description" content="Kubernetes (EKS) Amazon EKS SaaS: Building a working multi-tenant environment Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning." />
+<meta property="og:description" content="DevOps Amazon&rsquo;s approach to high-availability deployment Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures. Automating cross-account CI/CD pipelines When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jamesm.blog/devops/aws-reinvent-2022-slides/" />
     <meta property="og:image" content="https://jamesm.blog/papermod-cover.png"/>
@@ -52,11 +52,11 @@
   "@type": "BlogPosting",
   "headline": "AWS re:Invent Slides (2022) | jamesm.blog",
   "name": "AWS re:Invent Slides (2022)",
-  "description": "Kubernetes (EKS) Amazon EKS SaaS: Building a working multi-tenant environment Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning.",
+  "description": "DevOps Amazon\u0026rsquo;s approach to high-availability deployment Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon\u0026rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures. Automating cross-account CI/CD pipelines When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice.",
   "keywords": [
-    "aws", "devops", "conference", "re:invent", "kubernetes", "eks"
+    "aws", "devops", "conference", "re:invent", "kubernetes", "eks", "ci/cd", "pipelines", "security", "compliance", "devsecops"
   ],
-  "wordCount" : "987",
+  "wordCount" : "1607",
   "inLanguage": "en",
   "datePublished": "2022-12-03T11:04:16+01:00",
   "dateModified": "2022-12-03T11:04:16+01:00",
@@ -271,9 +271,9 @@ function toggleThemeListener() {
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
   <span>December 3, 2022</span></span><span class="meta-item">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/aws/">aws</a><a href="https://jamesm.blog/tags/devops/">devops</a><a href="https://jamesm.blog/tags/conference/">conference</a><a href="https://jamesm.blog/tags/reinvent/">re:invent</a><a href="https://jamesm.blog/tags/kubernetes/">kubernetes</a><a href="https://jamesm.blog/tags/eks/">eks</a></span></span><span class="meta-item">
+  <span class="post-tags"><a href="https://jamesm.blog/tags/aws/">aws</a><a href="https://jamesm.blog/tags/devops/">devops</a><a href="https://jamesm.blog/tags/conference/">conference</a><a href="https://jamesm.blog/tags/reinvent/">re:invent</a><a href="https://jamesm.blog/tags/kubernetes/">kubernetes</a><a href="https://jamesm.blog/tags/eks/">eks</a><a href="https://jamesm.blog/tags/ci/cd/">ci/cd</a><a href="https://jamesm.blog/tags/pipelines/">pipelines</a><a href="https://jamesm.blog/tags/security/">security</a><a href="https://jamesm.blog/tags/compliance/">compliance</a><a href="https://jamesm.blog/tags/devsecops/">devsecops</a></span></span><span class="meta-item">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>5 min</span></span>
+  <span>8 min</span></span>
 
       
       
@@ -284,7 +284,10 @@ function toggleThemeListener() {
             <span class="details">Table of Contents</span>
         </summary>
 
-        <div class="inner"><ul>
+        <div class="inner"><ul><ul>
+                <li>
+                    <a href="#devops" aria-label="DevOps">DevOps</a></li></ul>
+                    
                 <li>
                     <a href="#kubernetes-eks" aria-label="Kubernetes (EKS)">Kubernetes (EKS)</a>
                 </li>
@@ -293,7 +296,45 @@ function toggleThemeListener() {
     </details>
 </div>
 
-  <div class="post-content"><h2 id="kubernetes-eks">Kubernetes (EKS)<a hidden class="anchor" aria-hidden="true" href="#kubernetes-eks">¶</a></h2>
+  <div class="post-content"><h3 id="devops">DevOps<a hidden class="anchor" aria-hidden="true" href="#devops">¶</a></h3>
+<ul>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon's_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf">Amazon&rsquo;s approach to high-availability deployment</a>
+<ul>
+<li>Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2021/Automating_crossaccount_CICD_pipelines_REPEAT_DOP402-R1.pdf">Automating cross-account CI/CD pipelines</a>
+<ul>
+<li>When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice. This limits the area of impact for changes made and results in better modularity, security, and governance. In this session, dive deep into an example multi-account deployment using infrastructure-as-code (IaC) services such as the AWS CDK, AWS CodePipeline, and AWS CloudFormation. Also explore a real-world customer use case that is deploying at scale across hundreds of AWS accounts.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2020/Continuous_improvement_of_code_quality_with_Amazon_CodeGuru_DOP403.pdf">Continuous improvement of code quality with Amazon CodeGuru</a>
+<ul>
+<li>Software development teams are using modern tools that help automate developer workflows in order to improve speed and code quality. Amazon CodeGuru is powered by machine learning to provide intelligent recommendations and help you identify your application’s most expensive lines of code. CodeGuru enables developers to mitigate potential defects and optimize performance early in the development cycle. In this session, you walk through how to onboard CodeGuru, review architectural diagrams, and witness CodeGuru in a pipeline, providing continuous feedback to the developer to iterate through code improvements.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2021/Continuous_security_and_compliance_for_your_CICD_pipeline_REPEAT_DOP401-R2.pdf">Continuous security and compliance for your CI/CD pipeline</a>
+<ul>
+<li>This workshop dives deep into the importance of and mechanisms for meeting security and compliance requirements for your organization. Learn ways that you can enforce pre- and post-deployment standards, shift-left testing, and use of services like Amazon CodeGuru Reviewer, AWS CloudFormation Guard, and AWS Config for security static analysis and runtime compliance checks.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Deep_dive_into_AWS_Cloud_Development_Kit_DOP402-R1.pdf">Deep dive into AWS Cloud Development Kit</a>
+<ul>
+<li>The AWS Cloud Development Kit (AWS CDK) is a multi-language, open-source framework that enables developers to harness the full power of familiar programming languages to define reusable cloud components and provision applications built from those components using AWS CloudFormation. In this session, you develop an AWS CDK application and learn how to quickly assemble AWS infrastructure. We explore the AWS Construct Library and show you how easy it is to configure your cloud resources, manage permissions, connect event sources, and build and publish your own constructs.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/DOP402-R_Implementing-DevSecOps-pipelines-with-compliance-in-mind.pdf">Implementing DevSecOps pipelines with compliance in mind</a>
+<ul>
+<li>Review a DevSecOps CI/CD pipeline that includes software composition analysis, static application security testing, and dynamic application security testing. Also learn about best practices for incorporating security checkpoints across various pipeline stages and aggregating vulnerability findings into a single pane of glass. Finally, hear about processes and tools that can increase an organization’s ability to deliver applications and services in a secure manner.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/DOP403-R_Multi-account-and-multi-Region-deployments-at-scale.pdf">Multi-account and multi-Region deployments at scale</a>
+<ul>
+<li>Many AWS customers are implementing multi-account strategies in order to more easily manage their cloud infrastructure and improve their security and compliance posture. In this chalk talk, learn about various options for deploying resources into multiple accounts and AWS Regions including across partitions (as in AWS GovCloud [US]). The talk also covers how these options can align to your organizational units in AWS Control Tower.</li>
+</ul>
+</li>
+</ul>
+<h2 id="kubernetes-eks">Kubernetes (EKS)<a hidden class="anchor" aria-hidden="true" href="#kubernetes-eks">¶</a></h2>
 <ul>
 <li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/SAS401-R_Amazon-EKS-SaaS-Building-a-working-multi-tenant-environment.pdf">Amazon EKS SaaS: Building a working multi-tenant environment</a>
 <ul>
@@ -343,6 +384,11 @@ function toggleThemeListener() {
 <li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP405-R_Running-efficient-Kubernetes-clusters-on-Amazon-EC2-with-Karpenter.pdf">Running efficient Kubernetes clusters on Amazon EC2 with Karpenter</a>
 <ul>
 <li>Learn how to provision, manage, and maintain your Kubernetes clusters with Amazon EKS at virtually any scale using Karpenter. Karpenter is a node lifecycle management solution used to scale your Kubernetes cluster. It observes incoming pods and launches the right instances for the situation. Instance selection decisions are intent-based and driven by the specification of incoming pods, including resource requests and scheduling constraints.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2020/Simplifying_Kubernetes_application_management_with_cdk8s_DOP401.pdf">Simplifying Kubernetes application management with cdk8s</a>
+<ul>
+<li>The CDK for Kubernetes (cdk8s) is a new open-source software development framework that lets you define Kubernetes applications and resources using familiar programming languages. In this session, learn how to use the construct programing model and the cdk8s+ library to define your Kubernetes applications and share common definitions as reusable components with your team, organization, and Community Heroes (AWS). Come learn the fundamentals you need to use cdk8s to accelerate application development on any Kubernetes cluster running anywhere.</li>
 </ul>
 </li>
 <li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP001_Spot-invaders-A-fault-tolerant-chaos-engineering-game.pdf">Spot invaders: A fault-tolerant chaos engineering game</a>
