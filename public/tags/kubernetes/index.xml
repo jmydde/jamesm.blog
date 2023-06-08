@@ -635,5 +635,73 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
 ]]></content:encoded>
     </item>
     
+    <item>
+      <title>AWS re:Invent Slides (2022)</title>
+      <link>https://jamesm.blog/devops/aws-reinvent-2022-slides/</link>
+      <pubDate>Sat, 03 Dec 2022 11:04:16 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
+      <description>Kubernetes (EKS) Amazon EKS SaaS: Building a working multi-tenant environment Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning.</description>
+      <content:encoded><![CDATA[<h2 id="kubernetes-eks">Kubernetes (EKS)</h2>
+<ul>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/SAS401-R_Amazon-EKS-SaaS-Building-a-working-multi-tenant-environment.pdf">Amazon EKS SaaS: Building a working multi-tenant environment</a>
+<ul>
+<li>Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning. Get hands-on experience with the moving parts of an Amazon EKS SaaS solution while discovering the nuances of the Amazon EKS SaaS model.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CON201_Best-practices-for-using-Amazon-EKS-add-ons.pdf">Best practices for using Amazon EKS add-ons</a>
+<ul>
+<li>Kubernetes add-on software extends the functionality of Kubernetes and is typically built and maintained by the Kubernetes community, AWS, and other third-party vendors. Amazon EKS add-ons allow you to configure, deploy, and update the operational software or add-ons that provide key functionality to support your Kubernetes applications, including cluster networking, operational software for observability, management, scaling, and security. In this chalk talk, walk through best practices for using add-ons to consistently maintain the security and stability of your Amazon EKS clusters.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/PRT002_Best-practices-platform-teams-can-use-to-streamline-Kubernetes-operations-sponsored-by-Rafay-Systems.pdf">Best practices platform teams can use to streamline Kubernetes operations</a>
+<ul>
+<li>Kubernetes accelerates the digital transformation of cloud-native applications. As organizations expand, the number of Kubernetes clusters and applications can lead to significant operational challenges. A popular choice for managed Kubernetes is Amazon EKS. It’s no wonder that platform teams are on a quest to better manage, scale, and secure their Amazon EKS clusters across disparate internal application teams while working with multiple AWS accounts in multiple AWS Regions. AWS Partner Rafay Systems helps hundreds of enterprises reduce the complexity of Kubernetes. In this lightning talk, learn best practices on streamlining Kubernetes from self-service cluster provisioning through to centralized policy management.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CON403-R_Bootstrapping-batteries-included-Amazon-EKS-clusters--.pdf">Bootstrapping “batteries-included” Amazon EKS clusters</a>
+<ul>
+<li>In this builders’ session, learn about using Amazon EKS Blueprints for Terraform to configure and deploy “batteries-included” Amazon EKS clusters. Dive deep into EKS Blueprints code and learn to deploy security-compliant EKS clusters with managed node groups and AWS Fargate profiles. Learn how to build EKS clusters that support workloads from multiple teams with EKS Blueprint’s teams functionality. Lastly, learn how to easily deploy AWS managed add-ons (like VPC CNI, CoreDNS, and kube-proxy) in addition to popular open-source add-ons, including Metrics Server, cluster autoscaler, Prometheus, Karpenter, AWS Load Balancer Controller, Fluent Bit, and Argo CD.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/STG326_Build-Kubernetes-at-scale-using-AWS-file-services-.pdf">Build Kubernetes at scale using AWS file services</a>
+<ul>
+<li>Learn how you can launch and use Amazon FSx fully managed file services to power your Amazon EKS Kubernetes container workloads. Deploy a container-based workload with persistent storage from Amazon FSx to better understand the benefits and key features for container-based workloads. The workshop also touches on dimensions such as performance, scale, high availability, and how to create clones of your DevOps data in seconds, or replicate and access your data seamlessly across AWS Regions, to further power at-scale container-based workloads.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP335-R_Data-analysis-with-Amazon-EKS-and-AWS-Batch.pdf">Data analysis with Amazon EKS and AWS Batch</a>
+<ul>
+<li>Gain an understanding of the recently added AWS Batch support for managing and scheduling large-scale data analysis using Amazon EKS. Learn AWS Batch fundamental concepts and how AWS Batch works together with your other AWS services running within Amazon EKS. Deploy an Amazon EKS cluster, leverage AWS Batch to manage pods, and train a simple machine learning model.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CON404_Disaster-recovery-high-availability-and-resiliency-on-Amazon-EKS.pdf">Disaster recovery, high availability, and resiliency on Amazon EKS</a>
+<ul>
+<li>Kubernetes application development and operations teams need to build resilient systems that embrace failure as a natural occurrence. Learn about patterns and strategies for running resilient Kubernetes clusters on AWS. Use chaos engineering tools to simulate failures and disaster scenarios for Kubernetes clusters on AWS and learn how to recover from them within given recovery time and recovery point objectives.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CON204-R_Getting-started-with-Amazon-Elastic-Kubernetes-Service-Amazon-EKS.pdf">Getting started with Amazon Elastic Kubernetes Service (Amazon EKS)</a>
+<ul>
+<li>Introduction to Kubernetes using the AWS managed Kubernetes service Amazon EKS. Previous experience with Kubernetes or container workflows is useful but not required. During this workshop you deploy everything needed to have a set of microservices running with additional useful day-2 functionality in place. The workshop includes deploying a set of microservices, configuring a load balancer in front of your service, configuring centralized logging, and enabling automatic scaling of your pods and worker nodes.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CON405_How-to-monitor-and-reduce-your-compute-costs.pdf">How to monitor and reduce your compute costs</a>
+<ul>
+<li>As organizations adopt Amazon EKS to securely and reliably run their mission-critical workloads in the AWS cloud and on premises, it is essential that they have tools to monitor and optimize what they spend to run their Kubernetes applications. This builders’ session demonstrates cost-reduction steps in a sample architecture and then shows ways you can identify and reduce compute costs in your environment using OpenCost, Kubecost, Karpenter, and AWS Graviton. Join Adobe and AWS to learn how they are collaborating with Kubecost and the OpenCost community to standardize cost tracking, allocation, methodologies, and measurements and help teams using Kubernetes more easily understand their infrastructure costs.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP405-R_Running-efficient-Kubernetes-clusters-on-Amazon-EC2-with-Karpenter.pdf">Running efficient Kubernetes clusters on Amazon EC2 with Karpenter</a>
+<ul>
+<li>Learn how to provision, manage, and maintain your Kubernetes clusters with Amazon EKS at virtually any scale using Karpenter. Karpenter is a node lifecycle management solution used to scale your Kubernetes cluster. It observes incoming pods and launches the right instances for the situation. Instance selection decisions are intent-based and driven by the specification of incoming pods, including resource requests and scheduling constraints.</li>
+</ul>
+</li>
+<li><a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP001_Spot-invaders-A-fault-tolerant-chaos-engineering-game.pdf">Spot invaders: A fault-tolerant chaos engineering game</a>
+<ul>
+<li>In this session, experience your favorite arcade game with an AWS twist. Spot Invaders is a retro game where your goal is to earn points by defeating wave after wave of invaders to destroy pods and nodes on an Amazon EKS cluster and so make the underlying microservices exposed by the cluster unavailable. By applying Amazon EC2 Spot best practices on an Amazon EKS system and utilizing chaos engineering using AWS Fault Injector Simulator, learn how to build fault-tolerant and cost-optimized container systems.</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>
