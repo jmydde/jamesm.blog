@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2023-06-10T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2023-06-10T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/conferences/</loc>
+    <lastmod>2023-06-10T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2023-06-10T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/conferences/</loc>
+    <lastmod>2023-06-10T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/summits/</loc>
+    <lastmod>2023-06-10T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2023-06-10T06:51:25+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/aws/</loc>
     <lastmod>2023-06-07T11:04:16+01:00</lastmod>
   </url><url>
@@ -14,23 +35,11 @@
     <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2023-06-07T11:04:16+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2023-06-07T11:04:16+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/summit/</loc>
-    <lastmod>2023-06-07T11:04:16+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2023-06-07T11:04:16+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/aws-summit-2023-agenda/</loc>
     <lastmod>2023-06-07T07:54:16+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2023-06-04T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2023-06-04T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/chatbots/</loc>
     <lastmod>2023-06-04T06:51:25+01:00</lastmod>
@@ -519,9 +528,6 @@
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/react/</loc>
-    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/summits/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tutorials/</loc>
