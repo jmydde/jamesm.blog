@@ -13,7 +13,7 @@ tags: ['ai', 'summits', 'conferences']
 ## London
 | Event Name | Location | Date(s) |
 | ---------- | -------- | ------- |
-| [AI & Big Data Expo](https://www.ai-expo.net/global/) | Olympia | 30th November - 1ST December 2023 | 
+| [AI & Big Data Expo](https://www.ai-expo.net/global/) | Olympia | 30th November - 1st December 2023 | 
 | [AI UK Conference](https://www.westminsterinsight.com/events/artificial-intelligence-and-machine-learning-conference/) | IStructE | 24th April 2023 |
 | [AI World Congress](https://aiconference.london/) | Kensington Conference & Event Centre | 28th-29th June 2023 |
 | [Gen AI Con](https://generativeaiconference.org/) | Tobacco Dock | 14th-15th June 2023 |

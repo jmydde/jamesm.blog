@@ -1,5 +1,5 @@
 ---
-title: "AWS Summit London Agenda (2023)"
+title: "AWS Summit London (2023) - Agenda"
 date: 2023-06-07T07:54:16+01:00
 draft: false
 tags: ['aws', 'devops', 'summit']

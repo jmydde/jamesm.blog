@@ -1,5 +1,5 @@
 ---
-title: "AWS Summit London Videos (2023)"
+title: "AWS Summit London (2023) - Videos"
 date: 2023-06-07T11:04:16+01:00
 draft: false
 tags: ['aws', 'devops', 'summit']
