@@ -1,11 +1,11 @@
 ---
-title: "My Music Hardware & Software"
-date: 2023-12-15T21:53:39+01:00
+title: "My Music Production Hardware & Software"
+date: 2023-12-16T07:53:39+01:00
 draft: false
 tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', 'steinberg']
 ---
 
-## Music Hardware
+## My Music Production Hardware
 
 ### Current
 - DJ Controllers
@@ -29,9 +29,19 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php)
   - [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
 
-## Music Software
+## My Music Production Software
 
-### Arturia
+### [AIR Music Technology](https://www.airmusictech.com/)
+- [AIR Essential Synths Pack](https://www.airmusictech.com/virtual-instruments/air-essential-synths-pack.html)
+  - [LOOM II](https://www.airmusictech.com/virtual-instruments/loom-ii.html)
+  - [The Riser](https://www.airmusictech.com/virtual-instruments/theRiser.html)
+  - [Vacuum Pro](https://www.airmusictech.com/virtual-instruments/vacuum-pro.html)
+- [AIR Power Pack](https://www.airmusictech.com/virtual-instruments/air-power-pack.html)
+  - [Hybrid 3](https://www.airmusictech.com/virtual-instruments/hybrid3.html)
+  - [Mini Grand](https://www.airmusictech.com/virtual-instruments/mini-grand.html)
+  - [Velvet 2](https://www.airmusictech.com/virtual-instruments/velvet.html)
+
+### [Arturia](https://www.arturia.com/)
 - [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
 - [FX Collection](https://www.arturia.com/products/software-effects/fx-collection/overview)
 - [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview)
@@ -88,10 +98,10 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Hyper Rave
 - [Wavelengths Bundle](https://www.arturia.com/sound-banks/wavelengthsbundle)
 
-### Lennar Digital
+### [Lennar Digital](https://www.lennardigital.com/home/)
 - [Sylenth1](https://www.lennardigital.com/sylenth1/)
 
-### Native Instruments
+### [Native Instruments](https://www.native-instruments.com/en/)
 - [Native Instruments Komplete 14 Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
   - Orchestral & Cinematic Instruments
     - Action Strikes
@@ -300,15 +310,17 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Drive
     - Our House
 
-### PluginGuru
+### [PluginGuru](https://www.pluginguru.com/)
 - [Unify](https://www.pluginguru.com/products/unify-standard/)
   - [Modern Cinema - Ambient Dreams](https://www.pluginguru.com/products/ambient-dreams/)
 
-### Steinberg
+### [Steinberg](https://www.steinberg.net/)
 - [Cubase Artist 13](https://www.steinberg.net/cubase/compare-editions/)
 
-### UVI
-- [Homepage](https://www.uvi.net/)
+### [u-he](https://u-he.com)
+- [Diva](https://u-he.com/products/diva/)
+
+### [UVI](https://www.uvi.net/)
 - 8-Bit Synth
 - Augmented Orchestra
 - Austrian Grand
@@ -316,11 +328,20 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - Drum Designer
 - Dual Delay X
 - Emulation II+
+- Falcon 3
+  - Analog Motion
+  - Digital Motion
+  - Organic Arps
+  - Organic Keys
+  - Organic Pads
+  - Spectre
 - FM Suite
+- HX-20
 - Key Suite Acoustic
 - Key Suite Digital
 - Key Suite Electric
 - Meteor
+- Noctua	 
 - Percussion Factory
 - Program 24
 - PX Memories
@@ -329,3 +350,9 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - Shade
 - Sparkverb
 - Synth Anthology 3
+
+## Wishlist
+- Music Hardware
+  - Native Instruments
+    - [Komplete Control S88 MK3](https://www.native-instruments.com/en/products/komplete/keyboards/kontrol-s49-s61-s88/)
+- Music Software
