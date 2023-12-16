@@ -397,8 +397,23 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - Universal Audio
   - LA-2A Tube Compressor
 
-## Wishlist
-- Music Hardware
-  - Native Instruments
+## Wish List
+- Music Hardware Wish List
+  - [Behringer](https://www.behringer.com/)
+    - [Odyssey](https://www.behringer.com/product.html?modelCode=P0BNY)
+    - [Poly D](https://www.behringer.com/product.html?modelCode=P0D9J)
+    - [UB-Xa](https://www.gearnews.com/behringer-ub-xa/)
+  - [Native Instruments](https://www.native-instruments.com)
     - [Komplete Control S88 MK3](https://www.native-instruments.com/en/products/komplete/keyboards/kontrol-s49-s61-s88/)
-- Music Software
+  - [Moog](https://www.moogmusic.com/)
+    - [Etherwave Theremin](https://www.moogmusic.com/products/etherwave-theremin)
+    - [Minimoog Model D](https://www.moogmusic.com/products/minimoog-model-d)
+  - [Roland](https://www.roland.com/)
+    - [Jupiter X](https://www.roland.com/uk/products/jupiter-x/)
+    - [MC-707](https://www.roland.com/ca/products/mc-707/)
+  - [Sequential](https://sequential.com/)
+    - [Prophet X](https://sequential.com/product/prophet-x/)
+- Music Software Wish List
+  - [Spectrasonics](https://www.spectrasonics.net/)
+    - [Keyscape](https://www.spectrasonics.net/products/keyscape/index.php)
+    - [Omnisphere 2](https://www.spectrasonics.net/products/omnisphere/)
