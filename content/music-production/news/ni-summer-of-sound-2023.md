@@ -1,5 +1,5 @@
 ---
-title: "Native Instruments Sale (50% off)"
+title: "News: Native Instruments Sale (50% off)"
 date: 2023-05-26T07:01:39+01:00
 draft: false
 tags: ['music', 'music production', 'native instruments', 'sale', 'discounts', 'plugins']

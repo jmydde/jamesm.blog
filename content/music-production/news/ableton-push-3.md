@@ -1,5 +1,5 @@
 ---
-title: "New Ableton Push 3"
+title: "News: Ableton Push 3"
 date: 2023-05-23T14:53:39+01:00
 draft: false
 tags: ['music production', 'ableton']

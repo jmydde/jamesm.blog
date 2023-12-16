@@ -38,6 +38,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - [Vacuum Pro](https://www.airmusictech.com/virtual-instruments/vacuum-pro.html)
 - [AIR Power Pack](https://www.airmusictech.com/virtual-instruments/air-power-pack.html)
   - [Hybrid 3](https://www.airmusictech.com/virtual-instruments/hybrid3.html)
+    - Hybrid 3 Expansion: E-lec-tro Waves
+    - Hybrid 3 Expansion: Fresh Energy
   - [Mini Grand](https://www.airmusictech.com/virtual-instruments/mini-grand.html)
   - [Velvet 2](https://www.airmusictech.com/virtual-instruments/velvet.html)
 
@@ -97,6 +99,18 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Inner City Soul
     - Hyper Rave
 - [Wavelengths Bundle](https://www.arturia.com/sound-banks/wavelengthsbundle)
+
+### Eventide
+- Blackhole
+
+### Heavyocity
+- PUNISH Lite
+
+### [Image Line](https://www.image-line.com/)
+- [FL Studio (Fruity Edition)](https://www.image-line.com/fl-studio/)
+
+### iZotope
+- Stutter Edit 2
 
 ### [Lennar Digital](https://www.lennardigital.com/home/)
 - [Sylenth1](https://www.lennardigital.com/sylenth1/)
@@ -350,6 +364,38 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - Shade
 - Sparkverb
 - Synth Anthology 3
+
+### Music Theory Tools
+- EVAbeat
+  - Melody Sauce 2
+- [Plugin Boutique](https://www.pluginboutique.com/)
+  - Scaler 2
+- [WA Production](https://www.waproduction.com/)
+  - MIDIQ
+  - InstaScale
+  - Chords Pro + Notes
+  = InstaChord 2
+  - InstaComposer
+
+### Other
+- Antares
+  - Choir
+- Dear Reality
+  - EXOVERB Micro
+- Minimal Audio
+  - Rift Filter Lite
+- Moog
+  - Moogerfooger MF-108S Cluster Flux
+- Plugin Boutique
+  - StereoSavage 2 Elements
+- Pulsar Audio
+  - W495
+- Sonible
+  - pure:limit
+- Tracktion 
+  - Dawesome LOVE
+- Universal Audio
+  - LA-2A Tube Compressor
 
 ## Wishlist
 - Music Hardware
