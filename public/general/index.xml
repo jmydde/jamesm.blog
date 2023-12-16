@@ -5,6 +5,7 @@
     <link>https://jamesm.blog/general/</link>
     <description>Recent content in General on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Mon, 15 May 2023 14:53:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Worst User Interfaces</title>
@@ -18,6 +19,7 @@ This is hilarious. Engineers are competing who creates the worst UI on Reddit. I
 &amp;mdash; Aleksandr Volodarsky (@volodarik) May 14, 2023 </description>
       <content:encoded><![CDATA[<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Sunday read.<br><br>This is hilarious. Engineers are competing who creates the worst UI on Reddit. <br><br>I think the winners are:<br><br>1/ Enter your phone number <a href="https://t.co/944duji1Im">pic.twitter.com/944duji1Im</a></p>&mdash; Aleksandr Volodarsky (@volodarik) <a href="https://twitter.com/volodarik/status/1657755496852475906?ref_src=twsrc%5Etfw">May 14, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ]]></content:encoded>
     </item>
@@ -379,11 +381,12 @@ echo &#34;Hello World&#34;
 
 <h3 id="github-gist">GitHub Gist</h3>
 <p><a href="https://gist.github.com/sansmischevia/5148109">https://gist.github.com/sansmischevia/5148109</a>
-<script type="application/javascript" src="https://gist.github.com/sansmischevia/5148109.js"></script>
+<script src="https://gist.github.com/sansmischevia/5148109.js"></script>
 </p>
 <h3 id="tweet">Tweet</h3>
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Owl bet you&#39;ll lose this staring contest 🦉 <a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC</a></p>&mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) <a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 <h3 id="vimeo">Vimeo</h3>
 
@@ -448,7 +451,7 @@ echo &#34;Hello World&#34;
       <guid>https://jamesm.blog/general/markdown/</guid>
       <description>Headings Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Links Internal: Heading 1 External: Google Lists item 1 sub-item 1 sub-item 2 item 2 Task Lists Write the press release Update the website Contact the media Highlight - not working I need to highlight these ==very important words==.
 Strikethrough The world is flat. We now know that the world is round.
-Emojis Gone camping! ⛺ Be back soon.</description>
+Emojis Gone camping! &amp;#x26fa; Be back soon.</description>
       <content:encoded><![CDATA[<h1 id="headings">Headings</h1>
 <h1 id="heading-1">Heading 1</h1>
 <h2 id="heading-2">Heading 2</h2>
@@ -481,8 +484,8 @@ Emojis Gone camping! ⛺ Be back soon.</description>
 <h1 id="strikethrough">Strikethrough</h1>
 <p><del>The world is flat.</del> We now know that the world is round.</p>
 <h1 id="emojis">Emojis</h1>
-<p>Gone camping! ⛺ Be back soon.</p>
-<p>That is so funny! 😂</p>
+<p>Gone camping! &#x26fa; Be back soon.</p>
+<p>That is so funny! &#x1f602;</p>
 <h1 id="table">Table</h1>
 <table>
 <thead>
