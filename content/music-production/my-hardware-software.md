@@ -1,6 +1,6 @@
 ---
 title: "My Music Hardware & Software"
-date: 2023-02-20T14:53:39+01:00
+date: 2023-12-15T21:53:39+01:00
 draft: false
 tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', 'steinberg']
 ---
@@ -8,6 +8,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 ## Music Hardware
 
 ### Current
+- DJ Controllers
+  - [Native Instruments Traktor Kontrol S3](https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/)
 - Drum Machines
   - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
 - Keyboards
@@ -18,6 +20,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 
 ### Past
 - Drum Machines
+  - [Korg ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
   - [Roland R8](https://www.vintagesynth.com/roland/r8.php)
 - Keyboards
   - [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/)
@@ -28,8 +31,62 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 
 ## Music Software
 
-### PluginGuru
-- [Unify](https://www.pluginguru.com/products/unify-standard/)
+### Arturia
+- [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
+- [FX Collection](https://www.arturia.com/products/software-effects/fx-collection/overview)
+- [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview)
+- [Pigments](https://www.arturia.com/products/software-instruments/pigments/overview)
+- [V Collection](https://www.arturia.com/products/software-instruments/v-collection/overview)
+  - Instruments
+    - ARP 2600 V
+    - Acid V
+    - [Analog Lab Pro](https://www.arturia.com/products/software-instruments/analoglab/overview)
+    - Augmented BRASS
+    - Augmented GRAND PIANO
+    - Augmented STRINGS
+    - Augmented VOICES
+    - Augmented WOODWINDS
+    - B-3 V
+    - Buchla Easel V
+    - CMI V
+    - CP-70 V
+    - CS-80 V
+    - CZ V
+    - Clavinet V
+    - DX7 V
+    - Emulator II V
+    - Farfisa V
+    - Hyper Rave
+    - Inner City Soul
+    - Inward Universe
+    - Jun-6 V
+    - Jup-8 V
+    - Korg MS-20 V
+    - Matrix-12 V
+    - Mellotron V
+    - Mini V
+    - Mini V 4
+    - MiniFreak V
+    - Modular V
+    - OP-Xa V
+    - Piano V
+    - Prophet-5 V
+    - Prophet-VS V
+    - SEM V
+    - SQ80 V
+    - Solina V
+    - Stage-73 V
+    - Synclavier V
+    - Synthi V
+    - VOX Continental V
+    - Vocoder V
+    - Wurli V
+    - Wurli V 3
+  - Expansion Packs
+    - Inward Universe
+    - Inner City Soul
+    - Hyper Rave
+- [Wavelengths Bundle](https://www.arturia.com/sound-banks/wavelengthsbundle)
 
 ### Lennar Digital
 - [Sylenth1](https://www.lennardigital.com/sylenth1/)
@@ -243,8 +300,12 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Drive
     - Our House
 
+### PluginGuru
+- [Unify](https://www.pluginguru.com/products/unify-standard/)
+  - [Modern Cinema - Ambient Dreams](https://www.pluginguru.com/products/ambient-dreams/)
+
 ### Steinberg
-- [Cubase Artist](https://www.steinberg.net/cubase/compare-editions/)
+- [Cubase Artist 13](https://www.steinberg.net/cubase/compare-editions/)
 
 ### UVI
 - [Homepage](https://www.uvi.net/)
