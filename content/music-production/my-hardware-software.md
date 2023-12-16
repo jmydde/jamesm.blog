@@ -31,6 +31,9 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 
 ## My Music Production Software
 
+### [Ableton](https://www.ableton.com/en/)
+- [Ableton Live](https://www.ableton.com/en/shop/live/)
+
 ### [AIR Music Technology](https://www.airmusictech.com/)
 - [AIR Essential Synths Pack](https://www.airmusictech.com/virtual-instruments/air-essential-synths-pack.html)
   - [LOOM II](https://www.airmusictech.com/virtual-instruments/loom-ii.html)
@@ -42,6 +45,9 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Hybrid 3 Expansion: Fresh Energy
   - [Mini Grand](https://www.airmusictech.com/virtual-instruments/mini-grand.html)
   - [Velvet 2](https://www.airmusictech.com/virtual-instruments/velvet.html)
+
+### [Apple](https://www.apple.com/uk/)
+- [Logic Pro](https://www.apple.com/uk/logic-pro/)
 
 ### [Arturia](https://www.arturia.com/)
 - [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
