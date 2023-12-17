@@ -336,6 +336,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 
 ### [Steinberg](https://www.steinberg.net/)
 - [Cubase Artist 13](https://www.steinberg.net/cubase/compare-editions/)
+- [Taped Vibes3](https://www.steinberg.net/vst-instruments/taped-vibes/)
 
 ### [u-he](https://u-he.com)
 - [Diva](https://u-he.com/products/diva/)
@@ -431,3 +432,5 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - [Spectrasonics](https://www.spectrasonics.net/)
     - [Keyscape](https://www.spectrasonics.net/products/keyscape/index.php)
     - [Omnisphere 2](https://www.spectrasonics.net/products/omnisphere/)
+  - [Steinberg](https://www.steinberg.net/)
+    - [Absolute 6](https://www.steinberg.net/vst-instruments/absolute/)
