@@ -12,7 +12,6 @@ draft: false
 ### API vs SDK
 {{< tweet user="alexxubyte" id="1717924971195097136" >}}
 
-
 ## Databases
 
 ### 6 Database Types You Must Know
@@ -30,6 +29,11 @@ draft: false
 
 ### What makes Git so popular ? How does it work ?
 {{< tweet user="sahnlam" id="1718104645665693906" >}}
+
+## Linux
+
+### How Does Linux Boot Process Work ?
+{{< youtube XpFsMB6FoOs >}}
 
 ## Programming Languages
 

@@ -414,6 +414,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - [Moog](https://www.moogmusic.com/)
     - [Etherwave Theremin](https://www.moogmusic.com/products/etherwave-theremin)
     - [Minimoog Model D](https://www.moogmusic.com/products/minimoog-model-d)
+    - [Subsequent 37](https://www.moogmusic.com/products/subsequent-37)
   - [Roland](https://www.roland.com/)
     - [Jupiter X](https://www.roland.com/uk/products/jupiter-x/)
     - [MC-707](https://www.roland.com/ca/products/mc-707/)
