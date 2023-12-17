@@ -8,13 +8,13 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 ## My Music Production Hardware
 
 ### Current
+- Controller Keyboards
+  - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
+  - [Novation LaunchKey 61](https://novationmusic.com/en/keys/launchkey/)
 - DJ Controllers
   - [Native Instruments Traktor Kontrol S3](https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/)
 - Drum Machines & Grooveboxes
   - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
-- Keyboards
-  - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
-  - [Novation LaunchKey 61](https://novationmusic.com/en/keys/launchkey/)
 - Synthesizers
   - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
@@ -418,6 +418,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - [Minimoog Model D](https://www.moogmusic.com/products/minimoog-model-d)
     - [Subsequent 37](https://www.moogmusic.com/products/subsequent-37)
   - [Roland](https://www.roland.com/)
+    - [D-05](https://www.roland.com/uk/products/d-05/)
     - [FANTOM-08](https://www.roland.com/global/products/fantom-08/)
     - [JUPITER-X](https://www.roland.com/uk/products/jupiter-x/)
     - [JUPITER-80](https://www.roland.com/uk/products/jupiter-80/)
