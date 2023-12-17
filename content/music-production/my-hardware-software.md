@@ -409,6 +409,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - [Odyssey](https://www.behringer.com/product.html?modelCode=P0BNY)
     - [Poly D](https://www.behringer.com/product.html?modelCode=P0D9J)
     - [UB-Xa](https://www.gearnews.com/behringer-ub-xa/)
+  - Ketron
+    - [EVENT](https://ketronmusic.co.uk/products/Ketron/arranger_keyboards/EVENT.html)
   - [Native Instruments](https://www.native-instruments.com)
     - [Komplete Control S88 MK3](https://www.native-instruments.com/en/products/komplete/keyboards/kontrol-s49-s61-s88/)
   - [Moog](https://www.moogmusic.com/)
@@ -416,10 +418,14 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - [Minimoog Model D](https://www.moogmusic.com/products/minimoog-model-d)
     - [Subsequent 37](https://www.moogmusic.com/products/subsequent-37)
   - [Roland](https://www.roland.com/)
-    - [Jupiter X](https://www.roland.com/uk/products/jupiter-x/)
+    - [FANTOM-08](https://www.roland.com/global/products/fantom-08/)
+    - [JUPITER-X](https://www.roland.com/uk/products/jupiter-x/)
+    - [JUPITER-80](https://www.roland.com/uk/products/jupiter-80/)
     - [MC-707](https://www.roland.com/ca/products/mc-707/)
   - [Sequential](https://sequential.com/)
     - [Prophet X](https://sequential.com/product/prophet-x/)
+  - Yamaha
+    - [Genos2](https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html)
 - Music Software Wish List
   - [Spectrasonics](https://www.spectrasonics.net/)
     - [Keyscape](https://www.spectrasonics.net/products/keyscape/index.php)
