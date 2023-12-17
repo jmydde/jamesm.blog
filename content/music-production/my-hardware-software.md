@@ -31,10 +31,10 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 
 ## My Music Production Software
 
-### [Ableton](https://www.ableton.com/en/)
+### Ableton
 - [Ableton Live](https://www.ableton.com/en/shop/live/)
 
-### [AIR Music Technology](https://www.airmusictech.com/)
+### AIR Music Technology
 - [AIR Essential Synths Pack](https://www.airmusictech.com/virtual-instruments/air-essential-synths-pack.html)
   - [LOOM II](https://www.airmusictech.com/virtual-instruments/loom-ii.html)
   - [The Riser](https://www.airmusictech.com/virtual-instruments/theRiser.html)
@@ -46,10 +46,10 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - [Mini Grand](https://www.airmusictech.com/virtual-instruments/mini-grand.html)
   - [Velvet 2](https://www.airmusictech.com/virtual-instruments/velvet.html)
 
-### [Apple](https://www.apple.com/uk/)
+### Apple
 - [Logic Pro](https://www.apple.com/uk/logic-pro/)
 
-### [Arturia](https://www.arturia.com/)
+### Arturia
 - [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
 - [FX Collection](https://www.arturia.com/products/software-effects/fx-collection/overview)
 - [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview)
@@ -107,21 +107,25 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - [Wavelengths Bundle](https://www.arturia.com/sound-banks/wavelengthsbundle)
 
 ### Eventide
-- Blackhole
+- [Blackhole](https://www.eventideaudio.com/plug-ins/blackhole/)
 
 ### Heavyocity
-- PUNISH Lite
+- [PUNISH Lite](https://heavyocity.com/product/punish-lite/)
 
-### [Image Line](https://www.image-line.com/)
+### Image Line
 - [FL Studio (Fruity Edition)](https://www.image-line.com/fl-studio/)
 
 ### iZotope
-- Stutter Edit 2
+- [Audiolens](https://www.izotope.com/en/products/audiolens.html)
+- [Insight 2](https://www.izotope.com/en/products/insight.html)
+- [Neutron 4 Elements](https://www.izotope.com/en/shop/neutron-elements/)
+- [Ozone 10 Elements](https://www.izotope.com/en/shop/ozone-11-elements/?)
+- [Stutter Edit 2](https://www.izotope.com/en/shop/stutter-edit-2-stutter-edit-2/)
 
-### [Lennar Digital](https://www.lennardigital.com/home/)
+### Lennar Digital
 - [Sylenth1](https://www.lennardigital.com/sylenth1/)
 
-### [Native Instruments](https://www.native-instruments.com/en/)
+### Native Instruments
 - [Native Instruments Komplete 14 Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
   - Orchestral & Cinematic Instruments
     - Action Strikes
@@ -330,18 +334,18 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Drive
     - Our House
 
-### [PluginGuru](https://www.pluginguru.com/)
+### PluginGuru
 - [Unify](https://www.pluginguru.com/products/unify-standard/)
   - [Modern Cinema - Ambient Dreams](https://www.pluginguru.com/products/ambient-dreams/)
 
-### [Steinberg](https://www.steinberg.net/)
+### Steinberg
 - [Cubase Artist 13](https://www.steinberg.net/cubase/compare-editions/)
 - [Taped Vibes3](https://www.steinberg.net/vst-instruments/taped-vibes/)
 
-### [u-he](https://u-he.com)
+### u-he
 - [Diva](https://u-he.com/products/diva/)
 
-### [UVI](https://www.uvi.net/)
+### UVI
 - 8-Bit Synth
 - Augmented Orchestra
 - Austrian Grand
