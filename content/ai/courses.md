@@ -1,6 +1,6 @@
 ---
 title: "List of AI Courses & Learning Resources"
-date: 2023-06-04T06:51:25+01:00
+date: 2023-12-18T10:51:25+01:00
 draft: false
 tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
 ---
@@ -45,6 +45,8 @@ tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
 - [Harvard](https://pll.harvard.edu/)
   - [Artificial Intelligence Courses](https://pll.harvard.edu/subject/artificial-intelligence/)
 - [Machine Learning Mastery](https://machinelearningmastery.com/)
+- [Microsoft](https://microsoft.github.io/)
+  - [AI for Begineers](https://microsoft.github.io/AI-For-Beginners/)
 - [Oxford](https://www.conted.ox.ac.uk/)
   - [AI Online Courses](https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/)
 - [PyTorch](https://pytorch.org/tutorials/)

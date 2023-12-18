@@ -6,7 +6,169 @@
     <description>Recent content in ai on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Dec 2023 21:24:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 10:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of AI Courses &amp; Learning Resources</title>
+      <link>https://jamesm.blog/ai/courses/</link>
+      <pubDate>Mon, 18 Dec 2023 10:51:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/courses/</guid>
+      <description>Books Deep Learning with Python The Elements of Statistical Learning Courses Class Central Artificial Intelligence Courses ChatGPT Courses Elements of AI Midjourney Courses Coursera AI for Everyone IBM Applied AI Professional Certificate Supervised Machine Learning: Regression and Classification DataCamp AI Fundamentals Introduction to ChatGPT DeepLearning ChatGPT Prompt Engineering for Developers edX Learning From Data (Introductory Machine Learning) Elements of AI Fast.ai Future Learn Digital Skills: Artificial Intelligence Google Cloud Skills Boost Generative AI learning path Attention Mechanism Create Image Captioning Models Encoder-Decoder Architecture Generative AI Explorer - Vertex AI Introduction to Generative AI Introduction to Generative AI Studio Introduction to Image Generation Introduction to Large Language Models Introduction to Responsible AI Transformer Models and BERT Model Harvard Artificial Intelligence Courses Machine Learning Mastery Microsoft AI for Begineers Oxford AI Online Courses PyTorch Reed AI Online Courses Stanford Artificial Intelligence Graduate Certificate Artificial Intelligence Programs TensorFlow Udacity Intro to Artificial Intelligence (Free) Udemy Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4 Artificial Intelligence (ARS): Build the Most Powerful AI Artificial Intelligence Masterclass Artificial Intelligence: Reinforcement Learning in Python The Beginner&amp;rsquo;s Guide to Artificial Intelligence (Unity 2022) Unity Artificial Intelligence for Beginners Learning Resources Google AI Build How to use ChatGPT to create an app Newsletters Lore - weekly newsletter with the latest Generative AI news, insights and featured tools Twitter Accounts AI Daily - teaches about AI Borriss - developer &amp;amp; writer of practical AI Javi Lopez - AI educator Lex Fridman - host of Lex Fridman Podcast, research scientist at MIT Linus - AI educator &amp;amp; designer Steve Mills - exploring creative uses of Generative AI YouTube Channels Artificial Intelligence - All in One Connor Shorten DeepLearningAI Jeremy Howard Kaggle Lex Fridman sentdex The Artificial Intelligence Channel Two Minute Papers Yannic Kilcher- YouTube Videos Excel AI - data analysis made easy Google Bard: A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot How to Build a FULL App With ChatGPT in 20 minutes!</description>
+      <content:encoded><![CDATA[<h2 id="books">Books</h2>
+<ul>
+<li><a href="https://www.manning.com/books/deep-learning-with-python/">Deep Learning with Python</a></li>
+<li><a href="https://hastie.su.domains/Papers/ESLII.pdf/">The Elements of Statistical Learning</a></li>
+</ul>
+<h2 id="courses">Courses</h2>
+<ul>
+<li><a href="https://www.classcentral.com/">Class Central</a>
+<ul>
+<li><a href="https://www.classcentral.com/subject/ai/">Artificial Intelligence Courses</a></li>
+<li><a href="https://www.classcentral.com/subject/chatgpt/">ChatGPT Courses</a></li>
+<li><a href="https://www.classcentral.com/course/independent-elements-of-ai-12469/">Elements of AI</a></li>
+<li><a href="https://www.classcentral.com/subject/midjourney/">Midjourney Courses</a></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/learn/ai-for-everyone/">AI for Everyone</a></li>
+<li><a href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/">IBM Applied AI Professional Certificate</a></li>
+<li><a href="https://www.coursera.org/learn/machine-learning/">Supervised Machine Learning: Regression and Classification</a></li>
+</ul>
+</li>
+<li><a href="https://www.datacamp.com/">DataCamp</a>
+<ul>
+<li><a href="https://www.datacamp.com/courses/ai-fundamentals">AI Fundamentals</a></li>
+<li><a href="https://www.datacamp.com/courses/introduction-to-chatgpt">Introduction to ChatGPT</a></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/">DeepLearning</a>
+<ul>
+<li><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">ChatGPT Prompt Engineering for Developers</a></li>
+</ul>
+</li>
+<li><a href="https://www.edx.org/">edX</a>
+<ul>
+<li><a href="https://www.edx.org/course/learning-from-data-introductory-machine-learning/">Learning From Data (Introductory Machine Learning)</a></li>
+</ul>
+</li>
+<li><a href="https://www.elementsofai.com/">Elements of AI</a></li>
+<li><a href="https://www.fast.ai/">Fast.ai</a></li>
+<li><a href="https://www.futurelearn.com/">Future Learn</a>
+<ul>
+<li><a href="https://www.futurelearn.com/courses/artificial-intelligence/">Digital Skills: Artificial Intelligence</a></li>
+</ul>
+</li>
+<li><a href="https://www.cloudskillsboost.google/">Google Cloud Skills Boost</a>
+<ul>
+<li><a href="https://www.cloudskillsboost.google/journeys/118/">Generative AI learning path</a>
+<ul>
+<li><a href="https://www.cloudskillsboost.google/course_templates/537/">Attention Mechanism</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/542/">Create Image Captioning Models</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/543/">Encoder-Decoder Architecture</a></li>
+<li><a href="https://www.cloudskillsboost.google/quests/299/">Generative AI Explorer - Vertex AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/536/">Introduction to Generative AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/552/">Introduction to Generative AI Studio</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/541/">Introduction to Image Generation</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/539/">Introduction to Large Language Models</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/554/">Introduction to Responsible AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/538/">Transformer Models and BERT Model</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://pll.harvard.edu/">Harvard</a>
+<ul>
+<li><a href="https://pll.harvard.edu/subject/artificial-intelligence/">Artificial Intelligence Courses</a></li>
+</ul>
+</li>
+<li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
+<li><a href="https://microsoft.github.io/">Microsoft</a>
+<ul>
+<li><a href="https://microsoft.github.io/AI-For-Beginners/">AI for Begineers</a></li>
+</ul>
+</li>
+<li><a href="https://www.conted.ox.ac.uk/">Oxford</a>
+<ul>
+<li><a href="https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/">AI Online Courses</a></li>
+</ul>
+</li>
+<li><a href="https://pytorch.org/tutorials/">PyTorch</a></li>
+<li><a href="https://www.reed.co.uk/">Reed</a>
+<ul>
+<li><a href="https://www.reed.co.uk/courses/ai-artificial-intelligence/online/">AI Online Courses</a></li>
+</ul>
+</li>
+<li><a href="https://learn.stanford.edu/">Stanford</a>
+<ul>
+<li><a href="https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/">Artificial Intelligence Graduate Certificate</a></li>
+<li><a href="https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/">Artificial Intelligence Programs</a></li>
+</ul>
+</li>
+<li><a href="https://www.tensorflow.org/learn/">TensorFlow</a></li>
+<li><a href="https://www.udacity.com/">Udacity</a>
+<ul>
+<li><a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/">Intro to Artificial Intelligence</a> (Free)</li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-az/">Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-ars/">Artificial Intelligence (ARS): Build the Most Powerful AI</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-masterclass/">Artificial Intelligence Masterclass</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/">Artificial Intelligence: Reinforcement Learning in Python</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-in-unity/">The Beginner&rsquo;s Guide to Artificial Intelligence (Unity 2022)</a></li>
+</ul>
+</li>
+<li><a href="https://learn.unity.com/">Unity</a>
+<ul>
+<li><a href="https://learn.unity.com/course/artificial-intelligence-for-beginners/">Artificial Intelligence for Beginners</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="learning-resources">Learning Resources</h2>
+<ul>
+<li><a href="https://ai.google/build/machine-learning/">Google AI Build</a></li>
+<li><a href="https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/">How to use ChatGPT to create an app</a></li>
+</ul>
+<h2 id="newsletters">Newsletters</h2>
+<ul>
+<li><a href="https://www.lore.ai/">Lore</a> - weekly newsletter with the latest Generative AI news, insights and featured tools</li>
+</ul>
+<h2 id="twitter-accounts">Twitter Accounts</h2>
+<ul>
+<li><a href="https://twitter.com/AlexAIDaily/">AI Daily</a> - teaches about AI</li>
+<li><a href="https://twitter.com/_Borriss_/">Borriss</a> - developer &amp; writer of practical AI</li>
+<li><a href="https://twitter.com/javilopen/">Javi Lopez</a> - AI educator</li>
+<li><a href="https://twitter.com/lexfridman/">Lex Fridman</a> - host of Lex Fridman Podcast, research scientist at MIT</li>
+<li><a href="https://twitter.com/LinusEkenstam/">Linus</a> - AI educator &amp; designer</li>
+<li><a href="https://twitter.com/SteveMills/">Steve Mills</a> - exploring creative uses of Generative AI</li>
+</ul>
+<h2 id="youtube-channels">YouTube Channels</h2>
+<ul>
+<li><a href="https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/">Artificial Intelligence - All in One</a></li>
+<li><a href="https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/">Connor Shorten</a></li>
+<li><a href="https://www.youtube.com/c/Deeplearningai/">DeepLearningAI</a></li>
+<li><a href="https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/">Jeremy Howard</a></li>
+<li><a href="https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/">Kaggle</a></li>
+<li><a href="https://www.youtube.com/user/lexfridman/">Lex Fridman</a></li>
+<li><a href="https://www.youtube.com/user/sentdex/">sentdex</a></li>
+<li><a href="https://www.youtube.com/c/TheArtificialIntelligenceChannel/">The Artificial Intelligence Channel</a></li>
+<li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/">Two Minute Papers</a></li>
+<li><a href="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/">Yannic Kilcher</a>-</li>
+</ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=b-cFv2DvEqE/">Excel AI - data analysis made easy</a></li>
+<li><a href="https://www.youtube.com/watch?v=f4LiRtjaW28/">Google Bard: A beginner&rsquo;s guide to Google&rsquo;s AI chatbot</a></li>
+<li><a href="https://www.youtube.com/watch?v=i_a9bqvqmzo/">How to Build a FULL App With ChatGPT in 20 minutes!</a></li>
+<li><a href="https://www.youtube.com/watch?v=5wdCev86RYE/">How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website</a></li>
+<li><a href="https://www.youtube.com/watch?v=hDK8W5SLzlw/">Midjourney Prompt Tips for Beginners and Veterans</a></li>
+<li><a href="https://www.youtube.com/watch?v=NU2TYgfQwcA/">Stable diffusion prompt tutorial</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tesla - Optimus</title>
       <link>https://jamesm.blog/ai/tesla-optimus/</link>
@@ -107,163 +269,6 @@
 </tr>
 </tbody>
 </table>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>List of AI Courses &amp; Learning Resources</title>
-      <link>https://jamesm.blog/ai/courses/</link>
-      <pubDate>Sun, 04 Jun 2023 06:51:25 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/courses/</guid>
-      <description>Books Deep Learning with Python The Elements of Statistical Learning Courses Class Central Artificial Intelligence Courses ChatGPT Courses Elements of AI Midjourney Courses Coursera AI for Everyone IBM Applied AI Professional Certificate Supervised Machine Learning: Regression and Classification DataCamp AI Fundamentals Introduction to ChatGPT DeepLearning ChatGPT Prompt Engineering for Developers edX Learning From Data (Introductory Machine Learning) Elements of AI Fast.ai Future Learn Digital Skills: Artificial Intelligence Google Cloud Skills Boost Generative AI learning path Attention Mechanism Create Image Captioning Models Encoder-Decoder Architecture Generative AI Explorer - Vertex AI Introduction to Generative AI Introduction to Generative AI Studio Introduction to Image Generation Introduction to Large Language Models Introduction to Responsible AI Transformer Models and BERT Model Harvard Artificial Intelligence Courses Machine Learning Mastery Oxford AI Online Courses PyTorch Reed AI Online Courses Stanford Artificial Intelligence Graduate Certificate Artificial Intelligence Programs TensorFlow Udacity Intro to Artificial Intelligence (Free) Udemy Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4 Artificial Intelligence (ARS): Build the Most Powerful AI Artificial Intelligence Masterclass Artificial Intelligence: Reinforcement Learning in Python The Beginner&amp;rsquo;s Guide to Artificial Intelligence (Unity 2022) Unity Artificial Intelligence for Beginners Learning Resources Google AI Build How to use ChatGPT to create an app Newsletters Lore - weekly newsletter with the latest Generative AI news, insights and featured tools Twitter Accounts AI Daily - teaches about AI Borriss - developer &amp;amp; writer of practical AI Javi Lopez - AI educator Lex Fridman - host of Lex Fridman Podcast, research scientist at MIT Linus - AI educator &amp;amp; designer Steve Mills - exploring creative uses of Generative AI YouTube Channels Artificial Intelligence - All in One Connor Shorten DeepLearningAI Jeremy Howard Kaggle Lex Fridman sentdex The Artificial Intelligence Channel Two Minute Papers Yannic Kilcher- YouTube Videos Excel AI - data analysis made easy Google Bard: A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot How to Build a FULL App With ChatGPT in 20 minutes!</description>
-      <content:encoded><![CDATA[<h2 id="books">Books</h2>
-<ul>
-<li><a href="https://www.manning.com/books/deep-learning-with-python/">Deep Learning with Python</a></li>
-<li><a href="https://hastie.su.domains/Papers/ESLII.pdf/">The Elements of Statistical Learning</a></li>
-</ul>
-<h2 id="courses">Courses</h2>
-<ul>
-<li><a href="https://www.classcentral.com/">Class Central</a>
-<ul>
-<li><a href="https://www.classcentral.com/subject/ai/">Artificial Intelligence Courses</a></li>
-<li><a href="https://www.classcentral.com/subject/chatgpt/">ChatGPT Courses</a></li>
-<li><a href="https://www.classcentral.com/course/independent-elements-of-ai-12469/">Elements of AI</a></li>
-<li><a href="https://www.classcentral.com/subject/midjourney/">Midjourney Courses</a></li>
-</ul>
-</li>
-<li><a href="https://www.coursera.org/">Coursera</a>
-<ul>
-<li><a href="https://www.coursera.org/learn/ai-for-everyone/">AI for Everyone</a></li>
-<li><a href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/">IBM Applied AI Professional Certificate</a></li>
-<li><a href="https://www.coursera.org/learn/machine-learning/">Supervised Machine Learning: Regression and Classification</a></li>
-</ul>
-</li>
-<li><a href="https://www.datacamp.com/">DataCamp</a>
-<ul>
-<li><a href="https://www.datacamp.com/courses/ai-fundamentals">AI Fundamentals</a></li>
-<li><a href="https://www.datacamp.com/courses/introduction-to-chatgpt">Introduction to ChatGPT</a></li>
-</ul>
-</li>
-<li><a href="https://www.deeplearning.ai/">DeepLearning</a>
-<ul>
-<li><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">ChatGPT Prompt Engineering for Developers</a></li>
-</ul>
-</li>
-<li><a href="https://www.edx.org/">edX</a>
-<ul>
-<li><a href="https://www.edx.org/course/learning-from-data-introductory-machine-learning/">Learning From Data (Introductory Machine Learning)</a></li>
-</ul>
-</li>
-<li><a href="https://www.elementsofai.com/">Elements of AI</a></li>
-<li><a href="https://www.fast.ai/">Fast.ai</a></li>
-<li><a href="https://www.futurelearn.com/">Future Learn</a>
-<ul>
-<li><a href="https://www.futurelearn.com/courses/artificial-intelligence/">Digital Skills: Artificial Intelligence</a></li>
-</ul>
-</li>
-<li><a href="https://www.cloudskillsboost.google/">Google Cloud Skills Boost</a>
-<ul>
-<li><a href="https://www.cloudskillsboost.google/journeys/118/">Generative AI learning path</a>
-<ul>
-<li><a href="https://www.cloudskillsboost.google/course_templates/537/">Attention Mechanism</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/542/">Create Image Captioning Models</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/543/">Encoder-Decoder Architecture</a></li>
-<li><a href="https://www.cloudskillsboost.google/quests/299/">Generative AI Explorer - Vertex AI</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/536/">Introduction to Generative AI</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/552/">Introduction to Generative AI Studio</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/541/">Introduction to Image Generation</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/539/">Introduction to Large Language Models</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/554/">Introduction to Responsible AI</a></li>
-<li><a href="https://www.cloudskillsboost.google/course_templates/538/">Transformer Models and BERT Model</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="https://pll.harvard.edu/">Harvard</a>
-<ul>
-<li><a href="https://pll.harvard.edu/subject/artificial-intelligence/">Artificial Intelligence Courses</a></li>
-</ul>
-</li>
-<li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
-<li><a href="https://www.conted.ox.ac.uk/">Oxford</a>
-<ul>
-<li><a href="https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/">AI Online Courses</a></li>
-</ul>
-</li>
-<li><a href="https://pytorch.org/tutorials/">PyTorch</a></li>
-<li><a href="https://www.reed.co.uk/">Reed</a>
-<ul>
-<li><a href="https://www.reed.co.uk/courses/ai-artificial-intelligence/online/">AI Online Courses</a></li>
-</ul>
-</li>
-<li><a href="https://learn.stanford.edu/">Stanford</a>
-<ul>
-<li><a href="https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/">Artificial Intelligence Graduate Certificate</a></li>
-<li><a href="https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/">Artificial Intelligence Programs</a></li>
-</ul>
-</li>
-<li><a href="https://www.tensorflow.org/learn/">TensorFlow</a></li>
-<li><a href="https://www.udacity.com/">Udacity</a>
-<ul>
-<li><a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/">Intro to Artificial Intelligence</a> (Free)</li>
-</ul>
-</li>
-<li><a href="https://www.udemy.com/">Udemy</a>
-<ul>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-az/">Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-ars/">Artificial Intelligence (ARS): Build the Most Powerful AI</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-masterclass/">Artificial Intelligence Masterclass</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/">Artificial Intelligence: Reinforcement Learning in Python</a></li>
-<li><a href="https://www.udemy.com/course/artificial-intelligence-in-unity/">The Beginner&rsquo;s Guide to Artificial Intelligence (Unity 2022)</a></li>
-</ul>
-</li>
-<li><a href="https://learn.unity.com/">Unity</a>
-<ul>
-<li><a href="https://learn.unity.com/course/artificial-intelligence-for-beginners/">Artificial Intelligence for Beginners</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="learning-resources">Learning Resources</h2>
-<ul>
-<li><a href="https://ai.google/build/machine-learning/">Google AI Build</a></li>
-<li><a href="https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/">How to use ChatGPT to create an app</a></li>
-</ul>
-<h2 id="newsletters">Newsletters</h2>
-<ul>
-<li><a href="https://www.lore.ai/">Lore</a> - weekly newsletter with the latest Generative AI news, insights and featured tools</li>
-</ul>
-<h2 id="twitter-accounts">Twitter Accounts</h2>
-<ul>
-<li><a href="https://twitter.com/AlexAIDaily/">AI Daily</a> - teaches about AI</li>
-<li><a href="https://twitter.com/_Borriss_/">Borriss</a> - developer &amp; writer of practical AI</li>
-<li><a href="https://twitter.com/javilopen/">Javi Lopez</a> - AI educator</li>
-<li><a href="https://twitter.com/lexfridman/">Lex Fridman</a> - host of Lex Fridman Podcast, research scientist at MIT</li>
-<li><a href="https://twitter.com/LinusEkenstam/">Linus</a> - AI educator &amp; designer</li>
-<li><a href="https://twitter.com/SteveMills/">Steve Mills</a> - exploring creative uses of Generative AI</li>
-</ul>
-<h2 id="youtube-channels">YouTube Channels</h2>
-<ul>
-<li><a href="https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/">Artificial Intelligence - All in One</a></li>
-<li><a href="https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/">Connor Shorten</a></li>
-<li><a href="https://www.youtube.com/c/Deeplearningai/">DeepLearningAI</a></li>
-<li><a href="https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/">Jeremy Howard</a></li>
-<li><a href="https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/">Kaggle</a></li>
-<li><a href="https://www.youtube.com/user/lexfridman/">Lex Fridman</a></li>
-<li><a href="https://www.youtube.com/user/sentdex/">sentdex</a></li>
-<li><a href="https://www.youtube.com/c/TheArtificialIntelligenceChannel/">The Artificial Intelligence Channel</a></li>
-<li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/">Two Minute Papers</a></li>
-<li><a href="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/">Yannic Kilcher</a>-</li>
-</ul>
-<h2 id="youtube-videos">YouTube Videos</h2>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=b-cFv2DvEqE/">Excel AI - data analysis made easy</a></li>
-<li><a href="https://www.youtube.com/watch?v=f4LiRtjaW28/">Google Bard: A beginner&rsquo;s guide to Google&rsquo;s AI chatbot</a></li>
-<li><a href="https://www.youtube.com/watch?v=i_a9bqvqmzo/">How to Build a FULL App With ChatGPT in 20 minutes!</a></li>
-<li><a href="https://www.youtube.com/watch?v=5wdCev86RYE/">How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website</a></li>
-<li><a href="https://www.youtube.com/watch?v=hDK8W5SLzlw/">Midjourney Prompt Tips for Beginners and Veterans</a></li>
-<li><a href="https://www.youtube.com/watch?v=NU2TYgfQwcA/">Stable diffusion prompt tutorial</a></li>
-</ul>
 ]]></content:encoded>
     </item>
     
@@ -626,6 +631,22 @@ Auto-GPT is now able to write it&amp;#39;s own code using #gpt4 and execute pyth
     </item>
     
     <item>
+      <title>Geoffrey Hinton</title>
+      <link>https://jamesm.blog/ai/geoffrey-hinton/</link>
+      <pubDate>Sat, 25 Mar 2023 22:21:14 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/geoffrey-hinton/</guid>
+      <description>[2023-03-25] &amp;ldquo;Godfather of artificial intelligence&amp;rdquo; talks impact and potential of AI </description>
+      <content:encoded><![CDATA[<h3 id="2023-03-25-godfather-of-artificial-intelligence-talks-impact-and-potential-of-ai">[2023-03-25] &ldquo;Godfather of artificial intelligence&rdquo; talks impact and potential of AI</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/qpoRO378qRY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>OpenAI has released GPT-4</title>
       <link>https://jamesm.blog/ai/tweets/gpt-4/</link>
       <pubDate>Thu, 16 Mar 2023 14:53:39 +0100</pubDate>
@@ -690,7 +711,7 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     <item>
       <title>Artificial Intelligence</title>
       <link>https://jamesm.blog/ai/</link>
-      <pubDate>Wed, 13 Dec 2023 21:24:14 +0100</pubDate>
+      <pubDate>Mon, 18 Dec 2023 10:51:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/</guid>
       <description> </description>

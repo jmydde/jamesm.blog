@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/chatbots/</loc>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/chatgpt/</loc>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/</loc>
-    <lastmod>2023-12-17T09:53:39+01:00</lastmod>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/courses/</loc>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/training-courses/</loc>
+    <lastmod>2023-12-18T10:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/keyboards/</loc>
     <lastmod>2023-12-17T09:53:39+01:00</lastmod>
@@ -26,9 +47,6 @@
     <loc>https://jamesm.blog/tags/synths/</loc>
     <lastmod>2023-12-17T09:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2023-12-17T09:53:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/uvi/</loc>
     <lastmod>2023-12-17T09:53:39+01:00</lastmod>
   </url><url>
@@ -46,12 +64,6 @@
   </url><url>
     <loc>https://jamesm.blog/devops/cheatsheets/</loc>
     <lastmod>2023-12-16T09:28:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2023-12-13T21:24:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2023-12-13T21:24:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/optimus/</loc>
     <lastmod>2023-12-13T21:24:14+01:00</lastmod>
@@ -109,18 +121,6 @@
   </url><url>
     <loc>https://jamesm.blog/devops/aws-summit-2023-agenda/</loc>
     <lastmod>2023-06-07T07:54:16+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/chatbots/</loc>
-    <lastmod>2023-06-04T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/chatgpt/</loc>
-    <lastmod>2023-06-04T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/courses/</loc>
-    <lastmod>2023-06-04T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/training-courses/</loc>
-    <lastmod>2023-06-04T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/fx/</loc>
     <lastmod>2023-06-02T09:53:39+01:00</lastmod>
@@ -475,6 +475,12 @@
   </url><url>
     <loc>https://jamesm.blog/ai/tweets/auto-gpt/</loc>
     <lastmod>2023-04-01T14:53:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/geoffrey-hinton/</loc>
+    <lastmod>2023-03-25T22:21:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/geoffrey-hinton/</loc>
+    <lastmod>2023-03-25T22:21:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/tweets/gpt-4/</loc>
     <lastmod>2023-03-16T14:53:39+01:00</lastmod>
