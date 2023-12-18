@@ -1,6 +1,6 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs", "data"]
-title = "Data"
+title = "Data Engineering"
 author = "James M"
 tags = ["data", "data science"]
 +++

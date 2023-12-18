@@ -1,6 +1,6 @@
 ---
 title: "My Music Production Hardware & Software"
-date: 2023-12-16T07:53:39+01:00
+date: 2023-12-17T09:53:39+01:00
 draft: false
 tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', 'steinberg']
 ---
