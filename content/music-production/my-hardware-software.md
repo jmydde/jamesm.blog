@@ -106,6 +106,10 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Hyper Rave
 - [Wavelengths Bundle](https://www.arturia.com/sound-banks/wavelengthsbundle)
 
+### Cherry Audio
+- [Synthesizer Expander Module Synthesizer](https://cherryaudio.com/products/synthesizer-expander-module)
+- [Voltage Modular](https://cherryaudio.com/products/voltage-modular)
+
 ### Eventide
 - [Blackhole](https://www.eventideaudio.com/plug-ins/blackhole/)
 
@@ -124,6 +128,9 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 
 ### Lennar Digital
 - [Sylenth1](https://www.lennardigital.com/sylenth1/)
+
+### Modartt
+- [Pianoteq](https://www.modartt.com/pianoteq_overview)
 
 ### Native Instruments
 - [Native Instruments Komplete 14 Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
@@ -443,6 +450,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - [Phoscyon2](https://d16.pl/phoscyon2)
     - [Punchbox](https://d16.pl/punchbox)
     - [TotalBundle](https://d16.pl/totalbundle)
+  - [Pulse Audio](https://pulse.audio/)
+    - [Vivid Strings](https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/)
   - [reFX](https://refx.com/)
     - [Nexus](https://refx.com/nexus/)
   - [Reveal Sound](https://www.reveal-sound.com/)
@@ -450,8 +459,12 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - [Spectrasonics](https://www.spectrasonics.net/)
     - [Keyscape](https://www.spectrasonics.net/products/keyscape/index.php)
     - [Omnisphere 2](https://www.spectrasonics.net/products/omnisphere/)
+  - [Spitfire Audio](https://www.spitfireaudio.com/)
+    - [BBC Symphony Orchestra Piano](https://www.spitfireaudio.com/bbc-symphony-orchestra-piano)
   - [Steinberg](https://www.steinberg.net/)
     - [Absolute 6](https://www.steinberg.net/vst-instruments/absolute/)
+  - [Synthogy](https://synthogy.com/)
+    - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
   - [u-He](https://u-he.com/)
     - [Hive](https://u-he.com/products/hive/)
     - [Repro](https://u-he.com/products/repro/)
