@@ -338,6 +338,12 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - [Unify](https://www.pluginguru.com/products/unify-standard/)
   - [Modern Cinema - Ambient Dreams](https://www.pluginguru.com/products/ambient-dreams/)
 
+### ProjectSAM
+- [The Free Orchestra](https://projectsam.com/series/the-free-orchestra)
+
+### Spitfire Audio
+- [BBC Symphony Orchestra Discover](https://www.spitfireaudio.com/bbc-symphony-orchestra-discover)
+
 ### Steinberg
 - [Cubase Artist 13](https://www.steinberg.net/cubase/compare-editions/)
 - [Taped Vibes3](https://www.steinberg.net/vst-instruments/taped-vibes/)
