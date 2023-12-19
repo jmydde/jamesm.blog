@@ -52,10 +52,12 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 ### Arturia
 - [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
 - [FX Collection](https://www.arturia.com/products/software-effects/fx-collection/overview)
-- [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview)
-- [Pigments](https://www.arturia.com/products/software-instruments/pigments/overview)
 - [V Collection](https://www.arturia.com/products/software-instruments/v-collection/overview)
-  - Instruments
+  - V Collection X now includes 39 instruments & 10,000 high-quality presets
+    - 2 new instruments: CP-70 & Augmented Woodwinds
+    - 2 added instruments: Mini Freak V & Acid V
+    - 2 additional augmented series: Augmented Grand Piano & Augmented Brass
+  - Instrument List
     - ARP 2600 V
     - Acid V
     - [Analog Lab Pro](https://www.arturia.com/products/software-instruments/analoglab/overview)
@@ -87,7 +89,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - MiniFreak V
     - Modular V
     - OP-Xa V
-    - Piano V
+    - [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview)
+    - [Pigments](https://www.arturia.com/products/software-instruments/pigments/overview)
     - Prophet-5 V
     - Prophet-VS V
     - SEM V
