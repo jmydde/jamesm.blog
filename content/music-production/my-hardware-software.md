@@ -433,6 +433,12 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - Yamaha
     - [Genos2](https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html)
 - Music Software Wish List
+  - [D16 Group](https://d16.pl/)
+    - [Phoscyon2](https://d16.pl/phoscyon2)
+    - [Punchbox](https://d16.pl/punchbox)
+    - [TotalBundle](https://d16.pl/totalbundle)
+  - [reFX](https://refx.com/)
+    - [Nexus](https://refx.com/nexus/)
   - [Reveal Sound](https://www.reveal-sound.com/)
     - [Spire](https://www.reveal-sound.com/plug-ins/spire)
   - [Spectrasonics](https://www.spectrasonics.net/)
@@ -440,3 +446,6 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - [Omnisphere 2](https://www.spectrasonics.net/products/omnisphere/)
   - [Steinberg](https://www.steinberg.net/)
     - [Absolute 6](https://www.steinberg.net/vst-instruments/absolute/)
+  - [u-He](https://u-he.com/)
+    - [Hive](https://u-he.com/products/hive/)
+    - [Repro](https://u-he.com/products/repro/)
