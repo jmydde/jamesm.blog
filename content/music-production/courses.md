@@ -45,26 +45,35 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 Below is a list of my favourite music production YouTube channels
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
+- [Arturia](https://www.youtube.com/@ArturiaOfficial/) - Arturia official YouTube channel
+- [BoBeats](https://www.youtube.com/@BoBeats/) - videos about synthesizers and music production gear
+- [Charles Cleyn](https://www.youtube.com/@CharlesCleyn/) - songwriting, music production, and marketing strategies to create and release great music
 - [Doctor Mix](https://www.youtube.com/@Doctormix/) - music production hardware & software reviews, also offers mixing & mastering service
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
+- [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
 - [Mastering․com](https://www.youtube.com/@masteringcom/)
 - [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/)
+- [Native Instruments](https://www.youtube.com/@NativeInstruments/) Native Instruments official YouTube channel
 - [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/) - synthesizer reviews & music production
 - [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
+- [Point Blank Music School](https://www.youtube.com/@PointBlankMusicSchool/) - music school with courses in London, LA, Ibiza & Online
 - [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials
 - [Roland](https://www.youtube.com/@rolandglobal/) - music production hardware
 - [SamTheBeardGuy](https://www.youtube.com/@SamTheBeardGuy/) - virtual instrument reviews
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
 - [School of Synthesis](https://www.youtube.com/@SchoolofSynthesis/)
 - [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) - virtual instrument reviews
+- [SonicState](https://www.youtube.com/@sonicstate/) - gear reviews, interviews and features
 - [Sound On Sound](https://www.youtube.com/@soundonsound/) - recording & music technology magazine
 - [Spectrasonics](https://www.youtube.com/@SpectrasonicsVIDEO/) - official Spectrasonics videos for Omnisphere & Keyscape
 - [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
+- [Sweetwater](https://www.youtube.com/@sweetwater/) - giving music makers the ultimate shopping experience
 - [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
 - [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
+- [Vulture Culture](https://www.youtube.com/@VultureCulture/) - uncovering the hidden gems of the synth world
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 
 ## Music Software & Plugin Deals
