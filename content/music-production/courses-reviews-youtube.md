@@ -1,6 +1,6 @@
 ---
-title: "List of Music Production Courses, Review & YouTube Channels"
-date: 2023-01-01T14:53:39+01:00
+title: "List of Music Production Courses, Reviews & YouTube Channels"
+date: 2023-12-19T10:30:21+01:00
 draft: false
 tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music theory', 'logic pro', 'ableton']
 ---
