@@ -433,6 +433,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - Yamaha
     - [Genos2](https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html)
 - Music Software Wish List
+  - [Reveal Sound](https://www.reveal-sound.com/)
+    - [Spire](https://www.reveal-sound.com/plug-ins/spire)
   - [Spectrasonics](https://www.spectrasonics.net/)
     - [Keyscape](https://www.spectrasonics.net/products/keyscape/index.php)
     - [Omnisphere 2](https://www.spectrasonics.net/products/omnisphere/)

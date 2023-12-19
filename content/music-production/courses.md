@@ -1,5 +1,5 @@
 ---
-title: "List of Music Production Courses & Reviews"
+title: "List of Music Production Courses, Review & YouTube Channels"
 date: 2023-01-01T14:53:39+01:00
 draft: false
 tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music theory', 'logic pro', 'ableton']
@@ -41,27 +41,29 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 - [Pianote](https://www.pianote.com/) - online piano lessons for all skill levels
 - [Skoove](https://www.skoove.com/) - complete online piano learning method
 
-### YouTube Channels
-- [Mastering․com](https://www.youtube.com/@masteringcom/)
-- [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/)
-- [School of Synthesis](https://www.youtube.com/@SchoolofSynthesis/)
-- [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
-
-## Music Production Reviews
-
-### YouTube Channels
+## YouTube Channels
+Below is a list of my favourite music production YouTube channels
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
-- [Doctor Mix](https://www.youtube.com/@Doctormix/) - weekly reviews, tips & techniques on music production, mixing and mastering
+- [Doctor Mix](https://www.youtube.com/@Doctormix/) - music production hardware & software reviews, also offers mixing & mastering service
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
+- [Mastering․com](https://www.youtube.com/@masteringcom/)
+- [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/)
 - [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/) - synthesizer reviews & music production
+- [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
+- [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials
+- [Roland](https://www.youtube.com/@rolandglobal/) - music production hardware
+- [SamTheBeardGuy](https://www.youtube.com/@SamTheBeardGuy/) - virtual instrument reviews
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
-- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) - virtual instruments from developers all over the world
+- [School of Synthesis](https://www.youtube.com/@SchoolofSynthesis/)
+- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) - virtual instrument reviews
 - [Sound On Sound](https://www.youtube.com/@soundonsound/) - recording & music technology magazine
+- [Spectrasonics](https://www.youtube.com/@SpectrasonicsVIDEO/) - official Spectrasonics videos for Omnisphere & Keyscape
 - [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
+- [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
 - [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 
