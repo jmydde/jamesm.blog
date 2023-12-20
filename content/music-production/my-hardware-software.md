@@ -130,7 +130,7 @@ tags: ['ableton', 'air', 'arturia', 'behringer', 'casio', 'jvc', 'korg', 'synths
 - [Stutter Edit 2](https://www.izotope.com/en/shop/stutter-edit-2-stutter-edit-2/)
 
 ### KORG
-- [KORG Collection](https://korg.shop/software/korg-collection-series.html?___store=english)
+- [KORG Collection 4](https://korg.shop/software/korg-collection-series.html?___store=english)
   - [microKORG](https://korg.shop/software/korg-collection-series/single-products/korg-collection-microkorg.html)
   - [KAOSS PAD](https://korg.shop/software/korg-collection-series/single-products/korg-collection-kaoss-pad.html)
   - [ELECTRIBE-R](https://korg.shop/software/korg-collection-series/single-products/korg-collection-electribe-r.html)
