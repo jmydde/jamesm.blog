@@ -427,6 +427,9 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 ## My Music Production Wishlists
 
 ### Music Production Hardware Wishlist
+- [Arturia](https://www.arturia.com/)
+  - [Keylab 88 MkII](https://www.arturia.com/products/hybrid-synths/keylab-88-mkii/overview)
+  - [PolyBrute Noir Edition](https://www.arturia.com/products/hardware-synths/polybrute-noir/overview)
 - [Behringer](https://www.behringer.com/)
   - [Odyssey](https://www.behringer.com/product.html?modelCode=P0BNY)
   - [Poly D](https://www.behringer.com/product.html?modelCode=P0D9J)
@@ -442,6 +445,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - [Roland](https://www.roland.com/)
   - [D-05](https://www.roland.com/uk/products/d-05/)
   - [FANTOM-08](https://www.roland.com/global/products/fantom-08/)
+  - [GP-9 Digital Piano](https://www.roland.com/global/products/gp-9/)
   - [JUNO-X](https://www.roland.com/us/products/juno-x/)
   - [JUPITER-X](https://www.roland.com/uk/products/jupiter-x/)
   - [JUPITER-80](https://www.roland.com/uk/products/jupiter-80/)
@@ -449,6 +453,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - [Sequential](https://sequential.com/)
   - [Prophet X](https://sequential.com/product/prophet-x/)
 - [Yamaha](https://europe.yamaha.com/en/)
+  - [AvantGrand N3X](https://uk.yamaha.com/en/products/musical_instruments/pianos/avantgrand/n3x/index.html)
+  - [Bösendorfer Grand Piano 214VC](https://www.yamahamusiclondon.com/Grand-Piano-214VC/pidP214VCSP)
   - [Genos2](https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html)
 
 ### Music Production Software Wishlist
