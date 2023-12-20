@@ -64,6 +64,7 @@ Below is a list of my favourite music production YouTube channels
 - [Arturia](https://www.youtube.com/@ArturiaOfficial/) - Arturia official YouTube channel
 - [BoBeats](https://www.youtube.com/@BoBeats/) - videos about synthesizers and music production gear
 - [Charles Cleyn](https://www.youtube.com/@CharlesCleyn/) - songwriting, music production, and marketing strategies to create and release great music
+- [Creative Sauce](https://www.youtube.com/@CreativeSauce/) - helps you on your home recording journey
 - [Doctor Mix](https://www.youtube.com/@Doctormix/) - music production hardware & software reviews, also offers mixing & mastering service
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
@@ -71,6 +72,7 @@ Below is a list of my favourite music production YouTube channels
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
 - [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
+- [Mattias Holmgren](https://www.youtube.com/@MattiasHolmgren/) - guides you in music production, sound design and creativity
 - [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/) - offers the unique opportunity to work closely with the world’s top music mixers, producers and engineers and to improve one's skills in music production
 - [Multiplier](https://www.youtube.com/@MultiplierSounds/) - electronic music production tutorials, reviews, vlogs, Ableton Live & Serum tutorials ...
 - [Native Instruments](https://www.youtube.com/@NativeInstruments/) Native Instruments official YouTube channel
@@ -91,6 +93,7 @@ Below is a list of my favourite music production YouTube channels
 - [Spectrasonics](https://www.youtube.com/@SpectrasonicsVIDEO/) - official Spectrasonics videos for Omnisphere & Keyscape
 - [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
 - [Sweetwater](https://www.youtube.com/@sweetwater/) - giving music makers the ultimate shopping experience
+- [True Cuckoo](https://www.youtube.com/@truecuckoo/) - taking synths, bleeps, dance and pop to the stage.
 - [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
 - [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
 - [Vulture Culture](https://www.youtube.com/@VultureCulture/) - uncovering the hidden gems of the synth world
