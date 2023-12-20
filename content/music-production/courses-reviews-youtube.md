@@ -1,6 +1,6 @@
 ---
 title: "List of Music Production Courses, Reviews & YouTube Channels"
-date: 2023-12-19T10:30:21+01:00
+date: 2023-12-20T13:30:21+01:00
 draft: false
 tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music theory', 'logic pro', 'ableton']
 ---
@@ -27,12 +27,17 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
     - [Music Production in Logic Pro X - The Complete Course!](https://www.udemy.com/course/thecompletelogicprox/) - creating, recording, mixing music & mastering in Logic Pro X
 
 ### Music Theory
+- [Musicians Inspired](https://www.youtube.com/@musiciansinspired/)
+- [Ricky Comiskey](https://www.youtube.com/@rickysguitar/)
 - [ThinkSpace Education](https://thinkspaceeducation.com/)
   - General Composition
     - [Harmony One](https://thinkspaceeducation.com/courses/hm1/)
     - [Harmony Two](https://thinkspaceeducation.com/courses/hm2/)
     - [How To Write Music](https://thinkspaceeducation.com/courses/htwm/)
     - [Learn Music Theory](https://thinkspaceeducation.com/courses/lmt/)
+- [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
+  - [Electronic Music Basics](https://www.youtube.com/playlist?list=PLwSHXwm1ElvgjRL4ZgIztL1eSPMAXAGKW)
+  - [Theory & Harmony](https://www.youtube.com/playlist?list=PLwSHXwm1ElvjbmXEJc0u3tMJQDyb_GS3P)
 
 ### Piano Lessons
 - [Flowkey](https://www.flowkey.com/en) - practice notes and chords interactively and receive instant feedback

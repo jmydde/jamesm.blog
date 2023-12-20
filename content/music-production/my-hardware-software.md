@@ -424,7 +424,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - Universal Audio
   - LA-2A Tube Compressor
 
-## Wishlists
+## My Music Production Wishlists
 
 ### Music Production Hardware Wishlist
 - [Behringer](https://www.behringer.com/)
@@ -456,6 +456,8 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
   - [Phoscyon2](https://d16.pl/phoscyon2)
   - [Punchbox](https://d16.pl/punchbox)
   - [TotalBundle](https://d16.pl/totalbundle)
+- [GForce Software](https://www.gforcesoftware.com/)
+  - [M-Tron Pro - Complete](https://www.gforcesoftware.com/products/m-tron-pro-complete/)
 - [Pulse Audio](https://pulse.audio/)
   - [Vivid Strings](https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/)
 - [reFX](https://refx.com/)
