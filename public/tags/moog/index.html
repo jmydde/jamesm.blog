@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>moog | jamesm.blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/tags/moog/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.8dd6f57454653644cba6929524e195dff93a26fa61dce2b3b2629e50b8d12816.css" integrity="sha256-jdb1dFRlNkTLppKVJOGV3/k6Jvph3OKzsmKeULjRKBY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/tags/moog/index.xml">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="moog | jamesm.blog" />
+<meta name="twitter:description" content="" />
+<meta property="og:title" content="moog | jamesm.blog" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jamesm.blog/tags/moog/" />
+    <meta property="og:image" content="https://jamesm.blog/papermod-cover.png"/>
+
+
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary-bg: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list-page {
+                background: var(--theme);
+            }
+
+            .list-page:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list-page:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+</head>
+
+<body class="list-page type-tags kind-term layout-" id="top"><script data-no-instant>
+function switchTheme(theme) {
+  switch (theme) {
+    case 'light':
+      document.body.classList.remove('dark');
+      break;
+    case 'dark':
+      document.body.classList.add('dark');
+      break;
+    
+    default:
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+      }
+  }
+}
+
+function isDarkTheme() {
+  return document.body.className.includes("dark");
+}
+
+function getPrefTheme() {
+  return localStorage.getItem("pref-theme");
+}
+
+function setPrefTheme(theme) {
+  switchTheme(theme)
+  localStorage.setItem("pref-theme", theme);
+}
+
+const toggleThemeCallbacks = {}
+toggleThemeCallbacks['main'] = (isDark) => {
+  
+  if (isDark) {
+    setPrefTheme('light');
+  } else {
+    setPrefTheme('dark');
+  }
+}
+
+
+
+
+window.addEventListener('toggle-theme', function() {
+  
+  const isDark = isDarkTheme()
+  for (const key in toggleThemeCallbacks) {
+    toggleThemeCallbacks[key](isDark)
+  }
+});
+
+
+function toggleThemeListener() {
+  
+  window.dispatchEvent(new CustomEvent('toggle-theme'));
+}
+
+</script>
+<script>
+  
+  (function() {
+    const defaultTheme = 'auto';
+    const prefTheme = getPrefTheme();
+    const theme = prefTheme ? prefTheme : defaultTheme;
+
+    switchTheme(theme);
+  })();
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)"data-no-instant accesskey=/
+                >Search
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags" class="active"
+                >Tags
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai/" title="AI"
+                >AI
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data/" title="Data"
+                >Data
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops/" title="DevOps"
+                >DevOps
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general/" title="General"
+                >General
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production/" title="Music"
+                >Music
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development/" title="Personal Development"
+                >Personal Development
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/web3/" title="Web3"
+                >Web3
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/tags/">Tags</a></div>
+  <h1>
+    tag: moog</h1><div class="inline-links">
+  
+  
+  <span><a href="https://jamesm.blog/tags/moog/index.xml" target="_blank">RSS</a></span></div>
+</header>
+
+
+
+
+
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>My Music Production Hardware &amp; Software
+    </h2>
+  </header>
+  <section class="entry-content">
+    
+      <p>My Music Production Hardware Current Controller Keyboards Native Instruments Komplete Kontrol M32 Novation LaunchKey 61 DJ Controllers Native Instruments Traktor Kontrol S3 Drum Machines &amp; Grooveboxes Native Instruments Maschine MK3 Synthesizers Yamaha Motif ES8 Past Drum Machines KORG ElecTribe R (ER-1) Roland R8 Keyboards Casio PT-50 JVC KB-700 Synthesizers Casio CZ-101 Yamaha SY85 My Music Production Software Ableton Ableton Live AIR Music Technology AIR Essential Synths Pack LOOM II The Riser Vacuum Pro AIR Power Pack Hybrid 3 Hybrid 3 Expansion: E-lec-tro Waves Hybrid 3 Expansion: Fresh Energy Mini Grand Velvet 2 Apple Logic Pro Arturia Efx MOTIONS FX Collection V Collection V Collection X now includes 39 instruments &amp; 10,000 high-quality presets 2 new instruments: CP-70 &amp; Augmented Woodwinds 2 added instruments: Mini Freak V &amp; Acid V 2 additional augmented series: Augmented Grand Piano &amp; Augmented Brass Instrument List ARP 2600 V Acid V Analog Lab Pro Augmented BRASS Augmented GRAND PIANO Augmented STRINGS Augmented VOICES Augmented WOODWINDS B-3 V Buchla Easel V CMI V CP-70 V CS-80 V CZ V Clavinet V DX7 V Emulator II V Farfisa V Hyper Rave Inner City Soul Inward Universe Jun-6 V Jup-8 V KORG MS-20 V Matrix-12 V Mellotron V Mini V Mini V 4 MiniFreak V Modular V OP-Xa V Piano V Pigments Prophet-5 V Prophet-VS V SEM V SQ80 V Solina V Stage-73 V Synclavier V Synthi V VOX Continental V Vocoder V Wurli V Wurli V 3 Expansion Packs Inward Universe Inner City Soul Hyper Rave Wavelengths Bundle Cherry Audio Synthesizer Expander Module Synthesizer Voltage Modular Eventide Blackhole Heavyocity PUNISH Lite Image Line FL Studio (Fruity Edition) iZotope Audiolens Insight 2 Neutron 4 Elements Ozone 10 Elements Stutter Edit 2 KORG KORG Collection 4 microKORG KAOSS PAD ELECTRIBE-R TRITON M1 WAVESTATION ARP ODYSSEY Prophecy miniKORG 700S Mono/Poly Polysix MS-20 MDE-X Lennar Digital Sylenth1 Modartt Pianoteq Native Instruments Native Instruments Komplete 14 Ultimate Orchestral &amp; Cinematic Instruments Action Strikes Action Strings 2 Ashlight Emotive Strings Kinetic Metal Kinetic Toys Mallet Flux Mysteria Piano Colors Pharlight Rise &amp; Hit Stradivari Violin Straylight Symphony Essentials Brass Ensemble Brass Solo String Ensemble Percussion Woodwind Ensemble Woodwind Solo The Giant Thrill Synthesizers Blocks Primes BX_Oberhausen Massive X Flesh FM8 Form Kontour Massive Monark Razor Reaktor 6 Reaktor Prism Reaktor Spark Retro Machines MK2 Rounds Skanner XT Super 8 TRK-01 SAMPLED INSTRUMENTS 40’S Very Own Keys Alicia’s Keys Balinese Gamelan East Asia George Duke Soul Treasures Kontakt 7 Playbox Session Guitarist Electric Mint Picked Nylon Sequis Noire Session Bassist – Prime Bass Soul Sessions Scarbee Rickenbacker Bass Session Guitarist Electric Sunburst deluxe Electric Vintage Picked Acoustic Strummed Acoustic Strummed Acoustic 2 SESSION HORNS PRO SESSION STRINGS PRO 2 The MAVERICK The GRANDEUR The GENTLEMAN SCARBEE A-200 Una Corda VINTAGE ORGANS SCARBEE MARK I INDIA Cuba Middle East SCARBEE PRE-BASS PRE-BASS AMPED CLAVINET/PIANET MM-BASS MM-BASS AMPED JAY-BASS IGNITION KEYS Glaze DEFT LINES CLOUD SUPPLY LO-FI GLOW MODULAR ICONS ETHEREAL EARTH MELTED VIBES HYBRID KEYS ANALOG DREAMS DRUMS AND PERCUSSION INSTRUMENTS BATTERY 4 40’S VERY OWN DRUMS POLYPLEX EMPIRE BREAKS DRUMLAB BUTCH VIG DRUMS DAMAGE STUDIO DRUMMER WEST AFRICA ABBEY ROAD VINTAGE DRUMMER 50S DRUMMER 60S DRUMMER 70S DRUMMER 80S DRUMMER MODERN DRUMMER EFFECTS OZONE 10 STANDARD BX_CONSOLE N BX_LIMITER TRUE PEAK BX_CRISPYTUNER REPLIKA XT LO-FI-AF MOLEKULAR SUPERCHARGER GT RAUM The MOUTH The Finger RC 24 RC 48 TRANSIENT MASTER ENHANCED EQ VARI COMP PASSIVE EQ SOLID BUS COMP SOLID DYNAMICS SOLID EQ VC 2A VC 76 VC 160 CRUSH PACK BITE DIRT FREAK MOD PACK CHORAL FLAIR PHASIS DRIVER EXPANSIONS FREE FORM LIQUID ENERGY RHYTHM SOURCE SOUL MAGIC BODY MECHANIK BUMPIN FLAVA BACKYARD JAMS MOTHER BOARD NEO BOOGIE BASEMENT ERA CARBON DECAY AMPLIFIED FUNK AQUARIUS EARTH GLOBAL SHAKE INFINITE ESCAPE PURE DRIP DROP SQUAD FADED REELS PRISMATIC BLISS MOLTEN VEIL PLATINUM BOUNCE LAZER DICE MARBLE RIMS CARIBBEAN CURRENT ASTRAL FLUTTER CAVERN FLOOR GOLDEN KINGDOM BYTE RIOT DECODED FORMS INDIGO DUST NEON DRIVE LUCID MISSION LONDON GRIT RISING CRESCENT HALCYON SKY QUEENSBRIDGE STORY ELASTIC THUMP DEEP MATTER SOLAR BREEZE LILAC GLARE TRUE SCHOOL VELVET LOUNGE ARTIST EXPANSION: SASHA NOCTURNAL STATE STADIUM FLEX SPECTRUM QUAKE KINO Wake Fade Charge Beam Bump Haze Quest Bounce Rush Pulse Scene Moebius MECHANIX Drive Our House PluginGuru Unify Modern Cinema - Ambient Dreams ProjectSAM The Free Orchestra Spitfire Audio BBC Symphony Orchestra Discover Steinberg Cubase Artist 13 Taped Vibes3 u-he Diva UVI 8-Bit Synth Augmented Orchestra Austrian Grand BeatBox Anthology 2 Drum Designer Dual Delay X Emulation II&#43; Falcon 3 Analog Motion Digital Motion Organic Arps Organic Keys Organic Pads Spectre FM Suite HX-20 Key Suite Acoustic Key Suite Digital Key Suite Electric Meteor Noctua Percussion Factory Program 24 PX Memories Quadra - Muted and Harmonics Scratch Machine Shade Sparkverb Synth Anthology 3 Music Theory Tools EVAbeat Melody Sauce 2 Plugin Boutique Scaler 2 WA Production MIDIQ InstaScale Chords Pro &#43; Notes = InstaChord 2 InstaComposer Other Antares Choir Dear Reality EXOVERB Micro Minimal Audio Rift Filter Lite Moog Moogerfooger MF-108S Cluster Flux Plugin Boutique StereoSavage 2 Elements Pulsar Audio W495 Sonible pure:limit Tracktion Dawesome LOVE Universal Audio LA-2A Tube Compressor My Music Production Wishlists Music Production Hardware Wishlist Arturia Keylab 88 MkII PolyBrute Noir Edition Behringer Odyssey Poly D UB-Xa Ketron EVENT Native Instruments Komplete Control S88 MK3 Moog Etherwave Theremin Minimoog Model D Subsequent 37 Roland D-05 FANTOM-08 GP-9 Digital Piano JUNO-X JUPITER-X JUPITER-80 MC-707 Sequential Prophet X Yamaha AvantGrand N3X Bösendorfer Grand Piano 214VC Genos2 Music Production Software Wishlist D16 Group Phoscyon2 Punchbox TotalBundle GForce Software M-Tron Pro - Complete Pulse Audio Vivid Strings reFX Nexus Reveal Sound Spire Spectrasonics Keyscape Omnisphere 2 Spitfire Audio BBC Symphony Orchestra Piano Steinberg Absolute 6 Synthogy Ivory II Grand Pianos u-He Hive Repro </p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>December 20, 2023</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
+  <span class="post-tags"><a href="https://jamesm.blog/tags/ableton/">ableton</a><a href="https://jamesm.blog/tags/air/">air</a><a href="https://jamesm.blog/tags/arturia/">arturia</a><a href="https://jamesm.blog/tags/behringer/">behringer</a><a href="https://jamesm.blog/tags/casio/">casio</a><a href="https://jamesm.blog/tags/jvc/">jvc</a><a href="https://jamesm.blog/tags/korg/">korg</a><a href="https://jamesm.blog/tags/synths/">synths</a><a href="https://jamesm.blog/tags/keyboards/">keyboards</a><a href="https://jamesm.blog/tags/roland/">roland</a><a href="https://jamesm.blog/tags/yamaha/">yamaha</a><a href="https://jamesm.blog/tags/native-instruments/">native instruments</a><a href="https://jamesm.blog/tags/steinberg/">steinberg</a><a href="https://jamesm.blog/tags/uhe/">uhe</a><a href="https://jamesm.blog/tags/uvi/">uvi</a><a href="https://jamesm.blog/tags/spectrasonics/">spectrasonics</a><a href="https://jamesm.blog/tags/spitfire-audio/">spitfire audio</a><a href="https://jamesm.blog/tags/moog/">moog</a></span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>5 min</span></span>
+</footer>
+  <a class="entry-link" aria-label="post link to My Music Production Hardware &amp; Software" href="https://jamesm.blog/music-production/my-hardware-software/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+  <span>&copy; 2023 <a href="https://jamesm.blog/">jamesm.blog</a></span><span style="display: inline-block; margin-left: 1em;">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+  </span>
+  <span style="display: inline-block; margin-left: 1em;">
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
+  </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
+</a>
+
+<script>
+  (function() {
+     
+    const disableThemeToggle = '' == '1';
+    if (disableThemeToggle) {
+      return;
+    }
+
+    let button = document.getElementById("theme-toggle")
+    
+    button.removeEventListener('click', toggleThemeListener)
+    
+    button.addEventListener('click', toggleThemeListener)
+  })();
+</script>
+
+<script>
+  (function () {
+    let menu = document.getElementById('menu')
+    if (menu) {
+      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      }
+    }
+
+    const disableSmoothScroll = '' == '1';
+    const enableInstantClick = '' == '1';
+    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = this.getAttribute("href").substr(1);
+        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+          behavior: "smooth"
+        });
+        if (id === "top") {
+          history.replaceState(null, null, " ");
+        } else {
+          history.pushState(null, null, `#${id}`);
+        }
+      });
+    });
+  })();
+</script>
+<script>
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
+</script>
+<script>
+  if (window.scrollListeners) {
+    
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+  }
+  window.scrollListeners = []
+</script>
+
+
+
+<script src="/js/medium-zoom.min.js" data-no-instant
+></script>
+</body>
+
+</html>
