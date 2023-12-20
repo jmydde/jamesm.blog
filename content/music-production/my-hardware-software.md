@@ -1,8 +1,8 @@
 ---
 title: "My Music Production Hardware & Software"
-date: 2023-12-17T09:53:39+01:00
+date: 2023-12-20T23:32:02+01:00
 draft: false
-tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', 'steinberg']
+tags: ['ableton', 'air', 'arturia', 'behringer', 'casio', 'jvc', 'korg', 'synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'steinberg', 'uhe', 'uvi', 'spectrasonics', 'spitfire audio', 'moog']
 ---
 
 ## My Music Production Hardware
