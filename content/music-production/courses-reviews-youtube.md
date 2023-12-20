@@ -58,6 +58,7 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 
 ## YouTube Channels
 Below is a list of my favourite music production YouTube channels
+- [Accurate Beats](https://www.youtube.com/@AccurateBeats/) - music production, music gear and beatmaking
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
 - [Arturia](https://www.youtube.com/@ArturiaOfficial/) - Arturia official YouTube channel
@@ -77,6 +78,7 @@ Below is a list of my favourite music production YouTube channels
 - [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
 - [Point Blank Music School](https://www.youtube.com/@PointBlankMusicSchool/) - music school with courses in London, LA, Ibiza & Online
 - [ProjectSAM](https://www.youtube.com/@ProjectSAMCinematicSampling/) - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries
+- [Rachel K Collier](https://youtube.com/@RachelKCollierRKC/) - Welsh electronic producer & performer who makes songs and performances with Ableton
 - [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials
 - [Rick Beato](https://www.youtube.com/@RickBeato/) - everything music
 - [Roland](https://www.youtube.com/@rolandglobal/) - music production hardware
