@@ -37,6 +37,8 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
   - [Music Theory Masterclass 1: Drilling the Basics](https://www.youtube.com/watch?v=De97zQi5rzc&t=1363s)
   - [Scales and Modes](https://www.youtube.com/playlist?list=PLW0NGgv1qnfwOCvaua3pRBCT7Vx-mlrHI)
 - [Ricky Comiskey](https://www.youtube.com/@rickysguitar/)
+  - [How I Wish I was Taught Chord Theory: A Different Way for Beginners](https://www.youtube.com/watch?v=38ul8nOxU6U)
+  - [I Didn't Know Where Chords Came From Until I Knew This](https://www.youtube.com/watch?v=2hs-9tsRmW8&t=682s)
 - [ThinkSpace Education](https://thinkspaceeducation.com/)
   - General Composition
     - [Harmony One](https://thinkspaceeducation.com/courses/hm1/)
@@ -67,8 +69,9 @@ Below is a list of my favourite music production YouTube channels
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
-- [Mastering․com](https://www.youtube.com/@masteringcom/)
-- [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/)
+- [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
+- [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/) - offers the unique opportunity to work closely with the world’s top music mixers, producers and engineers and to improve one's skills in music production
+- [Multiplier](https://www.youtube.com/@MultiplierSounds/) - electronic music production tutorials, reviews, vlogs, Ableton Live & Serum tutorials ...
 - [Native Instruments](https://www.youtube.com/@NativeInstruments/) Native Instruments official YouTube channel
 - [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/) - synthesizer reviews & music production
 - [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
