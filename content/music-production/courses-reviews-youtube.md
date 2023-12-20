@@ -27,7 +27,15 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
     - [Music Production in Logic Pro X - The Complete Course!](https://www.udemy.com/course/thecompletelogicprox/) - creating, recording, mixing music & mastering in Logic Pro X
 
 ### Music Theory
+- [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation)
+  - [Music Theory](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj)
 - [Musicians Inspired](https://www.youtube.com/@musiciansinspired/)
+- [Rick Beato](https://www.youtube.com/@RickBeato/)
+  - [Ear Training](https://www.youtube.com/playlist?list=PLW0NGgv1qnfxsk2YLffbimD1jF43pVCJD)
+  - [Ear Training Complete](https://www.youtube.com/playlist?list=PLW0NGgv1qnfyiH7i5ZOowzmmwoMPMqCYp)
+  - [Music Production](https://www.youtube.com/playlist?list=PLW0NGgv1qnfxAZ4Kx7-jzy4jrGCAaCdTt)
+  - [Music Theory Masterclass 1: Drilling the Basics](https://www.youtube.com/watch?v=De97zQi5rzc&t=1363s)
+  - [Scales and Modes](https://www.youtube.com/playlist?list=PLW0NGgv1qnfwOCvaua3pRBCT7Vx-mlrHI)
 - [Ricky Comiskey](https://www.youtube.com/@rickysguitar/)
 - [ThinkSpace Education](https://thinkspaceeducation.com/)
   - General Composition
@@ -67,6 +75,7 @@ Below is a list of my favourite music production YouTube channels
 - [Point Blank Music School](https://www.youtube.com/@PointBlankMusicSchool/) - music school with courses in London, LA, Ibiza & Online
 - [ProjectSAM](https://www.youtube.com/@ProjectSAMCinematicSampling/) - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries
 - [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials
+- [Rick Beato](https://www.youtube.com/@RickBeato/) - everything music
 - [Roland](https://www.youtube.com/@rolandglobal/) - music production hardware
 - [SamTheBeardGuy](https://www.youtube.com/@SamTheBeardGuy/) - virtual instrument reviews
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
