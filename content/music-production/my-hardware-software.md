@@ -20,7 +20,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 
 ### Past
 - Drum Machines
-  - [Korg ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
+  - [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
   - [Roland R8](https://www.vintagesynth.com/roland/r8.php)
 - Keyboards
   - [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/)
@@ -81,7 +81,7 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
     - Inward Universe
     - Jun-6 V
     - Jup-8 V
-    - Korg MS-20 V
+    - KORG MS-20 V
     - Matrix-12 V
     - Mellotron V
     - Mini V
@@ -128,6 +128,22 @@ tags: ['synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'uvi', '
 - [Neutron 4 Elements](https://www.izotope.com/en/shop/neutron-elements/)
 - [Ozone 10 Elements](https://www.izotope.com/en/shop/ozone-11-elements/?)
 - [Stutter Edit 2](https://www.izotope.com/en/shop/stutter-edit-2-stutter-edit-2/)
+
+### KORG
+- [KORG Collection](https://korg.shop/software/korg-collection-series.html?___store=english)
+  - [microKORG](https://korg.shop/software/korg-collection-series/single-products/korg-collection-microkorg.html)
+  - [KAOSS PAD](https://korg.shop/software/korg-collection-series/single-products/korg-collection-kaoss-pad.html)
+  - [ELECTRIBE-R](https://korg.shop/software/korg-collection-series/single-products/korg-collection-electribe-r.html)
+  - [TRITON](https://korg.shop/software/korg-collection-series/single-products/korg-collection-triton.html)
+  - [M1](https://korg.shop/software/korg-collection-series/single-products/korg-collection-m1.html)
+  - [WAVESTATION](https://korg.shop/software/korg-collection-series/single-products/korg-collection-wavestation.html)
+  - [ARP ODYSSEY](https://korg.shop/software/korg-collection-series/single-products/korg-collection-arp-odyssey.html)
+  - [Prophecy](https://korg.shop/software/korg-collection-series/single-products/korg-collection-prophecy.html)
+  - [miniKORG 700S](https://korg.shop/software/korg-collection-series/single-products/korg-collection-minikorg700s.html)
+  - [Mono/Poly](https://korg.shop/software/korg-collection-series/single-products/korg-collection-korg-mono-poly.html)
+  - [Polysix](https://korg.shop/software/korg-collection-series/single-products/korg-collection-polysix.html)
+  - [MS-20](https://korg.shop/software/korg-collection-series/single-products/korg-collection-ms-20.html)
+  - [MDE-X](https://korg.shop/software/korg-collection-series/single-products/korg-collection-mde-x.html)
 
 ### Lennar Digital
 - [Sylenth1](https://www.lennardigital.com/sylenth1/)
