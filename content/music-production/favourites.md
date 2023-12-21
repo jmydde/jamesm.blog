@@ -82,15 +82,18 @@ draft: false
   - Jaguar Skills
 
 # My Favourite Keyboard Players & Pianists
-- [Anthony Marinelli](https://www.youtube.com/@anthonymarinellimusic)
-- Barry Manilow
-- Bert Smorenburg
-- Howard Jones
-- Jean-Michel Jarre
+- [Anthony Marinelli](https://www.youtube.com/@anthonymarinellimusic/)
+- [Barry Manilow](https://www.youtube.com/@BarryManilow/)
+- [Bartek Krzemiński](https://www.youtube.com/@bartekkrzemien/)
+- [Bert Smorenburg](https://www.bertsmorenburg.com/)
+- [Howard Jones](https://www.youtube.com/@howardjonesmusic/)
+- [Jean-Michel Jarre](https://www.youtube.com/@jeanmicheljarre/)
 - [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/)
-- Matt Johnson
-- [Robby Sharp](https://www.youtube.com/@RobbySharp)
-- Stevie Wonder
+- [Matt Johnson](https://www.youtube.com/@MattJohnsonJamiroquai/)
+- [Robby Sharp](https://www.youtube.com/@RobbySharp/)
+- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/)
+- [Stevie Wonder](https://www.youtube.com/@steviewonder/)
+- [Thiago Pinheiro](https://www.youtube.com/@AASphysicalmodeling/)
 
 # My Favourite Composers
 - [Alan Menken](https://en.wikipedia.org/wiki/Alan_Menken)
