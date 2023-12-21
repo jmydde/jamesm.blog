@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>image line on jamesm.blog</title>
+    <title>image-line on jamesm.blog</title>
     <link>https://jamesm.blog/tags/image-line/</link>
-    <description>Recent content in image line on jamesm.blog</description>
+    <description>Recent content in image-line on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Dec 2023 23:32:02 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/image-line/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Wed, 20 Dec 2023 23:32:02 +0100</pubDate>
       
       <guid>https://jamesm.blog/music-production/my-hardware-software/</guid>
-      <description>My Music Production Hardware Current Controller Keyboards Native Instruments Komplete Kontrol M32 Novation LaunchKey 61 DJ Controllers Native Instruments Traktor Kontrol S3 Drum Machines &amp;amp; Grooveboxes Native Instruments Maschine MK3 Synthesizers Yamaha Motif ES8 Past Drum Machines KORG ElecTribe R (ER-1) Roland R8 Keyboards Casio PT-50 JVC KB-700 Synthesizers Casio CZ-101 Yamaha SY85 My Music Production Software Ableton Ableton Live AIR Music Technology AIR Essential Synths Pack LOOM II The Riser Vacuum Pro AIR Power Pack Hybrid 3 Hybrid 3 Expansion: E-lec-tro Waves Hybrid 3 Expansion: Fresh Energy Mini Grand Velvet 2 Apple Logic Pro Arturia Efx MOTIONS FX Collection V Collection V Collection X now includes 39 instruments &amp;amp; 10,000 high-quality presets 2 new instruments: CP-70 &amp;amp; Augmented Woodwinds 2 added instruments: Mini Freak V &amp;amp; Acid V 2 additional augmented series: Augmented Grand Piano &amp;amp; Augmented Brass Instrument List ARP 2600 V Acid V Analog Lab Pro Augmented BRASS Augmented GRAND PIANO Augmented STRINGS Augmented VOICES Augmented WOODWINDS B-3 V Buchla Easel V CMI V CP-70 V CS-80 V CZ V Clavinet V DX7 V Emulator II V Farfisa V Hyper Rave Inner City Soul Inward Universe Jun-6 V Jup-8 V KORG MS-20 V Matrix-12 V Mellotron V Mini V Mini V 4 MiniFreak V Modular V OP-Xa V Piano V Pigments Prophet-5 V Prophet-VS V SEM V SQ80 V Solina V Stage-73 V Synclavier V Synthi V VOX Continental V Vocoder V Wurli V Wurli V 3 Expansion Packs Inward Universe Inner City Soul Hyper Rave Wavelengths Bundle Cherry Audio Synthesizer Expander Module Synthesizer Voltage Modular Eventide Blackhole Heavyocity PUNISH Lite Image Line FL Studio (Fruity Edition) iZotope Audiolens Insight 2 Neutron 4 Elements Ozone 10 Elements Stutter Edit 2 KORG KORG Collection 4 microKORG KAOSS PAD ELECTRIBE-R TRITON M1 WAVESTATION ARP ODYSSEY Prophecy miniKORG 700S Mono/Poly Polysix MS-20 MDE-X Lennar Digital Sylenth1 Modartt All instruments are physically modelled and simulate the playability and complex behaviour of real acoustic instruments</description>
+      <description>My Music Production Hardware Current Controller Keyboards Native Instruments Komplete Kontrol M32 Novation LaunchKey 61 DJ Controllers Native Instruments Traktor Kontrol S3 Drum Machines &amp;amp; Grooveboxes Native Instruments Maschine MK3 Synthesizers Yamaha Motif ES8 Past Drum Machines KORG ElecTribe R (ER-1) Roland R8 Keyboards Casio PT-50 JVC KB-700 Synthesizers Casio CZ-101 Yamaha SY85 My Music Production Software Ableton Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push</description>
       <content:encoded><![CDATA[<h2 id="my-music-production-hardware">My Music Production Hardware</h2>
 <h3 id="current">Current</h3>
 <ul>
@@ -62,10 +62,12 @@
 </ul>
 <h2 id="my-music-production-software">My Music Production Software</h2>
 <h3 id="ableton">Ableton</h3>
+<p>Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push</p>
 <ul>
 <li><a href="https://www.ableton.com/en/shop/live/">Ableton Live</a></li>
 </ul>
 <h3 id="air-music-technology">AIR Music Technology</h3>
+<p>AIR provides legendary virtual instruments, effects, expansions, sound packs and software subscriptions that bring music production to the next level</p>
 <ul>
 <li><a href="https://www.airmusictech.com/virtual-instruments/air-essential-synths-pack.html">AIR Essential Synths Pack</a>
 <ul>
@@ -88,10 +90,12 @@
 </li>
 </ul>
 <h3 id="apple">Apple</h3>
+<p>Apple Inc. is an American computer and consumer electronics company famous for creating the iPhone, iPad and Macintosh computers</p>
 <ul>
 <li><a href="https://www.apple.com/uk/logic-pro/">Logic Pro</a></li>
 </ul>
 <h3 id="arturia">Arturia</h3>
+<p>Arturia is a French electronics company who design and manufacture audio interfaces and electronic musical instruments, including software synthesizers, drum machines, analog synthesizers, digital synthesizers, MIDI controllers, sequencers, and mobile apps</p>
 <ul>
 <li><a href="https://www.arturia.com/products/software-effects/efx-motions/overview">Efx MOTIONS</a></li>
 <li><a href="https://www.arturia.com/products/software-effects/fx-collection/overview">FX Collection</a></li>
@@ -165,23 +169,28 @@
 <li><a href="https://www.arturia.com/sound-banks/wavelengthsbundle">Wavelengths Bundle</a></li>
 </ul>
 <h3 id="cherry-audio">Cherry Audio</h3>
+<p>Cherry Audio was formed by a small group of industry veterans from the likes of Sonic Foundry, Cakewalk, Bias, Acoustica, and Keyboard Magazine</p>
 <ul>
 <li><a href="https://cherryaudio.com/products/synthesizer-expander-module">Synthesizer Expander Module Synthesizer</a></li>
 <li><a href="https://cherryaudio.com/products/voltage-modular">Voltage Modular</a></li>
 </ul>
 <h3 id="eventide">Eventide</h3>
+<p>Eventide Inc. is an American pro audio, broadcast and communications company whose audio division manufactures digital effects processors, digital signal processor (DSP) software, and guitar effects pedals.</p>
 <ul>
 <li><a href="https://www.eventideaudio.com/plug-ins/blackhole/">Blackhole</a></li>
 </ul>
 <h3 id="heavyocity">Heavyocity</h3>
+<p>Heavyocity is a collective of pro composers and sound designers with a mission to create world class virtual instruments for today&rsquo;s modern composer and sound designer</p>
 <ul>
 <li><a href="https://heavyocity.com/product/punish-lite/">PUNISH Lite</a></li>
 </ul>
-<h3 id="image-line">Image Line</h3>
+<h3 id="image-line">Image-Line</h3>
+<p>Image-Line Software is a Belgian software company best known for its digital audio workstation program FL Studio and related audio plugins such as Sytrus and Harmor</p>
 <ul>
 <li><a href="https://www.image-line.com/fl-studio/">FL Studio (Fruity Edition)</a></li>
 </ul>
 <h3 id="izotope">iZotope</h3>
+<p>iZotope Inc. is an audio technology company based in the United States who develop professional audio software for audio recording, mixing, broadcast, sound design, and mastering which can be used in wide range of digital audio workstation programs</p>
 <ul>
 <li><a href="https://www.izotope.com/en/products/audiolens.html">Audiolens</a></li>
 <li><a href="https://www.izotope.com/en/products/insight.html">Insight 2</a></li>
@@ -190,6 +199,7 @@
 <li><a href="https://www.izotope.com/en/shop/stutter-edit-2-stutter-edit-2/">Stutter Edit 2</a></li>
 </ul>
 <h3 id="korg">KORG</h3>
+<p>KORG Inc. is a Japanese multinational corporation that manufactures electronic musical instruments, audio processors and guitar pedals, recording equipment, and electronic tuners</p>
 <ul>
 <li><a href="https://korg.shop/software/korg-collection-series.html?___store=english">KORG Collection 4</a>
 <ul>
@@ -209,7 +219,8 @@
 </ul>
 </li>
 </ul>
-<h3 id="lennar-digital">Lennar Digital</h3>
+<h3 id="lennardigital">LennarDigital</h3>
+<p>LennarDigital is company based in the Netherlands who develop high quality digital audio software</p>
 <ul>
 <li><a href="https://www.lennardigital.com/sylenth1/">Sylenth1</a></li>
 </ul>
@@ -228,6 +239,7 @@
 </li>
 </ul>
 <h3 id="native-instruments">Native Instruments</h3>
+<p>Native Instruments is a German company that develops, manufactures, and supplies music software and hardware for music production, sound design, performance, and DJing</p>
 <ul>
 <li><a href="https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/">Native Instruments Komplete 14 Ultimate</a>
 <ul>
@@ -477,6 +489,7 @@
 </li>
 </ul>
 <h3 id="pluginguru">PluginGuru</h3>
+<p>Founded by veteran synth programmer and sound designer John Lehmkuhl, PlugInGuru provides inspiring synth patches for all of the most popular synth plug-ins</p>
 <ul>
 <li><a href="https://www.pluginguru.com/products/unify-standard/">Unify</a>
 <ul>
@@ -485,23 +498,28 @@
 </li>
 </ul>
 <h3 id="projectsam">ProjectSAM</h3>
+<p>ProjectSAM creates award-winning cinematic sample libraries which are used in numerous film, game and series-scores all over the world</p>
 <ul>
 <li><a href="https://projectsam.com/series/the-free-orchestra">The Free Orchestra</a></li>
 </ul>
 <h3 id="spitfire-audio">Spitfire Audio</h3>
+<p>Spitfire Audio is an English technology company based in London that creates virtual instrument sample libraries used for music production</p>
 <ul>
 <li><a href="https://www.spitfireaudio.com/bbc-symphony-orchestra-discover">BBC Symphony Orchestra Discover</a></li>
 </ul>
 <h3 id="steinberg">Steinberg</h3>
+<p>Steinberg Media Technologies GmbH is a German musical software and hardware company based in Hamburg who develop music writing, recording, arranging, and editing software, most notably Cubase, Nuendo, and Dorico</p>
 <ul>
 <li><a href="https://www.steinberg.net/cubase/compare-editions/">Cubase Artist 13</a></li>
 <li><a href="https://www.steinberg.net/vst-instruments/taped-vibes/">Taped Vibes3</a></li>
 </ul>
 <h3 id="u-he">u-he</h3>
+<p>Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann</p>
 <ul>
 <li><a href="https://u-he.com/products/diva/">Diva</a></li>
 </ul>
 <h3 id="uvi">UVI</h3>
+<p>UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals</p>
 <ul>
 <li>8-Bit Synth</li>
 <li>Augmented Orchestra</li>
@@ -609,6 +627,11 @@
 <h2 id="my-music-production-wishlists">My Music Production Wishlists</h2>
 <h3 id="music-production-hardware-wishlist">Music Production Hardware Wishlist</h3>
 <ul>
+<li><a href="https://www.ableton.com/en/">Ableton</a>
+<ul>
+<li><a href="https://www.ableton.com/en/push/">Ableton Push</a></li>
+</ul>
+</li>
 <li><a href="https://www.arturia.com/">Arturia</a>
 <ul>
 <li><a href="https://www.arturia.com/products/hybrid-synths/keylab-88-mkii/overview">Keylab 88 MkII</a></li>
