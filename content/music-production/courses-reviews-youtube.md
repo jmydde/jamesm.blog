@@ -139,6 +139,7 @@ Below is a list of my favourite music production YouTube channels
 - [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
 - [Vulture Culture](https://www.youtube.com/@VultureCulture/) - uncovering the hidden gems of the synth world
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
+- [Yamaha Global](https://www.youtube.com/@yamahaglobal) - official Yamaha Corporation YouTube channel
 
 ## Music Production Software & Plugin Deals
 - [Audio Plugin Guy](https://www.audiopluginguy.com/deals/)
