@@ -8,6 +8,8 @@ tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio
 ## My Music Production Hardware
 
 ### Current
+- Audio Interfaces
+  - [Native Instruments Audio 6 MK1](https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/)
 - Controller Keyboards
   - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
   - [Novation LaunchKey 61](https://novationmusic.com/en/keys/launchkey/)
@@ -15,16 +17,20 @@ tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio
   - [Native Instruments Traktor Kontrol S3](https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/)
 - Drum Machines & Grooveboxes
   - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
+- Portable Keyboards
+  - [Yamaha EZ-300](https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html)
 - Synthesizers
   - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
 ### Past
 - Drum Machines
   - [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
-  - [Roland R8](https://www.vintagesynth.com/roland/r8.php)
+  - [Roland R-8 Human Rhythm Composer](https://www.vintagesynth.com/roland/r8.php)
 - Keyboards
   - [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/)
   - [JVC KB-700](https://jvckeyboards.tripod.com/kb700.html)
+- Sound Modules
+  - [Roland Edirol SD90](https://www.soundonsound.com/reviews/edirol-sd90)
 - Synthesizers
   - [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php)
   - [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
