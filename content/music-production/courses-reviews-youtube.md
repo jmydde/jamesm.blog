@@ -110,6 +110,7 @@ Below is a list of my favourite music production YouTube channels
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
+- [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/) - American keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
 - [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
 - [Mattias Holmgren](https://www.youtube.com/@MattiasHolmgren/) - guides you in music production, sound design and creativity

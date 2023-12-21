@@ -136,6 +136,13 @@ Heavyocity is a collective of pro composers and sound designers with a mission t
 Image-Line Software is a Belgian software company best known for its digital audio workstation program FL Studio and related audio plugins such as Sytrus and Harmor
 - [FL Studio (Fruity Edition)](https://www.image-line.com/fl-studio/)
 
+### iOS
+- [AudioKit Pro](https://apps.apple.com/us/developer/audiokit-pro/id1307785645) 
+  - [Jam with Jordan](https://apps.apple.com/us/app/jam-with-jordan/id1524167609)
+  - [King of Digital | Hybrid Synth](https://apps.apple.com/us/app/king-of-digital-hybrid-synth/id6467825289)
+  - [King of FM: DX Synth/E Piano](https://apps.apple.com/us/app/king-of-fm-dx-synth-e-piano/id1672644102)
+  - [SAGA Synth | 16-Bit Super Fun!](https://apps.apple.com/us/app/saga-synth-16-bit-super-fun/id1658167569)
+
 ### iZotope
 iZotope Inc. is an audio technology company based in the United States who develop professional audio software for audio recording, mixing, broadcast, sound design, and mastering which can be used in wide range of digital audio workstation programs
 - [Audiolens](https://www.izotope.com/en/products/audiolens.html)
