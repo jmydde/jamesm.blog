@@ -1,5 +1,5 @@
 ---
-title: "List of Music Production Courses, Reviews & YouTube Channels"
+title: "List of Music Production Courses & YouTube Channels"
 date: 2023-12-21T08:48:21+01:00
 draft: false
 tags: ['ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'serum', 'steinberg', 'training', 'youtube']
