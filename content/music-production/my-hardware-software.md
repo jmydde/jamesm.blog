@@ -2,7 +2,7 @@
 title: "My Music Production Hardware & Software"
 date: 2023-12-20T23:32:02+01:00
 draft: false
-tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'uhe', 'uvi', 'yamaha']
+tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
 
 ## My Music Production Hardware
@@ -543,6 +543,9 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [Absolute 6](https://www.steinberg.net/vst-instruments/absolute/)
 - [Synthogy](https://synthogy.com/)
   - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
+- [Toontrack](https://www.toontrack.com/)
+  - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/)
+  - [EZkeys 2](https://www.toontrack.com/ezkeys-line/)
 - [u-He](https://u-he.com/)
   - [Hive](https://u-he.com/products/hive/)
   - [Repro](https://u-he.com/products/repro/)

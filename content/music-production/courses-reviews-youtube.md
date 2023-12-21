@@ -101,6 +101,7 @@ Below is a list of my favourite music production YouTube channels
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
 - [Arturia](https://www.youtube.com/@ArturiaOfficial/) - Arturia official YouTube channel
+- [BBC Maestro](https://www.youtube.com/@BBCMaestro/) - inspirational online courses taught by the most experienced creators
 - [BoBeats](https://www.youtube.com/@BoBeats/) - videos about synthesizers and music production gear
 - [Charles Cleyn](https://www.youtube.com/@CharlesCleyn/) - songwriting, music production, and marketing strategies to create and release great music
 - [Creative Sauce](https://www.youtube.com/@CreativeSauce/) - helps you on your home recording journey
@@ -124,6 +125,7 @@ Below is a list of my favourite music production YouTube channels
 - [Rachel K Collier](https://youtube.com/@RachelKCollierRKC/) - Welsh electronic producer & performer who makes songs and performances with Ableton
 - [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials
 - [Rick Beato](https://www.youtube.com/@RickBeato/) - everything music
+- [Rhodes Piano](https://www.youtube.com/@rhodesmusic/) - official Rhodes channel
 - [Roland](https://www.youtube.com/@rolandglobal/) - music production hardware
 - [SamTheBeardGuy](https://www.youtube.com/@SamTheBeardGuy/) - virtual instrument reviews
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
@@ -140,6 +142,7 @@ Below is a list of my favourite music production YouTube channels
 - [Vulture Culture](https://www.youtube.com/@VultureCulture/) - uncovering the hidden gems of the synth world
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 - [Yamaha Global](https://www.youtube.com/@yamahaglobal) - official Yamaha Corporation YouTube channel
+- [Yamaha Music Europe](https://www.youtube.com/@YamahaMusicEurope) - official YouTube Channel of Yamaha Music Europe
 
 ## Music Production Software & Plugin Deals
 - [Audio Plugin Guy](https://www.audiopluginguy.com/deals/)
