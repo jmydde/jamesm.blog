@@ -2,23 +2,31 @@
 title: "List of Music Production Courses, Reviews & YouTube Channels"
 date: 2023-12-21T08:48:21+01:00
 draft: false
-tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music theory', 'logic pro', 'ableton']
+tags: ['ableton', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'steinberg', 'training', 'youtube']
 ---
 
 ### Music Production Websites
-- [Ask Video](https://ask.video/) - Ableton, Cubase, Logic Pro, Native Instruments ...
+- [Ask.Video](https://ask.video/) - Ableton, Cubase, Logic Pro, Native Instruments ...
 - [Born to Produce](https://www.borntoproduce.com/)
+- [Coursera](https://www.coursera.org/)
 - [Groove3](https://www.groove3.com/) - Ableton, BitWig Studio, Cubase, FL Studio, Logic Pro, Maschine ...
-- [macProVideo](https://www.macprovideo.com/)
+- [London Academy of Music Production](https://www.londonamp.com/)
+- [MacProVideo](https://www.macprovideo.com/)
 - [Point Blank Music School](https://www.pointblankmusicschool.com/)
+- [Producertech](https://www.producertech.com/)
+- [Skillshare](https://www.skillshare.com/)
+- [Sonic Academy](https://www.sonicacademy.com/)
 - [Steinberg](https://www.steinberg.net/education/certified-training/)
+- [Udemy](https://www.udemy.com/)
 
 ## Music Production Courses
 
 ### Ableton
 - [Ableton Certified Training](https://www.ableton.com/en/certified-training/)
+- [Ask.Video](https://www.ask.video/library/application/Ableton)
 - [Coursera](https://www.coursera.org/courses?query=ableton)
 - [Groove3](https://www.groove3.com/browse/daw/ableton-live)
+- [London Academy of Music Production](https://www.londonamp.com/courses/ableton-live-music-software-course/)
 - [MacProVideo](https://macprovideo.com/library/application/Ableton)
 - [Point Blank Music School](https://www.pointblankmusicschool.com/courses/online/music-production-courses/ableton-live-in-depth/)
 - [Producertech](https://www.producertech.com/software-courses/ableton-live/)
@@ -26,6 +34,13 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 - [Udemy](https://www.udemy.com/)
   - [Tomas George](https://www.udemy.com/user/tomas-george/) - music producer, composer & audio engineer
     - [Ableton Live 11 - Music Production in Ableton Live](https://www.udemy.com/course/ableton-live-11-course/) - learn music production, recording, editing, music mixing, songwriting & music theory
+
+### Cubase
+- [Ask.Video](https://ask.video/library/application/cubase)
+- [Groove3](https://www.groove3.com/browse/daw/cubase)
+- [London Academy of Music Production](https://www.londonamp.com/courses/steinberg-cubase-music-software-course/)
+- [Sonic Academy](https://www.sonicacademy.com/courses/software/cubase)
+- [Steinberg](https://www.steinberg.net/cubase/learn/)
 
 ### Logic Pro
 - [Udemy](https://www.udemy.com/)
