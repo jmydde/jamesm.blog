@@ -2,7 +2,7 @@
 title: "List of Music Production Courses & YouTube Channels"
 date: 2023-12-21T08:48:21+01:00
 draft: false
-tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'serum', 'steinberg', 'training', 'youtube']
+tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
 ---
 
 ### Music Production Websites
@@ -65,6 +65,13 @@ tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'l
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation)
   - [Music Theory](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj)
 - [Musicians Inspired](https://www.youtube.com/@musiciansinspired/)
+- [Pianote](https://www.pianote.com/)
+  - [Arpeggios & Riffs](https://www.youtube.com/playlist?list=PLfM8ivjJ-rKXPgFosJSYE_AwHsLpvBRSk)
+  - [Beginner Piano Lessons](https://www.youtube.com/playlist?list=PLfM8ivjJ-rKXL-qnJ3UPEjOHfOtLRjlIH)
+  - [How To Read Music](https://www.youtube.com/playlist?list=PLfM8ivjJ-rKVL1WDIpzaKfA7oMLKoJ5_3)
+  - [Learn Beautiful Piano Music](https://www.youtube.com/playlist?list=PLfM8ivjJ-rKW6YDSgcNOGt3pjtkwHBAAb)
+  - [Music Theory](https://www.youtube.com/playlist?list=PLfM8ivjJ-rKUvRNtoZa8aZg66xwGgw5JS)
+  - [Scales](https://www.youtube.com/playlist?list=PL887D3B7B4E4E361A)
 - [Rick Beato](https://www.youtube.com/@RickBeato/)
   - [Ear Training](https://www.youtube.com/playlist?list=PLW0NGgv1qnfxsk2YLffbimD1jF43pVCJD)
   - [Ear Training Complete](https://www.youtube.com/playlist?list=PLW0NGgv1qnfyiH7i5ZOowzmmwoMPMqCYp)
