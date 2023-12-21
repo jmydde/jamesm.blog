@@ -2,7 +2,7 @@
 title: "My Music Production Hardware & Software"
 date: 2023-12-20T23:32:02+01:00
 draft: false
-tags: ['ableton', 'air', 'arturia', 'behringer', 'casio', 'jvc', 'korg', 'synths', 'keyboards', 'roland', 'yamaha', 'native instruments', 'steinberg', 'uhe', 'uvi', 'spectrasonics', 'spitfire audio', 'moog']
+tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'eventide', 'heavyocity', 'image line', 'izotope', 'jvc', 'keyboards', 'korg', 'lennar digital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'uhe', 'uvi', 'yamaha']
 ---
 
 ## My Music Production Hardware
