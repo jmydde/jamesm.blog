@@ -77,9 +77,40 @@ draft: false
 - [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/)
 - Matt Johnson
 
-# My Favourite Composers
+# My Favourite Composers & Film Scores
+- [Alan Menken](https://en.wikipedia.org/wiki/Alan_Menken)
+  - Disney
+    - Aladdin
+    - Beauty and the Beast
+    - Pocahontas
+    - Tangled
+    - The Little Mermaid
+    - ...
 - [Hans Zimmer](https://en.wikipedia.org/wiki/Hans_Zimmer)
-- John Williams
+  - Gladiator
+  - Inception
+  - Interstellar
+  - The Dark Knight
+  - The Last Samurai
+  - The Lion King
+  - ...
+- [James Horner](https://en.wikipedia.org/wiki/James_Horner)
+  - Aliens
+  - Apocalypto
+  - Apollo 13
+  - Titanic
+  - ...
+- [John Williams](https://en.wikipedia.org/wiki/John_Williams)
+  - A.I. Artificial Intelligence
+  - Catch Me If You Can
+  - E.T. The Extra Terrestrial
+  - Harry Potter
+  - Home Alone
+  - Jurassic Park
+  - Saving Private Ryan
+  - Schindler's List
+  - Superman
+  - ...
 
 # My Favourite Concerts
 - Erasure
