@@ -149,7 +149,11 @@ tags: ['ableton', 'air', 'arturia', 'behringer', 'casio', 'jvc', 'korg', 'synths
 - [Sylenth1](https://www.lennardigital.com/sylenth1/)
 
 ### Modartt
-- [Pianoteq](https://www.modartt.com/pianoteq_overview)
+All instruments are physically modelled and simulate the playability and complex behaviour of real acoustic instruments
+- [Pianoteq 8 Stage](https://www.modartt.com/pianoteq_overview)
+  - Instrument Packs
+    - [Steinway Model D](https://www.modartt.com/modeld)
+    - [Petrof AP275 + P284](https://www.modartt.com/petrof)
 
 ### Native Instruments
 - [Native Instruments Komplete 14 Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
@@ -480,6 +484,8 @@ tags: ['ableton', 'air', 'arturia', 'behringer', 'casio', 'jvc', 'korg', 'synths
   - [TotalBundle](https://d16.pl/totalbundle)
 - [GForce Software](https://www.gforcesoftware.com/)
   - [M-Tron Pro - Complete](https://www.gforcesoftware.com/products/m-tron-pro-complete/)
+- [Modartt](https://www.modartt.com/)
+  - [Steinway Model B](https://www.modartt.com/modelb)
 - [Pulse Audio](https://pulse.audio/)
   - [Vivid Strings](https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/)
 - [reFX](https://refx.com/)
