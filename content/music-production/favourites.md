@@ -89,9 +89,10 @@ draft: false
 - Jean-Michel Jarre
 - [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/)
 - Matt Johnson
+- [Robby Sharp](https://www.youtube.com/@RobbySharp)
 - Stevie Wonder
 
-# My Favourite Composers & Film Scores
+# My Favourite Composers
 - [Alan Menken](https://en.wikipedia.org/wiki/Alan_Menken)
   - Disney
     - Aladdin
@@ -100,6 +101,12 @@ draft: false
     - Tangled
     - The Little Mermaid
     - ...
+- Andrew Lloyd Webber
+  - Cats
+  - Jesus Christ Superstar
+  - Joseph and the Amazing Technicolor Dreamcoat
+  - The Phantom of the Opera
+  - ...
 - [Hans Zimmer](https://en.wikipedia.org/wiki/Hans_Zimmer)
   - Gladiator
   - Inception
