@@ -2,7 +2,7 @@
 title: "List of Music Production Courses, Reviews & YouTube Channels"
 date: 2023-12-21T08:48:21+01:00
 draft: false
-tags: ['ableton', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'steinberg', 'training', 'youtube']
+tags: ['ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'steinberg', 'training', 'youtube']
 ---
 
 ### Music Production Websites
@@ -47,6 +47,13 @@ tags: ['ableton', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'mus
   - [Tomas George](https://www.udemy.com/user/tomas-george/) - music producer, composer & audio engineer
     - [Music Production in Logic Pro X - The Beginners Guide!](https://www.udemy.com/course/logicproxintro/) - learn the basics of setting up, creating music & music production in Logic Pro X
     - [Music Production in Logic Pro X - The Complete Course!](https://www.udemy.com/course/thecompletelogicprox/) - creating, recording, mixing music & mastering in Logic Pro X
+
+### Maschine
+- [ADSR](https://www.adsrsounds.com/csoftware/maschine/)
+- [Ask.Video](https://ask.video/library/application/maschine)
+- [MacProVideo](https://www.macprovideo.com/library/application/maschine)
+- [Maschine Tutorials](https://maschinetutorials.com/maschine-tutorial-courses/)
+- [Producertech](https://www.producertech.com/software-courses/maschine/)
 
 ### Masterclass
 - [Armin van Buuren Teaches Dance Music](https://www.masterclass.com/classes/armin-van-buuren-teaches-dance-music)
