@@ -1,6 +1,6 @@
 ---
 title: "List of Music Production Courses, Reviews & YouTube Channels"
-date: 2023-12-20T13:30:21+01:00
+date: 2023-12-21T08:48:21+01:00
 draft: false
 tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music theory', 'logic pro', 'ableton']
 ---
@@ -16,6 +16,13 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 ## Music Production Courses
 
 ### Ableton
+- [Ableton Certified Training](https://www.ableton.com/en/certified-training/)
+- [Coursera](https://www.coursera.org/courses?query=ableton)
+- [Groove3](https://www.groove3.com/browse/daw/ableton-live)
+- [MacProVideo](https://macprovideo.com/library/application/Ableton)
+- [Point Blank Music School](https://www.pointblankmusicschool.com/courses/online/music-production-courses/ableton-live-in-depth/)
+- [Producertech](https://www.producertech.com/software-courses/ableton-live/)
+- [Skillshare](https://www.skillshare.com/en/browse/ableton-live)
 - [Udemy](https://www.udemy.com/)
   - [Tomas George](https://www.udemy.com/user/tomas-george/) - music producer, composer & audio engineer
     - [Ableton Live 11 - Music Production in Ableton Live](https://www.udemy.com/course/ableton-live-11-course/) - learn music production, recording, editing, music mixing, songwriting & music theory
@@ -25,6 +32,11 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
   - [Tomas George](https://www.udemy.com/user/tomas-george/) - music producer, composer & audio engineer
     - [Music Production in Logic Pro X - The Beginners Guide!](https://www.udemy.com/course/logicproxintro/) - learn the basics of setting up, creating music & music production in Logic Pro X
     - [Music Production in Logic Pro X - The Complete Course!](https://www.udemy.com/course/thecompletelogicprox/) - creating, recording, mixing music & mastering in Logic Pro X
+
+### Masterclass
+- [Armin van Buuren Teaches Dance Music](https://www.masterclass.com/classes/armin-van-buuren-teaches-dance-music)
+- [deadmau5 Teaches Electronic Music Production](https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production)
+- [Timbaland Teaches Producing and Beatmaking](https://www.masterclass.com/classes/timbaland-teaches-producing-and-beatmaking)
 
 ### Music Theory
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation)
@@ -56,7 +68,7 @@ tags: ['training', 'courses', 'music production', 'youtube', 'piano', 'music the
 - [Pianote](https://www.pianote.com/) - online piano lessons for all skill levels
 - [Skoove](https://www.skoove.com/) - complete online piano learning method
 
-## YouTube Channels
+## Music Production YouTube Channels
 Below is a list of my favourite music production YouTube channels
 - [Accurate Beats](https://www.youtube.com/@AccurateBeats/) - music production, music gear and beatmaking
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
@@ -100,5 +112,5 @@ Below is a list of my favourite music production YouTube channels
 - [Vulture Culture](https://www.youtube.com/@VultureCulture/) - uncovering the hidden gems of the synth world
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 
-## Music Software & Plugin Deals
+## Music Production Software & Plugin Deals
 - [Audio Plugin Guy](https://www.audiopluginguy.com/deals/)
