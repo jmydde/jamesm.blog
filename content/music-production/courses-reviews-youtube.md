@@ -2,7 +2,7 @@
 title: "List of Music Production Courses & YouTube Channels"
 date: 2023-12-21T08:48:21+01:00
 draft: false
-tags: ['ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'serum', 'steinberg', 'training', 'youtube']
+tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'serum', 'steinberg', 'training', 'youtube']
 ---
 
 ### Music Production Websites
@@ -100,6 +100,7 @@ Below is a list of my favourite music production YouTube channels
 - [Accurate Beats](https://www.youtube.com/@AccurateBeats/) - music production, music gear and beatmaking
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
+- [Applied Acoustics Systems (AAS)](https://www.youtube.com/@AASphysicalmodeling/) - official YouTube Channel of Applied Acoustics Systems. Physical Modeling since 1998.
 - [Arturia](https://www.youtube.com/@ArturiaOfficial/) - Arturia official YouTube channel
 - [BBC Maestro](https://www.youtube.com/@BBCMaestro/) - inspirational online courses taught by the most experienced creators
 - [BoBeats](https://www.youtube.com/@BoBeats/) - videos about synthesizers and music production gear

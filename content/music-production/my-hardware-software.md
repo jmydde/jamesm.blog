@@ -2,7 +2,7 @@
 title: "My Music Production Hardware & Software"
 date: 2023-12-20T23:32:02+01:00
 draft: false
-tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
+tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
 
 ## My Music Production Hardware
@@ -494,6 +494,8 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [Odyssey](https://www.behringer.com/product.html?modelCode=P0BNY)
   - [Poly D](https://www.behringer.com/product.html?modelCode=P0D9J)
   - [UB-Xa](https://www.gearnews.com/behringer-ub-xa/)
+- [Expressive E](https://www.expressivee.com/)
+  - [osmose](https://www.expressivee.com/2-osmose)
 - [Ketron](https://ketronmusic.co.uk/)
   - [EVENT](https://ketronmusic.co.uk/products/Ketron/arranger_keyboards/EVENT.html)
 - [Native Instruments](https://www.native-instruments.com)
@@ -518,6 +520,11 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [Genos2](https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html)
 
 ### Music Production Software Wishlist
+- [Applied Acoustics Systems (AAS)](https://www.applied-acoustics.com/)
+  - [Lounge Lizard EP-4](https://www.applied-acoustics.com/lounge-lizard-ep-4/)
+  - [String Studio VS-3](https://www.applied-acoustics.com/string-studio-vs-3/)
+  - [Strum GS-2](https://www.applied-acoustics.com/strum-gs-2/)
+  - [Ultra Analog VA‑3](https://www.applied-acoustics.com/ultra-analog-va-3/)
 - [D16 Group](https://d16.pl/)
   - [Phoscyon2](https://d16.pl/phoscyon2)
   - [Punchbox](https://d16.pl/punchbox)
