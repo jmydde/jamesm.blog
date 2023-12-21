@@ -137,11 +137,18 @@ Image-Line Software is a Belgian software company best known for its digital aud
 - [FL Studio (Fruity Edition)](https://www.image-line.com/fl-studio/)
 
 ### iOS
+- [Ableton Note](https://apps.apple.com/gb/app/ableton-note/id1633243177)
 - [AudioKit Pro](https://apps.apple.com/us/developer/audiokit-pro/id1307785645) 
+  - [AudioKit Synth One Synthesizer](https://apps.apple.com/us/app/audiokit-synth-one-synthesizer/id1371050497)
   - [Jam with Jordan](https://apps.apple.com/us/app/jam-with-jordan/id1524167609)
   - [King of Digital | Hybrid Synth](https://apps.apple.com/us/app/king-of-digital-hybrid-synth/id6467825289)
   - [King of FM: DX Synth/E Piano](https://apps.apple.com/us/app/king-of-fm-dx-synth-e-piano/id1672644102)
+  - [LE05: Digitalism 2000 + AUv3](https://apps.apple.com/us/app/le05-digitalism-2000-auv3/id1547016343)
   - [SAGA Synth | 16-Bit Super Fun!](https://apps.apple.com/us/app/saga-synth-16-bit-super-fun/id1658167569)
+- [KORG](https://apps.apple.com/us/developer/korg-inc/id363714046)
+  - [KORG Gadget 2](https://apps.apple.com/us/app/korg-gadget-2/id791077159)
+  - [KORG Module](https://apps.apple.com/us/app/korg-module/id1048875111)
+- [SynthMaster One](https://apps.apple.com/us/app/synthmaster-one/id1254353266)
 
 ### iZotope
 iZotope Inc. is an audio technology company based in the United States who develop professional audio software for audio recording, mixing, broadcast, sound design, and mastering which can be used in wide range of digital audio workstation programs
