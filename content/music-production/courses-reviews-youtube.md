@@ -2,7 +2,7 @@
 title: "List of Music Production Courses, Reviews & YouTube Channels"
 date: 2023-12-21T08:48:21+01:00
 draft: false
-tags: ['ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'steinberg', 'training', 'youtube']
+tags: ['ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'serum', 'steinberg', 'training', 'youtube']
 ---
 
 ### Music Production Websites
@@ -23,6 +23,7 @@ tags: ['ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pr
 
 ### Ableton
 - [Ableton Certified Training](https://www.ableton.com/en/certified-training/)
+- [ADSR](https://www.adsrsounds.com/category/ableton-live-tutorials/)
 - [Ask.Video](https://www.ask.video/library/application/Ableton)
 - [Coursera](https://www.coursera.org/courses?query=ableton)
 - [Groove3](https://www.groove3.com/browse/daw/ableton-live)
@@ -89,6 +90,10 @@ tags: ['ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pr
 - [Piano University](https://www.bestpianoclass.com/dashboard/the-best-piano-theory-course-for-beginners/piano-superhuman-overview/) - become a piano superhuman
 - [Pianote](https://www.pianote.com/) - online piano lessons for all skill levels
 - [Skoove](https://www.skoove.com/) - complete online piano learning method
+
+### Serum
+- [ADSR](https://www.adsrsounds.com/category/serum-tutorials/)
+- [Producertech](https://www.producertech.com/new-releases/165/serum-sound-design-masterclass)
 
 ## Music Production YouTube Channels
 Below is a list of my favourite music production YouTube channels
