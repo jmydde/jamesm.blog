@@ -12,24 +12,30 @@ draft: false
 - Barry Manilow
 - Bronski Beat
 - [Calvin Harris](https://www.youtube.com/channel/UCIjYyZxkFucP_W-tmXg_9Ow)
+- Cappella
 - Carpenters
 - Christopher Cross
 - Coldplay
 - Craig David
 - Curiosity Killed The Cat
 - D:Ream
-- Dadi Freyr
+- Daði Freyr
 - Deacon Blue
 - Dead Or Alive
 - [DJ Fresh](https://www.youtube.com/channel/UC0y8P5OjTKLTpnDt62WJzCA)
 - Eagles
+- Enimga
+- Enya
 - Erasure
 - Fleetwood Mac
+- Glenn Main
 - Gloria Estefan
 - Howard Jones
 - Hyper Go Go
 - Jean-Michel Jarre
 - [Jeremy Ellis](https://www.youtube.com/@jeremyellismusic)
+- Jimmy Somerville
+- JLS
 - Josh Groban
 - Kool & The Gang
 - Kylie Minogue
@@ -39,17 +45,24 @@ draft: false
 - Maria Carey
 - Matt Johnson
 - [Mezerg](https://www.youtube.com/channel/UCUaQxmkh81tJAWrreHe3CJg)
+- Michael Bolton
 - Michael Jackson
 - [Paul Hardcastle](https://paulhardcastle.com/)
 - Pet Shop Boys
+- Purple Disco Machine
 - Rozalla
 - Shades of Rhythm
+- Spandau Ballet
+- Stevie Wonder
+- Sunglasses Kid
+- Take That
 - [Technotronic](https://www.youtube.com/@TechnotronicVEVO)
 - The Beach Boys
 - The Communards
 - The Cure
 - The Piano Guys
 - Tony Mortimer
+- Westlife
 - Years & Years
 - Youngr
 
@@ -76,6 +89,7 @@ draft: false
 - Jean-Michel Jarre
 - [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/)
 - Matt Johnson
+- Stevie Wonder
 
 # My Favourite Composers & Film Scores
 - [Alan Menken](https://en.wikipedia.org/wiki/Alan_Menken)
