@@ -504,6 +504,8 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [TotalBundle](https://d16.pl/totalbundle)
 - [GForce Software](https://www.gforcesoftware.com/)
   - [M-Tron Pro - Complete](https://www.gforcesoftware.com/products/m-tron-pro-complete/)
+- [Gospel Musicians](https://gospelmusicians.com/)
+  - [TGX-85](https://gospelmusicians.com/products/tgx85) (Yamaha SY85 Virtual Instrument)
 - [Modartt](https://www.modartt.com/)
   - [Steinway Model B](https://www.modartt.com/modelb)
 - [Pulse Audio](https://pulse.audio/)

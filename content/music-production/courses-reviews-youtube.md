@@ -67,6 +67,7 @@ Below is a list of my favourite music production YouTube channels
 - [Creative Sauce](https://www.youtube.com/@CreativeSauce/) - helps you on your home recording journey
 - [Doctor Mix](https://www.youtube.com/@Doctormix/) - music production hardware & software reviews, also offers mixing & mastering service
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
+- [Gospel Musicians](https://www.youtube.com/@GospelMusicians/) - a plethora of instructional videos, software and resources for musicians
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
