@@ -96,7 +96,7 @@ draft: false
 - [Thiago Pinheiro](https://www.youtube.com/@AASphysicalmodeling/)
 
 # My Favourite Composers
-- [Alan Menken](https://en.wikipedia.org/wiki/Alan_Menken)
+- [Alan Menken](https://www.alanmenken.com/)
   - Disney
     - Aladdin
     - Beauty and the Beast
@@ -104,13 +104,13 @@ draft: false
     - Tangled
     - The Little Mermaid
     - ...
-- Andrew Lloyd Webber
+- [Andrew Lloyd Webber](https://www.andrewlloydwebber.com/)
   - Cats
   - Jesus Christ Superstar
   - Joseph and the Amazing Technicolor Dreamcoat
   - The Phantom of the Opera
   - ...
-- [Hans Zimmer](https://en.wikipedia.org/wiki/Hans_Zimmer)
+- [Hans Zimmer](https://hans-zimmer.com/)
   - Gladiator
   - Inception
   - Interstellar
@@ -124,7 +124,7 @@ draft: false
   - Apollo 13
   - Titanic
   - ...
-- [John Williams](https://en.wikipedia.org/wiki/John_Williams)
+- [John Williams](https://www.johnwilliams.org/)
   - A.I. Artificial Intelligence
   - Catch Me If You Can
   - E.T. The Extra Terrestrial
@@ -134,6 +134,11 @@ draft: false
   - Saving Private Ryan
   - Schindler's List
   - Superman
+  - ...
+- [Tom Salta](https://www.tomsalta.com/)
+  - Halo
+  - Prince of Persia
+  - Tom Clancy franchise
   - ...
 
 # My Favourite Concerts

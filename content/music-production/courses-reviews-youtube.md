@@ -145,6 +145,7 @@ Below is a list of my favourite music production YouTube channels
 - [Spectrasonics](https://www.youtube.com/@SpectrasonicsVIDEO/) - official Spectrasonics videos for Omnisphere & Keyscape
 - [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
 - [Sweetwater](https://www.youtube.com/@sweetwater/) - giving music makers the ultimate shopping experience
+- [Tom Salta](https://www.youtube.com/@TomSalta/) - Salta is a BAFTA-nominated, ASCAP award-winning composer, and one of the most versatile and prolific music artists/producers working in film, television, advertising, and video games
 - [True Cuckoo](https://www.youtube.com/@truecuckoo/) - taking synths, bleeps, dance and pop to the stage.
 - [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
 - [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
