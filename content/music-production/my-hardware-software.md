@@ -8,30 +8,30 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 ## My Music Production Hardware
 
 ### Current
-- Audio Interfaces
+- **Audio Interfaces**
   - [Native Instruments Audio 6 MK1](https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/)
-- Controller Keyboards
+- **Controller Keyboards**
   - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
   - [Novation LaunchKey 61](https://novationmusic.com/en/keys/launchkey/)
-- DJ Controllers
+- **DJ Controllers**
   - [Native Instruments Traktor Kontrol S3](https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/)
-- Drum Machines & Grooveboxes
+- **Drum Machines & Grooveboxes**
   - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
-- Portable Keyboards
+- **Portable Keyboards**
   - [Yamaha EZ-300](https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html)
-- Synthesizers
+- **Synthesizers**
   - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
 ### Past
-- Drum Machines
+- **Drum Machines**
   - [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
   - [Roland R-8 Human Rhythm Composer](https://www.vintagesynth.com/roland/r8.php)
-- Keyboards
+- **Keyboards**
   - [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/)
   - [JVC KB-700](https://jvckeyboards.tripod.com/kb700.html)
-- Sound Modules
+- **Sound Modules**
   - [Roland Edirol SD90](https://www.soundonsound.com/reviews/edirol-sd90)
-- Synthesizers
+- **Synthesizers**
   - [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php)
   - [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
 
@@ -67,7 +67,7 @@ Arturia is a French electronics company who design and manufacture audio interfa
     - 2 new instruments: CP-70 & Augmented Woodwinds
     - 2 added instruments: Mini Freak V & Acid V
     - 2 additional augmented series: Augmented Grand Piano & Augmented Brass
-  - Instrument List
+  - **Instrument List**
     - ARP 2600 V
     - Acid V
     - [Analog Lab Pro](https://www.arturia.com/products/software-instruments/analoglab/overview)
@@ -113,7 +113,7 @@ Arturia is a French electronics company who design and manufacture audio interfa
     - Vocoder V
     - Wurli V
     - Wurli V 3
-  - Expansion Packs
+  - **Expansion Packs**
     - Inward Universe
     - Inner City Soul
     - Hyper Rave
@@ -189,7 +189,7 @@ All instruments are physically modelled and simulate the playability and complex
 ### Native Instruments
 Native Instruments is a German company that develops, manufactures, and supplies music software and hardware for music production, sound design, performance, and DJing
 - [Native Instruments Komplete 14 Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/)
-  - Orchestral & Cinematic Instruments
+  - **Orchestral & Cinematic Instruments**
     - Action Strikes
     - Action Strings 2
     - Ashlight
@@ -212,7 +212,7 @@ Native Instruments is a German company that develops, manufactures, and supplies
       - Woodwind Solo
     - The Giant
     - Thrill
-  - Synthesizers
+  - **Synthesizers**
     - Blocks Primes
     - BX_Oberhausen
     - Massive X
@@ -231,7 +231,7 @@ Native Instruments is a German company that develops, manufactures, and supplies
     - Skanner XT
     - Super 8
     - TRK-01
-  - Sampled Instruments
+  - **Sampled Instruments**
     - Analog Dreams
     - 40’S Very Own Keys
     - Alicia's Keys
@@ -278,7 +278,7 @@ Native Instruments is a German company that develops, manufactures, and supplies
       - MM-Bass, MM-Bass Amped
       - Pre-Bass, Pre-Bass Amped
       - Rickenbacker Bass
-  - Drums & Percussion Instruments
+  - **Drums & Percussion Instruments**
     - 40’S Very Own Drums
     - Abbey Road 
       - Vintage Drummer
@@ -295,7 +295,7 @@ Native Instruments is a German company that develops, manufactures, and supplies
     - Polyplex
     - Studio Drummer
     - West Africa
-  - Effects
+  - **Effects**
     - Ozone 10 Standard
     - BX_Console N
     - BX_Limiter True Peak
@@ -319,69 +319,8 @@ Native Instruments is a German company that develops, manufactures, and supplies
     - Crush Pack: Bite, Dirt, Freak
     - Mod Pack: Choral, Flair, Phasis
     - Driver
-  - Expansions
-    - Amplified Funk
-    - Aquarius Earth
-    - Artist Expansion: Sasha
-    - Astral Flutter
-    - Backyard Jams
-    - Basement Era
-    - Beam
-    - Body Mechanik
-    - Bounce
-    - Bump
-    - Bumpin Flava
-    - Byte Riot
-    - Carbon Decay
-    - Caribbean Current
-    - Cavern Floor
-    - Charge
-    - Decoded Forms
-    - Deep Matter
-    - Drive
-    - Drop Squad
-    - Elastic Thump
-    - Fade
-    - Faded Reels
-    - Free Form
-    - Global Shake
-    - Golden Kingdom
-    - Halcyon Sky
-    - Haze
-    - Indigo Dust
-    - Infinite Escape
-    - Kino
-    - Lazer Dice
-    - Lilac Glare
-    - Liquid Energy
-    - London Grit
-    - Lucid Mission
-    - Marble Rims
-    - Mechanix
-    - Moebius
-    - Molten Veil
-    - Mother Board
-    - Neo Boogie
-    - Neon Drive
-    - Nocturnal State
-    - Our House
-    - Platinum Bounce
-    - Prismatic Bliss
-    - Pulse
-    - Pure Drip
-    - Queensbridge Story
-    - Quest
-    - Rhythm Source
-    - Rising Crescent
-    - Rush
-    - Scene
-    - Solar Breeze
-    - Soul Magic
-    - Spectrum Quake
-    - Stadium Flex
-    - True School
-    - Velvet Lounge
-    - Wake
+  - **Expansions**
+    - Amplified Funk, Aquarius Earth, Artist Expansion: Sasha, Astral Flutter, Backyard Jams, Basement Era, Beam, Body Mechanik, Bounce, Bump, Bumpin Flava, Byte Riot, Carbon Decay, Caribbean Current, Cavern Floor, Charge, Decoded Forms, Deep Matter, Drive, Drop Squad, Elastic Thump, Fade, Faded Reels, Free Form, Global Shake, Golden Kingdom, Halcyon Sky, Haze, Indigo Dust, Infinite Escape, Kino, Lazer Dice, Lilac Glare, Liquid Energy, London Grit, Lucid Mission, Marble Rims, Mechanix, Moebius, Molten Veil, Mother Board, Neo Boogie, Neon Drive, Nocturnal State, Our House, Platinum Bounce, Prismatic Bliss, Pulse, Pure Drip, Queensbridge Story, Quest, Rhythm Source, Rising Crescent, Rush, Scene, Solar Breeze, Soul Magic, Spectrum Quake, Stadium Flex, True School, Velvet Lounge, Wake
 
 ### PluginGuru
 Founded by veteran synth programmer and sound designer John Lehmkuhl, PlugInGuru provides inspiring synth patches for all of the most popular synth plug-ins
@@ -472,32 +411,32 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
 ## My Music Production Wishlists
 
 ### Music Production Hardware Wishlist
-- Arranger Keyboards
+- **Arranger Keyboards**
   - [Ketron](https://ketronmusic.co.uk/)
     - [EVENT](https://ketronmusic.co.uk/products/Ketron/arranger_keyboards/EVENT.html)
   - [KORG](https://apps.apple.com/us/developer/korg-inc/id363714046)
     - [Pa5X](https://www.korg.com/uk/products/synthesizers/pa5x/) (Professional Arranger)
   - [Yamaha](https://europe.yamaha.com/en/)
     - [Genos2](https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html)
-- Controller Keyboards
+- **Controller Keyboards**
   - [Arturia](https://www.arturia.com/)
     - [Keylab 88 MkII](https://www.arturia.com/products/hybrid-synths/keylab-88-mkii/overview)
   - [Expressive E](https://www.expressivee.com/)
     - [osmose](https://www.expressivee.com/2-osmose)
   - [Native Instruments](https://www.native-instruments.com)
     - [Komplete Control S88 MK3](https://www.native-instruments.com/en/products/komplete/keyboards/kontrol-s49-s61-s88/)
-- Digital Pianos
+- **Digital Pianos**
   - [Roland](https://www.roland.com/)
     - [GP-9 Digital Piano](https://www.roland.com/global/products/gp-9/)
   - [Yamaha](https://europe.yamaha.com/en/)
     - [AvantGrand N3X](https://uk.yamaha.com/en/products/musical_instruments/pianos/avantgrand/n3x/index.html)
     - [Bösendorfer Grand Piano 214VC](https://www.yamahamusiclondon.com/Grand-Piano-214VC/pidP214VCSP)
-- Drum Machines & Grooveboxes
+- **Drum Machines & Grooveboxes**
   - [Ableton](https://www.ableton.com/en/)
     - [Ableton Push](https://www.ableton.com/en/push/)
   - [Roland](https://www.roland.com/)
     - [MC-707](https://www.roland.com/ca/products/mc-707/)
-- Synthesizers
+- **Synthesizers**
   - [Arturia](https://www.arturia.com/)
     - [PolyBrute Noir Edition](https://www.arturia.com/products/hardware-synths/polybrute-noir/overview)
   - [Behringer](https://www.behringer.com/)

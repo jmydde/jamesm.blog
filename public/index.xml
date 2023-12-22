@@ -221,33 +221,33 @@
       <content:encoded><![CDATA[<h2 id="my-music-production-hardware">My Music Production Hardware</h2>
 <h3 id="current">Current</h3>
 <ul>
-<li>Audio Interfaces
+<li><strong>Audio Interfaces</strong>
 <ul>
 <li><a href="https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/">Native Instruments Audio 6 MK1</a></li>
 </ul>
 </li>
-<li>Controller Keyboards
+<li><strong>Controller Keyboards</strong>
 <ul>
 <li><a href="https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/">Native Instruments Komplete Kontrol M32</a></li>
 <li><a href="https://novationmusic.com/en/keys/launchkey/">Novation LaunchKey 61</a></li>
 </ul>
 </li>
-<li>DJ Controllers
+<li><strong>DJ Controllers</strong>
 <ul>
 <li><a href="https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/">Native Instruments Traktor Kontrol S3</a></li>
 </ul>
 </li>
-<li>Drum Machines &amp; Grooveboxes
+<li><strong>Drum Machines &amp; Grooveboxes</strong>
 <ul>
 <li><a href="https://www.native-instruments.com/en/products/maschine/production-systems/maschine/">Native Instruments Maschine MK3</a></li>
 </ul>
 </li>
-<li>Portable Keyboards
+<li><strong>Portable Keyboards</strong>
 <ul>
 <li><a href="https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html">Yamaha EZ-300</a></li>
 </ul>
 </li>
-<li>Synthesizers
+<li><strong>Synthesizers</strong>
 <ul>
 <li><a href="https://www.soundonsound.com/reviews/yamaha-motif-es">Yamaha Motif ES8</a></li>
 </ul>
@@ -255,24 +255,24 @@
 </ul>
 <h3 id="past">Past</h3>
 <ul>
-<li>Drum Machines
+<li><strong>Drum Machines</strong>
 <ul>
 <li><a href="https://www.vintagesynth.com/korg/electribe-r-er-1">KORG ElecTribe R (ER-1)</a></li>
 <li><a href="https://www.vintagesynth.com/roland/r8.php">Roland R-8 Human Rhythm Composer</a></li>
 </ul>
 </li>
-<li>Keyboards
+<li><strong>Keyboards</strong>
 <ul>
 <li><a href="https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/">Casio PT-50</a></li>
 <li><a href="https://jvckeyboards.tripod.com/kb700.html">JVC KB-700</a></li>
 </ul>
 </li>
-<li>Sound Modules
+<li><strong>Sound Modules</strong>
 <ul>
 <li><a href="https://www.soundonsound.com/reviews/edirol-sd90">Roland Edirol SD90</a></li>
 </ul>
 </li>
-<li>Synthesizers
+<li><strong>Synthesizers</strong>
 <ul>
 <li><a href="https://www.vintagesynth.com/casio/cz101.php">Casio CZ-101</a></li>
 <li><a href="https://www.vintagesynth.com/yamaha/sy85.php">Yamaha SY85</a></li>
@@ -327,7 +327,7 @@
 <li>2 additional augmented series: Augmented Grand Piano &amp; Augmented Brass</li>
 </ul>
 </li>
-<li>Instrument List
+<li><strong>Instrument List</strong>
 <ul>
 <li>ARP 2600 V</li>
 <li>Acid V</li>
@@ -376,7 +376,7 @@
 <li>Wurli V 3</li>
 </ul>
 </li>
-<li>Expansion Packs
+<li><strong>Expansion Packs</strong>
 <ul>
 <li>Inward Universe</li>
 <li>Inner City Soul</li>
@@ -483,7 +483,7 @@
 <ul>
 <li><a href="https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/">Native Instruments Komplete 14 Ultimate</a>
 <ul>
-<li>Orchestral &amp; Cinematic Instruments
+<li><strong>Orchestral &amp; Cinematic Instruments</strong>
 <ul>
 <li>Action Strikes</li>
 <li>Action Strings 2</li>
@@ -512,7 +512,7 @@
 <li>Thrill</li>
 </ul>
 </li>
-<li>Synthesizers
+<li><strong>Synthesizers</strong>
 <ul>
 <li>Blocks Primes</li>
 <li>BX_Oberhausen</li>
@@ -534,7 +534,7 @@
 <li>TRK-01</li>
 </ul>
 </li>
-<li>Sampled Instruments
+<li><strong>Sampled Instruments</strong>
 <ul>
 <li>Analog Dreams</li>
 <li>40’S Very Own Keys</li>
@@ -587,7 +587,7 @@
 </li>
 </ul>
 </li>
-<li>Drums &amp; Percussion Instruments
+<li><strong>Drums &amp; Percussion Instruments</strong>
 <ul>
 <li>40’S Very Own Drums</li>
 <li>Abbey Road
@@ -610,7 +610,7 @@
 <li>West Africa</li>
 </ul>
 </li>
-<li>Effects
+<li><strong>Effects</strong>
 <ul>
 <li>Ozone 10 Standard</li>
 <li>BX_Console N</li>
@@ -637,70 +637,9 @@
 <li>Driver</li>
 </ul>
 </li>
-<li>Expansions
+<li><strong>Expansions</strong>
 <ul>
-<li>Amplified Funk</li>
-<li>Aquarius Earth</li>
-<li>Artist Expansion: Sasha</li>
-<li>Astral Flutter</li>
-<li>Backyard Jams</li>
-<li>Basement Era</li>
-<li>Beam</li>
-<li>Body Mechanik</li>
-<li>Bounce</li>
-<li>Bump</li>
-<li>Bumpin Flava</li>
-<li>Byte Riot</li>
-<li>Carbon Decay</li>
-<li>Caribbean Current</li>
-<li>Cavern Floor</li>
-<li>Charge</li>
-<li>Decoded Forms</li>
-<li>Deep Matter</li>
-<li>Drive</li>
-<li>Drop Squad</li>
-<li>Elastic Thump</li>
-<li>Fade</li>
-<li>Faded Reels</li>
-<li>Free Form</li>
-<li>Global Shake</li>
-<li>Golden Kingdom</li>
-<li>Halcyon Sky</li>
-<li>Haze</li>
-<li>Indigo Dust</li>
-<li>Infinite Escape</li>
-<li>Kino</li>
-<li>Lazer Dice</li>
-<li>Lilac Glare</li>
-<li>Liquid Energy</li>
-<li>London Grit</li>
-<li>Lucid Mission</li>
-<li>Marble Rims</li>
-<li>Mechanix</li>
-<li>Moebius</li>
-<li>Molten Veil</li>
-<li>Mother Board</li>
-<li>Neo Boogie</li>
-<li>Neon Drive</li>
-<li>Nocturnal State</li>
-<li>Our House</li>
-<li>Platinum Bounce</li>
-<li>Prismatic Bliss</li>
-<li>Pulse</li>
-<li>Pure Drip</li>
-<li>Queensbridge Story</li>
-<li>Quest</li>
-<li>Rhythm Source</li>
-<li>Rising Crescent</li>
-<li>Rush</li>
-<li>Scene</li>
-<li>Solar Breeze</li>
-<li>Soul Magic</li>
-<li>Spectrum Quake</li>
-<li>Stadium Flex</li>
-<li>True School</li>
-<li>Velvet Lounge</li>
-<li>Wake</li>
+<li>Amplified Funk, Aquarius Earth, Artist Expansion: Sasha, Astral Flutter, Backyard Jams, Basement Era, Beam, Body Mechanik, Bounce, Bump, Bumpin Flava, Byte Riot, Carbon Decay, Caribbean Current, Cavern Floor, Charge, Decoded Forms, Deep Matter, Drive, Drop Squad, Elastic Thump, Fade, Faded Reels, Free Form, Global Shake, Golden Kingdom, Halcyon Sky, Haze, Indigo Dust, Infinite Escape, Kino, Lazer Dice, Lilac Glare, Liquid Energy, London Grit, Lucid Mission, Marble Rims, Mechanix, Moebius, Molten Veil, Mother Board, Neo Boogie, Neon Drive, Nocturnal State, Our House, Platinum Bounce, Prismatic Bliss, Pulse, Pure Drip, Queensbridge Story, Quest, Rhythm Source, Rising Crescent, Rush, Scene, Solar Breeze, Soul Magic, Spectrum Quake, Stadium Flex, True School, Velvet Lounge, Wake</li>
 </ul>
 </li>
 </ul>
@@ -845,7 +784,7 @@
 <h2 id="my-music-production-wishlists">My Music Production Wishlists</h2>
 <h3 id="music-production-hardware-wishlist">Music Production Hardware Wishlist</h3>
 <ul>
-<li>Arranger Keyboards
+<li><strong>Arranger Keyboards</strong>
 <ul>
 <li><a href="https://ketronmusic.co.uk/">Ketron</a>
 <ul>
@@ -864,7 +803,7 @@
 </li>
 </ul>
 </li>
-<li>Controller Keyboards
+<li><strong>Controller Keyboards</strong>
 <ul>
 <li><a href="https://www.arturia.com/">Arturia</a>
 <ul>
@@ -883,7 +822,7 @@
 </li>
 </ul>
 </li>
-<li>Digital Pianos
+<li><strong>Digital Pianos</strong>
 <ul>
 <li><a href="https://www.roland.com/">Roland</a>
 <ul>
@@ -898,7 +837,7 @@
 </li>
 </ul>
 </li>
-<li>Drum Machines &amp; Grooveboxes
+<li><strong>Drum Machines &amp; Grooveboxes</strong>
 <ul>
 <li><a href="https://www.ableton.com/en/">Ableton</a>
 <ul>
@@ -912,7 +851,7 @@
 </li>
 </ul>
 </li>
-<li>Synthesizers
+<li><strong>Synthesizers</strong>
 <ul>
 <li><a href="https://www.arturia.com/">Arturia</a>
 <ul>
