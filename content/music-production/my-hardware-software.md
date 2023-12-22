@@ -10,6 +10,21 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 ### Current
 - **Audio Interfaces**
   - [Native Instruments Audio 6 MK1](https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/)
+- **Computers**
+  - Laptops
+    - Alienware M17 (Windows 11)
+    - Macbook Air M1 (macOS Sonama)
+- **Computer Peripherals**
+  - External Hard Disks
+    - Western Digital Elements (5TB)
+  - Flash Drives
+    - Integral USB 3.0 (128GB)
+  - SSDs
+    - Crucial P3 M.2 PCIe Gen3 (1TB)
+    - Fikwot FN501 Pro NVMe (1TB)
+    - Sandisk Extreme Pro Portable SSD (1TB)
+  - SSD Enclosures
+    - Orico M.2 NVMe SATA SSD
 - **Controller Keyboards**
   - [Native Instruments Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/)
   - [Novation LaunchKey 61](https://novationmusic.com/en/keys/launchkey/)
@@ -23,6 +38,10 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
 ### Past
+- **Computers**
+  - [Commodore Amiga](https://en.wikipedia.org/wiki/Amiga) 500, 600, 1500
+- **Computer Peripherals**
+  - Microdeal Pro MIDI Interface
 - **Drum Machines**
   - [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
   - [Roland R-8 Human Rhythm Composer](https://www.vintagesynth.com/roland/r8.php)
