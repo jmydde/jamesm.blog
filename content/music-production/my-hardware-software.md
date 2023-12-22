@@ -231,170 +231,157 @@ Native Instruments is a German company that develops, manufactures, and supplies
     - Skanner XT
     - Super 8
     - TRK-01
-  - SAMPLED INSTRUMENTS
+  - Sampled Instruments
+    - Analog Dreams
     - 40’S Very Own Keys
     - Alicia's Keys
     - Balinese Gamelan
+    - Cloud Supply
+    - Cuba
+    - Deft Lines
     - East Asia
-    - George Duke Soul Treasures
-    - Kontakt 7
-    - Playbox
-    - Session Guitarist
-      - Electric Mint
-      - Picked Nylon
-    - Sequis
-    - Noire
-    - Session Bassist – Prime Bass
-    - Soul Sessions
-    - Scarbee Rickenbacker Bass
-    - Session Guitarist 
-    - Electric Sunburst deluxe
+    - Electric Sunburst Deluxe
     - Electric Vintage
+    - Ethereal Earth
+    - George Duke Soul Treasures
+    - Glaze
+    - Hybrid Keys
+    - Ignition Keys
+    - India
+    - Kontakt 7
+    - LO-FI Glow
+    - Melted Vibes
+    - Modular Icons
+    - Noire
+    - Playbox
+    - Session Guitarist: Electric Mint, Picked Nylon
+    - Sequis
+    - Session Bassist: Prime Bass
+    - Soul Sessions
+    - Session Guitarist 
     - Picked Acoustic
     - Strummed Acoustic
     - Strummed Acoustic 2
-    - SESSION HORNS PRO
-    - SESSION STRINGS PRO 2
-    - The MAVERICK
-    - The GRANDEUR
-    - The GENTLEMAN
-    - SCARBEE A-200
+    - Session Horns Pro
+    - Session Strings Pro 2
+    - The Maverick
+    - The Grandeur
+    - The Gentleman
     - Una Corda
-    - VINTAGE ORGANS
-    - SCARBEE MARK I  
-    - INDIA
-    - Cuba
+    - Vintage Organs
     - Middle East
-    - SCARBEE 
-      - PRE-BASS
-      - PRE-BASS AMPED
-      - CLAVINET/PIANET
-      - MM-BASS
-      - MM-BASS AMPED
-      - JAY-BASS
-    - IGNITION KEYS
-    - Glaze
-    - DEFT LINES
-    - CLOUD SUPPLY
-    - LO-FI GLOW
-    - MODULAR ICONS
-    - ETHEREAL EARTH
-    - MELTED VIBES
-    - HYBRID KEYS
-    - ANALOG DREAMS
-  - DRUMS AND PERCUSSION INSTRUMENTS
-    - BATTERY 4
-    - 40’S VERY OWN DRUMS
-    - POLYPLEX
-    - EMPIRE BREAKS
-    - DRUMLAB
-    - BUTCH VIG DRUMS
-    - DAMAGE
-    - STUDIO DRUMMER
-    - WEST AFRICA
-    - ABBEY ROAD 
-      - VINTAGE DRUMMER
-      - 50S DRUMMER
-      - 60S DRUMMER
-      - 70S DRUMMER
-      - 80S DRUMMER
-      - MODERN DRUMMER
-  - EFFECTS
-    - OZONE 10 STANDARD
-    - BX_CONSOLE N
-    - BX_LIMITER TRUE PEAK
-    - BX_CRISPYTUNER
-    - REPLIKA XT
+    - Scarbee 
+      - A-200
+      - Clavinet/Pianet
+      - Jay-Bass
+      - Mark I  
+      - MM-Bass, MM-Bass Amped
+      - Pre-Bass, Pre-Bass Amped
+      - Rickenbacker Bass
+  - Drums & Percussion Instruments
+    - 40’S Very Own Drums
+    - Abbey Road 
+      - Vintage Drummer
+      - 50s Drummer
+      - 60s Drummer
+      - 70s Drummer
+      - 80s Drummer
+      - Modern Drummer
+    - Battery 4
+    - Butch Vig Drums
+    - Damage
+    - Drumlab
+    - Empire Breaks
+    - Polyplex
+    - Studio Drummer
+    - West Africa
+  - Effects
+    - Ozone 10 Standard
+    - BX_Console N
+    - BX_Limiter True Peak
+    - BX_Crispytuner
+    - Replika XT
     - LO-FI-AF
-    - MOLEKULAR
-    - SUPERCHARGER GT
-    - RAUM
-    - The MOUTH
+    - Molekular
+    - Supercharger GT
+    - Raum
+    - The Mouth
     - The Finger
-    - RC 24
-    - RC 48
-    - TRANSIENT MASTER
-    - ENHANCED EQ
-    - VARI COMP
-    - PASSIVE EQ
-    - SOLID BUS COMP
-    - SOLID DYNAMICS
-    - SOLID EQ
-    - VC 2A
-    - VC 76
-    - VC 160
-    - CRUSH PACK
-      - BITE
-      - DIRT
-      - FREAK
-    - MOD PACK
-      - CHORAL
-      - FLAIR
-      - PHASIS
-    - DRIVER
-  - EXPANSIONS
-    - FREE FORM
-    - LIQUID ENERGY
-    - RHYTHM SOURCE
-    - SOUL MAGIC
-    - BODY MECHANIK
-    - BUMPIN FLAVA
-    - BACKYARD JAMS
-    - MOTHER BOARD
-    - NEO BOOGIE
-    - BASEMENT ERA
-    - CARBON DECAY
-    - AMPLIFIED FUNK
-    - AQUARIUS EARTH
-    - GLOBAL SHAKE
-    - INFINITE ESCAPE
-    - PURE DRIP
-    - DROP SQUAD
-    - FADED REELS
-    - PRISMATIC BLISS
-    - MOLTEN VEIL
-    - PLATINUM BOUNCE
-    - LAZER DICE
-    - MARBLE RIMS
-    - CARIBBEAN CURRENT
-    - ASTRAL FLUTTER
-    - CAVERN FLOOR
-    - GOLDEN KINGDOM
-    - BYTE RIOT
-    - DECODED FORMS
-    - INDIGO DUST
-    - NEON DRIVE
-    - LUCID MISSION
-    - LONDON GRIT
-    - RISING CRESCENT
-    - HALCYON SKY
-    - QUEENSBRIDGE STORY
-    - ELASTIC THUMP
-    - DEEP MATTER
-    - SOLAR BREEZE
-    - LILAC GLARE
-    - TRUE SCHOOL
-    - VELVET LOUNGE
-    - ARTIST EXPANSION: SASHA
-    - NOCTURNAL STATE
-    - STADIUM FLEX
-    - SPECTRUM QUAKE
-    - KINO
-    - Wake
-    - Fade
-    - Charge
+    - RC 24, RC 48
+    - Transient Master
+    - Enhanced EQ
+    - Vari Comp
+    - Passive EQ
+    - Solid Bus Comp
+    - Solid Dynamics
+    - Solid EQ
+    - VC 2A, VC 76, VC 160
+    - Crush Pack: Bite, Dirt, Freak
+    - Mod Pack: Choral, Flair, Phasis
+    - Driver
+  - Expansions
+    - Amplified Funk
+    - Aquarius Earth
+    - Artist Expansion: Sasha
+    - Astral Flutter
+    - Backyard Jams
+    - Basement Era
     - Beam
-    - Bump
-    - Haze
-    - Quest
+    - Body Mechanik
     - Bounce
-    - Rush
-    - Pulse
-    - Scene
-    - Moebius 
-    - MECHANIX
+    - Bump
+    - Bumpin Flava
+    - Byte Riot
+    - Carbon Decay
+    - Caribbean Current
+    - Cavern Floor
+    - Charge
+    - Decoded Forms
+    - Deep Matter
     - Drive
+    - Drop Squad
+    - Elastic Thump
+    - Fade
+    - Faded Reels
+    - Free Form
+    - Global Shake
+    - Golden Kingdom
+    - Halcyon Sky
+    - Haze
+    - Indigo Dust
+    - Infinite Escape
+    - Kino
+    - Lazer Dice
+    - Lilac Glare
+    - Liquid Energy
+    - London Grit
+    - Lucid Mission
+    - Marble Rims
+    - Mechanix
+    - Moebius
+    - Molten Veil
+    - Mother Board
+    - Neo Boogie
+    - Neon Drive
+    - Nocturnal State
     - Our House
+    - Platinum Bounce
+    - Prismatic Bliss
+    - Pulse
+    - Pure Drip
+    - Queensbridge Story
+    - Quest
+    - Rhythm Source
+    - Rising Crescent
+    - Rush
+    - Scene
+    - Solar Breeze
+    - Soul Magic
+    - Spectrum Quake
+    - Stadium Flex
+    - True School
+    - Velvet Lounge
+    - Wake
 
 ### PluginGuru
 Founded by veteran synth programmer and sound designer John Lehmkuhl, PlugInGuru provides inspiring synth patches for all of the most popular synth plug-ins
@@ -547,6 +534,9 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [M-Tron Pro - Complete](https://www.gforcesoftware.com/products/m-tron-pro-complete/)
 - [Gospel Musicians](https://gospelmusicians.com/)
   - [TGX-85](https://gospelmusicians.com/products/tgx85) (Yamaha SY85 Virtual Instrument)
+- [KORG](https://apps.apple.com/us/developer/korg-inc/id363714046)
+  - [Opsix Native](https://www.korg.com/uk/products/software/opsix_native/)
+  - [Wavestate Native](https://www.korg.com/uk/products/software/wavestate_native/)
 - [Modartt](https://www.modartt.com/)
   - [Steinway Model B](https://www.modartt.com/modelb)
 - [Pulse Audio](https://pulse.audio/)
