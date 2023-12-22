@@ -44,9 +44,9 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
     - [Dell](https://www.dell.com/en-uk/) T5400 Twin Quad Core Xeon 3.0Ghz 16GB RAM 
 - **Computer Peripherals**
   - Commodore 64
-    - Music Maker keyboard add-on
+    - [Music Maker keyboard](https://collection.sciencemuseumgroup.org.uk/objects/co8210535/commodore-64-music-maker-keyboard-1984-keyboard)
   - Commodore Amiga
-    - Microdeal Pro MIDI Interface
+    - [Microdeal PRO-MIDI Interface](https://bigbookofamigahardware.com/bboah/product.aspx?id=1540)
 - **Drum Machines**
   - [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
   - [Roland R-8 Human Rhythm Composer](https://www.vintagesynth.com/roland/r8.php)
