@@ -5,9 +5,7 @@ draft: false
 tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
 
-## My Music Production Hardware
-
-### Current
+## My Music Production Hardware (Current)
 - **Audio Interfaces**
   - [Native Instruments Audio 6 MK1](https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/)
 - **Computers**
@@ -37,9 +35,12 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 - **Synthesizers**
   - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
-### Past
+## My Music Production Hardware (Past)
 - **Computers**
-  - [Commodore Amiga](https://en.wikipedia.org/wiki/Amiga) 500, 600, 1500
+  - Desktops
+    - [Commodore Amiga](https://en.wikipedia.org/wiki/Amiga) (500, 600 & 1500)
+  - Tower
+    - [Dell](https://www.dell.com/en-uk/) T5400 Twin Quad Core Xeon 3.0Ghz 16GB RAM 
 - **Computer Peripherals**
   - Microdeal Pro MIDI Interface
 - **Drum Machines**
@@ -54,7 +55,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php)
   - [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php)
 
-## My Music Production Software
+## My Music Production Software (Current)
 
 ### Ableton
 Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push
@@ -426,6 +427,17 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - Dawesome LOVE
 - Universal Audio
   - LA-2A Tube Compressor
+
+## My Music Production Software (Past)
+- Amiga
+  - [OctaMED](https://en.wikipedia.org/wiki/OctaMED)
+  - [Protracker](https://en.wikipedia.org/wiki/Protracker)
+- PC
+  - Cakewalk
+  - Propellerhead Software
+    - Reason
+    - ReBirth RB-338
+  - Steinberg Cubase VST 
 
 ## My Music Production Wishlists
 
