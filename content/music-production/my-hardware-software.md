@@ -433,6 +433,7 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [OctaMED](https://en.wikipedia.org/wiki/OctaMED)
   - [Protracker](https://en.wikipedia.org/wiki/Protracker)
 - PC
+  - [Acid Pro](https://en.wikipedia.org/wiki/Acid_Pro)
   - [Cakewalk](https://www.cakewalk.com/)
   - [Propellerhead Software](https://www.reasonstudios.com/) (Reason Studios)
     - [Reason](https://en.wikipedia.org/wiki/Reason_(software))
