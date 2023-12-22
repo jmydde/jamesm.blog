@@ -433,11 +433,11 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [OctaMED](https://en.wikipedia.org/wiki/OctaMED)
   - [Protracker](https://en.wikipedia.org/wiki/Protracker)
 - PC
-  - Cakewalk
-  - Propellerhead Software
-    - Reason
-    - ReBirth RB-338
-  - Steinberg Cubase VST 
+  - [Cakewalk](https://www.cakewalk.com/)
+  - [Propellerhead Software](https://www.reasonstudios.com/) (Reason Studios)
+    - [Reason](https://en.wikipedia.org/wiki/Reason_(software)
+    - [ReBirth RB-338](https://en.wikipedia.org/wiki/ReBirth_RB-338)
+  - [Steinberg Cubase VST](https://en.wikipedia.org/wiki/Steinberg_Cubase)
 
 ## My Music Production Wishlists
 
