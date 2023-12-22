@@ -38,11 +38,15 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 ## My Music Production Hardware (Past)
 - **Computers**
   - Desktops
+    - [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
     - [Commodore Amiga](https://en.wikipedia.org/wiki/Amiga) (500, 600 & 1500)
   - Tower
     - [Dell](https://www.dell.com/en-uk/) T5400 Twin Quad Core Xeon 3.0Ghz 16GB RAM 
 - **Computer Peripherals**
-  - Microdeal Pro MIDI Interface
+  - Commodore 64
+    - Music Maker keyboard add-on
+  - Commodore Amiga
+    - Microdeal Pro MIDI Interface
 - **Drum Machines**
   - [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1)
   - [Roland R-8 Human Rhythm Composer](https://www.vintagesynth.com/roland/r8.php)
@@ -433,12 +437,17 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [OctaMED](https://en.wikipedia.org/wiki/OctaMED)
   - [Protracker](https://en.wikipedia.org/wiki/Protracker)
 - PC
-  - [Acid Pro](https://en.wikipedia.org/wiki/Acid_Pro)
+  - [ACID Pro](https://en.wikipedia.org/wiki/Acid_Pro)
   - [Cakewalk](https://www.cakewalk.com/)
   - [Propellerhead Software](https://www.reasonstudios.com/) (Reason Studios)
     - [Reason](https://en.wikipedia.org/wiki/Reason_(software))
     - [ReBirth RB-338](https://en.wikipedia.org/wiki/ReBirth_RB-338)
-  - [Steinberg Cubase VST](https://en.wikipedia.org/wiki/Steinberg_Cubase)
+  - [SampleTank](https://www.ikmultimedia.com/products/st4/index.php)
+  - [Steinberg](https://en.wikipedia.org/wiki/Steinberg)
+    - [Cubase VST](https://en.wikipedia.org/wiki/Steinberg_Cubase)
+    - [Wavelab](https://www.steinberg.net/wavelab/)
+  - Music Players
+    - [Winamp](https://en.wikipedia.org/wiki/Winamp)
 
 ## My Music Production Wishlists
 
