@@ -6,13 +6,31 @@
     <description>Recent content in blockchain on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 May 2021 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Dec 2023 13:30:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>List of Web3 Courses</title>
-      <link>https://jamesm.blog/web3/courses/</link>
+      <title>Blockchain Links</title>
+      <link>https://jamesm.blog/blockchain/links/</link>
+      <pubDate>Fri, 01 Dec 2023 13:30:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/blockchain/links/</guid>
+      <description>Blockchain YouTube Channels Andreas Antonopoulos - Andreas is one of the most trusted and entertaining educators in the bitcoin industry Cardano Foundation - Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland Lark Davis - Bitcoin, cryptocurrency, and stock investor Polkadot - Polkadot is the blockspace ecosystem for boundless innovation The Moon - Bitcoin news and Bitcoin price </description>
+      <content:encoded><![CDATA[<h2 id="blockchain-youtube-channels">Blockchain YouTube Channels</h2>
+<ul>
+<li><a href="https://www.youtube.com/@aantonop/">Andreas Antonopoulos</a> - Andreas is one of the most trusted and entertaining educators in the bitcoin industry</li>
+<li><a href="https://www.youtube.com/@CardanoFoundation/">Cardano Foundation</a> - Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland</li>
+<li><a href="https://www.youtube.com/@TheCryptoLark/">Lark Davis</a> - Bitcoin, cryptocurrency, and stock investor</li>
+<li><a href="https://www.youtube.com/@PolkadotNetwork/">Polkadot</a> - Polkadot is the blockspace ecosystem for boundless innovation</li>
+<li><a href="https://www.youtube.com/@TheMoon/">The Moon</a> - Bitcoin news and Bitcoin price</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>List of Blockchain Courses</title>
+      <link>https://jamesm.blog/blockchain/courses/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/web3/courses/</guid>
+      <guid>https://jamesm.blog/blockchain/courses/</guid>
       <description> Blockchain Council Certified Blockchain Developer™ ChainShot CryptoZombies LearnWeb3 LinkedIn Polkadot Blockchain Academy Udemy Blockchain A-Z™: Learn How To Build Your First Blockchain Blockchain and Bitcoin Fundamentals Ethereum Blockchain Developer Bootcamp With Solidity (2023) Web3.career Web3 University Zero to Mastery Web3 Masterclass: Blockchain, DApps, DAOs + More </description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://www.blockchain-council.org/">Blockchain Council</a>
@@ -40,6 +58,20 @@
 </ul>
 </li>
 </ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Blockchain</title>
+      <link>https://jamesm.blog/blockchain/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/blockchain/</guid>
+      <description> </description>
+      <content:encoded><![CDATA[<figure>
+    <img loading="lazy" src="images/decentralized.png"/> 
+</figure>
+
 ]]></content:encoded>
     </item>
     

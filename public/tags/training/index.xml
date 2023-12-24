@@ -779,27 +779,11 @@
     </item>
     
     <item>
-      <title>List of Development Courses</title>
-      <link>https://jamesm.blog/devops/dev-courses/</link>
+      <title>List of Blockchain Courses</title>
+      <link>https://jamesm.blog/blockchain/courses/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       
-      <guid>https://jamesm.blog/devops/dev-courses/</guid>
-      <description>Code With Mosh The Ultimate Django Series The Ultimate React Native Series Ultimate C++ Series </description>
-      <content:encoded><![CDATA[<h2 id="code-with-mosh">Code With Mosh</h2>
-<ul>
-<li>The Ultimate Django Series</li>
-<li>The Ultimate React Native Series</li>
-<li>Ultimate C++ Series</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>List of Web3 Courses</title>
-      <link>https://jamesm.blog/web3/courses/</link>
-      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/web3/courses/</guid>
+      <guid>https://jamesm.blog/blockchain/courses/</guid>
       <description> Blockchain Council Certified Blockchain Developer™ ChainShot CryptoZombies LearnWeb3 LinkedIn Polkadot Blockchain Academy Udemy Blockchain A-Z™: Learn How To Build Your First Blockchain Blockchain and Bitcoin Fundamentals Ethereum Blockchain Developer Bootcamp With Solidity (2023) Web3.career Web3 University Zero to Mastery Web3 Masterclass: Blockchain, DApps, DAOs + More </description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://www.blockchain-council.org/">Blockchain Council</a>
@@ -826,6 +810,22 @@
 <li><a href="https://zerotomastery.io/courses/introduction-to-web3/">Web3 Masterclass: Blockchain, DApps, DAOs + More</a></li>
 </ul>
 </li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>List of Development Courses</title>
+      <link>https://jamesm.blog/devops/dev-courses/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/dev-courses/</guid>
+      <description>Code With Mosh The Ultimate Django Series The Ultimate React Native Series Ultimate C++ Series </description>
+      <content:encoded><![CDATA[<h2 id="code-with-mosh">Code With Mosh</h2>
+<ul>
+<li>The Ultimate Django Series</li>
+<li>The Ultimate React Native Series</li>
+<li>Ultimate C++ Series</li>
 </ul>
 ]]></content:encoded>
     </item>

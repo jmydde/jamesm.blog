@@ -1,8 +1,7 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs", "web3"]
-title = "Web3"
+title = "Blockchain"
 author = "James M"
-tags = ["web3"]
+tags = ["blockchain", "bitcoin", "polkadot", "web3"]
 +++
 {{< figure src="images/decentralized.png" title="" >}}
-(work in progress)

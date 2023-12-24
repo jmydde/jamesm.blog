@@ -36,6 +36,8 @@ languages:
           weight: 10
         - name: AI
           url: /ai
+        - name: Blockchain
+          url: /blockchain
         - name: Data
           url: /data
         - name: DevOps
@@ -44,10 +46,8 @@ languages:
           url: /general
         - name: Music
           url: /music-production
-        - name: Personal Development
+        - name: Personal Dev
           url: /personal-development
-        - name: Web3
-          url: /web3
 
 outputs:
   home:
@@ -67,12 +67,12 @@ params:
   images:                 ["papermod-cover.png"]
   mainSections: 
     - ai
+    - blockchain
     - data
     - devops
     - general
     - music-production
     - personal-development
-    - web3
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
   ShowPostNavLinks:               true
@@ -99,12 +99,12 @@ params:
     Content: |
       Welcome to my blog, the following topics are covered here;
       - [**Artificial Intelligence**](/ai) (automation, chatbots, co-pilots, LLMs, robotics)
+      - [**Blockchain**](/blockchain) (Bitcoin, Blockchain, decentralization, Polkadot)
       - [**Data Engineering**](/data) (Databases, ETL, Data Science, ML)
       - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
       - [**General**](/general) (general topics & news)
       - [**Music Production**](/music-production) (computer hardware & software)
       - [**Personal Development**](/personal-development) (books, courses)
-      - [**Web3**](/web3) (Blockchain, decentralization)
 
   socialIcons:
     - name: twitter

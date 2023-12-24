@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/blockchain/</loc>
+    <lastmod>2023-12-24T13:44:22+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/gavin-wood/</loc>
     <lastmod>2023-12-24T13:44:22+01:00</lastmod>
   </url><url>
@@ -11,19 +14,16 @@
     <loc>https://jamesm.blog/tags/polkadot/</loc>
     <lastmod>2023-12-24T13:44:22+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/web3/polkadot/polkadot-2023-roundup/</loc>
+    <loc>https://jamesm.blog/blockchain/polkadot/polkadot-2023-roundup/</loc>
     <lastmod>2023-12-24T13:44:22+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2023-12-24T13:44:22+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/web3/</loc>
-    <lastmod>2023-12-24T13:44:22+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/ethereum/</loc>
     <lastmod>2023-12-24T13:30:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/web3/gavin-wood/</loc>
+    <loc>https://jamesm.blog/blockchain/gavin-wood/</loc>
     <lastmod>2023-12-24T13:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/kusama/</loc>
@@ -236,13 +236,22 @@
     <loc>https://jamesm.blog/tags/vsts/</loc>
     <lastmod>2023-12-12T09:53:39+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/blockchain/</loc>
+    <lastmod>2023-12-01T13:30:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/blockchain/links/</loc>
+    <lastmod>2023-12-01T13:30:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/web3/</loc>
+    <lastmod>2023-12-01T13:30:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/andreas-antonopoulos/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/bitcoin/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/web3/bitcoin/</loc>
+    <loc>https://jamesm.blog/blockchain/bitcoin/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/conferences/</loc>
@@ -647,7 +656,7 @@
     <loc>https://jamesm.blog/tags/cardano/</loc>
     <lastmod>2021-06-17T09:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/web3/cardono-vs-polkadot/</loc>
+    <loc>https://jamesm.blog/blockchain/cardono-vs-polkadot/</loc>
     <lastmod>2021-06-17T09:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/charles-hoskinson/</loc>
@@ -655,9 +664,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/lex-fridman/</loc>
     <lastmod>2021-06-17T09:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/blockchain/</loc>
-    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/c&#43;&#43;/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
@@ -671,22 +677,19 @@
     <loc>https://jamesm.blog/tags/django/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/blockchain/courses/</loc>
+    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/devops/dev-courses/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/devops-conferences/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/web3/courses/</loc>
-    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/react/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tutorials/</loc>
-    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/web3/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/abinitio/</loc>
