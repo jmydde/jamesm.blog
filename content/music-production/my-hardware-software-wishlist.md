@@ -94,6 +94,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Absolute 6](https://www.steinberg.net/vst-instruments/absolute/)
 - [Synthogy](https://synthogy.com/)
   - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
+  - Ivory III Grand Pianos
 - [Toontrack](https://www.toontrack.com/)
   - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/)
   - [EZkeys 2](https://www.toontrack.com/ezkeys-line/)
