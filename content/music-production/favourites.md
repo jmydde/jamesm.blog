@@ -135,7 +135,7 @@ draft: false
   - Schindler's List
   - Superman
   - ...
-- [Tom Salta](https://www.tomsalta.com/)
+- [Tom Salta](https://www.tomsalta.com/) - ASCAP award-winning and BAFTA-nominated composer Tom Salta is one of the most versatile and prolific music artists/producers working in film, television, advertising, and video games
   - Halo
   - Prince of Persia
   - Tom Clancy franchise
