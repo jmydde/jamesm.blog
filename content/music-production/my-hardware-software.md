@@ -64,6 +64,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 ### Ableton
 Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push
 - [Ableton Live 12 Suite](https://www.ableton.com/en/shop/live/)
+  - Complete studio – 70+ GB of sounds and all devices
   - Audio Effects
     - Align Delay
     - Amp
