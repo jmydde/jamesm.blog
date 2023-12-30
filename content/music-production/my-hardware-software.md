@@ -1,6 +1,6 @@
 ---
 title: "My Music Production Hardware & Software"
-date: 2023-12-20T23:32:02+01:00
+date: 2023-12-30T13:55:02+01:00
 draft: false
 tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -63,7 +63,157 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 
 ### Ableton
 Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push
-- [Ableton Live](https://www.ableton.com/en/shop/live/)
+- [Ableton Live 12 Suite](https://www.ableton.com/en/shop/live/)
+  - Audio Effects
+    - Audio Effect Rack
+    - Auto Filter
+    - Auto Pan
+    - Beat Repeat
+    - Channel EQ
+    - Compressor
+    - Delay
+    - EQ Three
+    - Erosion
+    - Gate
+    - Grain Delay
+    - LFO
+    - Limiter
+    - Looper
+    - Reverb
+    - Saturator
+    - Tuner
+    - Utility
+    - Align Delay
+    - Drum Buss
+    - Dynamic Tube
+    - Envelope Follower
+    - EQ Eight
+    - External Audio Effect
+    - Filter Delay
+    - Glue Compressor
+    - Multi-band Dynamics
+    - Overdrive
+    - Resonators
+    - Shaper
+    - Spectrum
+    - Vinyl Distortion
+    - Vocoder
+    - Play Amp
+    - Play Cabinet
+    - Color Limiter
+    - Play Convolution Reverb
+    - CV Clock In
+    - CV Clock Out
+    - CV Envelope Follower
+    - CV In
+    - CV LFO
+    - CV Shaper
+    - CV Utility
+    - Echo
+    - Gated Delay
+    - Hybrid Reverb
+    - Pedal
+    - Pitch Hack
+    - PitchLoop89
+    - Re-Enveloper
+    - Spectral Blur
+    - Spectral Resonator
+    - Spectral Time
+    - Surround Panner
+    - New in Live 12
+    - Roar (New in Live 12)
+    - Corpus
+  - Packs
+    - Chop and Swing
+    - Drive and Glow
+    - Guitar and Bass
+    - Drum Essentials
+    - Grand Piano
+    - Mood Reel
+    - Skitter and Step
+    - Brass Quartet
+    - Drone Lab
+    - Drum Booth
+    - Glitch and Wash
+    - Inspired by Nature
+    - Latin Percussion
+    - Lost and Found (New in Live 12)
+    - Orchestral Brass
+    - Orchestral Mallets
+    - Orchestral Woodwinds
+    - Performance Pack (New in Live 12)
+    - Punch and Tilt
+    - String Quartet
+    - Upright Piano
+    - Voice Box
+    - Electric Keyboards
+    - Orchestral Strings
+    - Session Drums Club
+    - Session Drums Studio
+    - Synth Essentials
+    - Beat Tools
+    - Build and Drop
+  - Software Instruments
+    - Analog
+    - Bass
+    - Collision
+    - CV Instrument
+    - CV Triggers
+    - Drift
+    - Drum Rack
+    - Drum Synths
+    - Electric
+    - External Instrument
+    - Granulator III
+    - Impulse
+    - Instrument Rack
+    - Operator
+    - Meld (New in Live 12)
+    - Poli
+    - Sampler
+    - Simpler
+    - Tension
+    - Wavetable
+  - MIDI Effects
+    - Arpeggiator
+    - Chord
+    - Expression Control
+    - MIDI Effect Rack
+    - MIDI Monitor
+    - MPE Control
+    - Note Length
+    - Pitch
+    - Random
+    - Scale
+    - Velocity
+    - Envelope MIDI
+    - Note Echo
+    - Shaper MIDI
+    - Rotating Rhythm Generator
+    - Melodic Steps
+    - CC Control (New in Live 12)
+  - MIDI Tools
+    - Arpeggiate
+    - Span
+    - Connect
+    - Ornament
+    - Quantize
+    - Recombine
+    - Strum
+    - Stacks
+    - Rhythm
+    - Seed
+    - Shape
+    - Time Warp
+    - Euclidean Generator
+    - Velocity Shaper
+  - Modulators
+    - Expression Control
+    - LFO
+    - Envelope Follower
+    - Envelope MIDI
+    - Shaper
+    - Shaper MIDI
 
 ### AIR Music Technology
 AIR provides legendary virtual instruments, effects, expansions, sound packs and software subscriptions that bring music production to the next level
