@@ -65,43 +65,18 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push
 - [Ableton Live 12 Suite](https://www.ableton.com/en/shop/live/)
   - Audio Effects
+    - Align Delay
+    - Amp
     - Audio Effect Rack
     - Auto Filter
     - Auto Pan
     - Beat Repeat
+    - Cabinet
     - Channel EQ
-    - Compressor
-    - Delay
-    - EQ Three
-    - Erosion
-    - Gate
-    - Grain Delay
-    - LFO
-    - Limiter
-    - Looper
-    - Reverb
-    - Saturator
-    - Tuner
-    - Utility
-    - Align Delay
-    - Drum Buss
-    - Dynamic Tube
-    - Envelope Follower
-    - EQ Eight
-    - External Audio Effect
-    - Filter Delay
-    - Glue Compressor
-    - Multi-band Dynamics
-    - Overdrive
-    - Resonators
-    - Shaper
-    - Spectrum
-    - Vinyl Distortion
-    - Vocoder
-    - Play Amp
-    - Play Cabinet
     - Color Limiter
-    - Play Convolution Reverb
+    - Compressor
+    - Convolution Reverb
+    - Corpus
     - CV Clock In
     - CV Clock Out
     - CV Envelope Follower
@@ -109,50 +84,74 @@ Ableton AG is a German music software company that produces and distributes the 
     - CV LFO
     - CV Shaper
     - CV Utility
+    - Delay
+    - Drum Buss
+    - Dynamic Tube
     - Echo
+    - Envelope Follower
+    - EQ Eight
+    - EQ Three
+    - Erosion
+    - External Audio Effect
+    - Filter Delay
+    - Gate
     - Gated Delay
+    - Glue Compressor
+    - Grain Delay
     - Hybrid Reverb
+    - LFO
+    - Limiter
+    - Looper
+    - Reverb
+    - Saturator
+    - Tuner
+    - Utility
+    - Multi-band Dynamics
+    - Overdrive
     - Pedal
     - Pitch Hack
     - PitchLoop89
     - Re-Enveloper
+    - Resonators
+    - Roar (New in Live 12)
+    - Shaper
     - Spectral Blur
     - Spectral Resonator
     - Spectral Time
+    - Spectrum
     - Surround Panner
-    - New in Live 12
-    - Roar (New in Live 12)
-    - Corpus
+    - Vinyl Distortion
+    - Vocoder
   - Packs
     - Chop and Swing
-    - Drive and Glow
-    - Guitar and Bass
-    - Drum Essentials
-    - Grand Piano
-    - Mood Reel
-    - Skitter and Step
+    - Beat Tools
+    - Build and Drop
     - Brass Quartet
+    - Drive and Glow
     - Drone Lab
+    - Drum Essentials
     - Drum Booth
+    - Electric Keyboards
     - Glitch and Wash
+    - Grand Piano
+    - Guitar and Bass
     - Inspired by Nature
     - Latin Percussion
     - Lost and Found (New in Live 12)
+    - Mood Reel
     - Orchestral Brass
     - Orchestral Mallets
+    - Orchestral Strings
     - Orchestral Woodwinds
     - Performance Pack (New in Live 12)
     - Punch and Tilt
-    - String Quartet
-    - Upright Piano
-    - Voice Box
-    - Electric Keyboards
-    - Orchestral Strings
     - Session Drums Club
     - Session Drums Studio
+    - Skitter and Step
+    - String Quartet
     - Synth Essentials
-    - Beat Tools
-    - Build and Drop
+    - Upright Piano
+    - Voice Box
   - Software Instruments
     - Analog
     - Bass
@@ -176,42 +175,42 @@ Ableton AG is a German music software company that produces and distributes the 
     - Wavetable
   - MIDI Effects
     - Arpeggiator
+    - CC Control (New in Live 12)
     - Chord
+    - Envelope MIDI
     - Expression Control
+    - Melodic Steps
     - MIDI Effect Rack
     - MIDI Monitor
     - MPE Control
+    - Note Echo
     - Note Length
     - Pitch
     - Random
-    - Scale
-    - Velocity
-    - Envelope MIDI
-    - Note Echo
-    - Shaper MIDI
     - Rotating Rhythm Generator
-    - Melodic Steps
-    - CC Control (New in Live 12)
+    - Scale
+    - Shaper MIDI
+    - Velocity
   - MIDI Tools
     - Arpeggiate
-    - Span
+    - Euclidean Generator
     - Connect
     - Ornament
     - Quantize
     - Recombine
-    - Strum
-    - Stacks
     - Rhythm
     - Seed
     - Shape
+    - Span
+    - Stacks
+    - Strum
     - Time Warp
-    - Euclidean Generator
     - Velocity Shaper
   - Modulators
     - Expression Control
-    - LFO
     - Envelope Follower
     - Envelope MIDI
+    - LFO
     - Shaper
     - Shaper MIDI
 
