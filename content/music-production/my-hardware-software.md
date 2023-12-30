@@ -65,6 +65,27 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push
 - [Ableton Live 12 Suite](https://www.ableton.com/en/shop/live/)
   - Complete studio – 70+ GB of sounds and all devices
+  - Software Instruments
+    - Analog
+    - Bass
+    - Collision
+    - CV Instrument
+    - CV Triggers
+    - Drift
+    - Drum Rack
+    - Drum Synths
+    - Electric
+    - External Instrument
+    - Granulator III
+    - Impulse
+    - Instrument Rack
+    - Operator
+    - Meld (New in Live 12)
+    - Poli
+    - Sampler
+    - Simpler
+    - Tension
+    - Wavetable
   - Audio Effects
     - Align Delay
     - Amp
@@ -153,27 +174,6 @@ Ableton AG is a German music software company that produces and distributes the 
     - Synth Essentials
     - Upright Piano
     - Voice Box
-  - Software Instruments
-    - Analog
-    - Bass
-    - Collision
-    - CV Instrument
-    - CV Triggers
-    - Drift
-    - Drum Rack
-    - Drum Synths
-    - Electric
-    - External Instrument
-    - Granulator III
-    - Impulse
-    - Instrument Rack
-    - Operator
-    - Meld (New in Live 12)
-    - Poli
-    - Sampler
-    - Simpler
-    - Tension
-    - Wavetable
   - MIDI Effects
     - Arpeggiator
     - CC Control (New in Live 12)
