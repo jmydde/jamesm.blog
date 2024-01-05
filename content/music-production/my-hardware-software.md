@@ -1,6 +1,6 @@
 ---
 title: "My Music Production Hardware & Software"
-date: 2023-12-30T13:55:02+01:00
+date: 2024-01-05T20:00:02+01:00
 draft: false
 tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -521,13 +521,13 @@ Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann
 ### UVI
 UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals
 - 8-Bit Synth
-- Augmented Orchestra
-- Austrian Grand
+- [Augmented Orchestra](https://www.uvi.net/en/orchestral/augmented-orchestra.html)
+  - 620 Presets, 485 Layers, 65,800 Samples
 - BeatBox Anthology 2
 - Drum Designer
 - Dual Delay X
 - Emulation II+
-- Falcon 3
+- [Falcon 3](https://www.uvi.net/falcon)
   - Analog Motion
   - Digital Motion
   - Organic Arps
@@ -536,9 +536,15 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - Spectre
 - FM Suite
 - HX-20
-- Key Suite Acoustic
-- Key Suite Digital
-- Key Suite Electric
+- [Key Suite Bundle Edition](https://www.uvi.net/key-suite.html)
+  - [Austrian Grand](https://www.uvi.net/austrian-grand)
+    - 23 Presets and 6,450 Samples
+  - [Key Suite Acoustic](https://www.uvi.net/en/pianos-keyboards/key-suite-acoustic.html)
+    - 20 Instruments, 22,424 Samples, 125 Presets
+  - [Key Suite Digital](https://www.uvi.net/en/pianos-keyboards/key-suite-digital.html)
+    - 10 Instruments, 28,852 Samples, 196 Presets
+  - [Key Suite Electric](https://www.uvi.net/en/pianos-keyboards/key-suite-electric.html)
+    - 63 Instruments, 53,562 Samples, 476 Presets
 - Meteor
 - Noctua	 
 - Percussion Factory
@@ -548,7 +554,9 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
 - Scratch Machine
 - Shade
 - Sparkverb
-- Synth Anthology 3
+- [Synth Anthology 4](https://www.uvi.net/synth-anthology-4)
+- [World Suite 2](https://www.uvi.net/en/music-genres/world-suite-2.html)
+  - 66,460 Samples, 369 Instruments, 10,584 Loops & Phrases
 
 ### Music Theory Tools
 - EVAbeat

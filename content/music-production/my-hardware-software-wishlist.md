@@ -60,6 +60,8 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [String Studio VS-3](https://www.applied-acoustics.com/string-studio-vs-3/)
   - [Strum GS-2](https://www.applied-acoustics.com/strum-gs-2/)
   - [Ultra Analog VA‑3](https://www.applied-acoustics.com/ultra-analog-va-3/)
+- [Bitwig](https://www.bitwig.com/)
+  - [Bitwig Studio](https://www.bitwig.com/overview/)
 - [boz Digital Labs](https://www.bozdigitallabs.com/)
   - [New York L Bundle](https://www.bozdigitallabs.com/product/new-york-l-bundle/)
 - [D16 Group](https://d16.pl/)

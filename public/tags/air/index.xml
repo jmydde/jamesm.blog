@@ -6,11 +6,11 @@
     <description>Recent content in air on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Dec 2023 13:55:02 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/air/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jan 2024 20:00:02 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/air/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Music Production Hardware &amp; Software</title>
       <link>https://jamesm.blog/music-production/my-hardware-software/</link>
-      <pubDate>Sat, 30 Dec 2023 13:55:02 +0100</pubDate>
+      <pubDate>Fri, 05 Jan 2024 20:00:02 +0100</pubDate>
       
       <guid>https://jamesm.blog/music-production/my-hardware-software/</guid>
       <description>My Music Production Hardware (Current) Audio Interfaces Native Instruments Audio 6 MK1 Computers Laptops Alienware M17 (Windows 11) Macbook Air M1 (macOS Sonama) Computer Peripherals External Hard Disks Western Digital Elements (5TB) Flash Drives Integral USB 3.0 (128GB) SSDs Crucial P3 M.2 PCIe Gen3 (1TB) Fikwot FN501 Pro NVMe (1TB) Sandisk Extreme Pro Portable SSD (1TB) SSD Enclosures Orico M.2 NVMe SATA SSD Controller Keyboards Native Instruments Komplete Kontrol M32 Novation LaunchKey 61 DJ Controllers Native Instruments Traktor Kontrol S3 Drum Machines &amp;amp; Grooveboxes Native Instruments Maschine MK3 Portable Keyboards Yamaha EZ-300 Synthesizers Yamaha Motif ES8 My Music Production Hardware (Past) Computers Desktops Commodore 64 Commodore Amiga (500, 600 &amp;amp; 1500) Tower Dell T5400 Twin Quad Core Xeon 3.</description>
@@ -710,13 +710,16 @@
 <p>UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals</p>
 <ul>
 <li>8-Bit Synth</li>
-<li>Augmented Orchestra</li>
-<li>Austrian Grand</li>
+<li><a href="https://www.uvi.net/en/orchestral/augmented-orchestra.html">Augmented Orchestra</a>
+<ul>
+<li>620 Presets, 485 Layers, 65,800 Samples</li>
+</ul>
+</li>
 <li>BeatBox Anthology 2</li>
 <li>Drum Designer</li>
 <li>Dual Delay X</li>
 <li>Emulation II+</li>
-<li>Falcon 3
+<li><a href="https://www.uvi.net/falcon">Falcon 3</a>
 <ul>
 <li>Analog Motion</li>
 <li>Digital Motion</li>
@@ -728,9 +731,30 @@
 </li>
 <li>FM Suite</li>
 <li>HX-20</li>
-<li>Key Suite Acoustic</li>
-<li>Key Suite Digital</li>
-<li>Key Suite Electric</li>
+<li><a href="https://www.uvi.net/key-suite.html">Key Suite Bundle Edition</a>
+<ul>
+<li><a href="https://www.uvi.net/austrian-grand">Austrian Grand</a>
+<ul>
+<li>23 Presets and 6,450 Samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/key-suite-acoustic.html">Key Suite Acoustic</a>
+<ul>
+<li>20 Instruments, 22,424 Samples, 125 Presets</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/key-suite-digital.html">Key Suite Digital</a>
+<ul>
+<li>10 Instruments, 28,852 Samples, 196 Presets</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/key-suite-electric.html">Key Suite Electric</a>
+<ul>
+<li>63 Instruments, 53,562 Samples, 476 Presets</li>
+</ul>
+</li>
+</ul>
+</li>
 <li>Meteor</li>
 <li>Noctua</li>
 <li>Percussion Factory</li>
@@ -740,7 +764,12 @@
 <li>Scratch Machine</li>
 <li>Shade</li>
 <li>Sparkverb</li>
-<li>Synth Anthology 3</li>
+<li><a href="https://www.uvi.net/synth-anthology-4">Synth Anthology 4</a></li>
+<li><a href="https://www.uvi.net/en/music-genres/world-suite-2.html">World Suite 2</a>
+<ul>
+<li>66,460 Samples, 369 Instruments, 10,584 Loops &amp; Phrases</li>
+</ul>
+</li>
 </ul>
 <h3 id="music-theory-tools">Music Theory Tools</h3>
 <ul>
@@ -854,7 +883,7 @@
       <pubDate>Wed, 20 Dec 2023 23:32:02 +0100</pubDate>
       
       <guid>https://jamesm.blog/music-production/my-hardware-software-wishlist/</guid>
-      <description>My Music Production Hardware Wishlist Arranger Keyboards Ketron EVENT KORG Pa5X (Professional Arranger) Yamaha Genos2 Controller Keyboards Arturia Keylab 88 MkII Expressive E osmose Native Instruments Komplete Control S88 MK3 Digital Pianos Roland GP-9 Digital Piano Yamaha AvantGrand N3X Bösendorfer Grand Piano 214VC Drum Machines &amp;amp; Grooveboxes Ableton Ableton Push Roland MC-707 Synthesizers Arturia PolyBrute Noir Edition Behringer Odyssey Poly D UB-Xa KORG Nautilus AT Wavestate Moog Etherwave Theremin Minimoog Model D Subsequent 37 Roland D-05 FANTOM-08 JUNO-X JUPITER-X JUPITER-80 Sequential Prophet X My Music Production Software Wishlist Applied Acoustics Systems (AAS) Lounge Lizard EP-4 String Studio VS-3 Strum GS-2 Ultra Analog VA‑3 boz Digital Labs New York L Bundle D16 Group Phoscyon2 Punchbox TotalBundle GForce Software M-Tron Pro - Complete Gospel Musicians TGX-85 (Yamaha SY85 Virtual Instrument) KORG Opsix Native Wavestate Native Modartt Steinway Model B PlugInGuru Magic Motion Pulse Audio Vivid Strings reFX Nexus Reveal Sound Spire SRM Sounds Max Richter Piano Spectrasonics Keyscape Omnisphere 2 Spitfire Audio BBC Symphony Orchestra Piano Steinberg Absolute 6 Synthogy Ivory II Grand Pianos Ivory III Grand Pianos Toontrack EZdrummer 3 EZkeys 2 u-He Hive Repro </description>
+      <description>My Music Production Hardware Wishlist Arranger Keyboards Ketron EVENT KORG Pa5X (Professional Arranger) Yamaha Genos2 Controller Keyboards Arturia Keylab 88 MkII Expressive E osmose Native Instruments Komplete Control S88 MK3 Digital Pianos Roland GP-9 Digital Piano Yamaha AvantGrand N3X Bösendorfer Grand Piano 214VC Drum Machines &amp;amp; Grooveboxes Ableton Ableton Push Roland MC-707 Synthesizers Arturia PolyBrute Noir Edition Behringer Odyssey Poly D UB-Xa KORG Nautilus AT Wavestate Moog Etherwave Theremin Minimoog Model D Subsequent 37 Roland D-05 FANTOM-08 JUNO-X JUPITER-X JUPITER-80 Sequential Prophet X My Music Production Software Wishlist Applied Acoustics Systems (AAS) Lounge Lizard EP-4 String Studio VS-3 Strum GS-2 Ultra Analog VA‑3 Bitwig Bitwig Studio boz Digital Labs New York L Bundle D16 Group Phoscyon2 Punchbox TotalBundle GForce Software M-Tron Pro - Complete Gospel Musicians TGX-85 (Yamaha SY85 Virtual Instrument) KORG Opsix Native Wavestate Native Modartt Steinway Model B PlugInGuru Magic Motion Pulse Audio Vivid Strings reFX Nexus Reveal Sound Spire SRM Sounds Max Richter Piano Spectrasonics Keyscape Omnisphere 2 Spitfire Audio BBC Symphony Orchestra Piano Steinberg Absolute 6 Synthogy Ivory II Grand Pianos Ivory III Grand Pianos Toontrack EZdrummer 3 EZkeys 2 u-He Hive Repro </description>
       <content:encoded><![CDATA[<h2 id="my-music-production-hardware-wishlist">My Music Production Hardware Wishlist</h2>
 <ul>
 <li><strong>Arranger Keyboards</strong>
@@ -976,6 +1005,11 @@
 <li><a href="https://www.applied-acoustics.com/string-studio-vs-3/">String Studio VS-3</a></li>
 <li><a href="https://www.applied-acoustics.com/strum-gs-2/">Strum GS-2</a></li>
 <li><a href="https://www.applied-acoustics.com/ultra-analog-va-3/">Ultra Analog VA‑3</a></li>
+</ul>
+</li>
+<li><a href="https://www.bitwig.com/">Bitwig</a>
+<ul>
+<li><a href="https://www.bitwig.com/overview/">Bitwig Studio</a></li>
 </ul>
 </li>
 <li><a href="https://www.bozdigitallabs.com/">boz Digital Labs</a>
