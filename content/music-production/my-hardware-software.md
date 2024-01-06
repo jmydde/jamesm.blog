@@ -2,7 +2,7 @@
 title: "My Music Production Hardware & Software"
 date: 2024-01-05T20:00:02+01:00
 draft: false
-tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
+tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
 
 ## My Music Production Hardware (Current)
@@ -521,6 +521,7 @@ Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann
 ### UVI
 UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals
 - [8-Bit Synth](https://www.uvi.net/en/unconventional/8bit-synth.html)
+  - Inspired by the lo-fi hardware sounds of yesteryear
   - 31,402 Samples, 375 Presets, 430 Layers (187 SidMachines and 243 SidStation)
 - [Augmented Orchestra](https://www.uvi.net/en/orchestral/augmented-orchestra.html)
   - 620 Presets, 485 Layers, 65,800 Samples
