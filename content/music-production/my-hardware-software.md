@@ -520,22 +520,30 @@ Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann
 
 ### UVI
 UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals
-- 8-Bit Synth
+- [8-Bit Synth](https://www.uvi.net/en/unconventional/8bit-synth.html)
+  - 31,402 Samples, 375 Presets, 430 Layers (187 SidMachines and 243 SidStation)
 - [Augmented Orchestra](https://www.uvi.net/en/orchestral/augmented-orchestra.html)
   - 620 Presets, 485 Layers, 65,800 Samples
-- BeatBox Anthology 2
-- Drum Designer
-- Dual Delay X
-- Emulation II+
+- [BeatBox Anthology 2](https://www.uvi.net/en/bass-drums-perc/beatbox-anthology-ii.html)
+  - 11,862 Samples, 1,355 Loops, 282 Kits, 161 Patterns
+- [Drum Designer](https://www.uvi.net/en/bass-drums-perc/drum-designer.html)
+  - 5,736 Samples, 2,654 Presets (398 Kits, 545 Kicks, 499 Snares, 405 Claps, 674 Cymbals and 133 Sequences)
+- [Dual Delay X](https://www.uvi.net/en/effects/dual-delay-x.html)
+- [Emulation II+](https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html)
+  - 1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples
 - [Falcon 3](https://www.uvi.net/falcon)
-  - Analog Motion
-  - Digital Motion
-  - Organic Arps
-  - Organic Keys
-  - Organic Pads
-  - Spectre
-- FM Suite
-- HX-20
+  - [Falcon Expansions](https://www.uvi.net/en/falcon-expansions)
+    - [Analog Motion](https://www.uvi.net/en/falcon-expansions/analog-motion.html)
+    - [Digital Motion](https://www.uvi.net/en/falcon-expansions/digital-motion.html)
+    - [Organic Arps](https://www.uvi.net/en/falcon-expansions/organic-arps.html)
+    - [Organic Keys](https://www.uvi.net/en/falcon-expansions/organic-keys.html)
+    - [Organic Pads](https://www.uvi.net/en/falcon-expansions/organic-pads.html)
+- [Spectre](https://www.uvi.net/en/falcon-expansions/spectre.html)
+  - 140 presets
+- [FM Suite](https://www.uvi.net/en/vintage-synth/fm-suite.html)
+  - 1,025 Presets, 103,394 Samples
+- [HX-20](https://www.uvi.net/en/vintage-synth/hx-20.html)
+  - 222 presets, 182 layers, 13,341 samples
 - [Key Suite Bundle Edition](https://www.uvi.net/key-suite.html)
   - [Austrian Grand](https://www.uvi.net/austrian-grand)
     - 23 Presets and 6,450 Samples
@@ -545,16 +553,24 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
     - 10 Instruments, 28,852 Samples, 196 Presets
   - [Key Suite Electric](https://www.uvi.net/en/pianos-keyboards/key-suite-electric.html)
     - 63 Instruments, 53,562 Samples, 476 Presets
-- Meteor
-- Noctua	 
-- Percussion Factory
-- Program 24
-- PX Memories
-- Quadra - Muted and Harmonics
-- Scratch Machine
-- Shade
-- Sparkverb
+- [Meteor](https://www.uvi.net/en/soundfx/meteor.html)
+  - 699 Presets, 3,891 Samples
+- [Noctua](https://www.uvi.net/en/soundware/noctua.html)
+  - 100 presets, 3 layers, 632 samples
+- [Percussion Factory](https://www.uvi.net/en/bass-drums-perc/percussion-factory.html)
+  - 556 presets, 1014 layers, 8560 samples
+- [Program 24](https://www.uvi.net/en/vintage-synth/program-24.html)
+  - 220 Multi Kits, 9 Drum Presets with Kit settings and MIDI files, 9 handcrafted Drum Kits, 201 Drum MIDI files with drag'n drop, 18 Bass Presets, 20 Organ/String Presets, 21 Synth Presets in the 3 Accompaniment sections, 99 Arpeggiator Presets, 9,540 Samples
+- [PX Memories](https://www.uvi.net/en/vintage-synth/px-memories.html)
+  - 353 presets (divided into 16 categories, made from 171 programs), 38,988 samples
+- [Quadra - Muted and Harmonics](https://www.uvi.net/en/unconventional/quadra-muted-and-harmonics.html)
+  - 335 Presets (25 Layer Presets, 150 Arpeggiator Presets), 150 Layers, and 29,043 Samples
+- [Scratch Machine](https://www.uvi.net/en/music-genres/scratch-machine.html)
+  - 6,381 Samples, 4,209 Loops, 108 Presets
+- [Shade](https://www.uvi.net/en/effects/shade.html)
+- [Sparkverb](https://www.uvi.net/en/effects/sparkverb.html)
 - [Synth Anthology 4](https://www.uvi.net/synth-anthology-4)
+  - 38,071 Samples and 4,767 Presets
 - [World Suite 2](https://www.uvi.net/en/music-genres/world-suite-2.html)
   - 66,460 Samples, 369 Instruments, 10,584 Loops & Phrases
 
