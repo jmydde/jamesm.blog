@@ -62,7 +62,7 @@ tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'l
 - [Timbaland Teaches Producing and Beatmaking](https://www.masterclass.com/classes/timbaland-teaches-producing-and-beatmaking)
 
 ### Music Theory
-- [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation)
+- [Guy Michelmore](https://www.youtube.com/@ThinkSpaceEducation) (ThinkSpace Education)
   - [Music Theory](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj)
 - [Musicians Inspired](https://www.youtube.com/@musiciansinspired/)
 - [Pianote](https://www.pianote.com/)
@@ -114,10 +114,19 @@ Below is a list of my favourite music production YouTube channels
 - [Charles Cleyn](https://www.youtube.com/@CharlesCleyn/) - songwriting, music production, and marketing strategies to create and release great music
 - [Creative Sauce](https://www.youtube.com/@CreativeSauce/) - helps you on your home recording journey
 - [Doctor Mix](https://www.youtube.com/@Doctormix/) - music production hardware & software reviews, also offers mixing & mastering service
+  - [All Doctor Mix Reconstructions](https://www.youtube.com/playlist?list=PL3zIryVDCWcUooR1ybCmKbhfBaMjvYYs5)
+  - [All My Moog Videos](https://www.youtube.com/playlist?list=PL3zIryVDCWcUk13R-w9ZxZC07bJgNI7pC)
+  - [All Prophet Videos](https://www.youtube.com/playlist?list=PL3zIryVDCWcWSRe_h-h_Y-5DDPk_F00pz)
+  - [All Roland](https://www.youtube.com/playlist?list=PL3zIryVDCWcXXuunX-sN8GW5pUmPmPkw8)
+  - [All Yamaha Videos](https://www.youtube.com/playlist?list=PL3zIryVDCWcUXKxC18P2Ez67FpBOxeGE7)
+  - [Cubase Videos](https://www.youtube.com/playlist?list=PL3zIryVDCWcXl3rxCau6qFHN2ZcUZBYIq)
+  - [Doctor Mix Tips](https://www.youtube.com/playlist?list=PL3zIryVDCWcU8T_qQ0clsK_ch-dR-KHm5)
+  - [Great Drum Machines, Groove Boxes & Loopers](https://www.youtube.com/playlist?list=PL3zIryVDCWcUfwdjjUdgZTbyHvO6Jzd62)
+  - [World's Best Synthesizers](https://www.youtube.com/playlist?list=PL3zIryVDCWcXtMRY-5M-WIAjpPufXT9hn)
 - [Dom Sigalas](https://www.youtube.com/@DomSigalas/) - music producer, film composer, and musicologist
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Gospel Musicians](https://www.youtube.com/@GospelMusicians/) - a plethora of instructional videos, software and resources for musicians
-- [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
+- [Guy Michelmore](https://www.youtube.com/@ThinkSpaceEducation/) (ThinkSpace Education)
   - [Film Scoring](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SHq6gQihnjF07gt6GGB76T)
   - [Interviews](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TlOgc-sxeyqh7bgQy7k_ZB)
   - [Music Theory](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj)
