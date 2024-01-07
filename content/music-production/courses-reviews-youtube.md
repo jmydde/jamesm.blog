@@ -2,7 +2,7 @@
 title: "List of Music Production Courses & YouTube Channels"
 date: 2023-12-21T08:48:21+01:00
 draft: false
-tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'music production', 'music theory', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
+tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'maschine', 'music production', 'music theory', 'native instruments', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
 ---
 
 ### Music Production Websites
@@ -120,6 +120,15 @@ Below is a list of my favourite music production YouTube channels
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
+  - [Arturia Vids](https://www.youtube.com/playlist?list=PLVqwsSRt4jtYT20yxBCpuOyt4hLJh0D7L)
+  - [Cubase Basics](https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ5SF5i0E-NFVyxiTND11ES)
+  - [Cubase Tutorials](https://www.youtube.com/playlist?list=PLVqwsSRt4jtayXXmd79-BcJ9qAVhUPWbZ)
+  - [General Music Production](https://www.youtube.com/playlist?list=PLVqwsSRt4jtbCQKqCzTM8s4cHq0CLuh72)
+  - [Hardware Synthesizers](https://www.youtube.com/playlist?list=PLVqwsSRt4jtacg4_PJkWOlzPUh1wDM9ss)
+  - [Maschine+](https://www.youtube.com/playlist?list=PLVqwsSRt4jtY0SnXz_uYof6qsBsH6KB4w)
+  - [Maschine Tutorials](https://www.youtube.com/playlist?list=PLVqwsSRt4jtb6o0kJIL48xWk_NvStdiWu)
+  - [Native Instruments Expansions](https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ1mLFZIZunHIm_D6iJep2c)
+  - [Virtual Instruments](https://www.youtube.com/playlist?list=PLVqwsSRt4jtbeibrLyuz4r9_svrTfEJ3S)
 - [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/) - American keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
 - [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
