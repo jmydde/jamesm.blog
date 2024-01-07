@@ -110,6 +110,7 @@ Below is a list of my favourite music production YouTube channels
 - [Applied Acoustics Systems (AAS)](https://www.youtube.com/@AASphysicalmodeling/) - official YouTube Channel of Applied Acoustics Systems. Physical Modeling since 1998.
 - [Arturia](https://www.youtube.com/@ArturiaOfficial/) - Arturia official YouTube channel
 - [BBC Maestro](https://www.youtube.com/@BBCMaestro/) - inspirational online courses taught by the most experienced creators
+- [Benn Jordan](https://www.youtube.com/@BennJordan) - music and science
 - [BoBeats](https://www.youtube.com/@BoBeats/) - videos about synthesizers and music production gear
 - [Charles Cleyn](https://www.youtube.com/@CharlesCleyn/) - songwriting, music production, and marketing strategies to create and release great music
 - [Creative Sauce](https://www.youtube.com/@CreativeSauce/) - helps you on your home recording journey
@@ -175,6 +176,7 @@ Below is a list of my favourite music production YouTube channels
   - [Virtual Pianos, Searching For The Best](https://www.youtube.com/playlist?list=PLygzRhYzPtHg84vRu53QlJEXbsMnIpDlF)
 - [SonicState](https://www.youtube.com/@sonicstate/) - gear reviews, interviews and features
 - [Sound On Sound](https://www.youtube.com/@soundonsound/) - recording & music technology magazine
+- [Sounds Good](https://www.youtube.com/@SoundsGoodChannel) - educational videos about music
 - [Spectrasonics](https://www.youtube.com/@SpectrasonicsVIDEO/) - official Spectrasonics videos for Omnisphere & Keyscape
 - [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
 - [Sweetwater](https://www.youtube.com/@sweetwater/) - giving music makers the ultimate shopping experience
