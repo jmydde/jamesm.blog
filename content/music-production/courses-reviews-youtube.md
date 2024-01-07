@@ -165,7 +165,14 @@ Below is a list of my favourite music production YouTube channels
 - [SamTheBeardGuy](https://www.youtube.com/@SamTheBeardGuy/) - virtual instrument reviews
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
 - [School of Synthesis](https://www.youtube.com/@SchoolofSynthesis/)
-- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) - virtual instrument reviews
+- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) (PraiseTracks) - virtual instrument reviews
+  - [Heavyocity](https://www.youtube.com/playlist?list=PLygzRhYzPtHgcyBujZk3Vw8HDG23KCuxP)
+  - [Native Instruments Kontakt](https://www.youtube.com/playlist?list=PLygzRhYzPtHgz_6OjiO649n-yVz60h1UY)
+  - [Past Livestreams](https://www.youtube.com/playlist?list=PLygzRhYzPtHgaX1B7DPTUm5tfc291g0BY)
+  - [Plugin Guru UNIFY](https://www.youtube.com/playlist?list=PLygzRhYzPtHjLYeCfW2_HUW3wIuKmkq6S)
+  - [Vienna Symphonic Library](https://www.youtube.com/playlist?list=PLygzRhYzPtHhKIB5ETO5UtE68qWfEd9nE)
+  - [Virtual Instrument Reviews](https://www.youtube.com/playlist?list=PLygzRhYzPtHj2SKSRkWMQ89QAeVzug_uG)
+  - [Virtual Pianos, Searching For The Best](https://www.youtube.com/playlist?list=PLygzRhYzPtHg84vRu53QlJEXbsMnIpDlF)
 - [SonicState](https://www.youtube.com/@sonicstate/) - gear reviews, interviews and features
 - [Sound On Sound](https://www.youtube.com/@soundonsound/) - recording & music technology magazine
 - [Spectrasonics](https://www.youtube.com/@SpectrasonicsVIDEO/) - official Spectrasonics videos for Omnisphere & Keyscape
