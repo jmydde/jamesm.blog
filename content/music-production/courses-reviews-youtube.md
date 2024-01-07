@@ -1,6 +1,6 @@
 ---
 title: "List of Music Production Courses & YouTube Channels"
-date: 2023-12-21T08:48:21+01:00
+date: 2024-01-07T10:35:21+01:00
 draft: false
 tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'maschine', 'music production', 'music theory', 'native instruments', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
 ---
@@ -118,6 +118,14 @@ Below is a list of my favourite music production YouTube channels
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Gospel Musicians](https://www.youtube.com/@GospelMusicians/) - a plethora of instructional videos, software and resources for musicians
 - [Guy Michelmore / ThinkSpace Education](https://www.youtube.com/@ThinkSpaceEducation/)
+  - [Film Scoring](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SHq6gQihnjF07gt6GGB76T)
+  - [Interviews](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TlOgc-sxeyqh7bgQy7k_ZB)
+  - [Music Theory](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj)
+  - [Music Tutorials](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SZJ8ntw615PZb0TwrzC2EG)
+  - [Reviews](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_Sht3Z57_aUnZ1yu-14-LR2)
+  - [Sample Library Reviews](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_RWKVxOfjpRVTEbYr2YqGjM)
+  - [Sound Tutorials](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SICOvowdV779wKDHpniznl)
+  - [ThinkSpace Education Course Trailers](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_S8ovquxXreMj9BA8fWTW8y)
 - [In The Mix](https://www.youtube.com/@inthemix/) - simplifying the recording, production, mixing and mastering process
 - [Jef Gibbons](https://www.youtube.com/@jefgibbons/) - video production, photography & music production
   - [Arturia Vids](https://www.youtube.com/playlist?list=PLVqwsSRt4jtYT20yxBCpuOyt4hLJh0D7L)
