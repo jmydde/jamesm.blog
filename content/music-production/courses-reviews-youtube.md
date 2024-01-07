@@ -182,6 +182,16 @@ Below is a list of my favourite music production YouTube channels
 - [True Cuckoo](https://www.youtube.com/@truecuckoo/) - taking synths, bleeps, dance and pop to the stage.
 - [Underdog Electronic Music School](https://www.youtube.com/@OscarUnderdog/)
 - [Venus Theory](https://www.youtube.com/@VenusTheory/) - music production & reviews
+  - [Bass Design](https://www.youtube.com/playlist?list=PLCXbZyyqusu3KEmHHYe_xd8G3Sf39FDP1)
+  - [Bitwig Tutorials](https://www.youtube.com/playlist?list=PLCXbZyyqusu1QG-b9JVrHru5iZhx6Z9tK)
+  - [Gear and Reviews](https://www.youtube.com/playlist?list=PLCXbZyyqusu2nxZPVTN1IuKfwseJVUT9z)
+  - [Hardware Stuff](https://www.youtube.com/playlist?list=PLCXbZyyqusu1mgkpnnVcbpTyMBVanKp9T)
+  - [Morning Coffee with Cameron](https://www.youtube.com/playlist?list=PLCXbZyyqusu2dL1MBaH0fHHdxyruUj-5z)
+  - [Music Theory Stuff](https://www.youtube.com/playlist?list=PLCXbZyyqusu1eXgstWgtAldOrYHvhj9ks)
+  - [Producer Tips](https://www.youtube.com/playlist?list=PLCXbZyyqusu1CjTZnl2jyB7VCybQn418p)
+  - [Production Tutorials](https://www.youtube.com/playlist?list=PLCXbZyyqusu088kO-bfY1K3mretiVej_2)
+  - [Sound Design Stuff](https://www.youtube.com/playlist?list=PLCXbZyyqusu3LP2Qk2p6ZwrLLjnNLZGZE)
+  - [UVI Falcon Tutorial Series](https://www.youtube.com/playlist?list=PLCXbZyyqusu1Q3DCU1rWUZjZ75gfahK8y)
 - [Vulture Culture](https://www.youtube.com/@VultureCulture/) - uncovering the hidden gems of the synth world
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 - [Yamaha Global](https://www.youtube.com/@yamahaglobal) - official Yamaha Corporation YouTube channel
