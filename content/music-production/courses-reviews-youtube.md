@@ -148,6 +148,7 @@ Below is a list of my favourite music production YouTube channels
   - [Native Instruments Expansions](https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ1mLFZIZunHIm_D6iJep2c)
   - [Virtual Instruments](https://www.youtube.com/playlist?list=PLVqwsSRt4jtbeibrLyuz4r9_svrTfEJ3S)
 - [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/) - American keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”
+- [Liam Killen](https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g) - electronic music producer sharing how to create music
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
 - [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
 - [Mattias Holmgren](https://www.youtube.com/@MattiasHolmgren/) - guides you in music production, sound design and creativity
@@ -201,3 +202,11 @@ Below is a list of my favourite music production YouTube channels
 
 ## Music Production Software & Plugin Deals
 - [Audio Plugin Guy](https://www.audiopluginguy.com/deals/)
+
+## Music Production Blogs
+- [Bedroom Producers Blog](https://bedroomproducersblog.com/) (bpb)
+- [logicxx](https://logicxx.com/blogs/news)
+- [Native Instruments](https://blog.native-instruments.com/)
+- [Point Blank Music School](https://plus.pointblankmusicschool.com/)
+- [Sound On Sound](https://www.soundonsound.com/)
+- [WA Production](https://blog.waproduction.com/)
