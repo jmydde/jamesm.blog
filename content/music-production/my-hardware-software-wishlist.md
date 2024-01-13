@@ -68,6 +68,9 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Phoscyon2](https://d16.pl/phoscyon2)
   - [Punchbox](https://d16.pl/punchbox)
   - [TotalBundle](https://d16.pl/totalbundle)
+- [Fors](https://fors.fm/)
+  - [Opal](https://fors.fm/opal) - Rhythm machine & drum synthesizer
+  - [Superberry](https://fors.fm/superberry) - Delicious superwave
 - [GForce Software](https://www.gforcesoftware.com/)
   - [M-Tron Pro - Complete](https://www.gforcesoftware.com/products/m-tron-pro-complete/)
 - [Gospel Musicians](https://gospelmusicians.com/)
@@ -85,18 +88,21 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Nexus](https://refx.com/nexus/)
 - [Reveal Sound](https://www.reveal-sound.com/)
   - [Spire](https://www.reveal-sound.com/plug-ins/spire)
-- [SRM Sounds](https://srmsounds.com/)
-  - [Max Richter Piano](https://srmsounds.com/products/max-richter-piano)
+- [Spektro Audio](https://spektroaudio.com/)
+  - [ACDGEN](https://spektroaudio.com/acdgen) - Advanced Pattern Generator
+  - [Polyform](https://spektroaudio.com/polyform) - Polyphonic MIDI Processor
 - [Spectrasonics](https://www.spectrasonics.net/)
   - [Keyscape](https://www.spectrasonics.net/products/keyscape/index.php)
   - [Omnisphere 2](https://www.spectrasonics.net/products/omnisphere/)
 - [Spitfire Audio](https://www.spitfireaudio.com/)
   - [BBC Symphony Orchestra Piano](https://www.spitfireaudio.com/bbc-symphony-orchestra-piano)
+- [SRM Sounds](https://srmsounds.com/)
+  - [Max Richter Piano](https://srmsounds.com/products/max-richter-piano)
 - [Steinberg](https://www.steinberg.net/)
   - [Absolute 6](https://www.steinberg.net/vst-instruments/absolute/)
 - [Synthogy](https://synthogy.com/)
   - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
-  - Ivory III Grand Pianos
+  - Ivory III Grand Pianos (not released for Mac yet)
 - [Toontrack](https://www.toontrack.com/)
   - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/)
   - [EZkeys 2](https://www.toontrack.com/ezkeys-line/)
