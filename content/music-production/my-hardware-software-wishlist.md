@@ -100,6 +100,38 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Max Richter Piano](https://srmsounds.com/products/max-richter-piano)
 - [Steinberg](https://www.steinberg.net/)
   - [Absolute 6](https://www.steinberg.net/vst-instruments/absolute/)
+    - 136 GB of content and 7,800 presets
+    - Instruments
+      - Backbone - Drum Re-Synthesizer
+      - Groove Agent 5 (including Prime Cuts, Future Past Perfect, Rock Essentials)
+      - HALion 7
+      - Padshop 2 Synthesizer (incl. Polarities, Zero Gravity, and Granular Guitars)
+      - Retrologue 2 Synthesizer (incl. Sounds of Soul)
+      - The Grand 3 – VST Piano Suite
+    - HALion instruments
+      - Amped Elektra
+      - Anima
+      - Auron
+      - B-Box
+      - Dark Planet
+      - Electric Bass
+      - FM Lab
+      - HALion Symphonic Orchestra
+      - HALiotron
+      - Hot Brass
+      - Hypnotic Dance
+      - Model C (Organ)
+      - Olympus Choir Micro
+      - Skylab
+      - Studio Strings
+      - Tales
+      - The Eagle
+      - The Raven
+      - Triebwerk
+      - Trium
+      - World instruments
+      - World Percussion
+      - Voltage
 - [Synthogy](https://synthogy.com/)
   - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
   - Ivory III Grand Pianos (not released for Mac yet)
