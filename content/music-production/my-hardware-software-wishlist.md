@@ -1,6 +1,6 @@
 ---
 title: "My Music Production Wishlists"
-date: 2023-12-20T23:32:02+01:00
+date: 2024-01-13T09:20:02+01:00
 draft: false
 tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
