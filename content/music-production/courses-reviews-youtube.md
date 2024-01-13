@@ -1,6 +1,6 @@
 ---
 title: "List of Music Production Courses & YouTube Channels"
-date: 2024-01-07T10:35:21+01:00
+date: 2024-01-13T09:15:21+01:00
 draft: false
 tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'maschine', 'music production', 'music theory', 'native instruments', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
 ---
@@ -104,6 +104,7 @@ tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'l
 
 ## Music Production YouTube Channels
 Below is a list of my favourite music production YouTube channels
+- [343 Labs](https://www.youtube.com/@343labs) - teach Ableton Live, Logic Pro, Mixing & Mastering, Composition, Music Theory, Sound Design & Synthesis, Vocal Production and much more
 - [Accurate Beats](https://www.youtube.com/@AccurateBeats/) - music production, music gear and beatmaking
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
@@ -150,12 +151,15 @@ Below is a list of my favourite music production YouTube channels
 - [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/) - American keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”
 - [Liam Killen](https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g) - electronic music producer sharing how to create music
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
+- [LotusTunes Academy](https://www.youtube.com/@lotustunesacademy/) - learn about deep & organic house music production
 - [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
 - [Mattias Holmgren](https://www.youtube.com/@MattiasHolmgren/) - guides you in music production, sound design and creativity
 - [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/) - offers the unique opportunity to work closely with the world’s top music mixers, producers and engineers and to improve one's skills in music production
 - [Multiplier](https://www.youtube.com/@MultiplierSounds/) - electronic music production tutorials, reviews, vlogs, Ableton Live & Serum tutorials ...
 - [Native Instruments](https://www.youtube.com/@NativeInstruments/) Native Instruments official YouTube channel
 - [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/) - synthesizer reviews & music production
+- [Piano From Scratch](https://www.youtube.com/@PianoFromScratch/) - resource to help you become a better student and learn the building blocks of music
+- [Pick Yourself](https://www.youtube.com/@pickyourselfofficial/) - helps electronic music producers finish music they're proud of
 - [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
 - [Point Blank Music School](https://www.youtube.com/@PointBlankMusicSchool/) - music school with courses in London, LA, Ibiza & Online
 - [ProjectSAM](https://www.youtube.com/@ProjectSAMCinematicSampling/) - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries
@@ -167,6 +171,7 @@ Below is a list of my favourite music production YouTube channels
 - [SamTheBeardGuy](https://www.youtube.com/@SamTheBeardGuy/) - virtual instrument reviews
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
 - [School of Synthesis](https://www.youtube.com/@SchoolofSynthesis/)
+- [Seed To Stage](https://www.youtube.com/@SeedtoStage/) - Anthony Thogmartin creating deeply informative instructional videos for learning how to use Ableton Live
 - [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/) (PraiseTracks) - virtual instrument reviews
   - [Heavyocity](https://www.youtube.com/playlist?list=PLygzRhYzPtHgcyBujZk3Vw8HDG23KCuxP)
   - [Native Instruments Kontakt](https://www.youtube.com/playlist?list=PLygzRhYzPtHgz_6OjiO649n-yVz60h1UY)
