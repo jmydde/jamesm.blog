@@ -499,6 +499,7 @@ Native Instruments is a German company that develops, manufactures, and supplies
 ### PluginGuru
 Founded by veteran synth programmer and sound designer John Lehmkuhl, PlugInGuru provides inspiring synth patches for all of the most popular synth plug-ins
 - [Unify](https://www.pluginguru.com/products/unify-standard/)
+  - [Cutting Edge – Magic Motion](https://www.pluginguru.com/products/magic-motion/)
   - [Modern Cinema - Ambient Dreams](https://www.pluginguru.com/products/ambient-dreams/)
 
 ### ProjectSAM

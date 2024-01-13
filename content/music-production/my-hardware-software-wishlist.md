@@ -81,7 +81,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 - [Modartt](https://www.modartt.com/)
   - [Steinway Model B](https://www.modartt.com/modelb)
 - [PlugInGuru](https://www.pluginguru.com/)
-  - [Magic Motion](https://www.pluginguru.com/products/magic-motion/)
+  - (many !)
 - [Pulse Audio](https://pulse.audio/)
   - [Vivid Strings](https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/)
 - [reFX](https://refx.com/)
