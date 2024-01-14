@@ -589,26 +589,26 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - InstaComposer
 
 ### Other
-- Antares
-  - Choir
-- Dear Reality
-  - EXOVERB Micro
+- [Antares](https://www.antarestech.com/)
+  - [Choir](https://www.antarestech.com/products/vocal-effects/choir)
+- [Dear Reality](https://www.dear-reality.com/)
+  - [EXOVERB Micro](https://www.dear-reality.com/products/exoverb-micro)
 - [GForce Software](https://www.gforcesoftware.com/)
   - [impOSCar2](https://www.gforcesoftware.com/products/imposcar2/)
-- Minimal Audio
-  - Rift Filter Lite
+- [Minimal Audio](https://www.minimal.audio/)
+  - [Rift Filter Lite](https://www.minimal.audio/products/rift-filter-lite)
 - [Moog](https://www.moogmusic.com/)
   - [Moogerfooger MF-108S Cluster Flux](https://www.moogmusic.com/products/moogerfooger-mf-108m-cluster-flux)
 - [Plugin Boutique](https://www.pluginboutique.com/)
-  - StereoSavage 2 Elements
-- Pulsar Audio
-  - W495
-- Sonible
-  - pure:limit
-- Tracktion 
-  - Dawesome LOVE
-- Universal Audio
-  - LA-2A Tube Compressor
+  - [StereoSavage 2 Elements](https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/9785-StereoSavage-2-Elements)
+- [Pulsar Audio](https://pulsar.audio/)
+  - [W495](https://pulsar.audio/w495/)
+- [Sonible](https://www.sonible.com/)
+  - [pure:limit](https://www.sonible.com/purelimit/)
+- [Tracktion](https://www.tracktion.com/)
+  - [Dawesome LOVE](https://www.tracktion.com/products/love)
+- [Universal Audio](https://www.uaudio.com/)
+  - [LA-2A Tube Compressor](https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-tube-compressor.html)
 
 ## My Music Production Software (Past)
 - Amiga
