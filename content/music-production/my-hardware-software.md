@@ -593,11 +593,13 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - Choir
 - Dear Reality
   - EXOVERB Micro
+- [GForce Software](https://www.gforcesoftware.com/)
+  - [impOSCar2](https://www.gforcesoftware.com/products/imposcar2/)
 - Minimal Audio
   - Rift Filter Lite
-- Moog
-  - Moogerfooger MF-108S Cluster Flux
-- Plugin Boutique
+- [Moog](https://www.moogmusic.com/)
+  - [Moogerfooger MF-108S Cluster Flux](https://www.moogmusic.com/products/moogerfooger-mf-108m-cluster-flux)
+- [Plugin Boutique](https://www.pluginboutique.com/)
   - StereoSavage 2 Elements
 - Pulsar Audio
   - W495
