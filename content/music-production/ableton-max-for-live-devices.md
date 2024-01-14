@@ -15,6 +15,8 @@ tags: ['ableton', 'max4live']
 ### Slink Devices
 [Slink Devices](https://www.ableton.com/en/packs/slink-devices/) is a fascinating collection of Max For Live devices modelled on the natural movement of water. Generate head-spinning spectral effects, subtle analog-style modulation and evolving, unpredictable melodic ideas, all controlled by the uniquely flexible Slink wave engine.
 #### YouTube Videos
+##### Slink Devices by Hypnus Records
+{{< youtube zDnoRkGbPvI >}}
 ##### Melodic Techno Sequencer - Making melodic techno with Max for Live sequencer Slink
 {{< youtube Y23eTs-spV4 >}}
 
@@ -22,6 +24,9 @@ tags: ['ableton', 'max4live']
 
 ### Tombola
 [Tombola](https://maxforlive.com/library/device/8201/tombola-sequencer) is perfect for creating semi-random sequences
+#### YouTube Videos
+##### Making ambient music with generative Max for Live sequencer Tombola
+{{< youtube 2bYEP8Y0KeY >}}
 
 ## Fors
 
