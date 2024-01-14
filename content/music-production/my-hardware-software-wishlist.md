@@ -141,3 +141,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 - [u-He](https://u-he.com/)
   - [Hive](https://u-he.com/products/hive/)
   - [Repro](https://u-he.com/products/repro/)
+- [UVI](https://www.uvi.net/)
+  - [The Effects Bundle](https://www.uvi.net/en/effects/the-effects-bundle.html)
+  - [Vintage Vault 4](https://www.uvi.net/vintage-vault-4-upgrade-sp.html)
+    - 36 UVI products, 14,000+ presets, 800,000+ samples
