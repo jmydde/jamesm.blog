@@ -1,6 +1,6 @@
 ---
 title: "My Music Production Hardware & Software"
-date: 2024-01-05T20:00:02+01:00
+date: 2024-01-14T11:14:02+01:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
