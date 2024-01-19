@@ -1,5 +1,5 @@
 ---
-title: "My Music Production Wishlists"
+title: "Music Production: My Wishlists"
 date: 2024-01-13T09:20:02+01:00
 draft: false
 tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
@@ -143,5 +143,3 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Repro](https://u-he.com/products/repro/)
 - [UVI](https://www.uvi.net/)
   - [The Effects Bundle](https://www.uvi.net/en/effects/the-effects-bundle.html)
-  - [Vintage Vault 4](https://www.uvi.net/vintage-vault-4-upgrade-sp.html)
-    - 36 UVI products, 14,000+ presets, 800,000+ samples

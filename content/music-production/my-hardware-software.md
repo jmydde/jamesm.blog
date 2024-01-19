@@ -1,6 +1,6 @@
 ---
-title: "My Music Production Hardware & Software"
-date: 2024-01-14T11:14:02+01:00
+title: "Music Production: My Hardware & Software"
+date: 2024-01-19T08:04:02+01:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -526,13 +526,9 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - 31,402 Samples, 375 Presets, 430 Layers (187 SidMachines and 243 SidStation)
 - [Augmented Orchestra](https://www.uvi.net/en/orchestral/augmented-orchestra.html)
   - 620 Presets, 485 Layers, 65,800 Samples
-- [BeatBox Anthology 2](https://www.uvi.net/en/bass-drums-perc/beatbox-anthology-ii.html)
-  - 11,862 Samples, 1,355 Loops, 282 Kits, 161 Patterns
 - [Drum Designer](https://www.uvi.net/en/bass-drums-perc/drum-designer.html)
   - 5,736 Samples, 2,654 Presets (398 Kits, 545 Kicks, 499 Snares, 405 Claps, 674 Cymbals and 133 Sequences)
 - [Dual Delay X](https://www.uvi.net/en/effects/dual-delay-x.html)
-- [Emulation II+](https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html)
-  - 1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples
 - [Falcon 3](https://www.uvi.net/falcon)
   - [Falcon Expansions](https://www.uvi.net/en/falcon-expansions)
     - [Analog Motion](https://www.uvi.net/en/falcon-expansions/analog-motion.html)
@@ -542,8 +538,6 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
     - [Organic Pads](https://www.uvi.net/en/falcon-expansions/organic-pads.html)
 - [Spectre](https://www.uvi.net/en/falcon-expansions/spectre.html)
   - 140 presets
-- [FM Suite](https://www.uvi.net/en/vintage-synth/fm-suite.html)
-  - 1,025 Presets, 103,394 Samples
 - [HX-20](https://www.uvi.net/en/vintage-synth/hx-20.html)
   - 222 presets, 182 layers, 13,341 samples
 - [Key Suite Bundle Edition](https://www.uvi.net/key-suite.html)
@@ -561,8 +555,6 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - 100 presets, 3 layers, 632 samples
 - [Percussion Factory](https://www.uvi.net/en/bass-drums-perc/percussion-factory.html)
   - 556 presets, 1014 layers, 8560 samples
-- [Program 24](https://www.uvi.net/en/vintage-synth/program-24.html)
-  - 220 Multi Kits, 9 Drum Presets with Kit settings and MIDI files, 9 handcrafted Drum Kits, 201 Drum MIDI files with drag'n drop, 18 Bass Presets, 20 Organ/String Presets, 21 Synth Presets in the 3 Accompaniment sections, 99 Arpeggiator Presets, 9,540 Samples
 - [PX Memories](https://www.uvi.net/en/vintage-synth/px-memories.html)
   - 353 presets (divided into 16 categories, made from 171 programs), 38,988 samples
 - [Quadra - Muted and Harmonics](https://www.uvi.net/en/unconventional/quadra-muted-and-harmonics.html)
@@ -573,6 +565,49 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
 - [Sparkverb](https://www.uvi.net/en/effects/sparkverb.html)
 - [Synth Anthology 4](https://www.uvi.net/synth-anthology-4)
   - 38,071 Samples and 4,767 Presets
+- [Vintage Vault 4](https://www.uvi.net/vintage-vault-4-upgrade-sp.html)
+  - 36 UVI products, 14,000+ presets, 800,000+ samples
+  - Instruments
+    - [BeatBox Anthology 2](https://www.uvi.net/en/bass-drums-perc/beatbox-anthology-ii.html) - Massive collection of vintage, modern and rare sounds from 111 drum machines
+      - 11,862 Samples, 1,355 Loops, 282 Kits, 161 Patterns
+    - Bit Zone - Massive polyphonic analog sounds inspired by an obscure Italian gem from the '80s
+    - Cameo - 3 instruments inspired by the distinct character of phase distortion synthesis
+    - CS-M - 4-instrument suite delivering the analog sounds of the classic CS-series synths
+    - Darklight IIx - 3 instruments inspired by the ultimate 80’s digital workstation
+    - Digital Synsations - 4 instruments inspired by digital maverick synths of the ‘90s
+    - Digital Synsations Vol. 2 - 3 instruments inspired by digital maverick synths of the ‘90s
+    - [Emulation II+](https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html) - A modern creative exploration of 3 iconic sampler-synths and a lo-fi drum machine
+      - 1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples
+    - Energy - The DK Synergy, a 32-oscillator additive synthesizer from the ‘80s
+    - [FM Suite](https://www.uvi.net/en/vintage-synth/fm-suite.html) - 5 instruments exploring a dynasty of vintage FM synths
+      - 1,025 Presets, 103,394 Samples
+    - Hybrid 6000 - Powerful analog tones and drums from the quintessential SD synthesis workhorse
+    - JP Legacy - A heroic 4-instrument suite of legendary polyphonic analog synths
+    - Kroma - Based on the last polyphonic analog designed by ARP, and it’s little brother
+    - Mello - The origins of sampling—a sound that shaped the 60's
+    - OB Legacy - 6 instruments inspired by a legendary American synth designer
+    - Prime 8+ - A legend returns, the ultimate '80s analog drum machine brings the rhythm
+    - [Program 24](https://www.uvi.net/en/vintage-synth/program-24.html) - Hybrid digital/analog workstation synth from the peak of ‘80s Italo Disco
+      - 220 Multi Kits, 9 Drum Presets with Kit settings and MIDI files, 9 handcrafted Drum Kits, 201 Drum MIDI files with drag'n drop, 18 Bass Presets, 20 Organ/String Presets, 21 Synth Presets in the 3 Accompaniment sections, 99 Arpeggiator Presets, 9,540 Samples
+    - PX Apollo - Based on a rare early ’70s prototype of the first polyphonic analog
+    - PX Memories - Based on the definitive LAMM mod analog synthesizer, with true analog unison
+    - PX P10 - Based on the iconic dual-keybed analog powerhouse of the ‘80s
+    - PX SunBox - A fiercely versatile modular 8-voice analog hybrid synth with morphable filters
+    - PX V8 - Based on an ultra-rare American polyphonic analog synthesizer
+    - String Machines 2 - Combine 62 vintage string synthesizers in a dual-layer instrument
+    - Super-7 - Essential '80s analog sound from two classic synths and a suite of drum machines
+    - Synthox - A dual-layer hybrid analog/FM synth packed with the sounds of a famous Italian
+    - The Beast - 3 instruments inspired by the stunning sounds of a famous '70s workstation
+    - U1250 - Inspired by the first ROMplers, the K250 and K1000
+    - UltraMini - The de facto analog mono synth, available in 1973 and 2011 flavors
+    - USQ-1 - Based on a cult-classic digital/analog hybrid workstation
+    - UVS-3200 - A tribute to the legendary Korg PS-3200
+    - UVX670 - Based on 2 classic Japanese analog polyphonic synths from the ‘80s
+    - UVX-10P - The glorious sound of ‘80s analog, inspired by three Japanese classics
+    - UVX-3P - Inspired by the huge analog sound of a famous Japanese synth
+    - UVX80 - Inspired by a rare Japanese 8-voice analog synth from the ‘80s
+    - Vector Pro - 3 instruments inspired by the famed beginnings of vector synthesis
+    - WaveRunner - A 7-instrument retrospective of German wavetable synth designs
 - [World Suite 2](https://www.uvi.net/en/music-genres/world-suite-2.html)
   - 66,460 Samples, 369 Instruments, 10,584 Loops & Phrases
 

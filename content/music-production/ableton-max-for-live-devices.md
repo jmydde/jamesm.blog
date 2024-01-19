@@ -1,5 +1,5 @@
 ---
-title: "Ableton - Max for Live Devices"
+title: "Music Production: Ableton Max for Live Devices"
 date: 2024-01-14T22:33:41+01:00
 draft: false
 tags: ['ableton', 'max4live']
@@ -8,6 +8,14 @@ tags: ['ableton', 'max4live']
 
 ### Creative Extensions
 [Creative Extensions](https://www.ableton.com/en/packs/creative-extensions/) is a free addition to Live 10 Suite created with an experimental approach to sound processing and generative composition.
+
+### Inspired by Nature
+[Inspired by Nature](https://www.ableton.com/en/packs/inspired-nature/) is a playful collection of visual Max for Live devices created in collaboration with Dillon Bastan. Produce generative soundscapes, unpredictable melodies and evolving modulations with devices inspired by physical forces and the natural world.
+#### YouTube Videos
+##### 6 Max For Live Devices you NEED to Try
+{{< youtube gqe5_pMpvn4 >}}
+##### Max For Live Pack Inspired By Nature | Physics-Based Generative MIDI
+{{< youtube cth-e1nX4f0 >}}
 
 ### Max for Live Essentials
 [Max for Live Essentials](https://www.ableton.com/en/packs/max-live-essentials/) is a collection of audio and MIDI effects, synthesizers and control devices made with Max for Live 
