@@ -586,6 +586,9 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
       - DS90s - 
       - DSX - Ensoniq VFX
     - [Digital Synsations Vol. 2](https://www.uvi.net/digital-synsations-vol-2.html) - 3 instruments inspired by digital maverick synths of the ‘90s
+      - DZmo
+      - DK5S
+      - DS-890
     - [Emulation II+](https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html) - A modern creative exploration of 3 iconic sampler-synths and a lo-fi drum machine
       - 1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples
       - Emulation I - Emulation I is a modern creative exploration of this vintage classic, delivering both old and all-new sounds
@@ -594,8 +597,17 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
     - [Energy](https://www.uvi.net/energy.html) - The DK Synergy, a 32-oscillator additive synthesizer from the ‘80s
     - [FM Suite](https://www.uvi.net/en/vintage-synth/fm-suite.html) - 5 instruments exploring a dynasty of vintage FM synths
       - 1,025 Presets, 103,394 Samples
+      - FMX-1 XL - based on the fabled DX1 (1983), the top-of-the-line sibling to the popular DX7
+      - FMX-2 XL - a 4-operator variant of its big brother based on 3 more modest vintage FM synths; the DX21 (1985), DS8 (1987), and TQ5 (1988)
+      - FMX-8OP - based on the original 8-operator FM synthesizer, the FVX-1 (1988)
+      - FMX-4OP - a 4-operator variant of the FMX-8op
+      - FMX-GS - based on one of the original FM keyboards, the GS2
     - [Hybrid 6000](https://www.uvi.net/hybrid-6000) - Powerful analog tones and drums from the quintessential SD synthesis workhorse
     - [JP Legacy](https://www.uvi.net/jp-legacy.html) - A heroic 4-instrument suite of legendary polyphonic analog synths
+      - SATURN-4 - 4-voice poly from 1978
+      - SATURN-6 - a true vintage gem, this 12-oscillator, 6-voice analog polysynth can create massively thick sounds - a pad and drone dream machine
+      - SATURN-8 - one of the most iconic analog synthesizers ever produced, and the brands flagship, this featured synth sports 16-oscillators on 8-voices with cross-modulation, sync, PWM, an HPF, variable LPF, an LFO and two EGs
+      - MERCURY-80 - 16-oscillator 8-voice super-synth came equipped with fully-analog VCOs and a low boost circuit
     - [Kroma](https://www.uvi.net/kroma.html) - Based on the last polyphonic analog designed by ARP, and it’s little brother
     - [Mello](https://www.uvi.net/mello.html) - The origins of sampling—a sound that shaped the 60's
     - [OB Legacy](https://www.uvi.net/ob-legacy.html) - 6 instruments inspired by a legendary American synth designer
