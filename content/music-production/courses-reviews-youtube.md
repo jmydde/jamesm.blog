@@ -1,6 +1,6 @@
 ---
 title: "Music Production: Courses & YouTube Channels"
-date: 2024-01-13T09:15:21+01:00
+date: 2024-01-19T18:31:21+01:00
 draft: false
 tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'maschine', 'music production', 'music theory', 'native instruments', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
 ---
@@ -126,6 +126,7 @@ Below is a list of my favourite music production YouTube channels
   - [Great Drum Machines, Groove Boxes & Loopers](https://www.youtube.com/playlist?list=PL3zIryVDCWcUfwdjjUdgZTbyHvO6Jzd62)
   - [World's Best Synthesizers](https://www.youtube.com/playlist?list=PL3zIryVDCWcXtMRY-5M-WIAjpPufXT9hn)
 - [Dom Sigalas](https://www.youtube.com/@DomSigalas/) - music producer, film composer, and musicologist
+- [EDM Tips](https://www.youtube.com/@EDMTips/) - how to produce Electronic Dance Music like a pro! – Techno, House, Trance, Progressive and much, much more
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Gospel Musicians](https://www.youtube.com/@GospelMusicians/) - a plethora of instructional videos, software and resources for musicians
 - [Guy Michelmore](https://www.youtube.com/@ThinkSpaceEducation/) (ThinkSpace Education)
@@ -162,11 +163,13 @@ Below is a list of my favourite music production YouTube channels
 - [Pick Yourself](https://www.youtube.com/@pickyourselfofficial/) - helps electronic music producers finish music they're proud of
 - [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
 - [Point Blank Music School](https://www.youtube.com/@PointBlankMusicSchool/) - music school with courses in London, LA, Ibiza & Online
+- [Producing In The Box](https://www.youtube.com/@ProducingInTheBox/) - how to make incredible-sounding music in the box!
 - [ProjectSAM](https://www.youtube.com/@ProjectSAMCinematicSampling/) - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries
 - [Rachel K Collier](https://youtube.com/@RachelKCollierRKC/) - Welsh electronic producer & performer who makes songs and performances with Ableton
 - [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials
 - [Rick Beato](https://www.youtube.com/@RickBeato/) - everything music
 - [Rhodes Piano](https://www.youtube.com/@rhodesmusic/) - official Rhodes channel
+- [Rob Papen](https://www.youtube.com/@RobPapen/) - powerful instruments and plug-ins that bring together innovative design, uncompromising sound quality, and musical, production-grade presets to make your tracks shine
 - [Roland](https://www.youtube.com/@rolandglobal/) - music production hardware
 - [SamTheBeardGuy](https://www.youtube.com/@SamTheBeardGuy/) - virtual instrument reviews
 - [Sanjay C](https://www.youtube.com/@SanjayC/) - music production, gear & tips
@@ -180,6 +183,7 @@ Below is a list of my favourite music production YouTube channels
   - [Vienna Symphonic Library](https://www.youtube.com/playlist?list=PLygzRhYzPtHhKIB5ETO5UtE68qWfEd9nE)
   - [Virtual Instrument Reviews](https://www.youtube.com/playlist?list=PLygzRhYzPtHj2SKSRkWMQ89QAeVzug_uG)
   - [Virtual Pianos, Searching For The Best](https://www.youtube.com/playlist?list=PLygzRhYzPtHg84vRu53QlJEXbsMnIpDlF)
+- [Slynk](https://www.youtube.com/@Slynk/) - Ableton tutorials
 - [SonicState](https://www.youtube.com/@sonicstate/) - gear reviews, interviews and features
 - [Sound On Sound](https://www.youtube.com/@soundonsound/) - recording & music technology magazine
 - [Sounds Good](https://www.youtube.com/@SoundsGoodChannel) - educational videos about music
