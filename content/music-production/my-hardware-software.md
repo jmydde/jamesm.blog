@@ -572,12 +572,25 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
       - 11,862 Samples, 1,355 Loops, 282 Kits, 161 Patterns
     - [Bit Zone](https://www.uvi.net/bit-zone) - Massive polyphonic analog sounds inspired by an obscure Italian gem from the '80s
     - [Cameo](https://www.uvi.net/cameo.html) - 3 instruments inspired by the distinct character of phase distortion synthesis
+      - Cameo CZ - incorporates a huge library of custom patches designed on the original hardware
+      - Cameo CX - dual-layer instrument with a large catalog of sounds and raw waveforms captured directly from the hardware instruments
+      - Cameo CM - another dual-layer instrument, but this time utilizing the wavetable oscillator and DSP shaping tools from Falcon
     - [CS-M](https://www.uvi.net/cs-m.html) - 4-instrument suite delivering the analog sounds of the classic CS-series synths
     - [Darklight IIx](https://www.uvi.net/darklight-iix.html) - 3 instruments inspired by the ultimate 80’s digital workstation
+      - Page P - Digital Synth
+      - Page B - Digital Drum Machine
+      - Page U - Creative Multi-Phraser
     - [Digital Synsations](https://www.uvi.net/digital-synsations.html) - 4 instruments inspired by digital maverick synths of the ‘90s
+      - DS1 - Korg M1
+      - DS77 - 
+      - DS90s - 
+      - DSX - Ensoniq VFX
     - [Digital Synsations Vol. 2](https://www.uvi.net/digital-synsations-vol-2.html) - 3 instruments inspired by digital maverick synths of the ‘90s
     - [Emulation II+](https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html) - A modern creative exploration of 3 iconic sampler-synths and a lo-fi drum machine
       - 1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples
+      - Emulation I - Emulation I is a modern creative exploration of this vintage classic, delivering both old and all-new sounds
+      - Emulation II - 300 layers recorded directly from a fully-restored Emulator II, and again on the rare Oberheim DPX-1
+      - Emulation III - Featuring the original licensed sounds from OMI, you get over 240 layers recorded directly from the hardware
     - [Energy](https://www.uvi.net/energy.html) - The DK Synergy, a 32-oscillator additive synthesizer from the ‘80s
     - [FM Suite](https://www.uvi.net/en/vintage-synth/fm-suite.html) - 5 instruments exploring a dynasty of vintage FM synths
       - 1,025 Presets, 103,394 Samples
