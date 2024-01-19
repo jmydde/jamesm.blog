@@ -567,47 +567,47 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - 38,071 Samples and 4,767 Presets
 - [Vintage Vault 4](https://www.uvi.net/vintage-vault-4-upgrade-sp.html)
   - 36 UVI products, 14,000+ presets, 800,000+ samples
-  - Instruments
+  - [Instruments](https://www.uvi.net/vintage-vault-4.html#instruments/)
     - [BeatBox Anthology 2](https://www.uvi.net/en/bass-drums-perc/beatbox-anthology-ii.html) - Massive collection of vintage, modern and rare sounds from 111 drum machines
       - 11,862 Samples, 1,355 Loops, 282 Kits, 161 Patterns
-    - Bit Zone - Massive polyphonic analog sounds inspired by an obscure Italian gem from the '80s
-    - Cameo - 3 instruments inspired by the distinct character of phase distortion synthesis
-    - CS-M - 4-instrument suite delivering the analog sounds of the classic CS-series synths
-    - Darklight IIx - 3 instruments inspired by the ultimate 80’s digital workstation
-    - Digital Synsations - 4 instruments inspired by digital maverick synths of the ‘90s
-    - Digital Synsations Vol. 2 - 3 instruments inspired by digital maverick synths of the ‘90s
+    - [Bit Zone](https://www.uvi.net/bit-zone) - Massive polyphonic analog sounds inspired by an obscure Italian gem from the '80s
+    - [Cameo](https://www.uvi.net/cameo.html) - 3 instruments inspired by the distinct character of phase distortion synthesis
+    - [CS-M](https://www.uvi.net/cs-m.html) - 4-instrument suite delivering the analog sounds of the classic CS-series synths
+    - [Darklight IIx](https://www.uvi.net/darklight-iix.html) - 3 instruments inspired by the ultimate 80’s digital workstation
+    - [Digital Synsations](https://www.uvi.net/digital-synsations.html) - 4 instruments inspired by digital maverick synths of the ‘90s
+    - [Digital Synsations Vol. 2](https://www.uvi.net/digital-synsations-vol-2.html) - 3 instruments inspired by digital maverick synths of the ‘90s
     - [Emulation II+](https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html) - A modern creative exploration of 3 iconic sampler-synths and a lo-fi drum machine
       - 1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples
-    - Energy - The DK Synergy, a 32-oscillator additive synthesizer from the ‘80s
+    - [Energy](https://www.uvi.net/energy.html) - The DK Synergy, a 32-oscillator additive synthesizer from the ‘80s
     - [FM Suite](https://www.uvi.net/en/vintage-synth/fm-suite.html) - 5 instruments exploring a dynasty of vintage FM synths
       - 1,025 Presets, 103,394 Samples
-    - Hybrid 6000 - Powerful analog tones and drums from the quintessential SD synthesis workhorse
-    - JP Legacy - A heroic 4-instrument suite of legendary polyphonic analog synths
-    - Kroma - Based on the last polyphonic analog designed by ARP, and it’s little brother
-    - Mello - The origins of sampling—a sound that shaped the 60's
-    - OB Legacy - 6 instruments inspired by a legendary American synth designer
-    - Prime 8+ - A legend returns, the ultimate '80s analog drum machine brings the rhythm
+    - [Hybrid 6000](https://www.uvi.net/hybrid-6000) - Powerful analog tones and drums from the quintessential SD synthesis workhorse
+    - [JP Legacy](https://www.uvi.net/jp-legacy.html) - A heroic 4-instrument suite of legendary polyphonic analog synths
+    - [Kroma](https://www.uvi.net/kroma.html) - Based on the last polyphonic analog designed by ARP, and it’s little brother
+    - [Mello](https://www.uvi.net/mello.html) - The origins of sampling—a sound that shaped the 60's
+    - [OB Legacy](https://www.uvi.net/ob-legacy.html) - 6 instruments inspired by a legendary American synth designer
+    - [Prime 8+](https://www.uvi.net/prime-8-plus) - A legend returns, the ultimate '80s analog drum machine brings the rhythm
     - [Program 24](https://www.uvi.net/en/vintage-synth/program-24.html) - Hybrid digital/analog workstation synth from the peak of ‘80s Italo Disco
       - 220 Multi Kits, 9 Drum Presets with Kit settings and MIDI files, 9 handcrafted Drum Kits, 201 Drum MIDI files with drag'n drop, 18 Bass Presets, 20 Organ/String Presets, 21 Synth Presets in the 3 Accompaniment sections, 99 Arpeggiator Presets, 9,540 Samples
-    - PX Apollo - Based on a rare early ’70s prototype of the first polyphonic analog
-    - PX Memories - Based on the definitive LAMM mod analog synthesizer, with true analog unison
-    - PX P10 - Based on the iconic dual-keybed analog powerhouse of the ‘80s
-    - PX SunBox - A fiercely versatile modular 8-voice analog hybrid synth with morphable filters
-    - PX V8 - Based on an ultra-rare American polyphonic analog synthesizer
-    - String Machines 2 - Combine 62 vintage string synthesizers in a dual-layer instrument
-    - Super-7 - Essential '80s analog sound from two classic synths and a suite of drum machines
-    - Synthox - A dual-layer hybrid analog/FM synth packed with the sounds of a famous Italian
-    - The Beast - 3 instruments inspired by the stunning sounds of a famous '70s workstation
-    - U1250 - Inspired by the first ROMplers, the K250 and K1000
-    - UltraMini - The de facto analog mono synth, available in 1973 and 2011 flavors
-    - USQ-1 - Based on a cult-classic digital/analog hybrid workstation
-    - UVS-3200 - A tribute to the legendary Korg PS-3200
-    - UVX670 - Based on 2 classic Japanese analog polyphonic synths from the ‘80s
-    - UVX-10P - The glorious sound of ‘80s analog, inspired by three Japanese classics
-    - UVX-3P - Inspired by the huge analog sound of a famous Japanese synth
-    - UVX80 - Inspired by a rare Japanese 8-voice analog synth from the ‘80s
-    - Vector Pro - 3 instruments inspired by the famed beginnings of vector synthesis
-    - WaveRunner - A 7-instrument retrospective of German wavetable synth designs
+    - [PX Apollo](https://www.uvi.net/px-apollo.html) - Based on a rare early ’70s prototype of the first polyphonic analog
+    - [PX Memories](https://www.uvi.net/px-memories) - Based on the definitive LAMM mod analog synthesizer, with true analog unison
+    - [PX P10](https://www.uvi.net/px-p10.html) - Based on the iconic dual-keybed analog powerhouse of the ‘80s
+    - [PX SunBox](https://www.uvi.net/px-sunbox) - A fiercely versatile modular 8-voice analog hybrid synth with morphable filters
+    - [PX V8](https://www.uvi.net/px-v8.html) - Based on an ultra-rare American polyphonic analog synthesizer
+    - [String Machines 2](https://www.uvi.net/string-machines-2.html) - Combine 62 vintage string synthesizers in a dual-layer instrument
+    - [Super-7](https://www.uvi.net/super-7) - Essential '80s analog sound from two classic synths and a suite of drum machines
+    - [Synthox](https://www.uvi.net/synthox.html) - A dual-layer hybrid analog/FM synth packed with the sounds of a famous Italian
+    - [The Beast](https://www.uvi.net/the-beast.html) - 3 instruments inspired by the stunning sounds of a famous '70s workstation
+    - [U1250](https://www.uvi.net/u1250.html) - Inspired by the first ROMplers, the K250 and K1000
+    - [UltraMini](https://www.uvi.net/ultra-mini.html) - The de facto analog mono synth, available in 1973 and 2011 flavors
+    - [USQ-1](https://www.uvi.net/usq-1.html) - Based on a cult-classic digital/analog hybrid workstation
+    - [UVS-3200](https://www.uvi.net/uvs-3200.html) - A tribute to the legendary Korg PS-3200
+    - [UVX670](https://www.uvi.net/uvx670.html) - Based on 2 classic Japanese analog polyphonic synths from the ‘80s
+    - [UVX-10P](https://www.uvi.net/uvx-10p.html) - The glorious sound of ‘80s analog, inspired by three Japanese classics
+    - [UVX-3P](https://www.uvi.net/uvx-3p.html) - Inspired by the huge analog sound of a famous Japanese synth
+    - [UVX80](https://www.uvi.net/uvx80.html) - Inspired by a rare Japanese 8-voice analog synth from the ‘80s
+    - [Vector Pro](https://www.uvi.net/vector-pro.html) - 3 instruments inspired by the famed beginnings of vector synthesis
+    - [WaveRunner](https://www.uvi.net/waverunner.html) - A 7-instrument retrospective of German wavetable synth designs
 - [World Suite 2](https://www.uvi.net/en/music-genres/world-suite-2.html)
   - 66,460 Samples, 369 Instruments, 10,584 Loops & Phrases
 
