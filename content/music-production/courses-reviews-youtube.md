@@ -105,7 +105,10 @@ tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'l
 ## Music Production YouTube Channels
 Below is a list of my favourite music production YouTube channels
 - [343 Labs](https://www.youtube.com/@343labs) - teach Ableton Live, Logic Pro, Mixing & Mastering, Composition, Music Theory, Sound Design & Synthesis, Vocal Production and much more
+- [Ableton Tips by PML](https://www.youtube.com/@abletontips) - Ableton Live tips & tricks to elevate your music production game
 - [Accurate Beats](https://www.youtube.com/@AccurateBeats/) - music production, music gear and beatmaking
+- [Alex Rome](https://www.youtube.com/@AlexRome) - everything related to music production, beat making, and songwriting
+- [Alice Yalcin Efe - Mercurial Tones Academy](https://www.youtube.com/@Alice-Efe/videos) - anything related to electronic music, from advanced production methodologies to music documentaries and vlogs
 - [Andrew Huang](https://www.youtube.com/@andrewhuang/) - Canadian YouTube personality, musician & video producer
 - [Andertons](https://www.youtube.com/@AndertonsKeyboardDept/) - music hardware & software reviews
 - [Applied Acoustics Systems (AAS)](https://www.youtube.com/@AASphysicalmodeling/) - official YouTube Channel of Applied Acoustics Systems. Physical Modeling since 1998.
@@ -126,6 +129,7 @@ Below is a list of my favourite music production YouTube channels
   - [Great Drum Machines, Groove Boxes & Loopers](https://www.youtube.com/playlist?list=PL3zIryVDCWcUfwdjjUdgZTbyHvO6Jzd62)
   - [World's Best Synthesizers](https://www.youtube.com/playlist?list=PL3zIryVDCWcXtMRY-5M-WIAjpPufXT9hn)
 - [Dom Sigalas](https://www.youtube.com/@DomSigalas/) - music producer, film composer, and musicologist
+- [EDMProd](https://www.youtube.com/@EDMProd) - EDM production blog and resource site
 - [EDM Tips](https://www.youtube.com/@EDMTips/) - how to produce Electronic Dance Music like a pro! – Techno, House, Trance, Progressive and much, much more
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Gospel Musicians](https://www.youtube.com/@GospelMusicians/) - a plethora of instructional videos, software and resources for musicians
@@ -153,6 +157,7 @@ Below is a list of my favourite music production YouTube channels
 - [Liam Killen](https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g) - electronic music producer sharing how to create music
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
 - [LotusTunes Academy](https://www.youtube.com/@lotustunesacademy/) - learn about deep & organic house music production
+- [Martin Stürtzer](https://www.youtube.com/channel/UCGSSFkUjSBpDzA1aD4yq1zw) - an Ambient / Electronic / Dub Techno artist from Wuppertal (Germany). He works with analog, digital, hardware and virtual instruments to create Ambient, Electronic and Dub Techno music
 - [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
 - [Mattias Holmgren](https://www.youtube.com/@MattiasHolmgren/) - guides you in music production, sound design and creativity
 - [Mix with the Masters](https://www.youtube.com/@mixwiththemasters/) - offers the unique opportunity to work closely with the world’s top music mixers, producers and engineers and to improve one's skills in music production
@@ -189,6 +194,7 @@ Below is a list of my favourite music production YouTube channels
 - [Sounds Good](https://www.youtube.com/@SoundsGoodChannel) - educational videos about music
 - [Spectrasonics](https://www.youtube.com/@SpectrasonicsVIDEO/) - official Spectrasonics videos for Omnisphere & Keyscape
 - [State Azure](https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/) - electronic music producer from the UK
+- [Studio](https://www.youtube.com/@Studio) - hands-on learning platform for cultivating your creative side
 - [Sweetwater](https://www.youtube.com/@sweetwater/) - giving music makers the ultimate shopping experience
 - [Tom Salta](https://www.youtube.com/@TomSalta/) - ASCAP award-winning and BAFTA-nominated composer Tom Salta is one of the most versatile and prolific music artists/producers working in film, television, advertising, and video games
 - [True Cuckoo](https://www.youtube.com/@truecuckoo/) - taking synths, bleeps, dance and pop to the stage.
