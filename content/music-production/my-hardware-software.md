@@ -1,6 +1,6 @@
 ---
 title: "Music Production: My Hardware, Software & Sample Libraries"
-date: 2024-01-19T08:04:02+01:00
+date: 2024-01-21T11:07:09+01:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -692,3 +692,5 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - [All The Samples From Mars](https://samplesfrommars.com/products/all-products-from-mars)
     - All The Samples From Mars is a 62 GB collection of 75 sample packs, created over the past 10 years by extensively sampling their favorite (often rare and vintage) drum machines, synthesizers, samplers, custom vinyl, acoustic instruments and more. All of their samples have been painstakingly mapped to your favorite DAWs and samplers and recorded through some of the best recording equipment in the world. 
     - As of Jan 2024 there is an amazing 97% discount for their entire collection! (only $49, worth $2,067)
+    - Huge thanks to [John Selway](https://soundcloud.com/johnselway) from [343 Labs](https://www.youtube.com/@343labs) for making me aware of this library (& the discount) during one of his weekly livestreams
+      - [Making techno with Ableton's new synth DRIFT | Ableton tutorial](https://www.youtube.com/watch?v=6M8DRtkuU3c)

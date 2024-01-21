@@ -6,11 +6,11 @@
     <description>Recent content in spectrasonics on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Jan 2024 08:04:02 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/spectrasonics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 11:07:09 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/spectrasonics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Music Production: My Hardware &amp; Software</title>
+      <title>Music Production: My Hardware, Software &amp; Sample Libraries</title>
       <link>https://jamesm.blog/music-production/my-hardware-software/</link>
-      <pubDate>Fri, 19 Jan 2024 08:04:02 +0100</pubDate>
+      <pubDate>Sun, 21 Jan 2024 11:07:09 +0100</pubDate>
       
       <guid>https://jamesm.blog/music-production/my-hardware-software/</guid>
       <description>My Music Production Hardware (Current) Audio Interfaces Native Instruments Audio 6 MK1 Computers Laptops Alienware M17 (Windows 11) Macbook Air M1 (macOS Sonama) Computer Peripherals External Hard Disks Western Digital Elements (5TB) Flash Drives Integral USB 3.0 (128GB) SSDs Crucial P3 M.2 PCIe Gen3 (1TB) Fikwot FN501 Pro NVMe (1TB) Sandisk Extreme Pro Portable SSD (1TB) SSD Enclosures Orico M.2 NVMe SATA SSD Controller Keyboards Native Instruments Komplete Kontrol M32 Novation LaunchKey 61 DJ Controllers Native Instruments Traktor Kontrol S3 Drum Machines &amp;amp; Grooveboxes Native Instruments Maschine MK3 Portable Keyboards Yamaha EZ-300 Synthesizers Yamaha Motif ES8 My Music Production Hardware (Past) Computers Desktops Commodore 64 Commodore Amiga (500, 600 &amp;amp; 1500) Tower Dell T5400 Twin Quad Core Xeon 3.</description>
@@ -822,24 +822,64 @@
 </ul>
 </li>
 <li><a href="https://www.uvi.net/bit-zone">Bit Zone</a> - Massive polyphonic analog sounds inspired by an obscure Italian gem from the &rsquo;80s</li>
-<li><a href="https://www.uvi.net/cameo.html">Cameo</a> - 3 instruments inspired by the distinct character of phase distortion synthesis</li>
+<li><a href="https://www.uvi.net/cameo.html">Cameo</a> - 3 instruments inspired by the distinct character of phase distortion synthesis
+<ul>
+<li>Cameo CZ - incorporates a huge library of custom patches designed on the original hardware</li>
+<li>Cameo CX - dual-layer instrument with a large catalog of sounds and raw waveforms captured directly from the hardware instruments</li>
+<li>Cameo CM - another dual-layer instrument, but this time utilizing the wavetable oscillator and DSP shaping tools from Falcon</li>
+</ul>
+</li>
 <li><a href="https://www.uvi.net/cs-m.html">CS-M</a> - 4-instrument suite delivering the analog sounds of the classic CS-series synths</li>
-<li><a href="https://www.uvi.net/darklight-iix.html">Darklight IIx</a> - 3 instruments inspired by the ultimate 80’s digital workstation</li>
-<li><a href="https://www.uvi.net/digital-synsations.html">Digital Synsations</a> - 4 instruments inspired by digital maverick synths of the ‘90s</li>
-<li><a href="https://www.uvi.net/digital-synsations-vol-2.html">Digital Synsations Vol. 2</a> - 3 instruments inspired by digital maverick synths of the ‘90s</li>
+<li><a href="https://www.uvi.net/darklight-iix.html">Darklight IIx</a> - 3 instruments inspired by the ultimate 80’s digital workstation
+<ul>
+<li>Page P - Digital Synth</li>
+<li>Page B - Digital Drum Machine</li>
+<li>Page U - Creative Multi-Phraser</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/digital-synsations.html">Digital Synsations</a> - 4 instruments inspired by digital maverick synths of the ‘90s
+<ul>
+<li>DS1 - Korg M1</li>
+<li>DS77 -</li>
+<li>DS90s -</li>
+<li>DSX - Ensoniq VFX</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/digital-synsations-vol-2.html">Digital Synsations Vol. 2</a> - 3 instruments inspired by digital maverick synths of the ‘90s
+<ul>
+<li>DZmo</li>
+<li>DK5S</li>
+<li>DS-890</li>
+</ul>
+</li>
 <li><a href="https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html">Emulation II+</a> - A modern creative exploration of 3 iconic sampler-synths and a lo-fi drum machine
 <ul>
 <li>1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples</li>
+<li>Emulation I - Emulation I is a modern creative exploration of this vintage classic, delivering both old and all-new sounds</li>
+<li>Emulation II - 300 layers recorded directly from a fully-restored Emulator II, and again on the rare Oberheim DPX-1</li>
+<li>Emulation III - Featuring the original licensed sounds from OMI, you get over 240 layers recorded directly from the hardware</li>
 </ul>
 </li>
 <li><a href="https://www.uvi.net/energy.html">Energy</a> - The DK Synergy, a 32-oscillator additive synthesizer from the ‘80s</li>
 <li><a href="https://www.uvi.net/en/vintage-synth/fm-suite.html">FM Suite</a> - 5 instruments exploring a dynasty of vintage FM synths
 <ul>
 <li>1,025 Presets, 103,394 Samples</li>
+<li>FMX-1 XL - based on the fabled DX1 (1983), the top-of-the-line sibling to the popular DX7</li>
+<li>FMX-2 XL - a 4-operator variant of its big brother based on 3 more modest vintage FM synths; the DX21 (1985), DS8 (1987), and TQ5 (1988)</li>
+<li>FMX-8OP - based on the original 8-operator FM synthesizer, the FVX-1 (1988)</li>
+<li>FMX-4OP - a 4-operator variant of the FMX-8op</li>
+<li>FMX-GS - based on one of the original FM keyboards, the GS2</li>
 </ul>
 </li>
 <li><a href="https://www.uvi.net/hybrid-6000">Hybrid 6000</a> - Powerful analog tones and drums from the quintessential SD synthesis workhorse</li>
-<li><a href="https://www.uvi.net/jp-legacy.html">JP Legacy</a> - A heroic 4-instrument suite of legendary polyphonic analog synths</li>
+<li><a href="https://www.uvi.net/jp-legacy.html">JP Legacy</a> - A heroic 4-instrument suite of legendary polyphonic analog synths
+<ul>
+<li>SATURN-4 - 4-voice poly from 1978</li>
+<li>SATURN-6 - a true vintage gem, this 12-oscillator, 6-voice analog polysynth can create massively thick sounds - a pad and drone dream machine</li>
+<li>SATURN-8 - one of the most iconic analog synthesizers ever produced, and the brands flagship, this featured synth sports 16-oscillators on 8-voices with cross-modulation, sync, PWM, an HPF, variable LPF, an LFO and two EGs</li>
+<li>MERCURY-80 - 16-oscillator 8-voice super-synth came equipped with fully-analog VCOs and a low boost circuit</li>
+</ul>
+</li>
 <li><a href="https://www.uvi.net/kroma.html">Kroma</a> - Based on the last polyphonic analog designed by ARP, and it’s little brother</li>
 <li><a href="https://www.uvi.net/mello.html">Mello</a> - The origins of sampling—a sound that shaped the 60&rsquo;s</li>
 <li><a href="https://www.uvi.net/ob-legacy.html">OB Legacy</a> - 6 instruments inspired by a legendary American synth designer</li>
@@ -981,6 +1021,24 @@
 <li>Music Players
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Winamp">Winamp</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="my-music-production-sample-libraries">My Music Production Sample Libraries</h2>
+<ul>
+<li><a href="https://samplesfrommars.com/">Samples From Mars</a>
+<ul>
+<li><a href="https://samplesfrommars.com/products/all-products-from-mars">All The Samples From Mars</a>
+<ul>
+<li>All The Samples From Mars is a 62 GB collection of 75 sample packs, created over the past 10 years by extensively sampling their favorite (often rare and vintage) drum machines, synthesizers, samplers, custom vinyl, acoustic instruments and more. All of their samples have been painstakingly mapped to your favorite DAWs and samplers and recorded through some of the best recording equipment in the world.</li>
+<li>As of Jan 2024 there is an amazing 97% discount for their entire collection! (only $49, worth $2,067)</li>
+<li>Huge thanks to <a href="https://soundcloud.com/johnselway">John Selway</a> from <a href="https://www.youtube.com/@343labs">343 Labs</a> for making me aware of this library (&amp; the discount) during one of his weekly livestreams
+<ul>
+<li><a href="https://www.youtube.com/watch?v=6M8DRtkuU3c">Making techno with Ableton&rsquo;s new synth DRIFT | Ableton tutorial</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
