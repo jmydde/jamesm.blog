@@ -58,6 +58,7 @@ draft: false
   - The Communards
   - Tony Mortimer
   - Westlife
+  - Whitney Houston
   - Years & Years
   - Youngr
 - Rock
