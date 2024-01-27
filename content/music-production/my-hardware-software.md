@@ -232,6 +232,10 @@ AIR provides legendary virtual instruments, effects, expansions, sound packs and
 Apple Inc. is an American computer and consumer electronics company famous for creating the iPhone, iPad and Macintosh computers
 - [Logic Pro](https://www.apple.com/uk/logic-pro/)
 
+### Applied Acoustics Systems (AAS)
+- [Ultra Analog VA‑3](https://www.applied-acoustics.com/ultra-analog-va-3/)
+  - + all 20 expansion sound packs
+
 ### Arturia
 Arturia is a French electronics company who design and manufacture audio interfaces and electronic musical instruments, including software synthesizers, drum machines, analog synthesizers, digital synthesizers, MIDI controllers, sequencers, and mobile apps
 - [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
