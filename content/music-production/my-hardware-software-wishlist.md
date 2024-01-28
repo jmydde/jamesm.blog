@@ -1,6 +1,6 @@
 ---
 title: "Music Production: My Wishlists"
-date: 2024-01-13T09:20:02+01:00
+date: 2024-01-28T09:03:00+00:00
 draft: false
 tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -87,6 +87,38 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Nexus](https://refx.com/nexus/)
 - [Reveal Sound](https://www.reveal-sound.com/)
   - [Spire](https://www.reveal-sound.com/plug-ins/spire)
+- [Rob Papen](https://www.robpapen.com/)
+  - [EXPLORER-9](https://www.robpapen.com/explorer-9.html)
+    - [Albino-3](https://www.robpapen.com/albino-3-legend.html) - Legacy The legendary Virtual Synthesizer
+    - [Go2-X](https://www.robpapen.com/Go2-x.html) - Insane easy to use power Synthesizer
+    - [LowSane](https://www.robpapen.com/lowsane.html) - LoFi FX with additional Filters and the 'Disrupt Sphere'
+    - [BIT-2](https://www.robpapen.com/bit2.html) - The Ultimate Virtual Analog Synthesizer
+    - [BLUE-III](https://www.robpapen.com/blue3.html) - Cross-fusion Virtual Synthesizer
+    - [RevSane](https://www.robpapen.com/revsane.html) - Algorithm Reverb with 'Disrupt Sphere'
+    - [Predator-3](https://www.robpapen.com/Predator-3.html) - The Hybride Powerhouse!
+    - [RoCoder](https://www.robpapen.com/RoCoder.html) - Vocoder and much more!
+    - [DelSane](https://www.robpapen.com/DelSane.html) - The coolest Delay in this Galaxy!
+    - [RP-Distort 2](https://www.robpapen.com/rp-distort-2.html) - PowerHouse Distortion FX with Disrupt Sphere!
+    - [Punch 2](https://www.robpapen.com/Punch2.html) - Power drum machine with synthesis and sample-based
+    - [BLADE-2](https://www.robpapen.com/BLADE-2.html) - Cutting-edge Additive synthesis and more
+    - [Quad](https://www.robpapen.com/Quad-vst.html) - PhaseDistortion and WaveShaper synthesizer|
+    - [RAW](https://www.robpapen.com/raw.html) - Cutting-edge EDM synthesizer with a focus on 'distorted sounds.
+    - [XY-Transfer](https://www.robpapen.com/XY-Transfer.html) - XY-modulation FX multiprocessor
+    - [BIT](https://www.robpapen.com/bit.html) - Ultimate virtual analog synthesizer
+    - [Vecto](https://www.robpapen.com/Vecto-vst.html) - Four-oscillator vector synthesizer
+    - [Go2](https://www.robpapen.com/go2.html) - The power of limitations synthesizer
+    - [RAW-Kick](https://www.robpapen.com/RAW-Kick.html) - Edgy Kicks for contemporary dance music.
+    - [MasterMagic](https://www.robpapen.com/MasterMagic.html) - Adds a touch of magic for your Mix or Master.
+    - [SubBoomBass-2](https://www.robpapen.com/subboombass-2.html) - The ultimate bass synthesizer.
+    - [BLUE-II](https://www.robpapen.com/blue2.html) - Cross-fusion synthesis at its finest.
+    - [RG](https://www.robpapen.com/rg.html) - Electric and acoustic guitar grooves.
+    - [RP-VERB 2](https://www.robpapen.com/rp-verb2.html) - Most intriguing in RP-VERB 2 – alongside the great sound – is the new ‘Reverser’ section!
+    - [RP-Reverse](https://www.robpapen.com/rp-reverse.html) - Reverses the incoming audio in a creative way. 
+    - [RP-EQ](https://www.robpapen.com/rp-eq.html) - Silky smooth-sounding channel, and mastering EQ. 
+    - [Punch-BD](https://www.robpapen.com/Punch-BD.html) - Based on the BD module of the multi-award-winning Punch virtual drum synth,
+    - [RP-Delay](https://www.robpapen.com/rp-delay.html) - Delay insanity. Reverser, 6 lines, 8 filters, 4 LFOs, and more.
+    - [RP-Distort](https://www.robpapen.com/rp-distort.html) - Wicked FX unit that will distort or alter your tracks.
+    - [RP-Amod](https://www.robpapen.com/rp-amod.html) - Spice up your vocal track, liven an instrument, and even beef up your drums.
 - [Spektro Audio](https://spektroaudio.com/)
   - [ACDGEN](https://spektroaudio.com/acdgen) - Advanced Pattern Generator
   - [Polyform](https://spektroaudio.com/polyform) - Polyphonic MIDI Processor

@@ -131,6 +131,7 @@ Below is a list of my favourite music production YouTube channels
 - [Dom Sigalas](https://www.youtube.com/@DomSigalas/) - music producer, film composer, and musicologist
 - [EDMProd](https://www.youtube.com/@EDMProd) - EDM production blog and resource site
 - [EDM Tips](https://www.youtube.com/@EDMTips/) - how to produce Electronic Dance Music like a pro! – Techno, House, Trance, Progressive and much, much more
+- [Gear4music Synths & Tech](https://www.youtube.com/@Gear4musicSynthsTech) - discover the latest synths, samplers, and software, with valuable tips and advice along the way
 - [Glenn Main](https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/) - Norwegian electronic music composer
 - [Gospel Musicians](https://www.youtube.com/@GospelMusicians/) - a plethora of instructional videos, software and resources for musicians
 - [Guy Michelmore](https://www.youtube.com/@ThinkSpaceEducation/) (ThinkSpace Education)
