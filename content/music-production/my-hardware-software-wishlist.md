@@ -87,6 +87,8 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Nexus](https://refx.com/nexus/)
 - [Reveal Sound](https://www.reveal-sound.com/)
   - [Spire](https://www.reveal-sound.com/plug-ins/spire)
+- [Rhizomatic](https://rhizomatic.fr/)
+  - [Plasmonic](https://rhizomatic.fr/) - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists
 - [Rob Papen](https://www.robpapen.com/)
   - [EXPLORER-9](https://www.robpapen.com/explorer-9.html)
     - [Albino-3](https://www.robpapen.com/albino-3-legend.html) - Legacy The legendary Virtual Synthesizer
