@@ -8,13 +8,21 @@
     <language>en</language>
     <lastBuildDate>Mon, 29 Jan 2024 22:10:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/physical-modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Music Production: Physical Modeling Synths</title>
+      <title>Music Production: Physical Modeling Plugins</title>
       <link>https://jamesm.blog/music-production/physical-modeling-synths/</link>
       <pubDate>Mon, 29 Jan 2024 22:10:00 +0000</pubDate>
       
       <guid>https://jamesm.blog/music-production/physical-modeling-synths/</guid>
-      <description> Applied Acoustics Systems Chromaphone - creative synthesis with real-life acoustic character Ultra Analog VA-3 - performs as a unique and powerful synth that is fast, easy, and remarkably versatile Arturia Piano V - finest array of production-worthy pianos Expressive E imagine - a playful world of unknown acoustic sounds Modartt Pianoteq - award-winning virtual instrument Physical Audio Derailer - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements Preparation - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element Rhizomatic Plasmonic - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists </description>
-      <content:encoded><![CDATA[<ul>
+      <description>About Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.
+Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.
+Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.
+List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creative synthesis with real-life acoustic character Ultra Analog VA-3 - performs as a unique and powerful synth that is fast, easy, and remarkably versatile Arturia Piano V - finest array of production-worthy pianos Expressive E imagine - a playful world of unknown acoustic sounds Modartt Pianoteq - award-winning virtual instrument Physical Audio Derailer - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements Preparation - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element Rhizomatic Plasmonic - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists YouTube Videos Chromaphone 3 Piano V Plasmonic, Physical Modeling Software Synthesizer by Rhizomatic Ultra Analog VA-3 </description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.</p>
+<p>Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.</p>
+<p>Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.</p>
+<h2 id="list-of-physical-modeling-plugins">List of Physical Modeling Plugins</h2>
+<ul>
 <li><a href="https://www.applied-acoustics.com/">Applied Acoustics Systems</a>
 <ul>
 <li><a href="https://www.applied-acoustics.com/chromaphone-3/">Chromaphone</a> - creative synthesis with real-life acoustic character</li>
@@ -48,6 +56,31 @@
 </ul>
 </li>
 </ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h2 id="chromaphone-3">Chromaphone 3</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/AW0BfyWKIRI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="piano-v">Piano V</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/7qjx2FmMy1I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="plasmonic-physical-modeling-software-synthesizer-by-rhizomatic">Plasmonic, Physical Modeling Software Synthesizer by Rhizomatic</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/nS04DHdljKk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="ultra-analog-va-3">Ultra Analog VA-3</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/GK1S-5X7LOk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 ]]></content:encoded>
     </item>
     
