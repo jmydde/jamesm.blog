@@ -29,14 +29,26 @@ Because there are no samples, the file size of these plugins are just a tiny fra
 
 ## YouTube Videos
 
-## Chromaphone 3
+### Chromaphone
 {{< youtube AW0BfyWKIRI >}}
+
+### Derailer
+{{< youtube 3JFwlPCrcto >}}
+
+### Imagine
+{{< youtube pfQbfhBN0oQ >}}
 
 ### Piano V
 {{< youtube 7qjx2FmMy1I >}}
 
-### Plasmonic, Physical Modeling Software Synthesizer by Rhizomatic
+### Pianoteq
+{{< youtube sOIqPTNyyf0 >}}
+
+### Plasmonic
 {{< youtube nS04DHdljKk >}}
 
-## Ultra Analog VA-3
+### Preparation
+{{< youtube 2wL9TC-V19w >}}
+
+### Ultra Analog
 {{< youtube GK1S-5X7LOk >}}
