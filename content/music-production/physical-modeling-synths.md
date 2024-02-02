@@ -23,6 +23,7 @@ Because there are no samples, the file size of these plugins are just a tiny fra
   - [Pianoteq](https://www.modartt.com/pianoteq_overview) - award-winning virtual instrument
 - [Physical Audio](https://physicalaudio.co.uk/)
   - [Derailer](https://physicalaudio.co.uk/products/derailer/) - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements
+  - [Modus](https://physicalaudio.co.uk/products/modus/) - virtual world of conceptual instruments, modelled with cutting edge physical behaviours and acoustic properties
   - [Preparation](https://physicalaudio.co.uk/products/preparation/) - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element
 - [Rhizomatic](https://rhizomatic.fr/)
   - [Plasmonic](https://rhizomatic.fr/) - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists

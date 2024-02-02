@@ -509,6 +509,8 @@ Founded by veteran synth programmer and sound designer John Lehmkuhl, PlugInGuru
 ### ProjectSAM
 ProjectSAM creates award-winning cinematic sample libraries which are used in numerous film, game and series-scores all over the world
 - [The Free Orchestra](https://projectsam.com/series/the-free-orchestra)
+  - [The Free Orchestra 1](https://projectsam.com/libraries/the-free-orchestra)
+  - [The Free Orchestra 2](https://projectsam.com/libraries/the-free-orchestra-2)
 
 ### Spitfire Audio
 Spitfire Audio is an English technology company based in London that creates virtual instrument sample libraries used for music production

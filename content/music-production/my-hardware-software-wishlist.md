@@ -67,6 +67,8 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Phoscyon2](https://d16.pl/phoscyon2)
   - [Punchbox](https://d16.pl/punchbox)
   - [TotalBundle](https://d16.pl/totalbundle)
+- [Emergence Audio](https://emergenceaudio.com/)
+  - [Viola Textures](https://emergenceaudio.com/product/viola-textures/)
 - [Fors](https://fors.fm/)
   - [Opal](https://fors.fm/opal) - Rhythm machine & drum synthesizer
   - [Superberry](https://fors.fm/superberry) - Delicious superwave
@@ -168,6 +170,8 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 - [Synthogy](https://synthogy.com/)
   - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
   - Ivory III Grand Pianos (not released for Mac yet)
+- [The Crow Hill Company](https://thecrowhillcompany.com/)
+  - [String Murmurations](https://thecrowhillcompany.com/string-murmurations/)
 - [Toontrack](https://www.toontrack.com/)
   - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/)
   - [EZkeys 2](https://www.toontrack.com/ezkeys-line/)
