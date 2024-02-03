@@ -239,8 +239,38 @@ Apple Inc. is an American computer and consumer electronics company famous for c
 ### Arturia
 Arturia is a French electronics company who design and manufacture audio interfaces and electronic musical instruments, including software synthesizers, drum machines, analog synthesizers, digital synthesizers, MIDI controllers, sequencers, and mobile apps
 - [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
-- [FX Collection](https://www.arturia.com/products/software-effects/fx-collection/overview)
-- [V Collection](https://www.arturia.com/products/software-instruments/v-collection/overview)
+- [FX Collection 4](https://www.arturia.com/products/software-effects/fx-collection/overview)
+  - [Bus FORCE](https://www.arturia.com/products/software-effects/bus-force/overview) - parallel processor effect designed with one aim: to make anything sound better
+  - Chorus DIMENSION-D
+  - [Chorus JUN-6](https://www.arturia.com/products/software-effects/chorus-jun-6/overview) - based on the iconic stereo effect found in the Juno polysynth series from the ‘80s, complete with faithful BBD analog warmth, an authentic 3-mode layout, and flexible modern controls to find your own modulation flavor
+  - Comp DIODE-609
+  - Comp FET-76
+  - Comp TUBE-STA
+  - Comp VCA-65
+  - Delay BRIGADE
+  - Delay ETERNITY
+  - [Delay TAPE-201](https://www.arturia.com/products/software-effects/delay-tape201/overview) - gives you everything you love about the sound of vintage hardware tape delays, but with the reliability and versatility of software
+  - [Dist COLDFIRE](https://www.arturia.com/products/software-effects/dist-coldfire/overview) - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks
+  - Dist OPAMP-21
+  - Dist TUBE-CULTURE
+  - [EQ SITRAL-295](https://www.arturia.com/products/software-effects/eq-sitral-295/overview) - highly musical equalizer effect based on an elusive transistor broadcast console, known for its warm, characterful sound
+  - Efx FRAGMENTS
+  - Filter M12
+  - Filter MINI
+  - [Filter MS-20](https://www.arturia.com/products/software-effects/filter-ms-20/overview) - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer
+  - Filter SEM
+  - Flanger BL-20
+  - Phaser BI-TRON
+  - Pre 1973
+  - Pre TridA
+  - Pre V76
+  - Rev INTENSITY
+  - [Rev LX-24](https://www.arturia.com/products/software-effects/rev-lx-24/overview) - enhanced virtual replica of a retro ambience box that defined reverb for a generation
+  - Rev PLATE-140
+  - Rev SPRING-636
+  - Rotary CLS-222
+  - Tape MELLO-FI
+- [V Collection X](https://www.arturia.com/products/software-instruments/v-collection/overview)
   - V Collection X now includes 39 instruments & 10,000 high-quality presets
     - 2 new instruments: CP-70 & Augmented Woodwinds
     - 2 added instruments: Mini Freak V & Acid V
