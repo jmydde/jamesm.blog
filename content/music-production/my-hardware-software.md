@@ -239,6 +239,7 @@ Apple Inc. is an American computer and consumer electronics company famous for c
 ### Arturia
 Arturia is a French electronics company who design and manufacture audio interfaces and electronic musical instruments, including software synthesizers, drum machines, analog synthesizers, digital synthesizers, MIDI controllers, sequencers, and mobile apps
 - [Efx MOTIONS](https://www.arturia.com/products/software-effects/efx-motions/overview)
+- [Efx REFRACT](https://www.arturia.com/products/software-effects/efx-refract/overview) - stereo multi-effect with versatility at its core
 - [FX Collection 4](https://www.arturia.com/products/software-effects/fx-collection/overview)
   - [Bus FORCE](https://www.arturia.com/products/software-effects/bus-force/overview) - parallel processor effect designed with one aim: to make anything sound better
   - Chorus DIMENSION-D
@@ -278,7 +279,8 @@ Arturia is a French electronics company who design and manufacture audio interfa
   - **Instrument List**
     - ARP 2600 V
     - Acid V
-    - [Analog Lab Pro](https://www.arturia.com/products/software-instruments/analoglab/overview)
+    - [Analog Lab Pro](https://www.arturia.com/products/software-instruments/analoglab/overview) - software instrument combining a world-class library of modern & vintage presets with instant-access controls and workflow integration
+      - 2000+ presets, 4+GB library
     - Augmented BRASS
     - Augmented GRAND PIANO
     - Augmented STRINGS
@@ -307,8 +309,8 @@ Arturia is a French electronics company who design and manufacture audio interfa
     - MiniFreak V
     - Modular V
     - OP-Xa V
-    - [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview)
-    - [Pigments](https://www.arturia.com/products/software-instruments/pigments/overview)
+    - [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview) - finest array of production-worthy pianos, from luxurious German concert grands to contemporary metal and glass-framed designs, brought to life with dynamic physical modeling and infused with unprecedented tonal control - all in a single instrument
+    - [Pigments](https://www.arturia.com/products/software-instruments/pigments/overview) - software VST with the power to create any sound, from the best mix-ready modern presets to deep custom sound design
     - Prophet-5 V
     - Prophet-VS V
     - SEM V
