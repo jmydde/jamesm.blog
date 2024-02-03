@@ -416,7 +416,7 @@ Ableton Ableton Note - A place to start musical ideas AudioKit Pro AudioKit Synt
     </item>
     
     <item>
-      <title>Music Production: My Hardware, Software &amp; Sample Libraries</title>
+      <title>Music Production: My Hardware &amp; Software</title>
       <link>https://jamesm.blog/music-production/my-hardware-software/</link>
       <pubDate>Sun, 21 Jan 2024 11:07:09 +0100</pubDate>
       
@@ -556,11 +556,9 @@ Ableton Ableton Note - A place to start musical ideas AudioKit Pro AudioKit Synt
 <li>Complete studio – 70+ GB of sounds and all devices</li>
 <li>Software Instruments
 <ul>
-<li>Analog</li>
+<li><a href="https://www.ableton.com/en/packs/analog/">Analog</a> - emulates the unique circuitry and irresistible tweakability of vintage analog synthesizers</li>
 <li>Bass</li>
-<li>Collision</li>
-<li>CV Instrument</li>
-<li>CV Triggers</li>
+<li><a href="https://www.ableton.com/en/packs/collision/">Collision</a> - unique physical modeling instrument for authentic mallet sounds and creative percussion</li>
 <li>Drift</li>
 <li>Drum Rack</li>
 <li>Drum Synths</li>
@@ -592,13 +590,6 @@ Ableton Ableton Note - A place to start musical ideas AudioKit Pro AudioKit Synt
 <li>Compressor</li>
 <li>Convolution Reverb</li>
 <li>Corpus</li>
-<li>CV Clock In</li>
-<li>CV Clock Out</li>
-<li>CV Envelope Follower</li>
-<li>CV In</li>
-<li>CV LFO</li>
-<li>CV Shaper</li>
-<li>CV Utility</li>
 <li>Delay</li>
 <li>Drum Buss</li>
 <li>Dynamic Tube</li>
@@ -642,6 +633,40 @@ Ableton Ableton Note - A place to start musical ideas AudioKit Pro AudioKit Synt
 <li>Packs
 <ul>
 <li>Chop and Swing</li>
+<li><a href="https://www.ableton.com/en/packs/cv-tools/">CV Tools</a> - 10 creative Max for Live devices that let you control your modular gear with Ableton Live and Push
+<ul>
+<li>Instruments
+<ul>
+<li>CV Instrument - features flexible modulation and voicing options, as well as cent-accurate tuning of your oscillators</li>
+<li>CV Triggers - sequence your modular drum modules from inside</li>
+</ul>
+</li>
+<li>Utility
+<ul>
+<li>CV Utility - control your modular with automation curves from Live</li>
+</ul>
+</li>
+<li>Synchronization
+<ul>
+<li>CV Clock In - control Live&rsquo;s tempo from your Eurorack system</li>
+<li>CV Clock Out - send CV clock out to your modular and sync it to Live</li>
+</ul>
+</li>
+<li>Modulation
+<ul>
+<li>CV Envelope Follower - control your modular with audio signals from inside Live</li>
+<li>CV LFO - instantly add more LFOs to your modular system</li>
+<li>CV In - use your modular to modulate parameters in Live</li>
+<li>CV Shaper - create flexible CV shapes in Live then send them to your modular rig</li>
+</ul>
+</li>
+<li>MIDI Effect
+<ul>
+<li>Rotating Rhythm Generator - create organic rhythms and experiment with modular-style beat and polyrhythm generation</li>
+</ul>
+</li>
+</ul>
+</li>
 <li>Beat Tools</li>
 <li>Build and Drop</li>
 <li>Brass Quartet</li>

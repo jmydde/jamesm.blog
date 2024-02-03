@@ -1,5 +1,5 @@
 ---
-title: "Music Production: My Hardware, Software & Sample Libraries"
+title: "Music Production: My Hardware & Software"
 date: 2024-01-21T11:07:09+01:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
@@ -66,11 +66,9 @@ Ableton AG is a German music software company that produces and distributes the 
 - [Ableton Live 12 Suite](https://www.ableton.com/en/shop/live/)
   - Complete studio – 70+ GB of sounds and all devices
   - Software Instruments
-    - Analog
+    - [Analog](https://www.ableton.com/en/packs/analog/) - emulates the unique circuitry and irresistible tweakability of vintage analog synthesizers
     - Bass
-    - Collision
-    - CV Instrument
-    - CV Triggers
+    - [Collision](https://www.ableton.com/en/packs/collision/) - unique physical modeling instrument for authentic mallet sounds and creative percussion
     - Drift
     - Drum Rack
     - Drum Synths
@@ -99,13 +97,6 @@ Ableton AG is a German music software company that produces and distributes the 
     - Compressor
     - Convolution Reverb
     - Corpus
-    - CV Clock In
-    - CV Clock Out
-    - CV Envelope Follower
-    - CV In
-    - CV LFO
-    - CV Shaper
-    - CV Utility
     - Delay
     - Drum Buss
     - Dynamic Tube
@@ -146,6 +137,22 @@ Ableton AG is a German music software company that produces and distributes the 
     - Vocoder
   - Packs
     - Chop and Swing
+    - [CV Tools](https://www.ableton.com/en/packs/cv-tools/) - 10 creative Max for Live devices that let you control your modular gear with Ableton Live and Push
+      - Instruments
+        - CV Instrument - features flexible modulation and voicing options, as well as cent-accurate tuning of your oscillators
+        - CV Triggers - sequence your modular drum modules from inside
+      - Utility
+        - CV Utility - control your modular with automation curves from Live
+      - Synchronization
+        - CV Clock In - control Live's tempo from your Eurorack system
+        - CV Clock Out - send CV clock out to your modular and sync it to Live
+      - Modulation
+        - CV Envelope Follower - control your modular with audio signals from inside Live
+        - CV LFO - instantly add more LFOs to your modular system
+        - CV In - use your modular to modulate parameters in Live
+        - CV Shaper - create flexible CV shapes in Live then send them to your modular rig
+      - MIDI Effect
+        - Rotating Rhythm Generator - create organic rhythms and experiment with modular-style beat and polyrhythm generation
     - Beat Tools
     - Build and Drop
     - Brass Quartet
