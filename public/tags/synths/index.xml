@@ -6,27 +6,36 @@
     <description>Recent content in synths on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Feb 2024 21:51:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/synths/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2024 11:24:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/synths/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Music Production: Physical Modeling Plugins</title>
+      <title>Music Production: Physical Modeling</title>
       <link>https://jamesm.blog/music-production/physical-modeling-synths/</link>
-      <pubDate>Fri, 02 Feb 2024 21:51:00 +0000</pubDate>
+      <pubDate>Sat, 03 Feb 2024 11:24:00 +0000</pubDate>
       
       <guid>https://jamesm.blog/music-production/physical-modeling-synths/</guid>
       <description>About Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.
-Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.
-Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.
-List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creative synthesis with real-life acoustic character Ultra Analog VA-3 - performs as a unique and powerful synth that is fast, easy, and remarkably versatile Arturia Piano V - finest array of production-worthy pianos Expressive E imagine - a playful world of unknown acoustic sounds Modartt Pianoteq - award-winning virtual instrument Physical Audio Derailer - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements Modus - virtual world of conceptual instruments, modelled with cutting edge physical behaviours and acoustic properties Preparation - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element Rhizomatic Plasmonic - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists YouTube Videos Chromaphone Derailer Imagine Modus Piano V Pianoteq Plasmonic Preparation Ultra Analog </description>
+Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments. Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments. This is an excellent overview of physical modeling compared to sampling;</description>
       <content:encoded><![CDATA[<h2 id="about">About</h2>
 <p>Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.</p>
-<p>Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.</p>
-<p>Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.</p>
-<h2 id="list-of-physical-modeling-plugins">List of Physical Modeling Plugins</h2>
+<ul>
+<li>Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.</li>
+<li>Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.</li>
+</ul>
+<p>This is an excellent overview of physical modeling compared to sampling;</p>
+<ul>
+<li><a href="https://www.arturia.com/phi">https://www.arturia.com/phi</a></li>
+</ul>
+<h2 id="physical-modeling-plugins">Physical Modeling Plugins</h2>
 <ul>
 <li><a href="https://www.applied-acoustics.com/">Applied Acoustics Systems</a>
 <ul>
 <li><a href="https://www.applied-acoustics.com/chromaphone-3/">Chromaphone</a> - creative synthesis with real-life acoustic character</li>
 <li><a href="https://www.applied-acoustics.com/ultra-analog-va-3/">Ultra Analog VA-3</a> - performs as a unique and powerful synth that is fast, easy, and remarkably versatile</li>
+</ul>
+</li>
+<li><a href="https://audiomodeling.com/">Audio Modeling</a>
+<ul>
+<li><a href="https://audiomodeling.com/sections/swam-string-sections/">SWAM String Sections</a> - truly innovative suite of four plug-ins, corresponding to the orchestra sections Violins, Violas, Cellos, and Double Basses, and based on Audio Modeling’s exclusive modeling technology</li>
 </ul>
 </li>
 <li><a href="https://www.arturia.com/">Arturia</a>
@@ -104,6 +113,12 @@ List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creati
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/2wL9TC-V19w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="swam-string-sections">SWAM String Sections</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/ln_vqLmNGUU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="ultra-analog">Ultra Analog</h3>

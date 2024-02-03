@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>controllers on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/controllers/</link>
+    <description>Recent content in controllers on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Feb 2024 11:24:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/controllers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Production: MPE Controllers</title>
+      <link>https://jamesm.blog/music-production/mpe-midi-controllers/</link>
+      <pubDate>Sat, 03 Feb 2024 11:24:00 +0000</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/mpe-midi-controllers/</guid>
+      <description>About MIDI Polyphonic Expression (MPE) is a method of using MIDI that enables pitch bend, and other dimensions of expressive control, to be adjusted continuously for individual notes.
+MPE Controllers Roli LUMI Keys Studio Edition Seaboard BLOCK M Seaboard RISE 2 YouTube Videos LUMI Keys Studio Edition Seaboard BLOCK M Seaboard RISE 2 </description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>MIDI Polyphonic Expression (MPE) is a method of using MIDI that enables pitch bend, and other dimensions of expressive control, to be adjusted continuously for individual notes.</p>
+<h3 id="mpe-controllers">MPE Controllers</h3>
+<ul>
+<li><a href="https://roli.com/">Roli</a>
+<ul>
+<li><a href="https://roli.com/products/blocks/lumi-keys-studio-edition">LUMI Keys Studio Edition</a></li>
+<li><a href="https://roli.com/products/blocks/seaboard-block-m">Seaboard BLOCK M</a></li>
+<li><a href="https://roli.com/products/seaboard/rise2">Seaboard RISE 2</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h3 id="lumi-keys-studio-edition">LUMI Keys Studio Edition</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/LAmHvkCt-7g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="seaboard-block-m">Seaboard BLOCK M</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/4kAr2wnvwO0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="seaboard-rise-2">Seaboard RISE 2</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/CAR0_PmGQg0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
