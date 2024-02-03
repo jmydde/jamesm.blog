@@ -77,13 +77,13 @@ Ableton AG is a German music software company that produces and distributes the 
     - Granulator III
     - Impulse
     - Instrument Rack
-    - Operator
+    - [Operator](https://www.ableton.com/en/packs/operator/) - versatile, easy-to-use and great-sounding software instrument combining classic analog sounds and frequency modulation synthesis
     - Meld (New in Live 12)
     - Poli
-    - Sampler
+    - [Sampler](https://www.ableton.com/en/packs/sampler/) - sampling instrument that brings powerful multisample playback as well as profound sound design capabilities to Ableton Live
     - Simpler
-    - Tension
-    - Wavetable
+    - [Tension](https://www.ableton.com/en/packs/tension/) - physical modeling string synthesizer capable of creating incredibly accurate reproductions of real stringed instruments or otherworldly hybrids
+    - [Wavetable](https://www.ableton.com/en/packs/wavetable/) - stretch, shape and morph sounds into a broad sound palette using wavetables derived from synths, acoustic instruments, noise and much more
   - Audio Effects
     - Align Delay
     - Amp

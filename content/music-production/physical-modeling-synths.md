@@ -13,6 +13,8 @@ This is an excellent overview of physical modeling compared to sampling;
 - https://www.arturia.com/phi
 
 ## Physical Modeling Plugins
+- [Ableton](https://www.ableton.com/)
+  - [Tension](https://www.ableton.com/en/packs/tension/) - physical modeling string synthesizer capable of creating incredibly accurate reproductions of real stringed instruments or otherworldly hybrids
 - [Applied Acoustics Systems](https://www.applied-acoustics.com/)
   - [Chromaphone](https://www.applied-acoustics.com/chromaphone-3/) - creative synthesis with real-life acoustic character
   - [Ultra Analog VA-3](https://www.applied-acoustics.com/ultra-analog-va-3/) - performs as a unique and powerful synth that is fast, easy, and remarkably versatile
@@ -59,6 +61,9 @@ This is an excellent overview of physical modeling compared to sampling;
 
 ### SWAM String Sections
 {{< youtube ln_vqLmNGUU >}}
+
+### Tension
+{{< youtube 2MwHWcj8yH4 >}}
 
 ### Ultra Analog
 {{< youtube GK1S-5X7LOk >}}
