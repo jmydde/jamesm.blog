@@ -512,6 +512,9 @@ ProjectSAM creates award-winning cinematic sample libraries which are used in nu
   - [The Free Orchestra 1](https://projectsam.com/libraries/the-free-orchestra)
   - [The Free Orchestra 2](https://projectsam.com/libraries/the-free-orchestra-2)
 
+### Reveal Sound
+- [Spire](https://www.reveal-sound.com/plug-ins/spire) - polyphonic synthesizer that combines powerful sound engine modulation with flexible architecture and a graphical interface that provides unparalleled usability
+
 ### Spitfire Audio
 Spitfire Audio is an English technology company based in London that creates virtual instrument sample libraries used for music production
 - [BBC Symphony Orchestra Discover](https://www.spitfireaudio.com/bbc-symphony-orchestra-discover)

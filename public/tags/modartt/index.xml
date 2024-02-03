@@ -269,11 +269,6 @@ Ableton Ableton Note - A place to start musical ideas AudioKit Pro AudioKit Synt
 <li><a href="https://refx.com/nexus/">Nexus</a></li>
 </ul>
 </li>
-<li><a href="https://www.reveal-sound.com/">Reveal Sound</a>
-<ul>
-<li><a href="https://www.reveal-sound.com/plug-ins/spire">Spire</a></li>
-</ul>
-</li>
 <li><a href="https://rhizomatic.fr/">Rhizomatic</a>
 <ul>
 <li><a href="https://rhizomatic.fr/">Plasmonic</a> - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists</li>
@@ -393,6 +388,7 @@ Ableton Ableton Note - A place to start musical ideas AudioKit Pro AudioKit Synt
 </li>
 <li><a href="https://thecrowhillcompany.com/">The Crow Hill Company</a>
 <ul>
+<li><a href="https://thecrowhillcompany.com/small-string-gestures/">Small String Gestures</a></li>
 <li><a href="https://thecrowhillcompany.com/string-murmurations/">String Murmurations</a></li>
 </ul>
 </li>
@@ -1119,6 +1115,10 @@ Ableton Ableton Note - A place to start musical ideas AudioKit Pro AudioKit Synt
 <li><a href="https://projectsam.com/libraries/the-free-orchestra-2">The Free Orchestra 2</a></li>
 </ul>
 </li>
+</ul>
+<h3 id="reveal-sound">Reveal Sound</h3>
+<ul>
+<li><a href="https://www.reveal-sound.com/plug-ins/spire">Spire</a> - polyphonic synthesizer that combines powerful sound engine modulation with flexible architecture and a graphical interface that provides unparalleled usability</li>
 </ul>
 <h3 id="spitfire-audio">Spitfire Audio</h3>
 <p>Spitfire Audio is an English technology company based in London that creates virtual instrument sample libraries used for music production</p>

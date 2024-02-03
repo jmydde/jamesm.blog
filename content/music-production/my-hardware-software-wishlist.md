@@ -87,8 +87,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Vivid Strings](https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/)
 - [reFX](https://refx.com/)
   - [Nexus](https://refx.com/nexus/)
-- [Reveal Sound](https://www.reveal-sound.com/)
-  - [Spire](https://www.reveal-sound.com/plug-ins/spire)
 - [Rhizomatic](https://rhizomatic.fr/)
   - [Plasmonic](https://rhizomatic.fr/) - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists
 - [Rob Papen](https://www.robpapen.com/)
@@ -171,6 +169,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
   - Ivory III Grand Pianos (not released for Mac yet)
 - [The Crow Hill Company](https://thecrowhillcompany.com/)
+  - [Small String Gestures](https://thecrowhillcompany.com/small-string-gestures/)
   - [String Murmurations](https://thecrowhillcompany.com/string-murmurations/)
 - [Toontrack](https://www.toontrack.com/)
   - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/)

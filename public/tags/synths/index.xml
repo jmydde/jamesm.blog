@@ -6,17 +6,17 @@
     <description>Recent content in synths on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jan 2024 22:10:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/synths/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Feb 2024 21:51:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/synths/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music Production: Physical Modeling Plugins</title>
       <link>https://jamesm.blog/music-production/physical-modeling-synths/</link>
-      <pubDate>Mon, 29 Jan 2024 22:10:00 +0000</pubDate>
+      <pubDate>Fri, 02 Feb 2024 21:51:00 +0000</pubDate>
       
       <guid>https://jamesm.blog/music-production/physical-modeling-synths/</guid>
       <description>About Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.
 Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.
 Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.
-List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creative synthesis with real-life acoustic character Ultra Analog VA-3 - performs as a unique and powerful synth that is fast, easy, and remarkably versatile Arturia Piano V - finest array of production-worthy pianos Expressive E imagine - a playful world of unknown acoustic sounds Modartt Pianoteq - award-winning virtual instrument Physical Audio Derailer - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements Modus - virtual world of conceptual instruments, modelled with cutting edge physical behaviours and acoustic properties Preparation - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element Rhizomatic Plasmonic - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists YouTube Videos Chromaphone Derailer Imagine Piano V Pianoteq Plasmonic Preparation Ultra Analog </description>
+List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creative synthesis with real-life acoustic character Ultra Analog VA-3 - performs as a unique and powerful synth that is fast, easy, and remarkably versatile Arturia Piano V - finest array of production-worthy pianos Expressive E imagine - a playful world of unknown acoustic sounds Modartt Pianoteq - award-winning virtual instrument Physical Audio Derailer - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements Modus - virtual world of conceptual instruments, modelled with cutting edge physical behaviours and acoustic properties Preparation - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element Rhizomatic Plasmonic - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists YouTube Videos Chromaphone Derailer Imagine Modus Piano V Pianoteq Plasmonic Preparation Ultra Analog </description>
       <content:encoded><![CDATA[<h2 id="about">About</h2>
 <p>Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.</p>
 <p>Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.</p>
@@ -74,6 +74,12 @@ List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creati
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/pfQbfhBN0oQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="modus">Modus</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/0A3owLswXro" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="piano-v">Piano V</h3>
@@ -302,11 +308,6 @@ List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creati
 <li><a href="https://refx.com/nexus/">Nexus</a></li>
 </ul>
 </li>
-<li><a href="https://www.reveal-sound.com/">Reveal Sound</a>
-<ul>
-<li><a href="https://www.reveal-sound.com/plug-ins/spire">Spire</a></li>
-</ul>
-</li>
 <li><a href="https://rhizomatic.fr/">Rhizomatic</a>
 <ul>
 <li><a href="https://rhizomatic.fr/">Plasmonic</a> - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists</li>
@@ -426,6 +427,7 @@ List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creati
 </li>
 <li><a href="https://thecrowhillcompany.com/">The Crow Hill Company</a>
 <ul>
+<li><a href="https://thecrowhillcompany.com/small-string-gestures/">Small String Gestures</a></li>
 <li><a href="https://thecrowhillcompany.com/string-murmurations/">String Murmurations</a></li>
 </ul>
 </li>
@@ -1152,6 +1154,10 @@ List of Physical Modeling Plugins Applied Acoustics Systems Chromaphone - creati
 <li><a href="https://projectsam.com/libraries/the-free-orchestra-2">The Free Orchestra 2</a></li>
 </ul>
 </li>
+</ul>
+<h3 id="reveal-sound">Reveal Sound</h3>
+<ul>
+<li><a href="https://www.reveal-sound.com/plug-ins/spire">Spire</a> - polyphonic synthesizer that combines powerful sound engine modulation with flexible architecture and a graphical interface that provides unparalleled usability</li>
 </ul>
 <h3 id="spitfire-audio">Spitfire Audio</h3>
 <p>Spitfire Audio is an English technology company based in London that creates virtual instrument sample libraries used for music production</p>

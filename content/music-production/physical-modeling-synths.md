@@ -1,6 +1,6 @@
 ---
 title: "Music Production: Physical Modeling Plugins"
-date: 2024-01-29T22:10:00+00:00
+date: 2024-02-02T21:51:00+00:00
 draft: false
 tags: ['physical modeling', 'synths']
 ---
@@ -38,6 +38,9 @@ Because there are no samples, the file size of these plugins are just a tiny fra
 
 ### Imagine
 {{< youtube pfQbfhBN0oQ >}}
+
+### Modus
+{{< youtube 0A3owLswXro >}}
 
 ### Piano V
 {{< youtube 7qjx2FmMy1I >}}
