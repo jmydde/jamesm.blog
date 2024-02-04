@@ -37,3 +37,6 @@ tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 
 * **tensorflow** - free and open-source software library for machine learning and artificial intelligence
 * **tmux** - Run multiple terminal sessions within the same window
 * **youtube-dl** - YouTube downloader
+
+## Related Pages
+- [Mac Utilities]({{< ref "/devops/mac-utils" >}})

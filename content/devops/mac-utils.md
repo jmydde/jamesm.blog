@@ -4,6 +4,7 @@ date: 2024-02-04T09:42:00+01:00
 draft: false
 tags: ['mac', 'macos', 'tools', 'utilities']
 ---
+## Utilities
 - [Alfred](https://www.alfredapp.com/) - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) - powerful keep-awake utility
 - [CleanMyMac](https://cleanmymac.com/) - cleanup utility for macOS
@@ -18,6 +19,7 @@ tags: ['mac', 'macos', 'tools', 'utilities']
 - [Kaleidoscope](https://kaleidoscope.app/) - spot the differences in text and image files, or even folders full of files
 - [LastPass](https://www.lastpass.com/) - password manager
 - [Loom](https://www.loom.com/) - screen recorder
+- [MindNode](https://www.mindnode.com/) - capture, organize, style and share your thoughts
 - [NordPVN](https://nordvpn.com/) - VPN
 - [Notion](https://www.notion.so/) - single space where you can think, write, and plan
 - [OmniPlayer Pro](https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237) - play or cast video audio media
@@ -26,3 +28,7 @@ tags: ['mac', 'macos', 'tools', 'utilities']
 - [Pure Paste](https://sindresorhus.com/pure-paste) - paste as plain text by default
 - [Slack](https://slack.com/) - messaging app
 - [The Unarchiver](https://theunarchiver.com/) - open any type of archive file
+- [VLC](https://www.videolan.org/vlc/download-macosx.html) - free & open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols
+
+## Related Pages
+- [Mac Homebrew Packages]({{< ref "/devops/mac-brew-packages" >}})
