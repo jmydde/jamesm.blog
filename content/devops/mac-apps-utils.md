@@ -5,6 +5,7 @@ draft: false
 tags: ['mac', 'macos', 'tools', 'utilities']
 ---
 ## Mac Applications
+A list of recommended Mac applications ...
 - [Microsoft 365](https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac)
   - [Excel](https://www.microsoft.com/en-ie/microsoft-365/excel)
   - [OneDrive](https://apps.apple.com/us/app/onedrive/id823766827)
@@ -20,6 +21,7 @@ tags: ['mac', 'macos', 'tools', 'utilities']
 - [Slack](https://slack.com/) - messaging app
 
 ## Mac Utilities
+A list of recommended Mac utilities ...
 - [Alfred](https://www.alfredapp.com/) - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) - powerful keep-awake utility
 - [CleanMyMac](https://cleanmymac.com/) - cleanup utility for macOS

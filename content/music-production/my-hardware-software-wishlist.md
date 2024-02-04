@@ -55,10 +55,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
     - [Prophet X](https://sequential.com/product/prophet-x/)
 
 ## My Music Production Software Wishlist
-- [Applied Acoustics Systems (AAS)](https://www.applied-acoustics.com/)
-  - [Lounge Lizard EP-4](https://www.applied-acoustics.com/lounge-lizard-ep-4/)
-  - [String Studio VS-3](https://www.applied-acoustics.com/string-studio-vs-3/)
-  - [Strum GS-2](https://www.applied-acoustics.com/strum-gs-2/)
 - [Bitwig](https://www.bitwig.com/)
   - [Bitwig Studio](https://www.bitwig.com/overview/)
 - [boz Digital Labs](https://www.bozdigitallabs.com/)
@@ -90,6 +86,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Steinway Model B](https://www.modartt.com/modelb)
 - [PlugInGuru](https://www.pluginguru.com/)
   - (many !)
+- [Pro Tools](https://www.avid.com/pro-tools) - makes music creation fast and fluid, providing a complete set of tools to create, record, edit, and mix audio
 - [Pulse Audio](https://pulse.audio/)
   - [Vivid Strings](https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/)
 - [reFX](https://refx.com/)

@@ -45,6 +45,13 @@ tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'l
 - [deadmau5 Teaches Electronic Music Production](https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production)
 - [Timbaland Teaches Producing and Beatmaking](https://www.masterclass.com/classes/timbaland-teaches-producing-and-beatmaking)
 
+### Mix With The Masters
+Learn the entire process of music production, mixing and mastering from the world's top engineers and producers through seminars and online videos
+- [Mix With The Masters](https://mixwiththemasters.com/)
+  - [Community](https://community.mwtm.com/)
+  - [Masters](https://mixwiththemasters.com/masters)
+  - [Videos](https://mixwiththemasters.com/videos)
+
 ### Music Theory
 - [Guy Michelmore](https://www.youtube.com/@ThinkSpaceEducation) (ThinkSpace Education)
   - [Music Theory](https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj)

@@ -240,8 +240,12 @@ Apple Inc. is an American computer and consumer electronics company famous for c
 - [Logic Pro](https://www.apple.com/uk/logic-pro/)
 
 ### Applied Acoustics Systems (AAS)
-- [Ultra Analog VA‑3](https://www.applied-acoustics.com/ultra-analog-va-3/)
-  - + all 20 expansion sound packs
+- [Applied Acoustics Systems (AAS)](https://www.applied-acoustics.com/)
+  - [Lounge Lizard EP-4](https://www.applied-acoustics.com/lounge-lizard-ep-4/)
+  - [String Studio VS-3](https://www.applied-acoustics.com/string-studio-vs-3/)
+  - [Strum GS-2](https://www.applied-acoustics.com/strum-gs-2/)
+  - [Ultra Analog VA‑3](https://www.applied-acoustics.com/ultra-analog-va-3/)
+    - + all 20 expansion sound packs
 
 ### Arturia
 Arturia is a French electronics company who design and manufacture audio interfaces and electronic musical instruments, including software synthesizers, drum machines, analog synthesizers, digital synthesizers, MIDI controllers, sequencers, and mobile apps
