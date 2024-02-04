@@ -8,13 +8,32 @@
     <language>en</language>
     <lastBuildDate>Sun, 04 Feb 2024 09:42:00 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/utilities/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mac Utilities</title>
-      <link>https://jamesm.blog/devops/mac-utils/</link>
+      <title>Mac Applications &amp; Utilities</title>
+      <link>https://jamesm.blog/devops/mac-apps-utils/</link>
       <pubDate>Sun, 04 Feb 2024 09:42:00 +0100</pubDate>
       
-      <guid>https://jamesm.blog/devops/mac-utils/</guid>
-      <description>Utilities Alfred - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more Amphetamine - powerful keep-awake utility CleanMyMac - cleanup utility for macOS CleanShot - capture your Mac’s screen like a pro DirEqual - compare folders DiskCatalogMaker - catalog all your discs Disk Space Analyzer Pro - analyze &amp;amp; cleanup disk space FileZilla - FTP, FTPS &amp;amp; SFTP client GitKraken - powerful suite of Git tools Google Drive - cloud storage iTerm2 - terminal emulator Kaleidoscope - spot the differences in text and image files, or even folders full of files LastPass - password manager Loom - screen recorder MindNode - capture, organize, style and share your thoughts NordPVN - VPN Notion - single space where you can think, write, and plan OmniPlayer Pro - play or cast video audio media OneDrive - cloud storage Parallels - add Windows, Linux, or another operating system to your Mac Pure Paste - paste as plain text by default Slack - messaging app The Unarchiver - open any type of archive file VLC - free &amp;amp; open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols Related Pages Mac Homebrew Packages </description>
-      <content:encoded><![CDATA[<h2 id="utilities">Utilities</h2>
+      <guid>https://jamesm.blog/devops/mac-apps-utils/</guid>
+      <description>Mac Applications Microsoft 365 Excel OneDrive OneNote Outlook Powerpoint Teams Word MindNode - capture, organize, style and share your thoughts Notion - single space where you can think, write, and plan Parallels - add Windows, Linux, or another operating system to your Mac PyCharm - Python IDE Slack - messaging app Mac Utilities Alfred - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more Amphetamine - powerful keep-awake utility CleanMyMac - cleanup utility for macOS CleanShot - capture your Mac’s screen like a pro DirEqual - compare folders DiskCatalogMaker - catalog all your discs Disk Space Analyzer Pro - analyze &amp;amp; cleanup disk space FileZilla - FTP, FTPS &amp;amp; SFTP client GitKraken - powerful suite of Git tools Google Drive - cloud storage iTerm2 - terminal emulator Kaleidoscope - spot the differences in text and image files, or even folders full of files LastPass - password manager Loom - screen recorder NordPVN - VPN OmniPlayer Pro - play or cast video audio media Pure Paste - paste as plain text by default The Unarchiver - open any type of archive file VLC - free &amp;amp; open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols Related Pages Mac Homebrew Packages </description>
+      <content:encoded><![CDATA[<h2 id="mac-applications">Mac Applications</h2>
+<ul>
+<li><a href="https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac">Microsoft 365</a>
+<ul>
+<li><a href="https://www.microsoft.com/en-ie/microsoft-365/excel">Excel</a></li>
+<li><a href="https://apps.apple.com/us/app/onedrive/id823766827">OneDrive</a></li>
+<li><a href="https://www.microsoft.com/en-ie/microsoft-365/onenote/digital-note-taking-app">OneNote</a></li>
+<li><a href="https://www.microsoft.com/en-ie/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook">Outlook</a></li>
+<li><a href="https://www.microsoft.com/en-ie/microsoft-365/powerpoint">Powerpoint</a></li>
+<li><a href="https://www.microsoft.com/en-ie/microsoft-teams/group-chat-software">Teams</a></li>
+<li><a href="https://www.microsoft.com/en-ie/microsoft-365/word">Word</a></li>
+</ul>
+</li>
+<li><a href="https://www.mindnode.com/">MindNode</a> - capture, organize, style and share your thoughts</li>
+<li><a href="https://www.notion.so/">Notion</a> - single space where you can think, write, and plan</li>
+<li><a href="https://www.parallels.com/">Parallels</a> - add Windows, Linux, or another operating system to your Mac</li>
+<li><a href="https://www.jetbrains.com/pycharm/">PyCharm</a> - Python IDE</li>
+<li><a href="https://slack.com/">Slack</a> - messaging app</li>
+</ul>
+<h2 id="mac-utilities">Mac Utilities</h2>
 <ul>
 <li><a href="https://www.alfredapp.com/">Alfred</a> - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more</li>
 <li><a href="https://apps.apple.com/us/app/amphetamine/id937984704">Amphetamine</a> - powerful keep-awake utility</li>
@@ -30,14 +49,9 @@
 <li><a href="https://kaleidoscope.app/">Kaleidoscope</a> - spot the differences in text and image files, or even folders full of files</li>
 <li><a href="https://www.lastpass.com/">LastPass</a> - password manager</li>
 <li><a href="https://www.loom.com/">Loom</a> - screen recorder</li>
-<li><a href="https://www.mindnode.com/">MindNode</a> - capture, organize, style and share your thoughts</li>
 <li><a href="https://nordvpn.com/">NordPVN</a> - VPN</li>
-<li><a href="https://www.notion.so/">Notion</a> - single space where you can think, write, and plan</li>
 <li><a href="https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237">OmniPlayer Pro</a> - play or cast video audio media</li>
-<li><a href="https://apps.apple.com/us/app/onedrive/id823766827">OneDrive</a> - cloud storage</li>
-<li><a href="https://www.parallels.com/">Parallels</a> - add Windows, Linux, or another operating system to your Mac</li>
 <li><a href="https://sindresorhus.com/pure-paste">Pure Paste</a> - paste as plain text by default</li>
-<li><a href="https://slack.com/">Slack</a> - messaging app</li>
 <li><a href="https://theunarchiver.com/">The Unarchiver</a> - open any type of archive file</li>
 <li><a href="https://www.videolan.org/vlc/download-macosx.html">VLC</a> - free &amp; open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols</li>
 </ul>

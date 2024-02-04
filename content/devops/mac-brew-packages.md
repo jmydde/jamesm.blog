@@ -39,4 +39,4 @@ tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 
 * **youtube-dl** - YouTube downloader
 
 ## Related Pages
-- [Mac Utilities]({{< ref "/devops/mac-utils" >}})
+- [Mac Applications & Utilities]({{< ref "/devops/mac-apps-utils" >}})

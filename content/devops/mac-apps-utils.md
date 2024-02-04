@@ -1,10 +1,25 @@
 ---
-title: "Mac Utilities"
+title: "Mac Applications & Utilities"
 date: 2024-02-04T09:42:00+01:00
 draft: false
 tags: ['mac', 'macos', 'tools', 'utilities']
 ---
-## Utilities
+## Mac Applications
+- [Microsoft 365](https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac)
+  - [Excel](https://www.microsoft.com/en-ie/microsoft-365/excel)
+  - [OneDrive](https://apps.apple.com/us/app/onedrive/id823766827)
+  - [OneNote](https://www.microsoft.com/en-ie/microsoft-365/onenote/digital-note-taking-app)
+  - [Outlook](https://www.microsoft.com/en-ie/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook)
+  - [Powerpoint](https://www.microsoft.com/en-ie/microsoft-365/powerpoint)
+  - [Teams](https://www.microsoft.com/en-ie/microsoft-teams/group-chat-software)
+  - [Word](https://www.microsoft.com/en-ie/microsoft-365/word)
+- [MindNode](https://www.mindnode.com/) - capture, organize, style and share your thoughts
+- [Notion](https://www.notion.so/) - single space where you can think, write, and plan
+- [Parallels](https://www.parallels.com/) - add Windows, Linux, or another operating system to your Mac
+- [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE
+- [Slack](https://slack.com/) - messaging app
+
+## Mac Utilities
 - [Alfred](https://www.alfredapp.com/) - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) - powerful keep-awake utility
 - [CleanMyMac](https://cleanmymac.com/) - cleanup utility for macOS
@@ -19,14 +34,9 @@ tags: ['mac', 'macos', 'tools', 'utilities']
 - [Kaleidoscope](https://kaleidoscope.app/) - spot the differences in text and image files, or even folders full of files
 - [LastPass](https://www.lastpass.com/) - password manager
 - [Loom](https://www.loom.com/) - screen recorder
-- [MindNode](https://www.mindnode.com/) - capture, organize, style and share your thoughts
 - [NordPVN](https://nordvpn.com/) - VPN
-- [Notion](https://www.notion.so/) - single space where you can think, write, and plan
 - [OmniPlayer Pro](https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237) - play or cast video audio media
-- [OneDrive](https://apps.apple.com/us/app/onedrive/id823766827) - cloud storage
-- [Parallels](https://www.parallels.com/) - add Windows, Linux, or another operating system to your Mac
 - [Pure Paste](https://sindresorhus.com/pure-paste) - paste as plain text by default
-- [Slack](https://slack.com/) - messaging app
 - [The Unarchiver](https://theunarchiver.com/) - open any type of archive file
 - [VLC](https://www.videolan.org/vlc/download-macosx.html) - free & open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols
 
