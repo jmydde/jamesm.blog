@@ -69,6 +69,13 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [TotalBundle](https://d16.pl/totalbundle)
 - [Emergence Audio](https://emergenceaudio.com/)
   - [Viola Textures](https://emergenceaudio.com/product/viola-textures/)
+- [FeelYourSound](https://feelyoursound.com/)
+  - [ChilloutEngine](https://feelyoursound.com/chilloutengine/) - turns your chord progressions into relaxed keys, smooth basslines, memorable hooks, and lovely arpeggios
+  - [ChordPotion](https://feelyoursound.com/chordpotion/) - MIDI plug-in that turns any chord progression into new riffs and melodies in real-time
+  - [HouseEngine](https://feelyoursound.com/houseengine/) - turns your chord progressions into expressive piano rhythms, deep basslines, catchy melodies, and sparkling arpeggios
+  - [MelodicFlow](https://feelyoursound.com/melodicflow/) - create and play stunning melodies, basslines, and riffs quickly
+  - [Sundog Song Studio](https://feelyoursound.com/sundog/) - experiment with new scales, harmonies, and melodies easily
+  - [TranceEngine](https://feelyoursound.com/tranceengine/) - turns your chord progressions into uplifting melodies, driving arpeggios, deep basslines, and memorable hooks
 - [Fors](https://fors.fm/)
   - [Opal](https://fors.fm/opal) - Rhythm machine & drum synthesizer
   - [Superberry](https://fors.fm/superberry) - Delicious superwave
