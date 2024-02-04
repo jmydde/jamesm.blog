@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesm.blog/tags/controllers/</loc>
-    <lastmod>2024-02-03T11:24:00+00:00</lastmod>
+    <loc>https://jamesm.blog/devops/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/mac/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/mac-utils/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/macos/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/tools/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/utilities/</loc>
+    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/controllers/</loc>
     <lastmod>2024-02-03T11:24:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/midi/</loc>
@@ -27,9 +48,6 @@
     <lastmod>2024-02-03T11:24:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/synths/</loc>
-    <lastmod>2024-02-03T11:24:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2024-02-03T11:24:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music-production/namm-2024/</loc>
@@ -245,9 +263,6 @@
     <loc>https://jamesm.blog/tags/training-courses/</loc>
     <lastmod>2023-12-18T10:51:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
-    <lastmod>2023-12-16T09:36:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/explainers/</loc>
     <lastmod>2023-12-16T09:36:18+01:00</lastmod>
   </url><url>
@@ -381,9 +396,6 @@
     <lastmod>2023-06-03T13:23:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/text-to-speech/</loc>
-    <lastmod>2023-06-03T13:23:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/tools/</loc>
     <lastmod>2023-06-03T13:23:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/writing/</loc>
@@ -567,9 +579,6 @@
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/mac-brew-packages/</loc>
-    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/macos/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/monitoring/</loc>

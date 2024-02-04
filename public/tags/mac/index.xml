@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>mac on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/mac/</link>
+    <description>Recent content in mac on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Feb 2024 09:42:00 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac Utilities</title>
+      <link>https://jamesm.blog/devops/mac-utils/</link>
+      <pubDate>Sun, 04 Feb 2024 09:42:00 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/devops/mac-utils/</guid>
+      <description> Alfred - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more Amphetamine - powerful keep-awake utility CleanMyMac - cleanup utility for macOS CleanShot - capture your Mac’s screen like a pro DirEqual - compare folders DiskCatalogMaker - catalog all your discs Disk Space Analyzer Pro - analyze &amp;amp; cleanup disk space FileZilla - FTP, FTPS &amp;amp; SFTP client GitKraken - powerful suite of Git tools Google Drive - cloud storage iTerm2 - terminal emulator Kaleidoscope - spot the differences in text and image files, or even folders full of files LastPass - password manager Loom - screen recorder NordPVN - VPN Notion - single space where you can think, write, and plan OmniPlayer Pro - play or cast video audio media OneDrive - cloud storage Parallels - add Windows, Linux, or another operating system to your Mac Pure Paste - paste as plain text by default Slack - messaging app The Unarchiver - open any type of archive file </description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://www.alfredapp.com/">Alfred</a> - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more</li>
+<li><a href="https://apps.apple.com/us/app/amphetamine/id937984704">Amphetamine</a> - powerful keep-awake utility</li>
+<li><a href="https://cleanmymac.com/">CleanMyMac</a> - cleanup utility for macOS</li>
+<li><a href="https://cleanshot.com/">CleanShot</a> - capture your Mac’s screen like a pro</li>
+<li><a href="https://apps.apple.com/us/app/direqual/id1435575700">DirEqual</a> - compare folders</li>
+<li><a href="https://diskcatalogmaker.com/">DiskCatalogMaker</a> - catalog all your discs</li>
+<li><a href="https://apps.apple.com/us/app/disk-space-analyzer-pro/id488920185">Disk Space Analyzer Pro</a> - analyze &amp; cleanup disk space</li>
+<li><a href="https://filezilla-project.org/">FileZilla</a> - FTP, FTPS &amp; SFTP client</li>
+<li><a href="https://www.gitkraken.com/">GitKraken</a> - powerful suite of Git tools</li>
+<li><a href="https://apps.apple.com/au/app/google-drive/id507874739">Google Drive</a> - cloud storage</li>
+<li><a href="https://iterm2.com/">iTerm2</a> - terminal emulator</li>
+<li><a href="https://kaleidoscope.app/">Kaleidoscope</a> - spot the differences in text and image files, or even folders full of files</li>
+<li><a href="https://www.lastpass.com/">LastPass</a> - password manager</li>
+<li><a href="https://www.loom.com/">Loom</a> - screen recorder</li>
+<li><a href="https://nordvpn.com/">NordPVN</a> - VPN</li>
+<li><a href="https://www.notion.so/">Notion</a> - single space where you can think, write, and plan</li>
+<li><a href="https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237">OmniPlayer Pro</a> - play or cast video audio media</li>
+<li><a href="https://apps.apple.com/us/app/onedrive/id823766827">OneDrive</a> - cloud storage</li>
+<li><a href="https://www.parallels.com/">Parallels</a> - add Windows, Linux, or another operating system to your Mac</li>
+<li><a href="https://sindresorhus.com/pure-paste">Pure Paste</a> - paste as plain text by default</li>
+<li><a href="https://slack.com/">Slack</a> - messaging app</li>
+<li><a href="https://theunarchiver.com/">The Unarchiver</a> - open any type of archive file</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
