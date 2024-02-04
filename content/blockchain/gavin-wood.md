@@ -15,6 +15,9 @@ Gavin James Wood is an English computer scientist, a co-founder of Ethereum and 
 ### Gavin Wood - Is Polkadot's OpenGov Democratic? (November 2023)
 {{< youtube RvbsSq1a_8g >}}
 
+### Gavin Wood Sees Polkadot as a Global Supercomputer | Polkadot Decoded 2023 (June 2023)
+{{< youtube GIB1WeVuJD0 >}}
+
 ### Why This Ethereum Co-Founder Quit? (August 2022)
 {{< youtube RkdMjNkVwcQ >}}
 
