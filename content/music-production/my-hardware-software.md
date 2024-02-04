@@ -241,11 +241,14 @@ Apple Inc. is an American computer and consumer electronics company famous for c
 
 ### Applied Acoustics Systems (AAS)
 - [Applied Acoustics Systems (AAS)](https://www.applied-acoustics.com/)
-  - [Lounge Lizard EP-4](https://www.applied-acoustics.com/lounge-lizard-ep-4/)
-  - [String Studio VS-3](https://www.applied-acoustics.com/string-studio-vs-3/)
-  - [Strum GS-2](https://www.applied-acoustics.com/strum-gs-2/)
-  - [Ultra Analog VA‑3](https://www.applied-acoustics.com/ultra-analog-va-3/)
-    - + all 20 expansion sound packs
+  - [Chromaphone 3](https://www.applied-acoustics.com/chromaphone-3/) - two-voice synthesizer based on physically modelled acoustic resonators
+  - [Lounge Lizard EP-4](https://www.applied-acoustics.com/lounge-lizard-ep-4/) - authentic vintage electric piano sounds in an everything-you-need package
+  - [Multiphonics CV-2](https://www.applied-acoustics.com/multiphonics-cv-2/) - sophisticated tool for the creation of synths and effects
+  - [Objeq Delay](https://www.applied-acoustics.com/objeq-delay/) - creative effect plug-in combining acoustic filtering with a clever delay unit
+  - [String Studio VS-3](https://www.applied-acoustics.com/string-studio-vs-3/) - multitimbral synthesizer in which unique string oscillators replace the traditional VCOs, DCOs, and operators as the main sound source
+  - [Strum GS-2](https://www.applied-acoustics.com/strum-gs-2/) - nylon and steel acoustic and electric guitar plug-in
+  - [Ultra Analog VA‑3](https://www.applied-acoustics.com/ultra-analog-va-3/) - two-voice multimbral analog synthesizer, each voice featuring two oscillators, two filters, effects, and advanced editing options that achieve a sweet balance between familiarity and flexibility
+    - plus all 20 expansion sound packs
 
 ### Arturia
 Arturia is a French electronics company who design and manufacture audio interfaces and electronic musical instruments, including software synthesizers, drum machines, analog synthesizers, digital synthesizers, MIDI controllers, sequencers, and mobile apps
