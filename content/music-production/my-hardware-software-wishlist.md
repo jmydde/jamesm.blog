@@ -55,6 +55,8 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
     - [Prophet X](https://sequential.com/product/prophet-x/)
 
 ## My Music Production Software Wishlist
+- [Apple](https://www.apple.com/)
+  - [Logic Pro](https://www.apple.com/uk/logic-pro/)
 - [Bitwig](https://www.bitwig.com/)
   - [Bitwig Studio](https://www.bitwig.com/overview/)
 - [boz Digital Labs](https://www.bozdigitallabs.com/)
