@@ -68,6 +68,7 @@ Below is a list of my favourite music production YouTube channels
 - [muzykujkropka.com](https://www.youtube.com/@muzykujkropkacom) - testujemy instrumenty, aplikacje iOS i różne akcesoria dla Apple
 - [Native Instruments](https://www.youtube.com/@NativeInstruments/) Native Instruments official YouTube channel
 - [Nu-Trix The Synth Guy](https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/) - synthesizer reviews & music production
+- [Output](https://www.youtube.com/@Outputsounds) - help you make music
 - [Piano From Scratch](https://www.youtube.com/@PianoFromScratch/) - resource to help you become a better student and learn the building blocks of music
 - [Pick Yourself](https://www.youtube.com/@pickyourselfofficial/) - helps electronic music producers finish music they're proud of
 - [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
