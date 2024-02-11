@@ -39,6 +39,7 @@ A list of recommended Mac utilities ...
 - [NordPVN](https://nordvpn.com/) - VPN
 - [OmniPlayer Pro](https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237) - play or cast video audio media
 - [Pure Paste](https://sindresorhus.com/pure-paste) - paste as plain text by default
+- [TextSoap](https://textsoap.com/mac/) - powerful text transformations with just a click, stop doing this stuff by hand
 - [The Unarchiver](https://theunarchiver.com/) - open any type of archive file
 - [VLC](https://www.videolan.org/vlc/download-macosx.html) - free & open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols
 

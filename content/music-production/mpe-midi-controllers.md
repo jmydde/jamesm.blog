@@ -7,7 +7,7 @@ tags: ['midi', 'mpe', 'controllers']
 ## About
 MIDI Polyphonic Expression (MPE) is a method of using MIDI that enables pitch bend, and other dimensions of expressive control, to be adjusted continuously for individual notes.
 
-### MPE Controllers
+## MPE Controllers
 - [embodme](https://www.embodme.com/)
   - [ERAE Touch](https://www.embodme.com/erae-touch) - born out of a desire to combine both sensitivity and versatility in a seamless object
 - [Keith McMillen](https://www.keithmcmillen.com/)

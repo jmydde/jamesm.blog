@@ -178,11 +178,14 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Small String Gestures](https://thecrowhillcompany.com/small-string-gestures/)
   - [String Murmurations](https://thecrowhillcompany.com/string-murmurations/)
 - [Toontrack](https://www.toontrack.com/)
-  - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/)
-  - [EZkeys 2](https://www.toontrack.com/ezkeys-line/)
+  - [EZbass](https://www.toontrack.com/product/ezbass/) - two bass libraries, mix-ready presets, bass grooves and a wealth of features for creative songwriting
+  - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/) - seven kits, percussion, mix-ready presets, drum grooves and a wealth of features designed with the creative songwriter in mind 
+  - [EZkeys 2](https://www.toontrack.com/ezkeys-line/) - creative piano songwriting software and a world of sound and inspiration
 - [u-He](https://u-he.com/)
   - [Hive](https://u-he.com/products/hive/)
   - [Repro](https://u-he.com/products/repro/)
+- [UJAM](https://www.ujam.com/)
+  - [Beatmaker Bundle](https://www.ujam.com/beatmaker/)
 - [UVI](https://www.uvi.net/)
   - [IRCAM Prepared Piano 2](https://www.uvi.net/en/pianos-keyboards/ircam-prepared-piano-2.html)
   - [IRCAM Solo Instruments 2](https://www.uvi.net/ircam-solo-instruments-2.html) 
