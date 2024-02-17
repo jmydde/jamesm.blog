@@ -571,11 +571,14 @@ Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann
 
 ### UVI
 UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals
-- [8-Bit Synth](https://www.uvi.net/en/unconventional/8bit-synth.html)
-  - Inspired by the lo-fi hardware sounds of yesteryear
+- [8-Bit Synth](https://www.uvi.net/en/unconventional/8bit-synth.html) - inspired by the lo-fi hardware sounds of yesteryear
   - 31,402 Samples, 375 Presets, 430 Layers (187 SidMachines and 243 SidStation)
 - [Augmented Orchestra](https://www.uvi.net/en/orchestral/augmented-orchestra.html)
   - 620 Presets, 485 Layers, 65,800 Samples
+- [Aurora - Textured Piano](https://www.uvi.net/en/pianos-keyboards/aurora.html) - based on the rich and powerful sound of a world-class concert grand piano
+  - 3-layer engine with 100+ customizable textures and atmospheres
+  - 211 presets, 8170 samples
+  - 4.45 GB (FLAC lossless encoding, was 18.46 GB in WAV)
 - [Drum Designer](https://www.uvi.net/en/bass-drums-perc/drum-designer.html)
   - 5,736 Samples, 2,654 Presets (398 Kits, 545 Kicks, 499 Snares, 405 Claps, 674 Cymbals and 133 Sequences)
 - [Dual Delay X](https://www.uvi.net/en/effects/dual-delay-x.html)

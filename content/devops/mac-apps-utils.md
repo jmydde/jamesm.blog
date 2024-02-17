@@ -35,7 +35,6 @@ A list of recommended Mac utilities ...
 - [GitKraken](https://www.gitkraken.com/) - powerful suite of Git tools
 - [Google Drive](https://apps.apple.com/au/app/google-drive/id507874739) - cloud storage
 - [iTerm2](https://iterm2.com/) - terminal emulator
-- [Just Press Record](https://www.openplanetsoftware.com/just-press-record/) - recording, transcription and iCloud syncing on all your devices
 - [Kaleidoscope](https://kaleidoscope.app/) - spot the differences in text & image files, or even folders full of files
 - [LastPass](https://www.lastpass.com/) - password manager
 - [Loom](https://www.loom.com/) - screen recorder
@@ -48,6 +47,10 @@ A list of recommended Mac utilities ...
 - [The Unarchiver](https://theunarchiver.com/) - open any type of archive file
 - [VisualDiffer](https://visualdiffer.com/) - compare folders & files
 - [VLC](https://www.videolan.org/vlc/download-macosx.html) - free & open source cross-platform multimedia player & framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols
+
+# iPhone Apps
+- [Just Press Record](https://www.openplanetsoftware.com/just-press-record/) - recording, transcription and iCloud syncing on all your devices
+- [Otter](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) - transcribe voice to text
 
 ## Related Pages
 - [Mac Homebrew Packages]({{< ref "/devops/mac-brew-packages" >}})
