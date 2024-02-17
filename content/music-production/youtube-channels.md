@@ -115,6 +115,7 @@ Below is a list of my favourite music production YouTube channels
   - [Production Tutorials](https://www.youtube.com/playlist?list=PLCXbZyyqusu088kO-bfY1K3mretiVej_2)
   - [Sound Design Stuff](https://www.youtube.com/playlist?list=PLCXbZyyqusu3LP2Qk2p6ZwrLLjnNLZGZE)
   - [UVI Falcon Tutorial Series](https://www.youtube.com/playlist?list=PLCXbZyyqusu1Q3DCU1rWUZjZ75gfahK8y)
+- [Vir2 Instruments](https://www.youtube.com/@vir2instruments) - international team of sound designers, musicians, and programmers who specialize in creating the world's most advanced virtual instrument libraries
 - [Vulture Culture](https://www.youtube.com/@VultureCulture/) - uncovering the hidden gems of the synth world
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 - [Yamaha Global](https://www.youtube.com/@yamahaglobal) - official Yamaha Corporation YouTube channel

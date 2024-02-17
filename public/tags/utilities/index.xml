@@ -14,8 +14,7 @@
       
       <guid>https://jamesm.blog/devops/mac-apps-utils/</guid>
       <description>Mac Applications A list of recommended Mac applications &amp;hellip;
-Microsoft 365 Excel OneDrive OneNote Outlook Powerpoint Teams Word MindNode - capture, organize, style and share your thoughts Notion - single space where you can think, write, and plan Parallels - add Windows, Linux, or another operating system to your Mac PyCharm - Python IDE Slack - messaging app Mac Utilities A list of recommended Mac utilities &amp;hellip;
-Alfred - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more Amphetamine - powerful keep-awake utility CleanMyMac - cleanup utility for macOS CleanShot - capture your Mac’s screen like a pro DirEqual - compare folders DiskCatalogMaker - catalog all your discs Disk Space Analyzer Pro - analyze &amp;amp; cleanup disk space Easy Data Transform - merge, split, clean, de-duplicate &amp;amp; much more, without coding FileZilla - FTP, FTPS &amp;amp; SFTP client GitKraken - powerful suite of Git tools Google Drive - cloud storage iTerm2 - terminal emulator Kaleidoscope - spot the differences in text and image files, or even folders full of files LastPass - password manager Loom - screen recorder NordPVN - VPN OmniPlayer Pro - play or cast video audio media Pure Paste - paste as plain text by default TextSoap - powerful text transformations with just a click, stop doing this stuff by hand Text Workflow - combine transformation actions and create powerful automations for your text The Unarchiver - open any type of archive file VLC - free &amp;amp; open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols Related Pages Mac Homebrew Packages </description>
+Microsoft 365 Excel OneDrive OneNote Outlook Powerpoint Teams Word MindNode - capture, organize, style &amp;amp; share your thoughts Notion - single space where you can think, write &amp;amp; plan Obsidian - private and flexible writing app that adapts to the way you think Parallels - add Windows, Linux, or another operating system to your Mac PyCharm - Python IDE Slack - messaging app Mac Utilities A list of recommended Mac utilities &amp;hellip;</description>
       <content:encoded><![CDATA[<h2 id="mac-applications">Mac Applications</h2>
 <p>A list of recommended Mac applications &hellip;</p>
 <ul>
@@ -30,8 +29,9 @@ Alfred - award-winning app for macOS which boosts your efficiency with hotkeys, 
 <li><a href="https://www.microsoft.com/en-ie/microsoft-365/word">Word</a></li>
 </ul>
 </li>
-<li><a href="https://www.mindnode.com/">MindNode</a> - capture, organize, style and share your thoughts</li>
-<li><a href="https://www.notion.so/">Notion</a> - single space where you can think, write, and plan</li>
+<li><a href="https://www.mindnode.com/">MindNode</a> - capture, organize, style &amp; share your thoughts</li>
+<li><a href="https://www.notion.so/">Notion</a> - single space where you can think, write &amp; plan</li>
+<li><a href="https://obsidian.md/">Obsidian</a> - private and flexible writing app that adapts to the way you think</li>
 <li><a href="https://www.parallels.com/">Parallels</a> - add Windows, Linux, or another operating system to your Mac</li>
 <li><a href="https://www.jetbrains.com/pycharm/">PyCharm</a> - Python IDE</li>
 <li><a href="https://slack.com/">Slack</a> - messaging app</li>
@@ -39,7 +39,7 @@ Alfred - award-winning app for macOS which boosts your efficiency with hotkeys, 
 <h2 id="mac-utilities">Mac Utilities</h2>
 <p>A list of recommended Mac utilities &hellip;</p>
 <ul>
-<li><a href="https://www.alfredapp.com/">Alfred</a> - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more</li>
+<li><a href="https://www.alfredapp.com/">Alfred</a> - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion &amp; more</li>
 <li><a href="https://apps.apple.com/us/app/amphetamine/id937984704">Amphetamine</a> - powerful keep-awake utility</li>
 <li><a href="https://cleanmymac.com/">CleanMyMac</a> - cleanup utility for macOS</li>
 <li><a href="https://cleanshot.com/">CleanShot</a> - capture your Mac’s screen like a pro</li>
@@ -51,16 +51,19 @@ Alfred - award-winning app for macOS which boosts your efficiency with hotkeys, 
 <li><a href="https://www.gitkraken.com/">GitKraken</a> - powerful suite of Git tools</li>
 <li><a href="https://apps.apple.com/au/app/google-drive/id507874739">Google Drive</a> - cloud storage</li>
 <li><a href="https://iterm2.com/">iTerm2</a> - terminal emulator</li>
-<li><a href="https://kaleidoscope.app/">Kaleidoscope</a> - spot the differences in text and image files, or even folders full of files</li>
+<li><a href="https://www.openplanetsoftware.com/just-press-record/">Just Press Record</a> - recording, transcription and iCloud syncing on all your devices</li>
+<li><a href="https://kaleidoscope.app/">Kaleidoscope</a> - spot the differences in text &amp; image files, or even folders full of files</li>
 <li><a href="https://www.lastpass.com/">LastPass</a> - password manager</li>
 <li><a href="https://www.loom.com/">Loom</a> - screen recorder</li>
 <li><a href="https://nordvpn.com/">NordPVN</a> - VPN</li>
 <li><a href="https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237">OmniPlayer Pro</a> - play or cast video audio media</li>
+<li><a href="https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113">Otter</a> - transcribe voice to text</li>
 <li><a href="https://sindresorhus.com/pure-paste">Pure Paste</a> - paste as plain text by default</li>
 <li><a href="https://textsoap.com/mac/">TextSoap</a> - powerful text transformations with just a click, stop doing this stuff by hand</li>
-<li><a href="https://www.gtrigonakis.com/textworkflow">Text Workflow</a> - combine transformation actions and create powerful automations for your text</li>
+<li><a href="https://www.gtrigonakis.com/textworkflow">Text Workflow</a> - combine transformation actions &amp; create powerful automations for your text</li>
 <li><a href="https://theunarchiver.com/">The Unarchiver</a> - open any type of archive file</li>
-<li><a href="https://www.videolan.org/vlc/download-macosx.html">VLC</a> - free &amp; open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols</li>
+<li><a href="https://visualdiffer.com/">VisualDiffer</a> - compare folders &amp; files</li>
+<li><a href="https://www.videolan.org/vlc/download-macosx.html">VLC</a> - free &amp; open source cross-platform multimedia player &amp; framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols</li>
 </ul>
 <h2 id="related-pages">Related Pages</h2>
 <ul>
