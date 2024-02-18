@@ -31,6 +31,7 @@ Below is a list of my favourite music production YouTube channels
   - [Great Drum Machines, Groove Boxes & Loopers](https://www.youtube.com/playlist?list=PL3zIryVDCWcUfwdjjUdgZTbyHvO6Jzd62)
   - [World's Best Synthesizers](https://www.youtube.com/playlist?list=PL3zIryVDCWcXtMRY-5M-WIAjpPufXT9hn)
 - [Dom Sigalas](https://www.youtube.com/@DomSigalas/) - music producer, film composer, and musicologist
+- [E-Clip](https://www.youtube.com/@EClipChannel) - official Youtube channel for music release and music production education
 - [EDMProd](https://www.youtube.com/@EDMProd) - EDM production blog and resource site
 - [EDM Tips](https://www.youtube.com/@EDMTips/) - how to produce Electronic Dance Music like a pro! – Techno, House, Trance, Progressive and much, much more
 - [Gear4music Synths & Tech](https://www.youtube.com/@Gear4musicSynthsTech) - discover the latest synths, samplers, and software, with valuable tips and advice along the way

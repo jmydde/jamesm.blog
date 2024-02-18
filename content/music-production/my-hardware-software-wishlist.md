@@ -129,6 +129,8 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
     - [RP-Delay](https://www.robpapen.com/rp-delay.html) - Delay insanity. Reverser, 6 lines, 8 filters, 4 LFOs, and more.
     - [RP-Distort](https://www.robpapen.com/rp-distort.html) - Wicked FX unit that will distort or alter your tracks.
     - [RP-Amod](https://www.robpapen.com/rp-amod.html) - Spice up your vocal track, liven an instrument, and even beef up your drums.
+- [Sonic Academy](https://www.sonicacademy.com/) - EDM production tutorials in Ableton Live, Cubase, Logic Pro, FL Studio & Reason
+  - [Kick 2](https://www.sonicacademy.com/products/kick-2) - multi award winning kick drum plugin
 - [Spektro Audio](https://spektroaudio.com/)
   - [ACDGEN](https://spektroaudio.com/acdgen) - Advanced Pattern Generator
   - [Polyform](https://spektroaudio.com/polyform) - Polyphonic MIDI Processor

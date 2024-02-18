@@ -556,6 +556,9 @@ ProjectSAM creates award-winning cinematic sample libraries which are used in nu
 ### Reveal Sound
 - [Spire](https://www.reveal-sound.com/plug-ins/spire) - polyphonic synthesizer that combines powerful sound engine modulation with flexible architecture and a graphical interface that provides unparalleled usability
 
+### Sonic Academy
+- [ANA 2](https://www.sonicacademy.com/products/ana-2) - powerful 6 voice soft synth with immaculate sound
+
 ### Spitfire Audio
 Spitfire Audio is an English technology company based in London that creates virtual instrument sample libraries used for music production
 - [BBC Symphony Orchestra Discover](https://www.spitfireaudio.com/bbc-symphony-orchestra-discover)
