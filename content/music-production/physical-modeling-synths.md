@@ -62,6 +62,9 @@ This is an excellent overview of physical modeling compared to sampling;
 ### SWAM String Sections
 {{< youtube ln_vqLmNGUU >}}
 
+### SWAM: Orchestra at Your Fingertips-Audio Modeling
+{{< youtube G8ktSUcvMmo >}}
+
 ### Tension
 {{< youtube 2MwHWcj8yH4 >}}
 
