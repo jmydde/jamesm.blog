@@ -20,6 +20,7 @@ Below is a list of my favourite music production YouTube channels
 - [BoBeats](https://www.youtube.com/@BoBeats/) - videos about synthesizers and music production gear
 - [Charles Cleyn](https://www.youtube.com/@CharlesCleyn/) - songwriting, music production, and marketing strategies to create and release great music
 - [Creative Sauce](https://www.youtube.com/@CreativeSauce/) - helps you on your home recording journey
+- [David Bennett Piano](https://www.youtube.com/@DavidBennettPiano) - pianist and music lover creating educational music videos about all things interesting in music and music theory
 - [Doctor Mix](https://www.youtube.com/@Doctormix/) - music production hardware & software reviews, also offers mixing & mastering service
   - [All Doctor Mix Reconstructions](https://www.youtube.com/playlist?list=PL3zIryVDCWcUooR1ybCmKbhfBaMjvYYs5)
   - [All My Moog Videos](https://www.youtube.com/playlist?list=PL3zIryVDCWcUk13R-w9ZxZC07bJgNI7pC)
@@ -57,7 +58,9 @@ Below is a list of my favourite music production YouTube channels
   - [Maschine Tutorials](https://www.youtube.com/playlist?list=PLVqwsSRt4jtb6o0kJIL48xWk_NvStdiWu)
   - [Native Instruments Expansions](https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ1mLFZIZunHIm_D6iJep2c)
   - [Virtual Instruments](https://www.youtube.com/playlist?list=PLVqwsSRt4jtbeibrLyuz4r9_svrTfEJ3S)
-- [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/) - American keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”
+- [Joe Luegers Music Academy](https://www.youtube.com/@joeluegersmusicacademy) - step-by-step videos on musical ear training, as well as resources for music teachers of all levels
+- [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/) - american keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”
+- [Junkie XL](https://www.youtube.com/channel/UCor9SN3lpO-BT2aBvAwBptw) - grammy nominated multi platinum producer, musician, composer and educator
 - [Liam Killen](https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g) - electronic music producer sharing how to create music
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
 - [LotusTunes Academy](https://www.youtube.com/@lotustunesacademy/) - learn about deep & organic house music production
