@@ -2,10 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesm.blog/devops/</loc>
-    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
+    <loc>https://jamesm.blog/tags/airflow/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/courses/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/database/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/databricks/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/datacamp/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/db/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/deep-learning/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/etl/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/google/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data/data-engineering-science-courses/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/nosql/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/pipelines/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/python/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/scheduling/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/snowflake/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/streaming/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/tensorflow/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/training/</loc>
+    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2024-02-04T09:42:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/mac/</loc>
@@ -15,9 +84,6 @@
     <lastmod>2024-02-04T09:42:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/macos/</loc>
-    <lastmod>2024-02-04T09:42:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2024-02-04T09:42:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tools/</loc>
@@ -173,9 +239,6 @@
     <loc>https://jamesm.blog/tags/ask.video/</loc>
     <lastmod>2024-01-19T18:31:21+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/courses/</loc>
-    <lastmod>2024-01-19T18:31:21+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/groove3/</loc>
     <lastmod>2024-01-19T18:31:21+01:00</lastmod>
   </url><url>
@@ -210,9 +273,6 @@
     <lastmod>2024-01-19T18:31:21+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/serum/</loc>
-    <lastmod>2024-01-19T18:31:21+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/training/</loc>
     <lastmod>2024-01-19T18:31:21+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/youtube/</loc>
@@ -407,9 +467,6 @@
     <loc>https://jamesm.blog/tags/writing/</loc>
     <lastmod>2023-06-03T13:23:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/airflow/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/apache/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
@@ -425,9 +482,6 @@
     <loc>https://jamesm.blog/devops/github-projects/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/scheduling/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/terminal/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
@@ -441,9 +495,6 @@
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/databases/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/db/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/docker/</loc>
@@ -474,9 +525,6 @@
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/networking/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/python/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/s3/</loc>
@@ -607,54 +655,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/tech/</loc>
     <lastmod>2023-05-07T14:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/database/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/databricks/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/datacamp/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/deep-learning/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/etl/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/google/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data/data-engineering-science-courses/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/nosql/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/pipelines/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/snowflake/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/streaming/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/tensorflow/</loc>
-    <lastmod>2023-05-06T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/bash/</loc>
     <lastmod>2023-04-21T23:07:18+01:00</lastmod>

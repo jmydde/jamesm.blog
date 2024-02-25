@@ -1,6 +1,6 @@
 ---
 title: "List of Data Engineering & Data Science Courses"
-date: 2023-05-06T06:51:25+01:00
+date: 2024-02-25T10:26:25+01:00
 draft: false
 tags: ['airflow', 'data', 'data engineering', 'data science', 'database', 'databricks', 'datacamp', 'db', 'deep learning', 'courses', 'etl', 'google', 'nosql', 'pipelines', 'python', 'scheduling', 'streaming', 'snowflake', 'tensorflow', 'training']
 ---
@@ -43,6 +43,10 @@ tags: ['airflow', 'data', 'data engineering', 'data science', 'database', 'datab
 
 ### Whizlabs
 - [Apache Kafka Fundamentals](https://www.whizlabs.com/learn/course/apache-kafka-fundamentals/297/)
+- [Databricks Certified Associate Developer for Apache Spark (Python)](https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/)
+- [Databricks Certified Data Analyst Associate Certification](https://www.whizlabs.com/databricks-certified-data-analyst-associate/)
+- [Databricks Certified Data Engineer Associate Certification](https://www.whizlabs.com/databricks-certified-data-engineer-associate/)
+- [Databricks Certified Data Engineer Professional Certification](https://www.whizlabs.com/databricks-certified-data-engineer-professional/)
 - [Snowflake SnowPro Core Certification](https://www.whizlabs.com/learn/course/snowflake-snowpro-core-certification/384/)
 
 ## Data Science
@@ -71,5 +75,7 @@ tags: ['airflow', 'data', 'data engineering', 'data science', 'database', 'datab
 
 ### Whizlabs
 - [AWS Certified Machine Learning Specialty](https://www.whizlabs.com/learn/course/aws-certified-machine-learning-specialty/281/)
+- [Databricks Certified Machine Learning Associate Certification](https://www.whizlabs.com/databricks-certified-machine-learning-associate/)
+- [Databricks Certified Machine Learning Professional Certification](https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/)
 - [Introduction to Data Science with Python](https://www.whizlabs.com/learn/course/data-science-with-python/379/)
 - [TensorFlow for Deep Learning with Python](https://www.whizlabs.com/learn/course/tensorflow-for-deep-learning-with-python/1117/)
