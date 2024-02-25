@@ -86,6 +86,9 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Modwave Native](https://www.korg.com/uk/products/software/modwave_native/)
   - [Opsix Native](https://www.korg.com/uk/products/software/opsix_native/)
   - [Wavestate Native](https://www.korg.com/uk/products/software/wavestate_native/)
+- [Minimal Audio](https://www.minimal.audio/)
+  - [Current](https://www.minimal.audio/products/current) - virtual instrument, effects suite, and content platform built for endless hours of inspiration
+  - [Rift](https://www.minimal.audio/products/rift) - deeply creative multi-effect plugin
 - [Modartt](https://www.modartt.com/)
   - [Steinway Model B](https://www.modartt.com/modelb)
 - [PlugInGuru](https://www.pluginguru.com/)

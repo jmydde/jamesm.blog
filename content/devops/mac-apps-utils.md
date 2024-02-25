@@ -27,6 +27,7 @@ A list of recommended Mac utilities ...
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) - powerful keep-awake utility
 - [CleanMyMac](https://cleanmymac.com/) - cleanup utility for macOS
 - [CleanShot](https://cleanshot.com/) - capture your Mac’s screen like a pro
+- [CloudMounter](https://cloudmounter.net/) - mount your Dropbox, Google Drive, Microsoft OneDrive, Amazon S3, etc. 
 - [DirEqual](https://apps.apple.com/us/app/direqual/id1435575700) - compare folders
 - [DiskCatalogMaker](https://diskcatalogmaker.com/) - catalog all your discs
 - [Disk Space Analyzer Pro](https://apps.apple.com/us/app/disk-space-analyzer-pro/id488920185) - analyze & cleanup disk space
@@ -41,6 +42,7 @@ A list of recommended Mac utilities ...
 - [NordPVN](https://nordvpn.com/) - VPN
 - [OmniPlayer Pro](https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237) - play or cast video audio media
 - [Otter](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) - transcribe voice to text
+- [Path Finder](https://www.cocoatech.io/) - all the tools you need to take control of your files
 - [Pure Paste](https://sindresorhus.com/pure-paste) - paste as plain text by default
 - [TextSoap](https://textsoap.com/mac/) - powerful text transformations with just a click, stop doing this stuff by hand
 - [Text Workflow](https://www.gtrigonakis.com/textworkflow) - combine transformation actions & create powerful automations for your text
