@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/cheatsheets/</loc>
+    <lastmod>2024-02-25T21:00:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data/</loc>
+    <lastmod>2024-02-25T21:00:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/databricks/</loc>
+    <lastmod>2024-02-25T21:00:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data/databricks-cheatsheet/</loc>
+    <lastmod>2024-02-25T21:00:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2024-02-25T21:00:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2024-02-25T21:00:25+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/airflow/</loc>
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
@@ -14,16 +32,10 @@
     <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/data/</loc>
-    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/database/</loc>
-    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/databricks/</loc>
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/datacamp/</loc>
@@ -39,9 +51,6 @@
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/google/</loc>
-    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/data/data-engineering-science-courses/</loc>
@@ -63,9 +72,6 @@
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/streaming/</loc>
-    <lastmod>2024-02-25T10:26:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2024-02-25T10:26:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tensorflow/</loc>

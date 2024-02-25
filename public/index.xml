@@ -6,7 +6,353 @@
     <description>Recent content on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Feb 2024 10:26:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2024 21:00:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Databricks Cheatsheet</title>
+      <link>https://jamesm.blog/data/databricks-cheatsheet/</link>
+      <pubDate>Sun, 25 Feb 2024 21:00:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/data/databricks-cheatsheet/</guid>
+      <description>Databricks Notebook Commands Command Purpose Example %config Set configuration options for the notebook %env Set environment variables %fs Interact with the Databricks file system %fs ls dbfs:/repo %load Loads the contents of a file into a cell %lsmagic List all magic commands %jobs Lists all running jobs %matplotlib sets up the matplotlib backend %md Write Markdown text %pip Install Python packages %python Executes python code %python dbutils.fs.rm(&amp;quot;/user/hive/warehouse/test/&amp;quot;, True) %r Execute R code %reload reloads module contents %run Executes a Python file or a notebook %scala Executes scala code %sh Executes shell commands on the cluster nodes %sh git clone https://github.</description>
+      <content:encoded><![CDATA[<h2 id="databricks-notebook-commands">Databricks Notebook Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Purpose</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%config</td>
+<td>Set configuration options for the notebook</td>
+<td></td>
+</tr>
+<tr>
+<td>%env</td>
+<td>Set environment variables</td>
+<td></td>
+</tr>
+<tr>
+<td>%fs</td>
+<td>Interact with the Databricks file system</td>
+<td>%fs ls dbfs:/repo</td>
+</tr>
+<tr>
+<td>%load</td>
+<td>Loads the contents of a file into a cell</td>
+<td></td>
+</tr>
+<tr>
+<td>%lsmagic</td>
+<td>List all magic commands</td>
+<td></td>
+</tr>
+<tr>
+<td>%jobs</td>
+<td>Lists all running jobs</td>
+<td></td>
+</tr>
+<tr>
+<td>%matplotlib</td>
+<td>sets up the matplotlib backend</td>
+<td></td>
+</tr>
+<tr>
+<td>%md</td>
+<td>Write Markdown text</td>
+<td></td>
+</tr>
+<tr>
+<td>%pip</td>
+<td>Install Python packages</td>
+<td></td>
+</tr>
+<tr>
+<td>%python</td>
+<td>Executes python code</td>
+<td>%python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)</td>
+</tr>
+<tr>
+<td>%r</td>
+<td>Execute R code</td>
+<td></td>
+</tr>
+<tr>
+<td>%reload</td>
+<td>reloads module contents</td>
+<td></td>
+</tr>
+<tr>
+<td>%run</td>
+<td>Executes a Python file or a notebook</td>
+<td></td>
+</tr>
+<tr>
+<td>%scala</td>
+<td>Executes scala code</td>
+<td></td>
+</tr>
+<tr>
+<td>%sh</td>
+<td>Executes shell commands on the cluster nodes</td>
+<td>%sh git clone <a href="https://github.com/repo/test">https://github.com/repo/test</a></td>
+</tr>
+<tr>
+<td>%sql</td>
+<td>Executes SQL queries</td>
+<td></td>
+</tr>
+<tr>
+<td>%who</td>
+<td>Lists all the variables in the current scope</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="accessing-files">Accessing Files</h2>
+<ul>
+<li>/path/to/file</li>
+<li>dbfs:/path/to/file</li>
+<li>file:/path/to/file</li>
+<li>s3://path/to/file</li>
+</ul>
+<h2 id="copying-files">Copying Files</h2>
+<pre tabindex="0"><code>%fs cp file:/&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+
+%python dbutils.fs.cp(&#34;file:/&lt;path&gt;&#34;, &#34;/Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;&#34;)
+%python dbutils.fs.cp(&#34;file:/databricks/driver/test&#34;, &#34;dbfs:/repo&#34;, True)
+
+%sh cp /&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+</code></pre><h2 id="create">Create</h2>
+<h3 id="create--use-schema">Create &amp; Use Schema</h3>
+<pre tabindex="0"><code>CREATE SCHEMA test;
+CREATE SCHEMA custom LOCATION &#39;dbfs:/custom&#39;;
+
+USE SCHEMA test;
+</code></pre><h3 id="create-table">Create Table</h3>
+<pre tabindex="0"><code>CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test USING CSV LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test USING CSV OPTIONS (header=&#34;true&#34;) LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test AS ...
+CREATE TABLE test USING ...
+
+CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT)
+COMMENT &#39;This is comment for the table itself&#39;;
+
+CREATE TABLE test AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.json&#39;, format =&gt; &#39;json&#39;);
+
+CREATE TABLE test_raw AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.csv&#39;, sep =&gt; &#39;;&#39;);
+
+CREATE TABLE custom_table_test LOCATION &#39;dbfs:/custom-table&#39;
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE TABLE test PARTITIONED BY (col1)
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;)
+
+CREATE TABLE users(
+firstname STRING,
+lastname STRING,
+full_name STRING GENERATED ALWAYS AS (concat(firstname, &#39; &#39;, lastname))
+);
+
+CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`;
+CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+</code></pre><h3 id="create-view">Create View</h3>
+<pre tabindex="0"><code>CREATE VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE VIEW view_test
+AS SELECT col1, col1
+FROM test
+JOIN test2 ON test.col2 == test2.col2;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE GLOBAL TEMP VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+SELECT * FROM global_temp.view_test;
+
+CREATE TEMP VIEW jdbc_example USING JDBC
+OPTIONS (
+url &#34;&lt;jdbc-url&gt;&#34;,
+dbtable &#34;&lt;table-name&gt;&#34;,
+user &#39;&lt;username&gt;&#39;,
+password &#39;&lt;password&gt;&#39;);
+
+CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`&lt;logpath&gt;`;
+
+CREATE VIEW event_log_raw AS SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+CREATE OR REPLACE TEMP VIEW test_view
+AS SELECT test.col1 AS col1 FROM test_table
+WHERE col1 = &#39;value1&#39; ORDER BY timestamp DESC LIMIT 1;
+</code></pre><h2 id="drop">Drop</h2>
+<pre tabindex="0"><code>DROP TABLE test;
+</code></pre><h2 id="select">Select</h2>
+<pre tabindex="0"><code>SELECT * FROM csv.`/repo/data/test.csv`;
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;, format =&gt; &#39;csv&#39;, header =&gt; &#39;true&#39;, sep =&gt; &#39;,&#39;)
+SELECT * FROM json.`/repo/data/test.json`;
+SELECT * FROM json.`/repo/data/*.json`;
+SELECT * FROM test WHERE year(from_unixtime(test_time)) &gt; 1900;
+SELECT * FROM test WHERE title LIKE &#39;%a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;%a&#39;
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count_if(col1 = &#39;test&#39;) FROM test;
+SELECT from_unixtime(test_time) FROM test;
+SELECT cast(test_time / 1 AS timestamp) FROM test;
+SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test;
+SELECT element.sub_element FROM test;
+SELECT flatten(array(array(1, 2), array(3, 4)));
+
+SELECT * FROM (
+  SELECT col1, col2 FROM test
+) 
+PIVOT (
+  sum(col1) for col2 in (&#39;item1&#39;,&#39;item2&#39;)
+);
+
+SELECT *, CASE
+WHEN col1 &gt; 10 THEN &#39;value1&#39;
+ELSE &#39;value2&#39;
+END
+FROM test;
+
+SELECT * FROM test ORDER BY (CASE
+WHEN col1 &gt; 10 THEN col2
+ELSE col3
+END);
+
+WITH t(col1, col2) AS (SELECT 1, 2)
+SELECT * FROM t WHERE col1 = 1;
+
+SELECT details:flow_definition.output_dataset as output_dataset,
+       details:flow_definition.input_datasets as input_dataset
+FROM   event_log_raw, latest_update
+WHERE  event_type = &#39;flow_definition&#39; AND origin.update_id = latest_update.id;
+</code></pre><h2 id="insert">Insert</h2>
+<pre tabindex="0"><code>INSERT OVERWRITE test SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+INSERT INTO test(col1, col2) VALUES (&#39;value1&#39;, &#39;value2&#39;);
+</code></pre><h2 id="merge-into">Merge Into</h2>
+<pre tabindex="0"><code>MERGE INTO test USING test_to_delete
+ON test.col1 = test_to_delete.col1
+WHEN MATCHED THEN DELETE;
+
+MERGE INTO test USING test_to_update
+ON test.col1 = test_to_update.col1
+WHEN MATCHED THEN UPDATE SET *;
+
+MERGE INTO test USING test_to_insert
+ON test.col1 = test_to_insert.col1
+WHEN NOT MATCHED THEN INSERT *;
+</code></pre><h2 id="copy-into">Copy Into</h2>
+<pre tabindex="0"><code>COPY INTO test
+FROM &#39;/repo/data&#39;
+FILEFORMAT = CSV
+FILES = (&#39;test.csv&#39;)
+FORMAT_OPTIONS(&#39;header&#39; = &#39;true&#39;, &#39;inferSchema&#39; = &#39;true&#39;);
+</code></pre><h2 id="describe">Describe</h2>
+<pre tabindex="0"><code>SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+</code></pre><h2 id="delta-lake">Delta Lake</h2>
+<pre tabindex="0"><code>DESCRIBE HISTORY test;
+DESCRIBE HISTORY test LIMIT 1;
+
+INSERT INTO test SELECT * FROM test@v2 WHERE id = 3;
+
+OPTIMIZE test;
+OPTIMIZE test ZORDER BY col1;
+
+RESTORE TABLE test TO VERSION AS OF 0;
+
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+
+VACUUM test;
+VACUUM test RETAIN 240 HOURS;
+
+%fs ls dbfs:/user/hive/warehouse/test/_delta_log
+%python spark.conf.set(&#34;spark.databricks.delta.retentionDurationCheck.enabled&#34;, &#34;false&#34;)
+</code></pre><h2 id="delta-live-tables">Delta Live Tables</h2>
+<pre tabindex="0"><code>CREATE OR REFRESH LIVE TABLE test_raw
+AS SELECT * FROM json.`/repo/data/test.json`;
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM STREAM read_files(&#39;/repo/data/test*.json&#39;);
+
+CREATE OR REFRESH LIVE TABLE test_cleaned
+AS SELECT col1, col2, col3, col4 FROM live.test_raw;
+
+CREATE OR REFRESH LIVE TABLE recent_test
+AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
+</code></pre><h2 id="fuctions">Fuctions</h2>
+<pre tabindex="0"><code>CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
+RETURNS DOUBLE
+RETURN (col1 - 10);
+</code></pre><h2 id="auto-loader">Auto Loader</h2>
+<pre tabindex="0"><code>%python
+
+spark.readStream.format(&#34;cloudFiles&#34;)\
+  .option(&#34;cloudFiles.format&#34;, &#34;json&#34;)\
+  .option(&#34;cloudFiles.schemaLocation&#34;, &#34;/autoloader-schema&#34;)\
+  .option(&#34;pathGlobFilter&#34;, &#34;test*.json&#34;)\
+  .load(&#34;/repo/data&#34;)\
+  .writeStream\
+  .option(&#34;mergeSchema&#34;, &#34;true&#34;)\
+  .option(&#34;checkpointLocation&#34;, &#34;/autoloader-checkpoint&#34;)\
+  .start(&#34;demo&#34;)
+
+%fs head /autoloader-schema/_schemas/0
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM
+cloud_files(
+&#39;/repo/data&#39;,
+&#39;json&#39;,
+map(&#34;cloudFiles.inferColumnTypes&#34;, &#34;true&#34;, &#34;pathGlobFilter&#34;, &#34;test*.json&#34;)
+);
+
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0)
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION DROP ROW
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION FAIL UPDATE
+</code></pre><h2 id="cdc">CDC</h2>
+<pre tabindex="0"><code>APPLY CHANGES INTO live.target
+  FROM stream(live.cdc_source)
+  KEYS (col1)
+  APPLY AS DELETE WHEN col2 = &#34;DELETE&#34;
+  SEQUENCE BY col3
+  COLUMNS * EXCEPT (col);
+</code></pre><h2 id="grant--revoke">Grant &amp; Revoke</h2>
+<pre tabindex="0"><code>GRANT &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; TO &lt;user_or_group&gt;;
+GRANT SELECT ON TABLE test TO `databricks@degols.net`;
+
+REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@gmail.com&#39;;
+</code></pre>]]></content:encoded>
+    </item>
+    
     <item>
       <title>List of Data Engineering &amp; Data Science Courses</title>
       <link>https://jamesm.blog/data/data-engineering-science-courses/</link>
