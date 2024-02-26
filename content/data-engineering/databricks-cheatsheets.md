@@ -1,5 +1,5 @@
 ---
-title: "Databricks Cheatsheet"
+title: "Databricks Cheat Sheets"
 date: 2024-02-25T21:00:25+01:00
 draft: false
 tags: ['databricks', 'cheatsheets']
@@ -27,13 +27,13 @@ tags: ['databricks', 'cheatsheets']
 | %sql        | Executes SQL queries                         | |
 | %who        | Lists all the variables in the current scope | |
 
-## Accessing Files
+### Accessing Files
 - /path/to/file
 - dbfs:/path/to/file
 - file:/path/to/file
 - s3://path/to/file
 
-## Copying Files
+### Copying Files
 ```
 %fs cp file:/<path> /Volumes/<catalog>/<schema>/<volume>/<path>
 
@@ -43,7 +43,7 @@ tags: ['databricks', 'cheatsheets']
 %sh cp /<path> /Volumes/<catalog>/<schema>/<volume>/<path>
 ```
 
-## Create
+## SQL Statements (DDL)
 
 ### Create & Use Schema
 ```
@@ -127,12 +127,21 @@ AS SELECT test.col1 AS col1 FROM test_table
 WHERE col1 = 'value1' ORDER BY timestamp DESC LIMIT 1;
 ```
 
-## Drop
+### Drop
 ```
 DROP TABLE test;
 ```
 
-## Select
+### Describe
+```
+SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+```
+
+## SQL Statements (DML)
+
+### Select
 ```
 SELECT * FROM csv.`/repo/data/test.csv`;
 SELECT * FROM read_files('/repo/data/test.csv');
@@ -184,14 +193,14 @@ FROM   event_log_raw, latest_update
 WHERE  event_type = 'flow_definition' AND origin.update_id = latest_update.id;
 ```
 
-## Insert
+### Insert
 ```
 INSERT OVERWRITE test SELECT * FROM read_files('/repo/data/test.csv');
 
 INSERT INTO test(col1, col2) VALUES ('value1', 'value2');
 ```
 
-## Merge Into
+### Merge Into
 ```
 MERGE INTO test USING test_to_delete
 ON test.col1 = test_to_delete.col1
@@ -206,7 +215,7 @@ ON test.col1 = test_to_insert.col1
 WHEN NOT MATCHED THEN INSERT *;
 ```
 
-## Copy Into
+### Copy Into
 ```
 COPY INTO test
 FROM '/repo/data'
@@ -215,14 +224,8 @@ FILES = ('test.csv')
 FORMAT_OPTIONS('header' = 'true', 'inferSchema' = 'true');
 ```
 
-## Describe
-```
-SHOW TABLES;
 
-DESCRIBE EXTENDED test;
-```
-
-## Delta Lake
+## Delta Lake Statements
 ```
 DESCRIBE HISTORY test;
 DESCRIBE HISTORY test LIMIT 1;
@@ -245,7 +248,7 @@ VACUUM test RETAIN 240 HOURS;
 %python spark.conf.set("spark.databricks.delta.retentionDurationCheck.enabled", "false")
 ```
 
-## Delta Live Tables
+## Delta Live Table Statements
 ```
 CREATE OR REFRESH LIVE TABLE test_raw
 AS SELECT * FROM json.`/repo/data/test.json`;
@@ -296,7 +299,7 @@ CONSTRAINT positive_timestamp EXPECT (creation_time > 0) ON VIOLATION DROP ROW
 CONSTRAINT positive_timestamp EXPECT (creation_time > 0) ON VIOLATION FAIL UPDATE
 ```
 
-## CDC
+## CDC Statements
 ```
 APPLY CHANGES INTO live.target
   FROM stream(live.cdc_source)
@@ -306,10 +309,29 @@ APPLY CHANGES INTO live.target
   COLUMNS * EXCEPT (col);
 ```
 
-## Grant & Revoke
+## Security Statements
 ```
 GRANT <privilege> ON <object_type> <object_name> TO <user_or_group>;
 GRANT SELECT ON TABLE test TO `databricks@degols.net`;
 
 REVOKE <privilege> ON <object_type> <object_name> FROM `test@gmail.com';
 ```
+
+## Links
+- [Databricks](https://docs.databricks.com/en/index.html)
+  - [SQL Language Reference](https://docs.databricks.com/en/sql/language-manual/index.html)
+  - [Cheat Sheets](https://docs.databricks.com/en/getting-started/best-practices.html)
+    - [Compute creation cheat sheet](https://docs.databricks.com/en/cheat-sheet/compute.html)
+    - [Platform administration cheat sheet](https://docs.databricks.com/en/cheat-sheet/administration.html)
+    - [Production job scheduling cheat sheet](https://docs.databricks.com/en/cheat-sheet/jobs.html)
+  - [Best Practices](https://docs.databricks.com/en/getting-started/best-practices.html)
+    - [Delta Lake best practices](https://docs.databricks.com/en/delta/best-practices.html)
+    - [Hyperparameter tuning with Hyperopt](https://docs.databricks.com/en/machine-learning/automl-hyperparam-tuning/hyperopt-best-practices.html)
+    - [Deep learning in Databricks](https://docs.databricks.com/en/machine-learning/train-model/dl-best-practices.html)
+    - [Recommendations for MLOps](https://docs.databricks.com/en/machine-learning/mlops/mlops-workflow.html)
+    - [Unity Catalog best practices](https://docs.databricks.com/en/data-governance/unity-catalog/best-practices.html)
+    - [Cluster configuration best practices](https://docs.databricks.com/en/compute/cluster-config-best-practices.html)
+    - [Instance pool configuration best practices](https://docs.databricks.com/en/compute/pool-best-practices.html)
+- Other
+  - [Databricks Cheat Sheet 1](https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065)
+  - [Databricks Notebook Markdown Cheat Sheet](https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/)

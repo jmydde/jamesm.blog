@@ -39,7 +39,7 @@ languages:
         - name: Blockchain
           url: /blockchain
         - name: Data
-          url: /data
+          url: /data-engineering
         - name: DevOps
           url: /devops
         - name: General
@@ -68,7 +68,7 @@ params:
   mainSections: 
     - ai
     - blockchain
-    - data
+    - data-engineering
     - devops
     - general
     - music-production
@@ -100,7 +100,7 @@ params:
       Welcome to my blog, the following topics are covered here;
       - [**Artificial Intelligence**](/ai) (automation, chatbots, co-pilots, LLMs, robotics)
       - [**Blockchain**](/blockchain) (Bitcoin, Blockchain, decentralization, Polkadot)
-      - [**Data Engineering**](/data) (Databases, ETL, Data Science, ML)
+      - [**Data Engineering**](/data-engineering) (Databases, ETL, Data Science, ML)
       - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
       - [**General**](/general) (general topics & news)
       - [**Music Production**](/music-production) (computer hardware & software)

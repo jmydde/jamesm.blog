@@ -8,11 +8,11 @@
     <language>en</language>
     <lastBuildDate>Sun, 25 Feb 2024 21:00:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Databricks Cheatsheet</title>
-      <link>https://jamesm.blog/data/databricks-cheatsheet/</link>
+      <title>Databricks Cheat Sheets</title>
+      <link>https://jamesm.blog/data-engineering/databricks-cheatsheets/</link>
       <pubDate>Sun, 25 Feb 2024 21:00:25 +0100</pubDate>
       
-      <guid>https://jamesm.blog/data/databricks-cheatsheet/</guid>
+      <guid>https://jamesm.blog/data-engineering/databricks-cheatsheets/</guid>
       <description>Databricks Notebook Commands Command Purpose Example %config Set configuration options for the notebook %env Set environment variables %fs Interact with the Databricks file system %fs ls dbfs:/repo %load Loads the contents of a file into a cell %lsmagic List all magic commands %jobs Lists all running jobs %matplotlib sets up the matplotlib backend %md Write Markdown text %pip Install Python packages %python Executes python code %python dbutils.fs.rm(&amp;quot;/user/hive/warehouse/test/&amp;quot;, True) %r Execute R code %reload reloads module contents %run Executes a Python file or a notebook %scala Executes scala code %sh Executes shell commands on the cluster nodes %sh git clone https://github.</description>
       <content:encoded><![CDATA[<h2 id="databricks-notebook-commands">Databricks Notebook Commands</h2>
 <table>
@@ -111,21 +111,21 @@
 </tr>
 </tbody>
 </table>
-<h2 id="accessing-files">Accessing Files</h2>
+<h3 id="accessing-files">Accessing Files</h3>
 <ul>
 <li>/path/to/file</li>
 <li>dbfs:/path/to/file</li>
 <li>file:/path/to/file</li>
 <li>s3://path/to/file</li>
 </ul>
-<h2 id="copying-files">Copying Files</h2>
+<h3 id="copying-files">Copying Files</h3>
 <pre tabindex="0"><code>%fs cp file:/&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
 
 %python dbutils.fs.cp(&#34;file:/&lt;path&gt;&#34;, &#34;/Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;&#34;)
 %python dbutils.fs.cp(&#34;file:/databricks/driver/test&#34;, &#34;dbfs:/repo&#34;, True)
 
 %sh cp /&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
-</code></pre><h2 id="create">Create</h2>
+</code></pre><h2 id="sql-statements-ddl">SQL Statements (DDL)</h2>
 <h3 id="create--use-schema">Create &amp; Use Schema</h3>
 <pre tabindex="0"><code>CREATE SCHEMA test;
 CREATE SCHEMA custom LOCATION &#39;dbfs:/custom&#39;;
@@ -199,9 +199,14 @@ CREATE VIEW event_log_raw AS SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#3
 CREATE OR REPLACE TEMP VIEW test_view
 AS SELECT test.col1 AS col1 FROM test_table
 WHERE col1 = &#39;value1&#39; ORDER BY timestamp DESC LIMIT 1;
-</code></pre><h2 id="drop">Drop</h2>
+</code></pre><h3 id="drop">Drop</h3>
 <pre tabindex="0"><code>DROP TABLE test;
-</code></pre><h2 id="select">Select</h2>
+</code></pre><h3 id="describe">Describe</h3>
+<pre tabindex="0"><code>SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+</code></pre><h2 id="sql-statements-dml">SQL Statements (DML)</h2>
+<h3 id="select">Select</h3>
 <pre tabindex="0"><code>SELECT * FROM csv.`/repo/data/test.csv`;
 SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
 SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;, format =&gt; &#39;csv&#39;, header =&gt; &#39;true&#39;, sep =&gt; &#39;,&#39;)
@@ -250,11 +255,11 @@ SELECT details:flow_definition.output_dataset as output_dataset,
        details:flow_definition.input_datasets as input_dataset
 FROM   event_log_raw, latest_update
 WHERE  event_type = &#39;flow_definition&#39; AND origin.update_id = latest_update.id;
-</code></pre><h2 id="insert">Insert</h2>
+</code></pre><h3 id="insert">Insert</h3>
 <pre tabindex="0"><code>INSERT OVERWRITE test SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
 
 INSERT INTO test(col1, col2) VALUES (&#39;value1&#39;, &#39;value2&#39;);
-</code></pre><h2 id="merge-into">Merge Into</h2>
+</code></pre><h3 id="merge-into">Merge Into</h3>
 <pre tabindex="0"><code>MERGE INTO test USING test_to_delete
 ON test.col1 = test_to_delete.col1
 WHEN MATCHED THEN DELETE;
@@ -266,17 +271,13 @@ WHEN MATCHED THEN UPDATE SET *;
 MERGE INTO test USING test_to_insert
 ON test.col1 = test_to_insert.col1
 WHEN NOT MATCHED THEN INSERT *;
-</code></pre><h2 id="copy-into">Copy Into</h2>
+</code></pre><h3 id="copy-into">Copy Into</h3>
 <pre tabindex="0"><code>COPY INTO test
 FROM &#39;/repo/data&#39;
 FILEFORMAT = CSV
 FILES = (&#39;test.csv&#39;)
 FORMAT_OPTIONS(&#39;header&#39; = &#39;true&#39;, &#39;inferSchema&#39; = &#39;true&#39;);
-</code></pre><h2 id="describe">Describe</h2>
-<pre tabindex="0"><code>SHOW TABLES;
-
-DESCRIBE EXTENDED test;
-</code></pre><h2 id="delta-lake">Delta Lake</h2>
+</code></pre><h2 id="delta-lake-statements">Delta Lake Statements</h2>
 <pre tabindex="0"><code>DESCRIBE HISTORY test;
 DESCRIBE HISTORY test LIMIT 1;
 
@@ -296,7 +297,7 @@ VACUUM test RETAIN 240 HOURS;
 
 %fs ls dbfs:/user/hive/warehouse/test/_delta_log
 %python spark.conf.set(&#34;spark.databricks.delta.retentionDurationCheck.enabled&#34;, &#34;false&#34;)
-</code></pre><h2 id="delta-live-tables">Delta Live Tables</h2>
+</code></pre><h2 id="delta-live-table-statements">Delta Live Table Statements</h2>
 <pre tabindex="0"><code>CREATE OR REFRESH LIVE TABLE test_raw
 AS SELECT * FROM json.`/repo/data/test.json`;
 
@@ -338,27 +339,115 @@ map(&#34;cloudFiles.inferColumnTypes&#34;, &#34;true&#34;, &#34;pathGlobFilter&#
 CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0)
 CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION DROP ROW
 CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION FAIL UPDATE
-</code></pre><h2 id="cdc">CDC</h2>
+</code></pre><h2 id="cdc-statements">CDC Statements</h2>
 <pre tabindex="0"><code>APPLY CHANGES INTO live.target
   FROM stream(live.cdc_source)
   KEYS (col1)
   APPLY AS DELETE WHEN col2 = &#34;DELETE&#34;
   SEQUENCE BY col3
   COLUMNS * EXCEPT (col);
-</code></pre><h2 id="grant--revoke">Grant &amp; Revoke</h2>
+</code></pre><h2 id="security-statements">Security Statements</h2>
 <pre tabindex="0"><code>GRANT &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; TO &lt;user_or_group&gt;;
 GRANT SELECT ON TABLE test TO `databricks@degols.net`;
 
 REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@gmail.com&#39;;
-</code></pre>]]></content:encoded>
+</code></pre><h2 id="links">Links</h2>
+<ul>
+<li><a href="https://docs.databricks.com/en/index.html">Databricks</a>
+<ul>
+<li><a href="https://docs.databricks.com/en/sql/language-manual/index.html">SQL Language Reference</a></li>
+<li><a href="https://docs.databricks.com/en/getting-started/best-practices.html">Cheat Sheets</a>
+<ul>
+<li><a href="https://docs.databricks.com/en/cheat-sheet/compute.html">Compute creation cheat sheet</a></li>
+<li><a href="https://docs.databricks.com/en/cheat-sheet/administration.html">Platform administration cheat sheet</a></li>
+<li><a href="https://docs.databricks.com/en/cheat-sheet/jobs.html">Production job scheduling cheat sheet</a></li>
+</ul>
+</li>
+<li><a href="https://docs.databricks.com/en/getting-started/best-practices.html">Best Practices</a>
+<ul>
+<li><a href="https://docs.databricks.com/en/delta/best-practices.html">Delta Lake best practices</a></li>
+<li><a href="https://docs.databricks.com/en/machine-learning/automl-hyperparam-tuning/hyperopt-best-practices.html">Hyperparameter tuning with Hyperopt</a></li>
+<li><a href="https://docs.databricks.com/en/machine-learning/train-model/dl-best-practices.html">Deep learning in Databricks</a></li>
+<li><a href="https://docs.databricks.com/en/machine-learning/mlops/mlops-workflow.html">Recommendations for MLOps</a></li>
+<li><a href="https://docs.databricks.com/en/data-governance/unity-catalog/best-practices.html">Unity Catalog best practices</a></li>
+<li><a href="https://docs.databricks.com/en/compute/cluster-config-best-practices.html">Cluster configuration best practices</a></li>
+<li><a href="https://docs.databricks.com/en/compute/pool-best-practices.html">Instance pool configuration best practices</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Other
+<ul>
+<li><a href="https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065">Databricks Cheat Sheet 1</a></li>
+<li><a href="https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/">Databricks Notebook Markdown Cheat Sheet</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Databricks Training &amp; Certification</title>
+      <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>
+      <pubDate>Sun, 25 Feb 2024 21:00:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
+      <description> Coursera Databricks Databricks Databricks Training &amp;amp; Certification Learn Learning Library DataCamp A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist Introduction to Databricks edX Databricks Udemy Databricks Certified Data Engineer Associate Databricks Certified Data Engineer Professional Whizlabs Practice Tests Databricks Certified Associate Developer for Apache Spark (Python) Databricks Certified Data Analyst Associate Certification Databricks Certified Data Engineer Associate Certification Databricks Certified Data Engineer Professional Certification Databricks Certified Machine Learning Associate Certification Databricks Certified Machine Learning Professional Certification </description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/databricks">Databricks</a></li>
+</ul>
+</li>
+<li><a href="https://www.databricks.com/">Databricks</a>
+<ul>
+<li><a href="https://www.databricks.com/learn/training/home">Databricks Training &amp; Certification</a></li>
+<li><a href="https://www.databricks.com/learn">Learn</a></li>
+<li><a href="https://www.databricks.com/training/catalog">Learning Library</a></li>
+</ul>
+</li>
+<li><a href="https://www.datacamp.com/">DataCamp</a>
+<ul>
+<li><a href="https://www.datacamp.com/tutorial/comprehensive-guide-to-databricks-lakehouse-ai">A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists</a></li>
+<li><a href="https://www.datacamp.com/tutorial/introduction-to-databricks">Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist</a></li>
+<li><a href="https://www.datacamp.com/courses/introduction-to-databricks">Introduction to Databricks</a></li>
+</ul>
+</li>
+<li><a href="https://www.edx.org/">edX</a>
+<ul>
+<li><a href="https://www.edx.org/school/databricks">Databricks</a></li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/databricks-certified-data-engineer-associate/">Databricks Certified Data Engineer Associate</a></li>
+<li><a href="https://www.udemy.com/course/databricks-certified-data-engineer-professional/">Databricks Certified Data Engineer Professional</a></li>
+</ul>
+</li>
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
+<ul>
+<li>Practice Tests
+<ul>
+<li><a href="https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/">Databricks Certified Associate Developer for Apache Spark (Python)</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-data-analyst-associate/">Databricks Certified Data Analyst Associate Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-data-engineer-associate/">Databricks Certified Data Engineer Associate Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-data-engineer-professional/">Databricks Certified Data Engineer Professional Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-machine-learning-associate/">Databricks Certified Machine Learning Associate Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/">Databricks Certified Machine Learning Professional Certification</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
       <title>List of Data Engineering &amp; Data Science Courses</title>
-      <link>https://jamesm.blog/data/data-engineering-science-courses/</link>
+      <link>https://jamesm.blog/data-engineering/data-engineering-science-courses/</link>
       <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
       
-      <guid>https://jamesm.blog/data/data-engineering-science-courses/</guid>
+      <guid>https://jamesm.blog/data-engineering/data-engineering-science-courses/</guid>
       <description>Data Engineering A Cloud Guru Apache Kafka Deep Dive AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) Coursera Introduction to Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Google Building Batch Data Pipelines on Google Cloud Building Resilient Streaming Analytics Systems on Google Cloud Modernizing Data Lakes and Data Warehouses with Google Cloud Preparing for the Google Cloud Professional Data Engineer Exam Serverless Data Processing with Dataflow: Develop Pipelines Serverless Data Processing with Dataflow: Foundations Serverless Data Processing with Dataflow: Operations Udacity How to Become a Data Engineer Udemy Taming Big Data with Apache Spark and Python - Hands On!</description>
       <content:encoded><![CDATA[<h2 id="data-engineering">Data Engineering</h2>
 <h3 id="a-cloud-guru">A Cloud Guru</h3>
@@ -5834,10 +5923,10 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     
     <item>
       <title>List of ETL Tools</title>
-      <link>https://jamesm.blog/data/etl-tools/</link>
+      <link>https://jamesm.blog/data-engineering/etl-tools/</link>
       <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
       
-      <guid>https://jamesm.blog/data/etl-tools/</guid>
+      <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
       <description>What is ETL ? Extracting data from sources Transforming data into data models Loading data into data warehouses ETL Tools Ab Initio AWS Data Pipeline AWS Glue Azure Data Factory CloverDX Datastage Google Cloud Dataflow Hevo Informatica Integrate Matillion Pentaho Data Integration (PDI) Qlik Compose SAP Data Services SQL Server Integration Services (SSIS) Stitch Talend </description>
       <content:encoded><![CDATA[<h3 id="what-is-etl-">What is ETL ?</h3>
 <ul>
