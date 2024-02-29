@@ -6,7 +6,63 @@
     <description>Recent content in databricks on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Feb 2024 21:00:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/databricks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2024 21:30:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/databricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Databricks Training &amp; Certification</title>
+      <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>
+      <pubDate>Sun, 25 Feb 2024 21:30:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
+      <description> Coursera Databricks Databricks Databricks Training &amp;amp; Certification Learn Learning Library DataCamp A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist Introduction to Databricks edX Databricks Udemy Databricks Certified Data Engineer Associate Databricks Certified Data Engineer Professional Whizlabs Practice Tests Databricks Certified Associate Developer for Apache Spark (Python) Databricks Certified Data Analyst Associate Certification Databricks Certified Data Engineer Associate Certification Databricks Certified Data Engineer Professional Certification Databricks Certified Machine Learning Associate Certification Databricks Certified Machine Learning Professional Certification </description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/databricks">Databricks</a></li>
+</ul>
+</li>
+<li><a href="https://www.databricks.com/">Databricks</a>
+<ul>
+<li><a href="https://www.databricks.com/learn/training/home">Databricks Training &amp; Certification</a></li>
+<li><a href="https://www.databricks.com/learn">Learn</a></li>
+<li><a href="https://www.databricks.com/training/catalog">Learning Library</a></li>
+</ul>
+</li>
+<li><a href="https://www.datacamp.com/">DataCamp</a>
+<ul>
+<li><a href="https://www.datacamp.com/tutorial/comprehensive-guide-to-databricks-lakehouse-ai">A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists</a></li>
+<li><a href="https://www.datacamp.com/tutorial/introduction-to-databricks">Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist</a></li>
+<li><a href="https://www.datacamp.com/courses/introduction-to-databricks">Introduction to Databricks</a></li>
+</ul>
+</li>
+<li><a href="https://www.edx.org/">edX</a>
+<ul>
+<li><a href="https://www.edx.org/school/databricks">Databricks</a></li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/databricks-certified-data-engineer-associate/">Databricks Certified Data Engineer Associate</a></li>
+<li><a href="https://www.udemy.com/course/databricks-certified-data-engineer-professional/">Databricks Certified Data Engineer Professional</a></li>
+</ul>
+</li>
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
+<ul>
+<li>Practice Tests
+<ul>
+<li><a href="https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/">Databricks Certified Associate Developer for Apache Spark (Python)</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-data-analyst-associate/">Databricks Certified Data Analyst Associate Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-data-engineer-associate/">Databricks Certified Data Engineer Associate Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-data-engineer-professional/">Databricks Certified Data Engineer Professional Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-machine-learning-associate/">Databricks Certified Machine Learning Associate Certification</a></li>
+<li><a href="https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/">Databricks Certified Machine Learning Professional Certification</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Databricks Cheat Sheets</title>
       <link>https://jamesm.blog/data-engineering/databricks-cheatsheets/</link>
@@ -380,62 +436,6 @@ REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@g
 <ul>
 <li><a href="https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065">Databricks Cheat Sheet 1</a></li>
 <li><a href="https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/">Databricks Notebook Markdown Cheat Sheet</a></li>
-</ul>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Databricks Training &amp; Certification</title>
-      <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>
-      <pubDate>Sun, 25 Feb 2024 21:00:25 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
-      <description> Coursera Databricks Databricks Databricks Training &amp;amp; Certification Learn Learning Library DataCamp A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist Introduction to Databricks edX Databricks Udemy Databricks Certified Data Engineer Associate Databricks Certified Data Engineer Professional Whizlabs Practice Tests Databricks Certified Associate Developer for Apache Spark (Python) Databricks Certified Data Analyst Associate Certification Databricks Certified Data Engineer Associate Certification Databricks Certified Data Engineer Professional Certification Databricks Certified Machine Learning Associate Certification Databricks Certified Machine Learning Professional Certification </description>
-      <content:encoded><![CDATA[<ul>
-<li><a href="https://www.coursera.org/">Coursera</a>
-<ul>
-<li><a href="https://www.coursera.org/databricks">Databricks</a></li>
-</ul>
-</li>
-<li><a href="https://www.databricks.com/">Databricks</a>
-<ul>
-<li><a href="https://www.databricks.com/learn/training/home">Databricks Training &amp; Certification</a></li>
-<li><a href="https://www.databricks.com/learn">Learn</a></li>
-<li><a href="https://www.databricks.com/training/catalog">Learning Library</a></li>
-</ul>
-</li>
-<li><a href="https://www.datacamp.com/">DataCamp</a>
-<ul>
-<li><a href="https://www.datacamp.com/tutorial/comprehensive-guide-to-databricks-lakehouse-ai">A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists</a></li>
-<li><a href="https://www.datacamp.com/tutorial/introduction-to-databricks">Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist</a></li>
-<li><a href="https://www.datacamp.com/courses/introduction-to-databricks">Introduction to Databricks</a></li>
-</ul>
-</li>
-<li><a href="https://www.edx.org/">edX</a>
-<ul>
-<li><a href="https://www.edx.org/school/databricks">Databricks</a></li>
-</ul>
-</li>
-<li><a href="https://www.udemy.com/">Udemy</a>
-<ul>
-<li><a href="https://www.udemy.com/course/databricks-certified-data-engineer-associate/">Databricks Certified Data Engineer Associate</a></li>
-<li><a href="https://www.udemy.com/course/databricks-certified-data-engineer-professional/">Databricks Certified Data Engineer Professional</a></li>
-</ul>
-</li>
-<li><a href="https://www.whizlabs.com/">Whizlabs</a>
-<ul>
-<li>Practice Tests
-<ul>
-<li><a href="https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/">Databricks Certified Associate Developer for Apache Spark (Python)</a></li>
-<li><a href="https://www.whizlabs.com/databricks-certified-data-analyst-associate/">Databricks Certified Data Analyst Associate Certification</a></li>
-<li><a href="https://www.whizlabs.com/databricks-certified-data-engineer-associate/">Databricks Certified Data Engineer Associate Certification</a></li>
-<li><a href="https://www.whizlabs.com/databricks-certified-data-engineer-professional/">Databricks Certified Data Engineer Professional Certification</a></li>
-<li><a href="https://www.whizlabs.com/databricks-certified-machine-learning-associate/">Databricks Certified Machine Learning Associate Certification</a></li>
-<li><a href="https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/">Databricks Certified Machine Learning Professional Certification</a></li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>

@@ -1,6 +1,6 @@
 ---
 title: "Databricks Training & Certification"
-date: 2024-02-25T21:00:25+01:00
+date: 2024-02-25T21:30:25+01:00
 draft: false
 tags: ['databricks', 'training', 'certification']
 ---
