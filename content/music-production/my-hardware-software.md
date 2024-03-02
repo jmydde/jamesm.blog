@@ -340,8 +340,10 @@ Arturia is a French electronics company who design and manufacture audio interfa
 
 ### Cherry Audio
 Cherry Audio was formed by a small group of industry veterans from the likes of Sonic Foundry, Cakewalk, Bias, Acoustica, and Keyboard Magazine
-- [Synthesizer Expander Module Synthesizer](https://cherryaudio.com/products/synthesizer-expander-module)
-- [Voltage Modular](https://cherryaudio.com/products/voltage-modular)
+- [CR-78](https://cherryaudio.com/products/cr-78) - virtual drum machine: accurately recreates the punchy analog sounds and 34 onboard preset rhythms of the first true classic drum machine and takes it much further
+- [Mercury-6](https://cherryaudio.com/products/mercury-6) - meticulous recreation of the Jupiter-6 analog synthesizer
+- [Synthesizer Expander Module Synthesizer](https://cherryaudio.com/products/synthesizer-expander-module) - emulation of the classic Oberheim® self‑contained synthesizer module
+- [Voltage Modular](https://cherryaudio.com/products/voltage-modular) - designed from the ground up to address the shortcomings of other virtual modular synth instruments
 
 ### Eventide
 Eventide Inc. is an American pro audio, broadcast and communications company whose audio division manufactures digital effects processors, digital signal processor (DSP) software, and guitar effects pedals.
