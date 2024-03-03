@@ -342,6 +342,7 @@ Arturia is a French electronics company who design and manufacture audio interfa
 Cherry Audio was formed by a small group of industry veterans from the likes of Sonic Foundry, Cakewalk, Bias, Acoustica, and Keyboard Magazine
 - [CR-78](https://cherryaudio.com/products/cr-78) - virtual drum machine: accurately recreates the punchy analog sounds and 34 onboard preset rhythms of the first true classic drum machine and takes it much further
 - [Mercury-6](https://cherryaudio.com/products/mercury-6) - meticulous recreation of the Jupiter-6 analog synthesizer
+- [PS-3300](https://cherryaudio.com/products/ps-3300) - an exactingly faithful virtual analog emulation of the colossal and ultra-rare semi-modular analog polyphonic synthesizer released by KORG in 1977
 - [Synthesizer Expander Module Synthesizer](https://cherryaudio.com/products/synthesizer-expander-module) - emulation of the classic Oberheim® self‑contained synthesizer module
 - [Voltage Modular](https://cherryaudio.com/products/voltage-modular) - designed from the ground up to address the shortcomings of other virtual modular synth instruments
 

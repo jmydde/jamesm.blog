@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/computers/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/computing/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/favourite-computers/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/gaming/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/pcs/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/phones/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/retro/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/software/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2024-03-03T17:54:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/analogue/</loc>
+    <lastmod>2024-03-01T23:34:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/digital/</loc>
+    <lastmod>2024-03-01T23:34:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/music-production/</loc>
+    <lastmod>2024-03-01T23:34:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/music-production/analogue-vs-digital/</loc>
+    <lastmod>2024-03-01T23:34:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/synths/</loc>
+    <lastmod>2024-03-01T23:34:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/certification/</loc>
     <lastmod>2024-02-25T21:30:25+01:00</lastmod>
   </url><url>
@@ -12,12 +60,6 @@
     <lastmod>2024-02-25T21:30:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/data-engineering/databricks-training-certification/</loc>
-    <lastmod>2024-02-25T21:30:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2024-02-25T21:30:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2024-02-25T21:30:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/training/</loc>
@@ -113,9 +155,6 @@
     <loc>https://jamesm.blog/tags/mpe/</loc>
     <lastmod>2024-02-03T11:24:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/music-production/</loc>
-    <lastmod>2024-02-03T11:24:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/music-production/mpe-midi-controllers/</loc>
     <lastmod>2024-02-03T11:24:00+00:00</lastmod>
   </url><url>
@@ -123,9 +162,6 @@
     <lastmod>2024-02-03T11:24:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/physical-modeling/</loc>
-    <lastmod>2024-02-03T11:24:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/synths/</loc>
     <lastmod>2024-02-03T11:24:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music-production/news/namm-2024/</loc>
@@ -372,9 +408,6 @@
     <lastmod>2023-12-12T09:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/plugins/</loc>
-    <lastmod>2023-12-12T09:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/software/</loc>
     <lastmod>2023-12-12T09:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/virtual-instruments/</loc>
@@ -632,9 +665,6 @@
     <loc>https://jamesm.blog/tags/conference/</loc>
     <lastmod>2023-05-18T09:54:16+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/</loc>
-    <lastmod>2023-05-15T14:53:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/ui/</loc>
     <lastmod>2023-05-15T14:53:39+01:00</lastmod>
   </url><url>
@@ -779,19 +809,10 @@
     <loc>https://jamesm.blog/music-production/favourites/</loc>
     <lastmod>2020-01-01T14:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/computing/</loc>
-    <lastmod>2020-01-01T00:00:01+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/console-gaming/</loc>
     <lastmod>2020-01-01T00:00:01+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/favourite-computer-games/</loc>
-    <lastmod>2020-01-01T00:00:01+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/general/favourite-computers/</loc>
-    <lastmod>2020-01-01T00:00:01+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/gaming/</loc>
     <lastmod>2020-01-01T00:00:01+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/hugo/</loc>
