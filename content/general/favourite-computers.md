@@ -154,7 +154,13 @@ I don't remember the exact model (I was 5), however thin it was this one;
 
 ### Nokia 3210 (1999)
 
+### BlackBerry (~2000)
+
 ### Sony Ericsson P800 (2002)
+
+### Sony Xperia Z3 (2014)
+
+### iPhone 8 Plus (2017)
 
 ### Samsung Galaxy S10 (2019)
 
