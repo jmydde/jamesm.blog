@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cryptography on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/cryptography/</link>
+    <description>Recent content in cryptography on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Jun 2023 13:30:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/cryptography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Private Keys</title>
+      <link>https://jamesm.blog/blockchain/private-keys/</link>
+      <pubDate>Fri, 23 Jun 2023 13:30:39 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/blockchain/private-keys/</guid>
+      <description>About A private key is a cryptographic variable that is used in conjunction with an algorithm to encrypt and decrypt data. Private keys should be shared only with the key&amp;rsquo;s generator or parties authorized to decrypt the data. They are crucial in symmetric cryptography, asymmetric cryptography and cryptocurrencies.
+YouTube How secure is 256 bit security? Can Someone Guess My Crypto Private Key? [From Sand, to Molecules, to the Observable Universe] Could Someone Guess Your Bitcoin Private Key?</description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>A private key is a cryptographic variable that is used in conjunction with an algorithm to encrypt and decrypt data. Private keys should be shared only with the key&rsquo;s generator or parties authorized to decrypt the data. They are crucial in symmetric cryptography, asymmetric cryptography and cryptocurrencies.</p>
+<h2 id="youtube">YouTube</h2>
+<h3 id="how-secure-is-256-bit-security">How secure is 256 bit security?</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/S9JGmA5_unY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="can-someone-guess-my-crypto-private-key-from-sand-to-molecules-to-the-observable-universe">Can Someone Guess My Crypto Private Key? [From Sand, to Molecules, to the Observable Universe]</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/2eZ5DP2P5As" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="could-someone-guess-your-bitcoin-private-key">Could Someone Guess Your Bitcoin Private Key?</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/wtuMbMVE-io" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

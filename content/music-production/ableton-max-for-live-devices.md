@@ -47,6 +47,28 @@ tags: ['ableton', 'max4live']
 ##### Making techno with Max for Live drum synth Opal | Ableton Live tutorial
 {{< youtube kcuIYAj3y-E >}}
 
+## Philip Meyer
+
+### Devices for innovative music-making
+[Philip Meyer](https://philipmeyer.gumroad.com/)
+- Generators
+  - Phase Pattern
+  - Blocks
+  - Turing Machine
+  - Polyrhythm 
+- Transformers
+  - Divs
+  - Pattern Transform
+  - Condition Transform
+  - Feel
+  - Draw
+  - Develop
+  - Segment
+  - Shift
+#### YouTube Videos
+##### I made 12 generative MIDI devices for Ableton Live 12
+{{< youtube _LpA66peATg >}}
+
 ## Spektro Audio
 
 ### ACDGEN - Advanced Pattern Generator
