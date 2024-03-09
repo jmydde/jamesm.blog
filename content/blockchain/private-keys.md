@@ -2,7 +2,7 @@
 title: "Private Keys"
 date: 2023-06-23T13:30:39+01:00
 draft: false
-tags: ['bitcoin', 'andreas antonopoulos', 'private keys', 'cryptographic', 'cryptography', 'encryption', 'asymmetric', 'decryption']
+tags: ['bitcoin', 'andreas antonopoulos', 'private keys', 'cryptographic', 'cryptography', 'encryption', 'asymmetric', 'decryption', 'crypto', 'wallets']
 ---
 
 ## About
@@ -18,3 +18,6 @@ A private key is a cryptographic variable that is used in conjunction with an al
 
 ### Could Someone Guess Your Bitcoin Private Key?
 {{< youtube wtuMbMVE-io >}}
+
+### How Public and Private Key Work In Your Crypto Wallets
+{{< youtube bvSJm7fHXto >}}
