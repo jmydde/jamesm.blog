@@ -11,6 +11,9 @@ tags: ['gavin wood', 'polkadot']
 ### 2023-12-11 Polkadot Community Call | December 2023
 {{< youtube tbewfQM_19c >}}
 
+### 2023-11-06 Gavin Wood - Is Polkadot's OpenGov Democratic?
+{{< youtube RvbsSq1a_8g >}}
+
 ### 2023-10-25 Unlocking DOT Opportunities: Staking, Crowdloans, and More
 - https://polkadot.network/blog/unlocking-dot-opportunities-staking-crowdloans-and-more
 
@@ -40,6 +43,9 @@ tags: ['gavin wood', 'polkadot']
 
 ### 2023-07-19 Polkadot 1.0: Pioneering Blockspace Composability and Scalability
 - https://polkadot.network/blog/polkadot-1-0-pioneering-blockspace-composability-and-scalability
+
+### 2023-07-14 Introduction to Smoldot & Light Clients
+{{< youtube YjsLpfM6a7E >}}
 
 ### 2023-06-30 Gavin Wood Sees Polkadot as a Global Supercomputer | Polkadot Decoded 2023
 {{< youtube GIB1WeVuJD0 >}}

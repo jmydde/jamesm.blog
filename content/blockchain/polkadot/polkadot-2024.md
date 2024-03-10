@@ -11,6 +11,9 @@ tags: ['gavin wood', 'polkadot', 'dot', 'blockchain']
 ### 2024-02-18 Gavin Wood Was Right About Polkadot DOT....
 {{< youtube j1ntZ0IxjYY >}}
 
+### 2024-01-25 Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet?
+{{< youtube pShgerl8wGs >}}
+
 ### 2024-01-24 Polkadot Blockchain Academy: Targeted Education for Builders and Founders
 - https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/
 
