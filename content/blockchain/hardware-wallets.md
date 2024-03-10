@@ -1,5 +1,5 @@
 ---
-title: "Hardware Wallets"
+title: "Cryptocurrency Hardware Wallets"
 date: 2023-06-30T13:30:39+01:00
 draft: false
 tags: ['bitcoin', 'hardware wallets', 'safepal', 'ledger', 'nano ledger', 'trezor', 'hacking']
