@@ -25,4 +25,9 @@ Google Gemini Ultra is the top-of-the-line offering within the Gemini family of 
 Google Gemini Ultra is a cutting-edge AI model pushing the boundaries of language understanding and generation. Its capabilities are expected to be significant for various fields,  but its accessibility might be limited for now.
 
 ## YouTube
+
+### Google’s GEMINI ULTRA 1.0 First Look - Breakdown and Testing
 {{< youtube NuPREI6mB0g >}}
+
+### Google's newest and most capable AI | Gemini
+{{< youtube jV1vkHv4zq8 >}}

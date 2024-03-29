@@ -26,4 +26,9 @@ Google Gemini Advanced is an upgrade to the base Gemini large language model, of
 Gemini Advanced is designed for users who require more in-depth functionalities from a language model, be it for advanced coding assistance, creative content generation, or personalized learning experiences.
 
 ## YouTube
+
+### NEW Google Gemini Is Here! Is It Better Than ChatGPT?
 {{< youtube l3ArneTKv_0 >}}
+
+### Google's newest and most capable AI | Gemini
+{{< youtube jV1vkHv4zq8 >}}
