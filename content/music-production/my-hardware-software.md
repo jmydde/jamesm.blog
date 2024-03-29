@@ -610,6 +610,8 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
     - 63 Instruments, 53,562 Samples, 476 Presets
 - [Meteor](https://www.uvi.net/en/soundfx/meteor.html)
   - 699 Presets, 3,891 Samples
+- [Mission 6](https://www.uvi.net/en/vintage-synth/mission-6.html)
+  - 400 presets, 341 layers, 33.174 samples
 - [Noctua](https://www.uvi.net/en/soundware/noctua.html)
   - 100 presets, 3 layers, 632 samples
 - [Percussion Factory](https://www.uvi.net/en/bass-drums-perc/percussion-factory.html)
