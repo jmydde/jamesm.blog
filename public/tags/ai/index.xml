@@ -6,7 +6,31 @@
     <description>Recent content in ai on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 07:16:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Mar 2024 23:12:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI Voice Engine</title>
+      <link>https://jamesm.blog/ai/openai-voice-engine/</link>
+      <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
+      <description>About Voice Engine uses text input and a single 15-second audio sample to generate natural-sounding speech that closely resembles the original speaker. It is notable that a small model with a single 15-second sample can create emotive and realistic voices.
+Links https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices YouTube OpenAI Introducing: A New Era of Human-like AI Voices </description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>Voice Engine uses text input and a single 15-second audio sample to generate natural-sounding speech that closely resembles the original speaker. It is notable that a small model with a single 15-second sample can create emotive and realistic voices.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices">https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices</a></li>
+</ul>
+<h2 id="youtube">YouTube</h2>
+<h3 id="openai-introducing-a-new-era-of-human-like-ai-voices">OpenAI Introducing: A New Era of Human-like AI Voices</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/BHVoHlpH2og" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Google Gemini Ultra</title>
       <link>https://jamesm.blog/ai/google-gemini-ultra/</link>
@@ -806,7 +830,7 @@ Neovim JetBrains IDEs Visual Studio Visual Studio Code Price: $10 / month</descr
     <item>
       <title>Artificial Intelligence</title>
       <link>https://jamesm.blog/ai/</link>
-      <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
+      <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/</guid>
       <description> </description>

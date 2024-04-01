@@ -6,7 +6,31 @@
     <description>Recent content on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 07:16:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Mar 2024 23:12:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI Voice Engine</title>
+      <link>https://jamesm.blog/ai/openai-voice-engine/</link>
+      <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
+      <description>About Voice Engine uses text input and a single 15-second audio sample to generate natural-sounding speech that closely resembles the original speaker. It is notable that a small model with a single 15-second sample can create emotive and realistic voices.
+Links https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices YouTube OpenAI Introducing: A New Era of Human-like AI Voices </description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>Voice Engine uses text input and a single 15-second audio sample to generate natural-sounding speech that closely resembles the original speaker. It is notable that a small model with a single 15-second sample can create emotive and realistic voices.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices">https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices</a></li>
+</ul>
+<h2 id="youtube">YouTube</h2>
+<h3 id="openai-introducing-a-new-era-of-human-like-ai-voices">OpenAI Introducing: A New Era of Human-like AI Voices</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/BHVoHlpH2og" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Google Gemini Ultra</title>
       <link>https://jamesm.blog/ai/google-gemini-ultra/</link>
@@ -105,11 +129,19 @@ Extended Conversations: Facilitates longer and more detailed interactions compar
     <item>
       <title>Polkadot News 2024</title>
       <link>https://jamesm.blog/blockchain/polkadot/polkadot-2024/</link>
-      <pubDate>Sat, 09 Mar 2024 06:00:22 +0100</pubDate>
+      <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
       
       <guid>https://jamesm.blog/blockchain/polkadot/polkadot-2024/</guid>
-      <description>2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/ 2024-02-18 Gavin Wood Was Right About Polkadot DOT&amp;hellip;. 2024-01-25 Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet? 2024-01-24 Polkadot Blockchain Academy: Targeted Education for Builders and Founders https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/ 2024-01-17 Polkadot Review 2024: DOT Updates You Need to Know! https://www.coinbureau.com/review/polkadot-dot/ 2024-01-12 Polkadot Showcases Industry-Leading Scalability in Positive End to 2023 https://polkadot.network/blog/polkadot_q4_update_data/ </description>
-      <content:encoded><![CDATA[<h3 id="2024-03-04-the-polkadot-alpha-program-a-new-era-of-collaborative-building">2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building</h3>
+      <description>2024-03-19 Empowering Next-Level Insights: Dune Brings Polkadot and Kusama Analytics into Focus https://polkadot.network/blog/polkadot-kusama-analytics-dune/ 2024-03-18 Polkadot Blockchain Academy Adds Remote Option for Select Students https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/ 2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/ 2024-02-18 Gavin Wood Was Right About Polkadot DOT&amp;hellip;. 2024-01-25 Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet? 2024-01-24 Polkadot Blockchain Academy: Targeted Education for Builders and Founders https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/ 2024-01-17 Polkadot Review 2024: DOT Updates You Need to Know!</description>
+      <content:encoded><![CDATA[<h3 id="2024-03-19-empowering-next-level-insights-dune-brings-polkadot-and-kusama-analytics-into-focus">2024-03-19 Empowering Next-Level Insights: Dune Brings Polkadot and Kusama Analytics into Focus</h3>
+<ul>
+<li><a href="https://polkadot.network/blog/polkadot-kusama-analytics-dune/">https://polkadot.network/blog/polkadot-kusama-analytics-dune/</a></li>
+</ul>
+<h3 id="2024-03-18-polkadot-blockchain-academy-adds-remote-option-for-select-students">2024-03-18 Polkadot Blockchain Academy Adds Remote Option for Select Students</h3>
+<ul>
+<li><a href="https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/">https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/</a></li>
+</ul>
+<h3 id="2024-03-04-the-polkadot-alpha-program-a-new-era-of-collaborative-building">2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building</h3>
 <ul>
 <li><a href="https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/">https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/</a></li>
 </ul>

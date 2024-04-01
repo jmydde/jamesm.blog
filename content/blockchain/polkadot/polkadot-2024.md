@@ -1,9 +1,15 @@
 ---
 title: "Polkadot News 2024"
-date: 2024-03-09T06:00:22+01:00
+date: 2024-03-19T06:00:22+01:00
 draft: false
 tags: ['gavin wood', 'polkadot', 'dot', 'blockchain']
 ---
+
+### 2024-03-19 Empowering Next-Level Insights: Dune Brings Polkadot and Kusama Analytics into Focus
+- https://polkadot.network/blog/polkadot-kusama-analytics-dune/
+
+### 2024-03-18 Polkadot Blockchain Academy Adds Remote Option for Select Students
+- https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/
 
 ### 2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building
 - https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/
