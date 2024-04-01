@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>voice engine on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/voice-engine/</link>
+    <description>Recent content in voice engine on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Mar 2024 23:12:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/voice-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI Voice Engine</title>
+      <link>https://jamesm.blog/ai/openai-voice-engine/</link>
+      <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
+      <description>About OpenAI&amp;rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample. It is notable that a small model with a single 15-second sample can create emotive and realistic voices. To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
+Links https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices YouTube OpenAI Introducing: A New Era of Human-like AI Voices </description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>OpenAI&rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices">https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices</a></li>
+</ul>
+<h2 id="youtube">YouTube</h2>
+<h3 id="openai-introducing-a-new-era-of-human-like-ai-voices">OpenAI Introducing: A New Era of Human-like AI Voices</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/BHVoHlpH2og" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
