@@ -125,8 +125,12 @@ params:
       url: "https://github.com/jmydde/"
     - name: gmail
       url: "mailto:jamesmyddelton@gmail.com"
+    - name: other
+      url: "https://devopsforum.uk"
     - name: KoFi
       url: "https://ko-fi.com/U6U1LGXXV/"
+    - name: bitcoin
+      url: "https://bitcointicker.co/"
     - name: rss-simple
       url: "index.xml"
 
