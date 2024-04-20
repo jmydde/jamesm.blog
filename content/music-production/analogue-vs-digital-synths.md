@@ -12,22 +12,27 @@ Analog & digital synthesizers are both electronic instruments that create sound,
 - Use electrical circuits to produce sound waves
 - These circuits can be influenced by various knobs and sliders, creating a warm, rich sound with subtle imperfections
 - Pros
-  - Warm, organic sound, Sought-after for genres like classic electronic music, Often praised for their "hands-on" approach to sound design
+  - Warm, organic sound, sought-after for genres like classic electronic music, "hands-on" approach to sound design
 - Cons
-  - Can be expensive, Limited in features compared to digital synths, Less polyphony (number of notes played simultaneously)
+  - Can be expensive, limited in features compared to digital synths, less polyphony
 
 **Digital Synths**
 - Generate sound using digital representations of waveforms.
 - They're essentially tiny computers with software that can create a wider variety of sounds, often including emulations of analog sounds
 - Pros
-  - More affordable, Wider variety of sounds and effects, More features like sequencers and on-board arpeggiators, Greater polyphony
+  - More affordable, wider variety of sounds and effects, more features like sequencers and on-board arpeggiators, greater polyphony
 - Cons
-  - May not sound as warm as analog however as technology has improved over time its now becoming impossible for the human ear to tell the difference
-    - See this video: https://youtu.be/kk-3vXOAtVo
+  - May not sound as warm as analog 
+    - However as technology has improved over time its now becoming impossible for the human ear to tell the difference, see this video
+      - [Why Modern Digital Synthesis Is More Analog Than Analog]({{<ref "#why-modern-digital-synthesis-is-more-analog-than-analog" >}}) 
 
 **Additional Considerations**
-- Playing Style: If you prefer a more hands-on, immediate sound creation process, analog might be a good fit. For those who like flexibility and experimentation, digital could be better.
-- Genre: Certain genres are typically associated with analog sounds (e.g., classic subtractive synthesis sounds in electronic music). Digital synths can cover a wider range of genres.
+- Playing Style
+  - If you prefer a more hands-on, immediate sound creation process, analog might be a good fit. For those who like flexibility and experimentation, digital could be better.
+- Genre
+  - Certain genres are typically associated with analog sounds
+    - classic subtractive synthesis sounds in electronic music
+    - digital synths can cover a wider range of genres
 
 **Verdict**
 There's no single "better" choice. It depends on your needs and preferences;
@@ -40,20 +45,20 @@ There's no single "better" choice. It depends on your needs and preferences;
 
 ## YouTube Videos
 
-### “Why Modern Digital Synthesis Is More Analog Than Analog” - Mark Barton
+### Why Modern Digital Synthesis Is More Analog Than Analog
 {{< youtube kk-3vXOAtVo >}}
 
-### Is Analog Gear REALLY worth it? My honest thoughts...
+### Is Analog Gear REALLY worth it?
 {{< youtube 0LNZQRI0yr0 >}}
 
 ### Analog vs Digital Polysynth - is there really a difference?
 {{< youtube PzyJ7AoZdfA >}}
 
-### Analog vs. Digital Synths — Which is Right for You? — Daniel Fisher
+### Analog vs. Digital Synths — Which is Right for You?
 {{< youtube NrCjtVZZLTw >}}
 
 ### Analog Synths vs Digital Synths Quiz
 {{< youtube yOAKWwrTvho >}}
 
-### Comparing Analogue Vs Digital Synthesis (Part 1) | Metalworks Institute
+### Comparing Analogue Vs Digital Synthesis
 {{< youtube BKUfytjA5C4 >}}
