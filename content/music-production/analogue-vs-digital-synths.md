@@ -35,13 +35,13 @@ Analog & digital synthesizers are both electronic instruments that create sound,
     - digital synths can cover a wider range of genres
 
 **Verdict**
-There's no single "better" choice. It depends on your needs and preferences;
-- Choose Analog
-  - If you prioritize a warm, classic sound, appreciate a more hands-on approach, and are playing genres that favor analog textures
-- Choose Digital
-  - If you want affordability, a broader sonic palette, features like sequencing and effects, or need high polyphony
-- Hybrid Option
-  - Many modern synths are digital but emulate analog circuitry to capture the classic sound. These "virtual analog" synths can be a good compromise
+- There's no single "better" choice. It depends on your needs and preferences;
+  - Choose Analog
+    - If you prioritize a warm, classic sound, appreciate a more hands-on approach, and are playing genres that favor analog textures
+  - Choose Digital
+    - If you want affordability, a broader sonic palette, features like sequencing and effects, or need high polyphony
+  - Hybrid Option
+    - Many modern synths are digital but emulate analog circuitry to capture the classic sound. These "virtual analog" synths can be a good compromise
 
 ## YouTube Videos
 
