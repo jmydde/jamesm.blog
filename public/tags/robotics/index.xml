@@ -6,7 +6,41 @@
     <description>Recent content in robotics on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Apr 2024 20:44:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Apr 2024 22:26:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1X - Eve</title>
+      <link>https://jamesm.blog/ai/1x-eve/</link>
+      <pubDate>Sun, 21 Apr 2024 22:26:14 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/1x-eve/</guid>
+      <description>Overview 1X EVE is an android worker designed by 1X Technologies. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.
+Here are some key features of 1X EVE:
+Designed for safe interaction with humans due to its soft and organic-inspired mechanics. Can navigate human environments by opening doors, using elevators, and fitting into workspaces. Equipped with advanced language processing and can understand and respond to natural language commands.</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p>1X EVE is an android worker designed by <a href="https://www.1x.tech/">1X Technologies</a>. It&rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.</p>
+<p>Here are some key features of 1X EVE:</p>
+<ul>
+<li>Designed for safe interaction with humans due to its soft and organic-inspired mechanics.</li>
+<li>Can navigate human environments by opening doors, using elevators, and fitting into workspaces.</li>
+<li>Equipped with advanced language processing and can understand and respond to natural language commands.</li>
+<li>Learns and adapts through embodied artificial intelligence.</li>
+</ul>
+<h2 id="youtube">YouTube</h2>
+<h3 id="2024-04-21-how-1x-will-beat-tesla">[2024-04-21] How 1X Will Beat Tesla!</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/zqrg7brCx-s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio">[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/XpBWxLg-3bI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tesla Optimus Robot</title>
       <link>https://jamesm.blog/ai/tesla-optimus-robot/</link>
