@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/general/</loc>
+    <lastmod>2024-04-21T22:07:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2024-04-21T22:07:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/numbers/</loc>
+    <lastmod>2024-04-21T22:07:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2024-04-21T22:07:01+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/huge-numbers/</loc>
+    <lastmod>2024-04-21T22:07:01+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
     <lastmod>2024-04-21T20:44:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2024-04-21T20:44:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2024-04-21T20:44:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/optimus/</loc>
@@ -18,9 +30,6 @@
     <lastmod>2024-04-21T20:44:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/robots/</loc>
-    <lastmod>2024-04-21T20:44:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2024-04-21T20:44:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tesla/</loc>
@@ -41,7 +50,7 @@
     <loc>https://jamesm.blog/tags/humanoid-robots/</loc>
     <lastmod>2024-04-20T22:09:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/news/gaming-emulators/</loc>
+    <loc>https://jamesm.blog/general/gaming-emulators/</loc>
     <lastmod>2024-04-20T08:00:01+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/computing/</loc>
@@ -54,9 +63,6 @@
     <lastmod>2024-04-20T08:00:01+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/gaming-emulators/</loc>
-    <lastmod>2024-04-20T08:00:01+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/general/</loc>
     <lastmod>2024-04-20T08:00:01+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/software/</loc>

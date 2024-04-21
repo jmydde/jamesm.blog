@@ -21,6 +21,9 @@ Musk has predicted long-term their robot will probably be worth __significantly 
 ### [2024-04-21] How The Tesla Bot Is Made
 {{< youtube m8Rci8lXNdY >}}
 
+### [2024-01-14] Why The Tesla Bot Will Take Over In 2024!
+{{< youtube bTFznsGfnlU >}}
+
 ### [2023-12-13] Optimus - Gen 2
 {{< youtube cpraXaw7dyc >}}
 
