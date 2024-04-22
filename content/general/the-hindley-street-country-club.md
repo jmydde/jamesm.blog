@@ -22,8 +22,14 @@ They have covered a huge amount of songs, Here are just a few of my favourites;
 ### Can’t Get Enough Of Your Love (Barry White)
 {{< youtube YKV8N19GAWw >}}
 
-### Ride Like The Wind (Christopher Cross) - Live
-{{< youtube 6n4Afk3MA3o >}}
+### Easy Lover (Philip Bailey, Phil Collins) 
+{{< youtube 5EcBRCM0418 >}}
+
+### Le Freak (Chic)
+{{< youtube J6IG37lyLc8 >}}
+
+### Fresh (Kool & The Gang)
+{{< youtube ULznfdCFF3s >}}
 
 ### September (Earth Wind & Fire)
 {{< youtube UZJezLwo0fM >}}
@@ -33,6 +39,9 @@ They have covered a huge amount of songs, Here are just a few of my favourites;
 
 ### Isn't She Lovely (Stevie Wonder)
 {{< youtube Cx2IFfu5434 >}}
+
+### Ride Like The Wind (Christopher Cross) - Live
+{{< youtube 6n4Afk3MA3o >}}
 
 ## YouTube (Sing It Live)
 
@@ -44,8 +53,17 @@ There is also another excellent YouTube channel called Sing It Live, which a few
 ### Spinning Around (Kylie Minogue)
 {{< youtube 37e9MuVuktg >}}
 
+### Get Into the Groove (Madonna)
+{{< youtube 8fIAS1hSF10 >}}
+
+### Friday I’m In Love (The Cure)
+{{< youtube SPEVov-4Xmo >}}
+
 ### Murder on the Dancefloor (Sophie Ellis-Bextor)
 {{< youtube POnNBZ47Zyk >}}
+
+### I Feel for You (Prince, Chaka Khan)
+{{< youtube 3YjZ-E5IKoQ >}}
 
 ### Disco Inferno (The Trammps)
 {{< youtube hp0k9ooWaBw >}}
