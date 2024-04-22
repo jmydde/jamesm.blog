@@ -18,6 +18,9 @@ They use [Atlas](https://bostondynamics.com/atlas/) to explore the potential of 
 ### All New Atlas | Boston Dynamics
 {{< youtube 29ECwExc-_M >}}
 
+### BREAKING: Boston Dynamics SHOCKS With New Humanoid Robot
+{{< youtube zWXdBxqQL7I >}}
+
 ### Boston Dynamics Reveals NEW ROBOT, Creepy Dystopian Future Is Already HERE
 {{< youtube IfaJ1Zgn-AQ >}}
 

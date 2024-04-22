@@ -122,7 +122,7 @@ params:
   # - name: github-simple
   #   url: "https://github.com/jmydde/"
     - name: github
-      url: "https://github.com/jmydde/"
+      url: "https://github.com/jmydde/jamesm.blog"
     - name: gmail
       url: "mailto:jamesmyddelton@gmail.com"
     - name: other
@@ -130,7 +130,7 @@ params:
     - name: KoFi
       url: "https://ko-fi.com/U6U1LGXXV/"
     - name: bitcoin
-      url: "https://bitcointicker.co/"
+      url: "https://www.livecoinwatch.com/price/Bitcoin-BTC"
     - name: rss-simple
       url: "index.xml"
 
