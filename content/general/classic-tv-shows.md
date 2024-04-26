@@ -5,6 +5,22 @@ draft: false
 tags: ['tv shows', 'clssic']
 ---
 
+## Tomorrow's World (1965 - 2003)
+[Tomorrow's World](https://en.wikipedia.org/wiki/Tomorrow%27s_World) was a British television series about contemporary developments in science and technology. 
+
+### Tomorrow's World theme tune - 1987
+{{< youtube yc9v1vfBlHs >}}
+
+## Fawlty Towers (1975 - 1979)
+
+### Fawlty Towers: All episodes ranked
+{{< youtube uYoX8ltQ4rk >}}
+
+## Monkey Magic
+
+### Monkey (1978-80). Journey to the Best.
+{{< youtube yYUcGIspzZE >}}
+
 ## Johnny Ball
 [Johnny Ball](https://en.wikipedia.org/wiki/Johnny_Ball) was an absolute legend, I grew up watching all of his shows;
 - Think of a Number (6 series, 6 editions each)
@@ -31,3 +47,13 @@ I don't understand why we still don't have educational programs like this on TV 
 
 ### Johnny Ball Reveals All, Full Intro
 {{< youtube qTVjqdp4WX0 >}}
+
+## The Day Today (1994)
+
+### The Day Today Episode 1: Main News Attack
+{{< youtube eTGE9153VFE >}}
+
+## Brass Eye (1997 - 2001)
+
+### Brass Eye: Animals (Episode 1)
+{{< youtube TJOVNb_N8IE >}}
