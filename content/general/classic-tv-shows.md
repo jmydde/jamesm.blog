@@ -21,6 +21,22 @@ tags: ['tv shows', 'clssic']
 ### Monkey (1978-80). Journey to the Best.
 {{< youtube yYUcGIspzZE >}}
 
+## Only Fools and Horses (1981 - 2003)
+
+### BIGGEST LAUGHS COMPILATION: Only Fools Series 1 | Only Fools and Horses | BBC Comedy Greats
+{{< youtube 8s28hrH70tg >}}
+
+## Blackadder (1983 - 1989)
+
+### Series 2: Blackadder II
+{{< youtube n-Zm8H6G108 >}}
+
+### Series 3: Blackadder the Third
+{{< youtube vDVxq76-qOw >}}
+
+### Series 4: Blackadder Goes Forth
+{{< youtube EgiQU__ql3M >}}
+
 ## Johnny Ball
 [Johnny Ball](https://en.wikipedia.org/wiki/Johnny_Ball) was an absolute legend, I grew up watching all of his shows;
 - Think of a Number (6 series, 6 editions each)
@@ -57,3 +73,14 @@ I don't understand why we still don't have educational programs like this on TV 
 
 ### Brass Eye: Animals (Episode 1)
 {{< youtube TJOVNb_N8IE >}}
+
+## Others
+- Dallas
+- Doogie Howser MD
+- Dynasty
+- Juliet Bravo
+- Knight Rider
+- London's Burning
+- Quantum Leap
+- The Fall Guy
+- ...
