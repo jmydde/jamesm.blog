@@ -16,14 +16,14 @@ Following on from major internet success, they now tour throughout the world & t
 
 They have covered a huge amount of songs, Here are just a few of my favourites;
 
-### End Of The Road (Boys II Men)
-{{< youtube qVHiX8KguFk >}}
+### Easy Lover (Philip Bailey, Phil Collins) 
+{{< youtube 5EcBRCM0418 >}}
 
 ### Can’t Get Enough Of Your Love (Barry White)
 {{< youtube YKV8N19GAWw >}}
 
-### Easy Lover (Philip Bailey, Phil Collins) 
-{{< youtube 5EcBRCM0418 >}}
+### End Of The Road (Boys II Men)
+{{< youtube qVHiX8KguFk >}}
 
 ### Le Freak (Chic)
 {{< youtube J6IG37lyLc8 >}}
