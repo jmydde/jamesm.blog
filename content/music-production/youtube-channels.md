@@ -1,6 +1,6 @@
 ---
 title: "Music Production YouTube Channels"
-date: 2024-01-19T18:31:21+01:00
+date: 2024-05-17T17:01:21+01:00
 draft: false
 tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'maschine', 'music production', 'music theory', 'native instruments', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
 ---

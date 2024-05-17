@@ -2,7 +2,7 @@
 title: "Classic TV Shows"
 date: 2024-04-26T18:13:01+01:00
 draft: false
-tags: ['tv shows', 'clssic']
+tags: ['tv', 'classic tv']
 ---
 
 ## Tomorrow's World (1965 - 2003)
@@ -75,6 +75,8 @@ I don't understand why we still don't have educational programs like this on TV 
 {{< youtube TJOVNb_N8IE >}}
 
 ## Others
+- Airwolf
+- Blue Thunder
 - Dallas
 - Doogie Howser MD
 - Dynasty
