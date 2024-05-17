@@ -81,6 +81,7 @@ Below is a list of my favourite music production YouTube channels
 - [ProjectSAM](https://www.youtube.com/@ProjectSAMCinematicSampling/) - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries
 - [Rachel K Collier](https://youtube.com/@RachelKCollierRKC/) - Welsh electronic producer & performer who makes songs and performances with Ableton
 - [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials
+- [ReOrder](https://www.youtube.com/@reorderdj/) - sneak peek into the life of a DJ and music producer
 - [Rick Beato](https://www.youtube.com/@RickBeato/) - everything music
 - [Rhodes Piano](https://www.youtube.com/@rhodesmusic/) - official Rhodes channel
 - [Rob Papen](https://www.youtube.com/@RobPapen/) - powerful instruments and plug-ins that bring together innovative design, uncompromising sound quality, and musical, production-grade presets to make your tracks shine
