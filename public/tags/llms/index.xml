@@ -13,19 +13,19 @@
       <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/chatbots-llms/</guid>
-      <description>Amazon Amazon Q by Amazon Web Services (AWS) Amazon Q is a secure AI chatbot is designed for businesses.
-it utilizes generative AI technology to understand and respond to natural language, allowing for conversational interaction. Key strengths include it&amp;rsquo;s enterprise focus, ability to connect to various data sources, and customizability for specific business needs. it can be used for tasks like summarizing documents, generating creative text formats of content, conducting research, and completing routine tasks.</description>
+      <description>Amazon Amazon Lex by Amazon Web Services (AWS) Amazon Lex is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.
+these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data. Amazon Q by Amazon Web Services (AWS) Amazon Q is a secure AI chatbot is designed for businesses.</description>
       <content:encoded><![CDATA[<h2 id="amazon">Amazon</h2>
+<h3 id="amazon-lex-by-amazon-web-services-aws">Amazon Lex by Amazon Web Services (AWS)</h3>
+<p><a href="https://aws.amazon.com/lex/">Amazon Lex</a> is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.</p>
+<ul>
+<li>these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.</li>
+</ul>
 <h3 id="amazon-q-by-amazon-web-services-aws">Amazon Q by Amazon Web Services (AWS)</h3>
 <p><a href="https://aws.amazon.com/q/">Amazon Q</a> is a secure AI chatbot is designed for businesses.</p>
 <ul>
 <li>it utilizes generative AI technology to understand and respond to natural language, allowing for conversational interaction. Key strengths include it&rsquo;s enterprise focus, ability to connect to various data sources, and customizability for specific business needs.</li>
 <li>it can be used for tasks like summarizing documents, generating creative text formats of content,  conducting research, and completing routine tasks.</li>
-</ul>
-<h3 id="amazon-lex-by-amazon-web-services-aws">Amazon Lex by Amazon Web Services (AWS)</h3>
-<p><a href="https://aws.amazon.com/lex/">Amazon Lex</a> is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.</p>
-<ul>
-<li>these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.</li>
 </ul>
 <h2 id="bloom-by-allen-institute-for-artificial-intelligence-ai21-labs">BLOOM by Allen Institute for Artificial Intelligence (AI21 Labs)</h2>
 <p><a href="https://bigscience.huggingface.co/blog/bloom">BLOOM</a> is known for its factual language understanding and ability to generate different creative text formats of text content.</p>

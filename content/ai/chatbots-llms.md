@@ -7,14 +7,14 @@ tags: ["ai", "llms", "gpt", "chatgpt", "gpt-4", "gpt-4o", "gpt-3.5", "palm", "pa
 
 ## Amazon
 
+### Amazon Lex by Amazon Web Services (AWS)
+[Amazon Lex](https://aws.amazon.com/lex/) is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications. 
+- these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.
+
 ### Amazon Q by Amazon Web Services (AWS)
 [Amazon Q](https://aws.amazon.com/q/) is a secure AI chatbot is designed for businesses. 
 - it utilizes generative AI technology to understand and respond to natural language, allowing for conversational interaction. Key strengths include it's enterprise focus, ability to connect to various data sources, and customizability for specific business needs. 
 - it can be used for tasks like summarizing documents, generating creative text formats of content,  conducting research, and completing routine tasks.
-
-### Amazon Lex by Amazon Web Services (AWS)
-[Amazon Lex](https://aws.amazon.com/lex/) is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications. 
-- these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.
 
 ## BLOOM by Allen Institute for Artificial Intelligence (AI21 Labs)
 [BLOOM](https://bigscience.huggingface.co/blog/bloom) is known for its factual language understanding and ability to generate different creative text formats of text content. 
