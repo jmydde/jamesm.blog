@@ -1,11 +1,11 @@
 ---
-title: "Music Production: My Wishlists"
-date: 2024-01-28T09:03:00+00:00
+title: "My Music Production Wishlists (Hardware & Software)"
+date: 2024-06-16T07:23:00+00:00
 draft: false
 tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
 
-## My Music Production Hardware Wishlist
+## Music Production Wishlist - Hardware
 - **Arranger Keyboards**
   - [Ketron](https://ketronmusic.co.uk/)
     - [EVENT](https://ketronmusic.co.uk/products/Ketron/arranger_keyboards/EVENT.html)
@@ -60,7 +60,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
     - [Yamaha](https://uk.yamaha.com/en/)
       - [MONTAGE M8x](https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html)
 
-## My Music Production Software Wishlist
+## Music Production Wishlist - Software
 - [Apple](https://www.apple.com/)
   - [Logic Pro](https://www.apple.com/uk/logic-pro/)
 - [Bitwig](https://www.bitwig.com/)
