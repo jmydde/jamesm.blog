@@ -1,5 +1,5 @@
 ---
-title: "Yamaha Montage M"
+title: "Yamaha Montage M Synthesizer"
 date: 2024-06-16T08:29:21+01:00
 draft: false
 tags: ['yamaha', 'yamaha montage', 'yamaha montage m', 'yamaha montage m8x', 'synths', 'synthesizers', 'workstations']
@@ -34,6 +34,43 @@ As of June 2024
 - Yamaha Montage M7 (76-key): £3,629 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m7-synthesizer/))
 - Yamaha Montage M8X (88-key): £4,049 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m8x-synthesizer/))
 
+## Specifications
+- Tone Generators: AWM2
+- 2 X 128 Voices of Polyphony (128 Voices Each for Preset and User Waveforms) Max. 128 Elements Per Part
+- 10 GB Preset Waveforms (When Converted In 16 Bit Linear)
+- 7 GB Flash Memory for User Waveforms
+- FM-X - 128 Voices of Polyphony, 8 Operators, 88 Algorithms
+- AN-X - 16 Voices of Polyphony, 3 Oscillators, 1 Noise Generator
+- 3,369 Preset Performances
+- 128 Preset Live Sets, 2,048 User Live Sets
+- Motion Sequencer for Real-Time Control of Parameters
+- 16 Part Multitimbrality Plus Audio Input Parts (A/D In, USB)
+- 18 Filter Types
+- 5-Band Master-EQ, 2 Part-EQs (3- And 2-Band)
+- Sequencer 16 Tracks, 128 Patterns, 128 Songs
+- Arpeggiator: Arpeggios for Up to Eight Parts In Parallel
+- 10,922 Preset Arpeggios (3,500 Rhythm Patterns), 256 User Arpeggios
+- Controllers: Pitch Bend and Modulation Wheel
+- Polyphonic aftertouch
+- Ribbon Controller - 8 Control Sliders, 8 Assignable Knobs, Super Knob
+- 2 Assignable Switches
+- Portamento Switch and Portamento Time Knob, 6 Display Knobs
+- Displays Main: 7” TFT Colour Wide VGA LCD Touch Screen
+- Sub: 512 X 64 Pixel LCD
+- Connectors: OUTPUT [L MONO]/[R], ASSIGNABLE OUTPUT [L]/[R]
+- A/D INPUT [L MONO]/[R] (All 6.3 Mm TRS Jacks)
+- Phones: Stereo (6.3mm Phone Jack)
+- Midi In/Out/Thru
+- Foot Controller 1 / 2
+- Foot Switch Sustain / Assignable
+- 2 X Usb to Device, USB To Host
+- 6 Channels Input, 32 Channels Output At 44.1 Khz
+- 6 Channels Input, 8 Channels Output At 192 Khz
+- Dimensions: (W X D X H) / Weight:
+- M8X: 1,446 Mm × 460 Mm × 170 Mm / 28.1 Kg
+- Included Accessories: Owner’s Manual, AC Power Cord, Cubase AI Download
+- Compatible Accessories: Foot Switches and Controllers (FC3A, FC4A, FC5, FC7)
+
 ## Alternatives
 Here are a few alternative workstation synths to consider
 - [Korg Nautilus](https://www.korg.com/uk/products/synthesizers/nautilus/) (£1,499 - £2,055, as of June 2024)
@@ -41,11 +78,17 @@ Here are a few alternative workstation synths to consider
 
 ## YouTube Videos
 
-### Mike Patrick is Blown Away by the NEW Yamaha Montage M8X!
-{{< youtube NrISTHXtlfk >}}
-
-### The glorious Yamaha Montage M8X
+### [2024-01-26] The glorious Yamaha Montage M8X
 {{< youtube C6BAIrv_gfo >}}
 
-### Yamaha | Montage M Sound Demo
+### [2023-10-19] Yamaha Montage M8X Synthesizer/Workstation sound test
+{{< youtube 6WfJOqS1HPw >}}
+
+### [2023-10-11] Mike Patrick is Blown Away by the NEW Yamaha Montage M8X!
+{{< youtube NrISTHXtlfk >}}
+
+### [2023-10-11] Yamaha Montage M8x - Their Flagship Synth Is More Powerful Than Ever!
+{{< youtube z-4M8DegHRQ >}}
+
+### [2023-10-10] Yamaha | Montage M Sound Demo
 {{< youtube fN59j2cqwoI >}}
