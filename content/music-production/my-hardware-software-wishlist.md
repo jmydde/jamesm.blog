@@ -40,7 +40,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
     - [UB-Xa](https://www.gearnews.com/behringer-ub-xa/)
   - [KORG](https://apps.apple.com/us/developer/korg-inc/id363714046)
     - [Modwave Native](https://www.korg.com/uk/products/software/modwave_native/)
-    - [Nautilus AT](https://www.korg.com/uk/products/synthesizers/nautilus_at/)
     - [Wavestate](https://www.korg.com/uk/products/synthesizers/wavestate/v2.php)
   - [Moog](https://www.moogmusic.com/)
     - [Etherwave Theremin](https://www.moogmusic.com/products/etherwave-theremin)
@@ -48,12 +47,18 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
     - [Subsequent 37](https://www.moogmusic.com/products/subsequent-37)
   - [Roland](https://www.roland.com/)
     - [D-05](https://www.roland.com/uk/products/d-05/)
-    - [FANTOM-08](https://www.roland.com/global/products/fantom-08/)
     - [JUNO-X](https://www.roland.com/us/products/juno-x/)
     - [JUPITER-X](https://www.roland.com/uk/products/jupiter-x/)
     - [JUPITER-80](https://www.roland.com/uk/products/jupiter-80/)
   - [Sequential](https://sequential.com/)
     - [Prophet X](https://sequential.com/product/prophet-x/)
+  - Workstations
+    - [KORG](https://apps.apple.com/us/developer/korg-inc/id363714046)
+      - [Nautilus AT](https://www.korg.com/uk/products/synthesizers/nautilus_at/)
+    - [Roland](https://www.roland.com/)
+      - [FANTOM 8 EX](https://www.roland.com/global/promos/fantom_ex_series/)
+    - [Yamaha](https://uk.yamaha.com/en/)
+      - [MONTAGE M8x](https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html)
 
 ## My Music Production Software Wishlist
 - [Apple](https://www.apple.com/)
