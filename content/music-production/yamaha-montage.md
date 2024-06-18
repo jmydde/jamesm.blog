@@ -1,5 +1,5 @@
 ---
-title: "Yamaha Montage M Synthesizer"
+title: "Yamaha Montage M"
 date: 2024-06-16T08:29:21+01:00
 draft: false
 tags: ['yamaha', 'yamaha montage', 'yamaha montage m', 'yamaha montage m8x', 'synths', 'synthesizers', 'workstations']
@@ -21,12 +21,13 @@ Here is a summary of the key aspects of the Yamaha Montage M
 - **VCM Rotary Speaker Effect** - This new effect accurately emulates the classic sound of a Leslie speaker cabinet, adding warmth and movement to organ and electric piano sounds.
 - **Powerful USB Audio Interface** - The Montage M functions as a 6-in/32-out USB audio interface, allowing you to record audio directly to your DAW (Digital Audio Workstation) for seamless integration into your studio workflow.
 
+Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities.
+
+## Models
 The Montage M comes in three versions, each with a different keyboard action
 - **M6** - 61-key FSX synth action (ideal for portability and playing melodies).
 - **M7** - 76-key FSX synth action (a good balance between portability and playability for splits and layers).
 - **M8X** - 88-key weighted hammer action with polyphonic aftertouch (perfect for pianists who need a realistic piano feel and expressive control).
-
-Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities.
 
 ## Prices
 As of June 2024
@@ -80,6 +81,9 @@ Here are a few alternative workstation synths to consider
 
 ### [2024-01-26] The glorious Yamaha Montage M8X
 {{< youtube C6BAIrv_gfo >}}
+
+### [2024-01-06] Yamaha Montage M8X Acoustic Pianos Demo
+{{< youtube XCS3c6_f1Ow >}}
 
 ### [2023-10-19] Yamaha Montage M8X Synthesizer/Workstation sound test
 {{< youtube 6WfJOqS1HPw >}}

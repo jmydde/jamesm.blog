@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/music-production/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/roland/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/roland-fantom/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/roland-fantom-ex/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/music-production/roland-fantom-ex/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/synthesizers/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/synths/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/workstations/</loc>
+    <lastmod>2024-06-17T22:29:21+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
     <lastmod>2024-06-16T09:27:14+01:00</lastmod>
   </url><url>
@@ -16,24 +46,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/interviews/</loc>
     <lastmod>2024-06-16T09:27:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2024-06-16T09:27:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2024-06-16T09:27:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/music-production/</loc>
-    <lastmod>2024-06-16T08:29:21+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/synthesizers/</loc>
-    <lastmod>2024-06-16T08:29:21+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/synths/</loc>
-    <lastmod>2024-06-16T08:29:21+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/workstations/</loc>
-    <lastmod>2024-06-16T08:29:21+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/yamaha/</loc>
     <lastmod>2024-06-16T08:29:21+01:00</lastmod>
@@ -125,9 +137,6 @@
     <loc>https://jamesm.blog/tags/projectsam/</loc>
     <lastmod>2024-06-16T07:23:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/roland/</loc>
-    <lastmod>2024-06-16T07:23:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/spectrasonics/</loc>
     <lastmod>2024-06-16T07:23:00+00:00</lastmod>
   </url><url>
@@ -149,9 +158,6 @@
     <loc>https://jamesm.blog/tags/humanoid-robots/</loc>
     <lastmod>2024-05-21T20:09:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/ai/unitree-g1/</loc>
-    <lastmod>2024-05-21T20:09:25+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/robots/</loc>
     <lastmod>2024-05-21T20:09:25+01:00</lastmod>
   </url><url>
@@ -159,6 +165,9 @@
     <lastmod>2024-05-21T20:09:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/unitree-g1/</loc>
+    <lastmod>2024-05-21T20:09:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/unitree-g1/</loc>
     <lastmod>2024-05-21T20:09:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/chatbots-llms/</loc>
