@@ -2,7 +2,7 @@
 title: "Roland Fantom EX"
 date: 2024-06-17T22:29:21+01:00
 draft: false
-tags: ['roland', 'roland fantom', 'roland fantom ex', 'synths', 'synthesizers', 'workstations']
+tags: ['roland', 'fantom', 'fantom ex', 'synths', 'synthesizers', 'workstations']
 ---
 
 ![alt](/images/Roland-Fantom-8-EX.jpg)
@@ -70,7 +70,7 @@ Each FANTOM EX model includes the same internal features, panel layout, and conn
 ## Alternatives
 Here are a few alternative workstation synths to consider
 - [Korg Nautilus](https://www.korg.com/uk/products/synthesizers/nautilus/) (£1,499 - £2,055, as of June 2024)
-- [Yahama Montage M](https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html) (£3,219 - £4,049 as of June 2024)
+- [Yahama Montage M](https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html) (£3,219 - £4,049, as of June 2024)
 
 ## YouTube Videos
 

@@ -1,6 +1,6 @@
 ---
-title: "Music Production: My Hardware & Software"
-date: 2024-01-21T11:07:09+01:00
+title: "My Music Production Hardware & Software"
+date: 2024-06-22T09:01:21+01:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -353,6 +353,24 @@ Eventide Inc. is an American pro audio, broadcast and communications company who
 ### Heavyocity
 Heavyocity is a collective of pro composers and sound designers with a mission to create world class virtual instruments for today's modern composer and sound designer
 - [PUNISH Lite](https://heavyocity.com/product/punish-lite/)
+
+### IK Multimedia
+Renowned music technology company that specializes in creating music software, hardware, and accessories
+- [Miroslav Philharmonik 2](https://www.ikmultimedia.com/products/philharmonik2/)
+  - Over 58 GB of 24-bit / 96kHz samples
+  - Over 2,700 instruments that cover the full range of orchestral sounds and beyond
+- [Pianoverse - Concert Grand YF3](https://www.ikmultimedia.com/products/pvconcertgrandyf3/)
+  - Based on a 9' Yamaha CFIII concert grand piano
+- [SampleTank 4 MAX v2](https://www.ikmultimedia.com/products/st4/)
+  - All 88 SampleTank products
+  - 28 SampleTank 4 libraries 
+  - The 34 synths from Syntronik 2 MAX v2
+  - SampleTron 2 
+  - Miroslav Philharmonik 2
+- [Syntronik 2 MAX v2](https://www.ikmultimedia.com/products/syntronik2/) - 
+  - 34 legendary synths available in 4 different versions or as individual instruments
+  - Over 5,000 presets that cover a wide range of sounds from 55 of the most iconic to ultra-rare vintage synthesizers
+  - All of the Syntronik and Syntronik Deluxe legacy presets are also included
 
 ### Image-Line
 Image-Line Software is a Belgian software company best known for its digital audio workstation program FL Studio and related audio plugins such as Sytrus and Harmor

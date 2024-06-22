@@ -2,7 +2,7 @@
 title: "Yamaha Montage M"
 date: 2024-06-16T08:29:21+01:00
 draft: false
-tags: ['yamaha', 'yamaha montage', 'yamaha montage m', 'yamaha montage m8x', 'synths', 'synthesizers', 'workstations']
+tags: ['yamaha', 'montage', 'montage m', 'synths', 'synthesizers', 'workstations']
 ---
 
 ![alt](/images/Yamaha-Montage-M.jpg)
@@ -30,10 +30,10 @@ The Montage M comes in three versions, each with a different keyboard action
 - **M8X** - 88-key weighted hammer action with polyphonic aftertouch (perfect for pianists who need a realistic piano feel and expressive control).
 
 ## Prices
-As of June 2024
-- Yamaha Montage M6 (61-key): £3,219 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m6-synthesizer/))
-- Yamaha Montage M7 (76-key): £3,629 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m7-synthesizer/))
-- Yamaha Montage M8X (88-key): £4,049 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m8x-synthesizer/))
+(as of June 2024)
+- Montage M6 (61-key): £3,219 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m6-synthesizer/))
+- Montage M7 (76-key): £3,629 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m7-synthesizer/))
+- Montage M8X (88-key): £4,049 ([Andertons](https://www.andertons.co.uk/yamaha-montage-m8x-synthesizer/))
 
 ## Specifications
 - Tone Generators: AWM2
