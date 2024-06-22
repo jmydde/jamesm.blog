@@ -48,6 +48,8 @@ languages:
           url: /music-production
         - name: Personal Dev
           url: /personal-development
+        - name: Space
+          url: /space
 
 outputs:
   home:
@@ -73,6 +75,7 @@ params:
     - general
     - music-production
     - personal-development
+    - space
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
   ShowPostNavLinks:               true
@@ -98,13 +101,14 @@ params:
     #Title: "James' Blog"
     Content: |
       Welcome to my blog, the following topics are covered here;
-      - [**Artificial Intelligence**](/ai) (chatbots, Copilots, LLMs, robotics)
+      - [**Artificial Intelligence**](/ai) (chatbots, co-pilots, LLMs, robotics)
       - [**Blockchain**](/blockchain) (Bitcoin, Blockchain, decentralization, Polkadot)
-      - [**Data Engineering**](/data-engineering) (Databases, ETL, Data Science, ML)
+      - [**Data Engineering**](/data-engineering) (databases, ETL, Data Science, ML)
       - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
       - [**General**](/general) (general topics & news)
       - [**Music Production**](/music-production) (computer hardware & software)
       - [**Personal Development**](/personal-development) (books, courses)
+      - [**Space**](/space) (exploration, rockets)
 
   socialIcons:
     - name: twitter
