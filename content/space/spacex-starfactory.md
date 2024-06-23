@@ -6,17 +6,18 @@ tags: ['spacex', 'space', 'starfactory']
 ---
 
 ## About
-The SpaceX Starfactory is the heart of Starship production, located within the Starbase complex in Boca Chica, Texas.  Here's a breakdown of what it's all about:
+The SpaceX Starfactory is the heart of Starship production, located within the Starbase complex in Boca Chica, Texas.
 
 It's goal is to mass produce Starship rockets, with an ambitious target of one Starship per day!
 
 This vast facility manufactures and assembles Starship vehicles, including both the Starship spacecraft itself and the Super Heavy booster that launches it.
 
-The Starfactory is still under construction, but with ongoing expansion it's expected to reach its full production potential soon.  SpaceX views Starfactory as crucial to achieving their long-term goals  -  regular space travel and missions to Mars. By streamlining Starship production, they hope to dramatically increase launch cadence and make space more accessible.
+The Starfactory is still under construction, but with ongoing expansion it's expected to reach its full production potential soon.  SpaceX views Starfactory as crucial to achieving their long-term goals - regular space travel and missions to Mars. By streamlining Starship production, they hope to dramatically increase launch cadence and make space more accessible.
 
 ## YouTube
 
 ### 2024-06-22 First Look Inside SpaceX's Starfactory w/ Elon Musk
+Join Elon Musk for a tour inside SpaceX's Starbase and the brand new Starfactory.
 {{< youtube aFqjoCbZ4ik >}}
 
 ### 2024-02-24 The Real Reason SpaceX Is Building A Starfactory!

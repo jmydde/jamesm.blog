@@ -44,7 +44,7 @@ languages:
           url: /devops
         - name: General
           url: /general
-        - name: Music
+        - name: Music Production
           url: /music-production
         - name: Personal Dev
           url: /personal-development
@@ -130,7 +130,9 @@ params:
     - name: gmail
       url: "mailto:jamesmyddelton@gmail.com"
     - name: other
-      url: "https://devopsforum.uk"
+      url: "https://ClubTheWorld.uk"
+    - name: other
+      url: "https://DevOpsForum.uk"
     - name: KoFi
       url: "https://ko-fi.com/U6U1LGXXV/"
     - name: bitcoin
