@@ -111,6 +111,10 @@ params:
       - [**Space**](/space) (exploration, rockets)
 
   socialIcons:
+    - name: gmail
+      url: "mailto:jamesmyddelton@gmail.com"
+    - name: linkedin
+      url: "https://uk.linkedin.com/in/jamesmyddelton/"
     - name: twitter
       url: "https://twitter.com/jamesmyddelton/"
     - name: facebook
@@ -119,22 +123,20 @@ params:
       url: "https://www.instagram.com/jamesmyddelton/"
     - name: youtube
       url: "https://www.youtube.com/@JamesMyddelton/playlists/"
+    - name: telegram
+      url:  "https://t.me/jamesmyd"
     - name: soundcloud
       url: "https://soundcloud.com/jamesm/"
-    - name: linkedin
-      url: "https://uk.linkedin.com/in/jamesmyddelton/"
-  # - name: github-simple
-  #   url: "https://github.com/jmydde/"
     - name: github
       url: "https://github.com/jmydde/jamesm.blog"
-    - name: gmail
-      url: "mailto:jamesmyddelton@gmail.com"
+    - name: KoFi
+      url: "https://ko-fi.com/U6U1LGXXV/"
+    - name: tiktok
+      url:  "https://www.tiktok.com/@james.m.uk"
     - name: other
       url: "https://ClubTheWorld.uk"
     - name: other
       url: "https://DevOpsForum.uk"
-    - name: KoFi
-      url: "https://ko-fi.com/U6U1LGXXV/"
     - name: bitcoin
       url: "https://www.livecoinwatch.com/price/Bitcoin-BTC"
     - name: rss-simple
