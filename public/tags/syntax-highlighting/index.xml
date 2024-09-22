@@ -1,100 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syntax Highlighting on jamesm.blog</title>
     <link>https://jamesm.blog/tags/syntax-highlighting/</link>
     <description>Recent content in Syntax Highlighting on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 May 2023 21:06:35 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/syntax-highlighting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 May 2023 21:06:35 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/syntax-highlighting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac Homebrew packages</title>
       <link>https://jamesm.blog/devops/mac-brew-packages/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
-      
       <guid>https://jamesm.blog/devops/mac-brew-packages/</guid>
-      <description>&lt;h2 id=&#34;essential&#34;&gt;Essential&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;bat&lt;/strong&gt; - Linux “cat” command alternative with syntax highlighting&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;glow&lt;/strong&gt; - Markdown reader&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;htop&lt;/strong&gt; - Top clone with syntax highlighting and mouse support&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;jq&lt;/strong&gt; - sed for JSON data&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;jupyter&lt;/strong&gt; - JupyterHub notebooks&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;k9s&lt;/strong&gt; - Monitor Kubernetes resources&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;pyenv&lt;/strong&gt; - Python version management&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;python&lt;/strong&gt; - Python (3.11)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;terraform&lt;/strong&gt; - Terraform&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tfswitch&lt;/strong&gt; - Switch Terraform versions (warrensbox/tap/tfswitch)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tree&lt;/strong&gt; - View folders and files in a visual tree (tree -L &lt;level&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;wget&lt;/strong&gt; - Download files&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;yq&lt;/strong&gt; - Lightweight and portable command-line YAML, JSON and XML processor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;django&lt;/strong&gt; - Python Web framework&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;glances&lt;/strong&gt; - Console (and web) based server monitoring tool&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;httpie&lt;/strong&gt; - A curl-like tool to interact with HTTP servers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;lnav&lt;/strong&gt; - Explore and troubleshoot cryptic log files&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;midnight-commander&lt;/strong&gt; - File explorer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;mtr&lt;/strong&gt; - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;navi&lt;/strong&gt; - Interactive cheatsheet tool&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ncdu&lt;/strong&gt; - Disk space analyzer, find big files &amp;amp; directories&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;npm&lt;/strong&gt; - Node Package Manager&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;pytorch&lt;/strong&gt; - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ranger&lt;/strong&gt; - Directory / file explorer providing an easier way to find files via the terminal&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;snappy&lt;/strong&gt; - compression/decompression library aiming for high speed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;speedtest-cli&lt;/strong&gt; - Test upload/download speed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;task&lt;/strong&gt; - A todo app&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tensorflow&lt;/strong&gt; - free and open-source software library for machine learning and artificial intelligence&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tmux&lt;/strong&gt; - Run multiple terminal sessions within the same window&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;youtube-dl&lt;/strong&gt; - YouTube downloader&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;related-pages&#34;&gt;Related Pages&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/devops/mac-apps-utils/&#34;&gt;Mac Applications &amp;amp; Utilities&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
-<ul>
-<li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>
-<li><strong>glow</strong> - Markdown reader</li>
-<li><strong>htop</strong> - Top clone with syntax highlighting and mouse support</li>
-<li><strong>jq</strong> - sed for JSON data</li>
-<li><strong>jupyter</strong> - JupyterHub notebooks</li>
-<li><strong>k9s</strong> - Monitor Kubernetes resources</li>
-<li><strong>pyenv</strong> - Python version management</li>
-<li><strong>python</strong> - Python (3.11)</li>
-<li><strong>terraform</strong> - Terraform</li>
-<li><strong>tfswitch</strong> - Switch Terraform versions (warrensbox/tap/tfswitch)</li>
-<li><strong>tree</strong> - View folders and files in a visual tree (tree -L <level>)</li>
-<li><strong>wget</strong> - Download files</li>
-<li><strong>yq</strong> - Lightweight and portable command-line YAML, JSON and XML processor</li>
-</ul>
-<h2 id="others">Others</h2>
-<ul>
-<li><strong>django</strong> - Python Web framework</li>
-<li><strong>glances</strong> - Console (and web) based server monitoring tool</li>
-<li><strong>httpie</strong> - A curl-like tool to interact with HTTP servers</li>
-<li><strong>lnav</strong> - Explore and troubleshoot cryptic log files</li>
-<li><strong>midnight-commander</strong> - File explorer</li>
-<li><strong>mtr</strong> - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues</li>
-<li><strong>navi</strong> - Interactive cheatsheet tool</li>
-<li><strong>ncdu</strong> - Disk space analyzer, find big files &amp; directories</li>
-<li><strong>npm</strong> - Node Package Manager</li>
-<li><strong>pytorch</strong> - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing</li>
-<li><strong>ranger</strong> - Directory / file explorer providing an easier way to find files via the terminal</li>
-<li><strong>snappy</strong> - compression/decompression library aiming for high speed</li>
-<li><strong>speedtest-cli</strong> - Test upload/download speed</li>
-<li><strong>task</strong> - A todo app</li>
-<li><strong>tensorflow</strong> - free and open-source software library for machine learning and artificial intelligence</li>
-<li><strong>tmux</strong> - Run multiple terminal sessions within the same window</li>
-<li><strong>youtube-dl</strong> - YouTube downloader</li>
-</ul>
-<h2 id="related-pages">Related Pages</h2>
-<ul>
-<li><a href="https://jamesm.blog/devops/mac-apps-utils/">Mac Applications &amp; Utilities</a></li>
-</ul>
-]]></content:encoded>
+      <description>&lt;h2 id=&#34;essential&#34;&gt;Essential&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;bat&lt;/strong&gt; - Linux “cat” command alternative with syntax highlighting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;glow&lt;/strong&gt; - Markdown reader&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;htop&lt;/strong&gt; - Top clone with syntax highlighting and mouse support&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;jq&lt;/strong&gt; - sed for JSON data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;jupyter&lt;/strong&gt; - JupyterHub notebooks&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;k9s&lt;/strong&gt; - Monitor Kubernetes resources&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;pyenv&lt;/strong&gt; - Python version management&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;python&lt;/strong&gt; - Python (3.11)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;terraform&lt;/strong&gt; - Terraform&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;tfswitch&lt;/strong&gt; - Switch Terraform versions (warrensbox/tap/tfswitch)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;tree&lt;/strong&gt; - View folders and files in a visual tree (tree -L &lt;level&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;wget&lt;/strong&gt; - Download files&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;yq&lt;/strong&gt; - Lightweight and portable command-line YAML, JSON and XML processor&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;django&lt;/strong&gt; - Python Web framework&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;glances&lt;/strong&gt; - Console (and web) based server monitoring tool&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;httpie&lt;/strong&gt; - A curl-like tool to interact with HTTP servers&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;lnav&lt;/strong&gt; - Explore and troubleshoot cryptic log files&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;midnight-commander&lt;/strong&gt; - File explorer&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;mtr&lt;/strong&gt; - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;navi&lt;/strong&gt; - Interactive cheatsheet tool&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ncdu&lt;/strong&gt; - Disk space analyzer, find big files &amp;amp; directories&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;npm&lt;/strong&gt; - Node Package Manager&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;pytorch&lt;/strong&gt; - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ranger&lt;/strong&gt; - Directory / file explorer providing an easier way to find files via the terminal&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;snappy&lt;/strong&gt; - compression/decompression library aiming for high speed&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;speedtest-cli&lt;/strong&gt; - Test upload/download speed&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;task&lt;/strong&gt; - A todo app&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;tensorflow&lt;/strong&gt; - free and open-source software library for machine learning and artificial intelligence&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;tmux&lt;/strong&gt; - Run multiple terminal sessions within the same window&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;youtube-dl&lt;/strong&gt; - YouTube downloader&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;related-pages&#34;&gt;Related Pages&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/devops/mac-apps-utils/&#34;&gt;Mac Applications &amp;amp; Utilities&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

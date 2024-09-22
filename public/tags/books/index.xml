@@ -1,195 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on jamesm.blog</title>
     <link>https://jamesm.blog/tags/books/</link>
     <description>Recent content in Books on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 May 2023 09:02:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 09:02:39 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of Personal Development Books</title>
       <link>https://jamesm.blog/personal-development/books/</link>
       <pubDate>Sun, 28 May 2023 09:02:39 +0100</pubDate>
-      
       <guid>https://jamesm.blog/personal-development/books/</guid>
-      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://wisdomtheory.gumroad.com/l/100MM/&#34;&gt;100 Mental Models&lt;/a&gt; (&lt;a href=&#34;https://wisdomtheory.gumroad.com/&#34;&gt;Wisdom Theory&lt;/a&gt;) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics &amp;amp; history&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.navalmanack.com/&#34;&gt;Almanack of Naval Ravikant -  a guide to wealth and happiness&lt;/a&gt; -&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/17977529-choose-yourself/&#34;&gt;Choose Yourself: Be Happy, Make Millions, Live the Dream&lt;/a&gt; (&lt;a href=&#34;https://www.goodreads.com/author/show/740.James_Altucher/&#34;&gt;James Altucher&lt;/a&gt;) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/95887.Eat_That_Frog_/&#34;&gt;Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time&lt;/a&gt; (Brian Tracy)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/&#34;&gt;Ego Is the Enemy&lt;/a&gt; (Ryan Holiday)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/6235336/&#34;&gt;Get the Edge&lt;/a&gt; (Tony Robbins)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://brendon.com/blog/high-performancehabits/&#34;&gt;High Performance Habits&lt;/a&gt; (Brendon Burchard)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People/&#34;&gt;How to Win Friends and Influence People&lt;/a&gt; (Dale Carnegie)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Moonwalking_with_Einstein/&#34;&gt;Moonwalking with Einstein&lt;/a&gt; (&lt;a href=&#34;https://en.wikipedia.org/wiki/Joshua_Foer/&#34;&gt;Joshua Foer&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.virgin.com/branson-family/books/richard-branson/screw-it-lets-do-it/&#34;&gt;Screw It, Let&amp;rsquo;s Do It&lt;/a&gt; (Richard Branson)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/721609/&#34;&gt;Spark: The Revolutionary New Science of Exercise and the Brain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.franklincovey.com/the-7-habits/&#34;&gt;The 7 Habits of Highly Effective People&lt;/a&gt; (Stephen R. Covey)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://us.macmillan.com/books/9781250159618/theinfluentialmind/&#34;&gt;The Influential Mind&lt;/a&gt; (Tali Sharot)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_Power_of_Positive_Thinking/&#34;&gt;The Power of Positive Thinking: A Practical Guide to Mastering the Problems of Everyday Living&lt;/a&gt; (Norman Vincent Peale)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.scotthyoung.com/blog/ultralearning/&#34;&gt;Ultralearning&lt;/a&gt; (&lt;a href=&#34;https://www.scotthyoung.com/&#34;&gt;Scott H. Young&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;audio-books&#34;&gt;Audio Books&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/12-Rules-for-Life-Audiobook/&#34;&gt;12 Rules for Life: An Antidote to Chaos&lt;/a&gt; (Jordan B. Peterson)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/25-Stories-I-Would-Tell-My-Younger-Self-Audiobook&#34;&gt;25 Stories I Would Tell My Younger Self&lt;/a&gt; (Dr. Julian Hosp)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Awaken-the-Giant-Within-Audiobook/&#34;&gt;Awaken the Giant Within&lt;/a&gt; (Tony Robbins)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Cognitive-Behavioral-Therapy-Audiobook/&#34;&gt;Cognitive Behavioral Therapy: Techniques for Retraining Your Brain&lt;/a&gt; (Jason M. Satterfield)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Power-of-Now-Audiobook/&#34;&gt;The Power of Now: A Guide to Spiritual Enlightenment&lt;/a&gt; (Eckhart Tolle)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Starfish-and-the-Spider-Audiobook&#34;&gt;The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations&lt;/a&gt; (Ori Brafman, Rod Beckstrom)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/&#34;&gt;The Subtle Art of Not Giving a F^ck&lt;/a&gt; (Mark Manson)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/&#34;&gt;Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills&lt;/a&gt; (Steven Novella)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Zero-to-One-Audiobook/&#34;&gt;Zero to One&lt;/a&gt; (Peter Thiel)&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h2 id="books">Books</h2>
-<ul>
-<li><a href="https://wisdomtheory.gumroad.com/l/100MM/">100 Mental Models</a> (<a href="https://wisdomtheory.gumroad.com/">Wisdom Theory</a>) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics &amp; history</li>
-<li><a href="https://www.navalmanack.com/">Almanack of Naval Ravikant -  a guide to wealth and happiness</a> -</li>
-<li><a href="https://www.goodreads.com/book/show/17977529-choose-yourself/">Choose Yourself: Be Happy, Make Millions, Live the Dream</a> (<a href="https://www.goodreads.com/author/show/740.James_Altucher/">James Altucher</a>) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)</li>
-<li><a href="https://www.goodreads.com/book/show/95887.Eat_That_Frog_/">Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time</a> (Brian Tracy)</li>
-<li><a href="https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/">Ego Is the Enemy</a> (Ryan Holiday)</li>
-<li><a href="https://www.goodreads.com/en/book/show/6235336/">Get the Edge</a> (Tony Robbins)</li>
-<li><a href="https://brendon.com/blog/high-performancehabits/">High Performance Habits</a> (Brendon Burchard)</li>
-<li><a href="https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People/">How to Win Friends and Influence People</a> (Dale Carnegie)</li>
-<li><a href="https://en.wikipedia.org/wiki/Moonwalking_with_Einstein/">Moonwalking with Einstein</a> (<a href="https://en.wikipedia.org/wiki/Joshua_Foer/">Joshua Foer</a>)</li>
-<li><a href="https://www.virgin.com/branson-family/books/richard-branson/screw-it-lets-do-it/">Screw It, Let&rsquo;s Do It</a> (Richard Branson)</li>
-<li><a href="https://www.goodreads.com/en/book/show/721609/">Spark: The Revolutionary New Science of Exercise and the Brain</a></li>
-<li><a href="https://www.franklincovey.com/the-7-habits/">The 7 Habits of Highly Effective People</a> (Stephen R. Covey)</li>
-<li><a href="https://us.macmillan.com/books/9781250159618/theinfluentialmind/">The Influential Mind</a> (Tali Sharot)</li>
-<li><a href="https://en.wikipedia.org/wiki/The_Power_of_Positive_Thinking/">The Power of Positive Thinking: A Practical Guide to Mastering the Problems of Everyday Living</a> (Norman Vincent Peale)</li>
-<li><a href="https://www.scotthyoung.com/blog/ultralearning/">Ultralearning</a> (<a href="https://www.scotthyoung.com/">Scott H. Young</a>)</li>
-</ul>
-<h2 id="audio-books">Audio Books</h2>
-<ul>
-<li><a href="https://www.audible.co.uk/pd/12-Rules-for-Life-Audiobook/">12 Rules for Life: An Antidote to Chaos</a> (Jordan B. Peterson)</li>
-<li><a href="https://www.audible.co.uk/pd/25-Stories-I-Would-Tell-My-Younger-Self-Audiobook">25 Stories I Would Tell My Younger Self</a> (Dr. Julian Hosp)</li>
-<li><a href="https://www.audible.co.uk/pd/Awaken-the-Giant-Within-Audiobook/">Awaken the Giant Within</a> (Tony Robbins)</li>
-<li><a href="https://www.audible.co.uk/pd/Cognitive-Behavioral-Therapy-Audiobook/">Cognitive Behavioral Therapy: Techniques for Retraining Your Brain</a> (Jason M. Satterfield)</li>
-<li><a href="https://www.audible.co.uk/pd/The-Power-of-Now-Audiobook/">The Power of Now: A Guide to Spiritual Enlightenment</a> (Eckhart Tolle)</li>
-<li><a href="https://www.audible.co.uk/pd/The-Starfish-and-the-Spider-Audiobook">The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations</a> (Ori Brafman, Rod Beckstrom)</li>
-<li><a href="https://www.audible.co.uk/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/">The Subtle Art of Not Giving a F^ck</a> (Mark Manson)</li>
-<li><a href="https://www.audible.co.uk/pd/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/">Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills</a> (Steven Novella)</li>
-<li><a href="https://www.audible.co.uk/pd/Zero-to-One-Audiobook/">Zero to One</a> (Peter Thiel)</li>
-</ul>
-]]></content:encoded>
+      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wisdomtheory.gumroad.com/l/100MM/&#34;&gt;100 Mental Models&lt;/a&gt; (&lt;a href=&#34;https://wisdomtheory.gumroad.com/&#34;&gt;Wisdom Theory&lt;/a&gt;) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics &amp;amp; history&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.navalmanack.com/&#34;&gt;Almanack of Naval Ravikant -  a guide to wealth and happiness&lt;/a&gt; -&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/17977529-choose-yourself/&#34;&gt;Choose Yourself: Be Happy, Make Millions, Live the Dream&lt;/a&gt; (&lt;a href=&#34;https://www.goodreads.com/author/show/740.James_Altucher/&#34;&gt;James Altucher&lt;/a&gt;) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/95887.Eat_That_Frog_/&#34;&gt;Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time&lt;/a&gt; (Brian Tracy)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/&#34;&gt;Ego Is the Enemy&lt;/a&gt; (Ryan Holiday)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/6235336/&#34;&gt;Get the Edge&lt;/a&gt; (Tony Robbins)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://brendon.com/blog/high-performancehabits/&#34;&gt;High Performance Habits&lt;/a&gt; (Brendon Burchard)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People/&#34;&gt;How to Win Friends and Influence People&lt;/a&gt; (Dale Carnegie)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Moonwalking_with_Einstein/&#34;&gt;Moonwalking with Einstein&lt;/a&gt; (&lt;a href=&#34;https://en.wikipedia.org/wiki/Joshua_Foer/&#34;&gt;Joshua Foer&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.virgin.com/branson-family/books/richard-branson/screw-it-lets-do-it/&#34;&gt;Screw It, Let&amp;rsquo;s Do It&lt;/a&gt; (Richard Branson)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/721609/&#34;&gt;Spark: The Revolutionary New Science of Exercise and the Brain&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.franklincovey.com/the-7-habits/&#34;&gt;The 7 Habits of Highly Effective People&lt;/a&gt; (Stephen R. Covey)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://us.macmillan.com/books/9781250159618/theinfluentialmind/&#34;&gt;The Influential Mind&lt;/a&gt; (Tali Sharot)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_Power_of_Positive_Thinking/&#34;&gt;The Power of Positive Thinking: A Practical Guide to Mastering the Problems of Everyday Living&lt;/a&gt; (Norman Vincent Peale)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.scotthyoung.com/blog/ultralearning/&#34;&gt;Ultralearning&lt;/a&gt; (&lt;a href=&#34;https://www.scotthyoung.com/&#34;&gt;Scott H. Young&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;audio-books&#34;&gt;Audio Books&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/12-Rules-for-Life-Audiobook/&#34;&gt;12 Rules for Life: An Antidote to Chaos&lt;/a&gt; (Jordan B. Peterson)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/25-Stories-I-Would-Tell-My-Younger-Self-Audiobook&#34;&gt;25 Stories I Would Tell My Younger Self&lt;/a&gt; (Dr. Julian Hosp)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Awaken-the-Giant-Within-Audiobook/&#34;&gt;Awaken the Giant Within&lt;/a&gt; (Tony Robbins)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Cognitive-Behavioral-Therapy-Audiobook/&#34;&gt;Cognitive Behavioral Therapy: Techniques for Retraining Your Brain&lt;/a&gt; (Jason M. Satterfield)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Power-of-Now-Audiobook/&#34;&gt;The Power of Now: A Guide to Spiritual Enlightenment&lt;/a&gt; (Eckhart Tolle)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Starfish-and-the-Spider-Audiobook&#34;&gt;The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations&lt;/a&gt; (Ori Brafman, Rod Beckstrom)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/&#34;&gt;The Subtle Art of Not Giving a F^ck&lt;/a&gt; (Mark Manson)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/&#34;&gt;Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills&lt;/a&gt; (Steven Novella)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Zero-to-One-Audiobook/&#34;&gt;Zero to One&lt;/a&gt; (Peter Thiel)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>DevOps Books</title>
       <link>https://jamesm.blog/devops/books/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      
       <guid>https://jamesm.blog/devops/books/</guid>
-      <description>&lt;p&gt;A list of recommended DevOps books &amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;devops&#34;&gt;DevOps&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/&#34;&gt;The DevOps Handbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/&#34;&gt;The Phoenix Project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;
-&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/&#34;&gt;Kubernetes: Up and Running&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;The Kubernetes Book&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;iac&#34;&gt;IaC&lt;/h2&gt;
-&lt;h3 id=&#34;terraform&#34;&gt;Terraform&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/terraform-up-and/9781098116736/&#34;&gt;Terraform: Up and Running: Writing Infrastructure as Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/linux-in-a/9780596806088/&#34;&gt;Linux in a Nutshell&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;
-&lt;h3 id=&#34;bash&#34;&gt;Bash&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-the-bash/0596009658/&#34;&gt;Learning the bash Shell&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;cc&#34;&gt;C/C++&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_C_Programming_Language&#34;&gt;The C Programming Language&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;golang&#34;&gt;Golang&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/introducing-go/9781491941997/&#34;&gt;Introducing Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-go/9781492077206/&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;perl&#34;&gt;Perl&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/&#34;&gt;Learning Perl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/mastering-perl/9780596527242/&#34;&gt;Mastering Perl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/&#34;&gt;Programming Perl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://diveintopython3.net/&#34;&gt;Dive Into Python&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;sql&#34;&gt;SQL&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/&#34;&gt;Learning SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
-<h2 id="devops">DevOps</h2>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/">The DevOps Handbook</a></li>
-<li><a href="https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/">The Phoenix Project</a></li>
-</ul>
-<h2 id="containers">Containers</h2>
-<h3 id="docker">Docker</h3>
-<ul>
-<li><a href="https://nigelpoulton.com/books/">Docker Deep Dive</a></li>
-</ul>
-<h3 id="kubernetes">Kubernetes</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/">Kubernetes: Up and Running</a></li>
-<li><a href="https://nigelpoulton.com/books/">The Kubernetes Book</a></li>
-</ul>
-<h2 id="iac">IaC</h2>
-<h3 id="terraform">Terraform</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/terraform-up-and/9781098116736/">Terraform: Up and Running: Writing Infrastructure as Code</a></li>
-</ul>
-<h2 id="linux">Linux</h2>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/linux-in-a/9780596806088/">Linux in a Nutshell</a></li>
-</ul>
-<h2 id="programming">Programming</h2>
-<h3 id="bash">Bash</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/learning-the-bash/0596009658/">Learning the bash Shell</a></li>
-</ul>
-<h3 id="cc">C/C++</h3>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
-</ul>
-<h3 id="golang">Golang</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
-<li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
-</ul>
-<h3 id="perl">Perl</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/">Learning Perl</a></li>
-<li><a href="https://www.oreilly.com/library/view/mastering-perl/9780596527242/">Mastering Perl</a></li>
-<li><a href="https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/">Programming Perl</a></li>
-</ul>
-<h3 id="python">Python</h3>
-<ul>
-<li><a href="https://diveintopython3.net/">Dive Into Python</a></li>
-</ul>
-<h3 id="sql">SQL</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/">Learning SQL</a></li>
-</ul>
-]]></content:encoded>
+      <description>&lt;p&gt;A list of recommended DevOps books &amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;devops&#34;&gt;DevOps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/&#34;&gt;The DevOps Handbook&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/&#34;&gt;The Phoenix Project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;&#xA;&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/&#34;&gt;Kubernetes: Up and Running&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;The Kubernetes Book&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;iac&#34;&gt;IaC&lt;/h2&gt;&#xA;&lt;h3 id=&#34;terraform&#34;&gt;Terraform&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/terraform-up-and/9781098116736/&#34;&gt;Terraform: Up and Running: Writing Infrastructure as Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/linux-in-a/9780596806088/&#34;&gt;Linux in a Nutshell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;&#xA;&lt;h3 id=&#34;bash&#34;&gt;Bash&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-the-bash/0596009658/&#34;&gt;Learning the bash Shell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cc&#34;&gt;C/C++&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_C_Programming_Language&#34;&gt;The C Programming Language&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;golang&#34;&gt;Golang&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/introducing-go/9781491941997/&#34;&gt;Introducing Go&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-go/9781492077206/&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;perl&#34;&gt;Perl&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/&#34;&gt;Learning Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/mastering-perl/9780596527242/&#34;&gt;Mastering Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/&#34;&gt;Programming Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://diveintopython3.net/&#34;&gt;Dive Into Python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sql&#34;&gt;SQL&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/&#34;&gt;Learning SQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

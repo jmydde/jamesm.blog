@@ -1,162 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conferences on jamesm.blog</title>
     <link>https://jamesm.blog/tags/conferences/</link>
     <description>Recent content in Conferences on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jun 2023 06:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 06:51:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of AI Summits &amp; Conferences</title>
       <link>https://jamesm.blog/ai/conferences/</link>
       <pubDate>Sat, 10 Jun 2023 06:51:25 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/conferences/</guid>
-      <description>&lt;h2 id=&#34;amsterdam&#34;&gt;Amsterdam&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Event Name&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Location&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Date(s)&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://worldsummit.ai/&#34;&gt;World Sumit AI&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Taets Art &amp;amp; Event Park&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;11th-12th October 2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;london&#34;&gt;London&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Event Name&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Location&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Date(s)&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.ai-expo.net/global/&#34;&gt;AI &amp;amp; Big Data Expo&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Olympia&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;30th November - 1st December 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.westminsterinsight.com/events/artificial-intelligence-and-machine-learning-conference/&#34;&gt;AI UK Conference&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;IStructE&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;24th April 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://aiconference.london/&#34;&gt;AI World Congress&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Kensington Conference &amp;amp; Event Centre&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;28th-29th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://generativeaiconference.org/&#34;&gt;Gen AI Con&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Tobacco Dock&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;14th-15th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://london.theaisummit.com/&#34;&gt;The AI Summit London&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Tobacco Dock&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;14th-15th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;san-francisco&#34;&gt;San Francisco&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Event Name&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Location&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Date(s)&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.databricks.com/dataaisummit/&#34;&gt;Data &amp;amp; AI Summit&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Moscone Center&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;26th–29th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
-      <content:encoded><![CDATA[<h2 id="amsterdam">Amsterdam</h2>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Event Name</th>
-          <th style="text-align: left">Location</th>
-          <th style="text-align: left">Date(s)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><a href="https://worldsummit.ai/">World Sumit AI</a></td>
-          <td style="text-align: left">Taets Art &amp; Event Park</td>
-          <td style="text-align: left">11th-12th October 2023</td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="london">London</h2>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Event Name</th>
-          <th style="text-align: left">Location</th>
-          <th style="text-align: left">Date(s)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><a href="https://www.ai-expo.net/global/">AI &amp; Big Data Expo</a></td>
-          <td style="text-align: left">Olympia</td>
-          <td style="text-align: left">30th November - 1st December 2023</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><a href="https://www.westminsterinsight.com/events/artificial-intelligence-and-machine-learning-conference/">AI UK Conference</a></td>
-          <td style="text-align: left">IStructE</td>
-          <td style="text-align: left">24th April 2023</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><a href="https://aiconference.london/">AI World Congress</a></td>
-          <td style="text-align: left">Kensington Conference &amp; Event Centre</td>
-          <td style="text-align: left">28th-29th June 2023</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><a href="https://generativeaiconference.org/">Gen AI Con</a></td>
-          <td style="text-align: left">Tobacco Dock</td>
-          <td style="text-align: left">14th-15th June 2023</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><a href="https://london.theaisummit.com/">The AI Summit London</a></td>
-          <td style="text-align: left">Tobacco Dock</td>
-          <td style="text-align: left">14th-15th June 2023</td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="san-francisco">San Francisco</h2>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Event Name</th>
-          <th style="text-align: left">Location</th>
-          <th style="text-align: left">Date(s)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left"><a href="https://www.databricks.com/dataaisummit/">Data &amp; AI Summit</a></td>
-          <td style="text-align: left">Moscone Center</td>
-          <td style="text-align: left">26th–29th June 2023</td>
-      </tr>
-  </tbody>
-</table>
-]]></content:encoded>
+      <description>&lt;h2 id=&#34;amsterdam&#34;&gt;Amsterdam&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Event Name&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Location&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Date(s)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://worldsummit.ai/&#34;&gt;World Sumit AI&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Taets Art &amp;amp; Event Park&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;11th-12th October 2023&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;london&#34;&gt;London&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Event Name&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Location&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Date(s)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.ai-expo.net/global/&#34;&gt;AI &amp;amp; Big Data Expo&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Olympia&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;30th November - 1st December 2023&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.westminsterinsight.com/events/artificial-intelligence-and-machine-learning-conference/&#34;&gt;AI UK Conference&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;IStructE&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;24th April 2023&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://aiconference.london/&#34;&gt;AI World Congress&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Kensington Conference &amp;amp; Event Centre&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;28th-29th June 2023&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://generativeaiconference.org/&#34;&gt;Gen AI Con&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Tobacco Dock&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;14th-15th June 2023&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://london.theaisummit.com/&#34;&gt;The AI Summit London&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Tobacco Dock&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;14th-15th June 2023&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;san-francisco&#34;&gt;San Francisco&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Event Name&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Location&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Date(s)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://www.databricks.com/dataaisummit/&#34;&gt;Data &amp;amp; AI Summit&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Moscone Center&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;26th–29th June 2023&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
   </channel>
 </rss>

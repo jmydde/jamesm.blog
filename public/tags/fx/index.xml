@@ -1,80 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fx on jamesm.blog</title>
     <link>https://jamesm.blog/tags/fx/</link>
     <description>Recent content in Fx on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jun 2023 09:53:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/fx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jun 2023 09:53:39 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/fx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>News: Arturia FX Collection 4</title>
       <link>https://jamesm.blog/music-production/news/arturia-fx-collection-4/</link>
       <pubDate>Fri, 02 Jun 2023 09:53:39 +0100</pubDate>
-      
       <guid>https://jamesm.blog/music-production/news/arturia-fx-collection-4/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;FX Collection 4&lt;/a&gt; which now includes &lt;strong&gt;30&lt;/strong&gt; effects.&lt;/p&gt;
-&lt;p&gt;There is currently an intro offer, you can get &lt;strong&gt;40% off&lt;/strong&gt; until 20th June 2023&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;List price: £429&lt;/li&gt;
-&lt;li&gt;Discounted price: &lt;strong&gt;£257&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re an owner of other Arturia products you will likely get an even bigger discount&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The following effects have been added since collection 3;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rotary-cls-222/overview/&#34;&gt;Rotary CLS-222&lt;/a&gt; - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/dist-coldfire/overview/&#34;&gt;Dist COLDFIRE&lt;/a&gt; - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/filter-ms-20/overview/&#34;&gt;Filter MS-20&lt;/a&gt; - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rev-lx-24/overview/&#34;&gt;Rev LX-24&lt;/a&gt; - an enhanced virtual replica of a retro ambience box that defined reverb for a generation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Full details can be found &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
-<p><a href="https://www.arturia.com/">[Arturia]</a> have just released <a href="https://www.arturia.com/products/software-effects/fx-collection/overview/">FX Collection 4</a> which now includes <strong>30</strong> effects.</p>
-<p>There is currently an intro offer, you can get <strong>40% off</strong> until 20th June 2023</p>
-<ul>
-<li>List price: £429</li>
-<li>Discounted price: <strong>£257</strong></li>
-<li><strong>Note:</strong> If you&rsquo;re an owner of other Arturia products you will likely get an even bigger discount</li>
-</ul>
-<p>The following effects have been added since collection 3;</p>
-<ul>
-<li><a href="https://www.arturia.com/products/software-effects/rotary-cls-222/overview/">Rotary CLS-222</a> - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds</li>
-<li><a href="https://www.arturia.com/products/software-effects/dist-coldfire/overview/">Dist COLDFIRE</a> - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks</li>
-<li><a href="https://www.arturia.com/products/software-effects/filter-ms-20/overview/">Filter MS-20</a> - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer</li>
-<li><a href="https://www.arturia.com/products/software-effects/rev-lx-24/overview/">Rev LX-24</a> - an enhanced virtual replica of a retro ambience box that defined reverb for a generation</li>
-</ul>
-<p>Full details can be found <a href="https://www.arturia.com/products/software-effects/fx-collection/overview/">here</a></p>
-<h2 id="youtube-videos">YouTube Videos</h2>
-<h3 id="fx-collection-4--find-your-sonic-perfection--arturia">FX Collection 4 | Find your sonic perfection | ARTURIA</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/oMFvznb9xI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="exploring-arturia-fx-collection-4">Exploring Arturia FX Collection 4</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/fP6EVlvjKPE?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="the-arturia-fx-collection-4-is-a-must-have--now-with-rotary-fx-plugin">The Arturia Fx Collection 4 is a Must-have ! Now with Rotary fx plugin</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Y6Fo4xWN_W8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-]]></content:encoded>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;FX Collection 4&lt;/a&gt; which now includes &lt;strong&gt;30&lt;/strong&gt; effects.&lt;/p&gt;&#xA;&lt;p&gt;There is currently an intro offer, you can get &lt;strong&gt;40% off&lt;/strong&gt; until 20th June 2023&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;List price: £429&lt;/li&gt;&#xA;&lt;li&gt;Discounted price: &lt;strong&gt;£257&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re an owner of other Arturia products you will likely get an even bigger discount&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The following effects have been added since collection 3;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rotary-cls-222/overview/&#34;&gt;Rotary CLS-222&lt;/a&gt; - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/dist-coldfire/overview/&#34;&gt;Dist COLDFIRE&lt;/a&gt; - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/filter-ms-20/overview/&#34;&gt;Filter MS-20&lt;/a&gt; - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rev-lx-24/overview/&#34;&gt;Rev LX-24&lt;/a&gt; - an enhanced virtual replica of a retro ambience box that defined reverb for a generation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Full details can be found &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

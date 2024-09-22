@@ -1,220 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchain on jamesm.blog</title>
     <link>https://jamesm.blog/tags/blockchain/</link>
     <description>Recent content in Blockchain on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Mar 2024 06:00:22 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Mar 2024 06:00:22 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blockchain</title>
       <link>https://jamesm.blog/blockchain/</link>
       <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
-      
       <guid>https://jamesm.blog/blockchain/</guid>
-      <description>&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;images/decentralized.png&#34;/&gt; 
-&lt;/figure&gt;</description>
-      <content:encoded><![CDATA[<figure>
-    <img loading="lazy" src="images/decentralized.png"/> 
-</figure>
-
-]]></content:encoded>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://jamesm.blog/blockchain/images/decentralized.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
     </item>
-    
     <item>
       <title>Polkadot News 2024</title>
       <link>https://jamesm.blog/blockchain/polkadot/polkadot-2024/</link>
       <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
-      
       <guid>https://jamesm.blog/blockchain/polkadot/polkadot-2024/</guid>
-      <description>&lt;h3 id=&#34;2024-03-19-empowering-next-level-insights-dune-brings-polkadot-and-kusama-analytics-into-focus&#34;&gt;2024-03-19 Empowering Next-Level Insights: Dune Brings Polkadot and Kusama Analytics into Focus&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot-kusama-analytics-dune/&#34;&gt;https://polkadot.network/blog/polkadot-kusama-analytics-dune/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2024-03-18-polkadot-blockchain-academy-adds-remote-option-for-select-students&#34;&gt;2024-03-18 Polkadot Blockchain Academy Adds Remote Option for Select Students&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/&#34;&gt;https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2024-03-04-the-polkadot-alpha-program-a-new-era-of-collaborative-building&#34;&gt;2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/&#34;&gt;https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2024-02-18-gavin-wood-was-right-about-polkadot-dot&#34;&gt;2024-02-18 Gavin Wood Was Right About Polkadot DOT&amp;hellip;.&lt;/h3&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/j1ntZ0IxjYY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2024-01-25-polkadot-20-review--the-biggest-protocol-upgrade-yet&#34;&gt;2024-01-25 Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet?&lt;/h3&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/pShgerl8wGs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2024-01-24-polkadot-blockchain-academy-targeted-education-for-builders-and-founders&#34;&gt;2024-01-24 Polkadot Blockchain Academy: Targeted Education for Builders and Founders&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/&#34;&gt;https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2024-01-17-polkadot-review-2024-dot-updates-you-need-to-know&#34;&gt;2024-01-17 Polkadot Review 2024: DOT Updates You Need to Know!&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coinbureau.com/review/polkadot-dot/&#34;&gt;https://www.coinbureau.com/review/polkadot-dot/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2024-01-12-polkadot-showcases-industry-leading-scalability-in-positive-end-to-2023&#34;&gt;2024-01-12 Polkadot Showcases Industry-Leading Scalability in Positive End to 2023&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot_q4_update_data/&#34;&gt;https://polkadot.network/blog/polkadot_q4_update_data/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h3 id="2024-03-19-empowering-next-level-insights-dune-brings-polkadot-and-kusama-analytics-into-focus">2024-03-19 Empowering Next-Level Insights: Dune Brings Polkadot and Kusama Analytics into Focus</h3>
-<ul>
-<li><a href="https://polkadot.network/blog/polkadot-kusama-analytics-dune/">https://polkadot.network/blog/polkadot-kusama-analytics-dune/</a></li>
-</ul>
-<h3 id="2024-03-18-polkadot-blockchain-academy-adds-remote-option-for-select-students">2024-03-18 Polkadot Blockchain Academy Adds Remote Option for Select Students</h3>
-<ul>
-<li><a href="https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/">https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/</a></li>
-</ul>
-<h3 id="2024-03-04-the-polkadot-alpha-program-a-new-era-of-collaborative-building">2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building</h3>
-<ul>
-<li><a href="https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/">https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/</a></li>
-</ul>
-<h3 id="2024-02-18-gavin-wood-was-right-about-polkadot-dot">2024-02-18 Gavin Wood Was Right About Polkadot DOT&hellip;.</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/j1ntZ0IxjYY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2024-01-25-polkadot-20-review--the-biggest-protocol-upgrade-yet">2024-01-25 Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet?</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/pShgerl8wGs?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2024-01-24-polkadot-blockchain-academy-targeted-education-for-builders-and-founders">2024-01-24 Polkadot Blockchain Academy: Targeted Education for Builders and Founders</h3>
-<ul>
-<li><a href="https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/">https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/</a></li>
-</ul>
-<h3 id="2024-01-17-polkadot-review-2024-dot-updates-you-need-to-know">2024-01-17 Polkadot Review 2024: DOT Updates You Need to Know!</h3>
-<ul>
-<li><a href="https://www.coinbureau.com/review/polkadot-dot/">https://www.coinbureau.com/review/polkadot-dot/</a></li>
-</ul>
-<h3 id="2024-01-12-polkadot-showcases-industry-leading-scalability-in-positive-end-to-2023">2024-01-12 Polkadot Showcases Industry-Leading Scalability in Positive End to 2023</h3>
-<ul>
-<li><a href="https://polkadot.network/blog/polkadot_q4_update_data/">https://polkadot.network/blog/polkadot_q4_update_data/</a></li>
-</ul>
-]]></content:encoded>
+      <description>&lt;h3 id=&#34;2024-03-19-empowering-next-level-insights-dune-brings-polkadot-and-kusama-analytics-into-focus&#34;&gt;2024-03-19 Empowering Next-Level Insights: Dune Brings Polkadot and Kusama Analytics into Focus&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot-kusama-analytics-dune/&#34;&gt;https://polkadot.network/blog/polkadot-kusama-analytics-dune/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2024-03-18-polkadot-blockchain-academy-adds-remote-option-for-select-students&#34;&gt;2024-03-18 Polkadot Blockchain Academy Adds Remote Option for Select Students&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/&#34;&gt;https://polkadot.network/blog/polkadot-blockchain-academy-remote-learning-developers/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2024-03-04-the-polkadot-alpha-program-a-new-era-of-collaborative-building&#34;&gt;2024-03-04 The Polkadot Alpha Program: A New Era of Collaborative Building&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/&#34;&gt;https://polkadot.network/blog/the-polkadot-alpha-program-a-new-era-for-decentralized-building-collaboration/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2024-02-18-gavin-wood-was-right-about-polkadot-dot&#34;&gt;2024-02-18 Gavin Wood Was Right About Polkadot DOT&amp;hellip;.&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/j1ntZ0IxjYY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;2024-01-25-polkadot-20-review--the-biggest-protocol-upgrade-yet&#34;&gt;2024-01-25 Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet?&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/pShgerl8wGs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;2024-01-24-polkadot-blockchain-academy-targeted-education-for-builders-and-founders&#34;&gt;2024-01-24 Polkadot Blockchain Academy: Targeted Education for Builders and Founders&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/&#34;&gt;https://polkadot.network/blog/polkadot-blockchain-academy-meeting-the-needs-of-builders-and-founders-alike/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2024-01-17-polkadot-review-2024-dot-updates-you-need-to-know&#34;&gt;2024-01-17 Polkadot Review 2024: DOT Updates You Need to Know!&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coinbureau.com/review/polkadot-dot/&#34;&gt;https://www.coinbureau.com/review/polkadot-dot/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2024-01-12-polkadot-showcases-industry-leading-scalability-in-positive-end-to-2023&#34;&gt;2024-01-12 Polkadot Showcases Industry-Leading Scalability in Positive End to 2023&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://polkadot.network/blog/polkadot_q4_update_data/&#34;&gt;https://polkadot.network/blog/polkadot_q4_update_data/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Blockchain Links</title>
       <link>https://jamesm.blog/blockchain/links/</link>
       <pubDate>Fri, 01 Dec 2023 13:30:39 +0100</pubDate>
-      
       <guid>https://jamesm.blog/blockchain/links/</guid>
-      <description>&lt;h2 id=&#34;my-favourite-youtube-channels&#34;&gt;My Favourite YouTube Channels&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AltcoinDaily/&#34;&gt;Altcoin Daily&lt;/a&gt; - Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, investing, technology, Web3, &amp;amp; everything crypto related&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@aantonop/&#34;&gt;Andreas Antonopoulos&lt;/a&gt; - Andreas is one of the most trusted and entertaining educators in the bitcoin industry&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CardanoFoundation/&#34;&gt;Cardano Foundation&lt;/a&gt; - Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@charleshoskinsoncrypto/&#34;&gt;Charles Hoskinson&lt;/a&gt; - co-founder of Ethereum &amp;amp; Cardano blockchain platforms&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CoinBureau/&#34;&gt;Coin Bureau&lt;/a&gt; - go-to informational portal to the Cryptocurrency galaxy&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@DataDash/&#34;&gt;DataDash&lt;/a&gt; - one-stop shop for all things related to cryptocurrencies and financial markets&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheCryptoLark/&#34;&gt;Lark Davis&lt;/a&gt; - Bitcoin, cryptocurrency, and stock investor&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@MMCryptoTube/&#34;&gt;MMCrypto&lt;/a&gt; - learn everything regarding Cryptocurrency and Blockchain related topics&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@orangepill/&#34;&gt;Orange Pill&lt;/a&gt; - Max Keiser &amp;amp; Stacy Herbert have been creating bitcoin content since 2011&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PolkadotNetwork/&#34;&gt;Polkadot&lt;/a&gt; - Polkadot is the blockspace ecosystem for boundless innovation&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@RealVisionFinance/&#34;&gt;Real Vision&lt;/a&gt; - arms you with the knowledge, the tools, and the network to succeed on your financial journey&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheMoon/&#34;&gt;The Moon&lt;/a&gt; - Bitcoin news and Bitcoin price&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h2 id="my-favourite-youtube-channels">My Favourite YouTube Channels</h2>
-<ul>
-<li><a href="https://www.youtube.com/@AltcoinDaily/">Altcoin Daily</a> - Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, investing, technology, Web3, &amp; everything crypto related</li>
-<li><a href="https://www.youtube.com/@aantonop/">Andreas Antonopoulos</a> - Andreas is one of the most trusted and entertaining educators in the bitcoin industry</li>
-<li><a href="https://www.youtube.com/@CardanoFoundation/">Cardano Foundation</a> - Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland</li>
-<li><a href="https://www.youtube.com/@charleshoskinsoncrypto/">Charles Hoskinson</a> - co-founder of Ethereum &amp; Cardano blockchain platforms</li>
-<li><a href="https://www.youtube.com/@CoinBureau/">Coin Bureau</a> - go-to informational portal to the Cryptocurrency galaxy</li>
-<li><a href="https://www.youtube.com/@DataDash/">DataDash</a> - one-stop shop for all things related to cryptocurrencies and financial markets</li>
-<li><a href="https://www.youtube.com/@TheCryptoLark/">Lark Davis</a> - Bitcoin, cryptocurrency, and stock investor</li>
-<li><a href="https://www.youtube.com/@MMCryptoTube/">MMCrypto</a> - learn everything regarding Cryptocurrency and Blockchain related topics</li>
-<li><a href="https://www.youtube.com/@orangepill/">Orange Pill</a> - Max Keiser &amp; Stacy Herbert have been creating bitcoin content since 2011</li>
-<li><a href="https://www.youtube.com/@PolkadotNetwork/">Polkadot</a> - Polkadot is the blockspace ecosystem for boundless innovation</li>
-<li><a href="https://www.youtube.com/@RealVisionFinance/">Real Vision</a> - arms you with the knowledge, the tools, and the network to succeed on your financial journey</li>
-<li><a href="https://www.youtube.com/@TheMoon/">The Moon</a> - Bitcoin news and Bitcoin price</li>
-</ul>
-]]></content:encoded>
+      <description>&lt;h2 id=&#34;my-favourite-youtube-channels&#34;&gt;My Favourite YouTube Channels&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AltcoinDaily/&#34;&gt;Altcoin Daily&lt;/a&gt; - Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, investing, technology, Web3, &amp;amp; everything crypto related&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@aantonop/&#34;&gt;Andreas Antonopoulos&lt;/a&gt; - Andreas is one of the most trusted and entertaining educators in the bitcoin industry&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CardanoFoundation/&#34;&gt;Cardano Foundation&lt;/a&gt; - Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@charleshoskinsoncrypto/&#34;&gt;Charles Hoskinson&lt;/a&gt; - co-founder of Ethereum &amp;amp; Cardano blockchain platforms&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CoinBureau/&#34;&gt;Coin Bureau&lt;/a&gt; - go-to informational portal to the Cryptocurrency galaxy&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@DataDash/&#34;&gt;DataDash&lt;/a&gt; - one-stop shop for all things related to cryptocurrencies and financial markets&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheCryptoLark/&#34;&gt;Lark Davis&lt;/a&gt; - Bitcoin, cryptocurrency, and stock investor&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@MMCryptoTube/&#34;&gt;MMCrypto&lt;/a&gt; - learn everything regarding Cryptocurrency and Blockchain related topics&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@orangepill/&#34;&gt;Orange Pill&lt;/a&gt; - Max Keiser &amp;amp; Stacy Herbert have been creating bitcoin content since 2011&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PolkadotNetwork/&#34;&gt;Polkadot&lt;/a&gt; - Polkadot is the blockspace ecosystem for boundless innovation&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@RealVisionFinance/&#34;&gt;Real Vision&lt;/a&gt; - arms you with the knowledge, the tools, and the network to succeed on your financial journey&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheMoon/&#34;&gt;The Moon&lt;/a&gt; - Bitcoin news and Bitcoin price&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>List of Blockchain Courses</title>
       <link>https://jamesm.blog/blockchain/courses/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
-      
       <guid>https://jamesm.blog/blockchain/courses/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/&#34;&gt;Blockchain Council&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/learning/topics/web3/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/build-your-blockchain-az/&#34;&gt;Blockchain A-Z™: Learn How To Build Your First Blockchain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/blockchain-and-bitcoin-fundamentals/&#34;&gt;Blockchain and Bitcoin Fundamentals&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/blockchain-developer/&#34;&gt;Ethereum Blockchain Developer Bootcamp With Solidity (2023)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://web3.career/&#34;&gt;Web3.career&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.web3.university/&#34;&gt;Web3 University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zerotomastery.io/&#34;&gt;Zero to Mastery&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zerotomastery.io/courses/introduction-to-web3/&#34;&gt;Web3 Masterclass: Blockchain, DApps, DAOs + More&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<ul>
-<li><a href="https://www.blockchain-council.org/">Blockchain Council</a>
-<ul>
-<li><a href="https://www.blockchain-council.org/certifications/certified-blockchain-developer/">Certified Blockchain Developer™</a></li>
-</ul>
-</li>
-<li><a href="https://www.chainshot.com/bootcamp/">ChainShot</a></li>
-<li><a href="https://cryptozombies.io/">CryptoZombies</a></li>
-<li><a href="https://learnweb3.io/">LearnWeb3</a></li>
-<li><a href="https://www.linkedin.com/learning/topics/web3/">LinkedIn</a></li>
-<li><a href="https://polkadot.network/development/academy/">Polkadot Blockchain Academy</a></li>
-<li><a href="https://www.udemy.com/">Udemy</a>
-<ul>
-<li><a href="https://www.udemy.com/course/build-your-blockchain-az/">Blockchain A-Z™: Learn How To Build Your First Blockchain</a></li>
-<li><a href="https://www.udemy.com/course/blockchain-and-bitcoin-fundamentals/">Blockchain and Bitcoin Fundamentals</a></li>
-<li><a href="https://www.udemy.com/course/blockchain-developer/">Ethereum Blockchain Developer Bootcamp With Solidity (2023)</a></li>
-</ul>
-</li>
-<li><a href="https://web3.career/">Web3.career</a></li>
-<li><a href="https://www.web3.university/">Web3 University</a></li>
-<li><a href="https://zerotomastery.io/">Zero to Mastery</a>
-<ul>
-<li><a href="https://zerotomastery.io/courses/introduction-to-web3/">Web3 Masterclass: Blockchain, DApps, DAOs + More</a></li>
-</ul>
-</li>
-</ul>
-]]></content:encoded>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/&#34;&gt;Blockchain Council&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/learning/topics/web3/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/build-your-blockchain-az/&#34;&gt;Blockchain A-Z™: Learn How To Build Your First Blockchain&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/blockchain-and-bitcoin-fundamentals/&#34;&gt;Blockchain and Bitcoin Fundamentals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/blockchain-developer/&#34;&gt;Ethereum Blockchain Developer Bootcamp With Solidity (2023)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://web3.career/&#34;&gt;Web3.career&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.web3.university/&#34;&gt;Web3 University&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zerotomastery.io/&#34;&gt;Zero to Mastery&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zerotomastery.io/courses/introduction-to-web3/&#34;&gt;Web3 Masterclass: Blockchain, DApps, DAOs + More&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

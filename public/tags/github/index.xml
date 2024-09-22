@@ -1,150 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on jamesm.blog</title>
     <link>https://jamesm.blog/tags/github/</link>
     <description>Recent content in Github on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 May 2023 06:45:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 06:45:18 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of DevOps GitHub Projects</title>
       <link>https://jamesm.blog/devops/github-projects/</link>
       <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
-      
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>&lt;h3 id=&#34;devops--site-reliability-engineering-sre&#34;&gt;DevOps &amp;amp; Site Reliability Engineering (SRE)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/binhnguyennus/awesome-scalability/&#34;&gt;Awesome Scalability&lt;/a&gt; - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dastergon/awesome-sre/&#34;&gt;Awesome Site Reliability Engineering&lt;/a&gt; - curated list of awesome Site Reliability and Production Engineering resources&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bregman-arie/devops-exercises/&#34;&gt;DevOps Exercises&lt;/a&gt; - contains questions and exercises on technical topics related to DevOps and SRE&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bregman-arie/devops-resources/&#34;&gt;DevOps Resources&lt;/a&gt; - useful resources and information regarding DevOps including a learning roadmap&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/milanm/DevOps-Roadmap/&#34;&gt;DevOps Roadmap 2023&lt;/a&gt; - step-by-step guide on how to become a DevOps engineer&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/collections/devops-tools/&#34;&gt;DevOps Tools&lt;/a&gt; - GitHub collection of DevOps tools&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/upgundecha/howtheysre/&#34;&gt;How they SRE&lt;/a&gt; - curated collection of publicly available resources about SRE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/&#34;&gt;k9s&lt;/a&gt; - terminal UI to interact with your Kubernetes clusters&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kops/&#34;&gt;kOps&lt;/a&gt; - helps you create, destroy, upgrade &amp;amp; maintain a production-grade, highly available, Kubernetes cluster&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/avsthiago/kopylot/&#34;&gt;KoPylot&lt;/a&gt; - open-source AI-powered Kubernetes assistant to help developers &amp;amp; DevOps engineers easily manage &amp;amp; monitor their Kubernetes clusters&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kube-state-metrics/&#34;&gt;kube-state-metrics (KSM)&lt;/a&gt; - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/dashboard/&#34;&gt;Kubernetes Dashboard&lt;/a&gt; - general purpose, web-based UI for Kubernetes clusters&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/kubespray/&#34;&gt;Kubespray&lt;/a&gt; - Kubernetes cluster lifecycle management&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/minikube/&#34;&gt;minikube&lt;/a&gt; - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/popeye/&#34;&gt;Popeye&lt;/a&gt; - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sharkdp/bat/&#34;&gt;bat&lt;/a&gt; - a cat clone with syntax highlighting and Git integration&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Nukesor/pueue/&#34;&gt;pueue&lt;/a&gt; - command-line task management tool for sequential and parallel execution of long-running tasks&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/awslabs/specctl/&#34;&gt;specctl&lt;/a&gt; - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/trimstray/test-your-sysadmin-skills/&#34;&gt;Test your SysAdmin skills&lt;/a&gt; - interview questions and answers for system administration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;scheduling&#34;&gt;Scheduling&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/apache/airflow/&#34;&gt;Airflow&lt;/a&gt; - platform to programmatically author, schedule, and monitor workflows&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/distribworks/dkron/&#34;&gt;dkron&lt;/a&gt; - distributed, fault tolerant job scheduling system for cloud native environments&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h3 id="devops--site-reliability-engineering-sre">DevOps &amp; Site Reliability Engineering (SRE)</h3>
-<ul>
-<li><a href="https://github.com/binhnguyennus/awesome-scalability/">Awesome Scalability</a> - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems</li>
-<li><a href="https://github.com/dastergon/awesome-sre/">Awesome Site Reliability Engineering</a> - curated list of awesome Site Reliability and Production Engineering resources</li>
-<li><a href="https://github.com/bregman-arie/devops-exercises/">DevOps Exercises</a> - contains questions and exercises on technical topics related to DevOps and SRE</li>
-<li><a href="https://github.com/bregman-arie/devops-resources/">DevOps Resources</a> - useful resources and information regarding DevOps including a learning roadmap</li>
-<li><a href="https://github.com/milanm/DevOps-Roadmap/">DevOps Roadmap 2023</a> - step-by-step guide on how to become a DevOps engineer</li>
-<li><a href="https://github.com/collections/devops-tools/">DevOps Tools</a> - GitHub collection of DevOps tools</li>
-<li><a href="https://github.com/upgundecha/howtheysre/">How they SRE</a> - curated collection of publicly available resources about SRE</li>
-</ul>
-<h3 id="kubernetes">Kubernetes</h3>
-<ul>
-<li><a href="https://github.com/derailed/k9s/">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
-<li><a href="https://github.com/kubernetes/kops/">kOps</a> - helps you create, destroy, upgrade &amp; maintain a production-grade, highly available, Kubernetes cluster</li>
-<li><a href="https://github.com/avsthiago/kopylot/">KoPylot</a> - open-source AI-powered Kubernetes assistant to help developers &amp; DevOps engineers easily manage &amp; monitor their Kubernetes clusters</li>
-<li><a href="https://github.com/kubernetes/kube-state-metrics/">kube-state-metrics (KSM)</a> - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects</li>
-<li><a href="https://github.com/kubernetes/dashboard/">Kubernetes Dashboard</a> - general purpose, web-based UI for Kubernetes clusters</li>
-<li><a href="https://github.com/kubernetes-sigs/kubespray/">Kubespray</a> - Kubernetes cluster lifecycle management</li>
-<li><a href="https://github.com/kubernetes/minikube/">minikube</a> - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn</li>
-<li><a href="https://github.com/derailed/popeye/">Popeye</a> - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations</li>
-</ul>
-<h3 id="linux">Linux</h3>
-<ul>
-<li><a href="https://github.com/sharkdp/bat/">bat</a> - a cat clone with syntax highlighting and Git integration</li>
-<li><a href="https://github.com/Nukesor/pueue/">pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
-<li><a href="https://github.com/awslabs/specctl/">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
-<li><a href="https://github.com/trimstray/test-your-sysadmin-skills/">Test your SysAdmin skills</a> - interview questions and answers for system administration</li>
-</ul>
-<h3 id="scheduling">Scheduling</h3>
-<ul>
-<li><a href="https://github.com/apache/airflow/">Airflow</a> - platform to programmatically author, schedule, and monitor workflows</li>
-<li><a href="https://github.com/distribworks/dkron/">dkron</a> - distributed, fault tolerant job scheduling system for cloud native environments</li>
-</ul>
-]]></content:encoded>
+      <description>&lt;h3 id=&#34;devops--site-reliability-engineering-sre&#34;&gt;DevOps &amp;amp; Site Reliability Engineering (SRE)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/binhnguyennus/awesome-scalability/&#34;&gt;Awesome Scalability&lt;/a&gt; - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/dastergon/awesome-sre/&#34;&gt;Awesome Site Reliability Engineering&lt;/a&gt; - curated list of awesome Site Reliability and Production Engineering resources&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/bregman-arie/devops-exercises/&#34;&gt;DevOps Exercises&lt;/a&gt; - contains questions and exercises on technical topics related to DevOps and SRE&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/bregman-arie/devops-resources/&#34;&gt;DevOps Resources&lt;/a&gt; - useful resources and information regarding DevOps including a learning roadmap&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/milanm/DevOps-Roadmap/&#34;&gt;DevOps Roadmap 2023&lt;/a&gt; - step-by-step guide on how to become a DevOps engineer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/collections/devops-tools/&#34;&gt;DevOps Tools&lt;/a&gt; - GitHub collection of DevOps tools&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/upgundecha/howtheysre/&#34;&gt;How they SRE&lt;/a&gt; - curated collection of publicly available resources about SRE&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/&#34;&gt;k9s&lt;/a&gt; - terminal UI to interact with your Kubernetes clusters&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kops/&#34;&gt;kOps&lt;/a&gt; - helps you create, destroy, upgrade &amp;amp; maintain a production-grade, highly available, Kubernetes cluster&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/avsthiago/kopylot/&#34;&gt;KoPylot&lt;/a&gt; - open-source AI-powered Kubernetes assistant to help developers &amp;amp; DevOps engineers easily manage &amp;amp; monitor their Kubernetes clusters&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kube-state-metrics/&#34;&gt;kube-state-metrics (KSM)&lt;/a&gt; - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/dashboard/&#34;&gt;Kubernetes Dashboard&lt;/a&gt; - general purpose, web-based UI for Kubernetes clusters&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/kubespray/&#34;&gt;Kubespray&lt;/a&gt; - Kubernetes cluster lifecycle management&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/minikube/&#34;&gt;minikube&lt;/a&gt; - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/popeye/&#34;&gt;Popeye&lt;/a&gt; - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/sharkdp/bat/&#34;&gt;bat&lt;/a&gt; - a cat clone with syntax highlighting and Git integration&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Nukesor/pueue/&#34;&gt;pueue&lt;/a&gt; - command-line task management tool for sequential and parallel execution of long-running tasks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/awslabs/specctl/&#34;&gt;specctl&lt;/a&gt; - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/trimstray/test-your-sysadmin-skills/&#34;&gt;Test your SysAdmin skills&lt;/a&gt; - interview questions and answers for system administration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;scheduling&#34;&gt;Scheduling&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/apache/airflow/&#34;&gt;Airflow&lt;/a&gt; - platform to programmatically author, schedule, and monitor workflows&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/distribworks/dkron/&#34;&gt;dkron&lt;/a&gt; - distributed, fault tolerant job scheduling system for cloud native environments&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>List of AI GitHub Projects</title>
       <link>https://jamesm.blog/ai/github-projects/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/github-projects/</guid>
-      <description>&lt;h3 id=&#34;chatbots&#34;&gt;Chatbots&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;Auto-GPT&lt;/a&gt; - autonomous GPT&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jina-ai/dev-gpt&#34;&gt;Dev-GPT&lt;/a&gt; - your automated development team&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;Prompt Engineering Guide&lt;/a&gt; - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/twitter/the-algorithm&#34;&gt;Twitter&amp;rsquo;s Recommendation Algorithm&lt;/a&gt; - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h3 id="chatbots">Chatbots</h3>
-<ul>
-<li><a href="https://github.com/Significant-Gravitas/Auto-GPT">Auto-GPT</a> - autonomous GPT</li>
-<li><a href="https://github.com/jina-ai/dev-gpt">Dev-GPT</a> - your automated development team</li>
-<li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">Prompt Engineering Guide</a> - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering</li>
-</ul>
-<h3 id="other">Other</h3>
-<ul>
-<li><a href="https://github.com/twitter/the-algorithm">Twitter&rsquo;s Recommendation Algorithm</a> - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)</li>
-</ul>
-]]></content:encoded>
+      <description>&lt;h3 id=&#34;chatbots&#34;&gt;Chatbots&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;Auto-GPT&lt;/a&gt; - autonomous GPT&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jina-ai/dev-gpt&#34;&gt;Dev-GPT&lt;/a&gt; - your automated development team&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;Prompt Engineering Guide&lt;/a&gt; - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/twitter/the-algorithm&#34;&gt;Twitter&amp;rsquo;s Recommendation Algorithm&lt;/a&gt; - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>GitHub Copilot</title>
       <link>https://jamesm.blog/ai/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.&lt;/p&gt;
-&lt;p&gt;GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.&lt;/p&gt;
-&lt;p&gt;Focus on more satisfying work, be more producttive, speed up repetitve tasks.&lt;/p&gt;
-&lt;p&gt;Supported IDEs&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Neovim&lt;/li&gt;
-&lt;li&gt;JetBrains IDEs&lt;/li&gt;
-&lt;li&gt;Visual Studio&lt;/li&gt;
-&lt;li&gt;Visual Studio Code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Price: $10 / month&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><a href="https://github.com/features/copilot">GitHub Copilot</a> is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</p>
-<p>GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.</p>
-<p>Focus on more satisfying work, be more producttive, speed up repetitve tasks.</p>
-<p>Supported IDEs</p>
-<ul>
-<li>Neovim</li>
-<li>JetBrains IDEs</li>
-<li>Visual Studio</li>
-<li>Visual Studio Code</li>
-</ul>
-<p>Price: $10 / month</p>
-<p>Links</p>
-<ul>
-<li><a href="https://docs.github.com/en/copilot">Documentation</a></li>
-</ul>
-]]></content:encoded>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.&lt;/p&gt;&#xA;&lt;p&gt;GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.&lt;/p&gt;&#xA;&lt;p&gt;Focus on more satisfying work, be more producttive, speed up repetitve tasks.&lt;/p&gt;&#xA;&lt;p&gt;Supported IDEs&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Neovim&lt;/li&gt;&#xA;&lt;li&gt;JetBrains IDEs&lt;/li&gt;&#xA;&lt;li&gt;Visual Studio&lt;/li&gt;&#xA;&lt;li&gt;Visual Studio Code&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Price: $10 / month&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

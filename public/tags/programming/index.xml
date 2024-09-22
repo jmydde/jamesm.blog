@@ -1,126 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on jamesm.blog</title>
     <link>https://jamesm.blog/tags/programming/</link>
     <description>Recent content in Programming on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Apr 2023 23:07:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 23:07:18 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevOps Books</title>
       <link>https://jamesm.blog/devops/books/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      
       <guid>https://jamesm.blog/devops/books/</guid>
-      <description>&lt;p&gt;A list of recommended DevOps books &amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;devops&#34;&gt;DevOps&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/&#34;&gt;The DevOps Handbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/&#34;&gt;The Phoenix Project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;
-&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/&#34;&gt;Kubernetes: Up and Running&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;The Kubernetes Book&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;iac&#34;&gt;IaC&lt;/h2&gt;
-&lt;h3 id=&#34;terraform&#34;&gt;Terraform&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/terraform-up-and/9781098116736/&#34;&gt;Terraform: Up and Running: Writing Infrastructure as Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/linux-in-a/9780596806088/&#34;&gt;Linux in a Nutshell&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;
-&lt;h3 id=&#34;bash&#34;&gt;Bash&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-the-bash/0596009658/&#34;&gt;Learning the bash Shell&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;cc&#34;&gt;C/C++&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_C_Programming_Language&#34;&gt;The C Programming Language&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;golang&#34;&gt;Golang&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/introducing-go/9781491941997/&#34;&gt;Introducing Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-go/9781492077206/&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;perl&#34;&gt;Perl&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/&#34;&gt;Learning Perl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/mastering-perl/9780596527242/&#34;&gt;Mastering Perl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/&#34;&gt;Programming Perl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://diveintopython3.net/&#34;&gt;Dive Into Python&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;sql&#34;&gt;SQL&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/&#34;&gt;Learning SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
-<h2 id="devops">DevOps</h2>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/">The DevOps Handbook</a></li>
-<li><a href="https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/">The Phoenix Project</a></li>
-</ul>
-<h2 id="containers">Containers</h2>
-<h3 id="docker">Docker</h3>
-<ul>
-<li><a href="https://nigelpoulton.com/books/">Docker Deep Dive</a></li>
-</ul>
-<h3 id="kubernetes">Kubernetes</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/">Kubernetes: Up and Running</a></li>
-<li><a href="https://nigelpoulton.com/books/">The Kubernetes Book</a></li>
-</ul>
-<h2 id="iac">IaC</h2>
-<h3 id="terraform">Terraform</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/terraform-up-and/9781098116736/">Terraform: Up and Running: Writing Infrastructure as Code</a></li>
-</ul>
-<h2 id="linux">Linux</h2>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/linux-in-a/9780596806088/">Linux in a Nutshell</a></li>
-</ul>
-<h2 id="programming">Programming</h2>
-<h3 id="bash">Bash</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/learning-the-bash/0596009658/">Learning the bash Shell</a></li>
-</ul>
-<h3 id="cc">C/C++</h3>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
-</ul>
-<h3 id="golang">Golang</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
-<li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
-</ul>
-<h3 id="perl">Perl</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/">Learning Perl</a></li>
-<li><a href="https://www.oreilly.com/library/view/mastering-perl/9780596527242/">Mastering Perl</a></li>
-<li><a href="https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/">Programming Perl</a></li>
-</ul>
-<h3 id="python">Python</h3>
-<ul>
-<li><a href="https://diveintopython3.net/">Dive Into Python</a></li>
-</ul>
-<h3 id="sql">SQL</h3>
-<ul>
-<li><a href="https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/">Learning SQL</a></li>
-</ul>
-]]></content:encoded>
+      <description>&lt;p&gt;A list of recommended DevOps books &amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;devops&#34;&gt;DevOps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/&#34;&gt;The DevOps Handbook&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/&#34;&gt;The Phoenix Project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;&#xA;&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/&#34;&gt;Kubernetes: Up and Running&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;The Kubernetes Book&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;iac&#34;&gt;IaC&lt;/h2&gt;&#xA;&lt;h3 id=&#34;terraform&#34;&gt;Terraform&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/terraform-up-and/9781098116736/&#34;&gt;Terraform: Up and Running: Writing Infrastructure as Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/linux-in-a/9780596806088/&#34;&gt;Linux in a Nutshell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;&#xA;&lt;h3 id=&#34;bash&#34;&gt;Bash&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-the-bash/0596009658/&#34;&gt;Learning the bash Shell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cc&#34;&gt;C/C++&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_C_Programming_Language&#34;&gt;The C Programming Language&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;golang&#34;&gt;Golang&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/introducing-go/9781491941997/&#34;&gt;Introducing Go&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-go/9781492077206/&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;perl&#34;&gt;Perl&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/&#34;&gt;Learning Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/mastering-perl/9780596527242/&#34;&gt;Mastering Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/&#34;&gt;Programming Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://diveintopython3.net/&#34;&gt;Dive Into Python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sql&#34;&gt;SQL&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/&#34;&gt;Learning SQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,129 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware Wallets on jamesm.blog</title>
     <link>https://jamesm.blog/tags/hardware-wallets/</link>
     <description>Recent content in Hardware Wallets on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jun 2023 13:30:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/hardware-wallets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 13:30:39 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/hardware-wallets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryptocurrency Hardware Wallets</title>
       <link>https://jamesm.blog/blockchain/hardware-wallets/</link>
       <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
-      
       <guid>https://jamesm.blog/blockchain/hardware-wallets/</guid>
-      <description>&lt;h2 id=&#34;hardware-wallets&#34;&gt;Hardware Wallets&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bc-vault.com/&#34;&gt;BC Vault&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ellipal.com/&#34;&gt;ELLIPAL&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ellipal.com/products/ellipal-titan&#34;&gt;Titan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/&#34;&gt;Ledger&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-nano-s-plus&#34;&gt;Ledger Nano S Plus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-nano-x&#34;&gt;Ledger Nano X&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-stax&#34;&gt;Ledger Stax&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ngrave.io/zero&#34;&gt;NGRAVE&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ngrave.io/zero&#34;&gt;ZERO&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/&#34;&gt;SafePal&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/cypher&#34;&gt;SafePal Cypher&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/s1&#34;&gt;SafePal S1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/s1pro&#34;&gt;SafePal S1 Pro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/x1&#34;&gt;SafePal X1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://trezor.io/&#34;&gt;Trezor&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-model-one&#34;&gt;Trezor Model One&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-model-t&#34;&gt;Trezor Model T&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-safe-3&#34;&gt;Trezor Safe 3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
-&lt;h3 id=&#34;2023-06-29-top-5-best-hardware-wallets-which-are-the-safest&#34;&gt;2023-06-29 Top 5 BEST Hardware Wallets: Which Are The SAFEST?!&lt;/h3&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4q8nK4XxmkA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2022-01-24-how-i-hacked-a-hardware-crypto-wallet-and-recovered-2-million&#34;&gt;2022-01-24 How I hacked a hardware crypto wallet and recovered $2 million&lt;/h3&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/dT9y-KQbqi4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
-      <content:encoded><![CDATA[<h2 id="hardware-wallets">Hardware Wallets</h2>
-<ul>
-<li><a href="https://bc-vault.com/">BC Vault</a></li>
-<li><a href="https://www.ellipal.com/">ELLIPAL</a>
-<ul>
-<li><a href="https://www.ellipal.com/products/ellipal-titan">Titan</a></li>
-</ul>
-</li>
-<li><a href="https://shop.ledger.com/">Ledger</a>
-<ul>
-<li><a href="https://shop.ledger.com/products/ledger-nano-s-plus">Ledger Nano S Plus</a></li>
-<li><a href="https://shop.ledger.com/products/ledger-nano-x">Ledger Nano X</a></li>
-<li><a href="https://shop.ledger.com/products/ledger-stax">Ledger Stax</a></li>
-</ul>
-</li>
-<li><a href="https://ngrave.io/zero">NGRAVE</a>
-<ul>
-<li><a href="https://ngrave.io/zero">ZERO</a></li>
-</ul>
-</li>
-<li><a href="https://www.safepal.com/">SafePal</a>
-<ul>
-<li><a href="https://www.safepal.com/en/store/cypher">SafePal Cypher</a></li>
-<li><a href="https://www.safepal.com/en/store/s1">SafePal S1</a></li>
-<li><a href="https://www.safepal.com/en/store/s1pro">SafePal S1 Pro</a></li>
-<li><a href="https://www.safepal.com/en/store/x1">SafePal X1</a></li>
-</ul>
-</li>
-<li><a href="https://trezor.io/">Trezor</a>
-<ul>
-<li><a href="https://trezor.io/trezor-model-one">Trezor Model One</a></li>
-<li><a href="https://trezor.io/trezor-model-t">Trezor Model T</a></li>
-<li><a href="https://trezor.io/trezor-safe-3">Trezor Safe 3</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="youtube">YouTube</h2>
-<h3 id="2023-06-29-top-5-best-hardware-wallets-which-are-the-safest">2023-06-29 Top 5 BEST Hardware Wallets: Which Are The SAFEST?!</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/4q8nK4XxmkA?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2022-01-24-how-i-hacked-a-hardware-crypto-wallet-and-recovered-2-million">2022-01-24 How I hacked a hardware crypto wallet and recovered $2 million</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/dT9y-KQbqi4?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-]]></content:encoded>
+      <description>&lt;h2 id=&#34;hardware-wallets&#34;&gt;Hardware Wallets&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bc-vault.com/&#34;&gt;BC Vault&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ellipal.com/&#34;&gt;ELLIPAL&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ellipal.com/products/ellipal-titan&#34;&gt;Titan&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/&#34;&gt;Ledger&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-nano-s-plus&#34;&gt;Ledger Nano S Plus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-nano-x&#34;&gt;Ledger Nano X&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-stax&#34;&gt;Ledger Stax&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ngrave.io/zero&#34;&gt;NGRAVE&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ngrave.io/zero&#34;&gt;ZERO&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/&#34;&gt;SafePal&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/cypher&#34;&gt;SafePal Cypher&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/s1&#34;&gt;SafePal S1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/s1pro&#34;&gt;SafePal S1 Pro&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/x1&#34;&gt;SafePal X1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://trezor.io/&#34;&gt;Trezor&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-model-one&#34;&gt;Trezor Model One&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-model-t&#34;&gt;Trezor Model T&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-safe-3&#34;&gt;Trezor Safe 3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2023-06-29-top-5-best-hardware-wallets-which-are-the-safest&#34;&gt;2023-06-29 Top 5 BEST Hardware Wallets: Which Are The SAFEST?!&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4q8nK4XxmkA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;2022-01-24-how-i-hacked-a-hardware-crypto-wallet-and-recovered-2-million&#34;&gt;2022-01-24 How I hacked a hardware crypto wallet and recovered $2 million&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/dT9y-KQbqi4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
-    
   </channel>
 </rss>

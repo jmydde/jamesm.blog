@@ -1,103 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on jamesm.blog</title>
     <link>https://jamesm.blog/tags/mac/</link>
     <description>Recent content in Mac on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Feb 2024 09:42:00 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Feb 2024 09:42:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac Applications &amp; Utilities</title>
       <link>https://jamesm.blog/devops/mac-apps-utils/</link>
       <pubDate>Sun, 04 Feb 2024 09:42:00 +0100</pubDate>
-      
       <guid>https://jamesm.blog/devops/mac-apps-utils/</guid>
-      <description>&lt;h2 id=&#34;mac-applications&#34;&gt;Mac Applications&lt;/h2&gt;
-&lt;p&gt;A list of recommended Mac applications &amp;hellip;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac&#34;&gt;Microsoft 365&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/excel&#34;&gt;Excel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/onedrive/id823766827&#34;&gt;OneDrive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/onenote/digital-note-taking-app&#34;&gt;OneNote&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook&#34;&gt;Outlook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/powerpoint&#34;&gt;Powerpoint&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-teams/group-chat-software&#34;&gt;Teams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/word&#34;&gt;Word&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mindnode.com/&#34;&gt;MindNode&lt;/a&gt; - capture, organize, style &amp;amp; share your thoughts&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; - single space where you can think, write &amp;amp; plan&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; - private and flexible writing app that adapts to the way you think&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.parallels.com/&#34;&gt;Parallels&lt;/a&gt; - add Windows, Linux, or another operating system to your Mac&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/pycharm/&#34;&gt;PyCharm&lt;/a&gt; - Python IDE&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://slack.com/&#34;&gt;Slack&lt;/a&gt; - messaging app&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;mac-utilities&#34;&gt;Mac Utilities&lt;/h2&gt;
-&lt;p&gt;A list of recommended Mac utilities &amp;hellip;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 id="mac-applications">Mac Applications</h2>
-<p>A list of recommended Mac applications &hellip;</p>
-<ul>
-<li><a href="https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac">Microsoft 365</a>
-<ul>
-<li><a href="https://www.microsoft.com/en-ie/microsoft-365/excel">Excel</a></li>
-<li><a href="https://apps.apple.com/us/app/onedrive/id823766827">OneDrive</a></li>
-<li><a href="https://www.microsoft.com/en-ie/microsoft-365/onenote/digital-note-taking-app">OneNote</a></li>
-<li><a href="https://www.microsoft.com/en-ie/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook">Outlook</a></li>
-<li><a href="https://www.microsoft.com/en-ie/microsoft-365/powerpoint">Powerpoint</a></li>
-<li><a href="https://www.microsoft.com/en-ie/microsoft-teams/group-chat-software">Teams</a></li>
-<li><a href="https://www.microsoft.com/en-ie/microsoft-365/word">Word</a></li>
-</ul>
-</li>
-<li><a href="https://www.mindnode.com/">MindNode</a> - capture, organize, style &amp; share your thoughts</li>
-<li><a href="https://www.notion.so/">Notion</a> - single space where you can think, write &amp; plan</li>
-<li><a href="https://obsidian.md/">Obsidian</a> - private and flexible writing app that adapts to the way you think</li>
-<li><a href="https://www.parallels.com/">Parallels</a> - add Windows, Linux, or another operating system to your Mac</li>
-<li><a href="https://www.jetbrains.com/pycharm/">PyCharm</a> - Python IDE</li>
-<li><a href="https://slack.com/">Slack</a> - messaging app</li>
-</ul>
-<h2 id="mac-utilities">Mac Utilities</h2>
-<p>A list of recommended Mac utilities &hellip;</p>
-<ul>
-<li><a href="https://www.alfredapp.com/">Alfred</a> - award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion &amp; more</li>
-<li><a href="https://apps.apple.com/us/app/amphetamine/id937984704">Amphetamine</a> - powerful keep-awake utility</li>
-<li><a href="https://cleanmymac.com/">CleanMyMac</a> - cleanup utility for macOS</li>
-<li><a href="https://cleanshot.com/">CleanShot</a> - capture your Mac’s screen like a pro</li>
-<li><a href="https://cloudmounter.net/">CloudMounter</a> - mount your Dropbox, Google Drive, Microsoft OneDrive, Amazon S3, etc.</li>
-<li><a href="https://apps.apple.com/us/app/direqual/id1435575700">DirEqual</a> - compare folders</li>
-<li><a href="https://diskcatalogmaker.com/">DiskCatalogMaker</a> - catalog all your discs</li>
-<li><a href="https://apps.apple.com/us/app/disk-space-analyzer-pro/id488920185">Disk Space Analyzer Pro</a> - analyze &amp; cleanup disk space</li>
-<li><a href="https://www.easydatatransform.com/">Easy Data Transform</a> - merge, split, clean, de-duplicate &amp; much more, without coding</li>
-<li><a href="https://filezilla-project.org/">FileZilla</a> - FTP, FTPS &amp; SFTP client</li>
-<li><a href="https://www.gitkraken.com/">GitKraken</a> - powerful suite of Git tools</li>
-<li><a href="https://apps.apple.com/au/app/google-drive/id507874739">Google Drive</a> - cloud storage</li>
-<li><a href="https://iterm2.com/">iTerm2</a> - terminal emulator</li>
-<li><a href="https://kaleidoscope.app/">Kaleidoscope</a> - spot the differences in text &amp; image files, or even folders full of files</li>
-<li><a href="https://www.lastpass.com/">LastPass</a> - password manager</li>
-<li><a href="https://www.loom.com/">Loom</a> - screen recorder</li>
-<li><a href="https://nordvpn.com/">NordPVN</a> - VPN</li>
-<li><a href="https://apps.apple.com/tt/app/omniplayer-pro-media-player/id1522844237">OmniPlayer Pro</a> - play or cast video audio media</li>
-<li><a href="https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113">Otter</a> - transcribe voice to text</li>
-<li><a href="https://www.cocoatech.io/">Path Finder</a> - all the tools you need to take control of your files</li>
-<li><a href="https://sindresorhus.com/pure-paste">Pure Paste</a> - paste as plain text by default</li>
-<li><a href="https://textsoap.com/mac/">TextSoap</a> - powerful text transformations with just a click, stop doing this stuff by hand</li>
-<li><a href="https://www.gtrigonakis.com/textworkflow">Text Workflow</a> - combine transformation actions &amp; create powerful automations for your text</li>
-<li><a href="https://theunarchiver.com/">The Unarchiver</a> - open any type of archive file</li>
-<li><a href="https://visualdiffer.com/">VisualDiffer</a> - compare folders &amp; files</li>
-<li><a href="https://www.videolan.org/vlc/download-macosx.html">VLC</a> - free &amp; open source cross-platform multimedia player &amp; framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols</li>
-</ul>
-<h1 id="iphone-apps">iPhone Apps</h1>
-<ul>
-<li><a href="https://www.openplanetsoftware.com/just-press-record/">Just Press Record</a> - recording, transcription and iCloud syncing on all your devices</li>
-<li><a href="https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113">Otter</a> - transcribe voice to text</li>
-</ul>
-<h2 id="related-pages">Related Pages</h2>
-<ul>
-<li><a href="https://jamesm.blog/devops/mac-brew-packages/">Mac Homebrew Packages</a></li>
-</ul>
-]]></content:encoded>
+      <description>&lt;h2 id=&#34;mac-applications&#34;&gt;Mac Applications&lt;/h2&gt;&#xA;&lt;p&gt;A list of recommended Mac applications &amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac&#34;&gt;Microsoft 365&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/excel&#34;&gt;Excel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/onedrive/id823766827&#34;&gt;OneDrive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/onenote/digital-note-taking-app&#34;&gt;OneNote&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook&#34;&gt;Outlook&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/powerpoint&#34;&gt;Powerpoint&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-teams/group-chat-software&#34;&gt;Teams&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/word&#34;&gt;Word&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.mindnode.com/&#34;&gt;MindNode&lt;/a&gt; - capture, organize, style &amp;amp; share your thoughts&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; - single space where you can think, write &amp;amp; plan&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; - private and flexible writing app that adapts to the way you think&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.parallels.com/&#34;&gt;Parallels&lt;/a&gt; - add Windows, Linux, or another operating system to your Mac&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/pycharm/&#34;&gt;PyCharm&lt;/a&gt; - Python IDE&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://slack.com/&#34;&gt;Slack&lt;/a&gt; - messaging app&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;mac-utilities&#34;&gt;Mac Utilities&lt;/h2&gt;&#xA;&lt;p&gt;A list of recommended Mac utilities &amp;hellip;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

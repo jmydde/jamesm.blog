@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unitree G1 on jamesm.blog</title>
     <link>https://jamesm.blog/tags/unitree-g1/</link>
     <description>Recent content in Unitree G1 on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 May 2024 20:09:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/unitree-g1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 20:09:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/unitree-g1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unitree G1 - AI Humanoid Robot</title>
       <link>https://jamesm.blog/ai/unitree-g1/</link>
       <pubDate>Tue, 21 May 2024 20:09:25 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/unitree-g1/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;&lt;/p&gt;
-&lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k !&lt;/p&gt;
-&lt;p&gt;With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&amp;rsquo;s development highlights Unitree&amp;rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/Unitree-G1.png" type="" alt="alt"  /></p>
-<p>The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k !</p>
-<p>With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&rsquo;s development highlights Unitree&rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.</p>
-<h3 id="new-ai-humanoid-robot-shakes-up-the-industry---unitree-g1---beats-tesla-bot--boston-dynamics">New AI Humanoid Robot Shakes Up the Industry - Unitree G1 - (Beats Tesla Bot &amp; Boston Dynamics)</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/AW952y5INBQ?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-]]></content:encoded>
+      <description>&lt;p&gt;&lt;img alt=&#34;alt&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k !&lt;/p&gt;&#xA;&lt;p&gt;With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&amp;rsquo;s development highlights Unitree&amp;rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

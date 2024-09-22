@@ -1,163 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Montage on jamesm.blog</title>
     <link>https://jamesm.blog/tags/montage/</link>
     <description>Recent content in Montage on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Jun 2024 08:29:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/montage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 08:29:21 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/montage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yamaha Montage M</title>
       <link>https://jamesm.blog/music-production/yamaha-montage/</link>
       <pubDate>Sun, 16 Jun 2024 08:29:21 +0100</pubDate>
-      
       <guid>https://jamesm.blog/music-production/yamaha-montage/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Yamaha-Montage-M.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&#34;https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html&#34;&gt;Yamaha Montage M&lt;/a&gt; was released in the UK on 10th October 2023.&lt;/p&gt;
-&lt;p&gt;It is the next-generation &lt;strong&gt;flagship synthesizer&lt;/strong&gt; from Yamaha, building on the success of the original Montage. It boasts several improvements and new features designed to enhance the sound, control, and workflow for professional keyboardists.&lt;/p&gt;
-&lt;p&gt;Here is a summary of the key aspects of the Yamaha Montage M&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Three Powerful Engines&lt;/strong&gt; -  Like its predecessor, Montage M features three sound engines: AN-X, AWM2, and FM-X. These engines offer a vast sonic palette, allowing you to create warm vintage analog tones, cutting-edge FM sounds, and ultra-realistic acoustic instruments.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Increased Polyphony&lt;/strong&gt; - A significant upgrade is the 400-note total polyphony, a jump from the original Montage&amp;rsquo;s 256 notes. This allows for more complex and layered sounds without worrying about dropped notes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;New AN-X Virtual Analog Engine&lt;/strong&gt; - This engine offers a fresh take on virtual analog synthesis, providing more detailed control over sound shaping.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Improved User Interface&lt;/strong&gt; - The Montage M features a redesigned user interface with new easy-edit pages and shortcuts, making sound creation and editing more intuitive and efficient.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Additional Knobs and Encoders&lt;/strong&gt; - More physical controls give you more immediate access to tweak parameters and add dynamics to your performance.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;VCM Rotary Speaker Effect&lt;/strong&gt; - This new effect accurately emulates the classic sound of a Leslie speaker cabinet, adding warmth and movement to organ and electric piano sounds.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Powerful USB Audio Interface&lt;/strong&gt; - The Montage M functions as a 6-in/32-out USB audio interface, allowing you to record audio directly to your DAW (Digital Audio Workstation) for seamless integration into your studio workflow.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/Yamaha-Montage-M.jpg" type="" alt="alt"  /></p>
-<h2 id="about">About</h2>
-<p>The <a href="https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html">Yamaha Montage M</a> was released in the UK on 10th October 2023.</p>
-<p>It is the next-generation <strong>flagship synthesizer</strong> from Yamaha, building on the success of the original Montage. It boasts several improvements and new features designed to enhance the sound, control, and workflow for professional keyboardists.</p>
-<p>Here is a summary of the key aspects of the Yamaha Montage M</p>
-<ul>
-<li><strong>Three Powerful Engines</strong> -  Like its predecessor, Montage M features three sound engines: AN-X, AWM2, and FM-X. These engines offer a vast sonic palette, allowing you to create warm vintage analog tones, cutting-edge FM sounds, and ultra-realistic acoustic instruments.</li>
-<li><strong>Increased Polyphony</strong> - A significant upgrade is the 400-note total polyphony, a jump from the original Montage&rsquo;s 256 notes. This allows for more complex and layered sounds without worrying about dropped notes.</li>
-<li><strong>New AN-X Virtual Analog Engine</strong> - This engine offers a fresh take on virtual analog synthesis, providing more detailed control over sound shaping.</li>
-<li><strong>Improved User Interface</strong> - The Montage M features a redesigned user interface with new easy-edit pages and shortcuts, making sound creation and editing more intuitive and efficient.</li>
-<li><strong>Additional Knobs and Encoders</strong> - More physical controls give you more immediate access to tweak parameters and add dynamics to your performance.</li>
-<li><strong>VCM Rotary Speaker Effect</strong> - This new effect accurately emulates the classic sound of a Leslie speaker cabinet, adding warmth and movement to organ and electric piano sounds.</li>
-<li><strong>Powerful USB Audio Interface</strong> - The Montage M functions as a 6-in/32-out USB audio interface, allowing you to record audio directly to your DAW (Digital Audio Workstation) for seamless integration into your studio workflow.</li>
-</ul>
-<p>Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities.</p>
-<h2 id="models">Models</h2>
-<p>The Montage M comes in three versions, each with a different keyboard action</p>
-<ul>
-<li><strong>M6</strong> - 61-key FSX synth action (ideal for portability and playing melodies).</li>
-<li><strong>M7</strong> - 76-key FSX synth action (a good balance between portability and playability for splits and layers).</li>
-<li><strong>M8X</strong> - 88-key weighted hammer action with polyphonic aftertouch (perfect for pianists who need a realistic piano feel and expressive control).</li>
-</ul>
-<h2 id="prices">Prices</h2>
-<p>(as of June 2024)</p>
-<ul>
-<li>Montage M6 (61-key): £3,219 (<a href="https://www.andertons.co.uk/yamaha-montage-m6-synthesizer/">Andertons</a>)</li>
-<li>Montage M7 (76-key): £3,629 (<a href="https://www.andertons.co.uk/yamaha-montage-m7-synthesizer/">Andertons</a>)</li>
-<li>Montage M8X (88-key): £4,049 (<a href="https://www.andertons.co.uk/yamaha-montage-m8x-synthesizer/">Andertons</a>)</li>
-</ul>
-<h2 id="specifications">Specifications</h2>
-<ul>
-<li>Tone Generators: AWM2</li>
-<li>2 X 128 Voices of Polyphony (128 Voices Each for Preset and User Waveforms) Max. 128 Elements Per Part</li>
-<li>10 GB Preset Waveforms (When Converted In 16 Bit Linear)</li>
-<li>7 GB Flash Memory for User Waveforms</li>
-<li>FM-X - 128 Voices of Polyphony, 8 Operators, 88 Algorithms</li>
-<li>AN-X - 16 Voices of Polyphony, 3 Oscillators, 1 Noise Generator</li>
-<li>3,369 Preset Performances</li>
-<li>128 Preset Live Sets, 2,048 User Live Sets</li>
-<li>Motion Sequencer for Real-Time Control of Parameters</li>
-<li>16 Part Multitimbrality Plus Audio Input Parts (A/D In, USB)</li>
-<li>18 Filter Types</li>
-<li>5-Band Master-EQ, 2 Part-EQs (3- And 2-Band)</li>
-<li>Sequencer 16 Tracks, 128 Patterns, 128 Songs</li>
-<li>Arpeggiator: Arpeggios for Up to Eight Parts In Parallel</li>
-<li>10,922 Preset Arpeggios (3,500 Rhythm Patterns), 256 User Arpeggios</li>
-<li>Controllers: Pitch Bend and Modulation Wheel</li>
-<li>Polyphonic aftertouch</li>
-<li>Ribbon Controller - 8 Control Sliders, 8 Assignable Knobs, Super Knob</li>
-<li>2 Assignable Switches</li>
-<li>Portamento Switch and Portamento Time Knob, 6 Display Knobs</li>
-<li>Displays Main: 7” TFT Colour Wide VGA LCD Touch Screen</li>
-<li>Sub: 512 X 64 Pixel LCD</li>
-<li>Connectors: OUTPUT [L MONO]/[R], ASSIGNABLE OUTPUT [L]/[R]</li>
-<li>A/D INPUT [L MONO]/[R] (All 6.3 Mm TRS Jacks)</li>
-<li>Phones: Stereo (6.3mm Phone Jack)</li>
-<li>Midi In/Out/Thru</li>
-<li>Foot Controller 1 / 2</li>
-<li>Foot Switch Sustain / Assignable</li>
-<li>2 X Usb to Device, USB To Host</li>
-<li>6 Channels Input, 32 Channels Output At 44.1 Khz</li>
-<li>6 Channels Input, 8 Channels Output At 192 Khz</li>
-<li>Dimensions: (W X D X H) / Weight:</li>
-<li>M8X: 1,446 Mm × 460 Mm × 170 Mm / 28.1 Kg</li>
-<li>Included Accessories: Owner’s Manual, AC Power Cord, Cubase AI Download</li>
-<li>Compatible Accessories: Foot Switches and Controllers (FC3A, FC4A, FC5, FC7)</li>
-</ul>
-<h2 id="alternatives">Alternatives</h2>
-<p>Here are a few alternative workstation synths to consider</p>
-<ul>
-<li><a href="https://www.korg.com/uk/products/synthesizers/nautilus/">Korg Nautilus</a> (£1,499 - £2,055, as of June 2024)</li>
-<li><a href="https://www.roland.com/global/promos/fantom_ex_series/">Roland Fantom EX</a> (£3,599 - £4,177, as of June 2024)</li>
-</ul>
-<h2 id="youtube-videos">YouTube Videos</h2>
-<h3 id="2024-01-26-the-glorious-yamaha-montage-m8x">[2024-01-26] The glorious Yamaha Montage M8X</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/C6BAIrv_gfo?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2024-01-06-yamaha-montage-m8x-acoustic-pianos-demo">[2024-01-06] Yamaha Montage M8X Acoustic Pianos Demo</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/XCS3c6_f1Ow?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2023-10-19-yamaha-montage-m8x-synthesizerworkstation-sound-test">[2023-10-19] Yamaha Montage M8X Synthesizer/Workstation sound test</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/6WfJOqS1HPw?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2023-10-11-mike-patrick-is-blown-away-by-the-new-yamaha-montage-m8x">[2023-10-11] Mike Patrick is Blown Away by the NEW Yamaha Montage M8X!</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/NrISTHXtlfk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2023-10-11-yamaha-montage-m8x---their-flagship-synth-is-more-powerful-than-ever">[2023-10-11] Yamaha Montage M8x - Their Flagship Synth Is More Powerful Than Ever!</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/z-4M8DegHRQ?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2023-10-10-yamaha--montage-m-sound-demo">[2023-10-10] Yamaha | Montage M Sound Demo</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/fN59j2cqwoI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-]]></content:encoded>
+      <description>&lt;p&gt;&lt;img alt=&#34;alt&#34; src=&#34;https://jamesm.blog/images/Yamaha-Montage-M.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html&#34;&gt;Yamaha Montage M&lt;/a&gt; was released in the UK on 10th October 2023.&lt;/p&gt;&#xA;&lt;p&gt;It is the next-generation &lt;strong&gt;flagship synthesizer&lt;/strong&gt; from Yamaha, building on the success of the original Montage. It boasts several improvements and new features designed to enhance the sound, control, and workflow for professional keyboardists.&lt;/p&gt;&#xA;&lt;p&gt;Here is a summary of the key aspects of the Yamaha Montage M&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Three Powerful Engines&lt;/strong&gt; -  Like its predecessor, Montage M features three sound engines: AN-X, AWM2, and FM-X. These engines offer a vast sonic palette, allowing you to create warm vintage analog tones, cutting-edge FM sounds, and ultra-realistic acoustic instruments.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Increased Polyphony&lt;/strong&gt; - A significant upgrade is the 400-note total polyphony, a jump from the original Montage&amp;rsquo;s 256 notes. This allows for more complex and layered sounds without worrying about dropped notes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;New AN-X Virtual Analog Engine&lt;/strong&gt; - This engine offers a fresh take on virtual analog synthesis, providing more detailed control over sound shaping.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Improved User Interface&lt;/strong&gt; - The Montage M features a redesigned user interface with new easy-edit pages and shortcuts, making sound creation and editing more intuitive and efficient.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Additional Knobs and Encoders&lt;/strong&gt; - More physical controls give you more immediate access to tweak parameters and add dynamics to your performance.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;VCM Rotary Speaker Effect&lt;/strong&gt; - This new effect accurately emulates the classic sound of a Leslie speaker cabinet, adding warmth and movement to organ and electric piano sounds.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Powerful USB Audio Interface&lt;/strong&gt; - The Montage M functions as a 6-in/32-out USB audio interface, allowing you to record audio directly to your DAW (Digital Audio Workstation) for seamless integration into your studio workflow.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
