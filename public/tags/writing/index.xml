@@ -1,19 +1,420 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Writing on jamesm.blog</title>
     <link>https://jamesm.blog/tags/writing/</link>
     <description>Recent content in Writing on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Jun 2023 13:23:14 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 22:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of AI Tools &amp; Companies</title>
       <link>https://jamesm.blog/ai/tools/</link>
       <pubDate>Mon, 29 May 2023 22:17:14 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;&#xA;&lt;h3 id=&#34;art--graphic-design&#34;&gt;Art &amp;amp; Graphic Design&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://autodraw.com&#34;&gt;AutoDraw&lt;/a&gt; - fast drawing for everyone&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/ie/sensei/generative-ai/firefly.html/&#34;&gt;Adobe Firefly&lt;/a&gt; - generative AI tool with Generative Fill, part of Adobe Photoshop&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cleanup.pictures/&#34;&gt;Cleanup.pictures&lt;/a&gt; - remove unwanted object, defect, people or text from your pictures&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://openai.com/product/dall-e-2/&#34;&gt;DALL·E 2&lt;/a&gt; - creates realistic images &amp;amp; art from a description in natural language&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.myheritage.com/deep-nostalgia/&#34;&gt;Deep Nostalgia&lt;/a&gt; - animate your family photos&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://instorier.com/&#34;&gt;Instorier&lt;/a&gt; - picture to 3D tool&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tryleap.ai/&#34;&gt;Leap&lt;/a&gt; - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://leonardo.ai/&#34;&gt;Leonardo&lt;/a&gt; - create stunning game assets with AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://designer.microsoft.com/&#34;&gt;Microsoft Designer&lt;/a&gt; - stunning designs, made lightning fast with AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://midjourney.com&#34;&gt;Midjourney&lt;/a&gt; - generates images from natural language descriptions, called &amp;ldquo;prompts&amp;rdquo; (similar to OpenAI&amp;rsquo;s DALL-E &amp;amp; Stable Diffusion)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pixteller.com/&#34;&gt;PixTeller&lt;/a&gt; online image editor &amp;amp; animation maker to create posters, animated gifs, logos, banners, invitations, flyers, animated logos, video thumbnails &amp;amp; more&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://playgroundai.com/&#34;&gt;Playground&lt;/a&gt; - create any image from your imagination&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://stockimg.ai/&#34;&gt;Stockimg AI&lt;/a&gt; - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp;amp; art&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://styledrop.github.io/&#34;&gt;StyleDrop&lt;/a&gt; - text-to-image generation in any style&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;chatbot&#34;&gt;ChatBot&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://buddygpt.ai/&#34;&gt;BuddyGPT&lt;/a&gt; - the power of ChatGPT, on WhatsApp &amp;amp; Telegram&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://chatabc.ai/&#34;&gt;ChatABC&lt;/a&gt; - features such as search web, team collaboration, prompt library &amp;amp; service never-goes-down&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/chatgpt/&#34;&gt;ChatGPT&lt;/a&gt; - an artificial intelligence chatbot developed by OpenAI (&lt;strong&gt;G&lt;/strong&gt;enerative &lt;strong&gt;P&lt;/strong&gt;re-trained &lt;strong&gt;T&lt;/strong&gt;ransformer)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://cohere.com/&#34;&gt;Cohere&lt;/a&gt; - build incredible products with world-class language AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bard.google.com/&#34;&gt;Google Bard&lt;/a&gt; - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://kaizan.ai/&#34;&gt;Kaizan&lt;/a&gt; - uses conversation intelligence to highlight client health and what will increase revenue&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;Perplexity&lt;/a&gt; - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://platform.openai.com/playground/&#34;&gt;Playground&lt;/a&gt; - explore the capabilities of various AI models developed by OpenAI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://quickchat.ai/&#34;&gt;Quickchat&lt;/a&gt; - technology to build AI assistants that talk like a human&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://typewise.app/&#34;&gt;Typewise&lt;/a&gt; - AI writing solution for customer service and sales teams&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://yatterplus.in/&#34;&gt;Yatter+&lt;/a&gt; - personal AI-powered assistant on WhatsApp&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;chrome-extensions&#34;&gt;Chrome Extensions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://alicent.ai/&#34;&gt;alicent&lt;/a&gt; - browser extension for ChatGPT&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.compose.ai/&#34;&gt;Compose&lt;/a&gt; - Chrome extension that cuts down your writing time with AI-powered autocompletion &amp;amp; text generation&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://finalscout.com/&#34;&gt;FinalScout&lt;/a&gt; - ChatGPT-powered email finding &amp;amp; outreach at scale&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://getvoila.ai/&#34;&gt;Voilà&lt;/a&gt; - personal AI assistant for supercharged productivity&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://poised.com/&#34;&gt;Poised&lt;/a&gt; - AI-powered communication coach that helps you speak with confidence and clarity&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://wiseone.io/&#34;&gt;Wiseone&lt;/a&gt; - helps you master any topic you are reading online by bringing relevant and reliable information&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;customer-support&#34;&gt;Customer Support&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://forethought.ai/&#34;&gt;Forethought&lt;/a&gt; - generative AI for customer support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://flair.ai/&#34;&gt;Flair&lt;/a&gt; - AI design tool for branded content&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.usegalileo.ai/&#34;&gt;Galileo AI&lt;/a&gt; - creates delightful, editable UI designs from a simple text description&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;co-pilot&#34;&gt;Co-Pilot&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://askcodi.com/&#34;&gt;AskCodi&lt;/a&gt; - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/features/copilot/&#34;&gt;GitHub Copilot&lt;/a&gt; - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/avsthiago/kopylot/&#34;&gt;KoPylot&lt;/a&gt; - open-source AI-powered Kubernetes assistant to help developers &amp;amp; DevOps engineers easily manage &amp;amp; monitor their Kubernetes clusters&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://monica.im/&#34;&gt;Monica&lt;/a&gt; - Chrome extension powered by ChatGPT&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://replit.com/&#34;&gt;Replit&lt;/a&gt; - build software collaboratively with the power of AI, on any device, without spending a second on setup&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://usechatgpt.ai/&#34;&gt;UseChatGPT&lt;/a&gt; - use ChatGPT, Bard, Bing Chat &amp;amp; Claude on any website without copy &amp;amp; pasting&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wiseone.io/&#34;&gt;Wiseone&lt;/a&gt; - AI-powered browser extension that offers a new way of reading &amp;amp; exploring information&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;gaming&#34;&gt;Gaming&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nAEQdF3JAJo/&#34;&gt;Nvidia Game AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://create.unity.com/ai-beta/&#34;&gt;Unity&lt;/a&gt; - AI ecosystem that will put AI-powered game-development tools in the hands of millions of creators&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://voyager.minedojo.org/&#34;&gt;Voyager&lt;/a&gt; - open-ended embodied agent with large language models (LLMs)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;marketing&#34;&gt;Marketing&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://automizy.com/&#34;&gt;Automizy&lt;/a&gt; - email marketing software designed to increase your email open rates&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;music&#34;&gt;Music&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audoir.com/&#34;&gt;Audoir&lt;/a&gt; - AI lyrics &amp;amp; poetry generator&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.beatoven.ai/&#34;&gt;Beatoven&lt;/a&gt; - create customisable royalty free music that elevates your story&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://boomy.com/&#34;&gt;Boomy&lt;/a&gt; - create original songs in seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.brain.fm/&#34;&gt;Brain.fm&lt;/a&gt; - get more done with less effort &amp;amp; unlock your best self on demand&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.infinitealbum.io/&#34;&gt;Infinite Album&lt;/a&gt; - generative AI music for gamers&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.lalal.ai/&#34;&gt;LALAL.AI&lt;/a&gt; - extract vocal, accompaniment &amp;amp; various instruments from any audio / video&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://muzeek.com/&#34;&gt;Muzeek&lt;/a&gt; - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://soundraw.io/&#34;&gt;Soundraw&lt;/a&gt; - royalty-free AI generated music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wavtool.com/&#34;&gt;WavTool&lt;/a&gt; - make high-quality music with an AI assistant in the browser, for free&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;project-management&#34;&gt;Project Management&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.liquidplanner.com/&#34;&gt;LiquidPlanner&lt;/a&gt; - project management solution that dynamically adapts to change and manages uncertainty to help teams plan, predict, and perform with confidence&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;prompt-engineering&#34;&gt;Prompt Engineering&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://borriss.gumroad.com/&#34;&gt;Borriss&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://borriss.gumroad.com/l/APW/&#34;&gt;The Advanced Prompt Writer Tool&lt;/a&gt; - write complex prompts in seconds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://scispace.com/&#34;&gt;SciSpace&lt;/a&gt; - do hours worth of reading and understanding in minutes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;text-to-speech--voice&#34;&gt;Text to Speech &amp;amp; Voice&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cleanvoice.ai/&#34;&gt;Cleanvoice&lt;/a&gt; - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lovo.ai/&#34;&gt;LOVO&lt;/a&gt; - AI voice generator and Text to Speech&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://murf.ai/&#34;&gt;Murf&lt;/a&gt; - AI voice generator and Text to Speech&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; - mobile and desktop app that reads text aloud using a computer generated Text to Speech voice&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://voicemaker.in/&#34;&gt;Voicemaker&lt;/a&gt; - online free Text to Speech converter&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.descript.com/&#34;&gt;Descript&lt;/a&gt; - write, record, transcribe, edit, collaborate, and share your videos and podcasts&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://elai.io/&#34;&gt;Elai&lt;/a&gt; - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.steve.ai/&#34;&gt;Steve AI&lt;/a&gt; - make professional videos in minutes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;website-builders&#34;&gt;Website Builders&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://10web.io/&#34;&gt;10Web&lt;/a&gt; - AI-powered WordPress platform&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://durable.co/&#34;&gt;Durable&lt;/a&gt; - AI website builder that generates an entire website with images and copy in seconds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;writing&#34;&gt;Writing&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiseo.ai/&#34;&gt;AISEO&lt;/a&gt; - AI writing assistant that delivers undetectable, human-like content in just a few clicks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.beautiful.ai/&#34;&gt;Beautiful&lt;/a&gt; - jumpstart your presentations&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bertha.ai/&#34;&gt;Bertha&lt;/a&gt; - create engaging content without the hassle of creating it&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.decktopus.com/&#34;&gt;Decktopus&lt;/a&gt; - AI-powered presentation generator&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fireflies.ai/&#34;&gt;Fireflies&lt;/a&gt; - automate your meeting notes: record, transcribe, search and analyze voice conversations&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gamma.app/&#34;&gt;Gamma&lt;/a&gt; - start writing beautiful &amp;amp; engaging content with none of the formatting and design work&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.jasper.ai/&#34;&gt;Jasper&lt;/a&gt; - AI writer and AI art generator&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.kickresume.com/en/&#34;&gt;Kickresume&lt;/a&gt; - create a beautiful resume in minutes using AI &amp;amp; customizable templates&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.notion.so/product/ai/&#34;&gt;Notion&lt;/a&gt; - organizational tools including task management, project tracking, to-do lists, bookmarking, and more&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ocoya.com/&#34;&gt;Ocoya&lt;/a&gt; - create and schedule social media, content marketing &amp;amp; copywriting quicker using AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://paperpal.com/&#34;&gt;Paperpal&lt;/a&gt; - real-time, subject-specific language suggestions that help you write better, faster&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://postwise.ai/&#34;&gt;Postwise&lt;/a&gt; - craft engaging posts with AI, schedule effortlessly and watch your followers grow&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://quillbot.com/&#34;&gt;Quillbot&lt;/a&gt; - AI-powered paraphrasing tool to enhance your writing&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://saga.so/ai/&#34;&gt;Saga AI&lt;/a&gt; - write faster, and do better work directly in Saga with the help of a digital AI assistant&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://getscribe.how/chrome/&#34;&gt;Scribe&lt;/a&gt; - automatically create step-by-step guides in seconds simply by watching you work&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://simplified.com/&#34;&gt;Simplified&lt;/a&gt; - supercharge content creation&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sudowrite.com/&#34;&gt;Sudowrite&lt;/a&gt; - AI novel writing assistant that makes the creative writing process more fun and interactive&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blaze.today/&#34;&gt;Text Blaze&lt;/a&gt; - eliminate repetitive typing and mistakes&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tome.app/&#34;&gt;Tome&lt;/a&gt; - world’s first generative storytelling format to truly harness the power of artificial intelligence&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://trinka.ai&#34;&gt;Trinka&lt;/a&gt; - online grammar checker and language correction AI tool for academic and technical writing&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://writesonic.com/&#34;&gt;Writesonic&lt;/a&gt; - create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eightify.app/&#34;&gt;Eightify&lt;/a&gt; - YouTube summaries powered by ChatGPT&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.tubebuddy.com/&#34;&gt;TubeBuddy&lt;/a&gt; - optimize your YouTube channel faster&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.adriel.com/&#34;&gt;Adriel&lt;/a&gt; - handle complex marketing campaigns and reach your advertising goals&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://adscale.com/&#34;&gt;AdScale&lt;/a&gt; - boost your ad performance by automating everything from ad creation, and optimization, to audience targeting and performance tracking&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.akkio.com/&#34;&gt;Akkio&lt;/a&gt; - predictive AI for Analysts&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audiense.com/&#34;&gt;Audiense&lt;/a&gt; - audience Intelligence platform, helping marketers and consumer researchers to be innovative and develop relevant audience-centric strategies through proprietary social consumer segmentation&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.bardeen.ai/&#34;&gt;Bardeen&lt;/a&gt; - mission is to help people leverage technology, do more of what they love, and stay in the flow&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://brancher.ai/&#34;&gt;Brancher&lt;/a&gt; - connect AI models to build AI apps in minutes, with no-code&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://decoherence.co/&#34;&gt;Decoherence&lt;/a&gt; - create what can&amp;rsquo;t be filmed&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://donotpay.com/&#34;&gt;DoNotPay&lt;/a&gt; - the world&amp;rsquo;s first robot lawyer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.fylehq.com/&#34;&gt;Fyle&lt;/a&gt; - real-time expense management&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/&#34;&gt;Google Flood AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hints.so/&#34;&gt;Hints&lt;/a&gt; - AI assistant that integrates with any software to perform tasks on your behalf&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://krisp.ai/&#34;&gt;Krisp&lt;/a&gt; - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://lavender.ai&#34;&gt;http://lavender.ai&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.mixo.io/&#34;&gt;Mixo&lt;/a&gt; - helps entrepreneurs quickly launch and validate their business ideas&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mosaic.ai/&#34;&gt;MosaicTrack&lt;/a&gt; - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.nosto.com/&#34;&gt;Nosto&lt;/a&gt; - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://octaneai.com&#34;&gt;http://octaneai.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.outfitsai.com/&#34;&gt;Outfits AI&lt;/a&gt; - try on any outfits using AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://regie.ai&#34;&gt;http://regie.ai&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://snazzy.ai/&#34;&gt;Snazzy&lt;/a&gt; - givse you great content ideas for social media ads, landing pages and more&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://sproutsocial.com/&#34;&gt;Sprout Social&lt;/a&gt; - extract real business value from social&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://taskade.com&#34;&gt;http://taskade.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://tldv.io&#34;&gt;http://tldv.io&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://twain.ai&#34;&gt;http://twain.ai&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://vondy.com&#34;&gt;http://vondy.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.apptus.com/voyado-elevate/&#34;&gt;Voyado Elevate&lt;/a&gt; - intelligent search and merchandising for online retailers&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://warmer.ai&#34;&gt;http://warmer.ai&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wnr.ai/&#34;&gt;WNR&lt;/a&gt; - prompts made easy with AI templates&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;research-1&#34;&gt;Research&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://consensus.app/&#34;&gt;Consensus&lt;/a&gt; - search engine that uses AI to extract and distill findings directly from scientific research&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.scholarcy.com/&#34;&gt;Scholarcy&lt;/a&gt; - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blackmagic.so/&#34;&gt;BlackMagic&lt;/a&gt; - enhanced Twitter for pro tweeters&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hypefury.com/&#34;&gt;Hypefury&lt;/a&gt; - personal assistant to grow &amp;amp; monetize your Twitter audience&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tribescaler.com/&#34;&gt;Tribescaler&lt;/a&gt; - get more impressions, grow a better network and earn more money&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tweethunter.io/&#34;&gt;Tweet Hunter&lt;/a&gt; - build &amp;amp; monetize your Twitter audience&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.tweetlify.co/&#34;&gt;Tweetlify&lt;/a&gt; - create viral tweets, grow followers &amp;amp; make money&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ai-research-companies&#34;&gt;AI Research Companies&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BostonDynamics/&#34;&gt;Boston Dynamics&lt;/a&gt; - create exceptional robots that enrich people’s lives&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt; - making deep learning easier to use&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ai.google/&#34;&gt;Google AI&lt;/a&gt; - a division of Google dedicated to artificial intelligence&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.midjourney.com/&#34;&gt;Midjourney&lt;/a&gt; - independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt; - AI research and deployment company&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://stability.ai/&#34;&gt;Stability&lt;/a&gt; - building the foundation to activate humanity&amp;rsquo;s potential&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI/&#34;&gt;Tesla AI &amp;amp; Robotics&lt;/a&gt; - developing &amp;amp; deploying autonomy at scale in vehicles &amp;amp; robots&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
+&lt;h3 id=&#34;art--graphic-design&#34;&gt;Art &amp;amp; Graphic Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://autodraw.com&#34;&gt;AutoDraw&lt;/a&gt; - fast drawing for everyone&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/ie/sensei/generative-ai/firefly.html/&#34;&gt;Adobe Firefly&lt;/a&gt; - generative AI tool with Generative Fill, part of Adobe Photoshop&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cleanup.pictures/&#34;&gt;Cleanup.pictures&lt;/a&gt; - remove unwanted object, defect, people or text from your pictures&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/product/dall-e-2/&#34;&gt;DALL·E 2&lt;/a&gt; - creates realistic images &amp;amp; art from a description in natural language&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.myheritage.com/deep-nostalgia/&#34;&gt;Deep Nostalgia&lt;/a&gt; - animate your family photos&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://instorier.com/&#34;&gt;Instorier&lt;/a&gt; - picture to 3D tool&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tryleap.ai/&#34;&gt;Leap&lt;/a&gt; - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://leonardo.ai/&#34;&gt;Leonardo&lt;/a&gt; - create stunning game assets with AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://designer.microsoft.com/&#34;&gt;Microsoft Designer&lt;/a&gt; - stunning designs, made lightning fast with AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://midjourney.com&#34;&gt;Midjourney&lt;/a&gt; - generates images from natural language descriptions, called &amp;ldquo;prompts&amp;rdquo; (similar to OpenAI&amp;rsquo;s DALL-E &amp;amp; Stable Diffusion)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixteller.com/&#34;&gt;PixTeller&lt;/a&gt; online image editor &amp;amp; animation maker to create posters, animated gifs, logos, banners, invitations, flyers, animated logos, video thumbnails &amp;amp; more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://playgroundai.com/&#34;&gt;Playground&lt;/a&gt; - create any image from your imagination&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stockimg.ai/&#34;&gt;Stockimg AI&lt;/a&gt; - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp;amp; art&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://styledrop.github.io/&#34;&gt;StyleDrop&lt;/a&gt; - text-to-image generation in any style&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;chatbot&#34;&gt;ChatBot&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://buddygpt.ai/&#34;&gt;BuddyGPT&lt;/a&gt; - the power of ChatGPT, on WhatsApp &amp;amp; Telegram&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chatabc.ai/&#34;&gt;ChatABC&lt;/a&gt; - features such as search web, team collaboration, prompt library &amp;amp; service never-goes-down&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/chatgpt/&#34;&gt;ChatGPT&lt;/a&gt; - an artificial intelligence chatbot developed by OpenAI (&lt;strong&gt;G&lt;/strong&gt;enerative &lt;strong&gt;P&lt;/strong&gt;re-trained &lt;strong&gt;T&lt;/strong&gt;ransformer)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cohere.com/&#34;&gt;Cohere&lt;/a&gt; - build incredible products with world-class language AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bard.google.com/&#34;&gt;Google Bard&lt;/a&gt; - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kaizan.ai/&#34;&gt;Kaizan&lt;/a&gt; - uses conversation intelligence to highlight client health and what will increase revenue&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;Perplexity&lt;/a&gt; - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://platform.openai.com/playground/&#34;&gt;Playground&lt;/a&gt; - explore the capabilities of various AI models developed by OpenAI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://quickchat.ai/&#34;&gt;Quickchat&lt;/a&gt; - technology to build AI assistants that talk like a human&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://typewise.app/&#34;&gt;Typewise&lt;/a&gt; - AI writing solution for customer service and sales teams&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yatterplus.in/&#34;&gt;Yatter+&lt;/a&gt; - personal AI-powered assistant on WhatsApp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chrome-extensions&#34;&gt;Chrome Extensions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://alicent.ai/&#34;&gt;alicent&lt;/a&gt; - browser extension for ChatGPT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.compose.ai/&#34;&gt;Compose&lt;/a&gt; - Chrome extension that cuts down your writing time with AI-powered autocompletion &amp;amp; text generation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://finalscout.com/&#34;&gt;FinalScout&lt;/a&gt; - ChatGPT-powered email finding &amp;amp; outreach at scale&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://getvoila.ai/&#34;&gt;Voilà&lt;/a&gt; - personal AI assistant for supercharged productivity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://poised.com/&#34;&gt;Poised&lt;/a&gt; - AI-powered communication coach that helps you speak with confidence and clarity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiseone.io/&#34;&gt;Wiseone&lt;/a&gt; - helps you master any topic you are reading online by bringing relevant and reliable information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;customer-support&#34;&gt;Customer Support&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forethought.ai/&#34;&gt;Forethought&lt;/a&gt; - generative AI for customer support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://flair.ai/&#34;&gt;Flair&lt;/a&gt; - AI design tool for branded content&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usegalileo.ai/&#34;&gt;Galileo AI&lt;/a&gt; - creates delightful, editable UI designs from a simple text description&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;co-pilot&#34;&gt;Co-Pilot&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://askcodi.com/&#34;&gt;AskCodi&lt;/a&gt; - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/features/copilot/&#34;&gt;GitHub Copilot&lt;/a&gt; - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/avsthiago/kopylot/&#34;&gt;KoPylot&lt;/a&gt; - open-source AI-powered Kubernetes assistant to help developers &amp;amp; DevOps engineers easily manage &amp;amp; monitor their Kubernetes clusters&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://monica.im/&#34;&gt;Monica&lt;/a&gt; - Chrome extension powered by ChatGPT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://replit.com/&#34;&gt;Replit&lt;/a&gt; - build software collaboratively with the power of AI, on any device, without spending a second on setup&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://usechatgpt.ai/&#34;&gt;UseChatGPT&lt;/a&gt; - use ChatGPT, Bard, Bing Chat &amp;amp; Claude on any website without copy &amp;amp; pasting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiseone.io/&#34;&gt;Wiseone&lt;/a&gt; - AI-powered browser extension that offers a new way of reading &amp;amp; exploring information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gaming&#34;&gt;Gaming&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nAEQdF3JAJo/&#34;&gt;Nvidia Game AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://create.unity.com/ai-beta/&#34;&gt;Unity&lt;/a&gt; - AI ecosystem that will put AI-powered game-development tools in the hands of millions of creators&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://voyager.minedojo.org/&#34;&gt;Voyager&lt;/a&gt; - open-ended embodied agent with large language models (LLMs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;marketing&#34;&gt;Marketing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://automizy.com/&#34;&gt;Automizy&lt;/a&gt; - email marketing software designed to increase your email open rates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;music&#34;&gt;Music&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audoir.com/&#34;&gt;Audoir&lt;/a&gt; - AI lyrics &amp;amp; poetry generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.beatoven.ai/&#34;&gt;Beatoven&lt;/a&gt; - create customisable royalty free music that elevates your story&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://boomy.com/&#34;&gt;Boomy&lt;/a&gt; - create original songs in seconds&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.brain.fm/&#34;&gt;Brain.fm&lt;/a&gt; - get more done with less effort &amp;amp; unlock your best self on demand&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.infinitealbum.io/&#34;&gt;Infinite Album&lt;/a&gt; - generative AI music for gamers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lalal.ai/&#34;&gt;LALAL.AI&lt;/a&gt; - extract vocal, accompaniment &amp;amp; various instruments from any audio / video&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://muzeek.com/&#34;&gt;Muzeek&lt;/a&gt; - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soundraw.io/&#34;&gt;Soundraw&lt;/a&gt; - royalty-free AI generated music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wavtool.com/&#34;&gt;WavTool&lt;/a&gt; - make high-quality music with an AI assistant in the browser, for free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;project-management&#34;&gt;Project Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.liquidplanner.com/&#34;&gt;LiquidPlanner&lt;/a&gt; - project management solution that dynamically adapts to change and manages uncertainty to help teams plan, predict, and perform with confidence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;prompt-engineering&#34;&gt;Prompt Engineering&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://borriss.gumroad.com/&#34;&gt;Borriss&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://borriss.gumroad.com/l/APW/&#34;&gt;The Advanced Prompt Writer Tool&lt;/a&gt; - write complex prompts in seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scispace.com/&#34;&gt;SciSpace&lt;/a&gt; - do hours worth of reading and understanding in minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;text-to-speech--voice&#34;&gt;Text to Speech &amp;amp; Voice&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cleanvoice.ai/&#34;&gt;Cleanvoice&lt;/a&gt; - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lovo.ai/&#34;&gt;LOVO&lt;/a&gt; - AI voice generator and Text to Speech&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://murf.ai/&#34;&gt;Murf&lt;/a&gt; - AI voice generator and Text to Speech&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; - mobile and desktop app that reads text aloud using a computer generated Text to Speech voice&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://voicemaker.in/&#34;&gt;Voicemaker&lt;/a&gt; - online free Text to Speech converter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.descript.com/&#34;&gt;Descript&lt;/a&gt; - write, record, transcribe, edit, collaborate, and share your videos and podcasts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://elai.io/&#34;&gt;Elai&lt;/a&gt; - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.steve.ai/&#34;&gt;Steve AI&lt;/a&gt; - make professional videos in minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;website-builders&#34;&gt;Website Builders&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://10web.io/&#34;&gt;10Web&lt;/a&gt; - AI-powered WordPress platform&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://durable.co/&#34;&gt;Durable&lt;/a&gt; - AI website builder that generates an entire website with images and copy in seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;writing&#34;&gt;Writing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aiseo.ai/&#34;&gt;AISEO&lt;/a&gt; - AI writing assistant that delivers undetectable, human-like content in just a few clicks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.beautiful.ai/&#34;&gt;Beautiful&lt;/a&gt; - jumpstart your presentations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bertha.ai/&#34;&gt;Bertha&lt;/a&gt; - create engaging content without the hassle of creating it&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.decktopus.com/&#34;&gt;Decktopus&lt;/a&gt; - AI-powered presentation generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fireflies.ai/&#34;&gt;Fireflies&lt;/a&gt; - automate your meeting notes: record, transcribe, search and analyze voice conversations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gamma.app/&#34;&gt;Gamma&lt;/a&gt; - start writing beautiful &amp;amp; engaging content with none of the formatting and design work&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jasper.ai/&#34;&gt;Jasper&lt;/a&gt; - AI writer and AI art generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kickresume.com/en/&#34;&gt;Kickresume&lt;/a&gt; - create a beautiful resume in minutes using AI &amp;amp; customizable templates&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/product/ai/&#34;&gt;Notion&lt;/a&gt; - organizational tools including task management, project tracking, to-do lists, bookmarking, and more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ocoya.com/&#34;&gt;Ocoya&lt;/a&gt; - create and schedule social media, content marketing &amp;amp; copywriting quicker using AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperpal.com/&#34;&gt;Paperpal&lt;/a&gt; - real-time, subject-specific language suggestions that help you write better, faster&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://postwise.ai/&#34;&gt;Postwise&lt;/a&gt; - craft engaging posts with AI, schedule effortlessly and watch your followers grow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quillbot.com/&#34;&gt;Quillbot&lt;/a&gt; - AI-powered paraphrasing tool to enhance your writing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://saga.so/ai/&#34;&gt;Saga AI&lt;/a&gt; - write faster, and do better work directly in Saga with the help of a digital AI assistant&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://getscribe.how/chrome/&#34;&gt;Scribe&lt;/a&gt; - automatically create step-by-step guides in seconds simply by watching you work&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://simplified.com/&#34;&gt;Simplified&lt;/a&gt; - supercharge content creation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sudowrite.com/&#34;&gt;Sudowrite&lt;/a&gt; - AI novel writing assistant that makes the creative writing process more fun and interactive&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blaze.today/&#34;&gt;Text Blaze&lt;/a&gt; - eliminate repetitive typing and mistakes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tome.app/&#34;&gt;Tome&lt;/a&gt; - world’s first generative storytelling format to truly harness the power of artificial intelligence&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://trinka.ai&#34;&gt;Trinka&lt;/a&gt; - online grammar checker and language correction AI tool for academic and technical writing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://writesonic.com/&#34;&gt;Writesonic&lt;/a&gt; - create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eightify.app/&#34;&gt;Eightify&lt;/a&gt; - YouTube summaries powered by ChatGPT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tubebuddy.com/&#34;&gt;TubeBuddy&lt;/a&gt; - optimize your YouTube channel faster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adriel.com/&#34;&gt;Adriel&lt;/a&gt; - handle complex marketing campaigns and reach your advertising goals&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adscale.com/&#34;&gt;AdScale&lt;/a&gt; - boost your ad performance by automating everything from ad creation, and optimization, to audience targeting and performance tracking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.akkio.com/&#34;&gt;Akkio&lt;/a&gt; - predictive AI for Analysts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audiense.com/&#34;&gt;Audiense&lt;/a&gt; - audience Intelligence platform, helping marketers and consumer researchers to be innovative and develop relevant audience-centric strategies through proprietary social consumer segmentation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bardeen.ai/&#34;&gt;Bardeen&lt;/a&gt; - mission is to help people leverage technology, do more of what they love, and stay in the flow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brancher.ai/&#34;&gt;Brancher&lt;/a&gt; - connect AI models to build AI apps in minutes, with no-code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://decoherence.co/&#34;&gt;Decoherence&lt;/a&gt; - create what can&amp;rsquo;t be filmed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://donotpay.com/&#34;&gt;DoNotPay&lt;/a&gt; - the world&amp;rsquo;s first robot lawyer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fylehq.com/&#34;&gt;Fyle&lt;/a&gt; - real-time expense management&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/&#34;&gt;Google Flood AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hints.so/&#34;&gt;Hints&lt;/a&gt; - AI assistant that integrates with any software to perform tasks on your behalf&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://krisp.ai/&#34;&gt;Krisp&lt;/a&gt; - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lavender.ai&#34;&gt;http://lavender.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mixo.io/&#34;&gt;Mixo&lt;/a&gt; - helps entrepreneurs quickly launch and validate their business ideas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mosaic.ai/&#34;&gt;MosaicTrack&lt;/a&gt; - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nosto.com/&#34;&gt;Nosto&lt;/a&gt; - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://octaneai.com&#34;&gt;http://octaneai.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.outfitsai.com/&#34;&gt;Outfits AI&lt;/a&gt; - try on any outfits using AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regie.ai&#34;&gt;http://regie.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://snazzy.ai/&#34;&gt;Snazzy&lt;/a&gt; - givse you great content ideas for social media ads, landing pages and more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sproutsocial.com/&#34;&gt;Sprout Social&lt;/a&gt; - extract real business value from social&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://taskade.com&#34;&gt;http://taskade.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tldv.io&#34;&gt;http://tldv.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twain.ai&#34;&gt;http://twain.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vondy.com&#34;&gt;http://vondy.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.apptus.com/voyado-elevate/&#34;&gt;Voyado Elevate&lt;/a&gt; - intelligent search and merchandising for online retailers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://warmer.ai&#34;&gt;http://warmer.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wnr.ai/&#34;&gt;WNR&lt;/a&gt; - prompts made easy with AI templates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;research-1&#34;&gt;Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://consensus.app/&#34;&gt;Consensus&lt;/a&gt; - search engine that uses AI to extract and distill findings directly from scientific research&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scholarcy.com/&#34;&gt;Scholarcy&lt;/a&gt; - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blackmagic.so/&#34;&gt;BlackMagic&lt;/a&gt; - enhanced Twitter for pro tweeters&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hypefury.com/&#34;&gt;Hypefury&lt;/a&gt; - personal assistant to grow &amp;amp; monetize your Twitter audience&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tribescaler.com/&#34;&gt;Tribescaler&lt;/a&gt; - get more impressions, grow a better network and earn more money&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tweethunter.io/&#34;&gt;Tweet Hunter&lt;/a&gt; - build &amp;amp; monetize your Twitter audience&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tweetlify.co/&#34;&gt;Tweetlify&lt;/a&gt; - create viral tweets, grow followers &amp;amp; make money&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-research-companies&#34;&gt;AI Research Companies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BostonDynamics/&#34;&gt;Boston Dynamics&lt;/a&gt; - create exceptional robots that enrich people’s lives&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt; - making deep learning easier to use&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai.google/&#34;&gt;Google AI&lt;/a&gt; - a division of Google dedicated to artificial intelligence&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.midjourney.com/&#34;&gt;Midjourney&lt;/a&gt; - independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt; - AI research and deployment company&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stability.ai/&#34;&gt;Stability&lt;/a&gt; - building the foundation to activate humanity&amp;rsquo;s potential&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI/&#34;&gt;Tesla AI &amp;amp; Robotics&lt;/a&gt; - developing &amp;amp; deploying autonomy at scale in vehicles &amp;amp; robots&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="ai-tools">AI Tools</h2>
+<h3 id="art--graphic-design">Art &amp; Graphic Design</h3>
+<ul>
+<li><a href="http://autodraw.com">AutoDraw</a> - fast drawing for everyone</li>
+<li><a href="https://www.adobe.com/ie/sensei/generative-ai/firefly.html/">Adobe Firefly</a> - generative AI tool with Generative Fill, part of Adobe Photoshop</li>
+<li><a href="https://cleanup.pictures/">Cleanup.pictures</a> - remove unwanted object, defect, people or text from your pictures</li>
+<li><a href="https://openai.com/product/dall-e-2/">DALL·E 2</a> - creates realistic images &amp; art from a description in natural language</li>
+<li><a href="https://www.myheritage.com/deep-nostalgia/">Deep Nostalgia</a> - animate your family photos</li>
+<li><a href="https://instorier.com/">Instorier</a> - picture to 3D tool</li>
+<li><a href="https://tryleap.ai/">Leap</a> - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs</li>
+<li><a href="http://leonardo.ai/">Leonardo</a> - create stunning game assets with AI</li>
+<li><a href="http://designer.microsoft.com/">Microsoft Designer</a> - stunning designs, made lightning fast with AI</li>
+<li><a href="http://midjourney.com">Midjourney</a> - generates images from natural language descriptions, called &ldquo;prompts&rdquo; (similar to OpenAI&rsquo;s DALL-E &amp; Stable Diffusion)</li>
+<li><a href="https://pixteller.com/">PixTeller</a> online image editor &amp; animation maker to create posters, animated gifs, logos, banners, invitations, flyers, animated logos, video thumbnails &amp; more</li>
+<li><a href="https://playgroundai.com/">Playground</a> - create any image from your imagination</li>
+<li><a href="https://stockimg.ai/">Stockimg AI</a> - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp; art</li>
+<li><a href="https://styledrop.github.io/">StyleDrop</a> - text-to-image generation in any style</li>
+</ul>
+<h3 id="chatbot">ChatBot</h3>
+<ul>
+<li><a href="http://buddygpt.ai/">BuddyGPT</a> - the power of ChatGPT, on WhatsApp &amp; Telegram</li>
+<li><a href="https://chatabc.ai/">ChatABC</a> - features such as search web, team collaboration, prompt library &amp; service never-goes-down</li>
+<li><a href="https://openai.com/blog/chatgpt/">ChatGPT</a> - an artificial intelligence chatbot developed by OpenAI (<strong>G</strong>enerative <strong>P</strong>re-trained <strong>T</strong>ransformer)</li>
+<li><a href="http://cohere.com/">Cohere</a> - build incredible products with world-class language AI</li>
+<li><a href="https://bard.google.com/">Google Bard</a> - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM</li>
+<li><a href="http://kaizan.ai/">Kaizan</a> - uses conversation intelligence to highlight client health and what will increase revenue</li>
+<li><a href="https://www.perplexity.ai/">Perplexity</a> - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions</li>
+<li><a href="https://platform.openai.com/playground/">Playground</a> - explore the capabilities of various AI models developed by OpenAI</li>
+<li><a href="http://quickchat.ai/">Quickchat</a> - technology to build AI assistants that talk like a human</li>
+<li><a href="http://typewise.app/">Typewise</a> - AI writing solution for customer service and sales teams</li>
+<li><a href="http://yatterplus.in/">Yatter+</a> - personal AI-powered assistant on WhatsApp</li>
+</ul>
+<h2 id="chrome-extensions">Chrome Extensions</h2>
+<ul>
+<li><a href="http://alicent.ai/">alicent</a> - browser extension for ChatGPT</li>
+<li><a href="https://www.compose.ai/">Compose</a> - Chrome extension that cuts down your writing time with AI-powered autocompletion &amp; text generation</li>
+<li><a href="http://finalscout.com/">FinalScout</a> - ChatGPT-powered email finding &amp; outreach at scale</li>
+<li><a href="http://getvoila.ai/">Voilà</a> - personal AI assistant for supercharged productivity</li>
+<li><a href="http://poised.com/">Poised</a> - AI-powered communication coach that helps you speak with confidence and clarity</li>
+<li><a href="http://wiseone.io/">Wiseone</a> - helps you master any topic you are reading online by bringing relevant and reliable information</li>
+</ul>
+<h2 id="customer-support">Customer Support</h2>
+<ul>
+<li><a href="https://forethought.ai/">Forethought</a> - generative AI for customer support</li>
+</ul>
+<h3 id="design">Design</h3>
+<ul>
+<li><a href="https://flair.ai/">Flair</a> - AI design tool for branded content</li>
+<li><a href="https://www.usegalileo.ai/">Galileo AI</a> - creates delightful, editable UI designs from a simple text description</li>
+</ul>
+<h3 id="co-pilot">Co-Pilot</h3>
+<ul>
+<li><a href="https://askcodi.com/">AskCodi</a> - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code</li>
+<li><a href="https://github.com/features/copilot/">GitHub Copilot</a> - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.</li>
+<li><a href="https://github.com/avsthiago/kopylot/">KoPylot</a> - open-source AI-powered Kubernetes assistant to help developers &amp; DevOps engineers easily manage &amp; monitor their Kubernetes clusters</li>
+<li><a href="https://monica.im/">Monica</a> - Chrome extension powered by ChatGPT</li>
+<li><a href="https://replit.com/">Replit</a> - build software collaboratively with the power of AI, on any device, without spending a second on setup</li>
+<li><a href="https://usechatgpt.ai/">UseChatGPT</a> - use ChatGPT, Bard, Bing Chat &amp; Claude on any website without copy &amp; pasting</li>
+<li><a href="https://wiseone.io/">Wiseone</a> - AI-powered browser extension that offers a new way of reading &amp; exploring information</li>
+</ul>
+<h3 id="gaming">Gaming</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=nAEQdF3JAJo/">Nvidia Game AI</a></li>
+<li><a href="https://create.unity.com/ai-beta/">Unity</a> - AI ecosystem that will put AI-powered game-development tools in the hands of millions of creators</li>
+<li><a href="https://voyager.minedojo.org/">Voyager</a> - open-ended embodied agent with large language models (LLMs)</li>
+</ul>
+<h3 id="marketing">Marketing</h3>
+<ul>
+<li><a href="https://automizy.com/">Automizy</a> - email marketing software designed to increase your email open rates</li>
+</ul>
+<h3 id="music">Music</h3>
+<ul>
+<li><a href="https://www.audoir.com/">Audoir</a> - AI lyrics &amp; poetry generator</li>
+<li><a href="https://www.beatoven.ai/">Beatoven</a> - create customisable royalty free music that elevates your story</li>
+<li><a href="https://boomy.com/">Boomy</a> - create original songs in seconds</li>
+<li><a href="https://www.brain.fm/">Brain.fm</a> - get more done with less effort &amp; unlock your best self on demand</li>
+<li><a href="https://www.infinitealbum.io/">Infinite Album</a> - generative AI music for gamers</li>
+<li><a href="https://www.lalal.ai/">LALAL.AI</a> - extract vocal, accompaniment &amp; various instruments from any audio / video</li>
+<li><a href="https://muzeek.com/">Muzeek</a> - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities</li>
+<li><a href="https://soundraw.io/">Soundraw</a> - royalty-free AI generated music</li>
+<li><a href="https://wavtool.com/">WavTool</a> - make high-quality music with an AI assistant in the browser, for free</li>
+</ul>
+<h3 id="project-management">Project Management</h3>
+<ul>
+<li><a href="https://www.liquidplanner.com/">LiquidPlanner</a> - project management solution that dynamically adapts to change and manages uncertainty to help teams plan, predict, and perform with confidence</li>
+</ul>
+<h3 id="prompt-engineering">Prompt Engineering</h3>
+<ul>
+<li><a href="https://borriss.gumroad.com/">Borriss</a>
+<ul>
+<li><a href="https://borriss.gumroad.com/l/APW/">The Advanced Prompt Writer Tool</a> - write complex prompts in seconds</li>
+</ul>
+</li>
+</ul>
+<h3 id="research">Research</h3>
+<ul>
+<li><a href="https://scispace.com/">SciSpace</a> - do hours worth of reading and understanding in minutes</li>
+</ul>
+<h3 id="text-to-speech--voice">Text to Speech &amp; Voice</h3>
+<ul>
+<li><a href="https://cleanvoice.ai/">Cleanvoice</a> - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording</li>
+<li><a href="https://lovo.ai/">LOVO</a> - AI voice generator and Text to Speech</li>
+<li><a href="https://murf.ai/">Murf</a> - AI voice generator and Text to Speech</li>
+<li><a href="https://speechify.com/">Speechify</a> - mobile and desktop app that reads text aloud using a computer generated Text to Speech voice</li>
+<li><a href="https://voicemaker.in/">Voicemaker</a> - online free Text to Speech converter</li>
+</ul>
+<h3 id="video">Video</h3>
+<ul>
+<li><a href="https://www.descript.com/">Descript</a> - write, record, transcribe, edit, collaborate, and share your videos and podcasts</li>
+<li><a href="https://elai.io/">Elai</a> - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen</li>
+<li><a href="https://www.steve.ai/">Steve AI</a> - make professional videos in minutes</li>
+</ul>
+<h3 id="website-builders">Website Builders</h3>
+<ul>
+<li><a href="https://10web.io/">10Web</a> - AI-powered WordPress platform</li>
+<li><a href="https://durable.co/">Durable</a> - AI website builder that generates an entire website with images and copy in seconds</li>
+</ul>
+<h3 id="writing">Writing</h3>
+<ul>
+<li><a href="https://aiseo.ai/">AISEO</a> - AI writing assistant that delivers undetectable, human-like content in just a few clicks</li>
+<li><a href="https://www.beautiful.ai/">Beautiful</a> - jumpstart your presentations</li>
+<li><a href="https://bertha.ai/">Bertha</a> - create engaging content without the hassle of creating it</li>
+<li><a href="https://www.decktopus.com/">Decktopus</a> - AI-powered presentation generator</li>
+<li><a href="https://fireflies.ai/">Fireflies</a> - automate your meeting notes: record, transcribe, search and analyze voice conversations</li>
+<li><a href="https://gamma.app/">Gamma</a> - start writing beautiful &amp; engaging content with none of the formatting and design work</li>
+<li><a href="https://www.jasper.ai/">Jasper</a> - AI writer and AI art generator</li>
+<li><a href="https://www.kickresume.com/en/">Kickresume</a> - create a beautiful resume in minutes using AI &amp; customizable templates</li>
+<li><a href="https://www.notion.so/product/ai/">Notion</a> - organizational tools including task management, project tracking, to-do lists, bookmarking, and more</li>
+<li><a href="https://www.ocoya.com/">Ocoya</a> - create and schedule social media, content marketing &amp; copywriting quicker using AI</li>
+<li><a href="https://paperpal.com/">Paperpal</a> - real-time, subject-specific language suggestions that help you write better, faster</li>
+<li><a href="https://postwise.ai/">Postwise</a> - craft engaging posts with AI, schedule effortlessly and watch your followers grow</li>
+<li><a href="https://quillbot.com/">Quillbot</a> - AI-powered paraphrasing tool to enhance your writing</li>
+<li><a href="https://saga.so/ai/">Saga AI</a> - write faster, and do better work directly in Saga with the help of a digital AI assistant</li>
+<li><a href="http://getscribe.how/chrome/">Scribe</a> - automatically create step-by-step guides in seconds simply by watching you work</li>
+<li><a href="https://simplified.com/">Simplified</a> - supercharge content creation</li>
+<li><a href="https://www.sudowrite.com/">Sudowrite</a> - AI novel writing assistant that makes the creative writing process more fun and interactive</li>
+<li><a href="https://blaze.today/">Text Blaze</a> - eliminate repetitive typing and mistakes</li>
+<li><a href="https://tome.app/">Tome</a> - world’s first generative storytelling format to truly harness the power of artificial intelligence</li>
+<li><a href="https://trinka.ai">Trinka</a> - online grammar checker and language correction AI tool for academic and technical writing</li>
+<li><a href="https://writesonic.com/">Writesonic</a> - create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster</li>
+</ul>
+<h3 id="youtube">YouTube</h3>
+<ul>
+<li><a href="https://eightify.app/">Eightify</a> - YouTube summaries powered by ChatGPT</li>
+<li><a href="https://www.tubebuddy.com/">TubeBuddy</a> - optimize your YouTube channel faster</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li><a href="https://www.adriel.com/">Adriel</a> - handle complex marketing campaigns and reach your advertising goals</li>
+<li><a href="https://adscale.com/">AdScale</a> - boost your ad performance by automating everything from ad creation, and optimization, to audience targeting and performance tracking</li>
+<li><a href="https://www.akkio.com/">Akkio</a> - predictive AI for Analysts</li>
+<li><a href="https://www.audiense.com/">Audiense</a> - audience Intelligence platform, helping marketers and consumer researchers to be innovative and develop relevant audience-centric strategies through proprietary social consumer segmentation</li>
+<li><a href="https://www.bardeen.ai/">Bardeen</a> - mission is to help people leverage technology, do more of what they love, and stay in the flow</li>
+<li><a href="https://brancher.ai/">Brancher</a> - connect AI models to build AI apps in minutes, with no-code</li>
+<li><a href="https://decoherence.co/">Decoherence</a> - create what can&rsquo;t be filmed</li>
+<li><a href="https://donotpay.com/">DoNotPay</a> - the world&rsquo;s first robot lawyer</li>
+<li><a href="https://www.fylehq.com/">Fyle</a> - real-time expense management</li>
+<li><a href="https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/">Google Flood AI</a></li>
+<li><a href="https://hints.so/">Hints</a> - AI assistant that integrates with any software to perform tasks on your behalf</li>
+<li><a href="https://krisp.ai/">Krisp</a> - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant</li>
+<li><a href="http://lavender.ai">http://lavender.ai</a></li>
+<li><a href="https://www.mixo.io/">Mixo</a> - helps entrepreneurs quickly launch and validate their business ideas</li>
+<li><a href="https://mosaic.ai/">MosaicTrack</a> - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set</li>
+<li><a href="https://www.nosto.com/">Nosto</a> - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions</li>
+<li><a href="http://octaneai.com">http://octaneai.com</a></li>
+<li><a href="https://www.outfitsai.com/">Outfits AI</a> - try on any outfits using AI</li>
+<li><a href="http://regie.ai">http://regie.ai</a></li>
+<li><a href="https://snazzy.ai/">Snazzy</a> - givse you great content ideas for social media ads, landing pages and more</li>
+<li><a href="https://sproutsocial.com/">Sprout Social</a> - extract real business value from social</li>
+<li><a href="http://taskade.com">http://taskade.com</a></li>
+<li><a href="http://tldv.io">http://tldv.io</a></li>
+<li><a href="http://twain.ai">http://twain.ai</a></li>
+<li><a href="http://vondy.com">http://vondy.com</a></li>
+<li><a href="https://www.apptus.com/voyado-elevate/">Voyado Elevate</a> - intelligent search and merchandising for online retailers</li>
+<li><a href="http://warmer.ai">http://warmer.ai</a></li>
+<li><a href="https://wnr.ai/">WNR</a> - prompts made easy with AI templates</li>
+</ul>
+<h3 id="research-1">Research</h3>
+<ul>
+<li><a href="https://consensus.app/">Consensus</a> - search engine that uses AI to extract and distill findings directly from scientific research</li>
+<li><a href="https://www.scholarcy.com/">Scholarcy</a> - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections</li>
+</ul>
+<h3 id="twitter">Twitter</h3>
+<ul>
+<li><a href="https://blackmagic.so/">BlackMagic</a> - enhanced Twitter for pro tweeters</li>
+<li><a href="https://hypefury.com/">Hypefury</a> - personal assistant to grow &amp; monetize your Twitter audience</li>
+<li><a href="https://tribescaler.com/">Tribescaler</a> - get more impressions, grow a better network and earn more money</li>
+<li><a href="https://tweethunter.io/">Tweet Hunter</a> - build &amp; monetize your Twitter audience</li>
+<li><a href="https://www.tweetlify.co/">Tweetlify</a> - create viral tweets, grow followers &amp; make money</li>
+</ul>
+<h2 id="ai-research-companies">AI Research Companies</h2>
+<ul>
+<li><a href="https://www.youtube.com/@BostonDynamics/">Boston Dynamics</a> - create exceptional robots that enrich people’s lives</li>
+<li><a href="https://www.fast.ai/">Fast.ai</a> - making deep learning easier to use</li>
+<li><a href="https://ai.google/">Google AI</a> - a division of Google dedicated to artificial intelligence</li>
+<li><a href="https://www.midjourney.com/">Midjourney</a> - independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species</li>
+<li><a href="https://openai.com/">OpenAI</a> - AI research and deployment company</li>
+<li><a href="https://stability.ai/">Stability</a> - building the foundation to activate humanity&rsquo;s potential</li>
+<li><a href="https://www.tesla.com/en_gb/AI/">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

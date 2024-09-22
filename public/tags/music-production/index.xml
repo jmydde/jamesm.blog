@@ -1,82 +1,1130 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Music Production on jamesm.blog</title>
     <link>https://jamesm.blog/tags/music-production/</link>
     <description>Recent content in Music Production on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Jun 2024 09:33:21 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/music-production/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 09:33:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/music-production/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music Production</title>
       <link>https://jamesm.blog/music-production/</link>
       <pubDate>Sun, 23 Jun 2024 09:33:21 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://jamesm.blog/music-production/images/music-production.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/music-production.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+      <content:encoded><![CDATA[<figure>
+    <img loading="lazy" src="images/music-production.png"/> 
+</figure>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Music Production YouTube Channels</title>
       <link>https://jamesm.blog/music-production/youtube-channels/</link>
       <pubDate>Fri, 17 May 2024 17:01:21 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/youtube-channels/</guid>
-      <description>&lt;p&gt;Below is a list of my favourite music production YouTube channels&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@343labs&#34;&gt;343 Labs&lt;/a&gt; - teach Ableton Live, Logic Pro, Mixing &amp;amp; Mastering, Composition, Music Theory, Sound Design &amp;amp; Synthesis, Vocal Production and much more&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@abletontips&#34;&gt;Ableton Tips by PML&lt;/a&gt; - Ableton Live tips &amp;amp; tricks to elevate your music production game&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AccurateBeats/&#34;&gt;Accurate Beats&lt;/a&gt; - music production, music gear and beatmaking&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AlexRome&#34;&gt;Alex Rome&lt;/a&gt; - everything related to music production, beat making, and songwriting&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Alice-Efe/videos&#34;&gt;Alice Yalcin Efe - Mercurial Tones Academy&lt;/a&gt; - anything related to electronic music, from advanced production methodologies to music documentaries and vlogs&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@andrewhuang/&#34;&gt;Andrew Huang&lt;/a&gt; - Canadian YouTube personality, musician &amp;amp; video producer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AndertonsKeyboardDept/&#34;&gt;Andertons&lt;/a&gt; - music hardware &amp;amp; software reviews&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AASphysicalmodeling/&#34;&gt;Applied Acoustics Systems (AAS)&lt;/a&gt; - official YouTube Channel of Applied Acoustics Systems. Physical Modeling since 1998.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ArturiaOfficial/&#34;&gt;Arturia&lt;/a&gt; - Arturia official YouTube channel&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BBCMaestro/&#34;&gt;BBC Maestro&lt;/a&gt; - inspirational online courses taught by the most experienced creators&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BennJordan&#34;&gt;Benn Jordan&lt;/a&gt; - music and science&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BoBeats/&#34;&gt;BoBeats&lt;/a&gt; - videos about synthesizers and music production gear&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CharlesCleyn/&#34;&gt;Charles Cleyn&lt;/a&gt; - songwriting, music production, and marketing strategies to create and release great music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CreativeSauce/&#34;&gt;Creative Sauce&lt;/a&gt; - helps you on your home recording journey&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@DavidBennettPiano&#34;&gt;David Bennett Piano&lt;/a&gt; - pianist and music lover creating educational music videos about all things interesting in music and music theory&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Doctormix/&#34;&gt;Doctor Mix&lt;/a&gt; - music production hardware &amp;amp; software reviews, also offers mixing &amp;amp; mastering service&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUooR1ybCmKbhfBaMjvYYs5&#34;&gt;All Doctor Mix Reconstructions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUk13R-w9ZxZC07bJgNI7pC&#34;&gt;All My Moog Videos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcWSRe_h-h_Y-5DDPk_F00pz&#34;&gt;All Prophet Videos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcXXuunX-sN8GW5pUmPmPkw8&#34;&gt;All Roland&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUXKxC18P2Ez67FpBOxeGE7&#34;&gt;All Yamaha Videos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcXl3rxCau6qFHN2ZcUZBYIq&#34;&gt;Cubase Videos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcU8T_qQ0clsK_ch-dR-KHm5&#34;&gt;Doctor Mix Tips&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUfwdjjUdgZTbyHvO6Jzd62&#34;&gt;Great Drum Machines, Groove Boxes &amp;amp; Loopers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcXtMRY-5M-WIAjpPufXT9hn&#34;&gt;World&amp;rsquo;s Best Synthesizers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@DomSigalas/&#34;&gt;Dom Sigalas&lt;/a&gt; - music producer, film composer, and musicologist&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@EClipChannel&#34;&gt;E-Clip&lt;/a&gt; - official Youtube channel for music release and music production education&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@EDMProd&#34;&gt;EDMProd&lt;/a&gt; - EDM production blog and resource site&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@EDMTips/&#34;&gt;EDM Tips&lt;/a&gt; - how to produce Electronic Dance Music like a pro! – Techno, House, Trance, Progressive and much, much more&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Gear4musicSynthsTech&#34;&gt;Gear4music Synths &amp;amp; Tech&lt;/a&gt; - discover the latest synths, samplers, and software, with valuable tips and advice along the way&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/&#34;&gt;Glenn Main&lt;/a&gt; - Norwegian electronic music composer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@GospelMusicians/&#34;&gt;Gospel Musicians&lt;/a&gt; - a plethora of instructional videos, software and resources for musicians&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ThinkSpaceEducation/&#34;&gt;Guy Michelmore&lt;/a&gt; (ThinkSpace Education)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SHq6gQihnjF07gt6GGB76T&#34;&gt;Film Scoring&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TlOgc-sxeyqh7bgQy7k_ZB&#34;&gt;Interviews&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj&#34;&gt;Music Theory&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SZJ8ntw615PZb0TwrzC2EG&#34;&gt;Music Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_Sht3Z57_aUnZ1yu-14-LR2&#34;&gt;Reviews&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_RWKVxOfjpRVTEbYr2YqGjM&#34;&gt;Sample Library Reviews&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SICOvowdV779wKDHpniznl&#34;&gt;Sound Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_S8ovquxXreMj9BA8fWTW8y&#34;&gt;ThinkSpace Education Course Trailers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@inthemix/&#34;&gt;In The Mix&lt;/a&gt; - simplifying the recording, production, mixing and mastering process&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@jefgibbons/&#34;&gt;Jef Gibbons&lt;/a&gt; - video production, photography &amp;amp; music production&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtYT20yxBCpuOyt4hLJh0D7L&#34;&gt;Arturia Vids&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ5SF5i0E-NFVyxiTND11ES&#34;&gt;Cubase Basics&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtayXXmd79-BcJ9qAVhUPWbZ&#34;&gt;Cubase Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtbCQKqCzTM8s4cHq0CLuh72&#34;&gt;General Music Production&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtacg4_PJkWOlzPUh1wDM9ss&#34;&gt;Hardware Synthesizers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtY0SnXz_uYof6qsBsH6KB4w&#34;&gt;Maschine+&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtb6o0kJIL48xWk_NvStdiWu&#34;&gt;Maschine Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ1mLFZIZunHIm_D6iJep2c&#34;&gt;Native Instruments Expansions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtbeibrLyuz4r9_svrTfEJ3S&#34;&gt;Virtual Instruments&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@joeluegersmusicacademy&#34;&gt;Joe Luegers Music Academy&lt;/a&gt; - step-by-step videos on musical ear training, as well as resources for music teachers of all levels&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@JordanRudessKeys/&#34;&gt;Jordan Rudess&lt;/a&gt; - american keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCor9SN3lpO-BT2aBvAwBptw&#34;&gt;Junkie XL&lt;/a&gt; - grammy nominated multi platinum producer, musician, composer and educator&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g&#34;&gt;Liam Killen&lt;/a&gt; - electronic music producer sharing how to create music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@loopop/&#34;&gt;Loopop&lt;/a&gt; - in-depth electronic music &amp;amp; synth ideas tips, tricks &amp;amp; reviews&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@lotustunesacademy/&#34;&gt;LotusTunes Academy&lt;/a&gt; - learn about deep &amp;amp; organic house music production&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCGSSFkUjSBpDzA1aD4yq1zw&#34;&gt;Martin Stürtzer&lt;/a&gt; - an Ambient / Electronic / Dub Techno artist from Wuppertal (Germany). He works with analog, digital, hardware and virtual instruments to create Ambient, Electronic and Dub Techno music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@masteringcom/&#34;&gt;Mastering․com&lt;/a&gt; - turn self-producing artists into professionally trained mastering engineers in just 9 weeks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@MattiasHolmgren/&#34;&gt;Mattias Holmgren&lt;/a&gt; - guides you in music production, sound design and creativity&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@mixwiththemasters/&#34;&gt;Mix with the Masters&lt;/a&gt; - offers the unique opportunity to work closely with the world’s top music mixers, producers and engineers and to improve one&amp;rsquo;s skills in music production&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@MultiplierSounds/&#34;&gt;Multiplier&lt;/a&gt; - electronic music production tutorials, reviews, vlogs, Ableton Live &amp;amp; Serum tutorials &amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@muzykujkropkacom&#34;&gt;muzykujkropka.com&lt;/a&gt; - testujemy instrumenty, aplikacje iOS i różne akcesoria dla Apple&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@NativeInstruments/&#34;&gt;Native Instruments&lt;/a&gt; Native Instruments official YouTube channel&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/&#34;&gt;Nu-Trix The Synth Guy&lt;/a&gt; - synthesizer reviews &amp;amp; music production&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Outputsounds&#34;&gt;Output&lt;/a&gt; - help you make music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PianoFromScratch/&#34;&gt;Piano From Scratch&lt;/a&gt; - resource to help you become a better student and learn the building blocks of music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@pickyourselfofficial/&#34;&gt;Pick Yourself&lt;/a&gt; - helps electronic music producers finish music they&amp;rsquo;re proud of&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PlugInGuruVideo/&#34;&gt;PlugInGuru&lt;/a&gt; - created by John &amp;ldquo;Skippy&amp;rdquo; Lehmkuhl (Korg sound designer), home of the amazing Unify plugin&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PointBlankMusicSchool/&#34;&gt;Point Blank Music School&lt;/a&gt; - music school with courses in London, LA, Ibiza &amp;amp; Online&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ProducingInTheBox/&#34;&gt;Producing In The Box&lt;/a&gt; - how to make incredible-sounding music in the box!&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ProjectSAMCinematicSampling/&#34;&gt;ProjectSAM&lt;/a&gt; - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/@RachelKCollierRKC/&#34;&gt;Rachel K Collier&lt;/a&gt; - Welsh electronic producer &amp;amp; performer who makes songs and performances with Ableton&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@raveyardsounds/&#34;&gt;Raveyard Sounds&lt;/a&gt; - music production tutorials&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@reorderdj/&#34;&gt;ReOrder&lt;/a&gt; - sneak peek into the life of a DJ and music producer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@RickBeato/&#34;&gt;Rick Beato&lt;/a&gt; - everything music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@rhodesmusic/&#34;&gt;Rhodes Piano&lt;/a&gt; - official Rhodes channel&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@RobPapen/&#34;&gt;Rob Papen&lt;/a&gt; - powerful instruments and plug-ins that bring together innovative design, uncompromising sound quality, and musical, production-grade presets to make your tracks shine&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@rolandglobal/&#34;&gt;Roland&lt;/a&gt; - music production hardware&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SamTheBeardGuy/&#34;&gt;SamTheBeardGuy&lt;/a&gt; - virtual instrument reviews&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SanjayC/&#34;&gt;Sanjay C&lt;/a&gt; - music production, gear &amp;amp; tips&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SchoolofSynthesis/&#34;&gt;School of Synthesis&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SeedtoStage/&#34;&gt;Seed To Stage&lt;/a&gt; - Anthony Thogmartin creating deeply informative instructional videos for learning how to use Ableton Live&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PraiseTracks/&#34;&gt;Simeon Amburgey&lt;/a&gt; (PraiseTracks) - virtual instrument reviews&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHgcyBujZk3Vw8HDG23KCuxP&#34;&gt;Heavyocity&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHgz_6OjiO649n-yVz60h1UY&#34;&gt;Native Instruments Kontakt&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHgaX1B7DPTUm5tfc291g0BY&#34;&gt;Past Livestreams&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHjLYeCfW2_HUW3wIuKmkq6S&#34;&gt;Plugin Guru UNIFY&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHhKIB5ETO5UtE68qWfEd9nE&#34;&gt;Vienna Symphonic Library&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHj2SKSRkWMQ89QAeVzug_uG&#34;&gt;Virtual Instrument Reviews&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHg84vRu53QlJEXbsMnIpDlF&#34;&gt;Virtual Pianos, Searching For The Best&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Slynk/&#34;&gt;Slynk&lt;/a&gt; - Ableton tutorials&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@sonicstate/&#34;&gt;SonicState&lt;/a&gt; - gear reviews, interviews and features&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@soundonsound/&#34;&gt;Sound On Sound&lt;/a&gt; - recording &amp;amp; music technology magazine&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SoundsGoodChannel&#34;&gt;Sounds Good&lt;/a&gt; - educational videos about music&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SpectrasonicsVIDEO/&#34;&gt;Spectrasonics&lt;/a&gt; - official Spectrasonics videos for Omnisphere &amp;amp; Keyscape&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/&#34;&gt;State Azure&lt;/a&gt; - electronic music producer from the UK&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Studio&#34;&gt;Studio&lt;/a&gt; - hands-on learning platform for cultivating your creative side&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@sweetwater/&#34;&gt;Sweetwater&lt;/a&gt; - giving music makers the ultimate shopping experience&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TomSalta/&#34;&gt;Tom Salta&lt;/a&gt; - ASCAP award-winning and BAFTA-nominated composer Tom Salta is one of the most versatile and prolific music artists/producers working in film, television, advertising, and video games&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@truecuckoo/&#34;&gt;True Cuckoo&lt;/a&gt; - taking synths, bleeps, dance and pop to the stage.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@OscarUnderdog/&#34;&gt;Underdog Electronic Music School&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@VenusTheory/&#34;&gt;Venus Theory&lt;/a&gt; - music production &amp;amp; reviews&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu3KEmHHYe_xd8G3Sf39FDP1&#34;&gt;Bass Design&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1QG-b9JVrHru5iZhx6Z9tK&#34;&gt;Bitwig Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu2nxZPVTN1IuKfwseJVUT9z&#34;&gt;Gear and Reviews&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1mgkpnnVcbpTyMBVanKp9T&#34;&gt;Hardware Stuff&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu2dL1MBaH0fHHdxyruUj-5z&#34;&gt;Morning Coffee with Cameron&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1eXgstWgtAldOrYHvhj9ks&#34;&gt;Music Theory Stuff&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1CjTZnl2jyB7VCybQn418p&#34;&gt;Producer Tips&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu088kO-bfY1K3mretiVej_2&#34;&gt;Production Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu3LP2Qk2p6ZwrLLjnNLZGZE&#34;&gt;Sound Design Stuff&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1Q3DCU1rWUZjZ75gfahK8y&#34;&gt;UVI Falcon Tutorial Series&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@vir2instruments&#34;&gt;Vir2 Instruments&lt;/a&gt; - international team of sound designers, musicians, and programmers who specialize in creating the world&amp;rsquo;s most advanced virtual instrument libraries&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@VultureCulture/&#34;&gt;Vulture Culture&lt;/a&gt; - uncovering the hidden gems of the synth world&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@WoodyPianoShack/&#34;&gt;Woody Piano Shack&lt;/a&gt; - music production &amp;amp; reviews&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@yamahaglobal&#34;&gt;Yamaha Global&lt;/a&gt; - official Yamaha Corporation YouTube channel&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@YamahaMusicEurope&#34;&gt;Yamaha Music Europe&lt;/a&gt; - official YouTube Channel of Yamaha Music Europe&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;Below is a list of my favourite music production YouTube channels&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@343labs&#34;&gt;343 Labs&lt;/a&gt; - teach Ableton Live, Logic Pro, Mixing &amp;amp; Mastering, Composition, Music Theory, Sound Design &amp;amp; Synthesis, Vocal Production and much more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@abletontips&#34;&gt;Ableton Tips by PML&lt;/a&gt; - Ableton Live tips &amp;amp; tricks to elevate your music production game&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AccurateBeats/&#34;&gt;Accurate Beats&lt;/a&gt; - music production, music gear and beatmaking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AlexRome&#34;&gt;Alex Rome&lt;/a&gt; - everything related to music production, beat making, and songwriting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Alice-Efe/videos&#34;&gt;Alice Yalcin Efe - Mercurial Tones Academy&lt;/a&gt; - anything related to electronic music, from advanced production methodologies to music documentaries and vlogs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@andrewhuang/&#34;&gt;Andrew Huang&lt;/a&gt; - Canadian YouTube personality, musician &amp;amp; video producer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AndertonsKeyboardDept/&#34;&gt;Andertons&lt;/a&gt; - music hardware &amp;amp; software reviews&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AASphysicalmodeling/&#34;&gt;Applied Acoustics Systems (AAS)&lt;/a&gt; - official YouTube Channel of Applied Acoustics Systems. Physical Modeling since 1998.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ArturiaOfficial/&#34;&gt;Arturia&lt;/a&gt; - Arturia official YouTube channel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BBCMaestro/&#34;&gt;BBC Maestro&lt;/a&gt; - inspirational online courses taught by the most experienced creators&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BennJordan&#34;&gt;Benn Jordan&lt;/a&gt; - music and science&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BoBeats/&#34;&gt;BoBeats&lt;/a&gt; - videos about synthesizers and music production gear&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CharlesCleyn/&#34;&gt;Charles Cleyn&lt;/a&gt; - songwriting, music production, and marketing strategies to create and release great music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CreativeSauce/&#34;&gt;Creative Sauce&lt;/a&gt; - helps you on your home recording journey&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@DavidBennettPiano&#34;&gt;David Bennett Piano&lt;/a&gt; - pianist and music lover creating educational music videos about all things interesting in music and music theory&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Doctormix/&#34;&gt;Doctor Mix&lt;/a&gt; - music production hardware &amp;amp; software reviews, also offers mixing &amp;amp; mastering service
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUooR1ybCmKbhfBaMjvYYs5&#34;&gt;All Doctor Mix Reconstructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUk13R-w9ZxZC07bJgNI7pC&#34;&gt;All My Moog Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcWSRe_h-h_Y-5DDPk_F00pz&#34;&gt;All Prophet Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcXXuunX-sN8GW5pUmPmPkw8&#34;&gt;All Roland&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUXKxC18P2Ez67FpBOxeGE7&#34;&gt;All Yamaha Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcXl3rxCau6qFHN2ZcUZBYIq&#34;&gt;Cubase Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcU8T_qQ0clsK_ch-dR-KHm5&#34;&gt;Doctor Mix Tips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcUfwdjjUdgZTbyHvO6Jzd62&#34;&gt;Great Drum Machines, Groove Boxes &amp;amp; Loopers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL3zIryVDCWcXtMRY-5M-WIAjpPufXT9hn&#34;&gt;World&amp;rsquo;s Best Synthesizers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@DomSigalas/&#34;&gt;Dom Sigalas&lt;/a&gt; - music producer, film composer, and musicologist&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@EClipChannel&#34;&gt;E-Clip&lt;/a&gt; - official Youtube channel for music release and music production education&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@EDMProd&#34;&gt;EDMProd&lt;/a&gt; - EDM production blog and resource site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@EDMTips/&#34;&gt;EDM Tips&lt;/a&gt; - how to produce Electronic Dance Music like a pro! – Techno, House, Trance, Progressive and much, much more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Gear4musicSynthsTech&#34;&gt;Gear4music Synths &amp;amp; Tech&lt;/a&gt; - discover the latest synths, samplers, and software, with valuable tips and advice along the way&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/&#34;&gt;Glenn Main&lt;/a&gt; - Norwegian electronic music composer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@GospelMusicians/&#34;&gt;Gospel Musicians&lt;/a&gt; - a plethora of instructional videos, software and resources for musicians&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ThinkSpaceEducation/&#34;&gt;Guy Michelmore&lt;/a&gt; (ThinkSpace Education)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SHq6gQihnjF07gt6GGB76T&#34;&gt;Film Scoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TlOgc-sxeyqh7bgQy7k_ZB&#34;&gt;Interviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj&#34;&gt;Music Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SZJ8ntw615PZb0TwrzC2EG&#34;&gt;Music Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_Sht3Z57_aUnZ1yu-14-LR2&#34;&gt;Reviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_RWKVxOfjpRVTEbYr2YqGjM&#34;&gt;Sample Library Reviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SICOvowdV779wKDHpniznl&#34;&gt;Sound Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLH1Kp5ewZe_S8ovquxXreMj9BA8fWTW8y&#34;&gt;ThinkSpace Education Course Trailers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@inthemix/&#34;&gt;In The Mix&lt;/a&gt; - simplifying the recording, production, mixing and mastering process&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@jefgibbons/&#34;&gt;Jef Gibbons&lt;/a&gt; - video production, photography &amp;amp; music production
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtYT20yxBCpuOyt4hLJh0D7L&#34;&gt;Arturia Vids&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ5SF5i0E-NFVyxiTND11ES&#34;&gt;Cubase Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtayXXmd79-BcJ9qAVhUPWbZ&#34;&gt;Cubase Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtbCQKqCzTM8s4cHq0CLuh72&#34;&gt;General Music Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtacg4_PJkWOlzPUh1wDM9ss&#34;&gt;Hardware Synthesizers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtY0SnXz_uYof6qsBsH6KB4w&#34;&gt;Maschine+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtb6o0kJIL48xWk_NvStdiWu&#34;&gt;Maschine Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ1mLFZIZunHIm_D6iJep2c&#34;&gt;Native Instruments Expansions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLVqwsSRt4jtbeibrLyuz4r9_svrTfEJ3S&#34;&gt;Virtual Instruments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@joeluegersmusicacademy&#34;&gt;Joe Luegers Music Academy&lt;/a&gt; - step-by-step videos on musical ear training, as well as resources for music teachers of all levels&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@JordanRudessKeys/&#34;&gt;Jordan Rudess&lt;/a&gt; - american keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCor9SN3lpO-BT2aBvAwBptw&#34;&gt;Junkie XL&lt;/a&gt; - grammy nominated multi platinum producer, musician, composer and educator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g&#34;&gt;Liam Killen&lt;/a&gt; - electronic music producer sharing how to create music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@loopop/&#34;&gt;Loopop&lt;/a&gt; - in-depth electronic music &amp;amp; synth ideas tips, tricks &amp;amp; reviews&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@lotustunesacademy/&#34;&gt;LotusTunes Academy&lt;/a&gt; - learn about deep &amp;amp; organic house music production&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCGSSFkUjSBpDzA1aD4yq1zw&#34;&gt;Martin Stürtzer&lt;/a&gt; - an Ambient / Electronic / Dub Techno artist from Wuppertal (Germany). He works with analog, digital, hardware and virtual instruments to create Ambient, Electronic and Dub Techno music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@masteringcom/&#34;&gt;Mastering․com&lt;/a&gt; - turn self-producing artists into professionally trained mastering engineers in just 9 weeks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@MattiasHolmgren/&#34;&gt;Mattias Holmgren&lt;/a&gt; - guides you in music production, sound design and creativity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@mixwiththemasters/&#34;&gt;Mix with the Masters&lt;/a&gt; - offers the unique opportunity to work closely with the world’s top music mixers, producers and engineers and to improve one&amp;rsquo;s skills in music production&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@MultiplierSounds/&#34;&gt;Multiplier&lt;/a&gt; - electronic music production tutorials, reviews, vlogs, Ableton Live &amp;amp; Serum tutorials &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@muzykujkropkacom&#34;&gt;muzykujkropka.com&lt;/a&gt; - testujemy instrumenty, aplikacje iOS i różne akcesoria dla Apple&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@NativeInstruments/&#34;&gt;Native Instruments&lt;/a&gt; Native Instruments official YouTube channel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/&#34;&gt;Nu-Trix The Synth Guy&lt;/a&gt; - synthesizer reviews &amp;amp; music production&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Outputsounds&#34;&gt;Output&lt;/a&gt; - help you make music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PianoFromScratch/&#34;&gt;Piano From Scratch&lt;/a&gt; - resource to help you become a better student and learn the building blocks of music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@pickyourselfofficial/&#34;&gt;Pick Yourself&lt;/a&gt; - helps electronic music producers finish music they&amp;rsquo;re proud of&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PlugInGuruVideo/&#34;&gt;PlugInGuru&lt;/a&gt; - created by John &amp;ldquo;Skippy&amp;rdquo; Lehmkuhl (Korg sound designer), home of the amazing Unify plugin&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PointBlankMusicSchool/&#34;&gt;Point Blank Music School&lt;/a&gt; - music school with courses in London, LA, Ibiza &amp;amp; Online&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ProducingInTheBox/&#34;&gt;Producing In The Box&lt;/a&gt; - how to make incredible-sounding music in the box!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@ProjectSAMCinematicSampling/&#34;&gt;ProjectSAM&lt;/a&gt; - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/@RachelKCollierRKC/&#34;&gt;Rachel K Collier&lt;/a&gt; - Welsh electronic producer &amp;amp; performer who makes songs and performances with Ableton&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@raveyardsounds/&#34;&gt;Raveyard Sounds&lt;/a&gt; - music production tutorials&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@reorderdj/&#34;&gt;ReOrder&lt;/a&gt; - sneak peek into the life of a DJ and music producer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@RickBeato/&#34;&gt;Rick Beato&lt;/a&gt; - everything music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@rhodesmusic/&#34;&gt;Rhodes Piano&lt;/a&gt; - official Rhodes channel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@RobPapen/&#34;&gt;Rob Papen&lt;/a&gt; - powerful instruments and plug-ins that bring together innovative design, uncompromising sound quality, and musical, production-grade presets to make your tracks shine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@rolandglobal/&#34;&gt;Roland&lt;/a&gt; - music production hardware&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SamTheBeardGuy/&#34;&gt;SamTheBeardGuy&lt;/a&gt; - virtual instrument reviews&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SanjayC/&#34;&gt;Sanjay C&lt;/a&gt; - music production, gear &amp;amp; tips&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SchoolofSynthesis/&#34;&gt;School of Synthesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SeedtoStage/&#34;&gt;Seed To Stage&lt;/a&gt; - Anthony Thogmartin creating deeply informative instructional videos for learning how to use Ableton Live&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PraiseTracks/&#34;&gt;Simeon Amburgey&lt;/a&gt; (PraiseTracks) - virtual instrument reviews
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHgcyBujZk3Vw8HDG23KCuxP&#34;&gt;Heavyocity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHgz_6OjiO649n-yVz60h1UY&#34;&gt;Native Instruments Kontakt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHgaX1B7DPTUm5tfc291g0BY&#34;&gt;Past Livestreams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHjLYeCfW2_HUW3wIuKmkq6S&#34;&gt;Plugin Guru UNIFY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHhKIB5ETO5UtE68qWfEd9nE&#34;&gt;Vienna Symphonic Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHj2SKSRkWMQ89QAeVzug_uG&#34;&gt;Virtual Instrument Reviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLygzRhYzPtHg84vRu53QlJEXbsMnIpDlF&#34;&gt;Virtual Pianos, Searching For The Best&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Slynk/&#34;&gt;Slynk&lt;/a&gt; - Ableton tutorials&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@sonicstate/&#34;&gt;SonicState&lt;/a&gt; - gear reviews, interviews and features&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@soundonsound/&#34;&gt;Sound On Sound&lt;/a&gt; - recording &amp;amp; music technology magazine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SoundsGoodChannel&#34;&gt;Sounds Good&lt;/a&gt; - educational videos about music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@SpectrasonicsVIDEO/&#34;&gt;Spectrasonics&lt;/a&gt; - official Spectrasonics videos for Omnisphere &amp;amp; Keyscape&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/&#34;&gt;State Azure&lt;/a&gt; - electronic music producer from the UK&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@Studio&#34;&gt;Studio&lt;/a&gt; - hands-on learning platform for cultivating your creative side&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@sweetwater/&#34;&gt;Sweetwater&lt;/a&gt; - giving music makers the ultimate shopping experience&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TomSalta/&#34;&gt;Tom Salta&lt;/a&gt; - ASCAP award-winning and BAFTA-nominated composer Tom Salta is one of the most versatile and prolific music artists/producers working in film, television, advertising, and video games&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@truecuckoo/&#34;&gt;True Cuckoo&lt;/a&gt; - taking synths, bleeps, dance and pop to the stage.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@OscarUnderdog/&#34;&gt;Underdog Electronic Music School&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@VenusTheory/&#34;&gt;Venus Theory&lt;/a&gt; - music production &amp;amp; reviews
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu3KEmHHYe_xd8G3Sf39FDP1&#34;&gt;Bass Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1QG-b9JVrHru5iZhx6Z9tK&#34;&gt;Bitwig Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu2nxZPVTN1IuKfwseJVUT9z&#34;&gt;Gear and Reviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1mgkpnnVcbpTyMBVanKp9T&#34;&gt;Hardware Stuff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu2dL1MBaH0fHHdxyruUj-5z&#34;&gt;Morning Coffee with Cameron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1eXgstWgtAldOrYHvhj9ks&#34;&gt;Music Theory Stuff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1CjTZnl2jyB7VCybQn418p&#34;&gt;Producer Tips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu088kO-bfY1K3mretiVej_2&#34;&gt;Production Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu3LP2Qk2p6ZwrLLjnNLZGZE&#34;&gt;Sound Design Stuff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLCXbZyyqusu1Q3DCU1rWUZjZ75gfahK8y&#34;&gt;UVI Falcon Tutorial Series&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@vir2instruments&#34;&gt;Vir2 Instruments&lt;/a&gt; - international team of sound designers, musicians, and programmers who specialize in creating the world&amp;rsquo;s most advanced virtual instrument libraries&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@VultureCulture/&#34;&gt;Vulture Culture&lt;/a&gt; - uncovering the hidden gems of the synth world&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@WoodyPianoShack/&#34;&gt;Woody Piano Shack&lt;/a&gt; - music production &amp;amp; reviews&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@yamahaglobal&#34;&gt;Yamaha Global&lt;/a&gt; - official Yamaha Corporation YouTube channel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@YamahaMusicEurope&#34;&gt;Yamaha Music Europe&lt;/a&gt; - official YouTube Channel of Yamaha Music Europe&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<p>Below is a list of my favourite music production YouTube channels</p>
+<ul>
+<li><a href="https://www.youtube.com/@343labs">343 Labs</a> - teach Ableton Live, Logic Pro, Mixing &amp; Mastering, Composition, Music Theory, Sound Design &amp; Synthesis, Vocal Production and much more</li>
+<li><a href="https://www.youtube.com/@abletontips">Ableton Tips by PML</a> - Ableton Live tips &amp; tricks to elevate your music production game</li>
+<li><a href="https://www.youtube.com/@AccurateBeats/">Accurate Beats</a> - music production, music gear and beatmaking</li>
+<li><a href="https://www.youtube.com/@AlexRome">Alex Rome</a> - everything related to music production, beat making, and songwriting</li>
+<li><a href="https://www.youtube.com/@Alice-Efe/videos">Alice Yalcin Efe - Mercurial Tones Academy</a> - anything related to electronic music, from advanced production methodologies to music documentaries and vlogs</li>
+<li><a href="https://www.youtube.com/@andrewhuang/">Andrew Huang</a> - Canadian YouTube personality, musician &amp; video producer</li>
+<li><a href="https://www.youtube.com/@AndertonsKeyboardDept/">Andertons</a> - music hardware &amp; software reviews</li>
+<li><a href="https://www.youtube.com/@AASphysicalmodeling/">Applied Acoustics Systems (AAS)</a> - official YouTube Channel of Applied Acoustics Systems. Physical Modeling since 1998.</li>
+<li><a href="https://www.youtube.com/@ArturiaOfficial/">Arturia</a> - Arturia official YouTube channel</li>
+<li><a href="https://www.youtube.com/@BBCMaestro/">BBC Maestro</a> - inspirational online courses taught by the most experienced creators</li>
+<li><a href="https://www.youtube.com/@BennJordan">Benn Jordan</a> - music and science</li>
+<li><a href="https://www.youtube.com/@BoBeats/">BoBeats</a> - videos about synthesizers and music production gear</li>
+<li><a href="https://www.youtube.com/@CharlesCleyn/">Charles Cleyn</a> - songwriting, music production, and marketing strategies to create and release great music</li>
+<li><a href="https://www.youtube.com/@CreativeSauce/">Creative Sauce</a> - helps you on your home recording journey</li>
+<li><a href="https://www.youtube.com/@DavidBennettPiano">David Bennett Piano</a> - pianist and music lover creating educational music videos about all things interesting in music and music theory</li>
+<li><a href="https://www.youtube.com/@Doctormix/">Doctor Mix</a> - music production hardware &amp; software reviews, also offers mixing &amp; mastering service
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcUooR1ybCmKbhfBaMjvYYs5">All Doctor Mix Reconstructions</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcUk13R-w9ZxZC07bJgNI7pC">All My Moog Videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcWSRe_h-h_Y-5DDPk_F00pz">All Prophet Videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcXXuunX-sN8GW5pUmPmPkw8">All Roland</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcUXKxC18P2Ez67FpBOxeGE7">All Yamaha Videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcXl3rxCau6qFHN2ZcUZBYIq">Cubase Videos</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcU8T_qQ0clsK_ch-dR-KHm5">Doctor Mix Tips</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcUfwdjjUdgZTbyHvO6Jzd62">Great Drum Machines, Groove Boxes &amp; Loopers</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL3zIryVDCWcXtMRY-5M-WIAjpPufXT9hn">World&rsquo;s Best Synthesizers</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@DomSigalas/">Dom Sigalas</a> - music producer, film composer, and musicologist</li>
+<li><a href="https://www.youtube.com/@EClipChannel">E-Clip</a> - official Youtube channel for music release and music production education</li>
+<li><a href="https://www.youtube.com/@EDMProd">EDMProd</a> - EDM production blog and resource site</li>
+<li><a href="https://www.youtube.com/@EDMTips/">EDM Tips</a> - how to produce Electronic Dance Music like a pro! – Techno, House, Trance, Progressive and much, much more</li>
+<li><a href="https://www.youtube.com/@Gear4musicSynthsTech">Gear4music Synths &amp; Tech</a> - discover the latest synths, samplers, and software, with valuable tips and advice along the way</li>
+<li><a href="https://www.youtube.com/channel/UCVUvMnJP25iVLn8ixbiWOuA/">Glenn Main</a> - Norwegian electronic music composer</li>
+<li><a href="https://www.youtube.com/@GospelMusicians/">Gospel Musicians</a> - a plethora of instructional videos, software and resources for musicians</li>
+<li><a href="https://www.youtube.com/@ThinkSpaceEducation/">Guy Michelmore</a> (ThinkSpace Education)
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SHq6gQihnjF07gt6GGB76T">Film Scoring</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TlOgc-sxeyqh7bgQy7k_ZB">Interviews</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj">Music Theory</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SZJ8ntw615PZb0TwrzC2EG">Music Tutorials</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_Sht3Z57_aUnZ1yu-14-LR2">Reviews</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_RWKVxOfjpRVTEbYr2YqGjM">Sample Library Reviews</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_SICOvowdV779wKDHpniznl">Sound Tutorials</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_S8ovquxXreMj9BA8fWTW8y">ThinkSpace Education Course Trailers</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@inthemix/">In The Mix</a> - simplifying the recording, production, mixing and mastering process</li>
+<li><a href="https://www.youtube.com/@jefgibbons/">Jef Gibbons</a> - video production, photography &amp; music production
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtYT20yxBCpuOyt4hLJh0D7L">Arturia Vids</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ5SF5i0E-NFVyxiTND11ES">Cubase Basics</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtayXXmd79-BcJ9qAVhUPWbZ">Cubase Tutorials</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtbCQKqCzTM8s4cHq0CLuh72">General Music Production</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtacg4_PJkWOlzPUh1wDM9ss">Hardware Synthesizers</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtY0SnXz_uYof6qsBsH6KB4w">Maschine+</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtb6o0kJIL48xWk_NvStdiWu">Maschine Tutorials</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtZ1mLFZIZunHIm_D6iJep2c">Native Instruments Expansions</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLVqwsSRt4jtbeibrLyuz4r9_svrTfEJ3S">Virtual Instruments</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@joeluegersmusicacademy">Joe Luegers Music Academy</a> - step-by-step videos on musical ear training, as well as resources for music teachers of all levels</li>
+<li><a href="https://www.youtube.com/@JordanRudessKeys/">Jordan Rudess</a> - american keyboardist, composer, and software developer - voted “Best Keyboardist of All Time”</li>
+<li><a href="https://www.youtube.com/channel/UCor9SN3lpO-BT2aBvAwBptw">Junkie XL</a> - grammy nominated multi platinum producer, musician, composer and educator</li>
+<li><a href="https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g">Liam Killen</a> - electronic music producer sharing how to create music</li>
+<li><a href="https://www.youtube.com/@loopop/">Loopop</a> - in-depth electronic music &amp; synth ideas tips, tricks &amp; reviews</li>
+<li><a href="https://www.youtube.com/@lotustunesacademy/">LotusTunes Academy</a> - learn about deep &amp; organic house music production</li>
+<li><a href="https://www.youtube.com/channel/UCGSSFkUjSBpDzA1aD4yq1zw">Martin Stürtzer</a> - an Ambient / Electronic / Dub Techno artist from Wuppertal (Germany). He works with analog, digital, hardware and virtual instruments to create Ambient, Electronic and Dub Techno music</li>
+<li><a href="https://www.youtube.com/@masteringcom/">Mastering․com</a> - turn self-producing artists into professionally trained mastering engineers in just 9 weeks</li>
+<li><a href="https://www.youtube.com/@MattiasHolmgren/">Mattias Holmgren</a> - guides you in music production, sound design and creativity</li>
+<li><a href="https://www.youtube.com/@mixwiththemasters/">Mix with the Masters</a> - offers the unique opportunity to work closely with the world’s top music mixers, producers and engineers and to improve one&rsquo;s skills in music production</li>
+<li><a href="https://www.youtube.com/@MultiplierSounds/">Multiplier</a> - electronic music production tutorials, reviews, vlogs, Ableton Live &amp; Serum tutorials &hellip;</li>
+<li><a href="https://www.youtube.com/@muzykujkropkacom">muzykujkropka.com</a> - testujemy instrumenty, aplikacje iOS i różne akcesoria dla Apple</li>
+<li><a href="https://www.youtube.com/@NativeInstruments/">Native Instruments</a> Native Instruments official YouTube channel</li>
+<li><a href="https://www.youtube.com/channel/UCgHC3J__UPXEcJOqC089Nnw/">Nu-Trix The Synth Guy</a> - synthesizer reviews &amp; music production</li>
+<li><a href="https://www.youtube.com/@Outputsounds">Output</a> - help you make music</li>
+<li><a href="https://www.youtube.com/@PianoFromScratch/">Piano From Scratch</a> - resource to help you become a better student and learn the building blocks of music</li>
+<li><a href="https://www.youtube.com/@pickyourselfofficial/">Pick Yourself</a> - helps electronic music producers finish music they&rsquo;re proud of</li>
+<li><a href="https://www.youtube.com/@PlugInGuruVideo/">PlugInGuru</a> - created by John &ldquo;Skippy&rdquo; Lehmkuhl (Korg sound designer), home of the amazing Unify plugin</li>
+<li><a href="https://www.youtube.com/@PointBlankMusicSchool/">Point Blank Music School</a> - music school with courses in London, LA, Ibiza &amp; Online</li>
+<li><a href="https://www.youtube.com/@ProducingInTheBox/">Producing In The Box</a> - how to make incredible-sounding music in the box!</li>
+<li><a href="https://www.youtube.com/@ProjectSAMCinematicSampling/">ProjectSAM</a> - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries</li>
+<li><a href="https://youtube.com/@RachelKCollierRKC/">Rachel K Collier</a> - Welsh electronic producer &amp; performer who makes songs and performances with Ableton</li>
+<li><a href="https://www.youtube.com/@raveyardsounds/">Raveyard Sounds</a> - music production tutorials</li>
+<li><a href="https://www.youtube.com/@reorderdj/">ReOrder</a> - sneak peek into the life of a DJ and music producer</li>
+<li><a href="https://www.youtube.com/@RickBeato/">Rick Beato</a> - everything music</li>
+<li><a href="https://www.youtube.com/@rhodesmusic/">Rhodes Piano</a> - official Rhodes channel</li>
+<li><a href="https://www.youtube.com/@RobPapen/">Rob Papen</a> - powerful instruments and plug-ins that bring together innovative design, uncompromising sound quality, and musical, production-grade presets to make your tracks shine</li>
+<li><a href="https://www.youtube.com/@rolandglobal/">Roland</a> - music production hardware</li>
+<li><a href="https://www.youtube.com/@SamTheBeardGuy/">SamTheBeardGuy</a> - virtual instrument reviews</li>
+<li><a href="https://www.youtube.com/@SanjayC/">Sanjay C</a> - music production, gear &amp; tips</li>
+<li><a href="https://www.youtube.com/@SchoolofSynthesis/">School of Synthesis</a></li>
+<li><a href="https://www.youtube.com/@SeedtoStage/">Seed To Stage</a> - Anthony Thogmartin creating deeply informative instructional videos for learning how to use Ableton Live</li>
+<li><a href="https://www.youtube.com/@PraiseTracks/">Simeon Amburgey</a> (PraiseTracks) - virtual instrument reviews
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLygzRhYzPtHgcyBujZk3Vw8HDG23KCuxP">Heavyocity</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLygzRhYzPtHgz_6OjiO649n-yVz60h1UY">Native Instruments Kontakt</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLygzRhYzPtHgaX1B7DPTUm5tfc291g0BY">Past Livestreams</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLygzRhYzPtHjLYeCfW2_HUW3wIuKmkq6S">Plugin Guru UNIFY</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLygzRhYzPtHhKIB5ETO5UtE68qWfEd9nE">Vienna Symphonic Library</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLygzRhYzPtHj2SKSRkWMQ89QAeVzug_uG">Virtual Instrument Reviews</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLygzRhYzPtHg84vRu53QlJEXbsMnIpDlF">Virtual Pianos, Searching For The Best</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@Slynk/">Slynk</a> - Ableton tutorials</li>
+<li><a href="https://www.youtube.com/@sonicstate/">SonicState</a> - gear reviews, interviews and features</li>
+<li><a href="https://www.youtube.com/@soundonsound/">Sound On Sound</a> - recording &amp; music technology magazine</li>
+<li><a href="https://www.youtube.com/@SoundsGoodChannel">Sounds Good</a> - educational videos about music</li>
+<li><a href="https://www.youtube.com/@SpectrasonicsVIDEO/">Spectrasonics</a> - official Spectrasonics videos for Omnisphere &amp; Keyscape</li>
+<li><a href="https://www.youtube.com/channel/UClKIjbgtWGzHtXhBDS_I0pg/">State Azure</a> - electronic music producer from the UK</li>
+<li><a href="https://www.youtube.com/@Studio">Studio</a> - hands-on learning platform for cultivating your creative side</li>
+<li><a href="https://www.youtube.com/@sweetwater/">Sweetwater</a> - giving music makers the ultimate shopping experience</li>
+<li><a href="https://www.youtube.com/@TomSalta/">Tom Salta</a> - ASCAP award-winning and BAFTA-nominated composer Tom Salta is one of the most versatile and prolific music artists/producers working in film, television, advertising, and video games</li>
+<li><a href="https://www.youtube.com/@truecuckoo/">True Cuckoo</a> - taking synths, bleeps, dance and pop to the stage.</li>
+<li><a href="https://www.youtube.com/@OscarUnderdog/">Underdog Electronic Music School</a></li>
+<li><a href="https://www.youtube.com/@VenusTheory/">Venus Theory</a> - music production &amp; reviews
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu3KEmHHYe_xd8G3Sf39FDP1">Bass Design</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu1QG-b9JVrHru5iZhx6Z9tK">Bitwig Tutorials</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu2nxZPVTN1IuKfwseJVUT9z">Gear and Reviews</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu1mgkpnnVcbpTyMBVanKp9T">Hardware Stuff</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu2dL1MBaH0fHHdxyruUj-5z">Morning Coffee with Cameron</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu1eXgstWgtAldOrYHvhj9ks">Music Theory Stuff</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu1CjTZnl2jyB7VCybQn418p">Producer Tips</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu088kO-bfY1K3mretiVej_2">Production Tutorials</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu3LP2Qk2p6ZwrLLjnNLZGZE">Sound Design Stuff</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCXbZyyqusu1Q3DCU1rWUZjZ75gfahK8y">UVI Falcon Tutorial Series</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@vir2instruments">Vir2 Instruments</a> - international team of sound designers, musicians, and programmers who specialize in creating the world&rsquo;s most advanced virtual instrument libraries</li>
+<li><a href="https://www.youtube.com/@VultureCulture/">Vulture Culture</a> - uncovering the hidden gems of the synth world</li>
+<li><a href="https://www.youtube.com/@WoodyPianoShack/">Woody Piano Shack</a> - music production &amp; reviews</li>
+<li><a href="https://www.youtube.com/@yamahaglobal">Yamaha Global</a> - official Yamaha Corporation YouTube channel</li>
+<li><a href="https://www.youtube.com/@YamahaMusicEurope">Yamaha Music Europe</a> - official YouTube Channel of Yamaha Music Europe</li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Music Production: Ableton Live 12</title>
       <link>https://jamesm.blog/music-production/news/ableton-live-12/</link>
       <pubDate>Tue, 05 Mar 2024 21:10:00 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/ableton-live-12/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Ableton have just release Ableton Live 12&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/shop/live-12/&#34;&gt;https://www.ableton.com/en/shop/live-12/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;whats-new&#34;&gt;Whats New&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;UI Improvements&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved layout&lt;/li&gt;&#xA;&lt;li&gt;Filter based on tags in Live&amp;rsquo;s Browser&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Improved Workflow&lt;/li&gt;&#xA;&lt;li&gt;New Devices&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/blog/meld-a-look-at-live-12s-new-bi-timbral-synth/&#34;&gt;Meld (Synth)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/packs/granulator-iii/&#34;&gt;Granulator III (Sampler)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Roar (Saturation Effect)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;New MIDI Tools&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reshape MIDI patterns&lt;/li&gt;&#xA;&lt;li&gt;Generate new ideas&lt;/li&gt;&#xA;&lt;li&gt;Join, split &amp;amp; chop notes&lt;/li&gt;&#xA;&lt;li&gt;Stay in key across devices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Additional Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Uncover new textures&lt;/li&gt;&#xA;&lt;li&gt;Performance Pack&lt;/li&gt;&#xA;&lt;li&gt;Lost and Found&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Live 12 Intro - £69&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Essentials – 16 tracks and 5+ GB of sounds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Live 12 Standard - £259&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Full features – 38+ GB of sounds and more instruments and effects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Live 12 Suite - £539&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Complete studio – 71+ GB of sounds, Max for Live and all instruments and effects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;youtube-playlists&#34;&gt;YouTube Playlists&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLoh4MB-kbBmJ7dR67GF1vQXbPdZyg4YQz&#34;&gt;Learn Live 12&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;youttube-videos&#34;&gt;YoutTube Videos&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ableton-live-12-explore-whats-new&#34;&gt;Ableton Live 12: Explore what’s new&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/QFCV6EkqRQs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;big-update-ableton-live-12-preview---our-top-5-favorite-features&#34;&gt;BIG UPDATE: Ableton Live 12 preview - Our top 5 favorite features&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/qp8ELKYcu78?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;ableton-live-12-yes-or-no&#34;&gt;Ableton Live 12: Yes or no?&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/Sf8J-GRSPAk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;ableton-live-12---first-look---sonic-lab-presentation&#34;&gt;Ableton Live 12 - First Look - Sonic LAB Presentation&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/Gh3P6SJFyUY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Ableton have just release Ableton Live 12&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/shop/live-12/&#34;&gt;https://www.ableton.com/en/shop/live-12/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;whats-new&#34;&gt;Whats New&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;UI Improvements
+&lt;ul&gt;
+&lt;li&gt;Improved layout&lt;/li&gt;
+&lt;li&gt;Filter based on tags in Live&amp;rsquo;s Browser&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Improved Workflow&lt;/li&gt;
+&lt;li&gt;New Devices
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/blog/meld-a-look-at-live-12s-new-bi-timbral-synth/&#34;&gt;Meld (Synth)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/packs/granulator-iii/&#34;&gt;Granulator III (Sampler)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Roar (Saturation Effect)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New MIDI Tools
+&lt;ul&gt;
+&lt;li&gt;Reshape MIDI patterns&lt;/li&gt;
+&lt;li&gt;Generate new ideas&lt;/li&gt;
+&lt;li&gt;Join, split &amp;amp; chop notes&lt;/li&gt;
+&lt;li&gt;Stay in key across devices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Additional Features
+&lt;ul&gt;
+&lt;li&gt;Uncover new textures&lt;/li&gt;
+&lt;li&gt;Performance Pack&lt;/li&gt;
+&lt;li&gt;Lost and Found&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Live 12 Intro - £69
+&lt;ul&gt;
+&lt;li&gt;Essentials – 16 tracks and 5+ GB of sounds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Live 12 Standard - £259
+&lt;ul&gt;
+&lt;li&gt;Full features – 38+ GB of sounds and more instruments and effects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Live 12 Suite - £539
+&lt;ul&gt;
+&lt;li&gt;Complete studio – 71+ GB of sounds, Max for Live and all instruments and effects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube-playlists&#34;&gt;YouTube Playlists&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLoh4MB-kbBmJ7dR67GF1vQXbPdZyg4YQz&#34;&gt;Learn Live 12&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youttube-videos&#34;&gt;YoutTube Videos&lt;/h2&gt;
+&lt;h3 id=&#34;ableton-live-12-explore-whats-new&#34;&gt;Ableton Live 12: Explore what’s new&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/QFCV6EkqRQs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;big-update-ableton-live-12-preview---our-top-5-favorite-features&#34;&gt;BIG UPDATE: Ableton Live 12 preview - Our top 5 favorite features&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/qp8ELKYcu78?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;ableton-live-12-yes-or-no&#34;&gt;Ableton Live 12: Yes or no?&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/Sf8J-GRSPAk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;ableton-live-12---first-look---sonic-lab-presentation&#34;&gt;Ableton Live 12 - First Look - Sonic LAB Presentation&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/Gh3P6SJFyUY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p>Ableton have just release Ableton Live 12</p>
+<ul>
+<li><a href="https://www.ableton.com/en/shop/live-12/">https://www.ableton.com/en/shop/live-12/</a></li>
+</ul>
+<h2 id="whats-new">Whats New</h2>
+<ul>
+<li>UI Improvements
+<ul>
+<li>Improved layout</li>
+<li>Filter based on tags in Live&rsquo;s Browser</li>
+</ul>
+</li>
+<li>Improved Workflow</li>
+<li>New Devices
+<ul>
+<li><a href="https://www.ableton.com/en/blog/meld-a-look-at-live-12s-new-bi-timbral-synth/">Meld (Synth)</a></li>
+<li><a href="https://www.ableton.com/en/packs/granulator-iii/">Granulator III (Sampler)</a></li>
+<li>Roar (Saturation Effect)</li>
+</ul>
+</li>
+<li>New MIDI Tools
+<ul>
+<li>Reshape MIDI patterns</li>
+<li>Generate new ideas</li>
+<li>Join, split &amp; chop notes</li>
+<li>Stay in key across devices</li>
+</ul>
+</li>
+<li>Additional Features
+<ul>
+<li>Uncover new textures</li>
+<li>Performance Pack</li>
+<li>Lost and Found</li>
+</ul>
+</li>
+</ul>
+<h2 id="pricing">Pricing</h2>
+<ul>
+<li>Live 12 Intro - £69
+<ul>
+<li>Essentials – 16 tracks and 5+ GB of sounds</li>
+</ul>
+</li>
+<li>Live 12 Standard - £259
+<ul>
+<li>Full features – 38+ GB of sounds and more instruments and effects</li>
+</ul>
+</li>
+<li>Live 12 Suite - £539
+<ul>
+<li>Complete studio – 71+ GB of sounds, Max for Live and all instruments and effects</li>
+</ul>
+</li>
+</ul>
+<h2 id="youtube-playlists">YouTube Playlists</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLoh4MB-kbBmJ7dR67GF1vQXbPdZyg4YQz">Learn Live 12</a></li>
+</ul>
+<h2 id="youttube-videos">YoutTube Videos</h2>
+<h3 id="ableton-live-12-explore-whats-new">Ableton Live 12: Explore what’s new</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/QFCV6EkqRQs?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="big-update-ableton-live-12-preview---our-top-5-favorite-features">BIG UPDATE: Ableton Live 12 preview - Our top 5 favorite features</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/qp8ELKYcu78?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="ableton-live-12-yes-or-no">Ableton Live 12: Yes or no?</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Sf8J-GRSPAk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="ableton-live-12---first-look---sonic-lab-presentation">Ableton Live 12 - First Look - Sonic LAB Presentation</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Gh3P6SJFyUY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Music Production Blogs</title>
       <link>https://jamesm.blog/music-production/blogs/</link>
       <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/blogs/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bedroomproducersblog.com/&#34;&gt;Bedroom Producers Blog&lt;/a&gt; (bpb)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://logicxx.com/blogs/news&#34;&gt;logicxx&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.native-instruments.com/&#34;&gt;Native Instruments&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://plus.pointblankmusicschool.com/&#34;&gt;Point Blank Music School&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.soundonsound.com/&#34;&gt;Sound On Sound&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.waproduction.com/&#34;&gt;WA Production&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bedroomproducersblog.com/&#34;&gt;Bedroom Producers Blog&lt;/a&gt; (bpb)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://logicxx.com/blogs/news&#34;&gt;logicxx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.native-instruments.com/&#34;&gt;Native Instruments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://plus.pointblankmusicschool.com/&#34;&gt;Point Blank Music School&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.soundonsound.com/&#34;&gt;Sound On Sound&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.waproduction.com/&#34;&gt;WA Production&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://bedroomproducersblog.com/">Bedroom Producers Blog</a> (bpb)</li>
+<li><a href="https://logicxx.com/blogs/news">logicxx</a></li>
+<li><a href="https://blog.native-instruments.com/">Native Instruments</a></li>
+<li><a href="https://plus.pointblankmusicschool.com/">Point Blank Music School</a></li>
+<li><a href="https://www.soundonsound.com/">Sound On Sound</a></li>
+<li><a href="https://blog.waproduction.com/">WA Production</a></li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Music Production Courses</title>
       <link>https://jamesm.blog/music-production/courses/</link>
       <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/courses/</guid>
-      <description>&lt;h3 id=&#34;ableton&#34;&gt;Ableton&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/certified-training/&#34;&gt;Ableton Certified Training&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.adsrsounds.com/category/ableton-live-tutorials/&#34;&gt;ADSR&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ask.video/library/application/Ableton&#34;&gt;Ask.Video&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/courses?query=ableton&#34;&gt;Coursera&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.groove3.com/browse/daw/ableton-live&#34;&gt;Groove3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.londonamp.com/courses/ableton-live-music-software-course/&#34;&gt;London Academy of Music Production&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://macprovideo.com/library/application/Ableton&#34;&gt;MacProVideo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pointblankmusicschool.com/courses/online/music-production-courses/ableton-live-in-depth/&#34;&gt;Point Blank Music School&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.producertech.com/software-courses/ableton-live/&#34;&gt;Producertech&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.skillshare.com/en/browse/ableton-live&#34;&gt;Skillshare&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/user/tomas-george/&#34;&gt;Tomas George&lt;/a&gt; - music producer, composer &amp;amp; audio engineer&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/ableton-live-11-course/&#34;&gt;Ableton Live 11 - Music Production in Ableton Live&lt;/a&gt; - learn music production, recording, editing, music mixing, songwriting &amp;amp; music theory&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cubase&#34;&gt;Cubase&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ask.video/library/application/cubase&#34;&gt;Ask.Video&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.groove3.com/browse/daw/cubase&#34;&gt;Groove3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.londonamp.com/courses/steinberg-cubase-music-software-course/&#34;&gt;London Academy of Music Production&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/courses/software/cubase&#34;&gt;Sonic Academy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/cubase/learn/&#34;&gt;Steinberg&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;logic-pro&#34;&gt;Logic Pro&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/user/tomas-george/&#34;&gt;Tomas George&lt;/a&gt; - music producer, composer &amp;amp; audio engineer&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/logicproxintro/&#34;&gt;Music Production in Logic Pro X - The Beginners Guide!&lt;/a&gt; - learn the basics of setting up, creating music &amp;amp; music production in Logic Pro X&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/thecompletelogicprox/&#34;&gt;Music Production in Logic Pro X - The Complete Course!&lt;/a&gt; - creating, recording, mixing music &amp;amp; mastering in Logic Pro X&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;maschine&#34;&gt;Maschine&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.adsrsounds.com/csoftware/maschine/&#34;&gt;ADSR&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ask.video/library/application/maschine&#34;&gt;Ask.Video&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.macprovideo.com/library/application/maschine&#34;&gt;MacProVideo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://maschinetutorials.com/maschine-tutorial-courses/&#34;&gt;Maschine Tutorials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.producertech.com/software-courses/maschine/&#34;&gt;Producertech&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;masterclass&#34;&gt;Masterclass&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.masterclass.com/classes/armin-van-buuren-teaches-dance-music&#34;&gt;Armin van Buuren Teaches Dance Music&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production&#34;&gt;deadmau5 Teaches Electronic Music Production&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.masterclass.com/classes/timbaland-teaches-producing-and-beatmaking&#34;&gt;Timbaland Teaches Producing and Beatmaking&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mix-with-the-masters&#34;&gt;Mix With The Masters&lt;/h3&gt;&#xA;&lt;p&gt;Learn the entire process of music production, mixing and mastering from the world&amp;rsquo;s top engineers and producers through seminars and online videos&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;ableton&#34;&gt;Ableton&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/certified-training/&#34;&gt;Ableton Certified Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adsrsounds.com/category/ableton-live-tutorials/&#34;&gt;ADSR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ask.video/library/application/Ableton&#34;&gt;Ask.Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/courses?query=ableton&#34;&gt;Coursera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.groove3.com/browse/daw/ableton-live&#34;&gt;Groove3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.londonamp.com/courses/ableton-live-music-software-course/&#34;&gt;London Academy of Music Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://macprovideo.com/library/application/Ableton&#34;&gt;MacProVideo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pointblankmusicschool.com/courses/online/music-production-courses/ableton-live-in-depth/&#34;&gt;Point Blank Music School&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.producertech.com/software-courses/ableton-live/&#34;&gt;Producertech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.skillshare.com/en/browse/ableton-live&#34;&gt;Skillshare&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/user/tomas-george/&#34;&gt;Tomas George&lt;/a&gt; - music producer, composer &amp;amp; audio engineer
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/ableton-live-11-course/&#34;&gt;Ableton Live 11 - Music Production in Ableton Live&lt;/a&gt; - learn music production, recording, editing, music mixing, songwriting &amp;amp; music theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cubase&#34;&gt;Cubase&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ask.video/library/application/cubase&#34;&gt;Ask.Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.groove3.com/browse/daw/cubase&#34;&gt;Groove3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.londonamp.com/courses/steinberg-cubase-music-software-course/&#34;&gt;London Academy of Music Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/courses/software/cubase&#34;&gt;Sonic Academy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/cubase/learn/&#34;&gt;Steinberg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;logic-pro&#34;&gt;Logic Pro&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/user/tomas-george/&#34;&gt;Tomas George&lt;/a&gt; - music producer, composer &amp;amp; audio engineer
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/logicproxintro/&#34;&gt;Music Production in Logic Pro X - The Beginners Guide!&lt;/a&gt; - learn the basics of setting up, creating music &amp;amp; music production in Logic Pro X&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/thecompletelogicprox/&#34;&gt;Music Production in Logic Pro X - The Complete Course!&lt;/a&gt; - creating, recording, mixing music &amp;amp; mastering in Logic Pro X&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;maschine&#34;&gt;Maschine&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adsrsounds.com/csoftware/maschine/&#34;&gt;ADSR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ask.video/library/application/maschine&#34;&gt;Ask.Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.macprovideo.com/library/application/maschine&#34;&gt;MacProVideo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://maschinetutorials.com/maschine-tutorial-courses/&#34;&gt;Maschine Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.producertech.com/software-courses/maschine/&#34;&gt;Producertech&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;masterclass&#34;&gt;Masterclass&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.masterclass.com/classes/armin-van-buuren-teaches-dance-music&#34;&gt;Armin van Buuren Teaches Dance Music&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production&#34;&gt;deadmau5 Teaches Electronic Music Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.masterclass.com/classes/timbaland-teaches-producing-and-beatmaking&#34;&gt;Timbaland Teaches Producing and Beatmaking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mix-with-the-masters&#34;&gt;Mix With The Masters&lt;/h3&gt;
+&lt;p&gt;Learn the entire process of music production, mixing and mastering from the world&amp;rsquo;s top engineers and producers through seminars and online videos&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h3 id="ableton">Ableton</h3>
+<ul>
+<li><a href="https://www.ableton.com/en/certified-training/">Ableton Certified Training</a></li>
+<li><a href="https://www.adsrsounds.com/category/ableton-live-tutorials/">ADSR</a></li>
+<li><a href="https://www.ask.video/library/application/Ableton">Ask.Video</a></li>
+<li><a href="https://www.coursera.org/courses?query=ableton">Coursera</a></li>
+<li><a href="https://www.groove3.com/browse/daw/ableton-live">Groove3</a></li>
+<li><a href="https://www.londonamp.com/courses/ableton-live-music-software-course/">London Academy of Music Production</a></li>
+<li><a href="https://macprovideo.com/library/application/Ableton">MacProVideo</a></li>
+<li><a href="https://www.pointblankmusicschool.com/courses/online/music-production-courses/ableton-live-in-depth/">Point Blank Music School</a></li>
+<li><a href="https://www.producertech.com/software-courses/ableton-live/">Producertech</a></li>
+<li><a href="https://www.skillshare.com/en/browse/ableton-live">Skillshare</a></li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/user/tomas-george/">Tomas George</a> - music producer, composer &amp; audio engineer
+<ul>
+<li><a href="https://www.udemy.com/course/ableton-live-11-course/">Ableton Live 11 - Music Production in Ableton Live</a> - learn music production, recording, editing, music mixing, songwriting &amp; music theory</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="cubase">Cubase</h3>
+<ul>
+<li><a href="https://ask.video/library/application/cubase">Ask.Video</a></li>
+<li><a href="https://www.groove3.com/browse/daw/cubase">Groove3</a></li>
+<li><a href="https://www.londonamp.com/courses/steinberg-cubase-music-software-course/">London Academy of Music Production</a></li>
+<li><a href="https://www.sonicacademy.com/courses/software/cubase">Sonic Academy</a></li>
+<li><a href="https://www.steinberg.net/cubase/learn/">Steinberg</a></li>
+</ul>
+<h3 id="logic-pro">Logic Pro</h3>
+<ul>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/user/tomas-george/">Tomas George</a> - music producer, composer &amp; audio engineer
+<ul>
+<li><a href="https://www.udemy.com/course/logicproxintro/">Music Production in Logic Pro X - The Beginners Guide!</a> - learn the basics of setting up, creating music &amp; music production in Logic Pro X</li>
+<li><a href="https://www.udemy.com/course/thecompletelogicprox/">Music Production in Logic Pro X - The Complete Course!</a> - creating, recording, mixing music &amp; mastering in Logic Pro X</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="maschine">Maschine</h3>
+<ul>
+<li><a href="https://www.adsrsounds.com/csoftware/maschine/">ADSR</a></li>
+<li><a href="https://ask.video/library/application/maschine">Ask.Video</a></li>
+<li><a href="https://www.macprovideo.com/library/application/maschine">MacProVideo</a></li>
+<li><a href="https://maschinetutorials.com/maschine-tutorial-courses/">Maschine Tutorials</a></li>
+<li><a href="https://www.producertech.com/software-courses/maschine/">Producertech</a></li>
+</ul>
+<h3 id="masterclass">Masterclass</h3>
+<ul>
+<li><a href="https://www.masterclass.com/classes/armin-van-buuren-teaches-dance-music">Armin van Buuren Teaches Dance Music</a></li>
+<li><a href="https://www.masterclass.com/classes/deadmau5-teaches-electronic-music-production">deadmau5 Teaches Electronic Music Production</a></li>
+<li><a href="https://www.masterclass.com/classes/timbaland-teaches-producing-and-beatmaking">Timbaland Teaches Producing and Beatmaking</a></li>
+</ul>
+<h3 id="mix-with-the-masters">Mix With The Masters</h3>
+<p>Learn the entire process of music production, mixing and mastering from the world&rsquo;s top engineers and producers through seminars and online videos</p>
+<ul>
+<li><a href="https://mixwiththemasters.com/">Mix With The Masters</a>
+<ul>
+<li><a href="https://community.mwtm.com/">Community</a></li>
+<li><a href="https://mixwiththemasters.com/masters">Masters</a></li>
+<li><a href="https://mixwiththemasters.com/videos">Videos</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="music-theory">Music Theory</h3>
+<ul>
+<li><a href="https://www.youtube.com/@ThinkSpaceEducation">Guy Michelmore</a> (ThinkSpace Education)
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLH1Kp5ewZe_TP3CMB6LBw9ZjRCduyqoqj">Music Theory</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@musiciansinspired/">Musicians Inspired</a></li>
+<li><a href="https://www.pianote.com/">Pianote</a>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLfM8ivjJ-rKXPgFosJSYE_AwHsLpvBRSk">Arpeggios &amp; Riffs</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLfM8ivjJ-rKXL-qnJ3UPEjOHfOtLRjlIH">Beginner Piano Lessons</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLfM8ivjJ-rKVL1WDIpzaKfA7oMLKoJ5_3">How To Read Music</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLfM8ivjJ-rKW6YDSgcNOGt3pjtkwHBAAb">Learn Beautiful Piano Music</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLfM8ivjJ-rKUvRNtoZa8aZg66xwGgw5JS">Music Theory</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL887D3B7B4E4E361A">Scales</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@RickBeato/">Rick Beato</a>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLW0NGgv1qnfxsk2YLffbimD1jF43pVCJD">Ear Training</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLW0NGgv1qnfyiH7i5ZOowzmmwoMPMqCYp">Ear Training Complete</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLW0NGgv1qnfxAZ4Kx7-jzy4jrGCAaCdTt">Music Production</a></li>
+<li><a href="https://www.youtube.com/watch?v=De97zQi5rzc&t=1363s">Music Theory Masterclass 1: Drilling the Basics</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLW0NGgv1qnfwOCvaua3pRBCT7Vx-mlrHI">Scales and Modes</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@rickysguitar/">Ricky Comiskey</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=38ul8nOxU6U">How I Wish I was Taught Chord Theory: A Different Way for Beginners</a></li>
+<li><a href="https://www.youtube.com/watch?v=2hs-9tsRmW8&t=682s">I Didn&rsquo;t Know Where Chords Came From Until I Knew This</a></li>
+</ul>
+</li>
+<li><a href="https://thinkspaceeducation.com/">ThinkSpace Education</a>
+<ul>
+<li>General Composition
+<ul>
+<li><a href="https://thinkspaceeducation.com/courses/hm1/">Harmony One</a></li>
+<li><a href="https://thinkspaceeducation.com/courses/hm2/">Harmony Two</a></li>
+<li><a href="https://thinkspaceeducation.com/courses/htwm/">How To Write Music</a></li>
+<li><a href="https://thinkspaceeducation.com/courses/lmt/">Learn Music Theory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@OscarUnderdog/">Underdog Electronic Music School</a>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLwSHXwm1ElvgjRL4ZgIztL1eSPMAXAGKW">Electronic Music Basics</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLwSHXwm1ElvjbmXEJc0u3tMJQDyb_GS3P">Theory &amp; Harmony</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="piano-lessons">Piano Lessons</h3>
+<ul>
+<li><a href="https://www.flowkey.com/en">Flowkey</a> - practice notes and chords interactively and receive instant feedback</li>
+<li><a href="https://www.pianogenius.com/">Piano Genius</a> - how to start playing your favorite songs now without the time and frustration of traditional lessons</li>
+<li><a href="https://www.bestpianoclass.com/dashboard/the-best-piano-theory-course-for-beginners/piano-superhuman-overview/">Piano University</a> - become a piano superhuman</li>
+<li><a href="https://www.pianote.com/">Pianote</a> - online piano lessons for all skill levels</li>
+<li><a href="https://www.skoove.com/">Skoove</a> - complete online piano learning method</li>
+</ul>
+<h3 id="serum">Serum</h3>
+<ul>
+<li><a href="https://www.adsrsounds.com/category/serum-tutorials/">ADSR</a></li>
+<li><a href="https://www.producertech.com/new-releases/165/serum-sound-design-masterclass">Producertech</a></li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Music Production Websites</title>
       <link>https://jamesm.blog/music-production/websites/</link>
       <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/websites/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ask.video/&#34;&gt;Ask.Video&lt;/a&gt; - Ableton, Cubase, Logic Pro, Native Instruments &amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audiopluginguy.com/deals/&#34;&gt;Audio Plugin Guy&lt;/a&gt; - plugin deals&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.borntoproduce.com/&#34;&gt;Born to Produce&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.groove3.com/&#34;&gt;Groove3&lt;/a&gt; - Ableton, BitWig Studio, Cubase, FL Studio, Logic Pro, Maschine &amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.londonamp.com/&#34;&gt;London Academy of Music Production&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.macprovideo.com/&#34;&gt;MacProVideo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pointblankmusicschool.com/&#34;&gt;Point Blank Music School&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.producertech.com/&#34;&gt;Producertech&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.skillshare.com/&#34;&gt;Skillshare&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/&#34;&gt;Sonic Academy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/education/certified-training/&#34;&gt;Steinberg&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ask.video/&#34;&gt;Ask.Video&lt;/a&gt; - Ableton, Cubase, Logic Pro, Native Instruments &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audiopluginguy.com/deals/&#34;&gt;Audio Plugin Guy&lt;/a&gt; - plugin deals&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.borntoproduce.com/&#34;&gt;Born to Produce&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.groove3.com/&#34;&gt;Groove3&lt;/a&gt; - Ableton, BitWig Studio, Cubase, FL Studio, Logic Pro, Maschine &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.londonamp.com/&#34;&gt;London Academy of Music Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.macprovideo.com/&#34;&gt;MacProVideo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pointblankmusicschool.com/&#34;&gt;Point Blank Music School&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.producertech.com/&#34;&gt;Producertech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.skillshare.com/&#34;&gt;Skillshare&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/&#34;&gt;Sonic Academy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/education/certified-training/&#34;&gt;Steinberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://ask.video/">Ask.Video</a> - Ableton, Cubase, Logic Pro, Native Instruments &hellip;</li>
+<li><a href="https://www.audiopluginguy.com/deals/">Audio Plugin Guy</a> - plugin deals</li>
+<li><a href="https://www.borntoproduce.com/">Born to Produce</a></li>
+<li><a href="https://www.coursera.org/">Coursera</a></li>
+<li><a href="https://www.groove3.com/">Groove3</a> - Ableton, BitWig Studio, Cubase, FL Studio, Logic Pro, Maschine &hellip;</li>
+<li><a href="https://www.londonamp.com/">London Academy of Music Production</a></li>
+<li><a href="https://www.macprovideo.com/">MacProVideo</a></li>
+<li><a href="https://www.pointblankmusicschool.com/">Point Blank Music School</a></li>
+<li><a href="https://www.producertech.com/">Producertech</a></li>
+<li><a href="https://www.skillshare.com/">Skillshare</a></li>
+<li><a href="https://www.sonicacademy.com/">Sonic Academy</a></li>
+<li><a href="https://www.steinberg.net/education/certified-training/">Steinberg</a></li>
+<li><a href="https://www.udemy.com/">Udemy</a></li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>News: Arturia Collection X</title>
       <link>https://jamesm.blog/music-production/news/arturia-v-collection-x/</link>
       <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/arturia-v-collection-x/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-instruments/v-collection/overview/&#34;&gt;V Collection X&lt;/a&gt; - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.&lt;/p&gt;&#xA;&lt;p&gt;Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-instruments/v-collection/overview/&#34;&gt;V Collection X&lt;/a&gt; - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.&lt;/p&gt;
+&lt;p&gt;Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p><a href="https://www.arturia.com/">[Arturia]</a> have just released <a href="https://www.arturia.com/products/software-instruments/v-collection/overview/">V Collection X</a> - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.</p>
+<p>Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.</p>
+<p>V Collection X now includes</p>
+<ul>
+<li>39 instruments</li>
+<li>2 new instruments: CP-70 &amp; Augmented Woodwinds</li>
+<li>2 added instruments: Mini Freak V &amp; Acid V</li>
+<li>2 additional augmented series: Augmented Grand Piano &amp; Augmented Brass</li>
+<li>10,000 high-quality presets</li>
+</ul>
+<h2 id="full-instrument-list">Full Instrument List</h2>
+<ul>
+<li>ARP 2600 V</li>
+<li>Acid V</li>
+<li><a href="https://www.arturia.com/products/software-instruments/analoglab/overview">Analog Lab Pro</a></li>
+<li>Augmented BRASS</li>
+<li>Augmented GRAND PIANO</li>
+<li>Augmented STRINGS</li>
+<li>Augmented VOICES</li>
+<li>Augmented WOODWINDS</li>
+<li>B-3 V</li>
+<li>Buchla Easel V</li>
+<li>CMI V</li>
+<li>CP-70 V</li>
+<li>CS-80 V</li>
+<li>CZ V</li>
+<li>Clavinet V</li>
+<li>DX7 V</li>
+<li>Emulator II V</li>
+<li>Farfisa V</li>
+<li>Hyper Rave</li>
+<li>Inner City Soul</li>
+<li>Inward Universe</li>
+<li>Jun-6 V</li>
+<li>Jup-8 V</li>
+<li>Korg MS-20 V</li>
+<li>Matrix-12 V</li>
+<li>Mellotron V</li>
+<li>Mini V</li>
+<li>Mini V 4</li>
+<li>MiniFreak V</li>
+<li>Modular V</li>
+<li>OP-Xa V</li>
+<li><a href="https://www.arturia.com/products/software-instruments/piano-v/overview">Piano V</a></li>
+<li><a href="https://www.arturia.com/products/software-instruments/pigments/overview">Pigments</a></li>
+<li>Prophet-5 V</li>
+<li>Prophet-VS V</li>
+<li>SEM V</li>
+<li>SQ80 V</li>
+<li>Solina V</li>
+<li>Stage-73 V</li>
+<li>Synclavier V</li>
+<li>Synthi V</li>
+<li>VOX Continental V</li>
+<li>Vocoder V</li>
+<li>Wurli V</li>
+<li>Wurli V 3</li>
+</ul>
+<h2 id="review">Review</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/9aB3kXS-KZU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="price">Price</h2>
+<p>Full Price: £599 (Upgrade: £399)</p>
+<h2 id="full-details">Full Details</h2>
+<p>Full details can be found <a href="https://www.arturia.com/products/software-instruments/v-collection/overview/">here</a></p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>News: Arturia FX Collection 4</title>
       <link>https://jamesm.blog/music-production/news/arturia-fx-collection-4/</link>
       <pubDate>Fri, 02 Jun 2023 09:53:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/arturia-fx-collection-4/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;FX Collection 4&lt;/a&gt; which now includes &lt;strong&gt;30&lt;/strong&gt; effects.&lt;/p&gt;&#xA;&lt;p&gt;There is currently an intro offer, you can get &lt;strong&gt;40% off&lt;/strong&gt; until 20th June 2023&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;List price: £429&lt;/li&gt;&#xA;&lt;li&gt;Discounted price: &lt;strong&gt;£257&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re an owner of other Arturia products you will likely get an even bigger discount&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The following effects have been added since collection 3;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rotary-cls-222/overview/&#34;&gt;Rotary CLS-222&lt;/a&gt; - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/dist-coldfire/overview/&#34;&gt;Dist COLDFIRE&lt;/a&gt; - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/filter-ms-20/overview/&#34;&gt;Filter MS-20&lt;/a&gt; - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rev-lx-24/overview/&#34;&gt;Rev LX-24&lt;/a&gt; - an enhanced virtual replica of a retro ambience box that defined reverb for a generation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Full details can be found &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;FX Collection 4&lt;/a&gt; which now includes &lt;strong&gt;30&lt;/strong&gt; effects.&lt;/p&gt;
+&lt;p&gt;There is currently an intro offer, you can get &lt;strong&gt;40% off&lt;/strong&gt; until 20th June 2023&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;List price: £429&lt;/li&gt;
+&lt;li&gt;Discounted price: &lt;strong&gt;£257&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re an owner of other Arturia products you will likely get an even bigger discount&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following effects have been added since collection 3;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rotary-cls-222/overview/&#34;&gt;Rotary CLS-222&lt;/a&gt; - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/dist-coldfire/overview/&#34;&gt;Dist COLDFIRE&lt;/a&gt; - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/filter-ms-20/overview/&#34;&gt;Filter MS-20&lt;/a&gt; - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rev-lx-24/overview/&#34;&gt;Rev LX-24&lt;/a&gt; - an enhanced virtual replica of a retro ambience box that defined reverb for a generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full details can be found &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p><a href="https://www.arturia.com/">[Arturia]</a> have just released <a href="https://www.arturia.com/products/software-effects/fx-collection/overview/">FX Collection 4</a> which now includes <strong>30</strong> effects.</p>
+<p>There is currently an intro offer, you can get <strong>40% off</strong> until 20th June 2023</p>
+<ul>
+<li>List price: £429</li>
+<li>Discounted price: <strong>£257</strong></li>
+<li><strong>Note:</strong> If you&rsquo;re an owner of other Arturia products you will likely get an even bigger discount</li>
+</ul>
+<p>The following effects have been added since collection 3;</p>
+<ul>
+<li><a href="https://www.arturia.com/products/software-effects/rotary-cls-222/overview/">Rotary CLS-222</a> - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds</li>
+<li><a href="https://www.arturia.com/products/software-effects/dist-coldfire/overview/">Dist COLDFIRE</a> - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks</li>
+<li><a href="https://www.arturia.com/products/software-effects/filter-ms-20/overview/">Filter MS-20</a> - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer</li>
+<li><a href="https://www.arturia.com/products/software-effects/rev-lx-24/overview/">Rev LX-24</a> - an enhanced virtual replica of a retro ambience box that defined reverb for a generation</li>
+</ul>
+<p>Full details can be found <a href="https://www.arturia.com/products/software-effects/fx-collection/overview/">here</a></p>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h3 id="fx-collection-4--find-your-sonic-perfection--arturia">FX Collection 4 | Find your sonic perfection | ARTURIA</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/oMFvznb9xI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="exploring-arturia-fx-collection-4">Exploring Arturia FX Collection 4</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/fP6EVlvjKPE?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="the-arturia-fx-collection-4-is-a-must-have--now-with-rotary-fx-plugin">The Arturia Fx Collection 4 is a Must-have ! Now with Rotary fx plugin</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Y6Fo4xWN_W8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>News: Native Instruments Sale (50% off)</title>
       <link>https://jamesm.blog/music-production/news/ni-summer-of-sound-2023/</link>
       <pubDate>Fri, 26 May 2023 07:01:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/ni-summer-of-sound-2023/</guid>
-      <description>&lt;p&gt;Native Instruments&amp;rsquo; amazing Summer of Sound is back.&lt;/p&gt;&#xA;&lt;p&gt;Get &lt;strong&gt;50% off&lt;/strong&gt; all KOMPLETE 14 upgrades, step up to the latest instruments and effects, or save on a range of expansions&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;Komplete 14 upgrades&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/traktor/&#34;&gt;Traktor Pro 3 updates&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/instruments-effects/&#34;&gt;Instrument &amp;amp; effect upgrades&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/izotope/&#34;&gt;iZotope&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All offers end on &lt;strong&gt;6th July 2023&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;See the full details here;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://jamesm.blog/music-production/news/images/ni-summer-of-sound-2023.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Summer of Sound Sale (2023)&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;p&gt;Native Instruments&amp;rsquo; amazing Summer of Sound is back.&lt;/p&gt;
+&lt;p&gt;Get &lt;strong&gt;50% off&lt;/strong&gt; all KOMPLETE 14 upgrades, step up to the latest instruments and effects, or save on a range of expansions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;Komplete 14 upgrades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/traktor/&#34;&gt;Traktor Pro 3 updates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/instruments-effects/&#34;&gt;Instrument &amp;amp; effect upgrades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/izotope/&#34;&gt;iZotope&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All offers end on &lt;strong&gt;6th July 2023&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;See the full details here;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/music-production/news/images/ni-summer-of-sound-2023.jpg&#34;/&gt; &lt;figcaption&gt;
+            Summer of Sound Sale (2023)
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+      <content:encoded><![CDATA[<p>Native Instruments&rsquo; amazing Summer of Sound is back.</p>
+<p>Get <strong>50% off</strong> all KOMPLETE 14 upgrades, step up to the latest instruments and effects, or save on a range of expansions</p>
+<ul>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/">Komplete 14 upgrades</a></li>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/traktor/">Traktor Pro 3 updates</a></li>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/instruments-effects/">Instrument &amp; effect upgrades</a></li>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/izotope/">iZotope</a></li>
+</ul>
+<p>All offers end on <strong>6th July 2023</strong></p>
+<p>See the full details here;</p>
+<ul>
+<li><a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/">https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/</a></li>
+</ul>
+<figure>
+    <img loading="lazy" src="/music-production/news/images/ni-summer-of-sound-2023.jpg"/> <figcaption>
+            Summer of Sound Sale (2023)
+        </figcaption>
+</figure>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>News: Ableton Push 3</title>
       <link>https://jamesm.blog/music-production/news/ableton-push-3/</link>
       <pubDate>Tue, 23 May 2023 14:53:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/ableton-push-3/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;Ableton have just announced they have a new version of their &lt;a href=&#34;https://www.ableton.com/en/push/&#34;&gt;Push&lt;/a&gt; controller&#xA;&lt;figure&gt;&lt;img src=&#34;https://jamesm.blog/music-production/news/images/ableton-push-standalone.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Ableton Push 3 Standalone&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;there-are-2-configurations&#34;&gt;There are 2 configurations&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Push 3 Standalone&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Push 3&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;£1,669&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;£879&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Use Push as a standalone instrument&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Connect Push to your computer&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;64 expressive pads&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;64 expressive pads&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Built-in audio interface&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Built-in audio interface&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Intel 11th Gen Core™ i3-1115G4 processor with 8GB of RAM&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Add a processor, battery and hard drive later &lt;a href=&#34;https://www.ableton.com/en/push/#:~:text=using%20the%20Upgrade%20Kit%C2%A0%E2%80%BA/&#34;&gt;using the Upgrade Kit&lt;/a&gt; - £879 (available late 2023)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Built-in lithium battery with up to 2.5 hours play time&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Built-in 256GB SSD hard drive&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Replace processor, battery and hard drive as technology improves&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;full-comparison&#34;&gt;Full Comparison&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/push/tech-specs/#compare-configurations-for-push&#34;&gt;https://www.ableton.com/en/push/tech-specs/#compare-configurations-for-push&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;&#xA;&lt;h3 id=&#34;introducing-push-3-an-expressive-standalone-instrument&#34;&gt;Introducing Push 3: An expressive standalone instrument&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/qcGUgp6yo_k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;5-cool-features-of-ableton-push-3&#34;&gt;5 Cool Features of ABLETON PUSH 3&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/VLxOPnCumjM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Ableton have just announced they have a new version of their &lt;a href=&#34;https://www.ableton.com/en/push/&#34;&gt;Push&lt;/a&gt; controller
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/music-production/news/images/ableton-push-standalone.jpg&#34;/&gt; &lt;figcaption&gt;
+            Ableton Push 3 Standalone
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;there-are-2-configurations&#34;&gt;There are 2 configurations&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Push 3 Standalone&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Push 3&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;£1,669&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;£879&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Use Push as a standalone instrument&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Connect Push to your computer&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;64 expressive pads&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;64 expressive pads&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Built-in audio interface&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Built-in audio interface&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Intel 11th Gen Core™ i3-1115G4 processor with 8GB of RAM&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Add a processor, battery and hard drive later &lt;a href=&#34;https://www.ableton.com/en/push/#:~:text=using%20the%20Upgrade%20Kit%C2%A0%E2%80%BA/&#34;&gt;using the Upgrade Kit&lt;/a&gt; - £879 (available late 2023)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Built-in lithium battery with up to 2.5 hours play time&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Built-in 256GB SSD hard drive&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Replace processor, battery and hard drive as technology improves&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;full-comparison&#34;&gt;Full Comparison&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/push/tech-specs/#compare-configurations-for-push&#34;&gt;https://www.ableton.com/en/push/tech-specs/#compare-configurations-for-push&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
+&lt;h3 id=&#34;introducing-push-3-an-expressive-standalone-instrument&#34;&gt;Introducing Push 3: An expressive standalone instrument&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/qcGUgp6yo_k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;5-cool-features-of-ableton-push-3&#34;&gt;5 Cool Features of ABLETON PUSH 3&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/VLxOPnCumjM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>Ableton have just announced they have a new version of their <a href="https://www.ableton.com/en/push/">Push</a> controller
+<figure>
+    <img loading="lazy" src="/music-production/news/images/ableton-push-standalone.jpg"/> <figcaption>
+            Ableton Push 3 Standalone
+        </figcaption>
+</figure>
+</p>
+<h3 id="there-are-2-configurations">There are 2 configurations</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Push 3 Standalone</th>
+          <th style="text-align: left">Push 3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">£1,669</td>
+          <td style="text-align: left">£879</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Use Push as a standalone instrument</td>
+          <td style="text-align: left">Connect Push to your computer</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">64 expressive pads</td>
+          <td style="text-align: left">64 expressive pads</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Built-in audio interface</td>
+          <td style="text-align: left">Built-in audio interface</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Intel 11th Gen Core™ i3-1115G4 processor with 8GB of RAM</td>
+          <td style="text-align: left">Add a processor, battery and hard drive later <a href="https://www.ableton.com/en/push/#:~:text=using%20the%20Upgrade%20Kit%C2%A0%E2%80%BA/">using the Upgrade Kit</a> - £879 (available late 2023)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Built-in lithium battery with up to 2.5 hours play time</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Built-in 256GB SSD hard drive</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Replace processor, battery and hard drive as technology improves</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="full-comparison">Full Comparison</h3>
+<ul>
+<li><a href="https://www.ableton.com/en/push/tech-specs/#compare-configurations-for-push">https://www.ableton.com/en/push/tech-specs/#compare-configurations-for-push</a></li>
+</ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h3 id="introducing-push-3-an-expressive-standalone-instrument">Introducing Push 3: An expressive standalone instrument</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/qcGUgp6yo_k?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="5-cool-features-of-ableton-push-3">5 Cool Features of ABLETON PUSH 3</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/VLxOPnCumjM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>1x on jamesm.blog</title>
     <link>https://jamesm.blog/tags/1x/</link>
     <description>Recent content in 1x on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Apr 2024 22:26:14 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/1x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Apr 2024 22:26:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/1x/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1X - Eve</title>
       <link>https://jamesm.blog/ai/1x-eve/</link>
       <pubDate>Sun, 21 Apr 2024 22:26:14 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/1x-eve/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;alt&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;&#xA;&lt;p&gt;Here are some key features of 1X EVE:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed for safe interaction with humans due to its soft and organic-inspired mechanics.&lt;/li&gt;&#xA;&lt;li&gt;Can navigate human environments by opening doors, using elevators, and fitting into workspaces.&lt;/li&gt;&#xA;&lt;li&gt;Equipped with advanced language processing and can understand and respond to natural language commands.&lt;/li&gt;&#xA;&lt;li&gt;Learns and adapts through embodied artificial intelligence.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2024-04-21-how-1x-will-beat-tesla&#34;&gt;[2024-04-21] How 1X Will Beat Tesla!&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio&#34;&gt;[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio&lt;/h3&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;
+&lt;p&gt;Here are some key features of 1X EVE:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed for safe interaction with humans due to its soft and organic-inspired mechanics.&lt;/li&gt;
+&lt;li&gt;Can navigate human environments by opening doors, using elevators, and fitting into workspaces.&lt;/li&gt;
+&lt;li&gt;Equipped with advanced language processing and can understand and respond to natural language commands.&lt;/li&gt;
+&lt;li&gt;Learns and adapts through embodied artificial intelligence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
+&lt;h3 id=&#34;2024-04-21-how-1x-will-beat-tesla&#34;&gt;[2024-04-21] How 1X Will Beat Tesla!&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio&#34;&gt;[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/1X-Eve.jpg" type="" alt="alt"  /></p>
+<h2 id="overview">Overview</h2>
+<p>1X EVE is an android worker designed by <a href="https://www.1x.tech/">1X Technologies</a>. It&rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.</p>
+<p>Here are some key features of 1X EVE:</p>
+<ul>
+<li>Designed for safe interaction with humans due to its soft and organic-inspired mechanics.</li>
+<li>Can navigate human environments by opening doors, using elevators, and fitting into workspaces.</li>
+<li>Equipped with advanced language processing and can understand and respond to natural language commands.</li>
+<li>Learns and adapts through embodied artificial intelligence.</li>
+</ul>
+<h2 id="youtube">YouTube</h2>
+<h3 id="2024-04-21-how-1x-will-beat-tesla">[2024-04-21] How 1X Will Beat Tesla!</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio">[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

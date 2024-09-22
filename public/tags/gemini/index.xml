@@ -1,26 +1,135 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gemini on jamesm.blog</title>
     <link>https://jamesm.blog/tags/gemini/</link>
     <description>Recent content in Gemini on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 07:16:25 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/gemini/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Mar 2024 07:16:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/gemini/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Gemini Ultra</title>
       <link>https://jamesm.blog/ai/google-gemini-ultra/</link>
       <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/google-gemini-ultra/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here&amp;rsquo;s what makes it special:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Unmatched Performance&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;State-of-the-Art: Outperforms previous models on various benchmarks, including tasks related to text, code, and more [3].&lt;/li&gt;&#xA;&lt;li&gt;MMLU Champion: Achieves a score of 90.0% on the Massive Multitask Language Understanding (MMLU) benchmark, surpassing human experts for the first time [2]. MMLU tests a broad range of subjects, demanding both knowledge and problem-solving skills.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Advanced Features&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here&amp;rsquo;s what makes it special:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unmatched Performance&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;State-of-the-Art: Outperforms previous models on various benchmarks, including tasks related to text, code, and more [3].&lt;/li&gt;
+&lt;li&gt;MMLU Champion: Achieves a score of 90.0% on the Massive Multitask Language Understanding (MMLU) benchmark, surpassing human experts for the first time [2]. MMLU tests a broad range of subjects, demanding both knowledge and problem-solving skills.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Advanced Features&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here&rsquo;s what makes it special:</p>
+<p><strong>Unmatched Performance</strong></p>
+<ul>
+<li>State-of-the-Art: Outperforms previous models on various benchmarks, including tasks related to text, code, and more [3].</li>
+<li>MMLU Champion: Achieves a score of 90.0% on the Massive Multitask Language Understanding (MMLU) benchmark, surpassing human experts for the first time [2]. MMLU tests a broad range of subjects, demanding both knowledge and problem-solving skills.</li>
+</ul>
+<p><strong>Advanced Features</strong></p>
+<ul>
+<li>While specific details about its functionalities are likely still under development, we can expect it to possess all the strengths of Gemini Advanced, including:
+<ul>
+<li>Multimodal reasoning for analyzing combined text and visual information.</li>
+<li>Expertise in coding, understanding, explaining, and generating code across various languages.</li>
+<li>Enhanced creative capabilities to brainstorm ideas and craft diverse digital content formats.</li>
+</ul>
+</li>
+<li>On top of these, Gemini Ultra might offer even more advanced features that haven&rsquo;t been publicly revealed yet.</li>
+</ul>
+<p><strong>Availability</strong></p>
+<ul>
+<li>Unlike the base Gemini and the mobile-accessible Gemini Advanced (part of Google One AI Premium), Gemini Ultra is likely not widely available yet. It might be in a limited access or beta phase initially [4, 6].</li>
+</ul>
+<p>Google Gemini Ultra is a cutting-edge AI model pushing the boundaries of language understanding and generation. Its capabilities are expected to be significant for various fields,  but its accessibility might be limited for now.</p>
+<h2 id="youtube">YouTube</h2>
+<h3 id="googles-gemini-ultra-10-first-look---breakdown-and-testing">Google’s GEMINI ULTRA 1.0 First Look - Breakdown and Testing</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/NuPREI6mB0g?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="googles-newest-and-most-capable-ai--gemini">Google&rsquo;s newest and most capable AI | Gemini</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/jV1vkHv4zq8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Google Gemini Advanced</title>
       <link>https://jamesm.blog/ai/google-gemini-advanced/</link>
       <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Advanced Capabilities&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Multimodal Reasoning: Can analyze and understand complex information combining text and visuals.&lt;/li&gt;&#xA;&lt;li&gt;Coding Expertise: Understands, explains, and generates code in various programming languages.&lt;/li&gt;&#xA;&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Enhanced User Experience&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.&lt;/li&gt;&#xA;&lt;li&gt;Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses.&lt;/li&gt;&#xA;&lt;li&gt;Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions.&lt;/li&gt;&#xA;&lt;li&gt;Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Advanced Capabilities&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multimodal Reasoning: Can analyze and understand complex information combining text and visuals.&lt;/li&gt;
+&lt;li&gt;Coding Expertise: Understands, explains, and generates code in various programming languages.&lt;/li&gt;
+&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Enhanced User Experience&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.&lt;/li&gt;
+&lt;li&gt;Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses.&lt;/li&gt;
+&lt;li&gt;Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions.&lt;/li&gt;
+&lt;li&gt;Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.</p>
+<p><strong>Advanced Capabilities</strong></p>
+<ul>
+<li>Multimodal Reasoning: Can analyze and understand complex information combining text and visuals.</li>
+<li>Coding Expertise: Understands, explains, and generates code in various programming languages.</li>
+<li>Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content.</li>
+</ul>
+<p><strong>Enhanced User Experience</strong></p>
+<ul>
+<li>Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.</li>
+<li>Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses.</li>
+<li>Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions.</li>
+<li>Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches.</li>
+</ul>
+<p><strong>Accessibility</strong></p>
+<ul>
+<li>Mobile App: Available through a mobile app for on-the-go use.</li>
+<li>Trial and Subscription: Offered as part of the Google One AI Premium Plan, with a free two-month trial.</li>
+</ul>
+<p>Gemini Advanced is designed for users who require more in-depth functionalities from a language model, be it for advanced coding assistance, creative content generation, or personalized learning experiences.</p>
+<h2 id="youtube">YouTube</h2>
+<h3 id="new-google-gemini-is-here-is-it-better-than-chatgpt">NEW Google Gemini Is Here! Is It Better Than ChatGPT?</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/l3ArneTKv_0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="googles-newest-and-most-capable-ai--gemini">Google&rsquo;s newest and most capable AI | Gemini</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/jV1vkHv4zq8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

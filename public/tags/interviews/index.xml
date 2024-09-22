@@ -1,19 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Interviews on jamesm.blog</title>
     <link>https://jamesm.blog/tags/interviews/</link>
     <description>Recent content in Interviews on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Jun 2024 09:27:14 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 09:27:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Geoffrey Hinton</title>
       <link>https://jamesm.blog/ai/geoffrey-hinton/</link>
       <pubDate>Sun, 16 Jun 2024 09:27:14 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/geoffrey-hinton/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;alt&#34; src=&#34;https://jamesm.blog/images/Geoffrey-Hinton.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;Geoffrey Hinton is a big name in artificial intelligence (AI), particularly when it comes to  artificial neural networks. He&amp;rsquo;s a British-Canadian computer scientist and cognitive psychologist who&amp;rsquo;s achieved some major milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pioneering Deep Learning&lt;/strong&gt;: Hinton&amp;rsquo;s research helped lay the groundwork for the resurgence of deep learning, a powerful technique that enables computers to learn from vast amounts of data. This has led to advancements in areas like image recognition, speech recognition, and natural language processing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backpropagation Advocate&lt;/strong&gt;: He was instrumental in reviving the idea of backpropagation, a learning algorithm that allows neural networks to adjust and improve their performance.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Academia and Industry&lt;/strong&gt;: Hinton spent time at both the University of Toronto and Google (until 2023), where he co-founded the Vector Institute in Toronto and worked on Google Brain, a deep learning research team.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Awards and Recognition&lt;/strong&gt;: His contributions have been widely recognized. He&amp;rsquo;s a recipient of the prestigious Turing Award, often called the &amp;ldquo;Nobel Prize of computing,&amp;rdquo; among many other accolades.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;interviews&#34;&gt;Interviews&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2024-06-15-twitter&#34;&gt;[2024-06-15] Twitter&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://x.com/elonmusk/status/1801976488251814048&#34;&gt;https://x.com/elonmusk/status/1801976488251814048&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Geoffrey-Hinton.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Geoffrey Hinton is a big name in artificial intelligence (AI), particularly when it comes to  artificial neural networks. He&amp;rsquo;s a British-Canadian computer scientist and cognitive psychologist who&amp;rsquo;s achieved some major milestones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pioneering Deep Learning&lt;/strong&gt;: Hinton&amp;rsquo;s research helped lay the groundwork for the resurgence of deep learning, a powerful technique that enables computers to learn from vast amounts of data. This has led to advancements in areas like image recognition, speech recognition, and natural language processing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backpropagation Advocate&lt;/strong&gt;: He was instrumental in reviving the idea of backpropagation, a learning algorithm that allows neural networks to adjust and improve their performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academia and Industry&lt;/strong&gt;: Hinton spent time at both the University of Toronto and Google (until 2023), where he co-founded the Vector Institute in Toronto and worked on Google Brain, a deep learning research team.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Awards and Recognition&lt;/strong&gt;: His contributions have been widely recognized. He&amp;rsquo;s a recipient of the prestigious Turing Award, often called the &amp;ldquo;Nobel Prize of computing,&amp;rdquo; among many other accolades.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;interviews&#34;&gt;Interviews&lt;/h2&gt;
+&lt;h3 id=&#34;2024-06-15-twitter&#34;&gt;[2024-06-15] Twitter&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://x.com/elonmusk/status/1801976488251814048&#34;&gt;https://x.com/elonmusk/status/1801976488251814048&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/Geoffrey-Hinton.jpg" type="" alt="alt"  /></p>
+<h2 id="about">About</h2>
+<p>Geoffrey Hinton is a big name in artificial intelligence (AI), particularly when it comes to  artificial neural networks. He&rsquo;s a British-Canadian computer scientist and cognitive psychologist who&rsquo;s achieved some major milestones:</p>
+<ul>
+<li><strong>Pioneering Deep Learning</strong>: Hinton&rsquo;s research helped lay the groundwork for the resurgence of deep learning, a powerful technique that enables computers to learn from vast amounts of data. This has led to advancements in areas like image recognition, speech recognition, and natural language processing.</li>
+<li><strong>Backpropagation Advocate</strong>: He was instrumental in reviving the idea of backpropagation, a learning algorithm that allows neural networks to adjust and improve their performance.</li>
+<li><strong>Academia and Industry</strong>: Hinton spent time at both the University of Toronto and Google (until 2023), where he co-founded the Vector Institute in Toronto and worked on Google Brain, a deep learning research team.</li>
+<li><strong>Awards and Recognition</strong>: His contributions have been widely recognized. He&rsquo;s a recipient of the prestigious Turing Award, often called the &ldquo;Nobel Prize of computing,&rdquo; among many other accolades.</li>
+</ul>
+<h2 id="interviews">Interviews</h2>
+<h3 id="2024-06-15-twitter">[2024-06-15] Twitter</h3>
+<p><a href="https://x.com/elonmusk/status/1801976488251814048">https://x.com/elonmusk/status/1801976488251814048</a></p>
+<h3 id="2024-06-07-keynote-interview-with-geoffrey-hinton-remote-and-nicholas-thompson-in-person">[2024-06-07] Keynote interview with Geoffrey Hinton (remote) and Nicholas Thompson (in-person)</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/dNjClDI6zT4?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2024-05-20-geoffrey-hinton--on-working-with-ilya-choosing-problems-and-the-power-of-intuition">[2024-05-20] Geoffrey Hinton | On working with Ilya, choosing problems, and the power of intuition</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/n4IQOBka8bc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2024-02-29-prof-geoffrey-hinton---will-digital-intelligence-replace-biological-intelligence-romanes-lecture">[2024-02-29] Prof. Geoffrey Hinton - &ldquo;Will digital intelligence replace biological intelligence?&rdquo; Romanes Lecture</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/N1TEjTeQeg0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2023-10-09-godfather-of-ai-geoffrey-hinton-the-60-minutes-interview">[2023-10-09] &ldquo;Godfather of AI&rdquo; Geoffrey Hinton: The 60 Minutes Interview</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/qrvK_KuIeJk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2023-06-22-the-godfather-in-conversation-why-geoffrey-hinton-is-worried-about-the-future-of-ai">[2023-06-22] The Godfather in Conversation: Why Geoffrey Hinton is worried about the future of AI</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/-9cW4Gcn5WY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2023-03-25-godfather-of-artificial-intelligence-talks-impact-and-potential-of-ai">[2023-03-25] &ldquo;Godfather of artificial intelligence&rdquo; talks impact and potential of AI</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/qpoRO378qRY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

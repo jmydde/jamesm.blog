@@ -1,19 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Digital on jamesm.blog</title>
     <link>https://jamesm.blog/tags/digital/</link>
     <description>Recent content in Digital on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Apr 2024 06:59:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/digital/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 06:59:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/digital/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music Production: Analogue vs Digital Synths</title>
       <link>https://jamesm.blog/music-production/analogue-vs-digital-synths/</link>
       <pubDate>Sat, 20 Apr 2024 06:59:00 +0000</pubDate>
+      
       <guid>https://jamesm.blog/music-production/analogue-vs-digital-synths/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Analog &amp;amp; digital synthesizers are both electronic instruments that create sound, but they differ in how they generate and manipulate that sound. Here&amp;rsquo;s a list of the key differences.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Analog Synths&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use electrical circuits to produce sound waves&lt;/li&gt;&#xA;&lt;li&gt;These circuits can be influenced by various knobs and sliders, creating a warm, rich sound with subtle imperfections&lt;/li&gt;&#xA;&lt;li&gt;Pros&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Warm, organic sound, sought-after for genres like classic electronic music, &amp;ldquo;hands-on&amp;rdquo; approach to sound design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Cons&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Can be expensive, limited in features compared to digital synths, less polyphony&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Digital Synths&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Analog &amp;amp; digital synthesizers are both electronic instruments that create sound, but they differ in how they generate and manipulate that sound. Here&amp;rsquo;s a list of the key differences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Analog Synths&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use electrical circuits to produce sound waves&lt;/li&gt;
+&lt;li&gt;These circuits can be influenced by various knobs and sliders, creating a warm, rich sound with subtle imperfections&lt;/li&gt;
+&lt;li&gt;Pros
+&lt;ul&gt;
+&lt;li&gt;Warm, organic sound, sought-after for genres like classic electronic music, &amp;ldquo;hands-on&amp;rdquo; approach to sound design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cons
+&lt;ul&gt;
+&lt;li&gt;Can be expensive, limited in features compared to digital synths, less polyphony&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Digital Synths&lt;/strong&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p>Analog &amp; digital synthesizers are both electronic instruments that create sound, but they differ in how they generate and manipulate that sound. Here&rsquo;s a list of the key differences.</p>
+<p><strong>Analog Synths</strong></p>
+<ul>
+<li>Use electrical circuits to produce sound waves</li>
+<li>These circuits can be influenced by various knobs and sliders, creating a warm, rich sound with subtle imperfections</li>
+<li>Pros
+<ul>
+<li>Warm, organic sound, sought-after for genres like classic electronic music, &ldquo;hands-on&rdquo; approach to sound design</li>
+</ul>
+</li>
+<li>Cons
+<ul>
+<li>Can be expensive, limited in features compared to digital synths, less polyphony</li>
+</ul>
+</li>
+</ul>
+<p><strong>Digital Synths</strong></p>
+<ul>
+<li>Generate sound using digital representations of waveforms.</li>
+<li>They&rsquo;re essentially tiny computers with software that can create a wider variety of sounds, often including emulations of analog sounds</li>
+<li>Pros
+<ul>
+<li>More affordable, wider variety of sounds and effects, more features like sequencers and on-board arpeggiators, greater polyphony</li>
+</ul>
+</li>
+<li>Cons
+<ul>
+<li>May not sound as warm as analog
+<ul>
+<li>However as technology has improved over time its now becoming impossible for the human ear to tell the difference, see this video
+<ul>
+<li><a href="#why-modern-digital-synthesis-is-more-analog-than-analog">Why Modern Digital Synthesis Is More Analog Than Analog</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Additional Considerations</strong></p>
+<ul>
+<li>Playing Style
+<ul>
+<li>If you prefer a more hands-on, immediate sound creation process, analog might be a good fit. For those who like flexibility and experimentation, digital could be better.</li>
+</ul>
+</li>
+<li>Genre
+<ul>
+<li>Certain genres are typically associated with analog sounds
+<ul>
+<li>classic subtractive synthesis sounds in electronic music</li>
+<li>digital synths can cover a wider range of genres</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Verdict</strong></p>
+<ul>
+<li>There&rsquo;s no single &ldquo;better&rdquo; choice. It depends on your needs and preferences;
+<ul>
+<li>Choose Analog
+<ul>
+<li>If you prioritize a warm, classic sound, appreciate a more hands-on approach, and are playing genres that favor analog textures</li>
+</ul>
+</li>
+<li>Choose Digital
+<ul>
+<li>If you want affordability, a broader sonic palette, features like sequencing and effects, or need high polyphony</li>
+</ul>
+</li>
+<li>Hybrid Option
+<ul>
+<li>Many modern synths are digital but emulate analog circuitry to capture the classic sound. These &ldquo;virtual analog&rdquo; synths can be a good compromise</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h3 id="why-modern-digital-synthesis-is-more-analog-than-analog">Why Modern Digital Synthesis Is More Analog Than Analog</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/kk-3vXOAtVo?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="is-analog-gear-really-worth-it">Is Analog Gear REALLY worth it?</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/0LNZQRI0yr0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="analog-vs-digital-polysynth---is-there-really-a-difference">Analog vs Digital Polysynth - is there really a difference?</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/PzyJ7AoZdfA?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="analog-vs-digital-synths--which-is-right-for-you">Analog vs. Digital Synths — Which is Right for You?</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/NrCjtVZZLTw?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="analog-synths-vs-digital-synths-quiz">Analog Synths vs Digital Synths Quiz</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/yOAKWwrTvho?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="comparing-analogue-vs-digital-synthesis">Comparing Analogue Vs Digital Synthesis</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/BKUfytjA5C4?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

@@ -1,40 +1,479 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal Development on jamesm.blog</title>
     <link>https://jamesm.blog/tags/personal-development/</link>
     <description>Recent content in Personal Development on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Jul 2024 10:47:39 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/personal-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jul 2024 10:47:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/personal-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal Development</title>
       <link>https://jamesm.blog/personal-development/</link>
       <pubDate>Sat, 27 Jul 2024 10:47:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/personal-development/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>Tracking Health Data</title>
       <link>https://jamesm.blog/personal-development/tracking-health-data/</link>
       <pubDate>Sat, 27 Jul 2024 10:47:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/personal-development/tracking-health-data/</guid>
-      <description>&lt;h2 id=&#34;blood-testing&#34;&gt;Blood Testing&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://thriva.co/&#34;&gt;Thriva&lt;/a&gt; - highly recommended, picks up on critical things even my local GP didn&amp;rsquo;t - they even dismissed the readings saying these &amp;lsquo;at home&amp;rsquo; tests are not accurate and just trying to make money out me !  It turned out that the Thriva readings were 100% accurate and flagged some potentially serious conditions.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Thriva is a health-tech company that offers at-home blood testing and personalized health advice. It aims to empower individuals to proactively manage their health by providing insights into their overall well-being.  &lt;/li&gt;&#xA;&lt;li&gt;Understand your internal health, stay ahead of chronic diseases, and extend your healthspan with home blood tests and actionable next steps.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cholesterol (lipid profile), creatinine, cRP, ferritin, folate, free testosterone, hbA1c (diabetes), liver blood test, omega 3 &amp;amp; 6, total testosterone, vitamin B12 (active), vitamin B12 (total), vitamin B9 &amp;amp; B12 (active), vitamin D&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Note: These at-home blood tests are not a substitute for professional medical care.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;health-apps-ios&#34;&gt;Health Apps (iOS)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/apple-health/id1242545199&#34;&gt;Apple Health&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apple Health is a comprehensive platform designed to help you manage and understand your health data.  It collects information from your iPhone, Apple Watch, and compatible third-party apps to provide a holistic view of your well-being&lt;/li&gt;&#xA;&lt;li&gt;Fitness and Activity&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Steps, distance, and calories burned&lt;/li&gt;&#xA;&lt;li&gt;Workouts: Type, duration, intensity, and calories burned&lt;/li&gt;&#xA;&lt;li&gt;Heart rate: Resting, active, and workout heart rate  &lt;/li&gt;&#xA;&lt;li&gt;Sleep: Duration, sleep cycles, heart rate, and blood oxygen levels  &lt;/li&gt;&#xA;&lt;li&gt;Exercise minutes  &lt;/li&gt;&#xA;&lt;li&gt;Stand hours&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Health Metrics&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Body measurements: Height, weight, body mass index (BMI)  &lt;/li&gt;&#xA;&lt;li&gt;Vital signs: Heart rate, blood pressure, blood oxygen levels&lt;/li&gt;&#xA;&lt;li&gt;Reproductive health: Menstrual cycle, fertility, pregnancy  &lt;/li&gt;&#xA;&lt;li&gt;Nutrition: Calories consumed, macronutrients, micronutrients&lt;/li&gt;&#xA;&lt;li&gt;Medications: Name, dosage, schedule&lt;/li&gt;&#xA;&lt;li&gt;Medical ID: Emergency contact information and medical conditions  &lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Additional Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mindfulness: Meditation and relaxation sessions  &lt;/li&gt;&#xA;&lt;li&gt;Environmental factors: Noise levels, air quality  &lt;/li&gt;&#xA;&lt;li&gt;Health records: Medical history, immunizations, allergies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/megafit-health-fitness-tool/id1397720108&#34;&gt;Megafit-Health Fitness Tool&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Measures &amp;amp; tracks the following&#xA;&lt;ul&gt;&#xA;&lt;li&gt;weight, Body Mass Index (BMI), body fat %, body fat weight, body water, bone mass, rate of subcutaneous fat, visceral fat levels, basal metabolism body age, muscle mass &amp;amp; resting calorie consumption data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Requires a smart scale&lt;/li&gt;&#xA;&lt;li&gt;Syncs to Apple Health app&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/zordai/id1635093895&#34;&gt;Zordai&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Syncs to Apple Health app&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;health-suppliments&#34;&gt;Health Suppliments&lt;/h2&gt;&#xA;&lt;p&gt;While it&amp;rsquo;s best to obtain nutrients from food, supplements can be beneficial in certain cases.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;blood-testing&#34;&gt;Blood Testing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thriva.co/&#34;&gt;Thriva&lt;/a&gt; - highly recommended, picks up on critical things even my local GP didn&amp;rsquo;t - they even dismissed the readings saying these &amp;lsquo;at home&amp;rsquo; tests are not accurate and just trying to make money out me !  It turned out that the Thriva readings were 100% accurate and flagged some potentially serious conditions.
+&lt;ul&gt;
+&lt;li&gt;Thriva is a health-tech company that offers at-home blood testing and personalized health advice. It aims to empower individuals to proactively manage their health by providing insights into their overall well-being.  &lt;/li&gt;
+&lt;li&gt;Understand your internal health, stay ahead of chronic diseases, and extend your healthspan with home blood tests and actionable next steps.
+&lt;ul&gt;
+&lt;li&gt;Cholesterol (lipid profile), creatinine, cRP, ferritin, folate, free testosterone, hbA1c (diabetes), liver blood test, omega 3 &amp;amp; 6, total testosterone, vitamin B12 (active), vitamin B12 (total), vitamin B9 &amp;amp; B12 (active), vitamin D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Note: These at-home blood tests are not a substitute for professional medical care.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;health-apps-ios&#34;&gt;Health Apps (iOS)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/apple-health/id1242545199&#34;&gt;Apple Health&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Apple Health is a comprehensive platform designed to help you manage and understand your health data.  It collects information from your iPhone, Apple Watch, and compatible third-party apps to provide a holistic view of your well-being&lt;/li&gt;
+&lt;li&gt;Fitness and Activity
+&lt;ul&gt;
+&lt;li&gt;Steps, distance, and calories burned&lt;/li&gt;
+&lt;li&gt;Workouts: Type, duration, intensity, and calories burned&lt;/li&gt;
+&lt;li&gt;Heart rate: Resting, active, and workout heart rate  &lt;/li&gt;
+&lt;li&gt;Sleep: Duration, sleep cycles, heart rate, and blood oxygen levels  &lt;/li&gt;
+&lt;li&gt;Exercise minutes  &lt;/li&gt;
+&lt;li&gt;Stand hours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Health Metrics
+&lt;ul&gt;
+&lt;li&gt;Body measurements: Height, weight, body mass index (BMI)  &lt;/li&gt;
+&lt;li&gt;Vital signs: Heart rate, blood pressure, blood oxygen levels&lt;/li&gt;
+&lt;li&gt;Reproductive health: Menstrual cycle, fertility, pregnancy  &lt;/li&gt;
+&lt;li&gt;Nutrition: Calories consumed, macronutrients, micronutrients&lt;/li&gt;
+&lt;li&gt;Medications: Name, dosage, schedule&lt;/li&gt;
+&lt;li&gt;Medical ID: Emergency contact information and medical conditions  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Additional Features
+&lt;ul&gt;
+&lt;li&gt;Mindfulness: Meditation and relaxation sessions  &lt;/li&gt;
+&lt;li&gt;Environmental factors: Noise levels, air quality  &lt;/li&gt;
+&lt;li&gt;Health records: Medical history, immunizations, allergies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/megafit-health-fitness-tool/id1397720108&#34;&gt;Megafit-Health Fitness Tool&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Measures &amp;amp; tracks the following
+&lt;ul&gt;
+&lt;li&gt;weight, Body Mass Index (BMI), body fat %, body fat weight, body water, bone mass, rate of subcutaneous fat, visceral fat levels, basal metabolism body age, muscle mass &amp;amp; resting calorie consumption data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Requires a smart scale&lt;/li&gt;
+&lt;li&gt;Syncs to Apple Health app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/zordai/id1635093895&#34;&gt;Zordai&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Syncs to Apple Health app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;health-suppliments&#34;&gt;Health Suppliments&lt;/h2&gt;
+&lt;p&gt;While it&amp;rsquo;s best to obtain nutrients from food, supplements can be beneficial in certain cases.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="blood-testing">Blood Testing</h2>
+<ul>
+<li><a href="https://thriva.co/">Thriva</a> - highly recommended, picks up on critical things even my local GP didn&rsquo;t - they even dismissed the readings saying these &lsquo;at home&rsquo; tests are not accurate and just trying to make money out me !  It turned out that the Thriva readings were 100% accurate and flagged some potentially serious conditions.
+<ul>
+<li>Thriva is a health-tech company that offers at-home blood testing and personalized health advice. It aims to empower individuals to proactively manage their health by providing insights into their overall well-being.  </li>
+<li>Understand your internal health, stay ahead of chronic diseases, and extend your healthspan with home blood tests and actionable next steps.
+<ul>
+<li>Cholesterol (lipid profile), creatinine, cRP, ferritin, folate, free testosterone, hbA1c (diabetes), liver blood test, omega 3 &amp; 6, total testosterone, vitamin B12 (active), vitamin B12 (total), vitamin B9 &amp; B12 (active), vitamin D</li>
+</ul>
+</li>
+<li>Note: These at-home blood tests are not a substitute for professional medical care.</li>
+</ul>
+</li>
+</ul>
+<h2 id="health-apps-ios">Health Apps (iOS)</h2>
+<ul>
+<li><a href="https://apps.apple.com/us/app/apple-health/id1242545199">Apple Health</a>
+<ul>
+<li>Apple Health is a comprehensive platform designed to help you manage and understand your health data.  It collects information from your iPhone, Apple Watch, and compatible third-party apps to provide a holistic view of your well-being</li>
+<li>Fitness and Activity
+<ul>
+<li>Steps, distance, and calories burned</li>
+<li>Workouts: Type, duration, intensity, and calories burned</li>
+<li>Heart rate: Resting, active, and workout heart rate  </li>
+<li>Sleep: Duration, sleep cycles, heart rate, and blood oxygen levels  </li>
+<li>Exercise minutes  </li>
+<li>Stand hours</li>
+</ul>
+</li>
+<li>Health Metrics
+<ul>
+<li>Body measurements: Height, weight, body mass index (BMI)  </li>
+<li>Vital signs: Heart rate, blood pressure, blood oxygen levels</li>
+<li>Reproductive health: Menstrual cycle, fertility, pregnancy  </li>
+<li>Nutrition: Calories consumed, macronutrients, micronutrients</li>
+<li>Medications: Name, dosage, schedule</li>
+<li>Medical ID: Emergency contact information and medical conditions  </li>
+</ul>
+</li>
+<li>Additional Features
+<ul>
+<li>Mindfulness: Meditation and relaxation sessions  </li>
+<li>Environmental factors: Noise levels, air quality  </li>
+<li>Health records: Medical history, immunizations, allergies</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://apps.apple.com/us/app/megafit-health-fitness-tool/id1397720108">Megafit-Health Fitness Tool</a>
+<ul>
+<li>Measures &amp; tracks the following
+<ul>
+<li>weight, Body Mass Index (BMI), body fat %, body fat weight, body water, bone mass, rate of subcutaneous fat, visceral fat levels, basal metabolism body age, muscle mass &amp; resting calorie consumption data</li>
+</ul>
+</li>
+<li>Requires a smart scale</li>
+<li>Syncs to Apple Health app</li>
+</ul>
+</li>
+<li><a href="https://apps.apple.com/us/app/zordai/id1635093895">Zordai</a>
+<ul>
+<li>Syncs to Apple Health app</li>
+</ul>
+</li>
+</ul>
+<h2 id="health-suppliments">Health Suppliments</h2>
+<p>While it&rsquo;s best to obtain nutrients from food, supplements can be beneficial in certain cases.</p>
+<ul>
+<li><a href="https://www.amazon.co.uk/Magnesium-Tablets-Supports-Vegetarian-Formula/dp/B06Y2HS8L8/">Magnesium</a> - an essential mineral that plays a crucial role in numerous bodily functions
+<ul>
+<li>Benefits
+<ul>
+<li>Muscle and nerve function: Magnesium helps regulate muscle and nerve activity, contributing to relaxation and reducing muscle cramps.  </li>
+<li>Sleep quality: It supports better sleep by promoting relaxation.  </li>
+<li>Blood pressure regulation: Magnesium helps maintain healthy blood pressure levels.  </li>
+<li>Bone health: It contributes to bone strength and density.  </li>
+<li>Blood sugar control: Magnesium helps regulate blood sugar levels.  </li>
+<li>Heart health: It supports heart health by maintaining normal heart rhythm</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://naturya.com/products/spirulina-powder">Spirulina Powder</a> - highly recommended
+<ul>
+<li>Spirulina is a type of blue-green algae that is packed with nutrients. When dried and powdered, it becomes a popular dietary supplement known as spirulina powder.  
+<ul>
+<li>Nutritional Powerhouse: This superfood is renowned for its high concentration of
+<ul>
+<li>Protein: It&rsquo;s a complete protein, containing all essential amino acids.  </li>
+<li>Vitamins: Including B vitamins, vitamin E, and beta-carotene (a precursor to vitamin A).  </li>
+<li>Minerals: Such as iron, magnesium, and zinc.  </li>
+<li>Antioxidants: To protect cells from damage.  </li>
+</ul>
+</li>
+<li>Potential Benefits: While more research is needed, spirulina is often associated with
+<ul>
+<li>Improved immune function  </li>
+<li>Lower cholesterol levels  </li>
+<li>Reduced blood pressure  </li>
+<li>Boosted energy levels  </li>
+<li>Better blood sugar control  </li>
+</ul>
+</li>
+<li>How to Consume: Spirulina powder has a slightly salty, earthy taste. It can be added to
+<ul>
+<li>Smoothies  </li>
+<li>Juice  </li>
+<li>Yogurt</li>
+<li>Baked goods  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="smart-scales">Smart Scales</h2>
+<p>I can&rsquo;t recommend these highly enough, they don&rsquo;t just track your weight they track all of the following</p>
+<ul>
+<li>Weight, Body Mass Index (BMI), body fat, fat-free body weight, subcutaneous fat, visceral fat, body water, skeletal muscle, muscle mass, bone mass, protein, BMR &amp; metabolic age</li>
+<li><a href="https://www.desertcart.com.om/products/150036835-smart-scales-mpow-bluetooth-weighing-scales-body-fat-scales-digital-bmi-bathroom-scales-precision-body-composition-analyzer-for-13-physical-body-data-weight-bmi-muscle-etc-by-app-for-fitness-tracking">Mpow Bluetooth Weighing Scales</a>
+<ul>
+<li>Syncs with: Apple Health, Fitbit, Google Fit</li>
+<li>Note: I purchased this in 2019, it may not be available anymore</li>
+</ul>
+</li>
+<li><a href="https://amzn.eu/d/00m0mbgI">RENPHO Smart Scales</a>
+<ul>
+<li>Body Weight, Bluetooth Bathroom Scales with Smart App, Digital Weighing Scales Body Weight for Fitness Tracking, Elis 1 (ST/ST:LB/LB/KG)</li>
+<li>I purchased this in 2024 for my sister</li>
+</ul>
+</li>
+</ul>
+<h2 id="smart-watches">Smart Watches</h2>
+<ul>
+<li><a href="https://www.apple.com/uk/apple-watch-ultra-2/">Apple Watch Ultra 2</a>
+<ul>
+<li>S9 SiP Chip: This powerful chip delivers faster performance, enabling new features and improved responsiveness.</li>
+<li>Brighter Display: The display is even brighter, making it easier to read in various lighting conditions, especially outdoors.  </li>
+<li>Double Tap Gesture: A new way to interact with your watch using a simple double tap.  </li>
+<li>Siren: A louder siren can be activated to alert others in emergencies.  </li>
+<li>Flashlight Boost: Temporarily increases flashlight brightness for better visibility.  </li>
+<li>Expanded Operating Conditions: The watch can withstand extreme temperatures and altitudes.  </li>
+<li>Precision Finding for iPhone: Enhanced location accuracy for finding your iPhone.  </li>
+<li>On-device Siri: Siri can process requests directly on the watch without needing a connection.  </li>
+<li>Improved Battery Life: While specific numbers haven&rsquo;t been drastically changed, optimizations ensure efficient power usage.</li>
+<li>Advanced Health and Fitness Tracking: Includes features like ECG, heart rate monitoring, sleep tracking, and more.  </li>
+</ul>
+</li>
+<li><a href="https://www.aliexpress.com/i/1005004918283327.html">ZD8 Ultra Max Plus Series 8</a>
+<ul>
+<li>49mm Smart Watch</li>
+<li>2.2&quot; HD screen</li>
+<li>159 sports mode</li>
+<li>Titanium alloy</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>List of Personal Development Books</title>
       <link>https://jamesm.blog/personal-development/books/</link>
       <pubDate>Sun, 28 May 2023 09:02:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/personal-development/books/</guid>
-      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wisdomtheory.gumroad.com/l/100MM/&#34;&gt;100 Mental Models&lt;/a&gt; (&lt;a href=&#34;https://wisdomtheory.gumroad.com/&#34;&gt;Wisdom Theory&lt;/a&gt;) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics &amp;amp; history&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.navalmanack.com/&#34;&gt;Almanack of Naval Ravikant -  a guide to wealth and happiness&lt;/a&gt; -&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/17977529-choose-yourself/&#34;&gt;Choose Yourself: Be Happy, Make Millions, Live the Dream&lt;/a&gt; (&lt;a href=&#34;https://www.goodreads.com/author/show/740.James_Altucher/&#34;&gt;James Altucher&lt;/a&gt;) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/95887.Eat_That_Frog_/&#34;&gt;Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time&lt;/a&gt; (Brian Tracy)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/&#34;&gt;Ego Is the Enemy&lt;/a&gt; (Ryan Holiday)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/6235336/&#34;&gt;Get the Edge&lt;/a&gt; (Tony Robbins)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://brendon.com/blog/high-performancehabits/&#34;&gt;High Performance Habits&lt;/a&gt; (Brendon Burchard)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People/&#34;&gt;How to Win Friends and Influence People&lt;/a&gt; (Dale Carnegie)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Moonwalking_with_Einstein/&#34;&gt;Moonwalking with Einstein&lt;/a&gt; (&lt;a href=&#34;https://en.wikipedia.org/wiki/Joshua_Foer/&#34;&gt;Joshua Foer&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.virgin.com/branson-family/books/richard-branson/screw-it-lets-do-it/&#34;&gt;Screw It, Let&amp;rsquo;s Do It&lt;/a&gt; (Richard Branson)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/721609/&#34;&gt;Spark: The Revolutionary New Science of Exercise and the Brain&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.franklincovey.com/the-7-habits/&#34;&gt;The 7 Habits of Highly Effective People&lt;/a&gt; (Stephen R. Covey)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://us.macmillan.com/books/9781250159618/theinfluentialmind/&#34;&gt;The Influential Mind&lt;/a&gt; (Tali Sharot)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_Power_of_Positive_Thinking/&#34;&gt;The Power of Positive Thinking: A Practical Guide to Mastering the Problems of Everyday Living&lt;/a&gt; (Norman Vincent Peale)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.scotthyoung.com/blog/ultralearning/&#34;&gt;Ultralearning&lt;/a&gt; (&lt;a href=&#34;https://www.scotthyoung.com/&#34;&gt;Scott H. Young&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;audio-books&#34;&gt;Audio Books&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/12-Rules-for-Life-Audiobook/&#34;&gt;12 Rules for Life: An Antidote to Chaos&lt;/a&gt; (Jordan B. Peterson)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/25-Stories-I-Would-Tell-My-Younger-Self-Audiobook&#34;&gt;25 Stories I Would Tell My Younger Self&lt;/a&gt; (Dr. Julian Hosp)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Awaken-the-Giant-Within-Audiobook/&#34;&gt;Awaken the Giant Within&lt;/a&gt; (Tony Robbins)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Cognitive-Behavioral-Therapy-Audiobook/&#34;&gt;Cognitive Behavioral Therapy: Techniques for Retraining Your Brain&lt;/a&gt; (Jason M. Satterfield)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Power-of-Now-Audiobook/&#34;&gt;The Power of Now: A Guide to Spiritual Enlightenment&lt;/a&gt; (Eckhart Tolle)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Starfish-and-the-Spider-Audiobook&#34;&gt;The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations&lt;/a&gt; (Ori Brafman, Rod Beckstrom)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/&#34;&gt;The Subtle Art of Not Giving a F^ck&lt;/a&gt; (Mark Manson)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/&#34;&gt;Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills&lt;/a&gt; (Steven Novella)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Zero-to-One-Audiobook/&#34;&gt;Zero to One&lt;/a&gt; (Peter Thiel)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wisdomtheory.gumroad.com/l/100MM/&#34;&gt;100 Mental Models&lt;/a&gt; (&lt;a href=&#34;https://wisdomtheory.gumroad.com/&#34;&gt;Wisdom Theory&lt;/a&gt;) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics &amp;amp; history&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.navalmanack.com/&#34;&gt;Almanack of Naval Ravikant -  a guide to wealth and happiness&lt;/a&gt; -&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/17977529-choose-yourself/&#34;&gt;Choose Yourself: Be Happy, Make Millions, Live the Dream&lt;/a&gt; (&lt;a href=&#34;https://www.goodreads.com/author/show/740.James_Altucher/&#34;&gt;James Altucher&lt;/a&gt;) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/95887.Eat_That_Frog_/&#34;&gt;Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time&lt;/a&gt; (Brian Tracy)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/&#34;&gt;Ego Is the Enemy&lt;/a&gt; (Ryan Holiday)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/6235336/&#34;&gt;Get the Edge&lt;/a&gt; (Tony Robbins)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brendon.com/blog/high-performancehabits/&#34;&gt;High Performance Habits&lt;/a&gt; (Brendon Burchard)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People/&#34;&gt;How to Win Friends and Influence People&lt;/a&gt; (Dale Carnegie)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Moonwalking_with_Einstein/&#34;&gt;Moonwalking with Einstein&lt;/a&gt; (&lt;a href=&#34;https://en.wikipedia.org/wiki/Joshua_Foer/&#34;&gt;Joshua Foer&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.virgin.com/branson-family/books/richard-branson/screw-it-lets-do-it/&#34;&gt;Screw It, Let&amp;rsquo;s Do It&lt;/a&gt; (Richard Branson)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/en/book/show/721609/&#34;&gt;Spark: The Revolutionary New Science of Exercise and the Brain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.franklincovey.com/the-7-habits/&#34;&gt;The 7 Habits of Highly Effective People&lt;/a&gt; (Stephen R. Covey)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://us.macmillan.com/books/9781250159618/theinfluentialmind/&#34;&gt;The Influential Mind&lt;/a&gt; (Tali Sharot)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_Power_of_Positive_Thinking/&#34;&gt;The Power of Positive Thinking: A Practical Guide to Mastering the Problems of Everyday Living&lt;/a&gt; (Norman Vincent Peale)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scotthyoung.com/blog/ultralearning/&#34;&gt;Ultralearning&lt;/a&gt; (&lt;a href=&#34;https://www.scotthyoung.com/&#34;&gt;Scott H. Young&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;audio-books&#34;&gt;Audio Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/12-Rules-for-Life-Audiobook/&#34;&gt;12 Rules for Life: An Antidote to Chaos&lt;/a&gt; (Jordan B. Peterson)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/25-Stories-I-Would-Tell-My-Younger-Self-Audiobook&#34;&gt;25 Stories I Would Tell My Younger Self&lt;/a&gt; (Dr. Julian Hosp)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Awaken-the-Giant-Within-Audiobook/&#34;&gt;Awaken the Giant Within&lt;/a&gt; (Tony Robbins)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Cognitive-Behavioral-Therapy-Audiobook/&#34;&gt;Cognitive Behavioral Therapy: Techniques for Retraining Your Brain&lt;/a&gt; (Jason M. Satterfield)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Power-of-Now-Audiobook/&#34;&gt;The Power of Now: A Guide to Spiritual Enlightenment&lt;/a&gt; (Eckhart Tolle)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Starfish-and-the-Spider-Audiobook&#34;&gt;The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations&lt;/a&gt; (Ori Brafman, Rod Beckstrom)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/&#34;&gt;The Subtle Art of Not Giving a F^ck&lt;/a&gt; (Mark Manson)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/&#34;&gt;Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills&lt;/a&gt; (Steven Novella)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audible.co.uk/pd/Zero-to-One-Audiobook/&#34;&gt;Zero to One&lt;/a&gt; (Peter Thiel)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="books">Books</h2>
+<ul>
+<li><a href="https://wisdomtheory.gumroad.com/l/100MM/">100 Mental Models</a> (<a href="https://wisdomtheory.gumroad.com/">Wisdom Theory</a>) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics &amp; history</li>
+<li><a href="https://www.navalmanack.com/">Almanack of Naval Ravikant -  a guide to wealth and happiness</a> -</li>
+<li><a href="https://www.goodreads.com/book/show/17977529-choose-yourself/">Choose Yourself: Be Happy, Make Millions, Live the Dream</a> (<a href="https://www.goodreads.com/author/show/740.James_Altucher/">James Altucher</a>) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)</li>
+<li><a href="https://www.goodreads.com/book/show/95887.Eat_That_Frog_/">Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time</a> (Brian Tracy)</li>
+<li><a href="https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/">Ego Is the Enemy</a> (Ryan Holiday)</li>
+<li><a href="https://www.goodreads.com/en/book/show/6235336/">Get the Edge</a> (Tony Robbins)</li>
+<li><a href="https://brendon.com/blog/high-performancehabits/">High Performance Habits</a> (Brendon Burchard)</li>
+<li><a href="https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People/">How to Win Friends and Influence People</a> (Dale Carnegie)</li>
+<li><a href="https://en.wikipedia.org/wiki/Moonwalking_with_Einstein/">Moonwalking with Einstein</a> (<a href="https://en.wikipedia.org/wiki/Joshua_Foer/">Joshua Foer</a>)</li>
+<li><a href="https://www.virgin.com/branson-family/books/richard-branson/screw-it-lets-do-it/">Screw It, Let&rsquo;s Do It</a> (Richard Branson)</li>
+<li><a href="https://www.goodreads.com/en/book/show/721609/">Spark: The Revolutionary New Science of Exercise and the Brain</a></li>
+<li><a href="https://www.franklincovey.com/the-7-habits/">The 7 Habits of Highly Effective People</a> (Stephen R. Covey)</li>
+<li><a href="https://us.macmillan.com/books/9781250159618/theinfluentialmind/">The Influential Mind</a> (Tali Sharot)</li>
+<li><a href="https://en.wikipedia.org/wiki/The_Power_of_Positive_Thinking/">The Power of Positive Thinking: A Practical Guide to Mastering the Problems of Everyday Living</a> (Norman Vincent Peale)</li>
+<li><a href="https://www.scotthyoung.com/blog/ultralearning/">Ultralearning</a> (<a href="https://www.scotthyoung.com/">Scott H. Young</a>)</li>
+</ul>
+<h2 id="audio-books">Audio Books</h2>
+<ul>
+<li><a href="https://www.audible.co.uk/pd/12-Rules-for-Life-Audiobook/">12 Rules for Life: An Antidote to Chaos</a> (Jordan B. Peterson)</li>
+<li><a href="https://www.audible.co.uk/pd/25-Stories-I-Would-Tell-My-Younger-Self-Audiobook">25 Stories I Would Tell My Younger Self</a> (Dr. Julian Hosp)</li>
+<li><a href="https://www.audible.co.uk/pd/Awaken-the-Giant-Within-Audiobook/">Awaken the Giant Within</a> (Tony Robbins)</li>
+<li><a href="https://www.audible.co.uk/pd/Cognitive-Behavioral-Therapy-Audiobook/">Cognitive Behavioral Therapy: Techniques for Retraining Your Brain</a> (Jason M. Satterfield)</li>
+<li><a href="https://www.audible.co.uk/pd/The-Power-of-Now-Audiobook/">The Power of Now: A Guide to Spiritual Enlightenment</a> (Eckhart Tolle)</li>
+<li><a href="https://www.audible.co.uk/pd/The-Starfish-and-the-Spider-Audiobook">The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations</a> (Ori Brafman, Rod Beckstrom)</li>
+<li><a href="https://www.audible.co.uk/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/">The Subtle Art of Not Giving a F^ck</a> (Mark Manson)</li>
+<li><a href="https://www.audible.co.uk/pd/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/">Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills</a> (Steven Novella)</li>
+<li><a href="https://www.audible.co.uk/pd/Zero-to-One-Audiobook/">Zero to One</a> (Peter Thiel)</li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>List of Personal Development Videos</title>
       <link>https://jamesm.blog/personal-development/videos/</link>
       <pubDate>Sun, 28 May 2023 09:02:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/personal-development/videos/</guid>
-      <description>&lt;h2 id=&#34;absolute-motivationhttpswwwyoutubecomchannelucpmzqgtzxn9xd4nn59pbiwq&#34;&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCpmZQGTZXn9xd4nN59pbIWQ/&#34;&gt;Absolute Motivation&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;actualizedorghttpswwwyoutubecomuseractualizedorg&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/ActualizedOrg/&#34;&gt;Actualized.org&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;be-inspiredhttpswwwyoutubecombeinspiredchannel&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@BeInspiredChannel/&#34;&gt;Be Inspired&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;big-thinkhttpswwwyoutubecombigthink&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@bigthink/&#34;&gt;Big Think&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;etthehiphoppreacherhttpswwwyoutubecomuseretthehiphoppreacher&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/etthehiphoppreacher/&#34;&gt;etthehiphoppreacher&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;fightmediocrityhttpswwwyoutubecomuserphuckmediocrity&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/phuckmediocrity/&#34;&gt;FightMediocrity&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;improvement-pillhttpswwwyoutubecomimprovementpill&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@ImprovementPill/&#34;&gt;Improvement Pill&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;matt-davellahttpswwwyoutubecommattdavella&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@mattdavella/&#34;&gt;Matt D&amp;rsquo;Avella&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;motivation-madnesshttpswwwyoutubecomuserviralrescue&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/viralrescue/&#34;&gt;Motivation Madness&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;team-fearlesshttpswwwyoutubecomteamfearless&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@TeamFearless/&#34;&gt;Team Fearless&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ted-talkshttpswwwtedcomtalks&#34;&gt;&lt;a href=&#34;https://www.ted.com/talks/&#34;&gt;TED Talks&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4-079YIasck/&#34;&gt;5 hindrances to self-mastery | Master Shi Heng YI&lt;/a&gt; - serene talk about self-discovery&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-moW9jvvMr4/&#34;&gt;A simple way to break a bad habit | Judson Brewer&lt;/a&gt; - Psychiatrist Judson Brewer studies the relationship between mindfulness and addiction&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ljqra3BcqWM/&#34;&gt;Extreme Ownership | Jocko Willink&lt;/a&gt; - Jocko Willink explains from personal experience how war teaches you the most when things go wrong&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=7XFLTDQ4JMk/&#34;&gt;Getting stuck in the negatives (and how to get unstuck) | Alison Ledgerwood&lt;/a&gt; - Alison Ledgerwood investigates how certain ways of thinking about an issue tend to stick in people&amp;rsquo;s heads&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=iE9HMudybyc/&#34;&gt;Got a meeting? Take a walk | Nilofer Merchant&lt;/a&gt; - Nilofer Merchant suggests a small idea that just might have a big impact on your life and health&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=v1ojZKWfShQ/&#34;&gt;How To Eliminate Self Doubt Forever &amp;amp; The Power of Your Unconscious Mind | Peter Sage&lt;/a&gt; - Peter Sage exposes some of the hidden reasons and unconscious patterns that cause us to self-sabotage and explains what we can do to change them&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=56Zb_TLhPOw/&#34;&gt;How to Grow as a Person (And Why It Sucks) | Johnny Crowder&lt;/a&gt; - Johnny Crowder details the difficulties and pitfalls of trying to grow as a person&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZQNk7KVU_6A/&#34;&gt;How to Love Yourself to the Core | Jen Oliver&lt;/a&gt; - there is an epidemic of low self-worth on this planet that will only be remedied with one person at a time committing to expressing unwavering gratitude, compassion and reverence within&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=xp0O2vi8DX4/&#34;&gt;How to motivate yourself to change your behavior | Tali Sharot&lt;/a&gt; - Tali Sharot reveals three ingredients to doing what&amp;rsquo;s good for yourself&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5MuIMqhT8DM/&#34;&gt;Sleep is your superpower | Matt Walker&lt;/a&gt; - in this deep dive into the science of slumber, Matt Walker shares the wonderfully good things that happen when you get sleep&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lDq9-QxvsNU/&#34;&gt;The art of choosing | Sheena Iyengar&lt;/a&gt; - Sheena Iyengar studies how we make choices &amp;amp; how we feel about the choices we make&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=37UhELFvPec/&#34;&gt;Power of Fitness | Vincent Lam&lt;/a&gt; - why exercise is an important part of a healthy lifestyle&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Zo62S0ulqhA/&#34;&gt;What I learned from going blind in space | Chris Hadfield&lt;/a&gt; - Chris Hadfield paints a vivid portrait of how to be prepared for the worst in space (and life)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=muuWRKYi09s/&#34;&gt;Why reading matters | Rita Carter&lt;/a&gt; - speaking is already in our genes. But reading is not. Until about 100 years ago most people didn&amp;rsquo;t do it all. When we read fiction especially, we create new pathways in our brain&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-school-of-lifehttpswwwyoutubecomtheschooloflifetv&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@theschooloflifetv/&#34;&gt;The School of Life&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;thomas-frankhttpswwwyoutubecomthomasfrank&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@Thomasfrank/&#34;&gt;Thomas Frank&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tony-robbinshttpswwwyoutubecomtonyrobbinslive&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@TonyRobbinsLive/&#34;&gt;Tony Robbins&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;absolute-motivationhttpswwwyoutubecomchannelucpmzqgtzxn9xd4nn59pbiwq&#34;&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCpmZQGTZXn9xd4nN59pbIWQ/&#34;&gt;Absolute Motivation&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;actualizedorghttpswwwyoutubecomuseractualizedorg&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/ActualizedOrg/&#34;&gt;Actualized.org&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;be-inspiredhttpswwwyoutubecombeinspiredchannel&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@BeInspiredChannel/&#34;&gt;Be Inspired&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;big-thinkhttpswwwyoutubecombigthink&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@bigthink/&#34;&gt;Big Think&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;etthehiphoppreacherhttpswwwyoutubecomuseretthehiphoppreacher&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/etthehiphoppreacher/&#34;&gt;etthehiphoppreacher&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fightmediocrityhttpswwwyoutubecomuserphuckmediocrity&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/phuckmediocrity/&#34;&gt;FightMediocrity&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;improvement-pillhttpswwwyoutubecomimprovementpill&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@ImprovementPill/&#34;&gt;Improvement Pill&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;matt-davellahttpswwwyoutubecommattdavella&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@mattdavella/&#34;&gt;Matt D&amp;rsquo;Avella&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation-madnesshttpswwwyoutubecomuserviralrescue&#34;&gt;&lt;a href=&#34;https://www.youtube.com/user/viralrescue/&#34;&gt;Motivation Madness&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;team-fearlesshttpswwwyoutubecomteamfearless&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@TeamFearless/&#34;&gt;Team Fearless&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ted-talkshttpswwwtedcomtalks&#34;&gt;&lt;a href=&#34;https://www.ted.com/talks/&#34;&gt;TED Talks&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4-079YIasck/&#34;&gt;5 hindrances to self-mastery | Master Shi Heng YI&lt;/a&gt; - serene talk about self-discovery&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-moW9jvvMr4/&#34;&gt;A simple way to break a bad habit | Judson Brewer&lt;/a&gt; - Psychiatrist Judson Brewer studies the relationship between mindfulness and addiction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ljqra3BcqWM/&#34;&gt;Extreme Ownership | Jocko Willink&lt;/a&gt; - Jocko Willink explains from personal experience how war teaches you the most when things go wrong&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=7XFLTDQ4JMk/&#34;&gt;Getting stuck in the negatives (and how to get unstuck) | Alison Ledgerwood&lt;/a&gt; - Alison Ledgerwood investigates how certain ways of thinking about an issue tend to stick in people&amp;rsquo;s heads&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=iE9HMudybyc/&#34;&gt;Got a meeting? Take a walk | Nilofer Merchant&lt;/a&gt; - Nilofer Merchant suggests a small idea that just might have a big impact on your life and health&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=v1ojZKWfShQ/&#34;&gt;How To Eliminate Self Doubt Forever &amp;amp; The Power of Your Unconscious Mind | Peter Sage&lt;/a&gt; - Peter Sage exposes some of the hidden reasons and unconscious patterns that cause us to self-sabotage and explains what we can do to change them&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=56Zb_TLhPOw/&#34;&gt;How to Grow as a Person (And Why It Sucks) | Johnny Crowder&lt;/a&gt; - Johnny Crowder details the difficulties and pitfalls of trying to grow as a person&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZQNk7KVU_6A/&#34;&gt;How to Love Yourself to the Core | Jen Oliver&lt;/a&gt; - there is an epidemic of low self-worth on this planet that will only be remedied with one person at a time committing to expressing unwavering gratitude, compassion and reverence within&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=xp0O2vi8DX4/&#34;&gt;How to motivate yourself to change your behavior | Tali Sharot&lt;/a&gt; - Tali Sharot reveals three ingredients to doing what&amp;rsquo;s good for yourself&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5MuIMqhT8DM/&#34;&gt;Sleep is your superpower | Matt Walker&lt;/a&gt; - in this deep dive into the science of slumber, Matt Walker shares the wonderfully good things that happen when you get sleep&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lDq9-QxvsNU/&#34;&gt;The art of choosing | Sheena Iyengar&lt;/a&gt; - Sheena Iyengar studies how we make choices &amp;amp; how we feel about the choices we make&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=37UhELFvPec/&#34;&gt;Power of Fitness | Vincent Lam&lt;/a&gt; - why exercise is an important part of a healthy lifestyle&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Zo62S0ulqhA/&#34;&gt;What I learned from going blind in space | Chris Hadfield&lt;/a&gt; - Chris Hadfield paints a vivid portrait of how to be prepared for the worst in space (and life)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=muuWRKYi09s/&#34;&gt;Why reading matters | Rita Carter&lt;/a&gt; - speaking is already in our genes. But reading is not. Until about 100 years ago most people didn&amp;rsquo;t do it all. When we read fiction especially, we create new pathways in our brain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-school-of-lifehttpswwwyoutubecomtheschooloflifetv&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@theschooloflifetv/&#34;&gt;The School of Life&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;thomas-frankhttpswwwyoutubecomthomasfrank&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@Thomasfrank/&#34;&gt;Thomas Frank&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tony-robbinshttpswwwyoutubecomtonyrobbinslive&#34;&gt;&lt;a href=&#34;https://www.youtube.com/@TonyRobbinsLive/&#34;&gt;Tony Robbins&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="absolute-motivationhttpswwwyoutubecomchannelucpmzqgtzxn9xd4nn59pbiwq"><a href="https://www.youtube.com/channel/UCpmZQGTZXn9xd4nN59pbIWQ/">Absolute Motivation</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="actualizedorghttpswwwyoutubecomuseractualizedorg"><a href="https://www.youtube.com/user/ActualizedOrg/">Actualized.org</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="be-inspiredhttpswwwyoutubecombeinspiredchannel"><a href="https://www.youtube.com/@BeInspiredChannel/">Be Inspired</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="big-thinkhttpswwwyoutubecombigthink"><a href="https://www.youtube.com/@bigthink/">Big Think</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="etthehiphoppreacherhttpswwwyoutubecomuseretthehiphoppreacher"><a href="https://www.youtube.com/user/etthehiphoppreacher/">etthehiphoppreacher</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="fightmediocrityhttpswwwyoutubecomuserphuckmediocrity"><a href="https://www.youtube.com/user/phuckmediocrity/">FightMediocrity</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="improvement-pillhttpswwwyoutubecomimprovementpill"><a href="https://www.youtube.com/@ImprovementPill/">Improvement Pill</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="matt-davellahttpswwwyoutubecommattdavella"><a href="https://www.youtube.com/@mattdavella/">Matt D&rsquo;Avella</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="motivation-madnesshttpswwwyoutubecomuserviralrescue"><a href="https://www.youtube.com/user/viralrescue/">Motivation Madness</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="podcasts">Podcasts</h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="team-fearlesshttpswwwyoutubecomteamfearless"><a href="https://www.youtube.com/@TeamFearless/">Team Fearless</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="ted-talkshttpswwwtedcomtalks"><a href="https://www.ted.com/talks/">TED Talks</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=4-079YIasck/">5 hindrances to self-mastery | Master Shi Heng YI</a> - serene talk about self-discovery</li>
+<li><a href="https://www.youtube.com/watch?v=-moW9jvvMr4/">A simple way to break a bad habit | Judson Brewer</a> - Psychiatrist Judson Brewer studies the relationship between mindfulness and addiction</li>
+<li><a href="https://www.youtube.com/watch?v=ljqra3BcqWM/">Extreme Ownership | Jocko Willink</a> - Jocko Willink explains from personal experience how war teaches you the most when things go wrong</li>
+<li><a href="https://www.youtube.com/watch?v=7XFLTDQ4JMk/">Getting stuck in the negatives (and how to get unstuck) | Alison Ledgerwood</a> - Alison Ledgerwood investigates how certain ways of thinking about an issue tend to stick in people&rsquo;s heads</li>
+<li><a href="https://www.youtube.com/watch?v=iE9HMudybyc/">Got a meeting? Take a walk | Nilofer Merchant</a> - Nilofer Merchant suggests a small idea that just might have a big impact on your life and health</li>
+<li><a href="https://www.youtube.com/watch?v=v1ojZKWfShQ/">How To Eliminate Self Doubt Forever &amp; The Power of Your Unconscious Mind | Peter Sage</a> - Peter Sage exposes some of the hidden reasons and unconscious patterns that cause us to self-sabotage and explains what we can do to change them</li>
+<li><a href="https://www.youtube.com/watch?v=56Zb_TLhPOw/">How to Grow as a Person (And Why It Sucks) | Johnny Crowder</a> - Johnny Crowder details the difficulties and pitfalls of trying to grow as a person</li>
+<li><a href="https://www.youtube.com/watch?v=ZQNk7KVU_6A/">How to Love Yourself to the Core | Jen Oliver</a> - there is an epidemic of low self-worth on this planet that will only be remedied with one person at a time committing to expressing unwavering gratitude, compassion and reverence within</li>
+<li><a href="https://www.youtube.com/watch?v=xp0O2vi8DX4/">How to motivate yourself to change your behavior | Tali Sharot</a> - Tali Sharot reveals three ingredients to doing what&rsquo;s good for yourself</li>
+<li><a href="https://www.youtube.com/watch?v=5MuIMqhT8DM/">Sleep is your superpower | Matt Walker</a> - in this deep dive into the science of slumber, Matt Walker shares the wonderfully good things that happen when you get sleep</li>
+<li><a href="https://www.youtube.com/watch?v=lDq9-QxvsNU/">The art of choosing | Sheena Iyengar</a> - Sheena Iyengar studies how we make choices &amp; how we feel about the choices we make</li>
+<li><a href="https://www.youtube.com/watch?v=37UhELFvPec/">Power of Fitness | Vincent Lam</a> - why exercise is an important part of a healthy lifestyle</li>
+<li><a href="https://www.youtube.com/watch?v=Zo62S0ulqhA/">What I learned from going blind in space | Chris Hadfield</a> - Chris Hadfield paints a vivid portrait of how to be prepared for the worst in space (and life)</li>
+<li><a href="https://www.youtube.com/watch?v=muuWRKYi09s/">Why reading matters | Rita Carter</a> - speaking is already in our genes. But reading is not. Until about 100 years ago most people didn&rsquo;t do it all. When we read fiction especially, we create new pathways in our brain</li>
+</ul>
+<h2 id="the-school-of-lifehttpswwwyoutubecomtheschooloflifetv"><a href="https://www.youtube.com/@theschooloflifetv/">The School of Life</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="thomas-frankhttpswwwyoutubecomthomasfrank"><a href="https://www.youtube.com/@Thomasfrank/">Thomas Frank</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+<h2 id="tony-robbinshttpswwwyoutubecomtonyrobbinslive"><a href="https://www.youtube.com/@TonyRobbinsLive/">Tony Robbins</a></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

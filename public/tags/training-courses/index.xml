@@ -1,19 +1,324 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Training Courses on jamesm.blog</title>
     <link>https://jamesm.blog/tags/training-courses/</link>
     <description>Recent content in Training Courses on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Dec 2023 10:51:25 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/training-courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 10:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/training-courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of AI Courses &amp; Learning Resources</title>
       <link>https://jamesm.blog/ai/courses/</link>
       <pubDate>Mon, 18 Dec 2023 10:51:25 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/courses/</guid>
-      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/deep-learning-with-python/&#34;&gt;Deep Learning with Python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hastie.su.domains/Papers/ESLII.pdf/&#34;&gt;The Elements of Statistical Learning&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/&#34;&gt;Class Central&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/ai/&#34;&gt;Artificial Intelligence Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/chatgpt/&#34;&gt;ChatGPT Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/course/independent-elements-of-ai-12469/&#34;&gt;Elements of AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/midjourney/&#34;&gt;Midjourney Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/ai-for-everyone/&#34;&gt;AI for Everyone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/&#34;&gt;IBM Applied AI Professional Certificate&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/machine-learning/&#34;&gt;Supervised Machine Learning: Regression and Classification&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/ai-fundamentals&#34;&gt;AI Fundamentals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-chatgpt&#34;&gt;Introduction to ChatGPT&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/&#34;&gt;DeepLearning&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/&#34;&gt;ChatGPT Prompt Engineering for Developers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/learning-from-data-introductory-machine-learning/&#34;&gt;Learning From Data (Introductory Machine Learning)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.elementsofai.com/&#34;&gt;Elements of AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.futurelearn.com/&#34;&gt;Future Learn&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.futurelearn.com/courses/artificial-intelligence/&#34;&gt;Digital Skills: Artificial Intelligence&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/&#34;&gt;Google Cloud Skills Boost&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/journeys/118/&#34;&gt;Generative AI learning path&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/537/&#34;&gt;Attention Mechanism&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/542/&#34;&gt;Create Image Captioning Models&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/543/&#34;&gt;Encoder-Decoder Architecture&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/quests/299/&#34;&gt;Generative AI Explorer - Vertex AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/536/&#34;&gt;Introduction to Generative AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/552/&#34;&gt;Introduction to Generative AI Studio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/541/&#34;&gt;Introduction to Image Generation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/539/&#34;&gt;Introduction to Large Language Models&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/554/&#34;&gt;Introduction to Responsible AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/538/&#34;&gt;Transformer Models and BERT Model&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pll.harvard.edu/&#34;&gt;Harvard&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pll.harvard.edu/subject/artificial-intelligence/&#34;&gt;Artificial Intelligence Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/&#34;&gt;Machine Learning Mastery&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://microsoft.github.io/&#34;&gt;Microsoft&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://microsoft.github.io/AI-For-Beginners/&#34;&gt;AI for Begineers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.conted.ox.ac.uk/&#34;&gt;Oxford&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/&#34;&gt;AI Online Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/&#34;&gt;PyTorch&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.reed.co.uk/&#34;&gt;Reed&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.reed.co.uk/courses/ai-artificial-intelligence/online/&#34;&gt;AI Online Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learn.stanford.edu/&#34;&gt;Stanford&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/&#34;&gt;Artificial Intelligence Graduate Certificate&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/&#34;&gt;Artificial Intelligence Programs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/learn/&#34;&gt;TensorFlow&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/&#34;&gt;Udacity&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/&#34;&gt;Intro to Artificial Intelligence&lt;/a&gt; (Free)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-az/&#34;&gt;Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-ars/&#34;&gt;Artificial Intelligence (ARS): Build the Most Powerful AI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-masterclass/&#34;&gt;Artificial Intelligence Masterclass&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/&#34;&gt;Artificial Intelligence: Reinforcement Learning in Python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-in-unity/&#34;&gt;The Beginner&amp;rsquo;s Guide to Artificial Intelligence (Unity 2022)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learn.unity.com/&#34;&gt;Unity&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learn.unity.com/course/artificial-intelligence-for-beginners/&#34;&gt;Artificial Intelligence for Beginners&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learning-resources&#34;&gt;Learning Resources&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ai.google/build/machine-learning/&#34;&gt;Google AI Build&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/&#34;&gt;How to use ChatGPT to create an app&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;newsletters&#34;&gt;Newsletters&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.lore.ai/&#34;&gt;Lore&lt;/a&gt; - weekly newsletter with the latest Generative AI news, insights and featured tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;twitter-accounts&#34;&gt;Twitter Accounts&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/AlexAIDaily/&#34;&gt;AI Daily&lt;/a&gt; - teaches about AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/_Borriss_/&#34;&gt;Borriss&lt;/a&gt; - developer &amp;amp; writer of practical AI&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/javilopen/&#34;&gt;Javi Lopez&lt;/a&gt; - AI educator&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/lexfridman/&#34;&gt;Lex Fridman&lt;/a&gt; - host of Lex Fridman Podcast, research scientist at MIT&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/LinusEkenstam/&#34;&gt;Linus&lt;/a&gt; - AI educator &amp;amp; designer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/SteveMills/&#34;&gt;Steve Mills&lt;/a&gt; - exploring creative uses of Generative AI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;youtube-channels&#34;&gt;YouTube Channels&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/&#34;&gt;Artificial Intelligence - All in One&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/&#34;&gt;Connor Shorten&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/Deeplearningai/&#34;&gt;DeepLearningAI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/&#34;&gt;Jeremy Howard&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/&#34;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/lexfridman/&#34;&gt;Lex Fridman&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/sentdex/&#34;&gt;sentdex&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/TheArtificialIntelligenceChannel/&#34;&gt;The Artificial Intelligence Channel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/&#34;&gt;Two Minute Papers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/&#34;&gt;Yannic Kilcher&lt;/a&gt;-&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=b-cFv2DvEqE/&#34;&gt;Excel AI - data analysis made easy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=f4LiRtjaW28/&#34;&gt;Google Bard: A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i_a9bqvqmzo/&#34;&gt;How to Build a FULL App With ChatGPT in 20 minutes!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5wdCev86RYE/&#34;&gt;How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hDK8W5SLzlw/&#34;&gt;Midjourney Prompt Tips for Beginners and Veterans&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=NU2TYgfQwcA/&#34;&gt;Stable diffusion prompt tutorial&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/deep-learning-with-python/&#34;&gt;Deep Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hastie.su.domains/Papers/ESLII.pdf/&#34;&gt;The Elements of Statistical Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/&#34;&gt;Class Central&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/ai/&#34;&gt;Artificial Intelligence Courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/chatgpt/&#34;&gt;ChatGPT Courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/course/independent-elements-of-ai-12469/&#34;&gt;Elements of AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/midjourney/&#34;&gt;Midjourney Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/ai-for-everyone/&#34;&gt;AI for Everyone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/&#34;&gt;IBM Applied AI Professional Certificate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/machine-learning/&#34;&gt;Supervised Machine Learning: Regression and Classification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/ai-fundamentals&#34;&gt;AI Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-chatgpt&#34;&gt;Introduction to ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/&#34;&gt;DeepLearning&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/&#34;&gt;ChatGPT Prompt Engineering for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/learning-from-data-introductory-machine-learning/&#34;&gt;Learning From Data (Introductory Machine Learning)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.elementsofai.com/&#34;&gt;Elements of AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.futurelearn.com/&#34;&gt;Future Learn&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.futurelearn.com/courses/artificial-intelligence/&#34;&gt;Digital Skills: Artificial Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/&#34;&gt;Google Cloud Skills Boost&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/journeys/118/&#34;&gt;Generative AI learning path&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/537/&#34;&gt;Attention Mechanism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/542/&#34;&gt;Create Image Captioning Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/543/&#34;&gt;Encoder-Decoder Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/quests/299/&#34;&gt;Generative AI Explorer - Vertex AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/536/&#34;&gt;Introduction to Generative AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/552/&#34;&gt;Introduction to Generative AI Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/541/&#34;&gt;Introduction to Image Generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/539/&#34;&gt;Introduction to Large Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/554/&#34;&gt;Introduction to Responsible AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/538/&#34;&gt;Transformer Models and BERT Model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pll.harvard.edu/&#34;&gt;Harvard&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pll.harvard.edu/subject/artificial-intelligence/&#34;&gt;Artificial Intelligence Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/&#34;&gt;Machine Learning Mastery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microsoft.github.io/&#34;&gt;Microsoft&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microsoft.github.io/AI-For-Beginners/&#34;&gt;AI for Begineers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conted.ox.ac.uk/&#34;&gt;Oxford&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/&#34;&gt;AI Online Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/&#34;&gt;PyTorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reed.co.uk/&#34;&gt;Reed&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reed.co.uk/courses/ai-artificial-intelligence/online/&#34;&gt;AI Online Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.stanford.edu/&#34;&gt;Stanford&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/&#34;&gt;Artificial Intelligence Graduate Certificate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/&#34;&gt;Artificial Intelligence Programs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/learn/&#34;&gt;TensorFlow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/&#34;&gt;Udacity&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/&#34;&gt;Intro to Artificial Intelligence&lt;/a&gt; (Free)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-az/&#34;&gt;Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-ars/&#34;&gt;Artificial Intelligence (ARS): Build the Most Powerful AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-masterclass/&#34;&gt;Artificial Intelligence Masterclass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/&#34;&gt;Artificial Intelligence: Reinforcement Learning in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-in-unity/&#34;&gt;The Beginner&amp;rsquo;s Guide to Artificial Intelligence (Unity 2022)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.unity.com/&#34;&gt;Unity&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.unity.com/course/artificial-intelligence-for-beginners/&#34;&gt;Artificial Intelligence for Beginners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learning-resources&#34;&gt;Learning Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai.google/build/machine-learning/&#34;&gt;Google AI Build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/&#34;&gt;How to use ChatGPT to create an app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;newsletters&#34;&gt;Newsletters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lore.ai/&#34;&gt;Lore&lt;/a&gt; - weekly newsletter with the latest Generative AI news, insights and featured tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;twitter-accounts&#34;&gt;Twitter Accounts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/AlexAIDaily/&#34;&gt;AI Daily&lt;/a&gt; - teaches about AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/_Borriss_/&#34;&gt;Borriss&lt;/a&gt; - developer &amp;amp; writer of practical AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/javilopen/&#34;&gt;Javi Lopez&lt;/a&gt; - AI educator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/lexfridman/&#34;&gt;Lex Fridman&lt;/a&gt; - host of Lex Fridman Podcast, research scientist at MIT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/LinusEkenstam/&#34;&gt;Linus&lt;/a&gt; - AI educator &amp;amp; designer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/SteveMills/&#34;&gt;Steve Mills&lt;/a&gt; - exploring creative uses of Generative AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube-channels&#34;&gt;YouTube Channels&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/&#34;&gt;Artificial Intelligence - All in One&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/&#34;&gt;Connor Shorten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/Deeplearningai/&#34;&gt;DeepLearningAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/&#34;&gt;Jeremy Howard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/&#34;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/lexfridman/&#34;&gt;Lex Fridman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/sentdex/&#34;&gt;sentdex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/TheArtificialIntelligenceChannel/&#34;&gt;The Artificial Intelligence Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/&#34;&gt;Two Minute Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/&#34;&gt;Yannic Kilcher&lt;/a&gt;-&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=b-cFv2DvEqE/&#34;&gt;Excel AI - data analysis made easy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=f4LiRtjaW28/&#34;&gt;Google Bard: A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i_a9bqvqmzo/&#34;&gt;How to Build a FULL App With ChatGPT in 20 minutes!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5wdCev86RYE/&#34;&gt;How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hDK8W5SLzlw/&#34;&gt;Midjourney Prompt Tips for Beginners and Veterans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=NU2TYgfQwcA/&#34;&gt;Stable diffusion prompt tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="books">Books</h2>
+<ul>
+<li><a href="https://www.manning.com/books/deep-learning-with-python/">Deep Learning with Python</a></li>
+<li><a href="https://hastie.su.domains/Papers/ESLII.pdf/">The Elements of Statistical Learning</a></li>
+</ul>
+<h2 id="courses">Courses</h2>
+<ul>
+<li><a href="https://www.classcentral.com/">Class Central</a>
+<ul>
+<li><a href="https://www.classcentral.com/subject/ai/">Artificial Intelligence Courses</a></li>
+<li><a href="https://www.classcentral.com/subject/chatgpt/">ChatGPT Courses</a></li>
+<li><a href="https://www.classcentral.com/course/independent-elements-of-ai-12469/">Elements of AI</a></li>
+<li><a href="https://www.classcentral.com/subject/midjourney/">Midjourney Courses</a></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/learn/ai-for-everyone/">AI for Everyone</a></li>
+<li><a href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/">IBM Applied AI Professional Certificate</a></li>
+<li><a href="https://www.coursera.org/learn/machine-learning/">Supervised Machine Learning: Regression and Classification</a></li>
+</ul>
+</li>
+<li><a href="https://www.datacamp.com/">DataCamp</a>
+<ul>
+<li><a href="https://www.datacamp.com/courses/ai-fundamentals">AI Fundamentals</a></li>
+<li><a href="https://www.datacamp.com/courses/introduction-to-chatgpt">Introduction to ChatGPT</a></li>
+</ul>
+</li>
+<li><a href="https://www.deeplearning.ai/">DeepLearning</a>
+<ul>
+<li><a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">ChatGPT Prompt Engineering for Developers</a></li>
+</ul>
+</li>
+<li><a href="https://www.edx.org/">edX</a>
+<ul>
+<li><a href="https://www.edx.org/course/learning-from-data-introductory-machine-learning/">Learning From Data (Introductory Machine Learning)</a></li>
+</ul>
+</li>
+<li><a href="https://www.elementsofai.com/">Elements of AI</a></li>
+<li><a href="https://www.fast.ai/">Fast.ai</a></li>
+<li><a href="https://www.futurelearn.com/">Future Learn</a>
+<ul>
+<li><a href="https://www.futurelearn.com/courses/artificial-intelligence/">Digital Skills: Artificial Intelligence</a></li>
+</ul>
+</li>
+<li><a href="https://www.cloudskillsboost.google/">Google Cloud Skills Boost</a>
+<ul>
+<li><a href="https://www.cloudskillsboost.google/journeys/118/">Generative AI learning path</a>
+<ul>
+<li><a href="https://www.cloudskillsboost.google/course_templates/537/">Attention Mechanism</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/542/">Create Image Captioning Models</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/543/">Encoder-Decoder Architecture</a></li>
+<li><a href="https://www.cloudskillsboost.google/quests/299/">Generative AI Explorer - Vertex AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/536/">Introduction to Generative AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/552/">Introduction to Generative AI Studio</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/541/">Introduction to Image Generation</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/539/">Introduction to Large Language Models</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/554/">Introduction to Responsible AI</a></li>
+<li><a href="https://www.cloudskillsboost.google/course_templates/538/">Transformer Models and BERT Model</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://pll.harvard.edu/">Harvard</a>
+<ul>
+<li><a href="https://pll.harvard.edu/subject/artificial-intelligence/">Artificial Intelligence Courses</a></li>
+</ul>
+</li>
+<li><a href="https://machinelearningmastery.com/">Machine Learning Mastery</a></li>
+<li><a href="https://microsoft.github.io/">Microsoft</a>
+<ul>
+<li><a href="https://microsoft.github.io/AI-For-Beginners/">AI for Begineers</a></li>
+</ul>
+</li>
+<li><a href="https://www.conted.ox.ac.uk/">Oxford</a>
+<ul>
+<li><a href="https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/">AI Online Courses</a></li>
+</ul>
+</li>
+<li><a href="https://pytorch.org/tutorials/">PyTorch</a></li>
+<li><a href="https://www.reed.co.uk/">Reed</a>
+<ul>
+<li><a href="https://www.reed.co.uk/courses/ai-artificial-intelligence/online/">AI Online Courses</a></li>
+</ul>
+</li>
+<li><a href="https://learn.stanford.edu/">Stanford</a>
+<ul>
+<li><a href="https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/">Artificial Intelligence Graduate Certificate</a></li>
+<li><a href="https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/">Artificial Intelligence Programs</a></li>
+</ul>
+</li>
+<li><a href="https://www.tensorflow.org/learn/">TensorFlow</a></li>
+<li><a href="https://www.udacity.com/">Udacity</a>
+<ul>
+<li><a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/">Intro to Artificial Intelligence</a> (Free)</li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-az/">Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-ars/">Artificial Intelligence (ARS): Build the Most Powerful AI</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-masterclass/">Artificial Intelligence Masterclass</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/">Artificial Intelligence: Reinforcement Learning in Python</a></li>
+<li><a href="https://www.udemy.com/course/artificial-intelligence-in-unity/">The Beginner&rsquo;s Guide to Artificial Intelligence (Unity 2022)</a></li>
+</ul>
+</li>
+<li><a href="https://learn.unity.com/">Unity</a>
+<ul>
+<li><a href="https://learn.unity.com/course/artificial-intelligence-for-beginners/">Artificial Intelligence for Beginners</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="learning-resources">Learning Resources</h2>
+<ul>
+<li><a href="https://ai.google/build/machine-learning/">Google AI Build</a></li>
+<li><a href="https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/">How to use ChatGPT to create an app</a></li>
+</ul>
+<h2 id="newsletters">Newsletters</h2>
+<ul>
+<li><a href="https://www.lore.ai/">Lore</a> - weekly newsletter with the latest Generative AI news, insights and featured tools</li>
+</ul>
+<h2 id="twitter-accounts">Twitter Accounts</h2>
+<ul>
+<li><a href="https://twitter.com/AlexAIDaily/">AI Daily</a> - teaches about AI</li>
+<li><a href="https://twitter.com/_Borriss_/">Borriss</a> - developer &amp; writer of practical AI</li>
+<li><a href="https://twitter.com/javilopen/">Javi Lopez</a> - AI educator</li>
+<li><a href="https://twitter.com/lexfridman/">Lex Fridman</a> - host of Lex Fridman Podcast, research scientist at MIT</li>
+<li><a href="https://twitter.com/LinusEkenstam/">Linus</a> - AI educator &amp; designer</li>
+<li><a href="https://twitter.com/SteveMills/">Steve Mills</a> - exploring creative uses of Generative AI</li>
+</ul>
+<h2 id="youtube-channels">YouTube Channels</h2>
+<ul>
+<li><a href="https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/">Artificial Intelligence - All in One</a></li>
+<li><a href="https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/">Connor Shorten</a></li>
+<li><a href="https://www.youtube.com/c/Deeplearningai/">DeepLearningAI</a></li>
+<li><a href="https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/">Jeremy Howard</a></li>
+<li><a href="https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/">Kaggle</a></li>
+<li><a href="https://www.youtube.com/user/lexfridman/">Lex Fridman</a></li>
+<li><a href="https://www.youtube.com/user/sentdex/">sentdex</a></li>
+<li><a href="https://www.youtube.com/c/TheArtificialIntelligenceChannel/">The Artificial Intelligence Channel</a></li>
+<li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/">Two Minute Papers</a></li>
+<li><a href="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/">Yannic Kilcher</a>-</li>
+</ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=b-cFv2DvEqE/">Excel AI - data analysis made easy</a></li>
+<li><a href="https://www.youtube.com/watch?v=f4LiRtjaW28/">Google Bard: A beginner&rsquo;s guide to Google&rsquo;s AI chatbot</a></li>
+<li><a href="https://www.youtube.com/watch?v=i_a9bqvqmzo/">How to Build a FULL App With ChatGPT in 20 minutes!</a></li>
+<li><a href="https://www.youtube.com/watch?v=5wdCev86RYE/">How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website</a></li>
+<li><a href="https://www.youtube.com/watch?v=hDK8W5SLzlw/">Midjourney Prompt Tips for Beginners and Veterans</a></li>
+<li><a href="https://www.youtube.com/watch?v=NU2TYgfQwcA/">Stable diffusion prompt tutorial</a></li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,192 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Physical Modeling on jamesm.blog</title>
     <link>https://jamesm.blog/tags/physical-modeling/</link>
     <description>Recent content in Physical Modeling on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Feb 2024 11:24:00 +0000</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/physical-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Feb 2024 11:24:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/physical-modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music Production: Physical Modeling</title>
       <link>https://jamesm.blog/music-production/physical-modeling-synths/</link>
       <pubDate>Sat, 03 Feb 2024 11:24:00 +0000</pubDate>
+      
       <guid>https://jamesm.blog/music-production/physical-modeling-synths/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;p&gt;Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.&lt;/li&gt;&#xA;&lt;li&gt;Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is an excellent overview of physical modeling compared to sampling;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.&lt;/li&gt;
+&lt;li&gt;Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is an excellent overview of physical modeling compared to sampling;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="about">About</h2>
+<p>Physical modelling is a process of recreating the physical reactions and unique interplay of both physical and electronic components using mathematical models and algorithms to create a realistic reproduction.</p>
+<ul>
+<li>Physically modelled instruments simulate the playability and complex behaviour of real acoustic instruments.</li>
+<li>Because there are no samples, the file size of these plugins are just a tiny fraction of that required by other virtual instruments.</li>
+</ul>
+<p>This is an excellent overview of physical modeling compared to sampling;</p>
+<ul>
+<li><a href="https://www.arturia.com/phi">https://www.arturia.com/phi</a></li>
+</ul>
+<h2 id="physical-modeling-plugins">Physical Modeling Plugins</h2>
+<ul>
+<li><a href="https://www.ableton.com/">Ableton</a>
+<ul>
+<li><a href="https://www.ableton.com/en/packs/tension/">Tension</a> - physical modeling string synthesizer capable of creating incredibly accurate reproductions of real stringed instruments or otherworldly hybrids</li>
+</ul>
+</li>
+<li><a href="https://www.applied-acoustics.com/">Applied Acoustics Systems</a>
+<ul>
+<li><a href="https://www.applied-acoustics.com/chromaphone-3/">Chromaphone</a> - creative synthesis with real-life acoustic character</li>
+<li><a href="https://www.applied-acoustics.com/ultra-analog-va-3/">Ultra Analog VA-3</a> - performs as a unique and powerful synth that is fast, easy, and remarkably versatile</li>
+</ul>
+</li>
+<li><a href="https://audiomodeling.com/">Audio Modeling</a>
+<ul>
+<li><a href="https://audiomodeling.com/sections/swam-string-sections/">SWAM String Sections</a> - truly innovative suite of four plug-ins, corresponding to the orchestra sections Violins, Violas, Cellos, and Double Basses, and based on Audio Modeling’s exclusive modeling technology</li>
+</ul>
+</li>
+<li><a href="https://www.arturia.com/">Arturia</a>
+<ul>
+<li><a href="https://www.arturia.com/products/software-instruments/piano-v/overview">Piano V</a> - finest array of production-worthy pianos</li>
+</ul>
+</li>
+<li><a href="https://www.expressivee.com/">Expressive E</a>
+<ul>
+<li><a href="https://www.expressivee.com/63-imagine">imagine</a> - a playful world of unknown acoustic sounds</li>
+</ul>
+</li>
+<li><a href="https://www.modartt.com/">Modartt</a>
+<ul>
+<li><a href="https://www.modartt.com/pianoteq_overview">Pianoteq</a> - award-winning virtual instrument</li>
+</ul>
+</li>
+<li><a href="https://physicalaudio.co.uk/">Physical Audio</a>
+<ul>
+<li><a href="https://physicalaudio.co.uk/products/derailer/">Derailer</a> - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements</li>
+<li><a href="https://physicalaudio.co.uk/products/modus/">Modus</a> - virtual world of conceptual instruments, modelled with cutting edge physical behaviours and acoustic properties</li>
+<li><a href="https://physicalaudio.co.uk/products/preparation/">Preparation</a> - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element</li>
+</ul>
+</li>
+<li><a href="https://rhizomatic.fr/">Rhizomatic</a>
+<ul>
+<li><a href="https://rhizomatic.fr/">Plasmonic</a> - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists</li>
+</ul>
+</li>
+</ul>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h3 id="chromaphone">Chromaphone</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/AW0BfyWKIRI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="derailer">Derailer</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/3JFwlPCrcto?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="imagine">Imagine</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/pfQbfhBN0oQ?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="modus">Modus</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/0A3owLswXro?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="piano-v">Piano V</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/7qjx2FmMy1I?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="pianoteq">Pianoteq</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/sOIqPTNyyf0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="plasmonic">Plasmonic</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/nS04DHdljKk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="preparation">Preparation</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/2wL9TC-V19w?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="swam-string-sections">SWAM String Sections</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/ln_vqLmNGUU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="swam-orchestra-at-your-fingertips-audio-modeling">SWAM: Orchestra at Your Fingertips-Audio Modeling</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/G8ktSUcvMmo?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="tension">Tension</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/2MwHWcj8yH4?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="ultra-analog">Ultra Analog</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/GK1S-5X7LOk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

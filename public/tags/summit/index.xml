@@ -1,33 +1,1196 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Summit on jamesm.blog</title>
     <link>https://jamesm.blog/tags/summit/</link>
     <description>Recent content in Summit on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jun 2023 11:04:16 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/summit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jun 2023 11:04:16 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/summit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Summit London (2023) - Videos</title>
       <link>https://jamesm.blog/devops/aws-summit-2023-videos/</link>
       <pubDate>Wed, 07 Jun 2023 11:04:16 +0100</pubDate>
+      
       <guid>https://jamesm.blog/devops/aws-summit-2023-videos/</guid>
-      <description>&lt;h2 id=&#34;keynote&#34;&gt;Keynote&lt;/h2&gt;&#xA;&lt;p&gt;Speakers&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tanuja Randery - Managing Director, EMEA - AWS&lt;/li&gt;&#xA;&lt;li&gt;Swami Sivasubramanian - VP for Databases, Analytics, AI &amp;amp; ML - AWS&lt;/li&gt;&#xA;&lt;li&gt;Renee Hunt - Chief Technology Officer - Compare the Market&lt;/li&gt;&#xA;&lt;li&gt;Will Cavendish - Global Digital Services Leader - Arup&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/MSIJaocxK4s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+      <description>&lt;h2 id=&#34;keynote&#34;&gt;Keynote&lt;/h2&gt;
+&lt;p&gt;Speakers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tanuja Randery - Managing Director, EMEA - AWS&lt;/li&gt;
+&lt;li&gt;Swami Sivasubramanian - VP for Databases, Analytics, AI &amp;amp; ML - AWS&lt;/li&gt;
+&lt;li&gt;Renee Hunt - Chief Technology Officer - Compare the Market&lt;/li&gt;
+&lt;li&gt;Will Cavendish - Global Digital Services Leader - Arup&lt;/li&gt;
+&lt;/ul&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/MSIJaocxK4s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+      <content:encoded><![CDATA[<h2 id="keynote">Keynote</h2>
+<p>Speakers</p>
+<ul>
+<li>Tanuja Randery - Managing Director, EMEA - AWS</li>
+<li>Swami Sivasubramanian - VP for Databases, Analytics, AI &amp; ML - AWS</li>
+<li>Renee Hunt - Chief Technology Officer - Compare the Market</li>
+<li>Will Cavendish - Global Digital Services Leader - Arup</li>
+</ul>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/MSIJaocxK4s?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>AWS Summit London (2023) - Agenda</title>
       <link>https://jamesm.blog/devops/aws-summit-2023-agenda/</link>
       <pubDate>Wed, 07 Jun 2023 07:54:16 +0100</pubDate>
+      
       <guid>https://jamesm.blog/devops/aws-summit-2023-agenda/</guid>
-      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Code&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Item&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Level&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Building a data science platform on AWS to help Britain achieve net zero&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Data-Driven Success: How INEOS Grenadiers Cycling Team Leverages No-code ML for Competitive Advantage&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM203&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;The AI Revolution: How Large Language Models are Shaping the Future&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM204&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Aviva built a scalable, secure and reliable MLOps platform on AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM205&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Solving global sustainability challenges using Geospatial ML with Amazon SageMaker&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM206&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Transform your Enterprises with Generative AI industry accelerators&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM207&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Accelerate Enterprise transformation with Amazon Kendra and LLMs&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Implement MLOps Best Practices with Amazon SageMaker&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How to create delightful conversational experiences using Amazon Lex&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM303&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS DeepRacer: Get hands-on with machine learning&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM304&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS DeepRacer: Get hands-on with machine learning&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AIM305&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Unlock insights into your data with Amazon SageMaker Low Code No Code - Usage Patterns and Show Cases&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA101&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Beauty Bay and BJSS Make over Customer Experience using AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA102&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Democratising Data at Direct Line Group&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Scaling Insights and Data-Driven Culture: a Modern Data Architecture Implementation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Motability Operations built a Connected Vehicles Platform on AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA203&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Stages of a Data &amp;amp; Analytics Driven Startup&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA204&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Holland &amp;amp; Barrett built a “3-Michelin Star” data platform on an AWS modern data architecture to power insights at the speed of thought&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA205&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Privacy-enhanced collaboration with AWS Clean Rooms&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Running mission critical workloads on Amazon Redshift&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ANA302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Building an Enterprise Data &amp;amp; Analytics Platform in AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;From 1 to 100 teams&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ARC302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Patterns and practices for building resilient applications&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ARC303&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Verify priority architecture characteristics to design well-architected applications&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;BIZ101&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Amazon Connect is helping deliver exceptional CX to Community Fibre, London’s biggest, fastest 100% full fibre broadband company&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;BIZ102&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Contact Centre enabling Digital Transformation at speed with Amazon Connect and AI/ML Services&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;BIZ103&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Lower risks and optimize costs with AWS Supply Chain&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;BIZ301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Proactivly engage your customers with Amazon Connect, using ML to improve your customer experience&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;BSI201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Simplify the path from data to action with Amazon QuickSight&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;CMP201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Ably optimised its compute costs and performance with AWS Graviton&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;CMP301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Migrating latency sensitive workload to AWS Region and edge services&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;CMP401&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS Inferentia2 – Making Generative AI predictions faster than ever&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;400 - Expert AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;COP201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Best practices for implementing observability in a modern application&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;COP202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Cost Optimization as Culture&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;COP203&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How to implement AWS cost optimization strategy that works&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;COP301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Unlocking Application Visibility with AWS Observability Tools&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DAT201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How to manage a Managed Service – A journey of ElastiCache at scale&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DAT301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Migrating Deliveroo’s Dispatcher Service to Amazon DynamoDB&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DAT302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Amazon DynamoDB: Peeling the onion&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DEV201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Maximizing Developer Productivity with Amazon CodeWhisperer&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DEV202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Catalyzing software development with Amazon CodeCatalyst&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DEV301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A deployment is not a release: Control your launches w/ feature flags&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DEV302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Architecting multi-tenant SaaS workloads on AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DOP301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Create Modern and Sustainable Apps with Amazon CodeGuru&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;DOP302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Database DevOps on AWS: The Forgotten Automation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ENT201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Data Centre Migration to AWS &amp;amp; Navigating AWS Partner Programmes with Vitality Health&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ENT202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Cost as a Proxy for Sustainable Outcomes&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ENU201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Build and Grow your ClimateTech Startup at AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;EUC301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Picking the right AWS EUC service for your needs&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;FSI102&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How NatWest and AWS worked together to boost personalised insight generation: A machine learning approach to transaction categorisation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;FSI201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Amazon EKS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;production grade Kubernetes&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;GMD-1&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS GameDay - F1 League 2023&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;GMD-1&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS GameDay - F1 League 2023&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;GMD-3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS GameDay - New Frontier GameDay Challenge with LaunchDarkly&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate LaunchDarkly&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;HLC101&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Introducing artificial intelligence into IVF laboratories&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;IOT201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Scaling Connected Smart Homes with AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;IOT301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Building an IoT SuperNetwork on top of the AWS Global Infrastructure&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ISV-01&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Mega trends in SaaS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ISV-02&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;The investor perspective on software&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ISV-03&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Applying the power of AI Responsibly and Effectively within the Enterprise&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;ISV-04&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Delivering value via data monetisation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;KUB201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Accelerating your Kubernetes journey with Amazon EKS Blueprints&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;KUB301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Skyscanner Built a Resilient k8s Platform on EC2 Spot/EKS and Saved 73% of Their Cloud Spend&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;MGR201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Thinking Asynchronously: application integration patterns for microservices&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;MGR202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Genius Sports: Migrating and modernising to a scalable cloud architecture&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;MKT201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Digital Supply Chain Marketplaces, a gamechanger?&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;MKT202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Modernize and govern your digital supply chain with AWS Marketplace&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;NEA202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How AWS is making quantum technologies a practical reality&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;NEA301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Quickly design and build serverless applications on AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;NET201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Simplify and scale your hybrid global networking with AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;NET301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;The power of cloud network innovation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;OPN301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Speeding up the development of Containerized Applications&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-01&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Streamlined AI/ML via Snowflake and Sagemaker&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate Snowflake&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-02&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Bridging the Gap Between Security and Development Teams in Less Than 7-minutes&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Trend Micro&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-03&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Building A Log Strategy So You Can Sleep Better at Night&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate Datadog&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-04&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How great leaders adapt to change with a Cloud-First mindset&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Deliotte&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-05&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Pending&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Reply&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-06&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How to secure your workloads from Ransomware attacks - VMware Cloud Disaster Recovery&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory VMware&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-07&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Securing Applications from Code to Cloud with Prisma Cloud&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Palo Alto Networks&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-08&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Modernize faster with serverless and end-to-end observability&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Dynatrace&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-09&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Peeling the onion of Cloud Costs to achieve true business transformation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Apptio&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-10&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Reducing the Fear of Releases and Technology Migrations&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate LaunchDarkly&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-11&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Intelligent Automation is nothing if it isn’t human-first&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Accenture&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-12&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Wiz helps esure take a modern approach to cloud security&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Wiz&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-13&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Scaling Mobile Apps &amp;amp; Simplifying Payment Infrastructure to Enable Perfect Holidays&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory MongoDB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PAR-14&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Securing Cloud Native Applications&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Snyk&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PS100&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;What’s next? Future tech trends for Public Sector&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PS101&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Cloud-powered science: How UK research organisations are using the AWS Cloud to fuel scientific innovation.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PS102&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Accelerating datadriven transformation with AWS Modern Data Platform in-a-box&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PS103&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS Well-Architected for Secure, Sustainable, CostEffective Systems in Public Sector&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PS104&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;AWS legacy transformation methodology: Accelerating public sector modernisation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;PS105&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Transforming Customer Service with Amazon Connect: A Case Study of Citizens Advice&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SEC201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;MoneySuperMarket journey to modernise customer identity solution with Amazon Cognito&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SEC202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Threat detection and incident response on AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SEC203&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Secure access to your internal applications on AWS with Zero Trust&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SEC301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Defending your Serverless App against the OWASP top 10&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SER201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Small Teams, Big Ideas: Empowering Microservices with Serverless Architecture&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SER202&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Building modern API architectures: Which front door should I use?&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SER301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Designing and deploying cloudoptimized Java applications&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SER302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Adopting AWS serverless in your organisation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SER303&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Refactoring to serverless&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SER304&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Building lowcode applications with serverless workflows&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;STG101&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Optimising cost and performance of your data lake on Amazon S3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;STG201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How to understand and improve the resiliency of your AWS applications&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;STG301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Building ARMs Cost optimized Data Platform in AWS&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SUS101&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Decarbonising digital products &amp;amp; scaling sustainable innovation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SUS201&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Architecting for Sustainability&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SUS301&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;How Channel 4 Optimize for Sustainability with AWS Well-Architected&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;SUS302&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Carbon emissions reporting using AWS Modern Data Architecture&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Code&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Item&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Level&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Building a data science platform on AWS to help Britain achieve net zero&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Data-Driven Success: How INEOS Grenadiers Cycling Team Leverages No-code ML for Competitive Advantage&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM203&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;The AI Revolution: How Large Language Models are Shaping the Future&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM204&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Aviva built a scalable, secure and reliable MLOps platform on AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM205&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Solving global sustainability challenges using Geospatial ML with Amazon SageMaker&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM206&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Transform your Enterprises with Generative AI industry accelerators&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM207&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Accelerate Enterprise transformation with Amazon Kendra and LLMs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Implement MLOps Best Practices with Amazon SageMaker&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How to create delightful conversational experiences using Amazon Lex&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM303&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS DeepRacer: Get hands-on with machine learning&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM304&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS DeepRacer: Get hands-on with machine learning&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AIM305&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Unlock insights into your data with Amazon SageMaker Low Code No Code - Usage Patterns and Show Cases&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA101&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Beauty Bay and BJSS Make over Customer Experience using AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA102&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Democratising Data at Direct Line Group&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Scaling Insights and Data-Driven Culture: a Modern Data Architecture Implementation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Motability Operations built a Connected Vehicles Platform on AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA203&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Stages of a Data &amp;amp; Analytics Driven Startup&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA204&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Holland &amp;amp; Barrett built a “3-Michelin Star” data platform on an AWS modern data architecture to power insights at the speed of thought&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA205&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Privacy-enhanced collaboration with AWS Clean Rooms&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Running mission critical workloads on Amazon Redshift&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ANA302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Building an Enterprise Data &amp;amp; Analytics Platform in AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;From 1 to 100 teams&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ARC302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Patterns and practices for building resilient applications&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ARC303&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Verify priority architecture characteristics to design well-architected applications&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;BIZ101&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Amazon Connect is helping deliver exceptional CX to Community Fibre, London’s biggest, fastest 100% full fibre broadband company&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;BIZ102&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Contact Centre enabling Digital Transformation at speed with Amazon Connect and AI/ML Services&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;BIZ103&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Lower risks and optimize costs with AWS Supply Chain&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;BIZ301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Proactivly engage your customers with Amazon Connect, using ML to improve your customer experience&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;BSI201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Simplify the path from data to action with Amazon QuickSight&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CMP201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Ably optimised its compute costs and performance with AWS Graviton&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CMP301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Migrating latency sensitive workload to AWS Region and edge services&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CMP401&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS Inferentia2 – Making Generative AI predictions faster than ever&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;400 - Expert AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;COP201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Best practices for implementing observability in a modern application&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;COP202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cost Optimization as Culture&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;COP203&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How to implement AWS cost optimization strategy that works&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;COP301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Unlocking Application Visibility with AWS Observability Tools&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DAT201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How to manage a Managed Service – A journey of ElastiCache at scale&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DAT301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Migrating Deliveroo’s Dispatcher Service to Amazon DynamoDB&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DAT302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Amazon DynamoDB: Peeling the onion&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DEV201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Maximizing Developer Productivity with Amazon CodeWhisperer&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DEV202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Catalyzing software development with Amazon CodeCatalyst&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DEV301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;A deployment is not a release: Control your launches w/ feature flags&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DEV302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Architecting multi-tenant SaaS workloads on AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DOP301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Create Modern and Sustainable Apps with Amazon CodeGuru&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;DOP302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Database DevOps on AWS: The Forgotten Automation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ENT201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Data Centre Migration to AWS &amp;amp; Navigating AWS Partner Programmes with Vitality Health&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ENT202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cost as a Proxy for Sustainable Outcomes&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ENU201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Build and Grow your ClimateTech Startup at AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;EUC301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Picking the right AWS EUC service for your needs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;FSI102&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How NatWest and AWS worked together to boost personalised insight generation: A machine learning approach to transaction categorisation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;FSI201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Amazon EKS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;production grade Kubernetes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GMD-1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS GameDay - F1 League 2023&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GMD-1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS GameDay - F1 League 2023&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GMD-3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS GameDay - New Frontier GameDay Challenge with LaunchDarkly&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate LaunchDarkly&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;HLC101&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Introducing artificial intelligence into IVF laboratories&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;IOT201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Scaling Connected Smart Homes with AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;IOT301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Building an IoT SuperNetwork on top of the AWS Global Infrastructure&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ISV-01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Mega trends in SaaS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ISV-02&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;The investor perspective on software&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ISV-03&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Applying the power of AI Responsibly and Effectively within the Enterprise&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ISV-04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Delivering value via data monetisation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;KUB201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Accelerating your Kubernetes journey with Amazon EKS Blueprints&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;KUB301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Skyscanner Built a Resilient k8s Platform on EC2 Spot/EKS and Saved 73% of Their Cloud Spend&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MGR201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Thinking Asynchronously: application integration patterns for microservices&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MGR202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Genius Sports: Migrating and modernising to a scalable cloud architecture&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MKT201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Digital Supply Chain Marketplaces, a gamechanger?&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MKT202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Modernize and govern your digital supply chain with AWS Marketplace&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;NEA202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How AWS is making quantum technologies a practical reality&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;NEA301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Quickly design and build serverless applications on AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;NET201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Simplify and scale your hybrid global networking with AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;NET301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;The power of cloud network innovation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;OPN301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Speeding up the development of Containerized Applications&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-01&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Streamlined AI/ML via Snowflake and Sagemaker&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate Snowflake&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-02&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Bridging the Gap Between Security and Development Teams in Less Than 7-minutes&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Trend Micro&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-03&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Building A Log Strategy So You Can Sleep Better at Night&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate Datadog&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-04&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How great leaders adapt to change with a Cloud-First mindset&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Deliotte&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-05&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pending&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Reply&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-06&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How to secure your workloads from Ransomware attacks - VMware Cloud Disaster Recovery&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory VMware&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-07&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Securing Applications from Code to Cloud with Prisma Cloud&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Palo Alto Networks&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-08&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Modernize faster with serverless and end-to-end observability&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Dynatrace&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-09&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Peeling the onion of Cloud Costs to achieve true business transformation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Apptio&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Reducing the Fear of Releases and Technology Migrations&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate LaunchDarkly&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-11&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Intelligent Automation is nothing if it isn’t human-first&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Accenture&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-12&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Wiz helps esure take a modern approach to cloud security&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Wiz&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-13&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Scaling Mobile Apps &amp;amp; Simplifying Payment Infrastructure to Enable Perfect Holidays&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory MongoDB&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PAR-14&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Securing Cloud Native Applications&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory Snyk&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PS100&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;What’s next? Future tech trends for Public Sector&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PS101&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cloud-powered science: How UK research organisations are using the AWS Cloud to fuel scientific innovation.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PS102&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Accelerating datadriven transformation with AWS Modern Data Platform in-a-box&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PS103&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS Well-Architected for Secure, Sustainable, CostEffective Systems in Public Sector&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PS104&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AWS legacy transformation methodology: Accelerating public sector modernisation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;PS105&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Transforming Customer Service with Amazon Connect: A Case Study of Citizens Advice&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SEC201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MoneySuperMarket journey to modernise customer identity solution with Amazon Cognito&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SEC202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Threat detection and incident response on AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SEC203&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Secure access to your internal applications on AWS with Zero Trust&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SEC301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Defending your Serverless App against the OWASP top 10&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SER201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Small Teams, Big Ideas: Empowering Microservices with Serverless Architecture&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SER202&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Building modern API architectures: Which front door should I use?&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SER301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Designing and deploying cloudoptimized Java applications&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SER302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Adopting AWS serverless in your organisation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SER303&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Refactoring to serverless&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SER304&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Building lowcode applications with serverless workflows&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;STG101&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Optimising cost and performance of your data lake on Amazon S3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;STG201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How to understand and improve the resiliency of your AWS applications&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;STG301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Building ARMs Cost optimized Data Platform in AWS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SUS101&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Decarbonising digital products &amp;amp; scaling sustainable innovation&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;100 - Introductory AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SUS201&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Architecting for Sustainability&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;200 - Intermediate AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SUS301&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;How Channel 4 Optimize for Sustainability with AWS Well-Architected&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SUS302&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carbon emissions reporting using AWS Modern Data Architecture&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;300 - Advanced AWS&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      <content:encoded><![CDATA[<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Code</th>
+          <th style="text-align: left">Item</th>
+          <th style="text-align: left">Level</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">AIM201</td>
+          <td style="text-align: left">Building a data science platform on AWS to help Britain achieve net zero</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM202</td>
+          <td style="text-align: left">Data-Driven Success: How INEOS Grenadiers Cycling Team Leverages No-code ML for Competitive Advantage</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM203</td>
+          <td style="text-align: left">The AI Revolution: How Large Language Models are Shaping the Future</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM204</td>
+          <td style="text-align: left">How Aviva built a scalable, secure and reliable MLOps platform on AWS</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM205</td>
+          <td style="text-align: left">Solving global sustainability challenges using Geospatial ML with Amazon SageMaker</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM206</td>
+          <td style="text-align: left">Transform your Enterprises with Generative AI industry accelerators</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM207</td>
+          <td style="text-align: left">Accelerate Enterprise transformation with Amazon Kendra and LLMs</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM301</td>
+          <td style="text-align: left">Implement MLOps Best Practices with Amazon SageMaker</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM302</td>
+          <td style="text-align: left">How to create delightful conversational experiences using Amazon Lex</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM303</td>
+          <td style="text-align: left">AWS DeepRacer: Get hands-on with machine learning</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM304</td>
+          <td style="text-align: left">AWS DeepRacer: Get hands-on with machine learning</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">AIM305</td>
+          <td style="text-align: left">Unlock insights into your data with Amazon SageMaker Low Code No Code - Usage Patterns and Show Cases</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA101</td>
+          <td style="text-align: left">Beauty Bay and BJSS Make over Customer Experience using AWS</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA102</td>
+          <td style="text-align: left">Democratising Data at Direct Line Group</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA201</td>
+          <td style="text-align: left">Scaling Insights and Data-Driven Culture: a Modern Data Architecture Implementation</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA202</td>
+          <td style="text-align: left">How Motability Operations built a Connected Vehicles Platform on AWS</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA203</td>
+          <td style="text-align: left">Stages of a Data &amp; Analytics Driven Startup</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA204</td>
+          <td style="text-align: left">How Holland &amp; Barrett built a “3-Michelin Star” data platform on an AWS modern data architecture to power insights at the speed of thought</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA205</td>
+          <td style="text-align: left">Privacy-enhanced collaboration with AWS Clean Rooms</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA301</td>
+          <td style="text-align: left">Running mission critical workloads on Amazon Redshift</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ANA302</td>
+          <td style="text-align: left">Building an Enterprise Data &amp; Analytics Platform in AWS</td>
+          <td style="text-align: left">From 1 to 100 teams</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ARC302</td>
+          <td style="text-align: left">Patterns and practices for building resilient applications</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ARC303</td>
+          <td style="text-align: left">Verify priority architecture characteristics to design well-architected applications</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">BIZ101</td>
+          <td style="text-align: left">How Amazon Connect is helping deliver exceptional CX to Community Fibre, London’s biggest, fastest 100% full fibre broadband company</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">BIZ102</td>
+          <td style="text-align: left">Contact Centre enabling Digital Transformation at speed with Amazon Connect and AI/ML Services</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">BIZ103</td>
+          <td style="text-align: left">Lower risks and optimize costs with AWS Supply Chain</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">BIZ301</td>
+          <td style="text-align: left">Proactivly engage your customers with Amazon Connect, using ML to improve your customer experience</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">BSI201</td>
+          <td style="text-align: left">Simplify the path from data to action with Amazon QuickSight</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CMP201</td>
+          <td style="text-align: left">How Ably optimised its compute costs and performance with AWS Graviton</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CMP301</td>
+          <td style="text-align: left">Migrating latency sensitive workload to AWS Region and edge services</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CMP401</td>
+          <td style="text-align: left">AWS Inferentia2 – Making Generative AI predictions faster than ever</td>
+          <td style="text-align: left">400 - Expert AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">COP201</td>
+          <td style="text-align: left">Best practices for implementing observability in a modern application</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">COP202</td>
+          <td style="text-align: left">Cost Optimization as Culture</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">COP203</td>
+          <td style="text-align: left">How to implement AWS cost optimization strategy that works</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">COP301</td>
+          <td style="text-align: left">Unlocking Application Visibility with AWS Observability Tools</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DAT201</td>
+          <td style="text-align: left">How to manage a Managed Service – A journey of ElastiCache at scale</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DAT301</td>
+          <td style="text-align: left">Migrating Deliveroo’s Dispatcher Service to Amazon DynamoDB</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DAT302</td>
+          <td style="text-align: left">Amazon DynamoDB: Peeling the onion</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DEV201</td>
+          <td style="text-align: left">Maximizing Developer Productivity with Amazon CodeWhisperer</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DEV202</td>
+          <td style="text-align: left">Catalyzing software development with Amazon CodeCatalyst</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DEV301</td>
+          <td style="text-align: left">A deployment is not a release: Control your launches w/ feature flags</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DEV302</td>
+          <td style="text-align: left">Architecting multi-tenant SaaS workloads on AWS</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DOP301</td>
+          <td style="text-align: left">Create Modern and Sustainable Apps with Amazon CodeGuru</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DOP302</td>
+          <td style="text-align: left">Database DevOps on AWS: The Forgotten Automation</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ENT201</td>
+          <td style="text-align: left">Data Centre Migration to AWS &amp; Navigating AWS Partner Programmes with Vitality Health</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ENT202</td>
+          <td style="text-align: left">Cost as a Proxy for Sustainable Outcomes</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ENU201</td>
+          <td style="text-align: left">Build and Grow your ClimateTech Startup at AWS</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">EUC301</td>
+          <td style="text-align: left">Picking the right AWS EUC service for your needs</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">FSI102</td>
+          <td style="text-align: left">How NatWest and AWS worked together to boost personalised insight generation: A machine learning approach to transaction categorisation</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">FSI201</td>
+          <td style="text-align: left">Amazon EKS</td>
+          <td style="text-align: left">production grade Kubernetes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">GMD-1</td>
+          <td style="text-align: left">AWS GameDay - F1 League 2023</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">GMD-1</td>
+          <td style="text-align: left">AWS GameDay - F1 League 2023</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">GMD-3</td>
+          <td style="text-align: left">AWS GameDay - New Frontier GameDay Challenge with LaunchDarkly</td>
+          <td style="text-align: left">200 - Intermediate LaunchDarkly</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">HLC101</td>
+          <td style="text-align: left">Introducing artificial intelligence into IVF laboratories</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">IOT201</td>
+          <td style="text-align: left">Scaling Connected Smart Homes with AWS</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">IOT301</td>
+          <td style="text-align: left">Building an IoT SuperNetwork on top of the AWS Global Infrastructure</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ISV-01</td>
+          <td style="text-align: left">Mega trends in SaaS</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ISV-02</td>
+          <td style="text-align: left">The investor perspective on software</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ISV-03</td>
+          <td style="text-align: left">Applying the power of AI Responsibly and Effectively within the Enterprise</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ISV-04</td>
+          <td style="text-align: left">Delivering value via data monetisation</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">KUB201</td>
+          <td style="text-align: left">Accelerating your Kubernetes journey with Amazon EKS Blueprints</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">KUB301</td>
+          <td style="text-align: left">How Skyscanner Built a Resilient k8s Platform on EC2 Spot/EKS and Saved 73% of Their Cloud Spend</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MGR201</td>
+          <td style="text-align: left">Thinking Asynchronously: application integration patterns for microservices</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MGR202</td>
+          <td style="text-align: left">Genius Sports: Migrating and modernising to a scalable cloud architecture</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MKT201</td>
+          <td style="text-align: left">Digital Supply Chain Marketplaces, a gamechanger?</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MKT202</td>
+          <td style="text-align: left">Modernize and govern your digital supply chain with AWS Marketplace</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">NEA202</td>
+          <td style="text-align: left">How AWS is making quantum technologies a practical reality</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">NEA301</td>
+          <td style="text-align: left">Quickly design and build serverless applications on AWS</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">NET201</td>
+          <td style="text-align: left">Simplify and scale your hybrid global networking with AWS</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">NET301</td>
+          <td style="text-align: left">The power of cloud network innovation</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">OPN301</td>
+          <td style="text-align: left">Speeding up the development of Containerized Applications</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-01</td>
+          <td style="text-align: left">Streamlined AI/ML via Snowflake and Sagemaker</td>
+          <td style="text-align: left">200 - Intermediate Snowflake</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-02</td>
+          <td style="text-align: left">Bridging the Gap Between Security and Development Teams in Less Than 7-minutes</td>
+          <td style="text-align: left">100 - Introductory Trend Micro</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-03</td>
+          <td style="text-align: left">Building A Log Strategy So You Can Sleep Better at Night</td>
+          <td style="text-align: left">200 - Intermediate Datadog</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-04</td>
+          <td style="text-align: left">How great leaders adapt to change with a Cloud-First mindset</td>
+          <td style="text-align: left">100 - Introductory Deliotte</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-05</td>
+          <td style="text-align: left">Pending</td>
+          <td style="text-align: left">100 - Introductory Reply</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-06</td>
+          <td style="text-align: left">How to secure your workloads from Ransomware attacks - VMware Cloud Disaster Recovery</td>
+          <td style="text-align: left">100 - Introductory VMware</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-07</td>
+          <td style="text-align: left">Securing Applications from Code to Cloud with Prisma Cloud</td>
+          <td style="text-align: left">100 - Introductory Palo Alto Networks</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-08</td>
+          <td style="text-align: left">Modernize faster with serverless and end-to-end observability</td>
+          <td style="text-align: left">100 - Introductory Dynatrace</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-09</td>
+          <td style="text-align: left">Peeling the onion of Cloud Costs to achieve true business transformation</td>
+          <td style="text-align: left">100 - Introductory Apptio</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-10</td>
+          <td style="text-align: left">Reducing the Fear of Releases and Technology Migrations</td>
+          <td style="text-align: left">200 - Intermediate LaunchDarkly</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-11</td>
+          <td style="text-align: left">Intelligent Automation is nothing if it isn’t human-first</td>
+          <td style="text-align: left">100 - Introductory Accenture</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-12</td>
+          <td style="text-align: left">How Wiz helps esure take a modern approach to cloud security</td>
+          <td style="text-align: left">100 - Introductory Wiz</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-13</td>
+          <td style="text-align: left">Scaling Mobile Apps &amp; Simplifying Payment Infrastructure to Enable Perfect Holidays</td>
+          <td style="text-align: left">100 - Introductory MongoDB</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PAR-14</td>
+          <td style="text-align: left">Securing Cloud Native Applications</td>
+          <td style="text-align: left">100 - Introductory Snyk</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PS100</td>
+          <td style="text-align: left">What’s next? Future tech trends for Public Sector</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PS101</td>
+          <td style="text-align: left">Cloud-powered science: How UK research organisations are using the AWS Cloud to fuel scientific innovation.</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PS102</td>
+          <td style="text-align: left">Accelerating datadriven transformation with AWS Modern Data Platform in-a-box</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PS103</td>
+          <td style="text-align: left">AWS Well-Architected for Secure, Sustainable, CostEffective Systems in Public Sector</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PS104</td>
+          <td style="text-align: left">AWS legacy transformation methodology: Accelerating public sector modernisation</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">PS105</td>
+          <td style="text-align: left">Transforming Customer Service with Amazon Connect: A Case Study of Citizens Advice</td>
+          <td style="text-align: left">100 - Introductory</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SEC201</td>
+          <td style="text-align: left">MoneySuperMarket journey to modernise customer identity solution with Amazon Cognito</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SEC202</td>
+          <td style="text-align: left">Threat detection and incident response on AWS</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SEC203</td>
+          <td style="text-align: left">Secure access to your internal applications on AWS with Zero Trust</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SEC301</td>
+          <td style="text-align: left">Defending your Serverless App against the OWASP top 10</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SER201</td>
+          <td style="text-align: left">Small Teams, Big Ideas: Empowering Microservices with Serverless Architecture</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SER202</td>
+          <td style="text-align: left">Building modern API architectures: Which front door should I use?</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SER301</td>
+          <td style="text-align: left">Designing and deploying cloudoptimized Java applications</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SER302</td>
+          <td style="text-align: left">Adopting AWS serverless in your organisation</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SER303</td>
+          <td style="text-align: left">Refactoring to serverless</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SER304</td>
+          <td style="text-align: left">Building lowcode applications with serverless workflows</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">STG101</td>
+          <td style="text-align: left">Optimising cost and performance of your data lake on Amazon S3</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">STG201</td>
+          <td style="text-align: left">How to understand and improve the resiliency of your AWS applications</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">STG301</td>
+          <td style="text-align: left">Building ARMs Cost optimized Data Platform in AWS</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SUS101</td>
+          <td style="text-align: left">Decarbonising digital products &amp; scaling sustainable innovation</td>
+          <td style="text-align: left">100 - Introductory AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SUS201</td>
+          <td style="text-align: left">Architecting for Sustainability</td>
+          <td style="text-align: left">200 - Intermediate AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SUS301</td>
+          <td style="text-align: left">How Channel 4 Optimize for Sustainability with AWS Well-Architected</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SUS302</td>
+          <td style="text-align: left">Carbon emissions reporting using AWS Modern Data Architecture</td>
+          <td style="text-align: left">300 - Advanced AWS</td>
+      </tr>
+  </tbody>
+</table>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>AWS Summit London (2023) - Agenda now available</title>
       <link>https://jamesm.blog/devops/aws-summit-2023/</link>
       <pubDate>Thu, 18 May 2023 09:54:16 +0100</pubDate>
+      
       <guid>https://jamesm.blog/devops/aws-summit-2023/</guid>
-      <description>&lt;p&gt;The &lt;strong&gt;AWS Summit London&lt;/strong&gt; agenda is now available&lt;/p&gt;&#xA;&lt;p&gt;Plan your day &amp;amp; get ready to explore technical sessions, hands-on workshops &amp;amp; keynotes&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://go.aws/3OnFKZa&#34;&gt;https://go.aws/3OnFKZa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4BBkHfj9ePE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+      <description>&lt;p&gt;The &lt;strong&gt;AWS Summit London&lt;/strong&gt; agenda is now available&lt;/p&gt;
+&lt;p&gt;Plan your day &amp;amp; get ready to explore technical sessions, hands-on workshops &amp;amp; keynotes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://go.aws/3OnFKZa&#34;&gt;https://go.aws/3OnFKZa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4BBkHfj9ePE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+      <content:encoded><![CDATA[<p>The <strong>AWS Summit London</strong> agenda is now available</p>
+<p>Plan your day &amp; get ready to explore technical sessions, hands-on workshops &amp; keynotes</p>
+<ul>
+<li><a href="https://go.aws/3OnFKZa">https://go.aws/3OnFKZa</a></li>
+</ul>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/4BBkHfj9ePE?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

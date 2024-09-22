@@ -1,19 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Llama 3 on jamesm.blog</title>
     <link>https://jamesm.blog/tags/llama-3/</link>
     <description>Recent content in Llama 3 on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 May 2024 17:06:25 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/llama-3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 May 2024 17:06:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/llama-3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chatbots &amp; Large Language Models (LLMs)</title>
       <link>https://jamesm.blog/ai/chatbots-llms/</link>
       <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/chatbots-llms/</guid>
-      <description>&lt;h2 id=&#34;amazon&#34;&gt;Amazon&lt;/h2&gt;&#xA;&lt;h3 id=&#34;amazon-lex-by-amazon-web-services-aws&#34;&gt;Amazon Lex by Amazon Web Services (AWS)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/lex/&#34;&gt;Amazon Lex&lt;/a&gt; is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;amazon-q-by-amazon-web-services-aws&#34;&gt;Amazon Q by Amazon Web Services (AWS)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/q/&#34;&gt;Amazon Q&lt;/a&gt; is a secure AI chatbot is designed for businesses.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;amazon&#34;&gt;Amazon&lt;/h2&gt;
+&lt;h3 id=&#34;amazon-lex-by-amazon-web-services-aws&#34;&gt;Amazon Lex by Amazon Web Services (AWS)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/lex/&#34;&gt;Amazon Lex&lt;/a&gt; is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;amazon-q-by-amazon-web-services-aws&#34;&gt;Amazon Q by Amazon Web Services (AWS)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/q/&#34;&gt;Amazon Q&lt;/a&gt; is a secure AI chatbot is designed for businesses.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="amazon">Amazon</h2>
+<h3 id="amazon-lex-by-amazon-web-services-aws">Amazon Lex by Amazon Web Services (AWS)</h3>
+<p><a href="https://aws.amazon.com/lex/">Amazon Lex</a> is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.</p>
+<ul>
+<li>these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.</li>
+</ul>
+<h3 id="amazon-q-by-amazon-web-services-aws">Amazon Q by Amazon Web Services (AWS)</h3>
+<p><a href="https://aws.amazon.com/q/">Amazon Q</a> is a secure AI chatbot is designed for businesses.</p>
+<ul>
+<li>it utilizes generative AI technology to understand and respond to natural language, allowing for conversational interaction. Key strengths include it&rsquo;s enterprise focus, ability to connect to various data sources, and customizability for specific business needs.</li>
+<li>it can be used for tasks like summarizing documents, generating creative text formats of content,  conducting research, and completing routine tasks.</li>
+</ul>
+<h2 id="bloom-by-allen-institute-for-artificial-intelligence-ai21-labs">BLOOM by Allen Institute for Artificial Intelligence (AI21 Labs)</h2>
+<p><a href="https://bigscience.huggingface.co/blog/bloom">BLOOM</a> is known for its factual language understanding and ability to generate different creative text formats of text content.</p>
+<ul>
+<li>it&rsquo;s particularly strong at staying on topic and avoiding factual errors.</li>
+</ul>
+<h2 id="google">Google</h2>
+<h3 id="claude-v2-by-google-ai">Claude v2 by Google AI</h3>
+<p><a href="https://www.anthropic.com/news/claude-2">Claude v2</a> is known for it&rsquo;s factual language understanding and ability to generate different creative text formats of text content.</p>
+<h3 id="google-gemini-by-google-ai">Google Gemini by Google AI</h3>
+<p><a href="https://gemini.google.com/app">Google Gemini</a> This isn&rsquo;t just a single LLM, but a family of AI models including Gemini Nano, Pro, and Ultra.</p>
+<ul>
+<li>designed to operate on various devices, from smartphones to powerful servers, Gemini can handle tasks beyond just text.</li>
+<li>it can process and generate images, audio, video, code, and other kinds of information.</li>
+<li>Google AI Studio or Vertex AI provide access to Gemini Pro for developers, while Gemini Nano and Lite versions cater to different needs.</li>
+</ul>
+<h3 id="palm-2-pathway-language-model-2-by-google-ai">PaLM 2 (Pathway Language Model 2) by Google AI</h3>
+<p><a href="https://ai.google/discover/palm2/">PaLM 2</a> is known for it&rsquo;s factual language understanding and reasoning capabilities.</p>
+<ul>
+<li>it excels at answering open ended, challenging, or strange questions.</li>
+</ul>
+<h2 id="jurassic-1-jumbo-by-ai21-labs">Jurassic-1 Jumbo by AI21 Labs</h2>
+<p><a href="https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1">Jurassic-1 Jumbo</a> is known for its ability to generate different creative text formats of text content, like poems, code, scripts, musical pieces, email, letters, etc.</p>
+<ul>
+<li>it&rsquo;s particularly strong at following instructions and completing requests thoughtfully.</li>
+</ul>
+<h2 id="llama-3-language-model-for-multimodal-analysis-by-meta-ai">Llama 3 (Language Model for Multimodal Analysis) by Meta AI</h2>
+<p><a href="https://llama.meta.com/llama3/">Llama 3</a> boasts improved performance over it&rsquo;s predecessor, Llama 2.</p>
+<ul>
+<li>it&rsquo;s known for it&rsquo;s ability to handle various tasks including writing different creative text formats, translating languages, and answering your questions in an informative way.</li>
+<li>it&rsquo;s also open-source, making the underlying code available for further development and research.</li>
+</ul>
+<h2 id="megatron-turing-nlg-by-nvidia">Megatron-Turing NLG by NVIDIA</h2>
+<p><a href="https://gpt3demo.com/apps/mt-nlg-by-microsoft-and-nvidia-ai">Megatron-Turing NLG</a> is known for its massive size and ability to handle complex reasoning tasks.</p>
+<ul>
+<li>it&rsquo;s particularly well-suited for scientific research and applications that require a deep understanding of the world.</li>
+</ul>
+<h2 id="openai">OpenAI</h2>
+<h3 id="gpt-35-by-openai">GPT-3.5 by OpenAI</h3>
+<p><a href="https://platform.openai.com/docs/models/overview">GPT-3.5</a> is an earlier version of GPT-4, but is still a powerful LLM with capabilities for generating text, translating languages, writing different kinds of creative content, and answering your questions in an informative way.</p>
+<h3 id="gpt-4-generative-pre-trained-transformer-4-by-openai">GPT-4 (Generative Pre-trained Transformer 4) by OpenAI</h3>
+<p><a href="https://platform.openai.com/docs/models/overview">GPT-4</a> is known for it&rsquo;s ability to generate realistic and creative text formats, translate languages, write different kinds of creative content, and answer your questions in an informative way.</p>
+<h3 id="gpt-4o-o-for-omni">GPT-4o (&ldquo;o&rdquo; for &ldquo;omni&rdquo;)</h3>
+<p><a href="https://openai.com/index/hello-gpt-4o/">GPT-4o</a> is the new flagship model that can reason across audio, vision, and text in real time.</p>
+<h2 id="poe-platform-for-open-exploration-by-quora">Poe (Platform for Open Exploration) by Quora</h2>
+<p><a href="https://quorablog.quora.com/Poe-1">Poe</a> acts as a platform for users to interact with various LLMs like the ones listed above. Poe allows users to query these different models through a user-friendly interface and compare their responses. This makes it a valuable tool for exploring the capabilities of different LLMs and finding the best one for a specific task.</p>
+<h2 id="wudao-20-by-baai-beijing-academy-of-artificial-intelligence">WuDao 2.0 by BAAI (Beijing Academy of Artificial Intelligence)</h2>
+<p><a href="https://gpt3demo.com/apps/wu-dao-20">WuDao 2.0</a> is known for its ability to process and generate text in Mandarin Chinese. It excels at tasks like question answering, text summarization, and machine translation to and from Chinese.</p>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

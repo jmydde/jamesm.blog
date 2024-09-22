@@ -1,26 +1,1062 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docker on jamesm.blog</title>
     <link>https://jamesm.blog/tags/docker/</link>
     <description>Recent content in Docker on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 May 2023 11:51:18 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of DevOps Courses</title>
       <link>https://jamesm.blog/devops/devops-courses/</link>
       <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
+      
       <guid>https://jamesm.blog/devops/devops-courses/</guid>
-      <description>&lt;h2 id=&#34;amazon-web-services-aws&#34;&gt;Amazon Web Services (AWS)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;aws-associate-level-exams&#34;&gt;AWS Associate Level Exams&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-developer-associate/&#34;&gt;AWS Certified Developer (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-solutions-architect-associate-saa-c03/&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-sysops-administrator-associate-8Lkj/&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/introduction-to-amazon-cognito/&#34;&gt;Introduction to Amazon Cognito&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/&#34;&gt;AWS Certified Cloud Practitioner&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/aws-solutions-architect-associate-saa-c03-certification-preparation-for-aws-1-7446/&#34;&gt;AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-developer-associate&#34;&gt;AWS Certified Developer (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/aws-developer-associate/&#34;&gt;AWS Certified Developer (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/aws-solutions-architect-associate/&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/aws-sysops-administrator-associate/&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;aws-professional-level-exams&#34;&gt;AWS Professional Level Exams&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-devops-engineer-professional/&#34;&gt;AWS Certified DevOps Engineer (Professional)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-solutions-architect-professional/&#34;&gt;AWS Certified Solutions Architect (Professional)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/&#34;&gt;AWS Certified DevOps Engineer (Professional)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;command-line-interface-cli&#34;&gt;Command-line Interface (CLI)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/aws-command-line-interface-mastering-operations/&#34;&gt;Mastering AWS Command-line Interface Operations&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;continous-integration--continous-deployment-cicd&#34;&gt;Continous Integration / Continous Deployment (CI/CD)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/&#34;&gt;Continuous Delivery and DevOps with Azure DevOps: Source Control with Git&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/getting-started-jenkins/&#34;&gt;Getting Started with Jenkins&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/&#34;&gt;Practicing CI/CD with AWS CodePipeline&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/&#34;&gt;Deploying Microservices to Kubernetes using Azure DevOps&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/&#34;&gt;Advanced Azure DevOps and AKS Patterns for Scalable Solutions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cost-optimization&#34;&gt;Cost Optimization&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/aws-cost-management-and-customer-support/introduction-36/&#34;&gt;AWS Cost Management and Customer Support&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;data--databases&#34;&gt;Data &amp;amp; Databases&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/big-data-amazon-web-services/&#34;&gt;Big Data on Amazon Web Services&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/foundations-document-databases-mongodb/&#34;&gt;Foundations of Document Databases with MongoDB&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/sql-hadoop-analyzing-big-data-hive/&#34;&gt;SQL on Hadoop - Analyzing Big Data with Hive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/&#34;&gt;AWS Technical Essentials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/introduction-to-amazon-web-services-aws/course-introduction-and-overview-1/&#34;&gt;Introduction to Amazon Web Services (AWS)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/move-your-lamp-stack-to-aws/installing-the-lamp-stack-1/&#34;&gt;How to Move Your Website to AWS with PHP, MySQL, and Apache&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;high-availability&#34;&gt;High Availability&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/how-to-architect-with-a-design-for-failure-approach/&#34;&gt;How to Architect with a Design for Failure Approach&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;lambda&#34;&gt;Lambda&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/compute-fundamentals-for-aws/aws-lambda/&#34;&gt;AWS Lambda&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;networking&#34;&gt;Networking&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-advanced-networking-specialty-2/&#34;&gt;AWS Certified Advanced Networking Specialty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-networking/&#34;&gt;AWS Networking&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/aws-networking-deep-dive-vpc/&#34;&gt;AWS Networking Deep Dive: Virtual Private Cloud (VPC)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/aws-vpc-operations/&#34;&gt;AWS VPC Operations&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/introduction-amazon-virtual-private-cloud-vpc/&#34;&gt;Introduction to Amazon Virtual Private Cloud (VPC)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;storage&#34;&gt;Storage&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/automated-data-management-with-ebs-s3-and-glacier/getting-started-5/&#34;&gt;Automated Data Management with EBS, S3, and Glacier&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/aws-storage-fundamentals-2016/introduction-32/&#34;&gt;Storage Fundamentals for AWS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;whitepapers&#34;&gt;Whitepapers&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Blue/Green Deployments on AWS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Development and Test on Amazon Web Services&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Introduction to DevOps on AWS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Practicing Continuous Integration and Continuous Delivery on AWS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Running Containerized Microservices on AWS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;azure&#34;&gt;Azure&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/getting-started-with-azure-virtual-machines-988/&#34;&gt;Getting Started With Azure Virtual Machine&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/microsoft-azure-fundamentals-05062020215806-1625/&#34;&gt;Microsoft Azure Fundamentals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/azure-fundamentals/&#34;&gt;Microsoft Azure Fundamentals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;comptia&#34;&gt;CompTIA&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/comptia-storage-plus-pt1-storage-fundamentals/&#34;&gt;CompTIA Storage+ Part 1: Storage Fundamentals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/comptia-storage-plus-pt2-network-storage-data-replication/&#34;&gt;CompTIA Storage+ Part 2: Network Storage &amp;amp; Data Replication&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/comptia-storage-plus-pt3-data-protection-storage/&#34;&gt;CompTIA Storage+ Part 3: Data Protection &amp;amp; Storage&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;docker--containers&#34;&gt;Docker &amp;amp; Containers&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/cloud-academy-docker-in-depth-129/&#34;&gt;Docker in Depth&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/containerized-applications-on-aws/&#34;&gt;Containerized Applications on AWS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-docker/&#34;&gt;Introduction to Docker&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/docker-certified-associate-exam-course/&#34;&gt;Docker Certified Associate Exam Course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/docker-swarm-services-stacks-hands-on/&#34;&gt;Docker – SWARM | SERVICES | STACKS – Hands-on&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/docker-for-the-absolute-beginner/&#34;&gt;Docker Training Course for the Absolute Beginner&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/docker-deep-dive-update/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/docker-fundamentals-for-developers/&#34;&gt;Docker Fundamentals for Developers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/docker-mastery/&#34;&gt;Docker Mastery: with Kubernetes +Swarm from a Docker Captain&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/&#34;&gt;Docker and Kubernetes: The Complete Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.codecademy.com/&#34;&gt;Codecademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-git/&#34;&gt;Learn Git &amp;amp; GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/introduction-git-github/&#34;&gt;Introduction to Git and GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;gitops&#34;&gt;GitOps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/argocd/&#34;&gt;GitOps with ArgoCD&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;google-cloud-platform-gcp&#34;&gt;Google Cloud Platform (GCP)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/skills/cpd200-developing-solutions-for-google-cloud-platform/&#34;&gt;Developing Solutions for Google Cloud Platform&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/google-cloud-platform-fundamentals-54/&#34;&gt;Google Cloud Platform Fundamentals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-development-environments-ides&#34;&gt;Integrated Development Environments (IDEs)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/visual-studio-data-tools-developers/&#34;&gt;Visual Studio Data Tools for Developers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;infrastructure-as-code&#34;&gt;Infrastructure-as-Code&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/hashicorp-certified-terraform-associate/&#34;&gt;HashiCorp Certified Terraform Associate&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/hashicorp-packer&#34;&gt;HashiCorp Packer&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/hashicorp-certified-consul-associate-certification/&#34;&gt;HashiCorp Certified: Consul Associate Certification&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/hashicorp-certified-terraform-associate/&#34;&gt;HashiCorp Certified: Terraform Associate Certification&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/hashicorp-certified-vault-associate-certification/&#34;&gt;HashiCorp Certified: Vault Associate Certification&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/hands-on-ansible/&#34;&gt;Hands-on Ansible&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/hashicorp-certified-consul-associate/&#34;&gt;HashiCorp Certified Consul Associate&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/hashicorp-certified-terraform-associate/&#34;&gt;HashiCorp Certified Terraform Associate Certification&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/hashicorp-certified-vault-associate/&#34;&gt;HashiCorp Certified Vault Associate&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/eks-basics/&#34;&gt;EKS Basics&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/hands-on-labs/istio-in-kubernetes/&#34;&gt;Istio in Kubernetes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/kubernetes-essentials/&#34;&gt;Kubernetes Essentials&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/kubernetes-deep-dive/&#34;&gt;Kubernetes Deep Dive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/kubernetes-the-hard-way/&#34;&gt;Kubernetes the Hard Way&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/architecting-google-kubernetes-engine/&#34;&gt;Architecting with Google Kubernetes Engine Specialization&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/&#34;&gt;Open Source Curriculum for CNCF Certification Courses&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.27.pdf/&#34;&gt;Certified Kubernetes Administrator (CKA)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_v1.27.pdf/&#34;&gt;Certified Kubernetes Application Developer (CKAD)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/CKS_Curriculum_%20v1.26.pdf/&#34;&gt;Certified Kubernetes Security Specialist (CKS)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf/&#34;&gt;Kubernetes and Cloud Native Associate (KCNA)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/PCA_Curriculum.pdf/&#34;&gt;Prometheus Certified Associate (PCA)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://killer.sh/&#34;&gt;Killer&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://killer.sh/&#34;&gt;Kubernetes Exam Simulator&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/certified-kubernetes-administrator-cka/&#34;&gt;Certified Kubernetes Administrator (CKA)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/&#34;&gt;Certified Kubernetes Application Developer (CKAD)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks/&#34;&gt;Certified Kubernetes Security Specialist (CKS)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/helm-for-beginners/&#34;&gt;Helm for Beginners&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/istio-service-mesh/&#34;&gt;Istio Service Mesh&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/kubernetes-challenges/&#34;&gt;Kubernetes Challenges&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/&#34;&gt;Kubernetes for the Absolute Beginners – Hands-on Tutorial&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/kustomize/&#34;&gt;Kustomize&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/lens-introduction/&#34;&gt;Lens: Kubernetes IDE&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/linode-kubernetes-engine/&#34;&gt;Linode: Kubernetes Engine&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/openshift-4/&#34;&gt;OpenShift 4&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/prometheus-certified-associate-pca/&#34;&gt;Prometheus Certified Associate (PCA)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam/&#34;&gt;Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/ultimate-certified-kubernetes-application-developer-ckad-mock-exam-series/&#34;&gt;Ultimate Certified Kubernetes Application Developer (CKAD) Mock Exam Series&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kubecampus.io/&#34;&gt;KubeCampus: Free Kubernetes Training&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/certified-kubernetes-administrator/&#34;&gt;Certified Kubernetes Administrator (CKA)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad-2023/&#34;&gt;Certified Kubernetes Application Developer (CKAD)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/ckad-services-networking-cert/&#34;&gt;Certified Kubernetes Application Developer: Services and Networking&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/certified-kubernetes-security-specialist-cks/&#34;&gt;Certified Kubernetes Security Specialist (CKS)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/getting-started-kubernetes/&#34;&gt;Getting Started with Kubernetes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://courses.stacksimplify.com/&#34;&gt;StackSimplify&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://courses.stacksimplify.com/p/kubernetes-for-absolute-beginners-on-aws-eks/&#34;&gt;Kubernetes for Absolute Beginners on AWS EKS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/&#34;&gt;Docker and Kubernetes: The Complete Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/&#34;&gt;Learn DevOps: The Complete Kubernetes Course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/&#34;&gt;Deploying Microservices to Kubernetes using Azure DevOps&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Tutorials&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.eksworkshop.com/&#34;&gt;EKS Workshop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way/&#34;&gt;Kubernetes The Hard Way&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Articles&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://k8s.af/&#34;&gt;Kubernetes Failure Stories&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/skills/linux-centos-system-administrator/&#34;&gt;CentOS System Administrator Prep&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/ubuntu-getting-started/&#34;&gt;Getting Started with Ubuntu&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/lpic-one/&#34;&gt;LPIC-1: Linux Administrator (101-500 and 102-500)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/lpic-2/&#34;&gt;LPIC-2: Linux Engineer (201-450 and 202-450)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/labs/aws/manage-linux-with-sed-awk/&#34;&gt;Manage Linux with sed and awk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/red-hat-enterprise-linux-shell-fundamentals/&#34;&gt;Red Hat Enterprise Linux Shell Fundamentals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/rhcsa-red-hat-certified-system-administrator-ex200/&#34;&gt;RHCSA: Red Hat Certified System Administrator (EX200)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/the-complete-ubuntu-linux-server-administration-course/&#34;&gt;The Complete Ubuntu Linux Server Administration Course !&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;networking-1&#34;&gt;Networking&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/networking/network-design/&#34;&gt;Building a Network Design&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;openstack&#34;&gt;OpenStack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/openstack-getting-started/&#34;&gt;Getting Started with OpenStack&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/openstack-introduction/&#34;&gt;Introduction to OpenStack&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python Programming Language&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python: Beyond The Basics&lt;/li&gt;&#xA;&lt;li&gt;Python Desktop Application Development&lt;/li&gt;&#xA;&lt;li&gt;Python Developers Toolkit&lt;/li&gt;&#xA;&lt;li&gt;Unit Testing With Python&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;search&#34;&gt;Search&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Getting Started With Enterprise Search Using Apache Solr&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/comptia/security-plus/&#34;&gt;CompTIA Security+&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/&#34;&gt;Security Threats, Attacks &amp;amp; Vulnerabilities&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;virtualization&#34;&gt;Virtualization&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduction to Versioning Environments With Vagrant&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;archived&#34;&gt;Archived&lt;/h2&gt;&#xA;&lt;p&gt;These are no longer available&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;amazon-web-services-aws&#34;&gt;Amazon Web Services (AWS)&lt;/h2&gt;
+&lt;h3 id=&#34;aws-associate-level-exams&#34;&gt;AWS Associate Level Exams&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-developer-associate/&#34;&gt;AWS Certified Developer (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-solutions-architect-associate-saa-c03/&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-sysops-administrator-associate-8Lkj/&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/introduction-to-amazon-cognito/&#34;&gt;Introduction to Amazon Cognito&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/&#34;&gt;AWS Certified Cloud Practitioner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/aws-solutions-architect-associate-saa-c03-certification-preparation-for-aws-1-7446/&#34;&gt;AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-developer-associate&#34;&gt;AWS Certified Developer (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/aws-developer-associate/&#34;&gt;AWS Certified Developer (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/aws-solutions-architect-associate/&#34;&gt;AWS Certified Solutions Architect (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/aws-sysops-administrator-associate/&#34;&gt;AWS Certified SysOps Administrator (Associate)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;aws-professional-level-exams&#34;&gt;AWS Professional Level Exams&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-devops-engineer-professional/&#34;&gt;AWS Certified DevOps Engineer (Professional)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-solutions-architect-professional/&#34;&gt;AWS Certified Solutions Architect (Professional)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/&#34;&gt;AWS Certified DevOps Engineer (Professional)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;command-line-interface-cli&#34;&gt;Command-line Interface (CLI)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/aws-command-line-interface-mastering-operations/&#34;&gt;Mastering AWS Command-line Interface Operations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;continous-integration--continous-deployment-cicd&#34;&gt;Continous Integration / Continous Deployment (CI/CD)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/&#34;&gt;Continuous Delivery and DevOps with Azure DevOps: Source Control with Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/getting-started-jenkins/&#34;&gt;Getting Started with Jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/&#34;&gt;Practicing CI/CD with AWS CodePipeline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/&#34;&gt;Deploying Microservices to Kubernetes using Azure DevOps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/&#34;&gt;Advanced Azure DevOps and AKS Patterns for Scalable Solutions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cost-optimization&#34;&gt;Cost Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/aws-cost-management-and-customer-support/introduction-36/&#34;&gt;AWS Cost Management and Customer Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data--databases&#34;&gt;Data &amp;amp; Databases&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/big-data-amazon-web-services/&#34;&gt;Big Data on Amazon Web Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/foundations-document-databases-mongodb/&#34;&gt;Foundations of Document Databases with MongoDB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/sql-hadoop-analyzing-big-data-hive/&#34;&gt;SQL on Hadoop - Analyzing Big Data with Hive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/&#34;&gt;AWS Technical Essentials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/introduction-to-amazon-web-services-aws/course-introduction-and-overview-1/&#34;&gt;Introduction to Amazon Web Services (AWS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/move-your-lamp-stack-to-aws/installing-the-lamp-stack-1/&#34;&gt;How to Move Your Website to AWS with PHP, MySQL, and Apache&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;high-availability&#34;&gt;High Availability&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/how-to-architect-with-a-design-for-failure-approach/&#34;&gt;How to Architect with a Design for Failure Approach&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lambda&#34;&gt;Lambda&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/compute-fundamentals-for-aws/aws-lambda/&#34;&gt;AWS Lambda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;networking&#34;&gt;Networking&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-advanced-networking-specialty-2/&#34;&gt;AWS Certified Advanced Networking Specialty&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/aws-networking/&#34;&gt;AWS Networking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/aws-networking-deep-dive-vpc/&#34;&gt;AWS Networking Deep Dive: Virtual Private Cloud (VPC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/aws-vpc-operations/&#34;&gt;AWS VPC Operations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/introduction-amazon-virtual-private-cloud-vpc/&#34;&gt;Introduction to Amazon Virtual Private Cloud (VPC)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;storage&#34;&gt;Storage&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/automated-data-management-with-ebs-s3-and-glacier/getting-started-5/&#34;&gt;Automated Data Management with EBS, S3, and Glacier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/aws-storage-fundamentals-2016/introduction-32/&#34;&gt;Storage Fundamentals for AWS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whitepapers&#34;&gt;Whitepapers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Blue/Green Deployments on AWS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Development and Test on Amazon Web Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Introduction to DevOps on AWS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Practicing Continuous Integration and Continuous Delivery on AWS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&amp;trk=wp_card/&#34;&gt;Running Containerized Microservices on AWS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;azure&#34;&gt;Azure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/course/getting-started-with-azure-virtual-machines-988/&#34;&gt;Getting Started With Azure Virtual Machine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/microsoft-azure-fundamentals-05062020215806-1625/&#34;&gt;Microsoft Azure Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/azure-fundamentals/&#34;&gt;Microsoft Azure Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;comptia&#34;&gt;CompTIA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/comptia-storage-plus-pt1-storage-fundamentals/&#34;&gt;CompTIA Storage+ Part 1: Storage Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/comptia-storage-plus-pt2-network-storage-data-replication/&#34;&gt;CompTIA Storage+ Part 2: Network Storage &amp;amp; Data Replication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/comptia-storage-plus-pt3-data-protection-storage/&#34;&gt;CompTIA Storage+ Part 3: Data Protection &amp;amp; Storage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;docker--containers&#34;&gt;Docker &amp;amp; Containers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/cloud-academy-docker-in-depth-129/&#34;&gt;Docker in Depth&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/containerized-applications-on-aws/&#34;&gt;Containerized Applications on AWS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-docker/&#34;&gt;Introduction to Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/docker-certified-associate-exam-course/&#34;&gt;Docker Certified Associate Exam Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/docker-swarm-services-stacks-hands-on/&#34;&gt;Docker – SWARM | SERVICES | STACKS – Hands-on&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/docker-for-the-absolute-beginner/&#34;&gt;Docker Training Course for the Absolute Beginner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/docker-deep-dive-update/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/docker-fundamentals-for-developers/&#34;&gt;Docker Fundamentals for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/docker-mastery/&#34;&gt;Docker Mastery: with Kubernetes +Swarm from a Docker Captain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/&#34;&gt;Docker and Kubernetes: The Complete Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.codecademy.com/&#34;&gt;Codecademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-git/&#34;&gt;Learn Git &amp;amp; GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/introduction-git-github/&#34;&gt;Introduction to Git and GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gitops&#34;&gt;GitOps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/argocd/&#34;&gt;GitOps with ArgoCD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;google-cloud-platform-gcp&#34;&gt;Google Cloud Platform (GCP)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/skills/cpd200-developing-solutions-for-google-cloud-platform/&#34;&gt;Developing Solutions for Google Cloud Platform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/&#34;&gt;CloudAcademy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudacademy.com/learning-paths/google-cloud-platform-fundamentals-54/&#34;&gt;Google Cloud Platform Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;integrated-development-environments-ides&#34;&gt;Integrated Development Environments (IDEs)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/visual-studio-data-tools-developers/&#34;&gt;Visual Studio Data Tools for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;infrastructure-as-code&#34;&gt;Infrastructure-as-Code&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/hashicorp-certified-terraform-associate/&#34;&gt;HashiCorp Certified Terraform Associate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/hashicorp-packer&#34;&gt;HashiCorp Packer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/hashicorp-certified-consul-associate-certification/&#34;&gt;HashiCorp Certified: Consul Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/hashicorp-certified-terraform-associate/&#34;&gt;HashiCorp Certified: Terraform Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/hashicorp-certified-vault-associate-certification/&#34;&gt;HashiCorp Certified: Vault Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/hands-on-ansible/&#34;&gt;Hands-on Ansible&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/hashicorp-certified-consul-associate/&#34;&gt;HashiCorp Certified Consul Associate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/hashicorp-certified-terraform-associate/&#34;&gt;HashiCorp Certified Terraform Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/hashicorp-certified-vault-associate/&#34;&gt;HashiCorp Certified Vault Associate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/&#34;&gt;A Cloud Guru&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/eks-basics/&#34;&gt;EKS Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/hands-on-labs/istio-in-kubernetes/&#34;&gt;Istio in Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/kubernetes-essentials/&#34;&gt;Kubernetes Essentials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/kubernetes-deep-dive/&#34;&gt;Kubernetes Deep Dive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/kubernetes-the-hard-way/&#34;&gt;Kubernetes the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/architecting-google-kubernetes-engine/&#34;&gt;Architecting with Google Kubernetes Engine Specialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/&#34;&gt;Open Source Curriculum for CNCF Certification Courses&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.27.pdf/&#34;&gt;Certified Kubernetes Administrator (CKA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_v1.27.pdf/&#34;&gt;Certified Kubernetes Application Developer (CKAD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/CKS_Curriculum_%20v1.26.pdf/&#34;&gt;Certified Kubernetes Security Specialist (CKS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf/&#34;&gt;Kubernetes and Cloud Native Associate (KCNA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cncf/curriculum/blob/master/PCA_Curriculum.pdf/&#34;&gt;Prometheus Certified Associate (PCA)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://killer.sh/&#34;&gt;Killer&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://killer.sh/&#34;&gt;Kubernetes Exam Simulator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/&#34;&gt;KodeKloud&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/certified-kubernetes-administrator-cka/&#34;&gt;Certified Kubernetes Administrator (CKA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/&#34;&gt;Certified Kubernetes Application Developer (CKAD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks/&#34;&gt;Certified Kubernetes Security Specialist (CKS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/helm-for-beginners/&#34;&gt;Helm for Beginners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/istio-service-mesh/&#34;&gt;Istio Service Mesh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/kubernetes-challenges/&#34;&gt;Kubernetes Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/&#34;&gt;Kubernetes for the Absolute Beginners – Hands-on Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/kustomize/&#34;&gt;Kustomize&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/lens-introduction/&#34;&gt;Lens: Kubernetes IDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/linode-kubernetes-engine/&#34;&gt;Linode: Kubernetes Engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/openshift-4/&#34;&gt;OpenShift 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/prometheus-certified-associate-pca/&#34;&gt;Prometheus Certified Associate (PCA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam/&#34;&gt;Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kodekloud.com/courses/ultimate-certified-kubernetes-application-developer-ckad-mock-exam-series/&#34;&gt;Ultimate Certified Kubernetes Application Developer (CKAD) Mock Exam Series&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kubecampus.io/&#34;&gt;KubeCampus: Free Kubernetes Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/certified-kubernetes-administrator/&#34;&gt;Certified Kubernetes Administrator (CKA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad-2023/&#34;&gt;Certified Kubernetes Application Developer (CKAD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/ckad-services-networking-cert/&#34;&gt;Certified Kubernetes Application Developer: Services and Networking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/certified-kubernetes-security-specialist-cks/&#34;&gt;Certified Kubernetes Security Specialist (CKS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/getting-started-kubernetes/&#34;&gt;Getting Started with Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://courses.stacksimplify.com/&#34;&gt;StackSimplify&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://courses.stacksimplify.com/p/kubernetes-for-absolute-beginners-on-aws-eks/&#34;&gt;Kubernetes for Absolute Beginners on AWS EKS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/&#34;&gt;Docker and Kubernetes: The Complete Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/&#34;&gt;Learn DevOps: The Complete Kubernetes Course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/&#34;&gt;Deploying Microservices to Kubernetes using Azure DevOps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tutorials
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.eksworkshop.com/&#34;&gt;EKS Workshop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kelseyhightower/kubernetes-the-hard-way/&#34;&gt;Kubernetes The Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Articles
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://k8s.af/&#34;&gt;Kubernetes Failure Stories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/skills/linux-centos-system-administrator/&#34;&gt;CentOS System Administrator Prep&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/ubuntu-getting-started/&#34;&gt;Getting Started with Ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/lpic-one/&#34;&gt;LPIC-1: Linux Administrator (101-500 and 102-500)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/lpic-2/&#34;&gt;LPIC-2: Linux Engineer (201-450 and 202-450)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/labs/aws/manage-linux-with-sed-awk/&#34;&gt;Manage Linux with sed and awk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/red-hat-enterprise-linux-shell-fundamentals/&#34;&gt;Red Hat Enterprise Linux Shell Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/paths/rhcsa-red-hat-certified-system-administrator-ex200/&#34;&gt;RHCSA: Red Hat Certified System Administrator (EX200)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/the-complete-ubuntu-linux-server-administration-course/&#34;&gt;The Complete Ubuntu Linux Server Administration Course !&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;networking-1&#34;&gt;Networking&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/networking/network-design/&#34;&gt;Building a Network Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openstack&#34;&gt;OpenStack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/openstack-getting-started/&#34;&gt;Getting Started with OpenStack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/courses/openstack-introduction/&#34;&gt;Introduction to OpenStack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Python Programming Language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Python: Beyond The Basics&lt;/li&gt;
+&lt;li&gt;Python Desktop Application Development&lt;/li&gt;
+&lt;li&gt;Python Developers Toolkit&lt;/li&gt;
+&lt;li&gt;Unit Testing With Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;search&#34;&gt;Search&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Getting Started With Enterprise Search Using Apache Solr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/&#34;&gt;CBT Nuggets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/comptia/security-plus/&#34;&gt;CompTIA Security+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/&#34;&gt;Security Threats, Attacks &amp;amp; Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;virtualization&#34;&gt;Virtualization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/&#34;&gt;Pluralsight&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Versioning Environments With Vagrant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;archived&#34;&gt;Archived&lt;/h2&gt;
+&lt;p&gt;These are no longer available&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="amazon-web-services-aws">Amazon Web Services (AWS)</h2>
+<h3 id="aws-associate-level-exams">AWS Associate Level Exams</h3>
+<ul>
+<li><a href="https://acloudguru.com/">A Cloud Guru</a>
+<ul>
+<li><a href="https://acloudguru.com/course/aws-certified-developer-associate/">AWS Certified Developer (Associate)</a></li>
+<li><a href="https://acloudguru.com/course/aws-certified-solutions-architect-associate-saa-c03/">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://acloudguru.com/course/aws-certified-sysops-administrator-associate-8Lkj/">AWS Certified SysOps Administrator (Associate)</a></li>
+<li><a href="https://acloudguru.com/course/introduction-to-amazon-cognito/">Introduction to Amazon Cognito</a></li>
+</ul>
+</li>
+<li><a href="https://www.cbtnuggets.com/">CBT Nuggets</a>
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/cloud-practitioner/">AWS Certified Cloud Practitioner</a></li>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/solutions-architect-associate/">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://www.cbtnuggets.com/it-training/aws/sysops-administrator-associate/">AWS Certified SysOps Administrator (Associate)</a></li>
+</ul>
+</li>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/learning-paths/aws-solutions-architect-associate-saa-c03-certification-preparation-for-aws-1-7446/">AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-developer-associate">AWS Certified Developer (Associate)</a></li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02">AWS Certified SysOps Administrator (Associate)</a></li>
+</ul>
+</li>
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
+<ul>
+<li><a href="https://www.whizlabs.com/aws-developer-associate/">AWS Certified Developer (Associate)</a></li>
+<li><a href="https://www.whizlabs.com/aws-solutions-architect-associate/">AWS Certified Solutions Architect (Associate)</a></li>
+<li><a href="https://www.whizlabs.com/aws-sysops-administrator-associate/">AWS Certified SysOps Administrator (Associate)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="aws-professional-level-exams">AWS Professional Level Exams</h3>
+<ul>
+<li><a href="https://acloudguru.com/">A Cloud Guru</a>
+<ul>
+<li><a href="https://acloudguru.com/course/aws-certified-devops-engineer-professional/">AWS Certified DevOps Engineer (Professional)</a></li>
+<li><a href="https://acloudguru.com/course/aws-certified-solutions-architect-professional/">AWS Certified Solutions Architect (Professional)</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/">AWS Certified DevOps Engineer (Professional)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="command-line-interface-cli">Command-line Interface (CLI)</h3>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/aws-command-line-interface-mastering-operations/">Mastering AWS Command-line Interface Operations</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="continous-integration--continous-deployment-cicd">Continous Integration / Continous Deployment (CI/CD)</h3>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/azure-devops-continuous-delivery-source-control/">Continuous Delivery and DevOps with Azure DevOps: Source Control with Git</a></li>
+<li><a href="https://www.pluralsight.com/courses/getting-started-jenkins/">Getting Started with Jenkins</a></li>
+<li><a href="https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/">Practicing CI/CD with AWS CodePipeline</a></li>
+</ul>
+</li>
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
+<ul>
+<li><a href="/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/">Deploying Microservices to Kubernetes using Azure DevOps</a></li>
+<li><a href="https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/">Advanced Azure DevOps and AKS Patterns for Scalable Solutions</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="cost-optimization">Cost Optimization</h3>
+<ul>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/course/aws-cost-management-and-customer-support/introduction-36/">AWS Cost Management and Customer Support</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="data--databases">Data &amp; Databases</h3>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/big-data-amazon-web-services/">Big Data on Amazon Web Services</a></li>
+<li><a href="https://www.pluralsight.com/courses/foundations-document-databases-mongodb/">Foundations of Document Databases with MongoDB</a></li>
+<li><a href="https://www.pluralsight.com/courses/sql-hadoop-analyzing-big-data-hive/">SQL on Hadoop - Analyzing Big Data with Hive</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="general">General</h3>
+<ul>
+<li><a href="https://www.cbtnuggets.com/">CBT Nuggets</a>
+<ul>
+<li><a href="https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/">AWS Technical Essentials</a></li>
+</ul>
+</li>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/course/introduction-to-amazon-web-services-aws/course-introduction-and-overview-1/">Introduction to Amazon Web Services (AWS)</a></li>
+<li><a href="https://cloudacademy.com/course/move-your-lamp-stack-to-aws/installing-the-lamp-stack-1/">How to Move Your Website to AWS with PHP, MySQL, and Apache</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="high-availability">High Availability</h3>
+<ul>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/course/how-to-architect-with-a-design-for-failure-approach/">How to Architect with a Design for Failure Approach</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="lambda">Lambda</h3>
+<ul>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/course/compute-fundamentals-for-aws/aws-lambda/">AWS Lambda</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="networking">Networking</h3>
+<ul>
+<li><a href="https://acloudguru.com/">A Cloud Guru</a>
+<ul>
+<li><a href="https://acloudguru.com/course/aws-certified-advanced-networking-specialty-2/">AWS Certified Advanced Networking Specialty</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/paths/aws-networking/">AWS Networking</a></li>
+<li><a href="https://www.pluralsight.com/courses/aws-networking-deep-dive-vpc/">AWS Networking Deep Dive: Virtual Private Cloud (VPC)</a></li>
+<li><a href="https://www.pluralsight.com/courses/aws-vpc-operations/">AWS VPC Operations</a></li>
+<li><a href="https://www.pluralsight.com/courses/introduction-amazon-virtual-private-cloud-vpc/">Introduction to Amazon Virtual Private Cloud (VPC)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="storage">Storage</h3>
+<ul>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/course/automated-data-management-with-ebs-s3-and-glacier/getting-started-5/">Automated Data Management with EBS, S3, and Glacier</a></li>
+<li><a href="https://cloudacademy.com/course/aws-storage-fundamentals-2016/introduction-32/">Storage Fundamentals for AWS</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="whitepapers">Whitepapers</h3>
+<ul>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/welcome.html?did=wp_card&trk=wp_card/">Blue/Green Deployments on AWS</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.html?did=wp_card&trk=wp_card/">Development and Test on Amazon Web Services</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/introduction-to-devops.html?did=wp_card&trk=wp_card/">Introduction to DevOps on AWS</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/welcome.html?did=wp_card&trk=wp_card/">Practicing Continuous Integration and Continuous Delivery on AWS</a></li>
+<li><a href="https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/welcome.html?did=wp_card&trk=wp_card/">Running Containerized Microservices on AWS</a></li>
+</ul>
+<h2 id="azure">Azure</h2>
+<ul>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/course/getting-started-with-azure-virtual-machines-988/">Getting Started With Azure Virtual Machine</a></li>
+<li><a href="https://cloudacademy.com/learning-paths/microsoft-azure-fundamentals-05062020215806-1625/">Microsoft Azure Fundamentals</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/azure-fundamentals/">Microsoft Azure Fundamentals</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="comptia">CompTIA</h2>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/comptia-storage-plus-pt1-storage-fundamentals/">CompTIA Storage+ Part 1: Storage Fundamentals</a></li>
+<li><a href="https://www.pluralsight.com/courses/comptia-storage-plus-pt2-network-storage-data-replication/">CompTIA Storage+ Part 2: Network Storage &amp; Data Replication</a></li>
+<li><a href="https://www.pluralsight.com/courses/comptia-storage-plus-pt3-data-protection-storage/">CompTIA Storage+ Part 3: Data Protection &amp; Storage</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="docker--containers">Docker &amp; Containers</h2>
+<ul>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/learning-paths/cloud-academy-docker-in-depth-129/">Docker in Depth</a></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/learn/containerized-applications-on-aws/">Containerized Applications on AWS</a></li>
+</ul>
+</li>
+<li><a href="https://www.datacamp.com/">DataCamp</a>
+<ul>
+<li><a href="https://www.datacamp.com/courses/introduction-to-docker/">Introduction to Docker</a></li>
+</ul>
+</li>
+<li><a href="https://kodekloud.com/">KodeKloud</a>
+<ul>
+<li><a href="https://kodekloud.com/courses/docker-certified-associate-exam-course/">Docker Certified Associate Exam Course</a></li>
+<li><a href="https://kodekloud.com/courses/docker-swarm-services-stacks-hands-on/">Docker – SWARM | SERVICES | STACKS – Hands-on</a></li>
+<li><a href="https://kodekloud.com/courses/docker-for-the-absolute-beginner/">Docker Training Course for the Absolute Beginner</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/docker-deep-dive-update/">Docker Deep Dive</a></li>
+<li><a href="https://www.pluralsight.com/paths/docker-fundamentals-for-developers/">Docker Fundamentals for Developers</a></li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/docker-mastery/">Docker Mastery: with Kubernetes +Swarm from a Docker Captain</a></li>
+<li><a href="https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/">Docker and Kubernetes: The Complete Guide</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="git">Git</h2>
+<ul>
+<li><a href="https://www.codecademy.com/">Codecademy</a>
+<ul>
+<li><a href="https://www.codecademy.com/learn/learn-git/">Learn Git &amp; GitHub</a></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/learn/introduction-git-github/">Introduction to Git and GitHub</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="gitops">GitOps</h2>
+<ul>
+<li><a href="https://kodekloud.com/">KodeKloud</a>
+<ul>
+<li><a href="https://kodekloud.com/courses/argocd/">GitOps with ArgoCD</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="google-cloud-platform-gcp">Google Cloud Platform (GCP)</h2>
+<ul>
+<li><a href="https://www.cbtnuggets.com/">CBT Nuggets</a>
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/skills/cpd200-developing-solutions-for-google-cloud-platform/">Developing Solutions for Google Cloud Platform</a></li>
+</ul>
+</li>
+<li><a href="https://cloudacademy.com/">CloudAcademy</a>
+<ul>
+<li><a href="https://cloudacademy.com/learning-paths/google-cloud-platform-fundamentals-54/">Google Cloud Platform Fundamentals</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="integrated-development-environments-ides">Integrated Development Environments (IDEs)</h2>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/visual-studio-data-tools-developers/">Visual Studio Data Tools for Developers</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="infrastructure-as-code">Infrastructure-as-Code</h2>
+<ul>
+<li><a href="https://acloudguru.com/">A Cloud Guru</a>
+<ul>
+<li><a href="https://acloudguru.com/course/hashicorp-certified-terraform-associate/">HashiCorp Certified Terraform Associate</a></li>
+<li><a href="https://acloudguru.com/course/hashicorp-packer">HashiCorp Packer</a></li>
+</ul>
+</li>
+<li><a href="https://kodekloud.com/">KodeKloud</a>
+<ul>
+<li><a href="https://kodekloud.com/courses/hashicorp-certified-consul-associate-certification/">HashiCorp Certified: Consul Associate Certification</a></li>
+<li><a href="https://kodekloud.com/courses/hashicorp-certified-terraform-associate/">HashiCorp Certified: Terraform Associate Certification</a></li>
+<li><a href="https://kodekloud.com/courses/hashicorp-certified-vault-associate-certification/">HashiCorp Certified: Vault Associate Certification</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/hands-on-ansible/">Hands-on Ansible</a></li>
+</ul>
+</li>
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
+<ul>
+<li><a href="https://www.whizlabs.com/hashicorp-certified-consul-associate/">HashiCorp Certified Consul Associate</a></li>
+<li><a href="https://www.whizlabs.com/hashicorp-certified-terraform-associate/">HashiCorp Certified Terraform Associate Certification</a></li>
+<li><a href="https://www.whizlabs.com/hashicorp-certified-vault-associate/">HashiCorp Certified Vault Associate</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="kubernetes">Kubernetes</h2>
+<ul>
+<li><a href="https://acloudguru.com/">A Cloud Guru</a>
+<ul>
+<li><a href="https://acloudguru.com/course/eks-basics/">EKS Basics</a></li>
+<li><a href="https://acloudguru.com/hands-on-labs/istio-in-kubernetes/">Istio in Kubernetes</a></li>
+<li><a href="https://acloudguru.com/course/kubernetes-essentials/">Kubernetes Essentials</a></li>
+<li><a href="https://acloudguru.com/course/kubernetes-deep-dive/">Kubernetes Deep Dive</a></li>
+<li><a href="https://acloudguru.com/course/kubernetes-the-hard-way/">Kubernetes the Hard Way</a></li>
+</ul>
+</li>
+<li><a href="https://www.coursera.org/">Coursera</a>
+<ul>
+<li><a href="https://www.coursera.org/specializations/architecting-google-kubernetes-engine/">Architecting with Google Kubernetes Engine Specialization</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/">GitHub</a>
+<ul>
+<li><a href="https://github.com/cncf/curriculum/">Open Source Curriculum for CNCF Certification Courses</a>
+<ul>
+<li><a href="https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.27.pdf/">Certified Kubernetes Administrator (CKA)</a></li>
+<li><a href="https://github.com/cncf/curriculum/blob/master/CKAD_Curriculum_v1.27.pdf/">Certified Kubernetes Application Developer (CKAD)</a></li>
+<li><a href="https://github.com/cncf/curriculum/blob/master/CKS_Curriculum_%20v1.26.pdf/">Certified Kubernetes Security Specialist (CKS)</a></li>
+<li><a href="https://github.com/cncf/curriculum/blob/master/KCNA_Curriculum.pdf/">Kubernetes and Cloud Native Associate (KCNA)</a></li>
+<li><a href="https://github.com/cncf/curriculum/blob/master/PCA_Curriculum.pdf/">Prometheus Certified Associate (PCA)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://killer.sh/">Killer</a>
+<ul>
+<li><a href="https://killer.sh/">Kubernetes Exam Simulator</a></li>
+</ul>
+</li>
+<li><a href="https://kodekloud.com/">KodeKloud</a>
+<ul>
+<li><a href="https://kodekloud.com/courses/certified-kubernetes-administrator-cka/">Certified Kubernetes Administrator (CKA)</a></li>
+<li><a href="https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/">Certified Kubernetes Application Developer (CKAD)</a></li>
+<li><a href="https://kodekloud.com/courses/certified-kubernetes-security-specialist-cks/">Certified Kubernetes Security Specialist (CKS)</a></li>
+<li><a href="https://kodekloud.com/courses/helm-for-beginners/">Helm for Beginners</a></li>
+<li><a href="https://kodekloud.com/courses/istio-service-mesh/">Istio Service Mesh</a></li>
+<li><a href="https://kodekloud.com/courses/kubernetes-challenges/">Kubernetes Challenges</a></li>
+<li><a href="https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/">Kubernetes for the Absolute Beginners – Hands-on Tutorial</a></li>
+<li><a href="https://kodekloud.com/courses/kustomize/">Kustomize</a></li>
+<li><a href="https://kodekloud.com/courses/lens-introduction/">Lens: Kubernetes IDE</a></li>
+<li><a href="https://kodekloud.com/courses/linode-kubernetes-engine/">Linode: Kubernetes Engine</a></li>
+<li><a href="https://kodekloud.com/courses/openshift-4/">OpenShift 4</a></li>
+<li><a href="https://kodekloud.com/courses/prometheus-certified-associate-pca/">Prometheus Certified Associate (PCA)</a></li>
+<li><a href="https://kodekloud.com/courses/ultimate-certified-kubernetes-administrator-cka-mock-exam/">Ultimate Certified Kubernetes Administrator (CKA) Mock Exam Series</a></li>
+<li><a href="https://kodekloud.com/courses/ultimate-certified-kubernetes-application-developer-ckad-mock-exam-series/">Ultimate Certified Kubernetes Application Developer (CKAD) Mock Exam Series</a></li>
+</ul>
+</li>
+<li><a href="https://kubecampus.io/">KubeCampus: Free Kubernetes Training</a></li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/paths/certified-kubernetes-administrator/">Certified Kubernetes Administrator (CKA)</a></li>
+<li><a href="https://www.pluralsight.com/paths/certified-kubernetes-application-developer-ckad-2023/">Certified Kubernetes Application Developer (CKAD)</a></li>
+<li><a href="https://www.pluralsight.com/courses/ckad-services-networking-cert/">Certified Kubernetes Application Developer: Services and Networking</a></li>
+<li><a href="https://www.pluralsight.com/paths/certified-kubernetes-security-specialist-cks/">Certified Kubernetes Security Specialist (CKS)</a></li>
+<li><a href="https://www.pluralsight.com/courses/getting-started-kubernetes/">Getting Started with Kubernetes</a></li>
+</ul>
+</li>
+<li><a href="https://courses.stacksimplify.com/">StackSimplify</a>
+<ul>
+<li><a href="https://courses.stacksimplify.com/p/kubernetes-for-absolute-beginners-on-aws-eks/">Kubernetes for Absolute Beginners on AWS EKS</a></li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/">Docker and Kubernetes: The Complete Guide</a></li>
+<li><a href="https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/">Learn DevOps: The Complete Kubernetes Course</a></li>
+</ul>
+</li>
+<li><a href="https://www.whizlabs.com/">Whizlabs</a>
+<ul>
+<li><a href="/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/">Deploying Microservices to Kubernetes using Azure DevOps</a></li>
+</ul>
+</li>
+<li>Tutorials
+<ul>
+<li><a href="https://www.eksworkshop.com/">EKS Workshop</a></li>
+<li><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way/">Kubernetes The Hard Way</a></li>
+</ul>
+</li>
+<li>Articles
+<ul>
+<li><a href="https://k8s.af/">Kubernetes Failure Stories</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li><a href="https://www.cbtnuggets.com/">CBT Nuggets</a>
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/skills/linux-centos-system-administrator/">CentOS System Administrator Prep</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/ubuntu-getting-started/">Getting Started with Ubuntu</a></li>
+<li><a href="https://www.pluralsight.com/paths/lpic-one/">LPIC-1: Linux Administrator (101-500 and 102-500)</a></li>
+<li><a href="https://www.pluralsight.com/paths/lpic-2/">LPIC-2: Linux Engineer (201-450 and 202-450)</a></li>
+<li><a href="https://www.pluralsight.com/labs/aws/manage-linux-with-sed-awk/">Manage Linux with sed and awk</a></li>
+<li><a href="https://www.pluralsight.com/courses/red-hat-enterprise-linux-shell-fundamentals/">Red Hat Enterprise Linux Shell Fundamentals</a></li>
+<li><a href="https://www.pluralsight.com/paths/rhcsa-red-hat-certified-system-administrator-ex200/">RHCSA: Red Hat Certified System Administrator (EX200)</a></li>
+</ul>
+</li>
+<li><a href="https://www.udemy.com/">Udemy</a>
+<ul>
+<li><a href="https://www.udemy.com/course/the-complete-ubuntu-linux-server-administration-course/">The Complete Ubuntu Linux Server Administration Course !</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="networking-1">Networking</h2>
+<ul>
+<li><a href="https://www.cbtnuggets.com/">CBT Nuggets</a>
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/networking/network-design/">Building a Network Design</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="openstack">OpenStack</h2>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li><a href="https://www.pluralsight.com/courses/openstack-getting-started/">Getting Started with OpenStack</a></li>
+<li><a href="https://www.pluralsight.com/courses/openstack-introduction/">Introduction to OpenStack</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="programming">Programming</h2>
+<ul>
+<li><a href="https://www.cbtnuggets.com/">CBT Nuggets</a>
+<ul>
+<li>Python Programming Language</li>
+</ul>
+</li>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li>Python: Beyond The Basics</li>
+<li>Python Desktop Application Development</li>
+<li>Python Developers Toolkit</li>
+<li>Unit Testing With Python</li>
+</ul>
+</li>
+</ul>
+<h2 id="search">Search</h2>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li>Getting Started With Enterprise Search Using Apache Solr</li>
+</ul>
+</li>
+</ul>
+<h2 id="security">Security</h2>
+<ul>
+<li><a href="https://www.cbtnuggets.com/">CBT Nuggets</a>
+<ul>
+<li><a href="https://www.cbtnuggets.com/it-training/comptia/security-plus/">CompTIA Security+</a></li>
+<li><a href="https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/">Security Threats, Attacks &amp; Vulnerabilities</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="virtualization">Virtualization</h2>
+<ul>
+<li><a href="https://www.pluralsight.com/">Pluralsight</a>
+<ul>
+<li>Introduction to Versioning Environments With Vagrant</li>
+</ul>
+</li>
+</ul>
+<h2 id="archived">Archived</h2>
+<p>These are no longer available</p>
+<ul>
+<li>Katacoda - this used to have a lot of excellent free online labs, this has now all moved over to a paid subscription (O’Reilly)</li>
+<li>Lynda - now LinkedIn</li>
+<li>LinuxAcademy - now A Cloud Guru</li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>DevOps Books</title>
       <link>https://jamesm.blog/devops/books/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
+      
       <guid>https://jamesm.blog/devops/books/</guid>
-      <description>&lt;p&gt;A list of recommended DevOps books &amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;devops&#34;&gt;DevOps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/&#34;&gt;The DevOps Handbook&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/&#34;&gt;The Phoenix Project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;&#xA;&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/&#34;&gt;Kubernetes: Up and Running&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;The Kubernetes Book&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;iac&#34;&gt;IaC&lt;/h2&gt;&#xA;&lt;h3 id=&#34;terraform&#34;&gt;Terraform&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/terraform-up-and/9781098116736/&#34;&gt;Terraform: Up and Running: Writing Infrastructure as Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/linux-in-a/9780596806088/&#34;&gt;Linux in a Nutshell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;&#xA;&lt;h3 id=&#34;bash&#34;&gt;Bash&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-the-bash/0596009658/&#34;&gt;Learning the bash Shell&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cc&#34;&gt;C/C++&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_C_Programming_Language&#34;&gt;The C Programming Language&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;golang&#34;&gt;Golang&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/introducing-go/9781491941997/&#34;&gt;Introducing Go&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-go/9781492077206/&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;perl&#34;&gt;Perl&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/&#34;&gt;Learning Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/mastering-perl/9780596527242/&#34;&gt;Mastering Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/&#34;&gt;Programming Perl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://diveintopython3.net/&#34;&gt;Dive Into Python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sql&#34;&gt;SQL&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/&#34;&gt;Learning SQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;A list of recommended DevOps books &amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;devops&#34;&gt;DevOps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/&#34;&gt;The DevOps Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/&#34;&gt;The Phoenix Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;containers&#34;&gt;Containers&lt;/h2&gt;
+&lt;h3 id=&#34;docker&#34;&gt;Docker&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;Docker Deep Dive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/&#34;&gt;Kubernetes: Up and Running&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nigelpoulton.com/books/&#34;&gt;The Kubernetes Book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;iac&#34;&gt;IaC&lt;/h2&gt;
+&lt;h3 id=&#34;terraform&#34;&gt;Terraform&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/terraform-up-and/9781098116736/&#34;&gt;Terraform: Up and Running: Writing Infrastructure as Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/linux-in-a/9780596806088/&#34;&gt;Linux in a Nutshell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;
+&lt;h3 id=&#34;bash&#34;&gt;Bash&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-the-bash/0596009658/&#34;&gt;Learning the bash Shell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cc&#34;&gt;C/C++&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_C_Programming_Language&#34;&gt;The C Programming Language&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;golang&#34;&gt;Golang&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/introducing-go/9781491941997/&#34;&gt;Introducing Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-go/9781492077206/&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;perl&#34;&gt;Perl&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/&#34;&gt;Learning Perl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/mastering-perl/9780596527242/&#34;&gt;Mastering Perl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/&#34;&gt;Programming Perl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://diveintopython3.net/&#34;&gt;Dive Into Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sql&#34;&gt;SQL&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/&#34;&gt;Learning SQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<p>A list of recommended DevOps books &hellip;</p>
+<h2 id="devops">DevOps</h2>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/">The DevOps Handbook</a></li>
+<li><a href="https://www.oreilly.com/library/view/the-phoenix-project/9781457191350/">The Phoenix Project</a></li>
+</ul>
+<h2 id="containers">Containers</h2>
+<h3 id="docker">Docker</h3>
+<ul>
+<li><a href="https://nigelpoulton.com/books/">Docker Deep Dive</a></li>
+</ul>
+<h3 id="kubernetes">Kubernetes</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/">Kubernetes: Up and Running</a></li>
+<li><a href="https://nigelpoulton.com/books/">The Kubernetes Book</a></li>
+</ul>
+<h2 id="iac">IaC</h2>
+<h3 id="terraform">Terraform</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/terraform-up-and/9781098116736/">Terraform: Up and Running: Writing Infrastructure as Code</a></li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/linux-in-a/9780596806088/">Linux in a Nutshell</a></li>
+</ul>
+<h2 id="programming">Programming</h2>
+<h3 id="bash">Bash</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-the-bash/0596009658/">Learning the bash Shell</a></li>
+</ul>
+<h3 id="cc">C/C++</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language</a></li>
+</ul>
+<h3 id="golang">Golang</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/introducing-go/9781491941997/">Introducing Go</a></li>
+<li><a href="https://www.oreilly.com/library/view/learning-go/9781492077206/">Learning Go</a></li>
+</ul>
+<h3 id="perl">Perl</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-perl-6th/9781449311063/">Learning Perl</a></li>
+<li><a href="https://www.oreilly.com/library/view/mastering-perl/9780596527242/">Mastering Perl</a></li>
+<li><a href="https://www.oreilly.com/library/view/programming-perl-4th/9781449321451/">Programming Perl</a></li>
+</ul>
+<h3 id="python">Python</h3>
+<ul>
+<li><a href="https://diveintopython3.net/">Dive Into Python</a></li>
+</ul>
+<h3 id="sql">SQL</h3>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/">Learning SQL</a></li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

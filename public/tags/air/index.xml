@@ -1,26 +1,2074 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Air on jamesm.blog</title>
     <link>https://jamesm.blog/tags/air/</link>
     <description>Recent content in Air on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jun 2024 09:01:21 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/air/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jun 2024 09:01:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/air/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Music Production Hardware &amp; Software</title>
       <link>https://jamesm.blog/music-production/my-hardware-software/</link>
       <pubDate>Sat, 22 Jun 2024 09:01:21 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/my-hardware-software/</guid>
-      <description>&lt;h2 id=&#34;my-music-production-hardware-current&#34;&gt;My Music Production Hardware (Current)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Audio Interfaces&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/&#34;&gt;Native Instruments Audio 6 MK1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computers&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Laptops&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Alienware M17 (Windows 11)&lt;/li&gt;&#xA;&lt;li&gt;Macbook Air M1 (macOS Sonama)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computer Peripherals&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;External Hard Disks&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Western Digital Elements (5TB)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Flash Drives&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integral USB 3.0 (128GB)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;SSDs&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Crucial P3 M.2 PCIe Gen3 (1TB)&lt;/li&gt;&#xA;&lt;li&gt;Fikwot FN501 Pro NVMe (1TB)&lt;/li&gt;&#xA;&lt;li&gt;Sandisk Extreme Pro Portable SSD (1TB)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;SSD Enclosures&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Orico M.2 NVMe SATA SSD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Controller Keyboards&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/&#34;&gt;Native Instruments Komplete Kontrol M32&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://novationmusic.com/en/keys/launchkey/&#34;&gt;Novation LaunchKey 61&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;DJ Controllers&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/&#34;&gt;Native Instruments Traktor Kontrol S3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Drum Machines &amp;amp; Grooveboxes&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/maschine/production-systems/maschine/&#34;&gt;Native Instruments Maschine MK3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Portable Keyboards&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html&#34;&gt;Yamaha EZ-300&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Synthesizers&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.soundonsound.com/reviews/yamaha-motif-es&#34;&gt;Yamaha Motif ES8&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-music-production-hardware-past&#34;&gt;My Music Production Hardware (Past)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computers&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Desktops&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Commodore_64&#34;&gt;Commodore 64&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga&#34;&gt;Commodore Amiga&lt;/a&gt; (500, 600 &amp;amp; 1500)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Tower&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dell.com/en-uk/&#34;&gt;Dell&lt;/a&gt; T5400 Twin Quad Core Xeon 3.0Ghz 16GB RAM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computer Peripherals&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Commodore 64&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://collection.sciencemuseumgroup.org.uk/objects/co8210535/commodore-64-music-maker-keyboard-1984-keyboard&#34;&gt;Music Maker keyboard&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Commodore Amiga&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bigbookofamigahardware.com/bboah/product.aspx?id=1540&#34;&gt;Microdeal PRO-MIDI Interface&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Drum Machines&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/korg/electribe-r-er-1&#34;&gt;KORG ElecTribe R (ER-1)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/roland/r8.php&#34;&gt;Roland R-8 Human Rhythm Composer&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keyboards&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/&#34;&gt;Casio PT-50&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jvckeyboards.tripod.com/kb700.html&#34;&gt;JVC KB-700&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sound Modules&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.soundonsound.com/reviews/edirol-sd90&#34;&gt;Roland Edirol SD90&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Synthesizers&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/casio/cz101.php&#34;&gt;Casio CZ-101&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/yamaha/sy85.php&#34;&gt;Yamaha SY85&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-music-production-software-current&#34;&gt;My Music Production Software (Current)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ableton&#34;&gt;Ableton&lt;/h3&gt;&#xA;&lt;p&gt;Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;my-music-production-hardware-current&#34;&gt;My Music Production Hardware (Current)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Audio Interfaces&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/&#34;&gt;Native Instruments Audio 6 MK1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computers&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Laptops
+&lt;ul&gt;
+&lt;li&gt;Alienware M17 (Windows 11)&lt;/li&gt;
+&lt;li&gt;Macbook Air M1 (macOS Sonama)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computer Peripherals&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;External Hard Disks
+&lt;ul&gt;
+&lt;li&gt;Western Digital Elements (5TB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Flash Drives
+&lt;ul&gt;
+&lt;li&gt;Integral USB 3.0 (128GB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SSDs
+&lt;ul&gt;
+&lt;li&gt;Crucial P3 M.2 PCIe Gen3 (1TB)&lt;/li&gt;
+&lt;li&gt;Fikwot FN501 Pro NVMe (1TB)&lt;/li&gt;
+&lt;li&gt;Sandisk Extreme Pro Portable SSD (1TB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SSD Enclosures
+&lt;ul&gt;
+&lt;li&gt;Orico M.2 NVMe SATA SSD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controller Keyboards&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/&#34;&gt;Native Instruments Komplete Kontrol M32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://novationmusic.com/en/keys/launchkey/&#34;&gt;Novation LaunchKey 61&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DJ Controllers&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/&#34;&gt;Native Instruments Traktor Kontrol S3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drum Machines &amp;amp; Grooveboxes&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/maschine/production-systems/maschine/&#34;&gt;Native Instruments Maschine MK3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portable Keyboards&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html&#34;&gt;Yamaha EZ-300&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Synthesizers&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.soundonsound.com/reviews/yamaha-motif-es&#34;&gt;Yamaha Motif ES8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-music-production-hardware-past&#34;&gt;My Music Production Hardware (Past)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Computers&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Desktops
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Commodore_64&#34;&gt;Commodore 64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Amiga&#34;&gt;Commodore Amiga&lt;/a&gt; (500, 600 &amp;amp; 1500)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tower
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dell.com/en-uk/&#34;&gt;Dell&lt;/a&gt; T5400 Twin Quad Core Xeon 3.0Ghz 16GB RAM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computer Peripherals&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Commodore 64
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://collection.sciencemuseumgroup.org.uk/objects/co8210535/commodore-64-music-maker-keyboard-1984-keyboard&#34;&gt;Music Maker keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Commodore Amiga
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bigbookofamigahardware.com/bboah/product.aspx?id=1540&#34;&gt;Microdeal PRO-MIDI Interface&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drum Machines&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/korg/electribe-r-er-1&#34;&gt;KORG ElecTribe R (ER-1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/roland/r8.php&#34;&gt;Roland R-8 Human Rhythm Composer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keyboards&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/&#34;&gt;Casio PT-50&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jvckeyboards.tripod.com/kb700.html&#34;&gt;JVC KB-700&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sound Modules&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.soundonsound.com/reviews/edirol-sd90&#34;&gt;Roland Edirol SD90&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Synthesizers&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/casio/cz101.php&#34;&gt;Casio CZ-101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vintagesynth.com/yamaha/sy85.php&#34;&gt;Yamaha SY85&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-music-production-software-current&#34;&gt;My Music Production Software (Current)&lt;/h2&gt;
+&lt;h3 id=&#34;ableton&#34;&gt;Ableton&lt;/h3&gt;
+&lt;p&gt;Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="my-music-production-hardware-current">My Music Production Hardware (Current)</h2>
+<ul>
+<li><strong>Audio Interfaces</strong>
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/komplete/audio-interfaces/komplete-audio-6/">Native Instruments Audio 6 MK1</a></li>
+</ul>
+</li>
+<li><strong>Computers</strong>
+<ul>
+<li>Laptops
+<ul>
+<li>Alienware M17 (Windows 11)</li>
+<li>Macbook Air M1 (macOS Sonama)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Computer Peripherals</strong>
+<ul>
+<li>External Hard Disks
+<ul>
+<li>Western Digital Elements (5TB)</li>
+</ul>
+</li>
+<li>Flash Drives
+<ul>
+<li>Integral USB 3.0 (128GB)</li>
+</ul>
+</li>
+<li>SSDs
+<ul>
+<li>Crucial P3 M.2 PCIe Gen3 (1TB)</li>
+<li>Fikwot FN501 Pro NVMe (1TB)</li>
+<li>Sandisk Extreme Pro Portable SSD (1TB)</li>
+</ul>
+</li>
+<li>SSD Enclosures
+<ul>
+<li>Orico M.2 NVMe SATA SSD</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Controller Keyboards</strong>
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/">Native Instruments Komplete Kontrol M32</a></li>
+<li><a href="https://novationmusic.com/en/keys/launchkey/">Novation LaunchKey 61</a></li>
+</ul>
+</li>
+<li><strong>DJ Controllers</strong>
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/">Native Instruments Traktor Kontrol S3</a></li>
+</ul>
+</li>
+<li><strong>Drum Machines &amp; Grooveboxes</strong>
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/maschine/production-systems/maschine/">Native Instruments Maschine MK3</a></li>
+</ul>
+</li>
+<li><strong>Portable Keyboards</strong>
+<ul>
+<li><a href="https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html">Yamaha EZ-300</a></li>
+</ul>
+</li>
+<li><strong>Synthesizers</strong>
+<ul>
+<li><a href="https://www.soundonsound.com/reviews/yamaha-motif-es">Yamaha Motif ES8</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="my-music-production-hardware-past">My Music Production Hardware (Past)</h2>
+<ul>
+<li><strong>Computers</strong>
+<ul>
+<li>Desktops
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Commodore_64">Commodore 64</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Amiga">Commodore Amiga</a> (500, 600 &amp; 1500)</li>
+</ul>
+</li>
+<li>Tower
+<ul>
+<li><a href="https://www.dell.com/en-uk/">Dell</a> T5400 Twin Quad Core Xeon 3.0Ghz 16GB RAM</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Computer Peripherals</strong>
+<ul>
+<li>Commodore 64
+<ul>
+<li><a href="https://collection.sciencemuseumgroup.org.uk/objects/co8210535/commodore-64-music-maker-keyboard-1984-keyboard">Music Maker keyboard</a></li>
+</ul>
+</li>
+<li>Commodore Amiga
+<ul>
+<li><a href="https://bigbookofamigahardware.com/bboah/product.aspx?id=1540">Microdeal PRO-MIDI Interface</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Drum Machines</strong>
+<ul>
+<li><a href="https://www.vintagesynth.com/korg/electribe-r-er-1">KORG ElecTribe R (ER-1)</a></li>
+<li><a href="https://www.vintagesynth.com/roland/r8.php">Roland R-8 Human Rhythm Composer</a></li>
+</ul>
+</li>
+<li><strong>Keyboards</strong>
+<ul>
+<li><a href="https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/">Casio PT-50</a></li>
+<li><a href="https://jvckeyboards.tripod.com/kb700.html">JVC KB-700</a></li>
+</ul>
+</li>
+<li><strong>Sound Modules</strong>
+<ul>
+<li><a href="https://www.soundonsound.com/reviews/edirol-sd90">Roland Edirol SD90</a></li>
+</ul>
+</li>
+<li><strong>Synthesizers</strong>
+<ul>
+<li><a href="https://www.vintagesynth.com/casio/cz101.php">Casio CZ-101</a></li>
+<li><a href="https://www.vintagesynth.com/yamaha/sy85.php">Yamaha SY85</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="my-music-production-software-current">My Music Production Software (Current)</h2>
+<h3 id="ableton">Ableton</h3>
+<p>Ableton AG is a German music software company that produces and distributes the production and performance program Ableton Live and a collection of related instruments and sample libraries, as well as their own hardware controller Ableton Push</p>
+<ul>
+<li><a href="https://www.ableton.com/en/shop/live/">Ableton Live 12 Suite</a>
+<ul>
+<li>Complete studio – 70+ GB of sounds and all devices</li>
+<li>Software Instruments
+<ul>
+<li><a href="https://www.ableton.com/en/packs/analog/">Analog</a> - emulates the unique circuitry and irresistible tweakability of vintage analog synthesizers</li>
+<li>Bass</li>
+<li><a href="https://www.ableton.com/en/packs/collision/">Collision</a> - unique physical modeling instrument for authentic mallet sounds and creative percussion</li>
+<li>Drift</li>
+<li>Drum Rack</li>
+<li>Drum Synths</li>
+<li>Electric</li>
+<li>External Instrument</li>
+<li>Granulator III</li>
+<li>Impulse</li>
+<li>Instrument Rack</li>
+<li><a href="https://www.ableton.com/en/packs/operator/">Operator</a> - versatile, easy-to-use and great-sounding software instrument combining classic analog sounds and frequency modulation synthesis</li>
+<li>Meld (New in Live 12)</li>
+<li>Poli</li>
+<li><a href="https://www.ableton.com/en/packs/sampler/">Sampler</a> - sampling instrument that brings powerful multisample playback as well as profound sound design capabilities to Ableton Live</li>
+<li>Simpler</li>
+<li><a href="https://www.ableton.com/en/packs/tension/">Tension</a> - physical modeling string synthesizer capable of creating incredibly accurate reproductions of real stringed instruments or otherworldly hybrids</li>
+<li><a href="https://www.ableton.com/en/packs/wavetable/">Wavetable</a> - stretch, shape and morph sounds into a broad sound palette using wavetables derived from synths, acoustic instruments, noise and much more</li>
+</ul>
+</li>
+<li>Audio Effects
+<ul>
+<li>Align Delay</li>
+<li>Amp</li>
+<li>Audio Effect Rack</li>
+<li>Auto Filter</li>
+<li>Auto Pan</li>
+<li>Beat Repeat</li>
+<li>Cabinet</li>
+<li>Channel EQ</li>
+<li>Color Limiter</li>
+<li>Compressor</li>
+<li>Convolution Reverb</li>
+<li>Corpus</li>
+<li>Delay</li>
+<li>Drum Buss</li>
+<li>Dynamic Tube</li>
+<li>Echo</li>
+<li>Envelope Follower</li>
+<li>EQ Eight</li>
+<li>EQ Three</li>
+<li>Erosion</li>
+<li>External Audio Effect</li>
+<li>Filter Delay</li>
+<li>Gate</li>
+<li>Gated Delay</li>
+<li>Glue Compressor</li>
+<li>Grain Delay</li>
+<li>Hybrid Reverb</li>
+<li>LFO</li>
+<li>Limiter</li>
+<li>Looper</li>
+<li>Reverb</li>
+<li>Saturator</li>
+<li>Tuner</li>
+<li>Utility</li>
+<li>Multi-band Dynamics</li>
+<li>Overdrive</li>
+<li>Pedal</li>
+<li>Pitch Hack</li>
+<li>PitchLoop89</li>
+<li>Re-Enveloper</li>
+<li>Resonators</li>
+<li>Roar (New in Live 12)</li>
+<li>Shaper</li>
+<li>Spectral Blur</li>
+<li>Spectral Resonator</li>
+<li>Spectral Time</li>
+<li>Spectrum</li>
+<li>Surround Panner</li>
+<li>Vinyl Distortion</li>
+<li>Vocoder</li>
+</ul>
+</li>
+<li>Packs
+<ul>
+<li>Chop and Swing</li>
+<li><a href="https://www.ableton.com/en/packs/cv-tools/">CV Tools</a> - 10 creative Max for Live devices that let you control your modular gear with Ableton Live and Push
+<ul>
+<li>Instruments
+<ul>
+<li>CV Instrument - features flexible modulation and voicing options, as well as cent-accurate tuning of your oscillators</li>
+<li>CV Triggers - sequence your modular drum modules from inside</li>
+</ul>
+</li>
+<li>Utility
+<ul>
+<li>CV Utility - control your modular with automation curves from Live</li>
+</ul>
+</li>
+<li>Synchronization
+<ul>
+<li>CV Clock In - control Live&rsquo;s tempo from your Eurorack system</li>
+<li>CV Clock Out - send CV clock out to your modular and sync it to Live</li>
+</ul>
+</li>
+<li>Modulation
+<ul>
+<li>CV Envelope Follower - control your modular with audio signals from inside Live</li>
+<li>CV LFO - instantly add more LFOs to your modular system</li>
+<li>CV In - use your modular to modulate parameters in Live</li>
+<li>CV Shaper - create flexible CV shapes in Live then send them to your modular rig</li>
+</ul>
+</li>
+<li>MIDI Effect
+<ul>
+<li>Rotating Rhythm Generator - create organic rhythms and experiment with modular-style beat and polyrhythm generation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Beat Tools</li>
+<li>Build and Drop</li>
+<li>Brass Quartet</li>
+<li>Drive and Glow</li>
+<li>Drone Lab</li>
+<li>Drum Essentials</li>
+<li>Drum Booth</li>
+<li>Electric Keyboards</li>
+<li>Glitch and Wash</li>
+<li>Grand Piano</li>
+<li>Guitar and Bass</li>
+<li>Inspired by Nature</li>
+<li>Latin Percussion</li>
+<li>Lost and Found (New in Live 12)</li>
+<li>Mood Reel</li>
+<li>Orchestral Brass</li>
+<li>Orchestral Mallets</li>
+<li>Orchestral Strings</li>
+<li>Orchestral Woodwinds</li>
+<li>Performance Pack (New in Live 12)</li>
+<li>Punch and Tilt</li>
+<li>Session Drums Club</li>
+<li>Session Drums Studio</li>
+<li>Skitter and Step</li>
+<li>String Quartet</li>
+<li>Synth Essentials</li>
+<li>Upright Piano</li>
+<li>Voice Box</li>
+</ul>
+</li>
+<li>MIDI Effects
+<ul>
+<li>Arpeggiator</li>
+<li>CC Control (New in Live 12)</li>
+<li>Chord</li>
+<li>Envelope MIDI</li>
+<li>Expression Control</li>
+<li>Melodic Steps</li>
+<li>MIDI Effect Rack</li>
+<li>MIDI Monitor</li>
+<li>MPE Control</li>
+<li>Note Echo</li>
+<li>Note Length</li>
+<li>Pitch</li>
+<li>Random</li>
+<li>Rotating Rhythm Generator</li>
+<li>Scale</li>
+<li>Shaper MIDI</li>
+<li>Velocity</li>
+</ul>
+</li>
+<li>MIDI Tools
+<ul>
+<li>Arpeggiate</li>
+<li>Euclidean Generator</li>
+<li>Connect</li>
+<li>Ornament</li>
+<li>Quantize</li>
+<li>Recombine</li>
+<li>Rhythm</li>
+<li>Seed</li>
+<li>Shape</li>
+<li>Span</li>
+<li>Stacks</li>
+<li>Strum</li>
+<li>Time Warp</li>
+<li>Velocity Shaper</li>
+</ul>
+</li>
+<li>Modulators
+<ul>
+<li>Expression Control</li>
+<li>Envelope Follower</li>
+<li>Envelope MIDI</li>
+<li>LFO</li>
+<li>Shaper</li>
+<li>Shaper MIDI</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="air-music-technology">AIR Music Technology</h3>
+<p>AIR provides legendary virtual instruments, effects, expansions, sound packs and software subscriptions that bring music production to the next level</p>
+<ul>
+<li><a href="https://www.airmusictech.com/virtual-instruments/air-essential-synths-pack.html">AIR Essential Synths Pack</a>
+<ul>
+<li><a href="https://www.airmusictech.com/virtual-instruments/loom-ii.html">LOOM II</a></li>
+<li><a href="https://www.airmusictech.com/virtual-instruments/theRiser.html">The Riser</a></li>
+<li><a href="https://www.airmusictech.com/virtual-instruments/vacuum-pro.html">Vacuum Pro</a></li>
+</ul>
+</li>
+<li><a href="https://www.airmusictech.com/virtual-instruments/air-power-pack.html">AIR Power Pack</a>
+<ul>
+<li><a href="https://www.airmusictech.com/virtual-instruments/hybrid3.html">Hybrid 3</a>
+<ul>
+<li>Hybrid 3 Expansion: E-lec-tro Waves</li>
+<li>Hybrid 3 Expansion: Fresh Energy</li>
+</ul>
+</li>
+<li><a href="https://www.airmusictech.com/virtual-instruments/mini-grand.html">Mini Grand</a></li>
+<li><a href="https://www.airmusictech.com/virtual-instruments/velvet.html">Velvet 2</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="applied-acoustics-systems-aas">Applied Acoustics Systems (AAS)</h3>
+<ul>
+<li><a href="https://www.applied-acoustics.com/chromaphone-3/">Chromaphone 3</a> - two-voice synthesizer based on physically modelled acoustic resonators</li>
+<li><a href="https://www.applied-acoustics.com/lounge-lizard-ep-4/">Lounge Lizard EP-4</a> - authentic vintage electric piano sounds in an everything-you-need package</li>
+<li><a href="https://www.applied-acoustics.com/multiphonics-cv-2/">Multiphonics CV-2</a> - sophisticated tool for the creation of synths and effects</li>
+<li><a href="https://www.applied-acoustics.com/objeq-delay/">Objeq Delay</a> - creative effect plug-in combining acoustic filtering with a clever delay unit</li>
+<li><a href="https://www.applied-acoustics.com/string-studio-vs-3/">String Studio VS-3</a> - multitimbral synthesizer in which unique string oscillators replace the traditional VCOs, DCOs, and operators as the main sound source</li>
+<li><a href="https://www.applied-acoustics.com/strum-gs-2/">Strum GS-2</a> - nylon and steel acoustic and electric guitar plug-in</li>
+<li><a href="https://www.applied-acoustics.com/ultra-analog-va-3/">Ultra Analog VA‑3</a> - two-voice multimbral analog synthesizer, each voice featuring two oscillators, two filters, effects, and advanced editing options that achieve a sweet balance between familiarity and flexibility
+<ul>
+<li>plus all 20 expansion sound packs</li>
+</ul>
+</li>
+</ul>
+<h3 id="arturia">Arturia</h3>
+<p>Arturia is a French electronics company who design and manufacture audio interfaces and electronic musical instruments, including software synthesizers, drum machines, analog synthesizers, digital synthesizers, MIDI controllers, sequencers, and mobile apps</p>
+<ul>
+<li><a href="https://www.arturia.com/products/software-effects/efx-motions/overview">Efx MOTIONS</a></li>
+<li><a href="https://www.arturia.com/products/software-effects/efx-refract/overview">Efx REFRACT</a> - stereo multi-effect with versatility at its core</li>
+<li><a href="https://www.arturia.com/products/software-effects/fx-collection/overview">FX Collection 4</a>
+<ul>
+<li><a href="https://www.arturia.com/products/software-effects/bus-force/overview">Bus FORCE</a> - parallel processor effect designed with one aim: to make anything sound better</li>
+<li>Chorus DIMENSION-D</li>
+<li><a href="https://www.arturia.com/products/software-effects/chorus-jun-6/overview">Chorus JUN-6</a> - based on the iconic stereo effect found in the Juno polysynth series from the ‘80s, complete with faithful BBD analog warmth, an authentic 3-mode layout, and flexible modern controls to find your own modulation flavor</li>
+<li>Comp DIODE-609</li>
+<li>Comp FET-76</li>
+<li>Comp TUBE-STA</li>
+<li>Comp VCA-65</li>
+<li>Delay BRIGADE</li>
+<li>Delay ETERNITY</li>
+<li><a href="https://www.arturia.com/products/software-effects/delay-tape201/overview">Delay TAPE-201</a> - gives you everything you love about the sound of vintage hardware tape delays, but with the reliability and versatility of software</li>
+<li><a href="https://www.arturia.com/products/software-effects/dist-coldfire/overview">Dist COLDFIRE</a> - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks</li>
+<li>Dist OPAMP-21</li>
+<li>Dist TUBE-CULTURE</li>
+<li><a href="https://www.arturia.com/products/software-effects/eq-sitral-295/overview">EQ SITRAL-295</a> - highly musical equalizer effect based on an elusive transistor broadcast console, known for its warm, characterful sound</li>
+<li>Efx FRAGMENTS</li>
+<li>Filter M12</li>
+<li>Filter MINI</li>
+<li><a href="https://www.arturia.com/products/software-effects/filter-ms-20/overview">Filter MS-20</a> - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer</li>
+<li>Filter SEM</li>
+<li>Flanger BL-20</li>
+<li>Phaser BI-TRON</li>
+<li>Pre 1973</li>
+<li>Pre TridA</li>
+<li>Pre V76</li>
+<li>Rev INTENSITY</li>
+<li><a href="https://www.arturia.com/products/software-effects/rev-lx-24/overview">Rev LX-24</a> - enhanced virtual replica of a retro ambience box that defined reverb for a generation</li>
+<li>Rev PLATE-140</li>
+<li>Rev SPRING-636</li>
+<li>Rotary CLS-222</li>
+<li>Tape MELLO-FI</li>
+</ul>
+</li>
+<li><a href="https://www.arturia.com/products/software-instruments/v-collection/overview">V Collection X</a>
+<ul>
+<li>V Collection X now includes 39 instruments &amp; 10,000 high-quality presets
+<ul>
+<li>2 new instruments: CP-70 &amp; Augmented Woodwinds</li>
+<li>2 added instruments: Mini Freak V &amp; Acid V</li>
+<li>2 additional augmented series: Augmented Grand Piano &amp; Augmented Brass</li>
+</ul>
+</li>
+<li><strong>Instrument List</strong>
+<ul>
+<li>ARP 2600 V</li>
+<li>Acid V</li>
+<li><a href="https://www.arturia.com/products/software-instruments/analoglab/overview">Analog Lab Pro</a> - software instrument combining a world-class library of modern &amp; vintage presets with instant-access controls and workflow integration
+<ul>
+<li>2000+ presets, 4+GB library</li>
+</ul>
+</li>
+<li>Augmented BRASS</li>
+<li>Augmented GRAND PIANO</li>
+<li>Augmented STRINGS</li>
+<li>Augmented VOICES</li>
+<li>Augmented WOODWINDS</li>
+<li>B-3 V</li>
+<li>Buchla Easel V</li>
+<li>CMI V</li>
+<li>CP-70 V</li>
+<li>CS-80 V</li>
+<li>CZ V</li>
+<li>Clavinet V</li>
+<li>DX7 V</li>
+<li>Emulator II V</li>
+<li>Farfisa V</li>
+<li>Hyper Rave</li>
+<li>Inner City Soul</li>
+<li>Inward Universe</li>
+<li>Jun-6 V</li>
+<li>Jup-8 V</li>
+<li>KORG MS-20 V</li>
+<li>Matrix-12 V</li>
+<li>Mellotron V</li>
+<li>Mini V</li>
+<li>Mini V 4</li>
+<li>MiniFreak V</li>
+<li>Modular V</li>
+<li>OP-Xa V</li>
+<li><a href="https://www.arturia.com/products/software-instruments/piano-v/overview">Piano V</a> - finest array of production-worthy pianos, from luxurious German concert grands to contemporary metal and glass-framed designs, brought to life with dynamic physical modeling and infused with unprecedented tonal control - all in a single instrument</li>
+<li><a href="https://www.arturia.com/products/software-instruments/pigments/overview">Pigments</a> - software VST with the power to create any sound, from the best mix-ready modern presets to deep custom sound design</li>
+<li>Prophet-5 V</li>
+<li>Prophet-VS V</li>
+<li>SEM V</li>
+<li>SQ80 V</li>
+<li>Solina V</li>
+<li>Stage-73 V</li>
+<li>Synclavier V</li>
+<li>Synthi V</li>
+<li>VOX Continental V</li>
+<li>Vocoder V</li>
+<li>Wurli V</li>
+<li>Wurli V 3</li>
+</ul>
+</li>
+<li><strong>Expansion Packs</strong>
+<ul>
+<li>Inward Universe</li>
+<li>Inner City Soul</li>
+<li>Hyper Rave</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.arturia.com/sound-banks/wavelengthsbundle">Wavelengths Bundle</a></li>
+</ul>
+<h3 id="cherry-audio">Cherry Audio</h3>
+<p>Cherry Audio was formed by a small group of industry veterans from the likes of Sonic Foundry, Cakewalk, Bias, Acoustica, and Keyboard Magazine</p>
+<ul>
+<li><a href="https://cherryaudio.com/products/cr-78">CR-78</a> - virtual drum machine: accurately recreates the punchy analog sounds and 34 onboard preset rhythms of the first true classic drum machine and takes it much further</li>
+<li><a href="https://cherryaudio.com/products/mercury-6">Mercury-6</a> - meticulous recreation of the Jupiter-6 analog synthesizer</li>
+<li><a href="https://cherryaudio.com/products/ps-3300">PS-3300</a> - an exactingly faithful virtual analog emulation of the colossal and ultra-rare semi-modular analog polyphonic synthesizer released by KORG in 1977</li>
+<li><a href="https://cherryaudio.com/products/synthesizer-expander-module">Synthesizer Expander Module Synthesizer</a> - emulation of the classic Oberheim® self‑contained synthesizer module</li>
+<li><a href="https://cherryaudio.com/products/voltage-modular">Voltage Modular</a> - designed from the ground up to address the shortcomings of other virtual modular synth instruments</li>
+</ul>
+<h3 id="eventide">Eventide</h3>
+<p>Eventide Inc. is an American pro audio, broadcast and communications company whose audio division manufactures digital effects processors, digital signal processor (DSP) software, and guitar effects pedals.</p>
+<ul>
+<li><a href="https://www.eventideaudio.com/plug-ins/blackhole/">Blackhole</a></li>
+</ul>
+<h3 id="heavyocity">Heavyocity</h3>
+<p>Heavyocity is a collective of pro composers and sound designers with a mission to create world class virtual instruments for today&rsquo;s modern composer and sound designer</p>
+<ul>
+<li><a href="https://heavyocity.com/product/punish-lite/">PUNISH Lite</a></li>
+</ul>
+<h3 id="ik-multimedia">IK Multimedia</h3>
+<p>Renowned music technology company that specializes in creating music software, hardware, and accessories</p>
+<ul>
+<li><a href="https://www.ikmultimedia.com/products/philharmonik2/">Miroslav Philharmonik 2</a>
+<ul>
+<li>Over 58 GB of 24-bit / 96kHz samples</li>
+<li>Over 2,700 instruments that cover the full range of orchestral sounds and beyond</li>
+</ul>
+</li>
+<li><a href="https://www.ikmultimedia.com/products/pvconcertgrandyf3/">Pianoverse - Concert Grand YF3</a>
+<ul>
+<li>Based on a 9&rsquo; Yamaha CFIII concert grand piano</li>
+</ul>
+</li>
+<li><a href="https://www.ikmultimedia.com/products/st4/">SampleTank 4 MAX v2</a>
+<ul>
+<li>All 88 SampleTank products</li>
+<li>28 SampleTank 4 libraries</li>
+<li>The 34 synths from Syntronik 2 MAX v2</li>
+<li>SampleTron 2</li>
+<li>Miroslav Philharmonik 2</li>
+</ul>
+</li>
+<li><a href="https://www.ikmultimedia.com/products/syntronik2/">Syntronik 2 MAX v2</a> -
+<ul>
+<li>34 legendary synths available in 4 different versions or as individual instruments</li>
+<li>Over 5,000 presets that cover a wide range of sounds from 55 of the most iconic to ultra-rare vintage synthesizers</li>
+<li>All of the Syntronik and Syntronik Deluxe legacy presets are also included</li>
+</ul>
+</li>
+</ul>
+<h3 id="image-line">Image-Line</h3>
+<p>Image-Line Software is a Belgian software company best known for its digital audio workstation program FL Studio and related audio plugins such as Sytrus and Harmor</p>
+<ul>
+<li><a href="https://www.image-line.com/fl-studio/">FL Studio (Fruity Edition)</a></li>
+</ul>
+<h3 id="ios">iOS</h3>
+<ul>
+<li><a href="https://apps.apple.com/gb/app/ableton-note/id1633243177">Ableton Note</a></li>
+<li><a href="https://apps.apple.com/us/developer/audiokit-pro/id1307785645">AudioKit Pro</a>
+<ul>
+<li><a href="https://apps.apple.com/us/app/audiokit-synth-one-synthesizer/id1371050497">AudioKit Synth One Synthesizer</a></li>
+<li><a href="https://apps.apple.com/us/app/jam-with-jordan/id1524167609">Jam with Jordan</a></li>
+<li><a href="https://apps.apple.com/us/app/king-of-digital-hybrid-synth/id6467825289">King of Digital | Hybrid Synth</a></li>
+<li><a href="https://apps.apple.com/us/app/king-of-fm-dx-synth-e-piano/id1672644102">King of FM: DX Synth/E Piano</a></li>
+<li><a href="https://apps.apple.com/us/app/le05-digitalism-2000-auv3/id1547016343">LE05: Digitalism 2000 + AUv3</a></li>
+<li><a href="https://apps.apple.com/us/app/saga-synth-16-bit-super-fun/id1658167569">SAGA Synth | 16-Bit Super Fun!</a></li>
+</ul>
+</li>
+<li><a href="https://apps.apple.com/us/developer/korg-inc/id363714046">KORG</a>
+<ul>
+<li><a href="https://apps.apple.com/us/app/korg-gadget-2/id791077159">KORG Gadget 2</a></li>
+<li><a href="https://apps.apple.com/us/app/korg-module/id1048875111">KORG Module</a></li>
+</ul>
+</li>
+<li><a href="https://apps.apple.com/us/app/synthmaster-one/id1254353266">SynthMaster One</a></li>
+</ul>
+<h3 id="izotope">iZotope</h3>
+<p>iZotope Inc. is an audio technology company based in the United States who develop professional audio software for audio recording, mixing, broadcast, sound design, and mastering which can be used in wide range of digital audio workstation programs</p>
+<ul>
+<li><a href="https://www.izotope.com/en/products/audiolens.html">Audiolens</a></li>
+<li><a href="https://www.izotope.com/en/products/insight.html">Insight 2</a></li>
+<li><a href="https://www.izotope.com/en/shop/neutron-elements/">Neutron 4 Elements</a></li>
+<li><a href="https://www.izotope.com/en/shop/ozone-11-elements/?">Ozone 10 Elements</a></li>
+<li><a href="https://www.izotope.com/en/shop/stutter-edit-2-stutter-edit-2/">Stutter Edit 2</a></li>
+</ul>
+<h3 id="korg">KORG</h3>
+<p>KORG Inc. is a Japanese multinational corporation that manufactures electronic musical instruments, audio processors and guitar pedals, recording equipment, and electronic tuners</p>
+<ul>
+<li><a href="https://korg.shop/software/korg-collection-series.html?___store=english">KORG Collection 4</a>
+<ul>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-microkorg.html">microKORG</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-kaoss-pad.html">KAOSS PAD</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-electribe-r.html">ELECTRIBE-R</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-triton.html">TRITON</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-m1.html">M1</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-wavestation.html">WAVESTATION</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-arp-odyssey.html">ARP ODYSSEY</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-prophecy.html">Prophecy</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-minikorg700s.html">miniKORG 700S</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-korg-mono-poly.html">Mono/Poly</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-polysix.html">Polysix</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-ms-20.html">MS-20</a></li>
+<li><a href="https://korg.shop/software/korg-collection-series/single-products/korg-collection-mde-x.html">MDE-X</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="lennardigital">LennarDigital</h3>
+<p>LennarDigital is company based in the Netherlands who develop high quality digital audio software</p>
+<ul>
+<li><a href="https://www.lennardigital.com/sylenth1/">Sylenth1</a></li>
+</ul>
+<h3 id="modartt">Modartt</h3>
+<p>All instruments are physically modelled and simulate the playability and complex behaviour of real acoustic instruments</p>
+<ul>
+<li><a href="https://www.modartt.com/pianoteq_overview">Pianoteq 8 Stage</a>
+<ul>
+<li>Instrument Packs
+<ul>
+<li><a href="https://www.modartt.com/modeld">Steinway Model D</a></li>
+<li><a href="https://www.modartt.com/petrof">Petrof AP275 + P284</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="native-instruments">Native Instruments</h3>
+<p>Native Instruments is a German company that develops, manufactures, and supplies music software and hardware for music production, sound design, performance, and DJing</p>
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/">Native Instruments Komplete 14 Ultimate</a>
+<ul>
+<li><strong>Orchestral &amp; Cinematic Instruments</strong>
+<ul>
+<li>Action Strikes</li>
+<li>Action Strings 2</li>
+<li>Ashlight</li>
+<li>Emotive Strings</li>
+<li>Kinetic Metal</li>
+<li>Kinetic Toys</li>
+<li>Mallet Flux</li>
+<li>Mysteria</li>
+<li>Piano Colors</li>
+<li>Pharlight</li>
+<li>Rise &amp; Hit</li>
+<li>Stradivari Violin</li>
+<li>Straylight</li>
+<li>Symphony Essentials
+<ul>
+<li>Brass Ensemble</li>
+<li>Brass Solo</li>
+<li>String Ensemble</li>
+<li>Percussion</li>
+<li>Woodwind Ensemble</li>
+<li>Woodwind Solo</li>
+</ul>
+</li>
+<li>The Giant</li>
+<li>Thrill</li>
+</ul>
+</li>
+<li><strong>Synthesizers</strong>
+<ul>
+<li>Blocks Primes</li>
+<li>BX_Oberhausen</li>
+<li>Massive X</li>
+<li>Flesh</li>
+<li>FM8</li>
+<li>Form</li>
+<li>Kontour</li>
+<li>Massive</li>
+<li>Monark</li>
+<li>Razor</li>
+<li>Reaktor 6</li>
+<li>Reaktor Prism</li>
+<li>Reaktor Spark</li>
+<li>Retro Machines MK2</li>
+<li>Rounds</li>
+<li>Skanner XT</li>
+<li>Super 8</li>
+<li>TRK-01</li>
+</ul>
+</li>
+<li><strong>Sampled Instruments</strong>
+<ul>
+<li>Analog Dreams</li>
+<li>40’S Very Own Keys</li>
+<li>Alicia&rsquo;s Keys</li>
+<li>Balinese Gamelan</li>
+<li>Cloud Supply</li>
+<li>Cuba</li>
+<li>Deft Lines</li>
+<li>East Asia</li>
+<li>Electric Sunburst Deluxe</li>
+<li>Electric Vintage</li>
+<li>Ethereal Earth</li>
+<li>George Duke Soul Treasures</li>
+<li>Glaze</li>
+<li>Hybrid Keys</li>
+<li>Ignition Keys</li>
+<li>India</li>
+<li>Kontakt 7</li>
+<li>LO-FI Glow</li>
+<li>Melted Vibes</li>
+<li>Modular Icons</li>
+<li>Noire</li>
+<li>Playbox</li>
+<li>Session Guitarist: Electric Mint, Picked Nylon</li>
+<li>Sequis</li>
+<li>Session Bassist: Prime Bass</li>
+<li>Soul Sessions</li>
+<li>Session Guitarist</li>
+<li>Picked Acoustic</li>
+<li>Strummed Acoustic</li>
+<li>Strummed Acoustic 2</li>
+<li>Session Horns Pro</li>
+<li>Session Strings Pro 2</li>
+<li>The Maverick</li>
+<li>The Grandeur</li>
+<li>The Gentleman</li>
+<li>Una Corda</li>
+<li>Vintage Organs</li>
+<li>Middle East</li>
+<li>Scarbee
+<ul>
+<li>A-200</li>
+<li>Clavinet/Pianet</li>
+<li>Jay-Bass</li>
+<li>Mark I</li>
+<li>MM-Bass, MM-Bass Amped</li>
+<li>Pre-Bass, Pre-Bass Amped</li>
+<li>Rickenbacker Bass</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Drums &amp; Percussion Instruments</strong>
+<ul>
+<li>40’S Very Own Drums</li>
+<li>Abbey Road
+<ul>
+<li>Vintage Drummer</li>
+<li>50s Drummer</li>
+<li>60s Drummer</li>
+<li>70s Drummer</li>
+<li>80s Drummer</li>
+<li>Modern Drummer</li>
+</ul>
+</li>
+<li>Battery 4</li>
+<li>Butch Vig Drums</li>
+<li>Damage</li>
+<li>Drumlab</li>
+<li>Empire Breaks</li>
+<li>Polyplex</li>
+<li>Studio Drummer</li>
+<li>West Africa</li>
+</ul>
+</li>
+<li><strong>Effects</strong>
+<ul>
+<li>Ozone 10 Standard</li>
+<li>BX_Console N</li>
+<li>BX_Limiter True Peak</li>
+<li>BX_Crispytuner</li>
+<li>Replika XT</li>
+<li>LO-FI-AF</li>
+<li>Molekular</li>
+<li>Supercharger GT</li>
+<li>Raum</li>
+<li>The Mouth</li>
+<li>The Finger</li>
+<li>RC 24, RC 48</li>
+<li>Transient Master</li>
+<li>Enhanced EQ</li>
+<li>Vari Comp</li>
+<li>Passive EQ</li>
+<li>Solid Bus Comp</li>
+<li>Solid Dynamics</li>
+<li>Solid EQ</li>
+<li>VC 2A, VC 76, VC 160</li>
+<li>Crush Pack: Bite, Dirt, Freak</li>
+<li>Mod Pack: Choral, Flair, Phasis</li>
+<li>Driver</li>
+</ul>
+</li>
+<li><strong>Expansions</strong>
+<ul>
+<li>Amplified Funk, Aquarius Earth, Artist Expansion: Sasha, Astral Flutter, Backyard Jams, Basement Era, Beam, Body Mechanik, Bounce, Bump, Bumpin Flava, Byte Riot, Carbon Decay, Caribbean Current, Cavern Floor, Charge, Decoded Forms, Deep Matter, Drive, Drop Squad, Elastic Thump, Fade, Faded Reels, Free Form, Global Shake, Golden Kingdom, Halcyon Sky, Haze, Indigo Dust, Infinite Escape, Kino, Lazer Dice, Lilac Glare, Liquid Energy, London Grit, Lucid Mission, Marble Rims, Mechanix, Moebius, Molten Veil, Mother Board, Neo Boogie, Neon Drive, Nocturnal State, Our House, Platinum Bounce, Prismatic Bliss, Pulse, Pure Drip, Queensbridge Story, Quest, Rhythm Source, Rising Crescent, Rush, Scene, Solar Breeze, Soul Magic, Spectrum Quake, Stadium Flex, True School, Velvet Lounge, Wake</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="pluginguru">PluginGuru</h3>
+<p>Founded by veteran synth programmer and sound designer John Lehmkuhl, PlugInGuru provides inspiring synth patches for all of the most popular synth plug-ins</p>
+<ul>
+<li><a href="https://www.pluginguru.com/products/unify-standard/">Unify</a>
+<ul>
+<li><a href="https://www.pluginguru.com/products/magic-motion/">Cutting Edge – Magic Motion</a></li>
+<li><a href="https://www.pluginguru.com/products/ambient-dreams/">Modern Cinema - Ambient Dreams</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="projectsam">ProjectSAM</h3>
+<p>ProjectSAM creates award-winning cinematic sample libraries which are used in numerous film, game and series-scores all over the world</p>
+<ul>
+<li><a href="https://projectsam.com/series/the-free-orchestra">The Free Orchestra</a>
+<ul>
+<li><a href="https://projectsam.com/libraries/the-free-orchestra">The Free Orchestra 1</a></li>
+<li><a href="https://projectsam.com/libraries/the-free-orchestra-2">The Free Orchestra 2</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="reveal-sound">Reveal Sound</h3>
+<ul>
+<li><a href="https://www.reveal-sound.com/plug-ins/spire">Spire</a> - polyphonic synthesizer that combines powerful sound engine modulation with flexible architecture and a graphical interface that provides unparalleled usability</li>
+</ul>
+<h3 id="sonic-academy">Sonic Academy</h3>
+<ul>
+<li><a href="https://www.sonicacademy.com/products/ana-2">ANA 2</a> - powerful 6 voice soft synth with immaculate sound</li>
+</ul>
+<h3 id="spitfire-audio">Spitfire Audio</h3>
+<p>Spitfire Audio is an English technology company based in London that creates virtual instrument sample libraries used for music production</p>
+<ul>
+<li><a href="https://www.spitfireaudio.com/bbc-symphony-orchestra-discover">BBC Symphony Orchestra Discover</a></li>
+</ul>
+<h3 id="steinberg">Steinberg</h3>
+<p>Steinberg Media Technologies GmbH is a German musical software and hardware company based in Hamburg who develop music writing, recording, arranging, and editing software, most notably Cubase, Nuendo, and Dorico</p>
+<ul>
+<li><a href="https://www.steinberg.net/cubase/compare-editions/">Cubase Artist 13</a></li>
+<li><a href="https://www.steinberg.net/vst-instruments/taped-vibes/">Taped Vibes3</a></li>
+</ul>
+<h3 id="u-he">u-he</h3>
+<p>Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann</p>
+<ul>
+<li><a href="https://u-he.com/products/diva/">Diva</a></li>
+</ul>
+<h3 id="uvi">UVI</h3>
+<p>UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals</p>
+<ul>
+<li><a href="https://www.uvi.net/en/unconventional/8bit-synth.html">8-Bit Synth</a> - inspired by the lo-fi hardware sounds of yesteryear
+<ul>
+<li>31,402 Samples, 375 Presets, 430 Layers (187 SidMachines and 243 SidStation)</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/orchestral/augmented-orchestra.html">Augmented Orchestra</a>
+<ul>
+<li>620 Presets, 485 Layers, 65,800 Samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/aurora.html">Aurora - Textured Piano</a> - based on the rich and powerful sound of a world-class concert grand piano
+<ul>
+<li>3-layer engine with 100+ customizable textures and atmospheres</li>
+<li>211 presets, 8170 samples</li>
+<li>4.45 GB (FLAC lossless encoding, was 18.46 GB in WAV)</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/bass-drums-perc/drum-designer.html">Drum Designer</a>
+<ul>
+<li>5,736 Samples, 2,654 Presets (398 Kits, 545 Kicks, 499 Snares, 405 Claps, 674 Cymbals and 133 Sequences)</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/effects/dual-delay-x.html">Dual Delay X</a></li>
+<li><a href="https://www.uvi.net/falcon">Falcon 3</a>
+<ul>
+<li><a href="https://www.uvi.net/en/falcon-expansions">Falcon Expansions</a>
+<ul>
+<li><a href="https://www.uvi.net/en/falcon-expansions/analog-motion.html">Analog Motion</a></li>
+<li><a href="https://www.uvi.net/en/falcon-expansions/digital-motion.html">Digital Motion</a></li>
+<li><a href="https://www.uvi.net/en/falcon-expansions/organic-arps.html">Organic Arps</a></li>
+<li><a href="https://www.uvi.net/en/falcon-expansions/organic-keys.html">Organic Keys</a></li>
+<li><a href="https://www.uvi.net/en/falcon-expansions/organic-pads.html">Organic Pads</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/falcon-expansions/spectre.html">Spectre</a>
+<ul>
+<li>140 presets</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/vintage-synth/hx-20.html">HX-20</a>
+<ul>
+<li>222 presets, 182 layers, 13,341 samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/key-suite.html">Key Suite Bundle Edition</a>
+<ul>
+<li><a href="https://www.uvi.net/austrian-grand">Austrian Grand</a>
+<ul>
+<li>23 Presets and 6,450 Samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/key-suite-acoustic.html">Key Suite Acoustic</a>
+<ul>
+<li>20 Instruments, 22,424 Samples, 125 Presets</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/key-suite-digital.html">Key Suite Digital</a>
+<ul>
+<li>10 Instruments, 28,852 Samples, 196 Presets</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/key-suite-electric.html">Key Suite Electric</a>
+<ul>
+<li>63 Instruments, 53,562 Samples, 476 Presets</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/soundfx/meteor.html">Meteor</a>
+<ul>
+<li>699 Presets, 3,891 Samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/vintage-synth/mission-6.html">Mission 6</a>
+<ul>
+<li>400 presets, 341 layers, 33.174 samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/soundware/noctua.html">Noctua</a>
+<ul>
+<li>100 presets, 3 layers, 632 samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/bass-drums-perc/percussion-factory.html">Percussion Factory</a>
+<ul>
+<li>556 presets, 1014 layers, 8560 samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/vintage-synth/px-memories.html">PX Memories</a>
+<ul>
+<li>353 presets (divided into 16 categories, made from 171 programs), 38,988 samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/unconventional/quadra-muted-and-harmonics.html">Quadra - Muted and Harmonics</a>
+<ul>
+<li>335 Presets (25 Layer Presets, 150 Arpeggiator Presets), 150 Layers, and 29,043 Samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/music-genres/scratch-machine.html">Scratch Machine</a>
+<ul>
+<li>6,381 Samples, 4,209 Loops, 108 Presets</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/effects/shade.html">Shade</a></li>
+<li><a href="https://www.uvi.net/en/effects/sparkverb.html">Sparkverb</a></li>
+<li><a href="https://www.uvi.net/synth-anthology-4">Synth Anthology 4</a>
+<ul>
+<li>38,071 Samples and 4,767 Presets</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/vintage-vault-4-upgrade-sp.html">Vintage Vault 4</a>
+<ul>
+<li>36 UVI products, 14,000+ presets, 800,000+ samples</li>
+<li><a href="https://www.uvi.net/vintage-vault-4.html#instruments/">Instruments</a>
+<ul>
+<li><a href="https://www.uvi.net/en/bass-drums-perc/beatbox-anthology-ii.html">BeatBox Anthology 2</a> - Massive collection of vintage, modern and rare sounds from 111 drum machines
+<ul>
+<li>11,862 Samples, 1,355 Loops, 282 Kits, 161 Patterns</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/bit-zone">Bit Zone</a> - Massive polyphonic analog sounds inspired by an obscure Italian gem from the &rsquo;80s</li>
+<li><a href="https://www.uvi.net/cameo.html">Cameo</a> - 3 instruments inspired by the distinct character of phase distortion synthesis
+<ul>
+<li>Cameo CZ - incorporates a huge library of custom patches designed on the original hardware</li>
+<li>Cameo CX - dual-layer instrument with a large catalog of sounds and raw waveforms captured directly from the hardware instruments</li>
+<li>Cameo CM - another dual-layer instrument, but this time utilizing the wavetable oscillator and DSP shaping tools from Falcon</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/cs-m.html">CS-M</a> - 4-instrument suite delivering the analog sounds of the classic CS-series synths</li>
+<li><a href="https://www.uvi.net/darklight-iix.html">Darklight IIx</a> - 3 instruments inspired by the ultimate 80’s digital workstation
+<ul>
+<li>Page P - Digital Synth</li>
+<li>Page B - Digital Drum Machine</li>
+<li>Page U - Creative Multi-Phraser</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/digital-synsations.html">Digital Synsations</a> - 4 instruments inspired by digital maverick synths of the ‘90s
+<ul>
+<li>DS1 - Korg M1</li>
+<li>DS77 -</li>
+<li>DS90s -</li>
+<li>DSX - Ensoniq VFX</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/digital-synsations-vol-2.html">Digital Synsations Vol. 2</a> - 3 instruments inspired by digital maverick synths of the ‘90s
+<ul>
+<li>DZmo</li>
+<li>DK5S</li>
+<li>DS-890</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/vintage-synth/emulation-ii-plus.html">Emulation II+</a> - A modern creative exploration of 3 iconic sampler-synths and a lo-fi drum machine
+<ul>
+<li>1,306 Presets (210 Drumulation+, 256 Emulation I, 319 Emulation II, 245 Emulation III, 276 Multis) and 35,477 Samples</li>
+<li>Emulation I - Emulation I is a modern creative exploration of this vintage classic, delivering both old and all-new sounds</li>
+<li>Emulation II - 300 layers recorded directly from a fully-restored Emulator II, and again on the rare Oberheim DPX-1</li>
+<li>Emulation III - Featuring the original licensed sounds from OMI, you get over 240 layers recorded directly from the hardware</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/energy.html">Energy</a> - The DK Synergy, a 32-oscillator additive synthesizer from the ‘80s</li>
+<li><a href="https://www.uvi.net/en/vintage-synth/fm-suite.html">FM Suite</a> - 5 instruments exploring a dynasty of vintage FM synths
+<ul>
+<li>1,025 Presets, 103,394 Samples</li>
+<li>FMX-1 XL - based on the fabled DX1 (1983), the top-of-the-line sibling to the popular DX7</li>
+<li>FMX-2 XL - a 4-operator variant of its big brother based on 3 more modest vintage FM synths; the DX21 (1985), DS8 (1987), and TQ5 (1988)</li>
+<li>FMX-8OP - based on the original 8-operator FM synthesizer, the FVX-1 (1988)</li>
+<li>FMX-4OP - a 4-operator variant of the FMX-8op</li>
+<li>FMX-GS - based on one of the original FM keyboards, the GS2</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/hybrid-6000">Hybrid 6000</a> - Powerful analog tones and drums from the quintessential SD synthesis workhorse</li>
+<li><a href="https://www.uvi.net/jp-legacy.html">JP Legacy</a> - A heroic 4-instrument suite of legendary polyphonic analog synths
+<ul>
+<li>SATURN-4 - 4-voice poly from 1978</li>
+<li>SATURN-6 - a true vintage gem, this 12-oscillator, 6-voice analog polysynth can create massively thick sounds - a pad and drone dream machine</li>
+<li>SATURN-8 - one of the most iconic analog synthesizers ever produced, and the brands flagship, this featured synth sports 16-oscillators on 8-voices with cross-modulation, sync, PWM, an HPF, variable LPF, an LFO and two EGs</li>
+<li>MERCURY-80 - 16-oscillator 8-voice super-synth came equipped with fully-analog VCOs and a low boost circuit</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/kroma.html">Kroma</a> - Based on the last polyphonic analog designed by ARP, and it’s little brother</li>
+<li><a href="https://www.uvi.net/mello.html">Mello</a> - The origins of sampling—a sound that shaped the 60&rsquo;s</li>
+<li><a href="https://www.uvi.net/ob-legacy.html">OB Legacy</a> - 6 instruments inspired by a legendary American synth designer</li>
+<li><a href="https://www.uvi.net/prime-8-plus">Prime 8+</a> - A legend returns, the ultimate &rsquo;80s analog drum machine brings the rhythm</li>
+<li><a href="https://www.uvi.net/en/vintage-synth/program-24.html">Program 24</a> - Hybrid digital/analog workstation synth from the peak of ‘80s Italo Disco
+<ul>
+<li>220 Multi Kits, 9 Drum Presets with Kit settings and MIDI files, 9 handcrafted Drum Kits, 201 Drum MIDI files with drag&rsquo;n drop, 18 Bass Presets, 20 Organ/String Presets, 21 Synth Presets in the 3 Accompaniment sections, 99 Arpeggiator Presets, 9,540 Samples</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/px-apollo.html">PX Apollo</a> - Based on a rare early ’70s prototype of the first polyphonic analog</li>
+<li><a href="https://www.uvi.net/px-memories">PX Memories</a> - Based on the definitive LAMM mod analog synthesizer, with true analog unison</li>
+<li><a href="https://www.uvi.net/px-p10.html">PX P10</a> - Based on the iconic dual-keybed analog powerhouse of the ‘80s</li>
+<li><a href="https://www.uvi.net/px-sunbox">PX SunBox</a> - A fiercely versatile modular 8-voice analog hybrid synth with morphable filters</li>
+<li><a href="https://www.uvi.net/px-v8.html">PX V8</a> - Based on an ultra-rare American polyphonic analog synthesizer</li>
+<li><a href="https://www.uvi.net/string-machines-2.html">String Machines 2</a> - Combine 62 vintage string synthesizers in a dual-layer instrument</li>
+<li><a href="https://www.uvi.net/super-7">Super-7</a> - Essential &rsquo;80s analog sound from two classic synths and a suite of drum machines</li>
+<li><a href="https://www.uvi.net/synthox.html">Synthox</a> - A dual-layer hybrid analog/FM synth packed with the sounds of a famous Italian</li>
+<li><a href="https://www.uvi.net/the-beast.html">The Beast</a> - 3 instruments inspired by the stunning sounds of a famous &rsquo;70s workstation</li>
+<li><a href="https://www.uvi.net/u1250.html">U1250</a> - Inspired by the first ROMplers, the K250 and K1000</li>
+<li><a href="https://www.uvi.net/ultra-mini.html">UltraMini</a> - The de facto analog mono synth, available in 1973 and 2011 flavors</li>
+<li><a href="https://www.uvi.net/usq-1.html">USQ-1</a> - Based on a cult-classic digital/analog hybrid workstation</li>
+<li><a href="https://www.uvi.net/uvs-3200.html">UVS-3200</a> - A tribute to the legendary Korg PS-3200</li>
+<li><a href="https://www.uvi.net/uvx670.html">UVX670</a> - Based on 2 classic Japanese analog polyphonic synths from the ‘80s</li>
+<li><a href="https://www.uvi.net/uvx-10p.html">UVX-10P</a> - The glorious sound of ‘80s analog, inspired by three Japanese classics</li>
+<li><a href="https://www.uvi.net/uvx-3p.html">UVX-3P</a> - Inspired by the huge analog sound of a famous Japanese synth</li>
+<li><a href="https://www.uvi.net/uvx80.html">UVX80</a> - Inspired by a rare Japanese 8-voice analog synth from the ‘80s</li>
+<li><a href="https://www.uvi.net/vector-pro.html">Vector Pro</a> - 3 instruments inspired by the famed beginnings of vector synthesis</li>
+<li><a href="https://www.uvi.net/waverunner.html">WaveRunner</a> - A 7-instrument retrospective of German wavetable synth designs</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/en/music-genres/world-suite-2.html">World Suite 2</a>
+<ul>
+<li>66,460 Samples, 369 Instruments, 10,584 Loops &amp; Phrases</li>
+</ul>
+</li>
+</ul>
+<h3 id="music-theory-tools">Music Theory Tools</h3>
+<ul>
+<li>EVAbeat
+<ul>
+<li>Melody Sauce 2</li>
+</ul>
+</li>
+<li><a href="https://www.pluginboutique.com/">Plugin Boutique</a>
+<ul>
+<li>Scaler 2</li>
+</ul>
+</li>
+<li><a href="https://www.waproduction.com/">WA Production</a>
+<ul>
+<li>MIDIQ</li>
+<li>InstaScale</li>
+<li>Chords Pro + Notes
+= InstaChord 2</li>
+<li>InstaComposer</li>
+</ul>
+</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li><a href="https://www.antarestech.com/">Antares</a>
+<ul>
+<li><a href="https://www.antarestech.com/products/vocal-effects/choir">Choir</a></li>
+</ul>
+</li>
+<li><a href="https://www.dear-reality.com/">Dear Reality</a>
+<ul>
+<li><a href="https://www.dear-reality.com/products/exoverb-micro">EXOVERB Micro</a></li>
+</ul>
+</li>
+<li><a href="https://www.gforcesoftware.com/">GForce Software</a>
+<ul>
+<li><a href="https://www.gforcesoftware.com/products/imposcar2/">impOSCar2</a></li>
+</ul>
+</li>
+<li><a href="https://www.minimal.audio/">Minimal Audio</a>
+<ul>
+<li><a href="https://www.minimal.audio/products/rift-filter-lite">Rift Filter Lite</a></li>
+</ul>
+</li>
+<li><a href="https://www.moogmusic.com/">Moog</a>
+<ul>
+<li><a href="https://www.moogmusic.com/products/moogerfooger-mf-108m-cluster-flux">Moogerfooger MF-108S Cluster Flux</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluginboutique.com/">Plugin Boutique</a>
+<ul>
+<li><a href="https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/9785-StereoSavage-2-Elements">StereoSavage 2 Elements</a></li>
+</ul>
+</li>
+<li><a href="https://pulsar.audio/">Pulsar Audio</a>
+<ul>
+<li><a href="https://pulsar.audio/w495/">W495</a></li>
+</ul>
+</li>
+<li><a href="https://www.sonible.com/">Sonible</a>
+<ul>
+<li><a href="https://www.sonible.com/purelimit/">pure:limit</a></li>
+</ul>
+</li>
+<li><a href="https://www.tracktion.com/">Tracktion</a>
+<ul>
+<li><a href="https://www.tracktion.com/products/love">Dawesome LOVE</a></li>
+</ul>
+</li>
+<li><a href="https://www.uaudio.com/">Universal Audio</a>
+<ul>
+<li><a href="https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-tube-compressor.html">LA-2A Tube Compressor</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="my-music-production-software-past">My Music Production Software (Past)</h2>
+<ul>
+<li>Amiga
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/OctaMED">OctaMED</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Protracker">Protracker</a></li>
+</ul>
+</li>
+<li>PC
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Acid_Pro">ACID Pro</a></li>
+<li><a href="https://www.cakewalk.com/">Cakewalk</a></li>
+<li><a href="https://www.reasonstudios.com/">Propellerhead Software</a> (Reason Studios)
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Reason_(software)">Reason</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ReBirth_RB-338">ReBirth RB-338</a></li>
+</ul>
+</li>
+<li><a href="https://www.ikmultimedia.com/products/st4/index.php">SampleTank</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Steinberg">Steinberg</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Steinberg_Cubase">Cubase VST</a></li>
+<li><a href="https://www.steinberg.net/wavelab/">Wavelab</a></li>
+</ul>
+</li>
+<li>Music Players
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Winamp">Winamp</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="my-music-production-sample-libraries">My Music Production Sample Libraries</h2>
+<ul>
+<li><a href="https://samplesfrommars.com/">Samples From Mars</a>
+<ul>
+<li><a href="https://samplesfrommars.com/products/all-products-from-mars">All The Samples From Mars</a>
+<ul>
+<li>All The Samples From Mars is a 62 GB collection of 75 sample packs, created over the past 10 years by extensively sampling their favorite (often rare and vintage) drum machines, synthesizers, samplers, custom vinyl, acoustic instruments and more. All of their samples have been painstakingly mapped to your favorite DAWs and samplers and recorded through some of the best recording equipment in the world.</li>
+<li>As of Jan 2024 there is an amazing 97% discount for their entire collection!
+<ul>
+<li>Sale price: $49 (worth $2,067)</li>
+</ul>
+</li>
+<li>Huge thanks to <a href="https://soundcloud.com/johnselway">John Selway</a> from <a href="https://www.youtube.com/@343labs">343 Labs</a> for making me aware of this library (&amp; the discount) during one of his weekly livestreams
+<ul>
+<li><a href="https://www.youtube.com/watch?v=6M8DRtkuU3c">Making techno with Ableton&rsquo;s new synth DRIFT | Ableton tutorial</a></li>
+</ul>
+</li>
+<li>Included libraries
+<ul>
+<li>101 FROM MARS, 2600 FROM MARS, 360 FROM MARS, 505 FROM MARS, 606 FROM MARS, 626 FROM MARS, 707 FROM MARS, 727 FROM MARS, 808 FROM MARS, 808 FROM MARS - Legacy (Older Version), 909 FROM MARS, 909 LOOPS FROM MARS, ACID FROM MARS, ARP OMNI FROM MARS, CR-78 FROM MARS, DATABENDERS_TOOLKIT, DMX FROM MARS, DR BOHM FROM MARS, DR SAMPLE FROM MARS, DRUMTRAX FROM MARS, DRUMULATOR FROM MARS, DX FROM MARS, DX100 FROM MARS, ESSENTIAL WAV FROM MARS - 16Bit, ESSENTIAL WAV FROM MARS - 24Bit, FOUND SOUNDS FROM MARS, GROOVES FROM MARS, JUPITER DRUMS FROM MARS, KAWAII DREAMS FROM MARS, LINDRUM FROM MARS, LINDRUM FROM MARS - Legacy (Older Version), LINN60 FROM MARS, LM1 FROM MARS, MICRO FROM MARS, MINI FROM MARS, MINIPOPS SNACKS FROM MARS, MIRAGE FROM MARS, MODERN ODDITIES FROM MARS, MODULAR CREATIONS, MODULAR DRUM LOOPS FROM MARS, MODULAR DRUMS FROM MARS, MPC1 FROM MARS, MPC2000 SNACKS FROM MARS, MPC3000 FROM MARS, MPC60 FROM MARS, MR10 FROM MARS, MS10 FROM MARS, OB FROM MARS, PRIVATE RESERVE FROM MARS, PULSAR FROM MARS, RHYTHM FROM MARS, S612 FROM MARS, S950 SNACKS FROM MARS, SAMPLE JOURNAL FROM MARS, SAMPLE PACK RELEASE GUIDE PDF, SDS800 FROM MARS, SDSV FROM MARS, SH5 FROM MARS, SID FROM MARS, SK1 FROM MARS, SOVIET SYNTHS FROM MARS, SP 1200 FROM MARS, SP 909 FROM MARS, SYNARE FROM MARS, SYS100M FROM MARS, TAPE FRAGMENTS FROM MARS, TOM FROM MARS, TRUMPET FRAGMENTS FROM MARS, VINYL DRUM MACHINES FROM MARS, VINYL DRUMS FROM MARS, VINYL SYNTHS FROM MARS, VISCOUNT FROM MARS, VOYETRA FROM MARS, VP-330 FROM MARS, WASP FROM MARS, WENDEL FROM MARS</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>My Music Production Wishlists (Hardware &amp; Software)</title>
       <link>https://jamesm.blog/music-production/my-hardware-software-wishlist/</link>
       <pubDate>Sun, 16 Jun 2024 07:23:00 +0000</pubDate>
+      
       <guid>https://jamesm.blog/music-production/my-hardware-software-wishlist/</guid>
-      <description>&lt;h2 id=&#34;music-production-wishlist---hardware&#34;&gt;Music Production Wishlist - Hardware&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arranger Keyboards&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ketronmusic.co.uk/&#34;&gt;Ketron&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ketronmusic.co.uk/products/Ketron/arranger_keyboards/EVENT.html&#34;&gt;EVENT&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/synthesizers/pa5x/&#34;&gt;Pa5X&lt;/a&gt; (Professional Arranger)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://europe.yamaha.com/en/&#34;&gt;Yamaha&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html&#34;&gt;Genos2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Controller Keyboards&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;Arturia&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/hybrid-synths/keylab-88-mkii/overview&#34;&gt;Keylab 88 MkII&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.expressivee.com/&#34;&gt;Expressive E&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.expressivee.com/2-osmose&#34;&gt;osmose&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com&#34;&gt;Native Instruments&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/komplete/keyboards/kontrol-s49-s61-s88/&#34;&gt;Komplete Control S88 MK3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Digital Pianos&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/global/products/gp-9/&#34;&gt;GP-9 Digital Piano&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://europe.yamaha.com/en/&#34;&gt;Yamaha&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/products/musical_instruments/pianos/avantgrand/n3x/index.html&#34;&gt;AvantGrand N3X&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.yamahamusiclondon.com/Grand-Piano-214VC/pidP214VCSP&#34;&gt;Bösendorfer Grand Piano 214VC&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Drum Machines &amp;amp; Grooveboxes&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/&#34;&gt;Ableton&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/push/&#34;&gt;Ableton Push&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/ca/products/mc-707/&#34;&gt;MC-707&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Synthesizers&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;Arturia&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/hardware-synths/polybrute-noir/overview&#34;&gt;PolyBrute Noir Edition&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.behringer.com/&#34;&gt;Behringer&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.behringer.com/product.html?modelCode=P0BNY&#34;&gt;Odyssey&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.behringer.com/product.html?modelCode=P0D9J&#34;&gt;Poly D&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gearnews.com/behringer-ub-xa/&#34;&gt;UB-Xa&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/modwave_native/&#34;&gt;Modwave Native&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/synthesizers/wavestate/v2.php&#34;&gt;Wavestate&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/&#34;&gt;Moog&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/products/etherwave-theremin&#34;&gt;Etherwave Theremin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/products/minimoog-model-d&#34;&gt;Minimoog Model D&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/products/subsequent-37&#34;&gt;Subsequent 37&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/uk/products/d-05/&#34;&gt;D-05&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/us/products/juno-x/&#34;&gt;JUNO-X&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/uk/products/jupiter-x/&#34;&gt;JUPITER-X&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/uk/products/jupiter-80/&#34;&gt;JUPITER-80&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://sequential.com/&#34;&gt;Sequential&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://sequential.com/product/prophet-x/&#34;&gt;Prophet X&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Workstations&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/synthesizers/nautilus_at/&#34;&gt;Nautilus AT&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.roland.com/global/promos/fantom_ex_series/&#34;&gt;FANTOM 8 EX&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/&#34;&gt;Yamaha&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html&#34;&gt;MONTAGE M8x&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;music-production-wishlist---software&#34;&gt;Music Production Wishlist - Software&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.apple.com/&#34;&gt;Apple&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.apple.com/uk/logic-pro/&#34;&gt;Logic Pro&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.bitwig.com/&#34;&gt;Bitwig&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.bitwig.com/overview/&#34;&gt;Bitwig Studio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.bozdigitallabs.com/&#34;&gt;boz Digital Labs&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.bozdigitallabs.com/product/new-york-l-bundle/&#34;&gt;New York L Bundle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://d16.pl/&#34;&gt;D16 Group&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://d16.pl/phoscyon2&#34;&gt;Phoscyon2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://d16.pl/punchbox&#34;&gt;Punchbox&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://d16.pl/totalbundle&#34;&gt;TotalBundle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://emergenceaudio.com/&#34;&gt;Emergence Audio&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://emergenceaudio.com/product/viola-textures/&#34;&gt;Viola Textures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/&#34;&gt;FeelYourSound&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/chilloutengine/&#34;&gt;ChilloutEngine&lt;/a&gt; - turns your chord progressions into relaxed keys, smooth basslines, memorable hooks, and lovely arpeggios&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/chordpotion/&#34;&gt;ChordPotion&lt;/a&gt; - MIDI plug-in that turns any chord progression into new riffs and melodies in real-time&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/houseengine/&#34;&gt;HouseEngine&lt;/a&gt; - turns your chord progressions into expressive piano rhythms, deep basslines, catchy melodies, and sparkling arpeggios&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/melodicflow/&#34;&gt;MelodicFlow&lt;/a&gt; - create and play stunning melodies, basslines, and riffs quickly&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/sundog/&#34;&gt;Sundog Song Studio&lt;/a&gt; - experiment with new scales, harmonies, and melodies easily&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/tranceengine/&#34;&gt;TranceEngine&lt;/a&gt; - turns your chord progressions into uplifting melodies, driving arpeggios, deep basslines, and memorable hooks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fors.fm/&#34;&gt;Fors&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fors.fm/opal&#34;&gt;Opal&lt;/a&gt; - Rhythm machine &amp;amp; drum synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fors.fm/superberry&#34;&gt;Superberry&lt;/a&gt; - Delicious superwave&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gforcesoftware.com/&#34;&gt;GForce Software&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gforcesoftware.com/products/m-tron-pro-complete/&#34;&gt;M-Tron Pro - Complete&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gospelmusicians.com/&#34;&gt;Gospel Musicians&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gospelmusicians.com/products/tgx85&#34;&gt;TGX-85&lt;/a&gt; (Yamaha SY85 Virtual Instrument)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/modwave_native/&#34;&gt;Modwave Native&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/opsix_native/&#34;&gt;Opsix Native&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/wavestate_native/&#34;&gt;Wavestate Native&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.minimal.audio/&#34;&gt;Minimal Audio&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.minimal.audio/products/current&#34;&gt;Current&lt;/a&gt; - virtual instrument, effects suite, and content platform built for endless hours of inspiration&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.minimal.audio/products/rift&#34;&gt;Rift&lt;/a&gt; - deeply creative multi-effect plugin&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.modartt.com/&#34;&gt;Modartt&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.modartt.com/modelb&#34;&gt;Steinway Model B&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluginguru.com/&#34;&gt;PlugInGuru&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(many !)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.avid.com/pro-tools&#34;&gt;Pro Tools&lt;/a&gt; - makes music creation fast and fluid, providing a complete set of tools to create, record, edit, and mix audio&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pulse.audio/&#34;&gt;Pulse Audio&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/&#34;&gt;Vivid Strings&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://refx.com/&#34;&gt;reFX&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://refx.com/nexus/&#34;&gt;Nexus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rhizomatic.fr/&#34;&gt;Rhizomatic&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rhizomatic.fr/&#34;&gt;Plasmonic&lt;/a&gt; - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/&#34;&gt;Rob Papen&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/explorer-9.html&#34;&gt;EXPLORER-9&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/albino-3-legend.html&#34;&gt;Albino-3&lt;/a&gt; - Legacy The legendary Virtual Synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Go2-x.html&#34;&gt;Go2-X&lt;/a&gt; - Insane easy to use power Synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/lowsane.html&#34;&gt;LowSane&lt;/a&gt; - LoFi FX with additional Filters and the &amp;lsquo;Disrupt Sphere&amp;rsquo;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/bit2.html&#34;&gt;BIT-2&lt;/a&gt; - The Ultimate Virtual Analog Synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/blue3.html&#34;&gt;BLUE-III&lt;/a&gt; - Cross-fusion Virtual Synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/revsane.html&#34;&gt;RevSane&lt;/a&gt; - Algorithm Reverb with &amp;lsquo;Disrupt Sphere&amp;rsquo;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Predator-3.html&#34;&gt;Predator-3&lt;/a&gt; - The Hybride Powerhouse!&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/RoCoder.html&#34;&gt;RoCoder&lt;/a&gt; - Vocoder and much more!&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/DelSane.html&#34;&gt;DelSane&lt;/a&gt; - The coolest Delay in this Galaxy!&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-distort-2.html&#34;&gt;RP-Distort 2&lt;/a&gt; - PowerHouse Distortion FX with Disrupt Sphere!&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Punch2.html&#34;&gt;Punch 2&lt;/a&gt; - Power drum machine with synthesis and sample-based&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/BLADE-2.html&#34;&gt;BLADE-2&lt;/a&gt; - Cutting-edge Additive synthesis and more&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Quad-vst.html&#34;&gt;Quad&lt;/a&gt; - PhaseDistortion and WaveShaper synthesizer|&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/raw.html&#34;&gt;RAW&lt;/a&gt; - Cutting-edge EDM synthesizer with a focus on &amp;lsquo;distorted sounds.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/XY-Transfer.html&#34;&gt;XY-Transfer&lt;/a&gt; - XY-modulation FX multiprocessor&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/bit.html&#34;&gt;BIT&lt;/a&gt; - Ultimate virtual analog synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Vecto-vst.html&#34;&gt;Vecto&lt;/a&gt; - Four-oscillator vector synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/go2.html&#34;&gt;Go2&lt;/a&gt; - The power of limitations synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/RAW-Kick.html&#34;&gt;RAW-Kick&lt;/a&gt; - Edgy Kicks for contemporary dance music.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/MasterMagic.html&#34;&gt;MasterMagic&lt;/a&gt; - Adds a touch of magic for your Mix or Master.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/subboombass-2.html&#34;&gt;SubBoomBass-2&lt;/a&gt; - The ultimate bass synthesizer.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/blue2.html&#34;&gt;BLUE-II&lt;/a&gt; - Cross-fusion synthesis at its finest.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rg.html&#34;&gt;RG&lt;/a&gt; - Electric and acoustic guitar grooves.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-verb2.html&#34;&gt;RP-VERB 2&lt;/a&gt; - Most intriguing in RP-VERB 2 – alongside the great sound – is the new ‘Reverser’ section!&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-reverse.html&#34;&gt;RP-Reverse&lt;/a&gt; - Reverses the incoming audio in a creative way.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-eq.html&#34;&gt;RP-EQ&lt;/a&gt; - Silky smooth-sounding channel, and mastering EQ.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Punch-BD.html&#34;&gt;Punch-BD&lt;/a&gt; - Based on the BD module of the multi-award-winning Punch virtual drum synth,&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-delay.html&#34;&gt;RP-Delay&lt;/a&gt; - Delay insanity. Reverser, 6 lines, 8 filters, 4 LFOs, and more.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-distort.html&#34;&gt;RP-Distort&lt;/a&gt; - Wicked FX unit that will distort or alter your tracks.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-amod.html&#34;&gt;RP-Amod&lt;/a&gt; - Spice up your vocal track, liven an instrument, and even beef up your drums.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/&#34;&gt;Sonic Academy&lt;/a&gt; - EDM production tutorials in Ableton Live, Cubase, Logic Pro, FL Studio &amp;amp; Reason&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/products/kick-2&#34;&gt;Kick 2&lt;/a&gt; - multi award winning kick drum plugin&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://spektroaudio.com/&#34;&gt;Spektro Audio&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://spektroaudio.com/acdgen&#34;&gt;ACDGEN&lt;/a&gt; - Advanced Pattern Generator&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://spektroaudio.com/polyform&#34;&gt;Polyform&lt;/a&gt; - Polyphonic MIDI Processor&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.spectrasonics.net/&#34;&gt;Spectrasonics&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.spectrasonics.net/products/keyscape/index.php&#34;&gt;Keyscape&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.spectrasonics.net/products/omnisphere/&#34;&gt;Omnisphere 2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.spitfireaudio.com/&#34;&gt;Spitfire Audio&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.spitfireaudio.com/bbc-symphony-orchestra-piano&#34;&gt;BBC Symphony Orchestra Piano&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://srmsounds.com/&#34;&gt;SRM Sounds&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://srmsounds.com/products/max-richter-piano&#34;&gt;Max Richter Piano&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/&#34;&gt;Steinberg&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/vst-instruments/absolute/&#34;&gt;Absolute 6&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;136 GB of content and 7,800 presets&lt;/li&gt;&#xA;&lt;li&gt;Instruments&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Backbone - Drum Re-Synthesizer&lt;/li&gt;&#xA;&lt;li&gt;Groove Agent 5 (including Prime Cuts, Future Past Perfect, Rock Essentials)&lt;/li&gt;&#xA;&lt;li&gt;HALion 7&lt;/li&gt;&#xA;&lt;li&gt;Padshop 2 Synthesizer (incl. Polarities, Zero Gravity, and Granular Guitars)&lt;/li&gt;&#xA;&lt;li&gt;Retrologue 2 Synthesizer (incl. Sounds of Soul)&lt;/li&gt;&#xA;&lt;li&gt;The Grand 3 – VST Piano Suite&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;HALion instruments&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Amped Elektra&lt;/li&gt;&#xA;&lt;li&gt;Anima&lt;/li&gt;&#xA;&lt;li&gt;Auron&lt;/li&gt;&#xA;&lt;li&gt;B-Box&lt;/li&gt;&#xA;&lt;li&gt;Dark Planet&lt;/li&gt;&#xA;&lt;li&gt;Electric Bass&lt;/li&gt;&#xA;&lt;li&gt;FM Lab&lt;/li&gt;&#xA;&lt;li&gt;HALion Symphonic Orchestra&lt;/li&gt;&#xA;&lt;li&gt;HALiotron&lt;/li&gt;&#xA;&lt;li&gt;Hot Brass&lt;/li&gt;&#xA;&lt;li&gt;Hypnotic Dance&lt;/li&gt;&#xA;&lt;li&gt;Model C (Organ)&lt;/li&gt;&#xA;&lt;li&gt;Olympus Choir Micro&lt;/li&gt;&#xA;&lt;li&gt;Skylab&lt;/li&gt;&#xA;&lt;li&gt;Studio Strings&lt;/li&gt;&#xA;&lt;li&gt;Tales&lt;/li&gt;&#xA;&lt;li&gt;The Eagle&lt;/li&gt;&#xA;&lt;li&gt;The Raven&lt;/li&gt;&#xA;&lt;li&gt;Triebwerk&lt;/li&gt;&#xA;&lt;li&gt;Trium&lt;/li&gt;&#xA;&lt;li&gt;World instruments&lt;/li&gt;&#xA;&lt;li&gt;World Percussion&lt;/li&gt;&#xA;&lt;li&gt;Voltage&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://synthogy.com/&#34;&gt;Synthogy&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos&#34;&gt;Ivory II Grand Pianos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Ivory III Grand Pianos (not released for Mac yet)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://thecrowhillcompany.com/&#34;&gt;The Crow Hill Company&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://thecrowhillcompany.com/small-string-gestures/&#34;&gt;Small String Gestures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://thecrowhillcompany.com/string-murmurations/&#34;&gt;String Murmurations&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/&#34;&gt;Toontrack&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/product/ezbass/&#34;&gt;EZbass&lt;/a&gt; - two bass libraries, mix-ready presets, bass grooves and a wealth of features for creative songwriting&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/product/ezdrummer-3/&#34;&gt;EZdrummer 3&lt;/a&gt; - seven kits, percussion, mix-ready presets, drum grooves and a wealth of features designed with the creative songwriter in mind&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/ezkeys-line/&#34;&gt;EZkeys 2&lt;/a&gt; - creative piano songwriting software and a world of sound and inspiration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://u-he.com/&#34;&gt;u-He&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://u-he.com/products/hive/&#34;&gt;Hive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://u-he.com/products/repro/&#34;&gt;Repro&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ujam.com/&#34;&gt;UJAM&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ujam.com/beatmaker/&#34;&gt;Beatmaker Bundle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/&#34;&gt;UVI&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/en/pianos-keyboards/ircam-prepared-piano-2.html&#34;&gt;IRCAM Prepared Piano 2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/ircam-solo-instruments-2.html&#34;&gt;IRCAM Solo Instruments 2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/en/effects/the-effects-bundle.html&#34;&gt;The Effects Bundle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;music-production-wishlist---hardware&#34;&gt;Music Production Wishlist - Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arranger Keyboards&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ketronmusic.co.uk/&#34;&gt;Ketron&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ketronmusic.co.uk/products/Ketron/arranger_keyboards/EVENT.html&#34;&gt;EVENT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/synthesizers/pa5x/&#34;&gt;Pa5X&lt;/a&gt; (Professional Arranger)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://europe.yamaha.com/en/&#34;&gt;Yamaha&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html&#34;&gt;Genos2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controller Keyboards&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;Arturia&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/hybrid-synths/keylab-88-mkii/overview&#34;&gt;Keylab 88 MkII&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.expressivee.com/&#34;&gt;Expressive E&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.expressivee.com/2-osmose&#34;&gt;osmose&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com&#34;&gt;Native Instruments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/products/komplete/keyboards/kontrol-s49-s61-s88/&#34;&gt;Komplete Control S88 MK3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Digital Pianos&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/global/products/gp-9/&#34;&gt;GP-9 Digital Piano&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://europe.yamaha.com/en/&#34;&gt;Yamaha&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/products/musical_instruments/pianos/avantgrand/n3x/index.html&#34;&gt;AvantGrand N3X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yamahamusiclondon.com/Grand-Piano-214VC/pidP214VCSP&#34;&gt;Bösendorfer Grand Piano 214VC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drum Machines &amp;amp; Grooveboxes&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/&#34;&gt;Ableton&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ableton.com/en/push/&#34;&gt;Ableton Push&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/ca/products/mc-707/&#34;&gt;MC-707&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Synthesizers&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;Arturia&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/hardware-synths/polybrute-noir/overview&#34;&gt;PolyBrute Noir Edition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.behringer.com/&#34;&gt;Behringer&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.behringer.com/product.html?modelCode=P0BNY&#34;&gt;Odyssey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.behringer.com/product.html?modelCode=P0D9J&#34;&gt;Poly D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gearnews.com/behringer-ub-xa/&#34;&gt;UB-Xa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/modwave_native/&#34;&gt;Modwave Native&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/synthesizers/wavestate/v2.php&#34;&gt;Wavestate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/&#34;&gt;Moog&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/products/etherwave-theremin&#34;&gt;Etherwave Theremin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/products/minimoog-model-d&#34;&gt;Minimoog Model D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.moogmusic.com/products/subsequent-37&#34;&gt;Subsequent 37&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/uk/products/d-05/&#34;&gt;D-05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/us/products/juno-x/&#34;&gt;JUNO-X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/uk/products/jupiter-x/&#34;&gt;JUPITER-X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/uk/products/jupiter-80/&#34;&gt;JUPITER-80&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sequential.com/&#34;&gt;Sequential&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sequential.com/product/prophet-x/&#34;&gt;Prophet X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Workstations
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/synthesizers/nautilus_at/&#34;&gt;Nautilus AT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/&#34;&gt;Roland&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.roland.com/global/promos/fantom_ex_series/&#34;&gt;FANTOM 8 EX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/&#34;&gt;Yamaha&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html&#34;&gt;MONTAGE M8x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;music-production-wishlist---software&#34;&gt;Music Production Wishlist - Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.apple.com/&#34;&gt;Apple&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.apple.com/uk/logic-pro/&#34;&gt;Logic Pro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bitwig.com/&#34;&gt;Bitwig&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bitwig.com/overview/&#34;&gt;Bitwig Studio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bozdigitallabs.com/&#34;&gt;boz Digital Labs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bozdigitallabs.com/product/new-york-l-bundle/&#34;&gt;New York L Bundle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://d16.pl/&#34;&gt;D16 Group&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://d16.pl/phoscyon2&#34;&gt;Phoscyon2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://d16.pl/punchbox&#34;&gt;Punchbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://d16.pl/totalbundle&#34;&gt;TotalBundle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://emergenceaudio.com/&#34;&gt;Emergence Audio&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://emergenceaudio.com/product/viola-textures/&#34;&gt;Viola Textures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/&#34;&gt;FeelYourSound&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/chilloutengine/&#34;&gt;ChilloutEngine&lt;/a&gt; - turns your chord progressions into relaxed keys, smooth basslines, memorable hooks, and lovely arpeggios&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/chordpotion/&#34;&gt;ChordPotion&lt;/a&gt; - MIDI plug-in that turns any chord progression into new riffs and melodies in real-time&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/houseengine/&#34;&gt;HouseEngine&lt;/a&gt; - turns your chord progressions into expressive piano rhythms, deep basslines, catchy melodies, and sparkling arpeggios&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/melodicflow/&#34;&gt;MelodicFlow&lt;/a&gt; - create and play stunning melodies, basslines, and riffs quickly&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/sundog/&#34;&gt;Sundog Song Studio&lt;/a&gt; - experiment with new scales, harmonies, and melodies easily&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://feelyoursound.com/tranceengine/&#34;&gt;TranceEngine&lt;/a&gt; - turns your chord progressions into uplifting melodies, driving arpeggios, deep basslines, and memorable hooks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fors.fm/&#34;&gt;Fors&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fors.fm/opal&#34;&gt;Opal&lt;/a&gt; - Rhythm machine &amp;amp; drum synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fors.fm/superberry&#34;&gt;Superberry&lt;/a&gt; - Delicious superwave&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gforcesoftware.com/&#34;&gt;GForce Software&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gforcesoftware.com/products/m-tron-pro-complete/&#34;&gt;M-Tron Pro - Complete&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gospelmusicians.com/&#34;&gt;Gospel Musicians&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gospelmusicians.com/products/tgx85&#34;&gt;TGX-85&lt;/a&gt; (Yamaha SY85 Virtual Instrument)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/modwave_native/&#34;&gt;Modwave Native&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/opsix_native/&#34;&gt;Opsix Native&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.korg.com/uk/products/software/wavestate_native/&#34;&gt;Wavestate Native&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.minimal.audio/&#34;&gt;Minimal Audio&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.minimal.audio/products/current&#34;&gt;Current&lt;/a&gt; - virtual instrument, effects suite, and content platform built for endless hours of inspiration&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.minimal.audio/products/rift&#34;&gt;Rift&lt;/a&gt; - deeply creative multi-effect plugin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.modartt.com/&#34;&gt;Modartt&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.modartt.com/modelb&#34;&gt;Steinway Model B&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pluginguru.com/&#34;&gt;PlugInGuru&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;(many !)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.avid.com/pro-tools&#34;&gt;Pro Tools&lt;/a&gt; - makes music creation fast and fluid, providing a complete set of tools to create, record, edit, and mix audio&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pulse.audio/&#34;&gt;Pulse Audio&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/&#34;&gt;Vivid Strings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://refx.com/&#34;&gt;reFX&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://refx.com/nexus/&#34;&gt;Nexus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rhizomatic.fr/&#34;&gt;Rhizomatic&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rhizomatic.fr/&#34;&gt;Plasmonic&lt;/a&gt; - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/&#34;&gt;Rob Papen&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/explorer-9.html&#34;&gt;EXPLORER-9&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/albino-3-legend.html&#34;&gt;Albino-3&lt;/a&gt; - Legacy The legendary Virtual Synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Go2-x.html&#34;&gt;Go2-X&lt;/a&gt; - Insane easy to use power Synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/lowsane.html&#34;&gt;LowSane&lt;/a&gt; - LoFi FX with additional Filters and the &amp;lsquo;Disrupt Sphere&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/bit2.html&#34;&gt;BIT-2&lt;/a&gt; - The Ultimate Virtual Analog Synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/blue3.html&#34;&gt;BLUE-III&lt;/a&gt; - Cross-fusion Virtual Synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/revsane.html&#34;&gt;RevSane&lt;/a&gt; - Algorithm Reverb with &amp;lsquo;Disrupt Sphere&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Predator-3.html&#34;&gt;Predator-3&lt;/a&gt; - The Hybride Powerhouse!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/RoCoder.html&#34;&gt;RoCoder&lt;/a&gt; - Vocoder and much more!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/DelSane.html&#34;&gt;DelSane&lt;/a&gt; - The coolest Delay in this Galaxy!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-distort-2.html&#34;&gt;RP-Distort 2&lt;/a&gt; - PowerHouse Distortion FX with Disrupt Sphere!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Punch2.html&#34;&gt;Punch 2&lt;/a&gt; - Power drum machine with synthesis and sample-based&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/BLADE-2.html&#34;&gt;BLADE-2&lt;/a&gt; - Cutting-edge Additive synthesis and more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Quad-vst.html&#34;&gt;Quad&lt;/a&gt; - PhaseDistortion and WaveShaper synthesizer|&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/raw.html&#34;&gt;RAW&lt;/a&gt; - Cutting-edge EDM synthesizer with a focus on &amp;lsquo;distorted sounds.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/XY-Transfer.html&#34;&gt;XY-Transfer&lt;/a&gt; - XY-modulation FX multiprocessor&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/bit.html&#34;&gt;BIT&lt;/a&gt; - Ultimate virtual analog synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Vecto-vst.html&#34;&gt;Vecto&lt;/a&gt; - Four-oscillator vector synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/go2.html&#34;&gt;Go2&lt;/a&gt; - The power of limitations synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/RAW-Kick.html&#34;&gt;RAW-Kick&lt;/a&gt; - Edgy Kicks for contemporary dance music.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/MasterMagic.html&#34;&gt;MasterMagic&lt;/a&gt; - Adds a touch of magic for your Mix or Master.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/subboombass-2.html&#34;&gt;SubBoomBass-2&lt;/a&gt; - The ultimate bass synthesizer.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/blue2.html&#34;&gt;BLUE-II&lt;/a&gt; - Cross-fusion synthesis at its finest.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rg.html&#34;&gt;RG&lt;/a&gt; - Electric and acoustic guitar grooves.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-verb2.html&#34;&gt;RP-VERB 2&lt;/a&gt; - Most intriguing in RP-VERB 2 – alongside the great sound – is the new ‘Reverser’ section!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-reverse.html&#34;&gt;RP-Reverse&lt;/a&gt; - Reverses the incoming audio in a creative way.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-eq.html&#34;&gt;RP-EQ&lt;/a&gt; - Silky smooth-sounding channel, and mastering EQ.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/Punch-BD.html&#34;&gt;Punch-BD&lt;/a&gt; - Based on the BD module of the multi-award-winning Punch virtual drum synth,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-delay.html&#34;&gt;RP-Delay&lt;/a&gt; - Delay insanity. Reverser, 6 lines, 8 filters, 4 LFOs, and more.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-distort.html&#34;&gt;RP-Distort&lt;/a&gt; - Wicked FX unit that will distort or alter your tracks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.robpapen.com/rp-amod.html&#34;&gt;RP-Amod&lt;/a&gt; - Spice up your vocal track, liven an instrument, and even beef up your drums.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/&#34;&gt;Sonic Academy&lt;/a&gt; - EDM production tutorials in Ableton Live, Cubase, Logic Pro, FL Studio &amp;amp; Reason
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sonicacademy.com/products/kick-2&#34;&gt;Kick 2&lt;/a&gt; - multi award winning kick drum plugin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://spektroaudio.com/&#34;&gt;Spektro Audio&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://spektroaudio.com/acdgen&#34;&gt;ACDGEN&lt;/a&gt; - Advanced Pattern Generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://spektroaudio.com/polyform&#34;&gt;Polyform&lt;/a&gt; - Polyphonic MIDI Processor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.spectrasonics.net/&#34;&gt;Spectrasonics&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.spectrasonics.net/products/keyscape/index.php&#34;&gt;Keyscape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.spectrasonics.net/products/omnisphere/&#34;&gt;Omnisphere 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.spitfireaudio.com/&#34;&gt;Spitfire Audio&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.spitfireaudio.com/bbc-symphony-orchestra-piano&#34;&gt;BBC Symphony Orchestra Piano&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://srmsounds.com/&#34;&gt;SRM Sounds&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://srmsounds.com/products/max-richter-piano&#34;&gt;Max Richter Piano&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/&#34;&gt;Steinberg&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.steinberg.net/vst-instruments/absolute/&#34;&gt;Absolute 6&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;136 GB of content and 7,800 presets&lt;/li&gt;
+&lt;li&gt;Instruments
+&lt;ul&gt;
+&lt;li&gt;Backbone - Drum Re-Synthesizer&lt;/li&gt;
+&lt;li&gt;Groove Agent 5 (including Prime Cuts, Future Past Perfect, Rock Essentials)&lt;/li&gt;
+&lt;li&gt;HALion 7&lt;/li&gt;
+&lt;li&gt;Padshop 2 Synthesizer (incl. Polarities, Zero Gravity, and Granular Guitars)&lt;/li&gt;
+&lt;li&gt;Retrologue 2 Synthesizer (incl. Sounds of Soul)&lt;/li&gt;
+&lt;li&gt;The Grand 3 – VST Piano Suite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HALion instruments
+&lt;ul&gt;
+&lt;li&gt;Amped Elektra&lt;/li&gt;
+&lt;li&gt;Anima&lt;/li&gt;
+&lt;li&gt;Auron&lt;/li&gt;
+&lt;li&gt;B-Box&lt;/li&gt;
+&lt;li&gt;Dark Planet&lt;/li&gt;
+&lt;li&gt;Electric Bass&lt;/li&gt;
+&lt;li&gt;FM Lab&lt;/li&gt;
+&lt;li&gt;HALion Symphonic Orchestra&lt;/li&gt;
+&lt;li&gt;HALiotron&lt;/li&gt;
+&lt;li&gt;Hot Brass&lt;/li&gt;
+&lt;li&gt;Hypnotic Dance&lt;/li&gt;
+&lt;li&gt;Model C (Organ)&lt;/li&gt;
+&lt;li&gt;Olympus Choir Micro&lt;/li&gt;
+&lt;li&gt;Skylab&lt;/li&gt;
+&lt;li&gt;Studio Strings&lt;/li&gt;
+&lt;li&gt;Tales&lt;/li&gt;
+&lt;li&gt;The Eagle&lt;/li&gt;
+&lt;li&gt;The Raven&lt;/li&gt;
+&lt;li&gt;Triebwerk&lt;/li&gt;
+&lt;li&gt;Trium&lt;/li&gt;
+&lt;li&gt;World instruments&lt;/li&gt;
+&lt;li&gt;World Percussion&lt;/li&gt;
+&lt;li&gt;Voltage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://synthogy.com/&#34;&gt;Synthogy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos&#34;&gt;Ivory II Grand Pianos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ivory III Grand Pianos (not released for Mac yet)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thecrowhillcompany.com/&#34;&gt;The Crow Hill Company&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thecrowhillcompany.com/small-string-gestures/&#34;&gt;Small String Gestures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thecrowhillcompany.com/string-murmurations/&#34;&gt;String Murmurations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/&#34;&gt;Toontrack&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/product/ezbass/&#34;&gt;EZbass&lt;/a&gt; - two bass libraries, mix-ready presets, bass grooves and a wealth of features for creative songwriting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/product/ezdrummer-3/&#34;&gt;EZdrummer 3&lt;/a&gt; - seven kits, percussion, mix-ready presets, drum grooves and a wealth of features designed with the creative songwriter in mind&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.toontrack.com/ezkeys-line/&#34;&gt;EZkeys 2&lt;/a&gt; - creative piano songwriting software and a world of sound and inspiration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://u-he.com/&#34;&gt;u-He&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://u-he.com/products/hive/&#34;&gt;Hive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://u-he.com/products/repro/&#34;&gt;Repro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ujam.com/&#34;&gt;UJAM&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ujam.com/beatmaker/&#34;&gt;Beatmaker Bundle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/&#34;&gt;UVI&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/en/pianos-keyboards/ircam-prepared-piano-2.html&#34;&gt;IRCAM Prepared Piano 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/ircam-solo-instruments-2.html&#34;&gt;IRCAM Solo Instruments 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uvi.net/en/effects/the-effects-bundle.html&#34;&gt;The Effects Bundle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<h2 id="music-production-wishlist---hardware">Music Production Wishlist - Hardware</h2>
+<ul>
+<li><strong>Arranger Keyboards</strong>
+<ul>
+<li><a href="https://ketronmusic.co.uk/">Ketron</a>
+<ul>
+<li><a href="https://ketronmusic.co.uk/products/Ketron/arranger_keyboards/EVENT.html">EVENT</a></li>
+</ul>
+</li>
+<li><a href="https://apps.apple.com/us/developer/korg-inc/id363714046">KORG</a>
+<ul>
+<li><a href="https://www.korg.com/uk/products/synthesizers/pa5x/">Pa5X</a> (Professional Arranger)</li>
+</ul>
+</li>
+<li><a href="https://europe.yamaha.com/en/">Yamaha</a>
+<ul>
+<li><a href="https://europe.yamaha.com/en/products/musical_instruments/keyboards/arranger_workstations/genos2/index.html">Genos2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Controller Keyboards</strong>
+<ul>
+<li><a href="https://www.arturia.com/">Arturia</a>
+<ul>
+<li><a href="https://www.arturia.com/products/hybrid-synths/keylab-88-mkii/overview">Keylab 88 MkII</a></li>
+</ul>
+</li>
+<li><a href="https://www.expressivee.com/">Expressive E</a>
+<ul>
+<li><a href="https://www.expressivee.com/2-osmose">osmose</a></li>
+</ul>
+</li>
+<li><a href="https://www.native-instruments.com">Native Instruments</a>
+<ul>
+<li><a href="https://www.native-instruments.com/en/products/komplete/keyboards/kontrol-s49-s61-s88/">Komplete Control S88 MK3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Digital Pianos</strong>
+<ul>
+<li><a href="https://www.roland.com/">Roland</a>
+<ul>
+<li><a href="https://www.roland.com/global/products/gp-9/">GP-9 Digital Piano</a></li>
+</ul>
+</li>
+<li><a href="https://europe.yamaha.com/en/">Yamaha</a>
+<ul>
+<li><a href="https://uk.yamaha.com/en/products/musical_instruments/pianos/avantgrand/n3x/index.html">AvantGrand N3X</a></li>
+<li><a href="https://www.yamahamusiclondon.com/Grand-Piano-214VC/pidP214VCSP">Bösendorfer Grand Piano 214VC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Drum Machines &amp; Grooveboxes</strong>
+<ul>
+<li><a href="https://www.ableton.com/en/">Ableton</a>
+<ul>
+<li><a href="https://www.ableton.com/en/push/">Ableton Push</a></li>
+</ul>
+</li>
+<li><a href="https://www.roland.com/">Roland</a>
+<ul>
+<li><a href="https://www.roland.com/ca/products/mc-707/">MC-707</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Synthesizers</strong>
+<ul>
+<li><a href="https://www.arturia.com/">Arturia</a>
+<ul>
+<li><a href="https://www.arturia.com/products/hardware-synths/polybrute-noir/overview">PolyBrute Noir Edition</a></li>
+</ul>
+</li>
+<li><a href="https://www.behringer.com/">Behringer</a>
+<ul>
+<li><a href="https://www.behringer.com/product.html?modelCode=P0BNY">Odyssey</a></li>
+<li><a href="https://www.behringer.com/product.html?modelCode=P0D9J">Poly D</a></li>
+<li><a href="https://www.gearnews.com/behringer-ub-xa/">UB-Xa</a></li>
+</ul>
+</li>
+<li><a href="https://apps.apple.com/us/developer/korg-inc/id363714046">KORG</a>
+<ul>
+<li><a href="https://www.korg.com/uk/products/software/modwave_native/">Modwave Native</a></li>
+<li><a href="https://www.korg.com/uk/products/synthesizers/wavestate/v2.php">Wavestate</a></li>
+</ul>
+</li>
+<li><a href="https://www.moogmusic.com/">Moog</a>
+<ul>
+<li><a href="https://www.moogmusic.com/products/etherwave-theremin">Etherwave Theremin</a></li>
+<li><a href="https://www.moogmusic.com/products/minimoog-model-d">Minimoog Model D</a></li>
+<li><a href="https://www.moogmusic.com/products/subsequent-37">Subsequent 37</a></li>
+</ul>
+</li>
+<li><a href="https://www.roland.com/">Roland</a>
+<ul>
+<li><a href="https://www.roland.com/uk/products/d-05/">D-05</a></li>
+<li><a href="https://www.roland.com/us/products/juno-x/">JUNO-X</a></li>
+<li><a href="https://www.roland.com/uk/products/jupiter-x/">JUPITER-X</a></li>
+<li><a href="https://www.roland.com/uk/products/jupiter-80/">JUPITER-80</a></li>
+</ul>
+</li>
+<li><a href="https://sequential.com/">Sequential</a>
+<ul>
+<li><a href="https://sequential.com/product/prophet-x/">Prophet X</a></li>
+</ul>
+</li>
+<li>Workstations
+<ul>
+<li><a href="https://apps.apple.com/us/developer/korg-inc/id363714046">KORG</a>
+<ul>
+<li><a href="https://www.korg.com/uk/products/synthesizers/nautilus_at/">Nautilus AT</a></li>
+</ul>
+</li>
+<li><a href="https://www.roland.com/">Roland</a>
+<ul>
+<li><a href="https://www.roland.com/global/promos/fantom_ex_series/">FANTOM 8 EX</a></li>
+</ul>
+</li>
+<li><a href="https://uk.yamaha.com/en/">Yamaha</a>
+<ul>
+<li><a href="https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html">MONTAGE M8x</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="music-production-wishlist---software">Music Production Wishlist - Software</h2>
+<ul>
+<li><a href="https://www.apple.com/">Apple</a>
+<ul>
+<li><a href="https://www.apple.com/uk/logic-pro/">Logic Pro</a></li>
+</ul>
+</li>
+<li><a href="https://www.bitwig.com/">Bitwig</a>
+<ul>
+<li><a href="https://www.bitwig.com/overview/">Bitwig Studio</a></li>
+</ul>
+</li>
+<li><a href="https://www.bozdigitallabs.com/">boz Digital Labs</a>
+<ul>
+<li><a href="https://www.bozdigitallabs.com/product/new-york-l-bundle/">New York L Bundle</a></li>
+</ul>
+</li>
+<li><a href="https://d16.pl/">D16 Group</a>
+<ul>
+<li><a href="https://d16.pl/phoscyon2">Phoscyon2</a></li>
+<li><a href="https://d16.pl/punchbox">Punchbox</a></li>
+<li><a href="https://d16.pl/totalbundle">TotalBundle</a></li>
+</ul>
+</li>
+<li><a href="https://emergenceaudio.com/">Emergence Audio</a>
+<ul>
+<li><a href="https://emergenceaudio.com/product/viola-textures/">Viola Textures</a></li>
+</ul>
+</li>
+<li><a href="https://feelyoursound.com/">FeelYourSound</a>
+<ul>
+<li><a href="https://feelyoursound.com/chilloutengine/">ChilloutEngine</a> - turns your chord progressions into relaxed keys, smooth basslines, memorable hooks, and lovely arpeggios</li>
+<li><a href="https://feelyoursound.com/chordpotion/">ChordPotion</a> - MIDI plug-in that turns any chord progression into new riffs and melodies in real-time</li>
+<li><a href="https://feelyoursound.com/houseengine/">HouseEngine</a> - turns your chord progressions into expressive piano rhythms, deep basslines, catchy melodies, and sparkling arpeggios</li>
+<li><a href="https://feelyoursound.com/melodicflow/">MelodicFlow</a> - create and play stunning melodies, basslines, and riffs quickly</li>
+<li><a href="https://feelyoursound.com/sundog/">Sundog Song Studio</a> - experiment with new scales, harmonies, and melodies easily</li>
+<li><a href="https://feelyoursound.com/tranceengine/">TranceEngine</a> - turns your chord progressions into uplifting melodies, driving arpeggios, deep basslines, and memorable hooks</li>
+</ul>
+</li>
+<li><a href="https://fors.fm/">Fors</a>
+<ul>
+<li><a href="https://fors.fm/opal">Opal</a> - Rhythm machine &amp; drum synthesizer</li>
+<li><a href="https://fors.fm/superberry">Superberry</a> - Delicious superwave</li>
+</ul>
+</li>
+<li><a href="https://www.gforcesoftware.com/">GForce Software</a>
+<ul>
+<li><a href="https://www.gforcesoftware.com/products/m-tron-pro-complete/">M-Tron Pro - Complete</a></li>
+</ul>
+</li>
+<li><a href="https://gospelmusicians.com/">Gospel Musicians</a>
+<ul>
+<li><a href="https://gospelmusicians.com/products/tgx85">TGX-85</a> (Yamaha SY85 Virtual Instrument)</li>
+</ul>
+</li>
+<li><a href="https://apps.apple.com/us/developer/korg-inc/id363714046">KORG</a>
+<ul>
+<li><a href="https://www.korg.com/uk/products/software/modwave_native/">Modwave Native</a></li>
+<li><a href="https://www.korg.com/uk/products/software/opsix_native/">Opsix Native</a></li>
+<li><a href="https://www.korg.com/uk/products/software/wavestate_native/">Wavestate Native</a></li>
+</ul>
+</li>
+<li><a href="https://www.minimal.audio/">Minimal Audio</a>
+<ul>
+<li><a href="https://www.minimal.audio/products/current">Current</a> - virtual instrument, effects suite, and content platform built for endless hours of inspiration</li>
+<li><a href="https://www.minimal.audio/products/rift">Rift</a> - deeply creative multi-effect plugin</li>
+</ul>
+</li>
+<li><a href="https://www.modartt.com/">Modartt</a>
+<ul>
+<li><a href="https://www.modartt.com/modelb">Steinway Model B</a></li>
+</ul>
+</li>
+<li><a href="https://www.pluginguru.com/">PlugInGuru</a>
+<ul>
+<li>(many !)</li>
+</ul>
+</li>
+<li><a href="https://www.avid.com/pro-tools">Pro Tools</a> - makes music creation fast and fluid, providing a complete set of tools to create, record, edit, and mix audio</li>
+<li><a href="https://pulse.audio/">Pulse Audio</a>
+<ul>
+<li><a href="https://pulse.audio/product/vivid-strings-chamber-strings-by-pulse-audio/">Vivid Strings</a></li>
+</ul>
+</li>
+<li><a href="https://refx.com/">reFX</a>
+<ul>
+<li><a href="https://refx.com/nexus/">Nexus</a></li>
+</ul>
+</li>
+<li><a href="https://rhizomatic.fr/">Rhizomatic</a>
+<ul>
+<li><a href="https://rhizomatic.fr/">Plasmonic</a> - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists</li>
+</ul>
+</li>
+<li><a href="https://www.robpapen.com/">Rob Papen</a>
+<ul>
+<li><a href="https://www.robpapen.com/explorer-9.html">EXPLORER-9</a>
+<ul>
+<li><a href="https://www.robpapen.com/albino-3-legend.html">Albino-3</a> - Legacy The legendary Virtual Synthesizer</li>
+<li><a href="https://www.robpapen.com/Go2-x.html">Go2-X</a> - Insane easy to use power Synthesizer</li>
+<li><a href="https://www.robpapen.com/lowsane.html">LowSane</a> - LoFi FX with additional Filters and the &lsquo;Disrupt Sphere&rsquo;</li>
+<li><a href="https://www.robpapen.com/bit2.html">BIT-2</a> - The Ultimate Virtual Analog Synthesizer</li>
+<li><a href="https://www.robpapen.com/blue3.html">BLUE-III</a> - Cross-fusion Virtual Synthesizer</li>
+<li><a href="https://www.robpapen.com/revsane.html">RevSane</a> - Algorithm Reverb with &lsquo;Disrupt Sphere&rsquo;</li>
+<li><a href="https://www.robpapen.com/Predator-3.html">Predator-3</a> - The Hybride Powerhouse!</li>
+<li><a href="https://www.robpapen.com/RoCoder.html">RoCoder</a> - Vocoder and much more!</li>
+<li><a href="https://www.robpapen.com/DelSane.html">DelSane</a> - The coolest Delay in this Galaxy!</li>
+<li><a href="https://www.robpapen.com/rp-distort-2.html">RP-Distort 2</a> - PowerHouse Distortion FX with Disrupt Sphere!</li>
+<li><a href="https://www.robpapen.com/Punch2.html">Punch 2</a> - Power drum machine with synthesis and sample-based</li>
+<li><a href="https://www.robpapen.com/BLADE-2.html">BLADE-2</a> - Cutting-edge Additive synthesis and more</li>
+<li><a href="https://www.robpapen.com/Quad-vst.html">Quad</a> - PhaseDistortion and WaveShaper synthesizer|</li>
+<li><a href="https://www.robpapen.com/raw.html">RAW</a> - Cutting-edge EDM synthesizer with a focus on &lsquo;distorted sounds.</li>
+<li><a href="https://www.robpapen.com/XY-Transfer.html">XY-Transfer</a> - XY-modulation FX multiprocessor</li>
+<li><a href="https://www.robpapen.com/bit.html">BIT</a> - Ultimate virtual analog synthesizer</li>
+<li><a href="https://www.robpapen.com/Vecto-vst.html">Vecto</a> - Four-oscillator vector synthesizer</li>
+<li><a href="https://www.robpapen.com/go2.html">Go2</a> - The power of limitations synthesizer</li>
+<li><a href="https://www.robpapen.com/RAW-Kick.html">RAW-Kick</a> - Edgy Kicks for contemporary dance music.</li>
+<li><a href="https://www.robpapen.com/MasterMagic.html">MasterMagic</a> - Adds a touch of magic for your Mix or Master.</li>
+<li><a href="https://www.robpapen.com/subboombass-2.html">SubBoomBass-2</a> - The ultimate bass synthesizer.</li>
+<li><a href="https://www.robpapen.com/blue2.html">BLUE-II</a> - Cross-fusion synthesis at its finest.</li>
+<li><a href="https://www.robpapen.com/rg.html">RG</a> - Electric and acoustic guitar grooves.</li>
+<li><a href="https://www.robpapen.com/rp-verb2.html">RP-VERB 2</a> - Most intriguing in RP-VERB 2 – alongside the great sound – is the new ‘Reverser’ section!</li>
+<li><a href="https://www.robpapen.com/rp-reverse.html">RP-Reverse</a> - Reverses the incoming audio in a creative way.</li>
+<li><a href="https://www.robpapen.com/rp-eq.html">RP-EQ</a> - Silky smooth-sounding channel, and mastering EQ.</li>
+<li><a href="https://www.robpapen.com/Punch-BD.html">Punch-BD</a> - Based on the BD module of the multi-award-winning Punch virtual drum synth,</li>
+<li><a href="https://www.robpapen.com/rp-delay.html">RP-Delay</a> - Delay insanity. Reverser, 6 lines, 8 filters, 4 LFOs, and more.</li>
+<li><a href="https://www.robpapen.com/rp-distort.html">RP-Distort</a> - Wicked FX unit that will distort or alter your tracks.</li>
+<li><a href="https://www.robpapen.com/rp-amod.html">RP-Amod</a> - Spice up your vocal track, liven an instrument, and even beef up your drums.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.sonicacademy.com/">Sonic Academy</a> - EDM production tutorials in Ableton Live, Cubase, Logic Pro, FL Studio &amp; Reason
+<ul>
+<li><a href="https://www.sonicacademy.com/products/kick-2">Kick 2</a> - multi award winning kick drum plugin</li>
+</ul>
+</li>
+<li><a href="https://spektroaudio.com/">Spektro Audio</a>
+<ul>
+<li><a href="https://spektroaudio.com/acdgen">ACDGEN</a> - Advanced Pattern Generator</li>
+<li><a href="https://spektroaudio.com/polyform">Polyform</a> - Polyphonic MIDI Processor</li>
+</ul>
+</li>
+<li><a href="https://www.spectrasonics.net/">Spectrasonics</a>
+<ul>
+<li><a href="https://www.spectrasonics.net/products/keyscape/index.php">Keyscape</a></li>
+<li><a href="https://www.spectrasonics.net/products/omnisphere/">Omnisphere 2</a></li>
+</ul>
+</li>
+<li><a href="https://www.spitfireaudio.com/">Spitfire Audio</a>
+<ul>
+<li><a href="https://www.spitfireaudio.com/bbc-symphony-orchestra-piano">BBC Symphony Orchestra Piano</a></li>
+</ul>
+</li>
+<li><a href="https://srmsounds.com/">SRM Sounds</a>
+<ul>
+<li><a href="https://srmsounds.com/products/max-richter-piano">Max Richter Piano</a></li>
+</ul>
+</li>
+<li><a href="https://www.steinberg.net/">Steinberg</a>
+<ul>
+<li><a href="https://www.steinberg.net/vst-instruments/absolute/">Absolute 6</a>
+<ul>
+<li>136 GB of content and 7,800 presets</li>
+<li>Instruments
+<ul>
+<li>Backbone - Drum Re-Synthesizer</li>
+<li>Groove Agent 5 (including Prime Cuts, Future Past Perfect, Rock Essentials)</li>
+<li>HALion 7</li>
+<li>Padshop 2 Synthesizer (incl. Polarities, Zero Gravity, and Granular Guitars)</li>
+<li>Retrologue 2 Synthesizer (incl. Sounds of Soul)</li>
+<li>The Grand 3 – VST Piano Suite</li>
+</ul>
+</li>
+<li>HALion instruments
+<ul>
+<li>Amped Elektra</li>
+<li>Anima</li>
+<li>Auron</li>
+<li>B-Box</li>
+<li>Dark Planet</li>
+<li>Electric Bass</li>
+<li>FM Lab</li>
+<li>HALion Symphonic Orchestra</li>
+<li>HALiotron</li>
+<li>Hot Brass</li>
+<li>Hypnotic Dance</li>
+<li>Model C (Organ)</li>
+<li>Olympus Choir Micro</li>
+<li>Skylab</li>
+<li>Studio Strings</li>
+<li>Tales</li>
+<li>The Eagle</li>
+<li>The Raven</li>
+<li>Triebwerk</li>
+<li>Trium</li>
+<li>World instruments</li>
+<li>World Percussion</li>
+<li>Voltage</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://synthogy.com/">Synthogy</a>
+<ul>
+<li><a href="https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos">Ivory II Grand Pianos</a></li>
+<li>Ivory III Grand Pianos (not released for Mac yet)</li>
+</ul>
+</li>
+<li><a href="https://thecrowhillcompany.com/">The Crow Hill Company</a>
+<ul>
+<li><a href="https://thecrowhillcompany.com/small-string-gestures/">Small String Gestures</a></li>
+<li><a href="https://thecrowhillcompany.com/string-murmurations/">String Murmurations</a></li>
+</ul>
+</li>
+<li><a href="https://www.toontrack.com/">Toontrack</a>
+<ul>
+<li><a href="https://www.toontrack.com/product/ezbass/">EZbass</a> - two bass libraries, mix-ready presets, bass grooves and a wealth of features for creative songwriting</li>
+<li><a href="https://www.toontrack.com/product/ezdrummer-3/">EZdrummer 3</a> - seven kits, percussion, mix-ready presets, drum grooves and a wealth of features designed with the creative songwriter in mind</li>
+<li><a href="https://www.toontrack.com/ezkeys-line/">EZkeys 2</a> - creative piano songwriting software and a world of sound and inspiration</li>
+</ul>
+</li>
+<li><a href="https://u-he.com/">u-He</a>
+<ul>
+<li><a href="https://u-he.com/products/hive/">Hive</a></li>
+<li><a href="https://u-he.com/products/repro/">Repro</a></li>
+</ul>
+</li>
+<li><a href="https://www.ujam.com/">UJAM</a>
+<ul>
+<li><a href="https://www.ujam.com/beatmaker/">Beatmaker Bundle</a></li>
+</ul>
+</li>
+<li><a href="https://www.uvi.net/">UVI</a>
+<ul>
+<li><a href="https://www.uvi.net/en/pianos-keyboards/ircam-prepared-piano-2.html">IRCAM Prepared Piano 2</a></li>
+<li><a href="https://www.uvi.net/ircam-solo-instruments-2.html">IRCAM Solo Instruments 2</a></li>
+<li><a href="https://www.uvi.net/en/effects/the-effects-bundle.html">The Effects Bundle</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

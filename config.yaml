@@ -6,12 +6,14 @@ enableEmoji:            true
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 #googleAnalytics:        UA-123-45
-paginate:               5
+pagination.pagerSize:   5
 pygmentsUseClasses:     true
 title:                  jamesm.blog
 
 # Theme
 # Others: ananke beautifulhugo hugo-book hugo-devresume-theme hugo-paper hugo-PaperMod hugo-theme-stack LoveIt m10c terminal
+#theme: hugo-theme-stack
+#theme: hugo-PaperMod
 theme: hugo-PaperModX
 
 minify:

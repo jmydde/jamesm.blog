@@ -1,40 +1,226 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Plugins on jamesm.blog</title>
     <link>https://jamesm.blog/tags/plugins/</link>
     <description>Recent content in Plugins on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Jun 2024 09:33:21 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/plugins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 09:33:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/plugins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music Production</title>
       <link>https://jamesm.blog/music-production/</link>
       <pubDate>Sun, 23 Jun 2024 09:33:21 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://jamesm.blog/music-production/images/music-production.png&#34;&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/music-production.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+      <content:encoded><![CDATA[<figure>
+    <img loading="lazy" src="images/music-production.png"/> 
+</figure>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>News: Arturia Collection X</title>
       <link>https://jamesm.blog/music-production/news/arturia-v-collection-x/</link>
       <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/arturia-v-collection-x/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-instruments/v-collection/overview/&#34;&gt;V Collection X&lt;/a&gt; - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.&lt;/p&gt;&#xA;&lt;p&gt;Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-instruments/v-collection/overview/&#34;&gt;V Collection X&lt;/a&gt; - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.&lt;/p&gt;
+&lt;p&gt;Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p><a href="https://www.arturia.com/">[Arturia]</a> have just released <a href="https://www.arturia.com/products/software-instruments/v-collection/overview/">V Collection X</a> - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.</p>
+<p>Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.</p>
+<p>V Collection X now includes</p>
+<ul>
+<li>39 instruments</li>
+<li>2 new instruments: CP-70 &amp; Augmented Woodwinds</li>
+<li>2 added instruments: Mini Freak V &amp; Acid V</li>
+<li>2 additional augmented series: Augmented Grand Piano &amp; Augmented Brass</li>
+<li>10,000 high-quality presets</li>
+</ul>
+<h2 id="full-instrument-list">Full Instrument List</h2>
+<ul>
+<li>ARP 2600 V</li>
+<li>Acid V</li>
+<li><a href="https://www.arturia.com/products/software-instruments/analoglab/overview">Analog Lab Pro</a></li>
+<li>Augmented BRASS</li>
+<li>Augmented GRAND PIANO</li>
+<li>Augmented STRINGS</li>
+<li>Augmented VOICES</li>
+<li>Augmented WOODWINDS</li>
+<li>B-3 V</li>
+<li>Buchla Easel V</li>
+<li>CMI V</li>
+<li>CP-70 V</li>
+<li>CS-80 V</li>
+<li>CZ V</li>
+<li>Clavinet V</li>
+<li>DX7 V</li>
+<li>Emulator II V</li>
+<li>Farfisa V</li>
+<li>Hyper Rave</li>
+<li>Inner City Soul</li>
+<li>Inward Universe</li>
+<li>Jun-6 V</li>
+<li>Jup-8 V</li>
+<li>Korg MS-20 V</li>
+<li>Matrix-12 V</li>
+<li>Mellotron V</li>
+<li>Mini V</li>
+<li>Mini V 4</li>
+<li>MiniFreak V</li>
+<li>Modular V</li>
+<li>OP-Xa V</li>
+<li><a href="https://www.arturia.com/products/software-instruments/piano-v/overview">Piano V</a></li>
+<li><a href="https://www.arturia.com/products/software-instruments/pigments/overview">Pigments</a></li>
+<li>Prophet-5 V</li>
+<li>Prophet-VS V</li>
+<li>SEM V</li>
+<li>SQ80 V</li>
+<li>Solina V</li>
+<li>Stage-73 V</li>
+<li>Synclavier V</li>
+<li>Synthi V</li>
+<li>VOX Continental V</li>
+<li>Vocoder V</li>
+<li>Wurli V</li>
+<li>Wurli V 3</li>
+</ul>
+<h2 id="review">Review</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/9aB3kXS-KZU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="price">Price</h2>
+<p>Full Price: £599 (Upgrade: £399)</p>
+<h2 id="full-details">Full Details</h2>
+<p>Full details can be found <a href="https://www.arturia.com/products/software-instruments/v-collection/overview/">here</a></p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>News: Arturia FX Collection 4</title>
       <link>https://jamesm.blog/music-production/news/arturia-fx-collection-4/</link>
       <pubDate>Fri, 02 Jun 2023 09:53:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/arturia-fx-collection-4/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;FX Collection 4&lt;/a&gt; which now includes &lt;strong&gt;30&lt;/strong&gt; effects.&lt;/p&gt;&#xA;&lt;p&gt;There is currently an intro offer, you can get &lt;strong&gt;40% off&lt;/strong&gt; until 20th June 2023&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;List price: £429&lt;/li&gt;&#xA;&lt;li&gt;Discounted price: &lt;strong&gt;£257&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re an owner of other Arturia products you will likely get an even bigger discount&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The following effects have been added since collection 3;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rotary-cls-222/overview/&#34;&gt;Rotary CLS-222&lt;/a&gt; - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/dist-coldfire/overview/&#34;&gt;Dist COLDFIRE&lt;/a&gt; - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/filter-ms-20/overview/&#34;&gt;Filter MS-20&lt;/a&gt; - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rev-lx-24/overview/&#34;&gt;Rev LX-24&lt;/a&gt; - an enhanced virtual replica of a retro ambience box that defined reverb for a generation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Full details can be found &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;FX Collection 4&lt;/a&gt; which now includes &lt;strong&gt;30&lt;/strong&gt; effects.&lt;/p&gt;
+&lt;p&gt;There is currently an intro offer, you can get &lt;strong&gt;40% off&lt;/strong&gt; until 20th June 2023&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;List price: £429&lt;/li&gt;
+&lt;li&gt;Discounted price: &lt;strong&gt;£257&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re an owner of other Arturia products you will likely get an even bigger discount&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following effects have been added since collection 3;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rotary-cls-222/overview/&#34;&gt;Rotary CLS-222&lt;/a&gt; - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/dist-coldfire/overview/&#34;&gt;Dist COLDFIRE&lt;/a&gt; - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/filter-ms-20/overview/&#34;&gt;Filter MS-20&lt;/a&gt; - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.arturia.com/products/software-effects/rev-lx-24/overview/&#34;&gt;Rev LX-24&lt;/a&gt; - an enhanced virtual replica of a retro ambience box that defined reverb for a generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full details can be found &lt;a href=&#34;https://www.arturia.com/products/software-effects/fx-collection/overview/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p><a href="https://www.arturia.com/">[Arturia]</a> have just released <a href="https://www.arturia.com/products/software-effects/fx-collection/overview/">FX Collection 4</a> which now includes <strong>30</strong> effects.</p>
+<p>There is currently an intro offer, you can get <strong>40% off</strong> until 20th June 2023</p>
+<ul>
+<li>List price: £429</li>
+<li>Discounted price: <strong>£257</strong></li>
+<li><strong>Note:</strong> If you&rsquo;re an owner of other Arturia products you will likely get an even bigger discount</li>
+</ul>
+<p>The following effects have been added since collection 3;</p>
+<ul>
+<li><a href="https://www.arturia.com/products/software-effects/rotary-cls-222/overview/">Rotary CLS-222</a> - reimagines the classic Dynacord® rotary speaker emulator as a creative plugin that goes from silky smooth stereo swirls to spinning synchronized patterns - enhancing your sound with extra width, momentum, and analog character in seconds</li>
+<li><a href="https://www.arturia.com/products/software-effects/dist-coldfire/overview/">Dist COLDFIRE</a> - dual-engine distortion effect that goes from rich tube saturation to unrestrained sonic destruction in a few clicks</li>
+<li><a href="https://www.arturia.com/products/software-effects/filter-ms-20/overview/">Filter MS-20</a> - stereo filter and distortion effect modeled on the infamously abrasive MS-20 synthesizer</li>
+<li><a href="https://www.arturia.com/products/software-effects/rev-lx-24/overview/">Rev LX-24</a> - an enhanced virtual replica of a retro ambience box that defined reverb for a generation</li>
+</ul>
+<p>Full details can be found <a href="https://www.arturia.com/products/software-effects/fx-collection/overview/">here</a></p>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h3 id="fx-collection-4--find-your-sonic-perfection--arturia">FX Collection 4 | Find your sonic perfection | ARTURIA</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/oMFvznb9xI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="exploring-arturia-fx-collection-4">Exploring Arturia FX Collection 4</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/fP6EVlvjKPE?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="the-arturia-fx-collection-4-is-a-must-have--now-with-rotary-fx-plugin">The Arturia Fx Collection 4 is a Must-have ! Now with Rotary fx plugin</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Y6Fo4xWN_W8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
+    
     <item>
       <title>News: Native Instruments Sale (50% off)</title>
       <link>https://jamesm.blog/music-production/news/ni-summer-of-sound-2023/</link>
       <pubDate>Fri, 26 May 2023 07:01:39 +0100</pubDate>
+      
       <guid>https://jamesm.blog/music-production/news/ni-summer-of-sound-2023/</guid>
-      <description>&lt;p&gt;Native Instruments&amp;rsquo; amazing Summer of Sound is back.&lt;/p&gt;&#xA;&lt;p&gt;Get &lt;strong&gt;50% off&lt;/strong&gt; all KOMPLETE 14 upgrades, step up to the latest instruments and effects, or save on a range of expansions&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;Komplete 14 upgrades&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/traktor/&#34;&gt;Traktor Pro 3 updates&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/instruments-effects/&#34;&gt;Instrument &amp;amp; effect upgrades&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/izotope/&#34;&gt;iZotope&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All offers end on &lt;strong&gt;6th July 2023&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;See the full details here;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://jamesm.blog/music-production/news/images/ni-summer-of-sound-2023.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Summer of Sound Sale (2023)&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      <description>&lt;p&gt;Native Instruments&amp;rsquo; amazing Summer of Sound is back.&lt;/p&gt;
+&lt;p&gt;Get &lt;strong&gt;50% off&lt;/strong&gt; all KOMPLETE 14 upgrades, step up to the latest instruments and effects, or save on a range of expansions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;Komplete 14 upgrades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/traktor/&#34;&gt;Traktor Pro 3 updates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/instruments-effects/&#34;&gt;Instrument &amp;amp; effect upgrades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;50% off&lt;/strong&gt; &lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/izotope/&#34;&gt;iZotope&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All offers end on &lt;strong&gt;6th July 2023&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;See the full details here;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&#34;&gt;https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/music-production/news/images/ni-summer-of-sound-2023.jpg&#34;/&gt; &lt;figcaption&gt;
+            Summer of Sound Sale (2023)
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+      <content:encoded><![CDATA[<p>Native Instruments&rsquo; amazing Summer of Sound is back.</p>
+<p>Get <strong>50% off</strong> all KOMPLETE 14 upgrades, step up to the latest instruments and effects, or save on a range of expansions</p>
+<ul>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/">Komplete 14 upgrades</a></li>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/traktor/">Traktor Pro 3 updates</a></li>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/instruments-effects/">Instrument &amp; effect upgrades</a></li>
+<li><strong>50% off</strong> <a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/izotope/">iZotope</a></li>
+</ul>
+<p>All offers end on <strong>6th July 2023</strong></p>
+<p>See the full details here;</p>
+<ul>
+<li><a href="https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/">https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/</a></li>
+</ul>
+<figure>
+    <img loading="lazy" src="/music-production/news/images/ni-summer-of-sound-2023.jpg"/> <figcaption>
+            Summer of Sound Sale (2023)
+        </figcaption>
+</figure>
+
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

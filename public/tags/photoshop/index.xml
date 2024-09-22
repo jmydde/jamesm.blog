@@ -1,19 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Photoshop on jamesm.blog</title>
     <link>https://jamesm.blog/tags/photoshop/</link>
     <description>Recent content in Photoshop on jamesm.blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 May 2023 20:04:28 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/photoshop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 20:04:28 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/photoshop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adobe&#39;s new Generative Fill is mind-blowing 🤯</title>
       <link>https://jamesm.blog/ai/adobe-generative-fill/</link>
       <pubDate>Fri, 26 May 2023 20:04:28 +0100</pubDate>
+      
       <guid>https://jamesm.blog/ai/adobe-generative-fill/</guid>
-      <description>&lt;p&gt;Experience the future of Photoshop with Generative Fill&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&#34;&gt;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Generative AI with Firefly&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/sensei/generative-ai/firefly.html&#34;&gt;https://www.adobe.com/sensei/generative-ai/firefly.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Other new features &amp;amp; improvements&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adjustment presets&lt;/li&gt;&#xA;&lt;li&gt;Contextual task bar&lt;/li&gt;&#xA;&lt;li&gt;Gradients&lt;/li&gt;&#xA;&lt;li&gt;Remove tool: easily remove any object or person from an image instantly&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;youtube&#34;&gt;YouTube&lt;/h1&gt;&#xA;&lt;h2 id=&#34;adobes-new-ai-firefly-photoshop-has-everyone-stunned&#34;&gt;Adobes New AI &amp;lsquo;FIREFLY Photoshop&amp;rsquo; Has Everyone Stunned!&lt;/h2&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4_ziOUKgfxM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;this-new-photoshop-tool-will-change-photography-forever&#34;&gt;This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER&lt;/h2&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/2iEQ6p9iGng?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&#xA;      &gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h1 id=&#34;related&#34;&gt;Related&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;List of AI Tools&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;Experience the future of Photoshop with Generative Fill&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&#34;&gt;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Generative AI with Firefly&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/sensei/generative-ai/firefly.html&#34;&gt;https://www.adobe.com/sensei/generative-ai/firefly.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other new features &amp;amp; improvements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjustment presets&lt;/li&gt;
+&lt;li&gt;Contextual task bar&lt;/li&gt;
+&lt;li&gt;Gradients&lt;/li&gt;
+&lt;li&gt;Remove tool: easily remove any object or person from an image instantly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;youtube&#34;&gt;YouTube&lt;/h1&gt;
+&lt;h2 id=&#34;adobes-new-ai-firefly-photoshop-has-everyone-stunned&#34;&gt;Adobes New AI &amp;lsquo;FIREFLY Photoshop&amp;rsquo; Has Everyone Stunned!&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4_ziOUKgfxM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;this-new-photoshop-tool-will-change-photography-forever&#34;&gt;This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/2iEQ6p9iGng?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h1 id=&#34;related&#34;&gt;Related&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;List of AI Tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<p>Experience the future of Photoshop with Generative Fill</p>
+<ul>
+<li><a href="https://helpx.adobe.com/ie/photoshop/using/generative-fill.html">https://helpx.adobe.com/ie/photoshop/using/generative-fill.html</a></li>
+</ul>
+<p>Generative AI with Firefly</p>
+<ul>
+<li><a href="https://www.adobe.com/sensei/generative-ai/firefly.html">https://www.adobe.com/sensei/generative-ai/firefly.html</a></li>
+</ul>
+<p>Other new features &amp; improvements</p>
+<ul>
+<li>Adjustment presets</li>
+<li>Contextual task bar</li>
+<li>Gradients</li>
+<li>Remove tool: easily remove any object or person from an image instantly</li>
+</ul>
+<h1 id="youtube">YouTube</h1>
+<h2 id="adobes-new-ai-firefly-photoshop-has-everyone-stunned">Adobes New AI &lsquo;FIREFLY Photoshop&rsquo; Has Everyone Stunned!</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/4_ziOUKgfxM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="this-new-photoshop-tool-will-change-photography-forever">This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/2iEQ6p9iGng?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h1 id="related">Related</h1>
+<ul>
+<li><a href="/ai/tools/">List of AI Tools</a></li>
+</ul>
+]]></content:encoded>
     </item>
+    
   </channel>
 </rss>
