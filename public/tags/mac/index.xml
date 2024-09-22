@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>mac on jamesm.blog</title>
+    <title>Mac on jamesm.blog</title>
     <link>https://jamesm.blog/tags/mac/</link>
-    <description>Recent content in mac on jamesm.blog</description>
+    <description>Recent content in Mac on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Feb 2024 09:42:00 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/mac/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,29 @@
       <pubDate>Sun, 04 Feb 2024 09:42:00 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/mac-apps-utils/</guid>
-      <description>Mac Applications A list of recommended Mac applications &amp;hellip;
-Microsoft 365 Excel OneDrive OneNote Outlook Powerpoint Teams Word MindNode - capture, organize, style &amp;amp; share your thoughts Notion - single space where you can think, write &amp;amp; plan Obsidian - private and flexible writing app that adapts to the way you think Parallels - add Windows, Linux, or another operating system to your Mac PyCharm - Python IDE Slack - messaging app Mac Utilities A list of recommended Mac utilities &amp;hellip;</description>
+      <description>&lt;h2 id=&#34;mac-applications&#34;&gt;Mac Applications&lt;/h2&gt;
+&lt;p&gt;A list of recommended Mac applications &amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac&#34;&gt;Microsoft 365&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/excel&#34;&gt;Excel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/onedrive/id823766827&#34;&gt;OneDrive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/onenote/digital-note-taking-app&#34;&gt;OneNote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook&#34;&gt;Outlook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/powerpoint&#34;&gt;Powerpoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-teams/group-chat-software&#34;&gt;Teams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-ie/microsoft-365/word&#34;&gt;Word&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mindnode.com/&#34;&gt;MindNode&lt;/a&gt; - capture, organize, style &amp;amp; share your thoughts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; - single space where you can think, write &amp;amp; plan&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; - private and flexible writing app that adapts to the way you think&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.parallels.com/&#34;&gt;Parallels&lt;/a&gt; - add Windows, Linux, or another operating system to your Mac&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/pycharm/&#34;&gt;PyCharm&lt;/a&gt; - Python IDE&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://slack.com/&#34;&gt;Slack&lt;/a&gt; - messaging app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mac-utilities&#34;&gt;Mac Utilities&lt;/h2&gt;
+&lt;p&gt;A list of recommended Mac utilities &amp;hellip;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="mac-applications">Mac Applications</h2>
 <p>A list of recommended Mac applications &hellip;</p>
 <ul>

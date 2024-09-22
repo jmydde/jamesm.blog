@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>twitter on jamesm.blog</title>
+    <title>Twitter on jamesm.blog</title>
     <link>https://jamesm.blog/tags/twitter/</link>
-    <description>Recent content in twitter on jamesm.blog</description>
+    <description>Recent content in Twitter on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 27 May 2023 08:01:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,16 @@
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/github-projects/</guid>
-      <description>Chatbots Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering Other Twitter&amp;rsquo;s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore) </description>
+      <description>&lt;h3 id=&#34;chatbots&#34;&gt;Chatbots&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;Auto-GPT&lt;/a&gt; - autonomous GPT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jina-ai/dev-gpt&#34;&gt;Dev-GPT&lt;/a&gt; - your automated development team&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;Prompt Engineering Guide&lt;/a&gt; - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/twitter/the-algorithm&#34;&gt;Twitter&amp;rsquo;s Recommendation Algorithm&lt;/a&gt; - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h3 id="chatbots">Chatbots</h3>
 <ul>
 <li><a href="https://github.com/Significant-Gravitas/Auto-GPT">Auto-GPT</a> - autonomous GPT</li>

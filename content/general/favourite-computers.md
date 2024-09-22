@@ -1,6 +1,6 @@
 ---
 title: "Favourite Computers, Consoles & Mobiles"
-date: 2024-03-03T17:54:01+01:00
+date: 2024-07-29T07:50:01+01:00
 draft: false
 tags: ['computing', 'software', 'gaming', 'phones', 'pcs', 'computers', 'retro']
 ---
@@ -58,7 +58,10 @@ I was just blown away by this computer, it was the first time I appreciated the 
 - [Action Replay](https://rr.pokefinder.org/wiki/Action_Replay/) (Datel Electronics)
   - This was pretty much the first peripheral I bought for a home computer, I was blown away that the computer could be extended and modified at the hardware level.  I used this to save game state and hacking games typing in pokes & cheat codes etc.
 - [Commodore 64 Communications Modem (Compunet)](https://www.nightfallcrew.com/27/02/2021/commodore-64-communications-modem-compunet/)
-  - This completely blew my mind as it was the first time I got online and connected to other computer systems such as bulletin boards & Compunet.  Compunet was also the first time I sent & received email, I remember I couldn't wait to get home for school to see if I had any new email.  My phone bill was ridiculous, to this day I still can't believe I got away with spending so long and so much money on phone bills, my parents obviously thought it was worthwhile.  Come to think of it I was **extremely** lucky to have early access to many great computers & peripherals.
+  - This completely blew my mind as it was the first time I got online from home, to connect to other computer systems such as bulletin boards & Compunet.  
+  - Compunet was also the first time I sent & received email, I remember I couldn't wait to get home for school to see if I had any new email, seeing the envelope icon appearing & flashing next to a postbox was **magical** to me.  
+  - My phone bill was ridiculous (£100s per month, and this was back in the 80s), to this day I still can't believe I got away with spending so long and so much money on phone bills, my parents obviously thought it would be benefical for me and / or perhaps it kept me out of trouble.  
+  - Come to think of it I was **extremely** lucky to have early access to many great computers & peripherals, at home & school :)
 
 ### Apple IIe (1983)
 My dad had one of these at home, although I only really used it to play a few games

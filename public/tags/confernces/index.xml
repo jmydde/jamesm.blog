@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>confernces on jamesm.blog</title>
+    <title>Confernces on jamesm.blog</title>
     <link>https://jamesm.blog/tags/confernces/</link>
-    <description>Recent content in confernces on jamesm.blog</description>
+    <description>Recent content in Confernces on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 May 2021 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/confernces/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,11 @@
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/devops-conferences/</guid>
-      <description> IDC DevOps Summit PlatformCon The National DevOps Conference </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.idc.com/eu/events/70272-idc-devops-summit/&#34;&gt;IDC DevOps Summit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://platformcon.com/&#34;&gt;PlatformCon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.devopsonline.co.uk/national-devops-conference/&#34;&gt;The National DevOps Conference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://www.idc.com/eu/events/70272-idc-devops-summit/">IDC DevOps Summit</a></li>
 <li><a href="https://platformcon.com/">PlatformCon</a></li>

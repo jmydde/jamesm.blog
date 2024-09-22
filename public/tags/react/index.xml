@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>react on jamesm.blog</title>
+    <title>React on jamesm.blog</title>
     <link>https://jamesm.blog/tags/react/</link>
-    <description>Recent content in react on jamesm.blog</description>
+    <description>Recent content in React on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 May 2021 11:51:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/react/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,12 @@
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/dev-courses/</guid>
-      <description>Code With Mosh The Ultimate Django Series The Ultimate React Native Series Ultimate C++ Series </description>
+      <description>&lt;h2 id=&#34;code-with-mosh&#34;&gt;Code With Mosh&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Ultimate Django Series&lt;/li&gt;
+&lt;li&gt;The Ultimate React Native Series&lt;/li&gt;
+&lt;li&gt;Ultimate C++ Series&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h2 id="code-with-mosh">Code With Mosh</h2>
 <ul>
 <li>The Ultimate Django Series</li>

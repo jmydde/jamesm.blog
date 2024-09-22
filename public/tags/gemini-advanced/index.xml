@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>gemini advanced on jamesm.blog</title>
+    <title>Gemini Advanced on jamesm.blog</title>
     <link>https://jamesm.blog/tags/gemini-advanced/</link>
-    <description>Recent content in gemini advanced on jamesm.blog</description>
+    <description>Recent content in Gemini Advanced on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 29 Mar 2024 07:12:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/gemini-advanced/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,22 @@
       <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
-      <description>About Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.
-Advanced Capabilities
-Multimodal Reasoning: Can analyze and understand complex information combining text and visuals. Coding Expertise: Understands, explains, and generates code in various programming languages. Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content. Enhanced User Experience
-Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.</description>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Advanced Capabilities&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multimodal Reasoning: Can analyze and understand complex information combining text and visuals.&lt;/li&gt;
+&lt;li&gt;Coding Expertise: Understands, explains, and generates code in various programming languages.&lt;/li&gt;
+&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Enhanced User Experience&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.&lt;/li&gt;
+&lt;li&gt;Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses.&lt;/li&gt;
+&lt;li&gt;Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions.&lt;/li&gt;
+&lt;li&gt;Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="about">About</h2>
 <p>Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.</p>
 <p><strong>Advanced Capabilities</strong></p>
@@ -41,15 +53,21 @@ Extended Conversations: Facilitates longer and more detailed interactions compar
 <h2 id="youtube">YouTube</h2>
 <h3 id="new-google-gemini-is-here-is-it-better-than-chatgpt">NEW Google Gemini Is Here! Is It Better Than ChatGPT?</h3>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/l3ArneTKv_0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/l3ArneTKv_0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <h3 id="googles-newest-and-most-capable-ai--gemini">Google&rsquo;s newest and most capable AI | Gemini</h3>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/jV1vkHv4zq8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/jV1vkHv4zq8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 ]]></content:encoded>
     </item>

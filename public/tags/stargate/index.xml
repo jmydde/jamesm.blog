@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>stargate on jamesm.blog</title>
+    <title>Stargate on jamesm.blog</title>
     <link>https://jamesm.blog/tags/stargate/</link>
-    <description>Recent content in stargate on jamesm.blog</description>
+    <description>Recent content in Stargate on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 29 Mar 2024 22:09:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/stargate/index.xml" rel="self" type="application/rss+xml" />
@@ -13,9 +13,22 @@
       <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
-      <description>About Microsoft Stargate is an ambitious project in collaboration with OpenAI to build a massive AI supercomputer.
-Stargate is envisioned as a giant data center housing a powerful AI supercomputer. It is estimated to cost over $100 billion, construction is expected to begin by 2028 and take several years to complete. The purpose of Stargate is to provide the computing power needed to develop next-generation artificial intelligence models.
-Links https://gizmodo.com/microsoft-building-stargate-transport-openai-future-1851375210 YouTube Microsoft and OpenAI to collaborate for $100 billion data centre project | Republic Business </description>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Microsoft Stargate is an ambitious project in collaboration with OpenAI to build a massive AI supercomputer.&lt;/p&gt;
+&lt;p&gt;Stargate is envisioned as a giant data center housing a powerful AI supercomputer.  It is estimated to cost over $100 billion, construction is expected to begin by 2028 and take several years to complete.  The purpose of Stargate is to provide the computing power needed to develop next-generation artificial intelligence models.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gizmodo.com/microsoft-building-stargate-transport-openai-future-1851375210&#34;&gt;https://gizmodo.com/microsoft-building-stargate-transport-openai-future-1851375210&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
+&lt;h3 id=&#34;microsoft-and-openai-to-collaborate-for-100-billion-data-centre-project--republic-business&#34;&gt;Microsoft and OpenAI to collaborate for $100 billion data centre project | Republic Business&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/UkUqwi96IJc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
       <content:encoded><![CDATA[<h2 id="about">About</h2>
 <p>Microsoft Stargate is an ambitious project in collaboration with OpenAI to build a massive AI supercomputer.</p>
 <p>Stargate is envisioned as a giant data center housing a powerful AI supercomputer.  It is estimated to cost over $100 billion, construction is expected to begin by 2028 and take several years to complete.  The purpose of Stargate is to provide the computing power needed to develop next-generation artificial intelligence models.</p>
@@ -26,9 +39,12 @@ Links https://gizmodo.com/microsoft-building-stargate-transport-openai-future-18
 <h2 id="youtube">YouTube</h2>
 <h3 id="microsoft-and-openai-to-collaborate-for-100-billion-data-centre-project--republic-business">Microsoft and OpenAI to collaborate for $100 billion data centre project | Republic Business</h3>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/UkUqwi96IJc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/UkUqwi96IJc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 ]]></content:encoded>
     </item>

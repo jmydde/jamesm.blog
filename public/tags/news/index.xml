@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>news on jamesm.blog</title>
+    <title>News on jamesm.blog</title>
     <link>https://jamesm.blog/tags/news/</link>
-    <description>Recent content in news on jamesm.blog</description>
+    <description>Recent content in News on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 Dec 2023 09:53:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/news/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,9 @@
       <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
       
       <guid>https://jamesm.blog/music-production/news/arturia-v-collection-x/</guid>
-      <description>Overview [Arturia] have just released V Collection X - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.
-Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-instruments/v-collection/overview/&#34;&gt;V Collection X&lt;/a&gt; - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.&lt;/p&gt;
+&lt;p&gt;Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
 <p><a href="https://www.arturia.com/">[Arturia]</a> have just released <a href="https://www.arturia.com/products/software-instruments/v-collection/overview/">V Collection X</a> - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.</p>
 <p>Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.</p>
@@ -76,9 +77,12 @@ Immerse yourself in an unparalleled music-making experience with iconic sounds a
 </ul>
 <h2 id="review">Review</h2>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/9aB3kXS-KZU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/9aB3kXS-KZU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <h2 id="price">Price</h2>
 <p>Full Price: £599 (Upgrade: £399)</p>
@@ -93,8 +97,10 @@ Immerse yourself in an unparalleled music-making experience with iconic sounds a
       <pubDate>Sun, 07 May 2023 14:53:39 +0100</pubDate>
       
       <guid>https://jamesm.blog/general/monkey-computer-sync/</guid>
-      <description>Chinese researchers claim to have successfully conducted the &amp;ldquo;world&amp;rsquo;s first&amp;rdquo; brain-computer interface (BCI) experiment on a monkey
-https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer </description>
+      <description>&lt;p&gt;Chinese researchers claim to have successfully conducted the &amp;ldquo;world&amp;rsquo;s first&amp;rdquo; brain-computer interface (BCI) experiment on a monkey&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer&#34;&gt;https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<p>Chinese researchers claim to have successfully conducted the &ldquo;world&rsquo;s first&rdquo; brain-computer interface (BCI) experiment on a monkey</p>
 <ul>
 <li><a href="https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer">https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer</a></li>

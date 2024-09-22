@@ -13,7 +13,52 @@
       <pubDate>Sun, 25 Feb 2024 21:30:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
-      <description> Coursera Databricks Databricks Databricks Training &amp;amp; Certification Learn Learning Library DataCamp A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist Introduction to Databricks edX Databricks Udemy Databricks Certified Data Engineer Associate Databricks Certified Data Engineer Professional Whizlabs Practice Tests Databricks Certified Associate Developer for Apache Spark (Python) Databricks Certified Data Analyst Associate Certification Databricks Certified Data Engineer Associate Certification Databricks Certified Data Engineer Professional Certification Databricks Certified Machine Learning Associate Certification Databricks Certified Machine Learning Professional Certification </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/databricks&#34;&gt;Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/&#34;&gt;Databricks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/learn/training/home&#34;&gt;Databricks Training &amp;amp; Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/learn&#34;&gt;Learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/training/catalog&#34;&gt;Learning Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/tutorial/comprehensive-guide-to-databricks-lakehouse-ai&#34;&gt;A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/tutorial/introduction-to-databricks&#34;&gt;Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-databricks&#34;&gt;Introduction to Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/school/databricks&#34;&gt;Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/databricks-certified-data-engineer-associate/&#34;&gt;Databricks Certified Data Engineer Associate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/databricks-certified-data-engineer-professional/&#34;&gt;Databricks Certified Data Engineer Professional&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Practice Tests
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/&#34;&gt;Databricks Certified Associate Developer for Apache Spark (Python)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-analyst-associate/&#34;&gt;Databricks Certified Data Analyst Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-associate/&#34;&gt;Databricks Certified Data Engineer Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-professional/&#34;&gt;Databricks Certified Data Engineer Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-associate/&#34;&gt;Databricks Certified Machine Learning Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/&#34;&gt;Databricks Certified Machine Learning Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://www.coursera.org/">Coursera</a>
 <ul>
@@ -69,103 +114,471 @@
       <pubDate>Sun, 25 Feb 2024 21:00:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data-engineering/databricks-cheatsheets/</guid>
-      <description>Databricks Notebook Commands Command Purpose Example %config Set configuration options for the notebook %env Set environment variables %fs Interact with the Databricks file system %fs ls dbfs:/repo %load Loads the contents of a file into a cell %lsmagic List all magic commands %jobs Lists all running jobs %matplotlib sets up the matplotlib backend %md Write Markdown text %pip Install Python packages %python Executes python code %python dbutils.fs.rm(&amp;quot;/user/hive/warehouse/test/&amp;quot;, True) %r Execute R code %reload reloads module contents %run Executes a Python file or a notebook %scala Executes scala code %sh Executes shell commands on the cluster nodes %sh git clone https://github.</description>
+      <description>&lt;h2 id=&#34;databricks-notebook-commands&#34;&gt;Databricks Notebook Commands&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Command&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Purpose&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Example&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%config&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Set configuration options for the notebook&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%env&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Set environment variables&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%fs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Interact with the Databricks file system&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%fs ls dbfs:/repo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%load&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Loads the contents of a file into a cell&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%lsmagic&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;List all magic commands&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%jobs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Lists all running jobs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%matplotlib&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;sets up the matplotlib backend&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%md&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Write Markdown text&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%pip&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Install Python packages&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%python&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Executes python code&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%python dbutils.fs.rm(&amp;quot;/user/hive/warehouse/test/&amp;quot;, True)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%r&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Execute R code&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%reload&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;reloads module contents&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%run&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Executes a Python file or a notebook&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%scala&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Executes scala code&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%sh&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Executes shell commands on the cluster nodes&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%sh git clone &lt;a href=&#34;https://github.com/repo/test&#34;&gt;https://github.com/repo/test&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%sql&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Executes SQL queries&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;%who&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Lists all the variables in the current scope&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;accessing-files&#34;&gt;Accessing Files&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;/path/to/file&lt;/li&gt;
+&lt;li&gt;dbfs:/path/to/file&lt;/li&gt;
+&lt;li&gt;file:/path/to/file&lt;/li&gt;
+&lt;li&gt;s3://path/to/file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;copying-files&#34;&gt;Copying Files&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;%fs cp file:/&amp;lt;path&amp;gt; /Volumes/&amp;lt;catalog&amp;gt;/&amp;lt;schema&amp;gt;/&amp;lt;volume&amp;gt;/&amp;lt;path&amp;gt;
+
+%python dbutils.fs.cp(&amp;#34;file:/&amp;lt;path&amp;gt;&amp;#34;, &amp;#34;/Volumes/&amp;lt;catalog&amp;gt;/&amp;lt;schema&amp;gt;/&amp;lt;volume&amp;gt;/&amp;lt;path&amp;gt;&amp;#34;)
+%python dbutils.fs.cp(&amp;#34;file:/databricks/driver/test&amp;#34;, &amp;#34;dbfs:/repo&amp;#34;, True)
+
+%sh cp /&amp;lt;path&amp;gt; /Volumes/&amp;lt;catalog&amp;gt;/&amp;lt;schema&amp;gt;/&amp;lt;volume&amp;gt;/&amp;lt;path&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;sql-statements-ddl&#34;&gt;SQL Statements (DDL)&lt;/h2&gt;
+&lt;h3 id=&#34;create--use-schema&#34;&gt;Create &amp;amp; Use Schema&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE SCHEMA test;
+CREATE SCHEMA custom LOCATION &amp;#39;dbfs:/custom&amp;#39;;
+
+USE SCHEMA test;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;create-table&#34;&gt;Create Table&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+CREATE TABLE test USING CSV LOCATION &amp;#39;/repo/data/test.csv&amp;#39;;
+CREATE TABLE test USING CSV OPTIONS (header=&amp;#34;true&amp;#34;) LOCATION &amp;#39;/repo/data/test.csv&amp;#39;;
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+CREATE TABLE test AS ...
+CREATE TABLE test USING ...
+
+CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT)
+COMMENT &amp;#39;This is comment for the table itself&amp;#39;;
+
+CREATE TABLE test AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&amp;#39;/repo/data/test.json&amp;#39;, format =&amp;gt; &amp;#39;json&amp;#39;);
+
+CREATE TABLE test_raw AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;, sep =&amp;gt; &amp;#39;;&amp;#39;);
+
+CREATE TABLE custom_table_test LOCATION &amp;#39;dbfs:/custom-table&amp;#39;
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+
+CREATE TABLE test PARTITIONED BY (col1)
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;)
+
+CREATE TABLE users(
+firstname STRING,
+lastname STRING,
+full_name STRING GENERATED ALWAYS AS (concat(firstname, &amp;#39; &amp;#39;, lastname))
+);
+
+CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`;
+CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;create-view&#34;&gt;Create View&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE VIEW view_test
+AS SELECT * FROM test WHERE col1 = &amp;#39;test&amp;#39;;
+
+CREATE VIEW view_test
+AS SELECT col1, col1
+FROM test
+JOIN test2 ON test.col2 == test2.col2;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM test WHERE col1 = &amp;#39;test&amp;#39;;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+
+CREATE GLOBAL TEMP VIEW view_test
+AS SELECT * FROM test WHERE col1 = &amp;#39;test&amp;#39;;
+SELECT * FROM global_temp.view_test;
+
+CREATE TEMP VIEW jdbc_example USING JDBC
+OPTIONS (
+url &amp;#34;&amp;lt;jdbc-url&amp;gt;&amp;#34;,
+dbtable &amp;#34;&amp;lt;table-name&amp;gt;&amp;#34;,
+user &amp;#39;&amp;lt;username&amp;gt;&amp;#39;,
+password &amp;#39;&amp;lt;password&amp;gt;&amp;#39;);
+
+CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`&amp;lt;logpath&amp;gt;`;
+
+CREATE VIEW event_log_raw AS SELECT * FROM event_log(&amp;#34;&amp;lt;pipeline-id&amp;gt;&amp;#34;);
+
+CREATE OR REPLACE TEMP VIEW test_view
+AS SELECT test.col1 AS col1 FROM test_table
+WHERE col1 = &amp;#39;value1&amp;#39; ORDER BY timestamp DESC LIMIT 1;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;drop&#34;&gt;Drop&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;DROP TABLE test;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;describe&#34;&gt;Describe&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;sql-statements-dml&#34;&gt;SQL Statements (DML)&lt;/h2&gt;
+&lt;h3 id=&#34;select&#34;&gt;Select&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SELECT * FROM csv.`/repo/data/test.csv`;
+SELECT * FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+SELECT * FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;, format =&amp;gt; &amp;#39;csv&amp;#39;, header =&amp;gt; &amp;#39;true&amp;#39;, sep =&amp;gt; &amp;#39;,&amp;#39;)
+SELECT * FROM json.`/repo/data/test.json`;
+SELECT * FROM json.`/repo/data/*.json`;
+SELECT * FROM test WHERE year(from_unixtime(test_time)) &amp;gt; 1900;
+SELECT * FROM test WHERE title LIKE &amp;#39;%a%&amp;#39;
+SELECT * FROM test WHERE title LIKE &amp;#39;a%&amp;#39;
+SELECT * FROM test WHERE title LIKE &amp;#39;%a&amp;#39;
+SELECT * FROM test TIMESTAMP AS OF &amp;#39;2024-01-01T00:00:00.000Z&amp;#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+SELECT * FROM event_log(&amp;#34;&amp;lt;pipeline-id&amp;gt;&amp;#34;);
+
+SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count_if(col1 = &amp;#39;test&amp;#39;) FROM test;
+SELECT from_unixtime(test_time) FROM test;
+SELECT cast(test_time / 1 AS timestamp) FROM test;
+SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test;
+SELECT element.sub_element FROM test;
+SELECT flatten(array(array(1, 2), array(3, 4)));
+
+SELECT * FROM (
+  SELECT col1, col2 FROM test
+) 
+PIVOT (
+  sum(col1) for col2 in (&amp;#39;item1&amp;#39;,&amp;#39;item2&amp;#39;)
+);
+
+SELECT *, CASE
+WHEN col1 &amp;gt; 10 THEN &amp;#39;value1&amp;#39;
+ELSE &amp;#39;value2&amp;#39;
+END
+FROM test;
+
+SELECT * FROM test ORDER BY (CASE
+WHEN col1 &amp;gt; 10 THEN col2
+ELSE col3
+END);
+
+WITH t(col1, col2) AS (SELECT 1, 2)
+SELECT * FROM t WHERE col1 = 1;
+
+SELECT details:flow_definition.output_dataset as output_dataset,
+       details:flow_definition.input_datasets as input_dataset
+FROM   event_log_raw, latest_update
+WHERE  event_type = &amp;#39;flow_definition&amp;#39; AND origin.update_id = latest_update.id;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;insert&#34;&gt;Insert&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;INSERT OVERWRITE test SELECT * FROM read_files(&amp;#39;/repo/data/test.csv&amp;#39;);
+
+INSERT INTO test(col1, col2) VALUES (&amp;#39;value1&amp;#39;, &amp;#39;value2&amp;#39;);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;merge-into&#34;&gt;Merge Into&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;MERGE INTO test USING test_to_delete
+ON test.col1 = test_to_delete.col1
+WHEN MATCHED THEN DELETE;
+
+MERGE INTO test USING test_to_update
+ON test.col1 = test_to_update.col1
+WHEN MATCHED THEN UPDATE SET *;
+
+MERGE INTO test USING test_to_insert
+ON test.col1 = test_to_insert.col1
+WHEN NOT MATCHED THEN INSERT *;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;copy-into&#34;&gt;Copy Into&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;COPY INTO test
+FROM &amp;#39;/repo/data&amp;#39;
+FILEFORMAT = CSV
+FILES = (&amp;#39;test.csv&amp;#39;)
+FORMAT_OPTIONS(&amp;#39;header&amp;#39; = &amp;#39;true&amp;#39;, &amp;#39;inferSchema&amp;#39; = &amp;#39;true&amp;#39;);
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;delta-lake-statements&#34;&gt;Delta Lake Statements&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;DESCRIBE HISTORY test;
+DESCRIBE HISTORY test LIMIT 1;
+
+INSERT INTO test SELECT * FROM test@v2 WHERE id = 3;
+
+OPTIMIZE test;
+OPTIMIZE test ZORDER BY col1;
+
+RESTORE TABLE test TO VERSION AS OF 0;
+
+SELECT * FROM test TIMESTAMP AS OF &amp;#39;2024-01-01T00:00:00.000Z&amp;#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+
+VACUUM test;
+VACUUM test RETAIN 240 HOURS;
+
+%fs ls dbfs:/user/hive/warehouse/test/_delta_log
+%python spark.conf.set(&amp;#34;spark.databricks.delta.retentionDurationCheck.enabled&amp;#34;, &amp;#34;false&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;delta-live-table-statements&#34;&gt;Delta Live Table Statements&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE OR REFRESH LIVE TABLE test_raw
+AS SELECT * FROM json.`/repo/data/test.json`;
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM STREAM read_files(&amp;#39;/repo/data/test*.json&amp;#39;);
+
+CREATE OR REFRESH LIVE TABLE test_cleaned
+AS SELECT col1, col2, col3, col4 FROM live.test_raw;
+
+CREATE OR REFRESH LIVE TABLE recent_test
+AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;fuctions&#34;&gt;Fuctions&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
+RETURNS DOUBLE
+RETURN (col1 - 10);
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;auto-loader&#34;&gt;Auto Loader&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;%python
+
+spark.readStream.format(&amp;#34;cloudFiles&amp;#34;)\
+  .option(&amp;#34;cloudFiles.format&amp;#34;, &amp;#34;json&amp;#34;)\
+  .option(&amp;#34;cloudFiles.schemaLocation&amp;#34;, &amp;#34;/autoloader-schema&amp;#34;)\
+  .option(&amp;#34;pathGlobFilter&amp;#34;, &amp;#34;test*.json&amp;#34;)\
+  .load(&amp;#34;/repo/data&amp;#34;)\
+  .writeStream\
+  .option(&amp;#34;mergeSchema&amp;#34;, &amp;#34;true&amp;#34;)\
+  .option(&amp;#34;checkpointLocation&amp;#34;, &amp;#34;/autoloader-checkpoint&amp;#34;)\
+  .start(&amp;#34;demo&amp;#34;)
+
+%fs head /autoloader-schema/_schemas/0
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM
+cloud_files(
+&amp;#39;/repo/data&amp;#39;,
+&amp;#39;json&amp;#39;,
+map(&amp;#34;cloudFiles.inferColumnTypes&amp;#34;, &amp;#34;true&amp;#34;, &amp;#34;pathGlobFilter&amp;#34;, &amp;#34;test*.json&amp;#34;)
+);
+
+CONSTRAINT positive_timestamp EXPECT (creation_time &amp;gt; 0)
+CONSTRAINT positive_timestamp EXPECT (creation_time &amp;gt; 0) ON VIOLATION DROP ROW
+CONSTRAINT positive_timestamp EXPECT (creation_time &amp;gt; 0) ON VIOLATION FAIL UPDATE
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;cdc-statements&#34;&gt;CDC Statements&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;APPLY CHANGES INTO live.target
+  FROM stream(live.cdc_source)
+  KEYS (col1)
+  APPLY AS DELETE WHEN col2 = &amp;#34;DELETE&amp;#34;
+  SEQUENCE BY col3
+  COLUMNS * EXCEPT (col);
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;security-statements&#34;&gt;Security Statements&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;GRANT &amp;lt;privilege&amp;gt; ON &amp;lt;object_type&amp;gt; &amp;lt;object_name&amp;gt; TO &amp;lt;user_or_group&amp;gt;;
+GRANT SELECT ON TABLE test TO `databricks@degols.net`;
+
+REVOKE &amp;lt;privilege&amp;gt; ON &amp;lt;object_type&amp;gt; &amp;lt;object_name&amp;gt; FROM `test@gmail.com&amp;#39;;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/index.html&#34;&gt;Databricks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/sql/language-manual/index.html&#34;&gt;SQL Language Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/getting-started/best-practices.html&#34;&gt;Cheat Sheets&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/cheat-sheet/compute.html&#34;&gt;Compute creation cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/cheat-sheet/administration.html&#34;&gt;Platform administration cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/cheat-sheet/jobs.html&#34;&gt;Production job scheduling cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/getting-started/best-practices.html&#34;&gt;Best Practices&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/delta/best-practices.html&#34;&gt;Delta Lake best practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/machine-learning/automl-hyperparam-tuning/hyperopt-best-practices.html&#34;&gt;Hyperparameter tuning with Hyperopt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/machine-learning/train-model/dl-best-practices.html&#34;&gt;Deep learning in Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/machine-learning/mlops/mlops-workflow.html&#34;&gt;Recommendations for MLOps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/data-governance/unity-catalog/best-practices.html&#34;&gt;Unity Catalog best practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/compute/cluster-config-best-practices.html&#34;&gt;Cluster configuration best practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.databricks.com/en/compute/pool-best-practices.html&#34;&gt;Instance pool configuration best practices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Other
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065&#34;&gt;Databricks Cheat Sheet 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/&#34;&gt;Databricks Notebook Markdown Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h2 id="databricks-notebook-commands">Databricks Notebook Commands</h2>
 <table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Purpose</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>%config</td>
-<td>Set configuration options for the notebook</td>
-<td></td>
-</tr>
-<tr>
-<td>%env</td>
-<td>Set environment variables</td>
-<td></td>
-</tr>
-<tr>
-<td>%fs</td>
-<td>Interact with the Databricks file system</td>
-<td>%fs ls dbfs:/repo</td>
-</tr>
-<tr>
-<td>%load</td>
-<td>Loads the contents of a file into a cell</td>
-<td></td>
-</tr>
-<tr>
-<td>%lsmagic</td>
-<td>List all magic commands</td>
-<td></td>
-</tr>
-<tr>
-<td>%jobs</td>
-<td>Lists all running jobs</td>
-<td></td>
-</tr>
-<tr>
-<td>%matplotlib</td>
-<td>sets up the matplotlib backend</td>
-<td></td>
-</tr>
-<tr>
-<td>%md</td>
-<td>Write Markdown text</td>
-<td></td>
-</tr>
-<tr>
-<td>%pip</td>
-<td>Install Python packages</td>
-<td></td>
-</tr>
-<tr>
-<td>%python</td>
-<td>Executes python code</td>
-<td>%python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)</td>
-</tr>
-<tr>
-<td>%r</td>
-<td>Execute R code</td>
-<td></td>
-</tr>
-<tr>
-<td>%reload</td>
-<td>reloads module contents</td>
-<td></td>
-</tr>
-<tr>
-<td>%run</td>
-<td>Executes a Python file or a notebook</td>
-<td></td>
-</tr>
-<tr>
-<td>%scala</td>
-<td>Executes scala code</td>
-<td></td>
-</tr>
-<tr>
-<td>%sh</td>
-<td>Executes shell commands on the cluster nodes</td>
-<td>%sh git clone <a href="https://github.com/repo/test">https://github.com/repo/test</a></td>
-</tr>
-<tr>
-<td>%sql</td>
-<td>Executes SQL queries</td>
-<td></td>
-</tr>
-<tr>
-<td>%who</td>
-<td>Lists all the variables in the current scope</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Command</th>
+          <th style="text-align: left">Purpose</th>
+          <th style="text-align: left">Example</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">%config</td>
+          <td style="text-align: left">Set configuration options for the notebook</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%env</td>
+          <td style="text-align: left">Set environment variables</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%fs</td>
+          <td style="text-align: left">Interact with the Databricks file system</td>
+          <td style="text-align: left">%fs ls dbfs:/repo</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%load</td>
+          <td style="text-align: left">Loads the contents of a file into a cell</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%lsmagic</td>
+          <td style="text-align: left">List all magic commands</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%jobs</td>
+          <td style="text-align: left">Lists all running jobs</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%matplotlib</td>
+          <td style="text-align: left">sets up the matplotlib backend</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%md</td>
+          <td style="text-align: left">Write Markdown text</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%pip</td>
+          <td style="text-align: left">Install Python packages</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%python</td>
+          <td style="text-align: left">Executes python code</td>
+          <td style="text-align: left">%python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%r</td>
+          <td style="text-align: left">Execute R code</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%reload</td>
+          <td style="text-align: left">reloads module contents</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%run</td>
+          <td style="text-align: left">Executes a Python file or a notebook</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%scala</td>
+          <td style="text-align: left">Executes scala code</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%sh</td>
+          <td style="text-align: left">Executes shell commands on the cluster nodes</td>
+          <td style="text-align: left">%sh git clone <a href="https://github.com/repo/test">https://github.com/repo/test</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%sql</td>
+          <td style="text-align: left">Executes SQL queries</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">%who</td>
+          <td style="text-align: left">Lists all the variables in the current scope</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="accessing-files">Accessing Files</h3>
 <ul>
@@ -448,7 +861,92 @@ REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@g
       <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data-engineering/data-engineering-science-courses/</guid>
-      <description>Data Engineering A Cloud Guru Apache Kafka Deep Dive AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) Coursera Introduction to Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Google Building Batch Data Pipelines on Google Cloud Building Resilient Streaming Analytics Systems on Google Cloud Modernizing Data Lakes and Data Warehouses with Google Cloud Preparing for the Google Cloud Professional Data Engineer Exam Serverless Data Processing with Dataflow: Develop Pipelines Serverless Data Processing with Dataflow: Foundations Serverless Data Processing with Dataflow: Operations Udacity How to Become a Data Engineer Udemy Taming Big Data with Apache Spark and Python - Hands On!</description>
+      <description>&lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;
+&lt;h3 id=&#34;a-cloud-guru&#34;&gt;A Cloud Guru&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/apache-kafka-deep-dive/&#34;&gt;Apache Kafka Deep Dive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-big-data-specialty/&#34;&gt;AWS Certified Big Data Specialty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/google-certified-professional-data-engineer/&#34;&gt;Google Certified Professional Data Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/microsoft-certified-azure-data-engineer-associate-dp-203/&#34;&gt;Microsoft Certified: Azure Data Engineer Associate (DP-203)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;coursera&#34;&gt;Coursera&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/introduction-to-data-engineering/&#34;&gt;Introduction to Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/building-data-engineering-pipelines-in-python/&#34;&gt;Building Data Engineering Pipelines in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/database-design/&#34;&gt;Database Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/etl-in-python/&#34;&gt;ETL in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-airflow-in-python/&#34;&gt;Introduction to Airflow in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-data-engineering/&#34;&gt;Introduction to Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/nosql-concepts/&#34;&gt;NoSQL Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/streaming-concepts/&#34;&gt;Streaming Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/understanding-data-engineering/&#34;&gt;Understanding Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;google&#34;&gt;Google&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/53/&#34;&gt;Building Batch Data Pipelines on Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/52/&#34;&gt;Building Resilient Streaming Analytics Systems on Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/54/&#34;&gt;Modernizing Data Lakes and Data Warehouses with Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/72/&#34;&gt;Preparing for the Google Cloud Professional Data Engineer Exam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/229/&#34;&gt;Serverless Data Processing with Dataflow: Develop Pipelines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/218/&#34;&gt;Serverless Data Processing with Dataflow: Foundations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/264/&#34;&gt;Serverless Data Processing with Dataflow: Operations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;udacity&#34;&gt;Udacity&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-engineer-nanodegree--nd027/&#34;&gt;How to Become a Data Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;udemy&#34;&gt;Udemy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/&#34;&gt;Taming Big Data with Apache Spark and Python - Hands On!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whizlabs&#34;&gt;Whizlabs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/apache-kafka-fundamentals/297/&#34;&gt;Apache Kafka Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/&#34;&gt;Databricks Certified Associate Developer for Apache Spark (Python)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-analyst-associate/&#34;&gt;Databricks Certified Data Analyst Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-associate/&#34;&gt;Databricks Certified Data Engineer Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-professional/&#34;&gt;Databricks Certified Data Engineer Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/snowflake-snowpro-core-certification/384/&#34;&gt;Snowflake SnowPro Core Certification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-science&#34;&gt;Data Science&lt;/h2&gt;
+&lt;h3 id=&#34;a-cloud-guru-1&#34;&gt;A Cloud Guru&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/introduction-to-machine-learning/&#34;&gt;Introduction to Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;coursera-1&#34;&gt;Coursera&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/&#34;&gt;Data Science with Databricks for Data Analysts Specialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;datacamp-1&#34;&gt;DataCamp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-data-science-in-python/&#34;&gt;Introduction to Data Science in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/python-data-science-toolbox-part-1/&#34;&gt;Python Data Science Toolbox (Part 1)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;google-1&#34;&gt;Google&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/data-science-foundations/&#34;&gt;Data Science Foundations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/data-science-with-python/&#34;&gt;Data Science with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/3/&#34;&gt;Google Cloud Big Data and Machine Learning Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/intro-to-tensorflow-for-deep-learning/&#34;&gt;Intro to TensorFlow for Deep Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis/&#34;&gt;Learn Python basics for data analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course/&#34;&gt;Machine Learning Crash Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/55/&#34;&gt;Smart Analytics, Machine Learning, and AI on Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;udemy-1&#34;&gt;Udemy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/aws-machine-learning/&#34;&gt;AWS Certified Machine Learning Specialty 2023 - Hands On!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whizlabs-1&#34;&gt;Whizlabs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/aws-certified-machine-learning-specialty/281/&#34;&gt;AWS Certified Machine Learning Specialty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-associate/&#34;&gt;Databricks Certified Machine Learning Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/&#34;&gt;Databricks Certified Machine Learning Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/data-science-with-python/379/&#34;&gt;Introduction to Data Science with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/tensorflow-for-deep-learning-with-python/1117/&#34;&gt;TensorFlow for Deep Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h2 id="data-engineering">Data Engineering</h2>
 <h3 id="a-cloud-guru">A Cloud Guru</h3>
 <ul>
@@ -544,7 +1042,32 @@ REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@g
       <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
-      <description>What is ETL ? Extracting data from sources Transforming data into data models Loading data into data warehouses ETL Tools Ab Initio AWS Data Pipeline AWS Glue Azure Data Factory CloverDX Datastage Google Cloud Dataflow Hevo Informatica Integrate Matillion Pentaho Data Integration (PDI) Qlik Compose SAP Data Services SQL Server Integration Services (SSIS) Stitch Talend </description>
+      <description>&lt;h3 id=&#34;what-is-etl-&#34;&gt;What is ETL ?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;E&lt;/strong&gt;xtracting data from sources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;T&lt;/strong&gt;ransforming data into data models&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&lt;/strong&gt;oading data into data warehouses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;etl-tools&#34;&gt;ETL Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.abinitio.com/&#34;&gt;Ab Initio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/datapipeline/&#34;&gt;AWS Data Pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/glue/&#34;&gt;AWS Glue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/azure/data-factory/&#34;&gt;Azure Data Factory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloverdx.com/&#34;&gt;CloverDX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ibm.com/products/datastage&#34;&gt;Datastage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/dataflow&#34;&gt;Google Cloud Dataflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hevodata.com/&#34;&gt;Hevo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.informatica.com/&#34;&gt;Informatica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.integrate.io/&#34;&gt;Integrate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.matillion.com/&#34;&gt;Matillion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.hitachivantara.com/Documentation/Pentaho/8.3/Products/Pentaho_Data_Integration&#34;&gt;Pentaho Data Integration (PDI)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.qlik.com/us/products/qlik-compose-data-warehouses&#34;&gt;Qlik Compose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sap.com/products/technology-platform/data-services.html&#34;&gt;SAP Data Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services/&#34;&gt;SQL Server Integration Services (SSIS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stitchdata.com/&#34;&gt;Stitch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.talend.com/&#34;&gt;Talend&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h3 id="what-is-etl-">What is ETL ?</h3>
 <ul>
 <li><strong>E</strong>xtracting data from sources</li>

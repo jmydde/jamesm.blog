@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>certification on jamesm.blog</title>
+    <title>Certification on jamesm.blog</title>
     <link>https://jamesm.blog/tags/certification/</link>
-    <description>Recent content in certification on jamesm.blog</description>
+    <description>Recent content in Certification on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 25 Feb 2024 21:30:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/certification/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,52 @@
       <pubDate>Sun, 25 Feb 2024 21:30:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
-      <description> Coursera Databricks Databricks Databricks Training &amp;amp; Certification Learn Learning Library DataCamp A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist Introduction to Databricks edX Databricks Udemy Databricks Certified Data Engineer Associate Databricks Certified Data Engineer Professional Whizlabs Practice Tests Databricks Certified Associate Developer for Apache Spark (Python) Databricks Certified Data Analyst Associate Certification Databricks Certified Data Engineer Associate Certification Databricks Certified Data Engineer Professional Certification Databricks Certified Machine Learning Associate Certification Databricks Certified Machine Learning Professional Certification </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/databricks&#34;&gt;Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/&#34;&gt;Databricks&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/learn/training/home&#34;&gt;Databricks Training &amp;amp; Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/learn&#34;&gt;Learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.databricks.com/training/catalog&#34;&gt;Learning Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/tutorial/comprehensive-guide-to-databricks-lakehouse-ai&#34;&gt;A Comprehensive Guide to Databricks Lakehouse AI For Data Scientists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/tutorial/introduction-to-databricks&#34;&gt;Databricks Tutorial: 7 Must-know Concepts For Any Data Specialist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-databricks&#34;&gt;Introduction to Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/school/databricks&#34;&gt;Databricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/databricks-certified-data-engineer-associate/&#34;&gt;Databricks Certified Data Engineer Associate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/databricks-certified-data-engineer-professional/&#34;&gt;Databricks Certified Data Engineer Professional&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/&#34;&gt;Whizlabs&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Practice Tests
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/&#34;&gt;Databricks Certified Associate Developer for Apache Spark (Python)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-analyst-associate/&#34;&gt;Databricks Certified Data Analyst Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-associate/&#34;&gt;Databricks Certified Data Engineer Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-professional/&#34;&gt;Databricks Certified Data Engineer Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-associate/&#34;&gt;Databricks Certified Machine Learning Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/&#34;&gt;Databricks Certified Machine Learning Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://www.coursera.org/">Coursera</a>
 <ul>

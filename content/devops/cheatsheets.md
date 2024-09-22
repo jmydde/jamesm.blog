@@ -5,6 +5,3 @@ draft: false
 ---
 ### Cloud Computing
 {{< tweet user="alexxubyte" id="1735700099261780259" >}}
-
-### Git
-{{< tweet user="Harsa_Dash" id="1732259699477881232" >}}

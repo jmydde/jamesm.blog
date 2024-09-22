@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>web3 on jamesm.blog</title>
+    <title>Web3 on jamesm.blog</title>
     <link>https://jamesm.blog/tags/web3/</link>
-    <description>Recent content in web3 on jamesm.blog</description>
+    <description>Recent content in Web3 on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Dec 2023 13:30:39 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/web3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Mar 2024 06:00:22 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/web3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain</title>
+      <link>https://jamesm.blog/blockchain/</link>
+      <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/blockchain/</guid>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/decentralized.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+      <content:encoded><![CDATA[<figure>
+    <img loading="lazy" src="images/decentralized.png"/> 
+</figure>
+
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Blockchain Links</title>
       <link>https://jamesm.blog/blockchain/links/</link>
       <pubDate>Fri, 01 Dec 2023 13:30:39 +0100</pubDate>
       
       <guid>https://jamesm.blog/blockchain/links/</guid>
-      <description>My Favourite YouTube Channels Altcoin Daily - Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, investing, technology, Web3, &amp;amp; everything crypto related Andreas Antonopoulos - Andreas is one of the most trusted and entertaining educators in the bitcoin industry Cardano Foundation - Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland Charles Hoskinson - co-founder of Ethereum &amp;amp; Cardano blockchain platforms Coin Bureau - go-to informational portal to the Cryptocurrency galaxy DataDash - one-stop shop for all things related to cryptocurrencies and financial markets Lark Davis - Bitcoin, cryptocurrency, and stock investor MMCrypto - learn everything regarding Cryptocurrency and Blockchain related topics Orange Pill - Max Keiser &amp;amp; Stacy Herbert have been creating bitcoin content since 2011 Polkadot - Polkadot is the blockspace ecosystem for boundless innovation Real Vision - arms you with the knowledge, the tools, and the network to succeed on your financial journey The Moon - Bitcoin news and Bitcoin price </description>
+      <description>&lt;h2 id=&#34;my-favourite-youtube-channels&#34;&gt;My Favourite YouTube Channels&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@AltcoinDaily/&#34;&gt;Altcoin Daily&lt;/a&gt; - Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, investing, technology, Web3, &amp;amp; everything crypto related&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@aantonop/&#34;&gt;Andreas Antonopoulos&lt;/a&gt; - Andreas is one of the most trusted and entertaining educators in the bitcoin industry&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CardanoFoundation/&#34;&gt;Cardano Foundation&lt;/a&gt; - Cardano Foundation is a blockchain and cryptocurrency organisation based in Zug, Switzerland&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@charleshoskinsoncrypto/&#34;&gt;Charles Hoskinson&lt;/a&gt; - co-founder of Ethereum &amp;amp; Cardano blockchain platforms&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@CoinBureau/&#34;&gt;Coin Bureau&lt;/a&gt; - go-to informational portal to the Cryptocurrency galaxy&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@DataDash/&#34;&gt;DataDash&lt;/a&gt; - one-stop shop for all things related to cryptocurrencies and financial markets&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheCryptoLark/&#34;&gt;Lark Davis&lt;/a&gt; - Bitcoin, cryptocurrency, and stock investor&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@MMCryptoTube/&#34;&gt;MMCrypto&lt;/a&gt; - learn everything regarding Cryptocurrency and Blockchain related topics&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@orangepill/&#34;&gt;Orange Pill&lt;/a&gt; - Max Keiser &amp;amp; Stacy Herbert have been creating bitcoin content since 2011&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@PolkadotNetwork/&#34;&gt;Polkadot&lt;/a&gt; - Polkadot is the blockspace ecosystem for boundless innovation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@RealVisionFinance/&#34;&gt;Real Vision&lt;/a&gt; - arms you with the knowledge, the tools, and the network to succeed on your financial journey&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheMoon/&#34;&gt;The Moon&lt;/a&gt; - Bitcoin news and Bitcoin price&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h2 id="my-favourite-youtube-channels">My Favourite YouTube Channels</h2>
 <ul>
 <li><a href="https://www.youtube.com/@AltcoinDaily/">Altcoin Daily</a> - Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, investing, technology, Web3, &amp; everything crypto related</li>
@@ -38,7 +68,32 @@
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/blockchain/courses/</guid>
-      <description> Blockchain Council Certified Blockchain Developer™ ChainShot CryptoZombies LearnWeb3 LinkedIn Polkadot Blockchain Academy Udemy Blockchain A-Z™: Learn How To Build Your First Blockchain Blockchain and Bitcoin Fundamentals Ethereum Blockchain Developer Bootcamp With Solidity (2023) Web3.career Web3 University Zero to Mastery Web3 Masterclass: Blockchain, DApps, DAOs + More </description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/&#34;&gt;Blockchain Council&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/learning/topics/web3/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/build-your-blockchain-az/&#34;&gt;Blockchain A-Z™: Learn How To Build Your First Blockchain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/blockchain-and-bitcoin-fundamentals/&#34;&gt;Blockchain and Bitcoin Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/blockchain-developer/&#34;&gt;Ethereum Blockchain Developer Bootcamp With Solidity (2023)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web3.career/&#34;&gt;Web3.career&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.web3.university/&#34;&gt;Web3 University&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zerotomastery.io/&#34;&gt;Zero to Mastery&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zerotomastery.io/courses/introduction-to-web3/&#34;&gt;Web3 Masterclass: Blockchain, DApps, DAOs + More&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://www.blockchain-council.org/">Blockchain Council</a>
 <ul>
@@ -65,20 +120,6 @@
 </ul>
 </li>
 </ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Blockchain</title>
-      <link>https://jamesm.blog/blockchain/</link>
-      <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/blockchain/</guid>
-      <description> </description>
-      <content:encoded><![CDATA[<figure>
-    <img loading="lazy" src="images/decentralized.png"/> 
-</figure>
-
 ]]></content:encoded>
     </item>
     

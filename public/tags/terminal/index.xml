@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>terminal on jamesm.blog</title>
+    <title>Terminal on jamesm.blog</title>
     <link>https://jamesm.blog/tags/terminal/</link>
-    <description>Recent content in terminal on jamesm.blog</description>
+    <description>Recent content in Terminal on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 May 2023 06:45:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,39 @@
       <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/github-projects/</guid>
-      <description>DevOps &amp;amp; Site Reliability Engineering (SRE) Awesome Scalability - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems Awesome Site Reliability Engineering - curated list of awesome Site Reliability and Production Engineering resources DevOps Exercises - contains questions and exercises on technical topics related to DevOps and SRE DevOps Resources - useful resources and information regarding DevOps including a learning roadmap DevOps Roadmap 2023 - step-by-step guide on how to become a DevOps engineer DevOps Tools - GitHub collection of DevOps tools How they SRE - curated collection of publicly available resources about SRE Kubernetes k9s - terminal UI to interact with your Kubernetes clusters kOps - helps you create, destroy, upgrade &amp;amp; maintain a production-grade, highly available, Kubernetes cluster KoPylot - open-source AI-powered Kubernetes assistant to help developers &amp;amp; DevOps engineers easily manage &amp;amp; monitor their Kubernetes clusters kube-state-metrics (KSM) - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects Kubernetes Dashboard - general purpose, web-based UI for Kubernetes clusters Kubespray - Kubernetes cluster lifecycle management minikube - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn Popeye - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations Linux bat - a cat clone with syntax highlighting and Git integration pueue - command-line task management tool for sequential and parallel execution of long-running tasks specctl - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa Test your SysAdmin skills - interview questions and answers for system administration Scheduling Airflow - platform to programmatically author, schedule, and monitor workflows dkron - distributed, fault tolerant job scheduling system for cloud native environments </description>
+      <description>&lt;h3 id=&#34;devops--site-reliability-engineering-sre&#34;&gt;DevOps &amp;amp; Site Reliability Engineering (SRE)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/binhnguyennus/awesome-scalability/&#34;&gt;Awesome Scalability&lt;/a&gt; - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dastergon/awesome-sre/&#34;&gt;Awesome Site Reliability Engineering&lt;/a&gt; - curated list of awesome Site Reliability and Production Engineering resources&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bregman-arie/devops-exercises/&#34;&gt;DevOps Exercises&lt;/a&gt; - contains questions and exercises on technical topics related to DevOps and SRE&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bregman-arie/devops-resources/&#34;&gt;DevOps Resources&lt;/a&gt; - useful resources and information regarding DevOps including a learning roadmap&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/milanm/DevOps-Roadmap/&#34;&gt;DevOps Roadmap 2023&lt;/a&gt; - step-by-step guide on how to become a DevOps engineer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/collections/devops-tools/&#34;&gt;DevOps Tools&lt;/a&gt; - GitHub collection of DevOps tools&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/upgundecha/howtheysre/&#34;&gt;How they SRE&lt;/a&gt; - curated collection of publicly available resources about SRE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kubernetes&#34;&gt;Kubernetes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/&#34;&gt;k9s&lt;/a&gt; - terminal UI to interact with your Kubernetes clusters&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kops/&#34;&gt;kOps&lt;/a&gt; - helps you create, destroy, upgrade &amp;amp; maintain a production-grade, highly available, Kubernetes cluster&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/avsthiago/kopylot/&#34;&gt;KoPylot&lt;/a&gt; - open-source AI-powered Kubernetes assistant to help developers &amp;amp; DevOps engineers easily manage &amp;amp; monitor their Kubernetes clusters&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/kube-state-metrics/&#34;&gt;kube-state-metrics (KSM)&lt;/a&gt; - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/dashboard/&#34;&gt;Kubernetes Dashboard&lt;/a&gt; - general purpose, web-based UI for Kubernetes clusters&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes-sigs/kubespray/&#34;&gt;Kubespray&lt;/a&gt; - Kubernetes cluster lifecycle management&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/minikube/&#34;&gt;minikube&lt;/a&gt; - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/popeye/&#34;&gt;Popeye&lt;/a&gt; - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sharkdp/bat/&#34;&gt;bat&lt;/a&gt; - a cat clone with syntax highlighting and Git integration&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Nukesor/pueue/&#34;&gt;pueue&lt;/a&gt; - command-line task management tool for sequential and parallel execution of long-running tasks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awslabs/specctl/&#34;&gt;specctl&lt;/a&gt; - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trimstray/test-your-sysadmin-skills/&#34;&gt;Test your SysAdmin skills&lt;/a&gt; - interview questions and answers for system administration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;scheduling&#34;&gt;Scheduling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/apache/airflow/&#34;&gt;Airflow&lt;/a&gt; - platform to programmatically author, schedule, and monitor workflows&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/distribworks/dkron/&#34;&gt;dkron&lt;/a&gt; - distributed, fault tolerant job scheduling system for cloud native environments&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h3 id="devops--site-reliability-engineering-sre">DevOps &amp; Site Reliability Engineering (SRE)</h3>
 <ul>
 <li><a href="https://github.com/binhnguyennus/awesome-scalability/">Awesome Scalability</a> - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems</li>
@@ -56,7 +88,46 @@
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/mac-brew-packages/</guid>
-      <description>Essential bat - Linux “cat” command alternative with syntax highlighting glow - Markdown reader htop - Top clone with syntax highlighting and mouse support jq - sed for JSON data jupyter - JupyterHub notebooks k9s - Monitor Kubernetes resources pyenv - Python version management python - Python (3.11) terraform - Terraform tfswitch - Switch Terraform versions (warrensbox/tap/tfswitch) tree - View folders and files in a visual tree (tree -L ) wget - Download files yq - Lightweight and portable command-line YAML, JSON and XML processor Others django - Python Web framework glances - Console (and web) based server monitoring tool httpie - A curl-like tool to interact with HTTP servers lnav - Explore and troubleshoot cryptic log files midnight-commander - File explorer mtr - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues navi - Interactive cheatsheet tool ncdu - Disk space analyzer, find big files &amp;amp; directories npm - Node Package Manager pytorch - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing ranger - Directory / file explorer providing an easier way to find files via the terminal snappy - compression/decompression library aiming for high speed speedtest-cli - Test upload/download speed task - A todo app tensorflow - free and open-source software library for machine learning and artificial intelligence tmux - Run multiple terminal sessions within the same window youtube-dl - YouTube downloader Related Pages Mac Applications &amp;amp; Utilities </description>
+      <description>&lt;h2 id=&#34;essential&#34;&gt;Essential&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bat&lt;/strong&gt; - Linux “cat” command alternative with syntax highlighting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;glow&lt;/strong&gt; - Markdown reader&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;htop&lt;/strong&gt; - Top clone with syntax highlighting and mouse support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jq&lt;/strong&gt; - sed for JSON data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jupyter&lt;/strong&gt; - JupyterHub notebooks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;k9s&lt;/strong&gt; - Monitor Kubernetes resources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pyenv&lt;/strong&gt; - Python version management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;python&lt;/strong&gt; - Python (3.11)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;terraform&lt;/strong&gt; - Terraform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tfswitch&lt;/strong&gt; - Switch Terraform versions (warrensbox/tap/tfswitch)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tree&lt;/strong&gt; - View folders and files in a visual tree (tree -L &lt;level&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wget&lt;/strong&gt; - Download files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;yq&lt;/strong&gt; - Lightweight and portable command-line YAML, JSON and XML processor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;django&lt;/strong&gt; - Python Web framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;glances&lt;/strong&gt; - Console (and web) based server monitoring tool&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;httpie&lt;/strong&gt; - A curl-like tool to interact with HTTP servers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;lnav&lt;/strong&gt; - Explore and troubleshoot cryptic log files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;midnight-commander&lt;/strong&gt; - File explorer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mtr&lt;/strong&gt; - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;navi&lt;/strong&gt; - Interactive cheatsheet tool&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ncdu&lt;/strong&gt; - Disk space analyzer, find big files &amp;amp; directories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;npm&lt;/strong&gt; - Node Package Manager&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pytorch&lt;/strong&gt; - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ranger&lt;/strong&gt; - Directory / file explorer providing an easier way to find files via the terminal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;snappy&lt;/strong&gt; - compression/decompression library aiming for high speed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;speedtest-cli&lt;/strong&gt; - Test upload/download speed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;task&lt;/strong&gt; - A todo app&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tensorflow&lt;/strong&gt; - free and open-source software library for machine learning and artificial intelligence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tmux&lt;/strong&gt; - Run multiple terminal sessions within the same window&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;youtube-dl&lt;/strong&gt; - YouTube downloader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-pages&#34;&gt;Related Pages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/devops/mac-apps-utils/&#34;&gt;Mac Applications &amp;amp; Utilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
 <ul>
 <li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>

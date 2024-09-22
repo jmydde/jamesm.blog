@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>starfactory on jamesm.blog</title>
+    <title>Starfactory on jamesm.blog</title>
     <link>https://jamesm.blog/tags/starfactory/</link>
-    <description>Recent content in starfactory on jamesm.blog</description>
+    <description>Recent content in Starfactory on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 22 Jun 2024 18:39:01 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/starfactory/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,11 @@
       <pubDate>Sat, 22 Jun 2024 18:39:01 +0100</pubDate>
       
       <guid>https://jamesm.blog/space/spacex-starfactory/</guid>
-      <description>About The SpaceX Starfactory is the heart of Starship production, located within the Starbase complex in Boca Chica, Texas.
-It&amp;rsquo;s goal is to mass produce Starship rockets, with an ambitious target of one Starship per day!
-This vast facility manufactures and assembles Starship vehicles, including both the Starship spacecraft itself and the Super Heavy booster that launches it.
-The Starfactory is still under construction, but with ongoing expansion it&amp;rsquo;s expected to reach its full production potential soon.</description>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;The SpaceX Starfactory is the heart of Starship production, located within the Starbase complex in Boca Chica, Texas.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s goal is to mass produce Starship rockets, with an ambitious target of one Starship per day!&lt;/p&gt;
+&lt;p&gt;This vast facility manufactures and assembles Starship vehicles, including both the Starship spacecraft itself and the Super Heavy booster that launches it.&lt;/p&gt;
+&lt;p&gt;The Starfactory is still under construction, but with ongoing expansion it&amp;rsquo;s expected to reach its full production potential soon.  SpaceX views Starfactory as crucial to achieving their long-term goals - regular space travel and missions to Mars. By streamlining Starship production, they hope to dramatically increase launch cadence and make space more accessible.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="about">About</h2>
 <p>The SpaceX Starfactory is the heart of Starship production, located within the Starbase complex in Boca Chica, Texas.</p>
 <p>It&rsquo;s goal is to mass produce Starship rockets, with an ambitious target of one Starship per day!</p>
@@ -26,15 +27,21 @@ The Starfactory is still under construction, but with ongoing expansion it&amp;r
 <h3 id="2024-06-22-first-look-inside-spacexs-starfactory-w-elon-musk">2024-06-22 First Look Inside SpaceX&rsquo;s Starfactory w/ Elon Musk</h3>
 <p>Join Elon Musk for a tour inside SpaceX&rsquo;s Starbase and the brand new Starfactory.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/aFqjoCbZ4ik" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/aFqjoCbZ4ik?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 </p>
 <h3 id="2024-02-24-the-real-reason-spacex-is-building-a-starfactory">2024-02-24 The Real Reason SpaceX Is Building A Starfactory!</h3>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/n2iz9KuFdMo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/n2iz9KuFdMo?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 ]]></content:encoded>
     </item>

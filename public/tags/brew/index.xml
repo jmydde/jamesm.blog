@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>brew on jamesm.blog</title>
+    <title>Brew on jamesm.blog</title>
     <link>https://jamesm.blog/tags/brew/</link>
-    <description>Recent content in brew on jamesm.blog</description>
+    <description>Recent content in Brew on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 May 2023 21:06:35 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/brew/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,46 @@
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       
       <guid>https://jamesm.blog/devops/mac-brew-packages/</guid>
-      <description>Essential bat - Linux “cat” command alternative with syntax highlighting glow - Markdown reader htop - Top clone with syntax highlighting and mouse support jq - sed for JSON data jupyter - JupyterHub notebooks k9s - Monitor Kubernetes resources pyenv - Python version management python - Python (3.11) terraform - Terraform tfswitch - Switch Terraform versions (warrensbox/tap/tfswitch) tree - View folders and files in a visual tree (tree -L ) wget - Download files yq - Lightweight and portable command-line YAML, JSON and XML processor Others django - Python Web framework glances - Console (and web) based server monitoring tool httpie - A curl-like tool to interact with HTTP servers lnav - Explore and troubleshoot cryptic log files midnight-commander - File explorer mtr - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues navi - Interactive cheatsheet tool ncdu - Disk space analyzer, find big files &amp;amp; directories npm - Node Package Manager pytorch - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing ranger - Directory / file explorer providing an easier way to find files via the terminal snappy - compression/decompression library aiming for high speed speedtest-cli - Test upload/download speed task - A todo app tensorflow - free and open-source software library for machine learning and artificial intelligence tmux - Run multiple terminal sessions within the same window youtube-dl - YouTube downloader Related Pages Mac Applications &amp;amp; Utilities </description>
+      <description>&lt;h2 id=&#34;essential&#34;&gt;Essential&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;bat&lt;/strong&gt; - Linux “cat” command alternative with syntax highlighting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;glow&lt;/strong&gt; - Markdown reader&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;htop&lt;/strong&gt; - Top clone with syntax highlighting and mouse support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jq&lt;/strong&gt; - sed for JSON data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;jupyter&lt;/strong&gt; - JupyterHub notebooks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;k9s&lt;/strong&gt; - Monitor Kubernetes resources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pyenv&lt;/strong&gt; - Python version management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;python&lt;/strong&gt; - Python (3.11)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;terraform&lt;/strong&gt; - Terraform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tfswitch&lt;/strong&gt; - Switch Terraform versions (warrensbox/tap/tfswitch)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tree&lt;/strong&gt; - View folders and files in a visual tree (tree -L &lt;level&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wget&lt;/strong&gt; - Download files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;yq&lt;/strong&gt; - Lightweight and portable command-line YAML, JSON and XML processor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;django&lt;/strong&gt; - Python Web framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;glances&lt;/strong&gt; - Console (and web) based server monitoring tool&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;httpie&lt;/strong&gt; - A curl-like tool to interact with HTTP servers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;lnav&lt;/strong&gt; - Explore and troubleshoot cryptic log files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;midnight-commander&lt;/strong&gt; - File explorer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mtr&lt;/strong&gt; - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;navi&lt;/strong&gt; - Interactive cheatsheet tool&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ncdu&lt;/strong&gt; - Disk space analyzer, find big files &amp;amp; directories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;npm&lt;/strong&gt; - Node Package Manager&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pytorch&lt;/strong&gt; - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ranger&lt;/strong&gt; - Directory / file explorer providing an easier way to find files via the terminal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;snappy&lt;/strong&gt; - compression/decompression library aiming for high speed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;speedtest-cli&lt;/strong&gt; - Test upload/download speed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;task&lt;/strong&gt; - A todo app&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tensorflow&lt;/strong&gt; - free and open-source software library for machine learning and artificial intelligence&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tmux&lt;/strong&gt; - Run multiple terminal sessions within the same window&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;youtube-dl&lt;/strong&gt; - YouTube downloader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-pages&#34;&gt;Related Pages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/devops/mac-apps-utils/&#34;&gt;Mac Applications &amp;amp; Utilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
 <ul>
 <li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>

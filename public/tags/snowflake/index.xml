@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>snowflake on jamesm.blog</title>
+    <title>Snowflake on jamesm.blog</title>
     <link>https://jamesm.blog/tags/snowflake/</link>
-    <description>Recent content in snowflake on jamesm.blog</description>
+    <description>Recent content in Snowflake on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 25 Feb 2024 10:26:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/snowflake/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,92 @@
       <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data-engineering/data-engineering-science-courses/</guid>
-      <description>Data Engineering A Cloud Guru Apache Kafka Deep Dive AWS Certified Big Data Specialty Google Certified Professional Data Engineer Microsoft Certified: Azure Data Engineer Associate (DP-203) Coursera Introduction to Data Engineering DataCamp Building Data Engineering Pipelines in Python Database Design ETL in Python Introduction to Airflow in Python Introduction to Data Engineering NoSQL Concepts Streaming Concepts Understanding Data Engineering Google Building Batch Data Pipelines on Google Cloud Building Resilient Streaming Analytics Systems on Google Cloud Modernizing Data Lakes and Data Warehouses with Google Cloud Preparing for the Google Cloud Professional Data Engineer Exam Serverless Data Processing with Dataflow: Develop Pipelines Serverless Data Processing with Dataflow: Foundations Serverless Data Processing with Dataflow: Operations Udacity How to Become a Data Engineer Udemy Taming Big Data with Apache Spark and Python - Hands On!</description>
+      <description>&lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;
+&lt;h3 id=&#34;a-cloud-guru&#34;&gt;A Cloud Guru&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/apache-kafka-deep-dive/&#34;&gt;Apache Kafka Deep Dive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-big-data-specialty/&#34;&gt;AWS Certified Big Data Specialty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/google-certified-professional-data-engineer/&#34;&gt;Google Certified Professional Data Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/microsoft-certified-azure-data-engineer-associate-dp-203/&#34;&gt;Microsoft Certified: Azure Data Engineer Associate (DP-203)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;coursera&#34;&gt;Coursera&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/introduction-to-data-engineering/&#34;&gt;Introduction to Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/building-data-engineering-pipelines-in-python/&#34;&gt;Building Data Engineering Pipelines in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/database-design/&#34;&gt;Database Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/etl-in-python/&#34;&gt;ETL in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-airflow-in-python/&#34;&gt;Introduction to Airflow in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-data-engineering/&#34;&gt;Introduction to Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/nosql-concepts/&#34;&gt;NoSQL Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/streaming-concepts/&#34;&gt;Streaming Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/understanding-data-engineering/&#34;&gt;Understanding Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;google&#34;&gt;Google&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/53/&#34;&gt;Building Batch Data Pipelines on Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/52/&#34;&gt;Building Resilient Streaming Analytics Systems on Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/54/&#34;&gt;Modernizing Data Lakes and Data Warehouses with Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/72/&#34;&gt;Preparing for the Google Cloud Professional Data Engineer Exam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/229/&#34;&gt;Serverless Data Processing with Dataflow: Develop Pipelines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/218/&#34;&gt;Serverless Data Processing with Dataflow: Foundations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/264/&#34;&gt;Serverless Data Processing with Dataflow: Operations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;udacity&#34;&gt;Udacity&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-engineer-nanodegree--nd027/&#34;&gt;How to Become a Data Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;udemy&#34;&gt;Udemy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/&#34;&gt;Taming Big Data with Apache Spark and Python - Hands On!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whizlabs&#34;&gt;Whizlabs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/apache-kafka-fundamentals/297/&#34;&gt;Apache Kafka Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/&#34;&gt;Databricks Certified Associate Developer for Apache Spark (Python)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-analyst-associate/&#34;&gt;Databricks Certified Data Analyst Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-associate/&#34;&gt;Databricks Certified Data Engineer Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-professional/&#34;&gt;Databricks Certified Data Engineer Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/snowflake-snowpro-core-certification/384/&#34;&gt;Snowflake SnowPro Core Certification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-science&#34;&gt;Data Science&lt;/h2&gt;
+&lt;h3 id=&#34;a-cloud-guru-1&#34;&gt;A Cloud Guru&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/introduction-to-machine-learning/&#34;&gt;Introduction to Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;coursera-1&#34;&gt;Coursera&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/&#34;&gt;Data Science with Databricks for Data Analysts Specialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;datacamp-1&#34;&gt;DataCamp&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-data-science-in-python/&#34;&gt;Introduction to Data Science in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/python-data-science-toolbox-part-1/&#34;&gt;Python Data Science Toolbox (Part 1)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;google-1&#34;&gt;Google&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/data-science-foundations/&#34;&gt;Data Science Foundations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/data-science-with-python/&#34;&gt;Data Science with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/3/&#34;&gt;Google Cloud Big Data and Machine Learning Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/intro-to-tensorflow-for-deep-learning/&#34;&gt;Intro to TensorFlow for Deep Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis/&#34;&gt;Learn Python basics for data analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course/&#34;&gt;Machine Learning Crash Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/55/&#34;&gt;Smart Analytics, Machine Learning, and AI on Google Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;udemy-1&#34;&gt;Udemy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/aws-machine-learning/&#34;&gt;AWS Certified Machine Learning Specialty 2023 - Hands On!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whizlabs-1&#34;&gt;Whizlabs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/aws-certified-machine-learning-specialty/281/&#34;&gt;AWS Certified Machine Learning Specialty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-associate/&#34;&gt;Databricks Certified Machine Learning Associate Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/&#34;&gt;Databricks Certified Machine Learning Professional Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/data-science-with-python/379/&#34;&gt;Introduction to Data Science with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/tensorflow-for-deep-learning-with-python/1117/&#34;&gt;TensorFlow for Deep Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h2 id="data-engineering">Data Engineering</h2>
 <h3 id="a-cloud-guru">A Cloud Guru</h3>
 <ul>

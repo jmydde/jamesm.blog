@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>abinitio on jamesm.blog</title>
+    <title>Abinitio on jamesm.blog</title>
     <link>https://jamesm.blog/tags/abinitio/</link>
-    <description>Recent content in abinitio on jamesm.blog</description>
+    <description>Recent content in Abinitio on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Jan 2021 06:51:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/abinitio/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,32 @@
       <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
-      <description>What is ETL ? Extracting data from sources Transforming data into data models Loading data into data warehouses ETL Tools Ab Initio AWS Data Pipeline AWS Glue Azure Data Factory CloverDX Datastage Google Cloud Dataflow Hevo Informatica Integrate Matillion Pentaho Data Integration (PDI) Qlik Compose SAP Data Services SQL Server Integration Services (SSIS) Stitch Talend </description>
+      <description>&lt;h3 id=&#34;what-is-etl-&#34;&gt;What is ETL ?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;E&lt;/strong&gt;xtracting data from sources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;T&lt;/strong&gt;ransforming data into data models&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&lt;/strong&gt;oading data into data warehouses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;etl-tools&#34;&gt;ETL Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.abinitio.com/&#34;&gt;Ab Initio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/datapipeline/&#34;&gt;AWS Data Pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/glue/&#34;&gt;AWS Glue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/azure/data-factory/&#34;&gt;Azure Data Factory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloverdx.com/&#34;&gt;CloverDX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ibm.com/products/datastage&#34;&gt;Datastage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/dataflow&#34;&gt;Google Cloud Dataflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hevodata.com/&#34;&gt;Hevo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.informatica.com/&#34;&gt;Informatica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.integrate.io/&#34;&gt;Integrate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.matillion.com/&#34;&gt;Matillion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.hitachivantara.com/Documentation/Pentaho/8.3/Products/Pentaho_Data_Integration&#34;&gt;Pentaho Data Integration (PDI)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.qlik.com/us/products/qlik-compose-data-warehouses&#34;&gt;Qlik Compose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sap.com/products/technology-platform/data-services.html&#34;&gt;SAP Data Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services/&#34;&gt;SQL Server Integration Services (SSIS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stitchdata.com/&#34;&gt;Stitch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.talend.com/&#34;&gt;Talend&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h3 id="what-is-etl-">What is ETL ?</h3>
 <ul>
 <li><strong>E</strong>xtracting data from sources</li>
