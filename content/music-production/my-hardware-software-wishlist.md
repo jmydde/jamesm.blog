@@ -196,8 +196,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 - [u-He](https://u-he.com/)
   - [Hive](https://u-he.com/products/hive/)
   - [Repro](https://u-he.com/products/repro/)
-- [UJAM](https://www.ujam.com/)
-  - [Beatmaker Bundle](https://www.ujam.com/beatmaker/)
 - [UVI](https://www.uvi.net/)
   - [IRCAM Prepared Piano 2](https://www.uvi.net/en/pianos-keyboards/ircam-prepared-piano-2.html)
   - [IRCAM Solo Instruments 2](https://www.uvi.net/ircam-solo-instruments-2.html) 

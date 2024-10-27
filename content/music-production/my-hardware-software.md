@@ -1,6 +1,6 @@
 ---
 title: "My Music Production Hardware & Software"
-date: 2024-06-22T09:01:21+01:00
+date: 2024-10-27T19:01:21+01:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -592,6 +592,23 @@ Steinberg Media Technologies GmbH is a German musical software and hardware comp
 ### u-he
 Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann
 - [Diva](https://u-he.com/products/diva/)
+
+### UJAM
+[UJAM](https://www.ujam.com/) is a German company that develops music software with a focus on making music production easier and more accessible. They create virtual instruments (VSTs) and effects plugins that are designed to be intuitive and user-friendly, even for beginners.
+- [Beatmaker Bundle](https://www.ujam.com/beatmaker/) - a collection of virtual drum instruments, each focused on a specific genre of electronic music. Here's a breakdown of the instruments included:
+  - BERSERK: Heavy and energetic drums for Dubstep, Drum & Bass, and Trap.
+  - CIRCUITS: Electronic drums perfect for Synthwave, Retro Electro, and Cyberpunk.
+  - DOPE: Classic Hip-Hop drums with a focus on boom-bap and old-school vibes.
+  - EDEN: Drums for EDM, House, and Trance, offering driving rhythms and euphoric sounds.
+  - GLORY: Cinematic drums designed for trailers, soundtracks, and intense scores.
+  - HYPE: High-energy drums for Trap, Moombahton, and other urban genres.
+  - HUSTLE: Modern Trap drums with hard-hitting sounds and intricate patterns.
+  - IDOL: K-Pop focused drums with a blend of electronic and acoustic elements.
+  - KANDY: Upbeat and playful drums for Future Bass, Kawaii, and other cheerful genres.
+  - NEMESIS: Dark and industrial drums for Metal, Cyberpunk, and darker electronic music.
+  - RICO: Latin-inspired drums with infectious rhythms and vibrant percussion.
+  - VICE: 80s inspired drums with retro sounds and classic grooves.
+  - VOID: Ambient and atmospheric drums for Electronica, Chillwave, and Downtempo.
 
 ### UVI
 UVI is a developer of software instruments, effects and soundware, leveraging leading-edge research and design to create unique, expressive tools for musicians and audio professionals
