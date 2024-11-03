@@ -61,8 +61,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
       - [MONTAGE M8x](https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html)
 
 ## Music Production Wishlist - Software
-- [Apple](https://www.apple.com/)
-  - [Logic Pro](https://www.apple.com/uk/logic-pro/)
 - [Bitwig](https://www.bitwig.com/)
   - [Bitwig Studio](https://www.bitwig.com/overview/)
 - [boz Digital Labs](https://www.bozdigitallabs.com/)
@@ -85,8 +83,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Superberry](https://fors.fm/superberry) - Delicious superwave
 - [GForce Software](https://www.gforcesoftware.com/)
   - [M-Tron Pro - Complete](https://www.gforcesoftware.com/products/m-tron-pro-complete/)
-- [Gospel Musicians](https://gospelmusicians.com/)
-  - [TGX-85](https://gospelmusicians.com/products/tgx85) (Yamaha SY85 Virtual Instrument)
 - [KORG](https://apps.apple.com/us/developer/korg-inc/id363714046)
   - [Modwave Native](https://www.korg.com/uk/products/software/modwave_native/)
   - [Opsix Native](https://www.korg.com/uk/products/software/opsix_native/)
@@ -192,7 +188,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 - [Toontrack](https://www.toontrack.com/)
   - [EZbass](https://www.toontrack.com/product/ezbass/) - two bass libraries, mix-ready presets, bass grooves and a wealth of features for creative songwriting
   - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/) - seven kits, percussion, mix-ready presets, drum grooves and a wealth of features designed with the creative songwriter in mind 
-  - [EZkeys 2](https://www.toontrack.com/ezkeys-line/) - creative piano songwriting software and a world of sound and inspiration
 - [u-He](https://u-he.com/)
   - [Hive](https://u-he.com/products/hive/)
   - [Repro](https://u-he.com/products/repro/)

@@ -235,6 +235,9 @@ AIR provides legendary virtual instruments, effects, expansions, sound packs and
   - [Mini Grand](https://www.airmusictech.com/virtual-instruments/mini-grand.html)
   - [Velvet 2](https://www.airmusictech.com/virtual-instruments/velvet.html)
 
+### Apple
+- [Logic Pro](https://www.apple.com/uk/logic-pro/)
+
 ### Applied Acoustics Systems (AAS)
 - [Chromaphone 3](https://www.applied-acoustics.com/chromaphone-3/) - two-voice synthesizer based on physically modelled acoustic resonators
 - [Lounge Lizard EP-4](https://www.applied-acoustics.com/lounge-lizard-ep-4/) - authentic vintage electric piano sounds in an everything-you-need package
@@ -349,6 +352,9 @@ Cherry Audio was formed by a small group of industry veterans from the likes of 
 ### Eventide
 Eventide Inc. is an American pro audio, broadcast and communications company whose audio division manufactures digital effects processors, digital signal processor (DSP) software, and guitar effects pedals.
 - [Blackhole](https://www.eventideaudio.com/plug-ins/blackhole/)
+
+### Gospel Musicians
+- [TGX-85](https://gospelmusicians.com/products/tgx85) (Yamaha SY85 Virtual Instrument)
 
 ### Heavyocity
 Heavyocity is a collective of pro composers and sound designers with a mission to create world class virtual instruments for today's modern composer and sound designer
@@ -588,6 +594,9 @@ Spitfire Audio is an English technology company based in London that creates vir
 Steinberg Media Technologies GmbH is a German musical software and hardware company based in Hamburg who develop music writing, recording, arranging, and editing software, most notably Cubase, Nuendo, and Dorico
 - [Cubase Artist 13](https://www.steinberg.net/cubase/compare-editions/)
 - [Taped Vibes3](https://www.steinberg.net/vst-instruments/taped-vibes/)
+
+### Toontrack
+- [EZkeys 2](https://www.toontrack.com/ezkeys-line/) - creative piano songwriting software and a world of sound and inspiration
 
 ### u-he
 Berlin-based audio software company u-he was founded in 2001 by Urs Heckmann
