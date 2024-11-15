@@ -1,5 +1,5 @@
 ---
-title: "List of AI Tools & Companies"
+title: "AI Tools & Research Companies"
 date: 2023-05-29T22:17:14+01:00
 lastmod: 2023-06-03T13:23:14+01:00
 draft: false
@@ -37,7 +37,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Typewise](http://typewise.app/) - AI writing solution for customer service and sales teams
 - [Yatter+](http://yatterplus.in/) - personal AI-powered assistant on WhatsApp
 
-## Chrome Extensions
+### Chrome Extensions
 - [alicent](http://alicent.ai/) - browser extension for ChatGPT
 - [Compose](https://www.compose.ai/) - Chrome extension that cuts down your writing time with AI-powered autocompletion & text generation
 - [FinalScout](http://finalscout.com/) - ChatGPT-powered email finding & outreach at scale
@@ -45,7 +45,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Poised](http://poised.com/) - AI-powered communication coach that helps you speak with confidence and clarity
 - [Wiseone](http://wiseone.io/) - helps you master any topic you are reading online by bringing relevant and reliable information
 
-## Customer Support
+### Customer Support
 - [Forethought](https://forethought.ai/) - generative AI for customer support
 
 ### Design
