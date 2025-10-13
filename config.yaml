@@ -139,8 +139,8 @@ params:
       url: "https://ClubTheWorld.uk"
     - name: other
       url: "https://DevOpsForum.uk"
-    - name: bitcoin
-      url: "https://www.livecoinwatch.com/price/Bitcoin-BTC"
+    - name: other
+      url: "https://tensor.art/u/855380090597470967"
     - name: rss-simple
       url: "index.xml"
 

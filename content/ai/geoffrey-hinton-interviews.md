@@ -1,9 +1,12 @@
 ---
 title: "Geoffrey Hinton Interviews"
-date: 2025-01-31T19:27:14+01:00
+date: 2025-10-09:27:14+01:00
 draft: false
 tags: ["ai", "geoffrey hinton", "interviews"]
 ---
+
+### [2025-10-09] AI: What Could Go Wrong? with Geoffrey Hinton | The Weekly Show with Jon Stewart
+{{< youtube jrK3PsD3APk >}}
 
 ### [2025-04-26] Full interview: "Godfather of AI" shares prediction for future of AI, issues warnings
 {{< youtube qyH3NxFz3Aw >}}
