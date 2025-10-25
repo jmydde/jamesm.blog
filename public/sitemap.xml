@@ -2,19 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesm.blog/tags/ableton/</loc>
-    <lastmod>2025-09-26T08:29:21+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/github/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/github-spec-kit/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/sdd/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/spec-kit/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/geoffrey-hinton/</loc>
+    <lastmod>2025-10-09T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/geoffrey-hinton-interviews/</loc>
+    <lastmod>2025-10-09T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/interviews/</loc>
+    <lastmod>2025-10-09T19:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/ableton/</loc>
     <lastmod>2025-09-26T08:29:21+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ai-music/</loc>
     <lastmod>2025-09-26T08:29:21+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/cubase/</loc>
-    <lastmod>2025-09-26T08:29:21+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2025-09-26T08:29:21+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/music/</loc>
@@ -41,15 +68,6 @@
     <loc>https://jamesm.blog/music-production/suno-studio/</loc>
     <lastmod>2025-09-26T08:29:21+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2025-09-26T08:29:21+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2025-05-20T19:27:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/interviews/</loc>
-    <lastmod>2025-05-20T19:27:14+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/sergey-brin/</loc>
     <lastmod>2025-05-20T19:27:14+01:00</lastmod>
   </url><url>
@@ -57,9 +75,6 @@
     <lastmod>2025-05-20T19:27:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-agents-emergency-debate/</loc>
-    <lastmod>2025-05-12T16:27:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/geoffrey-hinton/</loc>
     <lastmod>2025-05-12T16:27:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ai-models/</loc>
@@ -839,9 +854,6 @@
     <loc>https://jamesm.blog/tags/cli/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/github/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/kubernetes/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
@@ -1143,8 +1155,6 @@
     <lastmod>2020-01-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/categories/</loc>
-  </url><url>
-    <loc>https://jamesm.blog/ai/geoffrey-hinton-interviews/</loc>
   </url><url>
     <loc>https://jamesm.blog/search/</loc>
   </url><url>
