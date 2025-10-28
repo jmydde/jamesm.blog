@@ -1,7 +1,6 @@
 ---
-title: "AI Tools & Research Companies"
-date: 2023-05-29T22:17:14+01:00
-lastmod: 2023-06-03T13:23:14+01:00
+title: "AI Tools & Frameworks"
+date: 2025-10-28T16:17:14+01:00
 draft: false
 tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "chatgpt", "music", "text-to-speech", "writing", "copilot", "robotics"]
 ---
@@ -166,6 +165,9 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 ### Research
 - [Consensus](https://consensus.app/) - search engine that uses AI to extract and distill findings directly from scientific research
 - [Scholarcy](https://www.scholarcy.com/) - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections
+
+### Spec-driven Development (SDD)
+- [GitHub Spec Kit](https://github.com/github/spec-kit) - toolkit to help you get started with Spec-Driven Development (SDD) - specifications become executable, directly generating working implementations rather than just guiding them
 
 ### Twitter
 - [BlackMagic](https://blackmagic.so/) - enhanced Twitter for pro tweeters

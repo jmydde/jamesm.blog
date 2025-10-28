@@ -6,135 +6,11 @@
     <description>Recent content in Robotics on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Apr 2024 22:26:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Oct 2025 16:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1X - Eve</title>
-      <link>https://jamesm.blog/ai/1x-eve/</link>
-      <pubDate>Sun, 21 Apr 2024 22:26:14 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/1x-eve/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;
-&lt;p&gt;Here are some key features of 1X EVE:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Designed for safe interaction with humans due to its soft and organic-inspired mechanics.&lt;/li&gt;
-&lt;li&gt;Can navigate human environments by opening doors, using elevators, and fitting into workspaces.&lt;/li&gt;
-&lt;li&gt;Equipped with advanced language processing and can understand and respond to natural language commands.&lt;/li&gt;
-&lt;li&gt;Learns and adapts through embodied artificial intelligence.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
-&lt;h3 id=&#34;2024-04-21-how-1x-will-beat-tesla&#34;&gt;[2024-04-21] How 1X Will Beat Tesla!&lt;/h3&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio&#34;&gt;[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio&lt;/h3&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/1X-Eve.jpg" type="" alt="alt"  /></p>
-<h2 id="overview">Overview</h2>
-<p>1X EVE is an android worker designed by <a href="https://www.1x.tech/">1X Technologies</a>. It&rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.</p>
-<p>Here are some key features of 1X EVE:</p>
-<ul>
-<li>Designed for safe interaction with humans due to its soft and organic-inspired mechanics.</li>
-<li>Can navigate human environments by opening doors, using elevators, and fitting into workspaces.</li>
-<li>Equipped with advanced language processing and can understand and respond to natural language commands.</li>
-<li>Learns and adapts through embodied artificial intelligence.</li>
-</ul>
-<h2 id="youtube">YouTube</h2>
-<h3 id="2024-04-21-how-1x-will-beat-tesla">[2024-04-21] How 1X Will Beat Tesla!</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio">[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Tesla Optimus Robot</title>
-      <link>https://jamesm.blog/ai/tesla-optimus-robot/</link>
-      <pubDate>Sun, 21 Apr 2024 20:44:14 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/tesla-optimus-robot/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI&#34;&gt;Tesla&lt;/a&gt; Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It&amp;rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks.  It&amp;rsquo;s equipped with Tesla-designed AI for navigation &amp;amp; understanding surroundings.  The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp;amp; improved dexterity.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Elon_Musk&#34;&gt;Elon Musk&lt;/a&gt; envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&amp;rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
-<p><a href="https://www.tesla.com/en_gb/AI">Tesla</a> Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It&rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks.  It&rsquo;s equipped with Tesla-designed AI for navigation &amp; understanding surroundings.  The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp; improved dexterity.</p>
-<p><a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a> envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.</p>
-<p>The goal is for Optimus to be <strong>less than half the cost of a Tesla car</strong>;</p>
-<ul>
-<li>this translates to roughly $20,000 to $25,000 based on current Tesla car prices</li>
-<li>the price could eventually fall even lower as production scales up</li>
-</ul>
-<p>Musk has predicted long-term their robot will probably be worth <strong>significantly more</strong> than the car side of their business.</p>
-<h2 id="youtube">YouTube</h2>
-<h3 id="2024-04-21-how-the-tesla-bot-is-made">[2024-04-21] How The Tesla Bot Is Made</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/m8Rci8lXNdY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2024-01-14-why-the-tesla-bot-will-take-over-in-2024">[2024-01-14] Why The Tesla Bot Will Take Over In 2024!</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/bTFznsGfnlU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2023-12-13-optimus---gen-2">[2023-12-13] Optimus - Gen 2</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/cpraXaw7dyc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-<h3 id="2023-05-16-tesla-bot-update">[2023-05-16] Tesla Bot update</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/XiQkeWOFwmk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>AI Tools &amp; Research Companies</title>
+      <title>AI Tools &amp; Frameworks</title>
       <link>https://jamesm.blog/ai/tools/</link>
-      <pubDate>Mon, 29 May 2023 22:17:14 +0100</pubDate>
+      <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/tools/</guid>
       <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
@@ -318,6 +194,10 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://consensus.app/&#34;&gt;Consensus&lt;/a&gt; - search engine that uses AI to extract and distill findings directly from scientific research&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.scholarcy.com/&#34;&gt;Scholarcy&lt;/a&gt; - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;spec-driven-development-sdd&#34;&gt;Spec-driven Development (SDD)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/github/spec-kit&#34;&gt;GitHub Spec Kit&lt;/a&gt; - toolkit to help you get started with Spec-Driven Development (SDD) - specifications become executable, directly generating working implementations rather than just guiding them&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
 &lt;ul&gt;
@@ -519,6 +399,10 @@
 <li><a href="https://consensus.app/">Consensus</a> - search engine that uses AI to extract and distill findings directly from scientific research</li>
 <li><a href="https://www.scholarcy.com/">Scholarcy</a> - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections</li>
 </ul>
+<h3 id="spec-driven-development-sdd">Spec-driven Development (SDD)</h3>
+<ul>
+<li><a href="https://github.com/github/spec-kit">GitHub Spec Kit</a> - toolkit to help you get started with Spec-Driven Development (SDD) - specifications become executable, directly generating working implementations rather than just guiding them</li>
+</ul>
 <h3 id="twitter">Twitter</h3>
 <ul>
 <li><a href="https://blackmagic.so/">BlackMagic</a> - enhanced Twitter for pro tweeters</li>
@@ -537,6 +421,130 @@
 <li><a href="https://stability.ai/">Stability</a> - building the foundation to activate humanity&rsquo;s potential</li>
 <li><a href="https://www.tesla.com/en_gb/AI/">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
 </ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>1X - Eve</title>
+      <link>https://jamesm.blog/ai/1x-eve/</link>
+      <pubDate>Sun, 21 Apr 2024 22:26:14 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/1x-eve/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;
+&lt;p&gt;Here are some key features of 1X EVE:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed for safe interaction with humans due to its soft and organic-inspired mechanics.&lt;/li&gt;
+&lt;li&gt;Can navigate human environments by opening doors, using elevators, and fitting into workspaces.&lt;/li&gt;
+&lt;li&gt;Equipped with advanced language processing and can understand and respond to natural language commands.&lt;/li&gt;
+&lt;li&gt;Learns and adapts through embodied artificial intelligence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
+&lt;h3 id=&#34;2024-04-21-how-1x-will-beat-tesla&#34;&gt;[2024-04-21] How 1X Will Beat Tesla!&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio&#34;&gt;[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio&lt;/h3&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/1X-Eve.jpg" type="" alt="alt"  /></p>
+<h2 id="overview">Overview</h2>
+<p>1X EVE is an android worker designed by <a href="https://www.1x.tech/">1X Technologies</a>. It&rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.</p>
+<p>Here are some key features of 1X EVE:</p>
+<ul>
+<li>Designed for safe interaction with humans due to its soft and organic-inspired mechanics.</li>
+<li>Can navigate human environments by opening doors, using elevators, and fitting into workspaces.</li>
+<li>Equipped with advanced language processing and can understand and respond to natural language commands.</li>
+<li>Learns and adapts through embodied artificial intelligence.</li>
+</ul>
+<h2 id="youtube">YouTube</h2>
+<h3 id="2024-04-21-how-1x-will-beat-tesla">[2024-04-21] How 1X Will Beat Tesla!</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio">[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Tesla Optimus Robot</title>
+      <link>https://jamesm.blog/ai/tesla-optimus-robot/</link>
+      <pubDate>Sun, 21 Apr 2024 20:44:14 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/tesla-optimus-robot/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI&#34;&gt;Tesla&lt;/a&gt; Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It&amp;rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks.  It&amp;rsquo;s equipped with Tesla-designed AI for navigation &amp;amp; understanding surroundings.  The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp;amp; improved dexterity.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Elon_Musk&#34;&gt;Elon Musk&lt;/a&gt; envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&amp;rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p><a href="https://www.tesla.com/en_gb/AI">Tesla</a> Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It&rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks.  It&rsquo;s equipped with Tesla-designed AI for navigation &amp; understanding surroundings.  The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp; improved dexterity.</p>
+<p><a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a> envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.</p>
+<p>The goal is for Optimus to be <strong>less than half the cost of a Tesla car</strong>;</p>
+<ul>
+<li>this translates to roughly $20,000 to $25,000 based on current Tesla car prices</li>
+<li>the price could eventually fall even lower as production scales up</li>
+</ul>
+<p>Musk has predicted long-term their robot will probably be worth <strong>significantly more</strong> than the car side of their business.</p>
+<h2 id="youtube">YouTube</h2>
+<h3 id="2024-04-21-how-the-tesla-bot-is-made">[2024-04-21] How The Tesla Bot Is Made</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/m8Rci8lXNdY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2024-01-14-why-the-tesla-bot-will-take-over-in-2024">[2024-01-14] Why The Tesla Bot Will Take Over In 2024!</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/bTFznsGfnlU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2023-12-13-optimus---gen-2">[2023-12-13] Optimus - Gen 2</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/cpraXaw7dyc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h3 id="2023-05-16-tesla-bot-update">[2023-05-16] Tesla Bot update</h3>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/XiQkeWOFwmk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
 ]]></content:encoded>
     </item>
     

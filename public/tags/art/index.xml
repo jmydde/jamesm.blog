@@ -6,11 +6,11 @@
     <description>Recent content in Art on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 May 2023 22:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Oct 2025 16:17:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Tools &amp; Research Companies</title>
+      <title>AI Tools &amp; Frameworks</title>
       <link>https://jamesm.blog/ai/tools/</link>
-      <pubDate>Mon, 29 May 2023 22:17:14 +0100</pubDate>
+      <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/tools/</guid>
       <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
@@ -194,6 +194,10 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://consensus.app/&#34;&gt;Consensus&lt;/a&gt; - search engine that uses AI to extract and distill findings directly from scientific research&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.scholarcy.com/&#34;&gt;Scholarcy&lt;/a&gt; - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;spec-driven-development-sdd&#34;&gt;Spec-driven Development (SDD)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/github/spec-kit&#34;&gt;GitHub Spec Kit&lt;/a&gt; - toolkit to help you get started with Spec-Driven Development (SDD) - specifications become executable, directly generating working implementations rather than just guiding them&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
 &lt;ul&gt;
@@ -394,6 +398,10 @@
 <ul>
 <li><a href="https://consensus.app/">Consensus</a> - search engine that uses AI to extract and distill findings directly from scientific research</li>
 <li><a href="https://www.scholarcy.com/">Scholarcy</a> - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections</li>
+</ul>
+<h3 id="spec-driven-development-sdd">Spec-driven Development (SDD)</h3>
+<ul>
+<li><a href="https://github.com/github/spec-kit">GitHub Spec Kit</a> - toolkit to help you get started with Spec-Driven Development (SDD) - specifications become executable, directly generating working implementations rather than just guiding them</li>
 </ul>
 <h3 id="twitter">Twitter</h3>
 <ul>
