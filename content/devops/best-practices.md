@@ -6,10 +6,10 @@ draft: false
 ## Microservices
 
 ### 9 best practices for developing Microservices
-{{< tweet user="bytebytego" id="1718500151311093823" >}}
+{{< x user="bytebytego" id="1718500151311093823" >}}
 
 ### What tech stack is commonly used for Microservices ?
-{{< tweet user="alexxubyte" id="1718875007798104135" >}}
+{{< x user="alexxubyte" id="1718875007798104135" >}}
 
 ## System Design
-{{< tweet user="javinpaul" id="1718571820436361222" >}}
+{{< x user="javinpaul" id="1718571820436361222" >}}

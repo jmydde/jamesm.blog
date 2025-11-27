@@ -4,4 +4,4 @@ date: 2023-03-16T14:53:39+01:00
 draft: false
 tags: ["ai", "chatbots", "chatgpt", "llm", "tweets"]
 ---
-{{< tweet user="Snapzu_Blogs" id="1636353726519689217" >}}
+{{< x user="Snapzu_Blogs" id="1636353726519689217" >}}

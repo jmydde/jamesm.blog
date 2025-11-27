@@ -18,24 +18,16 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://go.aws/3OnFKZa&#34;&gt;https://go.aws/3OnFKZa&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-
-    
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4BBkHfj9ePE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-      &gt;&lt;/iframe&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4BBkHfj9ePE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;</description>
       <content:encoded><![CDATA[<p>The <strong>AWS Summit London</strong> agenda is now available</p>
 <p>Plan your day &amp; get ready to explore technical sessions, hands-on workshops &amp; keynotes</p>
 <ul>
 <li><a href="https://go.aws/3OnFKZa">https://go.aws/3OnFKZa</a></li>
 </ul>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/4BBkHfj9ePE?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/4BBkHfj9ePE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
 ]]></content:encoded>
@@ -49,7 +41,7 @@
       <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
       <description>&lt;h3 id=&#34;devops&#34;&gt;DevOps&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon&#39;s_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf&#34;&gt;Amazon&amp;rsquo;s approach to high-availability deployment&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon%27s_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf&#34;&gt;Amazon&amp;rsquo;s approach to high-availability deployment&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&amp;rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures.&lt;/li&gt;
 &lt;/ul&gt;
@@ -150,7 +142,7 @@
 &lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h3 id="devops">DevOps</h3>
 <ul>
-<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon's_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf">Amazon&rsquo;s approach to high-availability deployment</a>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon%27s_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf">Amazon&rsquo;s approach to high-availability deployment</a>
 <ul>
 <li>Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures.</li>
 </ul>

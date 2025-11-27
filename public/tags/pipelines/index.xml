@@ -196,7 +196,7 @@
       <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
       <description>&lt;h3 id=&#34;devops&#34;&gt;DevOps&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon&#39;s_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf&#34;&gt;Amazon&amp;rsquo;s approach to high-availability deployment&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon%27s_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf&#34;&gt;Amazon&amp;rsquo;s approach to high-availability deployment&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&amp;rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures.&lt;/li&gt;
 &lt;/ul&gt;
@@ -297,7 +297,7 @@
 &lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h3 id="devops">DevOps</h3>
 <ul>
-<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon's_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf">Amazon&rsquo;s approach to high-availability deployment</a>
+<li><a href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon%27s_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf">Amazon&rsquo;s approach to high-availability deployment</a>
 <ul>
 <li>Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon&rsquo;s development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures.</li>
 </ul>

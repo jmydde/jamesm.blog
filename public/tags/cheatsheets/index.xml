@@ -17,96 +17,96 @@
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Command&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Purpose&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Example&lt;/th&gt;
+          &lt;th&gt;Command&lt;/th&gt;
+          &lt;th&gt;Purpose&lt;/th&gt;
+          &lt;th&gt;Example&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%config&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Set configuration options for the notebook&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%config&lt;/td&gt;
+          &lt;td&gt;Set configuration options for the notebook&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%env&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Set environment variables&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%env&lt;/td&gt;
+          &lt;td&gt;Set environment variables&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%fs&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Interact with the Databricks file system&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%fs ls dbfs:/repo&lt;/td&gt;
+          &lt;td&gt;%fs&lt;/td&gt;
+          &lt;td&gt;Interact with the Databricks file system&lt;/td&gt;
+          &lt;td&gt;%fs ls dbfs:/repo&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%load&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Loads the contents of a file into a cell&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%load&lt;/td&gt;
+          &lt;td&gt;Loads the contents of a file into a cell&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%lsmagic&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;List all magic commands&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%lsmagic&lt;/td&gt;
+          &lt;td&gt;List all magic commands&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%jobs&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Lists all running jobs&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%jobs&lt;/td&gt;
+          &lt;td&gt;Lists all running jobs&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%matplotlib&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;sets up the matplotlib backend&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%matplotlib&lt;/td&gt;
+          &lt;td&gt;sets up the matplotlib backend&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%md&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Write Markdown text&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%md&lt;/td&gt;
+          &lt;td&gt;Write Markdown text&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%pip&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Install Python packages&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%pip&lt;/td&gt;
+          &lt;td&gt;Install Python packages&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%python&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Executes python code&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%python dbutils.fs.rm(&amp;quot;/user/hive/warehouse/test/&amp;quot;, True)&lt;/td&gt;
+          &lt;td&gt;%python&lt;/td&gt;
+          &lt;td&gt;Executes python code&lt;/td&gt;
+          &lt;td&gt;%python dbutils.fs.rm(&amp;quot;/user/hive/warehouse/test/&amp;quot;, True)&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%r&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Execute R code&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%r&lt;/td&gt;
+          &lt;td&gt;Execute R code&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%reload&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;reloads module contents&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%reload&lt;/td&gt;
+          &lt;td&gt;reloads module contents&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%run&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Executes a Python file or a notebook&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%run&lt;/td&gt;
+          &lt;td&gt;Executes a Python file or a notebook&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%scala&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Executes scala code&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%scala&lt;/td&gt;
+          &lt;td&gt;Executes scala code&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%sh&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Executes shell commands on the cluster nodes&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%sh git clone &lt;a href=&#34;https://github.com/repo/test&#34;&gt;https://github.com/repo/test&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;%sh&lt;/td&gt;
+          &lt;td&gt;Executes shell commands on the cluster nodes&lt;/td&gt;
+          &lt;td&gt;%sh git clone &lt;a href=&#34;https://github.com/repo/test&#34;&gt;https://github.com/repo/test&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%sql&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Executes SQL queries&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%sql&lt;/td&gt;
+          &lt;td&gt;Executes SQL queries&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;%who&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Lists all the variables in the current scope&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;%who&lt;/td&gt;
+          &lt;td&gt;Lists all the variables in the current scope&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -386,96 +386,96 @@ REVOKE &amp;lt;privilege&amp;gt; ON &amp;lt;object_type&amp;gt; &amp;lt;object_n
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Command</th>
-          <th style="text-align: left">Purpose</th>
-          <th style="text-align: left">Example</th>
+          <th>Command</th>
+          <th>Purpose</th>
+          <th>Example</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">%config</td>
-          <td style="text-align: left">Set configuration options for the notebook</td>
-          <td style="text-align: left"></td>
+          <td>%config</td>
+          <td>Set configuration options for the notebook</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%env</td>
-          <td style="text-align: left">Set environment variables</td>
-          <td style="text-align: left"></td>
+          <td>%env</td>
+          <td>Set environment variables</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%fs</td>
-          <td style="text-align: left">Interact with the Databricks file system</td>
-          <td style="text-align: left">%fs ls dbfs:/repo</td>
+          <td>%fs</td>
+          <td>Interact with the Databricks file system</td>
+          <td>%fs ls dbfs:/repo</td>
       </tr>
       <tr>
-          <td style="text-align: left">%load</td>
-          <td style="text-align: left">Loads the contents of a file into a cell</td>
-          <td style="text-align: left"></td>
+          <td>%load</td>
+          <td>Loads the contents of a file into a cell</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%lsmagic</td>
-          <td style="text-align: left">List all magic commands</td>
-          <td style="text-align: left"></td>
+          <td>%lsmagic</td>
+          <td>List all magic commands</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%jobs</td>
-          <td style="text-align: left">Lists all running jobs</td>
-          <td style="text-align: left"></td>
+          <td>%jobs</td>
+          <td>Lists all running jobs</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%matplotlib</td>
-          <td style="text-align: left">sets up the matplotlib backend</td>
-          <td style="text-align: left"></td>
+          <td>%matplotlib</td>
+          <td>sets up the matplotlib backend</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%md</td>
-          <td style="text-align: left">Write Markdown text</td>
-          <td style="text-align: left"></td>
+          <td>%md</td>
+          <td>Write Markdown text</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%pip</td>
-          <td style="text-align: left">Install Python packages</td>
-          <td style="text-align: left"></td>
+          <td>%pip</td>
+          <td>Install Python packages</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%python</td>
-          <td style="text-align: left">Executes python code</td>
-          <td style="text-align: left">%python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)</td>
+          <td>%python</td>
+          <td>Executes python code</td>
+          <td>%python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)</td>
       </tr>
       <tr>
-          <td style="text-align: left">%r</td>
-          <td style="text-align: left">Execute R code</td>
-          <td style="text-align: left"></td>
+          <td>%r</td>
+          <td>Execute R code</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%reload</td>
-          <td style="text-align: left">reloads module contents</td>
-          <td style="text-align: left"></td>
+          <td>%reload</td>
+          <td>reloads module contents</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%run</td>
-          <td style="text-align: left">Executes a Python file or a notebook</td>
-          <td style="text-align: left"></td>
+          <td>%run</td>
+          <td>Executes a Python file or a notebook</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%scala</td>
-          <td style="text-align: left">Executes scala code</td>
-          <td style="text-align: left"></td>
+          <td>%scala</td>
+          <td>Executes scala code</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%sh</td>
-          <td style="text-align: left">Executes shell commands on the cluster nodes</td>
-          <td style="text-align: left">%sh git clone <a href="https://github.com/repo/test">https://github.com/repo/test</a></td>
+          <td>%sh</td>
+          <td>Executes shell commands on the cluster nodes</td>
+          <td>%sh git clone <a href="https://github.com/repo/test">https://github.com/repo/test</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">%sql</td>
-          <td style="text-align: left">Executes SQL queries</td>
-          <td style="text-align: left"></td>
+          <td>%sql</td>
+          <td>Executes SQL queries</td>
+          <td></td>
       </tr>
       <tr>
-          <td style="text-align: left">%who</td>
-          <td style="text-align: left">Lists all the variables in the current scope</td>
-          <td style="text-align: left"></td>
+          <td>%who</td>
+          <td>Lists all the variables in the current scope</td>
+          <td></td>
       </tr>
   </tbody>
 </table>

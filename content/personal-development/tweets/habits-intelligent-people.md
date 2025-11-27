@@ -4,4 +4,4 @@ date: 2023-05-25T12:53:39+01:00
 draft: false
 tags: ["self development", "tweets"]
 ---
-{{< tweet user="SeekWiser_" id="1661681509500350465" >}}
+{{< x user="SeekWiser_" id="1661681509500350465" >}}

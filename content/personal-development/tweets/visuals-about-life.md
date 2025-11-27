@@ -4,4 +4,4 @@ date: 2022-10-26T14:53:39+01:00
 draft: false
 tags: ["self development", "tweets"]
 ---
-{{< tweet user="Mind_Essentials" id="1585291946586619909" >}}
+{{< x user="Mind_Essentials" id="1585291946586619909" >}}

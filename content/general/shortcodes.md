@@ -26,10 +26,10 @@ echo "Hello World"
 
 ### GitHub Gist
 https://gist.github.com/sansmischevia/5148109
-{{< gist sansmischevia 5148109 >}}
+<iframe src="https://gist.github.com/sansmischevia/5148109.pibb"></iframe>
 
 ### Tweet
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+{{< x user="SanDiegoZoo" id="1453110110599868418" >}}
 
 ### Vimeo
 {{< vimeo 55073825 >}}

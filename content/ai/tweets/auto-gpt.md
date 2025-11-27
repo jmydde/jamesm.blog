@@ -4,4 +4,4 @@ date: 2023-04-01T14:53:39+01:00
 draft: false
 tags: ["ai", "chatbots", "chatgpt", "tweets"]
 ---
-{{< tweet user="SigGravitas" id="1642181498278408193" >}}
+{{< x user="SigGravitas" id="1642181498278408193" >}}
