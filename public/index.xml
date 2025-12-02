@@ -6,7 +6,173 @@
     <description>Recent content on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Nov 2025 07:39:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Dec 2025 07:29:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arturia Keylab 88 MK3 vs Native Instruments Kontrol S88 MK3</title>
+      <link>https://jamesm.blog/music-production/keylab-vs-kontrol/</link>
+      <pubDate>Tue, 02 Dec 2025 07:29:21 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/keylab-vs-kontrol/</guid>
+      <description>&lt;h1 id=&#34;arturia-keylab-88-mk3-vs-native-instruments-kontrol-s88-mk3&#34;&gt;Arturia KeyLab 88 MK3 vs Native Instruments Kontrol S88 MK3&lt;/h1&gt;
+&lt;p&gt;A detailed comparison of two flagship 88-key MIDI controllers aimed at serious players, producers, and composers.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-concept--philosophy&#34;&gt;1. Concept &amp;amp; Philosophy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Arturia KeyLab 88 MK3&lt;/strong&gt;&lt;br&gt;
+A “do-everything” controller: hammer-action keybed, lots of hands-on controls (pads, faders, encoders), strong DAW integration, and wide plugin compatibility. It’s designed to be the &lt;em&gt;centre of a studio&lt;/em&gt; rather than just a front-end for one company’s instruments.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="arturia-keylab-88-mk3-vs-native-instruments-kontrol-s88-mk3">Arturia KeyLab 88 MK3 vs Native Instruments Kontrol S88 MK3</h1>
+<p>A detailed comparison of two flagship 88-key MIDI controllers aimed at serious players, producers, and composers.</p>
+<hr>
+<h2 id="1-concept--philosophy">1. Concept &amp; Philosophy</h2>
+<p><strong>Arturia KeyLab 88 MK3</strong><br>
+A “do-everything” controller: hammer-action keybed, lots of hands-on controls (pads, faders, encoders), strong DAW integration, and wide plugin compatibility. It’s designed to be the <em>centre of a studio</em> rather than just a front-end for one company’s instruments.</p>
+<p><strong>Native Instruments Kontrol S88 MK3</strong><br>
+A premium keyboard built primarily as the <em>ultimate front-end</em> for the NI ecosystem: Komplete, Kontakt libraries, and NKS-compatible instruments. It leans heavily into tight software integration, visual feedback, and smooth browsing rather than sheer quantity of hardware controls.</p>
+<hr>
+<h2 id="2-keybed--playability">2. Keybed &amp; Playability</h2>
+<h3 id="keylab-88-mk3">KeyLab 88 MK3</h3>
+<ul>
+<li>88-key <strong>hammer-action</strong> keybed with aftertouch.</li>
+<li>Aimed at players who want a convincing <em>piano-like</em> feel for expressive playing.</li>
+<li>Aftertouch lets you add vibrato/modulation without grabbing a wheel or knob.</li>
+<li>Suits: pianists, film composers, and anyone who wants nuanced dynamic control.</li>
+</ul>
+<h3 id="kontrol-s88-mk3">Kontrol S88 MK3</h3>
+<ul>
+<li>88-key fully weighted keybed (Fatar-style, premium feel).</li>
+<li>Also designed to feel “piano-correct,” but with an emphasis on consistency and reliability in a studio setting.</li>
+<li>No drum pads or faders to clutter the playing surface – the keybed is the star.</li>
+<li>Suits: players who live inside Kontakt / Komplete and want a high-end “master” keyboard.</li>
+</ul>
+<p><strong>Summary:</strong> Both feel like proper pianos rather than synths. The deciding factor is less about raw feel and more about what you want <em>around</em> the keys: lots of controls (Arturia) vs a cleaner, more focused interface (NI).</p>
+<hr>
+<h2 id="3-controls-layout-and-workflow">3. Controls, Layout, and Workflow</h2>
+<h3 id="keylab-88-mk3-1">KeyLab 88 MK3</h3>
+<ul>
+<li><strong>Pads:</strong> RGB drum pads for finger-drumming, clip launching, or triggering scenes.</li>
+<li><strong>Faders &amp; Knobs:</strong> Multiple faders and rotary encoders mapped to DAW mixer controls, synth parameters, etc.</li>
+<li><strong>Transport &amp; DAW control:</strong> Play, stop, record, loop, etc. Many DAWs have templates or scripts for tight integration.</li>
+<li><strong>Performance tools:</strong>
+<ul>
+<li>Chord modes</li>
+<li>Scale modes</li>
+<li>Arpeggiator</li>
+<li>Split and layer setups</li>
+</ul>
+</li>
+<li><strong>Extra hardware touches:</strong> Music stand, laptop stand, optional frame for a self-contained “station.”</li>
+</ul>
+<h3 id="kontrol-s88-mk3-1">Kontrol S88 MK3</h3>
+<ul>
+<li><strong>Fewer physical controls:</strong> Minimal set of encoders and buttons. No drum pads, fewer faders.</li>
+<li><strong>High-resolution displays:</strong> Core part of the workflow. You browse sounds, see parameter names, and navigate libraries from the keyboard itself.</li>
+<li><strong>Light Guide:</strong> Per-key LEDs that can show key switches, scales, drum mappings, etc. Very useful for complex Kontakt instruments.</li>
+<li><strong>NKS integration:</strong> Parameters of NKS-compatible instruments are pre-mapped and shown on the screens with sensible pages (Filter, Env, FX, etc.).</li>
+<li><strong>Transport control:</strong> Available for major DAWs, but less of a “full DAW mixer” surface than the KeyLab.</li>
+</ul>
+<p><strong>Summary:</strong></p>
+<ul>
+<li><strong>KeyLab</strong> = lots of hardware controls and a traditional MIDI controller vibe.</li>
+<li><strong>S88</strong> = a refined, screen-driven interface where the magic is in browsing and controlling virtual instruments smoothly.</li>
+</ul>
+<hr>
+<h2 id="4-software-integration--ecosystem">4. Software Integration &amp; Ecosystem</h2>
+<h3 id="keylab-88-mk3-2">KeyLab 88 MK3</h3>
+<ul>
+<li>Works with <em>almost anything</em> via standard MIDI and DAW integration scripts.</li>
+<li>Strong mapping to Arturia’s own <strong>Analog Lab</strong> and V Collection instruments.</li>
+<li>Good “generic” DAW templates, often including: Ableton Live, Logic, Cubase, Studio One, Bitwig, etc.</li>
+<li>You’re not locked into a single ecosystem; it’s designed to play nicely with a wide range of plugins.</li>
+</ul>
+<h3 id="kontrol-s88-mk3-2">Kontrol S88 MK3</h3>
+<ul>
+<li>Deep, polished integration with:
+<ul>
+<li><strong>Komplete</strong></li>
+<li><strong>Kontakt</strong> libraries</li>
+<li><strong>NKS</strong> instruments from NI and third parties</li>
+</ul>
+</li>
+<li>Browser lets you filter by category, character, vendor, etc., and load instruments without touching the mouse.</li>
+<li>Parameters are automatically mapped and named, so you spend less time MIDI-learning and more time playing.</li>
+<li>Outside the NI/NKS world it still works as a standard MIDI keyboard, but you lose a lot of what makes it special.</li>
+</ul>
+<p><strong>Summary:</strong></p>
+<ul>
+<li>If your world = <strong>Kontakt + Komplete + NKS</strong>, the S88 feels like home.</li>
+<li>If you hop between many different VSTs and don’t want one company at the centre of your world, the KeyLab is more neutral and flexible.</li>
+</ul>
+<hr>
+<h2 id="5-build-quality--design">5. Build Quality &amp; Design</h2>
+<h3 id="keylab-88-mk3-3">KeyLab 88 MK3</h3>
+<ul>
+<li>Metal chassis with wood side panels: feels solid and “instrument-like.”</li>
+<li>Slightly busier front panel because of all the pads, faders, and knobs.</li>
+<li>Strengths: durability, lots of physical control, studio-hub aesthetic.</li>
+</ul>
+<h3 id="kontrol-s88-mk3-3">Kontrol S88 MK3</h3>
+<ul>
+<li>Clean, modern look with more emphasis on screens and light guides.</li>
+<li>Fewer visible controls, which some people love (minimalist) and some find limiting.</li>
+<li>Feels premium and slick, especially when used with NI software on a big studio setup.</li>
+</ul>
+<hr>
+<h2 id="6-use-cases">6. Use Cases</h2>
+<p><strong>Choose KeyLab 88 MK3 if you:</strong></p>
+<ul>
+<li>Want <strong>one keyboard to rule everything</strong>: piano playing, DAW control, pads, faders, synth tweaking.</li>
+<li>Move between multiple DAWs and plugins and don’t want to be locked into one ecosystem.</li>
+<li>Do a bit of everything: writing, producing, mixing, maybe even live performance.</li>
+</ul>
+<p><strong>Choose Kontrol S88 MK3 if you:</strong></p>
+<ul>
+<li>Are heavily invested in <strong>Komplete / Kontakt / NKS</strong> libraries.</li>
+<li>Spend lots of time browsing presets and swapping instruments, and want this process to be fast and visual from the keyboard.</li>
+<li>Prefer a clean, uncluttered front panel and rely more on screens and pre-mapped controls than on a ton of physical faders and pads.</li>
+</ul>
+<hr>
+<h2 id="7-pros--cons-summary">7. Pros &amp; Cons Summary</h2>
+<h3 id="arturia-keylab-88-mk3--pros">Arturia KeyLab 88 MK3 – Pros</h3>
+<ul>
+<li>Realistic hammer-action keybed with aftertouch.</li>
+<li>Lots of physical controls (pads, faders, knobs).</li>
+<li>Strong DAW and plugin flexibility.</li>
+<li>Great as a central studio controller.</li>
+</ul>
+<h3 id="arturia-keylab-88-mk3--cons">Arturia KeyLab 88 MK3 – Cons</h3>
+<ul>
+<li>Busy front panel; overkill if you don’t use many controls.</li>
+<li>DAW integration quality can vary by platform.</li>
+<li>Less “deep” with any single ecosystem than NI is with its own.</li>
+</ul>
+<hr>
+<h3 id="native-instruments-kontrol-s88-mk3--pros">Native Instruments Kontrol S88 MK3 – Pros</h3>
+<ul>
+<li>Outstanding integration with NI/Komplete/Kontakt/NKS.</li>
+<li>Excellent screens and light guide for feedback and navigation.</li>
+<li>Premium keybed and polished workflow for virtual instruments.</li>
+<li>Superb for cinematic, orchestral, and sound-design work.</li>
+</ul>
+<h3 id="native-instruments-kontrol-s88-mk3--cons">Native Instruments Kontrol S88 MK3 – Cons</h3>
+<ul>
+<li>Fewer hardware controls; no pads and fewer faders.</li>
+<li>Best features heavily depend on using NI software.</li>
+<li>Less suited as a “do-everything” DAW controller surface.</li>
+</ul>
+<hr>
+<h2 id="8-verdict">8. Verdict</h2>
+<p>Both are excellent 88-key controllers, but they are optimised for different worlds:</p>
+<ul>
+<li><strong>KeyLab 88 MK3</strong> is the better choice if you want a <em>versatile, DAW-centric studio hub</em> with lots of hands-on control and a very playable hammer-action keybed.</li>
+<li><strong>Kontrol S88 MK3</strong> shines if you live in the <strong>Native Instruments universe</strong>, want deep integration with sample libraries and NKS instruments, and value screen-driven browsing and parameter control over a large number of hardware controls.</li>
+</ul>
+<p>In short:</p>
+<ul>
+<li><strong>Generalist, hardware-rich all-rounder?</strong> → Arturia KeyLab 88 MK3</li>
+<li><strong>NI-centric, instrument-browsing powerhouse?</strong> → Native Instruments Kontrol S88 MK3</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Top 5 Human In-Demand Jobs in 10 Years</title>
       <link>https://jamesm.blog/ai/human-in-demand-jobs/</link>
