@@ -6,11 +6,11 @@
     <description>Recent content in Ai on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Nov 2025 07:39:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Dec 2025 13:15:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artificial Intelligence</title>
       <link>https://jamesm.blog/ai/</link>
-      <pubDate>Thu, 27 Nov 2025 07:39:14 +0100</pubDate>
+      <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/</guid>
       <description>&lt;figure&gt;
@@ -20,6 +20,52 @@
     <img loading="lazy" src="images/ai.jpg"/> 
 </figure>
 
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up</title>
+      <link>https://jamesm.blog/ai/cursor-ai/</link>
+      <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/cursor-ai/</guid>
+      <description>&lt;p&gt;Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor AI&lt;/a&gt; has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of &lt;em&gt;“this is the future of development”&lt;/em&gt; as Cursor.&lt;/p&gt;
+&lt;p&gt;Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. <a href="https://www.cursor.com/">Cursor AI</a> has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of <em>“this is the future of development”</em> as Cursor.</p>
+<p>Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.</p>
+<p>The experience is difficult to overstate: it changes how you approach building software.</p>
+<h3 id="integrating-github-spec-kit-the-missing-link">Integrating GitHub Spec Kit: The Missing Link</h3>
+<p>The biggest leap in my own workflow has come from integrating GitHub Spec Kit into Cursor. Spec Kit provides a structured foundation - <code>spec.md</code>, <code>constitution.md</code>, requirements, boundaries, acceptance criteria - everything that keeps a project coherent as it evolves.</p>
+<p>Cursor treats those specs as living, authoritative documents. Once the rules and expectations are written down, Cursor uses them as constraints. It respects them, enforces them, and even highlights when code drifts away from them. Instead of planning in one place and coding in another, everything merges into a single iterative loop:</p>
+<p><strong>Refine the spec → Ask Cursor to implement → Update the spec → Generate more code → Improve architecture → Repeat.</strong></p>
+<p>It feels closer to a “development operating system” than an editor - documentation, code, and reasoning all feed into each other in real time.</p>
+<h3 id="why-this-combination-feels-revolutionary">Why This Combination Feels Revolutionary</h3>
+<ul>
+<li>
+<p><strong>Automatic consistency.</strong><br>
+Cursor keeps code aligned with the spec, reducing drift and ambiguity.</p>
+</li>
+<li>
+<p><strong>Architecture that stays clean.</strong><br>
+Spec Kit defines the structure; Cursor continuously references it while generating and refactoring code.</p>
+</li>
+<li>
+<p><strong>Effortless onboarding.</strong><br>
+New contributors can read the spec and ask Cursor questions directly against it, bypassing tribal knowledge.</p>
+</li>
+<li>
+<p><strong>Faster iteration than ever.</strong><br>
+Ideas move from head → spec → implementation within minutes.</p>
+</li>
+<li>
+<p><strong>Fearless refactoring.</strong><br>
+With a clear spec and an AI that understands intent, large-scale changes become safe and manageable.</p>
+</li>
+</ul>
+<h3 id="the-future-is-taking-shape">The Future Is Taking Shape</h3>
+<p>It’s clear that we’re watching a major shift in how software will be built. Cursor makes development conversational. GitHub Spec Kit makes it structured. Together they create a development environment that feels faster, clearer, and more expressive than anything I’ve used before.</p>
+<p>These tools don’t replace developers - they amplify them. They eliminate friction between thought and execution. They let you think at a higher level without drowning in boilerplate or context switching.</p>
+<p>The combination of Cursor AI and GitHub Spec Kit genuinely feels like the next chapter of software development. Coding feels different now - more intuitive, more powerful - and I can’t imagine going back.</p>
 ]]></content:encoded>
     </item>
     
