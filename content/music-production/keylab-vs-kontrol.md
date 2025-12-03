@@ -11,6 +11,14 @@ A detailed comparison of two flagship 88-key MIDI controllers aimed at serious p
 
 ---
 
+![alt](/images/arturia-keylab-88-mk3.png)
+(Image: Arturia Keylab 88 MK3)
+
+![alt](/images/ni-kontrol-s88-mk3.png)
+(Image: Native Instruments Kontrol S88 MK3)
+
+---
+
 ## 1. Concept & Philosophy
 
 | Feature | Arturia KeyLab 88 MK3 | Native Instruments Kontrol S88 MK3 |
