@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Databricks CheatSheet | jamesm.blog</title>
+<meta name="keywords" content="databricks, cheatsheets">
+<meta name="description" content="Databricks Notebook Commands
+
+  
+      
+          Command
+          Purpose
+          Example
+      
+  
+  
+      
+          %config
+          Set configuration options for the notebook
+          
+      
+      
+          %env
+          Set environment variables
+          
+      
+      
+          %fs
+          Interact with the Databricks file system
+          %fs ls dbfs:/repo
+      
+      
+          %load
+          Loads the contents of a file into a cell
+          
+      
+      
+          %lsmagic
+          List all magic commands
+          
+      
+      
+          %jobs
+          Lists all running jobs
+          
+      
+      
+          %matplotlib
+          sets up the matplotlib backend
+          
+      
+      
+          %md
+          Write Markdown text
+          
+      
+      
+          %pip
+          Install Python packages
+          
+      
+      
+          %python
+          Executes python code
+          %python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)
+      
+      
+          %r
+          Execute R code
+          
+      
+      
+          %reload
+          reloads module contents
+          
+      
+      
+          %run
+          Executes a Python file or a notebook
+          
+      
+      
+          %scala
+          Executes scala code
+          
+      
+      
+          %sh
+          Executes shell commands on the cluster nodes
+          %sh git clone https://github.com/repo/test
+      
+      
+          %sql
+          Executes SQL queries
+          
+      
+      
+          %who
+          Lists all the variables in the current scope
+          
+      
+  
+
+Accessing Files
+
+/path/to/file
+dbfs:/path/to/file
+file:/path/to/file
+s3://path/to/file
+
+Copying Files
+%fs cp file:/&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+
+%python dbutils.fs.cp(&#34;file:/&lt;path&gt;&#34;, &#34;/Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;&#34;)
+%python dbutils.fs.cp(&#34;file:/databricks/driver/test&#34;, &#34;dbfs:/repo&#34;, True)
+
+%sh cp /&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+SQL Statements (DDL)
+Create &amp; Use Schema
+CREATE SCHEMA test;
+CREATE SCHEMA custom LOCATION &#39;dbfs:/custom&#39;;
+
+USE SCHEMA test;
+Create Table
+CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test USING CSV LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test USING CSV OPTIONS (header=&#34;true&#34;) LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test AS ...
+CREATE TABLE test USING ...
+
+CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT)
+COMMENT &#39;This is comment for the table itself&#39;;
+
+CREATE TABLE test AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.json&#39;, format =&gt; &#39;json&#39;);
+
+CREATE TABLE test_raw AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.csv&#39;, sep =&gt; &#39;;&#39;);
+
+CREATE TABLE custom_table_test LOCATION &#39;dbfs:/custom-table&#39;
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE TABLE test PARTITIONED BY (col1)
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;)
+
+CREATE TABLE users(
+firstname STRING,
+lastname STRING,
+full_name STRING GENERATED ALWAYS AS (concat(firstname, &#39; &#39;, lastname))
+);
+
+CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`;
+CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+Create View
+CREATE VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE VIEW view_test
+AS SELECT col1, col1
+FROM test
+JOIN test2 ON test.col2 == test2.col2;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE GLOBAL TEMP VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+SELECT * FROM global_temp.view_test;
+
+CREATE TEMP VIEW jdbc_example USING JDBC
+OPTIONS (
+url &#34;&lt;jdbc-url&gt;&#34;,
+dbtable &#34;&lt;table-name&gt;&#34;,
+user &#39;&lt;username&gt;&#39;,
+password &#39;&lt;password&gt;&#39;);
+
+CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`&lt;logpath&gt;`;
+
+CREATE VIEW event_log_raw AS SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+CREATE OR REPLACE TEMP VIEW test_view
+AS SELECT test.col1 AS col1 FROM test_table
+WHERE col1 = &#39;value1&#39; ORDER BY timestamp DESC LIMIT 1;
+Drop
+DROP TABLE test;
+Describe
+SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+SQL Statements (DML)
+Select
+SELECT * FROM csv.`/repo/data/test.csv`;
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;, format =&gt; &#39;csv&#39;, header =&gt; &#39;true&#39;, sep =&gt; &#39;,&#39;)
+SELECT * FROM json.`/repo/data/test.json`;
+SELECT * FROM json.`/repo/data/*.json`;
+SELECT * FROM test WHERE year(from_unixtime(test_time)) &gt; 1900;
+SELECT * FROM test WHERE title LIKE &#39;%a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;%a&#39;
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count_if(col1 = &#39;test&#39;) FROM test;
+SELECT from_unixtime(test_time) FROM test;
+SELECT cast(test_time / 1 AS timestamp) FROM test;
+SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test;
+SELECT element.sub_element FROM test;
+SELECT flatten(array(array(1, 2), array(3, 4)));
+
+SELECT * FROM (
+  SELECT col1, col2 FROM test
+) 
+PIVOT (
+  sum(col1) for col2 in (&#39;item1&#39;,&#39;item2&#39;)
+);
+
+SELECT *, CASE
+WHEN col1 &gt; 10 THEN &#39;value1&#39;
+ELSE &#39;value2&#39;
+END
+FROM test;
+
+SELECT * FROM test ORDER BY (CASE
+WHEN col1 &gt; 10 THEN col2
+ELSE col3
+END);
+
+WITH t(col1, col2) AS (SELECT 1, 2)
+SELECT * FROM t WHERE col1 = 1;
+
+SELECT details:flow_definition.output_dataset as output_dataset,
+       details:flow_definition.input_datasets as input_dataset
+FROM   event_log_raw, latest_update
+WHERE  event_type = &#39;flow_definition&#39; AND origin.update_id = latest_update.id;
+Insert
+INSERT OVERWRITE test SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+INSERT INTO test(col1, col2) VALUES (&#39;value1&#39;, &#39;value2&#39;);
+Merge Into
+MERGE INTO test USING test_to_delete
+ON test.col1 = test_to_delete.col1
+WHEN MATCHED THEN DELETE;
+
+MERGE INTO test USING test_to_update
+ON test.col1 = test_to_update.col1
+WHEN MATCHED THEN UPDATE SET *;
+
+MERGE INTO test USING test_to_insert
+ON test.col1 = test_to_insert.col1
+WHEN NOT MATCHED THEN INSERT *;
+Copy Into
+COPY INTO test
+FROM &#39;/repo/data&#39;
+FILEFORMAT = CSV
+FILES = (&#39;test.csv&#39;)
+FORMAT_OPTIONS(&#39;header&#39; = &#39;true&#39;, &#39;inferSchema&#39; = &#39;true&#39;);
+Delta Lake Statements
+DESCRIBE HISTORY test;
+DESCRIBE HISTORY test LIMIT 1;
+
+INSERT INTO test SELECT * FROM test@v2 WHERE id = 3;
+
+OPTIMIZE test;
+OPTIMIZE test ZORDER BY col1;
+
+RESTORE TABLE test TO VERSION AS OF 0;
+
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+
+VACUUM test;
+VACUUM test RETAIN 240 HOURS;
+
+%fs ls dbfs:/user/hive/warehouse/test/_delta_log
+%python spark.conf.set(&#34;spark.databricks.delta.retentionDurationCheck.enabled&#34;, &#34;false&#34;)
+Delta Live Table Statements
+CREATE OR REFRESH LIVE TABLE test_raw
+AS SELECT * FROM json.`/repo/data/test.json`;
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM STREAM read_files(&#39;/repo/data/test*.json&#39;);
+
+CREATE OR REFRESH LIVE TABLE test_cleaned
+AS SELECT col1, col2, col3, col4 FROM live.test_raw;
+
+CREATE OR REFRESH LIVE TABLE recent_test
+AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
+Fuctions
+CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
+RETURNS DOUBLE
+RETURN (col1 - 10);
+Auto Loader
+%python
+
+spark.readStream.format(&#34;cloudFiles&#34;)\
+  .option(&#34;cloudFiles.format&#34;, &#34;json&#34;)\
+  .option(&#34;cloudFiles.schemaLocation&#34;, &#34;/autoloader-schema&#34;)\
+  .option(&#34;pathGlobFilter&#34;, &#34;test*.json&#34;)\
+  .load(&#34;/repo/data&#34;)\
+  .writeStream\
+  .option(&#34;mergeSchema&#34;, &#34;true&#34;)\
+  .option(&#34;checkpointLocation&#34;, &#34;/autoloader-checkpoint&#34;)\
+  .start(&#34;demo&#34;)
+
+%fs head /autoloader-schema/_schemas/0
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM
+cloud_files(
+&#39;/repo/data&#39;,
+&#39;json&#39;,
+map(&#34;cloudFiles.inferColumnTypes&#34;, &#34;true&#34;, &#34;pathGlobFilter&#34;, &#34;test*.json&#34;)
+);
+
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0)
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION DROP ROW
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION FAIL UPDATE
+CDC Statements
+APPLY CHANGES INTO live.target
+  FROM stream(live.cdc_source)
+  KEYS (col1)
+  APPLY AS DELETE WHEN col2 = &#34;DELETE&#34;
+  SEQUENCE BY col3
+  COLUMNS * EXCEPT (col);
+Security Statements
+GRANT &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; TO &lt;user_or_group&gt;;
+GRANT SELECT ON TABLE test TO `databricks@degols.net`;
+
+REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@gmail.com&#39;;
+Links
+
+Databricks
+
+SQL Language Reference
+Cheat Sheets
+
+Compute creation cheat sheet
+Platform administration cheat sheet
+Production job scheduling cheat sheet
+
+
+Best Practices
+
+Delta Lake best practices
+Hyperparameter tuning with Hyperopt
+Deep learning in Databricks
+Recommendations for MLOps
+Unity Catalog best practices
+Cluster configuration best practices
+Instance pool configuration best practices
+
+
+
+
+Other
+
+Databricks Cheat Sheet 1
+Databricks Notebook Markdown Cheat Sheet
+
+
+">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/data-engineering/databricks-cheatsheet/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7da7716a1f2d0725f74c6ae7f8d6adafc43aabe2b366b65bfbf433448e2a2001.css" integrity="sha256-fadxah8tByX3TGrn&#43;Natr8Q6q&#43;KzZrZb&#43;/QzRI4qIAE=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/data-engineering/databricks-cheatsheet/">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Databricks CheatSheet | jamesm.blog" />
+<meta name="twitter:description" content="Databricks Notebook Commands
+
+  
+      
+          Command
+          Purpose
+          Example
+      
+  
+  
+      
+          %config
+          Set configuration options for the notebook
+          
+      
+      
+          %env
+          Set environment variables
+          
+      
+      
+          %fs
+          Interact with the Databricks file system
+          %fs ls dbfs:/repo
+      
+      
+          %load
+          Loads the contents of a file into a cell
+          
+      
+      
+          %lsmagic
+          List all magic commands
+          
+      
+      
+          %jobs
+          Lists all running jobs
+          
+      
+      
+          %matplotlib
+          sets up the matplotlib backend
+          
+      
+      
+          %md
+          Write Markdown text
+          
+      
+      
+          %pip
+          Install Python packages
+          
+      
+      
+          %python
+          Executes python code
+          %python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)
+      
+      
+          %r
+          Execute R code
+          
+      
+      
+          %reload
+          reloads module contents
+          
+      
+      
+          %run
+          Executes a Python file or a notebook
+          
+      
+      
+          %scala
+          Executes scala code
+          
+      
+      
+          %sh
+          Executes shell commands on the cluster nodes
+          %sh git clone https://github.com/repo/test
+      
+      
+          %sql
+          Executes SQL queries
+          
+      
+      
+          %who
+          Lists all the variables in the current scope
+          
+      
+  
+
+Accessing Files
+
+/path/to/file
+dbfs:/path/to/file
+file:/path/to/file
+s3://path/to/file
+
+Copying Files
+%fs cp file:/&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+
+%python dbutils.fs.cp(&#34;file:/&lt;path&gt;&#34;, &#34;/Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;&#34;)
+%python dbutils.fs.cp(&#34;file:/databricks/driver/test&#34;, &#34;dbfs:/repo&#34;, True)
+
+%sh cp /&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+SQL Statements (DDL)
+Create &amp; Use Schema
+CREATE SCHEMA test;
+CREATE SCHEMA custom LOCATION &#39;dbfs:/custom&#39;;
+
+USE SCHEMA test;
+Create Table
+CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test USING CSV LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test USING CSV OPTIONS (header=&#34;true&#34;) LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test AS ...
+CREATE TABLE test USING ...
+
+CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT)
+COMMENT &#39;This is comment for the table itself&#39;;
+
+CREATE TABLE test AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.json&#39;, format =&gt; &#39;json&#39;);
+
+CREATE TABLE test_raw AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.csv&#39;, sep =&gt; &#39;;&#39;);
+
+CREATE TABLE custom_table_test LOCATION &#39;dbfs:/custom-table&#39;
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE TABLE test PARTITIONED BY (col1)
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;)
+
+CREATE TABLE users(
+firstname STRING,
+lastname STRING,
+full_name STRING GENERATED ALWAYS AS (concat(firstname, &#39; &#39;, lastname))
+);
+
+CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`;
+CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+Create View
+CREATE VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE VIEW view_test
+AS SELECT col1, col1
+FROM test
+JOIN test2 ON test.col2 == test2.col2;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE GLOBAL TEMP VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+SELECT * FROM global_temp.view_test;
+
+CREATE TEMP VIEW jdbc_example USING JDBC
+OPTIONS (
+url &#34;&lt;jdbc-url&gt;&#34;,
+dbtable &#34;&lt;table-name&gt;&#34;,
+user &#39;&lt;username&gt;&#39;,
+password &#39;&lt;password&gt;&#39;);
+
+CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`&lt;logpath&gt;`;
+
+CREATE VIEW event_log_raw AS SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+CREATE OR REPLACE TEMP VIEW test_view
+AS SELECT test.col1 AS col1 FROM test_table
+WHERE col1 = &#39;value1&#39; ORDER BY timestamp DESC LIMIT 1;
+Drop
+DROP TABLE test;
+Describe
+SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+SQL Statements (DML)
+Select
+SELECT * FROM csv.`/repo/data/test.csv`;
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;, format =&gt; &#39;csv&#39;, header =&gt; &#39;true&#39;, sep =&gt; &#39;,&#39;)
+SELECT * FROM json.`/repo/data/test.json`;
+SELECT * FROM json.`/repo/data/*.json`;
+SELECT * FROM test WHERE year(from_unixtime(test_time)) &gt; 1900;
+SELECT * FROM test WHERE title LIKE &#39;%a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;%a&#39;
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count_if(col1 = &#39;test&#39;) FROM test;
+SELECT from_unixtime(test_time) FROM test;
+SELECT cast(test_time / 1 AS timestamp) FROM test;
+SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test;
+SELECT element.sub_element FROM test;
+SELECT flatten(array(array(1, 2), array(3, 4)));
+
+SELECT * FROM (
+  SELECT col1, col2 FROM test
+) 
+PIVOT (
+  sum(col1) for col2 in (&#39;item1&#39;,&#39;item2&#39;)
+);
+
+SELECT *, CASE
+WHEN col1 &gt; 10 THEN &#39;value1&#39;
+ELSE &#39;value2&#39;
+END
+FROM test;
+
+SELECT * FROM test ORDER BY (CASE
+WHEN col1 &gt; 10 THEN col2
+ELSE col3
+END);
+
+WITH t(col1, col2) AS (SELECT 1, 2)
+SELECT * FROM t WHERE col1 = 1;
+
+SELECT details:flow_definition.output_dataset as output_dataset,
+       details:flow_definition.input_datasets as input_dataset
+FROM   event_log_raw, latest_update
+WHERE  event_type = &#39;flow_definition&#39; AND origin.update_id = latest_update.id;
+Insert
+INSERT OVERWRITE test SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+INSERT INTO test(col1, col2) VALUES (&#39;value1&#39;, &#39;value2&#39;);
+Merge Into
+MERGE INTO test USING test_to_delete
+ON test.col1 = test_to_delete.col1
+WHEN MATCHED THEN DELETE;
+
+MERGE INTO test USING test_to_update
+ON test.col1 = test_to_update.col1
+WHEN MATCHED THEN UPDATE SET *;
+
+MERGE INTO test USING test_to_insert
+ON test.col1 = test_to_insert.col1
+WHEN NOT MATCHED THEN INSERT *;
+Copy Into
+COPY INTO test
+FROM &#39;/repo/data&#39;
+FILEFORMAT = CSV
+FILES = (&#39;test.csv&#39;)
+FORMAT_OPTIONS(&#39;header&#39; = &#39;true&#39;, &#39;inferSchema&#39; = &#39;true&#39;);
+Delta Lake Statements
+DESCRIBE HISTORY test;
+DESCRIBE HISTORY test LIMIT 1;
+
+INSERT INTO test SELECT * FROM test@v2 WHERE id = 3;
+
+OPTIMIZE test;
+OPTIMIZE test ZORDER BY col1;
+
+RESTORE TABLE test TO VERSION AS OF 0;
+
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+
+VACUUM test;
+VACUUM test RETAIN 240 HOURS;
+
+%fs ls dbfs:/user/hive/warehouse/test/_delta_log
+%python spark.conf.set(&#34;spark.databricks.delta.retentionDurationCheck.enabled&#34;, &#34;false&#34;)
+Delta Live Table Statements
+CREATE OR REFRESH LIVE TABLE test_raw
+AS SELECT * FROM json.`/repo/data/test.json`;
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM STREAM read_files(&#39;/repo/data/test*.json&#39;);
+
+CREATE OR REFRESH LIVE TABLE test_cleaned
+AS SELECT col1, col2, col3, col4 FROM live.test_raw;
+
+CREATE OR REFRESH LIVE TABLE recent_test
+AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
+Fuctions
+CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
+RETURNS DOUBLE
+RETURN (col1 - 10);
+Auto Loader
+%python
+
+spark.readStream.format(&#34;cloudFiles&#34;)\
+  .option(&#34;cloudFiles.format&#34;, &#34;json&#34;)\
+  .option(&#34;cloudFiles.schemaLocation&#34;, &#34;/autoloader-schema&#34;)\
+  .option(&#34;pathGlobFilter&#34;, &#34;test*.json&#34;)\
+  .load(&#34;/repo/data&#34;)\
+  .writeStream\
+  .option(&#34;mergeSchema&#34;, &#34;true&#34;)\
+  .option(&#34;checkpointLocation&#34;, &#34;/autoloader-checkpoint&#34;)\
+  .start(&#34;demo&#34;)
+
+%fs head /autoloader-schema/_schemas/0
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM
+cloud_files(
+&#39;/repo/data&#39;,
+&#39;json&#39;,
+map(&#34;cloudFiles.inferColumnTypes&#34;, &#34;true&#34;, &#34;pathGlobFilter&#34;, &#34;test*.json&#34;)
+);
+
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0)
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION DROP ROW
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION FAIL UPDATE
+CDC Statements
+APPLY CHANGES INTO live.target
+  FROM stream(live.cdc_source)
+  KEYS (col1)
+  APPLY AS DELETE WHEN col2 = &#34;DELETE&#34;
+  SEQUENCE BY col3
+  COLUMNS * EXCEPT (col);
+Security Statements
+GRANT &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; TO &lt;user_or_group&gt;;
+GRANT SELECT ON TABLE test TO `databricks@degols.net`;
+
+REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@gmail.com&#39;;
+Links
+
+Databricks
+
+SQL Language Reference
+Cheat Sheets
+
+Compute creation cheat sheet
+Platform administration cheat sheet
+Production job scheduling cheat sheet
+
+
+Best Practices
+
+Delta Lake best practices
+Hyperparameter tuning with Hyperopt
+Deep learning in Databricks
+Recommendations for MLOps
+Unity Catalog best practices
+Cluster configuration best practices
+Instance pool configuration best practices
+
+
+
+
+Other
+
+Databricks Cheat Sheet 1
+Databricks Notebook Markdown Cheat Sheet
+
+
+" />
+<meta property="og:title" content="Databricks CheatSheet | jamesm.blog" />
+<meta property="og:description" content="Databricks Notebook Commands
+
+  
+      
+          Command
+          Purpose
+          Example
+      
+  
+  
+      
+          %config
+          Set configuration options for the notebook
+          
+      
+      
+          %env
+          Set environment variables
+          
+      
+      
+          %fs
+          Interact with the Databricks file system
+          %fs ls dbfs:/repo
+      
+      
+          %load
+          Loads the contents of a file into a cell
+          
+      
+      
+          %lsmagic
+          List all magic commands
+          
+      
+      
+          %jobs
+          Lists all running jobs
+          
+      
+      
+          %matplotlib
+          sets up the matplotlib backend
+          
+      
+      
+          %md
+          Write Markdown text
+          
+      
+      
+          %pip
+          Install Python packages
+          
+      
+      
+          %python
+          Executes python code
+          %python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)
+      
+      
+          %r
+          Execute R code
+          
+      
+      
+          %reload
+          reloads module contents
+          
+      
+      
+          %run
+          Executes a Python file or a notebook
+          
+      
+      
+          %scala
+          Executes scala code
+          
+      
+      
+          %sh
+          Executes shell commands on the cluster nodes
+          %sh git clone https://github.com/repo/test
+      
+      
+          %sql
+          Executes SQL queries
+          
+      
+      
+          %who
+          Lists all the variables in the current scope
+          
+      
+  
+
+Accessing Files
+
+/path/to/file
+dbfs:/path/to/file
+file:/path/to/file
+s3://path/to/file
+
+Copying Files
+%fs cp file:/&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+
+%python dbutils.fs.cp(&#34;file:/&lt;path&gt;&#34;, &#34;/Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;&#34;)
+%python dbutils.fs.cp(&#34;file:/databricks/driver/test&#34;, &#34;dbfs:/repo&#34;, True)
+
+%sh cp /&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+SQL Statements (DDL)
+Create &amp; Use Schema
+CREATE SCHEMA test;
+CREATE SCHEMA custom LOCATION &#39;dbfs:/custom&#39;;
+
+USE SCHEMA test;
+Create Table
+CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test USING CSV LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test USING CSV OPTIONS (header=&#34;true&#34;) LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test AS ...
+CREATE TABLE test USING ...
+
+CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT)
+COMMENT &#39;This is comment for the table itself&#39;;
+
+CREATE TABLE test AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.json&#39;, format =&gt; &#39;json&#39;);
+
+CREATE TABLE test_raw AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.csv&#39;, sep =&gt; &#39;;&#39;);
+
+CREATE TABLE custom_table_test LOCATION &#39;dbfs:/custom-table&#39;
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE TABLE test PARTITIONED BY (col1)
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;)
+
+CREATE TABLE users(
+firstname STRING,
+lastname STRING,
+full_name STRING GENERATED ALWAYS AS (concat(firstname, &#39; &#39;, lastname))
+);
+
+CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`;
+CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+Create View
+CREATE VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE VIEW view_test
+AS SELECT col1, col1
+FROM test
+JOIN test2 ON test.col2 == test2.col2;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE GLOBAL TEMP VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+SELECT * FROM global_temp.view_test;
+
+CREATE TEMP VIEW jdbc_example USING JDBC
+OPTIONS (
+url &#34;&lt;jdbc-url&gt;&#34;,
+dbtable &#34;&lt;table-name&gt;&#34;,
+user &#39;&lt;username&gt;&#39;,
+password &#39;&lt;password&gt;&#39;);
+
+CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`&lt;logpath&gt;`;
+
+CREATE VIEW event_log_raw AS SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+CREATE OR REPLACE TEMP VIEW test_view
+AS SELECT test.col1 AS col1 FROM test_table
+WHERE col1 = &#39;value1&#39; ORDER BY timestamp DESC LIMIT 1;
+Drop
+DROP TABLE test;
+Describe
+SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+SQL Statements (DML)
+Select
+SELECT * FROM csv.`/repo/data/test.csv`;
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;, format =&gt; &#39;csv&#39;, header =&gt; &#39;true&#39;, sep =&gt; &#39;,&#39;)
+SELECT * FROM json.`/repo/data/test.json`;
+SELECT * FROM json.`/repo/data/*.json`;
+SELECT * FROM test WHERE year(from_unixtime(test_time)) &gt; 1900;
+SELECT * FROM test WHERE title LIKE &#39;%a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;%a&#39;
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count_if(col1 = &#39;test&#39;) FROM test;
+SELECT from_unixtime(test_time) FROM test;
+SELECT cast(test_time / 1 AS timestamp) FROM test;
+SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test;
+SELECT element.sub_element FROM test;
+SELECT flatten(array(array(1, 2), array(3, 4)));
+
+SELECT * FROM (
+  SELECT col1, col2 FROM test
+) 
+PIVOT (
+  sum(col1) for col2 in (&#39;item1&#39;,&#39;item2&#39;)
+);
+
+SELECT *, CASE
+WHEN col1 &gt; 10 THEN &#39;value1&#39;
+ELSE &#39;value2&#39;
+END
+FROM test;
+
+SELECT * FROM test ORDER BY (CASE
+WHEN col1 &gt; 10 THEN col2
+ELSE col3
+END);
+
+WITH t(col1, col2) AS (SELECT 1, 2)
+SELECT * FROM t WHERE col1 = 1;
+
+SELECT details:flow_definition.output_dataset as output_dataset,
+       details:flow_definition.input_datasets as input_dataset
+FROM   event_log_raw, latest_update
+WHERE  event_type = &#39;flow_definition&#39; AND origin.update_id = latest_update.id;
+Insert
+INSERT OVERWRITE test SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+INSERT INTO test(col1, col2) VALUES (&#39;value1&#39;, &#39;value2&#39;);
+Merge Into
+MERGE INTO test USING test_to_delete
+ON test.col1 = test_to_delete.col1
+WHEN MATCHED THEN DELETE;
+
+MERGE INTO test USING test_to_update
+ON test.col1 = test_to_update.col1
+WHEN MATCHED THEN UPDATE SET *;
+
+MERGE INTO test USING test_to_insert
+ON test.col1 = test_to_insert.col1
+WHEN NOT MATCHED THEN INSERT *;
+Copy Into
+COPY INTO test
+FROM &#39;/repo/data&#39;
+FILEFORMAT = CSV
+FILES = (&#39;test.csv&#39;)
+FORMAT_OPTIONS(&#39;header&#39; = &#39;true&#39;, &#39;inferSchema&#39; = &#39;true&#39;);
+Delta Lake Statements
+DESCRIBE HISTORY test;
+DESCRIBE HISTORY test LIMIT 1;
+
+INSERT INTO test SELECT * FROM test@v2 WHERE id = 3;
+
+OPTIMIZE test;
+OPTIMIZE test ZORDER BY col1;
+
+RESTORE TABLE test TO VERSION AS OF 0;
+
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+
+VACUUM test;
+VACUUM test RETAIN 240 HOURS;
+
+%fs ls dbfs:/user/hive/warehouse/test/_delta_log
+%python spark.conf.set(&#34;spark.databricks.delta.retentionDurationCheck.enabled&#34;, &#34;false&#34;)
+Delta Live Table Statements
+CREATE OR REFRESH LIVE TABLE test_raw
+AS SELECT * FROM json.`/repo/data/test.json`;
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM STREAM read_files(&#39;/repo/data/test*.json&#39;);
+
+CREATE OR REFRESH LIVE TABLE test_cleaned
+AS SELECT col1, col2, col3, col4 FROM live.test_raw;
+
+CREATE OR REFRESH LIVE TABLE recent_test
+AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
+Fuctions
+CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
+RETURNS DOUBLE
+RETURN (col1 - 10);
+Auto Loader
+%python
+
+spark.readStream.format(&#34;cloudFiles&#34;)\
+  .option(&#34;cloudFiles.format&#34;, &#34;json&#34;)\
+  .option(&#34;cloudFiles.schemaLocation&#34;, &#34;/autoloader-schema&#34;)\
+  .option(&#34;pathGlobFilter&#34;, &#34;test*.json&#34;)\
+  .load(&#34;/repo/data&#34;)\
+  .writeStream\
+  .option(&#34;mergeSchema&#34;, &#34;true&#34;)\
+  .option(&#34;checkpointLocation&#34;, &#34;/autoloader-checkpoint&#34;)\
+  .start(&#34;demo&#34;)
+
+%fs head /autoloader-schema/_schemas/0
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM
+cloud_files(
+&#39;/repo/data&#39;,
+&#39;json&#39;,
+map(&#34;cloudFiles.inferColumnTypes&#34;, &#34;true&#34;, &#34;pathGlobFilter&#34;, &#34;test*.json&#34;)
+);
+
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0)
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION DROP ROW
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION FAIL UPDATE
+CDC Statements
+APPLY CHANGES INTO live.target
+  FROM stream(live.cdc_source)
+  KEYS (col1)
+  APPLY AS DELETE WHEN col2 = &#34;DELETE&#34;
+  SEQUENCE BY col3
+  COLUMNS * EXCEPT (col);
+Security Statements
+GRANT &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; TO &lt;user_or_group&gt;;
+GRANT SELECT ON TABLE test TO `databricks@degols.net`;
+
+REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@gmail.com&#39;;
+Links
+
+Databricks
+
+SQL Language Reference
+Cheat Sheets
+
+Compute creation cheat sheet
+Platform administration cheat sheet
+Production job scheduling cheat sheet
+
+
+Best Practices
+
+Delta Lake best practices
+Hyperparameter tuning with Hyperopt
+Deep learning in Databricks
+Recommendations for MLOps
+Unity Catalog best practices
+Cluster configuration best practices
+Instance pool configuration best practices
+
+
+
+
+Other
+
+Databricks Cheat Sheet 1
+Databricks Notebook Markdown Cheat Sheet
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jamesm.blog/data-engineering/databricks-cheatsheet/" />
+    <meta property="og:image" content="https://jamesm.blog/papermod-cover.png"/>
+<meta property="article:section" content="data-engineering" />
+  <meta property="article:published_time" content="2024-02-25T21:00:25&#43;01:00" />
+  <meta property="article:modified_time" content="2024-02-25T21:00:25&#43;01:00" />
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Data Engineering",
+      "item": "https://jamesm.blog/data-engineering/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Databricks CheatSheet",
+      "item": "https://jamesm.blog/data-engineering/databricks-cheatsheet/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Databricks CheatSheet | jamesm.blog",
+  "name": "Databricks CheatSheet",
+  "description": "Databricks Notebook Commands Command Purpose Example %config Set configuration options for the notebook %env Set environment variables %fs Interact with the Databricks file system %fs ls dbfs:/repo %load Loads the contents of a file into a cell %lsmagic List all magic commands %jobs Lists all running jobs %matplotlib sets up the matplotlib backend %md Write Markdown text %pip Install Python packages %python Executes python code %python dbutils.fs.rm(\u0026quot;/user/hive/warehouse/test/\u0026quot;, True) %r Execute R code %reload reloads module contents %run Executes a Python file or a notebook %scala Executes scala code %sh Executes shell commands on the cluster nodes %sh git clone https://github.com/repo/test %sql Executes SQL queries %who Lists all the variables in the current scope Accessing Files /path/to/file dbfs:/path/to/file file:/path/to/file s3://path/to/file Copying Files %fs cp file:/\u0026lt;path\u0026gt; /Volumes/\u0026lt;catalog\u0026gt;/\u0026lt;schema\u0026gt;/\u0026lt;volume\u0026gt;/\u0026lt;path\u0026gt; %python dbutils.fs.cp(\u0026#34;file:/\u0026lt;path\u0026gt;\u0026#34;, \u0026#34;/Volumes/\u0026lt;catalog\u0026gt;/\u0026lt;schema\u0026gt;/\u0026lt;volume\u0026gt;/\u0026lt;path\u0026gt;\u0026#34;) %python dbutils.fs.cp(\u0026#34;file:/databricks/driver/test\u0026#34;, \u0026#34;dbfs:/repo\u0026#34;, True) %sh cp /\u0026lt;path\u0026gt; /Volumes/\u0026lt;catalog\u0026gt;/\u0026lt;schema\u0026gt;/\u0026lt;volume\u0026gt;/\u0026lt;path\u0026gt; SQL Statements (DDL) Create \u0026amp; Use Schema CREATE SCHEMA test; CREATE SCHEMA custom LOCATION \u0026#39;dbfs:/custom\u0026#39;; USE SCHEMA test; Create Table CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT); CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); CREATE TABLE test USING CSV LOCATION \u0026#39;/repo/data/test.csv\u0026#39;; CREATE TABLE test USING CSV OPTIONS (header=\u0026#34;true\u0026#34;) LOCATION \u0026#39;/repo/data/test.csv\u0026#39;; CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); CREATE TABLE test AS ... CREATE TABLE test USING ... CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT) COMMENT \u0026#39;This is comment for the table itself\u0026#39;; CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(\u0026#39;/repo/data/test.json\u0026#39;, format =\u0026gt; \u0026#39;json\u0026#39;); CREATE TABLE test_raw AS SELECT * EXCEPT (_rescued_data) FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;, sep =\u0026gt; \u0026#39;;\u0026#39;); CREATE TABLE custom_table_test LOCATION \u0026#39;dbfs:/custom-table\u0026#39; AS SELECT * EXCEPT (_rescued_data) FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); CREATE TABLE test PARTITIONED BY (col1) AS SELECT * EXCEPT (_rescued_data) FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;) CREATE TABLE users( firstname STRING, lastname STRING, full_name STRING GENERATED ALWAYS AS (concat(firstname, \u0026#39; \u0026#39;, lastname)) ); CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`; CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); Create View CREATE VIEW view_test AS SELECT * FROM test WHERE col1 = \u0026#39;test\u0026#39;; CREATE VIEW view_test AS SELECT col1, col1 FROM test JOIN test2 ON test.col2 == test2.col2; CREATE TEMP VIEW temp_test AS SELECT * FROM test WHERE col1 = \u0026#39;test\u0026#39;; CREATE TEMP VIEW temp_test AS SELECT * FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); CREATE GLOBAL TEMP VIEW view_test AS SELECT * FROM test WHERE col1 = \u0026#39;test\u0026#39;; SELECT * FROM global_temp.view_test; CREATE TEMP VIEW jdbc_example USING JDBC OPTIONS ( url \u0026#34;\u0026lt;jdbc-url\u0026gt;\u0026#34;, dbtable \u0026#34;\u0026lt;table-name\u0026gt;\u0026#34;, user \u0026#39;\u0026lt;username\u0026gt;\u0026#39;, password \u0026#39;\u0026lt;password\u0026gt;\u0026#39;); CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`\u0026lt;logpath\u0026gt;`; CREATE VIEW event_log_raw AS SELECT * FROM event_log(\u0026#34;\u0026lt;pipeline-id\u0026gt;\u0026#34;); CREATE OR REPLACE TEMP VIEW test_view AS SELECT test.col1 AS col1 FROM test_table WHERE col1 = \u0026#39;value1\u0026#39; ORDER BY timestamp DESC LIMIT 1; Drop DROP TABLE test; Describe SHOW TABLES; DESCRIBE EXTENDED test; SQL Statements (DML) Select SELECT * FROM csv.`/repo/data/test.csv`; SELECT * FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); SELECT * FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;, format =\u0026gt; \u0026#39;csv\u0026#39;, header =\u0026gt; \u0026#39;true\u0026#39;, sep =\u0026gt; \u0026#39;,\u0026#39;) SELECT * FROM json.`/repo/data/test.json`; SELECT * FROM json.`/repo/data/*.json`; SELECT * FROM test WHERE year(from_unixtime(test_time)) \u0026gt; 1900; SELECT * FROM test WHERE title LIKE \u0026#39;%a%\u0026#39; SELECT * FROM test WHERE title LIKE \u0026#39;a%\u0026#39; SELECT * FROM test WHERE title LIKE \u0026#39;%a\u0026#39; SELECT * FROM test TIMESTAMP AS OF \u0026#39;2024-01-01T00:00:00.000Z\u0026#39;; SELECT * FROM test VERSION AS OF 2; SELECT * FROM test@v2; SELECT * FROM event_log(\u0026#34;\u0026lt;pipeline-id\u0026gt;\u0026#34;); SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col); SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col); SELECT count_if(col1 = \u0026#39;test\u0026#39;) FROM test; SELECT from_unixtime(test_time) FROM test; SELECT cast(test_time / 1 AS timestamp) FROM test; SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test; SELECT element.sub_element FROM test; SELECT flatten(array(array(1, 2), array(3, 4))); SELECT * FROM ( SELECT col1, col2 FROM test ) PIVOT ( sum(col1) for col2 in (\u0026#39;item1\u0026#39;,\u0026#39;item2\u0026#39;) ); SELECT *, CASE WHEN col1 \u0026gt; 10 THEN \u0026#39;value1\u0026#39; ELSE \u0026#39;value2\u0026#39; END FROM test; SELECT * FROM test ORDER BY (CASE WHEN col1 \u0026gt; 10 THEN col2 ELSE col3 END); WITH t(col1, col2) AS (SELECT 1, 2) SELECT * FROM t WHERE col1 = 1; SELECT details:flow_definition.output_dataset as output_dataset, details:flow_definition.input_datasets as input_dataset FROM event_log_raw, latest_update WHERE event_type = \u0026#39;flow_definition\u0026#39; AND origin.update_id = latest_update.id; Insert INSERT OVERWRITE test SELECT * FROM read_files(\u0026#39;/repo/data/test.csv\u0026#39;); INSERT INTO test(col1, col2) VALUES (\u0026#39;value1\u0026#39;, \u0026#39;value2\u0026#39;); Merge Into MERGE INTO test USING test_to_delete ON test.col1 = test_to_delete.col1 WHEN MATCHED THEN DELETE; MERGE INTO test USING test_to_update ON test.col1 = test_to_update.col1 WHEN MATCHED THEN UPDATE SET *; MERGE INTO test USING test_to_insert ON test.col1 = test_to_insert.col1 WHEN NOT MATCHED THEN INSERT *; Copy Into COPY INTO test FROM \u0026#39;/repo/data\u0026#39; FILEFORMAT = CSV FILES = (\u0026#39;test.csv\u0026#39;) FORMAT_OPTIONS(\u0026#39;header\u0026#39; = \u0026#39;true\u0026#39;, \u0026#39;inferSchema\u0026#39; = \u0026#39;true\u0026#39;); Delta Lake Statements DESCRIBE HISTORY test; DESCRIBE HISTORY test LIMIT 1; INSERT INTO test SELECT * FROM test@v2 WHERE id = 3; OPTIMIZE test; OPTIMIZE test ZORDER BY col1; RESTORE TABLE test TO VERSION AS OF 0; SELECT * FROM test TIMESTAMP AS OF \u0026#39;2024-01-01T00:00:00.000Z\u0026#39;; SELECT * FROM test VERSION AS OF 2; SELECT * FROM test@v2; VACUUM test; VACUUM test RETAIN 240 HOURS; %fs ls dbfs:/user/hive/warehouse/test/_delta_log %python spark.conf.set(\u0026#34;spark.databricks.delta.retentionDurationCheck.enabled\u0026#34;, \u0026#34;false\u0026#34;) Delta Live Table Statements CREATE OR REFRESH LIVE TABLE test_raw AS SELECT * FROM json.`/repo/data/test.json`; CREATE OR REFRESH STREAMING TABLE test AS SELECT * FROM STREAM read_files(\u0026#39;/repo/data/test*.json\u0026#39;); CREATE OR REFRESH LIVE TABLE test_cleaned AS SELECT col1, col2, col3, col4 FROM live.test_raw; CREATE OR REFRESH LIVE TABLE recent_test AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10; Fuctions CREATE OR REPLACE FUNCTION test_function(temp DOUBLE) RETURNS DOUBLE RETURN (col1 - 10); Auto Loader %python spark.readStream.format(\u0026#34;cloudFiles\u0026#34;)\\ .option(\u0026#34;cloudFiles.format\u0026#34;, \u0026#34;json\u0026#34;)\\ .option(\u0026#34;cloudFiles.schemaLocation\u0026#34;, \u0026#34;/autoloader-schema\u0026#34;)\\ .option(\u0026#34;pathGlobFilter\u0026#34;, \u0026#34;test*.json\u0026#34;)\\ .load(\u0026#34;/repo/data\u0026#34;)\\ .writeStream\\ .option(\u0026#34;mergeSchema\u0026#34;, \u0026#34;true\u0026#34;)\\ .option(\u0026#34;checkpointLocation\u0026#34;, \u0026#34;/autoloader-checkpoint\u0026#34;)\\ .start(\u0026#34;demo\u0026#34;) %fs head /autoloader-schema/_schemas/0 CREATE OR REFRESH STREAMING TABLE test AS SELECT * FROM cloud_files( \u0026#39;/repo/data\u0026#39;, \u0026#39;json\u0026#39;, map(\u0026#34;cloudFiles.inferColumnTypes\u0026#34;, \u0026#34;true\u0026#34;, \u0026#34;pathGlobFilter\u0026#34;, \u0026#34;test*.json\u0026#34;) ); CONSTRAINT positive_timestamp EXPECT (creation_time \u0026gt; 0) CONSTRAINT positive_timestamp EXPECT (creation_time \u0026gt; 0) ON VIOLATION DROP ROW CONSTRAINT positive_timestamp EXPECT (creation_time \u0026gt; 0) ON VIOLATION FAIL UPDATE CDC Statements APPLY CHANGES INTO live.target FROM stream(live.cdc_source) KEYS (col1) APPLY AS DELETE WHEN col2 = \u0026#34;DELETE\u0026#34; SEQUENCE BY col3 COLUMNS * EXCEPT (col); Security Statements GRANT \u0026lt;privilege\u0026gt; ON \u0026lt;object_type\u0026gt; \u0026lt;object_name\u0026gt; TO \u0026lt;user_or_group\u0026gt;; GRANT SELECT ON TABLE test TO `databricks@degols.net`; REVOKE \u0026lt;privilege\u0026gt; ON \u0026lt;object_type\u0026gt; \u0026lt;object_name\u0026gt; FROM `test@gmail.com\u0026#39;; Links Databricks SQL Language Reference Cheat Sheets Compute creation cheat sheet Platform administration cheat sheet Production job scheduling cheat sheet Best Practices Delta Lake best practices Hyperparameter tuning with Hyperopt Deep learning in Databricks Recommendations for MLOps Unity Catalog best practices Cluster configuration best practices Instance pool configuration best practices Other Databricks Cheat Sheet 1 Databricks Notebook Markdown Cheat Sheet ",
+  "keywords": [
+    "databricks", "cheatsheets"
+  ],
+  "wordCount" : "1090",
+  "inLanguage": "en",
+  "datePublished": "2024-02-25T21:00:25+01:00",
+  "dateModified": "2024-02-25T21:00:25+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/data-engineering/databricks-cheatsheet/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary-bg: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list-page {
+                background: var(--theme);
+            }
+
+            .list-page:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list-page:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+</head>
+
+<body class=" type-data-engineering kind-page layout-" id="top"><script data-no-instant>
+function switchTheme(theme) {
+  switch (theme) {
+    case 'light':
+      document.body.classList.remove('dark');
+      break;
+    case 'dark':
+      document.body.classList.add('dark');
+      break;
+    
+    default:
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+      }
+  }
+}
+
+function isDarkTheme() {
+  return document.body.className.includes("dark");
+}
+
+function getPrefTheme() {
+  return localStorage.getItem("pref-theme");
+}
+
+function setPrefTheme(theme) {
+  switchTheme(theme)
+  localStorage.setItem("pref-theme", theme);
+}
+
+const toggleThemeCallbacks = {}
+toggleThemeCallbacks['main'] = (isDark) => {
+  
+  if (isDark) {
+    setPrefTheme('light');
+  } else {
+    setPrefTheme('dark');
+  }
+}
+
+
+
+
+window.addEventListener('toggle-theme', function() {
+  
+  const isDark = isDarkTheme()
+  for (const key in toggleThemeCallbacks) {
+    toggleThemeCallbacks[key](isDark)
+  }
+});
+
+
+function toggleThemeListener() {
+  
+  window.dispatchEvent(new CustomEvent('toggle-theme'));
+}
+
+</script>
+<script>
+  
+  (function() {
+    const defaultTheme = 'auto';
+    const prefTheme = getPrefTheme();
+    const theme = prefTheme ? prefTheme : defaultTheme;
+
+    switchTheme(theme);
+  })();
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)"data-no-instant accesskey=/
+                >Search
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags"
+                >Tags
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai/" title="AI"
+                >AI
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain/" title="Blockchain"
+                >Blockchain
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering/" title="Data" class="active"
+                >Data
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops/" title="DevOps"
+                >DevOps
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general/" title="General"
+                >General
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production/" title="Music Production"
+                >Music Production
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development/" title="Personal Dev"
+                >Personal Dev
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space/" title="Space"
+                >Space
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main post">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/data-engineering/">Data Engineering</a></div><h1 class="post-title">Databricks CheatSheet</h1>
+    <div class="post-meta"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
+  <span>February 25, 2024</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
+  <span class="post-tags"><a href="https://jamesm.blog/tags/databricks/">Databricks</a><a href="https://jamesm.blog/tags/cheatsheets/">Cheatsheets</a></span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>6 min</span></span>
+
+      
+      
+    </div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#databricks-notebook-commands" aria-label="Databricks Notebook Commands">Databricks Notebook Commands</a><ul>
+                        
+                <li>
+                    <a href="#accessing-files" aria-label="Accessing Files">Accessing Files</a></li>
+                <li>
+                    <a href="#copying-files" aria-label="Copying Files">Copying Files</a></li></ul>
+                </li>
+                <li>
+                    <a href="#sql-statements-ddl" aria-label="SQL Statements (DDL)">SQL Statements (DDL)</a><ul>
+                        
+                <li>
+                    <a href="#create--use-schema" aria-label="Create &amp; Use Schema">Create &amp; Use Schema</a></li>
+                <li>
+                    <a href="#create-table" aria-label="Create Table">Create Table</a></li>
+                <li>
+                    <a href="#create-view" aria-label="Create View">Create View</a></li>
+                <li>
+                    <a href="#drop" aria-label="Drop">Drop</a></li>
+                <li>
+                    <a href="#describe" aria-label="Describe">Describe</a></li></ul>
+                </li>
+                <li>
+                    <a href="#sql-statements-dml" aria-label="SQL Statements (DML)">SQL Statements (DML)</a><ul>
+                        
+                <li>
+                    <a href="#select" aria-label="Select">Select</a></li>
+                <li>
+                    <a href="#insert" aria-label="Insert">Insert</a></li>
+                <li>
+                    <a href="#merge-into" aria-label="Merge Into">Merge Into</a></li>
+                <li>
+                    <a href="#copy-into" aria-label="Copy Into">Copy Into</a></li></ul>
+                </li>
+                <li>
+                    <a href="#delta-lake-statements" aria-label="Delta Lake Statements">Delta Lake Statements</a></li>
+                <li>
+                    <a href="#delta-live-table-statements" aria-label="Delta Live Table Statements">Delta Live Table Statements</a></li>
+                <li>
+                    <a href="#fuctions" aria-label="Fuctions">Fuctions</a></li>
+                <li>
+                    <a href="#auto-loader" aria-label="Auto Loader">Auto Loader</a></li>
+                <li>
+                    <a href="#cdc-statements" aria-label="CDC Statements">CDC Statements</a></li>
+                <li>
+                    <a href="#security-statements" aria-label="Security Statements">Security Statements</a></li>
+                <li>
+                    <a href="#links" aria-label="Links">Links</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="databricks-notebook-commands">Databricks Notebook Commands<a hidden class="anchor" aria-hidden="true" href="#databricks-notebook-commands">¶</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+          <th>Example</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>%config</td>
+          <td>Set configuration options for the notebook</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%env</td>
+          <td>Set environment variables</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%fs</td>
+          <td>Interact with the Databricks file system</td>
+          <td>%fs ls dbfs:/repo</td>
+      </tr>
+      <tr>
+          <td>%load</td>
+          <td>Loads the contents of a file into a cell</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%lsmagic</td>
+          <td>List all magic commands</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%jobs</td>
+          <td>Lists all running jobs</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%matplotlib</td>
+          <td>sets up the matplotlib backend</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%md</td>
+          <td>Write Markdown text</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%pip</td>
+          <td>Install Python packages</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%python</td>
+          <td>Executes python code</td>
+          <td>%python dbutils.fs.rm(&quot;/user/hive/warehouse/test/&quot;, True)</td>
+      </tr>
+      <tr>
+          <td>%r</td>
+          <td>Execute R code</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%reload</td>
+          <td>reloads module contents</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%run</td>
+          <td>Executes a Python file or a notebook</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%scala</td>
+          <td>Executes scala code</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%sh</td>
+          <td>Executes shell commands on the cluster nodes</td>
+          <td>%sh git clone <a href="https://github.com/repo/test">https://github.com/repo/test</a></td>
+      </tr>
+      <tr>
+          <td>%sql</td>
+          <td>Executes SQL queries</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>%who</td>
+          <td>Lists all the variables in the current scope</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="accessing-files">Accessing Files<a hidden class="anchor" aria-hidden="true" href="#accessing-files">¶</a></h3>
+<ul>
+<li>/path/to/file</li>
+<li>dbfs:/path/to/file</li>
+<li>file:/path/to/file</li>
+<li>s3://path/to/file</li>
+</ul>
+<h3 id="copying-files">Copying Files<a hidden class="anchor" aria-hidden="true" href="#copying-files">¶</a></h3>
+<pre tabindex="0"><code>%fs cp file:/&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+
+%python dbutils.fs.cp(&#34;file:/&lt;path&gt;&#34;, &#34;/Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;&#34;)
+%python dbutils.fs.cp(&#34;file:/databricks/driver/test&#34;, &#34;dbfs:/repo&#34;, True)
+
+%sh cp /&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;
+</code></pre><h2 id="sql-statements-ddl">SQL Statements (DDL)<a hidden class="anchor" aria-hidden="true" href="#sql-statements-ddl">¶</a></h2>
+<h3 id="create--use-schema">Create &amp; Use Schema<a hidden class="anchor" aria-hidden="true" href="#create--use-schema">¶</a></h3>
+<pre tabindex="0"><code>CREATE SCHEMA test;
+CREATE SCHEMA custom LOCATION &#39;dbfs:/custom&#39;;
+
+USE SCHEMA test;
+</code></pre><h3 id="create-table">Create Table<a hidden class="anchor" aria-hidden="true" href="#create-table">¶</a></h3>
+<pre tabindex="0"><code>CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test USING CSV LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test USING CSV OPTIONS (header=&#34;true&#34;) LOCATION &#39;/repo/data/test.csv&#39;;
+CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE TABLE test AS ...
+CREATE TABLE test USING ...
+
+CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT)
+COMMENT &#39;This is comment for the table itself&#39;;
+
+CREATE TABLE test AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.json&#39;, format =&gt; &#39;json&#39;);
+
+CREATE TABLE test_raw AS
+SELECT * EXCEPT (_rescued_data)
+FROM read_files(&#39;/repo/data/test.csv&#39;, sep =&gt; &#39;;&#39;);
+
+CREATE TABLE custom_table_test LOCATION &#39;dbfs:/custom-table&#39;
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE TABLE test PARTITIONED BY (col1)
+AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;)
+
+CREATE TABLE users(
+firstname STRING,
+lastname STRING,
+full_name STRING GENERATED ALWAYS AS (concat(firstname, &#39; &#39;, lastname))
+);
+
+CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;);
+CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`;
+CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+</code></pre><h3 id="create-view">Create View<a hidden class="anchor" aria-hidden="true" href="#create-view">¶</a></h3>
+<pre tabindex="0"><code>CREATE VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE VIEW view_test
+AS SELECT col1, col1
+FROM test
+JOIN test2 ON test.col2 == test2.col2;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+
+CREATE TEMP VIEW temp_test
+AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+CREATE GLOBAL TEMP VIEW view_test
+AS SELECT * FROM test WHERE col1 = &#39;test&#39;;
+SELECT * FROM global_temp.view_test;
+
+CREATE TEMP VIEW jdbc_example USING JDBC
+OPTIONS (
+url &#34;&lt;jdbc-url&gt;&#34;,
+dbtable &#34;&lt;table-name&gt;&#34;,
+user &#39;&lt;username&gt;&#39;,
+password &#39;&lt;password&gt;&#39;);
+
+CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`&lt;logpath&gt;`;
+
+CREATE VIEW event_log_raw AS SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+CREATE OR REPLACE TEMP VIEW test_view
+AS SELECT test.col1 AS col1 FROM test_table
+WHERE col1 = &#39;value1&#39; ORDER BY timestamp DESC LIMIT 1;
+</code></pre><h3 id="drop">Drop<a hidden class="anchor" aria-hidden="true" href="#drop">¶</a></h3>
+<pre tabindex="0"><code>DROP TABLE test;
+</code></pre><h3 id="describe">Describe<a hidden class="anchor" aria-hidden="true" href="#describe">¶</a></h3>
+<pre tabindex="0"><code>SHOW TABLES;
+
+DESCRIBE EXTENDED test;
+</code></pre><h2 id="sql-statements-dml">SQL Statements (DML)<a hidden class="anchor" aria-hidden="true" href="#sql-statements-dml">¶</a></h2>
+<h3 id="select">Select<a hidden class="anchor" aria-hidden="true" href="#select">¶</a></h3>
+<pre tabindex="0"><code>SELECT * FROM csv.`/repo/data/test.csv`;
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;, format =&gt; &#39;csv&#39;, header =&gt; &#39;true&#39;, sep =&gt; &#39;,&#39;)
+SELECT * FROM json.`/repo/data/test.json`;
+SELECT * FROM json.`/repo/data/*.json`;
+SELECT * FROM test WHERE year(from_unixtime(test_time)) &gt; 1900;
+SELECT * FROM test WHERE title LIKE &#39;%a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;a%&#39;
+SELECT * FROM test WHERE title LIKE &#39;%a&#39;
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;);
+
+SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col);
+SELECT count_if(col1 = &#39;test&#39;) FROM test;
+SELECT from_unixtime(test_time) FROM test;
+SELECT cast(test_time / 1 AS timestamp) FROM test;
+SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test;
+SELECT element.sub_element FROM test;
+SELECT flatten(array(array(1, 2), array(3, 4)));
+
+SELECT * FROM (
+  SELECT col1, col2 FROM test
+) 
+PIVOT (
+  sum(col1) for col2 in (&#39;item1&#39;,&#39;item2&#39;)
+);
+
+SELECT *, CASE
+WHEN col1 &gt; 10 THEN &#39;value1&#39;
+ELSE &#39;value2&#39;
+END
+FROM test;
+
+SELECT * FROM test ORDER BY (CASE
+WHEN col1 &gt; 10 THEN col2
+ELSE col3
+END);
+
+WITH t(col1, col2) AS (SELECT 1, 2)
+SELECT * FROM t WHERE col1 = 1;
+
+SELECT details:flow_definition.output_dataset as output_dataset,
+       details:flow_definition.input_datasets as input_dataset
+FROM   event_log_raw, latest_update
+WHERE  event_type = &#39;flow_definition&#39; AND origin.update_id = latest_update.id;
+</code></pre><h3 id="insert">Insert<a hidden class="anchor" aria-hidden="true" href="#insert">¶</a></h3>
+<pre tabindex="0"><code>INSERT OVERWRITE test SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;);
+
+INSERT INTO test(col1, col2) VALUES (&#39;value1&#39;, &#39;value2&#39;);
+</code></pre><h3 id="merge-into">Merge Into<a hidden class="anchor" aria-hidden="true" href="#merge-into">¶</a></h3>
+<pre tabindex="0"><code>MERGE INTO test USING test_to_delete
+ON test.col1 = test_to_delete.col1
+WHEN MATCHED THEN DELETE;
+
+MERGE INTO test USING test_to_update
+ON test.col1 = test_to_update.col1
+WHEN MATCHED THEN UPDATE SET *;
+
+MERGE INTO test USING test_to_insert
+ON test.col1 = test_to_insert.col1
+WHEN NOT MATCHED THEN INSERT *;
+</code></pre><h3 id="copy-into">Copy Into<a hidden class="anchor" aria-hidden="true" href="#copy-into">¶</a></h3>
+<pre tabindex="0"><code>COPY INTO test
+FROM &#39;/repo/data&#39;
+FILEFORMAT = CSV
+FILES = (&#39;test.csv&#39;)
+FORMAT_OPTIONS(&#39;header&#39; = &#39;true&#39;, &#39;inferSchema&#39; = &#39;true&#39;);
+</code></pre><h2 id="delta-lake-statements">Delta Lake Statements<a hidden class="anchor" aria-hidden="true" href="#delta-lake-statements">¶</a></h2>
+<pre tabindex="0"><code>DESCRIBE HISTORY test;
+DESCRIBE HISTORY test LIMIT 1;
+
+INSERT INTO test SELECT * FROM test@v2 WHERE id = 3;
+
+OPTIMIZE test;
+OPTIMIZE test ZORDER BY col1;
+
+RESTORE TABLE test TO VERSION AS OF 0;
+
+SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;;
+SELECT * FROM test VERSION AS OF 2;
+SELECT * FROM test@v2;
+
+VACUUM test;
+VACUUM test RETAIN 240 HOURS;
+
+%fs ls dbfs:/user/hive/warehouse/test/_delta_log
+%python spark.conf.set(&#34;spark.databricks.delta.retentionDurationCheck.enabled&#34;, &#34;false&#34;)
+</code></pre><h2 id="delta-live-table-statements">Delta Live Table Statements<a hidden class="anchor" aria-hidden="true" href="#delta-live-table-statements">¶</a></h2>
+<pre tabindex="0"><code>CREATE OR REFRESH LIVE TABLE test_raw
+AS SELECT * FROM json.`/repo/data/test.json`;
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM STREAM read_files(&#39;/repo/data/test*.json&#39;);
+
+CREATE OR REFRESH LIVE TABLE test_cleaned
+AS SELECT col1, col2, col3, col4 FROM live.test_raw;
+
+CREATE OR REFRESH LIVE TABLE recent_test
+AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
+</code></pre><h2 id="fuctions">Fuctions<a hidden class="anchor" aria-hidden="true" href="#fuctions">¶</a></h2>
+<pre tabindex="0"><code>CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
+RETURNS DOUBLE
+RETURN (col1 - 10);
+</code></pre><h2 id="auto-loader">Auto Loader<a hidden class="anchor" aria-hidden="true" href="#auto-loader">¶</a></h2>
+<pre tabindex="0"><code>%python
+
+spark.readStream.format(&#34;cloudFiles&#34;)\
+  .option(&#34;cloudFiles.format&#34;, &#34;json&#34;)\
+  .option(&#34;cloudFiles.schemaLocation&#34;, &#34;/autoloader-schema&#34;)\
+  .option(&#34;pathGlobFilter&#34;, &#34;test*.json&#34;)\
+  .load(&#34;/repo/data&#34;)\
+  .writeStream\
+  .option(&#34;mergeSchema&#34;, &#34;true&#34;)\
+  .option(&#34;checkpointLocation&#34;, &#34;/autoloader-checkpoint&#34;)\
+  .start(&#34;demo&#34;)
+
+%fs head /autoloader-schema/_schemas/0
+
+CREATE OR REFRESH STREAMING TABLE test
+AS SELECT * FROM
+cloud_files(
+&#39;/repo/data&#39;,
+&#39;json&#39;,
+map(&#34;cloudFiles.inferColumnTypes&#34;, &#34;true&#34;, &#34;pathGlobFilter&#34;, &#34;test*.json&#34;)
+);
+
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0)
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION DROP ROW
+CONSTRAINT positive_timestamp EXPECT (creation_time &gt; 0) ON VIOLATION FAIL UPDATE
+</code></pre><h2 id="cdc-statements">CDC Statements<a hidden class="anchor" aria-hidden="true" href="#cdc-statements">¶</a></h2>
+<pre tabindex="0"><code>APPLY CHANGES INTO live.target
+  FROM stream(live.cdc_source)
+  KEYS (col1)
+  APPLY AS DELETE WHEN col2 = &#34;DELETE&#34;
+  SEQUENCE BY col3
+  COLUMNS * EXCEPT (col);
+</code></pre><h2 id="security-statements">Security Statements<a hidden class="anchor" aria-hidden="true" href="#security-statements">¶</a></h2>
+<pre tabindex="0"><code>GRANT &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; TO &lt;user_or_group&gt;;
+GRANT SELECT ON TABLE test TO `databricks@degols.net`;
+
+REVOKE &lt;privilege&gt; ON &lt;object_type&gt; &lt;object_name&gt; FROM `test@gmail.com&#39;;
+</code></pre><h2 id="links">Links<a hidden class="anchor" aria-hidden="true" href="#links">¶</a></h2>
+<ul>
+<li><a href="https://docs.databricks.com/en/index.html">Databricks</a>
+<ul>
+<li><a href="https://docs.databricks.com/en/sql/language-manual/index.html">SQL Language Reference</a></li>
+<li><a href="https://docs.databricks.com/en/getting-started/best-practices.html">Cheat Sheets</a>
+<ul>
+<li><a href="https://docs.databricks.com/en/cheat-sheet/compute.html">Compute creation cheat sheet</a></li>
+<li><a href="https://docs.databricks.com/en/cheat-sheet/administration.html">Platform administration cheat sheet</a></li>
+<li><a href="https://docs.databricks.com/en/cheat-sheet/jobs.html">Production job scheduling cheat sheet</a></li>
+</ul>
+</li>
+<li><a href="https://docs.databricks.com/en/getting-started/best-practices.html">Best Practices</a>
+<ul>
+<li><a href="https://docs.databricks.com/en/delta/best-practices.html">Delta Lake best practices</a></li>
+<li><a href="https://docs.databricks.com/en/machine-learning/automl-hyperparam-tuning/hyperopt-best-practices.html">Hyperparameter tuning with Hyperopt</a></li>
+<li><a href="https://docs.databricks.com/en/machine-learning/train-model/dl-best-practices.html">Deep learning in Databricks</a></li>
+<li><a href="https://docs.databricks.com/en/machine-learning/mlops/mlops-workflow.html">Recommendations for MLOps</a></li>
+<li><a href="https://docs.databricks.com/en/data-governance/unity-catalog/best-practices.html">Unity Catalog best practices</a></li>
+<li><a href="https://docs.databricks.com/en/compute/cluster-config-best-practices.html">Cluster configuration best practices</a></li>
+<li><a href="https://docs.databricks.com/en/compute/pool-best-practices.html">Instance pool configuration best practices</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Other
+<ul>
+<li><a href="https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065">Databricks Cheat Sheet 1</a></li>
+<li><a href="https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/">Databricks Notebook Markdown Cheat Sheet</a></li>
+</ul>
+</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/data-engineering/databricks-training-certification/">
+    <span class="title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left" style="user-select: text;"><line x1="19" y1="12" x2="5" y2="12" style="user-select: text;"></line><polyline points="12 19 5 12 12 5" style="user-select: text;"></polyline></svg>&nbsp;Prev Page</span>
+    <br>
+    <span>Databricks Training &amp; Certification</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/data-engineering/data-engineering-science-courses/">
+    <span class="title">Next Page&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right" style="user-select: text;"><line x1="5" y1="12" x2="19" y2="12" style="user-select: text;"></line><polyline points="12 5 19 12 12 19" style="user-select: text;"></polyline></svg>
+    </span>
+    <br>
+    <span>List of Data Engineering &amp; Data Science Courses</span>
+  </a>
+</nav>
+
+  </footer>
+    <div class="comments-separator"></div>
+</article>
+    </main>
+    
+<footer class="footer">
+  <span>&copy; 2025 <a href="https://jamesm.blog/">jamesm.blog</a></span><span style="display: inline-block; margin-left: 1em;">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+  </span>
+  <span style="display: inline-block; margin-left: 1em;">
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
+  </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
+</a>
+
+<script>
+  (function() {
+     
+    const disableThemeToggle = '' == '1';
+    if (disableThemeToggle) {
+      return;
+    }
+
+    let button = document.getElementById("theme-toggle")
+    
+    button.removeEventListener('click', toggleThemeListener)
+    
+    button.addEventListener('click', toggleThemeListener)
+  })();
+</script>
+
+<script>
+  (function () {
+    let menu = document.getElementById('menu')
+    if (menu) {
+      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      }
+    }
+
+    const disableSmoothScroll = '' == '1';
+    const enableInstantClick = '' == '1';
+    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = this.getAttribute("href").substr(1);
+        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+          behavior: "smooth"
+        });
+        if (id === "top") {
+          history.replaceState(null, null, " ");
+        } else {
+          history.pushState(null, null, `#${id}`);
+        }
+      });
+    });
+  })();
+</script>
+<script>
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
+</script>
+<script>
+  if (window.scrollListeners) {
+    
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+  }
+  window.scrollListeners = []
+</script>
+
+
+
+<script src="/js/medium-zoom.min.js" data-no-instant
+></script>
+<script>
+  document.querySelectorAll('pre > code').forEach((codeblock) => {
+    const container = codeblock.parentNode.parentNode;
+
+    const copybutton = document.createElement('button');
+    copybutton.classList.add('copy-code');
+    copybutton.innerText = 'copy';
+
+    function copyingDone() {
+      copybutton.innerText = 'copied!';
+      setTimeout(() => {
+        copybutton.innerText = 'copy';
+      }, 2000);
+    }
+
+    copybutton.addEventListener('click', (cb) => {
+      if ('clipboard' in navigator) {
+        navigator.clipboard.writeText(codeblock.textContent);
+        copyingDone();
+        return;
+      }
+
+      const range = document.createRange();
+      range.selectNodeContents(codeblock);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      try {
+        document.execCommand('copy');
+        copyingDone();
+      } catch (e) { };
+      selection.removeRange(range);
+    });
+
+    if (container.classList.contains("highlight")) {
+      container.appendChild(copybutton);
+    } else if (container.parentNode.firstChild == container) {
+      
+    } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+      
+      codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+    } else {
+      
+      codeblock.parentNode.appendChild(copybutton);
+    }
+  });
+</script>
+
+
+
+
+<script>
+  
+  
+  (function() {
+    const enableTocScroll = '' == '1'
+    if (!enableTocScroll) {
+      return
+    }
+    if (!document.querySelector('.toc')) {
+      console.log('no toc found, ignore toc scroll')
+      return
+    }
+    
+
+    
+    const scrollListeners = window.scrollListeners
+    const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
+    const activeClass = 'active';
+
+    
+    let activeHeading = headings[0];
+    getLinkByHeading(activeHeading).classList.add(activeClass);
+
+    const onScroll = () => {
+      const passedHeadings = [];
+      for (const h of headings) {
+        
+        if (getOffsetTop(h) < 5) {
+          passedHeadings.push(h)
+        } else {
+          break;
+        }
+      }
+      if (passedHeadings.length > 0) {
+        newActiveHeading = passedHeadings[passedHeadings.length - 1];
+      } else {
+        newActiveHeading = headings[0];
+      }
+      if (activeHeading != newActiveHeading) {
+        getLinkByHeading(activeHeading).classList.remove(activeClass);
+        activeHeading = newActiveHeading;
+        getLinkByHeading(activeHeading).classList.add(activeClass);
+      }
+    }
+
+    let timer = null;
+    const scrollListener = () => {
+      if (timer !== null) {
+        clearTimeout(timer)
+      }
+      timer = setTimeout(onScroll, 50)
+    }
+    window.addEventListener('scroll', scrollListener, false);
+    scrollListeners.push(scrollListener)
+
+    function getLinkByHeading(heading) {
+      const id = encodeURI(heading.getAttribute('id')).toLowerCase();
+      return document.querySelector(`.toc ul li a[href="#${id}"]`);
+    }
+
+    function getOffsetTop(heading) {
+      if (!heading.getClientRects().length) {
+        return 0;
+      }
+      let rect = heading.getBoundingClientRect();
+      return rect.top
+    }
+  })();
+  </script>
+
+</body>
+
+</html>

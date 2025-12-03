@@ -6,11 +6,11 @@
     <description>Recent content in Ai on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Dec 2025 13:15:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Dec 2025 13:21:14 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artificial Intelligence</title>
       <link>https://jamesm.blog/ai/</link>
-      <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
+      <pubDate>Wed, 03 Dec 2025 13:21:14 +0100</pubDate>
       
       <guid>https://jamesm.blog/ai/</guid>
       <description>&lt;figure&gt;
@@ -24,7 +24,80 @@
     </item>
     
     <item>
-      <title>Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up</title>
+      <title>GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯</title>
+      <link>https://jamesm.blog/ai/github-spec-kit/</link>
+      <pubDate>Wed, 03 Dec 2025 13:21:14 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/github-spec-kit/</guid>
+      <description>&lt;p&gt;Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, &lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.&lt;/p&gt;
+&lt;p&gt;This post explores what GitHub Spec Kit is, how Spec-Driven Development works, and why the pairing with Cursor AI creates a genuinely new style of building software.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, <strong>GitHub Spec Kit</strong> stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.</p>
+<p>This post explores what GitHub Spec Kit is, how Spec-Driven Development works, and why the pairing with Cursor AI creates a genuinely new style of building software.</p>
+<hr>
+<h2 id="what-is-github-spec-kit">What Is GitHub Spec Kit?</h2>
+<p><a href="https://github.com/github/spec-kit">GitHub Spec Kit</a> is a lightweight but highly structured framework for documenting how a software project should work. Instead of scattering requirements across random Notion pages, Slack threads, and half-remembered conversations, Spec Kit gathers everything into a set of version-controlled markdown files stored directly in your repository.</p>
+<p>A typical Spec Kit includes documents like:</p>
+<ul>
+<li><code>spec.md</code> - the core functional specification</li>
+<li><code>constitution.md</code> - high-level rules, constraints, and architectural principles</li>
+<li><code>boundaries.md</code> - what the system does <em>not</em> cover</li>
+<li><code>glossary.md</code> - domain-specific terminology</li>
+<li>Additional files for requirements, acceptance criteria, workflows, decisions, and more</li>
+</ul>
+<p>This set of files acts as the “source of truth” for the entire project. Any change to the system’s intent, scope, or architecture becomes a pull request. Every contributor works from the same shared mental model. Drift disappears because the spec becomes part of the codebase.</p>
+<hr>
+<h2 id="what-is-spec-driven-development-sdd">What Is Spec-Driven Development (SDD)?</h2>
+<p>Spec-Driven Development is a workflow where <strong>the specification is the central reference point</strong> and <strong>code is generated, updated, or refactored in alignment with it</strong>.</p>
+<p>Instead of writing documentation <em>after</em> the code (or never at all), the spec becomes the starting point. The process typically flows like this:</p>
+<ol>
+<li>Define the behaviour, boundaries, rules, and intent in the spec.</li>
+<li>Use the spec to guide implementation.</li>
+<li>If the implementation reveals a better approach, update the spec first.</li>
+<li>Let the spec drive the next iteration of code.</li>
+</ol>
+<p>It creates a cycle where clarity leads the way. The spec evolves alongside the code, and both reinforce each other. It’s development through explicit thinking rather than retroactive explanation.</p>
+<p>SDD is especially powerful for long-term projects, large teams, or any system where architectural drift is a real risk.</p>
+<hr>
+<h2 id="integrating-spec-kit-with-cursor-ai">Integrating Spec Kit with Cursor AI</h2>
+<p>The magic begins when GitHub Spec Kit meets <a href="https://www.cursor.com/">Cursor AI</a>.</p>
+<p>Cursor can read your entire repository - including the Spec Kit files - and treat them as authoritative guidance. This turns the spec into something active and operational rather than static and decorative.</p>
+<p>With Cursor:</p>
+<ul>
+<li>You can instruct the AI to generate code strictly aligned with the spec.</li>
+<li>Cursor can highlight when a request conflicts with documented constraints.</li>
+<li>Refactoring becomes safer because the AI understands the system’s rules.</li>
+<li>Updating the spec instantly influences future code suggestions.</li>
+<li>New contributors can ask Cursor to <em>explain</em> the spec to them in context.</li>
+</ul>
+<p>The result is a workflow where the spec isn’t just a document. It becomes the central nervous system of the entire development experience.</p>
+<hr>
+<h2 id="why-this-approach-feels-like-the-future">Why This Approach Feels Like the Future</h2>
+<p>SDD doesn’t eliminate creativity; it channels it.<br>
+It keeps the vision sharp, maintains consistency, and prevents entropy from creeping into the project. The combination of <strong>GitHub Spec Kit + Cursor AI</strong> creates a loop where:</p>
+<ul>
+<li>ideas become structured,</li>
+<li>structure becomes implementation,</li>
+<li>implementation feeds back into structure,</li>
+<li>and the whole system stays aligned over time.</li>
+</ul>
+<p>The result is development that’s clearer, faster, and vastly easier to maintain.</p>
+<p>Spec-Driven Development isn’t just a documentation style - it’s a way of thinking about software with more intention and less chaos. And with the right tools, it feels like the natural next step in how modern systems should be built.</p>
+<h2 id="youtube-videos">YouTube Videos</h2>
+<h3 id="2025-10-11-github-spec-kit-now-has--checklists">[2025-10-11] GitHub Spec Kit now has ✅ CHECKLISTS</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/zTiLF3-BvGs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<h3 id="2025-09-13-the-only-guide-youll-need-for-github-spec-kit">[2025-09-13] The ONLY guide you&rsquo;ll need for GitHub Spec Kit</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/a9eR1xsfvHg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯</title>
       <link>https://jamesm.blog/ai/cursor-ai/</link>
       <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
       
@@ -671,40 +744,6 @@ AI will be like a <strong>super-analyst</strong> sitting next to them. But when 
 <li><a href="https://stability.ai/">Stability</a> - building the foundation to activate humanity&rsquo;s potential</li>
 <li><a href="https://www.tesla.com/en_gb/AI/">Tesla AI &amp; Robotics</a> - developing &amp; deploying autonomy at scale in vehicles &amp; robots</li>
 </ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>GitHub Spec Kit</title>
-      <link>https://jamesm.blog/ai/github-spec-kit/</link>
-      <pubDate>Fri, 24 Oct 2025 19:27:14 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/ai/github-spec-kit/</guid>
-      <description>&lt;h2 id=&#34;what-is-spec-driven-development&#34;&gt;What is Spec-Driven Development?&lt;/h2&gt;
-&lt;p&gt;Spec-Driven Development flips the script on traditional software development. For decades, code has been king — specifications were just scaffolding we built and discarded once the &amp;ldquo;real work&amp;rdquo; of coding began. Spec-Driven Development changes this: specifications become executable, directly generating working implementations rather than just guiding them.&lt;/p&gt;
-&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
-&lt;h3 id=&#34;2025-10-11-github-spec-kit-now-has--checklists&#34;&gt;[2025-10-11] GitHub Spec Kit now has ✅ CHECKLISTS&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/zTiLF3-BvGs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2025-09-13-the-only-guide-youll-need-for-github-spec-kit&#34;&gt;[2025-09-13] The ONLY guide you&amp;rsquo;ll need for GitHub Spec Kit&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/a9eR1xsfvHg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
-      <content:encoded><![CDATA[<h2 id="what-is-spec-driven-development">What is Spec-Driven Development?</h2>
-<p>Spec-Driven Development flips the script on traditional software development. For decades, code has been king — specifications were just scaffolding we built and discarded once the &ldquo;real work&rdquo; of coding began. Spec-Driven Development changes this: specifications become executable, directly generating working implementations rather than just guiding them.</p>
-<h2 id="youtube-videos">YouTube Videos</h2>
-<h3 id="2025-10-11-github-spec-kit-now-has--checklists">[2025-10-11] GitHub Spec Kit now has ✅ CHECKLISTS</h3>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/zTiLF3-BvGs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
-
-<h3 id="2025-09-13-the-only-guide-youll-need-for-github-spec-kit">[2025-09-13] The ONLY guide you&rsquo;ll need for GitHub Spec Kit</h3>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/a9eR1xsfvHg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
-
 ]]></content:encoded>
     </item>
     

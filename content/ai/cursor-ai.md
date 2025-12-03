@@ -1,5 +1,5 @@
 ---
-title: "Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up"
+title: "Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯"
 date: 2025-12-03T13:15:25+01:00
 draft: false
 tags: ['ai', 'cursor ai' ,'sdd', 'development']

@@ -3,27 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2025-12-03T13:15:25+01:00</lastmod>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2025-12-03T13:15:25+01:00</lastmod>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/cursor-ai/</loc>
-    <lastmod>2025-12-03T13:15:25+01:00</lastmod>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/github/</loc>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/github-spec-kit/</loc>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/sdd/</loc>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/spec-kit/</loc>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2025-12-03T13:21:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/cursor-ai/</loc>
     <lastmod>2025-12-03T13:15:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/development/</loc>
-    <lastmod>2025-12-03T13:15:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2025-12-03T13:15:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/sdd/</loc>
-    <lastmod>2025-12-03T13:15:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2025-12-03T13:15:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ableton/</loc>
@@ -112,15 +121,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/writing/</loc>
     <lastmod>2025-10-28T16:17:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/github/</loc>
-    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/github-spec-kit/</loc>
-    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/spec-kit/</loc>
-    <lastmod>2025-10-24T19:27:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/geoffrey-hinton/</loc>
     <lastmod>2025-10-09T19:27:14+01:00</lastmod>
@@ -632,7 +632,7 @@
     <loc>https://jamesm.blog/tags/cheatsheets/</loc>
     <lastmod>2024-02-25T21:00:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/data-engineering/databricks-cheatsheets/</loc>
+    <loc>https://jamesm.blog/data-engineering/databricks-cheatsheet/</loc>
     <lastmod>2024-02-25T21:00:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/airflow/</loc>

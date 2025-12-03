@@ -1,5 +1,5 @@
 ---
-title: "Databricks Cheat Sheets"
+title: "Databricks CheatSheet"
 date: 2024-02-25T21:00:25+01:00
 draft: false
 tags: ['databricks', 'cheatsheets']
