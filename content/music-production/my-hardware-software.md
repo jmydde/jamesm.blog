@@ -594,6 +594,8 @@ Spitfire Audio is an English technology company based in London that creates vir
 Steinberg Media Technologies GmbH is a German musical software and hardware company based in Hamburg who develop music writing, recording, arranging, and editing software, most notably Cubase, Nuendo, and Dorico
 - [Cubase Artist 13](https://www.steinberg.net/cubase/compare-editions/)
 - [Taped Vibes3](https://www.steinberg.net/vst-instruments/taped-vibes/)
+- Instruments
+  - [Padshop 2](https://www.steinberg.net/vst-instruments/padshop/)
 
 ### Toontrack
 - [EZkeys 2](https://www.toontrack.com/ezkeys-line/) - creative piano songwriting software and a world of sound and inspiration
@@ -625,6 +627,7 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
   - 31,402 Samples, 375 Presets, 430 Layers (187 SidMachines and 243 SidStation)
 - [Augmented Orchestra](https://www.uvi.net/en/orchestral/augmented-orchestra.html)
   - 620 Presets, 485 Layers, 65,800 Samples
+- [Augmented Choirs](https://www.uvi.net/augmented-choirs)
 - [Aurora - Textured Piano](https://www.uvi.net/en/pianos-keyboards/aurora.html) - based on the rich and powerful sound of a world-class concert grand piano
   - 3-layer engine with 100+ customizable textures and atmospheres
   - 211 presets, 8170 samples
