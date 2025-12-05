@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Soundcloud on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/soundcloud/</link>
+    <description>Recent content in Soundcloud on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Dec 2025 12:28:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/soundcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Tracks</title>
+      <link>https://jamesm.blog/music-production/my-tracks/</link>
+      <pubDate>Fri, 05 Dec 2025 12:28:21 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/my-tracks/</guid>
+      <description>&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34;
+    src=&#34;https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjamesm%2Ffalling-into-light&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&#34;&gt;
+&lt;/iframe&gt;</description>
+      <content:encoded><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fjamesm%2Ffalling-into-light&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false">
+</iframe>
+
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
