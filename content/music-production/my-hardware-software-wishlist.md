@@ -152,7 +152,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
       - Backbone - Drum Re-Synthesizer
       - Groove Agent 5 (including Prime Cuts, Future Past Perfect, Rock Essentials)
       - HALion 7
-      - Padshop 2 Synthesizer (incl. Polarities, Zero Gravity, and Granular Guitars)
       - Retrologue 2 Synthesizer (incl. Sounds of Soul)
       - The Grand 3 – VST Piano Suite
     - HALion instruments
