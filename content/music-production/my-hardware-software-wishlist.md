@@ -140,7 +140,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [Polyform](https://spektroaudio.com/polyform) - Polyphonic MIDI Processor
 - [Spectrasonics](https://www.spectrasonics.net/)
   - [Keyscape](https://www.spectrasonics.net/products/keyscape/index.php)
-  - [Omnisphere 2](https://www.spectrasonics.net/products/omnisphere/)
+  - [Omnisphere 3](https://www.spectrasonics.net/products/omnisphere/)
 - [Spitfire Audio](https://www.spitfireaudio.com/)
   - [BBC Symphony Orchestra Piano](https://www.spitfireaudio.com/bbc-symphony-orchestra-piano)
 - [SRM Sounds](https://srmsounds.com/)
@@ -181,7 +181,7 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
       - Voltage
 - [Synthogy](https://synthogy.com/)
   - [Ivory II Grand Pianos](https://synthogy.com/index.php/products/software-products/ivory-2-grand-pianos)
-  - Ivory III Grand Pianos (not released for Mac yet)
+  - [Ivory III Grand Pianos](https://www.synthogy.com/products/ivory-3-american-concert-d)
 - [The Crow Hill Company](https://thecrowhillcompany.com/)
   - [Small String Gestures](https://thecrowhillcompany.com/small-string-gestures/)
   - [String Murmurations](https://thecrowhillcompany.com/string-murmurations/)
@@ -189,9 +189,8 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
   - [EZbass](https://www.toontrack.com/product/ezbass/) - two bass libraries, mix-ready presets, bass grooves and a wealth of features for creative songwriting
   - [EZdrummer 3](https://www.toontrack.com/product/ezdrummer-3/) - seven kits, percussion, mix-ready presets, drum grooves and a wealth of features designed with the creative songwriter in mind 
 - [u-He](https://u-he.com/)
-  - [Hive](https://u-he.com/products/hive/)
+  - [Hive 2](https://u-he.com/products/hive/)
   - [Repro](https://u-he.com/products/repro/)
 - [UVI](https://www.uvi.net/)
   - [IRCAM Prepared Piano 2](https://www.uvi.net/en/pianos-keyboards/ircam-prepared-piano-2.html)
   - [IRCAM Solo Instruments 2](https://www.uvi.net/ircam-solo-instruments-2.html) 
-  - [The Effects Bundle](https://www.uvi.net/en/effects/the-effects-bundle.html)
