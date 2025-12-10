@@ -40,7 +40,7 @@ In short: no matter which one you pick, the *sound palette itself* is not the de
 The MODX line has always been famous for one thing: **ridiculous value for money**.
 
 ### Price without compromise  
-For UK buyers, the typical retail price for a new **MODX M8** sits around **£1,593.00**. :contentReference[oaicite:0]{index=0}  
+For UK buyers, the typical retail price for a new **MODX M8** sits around **£1,593.00**. 
 You’re getting the same sound engines and a huge portion of the Montage workflow at a much lower price. For most producers or gigging musicians, that alone makes the MODX M8 a no-brainer.
 
 ### Portable and practical  
@@ -64,7 +64,7 @@ The Montage M8X includes Yamaha’s **GEX** 88-key action (or hardware in that s
 More knobs, more routing options, balanced outputs, higher-grade converters, and an expanded physical interface make the M8X a natural fit for professional studios.
 
 ### Designed to last  
-For UK retailers currently listing it, the **Montage M8X** retails for about **£4,049.00**. :contentReference[oaicite:1]{index=1}  
+For UK retailers currently listing it, the **Montage M8X** retails for about **£4,049.00**. 
 The Montage is a long-term instrument: rock-solid build, flagship hardware, and a creative ecosystem that’s likely to evolve for years.
 
 For players who want the best without compromise, the M8X feels like the "forever synth."
@@ -88,3 +88,8 @@ Think of it like this:
 Both boards are outstanding. Yamaha didn’t make a bad choice here — they just made two choices for two different kinds of musicians.
 
 ---
+
+## Related Videos
+
+### What did Yamaha remove from MONTAGE M to make the astonishing new MODX M?
+{{< youtube FR04HJgnjuk >}}
