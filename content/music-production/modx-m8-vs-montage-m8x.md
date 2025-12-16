@@ -91,5 +91,8 @@ Both boards are outstanding. Yamaha didn’t make a bad choice here — they jus
 
 ## Related Videos
 
+### Yamaha's MODX M Synthesizer is HERE! Here's what's NEW!
+{{< youtube u0fWeAmPQHM >}}
+
 ### What did Yamaha remove from MONTAGE M to make the astonishing new MODX M?
 {{< youtube FR04HJgnjuk >}}
