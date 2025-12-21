@@ -7,7 +7,7 @@ tags: ['suno', 'ai', 'ai music']
 
 ## Suno Voice Personas: Consistent Vocals, Creative Freedom
 
-Suno has just rolled out a **vocal-first update to Personas**, and it’s a genuinely important shift for anyone creating music at scale.
+[Suno](https://suno.com/) has just rolled out a **vocal-first update to Personas**, and it’s a genuinely important shift for anyone creating music at scale.
 
 For the first time, you can build an entire album around the **same vocalist**, without being locked into a specific instrumental style.
 
@@ -60,9 +60,5 @@ Voice Personas are currently **in beta** and will continue to improve over time.
 To see how Voice Personas work in practice and hear the difference compared to legacy Personas, Suno has released a short demo video.
 
 **Learn more by watching the demo.**
-
----
-
-### YouTube Videos
 
 {{< youtube 09pG2UFHra4 >}}
