@@ -9,15 +9,7 @@ Grooveboxes are island universes of music creation — sequencing, sampling, syn
 
 ---
 
-## 1. **Akai MPC One+** (£556)
-
-![Image](https://m.media-amazon.com/images/I/712a8VRxlWL._AC_UF894%2C1000_QL80_.jpg)
-
-The **MPC One+** is a deep, standalone groovebox that feels like a hardware DAW crossed with a classic beat-making machine. It’s built around a bright **7″ touch screen**, 16 velocity‑sensitive pads, full MIDI I/O, CV/Gate connectivity, and a powerful standalone OS that handles sampling, synthesis, sequencing, and arrangement without a computer. You can create multi‑track arrangements, chop samples, build song structures, and perform live from one device — all in one compact footprint. Its flexible workflow appeals to beatmakers and producers who want a serious centrepiece for their studio or live setup.([musicradar.com](https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com))
-
----
-
-## 2. **Roland MC-707** (£1,013)
+## **Roland MC-707** (£1,013)
 
 ![Image](https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&width=3840)
 
@@ -25,7 +17,7 @@ The MC‑707 is a flagship groovebox from Roland with a **ZEN‑Core sound engin
 
 ---
 
-## 3. **Native Instruments Maschine+** (£749)
+## **Native Instruments Maschine+** (£749)
 
 ![Image](https://media.guitarcenter.com/is/image/MMGS7/L78037000000000-00-2000x2000.jpg)
 
@@ -33,7 +25,7 @@ The MC‑707 is a flagship groovebox from Roland with a **ZEN‑Core sound engin
 
 ---
 
-## 4. **Elektron Digitakt II** (£729)
+## **Elektron Digitakt II** (£729)
 
 ![Image](https://cf1.zzounds.com/media/productmedia/fit%2C2018by3200/quality%2C85/Digitakt-II-top-transperent_copy_883901-1aaa626c02a60d93deeaeb35045d90ad.jpg)
 
@@ -41,7 +33,7 @@ The **Digitakt II** is an evolution of Elektron’s classic groovebox formula. I
 
 ---
 
-## 5. **Polyend Play+** (£599)
+## **Polyend Play+** (£599)
 
 ![Image](https://www.perfectcircuit.com/media/catalog/product/cache/bb94e1e14cfa05172693ba64d2caf352/P/o/Polyend_Play-Plus_01_1.jpg)
 
@@ -49,15 +41,23 @@ The **Digitakt II** is an evolution of Elektron’s classic groovebox formula. I
 
 ---
 
+## **Akai MPC One+** (£556)
+
+![Image](https://m.media-amazon.com/images/I/712a8VRxlWL._AC_UF894%2C1000_QL80_.jpg)
+
+The **MPC One+** is a deep, standalone groovebox that feels like a hardware DAW crossed with a classic beat-making machine. It’s built around a bright **7″ touch screen**, 16 velocity‑sensitive pads, full MIDI I/O, CV/Gate connectivity, and a powerful standalone OS that handles sampling, synthesis, sequencing, and arrangement without a computer. You can create multi‑track arrangements, chop samples, build song structures, and perform live from one device — all in one compact footprint. Its flexible workflow appeals to beatmakers and producers who want a serious centrepiece for their studio or live setup.([musicradar.com](https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com))
+
+---
+
 ## Final Summary Comparison
 
 | Groovebox | Price | Standalone | Sampling | Sequencing & Arrangement | Connectivity | Ideal For |
 |------------|-------|------------|----------|--------------------------|--------------|-----------|
-| **MPC One+** | £556 | ✓ | ✓ | Song + pattern | MIDI, CV/Gate | All‑around production |
 | **MC‑707** | £1,013 | ✓ | ✓ | Clip & pattern | MIDI, Audio I/O | Live & studio performance |
 | **Maschine+** | £749 | ✓ | ✓ | Pattern & scenes | MIDI | Pad‑centric composition |
 | **Digitakt II** | £729 | ✓ | ✓ | Pattern‑centric | MIDI, USB | Experimental sequencing |
 | **Play+** | £599 | ✓ | Sample‑based | Grid/Generative | MIDI | Live, generative workflows |
+| **MPC One+** | £556 | ✓ | ✓ | Song + pattern | MIDI, CV/Gate | All‑around production |
 
 ---
 
