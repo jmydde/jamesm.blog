@@ -29,8 +29,6 @@ tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherr
 - **Drum Machines & Grooveboxes**
   - [Ableton](https://www.ableton.com/en/)
     - [Ableton Push](https://www.ableton.com/en/push/)
-  - [Roland](https://www.roland.com/)
-    - [MC-707](https://www.roland.com/ca/products/mc-707/)
 - **Synthesizers**
   - [Arturia](https://www.arturia.com/)
     - [PolyBrute Noir Edition](https://www.arturia.com/products/hardware-synths/polybrute-noir/overview)

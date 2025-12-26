@@ -1,6 +1,6 @@
 ---
 title: "My Music Production Hardware & Software"
-date: 2024-10-27T19:01:21+01:00
+date: 2025-12-26T19:01:21+01:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
 ---
@@ -30,9 +30,11 @@ tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio
   - [Native Instruments Traktor Kontrol S3](https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/)
 - **Drum Machines & Grooveboxes**
   - [Native Instruments Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/)
+  - [Roland MC-707](https://www.roland.com/ca/products/mc-707/)
 - **Portable Keyboards**
   - [Yamaha EZ-300](https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html)
 - **Synthesizers**
+  - [Yamaha MODX M8](https://uk.yamaha.com/en/musical-instruments/keyboards/products/synthesizers/modxm/)
   - [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es)
 
 ## My Music Production Hardware (Past)
