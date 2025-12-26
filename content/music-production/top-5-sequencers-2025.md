@@ -9,23 +9,7 @@ Hardware sequencers remain essential for producers who want hands-on control ove
 
 ---
 
-## 1. **OXI Instruments One MKII** (~£758)
-
-The **OXI One MKII** is a hybrid **MIDI + CV/Gate sequencer** ideal for complex setups. It offers multiple tracks, probability controls, step modulation, and an intuitive interface. Its linear and modular workflow allows deep sequencing for modular rigs, synths, and external gear. This sequencer is perfect for producers who want maximum creative freedom and precise control over large hardware setups.  
-
-**Best for:** Modular rigs, studio setups, advanced sequencing enthusiasts.
-
----
-
-## 2. **Arturia KeyStep Pro** (~£337)
-
-The **KeyStep Pro** combines a **keyboard and sequencer** in one compact unit. It features four melodic sequencer tracks, a dedicated drum sequencer, scales and chords, pattern chaining, and extensive CV/MIDI connectivity. It’s great for both DAW‑less setups and hybrid hardware/DAW systems, making it a versatile hub for creative sequencing.  
-
-**Best for:** Keyboard integration, multi-track sequencing, flexible studio or live use.
-
----
-
-## 3. **Teenage Engineering OP-XY** (~£1,799)
+## **Teenage Engineering OP-XY** (~£1,799)
 
 The **OP-XY** is a portable sequencer with integrated synth engines and expressive pattern management. It offers parameter locks, modulation lanes, and performance-friendly workflow. Its unique combination of sequencing and sound generation makes it excellent for live improvisation and musical idea exploration.  
 
@@ -33,7 +17,23 @@ The **OP-XY** is a portable sequencer with integrated synth engines and expressi
 
 ---
 
-## 4. **Korg SQ-64** (~£199)
+## **OXI Instruments One MKII** (~£758)
+
+The **OXI One MKII** is a hybrid **MIDI + CV/Gate sequencer** ideal for complex setups. It offers multiple tracks, probability controls, step modulation, and an intuitive interface. Its linear and modular workflow allows deep sequencing for modular rigs, synths, and external gear. This sequencer is perfect for producers who want maximum creative freedom and precise control over large hardware setups.  
+
+**Best for:** Modular rigs, studio setups, advanced sequencing enthusiasts.
+
+---
+
+## **Arturia KeyStep Pro** (~£337)
+
+The **KeyStep Pro** combines a **keyboard and sequencer** in one compact unit. It features four melodic sequencer tracks, a dedicated drum sequencer, scales and chords, pattern chaining, and extensive CV/MIDI connectivity. It’s great for both DAW‑less setups and hybrid hardware/DAW systems, making it a versatile hub for creative sequencing.  
+
+**Best for:** Keyboard integration, multi-track sequencing, flexible studio or live use.
+
+---
+
+## **Korg SQ-64** (~£199)
 
 The **SQ-64** is a compact polyphonic sequencer with multi-track patterns, CV/Gate and MIDI connectivity. It’s designed for small modular rigs or portable setups but offers surprisingly deep sequencing capabilities, including polyphonic control and multi-track editing.  
 
@@ -41,7 +41,7 @@ The **SQ-64** is a compact polyphonic sequencer with multi-track patterns, CV/Ga
 
 ---
 
-## 5. **Arturia BeatStep** (~£79)
+## **Arturia BeatStep** (~£79)
 
 The **BeatStep** is an affordable, hands-on step sequencer with MIDI and CV/Gate outputs. It supports real-time recording, step sequencing, and performance tweaks. While it lacks the advanced features of larger sequencers, it’s an excellent tool for beginners or as a secondary sequencer for live rigs.  
 
