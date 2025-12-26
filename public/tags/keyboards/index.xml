@@ -6,13 +6,13 @@
     <description>Recent content in Keyboards on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Dec 2025 19:01:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/keyboards/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Dec 2025 21:29:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/keyboards/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Music Production Hardware &amp; Software</title>
-      <link>https://jamesm.blog/music-production/my-hardware-software/</link>
-      <pubDate>Fri, 26 Dec 2025 19:01:21 +0100</pubDate>
+      <link>https://jamesm.blog/music-production/my-music-hardware-software/</link>
+      <pubDate>Fri, 26 Dec 2025 21:29:00 +0000</pubDate>
       
-      <guid>https://jamesm.blog/music-production/my-hardware-software/</guid>
+      <guid>https://jamesm.blog/music-production/my-music-hardware-software/</guid>
       <description>&lt;h2 id=&#34;my-music-production-hardware-current&#34;&gt;My Music Production Hardware (Current)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Audio Interfaces&lt;/strong&gt;
@@ -1357,223 +1357,11 @@
     </item>
     
     <item>
-      <title>Yamaha MODX M8 vs Arturia AstroLab 88</title>
-      <link>https://jamesm.blog/music-production/modx-m8-vs-astrolab-88/</link>
-      <pubDate>Tue, 16 Dec 2025 21:47:21 +0100</pubDate>
+      <title>My Music Production Hardware &amp; Software Wishlists</title>
+      <link>https://jamesm.blog/music-production/my-music-hardware-software-wishlist/</link>
+      <pubDate>Fri, 26 Dec 2025 21:28:00 +0000</pubDate>
       
-      <guid>https://jamesm.blog/music-production/modx-m8-vs-astrolab-88/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Two 88-key instruments that sit on very different creative axes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Yamaha MODX M8&lt;/strong&gt; — a &lt;em&gt;synthesizer/workstation&lt;/em&gt; built for deep sound design, layering, and performance without a computer.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Arturia AstroLab 88&lt;/strong&gt; — a &lt;em&gt;stage keyboard&lt;/em&gt; with a massive curated sound library drawn from Arturia’s Analog Lab/V Collection, optimized for instant playable tones.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;instrument-philosophy&#34;&gt;Instrument Philosophy&lt;/h2&gt;
-&lt;h3 id=&#34;yamaha-modx-m8&#34;&gt;Yamaha MODX M8&lt;/h3&gt;
-&lt;p&gt;A &lt;strong&gt;self-contained synthesizer/workstation&lt;/strong&gt; blending multiple sound engines — &lt;strong&gt;sample-based AWM2&lt;/strong&gt;, &lt;strong&gt;FM-X (frequency modulation)&lt;/strong&gt;, and &lt;strong&gt;AN-X (virtual-analog style)&lt;/strong&gt; — into one performance instrument. It’s built to do sound design, real-time modulation, layering, effects, and sequencing all internally.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
-<p>Two 88-key instruments that sit on very different creative axes:</p>
-<ul>
-<li><strong>Yamaha MODX M8</strong> — a <em>synthesizer/workstation</em> built for deep sound design, layering, and performance without a computer.</li>
-<li><strong>Arturia AstroLab 88</strong> — a <em>stage keyboard</em> with a massive curated sound library drawn from Arturia’s Analog Lab/V Collection, optimized for instant playable tones.</li>
-</ul>
-<hr>
-<h2 id="instrument-philosophy">Instrument Philosophy</h2>
-<h3 id="yamaha-modx-m8">Yamaha MODX M8</h3>
-<p>A <strong>self-contained synthesizer/workstation</strong> blending multiple sound engines — <strong>sample-based AWM2</strong>, <strong>FM-X (frequency modulation)</strong>, and <strong>AN-X (virtual-analog style)</strong> — into one performance instrument. It’s built to do sound design, real-time modulation, layering, effects, and sequencing all internally.</p>
-<h3 id="arturia-astrolab-88">Arturia AstroLab 88</h3>
-<p>A <strong>stage keyboard</strong> focused on giving you <strong>ready-to-play sounds</strong> drawn from Arturia’s celebrated software libraries (like Analog Lab and the V Collection). Instead of deep patch-building, AstroLab prioritizes <strong>preset browsing and expressive playing</strong>.</p>
-<hr>
-<h2 id="keybed--playability">Keybed &amp; Playability</h2>
-<h3 id="yamaha-modx-m8-1">Yamaha MODX M8</h3>
-<ul>
-<li>Premium <strong>hammer-action keybed</strong>.</li>
-<li>Good balance between piano-like feel and synth playability.</li>
-<li>Suited for players switching between acoustic piano, electric pianos, and synth parts.</li>
-</ul>
-<h3 id="arturia-astrolab-88-1">Arturia AstroLab 88</h3>
-<ul>
-<li><strong>Fatar hammer-action keybed</strong> with <strong>aftertouch</strong>.</li>
-<li>Responsive and expressive.</li>
-<li>Slightly less <em>pianistic</em> feel compared with workstation keybeds but excellent for expressive playing and synth textures.</li>
-</ul>
-<hr>
-<h2 id="sounds--synthesis">Sounds &amp; Synthesis</h2>
-<h3 id="yamaha-modx-m8-2">Yamaha MODX M8</h3>
-<ul>
-<li><strong>Deep sound design</strong> potential with three engines:
-<ul>
-<li><strong>AWM2</strong> — Yamaha’s advanced sample-based engine (e.g., pianos, EPs, organs).</li>
-<li><strong>FM-X</strong> — classic FM synthesis.</li>
-<li><strong>AN-X</strong> — virtual analogue style.</li>
-</ul>
-</li>
-<li><strong>Layering, splits, multis</strong> — build complex performances.</li>
-<li><strong>Real-time modulation</strong> via Yamaha’s Motion Control architecture.</li>
-<li><strong>Built-in effects and performance macros</strong>.</li>
-<li>Ideal for sculpting custom tones or evolving textures on stage or in studio.</li>
-</ul>
-<h3 id="arturia-astrolab-88-2">Arturia AstroLab 88</h3>
-<ul>
-<li><strong>Massive preset library</strong> pulled from Arturia’s software ecosystem.</li>
-<li>Icons from classic synths, electric pianos, organs, and other keyboards, all curated.</li>
-<li>Emphasis on <strong>rich, immediately usable sounds</strong> rather than building patches from individual oscillators/filters.</li>
-<li>Best for playing and performing great tones straight away.</li>
-</ul>
-<hr>
-<h2 id="workflow--controls">Workflow &amp; Controls</h2>
-<h3 id="yamaha-modx-m8-3">Yamaha MODX M8</h3>
-<ul>
-<li><strong>Performance-oriented controls</strong>: lots of realtime knobs, faders, and modulation options.</li>
-<li>Designed to work <em>without</em> a laptop — patch management, layering, and editing all happen on the unit.</li>
-<li>Strong internal architecture for building multitimbral performances.</li>
-</ul>
-<h3 id="arturia-astrolab-88-3">Arturia AstroLab 88</h3>
-<ul>
-<li><strong>Preset browsing first</strong>: choose, tweak, and play.</li>
-<li>Editing deeper synthesis parameters is less immediate than on a classic workstation — the workflow focuses on presets and sound selection.</li>
-<li>Integrates well into a setup with software, but <em>also</em> works standalone.</li>
-</ul>
-<hr>
-<h2 id="live-performance--stage-use">Live Performance &amp; Stage Use</h2>
-<h3 id="yamaha-modx-m8-4">Yamaha MODX M8</h3>
-<ul>
-<li>Excellent standalone performance instrument.</li>
-<li>Fast patch/part switching, robust effects, and internal sequencing make it stage-ready and flexible.</li>
-<li>Great for artists who want control over sounds and arrangements without external gear.</li>
-</ul>
-<h3 id="arturia-astrolab-88-4">Arturia AstroLab 88</h3>
-<ul>
-<li>Gig-ready for players who want an enormous palette of curated sounds.</li>
-<li>Switching and browsing is fast for presets, but not as deep/edit-centric as a workstation.</li>
-<li>Ideal for performers who value <strong>tone exploration and expressiveness</strong> with minimal setup.</li>
-</ul>
-<hr>
-<h2 id="who-each-is-best-for">Who Each Is Best For</h2>
-<h3 id="pick-the-yamaha-modx-m8-if-you-want">Pick the <strong>Yamaha MODX M8</strong> if you want:</h3>
-<ul>
-<li>A <strong>deep workstation</strong> with multiple synthesis engines.</li>
-<li>A self-contained instrument with layering, modulation, and effects.</li>
-<li>Rich control without needing a computer.</li>
-<li>Flexibility to craft and tweak sounds at a low level.</li>
-</ul>
-<h3 id="pick-the-arturia-astrolab-88-if-you-want">Pick the <strong>Arturia AstroLab 88</strong> if you want:</h3>
-<ul>
-<li>A <strong>gig-friendly stage keyboard</strong> with a huge curated sound library.</li>
-<li><strong>Instant access to great tones</strong> from classic and modern keyboards/synths.</li>
-<li>Fast preset browsing and expressive performance vibes.</li>
-<li>Simplicity of use paired with sonic breadth.</li>
-</ul>
-<hr>
-<h2 id="price--market-positioning-typical">Price / Market Positioning (Typical)</h2>
-<ul>
-<li><strong>MODX M8</strong> targets players who want workstation power and versatility at a competitive price.</li>
-<li><strong>AstroLab 88</strong> targets players and gigging keyboardists who prioritise curated sounds and expressive playability.</li>
-</ul>
-<hr>
-<h2 id="one-line-vibe-check">One-Line Vibe Check</h2>
-<ul>
-<li><strong>MODX M8</strong> = “Let me <em>build and control</em> my entire sound world.”</li>
-<li><strong>AstroLab 88</strong> = “Give me <em>great tones now</em> and let me play expressively.”</li>
-</ul>
-<hr>
-<h2 id="summing-up">Summing Up</h2>
-<p>These aren’t apples-to-apples instruments. The <strong>MODX M8</strong> is about <strong>control and creation</strong>; the <strong>AstroLab 88</strong> is about <strong>playability and sonic richness</strong>. Your choice hinges on whether you want to <strong>design and sculpt</strong> or <strong>perform and explore</strong> sounds with minimal fuss.</p>
-<p>Feel into how you like to play and create — that’s where the magic actually lives.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Yamaha MODX M8 vs Yamaha Montage M8X</title>
-      <link>https://jamesm.blog/music-production/modx-m8-vs-montage-m8x/</link>
-      <pubDate>Fri, 05 Dec 2025 11:58:21 +0100</pubDate>
-      
-      <guid>https://jamesm.blog/music-production/modx-m8-vs-montage-m8x/</guid>
-      <description>&lt;p&gt;Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code — three powerful sound engines — but they live in different worlds when it comes to feel, performance depth, and long-term ambition.&lt;/p&gt;
-&lt;p&gt;If you’re torn between them, this breakdown should make your choice a whole lot easier.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Yamaha-MODXM8.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;
-(Image:Yamaha MODX M8)&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Yamaha-MONTAGE-M8X.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;
-(Image: Yamaha Montage M8X)&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code — three powerful sound engines — but they live in different worlds when it comes to feel, performance depth, and long-term ambition.</p>
-<p>If you’re torn between them, this breakdown should make your choice a whole lot easier.</p>
-<hr>
-<p><img loading="lazy" src="/images/Yamaha-MODXM8.jpg" type="" alt="alt"  />
-(Image:Yamaha MODX M8)</p>
-<p><img loading="lazy" src="/images/Yamaha-MONTAGE-M8X.jpg" type="" alt="alt"  />
-(Image: Yamaha Montage M8X)</p>
-<hr>
-<h2 id="the-dna-they-share">The DNA They Share</h2>
-<p>Both the MODX M8 and Montage M8X come from Yamaha’s modern hybrid-engine family built on three distinct sonic pillars:</p>
-<ul>
-<li><strong>AWM2</strong> for realistic acoustic/sampled instruments</li>
-<li><strong>FM-X</strong> for expressive FM synthesis</li>
-<li><strong>AN-X</strong> for analog-modelled tone and warmth</li>
-</ul>
-<p>They’re capable of lush pianos, evolving pads, modern electronic leads, cinematic textures, and everything in between.</p>
-<p>Both offer 88 weighted keys, deep multi-part <strong>Performance</strong> architecture, seamless DAW integration, and a massive sound library that grows with updates and expansions.</p>
-<p>In short: no matter which one you pick, the <em>sound palette itself</em> is not the deciding factor.</p>
-<hr>
-<h2 id="why-the-modx-m8-is-so-tempting">Why the MODX M8 Is So Tempting</h2>
-<p>The MODX line has always been famous for one thing: <strong>ridiculous value for money</strong>.</p>
-<h3 id="price-without-compromise">Price without compromise</h3>
-<p>For UK buyers, the typical retail price for a new <strong>MODX M8</strong> sits around <strong>£1,593.00</strong>.
-You’re getting the same sound engines and a huge portion of the Montage workflow at a much lower price. For most producers or gigging musicians, that alone makes the MODX M8 a no-brainer.</p>
-<h3 id="portable-and-practical">Portable and practical</h3>
-<p>The MODX M8 is significantly lighter than its flagship sibling. If you’re carrying it to rehearsals or gigs — or just don’t want an enormous studio centrepiece — the MODX M8 is wonderfully manageable.</p>
-<h3 id="more-than-good-enough">More than “good enough”</h3>
-<p>Because the engines are shared, the MODX M8 gives you around <strong>80–90%</strong> of the sonic capability of the Montage M8X. That is a remarkable ratio for the price point.</p>
-<p>For many musicians, the MODX simply hits the sweet spot: big synth power, little financial pain.</p>
-<hr>
-<h2 id="why-the-montage-m8x-still-reigns-as-the-flagship">Why the Montage M8X Still Reigns as the Flagship</h2>
-<p>While the MODX M8 is incredible value, the Montage M8X is built for a different type of player.</p>
-<h3 id="flagship-build-and-premium-action">Flagship build and premium action</h3>
-<p>The Montage M8X includes Yamaha’s <strong>GEX</strong> 88-key action (or hardware in that spirit) — a more realistic, responsive action that pianists feel immediately.</p>
-<h3 id="more-hands-on-control">More hands-on control</h3>
-<p>More knobs, more routing options, balanced outputs, higher-grade converters, and an expanded physical interface make the M8X a natural fit for professional studios.</p>
-<h3 id="designed-to-last">Designed to last</h3>
-<p>For UK retailers currently listing it, the <strong>Montage M8X</strong> retails for about <strong>£4,049.00</strong>.
-The Montage is a long-term instrument: rock-solid build, flagship hardware, and a creative ecosystem that’s likely to evolve for years.</p>
-<p>For players who want the best without compromise, the M8X feels like the &ldquo;forever synth.&rdquo;</p>
-<hr>
-<h2 id="which-one-makes-sense-for-you">Which One Makes Sense for You?</h2>
-<p>Think of it like this:</p>
-<h3 id="choose-modx-m8-if">Choose <strong>MODX M8</strong> if…</h3>
-<ul>
-<li>You want a powerful, modern workstation.</li>
-<li>You want most of the Montage’s sound engines at a lower cost (~ £1,593).</li>
-<li>You prefer something lighter for gigging or home use.</li>
-</ul>
-<h3 id="choose-montage-m8x-if">Choose <strong>Montage M8X</strong> if…</h3>
-<ul>
-<li>You care about premium key action and build quality.</li>
-<li>You want maximum hands-on control and pro-level routing.</li>
-<li>You want an instrument built for the long haul (price ~ £4,049).</li>
-</ul>
-<p>Both boards are outstanding. Yamaha didn’t make a bad choice here — they just made two choices for two different kinds of musicians.</p>
-<hr>
-<h2 id="related-videos">Related Videos</h2>
-<h3 id="yamahas-modx-m-synthesizer-is-here-heres-whats-new">Yamaha&rsquo;s MODX M Synthesizer is HERE! Here&rsquo;s what&rsquo;s NEW!</h3>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/u0fWeAmPQHM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
-
-<h3 id="what-did-yamaha-remove-from-montage-m-to-make-the-astonishing-new-modx-m">What did Yamaha remove from MONTAGE M to make the astonishing new MODX M?</h3>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/FR04HJgnjuk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
-
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>My Music Production Wishlists (Hardware &amp; Software)</title>
-      <link>https://jamesm.blog/music-production/my-hardware-software-wishlist/</link>
-      <pubDate>Sun, 16 Jun 2024 07:23:00 +0000</pubDate>
-      
-      <guid>https://jamesm.blog/music-production/my-hardware-software-wishlist/</guid>
+      <guid>https://jamesm.blog/music-production/my-music-hardware-software-wishlist/</guid>
       <description>&lt;h2 id=&#34;music-production-wishlist---hardware&#34;&gt;Music Production Wishlist - Hardware&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Arranger Keyboards&lt;/strong&gt;
@@ -2276,6 +2064,218 @@ The Montage is a long-term instrument: rock-solid build, flagship hardware, and 
 </ul>
 </li>
 </ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Yamaha MODX M8 vs Arturia AstroLab 88</title>
+      <link>https://jamesm.blog/music-production/modx-m8-vs-astrolab-88/</link>
+      <pubDate>Tue, 16 Dec 2025 21:47:21 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/modx-m8-vs-astrolab-88/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Two 88-key instruments that sit on very different creative axes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Yamaha MODX M8&lt;/strong&gt; — a &lt;em&gt;synthesizer/workstation&lt;/em&gt; built for deep sound design, layering, and performance without a computer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arturia AstroLab 88&lt;/strong&gt; — a &lt;em&gt;stage keyboard&lt;/em&gt; with a massive curated sound library drawn from Arturia’s Analog Lab/V Collection, optimized for instant playable tones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;instrument-philosophy&#34;&gt;Instrument Philosophy&lt;/h2&gt;
+&lt;h3 id=&#34;yamaha-modx-m8&#34;&gt;Yamaha MODX M8&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;self-contained synthesizer/workstation&lt;/strong&gt; blending multiple sound engines — &lt;strong&gt;sample-based AWM2&lt;/strong&gt;, &lt;strong&gt;FM-X (frequency modulation)&lt;/strong&gt;, and &lt;strong&gt;AN-X (virtual-analog style)&lt;/strong&gt; — into one performance instrument. It’s built to do sound design, real-time modulation, layering, effects, and sequencing all internally.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p>Two 88-key instruments that sit on very different creative axes:</p>
+<ul>
+<li><strong>Yamaha MODX M8</strong> — a <em>synthesizer/workstation</em> built for deep sound design, layering, and performance without a computer.</li>
+<li><strong>Arturia AstroLab 88</strong> — a <em>stage keyboard</em> with a massive curated sound library drawn from Arturia’s Analog Lab/V Collection, optimized for instant playable tones.</li>
+</ul>
+<hr>
+<h2 id="instrument-philosophy">Instrument Philosophy</h2>
+<h3 id="yamaha-modx-m8">Yamaha MODX M8</h3>
+<p>A <strong>self-contained synthesizer/workstation</strong> blending multiple sound engines — <strong>sample-based AWM2</strong>, <strong>FM-X (frequency modulation)</strong>, and <strong>AN-X (virtual-analog style)</strong> — into one performance instrument. It’s built to do sound design, real-time modulation, layering, effects, and sequencing all internally.</p>
+<h3 id="arturia-astrolab-88">Arturia AstroLab 88</h3>
+<p>A <strong>stage keyboard</strong> focused on giving you <strong>ready-to-play sounds</strong> drawn from Arturia’s celebrated software libraries (like Analog Lab and the V Collection). Instead of deep patch-building, AstroLab prioritizes <strong>preset browsing and expressive playing</strong>.</p>
+<hr>
+<h2 id="keybed--playability">Keybed &amp; Playability</h2>
+<h3 id="yamaha-modx-m8-1">Yamaha MODX M8</h3>
+<ul>
+<li>Premium <strong>hammer-action keybed</strong>.</li>
+<li>Good balance between piano-like feel and synth playability.</li>
+<li>Suited for players switching between acoustic piano, electric pianos, and synth parts.</li>
+</ul>
+<h3 id="arturia-astrolab-88-1">Arturia AstroLab 88</h3>
+<ul>
+<li><strong>Fatar hammer-action keybed</strong> with <strong>aftertouch</strong>.</li>
+<li>Responsive and expressive.</li>
+<li>Slightly less <em>pianistic</em> feel compared with workstation keybeds but excellent for expressive playing and synth textures.</li>
+</ul>
+<hr>
+<h2 id="sounds--synthesis">Sounds &amp; Synthesis</h2>
+<h3 id="yamaha-modx-m8-2">Yamaha MODX M8</h3>
+<ul>
+<li><strong>Deep sound design</strong> potential with three engines:
+<ul>
+<li><strong>AWM2</strong> — Yamaha’s advanced sample-based engine (e.g., pianos, EPs, organs).</li>
+<li><strong>FM-X</strong> — classic FM synthesis.</li>
+<li><strong>AN-X</strong> — virtual analogue style.</li>
+</ul>
+</li>
+<li><strong>Layering, splits, multis</strong> — build complex performances.</li>
+<li><strong>Real-time modulation</strong> via Yamaha’s Motion Control architecture.</li>
+<li><strong>Built-in effects and performance macros</strong>.</li>
+<li>Ideal for sculpting custom tones or evolving textures on stage or in studio.</li>
+</ul>
+<h3 id="arturia-astrolab-88-2">Arturia AstroLab 88</h3>
+<ul>
+<li><strong>Massive preset library</strong> pulled from Arturia’s software ecosystem.</li>
+<li>Icons from classic synths, electric pianos, organs, and other keyboards, all curated.</li>
+<li>Emphasis on <strong>rich, immediately usable sounds</strong> rather than building patches from individual oscillators/filters.</li>
+<li>Best for playing and performing great tones straight away.</li>
+</ul>
+<hr>
+<h2 id="workflow--controls">Workflow &amp; Controls</h2>
+<h3 id="yamaha-modx-m8-3">Yamaha MODX M8</h3>
+<ul>
+<li><strong>Performance-oriented controls</strong>: lots of realtime knobs, faders, and modulation options.</li>
+<li>Designed to work <em>without</em> a laptop — patch management, layering, and editing all happen on the unit.</li>
+<li>Strong internal architecture for building multitimbral performances.</li>
+</ul>
+<h3 id="arturia-astrolab-88-3">Arturia AstroLab 88</h3>
+<ul>
+<li><strong>Preset browsing first</strong>: choose, tweak, and play.</li>
+<li>Editing deeper synthesis parameters is less immediate than on a classic workstation — the workflow focuses on presets and sound selection.</li>
+<li>Integrates well into a setup with software, but <em>also</em> works standalone.</li>
+</ul>
+<hr>
+<h2 id="live-performance--stage-use">Live Performance &amp; Stage Use</h2>
+<h3 id="yamaha-modx-m8-4">Yamaha MODX M8</h3>
+<ul>
+<li>Excellent standalone performance instrument.</li>
+<li>Fast patch/part switching, robust effects, and internal sequencing make it stage-ready and flexible.</li>
+<li>Great for artists who want control over sounds and arrangements without external gear.</li>
+</ul>
+<h3 id="arturia-astrolab-88-4">Arturia AstroLab 88</h3>
+<ul>
+<li>Gig-ready for players who want an enormous palette of curated sounds.</li>
+<li>Switching and browsing is fast for presets, but not as deep/edit-centric as a workstation.</li>
+<li>Ideal for performers who value <strong>tone exploration and expressiveness</strong> with minimal setup.</li>
+</ul>
+<hr>
+<h2 id="who-each-is-best-for">Who Each Is Best For</h2>
+<h3 id="pick-the-yamaha-modx-m8-if-you-want">Pick the <strong>Yamaha MODX M8</strong> if you want:</h3>
+<ul>
+<li>A <strong>deep workstation</strong> with multiple synthesis engines.</li>
+<li>A self-contained instrument with layering, modulation, and effects.</li>
+<li>Rich control without needing a computer.</li>
+<li>Flexibility to craft and tweak sounds at a low level.</li>
+</ul>
+<h3 id="pick-the-arturia-astrolab-88-if-you-want">Pick the <strong>Arturia AstroLab 88</strong> if you want:</h3>
+<ul>
+<li>A <strong>gig-friendly stage keyboard</strong> with a huge curated sound library.</li>
+<li><strong>Instant access to great tones</strong> from classic and modern keyboards/synths.</li>
+<li>Fast preset browsing and expressive performance vibes.</li>
+<li>Simplicity of use paired with sonic breadth.</li>
+</ul>
+<hr>
+<h2 id="price--market-positioning-typical">Price / Market Positioning (Typical)</h2>
+<ul>
+<li><strong>MODX M8</strong> targets players who want workstation power and versatility at a competitive price.</li>
+<li><strong>AstroLab 88</strong> targets players and gigging keyboardists who prioritise curated sounds and expressive playability.</li>
+</ul>
+<hr>
+<h2 id="one-line-vibe-check">One-Line Vibe Check</h2>
+<ul>
+<li><strong>MODX M8</strong> = “Let me <em>build and control</em> my entire sound world.”</li>
+<li><strong>AstroLab 88</strong> = “Give me <em>great tones now</em> and let me play expressively.”</li>
+</ul>
+<hr>
+<h2 id="summing-up">Summing Up</h2>
+<p>These aren’t apples-to-apples instruments. The <strong>MODX M8</strong> is about <strong>control and creation</strong>; the <strong>AstroLab 88</strong> is about <strong>playability and sonic richness</strong>. Your choice hinges on whether you want to <strong>design and sculpt</strong> or <strong>perform and explore</strong> sounds with minimal fuss.</p>
+<p>Feel into how you like to play and create — that’s where the magic actually lives.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Yamaha MODX M8 vs Yamaha Montage M8X</title>
+      <link>https://jamesm.blog/music-production/modx-m8-vs-montage-m8x/</link>
+      <pubDate>Fri, 05 Dec 2025 11:58:21 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/modx-m8-vs-montage-m8x/</guid>
+      <description>&lt;p&gt;Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code — three powerful sound engines — but they live in different worlds when it comes to feel, performance depth, and long-term ambition.&lt;/p&gt;
+&lt;p&gt;If you’re torn between them, this breakdown should make your choice a whole lot easier.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Yamaha-MODXM8.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;
+(Image:Yamaha MODX M8)&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Yamaha-MONTAGE-M8X.jpg&#34; type=&#34;&#34; alt=&#34;alt&#34;  /&gt;
+(Image: Yamaha Montage M8X)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code — three powerful sound engines — but they live in different worlds when it comes to feel, performance depth, and long-term ambition.</p>
+<p>If you’re torn between them, this breakdown should make your choice a whole lot easier.</p>
+<hr>
+<p><img loading="lazy" src="/images/Yamaha-MODXM8.jpg" type="" alt="alt"  />
+(Image:Yamaha MODX M8)</p>
+<p><img loading="lazy" src="/images/Yamaha-MONTAGE-M8X.jpg" type="" alt="alt"  />
+(Image: Yamaha Montage M8X)</p>
+<hr>
+<h2 id="the-dna-they-share">The DNA They Share</h2>
+<p>Both the MODX M8 and Montage M8X come from Yamaha’s modern hybrid-engine family built on three distinct sonic pillars:</p>
+<ul>
+<li><strong>AWM2</strong> for realistic acoustic/sampled instruments</li>
+<li><strong>FM-X</strong> for expressive FM synthesis</li>
+<li><strong>AN-X</strong> for analog-modelled tone and warmth</li>
+</ul>
+<p>They’re capable of lush pianos, evolving pads, modern electronic leads, cinematic textures, and everything in between.</p>
+<p>Both offer 88 weighted keys, deep multi-part <strong>Performance</strong> architecture, seamless DAW integration, and a massive sound library that grows with updates and expansions.</p>
+<p>In short: no matter which one you pick, the <em>sound palette itself</em> is not the deciding factor.</p>
+<hr>
+<h2 id="why-the-modx-m8-is-so-tempting">Why the MODX M8 Is So Tempting</h2>
+<p>The MODX line has always been famous for one thing: <strong>ridiculous value for money</strong>.</p>
+<h3 id="price-without-compromise">Price without compromise</h3>
+<p>For UK buyers, the typical retail price for a new <strong>MODX M8</strong> sits around <strong>£1,593.00</strong>.
+You’re getting the same sound engines and a huge portion of the Montage workflow at a much lower price. For most producers or gigging musicians, that alone makes the MODX M8 a no-brainer.</p>
+<h3 id="portable-and-practical">Portable and practical</h3>
+<p>The MODX M8 is significantly lighter than its flagship sibling. If you’re carrying it to rehearsals or gigs — or just don’t want an enormous studio centrepiece — the MODX M8 is wonderfully manageable.</p>
+<h3 id="more-than-good-enough">More than “good enough”</h3>
+<p>Because the engines are shared, the MODX M8 gives you around <strong>80–90%</strong> of the sonic capability of the Montage M8X. That is a remarkable ratio for the price point.</p>
+<p>For many musicians, the MODX simply hits the sweet spot: big synth power, little financial pain.</p>
+<hr>
+<h2 id="why-the-montage-m8x-still-reigns-as-the-flagship">Why the Montage M8X Still Reigns as the Flagship</h2>
+<p>While the MODX M8 is incredible value, the Montage M8X is built for a different type of player.</p>
+<h3 id="flagship-build-and-premium-action">Flagship build and premium action</h3>
+<p>The Montage M8X includes Yamaha’s <strong>GEX</strong> 88-key action (or hardware in that spirit) — a more realistic, responsive action that pianists feel immediately.</p>
+<h3 id="more-hands-on-control">More hands-on control</h3>
+<p>More knobs, more routing options, balanced outputs, higher-grade converters, and an expanded physical interface make the M8X a natural fit for professional studios.</p>
+<h3 id="designed-to-last">Designed to last</h3>
+<p>For UK retailers currently listing it, the <strong>Montage M8X</strong> retails for about <strong>£4,049.00</strong>.
+The Montage is a long-term instrument: rock-solid build, flagship hardware, and a creative ecosystem that’s likely to evolve for years.</p>
+<p>For players who want the best without compromise, the M8X feels like the &ldquo;forever synth.&rdquo;</p>
+<hr>
+<h2 id="which-one-makes-sense-for-you">Which One Makes Sense for You?</h2>
+<p>Think of it like this:</p>
+<h3 id="choose-modx-m8-if">Choose <strong>MODX M8</strong> if…</h3>
+<ul>
+<li>You want a powerful, modern workstation.</li>
+<li>You want most of the Montage’s sound engines at a lower cost (~ £1,593).</li>
+<li>You prefer something lighter for gigging or home use.</li>
+</ul>
+<h3 id="choose-montage-m8x-if">Choose <strong>Montage M8X</strong> if…</h3>
+<ul>
+<li>You care about premium key action and build quality.</li>
+<li>You want maximum hands-on control and pro-level routing.</li>
+<li>You want an instrument built for the long haul (price ~ £4,049).</li>
+</ul>
+<p>Both boards are outstanding. Yamaha didn’t make a bad choice here — they just made two choices for two different kinds of musicians.</p>
+<hr>
+<h2 id="related-videos">Related Videos</h2>
+<h3 id="yamahas-modx-m-synthesizer-is-here-heres-whats-new">Yamaha&rsquo;s MODX M Synthesizer is HERE! Here&rsquo;s what&rsquo;s NEW!</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/u0fWeAmPQHM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<h3 id="what-did-yamaha-remove-from-montage-m-to-make-the-astonishing-new-modx-m">What did Yamaha remove from MONTAGE M to make the astonishing new MODX M?</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/FR04HJgnjuk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
 ]]></content:encoded>
     </item>
     
