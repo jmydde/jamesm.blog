@@ -121,3 +121,13 @@ C → F → Bb → Eb → Ab → Db → Gb → Cb
 ---
 
 With this method, you’ll never have to wonder how many sharps are in a major scale again!
+
+---
+
+## YouTube Videos
+
+### Circle of Fifths: Everything You Need to Know
+{{< youtube O43EBVnwNvo >}}
+
+### Circle of 5ths: EASIEST Way to Memorize & Understand It
+{{< youtube XNwlybb-j_M >}}
