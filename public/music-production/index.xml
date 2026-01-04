@@ -6,7 +6,153 @@
     <description>Recent content in Music Production on jamesm.blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 06:35:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/music-production/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jan 2026 12:35:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/music-production/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Major Scales: How to Instantly Know the Sharps and Flats</title>
+      <link>https://jamesm.blog/music-production/major-scales-sharps-flats/</link>
+      <pubDate>Sun, 04 Jan 2026 12:35:21 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/major-scales-sharps-flats/</guid>
+      <description>&lt;h1 id=&#34;how-to-work-out-the-number-of-sharps-in-each-major-scale&#34;&gt;How to Work Out the Number of Sharps in Each Major Scale&lt;/h1&gt;
+&lt;p&gt;Understanding the number of sharps in major scales is easier than it sounds once you know the &lt;strong&gt;circle of fifths&lt;/strong&gt; and the pattern of sharps. Here’s a step-by-step guide to make it simple.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-start-with-c-major&#34;&gt;1. Start with C Major&lt;/h2&gt;
+&lt;p&gt;C Major is your reference point. It has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;No sharps or flats&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Notes: &lt;code&gt;C D E F G A B&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Think of C Major as the “home base” of all major scales.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="how-to-work-out-the-number-of-sharps-in-each-major-scale">How to Work Out the Number of Sharps in Each Major Scale</h1>
+<p>Understanding the number of sharps in major scales is easier than it sounds once you know the <strong>circle of fifths</strong> and the pattern of sharps. Here’s a step-by-step guide to make it simple.</p>
+<hr>
+<h2 id="1-start-with-c-major">1. Start with C Major</h2>
+<p>C Major is your reference point. It has:</p>
+<ul>
+<li><strong>No sharps or flats</strong></li>
+<li>Notes: <code>C D E F G A B</code></li>
+</ul>
+<p>Think of C Major as the “home base” of all major scales.</p>
+<hr>
+<h2 id="2-what-is-a-perfect-fifth">2. What is a Perfect Fifth?</h2>
+<p>A <strong>perfect fifth</strong> is one of the most fundamental intervals in music:</p>
+<ul>
+<li>It is the distance between two notes spanning <strong>7 semitones</strong> (half-steps).</li>
+<li>Called “perfect” because it sounds <strong>very stable and consonant</strong>.</li>
+<li>Examples:
+<ul>
+<li><code>C → G</code></li>
+<li><code>D → A</code></li>
+<li><code>G → D</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>Shortcut trick:</strong></p>
+<ul>
+<li>Count <strong>five letter names</strong> starting from the root note.
+<ul>
+<li>C (1), D (2), E (3), F (4), G (5) → perfect fifth.</li>
+</ul>
+</li>
+<li>Adjust for sharps/flats as needed.</li>
+</ul>
+<hr>
+<h2 id="3-move-up-by-fifths-to-add-sharps">3. Move Up by Fifths to Add Sharps</h2>
+<p>Every time you move <strong>up a perfect fifth</strong> (7 semitones), you <strong>add one sharp</strong> to the scale.</p>
+<p>The <strong>order of sharps</strong> is:</p>
+<pre tabindex="0"><code>
+F#, C#, G#, D#, A#, E#, B#
+</code></pre><p>Mnemonic to remember this:</p>
+<blockquote>
+<p><strong>Father Charles Goes Down And Ends Battle</strong></p>
+</blockquote>
+<hr>
+<h2 id="4-major-scales-with-sharps">4. Major Scales With Sharps</h2>
+<p>Here’s the sequence of major scales as you move up by fifths:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Major Scale</th>
+          <th>Number of Sharps</th>
+          <th>Sharps in Scale</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>C</td>
+          <td>0</td>
+          <td>—</td>
+      </tr>
+      <tr>
+          <td>G</td>
+          <td>1</td>
+          <td>F#</td>
+      </tr>
+      <tr>
+          <td>D</td>
+          <td>2</td>
+          <td>F#, C#</td>
+      </tr>
+      <tr>
+          <td>A</td>
+          <td>3</td>
+          <td>F#, C#, G#</td>
+      </tr>
+      <tr>
+          <td>E</td>
+          <td>4</td>
+          <td>F#, C#, G#, D#</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>5</td>
+          <td>F#, C#, G#, D#, A#</td>
+      </tr>
+      <tr>
+          <td>F#</td>
+          <td>6</td>
+          <td>F#, C#, G#, D#, A#, E#</td>
+      </tr>
+      <tr>
+          <td>C#</td>
+          <td>7</td>
+          <td>F#, C#, G#, D#, A#, E#, B#</td>
+      </tr>
+  </tbody>
+</table>
+<p>Notice the pattern: <strong>each time you move up a fifth, add one sharp</strong>.</p>
+<hr>
+<h2 id="5-using-flats-instead">5. Using Flats Instead</h2>
+<p>If a scale uses <strong>flats</strong> instead of sharps:</p>
+<ul>
+<li>Move <strong>down a fifth</strong> each time.</li>
+<li>Order of flats:</li>
+</ul>
+<pre tabindex="0"><code>
+B♭, E♭, A♭, D♭, G♭, C♭, F♭
+</code></pre><p>Mnemonic for flats:</p>
+<blockquote>
+<p><strong>Battle Ends And Down Goes Charles’ Father</strong></p>
+</blockquote>
+<hr>
+<h2 id="6-circle-of-fifths-cheat-sheet">6. Circle of Fifths Cheat Sheet</h2>
+<p><strong>Sharps (Clockwise):</strong></p>
+<pre tabindex="0"><code>
+C → G → D → A → E → B → F# → C#
+</code></pre><p><strong>Flats (Counterclockwise):</strong></p>
+<pre tabindex="0"><code>
+C → F → Bb → Eb → Ab → Db → Gb → Cb
+</code></pre><p><strong>Quick Tips:</strong></p>
+<ul>
+<li><strong>Sharps:</strong> Add one each fifth clockwise from C.</li>
+<li><strong>Flats:</strong> Add one each fifth counterclockwise from C.</li>
+<li>The <strong>order of sharps/flats never changes</strong>, so you can instantly write out any major scale.</li>
+</ul>
+<hr>
+<p>With this method, you’ll never have to wonder how many sharps are in a major scale again!</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Roland TR-8S vs MC-707</title>
       <link>https://jamesm.blog/music-production/roland-tr-8s-vs-mc-707/</link>
