@@ -1,6 +1,6 @@
 ---
 title: "Music: My Favourite Artists, Bands, DJs, Composers, Concerts & Theatre"
-date: 2020-01-01T14:53:39+01:00
+date: 2026-01-08T18:53:39+01:00
 draft: false
 ---
 
