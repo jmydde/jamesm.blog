@@ -2,10 +2,12 @@
 title: "Why I Play and Create Music Intuitively"
 date: 2026-01-07T23:35:21+01:00
 draft: false
-tags: ['music', 'music production', 'piano', 'sound design', 'creativity', 'experimentation', 'improvisation', 'synths', 'discovery', 'exploration', 'music theory']
+tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synths']
 ---
 
-## Exploration over theory
+**Playing by ear - discovering by accident**
+
+## The Joy of Surprise
 
 I don’t play the piano to master it. I play it because sometimes it surprises me.
 
@@ -13,13 +15,15 @@ That sounds backwards, especially in a world obsessed with progress, scales, gra
 
 Those moments feel accidental, but they’re not random in the way dice rolls are random. They’re more like wandering through a city you half-know. You turn a corner without thinking and suddenly there’s a street you’ve never noticed - familiar architecture, unfamiliar feeling. The piano works like that. My hands explore patterns, distances, shapes. Most of the time they revisit old neighbourhoods. Then, occasionally, they open a door I didn’t know was there.
 
-That’s the high.
+## Playing by Ear and Intuition
 
 It’s not about finding “the right chord” or remembering some formal name. Often I don’t know what the chord *is*. I only know what it does - how it leans, how it resolves, how it feels slightly unstable in a way that makes me want to stay there a second longer. The theory can come later, or never. The joy is in the encounter.
 
-In fact, if you asked me to describe my playing style, I’d call it **ear-based or intuitive playing**. I struggle with most traditional music theory, and trying to force it feels wrong. But I can tell immediately when something sounds right. I play by ear, but not just to reproduce what I hear - I explore, experiment, and discover new chords, phrases, and patterns as I go. My hands and ears guide me more than rules ever could.
+If you asked me to describe my playing style, I’d call it **ear-based or intuitive playing**. I struggle with most traditional music theory, and trying to force it feels wrong. But I can tell immediately when something sounds right. I play by ear, but not just to reproduce what I hear - I explore, experiment, and discover new chords, phrases, and patterns as I go. My hands and ears guide me more than rules ever could.
 
 What fascinates me is that these discoveries don’t feel like invention so much as recognition. As if the sound already existed and I just happened to bump into it. My conscious brain takes the credit, but really it’s my hands doing the thinking. They remember distances, tensions, shapes across the keyboard. They learn quietly, without asking permission.
+
+## Sound Design and Pattern Exploration
 
 Over time, I’ve realised this is exactly the same reason I love creating music more broadly, especially sound design.
 
@@ -27,7 +31,11 @@ Digging through vast libraries of patches, stumbling across a sound I didn’t e
 
 The same goes for patterns. I love creating something simple and then deliberately destabilising it - shifting certain notes, randomising note positions, letting small changes ripple through the whole idea. Patterns emerge that I would never have come up with consciously. It feels less like composition and more like exploration, as if I’m uncovering possibilities rather than authoring them.
 
+## Software, Hardware, and Tactile Music
+
 That’s why I enjoy music production software so much, as well as hardware. Software lets me layer synths, stack plugins, route things in slightly odd ways and see what happens. It’s a playground for controlled chaos. Hardware brings the physicality back in - the tactile pleasure of twisting knobs, pushing sliders, feeling resistance under your fingers as the sound mutates in real time. It’s hands-on thinking. The same curiosity that guides my fingers across piano keys shows up when I’m leaning over a synth workstation.
+
+## The Endless Landscape
 
 In all of this, I’m not chasing mastery or completeness. I know I’ll never discover every possible chord, sound, or pattern, and that’s part of the appeal. Music isn’t a finite puzzle to be solved; it’s a landscape you can walk for a lifetime and still find new paths.
 
