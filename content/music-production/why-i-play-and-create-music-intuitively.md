@@ -2,9 +2,10 @@
 title: "Why I Play and Create Music Intuitively"
 date: 2026-01-07T23:35:21+01:00
 draft: false
-tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synths']
+tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'inspiration', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synths']
 ---
 
+# Why I Play and Create Music Intuitively
 **Playing by ear - discovering by accident**
 
 ## The Joy of Surprise
@@ -22,6 +23,12 @@ It’s not about finding “the right chord” or remembering some formal name. 
 If you asked me to describe my playing style, I’d call it **ear-based or intuitive playing**. I struggle with most traditional music theory, and trying to force it feels wrong. But I can tell immediately when something sounds right. I play by ear, but not just to reproduce what I hear - I explore, experiment, and discover new chords, phrases, and patterns as I go. My hands and ears guide me more than rules ever could.
 
 What fascinates me is that these discoveries don’t feel like invention so much as recognition. As if the sound already existed and I just happened to bump into it. My conscious brain takes the credit, but really it’s my hands doing the thinking. They remember distances, tensions, shapes across the keyboard. They learn quietly, without asking permission.
+
+## The Zone - Flow and Inspiration
+
+Sometimes, when everything clicks, I get this incredible buzz - that feeling of being completely *in the zone*. I’m totally in tune with myself, and somehow, with the universe. It feels like I could play anything, like suddenly everything makes perfect sense. Every chord, every melody, every rhythm lines up and flows effortlessly. 
+
+At the same time, my head fills with inspiration, as if the melodies and chords are being fed to me. It’s an extremely relaxed but exhilarating feeling. I chase it, and it doesn’t happen every time, but when it does, I know it instantly. Just a few minutes in this zone feels like I’ve accomplished what would normally take hours, or even days, in other areas of life. The time invested in these moments feels tremendously amplified - every idea, every pattern, every discovery counts for so much more than normal. In these moments, music isn’t just something I play - it’s something I live, breathe, and discover all at once.
 
 ## Sound Design and Pattern Exploration
 
