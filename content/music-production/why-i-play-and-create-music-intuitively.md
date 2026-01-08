@@ -1,12 +1,11 @@
 ---
-title: "Why I Play and Create Music Intuitively"
+title: "Why I Play & Create Music Intuitively"
 date: 2026-01-07T23:35:21+01:00
 draft: false
 tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'inspiration', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synths']
 ---
 
-# Why I Play and Create Music Intuitively
-**Playing by ear - discovering by accident**
+*Playing by ear - discovering by accident*
 
 ## The Joy of Surprise
 
