@@ -111,6 +111,7 @@ draft: false
   - Disney
     - Aladdin
     - Beauty and the Beast
+    - Hercules
     - Pocahontas
     - Tangled
     - The Little Mermaid
@@ -121,6 +122,8 @@ draft: false
   - Joseph and the Amazing Technicolor Dreamcoat
   - The Phantom of the Opera
   - ...
+- [Dario Marianelli](https://en.wikipedia.org/wiki/Dario_Marianelli)
+  - [Everest](https://www.imdb.com/title/tt2719848/)
 - [Hans Zimmer](https://hans-zimmer.com/)
   - Gladiator
   - Inception
