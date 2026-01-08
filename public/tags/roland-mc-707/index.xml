@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Roland Mc-707 on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/roland-mc-707/</link>
+    <description>Recent content in Roland Mc-707 on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jan 2026 19:35:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/roland-mc-707/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX</title>
+      <link>https://jamesm.blog/music-production/using-mc-707-as-midi-brain-for-modx-m/</link>
+      <pubDate>Thu, 08 Jan 2026 19:35:21 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/music-production/using-mc-707-as-midi-brain-for-modx-m/</guid>
+      <description>&lt;p&gt;The Yamaha MODX M and Roland MC-707 make a surprisingly elegant pair when you stop thinking of them as separate instruments and start treating the MC-707 as a &lt;strong&gt;MIDI recorder and playback brain&lt;/strong&gt; for the MODX.&lt;/p&gt;
+&lt;p&gt;In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>The Yamaha MODX M and Roland MC-707 make a surprisingly elegant pair when you stop thinking of them as separate instruments and start treating the MC-707 as a <strong>MIDI recorder and playback brain</strong> for the MODX.</p>
+<p>In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow.</p>
+<h2 id="the-core-concept">The Core Concept</h2>
+<p>At its heart, this setup is about <strong>MIDI capture and replay</strong>.</p>
+<p>When you play the MODX keyboard, it sends MIDI note data — pitch, timing, velocity, note on and note off. The MC-707 records that data exactly as played. On playback, it sends the same MIDI back to the MODX, which reproduces the performance.</p>
+<p>The MC-707 isn’t “understanding” harmony, melody, or intent. It’s acting like a high-quality tape machine for MIDI — precise, repeatable, and editable.</p>
+<h2 id="basic-connection">Basic Connection</h2>
+<p>The cleanest way to connect the two is with traditional MIDI:</p>
+<ul>
+<li><strong>MODX MIDI OUT → MC-707 MIDI IN</strong></li>
+</ul>
+<p>USB MIDI can work, but using DIN avoids host/device confusion and is generally more predictable, especially in hardware-only setups.</p>
+<h2 id="mc-707-setup">MC-707 Setup</h2>
+<p>On the MC-707:</p>
+<ul>
+<li>Create a <strong>MIDI track</strong> (not a Tone track)</li>
+<li>Set the MIDI input channel to match the MODX transmit channel</li>
+<li>Arm the track for real-time recording</li>
+</ul>
+<p>This tells the MC-707 to listen to the MODX and capture whatever you play.</p>
+<h2 id="modx-setup">MODX Setup</h2>
+<p>On the MODX M:</p>
+<ul>
+<li>Set the keyboard transmit channel to match the MC-707 MIDI track</li>
+<li>Set <strong>Local Control = OFF</strong> if you want to avoid double-triggering during playback</li>
+</ul>
+<p>With Local Control off, the MODX becomes a controller feeding the MC-707, and the MC-707 becomes the source of all playback MIDI.</p>
+<h2 id="recording-a-performance">Recording a Performance</h2>
+<p>Recording is straightforward:</p>
+<ol>
+<li>Press record on the MC-707</li>
+<li>Play on the MODX keyboard</li>
+<li>Stop recording</li>
+</ol>
+<p>The MC-707 records:</p>
+<ul>
+<li>Notes</li>
+<li>Timing</li>
+<li>Velocity</li>
+<li>Performance feel</li>
+</ul>
+<p>When you press play, the MC-707 sends that MIDI back to the MODX and the performance is recreated exactly.</p>
+<p>At this point, the MC-707 is no longer just a groovebox — it’s acting as a central sequencer for an external synth.</p>
+<h2 id="editing-and-playback">Editing and Playback</h2>
+<p>Once the MIDI is recorded, you can:</p>
+<ul>
+<li>Loop sections</li>
+<li>Apply quantisation (or leave things human)</li>
+<li>Duplicate patterns</li>
+<li>Build full arrangements across scenes</li>
+</ul>
+<p>All without touching the MODX keyboard again, unless you want to re-record or layer something new.</p>
+<h2 id="working-with-modx-performances-and-arpeggios">Working with MODX Performances and Arpeggios</h2>
+<p>If the MODX Performance uses arpeggios or motion sequences, you have two creative options:</p>
+<ul>
+<li><strong>Record the keys you play</strong> and let the MODX regenerate movement on playback</li>
+<li><strong>Record the generated MIDI output</strong> for total control inside the MC-707</li>
+</ul>
+<p>Both approaches are valid. One keeps the intelligence inside the MODX, the other commits everything into the MC-707.</p>
+<h2 id="multi-part-and-layered-sounds">Multi-Part and Layered Sounds</h2>
+<p>The MODX M can transmit on multiple MIDI channels when using layered Performances. The MC-707 can record this, but it’s usually easier to start with a single Part and channel until the workflow feels solid.</p>
+<p>Once comfortable, expanding to multiple tracks and channels becomes much more intuitive.</p>
+<h2 id="why-this-setup-works-so-well">Why This Setup Works So Well</h2>
+<p>This pairing plays to the strengths of both machines:</p>
+<ul>
+<li>The <strong>MODX M</strong> excels at expressive playing, sound design, and performance control</li>
+<li>The <strong>MC-707</strong> excels at capturing, looping, arranging, and recalling musical ideas</li>
+</ul>
+<p>Instead of programming notes step-by-step, you perform ideas once and let the sequencer handle repetition and structure.</p>
+<h2 id="summary">Summary</h2>
+<p>Using the Roland MC-707 as a MIDI recorder and playback device for the Yamaha MODX M is simple, reliable, and musically satisfying. It turns the MC-707 into a central brain and the MODX into a powerful performance instrument — a combination that encourages playing first and organising later.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
