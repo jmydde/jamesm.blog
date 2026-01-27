@@ -5,14 +5,13 @@ draft: false
 tags: ['native instruments']
 ---
 
-Today feels like one of those rare moments in music technology where the ground really shakes. **Native Instruments**, the Berlin-born powerhouse behind the tools that countless producers, DJs, and composers have built entire careers around, has entered **preliminary insolvency proceedings**. This isn’t just industry news - it’s a big, honest moment that makes you pause.  
+Today feels like one of those rare moments in music technology where the ground really shakes. [**Native Instruments**](https://www.native-instruments.com/en/), the Berlin-born powerhouse behind the tools that countless producers, DJs, and composers have built entire careers around, has entered **preliminary insolvency proceedings**. This isn’t just industry news - it’s a big, honest moment that makes you pause.  
 
-For many of us, **Native Instruments** has been more than a brand. It was the company that helped reshape how music gets made. Products like **Maschine**, **Kontakt**, **Traktor**, **Reaktor**, and **Massive** aren’t just plugins or hardware; they’re part of the creative rituals that defined genres and workflows for a generation. The grooves in a beat, the evolving sound of a synth patch, the loop that became a track - a lot of that has Native Instruments DNA in it.  
+For many of us, **Native Instruments** has been more than a brand. It was the company that helped reshape how music gets made. Products like [**Maschine**](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/), [**Kontakt**](https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/), [**Traktor**](https://www.native-instruments.com/en/catalog/djing/), [**Reaktor**](https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/), and [**Massive**](https://www.native-instruments.com/en/products/komplete/synths/massive/) aren’t just plugins or hardware; they’re part of the creative rituals that defined genres and workflows for a generation. The grooves in a beat, the evolving sound of a synth patch, the loop that became a track - a lot of that has Native Instruments DNA in it.  
 
 So what’s actually happening now?
 
 A court in Germany has appointed a **preliminary insolvency administrator**, Prof. Dr. **Torsten Martini**, to oversee the company’s finances and operations. This is a legal phase where the company’s future is no longer solely controlled by management. Assets may be restructured, parts of the business could be prepared for sale, and difficult decisions are likely ahead.  
-Additional reporting: https://www.production-expert.com/production-expert-1/native-instruments-enters-preliminary-insolvency-proceedings
 
 Why does this matter so much?
 
