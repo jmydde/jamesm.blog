@@ -39,11 +39,32 @@
 <hr>
 <h2 id="the-hybrid-ai-stack">The Hybrid AI Stack</h2>
 <p>Instead of relying on a single frontier model, I&rsquo;m moving towards something like this:</p>
-<p>Task                          Model Type                 Cost</p>
-<hr>
-<p>Quick edits, small scripts    Local model                Free
-General coding tasks          Cheap cloud models         Pennies
-Architecture / complex work   Claude / frontier models   Occasional</p>
+<table>
+  <thead>
+      <tr>
+          <th>Task</th>
+          <th>Model Type</th>
+          <th>Cost</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Quick edits, small scripts</td>
+          <td>Local model</td>
+          <td>Free</td>
+      </tr>
+      <tr>
+          <td>General coding tasks</td>
+          <td>Cheap cloud models</td>
+          <td>Pennies</td>
+      </tr>
+      <tr>
+          <td>Architecture / complex work</td>
+          <td>Claude / frontier models</td>
+          <td>Occasional</td>
+      </tr>
+  </tbody>
+</table>
 <p>In practice this means most requests never touch the expensive models.</p>
 <hr>
 <h2 id="running-models-locally">Running Models Locally</h2>
@@ -60,12 +81,37 @@ Architecture / complex work   Claude / frontier models   Occasional</p>
 <li>Aider</li>
 </ul>
 <p>Some good coding models:</p>
-<p>Model            Size       Notes</p>
-<hr>
-<p>DeepSeek Coder   6B / 33B   Strong coding performance
-Qwen2.5 Coder    7B / 32B   Good reasoning + tool use
-Codestral        ~22B      Solid refactoring
-Llama-3.1        8B         Fast and lightweight</p>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Size</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>DeepSeek Coder</td>
+          <td>6B / 33B</td>
+          <td>Strong coding performance</td>
+      </tr>
+      <tr>
+          <td>Qwen2.5 Coder</td>
+          <td>7B / 32B</td>
+          <td>Good reasoning + tool use</td>
+      </tr>
+      <tr>
+          <td>Codestral</td>
+          <td>~22B</td>
+          <td>Solid refactoring</td>
+      </tr>
+      <tr>
+          <td>Llama-3.1</td>
+          <td>8B</td>
+          <td>Fast and lightweight</td>
+      </tr>
+  </tbody>
+</table>
 <p>Example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install ollama
 </span></span><span class="line"><span class="cl">ollama run deepseek-coder:6.7b
@@ -89,21 +135,58 @@ Llama-3.1        8B         Fast and lightweight</p>
 <li>Fireworks AI</li>
 </ul>
 <p>Typical pricing is tiny:</p>
-<p>Model         Approx Price</p>
-<hr>
-<p>Llama-3 70B   ~$0.20 / million tokens
-DeepSeek V3   ~$0.30 / million tokens
-Qwen coder    ~$0.10 / million tokens</p>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Approx Price</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Llama-3 70B</td>
+          <td>~$0.20 / million tokens</td>
+      </tr>
+      <tr>
+          <td>DeepSeek V3</td>
+          <td>~$0.30 / million tokens</td>
+      </tr>
+      <tr>
+          <td>Qwen coder</td>
+          <td>~$0.10 / million tokens</td>
+      </tr>
+  </tbody>
+</table>
 <p>For normal coding tasks this means pennies per session.</p>
 <hr>
 <h2 id="free-coding-assistants">Free Coding Assistants</h2>
 <p>There are also tools offering free or semi-free coding models:</p>
-<p>Tool           Notes</p>
-<hr>
-<p>Cursor         small models + limited premium usage
-Codeium        unlimited completions
-Tabnine        free tier available
-JetBrains AI   local + quota models</p>
+<table>
+  <thead>
+      <tr>
+          <th>Tool</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Cursor</td>
+          <td>small models + limited premium usage</td>
+      </tr>
+      <tr>
+          <td>Codeium</td>
+          <td>unlimited completions</td>
+      </tr>
+      <tr>
+          <td>Tabnine</td>
+          <td>free tier available</td>
+      </tr>
+      <tr>
+          <td>JetBrains AI</td>
+          <td>local + quota models</td>
+      </tr>
+  </tbody>
+</table>
 <p>Some allow plugging in your own local models, which removes limits entirely.</p>
 <hr>
 <h2 id="using-claude-code-less-but-more-strategically">Using Claude Code Less (But More Strategically)</h2>
@@ -141,10 +224,24 @@ JetBrains AI   local + quota models</p>
 <h2 id="hardware-option">Hardware Option</h2>
 <p>If you code constantly, running bigger models locally becomes viable.</p>
 <p>Typical developer setups:</p>
-<p>Hardware                    Cost</p>
-<hr>
-<p>Used RTX 3090 workstation   ~$1.5&ndash;2k
-RTX 4090 workstation        ~$3&ndash;4k</p>
+<table>
+  <thead>
+      <tr>
+          <th>Hardware</th>
+          <th>Cost</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Used RTX 3090 workstation</td>
+          <td>~$1.5–2k</td>
+      </tr>
+      <tr>
+          <td>RTX 4090 workstation</td>
+          <td>~$3–4k</td>
+      </tr>
+  </tbody>
+</table>
 <p>A 24GB GPU can run models in the 30B parameter range, which are good enough for most coding tasks.</p>
 <hr>
 <h2 id="whats-happening-in-the-ai-coding-space">What&rsquo;s Happening in the AI Coding Space</h2>

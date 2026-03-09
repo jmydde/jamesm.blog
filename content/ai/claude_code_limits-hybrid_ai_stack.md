@@ -19,11 +19,11 @@ Think of it like a compute tiering strategy.
 
 Instead of relying on a single frontier model, I'm moving towards something like this:
 
-  Task                          Model Type                 Cost
-  ----------------------------- -------------------------- ------------
-  Quick edits, small scripts    Local model                Free
-  General coding tasks          Cheap cloud models         Pennies
-  Architecture / complex work   Claude / frontier models   Occasional
+| Task | Model Type | Cost |
+|---|---|---|
+Quick edits, small scripts | Local model | Free |
+General coding tasks | Cheap cloud models | Pennies |
+Architecture / complex work | Claude / frontier models | Occasional |
 
 In practice this means most requests never touch the expensive models.
 
@@ -44,12 +44,12 @@ Then connect them to an IDE agent such as:
 
 Some good coding models:
 
-  Model            Size       Notes
-  ---------------- ---------- ---------------------------
-  DeepSeek Coder   6B / 33B   Strong coding performance
-  Qwen2.5 Coder    7B / 32B   Good reasoning + tool use
-  Codestral        \~22B      Solid refactoring
-  Llama-3.1        8B         Fast and lightweight
+| Model | Size | Notes |
+|---|---|---|
+DeepSeek Coder | 6B / 33B | Strong coding performance |
+Qwen2.5 Coder | 7B / 32B | Good reasoning + tool use |
+Codestral | ~22B | Solid refactoring |
+Llama-3.1 | 8B | Fast and lightweight |
 
 Example:
 
@@ -81,11 +81,11 @@ Some good ones:
 
 Typical pricing is tiny:
 
-  Model         Approx Price
-  ------------- ---------------------------
-  Llama-3 70B   \~\$0.20 / million tokens
-  DeepSeek V3   \~\$0.30 / million tokens
-  Qwen coder    \~\$0.10 / million tokens
+| Model        | Approx Price                  |
+|-------------|-------------------------------|
+| Llama-3 70B | ~$0.20 / million tokens       |
+| DeepSeek V3 | ~$0.30 / million tokens       |
+| Qwen coder  | ~$0.10 / million tokens       |
 
 For normal coding tasks this means pennies per session.
 
@@ -95,12 +95,12 @@ For normal coding tasks this means pennies per session.
 
 There are also tools offering free or semi-free coding models:
 
-  Tool           Notes
-  -------------- --------------------------------------
-  Cursor         small models + limited premium usage
-  Codeium        unlimited completions
-  Tabnine        free tier available
-  JetBrains AI   local + quota models
+| Tool         | Notes                              |
+|-------------|------------------------------------|
+| Cursor      | small models + limited premium usage |
+| Codeium     | unlimited completions               |
+| Tabnine     | free tier available                 |
+| JetBrains AI | local + quota models               |
 
 Some allow plugging in your own local models, which removes limits entirely.
 
@@ -151,10 +151,10 @@ If you code constantly, running bigger models locally becomes viable.
 
 Typical developer setups:
 
-  Hardware                    Cost
-  --------------------------- -------------
-  Used RTX 3090 workstation   \~\$1.5--2k
-  RTX 4090 workstation        \~\$3--4k
+| Hardware                   | Cost          |
+|----------------------------|---------------|
+| Used RTX 3090 workstation  | ~$1.5–2k      |
+| RTX 4090 workstation       | ~$3–4k        |
 
 A 24GB GPU can run models in the 30B parameter range, which are good enough for most coding tasks.
 
