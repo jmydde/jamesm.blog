@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Openclaw on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/openclaw/</link>
+    <description>Recent content in Openclaw on jamesm.blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Mar 2026 07:09:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/openclaw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenClaw Is Absolutely Wild</title>
+      <link>https://jamesm.blog/ai/openclaw-is-wild/</link>
+      <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
+      
+      <guid>https://jamesm.blog/ai/openclaw-is-wild/</guid>
+      <description>&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Wait&amp;hellip; this changes everything.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That was my reaction when I saw OpenClaw.&lt;/p&gt;
+&lt;h2 id=&#34;software-that-can-actually-do-things&#34;&gt;Software That Can Actually Do Things&lt;/h2&gt;
+&lt;p&gt;Most of the time when we talk to AI, we are talking to a chatbot. It answers questions, writes text, maybe generates some code. Useful, sure - but still mostly passive.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:</p>
+<p>&ldquo;Wait&hellip; this changes everything.&rdquo;</p>
+<p>That was my reaction when I saw OpenClaw.</p>
+<h2 id="software-that-can-actually-do-things">Software That Can Actually Do Things</h2>
+<p>Most of the time when we talk to AI, we are talking to a chatbot. It answers questions, writes text, maybe generates some code. Useful, sure - but still mostly passive.</p>
+<p>OpenClaw flips that model on its head.</p>
+<p>Instead of an AI that only responds to prompts, you suddenly have an AI that can actually <strong>operate software</strong>. It can interact with applications, use tools, and execute real workflows in the same environment that a human would.</p>
+<p>In other words, it stops being a chatbot and starts becoming an <strong>operator</strong>.</p>
+<p>That shift is huge.</p>
+<h2 id="the-interface-is-the-computer">The Interface Is the Computer</h2>
+<p>The clever idea behind systems like OpenClaw is surprisingly simple: if a human can operate a piece of software through an interface, then an AI should be able to learn to operate that same interface.</p>
+<p>No special API required.<br>
+No custom integrations.<br>
+Just the computer screen itself.</p>
+<p>The AI sees the interface, understands the layout, decides what to click or type, and executes the task. The same way a human does.</p>
+<p>That means any software instantly becomes automatable.</p>
+<p>And that is kind of insane when you think about it.</p>
+<h2 id="the-implications-are-massive">The Implications Are Massive</h2>
+<p>The moment you have an AI that can reliably operate software, you unlock a completely different class of automation.</p>
+<p>Suddenly an AI can:</p>
+<ul>
+<li>use development tools</li>
+<li>navigate complex dashboards</li>
+<li>operate legacy enterprise software</li>
+<li>manage workflows across multiple applications</li>
+<li>perform repetitive operational tasks</li>
+</ul>
+<p>All the things that normally require a human sitting there clicking around.</p>
+<p>And because the AI is driven by reasoning models, it is not just following a fixed script. It can adapt. It can recover from mistakes. It can figure things out.</p>
+<p>This starts to look less like automation and more like <strong>digital labor</strong>.</p>
+<h2 id="why-this-feels-like-a-turning-point">Why This Feels Like A Turning Point</h2>
+<p>We are entering a world where intelligence is becoming programmable.</p>
+<p>First we got models that could think and generate ideas.<br>
+Then we got models that could write and modify code.<br>
+Now we are getting systems that can <strong>operate computers directly</strong>.</p>
+<p>Put those together and something strange happens.</p>
+<p>You end up with software that can build software, run software, and manage software.</p>
+<p>That is a very different computing paradigm than the one we have lived with for the last 40 years.</p>
+<h2 id="the-weird-future-that-is-arriving">The Weird Future That Is Arriving</h2>
+<p>The funny thing is that OpenClaw is not some giant corporate product. It is part of a growing wave of open projects experimenting with what AI agents can do.</p>
+<p>And every month they are getting better.</p>
+<p>The models are improving.<br>
+The tooling is improving.<br>
+The reliability is improving.</p>
+<p>The result is that what seemed like science fiction a year ago now feels inevitable.</p>
+<p>We are slowly moving toward a world where computers are no longer tools we operate manually, but systems that can <strong>operate themselves with a bit of guidance</strong>.</p>
+<p>That is a pretty wild shift.</p>
+<p>And projects like OpenClaw are showing us what that future actually looks like.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
