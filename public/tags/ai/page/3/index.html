@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,21 +10,16 @@
 <meta name="description" content="">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/tags/ai/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7da7716a1f2d0725f74c6ae7f8d6adafc43aabe2b366b65bfbf433448e2a2001.css" integrity="sha256-fadxah8tByX3TGrn&#43;Natr8Q6q&#43;KzZrZb&#43;/QzRI4qIAE=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
 <link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
-<link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/tags/ai/index.xml">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/tags/ai/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://jamesm.blog/tags/ai/">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Ai | jamesm.blog" />
-<meta name="twitter:description" content="" />
-<meta property="og:title" content="Ai | jamesm.blog" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jamesm.blog/tags/ai/" />
-    <meta property="og:image" content="https://jamesm.blog/papermod-cover.png"/>
-
-
 <noscript>
     <style>
         #theme-toggle,
@@ -40,111 +35,67 @@
                 --entry: rgb(46, 46, 51);
                 --primary: rgb(218, 218, 219);
                 --secondary: rgb(155, 156, 157);
-                --tertiary-bg: rgb(65, 66, 68);
+                --tertiary: rgb(65, 66, 68);
                 --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
-            .list-page {
+            .list {
                 background: var(--theme);
             }
 
-            .list-page:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list-page:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
 </noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jamesm.blog/tags/ai/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Ai">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="Ai">
 
 </head>
-
-<body class="list-page type-tags kind-term layout-" id="top"><script data-no-instant>
-function switchTheme(theme) {
-  switch (theme) {
-    case 'light':
-      document.body.classList.remove('dark');
-      break;
-    case 'dark':
-      document.body.classList.add('dark');
-      break;
-    
-    default:
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-      }
-  }
-}
-
-function isDarkTheme() {
-  return document.body.className.includes("dark");
-}
-
-function getPrefTheme() {
-  return localStorage.getItem("pref-theme");
-}
-
-function setPrefTheme(theme) {
-  switchTheme(theme)
-  localStorage.setItem("pref-theme", theme);
-}
-
-const toggleThemeCallbacks = {}
-toggleThemeCallbacks['main'] = (isDark) => {
-  
-  if (isDark) {
-    setPrefTheme('light');
-  } else {
-    setPrefTheme('dark');
-  }
-}
-
-
-
-
-window.addEventListener('toggle-theme', function() {
-  
-  const isDark = isDarkTheme()
-  for (const key in toggleThemeCallbacks) {
-    toggleThemeCallbacks[key](isDark)
-  }
-});
-
-
-function toggleThemeListener() {
-  
-  window.dispatchEvent(new CustomEvent('toggle-theme'));
-}
-
-</script>
-<script>
-  
-  (function() {
-    const defaultTheme = 'auto';
-    const prefTheme = getPrefTheme();
-    const theme = prefTheme ? prefTheme : defaultTheme;
-
-    switchTheme(theme);
-  })();
-</script>
-
-<header class="header">
+<body class="list" id="top">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
-            <span class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -158,57 +109,57 @@ function toggleThemeListener() {
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-            </span>
+            </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)"data-no-instant accesskey=/
-                >Search
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/tags/" title="Tags" class="active"
-                >Tags
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/ai/" title="AI"
-                >AI
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/blockchain/" title="Blockchain"
-                >Blockchain
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/data-engineering/" title="Data"
-                >Data
+                <a href="https://jamesm.blog/data-engineering" title="Data">
+                    <span>Data</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/devops/" title="DevOps"
-                >DevOps
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/general/" title="General"
-                >General
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/music-production/" title="Music Production"
-                >Music Production
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/personal-development/" title="Personal Dev"
-                >Personal Dev
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
                 </a>
             </li>
             <li>
-                <a href="https://jamesm.blog/space/" title="Space"
-                >Space
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
                 </a>
             </li>
         </ul>
@@ -217,343 +168,241 @@ function toggleThemeListener() {
 <main class="main"> 
 <header class="page-header"><div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/tags/">Tags</a></div>
   <h1>
-    tag: Ai</h1><div class="inline-links">
-  
-  
-  <span><a href="https://jamesm.blog/tags/ai/index.xml" target="_blank">RSS</a></span></div>
+    Ai
+    <a href="/tags/ai/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
 </header>
-
-
-
-
-
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Boston Dynamics reveals it&#39;s most astonishing humanoid robot so far
+    <h2 class="entry-hint-parent">Boston Dynamics reveals it&#39;s most astonishing humanoid robot so far
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>Boston Dynamics has revealed it’s most astonishing humanoid robot so far.
+  <div class="entry-content">
+    <p>Boston Dynamics has revealed it’s most astonishing humanoid robot so far.
 The All New Atlas is Boston Dynamic’s first all-electric humanoid robot, designed for real-world applications, it has a far more human-like body. However it’s still a long way from commercial or consumer availability.
 The next generation of the Atlas program builds on decades of research and furthers their commitment to delivering the most capable, useful mobile robots. An advanced control system and state-of-the-art hardware give the robot the power and balance to demonstrate advanced athletics and agility.
 ...</p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>April 20, 2024</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/boston-dynamics/">Boston Dynamics</a><a href="https://jamesm.blog/tags/robots/">Robots</a><a href="https://jamesm.blog/tags/humanoid-robots/">Humanoid Robots</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-20 22:09:25 +0100 BST'>April 20, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Boston Dynamics reveals it&#39;s most astonishing humanoid robot so far" href="https://jamesm.blog/ai/boston-dynamics-humanoid-robot/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>OpenAI Voice Engine
+    <h2 class="entry-hint-parent">OpenAI Voice Engine
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>About OpenAI’s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample. It is notable that a small model with a single 15-second sample can create emotive and realistic voices. To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
+  <div class="entry-content">
+    <p>About OpenAI’s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample. It is notable that a small model with a single 15-second sample can create emotive and realistic voices. To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
 Links https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices YouTube OpenAI Introducing: A New Era of Human-like AI Voices </p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>March 29, 2024</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/openai/">Openai</a><a href="https://jamesm.blog/tags/voice-engine/">Voice Engine</a><a href="https://jamesm.blog/tags/voice/">Voice</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-29 23:12:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to OpenAI Voice Engine" href="https://jamesm.blog/ai/openai-voice-engine/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Microsoft Stargate
+    <h2 class="entry-hint-parent">Microsoft Stargate
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>About Microsoft Stargate is an ambitious project in collaboration with OpenAI to build a massive AI supercomputer.
+  <div class="entry-content">
+    <p>About Microsoft Stargate is an ambitious project in collaboration with OpenAI to build a massive AI supercomputer.
 Stargate is envisioned as a giant data center housing a powerful AI supercomputer. It is estimated to cost over $100 billion, construction is expected to begin by 2028 and take several years to complete. The purpose of Stargate is to provide the computing power needed to develop next-generation artificial intelligence models.
 Links https://gizmodo.com/microsoft-building-stargate-transport-openai-future-1851375210 YouTube Microsoft and OpenAI to collaborate for $100 billion data centre project | Republic Business </p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>March 29, 2024</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/openai/">Openai</a><a href="https://jamesm.blog/tags/microsoft/">Microsoft</a><a href="https://jamesm.blog/tags/stargate/">Stargate</a><a href="https://jamesm.blog/tags/supercomputers/">Supercomputers</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-29 22:09:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Microsoft Stargate" href="https://jamesm.blog/ai/microsoft-openai-stargate/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Google Gemini Ultra
+    <h2 class="entry-hint-parent">Google Gemini Ultra
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>About Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here’s what makes it special:
+  <div class="entry-content">
+    <p>About Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here’s what makes it special:
 Unmatched Performance
 State-of-the-Art: Outperforms previous models on various benchmarks, including tasks related to text, code, and more [3]. MMLU Champion: Achieves a score of 90.0% on the Massive Multitask Language Understanding (MMLU) benchmark, surpassing human experts for the first time [2]. MMLU tests a broad range of subjects, demanding both knowledge and problem-solving skills. Advanced Features
 ...</p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>March 29, 2024</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/chatbots/">Chatbots</a><a href="https://jamesm.blog/tags/google/">Google</a><a href="https://jamesm.blog/tags/gemini/">Gemini</a><a href="https://jamesm.blog/tags/gemini-ultra/">Gemini Ultra</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>2 min</span></span>
-</footer>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-29 07:16:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Google Gemini Ultra" href="https://jamesm.blog/ai/google-gemini-ultra/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Google Gemini Advanced
+    <h2 class="entry-hint-parent">Google Gemini Advanced
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>About Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.
+  <div class="entry-content">
+    <p>About Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.
 Advanced Capabilities
 Multimodal Reasoning: Can analyze and understand complex information combining text and visuals. Coding Expertise: Understands, explains, and generates code in various programming languages. Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content. Enhanced User Experience
 Extended Conversations: Facilitates longer and more detailed interactions compared to the base model. Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses. Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions. Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches. Accessibility
 ...</p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>March 29, 2024</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/chatbots/">Chatbots</a><a href="https://jamesm.blog/tags/google/">Google</a><a href="https://jamesm.blog/tags/gemini/">Gemini</a><a href="https://jamesm.blog/tags/gemini-advanced/">Gemini Advanced</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-29 07:12:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Google Gemini Advanced" href="https://jamesm.blog/ai/google-gemini-advanced/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>List of AI Courses &amp; Learning Resources
+    <h2 class="entry-hint-parent">List of AI Courses &amp; Learning Resources
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>Books Deep Learning with Python The Elements of Statistical Learning Courses Class Central Artificial Intelligence Courses ChatGPT Courses Elements of AI Midjourney Courses Coursera AI for Everyone IBM Applied AI Professional Certificate Supervised Machine Learning: Regression and Classification DataCamp AI Fundamentals Introduction to ChatGPT DeepLearning ChatGPT Prompt Engineering for Developers edX Learning From Data (Introductory Machine Learning) Elements of AI Fast.ai Future Learn Digital Skills: Artificial Intelligence Google Cloud Skills Boost Generative AI learning path Attention Mechanism Create Image Captioning Models Encoder-Decoder Architecture Generative AI Explorer - Vertex AI Introduction to Generative AI Introduction to Generative AI Studio Introduction to Image Generation Introduction to Large Language Models Introduction to Responsible AI Transformer Models and BERT Model Harvard Artificial Intelligence Courses Machine Learning Mastery Microsoft AI for Begineers Oxford AI Online Courses PyTorch Reed AI Online Courses Stanford Artificial Intelligence Graduate Certificate Artificial Intelligence Programs TensorFlow Udacity Intro to Artificial Intelligence (Free) Udemy Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4 Artificial Intelligence (ARS): Build the Most Powerful AI Artificial Intelligence Masterclass Artificial Intelligence: Reinforcement Learning in Python The Beginner’s Guide to Artificial Intelligence (Unity 2022) Unity Artificial Intelligence for Beginners Learning Resources Google AI Build How to use ChatGPT to create an app Newsletters Lore - weekly newsletter with the latest Generative AI news, insights and featured tools Twitter Accounts AI Daily - teaches about AI Borriss - developer &amp; writer of practical AI Javi Lopez - AI educator Lex Fridman - host of Lex Fridman Podcast, research scientist at MIT Linus - AI educator &amp; designer Steve Mills - exploring creative uses of Generative AI YouTube Channels Artificial Intelligence - All in One Connor Shorten DeepLearningAI Jeremy Howard Kaggle Lex Fridman sentdex The Artificial Intelligence Channel Two Minute Papers Yannic Kilcher- YouTube Videos Excel AI - data analysis made easy Google Bard: A beginner’s guide to Google’s AI chatbot How to Build a FULL App With ChatGPT in 20 minutes! How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website Midjourney Prompt Tips for Beginners and Veterans Stable diffusion prompt tutorial </p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>December 18, 2023</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/chatbots/">Chatbots</a><a href="https://jamesm.blog/tags/chatgpt/">Chatgpt</a><a href="https://jamesm.blog/tags/training-courses/">Training Courses</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>2 min</span></span>
-</footer>
+  <div class="entry-content">
+    <p>Books Deep Learning with Python The Elements of Statistical Learning Courses Class Central Artificial Intelligence Courses ChatGPT Courses Elements of AI Midjourney Courses Coursera AI for Everyone IBM Applied AI Professional Certificate Supervised Machine Learning: Regression and Classification DataCamp AI Fundamentals Introduction to ChatGPT DeepLearning ChatGPT Prompt Engineering for Developers edX Learning From Data (Introductory Machine Learning) Elements of AI Fast.ai Future Learn Digital Skills: Artificial Intelligence Google Cloud Skills Boost Generative AI learning path Attention Mechanism Create Image Captioning Models Encoder-Decoder Architecture Generative AI Explorer - Vertex AI Introduction to Generative AI Introduction to Generative AI Studio Introduction to Image Generation Introduction to Large Language Models Introduction to Responsible AI Transformer Models and BERT Model Harvard Artificial Intelligence Courses Machine Learning Mastery Microsoft AI for Begineers Oxford AI Online Courses PyTorch Reed AI Online Courses Stanford Artificial Intelligence Graduate Certificate Artificial Intelligence Programs TensorFlow Udacity Intro to Artificial Intelligence (Free) Udemy Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4 Artificial Intelligence (ARS): Build the Most Powerful AI Artificial Intelligence Masterclass Artificial Intelligence: Reinforcement Learning in Python The Beginner’s Guide to Artificial Intelligence (Unity 2022) Unity Artificial Intelligence for Beginners Learning Resources Google AI Build How to use ChatGPT to create an app Newsletters Lore - weekly newsletter with the latest Generative AI news, insights and featured tools Twitter Accounts AI Daily - teaches about AI Borriss - developer &amp; writer of practical AI Javi Lopez - AI educator Lex Fridman - host of Lex Fridman Podcast, research scientist at MIT Linus - AI educator &amp; designer Steve Mills - exploring creative uses of Generative AI YouTube Channels Artificial Intelligence - All in One Connor Shorten DeepLearningAI Jeremy Howard Kaggle Lex Fridman sentdex The Artificial Intelligence Channel Two Minute Papers Yannic Kilcher- YouTube Videos Excel AI - data analysis made easy Google Bard: A beginner’s guide to Google’s AI chatbot How to Build a FULL App With ChatGPT in 20 minutes! How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website Midjourney Prompt Tips for Beginners and Veterans Stable diffusion prompt tutorial </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-18 10:51:25 +0100 +0100'>December 18, 2023</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to List of AI Courses & Learning Resources" href="https://jamesm.blog/ai/courses/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>List of AI Summits &amp; Conferences
+    <h2 class="entry-hint-parent">List of AI Summits &amp; Conferences
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>Amsterdam Event Name Location Date(s) World Sumit AI Taets Art &amp; Event Park 11th-12th October 2023 London Event Name Location Date(s) AI &amp; Big Data Expo Olympia 30th November - 1st December 2023 AI UK Conference IStructE 24th April 2023 AI World Congress Kensington Conference &amp; Event Centre 28th-29th June 2023 Gen AI Con Tobacco Dock 14th-15th June 2023 The AI Summit London Tobacco Dock 14th-15th June 2023 San Francisco Event Name Location Date(s) Data &amp; AI Summit Moscone Center 26th–29th June 2023 </p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>June 10, 2023</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/summits/">Summits</a><a href="https://jamesm.blog/tags/conferences/">Conferences</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  <div class="entry-content">
+    <p>Amsterdam Event Name Location Date(s) World Sumit AI Taets Art &amp; Event Park 11th-12th October 2023 London Event Name Location Date(s) AI &amp; Big Data Expo Olympia 30th November - 1st December 2023 AI UK Conference IStructE 24th April 2023 AI World Congress Kensington Conference &amp; Event Centre 28th-29th June 2023 Gen AI Con Tobacco Dock 14th-15th June 2023 The AI Summit London Tobacco Dock 14th-15th June 2023 San Francisco Event Name Location Date(s) Data &amp; AI Summit Moscone Center 26th–29th June 2023 </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-10 06:51:25 +0100 BST'>June 10, 2023</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to List of AI Summits & Conferences" href="https://jamesm.blog/ai/conferences/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>List of AI GitHub Projects
+    <h2 class="entry-hint-parent">List of AI GitHub Projects
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>Chatbots Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering Other Twitter’s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore) </p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>May 27, 2023</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/github/">Github</a><a href="https://jamesm.blog/tags/chatgpt/">Chatgpt</a><a href="https://jamesm.blog/tags/chatbots/">Chatbots</a><a href="https://jamesm.blog/tags/algorithms/">Algorithms</a><a href="https://jamesm.blog/tags/twitter/">Twitter</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  <div class="entry-content">
+    <p>Chatbots Auto-GPT - autonomous GPT Dev-GPT - your automated development team Prompt Engineering Guide - latest papers, learning guides, lectures, references &amp; tools related for prompt engineering Other Twitter’s Recommendation Algorithm - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore) </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-05-27 08:01:18 +0100 BST'>May 27, 2023</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to List of AI GitHub Projects" href="https://jamesm.blog/ai/github-projects/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Adobe&#39;s new Generative Fill is mind-blowing 🤯
+    <h2 class="entry-hint-parent">Adobe&#39;s new Generative Fill is mind-blowing 🤯
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>Experience the future of Photoshop with Generative Fill
+  <div class="entry-content">
+    <p>Experience the future of Photoshop with Generative Fill
 https://helpx.adobe.com/ie/photoshop/using/generative-fill.html Generative AI with Firefly
 https://www.adobe.com/sensei/generative-ai/firefly.html Other new features &amp; improvements
 Adjustment presets Contextual task bar Gradients Remove tool: easily remove any object or person from an image instantly YouTube Adobes New AI ‘FIREFLY Photoshop’ Has Everyone Stunned! This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER Related List of AI Tools </p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>May 26, 2023</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/adobe/">Adobe</a><a href="https://jamesm.blog/tags/photoshop/">Photoshop</a><a href="https://jamesm.blog/tags/photos/">Photos</a><a href="https://jamesm.blog/tags/photograpy/">Photograpy</a><a href="https://jamesm.blog/tags/generative-ai/">Generative Ai</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  </div>
+  <footer class="entry-footer"><span title='2023-05-26 20:04:28 +0100 BST'>May 26, 2023</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Adobe&#39;s new Generative Fill is mind-blowing 🤯" href="https://jamesm.blog/ai/adobe-generative-fill/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>Neuralink receives FDA approval to launch first-in-human clinical study
+    <h2 class="entry-hint-parent">Neuralink receives FDA approval to launch first-in-human clinical study
     </h2>
   </header>
-  <section class="entry-content">
-    
-      <p>We are excited to share that we have received the FDA’s approval to launch our first-in-human clinical study!
+  <div class="entry-content">
+    <p>We are excited to share that we have received the FDA’s approval to launch our first-in-human clinical study!
 This is the result of incredible work by the Neuralink team in close collaboration with the FDA and represents an important first step that will one day allow our…
 — Neuralink (@neuralink) May 25, 2023 </p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar" style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6" style="user-select: text;"></line><line x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10" style="user-select: text;"></line></svg>
-  <span>May 25, 2023</span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon" style="user-select: text;"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" style="user-select: text;"></path><line x1="7" y1="7" x2="7" y2="7" style="user-select: text;"></line></svg>
-  <span class="post-tags"><a href="https://jamesm.blog/tags/ai/">Ai</a><a href="https://jamesm.blog/tags/tweets/">Tweets</a></span></span><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
+  </div>
+  <footer class="entry-footer"><span title='2023-05-25 11:30:14 +0100 BST'>May 25, 2023</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Neuralink receives FDA approval to launch first-in-human clinical study" href="https://jamesm.blog/ai/tweets/neurallink/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="https://jamesm.blog/tags/ai/page/2/">« Prev Page</a>
-    <a class="next" href="https://jamesm.blog/tags/ai/page/4/">Next Page »</a>
+    <a class="prev" href="https://jamesm.blog/tags/ai/page/2/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://jamesm.blog/tags/ai/page/4/">Next&nbsp;&nbsp;»
+    </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-  <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span><span style="display: inline-block; margin-left: 1em;">
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
-  </span>
-  <span style="display: inline-block; margin-left: 1em;">
-    Powered by
-    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
-  </span>
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-    <path d="M12 6H0l6-6z" />
-  </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
 <script>
-  (function() {
-     
-    const disableThemeToggle = '' == '1';
-    if (disableThemeToggle) {
-      return;
-    }
-
-    let button = document.getElementById("theme-toggle")
-    
-    button.removeEventListener('click', toggleThemeListener)
-    
-    button.addEventListener('click', toggleThemeListener)
-  })();
-</script>
-
-<script>
-  (function () {
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-      menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-      }
-    }
-
-    const disableSmoothScroll = '' == '1';
-    const enableInstantClick = '' == '1';
-    
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
-      return;
-    }
-    
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        var id = this.getAttribute("href").substr(1);
-        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-          behavior: "smooth"
-        });
-        if (id === "top") {
-          history.replaceState(null, null, " ");
-        } else {
-          history.pushState(null, null, `#${id}`);
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
         }
-      });
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
     });
-  })();
+
 </script>
 <script>
-  var mybutton = document.getElementById("top-link");
-  window.onscroll = function () {
-    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-      mybutton.style.visibility = "visible";
-      mybutton.style.opacity = "1";
-    } else {
-      mybutton.style.visibility = "hidden";
-      mybutton.style.opacity = "0";
-    }
-  };
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
 </script>
 <script>
-  if (window.scrollListeners) {
-    
-    for (const listener of scrollListeners) {
-      window.removeEventListener('scroll', listener)
-    }
-  }
-  window.scrollListeners = []
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
 </script>
-
-
-
-<script src="/js/medium-zoom.min.js" data-no-instant
-></script>
 </body>
 
 </html>

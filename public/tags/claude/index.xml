@@ -4,14 +4,19 @@
     <title>Claude on jamesm.blog</title>
     <link>https://jamesm.blog/tags/claude/</link>
     <description>Recent content in Claude on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 07:14:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 07:14:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/claude/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Claude Code Just Got a Serious Code Review Feature</title>
       <link>https://jamesm.blog/ai/claude-code-review/</link>
       <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/claude-code-review/</guid>
       <description>&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;
 &lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in Claude Code, which Anthropic just released in research preview.&lt;/p&gt;
@@ -19,319 +24,20 @@
 &lt;p&gt;At first glance it sounds like another &amp;ldquo;AI reviews your code&amp;rdquo; feature. We&amp;rsquo;ve had plenty of those.&lt;/p&gt;
 &lt;p&gt;But when you look closer, this one is actually quite different.&lt;/p&gt;
 &lt;p&gt;Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.</p>
-<p>A good example of that is the new <strong>Code Review</strong> feature in Claude Code, which Anthropic just released in research preview.</p>
-<p>Docs: <a href="https://code.claude.com/docs/en/code-review">https://code.claude.com/docs/en/code-review</a></p>
-<p>At first glance it sounds like another &ldquo;AI reviews your code&rdquo; feature. We&rsquo;ve had plenty of those.</p>
-<p>But when you look closer, this one is actually quite different.</p>
-<p>Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.</p>
-<p>Claude Code’s new system takes a very different approach.</p>
-<p>Instead of running a single model pass over your pull request, it dispatches a team of AI agents to review the PR in parallel. Each agent hunts for issues from a different perspective, verifies potential bugs, and then the system ranks the findings by severity before posting a structured review. :contentReference[oaicite:0]{index=0}</p>
-<p>The result is a single high-signal review comment plus inline comments directly on the relevant lines of code.</p>
-<p>In other words, it&rsquo;s trying to replicate what a really good human code review actually looks like.</p>
-<h2 id="the-real-problem-this-is-solving">The real problem this is solving</h2>
-<p>The interesting part here is not the technology. It&rsquo;s the problem.</p>
-<p>AI is massively increasing the amount of code being written.</p>
-<p>Anthropic reported that code output per engineer internally has increased by about <strong>200% over the last year</strong>, which created an unexpected bottleneck: code review. :contentReference[oaicite:1]{index=1}</p>
-<p>If developers are shipping more code, the review process becomes the limiting factor.</p>
-<p>Humans skim.</p>
-<p>We all do it.</p>
-<p>You open a PR with 600 lines changed, scroll through the diff, and give it a quick approval because everything looks fine.</p>
-<p>That works right up until the one-line change that silently breaks authentication in production.</p>
-<p>Apparently that exact scenario already happened internally. A one-line diff that looked trivial was flagged by Claude Code Review as a critical issue that would have broken authentication for a service. :contentReference[oaicite:2]{index=2}</p>
-<p>That’s the type of bug humans miss all the time.</p>
-<h2 id="multi-agent-review-is-the-interesting-part">Multi-agent review is the interesting part</h2>
-<p>The architecture is what makes this feature interesting.</p>
-<p>Instead of one model doing a shallow scan, Claude Code:</p>
-<ul>
-<li>launches multiple review agents</li>
-<li>runs bug detection in parallel</li>
-<li>cross-checks findings to filter false positives</li>
-<li>ranks issues by severity before posting feedback</li>
-</ul>
-<p>The agents analyse changes from different angles and only high-confidence issues are surfaced, which dramatically reduces noise in the review. :contentReference[oaicite:3]{index=3}</p>
-<p>Anyone who has used traditional static analysis tools knows how big a deal that is. False positives are what make people ignore automated reviews.</p>
-<p>If the signal is clean, developers actually pay attention.</p>
-<h2 id="it-scales-with-the-size-of-the-pr">It scales with the size of the PR</h2>
-<p>Another clever detail is that the review depth scales with the change.</p>
-<p>Small PRs get a lightweight pass.<br>
-Large or complex PRs get a deeper analysis with more agents.</p>
-<p>Reviews typically take around <strong>20 minutes to run</strong> and cost roughly <strong>$15-$25 per review</strong>, since the system is token-based and designed for depth rather than speed. :contentReference[oaicite:4]{index=4}</p>
-<p>That might sound expensive at first.</p>
-<p>But compared to the cost of shipping a subtle production bug, it’s trivial.</p>
-<h2 id="it-doesnt-replace-human-review">It doesn’t replace human review</h2>
-<p>One thing I like about the design is that it doesn&rsquo;t approve pull requests.</p>
-<p>Humans still do that.</p>
-<p>The AI’s job is simply to surface issues that reviewers might otherwise miss.</p>
-<p>Think of it less like replacing the reviewer and more like giving every PR a <strong>superhuman pre-review</strong> before a human even opens the diff.</p>
-<p>That’s a much healthier model than trying to automate approvals.</p>
-<h2 id="where-this-is-going">Where this is going</h2>
-<p>What’s really happening here is something bigger.</p>
-<p>AI is increasing code generation by an order of magnitude.</p>
-<p>That means the rest of the software development lifecycle needs to evolve too:</p>
-<ul>
-<li>review</li>
-<li>testing</li>
-<li>debugging</li>
-<li>CI</li>
-<li>maintenance</li>
-</ul>
-<p>Claude Code’s new review system feels like one of the first serious attempts to adapt <strong>code review to the AI-generated code era</strong>.</p>
-<p>Instead of one developer reviewing another developer’s work, you now have AI reviewing AI-generated code before humans ever see it.</p>
-<p>That’s a pretty wild shift in how software gets built.</p>
-<p>And honestly, I suspect this is just the beginning.</p>
-]]></content:encoded>
     </item>
-    
     <item>
       <title>Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward</title>
       <link>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</link>
       <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</guid>
       <description>&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;
 &lt;p&gt;So I started exploring alternatives.&lt;/p&gt;
 &lt;p&gt;What I&amp;rsquo;ve realised is that the best approach isn&amp;rsquo;t replacing Claude Code entirely - it&amp;rsquo;s building a hybrid AI developer stack where different models handle different types of work.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.</p>
-<p>So I started exploring alternatives.</p>
-<p>What I&rsquo;ve realised is that the best approach isn&rsquo;t replacing Claude Code entirely - it&rsquo;s building a hybrid AI developer stack where different models handle different types of work.</p>
-<p>Think of it like a compute tiering strategy.</p>
-<hr>
-<h2 id="the-hybrid-ai-stack">The Hybrid AI Stack</h2>
-<p>Instead of relying on a single frontier model, I&rsquo;m moving towards something like this:</p>
-<table>
-  <thead>
-      <tr>
-          <th>Task</th>
-          <th>Model Type</th>
-          <th>Cost</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Quick edits, small scripts</td>
-          <td>Local model</td>
-          <td>Free</td>
-      </tr>
-      <tr>
-          <td>General coding tasks</td>
-          <td>Cheap cloud models</td>
-          <td>Pennies</td>
-      </tr>
-      <tr>
-          <td>Architecture / complex work</td>
-          <td>Claude / frontier models</td>
-          <td>Occasional</td>
-      </tr>
-  </tbody>
-</table>
-<p>In practice this means most requests never touch the expensive models.</p>
-<hr>
-<h2 id="running-models-locally">Running Models Locally</h2>
-<p>For basic coding tasks, local models are already surprisingly capable.</p>
-<p>Tools to run them:</p>
-<ul>
-<li>Ollama</li>
-<li>LM Studio</li>
-</ul>
-<p>Then connect them to an IDE agent such as:</p>
-<ul>
-<li>Continue.dev</li>
-<li>Cline</li>
-<li>Aider</li>
-</ul>
-<p>Some good coding models:</p>
-<table>
-  <thead>
-      <tr>
-          <th>Model</th>
-          <th>Size</th>
-          <th>Notes</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>DeepSeek Coder</td>
-          <td>6B / 33B</td>
-          <td>Strong coding performance</td>
-      </tr>
-      <tr>
-          <td>Qwen2.5 Coder</td>
-          <td>7B / 32B</td>
-          <td>Good reasoning + tool use</td>
-      </tr>
-      <tr>
-          <td>Codestral</td>
-          <td>~22B</td>
-          <td>Solid refactoring</td>
-      </tr>
-      <tr>
-          <td>Llama-3.1</td>
-          <td>8B</td>
-          <td>Fast and lightweight</td>
-      </tr>
-  </tbody>
-</table>
-<p>Example:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install ollama
-</span></span><span class="line"><span class="cl">ollama run deepseek-coder:6.7b
-</span></span></code></pre></div><p>Local models are great for:</p>
-<ul>
-<li>writing functions</li>
-<li>fixing bugs</li>
-<li>editing files</li>
-<li>explaining code</li>
-<li>generating tests</li>
-</ul>
-<p>They struggle more with large multi-file reasoning, which is where frontier models still shine.</p>
-<hr>
-<h2 id="cheap-cloud-models">Cheap Cloud Models</h2>
-<p>Instead of paying subscription pricing, you can also call open models via inference providers.</p>
-<p>Some good ones:</p>
-<ul>
-<li>Groq</li>
-<li>Together AI</li>
-<li>DeepInfra</li>
-<li>Fireworks AI</li>
-</ul>
-<p>Typical pricing is tiny:</p>
-<table>
-  <thead>
-      <tr>
-          <th>Model</th>
-          <th>Approx Price</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Llama-3 70B</td>
-          <td>~$0.20 / million tokens</td>
-      </tr>
-      <tr>
-          <td>DeepSeek V3</td>
-          <td>~$0.30 / million tokens</td>
-      </tr>
-      <tr>
-          <td>Qwen coder</td>
-          <td>~$0.10 / million tokens</td>
-      </tr>
-  </tbody>
-</table>
-<p>For normal coding tasks this means pennies per session.</p>
-<hr>
-<h2 id="free-coding-assistants">Free Coding Assistants</h2>
-<p>There are also tools offering free or semi-free coding models:</p>
-<table>
-  <thead>
-      <tr>
-          <th>Tool</th>
-          <th>Notes</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Cursor</td>
-          <td>small models + limited premium usage</td>
-      </tr>
-      <tr>
-          <td>Codeium</td>
-          <td>unlimited completions</td>
-      </tr>
-      <tr>
-          <td>Tabnine</td>
-          <td>free tier available</td>
-      </tr>
-      <tr>
-          <td>JetBrains AI</td>
-          <td>local + quota models</td>
-      </tr>
-  </tbody>
-</table>
-<p>Some allow plugging in your own local models, which removes limits entirely.</p>
-<hr>
-<h2 id="using-claude-code-less-but-more-strategically">Using Claude Code Less (But More Strategically)</h2>
-<p>The key insight for me was this:</p>
-<p>Frontier models like Claude are still the best for:</p>
-<ul>
-<li>architecture decisions</li>
-<li>large refactors</li>
-<li>complex reasoning</li>
-<li>multi-file edits</li>
-</ul>
-<p>But they&rsquo;re overkill for everyday coding tasks.</p>
-<p>So instead of using Claude for everything, it becomes the top tier tool in the stack.</p>
-<hr>
-<h2 id="the-setup-im-experimenting-with">The Setup I&rsquo;m Experimenting With</h2>
-<p>Something roughly like this:</p>
-<pre><code>VS Code
- ├─ Continue.dev
- ├─ Ollama (local models)
- │   ├─ qwen2.5-coder
- │   └─ deepseek-coder
- │
- └─ API fallback
-     ├─ Groq
-     └─ Claude Code
-</code></pre>
-<p>Usage ends up looking like:</p>
-<ul>
-<li>80% local models</li>
-<li>15% cheap APIs</li>
-<li>5% frontier models</li>
-</ul>
-<p>Which dramatically reduces usage limits.</p>
-<hr>
-<h2 id="hardware-option">Hardware Option</h2>
-<p>If you code constantly, running bigger models locally becomes viable.</p>
-<p>Typical developer setups:</p>
-<table>
-  <thead>
-      <tr>
-          <th>Hardware</th>
-          <th>Cost</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Used RTX 3090 workstation</td>
-          <td>~$1.5–2k</td>
-      </tr>
-      <tr>
-          <td>RTX 4090 workstation</td>
-          <td>~$3–4k</td>
-      </tr>
-  </tbody>
-</table>
-<p>A 24GB GPU can run models in the 30B parameter range, which are good enough for most coding tasks.</p>
-<hr>
-<h2 id="whats-happening-in-the-ai-coding-space">What&rsquo;s Happening in the AI Coding Space</h2>
-<p>One thing is clear: coding models are rapidly commoditising.</p>
-<p>Frontier models still lead in reasoning and agent reliability, but open models are already competitive for:</p>
-<ul>
-<li>writing functions</li>
-<li>generating boilerplate</li>
-<li>fixing bugs</li>
-<li>explaining code</li>
-</ul>
-<p>The gap is shrinking fast.</p>
-<hr>
-<h2 id="my-takeaway">My Takeaway</h2>
-<p>Instead of paying for bigger and bigger subscriptions, it makes more sense to build a layered AI workflow:</p>
-<ul>
-<li>local models for everyday work</li>
-<li>cheap cloud inference for heavier tasks</li>
-<li>frontier models only when needed</li>
-</ul>
-<p>You keep the power of Claude, but avoid hitting limits constantly.</p>
-<p>And realistically, this is probably how most developer AI stacks will look going forward.</p>
-]]></content:encoded>
     </item>
-    
     <item>
       <title>Chatbots &amp; Large Language Models (LLMs)</title>
       <link>https://jamesm.blog/ai/chatbots-llms/</link>
       <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/chatbots-llms/</guid>
       <description>&lt;h2 id=&#34;amazon&#34;&gt;Amazon&lt;/h2&gt;
 &lt;h3 id=&#34;amazon-lex-by-amazon-web-services-aws&#34;&gt;Amazon Lex by Amazon Web Services (AWS)&lt;/h3&gt;
@@ -341,67 +47,6 @@ Large or complex PRs get a deeper analysis with more agents.</p>
 &lt;/ul&gt;
 &lt;h3 id=&#34;amazon-q-by-amazon-web-services-aws&#34;&gt;Amazon Q by Amazon Web Services (AWS)&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/q/&#34;&gt;Amazon Q&lt;/a&gt; is a secure AI chatbot is designed for businesses.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 id="amazon">Amazon</h2>
-<h3 id="amazon-lex-by-amazon-web-services-aws">Amazon Lex by Amazon Web Services (AWS)</h3>
-<p><a href="https://aws.amazon.com/lex/">Amazon Lex</a> is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.</p>
-<ul>
-<li>these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.</li>
-</ul>
-<h3 id="amazon-q-by-amazon-web-services-aws">Amazon Q by Amazon Web Services (AWS)</h3>
-<p><a href="https://aws.amazon.com/q/">Amazon Q</a> is a secure AI chatbot is designed for businesses.</p>
-<ul>
-<li>it utilizes generative AI technology to understand and respond to natural language, allowing for conversational interaction. Key strengths include it&rsquo;s enterprise focus, ability to connect to various data sources, and customizability for specific business needs.</li>
-<li>it can be used for tasks like summarizing documents, generating creative text formats of content,  conducting research, and completing routine tasks.</li>
-</ul>
-<h2 id="bloom-by-allen-institute-for-artificial-intelligence-ai21-labs">BLOOM by Allen Institute for Artificial Intelligence (AI21 Labs)</h2>
-<p><a href="https://bigscience.huggingface.co/blog/bloom">BLOOM</a> is known for its factual language understanding and ability to generate different creative text formats of text content.</p>
-<ul>
-<li>it&rsquo;s particularly strong at staying on topic and avoiding factual errors.</li>
-</ul>
-<h2 id="google">Google</h2>
-<h3 id="claude-v2-by-google-ai">Claude v2 by Google AI</h3>
-<p><a href="https://www.anthropic.com/news/claude-2">Claude v2</a> is known for it&rsquo;s factual language understanding and ability to generate different creative text formats of text content.</p>
-<h3 id="google-gemini-by-google-ai">Google Gemini by Google AI</h3>
-<p><a href="https://gemini.google.com/app">Google Gemini</a> This isn&rsquo;t just a single LLM, but a family of AI models including Gemini Nano, Pro, and Ultra.</p>
-<ul>
-<li>designed to operate on various devices, from smartphones to powerful servers, Gemini can handle tasks beyond just text.</li>
-<li>it can process and generate images, audio, video, code, and other kinds of information.</li>
-<li>Google AI Studio or Vertex AI provide access to Gemini Pro for developers, while Gemini Nano and Lite versions cater to different needs.</li>
-</ul>
-<h3 id="palm-2-pathway-language-model-2-by-google-ai">PaLM 2 (Pathway Language Model 2) by Google AI</h3>
-<p><a href="https://ai.google/discover/palm2/">PaLM 2</a> is known for it&rsquo;s factual language understanding and reasoning capabilities.</p>
-<ul>
-<li>it excels at answering open ended, challenging, or strange questions.</li>
-</ul>
-<h2 id="jurassic-1-jumbo-by-ai21-labs">Jurassic-1 Jumbo by AI21 Labs</h2>
-<p><a href="https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1">Jurassic-1 Jumbo</a> is known for its ability to generate different creative text formats of text content, like poems, code, scripts, musical pieces, email, letters, etc.</p>
-<ul>
-<li>it&rsquo;s particularly strong at following instructions and completing requests thoughtfully.</li>
-</ul>
-<h2 id="llama-3-language-model-for-multimodal-analysis-by-meta-ai">Llama 3 (Language Model for Multimodal Analysis) by Meta AI</h2>
-<p><a href="https://llama.meta.com/llama3/">Llama 3</a> boasts improved performance over it&rsquo;s predecessor, Llama 2.</p>
-<ul>
-<li>it&rsquo;s known for it&rsquo;s ability to handle various tasks including writing different creative text formats, translating languages, and answering your questions in an informative way.</li>
-<li>it&rsquo;s also open-source, making the underlying code available for further development and research.</li>
-</ul>
-<h2 id="megatron-turing-nlg-by-nvidia">Megatron-Turing NLG by NVIDIA</h2>
-<p><a href="https://gpt3demo.com/apps/mt-nlg-by-microsoft-and-nvidia-ai">Megatron-Turing NLG</a> is known for its massive size and ability to handle complex reasoning tasks.</p>
-<ul>
-<li>it&rsquo;s particularly well-suited for scientific research and applications that require a deep understanding of the world.</li>
-</ul>
-<h2 id="openai">OpenAI</h2>
-<h3 id="gpt-35-by-openai">GPT-3.5 by OpenAI</h3>
-<p><a href="https://platform.openai.com/docs/models/overview">GPT-3.5</a> is an earlier version of GPT-4, but is still a powerful LLM with capabilities for generating text, translating languages, writing different kinds of creative content, and answering your questions in an informative way.</p>
-<h3 id="gpt-4-generative-pre-trained-transformer-4-by-openai">GPT-4 (Generative Pre-trained Transformer 4) by OpenAI</h3>
-<p><a href="https://platform.openai.com/docs/models/overview">GPT-4</a> is known for it&rsquo;s ability to generate realistic and creative text formats, translate languages, write different kinds of creative content, and answer your questions in an informative way.</p>
-<h3 id="gpt-4o-o-for-omni">GPT-4o (&ldquo;o&rdquo; for &ldquo;omni&rdquo;)</h3>
-<p><a href="https://openai.com/index/hello-gpt-4o/">GPT-4o</a> is the new flagship model that can reason across audio, vision, and text in real time.</p>
-<h2 id="poe-platform-for-open-exploration-by-quora">Poe (Platform for Open Exploration) by Quora</h2>
-<p><a href="https://quorablog.quora.com/Poe-1">Poe</a> acts as a platform for users to interact with various LLMs like the ones listed above. Poe allows users to query these different models through a user-friendly interface and compare their responses. This makes it a valuable tool for exploring the capabilities of different LLMs and finding the best one for a specific task.</p>
-<h2 id="wudao-20-by-baai-beijing-academy-of-artificial-intelligence">WuDao 2.0 by BAAI (Beijing Academy of Artificial Intelligence)</h2>
-<p><a href="https://gpt3demo.com/apps/wu-dao-20">WuDao 2.0</a> is known for its ability to process and generate text in Mandarin Chinese. It excels at tasks like question answering, text summarization, and machine translation to and from Chinese.</p>
-]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

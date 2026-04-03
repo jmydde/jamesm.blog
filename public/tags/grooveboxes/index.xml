@@ -4,367 +4,41 @@
     <title>Grooveboxes on jamesm.blog</title>
     <link>https://jamesm.blog/tags/grooveboxes/</link>
     <description>Recent content in Grooveboxes on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jan 2026 19:35:21 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/grooveboxes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jan 2026 19:35:21 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/grooveboxes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX</title>
       <link>https://jamesm.blog/music-production/using-mc-707-as-midi-brain-for-modx-m/</link>
       <pubDate>Thu, 08 Jan 2026 19:35:21 +0100</pubDate>
-      
       <guid>https://jamesm.blog/music-production/using-mc-707-as-midi-brain-for-modx-m/</guid>
       <description>&lt;p&gt;The Yamaha MODX M and Roland MC-707 make a surprisingly elegant pair when you stop thinking of them as separate instruments and start treating the MC-707 as a &lt;strong&gt;MIDI recorder and playback brain&lt;/strong&gt; for the MODX.&lt;/p&gt;
 &lt;p&gt;In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>The Yamaha MODX M and Roland MC-707 make a surprisingly elegant pair when you stop thinking of them as separate instruments and start treating the MC-707 as a <strong>MIDI recorder and playback brain</strong> for the MODX.</p>
-<p>In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow.</p>
-<h2 id="the-core-concept">The Core Concept</h2>
-<p>At its heart, this setup is about <strong>MIDI capture and replay</strong>.</p>
-<p>When you play the MODX keyboard, it sends MIDI note data — pitch, timing, velocity, note on and note off. The MC-707 records that data exactly as played. On playback, it sends the same MIDI back to the MODX, which reproduces the performance.</p>
-<p>The MC-707 isn’t “understanding” harmony, melody, or intent. It’s acting like a high-quality tape machine for MIDI — precise, repeatable, and editable.</p>
-<h2 id="basic-connection">Basic Connection</h2>
-<p>The cleanest way to connect the two is with traditional MIDI:</p>
-<ul>
-<li><strong>MODX MIDI OUT → MC-707 MIDI IN</strong></li>
-</ul>
-<p>USB MIDI can work, but using DIN avoids host/device confusion and is generally more predictable, especially in hardware-only setups.</p>
-<h2 id="mc-707-setup">MC-707 Setup</h2>
-<p>On the MC-707:</p>
-<ul>
-<li>Create a <strong>MIDI track</strong> (not a Tone track)</li>
-<li>Set the MIDI input channel to match the MODX transmit channel</li>
-<li>Arm the track for real-time recording</li>
-</ul>
-<p>This tells the MC-707 to listen to the MODX and capture whatever you play.</p>
-<h2 id="modx-setup">MODX Setup</h2>
-<p>On the MODX M:</p>
-<ul>
-<li>Set the keyboard transmit channel to match the MC-707 MIDI track</li>
-<li>Set <strong>Local Control = OFF</strong> if you want to avoid double-triggering during playback</li>
-</ul>
-<p>With Local Control off, the MODX becomes a controller feeding the MC-707, and the MC-707 becomes the source of all playback MIDI.</p>
-<h2 id="recording-a-performance">Recording a Performance</h2>
-<p>Recording is straightforward:</p>
-<ol>
-<li>Press record on the MC-707</li>
-<li>Play on the MODX keyboard</li>
-<li>Stop recording</li>
-</ol>
-<p>The MC-707 records:</p>
-<ul>
-<li>Notes</li>
-<li>Timing</li>
-<li>Velocity</li>
-<li>Performance feel</li>
-</ul>
-<p>When you press play, the MC-707 sends that MIDI back to the MODX and the performance is recreated exactly.</p>
-<p>At this point, the MC-707 is no longer just a groovebox — it’s acting as a central sequencer for an external synth.</p>
-<h2 id="editing-and-playback">Editing and Playback</h2>
-<p>Once the MIDI is recorded, you can:</p>
-<ul>
-<li>Loop sections</li>
-<li>Apply quantisation (or leave things human)</li>
-<li>Duplicate patterns</li>
-<li>Build full arrangements across scenes</li>
-</ul>
-<p>All without touching the MODX keyboard again, unless you want to re-record or layer something new.</p>
-<h2 id="working-with-modx-performances-and-arpeggios">Working with MODX Performances and Arpeggios</h2>
-<p>If the MODX Performance uses arpeggios or motion sequences, you have two creative options:</p>
-<ul>
-<li><strong>Record the keys you play</strong> and let the MODX regenerate movement on playback</li>
-<li><strong>Record the generated MIDI output</strong> for total control inside the MC-707</li>
-</ul>
-<p>Both approaches are valid. One keeps the intelligence inside the MODX, the other commits everything into the MC-707.</p>
-<h2 id="multi-part-and-layered-sounds">Multi-Part and Layered Sounds</h2>
-<p>The MODX M can transmit on multiple MIDI channels when using layered Performances. The MC-707 can record this, but it’s usually easier to start with a single Part and channel until the workflow feels solid.</p>
-<p>Once comfortable, expanding to multiple tracks and channels becomes much more intuitive.</p>
-<h2 id="why-this-setup-works-so-well">Why This Setup Works So Well</h2>
-<p>This pairing plays to the strengths of both machines:</p>
-<ul>
-<li>The <strong>MODX M</strong> excels at expressive playing, sound design, and performance control</li>
-<li>The <strong>MC-707</strong> excels at capturing, looping, arranging, and recalling musical ideas</li>
-</ul>
-<p>Instead of programming notes step-by-step, you perform ideas once and let the sequencer handle repetition and structure.</p>
-<h2 id="summary">Summary</h2>
-<p>Using the Roland MC-707 as a MIDI recorder and playback device for the Yamaha MODX M is simple, reliable, and musically satisfying. It turns the MC-707 into a central brain and the MODX into a powerful performance instrument — a combination that encourages playing first and organising later.</p>
-]]></content:encoded>
     </item>
-    
     <item>
       <title>Roland TR-8S vs MC-707</title>
       <link>https://jamesm.blog/music-production/roland-tr-8s-vs-mc-707/</link>
       <pubDate>Fri, 02 Jan 2026 06:35:21 +0100</pubDate>
-      
       <guid>https://jamesm.blog/music-production/roland-tr-8s-vs-mc-707/</guid>
       <description>&lt;p&gt;Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices—the &lt;strong&gt;TR-8S Rhythm Performer&lt;/strong&gt; and the &lt;strong&gt;MC-707 Groovebox&lt;/strong&gt;—often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.&lt;/p&gt;
 &lt;p&gt;This post brings together everything you need to know to decide &lt;strong&gt;TR-8S vs MC-707&lt;/strong&gt;, including workflow, genres, live use, and how they can even work together.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices—the <strong>TR-8S Rhythm Performer</strong> and the <strong>MC-707 Groovebox</strong>—often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.</p>
-<p>This post brings together everything you need to know to decide <strong>TR-8S vs MC-707</strong>, including workflow, genres, live use, and how they can even work together.</p>
-<hr>
-<h2 id="overview">Overview</h2>
-<h3 id="roland-tr-8s-rhythm-performer">Roland TR-8S Rhythm Performer</h3>
-<p><strong>Type:</strong> Dedicated drum machine
-<strong>Best known for:</strong> Hands-on performance, classic TR sounds, live tweaking</p>
-<p>The TR-8S is all about <strong>drums first</strong>. It continues Roland’s legendary TR lineage with modern upgrades like sample import, per-track effects, and flexible routing—all wrapped in a very immediate, tactile interface.</p>
-<h3 id="roland-mc-707-groovebox">Roland MC-707 Groovebox</h3>
-<p><strong>Type:</strong> All-in-one groovebox
-<strong>Best known for:</strong> Full track creation, sequencing, synths, sampling</p>
-<p>The MC-707 is closer to a <strong>standalone DAW in a box</strong>. It can handle drums, basslines, chords, leads, samples, and arrangements across multiple tracks without needing a computer.</p>
-<hr>
-<h2 id="core-philosophy">Core Philosophy</h2>
-<h3 id="tr-8s-performance--immediacy">TR-8S: Performance &amp; Immediacy</h3>
-<ul>
-<li>Classic TR-style step sequencer</li>
-<li>Faders and knobs for every drum part</li>
-<li>Fast pattern switching, fills, mutes, and variations</li>
-<li>Designed for <strong>live rhythm performance</strong></li>
-</ul>
-<h3 id="mc-707-production--arrangement">MC-707: Production &amp; Arrangement</h3>
-<ul>
-<li>8-track clip-based sequencer</li>
-<li>Drums, synths, samples, and audio loops</li>
-<li>Song-style arrangement and scene launching</li>
-<li>Designed for <strong>complete track building</strong></li>
-</ul>
-<hr>
-<h2 id="workflow-comparison">Workflow Comparison</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Feature</th>
-          <th>TR-8S</th>
-          <th>MC-707</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Primary role</td>
-          <td>Drum machine</td>
-          <td>Full groovebox</td>
-      </tr>
-      <tr>
-          <td>Drum programming</td>
-          <td>⭐⭐⭐⭐⭐</td>
-          <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-          <td>Melodic sequencing</td>
-          <td>⭐⭐</td>
-          <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-          <td>Song arrangement</td>
-          <td>❌</td>
-          <td>✔️</td>
-      </tr>
-      <tr>
-          <td>Live tweaking</td>
-          <td>⭐⭐⭐⭐⭐</td>
-          <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-          <td>Menu diving</td>
-          <td>Minimal</td>
-          <td>Moderate</td>
-      </tr>
-  </tbody>
-</table>
-<p><strong>Quick takeaway:</strong></p>
-<ul>
-<li>TR-8S feels like an instrument you <em>play</em>.</li>
-<li>MC-707 feels like a system you <em>build songs in</em>.</li>
-</ul>
-<hr>
-<h2 id="sound-engines">Sound Engines</h2>
-<h3 id="tr-8s">TR-8S</h3>
-<ul>
-<li>Classic Roland TR sounds (808, 909, 707, 606, etc.)</li>
-<li>Modeled drum synthesis plus sample playback</li>
-<li>Per-instrument effects and performance controls</li>
-<li>Tight, punchy, rhythm-focused sound</li>
-</ul>
-<h3 id="mc-707">MC-707</h3>
-<ul>
-<li>ZEN-Core engine (drums + synths)</li>
-<li>Huge variety of tones beyond percussion</li>
-<li>Deeper effects chains and sound design options</li>
-<li>Better for layered, melodic productions</li>
-</ul>
-<hr>
-<h2 id="genre-recommendations">Genre Recommendations</h2>
-<h3 id="techno--house--minimal">Techno / House / Minimal</h3>
-<p><strong>Best choice:</strong> <strong>TR-8S</strong></p>
-<ul>
-<li>Immediate groove control</li>
-<li>Perfect for looping, muting, and evolving patterns live</li>
-<li>Strong 808/909 heritage for club music</li>
-</ul>
-<h3 id="hip-hop--trap--sample-based-beats">Hip-Hop / Trap / Sample-Based Beats</h3>
-<p><strong>Best choice:</strong> <strong>MC-707</strong></p>
-<ul>
-<li>Clip-based workflow suits beat construction</li>
-<li>Easy to add basslines, chords, and melodic hooks</li>
-<li>Better for structured tracks</li>
-</ul>
-<h3 id="live-performance">Live Performance</h3>
-<ul>
-<li><strong>TR-8S:</strong> DJ-style rhythm performance, fast hands-on control</li>
-<li><strong>MC-707:</strong> Full backing tracks, song sections, and layered sets</li>
-</ul>
-<hr>
-<h2 id="using-them-together">Using Them Together</h2>
-<p>Many producers pair both units for a <strong>hybrid setup</strong>:</p>
-<ul>
-<li><strong>TR-8S</strong> handles all drums and percussion</li>
-<li><strong>MC-707</strong> handles basslines, synths, samples, and arrangement</li>
-<li>MIDI sync keeps everything locked in time</li>
-</ul>
-<p>This combination gives you:</p>
-<ul>
-<li>The <strong>energy and immediacy</strong> of the TR-8S</li>
-<li>The <strong>structure and depth</strong> of the MC-707</li>
-</ul>
-<hr>
-<h2 id="expanding-with-external-sequencers">Expanding with External Sequencers</h2>
-<p>If you want even more control, external sequencers can enhance either device:</p>
-<h3 id="popular-pairings">Popular Pairings</h3>
-<ul>
-<li><strong>Korg SQ-1 / SQ-64:</strong> Simple, hands-on step sequencing</li>
-<li><strong>Squarp Hermod+:</strong> Advanced multi-track MIDI control</li>
-<li><strong>Torso T-1:</strong> Algorithmic and generative sequencing</li>
-<li><strong>OXI One:</strong> Powerful portable sequencing hub</li>
-</ul>
-<p>These can act as a <strong>master clock</strong>, drive multiple devices, or create patterns beyond the internal sequencers.</p>
-<hr>
-<h2 id="final-verdict">Final Verdict</h2>
-<h3 id="choose-the-tr-8s-if">Choose the <strong>TR-8S</strong> if:</h3>
-<ul>
-<li>Drums are your main focus</li>
-<li>You play live and value immediacy</li>
-<li>You want classic Roland rhythm performance</li>
-</ul>
-<h3 id="choose-the-mc-707-if">Choose the <strong>MC-707</strong> if:</h3>
-<ul>
-<li>You want to make full tracks without a computer</li>
-<li>You need melodic parts and arrangements</li>
-<li>You prefer a clip-based, DAW-like workflow</li>
-</ul>
-<h3 id="choose-both-if">Choose <strong>both</strong> if:</h3>
-<ul>
-<li>You want a powerful, flexible, dawless setup</li>
-<li>You perform live but also build complete songs</li>
-<li>You value hands-on rhythm + deep production tools</li>
-</ul>
-<hr>
-<p><strong>Bottom line:</strong>
-The TR-8S and MC-707 aren’t competitors—they’re <strong>complements</strong>. One is a performance-driven drum instrument, the other a complete groovebox studio. The right choice depends on whether you want to <em>play beats</em>, <em>build tracks</em>, or do both.</p>
-]]></content:encoded>
     </item>
-    
     <item>
       <title>Top 5 Grooveboxes of 2025</title>
       <link>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</link>
       <pubDate>Fri, 26 Dec 2025 18:47:21 +0100</pubDate>
-      
       <guid>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</guid>
       <description>&lt;p&gt;Grooveboxes are island universes of music creation — sequencing, sampling, synthesis, and performance all in a single box. They let you sketch ideas, build full tracks, jam live, and take your studio wherever you want. In 2025, they’re more powerful and diverse than ever.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;roland-mc-707-1013&#34;&gt;&lt;strong&gt;Roland MC-707&lt;/strong&gt; (£1,013)&lt;/h2&gt;
-&lt;p&gt;
-  &lt;img loading=&#34;lazy&#34; src=&#34;https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&amp;amp;width=3840&#34; alt=&#34;Image&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&amp;width=3840&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The MC‑707 is a flagship groovebox from Roland with a &lt;strong&gt;ZEN‑Core sound engine&lt;/strong&gt; that packs thousands of presets, drum kits, effects, and routing options. Its strength lies in pattern and clip‑based sequencing, deep effects, and live remixing capabilities. Each track can be assigned Tone, Drum, or Looper engines, and you can arrange your patterns into complete songs right from the hardware. The MC‑707 also has strong mixing features, send/return loops, and plenty of audio and MIDI connectivity. It’s a studio and stage workhorse, ideal for electronic, hip‑hop, and multi‑genre performance rigs.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Grooveboxes are island universes of music creation — sequencing, sampling, synthesis, and performance all in a single box. They let you sketch ideas, build full tracks, jam live, and take your studio wherever you want. In 2025, they’re more powerful and diverse than ever.(<a href="https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com">musicradar.com</a>)</p>
-<hr>
-<h2 id="roland-mc-707-1013"><strong>Roland MC-707</strong> (£1,013)</h2>
-<p>
-  <img loading="lazy" src="https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&amp;width=3840" alt="Image"  /></p>
-<p>The MC‑707 is a flagship groovebox from Roland with a <strong>ZEN‑Core sound engine</strong> that packs thousands of presets, drum kits, effects, and routing options. Its strength lies in pattern and clip‑based sequencing, deep effects, and live remixing capabilities. Each track can be assigned Tone, Drum, or Looper engines, and you can arrange your patterns into complete songs right from the hardware. The MC‑707 also has strong mixing features, send/return loops, and plenty of audio and MIDI connectivity. It’s a studio and stage workhorse, ideal for electronic, hip‑hop, and multi‑genre performance rigs.(<a href="https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com">musicradar.com</a>)</p>
-<hr>
-<h2 id="native-instruments-maschine-749"><strong>Native Instruments Maschine+</strong> (£749)</h2>
-<p>
-  <img loading="lazy" src="https://media.guitarcenter.com/is/image/MMGS7/L78037000000000-00-2000x2000.jpg" alt="Image"  /></p>
-<p><strong>Maschine+</strong> brings NI’s mature software ecosystem into a standalone groovebox format. Its pad‑centric workflow is excellent for groove‑oriented composition, beat making, and melodic pattern work. You get NI’s huge library of instruments and effects built in, plus support for expansions. Maschine+ shines for producers who like to sketch full arrangements by layering instruments, sampling, and sequencing all from a performance‑oriented interface. It can also function with a computer, but it’s fully capable <em>on its own</em>.(<a href="https://www.thomann.co.uk/groove_boxes.html?utm_source=chatgpt.com">thomann.co.uk</a>)</p>
-<hr>
-<h2 id="elektron-digitakt-ii-729"><strong>Elektron Digitakt II</strong> (£729)</h2>
-<p>
-  <img loading="lazy" src="https://cf1.zzounds.com/media/productmedia/fit%2C2018by3200/quality%2C85/Digitakt-II-top-transperent_copy_883901-1aaa626c02a60d93deeaeb35045d90ad.jpg" alt="Image"  /></p>
-<p>The <strong>Digitakt II</strong> is an evolution of Elektron’s classic groovebox formula. It pairs deep sampling, powerful effects, and an inspiring sequencer in a compact package. You get <strong>16 flexible tracks</strong> (which can be audio or MIDI), multiple filter types, sample manipulation tools like stretch and grid modes, and Elektron’s signature parameter locks. The sequencer is rhythmically expressive, supporting complex patterns and performance tweaks that make every playback lively and dynamic. While not as “DAW‑like” as the MPC One+, its creative workflow keeps many producers coming back for spontaneous ideas and sonic experimentation.(<a href="https://www.bax-shop.co.uk/grooveboxes/elektron-digitakt-ii-drum-machine-goovebox?utm_source=chatgpt.com">bax-shop.co.uk</a>)</p>
-<hr>
-<h2 id="polyend-play-599"><strong>Polyend Play+</strong> (£599)</h2>
-<p>
-  <img loading="lazy" src="https://www.perfectcircuit.com/media/catalog/product/cache/bb94e1e14cfa05172693ba64d2caf352/P/o/Polyend_Play-Plus_01_1.jpg" alt="Image"  /></p>
-<p><strong>Polyend Play+</strong> leans into generative and performance‑oriented sequencing. With its grid layout and intuitive control scheme, it makes playing with patterns and manipulating rhythms feel almost like an instrument. While it may not have an internal synthesis engine as deep as the others on the list, its ability to choreograph samples, automate parameters, and evoke unexpected grooves makes it a powerhouse for live performance and quick composition sessions. It’s especially beloved by musicians who want inspiration <em>before</em> structure.(<a href="https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com">musicradar.com</a>)</p>
-<hr>
-<h2 id="akai-mpc-one-556"><strong>Akai MPC One+</strong> (£556)</h2>
-<p>
-  <img loading="lazy" src="https://m.media-amazon.com/images/I/712a8VRxlWL._AC_UF894%2C1000_QL80_.jpg" alt="Image"  /></p>
-<p>The <strong>MPC One+</strong> is a deep, standalone groovebox that feels like a hardware DAW crossed with a classic beat-making machine. It’s built around a bright <strong>7″ touch screen</strong>, 16 velocity‑sensitive pads, full MIDI I/O, CV/Gate connectivity, and a powerful standalone OS that handles sampling, synthesis, sequencing, and arrangement without a computer. You can create multi‑track arrangements, chop samples, build song structures, and perform live from one device — all in one compact footprint. Its flexible workflow appeals to beatmakers and producers who want a serious centrepiece for their studio or live setup.(<a href="https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com">musicradar.com</a>)</p>
-<hr>
-<h2 id="final-summary-comparison">Final Summary Comparison</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Groovebox</th>
-          <th>Price</th>
-          <th>Standalone</th>
-          <th>Sampling</th>
-          <th>Sequencing &amp; Arrangement</th>
-          <th>Connectivity</th>
-          <th>Ideal For</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>MC‑707</strong></td>
-          <td>£1,013</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>Clip &amp; pattern</td>
-          <td>MIDI, Audio I/O</td>
-          <td>Live &amp; studio performance</td>
-      </tr>
-      <tr>
-          <td><strong>Maschine+</strong></td>
-          <td>£749</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>Pattern &amp; scenes</td>
-          <td>MIDI</td>
-          <td>Pad‑centric composition</td>
-      </tr>
-      <tr>
-          <td><strong>Digitakt II</strong></td>
-          <td>£729</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>Pattern‑centric</td>
-          <td>MIDI, USB</td>
-          <td>Experimental sequencing</td>
-      </tr>
-      <tr>
-          <td><strong>Play+</strong></td>
-          <td>£599</td>
-          <td>✓</td>
-          <td>Sample‑based</td>
-          <td>Grid/Generative</td>
-          <td>MIDI</td>
-          <td>Live, generative workflows</td>
-      </tr>
-      <tr>
-          <td><strong>MPC One+</strong></td>
-          <td>£556</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>Song + pattern</td>
-          <td>MIDI, CV/Gate</td>
-          <td>All‑around production</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h3 id="why-these-grooveboxes-matter-in-2025">Why These Grooveboxes Matter in 2025</h3>
-<p>In 2025’s musical landscape, grooveboxes have matured beyond simple pattern machines. They’re <em>creative ecosystems</em> — instruments that let you sketch, perform, and produce without being tethered to a computer. Whether you’re chasing tight arrangements, experimental rhythms, or raw performance energy, there’s a groovebox that matches your workflow.(<a href="https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com">musicradar.com</a>)</p>
-]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

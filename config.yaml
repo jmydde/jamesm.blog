@@ -14,7 +14,9 @@ title:                  jamesm.blog
 # Others: ananke beautifulhugo hugo-book hugo-devresume-theme hugo-paper hugo-PaperMod hugo-theme-stack LoveIt m10c terminal
 #theme: hugo-theme-stack
 #theme: hugo-PaperMod
-theme: hugo-PaperModX
+#theme: hugo-PaperModX
+#theme: PaperMod
+theme: hugo-PaperMod
 
 minify:
   disableXML:    true

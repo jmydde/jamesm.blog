@@ -4,14 +4,19 @@
     <title>Code Reviews on jamesm.blog</title>
     <link>https://jamesm.blog/tags/code-reviews/</link>
     <description>Recent content in Code Reviews on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 07:14:25 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/code-reviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 07:14:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/code-reviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Claude Code Just Got a Serious Code Review Feature</title>
       <link>https://jamesm.blog/ai/claude-code-review/</link>
       <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
-      
       <guid>https://jamesm.blog/ai/claude-code-review/</guid>
       <description>&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;
 &lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in Claude Code, which Anthropic just released in research preview.&lt;/p&gt;
@@ -19,69 +24,6 @@
 &lt;p&gt;At first glance it sounds like another &amp;ldquo;AI reviews your code&amp;rdquo; feature. We&amp;rsquo;ve had plenty of those.&lt;/p&gt;
 &lt;p&gt;But when you look closer, this one is actually quite different.&lt;/p&gt;
 &lt;p&gt;Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.</p>
-<p>A good example of that is the new <strong>Code Review</strong> feature in Claude Code, which Anthropic just released in research preview.</p>
-<p>Docs: <a href="https://code.claude.com/docs/en/code-review">https://code.claude.com/docs/en/code-review</a></p>
-<p>At first glance it sounds like another &ldquo;AI reviews your code&rdquo; feature. We&rsquo;ve had plenty of those.</p>
-<p>But when you look closer, this one is actually quite different.</p>
-<p>Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.</p>
-<p>Claude Code’s new system takes a very different approach.</p>
-<p>Instead of running a single model pass over your pull request, it dispatches a team of AI agents to review the PR in parallel. Each agent hunts for issues from a different perspective, verifies potential bugs, and then the system ranks the findings by severity before posting a structured review. :contentReference[oaicite:0]{index=0}</p>
-<p>The result is a single high-signal review comment plus inline comments directly on the relevant lines of code.</p>
-<p>In other words, it&rsquo;s trying to replicate what a really good human code review actually looks like.</p>
-<h2 id="the-real-problem-this-is-solving">The real problem this is solving</h2>
-<p>The interesting part here is not the technology. It&rsquo;s the problem.</p>
-<p>AI is massively increasing the amount of code being written.</p>
-<p>Anthropic reported that code output per engineer internally has increased by about <strong>200% over the last year</strong>, which created an unexpected bottleneck: code review. :contentReference[oaicite:1]{index=1}</p>
-<p>If developers are shipping more code, the review process becomes the limiting factor.</p>
-<p>Humans skim.</p>
-<p>We all do it.</p>
-<p>You open a PR with 600 lines changed, scroll through the diff, and give it a quick approval because everything looks fine.</p>
-<p>That works right up until the one-line change that silently breaks authentication in production.</p>
-<p>Apparently that exact scenario already happened internally. A one-line diff that looked trivial was flagged by Claude Code Review as a critical issue that would have broken authentication for a service. :contentReference[oaicite:2]{index=2}</p>
-<p>That’s the type of bug humans miss all the time.</p>
-<h2 id="multi-agent-review-is-the-interesting-part">Multi-agent review is the interesting part</h2>
-<p>The architecture is what makes this feature interesting.</p>
-<p>Instead of one model doing a shallow scan, Claude Code:</p>
-<ul>
-<li>launches multiple review agents</li>
-<li>runs bug detection in parallel</li>
-<li>cross-checks findings to filter false positives</li>
-<li>ranks issues by severity before posting feedback</li>
-</ul>
-<p>The agents analyse changes from different angles and only high-confidence issues are surfaced, which dramatically reduces noise in the review. :contentReference[oaicite:3]{index=3}</p>
-<p>Anyone who has used traditional static analysis tools knows how big a deal that is. False positives are what make people ignore automated reviews.</p>
-<p>If the signal is clean, developers actually pay attention.</p>
-<h2 id="it-scales-with-the-size-of-the-pr">It scales with the size of the PR</h2>
-<p>Another clever detail is that the review depth scales with the change.</p>
-<p>Small PRs get a lightweight pass.<br>
-Large or complex PRs get a deeper analysis with more agents.</p>
-<p>Reviews typically take around <strong>20 minutes to run</strong> and cost roughly <strong>$15-$25 per review</strong>, since the system is token-based and designed for depth rather than speed. :contentReference[oaicite:4]{index=4}</p>
-<p>That might sound expensive at first.</p>
-<p>But compared to the cost of shipping a subtle production bug, it’s trivial.</p>
-<h2 id="it-doesnt-replace-human-review">It doesn’t replace human review</h2>
-<p>One thing I like about the design is that it doesn&rsquo;t approve pull requests.</p>
-<p>Humans still do that.</p>
-<p>The AI’s job is simply to surface issues that reviewers might otherwise miss.</p>
-<p>Think of it less like replacing the reviewer and more like giving every PR a <strong>superhuman pre-review</strong> before a human even opens the diff.</p>
-<p>That’s a much healthier model than trying to automate approvals.</p>
-<h2 id="where-this-is-going">Where this is going</h2>
-<p>What’s really happening here is something bigger.</p>
-<p>AI is increasing code generation by an order of magnitude.</p>
-<p>That means the rest of the software development lifecycle needs to evolve too:</p>
-<ul>
-<li>review</li>
-<li>testing</li>
-<li>debugging</li>
-<li>CI</li>
-<li>maintenance</li>
-</ul>
-<p>Claude Code’s new review system feels like one of the first serious attempts to adapt <strong>code review to the AI-generated code era</strong>.</p>
-<p>Instead of one developer reviewing another developer’s work, you now have AI reviewing AI-generated code before humans ever see it.</p>
-<p>That’s a pretty wild shift in how software gets built.</p>
-<p>And honestly, I suspect this is just the beginning.</p>
-]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

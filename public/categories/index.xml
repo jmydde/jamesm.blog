@@ -4,7 +4,13 @@
     <title>Categories on jamesm.blog</title>
     <link>https://jamesm.blog/categories/</link>
     <description>Recent content in Categories on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://jamesm.blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://jamesm.blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

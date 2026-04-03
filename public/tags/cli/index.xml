@@ -4,14 +4,19 @@
     <title>Cli on jamesm.blog</title>
     <link>https://jamesm.blog/tags/cli/</link>
     <description>Recent content in Cli on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 May 2023 06:45:18 +0100</lastBuildDate><atom:link href="https://jamesm.blog/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 06:45:18 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of DevOps GitHub Projects</title>
       <link>https://jamesm.blog/devops/github-projects/</link>
       <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
-      
       <guid>https://jamesm.blog/devops/github-projects/</guid>
       <description>&lt;h3 id=&#34;devops--site-reliability-engineering-sre&#34;&gt;DevOps &amp;amp; Site Reliability Engineering (SRE)&lt;/h3&gt;
 &lt;ul&gt;
@@ -46,47 +51,11 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/apache/airflow/&#34;&gt;Airflow&lt;/a&gt; - platform to programmatically author, schedule, and monitor workflows&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/distribworks/dkron/&#34;&gt;dkron&lt;/a&gt; - distributed, fault tolerant job scheduling system for cloud native environments&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h3 id="devops--site-reliability-engineering-sre">DevOps &amp; Site Reliability Engineering (SRE)</h3>
-<ul>
-<li><a href="https://github.com/binhnguyennus/awesome-scalability/">Awesome Scalability</a> - reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems</li>
-<li><a href="https://github.com/dastergon/awesome-sre/">Awesome Site Reliability Engineering</a> - curated list of awesome Site Reliability and Production Engineering resources</li>
-<li><a href="https://github.com/bregman-arie/devops-exercises/">DevOps Exercises</a> - contains questions and exercises on technical topics related to DevOps and SRE</li>
-<li><a href="https://github.com/bregman-arie/devops-resources/">DevOps Resources</a> - useful resources and information regarding DevOps including a learning roadmap</li>
-<li><a href="https://github.com/milanm/DevOps-Roadmap/">DevOps Roadmap 2023</a> - step-by-step guide on how to become a DevOps engineer</li>
-<li><a href="https://github.com/collections/devops-tools/">DevOps Tools</a> - GitHub collection of DevOps tools</li>
-<li><a href="https://github.com/upgundecha/howtheysre/">How they SRE</a> - curated collection of publicly available resources about SRE</li>
-</ul>
-<h3 id="kubernetes">Kubernetes</h3>
-<ul>
-<li><a href="https://github.com/derailed/k9s/">k9s</a> - terminal UI to interact with your Kubernetes clusters</li>
-<li><a href="https://github.com/kubernetes/kops/">kOps</a> - helps you create, destroy, upgrade &amp; maintain a production-grade, highly available, Kubernetes cluster</li>
-<li><a href="https://github.com/avsthiago/kopylot/">KoPylot</a> - open-source AI-powered Kubernetes assistant to help developers &amp; DevOps engineers easily manage &amp; monitor their Kubernetes clusters</li>
-<li><a href="https://github.com/kubernetes/kube-state-metrics/">kube-state-metrics (KSM)</a> - simple service that listens to the Kubernetes API server and generates metrics about the state of the objects</li>
-<li><a href="https://github.com/kubernetes/dashboard/">Kubernetes Dashboard</a> - general purpose, web-based UI for Kubernetes clusters</li>
-<li><a href="https://github.com/kubernetes-sigs/kubespray/">Kubespray</a> - Kubernetes cluster lifecycle management</li>
-<li><a href="https://github.com/kubernetes/minikube/">minikube</a> - implements a local Kubernetes cluster on macOS, Linux, and Windows for you to practice and learn</li>
-<li><a href="https://github.com/derailed/popeye/">Popeye</a> - scans a live Kubernetes cluster and reports potential issues with deployed resources and configurations</li>
-</ul>
-<h3 id="linux">Linux</h3>
-<ul>
-<li><a href="https://github.com/sharkdp/bat/">bat</a> - a cat clone with syntax highlighting and Git integration</li>
-<li><a href="https://github.com/Nukesor/pueue/">pueue</a> - command-line task management tool for sequential and parallel execution of long-running tasks</li>
-<li><a href="https://github.com/awslabs/specctl/">specctl</a> - command-line based tool to extract and transform Kubernetes objects to ECS and vice versa</li>
-<li><a href="https://github.com/trimstray/test-your-sysadmin-skills/">Test your SysAdmin skills</a> - interview questions and answers for system administration</li>
-</ul>
-<h3 id="scheduling">Scheduling</h3>
-<ul>
-<li><a href="https://github.com/apache/airflow/">Airflow</a> - platform to programmatically author, schedule, and monitor workflows</li>
-<li><a href="https://github.com/distribworks/dkron/">dkron</a> - distributed, fault tolerant job scheduling system for cloud native environments</li>
-</ul>
-]]></content:encoded>
     </item>
-    
     <item>
       <title>Mac Homebrew packages</title>
       <link>https://jamesm.blog/devops/mac-brew-packages/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
-      
       <guid>https://jamesm.blog/devops/mac-brew-packages/</guid>
       <description>&lt;h2 id=&#34;essential&#34;&gt;Essential&lt;/h2&gt;
 &lt;ul&gt;
@@ -128,48 +97,6 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jamesm.blog/devops/mac-apps-utils/&#34;&gt;Mac Applications &amp;amp; Utilities&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<h2 id="essential">Essential</h2>
-<ul>
-<li><strong>bat</strong> - Linux “cat” command alternative with syntax highlighting</li>
-<li><strong>glow</strong> - Markdown reader</li>
-<li><strong>htop</strong> - Top clone with syntax highlighting and mouse support</li>
-<li><strong>jq</strong> - sed for JSON data</li>
-<li><strong>jupyter</strong> - JupyterHub notebooks</li>
-<li><strong>k9s</strong> - Monitor Kubernetes resources</li>
-<li><strong>pyenv</strong> - Python version management</li>
-<li><strong>python</strong> - Python (3.11)</li>
-<li><strong>terraform</strong> - Terraform</li>
-<li><strong>tfswitch</strong> - Switch Terraform versions (warrensbox/tap/tfswitch)</li>
-<li><strong>tree</strong> - View folders and files in a visual tree (tree -L <level>)</li>
-<li><strong>wget</strong> - Download files</li>
-<li><strong>yq</strong> - Lightweight and portable command-line YAML, JSON and XML processor</li>
-</ul>
-<h2 id="others">Others</h2>
-<ul>
-<li><strong>django</strong> - Python Web framework</li>
-<li><strong>glances</strong> - Console (and web) based server monitoring tool</li>
-<li><strong>httpie</strong> - A curl-like tool to interact with HTTP servers</li>
-<li><strong>lnav</strong> - Explore and troubleshoot cryptic log files</li>
-<li><strong>midnight-commander</strong> - File explorer</li>
-<li><strong>mtr</strong> - A package that combines ping and traceroute into a single tool with superpowers to isolate networking issues</li>
-<li><strong>navi</strong> - Interactive cheatsheet tool</li>
-<li><strong>ncdu</strong> - Disk space analyzer, find big files &amp; directories</li>
-<li><strong>npm</strong> - Node Package Manager</li>
-<li><strong>pytorch</strong> - machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing</li>
-<li><strong>ranger</strong> - Directory / file explorer providing an easier way to find files via the terminal</li>
-<li><strong>snappy</strong> - compression/decompression library aiming for high speed</li>
-<li><strong>speedtest-cli</strong> - Test upload/download speed</li>
-<li><strong>task</strong> - A todo app</li>
-<li><strong>tensorflow</strong> - free and open-source software library for machine learning and artificial intelligence</li>
-<li><strong>tmux</strong> - Run multiple terminal sessions within the same window</li>
-<li><strong>youtube-dl</strong> - YouTube downloader</li>
-</ul>
-<h2 id="related-pages">Related Pages</h2>
-<ul>
-<li><a href="https://jamesm.blog/devops/mac-apps-utils/">Mac Applications &amp; Utilities</a></li>
-</ul>
-]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

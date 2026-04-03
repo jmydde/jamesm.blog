@@ -4,8 +4,13 @@
     <title>Ideas on jamesm.blog</title>
     <link>https://jamesm.blog/ideas/</link>
     <description>Recent content in Ideas on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 May 2023 12:54:16 +0100</lastBuildDate><atom:link href="https://jamesm.blog/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesm.blog/ideas/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

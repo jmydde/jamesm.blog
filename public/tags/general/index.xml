@@ -4,18 +4,14 @@
     <title>General on jamesm.blog</title>
     <link>https://jamesm.blog/tags/general/</link>
     <description>Recent content in General on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Sep 2024 12:57:01 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/general/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>General</title>
-      <link>https://jamesm.blog/general/</link>
-      <pubDate>Sun, 22 Sep 2024 12:57:01 +0000</pubDate>
-      
-      <guid>https://jamesm.blog/general/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/general/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

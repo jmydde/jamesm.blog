@@ -4,14 +4,19 @@
     <title>Software Synths on jamesm.blog</title>
     <link>https://jamesm.blog/tags/software-synths/</link>
     <description>Recent content in Software Synths on jamesm.blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Dec 2025 21:42:00 +0000</lastBuildDate><atom:link href="https://jamesm.blog/tags/software-synths/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Dec 2025 21:42:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/software-synths/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Best Software Synths of 2025</title>
       <link>https://jamesm.blog/music-production/best-software-synths-2025/</link>
       <pubDate>Fri, 26 Dec 2025 21:42:00 +0000</pubDate>
-      
       <guid>https://jamesm.blog/music-production/best-software-synths-2025/</guid>
       <description>&lt;p&gt;Software synthesizers in 2025 are a study in contrast and creativity - flagship instruments with deep sonic universes, hybrid engines merging sampling with synthesis, and tools that make sound design feel like both art and play. Below is a panoramic view of the top soft synths this year, each with its &lt;strong&gt;release timing&lt;/strong&gt; and why it matters to your creative workflow.&lt;/p&gt;
 &lt;table&gt;
@@ -89,84 +94,6 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;closing-thoughts&#34;&gt;Closing Thoughts&lt;/h2&gt;
 &lt;p&gt;What sets 2025 apart isn’t just feature lists or spec sheets - it’s &lt;strong&gt;integration and expressivity&lt;/strong&gt;. Synth engines interweave sampling, granular processing, and spectral manipulation. Interfaces are more dynamic and interactive than ever. And tools like Pigments 7 are teaching users &lt;em&gt;as they play&lt;/em&gt;, turning complex sound design into a tactile experience. Whether you’re scoring films, designing textures, or producing club‑ready tracks, this year’s synth roster delivers both power and inspiration.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Software synthesizers in 2025 are a study in contrast and creativity - flagship instruments with deep sonic universes, hybrid engines merging sampling with synthesis, and tools that make sound design feel like both art and play. Below is a panoramic view of the top soft synths this year, each with its <strong>release timing</strong> and why it matters to your creative workflow.</p>
-<table>
-  <thead>
-      <tr>
-          <th>Synth</th>
-          <th>Developer</th>
-          <th>Release / Update</th>
-          <th>Notes</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><a href="https://www.native-instruments.com/en/products/komplete/synths/absynth-6/">Absynth 6</a></td>
-          <td>Native Instruments</td>
-          <td>2025 Revival</td>
-          <td>Expanded synth engines, polyphonic expression (MPE) support, ideal for cinematic pads and complex timbres.</td>
-      </tr>
-      <tr>
-          <td><a href="https://cherryaudio.com/products/spirit-synthesizer">Cherry Audio Spirit</a></td>
-          <td>Cherry Audio</td>
-          <td>2025 Reissue</td>
-          <td>Modern plugin version of Crumar Spirit, faithful sonic character, fun and characterful addition to any collection.</td>
-      </tr>
-      <tr>
-          <td><a href="https://www.uvi.net/falcon">Falcon 3</a></td>
-          <td>UVI</td>
-          <td>2025 Workflow Enhancements</td>
-          <td>Hybrid synthesis and sampling environment; faster loading, expressive scripting, expanded additive and spectral engines.</td>
-      </tr>
-      <tr>
-          <td><a href="https://www.korg.com/uk/products/software/korg_collection/">Korg Collection 6</a></td>
-          <td>Korg</td>
-          <td>October 2025</td>
-          <td>Adds PS-3300 &amp; Trinity modules; full emulations of rare classic synths.</td>
-      </tr>
-      <tr>
-          <td><a href="https://www.spectrasonics.net/products/omnisphere/overview.php">Omnisphere 3</a></td>
-          <td>Spectrasonics</td>
-          <td>October 21, 2025</td>
-          <td>Tens of thousands of patches, granular and wavetable engines, expanded effects, deep hardware connectivity.</td>
-      </tr>
-      <tr>
-          <td><a href="https://kilohearts.com/products/phase_plant">Phase Plant 3</a></td>
-          <td>Kilohearts</td>
-          <td>2025 Updates</td>
-          <td>Deeper routing, extended modulation, creative blocks for experimental synth architectures; no single release date.</td>
-      </tr>
-      <tr>
-          <td><a href="https://www.arturia.com/products/software-instruments/pigments/overview">Pigments 7</a></td>
-          <td>Arturia</td>
-          <td>December 16, 2025</td>
-          <td>Redesigned Play View, new tone-shaping tools (Rage, Ripple, Reverb, Corroder), more presets, expanded wavetables, samples, tutorials.</td>
-      </tr>
-      <tr>
-          <td><a href="https://xferrecords.com/products/serum-2">Serum 2</a></td>
-          <td>Xfer Records</td>
-          <td>March 17, 2025</td>
-          <td>Spectral morphing, multisample and granular oscillators, richer modulation; retains original workflow.</td>
-      </tr>
-      <tr>
-          <td><a href="https://vital.audio/">Vital Pro 2</a></td>
-          <td>Matt Tytel</td>
-          <td>2025 Update</td>
-          <td>Deeper wavetable morphing, AI-assisted content generation, light CPU use.</td>
-      </tr>
-      <tr>
-          <td><a href="https://www.vengeance-sound.com/plugins.php">VPS Avenger 2</a></td>
-          <td>Vengeance Sound</td>
-          <td>2025 Evolution</td>
-          <td>Live macro morphing, new oscillators, creative grid for fast sound sculpting; performance-oriented powerhouse.</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2 id="closing-thoughts">Closing Thoughts</h2>
-<p>What sets 2025 apart isn’t just feature lists or spec sheets - it’s <strong>integration and expressivity</strong>. Synth engines interweave sampling, granular processing, and spectral manipulation. Interfaces are more dynamic and interactive than ever. And tools like Pigments 7 are teaching users <em>as they play</em>, turning complex sound design into a tactile experience. Whether you’re scoring films, designing textures, or producing club‑ready tracks, this year’s synth roster delivers both power and inspiration.</p>
-]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-03T23:09:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-03T23:09:25+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-03-12T20:00:39+01:00</lastmod>
+    <lastmod>2026-04-03T23:09:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/my-ai-dev-stack/</loc>
+    <lastmod>2026-04-03T23:09:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-03T23:09:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/life-purpose/</loc>
     <lastmod>2026-03-12T20:00:39+01:00</lastmod>
@@ -23,20 +35,11 @@
     <loc>https://jamesm.blog/tags/spirituality-mindset/</loc>
     <lastmod>2026-03-12T20:00:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2026-03-12T20:00:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/the-universe/</loc>
     <lastmod>2026-03-12T20:00:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/personal-development/the-universe-has-a-plan-for-you/</loc>
     <lastmod>2026-03-12T20:00:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-03-11T07:09:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2026-03-11T07:09:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/</loc>
     <lastmod>2026-03-11T07:09:25+01:00</lastmod>
@@ -1211,12 +1214,6 @@
     <loc>https://jamesm.blog/music-production/news/ableton-push-3/</loc>
     <lastmod>2023-05-23T14:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/ideas/</loc>
-    <lastmod>2023-05-20T12:54:16+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ideas/</loc>
-    <lastmod>2023-05-20T12:54:16+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/ai/speechify/</loc>
     <lastmod>2023-05-20T12:54:16+01:00</lastmod>
   </url><url>
@@ -1377,6 +1374,10 @@
     <lastmod>2020-01-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/categories/</loc>
+  </url><url>
+    <loc>https://jamesm.blog/ideas/</loc>
+  </url><url>
+    <loc>https://jamesm.blog/tags/ideas/</loc>
   </url><url>
     <loc>https://jamesm.blog/search/</loc>
   </url><url>
