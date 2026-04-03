@@ -1,11 +1,13 @@
 ---
-title: "My AI Development Stack"
+title: "Personal AI Development Stack"
 date: 2026-04-03T23:09:25+01:00
 draft: false
 tags: ['ai']
 ---
+
 This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
 
+---
 ```
                         ┌──────────┐
                         │  iPhone  │
@@ -64,6 +66,8 @@ This guide documents a highly productive, AI-driven development stack using a co
                      │ Grok / SuperGrok           → Images + real-time    │
                      └────────────────────────────────────────────────────┘
 ```
+
+---
 
 ## Component Descriptions
 
