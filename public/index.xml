@@ -18,7 +18,8 @@
       <link>https://jamesm.blog/ai/my-ai-dev-stack/</link>
       <pubDate>Fri, 03 Apr 2026 23:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/my-ai-dev-stack/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;                        ┌──────────┐
+      <description>&lt;p&gt;This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;                        ┌──────────┐
                         │  iPhone  │
                         └──────────┘
                               │
@@ -26,34 +27,35 @@
                               │
                               ▼
                         ┌─────────────┐
-                        │ MacBook     │
+                        │ MacBook Air │
                         │ (tmux /     │
                         │ zellij +    │
                         │ caffeinate) │
                         └─────────────┘
                               │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-        ▼                     ▼                     ▼
+        ┌─────────────────────┼──────────────────┐
+        │                     │                  │
+        ▼                     ▼                  ▼
   ┌────────────┐       ┌────────────┐    ┌───────────────┐
   │ VS Code    │       │ Terminus   │    │  Cursor AI    │
   │ + Cline    │       │ (SSH)      │    │ (Primary IDE) │
   │ + Continue │       └────────────┘    └───────────────┘
   └────────────┘                                 │
         │                                        ▼
-        ▼                            ┌──────────────────────────────┐
-┌────────────────────┐               │   AI Coding Agents &amp;amp; Tools   │
-│ Test / Scripts     │               │------------------------------│
-│ (AI-driven)        │               │ • Cline                      │
-└────────────────────┘               │ • Continue.dev               │
-                                     │ • Claude Code                │
-                                     │ • Aider                      │
-                                     │ • Windsurf (Cascade)         │
-                                     │ • Gemini CLI                 │
-                                     │ • GitHub Copilot             │
-                                     └──────────────────────────────┘
-                                                     │
-                                                     ▼
+        ▼                        ┌──────────────────────────────┐
+┌────────────────┐               │   AI Coding Agents &amp;amp; Tools   │
+│ Test / Scripts │               │------------------------------│
+│ (AI-driven)    │               │ • Cline                      │
+└────────────────┘               │ • Continue.dev               │
+                                 │ • Claude Code                │
+                                 │ • Ollama (local models)      │
+                                 │ • Aider                      │
+                                 │ • Windsurf (Cascade)         │
+                                 │ • Gemini CLI                 │
+                                 │ • GitHub Copilot             │
+                                 └──────────────────────────────┘
+                                                 │
+                                                 ▼
                                ┌────────────────────────────────────┐
                                │ LLM Routing &amp;amp; Orchestration        │
                                │------------------------------------│
@@ -62,8 +64,8 @@
                                │ • Cost / speed optimisation        │
                                │ • IDE integrations                 │
                                └────────────────────────────────────┘
-                                                     │
-                                                     ▼
+                                                 │
+                                                 ▼
                      ┌────────────────────────────────────────────────────┐
                      │        Cloud / Web LLM Interfaces                  │
                      │----------------------------------------------------│
@@ -73,7 +75,86 @@
                      │ Claude Web + Desktop       → General usage         │
                      │ Grok / SuperGrok           → Images + real-time    │
                      └────────────────────────────────────────────────────┘
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;component-descriptions&#34;&gt;Component Descriptions&lt;/h2&gt;
+&lt;h3 id=&#34;iphone&#34;&gt;iPhone&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Mobile access to coding sessions, remote terminals, and LLM interfaces.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Termius (SSH), web browsers for cloud LLMs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connection:&lt;/strong&gt; Via &lt;strong&gt;Tailscale VPN&lt;/strong&gt; for secure, private access to your MacBook.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tailscale-vpn&#34;&gt;Tailscale VPN&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Secure, on-demand VPN that allows devices to communicate without exposing ports publicly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use case:&lt;/strong&gt; Connect iPhone or other devices to your MacBook seamlessly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;macbook&#34;&gt;MacBook&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Primary development machine.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhancements:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;tmux / zellij:&lt;/strong&gt; Terminal multiplexers for persistent, multi-pane sessions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;caffeinate / Amphetamine:&lt;/strong&gt; Prevent sleep to maintain long-running processes or server tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ides-and-terminals&#34;&gt;IDEs and Terminals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;VS Code + Cline + Continue.dev&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Modern IDE with AI-powered code suggestions and integrations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terminus&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;SSH client for remote server access and workflow continuity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cursor AI&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;AI-focused primary IDE for code generation and testing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ai-coding-agents--tools&#34;&gt;AI Coding Agents &amp;amp; Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Automate coding, testing, and documentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Tools:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cline:&lt;/strong&gt; Terminal-based AI coding assistant.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continue.dev:&lt;/strong&gt; AI automation for workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Code:&lt;/strong&gt; Heavy-duty coding in CLI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aider / Windsurf / Gemini CLI / GitHub Copilot:&lt;/strong&gt; Multi-purpose AI agents integrated with IDEs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;llm-routing--orchestration&#34;&gt;LLM Routing &amp;amp; Orchestration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Optimize which AI model handles which task.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Multi-model routing based on task type (research, coding, testing, image generation).&lt;/li&gt;
+&lt;li&gt;Speed and cost optimization for different models.&lt;/li&gt;
+&lt;li&gt;Seamless IDE integration for on-the-fly AI assistance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cloud--web-llm-interfaces&#34;&gt;Cloud / Web LLM Interfaces&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; External interfaces for research, code generation, and real-time AI support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Examples:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ChatGPT Web / Codex:&lt;/strong&gt; General-purpose research and code generation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perplexity Web:&lt;/strong&gt; Citation-focused research.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Web + Desktop / Claude Code:&lt;/strong&gt; Heavy coding workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grok / SuperGrok:&lt;/strong&gt; Image processing, real-time AI applications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;workflow-example&#34;&gt;Workflow Example&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Start your MacBook environment:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Universe Has a Plan for You</title>
