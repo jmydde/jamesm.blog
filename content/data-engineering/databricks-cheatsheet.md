@@ -1,6 +1,6 @@
 ---
 title: "Databricks CheatSheet"
-date: 2024-02-25T21:00:25+01:00
+date: 2026-04-04T20:44:25+01:00
 draft: false
 tags: ['databricks', 'cheatsheets']
 ---
@@ -27,11 +27,46 @@ tags: ['databricks', 'cheatsheets']
 | %sql        | Executes SQL queries                         | |
 | %who        | Lists all the variables in the current scope | |
 
+### Notebook Widgets
+```
+# Create widgets
+dbutils.widgets.text("param_name", "default_value", "label")
+dbutils.widgets.dropdown("param_name", "default", ["option1", "option2"])
+dbutils.widgets.multiselect("param_name", "default", ["option1", "option2"])
+dbutils.widgets.combobox("param_name", "default", ["option1", "option2"])
+
+# Get widget values
+param_value = dbutils.widgets.get("param_name")
+
+# Remove widget
+dbutils.widgets.remove("param_name")
+dbutils.widgets.removeAll()
+```
+
+### Secrets Management
+```
+# Create secret scope
+dbutils.secrets.createScope("scope_name")
+
+# Store secret
+dbutils.secrets.put("scope_name", "secret_key", "secret_value")
+
+# Retrieve secret
+secret_value = dbutils.secrets.get("scope_name", "secret_key")
+
+# List secrets
+dbutils.secrets.list("scope_name")
+
+# Delete secret
+dbutils.secrets.delete("scope_name", "secret_key")
+```
+
 ### Accessing Files
-- /path/to/file
-- dbfs:/path/to/file
-- file:/path/to/file
-- s3://path/to/file
+- /path/to/file (local)
+- dbfs:/path/to/file (DBFS)
+- file:/path/to/file (driver filesystem)
+- s3://path/to/file (S3)
+- /Volumes/catalog/schema/volume/path (Unity Catalog Volumes)
 
 ### Copying Files
 ```
@@ -51,6 +86,30 @@ CREATE SCHEMA test;
 CREATE SCHEMA custom LOCATION 'dbfs:/custom';
 
 USE SCHEMA test;
+```
+
+### Unity Catalog (UC)
+```
+-- Create catalog
+CREATE CATALOG my_catalog COMMENT "Production catalog";
+
+-- Create schema in UC
+CREATE SCHEMA my_catalog.my_schema;
+USE CATALOG my_catalog;
+USE SCHEMA my_schema;
+
+-- Create volume (for files)
+CREATE VOLUME my_catalog.my_schema.my_volume;
+ALTER VOLUME my_catalog.my_schema.my_volume OWNER TO `team@company.com`;
+
+-- List catalogs, schemas, volumes
+SHOW CATALOGS;
+SHOW SCHEMAS IN my_catalog;
+SHOW VOLUMES IN my_catalog.my_schema;
+
+-- Grant permissions
+GRANT USAGE ON CATALOG my_catalog TO `user@company.com`;
+GRANT READ_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`;
 ```
 
 ### Create Table
@@ -224,6 +283,114 @@ FILES = ('test.csv')
 FORMAT_OPTIONS('header' = 'true', 'inferSchema' = 'true');
 ```
 
+## Spark DataFrame API
+
+### Read Data
+```python
+# Read CSV
+df = spark.read.format("csv").option("header", "true").load("/path/to/file.csv")
+df = spark.read.csv("/path/to/file.csv", header=True)
+
+# Read Parquet
+df = spark.read.parquet("/path/to/file.parquet")
+
+# Read JSON
+df = spark.read.json("/path/to/file.json")
+
+# Read Delta table
+df = spark.read.table("my_table")
+df = spark.read.format("delta").load("/path/to/delta/table")
+
+# Read from Volumes
+df = spark.read.csv("/Volumes/catalog/schema/volume/file.csv", header=True)
+```
+
+### Write Data
+```python
+# Write modes: overwrite, append, ignore, error
+df.write.mode("overwrite").format("parquet").save("/path/to/output")
+df.write.mode("overwrite").option("mergeSchema", "true").format("delta").save("/path/to/delta")
+
+# Write to table
+df.write.mode("overwrite").saveAsTable("my_table")
+df.write.mode("overwrite").option("path", "/path").saveAsTable("my_table")
+
+# Write to Volume
+df.write.mode("overwrite").parquet("/Volumes/catalog/schema/volume/output")
+```
+
+### Common Transformations
+```python
+# Select columns
+df.select("col1", "col2")
+df.select(df.col1, df.col2)
+
+# Filter/Where
+df.filter(df.col1 > 10)
+df.where("col1 > 10")
+
+# GroupBy and aggregations
+df.groupBy("col1").agg({"col2": "sum", "col3": "count"})
+from pyspark.sql.functions import sum, count, avg
+df.groupBy("col1").agg(sum("col2"), count("col3"))
+
+# Joins
+df1.join(df2, on="col1", how="inner")
+df1.join(df2, (df1.col1 == df2.col1) & (df1.col2 == df2.col2), how="left")
+
+# Distinct/Dedup
+df.distinct()
+df.dropDuplicates(["col1", "col2"])
+
+# Sort
+df.sort("col1", ascending=False)
+df.orderBy(df.col1.desc())
+```
+
+
+## Performance Optimization
+
+### Delta Lake Optimization
+```sql
+-- Optimize table (compacts small files)
+OPTIMIZE my_table;
+OPTIMIZE my_table ZORDER BY col1, col2;
+
+-- Check table stats
+ANALYZE TABLE my_table COMPUTE STATISTICS;
+ANALYZE TABLE my_table COMPUTE STATISTICS FOR COLUMNS col1, col2;
+
+-- View statistics
+DESCRIBE EXTENDED my_table;
+```
+
+### Partitioning Strategy
+```python
+# Write with partitioning
+df.write \
+  .mode("overwrite") \
+  .partitionBy("date", "region") \
+  .format("delta") \
+  .save("/path/to/table")
+
+# Partition pruning (applied automatically)
+# SELECT * FROM table WHERE date = '2024-01-01' AND region = 'US'
+```
+
+### Query Performance
+```python
+# Enable adaptive query execution
+spark.conf.set("spark.sql.adaptive.enabled", "true")
+
+# Enable vectorized execution
+spark.conf.set("spark.sql.execution.arrow.enabled", "true")
+
+# Set shuffle partitions
+spark.conf.set("spark.sql.shuffle.partitions", "200")
+
+# Monitor query plans
+df.explain(mode="extended")
+```
 
 ## Delta Lake Statements
 ```
@@ -263,11 +430,57 @@ CREATE OR REFRESH LIVE TABLE recent_test
 AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
 ```
 
-## Fuctions
+## Functions
 ```
 CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
 RETURNS DOUBLE
 RETURN (col1 - 10);
+
+CREATE OR REPLACE FUNCTION add_numbers(a INT, b INT)
+RETURNS INT
+RETURN a + b;
+```
+
+## Useful dbutils Functions
+
+### File System Operations
+```python
+# List files
+dbutils.fs.ls("dbfs:/path")
+dbutils.fs.ls("/Volumes/catalog/schema/volume")
+
+# Get file info
+dbutils.fs.getStatus("dbfs:/path/file.txt")
+
+# Move/Rename
+dbutils.fs.mv("dbfs:/old/path", "dbfs:/new/path")
+
+# Remove files
+dbutils.fs.rm("dbfs:/path", recurse=True)
+
+# Create directory
+dbutils.fs.mkdirs("dbfs:/new/directory")
+
+# Copy files
+dbutils.fs.cp("dbfs:/source", "dbfs:/dest", recurse=True)
+
+# Head (preview file)
+dbutils.fs.head("dbfs:/path/file.txt", 1000)
+```
+
+### Notebook Context
+```python
+# Get notebook path
+dbutils.notebook.entry_point.getDbutils().notebook().getContext().notebookPath().get()
+
+# Get current user
+dbutils.notebook.entry_point.getDbutils().notebook().getContext().userName().get()
+
+# Exit notebook
+dbutils.notebook.exit("Exit message")
+
+# Run another notebook
+dbutils.notebook.run("./other_notebook", timeout_seconds=3600, arguments={"param1": "value1"})
 ```
 
 ## Auto Loader
@@ -314,24 +527,61 @@ APPLY CHANGES INTO live.target
 GRANT <privilege> ON <object_type> <object_name> TO <user_or_group>;
 GRANT SELECT ON TABLE test TO `databricks@degols.net`;
 
-REVOKE <privilege> ON <object_type> <object_name> FROM `test@gmail.com';
+REVOKE <privilege> ON <object_type> <object_name> FROM `test@gmail.com`;
+
+-- UC Specific
+GRANT USAGE ON CATALOG my_catalog TO `user@company.com`;
+GRANT CREATE ON SCHEMA my_catalog.my_schema TO `team@company.com`;
+GRANT READ_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`;
+GRANT WRITE_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`;
+```
+
+## Jobs and Workflows
+```python
+# List running jobs
+%jobs
+
+# Submit job via API
+from databricks.sdk import WorkspaceClient
+w = WorkspaceClient()
+job = w.jobs.create(
+    name="my_job",
+    tasks=[{
+        "task_key": "task1",
+        "notebook_task": {"notebook_path": "/Users/me/notebook"},
+        "new_cluster": {"spark_version": "14.3.x-scala2.12", "num_workers": 2, "node_type_id": "i3.xlarge"}
+    }]
+)
 ```
 
 ## Links
-- [Databricks](https://docs.databricks.com/en/index.html)
+- **Official Databricks Documentation**
+  - [Databricks Docs Home](https://docs.databricks.com/)
   - [SQL Language Reference](https://docs.databricks.com/en/sql/language-manual/index.html)
-  - [Cheat Sheets](https://docs.databricks.com/en/getting-started/best-practices.html)
-    - [Compute creation cheat sheet](https://docs.databricks.com/en/cheat-sheet/compute.html)
-    - [Platform administration cheat sheet](https://docs.databricks.com/en/cheat-sheet/administration.html)
-    - [Production job scheduling cheat sheet](https://docs.databricks.com/en/cheat-sheet/jobs.html)
-  - [Best Practices](https://docs.databricks.com/en/getting-started/best-practices.html)
-    - [Delta Lake best practices](https://docs.databricks.com/en/delta/best-practices.html)
-    - [Hyperparameter tuning with Hyperopt](https://docs.databricks.com/en/machine-learning/automl-hyperparam-tuning/hyperopt-best-practices.html)
-    - [Deep learning in Databricks](https://docs.databricks.com/en/machine-learning/train-model/dl-best-practices.html)
-    - [Recommendations for MLOps](https://docs.databricks.com/en/machine-learning/mlops/mlops-workflow.html)
-    - [Unity Catalog best practices](https://docs.databricks.com/en/data-governance/unity-catalog/best-practices.html)
-    - [Cluster configuration best practices](https://docs.databricks.com/en/compute/cluster-config-best-practices.html)
-    - [Instance pool configuration best practices](https://docs.databricks.com/en/compute/pool-best-practices.html)
-- Other
-  - [Databricks Cheat Sheet 1](https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065)
-  - [Databricks Notebook Markdown Cheat Sheet](https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/)
+  - [Python API Reference (PySpark)](https://docs.databricks.com/en/dev-tools/python-sql-connector.html)
+  
+- **Core Features**
+  - [Delta Lake Documentation](https://docs.databricks.com/en/delta/index.html)
+  - [Unity Catalog Guide](https://docs.databricks.com/en/data-governance/unity-catalog/index.html)
+  - [Databricks SQL Endpoints](https://docs.databricks.com/en/sql/admin/sql-endpoints.html)
+  - [Serverless SQL](https://docs.databricks.com/en/sql/admin/serverless.html)
+
+- **Cheat Sheets**
+  - [Compute Creation](https://docs.databricks.com/en/cheat-sheet/compute.html)
+  - [Platform Administration](https://docs.databricks.com/en/cheat-sheet/administration.html)
+  - [Production Job Scheduling](https://docs.databricks.com/en/cheat-sheet/jobs.html)
+
+- **Best Practices**
+  - [Delta Lake Best Practices](https://docs.databricks.com/en/delta/best-practices.html)
+  - [Unity Catalog Best Practices](https://docs.databricks.com/en/data-governance/unity-catalog/best-practices.html)
+  - [Cluster Configuration Best Practices](https://docs.databricks.com/en/compute/cluster-config-best-practices.html)
+  - [MLOps Workflow](https://docs.databricks.com/en/machine-learning/mlops/mlops-workflow.html)
+
+- **Tools & APIs**
+  - [Databricks Python SDK](https://databricks-py.readthedocs.io/)
+  - [Databricks CLI](https://docs.databricks.com/en/dev-tools/cli/index.html)
+  - [Terraform Provider](https://registry.terraform.io/providers/databricks/databricks/latest/docs)
+
+- **Community Resources**
+  - [Databricks Cheat Sheet - Medium](https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065)
+  - [Notebook Markdown Cheat Sheet](https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/)
