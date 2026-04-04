@@ -110,6 +110,9 @@
     <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-04T20:51:25+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/data-engineering/data-engineering-science-courses/</loc>
+    <lastmod>2026-04-04T20:51:25+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-04T20:51:25+01:00</lastmod>
   </url><url>
@@ -135,9 +138,6 @@
     <lastmod>2026-04-04T20:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/kafka/</loc>
-    <lastmod>2026-04-04T20:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data-engineering/data-engineering-science-courses/</loc>
     <lastmod>2026-04-04T20:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/nosql/</loc>
@@ -170,10 +170,28 @@
     <loc>https://jamesm.blog/data-engineering/databricks-training-certification/</loc>
     <lastmod>2026-04-04T20:47:25+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/dlt/</loc>
+    <lastmod>2026-04-04T20:47:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/lakehouse/</loc>
+    <lastmod>2026-04-04T20:47:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/unity-catalog/</loc>
+    <lastmod>2026-04-04T20:47:25+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/cheatsheets/</loc>
     <lastmod>2026-04-04T20:44:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/data-engineering/databricks-cheatsheet/</loc>
+    <lastmod>2026-04-04T20:44:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/delta-lake/</loc>
+    <lastmod>2026-04-04T20:44:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/pyspark/</loc>
+    <lastmod>2026-04-04T20:44:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/sql/</loc>
     <lastmod>2026-04-04T20:44:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ableton/</loc>
@@ -1388,9 +1406,6 @@
     <loc>https://jamesm.blog/tags/programming/</loc>
     <lastmod>2023-04-21T23:07:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/sql/</loc>
-    <lastmod>2023-04-21T23:07:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/blogs/</loc>
     <lastmod>2023-04-21T11:50:32+01:00</lastmod>
   </url><url>
@@ -1473,6 +1488,12 @@
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/abinitio/</loc>
+    <lastmod>2021-01-01T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-integration/</loc>
+    <lastmod>2021-01-01T06:51:25+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-pipelines/</loc>
     <lastmod>2021-01-01T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/data-engineering/etl-tools/</loc>

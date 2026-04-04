@@ -336,10 +336,52 @@
       <description></description>
     </item>
     <item>
+      <title>Dlt</title>
+      <link>https://jamesm.blog/tags/dlt/</link>
+      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/dlt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lakehouse</title>
+      <link>https://jamesm.blog/tags/lakehouse/</link>
+      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/lakehouse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity-Catalog</title>
+      <link>https://jamesm.blog/tags/unity-catalog/</link>
+      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/unity-catalog/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cheatsheets</title>
       <link>https://jamesm.blog/tags/cheatsheets/</link>
       <pubDate>Sat, 04 Apr 2026 20:44:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cheatsheets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delta-Lake</title>
+      <link>https://jamesm.blog/tags/delta-lake/</link>
+      <pubDate>Sat, 04 Apr 2026 20:44:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/delta-lake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pyspark</title>
+      <link>https://jamesm.blog/tags/pyspark/</link>
+      <pubDate>Sat, 04 Apr 2026 20:44:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/pyspark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>https://jamesm.blog/tags/sql/</link>
+      <pubDate>Sat, 04 Apr 2026 20:44:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/sql/</guid>
       <description></description>
     </item>
     <item>
@@ -2359,13 +2401,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sql</title>
-      <link>https://jamesm.blog/tags/sql/</link>
-      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/sql/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Blogs</title>
       <link>https://jamesm.blog/tags/blogs/</link>
       <pubDate>Fri, 21 Apr 2023 11:50:32 +0100</pubDate>
@@ -2475,6 +2510,20 @@
       <link>https://jamesm.blog/tags/abinitio/</link>
       <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/abinitio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Integration</title>
+      <link>https://jamesm.blog/tags/data-integration/</link>
+      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Pipelines</title>
+      <link>https://jamesm.blog/tags/data-pipelines/</link>
+      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-pipelines/</guid>
       <description></description>
     </item>
     <item>

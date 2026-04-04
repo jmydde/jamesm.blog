@@ -14,132 +14,22 @@
     <lastBuildDate>Sat, 04 Apr 2026 20:51:25 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/scheduling/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>List of Data Engineering &amp; Data Science Courses</title>
+      <title>Data Engineering &amp; Data Science Courses</title>
       <link>https://jamesm.blog/data-engineering/data-engineering-science-courses/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/data-engineering-science-courses/</guid>
-      <description>&lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;how-to-use-this-guide&#34;&gt;How to Use This Guide&lt;/h2&gt;
+&lt;p&gt;This curated list covers courses from beginner to advanced levels across multiple platforms. Choose based on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Your role&lt;/strong&gt;: Data Engineer, Data Analyst, or Data Scientist&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning style&lt;/strong&gt;: Self-paced courses, specializations, or nanodegrees&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Timeline&lt;/strong&gt;: Single courses (weeks) vs. comprehensive programs (months)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hands-on practice&lt;/strong&gt;: Most include projects and real-world scenarios&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud platform&lt;/strong&gt;: AWS, GCP, Azure, or multi-cloud approaches&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;
 &lt;h3 id=&#34;professional-certificates-industry-backed&#34;&gt;Professional Certificates (Industry-Backed)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/professional-certificates/ibm-data-engineer&#34;&gt;IBM Data Engineering Professional Certificate&lt;/a&gt; (Coursera)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/courses/data-engineering/&#34;&gt;DeepLearning.AI Data Engineering Professional Certificate&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://xpro.mit.edu/courses/course-v1:xPRO&amp;#43;PCDEx/&#34;&gt;MIT xPRO Professional Certificate in Data Engineering&lt;/a&gt; - 6 months, $7,900&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;a-cloud-guru&#34;&gt;A Cloud Guru&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/apache-kafka-deep-dive/&#34;&gt;Apache Kafka Deep Dive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/aws-certified-big-data-specialty/&#34;&gt;AWS Certified Big Data Specialty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/google-certified-professional-data-engineer/&#34;&gt;Google Certified Professional Data Engineer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/microsoft-certified-azure-data-engineer-associate-dp-203/&#34;&gt;Microsoft Certified: Azure Data Engineer Associate (DP-700)&lt;/a&gt; - Updated for Microsoft Fabric&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;coursera&#34;&gt;Coursera&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/introduction-to-data-engineering/&#34;&gt;Introduction to Data Engineering&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/master-real-time-streaming-kafka-spark&#34;&gt;Master Real-Time Streaming with Kafka &amp;amp; Spark&lt;/a&gt; - Updated Jan 2026&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/&#34;&gt;Data Science with Databricks for Data Analysts Specialization&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;datacamp&#34;&gt;DataCamp&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/building-data-engineering-pipelines-in-python/&#34;&gt;Building Data Engineering Pipelines in Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/database-design/&#34;&gt;Database Design&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/etl-in-python/&#34;&gt;ETL in Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-airflow-in-python/&#34;&gt;Introduction to Airflow in Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-data-engineering/&#34;&gt;Introduction to Data Engineering&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/nosql-concepts/&#34;&gt;NoSQL Concepts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/streaming-concepts/&#34;&gt;Streaming Concepts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/understanding-data-engineering/&#34;&gt;Understanding Data Engineering&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;google&#34;&gt;Google&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/53/&#34;&gt;Building Batch Data Pipelines on Google Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/52/&#34;&gt;Building Resilient Streaming Analytics Systems on Google Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/54/&#34;&gt;Modernizing Data Lakes and Data Warehouses with Google Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/72/&#34;&gt;Preparing for the Google Cloud Professional Data Engineer Exam&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/229/&#34;&gt;Serverless Data Processing with Dataflow: Develop Pipelines&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/218/&#34;&gt;Serverless Data Processing with Dataflow: Foundations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/264/&#34;&gt;Serverless Data Processing with Dataflow: Operations&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;udacity&#34;&gt;Udacity&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-engineer-nanodegree--nd027/&#34;&gt;Data Engineer Nanodegree&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/data-streaming-nanodegree--nd029/&#34;&gt;Data Streaming Nanodegree&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;udemy&#34;&gt;Udemy&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/&#34;&gt;Taming Big Data with Apache Spark and Python - Hands On!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/data-engineering-using-kafka-and-spark-structured-streaming/&#34;&gt;Data Engineering using Kafka and Spark Structured Streaming&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tutorialspoint&#34;&gt;TutorialsPoint&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://market.tutorialspoint.com/certification/apache-prime-pack/index.asp&#34;&gt;Apache Spark Certification&lt;/a&gt; - Big Data, Hadoop, Kafka, ML with Spark&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;whizlabs&#34;&gt;Whizlabs&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/apache-kafka-fundamentals/297/&#34;&gt;Apache Kafka Fundamentals&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/&#34;&gt;Databricks Certified Associate Developer for Apache Spark (Python)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-analyst-associate/&#34;&gt;Databricks Certified Data Analyst Associate Certification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-associate/&#34;&gt;Databricks Certified Data Engineer Associate Certification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-data-engineer-professional/&#34;&gt;Databricks Certified Data Engineer Professional Certification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/snowflake-snowpro-core-certification/384/&#34;&gt;Snowflake SnowPro Core Certification&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;simplilearn&#34;&gt;Simplilearn&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.simplilearn.com/pgp-data-engineering-certification-training-course/&#34;&gt;Post Graduate Program in Data Engineering&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;class-central&#34;&gt;Class Central&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/data-engineering&#34;&gt;1700+ Data Engineering Courses&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/apache-kafka&#34;&gt;700+ Apache Kafka Courses&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-science&#34;&gt;Data Science&lt;/h2&gt;
-&lt;h3 id=&#34;professional-certificates-industry-backed-1&#34;&gt;Professional Certificates (Industry-Backed)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/professional-certificates/ibm-data-science&#34;&gt;IBM Data Science Professional Certificate&lt;/a&gt; (Coursera)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/professional-certificates/google-advanced-data-analytics&#34;&gt;Google Advanced Data Analytics Professional Certificate&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;a-cloud-guru-1&#34;&gt;A Cloud Guru&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://acloudguru.com/course/introduction-to-machine-learning/&#34;&gt;Introduction to Machine Learning&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;coursera-1&#34;&gt;Coursera&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/&#34;&gt;Data Science with Databricks for Data Analysts Specialization&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;datacamp-1&#34;&gt;DataCamp&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-data-science-in-python/&#34;&gt;Introduction to Data Science in Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/python-data-science-toolbox-part-1/&#34;&gt;Python Data Science Toolbox (Part 1)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;google-1&#34;&gt;Google&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/data-science-foundations/&#34;&gt;Data Science Foundations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/data-science-with-python/&#34;&gt;Data Science with Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/3/&#34;&gt;Google Cloud Big Data and Machine Learning Fundamentals&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/intro-to-tensorflow-for-deep-learning/&#34;&gt;Intro to TensorFlow for Deep Learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis/&#34;&gt;Learn Python basics for data analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course/&#34;&gt;Machine Learning Crash Course&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/55/&#34;&gt;Smart Analytics, Machine Learning, and AI on Google Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;udemy-1&#34;&gt;Udemy&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/aws-machine-learning/&#34;&gt;AWS Certified Machine Learning Specialty 2023 - Hands On!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;whizlabs-1&#34;&gt;Whizlabs&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/aws-certified-machine-learning-specialty/281/&#34;&gt;AWS Certified Machine Learning Specialty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-associate/&#34;&gt;Databricks Certified Machine Learning Associate Certification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/databricks-certified-machine-learning-professional-certification/&#34;&gt;Databricks Certified Machine Learning Professional Certification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/data-science-with-python/379/&#34;&gt;Introduction to Data Science with Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.whizlabs.com/learn/course/tensorflow-for-deep-learning-with-python/1117/&#34;&gt;TensorFlow for Deep Learning with Python&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;additional-learning-resources&#34;&gt;Additional Learning Resources&lt;/h2&gt;
-&lt;h3 id=&#34;aggregator-platforms&#34;&gt;Aggregator Platforms&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/data-science&#34;&gt;Class Central - Data Science Courses&lt;/a&gt; - Discover free &amp;amp; paid courses&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bitdegree.org/tutorials/data-science-courses&#34;&gt;BitDegree - Best Data Science Courses&lt;/a&gt; - 2026 updated rankings&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;for-cloud-certifications&#34;&gt;For Cloud Certifications&lt;/h3&gt;
-&lt;p&gt;When choosing between cloud platforms:&lt;/p&gt;</description>
+&lt;p&gt;Best for: Structured learning with recognized credentials&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of DevOps GitHub Projects</title>
