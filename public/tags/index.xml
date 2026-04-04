@@ -11,48 +11,174 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 20:47:25 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 20:51:25 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Certification</title>
-      <link>https://jamesm.blog/tags/certification/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/certification/</guid>
+      <title>Airflow</title>
+      <link>https://jamesm.blog/tags/airflow/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/airflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud-Certifications</title>
+      <link>https://jamesm.blog/tags/cloud-certifications/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/cloud-certifications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Courses</title>
+      <link>https://jamesm.blog/tags/courses/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/courses/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
       <link>https://jamesm.blog/tags/data/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Engineering</title>
       <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>https://jamesm.blog/tags/database/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>Databricks</title>
       <link>https://jamesm.blog/tags/databricks/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/databricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datacamp</title>
+      <link>https://jamesm.blog/tags/datacamp/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/datacamp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Db</title>
+      <link>https://jamesm.blog/tags/db/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/db/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>https://jamesm.blog/tags/deep-learning/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Etl</title>
+      <link>https://jamesm.blog/tags/etl/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/etl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://jamesm.blog/tags/google/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kafka</title>
+      <link>https://jamesm.blog/tags/kafka/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/kafka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nosql</title>
+      <link>https://jamesm.blog/tags/nosql/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/nosql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipelines</title>
+      <link>https://jamesm.blog/tags/pipelines/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/pipelines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://jamesm.blog/tags/python/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scheduling</title>
+      <link>https://jamesm.blog/tags/scheduling/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/scheduling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Snowflake</title>
+      <link>https://jamesm.blog/tags/snowflake/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/snowflake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spark</title>
+      <link>https://jamesm.blog/tags/spark/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/spark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streaming</title>
+      <link>https://jamesm.blog/tags/streaming/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/streaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tensorflow</title>
+      <link>https://jamesm.blog/tags/tensorflow/</link>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/tensorflow/</guid>
       <description></description>
     </item>
     <item>
       <title>Training</title>
       <link>https://jamesm.blog/tags/training/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certification</title>
+      <link>https://jamesm.blog/tags/certification/</link>
+      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/certification/</guid>
       <description></description>
     </item>
     <item>
@@ -1246,13 +1372,6 @@
       <description></description>
     </item>
     <item>
-      <title>Courses</title>
-      <link>https://jamesm.blog/tags/courses/</link>
-      <pubDate>Fri, 17 May 2024 17:01:21 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/courses/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Groove3</title>
       <link>https://jamesm.blog/tags/groove3/</link>
       <pubDate>Fri, 17 May 2024 17:01:21 +0100</pubDate>
@@ -1449,13 +1568,6 @@
       <description></description>
     </item>
     <item>
-      <title>Google</title>
-      <link>https://jamesm.blog/tags/google/</link>
-      <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/google/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Gemini Advanced</title>
       <link>https://jamesm.blog/tags/gemini-advanced/</link>
       <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
@@ -1474,97 +1586,6 @@
       <link>https://jamesm.blog/tags/ableton-live/</link>
       <pubDate>Tue, 05 Mar 2024 21:10:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ableton-live/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Airflow</title>
-      <link>https://jamesm.blog/tags/airflow/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/airflow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Database</title>
-      <link>https://jamesm.blog/tags/database/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/database/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Datacamp</title>
-      <link>https://jamesm.blog/tags/datacamp/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/datacamp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Db</title>
-      <link>https://jamesm.blog/tags/db/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/db/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Deep Learning</title>
-      <link>https://jamesm.blog/tags/deep-learning/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Etl</title>
-      <link>https://jamesm.blog/tags/etl/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/etl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nosql</title>
-      <link>https://jamesm.blog/tags/nosql/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/nosql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pipelines</title>
-      <link>https://jamesm.blog/tags/pipelines/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/pipelines/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://jamesm.blog/tags/python/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scheduling</title>
-      <link>https://jamesm.blog/tags/scheduling/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/scheduling/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Snowflake</title>
-      <link>https://jamesm.blog/tags/snowflake/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/snowflake/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Streaming</title>
-      <link>https://jamesm.blog/tags/streaming/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/streaming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tensorflow</title>
-      <link>https://jamesm.blog/tags/tensorflow/</link>
-      <pubDate>Sun, 25 Feb 2024 10:26:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/tensorflow/</guid>
       <description></description>
     </item>
     <item>
