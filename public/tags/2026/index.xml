@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Claude Code on jamesm.blog</title>
-    <link>https://jamesm.blog/tags/claude-code/</link>
-    <description>Recent content in Claude Code on jamesm.blog</description>
+    <title>2026 on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/2026/</link>
+    <description>Recent content in 2026 on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -12,7 +12,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 04 Apr 2026 21:06:14 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/claude-code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesm.blog/tags/2026/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
       <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>
@@ -23,15 +23,6 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;the-big-shift-from-framework-to-platform&#34;&gt;The Big Shift: From Framework to Platform&lt;/h2&gt;
 &lt;p&gt;GitHub Spec Kit is no longer just a lightweight documentation toolkit. As of April 2026, it&amp;rsquo;s evolved into a full extensibility platform that works across the entire AI-assisted development landscape.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward</title>
-      <link>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</link>
-      <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</guid>
-      <description>&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;
-&lt;p&gt;So I started exploring alternatives.&lt;/p&gt;
-&lt;p&gt;What I&amp;rsquo;ve realised is that the best approach isn&amp;rsquo;t replacing Claude Code entirely - it&amp;rsquo;s building a hybrid AI developer stack where different models handle different types of work.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
