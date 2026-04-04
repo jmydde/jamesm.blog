@@ -7,145 +7,26 @@
 <meta name="robots" content="index, follow">
 <title>Personal AI Development Stack | jamesm.blog</title>
 <meta name="keywords" content="ai">
-<meta name="description" content="This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
+<meta name="description" content="This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
 
-                        ┌──────────┐
-                        │  iPhone  │
-                        └──────────┘
-                              │
-                  Tailscale VPN (on-demand)
-                              │
-                              ▼
-                        ┌─────────────┐
-                        │ MacBook Air │
-                        │ (tmux /     │
-                        │ zellij &#43;    │
-                        │ caffeinate) │
-                        └─────────────┘
-                              │
-        ┌─────────────────────┼──────────────────┐
-        │                     │                  │
-        ▼                     ▼                  ▼
-  ┌────────────┐       ┌────────────┐    ┌───────────────┐
-  │ VS Code    │       │ Terminus   │    │  Cursor AI    │
-  │ &#43; Cline    │       │ (SSH)      │    │ (Primary IDE) │
-  │ &#43; Continue │       └────────────┘    └───────────────┘
-  └────────────┘                                 │
-        │                                        ▼
-        ▼                        ┌──────────────────────────────┐
-┌────────────────┐               │   AI Coding Agents &amp; Tools   │
-│ Test / Scripts │               │------------------------------│
-│ (AI-driven)    │               │ • Cline                      │
-└────────────────┘               │ • Continue.dev               │
-                                 │ • Claude Code                │
-                                 │ • Ollama (local models)      │
-                                 │ • Aider                      │
-                                 │ • Windsurf (Cascade)         │
-                                 │ • Gemini CLI                 │
-                                 │ • GitHub Copilot             │
-                                 └──────────────────────────────┘
-                                                 │
-                                                 ▼
-                               ┌────────────────────────────────────┐
-                               │ LLM Routing &amp; Orchestration        │
-                               │------------------------------------│
-                               │ • OpenRouter / LiteLLM             │
-                               │ • Multi-model routing              │
-                               │ • Cost / speed optimisation        │
-                               │ • IDE integrations                 │
-                               └────────────────────────────────────┘
-                                                 │
-                                                 ▼
-                     ┌────────────────────────────────────────────────────┐
-                     │        Cloud / Web LLM Interfaces                  │
-                     │----------------------------------------------------│
-                     │ ChatGPT Web / Codex        → Research / general    │
-                     │ Perplexity Web             → Cited research        │
-                     │ Claude Code (terminal)     → Heavy coding          │
-                     │ Claude Web &#43; Desktop       → General usage         │
-                     │ Grok / SuperGrok           → Images &#43; real-time    │
-                     └────────────────────────────────────────────────────┘
+Architecture Overview
+Hardware &amp; Connectivity
+iPhone ──(Tailscale VPN)──→ MacBook Air
+                              ├─ tmux/zellij (session persistence)
+                              └─ Lungo, Patterned (keep-awake utilities)
+IDE &amp; Editor Layer
+PRIMARY: Cursor AI (with Cascade) — fastest iteration
+SECONDARY: VS Code (&#43; Cline &#43; Continue.dev) — battle-tested
+TERMINAL: Claude Code CLI — heavy multi-file work
+SSH: Termius (mobile remote access)
+AI Tools &amp; LLM Backends
+AGENTS:  Cline, Claude Code, Aider, Windsurf
+LOCAL:   Ollama (free, instant completions)
+ROUTERS: OpenRouter, LiteLLM (cost &amp; speed optimization)
+WEB:     ChatGPT, Perplexity, Claude Web, Grok
 
-Component Descriptions
-iPhone
-
-Purpose: Mobile access to coding sessions, remote terminals, and LLM interfaces.
-Tools: Termius (SSH), web browsers for cloud LLMs.
-Connection: Via Tailscale VPN for secure, private access to your MacBook.
-
-Tailscale VPN
-
-Purpose: Secure, on-demand VPN that allows devices to communicate without exposing ports publicly.
-Use case: Connect iPhone or other devices to your MacBook seamlessly.
-
-MacBook
-
-Purpose: Primary development machine.
-Enhancements:
-
-tmux / zellij: Terminal multiplexers for persistent, multi-pane sessions.
-caffeinate / Amphetamine: Prevent sleep to maintain long-running processes or server tasks.
-
-
-
-IDEs and Terminals
-
-VS Code &#43; Cline &#43; Continue.dev
-
-Modern IDE with AI-powered code suggestions and integrations.
-
-
-Terminus
-
-SSH client for remote server access and workflow continuity.
-
-
-Cursor AI
-
-AI-focused primary IDE for code generation and testing.
-
-
-
-AI Coding Agents &amp; Tools
-
-Purpose: Automate coding, testing, and documentation.
-Key Tools:
-
-Cline: Terminal-based AI coding assistant.
-Continue.dev: AI automation for workflows.
-Claude Code: Heavy-duty coding in CLI.
-Aider / Windsurf / Gemini CLI / GitHub Copilot: Multi-purpose AI agents integrated with IDEs.
-
-
-
-LLM Routing &amp; Orchestration
-
-Purpose: Optimize which AI model handles which task.
-Features:
-
-Multi-model routing based on task type (research, coding, testing, image generation).
-Speed and cost optimization for different models.
-Seamless IDE integration for on-the-fly AI assistance.
-
-
-
-Cloud / Web LLM Interfaces
-
-Purpose: External interfaces for research, code generation, and real-time AI support.
-Examples:
-
-ChatGPT Web / Codex: General-purpose research and code generation.
-Perplexity Web: Citation-focused research.
-Claude Web &#43; Desktop / Claude Code: Heavy coding workflows.
-Grok / SuperGrok: Image processing, real-time AI applications.
-
-
-
-
-Workflow Example
-
-
-Start your MacBook environment:">
+Tool Selection Decision Tree
+Use this to pick the right tool for the task:">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/ai/my-ai-dev-stack/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
@@ -211,8 +92,8 @@ Start your MacBook environment:">
 </script><meta property="og:url" content="https://jamesm.blog/ai/my-ai-dev-stack/">
   <meta property="og:site_name" content="jamesm.blog">
   <meta property="og:title" content="Personal AI Development Stack">
-  <meta property="og:description" content="This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
-┌──────────┐ │ iPhone │ └──────────┘ │ Tailscale VPN (on-demand) │ ▼ ┌─────────────┐ │ MacBook Air │ │ (tmux / │ │ zellij &#43; │ │ caffeinate) │ └─────────────┘ │ ┌─────────────────────┼──────────────────┐ │ │ │ ▼ ▼ ▼ ┌────────────┐ ┌────────────┐ ┌───────────────┐ │ VS Code │ │ Terminus │ │ Cursor AI │ │ &#43; Cline │ │ (SSH) │ │ (Primary IDE) │ │ &#43; Continue │ └────────────┘ └───────────────┘ └────────────┘ │ │ ▼ ▼ ┌──────────────────────────────┐ ┌────────────────┐ │ AI Coding Agents &amp; Tools │ │ Test / Scripts │ │------------------------------│ │ (AI-driven) │ │ • Cline │ └────────────────┘ │ • Continue.dev │ │ • Claude Code │ │ • Ollama (local models) │ │ • Aider │ │ • Windsurf (Cascade) │ │ • Gemini CLI │ │ • GitHub Copilot │ └──────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ LLM Routing &amp; Orchestration │ │------------------------------------│ │ • OpenRouter / LiteLLM │ │ • Multi-model routing │ │ • Cost / speed optimisation │ │ • IDE integrations │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────────────────────┐ │ Cloud / Web LLM Interfaces │ │----------------------------------------------------│ │ ChatGPT Web / Codex → Research / general │ │ Perplexity Web → Cited research │ │ Claude Code (terminal) → Heavy coding │ │ Claude Web &#43; Desktop → General usage │ │ Grok / SuperGrok → Images &#43; real-time │ └────────────────────────────────────────────────────┘ Component Descriptions iPhone Purpose: Mobile access to coding sessions, remote terminals, and LLM interfaces. Tools: Termius (SSH), web browsers for cloud LLMs. Connection: Via Tailscale VPN for secure, private access to your MacBook. Tailscale VPN Purpose: Secure, on-demand VPN that allows devices to communicate without exposing ports publicly. Use case: Connect iPhone or other devices to your MacBook seamlessly. MacBook Purpose: Primary development machine. Enhancements: tmux / zellij: Terminal multiplexers for persistent, multi-pane sessions. caffeinate / Amphetamine: Prevent sleep to maintain long-running processes or server tasks. IDEs and Terminals VS Code &#43; Cline &#43; Continue.dev Modern IDE with AI-powered code suggestions and integrations. Terminus SSH client for remote server access and workflow continuity. Cursor AI AI-focused primary IDE for code generation and testing. AI Coding Agents &amp; Tools Purpose: Automate coding, testing, and documentation. Key Tools: Cline: Terminal-based AI coding assistant. Continue.dev: AI automation for workflows. Claude Code: Heavy-duty coding in CLI. Aider / Windsurf / Gemini CLI / GitHub Copilot: Multi-purpose AI agents integrated with IDEs. LLM Routing &amp; Orchestration Purpose: Optimize which AI model handles which task. Features: Multi-model routing based on task type (research, coding, testing, image generation). Speed and cost optimization for different models. Seamless IDE integration for on-the-fly AI assistance. Cloud / Web LLM Interfaces Purpose: External interfaces for research, code generation, and real-time AI support. Examples: ChatGPT Web / Codex: General-purpose research and code generation. Perplexity Web: Citation-focused research. Claude Web &#43; Desktop / Claude Code: Heavy coding workflows. Grok / SuperGrok: Image processing, real-time AI applications. Workflow Example Start your MacBook environment:">
+  <meta property="og:description" content="This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
+Architecture Overview Hardware &amp; Connectivity iPhone ──(Tailscale VPN)──→ MacBook Air ├─ tmux/zellij (session persistence) └─ Lungo, Patterned (keep-awake utilities) IDE &amp; Editor Layer PRIMARY: Cursor AI (with Cascade) — fastest iteration SECONDARY: VS Code (&#43; Cline &#43; Continue.dev) — battle-tested TERMINAL: Claude Code CLI — heavy multi-file work SSH: Termius (mobile remote access) AI Tools &amp; LLM Backends AGENTS: Cline, Claude Code, Aider, Windsurf LOCAL: Ollama (free, instant completions) ROUTERS: OpenRouter, LiteLLM (cost &amp; speed optimization) WEB: ChatGPT, Perplexity, Claude Web, Grok Tool Selection Decision Tree Use this to pick the right tool for the task:">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="ai">
@@ -224,8 +105,8 @@ Start your MacBook environment:">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
   <meta name="twitter:title" content="Personal AI Development Stack">
-  <meta name="twitter:description" content="This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
-┌──────────┐ │ iPhone │ └──────────┘ │ Tailscale VPN (on-demand) │ ▼ ┌─────────────┐ │ MacBook Air │ │ (tmux / │ │ zellij &#43; │ │ caffeinate) │ └─────────────┘ │ ┌─────────────────────┼──────────────────┐ │ │ │ ▼ ▼ ▼ ┌────────────┐ ┌────────────┐ ┌───────────────┐ │ VS Code │ │ Terminus │ │ Cursor AI │ │ &#43; Cline │ │ (SSH) │ │ (Primary IDE) │ │ &#43; Continue │ └────────────┘ └───────────────┘ └────────────┘ │ │ ▼ ▼ ┌──────────────────────────────┐ ┌────────────────┐ │ AI Coding Agents &amp; Tools │ │ Test / Scripts │ │------------------------------│ │ (AI-driven) │ │ • Cline │ └────────────────┘ │ • Continue.dev │ │ • Claude Code │ │ • Ollama (local models) │ │ • Aider │ │ • Windsurf (Cascade) │ │ • Gemini CLI │ │ • GitHub Copilot │ └──────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ LLM Routing &amp; Orchestration │ │------------------------------------│ │ • OpenRouter / LiteLLM │ │ • Multi-model routing │ │ • Cost / speed optimisation │ │ • IDE integrations │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────────────────────┐ │ Cloud / Web LLM Interfaces │ │----------------------------------------------------│ │ ChatGPT Web / Codex → Research / general │ │ Perplexity Web → Cited research │ │ Claude Code (terminal) → Heavy coding │ │ Claude Web &#43; Desktop → General usage │ │ Grok / SuperGrok → Images &#43; real-time │ └────────────────────────────────────────────────────┘ Component Descriptions iPhone Purpose: Mobile access to coding sessions, remote terminals, and LLM interfaces. Tools: Termius (SSH), web browsers for cloud LLMs. Connection: Via Tailscale VPN for secure, private access to your MacBook. Tailscale VPN Purpose: Secure, on-demand VPN that allows devices to communicate without exposing ports publicly. Use case: Connect iPhone or other devices to your MacBook seamlessly. MacBook Purpose: Primary development machine. Enhancements: tmux / zellij: Terminal multiplexers for persistent, multi-pane sessions. caffeinate / Amphetamine: Prevent sleep to maintain long-running processes or server tasks. IDEs and Terminals VS Code &#43; Cline &#43; Continue.dev Modern IDE with AI-powered code suggestions and integrations. Terminus SSH client for remote server access and workflow continuity. Cursor AI AI-focused primary IDE for code generation and testing. AI Coding Agents &amp; Tools Purpose: Automate coding, testing, and documentation. Key Tools: Cline: Terminal-based AI coding assistant. Continue.dev: AI automation for workflows. Claude Code: Heavy-duty coding in CLI. Aider / Windsurf / Gemini CLI / GitHub Copilot: Multi-purpose AI agents integrated with IDEs. LLM Routing &amp; Orchestration Purpose: Optimize which AI model handles which task. Features: Multi-model routing based on task type (research, coding, testing, image generation). Speed and cost optimization for different models. Seamless IDE integration for on-the-fly AI assistance. Cloud / Web LLM Interfaces Purpose: External interfaces for research, code generation, and real-time AI support. Examples: ChatGPT Web / Codex: General-purpose research and code generation. Perplexity Web: Citation-focused research. Claude Web &#43; Desktop / Claude Code: Heavy coding workflows. Grok / SuperGrok: Image processing, real-time AI applications. Workflow Example Start your MacBook environment:">
+  <meta name="twitter:description" content="This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
+Architecture Overview Hardware &amp; Connectivity iPhone ──(Tailscale VPN)──→ MacBook Air ├─ tmux/zellij (session persistence) └─ Lungo, Patterned (keep-awake utilities) IDE &amp; Editor Layer PRIMARY: Cursor AI (with Cascade) — fastest iteration SECONDARY: VS Code (&#43; Cline &#43; Continue.dev) — battle-tested TERMINAL: Claude Code CLI — heavy multi-file work SSH: Termius (mobile remote access) AI Tools &amp; LLM Backends AGENTS: Cline, Claude Code, Aider, Windsurf LOCAL: Ollama (free, instant completions) ROUTERS: OpenRouter, LiteLLM (cost &amp; speed optimization) WEB: ChatGPT, Perplexity, Claude Web, Grok Tool Selection Decision Tree Use this to pick the right tool for the task:">
 
 
 <script type="application/ld+json">
@@ -254,12 +135,12 @@ Start your MacBook environment:">
   "@type": "BlogPosting",
   "headline": "Personal AI Development Stack",
   "name": "Personal AI Development Stack",
-  "description": "This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.\n┌──────────┐ │ iPhone │ └──────────┘ │ Tailscale VPN (on-demand) │ ▼ ┌─────────────┐ │ MacBook Air │ │ (tmux / │ │ zellij + │ │ caffeinate) │ └─────────────┘ │ ┌─────────────────────┼──────────────────┐ │ │ │ ▼ ▼ ▼ ┌────────────┐ ┌────────────┐ ┌───────────────┐ │ VS Code │ │ Terminus │ │ Cursor AI │ │ + Cline │ │ (SSH) │ │ (Primary IDE) │ │ + Continue │ └────────────┘ └───────────────┘ └────────────┘ │ │ ▼ ▼ ┌──────────────────────────────┐ ┌────────────────┐ │ AI Coding Agents \u0026amp; Tools │ │ Test / Scripts │ │------------------------------│ │ (AI-driven) │ │ • Cline │ └────────────────┘ │ • Continue.dev │ │ • Claude Code │ │ • Ollama (local models) │ │ • Aider │ │ • Windsurf (Cascade) │ │ • Gemini CLI │ │ • GitHub Copilot │ └──────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ LLM Routing \u0026amp; Orchestration │ │------------------------------------│ │ • OpenRouter / LiteLLM │ │ • Multi-model routing │ │ • Cost / speed optimisation │ │ • IDE integrations │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────────────────────┐ │ Cloud / Web LLM Interfaces │ │----------------------------------------------------│ │ ChatGPT Web / Codex → Research / general │ │ Perplexity Web → Cited research │ │ Claude Code (terminal) → Heavy coding │ │ Claude Web + Desktop → General usage │ │ Grok / SuperGrok → Images + real-time │ └────────────────────────────────────────────────────┘ Component Descriptions iPhone Purpose: Mobile access to coding sessions, remote terminals, and LLM interfaces. Tools: Termius (SSH), web browsers for cloud LLMs. Connection: Via Tailscale VPN for secure, private access to your MacBook. Tailscale VPN Purpose: Secure, on-demand VPN that allows devices to communicate without exposing ports publicly. Use case: Connect iPhone or other devices to your MacBook seamlessly. MacBook Purpose: Primary development machine. Enhancements: tmux / zellij: Terminal multiplexers for persistent, multi-pane sessions. caffeinate / Amphetamine: Prevent sleep to maintain long-running processes or server tasks. IDEs and Terminals VS Code + Cline + Continue.dev Modern IDE with AI-powered code suggestions and integrations. Terminus SSH client for remote server access and workflow continuity. Cursor AI AI-focused primary IDE for code generation and testing. AI Coding Agents \u0026amp; Tools Purpose: Automate coding, testing, and documentation. Key Tools: Cline: Terminal-based AI coding assistant. Continue.dev: AI automation for workflows. Claude Code: Heavy-duty coding in CLI. Aider / Windsurf / Gemini CLI / GitHub Copilot: Multi-purpose AI agents integrated with IDEs. LLM Routing \u0026amp; Orchestration Purpose: Optimize which AI model handles which task. Features: Multi-model routing based on task type (research, coding, testing, image generation). Speed and cost optimization for different models. Seamless IDE integration for on-the-fly AI assistance. Cloud / Web LLM Interfaces Purpose: External interfaces for research, code generation, and real-time AI support. Examples: ChatGPT Web / Codex: General-purpose research and code generation. Perplexity Web: Citation-focused research. Claude Web + Desktop / Claude Code: Heavy coding workflows. Grok / SuperGrok: Image processing, real-time AI applications. Workflow Example Start your MacBook environment:\n",
+  "description": "This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.\nArchitecture Overview Hardware \u0026amp; Connectivity iPhone ──(Tailscale VPN)──→ MacBook Air ├─ tmux/zellij (session persistence) └─ Lungo, Patterned (keep-awake utilities) IDE \u0026amp; Editor Layer PRIMARY: Cursor AI (with Cascade) — fastest iteration SECONDARY: VS Code (+ Cline + Continue.dev) — battle-tested TERMINAL: Claude Code CLI — heavy multi-file work SSH: Termius (mobile remote access) AI Tools \u0026amp; LLM Backends AGENTS: Cline, Claude Code, Aider, Windsurf LOCAL: Ollama (free, instant completions) ROUTERS: OpenRouter, LiteLLM (cost \u0026amp; speed optimization) WEB: ChatGPT, Perplexity, Claude Web, Grok Tool Selection Decision Tree Use this to pick the right tool for the task:\n",
   "keywords": [
     "ai"
   ],
-  "articleBody": "This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.\n┌──────────┐ │ iPhone │ └──────────┘ │ Tailscale VPN (on-demand) │ ▼ ┌─────────────┐ │ MacBook Air │ │ (tmux / │ │ zellij + │ │ caffeinate) │ └─────────────┘ │ ┌─────────────────────┼──────────────────┐ │ │ │ ▼ ▼ ▼ ┌────────────┐ ┌────────────┐ ┌───────────────┐ │ VS Code │ │ Terminus │ │ Cursor AI │ │ + Cline │ │ (SSH) │ │ (Primary IDE) │ │ + Continue │ └────────────┘ └───────────────┘ └────────────┘ │ │ ▼ ▼ ┌──────────────────────────────┐ ┌────────────────┐ │ AI Coding Agents \u0026 Tools │ │ Test / Scripts │ │------------------------------│ │ (AI-driven) │ │ • Cline │ └────────────────┘ │ • Continue.dev │ │ • Claude Code │ │ • Ollama (local models) │ │ • Aider │ │ • Windsurf (Cascade) │ │ • Gemini CLI │ │ • GitHub Copilot │ └──────────────────────────────┘ │ ▼ ┌────────────────────────────────────┐ │ LLM Routing \u0026 Orchestration │ │------------------------------------│ │ • OpenRouter / LiteLLM │ │ • Multi-model routing │ │ • Cost / speed optimisation │ │ • IDE integrations │ └────────────────────────────────────┘ │ ▼ ┌────────────────────────────────────────────────────┐ │ Cloud / Web LLM Interfaces │ │----------------------------------------------------│ │ ChatGPT Web / Codex → Research / general │ │ Perplexity Web → Cited research │ │ Claude Code (terminal) → Heavy coding │ │ Claude Web + Desktop → General usage │ │ Grok / SuperGrok → Images + real-time │ └────────────────────────────────────────────────────┘ Component Descriptions iPhone Purpose: Mobile access to coding sessions, remote terminals, and LLM interfaces. Tools: Termius (SSH), web browsers for cloud LLMs. Connection: Via Tailscale VPN for secure, private access to your MacBook. Tailscale VPN Purpose: Secure, on-demand VPN that allows devices to communicate without exposing ports publicly. Use case: Connect iPhone or other devices to your MacBook seamlessly. MacBook Purpose: Primary development machine. Enhancements: tmux / zellij: Terminal multiplexers for persistent, multi-pane sessions. caffeinate / Amphetamine: Prevent sleep to maintain long-running processes or server tasks. IDEs and Terminals VS Code + Cline + Continue.dev Modern IDE with AI-powered code suggestions and integrations. Terminus SSH client for remote server access and workflow continuity. Cursor AI AI-focused primary IDE for code generation and testing. AI Coding Agents \u0026 Tools Purpose: Automate coding, testing, and documentation. Key Tools: Cline: Terminal-based AI coding assistant. Continue.dev: AI automation for workflows. Claude Code: Heavy-duty coding in CLI. Aider / Windsurf / Gemini CLI / GitHub Copilot: Multi-purpose AI agents integrated with IDEs. LLM Routing \u0026 Orchestration Purpose: Optimize which AI model handles which task. Features: Multi-model routing based on task type (research, coding, testing, image generation). Speed and cost optimization for different models. Seamless IDE integration for on-the-fly AI assistance. Cloud / Web LLM Interfaces Purpose: External interfaces for research, code generation, and real-time AI support. Examples: ChatGPT Web / Codex: General-purpose research and code generation. Perplexity Web: Citation-focused research. Claude Web + Desktop / Claude Code: Heavy coding workflows. Grok / SuperGrok: Image processing, real-time AI applications. Workflow Example Start your MacBook environment:\ntmux new -s dev caffeinate -dims \u0026 Connect iPhone via Tailscale VPN\nOpen Termius to SSH into the MacBook. Access web LLM interfaces via browser. Code \u0026 Test:\nOpen VS Code or Cursor AI. Use AI agents for code suggestions (Claude Code, Aider). Run tests and scripts locally or via AI automation. Route AI Tasks via LLM Orchestration:\nRoute heavy coding to Claude Code CLI. Use Perplexity Web for research and citations. Use ChatGPT for general guidance. Deploy / Integrate:\nFinal code merges via VS Code. Push code to GitHub or deploy with scripts automated by Continue.dev. Tips \u0026 Best Practices Keep tmux/zellij sessions persistent to avoid losing long-running AI tasks. Use Tailscale for mobile-first remote access; no port forwarding required. Use LLM orchestration to reduce latency and cost by assigning tasks to the most efficient model. Combine terminal-based and web-based AI tools for optimal workflow flexibility. Regularly update your AI agents and IDE plugins for maximum compatibility. This stack allows seamless integration of mobile access, persistent development environments, AI coding assistants, and multi-model orchestration, ideal for solo developers or small teams who heavily rely on AI-driven productivity.\n",
-  "wordCount" : "705",
+  "articleBody": "This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.\nArchitecture Overview Hardware \u0026 Connectivity iPhone ──(Tailscale VPN)──→ MacBook Air ├─ tmux/zellij (session persistence) └─ Lungo, Patterned (keep-awake utilities) IDE \u0026 Editor Layer PRIMARY: Cursor AI (with Cascade) — fastest iteration SECONDARY: VS Code (+ Cline + Continue.dev) — battle-tested TERMINAL: Claude Code CLI — heavy multi-file work SSH: Termius (mobile remote access) AI Tools \u0026 LLM Backends AGENTS: Cline, Claude Code, Aider, Windsurf LOCAL: Ollama (free, instant completions) ROUTERS: OpenRouter, LiteLLM (cost \u0026 speed optimization) WEB: ChatGPT, Perplexity, Claude Web, Grok Tool Selection Decision Tree Use this to pick the right tool for the task:\nTask Best Tool Why Speed Cost Quick code completion Cursor AI (inline) Instant, local context \u003c100ms $20/mo Multi-file refactor Claude Code CLI Best at cross-file reasoning 30-60s $20/mo Testing \u0026 test generation Aider (CLI) Specialized for tests, iterative 10-30s Free Research + citations Perplexity Web Built-in fact-checking 5-10s Free Image generation Grok / Gemini Purpose-built for images 5-20s Variable Local completions (offline) Ollama (Llama2 7B) Zero cost, instant \u003c100ms Free Complex problem-solving Claude Code + ChatGPT Two perspectives, no blind spots 1-2m Combined Code review + refactoring Continue.dev (VS Code) Good at style suggestions 10-30s Free Component Descriptions iPhone Purpose: Mobile access to coding sessions, remote terminals, and LLM interfaces. Tools: Termius (SSH), web browsers for cloud LLMs. Connection: Via Tailscale VPN for secure, private access to your MacBook (no port forwarding). Tailscale VPN Purpose: Secure, on-demand VPN that allows devices to communicate without exposing ports publicly. Setup: brew install tailscale \u0026\u0026 tailscale up Use case: Connect iPhone/iPad to your MacBook seamlessly, share files, run remote commands. MacBook Purpose: Primary development machine. Enhancements: tmux / zellij: Terminal multiplexers for persistent, multi-pane sessions. Lungo or Patterned: Keep display awake without dimming during long coding sessions (Amphetamine is deprecated). caffeinate: Command-line utility to prevent sleep during long-running tasks: caffeinate -dims \u0026 IDEs and Terminals Cursor AI (Primary) Purpose: AI-native IDE with Cascade reasoning engine. When to use: Daily coding, quick iterations, in-file suggestions. Strengths: Fast, context-aware, great refactoring support. Cost: $20/month after free tier. Keyboard shortcut: Cmd+K for inline edits, Cmd+Shift+K for codebase search. VS Code + Cline + Continue.dev (Secondary) Purpose: Battle-tested with AI extensions for automation. When to use: Complex projects requiring fine-grained control, or when you prefer open-source tooling. Strengths: Extensive plugin ecosystem, highly customizable. Cost: Free (extensions optional). Claude Code CLI (Heavy Lifting) Purpose: Terminal-based AI assistant for multi-file projects. When to use: Major refactors, implementing large features, batch testing. Strengths: Best at understanding entire codebases, can modify multiple files at once. Cost: Claude API usage (typically $0.50-$2 per complex task). Usage: claude code --file=src/ \"refactor authentication module\" Termius (Mobile SSH) Purpose: SSH client for remote server access from iPhone. Setup: Configure Tailscale + store SSH keys in Termius. Use case: Emergency fixes, monitoring from anywhere. LLM Routing \u0026 Orchestration Goal: Assign each task to the model that solves it fastest and cheapest.\nModel Selection by Task Task Type Recommended Model Reason Cost Code generation Claude 3.5 Sonnet Best for logic, edge cases $0.001-0.01/task Quick completions Ollama Llama2 7B Instant, local, free Free Research + facts Perplexity Claude Built-in web search, citations Free / Pro Image generation Grok-1 or Gemini Fast visual reasoning Variable Debugging GPT-4 Turbo Strongest at error analysis $0.01-0.03/task Long-context tasks Claude 3 Opus 200K token window $0.015-0.075/task Setup: OpenRouter or LiteLLM OpenRouter (recommended for simplicity):\nSign up at openrouter.ai Get API key and add to env: export OPENROUTER_API_KEY=sk-... Configure IDEs to use OpenRouter endpoint LiteLLM (for advanced routing):\nInstall: pip install litellm Create config file specifying fallback chains Use in scripts: from litellm import completion; response = completion(...) Example Routing Logic # For fast tasks (under 30s deadline): export LLM_PRIMARY=ollama # Local, instant export LLM_FALLBACK=openrouter/gpt-3.5-turbo # Cheap backup # For complex tasks (no time limit): export LLM_PRIMARY=claude # Best reasoning export LLM_FALLBACK=gpt4-turbo # Second opinion Setup Checklist Phase 1: Hardware \u0026 Connectivity (30 mins) Install Tailscale: brew install tailscale \u0026\u0026 tailscale up Install terminal multiplexer: brew install tmux or brew install zellij Install keep-awake utility: brew install lungo or search App Store for “Lungo” Verify SSH key on MacBook: ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 Install Termius on iPhone, add MacBook via Tailscale Phase 2: IDEs \u0026 Editors (1 hour) Download Cursor AI from cursor.sh Install VS Code: brew install visual-studio-code VS Code extensions: Cline (saoudrizwan.cline) Continue (Continue.dev) GitLens Cursor AI setup: Link GitHub account, enable Cascade Phase 3: LLM Routing (30 mins) Create OpenRouter account at openrouter.ai Generate API key, add to ~/.zshrc: export OPENROUTER_API_KEY=sk-... Install LiteLLM: pip install litellm Create ~/.config/litellm.yaml with model preferences Test with: python -c \"from litellm import completion; print(completion(...))\" Phase 4: Claude Code CLI (15 mins) Install Claude Code: brew install anthropic-ai/claude-code/claude-code Authenticate: claude code auth Test: claude code --help Add to PATH if needed: echo 'export PATH=\"/opt/homebrew/bin:$PATH\"' \u003e\u003e ~/.zshrc Phase 5: Terminal Setup (20 mins) Create tmux config: vim ~/.tmux.conf Copy example config from https://github.com/tmux-plugins/tpm Start persistent session: tmux new -s dev -d Alias for quick access: echo \"alias devs='tmux attach -t dev'\" \u003e\u003e ~/.zshrc Start keep-awake: caffeinate -dims \u0026 or open Lungo app Costs \u0026 Tradeoffs Subscription Summary Tool Cost Value Notes Cursor AI $20/mo High Offset by faster coding speed OpenAI (ChatGPT Pro) $20/mo Medium Use for research, not coding Perplexity Pro $20/mo Medium Optional, good for cited research Claude API (OpenRouter) Pay-as-you-go High Usually $1-5/day if used heavily GitHub Copilot $10/mo Low (if Cursor replaces it) Redundant with Cursor Ollama + Local Models Free High Best value for completions TOTAL ~$40-50/mo + API Can be reduced to $20/mo (Cursor only) Cost Optimization Strategies Use Ollama for quick completions — saves ~$200/month vs. API-only Route expensive tasks to cheaper models — use GPT-3.5 instead of GPT-4 for simple edits Batch AI requests — run multiple tasks in one session to amortize API calls Leverage free tiers — Perplexity, Grok free tier for research Track usage — Monitor OpenRouter dashboard to catch runaway costs Troubleshooting Common Issues \u0026 Solutions Problem: Claude Code timeout (\u003e60s)\nCause: Large codebase or complex reasoning Solution: Break task into smaller chunks, or use ChatGPT for a “second opinion” first Prevention: Use Cursor AI for quick edits, reserve Claude Code for 5+ file changes Problem: Cursor AI not connecting to Tailscale\nCause: VPN not active or Tailscale daemon stopped Solution: tailscale up, then restart Cursor Check: tailscale status should show your devices Problem: Ollama is slow / consuming all CPU\nCause: Model too large (7B Llama2 is borderline), or system under load Solution: Switch to smaller model (3B) or use cloud LLMs for critical tasks Check: ollama ps to see running models Problem: IDE/CLI tools conflicting over API keys\nCause: Multiple tools trying to authenticate simultaneously Solution: Use OpenRouter as single auth point, disable individual API keys Setup: Set OPENROUTER_API_KEY globally, remove OPENAI_API_KEY from individual tools Problem: Tailscale VPN drops on iPhone\nCause: WiFi/cellular switching, or Tailscale daemon restarted on Mac Solution: Toggle VPN off/on in Termius, restart MacBook daemon with tailscale up Prevention: Enable “always on” in Tailscale iPhone settings Problem: tmux session lost after MacBook sleep\nCause: caffeinate/Lungo didn’t prevent sleep Solution: Use caffeinate -dims \u0026 in your tmux session, or ensure Lungo is running Check: ps aux | grep caffeinate to verify process is alive Performance Baselines Use these to estimate task completion time and pick the right tool:\nTask Tool Time Notes Add a function Cursor AI 15-30s Inline, with context Refactor 3-5 files Claude Code CLI 45-90s Full codebase reasoning Write unit test Aider 20-40s Iterative, high accuracy Debug error message ChatGPT Web 1-2m Manual back-and-forth Research question Perplexity Web 10-20s Instant with citations Image generation (3 iterations) Grok 30-45s Via web UI Local code completion (offline) Ollama \u003c100ms No latency Keyboard Shortcuts for Speed Add these aliases and keybindings to ~/.zshrc:\n# Quick AI access alias claude='claude code' alias aider='aider' alias perp='open https://www.perplexity.ai' # Terminal multiplexing alias devs='tmux attach -t dev || tmux new -s dev' alias devkill='tmux kill-session -t dev' # Tailscale shortcuts alias tailon='tailscale up' alias tailoff='tailscale down' alias tailstatus='tailscale status' IDE Keybindings Cursor AI:\nCmd+K — inline edit Cmd+Shift+K — codebase search Cmd+/ — AI chat VS Code (with Cline):\nCtrl+Shift+ — open Cline Ctrl+I — inline edit (Continue.dev) Essential vs. Optional Core Stack (Must-Have) ✅ Cursor AI OR VS Code + Cline (pick one) ✅ Claude Code CLI (for heavy work) ✅ Ollama (free local completions) ✅ Tailscale (mobile access) Nice-to-Have (Recommended) 📌 Perplexity (research speed) 📌 OpenRouter (cost optimization) 📌 Aider (test generation) Optional (Niche Use Cases) 🔲 Continue.dev (if VS Code is your primary) 🔲 Windsurf (alternative to Cursor) 🔲 GitHub Copilot (redundant with Cursor) Workflow Example Morning Setup (2 mins) tmux new -s dev -d caffeinate -dims \u0026 tailscale up echo \"Dev environment ready\" During Coding (all day) Quick edit → Cursor AI inline (Cmd+K) Need research → Jump to Perplexity in browser Stuck on bug → Ask ChatGPT, get second opinion from Claude Code Write tests → Use Aider: aider --test src/myfeature.ts Big refactor → Claude Code CLI: claude code --file=src/ \"refactor...\" On mobile → SSH via Termius → attach to dev tmux session Evening Cleanup tmux kill-session -t dev tailscale down Tips \u0026 Best Practices Keep tmux/zellij sessions persistent — don’t kill sessions, reattach and resume. Use Tailscale for mobile-first — no port forwarding, no security holes. Route expensive tasks to cheaper models — use GPT-3.5 before Claude, Ollama before paid APIs. Batch API requests — group 5 small tasks into one session to save on round-trip overhead. Monitor API costs — set OpenRouter budget limits ($5/day) to avoid surprises. Test locally first — use Ollama for quick validation before hitting paid APIs. Combine multiple tools — use Claude for reasoning, ChatGPT for alternative viewpoints, Perplexity for facts. Version your configs — backup ~/.tmux.conf, ~/.zshrc, ~/.config/litellm.yaml to git. This stack provides seamless mobile access, persistent development environments, AI coding assistants, and cost-optimized LLM routing — ideal for solo developers or small teams who rely heavily on AI-driven productivity.\n",
+  "wordCount" : "1692",
   "inLanguage": "en",
   "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2026-04-03T23:09:25+01:00",
   "dateModified": "2026-04-03T23:09:25+01:00",
@@ -372,7 +253,7 @@ Start your MacBook environment:">
     <h1 class="post-title entry-hint-parent">
       Personal AI Development Stack
     </h1>
-    <div class="post-meta"><span title='2026-04-03 23:09:25 +0100 BST'>April 3, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span>
+    <div class="post-meta"><span title='2026-04-03 23:09:25 +0100 BST'>April 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
   </header> <div class="toc">
@@ -383,6 +264,18 @@ Start your MacBook environment:">
 
         <div class="inner"><ul>
                 <li>
+                    <a href="#architecture-overview" aria-label="Architecture Overview">Architecture Overview</a><ul>
+                        
+                <li>
+                    <a href="#hardware--connectivity" aria-label="Hardware &amp; Connectivity">Hardware &amp; Connectivity</a></li>
+                <li>
+                    <a href="#ide--editor-layer" aria-label="IDE &amp; Editor Layer">IDE &amp; Editor Layer</a></li>
+                <li>
+                    <a href="#ai-tools--llm-backends" aria-label="AI Tools &amp; LLM Backends">AI Tools &amp; LLM Backends</a></li></ul>
+                </li>
+                <li>
+                    <a href="#tool-selection-decision-tree" aria-label="Tool Selection Decision Tree">Tool Selection Decision Tree</a></li>
+                <li>
                     <a href="#component-descriptions" aria-label="Component Descriptions">Component Descriptions</a><ul>
                         
                 <li>
@@ -392,16 +285,84 @@ Start your MacBook environment:">
                 <li>
                     <a href="#macbook" aria-label="MacBook">MacBook</a></li>
                 <li>
-                    <a href="#ides-and-terminals" aria-label="IDEs and Terminals">IDEs and Terminals</a></li>
+                    <a href="#ides-and-terminals" aria-label="IDEs and Terminals">IDEs and Terminals</a><ul>
+                        
                 <li>
-                    <a href="#ai-coding-agents--tools" aria-label="AI Coding Agents &amp; Tools">AI Coding Agents &amp; Tools</a></li>
+                    <a href="#cursor-ai-primary" aria-label="Cursor AI (Primary)">Cursor AI (Primary)</a></li>
                 <li>
-                    <a href="#llm-routing--orchestration" aria-label="LLM Routing &amp; Orchestration">LLM Routing &amp; Orchestration</a></li>
+                    <a href="#vs-code--cline--continuedev-secondary" aria-label="VS Code &#43; Cline &#43; Continue.dev (Secondary)">VS Code + Cline + Continue.dev (Secondary)</a></li>
                 <li>
-                    <a href="#cloud--web-llm-interfaces" aria-label="Cloud / Web LLM Interfaces">Cloud / Web LLM Interfaces</a></li></ul>
+                    <a href="#claude-code-cli-heavy-lifting" aria-label="Claude Code CLI (Heavy Lifting)">Claude Code CLI (Heavy Lifting)</a></li>
+                <li>
+                    <a href="#termius-mobile-ssh" aria-label="Termius (Mobile SSH)">Termius (Mobile SSH)</a></li></ul>
+                </li></ul>
                 </li>
                 <li>
-                    <a href="#workflow-example" aria-label="Workflow Example">Workflow Example</a></li>
+                    <a href="#llm-routing--orchestration" aria-label="LLM Routing &amp; Orchestration">LLM Routing &amp; Orchestration</a><ul>
+                        
+                <li>
+                    <a href="#model-selection-by-task" aria-label="Model Selection by Task">Model Selection by Task</a></li>
+                <li>
+                    <a href="#setup-openrouter-or-litellm" aria-label="Setup: OpenRouter or LiteLLM">Setup: OpenRouter or LiteLLM</a></li>
+                <li>
+                    <a href="#example-routing-logic" aria-label="Example Routing Logic">Example Routing Logic</a></li></ul>
+                </li>
+                <li>
+                    <a href="#setup-checklist" aria-label="Setup Checklist">Setup Checklist</a><ul>
+                        
+                <li>
+                    <a href="#phase-1-hardware--connectivity-30-mins" aria-label="Phase 1: Hardware &amp; Connectivity (30 mins)">Phase 1: Hardware &amp; Connectivity (30 mins)</a></li>
+                <li>
+                    <a href="#phase-2-ides--editors-1-hour" aria-label="Phase 2: IDEs &amp; Editors (1 hour)">Phase 2: IDEs &amp; Editors (1 hour)</a></li>
+                <li>
+                    <a href="#phase-3-llm-routing-30-mins" aria-label="Phase 3: LLM Routing (30 mins)">Phase 3: LLM Routing (30 mins)</a></li>
+                <li>
+                    <a href="#phase-4-claude-code-cli-15-mins" aria-label="Phase 4: Claude Code CLI (15 mins)">Phase 4: Claude Code CLI (15 mins)</a></li>
+                <li>
+                    <a href="#phase-5-terminal-setup-20-mins" aria-label="Phase 5: Terminal Setup (20 mins)">Phase 5: Terminal Setup (20 mins)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#costs--tradeoffs" aria-label="Costs &amp; Tradeoffs">Costs &amp; Tradeoffs</a><ul>
+                        
+                <li>
+                    <a href="#subscription-summary" aria-label="Subscription Summary">Subscription Summary</a></li>
+                <li>
+                    <a href="#cost-optimization-strategies" aria-label="Cost Optimization Strategies">Cost Optimization Strategies</a></li></ul>
+                </li>
+                <li>
+                    <a href="#troubleshooting" aria-label="Troubleshooting">Troubleshooting</a><ul>
+                        
+                <li>
+                    <a href="#common-issues--solutions" aria-label="Common Issues &amp; Solutions">Common Issues &amp; Solutions</a></li></ul>
+                </li>
+                <li>
+                    <a href="#performance-baselines" aria-label="Performance Baselines">Performance Baselines</a></li>
+                <li>
+                    <a href="#keyboard-shortcuts-for-speed" aria-label="Keyboard Shortcuts for Speed">Keyboard Shortcuts for Speed</a><ul>
+                        
+                <li>
+                    <a href="#ide-keybindings" aria-label="IDE Keybindings">IDE Keybindings</a></li></ul>
+                </li>
+                <li>
+                    <a href="#essential-vs-optional" aria-label="Essential vs. Optional">Essential vs. Optional</a><ul>
+                        
+                <li>
+                    <a href="#core-stack-must-have" aria-label="Core Stack (Must-Have)">Core Stack (Must-Have)</a></li>
+                <li>
+                    <a href="#nice-to-have-recommended" aria-label="Nice-to-Have (Recommended)">Nice-to-Have (Recommended)</a></li>
+                <li>
+                    <a href="#optional-niche-use-cases" aria-label="Optional (Niche Use Cases)">Optional (Niche Use Cases)</a></li></ul>
+                </li>
+                <li>
+                    <a href="#workflow-example" aria-label="Workflow Example">Workflow Example</a><ul>
+                        
+                <li>
+                    <a href="#morning-setup-2-mins" aria-label="Morning Setup (2 mins)">Morning Setup (2 mins)</a></li>
+                <li>
+                    <a href="#during-coding-all-day" aria-label="During Coding (all day)">During Coding (all day)</a></li>
+                <li>
+                    <a href="#evening-cleanup" aria-label="Evening Cleanup">Evening Cleanup</a></li></ul>
+                </li>
                 <li>
                     <a href="#tips--best-practices" aria-label="Tips &amp; Best Practices">Tips &amp; Best Practices</a>
                 </li>
@@ -410,76 +371,108 @@ Start your MacBook environment:">
     </details>
 </div>
 
-  <div class="post-content"><p>This guide documents a highly productive, AI-driven development stack using a combination of cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.</p>
+  <div class="post-content"><p>This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.</p>
 <hr>
-<pre tabindex="0"><code>                        ┌──────────┐
-                        │  iPhone  │
-                        └──────────┘
-                              │
-                  Tailscale VPN (on-demand)
-                              │
-                              ▼
-                        ┌─────────────┐
-                        │ MacBook Air │
-                        │ (tmux /     │
-                        │ zellij +    │
-                        │ caffeinate) │
-                        └─────────────┘
-                              │
-        ┌─────────────────────┼──────────────────┐
-        │                     │                  │
-        ▼                     ▼                  ▼
-  ┌────────────┐       ┌────────────┐    ┌───────────────┐
-  │ VS Code    │       │ Terminus   │    │  Cursor AI    │
-  │ + Cline    │       │ (SSH)      │    │ (Primary IDE) │
-  │ + Continue │       └────────────┘    └───────────────┘
-  └────────────┘                                 │
-        │                                        ▼
-        ▼                        ┌──────────────────────────────┐
-┌────────────────┐               │   AI Coding Agents &amp; Tools   │
-│ Test / Scripts │               │------------------------------│
-│ (AI-driven)    │               │ • Cline                      │
-└────────────────┘               │ • Continue.dev               │
-                                 │ • Claude Code                │
-                                 │ • Ollama (local models)      │
-                                 │ • Aider                      │
-                                 │ • Windsurf (Cascade)         │
-                                 │ • Gemini CLI                 │
-                                 │ • GitHub Copilot             │
-                                 └──────────────────────────────┘
-                                                 │
-                                                 ▼
-                               ┌────────────────────────────────────┐
-                               │ LLM Routing &amp; Orchestration        │
-                               │------------------------------------│
-                               │ • OpenRouter / LiteLLM             │
-                               │ • Multi-model routing              │
-                               │ • Cost / speed optimisation        │
-                               │ • IDE integrations                 │
-                               └────────────────────────────────────┘
-                                                 │
-                                                 ▼
-                     ┌────────────────────────────────────────────────────┐
-                     │        Cloud / Web LLM Interfaces                  │
-                     │----------------------------------------------------│
-                     │ ChatGPT Web / Codex        → Research / general    │
-                     │ Perplexity Web             → Cited research        │
-                     │ Claude Code (terminal)     → Heavy coding          │
-                     │ Claude Web + Desktop       → General usage         │
-                     │ Grok / SuperGrok           → Images + real-time    │
-                     └────────────────────────────────────────────────────┘
+<h2 id="architecture-overview">Architecture Overview<a hidden class="anchor" aria-hidden="true" href="#architecture-overview">#</a></h2>
+<h3 id="hardware--connectivity">Hardware &amp; Connectivity<a hidden class="anchor" aria-hidden="true" href="#hardware--connectivity">#</a></h3>
+<pre tabindex="0"><code>iPhone ──(Tailscale VPN)──→ MacBook Air
+                              ├─ tmux/zellij (session persistence)
+                              └─ Lungo, Patterned (keep-awake utilities)
+</code></pre><h3 id="ide--editor-layer">IDE &amp; Editor Layer<a hidden class="anchor" aria-hidden="true" href="#ide--editor-layer">#</a></h3>
+<pre tabindex="0"><code>PRIMARY: Cursor AI (with Cascade) — fastest iteration
+SECONDARY: VS Code (+ Cline + Continue.dev) — battle-tested
+TERMINAL: Claude Code CLI — heavy multi-file work
+SSH: Termius (mobile remote access)
+</code></pre><h3 id="ai-tools--llm-backends">AI Tools &amp; LLM Backends<a hidden class="anchor" aria-hidden="true" href="#ai-tools--llm-backends">#</a></h3>
+<pre tabindex="0"><code>AGENTS:  Cline, Claude Code, Aider, Windsurf
+LOCAL:   Ollama (free, instant completions)
+ROUTERS: OpenRouter, LiteLLM (cost &amp; speed optimization)
+WEB:     ChatGPT, Perplexity, Claude Web, Grok
 </code></pre><hr>
+<h2 id="tool-selection-decision-tree">Tool Selection Decision Tree<a hidden class="anchor" aria-hidden="true" href="#tool-selection-decision-tree">#</a></h2>
+<p><strong>Use this to pick the right tool for the task:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Task</th>
+          <th>Best Tool</th>
+          <th>Why</th>
+          <th>Speed</th>
+          <th>Cost</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Quick code completion</td>
+          <td>Cursor AI (inline)</td>
+          <td>Instant, local context</td>
+          <td>&lt;100ms</td>
+          <td>$20/mo</td>
+      </tr>
+      <tr>
+          <td>Multi-file refactor</td>
+          <td>Claude Code CLI</td>
+          <td>Best at cross-file reasoning</td>
+          <td>30-60s</td>
+          <td>$20/mo</td>
+      </tr>
+      <tr>
+          <td>Testing &amp; test generation</td>
+          <td>Aider (CLI)</td>
+          <td>Specialized for tests, iterative</td>
+          <td>10-30s</td>
+          <td>Free</td>
+      </tr>
+      <tr>
+          <td>Research + citations</td>
+          <td>Perplexity Web</td>
+          <td>Built-in fact-checking</td>
+          <td>5-10s</td>
+          <td>Free</td>
+      </tr>
+      <tr>
+          <td>Image generation</td>
+          <td>Grok / Gemini</td>
+          <td>Purpose-built for images</td>
+          <td>5-20s</td>
+          <td>Variable</td>
+      </tr>
+      <tr>
+          <td>Local completions (offline)</td>
+          <td>Ollama (Llama2 7B)</td>
+          <td>Zero cost, instant</td>
+          <td>&lt;100ms</td>
+          <td>Free</td>
+      </tr>
+      <tr>
+          <td>Complex problem-solving</td>
+          <td>Claude Code + ChatGPT</td>
+          <td>Two perspectives, no blind spots</td>
+          <td>1-2m</td>
+          <td>Combined</td>
+      </tr>
+      <tr>
+          <td>Code review + refactoring</td>
+          <td>Continue.dev (VS Code)</td>
+          <td>Good at style suggestions</td>
+          <td>10-30s</td>
+          <td>Free</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
 <h2 id="component-descriptions">Component Descriptions<a hidden class="anchor" aria-hidden="true" href="#component-descriptions">#</a></h2>
 <h3 id="iphone">iPhone<a hidden class="anchor" aria-hidden="true" href="#iphone">#</a></h3>
 <ul>
 <li><strong>Purpose:</strong> Mobile access to coding sessions, remote terminals, and LLM interfaces.</li>
 <li><strong>Tools:</strong> Termius (SSH), web browsers for cloud LLMs.</li>
-<li><strong>Connection:</strong> Via <strong>Tailscale VPN</strong> for secure, private access to your MacBook.</li>
+<li><strong>Connection:</strong> Via <strong>Tailscale VPN</strong> for secure, private access to your MacBook (no port forwarding).</li>
 </ul>
 <h3 id="tailscale-vpn">Tailscale VPN<a hidden class="anchor" aria-hidden="true" href="#tailscale-vpn">#</a></h3>
 <ul>
 <li><strong>Purpose:</strong> Secure, on-demand VPN that allows devices to communicate without exposing ports publicly.</li>
-<li><strong>Use case:</strong> Connect iPhone or other devices to your MacBook seamlessly.</li>
+<li><strong>Setup:</strong> <code>brew install tailscale &amp;&amp; tailscale up</code></li>
+<li><strong>Use case:</strong> Connect iPhone/iPad to your MacBook seamlessly, share files, run remote commands.</li>
 </ul>
 <h3 id="macbook">MacBook<a hidden class="anchor" aria-hidden="true" href="#macbook">#</a></h3>
 <ul>
@@ -487,113 +480,409 @@ Start your MacBook environment:">
 <li><strong>Enhancements:</strong>
 <ul>
 <li><strong>tmux / zellij:</strong> Terminal multiplexers for persistent, multi-pane sessions.</li>
-<li><strong>caffeinate / Amphetamine:</strong> Prevent sleep to maintain long-running processes or server tasks.</li>
+<li><strong>Lungo</strong> or <strong>Patterned:</strong> Keep display awake without dimming during long coding sessions (Amphetamine is deprecated).</li>
+<li><strong>caffeinate:</strong> Command-line utility to prevent sleep during long-running tasks: <code>caffeinate -dims &amp;</code></li>
 </ul>
 </li>
 </ul>
 <h3 id="ides-and-terminals">IDEs and Terminals<a hidden class="anchor" aria-hidden="true" href="#ides-and-terminals">#</a></h3>
+<h4 id="cursor-ai-primary">Cursor AI (Primary)<a hidden class="anchor" aria-hidden="true" href="#cursor-ai-primary">#</a></h4>
 <ul>
-<li><strong>VS Code + Cline + Continue.dev</strong>
-<ul>
-<li>Modern IDE with AI-powered code suggestions and integrations.</li>
+<li><strong>Purpose:</strong> AI-native IDE with Cascade reasoning engine.</li>
+<li><strong>When to use:</strong> Daily coding, quick iterations, in-file suggestions.</li>
+<li><strong>Strengths:</strong> Fast, context-aware, great refactoring support.</li>
+<li><strong>Cost:</strong> $20/month after free tier.</li>
+<li><strong>Keyboard shortcut:</strong> Cmd+K for inline edits, Cmd+Shift+K for codebase search.</li>
 </ul>
-</li>
-<li><strong>Terminus</strong>
+<h4 id="vs-code--cline--continuedev-secondary">VS Code + Cline + Continue.dev (Secondary)<a hidden class="anchor" aria-hidden="true" href="#vs-code--cline--continuedev-secondary">#</a></h4>
 <ul>
-<li>SSH client for remote server access and workflow continuity.</li>
+<li><strong>Purpose:</strong> Battle-tested with AI extensions for automation.</li>
+<li><strong>When to use:</strong> Complex projects requiring fine-grained control, or when you prefer open-source tooling.</li>
+<li><strong>Strengths:</strong> Extensive plugin ecosystem, highly customizable.</li>
+<li><strong>Cost:</strong> Free (extensions optional).</li>
 </ul>
-</li>
-<li><strong>Cursor AI</strong>
+<h4 id="claude-code-cli-heavy-lifting">Claude Code CLI (Heavy Lifting)<a hidden class="anchor" aria-hidden="true" href="#claude-code-cli-heavy-lifting">#</a></h4>
 <ul>
-<li>AI-focused primary IDE for code generation and testing.</li>
+<li><strong>Purpose:</strong> Terminal-based AI assistant for multi-file projects.</li>
+<li><strong>When to use:</strong> Major refactors, implementing large features, batch testing.</li>
+<li><strong>Strengths:</strong> Best at understanding entire codebases, can modify multiple files at once.</li>
+<li><strong>Cost:</strong> Claude API usage (typically $0.50-$2 per complex task).</li>
+<li><strong>Usage:</strong> <code>claude code --file=src/ &quot;refactor authentication module&quot;</code></li>
 </ul>
-</li>
-</ul>
-<h3 id="ai-coding-agents--tools">AI Coding Agents &amp; Tools<a hidden class="anchor" aria-hidden="true" href="#ai-coding-agents--tools">#</a></h3>
+<h4 id="termius-mobile-ssh">Termius (Mobile SSH)<a hidden class="anchor" aria-hidden="true" href="#termius-mobile-ssh">#</a></h4>
 <ul>
-<li><strong>Purpose:</strong> Automate coding, testing, and documentation.</li>
-<li><strong>Key Tools:</strong>
-<ul>
-<li><strong>Cline:</strong> Terminal-based AI coding assistant.</li>
-<li><strong>Continue.dev:</strong> AI automation for workflows.</li>
-<li><strong>Claude Code:</strong> Heavy-duty coding in CLI.</li>
-<li><strong>Aider / Windsurf / Gemini CLI / GitHub Copilot:</strong> Multi-purpose AI agents integrated with IDEs.</li>
-</ul>
-</li>
-</ul>
-<h3 id="llm-routing--orchestration">LLM Routing &amp; Orchestration<a hidden class="anchor" aria-hidden="true" href="#llm-routing--orchestration">#</a></h3>
-<ul>
-<li><strong>Purpose:</strong> Optimize which AI model handles which task.</li>
-<li><strong>Features:</strong>
-<ul>
-<li>Multi-model routing based on task type (research, coding, testing, image generation).</li>
-<li>Speed and cost optimization for different models.</li>
-<li>Seamless IDE integration for on-the-fly AI assistance.</li>
-</ul>
-</li>
-</ul>
-<h3 id="cloud--web-llm-interfaces">Cloud / Web LLM Interfaces<a hidden class="anchor" aria-hidden="true" href="#cloud--web-llm-interfaces">#</a></h3>
-<ul>
-<li><strong>Purpose:</strong> External interfaces for research, code generation, and real-time AI support.</li>
-<li><strong>Examples:</strong>
-<ul>
-<li><strong>ChatGPT Web / Codex:</strong> General-purpose research and code generation.</li>
-<li><strong>Perplexity Web:</strong> Citation-focused research.</li>
-<li><strong>Claude Web + Desktop / Claude Code:</strong> Heavy coding workflows.</li>
-<li><strong>Grok / SuperGrok:</strong> Image processing, real-time AI applications.</li>
-</ul>
-</li>
+<li><strong>Purpose:</strong> SSH client for remote server access from iPhone.</li>
+<li><strong>Setup:</strong> Configure Tailscale + store SSH keys in Termius.</li>
+<li><strong>Use case:</strong> Emergency fixes, monitoring from anywhere.</li>
 </ul>
 <hr>
-<h2 id="workflow-example">Workflow Example<a hidden class="anchor" aria-hidden="true" href="#workflow-example">#</a></h2>
+<h2 id="llm-routing--orchestration">LLM Routing &amp; Orchestration<a hidden class="anchor" aria-hidden="true" href="#llm-routing--orchestration">#</a></h2>
+<p><strong>Goal:</strong> Assign each task to the model that solves it fastest and cheapest.</p>
+<h3 id="model-selection-by-task">Model Selection by Task<a hidden class="anchor" aria-hidden="true" href="#model-selection-by-task">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Task Type</th>
+          <th>Recommended Model</th>
+          <th>Reason</th>
+          <th>Cost</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Code generation</td>
+          <td>Claude 3.5 Sonnet</td>
+          <td>Best for logic, edge cases</td>
+          <td>$0.001-0.01/task</td>
+      </tr>
+      <tr>
+          <td>Quick completions</td>
+          <td>Ollama Llama2 7B</td>
+          <td>Instant, local, free</td>
+          <td>Free</td>
+      </tr>
+      <tr>
+          <td>Research + facts</td>
+          <td>Perplexity Claude</td>
+          <td>Built-in web search, citations</td>
+          <td>Free / Pro</td>
+      </tr>
+      <tr>
+          <td>Image generation</td>
+          <td>Grok-1 or Gemini</td>
+          <td>Fast visual reasoning</td>
+          <td>Variable</td>
+      </tr>
+      <tr>
+          <td>Debugging</td>
+          <td>GPT-4 Turbo</td>
+          <td>Strongest at error analysis</td>
+          <td>$0.01-0.03/task</td>
+      </tr>
+      <tr>
+          <td>Long-context tasks</td>
+          <td>Claude 3 Opus</td>
+          <td>200K token window</td>
+          <td>$0.015-0.075/task</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="setup-openrouter-or-litellm">Setup: OpenRouter or LiteLLM<a hidden class="anchor" aria-hidden="true" href="#setup-openrouter-or-litellm">#</a></h3>
 <ol>
 <li>
-<p><strong>Start your MacBook environment:</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tmux new -s dev
-</span></span><span class="line"><span class="cl">caffeinate -dims <span class="p">&amp;</span>
-</span></span></code></pre></div></li>
-<li>
-<p><strong>Connect iPhone via Tailscale VPN</strong></p>
+<p><strong>OpenRouter</strong> (recommended for simplicity):</p>
 <ul>
-<li>Open Termius to SSH into the MacBook.</li>
-<li>Access web LLM interfaces via browser.</li>
+<li>Sign up at openrouter.ai</li>
+<li>Get API key and add to env: <code>export OPENROUTER_API_KEY=sk-...</code></li>
+<li>Configure IDEs to use OpenRouter endpoint</li>
 </ul>
 </li>
 <li>
-<p><strong>Code &amp; Test:</strong></p>
+<p><strong>LiteLLM</strong> (for advanced routing):</p>
 <ul>
-<li>Open VS Code or Cursor AI.</li>
-<li>Use AI agents for code suggestions (<code>Claude Code</code>, <code>Aider</code>).</li>
-<li>Run tests and scripts locally or via AI automation.</li>
-</ul>
-</li>
-<li>
-<p><strong>Route AI Tasks via LLM Orchestration:</strong></p>
-<ul>
-<li>Route heavy coding to Claude Code CLI.</li>
-<li>Use Perplexity Web for research and citations.</li>
-<li>Use ChatGPT for general guidance.</li>
-</ul>
-</li>
-<li>
-<p><strong>Deploy / Integrate:</strong></p>
-<ul>
-<li>Final code merges via VS Code.</li>
-<li>Push code to GitHub or deploy with scripts automated by Continue.dev.</li>
+<li>Install: <code>pip install litellm</code></li>
+<li>Create config file specifying fallback chains</li>
+<li>Use in scripts: <code>from litellm import completion; response = completion(...)</code></li>
 </ul>
 </li>
 </ol>
-<hr>
-<h2 id="tips--best-practices">Tips &amp; Best Practices<a hidden class="anchor" aria-hidden="true" href="#tips--best-practices">#</a></h2>
+<h3 id="example-routing-logic">Example Routing Logic<a hidden class="anchor" aria-hidden="true" href="#example-routing-logic">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># For fast tasks (under 30s deadline):</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">LLM_PRIMARY</span><span class="o">=</span>ollama  <span class="c1"># Local, instant</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">LLM_FALLBACK</span><span class="o">=</span>openrouter/gpt-3.5-turbo  <span class="c1"># Cheap backup</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># For complex tasks (no time limit):</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">LLM_PRIMARY</span><span class="o">=</span>claude  <span class="c1"># Best reasoning</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">LLM_FALLBACK</span><span class="o">=</span>gpt4-turbo  <span class="c1"># Second opinion</span>
+</span></span></code></pre></div><hr>
+<h2 id="setup-checklist">Setup Checklist<a hidden class="anchor" aria-hidden="true" href="#setup-checklist">#</a></h2>
+<h3 id="phase-1-hardware--connectivity-30-mins">Phase 1: Hardware &amp; Connectivity (30 mins)<a hidden class="anchor" aria-hidden="true" href="#phase-1-hardware--connectivity-30-mins">#</a></h3>
 <ul>
-<li>Keep <strong>tmux/zellij sessions persistent</strong> to avoid losing long-running AI tasks.</li>
-<li>Use <strong>Tailscale</strong> for mobile-first remote access; no port forwarding required.</li>
-<li>Use <strong>LLM orchestration</strong> to reduce latency and cost by assigning tasks to the most efficient model.</li>
-<li>Combine terminal-based and web-based AI tools for optimal workflow flexibility.</li>
-<li>Regularly update your AI agents and IDE plugins for maximum compatibility.</li>
+<li><input disabled="" type="checkbox"> Install Tailscale: <code>brew install tailscale &amp;&amp; tailscale up</code></li>
+<li><input disabled="" type="checkbox"> Install terminal multiplexer: <code>brew install tmux</code> or <code>brew install zellij</code></li>
+<li><input disabled="" type="checkbox"> Install keep-awake utility: <code>brew install lungo</code> or search App Store for &ldquo;Lungo&rdquo;</li>
+<li><input disabled="" type="checkbox"> Verify SSH key on MacBook: <code>ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519</code></li>
+<li><input disabled="" type="checkbox"> Install Termius on iPhone, add MacBook via Tailscale</li>
+</ul>
+<h3 id="phase-2-ides--editors-1-hour">Phase 2: IDEs &amp; Editors (1 hour)<a hidden class="anchor" aria-hidden="true" href="#phase-2-ides--editors-1-hour">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> Download Cursor AI from cursor.sh</li>
+<li><input disabled="" type="checkbox"> Install VS Code: <code>brew install visual-studio-code</code></li>
+<li><input disabled="" type="checkbox"> VS Code extensions:
+<ul>
+<li><input disabled="" type="checkbox"> Cline (saoudrizwan.cline)</li>
+<li><input disabled="" type="checkbox"> Continue (Continue.dev)</li>
+<li><input disabled="" type="checkbox"> GitLens</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Cursor AI setup: Link GitHub account, enable Cascade</li>
+</ul>
+<h3 id="phase-3-llm-routing-30-mins">Phase 3: LLM Routing (30 mins)<a hidden class="anchor" aria-hidden="true" href="#phase-3-llm-routing-30-mins">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> Create OpenRouter account at openrouter.ai</li>
+<li><input disabled="" type="checkbox"> Generate API key, add to <code>~/.zshrc</code>: <code>export OPENROUTER_API_KEY=sk-...</code></li>
+<li><input disabled="" type="checkbox"> Install LiteLLM: <code>pip install litellm</code></li>
+<li><input disabled="" type="checkbox"> Create <code>~/.config/litellm.yaml</code> with model preferences</li>
+<li><input disabled="" type="checkbox"> Test with: <code>python -c &quot;from litellm import completion; print(completion(...))&quot;</code></li>
+</ul>
+<h3 id="phase-4-claude-code-cli-15-mins">Phase 4: Claude Code CLI (15 mins)<a hidden class="anchor" aria-hidden="true" href="#phase-4-claude-code-cli-15-mins">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> Install Claude Code: <code>brew install anthropic-ai/claude-code/claude-code</code></li>
+<li><input disabled="" type="checkbox"> Authenticate: <code>claude code auth</code></li>
+<li><input disabled="" type="checkbox"> Test: <code>claude code --help</code></li>
+<li><input disabled="" type="checkbox"> Add to PATH if needed: <code>echo 'export PATH=&quot;/opt/homebrew/bin:$PATH&quot;' &gt;&gt; ~/.zshrc</code></li>
+</ul>
+<h3 id="phase-5-terminal-setup-20-mins">Phase 5: Terminal Setup (20 mins)<a hidden class="anchor" aria-hidden="true" href="#phase-5-terminal-setup-20-mins">#</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> Create tmux config: <code>vim ~/.tmux.conf</code></li>
+<li><input disabled="" type="checkbox"> Copy example config from <a href="https://github.com/tmux-plugins/tpm">https://github.com/tmux-plugins/tpm</a></li>
+<li><input disabled="" type="checkbox"> Start persistent session: <code>tmux new -s dev -d</code></li>
+<li><input disabled="" type="checkbox"> Alias for quick access: <code>echo &quot;alias devs='tmux attach -t dev'&quot; &gt;&gt; ~/.zshrc</code></li>
+<li><input disabled="" type="checkbox"> Start keep-awake: <code>caffeinate -dims &amp;</code> or open Lungo app</li>
 </ul>
 <hr>
-<p>This stack allows seamless integration of <strong>mobile access, persistent development environments, AI coding assistants, and multi-model orchestration</strong>, ideal for solo developers or small teams who heavily rely on AI-driven productivity.</p>
+<h2 id="costs--tradeoffs">Costs &amp; Tradeoffs<a hidden class="anchor" aria-hidden="true" href="#costs--tradeoffs">#</a></h2>
+<h3 id="subscription-summary">Subscription Summary<a hidden class="anchor" aria-hidden="true" href="#subscription-summary">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Tool</th>
+          <th>Cost</th>
+          <th>Value</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Cursor AI</td>
+          <td>$20/mo</td>
+          <td>High</td>
+          <td>Offset by faster coding speed</td>
+      </tr>
+      <tr>
+          <td>OpenAI (ChatGPT Pro)</td>
+          <td>$20/mo</td>
+          <td>Medium</td>
+          <td>Use for research, not coding</td>
+      </tr>
+      <tr>
+          <td>Perplexity Pro</td>
+          <td>$20/mo</td>
+          <td>Medium</td>
+          <td>Optional, good for cited research</td>
+      </tr>
+      <tr>
+          <td>Claude API (OpenRouter)</td>
+          <td>Pay-as-you-go</td>
+          <td>High</td>
+          <td>Usually $1-5/day if used heavily</td>
+      </tr>
+      <tr>
+          <td>GitHub Copilot</td>
+          <td>$10/mo</td>
+          <td>Low (if Cursor replaces it)</td>
+          <td>Redundant with Cursor</td>
+      </tr>
+      <tr>
+          <td>Ollama + Local Models</td>
+          <td>Free</td>
+          <td>High</td>
+          <td>Best value for completions</td>
+      </tr>
+      <tr>
+          <td><strong>TOTAL</strong></td>
+          <td><strong>~$40-50/mo + API</strong></td>
+          <td></td>
+          <td>Can be reduced to $20/mo (Cursor only)</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="cost-optimization-strategies">Cost Optimization Strategies<a hidden class="anchor" aria-hidden="true" href="#cost-optimization-strategies">#</a></h3>
+<ol>
+<li><strong>Use Ollama for quick completions</strong> — saves ~$200/month vs. API-only</li>
+<li><strong>Route expensive tasks to cheaper models</strong> — use GPT-3.5 instead of GPT-4 for simple edits</li>
+<li><strong>Batch AI requests</strong> — run multiple tasks in one session to amortize API calls</li>
+<li><strong>Leverage free tiers</strong> — Perplexity, Grok free tier for research</li>
+<li><strong>Track usage</strong> — Monitor OpenRouter dashboard to catch runaway costs</li>
+</ol>
+<hr>
+<h2 id="troubleshooting">Troubleshooting<a hidden class="anchor" aria-hidden="true" href="#troubleshooting">#</a></h2>
+<h3 id="common-issues--solutions">Common Issues &amp; Solutions<a hidden class="anchor" aria-hidden="true" href="#common-issues--solutions">#</a></h3>
+<p><strong>Problem: Claude Code timeout (&gt;60s)</strong></p>
+<ul>
+<li><strong>Cause:</strong> Large codebase or complex reasoning</li>
+<li><strong>Solution:</strong> Break task into smaller chunks, or use ChatGPT for a &ldquo;second opinion&rdquo; first</li>
+<li><strong>Prevention:</strong> Use Cursor AI for quick edits, reserve Claude Code for 5+ file changes</li>
+</ul>
+<p><strong>Problem: Cursor AI not connecting to Tailscale</strong></p>
+<ul>
+<li><strong>Cause:</strong> VPN not active or Tailscale daemon stopped</li>
+<li><strong>Solution:</strong> <code>tailscale up</code>, then restart Cursor</li>
+<li><strong>Check:</strong> <code>tailscale status</code> should show your devices</li>
+</ul>
+<p><strong>Problem: Ollama is slow / consuming all CPU</strong></p>
+<ul>
+<li><strong>Cause:</strong> Model too large (7B Llama2 is borderline), or system under load</li>
+<li><strong>Solution:</strong> Switch to smaller model (3B) or use cloud LLMs for critical tasks</li>
+<li><strong>Check:</strong> <code>ollama ps</code> to see running models</li>
+</ul>
+<p><strong>Problem: IDE/CLI tools conflicting over API keys</strong></p>
+<ul>
+<li><strong>Cause:</strong> Multiple tools trying to authenticate simultaneously</li>
+<li><strong>Solution:</strong> Use OpenRouter as single auth point, disable individual API keys</li>
+<li><strong>Setup:</strong> Set <code>OPENROUTER_API_KEY</code> globally, remove <code>OPENAI_API_KEY</code> from individual tools</li>
+</ul>
+<p><strong>Problem: Tailscale VPN drops on iPhone</strong></p>
+<ul>
+<li><strong>Cause:</strong> WiFi/cellular switching, or Tailscale daemon restarted on Mac</li>
+<li><strong>Solution:</strong> Toggle VPN off/on in Termius, restart MacBook daemon with <code>tailscale up</code></li>
+<li><strong>Prevention:</strong> Enable &ldquo;always on&rdquo; in Tailscale iPhone settings</li>
+</ul>
+<p><strong>Problem: tmux session lost after MacBook sleep</strong></p>
+<ul>
+<li><strong>Cause:</strong> caffeinate/Lungo didn&rsquo;t prevent sleep</li>
+<li><strong>Solution:</strong> Use <code>caffeinate -dims &amp;</code> in your tmux session, or ensure Lungo is running</li>
+<li><strong>Check:</strong> <code>ps aux | grep caffeinate</code> to verify process is alive</li>
+</ul>
+<hr>
+<h2 id="performance-baselines">Performance Baselines<a hidden class="anchor" aria-hidden="true" href="#performance-baselines">#</a></h2>
+<p>Use these to estimate task completion time and pick the right tool:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Task</th>
+          <th>Tool</th>
+          <th>Time</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Add a function</td>
+          <td>Cursor AI</td>
+          <td>15-30s</td>
+          <td>Inline, with context</td>
+      </tr>
+      <tr>
+          <td>Refactor 3-5 files</td>
+          <td>Claude Code CLI</td>
+          <td>45-90s</td>
+          <td>Full codebase reasoning</td>
+      </tr>
+      <tr>
+          <td>Write unit test</td>
+          <td>Aider</td>
+          <td>20-40s</td>
+          <td>Iterative, high accuracy</td>
+      </tr>
+      <tr>
+          <td>Debug error message</td>
+          <td>ChatGPT Web</td>
+          <td>1-2m</td>
+          <td>Manual back-and-forth</td>
+      </tr>
+      <tr>
+          <td>Research question</td>
+          <td>Perplexity Web</td>
+          <td>10-20s</td>
+          <td>Instant with citations</td>
+      </tr>
+      <tr>
+          <td>Image generation (3 iterations)</td>
+          <td>Grok</td>
+          <td>30-45s</td>
+          <td>Via web UI</td>
+      </tr>
+      <tr>
+          <td>Local code completion (offline)</td>
+          <td>Ollama</td>
+          <td>&lt;100ms</td>
+          <td>No latency</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="keyboard-shortcuts-for-speed">Keyboard Shortcuts for Speed<a hidden class="anchor" aria-hidden="true" href="#keyboard-shortcuts-for-speed">#</a></h2>
+<p>Add these aliases and keybindings to <code>~/.zshrc</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Quick AI access</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">claude</span><span class="o">=</span><span class="s1">&#39;claude code&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">aider</span><span class="o">=</span><span class="s1">&#39;aider&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">perp</span><span class="o">=</span><span class="s1">&#39;open https://www.perplexity.ai&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Terminal multiplexing</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">devs</span><span class="o">=</span><span class="s1">&#39;tmux attach -t dev || tmux new -s dev&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">devkill</span><span class="o">=</span><span class="s1">&#39;tmux kill-session -t dev&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Tailscale shortcuts</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">tailon</span><span class="o">=</span><span class="s1">&#39;tailscale up&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">tailoff</span><span class="o">=</span><span class="s1">&#39;tailscale down&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">tailstatus</span><span class="o">=</span><span class="s1">&#39;tailscale status&#39;</span>
+</span></span></code></pre></div><h3 id="ide-keybindings">IDE Keybindings<a hidden class="anchor" aria-hidden="true" href="#ide-keybindings">#</a></h3>
+<p><strong>Cursor AI:</strong></p>
+<ul>
+<li><code>Cmd+K</code> — inline edit</li>
+<li><code>Cmd+Shift+K</code> — codebase search</li>
+<li><code>Cmd+/</code> — AI chat</li>
+</ul>
+<p><strong>VS Code (with Cline):</strong></p>
+<ul>
+<li><code>Ctrl+Shift+</code>  — open Cline</li>
+<li><code>Ctrl+I</code> — inline edit (Continue.dev)</li>
+</ul>
+<hr>
+<h2 id="essential-vs-optional">Essential vs. Optional<a hidden class="anchor" aria-hidden="true" href="#essential-vs-optional">#</a></h2>
+<h3 id="core-stack-must-have">Core Stack (Must-Have)<a hidden class="anchor" aria-hidden="true" href="#core-stack-must-have">#</a></h3>
+<ul>
+<li>✅ <strong>Cursor AI</strong> OR <strong>VS Code + Cline</strong> (pick one)</li>
+<li>✅ <strong>Claude Code CLI</strong> (for heavy work)</li>
+<li>✅ <strong>Ollama</strong> (free local completions)</li>
+<li>✅ <strong>Tailscale</strong> (mobile access)</li>
+</ul>
+<h3 id="nice-to-have-recommended">Nice-to-Have (Recommended)<a hidden class="anchor" aria-hidden="true" href="#nice-to-have-recommended">#</a></h3>
+<ul>
+<li>📌 <strong>Perplexity</strong> (research speed)</li>
+<li>📌 <strong>OpenRouter</strong> (cost optimization)</li>
+<li>📌 <strong>Aider</strong> (test generation)</li>
+</ul>
+<h3 id="optional-niche-use-cases">Optional (Niche Use Cases)<a hidden class="anchor" aria-hidden="true" href="#optional-niche-use-cases">#</a></h3>
+<ul>
+<li>🔲 <strong>Continue.dev</strong> (if VS Code is your primary)</li>
+<li>🔲 <strong>Windsurf</strong> (alternative to Cursor)</li>
+<li>🔲 <strong>GitHub Copilot</strong> (redundant with Cursor)</li>
+</ul>
+<hr>
+<h2 id="workflow-example">Workflow Example<a hidden class="anchor" aria-hidden="true" href="#workflow-example">#</a></h2>
+<h3 id="morning-setup-2-mins">Morning Setup (2 mins)<a hidden class="anchor" aria-hidden="true" href="#morning-setup-2-mins">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tmux new -s dev -d
+</span></span><span class="line"><span class="cl">caffeinate -dims <span class="p">&amp;</span>
+</span></span><span class="line"><span class="cl">tailscale up
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Dev environment ready&#34;</span>
+</span></span></code></pre></div><h3 id="during-coding-all-day">During Coding (all day)<a hidden class="anchor" aria-hidden="true" href="#during-coding-all-day">#</a></h3>
+<ol>
+<li><strong>Quick edit</strong> → Cursor AI inline (Cmd+K)</li>
+<li><strong>Need research</strong> → Jump to Perplexity in browser</li>
+<li><strong>Stuck on bug</strong> → Ask ChatGPT, get second opinion from Claude Code</li>
+<li><strong>Write tests</strong> → Use Aider: <code>aider --test src/myfeature.ts</code></li>
+<li><strong>Big refactor</strong> → Claude Code CLI: <code>claude code --file=src/ &quot;refactor...&quot;</code></li>
+<li><strong>On mobile</strong> → SSH via Termius → attach to dev tmux session</li>
+</ol>
+<h3 id="evening-cleanup">Evening Cleanup<a hidden class="anchor" aria-hidden="true" href="#evening-cleanup">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tmux kill-session -t dev
+</span></span><span class="line"><span class="cl">tailscale down
+</span></span></code></pre></div><hr>
+<h2 id="tips--best-practices">Tips &amp; Best Practices<a hidden class="anchor" aria-hidden="true" href="#tips--best-practices">#</a></h2>
+<ul>
+<li><strong>Keep tmux/zellij sessions persistent</strong> — don&rsquo;t kill sessions, reattach and resume.</li>
+<li><strong>Use Tailscale for mobile-first</strong> — no port forwarding, no security holes.</li>
+<li><strong>Route expensive tasks to cheaper models</strong> — use GPT-3.5 before Claude, Ollama before paid APIs.</li>
+<li><strong>Batch API requests</strong> — group 5 small tasks into one session to save on round-trip overhead.</li>
+<li><strong>Monitor API costs</strong> — set OpenRouter budget limits ($5/day) to avoid surprises.</li>
+<li><strong>Test locally first</strong> — use Ollama for quick validation before hitting paid APIs.</li>
+<li><strong>Combine multiple tools</strong> — use Claude for reasoning, ChatGPT for alternative viewpoints, Perplexity for facts.</li>
+<li><strong>Version your configs</strong> — backup <code>~/.tmux.conf</code>, <code>~/.zshrc</code>, <code>~/.config/litellm.yaml</code> to git.</li>
+</ul>
+<hr>
+<p>This stack provides <strong>seamless mobile access, persistent development environments, AI coding assistants, and cost-optimized LLM routing</strong> — ideal for solo developers or small teams who rely heavily on AI-driven productivity.</p>
 
 
   </div>
