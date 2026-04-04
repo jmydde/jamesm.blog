@@ -2,30 +2,37 @@
 title: "Databricks CheatSheet"
 date: 2026-04-04T20:44:25+01:00
 draft: false
-tags: ['databricks', 'cheatsheets']
+tags: ['databricks', 'cheatsheets', 'pyspark', 'sql', 'delta-lake']
+description: "Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns"
 ---
+
+## Quick Start
+
+This cheatsheet covers essential Databricks notebook commands, SQL operations, PySpark transformations, and optimization techniques for the lakehouse platform.
 
 ## Databricks Notebook Commands
 
-| Command     | Purpose                                      | Example |
-|-------------|----------------------------------------------|---------|
-| %config     | Set configuration options for the notebook   | |
-| %env        | Set environment variables                    | |
-| %fs         | Interact with the Databricks file system     | %fs ls dbfs:/repo |
-| %load       | Loads the contents of a file into a cell     | |
-| %lsmagic    | List all magic commands                      | |
-| %jobs       | Lists all running jobs                       | |
-| %matplotlib | sets up the matplotlib backend               | |
-| %md         | Write Markdown text                          | |
-| %pip        | Install Python packages                      | |
-| %python     | Executes python code                         | %python dbutils.fs.rm("/user/hive/warehouse/test/", True) |
-| %r          | Execute R code                               | |
-| %reload     | reloads module contents                      | |
-| %run        | Executes a Python file or a notebook         | |
-| %scala      | Executes scala code                          | |
-| %sh         | Executes shell commands on the cluster nodes | %sh git clone https://github.com/repo/test |
-| %sql        | Executes SQL queries                         | |
-| %who        | Lists all the variables in the current scope | |
+Magic commands provide shortcuts for common operations in Databricks notebooks:
+
+| Command     | Purpose                                      | Use Case |
+|-------------|----------------------------------------------|---------| 
+| %python     | Executes python code (default language)      | PySpark transformations, data processing |
+| %sql        | Executes SQL queries                         | Querying tables and views |
+| %scala      | Executes scala code                          | Spark API operations, JVM access |
+| %r          | Execute R code                               | Statistical analysis and visualization |
+| %sh         | Shell commands on cluster nodes              | Git operations, system utilities |
+| %fs         | Databricks file system operations            | File management, DBFS interactions |
+| %md         | Markdown text formatting                     | Documentation and cell titles |
+| %pip        | Install Python packages                      | Adding Python dependencies |
+| %env        | Set environment variables                    | Configuration and secrets |
+| %config     | Notebook configuration options               | Display settings, execution parameters |
+| %jobs       | Lists all running jobs                       | Job monitoring |
+| %load       | Load external file contents                  | Include external code |
+| %reload     | Reload Python modules                        | Refresh imports |
+| %run        | Execute another notebook                     | Code reuse and modularization |
+| %lsmagic    | List all available magic commands            | Discovery |
+| %who        | List variables in current scope              | Debugging and variable inspection |
+| %matplotlib | Configure matplotlib backend                 | Visualization setup |
 
 ### Notebook Widgets
 ```
@@ -78,9 +85,11 @@ dbutils.secrets.delete("scope_name", "secret_key")
 %sh cp /<path> /Volumes/<catalog>/<schema>/<volume>/<path>
 ```
 
-## SQL Statements (DDL)
+## SQL Statements
 
-### Create & Use Schema
+### DDL - Data Definition Language (Schema & Table Operations)
+
+#### Create & Use Schema
 ```
 CREATE SCHEMA test;
 CREATE SCHEMA custom LOCATION 'dbfs:/custom';
@@ -112,7 +121,7 @@ GRANT USAGE ON CATALOG my_catalog TO `user@company.com`;
 GRANT READ_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`;
 ```
 
-### Create Table
+#### Create Table
 ```
 CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
 CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files('/repo/data/test.csv');
@@ -150,7 +159,7 @@ CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`;
 CREATE OR REPLACE TABLE test AS SELECT * FROM read_files('/repo/data/test.csv');
 ```
 
-### Create View
+#### Create View
 ```
 CREATE VIEW view_test
 AS SELECT * FROM test WHERE col1 = 'test';
@@ -186,21 +195,17 @@ AS SELECT test.col1 AS col1 FROM test_table
 WHERE col1 = 'value1' ORDER BY timestamp DESC LIMIT 1;
 ```
 
-### Drop
+#### Drop & Describe
 ```
 DROP TABLE test;
-```
 
-### Describe
-```
 SHOW TABLES;
-
 DESCRIBE EXTENDED test;
 ```
 
-## SQL Statements (DML)
+### DML - Data Manipulation Language (Data Operations)
 
-### Select
+#### Select
 ```
 SELECT * FROM csv.`/repo/data/test.csv`;
 SELECT * FROM read_files('/repo/data/test.csv');
@@ -252,14 +257,14 @@ FROM   event_log_raw, latest_update
 WHERE  event_type = 'flow_definition' AND origin.update_id = latest_update.id;
 ```
 
-### Insert
+#### Insert
 ```
 INSERT OVERWRITE test SELECT * FROM read_files('/repo/data/test.csv');
 
 INSERT INTO test(col1, col2) VALUES ('value1', 'value2');
 ```
 
-### Merge Into
+#### Merge Into
 ```
 MERGE INTO test USING test_to_delete
 ON test.col1 = test_to_delete.col1
@@ -274,7 +279,7 @@ ON test.col1 = test_to_insert.col1
 WHEN NOT MATCHED THEN INSERT *;
 ```
 
-### Copy Into
+#### Copy Into
 ```
 COPY INTO test
 FROM '/repo/data'
@@ -284,6 +289,8 @@ FORMAT_OPTIONS('header' = 'true', 'inferSchema' = 'true');
 ```
 
 ## Spark DataFrame API
+
+PySpark is the Python API for Apache Spark, enabling distributed data processing on the Databricks platform.
 
 ### Read Data
 ```python
