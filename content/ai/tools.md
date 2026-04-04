@@ -28,7 +28,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [ChatABC](https://chatabc.ai/) - features such as search web, team collaboration, prompt library & service never-goes-down
 - [ChatGPT](https://openai.com/blog/chatgpt/) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
 - [Cohere](http://cohere.com/) - build incredible products with world-class language AI
-- [Google Bard](https://bard.google.com/) - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM
+- [Google Gemini](https://gemini.google.com/) - conversational generative AI chatbot developed by Google (formerly Bard), available in free and Pro tiers
 - [Kaizan](http://kaizan.ai/) - uses conversation intelligence to highlight client health and what will increase revenue
 - [Perplexity](https://www.perplexity.ai/) - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions
 - [Playground](https://platform.openai.com/playground/) - explore the capabilities of various AI models developed by OpenAI
@@ -86,9 +86,6 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Borriss](https://borriss.gumroad.com/)
   - [The Advanced Prompt Writer Tool](https://borriss.gumroad.com/l/APW/) - write complex prompts in seconds
 
-### Research
-- [SciSpace](https://scispace.com/) - do hours worth of reading and understanding in minutes
-
 ### Text to Speech & Voice
 - [Cleanvoice](https://cleanvoice.ai/) - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording
 - [LOVO](https://lovo.ai/) - AI voice generator and Text to Speech
@@ -145,25 +142,26 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Google Flood AI](https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/)
 - [Hints](https://hints.so/) - AI assistant that integrates with any software to perform tasks on your behalf
 - [Krisp](https://krisp.ai/) - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant
-- http://lavender.ai
+- [Lavender](http://lavender.ai) - sales email assistant powered by AI
 - [Mixo](https://www.mixo.io/) - helps entrepreneurs quickly launch and validate their business ideas
 - [MosaicTrack](https://mosaic.ai/) - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set
 - [Nosto](https://www.nosto.com/) - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions
-- http://octaneai.com
+- [Octane AI](http://octaneai.com) - Shopify app for AI-powered customer engagement
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
-- http://regie.ai
-- [Snazzy](https://snazzy.ai/) - givse you great content ideas for social media ads, landing pages and more
+- [Regie](http://regie.ai) - AI sales assistant for email
+- [Snazzy](https://snazzy.ai/) - gives you great content ideas for social media ads, landing pages and more
 - [Sprout Social](https://sproutsocial.com/) - extract real business value from social
-- http://taskade.com
-- http://tldv.io
-- http://twain.ai
-- http://vondy.com
+- [Taskade](http://taskade.com) - AI-powered workspace for productivity
+- [TldV](http://tldv.io) - AI meeting recorder and summarizer
+- [Twain](http://twain.ai) - AI writing assistant
+- [Vondy](http://vondy.com) - AI app builder
 - [Voyado Elevate](https://www.apptus.com/voyado-elevate/) - intelligent search and merchandising for online retailers
-- http://warmer.ai
+- [Warmer](http://warmer.ai) - AI cold email outreach
 - [WNR](https://wnr.ai/) - prompts made easy with AI templates
 
 ### Research
 - [Consensus](https://consensus.app/) - search engine that uses AI to extract and distill findings directly from scientific research
+- [SciSpace](https://scispace.com/) - do hours worth of reading and understanding in minutes
 - [Scholarcy](https://www.scholarcy.com/) - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections
 
 ### Spec-driven Development (SDD)

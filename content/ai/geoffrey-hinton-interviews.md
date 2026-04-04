@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "geoffrey hinton", "interviews"]
 ---
 
-![alt](/images/Geoffrey-Hinton.jpg)
+![Geoffrey Hinton - AI Researcher and Pioneer](/images/Geoffrey-Hinton.jpg)
 
 ## About
 Geoffrey Hinton is a big name in artificial intelligence (AI), particularly when it comes to  artificial neural networks. He's a British-Canadian computer scientist and cognitive psychologist who's achieved some major milestones:

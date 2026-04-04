@@ -46,7 +46,7 @@ tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
   - [Artificial Intelligence Courses](https://pll.harvard.edu/subject/artificial-intelligence/)
 - [Machine Learning Mastery](https://machinelearningmastery.com/)
 - [Microsoft](https://microsoft.github.io/)
-  - [AI for Begineers](https://microsoft.github.io/AI-For-Beginners/)
+  - [AI for Beginners](https://github.com/microsoft/AI-For-Beginners/)
 - [Oxford](https://www.conted.ox.ac.uk/)
   - [AI Online Courses](https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/)
 - [PyTorch](https://pytorch.org/tutorials/)
@@ -59,7 +59,7 @@ tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
 - [Udacity](https://www.udacity.com/)
   - [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/) (Free)
 - [Udemy](https://www.udemy.com/)
-  - [Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4](https://www.udemy.com/course/artificial-intelligence-az/)
+  - [Artificial Intelligence A-Z™: Build an AI with ChatGPT and more](https://www.udemy.com/course/artificial-intelligence-az/)
   - [Artificial Intelligence (ARS): Build the Most Powerful AI](https://www.udemy.com/course/artificial-intelligence-ars/)
   - [Artificial Intelligence Masterclass](https://www.udemy.com/course/artificial-intelligence-masterclass/)
   - [Artificial Intelligence: Reinforcement Learning in Python](https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/)
@@ -92,11 +92,11 @@ tags: ['ai', 'chatbots', 'chatgpt', 'training courses']
 - [sentdex](https://www.youtube.com/user/sentdex/)
 - [The Artificial Intelligence Channel](https://www.youtube.com/c/TheArtificialIntelligenceChannel/)
 - [Two Minute Papers](https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/)
-- [Yannic Kilcher](https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/)- 
+- [Yannic Kilcher](https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/)
 
 ## YouTube Videos
 - [Excel AI - data analysis made easy](https://www.youtube.com/watch?v=b-cFv2DvEqE/)
-- [Google Bard: A beginner's guide to Google's AI chatbot](https://www.youtube.com/watch?v=f4LiRtjaW28/)
+- [Google Gemini (formerly Bard): A beginner's guide to Google's AI chatbot](https://www.youtube.com/watch?v=f4LiRtjaW28/)
 - [How to Build a FULL App With ChatGPT in 20 minutes!](https://www.youtube.com/watch?v=i_a9bqvqmzo/)
 - [How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website](https://www.youtube.com/watch?v=5wdCev86RYE/)
 - [Midjourney Prompt Tips for Beginners and Veterans](https://www.youtube.com/watch?v=hDK8W5SLzlw/)

@@ -86,3 +86,11 @@ We are slowly moving toward a world where computers are no longer tools we opera
 That is a pretty wild shift.
 
 And projects like OpenClaw are showing us what that future actually looks like.
+
+---
+
+## What Is OpenClaw?
+
+[OpenClaw](https://github.com/openclawcompute/openClaw) is an open-source AI agent framework that enables language models to interact with and control computer interfaces directly. It uses computer vision and reasoning to understand UI elements and execute clicks, typing, and navigation — essentially giving AI the ability to operate software the way humans do.
+
+The project demonstrates how frontier models like Claude can be augmented with the ability to see and interact with any application, from legacy enterprise software to modern web interfaces, making any software automatable without custom APIs or integrations.

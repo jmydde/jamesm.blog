@@ -1,5 +1,5 @@
 ---
-title: "OpenAI release ChatGPT app (iOS)"
+title: "OpenAI Releases ChatGPT App (iOS)"
 date: 2023-05-18T19:05:35+01:00
 draft: false
 tags: ["ai", "chatbots", "chatgpt", "llm", "apps" ,"ios"]
@@ -16,4 +16,4 @@ Discover the versatility of ChatGPT:
 - **Professional Input:** Boost productivity with idea feedback, note summarization, and technical topic assistance.
 - **Learning Opportunities:** Explore new languages, modern history, and more at your own pace.
 
-_Note_: Android app coming soon
+_Note_: Android app is available as of mid-2023.

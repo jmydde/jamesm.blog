@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Gemini on jamesm.blog</title>
+    <title>‘Gemini’ on jamesm.blog</title>
     <link>https://jamesm.blog/tags/gemini/</link>
-    <description>Recent content in Gemini on jamesm.blog</description>
+    <description>Recent content in ‘Gemini’ on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -19,35 +19,15 @@
       <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-ultra/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here&amp;rsquo;s what makes it special:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Unmatched Performance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;
+&lt;p&gt;Google Gemini Ultra was Google DeepMind’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Performance Highlights&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;State-of-the-Art: Outperforms previous models on various benchmarks, including tasks related to text, code, and more [3].&lt;/li&gt;
-&lt;li&gt;MMLU Champion: Achieves a score of 90.0% on the Massive Multitask Language Understanding (MMLU) benchmark, surpassing human experts for the first time [2]. MMLU tests a broad range of subjects, demanding both knowledge and problem-solving skills.&lt;/li&gt;
+&lt;li&gt;Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
+&lt;li&gt;Multimodal reasoning across text, images, video, and code.&lt;/li&gt;
+&lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Advanced Features&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Google Gemini Advanced</title>
-      <link>https://jamesm.blog/ai/google-gemini-advanced/</link>
-      <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Advanced Capabilities&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Multimodal Reasoning: Can analyze and understand complex information combining text and visuals.&lt;/li&gt;
-&lt;li&gt;Coding Expertise: Understands, explains, and generates code in various programming languages.&lt;/li&gt;
-&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Enhanced User Experience&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.&lt;/li&gt;
-&lt;li&gt;Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses.&lt;/li&gt;
-&lt;li&gt;Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions.&lt;/li&gt;
-&lt;li&gt;Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -5,9 +5,9 @@ draft: false
 tags: ['ai', 'unitree' ,'unitree g1', 'robots', 'humanoid robots']
 ---
 
-![alt](/images/Unitree-G1.png)
+![Unitree G1 AI Humanoid Robot](/images/Unitree-G1.png)
 
-The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla's Optimus, offering advanced capabilities and impressive stability. It starts at only $16k !
+The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla's Optimus, offering advanced capabilities and impressive stability. It starts at only $16k!
 
 With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot's development highlights Unitree's rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.
 

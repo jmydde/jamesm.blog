@@ -19,7 +19,7 @@ Most automated code review tools are basically static analysis with a large lang
 
 Claude Code’s new system takes a very different approach.
 
-Instead of running a single model pass over your pull request, it dispatches a team of AI agents to review the PR in parallel. Each agent hunts for issues from a different perspective, verifies potential bugs, and then the system ranks the findings by severity before posting a structured review. :contentReference[oaicite:0]{index=0}
+Instead of running a single model pass over your pull request, it dispatches a team of AI agents to review the PR in parallel. Each agent hunts for issues from a different perspective, verifies potential bugs, and then the system ranks the findings by severity before posting a structured review.
 
 The result is a single high-signal review comment plus inline comments directly on the relevant lines of code.
 
@@ -31,7 +31,7 @@ The interesting part here is not the technology. It's the problem.
 
 AI is massively increasing the amount of code being written.
 
-Anthropic reported that code output per engineer internally has increased by about **200% over the last year**, which created an unexpected bottleneck: code review. :contentReference[oaicite:1]{index=1}
+Anthropic reported that code output per engineer internally has increased by about **200% over the last year**, which created an unexpected bottleneck: code review.
 
 If developers are shipping more code, the review process becomes the limiting factor.
 
@@ -43,7 +43,7 @@ You open a PR with 600 lines changed, scroll through the diff, and give it a qui
 
 That works right up until the one-line change that silently breaks authentication in production.
 
-Apparently that exact scenario already happened internally. A one-line diff that looked trivial was flagged by Claude Code Review as a critical issue that would have broken authentication for a service. :contentReference[oaicite:2]{index=2}
+Apparently that exact scenario already happened internally. A one-line diff that looked trivial was flagged by Claude Code Review as a critical issue that would have broken authentication for a service.
 
 That’s the type of bug humans miss all the time.
 
@@ -58,7 +58,7 @@ Instead of one model doing a shallow scan, Claude Code:
 - cross-checks findings to filter false positives
 - ranks issues by severity before posting feedback
 
-The agents analyse changes from different angles and only high-confidence issues are surfaced, which dramatically reduces noise in the review. :contentReference[oaicite:3]{index=3}
+The agents analyse changes from different angles and only high-confidence issues are surfaced, which dramatically reduces noise in the review.
 
 Anyone who has used traditional static analysis tools knows how big a deal that is. False positives are what make people ignore automated reviews.
 
@@ -71,7 +71,7 @@ Another clever detail is that the review depth scales with the change.
 Small PRs get a lightweight pass.  
 Large or complex PRs get a deeper analysis with more agents.
 
-Reviews typically take around **20 minutes to run** and cost roughly **$15-$25 per review**, since the system is token-based and designed for depth rather than speed. :contentReference[oaicite:4]{index=4}
+Reviews typically take around **20 minutes to run** and cost roughly **$15-$25 per review**, since the system is token-based and designed for depth rather than speed.
 
 That might sound expensive at first.
 

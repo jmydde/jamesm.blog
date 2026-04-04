@@ -46,7 +46,7 @@
                               ├─ tmux/zellij (session persistence)
                               └─ Lungo, Patterned (keep-awake utilities)
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ide--editor-layer&#34;&gt;IDE &amp;amp; Editor Layer&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PRIMARY: Cursor AI (with Cascade) — fastest iteration
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PRIMARY: Cursor AI — fastest iteration with native AI engine
 SECONDARY: VS Code (+ Cline + Continue.dev) — battle-tested
 TERMINAL: Claude Code CLI — heavy multi-file work
 SSH: Termius (mobile remote access)
@@ -104,7 +104,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/geoffrey-hinton-interviews/</link>
       <pubDate>Tue, 27 Jan 2026 21:07:21 +0100</pubDate>
       <guid>https://jamesm.blog/ai/geoffrey-hinton-interviews/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;alt&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Geoffrey-Hinton.jpg&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img alt=&#34;Geoffrey Hinton - AI Researcher and Pioneer&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Geoffrey-Hinton.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 &lt;p&gt;Geoffrey Hinton is a big name in artificial intelligence (AI), particularly when it comes to  artificial neural networks. He&amp;rsquo;s a British-Canadian computer scientist and cognitive psychologist who&amp;rsquo;s achieved some major milestones:&lt;/p&gt;
 &lt;ul&gt;
@@ -195,7 +195,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;li&gt;&lt;a href=&#34;https://chatabc.ai/&#34;&gt;ChatABC&lt;/a&gt; - features such as search web, team collaboration, prompt library &amp;amp; service never-goes-down&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://openai.com/blog/chatgpt/&#34;&gt;ChatGPT&lt;/a&gt; - an artificial intelligence chatbot developed by OpenAI (&lt;strong&gt;G&lt;/strong&gt;enerative &lt;strong&gt;P&lt;/strong&gt;re-trained &lt;strong&gt;T&lt;/strong&gt;ransformer)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://cohere.com/&#34;&gt;Cohere&lt;/a&gt; - build incredible products with world-class language AI&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bard.google.com/&#34;&gt;Google Bard&lt;/a&gt; - conversational generative artificial intelligence chatbot developed by Google, based on PaLM LLM&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Google Gemini&lt;/a&gt; - conversational generative AI chatbot developed by Google (formerly Bard), available in free and Pro tiers&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://kaizan.ai/&#34;&gt;Kaizan&lt;/a&gt; - uses conversation intelligence to highlight client health and what will increase revenue&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;Perplexity&lt;/a&gt; - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://platform.openai.com/playground/&#34;&gt;Playground&lt;/a&gt; - explore the capabilities of various AI models developed by OpenAI&lt;/li&gt;
@@ -265,10 +265,6 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://scispace.com/&#34;&gt;SciSpace&lt;/a&gt; - do hours worth of reading and understanding in minutes&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&#34;text-to-speech--voice&#34;&gt;Text to Speech &amp;amp; Voice&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://cleanvoice.ai/&#34;&gt;Cleanvoice&lt;/a&gt; - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording&lt;/li&gt;
@@ -331,26 +327,27 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;li&gt;&lt;a href=&#34;https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/&#34;&gt;Google Flood AI&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://hints.so/&#34;&gt;Hints&lt;/a&gt; - AI assistant that integrates with any software to perform tasks on your behalf&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://krisp.ai/&#34;&gt;Krisp&lt;/a&gt; - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://lavender.ai&#34;&gt;http://lavender.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lavender.ai&#34;&gt;Lavender&lt;/a&gt; - sales email assistant powered by AI&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.mixo.io/&#34;&gt;Mixo&lt;/a&gt; - helps entrepreneurs quickly launch and validate their business ideas&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mosaic.ai/&#34;&gt;MosaicTrack&lt;/a&gt; - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.nosto.com/&#34;&gt;Nosto&lt;/a&gt; - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://octaneai.com&#34;&gt;http://octaneai.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://octaneai.com&#34;&gt;Octane AI&lt;/a&gt; - Shopify app for AI-powered customer engagement&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.outfitsai.com/&#34;&gt;Outfits AI&lt;/a&gt; - try on any outfits using AI&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://regie.ai&#34;&gt;http://regie.ai&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://snazzy.ai/&#34;&gt;Snazzy&lt;/a&gt; - givse you great content ideas for social media ads, landing pages and more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regie.ai&#34;&gt;Regie&lt;/a&gt; - AI sales assistant for email&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://snazzy.ai/&#34;&gt;Snazzy&lt;/a&gt; - gives you great content ideas for social media ads, landing pages and more&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sproutsocial.com/&#34;&gt;Sprout Social&lt;/a&gt; - extract real business value from social&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://taskade.com&#34;&gt;http://taskade.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tldv.io&#34;&gt;http://tldv.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://twain.ai&#34;&gt;http://twain.ai&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://vondy.com&#34;&gt;http://vondy.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://taskade.com&#34;&gt;Taskade&lt;/a&gt; - AI-powered workspace for productivity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tldv.io&#34;&gt;TldV&lt;/a&gt; - AI meeting recorder and summarizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twain.ai&#34;&gt;Twain&lt;/a&gt; - AI writing assistant&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vondy.com&#34;&gt;Vondy&lt;/a&gt; - AI app builder&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.apptus.com/voyado-elevate/&#34;&gt;Voyado Elevate&lt;/a&gt; - intelligent search and merchandising for online retailers&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://warmer.ai&#34;&gt;http://warmer.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://warmer.ai&#34;&gt;Warmer&lt;/a&gt; - AI cold email outreach&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wnr.ai/&#34;&gt;WNR&lt;/a&gt; - prompts made easy with AI templates&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;research-1&#34;&gt;Research&lt;/h3&gt;
+&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://consensus.app/&#34;&gt;Consensus&lt;/a&gt; - search engine that uses AI to extract and distill findings directly from scientific research&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scispace.com/&#34;&gt;SciSpace&lt;/a&gt; - do hours worth of reading and understanding in minutes&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.scholarcy.com/&#34;&gt;Scholarcy&lt;/a&gt; - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;spec-driven-development-sdd&#34;&gt;Spec-driven Development (SDD)&lt;/h3&gt;
@@ -381,30 +378,47 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/sergey-brin-interviews/</link>
       <pubDate>Tue, 20 May 2025 19:27:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/sergey-brin-interviews/</guid>
-      <description>&lt;h3 id=&#34;2025-05-20-sergey-brin-google-co-founder--all-in-live-from-miami&#34;&gt;[2025-05-20] Sergey Brin, Google Co-Founder | All-In Live from Miami&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Sergey Brin is the co-founder of Google and a prominent voice in AI discussion and investment. His perspective on foundational AI developments, the role of open-source models, and the future of human-computer interaction has shaped industry thinking as Google and others navigate the competitive landscape of frontier AI.&lt;/p&gt;
+&lt;h2 id=&#34;interviews&#34;&gt;Interviews&lt;/h2&gt;
+&lt;h3 id=&#34;2025-05-20-sergey-brin-google-co-founder--all-in-live-from-miami&#34;&gt;[2025-05-20] Sergey Brin, Google Co-Founder | All-In Live from Miami&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Timestamps:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;(0:00) The Besties welcome Sergey Brin!&lt;/li&gt;
-&lt;li&gt;(0:40) Sergey on his return to Google, and how an OpenAI employee played a role!&lt;/li&gt;
+&lt;li&gt;(0:00) The Besties welcome Sergey Brin&lt;/li&gt;
+&lt;li&gt;(0:40) Sergey on his return to Google, and how an OpenAI employee played a role&lt;/li&gt;
 &lt;li&gt;(5:58) AI&amp;rsquo;s true superpower and the next jump&lt;/li&gt;
 &lt;li&gt;(12:23) AI robotics: humanoids and other form factors&lt;/li&gt;
 &lt;li&gt;(17:07) Future of foundational models and open-source&lt;/li&gt;
 &lt;li&gt;(19:59) Human-computer interaction in the age of AI&lt;/li&gt;
-&lt;li&gt;(31:09) Partner shoutouts: Thanks to OKX, Circle, Polymarket, Solana, BVNK, and Google Cloud!
+&lt;li&gt;(31:09) Partner shoutouts: Thanks to OKX, Circle, Polymarket, Solana, BVNK, and Google Cloud&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/8g7a0IWKDRE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+
+&lt;p&gt;&lt;em&gt;Note: This page will be expanded with additional Sergey Brin interviews as they become available.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Agents Emergency Debate</title>
       <link>https://jamesm.blog/ai/ai-agents-emergency-debate/</link>
       <pubDate>Mon, 12 May 2025 16:27:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ai-agents-emergency-debate/</guid>
-      <description>&lt;h3 id=&#34;2025-05-12-ai-agents-emergency-debate-these-jobs-wont-exist-in-24-months-we-must-prepare-for-whats-coming&#34;&gt;[2025-05-12] AI AGENTS EMERGENCY DEBATE: These Jobs Won&amp;rsquo;t Exist In 24 Months! We Must Prepare For What&amp;rsquo;s Coming!&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;This debate explores urgent questions about AI&amp;rsquo;s impact on employment and the workforce. Contributors discuss the timeline for AI-driven job displacement and the societal preparations needed to adapt to rapid automation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Speed of AI agent adoption in the workplace&lt;/li&gt;
+&lt;li&gt;Jobs and sectors facing near-term disruption&lt;/li&gt;
+&lt;li&gt;Skills and roles that will remain in demand&lt;/li&gt;
+&lt;li&gt;Education and training priorities for workers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+&lt;h3 id=&#34;ai-agents-emergency-debate-these-jobs-wont-exist-in-24-months&#34;&gt;AI AGENTS EMERGENCY DEBATE: These Jobs Won&amp;rsquo;t Exist In 24 Months!&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/JMYQmGfTltY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Worth watching for the practical implications of agent AI and perspectives on workforce adaptation strategies.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>DeepSeek 🤯</title>
@@ -414,15 +428,15 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Wow, crazy times, &lt;strong&gt;the best technology in the world is now becoming incredibly cheap and accessible to everyone!&lt;/strong&gt; 🤯&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;DeepSeek&lt;/strong&gt;&amp;rsquo;s AI chatbot has become the &lt;strong&gt;top free app on Apple&amp;rsquo;s store&lt;/strong&gt; since its January launch. This rapid success, fuelled by DeepSeek&amp;rsquo;s &lt;strong&gt;cost-effectiveness&lt;/strong&gt; compared to US competitors, has sent shockwaves through financial markets.&lt;/p&gt;
-&lt;p&gt;Venture capitalist Marc Andreessen has lauded DeepSeek&amp;rsquo;s AI as a &amp;ldquo;&lt;strong&gt;groundbreaking achievement&lt;/strong&gt;&amp;rdquo;, while the company claims it&amp;rsquo;s models rival industry leaders like ChatGPT at a &lt;strong&gt;fraction of the cost&lt;/strong&gt;. DeepSeek reportedly invested &lt;strong&gt;only $6 million&lt;/strong&gt; in its development, a stark contrast to the &lt;strong&gt;billions spent by US AI companies&lt;/strong&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Venture capitalist Marc Andreessen has lauded DeepSeek&amp;rsquo;s AI as a &amp;ldquo;&lt;strong&gt;groundbreaking achievement&lt;/strong&gt;&amp;rdquo;, while the company claims its models rival industry leaders like ChatGPT at a &lt;strong&gt;fraction of the cost&lt;/strong&gt;. DeepSeek reportedly invested &lt;strong&gt;only $6 million&lt;/strong&gt; in its development, a stark contrast to the &lt;strong&gt;billions spent by US AI companies&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unitree G1 - AI Humanoid Robot</title>
       <link>https://jamesm.blog/ai/unitree-g1/</link>
       <pubDate>Tue, 21 May 2024 20:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/unitree-g1/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;alt&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k !&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img alt=&#34;Unitree G1 AI Humanoid Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k!&lt;/p&gt;
 &lt;p&gt;With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&amp;rsquo;s development highlights Unitree&amp;rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.&lt;/p&gt;</description>
     </item>
     <item>
@@ -437,14 +451,14 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;li&gt;these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;amazon-q-by-amazon-web-services-aws&#34;&gt;Amazon Q by Amazon Web Services (AWS)&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/q/&#34;&gt;Amazon Q&lt;/a&gt; is a secure AI chatbot is designed for businesses.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/q/&#34;&gt;Amazon Q&lt;/a&gt; is a secure AI chatbot designed for businesses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1X - Eve</title>
       <link>https://jamesm.blog/ai/1x-eve/</link>
       <pubDate>Sun, 21 Apr 2024 22:26:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/1x-eve/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;alt&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img alt=&#34;1X EVE Android Worker Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;
 &lt;p&gt;Here are some key features of 1X EVE:&lt;/p&gt;
@@ -475,7 +489,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Elon_Musk&#34;&gt;Elon Musk&lt;/a&gt; envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&amp;rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Boston Dynamics reveals it&#39;s most astonishing humanoid robot so far</title>
+      <title>Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far</title>
       <link>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</link>
       <pubDate>Sat, 20 Apr 2024 22:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</guid>
@@ -490,33 +504,17 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 &lt;p&gt;OpenAI&amp;rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices&#34;&gt;https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
-&lt;h3 id=&#34;openai-introducing-a-new-era-of-human-like-ai-voices&#34;&gt;OpenAI Introducing: A New Era of Human-like AI Voices&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/BHVoHlpH2og?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
+&lt;h2 id=&#34;status--access&#34;&gt;Status &amp;amp; Access&lt;/h2&gt;
+&lt;p&gt;Voice Engine has remained in &lt;strong&gt;limited preview&lt;/strong&gt; since its 2024 announcement. OpenAI has been cautious about broader deployment due to responsible AI considerations around synthetic voice generation, particularly concerns about voice cloning and impersonation risks.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Microsoft Stargate</title>
+      <title>Stargate</title>
       <link>https://jamesm.blog/ai/microsoft-openai-stargate/</link>
       <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Microsoft Stargate is an ambitious project in collaboration with OpenAI to build a massive AI supercomputer.&lt;/p&gt;
-&lt;p&gt;Stargate is envisioned as a giant data center housing a powerful AI supercomputer.  It is estimated to cost over $100 billion, construction is expected to begin by 2028 and take several years to complete.  The purpose of Stargate is to provide the computing power needed to develop next-generation artificial intelligence models.&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gizmodo.com/microsoft-building-stargate-transport-openai-future-1851375210&#34;&gt;https://gizmodo.com/microsoft-building-stargate-transport-openai-future-1851375210&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
-&lt;h3 id=&#34;microsoft-and-openai-to-collaborate-for-100-billion-data-centre-project--republic-business&#34;&gt;Microsoft and OpenAI to collaborate for $100 billion data centre project | Republic Business&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/UkUqwi96IJc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
+&lt;p&gt;Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between Microsoft, OpenAI, SoftBank, and Oracle to build a series of massive AI supercomputers and data centers.&lt;/p&gt;
+&lt;p&gt;Originally reported as a Microsoft-OpenAI effort, the project was expanded in January 2025 to include SoftBank&amp;rsquo;s Vision Fund and Oracle as major partners. The partnership combines OpenAI&amp;rsquo;s AI expertise, Microsoft&amp;rsquo;s cloud infrastructure and enterprise reach, SoftBank&amp;rsquo;s capital and global networks, and Oracle&amp;rsquo;s database and enterprise technology capabilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Gemini Ultra</title>
@@ -524,13 +522,15 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-ultra/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here&amp;rsquo;s what makes it special:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Unmatched Performance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;
+&lt;p&gt;Google Gemini Ultra was Google DeepMind’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Performance Highlights&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;State-of-the-Art: Outperforms previous models on various benchmarks, including tasks related to text, code, and more [3].&lt;/li&gt;
-&lt;li&gt;MMLU Champion: Achieves a score of 90.0% on the Massive Multitask Language Understanding (MMLU) benchmark, surpassing human experts for the first time [2]. MMLU tests a broad range of subjects, demanding both knowledge and problem-solving skills.&lt;/li&gt;
+&lt;li&gt;Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
+&lt;li&gt;Multimodal reasoning across text, images, video, and code.&lt;/li&gt;
+&lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Advanced Features&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Gemini Advanced</title>
@@ -538,21 +538,16 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Advanced Capabilities&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;
+&lt;p&gt;Google Gemini Advanced offered enhanced capabilities over base Gemini, designed for power users and professionals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Multimodal Reasoning: Can analyze and understand complex information combining text and visuals.&lt;/li&gt;
-&lt;li&gt;Coding Expertise: Understands, explains, and generates code in various programming languages.&lt;/li&gt;
-&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content.&lt;/li&gt;
+&lt;li&gt;Multimodal Reasoning: Analyzes text combined with images, video, and other modalities.&lt;/li&gt;
+&lt;li&gt;Coding Expertise: Understands, explains, and generates code in multiple programming languages.&lt;/li&gt;
+&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate various text formats for digital content.&lt;/li&gt;
+&lt;li&gt;Long-form Conversations: Extended context windows for deeper, multi-turn interactions.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Enhanced User Experience&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.&lt;/li&gt;
-&lt;li&gt;Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses.&lt;/li&gt;
-&lt;li&gt;Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions.&lt;/li&gt;
-&lt;li&gt;Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Current Access (2026)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of AI Courses &amp; Learning Resources</title>
@@ -630,7 +625,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/&#34;&gt;Machine Learning Mastery&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://microsoft.github.io/&#34;&gt;Microsoft&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://microsoft.github.io/AI-For-Beginners/&#34;&gt;AI for Begineers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/AI-For-Beginners/&#34;&gt;AI for Beginners&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.conted.ox.ac.uk/&#34;&gt;Oxford&lt;/a&gt;
@@ -658,7 +653,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-az/&#34;&gt;Artificial Intelligence A-Z™ 2023: Build an AI with ChatGPT4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-az/&#34;&gt;Artificial Intelligence A-Z™: Build an AI with ChatGPT and more&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-ars/&#34;&gt;Artificial Intelligence (ARS): Build the Most Powerful AI&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-masterclass/&#34;&gt;Artificial Intelligence Masterclass&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/&#34;&gt;Artificial Intelligence: Reinforcement Learning in Python&lt;/a&gt;&lt;/li&gt;
@@ -700,12 +695,12 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/sentdex/&#34;&gt;sentdex&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/TheArtificialIntelligenceChannel/&#34;&gt;The Artificial Intelligence Channel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/&#34;&gt;Two Minute Papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/&#34;&gt;Yannic Kilcher&lt;/a&gt;-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/&#34;&gt;Yannic Kilcher&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=b-cFv2DvEqE/&#34;&gt;Excel AI - data analysis made easy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=f4LiRtjaW28/&#34;&gt;Google Bard: A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=f4LiRtjaW28/&#34;&gt;Google Gemini (formerly Bard): A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i_a9bqvqmzo/&#34;&gt;How to Build a FULL App With ChatGPT in 20 minutes!&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5wdCev86RYE/&#34;&gt;How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hDK8W5SLzlw/&#34;&gt;Midjourney Prompt Tips for Beginners and Veterans&lt;/a&gt;&lt;/li&gt;
@@ -728,7 +723,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://worldsummit.ai/&#34;&gt;World Sumit AI&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://worldsummit.ai/&#34;&gt;World Summit AI&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;Taets Art &amp;amp; Event Park&lt;/td&gt;
           &lt;td&gt;11th-12th October 2023&lt;/td&gt;
       &lt;/tr&gt;
@@ -794,15 +789,30 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/github-projects/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-projects/</guid>
-      <description>&lt;h3 id=&#34;chatbots&#34;&gt;Chatbots&lt;/h3&gt;
+      <description>&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;
+&lt;h2 id=&#34;ai-agent-frameworks&#34;&gt;AI Agent Frameworks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;Auto-GPT&lt;/a&gt; - autonomous GPT&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jina-ai/dev-gpt&#34;&gt;Dev-GPT&lt;/a&gt; - your automated development team&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;Prompt Engineering Guide&lt;/a&gt; - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt; — Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt; — Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt; — Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt; — Let LLMs run code locally and interact with your computer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;h2 id=&#34;code--development&#34;&gt;Code &amp;amp; Development&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/twitter/the-algorithm&#34;&gt;Twitter&amp;rsquo;s Recommendation Algorithm&lt;/a&gt; - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt; — Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt; — AI pair programmer that can edit code in your local repository&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt; — Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;specialized-tools&#34;&gt;Specialized Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute/openClaw&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt; — AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt; — Simple way to run large language models locally&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt; — Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;research--resources&#34;&gt;Research &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt; — Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt; — Curated dataset linking papers with their implementations&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -825,18 +835,18 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;li&gt;Gradients&lt;/li&gt;
 &lt;li&gt;Remove tool: easily remove any object or person from an image instantly&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;youtube&#34;&gt;YouTube&lt;/h1&gt;
-&lt;h2 id=&#34;adobes-new-ai-firefly-photoshop-has-everyone-stunned&#34;&gt;Adobes New AI &amp;lsquo;FIREFLY Photoshop&amp;rsquo; Has Everyone Stunned!&lt;/h2&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
+&lt;h3 id=&#34;adobes-new-ai-firefly-photoshop-has-everyone-stunned&#34;&gt;Adobes New AI &amp;lsquo;FIREFLY Photoshop&amp;rsquo; Has Everyone Stunned!&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4_ziOUKgfxM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
-&lt;h2 id=&#34;this-new-photoshop-tool-will-change-photography-forever&#34;&gt;This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER&lt;/h2&gt;
+&lt;h3 id=&#34;this-new-photoshop-tool-will-change-photography-forever&#34;&gt;This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/2iEQ6p9iGng?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
-&lt;h1 id=&#34;related&#34;&gt;Related&lt;/h1&gt;
+&lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;List of AI Tools&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -850,16 +860,29 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
     </item>
     <item>
-      <title>Speechify - best text to speech app</title>
+      <title>Speechify - Best Text to Speech App</title>
       <link>https://jamesm.blog/ai/speechify/</link>
       <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
       <guid>https://jamesm.blog/ai/speechify/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; is a mobile and desktop app that reads text aloud using a computer generated text to speech voice.&lt;/p&gt;
-&lt;p&gt;The app also uses optical character recognition technology to turn physical books or printed text into audio.&lt;/p&gt;
-&lt;p&gt;The app lets users take photos of text and then listen to it read out loud.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; is a leading text-to-speech platform that converts written content into natural-sounding audio, available across web, mobile, and browser extensions.&lt;/p&gt;
+&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Text-to-Speech&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High-quality AI voices across multiple languages&lt;/li&gt;
+&lt;li&gt;Natural prosody and emotional expression&lt;/li&gt;
+&lt;li&gt;Adjustable playback speed and voice selection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Content Support&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF, Word, Google Docs, web articles&lt;/li&gt;
+&lt;li&gt;Optical character recognition (OCR) for images and scanned text&lt;/li&gt;
+&lt;li&gt;Camera feature to scan physical text instantly&lt;/li&gt;
+&lt;li&gt;Website and browser integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Premium Features (Speechify Studio)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenAI release ChatGPT app (iOS)</title>
+      <title>OpenAI Releases ChatGPT App (iOS)</title>
       <link>https://jamesm.blog/ai/chatgpt-app-ios/</link>
       <pubDate>Thu, 18 May 2023 19:05:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
@@ -874,7 +897,40 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/notion/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/notion/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a productivity and note-taking app which offers organizational tools including task management, project tracking, to-do lists, bookmarking, and more.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Database and content management with flexible views (table, calendar, gallery, timeline)&lt;/li&gt;
+&lt;li&gt;Wiki and documentation creation&lt;/li&gt;
+&lt;li&gt;Task and project management&lt;/li&gt;
+&lt;li&gt;Team collaboration and permission controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Notion AI&lt;/strong&gt; (Available as add-on)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Q&amp;amp;A Mode:&lt;/strong&gt; Ask questions about your content and get AI-powered answers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auto-fill:&lt;/strong&gt; Generate content automatically based on context&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Summarization:&lt;/strong&gt; Auto-summarize pages, databases, and meeting notes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content Generation:&lt;/strong&gt; Create outlines, blog posts, and structured content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Writing Assistant:&lt;/strong&gt; Grammar checking, tone adjustment, rephrasing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Personal knowledge management and second brain&lt;/li&gt;
+&lt;li&gt;Team documentation and wikis&lt;/li&gt;
+&lt;li&gt;Project and product management&lt;/li&gt;
+&lt;li&gt;Database and CRM systems&lt;/li&gt;
+&lt;li&gt;Meeting notes and action item tracking&lt;/li&gt;
+&lt;li&gt;Writer&amp;rsquo;s workspace with AI assistance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Free tier:&lt;/strong&gt; Core features with limited blocks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plus:&lt;/strong&gt; $10/user/month with Notion AI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business:&lt;/strong&gt; $18/user/month with advanced features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise:&lt;/strong&gt; Custom pricing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notion AI transforms the platform from a note-taking tool into a collaborative knowledge system with generative capabilities, making it valuable for both individual and team knowledge workflows.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Auto-GPT is now able to write it&#39;s own code</title>
@@ -897,13 +953,24 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/explainers/</link>
       <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/explainers/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;Deep Learning in a Nutshell: Core Concepts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;How Stable Diffusion works&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;Practical Deep Learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;Word2Vec Explained&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;Yes you should understand backprop&lt;/a&gt;&lt;/li&gt;
+      <description>&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;
+&lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;&lt;strong&gt;Yes you should understand backprop&lt;/strong&gt;&lt;/a&gt; — Andrej Karpathy&amp;rsquo;s definitive explanation of backpropagation, the fundamental algorithm behind neural network training&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;&lt;strong&gt;Deep Learning in a Nutshell: Core Concepts&lt;/strong&gt;&lt;/a&gt; — NVIDIA&amp;rsquo;s accessible overview of deep learning architectures and their applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;transformers--language-models&#34;&gt;Transformers &amp;amp; Language Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;&lt;strong&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/strong&gt;&lt;/a&gt; — Stephen Wolfram&amp;rsquo;s phenomenal breakdown of transformer architecture and the surprising effectiveness of next-token prediction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;&lt;strong&gt;Word2Vec Explained&lt;/strong&gt;&lt;/a&gt; — Foundation for understanding how words become numerical representations that models can process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;generative-models&#34;&gt;Generative Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;&lt;strong&gt;How Stable Diffusion Works&lt;/strong&gt;&lt;/a&gt; — Detailed technical walkthrough of diffusion models for image generation, with clear diagrams and intuitive explanations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;courses--practical-learning&#34;&gt;Courses &amp;amp; Practical Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt; — Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -911,17 +978,16 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.&lt;/p&gt;
-&lt;p&gt;GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.&lt;/p&gt;
-&lt;p&gt;Focus on more satisfying work, be more producttive, speed up repetitve tasks.&lt;/p&gt;
-&lt;p&gt;Supported IDEs&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by GitHub in partnership with OpenAI. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;
+&lt;p&gt;GitHub Copilot uses advanced language models (GPT-4 based) to suggest code, functions, and solutions in real-time, right from your editor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Neovim&lt;/li&gt;
-&lt;li&gt;JetBrains IDEs&lt;/li&gt;
-&lt;li&gt;Visual Studio&lt;/li&gt;
-&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;li&gt;Code autocompletion and function generation&lt;/li&gt;
+&lt;li&gt;Copilot Chat for conversational coding assistance&lt;/li&gt;
+&lt;li&gt;Context-aware suggestions based on your codebase&lt;/li&gt;
+&lt;li&gt;Support for dozens of programming languages&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Price: $10 / month&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Supported IDEs&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

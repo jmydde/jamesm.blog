@@ -2,33 +2,28 @@
 title: "Google Gemini Advanced"
 date: 2024-03-29T07:12:25+01:00
 draft: false
-tags: ['ai', 'chatbots', 'google', 'gemini', 'gemini advanced']
+tags: ['ai', 'chatbots', 'google', 'gemini']
 ---
 
 ## About
-Google Gemini Advanced is an upgrade to the base Gemini large language model, offering several enhanced capabilities.
 
-**Advanced Capabilities**
-- Multimodal Reasoning: Can analyze and understand complex information combining text and visuals.
-- Coding Expertise: Understands, explains, and generates code in various programming languages.
-- Creative Collaboration: Helps brainstorm ideas and generate creative text formats for digital content.
+**Note:** Gemini Advanced (released early 2024) was Google's tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.
 
-**Enhanced User Experience**
-- Extended Conversations: Facilitates longer and more detailed interactions compared to the base model.
-- Contextual Awareness: Better grasps the context of your conversation, allowing for tailored responses.
-- Advanced Learning: Acts as a personal tutor, creating customized learning materials and engaging in discussions.
-- Coding Assistance: Assists with intricate coding tasks, suggesting solutions and evaluating different approaches.
+Google Gemini Advanced offered enhanced capabilities over base Gemini, designed for power users and professionals.
 
-**Accessibility**
-- Mobile App: Available through a mobile app for on-the-go use.
-- Trial and Subscription: Offered as part of the Google One AI Premium Plan, with a free two-month trial.
+**Core Capabilities**
+- Multimodal Reasoning: Analyzes text combined with images, video, and other modalities.
+- Coding Expertise: Understands, explains, and generates code in multiple programming languages.
+- Creative Collaboration: Helps brainstorm ideas and generate various text formats for digital content.
+- Long-form Conversations: Extended context windows for deeper, multi-turn interactions.
 
-Gemini Advanced is designed for users who require more in-depth functionalities from a language model, be it for advanced coding assistance, creative content generation, or personalized learning experiences.
+**Current Access (2026)**
+- Available through Google One AI Premium subscription.
+- Accessible via web (gemini.google.com), mobile apps, and API.
+- Pricing and subscription structure have evolved; check Google's current offerings for latest terms.
+- Complemented by newer models (Gemini 2.0 Flash, 2.5 Pro) with expanded capabilities.
 
 ## YouTube
 
 ### NEW Google Gemini Is Here! Is It Better Than ChatGPT?
 {{< youtube l3ArneTKv_0 >}}
-
-### Google's newest and most capable AI | Gemini
-{{< youtube jV1vkHv4zq8 >}}

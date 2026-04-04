@@ -10,7 +10,9 @@ Wow, crazy times, **the best technology in the world is now becoming incredibly 
 
 **DeepSeek**'s AI chatbot has become the **top free app on Apple's store** since its January launch. This rapid success, fuelled by DeepSeek's **cost-effectiveness** compared to US competitors, has sent shockwaves through financial markets.
 
-Venture capitalist Marc Andreessen has lauded DeepSeek's AI as a "**groundbreaking achievement**", while the company claims it's models rival industry leaders like ChatGPT at a **fraction of the cost**. DeepSeek reportedly invested **only $6 million** in its development, a stark contrast to the **billions spent by US AI companies**.
+Venture capitalist Marc Andreessen has lauded DeepSeek's AI as a "**groundbreaking achievement**", while the company claims its models rival industry leaders like ChatGPT at a **fraction of the cost**. DeepSeek reportedly invested **only $6 million** in its development, a stark contrast to the **billions spent by US AI companies**.
+
+Since the initial R1 release in January 2025, DeepSeek has continued iterating with improved models including DeepSeek V3 and other variants, establishing itself as a significant competitor in the open-source and cost-efficient AI space.
 
 ## Links
 - [DeepSeek Homepage](https://www.deepseek.com/)

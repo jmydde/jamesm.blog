@@ -20,7 +20,7 @@ iPhone ──(Tailscale VPN)──→ MacBook Air
 
 ### IDE & Editor Layer
 ```
-PRIMARY: Cursor AI (with Cascade) — fastest iteration
+PRIMARY: Cursor AI — fastest iteration with native AI engine
 SECONDARY: VS Code (+ Cline + Continue.dev) — battle-tested
 TERMINAL: Claude Code CLI — heavy multi-file work
 SSH: Termius (mobile remote access)
@@ -69,14 +69,14 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 - **Purpose:** Primary development machine.
 - **Enhancements:**
   - **tmux / zellij:** Terminal multiplexers for persistent, multi-pane sessions.
-  - **Lungo** or **Patterned:** Keep display awake without dimming during long coding sessions (Amphetamine is deprecated).
+  - **Lungo** or **Patterned:** Keep display awake without dimming during long coding sessions.
   - **caffeinate:** Command-line utility to prevent sleep during long-running tasks: `caffeinate -dims &`
 
 ### IDEs and Terminals
 
 #### Cursor AI (Primary)
-- **Purpose:** AI-native IDE with Cascade reasoning engine.
-- **When to use:** Daily coding, quick iterations, in-file suggestions.
+- **Purpose:** AI-native IDE with advanced code reasoning and multi-file understanding.
+- **When to use:** Daily coding, quick iterations, in-file suggestions, refactoring.
 - **Strengths:** Fast, context-aware, great refactoring support.
 - **Cost:** $20/month after free tier.
 - **Keyboard shortcut:** Cmd+K for inline edits, Cmd+Shift+K for codebase search.
@@ -109,12 +109,12 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 
 | Task Type | Recommended Model | Reason | Cost |
 |-----------|-------------------|--------|------|
-| Code generation | Claude 3.5 Sonnet | Best for logic, edge cases | $0.001-0.01/task |
-| Quick completions | Ollama Llama2 7B | Instant, local, free | Free |
-| Research + facts | Perplexity Claude | Built-in web search, citations | Free / Pro |
-| Image generation | Grok-1 or Gemini | Fast visual reasoning | Variable |
-| Debugging | GPT-4 Turbo | Strongest at error analysis | $0.01-0.03/task |
-| Long-context tasks | Claude 3 Opus | 200K token window | $0.015-0.075/task |
+| Code generation | Claude 3.7 Sonnet | Best for logic, edge cases | $0.003-0.015/task |
+| Quick completions | Ollama Llama3.2 | Instant, local, free | Free |
+| Research + facts | Perplexity/Web | Built-in web search, citations | Free / Pro |
+| Image generation | Grok-2 or Gemini 2.0 | Fast visual reasoning | Variable |
+| Debugging | Claude Opus 4.6 | Strongest at error analysis | $0.015-0.06/task |
+| Long-context tasks | Claude 3.7 Sonnet | 200K token window | $0.003-0.015/task |
 
 ### Setup: OpenRouter or LiteLLM
 
@@ -157,7 +157,7 @@ export LLM_FALLBACK=gpt4-turbo  # Second opinion
   - [ ] Cline (saoudrizwan.cline)
   - [ ] Continue (Continue.dev)
   - [ ] GitLens
-- [ ] Cursor AI setup: Link GitHub account, enable Cascade
+- [ ] Cursor AI setup: Link GitHub account, configure models and API keys
 
 ### Phase 3: LLM Routing (30 mins)
 - [ ] Create OpenRouter account at openrouter.ai

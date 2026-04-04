@@ -8,7 +8,7 @@ tags: ['ai', 'summits', 'conferences']
 ## Amsterdam
 | Event Name | Location | Date(s) |
 | ---------- | -------- | ------- |
-| [World Sumit AI](https://worldsummit.ai/) | Taets Art & Event Park | 11th-12th October 2023 |
+| [World Summit AI](https://worldsummit.ai/) | Taets Art & Event Park | 11th-12th October 2023 |
 
 ## London
 | Event Name | Location | Date(s) |

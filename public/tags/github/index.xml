@@ -76,15 +76,30 @@
       <link>https://jamesm.blog/ai/github-projects/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-projects/</guid>
-      <description>&lt;h3 id=&#34;chatbots&#34;&gt;Chatbots&lt;/h3&gt;
+      <description>&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;
+&lt;h2 id=&#34;ai-agent-frameworks&#34;&gt;AI Agent Frameworks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;Auto-GPT&lt;/a&gt; - autonomous GPT&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jina-ai/dev-gpt&#34;&gt;Dev-GPT&lt;/a&gt; - your automated development team&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;Prompt Engineering Guide&lt;/a&gt; - latest papers, learning guides, lectures, references &amp;amp; tools related for prompt engineering&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt; — Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt; — Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt; — Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt; — Let LLMs run code locally and interact with your computer&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;h2 id=&#34;code--development&#34;&gt;Code &amp;amp; Development&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/twitter/the-algorithm&#34;&gt;Twitter&amp;rsquo;s Recommendation Algorithm&lt;/a&gt; - a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt; — Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt; — AI pair programmer that can edit code in your local repository&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt; — Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;specialized-tools&#34;&gt;Specialized Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute/openClaw&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt; — AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt; — Simple way to run large language models locally&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt; — Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;research--resources&#34;&gt;Research &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt; — Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt; — Curated dataset linking papers with their implementations&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -92,17 +107,16 @@
       <link>https://jamesm.blog/ai/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.&lt;/p&gt;
-&lt;p&gt;GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.&lt;/p&gt;
-&lt;p&gt;Focus on more satisfying work, be more producttive, speed up repetitve tasks.&lt;/p&gt;
-&lt;p&gt;Supported IDEs&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by GitHub in partnership with OpenAI. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;
+&lt;p&gt;GitHub Copilot uses advanced language models (GPT-4 based) to suggest code, functions, and solutions in real-time, right from your editor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Neovim&lt;/li&gt;
-&lt;li&gt;JetBrains IDEs&lt;/li&gt;
-&lt;li&gt;Visual Studio&lt;/li&gt;
-&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;li&gt;Code autocompletion and function generation&lt;/li&gt;
+&lt;li&gt;Copilot Chat for conversational coding assistance&lt;/li&gt;
+&lt;li&gt;Context-aware suggestions based on your codebase&lt;/li&gt;
+&lt;li&gt;Support for dozens of programming languages&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Price: $10 / month&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Supported IDEs&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

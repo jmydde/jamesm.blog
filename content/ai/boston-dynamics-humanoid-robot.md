@@ -1,5 +1,5 @@
 ---
-title: "Boston Dynamics reveals it's most astonishing humanoid robot so far"
+title: "Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far"
 date: 2024-04-20T22:09:25+01:00
 draft: false
 tags: ['ai', 'boston dynamics', 'robots', 'humanoid robots']

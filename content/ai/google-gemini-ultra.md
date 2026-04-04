@@ -2,32 +2,31 @@
 title: "Google Gemini Ultra"
 date: 2024-03-29T07:16:25+01:00
 draft: false
-tags: ['ai', 'chatbots', 'google', 'gemini', 'gemini ultra']
+tags: [‘ai’, ‘chatbots’, ‘google’, ‘gemini’]
 ---
 
 ## About
-Google Gemini Ultra is the top-of-the-line offering within the Gemini family of large language models, developed by Google DeepMind [1]. It stands out for its superior capabilities compared to the base Gemini and the advanced version [2]. Here's what makes it special:
 
-**Unmatched Performance**
-- State-of-the-Art: Outperforms previous models on various benchmarks, including tasks related to text, code, and more [3].
-- MMLU Champion: Achieves a score of 90.0% on the Massive Multitask Language Understanding (MMLU) benchmark, surpassing human experts for the first time [2]. MMLU tests a broad range of subjects, demanding both knowledge and problem-solving skills.
+**Note:** Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.
 
-**Advanced Features**
-- While specific details about its functionalities are likely still under development, we can expect it to possess all the strengths of Gemini Advanced, including:
-  - Multimodal reasoning for analyzing combined text and visual information.
-  - Expertise in coding, understanding, explaining, and generating code across various languages.
-  - Enhanced creative capabilities to brainstorm ideas and craft diverse digital content formats.
-- On top of these, Gemini Ultra might offer even more advanced features that haven't been publicly revealed yet.
+Google Gemini Ultra was Google DeepMind’s top-tier offering in the Gemini family, known for:
 
-**Availability**
-- Unlike the base Gemini and the mobile-accessible Gemini Advanced (part of Google One AI Premium), Gemini Ultra is likely not widely available yet. It might be in a limited access or beta phase initially [4, 6].
+**Performance Highlights**
+- Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.
+- Multimodal reasoning across text, images, video, and code.
+- Strong performance on coding tasks, creative writing, and complex reasoning.
 
-Google Gemini Ultra is a cutting-edge AI model pushing the boundaries of language understanding and generation. Its capabilities are expected to be significant for various fields,  but its accessibility might be limited for now.
+**Features**
+- Multimodal reasoning for analyzing combined text and visual information.
+- Expertise in coding, understanding, explaining, and generating code.
+- Enhanced creative capabilities for brainstorm and content generation.
+
+**Current Status (2026)**
+- Gemini Ultra has been succeeded by more capable models including Gemini 2.0 and 2.5 Pro.
+- Access now primarily through Google’s AI Studio, Vertex AI, and Google One AI Premium plans.
+- Older benchmarks (MMLU 90.0%) have been surpassed by newer models in the Gemini family.
 
 ## YouTube
 
 ### Google’s GEMINI ULTRA 1.0 First Look - Breakdown and Testing
 {{< youtube NuPREI6mB0g >}}
-
-### Google's newest and most capable AI | Gemini
-{{< youtube jV1vkHv4zq8 >}}
