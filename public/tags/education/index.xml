@@ -11,8 +11,32 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Feb 2023 19:05:35 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2023 13:30:39 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain &amp; Crypto Resources</title>
+      <link>https://jamesm.blog/blockchain/links/</link>
+      <pubDate>Fri, 01 Dec 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/links/</guid>
+      <description>&lt;h2 id=&#34;curated-youtube-channels&#34;&gt;Curated YouTube Channels&lt;/h2&gt;
+&lt;p&gt;Explore these trusted YouTube channels covering blockchain, cryptocurrencies, Web3, and market analysis.&lt;/p&gt;
+&lt;h3 id=&#34;educational--technical&#34;&gt;Educational &amp;amp; Technical&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@aantonop/&#34;&gt;Andreas Antonopoulos&lt;/a&gt;&lt;/strong&gt; — One of the most trusted and engaging educators in the Bitcoin industry, explaining blockchain fundamentals with clarity and depth&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@CoinBureau/&#34;&gt;Coin Bureau&lt;/a&gt;&lt;/strong&gt; — Comprehensive informational portal to the cryptocurrency ecosystem with detailed project analysis&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@MMCryptoTube/&#34;&gt;MMCrypto&lt;/a&gt;&lt;/strong&gt; — In-depth coverage of cryptocurrency and blockchain topics for learners at all levels&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;market--trading&#34;&gt;Market &amp;amp; Trading&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@AltcoinDaily/&#34;&gt;Altcoin Daily&lt;/a&gt;&lt;/strong&gt; — Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, and investing insights&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI Explainers</title>
       <link>https://jamesm.blog/ai/explainers/</link>
@@ -37,6 +61,34 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt; — Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Blockchain &amp; Web3 Courses</title>
+      <link>https://jamesm.blog/blockchain/courses/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/courses/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Whether you&amp;rsquo;re a beginner exploring blockchain fundamentals or an experienced developer building decentralized applications, these curated courses provide structured learning paths from foundation concepts to advanced smart contract development.&lt;/p&gt;
+&lt;h2 id=&#34;learning-resources&#34;&gt;Learning Resources&lt;/h2&gt;
+&lt;h3 id=&#34;developer-focused-platforms&#34;&gt;Developer-Focused Platforms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.blockchain-council.org/&#34;&gt;Blockchain Council&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt; — Professional certification program&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/strong&gt; — Interactive bootcamp for blockchain development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/strong&gt; — Learn Solidity through interactive gaming&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/strong&gt; — Comprehensive Web3 developer education&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/strong&gt; — Official Polkadot training for developers and founders&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

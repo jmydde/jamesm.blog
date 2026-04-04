@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>News on jamesm.blog</title>
+    <title>‘News’ on jamesm.blog</title>
     <link>https://jamesm.blog/tags/news/</link>
-    <description>Recent content in News on jamesm.blog</description>
+    <description>Recent content in ‘News’ on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,26 +11,25 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Dec 2023 09:53:39 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 24 Dec 2023 13:44:22 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>News: Arturia Collection X</title>
-      <link>https://jamesm.blog/music-production/news/arturia-v-collection-x/</link>
-      <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/news/arturia-v-collection-x/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.arturia.com/&#34;&gt;[Arturia]&lt;/a&gt; have just released &lt;a href=&#34;https://www.arturia.com/products/software-instruments/v-collection/overview/&#34;&gt;V Collection X&lt;/a&gt; - A premium suite of software instruments for unparalleled sonic exploration; from evocative emulations and hybrid synth engines, to authentically modeled keyboards and beautifully captured acoustic sounds - enhanced for today’s production workflow.&lt;/p&gt;
-&lt;p&gt;Immerse yourself in an unparalleled music-making experience with iconic sounds and essential tools to suit your style, performance needs and production workflow. 39 instruments, 3 exclusive expansion packs, thousands of world-class presets - 1 canvas for infinite sonic exploration.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>China syncs monkey brain with a computer</title>
-      <link>https://jamesm.blog/general/monkey-computer-sync/</link>
-      <pubDate>Sun, 07 May 2023 14:53:39 +0100</pubDate>
-      <guid>https://jamesm.blog/general/monkey-computer-sync/</guid>
-      <description>&lt;p&gt;Chinese researchers claim to have successfully conducted the &amp;ldquo;world&amp;rsquo;s first&amp;rdquo; brain-computer interface (BCI) experiment on a monkey&lt;/p&gt;
+      <title>Polkadot News 2023</title>
+      <link>https://jamesm.blog/blockchain/polkadot/polkadot-2023/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/polkadot/polkadot-2023/</guid>
+      <description>&lt;h2 id=&#34;2023-polkadot-ecosystem-highlights&#34;&gt;2023 Polkadot Ecosystem Highlights&lt;/h2&gt;
+&lt;p&gt;A comprehensive collection of major Polkadot developments, announcements, and insights from 2023, highlighting the network’s evolution toward Polkadot 1.0 and enhanced ecosystem maturity.&lt;/p&gt;
+&lt;h2 id=&#34;december-2023&#34;&gt;December 2023&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Polkadot 2023 Roundup&lt;/strong&gt; (December 24)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer&#34;&gt;https://interestingengineering.com/science/china-syncs-monkey-brain-with-a-computer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;&lt;a href=&#34;https://medium.com/polkadot-network/polkadot-2023-roundup-7fe77d88f022&#34;&gt;Read on Medium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Polkadot Community Call | December 2023&lt;/strong&gt; (December 11)
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/tbewfQM_19c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

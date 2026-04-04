@@ -11,8 +11,92 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 May 2023 11:51:18 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2023 13:30:39 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptocurrency Hardware Wallets</title>
+      <link>https://jamesm.blog/blockchain/hardware-wallets/</link>
+      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/hardware-wallets/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Hardware wallets are physical devices designed to securely store cryptocurrency private keys offline. They provide cold storage solutions that protect your assets from online threats, making them one of the most secure ways to manage digital currencies.&lt;/p&gt;
+&lt;h2 id=&#34;hardware-wallet-providers&#34;&gt;Hardware Wallet Providers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bc-vault.com/&#34;&gt;BC Vault&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ellipal.com/&#34;&gt;ELLIPAL&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ellipal.com/products/ellipal-titan&#34;&gt;Titan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/&#34;&gt;Ledger&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-nano-s-plus&#34;&gt;Ledger Nano S Plus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-nano-x&#34;&gt;Ledger Nano X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shop.ledger.com/products/ledger-stax&#34;&gt;Ledger Stax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ngrave.io/zero&#34;&gt;NGRAVE&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ngrave.io/zero&#34;&gt;ZERO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/&#34;&gt;SafePal&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/cypher&#34;&gt;SafePal Cypher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/s1&#34;&gt;SafePal S1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/s1pro&#34;&gt;SafePal S1 Pro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.safepal.com/en/store/x1&#34;&gt;SafePal X1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://trezor.io/&#34;&gt;Trezor&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-model-one&#34;&gt;Trezor Model One&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-model-t&#34;&gt;Trezor Model T&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://trezor.io/trezor-safe-3&#34;&gt;Trezor Safe 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;educational-resources&#34;&gt;Educational Resources&lt;/h2&gt;
+&lt;h3 id=&#34;2023-06-29-top-5-best-hardware-wallets-which-are-the-safest&#34;&gt;2023-06-29 Top 5 BEST Hardware Wallets: Which Are The SAFEST?!&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4q8nK4XxmkA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2022-01-24-how-i-hacked-a-hardware-crypto-wallet-and-recovered-2-million&#34;&gt;2022-01-24 How I hacked a hardware crypto wallet and recovered $2 million&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/dT9y-KQbqi4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware wallets keep private keys offline, away from internet-connected devices&lt;/li&gt;
+&lt;li&gt;Popular options include Ledger, Trezor, SafePal, and others&lt;/li&gt;
+&lt;li&gt;Choose a wallet based on supported cryptocurrencies, ease of use, and price&lt;/li&gt;
+&lt;li&gt;Always purchase directly from the manufacturer to ensure authenticity&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Private Keys in Cryptocurrency</title>
+      <link>https://jamesm.blog/blockchain/private-keys/</link>
+      <pubDate>Fri, 23 Jun 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/private-keys/</guid>
+      <description>&lt;h2 id=&#34;what-are-private-keys&#34;&gt;What Are Private Keys?&lt;/h2&gt;
+&lt;p&gt;A private key is a cryptographic variable used in conjunction with an algorithm to encrypt and decrypt data. In the context of cryptocurrencies, a private key is a secret number that allows you to spend the cryptocurrency associated with your public address.&lt;/p&gt;
+&lt;h3 id=&#34;key-principles&#34;&gt;Key Principles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Never Share&lt;/strong&gt;: Private keys should be shared only with the key&amp;rsquo;s generator or parties explicitly authorized to decrypt the data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unique Control&lt;/strong&gt;: Only the holder of a private key can authorize transactions from that address&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Irretrievable Loss&lt;/strong&gt;: Losing your private key means losing access to your funds permanently&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cryptographic Foundation&lt;/strong&gt;: Private keys are crucial in both symmetric and asymmetric cryptography, and are fundamental to cryptocurrency security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;educational-videos&#34;&gt;Educational Videos&lt;/h2&gt;
+&lt;h3 id=&#34;cryptographic-security&#34;&gt;Cryptographic Security&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;How Secure is 256-bit Security?&lt;/strong&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/S9JGmA5_unY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
     <item>
       <title>List of DevOps Courses</title>
       <link>https://jamesm.blog/devops/devops-courses/</link>

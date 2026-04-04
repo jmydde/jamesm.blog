@@ -399,6 +399,13 @@
       <description></description>
     </item>
     <item>
+      <title>Applications</title>
+      <link>https://jamesm.blog/tags/applications/</link>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/applications/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Bitcoin</title>
       <link>https://jamesm.blog/tags/bitcoin/</link>
       <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
@@ -413,6 +420,20 @@
       <description></description>
     </item>
     <item>
+      <title>Cryptocurrency</title>
+      <link>https://jamesm.blog/tags/cryptocurrency/</link>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decentralization</title>
+      <link>https://jamesm.blog/tags/decentralization/</link>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/decentralization/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Dot</title>
       <link>https://jamesm.blog/tags/dot/</link>
       <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
@@ -424,6 +445,13 @@
       <link>https://jamesm.blog/tags/ecosystem/</link>
       <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/ecosystem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>https://jamesm.blog/tags/infrastructure/</link>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
@@ -1652,13 +1680,6 @@
       <description></description>
     </item>
     <item>
-      <title>Infrastructure</title>
-      <link>https://jamesm.blog/tags/infrastructure/</link>
-      <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/infrastructure/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Microsoft</title>
       <link>https://jamesm.blog/tags/microsoft/</link>
       <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
@@ -1715,10 +1736,24 @@
       <description></description>
     </item>
     <item>
+      <title>2024</title>
+      <link>https://jamesm.blog/tags/2024/</link>
+      <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/2024/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Gavin Wood</title>
       <link>https://jamesm.blog/tags/gavin-wood/</link>
       <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
       <guid>https://jamesm.blog/tags/gavin-wood/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://jamesm.blog/tags/news/</link>
+      <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/news/</guid>
       <description></description>
     </item>
     <item>
@@ -1778,6 +1813,48 @@
       <description></description>
     </item>
     <item>
+      <title>‘2023’</title>
+      <link>https://jamesm.blog/tags/2023/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>‘Blockchain’</title>
+      <link>https://jamesm.blog/tags/blockchain/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>‘Dot’</title>
+      <link>https://jamesm.blog/tags/dot/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/dot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>‘Gavin Wood’</title>
+      <link>https://jamesm.blog/tags/gavin-wood/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/gavin-wood/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>‘News’</title>
+      <link>https://jamesm.blog/tags/news/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>‘Polkadot’</title>
+      <link>https://jamesm.blog/tags/polkadot/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/polkadot/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Ethereum</title>
       <link>https://jamesm.blog/tags/ethereum/</link>
       <pubDate>Sun, 24 Dec 2023 13:30:39 +0100</pubDate>
@@ -1799,13 +1876,6 @@
       <description></description>
     </item>
     <item>
-      <title>News</title>
-      <link>https://jamesm.blog/tags/news/</link>
-      <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/news/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Virtual Instruments</title>
       <link>https://jamesm.blog/tags/virtual-instruments/</link>
       <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
@@ -1817,6 +1887,20 @@
       <link>https://jamesm.blog/tags/vsts/</link>
       <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
       <guid>https://jamesm.blog/tags/vsts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://jamesm.blog/tags/education/</link>
+      <pubDate>Fri, 01 Dec 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://jamesm.blog/tags/resources/</link>
+      <pubDate>Fri, 01 Dec 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/resources/</guid>
       <description></description>
     </item>
     <item>
@@ -1852,6 +1936,13 @@
       <link>https://jamesm.blog/tags/safepal/</link>
       <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
       <guid>https://jamesm.blog/tags/safepal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://jamesm.blog/tags/security/</link>
+      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/security/</guid>
       <description></description>
     </item>
     <item>
@@ -1897,10 +1988,31 @@
       <description></description>
     </item>
     <item>
+      <title>Decentralized</title>
+      <link>https://jamesm.blog/tags/decentralized/</link>
+      <pubDate>Fri, 23 Jun 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/decentralized/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Decryption</title>
       <link>https://jamesm.blog/tags/decryption/</link>
       <pubDate>Fri, 23 Jun 2023 13:30:39 +0100</pubDate>
       <guid>https://jamesm.blog/tags/decryption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Currency</title>
+      <link>https://jamesm.blog/tags/digital-currency/</link>
+      <pubDate>Fri, 23 Jun 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/digital-currency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Economics</title>
+      <link>https://jamesm.blog/tags/economics/</link>
+      <pubDate>Fri, 23 Jun 2023 13:30:39 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/economics/</guid>
       <description></description>
     </item>
     <item>
@@ -2093,13 +2205,6 @@
       <description></description>
     </item>
     <item>
-      <title>Security</title>
-      <link>https://jamesm.blog/tags/security/</link>
-      <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Storage</title>
       <link>https://jamesm.blog/tags/storage/</link>
       <pubDate>Sun, 28 May 2023 11:51:18 +0100</pubDate>
@@ -2268,13 +2373,6 @@
       <description></description>
     </item>
     <item>
-      <title>Education</title>
-      <link>https://jamesm.blog/tags/education/</link>
-      <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/education/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Compliance</title>
       <link>https://jamesm.blog/tags/compliance/</link>
       <pubDate>Sat, 03 Dec 2022 11:04:16 +0100</pubDate>
@@ -2300,6 +2398,13 @@
       <link>https://jamesm.blog/tags/reinvent/</link>
       <pubDate>Sat, 03 Dec 2022 11:04:16 +0100</pubDate>
       <guid>https://jamesm.blog/tags/reinvent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blockchain Comparison</title>
+      <link>https://jamesm.blog/tags/blockchain-comparison/</link>
+      <pubDate>Thu, 17 Jun 2021 09:53:39 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/blockchain-comparison/</guid>
       <description></description>
     </item>
     <item>
@@ -2342,6 +2447,13 @@
       <link>https://jamesm.blog/tags/django/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>https://jamesm.blog/tags/learning/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/learning/</guid>
       <description></description>
     </item>
     <item>
