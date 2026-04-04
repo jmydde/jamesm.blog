@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/brew/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/cli/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/devops/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/kubernetes/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/linux/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/mac-brew-packages/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/macos/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/monitoring/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/package-management/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/python/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/syntax-highlighting/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/terminal/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/terraform/</loc>
+    <lastmod>2026-04-04T20:59:35+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/mac/</loc>
     <lastmod>2026-04-04T20:56:00+01:00</lastmod>
   </url><url>
@@ -14,19 +62,7 @@
     <loc>https://jamesm.blog/tags/utilities/</loc>
     <lastmod>2026-04-04T20:56:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/mac-apps-utils/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-04T20:56:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/airflow/</loc>
@@ -81,9 +117,6 @@
     <lastmod>2026-04-04T20:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/pipelines/</loc>
-    <lastmod>2026-04-04T20:51:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/python/</loc>
     <lastmod>2026-04-04T20:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/scheduling/</loc>
@@ -1127,16 +1160,7 @@
     <loc>https://jamesm.blog/tags/apache/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/cli/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/kubernetes/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/github-projects/</loc>
-    <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/terminal/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/architecture/</loc>
@@ -1175,9 +1199,6 @@
     <loc>https://jamesm.blog/tags/lambda/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/linux/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/devops-courses/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
@@ -1191,9 +1212,6 @@
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/storage/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/terraform/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/vault/</loc>
@@ -1280,25 +1298,7 @@
     <loc>https://jamesm.blog/general/tweets/worst-uis/</loc>
     <lastmod>2023-05-15T14:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/brew/</loc>
-    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/devops/mac-brew-packages/</loc>
-    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/macos/</loc>
-    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/monitoring/</loc>
-    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/ai/notion/</loc>
-    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/package-management/</loc>
-    <lastmod>2023-05-11T21:06:35+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/syntax-highlighting/</loc>
     <lastmod>2023-05-11T21:06:35+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/links/</loc>
