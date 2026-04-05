@@ -11,20 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Apr 2023 11:50:32 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2024 18:31:21 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Production Blogs</title>
+      <link>https://jamesm.blog/music-production/blogs/</link>
+      <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/blogs/</guid>
+      <description>Curated list of music production blogs covering DAWs, music theory, synthesis, and production techniques.</description>
+    </item>
     <item>
       <title>DevOps Blogs</title>
       <link>https://jamesm.blog/devops/blogs/</link>
       <pubDate>Fri, 21 Apr 2023 11:50:32 +0100</pubDate>
       <guid>https://jamesm.blog/devops/blogs/</guid>
-      <description>&lt;h2 id=&#34;devops--sre&#34;&gt;DevOps &amp;amp; SRE&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.atlassian.com/blog/devops&#34;&gt;Atlassian DevOps Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/devops/&#34;&gt;AWS DevOps Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/devops/&#34;&gt;Everything DevOps (Reddit)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bejarano.io/&#34;&gt;Ricard&lt;/a&gt; - SRE at Cisco&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>Curated list of DevOps and SRE blogs covering infrastructure, automation, continuous delivery, and operational best practices.</description>
     </item>
   </channel>
 </rss>

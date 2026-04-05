@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Self Improvement on jamesm.blog</title>
+    <title>Self-Improvement on jamesm.blog</title>
     <link>https://jamesm.blog/tags/self-improvement/</link>
-    <description>Recent content in Self Improvement on jamesm.blog</description>
+    <description>Recent content in Self-Improvement on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -18,9 +18,21 @@
       <link>https://jamesm.blog/personal-development/the-universe-has-a-plan-for-you/</link>
       <pubDate>Thu, 12 Mar 2026 20:00:39 +0100</pubDate>
       <guid>https://jamesm.blog/personal-development/the-universe-has-a-plan-for-you/</guid>
-      <description>&lt;h2 id=&#34;on-adversity-awakening-and-rediscovering-who-you-are&#34;&gt;&lt;em&gt;On Adversity, Awakening, and Rediscovering Who You Are&lt;/em&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;Most of us don&amp;rsquo;t find our life&amp;rsquo;s purpose in a single moment of calm reflection. We find it in the wreckage. We find it in the sleepless nights, the boxes we didn&amp;rsquo;t pack, the home we no longer live in. We find it when we are forced - absolutely forced - to stop, strip everything back, and ask: &lt;em&gt;who am I without all of this?&lt;/em&gt;&lt;/p&gt;</description>
+      <description>Reflective essay on adversity, personal awakening, and discovering life purpose through life&amp;#39;s challenges.</description>
+    </item>
+    <item>
+      <title>List of Personal Development Books</title>
+      <link>https://jamesm.blog/personal-development/books/</link>
+      <pubDate>Sun, 28 May 2023 09:02:39 +0100</pubDate>
+      <guid>https://jamesm.blog/personal-development/books/</guid>
+      <description>Recommended reading list of personal development and self-improvement books covering mental models, habits, and success.</description>
+    </item>
+    <item>
+      <title>List of Personal Development Videos</title>
+      <link>https://jamesm.blog/personal-development/videos/</link>
+      <pubDate>Sun, 28 May 2023 09:02:39 +0100</pubDate>
+      <guid>https://jamesm.blog/personal-development/videos/</guid>
+      <description>Curated list of YouTube channels and creators focused on personal development, motivation, and self-improvement.</description>
     </item>
   </channel>
 </rss>

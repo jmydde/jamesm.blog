@@ -3,6 +3,7 @@ title: "List of DevOps Courses"
 date: 2023-05-28T11:51:18+01:00
 draft: false
 tags: ['architecture', 'aws', 'azure', 'ci/cd', 'consul', 'courses', 'databases', 'db', 'devops', 'docker', 'gcp', 'git', 'gitops', 'hashicorp', 'iac', 'kubernetes', 'lambda', 'linux', 'networking', 'python', 's3', 'security', 'storage', 'terraform', 'training', 'vpc', 'whitepapers', 'vault']
+description: "Comprehensive collection of DevOps courses covering AWS, Azure, Docker, Kubernetes, Terraform, CI/CD, Linux, and cloud infrastructure training."
 ---
 
 ## Amazon Web Services (AWS)
@@ -45,7 +46,7 @@ tags: ['architecture', 'aws', 'azure', 'ci/cd', 'consul', 'courses', 'databases'
   - [Getting Started with Jenkins](https://www.pluralsight.com/courses/getting-started-jenkins/)
   - [Practicing CI/CD with AWS CodePipeline](https://www.pluralsight.com/courses/practicing-cicd-aws-codepipeline/)
 - [Whizlabs](https://www.whizlabs.com/)
-  - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
+  - [Deploying Microservices to Kubernetes using Azure DevOps](https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
   - [Advanced Azure DevOps and AKS Patterns for Scalable Solutions](https://www.whizlabs.com/advanced-azure-devops-and-aks-patterns-for-scalable-solutions/)
 
 ### Cost Optimization
@@ -206,7 +207,7 @@ tags: ['architecture', 'aws', 'azure', 'ci/cd', 'consul', 'courses', 'databases'
   - [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)
   - [Learn DevOps: The Complete Kubernetes Course](https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/)
 - [Whizlabs](https://www.whizlabs.com/)
-  - [Deploying Microservices to Kubernetes using Azure DevOps](/https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
+  - [Deploying Microservices to Kubernetes using Azure DevOps](https://www.whizlabs.com/deploying-microservices-to-kubernetes-using-azure-devops/)
 - Tutorials
   - [EKS Workshop](https://www.eksworkshop.com/)
   - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way/)

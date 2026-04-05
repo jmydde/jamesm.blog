@@ -2,7 +2,8 @@
 title: "Hugo Shortcode Syntax"
 date: 2020-01-01T00:00:01+01:00
 draft: false
-tags: ['hugo', 'tweets']
+tags: ['hugo', 'shortcodes', 'reference', 'developer']
+description: "Developer reference guide for Hugo shortcodes and embedded content syntax."
 ---
 
 ### Code

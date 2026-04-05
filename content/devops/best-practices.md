@@ -2,6 +2,8 @@
 title: "DevOps Best Practices"
 date: 2023-12-16T09:33:18+01:00
 draft: false
+tags: ['devops', 'best practices', 'microservices', 'system design']
+description: "Curated collection of DevOps and system design best practices from industry experts covering microservices architecture and scalable system design."
 ---
 ## Microservices
 

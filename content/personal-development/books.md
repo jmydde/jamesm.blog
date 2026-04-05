@@ -2,11 +2,12 @@
 title: "List of Personal Development Books"
 date: 2023-05-28T09:02:39+01:00
 draft: false
-tags: ["personal development", "books"]
+tags: ["personal development", "books", "self-improvement", "learning"]
+description: "Recommended reading list of personal development and self-improvement books covering mental models, habits, and success."
 ---
 ## Books
 - [100 Mental Models](https://wisdomtheory.gumroad.com/l/100MM/) ([Wisdom Theory](https://wisdomtheory.gumroad.com/)) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics & history
-- [Almanack of Naval Ravikant -  a guide to wealth and happiness](https://www.navalmanack.com/) - 
+- [Almanack of Naval Ravikant - a guide to wealth and happiness](https://www.navalmanack.com/) - timeless wisdom on wealth, happiness, and philosophy 
 - [Choose Yourself: Be Happy, Make Millions, Live the Dream](https://www.goodreads.com/book/show/17977529-choose-yourself/) ([James Altucher](https://www.goodreads.com/author/show/740.James_Altucher/)) - generate real inward success (personal happiness and health) and outward success (fulfilling work and wealth)
 - [Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time](https://www.goodreads.com/book/show/95887.Eat_That_Frog_/) (Brian Tracy)
 - [Ego Is the Enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/) (Ryan Holiday)

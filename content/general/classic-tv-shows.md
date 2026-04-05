@@ -2,7 +2,8 @@
 title: "Classic TV Shows"
 date: 2024-04-26T18:13:01+01:00
 draft: false
-tags: ['tv', 'classic tv']
+tags: ['tv', 'classic tv', 'entertainment', 'comedy']
+description: "Collection of classic British television shows and comedy programs including Tomorrow's World, Fawlty Towers, Blackadder, and more."
 ---
 
 ## Tomorrow's World (1965 - 2003)

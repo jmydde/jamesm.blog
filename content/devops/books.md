@@ -3,6 +3,7 @@ title: "DevOps Books"
 date: 2023-04-21T23:07:18+01:00
 draft: false
 tags: ['devops', 'books', 'python', 'docker', 'kubernetes', 'terraform', 'iac', 'linux', 'programming', 'bash', 'sql', 'golang']
+description: "Recommended reading list of DevOps and infrastructure engineering books covering cloud, containers, infrastructure as code, and programming languages."
 ---
 A list of recommended DevOps books ...
 

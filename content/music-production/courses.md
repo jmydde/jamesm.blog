@@ -2,7 +2,8 @@
 title: "Music Production Courses"
 date: 2024-01-19T18:31:21+01:00
 draft: false
-tags: ['aas', 'ableton', 'adsr', 'ask.video', 'courses', 'cubase', 'groove3', 'logic pro', 'maschine', 'music production', 'music theory', 'native instruments', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
+tags: ['music production', 'courses', 'training', 'learning', 'daw', 'online education']
+description: "Comprehensive list of music production courses from major platforms covering all popular DAWs and production techniques."
 ---
 
 ### Ableton

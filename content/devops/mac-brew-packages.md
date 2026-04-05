@@ -3,6 +3,7 @@ title: "Mac Homebrew packages"
 date: 2026-04-04T20:59:35+01:00
 draft: false
 tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 'syntax highlighting', 'monitoring', 'package management', 'linux']
+description: "Comprehensive list of essential Homebrew packages for macOS development, DevOps, cloud tools, and command-line utilities."
 ---
 ## Essential
 * **bat** - Cat alternative with syntax highlighting and Git integration
@@ -57,14 +58,12 @@ tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 
 * **tldr** - Simplified man pages with practical examples
 
 ## File & Directory Tools
-* **fzf** - Fuzzy finder for interactive searching
 * **midnight-commander** - Full-screen file manager (mc)
 * **ncdu** - Disk space usage analyzer
 * **ranger** - Terminal file manager with preview support
 
 ## Productivity & Utilities
 * **direnv** - Load environment variables based on directory
-* **glow** - Markdown reader for the terminal
 * **httpie** - HTTP CLI client (curl alternative)
 * **jupyter** - Interactive notebooks for data science
 * **navi** - Interactive cheatsheet and command browser

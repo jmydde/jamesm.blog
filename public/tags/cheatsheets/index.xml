@@ -20,5 +20,12 @@
       <guid>https://jamesm.blog/data-engineering/databricks-cheatsheet/</guid>
       <description>Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns</description>
     </item>
+    <item>
+      <title>DevOps Cheatsheets</title>
+      <link>https://jamesm.blog/devops/cheatsheets/</link>
+      <pubDate>Sat, 16 Dec 2023 09:28:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/cheatsheets/</guid>
+      <description>Quick reference guides and cheatsheets for DevOps tools and cloud computing concepts.</description>
+    </item>
   </channel>
 </rss>

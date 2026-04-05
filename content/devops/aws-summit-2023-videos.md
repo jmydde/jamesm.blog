@@ -2,7 +2,8 @@
 title: "AWS Summit London (2023) - Videos"
 date: 2023-06-07T11:04:16+01:00
 draft: false
-tags: ['aws', 'devops', 'summit']
+tags: ['aws', 'devops', 'summit', 'videos', 'conference']
+description: "Video recordings and keynote presentations from AWS Summit London 2023."
 ---
 ## Keynote
 Speakers

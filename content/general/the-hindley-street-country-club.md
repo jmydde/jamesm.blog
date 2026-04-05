@@ -2,13 +2,14 @@
 title: "The Hindley Street Country Club"
 date: 2024-04-22T20:47:01+01:00
 draft: false
-tags: ['music', 'cover bands']
+tags: ['music', 'cover bands', 'youtube', 'entertainment']
+description: "Australian cover band group with millions of YouTube views and global following for innovative music arrangements."
 ---
 
 ## About
 [The Hindley Street Country Club](https://www.thehscc.com/) (HSCC) is an Australian group which was founded in 2017 by arranger / producer Constantine Delo.  The band specializes in performing covers, which have achieved huge success through social media.
 
-They started as a group of Adelaide musicians, recording re-arranged covers and uploading them to Facebook and YouTube weekly. The HSCC has amassed over 540 million YouTube views with over 940,000 subscribers globally and accumulated over a billion views accross social media platforms. 
+They started as a group of Adelaide musicians, recording re-arranged covers and uploading them to Facebook and YouTube weekly. The HSCC has amassed over 540 million YouTube views with over 940,000 subscribers globally and accumulated over a billion views across social media platforms. 
 
 Following on from major internet success, they now tour throughout the world & they are still releasing videos weekly on [YouTube](https://www.youtube.com/@theHindleyStreetCountryClub) every Friday.
 

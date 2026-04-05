@@ -2,6 +2,8 @@
 title: "CI/CD Tools"
 date: 2022-08-21T11:51:18+01:00
 draft: false
+tags: ['ci/cd', 'devops', 'continuous delivery', 'automation', 'kubernetes']
+description: "Overview of popular CI/CD and continuous delivery tools for automating software builds, testing, and deployments."
 ---
 - [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) - a declarative, GitOps continuous delivery tool for Kubernetes
 - [AWS CodePipeline](https://aws.amazon.com/codepipeline/) - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software

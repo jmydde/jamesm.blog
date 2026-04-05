@@ -2,12 +2,13 @@
 title: "Music Production: Ableton Live 12"
 date: 2024-03-05T21:10:00+01:00
 draft: false
-tags: ['music production', 'ableton', 'ableton live']
+tags: ['music production', 'ableton', 'ableton live', 'daw', 'news']
+description: "Overview of Ableton Live 12 features, new devices, MIDI tools, pricing, and learning resources."
 ---
 
 ## Overview
-Ableton have just release Ableton Live 12
-- https://www.ableton.com/en/shop/live-12/
+Ableton have just released Ableton Live 12
+- [Ableton Live 12 Shop](https://www.ableton.com/en/shop/live-12/)
 
 ## Whats New
 - UI Improvements
@@ -39,7 +40,7 @@ Ableton have just release Ableton Live 12
 ## YouTube Playlists
 - [Learn Live 12](https://www.youtube.com/playlist?list=PLoh4MB-kbBmJ7dR67GF1vQXbPdZyg4YQz)
 
-## YoutTube Videos
+## YouTube Videos
 
 ### Ableton Live 12: Explore what’s new
 {{< youtube QFCV6EkqRQs >}}

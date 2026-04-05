@@ -2,7 +2,8 @@
 title: "AWS Summit London (2023) - Agenda"
 date: 2023-06-07T07:54:16+01:00
 draft: false
-tags: ['aws', 'devops', 'summit']
+tags: ['aws', 'devops', 'summit', 'conference', 'events']
+description: "Complete agenda of AWS Summit London 2023 with session codes, titles, and difficulty levels for all conference presentations."
 ---
 | Code | Item | Level |
 | ---- | ---- | ----- |
@@ -32,7 +33,7 @@ tags: ['aws', 'devops', 'summit']
 | BIZ101 | How Amazon Connect is helping deliver exceptional CX to Community Fibre, London’s biggest, fastest 100% full fibre broadband company | 100 - Introductory AWS |
 | BIZ102 | Contact Centre enabling Digital Transformation at speed with Amazon Connect and AI/ML Services | 100 - Introductory AWS |
 | BIZ103 | Lower risks and optimize costs with AWS Supply Chain | 200 - Intermediate AWS |
-| BIZ301 | Proactivly engage your customers with Amazon Connect, using ML to improve your customer experience | 300 - Advanced AWS |
+| BIZ301 | Proactively engage your customers with Amazon Connect, using ML to improve your customer experience | 300 - Advanced AWS |
 | BSI201 | Simplify the path from data to action with Amazon QuickSight | 200 - Intermediate AWS |
 | CMP201 | How Ably optimised its compute costs and performance with AWS Graviton | 200 - Intermediate AWS |
 | CMP301 | Migrating latency sensitive workload to AWS Region and edge services | 300 - Advanced AWS |
@@ -56,7 +57,6 @@ tags: ['aws', 'devops', 'summit']
 | EUC301 | Picking the right AWS EUC service for your needs | 300 - Advanced AWS |
 | FSI102 | How NatWest and AWS worked together to boost personalised insight generation: A machine learning approach to transaction categorisation | 100 - Introductory AWS  |
 | FSI201 | Amazon EKS | production grade Kubernetes | 200 - Intermediate AWS |
-| GMD-1 | AWS GameDay - F1 League 2023 | 200 - Intermediate AWS |
 | GMD-1 | AWS GameDay - F1 League 2023 | 200 - Intermediate AWS |
 | GMD-3 | AWS GameDay - New Frontier GameDay Challenge with LaunchDarkly | 200 - Intermediate LaunchDarkly |
 | HLC101 | Introducing artificial intelligence into IVF laboratories | 100 - Introductory AWS |

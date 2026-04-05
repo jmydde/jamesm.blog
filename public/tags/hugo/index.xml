@@ -18,48 +18,14 @@
       <link>https://jamesm.blog/general/shortcodes/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:01 +0100</pubDate>
       <guid>https://jamesm.blog/general/shortcodes/</guid>
-      <description>&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;echo &amp;quot;Hello World&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;code-block&#34;&gt;Code Block&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# some code
-echo &amp;#34;Hello World&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;code-block-with-highlighting&#34;&gt;Code Block with Highlighting&lt;/h3&gt;
-&lt;p&gt;not working ?
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Shell&#34; data-lang=&#34;Shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# some code&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-&lt;h3 id=&#34;figure&#34;&gt;Figure&lt;/h3&gt;
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg&#34;/&gt; &lt;figcaption&gt;
-            Google Logo
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&#34;github-gist&#34;&gt;GitHub Gist&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/sansmischevia/5148109&#34;&gt;https://gist.github.com/sansmischevia/5148109&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src=&#34;https://gist.github.com/sansmischevia/5148109.pibb&#34;&gt;&lt;/iframe&gt;
-&lt;h3 id=&#34;tweet&#34;&gt;Tweet&lt;/h3&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-
-&lt;h3 id=&#34;vimeo&#34;&gt;Vimeo&lt;/h3&gt;
-
-
-&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/w7Ft2ymGmfc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;instagram&#34;&gt;Instagram&lt;/h3&gt;
-&lt;p&gt;(requires an Access Token)&lt;/p&gt;</description>
+      <description>Developer reference guide for Hugo shortcodes and embedded content syntax.</description>
+    </item>
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://jamesm.blog/general/markdown/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/general/markdown/</guid>
+      <description>Developer reference guide for Markdown syntax and Hugo shortcodes used on this site.</description>
     </item>
   </channel>
 </rss>

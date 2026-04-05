@@ -2,6 +2,7 @@
 title: "TODO"
 date: 2023-05-29T07:26:16+01:00
 draft: true
+description: "Internal task list and work-in-progress items for site improvements and feature development."
 ---
 ## TODO
 - New sections ?
@@ -24,7 +25,7 @@ draft: true
   - Example: https://fireship.io/
 
 ## Complete
-- 'tweets' sub-foldder not showing on main page ?
+- 'tweets' sub-folder not showing on main page ?
 - Favicon
 - Hugo - fix local example site
 - Fix homepage recent posts, only showing 1 category

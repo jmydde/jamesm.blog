@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 May 2021 11:51:18 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2024 18:31:21 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Production Blogs</title>
+      <link>https://jamesm.blog/music-production/blogs/</link>
+      <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/blogs/</guid>
+      <description>Curated list of music production blogs covering DAWs, music theory, synthesis, and production techniques.</description>
+    </item>
+    <item>
+      <title>Music Production Courses</title>
+      <link>https://jamesm.blog/music-production/courses/</link>
+      <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/courses/</guid>
+      <description>Comprehensive list of music production courses from major platforms covering all popular DAWs and production techniques.</description>
+    </item>
+    <item>
+      <title>List of Personal Development Books</title>
+      <link>https://jamesm.blog/personal-development/books/</link>
+      <pubDate>Sun, 28 May 2023 09:02:39 +0100</pubDate>
+      <guid>https://jamesm.blog/personal-development/books/</guid>
+      <description>Recommended reading list of personal development and self-improvement books covering mental models, habits, and success.</description>
+    </item>
     <item>
       <title>Blockchain &amp; Web3 Courses</title>
       <link>https://jamesm.blog/blockchain/courses/</link>

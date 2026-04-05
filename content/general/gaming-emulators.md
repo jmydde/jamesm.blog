@@ -2,7 +2,8 @@
 title: "Apple finally allows game emulators in the App Store"
 date: 2024-04-20T08:00:01+01:00
 draft: false
-tags: ['computing', 'software', 'gaming', 'gaming emulators', 'games']
+tags: ['computing', 'software', 'gaming', 'gaming emulators', 'games', 'ios']
+description: "News and resources about Apple's decision to allow game emulators in the App Store, including Delta, Dolphin, and retro emulator apps."
 ---
 
 Finally gaming emulators are now permitted on Apple devices.  I've just downloaded the Delta app for iPhone and it's awesome, runs really smoothly

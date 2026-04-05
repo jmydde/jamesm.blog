@@ -3,6 +3,7 @@ title: "My Music Production Hardware & Software"
 date: 2025-12-26T21:29:00+00:00
 draft: false
 tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboards', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synths', 'toontrack', 'uhe', 'uvi', 'yamaha']
+description: "Comprehensive inventory of current and past music production hardware and software in my studio setup."
 ---
 
 ## My Music Production Hardware (Current)
@@ -11,7 +12,7 @@ tags: ['ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio
 - **Computers**
   - Laptops
     - Alienware M17 (Windows 11)
-    - Macbook Air M1 (macOS Sonama)
+    - Macbook Air M1 (macOS Sonoma)
 - **Computer Peripherals**
   - External Hard Disks
     - Western Digital Elements (5TB)

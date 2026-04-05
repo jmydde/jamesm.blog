@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Comedy on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/comedy/</link>
+    <description>Recent content in Comedy on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Apr 2024 18:13:01 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/comedy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classic TV Shows</title>
+      <link>https://jamesm.blog/general/classic-tv-shows/</link>
+      <pubDate>Fri, 26 Apr 2024 18:13:01 +0100</pubDate>
+      <guid>https://jamesm.blog/general/classic-tv-shows/</guid>
+      <description>Collection of classic British television shows and comedy programs including Tomorrow&amp;#39;s World, Fawlty Towers, Blackadder, and more.</description>
+    </item>
+  </channel>
+</rss>

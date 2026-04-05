@@ -2,7 +2,8 @@
 title: "Very very large numbers"
 date: 2024-04-21T22:07:01+01:00
 draft: false
-tags: ['numbers']
+tags: ['numbers', 'mathematics', 'science', 'youtube', 'education']
+description: "Collection of fascinating YouTube videos exploring extraordinarily large numbers, infinity, and mathematical concepts."
 ---
 
 A collection of really interesting videos about **very very large numbers**.

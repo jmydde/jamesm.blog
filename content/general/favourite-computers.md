@@ -3,9 +3,10 @@ title: "Favourite Computers, Consoles & Mobiles"
 date: 2024-07-29T07:50:01+01:00
 draft: false
 tags: ['computing', 'software', 'gaming', 'phones', 'pcs', 'computers', 'retro']
+description: "Personal history and collection of favourite computers, gaming consoles, and mobile devices from the 1970s to present day."
 ---
 
-A list of all my favourite computes, phones & games consoles I've mostly owned or used at school & college, in order of purchase / initial use ...
+A list of all my favourite computers, phones & games consoles I've mostly owned or used at school & college, in order of purchase / initial use ...
 
 ## Computers
 
@@ -18,19 +19,19 @@ The first program I wrote was an animated Christmas card as part of a  school co
 
 ### BBC Micro Model B (1981)
 I didn't own this personally at home but used it in the school computing club
-- https://en.wikipedia.org/wiki/BBC_Micro
+- [BBC Micro Wikipedia](https://en.wikipedia.org/wiki/BBC_Micro)
 
 ### Commodore VIC-20 (1981)
 I didn't own this personally at home but used it in the school computing club
-- https://en.wikipedia.org/wiki/VIC-20
+- [VIC-20 Wikipedia](https://en.wikipedia.org/wiki/VIC-20)
 
 ### Oric-1 (1982)
 I didn't own this personally at home but used it in the school computing club
-- https://en.wikipedia.org/wiki/Oric#Oric-1
+- [Oric-1 Wikipedia](https://en.wikipedia.org/wiki/Oric#Oric-1)
 
 ### Dragon 32 (1982)
 I didn't own this personally at home but used it in the school computing club
-- https://en.wikipedia.org/wiki/Dragon_32/64
+- [Dragon 32/64 Wikipedia](https://en.wikipedia.org/wiki/Dragon_32/64)
 
 ### Sinclair ZX Spectrum 48k (1982)
 The [Spectrum 48k](https://en.wikipedia.org/wiki/ZX_Spectrum) was my very first home computer and therefore was very special to me.  It had a unique rubber keyboard.  I used to spend hours on it writing BASIC programs & playing games.
@@ -65,7 +66,7 @@ I was just blown away by this computer, it was the first time I appreciated the 
 
 ### Apple IIe (1983)
 My dad had one of these at home, although I only really used it to play a few games
-- https://en.wikipedia.org/wiki/Apple_IIe
+- [Apple IIe Wikipedia](https://en.wikipedia.org/wiki/Apple_IIe)
 
 ### IBM Personal Computer (1983)
 We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_Computer/) at computing college to learn;
@@ -77,7 +78,7 @@ We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_C
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/1920px-IBM_PC-IMG_7271_%28transparent%29.png" title="IBM Personal Computer" height=250 width=300 >}}
 
 ### Data General Eclipse MV/15000 (1986)
-As part of my first job as a computer operator (1992) I was responsible for operating the [Data General](https://en.wikipedia.org/wiki/Data_General/) **MV/15000** mainframe computer & writing automation scripts.  This has been one of my favourite jobs over the years as I had a lot of responsbility and had to do a lot of problem solving late into the evening, I learnt a lot.   We didn't have the internet or up-to-date manuals back then :)
+As part of my first job as a computer operator (1992) I was responsible for operating the [Data General](https://en.wikipedia.org/wiki/Data_General/) **MV/15000** mainframe computer & writing automation scripts.  This has been one of my favourite jobs over the years as I had a lot of responsibility and had to do a lot of problem solving late into the evening, I learnt a lot.   We didn't have the internet or up-to-date manuals back then :)
 {{< figure src="images/Data-General-MV15000-1986.png" title="Data General MV/15000" >}}
 
 #### Peripherals

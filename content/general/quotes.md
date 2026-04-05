@@ -2,7 +2,8 @@
 title: "Quotes"
 date: 2020-01-01T12:54:16+01:00
 draft: true
-tags: ["quotes"]
+tags: ["quotes", "inspiration", "wisdom"]
+description: "Collection of favourite quotes from famous people and friends."
 ---
 
 # Famous

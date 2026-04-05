@@ -2,7 +2,8 @@
 title: "Favourite Computer Games"
 date: 2020-01-01T00:00:01+01:00
 draft: false
-tags: ['computing', 'software', 'console gaming', 'gaming']
+tags: ['computing', 'software', 'console gaming', 'gaming', 'retro']
+description: "Personal collection of favourite computer and console games across decades of gaming history."
 ---
 
 ## Apple IIe
@@ -24,8 +25,8 @@ tags: ['computing', 'software', 'console gaming', 'gaming']
 - Fruit Machine (TBC)
 - Hunchback
 - [Jet Set Willy](https://en.wikipedia.org/wiki/Jet_Set_Willy/)
-- [Jetpac](https://en.wikipedia.org/wiki/Jetpac/) - the first game I ever placed on a home computer
-- [Manic Miner](https://en.wikipedia.org/wiki/Manic_Miner/) - the second game I ever placed on a home computer
+- [Jetpac](https://en.wikipedia.org/wiki/Jetpac/) - the first game I ever played on a home computer
+- [Manic Miner](https://en.wikipedia.org/wiki/Manic_Miner/) - the second game I ever played on a home computer
 - Scramble
 - The Hobbit
 - ...

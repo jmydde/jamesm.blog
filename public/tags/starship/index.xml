@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Starship on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/starship/</link>
+    <description>Recent content in Starship on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Jun 2024 18:39:01 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/starship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpaceX Starfactory</title>
+      <link>https://jamesm.blog/space/spacex-starfactory/</link>
+      <pubDate>Sat, 22 Jun 2024 18:39:01 +0100</pubDate>
+      <guid>https://jamesm.blog/space/spacex-starfactory/</guid>
+      <description>Information about SpaceX&amp;#39;s Starfactory production facility for Starship rocket manufacturing and assembly.</description>
+    </item>
+  </channel>
+</rss>

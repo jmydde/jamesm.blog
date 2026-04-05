@@ -2,12 +2,13 @@
 title: "News: Arturia FX Collection 4"
 date: 2023-06-02T09:53:39+01:00
 draft: false
-tags: ['music production', 'arturia', 'plugins', 'fx']
+tags: ['music production', 'arturia', 'plugins', 'fx', 'news']
+description: "Announcement and overview of Arturia FX Collection 4 effects plugin suite with 30 professional effects."
 ---
 
 ## Overview
 
-[[Arturia]](https://www.arturia.com/) have just released [FX Collection 4](https://www.arturia.com/products/software-effects/fx-collection/overview/) which now includes **30** effects.  
+[Arturia](https://www.arturia.com/) have just released [FX Collection 4](https://www.arturia.com/products/software-effects/fx-collection/overview/) which now includes **30** effects.  
 
 There is currently an intro offer, you can get **40% off** until 20th June 2023
 - List price: £429

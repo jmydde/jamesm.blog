@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Dec 2023 13:30:39 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2024 22:07:01 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Very very large numbers</title>
+      <link>https://jamesm.blog/general/huge-numbers/</link>
+      <pubDate>Sun, 21 Apr 2024 22:07:01 +0100</pubDate>
+      <guid>https://jamesm.blog/general/huge-numbers/</guid>
+      <description>Collection of fascinating YouTube videos exploring extraordinarily large numbers, infinity, and mathematical concepts.</description>
+    </item>
+    <item>
+      <title>DevOps Explainers</title>
+      <link>https://jamesm.blog/devops/explainers/</link>
+      <pubDate>Sat, 16 Dec 2023 09:36:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/explainers/</guid>
+      <description>Educational explainer videos and articles covering DevOps concepts including APIs, databases, DNS, Git, and Linux fundamentals.</description>
+    </item>
     <item>
       <title>Blockchain &amp; Crypto Resources</title>
       <link>https://jamesm.blog/blockchain/links/</link>

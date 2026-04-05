@@ -2,7 +2,8 @@
 title: "Tracking Health Data"
 date: 2024-07-27T10:47:39+01:00
 draft: false
-tags: ["personal development", "health", "health data"]
+tags: ["personal development", "health", "health data", "wellness", "fitness"]
+description: "Guide to tracking personal health data including blood testing, fitness apps, smartwatches, and health monitoring tools."
 ---
 
 ## Blood Testing
@@ -41,7 +42,7 @@ tags: ["personal development", "health", "health data"]
 - [Zordai](https://apps.apple.com/us/app/zordai/id1635093895)
   - Syncs to Apple Health app
 
-## Health Suppliments
+## Health Supplements
 While it's best to obtain nutrients from food, supplements can be beneficial in certain cases.
 - [Magnesium](https://www.amazon.co.uk/Magnesium-Tablets-Supports-Vegetarian-Formula/dp/B06Y2HS8L8/) - an essential mineral that plays a crucial role in numerous bodily functions
   - Benefits

@@ -2,9 +2,11 @@
 title: "Music: My Favourite Artists, Bands, DJs, Composers, Concerts & Theatre"
 date: 2026-01-08T18:53:39+01:00
 draft: false
+tags: ['music', 'artists', 'bands', 'dj', 'composers', 'concerts', 'entertainment']
+description: "Personal collection of favourite music artists, bands, DJs, composers, concerts, and theatre experiences."
 ---
 
-# My Favourite Arists & Bands
+# My Favourite Artists & Bands
 - 90s Dance
   - Awesome 3
   - Cappella
@@ -33,7 +35,7 @@ draft: false
   - Deacon Blue
   - Dead Or Alive
   - [DJ Fresh](https://www.youtube.com/channel/UC0y8P5OjTKLTpnDt62WJzCA)
-  - Enimga
+  - Enigma
   - Enya
   - Erasure
   - Gloria Estefan
@@ -46,7 +48,7 @@ draft: false
   - Level 42
   - Lighthouse Family
   - Limahl
-  - Maria Carey
+  - Mariah Carey
   - Michael Bolton
   - Michael Jackson
   - [Paul Hardcastle](https://paulhardcastle.com/)

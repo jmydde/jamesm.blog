@@ -3,6 +3,7 @@ title: "Favourite TV & Movies"
 date: 2023-05-11T21:06:35+01:00
 draft: true
 tags: ["movies", "tv", "comedy", "documentaries", "magic", "directors", "actors"]
+description: "Personal collection of favourite television shows, films, comedians, directors, and actors."
 ---
 
 ## Television
@@ -34,7 +35,7 @@ tags: ["movies", "tv", "comedy", "documentaries", "magic", "directors", "actors"
 * Peter Cook
 * [Peter Sellers](https://www.imdb.com/name/nm0000634/?ref_=nmls_hd)
 * Richard Pryor
-* [Rick Mayall](https://www.imdb.com/name/nm0562201/?ref_=tt_cl_t_2)
+* [Rik Mayall](https://www.imdb.com/name/nm0562201/?ref_=tt_cl_t_2)
 * Sacha Baron Cohen
 * Steve Martin
 * Stuart Lee

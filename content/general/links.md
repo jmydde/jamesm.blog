@@ -2,7 +2,8 @@
 title: "General Links"
 date: 2023-05-10T14:53:39+01:00
 draft: false
-tags: ["links"]
+tags: ["links", "resources", "podcasts", "youtube", "technology"]
+description: "Curated collection of technology, podcast, and personal blog links covering tech, science, and cultural topics."
 ---
 
 ## Technology
@@ -16,4 +17,4 @@ tags: ["links"]
 
 ## Personal Blogs
 Nicely formatted blogs
-- https://oostens.me/ - personal page / CV / blog
+- [oostens.me](https://oostens.me/) - personal page / CV / blog
