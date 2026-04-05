@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jun 2023 07:54:16 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jun 2023 06:51:25 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of AI Summits &amp; Conferences</title>
+      <link>https://jamesm.blog/ai/conferences/</link>
+      <pubDate>Sat, 10 Jun 2023 06:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/conferences/</guid>
+      <description>A practical guide to the kinds of AI conferences worth following, how to choose between them, and a short archive of notable events.</description>
+    </item>
     <item>
       <title>AWS Summit London (2023) - Agenda</title>
       <link>https://jamesm.blog/devops/aws-summit-2023-agenda/</link>

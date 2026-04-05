@@ -221,20 +221,6 @@
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Chatbots &amp; Large Language Models (LLMs)</title>
-      <link>https://jamesm.blog/ai/chatbots-llms/</link>
-      <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/chatbots-llms/</guid>
-      <description>&lt;h2 id=&#34;amazon&#34;&gt;Amazon&lt;/h2&gt;
-&lt;h3 id=&#34;amazon-lex-by-amazon-web-services-aws&#34;&gt;Amazon Lex by Amazon Web Services (AWS)&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/lex/&#34;&gt;Amazon Lex&lt;/a&gt; is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;amazon-q-by-amazon-web-services-aws&#34;&gt;Amazon Q by Amazon Web Services (AWS)&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/q/&#34;&gt;Amazon Q&lt;/a&gt; is a secure AI chatbot designed for businesses.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>List of AI Courses &amp; Learning Resources</title>
       <link>https://jamesm.blog/ai/courses/</link>
       <pubDate>Mon, 18 Dec 2023 10:51:25 +0100</pubDate>
@@ -428,11 +414,7 @@
       <link>https://jamesm.blog/ai/chatgpt-app-ios/</link>
       <pubDate>Thu, 18 May 2023 19:05:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
-      <description>&lt;p&gt;OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/app/openai-chatgpt/id6448311069&#34;&gt;Download on the App Store&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS.&lt;/p&gt;</description>
+      <description>Why the ChatGPT iPhone app mattered, what changed when AI moved onto mobile, and why the app became more important than it first looked.</description>
     </item>
     <item>
       <title>Auto-GPT is now able to write it&#39;s own code</title>

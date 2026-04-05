@@ -468,14 +468,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/chatbots-llms/</link>
       <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/chatbots-llms/</guid>
-      <description>&lt;h2 id=&#34;amazon&#34;&gt;Amazon&lt;/h2&gt;
-&lt;h3 id=&#34;amazon-lex-by-amazon-web-services-aws&#34;&gt;Amazon Lex by Amazon Web Services (AWS)&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/lex/&#34;&gt;Amazon Lex&lt;/a&gt; is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;amazon-q-by-amazon-web-services-aws&#34;&gt;Amazon Q by Amazon Web Services (AWS)&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://aws.amazon.com/q/&#34;&gt;Amazon Q&lt;/a&gt; is a secure AI chatbot designed for businesses.&lt;/p&gt;</description>
+      <description>A practical explainer on the difference between chatbots and large language models, how modern model families fit together, and how to choose the right AI tool for a task.</description>
     </item>
     <item>
       <title>1X - Eve</title>
@@ -736,77 +729,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/conferences/</link>
       <pubDate>Sat, 10 Jun 2023 06:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/conferences/</guid>
-      <description>&lt;h2 id=&#34;amsterdam&#34;&gt;Amsterdam&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Event Name&lt;/th&gt;
-          &lt;th&gt;Location&lt;/th&gt;
-          &lt;th&gt;Date(s)&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://worldsummit.ai/&#34;&gt;World Summit AI&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;Taets Art &amp;amp; Event Park&lt;/td&gt;
-          &lt;td&gt;11th-12th October 2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;london&#34;&gt;London&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Event Name&lt;/th&gt;
-          &lt;th&gt;Location&lt;/th&gt;
-          &lt;th&gt;Date(s)&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.ai-expo.net/global/&#34;&gt;AI &amp;amp; Big Data Expo&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;Olympia&lt;/td&gt;
-          &lt;td&gt;30th November - 1st December 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.westminsterinsight.com/events/artificial-intelligence-and-machine-learning-conference/&#34;&gt;AI UK Conference&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;IStructE&lt;/td&gt;
-          &lt;td&gt;24th April 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://aiconference.london/&#34;&gt;AI World Congress&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;Kensington Conference &amp;amp; Event Centre&lt;/td&gt;
-          &lt;td&gt;28th-29th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://generativeaiconference.org/&#34;&gt;Gen AI Con&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;Tobacco Dock&lt;/td&gt;
-          &lt;td&gt;14th-15th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://london.theaisummit.com/&#34;&gt;The AI Summit London&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;Tobacco Dock&lt;/td&gt;
-          &lt;td&gt;14th-15th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;san-francisco&#34;&gt;San Francisco&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Event Name&lt;/th&gt;
-          &lt;th&gt;Location&lt;/th&gt;
-          &lt;th&gt;Date(s)&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;a href=&#34;https://www.databricks.com/dataaisummit/&#34;&gt;Data &amp;amp; AI Summit&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;Moscone Center&lt;/td&gt;
-          &lt;td&gt;26th–29th June 2023&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</description>
+      <description>A practical guide to the kinds of AI conferences worth following, how to choose between them, and a short archive of notable events.</description>
     </item>
     <item>
       <title>List of AI GitHub Projects</title>
@@ -910,11 +833,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/chatgpt-app-ios/</link>
       <pubDate>Thu, 18 May 2023 19:05:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
-      <description>&lt;p&gt;OpenAI have just released a new ChatGPT app which syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/app/openai-chatgpt/id6448311069&#34;&gt;Download on the App Store&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The ChatGPT app is free to use and syncs your history across devices. It also integrates Whisper, an open-source speech-recognition system, enabling voice input. ChatGPT Plus subscribers get exclusive access to GPT-4’s capabilities, early access to features and faster response times, all on iOS.&lt;/p&gt;</description>
+      <description>Why the ChatGPT iPhone app mattered, what changed when AI moved onto mobile, and why the app became more important than it first looked.</description>
     </item>
     <item>
       <title>Notion</title>

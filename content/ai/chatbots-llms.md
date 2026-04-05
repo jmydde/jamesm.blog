@@ -2,65 +2,176 @@
 title: "Chatbots & Large Language Models (LLMs)"
 date: 2024-05-17T17:06:25+01:00
 draft: false
-tags: ["ai", "llms", "gpt", "chatgpt", "gpt-4", "gpt-4o", "gpt-3.5", "palm", "palm2", "meta", "llama", "llama 3", "Claude", "Claude v2"]
+tags: ["ai", "llms", "chatbots", "gpt", "claude", "gemini", "llama"]
+description: "A practical explainer on the difference between chatbots and large language models, how modern model families fit together, and how to choose the right AI tool for a task."
 ---
 
-## Amazon
+Most people still talk about chatbots and large language models as if they are the same thing.
 
-### Amazon Lex by Amazon Web Services (AWS)
-[Amazon Lex](https://aws.amazon.com/lex/) is an AI service from Amazon Web Services (AWS) that allows you to build chatbots and voice assistants for your applications. 
-- these chatbots can understand and respond to users through text or speech, making them useful for various tasks like customer service, providing product information, or collecting data.
+They are related, but they are not identical.
 
-### Amazon Q by Amazon Web Services (AWS)
-[Amazon Q](https://aws.amazon.com/q/) is a secure AI chatbot designed for businesses. 
-- it utilizes generative AI technology to understand and respond to natural language, allowing for conversational interaction. Key strengths include its enterprise focus, ability to connect to various data sources, and customizability for specific business needs. 
-- it can be used for tasks like summarizing documents, generating creative text formats of content,  conducting research, and completing routine tasks.
+A chatbot is the product experience. A large language model is the reasoning engine underneath. Once you separate those two layers, the AI landscape becomes much easier to understand.
 
-## BLOOM by BigScience (Hugging Face)
-[BLOOM](https://bigscience.huggingface.co/blog/bloom) is known for its factual language understanding and ability to generate different creative text formats of text content. 
-- it's particularly strong at staying on topic and avoiding factual errors.
+## The Simple Distinction
 
-## Google
+A **large language model (LLM)** is a model trained to predict and generate language. In practice, modern LLMs can also handle code, structured data, reasoning tasks, and increasingly multimodal inputs such as images, audio, and video.
 
-### Claude v2 by Anthropic
-[Claude v2](https://www.anthropic.com/news/claude-2) is known for its factual language understanding and ability to generate different creative text formats of text content.
+A **chatbot** is the interface built on top of that model:
 
-### Google Gemini by Google AI
-[Google Gemini](https://gemini.google.com/app) This isn't just a single LLM, but a family of AI models including Gemini Nano, Pro, and Ultra. 
-- designed to operate on various devices, from smartphones to powerful servers, Gemini can handle tasks beyond just text. 
-- it can process and generate images, audio, video, code, and other kinds of information. 
-- Google AI Studio or Vertex AI provide access to Gemini Pro for developers, while Gemini Nano and Lite versions cater to different needs.
+- a chat window
+- memory or conversation history
+- file uploads
+- tool use
+- web search
+- voice mode
+- product-specific workflows
 
-### PaLM 2 (Pathway Language Model 2) by Google AI
-[PaLM 2](https://ai.google/discover/palm2/) is known for its factual language understanding and reasoning capabilities. 
-- it excels at answering open ended, challenging, or strange questions.
+The model is the engine.
+The chatbot is the vehicle.
 
-## Jurassic-1 Jumbo by AI21 Labs
-[Jurassic-1 Jumbo](https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1) is known for its ability to generate different creative text formats of text content, like poems, code, scripts, musical pieces, email, letters, etc. 
-- it's particularly strong at following instructions and completing requests thoughtfully.
+That distinction matters because two chatbots can feel very different while using similarly capable models, and one model can appear in multiple products with different strengths.
 
-## Llama 3 (Language Model for Multimodal Analysis) by Meta AI
-[Llama 3](https://llama.meta.com/llama3/) boasts improved performance over its predecessor, Llama 2. 
-- it's known for its ability to handle various tasks including writing different creative text formats, translating languages, and answering your questions in an informative way. 
-- it's also open-source, making the underlying code available for further development and research.
+## What LLMs Actually Do
 
-## Megatron-Turing NLG by NVIDIA
-[Megatron-Turing NLG](https://gpt3demo.com/apps/mt-nlg-by-microsoft-and-nvidia-ai) is known for its massive size and ability to handle complex reasoning tasks. 
-- it's particularly well-suited for scientific research and applications that require a deep understanding of the world.
+Modern LLMs are useful because they compress a huge amount of language and pattern knowledge into something you can query interactively.
 
-## OpenAI
+They are especially good at:
 
-### GPT-3.5 by OpenAI
-[GPT-3.5](https://platform.openai.com/docs/models/overview) is an earlier version of GPT-4, but is still a powerful LLM with capabilities for generating text, translating languages, writing different kinds of creative content, and answering your questions in an informative way.
+- summarizing information
+- rewriting text
+- explaining unfamiliar concepts
+- generating first drafts
+- translating between formats
+- writing and refactoring code
+- helping think through tradeoffs
 
-### GPT-4 (Generative Pre-trained Transformer 4) by OpenAI
-[GPT-4](https://platform.openai.com/docs/models/overview) is known for its ability to generate realistic and creative text formats, translate languages, write different kinds of creative content, and answer your questions in an informative way.
+They are much less reliable when you treat them like perfectly grounded systems with guaranteed facts. They can sound certain while being wrong, outdated, or overly smooth.
 
-### GPT-4o ("o" for "omni")
-[GPT-4o](https://openai.com/index/hello-gpt-4o/) is the new flagship model that can reason across audio, vision, and text in real time.
+That is why the best way to use an LLM is not as an oracle, but as a fast collaborator whose output still needs judgment and verification.
 
-## Poe (Platform for Open Exploration) by Quora
-[Poe](https://quorablog.quora.com/Poe-1) acts as a platform for users to interact with various LLMs like the ones listed above. Poe allows users to query these different models through a user-friendly interface and compare their responses. This makes it a valuable tool for exploring the capabilities of different LLMs and finding the best one for a specific task.
+## The Main Model Families
 
-## WuDao 2.0 by BAAI (Beijing Academy of Artificial Intelligence)
-[WuDao 2.0](https://gpt3demo.com/apps/wu-dao-20) is known for its ability to process and generate text in Mandarin Chinese. It excels at tasks like question answering, text summarization, and machine translation to and from Chinese.
+The market changes fast, but the categories are more stable than the individual releases.
+
+### Frontier general-purpose models
+
+These are the models most people think of first:
+
+- OpenAI GPT models
+- Anthropic Claude models
+- Google Gemini models
+
+They tend to be strongest at broad reasoning, writing, coding help, and multimodal tasks. They are usually the best choice when quality matters more than absolute cost.
+
+### Open-weight and self-hostable models
+
+This category includes model families such as Llama and other open or partially open ecosystems.
+
+These matter because they give developers more control over:
+
+- cost
+- privacy
+- deployment
+- customization
+- local or self-hosted workflows
+
+They are often a better fit for experimentation, internal tooling, high-volume workloads, or teams that want more control over where inference happens.
+
+### Product-specific assistants
+
+Some tools matter less because of the underlying model and more because of how they are packaged:
+
+- ChatGPT
+- Claude
+- Gemini
+- Perplexity
+- Notion AI
+- GitHub Copilot
+- Cursor
+
+These are not just models. They are workflows.
+
+Their value often comes from the surrounding product decisions:
+
+- how they search
+- how they use files
+- how well they fit into coding or writing
+- how they present sources
+- how much friction they remove
+
+## How I Think About Choosing the Right Tool
+
+A useful rule of thumb is to choose based on the job, not the brand.
+
+### Use a chatbot when you want:
+
+- quick exploration
+- brainstorming
+- summarization
+- lightweight Q&A
+- an accessible interface for everyday work
+
+### Use an API or model endpoint when you want:
+
+- automation
+- repeatable workflows
+- product integration
+- routing between models
+- control over prompting and infrastructure
+
+### Use a coding-native AI tool when you want:
+
+- repo context
+- multi-file edits
+- code review support
+- terminal or editor integration
+
+The mistake people make is trying to force one interface to solve every problem.
+
+## What Actually Matters in Practice
+
+When comparing LLMs or chatbot products, I think these questions matter more than leaderboard obsession:
+
+- Is it fast enough to stay in my workflow?
+- Does it have access to the right context?
+- Can I trust it to show uncertainty when it should?
+- Is it affordable for the kind of usage I actually have?
+- Does it fit the job: writing, coding, research, or planning?
+
+The best model on paper is not always the best tool in practice.
+
+Sometimes a cheaper, faster model with the right interface beats a more powerful model wrapped in a clumsy workflow.
+
+## The Bigger Shift
+
+The reason this category matters so much is that chatbots are turning LLMs into consumer products, while APIs are turning them into infrastructure.
+
+That means we are living through two changes at once:
+
+- AI as a product experience
+- AI as a programmable utility
+
+If you understand both layers, the market stops looking chaotic.
+
+You can see the pattern more clearly:
+
+- chatbots make intelligence easy to access
+- models make intelligence cheap to produce
+- workflows determine whether that intelligence is actually useful
+
+## My Take
+
+The important question is no longer "which chatbot is best?"
+
+The better question is:
+
+**Which combination of model, interface, and workflow is best for this specific task?**
+
+That is a much more useful way to think about AI than treating the whole space like a horse race.
+
+---
+
+**Related reading:**
+- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026) — How I think about combining different AI tools into one workflow
+- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence) — Why intelligence itself is starting to behave like infrastructure
+- [AI Explainers](/ai/explainers) — Foundational resources for understanding how the underlying systems work
