@@ -123,8 +123,8 @@
   "keywords": [
     "ai", "llms", "chatbots", "gpt", "claude", "gemini", "llama"
   ],
-  "articleBody": "Most people still talk about chatbots and large language models as if they are the same thing.\nThey are related, but they are not identical.\nA chatbot is the product experience. A large language model is the reasoning engine underneath. Once you separate those two layers, the AI landscape becomes much easier to understand.\nThe Simple Distinction A large language model (LLM) is a model trained to predict and generate language. In practice, modern LLMs can also handle code, structured data, reasoning tasks, and increasingly multimodal inputs such as images, audio, and video.\nA chatbot is the interface built on top of that model:\na chat window memory or conversation history file uploads tool use web search voice mode product-specific workflows The model is the engine. The chatbot is the vehicle.\nThat distinction matters because two chatbots can feel very different while using similarly capable models, and one model can appear in multiple products with different strengths.\nWhat LLMs Actually Do Modern LLMs are useful because they compress a huge amount of language and pattern knowledge into something you can query interactively.\nThey are especially good at:\nsummarizing information rewriting text explaining unfamiliar concepts generating first drafts translating between formats writing and refactoring code helping think through tradeoffs They are much less reliable when you treat them like perfectly grounded systems with guaranteed facts. They can sound certain while being wrong, outdated, or overly smooth.\nThat is why the best way to use an LLM is not as an oracle, but as a fast collaborator whose output still needs judgment and verification.\nThe Main Model Families The market changes fast, but the categories are more stable than the individual releases.\nFrontier general-purpose models These are the models most people think of first:\nOpenAI GPT models Anthropic Claude models Google Gemini models They tend to be strongest at broad reasoning, writing, coding help, and multimodal tasks. They are usually the best choice when quality matters more than absolute cost.\nOpen-weight and self-hostable models This category includes model families such as Llama and other open or partially open ecosystems.\nThese matter because they give developers more control over:\ncost privacy deployment customization local or self-hosted workflows They are often a better fit for experimentation, internal tooling, high-volume workloads, or teams that want more control over where inference happens.\nProduct-specific assistants Some tools matter less because of the underlying model and more because of how they are packaged:\nChatGPT Claude Gemini Perplexity Notion AI GitHub Copilot Cursor These are not just models. They are workflows.\nTheir value often comes from the surrounding product decisions:\nhow they search how they use files how well they fit into coding or writing how they present sources how much friction they remove How I Think About Choosing the Right Tool A useful rule of thumb is to choose based on the job, not the brand.\nUse a chatbot when you want: quick exploration brainstorming summarization lightweight Q\u0026A an accessible interface for everyday work Use an API or model endpoint when you want: automation repeatable workflows product integration routing between models control over prompting and infrastructure Use a coding-native AI tool when you want: repo context multi-file edits code review support terminal or editor integration The mistake people make is trying to force one interface to solve every problem.\nWhat Actually Matters in Practice When comparing LLMs or chatbot products, I think these questions matter more than leaderboard obsession:\nIs it fast enough to stay in my workflow? Does it have access to the right context? Can I trust it to show uncertainty when it should? Is it affordable for the kind of usage I actually have? Does it fit the job: writing, coding, research, or planning? The best model on paper is not always the best tool in practice.\nSometimes a cheaper, faster model with the right interface beats a more powerful model wrapped in a clumsy workflow.\nThe Bigger Shift The reason this category matters so much is that chatbots are turning LLMs into consumer products, while APIs are turning them into infrastructure.\nThat means we are living through two changes at once:\nAI as a product experience AI as a programmable utility If you understand both layers, the market stops looking chaotic.\nYou can see the pattern more clearly:\nchatbots make intelligence easy to access models make intelligence cheap to produce workflows determine whether that intelligence is actually useful My Take The important question is no longer “which chatbot is best?”\nThe better question is:\nWhich combination of model, interface, and workflow is best for this specific task?\nThat is a much more useful way to think about AI than treating the whole space like a horse race.\nRelated reading:\nWhat Actually Belongs in My AI Dev Stack in 2026 — How I think about combining different AI tools into one workflow We Are Learning to Buy Intelligence — Why intelligence itself is starting to behave like infrastructure AI Explainers — Foundational resources for understanding how the underlying systems work ",
-  "wordCount" : "835",
+  "articleBody": "Most people still talk about chatbots and large language models as if they are the same thing.\nThey are related, but they are not identical.\nA chatbot is the product experience. A large language model is the reasoning engine underneath. Once you separate those two layers, the AI landscape becomes much easier to understand.\nQuick Answer If you only want the short version:\nan LLM is the underlying model a chatbot is the product wrapped around that model the best choice depends on the task, the interface, and the context you need Chatbot vs LLM At A Glance Question LLM Chatbot What is it? The model itself The user-facing product Main job Generate and transform language and other modalities Make the model usable in a workflow Typical interface API, SDK, model endpoint Chat UI, app, assistant product Common extras None by default memory, files, search, tools, voice Best for automation, integration, custom systems everyday use, exploration, fast collaboration The Simple Distinction A large language model (LLM) is a model trained to predict and generate language. In practice, modern LLMs can also handle code, structured data, reasoning tasks, and increasingly multimodal inputs such as images, audio, and video.\nA chatbot is the interface built on top of that model:\na chat window memory or conversation history file uploads tool use web search voice mode product-specific workflows The model is the engine. The chatbot is the vehicle.\nThat distinction matters because two chatbots can feel very different while using similarly capable models, and one model can appear in multiple products with different strengths.\nWhat LLMs Actually Do Modern LLMs are useful because they compress a huge amount of language and pattern knowledge into something you can query interactively.\nThey are especially good at:\nsummarizing information rewriting text explaining unfamiliar concepts generating first drafts translating between formats writing and refactoring code helping think through tradeoffs They are much less reliable when you treat them like perfectly grounded systems with guaranteed facts. They can sound certain while being wrong, outdated, or overly smooth.\nThat is why the best way to use an LLM is not as an oracle, but as a fast collaborator whose output still needs judgment and verification.\nThe Main Model Families The market changes fast, but the categories are more stable than the individual releases.\nFrontier general-purpose models These are the models most people think of first:\nOpenAI GPT models Anthropic Claude models Google Gemini models They tend to be strongest at broad reasoning, writing, coding help, and multimodal tasks. They are usually the best choice when quality matters more than absolute cost.\nOpen-weight and self-hostable models This category includes model families such as Llama and other open or partially open ecosystems.\nThese matter because they give developers more control over:\ncost privacy deployment customization local or self-hosted workflows They are often a better fit for experimentation, internal tooling, high-volume workloads, or teams that want more control over where inference happens.\nProduct-specific assistants Some tools matter less because of the underlying model and more because of how they are packaged:\nChatGPT Claude Gemini Perplexity Notion AI GitHub Copilot Cursor These are not just models. They are workflows.\nTheir value often comes from the surrounding product decisions:\nhow they search how they use files how well they fit into coding or writing how they present sources how much friction they remove How I Think About Choosing the Right Tool A useful rule of thumb is to choose based on the job, not the brand.\nA simple decision rule if you want conversation and convenience, start with a chatbot if you want control and automation, start with an API or model endpoint if you want repo-aware coding help, start with a coding-native AI tool Use a chatbot when you want: quick exploration brainstorming summarization lightweight Q\u0026A an accessible interface for everyday work Use an API or model endpoint when you want: automation repeatable workflows product integration routing between models control over prompting and infrastructure Use a coding-native AI tool when you want: repo context multi-file edits code review support terminal or editor integration The mistake people make is trying to force one interface to solve every problem.\nWhat Actually Matters in Practice When comparing LLMs or chatbot products, I think these questions matter more than leaderboard obsession:\nIs it fast enough to stay in my workflow? Does it have access to the right context? Can I trust it to show uncertainty when it should? Is it affordable for the kind of usage I actually have? Does it fit the job: writing, coding, research, or planning? The best model on paper is not always the best tool in practice.\nSometimes a cheaper, faster model with the right interface beats a more powerful model wrapped in a clumsy workflow.\nThe Bigger Shift The reason this category matters so much is that chatbots are turning LLMs into consumer products, while APIs are turning them into infrastructure.\nThat means we are living through two changes at once:\nAI as a product experience AI as a programmable utility If you understand both layers, the market stops looking chaotic.\nYou can see the pattern more clearly:\nchatbots make intelligence easy to access models make intelligence cheap to produce workflows determine whether that intelligence is actually useful My Take The important question is no longer “which chatbot is best?”\nThe better question is:\nWhich combination of model, interface, and workflow is best for this specific task?\nThat is a much more useful way to think about AI than treating the whole space like a horse race.\nRelated reading:\nWhat Actually Belongs in My AI Dev Stack in 2026 — How I think about combining different AI tools into one workflow We Are Learning to Buy Intelligence — Why intelligence itself is starting to behave like infrastructure AI Explainers — Foundational resources for understanding how the underlying systems work ",
+  "wordCount" : "978",
   "inLanguage": "en",
   "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2024-05-17T17:06:25+01:00",
   "dateModified": "2024-05-17T17:06:25+01:00",
@@ -240,7 +240,7 @@
     <div class="post-description">
       A practical explainer on the difference between chatbots and large language models, how modern model families fit together, and how to choose the right AI tool for a task.
     </div>
-    <div class="post-meta"><span title='2024-05-17 17:06:25 +0100 BST'>May 17, 2024</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span>
+    <div class="post-meta"><span title='2024-05-17 17:06:25 +0100 BST'>May 17, 2024</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
   </header> <div class="toc">
@@ -250,6 +250,10 @@
         </summary>
 
         <div class="inner"><ul>
+                <li>
+                    <a href="#quick-answer" aria-label="Quick Answer">Quick Answer</a></li>
+                <li>
+                    <a href="#chatbot-vs-llm-at-a-glance" aria-label="Chatbot vs LLM At A Glance">Chatbot vs LLM At A Glance</a></li>
                 <li>
                     <a href="#the-simple-distinction" aria-label="The Simple Distinction">The Simple Distinction</a></li>
                 <li>
@@ -267,6 +271,8 @@
                 <li>
                     <a href="#how-i-think-about-choosing-the-right-tool" aria-label="How I Think About Choosing the Right Tool">How I Think About Choosing the Right Tool</a><ul>
                         
+                <li>
+                    <a href="#a-simple-decision-rule" aria-label="A simple decision rule">A simple decision rule</a></li>
                 <li>
                     <a href="#use-a-chatbot-when-you-want" aria-label="Use a chatbot when you want:">Use a chatbot when you want:</a></li>
                 <li>
@@ -289,6 +295,50 @@
   <div class="post-content"><p>Most people still talk about chatbots and large language models as if they are the same thing.</p>
 <p>They are related, but they are not identical.</p>
 <p>A chatbot is the product experience. A large language model is the reasoning engine underneath. Once you separate those two layers, the AI landscape becomes much easier to understand.</p>
+<h2 id="quick-answer">Quick Answer<a hidden class="anchor" aria-hidden="true" href="#quick-answer">#</a></h2>
+<p>If you only want the short version:</p>
+<ul>
+<li>an <strong>LLM</strong> is the underlying model</li>
+<li>a <strong>chatbot</strong> is the product wrapped around that model</li>
+<li>the best choice depends on the task, the interface, and the context you need</li>
+</ul>
+<h2 id="chatbot-vs-llm-at-a-glance">Chatbot vs LLM At A Glance<a hidden class="anchor" aria-hidden="true" href="#chatbot-vs-llm-at-a-glance">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Question</th>
+          <th style="text-align: left">LLM</th>
+          <th style="text-align: left">Chatbot</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">What is it?</td>
+          <td style="text-align: left">The model itself</td>
+          <td style="text-align: left">The user-facing product</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Main job</td>
+          <td style="text-align: left">Generate and transform language and other modalities</td>
+          <td style="text-align: left">Make the model usable in a workflow</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Typical interface</td>
+          <td style="text-align: left">API, SDK, model endpoint</td>
+          <td style="text-align: left">Chat UI, app, assistant product</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Common extras</td>
+          <td style="text-align: left">None by default</td>
+          <td style="text-align: left">memory, files, search, tools, voice</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Best for</td>
+          <td style="text-align: left">automation, integration, custom systems</td>
+          <td style="text-align: left">everyday use, exploration, fast collaboration</td>
+      </tr>
+  </tbody>
+</table>
 <h2 id="the-simple-distinction">The Simple Distinction<a hidden class="anchor" aria-hidden="true" href="#the-simple-distinction">#</a></h2>
 <p>A <strong>large language model (LLM)</strong> is a model trained to predict and generate language. In practice, modern LLMs can also handle code, structured data, reasoning tasks, and increasingly multimodal inputs such as images, audio, and video.</p>
 <p>A <strong>chatbot</strong> is the interface built on top of that model:</p>
@@ -361,6 +411,12 @@ The chatbot is the vehicle.</p>
 </ul>
 <h2 id="how-i-think-about-choosing-the-right-tool">How I Think About Choosing the Right Tool<a hidden class="anchor" aria-hidden="true" href="#how-i-think-about-choosing-the-right-tool">#</a></h2>
 <p>A useful rule of thumb is to choose based on the job, not the brand.</p>
+<h3 id="a-simple-decision-rule">A simple decision rule<a hidden class="anchor" aria-hidden="true" href="#a-simple-decision-rule">#</a></h3>
+<ul>
+<li>if you want <strong>conversation and convenience</strong>, start with a chatbot</li>
+<li>if you want <strong>control and automation</strong>, start with an API or model endpoint</li>
+<li>if you want <strong>repo-aware coding help</strong>, start with a coding-native AI tool</li>
+</ul>
 <h3 id="use-a-chatbot-when-you-want">Use a chatbot when you want:<a hidden class="anchor" aria-hidden="true" href="#use-a-chatbot-when-you-want">#</a></h3>
 <ul>
 <li>quick exploration</li>

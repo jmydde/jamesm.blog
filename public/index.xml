@@ -14,10 +14,10 @@
     <lastBuildDate>Mon, 06 Apr 2026 00:19:31 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Modern Data Engineering on Databricks: 2026 Update</title>
-      <link>https://jamesm.blog/data-engineering/databricks-innovations-2024/</link>
+      <title>Modern Data Engineering on Databricks (2026 Guide)</title>
+      <link>https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/</link>
       <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/databricks-innovations-2024/</guid>
+      <guid>https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/</guid>
       <description>A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows.</description>
     </item>
     <item>
@@ -2878,11 +2878,11 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;/p&gt;</description>
     </item>
     <item>
-      <title>List of AI Summits &amp; Conferences</title>
+      <title>AI Conferences Worth Following</title>
       <link>https://jamesm.blog/ai/conferences/</link>
       <pubDate>Sat, 10 Jun 2023 06:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/conferences/</guid>
-      <description>A practical guide to the kinds of AI conferences worth following, how to choose between them, and a short archive of notable events.</description>
+      <description>A practical guide to the AI conferences worth following, who each type of event is for, and how to choose the right one before spending time or money.</description>
     </item>
     <item>
       <title>AWS Summit London (2023) - Videos</title>
@@ -3140,11 +3140,11 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 &lt;p&gt;&lt;strong&gt;Premium Features (Speechify Studio)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OpenAI Releases ChatGPT App (iOS)</title>
+      <title>Why the ChatGPT iPhone App Mattered</title>
       <link>https://jamesm.blog/ai/chatgpt-app-ios/</link>
       <pubDate>Thu, 18 May 2023 19:05:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
-      <description>Why the ChatGPT iPhone app mattered, what changed when AI moved onto mobile, and why the app became more important than it first looked.</description>
+      <description>Why the ChatGPT iPhone app mattered, what changed when AI moved onto mobile, and why the launch was more important than a simple companion app release.</description>
     </item>
     <item>
       <title>AWS Summit London (2023) - Agenda now available</title>

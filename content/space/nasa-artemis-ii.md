@@ -6,17 +6,31 @@ tags: ['nasa', 'artemis', 'artemis ii', 'moon', 'orion', 'sls', 'space']
 description: "An overview of NASA Artemis II, the first crewed Artemis mission, including the crew, mission profile, current status, and why it matters."
 ---
 
-## About
+> Mission status note: this page includes a time-sensitive status snapshot from **April 6, 2026**. For live updates, use the official NASA links below and the site tracking page.
+
+## In Brief
 
 Artemis II is NASA's first crewed mission of the Artemis program and the first time astronauts have traveled toward the Moon since Apollo 17 in 1972.
 
 The mission uses NASA's Space Launch System (SLS) rocket and Orion spacecraft to send four astronauts on a roughly 10-day journey around the Moon and back to Earth.
+
+## Mission Snapshot
+
+| Item | Details |
+|:---|:---|
+| Mission type | Crewed lunar flyby |
+| Program | Artemis |
+| Vehicle | SLS rocket and Orion spacecraft |
+| Crew size | Four astronauts |
+| Main goal | Validate the systems and operations needed for later lunar missions |
 
 ## Current Status
 
 As of **April 6, 2026**, Artemis II is actively in flight.
 
 NASA launched the mission from Launch Complex 39B at Kennedy Space Center on **April 1, 2026**, and Orion is performing its lunar flyby on **April 6, 2026** before heading back toward Earth for Pacific splashdown.
+
+Because this section can age quickly, treat the exact timeline here as a dated snapshot rather than a permanent status box.
 
 ## The Artemis II Crew
 
@@ -43,6 +57,16 @@ Key objectives include:
 - collecting imagery and observations of the Moon during the flyby
 
 The mission also gives NASA valuable experience before Artemis III and later lunar surface missions.
+
+## Why People Care About This Mission
+
+Artemis II is where the Artemis program becomes a real crewed exploration system rather than a sequence of hardware tests.
+
+It is the bridge between:
+
+- uncrewed validation
+- future lunar landing missions
+- a broader international return to deep-space operations
 
 ## Why Artemis II Matters
 

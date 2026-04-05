@@ -1,10 +1,15 @@
 ---
-title: "Modern Data Engineering on Databricks: 2026 Update"
+title: "Modern Data Engineering on Databricks (2026 Guide)"
 date: 2026-04-06T00:19:31+01:00
 draft: false
 tags: ['databricks', 'data-engineering', 'delta-lake', 'unity-catalog', 'serverless', 'lakeflow']
 description: "A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows."
+slug: "modern-data-engineering-databricks-2026"
+aliases:
+  - /data-engineering/databricks-innovations-2024/
 ---
+
+This page replaces an older 2024 framing with a cleaner 2026 baseline.
 
 ## The 2026 Databricks Baseline
 
@@ -19,6 +24,19 @@ For most new data engineering work, the default stack is now clear:
 - **liquid clustering** instead of old-style partition design for many workloads
 
 That shift matters because the platform has moved beyond "bring your own clusters and tune everything manually." The modern Databricks approach is increasingly declarative, governed, and automated.
+
+## Executive Summary
+
+If you only want the practical default stack, it is this:
+
+- **Unity Catalog** for governance and access control
+- **managed tables** plus **predictive optimization** for lower operational overhead
+- **Lakeflow Declarative Pipelines** for modern declarative data products
+- **`AUTO CDC`** instead of older CDC patterns for new builds
+- **liquid clustering** instead of reflexive partition design
+- **serverless compute** wherever your workspace and workload support it
+
+If your platform still depends on hand-managed clusters, old DLT wording, heavy partition micromanagement, and manual maintenance jobs everywhere, you are probably optimising for an older Databricks era.
 
 ## What Defines the Platform Now
 
@@ -198,6 +216,15 @@ If I were starting or refreshing a Databricks data engineering stack today, thes
 6. **Use streaming tables and materialized views intentionally** based on latency versus correctness needs.
 7. **Lean into serverless compute** for jobs, notebooks, SQL, and managed refresh paths where your workspace supports it.
 8. **Let predictive optimization remove routine maintenance work** before adding manual optimization schedules.
+
+## Who This Guide Is For
+
+This guide is most useful if you are:
+
+- refreshing an older Databricks platform design
+- standardising a new lakehouse setup
+- updating internal engineering guidance
+- deciding which legacy patterns should stop being defaults
 
 ## Final Thought
 

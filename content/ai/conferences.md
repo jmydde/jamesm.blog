@@ -1,9 +1,9 @@
 ---
-title: "List of AI Summits & Conferences"
+title: "AI Conferences Worth Following"
 date: 2023-06-10T06:51:25+01:00
 draft: false
 tags: ["ai", "summits", "conferences", "events"]
-description: "A practical guide to the kinds of AI conferences worth following, how to choose between them, and a short archive of notable events."
+description: "A practical guide to the AI conferences worth following, who each type of event is for, and how to choose the right one before spending time or money."
 ---
 
 AI conferences age quickly.
@@ -11,6 +11,23 @@ AI conferences age quickly.
 A list of exact dates is useful for a few months and then quietly becomes wrong. So instead of pretending this is a perfectly current calendar, it is more useful to treat it as a guide to the conferences that tend to matter and the reasons you might care about them.
 
 If you are planning travel or buying a ticket, always verify the latest venue, dates, and agenda on the official event site.
+
+## Quick Take
+
+If you only need the short version:
+
+- go to **research-heavy events** for technical depth and long-term signal
+- go to **builder events** for workflows, tools, and implementation ideas
+- go to **enterprise events** for budgets, adoption stories, and vendor discovery
+
+## Fast Comparison
+
+| Conference | Best for | Typical audience | Why it stands out |
+|:---|:---|:---|:---|
+| **World Summit AI** | broad market signal | founders, operators, investors | strong cross-section of startups, vendors, and industry narratives |
+| **The AI Summit London** | enterprise adoption | commercial teams, consultants, leaders | practical commercial framing and strong vendor presence |
+| **AI & Big Data Expo** | applied enterprise tooling | platform buyers, architects, delivery teams | useful for seeing real implementation stories and platform ecosystems |
+| **Data + AI Summit** | data and AI platform strategy | data engineers, analytics teams, ML practitioners | especially relevant if your work sits around data platforms and production AI |
 
 ## What Makes an AI Conference Worth Attending
 
@@ -85,6 +102,16 @@ These are the kinds of names that have repeatedly mattered in the AI conversatio
 - **Data + AI Summit** for data, ML, analytics, and platform ecosystems
 
 Some years a conference is strong. Some years it feels like sponsored noise. That is normal. The point is not to assume every edition is equally good, but to know which brands are worth checking before each cycle.
+
+## Before You Buy A Ticket
+
+I would sanity-check five things before committing:
+
+- whether the audience is actually your audience
+- how much of the agenda is vendor-led
+- whether the hallway conversations matter more than the talks
+- whether the location makes sense for the people you want to meet
+- whether you are going for ideas, customers, or career opportunity
 
 ## How I’d Choose
 

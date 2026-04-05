@@ -12,6 +12,24 @@ They are related, but they are not identical.
 
 A chatbot is the product experience. A large language model is the reasoning engine underneath. Once you separate those two layers, the AI landscape becomes much easier to understand.
 
+## Quick Answer
+
+If you only want the short version:
+
+- an **LLM** is the underlying model
+- a **chatbot** is the product wrapped around that model
+- the best choice depends on the task, the interface, and the context you need
+
+## Chatbot vs LLM At A Glance
+
+| Question | LLM | Chatbot |
+|:---|:---|:---|
+| What is it? | The model itself | The user-facing product |
+| Main job | Generate and transform language and other modalities | Make the model usable in a workflow |
+| Typical interface | API, SDK, model endpoint | Chat UI, app, assistant product |
+| Common extras | None by default | memory, files, search, tools, voice |
+| Best for | automation, integration, custom systems | everyday use, exploration, fast collaboration |
+
 ## The Simple Distinction
 
 A **large language model (LLM)** is a model trained to predict and generate language. In practice, modern LLMs can also handle code, structured data, reasoning tasks, and increasingly multimodal inputs such as images, audio, and video.
@@ -102,6 +120,12 @@ Their value often comes from the surrounding product decisions:
 ## How I Think About Choosing the Right Tool
 
 A useful rule of thumb is to choose based on the job, not the brand.
+
+### A simple decision rule
+
+- if you want **conversation and convenience**, start with a chatbot
+- if you want **control and automation**, start with an API or model endpoint
+- if you want **repo-aware coding help**, start with a coding-native AI tool
 
 ### Use a chatbot when you want:
 
