@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 20:59:35 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 23:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps in the Age of AI Agents</title>
+      <link>https://jamesm.blog/devops/devops-in-the-age-of-ai-agents/</link>
+      <pubDate>Sun, 05 Apr 2026 23:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/devops-in-the-age-of-ai-agents/</guid>
+      <description>&lt;p&gt;For years, DevOps has been about breaking down silos and automating the software delivery lifecycle. We moved from manual deployments to Jenkins scripts, then to YAML-defined pipelines, and eventually to Infrastructure as Code (IaC).&lt;/p&gt;
+&lt;p&gt;But in 2026, the bottleneck is no longer the speed of the pipeline—it&amp;rsquo;s the speed of human decision-making within that pipeline. We are entering the era of &lt;strong&gt;Agentic DevOps&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;from-automation-to-autonomy&#34;&gt;From Automation to Autonomy&lt;/h2&gt;
+&lt;p&gt;Traditional DevOps automation follows a strict &amp;ldquo;if this, then that&amp;rdquo; logic. AI-driven DevOps uses reasoning models to handle the &amp;ldquo;I&amp;rsquo;m not sure, let me figure it out&amp;rdquo; scenarios that typically stall a release.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mac Homebrew packages</title>
       <link>https://jamesm.blog/devops/mac-brew-packages/</link>
