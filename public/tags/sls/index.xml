@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Moon on jamesm.blog</title>
-    <link>https://jamesm.blog/tags/moon/</link>
-    <description>Recent content in Moon on jamesm.blog</description>
+    <title>Sls on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/sls/</link>
+    <description>Recent content in Sls on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -12,20 +12,13 @@
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 06 Apr 2026 00:01:00 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/moon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesm.blog/tags/sls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NASA Artemis II</title>
       <link>https://jamesm.blog/space/nasa-artemis-ii/</link>
       <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/space/nasa-artemis-ii/</guid>
       <description>An overview of NASA Artemis II, the first crewed Artemis mission, including the crew, mission profile, current status, and why it matters.</description>
-    </item>
-    <item>
-      <title>NASA Artemis II Tracking Dashboards</title>
-      <link>https://jamesm.blog/space/artemis-ii-tracking/</link>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/space/artemis-ii-tracking/</guid>
-      <description>Resources for tracking NASA&amp;#39;s Artemis II lunar mission including official dashboards, tools, and mission information.</description>
     </item>
   </channel>
 </rss>
