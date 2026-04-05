@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gpu on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/gpu/</link>
+    <description>Recent content in Gpu on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Apr 2026 23:16:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)</title>
+      <link>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</link>
+      <pubDate>Sun, 05 Apr 2026 23:16:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</guid>
+      <description>&lt;h1 id=&#34;-gpu-servers-vs-ai-api-credits-the-real-cost-breakdown-2026&#34;&gt;🧠 GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)&lt;/h1&gt;
+&lt;p&gt;If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Should I rent a GPU and run models myself, or just pay for API credits?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At first glance, APIs feel expensive. GPUs feel powerful.
+But the real answer is more nuanced—and getting it wrong can cost you &lt;em&gt;a lot&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s break it down properly.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
