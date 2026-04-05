@@ -8,7 +8,8 @@ tags: ["ai", "geoffrey hinton", "interviews"]
 ![Geoffrey Hinton - AI Researcher and Pioneer](/images/Geoffrey-Hinton.jpg)
 
 ## About
-Geoffrey Hinton is a big name in artificial intelligence (AI), particularly when it comes to  artificial neural networks. He's a British-Canadian computer scientist and cognitive psychologist who's achieved some major milestones:
+
+Geoffrey Hinton is a foundational figure in artificial intelligence, particularly known for his work on artificial neural networks. A British-Canadian computer scientist and cognitive psychologist, his career is defined by several major milestones:
 - **Pioneering Deep Learning**: Hinton's research helped lay the groundwork for the resurgence of deep learning, a powerful technique that enables computers to learn from vast amounts of data. This has led to advancements in areas like image recognition, speech recognition, and natural language processing.
 - **Backpropagation Advocate**: He was instrumental in reviving the idea of backpropagation, a learning algorithm that allows neural networks to adjust and improve their performance.
 - **Academia and Industry**: Hinton spent time at both the University of Toronto and Google (until 2023), where he co-founded the Vector Institute in Toronto and worked on Google Brain, a deep learning research team.
@@ -28,8 +29,8 @@ Geoffrey Hinton is a big name in artificial intelligence (AI), particularly when
 ### [2025-01-30] ‘Godfather of AI’ predicts it will take over the world
 {{< youtube vxkBE23zDmQ >}}
 
-### [2024-06-15] Twitter
-https://x.com/elonmusk/status/1801976488251814048 
+### [2024-06-15] Discussion on AI safety and future risks
+[View on Twitter/X](https://x.com/elonmusk/status/1801976488251814048)
 
 ### [2024-06-07] Keynote interview with Geoffrey Hinton (remote) and Nicholas Thompson (in-person)
 {{< youtube dNjClDI6zT4 >}}
@@ -48,3 +49,5 @@ https://x.com/elonmusk/status/1801976488251814048
 
 ### [2023-03-25] "Godfather of artificial intelligence" talks impact and potential of AI
 {{< youtube qpoRO378qRY >}}
+
+_Note: This page will be expanded with additional Geoffrey Hinton interviews as they become available._
