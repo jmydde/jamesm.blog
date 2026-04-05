@@ -11,8 +11,64 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 00:09:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:19:31 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data</title>
+      <link>https://jamesm.blog/tags/data/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://jamesm.blog/tags/data-science/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databricks</title>
+      <link>https://jamesm.blog/tags/databricks/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/databricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delta-Lake</title>
+      <link>https://jamesm.blog/tags/delta-lake/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/delta-lake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lakeflow</title>
+      <link>https://jamesm.blog/tags/lakeflow/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/lakeflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Serverless</title>
+      <link>https://jamesm.blog/tags/serverless/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/serverless/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity-Catalog</title>
+      <link>https://jamesm.blog/tags/unity-catalog/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/unity-catalog/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Habits</title>
       <link>https://jamesm.blog/tags/habits/</link>
@@ -238,27 +294,6 @@
       <description></description>
     </item>
     <item>
-      <title>Data</title>
-      <link>https://jamesm.blog/tags/data/</link>
-      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Etl</title>
       <link>https://jamesm.blog/tags/etl/</link>
       <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
@@ -420,13 +455,6 @@
       <description></description>
     </item>
     <item>
-      <title>Databricks</title>
-      <link>https://jamesm.blog/tags/databricks/</link>
-      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/databricks/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Datacamp</title>
       <link>https://jamesm.blog/tags/datacamp/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
@@ -539,24 +567,10 @@
       <description></description>
     </item>
     <item>
-      <title>Unity-Catalog</title>
-      <link>https://jamesm.blog/tags/unity-catalog/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/unity-catalog/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cheatsheets</title>
       <link>https://jamesm.blog/tags/cheatsheets/</link>
       <pubDate>Sat, 04 Apr 2026 20:44:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cheatsheets/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Delta-Lake</title>
-      <link>https://jamesm.blog/tags/delta-lake/</link>
-      <pubDate>Sat, 04 Apr 2026 20:44:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/delta-lake/</guid>
       <description></description>
     </item>
     <item>
@@ -1663,13 +1677,6 @@
       <link>https://jamesm.blog/tags/unitree-g1/</link>
       <pubDate>Tue, 21 May 2024 20:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/unitree-g1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serverless</title>
-      <link>https://jamesm.blog/tags/serverless/</link>
-      <pubDate>Mon, 20 May 2024 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/serverless/</guid>
       <description></description>
     </item>
     <item>

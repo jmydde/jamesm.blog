@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 20:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:19:31 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Data Engineering on Databricks: 2026 Update</title>
+      <link>https://jamesm.blog/data-engineering/databricks-innovations-2024/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/databricks-innovations-2024/</guid>
+      <description>A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows.</description>
+    </item>
     <item>
       <title>Data Engineering Blogs</title>
       <link>https://jamesm.blog/data-engineering/blogs/</link>
@@ -37,13 +44,6 @@
 &lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;
 &lt;h3 id=&#34;professional-certificates-industry-backed&#34;&gt;Professional Certificates (Industry-Backed)&lt;/h3&gt;
 &lt;p&gt;Best for: Structured learning with recognized credentials&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Modern Data Engineering on Databricks: 2024 Update</title>
-      <link>https://jamesm.blog/data-engineering/databricks-innovations-2024/</link>
-      <pubDate>Mon, 20 May 2024 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/databricks-innovations-2024/</guid>
-      <description>A comprehensive guide to the latest Databricks features for data engineers, from Liquid Clustering to AI Functions.</description>
     </item>
   </channel>
 </rss>

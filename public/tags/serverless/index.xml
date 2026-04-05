@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 May 2024 10:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:19:31 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Modern Data Engineering on Databricks: 2024 Update</title>
+      <title>Modern Data Engineering on Databricks: 2026 Update</title>
       <link>https://jamesm.blog/data-engineering/databricks-innovations-2024/</link>
-      <pubDate>Mon, 20 May 2024 10:00:00 +0100</pubDate>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/databricks-innovations-2024/</guid>
-      <description>A comprehensive guide to the latest Databricks features for data engineers, from Liquid Clustering to AI Functions.</description>
+      <description>A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows.</description>
     </item>
   </channel>
 </rss>
