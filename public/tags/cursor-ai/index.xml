@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 21:06:14 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:05:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/cursor-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Actually Belongs in My AI Dev Stack in 2026</title>
+      <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
+      <description>&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;
+&lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
+&lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
+&lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
       <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>

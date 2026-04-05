@@ -20,5 +20,12 @@
       <guid>https://jamesm.blog/data-engineering/databricks-cheatsheet/</guid>
       <description>Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns</description>
     </item>
+    <item>
+      <title>Modern Data Engineering on Databricks: 2024 Update</title>
+      <link>https://jamesm.blog/data-engineering/databricks-innovations-2024/</link>
+      <pubDate>Mon, 20 May 2024 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/databricks-innovations-2024/</guid>
+      <description>A comprehensive guide to the latest Databricks features for data engineers, from Liquid Clustering to AI Functions.</description>
+    </item>
   </channel>
 </rss>

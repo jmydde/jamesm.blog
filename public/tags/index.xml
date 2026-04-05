@@ -11,13 +11,55 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 23:16:25 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:05:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Sun, 05 Apr 2026 23:16:25 +0100</pubDate>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude Code</title>
+      <link>https://jamesm.blog/tags/claude-code/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/claude-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cursor Ai</title>
+      <link>https://jamesm.blog/tags/cursor-ai/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/cursor-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer Tools</title>
+      <link>https://jamesm.blog/tags/developer-tools/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/developer-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://jamesm.blog/tags/development/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llms</title>
+      <link>https://jamesm.blog/tags/llms/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/llms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spec Kit</title>
+      <link>https://jamesm.blog/tags/spec-kit/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/spec-kit/</guid>
       <description></description>
     </item>
     <item>
@@ -70,24 +112,52 @@
       <description></description>
     </item>
     <item>
+      <title>Big Data</title>
+      <link>https://jamesm.blog/tags/big-data/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/big-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogs</title>
+      <link>https://jamesm.blog/tags/blogs/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/blogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>https://jamesm.blog/tags/data/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://jamesm.blog/tags/data-science/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Etl</title>
+      <link>https://jamesm.blog/tags/etl/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/etl/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>2026</title>
       <link>https://jamesm.blog/tags/2026/</link>
       <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
       <guid>https://jamesm.blog/tags/2026/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude Code</title>
-      <link>https://jamesm.blog/tags/claude-code/</link>
-      <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/claude-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cursor Ai</title>
-      <link>https://jamesm.blog/tags/cursor-ai/</link>
-      <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/cursor-ai/</guid>
       <description></description>
     </item>
     <item>
@@ -102,13 +172,6 @@
       <link>https://jamesm.blog/tags/sdd/</link>
       <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sdd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spec Kit</title>
-      <link>https://jamesm.blog/tags/spec-kit/</link>
-      <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/spec-kit/</guid>
       <description></description>
     </item>
     <item>
@@ -238,27 +301,6 @@
       <description></description>
     </item>
     <item>
-      <title>Data</title>
-      <link>https://jamesm.blog/tags/data/</link>
-      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Database</title>
       <link>https://jamesm.blog/tags/database/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
@@ -291,13 +333,6 @@
       <link>https://jamesm.blog/tags/deep-learning/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Etl</title>
-      <link>https://jamesm.blog/tags/etl/</link>
-      <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/etl/</guid>
       <description></description>
     </item>
     <item>
@@ -1246,13 +1281,6 @@
       <description></description>
     </item>
     <item>
-      <title>Development</title>
-      <link>https://jamesm.blog/tags/development/</link>
-      <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Top 10</title>
       <link>https://jamesm.blog/tags/top-10/</link>
       <pubDate>Tue, 02 Dec 2025 09:29:21 +0100</pubDate>
@@ -1603,6 +1631,13 @@
       <description></description>
     </item>
     <item>
+      <title>Serverless</title>
+      <link>https://jamesm.blog/tags/serverless/</link>
+      <pubDate>Mon, 20 May 2024 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/serverless/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Claude V2</title>
       <link>https://jamesm.blog/tags/claude-v2/</link>
       <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
@@ -1649,13 +1684,6 @@
       <link>https://jamesm.blog/tags/llama-3/</link>
       <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/llama-3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llms</title>
-      <link>https://jamesm.blog/tags/llms/</link>
-      <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/llms/</guid>
       <description></description>
     </item>
     <item>
@@ -2006,13 +2034,6 @@
       <link>https://jamesm.blog/tags/iphone/</link>
       <pubDate>Sun, 28 Jan 2024 09:15:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/iphone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogs</title>
-      <link>https://jamesm.blog/tags/blogs/</link>
-      <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/blogs/</guid>
       <description></description>
     </item>
     <item>

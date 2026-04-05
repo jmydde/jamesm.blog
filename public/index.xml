@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 23:16:25 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:05:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Actually Belongs in My AI Dev Stack in 2026</title>
+      <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
+      <description>&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;
+&lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
+&lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
+&lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)</title>
       <link>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</link>
@@ -36,6 +46,13 @@ But the real answer is more nuanced—and getting it wrong can cost you &lt;em&g
 &lt;p&gt;But in 2026, the bottleneck is no longer the speed of the pipeline—it&amp;rsquo;s the speed of human decision-making within that pipeline. We are entering the era of &lt;strong&gt;Agentic DevOps&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;from-automation-to-autonomy&#34;&gt;From Automation to Autonomy&lt;/h2&gt;
 &lt;p&gt;Traditional DevOps automation follows a strict &amp;ldquo;if this, then that&amp;rdquo; logic. AI-driven DevOps uses reasoning models to handle the &amp;ldquo;I&amp;rsquo;m not sure, let me figure it out&amp;rdquo; scenarios that typically stall a release.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Engineering Blogs</title>
+      <link>https://jamesm.blog/data-engineering/blogs/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/blogs/</guid>
+      <description>Curated list of Data Engineering blogs covering ETL/ELT, data warehousing, orchestration, and modern data stack best practices.</description>
     </item>
     <item>
       <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
@@ -1866,6 +1883,13 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <description>&lt;p&gt;&lt;img alt=&#34;Unitree G1 AI Humanoid Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k!&lt;/p&gt;
 &lt;p&gt;With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&amp;rsquo;s development highlights Unitree&amp;rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modern Data Engineering on Databricks: 2024 Update</title>
+      <link>https://jamesm.blog/data-engineering/databricks-innovations-2024/</link>
+      <pubDate>Mon, 20 May 2024 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/databricks-innovations-2024/</guid>
+      <description>A comprehensive guide to the latest Databricks features for data engineers, from Liquid Clustering to AI Functions.</description>
     </item>
     <item>
       <title>Chatbots &amp; Large Language Models (LLMs)</title>
