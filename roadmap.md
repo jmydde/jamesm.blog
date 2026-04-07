@@ -131,6 +131,15 @@
 - [ ] **WebAssembly as a Platform: What Developers Should Know in 2026**
 - [ ] **Local AI vs Cloud AI: The Tradeoff Landscape in 2026**
 
+## Mathematics & Science Education
+
+- [x] **Very Very Large Numbers** — curated YouTube collection on googol, Graham's Number, TREE(3), infinity hierarchies
+- [ ] **Fractals and Infinite Complexity** — Mandelbrot set, Julia sets, self-similarity, and fractals in nature
+- [ ] **Mathematical Paradoxes That Break Your Brain** — Banach-Tarski, liar's paradox, and logical impossibilities
+- [ ] **Prime Numbers: The Atoms of Mathematics** — distribution, unsolved problems, cryptographic importance
+- [ ] **Topology: The Geometry of Shapes Without Distance** — knots, Klein bottles, Möbius strips, genus
+- [ ] **The Beauty of Symmetry** — group theory, tessellations, symmetry in nature and physics
+
 ## Tech History & Lineage
 
 - [ ] **Digital Preservation: From Floppies to Bit Rot**
