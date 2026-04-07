@@ -56,7 +56,7 @@ Your music-production knowledge is deep — bridging hardware/software and spann
 
 ### /space
 - [ ] **What Comes After Artemis: The Road to a Lunar Gateway**
-- [ ] **SpaceX Starship vs NASA SLS: Two Visions for Deep Space**
+- [x] **SpaceX Starship vs NASA SLS: Two Visions for Deep Space**
 - [ ] **The Private Space Race: Who's Actually Winning?**
 
 ### /data-engineering
@@ -65,7 +65,7 @@ Your music-production knowledge is deep — bridging hardware/software and spann
 - [x] **Unity Catalog in Practice: Lessons From the Field**
 
 ### /personal-development
-- [ ] **The Engineer's Guide to Managing Creative Burnout**
+- [x] **The Engineer's Guide to Managing Creative Burnout**
 - [ ] **Building in Public: Why I Started This Blog and What I've Learned** — your `ideas/` post hints at this
 
 ---

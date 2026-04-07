@@ -14,7 +14,7 @@
     <lastBuildDate>Tue, 07 Apr 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai</title>
+      <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
       <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
@@ -35,7 +35,7 @@
       <description></description>
     </item>
     <item>
-      <title>Future of Work</title>
+      <title>Future-of-Work</title>
       <link>https://jamesm.blog/tags/future-of-work/</link>
       <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/future-of-work/</guid>
@@ -49,6 +49,90 @@
       <description></description>
     </item>
     <item>
+      <title>Burnout</title>
+      <link>https://jamesm.blog/tags/burnout/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/burnout/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communication</title>
+      <link>https://jamesm.blog/tags/communication/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engineering</title>
+      <link>https://jamesm.blog/tags/engineering/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>https://jamesm.blog/tags/learning/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Management</title>
+      <link>https://jamesm.blog/tags/management/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Development</title>
+      <link>https://jamesm.blog/tags/personal-development/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/personal-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://jamesm.blog/tags/productivity/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Improvement</title>
+      <link>https://jamesm.blog/tags/self-improvement/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/self-improvement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wellness</title>
+      <link>https://jamesm.blog/tags/wellness/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/wellness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work-Life-Balance</title>
+      <link>https://jamesm.blog/tags/work-life-balance/</link>
+      <pubDate>Tue, 07 Apr 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/work-life-balance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artemis</title>
+      <link>https://jamesm.blog/tags/artemis/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/artemis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Astronomy</title>
+      <link>https://jamesm.blog/tags/astronomy/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/astronomy/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Design</title>
       <link>https://jamesm.blog/tags/design/</link>
       <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
@@ -56,10 +140,17 @@
       <description></description>
     </item>
     <item>
-      <title>Engineering</title>
-      <link>https://jamesm.blog/tags/engineering/</link>
-      <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/engineering/</guid>
+      <title>Launch-Vehicles</title>
+      <link>https://jamesm.blog/tags/launch-vehicles/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/launch-vehicles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nasa</title>
+      <link>https://jamesm.blog/tags/nasa/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/nasa/</guid>
       <description></description>
     </item>
     <item>
@@ -77,10 +168,38 @@
       <description></description>
     </item>
     <item>
+      <title>Sls</title>
+      <link>https://jamesm.blog/tags/sls/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/sls/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Space</title>
+      <link>https://jamesm.blog/tags/space/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/space/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spacex</title>
+      <link>https://jamesm.blog/tags/spacex/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/spacex/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Specification</title>
       <link>https://jamesm.blog/tags/specification/</link>
       <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/specification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Starship</title>
+      <link>https://jamesm.blog/tags/starship/</link>
+      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/starship/</guid>
       <description></description>
     </item>
     <item>
@@ -98,52 +217,10 @@
       <description></description>
     </item>
     <item>
-      <title>Learning</title>
-      <link>https://jamesm.blog/tags/learning/</link>
-      <pubDate>Mon, 06 Apr 2026 16:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal Development</title>
-      <link>https://jamesm.blog/tags/personal-development/</link>
-      <pubDate>Mon, 06 Apr 2026 16:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/personal-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>https://jamesm.blog/tags/productivity/</link>
-      <pubDate>Mon, 06 Apr 2026 16:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/productivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Self-Improvement</title>
-      <link>https://jamesm.blog/tags/self-improvement/</link>
-      <pubDate>Mon, 06 Apr 2026 16:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/self-improvement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wellness</title>
-      <link>https://jamesm.blog/tags/wellness/</link>
-      <pubDate>Mon, 06 Apr 2026 16:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/wellness/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Career</title>
       <link>https://jamesm.blog/tags/career/</link>
       <pubDate>Mon, 06 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/career/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Management</title>
-      <link>https://jamesm.blog/tags/management/</link>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/management/</guid>
       <description></description>
     </item>
     <item>
@@ -182,17 +259,17 @@
       <description></description>
     </item>
     <item>
+      <title>Data Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Data Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
       <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -287,24 +364,10 @@
       <description></description>
     </item>
     <item>
-      <title>Artemis</title>
-      <link>https://jamesm.blog/tags/artemis/</link>
-      <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/artemis/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Artemis Ii</title>
       <link>https://jamesm.blog/tags/artemis-ii/</link>
       <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/artemis-ii/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Astronomy</title>
-      <link>https://jamesm.blog/tags/astronomy/</link>
-      <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/astronomy/</guid>
       <description></description>
     </item>
     <item>
@@ -315,38 +378,10 @@
       <description></description>
     </item>
     <item>
-      <title>Nasa</title>
-      <link>https://jamesm.blog/tags/nasa/</link>
-      <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/nasa/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Orion</title>
       <link>https://jamesm.blog/tags/orion/</link>
       <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/orion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sls</title>
-      <link>https://jamesm.blog/tags/sls/</link>
-      <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/sls/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Space</title>
-      <link>https://jamesm.blog/tags/space/</link>
-      <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/space/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spacex</title>
-      <link>https://jamesm.blog/tags/spacex/</link>
-      <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/spacex/</guid>
       <description></description>
     </item>
     <item>
@@ -1852,13 +1887,6 @@
       <link>https://jamesm.blog/tags/starfactory/</link>
       <pubDate>Sat, 22 Jun 2024 18:39:01 +0100</pubDate>
       <guid>https://jamesm.blog/tags/starfactory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Starship</title>
-      <link>https://jamesm.blog/tags/starship/</link>
-      <pubDate>Sat, 22 Jun 2024 18:39:01 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/starship/</guid>
       <description></description>
     </item>
     <item>
