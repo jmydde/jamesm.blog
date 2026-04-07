@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Synthesis on jamesm.blog</title>
-    <link>https://jamesm.blog/tags/synthesis/</link>
-    <description>Recent content in Synthesis on jamesm.blog</description>
+    <title>Vst on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/vst/</link>
+    <description>Recent content in Vst on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -12,20 +12,13 @@
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 07 Apr 2026 19:00:00 +0100</lastBuildDate>
-    <atom:link href="https://jamesm.blog/tags/synthesis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesm.blog/tags/vst/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Best Software Synths of 2026: From AI-Native to Analog Perfection</title>
       <link>https://jamesm.blog/music-production/best-software-synths-2026/</link>
       <pubDate>Tue, 07 Apr 2026 19:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/best-software-synths-2026/</guid>
       <description>A look at the most powerful and innovative software synthesizers dominating the music production landscape in 2026.</description>
-    </item>
-    <item>
-      <title>Music Production Blogs</title>
-      <link>https://jamesm.blog/music-production/blogs/</link>
-      <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/blogs/</guid>
-      <description>Curated list of music production blogs covering DAWs, music theory, synthesis, and production techniques.</description>
     </item>
   </channel>
 </rss>
