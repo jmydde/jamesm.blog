@@ -3,7 +3,6 @@
 ## New Category Suggestions
 
 ### 1. Retro Computing & Tech History
-Your `general/` posts about owning computers since 1977 (ZX Spectrum, C64, Amiga, etc.) deserve their own home. You have rich source material and clearly love this area.
 
 **Posts to write:**
 - [x] The Demoscene: Where Art Met Assembly
@@ -14,7 +13,6 @@ Your `general/` posts about owning computers since 1977 (ZX Spectrum, C64, Amiga
 ---
 
 ### 2. Philosophy of Technology / Future of Work
-You have 3 essay-length posts in `/ai` that form a coherent intellectual arc ("We Are Learning to Buy Intelligence", "Taste Is the New Scarcity", "DevOps in the Age of AI Agents"). These deserve their own category.
 
 **Posts to write:**
 - [x] The Automation Paradox: Why More AI Makes Human Judgment More Valuable
@@ -25,7 +23,6 @@ You have 3 essay-length posts in `/ai` that form a coherent intellectual arc ("W
 ---
 
 ### 3. Electronic Music History
-Your music-production knowledge is deep — bridging hardware/software and spanning decades. A history angle would complement your gear reviews.
 
 **Posts to write:**
 - [ ] How the Roland TB-303 Accidentally Invented Acid House
@@ -38,21 +35,21 @@ Your music-production knowledge is deep — bridging hardware/software and spann
 ## New Posts in Existing Categories
 
 ### /ai
-- [ ] **Claude Code vs Cursor: A 6-Month Comparison** — you use both, and your `my-ai-dev-stack` post suggests strong opinions
-- [ ] **When AI Makes Music: Suno vs Udio vs Human Creativity** — bridges your two biggest interests
+- [ ] **Claude Code vs Cursor: A 6-Month Comparison**
+- [ ] **When AI Makes Music: Suno vs Udio vs Human Creativity**
 - [ ] **The LLM Context Window Arms Race: Does It Actually Matter?**
 - [ ] **AI Agents That Actually Work: Patterns From Real Projects**
 
 ### /music-production
-- [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything** — you have the controller coverage, this is the missing theory post
-- [x] **Physical Modeling Synthesis: The Underrated Future of Sound Design** — you have a stub post, could be expanded
+- [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything**
+- [x] **Physical Modeling Synthesis: The Underrated Future of Sound Design**
 - [ ] **AI-Assisted Composition: What I've Actually Used and What Works**
-- [ ] **The Intuitive Producer's Toolkit: Gear That Gets Out of Your Way** — extends your "why I play intuitively" essay into a practical guide
+- [ ] **The Intuitive Producer's Toolkit: Gear That Gets Out of Your Way**
 
 ### /blockchain
-- [ ] **Polkadot's Agile Coretime: A Plain-English Explainer** — you track the ecosystem annually, this fills a gap
+- [ ] **Polkadot's Agile Coretime: A Plain-English Explainer**
 - [ ] **What Quantum Computing Actually Threatens in Crypto (And What It Doesn't)**
-- [ ] **The Case for Self-Custody in 2026** — ties hardware wallets + private keys + quantum risk
+- [ ] **The Case for Self-Custody in 2026**
 
 ### /space
 - [ ] **What Comes After Artemis: The Road to a Lunar Gateway**
@@ -66,14 +63,77 @@ Your music-production knowledge is deep — bridging hardware/software and spann
 
 ### /personal-development
 - [x] **The Engineer's Guide to Managing Creative Burnout**
-- [ ] **Building in Public: Why I Started This Blog and What I've Learned** — your `ideas/` post hints at this
+- [ ] **Building in Public: Why I Started This Blog and What I've Learned**
 
 ---
 
-## Highest-Potential Cross-Category Ideas
+## To Write Soon
 
-These sit at the intersection of your strongest interests and would be distinctive:
+- [ ] **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output
+- [ ] **"Taste, Intuition, and the Machine"** — intuitive music philosophy applied to AI/product thinking
+- ✅ **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"**
 
-1. **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output. Bridges music + AI philosophy.
-2. ✅ **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"** — retro computing meets AI, highly personal.
-3. **"Taste, Intuition, and the Machine"** — your intuitive music-making philosophy applied to AI/product decisions.
+---
+
+## AI + Creative Work
+
+- [ ] **Why Generative Music Still Feels Soulless (And How That's Changing)**
+- [ ] **Workflow: Using AI to Speed Up Demos Without Losing Authenticity**
+- [ ] **The Death of the Session Musician? AI Backing Tracks vs Hiring Real Players**
+- [ ] **Prompt Engineering for Music: How to Get the Output You Actually Want**
+
+## Open Source Sustainability & Tool Collapse
+
+- [ ] **When Commercial Tools Die: Lessons From the Native Instruments Collapse**
+- [ ] **The Economics of Creative Tools: Why Open-Source DAWs Struggle**
+- [ ] **Following the Money: Databricks vs Snowflake vs the Open-Source Alternative**
+- [ ] **Paid Software vs Subscription vs Open Source: The Creator's Dilemma**
+
+## Hardware Design Philosophy
+
+- [ ] **Why the Elektron Syntakt Works (When Similar Competitors Don't)**
+- [ ] **The Anatomy of Good Gear UX: What Hardware Gets Right That Software Misses**
+- [ ] **Knobs, Buttons, and Hands: The Case for Tactile Feedback**
+- [ ] **From the Juno to the Montage: Design Evolution at Yamaha**
+
+## Generative Art Beyond Music
+
+- [ ] **Generative Art Tools in 2026: Which Ones Preserve Creative Agency**
+- [ ] **Creative Coding as a Complement to Music Production** — Max/MSP, Pure Data, TouchDesigner
+- [ ] **The Uncanny Valley of AI Art: What Makes Some Outputs Feel Real**
+- [ ] **Algorithmic Composition vs AI Generation: Rules-Based vs Learning-Based Sound Design**
+
+## Hardware/Software Integration
+
+- [ ] **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
+- [ ] **Ableton + Max for Live in 2026: What's Actually New**
+- [ ] **Mobile Music Production: Current Controller + iPad Combinations**
+- [ ] **Hardware Sequencers in 2026: When Physical Beats Software**
+
+## Developer Tooling & Productivity
+
+- [ ] **The Tools Aren't the Problem: On Setup Paralysis in Engineering**
+- [ ] **AI Coding Assistants: Context Window vs Model Capability vs Integration**
+- [ ] **Building Debugging Skills Alongside AI Assistants**
+- [ ] **IDE Evolution in 2026: Beyond VS Code Dominance**
+
+## Space & Future Infrastructure
+
+- [ ] **Why Artemis Is Running Behind (And Why That Matters)**
+- [ ] **The Lunar Economy: Manufacturing, Mining, and Orbital Infrastructure**
+- [ ] **Blue Origin, Axiom, and Commercial Space: Competitive Landscape in 2026**
+- [ ] **Satellite Internet Wars: Technical and Market Implications**
+
+## Emerging Technologies
+
+- [ ] **Spatial Computing in 2026: Why Vision Pro Stumbled and What Comes Next**
+- [ ] **The Quantum Timeline: What Crypto Actually Needs to Fear (And When)**
+- [ ] **WebAssembly as a Platform: What Developers Should Know in 2026**
+- [ ] **Local AI vs Cloud AI: The Tradeoff Landscape in 2026**
+
+## Tech History & Lineage
+
+- [ ] **Digital Preservation: From Floppies to Bit Rot**
+- [ ] **What Earlier Platforms Got Right: Learning From Design History**
+- [ ] **Algorithmic Creativity: Demoscene Then, Generative Art Now**
+- [ ] **Community Architecture: BBS, Forums, Discord, and Social Evolution**
