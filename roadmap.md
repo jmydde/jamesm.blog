@@ -29,6 +29,8 @@
 - [ ] The Yamaha DX7: The Most Influential Synthesizer Ever Made
 - [ ] How MIDI Turned Bedroom Producers Into Pop Architects
 - [ ] The Roland vs Roland War: How Competition Shaped Modern Electronic Music
+- [ ] The Legacy of Analog Synthesizers in Modern Music
+- [ ] Sampler Culture: How Akai MPCs and SP-1200s Changed Hip-Hop
 
 ---
 
@@ -81,6 +83,8 @@
 - [ ] **Workflow: Using AI to Speed Up Demos Without Losing Authenticity**
 - [ ] **The Death of the Session Musician? AI Backing Tracks vs Hiring Real Players**
 - [ ] **Prompt Engineering for Music: How to Get the Output You Actually Want**
+- [ ] **Ethical AI in Creative Fields: Ownership, Attribution, and Deepfakes**
+- [ ] **From Text to Tune: The Evolution of AI Music Generation Beyond Suno/Udio**
 
 ## Open Source Sustainability & Tool Collapse
 
@@ -88,6 +92,7 @@
 - [ ] **The Economics of Creative Tools: Why Open-Source DAWs Struggle**
 - [ ] **Following the Money: Databricks vs Snowflake vs the Open-Source Alternative**
 - [ ] **Paid Software vs Subscription vs Open Source: The Creator's Dilemma**
+
 
 ## Hardware Design Philosophy
 
@@ -115,6 +120,8 @@
 - [ ] **The Tools Aren't the Problem: On Setup Paralysis in Engineering**
 - [ ] **AI Coding Assistants: Context Window vs Model Capability vs Integration**
 - [ ] **Building Debugging Skills Alongside AI Assistants**
+- [ ] **The Great Containerization Debate: Docker vs Podman vs Cloud Native**
+- [ ] **Beyond Git: Exploring Decentralized Version Control Systems**
 - [ ] **IDE Evolution in 2026: Beyond VS Code Dominance**
 
 ## Space & Future Infrastructure
@@ -136,6 +143,8 @@
 - [x] **Very Very Large Numbers** — curated YouTube collection on googol, Graham's Number, TREE(3), infinity hierarchies
 - [ ] **Fractals and Infinite Complexity** — Mandelbrot set, Julia sets, self-similarity, and fractals in nature
 - [ ] **Mathematical Paradoxes That Break Your Brain** — Banach-Tarski, liar's paradox, and logical impossibilities
+- [ ] **The Infinite Hotel Paradox and Other Mind-Bending Concepts**
+- [ ] **Game Theory Basics: Why Pigeons and Hawks Matter in Computing**
 - [ ] **Prime Numbers: The Atoms of Mathematics** — distribution, unsolved problems, cryptographic importance
 - [ ] **Topology: The Geometry of Shapes Without Distance** — knots, Klein bottles, Möbius strips, genus
 - [ ] **The Beauty of Symmetry** — group theory, tessellations, symmetry in nature and physics
@@ -143,6 +152,8 @@
 ## Tech History & Lineage
 
 - [ ] **Digital Preservation: From Floppies to Bit Rot**
+- [ ] **The Rise and Fall of Netscape Navigator: A Browser War Retrospective**
+- [ ] **Unix Philosophy: Its Enduring Influence on Modern Software Development**
 - [ ] **What Earlier Platforms Got Right: Learning From Design History**
 - [ ] **Algorithmic Creativity: Demoscene Then, Generative Art Now**
 - [ ] **Community Architecture: BBS, Forums, Discord, and Social Evolution**
