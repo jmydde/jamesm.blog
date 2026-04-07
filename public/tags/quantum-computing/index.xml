@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quantum Computing on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/quantum-computing/</link>
+    <description>Recent content in Quantum Computing on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Apr 2026 08:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/quantum-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantum Computing: A Threat to Bitcoin?</title>
+      <link>https://jamesm.blog/blockchain/quantum-threat/</link>
+      <pubDate>Tue, 07 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/blockchain/quantum-threat/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Quantum computing represents one of the most significant theoretical threats to modern cryptography. For Bitcoin, the primary concern lies in the potential for quantum computers to run &lt;strong&gt;Shor&amp;rsquo;s Algorithm&lt;/strong&gt;, which could efficiently solve the discrete logarithm problem that secures Bitcoin&amp;rsquo;s public-key cryptography (ECDSA).&lt;/p&gt;
+&lt;h3 id=&#34;the-vulnerabilities&#34;&gt;The Vulnerabilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ECDSA (Elliptic Curve Digital Signature Algorithm)&lt;/strong&gt; — Currently used to sign Bitcoin transactions. A sufficiently powerful quantum computer could derive a private key from its corresponding public key.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public Key Exposure&lt;/strong&gt; — While Bitcoin addresses are hashed (providing a layer of protection), the public key is revealed to the network when a transaction is initiated, creating a window of vulnerability before the block is mined.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mining (SHA-256)&lt;/strong&gt; — &lt;strong&gt;Grover&amp;rsquo;s Algorithm&lt;/strong&gt; could speed up mining, but this is a quadratic improvement rather than exponential, meaning it could likely be mitigated by increasing network difficulty or hash rates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mitigation-and-post-quantum-bitcoin&#34;&gt;Mitigation and Post-Quantum Bitcoin&lt;/h2&gt;
+&lt;p&gt;The Bitcoin community is well aware of these risks. Potential solutions include:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
