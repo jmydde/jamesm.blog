@@ -9,6 +9,9 @@
 - [x] Compunet: Britain's Forgotten Pre-Internet Community
 - [x] What the Amiga Got Right (That We're Still Copying)
 - [ ] How BASIC Shaped a Generation of Programmers
+- [ ] **The BBC Micro: Britain's Most Important Computer**
+- [ ] **When 8-bit Computers Taught An Entire Nation To Code**
+- [ ] **Copy Protection Wars: The Ingenious Schemes Of 1980s Software**
 
 ---
 
@@ -41,12 +44,18 @@
 - [ ] **When AI Makes Music: Suno vs Udio vs Human Creativity**
 - [ ] **The LLM Context Window Arms Race: Does It Actually Matter?**
 - [ ] **AI Agents That Actually Work: Patterns From Real Projects**
+- [ ] **Cline: The Next Generation AI Coding Assistant**
+- [ ] **Stop Debugging AI Code: How to Actually Verify Generated Output**
+- [ ] **Hybrid AI Stacks: Why No Single Model Does Everything Well**
 
 ### /music-production
 - [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything**
 - [x] **Physical Modeling Synthesis: The Underrated Future of Sound Design**
 - [ ] **AI-Assisted Composition: What I've Actually Used and What Works**
 - [ ] **The Intuitive Producer's Toolkit: Gear That Gets Out of Your Way**
+- [ ] **The Yamaha Montage M: 6 Months In Real World Usage**
+- [ ] **Why Every Producer Should Learn At Least One Proper Instrument**
+- [ ] **Arrangement Is 90% Of The Track: The Most Underrated Skill**
 
 ### /blockchain
 - [ ] **Polkadot's Agile Coretime: A Plain-English Explainer**
@@ -74,6 +83,8 @@
 - [ ] **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output
 - [ ] **"Taste, Intuition, and the Machine"** — intuitive music philosophy applied to AI/product thinking
 - ✅ **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"**
+- [ ] **"Good Judgement Cannot Be Automated"**
+- [ ] **"The Most Valuable Skill Is Knowing What Not To Build"**
 
 ---
 
