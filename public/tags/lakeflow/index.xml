@@ -20,5 +20,12 @@
       <guid>https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/</guid>
       <description>A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows.</description>
     </item>
+    <item>
+      <title>Lakeflow Declarative Pipelines: From DLT to Production</title>
+      <link>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</link>
+      <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</guid>
+      <description>From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026.</description>
+    </item>
   </channel>
 </rss>

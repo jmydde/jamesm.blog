@@ -1,6 +1,6 @@
 ---
 title: "What Does 'Expertise' Mean When AI Can Pass Any Exam?"
-date: 2026-04-07T10:30:00+01:00
+date: 2026-04-06T09:00:00+00:00
 draft: false
 tags: ["ai", "expertise", "learning", "skill", "education"]
 description: "If AI can pass the bar exam, the CPA exam, and every technical certification, what are we actually certifying? Expertise becomes something else entirely—and much harder to fake."

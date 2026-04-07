@@ -1,6 +1,6 @@
 ---
 title: "What the Amiga Got Right (That We're Still Copying)"
-date: 2026-04-07T00:00:00+01:00
+date: 2026-04-03T14:00:00+00:00
 draft: false
 tags: ['computing', 'retro', 'amiga', 'design', 'history', 'architecture']
 description: "Why the Amiga was 20 years ahead of its time, and why modern operating systems are still trying to copy its best ideas."

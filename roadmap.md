@@ -17,10 +17,10 @@ Your `general/` posts about owning computers since 1977 (ZX Spectrum, C64, Amiga
 You have 3 essay-length posts in `/ai` that form a coherent intellectual arc ("We Are Learning to Buy Intelligence", "Taste Is the New Scarcity", "DevOps in the Age of AI Agents"). These deserve their own category.
 
 **Posts to write:**
-- [ ] The Automation Paradox: Why More AI Makes Human Judgment More Valuable
-- [ ] Spec-Driven Development: When the Brief Becomes the Product
-- [ ] What Does "Expertise" Mean When AI Can Pass Any Exam?
-- [ ] The Architect vs The Builder: Redefining Engineering Roles in 2026
+- [x] The Automation Paradox: Why More AI Makes Human Judgment More Valuable
+- [x] Spec-Driven Development: When the Brief Becomes the Product
+- [x] What Does "Expertise" Mean When AI Can Pass Any Exam?
+- [x] The Architect vs The Builder: Redefining Engineering Roles in 2026
 
 ---
 
@@ -45,7 +45,7 @@ Your music-production knowledge is deep — bridging hardware/software and spann
 
 ### /music-production
 - [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything** — you have the controller coverage, this is the missing theory post
-- [ ] **Physical Modeling Synthesis: The Underrated Future of Sound Design** — you have a stub post, could be expanded
+- [x] **Physical Modeling Synthesis: The Underrated Future of Sound Design** — you have a stub post, could be expanded
 - [ ] **AI-Assisted Composition: What I've Actually Used and What Works**
 - [ ] **The Intuitive Producer's Toolkit: Gear That Gets Out of Your Way** — extends your "why I play intuitively" essay into a practical guide
 
@@ -60,9 +60,9 @@ Your music-production knowledge is deep — bridging hardware/software and spann
 - [ ] **The Private Space Race: Who's Actually Winning?**
 
 ### /data-engineering
-- [ ] **Databricks vs Snowflake in 2026: An Honest Comparison**
-- [ ] **Lakeflow Declarative Pipelines: From DLT to Production**
-- [ ] **Unity Catalog in Practice: Lessons From the Field**
+- [x] **Databricks vs Snowflake in 2026: An Honest Comparison**
+- [x] **Lakeflow Declarative Pipelines: From DLT to Production**
+- [x] **Unity Catalog in Practice: Lessons From the Field**
 
 ### /personal-development
 - [ ] **The Engineer's Guide to Managing Creative Burnout**
@@ -75,5 +75,5 @@ Your music-production knowledge is deep — bridging hardware/software and spann
 These sit at the intersection of your strongest interests and would be distinctive:
 
 1. **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output. Bridges music + AI philosophy.
-2. **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"** — retro computing meets AI, highly personal.
+2. ✅ **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"** — retro computing meets AI, highly personal.
 3. **"Taste, Intuition, and the Machine"** — your intuitive music-making philosophy applied to AI/product decisions.

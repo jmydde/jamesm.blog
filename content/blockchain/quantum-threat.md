@@ -1,6 +1,6 @@
 ---
 title: "Quantum Computing: A Threat to Bitcoin?"
-date: 2026-04-07T08:00:00+00:00
+date: 2026-04-04T14:00:00+00:00
 draft: false
 tags: ['bitcoin', 'blockchain', 'quantum computing', 'cryptography', 'security', 'web3']
 ---

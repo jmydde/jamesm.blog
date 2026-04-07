@@ -1,6 +1,6 @@
 ---
 title: "The Demoscene: Where Art Met Assembly"
-date: 2026-04-07T00:00:00+01:00
+date: 2026-04-02T14:00:00+00:00
 draft: false
 tags: ['computing', 'retro', 'assembly', 'demoscene', 'art', 'history']
 description: "The story of the demoscene: where programmers turned constraint into creativity, and assembly language into art."

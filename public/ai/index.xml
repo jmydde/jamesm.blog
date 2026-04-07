@@ -11,35 +11,35 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Apr 2026 10:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Automation Paradox: Why More AI Makes Human Judgment More Valuable</title>
+      <link>https://jamesm.blog/ai/automation-paradox/</link>
+      <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/automation-paradox/</guid>
+      <description>As AI handles routine cognitive work, the irreplaceable skill becomes not execution, but deciding what&amp;#39;s worth doing—and why human judgment becomes more valuable, not less.</description>
+    </item>
+    <item>
+      <title>Spec-Driven Development: When the Brief Becomes the Product</title>
+      <link>https://jamesm.blog/ai/spec-driven-development/</link>
+      <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/spec-driven-development/</guid>
+      <description>With AI handling implementation, the specification itself becomes the product. What you&amp;#39;re really selling is clarity of thought—and the ability to write briefs that don&amp;#39;t lie.</description>
+    </item>
     <item>
       <title>The Architect vs The Builder: Redefining Engineering Roles in 2026</title>
       <link>https://jamesm.blog/ai/architect-vs-builder/</link>
-      <pubDate>Tue, 07 Apr 2026 10:45:00 +0100</pubDate>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/architect-vs-builder/</guid>
       <description>The traditional engineering hierarchy of junior→senior→architect is collapsing. What emerges is a cleaner, harsher split: people who decide what to build, and people who turn that decision into code.</description>
     </item>
     <item>
       <title>What Does &#39;Expertise&#39; Mean When AI Can Pass Any Exam?</title>
       <link>https://jamesm.blog/ai/expertise-after-ai/</link>
-      <pubDate>Tue, 07 Apr 2026 10:30:00 +0100</pubDate>
+      <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/expertise-after-ai/</guid>
       <description>If AI can pass the bar exam, the CPA exam, and every technical certification, what are we actually certifying? Expertise becomes something else entirely—and much harder to fake.</description>
-    </item>
-    <item>
-      <title>Spec-Driven Development: When the Brief Becomes the Product</title>
-      <link>https://jamesm.blog/ai/spec-driven-development/</link>
-      <pubDate>Tue, 07 Apr 2026 10:15:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/spec-driven-development/</guid>
-      <description>With AI handling implementation, the specification itself becomes the product. What you&amp;#39;re really selling is clarity of thought—and the ability to write briefs that don&amp;#39;t lie.</description>
-    </item>
-    <item>
-      <title>The Automation Paradox: Why More AI Makes Human Judgment More Valuable</title>
-      <link>https://jamesm.blog/ai/automation-paradox/</link>
-      <pubDate>Tue, 07 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/automation-paradox/</guid>
-      <description>As AI handles routine cognitive work, the irreplaceable skill becomes not execution, but deciding what&amp;#39;s worth doing—and why human judgment becomes more valuable, not less.</description>
     </item>
     <item>
       <title>What Actually Belongs in My AI Dev Stack in 2026</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Retro-Computing on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/retro-computing/</link>
+    <description>Recent content in Retro-Computing on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 09:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/retro-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About</title>
+      <link>https://jamesm.blog/general/basic-to-claude-code-2026/</link>
+      <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/general/basic-to-claude-code-2026/</guid>
+      <description>A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&amp;#39;t changed about programming, and what fundamentally has.</description>
+    </item>
+  </channel>
+</rss>

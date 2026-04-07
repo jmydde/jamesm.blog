@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 20:47:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/lakehouse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unity Catalog in Practice: Lessons From the Field</title>
+      <link>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</link>
+      <pubDate>Sun, 05 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</guid>
+      <description>Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings.</description>
+    </item>
+    <item>
+      <title>Databricks vs Snowflake in 2026: An Honest Comparison</title>
+      <link>https://jamesm.blog/data-engineering/databricks-vs-snowflake-2026/</link>
+      <pubDate>Sun, 05 Apr 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/databricks-vs-snowflake-2026/</guid>
+      <description>Head-to-head comparison of Databricks and Snowflake in 2026 — when you should choose each, their actual strengths and weaknesses, and the direction each is moving.</description>
+    </item>
     <item>
       <title>Databricks Training &amp; Certification</title>
       <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>

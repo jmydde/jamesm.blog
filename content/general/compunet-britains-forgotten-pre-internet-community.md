@@ -1,6 +1,6 @@
 ---
 title: "Compunet: Britain's Forgotten Pre-Internet Community"
-date: 2026-04-07T00:00:00+01:00
+date: 2026-04-03T09:00:00+00:00
 draft: false
 tags: ['computing', 'retro', 'history', 'community', 'bbs', 'prestel', 'britain']
 description: "The story of Compunet: how a British BBS became one of the world's first online communities, years before the internet, and how it shaped British digital culture."

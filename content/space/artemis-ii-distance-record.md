@@ -1,6 +1,6 @@
 ---
 title: "Artemis II: Breaking the Distance Record"
-date: 2026-04-07T12:00:00+01:00
+date: 2026-04-04T18:00:00+00:00
 draft: false
 tags: ['nasa', 'artemis', 'artemis ii', 'moon', 'space', 'exploration']
 description: "The crew of Artemis II is journeying further from Earth than any humans in history, surpassing the long-standing record held by the Apollo 13 mission."

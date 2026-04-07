@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About | jamesm.blog</title>
+<meta name="keywords" content="programming, history, AI, retro-computing, philosophy, development">
+<meta name="description" content="A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&#39;t changed about programming, and what fundamentally has.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/general/basic-to-claude-code-2026/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/general/basic-to-claude-code-2026/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jamesm.blog/general/basic-to-claude-code-2026/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About">
+  <meta property="og:description" content="A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&#39;t changed about programming, and what fundamentally has.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="general">
+    <meta property="article:published_time" content="2026-04-02T09:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-02T09:00:00+00:00">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="History">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Retro-Computing">
+    <meta property="article:tag" content="Philosophy">
+    <meta property="article:tag" content="Development">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About">
+  <meta name="twitter:description" content="A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&#39;t changed about programming, and what fundamentally has.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "General",
+      "item": "https://jamesm.blog/general/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About",
+      "item": "https://jamesm.blog/general/basic-to-claude-code-2026/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About",
+  "name": "From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About",
+  "description": "A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn't changed about programming, and what fundamentally has.",
+  "keywords": [
+    "programming", "history", "AI", "retro-computing", "philosophy", "development"
+  ],
+  "articleBody": "I’m sitting at a desk with two machines.\nOne is a 1981 ZX Spectrum, 16KB of RAM, sitting on a desk in my garage. The other is a 2026 MacBook running Claude Code. Between them lie 45 years of computing history.\nAnd here’s the thing that struck me recently: I’m still doing the same thing.\nOn the Spectrum, I’m typing:\n10 PRINT \"HELLO WORLD\" 20 INPUT A$ 30 IF A$ = \"YES\" THEN GOTO 50 40 GOTO 10 50 PRINT \"YOU SAID YES\" On Claude Code, I’m typing:\n@roadmap.md write a blog post about why programming fundamentally hasn't changed Different syntaxes. Same act.\nWhat Programming Actually Is When you strip away the hype—the frameworks, the agile ceremonies, the Kubernetes, the LLMs—programming is still this:\nYou describe the problem. The computer solves it. You check if you were right.\nThe loop hasn’t changed since 1981.\nOn BASIC, the loop was:\nType code Type RUN See what breaks Fix it Repeat On Claude Code, the loop is:\nDescribe what you want Hit enter See what breaks Ask Claude to fix it Repeat The timing is different. The interface is different. The abstraction level is radically different.\nBut the core act—“I have a problem, I will articulate it, I will see if a solution works”—that’s unchanged.\nWhat Changed (And Why It Had To) 1981: You Own the Machine On the ZX Spectrum, the machine was simple enough that you could understand it completely.\nYou knew:\nHow the CPU worked (Z80 processor, you could learn the instruction set) What the memory looked like (16K was 16,384 bytes; you could almost memorize it) How graphics worked (each pixel was a bit) The order of operations (you understood execution flow completely) There was no magic. There was no gap between what you wrote and what the machine did.\nYou typed BASIC code. The BASIC interpreter converted it to Z80 machine code. The CPU executed it. You understood the path.\n2026: You Understand Almost Nothing I don’t understand my MacBook. I understand:\nIt has many cores (I don’t know the exact architecture) It has GPU acceleration (I couldn’t explain it) It runs an operating system (I don’t understand the kernel) My code compiles somehow (I know it involves LLVM, but I couldn’t debug the compiler) I’m using someone else’s AI model (I understand transformers in theory, but couldn’t reimplement one) The gap between “I typed code” and “the computer solved it” is now enormous. Incomprehensibly large.\nThis is not a problem. This is progress.\nThe Spectrum was simple because it had to be. 16K of RAM means you can’t have layers of abstraction. You have to build close to metal.\nModern systems have abstraction layers because they need them to be usable at all. A modern CPU has more transistors than the entire world had computers in 1981. You cannot understand it directly.\nSo we built abstractions on top.\nAssembly on top of circuits BASIC/FORTRAN on top of assembly C on top of that Python on top of that Frameworks (Rails, React, Django) on top of that AI agents on top of that Each layer makes the machine more useful and the programmer more removed from how it actually works.\nAnd that’s been the trajectory of all 45 years.\nWhat Stayed the Same The Core Problem-Solving Loop Every programming paradigm, every decade, every generation of hardware has followed the same pattern:\nI want to build something. I articulate what it should do. I create or request a solution. I run it and check. I iterate when it’s wrong. In 1981:\n10 PRINT \"ENTER YOUR NAME: \" 20 INPUT N$ 30 PRINT \"HELLO \" + N$ 40 GOTO 10 Run it. Name misaligned? Change line 30. Run again.\nIn 2026:\n\"Build a CLI that asks for a name and greets them\" Got it? Try it. Greeting misaligned? Describe the problem. Claude fixes it.\nSame loop. Different resolution.\nThe Debugging Mindset Debugging hasn’t changed either.\nIn 1981, if your BASIC program crashed:\nYou looked at the line number You read the code You thought: “What could go wrong here?” You added a PRINT statement to check You ran it again In 2026, if your Python program crashes:\nYou read the stack trace You think: “What could go wrong here?” You add a print statement or use a debugger to check You run it again Same process. The tools are better (real debuggers vs PRINT statements), but the method is identical.\nThe Feeling of Not Knowing In 1981, you’d write code and not know if it would work until you typed RUN.\nIn 2026, you’ll write a prompt, hit enter, and not know if Claude understood what you meant until you run it.\nThe uncertainty is the same. It’s just delayed or distributed differently.\nWhat Genuinely Changed Abstraction Inversion This is huge, and I don’t think people appreciate how strange it is.\nIn 1981, you were abstracting upward. You took raw machine language and created BASIC so you didn’t have to think about registers and memory addresses.\nFewer people needed to understand the machine. Most of us could just live in BASIC land.\nIn 2026, something inverted.\nYounger programmers understand less about the machine than I do. They’ve never seen assembly. They’ve never thought about CPU cache. They don’t know what a pointer is.\nBut they can do more. They can build web apps, mobile apps, ML systems—things I couldn’t touch at their age.\nThe abstraction is so high now that you don’t need to understand what’s below. You just need to understand the problem you’re solving.\nThe machine has become more opaque, and this made programming more accessible.\nThe Illusion of Choice In 1981, you had one language: BASIC. (Or machine code if you were brave.)\nYou had no decisions to make about syntax or paradigm. You just wrote code.\nIn 2026, you can choose from 500 languages, 50 frameworks, 100 deployment options, 20 package managers.\nBut this is an illusion of choice. For most problems, 5–10 combinations are actually reasonable. The rest are premature optimization or hype.\nInterestingly, Claude Code partially reverses this. You describe what you want. Claude picks the technology.\n“Build me a CLI app.” Claude picks Python, maybe Go.\n“Build me a web app.” Claude picks React, or Vue, or Next.js.\nYou don’t choose. Claude does. And most of the time, Claude’s choice is perfectly reasonable.\nWe’ve come full circle. 1981: no choices (only BASIC). 2026: too many choices (500 languages), so AI makes them for you.\nSpeed This is the one thing that’s genuinely different.\nIn 1981, you’d type a line of BASIC, hit RUN, and wait 10 seconds for your program to crash.\nIn 2026, you describe a feature to Claude, and 30 seconds later, you have working code.\nThe speed has compressed the feedback loop from “type RUN, wait, see” to “describe, paste, see.”\nThis matters. A faster feedback loop changes how you think. You can iterate faster. You can experiment more. You can afford to be wrong.\nBut it’s still the same loop. Just compressed.\nA Hypothesis: Programming Will Keep Feeling the Same I think in 2046, someone will write an article like this comparing 2026 Claude Code to whatever comes next—probably some mental interface or quantum system or something I can’t imagine.\nAnd they’ll say:\n“The machine is incomprehensibly more powerful, the interface is unrecognizable, the problems I solve are different in every way.\nBut underneath it all, I’m still doing the same thing: describing a problem and iterating when I’m wrong.”\nBecause that’s what programming is. It’s not about the syntax or the paradigm or the hardware. It’s about closing the gap between “what I want to exist” and “what actually exists.”\nAnd as long as we’re building software, that gap will exist, and we’ll be closing it.\nWhy This Matters Right Now We’re in a moment where it’s tempting to think everything is changing.\n“AI will replace programmers.” “The entire profession is disrupted.” “No one will write code anymore.”\nMaybe. But I doubt it.\nBecause what’s changing is the interface to programming, not programming itself. The abstraction level is rising. The feedback loop is compressing.\nThis has happened before.\nIn 1980, coders thought the move from assembly to BASIC would end programming. “Why would anyone write machine code if they can write BASIC?”\nBut assembly didn’t die. It evolved. Some people stopped writing it, and others started writing it in new contexts (embedded systems, performance-critical code).\nSame with BASIC to C, C to Python, Python to AI agents.\nThe interface rose. The profession didn’t die. It redistributed.\nI think the same thing will happen now.\nSome jobs will disappear (junior developers writing boilerplate). New jobs will appear (people who know how to prompt effectively, how to evaluate AI output, how to integrate AI into systems).\nThe core act of programming—iteration, testing, debugging, improving—remains.\nThe tool just changed.\nThe Real Constant What’s actually unchanged about programming across 45 years:\nTaste. Some code is elegant, some is hacky. That distinction predates and will postdate AI.\nJudgment. Whether a solution is right isn’t determined by the tool; it’s determined by whether it solves the problem. This required judgment in 1981 and 2026.\nIteration. You will be wrong. You will fix it. This is the constant.\nResponsibility. When your code breaks, you own it. This doesn’t change with AI.\nCuriosity. Good programmers want to understand. Some want to understand the hardware (assembly), some the algorithm (theory), some the system (architecture). That drive is constant.\nWhere I Land I started with BASIC on a ZX Spectrum because it was the only tool available. I didn’t choose the language or the environment. I learned what I could.\nI’m ending with Claude Code because it makes my iteration faster. I chose this tool.\nBut the core activity—figuring out how to make the computer do what I want—is identical.\nThe abstraction has risen. The feedback loop has compressed. The machine is incomprehensibly more powerful.\nBut I’m still typing, running, failing, fixing.\nThat’s what programming is.\nAnd I suspect that will remain true for the next 45 years, even though I won’t be here to see it.\nLast Updated: April 7, 2026\n",
+  "wordCount" : "1695",
+  "inLanguage": "en",
+  "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2026-04-02T09:00:00Z",
+  "dateModified": "2026-04-02T09:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/general/basic-to-claude-code-2026/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data">
+                    <span>Data</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/general/">General</a></div>
+    <h1 class="post-title entry-hint-parent">
+      From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About
+    </h1>
+    <div class="post-description">
+      A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&#39;t changed about programming, and what fundamentally has.
+    </div>
+    <div class="post-meta"><span title='2026-04-02 09:00:00 +0000 +0000'>April 2, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#what-programming-actually-is" aria-label="What Programming Actually Is">What Programming Actually Is</a></li>
+                <li>
+                    <a href="#what-changed-and-why-it-had-to" aria-label="What Changed (And Why It Had To)">What Changed (And Why It Had To)</a><ul>
+                        
+                <li>
+                    <a href="#1981-you-own-the-machine" aria-label="1981: You Own the Machine">1981: You Own the Machine</a></li>
+                <li>
+                    <a href="#2026-you-understand-almost-nothing" aria-label="2026: You Understand Almost Nothing">2026: You Understand Almost Nothing</a></li></ul>
+                </li>
+                <li>
+                    <a href="#what-stayed-the-same" aria-label="What Stayed the Same">What Stayed the Same</a><ul>
+                        
+                <li>
+                    <a href="#the-core-problem-solving-loop" aria-label="The Core Problem-Solving Loop">The Core Problem-Solving Loop</a></li>
+                <li>
+                    <a href="#the-debugging-mindset" aria-label="The Debugging Mindset">The Debugging Mindset</a></li>
+                <li>
+                    <a href="#the-feeling-of-not-knowing" aria-label="The Feeling of Not Knowing">The Feeling of Not Knowing</a></li></ul>
+                </li>
+                <li>
+                    <a href="#what-genuinely-changed" aria-label="What Genuinely Changed">What Genuinely Changed</a><ul>
+                        
+                <li>
+                    <a href="#abstraction-inversion" aria-label="Abstraction Inversion">Abstraction Inversion</a></li>
+                <li>
+                    <a href="#the-illusion-of-choice" aria-label="The Illusion of Choice">The Illusion of Choice</a></li>
+                <li>
+                    <a href="#speed" aria-label="Speed">Speed</a></li></ul>
+                </li>
+                <li>
+                    <a href="#a-hypothesis-programming-will-keep-feeling-the-same" aria-label="A Hypothesis: Programming Will Keep Feeling the Same">A Hypothesis: Programming Will Keep Feeling the Same</a></li>
+                <li>
+                    <a href="#why-this-matters-right-now" aria-label="Why This Matters Right Now">Why This Matters Right Now</a></li>
+                <li>
+                    <a href="#the-real-constant" aria-label="The Real Constant">The Real Constant</a></li>
+                <li>
+                    <a href="#where-i-land" aria-label="Where I Land">Where I Land</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>I&rsquo;m sitting at a desk with two machines.</p>
+<p>One is a 1981 ZX Spectrum, 16KB of RAM, sitting on a desk in my garage. The other is a 2026 MacBook running Claude Code. Between them lie 45 years of computing history.</p>
+<p>And here&rsquo;s the thing that struck me recently: <strong>I&rsquo;m still doing the same thing.</strong></p>
+<p>On the Spectrum, I&rsquo;m typing:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-basic" data-lang="basic"><span class="line"><span class="cl"><span class="nl">10</span><span class="w"> </span><span class="kr">PRINT</span><span class="w"> </span><span class="s2">&#34;HELLO WORLD&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nl">20</span><span class="w"> </span><span class="kr">INPUT</span><span class="w"> </span><span class="vg">A$</span>
+</span></span><span class="line"><span class="cl"><span class="nl">30</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="vg">A$</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&#34;YES&#34;</span><span class="w"> </span><span class="kr">THEN</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">50</span>
+</span></span><span class="line"><span class="cl"><span class="nl">40</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">10</span>
+</span></span><span class="line"><span class="cl"><span class="nl">50</span><span class="w"> </span><span class="kr">PRINT</span><span class="w"> </span><span class="s2">&#34;YOU SAID YES&#34;</span>
+</span></span></code></pre></div><p>On Claude Code, I&rsquo;m typing:</p>
+<pre tabindex="0"><code>@roadmap.md write a blog post about why programming fundamentally hasn&#39;t changed
+</code></pre><p>Different syntaxes. Same act.</p>
+<h2 id="what-programming-actually-is">What Programming Actually Is<a hidden class="anchor" aria-hidden="true" href="#what-programming-actually-is">#</a></h2>
+<p>When you strip away the hype—the frameworks, the agile ceremonies, the Kubernetes, the LLMs—programming is still this:</p>
+<p><strong>You describe the problem. The computer solves it. You check if you were right.</strong></p>
+<p>The loop hasn&rsquo;t changed since 1981.</p>
+<p>On BASIC, the loop was:</p>
+<ol>
+<li>Type code</li>
+<li>Type RUN</li>
+<li>See what breaks</li>
+<li>Fix it</li>
+<li>Repeat</li>
+</ol>
+<p>On Claude Code, the loop is:</p>
+<ol>
+<li>Describe what you want</li>
+<li>Hit enter</li>
+<li>See what breaks</li>
+<li>Ask Claude to fix it</li>
+<li>Repeat</li>
+</ol>
+<p>The <em>timing</em> is different. The <em>interface</em> is different. The <em>abstraction level</em> is radically different.</p>
+<p>But the core act—&ldquo;I have a problem, I will articulate it, I will see if a solution works&rdquo;—that&rsquo;s unchanged.</p>
+<h2 id="what-changed-and-why-it-had-to">What Changed (And Why It Had To)<a hidden class="anchor" aria-hidden="true" href="#what-changed-and-why-it-had-to">#</a></h2>
+<h3 id="1981-you-own-the-machine">1981: You Own the Machine<a hidden class="anchor" aria-hidden="true" href="#1981-you-own-the-machine">#</a></h3>
+<p>On the ZX Spectrum, the machine was simple enough that you could understand it completely.</p>
+<p>You knew:</p>
+<ul>
+<li>How the CPU worked (Z80 processor, you could learn the instruction set)</li>
+<li>What the memory looked like (16K was 16,384 bytes; you could almost memorize it)</li>
+<li>How graphics worked (each pixel was a bit)</li>
+<li>The order of operations (you understood execution flow completely)</li>
+</ul>
+<p>There was no magic. There was no gap between what you wrote and what the machine did.</p>
+<p>You typed BASIC code. The BASIC interpreter converted it to Z80 machine code. The CPU executed it. You understood the path.</p>
+<h3 id="2026-you-understand-almost-nothing">2026: You Understand Almost Nothing<a hidden class="anchor" aria-hidden="true" href="#2026-you-understand-almost-nothing">#</a></h3>
+<p>I don&rsquo;t understand my MacBook. I understand:</p>
+<ul>
+<li>It has many cores (I don&rsquo;t know the exact architecture)</li>
+<li>It has GPU acceleration (I couldn&rsquo;t explain it)</li>
+<li>It runs an operating system (I don&rsquo;t understand the kernel)</li>
+<li>My code compiles somehow (I know it involves LLVM, but I couldn&rsquo;t debug the compiler)</li>
+<li>I&rsquo;m using someone else&rsquo;s AI model (I understand transformers in theory, but couldn&rsquo;t reimplement one)</li>
+</ul>
+<p>The gap between &ldquo;I typed code&rdquo; and &ldquo;the computer solved it&rdquo; is now enormous. Incomprehensibly large.</p>
+<p><strong>This is not a problem. This is progress.</strong></p>
+<p>The Spectrum was simple because it <em>had to be</em>. 16K of RAM means you can&rsquo;t have layers of abstraction. You have to build close to metal.</p>
+<p>Modern systems have abstraction layers because they <em>need</em> them to be usable at all. A modern CPU has more transistors than the entire world had computers in 1981. You cannot understand it directly.</p>
+<p>So we built abstractions on top.</p>
+<ul>
+<li><strong>Assembly</strong> on top of circuits</li>
+<li><strong>BASIC/FORTRAN</strong> on top of assembly</li>
+<li><strong>C</strong> on top of that</li>
+<li><strong>Python</strong> on top of that</li>
+<li><strong>Frameworks</strong> (Rails, React, Django) on top of that</li>
+<li><strong>AI agents</strong> on top of that</li>
+</ul>
+<p>Each layer makes the machine more useful and the programmer more removed from how it actually works.</p>
+<p>And that&rsquo;s been the trajectory of all 45 years.</p>
+<h2 id="what-stayed-the-same">What Stayed the Same<a hidden class="anchor" aria-hidden="true" href="#what-stayed-the-same">#</a></h2>
+<h3 id="the-core-problem-solving-loop">The Core Problem-Solving Loop<a hidden class="anchor" aria-hidden="true" href="#the-core-problem-solving-loop">#</a></h3>
+<p>Every programming paradigm, every decade, every generation of hardware has followed the same pattern:</p>
+<ol>
+<li><strong>I want to build something.</strong></li>
+<li><strong>I articulate what it should do.</strong></li>
+<li><strong>I create or request a solution.</strong></li>
+<li><strong>I run it and check.</strong></li>
+<li><strong>I iterate when it&rsquo;s wrong.</strong></li>
+</ol>
+<p>In 1981:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-basic" data-lang="basic"><span class="line"><span class="cl"><span class="nl">10</span><span class="w"> </span><span class="kr">PRINT</span><span class="w"> </span><span class="s2">&#34;ENTER YOUR NAME: &#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nl">20</span><span class="w"> </span><span class="kr">INPUT</span><span class="w"> </span><span class="vg">N$</span>
+</span></span><span class="line"><span class="cl"><span class="nl">30</span><span class="w"> </span><span class="kr">PRINT</span><span class="w"> </span><span class="s2">&#34;HELLO &#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="vg">N$</span>
+</span></span><span class="line"><span class="cl"><span class="nl">40</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">10</span>
+</span></span></code></pre></div><p>Run it. Name misaligned? Change line 30. Run again.</p>
+<p>In 2026:</p>
+<pre tabindex="0"><code>&#34;Build a CLI that asks for a name and greets them&#34;
+</code></pre><p>Got it? Try it. Greeting misaligned? Describe the problem. Claude fixes it.</p>
+<p><strong>Same loop. Different resolution.</strong></p>
+<h3 id="the-debugging-mindset">The Debugging Mindset<a hidden class="anchor" aria-hidden="true" href="#the-debugging-mindset">#</a></h3>
+<p>Debugging hasn&rsquo;t changed either.</p>
+<p>In 1981, if your BASIC program crashed:</p>
+<ul>
+<li>You looked at the line number</li>
+<li>You read the code</li>
+<li>You thought: &ldquo;What could go wrong here?&rdquo;</li>
+<li>You added a PRINT statement to check</li>
+<li>You ran it again</li>
+</ul>
+<p>In 2026, if your Python program crashes:</p>
+<ul>
+<li>You read the stack trace</li>
+<li>You think: &ldquo;What could go wrong here?&rdquo;</li>
+<li>You add a print statement or use a debugger to check</li>
+<li>You run it again</li>
+</ul>
+<p>Same process. The tools are better (real debuggers vs PRINT statements), but the <em>method</em> is identical.</p>
+<h3 id="the-feeling-of-not-knowing">The Feeling of Not Knowing<a hidden class="anchor" aria-hidden="true" href="#the-feeling-of-not-knowing">#</a></h3>
+<p>In 1981, you&rsquo;d write code and not know if it would work until you typed RUN.</p>
+<p>In 2026, you&rsquo;ll write a prompt, hit enter, and not know if Claude understood what you meant until you run it.</p>
+<p>The uncertainty is the same. It&rsquo;s just delayed or distributed differently.</p>
+<h2 id="what-genuinely-changed">What Genuinely Changed<a hidden class="anchor" aria-hidden="true" href="#what-genuinely-changed">#</a></h2>
+<h3 id="abstraction-inversion">Abstraction Inversion<a hidden class="anchor" aria-hidden="true" href="#abstraction-inversion">#</a></h3>
+<p>This is huge, and I don&rsquo;t think people appreciate how strange it is.</p>
+<p>In 1981, you were abstracting <em>upward</em>. You took raw machine language and created BASIC so you didn&rsquo;t have to think about registers and memory addresses.</p>
+<p>Fewer people needed to understand the machine. Most of us could just live in BASIC land.</p>
+<p>In 2026, something inverted.</p>
+<p>Younger programmers understand <em>less</em> about the machine than I do. They&rsquo;ve never seen assembly. They&rsquo;ve never thought about CPU cache. They don&rsquo;t know what a pointer is.</p>
+<p>But they can do more. They can build web apps, mobile apps, ML systems—things I couldn&rsquo;t touch at their age.</p>
+<p>The abstraction is so high now that you don&rsquo;t need to understand what&rsquo;s below. You just need to understand the problem you&rsquo;re solving.</p>
+<p>The machine has become more opaque, and this made programming more accessible.</p>
+<h3 id="the-illusion-of-choice">The Illusion of Choice<a hidden class="anchor" aria-hidden="true" href="#the-illusion-of-choice">#</a></h3>
+<p>In 1981, you had one language: BASIC. (Or machine code if you were brave.)</p>
+<p>You had no decisions to make about syntax or paradigm. You just wrote code.</p>
+<p>In 2026, you can choose from 500 languages, 50 frameworks, 100 deployment options, 20 package managers.</p>
+<p>But this is an illusion of choice. For most problems, 5–10 combinations are actually reasonable. The rest are premature optimization or hype.</p>
+<p>Interestingly, Claude Code partially reverses this. You describe what you want. Claude picks the technology.</p>
+<p>&ldquo;Build me a CLI app.&rdquo; Claude picks Python, maybe Go.</p>
+<p>&ldquo;Build me a web app.&rdquo; Claude picks React, or Vue, or Next.js.</p>
+<p>You don&rsquo;t choose. Claude does. And most of the time, Claude&rsquo;s choice is perfectly reasonable.</p>
+<p>We&rsquo;ve come full circle. 1981: no choices (only BASIC). 2026: too many choices (500 languages), so AI makes them for you.</p>
+<h3 id="speed">Speed<a hidden class="anchor" aria-hidden="true" href="#speed">#</a></h3>
+<p>This is the one thing that&rsquo;s genuinely different.</p>
+<p>In 1981, you&rsquo;d type a line of BASIC, hit RUN, and wait 10 seconds for your program to crash.</p>
+<p>In 2026, you describe a feature to Claude, and 30 seconds later, you have working code.</p>
+<p>The speed has compressed the feedback loop from &ldquo;type RUN, wait, see&rdquo; to &ldquo;describe, paste, see.&rdquo;</p>
+<p>This matters. A faster feedback loop changes how you think. You can iterate faster. You can experiment more. You can afford to be wrong.</p>
+<p>But it&rsquo;s still the same loop. Just compressed.</p>
+<h2 id="a-hypothesis-programming-will-keep-feeling-the-same">A Hypothesis: Programming Will Keep Feeling the Same<a hidden class="anchor" aria-hidden="true" href="#a-hypothesis-programming-will-keep-feeling-the-same">#</a></h2>
+<p>I think in 2046, someone will write an article like this comparing 2026 Claude Code to whatever comes next—probably some mental interface or quantum system or something I can&rsquo;t imagine.</p>
+<p>And they&rsquo;ll say:</p>
+<p>&ldquo;The machine is incomprehensibly more powerful, the interface is unrecognizable, the problems I solve are different in every way.</p>
+<p>But underneath it all, I&rsquo;m still doing the same thing: describing a problem and iterating when I&rsquo;m wrong.&rdquo;</p>
+<p>Because that&rsquo;s what programming <em>is</em>. It&rsquo;s not about the syntax or the paradigm or the hardware. It&rsquo;s about closing the gap between &ldquo;what I want to exist&rdquo; and &ldquo;what actually exists.&rdquo;</p>
+<p>And as long as we&rsquo;re building software, that gap will exist, and we&rsquo;ll be closing it.</p>
+<h2 id="why-this-matters-right-now">Why This Matters Right Now<a hidden class="anchor" aria-hidden="true" href="#why-this-matters-right-now">#</a></h2>
+<p>We&rsquo;re in a moment where it&rsquo;s tempting to think everything is changing.</p>
+<p>&ldquo;AI will replace programmers.&rdquo;
+&ldquo;The entire profession is disrupted.&rdquo;
+&ldquo;No one will write code anymore.&rdquo;</p>
+<p>Maybe. But I doubt it.</p>
+<p>Because what&rsquo;s changing is the <em>interface</em> to programming, not programming itself. The abstraction level is rising. The feedback loop is compressing.</p>
+<p>This has happened before.</p>
+<p>In 1980, coders thought the move from assembly to BASIC would end programming. &ldquo;Why would anyone write machine code if they can write BASIC?&rdquo;</p>
+<p>But assembly didn&rsquo;t die. It evolved. Some people stopped writing it, and others started writing it in new contexts (embedded systems, performance-critical code).</p>
+<p>Same with BASIC to C, C to Python, Python to AI agents.</p>
+<p>The interface rose. The profession didn&rsquo;t die. It redistributed.</p>
+<p><strong>I think the same thing will happen now.</strong></p>
+<p>Some jobs will disappear (junior developers writing boilerplate). New jobs will appear (people who know how to prompt effectively, how to evaluate AI output, how to integrate AI into systems).</p>
+<p>The core act of programming—iteration, testing, debugging, improving—remains.</p>
+<p>The tool just changed.</p>
+<h2 id="the-real-constant">The Real Constant<a hidden class="anchor" aria-hidden="true" href="#the-real-constant">#</a></h2>
+<p>What&rsquo;s actually unchanged about programming across 45 years:</p>
+<ol>
+<li>
+<p><strong>Taste.</strong> Some code is elegant, some is hacky. That distinction predates and will postdate AI.</p>
+</li>
+<li>
+<p><strong>Judgment.</strong> Whether a solution is right isn&rsquo;t determined by the tool; it&rsquo;s determined by whether it solves the problem. This required judgment in 1981 and 2026.</p>
+</li>
+<li>
+<p><strong>Iteration.</strong> You will be wrong. You will fix it. This is the constant.</p>
+</li>
+<li>
+<p><strong>Responsibility.</strong> When your code breaks, you own it. This doesn&rsquo;t change with AI.</p>
+</li>
+<li>
+<p><strong>Curiosity.</strong> Good programmers want to understand. Some want to understand the hardware (assembly), some the algorithm (theory), some the system (architecture). That drive is constant.</p>
+</li>
+</ol>
+<h2 id="where-i-land">Where I Land<a hidden class="anchor" aria-hidden="true" href="#where-i-land">#</a></h2>
+<p>I started with BASIC on a ZX Spectrum because it was the only tool available. I didn&rsquo;t choose the language or the environment. I learned what I could.</p>
+<p>I&rsquo;m ending with Claude Code because it makes my iteration faster. I chose this tool.</p>
+<p>But the core activity—figuring out how to make the computer do what I want—is identical.</p>
+<p>The abstraction has risen. The feedback loop has compressed. The machine is incomprehensibly more powerful.</p>
+<p>But I&rsquo;m still typing, running, failing, fixing.</p>
+<p>That&rsquo;s what programming is.</p>
+<p>And I suspect that will remain true for the next 45 years, even though I won&rsquo;t be here to see it.</p>
+<hr>
+<p><em>Last Updated: April 7, 2026</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/programming/">Programming</a></li>
+      <li><a href="https://jamesm.blog/tags/history/">History</a></li>
+      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/retro-computing/">Retro-Computing</a></li>
+      <li><a href="https://jamesm.blog/tags/philosophy/">Philosophy</a></li>
+      <li><a href="https://jamesm.blog/tags/development/">Development</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/general/the-demoscene-where-art-met-assembly/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>The Demoscene: Where Art Met Assembly</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/personal-development/the-universe-has-a-plan-for-you/">
+    <span class="title">Next »</span>
+    <br>
+    <span>The Universe Has a Plan for You</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About on x"
+            href="https://x.com/intent/tweet/?text=From%20BASIC%20in%201981%20to%20Claude%20Code%20in%202026%3a%20What%20Programming%20Has%20Always%20Been%20About&amp;url=https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f&amp;hashtags=programming%2chistory%2cAI%2cretro-computing%2cphilosophy%2cdevelopment">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f&amp;title=From%20BASIC%20in%201981%20to%20Claude%20Code%20in%202026%3a%20What%20Programming%20Has%20Always%20Been%20About&amp;summary=From%20BASIC%20in%201981%20to%20Claude%20Code%20in%202026%3a%20What%20Programming%20Has%20Always%20Been%20About&amp;source=https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f&title=From%20BASIC%20in%201981%20to%20Claude%20Code%20in%202026%3a%20What%20Programming%20Has%20Always%20Been%20About">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About on whatsapp"
+            href="https://api.whatsapp.com/send?text=From%20BASIC%20in%201981%20to%20Claude%20Code%20in%202026%3a%20What%20Programming%20Has%20Always%20Been%20About%20-%20https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About on telegram"
+            href="https://telegram.me/share/url?text=From%20BASIC%20in%201981%20to%20Claude%20Code%20in%202026%3a%20What%20Programming%20Has%20Always%20Been%20About&amp;url=https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=From%20BASIC%20in%201981%20to%20Claude%20Code%20in%202026%3a%20What%20Programming%20Has%20Always%20Been%20About&u=https%3a%2f%2fjamesm.blog%2fgeneral%2fbasic-to-claude-code-2026%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
