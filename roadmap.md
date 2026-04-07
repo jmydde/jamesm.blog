@@ -41,6 +41,9 @@
 
 ### /ai
 - [ ] **Claude Code vs Cursor: A 6-Month Comparison**
+- [ ] **The Rise of Small Language Models: Why Size Isn't Everything**
+- [ ] **AI Hallucinations: Understanding and Mitigating False Outputs**
+- [ ] **The Ethics of AI Training Data: Copyright, Consent, and Compensation**
 - [ ] **When AI Makes Music: Suno vs Udio vs Human Creativity**
 - [ ] **The LLM Context Window Arms Race: Does It Actually Matter?**
 - [ ] **AI Agents That Actually Work: Patterns From Real Projects**
@@ -50,6 +53,9 @@
 
 ### /music-production
 - [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything**
+- [ ] **The Evolution of DAWs: From Pro Tools to Modern Cloud-Based Workflows**
+- [ ] **Sound Design for Film and Games: Beyond Traditional Music Production**
+- [ ] **The Psychology of Mixing: How Our Brains Perceive Sound**
 - [x] **Physical Modeling Synthesis: The Underrated Future of Sound Design**
 - [ ] **AI-Assisted Composition: What I've Actually Used and What Works**
 - [ ] **The Intuitive Producer's Toolkit: Gear That Gets Out of Your Way**
@@ -59,21 +65,34 @@
 
 ### /blockchain
 - [ ] **Polkadot's Agile Coretime: A Plain-English Explainer**
+- [ ] **DeFi 2.0: The Next Generation of Decentralized Finance**
+- [ ] **NFTs Beyond Art: Real-World Applications and Use Cases**
+- [ ] **The Environmental Impact of Blockchain: Proof-of-Stake vs Proof-of-Work**
 - [ ] **What Quantum Computing Actually Threatens in Crypto (And What It Doesn't)**
 - [ ] **The Case for Self-Custody in 2026**
 
 ### /space
 - [ ] **What Comes After Artemis: The Road to a Lunar Gateway**
+- [ ] **Space Tourism: The Dawn of Commercial Space Travel**
+- [ ] **Asteroid Mining: The Next Gold Rush in Space**
+- [ ] **The Future of Space Habitats: Living Beyond Earth**
 - [x] **SpaceX Starship vs NASA SLS: Two Visions for Deep Space**
 - [ ] **The Private Space Race: Who's Actually Winning?**
 
 ### /data-engineering
 - [x] **Databricks vs Snowflake in 2026: An Honest Comparison**
+- [ ] **Real-Time Data Processing: Stream Processing vs Batch Processing**
+- [ ] **Data Governance in the Age of AI: Ensuring Data Quality and Compliance**
+- [ ] **The Role of Data Engineering in Machine Learning Pipelines**
 - [x] **Lakeflow Declarative Pipelines: From DLT to Production**
 - [x] **Unity Catalog in Practice: Lessons From the Field**
 
 ### /personal-development
 - [x] **The Engineer's Guide to Managing Creative Burnout**
+- [ ] **Building in Public: Why I Started This Blog and What I've Learned**
+- [ ] **The Power of Habit: Building Productive Routines for Engineers**
+- [ ] **Mindfulness for Developers: Reducing Stress and Improving Focus**
+- [ ] **The Art of Delegation: Leading Teams Effectively**
 - [ ] **Building in Public: Why I Started This Blog and What I've Learned**
 
 ---
