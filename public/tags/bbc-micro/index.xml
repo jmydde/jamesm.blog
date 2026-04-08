@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bbc-Micro on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/bbc-micro/</link>
+    <description>Recent content in Bbc-Micro on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2026 06:00:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/bbc-micro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When 8-bit Computers Taught An Entire Nation To Code</title>
+      <link>https://jamesm.blog/general/8-bit-coding/</link>
+      <pubDate>Wed, 08 Apr 2026 06:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/general/8-bit-coding/</guid>
+      <description>In the 1980s, a unique confluence of government policy, public broadcasting, and garage-built hardware turned the UK into a coding powerhouse. This is how it happened.</description>
+    </item>
+  </channel>
+</rss>

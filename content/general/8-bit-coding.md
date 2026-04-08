@@ -1,6 +1,6 @@
 ---
 title: "When 8-bit Computers Taught An Entire Nation To Code"
-date: 2024-08-01T10:00:00+01:00
+date: 2026-04-08T06:00:00+01:00
 draft: false
 tags: ["retro-computing", "tech-history", "programming", "bbc-micro", "zx-spectrum", "80s"]
 description: "In the 1980s, a unique confluence of government policy, public broadcasting, and garage-built hardware turned the UK into a coding powerhouse. This is how it happened."
@@ -32,9 +32,9 @@ This wasn't just a hobby; it was an industrial revolution. The children who spen
 
 Even more significantly, the engineering talent fostered at Acorn during the BBC Micro era led directly to the development of the ARM architecture. Today, the descendant of that 8-bit era's "educational" machine powers almost every smartphone on the planet.
 
-## The Lesson for 2024
+## The Lesson for 2026
 
-Today, we are facing a similar shift with AI. We are moving from a world of "writing code" to a world of "directing intelligence" (what I've called [Spec-Driven Development](/ai/spec-driven-development/)). 
+Today, we are facing a similar shift with AI. We are moving from a world of "writing code" to a world of "directing intelligence" ([Spec-Driven Development](/ai/spec-driven-development/)). 
 
 The 8-bit era taught us that friction can be a feature. The difficulty of getting those early machines to do anything forced us to understand *how* they worked. As we move into an era where AI handles the implementation, we must ensure we don't lose the underlying "literacy"—the ability to think logically and architecturally—that the blinking cursor of 1981 so effectively instilled in us.
 
