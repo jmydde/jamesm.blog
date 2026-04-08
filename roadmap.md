@@ -11,7 +11,7 @@
 - [ ] How BASIC Shaped a Generation of Programmers
 - [ ] **The BBC Micro: Britain's Most Important Computer**
 - [x] **When 8-bit Computers Taught An Entire Nation To Code**
-- [ ] **Copy Protection Wars: The Ingenious Schemes Of 1980s Software**
+- [x] **Copy Protection Wars: The Ingenious Schemes Of 1980s Software**
 
 ---
 

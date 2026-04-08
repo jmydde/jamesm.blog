@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 06:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 06:11:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computing</title>
+      <link>https://jamesm.blog/tags/computing/</link>
+      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drm</title>
+      <link>https://jamesm.blog/tags/drm/</link>
+      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/drm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>https://jamesm.blog/tags/general/</link>
+      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>https://jamesm.blog/tags/history/</link>
+      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retro</title>
+      <link>https://jamesm.blog/tags/retro/</link>
+      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/retro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://jamesm.blog/tags/security/</link>
+      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://jamesm.blog/tags/software/</link>
+      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/software/</guid>
+      <description></description>
+    </item>
     <item>
       <title>80s</title>
       <link>https://jamesm.blog/tags/80s/</link>
@@ -25,13 +74,6 @@
       <link>https://jamesm.blog/tags/bbc-micro/</link>
       <pubDate>Wed, 08 Apr 2026 06:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/bbc-micro/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>https://jamesm.blog/tags/general/</link>
-      <pubDate>Wed, 08 Apr 2026 06:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/general/</guid>
       <description></description>
     </item>
     <item>
@@ -308,17 +350,17 @@
       <description></description>
     </item>
     <item>
-      <title>Data Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
       <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -875,13 +917,6 @@
       <description></description>
     </item>
     <item>
-      <title>Security</title>
-      <link>https://jamesm.blog/tags/security/</link>
-      <pubDate>Sat, 04 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Web3</title>
       <link>https://jamesm.blog/tags/web3/</link>
       <pubDate>Sat, 04 Apr 2026 14:00:00 +0000</pubDate>
@@ -1033,27 +1068,6 @@
       <link>https://jamesm.blog/tags/architecture/</link>
       <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/architecture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Computing</title>
-      <link>https://jamesm.blog/tags/computing/</link>
-      <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/computing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>History</title>
-      <link>https://jamesm.blog/tags/history/</link>
-      <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/history/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Retro</title>
-      <link>https://jamesm.blog/tags/retro/</link>
-      <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/retro/</guid>
       <description></description>
     </item>
     <item>
@@ -1418,13 +1432,6 @@
       <link>https://jamesm.blog/tags/software-synths/</link>
       <pubDate>Fri, 26 Dec 2025 21:42:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/software-synths/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://jamesm.blog/tags/software/</link>
-      <pubDate>Fri, 26 Dec 2025 21:39:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/software/</guid>
       <description></description>
     </item>
     <item>

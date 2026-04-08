@@ -2,28 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/computing/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/copy-protection-wars/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/drm/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/general/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/history/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/retro/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/security/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/software/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/80s/</loc>
     <lastmod>2026-04-08T06:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/bbc-micro/</loc>
     <lastmod>2026-04-08T06:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/general/</loc>
-    <lastmod>2026-04-08T06:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/general/</loc>
-    <lastmod>2026-04-08T06:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-08T06:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/programming/</loc>
     <lastmod>2026-04-08T06:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/retro-computing/</loc>
-    <lastmod>2026-04-08T06:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-08T06:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tech-history/</loc>
@@ -173,10 +194,10 @@
     <loc>https://jamesm.blog/data-engineering/</loc>
     <lastmod>2026-04-06T00:19:31+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-06T00:19:31+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-06T00:19:31+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/databricks/</loc>
@@ -476,9 +497,6 @@
     <loc>https://jamesm.blog/blockchain/quantum-threat/</loc>
     <lastmod>2026-04-04T14:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/security/</loc>
-    <lastmod>2026-04-04T14:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/web3/</loc>
     <lastmod>2026-04-04T14:00:00+00:00</lastmod>
   </url><url>
@@ -564,15 +582,6 @@
     <lastmod>2026-04-03T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/architecture/</loc>
-    <lastmod>2026-04-03T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/computing/</loc>
-    <lastmod>2026-04-03T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/history/</loc>
-    <lastmod>2026-04-03T14:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/retro/</loc>
     <lastmod>2026-04-03T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/what-the-amiga-got-right-that-were-still-copying/</loc>
@@ -793,9 +802,6 @@
   </url><url>
     <loc>https://jamesm.blog/music-production/best-software-synths-2025/</loc>
     <lastmod>2025-12-26T21:42:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/software/</loc>
-    <lastmod>2025-12-26T21:39:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music-production/best-music-production-software-2025/</loc>
     <lastmod>2025-12-26T21:39:00+00:00</lastmod>
