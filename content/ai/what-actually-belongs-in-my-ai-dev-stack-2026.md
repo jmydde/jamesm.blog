@@ -2,7 +2,7 @@
 title: "What Actually Belongs in My AI Dev Stack in 2026"
 date: 2026-04-06T00:05:00+01:00
 draft: false
-tags: ['ai', 'development', 'developer tools', 'llms', 'claude code', 'cursor ai', 'spec kit', 'sdd']
+tags: ['ai', 'development', 'developer tools', 'llms', 'claude code', 'cursor ai', 'cline', 'spec kit', 'sdd']
 ---
 
 There is a big difference between using AI for development and having an actual AI development stack.
@@ -136,15 +136,15 @@ This part of the stack is about keeping flow state intact.
 
 If I want to rename something, generate a quick implementation, or inspect a few files with help from a model, I do not want to open a heavyweight workflow every time.
 
-### 3. A terminal agent for heavy lifting
+### 3. A terminal agent or autonomous assistant for heavy lifting
 
 This is a different category from an AI editor.
 
-For larger changes, I still want an agent that works well in the terminal and can operate across files in a more deliberate way. This is where something like Claude Code fits well:
+For larger changes, I still want an agent that works well in the terminal or as an autonomous operator that can operate across files in a more deliberate way. This is where tools like **Claude Code** or **Cline** fit well:
 
 - big refactors
 - repo-wide edits
-- implementation from specs
+- autonomous implementation from specs
 - code review style analysis
 - shell-driven workflows
 
@@ -266,7 +266,7 @@ Write the spec, or at least a scoped version of it:
 
 Stay in flow. Move quickly. Let the assistant help with structure, boilerplate, and local reasoning.
 
-### 3. Use a stronger terminal agent for the heavy work
+### 3. Use a stronger terminal agent or autonomous assistant for the heavy work
 
 Bring in the higher-capability tool when the task expands into multi-file changes, deeper refactors, or implementation against a fuller spec.
 
@@ -294,7 +294,7 @@ I think it is a layered setup:
 
 - specs for clarity
 - a fast AI editor for momentum
-- a terminal agent for serious implementation
+- a terminal agent or autonomous assistant for serious implementation
 - a cheap or local tier for low-value tasks
 - a separate review pass for quality control
 - a research layer for verification
