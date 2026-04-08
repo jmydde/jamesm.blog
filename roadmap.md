@@ -10,7 +10,7 @@
 - [x] What the Amiga Got Right (That We're Still Copying)
 - [ ] How BASIC Shaped a Generation of Programmers
 - [ ] **The BBC Micro: Britain's Most Important Computer**
-- [ ] **When 8-bit Computers Taught An Entire Nation To Code**
+- [x] **When 8-bit Computers Taught An Entire Nation To Code**
 - [ ] **Copy Protection Wars: The Ingenious Schemes Of 1980s Software**
 
 ---
