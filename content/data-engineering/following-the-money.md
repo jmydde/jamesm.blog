@@ -1,6 +1,6 @@
 ---
 title: "Following the Money: Databricks vs Snowflake vs the Open-Source Alternative"
-date: 2026-04-08T07:4   0:00+01:00
+date: 2026-04-08T07:40:00+01:00
 summary: "A deep dive into the shifting economics of the data landscape in 2026. Why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack actually saves you money."
 categories: ["data-engineering"]
 tags: ["databricks", "snowflake", "open-source", "data-engineering", "iceberg", "economics"]
@@ -64,7 +64,7 @@ The moment your "vendor margin" exceeds your "staffing cost," it is time to foll
 
 In 2026, we no longer talk about "Data Warehouses" vs "Data Lakes." We talk about **Managed Margins** vs **Operational Complexity**. 
 
-Databricks and Snowflake are both trying to become the "Operating System" for your data. They want to be the "Capture Layer" I mentioned in my [AI Dev Stack post](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/). 
+Databricks and Snowflake are both trying to become the "Operating System" for your data.
 
 The open-source alternative isn't just a way to save money; it's an insurance policy against a future where your data vendor decides to hike prices once you are fully locked in. 
 
