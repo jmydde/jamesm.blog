@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/github/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/github-backing-openclaw/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/open-source/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/openclaw/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-08T08:05:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ableton/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
@@ -20,19 +44,16 @@
     <loc>https://jamesm.blog/music-production/hardware-sequencers-2026/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-08T07:50:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/music/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/music-production/</loc>
+    <loc>https://jamesm.blog/categories/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/categories/music-production/</loc>
+    <loc>https://jamesm.blog/tags/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/native-instruments/</loc>
@@ -48,9 +69,6 @@
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tactility/</loc>
-    <lastmod>2026-04-08T07:50:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/workflow/</loc>
@@ -83,17 +101,8 @@
     <loc>https://jamesm.blog/tags/iceberg/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/open-source/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/snowflake/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-08T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2026-04-08T07:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/claude/</loc>
     <lastmod>2026-04-08T07:30:00+01:00</lastmod>
@@ -413,9 +422,6 @@
     <loc>https://jamesm.blog/tags/2026/</loc>
     <lastmod>2026-04-04T21:06:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/github/</loc>
-    <lastmod>2026-04-04T21:06:14+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/ai/github-spec-kit-2026-update/</loc>
     <lastmod>2026-04-04T21:06:14+01:00</lastmod>
   </url><url>
@@ -690,9 +696,6 @@
     <lastmod>2026-03-09T07:14:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</loc>
-    <lastmod>2026-03-09T07:09:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/openclaw/</loc>
     <lastmod>2026-03-09T07:09:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/openclaw-is-wild/</loc>
