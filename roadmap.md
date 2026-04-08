@@ -107,7 +107,7 @@
 - [ ] **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output
 - [ ] **"Taste, Intuition, and the Machine"** — intuitive music philosophy applied to AI/product thinking
 - ✅ **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"**
-- [ ] **"Good Judgement Cannot Be Automated"**
+- [x] **"Good Judgement Cannot Be Automated"**
 - [ ] **"The Most Valuable Skill Is Knowing What Not To Build"**
 
 ---
@@ -148,7 +148,7 @@
 - [ ] **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
 - [ ] **Ableton + Max for Live in 2026: What's Actually New**
 - [ ] **Mobile Music Production: Current Controller + iPad Combinations**
-- [ ] **Hardware Sequencers in 2026: When Physical Beats Software**
+- [x] **Hardware Sequencers in 2026: When Physical Beats Software**
 
 ## Developer Tooling & Productivity
 
