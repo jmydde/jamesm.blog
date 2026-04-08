@@ -104,7 +104,6 @@ params:
   homeInfoParams:
     #Title: "James' Blog"
     Content: |
-      Welcome to my blog, the following topics are covered here;
       - [**Artificial Intelligence**](/ai) (chatbots, co-pilots, LLMs, robotics)
       - [**Blockchain**](/blockchain) (Bitcoin, Blockchain, decentralization, Polkadot)
       - [**Data Engineering**](/data-engineering) (databases, ETL, Data Science, ML)
