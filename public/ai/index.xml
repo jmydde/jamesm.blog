@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 08:25:25 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:45:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released</title>
+      <link>https://jamesm.blog/ai/claude-mythos-benchmarks/</link>
+      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-mythos-benchmarks/</guid>
+      <description>Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.</description>
+    </item>
     <item>
       <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
       <link>https://jamesm.blog/ai/ollama/</link>

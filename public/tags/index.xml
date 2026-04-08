@@ -11,13 +11,41 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 08:25:25 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:45:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai</title>
+      <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
+      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Models</title>
+      <link>https://jamesm.blog/tags/ai-models/</link>
+      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ai-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthropic</title>
+      <link>https://jamesm.blog/tags/anthropic/</link>
+      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/anthropic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Benchmarks</title>
+      <link>https://jamesm.blog/tags/benchmarks/</link>
+      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/benchmarks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://jamesm.blog/tags/claude/</link>
+      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -154,17 +182,17 @@
       <description></description>
     </item>
     <item>
-      <title>Data Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
       <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -193,13 +221,6 @@
       <link>https://jamesm.blog/tags/snowflake/</link>
       <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/snowflake/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://jamesm.blog/tags/claude/</link>
-      <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -1894,13 +1915,6 @@
       <link>https://jamesm.blog/tags/sergey-brin/</link>
       <pubDate>Tue, 20 May 2025 19:27:14 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sergey-brin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai Models</title>
-      <link>https://jamesm.blog/tags/ai-models/</link>
-      <pubDate>Mon, 27 Jan 2025 21:39:14 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ai-models/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released | jamesm.blog</title>
+<meta name="keywords" content="AI Models, Benchmarks, Claude, Anthropic">
+<meta name="description" content="Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/claude-mythos-benchmarks/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/claude-mythos-benchmarks/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jamesm.blog/ai/claude-mythos-benchmarks/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released">
+  <meta property="og:description" content="Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-04-08T08:45:00+01:00">
+    <meta property="article:modified_time" content="2026-04-08T08:45:00+01:00">
+    <meta property="article:tag" content="AI Models">
+    <meta property="article:tag" content="Benchmarks">
+    <meta property="article:tag" content="Claude">
+    <meta property="article:tag" content="Anthropic">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released">
+  <meta name="twitter:description" content="Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Claude Mythos: The AI Benchmark Breaker That Won't Be Released",
+      "item": "https://jamesm.blog/ai/claude-mythos-benchmarks/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Claude Mythos: The AI Benchmark Breaker That Won't Be Released",
+  "name": "Claude Mythos: The AI Benchmark Breaker That Won\u0027t Be Released",
+  "description": "Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.",
+  "keywords": [
+    "AI Models", "Benchmarks", "Claude", "Anthropic"
+  ],
+  "articleBody": "Anthropic released Claude Mythos Preview on April 7, 2026 - and immediately announced it won’t be publicly available.\nThe reason? It’s too dangerous.\nDespite being the most powerful AI model yet, scoring double-digit improvements over competitors across nearly every benchmark, Mythos is restricted to just 12 major tech companies for defensive cybersecurity work through Project Glasswing. But before diving into why, let’s look at what makes Mythos so exceptionally capable.\nRecord-Breaking Benchmarks Claude Mythos demolished previous performance records across coding, mathematics, and reasoning tasks:\nCoding: The Benchmark It Dominated SWE-bench Verified: 93.9% (13.1 points ahead of Opus 4.6’s 80.8%) SWE-bench Pro: 77.8% (20.1 points ahead of GPT-5.4) SWE-bench Multimodal: 59.0% (more than double Opus 4.6’s 27.1%) Terminal-Bench 2.0: 82.0% standard, 92.1% with extended timeout These aren’t marginal improvements - they’re dramatic leaps that establish Mythos as the clear leader for software engineering tasks.\nMathematics: Where It Truly Excels USAMO 2026: 97.6% (a staggering 55.3-point jump over Opus 4.6’s 42.3%) GPQA Diamond: 94.5% The USAMO improvement is particularly striking - a 55-point gap suggests Mythos has fundamentally different reasoning capabilities than current models.\nReasoning and Agentic Tasks HLE with tools: 64.7% (12.6 points above GPT-5.4) GraphWalks BFS (million-token contexts): 80.0% CharXiv Reasoning: 93.2% with tools Head-to-Head: Mythos vs. the Competition The benchmark data tells a consistent story: Mythos beats GPT-5.4 on every shared benchmark and leads Opus 4.6 on “nearly every benchmark.”\nBenchmark Mythos Opus 4.6 GPT-5.4 Mythos Lead SWE-bench Verified 93.9% 80.8% - +13.1 pts SWE-bench Pro 77.8% - 57.7% +20.1 pts USAMO 2026 97.6% 42.3% 95.2% +55.3 vs Opus GPQA Diamond 94.5% - - - Terminal-Bench 2.0 82.0% - - - In absolute terms, Mythos hasn’t just pushed the frontier - it’s redefined where the frontier is.\nThe Memorization Question A natural skepticism: could Mythos simply memorize its training data better? Anthropic addressed this with “extensive memorization screening,” filtering flagged potential contamination and testing models on novel “remix versions” of original questions. Result: Mythos maintained its lead at every level, even scoring higher on remixed questions than originals.\nThis suggests genuine capability gains, not data leakage.\nWhy You Can’t Use It: Project Glasswing Despite dominating every benchmark, Mythos remains unavailable to the broader public. Instead, Anthropic partnered with 12 major technology and finance companies - including Amazon, Apple, Google, Microsoft, and Nvidia - through Project Glasswing.\nThe mission: use Mythos exclusively for defensive cybersecurity research, backed by $100M in usage credits from Anthropic.\nThe Cybersecurity Reality Why the restriction? Mythos autonomously discovered thousands of zero-day vulnerabilities across:\nEvery major operating system Every major web browser One OpenBSD bug that had existed unchallenged for 27 years An AI this capable at finding exploits isn’t something you release to the internet and hope for the best.\nWhat This Means for the AI Industry Claude Mythos represents a shift in how frontier AI models are deployed. The reasoning:\nRaw capability matters less than control: A model 20 points ahead on benchmarks but publicly available creates less risk than a model 55 points ahead but tightly controlled.\nSecurity is becoming a deployment constraint: Just as some biotech research remains restricted, the most powerful AI systems may need access controls built into their business model.\nBenchmarks alone don’t tell the story: Mythos proves you can achieve dominant performance and still have legitimate reasons to restrict access.\nLooking Forward Claude Mythos Preview shows that Anthropic can build models that significantly outpace competition - while being transparent about risks. Whether Project Glasswing proves that restricted deployment can work at scale, or whether it’s a temporary measure before public release, remains to be seen.\nWhat’s clear: we’ve entered an era where “the best model” and “the publicly available model” may be fundamentally different things.\nSources:\nClaude Mythos Benchmarks Explained: 93.9% SWE-bench \u0026 Every Record Broken Claude Mythos Preview: Anthropic’s Most Powerful AI Claude Mythos Coding Performance: What It Means for AI Dev Workflows ",
+  "wordCount" : "646",
+  "inLanguage": "en",
+  "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2026-04-08T08:45:00+01:00",
+  "dateModified": "2026-04-08T08:45:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/claude-mythos-benchmarks/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data">
+                    <span>Data</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/ai/">Artificial Intelligence</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released
+    </h1>
+    <div class="post-description">
+      Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.
+    </div>
+    <div class="post-meta"><span title='2026-04-08 08:45:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#record-breaking-benchmarks" aria-label="Record-Breaking Benchmarks">Record-Breaking Benchmarks</a><ul>
+                        
+                <li>
+                    <a href="#coding-the-benchmark-it-dominated" aria-label="Coding: The Benchmark It Dominated">Coding: The Benchmark It Dominated</a></li>
+                <li>
+                    <a href="#mathematics-where-it-truly-excels" aria-label="Mathematics: Where It Truly Excels">Mathematics: Where It Truly Excels</a></li>
+                <li>
+                    <a href="#reasoning-and-agentic-tasks" aria-label="Reasoning and Agentic Tasks">Reasoning and Agentic Tasks</a></li></ul>
+                </li>
+                <li>
+                    <a href="#head-to-head-mythos-vs-the-competition" aria-label="Head-to-Head: Mythos vs. the Competition">Head-to-Head: Mythos vs. the Competition</a></li>
+                <li>
+                    <a href="#the-memorization-question" aria-label="The Memorization Question">The Memorization Question</a></li>
+                <li>
+                    <a href="#why-you-cant-use-it-project-glasswing" aria-label="Why You Can&rsquo;t Use It: Project Glasswing">Why You Can&rsquo;t Use It: Project Glasswing</a><ul>
+                        
+                <li>
+                    <a href="#the-cybersecurity-reality" aria-label="The Cybersecurity Reality">The Cybersecurity Reality</a></li></ul>
+                </li>
+                <li>
+                    <a href="#what-this-means-for-the-ai-industry" aria-label="What This Means for the AI Industry">What This Means for the AI Industry</a></li>
+                <li>
+                    <a href="#looking-forward" aria-label="Looking Forward">Looking Forward</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Anthropic released Claude Mythos Preview on April 7, 2026 - and immediately announced it won&rsquo;t be publicly available.</p>
+<p>The reason? It&rsquo;s too dangerous.</p>
+<p>Despite being the most powerful AI model yet, scoring double-digit improvements over competitors across nearly every benchmark, Mythos is restricted to just 12 major tech companies for defensive cybersecurity work through Project Glasswing. But before diving into why, let&rsquo;s look at what makes Mythos so exceptionally capable.</p>
+<h2 id="record-breaking-benchmarks">Record-Breaking Benchmarks<a hidden class="anchor" aria-hidden="true" href="#record-breaking-benchmarks">#</a></h2>
+<p>Claude Mythos demolished previous performance records across coding, mathematics, and reasoning tasks:</p>
+<h3 id="coding-the-benchmark-it-dominated">Coding: The Benchmark It Dominated<a hidden class="anchor" aria-hidden="true" href="#coding-the-benchmark-it-dominated">#</a></h3>
+<ul>
+<li><strong>SWE-bench Verified</strong>: 93.9% (13.1 points ahead of Opus 4.6&rsquo;s 80.8%)</li>
+<li><strong>SWE-bench Pro</strong>: 77.8% (20.1 points ahead of GPT-5.4)</li>
+<li><strong>SWE-bench Multimodal</strong>: 59.0% (more than double Opus 4.6&rsquo;s 27.1%)</li>
+<li><strong>Terminal-Bench 2.0</strong>: 82.0% standard, 92.1% with extended timeout</li>
+</ul>
+<p>These aren&rsquo;t marginal improvements - they&rsquo;re dramatic leaps that establish Mythos as the clear leader for software engineering tasks.</p>
+<h3 id="mathematics-where-it-truly-excels">Mathematics: Where It Truly Excels<a hidden class="anchor" aria-hidden="true" href="#mathematics-where-it-truly-excels">#</a></h3>
+<ul>
+<li><strong>USAMO 2026</strong>: 97.6% (a staggering 55.3-point jump over Opus 4.6&rsquo;s 42.3%)</li>
+<li><strong>GPQA Diamond</strong>: 94.5%</li>
+</ul>
+<p>The USAMO improvement is particularly striking - a 55-point gap suggests Mythos has fundamentally different reasoning capabilities than current models.</p>
+<h3 id="reasoning-and-agentic-tasks">Reasoning and Agentic Tasks<a hidden class="anchor" aria-hidden="true" href="#reasoning-and-agentic-tasks">#</a></h3>
+<ul>
+<li><strong>HLE with tools</strong>: 64.7% (12.6 points above GPT-5.4)</li>
+<li><strong>GraphWalks BFS</strong> (million-token contexts): 80.0%</li>
+<li><strong>CharXiv Reasoning</strong>: 93.2% with tools</li>
+</ul>
+<h2 id="head-to-head-mythos-vs-the-competition">Head-to-Head: Mythos vs. the Competition<a hidden class="anchor" aria-hidden="true" href="#head-to-head-mythos-vs-the-competition">#</a></h2>
+<p>The benchmark data tells a consistent story: Mythos beats GPT-5.4 on <strong>every shared benchmark</strong> and leads Opus 4.6 on &ldquo;nearly every benchmark.&rdquo;</p>
+<table>
+  <thead>
+      <tr>
+          <th>Benchmark</th>
+          <th>Mythos</th>
+          <th>Opus 4.6</th>
+          <th>GPT-5.4</th>
+          <th>Mythos Lead</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>SWE-bench Verified</td>
+          <td>93.9%</td>
+          <td>80.8%</td>
+          <td>-</td>
+          <td>+13.1 pts</td>
+      </tr>
+      <tr>
+          <td>SWE-bench Pro</td>
+          <td>77.8%</td>
+          <td>-</td>
+          <td>57.7%</td>
+          <td>+20.1 pts</td>
+      </tr>
+      <tr>
+          <td>USAMO 2026</td>
+          <td>97.6%</td>
+          <td>42.3%</td>
+          <td>95.2%</td>
+          <td>+55.3 vs Opus</td>
+      </tr>
+      <tr>
+          <td>GPQA Diamond</td>
+          <td>94.5%</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>Terminal-Bench 2.0</td>
+          <td>82.0%</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+  </tbody>
+</table>
+<p>In absolute terms, Mythos hasn&rsquo;t just pushed the frontier - it&rsquo;s redefined where the frontier is.</p>
+<h2 id="the-memorization-question">The Memorization Question<a hidden class="anchor" aria-hidden="true" href="#the-memorization-question">#</a></h2>
+<p>A natural skepticism: could Mythos simply memorize its training data better? Anthropic addressed this with &ldquo;extensive memorization screening,&rdquo; filtering flagged potential contamination and testing models on novel &ldquo;remix versions&rdquo; of original questions. Result: Mythos maintained its lead at every level, even scoring higher on remixed questions than originals.</p>
+<p>This suggests genuine capability gains, not data leakage.</p>
+<h2 id="why-you-cant-use-it-project-glasswing">Why You Can&rsquo;t Use It: Project Glasswing<a hidden class="anchor" aria-hidden="true" href="#why-you-cant-use-it-project-glasswing">#</a></h2>
+<p>Despite dominating every benchmark, Mythos remains unavailable to the broader public. Instead, Anthropic partnered with 12 major technology and finance companies - including Amazon, Apple, Google, Microsoft, and Nvidia - through Project Glasswing.</p>
+<p>The mission: use Mythos exclusively for defensive cybersecurity research, backed by $100M in usage credits from Anthropic.</p>
+<h3 id="the-cybersecurity-reality">The Cybersecurity Reality<a hidden class="anchor" aria-hidden="true" href="#the-cybersecurity-reality">#</a></h3>
+<p>Why the restriction? Mythos autonomously discovered <strong>thousands of zero-day vulnerabilities</strong> across:</p>
+<ul>
+<li>Every major operating system</li>
+<li>Every major web browser</li>
+<li>One OpenBSD bug that had existed unchallenged for <strong>27 years</strong></li>
+</ul>
+<p>An AI this capable at finding exploits isn&rsquo;t something you release to the internet and hope for the best.</p>
+<h2 id="what-this-means-for-the-ai-industry">What This Means for the AI Industry<a hidden class="anchor" aria-hidden="true" href="#what-this-means-for-the-ai-industry">#</a></h2>
+<p>Claude Mythos represents a shift in how frontier AI models are deployed. The reasoning:</p>
+<ol>
+<li>
+<p><strong>Raw capability matters less than control</strong>: A model 20 points ahead on benchmarks but publicly available creates less risk than a model 55 points ahead but tightly controlled.</p>
+</li>
+<li>
+<p><strong>Security is becoming a deployment constraint</strong>: Just as some biotech research remains restricted, the most powerful AI systems may need access controls built into their business model.</p>
+</li>
+<li>
+<p><strong>Benchmarks alone don&rsquo;t tell the story</strong>: Mythos proves you can achieve dominant performance and still have legitimate reasons to restrict access.</p>
+</li>
+</ol>
+<h2 id="looking-forward">Looking Forward<a hidden class="anchor" aria-hidden="true" href="#looking-forward">#</a></h2>
+<p>Claude Mythos Preview shows that Anthropic can build models that significantly outpace competition - while being transparent about risks. Whether Project Glasswing proves that restricted deployment can work at scale, or whether it&rsquo;s a temporary measure before public release, remains to be seen.</p>
+<p>What&rsquo;s clear: we&rsquo;ve entered an era where &ldquo;the best model&rdquo; and &ldquo;the publicly available model&rdquo; may be fundamentally different things.</p>
+<hr>
+<p><strong>Sources:</strong></p>
+<ul>
+<li><a href="https://www.nxcode.io/resources/news/claude-mythos-benchmarks-93-swe-bench-every-record-broken-2026">Claude Mythos Benchmarks Explained: 93.9% SWE-bench &amp; Every Record Broken</a></li>
+<li><a href="https://www.nxcode.io/resources/news/claude-mythos-preview-anthropic-most-powerful-model-2026">Claude Mythos Preview: Anthropic&rsquo;s Most Powerful AI</a></li>
+<li><a href="https://wavespeed.ai/blog/posts/claude-mythos-coding-performance/">Claude Mythos Coding Performance: What It Means for AI Dev Workflows</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai-models/">AI Models</a></li>
+      <li><a href="https://jamesm.blog/tags/benchmarks/">Benchmarks</a></li>
+      <li><a href="https://jamesm.blog/tags/claude/">Claude</a></li>
+      <li><a href="https://jamesm.blog/tags/anthropic/">Anthropic</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://jamesm.blog/ai/ollama/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Running AI Models Locally with Ollama: From Setup to OpenClaw</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released on x"
+            href="https://x.com/intent/tweet/?text=Claude%20Mythos%3a%20The%20AI%20Benchmark%20Breaker%20That%20Won%27t%20Be%20Released&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f&amp;hashtags=AIModels%2cBenchmarks%2cClaude%2cAnthropic">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f&amp;title=Claude%20Mythos%3a%20The%20AI%20Benchmark%20Breaker%20That%20Won%27t%20Be%20Released&amp;summary=Claude%20Mythos%3a%20The%20AI%20Benchmark%20Breaker%20That%20Won%27t%20Be%20Released&amp;source=https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f&title=Claude%20Mythos%3a%20The%20AI%20Benchmark%20Breaker%20That%20Won%27t%20Be%20Released">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released on whatsapp"
+            href="https://api.whatsapp.com/send?text=Claude%20Mythos%3a%20The%20AI%20Benchmark%20Breaker%20That%20Won%27t%20Be%20Released%20-%20https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released on telegram"
+            href="https://telegram.me/share/url?text=Claude%20Mythos%3a%20The%20AI%20Benchmark%20Breaker%20That%20Won%27t%20Be%20Released&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Claude%20Mythos%3a%20The%20AI%20Benchmark%20Breaker%20That%20Won%27t%20Be%20Released&u=https%3a%2f%2fjamesm.blog%2fai%2fclaude-mythos-benchmarks%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
