@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Data-Engineering on jamesm.blog</title>
+    <title>Data Engineering on jamesm.blog</title>
     <link>https://jamesm.blog/tags/data-engineering/</link>
-    <description>Recent content in Data-Engineering on jamesm.blog</description>
+    <description>Recent content in Data Engineering on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 00:19:31 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 07:40:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</title>
+      <link>https://jamesm.blog/data-engineering/following-the-money/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/following-the-money/</guid>
+      <description>A deep dive into the shifting economics of the data landscape in 2026. Why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack actually saves you money.</description>
+    </item>
     <item>
       <title>Modern Data Engineering on Databricks (2026 Guide)</title>
       <link>https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/</link>

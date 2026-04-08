@@ -11,10 +11,66 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 07:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 07:40:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai</title>
+      <title>Data</title>
+      <link>https://jamesm.blog/tags/data/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://jamesm.blog/tags/data-science/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databricks</title>
+      <link>https://jamesm.blog/tags/databricks/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/databricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Economics</title>
+      <link>https://jamesm.blog/tags/economics/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/economics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iceberg</title>
+      <link>https://jamesm.blog/tags/iceberg/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/iceberg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://jamesm.blog/tags/open-source/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Snowflake</title>
+      <link>https://jamesm.blog/tags/snowflake/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/snowflake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
       <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
@@ -154,14 +210,7 @@
       <description></description>
     </item>
     <item>
-      <title>Economics</title>
-      <link>https://jamesm.blog/tags/economics/</link>
-      <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/economics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Future of Work</title>
+      <title>Future-of-Work</title>
       <link>https://jamesm.blog/tags/future-of-work/</link>
       <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/future-of-work/</guid>
@@ -368,34 +417,6 @@
       <link>https://jamesm.blog/tags/skill/</link>
       <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/skill/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data</title>
-      <link>https://jamesm.blog/tags/data/</link>
-      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Databricks</title>
-      <link>https://jamesm.blog/tags/databricks/</link>
-      <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/databricks/</guid>
       <description></description>
     </item>
     <item>
@@ -620,13 +641,6 @@
       <link>https://jamesm.blog/tags/data-warehouse/</link>
       <pubDate>Sun, 05 Apr 2026 09:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/data-warehouse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Snowflake</title>
-      <link>https://jamesm.blog/tags/snowflake/</link>
-      <pubDate>Sun, 05 Apr 2026 09:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/snowflake/</guid>
       <description></description>
     </item>
     <item>
@@ -2874,13 +2888,6 @@
       <link>https://jamesm.blog/tags/frameworks/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       <guid>https://jamesm.blog/tags/frameworks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open-Source</title>
-      <link>https://jamesm.blog/tags/open-source/</link>
-      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
