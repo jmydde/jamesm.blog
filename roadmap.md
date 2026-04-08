@@ -12,6 +12,11 @@
 - [ ] **The BBC Micro: Britain's Most Important Computer**
 - [x] **When 8-bit Computers Taught An Entire Nation To Code**
 - [x] **Copy Protection Wars: The Ingenious Schemes Of 1980s Software**
+- [ ] **The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground**
+- [ ] **Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene**
+- [ ] **The SID Chip: Engineering the Most Iconic Sound in Computing History**
+- [ ] **Paula, Agnus, and Denise: The Trinity That Made the Amiga Magic**
+- [ ] **Public Domain Libraries: The 'App Store' of the 16-bit Era**
 
 ---
 
