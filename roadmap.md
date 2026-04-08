@@ -45,7 +45,7 @@
 ## New Posts in Existing Categories
 
 ### /ai
-- [ ] **Claude Code vs Cursor: A 6-Month Comparison**
+- [x] **Claude Code vs Cursor: A 6-Month Comparison**
 - [ ] **The Rise of Small Language Models: Why Size Isn't Everything**
 - [ ] **AI Hallucinations: Understanding and Mitigating False Outputs**
 - [ ] **The Ethics of AI Training Data: Copyright, Consent, and Compensation**
