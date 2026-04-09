@@ -11,10 +11,45 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 07:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 07:25:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aws</title>
+      <title>Ai</title>
+      <link>https://jamesm.blog/tags/ai/</link>
+      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://jamesm.blog/tags/automation/</link>
+      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://jamesm.blog/tags/career/</link>
+      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://jamesm.blog/tags/claude/</link>
+      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Job-Search</title>
+      <link>https://jamesm.blog/tags/job-search/</link>
+      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/job-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWS</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -28,7 +63,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -46,20 +81,6 @@
       <link>https://jamesm.blog/tags/storage/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/storage/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>https://jamesm.blog/tags/automation/</link>
-      <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/automation/</guid>
       <description></description>
     </item>
     <item>
@@ -266,7 +287,7 @@
       <description></description>
     </item>
     <item>
-      <title>Personal Development</title>
+      <title>Personal-Development</title>
       <link>https://jamesm.blog/tags/personal-development/</link>
       <pubDate>Thu, 09 Apr 2026 06:24:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/personal-development/</guid>
@@ -497,7 +518,7 @@
       <description></description>
     </item>
     <item>
-      <title>AI Models</title>
+      <title>Ai Models</title>
       <link>https://jamesm.blog/tags/ai-models/</link>
       <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai-models/</guid>
@@ -515,13 +536,6 @@
       <link>https://jamesm.blog/tags/benchmarks/</link>
       <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/benchmarks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://jamesm.blog/tags/claude/</link>
-      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -644,7 +658,7 @@
       <description></description>
     </item>
     <item>
-      <title>Data-Engineering</title>
+      <title>Data Engineering</title>
       <link>https://jamesm.blog/tags/data-engineering/</link>
       <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-engineering/</guid>
@@ -777,7 +791,7 @@
       <description></description>
     </item>
     <item>
-      <title>Future-of-Work</title>
+      <title>Future of Work</title>
       <link>https://jamesm.blog/tags/future-of-work/</link>
       <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/future-of-work/</guid>
@@ -879,13 +893,6 @@
       <link>https://jamesm.blog/tags/habits/</link>
       <pubDate>Mon, 06 Apr 2026 16:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/habits/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Career</title>
-      <link>https://jamesm.blog/tags/career/</link>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/career/</guid>
       <description></description>
     </item>
     <item>
