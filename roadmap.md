@@ -8,13 +8,13 @@
 - [x] The Demoscene: Where Art Met Assembly
 - [x] Compunet: Britain's Forgotten Pre-Internet Community
 - [x] What the Amiga Got Right (That We're Still Copying)
-- [ ] How BASIC Shaped a Generation of Programmers
+- [x] How BASIC Shaped a Generation of Programmers
 - [ ] **The BBC Micro: Britain's Most Important Computer**
 - [x] **When 8-bit Computers Taught An Entire Nation To Code**
 - [x] **Copy Protection Wars: The Ingenious Schemes Of 1980s Software**
 - [x] **The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground**
-- [ ] **Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene**
-- [ ] **The SID Chip: Engineering the Most Iconic Sound in Computing History**
+- [x] **Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene**
+- [x] **The SID Chip: Engineering the Most Iconic Sound in Computing History**
 - [ ] **Paula, Agnus, and Denise: The Trinity That Made the Amiga Magic**
 - [ ] **Public Domain Libraries: The 'App Store' of the 16-bit Era**
 

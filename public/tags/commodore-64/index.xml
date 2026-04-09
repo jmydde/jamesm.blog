@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Commodore-64 on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/commodore-64/</link>
+    <description>Recent content in Commodore-64 on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 06:22:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/commodore-64/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The SID Chip: Engineering the Most Iconic Sound in Computing History</title>
+      <link>https://jamesm.blog/retro-computing/sid-chip-most-iconic-sound/</link>
+      <pubDate>Thu, 09 Apr 2026 06:22:00 +0100</pubDate>
+      <guid>https://jamesm.blog/retro-computing/sid-chip-most-iconic-sound/</guid>
+      <description>The SID chip gave the Commodore 64 the ability to synthesize complex sound in real-time. But why did it sound so distinctive? And why has no other chip in computing history achieved the same cultural impact?</description>
+    </item>
+  </channel>
+</rss>
