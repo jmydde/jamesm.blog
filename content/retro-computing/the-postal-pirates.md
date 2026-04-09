@@ -1,6 +1,6 @@
 ---
 title: "The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground"
-date: 2026-04-09T08:00:00+01:00
+date: 2026-04-09T06:01:00+01:00
 draft: false
 tags: ["retro-computing", "tape-swapping", "micro-mart", "piracy", "1980s", "underground", "bbs"]
 description: "How magazine classifieds, postal delivery services, and teenage traders turned the 1980s into an era of sophisticated software distribution that predated the internet."
@@ -66,6 +66,23 @@ A Sinclair ZX Spectrum could copy a cassette in real-time - you'd play the origi
 
 For a £1.50 sale, your costs were maybe 40p. A single trader could process 50 - 100 orders per week, netting £5 - £10 profit per week. For a teenager in 1983, that was extraordinary money - enough to fund their own game purchases and reinvestment in blank tapes.
 
+## The Amiga Era: Blank Disks and the Post
+
+By 1987 - 1989, the Commodore Amiga had become the new frontier for games, and with it came a new economy of piracy. The Amiga shipped with 3.5-inch floppy disk drives, and suddenly copying software became even easier - and cheaper. A blank disk cost just 20p - 30p in bulk, and duplication took minutes using the Amiga's own disk tools.
+
+The postal trade adapted seamlessly. Instead of cassettes, traders began mailing blank 3.5-inch floppies with games copied onto them. The postal advantage was even more pronounced:
+
+- **Floppy cost**: 20p - 30p per disk (in bulk)
+- **Postage cost**: 20p - 30p per padded envelope (disk was sturdier than tape)
+- **Selling price**: £1 - £3 per game (sometimes £5 for "complete compilations")
+- **Profit margin**: Even better than cassettes, sometimes 50% - 60% gross margin
+
+The beauty of the floppy trade was density. While a cassette held one or two games, a single 3.5-inch disk could hold 10 - 15 smaller Amiga games, or full-sized titles split across multiple disks. Traders would advertise "Amiga Collections - 50 games for £20" (mailed as 5 - 6 floppies). The labor was still trivial - copy the disk image, stick it in an envelope, post it.
+
+This phase coincided with the Amiga's peak years (1987 - 1993) when it was genuinely the best platform for games in the UK and Europe. Amiga traders became almost industrial in scale. You'd see *Micro Mart* classifieds advertising "Amiga Software Warehouse" with PO Boxes in major cities. Some traders had mailboxes that received 100 - 200 orders per week. The Royal Mail's sorting offices were quietly handling millions of pirated Amiga floppies with no way to know what was inside the envelopes.
+
+One trader, advertising under the name "Amiga Express," claimed to stock every commercial Amiga game released in the UK. For £25, you could get a 10-disk collection mailed to you within 48 hours. Whether he actually shipped that volume or was exaggerating, it didn't matter - the infrastructure existed to support it.
+
 ## The Scale of the Underground
 
 Nobody knows the real numbers, but indicators suggest this was massive:
@@ -106,15 +123,19 @@ Software companies knew about the tape trade and were furious - but their legal 
 
 ## The End of the Era
 
-By 1988 - 1990, the tape-swapping economy began to collapse:
+The postal disk trade flourished in the late 1980s and early 1990s, but it was ultimately doomed by the very technology that made it possible.
 
-1. **Disk-based systems**: The Amiga, Atari ST, and IBM PC used floppy disks that were harder to copy than cassettes
-2. **Anti-copying technology**: Publishers added disk loaders with copy protection
-3. **The internet arrived**: By 1995, FTP sites and Usenet newsgroups made postal piracy obsolete
-4. **Magazine decline**: *Micro Mart* gradually lost the classified section that made it unique
-5. **Professionalization**: What had been teenage cottage industry became organized warez distribution on BBSes and eventually the internet
+By 1993 - 1995, the tape-swapping and disk-swapping economy began to collapse:
 
-The final blow came when legal software became cheaper and more accessible. By 1996, you could mail-order legitimate software catalogues and spend less than you would have on a tape trader's markup.
+1. **Copy protection evolved**: Publishers added sophisticated disk protection schemes (Amiga loaders with custom code, PC dongles). Copying became harder, requiring special tools
+2. **CD-ROM adoption**: By 1995, CDs were becoming the standard. They were harder to copy than floppies, required CD burners (expensive and slow), and couldn't be easily duplicated in bulk
+3. **The internet arrived**: By 1995, FTP sites and Usenet newsgroups made postal piracy obsolete virtually overnight. Why wait for an envelope when you could download a game in minutes?
+4. **Magazine decline**: *Micro Mart* gradually lost the classified section. By the late 1990s, the back pages that once had 200+ software trader adverts were nearly empty
+5. **Professionalization**: What had been teenage cottage industry evolved into organized warez distribution on BBSes and eventually the internet - no longer requiring postal infrastructure
+
+The traders themselves mostly disappeared. The postal routes that once carried thousands of pirated floppies every week simply closed down. Those who wanted to continue piracy moved to the internet. Those who were in it for the money moved on to other ventures. A few became legitimate small software distributors, but most just stopped.
+
+The final blow came when legitimate software became cheaper and more accessible. By 1996, you could legally download or mail-order games for less than a tape trader's markup.
 
 ## Legacy
 
