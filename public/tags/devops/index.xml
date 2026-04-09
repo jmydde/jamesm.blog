@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Devops on jamesm.blog</title>
+    <title>DevOps on jamesm.blog</title>
     <link>https://jamesm.blog/tags/devops/</link>
-    <description>Recent content in Devops on jamesm.blog</description>
+    <description>Recent content in DevOps on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 23:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 07:11:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS S3 Files - Bridging File Systems and Object Storage</title>
+      <link>https://jamesm.blog/devops/aws-s3-files/</link>
+      <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/devops/aws-s3-files/</guid>
+      <description>Explore AWS S3 Files, a new file system interface that brings high-performance file access to Amazon S3 data without duplication or complex integration.</description>
+    </item>
     <item>
       <title>DevOps in the Age of AI Agents</title>
       <link>https://jamesm.blog/devops/devops-in-the-age-of-ai-agents/</link>

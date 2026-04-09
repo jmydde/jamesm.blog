@@ -116,6 +116,12 @@
 - [ ] **Anomaly Detection: Statistical Methods vs AI-Driven Approaches**
 - [ ] **Feature Engineering for Graphs: Making Raw Data Actually Useful**
 - [x] **Scaling Graph Algorithms: From Prototypes to Production**
+- [ ] **Time Series Fundamentals: Why Time-Ordered Data Breaks Regular ML**
+- [ ] **Statistical Methods in Data Science: T-Tests, Chi-Square, and When to Use Them**
+- [ ] **Python Data Science Stack in Practice: Pandas, NumPy, Scikit-learn Workflow**
+- [ ] **Dimensionality Reduction: PCA, t-SNE, and UMAP Explained**
+- [ ] **Experimental Design: A/B Testing, Statistical Significance, and Sample Size**
+- [ ] **Data Quality and Validation: Building Confidence in Your Datasets**
 
 ### /personal-development
 - [x] **The Engineer's Guide to Managing Creative Burnout**
@@ -124,6 +130,12 @@
 - [ ] **Mindfulness for Developers: Reducing Stress and Improving Focus**
 - [ ] **The Art of Delegation: Leading Teams Effectively**
 - [x] **The Most Valuable Skill Is Knowing What Not To Build**
+- [ ] **Specialization vs Generalization: The T-Shaped Engineer**
+- [ ] **Negotiation Skills for Developers: Getting What You're Worth**
+- [ ] **Technical Interviewing: Assessing Without Algorithmic Gatekeeping**
+- [ ] **From IC to Lead: The Leadership Transition Nobody Talks About**
+- [ ] **Remote Work Optimization: Beyond Zoom Fatigue**
+- [ ] **Career Transitions: When It's Time to Pivot**
 
 ---
 
@@ -160,6 +172,57 @@
 - [ ] **The Anatomy of Good Gear UX: What Hardware Gets Right That Software Misses**
 - [ ] **Knobs, Buttons, and Hands: The Case for Tactile Feedback**
 - [ ] **From the Juno to the Montage: Design Evolution at Yamaha**
+
+## AI + Music Production Workflow
+
+**Posts to write:**
+
+- [ ] **AI Mastering and Mixing: When to Trust the Algorithm vs Your Ears**
+- [ ] **Generative Composition Tools: Looper, Amper, and OpenAI Jukebox Compared**
+- [ ] **Using AI for Arrangement: Expanding Ideas Without Losing Your Sound**
+- [ ] **The Physics of Sound + AI: What Machine Learning Gets Wrong About Audio**
+- [ ] **Real-Time AI Effects: Processing with Models vs Traditional DSP**
+
+---
+
+## Development Practices & Code Quality
+
+**Posts to write:**
+
+- [ ] **Code Review That Actually Improves Code (Not Just Slows It Down)**
+- [ ] **Testing Strategies: Unit Tests, Integration Tests, and When to Abandon Perfectionism**
+- [ ] **Refactoring Under Pressure: Debt vs Technical Investment**
+- [ ] **Debugging Techniques: Systematic Approaches That Scale**
+- [ ] **Documentation That Developers Actually Read**
+- [ ] **Concurrency Patterns: Threads, Async, Queues, and Consensus**
+
+---
+
+## DevOps & Production Systems
+
+**Posts to write:**
+
+- [ ] **Observability Beyond Dashboards: Structured Logging for Incident Response**
+- [ ] **Container Security: Beyond Docker Basics**
+- [ ] **Cost Optimization in Cloud: Identifying and Eliminating Waste**
+- [ ] **Kubernetes Operational Patterns: StatefulSets, DaemonSets, and Job Scheduling**
+- [ ] **Blue-Green Deployments vs Canary Releases: Trade-Offs and Gotchas**
+- [ ] **Disaster Recovery Planning: RPO, RTO, and Testing That Actually Works**
+- [ ] **Infrastructure as Code Patterns: Terraform, CloudFormation, and Drift Detection**
+
+---
+
+## Technical Communication & Writing
+
+**Posts to write:**
+
+- [ ] **Writing Technical Documentation: Structure That Readers Can Follow**
+- [ ] **Blogging as Learning: Why Writing Clarifies Thinking**
+- [ ] **Explaining Complex Concepts: Analogies, Visuals, and Progressive Disclosure**
+- [ ] **Writing Architecture Decision Records (ADRs): Capturing Trade-Offs**
+- [ ] **Storytelling in Tech: Making Technical Content Engaging**
+
+---
 
 ## Generative Art Beyond Music
 

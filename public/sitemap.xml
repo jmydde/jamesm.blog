@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/aws/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/aws-s3-files/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/cloud/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/devops/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/s3/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/storage/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
     <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
@@ -17,9 +44,6 @@
     <loc>https://jamesm.blog/ai/cline-kanban/</loc>
     <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/kanban/</loc>
     <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
@@ -27,9 +51,6 @@
     <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/project-management/</loc>
-    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/json/</loc>
@@ -549,12 +570,6 @@
     <lastmod>2026-04-05T23:16:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ci-cd/</loc>
-    <lastmod>2026-04-05T23:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
-    <lastmod>2026-04-05T23:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-05T23:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/devops-in-the-age-of-ai-agents/</loc>
@@ -1826,9 +1841,6 @@
     <loc>https://jamesm.blog/tags/summits/</loc>
     <lastmod>2023-06-10T06:51:25+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/aws/</loc>
-    <lastmod>2023-06-07T11:04:16+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/aws-summit-2023-videos/</loc>
     <lastmod>2023-06-07T11:04:16+01:00</lastmod>
   </url><url>
@@ -1902,12 +1914,6 @@
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/networking/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/s3/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/storage/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/vault/</loc>
@@ -2077,9 +2083,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/continuous-delivery/</loc>
     <lastmod>2022-08-21T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/cloud/</loc>
-    <lastmod>2022-01-21T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/monitoring/</loc>
     <lastmod>2022-01-21T11:51:18+01:00</lastmod>
