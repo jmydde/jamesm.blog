@@ -77,6 +77,24 @@
 - [ ] **Ableton + Max for Live in 2026: What's Actually New**
 - [ ] **Mobile Music Production: Current Controller + iPad Combinations**
 
+### DIY Hardware & Modular Synths
+
+- [ ] **Introduction to Modular Synthesis: The Building Blocks**
+- [ ] **Eurorack Fundamentals: Format, Power, and Signal Flow**
+- [ ] **DIY vs Commercial: When to Build vs Buy**
+- [ ] **Circuit Bending: Hacking Toys and Synths for New Sounds**
+- [ ] **Building Your First Synth Module: A Practical Guide**
+- [ ] **Patch Programming: From Simple Oscillators to Complex Behavior**
+- [ ] **Modular vs Fixed Architecture: When Limited is More Creative**
+- [ ] **The Economics of Modular: Cost vs Flexibility vs Learning Curve**
+- [ ] **Audio Electronics Fundamentals for Musicians**
+- [ ] **Reading Schematics: From Blueprint to Prototype**
+- [ ] **Cloning Classics: Building Legendary Synth Modules**
+- [ ] **The Voltage Control Standard: Understanding CV**
+- [ ] **Sequencing in Modular: From Simple to Mind-Bending Complexity**
+- [ ] **Analog vs Digital in Modular Systems**
+- [ ] **Case Design and Power Management: The Unglamorous Foundation**
+
 ---
 
 ## Data & Analytics
@@ -172,6 +190,29 @@
 - [ ] **Algorithmic Creativity: Demoscene Then, Generative Art Now**
 - [ ] **Community Architecture: BBS, Forums, Discord, and Social Evolution**
 
+### Design History & Evolution
+
+- [ ] **The Xerox Alto: Where Modern Computing Design Was Born**
+- [ ] **From Command Line to GUI: How Graphical Interfaces Changed Everything**
+- [ ] **The Evolution of Keyboard Layouts: QWERTY and Beyond**
+- [ ] **Designing for the Web: From Tables to Responsive Design**
+- [ ] **The iPhone Effect: How One Device Reshaped Interface Design**
+- [ ] **Skeuomorphism vs Flat Design: Why Design Trends Actually Matter**
+- [ ] **The Mac vs PC Design Philosophy: Different Visions of User Experience**
+- [ ] **Designing for Touch: When Fingers Replaced Mice**
+- [ ] **Dark Mode Wars: The History and Psychology of UI Trends**
+- [ ] **Form Follows Function: Industrial Design Principles in Software**
+- [ ] **The Design System Revolution: From Ad-Hoc to Systematic**
+- [ ] **Color Theory in UI: From Early Terminals to Modern Palettes**
+- [ ] **Typography Evolution: From Fixed-Width to Variable Fonts**
+- [ ] **Button Design: A Surprisingly Complex History**
+- [ ] **Icon Design Through the Ages: From Pixel Art to Scalable Graphics**
+- [ ] **Navigation Patterns: Menu Bars to Hamburgers to AI-Driven Interfaces**
+- [ ] **Accessibility as Afterthought to Core Principle: The Design Evolution**
+- [ ] **Mobile-First Design: How Constraints Drove Innovation**
+- [ ] **Voice Interface Design: The Next Evolution**
+- [ ] **Designing for Attention in an Age of Distraction**
+
 ---
 
 ## Creative & Emerging Tech
@@ -210,6 +251,29 @@
 - [ ] **Spatial Computing in 2026: Why Vision Pro Stumbled and What Comes Next**
 - [ ] **The Quantum Timeline: What Crypto Actually Needs to Fear (And When)**
 - [ ] **WebAssembly as a Platform: What Developers Should Know in 2026**
+
+### Neurotechnology & Brain-Computer Interfaces
+
+- [ ] **Introduction to Brain-Computer Interfaces: How They Actually Work**
+- [ ] **EEG for Musicians: Using Brain Data to Control Sound**
+- [ ] **Brain Activity and Creativity: What Neuroscience Tells Us**
+- [ ] **Neural Interfaces for Music: From Neurofeedback to Direct Control**
+- [ ] **The Neuroscience of Rhythm: Why Humans Are Pattern-Seeking Creatures**
+- [ ] **Brain Implants vs Non-Invasive Interfaces: Trade-Offs and Reality**
+- [ ] **Decoding Music from Brain Signals: The Science Behind It**
+- [ ] **Attention, Flow, and the Brain: Designing for Peak Performance**
+- [ ] **Neuroplasticity and Learning: Why Practice Actually Changes Your Brain**
+- [ ] **Brain Stimulation Techniques: From TMS to Transcranial Current Stimulation**
+- [ ] **Ethics of Brain-Computer Interfaces: Privacy, Agency, and Consent**
+- [ ] **Biofeedback and Music: Real-Time Brain Data as Creative Tool**
+- [ ] **Sleep and Memory: The Neuroscience of Consolidation and Skill Development**
+- [ ] **Neurotransmitters and Creativity: The Chemistry of Innovation**
+- [ ] **Temporal Perception: Why Musicians Experience Time Differently**
+- [ ] **Mirror Neurons and Learning: Understanding by Doing**
+- [ ] **Auditory Perception: How the Brain Processes Sound**
+- [ ] **Synesthesia: When Senses Cross and Create New Possibilities**
+- [ ] **Emotional Resonance: The Neuroscience of Why Music Moves Us**
+- [ ] **BCIs Beyond Medicine: Gaming, Entertainment, and Creative Expression**
 
 ### Space & Future Infrastructure
 
