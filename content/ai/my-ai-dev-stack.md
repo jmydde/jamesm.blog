@@ -26,6 +26,8 @@ TERMINAL: Claude Code CLI  -  heavy multi-file work
 SSH: Termius (mobile remote access)
 ```
 
+[Cursor](https://www.cursor.com/) | [VS Code](https://code.visualstudio.com/) | [Cline](https://github.com/cline/cline) | [Continue.dev](https://continue.dev/) | [Claude Code](https://code.claude.com/) | [Termius](https://www.termius.com/)
+
 ### AI Tools & LLM Backends
 ```
 AGENTS:  Cline, Claude Code, Aider, Windsurf
@@ -33,6 +35,8 @@ LOCAL:   Ollama (free, instant completions)
 ROUTERS: OpenRouter, LiteLLM (cost & speed optimization)
 WEB:     ChatGPT, Perplexity, Claude Web, Grok
 ```
+
+[Aider](https://aider.chat/) | [Windsurf](https://codeium.com/windsurf) | [Ollama](https://ollama.ai/) | [OpenRouter](https://openrouter.ai/) | [LiteLLM](https://litellm.ai/) | [ChatGPT](https://chatgpt.com/) | [Perplexity](https://www.perplexity.ai/) | [Grok](https://x.com/i/grok)
 
 ---
 

@@ -75,15 +75,15 @@ The market changes fast, but the categories are more stable than the individual 
 
 These are the models most people think of first:
 
-- OpenAI GPT models
-- Anthropic Claude models
-- Google Gemini models
+- [OpenAI GPT](https://openai.com/) models
+- [Anthropic Claude](https://www.anthropic.com/) models
+- [Google Gemini](https://gemini.google.com/) models
 
 They tend to be strongest at broad reasoning, writing, coding help, and multimodal tasks. They are usually the best choice when quality matters more than absolute cost.
 
 ### Open-weight and self-hostable models
 
-This category includes model families such as Llama and other open or partially open ecosystems.
+This category includes model families such as [Llama](https://www.meta.com/llama/) and other open or partially open ecosystems.
 
 These matter because they give developers more control over:
 
@@ -99,13 +99,13 @@ They are often a better fit for experimentation, internal tooling, high-volume w
 
 Some tools matter less because of the underlying model and more because of how they are packaged:
 
-- ChatGPT
-- Claude
-- Gemini
-- Perplexity
-- Notion AI
-- GitHub Copilot
-- Cursor
+- [ChatGPT](https://chatgpt.com/)
+- [Claude](https://claude.ai/)
+- [Gemini](https://gemini.google.com/)
+- [Perplexity](https://www.perplexity.ai/)
+- [Notion AI](https://www.notion.so/product/ai)
+- [GitHub Copilot](https://github.com/features/copilot)
+- [Cursor](https://www.cursor.com/)
 
 These are not just models. They are workflows.
 

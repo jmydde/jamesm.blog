@@ -6,7 +6,7 @@ tags: ["ai", "robotics", "tesla", "tesla bot", "optimus", "robots"]
 ---
 
 ## Overview
-[Tesla](https://www.tesla.com/en_gb/AI) Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It's designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks.  It's equipped with Tesla-designed AI for navigation & understanding surroundings.  The latest version (Optimus Gen 2) boasts faster walking, lighter weight & improved dexterity.
+[Tesla Optimus](https://www.tesla.com/en_gb/AI), also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by [Tesla](https://www.tesla.com/) since 2021. It's designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It's equipped with Tesla-designed AI for navigation & understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight & improved dexterity.
 
 [Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk) envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There's even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.
 

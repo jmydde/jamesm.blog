@@ -13,6 +13,8 @@ That approach breaks down quickly.
 
 In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.
 
+Key tools in this stack: [Claude Code](https://code.claude.com/), [Cursor AI](https://www.cursor.com/), [Cline](https://github.com/cline/cline), and spec-driven development.
+
 That is the setup I actually think makes sense now.
 
 ------------------------------------------------------------------------

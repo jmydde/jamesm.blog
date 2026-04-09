@@ -7,7 +7,7 @@ tags: ['ai', 'claude', 'code reviews']
 
 I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
 
-A good example of that is the new **Code Review** feature in Claude Code, which Anthropic just released in research preview.
+A good example of that is the new **Code Review** feature in [Claude Code](https://code.claude.com/), which [Anthropic](https://www.anthropic.com/) just released in research preview.
 
 Docs: https://code.claude.com/docs/en/code-review
 

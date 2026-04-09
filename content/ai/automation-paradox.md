@@ -12,7 +12,7 @@ Every time AI gets better at a specific task - writing code, analyzing documents
 
 ## The Direction Problem
 
-In 1997, Deep Blue beat Kasparov at chess. The immediate prediction was obvious: computers will replace chess players.
+In 1997, [Deep Blue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)) beat [Kasparov](https://en.wikipedia.org/wiki/Garry_Kasparov) at chess. The immediate prediction was obvious: computers will replace chess players.
 
 But something unexpected happened. The number of professional chess players actually *grew*. And their salaries didn't tank. Why? Because the computer solved the "execution" problem - calculating positions, evaluating moves - leaving the human problem unsolved: *what kind of player do you want to be?*
 

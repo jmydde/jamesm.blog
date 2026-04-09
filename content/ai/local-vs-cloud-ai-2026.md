@@ -16,8 +16,8 @@ Here is the tradeoff landscape as it stands today.
 
 Despite the massive growth in Small Language Models (SLMs), there is still a clear hierarchy in "reasoning density."
 
-- **Cloud (Frontier Models):** Models like Claude 4.6 or GPT-5.x remain the undisputed kings of complex architectural reasoning. If you need to untangle a circular dependency across twenty microservices, you send that to the cloud.
-- **Local (Edge Models):** Models in the 7B to 32B range (like Qwen 2.5 Coder or DeepSeek V3) are now "perfect" for 90% of coding tasks. They handle function implementation, unit tests, and refactoring with ease.
+- **Cloud (Frontier Models):** Models like [Claude 4.6](https://www.anthropic.com/research) or GPT-5.x remain the undisputed kings of complex architectural reasoning. If you need to untangle a circular dependency across twenty microservices, you send that to the cloud.
+- **Local (Edge Models):** Models in the 7B to 32B range (like [Qwen](https://qwenlm.github.io/) 2.5 Coder or [DeepSeek V3](https://github.com/deepseek-ai)) are now "perfect" for 90% of coding tasks. They handle function implementation, unit tests, and refactoring with ease.
 
 **The 2026 Rule:** Use the Cloud for *planning* and Local for *execution*.
 
@@ -25,7 +25,7 @@ Despite the massive growth in Small Language Models (SLMs), there is still a cle
 
 In 2026, data sovereignty is the primary driver for local AI adoption in the enterprise.
 
-Companies have realized that while providers promise "zero data retention," the risk of a [source code leak](/ai/claude-code-source-leak/) or a policy shift is too high for core intellectual property. Running a local instance via **Ollama** or **LM Studio** provides an air-gapped guarantee that your proprietary logic never leaves your internal network.
+Companies have realized that while providers promise "zero data retention," the risk of a [source code leak](/ai/claude-code-source-leak/) or a policy shift is too high for core intellectual property. Running a local instance via [**Ollama**](https://ollama.ai/) or [**LM Studio**](https://lmstudio.ai/) provides an air-gapped guarantee that your proprietary logic never leaves your internal network.
 
 ## 3. Latency: The Flow State Metric
 
@@ -56,7 +56,7 @@ Local AI has brought back the "Offline Developer." Being able to refactor a lega
 
 ## The 2026 Architect’s Stack
 
-The most successful setups I see this year don't choose one; they use a router-based approach (like **LiteLLM** or **OpenRouter**):
+The most successful setups I see this year don't choose one; they use a router-based approach (like [**LiteLLM**](https://litellm.ai/) or [**OpenRouter**](https://openrouter.ai/)):
 
 1.  **Local (Default):** For all inline completions, docstring generation, and small-scope bug fixes.
 2.  **Cheap Cloud (Fallback):** When local resources are under heavy load or for non-sensitive research.

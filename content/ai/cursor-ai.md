@@ -13,7 +13,7 @@ The experience is difficult to overstate: it changes how you approach building s
 
 ### Integrating GitHub Spec Kit: The Missing Link
 
-The biggest leap in my own workflow has come from integrating GitHub Spec Kit into Cursor. Spec Kit provides a structured foundation - `spec.md`, `constitution.md`, requirements, boundaries, acceptance criteria - everything that keeps a project coherent as it evolves.
+The biggest leap in my own workflow has come from integrating [GitHub Spec Kit](https://github.com/features/spec-kit) into Cursor. Spec Kit provides a structured foundation - `spec.md`, `constitution.md`, requirements, boundaries, acceptance criteria - everything that keeps a project coherent as it evolves.
 
 Cursor treats those specs as living, authoritative documents. Once the rules and expectations are written down, Cursor uses them as constraints. It respects them, enforces them, and even highlights when code drifts away from them. Instead of planning in one place and coding in another, everything merges into a single iterative loop:
 

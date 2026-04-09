@@ -12,7 +12,7 @@ Ollama has quietly become the go-to tool for developers who want to run large la
 
 ## What is Ollama?
 
-Ollama is a lightweight platform designed to make running open-source language models accessible. It handles the complexity of model management - downloading, optimization, memory management - so you just run a command and start prompting.
+[Ollama](https://ollama.ai/) is a lightweight platform designed to make running open-source language models accessible. It handles the complexity of model management - downloading, optimization, memory management - so you just run a command and start prompting.
 
 It works on Mac, Linux, and Windows, and the install is straightforward. Download from [ollama.ai](https://ollama.ai), install, and you're ready to pull models.
 
@@ -37,17 +37,17 @@ You can also run models in the background and query them via HTTP API on `localh
 
 The Ollama library has grown significantly. Here are the standouts:
 
-**Mistral 7B**  -  The speed champion. Fast inference, surprisingly good reasoning for its size. Great for real-time applications.
+**[Mistral 7B](https://mistral.ai/)**  -  The speed champion. Fast inference, surprisingly good reasoning for its size. Great for real-time applications.
 
-**Llama 2 (7B, 13B, 70B)**  -  Meta's Llama series offers a range of sizes. The 13B version is a sweet spot for most machines. Solid all-around performer.
+**[Llama 2](https://www.meta.com/llama/) (7B, 13B, 70B)**  -  Meta's Llama series offers a range of sizes. The 13B version is a sweet spot for most machines. Solid all-around performer.
 
 **Neural Chat**  -  A conversational model tuned for dialogue. Feels more natural than raw base models.
 
-**Phi**  -  Microsoft's compact model. Runs on modest hardware, useful for edge cases or resource-constrained environments.
+**[Phi](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)**  -  Microsoft's compact model. Runs on modest hardware, useful for edge cases or resource-constrained environments.
 
 **Openclaw**  -  The newcomer. Built for code-intensive tasks with strong reasoning capabilities.
 
-**DeepSeek Coder**  -  Specifically trained for code generation. If you're using Ollama for programming assistance, worth trying.
+**[DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder)**  -  Specifically trained for code generation. If you're using Ollama for programming assistance, worth trying.
 
 You can see the full library with `ollama list` or browse at [ollama.ai/library](https://ollama.ai/library).
 

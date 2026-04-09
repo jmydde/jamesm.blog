@@ -8,7 +8,7 @@ description: "Why smaller language models are proving that efficiency, speed, an
 
 # The Rise of Small Language Models: Why Size Isn't Everything
 
-For years, the narrative was simple: bigger is better. GPT-4 was massive, Claude was massive, and the race seemed to be about who could train the largest model on the most data. But that story is changing. Small language models - typically under 15 billion parameters - are proving that you don't need 175 billion parameters to solve real problems.
+For years, the narrative was simple: bigger is better. [GPT-4](https://openai.com/research/gpt-4) was massive, [Claude](https://claude.ai/) was massive, and the race seemed to be about who could train the largest model on the most data. But that story is changing. Small language models - typically under 15 billion parameters - are proving that you don't need 175 billion parameters to solve real problems.
 
 The shift isn't just about efficiency. It's a fundamental change in how we think about AI deployment, cost, and what actually matters for most use cases.
 
@@ -16,7 +16,7 @@ The shift isn't just about efficiency. It's a fundamental change in how we think
 
 The turning point came when researchers realized something counterintuitive: smaller models trained on high-quality data can outperform larger models trained on general internet scale data. Techniques like distillation, instruction tuning, and quantization meant that you could take the knowledge from a large model and compress it into something that runs on your laptop.
 
-Then OpenAI released GPT-4 Turbo, Claude pushed Opus, and the race seemed set on maximum parameters again. But meanwhile, Mistral released 7B, Microsoft shipped Phi, and Meta released Llama 2. These models didn't just work - they worked *well*, often outperforming much larger competitors on benchmark tasks.
+Then [OpenAI](https://openai.com/) released [GPT-4 Turbo](https://openai.com/research/gpt-4), [Anthropic](https://www.anthropic.com/) pushed Opus, and the race seemed set on maximum parameters again. But meanwhile, [Mistral](https://mistral.ai/) released 7B, [Microsoft](https://www.microsoft.com/) shipped Phi, and [Meta](https://www.meta.com/) released [Llama 2](https://www.meta.com/llama/). These models didn't just work - they worked *well*, often outperforming much larger competitors on benchmark tasks.
 
 The practical reality became undeniable: for most real-world applications, you don't need a 70 billion parameter model.
 

@@ -20,7 +20,7 @@ The cost of that hidden work was enormous. But it was invisible because it was l
 
 With AI, that cost becomes visible.
 
-Because now, when you hand Claude or GPT an ambiguous spec, it doesn't come back with questions and iterations. It comes back with a decision. It picks one interpretation and runs with it. You get code that's perfectly consistent with the spec - and completely wrong for what you actually wanted.
+Because now, when you hand [Claude](https://claude.ai/) or [GPT](https://chatgpt.com/) an ambiguous spec, it doesn't come back with questions and iterations. It comes back with a decision. It picks one interpretation and runs with it. You get code that's perfectly consistent with the spec - and completely wrong for what you actually wanted.
 
 This has flipped the economics.
 

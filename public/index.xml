@@ -400,14 +400,7 @@ But the real answer is more nuanced - and getting it wrong can cost you &lt;em&g
 SECONDARY: VS Code (+ Cline + Continue.dev)  -  battle-tested
 TERMINAL: Claude Code CLI  -  heavy multi-file work
 SSH: Termius (mobile remote access)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ai-tools--llm-backends&#34;&gt;AI Tools &amp;amp; LLM Backends&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;AGENTS:  Cline, Claude Code, Aider, Windsurf
-LOCAL:   Ollama (free, instant completions)
-ROUTERS: OpenRouter, LiteLLM (cost &amp;amp; speed optimization)
-WEB:     ChatGPT, Perplexity, Claude Web, Grok
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h2 id=&#34;tool-selection-decision-tree&#34;&gt;Tool Selection Decision Tree&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Use this to pick the right tool for the task:&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor&lt;/a&gt; | &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;VS Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/cline/cline&#34;&gt;Cline&lt;/a&gt; | &lt;a href=&#34;https://continue.dev/&#34;&gt;Continue.dev&lt;/a&gt; | &lt;a href=&#34;https://code.claude.com/&#34;&gt;Claude Code&lt;/a&gt; | &lt;a href=&#34;https://www.termius.com/&#34;&gt;Termius&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>What the Amiga Got Right (That We&#39;re Still Copying)</title>
@@ -465,7 +458,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude-code-review/</guid>
       <description>&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;
-&lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in Claude Code, which Anthropic just released in research preview.&lt;/p&gt;
+&lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in &lt;a href=&#34;https://code.claude.com/&#34;&gt;Claude Code&lt;/a&gt;, which &lt;a href=&#34;https://www.anthropic.com/&#34;&gt;Anthropic&lt;/a&gt; just released in research preview.&lt;/p&gt;
 &lt;p&gt;Docs: &lt;a href=&#34;https://code.claude.com/docs/en/code-review&#34;&gt;https://code.claude.com/docs/en/code-review&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;At first glance it sounds like another &amp;ldquo;AI reviews your code&amp;rdquo; feature. We&amp;rsquo;ve had plenty of those.&lt;/p&gt;
 &lt;p&gt;But when you look closer, this one is actually quite different.&lt;/p&gt;
@@ -2369,7 +2362,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <pubDate>Sun, 21 Apr 2024 20:44:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/tesla-optimus-robot/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI&#34;&gt;Tesla&lt;/a&gt; Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It&amp;rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks.  It&amp;rsquo;s equipped with Tesla-designed AI for navigation &amp;amp; understanding surroundings.  The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp;amp; improved dexterity.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI&#34;&gt;Tesla Optimus&lt;/a&gt;, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by &lt;a href=&#34;https://www.tesla.com/&#34;&gt;Tesla&lt;/a&gt; since 2021. It&amp;rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It&amp;rsquo;s equipped with Tesla-designed AI for navigation &amp;amp; understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp;amp; improved dexterity.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Elon_Musk&#34;&gt;Elon Musk&lt;/a&gt; envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&amp;rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.&lt;/p&gt;</description>
     </item>
     <item>
@@ -2428,7 +2421,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between Microsoft, OpenAI, SoftBank, and Oracle to build a series of massive AI supercomputers and data centers.&lt;/p&gt;
+&lt;p&gt;Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between &lt;a href=&#34;https://www.microsoft.com/&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://group.softbank/en/&#34;&gt;SoftBank&lt;/a&gt;, and &lt;a href=&#34;https://www.oracle.com/&#34;&gt;Oracle&lt;/a&gt; to build a series of massive AI supercomputers and data centers.&lt;/p&gt;
 &lt;p&gt;Originally reported as a Microsoft-OpenAI effort, the project was expanded in January 2025 to include SoftBank&amp;rsquo;s Vision Fund and Oracle as major partners. The partnership combines OpenAI&amp;rsquo;s AI expertise, Microsoft&amp;rsquo;s cloud infrastructure and enterprise reach, SoftBank&amp;rsquo;s capital and global networks, and Oracle&amp;rsquo;s database and enterprise technology capabilities.&lt;/p&gt;</description>
     </item>
     <item>
@@ -2438,10 +2431,10 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <guid>https://jamesm.blog/ai/google-gemini-ultra/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;
-&lt;p&gt;Google Gemini Ultra was Google DeepMind’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Google Gemini Ultra&lt;/a&gt; was &lt;a href=&#34;https://deepmind.google/&#34;&gt;Google DeepMind&lt;/a&gt;’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Performance Highlights&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
+&lt;li&gt;Achieves 90.0% on &lt;a href=&#34;https://github.com/hendrycks/MMLU&#34;&gt;MMLU benchmark&lt;/a&gt; (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
 &lt;li&gt;Multimodal reasoning across text, images, video, and code.&lt;/li&gt;
 &lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
 &lt;/ul&gt;
@@ -3530,8 +3523,8 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
       <link>https://jamesm.blog/ai/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by GitHub in partnership with OpenAI. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;
-&lt;p&gt;GitHub Copilot uses advanced language models (GPT-4 based) to suggest code, functions, and solutions in real-time, right from your editor.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; in partnership with &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;
+&lt;p&gt;GitHub Copilot uses advanced language models (&lt;a href=&#34;https://openai.com/research/gpt-4&#34;&gt;GPT-4&lt;/a&gt; based) to suggest code, functions, and solutions in real-time, right from your editor.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Code autocompletion and function generation&lt;/li&gt;

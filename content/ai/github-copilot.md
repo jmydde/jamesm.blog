@@ -4,9 +4,9 @@ date: 2023-01-14T11:51:18+01:00
 draft: false
 tags: ['ai', 'tools','github']
 ---
-[GitHub Copilot](https://github.com/features/copilot) is an AI pair programmer developed by GitHub in partnership with OpenAI. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.
+[GitHub Copilot](https://github.com/features/copilot) is an AI pair programmer developed by [GitHub](https://github.com/) in partnership with [OpenAI](https://openai.com/). It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.
 
-GitHub Copilot uses advanced language models (GPT-4 based) to suggest code, functions, and solutions in real-time, right from your editor.
+GitHub Copilot uses advanced language models ([GPT-4](https://openai.com/research/gpt-4) based) to suggest code, functions, and solutions in real-time, right from your editor.
 
 **Key Features**
 - Code autocompletion and function generation
@@ -15,12 +15,12 @@ GitHub Copilot uses advanced language models (GPT-4 based) to suggest code, func
 - Support for dozens of programming languages
 
 **Supported IDEs**
-- Visual Studio Code
-- Visual Studio
-- JetBrains IDEs (IntelliJ, PyCharm, etc.)
-- Neovim
-- Vim
-- GitHub.com editor
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio](https://visualstudio.microsoft.com/)
+- [JetBrains IDEs](https://www.jetbrains.com/) (IntelliJ, PyCharm, etc.)
+- [Neovim](https://neovim.io/)
+- [Vim](https://www.vim.org/)
+- [GitHub.com editor](https://github.com/)
 
 **Pricing**
 - **Free tier:** Available to verified students, maintainers of popular open-source projects, and teachers
