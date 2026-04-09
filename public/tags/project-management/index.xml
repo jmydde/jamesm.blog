@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project-Management on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/project-management/</link>
+    <description>Recent content in Project-Management on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 07:44:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cline &#43; Kanban: Autonomous Development Meets Project Management</title>
+      <link>https://jamesm.blog/ai/cline-kanban/</link>
+      <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline-kanban/</guid>
+      <description>How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management.</description>
+    </item>
+  </channel>
+</rss>

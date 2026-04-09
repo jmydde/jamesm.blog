@@ -3,13 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-09T06:17:00+00:00</lastmod>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2026-04-09T06:17:00+00:00</lastmod>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/automation/</loc>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/cline/</loc>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/cline-kanban/</loc>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-09T06:17:00+00:00</lastmod>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/kanban/</loc>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/mcp/</loc>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/project-management/</loc>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-09T07:44:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/json/</loc>
     <lastmod>2026-04-09T06:17:00+00:00</lastmod>
@@ -24,9 +45,6 @@
     <lastmod>2026-04-09T06:17:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/structured-outputs-schema/</loc>
-    <lastmod>2026-04-09T06:17:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-09T06:17:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/context-window/</loc>
@@ -317,10 +335,10 @@
     <loc>https://jamesm.blog/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
+    <loc>https://jamesm.blog/categories/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/categories/data-engineering/</loc>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/data-science/</loc>
@@ -388,9 +406,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/zx-spectrum/</loc>
     <lastmod>2026-04-08T06:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/automation/</loc>
-    <lastmod>2026-04-07T14:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/future-of-work/</loc>
     <lastmod>2026-04-07T14:00:00+00:00</lastmod>
@@ -495,9 +510,6 @@
     <lastmod>2026-04-06T00:09:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/claude-code/</loc>
-    <lastmod>2026-04-06T00:05:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/cline/</loc>
     <lastmod>2026-04-06T00:05:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/cursor-ai/</loc>
