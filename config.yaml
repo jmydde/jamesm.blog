@@ -42,7 +42,7 @@ languages:
           url: /ai
         - name: Blockchain
           url: /blockchain
-        - name: Data Engineering
+        - name: Data Eng
           url: /data-engineering
         - name: Data Science
           url: /data-science
@@ -50,9 +50,9 @@ languages:
           url: /devops
         - name: General
           url: /general
-        - name: Retro Computing
+        - name: Retro
           url: /retro-computing
-        - name: Music Production
+        - name: Music
           url: /music-production
         - name: Personal Dev
           url: /personal-development
