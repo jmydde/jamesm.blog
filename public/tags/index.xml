@@ -11,13 +11,62 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 08:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:03:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Efficiency</title>
+      <link>https://jamesm.blog/tags/efficiency/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local-Ai</title>
+      <link>https://jamesm.blog/tags/local-ai/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/local-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mistral</title>
+      <link>https://jamesm.blog/tags/mistral/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/mistral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://jamesm.blog/tags/open-source/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phi</title>
+      <link>https://jamesm.blog/tags/phi/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/phi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slms</title>
+      <link>https://jamesm.blog/tags/slms/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/slms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Small-Language-Models</title>
+      <link>https://jamesm.blog/tags/small-language-models/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/small-language-models/</guid>
       <description></description>
     </item>
     <item>
@@ -49,13 +98,6 @@
       <description></description>
     </item>
     <item>
-      <title>Local-Ai</title>
-      <link>https://jamesm.blog/tags/local-ai/</link>
-      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/local-ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Models</title>
       <link>https://jamesm.blog/tags/models/</link>
       <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
@@ -67,13 +109,6 @@
       <link>https://jamesm.blog/tags/ollama/</link>
       <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ollama/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open-Source</title>
-      <link>https://jamesm.blog/tags/open-source/</link>
-      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
@@ -126,7 +161,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music-Production</title>
+      <title>Music Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Wed, 08 Apr 2026 07:50:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>

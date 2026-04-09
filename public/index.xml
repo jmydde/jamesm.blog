@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 08:45:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:03:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Rise of Small Language Models: Why Size Isn&#39;t Everything</title>
+      <link>https://jamesm.blog/ai/small-language-models/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/small-language-models/</guid>
+      <description>Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development.</description>
+    </item>
     <item>
       <title>Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released</title>
       <link>https://jamesm.blog/ai/claude-mythos-benchmarks/</link>
