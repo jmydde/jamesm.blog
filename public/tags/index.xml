@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 06:50:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:17:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://jamesm.blog/tags/ai/</link>
+      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Json</title>
+      <link>https://jamesm.blog/tags/json/</link>
+      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/json/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://jamesm.blog/tags/llm/</link>
+      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schema</title>
+      <link>https://jamesm.blog/tags/schema/</link>
+      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/schema/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Structured Outputs</title>
+      <link>https://jamesm.blog/tags/structured-outputs/</link>
+      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/structured-outputs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Context Window</title>
+      <link>https://jamesm.blog/tags/context-window/</link>
+      <pubDate>Thu, 09 Apr 2026 06:14:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/context-window/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Practical Development</title>
+      <link>https://jamesm.blog/tags/practical-development/</link>
+      <pubDate>Thu, 09 Apr 2026 06:14:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/practical-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Artemis</title>
       <link>https://jamesm.blog/tags/artemis/</link>
@@ -74,13 +123,6 @@
       <link>https://jamesm.blog/tags/spacex/</link>
       <pubDate>Thu, 09 Apr 2026 06:50:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spacex/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Thu, 09 Apr 2026 06:40:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -385,7 +427,7 @@
       <description></description>
     </item>
     <item>
-      <title>AI Models</title>
+      <title>Ai Models</title>
       <link>https://jamesm.blog/tags/ai-models/</link>
       <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai-models/</guid>
@@ -476,7 +518,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music Production</title>
+      <title>Music-Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Wed, 08 Apr 2026 07:50:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>
@@ -532,17 +574,17 @@
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
-      <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
+      <title>Data Engineering</title>
       <link>https://jamesm.blog/tags/data-engineering/</link>
       <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Science</title>
+      <link>https://jamesm.blog/tags/data-science/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
@@ -578,13 +620,6 @@
       <link>https://jamesm.blog/tags/cursor/</link>
       <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>https://jamesm.blog/tags/llm/</link>
-      <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/llm/</guid>
       <description></description>
     </item>
     <item>
@@ -1505,10 +1540,24 @@
       <description></description>
     </item>
     <item>
+      <title>Fm Synthesis</title>
+      <link>https://jamesm.blog/tags/fm-synthesis/</link>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/fm-synthesis/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Graph-Algorithms</title>
       <link>https://jamesm.blog/tags/graph-algorithms/</link>
       <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/graph-algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music History</title>
+      <link>https://jamesm.blog/tags/music-history/</link>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/music-history/</guid>
       <description></description>
     </item>
     <item>
@@ -1530,6 +1579,20 @@
       <link>https://jamesm.blog/tags/scaling/</link>
       <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/scaling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Synthesizers</title>
+      <link>https://jamesm.blog/tags/synthesizers/</link>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/synthesizers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yamaha Dx7</title>
+      <link>https://jamesm.blog/tags/yamaha-dx7/</link>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/tags/yamaha-dx7/</guid>
       <description></description>
     </item>
     <item>
@@ -1656,13 +1719,6 @@
       <link>https://jamesm.blog/tags/roland/</link>
       <pubDate>Thu, 22 Jan 2026 22:31:21 +0100</pubDate>
       <guid>https://jamesm.blog/tags/roland/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Synthesizers</title>
-      <link>https://jamesm.blog/tags/synthesizers/</link>
-      <pubDate>Thu, 22 Jan 2026 22:31:21 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/synthesizers/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Context Window on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/context-window/</link>
+    <description>Recent content in Context Window on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 06:14:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/context-window/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The LLM Context Window Arms Race: Does It Actually Matter?</title>
+      <link>https://jamesm.blog/ai/llm-context-window-arms-race/</link>
+      <pubDate>Thu, 09 Apr 2026 06:14:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/llm-context-window-arms-race/</guid>
+      <description>The obsession with massive context windows misses what actually matters in production LLM systems</description>
+    </item>
+  </channel>
+</rss>

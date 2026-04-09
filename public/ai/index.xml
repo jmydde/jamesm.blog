@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 06:40:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:17:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structured Outputs: When Your AI Needs to Follow a Schema</title>
+      <link>https://jamesm.blog/ai/structured-outputs-schema/</link>
+      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/structured-outputs-schema/</guid>
+      <description>Why guaranteeing output format matters more than you think, and when to use structured outputs in production</description>
+    </item>
+    <item>
+      <title>The LLM Context Window Arms Race: Does It Actually Matter?</title>
+      <link>https://jamesm.blog/ai/llm-context-window-arms-race/</link>
+      <pubDate>Thu, 09 Apr 2026 06:14:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/llm-context-window-arms-race/</guid>
+      <description>The obsession with massive context windows misses what actually matters in production LLM systems</description>
+    </item>
     <item>
       <title>Token Economics: Why the Cost of AI Isn&#39;t Going Down</title>
       <link>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</link>
