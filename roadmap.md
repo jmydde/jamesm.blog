@@ -61,6 +61,7 @@
 - [ ] **The Intuitive Producer's Toolkit: Gear That Gets Out of Your Way**
 - [ ] **The Yamaha Montage M: 6 Months In Real World Usage**
 - [ ] **Why Every Producer Should Learn At Least One Proper Instrument**
+- [x] **u-he Zebra 3: The Modular Beast Unleashed**
 - [ ] **Arrangement Is 90% Of The Track: The Most Underrated Skill**
 
 ### AI + Music Production Workflow
