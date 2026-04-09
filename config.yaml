@@ -48,6 +48,8 @@ languages:
           url: /devops
         - name: General
           url: /general
+        - name: Retro Computing
+          url: /retro-computing
         - name: Music Production
           url: /music-production
         - name: Personal Dev
@@ -71,12 +73,13 @@ params:
   #disableThemeToggle:    true
   displayFullLangName:    true
   images:                 ["papermod-cover.png"]
-  mainSections: 
+  mainSections:
     - ai
     - blockchain
     - data-engineering
     - devops
     - general
+    - retro-computing
     - music-production
     - personal-development
     - space
@@ -108,7 +111,8 @@ params:
       - [**Blockchain**](/blockchain) (Bitcoin, Blockchain, decentralization, Polkadot)
       - [**Data Engineering**](/data-engineering) (databases, ETL, Data Science, ML)
       - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
-      - [**General**](/general) (general topics & news)
+      - [**General**](/general) (culture, science, miscellany)
+      - [**Retro Computing**](/retro-computing) (computing history, 8-bit era, hardware retrospectives)
       - [**Music Production**](/music-production) (computer hardware & software)
       - [**Personal Development**](/personal-development) (books, courses)
       - [**Space**](/space) (exploration, rockets)

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Retro Computing | jamesm.blog</title>
+<meta name="keywords" content="retro-computing">
+<meta name="description" content="A dive into computing history: from the ZX Spectrum and BBC Micro through the Commodore Amiga, the demoscene, early online communities, and the ingenious copy-protection schemes that shaped an era. Personal essays spanning 45 years of computing, museum visits, and retrospectives on hardware and ideas that continue to influence modern computing.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/retro-computing/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/retro-computing/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/retro-computing/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jamesm.blog/retro-computing/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Retro Computing">
+  <meta property="og:description" content="A dive into computing history: from the ZX Spectrum and BBC Micro through the Commodore Amiga, the demoscene, early online communities, and the ingenious copy-protection schemes that shaped an era. Personal essays spanning 45 years of computing, museum visits, and retrospectives on hardware and ideas that continue to influence modern computing.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="Retro Computing">
+  <meta name="twitter:description" content="A dive into computing history: from the ZX Spectrum and BBC Micro through the Commodore Amiga, the demoscene, early online communities, and the ingenious copy-protection schemes that shaped an era. Personal essays spanning 45 years of computing, museum visits, and retrospectives on hardware and ideas that continue to influence modern computing.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Retro Computing",
+      "item": "https://jamesm.blog/retro-computing/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data">
+                    <span>Data</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span class="active">Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a></div>
+  <h1>
+    Retro Computing
+    <a href="/retro-computing/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+<div class="post-content"><p>A dive into computing history: from the ZX Spectrum and BBC Micro through the Commodore Amiga, the demoscene, early online communities, and the ingenious copy-protection schemes that shaped an era. Personal essays spanning 45 years of computing, museum visits, and retrospectives on hardware and ideas that continue to influence modern computing.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Copy Protection Wars: The Ingenious Schemes Of 1980s Software
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Copy Protection Wars: The Ingenious Schemes Of 1980s Software Before the era of always-online DRM and AI-powered anti-tamper software, the battle against software piracy was fought with cardboard, plastic, and clever manipulation of magnetic disk geometry. In the 1980s, developers faced a simple problem: floppy disks were incredibly easy to copy. Their solutions, however, were anything but simple.
+This was the “Copy Protection War,” an arms race between software houses and the burgeoning “cracker” scene that birthed the Demoscene and defined digital culture for a generation.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-08 06:11:00 +0000 +0000'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Copy Protection Wars: The Ingenious Schemes Of 1980s Software" href="https://jamesm.blog/retro-computing/copy-protection-wars/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">When 8-bit Computers Taught An Entire Nation To Code
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>There is a specific sound that defines the childhood of a generation: the high-pitched screech and rhythmic thrum of a data cassette loading into an 8-bit computer.
+In the early 1980s, the United Kingdom underwent a transformation that was arguably more profound than the arrival of the internet a decade later. While the US was falling in love with the office-centric IBM PC and the “appliance” feel of the Apple Macintosh, the UK was building a nation of bedroom coders.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-08 06:00:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to When 8-bit Computers Taught An Entire Nation To Code" href="https://jamesm.blog/retro-computing/8-bit-coding/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">What the Amiga Got Right (That We&#39;re Still Copying)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>What the Amiga Got Right (That We’re Still Copying) The Commodore Amiga was not the most successful computer. It was not the fastest. It was not the cheapest. It was introduced in 1985, bought by Commodore in a panic, and discontinued by 1994 as the company collapsed. By most commercial metrics, it was a failure.
+Yet almost every good idea in modern computing traces back to the Amiga. Preemptive multitasking. Graphics layers and compositing. Named pipes. Memory protection. Hardware acceleration. Plug-and-play peripherals. Scripting languages. Digital audio and video editing. Networking. The Amiga did these things in 1985 when IBM PCs were still running in 8-bit mode.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-03 14:00:00 +0000 +0000'>April 3, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to What the Amiga Got Right (That We&#39;re Still Copying)" href="https://jamesm.blog/retro-computing/what-the-amiga-got-right-that-were-still-copying/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Compunet: Britain&#39;s Forgotten Pre-Internet Community
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Compunet: Britain’s Forgotten Pre-Internet Community Long before Facebook, Twitter, or Reddit, there was Compunet. In 1982, in a small flat in Islington, London, two teenagers set up a computer bulletin board system on a network called Prestel. Within a few years, it had become one of the world’s first genuine online communities—thousands of people meeting in cyberspace, exchanging messages, playing games, and falling in love, all before the internet existed in public consciousness.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-03 09:00:00 +0000 +0000'>April 3, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Compunet: Britain&#39;s Forgotten Pre-Internet Community" href="https://jamesm.blog/retro-computing/compunet-britains-forgotten-pre-internet-community/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Demoscene: Where Art Met Assembly
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The Demoscene: Where Art Met Assembly The demoscene wasn’t about games. It wasn’t about productivity software or killer apps. It was about taking a computer that wasn’t designed for art, stripping away the operating system, and hand-crafting something beautiful in 512 bytes of RAM.
+This was the demoscene, and it was the most vital creative community in computing.
+What Was the Demoscene? A “demo” is a real-time audiovisual production written from scratch—no pre-rendered video, no external assets, just code and mathematics creating sound and graphics in real time on modest hardware. Think of it as a 4-minute music video that weighs 64 kilobytes and runs on a Commodore 64.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-02 14:00:00 +0000 +0000'>April 2, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Demoscene: Where Art Met Assembly" href="https://jamesm.blog/retro-computing/the-demoscene-where-art-met-assembly/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’m sitting at a desk with two machines.
+One is a 1981 ZX Spectrum, 16KB of RAM, sitting on a desk in my garage. The other is a 2026 MacBook running Claude Code. Between them lie 45 years of computing history.
+And here’s the thing that struck me recently: I’m still doing the same thing.
+On the Spectrum, I’m typing:
+10 PRINT &#34;HELLO WORLD&#34; 20 INPUT A$ 30 IF A$ = &#34;YES&#34; THEN GOTO 50 40 GOTO 10 50 PRINT &#34;YOU SAID YES&#34; On Claude Code, I’m typing:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-02 09:00:00 +0000 +0000'>April 2, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About" href="https://jamesm.blog/retro-computing/basic-to-claude-code-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Favourite Museums
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Computing Bletchley Park Bletchley Park - The historic site of World War II codebreaking and the birthplace of modern computing. Located in Milton Keynes, UK.
+The National Museum of Computing TNMOC - Located on the Bletchley Park estate, this museum houses the world’s largest collection of functional historic computers, including the rebuilt Colossus and the Harwell Dekatron (WITCH).
+Centre for Computing History Centre for Computing History - Based in Cambridge, this museum focuses on the personal computing revolution and features a massive collection of vintage consoles and computers.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-22 12:57:01 +0000 +0000'>September 22, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Favourite Museums" href="https://jamesm.blog/retro-computing/favourite-museums/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Favourite Computers, Consoles &amp; Mobiles
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A list of all my favourite computers, phones &amp; games consoles I’ve mostly owned or used at school &amp; college, in order of purchase / initial use …
+Computers Commodore PET (1977) The Commodore PET was the first computer I learnt BASIC in the school computing club (1981)
+The first program I wrote was an animated Christmas card as part of a school competition, I was quite proud of it. We were meant to showcase all of our programs at a public school event however I forgot to take the tape with me to school, I was truly gutted. I also mislaid the tape at home so have lost all those initial programs I wrote :(
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-29 07:50:01 +0100 BST'>July 29, 2024</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Favourite Computers, Consoles & Mobiles" href="https://jamesm.blog/retro-computing/favourite-computers/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Apple finally allows game emulators in the App Store
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Finally gaming emulators are now permitted on Apple devices. I’ve just downloaded the Delta app for iPhone and it’s awesome, runs really smoothly
+Apple App Store: Delta - Game Emulator Available Emulators Delta Developer: Riley Testut Supported Systems: NES, SNES, Game Boy, Game Boy Color, Game Boy Advance, Nintendo 64, Nintendo DS Key Features: Cloud saves, cheat codes, customizable controls, controller support Price: Free (with optional premium features) Dolphin Developer: Dolphin Emulator Team Supported Systems: GameCube, Wii Key Features: HD graphics, controller support, save states, netplay Price: Free Other Notable Emulators Bimmy: NES emulator Provenance: Multi-system emulator (limited availability) PPSSPP: PSP emulator Installation and Setup Getting Started with Delta Download Delta from the App Store Grant necessary permissions for file access Download ROMs from legal sources Import ROMs into Delta Configure controls for your preferred layout Controller Setup Built-in Controls: Touch controls with customizable layouts External Controllers: Supports MFi controllers, Xbox, PlayStation controllers Bluetooth Pairing: Enable Bluetooth in Settings &gt; Delta Troubleshooting Common Issues ROM Import Problems
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-20 08:00:01 +0100 BST'>April 20, 2024</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Apple finally allows game emulators in the App Store" href="https://jamesm.blog/retro-computing/gaming-emulators/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Favourite Computer Games
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is my personal collection of favorite computer and console games that I’ve enjoyed over the decades. Each game holds special memories and represents different eras of gaming history.
+Apple IIe Oregon Trail - Educational classic about pioneer life Choplifter - Helicopter rescue mission Lode Runner - Platform puzzle game Karateka - Martial arts fighting game Prince of Persia - Platform adventure Atari 2600 Adventure - Pioneering adventure game Space Invaders - Classic arcade shooter Pitfall! - Platforming adventure Missile Command - Defense strategy Asteroids - Space shooter Frogger - Traffic crossing challenge Pac-Man - Maze chase classic BBC Micro Model B Elite (1984) - Revolutionary space trading game Repton (1985) - Classic puzzle game Chuckie Egg (1983) - Addictive platformer Also games typed in from computer magazines Sinclair ZX Spectrum 48k Atic Atac (1983) - Classic arcade adventure Chuckie Egg (1983) - Platformer classic Fruit Machine (1983) - Gambling simulation Hunchback (1983) - Medieval platformer Jet Set Willy (1984) - Platform adventure Jetpac (1983) - the first game I ever played on a home computer Manic Miner (1983) - the second game I ever played on a home computer Scramble (1981) - Space shooter The Hobbit (1982) - Text adventure Knight Lore (1984) - Isometric pioneer Sabre Wulf (1984) - Jungle adventure Skool Daze (1984) - School simulation Commodore 64 Aztec Challenge (1982) - Temple platformer Barbarian (1987) - Sword fighting Battle Chess (1988) - Animated chess Boulder Dash (1984) - Gem collecting puzzle Bubble Bobble (1986) - Bubble platformer California Games (1987) - Sports compilation Commando (1985) - Run and gun Ghosts’ N Goblins (1985) - Platformer OutRun (1987) - Racing classic Paperboy (1985) - Newspaper delivery The Last Ninja (1987) - Ninja adventure Turrican (1990) - Platform shooter World Class Leaderboard (1987) - Golf simulation The Sentinel (1986) - 3D puzzle Impossible Mission (1984) - Platform puzzle Summer Games (1984) - Olympic sports Winter Games (1985) - Winter sports Commodore Amiga 500, 600, 1200, 1500 Defender of the Crown (1986) - Strategy game Lotus Esprit Turbo Challenge (1990) - Racing Maniac Mansion (1987) - Point and click adventure Rainbow Islands (1987) - Platformer Lemmings (1991) - Puzzle strategy Another World (1991) - Cinematic platformer Syndicate (1993) - Tactical shooter Speedball 2 (1990) - Futuristic sports Shadow of the Beast (1989) - Platformer Populous (1989) - God game Nintendo 64 GoldenEye 007 (1997) - Revolutionary FPS Super Mario 64 (1996) - 3D platforming pioneer Wave Race 64 (1996) - Water racing The Legend of Zelda: Ocarina of Time (1998) - Adventure classic Mario Kart 64 (1996) - Kart racing Star Fox 64 (1997) - Space shooter Nintendo Wii Metroid Prime (2007) - First-person adventure New Super Mario Bros. Wii (2009) - Cooperative platformer Super Mario Galaxy (2007) - Gravity-based platformer Wii Sports (2006) - Motion control sports The Legend of Zelda: Twilight Princess (2006) - Adventure PC Early Classics (1980s-1990s) Prince of Persia (1989) - Platform adventure Doom (1993) - Revolutionary FPS Quake (1996) - 3D shooter Tetris (1985) - Puzzle classic 1990s-2000s Half-Life (1998) - Story-driven FPS BoxWorld - Puzzle game Minecraft (2011) - Sandbox building Portal (2007) - Physics puzzle The Sims (2000) - Life simulation Super Nintendo Entertainment System (SNES) Super Mario World (1990) - Platformer The Legend of Zelda: A Link to the Past (1991) - Adventure Super Metroid (1994) - Platformer Donkey Kong Country (1994) - Platformer Chrono Trigger (1995) - RPG Sega Megadrive Echo the Dolphin (1992) - Underwater adventure Sonic the Hedgehog (1991) - Platformer Streets of Rage (1991) - Beat ’em up Golden Axe (1989) - Hack and slash Phantasy Star IV (1993) - RPG Comix Zone (1995) - Action platformer Sony PlayStation 1-5 God of War (2018) - Action-adventure Lego games - Family-friendly adventures Metal Gear Solid (1998) - Stealth action Grand Theft Auto V (2013) - Open-world crime Red Dead Redemption 2 (2018) - Western adventure Uncharted 4: A Thief’s End (2016) - Action-adventure The Last of Us (2013) - Survival horror Spider-Man (2018) - Superhero action Horizon Zero Dawn (2017) - Open-world RPG Conclusion This collection represents just a fraction of the incredible games that have shaped my gaming journey over the years. From the simple pleasures of early home computers to the cinematic experiences of modern consoles, each game has contributed to my love of gaming. I hope this list inspires others to explore these classics and discover the rich history of video games.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-01-01 00:00:01 +0100 +0100'>January 1, 2020</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Favourite Computer Games" href="https://jamesm.blog/retro-computing/favourite-computer-games/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

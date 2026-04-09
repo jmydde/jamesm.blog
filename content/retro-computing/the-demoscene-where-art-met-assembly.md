@@ -16,7 +16,7 @@ This was the demoscene, and it was the most vital creative community in computin
 
 A "demo" is a real-time audiovisual production written from scratch—no pre-rendered video, no external assets, just code and mathematics creating sound and graphics in real time on modest hardware. Think of it as a 4-minute music video that weighs 64 kilobytes and runs on a Commodore 64.
 
-The scene emerged in the early 1980s as a natural evolution of the "cracking scene"—groups of hackers who broke [copy protection](/general/copy-protection-wars/) on games. Once inside, they'd add their own intros and signatures to prove they'd cracked it first. Then someone realised: why not forget the games entirely and just make the intros?
+The scene emerged in the early 1980s as a natural evolution of the "cracking scene"—groups of hackers who broke [copy protection](/retro-computing/copy-protection-wars/) on games. Once inside, they'd add their own intros and signatures to prove they'd cracked it first. Then someone realised: why not forget the games entirely and just make the intros?
 
 By the mid-80s, the demoscene had become its own culture. Teenagers in Sweden, Germany, and the UK were pushing Commodores, Amigas, and IBM PCs to do things the manufacturers never intended. They formed crews with names like Fairlight, Phenomena, and The Hornet Warez Group. They competed at demo parties—gatherings where crews would premiere new demos and vote on the best. The most famous, The Gathering (Norway, 1992–present) and Assembly (Finland, 1992–present), drew thousands of coders, musicians, and artists.
 

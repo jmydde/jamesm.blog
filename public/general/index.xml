@@ -11,64 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 06:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2024 18:13:01 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/general/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Copy Protection Wars: The Ingenious Schemes Of 1980s Software</title>
-      <link>https://jamesm.blog/general/copy-protection-wars/</link>
-      <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
-      <guid>https://jamesm.blog/general/copy-protection-wars/</guid>
-      <description>A deep dive into the creative, bizarre, and often frustrating world of 1980s copy protection, from code wheels to lensloks.</description>
-    </item>
-    <item>
-      <title>When 8-bit Computers Taught An Entire Nation To Code</title>
-      <link>https://jamesm.blog/general/8-bit-coding/</link>
-      <pubDate>Wed, 08 Apr 2026 06:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/general/8-bit-coding/</guid>
-      <description>In the 1980s, a unique confluence of government policy, public broadcasting, and garage-built hardware turned the UK into a coding powerhouse. This is how it happened.</description>
-    </item>
-    <item>
-      <title>What the Amiga Got Right (That We&#39;re Still Copying)</title>
-      <link>https://jamesm.blog/general/what-the-amiga-got-right-that-were-still-copying/</link>
-      <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/general/what-the-amiga-got-right-that-were-still-copying/</guid>
-      <description>Why the Amiga was 20 years ahead of its time, and why modern operating systems are still trying to copy its best ideas.</description>
-    </item>
-    <item>
-      <title>Compunet: Britain&#39;s Forgotten Pre-Internet Community</title>
-      <link>https://jamesm.blog/general/compunet-britains-forgotten-pre-internet-community/</link>
-      <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/general/compunet-britains-forgotten-pre-internet-community/</guid>
-      <description>The story of Compunet: how a British BBS became one of the world&amp;#39;s first online communities, years before the internet, and how it shaped British digital culture.</description>
-    </item>
-    <item>
-      <title>The Demoscene: Where Art Met Assembly</title>
-      <link>https://jamesm.blog/general/the-demoscene-where-art-met-assembly/</link>
-      <pubDate>Thu, 02 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/general/the-demoscene-where-art-met-assembly/</guid>
-      <description>The story of the demoscene: where programmers turned constraint into creativity, and assembly language into art.</description>
-    </item>
-    <item>
-      <title>From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About</title>
-      <link>https://jamesm.blog/general/basic-to-claude-code-2026/</link>
-      <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/general/basic-to-claude-code-2026/</guid>
-      <description>A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&amp;#39;t changed about programming, and what fundamentally has.</description>
-    </item>
-    <item>
-      <title>Favourite Museums</title>
-      <link>https://jamesm.blog/general/favourite-museums/</link>
-      <pubDate>Sun, 22 Sep 2024 12:57:01 +0000</pubDate>
-      <guid>https://jamesm.blog/general/favourite-museums/</guid>
-      <description>Personal list of favourite museums, particularly focused on computing, technology and natural history.</description>
-    </item>
-    <item>
-      <title>Favourite Computers, Consoles &amp; Mobiles</title>
-      <link>https://jamesm.blog/general/favourite-computers/</link>
-      <pubDate>Mon, 29 Jul 2024 07:50:01 +0100</pubDate>
-      <guid>https://jamesm.blog/general/favourite-computers/</guid>
-      <description>Personal history and collection of favourite computers, gaming consoles, and mobile devices from the 1970s to present day.</description>
-    </item>
     <item>
       <title>Classic TV Shows</title>
       <link>https://jamesm.blog/general/classic-tv-shows/</link>
@@ -89,13 +33,6 @@
       <pubDate>Sun, 21 Apr 2024 22:07:01 +0100</pubDate>
       <guid>https://jamesm.blog/general/huge-numbers/</guid>
       <description>Collection of fascinating YouTube videos exploring extraordinarily large numbers, infinity, and mathematical concepts.</description>
-    </item>
-    <item>
-      <title>Apple finally allows game emulators in the App Store</title>
-      <link>https://jamesm.blog/general/gaming-emulators/</link>
-      <pubDate>Sat, 20 Apr 2024 08:00:01 +0100</pubDate>
-      <guid>https://jamesm.blog/general/gaming-emulators/</guid>
-      <description>News and resources about Apple&amp;#39;s decision to allow game emulators in the App Store, including Delta, Dolphin, and retro emulator apps.</description>
     </item>
     <item>
       <title>Worst User Interfaces</title>
@@ -125,13 +62,6 @@
       <pubDate>Sun, 07 May 2023 14:53:39 +0100</pubDate>
       <guid>https://jamesm.blog/general/monkey-computer-sync/</guid>
       <description>News about Chinese researchers successfully conducting a brain-computer interface experiment with a monkey.</description>
-    </item>
-    <item>
-      <title>Favourite Computer Games</title>
-      <link>https://jamesm.blog/general/favourite-computer-games/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:01 +0100</pubDate>
-      <guid>https://jamesm.blog/general/favourite-computer-games/</guid>
-      <description>Personal collection of favourite computer and console games across decades of gaming history.</description>
     </item>
     <item>
       <title>Hugo Shortcode Syntax</title>

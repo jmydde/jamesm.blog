@@ -10,7 +10,7 @@ description: "A deep dive into the creative, bizarre, and often frustrating worl
 
 Before the era of always-online DRM and AI-powered anti-tamper software, the battle against software piracy was fought with cardboard, plastic, and clever manipulation of magnetic disk geometry. In the 1980s, developers faced a simple problem: floppy disks were incredibly easy to copy. Their solutions, however, were anything but simple.
 
-This was the "Copy Protection War," an arms race between software houses and the burgeoning "cracker" scene that birthed the [Demoscene](/general/the-demoscene-where-art-met-assembly/) and defined digital culture for a generation.
+This was the "Copy Protection War," an arms race between software houses and the burgeoning "cracker" scene that birthed the [Demoscene](/retro-computing/the-demoscene-where-art-met-assembly/) and defined digital culture for a generation.
 
 ## The Physical Gatekeepers
 
@@ -42,7 +42,7 @@ While some focused on the user, others focused on the drive. Standard disk contr
 
 Every lock invited a locksmith. Groups like *The Humble Guys* or *Fairlight* competed to see who could "crack" a game first. 
 
-To prove their prowess, crackers wouldn't just remove the protection; they would add a "cracktro"—a small, flashy intro with scrolling text and chiptune music—before the game started. This culture of optimization and hardware-pushing eventually evolved into the **[Demoscene](/general/the-demoscene-where-art-met-assembly/)**, where the goal was no longer piracy, but pure digital art.
+To prove their prowess, crackers wouldn't just remove the protection; they would add a "cracktro"—a small, flashy intro with scrolling text and chiptune music—before the game started. This culture of optimization and hardware-pushing eventually evolved into the **[Demoscene](/retro-computing/the-demoscene-where-art-met-assembly/)**, where the goal was no longer piracy, but pure digital art.
 
 ## The Legacy: From Cardboard to AI
 
@@ -55,7 +55,7 @@ Yet, there is a certain charm missing from the modern experience. There was some
 ---
 
 ## Notable Examples to Look Up:
-*   **[Compunet](/general/compunet-britains-forgotten-pre-internet-community/):** A British BBS where piracy and cracking techniques were discussed in the 80s.
+*   **[Compunet](/retro-computing/compunet-britains-forgotten-pre-internet-community/):** A British BBS where piracy and cracking techniques were discussed in the 80s.
 *   **Don't Copy That Floppy:** The infamous 1992 anti-piracy rap video.
 *   **SimCity (SNES):** Used a massive sheet of red-tinted codes that was "copy-proof."
 *   **EarthBound:** Had one of the most brutal anti-piracy measures—it would let you play the whole game, but delete your save file right at the final boss if it detected a copy.
