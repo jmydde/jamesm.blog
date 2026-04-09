@@ -46,15 +46,15 @@
 
 ### /ai
 - [x] **Claude Code vs Cursor: A 6-Month Comparison**
-- [ ] **The Rise of Small Language Models: Why Size Isn't Everything**
+- [x] **The Rise of Small Language Models: Why Size Isn't Everything**
 - [ ] **AI Hallucinations: Understanding and Mitigating False Outputs**
 - [ ] **The Ethics of AI Training Data: Copyright, Consent, and Compensation**
 - [ ] **When AI Makes Music: Suno vs Udio vs Human Creativity**
 - [ ] **The LLM Context Window Arms Race: Does It Actually Matter?**
 - [ ] **AI Agents That Actually Work: Patterns From Real Projects**
-- [ ] **Cline: The Next Generation AI Coding Assistant**
+- [x] **Cline: The Next Generation AI Coding Assistant**
 - [ ] **Stop Debugging AI Code: How to Actually Verify Generated Output**
-- [ ] **Hybrid AI Stacks: Why No Single Model Does Everything Well**
+- [x] **Hybrid AI Stacks: Why No Single Model Does Everything Well**
 
 ### /music-production
 - [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything**
@@ -98,17 +98,17 @@
 - [ ] **The Power of Habit: Building Productive Routines for Engineers**
 - [ ] **Mindfulness for Developers: Reducing Stress and Improving Focus**
 - [ ] **The Art of Delegation: Leading Teams Effectively**
-- [ ] **Building in Public: Why I Started This Blog and What I've Learned**
+- [x] **The Most Valuable Skill Is Knowing What Not To Build**
 
 ---
 
 ## To Write Soon
 
 - [ ] **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output
-- [ ] **"Taste, Intuition, and the Machine"** — intuitive music philosophy applied to AI/product thinking
-- ✅ **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"**
-- [x] **"Good Judgement Cannot Be Automated"**
-- [ ] **"The Most Valuable Skill Is Knowing What Not To Build"**
+- [x] **"Taste, Intuition, and the Machine"** — intuitive music philosophy applied to AI/product thinking
+- [x] **"From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"**
+- [ ] **"Good Judgement Cannot Be Automated"**
+- [x] **"The Most Valuable Skill Is Knowing What Not To Build"**
 
 ---
 
