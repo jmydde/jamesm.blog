@@ -17,7 +17,7 @@
 
 ### Core AI Topics
 
-- [ ] **AI Hallucinations: Understanding and Mitigating False Outputs**
+- [/] **AI Hallucinations: Understanding and Mitigating False Outputs** [NEXT UP]
 - [ ] **The Ethics of AI Training Data: Copyright, Consent, and Compensation**
 - [ ] **The LLM Context Window Arms Race: Does It Actually Matter?**
 - [ ] **AI Agents That Actually Work: Patterns From Real Projects**
