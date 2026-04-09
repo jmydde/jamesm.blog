@@ -22,15 +22,15 @@
 - [ ] **The LLM Context Window Arms Race: Does It Actually Matter?**
 - [ ] **AI Agents That Actually Work: Patterns From Real Projects**
 - [ ] **Stop Debugging AI Code: How to Actually Verify Generated Output**
-- [ ] **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
+- [/] **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
 - [ ] **Prompt Caching: The Quiet Performance Win for LLM Applications**
 - [ ] **The Attention Mechanism: Why Understanding It Changes How You Prompt**
 - [ ] **Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful**
-- [ ] **AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know**
-- [ ] **Structured Outputs: When Your AI Needs to Follow a Schema**
+- [x] **AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know**
+- [x] **Structured Outputs: When Your AI Needs to Follow a Schema**
 - [ ] **Why AI Assistants Suck at Following Instructions (And How to Fix It)**
 - [ ] **The GPU Lottery: Why You Can't Just 'Scale Up' AI Anymore**
-- [ ] **AI Safety From First Principles: What Actually Matters vs What's Hype**
+- [/] **AI Safety From First Principles: What Actually Matters vs What's Hype**
 
 ### AI + Creative Work
 
