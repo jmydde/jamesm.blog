@@ -35,6 +35,13 @@
 &lt;p&gt;GitHub Spec Kit is no longer just a lightweight documentation toolkit. As of April 2026, it&amp;rsquo;s evolved into a full extensibility platform that works across the entire AI-assisted development landscape.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Claude Code Source Leak: Anthropic&#39;s 2,000-File Exposure and What It Means</title>
+      <link>https://jamesm.blog/ai/claude-code-source-leak/</link>
+      <pubDate>Wed, 01 Apr 2026 07:42:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/claude-code-source-leak/</guid>
+      <description>Nearly 2,000 internal files from Claude Code were briefly leaked due to human error. Here&amp;#39;s what happened, what was exposed, and the security implications for developers using Anthropic&amp;#39;s AI coding tool.</description>
+    </item>
+    <item>
       <title>Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward</title>
       <link>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</link>
       <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>

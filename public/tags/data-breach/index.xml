@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Breach on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/data-breach/</link>
+    <description>Recent content in Data Breach on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 07:42:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/data-breach/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code Source Leak: Anthropic&#39;s 2,000-File Exposure and What It Means</title>
+      <link>https://jamesm.blog/ai/claude-code-source-leak/</link>
+      <pubDate>Wed, 01 Apr 2026 07:42:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/claude-code-source-leak/</guid>
+      <description>Nearly 2,000 internal files from Claude Code were briefly leaked due to human error. Here&amp;#39;s what happened, what was exposed, and the security implications for developers using Anthropic&amp;#39;s AI coding tool.</description>
+    </item>
+  </channel>
+</rss>

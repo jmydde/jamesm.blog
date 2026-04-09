@@ -20,5 +20,12 @@
       <guid>https://jamesm.blog/ai/claude-mythos-benchmarks/</guid>
       <description>Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.</description>
     </item>
+    <item>
+      <title>Claude Code Source Leak: Anthropic&#39;s 2,000-File Exposure and What It Means</title>
+      <link>https://jamesm.blog/ai/claude-code-source-leak/</link>
+      <pubDate>Wed, 01 Apr 2026 07:42:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/claude-code-source-leak/</guid>
+      <description>Nearly 2,000 internal files from Claude Code were briefly leaked due to human error. Here&amp;#39;s what happened, what was exposed, and the security implications for developers using Anthropic&amp;#39;s AI coding tool.</description>
+    </item>
   </channel>
 </rss>
