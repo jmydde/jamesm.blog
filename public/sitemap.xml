@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/learning/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/personal-development/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/personal-development/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/product/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/self-improvement/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/strategy/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/personal-development/knowing-what-not-to-build/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/wellness/</loc>
+    <lastmod>2026-04-09T06:24:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/2026/</loc>
     <lastmod>2026-04-09T06:11:00+01:00</lastmod>
   </url><url>
@@ -17,9 +47,6 @@
     <loc>https://jamesm.blog/tags/infrastructure/</loc>
     <lastmod>2026-04-09T06:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-09T06:11:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</loc>
     <lastmod>2026-04-09T06:11:00+01:00</lastmod>
   </url><url>
@@ -27,9 +54,6 @@
     <lastmod>2026-04-09T06:11:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/privacy/</loc>
-    <lastmod>2026-04-09T06:11:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-09T06:11:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/efficiency/</loc>
@@ -113,10 +137,10 @@
     <loc>https://jamesm.blog/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/music-production/</loc>
+    <loc>https://jamesm.blog/categories/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/categories/music-production/</loc>
+    <loc>https://jamesm.blog/tags/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/native-instruments/</loc>
@@ -143,13 +167,13 @@
     <loc>https://jamesm.blog/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/categories/data-engineering/</loc>
+    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/databricks/</loc>
@@ -248,25 +272,10 @@
     <loc>https://jamesm.blog/tags/engineering/</loc>
     <lastmod>2026-04-07T11:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/learning/</loc>
-    <lastmod>2026-04-07T11:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/management/</loc>
     <lastmod>2026-04-07T11:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/personal-development/</loc>
-    <lastmod>2026-04-07T11:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/personal-development/</loc>
-    <lastmod>2026-04-07T11:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/self-improvement/</loc>
-    <lastmod>2026-04-07T11:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/personal-development/managing-creative-burnout/</loc>
-    <lastmod>2026-04-07T11:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/wellness/</loc>
     <lastmod>2026-04-07T11:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/work-life-balance/</loc>
