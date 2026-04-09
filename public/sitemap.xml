@@ -263,10 +263,10 @@
     <loc>https://jamesm.blog/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/music-production/</loc>
+    <loc>https://jamesm.blog/categories/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/categories/music-production/</loc>
+    <loc>https://jamesm.blog/tags/music-production/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/native-instruments/</loc>
@@ -293,13 +293,13 @@
     <loc>https://jamesm.blog/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/categories/data-engineering/</loc>
+    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/databricks/</loc>
@@ -842,6 +842,27 @@
     <loc>https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/</loc>
     <lastmod>2026-03-11T07:09:25+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/data-science/</loc>
+    <lastmod>2026-03-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/distributed-systems/</loc>
+    <lastmod>2026-03-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/graph-algorithms/</loc>
+    <lastmod>2026-03-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/neptune-analytics/</loc>
+    <lastmod>2026-03-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/performance/</loc>
+    <lastmod>2026-03-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/scaling/</loc>
+    <lastmod>2026-03-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-science/scaling-graph-algorithms/</loc>
+    <lastmod>2026-03-09T10:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/ai/claude-code-review/</loc>
     <lastmod>2026-03-09T07:14:25+01:00</lastmod>
   </url><url>
@@ -862,6 +883,21 @@
   </url><url>
     <loc>https://jamesm.blog/personal-development/practical-principals-for-tough-times/</loc>
     <lastmod>2026-02-22T09:02:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/clustering/</loc>
+    <lastmod>2026-02-09T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-science/community-detection-algorithms/</loc>
+    <lastmod>2026-02-09T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/community-detection/</loc>
+    <lastmod>2026-02-09T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/modularity/</loc>
+    <lastmod>2026-02-09T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/network-analysis/</loc>
+    <lastmod>2026-02-09T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/analog-synths/</loc>
     <lastmod>2026-02-08T21:07:21+01:00</lastmod>
@@ -991,6 +1027,15 @@
   </url><url>
     <loc>https://jamesm.blog/music-production/major-scales-sharps-flats/</loc>
     <lastmod>2026-01-04T12:35:21+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/centrality/</loc>
+    <lastmod>2026-01-02T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-science/graph-algorithms-pagerank-centrality/</loc>
+    <lastmod>2026-01-02T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/pagerank/</loc>
+    <lastmod>2026-01-02T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/drum-machines/</loc>
     <lastmod>2026-01-02T06:35:21+01:00</lastmod>

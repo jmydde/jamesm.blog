@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Distributed-Systems on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/distributed-systems/</link>
+    <description>Recent content in Distributed-Systems on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Mar 2026 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling Graph Algorithms: From Prototypes to Production</title>
+      <link>https://jamesm.blog/data-science/scaling-graph-algorithms/</link>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-science/scaling-graph-algorithms/</guid>
+      <description>How to take graph algorithms from laptop experiments to production systems handling billions of nodes. Covers memory constraints, distributed computation, query patterns, and the hidden costs nobody talks about.</description>
+    </item>
+  </channel>
+</rss>

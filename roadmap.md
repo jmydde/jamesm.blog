@@ -101,6 +101,22 @@
 - [x] **Lakeflow Declarative Pipelines: From DLT to Production**
 - [x] **Unity Catalog in Practice: Lessons From the Field**
 
+### /data-science
+- [x] **Graph Algorithms Explained: PageRank, Centrality, and Why They Matter**
+- [ ] **Neptune Analytics Fundamentals: Building Real-Time Graph Queries**
+- [ ] **Pattern Matching in Graphs: Finding Hidden Relationships in Your Data**
+- [ ] **Recommendation Engines Without the Hype: How Graph Algorithms Actually Work**
+- [ ] **Fraud Detection in Real-Time: Graph-Based Approaches vs Statistical Methods**
+- [x] **Community Detection Algorithms: Finding Clusters and Groups in Network Data**
+- [ ] **Shortest Path and Traversal: Algorithms You Actually Use Every Day**
+- [ ] **Machine Learning on Graphs: Node Embeddings, Graph Neural Networks, and Why They're Not Magic**
+- [ ] **Knowledge Graphs in Practice: Building and Querying Semantic Networks**
+- [ ] **Similarity Measures: When (and Why) Cosine Similarity Fails**
+- [ ] **Bloom Filters and Probabilistic Data Structures: Trading Accuracy for Speed**
+- [ ] **Anomaly Detection: Statistical Methods vs AI-Driven Approaches**
+- [ ] **Feature Engineering for Graphs: Making Raw Data Actually Useful**
+- [x] **Scaling Graph Algorithms: From Prototypes to Production**
+
 ### /personal-development
 - [x] **The Engineer's Guide to Managing Creative Burnout**
 - [ ] **Building in Public: Why I Started This Blog and What I've Learned**

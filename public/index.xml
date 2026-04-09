@@ -453,6 +453,13 @@ SSH: Termius (mobile remote access)
 &lt;p&gt;That kind of intelligence has always been expensive. You hired it, studied for years to acquire it, or waited for an expert to have time for you. Companies paid consultants, specialists, analysts, engineers, and researchers because complex thinking historically required humans who spent decades learning their craft.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Scaling Graph Algorithms: From Prototypes to Production</title>
+      <link>https://jamesm.blog/data-science/scaling-graph-algorithms/</link>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-science/scaling-graph-algorithms/</guid>
+      <description>How to take graph algorithms from laptop experiments to production systems handling billions of nodes. Covers memory constraints, distributed computation, query patterns, and the hidden costs nobody talks about.</description>
+    </item>
+    <item>
       <title>Claude Code Just Got a Serious Code Review Feature</title>
       <link>https://jamesm.blog/ai/claude-code-review/</link>
       <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
@@ -490,6 +497,13 @@ SSH: Termius (mobile remote access)
       <pubDate>Sun, 22 Feb 2026 09:02:39 +0100</pubDate>
       <guid>https://jamesm.blog/personal-development/practical-principals-for-tough-times/</guid>
       <description>Practical principles and guidelines for maintaining stability and making sound decisions during challenging life periods.</description>
+    </item>
+    <item>
+      <title>Community Detection Algorithms: Finding Clusters and Groups in Network Data</title>
+      <link>https://jamesm.blog/data-science/community-detection-algorithms/</link>
+      <pubDate>Mon, 09 Feb 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-science/community-detection-algorithms/</guid>
+      <description>Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations.</description>
     </item>
     <item>
       <title>When Circuits Go Public: Patents, Copyright, and the Rise of Clone Synths</title>
@@ -603,6 +617,13 @@ SSH: Termius (mobile remote access)
 &lt;li&gt;Notes: &lt;code&gt;C D E F G A B&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Think of C Major as the “home base” of all major scales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Graph Algorithms Explained: PageRank, Centrality, and Why They Matter</title>
+      <link>https://jamesm.blog/data-science/graph-algorithms-pagerank-centrality/</link>
+      <pubDate>Fri, 02 Jan 2026 08:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-science/graph-algorithms-pagerank-centrality/</guid>
+      <description>A practical guide to understanding graph algorithms: how PageRank actually works, when to use centrality measures, and why these patterns matter for real-world problems like recommendation systems and fraud detection.</description>
     </item>
     <item>
       <title>Roland TR-8S vs MC-707</title>

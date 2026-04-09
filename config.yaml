@@ -42,8 +42,10 @@ languages:
           url: /ai
         - name: Blockchain
           url: /blockchain
-        - name: Data
+        - name: Data Engineering
           url: /data-engineering
+        - name: Data Science
+          url: /data-science
         - name: DevOps
           url: /devops
         - name: General
@@ -77,6 +79,7 @@ params:
     - ai
     - blockchain
     - data-engineering
+    - data-science
     - devops
     - general
     - retro-computing

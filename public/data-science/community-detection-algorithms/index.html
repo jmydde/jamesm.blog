@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Community Detection Algorithms: Finding Clusters and Groups in Network Data | jamesm.blog</title>
+<meta name="keywords" content="data-science, graph-algorithms, community-detection, clustering, network-analysis, modularity">
+<meta name="description" content="Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/data-science/community-detection-algorithms/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/data-science/community-detection-algorithms/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jamesm.blog/data-science/community-detection-algorithms/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Community Detection Algorithms: Finding Clusters and Groups in Network Data">
+  <meta property="og:description" content="Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="data-science">
+    <meta property="article:published_time" content="2026-02-09T09:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-09T09:00:00+00:00">
+    <meta property="article:tag" content="Data Science">
+    <meta property="article:tag" content="Graph-Algorithms">
+    <meta property="article:tag" content="Community-Detection">
+    <meta property="article:tag" content="Clustering">
+    <meta property="article:tag" content="Network-Analysis">
+    <meta property="article:tag" content="Modularity">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="Community Detection Algorithms: Finding Clusters and Groups in Network Data">
+  <meta name="twitter:description" content="Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Data Science",
+      "item": "https://jamesm.blog/data-science/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Community Detection Algorithms: Finding Clusters and Groups in Network Data",
+      "item": "https://jamesm.blog/data-science/community-detection-algorithms/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Community Detection Algorithms: Finding Clusters and Groups in Network Data",
+  "name": "Community Detection Algorithms: Finding Clusters and Groups in Network Data",
+  "description": "Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations.",
+  "keywords": [
+    "data-science", "graph-algorithms", "community-detection", "clustering", "network-analysis", "modularity"
+  ],
+  "articleBody": "If you’ve ever looked at a social network and wondered “why is this group of people more connected to each other than to the rest of the network?”, you’ve just articulated the community detection problem.\nReal networks aren’t random. They have structure. People cluster with people like them. Products cluster with complementary products. Proteins in cells interact with nearby proteins more than distant ones.\nCommunity detection algorithms find these natural groupings automatically. And unlike clustering algorithms (which work on features), graph community detection works purely on the structure of connections.\nThis matters because sometimes the connections themselves are the signal.\nThe Core Intuition A community is a group of nodes with more internal connections than expected by chance.\nMore precisely: A good community has:\nMany edges between nodes in the community Few edges between the community and the rest of the network This creates a natural boundary - the group is more connected internally than externally.\nModularity: The Metric Everything Uses Before we dive into algorithms, you need to understand modularity - it’s the metric that measures “how good is this community division?”\nQ = (Edges within communities - Expected edges within communities) / Total edges Higher modularity = better division into communities.\nThe intuition: If communities were random, you’d expect some edges within groups just by chance. Modularity measures how much better your actual community structure is than random.\nA modularity of 0.3 - 0.7 is typical for real networks. A modularity of 0.9+ usually means you’ve over-clustered.\nThe Louvain Algorithm: What Most People Actually Use The Louvain algorithm is the industry standard because it’s:\nFast (linear-ish time complexity) Greedy (no hyperparameters to tune) Effective (produces high modularity) How It Works (Conceptually) Phase 1: Modularity Optimization\nStart with each node in its own community For each node, try moving it to each neighboring community If moving it increases modularity, do it Repeat until nothing improves Phase 2: Aggregation\nCollapse each community into a single node The new graph has fewer nodes but preserves the community structure Repeat phases 1-2 until there’s no change This two-phase approach is why Louvain is fast - each phase runs in linear time.\nThe Key Insight Louvain doesn’t require you to specify “how many communities are there?” It discovers the natural number. This is powerful because you don’t have to guess.\nThe downside: The algorithm is non-deterministic. Different random seeds might produce slightly different communities. Run it multiple times and look for communities that appear consistently.\nOther Community Detection Approaches Label Propagation: The Fast Alternative How it works:\nEach node starts with a unique label Repeatedly: Each node adopts the label that’s most common among its neighbors Stop when labels stabilize Time complexity: O(edges * iterations), usually converges in 5-10 iterations\nWhen to use: When you need speed over accuracy, or you have huge graphs where Louvain is too slow\nTradeoff: Less theoretically grounded than Louvain, but practically fast and often good enough\nSpectral Clustering: The Mathematical Approach Uses the eigenvalues of the graph’s adjacency matrix to find community structure.\nThe intuition: Graph structure encodes itself in the mathematical properties of the adjacency matrix. Nodes in tight communities have similar eigenvectors.\nWhen to use:\nWhen you need mathematical guarantees When the graph has specific properties (e.g., bipartite networks) When you’re doing theoretical work Downside: Requires choosing how many communities in advance (typically k), and is slower than Louvain for large graphs\nGirvan-Newman: The Hierarchical Approach How it works:\nCompute betweenness centrality for all edges Remove the edge with highest betweenness Recompute betweenness centrality Repeat You end up with a tree (dendrogram) showing how the network would partition at different scales.\nWhen to use: When you want hierarchical structure (communities within communities), or when you want to understand how tightly-knit groups are\nDownside: O(V²) or O(V²*E) depending on implementation - slow for large graphs\nReal-World Examples Social Networks: Finding Friend Groups Louvain on a friendship graph finds natural social circles. In real social networks, you typically get communities of 50-500 people who know each other.\nThe communities often correspond to:\nGeographic location (high school friends) Work (colleagues) Interest (gaming friends vs sports friends) The algorithm doesn’t know about these labels - it just finds density in the connection structure.\nProduct Recommendation: Finding Product Clusters Run Louvain on a “people who bought both products” graph:\nNodes are products Edges connect products bought by the same person You’ll automatically discover product clusters:\nElectronics cluster together Sports equipment clusters together Home and garden clusters together These are the groups you should recommend together. The algorithm discovers natural affinity without any product metadata.\nFraud Detection: Finding Organized Rings In transaction networks, fraudsters create distinctive community structure:\nIsolated communities (tight groups) Unusual modularity patterns (more connected than normal) Hierarchical structure (different from legitimate networks) Finding communities first, then analyzing their structure, is often more effective than node-level anomaly detection.\nBiological Networks: Finding Functional Modules Protein interaction networks have communities (proteins that work together):\nMetabolic pathways cluster together Signaling cascades form distinct communities Disease modules show dysfunction at the community level When Community Detection Matters vs When It Doesn’t Community detection is valuable when:\nStructure in the network is meaningful (social networks, biological networks, products) You want to understand what groups naturally form You’re doing recommendations or fraud detection based on group membership You’re designing systems where community awareness matters (community-aware caching, distributed load balancing) Community detection is less useful when:\nThe network is random or near-random (true random networks have very low modularity) You need pre-specified community sizes or counts Edges represent noisy features (a weak proxy for relationships) You care about hierarchical structure (overlapping communities) Overlapping Communities: The Hard Problem One limitation of standard algorithms: They assign each node to exactly one community.\nReal networks often have:\nNodes in multiple communities Soft boundaries Hierarchical structure Detecting overlapping communities is harder. Some approaches:\nClique Percolation: Find overlapping cliques (complete subgraphs) and treat them as overlapping communities. Slower but captures overlaps.\nMixed Membership Models: Each node has a probability distribution over communities, not a hard assignment. More flexible but requires tuning.\nHierarchy-aware algorithms: First find the hierarchy (like Girvan-Newman), then analyze overlaps at different levels.\nThe tradeoff: Complexity vs realism. For most use cases, Louvain’s non-overlapping communities are practical enough.\nImplementation in Neptune Analytics When running community detection at scale:\nMemory: Louvain uses O(V + E) memory, even for billion-node graphs.\nExecution time:\nLabel Propagation: O(E * iterations) - typically seconds Louvain: O(E * log(V)) typically - typically minutes Spectral: O(V²) - slow for very large graphs Key consideration: These algorithms often need to be run on the entire graph to get meaningful results. You can’t easily partition a graph and run detection on each partition independently.\nPractical approach:\nRun Louvain on the full graph (once, save the results) Query community membership (fast lookups) Re-run periodically (weekly or monthly, depending on how fast your network changes) The Deeper Pattern Community detection, like centrality measures, is answering “what’s the structure of this network?” Different algorithms answer different aspects:\nLouvain/Modularity: What’s the most natural division? Spectral: What’s the mathematical structure? Label Propagation: What emerges from local diffusion? Hierarchical: How do communities nest? Often you’ll use multiple algorithms on the same graph and look for communities that appear across methods. Robust communities show up in Louvain, spectral clustering, and label propagation.\nThat’s a signal you can trust.\nGoing Deeper The Louvain Method paper is readable and includes comparison to other methods Community Detection in Graphs on Wikipedia covers the landscape Neo4j’s Community Detection Algorithms has practical implementations The key insight for 2026: Community detection is now a standard tool in the data scientist’s toolkit. You’re not doing cutting-edge research using these algorithms - you’re solving practical problems with proven techniques.\nThe next time you need to understand the structure of a network, find natural groupings, or set up recommendations, reach for community detection. The algorithms will do the heavy lifting.\n",
+  "wordCount" : "1316",
+  "inLanguage": "en",
+  "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2026-02-09T09:00:00Z",
+  "dateModified": "2026-02-09T09:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/data-science/community-detection-algorithms/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/data-science/">Data Science</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Community Detection Algorithms: Finding Clusters and Groups in Network Data
+    </h1>
+    <div class="post-description">
+      Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations.
+    </div>
+    <div class="post-meta"><span title='2026-02-09 09:00:00 +0000 GMT'>February 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#the-core-intuition" aria-label="The Core Intuition">The Core Intuition</a></li>
+                <li>
+                    <a href="#modularity-the-metric-everything-uses" aria-label="Modularity: The Metric Everything Uses">Modularity: The Metric Everything Uses</a></li>
+                <li>
+                    <a href="#the-louvain-algorithm-what-most-people-actually-use" aria-label="The Louvain Algorithm: What Most People Actually Use">The Louvain Algorithm: What Most People Actually Use</a><ul>
+                        
+                <li>
+                    <a href="#how-it-works-conceptually" aria-label="How It Works (Conceptually)">How It Works (Conceptually)</a></li>
+                <li>
+                    <a href="#the-key-insight" aria-label="The Key Insight">The Key Insight</a></li></ul>
+                </li>
+                <li>
+                    <a href="#other-community-detection-approaches" aria-label="Other Community Detection Approaches">Other Community Detection Approaches</a><ul>
+                        
+                <li>
+                    <a href="#label-propagation-the-fast-alternative" aria-label="Label Propagation: The Fast Alternative">Label Propagation: The Fast Alternative</a></li>
+                <li>
+                    <a href="#spectral-clustering-the-mathematical-approach" aria-label="Spectral Clustering: The Mathematical Approach">Spectral Clustering: The Mathematical Approach</a></li>
+                <li>
+                    <a href="#girvan-newman-the-hierarchical-approach" aria-label="Girvan-Newman: The Hierarchical Approach">Girvan-Newman: The Hierarchical Approach</a></li></ul>
+                </li>
+                <li>
+                    <a href="#real-world-examples" aria-label="Real-World Examples">Real-World Examples</a><ul>
+                        
+                <li>
+                    <a href="#social-networks-finding-friend-groups" aria-label="Social Networks: Finding Friend Groups">Social Networks: Finding Friend Groups</a></li>
+                <li>
+                    <a href="#product-recommendation-finding-product-clusters" aria-label="Product Recommendation: Finding Product Clusters">Product Recommendation: Finding Product Clusters</a></li>
+                <li>
+                    <a href="#fraud-detection-finding-organized-rings" aria-label="Fraud Detection: Finding Organized Rings">Fraud Detection: Finding Organized Rings</a></li>
+                <li>
+                    <a href="#biological-networks-finding-functional-modules" aria-label="Biological Networks: Finding Functional Modules">Biological Networks: Finding Functional Modules</a></li></ul>
+                </li>
+                <li>
+                    <a href="#when-community-detection-matters-vs-when-it-doesnt" aria-label="When Community Detection Matters vs When It Doesn&rsquo;t">When Community Detection Matters vs When It Doesn&rsquo;t</a></li>
+                <li>
+                    <a href="#overlapping-communities-the-hard-problem" aria-label="Overlapping Communities: The Hard Problem">Overlapping Communities: The Hard Problem</a></li>
+                <li>
+                    <a href="#implementation-in-neptune-analytics" aria-label="Implementation in Neptune Analytics">Implementation in Neptune Analytics</a></li>
+                <li>
+                    <a href="#the-deeper-pattern" aria-label="The Deeper Pattern">The Deeper Pattern</a></li>
+                <li>
+                    <a href="#going-deeper" aria-label="Going Deeper">Going Deeper</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>If you&rsquo;ve ever looked at a social network and wondered &ldquo;why is this group of people more connected to each other than to the rest of the network?&rdquo;, you&rsquo;ve just articulated the community detection problem.</p>
+<p>Real networks aren&rsquo;t random. They have structure. People cluster with people like them. Products cluster with complementary products. Proteins in cells interact with nearby proteins more than distant ones.</p>
+<p>Community detection algorithms find these natural groupings automatically. And unlike clustering algorithms (which work on features), graph community detection works purely on the structure of connections.</p>
+<p>This matters because sometimes the connections themselves are the signal.</p>
+<h2 id="the-core-intuition">The Core Intuition<a hidden class="anchor" aria-hidden="true" href="#the-core-intuition">#</a></h2>
+<p>A community is a group of nodes with more internal connections than expected by chance.</p>
+<p>More precisely: A good community has:</p>
+<ul>
+<li>Many edges between nodes in the community</li>
+<li>Few edges between the community and the rest of the network</li>
+</ul>
+<p>This creates a natural boundary - the group is more connected internally than externally.</p>
+<h2 id="modularity-the-metric-everything-uses">Modularity: The Metric Everything Uses<a hidden class="anchor" aria-hidden="true" href="#modularity-the-metric-everything-uses">#</a></h2>
+<p>Before we dive into algorithms, you need to understand modularity - it&rsquo;s the metric that measures &ldquo;how good is this community division?&rdquo;</p>
+<pre tabindex="0"><code>Q = (Edges within communities - Expected edges within communities) / Total edges
+</code></pre><p>Higher modularity = better division into communities.</p>
+<p>The intuition: If communities were random, you&rsquo;d expect some edges within groups just by chance. Modularity measures how much better your actual community structure is than random.</p>
+<p>A modularity of 0.3 - 0.7 is typical for real networks. A modularity of 0.9+ usually means you&rsquo;ve over-clustered.</p>
+<h2 id="the-louvain-algorithm-what-most-people-actually-use">The Louvain Algorithm: What Most People Actually Use<a hidden class="anchor" aria-hidden="true" href="#the-louvain-algorithm-what-most-people-actually-use">#</a></h2>
+<p>The Louvain algorithm is the industry standard because it&rsquo;s:</p>
+<ol>
+<li>Fast (linear-ish time complexity)</li>
+<li>Greedy (no hyperparameters to tune)</li>
+<li>Effective (produces high modularity)</li>
+</ol>
+<h3 id="how-it-works-conceptually">How It Works (Conceptually)<a hidden class="anchor" aria-hidden="true" href="#how-it-works-conceptually">#</a></h3>
+<p><strong>Phase 1: Modularity Optimization</strong></p>
+<ul>
+<li>Start with each node in its own community</li>
+<li>For each node, try moving it to each neighboring community</li>
+<li>If moving it increases modularity, do it</li>
+<li>Repeat until nothing improves</li>
+</ul>
+<p><strong>Phase 2: Aggregation</strong></p>
+<ul>
+<li>Collapse each community into a single node</li>
+<li>The new graph has fewer nodes but preserves the community structure</li>
+<li>Repeat phases 1-2 until there&rsquo;s no change</li>
+</ul>
+<p>This two-phase approach is why Louvain is fast - each phase runs in linear time.</p>
+<h3 id="the-key-insight">The Key Insight<a hidden class="anchor" aria-hidden="true" href="#the-key-insight">#</a></h3>
+<p>Louvain doesn&rsquo;t require you to specify &ldquo;how many communities are there?&rdquo; It discovers the natural number. This is powerful because you don&rsquo;t have to guess.</p>
+<p>The downside: The algorithm is non-deterministic. Different random seeds might produce slightly different communities. Run it multiple times and look for communities that appear consistently.</p>
+<h2 id="other-community-detection-approaches">Other Community Detection Approaches<a hidden class="anchor" aria-hidden="true" href="#other-community-detection-approaches">#</a></h2>
+<h3 id="label-propagation-the-fast-alternative">Label Propagation: The Fast Alternative<a hidden class="anchor" aria-hidden="true" href="#label-propagation-the-fast-alternative">#</a></h3>
+<p><strong>How it works:</strong></p>
+<ol>
+<li>Each node starts with a unique label</li>
+<li>Repeatedly: Each node adopts the label that&rsquo;s most common among its neighbors</li>
+<li>Stop when labels stabilize</li>
+</ol>
+<p><strong>Time complexity:</strong> O(edges * iterations), usually converges in 5-10 iterations</p>
+<p><strong>When to use:</strong> When you need speed over accuracy, or you have huge graphs where Louvain is too slow</p>
+<p><strong>Tradeoff:</strong> Less theoretically grounded than Louvain, but practically fast and often good enough</p>
+<h3 id="spectral-clustering-the-mathematical-approach">Spectral Clustering: The Mathematical Approach<a hidden class="anchor" aria-hidden="true" href="#spectral-clustering-the-mathematical-approach">#</a></h3>
+<p>Uses the eigenvalues of the graph&rsquo;s adjacency matrix to find community structure.</p>
+<p><strong>The intuition:</strong> Graph structure encodes itself in the mathematical properties of the adjacency matrix. Nodes in tight communities have similar eigenvectors.</p>
+<p><strong>When to use:</strong></p>
+<ul>
+<li>When you need mathematical guarantees</li>
+<li>When the graph has specific properties (e.g., bipartite networks)</li>
+<li>When you&rsquo;re doing theoretical work</li>
+</ul>
+<p><strong>Downside:</strong> Requires choosing how many communities in advance (typically k), and is slower than Louvain for large graphs</p>
+<h3 id="girvan-newman-the-hierarchical-approach">Girvan-Newman: The Hierarchical Approach<a hidden class="anchor" aria-hidden="true" href="#girvan-newman-the-hierarchical-approach">#</a></h3>
+<p><strong>How it works:</strong></p>
+<ol>
+<li>Compute betweenness centrality for all edges</li>
+<li>Remove the edge with highest betweenness</li>
+<li>Recompute betweenness centrality</li>
+<li>Repeat</li>
+</ol>
+<p>You end up with a tree (dendrogram) showing how the network would partition at different scales.</p>
+<p><strong>When to use:</strong> When you want hierarchical structure (communities within communities), or when you want to understand how tightly-knit groups are</p>
+<p><strong>Downside:</strong> O(V²) or O(V²*E) depending on implementation - slow for large graphs</p>
+<h2 id="real-world-examples">Real-World Examples<a hidden class="anchor" aria-hidden="true" href="#real-world-examples">#</a></h2>
+<h3 id="social-networks-finding-friend-groups">Social Networks: Finding Friend Groups<a hidden class="anchor" aria-hidden="true" href="#social-networks-finding-friend-groups">#</a></h3>
+<p>Louvain on a friendship graph finds natural social circles. In real social networks, you typically get communities of 50-500 people who know each other.</p>
+<p>The communities often correspond to:</p>
+<ul>
+<li>Geographic location (high school friends)</li>
+<li>Work (colleagues)</li>
+<li>Interest (gaming friends vs sports friends)</li>
+</ul>
+<p>The algorithm doesn&rsquo;t know about these labels - it just finds density in the connection structure.</p>
+<h3 id="product-recommendation-finding-product-clusters">Product Recommendation: Finding Product Clusters<a hidden class="anchor" aria-hidden="true" href="#product-recommendation-finding-product-clusters">#</a></h3>
+<p>Run Louvain on a &ldquo;people who bought both products&rdquo; graph:</p>
+<ul>
+<li>Nodes are products</li>
+<li>Edges connect products bought by the same person</li>
+</ul>
+<p>You&rsquo;ll automatically discover product clusters:</p>
+<ul>
+<li>Electronics cluster together</li>
+<li>Sports equipment clusters together</li>
+<li>Home and garden clusters together</li>
+</ul>
+<p>These are the groups you should recommend together. The algorithm discovers natural affinity without any product metadata.</p>
+<h3 id="fraud-detection-finding-organized-rings">Fraud Detection: Finding Organized Rings<a hidden class="anchor" aria-hidden="true" href="#fraud-detection-finding-organized-rings">#</a></h3>
+<p>In transaction networks, fraudsters create distinctive community structure:</p>
+<ul>
+<li>Isolated communities (tight groups)</li>
+<li>Unusual modularity patterns (more connected than normal)</li>
+<li>Hierarchical structure (different from legitimate networks)</li>
+</ul>
+<p>Finding communities first, then analyzing their structure, is often more effective than node-level anomaly detection.</p>
+<h3 id="biological-networks-finding-functional-modules">Biological Networks: Finding Functional Modules<a hidden class="anchor" aria-hidden="true" href="#biological-networks-finding-functional-modules">#</a></h3>
+<p>Protein interaction networks have communities (proteins that work together):</p>
+<ul>
+<li>Metabolic pathways cluster together</li>
+<li>Signaling cascades form distinct communities</li>
+<li>Disease modules show dysfunction at the community level</li>
+</ul>
+<h2 id="when-community-detection-matters-vs-when-it-doesnt">When Community Detection Matters vs When It Doesn&rsquo;t<a hidden class="anchor" aria-hidden="true" href="#when-community-detection-matters-vs-when-it-doesnt">#</a></h2>
+<p><strong>Community detection is valuable when:</strong></p>
+<ul>
+<li>Structure in the network is meaningful (social networks, biological networks, products)</li>
+<li>You want to understand what groups naturally form</li>
+<li>You&rsquo;re doing recommendations or fraud detection based on group membership</li>
+<li>You&rsquo;re designing systems where community awareness matters (community-aware caching, distributed load balancing)</li>
+</ul>
+<p><strong>Community detection is less useful when:</strong></p>
+<ul>
+<li>The network is random or near-random (true random networks have very low modularity)</li>
+<li>You need pre-specified community sizes or counts</li>
+<li>Edges represent noisy features (a weak proxy for relationships)</li>
+<li>You care about hierarchical structure (overlapping communities)</li>
+</ul>
+<h2 id="overlapping-communities-the-hard-problem">Overlapping Communities: The Hard Problem<a hidden class="anchor" aria-hidden="true" href="#overlapping-communities-the-hard-problem">#</a></h2>
+<p>One limitation of standard algorithms: They assign each node to exactly one community.</p>
+<p>Real networks often have:</p>
+<ul>
+<li>Nodes in multiple communities</li>
+<li>Soft boundaries</li>
+<li>Hierarchical structure</li>
+</ul>
+<p>Detecting overlapping communities is harder. Some approaches:</p>
+<p><strong>Clique Percolation:</strong> Find overlapping cliques (complete subgraphs) and treat them as overlapping communities. Slower but captures overlaps.</p>
+<p><strong>Mixed Membership Models:</strong> Each node has a probability distribution over communities, not a hard assignment. More flexible but requires tuning.</p>
+<p><strong>Hierarchy-aware algorithms:</strong> First find the hierarchy (like Girvan-Newman), then analyze overlaps at different levels.</p>
+<p>The tradeoff: Complexity vs realism. For most use cases, Louvain&rsquo;s non-overlapping communities are practical enough.</p>
+<h2 id="implementation-in-neptune-analytics">Implementation in Neptune Analytics<a hidden class="anchor" aria-hidden="true" href="#implementation-in-neptune-analytics">#</a></h2>
+<p>When running community detection at scale:</p>
+<p><strong>Memory:</strong> Louvain uses O(V + E) memory, even for billion-node graphs.</p>
+<p><strong>Execution time:</strong></p>
+<ul>
+<li>Label Propagation: O(E * iterations) - typically seconds</li>
+<li>Louvain: O(E * log(V)) typically - typically minutes</li>
+<li>Spectral: O(V²) - slow for very large graphs</li>
+</ul>
+<p><strong>Key consideration:</strong> These algorithms often need to be run on the entire graph to get meaningful results. You can&rsquo;t easily partition a graph and run detection on each partition independently.</p>
+<p><strong>Practical approach:</strong></p>
+<ol>
+<li>Run Louvain on the full graph (once, save the results)</li>
+<li>Query community membership (fast lookups)</li>
+<li>Re-run periodically (weekly or monthly, depending on how fast your network changes)</li>
+</ol>
+<h2 id="the-deeper-pattern">The Deeper Pattern<a hidden class="anchor" aria-hidden="true" href="#the-deeper-pattern">#</a></h2>
+<p>Community detection, like centrality measures, is answering &ldquo;what&rsquo;s the structure of this network?&rdquo; Different algorithms answer different aspects:</p>
+<ul>
+<li><strong>Louvain/Modularity:</strong> What&rsquo;s the most natural division?</li>
+<li><strong>Spectral:</strong> What&rsquo;s the mathematical structure?</li>
+<li><strong>Label Propagation:</strong> What emerges from local diffusion?</li>
+<li><strong>Hierarchical:</strong> How do communities nest?</li>
+</ul>
+<p>Often you&rsquo;ll use multiple algorithms on the same graph and look for communities that appear across methods. Robust communities show up in Louvain, spectral clustering, and label propagation.</p>
+<p>That&rsquo;s a signal you can trust.</p>
+<h2 id="going-deeper">Going Deeper<a hidden class="anchor" aria-hidden="true" href="#going-deeper">#</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/0803.0476">The Louvain Method paper</a> is readable and includes comparison to other methods</li>
+<li><a href="https://en.wikipedia.org/wiki/Community_detection">Community Detection in Graphs</a> on Wikipedia covers the landscape</li>
+<li><a href="https://neo4j.com/developer/algorithms/community-detection/">Neo4j&rsquo;s Community Detection Algorithms</a> has practical implementations</li>
+</ul>
+<p>The key insight for 2026: Community detection is now a standard tool in the data scientist&rsquo;s toolkit. You&rsquo;re not doing cutting-edge research using these algorithms - you&rsquo;re solving practical problems with proven techniques.</p>
+<p>The next time you need to understand the structure of a network, find natural groupings, or set up recommendations, reach for community detection. The algorithms will do the heavy lifting.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/data-science/">Data Science</a></li>
+      <li><a href="https://jamesm.blog/tags/graph-algorithms/">Graph-Algorithms</a></li>
+      <li><a href="https://jamesm.blog/tags/community-detection/">Community-Detection</a></li>
+      <li><a href="https://jamesm.blog/tags/clustering/">Clustering</a></li>
+      <li><a href="https://jamesm.blog/tags/network-analysis/">Network-Analysis</a></li>
+      <li><a href="https://jamesm.blog/tags/modularity/">Modularity</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/personal-development/practical-principals-for-tough-times/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Stability in a Storm: Practical Principles for Tough Times</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/music-production/patents-copyright-clone-synths/">
+    <span class="title">Next »</span>
+    <br>
+    <span>When Circuits Go Public: Patents, Copyright, and the Rise of Clone Synths</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Community Detection Algorithms: Finding Clusters and Groups in Network Data on x"
+            href="https://x.com/intent/tweet/?text=Community%20Detection%20Algorithms%3a%20Finding%20Clusters%20and%20Groups%20in%20Network%20Data&amp;url=https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f&amp;hashtags=data-science%2cgraph-algorithms%2ccommunity-detection%2cclustering%2cnetwork-analysis%2cmodularity">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Community Detection Algorithms: Finding Clusters and Groups in Network Data on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f&amp;title=Community%20Detection%20Algorithms%3a%20Finding%20Clusters%20and%20Groups%20in%20Network%20Data&amp;summary=Community%20Detection%20Algorithms%3a%20Finding%20Clusters%20and%20Groups%20in%20Network%20Data&amp;source=https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Community Detection Algorithms: Finding Clusters and Groups in Network Data on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f&title=Community%20Detection%20Algorithms%3a%20Finding%20Clusters%20and%20Groups%20in%20Network%20Data">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Community Detection Algorithms: Finding Clusters and Groups in Network Data on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Community Detection Algorithms: Finding Clusters and Groups in Network Data on whatsapp"
+            href="https://api.whatsapp.com/send?text=Community%20Detection%20Algorithms%3a%20Finding%20Clusters%20and%20Groups%20in%20Network%20Data%20-%20https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Community Detection Algorithms: Finding Clusters and Groups in Network Data on telegram"
+            href="https://telegram.me/share/url?text=Community%20Detection%20Algorithms%3a%20Finding%20Clusters%20and%20Groups%20in%20Network%20Data&amp;url=https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Community Detection Algorithms: Finding Clusters and Groups in Network Data on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Community%20Detection%20Algorithms%3a%20Finding%20Clusters%20and%20Groups%20in%20Network%20Data&u=https%3a%2f%2fjamesm.blog%2fdata-science%2fcommunity-detection-algorithms%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
