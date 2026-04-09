@@ -12,20 +12,20 @@ When most people think of returning to the Moon, they imagine Artemis astronauts
 
 But NASA is building something different for what comes after: the Lunar Gateway. It's not a destination in itself. It's infrastructure - a way station in lunar orbit that changes how humans explore the Moon forever.
 
-The Gateway is to lunar exploration what the International Space Station is to Earth orbit: a platform that enables sustained, repeated access to a region. Except the Gateway enables access to an entire celestial body.
+The Gateway is to lunar exploration what the [International Space Station](https://www.nasa.gov/iss/) is to Earth orbit: a platform that enables sustained, repeated access to a region. Except the Gateway enables access to an entire celestial body.
 
 ---
 
 ## Why a Gateway Matters
 
-Apollo-style missions are logistically exhausting. Each landing mission requires launching four spacecraft from Earth:
+[Artemis](https://www.nasa.gov/artemis/)-style missions are logistically exhausting. Each landing mission requires launching four spacecraft from Earth:
 
 1. A crew vehicle (Orion)
 2. A cargo vehicle (SLS)
 3. A descent module (Lunar Lander)
 4. An ascent module (return vehicle)
 
-Or, simplified: Artemis missions require two SLS launches and one SpaceX Starship launch minimum, plus support infrastructure. That's expensive. Scheduled for every 2-3 years, it means humanity lands on the Moon about 4 times per decade.
+Or, simplified: Artemis missions require two SLS launches and one [SpaceX Starship](https://www.spacex.com/human-spaceflight/moon/) launch minimum, plus support infrastructure. That's expensive. Scheduled for every 2-3 years, it means humanity lands on the Moon about 4 times per decade.
 
 A Lunar Gateway changes the equation. Instead of launching everything from Earth for each mission:
 
@@ -41,7 +41,7 @@ This separates the hard problem (Earth orbit to Moon orbit) from the repeated pr
 
 ## The Architecture
 
-The Lunar Gateway, formally called the "Lunar Orbital Platform-Gateway" (LOP-G), is being built modularly:
+The Lunar Gateway, formally called the "[Lunar Orbital Platform-Gateway](https://www.nasa.gov/gateway/)" (LOP-G), is being built modularly:
 
 ### Power and Propulsion Element (PPE)
 
@@ -52,7 +52,7 @@ The first component, arriving around 2028-2029, is a solar-powered spacecraft wi
 - **Attitude control and communications**
 - **Cargo handling facilities**
 
-This isn't exciting hardware - it's an orbital tug disguised as infrastructure. But it's essential. The Moon's "halo orbit" (a specific type of lunar orbit) is unstable. Without active propulsion, the Gateway would drift or crash within months.
+This isn't exciting hardware - it's an orbital tug disguised as infrastructure. But it's essential. The Moon's "[halo orbit](https://en.wikipedia.org/wiki/Halo_orbit)" (a specific type of lunar orbit) is unstable. Without active propulsion, the Gateway would drift or crash within months.
 
 ### Habitation and Logistics Outpost (HALO)
 
@@ -73,7 +73,7 @@ Over time, additional modules provide:
 - **Power systems** (more solar arrays, possibly nuclear)
 - **Storage** for fuel, water, and supplies
 - **Laboratory** for science and resource processing
-- **Manufacturing** for in-situ resource utilization (ISRU)
+- **Manufacturing** for [in-situ resource utilization (ISRU)](https://www.nasa.gov/exploration/whatsnew/ISRU_Fueling_the_Future.html)
 - **Communication arrays** for Earth and surface operations
 
 The Gateway grows like the ISS did - module by module, partnership by partnership.
@@ -126,7 +126,7 @@ Artemis III and beyond prioritize human landings using existing infrastructure:
 
 Meanwhile, NASA and international partners build Gateway components:
 
-- PPE begins fabrication (already in development with Japanese HTV-X vehicles)
+- PPE begins fabrication (already in development with Japanese [HTV-X vehicles](https://www.jaxa.jp/en/projects/htv-x/))
 - HALO module is assembled
 - Secondary modules are designed
 
@@ -152,13 +152,13 @@ The Gateway enables a genuine permanent presence on the Moon - not constantly in
 
 This is genuinely international:
 
-**NASA (US)**: Overall architecture, HALO module, operational infrastructure
+**[NASA](https://www.nasa.gov/) (US)**: Overall architecture, HALO module, operational infrastructure
 
-**JAXA (Japan)**: Power and Propulsion Element, resupply vehicles
+**[JAXA](https://www.jaxa.jp/en/) (Japan)**: Power and Propulsion Element, resupply vehicles
 
-**ESA (Europe)**: Pressurized logistics modules, power elements
+**[ESA](https://www.esa.int/) (Europe)**: Pressurized logistics modules, power elements
 
-**Canadian Space Agency**: Robotic arm and external payloads
+**[Canadian Space Agency](https://www.asc-csa.gc.ca/eng/) (Canada)**: Robotic arm and external payloads
 
 **International partners**: Various scientific and logistics support
 
@@ -184,7 +184,7 @@ The Gateway isn't competing with commercial lunar landers. It's enabling them. A
 
 ## The Far-Side Telescope
 
-One specific example: radio astronomy from the Moon's far side.
+One specific example: [radio astronomy from the Moon's far side](https://www.nasa.gov/lunar/lunar-far-side-science/).
 
 The far side is shielded from Earth's radio noise. A large radio telescope there could detect gravitational waves, map the early universe, and answer questions about cosmic origins that Earth-based telescopes can't.
 
@@ -234,7 +234,7 @@ For crew to work from the Gateway, you need reliable landers. Starship is untest
 
 ## Artemis IV and Beyond
 
-Artemis III will land humans on the Moon, probably 2026-2027.
+[Artemis III](https://www.nasa.gov/artemis/artemis-missions/) will land humans on the Moon, probably 2026-2027.
 
 Artemis IV might launch to the Gateway instead of the surface - testing the new architecture while SLS still flies.
 
