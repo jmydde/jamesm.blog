@@ -21,6 +21,13 @@
       <description>Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development.</description>
     </item>
     <item>
+      <title>Open WebUI: A Polished Interface for Local and Remote LLMs</title>
+      <link>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</link>
+      <pubDate>Wed, 08 Apr 2026 23:15:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</guid>
+      <description>Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in.</description>
+    </item>
+    <item>
       <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
       <link>https://jamesm.blog/ai/ollama/</link>
       <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
