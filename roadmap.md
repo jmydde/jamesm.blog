@@ -171,7 +171,7 @@
 - [ ] **Spatial Computing in 2026: Why Vision Pro Stumbled and What Comes Next**
 - [ ] **The Quantum Timeline: What Crypto Actually Needs to Fear (And When)**
 - [ ] **WebAssembly as a Platform: What Developers Should Know in 2026**
-- [ ] **Local AI vs Cloud AI: The Tradeoff Landscape in 2026**
+- [x] **Local AI vs Cloud AI: The Tradeoff Landscape in 2026**
 
 ## Mathematics & Science Education
 

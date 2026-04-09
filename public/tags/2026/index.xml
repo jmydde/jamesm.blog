@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 21:06:14 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:11:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/2026/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Local AI vs Cloud AI: The Tradeoff Landscape in 2026</title>
+      <link>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</link>
+      <pubDate>Thu, 09 Apr 2026 06:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</guid>
+      <description>In 2026, the choice between running AI locally or in the cloud is no longer a binary one. It is a strategic architectural decision based on privacy, latency, and &amp;#39;reasoning density&amp;#39;.</description>
+    </item>
     <item>
       <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
       <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>
