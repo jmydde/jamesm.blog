@@ -36,7 +36,6 @@
 - [ ] How the Roland TB-303 Accidentally Invented Acid House
 - [ ] The Yamaha DX7: The Most Influential Synthesizer Ever Made
 - [ ] How MIDI Turned Bedroom Producers Into Pop Architects
-- [ ] The Roland vs Roland War: How Competition Shaped Modern Electronic Music
 - [ ] The Legacy of Analog Synthesizers in Modern Music
 - [ ] Sampler Culture: How Akai MPCs and SP-1200s Changed Hip-Hop
 
@@ -87,7 +86,7 @@
 - [ ] **The Case for Self-Custody in 2026**
 
 ### /space
-- [ ] **What Comes After Artemis: The Road to a Lunar Gateway**
+- [x] **What Comes After Artemis: The Road to a Lunar Gateway**
 - [ ] **Space Tourism: The Dawn of Commercial Space Travel**
 - [ ] **Asteroid Mining: The Next Gold Rush in Space**
 - [ ] **The Future of Space Habitats: Living Beyond Earth**

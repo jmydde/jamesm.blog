@@ -107,15 +107,15 @@ params:
   homeInfoParams:
     #Title: "James' Blog"
     Content: |
-      - [**Artificial Intelligence**](/ai) (chatbots, co-pilots, LLMs, robotics)
-      - [**Blockchain**](/blockchain) (Bitcoin, Blockchain, decentralization, Polkadot)
-      - [**Data Engineering**](/data-engineering) (databases, ETL, Data Science, ML)
-      - [**DevOps**](/devops) (automation, AWS, CI/CD, Cloud, Docker, IaC, K8s)
-      - [**General**](/general) (culture, science, miscellany)
-      - [**Retro Computing**](/retro-computing) (computing history, 8-bit era, hardware retrospectives)
-      - [**Music Production**](/music-production) (computer hardware & software)
-      - [**Personal Development**](/personal-development) (books, courses)
-      - [**Space**](/space) (exploration, rockets)
+      - [**Artificial Intelligence**](/ai) (LLMs, AI agents, and the future of human expertise)
+      - [**Blockchain**](/blockchain) (Decentralized infrastructure, networks, and ecosystem evolution)
+      - [**Data Engineering**](/data-engineering) (Building data infrastructure that actually scales)
+      - [**DevOps**](/devops) (Infrastructure, automation, and operational philosophy)
+      - [**General**](/general) (Culture, science, and the miscellaneous)
+      - [**Retro Computing**](/retro-computing) (The machines and culture that shaped computing)
+      - [**Music Production**](/music-production) (Gear, sound design, and creative workflow)
+      - [**Personal Development**](/personal-development) (Expertise, craft, and the engineering mindset)
+      - [**Space**](/space) (Infrastructure and vision for human expansion beyond Earth)
 
   socialIcons:
     - name: gmail

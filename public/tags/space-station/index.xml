@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Space-Station on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/space-station/</link>
+    <description>Recent content in Space-Station on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 06:50:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/space-station/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Comes After Artemis: The Road to a Lunar Gateway</title>
+      <link>https://jamesm.blog/space/lunar-gateway/</link>
+      <pubDate>Thu, 09 Apr 2026 06:50:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/lunar-gateway/</guid>
+      <description>Beyond Apollo-style moon landings: how the Lunar Gateway transforms humanity&amp;#39;s approach to sustained lunar presence and deep space exploration.</description>
+    </item>
+  </channel>
+</rss>
