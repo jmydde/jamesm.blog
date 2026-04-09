@@ -63,4 +63,4 @@ The **BeatStep** is an affordable, hands-on step sequencer with MIDI and CV/Gate
 
 ### Why These Sequencers Matter in 2025
 
-Sequencers in 2025 are more than step counters—they’re **creative hubs** for modular and synth-based setups. Some excel at linear patterns, others at live improvisation, and a few combine synthesis with sequencing. Choosing the right one depends on your workflow, whether you need a compact modular companion, a versatile keyboard-integrated hub, or a performance-oriented powerhouse.
+Sequencers in 2025 are more than step counters - they’re **creative hubs** for modular and synth-based setups. Some excel at linear patterns, others at live improvisation, and a few combine synthesis with sequencing. Choosing the right one depends on your workflow, whether you need a compact modular companion, a versatile keyboard-integrated hub, or a performance-oriented powerhouse.

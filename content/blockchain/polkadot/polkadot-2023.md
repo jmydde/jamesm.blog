@@ -19,7 +19,7 @@ A comprehensive collection of major Polkadot developments, announcements, and in
 
 ## November 2023
 
-**Is Polkadot’s OpenGov Democratic?** — Gavin Wood (November 6)
+**Is Polkadot’s OpenGov Democratic?**  -  Gavin Wood (November 6)
 {{< youtube RvbsSq1a_8g >}}
 
 ## October 2023
@@ -65,5 +65,5 @@ A comprehensive collection of major Polkadot developments, announcements, and in
 
 ## June 2023
 
-**Gavin Wood Sees Polkadot as a Global Supercomputer** — Polkadot Decoded 2023 (June 30)
+**Gavin Wood Sees Polkadot as a Global Supercomputer**  -  Polkadot Decoded 2023 (June 30)
 {{< youtube GIB1WeVuJD0 >}}

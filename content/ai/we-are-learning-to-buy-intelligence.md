@@ -52,5 +52,5 @@ And it is a fascinating time to be alive.
 ---
 
 **Related reading:**
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity) — What becomes valuable when intelligence becomes cheap
-- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs) — The skills that remain irreplaceable
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  What becomes valuable when intelligence becomes cheap
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs)  -  The skills that remain irreplaceable

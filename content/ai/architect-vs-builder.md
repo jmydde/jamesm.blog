@@ -38,7 +38,7 @@ A junior engineer had to do thousands of implementations to develop intuition ab
 
 This creates a gap: there are now people who can execute perfectly (AI) but can't think about architecture. And there are people (architects) who can think about architecture but are relying on junior engineers to turn that thinking into code.
 
-The middle rungs—mid-level and senior engineers—were the translation layer. They were learning to think better while still executing well. They were the place where intuition developed.
+The middle rungs - mid-level and senior engineers - were the translation layer. They were learning to think better while still executing well. They were the place where intuition developed.
 
 But if execution is automated, what do they translate?
 
@@ -84,7 +84,7 @@ I also know builders who could never be architects. They're brilliant at clarity
 
 These are different skills, and they don't necessarily build on each other.
 
-This is the hard truth: in a world where AI can execute, we need fewer people who can execute. We need more people who can *think about what to execute*. But we can't get there by having everyone climb the same ladder—junior, mid, senior, architect.
+This is the hard truth: in a world where AI can execute, we need fewer people who can execute. We need more people who can *think about what to execute*. But we can't get there by having everyone climb the same ladder - junior, mid, senior, architect.
 
 We have to explicitly teach both paths:
 
@@ -99,7 +99,7 @@ If you want to be an architect, you need to start thinking about architecture no
 
 If you want to be a builder, you need to start thinking about clarity and specification. You need to be the person who catches when the architect's vision doesn't match reality. You need to develop a feel for where an implementation will break, and why.
 
-If you don't want to do either of these things—if you just want to write good code and have someone else decide what to write—that's fine. But you need to know what you're optimizing for. Because AI is very good at writing good code. You need to offer something else.
+If you don't want to do either of these things - if you just want to write good code and have someone else decide what to write - that's fine. But you need to know what you're optimizing for. Because AI is very good at writing good code. You need to offer something else.
 
 ## The Uncomfortable Inversion
 

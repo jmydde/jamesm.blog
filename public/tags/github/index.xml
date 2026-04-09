@@ -25,7 +25,7 @@
       <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>
       <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-spec-kit-2026-update/</guid>
-      <description>&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing — it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;
+      <description>&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing  -  it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;
 &lt;p&gt;Here&amp;rsquo;s what&amp;rsquo;s changed, and why you should care.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;the-big-shift-from-framework-to-platform&#34;&gt;The Big Shift: From Framework to Platform&lt;/h2&gt;
@@ -54,27 +54,27 @@
       <description>&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;
 &lt;h2 id=&#34;ai-agent-frameworks&#34;&gt;AI Agent Frameworks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt; — Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt; — Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt; — Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt; — Let LLMs run code locally and interact with your computer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt;  -  Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt;  -  Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt;  -  Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt;  -  Let LLMs run code locally and interact with your computer&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;code--development&#34;&gt;Code &amp;amp; Development&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt; — Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt; — AI pair programmer that can edit code in your local repository&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt; — Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt;  -  Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt;  -  AI pair programmer that can edit code in your local repository&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt;  -  Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;specialized-tools&#34;&gt;Specialized Tools&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute/openClaw&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt; — AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt; — Simple way to run large language models locally&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt; — Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute/openClaw&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt;  -  AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt;  -  Simple way to run large language models locally&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt;  -  Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;research--resources&#34;&gt;Research &amp;amp; Resources&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt; — Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt; — Curated dataset linking papers with their implementations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt;  -  Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt;  -  Curated dataset linking papers with their implementations&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>

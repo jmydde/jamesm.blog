@@ -720,7 +720,7 @@ UVI is a developer of software instruments, effects and soundware, leveraging le
       - SATURN-8 - one of the most iconic analog synthesizers ever produced, and the brands flagship, this featured synth sports 16-oscillators on 8-voices with cross-modulation, sync, PWM, an HPF, variable LPF, an LFO and two EGs
       - MERCURY-80 - 16-oscillator 8-voice super-synth came equipped with fully-analog VCOs and a low boost circuit
     - [Kroma](https://www.uvi.net/kroma.html) - Based on the last polyphonic analog designed by ARP, and it’s little brother
-    - [Mello](https://www.uvi.net/mello.html) - The origins of sampling—a sound that shaped the 60's
+    - [Mello](https://www.uvi.net/mello.html) - The origins of sampling - a sound that shaped the 60's
     - [OB Legacy](https://www.uvi.net/ob-legacy.html) - 6 instruments inspired by a legendary American synth designer
     - [Prime 8+](https://www.uvi.net/prime-8-plus) - A legend returns, the ultimate '80s analog drum machine brings the rhythm
     - [Program 24](https://www.uvi.net/en/vintage-synth/program-24.html) - Hybrid digital/analog workstation synth from the peak of ‘80s Italo Disco

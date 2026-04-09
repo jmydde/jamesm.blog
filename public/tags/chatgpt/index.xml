@@ -177,7 +177,7 @@
 &lt;li&gt;&lt;a href=&#34;http://lavender.ai&#34;&gt;Lavender&lt;/a&gt; - sales email assistant powered by AI&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.mixo.io/&#34;&gt;Mixo&lt;/a&gt; - helps entrepreneurs quickly launch and validate their business ideas&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mosaic.ai/&#34;&gt;MosaicTrack&lt;/a&gt; - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nosto.com/&#34;&gt;Nosto&lt;/a&gt; - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nosto.com/&#34;&gt;Nosto&lt;/a&gt; - commerce experience platform  -  an integrated suite of data-fueled personalization and merchandising solutions&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://octaneai.com&#34;&gt;Octane AI&lt;/a&gt; - Shopify app for AI-powered customer engagement&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.outfitsai.com/&#34;&gt;Outfits AI&lt;/a&gt; - try on any outfits using AI&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://regie.ai&#34;&gt;Regie&lt;/a&gt; - AI sales assistant for email&lt;/li&gt;
@@ -386,27 +386,27 @@
       <description>&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;
 &lt;h2 id=&#34;ai-agent-frameworks&#34;&gt;AI Agent Frameworks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt; — Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt; — Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt; — Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt; — Let LLMs run code locally and interact with your computer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt;  -  Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt;  -  Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt;  -  Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt;  -  Let LLMs run code locally and interact with your computer&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;code--development&#34;&gt;Code &amp;amp; Development&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt; — Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt; — AI pair programmer that can edit code in your local repository&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt; — Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt;  -  Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt;  -  AI pair programmer that can edit code in your local repository&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt;  -  Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;specialized-tools&#34;&gt;Specialized Tools&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute/openClaw&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt; — AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt; — Simple way to run large language models locally&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt; — Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute/openClaw&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt;  -  AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt;  -  Simple way to run large language models locally&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt;  -  Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;research--resources&#34;&gt;Research &amp;amp; Resources&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt; — Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt; — Curated dataset linking papers with their implementations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt;  -  Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt;  -  Curated dataset linking papers with their implementations&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -440,21 +440,21 @@
       <description>&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;
 &lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;&lt;strong&gt;Yes you should understand backprop&lt;/strong&gt;&lt;/a&gt; — Andrej Karpathy&amp;rsquo;s definitive explanation of backpropagation, the fundamental algorithm behind neural network training&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;&lt;strong&gt;Deep Learning in a Nutshell: Core Concepts&lt;/strong&gt;&lt;/a&gt; — NVIDIA&amp;rsquo;s accessible overview of deep learning architectures and their applications&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;&lt;strong&gt;Yes you should understand backprop&lt;/strong&gt;&lt;/a&gt;  -  Andrej Karpathy&amp;rsquo;s definitive explanation of backpropagation, the fundamental algorithm behind neural network training&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;&lt;strong&gt;Deep Learning in a Nutshell: Core Concepts&lt;/strong&gt;&lt;/a&gt;  -  NVIDIA&amp;rsquo;s accessible overview of deep learning architectures and their applications&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;transformers--language-models&#34;&gt;Transformers &amp;amp; Language Models&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;&lt;strong&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/strong&gt;&lt;/a&gt; — Stephen Wolfram&amp;rsquo;s phenomenal breakdown of transformer architecture and the surprising effectiveness of next-token prediction&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;&lt;strong&gt;Word2Vec Explained&lt;/strong&gt;&lt;/a&gt; — Foundation for understanding how words become numerical representations that models can process&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;&lt;strong&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/strong&gt;&lt;/a&gt;  -  Stephen Wolfram&amp;rsquo;s phenomenal breakdown of transformer architecture and the surprising effectiveness of next-token prediction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;&lt;strong&gt;Word2Vec Explained&lt;/strong&gt;&lt;/a&gt;  -  Foundation for understanding how words become numerical representations that models can process&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;generative-models&#34;&gt;Generative Models&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;&lt;strong&gt;How Stable Diffusion Works&lt;/strong&gt;&lt;/a&gt; — Detailed technical walkthrough of diffusion models for image generation, with clear diagrams and intuitive explanations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;&lt;strong&gt;How Stable Diffusion Works&lt;/strong&gt;&lt;/a&gt;  -  Detailed technical walkthrough of diffusion models for image generation, with clear diagrams and intuitive explanations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;courses--practical-learning&#34;&gt;Courses &amp;amp; Practical Learning&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt; — Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt;  -  Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

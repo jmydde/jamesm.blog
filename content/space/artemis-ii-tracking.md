@@ -14,9 +14,9 @@ These dashboards showcase NASA's commitment to transparency, allowing space enth
 
 ## Official Resources
 
-**[Artemis II - NASA.gov](https://www.nasa.gov/missions/artemis-ii/arow/)** — Official NASA information and resources for the Artemis II mission.
+**[Artemis II - NASA.gov](https://www.nasa.gov/missions/artemis-ii/arow/)**  -  Official NASA information and resources for the Artemis II mission.
 
-**[NASA App](https://www.nasa.gov/nasa-app/)** — Track Artemis II and other NASA missions with the official NASA mobile app.
+**[NASA App](https://www.nasa.gov/nasa-app/)**  -  Track Artemis II and other NASA missions with the official NASA mobile app.
 
 ## Tracking Dashboard
 
@@ -32,7 +32,7 @@ Follow the mission in real-time and stay informed about one of humanity's most s
 
 Track Artemis II mission data directly from your terminal with the community-built CLI tool.
 
-**[artemis-ii-cli](https://github.com/ryanfoxeth/artemis-ii-cli)** — Command-line interface for real-time Artemis II tracking and mission data.
+**[artemis-ii-cli](https://github.com/ryanfoxeth/artemis-ii-cli)**  -  Command-line interface for real-time Artemis II tracking and mission data.
 
 ## Mission Overview
 

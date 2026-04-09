@@ -6,7 +6,7 @@ tags: ['nasa', 'artemis', 'artemis ii', 'moon', 'space', 'exploration']
 description: "The crew of Artemis II is journeying further from Earth than any humans in history, surpassing the long-standing record held by the Apollo 13 mission."
 ---
 
-As the Orion spacecraft sweeps around the lunar far side, the four-person crew of Artemis II is doing more than just testing hardware—they are venturing further into the cosmos than any human being has ever traveled.
+As the Orion spacecraft sweeps around the lunar far side, the four-person crew of Artemis II is doing more than just testing hardware - they are venturing further into the cosmos than any human being has ever traveled.
 
 ## Surpassing Apollo 13
 
@@ -25,7 +25,7 @@ This high-altitude loop provides:
 
 ## The View From Orion
 
-As they reach their "apogee" from Earth, the crew will witness a perspective few have ever imagined. The Earth will appear as a tiny, fragile "Blue Marble" in the void, while the rugged, crater-scarred terrain of the lunar far side—never visible from Earth—passes beneath them.
+As they reach their "apogee" from Earth, the crew will witness a perspective few have ever imagined. The Earth will appear as a tiny, fragile "Blue Marble" in the void, while the rugged, crater-scarred terrain of the lunar far side - never visible from Earth - passes beneath them.
 
 ## A New Era of Exploration
 

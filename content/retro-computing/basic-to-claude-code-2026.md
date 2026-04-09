@@ -33,7 +33,7 @@ Different syntaxes. Same act.
 
 ## What Programming Actually Is
 
-When you strip away the hype—the frameworks, the agile ceremonies, the Kubernetes, the LLMs—programming is still this:
+When you strip away the hype - the frameworks, the agile ceremonies, the Kubernetes, the LLMs - programming is still this:
 
 **You describe the problem. The computer solves it. You check if you were right.**
 
@@ -55,7 +55,7 @@ On Claude Code, the loop is:
 
 The *timing* is different. The *interface* is different. The *abstraction level* is radically different.
 
-But the core act—"I have a problem, I will articulate it, I will see if a solution works"—that's unchanged.
+But the core act - "I have a problem, I will articulate it, I will see if a solution works" - that's unchanged.
 
 ## What Changed (And Why It Had To)
 
@@ -175,7 +175,7 @@ In 2026, something inverted.
 
 Younger programmers understand *less* about the machine than I do. They've never seen assembly. They've never thought about CPU cache. They don't know what a pointer is.
 
-But they can do more. They can build web apps, mobile apps, ML systems—things I couldn't touch at their age.
+But they can do more. They can build web apps, mobile apps, ML systems - things I couldn't touch at their age.
 
 The abstraction is so high now that you don't need to understand what's below. You just need to understand the problem you're solving.
 
@@ -217,7 +217,7 @@ But it's still the same loop. Just compressed.
 
 ## A Hypothesis: Programming Will Keep Feeling the Same
 
-I think in 2046, someone will write an article like this comparing 2026 Claude Code to whatever comes next—probably some mental interface or quantum system or something I can't imagine.
+I think in 2046, someone will write an article like this comparing 2026 Claude Code to whatever comes next - probably some mental interface or quantum system or something I can't imagine.
 
 And they'll say:
 
@@ -255,7 +255,7 @@ The interface rose. The profession didn't die. It redistributed.
 
 Some jobs will disappear (junior developers writing boilerplate). New jobs will appear (people who know how to prompt effectively, how to evaluate AI output, how to integrate AI into systems).
 
-The core act of programming—iteration, testing, debugging, improving—remains.
+The core act of programming - iteration, testing, debugging, improving - remains.
 
 The tool just changed.
 
@@ -279,7 +279,7 @@ I started with BASIC on a ZX Spectrum because it was the only tool available. I 
 
 I'm ending with Claude Code because it makes my iteration faster. I chose this tool.
 
-But the core activity—figuring out how to make the computer do what I want—is identical.
+But the core activity - figuring out how to make the computer do what I want - is identical.
 
 The abstraction has risen. The feedback loop has compressed. The machine is incomprehensibly more powerful.
 

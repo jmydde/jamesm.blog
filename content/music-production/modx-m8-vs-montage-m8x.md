@@ -6,7 +6,7 @@ tags: ['yamaha', 'synths', 'montage', 'modx', 'pianos', 'keyboards']
 description: "Detailed comparison between Yamaha MODX M8 and Montage M8X synthesizer workstations."
 ---
 
-Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code — three powerful sound engines — but they live in different worlds when it comes to feel, performance depth, and long-term ambition.
+Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code  -  three powerful sound engines  -  but they live in different worlds when it comes to feel, performance depth, and long-term ambition.
 
 If you’re torn between them, this breakdown should make your choice a whole lot easier.
 
@@ -45,7 +45,7 @@ For UK buyers, the typical retail price for a new **MODX M8** sits around **£1,
 You’re getting the same sound engines and a huge portion of the Montage workflow at a much lower price. For most producers or gigging musicians, that alone makes the MODX M8 a no-brainer.
 
 ### Portable and practical  
-The MODX M8 is significantly lighter than its flagship sibling. If you’re carrying it to rehearsals or gigs — or just don’t want an enormous studio centrepiece — the MODX M8 is wonderfully manageable.
+The MODX M8 is significantly lighter than its flagship sibling. If you’re carrying it to rehearsals or gigs  -  or just don’t want an enormous studio centrepiece  -  the MODX M8 is wonderfully manageable.
 
 ### More than “good enough”  
 Because the engines are shared, the MODX M8 gives you around **80–90%** of the sonic capability of the Montage M8X. That is a remarkable ratio for the price point.
@@ -59,7 +59,7 @@ For many musicians, the MODX simply hits the sweet spot: big synth power, little
 While the MODX M8 is incredible value, the Montage M8X is built for a different type of player.
 
 ### Flagship build and premium action  
-The Montage M8X includes Yamaha’s **GEX** 88-key action (or hardware in that spirit) — a more realistic, responsive action that pianists feel immediately.
+The Montage M8X includes Yamaha’s **GEX** 88-key action (or hardware in that spirit)  -  a more realistic, responsive action that pianists feel immediately.
 
 ### More hands-on control  
 More knobs, more routing options, balanced outputs, higher-grade converters, and an expanded physical interface make the M8X a natural fit for professional studios.
@@ -86,7 +86,7 @@ Think of it like this:
 - You want maximum hands-on control and pro-level routing.  
 - You want an instrument built for the long haul (price ~ £4,049).  
 
-Both boards are outstanding. Yamaha didn’t make a bad choice here — they just made two choices for two different kinds of musicians.
+Both boards are outstanding. Yamaha didn’t make a bad choice here  -  they just made two choices for two different kinds of musicians.
 
 ---
 

@@ -107,7 +107,7 @@ Another ground-breaking computer, the Amiga 500 was by far the best Christmas pr
 - [Competition Pro Extra (clear) joystick](https://www.retrogames.co.uk/015729/Other-Formats/Competition-Pro-Extra-Joystick-Green/)
 
 ### Sony Vaio Laptop, VGN-NR21S/S, 1.66GHz with 15.4 Inch Display (2007)
-My first real laptop, which marked the shift from desktop-bound computing to working on the move. The 15.4" display was excellent for the time, and it gave me the freedom to work from anywhere—a game changer for productivity and flexibility.
+My first real laptop, which marked the shift from desktop-bound computing to working on the move. The 15.4" display was excellent for the time, and it gave me the freedom to work from anywhere - a game changer for productivity and flexibility.
 
 ### Inspiron 1545 : Intel Celeron Dual Core T3000 (2009)
 An affordable budget laptop during the post-financial crisis era. While modest in specs, it was reliable for everyday tasks and web development work. The value-for-money approach resonated with me during lean economic times.
@@ -140,7 +140,7 @@ My first gaming console, though at age 5 I have only vague memories of it. This 
 - https://www.computinghistory.org.uk/det/33633/Binatone-TV-Master-Mk-IV-01-4974/
 
 ### Atari 2600 (1978)
-A legendary console that defined a generation of gaming. I spent countless hours on iconic games like Pac-Man, Space Invaders, and Adventure. The Atari 2600 proved that home gaming could be more than simple paddle games—it was the beginning of proper arcade experiences in the home.
+A legendary console that defined a generation of gaming. I spent countless hours on iconic games like Pac-Man, Space Invaders, and Adventure. The Atari 2600 proved that home gaming could be more than simple paddle games - it was the beginning of proper arcade experiences in the home.
 - https://en.wikipedia.org/wiki/Atari_2600
 
 ### Sega Megadrive (1990)
@@ -150,19 +150,19 @@ The 16-bit leap was transformative. The Megadrive delivered faster, more colorfu
 Nintendo's answer to the Megadrive delivered equally impressive graphics with an outstanding library of games. The SNES introduced me to franchises like The Legend of Zelda, Final Fantasy, and Super Mario World. The controller design was ergonomic and the overall polish was undeniable.
 
 ### Sony PlayStation (1995)
-The original PlayStation was a watershed moment in gaming—32-bit 3D graphics that blew away everything that came before. Games like Final Fantasy VII, Metal Gear Solid, and Resident Evil felt cinematic and immersive. The CD-ROM format allowed for massive game worlds and full voice acting.
+The original PlayStation was a watershed moment in gaming - 32-bit 3D graphics that blew away everything that came before. Games like Final Fantasy VII, Metal Gear Solid, and Resident Evil felt cinematic and immersive. The CD-ROM format allowed for massive game worlds and full voice acting.
 
 ### Nintendo 64 (1997)
 Nintendo's bold 3D entry with the iconic three-pronged controller. Games like The Legend of Zelda: Ocarina of Time and Super Mario 64 were revolutionary in how they approached 3D gameplay. The N64 proved Nintendo wasn't afraid to innovate, even if cartridge limitations meant smaller game worlds than its competitors.
 
 ### Sony PlayStation 2 (2000)
-The PS2 was a juggernaut—the most successful console of its generation and arguably all time. The DVD drive was a bonus, but the real appeal was the incredible library of games. Grand Theft Auto, Metal Gear Solid 2, Final Fantasy X, and countless others kept me engaged for years.
+The PS2 was a juggernaut - the most successful console of its generation and arguably all time. The DVD drive was a bonus, but the real appeal was the incredible library of games. Grand Theft Auto, Metal Gear Solid 2, Final Fantasy X, and countless others kept me engaged for years.
 
 ### Nintendo Wii (2006)
-A console that changed gaming in unexpected ways. The motion controls were gimmicky at first, but games like Wii Sports and The Legend of Zelda: Twilight Princess showed the potential. It also brought my family into gaming in ways previous consoles hadn't—accessibility was a superpower.
+A console that changed gaming in unexpected ways. The motion controls were gimmicky at first, but games like Wii Sports and The Legend of Zelda: Twilight Princess showed the potential. It also brought my family into gaming in ways previous consoles hadn't - accessibility was a superpower.
 
 ### Sony PlayStation 3 (2007)
-Sony's powerhouse with the Cell processor delivered impressive graphics and online gaming capabilities. Blu-ray was a nice bonus, but the real draw was the exclusive games library—Uncharted, The Last of Us, God of War, and many more. The PS3 also doubled as a media center for HD content.
+Sony's powerhouse with the Cell processor delivered impressive graphics and online gaming capabilities. Blu-ray was a nice bonus, but the real draw was the exclusive games library - Uncharted, The Last of Us, God of War, and many more. The PS3 also doubled as a media center for HD content.
 
 ### Sony PlayStation 4 (2013)
 The PS4's straightforward x86 architecture made it easier for developers, and the results showed in the quality of games. Bloodborne, Horizon Zero Dawn, Spider-Man, and Ghost of Tsushima pushed what console gaming could achieve visually and narratively. Online multiplayer matured significantly this generation.
@@ -177,7 +177,7 @@ An early PDA that pioneered portable computing for professionals. The Psion feat
 - https://en.wikipedia.org/wiki/Psion_Series_3
 
 ### Nokia 3210 (1999)
-An iconic feature phone that epitomized late 90s mobile technology. The Nokia 3210 was ruggedized, had excellent battery life, and SMS messaging was becoming the norm. The game Snake came pre-loaded, and the customizable faceplates let you personalize your device—a big deal at the time.
+An iconic feature phone that epitomized late 90s mobile technology. The Nokia 3210 was ruggedized, had excellent battery life, and SMS messaging was becoming the norm. The game Snake came pre-loaded, and the customizable faceplates let you personalize your device - a big deal at the time.
 
 ### BlackBerry (~2000)
 BlackBerry dominated the early 2000s as the phone for business professionals. The physical QWERTY keyboard made email and messaging genuinely practical on a mobile device. Push email was a killer feature, and the secure messaging gave enterprises confidence in the platform. Status symbol and productivity tool rolled into one.

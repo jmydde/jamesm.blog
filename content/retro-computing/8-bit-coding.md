@@ -36,7 +36,7 @@ Even more significantly, the engineering talent fostered at Acorn during the BBC
 
 Today, we are facing a similar shift with AI. We are moving from a world of "writing code" to a world of "directing intelligence" ([Spec-Driven Development](/ai/spec-driven-development/)). 
 
-The 8-bit era taught us that friction can be a feature. The difficulty of getting those early machines to do anything forced us to understand *how* they worked. As we move into an era where AI handles the implementation, we must ensure we don't lose the underlying "literacy"—the ability to think logically and architecturally—that the blinking cursor of 1981 so effectively instilled in us.
+The 8-bit era taught us that friction can be a feature. The difficulty of getting those early machines to do anything forced us to understand *how* they worked. As we move into an era where AI handles the implementation, we must ensure we don't lose the underlying "literacy" - the ability to think logically and architecturally - that the blinking cursor of 1981 so effectively instilled in us.
 
 The 8-bit revolution didn't just teach a nation to code; it taught a nation how to think about systems. That is a lesson that remains more relevant than ever.
 

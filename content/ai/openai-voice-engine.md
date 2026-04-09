@@ -16,8 +16,8 @@ As of 2026, access is still restricted to approved partners and researchers, wit
 
 ## Links
 
-- [OpenAI Voice Engine Blog](https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices) — Technical overview and responsible use guidelines
-- [OpenAI API Docs](https://platform.openai.com/docs/guides/text-to-speech) — Text-to-Speech API documentation
+- [OpenAI Voice Engine Blog](https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices)  -  Technical overview and responsible use guidelines
+- [OpenAI API Docs](https://platform.openai.com/docs/guides/text-to-speech)  -  Text-to-Speech API documentation
 
 ## YouTube
 

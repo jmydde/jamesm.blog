@@ -5,7 +5,7 @@ draft: false
 tags: ['roland', 'grooveboxes', 'drum machines']
 ---
 
-Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices—the **TR-8S Rhythm Performer** and the **MC-707 Groovebox**—often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.
+Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices - the **TR-8S Rhythm Performer** and the **MC-707 Groovebox** - often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.
 
 This post brings together everything you need to know to decide **TR-8S vs MC-707**, including workflow, genres, live use, and how they can even work together.
 
@@ -17,7 +17,7 @@ This post brings together everything you need to know to decide **TR-8S vs MC-70
 **Type:** Dedicated drum machine
 **Best known for:** Hands-on performance, classic TR sounds, live tweaking
 
-The TR-8S is all about **drums first**. It continues Roland’s legendary TR lineage with modern upgrades like sample import, per-track effects, and flexible routing—all wrapped in a very immediate, tactile interface.
+The TR-8S is all about **drums first**. It continues Roland’s legendary TR lineage with modern upgrades like sample import, per-track effects, and flexible routing - all wrapped in a very immediate, tactile interface.
 
 ### Roland MC-707 Groovebox
 **Type:** All-in-one groovebox
@@ -144,4 +144,4 @@ These can act as a **master clock**, drive multiple devices, or create patterns 
 ---
 
 **Bottom line:**
-The TR-8S and MC-707 aren’t competitors—they’re **complements**. One is a performance-driven drum instrument, the other a complete groovebox studio. The right choice depends on whether you want to *play beats*, *build tracks*, or do both.
+The TR-8S and MC-707 aren’t competitors - they’re **complements**. One is a performance-driven drum instrument, the other a complete groovebox studio. The right choice depends on whether you want to *play beats*, *build tracks*, or do both.

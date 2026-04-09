@@ -145,7 +145,7 @@ tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "
 - [Lavender](http://lavender.ai) - sales email assistant powered by AI
 - [Mixo](https://www.mixo.io/) - helps entrepreneurs quickly launch and validate their business ideas
 - [MosaicTrack](https://mosaic.ai/) - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set
-- [Nosto](https://www.nosto.com/) - commerce experience platform — an integrated suite of data-fueled personalization and merchandising solutions
+- [Nosto](https://www.nosto.com/) - commerce experience platform  -  an integrated suite of data-fueled personalization and merchandising solutions
 - [Octane AI](http://octaneai.com) - Shopify app for AI-powered customer engagement
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
 - [Regie](http://regie.ai) - AI sales assistant for email

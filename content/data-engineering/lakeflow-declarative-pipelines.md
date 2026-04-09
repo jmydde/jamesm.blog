@@ -68,7 +68,7 @@ CREATE FLOW my_pipeline AS
 The reframing means:
 
 - **Unit of work is a "flow," not tables.** You're defining data lineage, not individual tables.
-- **Semantics are explicit.** CDC, incremental, streaming, static—these are first-class options, not workarounds.
+- **Semantics are explicit.** CDC, incremental, streaming, static - these are first-class options, not workarounds.
 - **Operations are first-class.** Monitoring, debugging, and cost tracking are baked into the flow concept.
 - **Portability hints at the future.** Flows might run on engines other than Spark (though they don't yet).
 
@@ -130,7 +130,7 @@ CREATE FLOW user_cdc AS
 - Tracks valid_from and valid_to dates automatically
 - Easier than hand-rolling merge logic
 
-**When to use:** Syncing databases, data warehouses, CRM data—anything that mutates at the source.
+**When to use:** Syncing databases, data warehouses, CRM data - anything that mutates at the source.
 
 ### 4. Derived Tables and Temp Tables
 
@@ -230,7 +230,7 @@ spark = SparkSession.builder.appName("enrichment").getOrCreate()
 events = spark.read.table("silver_events")
 
 def enrich_with_api(user_id):
-    # Call external API—not idiomatic for Lakeflow
+    # Call external API - not idiomatic for Lakeflow
     response = requests.get(f"https://api.company.com/users/{user_id}")
     return response.json()
 

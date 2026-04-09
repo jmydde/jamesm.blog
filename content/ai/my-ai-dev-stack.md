@@ -20,9 +20,9 @@ iPhone ──(Tailscale VPN)──→ MacBook Air
 
 ### IDE & Editor Layer
 ```
-PRIMARY: Cursor AI — fastest iteration with native AI engine
-SECONDARY: VS Code (+ Cline + Continue.dev) — battle-tested
-TERMINAL: Claude Code CLI — heavy multi-file work
+PRIMARY: Cursor AI  -  fastest iteration with native AI engine
+SECONDARY: VS Code (+ Cline + Continue.dev)  -  battle-tested
+TERMINAL: Claude Code CLI  -  heavy multi-file work
 SSH: Termius (mobile remote access)
 ```
 
@@ -195,11 +195,11 @@ export LLM_FALLBACK=gpt4-turbo  # Second opinion
 | **TOTAL** | **~$40-50/mo + API** | | Can be reduced to $20/mo (Cursor only) |
 
 ### Cost Optimization Strategies
-1. **Use Ollama for quick completions** — saves ~$200/month vs. API-only
-2. **Route expensive tasks to cheaper models** — use GPT-3.5 instead of GPT-4 for simple edits
-3. **Batch AI requests** — run multiple tasks in one session to amortize API calls
-4. **Leverage free tiers** — Perplexity, Grok free tier for research
-5. **Track usage** — Monitor OpenRouter dashboard to catch runaway costs
+1. **Use Ollama for quick completions**  -  saves ~$200/month vs. API-only
+2. **Route expensive tasks to cheaper models**  -  use GPT-3.5 instead of GPT-4 for simple edits
+3. **Batch AI requests**  -  run multiple tasks in one session to amortize API calls
+4. **Leverage free tiers**  -  Perplexity, Grok free tier for research
+5. **Track usage**  -  Monitor OpenRouter dashboard to catch runaway costs
 
 ---
 
@@ -278,13 +278,13 @@ alias tailstatus='tailscale status'
 ### IDE Keybindings
 
 **Cursor AI:**
-- `Cmd+K` — inline edit
-- `Cmd+Shift+K` — codebase search
-- `Cmd+/` — AI chat
+- `Cmd+K`  -  inline edit
+- `Cmd+Shift+K`  -  codebase search
+- `Cmd+/`  -  AI chat
 
 **VS Code (with Cline):**
-- `Ctrl+Shift+`  — open Cline
-- `Ctrl+I` — inline edit (Continue.dev)
+- `Ctrl+Shift+`   -  open Cline
+- `Ctrl+I`  -  inline edit (Continue.dev)
 
 ---
 
@@ -336,15 +336,15 @@ tailscale down
 
 ## Tips & Best Practices
 
-- **Keep tmux/zellij sessions persistent** — don't kill sessions, reattach and resume.
-- **Use Tailscale for mobile-first** — no port forwarding, no security holes.
-- **Route expensive tasks to cheaper models** — use GPT-3.5 before Claude, Ollama before paid APIs.
-- **Batch API requests** — group 5 small tasks into one session to save on round-trip overhead.
-- **Monitor API costs** — set OpenRouter budget limits ($5/day) to avoid surprises.
-- **Test locally first** — use Ollama for quick validation before hitting paid APIs.
-- **Combine multiple tools** — use Claude for reasoning, ChatGPT for alternative viewpoints, Perplexity for facts.
-- **Version your configs** — backup `~/.tmux.conf`, `~/.zshrc`, `~/.config/litellm.yaml` to git.
+- **Keep tmux/zellij sessions persistent**  -  don't kill sessions, reattach and resume.
+- **Use Tailscale for mobile-first**  -  no port forwarding, no security holes.
+- **Route expensive tasks to cheaper models**  -  use GPT-3.5 before Claude, Ollama before paid APIs.
+- **Batch API requests**  -  group 5 small tasks into one session to save on round-trip overhead.
+- **Monitor API costs**  -  set OpenRouter budget limits ($5/day) to avoid surprises.
+- **Test locally first**  -  use Ollama for quick validation before hitting paid APIs.
+- **Combine multiple tools**  -  use Claude for reasoning, ChatGPT for alternative viewpoints, Perplexity for facts.
+- **Version your configs**  -  backup `~/.tmux.conf`, `~/.zshrc`, `~/.config/litellm.yaml` to git.
 
 ---
 
-This stack provides **seamless mobile access, persistent development environments, AI coding assistants, and cost-optimized LLM routing** — ideal for solo developers or small teams who rely heavily on AI-driven productivity.
+This stack provides **seamless mobile access, persistent development environments, AI coding assistants, and cost-optimized LLM routing**  -  ideal for solo developers or small teams who rely heavily on AI-driven productivity.

@@ -12,9 +12,9 @@ This section explores blockchain technology, cryptocurrencies, and the Web3 ecos
 
 ### Topics Covered
 
-- **Bitcoin & Fundamentals** — Explore the world's first and largest cryptocurrency
-- **Ethereum & Smart Contracts** — Learn about programmable blockchain platforms
-- **Polkadot Ecosystem** — Discover multi-chain interoperability and scalability solutions
-- **Web3 Development** — Courses and resources for blockchain developers
-- **Security & Wallets** — Hardware wallets, private keys, and best practices
-- **News & Resources** — Latest updates and curated YouTube content
+- **Bitcoin & Fundamentals**  -  Explore the world's first and largest cryptocurrency
+- **Ethereum & Smart Contracts**  -  Learn about programmable blockchain platforms
+- **Polkadot Ecosystem**  -  Discover multi-chain interoperability and scalability solutions
+- **Web3 Development**  -  Courses and resources for blockchain developers
+- **Security & Wallets**  -  Hardware wallets, private keys, and best practices
+- **News & Resources**  -  Latest updates and curated YouTube content

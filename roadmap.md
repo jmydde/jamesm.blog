@@ -55,6 +55,16 @@
 - [x] **Cline: The Next Generation AI Coding Assistant**
 - [ ] **Stop Debugging AI Code: How to Actually Verify Generated Output**
 - [x] **Hybrid AI Stacks: Why No Single Model Does Everything Well**
+- [ ] **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
+- [ ] **Prompt Caching: The Quiet Performance Win for LLM Applications**
+- [x] **Token Economics: Why the Cost of AI Isn't Going Down**
+- [ ] **The Attention Mechanism: Why Understanding It Changes How You Prompt**
+- [ ] **Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful**
+- [ ] **AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know**
+- [ ] **Structured Outputs: When Your AI Needs to Follow a Schema**
+- [ ] **Why AI Assistants Suck at Following Instructions (And How to Fix It)**
+- [ ] **The GPU Lottery: Why You Can't Just 'Scale Up' AI Anymore**
+- [ ] **AI Safety From First Principles: What Actually Matters vs What's Hype**
 
 ### /music-production
 - [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything**
@@ -69,7 +79,7 @@
 - [ ] **Arrangement Is 90% Of The Track: The Most Underrated Skill**
 
 ### /blockchain
-- [ ] **Polkadot's Agile Coretime: A Plain-English Explainer**
+- [x] **Polkadot's Agile Coretime: A Plain-English Explainer**
 - [ ] **DeFi 2.0: The Next Generation of Decentralized Finance**
 - [ ] **NFTs Beyond Art: Real-World Applications and Use Cases**
 - [ ] **The Environmental Impact of Blockchain: Proof-of-Stake vs Proof-of-Work**

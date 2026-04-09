@@ -7,7 +7,7 @@ tags: ['devops', 'ai', 'automation', 'ci-cd', 'platform-engineering']
 
 For years, DevOps has been about breaking down silos and automating the software delivery lifecycle. We moved from manual deployments to Jenkins scripts, then to YAML-defined pipelines, and eventually to Infrastructure as Code (IaC).
 
-But in 2026, the bottleneck is no longer the speed of the pipeline—it's the speed of human decision-making within that pipeline. We are entering the era of **Agentic DevOps**.
+But in 2026, the bottleneck is no longer the speed of the pipeline - it's the speed of human decision-making within that pipeline. We are entering the era of **Agentic DevOps**.
 
 ## From Automation to Autonomy
 
@@ -31,7 +31,7 @@ We are seeing a shift where tools like [Claude Code](/ai/claude-code-review) per
 By using [GitHub Spec Kit](/ai/github-spec-kit), we can define infrastructure requirements in natural language specs. AI agents then translate these into Terraform or Pulumi code. The spec becomes the "source of truth," and the AI ensures the implementation never drifts from the original architectural intent.
 
 ### 3. Self-Healing Systems
-Monitoring has moved beyond static alerts. Agents can now perform "digital labor"—similar to the [OpenClaw](/ai/openclaw-is-wild) model—to navigate cloud consoles, identify rogue processes, and adjust scaling parameters or roll back faulty deployments autonomously based on high-level objectives.
+Monitoring has moved beyond static alerts. Agents can now perform "digital labor" - similar to the [OpenClaw](/ai/openclaw-is-wild) model - to navigate cloud consoles, identify rogue processes, and adjust scaling parameters or roll back faulty deployments autonomously based on high-level objectives.
 
 ## The Human Role: From "Doer" to "Architect"
 

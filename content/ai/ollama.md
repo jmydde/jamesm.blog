@@ -12,7 +12,7 @@ Ollama has quietly become the go-to tool for developers who want to run large la
 
 ## What is Ollama?
 
-Ollama is a lightweight platform designed to make running open-source language models accessible. It handles the complexity of model management—downloading, optimization, memory management—so you just run a command and start prompting.
+Ollama is a lightweight platform designed to make running open-source language models accessible. It handles the complexity of model management - downloading, optimization, memory management - so you just run a command and start prompting.
 
 It works on Mac, Linux, and Windows, and the install is straightforward. Download from [ollama.ai](https://ollama.ai), install, and you're ready to pull models.
 
@@ -37,17 +37,17 @@ You can also run models in the background and query them via HTTP API on `localh
 
 The Ollama library has grown significantly. Here are the standouts:
 
-**Mistral 7B** — The speed champion. Fast inference, surprisingly good reasoning for its size. Great for real-time applications.
+**Mistral 7B**  -  The speed champion. Fast inference, surprisingly good reasoning for its size. Great for real-time applications.
 
-**Llama 2 (7B, 13B, 70B)** — Meta's Llama series offers a range of sizes. The 13B version is a sweet spot for most machines. Solid all-around performer.
+**Llama 2 (7B, 13B, 70B)**  -  Meta's Llama series offers a range of sizes. The 13B version is a sweet spot for most machines. Solid all-around performer.
 
-**Neural Chat** — A conversational model tuned for dialogue. Feels more natural than raw base models.
+**Neural Chat**  -  A conversational model tuned for dialogue. Feels more natural than raw base models.
 
-**Phi** — Microsoft's compact model. Runs on modest hardware, useful for edge cases or resource-constrained environments.
+**Phi**  -  Microsoft's compact model. Runs on modest hardware, useful for edge cases or resource-constrained environments.
 
-**Openclaw** — The newcomer. Built for code-intensive tasks with strong reasoning capabilities.
+**Openclaw**  -  The newcomer. Built for code-intensive tasks with strong reasoning capabilities.
 
-**DeepSeek Coder** — Specifically trained for code generation. If you're using Ollama for programming assistance, worth trying.
+**DeepSeek Coder**  -  Specifically trained for code generation. If you're using Ollama for programming assistance, worth trying.
 
 You can see the full library with `ollama list` or browse at [ollama.ai/library](https://ollama.ai/library).
 
@@ -76,19 +76,19 @@ curl http://localhost:11434/api/generate -d '{
 }'
 ```
 
-This lets you integrate OpenClaw into your own applications—a local AI backbone with no external dependencies.
+This lets you integrate OpenClaw into your own applications - a local AI backbone with no external dependencies.
 
 ## Why Run Models Locally?
 
-**Privacy** — Your prompts don't leave your machine.
+**Privacy**  -  Your prompts don't leave your machine.
 
-**Cost** — No per-token charges. Run as much as you want.
+**Cost**  -  No per-token charges. Run as much as you want.
 
-**Latency** — No network round-trip. Faster for many use cases.
+**Latency**  -  No network round-trip. Faster for many use cases.
 
-**Offline capability** — No internet needed once models are downloaded.
+**Offline capability**  -  No internet needed once models are downloaded.
 
-**Control** — You own the model. No API changes, deprecations, or surprise cost increases.
+**Control**  -  You own the model. No API changes, deprecations, or surprise cost increases.
 
 ## Hardware Considerations
 

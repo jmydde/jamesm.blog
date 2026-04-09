@@ -14,19 +14,19 @@ Whether you're a beginner exploring blockchain fundamentals or an experienced de
 ### Developer-Focused Platforms
 
 - **[Blockchain Council](https://www.blockchain-council.org/)**
-  - [Certified Blockchain Developer™](https://www.blockchain-council.org/certifications/certified-blockchain-developer/) — Professional certification program
+  - [Certified Blockchain Developer™](https://www.blockchain-council.org/certifications/certified-blockchain-developer/)  -  Professional certification program
 
-- **[ChainShot](https://www.chainshot.com/bootcamp/)** — Interactive bootcamp for blockchain development
+- **[ChainShot](https://www.chainshot.com/bootcamp/)**  -  Interactive bootcamp for blockchain development
 
-- **[CryptoZombies](https://cryptozombies.io/)** — Learn Solidity through interactive gaming
+- **[CryptoZombies](https://cryptozombies.io/)**  -  Learn Solidity through interactive gaming
 
-- **[LearnWeb3](https://learnweb3.io/)** — Comprehensive Web3 developer education
+- **[LearnWeb3](https://learnweb3.io/)**  -  Comprehensive Web3 developer education
 
-- **[Polkadot Blockchain Academy](https://polkadot.network/development/academy/)** — Official Polkadot training for developers and founders
+- **[Polkadot Blockchain Academy](https://polkadot.network/development/academy/)**  -  Official Polkadot training for developers and founders
 
 ### Comprehensive Platforms
 
-- **[LinkedIn Learning](https://www.linkedin.com/learning/topics/web3/)** — Web3 course collection with professional instructors
+- **[LinkedIn Learning](https://www.linkedin.com/learning/topics/web3/)**  -  Web3 course collection with professional instructors
 
 - **[Udemy](https://www.udemy.com/)**
   - [Blockchain A-Z™: Learn How To Build Your First Blockchain](https://www.udemy.com/course/build-your-blockchain-az/)
@@ -38,6 +38,6 @@ Whether you're a beginner exploring blockchain fundamentals or an experienced de
 
 ### Career & Networking
 
-- **[Web3.career](https://web3.career/)** — Job board and resources for Web3 professionals
+- **[Web3.career](https://web3.career/)**  -  Job board and resources for Web3 professionals
 
-- **[Web3 University](https://www.web3.university/)** — Open-source education hub for blockchain knowledge
+- **[Web3 University](https://www.web3.university/)**  -  Open-source education hub for blockchain knowledge

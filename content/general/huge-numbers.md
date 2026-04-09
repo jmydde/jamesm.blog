@@ -12,7 +12,7 @@ Large numbers exist on a spectrum so extreme that human intuition breaks down. F
 
 But they're not just abstract curiosities. Large numbers appear in computer science (combinatorics, compression), physics (entropy, quantum possibilities), and mathematics (set theory, ordinal numbers). Understanding them requires leaving behind our everyday sense of "big" and embracing the mathematical structures that define these hierarchies.
 
-The fascinating part? Some numbers are so large that it's physically impossible to even write down their digits. Others exist only as mathematical concepts—yet mathematicians can still reason about their properties, compare them, and rank them in hierarchies of incomprehensible magnitude.
+The fascinating part? Some numbers are so large that it's physically impossible to even write down their digits. Others exist only as mathematical concepts - yet mathematicians can still reason about their properties, compare them, and rank them in hierarchies of incomprehensible magnitude.
 
 ## Famous Named Numbers
 
@@ -21,7 +21,7 @@ These are numbers humans have actually named and can describe, though that doesn
 ### Googol and Googolplex
 {{< youtube 8GEebx72-qs >}}
 
-A **Googol** is 10^100—a 1 followed by 100 zeros. That's already larger than the number of atoms in the observable universe. But a **Googolplex** is 10^googol—a 1 followed by a googol zeros. If you tried to write out a Googolplex, there aren't enough atoms in the universe to store the digits.
+A **Googol** is 10^100 - a 1 followed by 100 zeros. That's already larger than the number of atoms in the observable universe. But a **Googolplex** is 10^googol - a 1 followed by a googol zeros. If you tried to write out a Googolplex, there aren't enough atoms in the universe to store the digits.
 
 ### Graham's Number
 {{< youtube XTeJ64KD5cg >}}
@@ -30,7 +30,7 @@ Graham's Number emerged from a problem in Ramsey theory (a branch of combinatori
 
 ## The Hierarchy of Infinity
 
-Infinity isn't just "really big"—it's a fundamentally different concept. Mathematicians discovered that there are different *sizes* of infinity, an idea that shocked the mathematical community when first formalized.
+Infinity isn't just "really big" - it's a fundamentally different concept. Mathematicians discovered that there are different *sizes* of infinity, an idea that shocked the mathematical community when first formalized.
 
 ### A Hierarchy of Infinities
 {{< youtube i7c2qz7sO0I >}}
@@ -40,17 +40,17 @@ A deep dive into transfinite numbers: aleph-null, aleph-one, and the mathematica
 ### Infinity Is Bigger Than You Think
 {{< youtube elvOZm0d4H0 >}}
 
-This Numberphile classic explores what infinity actually means and why our intuitions completely fail us. The hotel problem, Cantor's diagonal argument, and the sheer weirdness of infinities bigger than infinity—all presented with characteristic clarity.
+This Numberphile classic explores what infinity actually means and why our intuitions completely fail us. The hotel problem, Cantor's diagonal argument, and the sheer weirdness of infinities bigger than infinity - all presented with characteristic clarity.
 
 ## Recursive Giants: Numbers Beyond Naming
 
-Some numbers are so large that they can only be described recursively or through meta-levels of operation. You can't name them—you can only describe the rule that generates them.
+Some numbers are so large that they can only be described recursively or through meta-levels of operation. You can't name them - you can only describe the rule that generates them.
 
 ### TREE(3)
 {{< youtube 3P6DWAwwViU >}}
 {{< youtube IihcNa9YAPk >}}
 
-TREE(3) is one of the most extreme numbers in mathematics. It comes from graph theory and the concept of tree sequences. The Numberphile videos on TREE(3) are legendary because even mathematicians struggle to convey its magnitude. TREE(3) is incomparably larger than Graham's Number—so much larger that Graham's Number is practically negligible by comparison.
+TREE(3) is one of the most extreme numbers in mathematics. It comes from graph theory and the concept of tree sequences. The Numberphile videos on TREE(3) are legendary because even mathematicians struggle to convey its magnitude. TREE(3) is incomparably larger than Graham's Number - so much larger that Graham's Number is practically negligible by comparison.
 
 ## The Infinite Hotel Paradox
 

@@ -196,6 +196,6 @@ That is a much more useful way to think about AI than treating the whole space l
 ---
 
 **Related reading:**
-- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026) — How I think about combining different AI tools into one workflow
-- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence) — Why intelligence itself is starting to behave like infrastructure
-- [AI Explainers](/ai/explainers) — Foundational resources for understanding how the underlying systems work
+- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026)  -  How I think about combining different AI tools into one workflow
+- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  Why intelligence itself is starting to behave like infrastructure
+- [AI Explainers](/ai/explainers)  -  Foundational resources for understanding how the underlying systems work

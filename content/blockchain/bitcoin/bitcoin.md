@@ -11,11 +11,11 @@ Bitcoin is the world's first and largest cryptocurrency by market capitalization
 
 ### Key Characteristics
 
-- **Decentralized** — No central authority or government controls Bitcoin
-- **Limited Supply** — Maximum of 21 million bitcoins will ever exist
-- **Transparent** — All transactions are recorded on the public blockchain
-- **Immutable** — Past transactions cannot be altered or reversed
-- **Secure** — Protected by cryptographic proof-of-work consensus mechanism
+- **Decentralized**  -  No central authority or government controls Bitcoin
+- **Limited Supply**  -  Maximum of 21 million bitcoins will ever exist
+- **Transparent**  -  All transactions are recorded on the public blockchain
+- **Immutable**  -  Past transactions cannot be altered or reversed
+- **Secure**  -  Protected by cryptographic proof-of-work consensus mechanism
 
 ## Educational Content
 

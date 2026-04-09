@@ -52,7 +52,7 @@ As noted in my [GPU vs API breakdown](/ai/gpu-servers-vs-api-credits/), if you a
 
 Cloud AI assumes a perfect world. But for developers working on the move, in high-security environments, or in regions with unstable infrastructure, the cloud is a point of failure. 
 
-Local AI has brought back the "Offline Developer." Being able to refactor a legacy codebase while on a flight or in a remote cabin—with full-capability AI assistance—is a superpower that was lost for a few years and has now been reclaimed.
+Local AI has brought back the "Offline Developer." Being able to refactor a legacy codebase while on a flight or in a remote cabin - with full-capability AI assistance - is a superpower that was lost for a few years and has now been reclaimed.
 
 ## The 2026 Architect’s Stack
 

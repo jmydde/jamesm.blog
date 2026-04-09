@@ -14,7 +14,7 @@ This was the "Copy Protection War," an arms race between software houses and the
 
 ## The Physical Gatekeepers
 
-Since bits and bytes were easy to duplicate, developers turned to the physical world—things a disk drive couldn't copy.
+Since bits and bytes were easy to duplicate, developers turned to the physical world - things a disk drive couldn't copy.
 
 ### 1. The Code Wheel (Dial-A-Pirate)
 The most iconic of these was the code wheel. Games like *The Secret of Monkey Island* or *Pool of Radiance* came with two or more nested cardboard circles pinned together. When the game launched, it would ask for a specific combination (e.g., "What was the pirate's face when the year was 1640 in Antigua?"). 
@@ -34,7 +34,7 @@ This was the "low-tech" champion. It relied on the fact that photocopying a 100-
 
 While some focused on the user, others focused on the drive. Standard disk controllers expected data to be laid out in a very specific way. Developers started "breaking" the rules to create uncopyable disks.
 
-*   **Weak Bits:** Developers would purposefully write "fuzzy" data to a sector—bits that were right on the threshold of being a 0 or a 1. A standard disk drive would read it differently every time. The game would check: "If I read this sector twice and the data is identical, this is a pirate copy."
+*   **Weak Bits:** Developers would purposefully write "fuzzy" data to a sector - bits that were right on the threshold of being a 0 or a 1. A standard disk drive would read it differently every time. The game would check: "If I read this sector twice and the data is identical, this is a pirate copy."
 *   **Spiral Tracks:** Standard disks used concentric circles. Some protection schemes wrote data in a continuous spiral or used "half-tracks" (writing between the standard track positions). Most consumer-grade copying software couldn't handle the non-standard head movement required to read these.
 *   **Laser Holes:** Some companies physically burned a tiny hole in the disk surface with a laser. The software would attempt to write data to that specific spot. If the write succeeded, it meant the disk was a copy (because a real disk had a physical hole that couldn't be written to).
 
@@ -42,7 +42,7 @@ While some focused on the user, others focused on the drive. Standard disk contr
 
 Every lock invited a locksmith. Groups like *The Humble Guys* or *Fairlight* competed to see who could "crack" a game first. 
 
-To prove their prowess, crackers wouldn't just remove the protection; they would add a "cracktro"—a small, flashy intro with scrolling text and chiptune music—before the game started. This culture of optimization and hardware-pushing eventually evolved into the **[Demoscene](/retro-computing/the-demoscene-where-art-met-assembly/)**, where the goal was no longer piracy, but pure digital art.
+To prove their prowess, crackers wouldn't just remove the protection; they would add a "cracktro" - a small, flashy intro with scrolling text and chiptune music - before the game started. This culture of optimization and hardware-pushing eventually evolved into the **[Demoscene](/retro-computing/the-demoscene-where-art-met-assembly/)**, where the goal was no longer piracy, but pure digital art.
 
 ## The Legacy: From Cardboard to AI
 
@@ -50,7 +50,7 @@ The copy protection wars of the 80s were deterministic. They relied on a secret 
 
 Modern anti-cheat systems (like Ricochet or Vanguard) don't just look for a "crack." They use machine learning models to analyze player inputs in real-time, looking for the micro-movements of an aimbot or the inhuman reaction times of a script. We've moved from checking if you own the cardboard wheel to checking if your "soul" (your unique playstyle) matches the human behind the keyboard.
 
-Yet, there is a certain charm missing from the modern experience. There was something magical about "Dial-A-Pirate"—a physical bridge between our world and the digital one. It reminded us that the software we were running was a craft, something worth protecting with a bit of cardboard and a lot of imagination.
+Yet, there is a certain charm missing from the modern experience. There was something magical about "Dial-A-Pirate" - a physical bridge between our world and the digital one. It reminded us that the software we were running was a craft, something worth protecting with a bit of cardboard and a lot of imagination.
 
 ---
 
@@ -58,4 +58,4 @@ Yet, there is a certain charm missing from the modern experience. There was some
 *   **[Compunet](/retro-computing/compunet-britains-forgotten-pre-internet-community/):** A British BBS where piracy and cracking techniques were discussed in the 80s.
 *   **Don't Copy That Floppy:** The infamous 1992 anti-piracy rap video.
 *   **SimCity (SNES):** Used a massive sheet of red-tinted codes that was "copy-proof."
-*   **EarthBound:** Had one of the most brutal anti-piracy measures—it would let you play the whole game, but delete your save file right at the final boss if it detected a copy.
+*   **EarthBound:** Had one of the most brutal anti-piracy measures - it would let you play the whole game, but delete your save file right at the final boss if it detected a copy.

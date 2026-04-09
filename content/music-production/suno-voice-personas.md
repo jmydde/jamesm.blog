@@ -15,7 +15,7 @@ For the first time, you can build an entire album around the **same vocalist**, 
 
 ### What’s New: Voice Personas
 
-**Voice Personas** are designed to focus on what most creators care about first — the singer.
+**Voice Personas** are designed to focus on what most creators care about first  -  the singer.
 
 **Key characteristics:**
 
@@ -28,7 +28,7 @@ For the first time, you can build an entire album around the **same vocalist**, 
 - **Built for albums and larger projects**  
   You can now create a cohesive body of work where the vocal identity stays stable even as the sound evolves.
 
-This gives creators continuity *without* creative constraint — a rare and powerful combination.
+This gives creators continuity *without* creative constraint  -  a rare and powerful combination.
 
 ---
 
@@ -45,7 +45,7 @@ The original **Style Personas** remain available and behave as before:
 - **Voice Personas** → singer consistency  
 - **Style Personas** → sound and instrumentation consistency
 
-Both approaches are valuable — it simply depends on whether the voice or the overall sound is your priority.
+Both approaches are valuable  -  it simply depends on whether the voice or the overall sound is your priority.
 
 ---
 

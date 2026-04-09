@@ -15,7 +15,7 @@ If you want to understand which one is right for your organization, you stop loo
 
 For a long time, the narrative was simple: Snowflake was the "Easy" button (Data Warehouse) and Databricks was the "Power" button (Data Lake). 
 
-But convenience has a tax. In 2026, we’ve realized that the real business model of the "Modern Data Stack" isn't storage—it's **egress and compute margins**. 
+But convenience has a tax. In 2026, we’ve realized that the real business model of the "Modern Data Stack" isn't storage - it's **egress and compute margins**. 
 
 ### Snowflake: The Consumption Premium
 Snowflake’s genius is its abstraction. You don't manage VMs; you manage "Warehouses." This simplicity is an CFO's dream until the bill arrives. Because Snowflake controls the entire vertical stack, you pay a significant margin for that "one-throat-to-choke" reliability. In 2026, Snowflake has pivoted heavily into **Polaris Catalog**, trying to prove they aren't a walled garden, but their core revenue still relies on you staying inside their compute ecosystem.
@@ -42,7 +42,7 @@ For many enterprises, the "margin" paid to Snowflake or Databricks is roughly 2x
 
 ## The "Staffing" Paradox
 
-As I discussed in [The Architect vs The Builder](/ai/architect-vs-builder/), the constraint in 2026 is no longer writing the code—AI agents do that. The constraint is **architectural judgment**.
+As I discussed in [The Architect vs The Builder](/ai/architect-vs-builder/), the constraint in 2026 is no longer writing the code - AI agents do that. The constraint is **architectural judgment**.
 
 To run a pure Open-Source stack, you need a high-caliber Data Platform team. In 2026, those engineers are expensive. 
 

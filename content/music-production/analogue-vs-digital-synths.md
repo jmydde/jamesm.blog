@@ -54,7 +54,7 @@ Analog & digital synthesizers are both electronic instruments that create sound,
 ### Analog vs Digital Polysynth - is there really a difference?
 {{< youtube PzyJ7AoZdfA >}}
 
-### Analog vs. Digital Synths — Which is Right for You?
+### Analog vs. Digital Synths  -  Which is Right for You?
 {{< youtube NrCjtVZZLTw >}}
 
 ### Analog Synths vs Digital Synths Quiz

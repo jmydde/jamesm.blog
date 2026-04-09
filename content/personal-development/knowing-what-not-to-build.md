@@ -129,5 +129,5 @@ And that is the most valuable skill of all.
 ---
 
 **Related reading:**
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity) — On judgment becoming the scarce resource
-- [Rebuilding Life with Small Systems](/personal-development/rebuilding-life-with-small-systems) — On building sustainable practices through focus
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  On judgment becoming the scarce resource
+- [Rebuilding Life with Small Systems](/personal-development/rebuilding-life-with-small-systems)  -  On building sustainable practices through focus

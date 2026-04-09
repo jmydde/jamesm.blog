@@ -116,5 +116,5 @@ That is when a category starts to become real.
 ---
 
 **Related reading:**
-- [Chatbots & Large Language Models (LLMs)](/ai/chatbots-llms) — A clearer explanation of the model layer versus the chatbot layer
-- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026) — How AI tools fit into a broader workflow once they become everyday utilities
+- [Chatbots & Large Language Models (LLMs)](/ai/chatbots-llms)  -  A clearer explanation of the model layer versus the chatbot layer
+- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026)  -  How AI tools fit into a broader workflow once they become everyday utilities

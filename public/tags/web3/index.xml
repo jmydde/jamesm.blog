@@ -22,9 +22,9 @@
 &lt;p&gt;Quantum computing represents one of the most significant theoretical threats to modern cryptography. For Bitcoin, the primary concern lies in the potential for quantum computers to run &lt;strong&gt;Shor&amp;rsquo;s Algorithm&lt;/strong&gt;, which could efficiently solve the discrete logarithm problem that secures Bitcoin&amp;rsquo;s public-key cryptography (ECDSA).&lt;/p&gt;
 &lt;h3 id=&#34;the-vulnerabilities&#34;&gt;The Vulnerabilities&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ECDSA (Elliptic Curve Digital Signature Algorithm)&lt;/strong&gt; — Currently used to sign Bitcoin transactions. A sufficiently powerful quantum computer could derive a private key from its corresponding public key.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Public Key Exposure&lt;/strong&gt; — While Bitcoin addresses are hashed (providing a layer of protection), the public key is revealed to the network when a transaction is initiated, creating a window of vulnerability before the block is mined.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mining (SHA-256)&lt;/strong&gt; — &lt;strong&gt;Grover&amp;rsquo;s Algorithm&lt;/strong&gt; could speed up mining, but this is a quadratic improvement rather than exponential, meaning it could likely be mitigated by increasing network difficulty or hash rates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ECDSA (Elliptic Curve Digital Signature Algorithm)&lt;/strong&gt;  -  Currently used to sign Bitcoin transactions. A sufficiently powerful quantum computer could derive a private key from its corresponding public key.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public Key Exposure&lt;/strong&gt;  -  While Bitcoin addresses are hashed (providing a layer of protection), the public key is revealed to the network when a transaction is initiated, creating a window of vulnerability before the block is mined.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mining (SHA-256)&lt;/strong&gt;  -  &lt;strong&gt;Grover&amp;rsquo;s Algorithm&lt;/strong&gt; could speed up mining, but this is a quadratic improvement rather than exponential, meaning it could likely be mitigated by increasing network difficulty or hash rates.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mitigation-and-post-quantum-bitcoin&#34;&gt;Mitigation and Post-Quantum Bitcoin&lt;/h2&gt;
 &lt;p&gt;The Bitcoin community is well aware of these risks. Potential solutions include:&lt;/p&gt;</description>
@@ -35,7 +35,7 @@
       <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/blockchain/polkadot/polkadot-2026/</guid>
       <description>&lt;h2 id=&#34;the-pivot-year-polkadots-strategic-shift-in-2026&#34;&gt;The Pivot Year: Polkadot&amp;rsquo;s Strategic Shift in 2026&lt;/h2&gt;
-&lt;p&gt;Polkadot has undergone a fundamental transformation in 2025-2026. After years of building infrastructure layers, the ecosystem is making a decisive pivot toward user-facing applications. This isn&amp;rsquo;t just a narrative shift—it&amp;rsquo;s embedded in technical upgrades, tokenomics redesigns, and validator economics that reflect a maturing network ready to compete at the application layer.&lt;/p&gt;
+&lt;p&gt;Polkadot has undergone a fundamental transformation in 2025-2026. After years of building infrastructure layers, the ecosystem is making a decisive pivot toward user-facing applications. This isn&amp;rsquo;t just a narrative shift - it&amp;rsquo;s embedded in technical upgrades, tokenomics redesigns, and validator economics that reflect a maturing network ready to compete at the application layer.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Timing:&lt;/strong&gt; This transformation arrives as traditional finance begins acknowledging blockchain infrastructure, and as the broader crypto market cycle approaches a pivotal moment for adoption.&lt;/p&gt;</description>
     </item>
     <item>
@@ -67,19 +67,19 @@
 &lt;h3 id=&#34;educational--technical&#34;&gt;Educational &amp;amp; Technical&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@aantonop/&#34;&gt;Andreas Antonopoulos&lt;/a&gt;&lt;/strong&gt; — One of the most trusted and engaging educators in the Bitcoin industry, explaining blockchain fundamentals with clarity and depth&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@aantonop/&#34;&gt;Andreas Antonopoulos&lt;/a&gt;&lt;/strong&gt;  -  One of the most trusted and engaging educators in the Bitcoin industry, explaining blockchain fundamentals with clarity and depth&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@CoinBureau/&#34;&gt;Coin Bureau&lt;/a&gt;&lt;/strong&gt; — Comprehensive informational portal to the cryptocurrency ecosystem with detailed project analysis&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@CoinBureau/&#34;&gt;Coin Bureau&lt;/a&gt;&lt;/strong&gt;  -  Comprehensive informational portal to the cryptocurrency ecosystem with detailed project analysis&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@MMCryptoTube/&#34;&gt;MMCrypto&lt;/a&gt;&lt;/strong&gt; — In-depth coverage of cryptocurrency and blockchain topics for learners at all levels&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@MMCryptoTube/&#34;&gt;MMCrypto&lt;/a&gt;&lt;/strong&gt;  -  In-depth coverage of cryptocurrency and blockchain topics for learners at all levels&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;market--trading&#34;&gt;Market &amp;amp; Trading&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@AltcoinDaily/&#34;&gt;Altcoin Daily&lt;/a&gt;&lt;/strong&gt; — Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, and investing insights&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@AltcoinDaily/&#34;&gt;Altcoin Daily&lt;/a&gt;&lt;/strong&gt;  -  Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, and investing insights&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blockchain &amp; Web3 Courses</title>
@@ -94,20 +94,20 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.blockchain-council.org/&#34;&gt;Blockchain Council&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt; — Professional certification program&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt;  -  Professional certification program&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/strong&gt; — Interactive bootcamp for blockchain development&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/strong&gt;  -  Interactive bootcamp for blockchain development&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/strong&gt; — Learn Solidity through interactive gaming&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/strong&gt;  -  Learn Solidity through interactive gaming&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/strong&gt; — Comprehensive Web3 developer education&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/strong&gt;  -  Comprehensive Web3 developer education&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/strong&gt; — Official Polkadot training for developers and founders&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/strong&gt;  -  Official Polkadot training for developers and founders&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

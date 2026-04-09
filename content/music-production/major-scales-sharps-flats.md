@@ -64,7 +64,7 @@ Here’s the sequence of major scales as you move up by fifths:
 
 | Major Scale | Number of Sharps | Sharps in Scale           |
 |-------------|-----------------|---------------------------|
-| C           | 0               | —                         |
+| C           | 0               |  -                          |
 | G           | 1               | F#                        |
 | D           | 2               | F#, C#                    |
 | A           | 3               | F#, C#, G#                |

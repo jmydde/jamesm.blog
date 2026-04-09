@@ -16,7 +16,7 @@ The Amiga was designed by people who understood computers *deeply*, and it shows
 
 ## The Amiga's Origins (And Why It Mattered)
 
-The Amiga was not born at Commodore. It was born at a startup called Amiga Corporation, founded by Jay Miner in 1983. Miner was a legendary hardware designer—he'd worked on the Atari 8-bit computers and understood what made them special. He wanted to build something better.
+The Amiga was not born at Commodore. It was born at a startup called Amiga Corporation, founded by Jay Miner in 1983. Miner was a legendary hardware designer - he'd worked on the Atari 8-bit computers and understood what made them special. He wanted to build something better.
 
 What he designed was radical: a computer with *multiple processors*, each with its own job.
 
@@ -27,7 +27,7 @@ What he designed was radical: a computer with *multiple processors*, each with i
 
 This was unheard of. Most computers of the era had a single CPU that did everything. The Amiga had an entire orchestra of processors, each optimized for its task, all running in parallel.
 
-This architecture had massive implications. Because Agnus and Paula and Denise were hardware, audio and video could run independently of the CPU. You could be processing data, making audio, and rendering graphics *simultaneously*. The CPU wasn't being bogged down with video timing or audio generation—that was being handled by dedicated chips.
+This architecture had massive implications. Because Agnus and Paula and Denise were hardware, audio and video could run independently of the CPU. You could be processing data, making audio, and rendering graphics *simultaneously*. The CPU wasn't being bogged down with video timing or audio generation - that was being handled by dedicated chips.
 
 In 1985, this was so far ahead of the curve that most people didn't understand what they were looking at.
 
@@ -55,7 +55,7 @@ Here's another thing the Amiga got right: it understood that computer graphics w
 
 The Amiga had a system called **planar graphics**. Rather than storing a bitmap where each pixel had a color value, the Amiga stored up to five separate bitplanes, each representing one bit of color information. It sounds crude, but it was brilliant.
 
-The magic was that these planes could be layered, masked, and composited by the hardware. You could have a background layer, a sprite layer, a UI layer, all composited together in real time with transparency and special effects—all *without* the CPU doing any work.
+The magic was that these planes could be layered, masked, and composited by the hardware. You could have a background layer, a sprite layer, a UI layer, all composited together in real time with transparency and special effects - all *without* the CPU doing any work.
 
 Modern graphics, whether on macOS, Windows, or Android, uses exactly this model. Every UI element is a layer. Layers are composited by the GPU. Transparency, shadows, and blur effects are all applied during compositing.
 
@@ -69,11 +69,11 @@ The Amiga was one of the first computers where you could add hardware and have i
 - **Auto-configuration** firmware that detected new hardware and loaded drivers automatically
 - **Standard I/O conventions** that meant peripherals from different manufacturers would work together
 
-You could buy a Zorro card for extra memory, or a graphics card, or a SCSI interface, or a network adapter—plug it in, reboot, and it would work.
+You could buy a Zorro card for extra memory, or a graphics card, or a SCSI interface, or a network adapter - plug it in, reboot, and it would work.
 
-IBM PCs required manual interrupt and I/O configuration. You'd have to set jumpers, edit configuration files, and pray it worked. Macintoshes were closed systems—you basically couldn't expand them.
+IBM PCs required manual interrupt and I/O configuration. You'd have to set jumpers, edit configuration files, and pray it worked. Macintoshes were closed systems - you basically couldn't expand them.
 
-The Amiga's approach—plug it in and it detects it automatically—is now so standard we don't even think about it. USB, PCI-E, Thunderbolt—they all work on the same principle the Amiga pioneered.
+The Amiga's approach - plug it in and it detects it automatically - is now so standard we don't even think about it. USB, PCI-E, Thunderbolt - they all work on the same principle the Amiga pioneered.
 
 ## Audio and Video at Hardware Level
 
@@ -84,9 +84,9 @@ The Amiga's sound chip (Paula) was, by 1985 standards, a synthesizer. It could:
 - Use amplitude modulation and frequency modulation
 - Generate audio in real time under software control
 
-This wasn't a toy. Professional musicians used the Amiga. The Fairlight synthesizer's tracking synthesizer was demoed on an Amiga. Tracker music—a music sequencing format that became the foundation of chiptune and demoscene music—was essentially invented for the Amiga.
+This wasn't a toy. Professional musicians used the Amiga. The Fairlight synthesizer's tracking synthesizer was demoed on an Amiga. Tracker music - a music sequencing format that became the foundation of chiptune and demoscene music - was essentially invented for the Amiga.
 
-Similarly, the graphics capabilities meant the Amiga could do real-time video effects, color manipulation, and animation. Combined with the ability to run code in the background, this made the Amiga the first platform where you could *create* digital art—not just consume it or write code that would eventually create it.
+Similarly, the graphics capabilities meant the Amiga could do real-time video effects, color manipulation, and animation. Combined with the ability to run code in the background, this made the Amiga the first platform where you could *create* digital art - not just consume it or write code that would eventually create it.
 
 Video editing on an Amiga was possible (and happened) in the late 1980s. Consumer video editing wasn't really practical on a PC until the late 1990s.
 
@@ -153,7 +153,7 @@ The Amiga wasn't just ahead of its time. It was ahead of *multiple* generational
 
 The Amiga teaches us something important about computer design: **simplicity at the right level enables complexity**.
 
-The Amiga's hardware design was complex—multiple processors, clever chip architecture, unusual graphics memory layouts. But this complexity was hidden from the programmer. At the OS level, it was simple: use the graphics library, use the audio library, use the multitasking model. The hardware did the hard work.
+The Amiga's hardware design was complex - multiple processors, clever chip architecture, unusual graphics memory layouts. But this complexity was hidden from the programmer. At the OS level, it was simple: use the graphics library, use the audio library, use the multitasking model. The hardware did the hard work.
 
 This is the opposite of most computing: make the hardware simple and push complexity to software.
 
@@ -163,9 +163,9 @@ Modern computers are marvels of performance and capability. But they're also rem
 
 The Amiga was the opposite: lean, purposeful, and designed with a clear vision.
 
-It couldn't compete on price. It couldn't compete on software ecosystem. But it could compete on elegance, and it still does—in our heads, in the ideas we keep rediscovering, in the architectural principles we keep reinventing.
+It couldn't compete on price. It couldn't compete on software ecosystem. But it could compete on elegance, and it still does - in our heads, in the ideas we keep rediscovering, in the architectural principles we keep reinventing.
 
-Every time you use a computer that runs multiple programs at once, that has independent graphics and audio, that auto-detects your peripherals, that lets you automate workflows through scripting—you're using ideas the Amiga pioneered in 1985.
+Every time you use a computer that runs multiple programs at once, that has independent graphics and audio, that auto-detects your peripherals, that lets you automate workflows through scripting - you're using ideas the Amiga pioneered in 1985.
 
 We're still copying its homework. And we could be doing worse.
 
@@ -173,9 +173,9 @@ We're still copying its homework. And we could be doing worse.
 
 ## Resources and Further Reading
 
-- **"Before the Web: The Internet's Hidden History"** — Contains detailed coverage of the Amiga's role in early networking
-- **Amiga Visualy** — Fan sites documenting Amiga software, games, and hardware
-- **Amiga Forever** — Emulator and archival project preserving Amiga software
-- **Jay Miner interviews** — Archived interviews with the Amiga's designer
-- **Paula chip documentation** — Technical specs that remain remarkable for their sophistication
-- **"The Amiga: A History"** by Leonard Herman (partial) — Coverage of the Amiga's technical achievements
+- **"Before the Web: The Internet's Hidden History"**  -  Contains detailed coverage of the Amiga's role in early networking
+- **Amiga Visualy**  -  Fan sites documenting Amiga software, games, and hardware
+- **Amiga Forever**  -  Emulator and archival project preserving Amiga software
+- **Jay Miner interviews**  -  Archived interviews with the Amiga's designer
+- **Paula chip documentation**  -  Technical specs that remain remarkable for their sophistication
+- **"The Amiga: A History"** by Leonard Herman (partial)  -  Coverage of the Amiga's technical achievements

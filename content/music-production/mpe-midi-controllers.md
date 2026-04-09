@@ -16,7 +16,7 @@ MIDI Polyphonic Expression (MPE) is a method of using MIDI that enables pitch be
   - [LinnStrument](https://www.rogerlinndesign.com/linnstrument) - expressive MIDI controller for musical performance
 - [Roli](https://roli.com/)
   - [LUMI Keys Studio Edition](https://roli.com/products/blocks/lumi-keys-studio-edition) - world’s first keyboard controller with per-key pitchbend and polyphonic aftertouch, plus whole-key illumination that sparks new ideas for playing and composing
-  - [Seaboard BLOCK M](https://roli.com/products/blocks/seaboard-block-m) - compact and powerful, play any sound imaginable and express yourself effortlessly — wherever creativity finds you — on this evolution of the multi-award-winning original
+  - [Seaboard BLOCK M](https://roli.com/products/blocks/seaboard-block-m) - compact and powerful, play any sound imaginable and express yourself effortlessly  -  wherever creativity finds you  -  on this evolution of the multi-award-winning original
   - [Seaboard RISE 2](https://roli.com/products/seaboard/rise2) - a keyboard designed for limitless exploration of sound
 - [Yamaha](https://uk.yamaha.com/)
   - [SEQTRAK](https://uk.yamaha.com/en/products/music_production/music-production-studios/seqtrak/index.html) - ultimate music creation station that empowers you to capture, create and connect with fans

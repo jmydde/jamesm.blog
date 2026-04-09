@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 07:40:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:40:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/economics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Token Economics: Why the Cost of AI Isn&#39;t Going Down</title>
+      <link>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</link>
+      <pubDate>Thu, 09 Apr 2026 06:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</guid>
+      <description>Despite massive scale and competition, LLM pricing hasn&amp;#39;t meaningfully declined. Here&amp;#39;s why the fundamentals don&amp;#39;t support cheaper AI.</description>
+    </item>
     <item>
       <title>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</title>
       <link>https://jamesm.blog/data-engineering/following-the-money/</link>
@@ -25,7 +32,7 @@
       <link>https://jamesm.blog/ai/automation-paradox/</link>
       <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/automation-paradox/</guid>
-      <description>As AI handles routine cognitive work, the irreplaceable skill becomes not execution, but deciding what&amp;#39;s worth doing—and why human judgment becomes more valuable, not less.</description>
+      <description>As AI handles routine cognitive work, the irreplaceable skill becomes not execution, but deciding what&amp;#39;s worth doing - and why human judgment becomes more valuable, not less.</description>
     </item>
     <item>
       <title>Bitcoin</title>
@@ -36,11 +43,11 @@
 &lt;p&gt;Bitcoin is the world&amp;rsquo;s first and largest cryptocurrency by market capitalization, launched in January 2009. Unlike traditional fiat currency issued by central banks, Bitcoin is created, distributed, traded, and stored using a decentralized peer-to-peer network secured by a distributed ledger technology known as blockchain.&lt;/p&gt;
 &lt;h3 id=&#34;key-characteristics&#34;&gt;Key Characteristics&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Decentralized&lt;/strong&gt; — No central authority or government controls Bitcoin&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Limited Supply&lt;/strong&gt; — Maximum of 21 million bitcoins will ever exist&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparent&lt;/strong&gt; — All transactions are recorded on the public blockchain&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt; — Past transactions cannot be altered or reversed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt; — Protected by cryptographic proof-of-work consensus mechanism&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decentralized&lt;/strong&gt;  -  No central authority or government controls Bitcoin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limited Supply&lt;/strong&gt;  -  Maximum of 21 million bitcoins will ever exist&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transparent&lt;/strong&gt;  -  All transactions are recorded on the public blockchain&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt;  -  Past transactions cannot be altered or reversed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt;  -  Protected by cryptographic proof-of-work consensus mechanism&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;educational-content&#34;&gt;Educational Content&lt;/h2&gt;
 &lt;h3 id=&#34;theory-of-bitcoin--introduction-series-june-2023&#34;&gt;Theory of Bitcoin | Introduction Series (June 2023)&lt;/h3&gt;

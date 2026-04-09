@@ -8,7 +8,7 @@ tags: ['suno', 'suno ai', 'ai', 'ai music']
 
 The release follows Suno’s v5 model, which the company says can “compose like a musician and adapt like a co-writer.” CEO Mikey Shulman frames it as part of a wider shift where AI becomes a regular partner in the studio.
 
-Early testers highlight its speed, flexible interface, and vast sound library—features that cut down on hunting for samples and speed up experimentation. But they also note AI still struggles to match very specific creative demands.
+Early testers highlight its speed, flexible interface, and vast sound library - features that cut down on hunting for samples and speed up experimentation. But they also note AI still struggles to match very specific creative demands.
 
 Suno Studio launches amid industry scrutiny over copyright and arrives as Spotify introduces new policies to label AI-generated music. The platform is available through Suno’s $30/month Premier plan.
 

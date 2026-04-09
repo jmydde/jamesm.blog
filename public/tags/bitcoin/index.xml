@@ -22,9 +22,9 @@
 &lt;p&gt;Quantum computing represents one of the most significant theoretical threats to modern cryptography. For Bitcoin, the primary concern lies in the potential for quantum computers to run &lt;strong&gt;Shor&amp;rsquo;s Algorithm&lt;/strong&gt;, which could efficiently solve the discrete logarithm problem that secures Bitcoin&amp;rsquo;s public-key cryptography (ECDSA).&lt;/p&gt;
 &lt;h3 id=&#34;the-vulnerabilities&#34;&gt;The Vulnerabilities&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ECDSA (Elliptic Curve Digital Signature Algorithm)&lt;/strong&gt; — Currently used to sign Bitcoin transactions. A sufficiently powerful quantum computer could derive a private key from its corresponding public key.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Public Key Exposure&lt;/strong&gt; — While Bitcoin addresses are hashed (providing a layer of protection), the public key is revealed to the network when a transaction is initiated, creating a window of vulnerability before the block is mined.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mining (SHA-256)&lt;/strong&gt; — &lt;strong&gt;Grover&amp;rsquo;s Algorithm&lt;/strong&gt; could speed up mining, but this is a quadratic improvement rather than exponential, meaning it could likely be mitigated by increasing network difficulty or hash rates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ECDSA (Elliptic Curve Digital Signature Algorithm)&lt;/strong&gt;  -  Currently used to sign Bitcoin transactions. A sufficiently powerful quantum computer could derive a private key from its corresponding public key.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public Key Exposure&lt;/strong&gt;  -  While Bitcoin addresses are hashed (providing a layer of protection), the public key is revealed to the network when a transaction is initiated, creating a window of vulnerability before the block is mined.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mining (SHA-256)&lt;/strong&gt;  -  &lt;strong&gt;Grover&amp;rsquo;s Algorithm&lt;/strong&gt; could speed up mining, but this is a quadratic improvement rather than exponential, meaning it could likely be mitigated by increasing network difficulty or hash rates.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;mitigation-and-post-quantum-bitcoin&#34;&gt;Mitigation and Post-Quantum Bitcoin&lt;/h2&gt;
 &lt;p&gt;The Bitcoin community is well aware of these risks. Potential solutions include:&lt;/p&gt;</description>
@@ -100,11 +100,11 @@
 &lt;p&gt;Bitcoin is the world&amp;rsquo;s first and largest cryptocurrency by market capitalization, launched in January 2009. Unlike traditional fiat currency issued by central banks, Bitcoin is created, distributed, traded, and stored using a decentralized peer-to-peer network secured by a distributed ledger technology known as blockchain.&lt;/p&gt;
 &lt;h3 id=&#34;key-characteristics&#34;&gt;Key Characteristics&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Decentralized&lt;/strong&gt; — No central authority or government controls Bitcoin&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Limited Supply&lt;/strong&gt; — Maximum of 21 million bitcoins will ever exist&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparent&lt;/strong&gt; — All transactions are recorded on the public blockchain&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt; — Past transactions cannot be altered or reversed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt; — Protected by cryptographic proof-of-work consensus mechanism&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decentralized&lt;/strong&gt;  -  No central authority or government controls Bitcoin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Limited Supply&lt;/strong&gt;  -  Maximum of 21 million bitcoins will ever exist&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transparent&lt;/strong&gt;  -  All transactions are recorded on the public blockchain&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt;  -  Past transactions cannot be altered or reversed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure&lt;/strong&gt;  -  Protected by cryptographic proof-of-work consensus mechanism&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;educational-content&#34;&gt;Educational Content&lt;/h2&gt;
 &lt;h3 id=&#34;theory-of-bitcoin--introduction-series-june-2023&#34;&gt;Theory of Bitcoin | Introduction Series (June 2023)&lt;/h3&gt;
@@ -145,20 +145,20 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.blockchain-council.org/&#34;&gt;Blockchain Council&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt; — Professional certification program&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blockchain-council.org/certifications/certified-blockchain-developer/&#34;&gt;Certified Blockchain Developer™&lt;/a&gt;  -  Professional certification program&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/strong&gt; — Interactive bootcamp for blockchain development&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chainshot.com/bootcamp/&#34;&gt;ChainShot&lt;/a&gt;&lt;/strong&gt;  -  Interactive bootcamp for blockchain development&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/strong&gt; — Learn Solidity through interactive gaming&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cryptozombies.io/&#34;&gt;CryptoZombies&lt;/a&gt;&lt;/strong&gt;  -  Learn Solidity through interactive gaming&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/strong&gt; — Comprehensive Web3 developer education&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://learnweb3.io/&#34;&gt;LearnWeb3&lt;/a&gt;&lt;/strong&gt;  -  Comprehensive Web3 developer education&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/strong&gt; — Official Polkadot training for developers and founders&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://polkadot.network/development/academy/&#34;&gt;Polkadot Blockchain Academy&lt;/a&gt;&lt;/strong&gt;  -  Official Polkadot training for developers and founders&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

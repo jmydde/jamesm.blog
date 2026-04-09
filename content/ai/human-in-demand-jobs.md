@@ -181,5 +181,5 @@ That’s the stack to build towards.
 ---
 
 **Related reading:**
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity) — On judgment and taste as the premium human currency
-- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence) — On how intelligence is becoming a commodity
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  On judgment and taste as the premium human currency
+- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On how intelligence is becoming a commodity

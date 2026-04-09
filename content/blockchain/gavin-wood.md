@@ -19,7 +19,7 @@ Dr. Gavin James Wood is an influential English computer scientist and entreprene
 **Is Polkadot's OpenGov Democratic?** (November 2023)
 {{< youtube RvbsSq1a_8g >}}
 
-**Gavin Wood Sees Polkadot as a Global Supercomputer** — Polkadot Decoded 2023 (June 2023)
+**Gavin Wood Sees Polkadot as a Global Supercomputer**  -  Polkadot Decoded 2023 (June 2023)
 {{< youtube GIB1WeVuJD0 >}}
 
 ### Mid-Period (2021-2022)
@@ -35,7 +35,7 @@ Dr. Gavin James Wood is an influential English computer scientist and entreprene
 
 ### Earlier Talks (2017-2019)
 
-**The Common Ground of Ethereum and Polkadot** — with Jehan Chu (May 2019)
+**The Common Ground of Ethereum and Polkadot**  -  with Jehan Chu (May 2019)
 {{< youtube YvAbXiTG96E >}}
 
 **Web3 Foundation: The Next Evolution of the Internet** (October 2017)

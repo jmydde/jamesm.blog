@@ -7,15 +7,15 @@ tags: ['yamaha', 'synths', 'arturia', 'astrolab', 'modx', 'pianos', 'keyboards']
 
 ## Overview
 Two 88-key instruments that sit on very different creative axes:
-- **Yamaha MODX M8** — a *synthesizer/workstation* built for deep sound design, layering, and performance without a computer.
-- **Arturia AstroLab 88** — a *stage keyboard* with a massive curated sound library drawn from Arturia’s Analog Lab/V Collection, optimized for instant playable tones.
+- **Yamaha MODX M8**  -  a *synthesizer/workstation* built for deep sound design, layering, and performance without a computer.
+- **Arturia AstroLab 88**  -  a *stage keyboard* with a massive curated sound library drawn from Arturia’s Analog Lab/V Collection, optimized for instant playable tones.
 
 ---
 
 ## Instrument Philosophy
 
 ### Yamaha MODX M8
-A **self-contained synthesizer/workstation** blending multiple sound engines — **sample-based AWM2**, **FM-X (frequency modulation)**, and **AN-X (virtual-analog style)** — into one performance instrument. It’s built to do sound design, real-time modulation, layering, effects, and sequencing all internally.
+A **self-contained synthesizer/workstation** blending multiple sound engines  -  **sample-based AWM2**, **FM-X (frequency modulation)**, and **AN-X (virtual-analog style)**  -  into one performance instrument. It’s built to do sound design, real-time modulation, layering, effects, and sequencing all internally.
 
 ### Arturia AstroLab 88
 A **stage keyboard** focused on giving you **ready-to-play sounds** drawn from Arturia’s celebrated software libraries (like Analog Lab and the V Collection). Instead of deep patch-building, AstroLab prioritizes **preset browsing and expressive playing**.
@@ -40,10 +40,10 @@ A **stage keyboard** focused on giving you **ready-to-play sounds** drawn from A
 
 ### Yamaha MODX M8
 - **Deep sound design** potential with three engines:
-  - **AWM2** — Yamaha’s advanced sample-based engine (e.g., pianos, EPs, organs).
-  - **FM-X** — classic FM synthesis.
-  - **AN-X** — virtual analogue style.
-- **Layering, splits, multis** — build complex performances.
+  - **AWM2**  -  Yamaha’s advanced sample-based engine (e.g., pianos, EPs, organs).
+  - **FM-X**  -  classic FM synthesis.
+  - **AN-X**  -  virtual analogue style.
+- **Layering, splits, multis**  -  build complex performances.
 - **Real-time modulation** via Yamaha’s Motion Control architecture.
 - **Built-in effects and performance macros**.
 - Ideal for sculpting custom tones or evolving textures on stage or in studio.
@@ -60,12 +60,12 @@ A **stage keyboard** focused on giving you **ready-to-play sounds** drawn from A
 
 ### Yamaha MODX M8
 - **Performance-oriented controls**: lots of realtime knobs, faders, and modulation options.
-- Designed to work *without* a laptop — patch management, layering, and editing all happen on the unit.
+- Designed to work *without* a laptop  -  patch management, layering, and editing all happen on the unit.
 - Strong internal architecture for building multitimbral performances.
 
 ### Arturia AstroLab 88
 - **Preset browsing first**: choose, tweak, and play.
-- Editing deeper synthesis parameters is less immediate than on a classic workstation — the workflow focuses on presets and sound selection.
+- Editing deeper synthesis parameters is less immediate than on a classic workstation  -  the workflow focuses on presets and sound selection.
 - Integrates well into a setup with software, but *also* works standalone.
 
 ---
@@ -115,4 +115,4 @@ A **stage keyboard** focused on giving you **ready-to-play sounds** drawn from A
 ## Summing Up
 These aren’t apples-to-apples instruments. The **MODX M8** is about **control and creation**; the **AstroLab 88** is about **playability and sonic richness**. Your choice hinges on whether you want to **design and sculpt** or **perform and explore** sounds with minimal fuss.
 
-Feel into how you like to play and create — that’s where the magic actually lives.
+Feel into how you like to play and create  -  that’s where the magic actually lives.

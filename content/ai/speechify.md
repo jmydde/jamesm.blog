@@ -21,16 +21,16 @@ tags: ['ai', 'tools', 'text-to-speech', 'productivity']
 - Website and browser integration
 
 **Premium Features (Speechify Studio)**
-- AI voice cloning — create a digital voice in your own voice
+- AI voice cloning  -  create a digital voice in your own voice
 - Voice customization and fine-tuning
 - Professional audiobook creation
 - Batch processing for large documents
 
 **Use Cases**
-- Accessibility — make content readable for people with dyslexia, visual impairments, or ADHD
-- Productivity — consume content while commuting, exercising, or multitasking
-- Learning — reinforce reading comprehension through audio
-- Audiobook publishing — convert written works to professional audio
+- Accessibility  -  make content readable for people with dyslexia, visual impairments, or ADHD
+- Productivity  -  consume content while commuting, exercising, or multitasking
+- Learning  -  reinforce reading comprehension through audio
+- Audiobook publishing  -  convert written works to professional audio
 - Accessibility compliance for websites and organizations
 
 ## Pricing

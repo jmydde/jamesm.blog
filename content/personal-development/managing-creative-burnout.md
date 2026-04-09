@@ -40,7 +40,7 @@ This guide focuses on making each concrete.
 
 Timeboxing is not about working faster. It's about creating a forcing function for decision-making.
 
-Without a timebox, work expands. You polish the implementation. You handle edge cases you haven't been asked to handle. You refactor neighboring code. You write the perfect commit message and exhaustive documentation. None of this is waste—it's craftsmanship. But it's also a slow drain on your energy and time.
+Without a timebox, work expands. You polish the implementation. You handle edge cases you haven't been asked to handle. You refactor neighboring code. You write the perfect commit message and exhaustive documentation. None of this is waste - it's craftsmanship. But it's also a slow drain on your energy and time.
 
 With a timebox, you make explicit trade-offs: "We have 3 days for this feature. Within that time, what's the smallest thing that delivers real value? What can we defer?"
 
@@ -82,7 +82,7 @@ If a feature is 2 weeks, break it into 2-3 day chunks. Completing a 3-day chunk 
 
 More importantly, it prevents the "two weeks of invisible work" problem. After 3 days, you can demo something to stakeholders, even if it's incomplete. This makes progress visible, reduces guessing, and often changes priorities.
 
-**5. Protect the box—don't expand it mid-flight**
+**5. Protect the box - don't expand it mid-flight**
 
 Once you've committed to a 3-day timebox, the timebox is fixed. What's flexible is scope.
 
@@ -105,7 +105,7 @@ Extend this logic to your entire week.
 
 Many engineers (especially senior ones) have their weeks shredded by meetings: 1-1s, planning, code reviews, architecture discussions, demos, standup, sync calls with other teams. By Wednesday, you've lost 12 hours to meetings and have no coherent blocks for deep work.
 
-**Protect focused time blocks in your calendar.** Aim for two 4-hour blocks per week of uninterrupted work. Block them on your calendar as if they're meetings (because they are—meetings with yourself).
+**Protect focused time blocks in your calendar.** Aim for two 4-hour blocks per week of uninterrupted work. Block them on your calendar as if they're meetings (because they are - meetings with yourself).
 
 During these blocks:
 - Close Slack
@@ -155,13 +155,13 @@ This keeps you helpful while respecting your own limits.
 
 **3. Say no early, loudly, and clearly**
 
-The worst time to say no is when the deadline is two weeks away and the project was supposed to be done by now. By then, you're not being honest—you're being a problem.
+The worst time to say no is when the deadline is two weeks away and the project was supposed to be done by now. By then, you're not being honest - you're being a problem.
 
 As soon as you realize you can't commit, say so. Loudly. Clearly. In writing.
 
 **Email:** "I've thought about the capacity for X. I'm fully committed through April on [other projects]. I don't want to commit to a timeline I can't meet. Can we discuss alternatives?"
 
-That's clear, professional, and gives stakeholders time to plan. It's not unkind—it's honest.
+That's clear, professional, and gives stakeholders time to plan. It's not unkind - it's honest.
 
 **4. Know your non-negotiables**
 
@@ -200,11 +200,11 @@ After you say no a few times, people stop asking you for things you shouldn't do
 
 Many burnout situations trace back to a single root cause: nobody above you understands what you're actually doing or why you're overloaded.
 
-Your manager thinks you're coasting. The VP thinks the project is ahead of schedule. Your engineering lead has no idea you've been in firefighting mode for two weeks. Meanwhile, you're drowning—but because no one can see the work, no one adjusts expectations.
+Your manager thinks you're coasting. The VP thinks the project is ahead of schedule. Your engineering lead has no idea you've been in firefighting mode for two weeks. Meanwhile, you're drowning - but because no one can see the work, no one adjusts expectations.
 
 This creates a perverse incentive: you work harder and harder to make it invisible that you're overloaded. You arrive early, stay late, and keep smiling in meetings. By the time someone realizes you're burning out, you're already fried.
 
-The solution is to make your work, constraints, and reality visible at every level. This is not complaining—it's communication.
+The solution is to make your work, constraints, and reality visible at every level. This is not complaining - it's communication.
 
 ### How to Communicate Upward (to Managers and Directors)
 
@@ -265,7 +265,7 @@ This is different from complaining. You're specific, bounded, and asking for hel
 
 Post progress updates, blockers, and decisions in shared channels or documents. Don't hoard information in your head or your DMs.
 
-"Shipping feature X today. Found an edge case in the payment flow—it's a pre-existing bug, not new. Logged it here for next quarter. Tests passing."
+"Shipping feature X today. Found an edge case in the payment flow - it's a pre-existing bug, not new. Logged it here for next quarter. Tests passing."
 
 This costs 30 seconds and saves hours of "wait, what's the status?" conversations.
 
@@ -318,7 +318,7 @@ This is lightweight and repeatable. Over months, it compounds into sustainable p
 
 ## The Paradox of Boundaries
 
-Here's what's counterintuitive: saying no more often, protecting your time fiercely, and communicating clearly—these things make you *more* valuable, not less.
+Here's what's counterintuitive: saying no more often, protecting your time fiercely, and communicating clearly - these things make you *more* valuable, not less.
 
 When you say no carefully, people trust your yes. When you protect focus time, you do better work. When you communicate clearly, you prevent crises.
 
@@ -326,7 +326,7 @@ Managers prefer someone who says "I can do this in 3 days" and delivers in 3 day
 
 The engineer who's honest about constraints is more promotable than the one who martyrs themselves.
 
-Creative work requires energy and clarity. The moment you're perpetually overloaded, both disappear. You'll ship slower, make more mistakes, and burn out anyway—but on a longer timeline.
+Creative work requires energy and clarity. The moment you're perpetually overloaded, both disappear. You'll ship slower, make more mistakes, and burn out anyway - but on a longer timeline.
 
 The path to sustainable engineering is not "work harder." It's "be clear about what you will and won't do, communicate so everyone understands, and protect the time you need to do good work."
 

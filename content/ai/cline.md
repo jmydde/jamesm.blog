@@ -7,7 +7,7 @@ tags: ["ai", "coding-assistants", "productivity", "open-source", "cline"]
 author: "James Myddelton"
 ---
 
-In the rapidly evolving landscape of [AI Dev Stacks](https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/), a new heavyweight has emerged that fundamentally changes the "Assistant" dynamic. Formerly known as Claude Dev, **Cline** has matured into a sophisticated autonomous agent that doesn't just suggest code—it executes engineering plans.
+In the rapidly evolving landscape of [AI Dev Stacks](https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/), a new heavyweight has emerged that fundamentally changes the "Assistant" dynamic. Formerly known as Claude Dev, **Cline** has matured into a sophisticated autonomous agent that doesn't just suggest code - it executes engineering plans.
 
 While tools like Cursor provide the best "integrated" feel, Cline represents the shift toward **Agentic Software Engineering**.
 
@@ -23,7 +23,7 @@ When you give Cline a task, it doesn't just write a code block. It uses a loop o
 
 ## The Power of the Model Context Protocol (MCP)
 
-By early 2026, the adoption of the **Model Context Protocol (MCP)** has become Cline's "superpower." MCP allows Cline to connect to external data sources and tools—like your documentation sub-system, a database schema, or even web search—without those features being hard-coded into the extension itself.
+By early 2026, the adoption of the **Model Context Protocol (MCP)** has become Cline's "superpower." MCP allows Cline to connect to external data sources and tools - like your documentation sub-system, a database schema, or even web search - without those features being hard-coded into the extension itself.
 
 This extensibility means Cline can navigate a complex microservices architecture or debug a cloud deployment with the same ease it handles a CSS change.
 

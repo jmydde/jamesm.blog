@@ -172,5 +172,5 @@ If an event gives you none of those, it is probably content marketing with lanya
 ---
 
 **Related reading:**
-- [AI Tools & Frameworks](/ai/tools) — A broader index of tools, platforms, and companies in the space
-- [AI Explainers](/ai/explainers) — Foundational material if you want deeper technical context before attending events
+- [AI Tools & Frameworks](/ai/tools)  -  A broader index of tools, platforms, and companies in the space
+- [AI Explainers](/ai/explainers)  -  Foundational material if you want deeper technical context before attending events

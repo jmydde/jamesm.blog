@@ -11,15 +11,15 @@ Quantum computing represents one of the most significant theoretical threats to 
 
 ### The Vulnerabilities
 
-- **ECDSA (Elliptic Curve Digital Signature Algorithm)** — Currently used to sign Bitcoin transactions. A sufficiently powerful quantum computer could derive a private key from its corresponding public key.
-- **Public Key Exposure** — While Bitcoin addresses are hashed (providing a layer of protection), the public key is revealed to the network when a transaction is initiated, creating a window of vulnerability before the block is mined.
-- **Mining (SHA-256)** — **Grover's Algorithm** could speed up mining, but this is a quadratic improvement rather than exponential, meaning it could likely be mitigated by increasing network difficulty or hash rates.
+- **ECDSA (Elliptic Curve Digital Signature Algorithm)**  -  Currently used to sign Bitcoin transactions. A sufficiently powerful quantum computer could derive a private key from its corresponding public key.
+- **Public Key Exposure**  -  While Bitcoin addresses are hashed (providing a layer of protection), the public key is revealed to the network when a transaction is initiated, creating a window of vulnerability before the block is mined.
+- **Mining (SHA-256)**  -  **Grover's Algorithm** could speed up mining, but this is a quadratic improvement rather than exponential, meaning it could likely be mitigated by increasing network difficulty or hash rates.
 
 ## Mitigation and Post-Quantum Bitcoin
 
 The Bitcoin community is well aware of these risks. Potential solutions include:
-- **Soft Forks** — Introducing new, quantum-resistant signature schemes (like Lamport signatures or others being standardized by NIST).
-- **Address Reuse Avoidance** — Encouraging users never to reuse addresses, ensuring public keys remain hidden behind hashes until spent.
+- **Soft Forks**  -  Introducing new, quantum-resistant signature schemes (like Lamport signatures or others being standardized by NIST).
+- **Address Reuse Avoidance**  -  Encouraging users never to reuse addresses, ensuring public keys remain hidden behind hashes until spent.
 
 ## Educational Content
 

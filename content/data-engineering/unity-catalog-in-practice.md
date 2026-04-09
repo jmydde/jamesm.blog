@@ -9,7 +9,7 @@ slug: "unity-catalog-in-practice-2026"
 
 Unity Catalog sounds straightforward: "one governance layer for all your data and AI assets." In theory, it's elegant. In practice, you'll run into gotchas that docs don't prepare you for.
 
-This post is from the field—patterns that work, mistakes I've seen repeated, and how to actually build a sustainable governance layer in 2026.
+This post is from the field - patterns that work, mistakes I've seen repeated, and how to actually build a sustainable governance layer in 2026.
 
 ## What Unity Catalog Is (And Isn't)
 

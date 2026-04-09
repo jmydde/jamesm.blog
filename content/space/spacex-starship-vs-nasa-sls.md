@@ -3,12 +3,12 @@ title: "SpaceX Starship vs NASA SLS: Two Visions for Deep Space"
 date: 2026-04-07T10:00:00+01:00
 draft: false
 tags: ['spacex', 'nasa', 'starship', 'sls', 'space', 'launch-vehicles', 'artemis']
-description: "A detailed comparison of SpaceX's Starship and NASA's Space Launch System—two fundamentally different approaches to returning humans to the Moon and beyond."
+description: "A detailed comparison of SpaceX's Starship and NASA's Space Launch System - two fundamentally different approaches to returning humans to the Moon and beyond."
 ---
 
 ## Two Paths Diverge
 
-The 21st century space race isn't between countries—it's between philosophies. NASA's Space Launch System (SLS) and SpaceX's Starship represent two radically different bets on how to explore deep space.
+The 21st century space race isn't between countries - it's between philosophies. NASA's Space Launch System (SLS) and SpaceX's Starship represent two radically different bets on how to explore deep space.
 
 The SLS is the traditional aerospace approach: specialized hardware, proven technology, massive government investment, and a decades-long development timeline. Starship is the startup approach: rapid iteration, reusability, vertical integration, and "fail fast" in practice.
 
@@ -37,7 +37,7 @@ Starship is humanity's most ambitious launch vehicle project:
 - **Payload**: 100+ tonnes to Low Earth Orbit (fully reusable), 50 tonnes to Mars
 - **Height**: 120 meters (with Super Heavy booster)
 - **Cost per launch**: SpaceX targets $10 million at scale (1000+ flights)
-- **Reusability**: Full stack reusability—both booster and spacecraft intended for regular reflight within 24 hours
+- **Reusability**: Full stack reusability - both booster and spacecraft intended for regular reflight within 24 hours
 
 ---
 
@@ -68,7 +68,7 @@ SpaceX's approach inverts the traditional aerospace model. Instead of testing to
 
 The first Starship integrated flight test (April 2023) exploded. So did the second (November 2023). The third (March 2024) reached new milestones before exploding. Each flight captured terabytes of data, and each iteration improved. By April 2024, the fourth flight achieved booster catch and controlled Starship reentry.
 
-This is not recklessness—it's empiricism. You learn more from a failed flight test than from a thousand simulations. The actual physics of 29 hypersonic engines, grid fins in plasma, and rapid reusability can't be fully predicted.
+This is not recklessness - it's empiricism. You learn more from a failed flight test than from a thousand simulations. The actual physics of 29 hypersonic engines, grid fins in plasma, and rapid reusability can't be fully predicted.
 
 SpaceX accepts explosion risk in development because Starship costs vastly less than SLS. Even with write-offs, total Starship development is cheaper than SLS operations.
 
@@ -99,7 +99,7 @@ When SLS launches, you're spending the GDP of a small nation to reach orbit. Tha
 
 At $10 million per launch, Starship could fly weekly. At $100 million per Mars mission (booster, tanker, spacecraft), Mars becomes economically viable.
 
-The cost difference isn't academic—it's civilizational. SLS can send humans to the Moon a handful of times. Starship could establish a permanent presence.
+The cost difference isn't academic - it's civilizational. SLS can send humans to the Moon a handful of times. Starship could establish a permanent presence.
 
 ---
 
@@ -114,7 +114,7 @@ Starship is reusable by design. SpaceX's long-term vision is:
 3. Refuel in orbit from tanker Starships
 4. Fly again within hours or days
 
-This isn't science fiction anymore—SpaceX caught the booster for the first time in April 2024. Rapid reuse is the next frontier.
+This isn't science fiction anymore - SpaceX caught the booster for the first time in April 2024. Rapid reuse is the next frontier.
 
 The math of reusability is overwhelming:
 
@@ -178,11 +178,11 @@ The SLS will likely remain NASA's deep-space launcher for decades. But it's stru
 - Cost per flight is unsustainable for frequent missions
 - No clear path to reusability
 
-The SLS is a bridge—a way to maintain human spaceflight infrastructure while transitioning to the future. That future is Starship.
+The SLS is a bridge - a way to maintain human spaceflight infrastructure while transitioning to the future. That future is Starship.
 
 ### Starship: The Platform
 
-Starship's ambition is to become the "truck" of space—a general-purpose tool for any deep-space mission:
+Starship's ambition is to become the "truck" of space - a general-purpose tool for any deep-space mission:
 
 - Lunar landing and supply runs
 - Mars missions
@@ -223,7 +223,7 @@ But the architecture allows it. SLS's architecture does not.
 
 ## The Philosophical Divide
 
-This comparison isn't really about rockets—it's about how we approach the future.
+This comparison isn't really about rockets - it's about how we approach the future.
 
 **SLS represents**: Trust in proven engineering, government stewardship of spaceflight, careful risk mitigation.
 
@@ -241,10 +241,10 @@ The ideal future probably uses both:
 
 The cost math is inexorable. A civilization that wants to explore space beyond a handful of government missions needs cheap, reusable rockets.
 
-SpaceX's Starship is betting that reusability can deliver that. If it succeeds, SLS becomes historically important but obsolete—the Saturn V of the 21st century.
+SpaceX's Starship is betting that reusability can deliver that. If it succeeds, SLS becomes historically important but obsolete - the Saturn V of the 21st century.
 
 If Starship fails to achieve reusability and cost targets, SLS remains the only option. But the cost becomes a constraint on exploration itself.
 
-We're living through the hinge moment. The next 5 years of Starship flight tests will determine which vision of deep space—careful incrementalism or rapid iteration—becomes the template for the century ahead.
+We're living through the hinge moment. The next 5 years of Starship flight tests will determine which vision of deep space - careful incrementalism or rapid iteration - becomes the template for the century ahead.
 
 Both vehicles are heading to the Moon. Only one philosophy scales to Mars.

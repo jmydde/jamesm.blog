@@ -12,7 +12,7 @@ If you’re building anything with LLMs right now, you’ll hit this question so
 > **Should I rent a GPU and run models myself, or just pay for API credits?**
 
 At first glance, APIs feel expensive. GPUs feel powerful.
-But the real answer is more nuanced—and getting it wrong can cost you *a lot*.
+But the real answer is more nuanced - and getting it wrong can cost you *a lot*.
 
 Let’s break it down properly.
 
@@ -57,7 +57,7 @@ Here’s what things look like in 2026:
 
 Let’s make this concrete.
 
-## 🟢 Low usage — 1M tokens/day
+## 🟢 Low usage  -  1M tokens/day
 
 | Option | Monthly Cost |
 | :------------------ | :----------- |
@@ -69,7 +69,7 @@ Let’s make this concrete.
 
 ---
 
-## 🟡 Medium usage — 10M tokens/day
+## 🟡 Medium usage  -  10M tokens/day
 
 | Option | Monthly Cost |
 | :------------------ | :--------------- |
@@ -84,7 +84,7 @@ Let’s make this concrete.
 
 ---
 
-## 🔴 High usage — 100M+ tokens/day
+## 🔴 High usage  -  100M+ tokens/day
 
 | Option | Monthly Cost |
 | :------------------ | :------------ |
@@ -235,8 +235,8 @@ Then optimise with GPUs when the data justifies it.
 
 ---
 
-If you get this right, you won’t just save money—you’ll build a system that scales properly without unnecessary complexity.
+If you get this right, you won’t just save money - you’ll build a system that scales properly without unnecessary complexity.
 
 ---
 
-*If you’re building in this space, the real edge isn’t just using AI—it’s understanding the economics behind it.*
+*If you’re building in this space, the real edge isn’t just using AI - it’s understanding the economics behind it.*

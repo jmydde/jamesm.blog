@@ -19,7 +19,7 @@ At its core, the Jupiter‑X’s ZEN-Core engine allows multiple sound models to
 
 One standout feature is **I-Arpeggio**, an intelligent arpeggiator that can generate complementary drum patterns, basslines, and chordal movement from your input. This transforms simple melodies into rich musical ideas instantly.
 
-The synth offers direct control through large knobs and sliders, while onboard effects—including delays, reverbs, EQ, and modulation—allow fine-tuning without diving deep into menus. The compact display keeps navigation clear, though advanced patch editing may require some menu work.
+The synth offers direct control through large knobs and sliders, while onboard effects - including delays, reverbs, EQ, and modulation - allow fine-tuning without diving deep into menus. The compact display keeps navigation clear, though advanced patch editing may require some menu work.
 
 ## Strengths: Versatility and Performance
 
@@ -29,7 +29,7 @@ In the **studio**, it serves as an all-in-one instrument, reducing the need for 
 
 ## Limitations: Complexity and Price
 
-This breadth of features comes at a cost—both in terms of price and complexity. At approximately **£2,155** in the UK, the Jupiter‑X sits above entry-level synths and many workstations. Its depth can require menu navigation for advanced patch creation, which may interrupt workflow for some users. While the build is solid, the layout may feel slightly cramped compared to larger workstations with color displays and extensive control surfaces.
+This breadth of features comes at a cost - both in terms of price and complexity. At approximately **£2,155** in the UK, the Jupiter‑X sits above entry-level synths and many workstations. Its depth can require menu navigation for advanced patch creation, which may interrupt workflow for some users. While the build is solid, the layout may feel slightly cramped compared to larger workstations with color displays and extensive control surfaces.
 
 ## Who Should Consider the Jupiter‑X?
 

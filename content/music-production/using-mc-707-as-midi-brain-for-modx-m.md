@@ -13,9 +13,9 @@ In this setup, the MODX becomes your hands and sound engine, while the MC-707 be
 
 At its heart, this setup is about **MIDI capture and replay**.
 
-When you play the MODX keyboard, it sends MIDI note data — pitch, timing, velocity, note on and note off. The MC-707 records that data exactly as played. On playback, it sends the same MIDI back to the MODX, which reproduces the performance.
+When you play the MODX keyboard, it sends MIDI note data  -  pitch, timing, velocity, note on and note off. The MC-707 records that data exactly as played. On playback, it sends the same MIDI back to the MODX, which reproduces the performance.
 
-The MC-707 isn’t “understanding” harmony, melody, or intent. It’s acting like a high-quality tape machine for MIDI — precise, repeatable, and editable.
+The MC-707 isn’t “understanding” harmony, melody, or intent. It’s acting like a high-quality tape machine for MIDI  -  precise, repeatable, and editable.
 
 ## Basic Connection
 
@@ -60,7 +60,7 @@ The MC-707 records:
 
 When you press play, the MC-707 sends that MIDI back to the MODX and the performance is recreated exactly.
 
-At this point, the MC-707 is no longer just a groovebox — it’s acting as a central sequencer for an external synth.
+At this point, the MC-707 is no longer just a groovebox  -  it’s acting as a central sequencer for an external synth.
 
 ## Editing and Playback
 
@@ -98,4 +98,4 @@ Instead of programming notes step-by-step, you perform ideas once and let the se
 
 ## Summary
 
-Using the Roland MC-707 as a MIDI recorder and playback device for the Yamaha MODX M is simple, reliable, and musically satisfying. It turns the MC-707 into a central brain and the MODX into a powerful performance instrument — a combination that encourages playing first and organising later.
+Using the Roland MC-707 as a MIDI recorder and playback device for the Yamaha MODX M is simple, reliable, and musically satisfying. It turns the MC-707 into a central brain and the MODX into a powerful performance instrument  -  a combination that encourages playing first and organising later.

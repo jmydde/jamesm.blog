@@ -80,5 +80,5 @@ That is an invitation.
 ---
 
 **Related reading:**
-- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence) — On the commodification of intelligence itself
-- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs) — Which skills remain valuable when AI is everywhere
+- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On the commodification of intelligence itself
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs)  -  Which skills remain valuable when AI is everywhere

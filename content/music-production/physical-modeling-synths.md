@@ -3,10 +3,10 @@ title: "Physical Modeling Synthesis: The Underrated Future of Sound Design"
 date: 2026-04-04T09:00:00+00:00
 draft: false
 tags: ['physical modeling', 'synthesis', 'sound design', 'future tech']
-description: "Why physical modeling—not sampling or wavetables—is the next frontier in expressive digital instruments"
+description: "Why physical modeling - not sampling or wavetables - is the next frontier in expressive digital instruments"
 ---
 
-If you've spent any time with Pianoteq or the Audio Modeling SWAM instruments, you've felt something different. Not the crisp accuracy of a sampled library, not the flexibility of wavetable synthesis—but something that responds *like* an instrument. Strings that vibrate with sympathetic resonance. Piano keys with wooden resistance. A cello that sings differently when you bow it hard versus soft.
+If you've spent any time with Pianoteq or the Audio Modeling SWAM instruments, you've felt something different. Not the crisp accuracy of a sampled library, not the flexibility of wavetable synthesis - but something that responds *like* an instrument. Strings that vibrate with sympathetic resonance. Piano keys with wooden resistance. A cello that sings differently when you bow it hard versus soft.
 
 This is physical modeling: mathematics as an instrument, not just a sampler or synth engine.
 
@@ -21,7 +21,7 @@ Physical modeling recreates not the sound of an instrument, but the *physics of 
 
 The Arturia link below explains this brilliantly, but the key insight is this: **you're simulating the system, not recording it**. Every note is generated fresh, responsive to how you play it.
 
-This is why Pianoteq's pianos feel alive—they're not layered samples of static key presses. They're a model of wooden soundboards, hammer mechanics, and damper pedal physics. Every performance is unique because the instrument is responding to your *input*, not recalling a preset take.
+This is why Pianoteq's pianos feel alive - they're not layered samples of static key presses. They're a model of wooden soundboards, hammer mechanics, and damper pedal physics. Every performance is unique because the instrument is responding to your *input*, not recalling a preset take.
 
 References: https://www.arturia.com/phi
 
@@ -29,15 +29,15 @@ References: https://www.arturia.com/phi
 
 There are three ways to make a digital instrument sound realistic today:
 
-**1. Sampling** — Record the real thing, store millions of files.
+**1. Sampling**  -  Record the real thing, store millions of files.
 - *Pros:* Utterly authentic (it is authentic)
 - *Cons:* Massive file sizes, static behavior, laggy round-robin switching, can't interpolate between velocities
 
-**2. Wavetables/Subtractive** — Oscillators + filters + envelopes.
+**2. Wavetables/Subtractive**  -  Oscillators + filters + envelopes.
 - *Pros:* Lightweight, instantly creative, infinite variation
 - *Cons:* Doesn't feel like playing an instrument, struggles with natural dynamics
 
-**3. Physical Modeling** — Mathematical simulation of acoustics.
+**3. Physical Modeling**  -  Mathematical simulation of acoustics.
 - *Pros:* Tiny file sizes, infinite expressivity, responds like a real instrument, can defy physics if you want
 - *Cons:* CPU-intensive, slower adoption, smaller plugin ecosystem
 
@@ -52,7 +52,7 @@ Size matters less than we think in 2026, but it matters to you if you're running
 A Spitfire Albion ONE string library: **120 GB**  
 A full Pianoteq edition with all pianos: **< 2 GB**
 
-But Pianoteq isn't just smaller—it's *deeper*. You can adjust strike position, hammer hardness, lid height, mic distance, and a dozen other parameters that Spitfire doesn't even offer. You're not choosing between 50 prerecorded takes; you're controlling the instrument itself.
+But Pianoteq isn't just smaller - it's *deeper*. You can adjust strike position, hammer hardness, lid height, mic distance, and a dozen other parameters that Spitfire doesn't even offer. You're not choosing between 50 prerecorded takes; you're controlling the instrument itself.
 
 This is why physical modeling becomes mandatory at scale. Every orchestration decision you make spawns new samples in a sampled engine. Every decision in physical modeling is just... a parameter.
 
@@ -70,35 +70,35 @@ When you use Tension (Ableton's physical modeling string synth) or SWAM strings,
 - Introduce sympathetic resonance from other strings
 - Detune intentionally to create phase artifacts
 
-MPE controllers (which I've written about elsewhere) were designed for this. Wavetable synthesis can map MPE data to filters and modulation. But physical modeling *inherently* wants expressive input—it's built for it.
+MPE controllers (which I've written about elsewhere) were designed for this. Wavetable synthesis can map MPE data to filters and modulation. But physical modeling *inherently* wants expressive input - it's built for it.
 
 This is the future: not "intelligent sampled libraries" but instruments that *respond to how you play them*.
 
 ## Who's Leading This Space (2026)
 
-**Applied Acoustics Systems** — The pioneers. Chromaphone is underrated as a creative tool (not just realistic piano emulation). UltraAnalog VA-3 is a pure joy to play.
+**Applied Acoustics Systems**  -  The pioneers. Chromaphone is underrated as a creative tool (not just realistic piano emulation). UltraAnalog VA-3 is a pure joy to play.
 
-**Modartt (Pianoteq)** — The gold standard for digital pianos. But it's also a modular sound-design tool if you look at it sideways. Tweak the hammer, the strings, the dampers—suddenly you have an alien instrument.
+**Modartt (Pianoteq)**  -  The gold standard for digital pianos. But it's also a modular sound-design tool if you look at it sideways. Tweak the hammer, the strings, the dampers - suddenly you have an alien instrument.
 
-**Audio Modeling (SWAM)** — The most expressive orchestral tools on the market. If you care about violin as an *instrument* and not just a sound effect, SWAM is mandatory. Their modeling of bowing techniques is unmatched.
+**Audio Modeling (SWAM)**  -  The most expressive orchestral tools on the market. If you care about violin as an *instrument* and not just a sound effect, SWAM is mandatory. Their modeling of bowing techniques is unmatched.
 
-**Physical Audio** — The experimentalists. Modus and Derailer aren't trying to emulate reality; they're using physical modeling to create *impossible* instruments. This is where the future gets weird.
+**Physical Audio**  -  The experimentalists. Modus and Derailer aren't trying to emulate reality; they're using physical modeling to create *impossible* instruments. This is where the future gets weird.
 
-**Expressive E (Imagine)** — A playful entry point. Less realistic, more "acoustic character meets modern sound design." Great for people who want the responsiveness without the acoustic simulation.
+**Expressive E (Imagine)**  -  A playful entry point. Less realistic, more "acoustic character meets modern sound design." Great for people who want the responsiveness without the acoustic simulation.
 
-**Arturia (Piano V, Harp V, etc.)** — Consumer-friendly physical modeling with their typical quality. Excellent starting point.
+**Arturia (Piano V, Harp V, etc.)**  -  Consumer-friendly physical modeling with their typical quality. Excellent starting point.
 
 ## The Barrier to Adoption
 
 Physical modeling hasn't taken over because:
 
-1. **CPU cost** — It's heavier than sampling on the DSP side (you're running math, not sample playback). This is improving but still matters on large sessions.
+1. **CPU cost**  -  It's heavier than sampling on the DSP side (you're running math, not sample playback). This is improving but still matters on large sessions.
 
-2. **Workflow inertia** — We're trained on samplers. "Load a library, adjust velocity curves, done." Physical modeling requires understanding what you're modeling.
+2. **Workflow inertia**  -  We're trained on samplers. "Load a library, adjust velocity curves, done." Physical modeling requires understanding what you're modeling.
 
-3. **Lack of "perfect" recreations** — A Spitfire violin sounds closer to a *specific* Strad than any physical model. If your goal is "authentic takeover," samplers still win. (Though I'd argue they're dying on that criterion as libraries age—a 2020 sampled library of a 1992 recorded session isn't *authentic* to modern playing styles.)
+3. **Lack of "perfect" recreations**  -  A Spitfire violin sounds closer to a *specific* Strad than any physical model. If your goal is "authentic takeover," samplers still win. (Though I'd argue they're dying on that criterion as libraries age - a 2020 sampled library of a 1992 recorded session isn't *authentic* to modern playing styles.)
 
-4. **Small ecosystem** — Wavetable synthesis has thousands of preset designers. Physical modeling has dozens. This creates a perception gap.
+4. **Small ecosystem**  -  Wavetable synthesis has thousands of preset designers. Physical modeling has dozens. This creates a perception gap.
 
 ## Why the Future Belongs to Physical Modeling
 
@@ -112,7 +112,7 @@ Three reasons:
 
 ## A Personal Note
 
-I was skeptical of physical modeling for years. It felt gimmicky—"fake realism" compared to sampling. But when I spent a day with Tension, playing it like an actual string instrument, I realized something: physical modeling isn't trying to win on authenticity. It's winning on *possibility*. 
+I was skeptical of physical modeling for years. It felt gimmicky - "fake realism" compared to sampling. But when I spent a day with Tension, playing it like an actual string instrument, I realized something: physical modeling isn't trying to win on authenticity. It's winning on *possibility*. 
 
 You can't detune a sampled string. You can't move the pickup position on a sampled guitar in real-time. You can't modulate the resonance cavity of a sampled piano.
 

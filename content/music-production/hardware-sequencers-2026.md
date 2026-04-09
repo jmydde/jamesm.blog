@@ -7,19 +7,19 @@ tags: ["music-production", "hardware", "sequencers", "workflow", "tactility"]
 author: "James Myddelton"
 ---
 
-By mid-2026, the "In-The-Box" vs. "Out-Of-The-Box" debate has fundamentally shifted. We no longer argue about analog warmth or filter aliasing—neural synthesis has made those distinctions invisible to the ear. Instead, the modern battleground is **cognitive load.**
+By mid-2026, the "In-The-Box" vs. "Out-Of-The-Box" debate has fundamentally shifted. We no longer argue about analog warmth or filter aliasing - neural synthesis has made those distinctions invisible to the ear. Instead, the modern battleground is **cognitive load.**
 
 As I discussed in [The Automation Paradox](https://jamesm.blog/ai/automation-paradox/), when AI can generate a perfect 16-bar loop in seconds, the human's role shifts to curation and intent. This is exactly why hardware sequencers are seeing a massive resurgence: they are the ultimate tools for enforcing intent.
 
 ## The Anti-Choice Architecture
 
-The primary strength of a hardware sequencer like the **Teenage Engineering OP-XY** or the **Elektron Hapax MK2** isn't what it lets you do—it's what it *prevents* you from doing. 
+The primary strength of a hardware sequencer like the **Teenage Engineering OP-XY** or the **Elektron Hapax MK2** isn't what it lets you do - it's what it *prevents* you from doing. 
 
 When you are staring at a DAW, you are staring at a "God Object." You can do anything, which often leads to doing nothing. A hardware sequencer provides a "Constraint-First" workflow. You have a fixed number of steps, a specific set of encoders, and a finite way to manipulate data. This physical boundary creates a playground where intuition can actually take over.
 
 ## Tactility and Muscle Memory
 
-In 2026, we spend so much of our professional lives interacting with "Glass" (tablets, monitors, and vision Pro overlays). There is a documented psychological relief in interacting with "Carbon"—physical buttons with travel, encoders with resistance, and pads that respond to velocity.
+In 2026, we spend so much of our professional lives interacting with "Glass" (tablets, monitors, and vision Pro overlays). There is a documented psychological relief in interacting with "Carbon" - physical buttons with travel, encoders with resistance, and pads that respond to velocity.
 
 Hardware sequencers turn music production into a performance of muscle memory. When you can "perform" a conditional trigger or a pitch slide without looking at a screen, you aren't just programming a sequence; you are playing an instrument.
 

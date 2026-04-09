@@ -17,7 +17,7 @@ The Juno‑X doesn’t attempt to recreate the original analog circuitry. Instea
 
 ## Sound Engine and Workflow
 
-The Juno‑X features multiple sound models, including faithful recreations of the Juno‑60 and Juno‑106, alongside modern digital tones. Its high polyphony allows for dense pads, layered textures, and complex harmonies—far beyond the six-voice limit of the original Junos.
+The Juno‑X features multiple sound models, including faithful recreations of the Juno‑60 and Juno‑106, alongside modern digital tones. Its high polyphony allows for dense pads, layered textures, and complex harmonies - far beyond the six-voice limit of the original Junos.
 
 A highlight is the **famous Juno chorus**, preserved and expanded in the Juno‑X. Combined with delays, reverbs, and modulation effects, it gives classic Juno tones a fresh, versatile edge.
 
