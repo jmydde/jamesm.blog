@@ -92,3 +92,12 @@ What's clear: we've entered an era where "the best model" and "the publicly avai
 - [Claude Mythos Benchmarks Explained: 93.9% SWE-bench & Every Record Broken](https://www.nxcode.io/resources/news/claude-mythos-benchmarks-93-swe-bench-every-record-broken-2026)
 - [Claude Mythos Preview: Anthropic's Most Powerful AI](https://www.nxcode.io/resources/news/claude-mythos-preview-anthropic-most-powerful-model-2026)
 - [Claude Mythos Coding Performance: What It Means for AI Dev Workflows](https://wavespeed.ai/blog/posts/claude-mythos-coding-performance/)
+
+## Related Links
+
+- [The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power](/ai/claude-mythos-restricted/)
+- [Anthropic Blog](https://www.anthropic.com/news) - Latest updates from Anthropic
+- [Project Glasswing - Defensive Cybersecurity Initiative](https://www.anthropic.com/news)
+- [SWE-bench: Evaluating LLMs for Software Engineering](https://swe-bench.github.io/)
+- [Understanding AI Model Benchmarks](https://www.anthropic.com/research)
+
