@@ -1,385 +1,198 @@
 # jamesm.blog Content Roadmap
 
-## Navigation
-
-- [AI & Machine Learning](#ai--machine-learning)
-- [Music Production & Audio](#music-production--audio)
-- [Data & Analytics](#data--analytics)
-- [Software Engineering](#software-engineering)
-- [History & Culture](#history--culture)
-- [Creative & Emerging Tech](#creative--emerging-tech)
-- [Physics](#physics)
-- [Personal Development](#personal-development)
-- [Ideas to Develop](#ideas-to-develop)
-
----
-
-## AI & Machine Learning
-
-### Core AI Topics
-
-- [/] **AI Hallucinations: Understanding and Mitigating False Outputs** [NEXT UP]
-- [ ] **The Ethics of AI Training Data: Copyright, Consent, and Compensation**
-- [ ] **The LLM Context Window Arms Race: Does It Actually Matter?**
-- [ ] **AI Agents That Actually Work: Patterns From Real Projects**
-- [ ] **Stop Debugging AI Code: How to Actually Verify Generated Output**
-- [/] **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
-- [ ] **Prompt Caching: The Quiet Performance Win for LLM Applications**
-- [ ] **The Attention Mechanism: Why Understanding It Changes How You Prompt**
-- [ ] **Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful**
-- [x] **AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know**
-- [x] **Structured Outputs: When Your AI Needs to Follow a Schema**
-- [ ] **Why AI Assistants Suck at Following Instructions (And How to Fix It)**
-- [ ] **The GPU Lottery: Why You Can't Just 'Scale Up' AI Anymore**
-- [/] **AI Safety From First Principles: What Actually Matters vs What's Hype**
-
-### AI + Creative Work
-
-- [ ] **When AI Makes Music: Suno vs Udio vs Human Creativity**
-- [ ] **Why Generative Music Still Feels Soulless (And How That's Changing)**
-- [ ] **Workflow: Using AI to Speed Up Demos Without Losing Authenticity**
-- [ ] **The Death of the Session Musician? AI Backing Tracks vs Hiring Real Players**
-- [ ] **Prompt Engineering for Music: How to Get the Output You Actually Want**
-- [ ] **Ethical AI in Creative Fields: Ownership, Attribution, and Deepfakes**
-- [ ] **From Text to Tune: The Evolution of AI Music Generation Beyond Suno/Udio**
-
-### Developer Tools & AI
-
-- [ ] **AI Coding Assistants: Context Window vs Model Capability vs Integration**
-- [ ] **Building Debugging Skills Alongside AI Assistants**
-- [ ] **Model Context Protocol in Practice: Where MCP Is Useful and Where It Adds Noise**
-- [ ] **The AI Code Review Trap: Why Fast Feedback Still Misses the Real Bugs**
-- [ ] **Designing an AI Dev Stack That Fails Gracefully**
-
----
-
-## Music Production & Audio
-
-### Music Production Posts
-
-- [ ] **MPE Deep Dive: Why Expressive MIDI Changes Everything**
-- [ ] **The Evolution of DAWs: From Pro Tools to Modern Cloud-Based Workflows**
-- [ ] **Sound Design for Film and Games: Beyond Traditional Music Production**
-- [ ] **The Psychology of Mixing: How Our Brains Perceive Sound**
-- [ ] **AI-Assisted Composition: What I've Actually Used and What Works**
-- [ ] **The Intuitive Producer's Toolkit: Gear That Gets Out of Your Way**
-- [ ] **The Yamaha Montage M: 6 Months In Real World Usage**
-- [ ] **Why Every Producer Should Learn At Least One Proper Instrument**
-- [x] **u-he Zebra 3: The Modular Beast Unleashed**
-- [ ] **Arrangement Is 90% Of The Track: The Most Underrated Skill**
-
-### AI + Music Production Workflow
-
-- [ ] **AI Mastering and Mixing: When to Trust the Algorithm vs Your Ears**
-- [ ] **Generative Composition Tools: Looper, Amper, and OpenAI Jukebox Compared**
-- [ ] **Using AI for Arrangement: Expanding Ideas Without Losing Your Sound**
-- [ ] **The Physics of Sound + AI: What Machine Learning Gets Wrong About Audio**
-- [ ] **Real-Time AI Effects: Processing with Models vs Traditional DSP**
-
-### Hardware & Integration
-
-- [ ] **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
-- [ ] **Ableton + Max for Live in 2026: What's Actually New**
-- [ ] **Mobile Music Production: Current Controller + iPad Combinations**
-- [ ] **The MIDI Brain Pattern: Designing Hardware Setups Around One Central Sequencer**
-- [ ] **Workstation vs Groovebox vs Controller: Choosing the Right Creative Centerpiece**
-- [ ] **Why Some Instruments Make You Finish Tracks and Others Just Make You Browse Presets**
-
-### DIY Hardware & Modular Synths
-
-- [ ] **Introduction to Modular Synthesis: The Building Blocks**
-- [ ] **Eurorack Fundamentals: Format, Power, and Signal Flow**
-- [ ] **DIY vs Commercial: When to Build vs Buy**
-- [ ] **Circuit Bending: Hacking Toys and Synths for New Sounds**
-- [ ] **Building Your First Synth Module: A Practical Guide**
-- [ ] **Patch Programming: From Simple Oscillators to Complex Behavior**
-- [ ] **Modular vs Fixed Architecture: When Limited is More Creative**
-- [ ] **The Economics of Modular: Cost vs Flexibility vs Learning Curve**
-- [ ] **Audio Electronics Fundamentals for Musicians**
-- [ ] **Reading Schematics: From Blueprint to Prototype**
-- [ ] **Cloning Classics: Building Legendary Synth Modules**
-- [ ] **The Voltage Control Standard: Understanding CV**
-- [ ] **Sequencing in Modular: From Simple to Mind-Bending Complexity**
-- [ ] **Analog vs Digital in Modular Systems**
-- [ ] **Case Design and Power Management: The Unglamorous Foundation**
-
----
-
-## Data & Analytics
-
-### Data Engineering
-
-- [ ] **Real-Time Data Processing: Stream Processing vs Batch Processing**
-- [ ] **Data Governance in the Age of AI: Ensuring Data Quality and Compliance**
-- [ ] **The Role of Data Engineering in Machine Learning Pipelines**
-- [ ] **The Modern Lakehouse Stack: What Actually Belongs in Production**
-- [ ] **Open Table Formats Explained: Delta Lake vs Iceberg vs Hudi**
-- [ ] **Data Platform Migrations: Why the Org Problem Is Bigger Than the Tech**
-
-### Data Science
-
-- [ ] **Neptune Analytics Fundamentals: Building Real-Time Graph Queries**
-- [ ] **Pattern Matching in Graphs: Finding Hidden Relationships in Your Data**
-- [ ] **Recommendation Engines Without the Hype: How Graph Algorithms Actually Work**
-- [ ] **Fraud Detection in Real-Time: Graph-Based Approaches vs Statistical Methods**
-- [ ] **Shortest Path and Traversal: Algorithms You Actually Use Every Day**
-- [ ] **Machine Learning on Graphs: Node Embeddings, Graph Neural Networks, and Why They're Not Magic**
-- [ ] **Knowledge Graphs in Practice: Building and Querying Semantic Networks**
-- [ ] **Similarity Measures: When (and Why) Cosine Similarity Fails**
-- [ ] **Bloom Filters and Probabilistic Data Structures: Trading Accuracy for Speed**
-- [ ] **Anomaly Detection: Statistical Methods vs AI-Driven Approaches**
-- [ ] **Feature Engineering for Graphs: Making Raw Data Actually Useful**
-- [ ] **Time Series Fundamentals: Why Time-Ordered Data Breaks Regular ML**
-- [ ] **Statistical Methods in Data Science: T-Tests, Chi-Square, and When to Use Them**
-- [ ] **Python Data Science Stack in Practice: Pandas, NumPy, Scikit-learn Workflow**
-- [ ] **Dimensionality Reduction: PCA, t-SNE, and UMAP Explained**
-- [ ] **Experimental Design: A/B Testing, Statistical Significance, and Sample Size**
-- [ ] **Data Quality and Validation: Building Confidence in Your Datasets**
-
----
-
-## Software Engineering
-
-### Development Practices & Code Quality
-
-- [ ] **Code Review That Actually Improves Code (Not Just Slows It Down)**
-- [ ] **Testing Strategies: Unit Tests, Integration Tests, and When to Abandon Perfectionism**
-- [ ] **Refactoring Under Pressure: Debt vs Technical Investment**
-- [ ] **Debugging Techniques: Systematic Approaches That Scale**
-- [ ] **Documentation That Developers Actually Read**
-- [ ] **Concurrency Patterns: Threads, Async, Queues, and Consensus**
-
-### DevOps & Production Systems
-
-- [ ] **Observability Beyond Dashboards: Structured Logging for Incident Response**
-- [ ] **Container Security: Beyond Docker Basics**
-- [ ] **Cost Optimization in Cloud: Identifying and Eliminating Waste**
-- [ ] **Kubernetes Operational Patterns: StatefulSets, DaemonSets, and Job Scheduling**
-- [ ] **Blue-Green Deployments vs Canary Releases: Trade-Offs and Gotchas**
-- [ ] **Disaster Recovery Planning: RPO, RTO, and Testing That Actually Works**
-- [ ] **Infrastructure as Code Patterns: Terraform, CloudFormation, and Drift Detection**
-- [ ] **Platform Engineering After the Hype: What Internal Platforms Should Actually Do**
-- [ ] **When AI Agents Meet CI/CD: New Failure Modes in the Delivery Pipeline**
-
-### Developer Tooling
-
-- [ ] **The Tools Aren't the Problem: On Setup Paralysis in Engineering**
-- [ ] **The Great Containerization Debate: Docker vs Podman vs Cloud Native**
-- [ ] **Beyond Git: Exploring Decentralized Version Control Systems**
-- [ ] **IDE Evolution in 2026: Beyond VS Code Dominance**
-
-### Technical Communication & Writing
-
-- [ ] **Writing Technical Documentation: Structure That Readers Can Follow**
-- [ ] **Blogging as Learning: Why Writing Clarifies Thinking**
-- [ ] **Explaining Complex Concepts: Analogies, Visuals, and Progressive Disclosure**
-- [ ] **Writing Architecture Decision Records (ADRs): Capturing Trade-Offs**
-- [ ] **Storytelling in Tech: Making Technical Content Engaging**
-
----
-
-## History & Culture
-
-### Retro Computing & Tech History
-
-- [ ] **The BBC Micro: Britain's Most Important Computer**
-- [ ] **Paula, Agnus, and Denise: The Trinity That Made the Amiga Magic**
-- [ ] **Public Domain Libraries: The 'App Store' of the 16-bit Era**
-- [ ] **The ZX Spectrum Keyboard Problem: Why Terrible Hardware Still Won Hearts**
-- [ ] **How Computer Magazines Taught a Generation to Type In Code**
-- [ ] **Cracktro Music and Tracker Culture: How Piracy Scenes Shaped Electronic Music**
-- [ ] **Why Britain Produced So Many Bedroom Coders in the 1980s**
-
-### Electronic Music History
-
-- [ ] **How the Roland TB-303 Accidentally Invented Acid House**
-- [ ] **The Yamaha DX7: The Most Influential Synthesizer Ever Made**
-- [ ] **How MIDI Turned Bedroom Producers Into Pop Architects**
-- [ ] **The Legacy of Analog Synthesizers in Modern Music**
-- [ ] **Sampler Culture: How Akai MPCs and SP-1200s Changed Hip-Hop**
-
-### Tech History & Lineage
-
-- [ ] **Digital Preservation: From Floppies to Bit Rot**
-- [ ] **The Rise and Fall of Netscape Navigator: A Browser War Retrospective**
-- [ ] **Unix Philosophy: Its Enduring Influence on Modern Software Development**
-- [ ] **What Earlier Platforms Got Right: Learning From Design History**
-- [ ] **Algorithmic Creativity: Demoscene Then, Generative Art Now**
-- [ ] **Community Architecture: BBS, Forums, Discord, and Social Evolution**
-
-### Design History & Evolution
-
-- [ ] **The Xerox Alto: Where Modern Computing Design Was Born**
-- [ ] **From Command Line to GUI: How Graphical Interfaces Changed Everything**
-- [ ] **The Evolution of Keyboard Layouts: QWERTY and Beyond**
-- [ ] **Designing for the Web: From Tables to Responsive Design**
-- [ ] **The iPhone Effect: How One Device Reshaped Interface Design**
-- [ ] **Skeuomorphism vs Flat Design: Why Design Trends Actually Matter**
-- [ ] **The Mac vs PC Design Philosophy: Different Visions of User Experience**
-- [ ] **Designing for Touch: When Fingers Replaced Mice**
-- [ ] **Dark Mode Wars: The History and Psychology of UI Trends**
-- [ ] **Form Follows Function: Industrial Design Principles in Software**
-- [ ] **The Design System Revolution: From Ad-Hoc to Systematic**
-- [ ] **Color Theory in UI: From Early Terminals to Modern Palettes**
-- [ ] **Typography Evolution: From Fixed-Width to Variable Fonts**
-- [ ] **Button Design: A Surprisingly Complex History**
-- [ ] **Icon Design Through the Ages: From Pixel Art to Scalable Graphics**
-- [ ] **Navigation Patterns: Menu Bars to Hamburgers to AI-Driven Interfaces**
-- [ ] **Accessibility as Afterthought to Core Principle: The Design Evolution**
-- [ ] **Mobile-First Design: How Constraints Drove Innovation**
-- [ ] **Voice Interface Design: The Next Evolution**
-- [ ] **Designing for Attention in an Age of Distraction**
-
----
-
-## Creative & Emerging Tech
-
-### Hardware Design Philosophy
-
-- [ ] **Why the Elektron Syntakt Works (When Similar Competitors Don't)**
-- [ ] **The Anatomy of Good Gear UX: What Hardware Gets Right That Software Misses**
-- [ ] **Knobs, Buttons, and Hands: The Case for Tactile Feedback**
-- [ ] **From the Juno to the Montage: Design Evolution at Yamaha**
-
-### Generative Art & Creative Coding
-
-- [ ] **Generative Art Tools in 2026: Which Ones Preserve Creative Agency**
-- [ ] **Creative Coding as a Complement to Music Production** — Max/MSP, Pure Data, TouchDesigner
-- [ ] **The Uncanny Valley of AI Art: What Makes Some Outputs Feel Real**
-- [ ] **Algorithmic Composition vs AI Generation: Rules-Based vs Learning-Based Sound Design**
-
-### Open Source & Tool Economics
-
-- [ ] **When Commercial Tools Die: Lessons From the Native Instruments Collapse**
-- [ ] **The Economics of Creative Tools: Why Open-Source DAWs Struggle**
-- [ ] **Following the Money: Databricks vs Snowflake vs the Open-Source Alternative**
-- [ ] **Paid Software vs Subscription vs Open Source: The Creator's Dilemma**
-
-### Blockchain & Web3
-
-- [ ] **DeFi 2.0: The Next Generation of Decentralized Finance**
-- [ ] **NFTs Beyond Art: Real-World Applications and Use Cases**
-- [ ] **The Environmental Impact of Blockchain: Proof-of-Stake vs Proof-of-Work**
-- [ ] **What Quantum Computing Actually Threatens in Crypto (And What It Doesn't)**
-- [ ] **The Case for Self-Custody in 2026**
-
-### Emerging Technologies
-
-- [ ] **Spatial Computing in 2026: Why Vision Pro Stumbled and What Comes Next**
-- [ ] **The Quantum Timeline: What Crypto Actually Needs to Fear (And When)**
-- [ ] **WebAssembly as a Platform: What Developers Should Know in 2026**
-
-### Neurotechnology & Brain-Computer Interfaces
-
-- [ ] **Introduction to Brain-Computer Interfaces: How They Actually Work**
-- [ ] **EEG for Musicians: Using Brain Data to Control Sound**
-- [ ] **Brain Activity and Creativity: What Neuroscience Tells Us**
-- [ ] **Neural Interfaces for Music: From Neurofeedback to Direct Control**
-- [ ] **The Neuroscience of Rhythm: Why Humans Are Pattern-Seeking Creatures**
-- [ ] **Brain Implants vs Non-Invasive Interfaces: Trade-Offs and Reality**
-- [ ] **Decoding Music from Brain Signals: The Science Behind It**
-- [ ] **Attention, Flow, and the Brain: Designing for Peak Performance**
-- [ ] **Neuroplasticity and Learning: Why Practice Actually Changes Your Brain**
-- [ ] **Brain Stimulation Techniques: From TMS to Transcranial Current Stimulation**
-- [ ] **Ethics of Brain-Computer Interfaces: Privacy, Agency, and Consent**
-- [ ] **Biofeedback and Music: Real-Time Brain Data as Creative Tool**
-- [ ] **Sleep and Memory: The Neuroscience of Consolidation and Skill Development**
-- [ ] **Neurotransmitters and Creativity: The Chemistry of Innovation**
-- [ ] **Temporal Perception: Why Musicians Experience Time Differently**
-- [ ] **Mirror Neurons and Learning: Understanding by Doing**
-- [ ] **Auditory Perception: How the Brain Processes Sound**
-- [ ] **Synesthesia: When Senses Cross and Create New Possibilities**
-- [ ] **Emotional Resonance: The Neuroscience of Why Music Moves Us**
-- [ ] **BCIs Beyond Medicine: Gaming, Entertainment, and Creative Expression**
-
-### Space & Future Infrastructure
-
-- [ ] **Space Tourism: The Dawn of Commercial Space Travel**
-- [ ] **Asteroid Mining: The Next Gold Rush in Space**
-- [ ] **The Future of Space Habitats: Living Beyond Earth**
-- [ ] **The Private Space Race: Who's Actually Winning?**
-- [ ] **Why Artemis Is Running Behind (And Why That Matters)**
-- [ ] **The Lunar Economy: Manufacturing, Mining, and Orbital Infrastructure**
-- [ ] **Blue Origin, Axiom, and Commercial Space: Competitive Landscape in 2026**
-- [ ] **Satellite Internet Wars: Technical and Market Implications**
-- [ ] **Starship, SLS, and the Politics of Heavy Lift**
-- [ ] **What Lunar Gateway Is Actually For**
-- [ ] **Why Artemis Matters Even If Humans Never Reach Mars Soon**
-
----
-
-## Physics
-
-### Big Ideas in Physics
-
-- [ ] **Why Is There Something Rather Than Nothing? Physics, Philosophy, and the Limits of Explanation**
-- [ ] **The Standard Model Explained Without the Maths Hangover**
-- [ ] **General Relativity for Curious People: What Gravity Really Is**
-- [ ] **Quantum Mechanics for Sceptics: What the Weirdness Actually Means**
-- [ ] **Entropy, Time, and Why the Universe Only Seems to Move One Way**
-- [ ] **Dark Matter vs Dark Energy: Two Very Different Cosmic Mysteries**
-
-### Space, Scale, and the Universe
-
-- [ ] **How Big Is the Universe, Really? Numbers That Break Human Intuition**
-- [ ] **Black Holes Beyond the Hype: What We Know, What We Infer, What We Still Don't**
-- [ ] **The Fermi Paradox: Where Is Everybody?**
-- [ ] **The Physics of Rocketry: Why Getting to Orbit Is So Brutal**
-- [ ] **What Would Actually Need to Be True for Interstellar Travel to Work?**
-- [ ] **The Cosmic Distance Ladder: How We Measure the Universe Without a Ruler**
-
-### Physics of Sound, Music, and Systems
-
-- [ ] **Why Certain Sounds Feel Warm: The Physics Behind Analogue Character**
-- [ ] **Resonance, Harmonics, and Why Synths Sound the Way They Do**
-- [ ] **The Physics of Rhythm: Why Repetition Feels So Powerful**
-- [ ] **Signal, Noise, and Information: A Physics Lens on Communication and Computing**
-- [ ] **From Oscillators to Orbits: Why Waves Show Up Everywhere**
-
-### Physics, Computing, and Reality
-
-- [ ] **Information Is Physical: Why Computation Always Has a Real-World Cost**
-- [ ] **The Thermodynamics of Computing: Why Intelligence Isn't Free**
-- [ ] **What Quantum Computing Actually Is and What It Isn't**
-- [ ] **Simulation Theory vs Physics: Which Questions Are Serious and Which Are Just Fun**
-- [ ] **Why Physics Loves Symmetry and Why Symmetry Breaking Changes Everything**
-
----
-
-## Personal Development
-
-- [ ] **Building in Public: Why I Started This Blog and What I've Learned**
-- [ ] **The Power of Habit: Building Productive Routines for Engineers**
-- [ ] **Mindfulness for Developers: Reducing Stress and Improving Focus**
-- [ ] **The Art of Delegation: Leading Teams Effectively**
-- [ ] **Specialization vs Generalization: The T-Shaped Engineer**
-- [ ] **Negotiation Skills for Developers: Getting What You're Worth**
-- [ ] **Technical Interviewing: Assessing Without Algorithmic Gatekeeping**
-- [ ] **From IC to Lead: The Leadership Transition Nobody Talks About**
-- [ ] **Remote Work Optimization: Beyond Zoom Fatigue**
-- [ ] **Career Transitions: When It's Time to Pivot**
-- [ ] **Momentum Before Motivation: Why Tiny Wins Matter More Than Big Plans**
-- [ ] **How to Rebuild Trust in Yourself After a Bad Season**
-- [ ] **Energy Management for Creative and Technical Work**
-- [ ] **When Reinvention Is Real and When It's Just Avoidance**
-
----
-
-## Ideas to Develop
-
-### Philosophical & Conceptual
-
-- [ ] **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output
-- [ ] **"Good Judgement Cannot Be Automated"**
-- [ ] **"Constraint Is a Feature"** — from 8-bit coding and tracker scenes to modern AI systems
-- [ ] **"Tools Change, Taste Doesn't"** — a thread connecting retro computing, music gear, and AI
-
-### Mathematics & Science Education
-
-- [ ] **Fractals and Infinite Complexity** — Mandelbrot set, Julia sets, self-similarity, and fractals in nature
-- [ ] **Mathematical Paradoxes That Break Your Brain** — Banach-Tarski, liar's paradox, and logical impossibilities
-- [ ] **The Infinite Hotel Paradox and Other Mind-Bending Concepts**
-- [ ] **Game Theory Basics: Why Pigeons and Hawks Matter in Computing**
-- [ ] **Prime Numbers: The Atoms of Mathematics** — distribution, unsolved problems, cryptographic importance
-- [ ] **Topology: The Geometry of Shapes Without Distance** — knots, Klein bottles, Möbius strips, genus
-- [ ] **The Beauty of Symmetry** — group theory, tessellations, symmetry in nature and physics
+## Editorial Model
+
+- Primary pillars: `AI systems in practice`, `Music technology with first-hand perspective`, `Modern data engineering`
+- Secondary lanes: `software engineering`, `personal development`, `history & culture`, `physics`, `general`, `space`, `blockchain`
+- Content formats:
+  - `explainer`
+  - `comparison`
+  - `field-note`
+  - `resource-hub`
+- Roadmap rule: every new idea must fit exactly one pillar and one format or it stays in the parking lot.
+- Publishing cadence: 6-week cycles with one dominant theme per cycle.
+- Content ratio target: `60%` pillar content, `25%` supporting comparisons/reviews, `15%` exploratory backlog topics.
+
+## Active Quarter
+
+### Focus
+
+- Theme 1: `Reliable AI Systems`
+- Theme 2: `Instruments, Workflow, and AI`
+- Theme 3: `Production Data Platforms in 2026`
+
+### Active Goals
+
+- Finish one strong AI series around reliability, hallucinations, verification, and architecture choices.
+- Publish two music workflow posts grounded in direct usage and hardware integration.
+- Keep data engineering timely and practical with platform, governance, and architecture coverage.
+- Publish one bridge post per month linking two proven strengths:
+  - `AI + music`
+  - `AI + software engineering`
+  - `data engineering + AI systems`
+
+## Next 6 Committed Posts
+
+1. `[next]` `AI` `explainer` **AI Hallucinations: Understanding and Mitigating False Outputs**
+2. `[drafting]` `AI` `comparison` **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
+3. `[backlog]` `AI + Software Engineering` `field-note` **AI Agents That Actually Work: Patterns From Real Projects**
+4. `[backlog]` `Music` `explainer` **MPE Deep Dive: Why Expressive MIDI Changes Everything**
+5. `[backlog]` `Music` `field-note` **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
+6. `[backlog]` `Data` `explainer` **The Modern Lakehouse Stack: What Actually Belongs in Production**
+
+## Pillar Backlogs
+
+### AI Systems in Practice
+
+**Flagship series:** `Reliable AI Systems`
+
+#### Evergreen Explainers
+
+- `[next]` `explainer` **AI Hallucinations: Understanding and Mitigating False Outputs**
+- `[drafting]` `explainer` **AI Safety From First Principles: What Actually Matters vs What's Hype**
+- `[backlog]` `explainer` **Prompt Caching: The Quiet Performance Win for LLM Applications**
+- `[backlog]` `explainer` **Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful**
+- `[backlog]` `explainer` **The GPU Lottery: Why You Can't Just 'Scale Up' AI Anymore**
+- `[published]` `explainer` **Structured Outputs: When Your AI Needs to Follow a Schema**
+
+#### Opinionated Comparisons
+
+- `[drafting]` `comparison` **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
+- `[backlog]` `comparison` **AI Coding Assistants: Context Window vs Model Capability vs Integration**
+- `[backlog]` `comparison` **Model Context Protocol in Practice: Where MCP Is Useful and Where It Adds Noise**
+- `[backlog]` `comparison` **Designing an AI Dev Stack That Fails Gracefully**
+- `[backlog]` `comparison` **Why AI Assistants Struggle to Follow Instructions (And How to Fix It)**
+
+#### Field Notes / 2026 Updates
+
+- `[backlog]` `field-note` **AI Agents That Actually Work: Patterns From Real Projects**
+- `[backlog]` `field-note` **Stop Debugging AI Code: How to Actually Verify Generated Output**
+- `[backlog]` `field-note` **The AI Code Review Trap: Why Fast Feedback Still Misses the Real Bugs**
+- `[backlog]` `field-note` **Building Debugging Skills Alongside AI Assistants**
+- `[published]` `field-note` **AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know**
+
+#### Resource Hubs
+
+- `[backlog]` `resource-hub` **AI Build Stack: Tools, Frameworks, and Interfaces That Still Matter**
+
+### Music Technology With First-Hand Perspective
+
+**Flagship series:** `Instruments, Workflow, and AI`
+
+#### Evergreen Explainers
+
+- `[backlog]` `explainer` **MPE Deep Dive: Why Expressive MIDI Changes Everything**
+- `[backlog]` `explainer` **The Psychology of Mixing: How Our Brains Perceive Sound**
+- `[backlog]` `explainer` **Why Every Producer Should Learn At Least One Proper Instrument**
+- `[backlog]` `explainer` **Arrangement Is 90% Of The Track: The Most Underrated Skill**
+- `[backlog]` `explainer` **Introduction to Modular Synthesis: The Building Blocks**
+- `[backlog]` `explainer` **Eurorack Fundamentals: Format, Power, and Signal Flow**
+
+#### Opinionated Comparisons
+
+- `[backlog]` `comparison` **Workstation vs Groovebox vs Controller: Choosing the Right Creative Centerpiece**
+- `[backlog]` `comparison` **AI Mastering and Mixing: When to Trust the Algorithm vs Your Ears**
+- `[backlog]` `comparison` **Real-Time AI Effects: Processing with Models vs Traditional DSP**
+- `[backlog]` `comparison` **DIY vs Commercial: When to Build vs Buy**
+- `[backlog]` `comparison` **Modular vs Fixed Architecture: When Limited Is More Creative**
+
+#### Field Notes / 2026 Updates
+
+- `[backlog]` `field-note` **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
+- `[backlog]` `field-note` **The Yamaha Montage M: 6 Months In Real World Usage**
+- `[backlog]` `field-note` **Ableton + Max for Live in 2026: What's Actually New**
+- `[backlog]` `field-note` **Mobile Music Production: Current Controller + iPad Combinations**
+- `[backlog]` `field-note` **Why Some Instruments Make You Finish Tracks and Others Just Make You Browse Presets**
+- `[published]` `field-note` **u-he Zebra 3: The Modular Beast Unleashed**
+
+#### Resource Hubs
+
+- `[backlog]` `resource-hub` **Music Production Learning Stack: Best Blogs, Courses, Channels, and Sites**
+
+#### AI Music in Practice Cluster
+
+- `[backlog]` `comparison` **When AI Makes Music: Suno vs Udio vs Human Creativity**
+- `[backlog]` `field-note` **Workflow: Using AI to Speed Up Demos Without Losing Authenticity**
+- `[backlog]` `comparison` **Why Generative Music Still Feels Soulless (And How That's Changing)**
+- `[backlog]` `explainer` **Prompt Engineering for Music: How to Get the Output You Actually Want**
+- `[backlog]` `comparison` **Ethical AI in Creative Fields: Ownership, Attribution, and Deepfakes**
+
+### Modern Data Engineering
+
+**Flagship series:** `Production Data Platforms in 2026`
+
+#### Evergreen Explainers
+
+- `[backlog]` `explainer` **The Modern Lakehouse Stack: What Actually Belongs in Production**
+- `[backlog]` `explainer` **Open Table Formats Explained: Delta Lake vs Iceberg vs Hudi**
+- `[backlog]` `explainer` **Real-Time Data Processing: Stream Processing vs Batch Processing**
+- `[backlog]` `explainer` **Data Governance in the Age of AI: Ensuring Data Quality and Compliance**
+- `[backlog]` `explainer` **The Role of Data Engineering in Machine Learning Pipelines**
+
+#### Opinionated Comparisons
+
+- `[backlog]` `comparison` **Data Platform Migrations: Why the Org Problem Is Bigger Than the Tech**
+- `[backlog]` `comparison` **Databricks vs Snowflake vs Open Source: What the Economics Change**
+
+#### Field Notes / 2026 Updates
+
+- `[backlog]` `field-note` **Unity Catalog in Practice: Lessons From the Field**
+- `[backlog]` `field-note` **Lakeflow Declarative Pipelines: From DLT to Production**
+- `[backlog]` `field-note` **Modern Data Engineering on Databricks (2026 Guide)**
+- `[backlog]` `field-note` **Databricks Training and Certification: What's Actually Worth It**
+
+#### Resource Hubs
+
+- `[backlog]` `resource-hub` **Data Engineering Learning Stack: Best Blogs, Courses, and Cheat Sheets**
+
+## Bridge Post Track
+
+- `[backlog]` `AI + Music` `comparison` **The Synthesizer as a Model for Thinking About AI**
+- `[backlog]` `AI + Software Engineering` `field-note` **Good Judgment Cannot Be Automated**
+- `[backlog]` `Data + AI` `explainer` **Why AI Systems Need Data Governance Before Better Models**
+- `[backlog]` `AI + Retro/Creative Tech` `explainer` **Constraint Is a Feature**
+- `[backlog]` `AI + Music + Retro` `field-note` **Tools Change, Taste Doesn't**
+
+## Secondary Backlog
+
+### Supporting Professional Topics
+
+- `[backlog]` `Software Engineering` `explainer` **Code Review That Actually Improves Code (Not Just Slows It Down)**
+- `[backlog]` `Software Engineering` `explainer` **Testing Strategies: Unit Tests, Integration Tests, and When to Abandon Perfectionism**
+- `[backlog]` `Software Engineering` `field-note` **When AI Agents Meet CI/CD: New Failure Modes in the Delivery Pipeline**
+- `[backlog]` `Personal Development` `field-note` **Momentum Before Motivation: Why Tiny Wins Matter More Than Big Plans**
+- `[backlog]` `Personal Development` `field-note` **How to Rebuild Trust in Yourself After a Bad Season**
+- `[backlog]` `Personal Development` `field-note` **Energy Management for Creative and Technical Work**
+
+### History, Culture, and Big-Idea Writing
+
+- `[backlog]` `History & Culture` `explainer` **The BBC Micro: Britain's Most Important Computer**
+- `[backlog]` `History & Culture` `explainer` **Paula, Agnus, and Denise: The Trinity That Made the Amiga Magic**
+- `[backlog]` `History & Culture` `field-note` **How Computer Magazines Taught a Generation to Type In Code**
+- `[backlog]` `Music History` `explainer` **How the Roland TB-303 Accidentally Invented Acid House**
+- `[backlog]` `Music History` `explainer` **The Yamaha DX7: The Most Influential Synthesizer Ever Made**
+- `[backlog]` `History & Culture` `explainer` **Algorithmic Creativity: Demoscene Then, Generative Art Now**
+
+### Physics and Systems Thinking
+
+- `[backlog]` `Physics` `explainer` **Why Is There Something Rather Than Nothing? Physics, Philosophy, and the Limits of Explanation**
+- `[backlog]` `Physics` `explainer` **Quantum Mechanics for Sceptics: What the Weirdness Actually Means**
+- `[backlog]` `Physics` `explainer` **Information Is Physical: Why Computation Always Has a Real-World Cost**
+- `[backlog]` `Physics` `explainer` **The Thermodynamics of Computing: Why Intelligence Isn't Free**
+- `[backlog]` `Physics + Music` `explainer` **Resonance, Harmonics, and Why Synths Sound the Way They Do**
+
+## Parking Lot
+
+### Hold Until a Stronger Editorial Reason Appears
+
+- `[backlog]` `resource-hub` Broad list posts that duplicate existing resource pages without a stronger point of view.
+- `[backlog]` `comparison` Trend-driven crypto or emerging-tech topics without a clear first-hand angle.
+- `[backlog]` `explainer` New topic branches that do not reinforce `AI`, `Music`, or `Data`.
+- `[backlog]` `field-note` General-interest essays that belong on the site only if they directly support the core voice.
+
+## Validation Checklist
+
+- Every roadmap item belongs to one pillar or one secondary lane and one format.
+- The committed queue keeps the center of gravity on `AI`, `Music`, and `Data`.
+- Resource-hub ideas replace scattered lists of blogs, websites, courses, and tools.
+- Bridge posts connect strong existing lanes instead of opening new unrelated ones.
