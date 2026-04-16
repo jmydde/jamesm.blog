@@ -8,6 +8,7 @@
 - [Software Engineering](#software-engineering)
 - [History & Culture](#history--culture)
 - [Creative & Emerging Tech](#creative--emerging-tech)
+- [Physics](#physics)
 - [Personal Development](#personal-development)
 - [Ideas to Develop](#ideas-to-develop)
 
@@ -46,6 +47,9 @@
 
 - [ ] **AI Coding Assistants: Context Window vs Model Capability vs Integration**
 - [ ] **Building Debugging Skills Alongside AI Assistants**
+- [ ] **Model Context Protocol in Practice: Where MCP Is Useful and Where It Adds Noise**
+- [ ] **The AI Code Review Trap: Why Fast Feedback Still Misses the Real Bugs**
+- [ ] **Designing an AI Dev Stack That Fails Gracefully**
 
 ---
 
@@ -77,6 +81,9 @@
 - [ ] **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
 - [ ] **Ableton + Max for Live in 2026: What's Actually New**
 - [ ] **Mobile Music Production: Current Controller + iPad Combinations**
+- [ ] **The MIDI Brain Pattern: Designing Hardware Setups Around One Central Sequencer**
+- [ ] **Workstation vs Groovebox vs Controller: Choosing the Right Creative Centerpiece**
+- [ ] **Why Some Instruments Make You Finish Tracks and Others Just Make You Browse Presets**
 
 ### DIY Hardware & Modular Synths
 
@@ -105,6 +112,9 @@
 - [ ] **Real-Time Data Processing: Stream Processing vs Batch Processing**
 - [ ] **Data Governance in the Age of AI: Ensuring Data Quality and Compliance**
 - [ ] **The Role of Data Engineering in Machine Learning Pipelines**
+- [ ] **The Modern Lakehouse Stack: What Actually Belongs in Production**
+- [ ] **Open Table Formats Explained: Delta Lake vs Iceberg vs Hudi**
+- [ ] **Data Platform Migrations: Why the Org Problem Is Bigger Than the Tech**
 
 ### Data Science
 
@@ -148,6 +158,8 @@
 - [ ] **Blue-Green Deployments vs Canary Releases: Trade-Offs and Gotchas**
 - [ ] **Disaster Recovery Planning: RPO, RTO, and Testing That Actually Works**
 - [ ] **Infrastructure as Code Patterns: Terraform, CloudFormation, and Drift Detection**
+- [ ] **Platform Engineering After the Hype: What Internal Platforms Should Actually Do**
+- [ ] **When AI Agents Meet CI/CD: New Failure Modes in the Delivery Pipeline**
 
 ### Developer Tooling
 
@@ -173,6 +185,10 @@
 - [ ] **The BBC Micro: Britain's Most Important Computer**
 - [ ] **Paula, Agnus, and Denise: The Trinity That Made the Amiga Magic**
 - [ ] **Public Domain Libraries: The 'App Store' of the 16-bit Era**
+- [ ] **The ZX Spectrum Keyboard Problem: Why Terrible Hardware Still Won Hearts**
+- [ ] **How Computer Magazines Taught a Generation to Type In Code**
+- [ ] **Cracktro Music and Tracker Culture: How Piracy Scenes Shaped Electronic Music**
+- [ ] **Why Britain Produced So Many Bedroom Coders in the 1980s**
 
 ### Electronic Music History
 
@@ -286,6 +302,47 @@
 - [ ] **The Lunar Economy: Manufacturing, Mining, and Orbital Infrastructure**
 - [ ] **Blue Origin, Axiom, and Commercial Space: Competitive Landscape in 2026**
 - [ ] **Satellite Internet Wars: Technical and Market Implications**
+- [ ] **Starship, SLS, and the Politics of Heavy Lift**
+- [ ] **What Lunar Gateway Is Actually For**
+- [ ] **Why Artemis Matters Even If Humans Never Reach Mars Soon**
+
+---
+
+## Physics
+
+### Big Ideas in Physics
+
+- [ ] **Why Is There Something Rather Than Nothing? Physics, Philosophy, and the Limits of Explanation**
+- [ ] **The Standard Model Explained Without the Maths Hangover**
+- [ ] **General Relativity for Curious People: What Gravity Really Is**
+- [ ] **Quantum Mechanics for Sceptics: What the Weirdness Actually Means**
+- [ ] **Entropy, Time, and Why the Universe Only Seems to Move One Way**
+- [ ] **Dark Matter vs Dark Energy: Two Very Different Cosmic Mysteries**
+
+### Space, Scale, and the Universe
+
+- [ ] **How Big Is the Universe, Really? Numbers That Break Human Intuition**
+- [ ] **Black Holes Beyond the Hype: What We Know, What We Infer, What We Still Don't**
+- [ ] **The Fermi Paradox: Where Is Everybody?**
+- [ ] **The Physics of Rocketry: Why Getting to Orbit Is So Brutal**
+- [ ] **What Would Actually Need to Be True for Interstellar Travel to Work?**
+- [ ] **The Cosmic Distance Ladder: How We Measure the Universe Without a Ruler**
+
+### Physics of Sound, Music, and Systems
+
+- [ ] **Why Certain Sounds Feel Warm: The Physics Behind Analogue Character**
+- [ ] **Resonance, Harmonics, and Why Synths Sound the Way They Do**
+- [ ] **The Physics of Rhythm: Why Repetition Feels So Powerful**
+- [ ] **Signal, Noise, and Information: A Physics Lens on Communication and Computing**
+- [ ] **From Oscillators to Orbits: Why Waves Show Up Everywhere**
+
+### Physics, Computing, and Reality
+
+- [ ] **Information Is Physical: Why Computation Always Has a Real-World Cost**
+- [ ] **The Thermodynamics of Computing: Why Intelligence Isn't Free**
+- [ ] **What Quantum Computing Actually Is and What It Isn't**
+- [ ] **Simulation Theory vs Physics: Which Questions Are Serious and Which Are Just Fun**
+- [ ] **Why Physics Loves Symmetry and Why Symmetry Breaking Changes Everything**
 
 ---
 
@@ -301,6 +358,10 @@
 - [ ] **From IC to Lead: The Leadership Transition Nobody Talks About**
 - [ ] **Remote Work Optimization: Beyond Zoom Fatigue**
 - [ ] **Career Transitions: When It's Time to Pivot**
+- [ ] **Momentum Before Motivation: Why Tiny Wins Matter More Than Big Plans**
+- [ ] **How to Rebuild Trust in Yourself After a Bad Season**
+- [ ] **Energy Management for Creative and Technical Work**
+- [ ] **When Reinvention Is Real and When It's Just Avoidance**
 
 ---
 
@@ -310,6 +371,8 @@
 
 - [ ] **"The Synthesizer as a Model for Thinking About AI"** — generative, exploratory, no fixed output
 - [ ] **"Good Judgement Cannot Be Automated"**
+- [ ] **"Constraint Is a Feature"** — from 8-bit coding and tracker scenes to modern AI systems
+- [ ] **"Tools Change, Taste Doesn't"** — a thread connecting retro computing, music gear, and AI
 
 ### Mathematics & Science Education
 
