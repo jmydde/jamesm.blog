@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Capabilities on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/ai-capabilities/</link>
+    <description>Recent content in AI Capabilities on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Apr 2026 16:15:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/ai-capabilities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Opus 4.7: Autonomy and Vision at Scale</title>
+      <link>https://jamesm.blog/ai/claude-opus-4-7/</link>
+      <pubDate>Thu, 16 Apr 2026 16:15:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/claude-opus-4-7/</guid>
+      <description>Claude Opus 4.7 brings autonomous software engineering, 3.75 megapixel vision, and extended reasoning control - raising the bar for AI-assisted development.</description>
+    </item>
+  </channel>
+</rss>
