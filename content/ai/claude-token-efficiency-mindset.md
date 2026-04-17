@@ -4,6 +4,9 @@ date: 2026-04-17T21:36:00+00:00
 draft: false
 tags: ["Claude", "AI Usage", "Productivity", "Token Economics"]
 description: "Most people waste tokens on Claude not because they're bad at prompting, but because they haven't internalized the real cost structure. Here's how to think about token efficiency as a first-class design constraint."
+cover:
+  image: images/claude-code.png
+  alt: Token efficiency visualization
 ---
 
 If you're paying attention to your Claude usage, you've probably noticed something: your token bills don't scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
