@@ -4,6 +4,9 @@ date: 2026-04-17T19:11:00+00:00
 draft: false
 tags: ["Claude", "AI Design Tools", "Product Launch", "Design Workflow"]
 description: "Claude Design brings AI-powered visual collaboration to teams, automating the tedious handoff between design and development while maintaining design system consistency."
+cover:
+  image: images/claude-design.png
+  alt: Claude Design Icon
 ---
 
 Design-to-development handoff has always been a friction point. Designers create something beautiful. Engineers interpret Figma specs, argue about spacing, squint at color values. SVG assets get lost. Responsive behavior gets reimplemented. By the time the code matches the design, half the polish is gone.
