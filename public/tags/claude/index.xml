@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 07:25:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 19:11:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Design: Closing the Design-to-Code Gap</title>
+      <link>https://jamesm.blog/ai/claude-design/</link>
+      <pubDate>Fri, 17 Apr 2026 19:11:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/claude-design/</guid>
+      <description>Claude Design brings AI-powered visual collaboration to teams, automating the tedious handoff between design and development while maintaining design system consistency.</description>
+    </item>
     <item>
       <title>Career-Ops: Flipping the Script on AI-Powered Job Search</title>
       <link>https://jamesm.blog/ai/career-ops/</link>
