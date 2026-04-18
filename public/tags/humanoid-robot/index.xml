@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Humanoid-Robot on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/humanoid-robot/</link>
+    <description>Recent content in Humanoid-Robot on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 May 2024 20:09:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/humanoid-robot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unitree G1 - AI Humanoid Robot</title>
+      <link>https://jamesm.blog/ai/unitree-g1/</link>
+      <pubDate>Tue, 21 May 2024 20:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/unitree-g1/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Unitree G1 AI Humanoid Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k!&lt;/p&gt;
+&lt;p&gt;With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&amp;rsquo;s development highlights Unitree&amp;rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far</title>
+      <link>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</link>
+      <pubDate>Sat, 20 Apr 2024 22:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://bostondynamics.com/&#34;&gt;Boston Dynamics&lt;/a&gt; has &lt;a href=&#34;https://devopsforum.uk/topic/62710-boston-dynamics-reveals-its-most-astonishing-humanoid-robot-so-far-%E2%80%93-and-i-can%E2%80%99t-stop-watching-it/#comment-180907&#34;&gt;revealed it&amp;rsquo;s most astonishing humanoid robot so far&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://bostondynamics.com/atlas/&#34;&gt;All New Atlas&lt;/a&gt; is Boston Dynamic&amp;rsquo;s first all-electric humanoid robot, designed for real-world applications, it has a far more human-like body. However it&amp;rsquo;s still a long way from commercial or consumer availability.&lt;/p&gt;
+&lt;p&gt;The next generation of the &lt;a href=&#34;https://bostondynamics.com/atlas/&#34;&gt;Atlas&lt;/a&gt; program builds on decades of research and furthers their commitment to delivering the most capable, useful mobile robots. An advanced control system and state-of-the-art hardware give the robot the power and balance to demonstrate advanced athletics and agility.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

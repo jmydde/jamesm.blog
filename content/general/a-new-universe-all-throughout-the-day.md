@@ -2,7 +2,7 @@
 title: "A New Universe All Throughout The Day"
 date: 2026-04-16T07:24:00+01:00
 draft: false
-tags: ["physics", "science", "quantum mechanics", "cosmology", "sean carroll"]
+tags: ["physics",-"science",-"quantum-mechanics",-"cosmology",-"sean-carroll"]
 description: "A short reflection on the strange feeling that reality is constantly becoming new, and how that connects to the many-worlds interpretation of quantum mechanics."
 cover:
   image: images/Universe.jpg

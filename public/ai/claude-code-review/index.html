@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Claude Code Just Got a Serious Code Review Feature | jamesm.blog</title>
-<meta name="keywords" content="ai, claude, code reviews">
+<meta name="keywords" content="ai, claude, code-review">
 <meta name="description" content="I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
 A good example of that is the new Code Review feature in Claude Code, which Anthropic just released in research preview.
 Docs: https://code.claude.com/docs/en/code-review
@@ -91,7 +91,7 @@ Most automated code review tools are basically static analysis with a large lang
     <meta property="article:modified_time" content="2026-03-09T07:14:25+01:00">
     <meta property="article:tag" content="Ai">
     <meta property="article:tag" content="Claude">
-    <meta property="article:tag" content="Code Reviews">
+    <meta property="article:tag" content="Code-Review">
       <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -133,7 +133,7 @@ Most automated code review tools are basically static analysis with a large lang
   "name": "Claude Code Just Got a Serious Code Review Feature",
   "description": "I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.\nA good example of that is the new Code Review feature in Claude Code, which Anthropic just released in research preview.\nDocs: https://code.claude.com/docs/en/code-review\nAt first glance it sounds like another \u0026ldquo;AI reviews your code\u0026rdquo; feature. We\u0026rsquo;ve had plenty of those.\nBut when you look closer, this one is actually quite different.\nMost automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.\n",
   "keywords": [
-    "ai", "claude", "code reviews"
+    "ai", "claude", "code-review"
   ],
   "articleBody": "I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.\nA good example of that is the new Code Review feature in Claude Code, which Anthropic just released in research preview.\nDocs: https://code.claude.com/docs/en/code-review\nAt first glance it sounds like another “AI reviews your code” feature. We’ve had plenty of those.\nBut when you look closer, this one is actually quite different.\nMost automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.\nClaude Code’s new system takes a very different approach.\nInstead of running a single model pass over your pull request, it dispatches a team of AI agents to review the PR in parallel. Each agent hunts for issues from a different perspective, verifies potential bugs, and then the system ranks the findings by severity before posting a structured review.\nThe result is a single high-signal review comment plus inline comments directly on the relevant lines of code.\nIn other words, it’s trying to replicate what a really good human code review actually looks like.\nThe real problem this is solving The interesting part here is not the technology. It’s the problem.\nAI is massively increasing the amount of code being written.\nAnthropic reported that code output per engineer internally has increased by about 200% over the last year, which created an unexpected bottleneck: code review.\nIf developers are shipping more code, the review process becomes the limiting factor.\nHumans skim.\nWe all do it.\nYou open a PR with 600 lines changed, scroll through the diff, and give it a quick approval because everything looks fine.\nThat works right up until the one-line change that silently breaks authentication in production.\nApparently that exact scenario already happened internally. A one-line diff that looked trivial was flagged by Claude Code Review as a critical issue that would have broken authentication for a service.\nThat’s the type of bug humans miss all the time.\nMulti-agent review is the interesting part The architecture is what makes this feature interesting.\nInstead of one model doing a shallow scan, Claude Code:\nlaunches multiple review agents runs bug detection in parallel cross-checks findings to filter false positives ranks issues by severity before posting feedback The agents analyse changes from different angles and only high-confidence issues are surfaced, which dramatically reduces noise in the review.\nAnyone who has used traditional static analysis tools knows how big a deal that is. False positives are what make people ignore automated reviews.\nIf the signal is clean, developers actually pay attention.\nIt scales with the size of the PR Another clever detail is that the review depth scales with the change.\nSmall PRs get a lightweight pass.\nLarge or complex PRs get a deeper analysis with more agents.\nReviews typically take around 20 minutes to run and cost roughly $15-$25 per review, since the system is token-based and designed for depth rather than speed.\nThat might sound expensive at first.\nBut compared to the cost of shipping a subtle production bug, it’s trivial.\nIt doesn’t replace human review One thing I like about the design is that it doesn’t approve pull requests.\nHumans still do that.\nThe AI’s job is simply to surface issues that reviewers might otherwise miss.\nThink of it less like replacing the reviewer and more like giving every PR a superhuman pre-review before a human even opens the diff.\nThat’s a much healthier model than trying to automate approvals.\nWhere this is going What’s really happening here is something bigger.\nAI is increasing code generation by an order of magnitude.\nThat means the rest of the software development lifecycle needs to evolve too:\nreview testing debugging CI maintenance Claude Code’s new review system feels like one of the first serious attempts to adapt code review to the AI-generated code era.\nInstead of one developer reviewing another developer’s work, you now have AI reviewing AI-generated code before humans ever see it.\nThat’s a pretty wild shift in how software gets built.\nAnd honestly, I suspect this is just the beginning.\n",
   "wordCount" : "696",
@@ -354,7 +354,7 @@ Large or complex PRs get a deeper analysis with more agents.</p>
     <ul class="post-tags">
       <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
       <li><a href="https://jamesm.blog/tags/claude/">Claude</a></li>
-      <li><a href="https://jamesm.blog/tags/code-reviews/">Code Reviews</a></li>
+      <li><a href="https://jamesm.blog/tags/code-review/">Code-Review</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/music-production/yamaha-dx7-influential-synthesizer/">
@@ -373,7 +373,7 @@ Large or complex PRs get a deeper analysis with more agents.</p>
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Claude Code Just Got a Serious Code Review Feature on x"
-            href="https://x.com/intent/tweet/?text=Claude%20Code%20Just%20Got%20a%20Serious%20Code%20Review%20Feature&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fclaude-code-review%2f&amp;hashtags=ai%2cclaude%2ccodereviews">
+            href="https://x.com/intent/tweet/?text=Claude%20Code%20Just%20Got%20a%20Serious%20Code%20Review%20Feature&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fclaude-code-review%2f&amp;hashtags=ai%2cclaude%2ccode-review">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

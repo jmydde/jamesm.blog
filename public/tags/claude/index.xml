@@ -35,20 +35,6 @@
       <description>Claude Opus 4.7 brings autonomous software engineering, 3.75 megapixel vision, and extended reasoning control - raising the bar for AI-assisted development.</description>
     </item>
     <item>
-      <title>Career-Ops: Flipping the Script on AI-Powered Job Search</title>
-      <link>https://jamesm.blog/ai/career-ops/</link>
-      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/career-ops/</guid>
-      <description>Career-Ops inverts the typical job-search power dynamic by giving candidates AI-powered tools to intelligently evaluate and prioritize opportunities, automate application workflows, and maintain strategic control over their career decisions.</description>
-    </item>
-    <item>
-      <title>Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released</title>
-      <link>https://jamesm.blog/ai/claude-mythos-benchmarks/</link>
-      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/claude-mythos-benchmarks/</guid>
-      <description>Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.</description>
-    </item>
-    <item>
       <title>Claude Code vs Cursor: A 6-Month Comparison</title>
       <link>https://jamesm.blog/ai/claude-code-vs-cursor/</link>
       <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
@@ -75,13 +61,6 @@
       <description>&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;
 &lt;p&gt;So I started exploring alternatives.&lt;/p&gt;
 &lt;p&gt;What I&amp;rsquo;ve realised is that the best approach isn&amp;rsquo;t replacing Claude Code entirely - it&amp;rsquo;s building a hybrid AI developer stack where different models handle different types of work.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Chatbots &amp; Large Language Models (LLMs)</title>
-      <link>https://jamesm.blog/ai/chatbots-llms/</link>
-      <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/chatbots-llms/</guid>
-      <description>A practical explainer on the difference between chatbots and large language models, how modern model families fit together, and how to choose the right AI tool for a task.</description>
     </item>
   </channel>
 </rss>

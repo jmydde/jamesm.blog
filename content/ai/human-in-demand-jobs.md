@@ -2,7 +2,7 @@
 title: "Top 5 Human In-Demand Jobs in 10 Years"
 date: 2025-11-27T07:39:14+01:00
 draft: false
-tags: ["ai", "human", "human-job", "job"]
+tags: ["ai",-"human",-"human-job",-"job"]
 ---
 
 *Assume AI is “everywhere” – what still **needs** actual humans?*

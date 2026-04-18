@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>-&#34;Testing&#34; on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/-testing/</link>
+    <description>Recent content in -&#34;Testing&#34; on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 22:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/-testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know</title>
+      <link>https://jamesm.blog/ai/ai-reliability-is-weird/</link>
+      <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/ai-reliability-is-weird/</guid>
+      <description>Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the &amp;#39;builder&amp;#39; is non-deterministic.</description>
+    </item>
+  </channel>
+</rss>

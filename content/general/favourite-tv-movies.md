@@ -2,7 +2,7 @@
 title: "Favourite TV & Movies"
 date: 2023-05-11T21:06:35+01:00
 draft: true
-tags: ["movies", "tv", "comedy", "documentaries", "magic", "directors", "actors"]
+tags: ["movies",-"comedy",-"documentaries",-"magic",-"directors",-"actors"]
 description: "Personal collection of favourite television shows, films, comedians, directors, and actors."
 ---
 

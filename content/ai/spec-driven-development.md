@@ -2,7 +2,7 @@
 title: "Spec-Driven Development: When the Brief Becomes the Product"
 date: 2026-04-07T09:00:00+00:00
 draft: false
-tags: ["ai", "product-development", "engineering", "specification", "design", "sdd"]
+tags: ["ai",-"product-development",-"engineering",-"specification",-"design",-"sdd"]
 description: "With AI handling implementation, the specification itself becomes the product. What you're really selling is clarity of thought - and the ability to write briefs that don't lie."
 ---
 

@@ -2,7 +2,7 @@
 title: "The Universe Has a Plan for You"
 date: 2026-03-12T20:00:39+01:00
 draft: false
-tags: ["personal development", "spirituality", "self-improvement", "personal growth", "life purpose", "resilience"]
+tags: ["personal-development",-"spirituality",-"self-improvement",-"personal-growth",-"life-purpose",-"resilience"]
 description: "Reflective essay on adversity, personal awakening, and discovering life purpose through life's challenges."
 ---
 

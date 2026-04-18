@@ -3,7 +3,7 @@ title: "Hardware Sequencers in 2026: When Physical Beats Software"
 date: 2026-04-08T07:50:00+01:00
 summary: "In an era of AI-generated melodies and infinite DAW power, the physical hardware sequencer has transitioned from a niche tool to a vital mental anchor for the modern producer."
 categories: ["music-production"]
-tags: ["music-production", "hardware", "sequencers", "workflow", "tactility"]
+tags: ["music-production",-"hardware",-"sequencers",-"workflow",-"tactility"]
 author: "James Myddelton"
 ---
 

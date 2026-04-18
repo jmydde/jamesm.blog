@@ -2,7 +2,7 @@
 title: "AI Agents Emergency Debate"
 date: 2025-05-12T16:27:14+01:00
 draft: false
-tags: ["ai", "job", "future-of-work"]
+tags: ["ai",-"job",-"future-of-work"]
 ---
 
 ## About

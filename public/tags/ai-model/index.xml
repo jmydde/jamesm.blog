@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ai-Model on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/ai-model/</link>
+    <description>Recent content in Ai-Model on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Apr 2026 08:45:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/ai-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released</title>
+      <link>https://jamesm.blog/ai/claude-mythos-benchmarks/</link>
+      <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-mythos-benchmarks/</guid>
+      <description>Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.</description>
+    </item>
+  </channel>
+</rss>

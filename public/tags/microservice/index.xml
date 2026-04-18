@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Microservice on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/microservice/</link>
+    <description>Recent content in Microservice on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Dec 2023 09:33:18 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/microservice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps Best Practices</title>
+      <link>https://jamesm.blog/devops/best-practices/</link>
+      <pubDate>Sat, 16 Dec 2023 09:33:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/best-practices/</guid>
+      <description>Curated collection of DevOps and system design best practices from industry experts covering microservices architecture and scalable system design.</description>
+    </item>
+  </channel>
+</rss>

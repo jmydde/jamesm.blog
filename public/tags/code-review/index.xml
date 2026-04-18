@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Code-Review on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/code-review/</link>
+    <description>Recent content in Code-Review on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Mar 2026 07:14:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/code-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code Just Got a Serious Code Review Feature</title>
+      <link>https://jamesm.blog/ai/claude-code-review/</link>
+      <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-code-review/</guid>
+      <description>&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;
+&lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in &lt;a href=&#34;https://code.claude.com/&#34;&gt;Claude Code&lt;/a&gt;, which &lt;a href=&#34;https://www.anthropic.com/&#34;&gt;Anthropic&lt;/a&gt; just released in research preview.&lt;/p&gt;
+&lt;p&gt;Docs: &lt;a href=&#34;https://code.claude.com/docs/en/code-review&#34;&gt;https://code.claude.com/docs/en/code-review&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At first glance it sounds like another &amp;ldquo;AI reviews your code&amp;rdquo; feature. We&amp;rsquo;ve had plenty of those.&lt;/p&gt;
+&lt;p&gt;But when you look closer, this one is actually quite different.&lt;/p&gt;
+&lt;p&gt;Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

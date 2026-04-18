@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 08:25:25 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:05:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/openclaw/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
-      <link>https://jamesm.blog/ai/ollama/</link>
-      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/ollama/</guid>
-      <description>A practical guide to Ollama, the platform for running large language models locally, including how to launch OpenClaw and explore its available models.</description>
-    </item>
     <item>
       <title>GitHub Is Now Officially Backing OpenClaw</title>
       <link>https://jamesm.blog/ai/github-backing-openclaw/</link>

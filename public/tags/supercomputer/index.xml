@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Supercomputer on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/supercomputer/</link>
+    <description>Recent content in Supercomputer on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Mar 2024 22:09:25 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/supercomputer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stargate</title>
+      <link>https://jamesm.blog/ai/microsoft-openai-stargate/</link>
+      <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between &lt;a href=&#34;https://www.microsoft.com/&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://group.softbank/en/&#34;&gt;SoftBank&lt;/a&gt;, and &lt;a href=&#34;https://www.oracle.com/&#34;&gt;Oracle&lt;/a&gt; to build a series of massive AI supercomputers and data centers.&lt;/p&gt;
+&lt;p&gt;Originally reported as a Microsoft-OpenAI effort, the project was expanded in January 2025 to include SoftBank&amp;rsquo;s Vision Fund and Oracle as major partners. The partnership combines OpenAI&amp;rsquo;s AI expertise, Microsoft&amp;rsquo;s cloud infrastructure and enterprise reach, SoftBank&amp;rsquo;s capital and global networks, and Oracle&amp;rsquo;s database and enterprise technology capabilities.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

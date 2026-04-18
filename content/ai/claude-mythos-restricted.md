@@ -2,7 +2,7 @@
 title: "The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power"
 date: 2026-04-08T06:12:00+01:00
 draft: false
-tags: ["ai", "anthropic", "claude mythos", "cybersecurity", "ai safety"]
+tags: ["ai",-"anthropic",-"claude-mythos",-"cybersecurity",-"ai-safety"]
 description: "Anthropic's Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI's immense power demands unprecedented control."
 ---
 

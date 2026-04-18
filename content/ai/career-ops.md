@@ -2,7 +2,7 @@
 title: "Career-Ops: Flipping the Script on AI-Powered Job Search"
 date: 2026-04-09T07:25:00+00:00
 draft: false
-tags: ["ai", "career", "automation", "job-search", "claude"]
+tags: ["ai",-"career",-"automation",-"job-search",-"claude"]
 description: "Career-Ops inverts the typical job-search power dynamic by giving candidates AI-powered tools to intelligently evaluate and prioritize opportunities, automate application workflows, and maintain strategic control over their career decisions."
 ---
 

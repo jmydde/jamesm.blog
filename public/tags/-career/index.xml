@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>-&#34;Career&#34; on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/-career/</link>
+    <description>Recent content in -&#34;Career&#34; on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Apr 2026 07:25:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/-career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Career-Ops: Flipping the Script on AI-Powered Job Search</title>
+      <link>https://jamesm.blog/ai/career-ops/</link>
+      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/career-ops/</guid>
+      <description>Career-Ops inverts the typical job-search power dynamic by giving candidates AI-powered tools to intelligently evaluate and prioritize opportunities, automate application workflows, and maintain strategic control over their career decisions.</description>
+    </item>
+    <item>
+      <title>The Architect vs The Builder: Redefining Engineering Roles in 2026</title>
+      <link>https://jamesm.blog/ai/architect-vs-builder/</link>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/architect-vs-builder/</guid>
+      <description>The traditional engineering hierarchy of junior→senior→architect is collapsing. What emerges is a cleaner, harsher split: people who decide what to build, and people who turn that decision into code.</description>
+    </item>
+  </channel>
+</rss>

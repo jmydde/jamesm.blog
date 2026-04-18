@@ -2,7 +2,7 @@
 title: "AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know"
 date: 2026-04-09T22:00:00+00:00
 draft: false
-tags: ["ai", "reliability", "testing", "llm", "agentic-engineering", "verification"]
+tags: ["ai",-"reliability",-"testing",-"llm",-"agentic-engineering",-"verification"]
 description: "Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the 'builder' is non-deterministic."
 ---
 

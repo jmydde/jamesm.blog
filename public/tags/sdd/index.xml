@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Apr 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:05:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/sdd/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spec-Driven Development: When the Brief Becomes the Product</title>
-      <link>https://jamesm.blog/ai/spec-driven-development/</link>
-      <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/spec-driven-development/</guid>
-      <description>With AI handling implementation, the specification itself becomes the product. What you&amp;#39;re really selling is clarity of thought - and the ability to write briefs that don&amp;#39;t lie.</description>
-    </item>
     <item>
       <title>What Actually Belongs in My AI Dev Stack in 2026</title>
       <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
@@ -29,25 +22,6 @@
 &lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
 &lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
 &lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
-      <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>
-      <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/github-spec-kit-2026-update/</guid>
-      <description>&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing  -  it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s what&amp;rsquo;s changed, and why you should care.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;the-big-shift-from-framework-to-platform&#34;&gt;The Big Shift: From Framework to Platform&lt;/h2&gt;
-&lt;p&gt;GitHub Spec Kit is no longer just a lightweight documentation toolkit. As of April 2026, it&amp;rsquo;s evolved into a full extensibility platform that works across the entire AI-assisted development landscape.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯</title>
-      <link>https://jamesm.blog/ai/github-spec-kit/</link>
-      <pubDate>Wed, 03 Dec 2025 13:21:14 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/github-spec-kit/</guid>
-      <description>&lt;p&gt;Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, &lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.&lt;/p&gt;
-&lt;p&gt;This post explores what GitHub Spec Kit is, how Spec-Driven Development works, and why the pairing with Cursor AI creates a genuinely new style of building software.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯</title>

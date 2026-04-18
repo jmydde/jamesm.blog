@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Concert on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/concert/</link>
+    <description>Recent content in Concert on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Jan 2026 18:53:39 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/concert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music: My Favourite Artists, Bands, DJs, Composers, Concerts &amp; Theatre</title>
+      <link>https://jamesm.blog/music-production/favourites/</link>
+      <pubDate>Thu, 08 Jan 2026 18:53:39 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/favourites/</guid>
+      <description>Personal collection of favourite music artists, bands, DJs, composers, concerts, and theatre experiences.</description>
+    </item>
+  </channel>
+</rss>

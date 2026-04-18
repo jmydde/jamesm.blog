@@ -2,7 +2,7 @@
 title: "The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground"
 date: 2026-04-09T06:01:00+01:00
 draft: false
-tags: ["retro-computing", "tape-swapping", "micro-mart", "piracy", "1980s", "underground", "bbs"]
+tags: ["retro-computing",-"tape-swapping",-"micro-mart",-"piracy",-"1980s",-"underground",-"bbs"]
 description: "How magazine classifieds, postal delivery services, and teenage traders turned the 1980s into an era of sophisticated software distribution that predated the internet."
 ---
 

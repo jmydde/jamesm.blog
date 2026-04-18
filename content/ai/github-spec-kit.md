@@ -2,7 +2,7 @@
 title: "GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯"
 date: 2025-12-03T13:21:14+01:00
 draft: false
-tags: ["ai", "github", "spec kit", "sdd", "cursor ai"]
+tags: ["ai",-"github",-"spec-kit",-"sdd",-"cursor-ai"]
 ---
 
 Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, **GitHub Spec Kit** stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.

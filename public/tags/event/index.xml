@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Event on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/event/</link>
+    <description>Recent content in Event on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Jun 2023 07:54:16 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Summit London (2023) - Agenda</title>
+      <link>https://jamesm.blog/devops/aws-summit-2023-agenda/</link>
+      <pubDate>Wed, 07 Jun 2023 07:54:16 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/aws-summit-2023-agenda/</guid>
+      <description>Complete agenda of AWS Summit London 2023 with session codes, titles, and difficulty levels for all conference presentations.</description>
+    </item>
+    <item>
+      <title>AWS Summit London (2023) - Agenda now available</title>
+      <link>https://jamesm.blog/devops/aws-summit-2023/</link>
+      <pubDate>Thu, 18 May 2023 09:54:16 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/aws-summit-2023/</guid>
+      <description>AWS Summit London 2023 announcement with agenda, keynote information, and technical session details.</description>
+    </item>
+    <item>
+      <title>List of DevOps Conferences</title>
+      <link>https://jamesm.blog/devops/devops-conferences/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/devops-conferences/</guid>
+      <description>List of major DevOps conferences and summits for learning about cloud infrastructure, operations, and industry best practices.</description>
+    </item>
+  </channel>
+</rss>

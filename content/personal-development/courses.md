@@ -2,7 +2,7 @@
 title: "List of Personal Development Courses"
 date: 2023-05-28T09:02:39+01:00
 draft: true
-tags: ["personal development", "course", "online learning", "self-improvement"]
+tags: ["personal-development",-"course",-"online-learning",-"self-improvement"]
 description: "Collection of online courses for personal development from edX, Harvard, Udemy, and other platforms."
 ---
 ## [edX](https://www.edx.org/)

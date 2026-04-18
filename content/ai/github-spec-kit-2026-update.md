@@ -2,7 +2,7 @@
 title: "GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀"
 date: 2026-04-04T21:06:14+01:00
 draft: false
-tags: ["ai", "github", "spec kit", "sdd", "cursor ai", "claude code", "2026"]
+tags: ["ai",-"github",-"spec-kit",-"sdd",-"cursor-ai",-"claude-code",-"2026"]
 ---
 
 Six months ago, we explored how [GitHub Spec Kit](/ai/github-spec-kit/) was beginning to reshape software development. In early 2026, that promise isn't just materializing  -  it's accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from "interesting idea" to actual industry standard.

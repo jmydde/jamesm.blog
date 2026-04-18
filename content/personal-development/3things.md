@@ -2,7 +2,7 @@
 title: "3 things"
 date: 2023-06-03T14:56:39+01:00
 draft: true
-tags: ["personal development", "gratitude", "daily practice"]
+tags: ["personal-development",-"gratitude",-"daily-practice"]
 description: "Daily reflection practice with three key questions for gratitude, affirmation, and intentional living."
 ---
 

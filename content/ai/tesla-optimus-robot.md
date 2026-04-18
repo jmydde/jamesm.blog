@@ -2,7 +2,7 @@
 title: "Tesla Optimus Robot"
 date: 2024-04-21T20:44:14+01:00
 draft: false
-tags: ["ai", "robotics", "tesla", "tesla bot", "optimus", "robot"]
+tags: ["ai",-"robotics",-"tesla",-"tesla-bot",-"optimus",-"robotics"]
 ---
 
 ## Overview
