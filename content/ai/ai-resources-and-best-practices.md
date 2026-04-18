@@ -1,5 +1,5 @@
 ---
-title: "Essential Resources for AI Best Practices: A Curated Guide"
+title: "The Complete AI Developer's Guide: Resources and Best Practices"
 date: 2026-04-18T08:15:00+01:00
 draft: false
 tags: ["ai", "best-practice", "learning", "resource"]
@@ -56,6 +56,21 @@ The AI field changes month-to-month. Following official documentation from model
 | [Prompt Engineering Guide](https://www.promptingguide.ai/) | Comprehensive open-source resource covering prompt engineering techniques, zero-shot learning, chain-of-thought, and advanced patterns. |
 | [Running LLMs Locally with Ollama](https://realpython.com/ollama/) | Real Python's complete guide to setting up and using Ollama for local LLM deployment, including Python integration. |
 | [Stanford AI Index Report](https://aiindex.stanford.edu/) | Annual comprehensive analysis of AI trends, capabilities, and implications for industry and society. |
+| [Claude 101](http://how-to-claude.ai) | Foundational guide to getting started with Claude and understanding core concepts. |
+| [Claude Code](http://claudecode.free) | Guide to Claude Code, Anthropic's official CLI tool for integrating Claude into development workflows. |
+| [Claude Skills](http://claude-skills.free) | Overview of Claude's specialized skills and capabilities for different use cases. |
+| [Stop Prompting: Advanced Claude Usage](https://ruben.substack.com/p/stop-prompting-claude) | Insights on moving beyond basic prompting to leverage Claude's full potential effectively. |
+| [Claude in Excel: Spreadsheet Automation](https://ruben.substack.com/p/ai-couldnt-do-excel) | Guide to integrating Claude capabilities into Excel workflows for automated data processing. |
+| [Scale with Claude: 1M Followers Strategy](https://ruben.substack.com/p/1000000how-claude.team) | Case study on building audience and scaling operations using Claude as a productivity multiplier. |
+| [Claude for Your Team](http://how-claude.team) | Guide to implementing Claude across team workflows and organizational processes. |
+| [No Prompt Saves You: Prompt-Independent Usage](https://ruben.substack.com/p/magic) | Techniques for using Claude effectively beyond traditional prompt engineering. |
+| [AI Slides: Creating Presentations with Claude](http://how-to-gamma.ai) | Guide to generating professional presentations and slides using Claude with Gamma integration. |
+| [Set Up Claude Cowork](http://claude-co.work) | Instructions for configuring Claude Cowork collaboration features for team projects. |
+| [Claude to Sound Like You: Voice and Style](https://ruben.substack.com/p/i-am-just-a-text-file) | Techniques for customizing Claude's output to match your personal voice and writing style. |
+| [Claude Interactive Charts](https://ruben.substack.com/p/claude-charts) | Guide to generating interactive visualizations and charts using Claude. |
+| [Claude as Your Computer: Automation Guide](https://ruben.substack.com/p/claude-computer) | Practical guide to using Claude for computer task automation and workflow optimization. |
+| [Claude Cowork + Project Management](https://ruben.substack.com/p/claude-cowork-project) | Integrating Claude Cowork features with project management systems and workflows. |
+| [Set Up AI Before Prompting: Preparation Guide](https://ruben.substack.com/p/how-to-better-use-ai-before-prompting) | Best practices for preparing your setup and environment before interacting with Claude. |
 
 ## Next Steps
 
