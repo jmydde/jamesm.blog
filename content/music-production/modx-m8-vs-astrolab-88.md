@@ -2,7 +2,7 @@
 title: "Yamaha MODX M8 vs Arturia AstroLab 88"
 date: 2025-12-16T21:47:21+01:00
 draft: false
-tags: ['yamaha', 'synths', 'arturia', 'astrolab', 'modx', 'pianos', 'keyboards']
+tags: ['yamaha', 'synth', 'arturia', 'astrolab', 'modx', 'pianos', 'keyboard']
 ---
 
 ## Overview

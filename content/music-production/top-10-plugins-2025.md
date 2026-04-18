@@ -2,7 +2,7 @@
 title: "Top 10 Plugins of 2025"
 date: 2025-12-02T09:29:21+01:00
 draft: false
-tags: ['plugins', 'top 10']
+tags: ['plugin', 'top 10']
 ---
 
 ## My Top 10 Plugins of 2025!

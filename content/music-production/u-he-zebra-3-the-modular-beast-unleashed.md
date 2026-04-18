@@ -2,7 +2,7 @@
 title: "u-he Zebra 3: The Modular Beast Unleashed"
 date: 2026-04-09T22:46:00+00:00
 draft: false
-tags: ["synths", "software synths", "sound design", "music production", "u-he", "zebra3"]
+tags: ["synth", "software synths", "sound design", "music production", "u-he", "zebra3"]
 description: "Exploring the highly anticipated u-he Zebra 3, a modular soft synth that redefines sound design with its unparalleled flexibility and sonic depth."
 ---
 

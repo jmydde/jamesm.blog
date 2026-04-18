@@ -2,7 +2,7 @@
 title: "List of Personal Development Books"
 date: 2023-05-28T09:02:39+01:00
 draft: false
-tags: ["personal development", "books", "self-improvement", "learning"]
+tags: ["personal development", "book", "self-improvement", "learning"]
 description: "Recommended reading list of personal development and self-improvement books covering mental models, habits, and success."
 ---
 ## Books

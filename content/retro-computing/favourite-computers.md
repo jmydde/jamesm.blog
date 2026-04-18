@@ -2,7 +2,7 @@
 title: "Favourite Computers, Consoles & Mobiles"
 date: 2024-07-29T07:50:01+01:00
 draft: false
-tags: ['computing', 'software', 'gaming', 'phones', 'pcs', 'computers', 'retro']
+tags: ['computing', 'software', 'gaming', 'phone', 'pc', 'computer', 'retro']
 description: "Personal history and collection of favourite computers, gaming consoles, and mobile devices from the 1970s to present day."
 ---
 

@@ -2,7 +2,7 @@
 title: "ETL Tools & Data Integration Platforms"
 date: 2021-01-01T06:51:25+01:00
 draft: false
-tags: ['abinitio', 'aws', 'azure', 'data', 'etl', 'data-integration', 'data-pipelines', 'tools']
+tags: ['abinitio', 'aws', 'azure', 'data', 'etl', 'data-integration', 'data-pipelines', 'tool']
 ---
 
 ## What is ETL?

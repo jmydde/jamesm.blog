@@ -2,7 +2,7 @@
 title: "Arturia Pigments 7"
 date: 2025-12-17T21:47:21+01:00
 draft: false
-tags: ['pigments', 'synths', 'arturia']
+tags: ['pigments', 'synth', 'arturia']
 ---
 
 # Arturia Pigments 7  -  A Sonic Canvas for the Modern Creator

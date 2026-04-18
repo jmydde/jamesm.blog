@@ -2,7 +2,7 @@
 title: "Music: My Favourite Artists, Bands, DJs, Composers, Concerts & Theatre"
 date: 2026-01-08T18:53:39+01:00
 draft: false
-tags: ['music', 'artists', 'bands', 'dj', 'composers', 'concerts', 'entertainment']
+tags: ['music', 'artist', 'band', 'dj', 'composer', 'concert', 'entertainment']
 description: "Personal collection of favourite music artists, bands, DJs, composers, concerts, and theatre experiences."
 ---
 

@@ -2,7 +2,7 @@
 title: "List of Personal Development Videos"
 date: 2023-05-28T09:02:39+01:00
 draft: false
-tags: ["personal development", "youtube", "videos", "motivation", "self-improvement"]
+tags: ["personal development", "youtube", "video", "motivation", "self-improvement"]
 description: "Curated list of YouTube channels and creators focused on personal development, motivation, and self-improvement."
 ---
 ## [Absolute Motivation](https://www.youtube.com/channel/UCpmZQGTZXn9xd4nN59pbIWQ/)

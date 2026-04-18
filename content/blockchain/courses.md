@@ -2,7 +2,7 @@
 title: "Blockchain & Web3 Courses"
 date: 2021-05-28T11:51:18+01:00
 draft: false
-tags: ['bitcoin', 'blockchain', 'courses', 'crypto', 'polkadot', 'training', 'web3', 'education', 'learning']
+tags: ['bitcoin', 'blockchain', 'course', 'crypto', 'polkadot', 'training', 'web3', 'education', 'learning']
 ---
 
 ## Overview

@@ -2,7 +2,7 @@
 title: "Favourite Museums"
 date: 2024-09-22T12:57:01+00:00
 draft: false
-tags: ['computing', 'technology', 'museums', 'history', 'heritage', 'science']
+tags: ['computing', 'technology', 'museum', 'history', 'heritage', 'science']
 description: "Personal list of favourite museums, particularly focused on computing, technology and natural history."
 ---
 

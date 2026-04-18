@@ -2,7 +2,7 @@
 title: "Blockchain & Crypto Resources"
 date: 2023-12-01T13:30:39+01:00
 draft: false
-tags: ['web3', 'youtube', 'blockchain', 'resources', 'cryptocurrency', 'education']
+tags: ['web3', 'youtube', 'blockchain', 'resource', 'cryptocurrency', 'education']
 ---
 
 ## Curated YouTube Channels

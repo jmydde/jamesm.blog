@@ -2,7 +2,7 @@
 title: "Music Production: Mobile Apps"
 date: 2024-01-28T09:15:00+00:00
 draft: false
-tags: ['ableton', 'apps', 'iphone', 'modartt']
+tags: ['ableton', 'app', 'iphone', 'modartt']
 ---
 
 # iPad & iPhone Apps

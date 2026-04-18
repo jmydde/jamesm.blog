@@ -2,7 +2,7 @@
 title: "Roland Juno‑X Review: A Modern Reinterpretation of a Classic Synth"
 date: 2026-01-22T21:42:21+01:00
 draft: false
-tags: ['synths', 'roland', 'juno-x', 'music production', 'synthesizers']
+tags: ['synth', 'roland', 'juno-x', 'music production', 'synthesizers']
 ---
 
 # Roland Juno‑X Review: A Modern Reinterpretation of a Classic Synth

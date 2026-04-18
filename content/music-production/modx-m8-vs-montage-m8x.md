@@ -2,7 +2,7 @@
 title: "Yamaha MODX M8 vs Yamaha Montage M8X"
 date: 2025-12-05T11:58:21+01:00
 draft: false
-tags: ['yamaha', 'synths', 'montage', 'modx', 'pianos', 'keyboards']
+tags: ['yamaha', 'synth', 'montage', 'modx', 'pianos', 'keyboard']
 description: "Detailed comparison between Yamaha MODX M8 and Montage M8X synthesizer workstations."
 ---
 

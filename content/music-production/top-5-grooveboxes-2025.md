@@ -2,7 +2,7 @@
 title: "Top 5 Grooveboxes of 2025"
 date: 2025-12-26T18:47:21+01:00
 draft: false
-tags: ['music production', 'grooveboxes']
+tags: ['music production', 'groovebox']
 ---
 
 Grooveboxes are island universes of music creation  -  sequencing, sampling, synthesis, and performance all in a single box. They let you sketch ideas, build full tracks, jam live, and take your studio wherever you want. In 2025, they’re more powerful and diverse than ever.([musicradar.com](https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com))

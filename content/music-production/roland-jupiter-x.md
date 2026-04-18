@@ -2,7 +2,7 @@
 title: "Roland Jupiter‑X Review: A Workstation‑Level Synth with Legendary Sound"
 date: 2026-01-22T22:31:21+01:00
 draft: false
-tags: ['synths', 'roland', 'jupiter-x', 'music production', 'synthesizers']
+tags: ['synth', 'roland', 'jupiter-x', 'music production', 'synthesizers']
 ---
 
 The **Roland Jupiter‑X** is one of Roland’s most ambitious synthesizers, combining classic analog-inspired tones with advanced digital synthesis and modern performance features. Designed for musicians, producers, and live performers, it offers the sonic breadth of vintage instruments while providing hands-on control and studio-ready flexibility. As of January 2026 in the UK, the Jupiter‑X typically retails around **£2,155 at Andertons Music Co.**

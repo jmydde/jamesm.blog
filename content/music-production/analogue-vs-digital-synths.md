@@ -2,7 +2,7 @@
 title: "Music Production: Analogue vs Digital Synths"
 date: 2024-04-20T06:59:00+00:00
 draft: false
-tags: ['analogue', 'digital', 'synths']
+tags: ['analogue', 'digital', 'synth']
 ---
 
 ## Overview

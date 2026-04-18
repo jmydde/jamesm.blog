@@ -2,7 +2,7 @@
 title: "When Circuits Go Public: Patents, Copyright, and the Rise of Clone Synths"
 date: 2026-02-08T21:07:21+01:00
 draft: false
-tags: ['synths', 'hardware synths', 'analog synths', 'patents', 'copyright', 'behringer', 'moog']
+tags: ['synth', 'hardware synths', 'analog synths', 'patents', 'copyright', 'behringer', 'moog']
 ---
 
 If you’ve ever compared a Behringer Model D or Poly D to a classic Moog, you might have thought: *“Wait… that looks exactly like a Minimoog!”* Yet somehow, Behringer isn’t breaking any laws. How does that work? The answer lies in the fascinating intersection of patents, copyright, trademarks, and trade dress - the legal forces that shape hardware synth design.

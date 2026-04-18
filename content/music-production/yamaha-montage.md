@@ -2,7 +2,7 @@
 title: "Yamaha Montage M"
 date: 2024-06-16T08:29:21+01:00
 draft: false
-tags: ['yamaha', 'montage', 'montage m', 'synths', 'synthesizers', 'workstations']
+tags: ['yamaha', 'montage', 'montage m', 'synth', 'synthesizers', 'workstations']
 ---
 
 ![alt](/images/Yamaha-Montage-M.jpg)

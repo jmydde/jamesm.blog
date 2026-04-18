@@ -2,7 +2,7 @@
 title: "Why I Play & Create Music Intuitively"
 date: 2026-01-07T23:35:21+01:00
 draft: false
-tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'inspiration', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synths']
+tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'inspiration', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synth']
 ---
 
 *Playing by ear - discovering by accident*

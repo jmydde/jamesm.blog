@@ -2,7 +2,7 @@
 title: "Data Engineering Blogs"
 date: 2026-04-05T20:00:00+01:00
 draft: false
-tags: ["data engineering", "blogs", "data", "etl", "big data"]
+tags: ["data engineering", "blog", "data", "etl", "big data"]
 description: "Curated list of Data Engineering blogs covering ETL/ELT, data warehousing, orchestration, and modern data stack best practices."
 ---
 

@@ -2,7 +2,7 @@
 title: "Private Keys in Cryptocurrency"
 date: 2023-06-23T13:30:39+01:00
 draft: false
-tags: ['bitcoin', 'andreas antonopoulos', 'private keys', 'cryptographic', 'cryptography', 'encryption', 'asymmetric', 'decryption', 'crypto', 'wallets', 'security']
+tags: ['bitcoin', 'andreas antonopoulos', 'private keys', 'cryptographic', 'cryptography', 'encryption', 'asymmetric', 'decryption', 'crypto', 'wallet', 'security']
 ---
 
 ## What Are Private Keys?
