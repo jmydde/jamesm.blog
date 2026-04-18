@@ -314,10 +314,10 @@
     <loc>https://jamesm.blog/tags/cloud/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/s3/</loc>
@@ -2177,6 +2177,15 @@
     <loc>https://jamesm.blog/tags/event/</loc>
     <lastmod>2023-06-07T07:54:16+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/personal-development/3things/</loc>
+    <lastmod>2023-06-03T14:56:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/daily-practice/</loc>
+    <lastmod>2023-06-03T14:56:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/gratitude/</loc>
+    <lastmod>2023-06-03T14:56:39+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/fx/</loc>
     <lastmod>2023-06-02T09:53:39+01:00</lastmod>
   </url><url>
@@ -2264,9 +2273,6 @@
     <loc>https://jamesm.blog/tags/whitepaper/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/-book/</loc>
-    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/-motivation/</loc>
     <lastmod>2023-05-28T09:02:39+01:00</lastmod>
   </url><url>
@@ -2274,6 +2280,9 @@
     <lastmod>2023-05-28T09:02:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/-youtube/</loc>
+    <lastmod>2023-05-28T09:02:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/book/</loc>
     <lastmod>2023-05-28T09:02:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/personal-development/books/</loc>
@@ -2397,9 +2406,6 @@
     <lastmod>2023-05-10T14:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/bash/</loc>
-    <lastmod>2023-04-21T23:07:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/book/</loc>
     <lastmod>2023-04-21T23:07:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/books/</loc>

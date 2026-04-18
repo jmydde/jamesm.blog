@@ -3,7 +3,10 @@ title: "My Tracks"
 date: 2025-12-05T12:28:21+01:00
 draft: false
 tags: ['soundcloud', 'music']
+description: "A collection of electronic and ambient music tracks, including original compositions and remixes."
 ---
+
+A selection of my music production work spanning various genres and styles. These tracks explore themes of ambient soundscapes, electronic textures, and atmospheric production.
 
 {{< soundcloud "https://soundcloud.com/jamesm/falling-into-light" >}}
 
