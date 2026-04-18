@@ -1,12 +1,12 @@
 ---
 title: "Which Mac Studio Should You Buy for Running LLMs Locally?"
-date: 2026-04-18T14:00:00+01:00
+date: 2026-04-18T07:22:00+01:00
 draft: false
 tags: ["ai", "apple-silicon", "llm", "mac-studio", "inference", "local-llm", "qwen", "llama"]
 description: "A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense."
 ---
 
-You want to run large language models locally on a Mac Studio. Good idea—unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what "works" versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
+You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what "works" versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
 
 ## Memory requirements: which model fits your Mac?
 
@@ -52,7 +52,7 @@ Mac Studio sits in an interesting middle ground.
 - Memory bandwidth is genuinely strong (800+ GB/s on Ultra variants)
 
 **What's limiting:**
-- Not CUDA—you're stuck with Metal backend or custom implementations
+- Not CUDA - you're stuck with Metal backend or custom implementations
 - Raw compute is lower than high-end GPUs
 - Generation speed is memory-bound, and that bandwidth matters more than raw TFLOPs
 
@@ -62,7 +62,7 @@ This means Mac Studio doesn't compete with a gaming GPU rig on tokens/second, bu
 
 Here's what actually runs well on each Mac, with realistic token speeds.
 
-### M2 Max (32–64 GB) — Budget entry point
+### M2 Max (32–64 GB) - Budget entry point
 
 **What runs well:**
 - LLaMA 3 7B–13B: ✅ excellent (25–40 tok/s)
@@ -74,7 +74,7 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 
 **Verdict:** Perfect for small–medium models. Skip if you want 30B+ class models.
 
-### M2 Ultra (64–128 GB) — The sweet spot
+### M2 Ultra (64–128 GB) - The sweet spot
 
 **What runs well:**
 - LLaMA 3 7B–13B: ✅ excellent (30–45 tok/s)
@@ -88,7 +88,7 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 
 **When to buy:** You want proper performance on 30B+ models without overspending. Excellent refurbished market (these age well).
 
-### M3 Ultra (96–256 GB) — No compromises
+### M3 Ultra (96–256 GB) - No compromises
 
 **What runs well:**
 - All medium models: 🚀 excellent (35–50+ tok/s)
@@ -100,7 +100,7 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 
 **When to buy:** You're serious about local AI. You want to run large models, experiment with different ones, or handle long contexts (32K+).
 
-### M4 Max (36–128 GB) — The confusing option
+### M4 Max (36–128 GB) - The confusing option
 
 **Critical limitation:** Only 410–546 GB/s bandwidth vs 800+ on Ultra chips.
 
