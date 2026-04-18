@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Declarative-Pipeline on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/declarative-pipeline/</link>
+    <description>Recent content in Declarative-Pipeline on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Apr 2026 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/declarative-pipeline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lakeflow Declarative Pipelines: From DLT to Production</title>
+      <link>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</link>
+      <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</guid>
+      <description>From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026.</description>
+    </item>
+  </channel>
+</rss>

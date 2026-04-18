@@ -32,73 +32,7 @@
       <link>https://jamesm.blog/data-engineering/data-engineering-science-courses/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/data-engineering-science-courses/</guid>
-      <description>&lt;h2 id=&#34;how-to-use-this-guide&#34;&gt;How to Use This Guide&lt;/h2&gt;
-&lt;p&gt;This curated list covers courses from beginner to advanced levels across multiple platforms. Choose based on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Your role&lt;/strong&gt;: Data Engineer, Data Analyst, or Data Scientist&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learning style&lt;/strong&gt;: Self-paced courses, specializations, or nanodegrees&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Timeline&lt;/strong&gt;: Single courses (weeks) vs. comprehensive programs (months)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hands-on practice&lt;/strong&gt;: Most include projects and real-world scenarios&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cloud platform&lt;/strong&gt;: AWS, GCP, Azure, or multi-cloud approaches&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;data-engineering&#34;&gt;Data Engineering&lt;/h2&gt;
-&lt;h3 id=&#34;professional-certificates-industry-backed&#34;&gt;Professional Certificates (Industry-Backed)&lt;/h3&gt;
-&lt;p&gt;Best for: Structured learning with recognized credentials&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ETL Tools &amp; Data Integration Platforms</title>
-      <link>https://jamesm.blog/data-engineering/etl-tools/</link>
-      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
-      <description>&lt;h2 id=&#34;what-is-etl&#34;&gt;What is ETL?&lt;/h2&gt;
-&lt;p&gt;ETL is a foundational data engineering process:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Extract&lt;/strong&gt; - Retrieve data from various sources (databases, APIs, files, cloud services)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transform&lt;/strong&gt; - Clean, validate, and reshape data into required data models&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Load&lt;/strong&gt; - Move processed data into data warehouses, data lakes, or analytical systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;ETL ensures data quality, consistency, and accessibility for analytics and reporting.&lt;/p&gt;
-&lt;h2 id=&#34;cloud-native-etl-platforms&#34;&gt;Cloud-Native ETL Platforms&lt;/h2&gt;
-&lt;h3 id=&#34;aws&#34;&gt;AWS&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/glue/&#34;&gt;AWS Glue&lt;/a&gt; - Serverless ETL service with visual job editor and PySpark/Scala support. Best for AWS-native workloads&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/datapipeline/&#34;&gt;AWS Data Pipeline&lt;/a&gt; - Orchestration service for workflow automation and scheduling&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;azure&#34;&gt;Azure&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/azure/data-factory/&#34;&gt;Azure Data Factory&lt;/a&gt; - Hybrid data integration service for both cloud and on-premises. Visual pipeline builder with 90+ connectors&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;google-cloud&#34;&gt;Google Cloud&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/dataflow&#34;&gt;Google Cloud Dataflow&lt;/a&gt; - Serverless, fully managed data processing (Apache Beam). Excellent for both batch and streaming pipelines&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;enterprise--legacy-etl-tools&#34;&gt;Enterprise &amp;amp; Legacy ETL Tools&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.abinitio.com/&#34;&gt;Ab Initio&lt;/a&gt; - Enterprise-grade platform for large-scale data integration. Strong in financial services and manufacturing&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ibm.com/products/datastage&#34;&gt;Datastage&lt;/a&gt; - IBM&amp;rsquo;s flagship ETL tool with robust enterprise features and governance capabilities&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.informatica.com/&#34;&gt;Informatica&lt;/a&gt; - Market leader in enterprise data integration with comprehensive MDM and cloud integration capabilities&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.talend.com/&#34;&gt;Talend&lt;/a&gt; - Open-source based platform with cloud-native options. Strong in real-time data integration&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sap.com/products/technology-platform/data-services.html&#34;&gt;SAP Data Services&lt;/a&gt; - SAP ecosystem integration and enterprise data quality&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;modern--low-code-platforms&#34;&gt;Modern &amp;amp; Low-Code Platforms&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.matillion.com/&#34;&gt;Matillion&lt;/a&gt; - Cloud-first platform for data warehouse automation. Native integrations with Snowflake, Databricks, and Redshift&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cloverdx.com/&#34;&gt;CloverDX&lt;/a&gt; - Low-code integration platform with strong data quality capabilities&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.qlik.com/us/products/qlik-compose-data-warehouses&#34;&gt;Qlik Compose&lt;/a&gt; - Data warehouse automation for cloud platforms&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.hitachivantara.com/Documentation/Pentaho/8.3/Products/Pentaho_Data_Integration&#34;&gt;Pentaho Data Integration (PDI)&lt;/a&gt; - Open-source ETL with visual job designer&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;cloud-integration--saas-platforms&#34;&gt;Cloud Integration &amp;amp; SaaS Platforms&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://hevodata.com/&#34;&gt;Hevo&lt;/a&gt; - No-code data pipeline platform. 150+ pre-built connectors with automatic schema updates&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.integrate.io/&#34;&gt;Integrate&lt;/a&gt; - iPaaS platform for connecting cloud and on-premises systems&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.stitchdata.com/&#34;&gt;Stitch&lt;/a&gt; - Data integration platform focused on simplicity and rapid deployment&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;microsoft-stack&#34;&gt;Microsoft Stack&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services/&#34;&gt;SQL Server Integration Services (SSIS)&lt;/a&gt; - Integrated with SQL Server and Azure ecosystem. Excellent for Windows-based enterprises&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;choosing-your-etl-tool&#34;&gt;Choosing Your ETL Tool&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Consider these factors:&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>Comprehensive curated list of data engineering and data science courses from Coursera, DataCamp, A Cloud Guru, Udacity, Google Cloud, and other platforms with learning paths and certifications.</description>
     </item>
   </channel>
 </rss>

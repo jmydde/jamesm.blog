@@ -1,10 +1,9 @@
 ---
 title: "Following the Money: Databricks vs Snowflake vs the Open-Source Alternative"
 date: 2026-04-08T07:40:00+01:00
-summary: "A deep dive into the shifting economics of the data landscape in 2026. Why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack actually saves you money."
-categories: ["data-engineering"]
-tags: ["databricks","snowflake","open-source","data-engineering","iceberg","economics"]
-author: "James Myddelton"
+draft: false
+tags: ["databricks", "snowflake", "open-source", "data-engineering", "iceberg", "economics"]
+description: "Deep dive into the shifting economics of the data landscape in 2026: why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack saves money."
 ---
 
 In 2026, the technical gap between Databricks and Snowflake has narrowed to a sliver. Both offer world-class serverless compute, both support Iceberg/Delta as first-class citizens, and both have integrated AI agents that can write SQL better than your average intern. 

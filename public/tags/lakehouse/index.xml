@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 07:11:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/lakehouse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure</title>
+      <link>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</guid>
+      <description>Snowflake Storage for Apache Iceberg is now available on AWS and Azure, enabling enterprise-grade reliability and governance for open data formats while breaking vendor lock-in.</description>
+    </item>
     <item>
       <title>Unity Catalog in Practice: Lessons From the Field</title>
       <link>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</link>

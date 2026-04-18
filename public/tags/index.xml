@@ -119,31 +119,31 @@
       <description></description>
     </item>
     <item>
-      <title>Data-Engineering</title>
+      <title>Data Engineering</title>
       <link>https://jamesm.blog/tags/data-engineering/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>Data-Lakehouse</title>
-      <link>https://jamesm.blog/tags/data-lakehouse/</link>
-      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-lakehouse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Science</title>
+      <title>Data Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
-      <title>Open-Data-Format</title>
-      <link>https://jamesm.blog/tags/open-data-format/</link>
+      <title>Lakehouse</title>
+      <link>https://jamesm.blog/tags/lakehouse/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/open-data-format/</guid>
+      <guid>https://jamesm.blog/tags/lakehouse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://jamesm.blog/tags/open-source/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
@@ -217,7 +217,7 @@
       <description></description>
     </item>
     <item>
-      <title>Sound Design</title>
+      <title>Sound-Design</title>
       <link>https://jamesm.blog/tags/sound-design/</link>
       <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sound-design/</guid>
@@ -434,13 +434,6 @@
       <description></description>
     </item>
     <item>
-      <title>Open-Source</title>
-      <link>https://jamesm.blog/tags/open-source/</link>
-      <pubDate>Thu, 09 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/open-source/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Action</title>
       <link>https://jamesm.blog/tags/action/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
@@ -462,7 +455,7 @@
       <description></description>
     </item>
     <item>
-      <title>Life Purpose</title>
+      <title>Life-Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
@@ -525,7 +518,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -1316,14 +1309,14 @@
       <description></description>
     </item>
     <item>
-      <title>Claude Code</title>
+      <title>Claude-Code</title>
       <link>https://jamesm.blog/tags/claude-code/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/claude-code/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cursor Ai</title>
+      <title>Cursor-Ai</title>
       <link>https://jamesm.blog/tags/cursor-ai/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor-ai/</guid>
@@ -1407,10 +1400,10 @@
       <description></description>
     </item>
     <item>
-      <title>Declarative Pipelines</title>
-      <link>https://jamesm.blog/tags/declarative-pipelines/</link>
+      <title>Declarative-Pipeline</title>
+      <link>https://jamesm.blog/tags/declarative-pipeline/</link>
       <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/declarative-pipelines/</guid>
+      <guid>https://jamesm.blog/tags/declarative-pipeline/</guid>
       <description></description>
     </item>
     <item>
@@ -1439,13 +1432,6 @@
       <link>https://jamesm.blog/tags/governance/</link>
       <pubDate>Sun, 05 Apr 2026 14:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/governance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lakehouse</title>
-      <link>https://jamesm.blog/tags/lakehouse/</link>
-      <pubDate>Sun, 05 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/lakehouse/</guid>
       <description></description>
     </item>
     <item>
@@ -1575,10 +1561,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cloud-Certifications</title>
-      <link>https://jamesm.blog/tags/cloud-certifications/</link>
+      <title>Cloud-Certification</title>
+      <link>https://jamesm.blog/tags/cloud-certification/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/cloud-certifications/</guid>
+      <guid>https://jamesm.blog/tags/cloud-certification/</guid>
       <description></description>
     </item>
     <item>
@@ -1610,7 +1596,7 @@
       <description></description>
     </item>
     <item>
-      <title>Deep Learning</title>
+      <title>Deep-Learning</title>
       <link>https://jamesm.blog/tags/deep-learning/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/deep-learning/</guid>
@@ -3833,27 +3819,6 @@
       <link>https://jamesm.blog/tags/tutorial/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Abinitio</title>
-      <link>https://jamesm.blog/tags/abinitio/</link>
-      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/abinitio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Integration</title>
-      <link>https://jamesm.blog/tags/data-integration/</link>
-      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-integration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Pipelines</title>
-      <link>https://jamesm.blog/tags/data-pipelines/</link>
-      <pubDate>Fri, 01 Jan 2021 06:51:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-pipelines/</guid>
       <description></description>
     </item>
     <item>

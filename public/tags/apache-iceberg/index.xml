@@ -18,7 +18,7 @@
       <link>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</guid>
-      <description>Snowflake Storage for Apache Iceberg is now available on AWS and Azure, enabling enterprise-grade reliability and governance for open data formats. Explore what this means for modern data architectures.</description>
+      <description>Snowflake Storage for Apache Iceberg is now available on AWS and Azure, enabling enterprise-grade reliability and governance for open data formats while breaking vendor lock-in.</description>
     </item>
   </channel>
 </rss>
