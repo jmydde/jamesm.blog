@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 08:15:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://jamesm.blog/tags/ai/</link>
+      <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best Practice</title>
+      <link>https://jamesm.blog/tags/best-practice/</link>
+      <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/best-practice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>https://jamesm.blog/tags/learning/</link>
+      <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resource</title>
+      <link>https://jamesm.blog/tags/resource/</link>
+      <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/resource/</guid>
+      <description></description>
+    </item>
     <item>
       <title>-&#34;Apple-Silicon&#34;</title>
       <link>https://jamesm.blog/tags/-apple-silicon/</link>
@@ -63,13 +91,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>-&#34;Apache-Iceberg&#34;</title>
       <link>https://jamesm.blog/tags/-apache-iceberg/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
@@ -112,14 +133,14 @@
       <description></description>
     </item>
     <item>
-      <title>Data Engineering</title>
+      <title>Data-Engineering</title>
       <link>https://jamesm.blog/tags/data-engineering/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
+      <title>Data-Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
@@ -469,13 +490,6 @@
       <description></description>
     </item>
     <item>
-      <title>Learning</title>
-      <link>https://jamesm.blog/tags/learning/</link>
-      <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/learning/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Life Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
@@ -539,7 +553,7 @@
       <description></description>
     </item>
     <item>
-      <title>Aws</title>
+      <title>AWS</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -553,7 +567,7 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -1442,7 +1456,7 @@
       <description></description>
     </item>
     <item>
-      <title>Claude-Code</title>
+      <title>Claude Code</title>
       <link>https://jamesm.blog/tags/claude-code/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/claude-code/</guid>
@@ -3577,13 +3591,6 @@
       <description></description>
     </item>
     <item>
-      <title>Best Practice</title>
-      <link>https://jamesm.blog/tags/best-practice/</link>
-      <pubDate>Sat, 16 Dec 2023 09:33:18 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/best-practice/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Microservice</title>
       <link>https://jamesm.blog/tags/microservice/</link>
       <pubDate>Sat, 16 Dec 2023 09:33:18 +0100</pubDate>
@@ -3651,13 +3658,6 @@
       <link>https://jamesm.blog/tags/vsts/</link>
       <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
       <guid>https://jamesm.blog/tags/vsts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Resource</title>
-      <link>https://jamesm.blog/tags/resource/</link>
-      <pubDate>Fri, 01 Dec 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/resource/</guid>
       <description></description>
     </item>
     <item>

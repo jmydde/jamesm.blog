@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 08:15:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Essential Resources for AI Best Practices: A Curated Guide</title>
+      <link>https://jamesm.blog/ai/ai-best-practices-resources/</link>
+      <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-best-practices-resources/</guid>
+      <description>A comprehensive guide to the best resources and practices for working effectively with AI models, from prompt engineering to system design.</description>
+    </item>
     <item>
       <title>Which Mac Studio Should You Buy for Running LLMs Locally?</title>
       <link>https://jamesm.blog/ai/mac-studio-local-llm-guide/</link>
