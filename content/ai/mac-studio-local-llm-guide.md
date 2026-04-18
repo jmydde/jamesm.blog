@@ -4,6 +4,9 @@ date: 2026-04-18T07:22:00+01:00
 draft: false
 tags: ["ai", "apple-silicon", "llm", "mac-studio", "inference", "local-llm", "qwen", "llama"]
 description: "A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense."
+cover:
+  image: images/mac-studio-llms.jpg
+  alt: Mac Studio LLMs Icon
 ---
 
 You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what "works" versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.

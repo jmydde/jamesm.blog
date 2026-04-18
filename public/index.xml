@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:11:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 07:22:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Which Mac Studio Should You Buy for Running LLMs Locally?</title>
+      <link>https://jamesm.blog/ai/mac-studio-local-llm-guide/</link>
+      <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mac-studio-local-llm-guide/</guid>
+      <description>A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense.</description>
+    </item>
     <item>
       <title>Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure</title>
       <link>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</link>

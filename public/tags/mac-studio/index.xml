@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mac-Studio on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/mac-studio/</link>
+    <description>Recent content in Mac-Studio on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Apr 2026 07:22:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/mac-studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Which Mac Studio Should You Buy for Running LLMs Locally?</title>
+      <link>https://jamesm.blog/ai/mac-studio-local-llm-guide/</link>
+      <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mac-studio-local-llm-guide/</guid>
+      <description>A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense.</description>
+    </item>
+  </channel>
+</rss>

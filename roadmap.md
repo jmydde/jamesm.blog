@@ -63,6 +63,9 @@ Recent coverage shows: strong AI (Claude models, reliability articles), solid mu
 - ⏳ `explainer` **Prompt Caching: The Quiet Performance Win for LLM Applications**
 - ⏳ `explainer` **Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful**
 - ⏳ `explainer` **The GPU Lottery: Why You Can't Just 'Scale Up' AI Anymore**
+- ⏳ `explainer` **Cost Optimization for LLM Applications: Token Budgets That Actually Work**
+- ⏳ `explainer` **Common LLM Failure Modes Beyond Hallucinations**
+- ⏳ `explainer` **Evaluating AI Systems in Production: Metrics That Matter**
 - ✅ `explainer` **Structured Outputs: When Your AI Needs to Follow a Schema**
 
 #### Opinionated Comparisons
@@ -97,6 +100,7 @@ Recent coverage shows: strong AI (Claude models, reliability articles), solid mu
 - ⏳ `explainer` **Arrangement Is 90% Of The Track: The Most Underrated Skill**
 - ✅ `explainer` **Introduction to Modular Synthesis: The Building Blocks**
 - ⏳ `explainer` **Eurorack Fundamentals: Format, Power, and Signal Flow**
+- ⏳ `explainer` **Synthesis vs Sampling: Choosing Your Primary Creative Tool**
 
 #### Opinionated Comparisons
 
@@ -105,6 +109,7 @@ Recent coverage shows: strong AI (Claude models, reliability articles), solid mu
 - ⏳ `comparison` **Real-Time AI Effects: Processing with Models vs Traditional DSP**
 - ⏳ `comparison` **DIY vs Commercial: When to Build vs Buy**
 - ⏳ `comparison` **Modular vs Fixed Architecture: When Limited Is More Creative**
+- ⏳ `comparison` **When to Skip AI Generation in Music Production**
 
 #### Field Notes / 2026 Updates
 
@@ -113,6 +118,8 @@ Recent coverage shows: strong AI (Claude models, reliability articles), solid mu
 - ⏳ `field-note` **Ableton + Max for Live in 2026: What's Actually New**
 - ⏳ `field-note` **Mobile Music Production: Current Controller + iPad Combinations**
 - ⏳ `field-note` **Why Some Instruments Make You Finish Tracks and Others Just Make You Browse Presets**
+- ⏳ `field-note` **Building a Sustainable Sample Library: Organization, Sourcing, and Legal**
+- ⏳ `field-note` **Hardware Reliability for Live Performance: What Actually Fails on Tour**
 - ✅ `field-note` **u-he Zebra 3: The Modular Beast Unleashed**
 
 #### Resource Hubs
@@ -138,6 +145,8 @@ Recent coverage shows: strong AI (Claude models, reliability articles), solid mu
 - ⏳ `explainer` **Real-Time Data Processing: Stream Processing vs Batch Processing**
 - ⏳ `explainer` **Data Governance in the Age of AI: Ensuring Data Quality and Compliance**
 - ⏳ `explainer` **The Role of Data Engineering in Machine Learning Pipelines**
+- ⏳ `explainer` **Data Platform Cost Optimization: Where the Money Actually Goes**
+- ⏳ `explainer` **Data Observability in 2026: Beyond Monitoring Into Understanding**
 
 #### Opinionated Comparisons
 
@@ -150,6 +159,7 @@ Recent coverage shows: strong AI (Claude models, reliability articles), solid mu
 - ⏳ `field-note` **Lakeflow Declarative Pipelines: From DLT to Production**
 - ⏳ `field-note` **Modern Data Engineering on Databricks (2026 Guide)**
 - ⏳ `field-note` **Databricks Training and Certification: What's Actually Worth It**
+- ⏳ `field-note` **From Warehouse to Lakehouse: Migration Patterns That Reduce Risk**
 
 #### Resource Hubs
 
@@ -162,6 +172,9 @@ Recent coverage shows: strong AI (Claude models, reliability articles), solid mu
 - ⏳ `Data + AI` `explainer` **Why AI Systems Need Data Governance Before Better Models**
 - ⏳ `AI + Retro/Creative Tech` `explainer` **Constraint Is a Feature**
 - ⏳ `AI + Music + Retro` `field-note` **Tools Change, Taste Doesn't**
+- ⏳ `Data + AI` `field-note` **dbt + AI: Keeping Data Pipelines Intelligent and Observable**
+- ⏳ `Data + Music` `explainer` **Using Music Composition Principles to Structure Data Pipelines**
+- ⏳ `AI + Music + Software Engineering` `field-note` **Why Great Artists and Great Engineers Think the Same Way**
 
 ## Secondary Backlog
 
