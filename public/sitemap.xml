@@ -68,10 +68,10 @@
     <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
+    <loc>https://jamesm.blog/tags/data-lakehouse/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-lakehouse/</loc>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/open-data-format/</loc>
@@ -1928,37 +1928,25 @@
     <loc>https://jamesm.blog/blockchain/links/</loc>
     <lastmod>2023-12-01T13:30:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/andreas-antonopoulos/</loc>
-    <lastmod>2023-06-23T13:30:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/asymmetric/</loc>
+    <loc>https://jamesm.blog/tags/asymmetric-encryption/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/blockchain/bitcoin/bitcoin/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/crypto/</loc>
-    <lastmod>2023-06-23T13:30:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/cryptographic/</loc>
-    <lastmod>2023-06-23T13:30:39+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/decentralized/</loc>
-    <lastmod>2023-06-23T13:30:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/decryption/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/digital-currency/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/encryption/</loc>
-    <lastmod>2023-06-23T13:30:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/private-keys/</loc>
+    <loc>https://jamesm.blog/tags/key-management/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/blockchain/private-keys/</loc>
+    <lastmod>2023-06-23T13:30:39+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/private-key/</loc>
     <lastmod>2023-06-23T13:30:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/wallet/</loc>
@@ -2187,6 +2175,9 @@
     <lastmod>2023-04-21T11:50:32+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/blockchain/courses/</loc>
+    <lastmod>2023-04-18T09:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/crypto/</loc>
     <lastmod>2023-04-18T09:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/blockchain/hardware-wallets/</loc>
