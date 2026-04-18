@@ -1,6 +1,6 @@
 ---
 title: "Polkadot 2026: From Infrastructure to Applications"
-date: 2026-04-04T10:00:00Z
+date: 2026-04-04T10:00:00+01:00
 draft: false
 tags: ['polkadot', 'dot', 'blockchain', 'web3', 'ecosystem', '2026', 'infrastructure', 'applications']
 ---
