@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/apache-iceberg/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/aws/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/azure/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-engineering/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-lakehouse/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/open-data-format/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/snowflake/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ableton/</loc>
     <lastmod>2026-04-18T07:01:00+01:00</lastmod>
   </url><url>
@@ -15,9 +54,6 @@
     <lastmod>2026-04-18T07:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/music-production/modular-synthesis-building-blocks/</loc>
-    <lastmod>2026-04-18T07:01:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2026-04-18T07:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/modular/</loc>
@@ -42,9 +78,6 @@
     <lastmod>2026-04-18T07:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/synthesis/</loc>
-    <lastmod>2026-04-18T07:01:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-18T07:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
@@ -226,9 +259,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/job-search/</loc>
     <lastmod>2026-04-09T07:25:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/aws/</loc>
-    <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/aws-s3-files/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
@@ -527,18 +557,6 @@
     <loc>https://jamesm.blog/tags/workflow/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data-engineering/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/categories/data-engineering/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
@@ -549,9 +567,6 @@
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/iceberg/</loc>
-    <lastmod>2026-04-08T07:40:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/snowflake/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/claude-code-vs-cursor/</loc>
@@ -2029,9 +2044,6 @@
   </url><url>
     <loc>https://jamesm.blog/devops/github-projects/</loc>
     <lastmod>2023-05-29T06:45:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/azure/</loc>
-    <lastmod>2023-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ci/cd/</loc>
     <lastmod>2023-05-28T11:51:18+01:00</lastmod>
