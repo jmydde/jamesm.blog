@@ -1,9 +1,12 @@
 ---
-title: "Why is there something rather than nothing?"
+title: "Why Is There Something Rather Than Nothing?"
 date: 2026-04-15T23:41:00+01:00
 draft: false
 tags: ["physics", "science", "cosmology", "philosophy", "quantum mechanics"]
 description: "A physics-minded reflection on one of the deepest questions there is: why anything exists at all instead of nothing."
+cover:
+  image: images/Universe-2.jpg
+  alt: Universe Icon
 ---
 
 One of the strangest facts about reality is that there is any reality at all.

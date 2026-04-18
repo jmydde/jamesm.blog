@@ -4,6 +4,9 @@ date: 2026-04-16T16:15:00+00:00
 draft: false
 tags: ["Claude", "Model Release", "Software Engineering", "AI Capabilities"]
 description: "Claude Opus 4.7 brings autonomous software engineering, 3.75 megapixel vision, and extended reasoning control - raising the bar for AI-assisted development."
+cover:
+  image: images/claude-opus.png
+  alt: Claude Opus Icon
 ---
 
 Opus 4.7 is a meaningful step forward. Not a revolutionary rewrite, but a targeted upgrade that addresses friction points developers actually experience: vision quality, autonomous task handling, and creative output.

@@ -85,7 +85,7 @@
 - `[backlog]` `explainer` **The Psychology of Mixing: How Our Brains Perceive Sound**
 - `[backlog]` `explainer` **Why Every Producer Should Learn At Least One Proper Instrument**
 - `[backlog]` `explainer` **Arrangement Is 90% Of The Track: The Most Underrated Skill**
-- `[backlog]` `explainer` **Introduction to Modular Synthesis: The Building Blocks**
+- `[published]` `explainer` **Introduction to Modular Synthesis: The Building Blocks**
 - `[backlog]` `explainer` **Eurorack Fundamentals: Format, Power, and Signal Flow**
 
 #### Opinionated Comparisons
