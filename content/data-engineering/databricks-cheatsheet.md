@@ -2,7 +2,7 @@
 title: "Databricks CheatSheet"
 date: 2026-04-04T20:44:25+01:00
 draft: false
-tags: ['databricks', 'cheatsheets', 'pyspark', 'sql', 'delta-lake']
+tags: ['databricks', 'cheatsheet', 'pyspark', 'sql', 'delta-lake']
 description: "Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns"
 ---
 

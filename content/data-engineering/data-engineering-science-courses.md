@@ -2,7 +2,7 @@
 title: "Data Engineering & Data Science Courses"
 date: 2026-04-04T20:51:25+01:00
 draft: false
-tags: ['airflow', 'data', 'data engineering', 'data science', 'database', 'databricks', 'datacamp', 'db', 'deep learning', 'course', 'etl', 'google', 'nosql', 'pipelines', 'python', 'scheduling', 'streaming', 'snowflake', 'tensorflow', 'training', 'kafka', 'spark', 'cloud-certifications']
+tags: ['airflow', 'data', 'data engineering', 'data science', 'database', 'databricks', 'datacamp', 'db', 'deep learning', 'course', 'etl', 'google', 'nosql', 'pipeline', 'python', 'scheduling', 'streaming', 'snowflake', 'tensorflow', 'training', 'kafka', 'spark', 'cloud-certifications']
 ---
 
 ## How to Use This Guide

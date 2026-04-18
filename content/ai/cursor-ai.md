@@ -2,7 +2,7 @@
 title: "Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯"
 date: 2025-12-03T13:15:25+01:00
 draft: false
-tags: ['ai', 'cursor ai' ,'sdd', 'development']
+tags: ['ai', 'cursor ai', 'sdd', 'development']
 ---
 
 Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. [Cursor AI](https://www.cursor.com/) has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of *“this is the future of development”* as Cursor.

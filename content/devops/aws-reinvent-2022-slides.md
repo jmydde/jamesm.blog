@@ -2,7 +2,7 @@
 title: "AWS re:Invent Slides (2022)"
 date: 2022-12-03T11:04:16+01:00
 draft: false
-tags: ['aws', 'devops', 'conference', 're:invent', 'kubernetes', 'eks', 'ci/cd', 'pipelines', 'security', 'compliance', 'devsecops']
+tags: ['aws', 'devops', 'conference', 're:invent', 'kubernetes', 'eks', 'ci/cd', 'pipeline', 'security', 'compliance', 'devsecops']
 description: "Curated collection of presentation slides from AWS re:Invent 2022 covering DevOps, Kubernetes, CI/CD, and security topics."
 ---
 ### DevOps

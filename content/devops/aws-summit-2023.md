@@ -2,7 +2,7 @@
 title: "AWS Summit London (2023) - Agenda now available"
 date: 2023-05-18T09:54:16+01:00
 draft: false
-tags: ['aws', 'devops', 'conference', 'summit', 'events']
+tags: ['aws', 'devops', 'conference', 'summit', 'event']
 description: "AWS Summit London 2023 announcement with agenda, keynote information, and technical session details."
 ---
 The **AWS Summit London** agenda is now available

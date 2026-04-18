@@ -2,7 +2,7 @@
 title: "List of Development Courses"
 date: 2021-05-28T11:51:18+01:00
 draft: false
-tags: ['tutorials', 'training', 'course', 'django', 'c++', 'react']
+tags: ['tutorial', 'training', 'course', 'django', 'c++', 'react']
 description: "Development and programming courses covering Django, React Native, C++, and other languages for software engineers."
 ---
 

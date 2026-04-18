@@ -2,7 +2,7 @@
 title: "Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward"
 date: 2026-03-09T07:09:25+01:00
 draft: false
-tags: ['ai', 'claude','claude code']
+tags: ['ai', 'claude', 'claude code']
 ---
 
 I keep running into the same problem with Claude Code Pro (\$20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the \$200/month plan, but that feels excessive for how I actually use it.

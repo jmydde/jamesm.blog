@@ -2,7 +2,7 @@
 title: "The Best Software Synths of 2026: From AI-Native to Analog Perfection"
 date: 2026-04-10T10:00:00+01:00
 draft: false
-tags: ['music production', 'vst', 'software synths', 'ai music', 'synthesis', 'sound design']
+tags: ['music production', 'vst', 'software synth', 'ai music', 'synthesis', 'sound design']
 description: "A look at the most powerful and innovative software synthesizers dominating the music production landscape in 2026."
 cover:
   image: images/software-synths.jpg

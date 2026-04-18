@@ -2,7 +2,7 @@
 title: "AWS Summit London (2023) - Agenda"
 date: 2023-06-07T07:54:16+01:00
 draft: false
-tags: ['aws', 'devops', 'summit', 'conference', 'events']
+tags: ['aws', 'devops', 'summit', 'conference', 'event']
 description: "Complete agenda of AWS Summit London 2023 with session codes, titles, and difficulty levels for all conference presentations."
 ---
 | Code | Item | Level |

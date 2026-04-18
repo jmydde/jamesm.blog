@@ -2,7 +2,7 @@
 title: "Unitree G1 - AI Humanoid Robot"
 date: 2024-05-21T20:09:25+01:00
 draft: false
-tags: ['ai', 'unitree' ,'unitree g1', 'robot', 'humanoid-robot']
+tags: ['ai', 'unitree', 'unitree g1', 'robot', 'humanoid-robot']
 ---
 
 ![Unitree G1 AI Humanoid Robot](/images/Unitree-G1.png)

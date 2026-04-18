@@ -2,7 +2,7 @@
 title: "DevOps Explainers"
 date: 2023-12-16T09:36:18+01:00
 draft: false
-tags: ['devops', 'education', 'explainers', 'apis', 'databases', 'dns', 'git', 'linux']
+tags: ['devops', 'education', 'explainer', 'api', 'database', 'dns', 'git', 'linux']
 description: "Educational explainer videos and articles covering DevOps concepts including APIs, databases, DNS, Git, and Linux fundamentals."
 ---
 
