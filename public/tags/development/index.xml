@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Development on jamesm.blog</title>
+    <title>‘Development’ on jamesm.blog</title>
     <link>https://jamesm.blog/tags/development/</link>
-    <description>Recent content in Development on jamesm.blog</description>
+    <description>Recent content in ‘Development’ on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,32 +11,14 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 00:05:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 24 Dec 2023 13:44:22 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What Actually Belongs in My AI Dev Stack in 2026</title>
-      <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
-      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
-      <description>&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;
-&lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
-&lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
-&lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About</title>
-      <link>https://jamesm.blog/retro-computing/basic-to-claude-code-2026/</link>
-      <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/retro-computing/basic-to-claude-code-2026/</guid>
-      <description>A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&amp;#39;t changed about programming, and what fundamentally has.</description>
-    </item>
-    <item>
-      <title>Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯</title>
-      <link>https://jamesm.blog/ai/cursor-ai/</link>
-      <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/cursor-ai/</guid>
-      <description>&lt;p&gt;Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor AI&lt;/a&gt; has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of &lt;em&gt;“this is the future of development”&lt;/em&gt; as Cursor.&lt;/p&gt;
-&lt;p&gt;Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.&lt;/p&gt;</description>
+      <title>Polkadot News 2023</title>
+      <link>https://jamesm.blog/blockchain/polkadot/polkadot-2023/</link>
+      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/polkadot/polkadot-2023/</guid>
+      <description>2023 Polkadot ecosystem highlights covering the network’s evolution toward Polkadot 1.0. Features major developments including parachain expansion, staking growth, technical upgrades, and founder insights on governance and scalability.</description>
     </item>
   </channel>
 </rss>

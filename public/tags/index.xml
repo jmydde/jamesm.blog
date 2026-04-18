@@ -14,14 +14,14 @@
     <lastBuildDate>Sat, 18 Apr 2026 08:15:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
+      <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
       <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Best Practice</title>
+      <title>Best-Practice</title>
       <link>https://jamesm.blog/tags/best-practice/</link>
       <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/best-practice/</guid>
@@ -98,7 +98,7 @@
       <description></description>
     </item>
     <item>
-      <title>AWS</title>
+      <title>Aws</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -119,17 +119,17 @@
       <description></description>
     </item>
     <item>
+      <title>Data Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Data Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -462,7 +462,7 @@
       <description></description>
     </item>
     <item>
-      <title>Life Purpose</title>
+      <title>Life-Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
@@ -525,7 +525,7 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -1344,7 +1344,7 @@
       <description></description>
     </item>
     <item>
-      <title>Spec-Kit</title>
+      <title>Spec Kit</title>
       <link>https://jamesm.blog/tags/spec-kit/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spec-kit/</guid>
@@ -1610,7 +1610,7 @@
       <description></description>
     </item>
     <item>
-      <title>Deep-Learning</title>
+      <title>Deep Learning</title>
       <link>https://jamesm.blog/tags/deep-learning/</link>
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/deep-learning/</guid>
@@ -1787,21 +1787,21 @@
     <item>
       <title>Applications</title>
       <link>https://jamesm.blog/tags/applications/</link>
-      <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/applications/</guid>
       <description></description>
     </item>
     <item>
       <title>Dot</title>
       <link>https://jamesm.blog/tags/dot/</link>
-      <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/dot/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecosystem</title>
       <link>https://jamesm.blog/tags/ecosystem/</link>
-      <pubDate>Sat, 04 Apr 2026 10:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ecosystem/</guid>
       <description></description>
     </item>
@@ -3073,20 +3073,6 @@
       <description></description>
     </item>
     <item>
-      <title>2024</title>
-      <link>https://jamesm.blog/tags/2024/</link>
-      <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/2024/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gavin Wood</title>
-      <link>https://jamesm.blog/tags/gavin-wood/</link>
-      <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/gavin-wood/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>News</title>
       <link>https://jamesm.blog/tags/news/</link>
       <pubDate>Tue, 19 Mar 2024 06:00:22 +0100</pubDate>
@@ -3164,13 +3150,6 @@
       <description></description>
     </item>
     <item>
-      <title>‘2023’</title>
-      <link>https://jamesm.blog/tags/2023/</link>
-      <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/2023/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>‘Blockchain’</title>
       <link>https://jamesm.blog/tags/blockchain/</link>
       <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
@@ -3178,17 +3157,17 @@
       <description></description>
     </item>
     <item>
-      <title>‘Dot’</title>
-      <link>https://jamesm.blog/tags/dot/</link>
+      <title>‘Development’</title>
+      <link>https://jamesm.blog/tags/development/</link>
       <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/dot/</guid>
+      <guid>https://jamesm.blog/tags/development/</guid>
       <description></description>
     </item>
     <item>
-      <title>‘Gavin Wood’</title>
-      <link>https://jamesm.blog/tags/gavin-wood/</link>
+      <title>‘Ecosystem’</title>
+      <link>https://jamesm.blog/tags/ecosystem/</link>
       <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/gavin-wood/</guid>
+      <guid>https://jamesm.blog/tags/ecosystem/</guid>
       <description></description>
     </item>
     <item>
@@ -3203,20 +3182,6 @@
       <link>https://jamesm.blog/tags/polkadot/</link>
       <pubDate>Sun, 24 Dec 2023 13:44:22 +0100</pubDate>
       <guid>https://jamesm.blog/tags/polkadot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ethereum</title>
-      <link>https://jamesm.blog/tags/ethereum/</link>
-      <pubDate>Sun, 24 Dec 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ethereum/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kusama</title>
-      <link>https://jamesm.blog/tags/kusama/</link>
-      <pubDate>Sun, 24 Dec 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/kusama/</guid>
       <description></description>
     </item>
     <item>
@@ -3322,48 +3287,6 @@
       <link>https://jamesm.blog/tags/vsts/</link>
       <pubDate>Tue, 12 Dec 2023 09:53:39 +0100</pubDate>
       <guid>https://jamesm.blog/tags/vsts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hacking</title>
-      <link>https://jamesm.blog/tags/hacking/</link>
-      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/hacking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware Wallets</title>
-      <link>https://jamesm.blog/tags/hardware-wallets/</link>
-      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/hardware-wallets/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ledger</title>
-      <link>https://jamesm.blog/tags/ledger/</link>
-      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ledger/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nano Ledger</title>
-      <link>https://jamesm.blog/tags/nano-ledger/</link>
-      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/nano-ledger/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Safepal</title>
-      <link>https://jamesm.blog/tags/safepal/</link>
-      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/safepal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Trezor</title>
-      <link>https://jamesm.blog/tags/trezor/</link>
-      <pubDate>Fri, 30 Jun 2023 13:30:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/trezor/</guid>
       <description></description>
     </item>
     <item>
@@ -3763,6 +3686,62 @@
       <link>https://jamesm.blog/tags/sre/</link>
       <pubDate>Fri, 21 Apr 2023 11:50:32 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ethereum</title>
+      <link>https://jamesm.blog/tags/ethereum/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ethereum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gavin-Wood</title>
+      <link>https://jamesm.blog/tags/gavin-wood/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/gavin-wood/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hacking</title>
+      <link>https://jamesm.blog/tags/hacking/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/hacking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware-Wallet</title>
+      <link>https://jamesm.blog/tags/hardware-wallet/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/hardware-wallet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kusama</title>
+      <link>https://jamesm.blog/tags/kusama/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/kusama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ledger</title>
+      <link>https://jamesm.blog/tags/ledger/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ledger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Safepal</title>
+      <link>https://jamesm.blog/tags/safepal/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/safepal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trezor</title>
+      <link>https://jamesm.blog/tags/trezor/</link>
+      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/trezor/</guid>
       <description></description>
     </item>
     <item>
