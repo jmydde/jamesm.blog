@@ -2,7 +2,7 @@
 title: "AI Explainers"
 date: 2023-02-15T19:05:35+01:00
 draft: false
-tags: ["ai",-"chatbot",-"chatgpt",-"llm",-"deep-learning",-"education"]
+tags: ["ai","chatbot","chatgpt","llm","deep-learning","education"]
 ---
 
 A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.

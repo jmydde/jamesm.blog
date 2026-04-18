@@ -21,6 +21,13 @@
       <description>Snowflake Storage for Apache Iceberg is now available on AWS and Azure, enabling enterprise-grade reliability and governance for open data formats. Explore what this means for modern data architectures.</description>
     </item>
     <item>
+      <title>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</title>
+      <link>https://jamesm.blog/data-engineering/following-the-money/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/following-the-money/</guid>
+      <description>A deep dive into the shifting economics of the data landscape in 2026. Why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack actually saves you money.</description>
+    </item>
+    <item>
       <title>Databricks vs Snowflake in 2026: An Honest Comparison</title>
       <link>https://jamesm.blog/data-engineering/databricks-vs-snowflake-2026/</link>
       <pubDate>Sun, 05 Apr 2026 09:00:00 +0000</pubDate>

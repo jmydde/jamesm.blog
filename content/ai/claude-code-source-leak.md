@@ -2,7 +2,7 @@
 title: "Claude Code Source Leak: Anthropic's 2,000-File Exposure and What It Means"
 date: 2026-04-01T07:42:00+00:00
 draft: false
-tags: ["claude-code",-"security",-"anthropic",-"source-code",-"data-breach"]
+tags: ["claude-code","security","anthropic","source-code","data-breach"]
 description: "Nearly 2,000 internal files from Claude Code were briefly leaked due to human error. Here's what happened, what was exposed, and the security implications for developers using Anthropic's AI coding tool."
 ---
 

@@ -2,7 +2,7 @@
 title: "The Architect vs The Builder: Redefining Engineering Roles in 2026"
 date: 2026-04-06T14:00:00+00:00
 draft: false
-tags: ["ai",-"engineering",-"role",-"career",-"management"]
+tags: ["ai","engineering","role","career","management"]
 description: "The traditional engineering hierarchy of junior→senior→architect is collapsing. What emerges is a cleaner, harsher split: people who decide what to build, and people who turn that decision into code."
 ---
 

@@ -3,7 +3,7 @@ title: "Favourite Physicists"
 date: 2023-05-11T21:06:35+01:00
 updated: 2026-04-07T00:00:00+01:00
 draft: false
-tags: ["favourites",-"physics",-"science",-"cosmology"]
+tags: ["favourites","physics","science","cosmology"]
 description: "A collection of influential physicists who have shaped our understanding of the universe, with notable talks and contributions."
 ---
 

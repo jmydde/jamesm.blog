@@ -2,7 +2,7 @@
 title: "The Automation Paradox: Why More AI Makes Human Judgment More Valuable"
 date: 2026-04-07T14:00:00+00:00
 draft: false
-tags: ["ai",-"automation",-"future-of-work",-"judgment",-"economics"]
+tags: ["ai","automation","future-of-work","judgment","economics"]
 description: "As AI handles routine cognitive work, the irreplaceable skill becomes not execution, but deciding what's worth doing - and why human judgment becomes more valuable, not less."
 ---
 

@@ -11,14 +11,80 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 08:05:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cline: The Next Generation AI Coding Assistant</title>
+      <link>https://jamesm.blog/ai/cline/</link>
+      <pubDate>Thu, 09 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline/</guid>
+      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
+    </item>
+    <item>
+      <title>The Rise of Small Language Models: Why Size Isn&#39;t Everything</title>
+      <link>https://jamesm.blog/ai/small-language-models/</link>
+      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/small-language-models/</guid>
+      <description>Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development.</description>
+    </item>
+    <item>
+      <title>Open WebUI: A Polished Interface for Local and Remote LLMs</title>
+      <link>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</link>
+      <pubDate>Wed, 08 Apr 2026 23:15:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</guid>
+      <description>Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in.</description>
+    </item>
+    <item>
+      <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
+      <link>https://jamesm.blog/ai/ollama/</link>
+      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ollama/</guid>
+      <description>A practical guide to Ollama, the platform for running large language models locally, including how to launch OpenClaw and explore its available models.</description>
+    </item>
     <item>
       <title>GitHub Is Now Officially Backing OpenClaw</title>
       <link>https://jamesm.blog/ai/github-backing-openclaw/</link>
       <pubDate>Wed, 08 Apr 2026 08:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-backing-openclaw/</guid>
       <description>GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, providing Copilot Pro&#43; and security funding.</description>
+    </item>
+    <item>
+      <title>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</title>
+      <link>https://jamesm.blog/data-engineering/following-the-money/</link>
+      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/following-the-money/</guid>
+      <description>A deep dive into the shifting economics of the data landscape in 2026. Why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack actually saves you money.</description>
+    </item>
+    <item>
+      <title>List of AI GitHub Projects</title>
+      <link>https://jamesm.blog/ai/github-projects/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-projects/</guid>
+      <description>&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;
+&lt;h2 id=&#34;ai-agent-frameworks&#34;&gt;AI Agent Frameworks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt;  -  Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt;  -  Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt;  -  Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt;  -  Let LLMs run code locally and interact with your computer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code--development&#34;&gt;Code &amp;amp; Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt;  -  Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt;  -  AI pair programmer that can edit code in your local repository&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt;  -  Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;specialized-tools&#34;&gt;Specialized Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute/openClaw&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt;  -  AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt;  -  Simple way to run large language models locally&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt;  -  Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;research--resources&#34;&gt;Research &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt;  -  Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt;  -  Curated dataset linking papers with their implementations&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

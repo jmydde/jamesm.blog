@@ -2,7 +2,7 @@
 title: "Stability in a Storm: Practical Principles for Tough Times"
 date: 2026-02-22T09:02:39+01:00
 draft: false
-tags: ["personal-development",-"resilience",-"life-transitions",-"practical-guidance"]
+tags: ["personal-development","resilience","life-transitions","practical-guidance"]
 description: "Practical principles and guidelines for maintaining stability and making sound decisions during challenging life periods."
 ---
 In turbulent periods of life, a few clear principles can make complex decisions feel more manageable. Below is a distilled list of lessons and guiding rules that can be reused whenever things get messy.

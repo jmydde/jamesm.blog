@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 00:05:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/cline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cline: The Next Generation AI Coding Assistant</title>
+      <link>https://jamesm.blog/ai/cline/</link>
+      <pubDate>Thu, 09 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline/</guid>
+      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
+    </item>
+    <item>
+      <title>Cline &#43; Kanban: Autonomous Development Meets Project Management</title>
+      <link>https://jamesm.blog/ai/cline-kanban/</link>
+      <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline-kanban/</guid>
+      <description>How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management.</description>
+    </item>
     <item>
       <title>What Actually Belongs in My AI Dev Stack in 2026</title>
       <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>

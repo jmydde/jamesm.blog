@@ -2,7 +2,7 @@
 title: "Local AI vs Cloud AI: The Tradeoff Landscape in 2026"
 date: 2026-04-09T06:11:00+01:00
 draft: false
-tags: ["ai",-"local-llm",-"cloud-ai",-"infrastructure",-"privacy",-"2026"]
+tags: ["ai","local-llm","cloud-ai","infrastructure","privacy","2026"]
 description: "In 2026, the choice between running AI locally or in the cloud is no longer a binary one. It is a strategic architectural decision based on privacy, latency, and 'reasoning density'."
 ---
 

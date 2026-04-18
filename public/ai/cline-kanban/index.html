@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Cline &#43; Kanban: Autonomous Development Meets Project Management | jamesm.blog</title>
-<meta name="keywords" content="ai, -&#34;cline&#34;, -&#34;kanban&#34;, -&#34;project-management&#34;, -&#34;mcp&#34;, -&#34;automation&#34;">
+<meta name="keywords" content="ai, cline, kanban, project-management, mcp, automation">
 <meta name="description" content="How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/ai/cline-kanban/">
@@ -79,12 +79,12 @@
     <meta property="article:section" content="ai">
     <meta property="article:published_time" content="2026-04-09T07:44:00+01:00">
     <meta property="article:modified_time" content="2026-04-09T07:44:00+01:00">
-    <meta property="article:tag" content="Ai">
-    <meta property="article:tag" content="-&#34;Cline&#34;">
-    <meta property="article:tag" content="-&#34;Kanban&#34;">
-    <meta property="article:tag" content="-&#34;Project-Management&#34;">
-    <meta property="article:tag" content="-&#34;Mcp&#34;">
-    <meta property="article:tag" content="-&#34;Automation&#34;">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="Cline">
+    <meta property="article:tag" content="Kanban">
+    <meta property="article:tag" content="Project-Management">
+    <meta property="article:tag" content="Mcp">
+    <meta property="article:tag" content="Automation">
       <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -121,7 +121,7 @@
   "name": "Cline \u002b Kanban: Autonomous Development Meets Project Management",
   "description": "How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management.",
   "keywords": [
-    "ai", "-\"cline\"", "-\"kanban\"", "-\"project-management\"", "-\"mcp\"", "-\"automation\""
+    "ai", "cline", "kanban", "project-management", "mcp", "automation"
   ],
   "articleBody": "In the evolution of agentic software engineering, one critical gap remains: the disconnect between project management and code execution. Your Kanban board tracks what needs doing, but your AI assistant lives in your IDE. Cline + Kanban closes that gap.\nThe Problem: Two Separate Systems Most teams operate with a frustrating split:\nKanban board (Linear, GitHub Projects, Jira, Trello): “Build the user authentication flow” IDE with Cline: “Let me write code” Manual sync: You paste the task, manually update the board status, context-switch constantly This handoff is where developers lose hours to context-switching and where tasks fall through the cracks.\nThe Solution: Cline via MCP With Model Context Protocol (MCP) MCP servers, Cline can now:\nRead tasks directly from your Kanban board - No copy-paste needed Access task context and acceptance criteria - Full requirements at runtime Execute the work autonomously - Using its tool-use loop Update task status automatically - Card moves to “In Progress” or “Done” when Cline finishes This transforms Cline from a “chat with your code” tool into a genuinely asynchronous team member that operates in the same project management context as humans.\nHow It Works 1. Connect Your Kanban System via MCP First, set up an MCP server for your Kanban system. Popular options include:\nLinear - Via the Linear MCP server for issue tracking GitHub Projects - Via GitHub’s MCP integration for native GitHub workflows Trello - Community-built MCP adapters available on the MCP registry Jira - Jira Cloud MCP server for enterprise environments Configure Cline to load the relevant MCP server in your VS Code settings.\n2. Give Cline a Simple Instruction Instead of pasting task details, you might give Cline:\n\"Pick up the next task from the Linear board marked 'Ready for Development' and work through it to completion. Update the task status when done.\" Cline’s loop now includes reading from your Kanban system as a data source, just like it reads your codebase.\n3. Full Autonomy with Human Oversight Cline reads the task, understands the acceptance criteria, works through the implementation, runs tests, and commits the changes. When it finishes or hits a blocker, it updates the board status and surfaces any blockers to you for decision-making.\nThe board becomes the single source of truth for what’s in progress, rather than an afterthought you update when you remember.\nReal-World Workflow A typical Cline + Kanban session might look like:\nMorning: You review the Linear board and prioritize tasks Throughout the day: You give Cline higher-level directives (“Work through the backlog”) rather than micro-managing Cline’s autonomy: Reads the top “Ready” task Analyzes requirements and acceptance criteria Breaks the work into subtasks using its own reasoning Implements, tests, and commits Updates the card status to “In Review” Your role: Review the PRs, provide feedback, and let Cline iterate This dramatically reduces the cognitive overhead of context-switching between your IDE and your project management tool.\nThe Benefits No manual updates: The board stays in sync with reality because Cline updates it automatically Asynchronous operation: You can queue up work and let Cline work through it without constant supervision Better context: Cline has the full task description, not a vague summary you typed in chat Traceability: Every task completion is tied to a commit and PR, visible in both your IDE and your board Setting Up Cline Kanban To get started:\nChoose your Kanban tool with good MCP support (Linear and GitHub Projects have the best integrations as of early 2026) Install the MCP server for that tool in your VS Code extension settings using Cline Create a .clinerules file with instructions on task status naming conventions and your Definition of Done Test with a small task to verify the integration works smoothly Potential Gotchas Complex acceptance criteria: Cline works best when tasks have clear, testable requirements. Vague tasks like “improve performance” need refinement before Cline can execute autonomously. Dependencies: If Task B depends on Task A, Cline needs to understand task ordering. Use MCP queries to check upstream task status. PR reviews: Even with full autonomy, human code review is still essential. Cline completing a task doesn’t mean it ships - it means it’s “Ready for Review.” The Bigger Picture Cline + Kanban is a glimpse into how agentic workflows mature. Rather than replacing project managers or developers, it removes the tedious synchronization work that wastes developer attention.\nYour team’s board and your code repository finally speak the same language.\nResources Core Tools:\nCline GitHub Repository - The autonomous AI coding agent Model Context Protocol (MCP) - Documentation and specification MCP Servers - Official MCP server implementations Project Management Tools:\nLinear - Modern issue tracking with MCP support GitHub Projects - Native GitHub integration Jira Cloud - Enterprise project management Trello - Simple Kanban boards Related Concepts:\nKanban Method - Lean workflow management VS Code - Code editor where Cline runs Related Posts:\nCline: The Next Generation AI Coding Assistant The Automation Paradox Spec-Driven Development: When the Brief Becomes the Product ",
   "wordCount" : "827",
@@ -401,12 +401,12 @@ and work through it to completion. Update the task status when done.&#34;
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
-      <li><a href="https://jamesm.blog/tags/-cline/">-&#34;Cline&#34;</a></li>
-      <li><a href="https://jamesm.blog/tags/-kanban/">-&#34;Kanban&#34;</a></li>
-      <li><a href="https://jamesm.blog/tags/-project-management/">-&#34;Project-Management&#34;</a></li>
-      <li><a href="https://jamesm.blog/tags/-mcp/">-&#34;Mcp&#34;</a></li>
-      <li><a href="https://jamesm.blog/tags/-automation/">-&#34;Automation&#34;</a></li>
+      <li><a href="https://jamesm.blog/tags/ai/">AI</a></li>
+      <li><a href="https://jamesm.blog/tags/cline/">Cline</a></li>
+      <li><a href="https://jamesm.blog/tags/kanban/">Kanban</a></li>
+      <li><a href="https://jamesm.blog/tags/project-management/">Project-Management</a></li>
+      <li><a href="https://jamesm.blog/tags/mcp/">Mcp</a></li>
+      <li><a href="https://jamesm.blog/tags/automation/">Automation</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/devops/aws-s3-files/">
@@ -425,7 +425,7 @@ and work through it to completion. Update the task status when done.&#34;
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share Cline &#43; Kanban: Autonomous Development Meets Project Management on x"
-            href="https://x.com/intent/tweet/?text=Cline%20%2b%20Kanban%3a%20Autonomous%20Development%20Meets%20Project%20Management&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fcline-kanban%2f&amp;hashtags=ai%2c-%22cline%22%2c-%22kanban%22%2c-%22project-management%22%2c-%22mcp%22%2c-%22automation%22">
+            href="https://x.com/intent/tweet/?text=Cline%20%2b%20Kanban%3a%20Autonomous%20Development%20Meets%20Project%20Management&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fcline-kanban%2f&amp;hashtags=ai%2ccline%2ckanban%2cproject-management%2cmcp%2cautomation">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

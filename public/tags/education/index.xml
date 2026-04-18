@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Apr 2024 22:07:01 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:36:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How BASIC Shaped a Generation of Programmers</title>
+      <link>https://jamesm.blog/retro-computing/how-basic-shaped-a-generation/</link>
+      <pubDate>Thu, 09 Apr 2026 06:36:00 +0100</pubDate>
+      <guid>https://jamesm.blog/retro-computing/how-basic-shaped-a-generation/</guid>
+      <description>BASIC was the gateway drug for a generation of programmers. Not because it was elegant, but because it was the only option - and that constraint created a programming culture that shaped how millions thought about code.</description>
+    </item>
+    <item>
+      <title>What Does &#39;Expertise&#39; Mean When AI Can Pass Any Exam?</title>
+      <link>https://jamesm.blog/ai/expertise-after-ai/</link>
+      <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/expertise-after-ai/</guid>
+      <description>If AI can pass the bar exam, the CPA exam, and every technical certification, what are we actually certifying? Expertise becomes something else entirely - and much harder to fake.</description>
+    </item>
     <item>
       <title>Very very large numbers</title>
       <link>https://jamesm.blog/general/huge-numbers/</link>
@@ -50,6 +64,31 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/@AltcoinDaily/&#34;&gt;Altcoin Daily&lt;/a&gt;&lt;/strong&gt;  -  Bitcoin, Ethereum, Cardano, NFTs, altcoins, metaverse, mining, trading, and investing insights&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Explainers</title>
+      <link>https://jamesm.blog/ai/explainers/</link>
+      <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/explainers/</guid>
+      <description>&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;
+&lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;&lt;strong&gt;Yes you should understand backprop&lt;/strong&gt;&lt;/a&gt;  -  Andrej Karpathy&amp;rsquo;s definitive explanation of backpropagation, the fundamental algorithm behind neural network training&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;&lt;strong&gt;Deep Learning in a Nutshell: Core Concepts&lt;/strong&gt;&lt;/a&gt;  -  NVIDIA&amp;rsquo;s accessible overview of deep learning architectures and their applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;transformers--language-models&#34;&gt;Transformers &amp;amp; Language Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;&lt;strong&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/strong&gt;&lt;/a&gt;  -  Stephen Wolfram&amp;rsquo;s phenomenal breakdown of transformer architecture and the surprising effectiveness of next-token prediction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;&lt;strong&gt;Word2Vec Explained&lt;/strong&gt;&lt;/a&gt;  -  Foundation for understanding how words become numerical representations that models can process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;generative-models&#34;&gt;Generative Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;&lt;strong&gt;How Stable Diffusion Works&lt;/strong&gt;&lt;/a&gt;  -  Detailed technical walkthrough of diffusion models for image generation, with clear diagrams and intuitive explanations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;courses--practical-learning&#34;&gt;Courses &amp;amp; Practical Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt;  -  Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Blockchain &amp; Web3 Courses</title>

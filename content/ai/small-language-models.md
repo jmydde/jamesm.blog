@@ -2,7 +2,7 @@
 title: "The Rise of Small Language Models: Why Size Isn't Everything"
 date: 2026-04-09T06:03:00+01:00
 draft: false
-tags: ["small-language-model",-"slm",-"efficiency",-"open-source",-"local-ai",-"mistral",-"phi"]
+tags: ["small-language-model","slm","efficiency","open-source","local-ai","mistral","phi"]
 description: "Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development."
 ---
 

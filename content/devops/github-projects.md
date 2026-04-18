@@ -2,7 +2,7 @@
 title: "List of DevOps GitHub Projects"
 date: 2023-05-29T06:45:18+01:00
 draft: false
-tags: ["airflow",-"apache",-"devops",-"github",-"cli",-"terminal",-"kubernetes",-"scheduling"]
+tags: ["airflow","apache","devops","github","cli","terminal","kubernetes","scheduling"]
 description: "Curated collection of essential open-source DevOps projects on GitHub for SRE, Kubernetes, Linux, and infrastructure automation."
 ---
 ### DevOps & Site Reliability Engineering (SRE)

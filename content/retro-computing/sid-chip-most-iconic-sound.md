@@ -2,7 +2,7 @@
 title: "The SID Chip: Engineering the Most Iconic Sound in Computing History"
 date: 2026-04-09T06:22:00+01:00
 draft: false
-tags: ["retro-computing",-"sid-chip",-"commodore-64",-"sound-synthesis",-"engineering",-"1980s",-"audio"]
+tags: ["retro-computing","sid-chip","commodore-64","sound-synthesis","engineering","1980s","audio"]
 description: "The SID chip gave the Commodore 64 the ability to synthesize complex sound in real-time. But why did it sound so distinctive? And why has no other chip in computing history achieved the same cultural impact?"
 ---
 

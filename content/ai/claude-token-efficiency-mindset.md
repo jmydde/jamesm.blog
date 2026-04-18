@@ -2,7 +2,7 @@
 title: The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should
 date: 2026-04-17T21:36:00+00:00
 draft: false
-tags: ["claude",-"ai-usage",-"productivity",-"token-economics"]
+tags: ["claude","ai-usage","productivity","token-economics"]
 description: "Most people waste tokens on Claude not because they're bad at prompting, but because they haven't internalized the real cost structure. Here's how to think about token efficiency as a first-class design constraint."
 cover:
   image: /assets/images/claude-code.png

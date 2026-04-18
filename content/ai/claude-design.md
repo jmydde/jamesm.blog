@@ -2,7 +2,7 @@
 title: "Claude Design: Closing the Design-to-Code Gap"
 date: 2026-04-17T19:11:00+00:00
 draft: false
-tags: ["claude",-"ai-design-tool",-"product-launch",-"design-workflow"]
+tags: ["claude","ai-design-tool","product-launch","design-workflow"]
 description: "Claude Design brings AI-powered visual collaboration to teams, automating the tedious handoff between design and development while maintaining design system consistency."
 cover:
   image: images/claude-design.png

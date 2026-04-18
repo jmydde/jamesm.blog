@@ -3,7 +3,7 @@ title: "Following the Money: Databricks vs Snowflake vs the Open-Source Alternat
 date: 2026-04-08T07:40:00+01:00
 summary: "A deep dive into the shifting economics of the data landscape in 2026. Why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack actually saves you money."
 categories: ["data-engineering"]
-tags: ["databricks",-"snowflake",-"open-source",-"data-engineering",-"iceberg",-"economics"]
+tags: ["databricks","snowflake","open-source","data-engineering","iceberg","economics"]
 author: "James Myddelton"
 ---
 

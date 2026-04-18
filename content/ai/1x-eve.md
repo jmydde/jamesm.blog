@@ -2,7 +2,7 @@
 title: "1X - Eve"
 date: 2024-04-21T22:26:14+01:00
 draft: false
-tags: ["ai",-"robotics",-"1x",-"eve",-"robotics"]
+tags: ["ai","robotics","1x","eve","robotics"]
 ---
 
 ![1X EVE Android Worker Robot](/images/1X-Eve.jpg)

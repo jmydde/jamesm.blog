@@ -2,7 +2,7 @@
 title: "How BASIC Shaped a Generation of Programmers"
 date: 2026-04-09T06:36:00+01:00
 draft: false
-tags: ["retro-computing",-"basic",-"programming-history",-"1980s",-"commodore",-"sinclair",-"computer",-"education"]
+tags: ["retro-computing","basic","programming-history","1980s","commodore","sinclair","computer","education"]
 description: "BASIC was the gateway drug for a generation of programmers. Not because it was elegant, but because it was the only option - and that constraint created a programming culture that shaped how millions thought about code."
 ---
 

@@ -2,7 +2,7 @@
 title: "List of AI GitHub Projects"
 date: 2023-05-27T08:01:18+01:00
 draft: false
-tags: ["ai",-"github",-"chatgpt",-"open-source",-"framework"]
+tags: ["ai","github","chatgpt","open-source","framework"]
 ---
 
 A collection of significant open-source AI projects that are shaping the ecosystem.

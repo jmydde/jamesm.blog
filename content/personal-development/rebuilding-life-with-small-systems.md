@@ -2,7 +2,7 @@
 title: "Rebuilding Your Life With Small Systems"
 date: 2026-04-06T00:09:00+01:00
 draft: false
-tags: ["personal-development",-"self-improvement",-"habit",-"resilience",-"life-systems"]
+tags: ["personal-development","self-improvement","habit","resilience","life-systems"]
 description: "A practical guide to rebuilding confidence, stability, and momentum through small daily systems rather than dramatic reinvention."
 ---
 

@@ -2,7 +2,7 @@
 title: "When 8-bit Computers Taught An Entire Nation To Code"
 date: 2026-04-08T06:00:00+01:00
 draft: false
-tags: ["retro-computing",-"tech-history",-"programming",-"bbc-micro",-"zx-spectrum",-"80s"]
+tags: ["retro-computing","tech-history","programming","bbc-micro","zx-spectrum","80s"]
 description: "In the 1980s, a unique confluence of government policy, public broadcasting, and garage-built hardware turned the UK into a coding powerhouse. This is how it happened."
 ---
 
