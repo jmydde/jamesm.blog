@@ -2,7 +2,7 @@
 title: "GitHub Copilot"
 date: 2023-01-14T11:51:18+01:00
 draft: false
-tags: ['ai', 'tools','github']
+tags: ['ai', 'tool','github']
 ---
 [GitHub Copilot](https://github.com/features/copilot) is an AI pair programmer developed by [GitHub](https://github.com/) in partnership with [OpenAI](https://openai.com/). It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.
 

@@ -2,7 +2,7 @@
 title: "DeepSeek 🤯"
 date: 2025-01-27T21:39:14+01:00
 draft: false
-tags: ["ai", "deepseek", "ai models"]
+tags: ["ai", "deepseek", "ai-model"]
 ---
 
 ## Overview

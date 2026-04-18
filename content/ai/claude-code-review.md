@@ -2,7 +2,7 @@
 title: "Claude Code Just Got a Serious Code Review Feature"
 date: 2026-03-09T07:14:25+01:00
 draft: false
-tags: ['ai', 'claude', 'code reviews']
+tags: ['ai', 'claude', 'code-review']
 ---
 
 I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.

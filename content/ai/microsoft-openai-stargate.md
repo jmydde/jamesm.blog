@@ -2,7 +2,7 @@
 title: "Stargate"
 date: 2024-03-29T22:09:25+01:00
 draft: false
-tags: ['ai', 'openai', 'microsoft', 'stargate', 'supercomputers', 'infrastructure']
+tags: ['ai', 'openai', 'microsoft', 'stargate', 'supercomputer', 'infrastructure']
 ---
 
 ## About

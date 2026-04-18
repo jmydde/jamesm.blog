@@ -2,7 +2,7 @@
 title: "Geoffrey Hinton Interviews"
 date: 2026-01-27T21:07:21+01:00
 draft: false
-tags: ["ai", "geoffrey hinton", "interviews"]
+tags: ["ai", "geoffrey hinton", "interview"]
 ---
 
 ![Geoffrey Hinton - AI Researcher and Pioneer](/images/Geoffrey-Hinton.jpg)

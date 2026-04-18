@@ -2,7 +2,7 @@
 title: "Speechify - Best Text to Speech App"
 date: 2023-05-20T12:54:16+01:00
 draft: false
-tags: ['ai', 'tools', 'text-to-speech', 'productivity']
+tags: ['ai', 'tool', 'text-to-speech', 'productivity']
 ---
 
 [Speechify](https://speechify.com/) is a leading text-to-speech platform that converts written content into natural-sounding audio, available across web, mobile, and browser extensions.

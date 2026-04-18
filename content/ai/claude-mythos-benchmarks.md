@@ -2,7 +2,7 @@
 title: "Claude Mythos: The AI Benchmark Breaker That Won't Be Released"
 date: 2026-04-08T08:45:00+01:00
 draft: false
-tags: ["AI Models", "Benchmarks", "Claude", "Anthropic"]
+tags: ["AI Model", "Benchmark", "Claude", "Anthropic"]
 description: "Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks."
 ---
 

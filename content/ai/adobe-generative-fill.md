@@ -2,7 +2,7 @@
 title: "Adobe's new Generative Fill is mind-blowing 🤯"
 date: 2023-05-26T20:04:28+01:00
 draft: false
-tags: ["ai", "adobe", "photoshop", "photos", "photography", "generative ai"]
+tags: ["ai", "adobe", "photoshop", "photo", "photography", "generative ai"]
 ---
 Experience the future of Photoshop with Generative Fill
 - https://helpx.adobe.com/ie/photoshop/using/generative-fill.html

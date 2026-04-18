@@ -2,7 +2,7 @@
 title: "AI Tools & Frameworks"
 date: 2025-10-28T16:17:14+01:00
 draft: false
-tags: ["ai", "art", "links", "tools", "design", "graphics", "llm", "chatbots", "chatgpt", "music", "text-to-speech", "writing", "copilot", "robotics"]
+tags: ["ai", "art", "link", "tool", "design", "graphic", "llm", "chatbot", "chatgpt", "music", "text-to-speech", "writing", "copilot", "robotics"]
 ---
 
 ## AI Tools

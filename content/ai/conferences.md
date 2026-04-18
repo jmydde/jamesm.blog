@@ -2,7 +2,7 @@
 title: "AI Conferences Worth Following"
 date: 2023-06-10T06:51:25+01:00
 draft: false
-tags: ["ai", "summits", "conferences", "events"]
+tags: ["ai", "summit", "conference", "event"]
 description: "A practical guide to the AI conferences worth following, who each type of event is for, and how to choose the right one before spending time or money."
 ---
 

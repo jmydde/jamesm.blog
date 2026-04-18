@@ -2,7 +2,7 @@
 title: "Notion"
 date: 2023-05-11T21:06:35+01:00
 draft: false
-tags: ['ai', 'tools', 'productivity']
+tags: ['ai', 'tool', 'productivity']
 ---
 
 [Notion](https://www.notion.so/) is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.

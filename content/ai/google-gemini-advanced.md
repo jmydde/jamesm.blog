@@ -2,7 +2,7 @@
 title: "Google Gemini Advanced"
 date: 2024-03-29T07:12:25+01:00
 draft: false
-tags: ['ai', 'chatbots', 'google', 'gemini']
+tags: ['ai', 'chatbot', 'google', 'gemini']
 ---
 
 ## About

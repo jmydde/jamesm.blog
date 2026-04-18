@@ -2,7 +2,7 @@
 title: "Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far"
 date: 2024-04-20T22:09:25+01:00
 draft: false
-tags: ['ai', 'boston dynamics', 'robots', 'humanoid robots']
+tags: ['ai', 'boston dynamics', 'robot', 'humanoid-robot']
 ---
 
 [Boston Dynamics](https://bostondynamics.com/) has [revealed it's most astonishing humanoid robot so far](https://devopsforum.uk/topic/62710-boston-dynamics-reveals-its-most-astonishing-humanoid-robot-so-far-%E2%80%93-and-i-can%E2%80%99t-stop-watching-it/#comment-180907).
