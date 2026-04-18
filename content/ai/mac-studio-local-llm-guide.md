@@ -259,7 +259,12 @@ Since you're choosing both a Mac and a model, here's what actually matters:
 - [MLX](https://github.com/ml-explore/mlx) - Apple's own ML framework, fastest on Apple Silicon
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - Portable, works everywhere, widely used
 - [LM Studio](https://lmstudio.ai) - Desktop UI, good for beginners
+- [Open Web UI](https://openwebui.com) - Modern web interface for local models, great with Ollama
+- [GPT4All](https://gpt4all.io) - Easy desktop app with built-in models, minimal setup
+- [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui) - Feature-rich web interface with chat, notebook, and API modes
+- [LocalAI](https://localai.io) - OpenAI-compatible API for local inference, easy integration
 - [vLLM](https://vllm.ai) - Production inference engine if you need batching/concurrency
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers) - The foundational library for running any model programmatically
 
 ## Model sources
 
