@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sound Design on jamesm.blog</title>
+    <title>Sound-Design on jamesm.blog</title>
     <link>https://jamesm.blog/tags/sound-design/</link>
-    <description>Recent content in Sound Design on jamesm.blog</description>
+    <description>Recent content in Sound-Design on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 10:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 07:01:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/sound-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Modular Synthesis - The Building Blocks</title>
+      <link>https://jamesm.blog/music-production/modular-synthesis-building-blocks/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/modular-synthesis-building-blocks/</guid>
+      <description>A practical guide to understanding modular synthesis fundamentals. Learn what oscillators, envelopes, filters, and LFOs actually do, and how they connect to create sound.</description>
+    </item>
     <item>
       <title>The Best Software Synths of 2026: From AI-Native to Analog Perfection</title>
       <link>https://jamesm.blog/music-production/best-software-synths-2026/</link>

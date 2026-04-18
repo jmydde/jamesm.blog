@@ -1,9 +1,12 @@
 ---
 title: Introduction to Modular Synthesis - The Building Blocks
-date: 2026-04-18T09:00:00+01:00
+date: 2026-04-18T07:01:00+01:00
 draft: false
 tags: ["music-production", "synthesis", "modular", "eurorack", "sound-design"]
 description: "A practical guide to understanding modular synthesis fundamentals. Learn what oscillators, envelopes, filters, and LFOs actually do, and how they connect to create sound."
+cover:
+  image: images/modular-synths.jpg
+  alt: Modular Synths Icon
 ---
 
 Modular synthesis can feel overwhelming at first. There are dozens of modules, hundreds of cables, and infinite ways to patch them together. But underneath all that complexity lies a simple truth: modular synthesis is about understanding how audio flows from one place to another, and learning to shape that signal at every step.

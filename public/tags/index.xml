@@ -11,8 +11,85 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2026 21:36:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 07:01:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ableton</title>
+      <link>https://jamesm.blog/tags/ableton/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ableton/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cubase</title>
+      <link>https://jamesm.blog/tags/cubase/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/cubase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Daw</title>
+      <link>https://jamesm.blog/tags/daw/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/daw/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eurorack</title>
+      <link>https://jamesm.blog/tags/eurorack/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/eurorack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modular</title>
+      <link>https://jamesm.blog/tags/modular/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/modular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://jamesm.blog/tags/music/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music Production</title>
+      <link>https://jamesm.blog/tags/music-production/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/music-production/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Native Instruments</title>
+      <link>https://jamesm.blog/tags/native-instruments/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/native-instruments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plugins</title>
+      <link>https://jamesm.blog/tags/plugins/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/plugins/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sound-Design</title>
+      <link>https://jamesm.blog/tags/sound-design/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/sound-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Synthesis</title>
+      <link>https://jamesm.blog/tags/synthesis/</link>
+      <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/synthesis/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
@@ -140,13 +217,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ableton</title>
-      <link>https://jamesm.blog/tags/ableton/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ableton/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ai Music</title>
       <link>https://jamesm.blog/tags/ai-music/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
@@ -154,66 +224,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cubase</title>
-      <link>https://jamesm.blog/tags/cubase/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/cubase/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Daw</title>
-      <link>https://jamesm.blog/tags/daw/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/daw/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music</title>
-      <link>https://jamesm.blog/tags/music/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/music/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music-Production</title>
-      <link>https://jamesm.blog/tags/music-production/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/music-production/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Native Instruments</title>
-      <link>https://jamesm.blog/tags/native-instruments/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/native-instruments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Plugins</title>
-      <link>https://jamesm.blog/tags/plugins/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/plugins/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Software Synths</title>
       <link>https://jamesm.blog/tags/software-synths/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/software-synths/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sound Design</title>
-      <link>https://jamesm.blog/tags/sound-design/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/sound-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Synthesis</title>
-      <link>https://jamesm.blog/tags/synthesis/</link>
-      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/synthesis/</guid>
       <description></description>
     </item>
     <item>
@@ -385,7 +399,7 @@
       <description></description>
     </item>
     <item>
-      <title>Aws</title>
+      <title>AWS</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -399,7 +413,7 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -938,7 +952,7 @@
       <description></description>
     </item>
     <item>
-      <title>Data-Science</title>
+      <title>Data Science</title>
       <link>https://jamesm.blog/tags/data-science/</link>
       <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-science/</guid>
