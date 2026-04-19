@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Apr 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 05:22:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/comparison/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?</title>
+      <link>https://jamesm.blog/ai/dgx-spark-vs-mac-studio/</link>
+      <pubDate>Sun, 19 Apr 2026 05:22:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/dgx-spark-vs-mac-studio/</guid>
+      <description>An in-depth comparison of NVIDIA DGX Spark and Apple Mac Studio for local LLM inference. Includes specifications, pricing, performance benchmarks, and cost analysis to help you choose the right personal AI supercomputer.</description>
+    </item>
     <item>
       <title>Databricks vs Snowflake in 2026: An Honest Comparison</title>
       <link>https://jamesm.blog/data-engineering/databricks-vs-snowflake-2026/</link>

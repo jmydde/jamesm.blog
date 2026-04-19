@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 05:22:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?</title>
+      <link>https://jamesm.blog/ai/dgx-spark-vs-mac-studio/</link>
+      <pubDate>Sun, 19 Apr 2026 05:22:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/dgx-spark-vs-mac-studio/</guid>
+      <description>An in-depth comparison of NVIDIA DGX Spark and Apple Mac Studio for local LLM inference. Includes specifications, pricing, performance benchmarks, and cost analysis to help you choose the right personal AI supercomputer.</description>
+    </item>
     <item>
       <title>Which Mac Studio Should You Buy for Running LLMs Locally?</title>
       <link>https://jamesm.blog/ai/mac-studio-local-llm-guide/</link>
