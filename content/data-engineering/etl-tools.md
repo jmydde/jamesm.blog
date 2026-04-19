@@ -1,6 +1,6 @@
 ---
 title: "ETL Tools & Data Integration Platforms"
-date: 2026-04-19T07:30:00+01:00
+date: 2025-04-19T07:30:00+01:00
 draft: false
 tags: ['abinitio', 'aws', 'azure', 'data', 'etl', 'data-integration', 'data-pipeline', 'tool']
 description: "Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms."

@@ -2,58 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesm.blog/tags/abinitio/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-19T07:55:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/aws/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/azure/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data-engineering/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-integration/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-pipeline/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/etl/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data-engineering/etl-tools/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-19T07:55:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
+    <lastmod>2026-04-19T07:55:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
+    <lastmod>2026-04-19T07:55:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/tool/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-19T07:12:00+01:00</lastmod>
+    <loc>https://jamesm.blog/ai/the-next-decade-of-ai/</loc>
+    <lastmod>2026-04-19T07:55:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-cloud-subscriptions/</loc>
     <lastmod>2026-04-19T07:12:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/api/</loc>
-    <lastmod>2026-04-19T07:12:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
     <lastmod>2026-04-19T07:12:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/cloud/</loc>
@@ -111,6 +78,24 @@
     <lastmod>2026-04-18T07:22:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/apache-iceberg/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/aws/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/azure/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-engineering/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
+    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/lakehouse/</loc>
@@ -332,10 +317,10 @@
     <loc>https://jamesm.blog/devops/aws-s3-files/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/s3/</loc>
@@ -822,6 +807,9 @@
     <lastmod>2026-04-05T20:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/data-engineering/blogs/</loc>
+    <lastmod>2026-04-05T20:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/etl/</loc>
     <lastmod>2026-04-05T20:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/declarative-pipeline/</loc>
@@ -1511,6 +1499,9 @@
     <loc>https://jamesm.blog/tags/text-to-speech/</loc>
     <lastmod>2025-10-28T16:17:14+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/tool/</loc>
+    <lastmod>2025-10-28T16:17:14+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/writing/</loc>
     <lastmod>2025-10-28T16:17:14+01:00</lastmod>
   </url><url>
@@ -1549,6 +1540,18 @@
   </url><url>
     <loc>https://jamesm.blog/ai/ai-agents-emergency-debate/</loc>
     <lastmod>2025-05-12T16:27:14+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/abinitio/</loc>
+    <lastmod>2025-04-19T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-integration/</loc>
+    <lastmod>2025-04-19T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-pipeline/</loc>
+    <lastmod>2025-04-19T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-engineering/etl-tools/</loc>
+    <lastmod>2025-04-19T07:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/deepseek/</loc>
     <lastmod>2025-01-27T21:39:14+01:00</lastmod>

@@ -11,82 +11,12 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 07:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 07:55:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Abinitio</title>
-      <link>https://jamesm.blog/tags/abinitio/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/abinitio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS</title>
-      <link>https://jamesm.blog/tags/aws/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/aws/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Azure</title>
-      <link>https://jamesm.blog/tags/azure/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/azure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data</title>
-      <link>https://jamesm.blog/tags/data/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Integration</title>
-      <link>https://jamesm.blog/tags/data-integration/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-integration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Pipeline</title>
-      <link>https://jamesm.blog/tags/data-pipeline/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-pipeline/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Etl</title>
-      <link>https://jamesm.blog/tags/etl/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/etl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tool</title>
-      <link>https://jamesm.blog/tags/tool/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/tool/</guid>
-      <description></description>
-    </item>
     <item>
       <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Sun, 19 Apr 2026 07:12:00 +0100</pubDate>
+      <pubDate>Sun, 19 Apr 2026 07:55:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
     </item>
@@ -140,7 +70,7 @@
       <description></description>
     </item>
     <item>
-      <title>Best-Practice</title>
+      <title>Best Practice</title>
       <link>https://jamesm.blog/tags/best-practice/</link>
       <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/best-practice/</guid>
@@ -207,6 +137,41 @@
       <link>https://jamesm.blog/tags/apache-iceberg/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/apache-iceberg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aws</title>
+      <link>https://jamesm.blog/tags/aws/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>https://jamesm.blog/tags/azure/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>https://jamesm.blog/tags/data/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Science</title>
+      <link>https://jamesm.blog/tags/data-science/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
@@ -434,7 +399,7 @@
       <description></description>
     </item>
     <item>
-      <title>Software-Synth</title>
+      <title>Software Synth</title>
       <link>https://jamesm.blog/tags/software-synth/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/software-synth/</guid>
@@ -532,7 +497,7 @@
       <description></description>
     </item>
     <item>
-      <title>Life-Purpose</title>
+      <title>Life Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
@@ -588,7 +553,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -1379,7 +1344,7 @@
       <description></description>
     </item>
     <item>
-      <title>Cursor Ai</title>
+      <title>Cursor-Ai</title>
       <link>https://jamesm.blog/tags/cursor-ai/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor-ai/</guid>
@@ -1400,7 +1365,7 @@
       <description></description>
     </item>
     <item>
-      <title>Spec Kit</title>
+      <title>Spec-Kit</title>
       <link>https://jamesm.blog/tags/spec-kit/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spec-kit/</guid>
@@ -1446,6 +1411,13 @@
       <link>https://jamesm.blog/tags/big-data/</link>
       <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/big-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Etl</title>
+      <link>https://jamesm.blog/tags/etl/</link>
+      <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/etl/</guid>
       <description></description>
     </item>
     <item>
@@ -2625,6 +2597,13 @@
       <description></description>
     </item>
     <item>
+      <title>Tool</title>
+      <link>https://jamesm.blog/tags/tool/</link>
+      <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/tool/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Writing</title>
       <link>https://jamesm.blog/tags/writing/</link>
       <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
@@ -2678,6 +2657,27 @@
       <link>https://jamesm.blog/tags/sergey-brin/</link>
       <pubDate>Tue, 20 May 2025 19:27:14 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sergey-brin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Abinitio</title>
+      <link>https://jamesm.blog/tags/abinitio/</link>
+      <pubDate>Sat, 19 Apr 2025 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/abinitio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Integration</title>
+      <link>https://jamesm.blog/tags/data-integration/</link>
+      <pubDate>Sat, 19 Apr 2025 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Pipeline</title>
+      <link>https://jamesm.blog/tags/data-pipeline/</link>
+      <pubDate>Sat, 19 Apr 2025 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-pipeline/</guid>
       <description></description>
     </item>
     <item>
