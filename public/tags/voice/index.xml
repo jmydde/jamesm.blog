@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 23:12:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 21:07:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/voice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale</title>
+      <link>https://jamesm.blog/ai/grok-voice-apis/</link>
+      <pubDate>Sun, 19 Apr 2026 21:07:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/grok-voice-apis/</guid>
+      <description>xAI launches standalone Speech-to-Text and Text-to-Speech APIs, bringing production-grade voice capabilities to developers at competitive pricing.</description>
+    </item>
     <item>
       <title>OpenAI Voice Engine</title>
       <link>https://jamesm.blog/ai/openai-voice-engine/</link>

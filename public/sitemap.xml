@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/api/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/grok/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/grok-voice-apis/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/voice/</loc>
+    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/astronomy/</loc>
     <lastmod>2026-04-19T19:54:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/engineering/</loc>
-    <lastmod>2026-04-19T19:54:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2026-04-19T19:54:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/nasa/</loc>
@@ -32,17 +53,8 @@
     <loc>https://jamesm.blog/tags/spacex/</loc>
     <lastmod>2026-04-19T19:54:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2026-04-19T19:54:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/space/why-spacecraft-dont-slow-down-before-reentry/</loc>
     <lastmod>2026-04-19T19:54:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-19T19:26:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2026-04-19T19:26:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/economy/</loc>
     <lastmod>2026-04-19T19:26:00+01:00</lastmod>
@@ -60,9 +72,6 @@
     <lastmod>2026-04-19T07:55:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-cloud-subscriptions/</loc>
-    <lastmod>2026-04-19T07:12:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/api/</loc>
     <lastmod>2026-04-19T07:12:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/cloud/</loc>
@@ -1785,9 +1794,6 @@
     <lastmod>2024-03-29T23:12:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/openai-voice-engine/</loc>
-    <lastmod>2024-03-29T23:12:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/voice/</loc>
     <lastmod>2024-03-29T23:12:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/voice-engine/</loc>
