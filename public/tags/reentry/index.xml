@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reentry on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/reentry/</link>
+    <description>Recent content in Reentry on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Apr 2026 19:54:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/reentry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Spacecraft Don&#39;t Just Slow Down Before Reentry</title>
+      <link>https://jamesm.blog/space/why-spacecraft-dont-slow-down-before-reentry/</link>
+      <pubDate>Sun, 19 Apr 2026 19:54:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/why-spacecraft-dont-slow-down-before-reentry/</guid>
+      <description>Returning from the Moon, spacecraft slam into the atmosphere at 25,000 mph. Why not slow down first? The answer comes down to energy, mass, and the brutal mathematics of rocket fuel.</description>
+    </item>
+  </channel>
+</rss>
