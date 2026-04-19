@@ -9,16 +9,27 @@ cover:
   alt: Mac Studio LLMs Icon
 ---
 
+## TL;DR
+
+- **Best entry point:** M2 Max 32-64 GB (~£1.4k-£2k) for 7B-13B models at 25-40 tok/s
+- **Best sweet spot:** M2 Ultra 64-128 GB (~£3k-£4.5k) handles 30B+ models comfortably
+- **Best for 70B models:** M3 Ultra 128 GB+ (~£5.5k+) with 800+ GB/s bandwidth
+- **Skip unless committed to small models:** M4 Max - 410-546 GB/s bandwidth bottlenecks LLM generation
+- **Key rule:** Memory bandwidth matters more than raw compute for token generation
+- **Reality check:** A RTX 4090 rig is 2-3× faster for the same price - buy Mac for simplicity and unified memory
+
 You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what "works" versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
+
+If you're also weighing up NVIDIA's dedicated AI box, see my companion piece: [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/) - it goes deeper on the CUDA vs Apple Silicon trade-off.
 
 ## Memory requirements: which model fits your Mac?
 
 Different models have wildly different memory demands. Here's what you actually need for the top free models:
 
 ### Small models (great for any Mac)
-- **LLaMA 3 7B**: ~4–5 GB (Q4), ~8 GB (Q5)
-- **Mistral 7B**: ~4–5 GB (Q4), ~8 GB (Q5)
-- **Phi 2**: ~2.5 GB (Q4)
+- [**LLaMA 3 7B**](https://huggingface.co/meta-llama/Meta-Llama-3-8B): ~4–5 GB (Q4), ~8 GB (Q5)
+- [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1): ~4–5 GB (Q4), ~8 GB (Q5)
+- [**Phi 2**](https://huggingface.co/microsoft/phi-2): ~2.5 GB (Q4)
 
 **Reality:** Runs on M2 Max easily. 15–40 tok/s depending on chip.
 
@@ -30,14 +41,14 @@ Different models have wildly different memory demands. Here's what you actually 
 **Reality:** Comfortable on M2 Max, excellent on M2 Ultra. 20–40 tok/s is standard.
 
 ### Large dense models (needs real hardware)
-- **LLaMA 3 70B**: ~38–42 GB (Q4), ~65 GB (Q5)
-- **Mixtral 8x7B MoE**: ~14–16 GB (Q4), ~24 GB (Q5)
+- [**LLaMA 3 70B**](https://huggingface.co/meta-llama/Meta-Llama-3-70B): ~38–42 GB (Q4), ~65 GB (Q5)
+- [**Mixtral 8x7B MoE**](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1): ~14–16 GB (Q4), ~24 GB (Q5)
 
 **Reality:** Mixtral works well on M2 Ultra. 70B needs M3 Ultra or a GPU rig.
 
 ### Mixture-of-experts (tricky)
-- **Qwen3.6-35B-A3B** (3B active): ~19–22 GB (Q4), ~36 GB (Q8)
-- **Mixtral 8x22B**: ~24–28 GB (Q4), ~40 GB (Q5)
+- [**Qwen 35B MoE**](https://huggingface.co/Qwen) (3B active): ~19–22 GB (Q4), ~36 GB (Q8)
+- [**Mixtral 8x22B**](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1): ~24–28 GB (Q4), ~40 GB (Q5)
 
 **Reality:** You must load all weights even though only part activates. Needs M2 Ultra minimum.
 
@@ -217,7 +228,7 @@ A single RTX 4090:
 - Mac is simpler, cheaper running costs, unified memory
 - You're paying for convenience more than performance
 
-Both are legitimate choices. Mac Studio is the right call if you value simplicity.
+Both are legitimate choices. Mac Studio is the right call if you value simplicity. For a detailed side-by-side with NVIDIA's purpose-built AI box, see [DGX Spark vs Mac Studio](/ai/dgx-spark-vs-mac-studio/) - prefill speed, CUDA fine-tuning, and the hybrid setup that beats either alone.
 
 ## Popular models ranked by memory + performance
 
@@ -275,3 +286,11 @@ Since you're choosing both a Mac and a model, here's what actually matters:
 ## Reference
 
 - [Mac Studio specs](https://www.apple.com/mac-studio/specs/) - Official Apple configurations
+- [Apple MLX documentation](https://ml-explore.github.io/mlx/) - Framework optimised for Apple Silicon
+- [llama.cpp Metal backend](https://github.com/ggerganov/llama.cpp/blob/master/docs/build.md#metal-build) - How Metal acceleration works on Mac
+
+## Related reading
+
+- [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/) - Full comparison with NVIDIA's Blackwell-powered AI appliance
+- [Running AI Models Locally with Ollama](/ai/ollama/) - Practical walkthrough of the easiest local-inference stack
+- [Local vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/) - When to run locally versus pay per token
