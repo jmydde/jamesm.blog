@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 05:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 07:12:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Cloud Subscriptions: Comparing Pricing and Features in 2026</title>
+      <link>https://jamesm.blog/ai/ai-cloud-subscriptions/</link>
+      <pubDate>Sun, 19 Apr 2026 07:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-cloud-subscriptions/</guid>
+      <description>A 2026 buyer&amp;#39;s guide to AI cloud subscriptions. Compare API pricing, context windows, rate limits, and consumer plans across Anthropic, OpenAI, Google, Microsoft, xAI, Mistral, and DeepSeek.</description>
+    </item>
     <item>
       <title>DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?</title>
       <link>https://jamesm.blog/ai/dgx-spark-vs-mac-studio/</link>
