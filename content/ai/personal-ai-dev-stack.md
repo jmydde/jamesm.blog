@@ -3,6 +3,7 @@ title: "Personal AI Development Stack"
 date: 2026-04-03T23:09:25+01:00
 draft: false
 tags: ['ai']
+description: "A practical, AI-driven development stack combining cloud and local LLMs, terminal tools, IDEs, and mobile access for persistent, productive workflows."
 ---
 
 This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.
@@ -12,29 +13,24 @@ This guide documents a highly productive, AI-driven development stack using clou
 ## Architecture Overview
 
 ### Hardware & Connectivity
-```
-iPhone ──(Tailscale VPN)──→ MacBook Air
-                              ├─ tmux/zellij (session persistence)
-                              └─ Lungo, Patterned (keep-awake utilities)
-```
+
+An iPhone connects over Tailscale VPN to a MacBook Air. The MacBook runs tmux or zellij for session persistence, alongside Lungo or Patterned as keep-awake utilities.
 
 ### IDE & Editor Layer
-```
-PRIMARY: Cursor AI  -  fastest iteration with native AI engine
-SECONDARY: VS Code (+ Cline + Continue.dev)  -  battle-tested
-TERMINAL: Claude Code CLI  -  heavy multi-file work
-SSH: Termius (mobile remote access)
-```
+
+- **Primary:** Cursor AI  -  fastest iteration with a native AI engine
+- **Secondary:** VS Code (with Cline and Continue.dev)  -  battle-tested
+- **Terminal:** Claude Code CLI  -  heavy multi-file work
+- **SSH:** Termius  -  mobile remote access
 
 [Cursor](https://www.cursor.com/) | [VS Code](https://code.visualstudio.com/) | [Cline](https://github.com/cline/cline) | [Continue.dev](https://continue.dev/) | [Claude Code](https://code.claude.com/) | [Termius](https://www.termius.com/)
 
 ### AI Tools & LLM Backends
-```
-AGENTS:  Cline, Claude Code, Aider, Windsurf
-LOCAL:   Ollama (free, instant completions)
-ROUTERS: OpenRouter, LiteLLM (cost & speed optimization)
-WEB:     ChatGPT, Perplexity, Claude Web, Grok
-```
+
+- **Agents:** Cline, Claude Code, Aider, Windsurf
+- **Local:** Ollama  -  free, instant completions
+- **Routers:** OpenRouter, LiteLLM  -  cost and speed optimization
+- **Web:** ChatGPT, Perplexity, Claude Web, Grok
 
 [Aider](https://aider.chat/) | [Windsurf](https://codeium.com/windsurf) | [Ollama](https://ollama.ai/) | [OpenRouter](https://openrouter.ai/) | [LiteLLM](https://litellm.ai/) | [ChatGPT](https://chatgpt.com/) | [Perplexity](https://www.perplexity.ai/) | [Grok](https://x.com/i/grok)
 
@@ -51,7 +47,7 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 | Testing & test generation | Aider (CLI) | Specialized for tests, iterative | 10-30s | Free |
 | Research + citations | Perplexity Web | Built-in fact-checking | 5-10s | Free |
 | Image generation | Grok / Gemini | Purpose-built for images | 5-20s | Variable |
-| Local completions (offline) | Ollama (Llama2 7B) | Zero cost, instant | <100ms | Free |
+| Local completions (offline) | Ollama (Qwen 2.5 Coder 7B) | Zero cost, instant | <100ms | Free |
 | Complex problem-solving | Claude Code + ChatGPT | Two perspectives, no blind spots | 1-2m | Combined |
 | Code review + refactoring | Continue.dev (VS Code) | Good at style suggestions | 10-30s | Free |
 
@@ -65,16 +61,17 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 - **Connection:** Via **Tailscale VPN** for secure, private access to your MacBook (no port forwarding).
 
 ### Tailscale VPN
-- **Purpose:** Secure, on-demand VPN that allows devices to communicate without exposing ports publicly.
+- **Purpose:** Secure, on-demand [WireGuard-based](https://www.wireguard.com/) VPN that allows devices to communicate without exposing ports publicly.
 - **Setup:** `brew install tailscale && tailscale up`
 - **Use case:** Connect iPhone/iPad to your MacBook seamlessly, share files, run remote commands.
+- **Learn more:** [Tailscale](https://tailscale.com/)
 
 ### MacBook
 - **Purpose:** Primary development machine.
 - **Enhancements:**
-  - **tmux / zellij:** Terminal multiplexers for persistent, multi-pane sessions.
+  - **[tmux](https://github.com/tmux/tmux) / [zellij](https://zellij.dev/):** Terminal multiplexers for persistent, multi-pane sessions.
   - **Lungo** or **Patterned:** Keep display awake without dimming during long coding sessions.
-  - **caffeinate:** Command-line utility to prevent sleep during long-running tasks: `caffeinate -dims &`
+  - **caffeinate:** Built-in macOS utility to prevent sleep during long-running tasks: `caffeinate -dims &`
 
 ### IDEs and Terminals
 
@@ -113,12 +110,13 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
 
 | Task Type | Recommended Model | Reason | Cost |
 |-----------|-------------------|--------|------|
-| Code generation | Claude 3.7 Sonnet | Best for logic, edge cases | $0.003-0.015/task |
-| Quick completions | Ollama Llama3.2 | Instant, local, free | Free |
-| Research + facts | Perplexity/Web | Built-in web search, citations | Free / Pro |
-| Image generation | Grok-2 or Gemini 2.0 | Fast visual reasoning | Variable |
-| Debugging | Claude Opus 4.6 | Strongest at error analysis | $0.015-0.06/task |
-| Long-context tasks | Claude 3.7 Sonnet | 200K token window | $0.003-0.015/task |
+| Code generation | [Claude Sonnet 4.6](https://www.anthropic.com/claude) | Best for logic, edge cases | $0.003-0.015/task |
+| Quick completions | Ollama (Llama 3.3 or Qwen 2.5 Coder) | Instant, local, free | Free |
+| Research + facts | [Perplexity](https://www.perplexity.ai/) | Built-in web search, citations | Free / Pro |
+| Image generation | [Grok](https://x.com/i/grok) or [Gemini](https://gemini.google.com/) | Fast visual reasoning | Variable |
+| Debugging | [Claude Opus 4.7](https://www.anthropic.com/claude) | Strongest at error analysis | $0.015-0.06/task |
+| Long-context tasks | Claude Sonnet 4.6 | 200K+ token window | $0.003-0.015/task |
+| Cheap batch tasks | [Claude Haiku 4.5](https://www.anthropic.com/claude) | Fastest Claude model, low cost | $0.001-0.005/task |
 
 ### Setup: OpenRouter or LiteLLM
 
@@ -133,15 +131,10 @@ WEB:     ChatGPT, Perplexity, Claude Web, Grok
    - Use in scripts: `from litellm import completion; response = completion(...)`
 
 ### Example Routing Logic
-```bash
-# For fast tasks (under 30s deadline):
-export LLM_PRIMARY=ollama  # Local, instant
-export LLM_FALLBACK=openrouter/gpt-3.5-turbo  # Cheap backup
 
-# For complex tasks (no time limit):
-export LLM_PRIMARY=claude  # Best reasoning
-export LLM_FALLBACK=gpt4-turbo  # Second opinion
-```
+For fast tasks (under a 30-second deadline), set your primary model to Ollama (local and instant) with a cheap backup such as a smaller hosted model via OpenRouter.
+
+For complex tasks without a time limit, set your primary model to Claude for best reasoning, and use a second frontier model (such as GPT-4 Turbo) as a fallback for a second opinion.
 
 ---
 
@@ -222,8 +215,8 @@ export LLM_FALLBACK=gpt4-turbo  # Second opinion
 - **Check:** `tailscale status` should show your devices
 
 **Problem: Ollama is slow / consuming all CPU**
-- **Cause:** Model too large (7B Llama2 is borderline), or system under load
-- **Solution:** Switch to smaller model (3B) or use cloud LLMs for critical tasks
+- **Cause:** Model too large for available RAM, or system under load
+- **Solution:** Switch to a smaller model (e.g., Qwen 2.5 Coder 3B) or use cloud LLMs for critical tasks
 - **Check:** `ollama ps` to see running models
 
 **Problem: IDE/CLI tools conflicting over API keys**
@@ -261,23 +254,13 @@ Use these to estimate task completion time and pick the right tool:
 
 ## Keyboard Shortcuts for Speed
 
-Add these aliases and keybindings to `~/.zshrc`:
+Add these aliases and keybindings to your `~/.zshrc`:
 
-```bash
-# Quick AI access
-alias claude='claude code'
-alias aider='aider'
-alias perp='open https://www.perplexity.ai'
+**Quick AI access:** alias `claude` to `claude code`, alias `aider` to `aider`, and alias `perp` to open the Perplexity web app in your browser.
 
-# Terminal multiplexing
-alias devs='tmux attach -t dev || tmux new -s dev'
-alias devkill='tmux kill-session -t dev'
+**Terminal multiplexing:** alias `devs` to attach to the `dev` tmux session (or create one if it doesn't exist), and alias `devkill` to kill it.
 
-# Tailscale shortcuts
-alias tailon='tailscale up'
-alias tailoff='tailscale down'
-alias tailstatus='tailscale status'
-```
+**Tailscale shortcuts:** alias `tailon` to `tailscale up`, `tailoff` to `tailscale down`, and `tailstatus` to `tailscale status`.
 
 ### IDE Keybindings
 
@@ -315,12 +298,8 @@ alias tailstatus='tailscale status'
 ## Workflow Example
 
 ### Morning Setup (2 mins)
-```bash
-tmux new -s dev -d
-caffeinate -dims &
-tailscale up
-echo "Dev environment ready"
-```
+
+Start a detached tmux session named `dev`, run `caffeinate -dims &` to prevent sleep, and bring Tailscale up. Your dev environment is now ready to attach to from any device on your tailnet.
 
 ### During Coding (all day)
 1. **Quick edit** → Cursor AI inline (Cmd+K)
@@ -331,10 +310,8 @@ echo "Dev environment ready"
 6. **On mobile** → SSH via Termius → attach to dev tmux session
 
 ### Evening Cleanup
-```bash
-tmux kill-session -t dev
-tailscale down
-```
+
+Kill the `dev` tmux session and bring Tailscale down to close out for the day.
 
 ---
 
