@@ -4,6 +4,9 @@ date: 2026-04-18T08:15:00+01:00
 draft: false
 tags: ["ai", "best-practice", "learning", "resource"]
 description: "A comprehensive guide to the best resources and practices for working effectively with AI models, from prompt engineering to system design."
+cover:
+  image: assets/images/ai/ai-resources-best-practices.jpg
+  alt: AI Resources & Best Practices Banner
 ---
 
 The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
