@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Society on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/society/</link>
+    <description>Recent content in Society on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Apr 2026 19:26:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/society/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Four Futures for the Machine-Speed Economy</title>
+      <link>https://jamesm.blog/ai/four-futures-machine-speed-economy/</link>
+      <pubDate>Sun, 19 Apr 2026 19:26:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/four-futures-machine-speed-economy/</guid>
+      <description>A map of four plausible futures - broad abundance, winner-take-most, techno-feudalism, and a managed transition - with the signals that suggest which one is emerging.</description>
+    </item>
+  </channel>
+</rss>
