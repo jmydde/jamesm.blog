@@ -385,14 +385,7 @@
       <link>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</link>
       <pubDate>Sun, 05 Apr 2026 23:16:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</guid>
-      <description>&lt;h1 id=&#34;-gpu-servers-vs-ai-api-credits-the-real-cost-breakdown-2026&#34;&gt;🧠 GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)&lt;/h1&gt;
-&lt;p&gt;If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Should I rent a GPU and run models myself, or just pay for API credits?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;At first glance, APIs feel expensive. GPUs feel powerful.
-But the real answer is more nuanced - and getting it wrong can cost you &lt;em&gt;a lot&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Let’s break it down properly.&lt;/p&gt;</description>
+      <description>A practical 2026 breakdown of when to rent GPUs versus buy API credits, with cost-per-token figures, break-even thresholds, and a hybrid architecture playbook.</description>
     </item>
     <item>
       <title>DevOps in the Age of AI Agents</title>

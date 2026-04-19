@@ -8,16 +8,24 @@ description: "In 2026, the choice between running AI locally or in the cloud is 
 
 By early 2026, the "Local vs. Cloud" debate has moved past the experimental phase. We are no longer just "trying to see if Llama runs on a Mac." Instead, professional engineers are building sophisticated [Hybrid AI Stacks](/ai/claude_code_limits-hybrid_ai_stack/) where local and cloud models work in tandem.
 
-The landscape has shifted because the hardware caught up to the software. With the prevalence of unified memory on Apple Silicon and the accessibility of 24GB+ VRAM cards like the RTX 50-series, the "local" ceiling has been smashed.
+The landscape has shifted because the hardware caught up to the software. With the prevalence of [unified memory on Apple Silicon](https://www.apple.com/mac/) and the accessibility of 24GB+ VRAM cards like the [RTX 50-series](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/), the "local" ceiling has been smashed.
 
 Here is the tradeoff landscape as it stands today.
+
+## TL;DR
+
+- **Cloud wins** on frontier reasoning, long-context analysis, and spiky workloads you cannot size hardware for.
+- **Local wins** on privacy, sub-100ms latency, offline work, and predictable cost at high token volumes.
+- **Hybrid routers** (LiteLLM, OpenRouter) are the default architecture in 2026 - local for execution, cloud for planning.
+- **Break-even point:** if your team burns more than ~10M tokens a day, local hardware pays for itself within a quarter.
 
 ## 1. The Intelligence Gap: Reasoning Density
 
 Despite the massive growth in Small Language Models (SLMs), there is still a clear hierarchy in "reasoning density."
 
 - **Cloud (Frontier Models):** Models like [Claude 4.6](https://www.anthropic.com/research) or GPT-5.x remain the undisputed kings of complex architectural reasoning. If you need to untangle a circular dependency across twenty microservices, you send that to the cloud.
-- **Local (Edge Models):** Models in the 7B to 32B range (like [Qwen](https://qwenlm.github.io/) 2.5 Coder or [DeepSeek V3](https://github.com/deepseek-ai)) are now "perfect" for 90% of coding tasks. They handle function implementation, unit tests, and refactoring with ease.
+- **Local (Edge Models):** Models in the 7B to 32B range (like [Qwen 2.5 Coder](https://qwenlm.github.io/) or [DeepSeek V3](https://github.com/deepseek-ai)) are now "perfect" for 90% of coding tasks. They handle function implementation, unit tests, and refactoring with ease.
+- **Mid-tier (SLMs):** [Phi-4](https://huggingface.co/microsoft) and [Gemma 3](https://ai.google.dev/gemma) sit at the sweet spot for instruction-following on modest hardware - capable enough for summarisation and search augmentation without needing a workstation GPU.
 
 **The 2026 Rule:** Use the Cloud for *planning* and Local for *execution*.
 
@@ -62,9 +70,21 @@ The most successful setups I see this year don't choose one; they use a router-b
 2.  **Cheap Cloud (Fallback):** When local resources are under heavy load or for non-sensitive research.
 3.  **Frontier Cloud (Escalation):** Triggered only when the local model flags a "High Complexity" task or when architectural judgment is required.
 
+## A Quick Decision Matrix
+
+| Situation | Choose |
+| :--- | :--- |
+| Regulated data, IP-sensitive code | Local |
+| Inline autocomplete, inline chat | Local |
+| Flights, remote sites, air-gapped envs | Local |
+| Multi-file refactors, architecture review | Frontier Cloud |
+| One-off long-document analysis | Cloud |
+| Spiky workloads that idle for days | Cloud |
+| Sustained >10M tokens/day | Local (with cloud fallback) |
+
 ## Conclusion
 
-The "Tradeoff Landscape" is now about **Context vs. Control**. 
+The "Tradeoff Landscape" is now about **Context vs. Control**.
 
 If you want the absolute cutting edge of human knowledge and reasoning, the Cloud is your destination. If you want speed, privacy, and predictable costs, Local is your home base. The best engineers in 2026 are those who know exactly when to leave home.
 
