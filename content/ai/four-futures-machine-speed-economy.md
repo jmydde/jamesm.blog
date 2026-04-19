@@ -4,6 +4,9 @@ date: 2026-04-19T19:26:00+01:00
 draft: false
 tags: ["ai", "economy", "future", "society"]
 description: "A map of four plausible futures - broad abundance, winner-take-most, techno-feudalism, and a managed transition - with the signals that suggest which one is emerging."
+cover:
+  image: /assets/images/ai/four-futures-machine-speed-economy.jpg
+  alt: Four Futures Machine Speed Economy Banner
 ---
 
 The pace of AI development over the past three years is genuinely unlike anything in recent economic history. The [Stanford AI Index](https://aiindex.stanford.edu/) has tracked frontier model capability roughly doubling on a yearly cadence, and private AI investment has reached levels that dwarf the dot-com peak in inflation-adjusted terms. What's less widely understood is what that pace actually means for competition, investment, and the structure of the economy.
