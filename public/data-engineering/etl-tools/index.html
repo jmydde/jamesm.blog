@@ -6,56 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>ETL Tools &amp; Data Integration Platforms | jamesm.blog</title>
-<meta name="keywords" content="abinitio, aws, azure, data, etl, data-integration, data-pipelines, tool">
-<meta name="description" content="What is ETL?
-ETL is a foundational data engineering process:
-
-Extract - Retrieve data from various sources (databases, APIs, files, cloud services)
-Transform - Clean, validate, and reshape data into required data models
-Load - Move processed data into data warehouses, data lakes, or analytical systems
-
-ETL ensures data quality, consistency, and accessibility for analytics and reporting.
-Cloud-Native ETL Platforms
-AWS
-
-AWS Glue - Serverless ETL service with visual job editor and PySpark/Scala support. Best for AWS-native workloads
-AWS Data Pipeline - Orchestration service for workflow automation and scheduling
-
-Azure
-
-Azure Data Factory - Hybrid data integration service for both cloud and on-premises. Visual pipeline builder with 90&#43; connectors
-
-Google Cloud
-
-Google Cloud Dataflow - Serverless, fully managed data processing (Apache Beam). Excellent for both batch and streaming pipelines
-
-Enterprise &amp; Legacy ETL Tools
-
-Ab Initio - Enterprise-grade platform for large-scale data integration. Strong in financial services and manufacturing
-Datastage - IBM&rsquo;s flagship ETL tool with robust enterprise features and governance capabilities
-Informatica - Market leader in enterprise data integration with comprehensive MDM and cloud integration capabilities
-Talend - Open-source based platform with cloud-native options. Strong in real-time data integration
-SAP Data Services - SAP ecosystem integration and enterprise data quality
-
-Modern &amp; Low-Code Platforms
-
-Matillion - Cloud-first platform for data warehouse automation. Native integrations with Snowflake, Databricks, and Redshift
-CloverDX - Low-code integration platform with strong data quality capabilities
-Qlik Compose - Data warehouse automation for cloud platforms
-Pentaho Data Integration (PDI) - Open-source ETL with visual job designer
-
-Cloud Integration &amp; SaaS Platforms
-
-Hevo - No-code data pipeline platform. 150&#43; pre-built connectors with automatic schema updates
-Integrate - iPaaS platform for connecting cloud and on-premises systems
-Stitch - Data integration platform focused on simplicity and rapid deployment
-
-Microsoft Stack
-
-SQL Server Integration Services (SSIS) - Integrated with SQL Server and Azure ecosystem. Excellent for Windows-based enterprises
-
-Choosing Your ETL Tool
-Consider these factors:">
+<meta name="keywords" content="abinitio, aws, azure, data, etl, data-integration, data-pipeline, tool">
+<meta name="description" content="Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/data-engineering/etl-tools/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
@@ -121,16 +73,14 @@ Consider these factors:">
 </script><meta property="og:url" content="https://jamesm.blog/data-engineering/etl-tools/">
   <meta property="og:site_name" content="jamesm.blog">
   <meta property="og:title" content="ETL Tools & Data Integration Platforms">
-  <meta property="og:description" content="What is ETL? ETL is a foundational data engineering process:
-Extract - Retrieve data from various sources (databases, APIs, files, cloud services) Transform - Clean, validate, and reshape data into required data models Load - Move processed data into data warehouses, data lakes, or analytical systems ETL ensures data quality, consistency, and accessibility for analytics and reporting.
-Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job editor and PySpark/Scala support. Best for AWS-native workloads AWS Data Pipeline - Orchestration service for workflow automation and scheduling Azure Azure Data Factory - Hybrid data integration service for both cloud and on-premises. Visual pipeline builder with 90&#43; connectors Google Cloud Google Cloud Dataflow - Serverless, fully managed data processing (Apache Beam). Excellent for both batch and streaming pipelines Enterprise &amp; Legacy ETL Tools Ab Initio - Enterprise-grade platform for large-scale data integration. Strong in financial services and manufacturing Datastage - IBM’s flagship ETL tool with robust enterprise features and governance capabilities Informatica - Market leader in enterprise data integration with comprehensive MDM and cloud integration capabilities Talend - Open-source based platform with cloud-native options. Strong in real-time data integration SAP Data Services - SAP ecosystem integration and enterprise data quality Modern &amp; Low-Code Platforms Matillion - Cloud-first platform for data warehouse automation. Native integrations with Snowflake, Databricks, and Redshift CloverDX - Low-code integration platform with strong data quality capabilities Qlik Compose - Data warehouse automation for cloud platforms Pentaho Data Integration (PDI) - Open-source ETL with visual job designer Cloud Integration &amp; SaaS Platforms Hevo - No-code data pipeline platform. 150&#43; pre-built connectors with automatic schema updates Integrate - iPaaS platform for connecting cloud and on-premises systems Stitch - Data integration platform focused on simplicity and rapid deployment Microsoft Stack SQL Server Integration Services (SSIS) - Integrated with SQL Server and Azure ecosystem. Excellent for Windows-based enterprises Choosing Your ETL Tool Consider these factors:">
+  <meta property="og:description" content="Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="data-engineering">
-    <meta property="article:published_time" content="2021-01-01T06:51:25+01:00">
-    <meta property="article:modified_time" content="2021-01-01T06:51:25+01:00">
+    <meta property="article:published_time" content="2026-04-19T07:30:00+01:00">
+    <meta property="article:modified_time" content="2026-04-19T07:30:00+01:00">
     <meta property="article:tag" content="Abinitio">
-    <meta property="article:tag" content="AWS">
+    <meta property="article:tag" content="Aws">
     <meta property="article:tag" content="Azure">
     <meta property="article:tag" content="Data">
     <meta property="article:tag" content="Etl">
@@ -140,9 +90,7 @@ Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
   <meta name="twitter:title" content="ETL Tools & Data Integration Platforms">
-  <meta name="twitter:description" content="What is ETL? ETL is a foundational data engineering process:
-Extract - Retrieve data from various sources (databases, APIs, files, cloud services) Transform - Clean, validate, and reshape data into required data models Load - Move processed data into data warehouses, data lakes, or analytical systems ETL ensures data quality, consistency, and accessibility for analytics and reporting.
-Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job editor and PySpark/Scala support. Best for AWS-native workloads AWS Data Pipeline - Orchestration service for workflow automation and scheduling Azure Azure Data Factory - Hybrid data integration service for both cloud and on-premises. Visual pipeline builder with 90&#43; connectors Google Cloud Google Cloud Dataflow - Serverless, fully managed data processing (Apache Beam). Excellent for both batch and streaming pipelines Enterprise &amp; Legacy ETL Tools Ab Initio - Enterprise-grade platform for large-scale data integration. Strong in financial services and manufacturing Datastage - IBM’s flagship ETL tool with robust enterprise features and governance capabilities Informatica - Market leader in enterprise data integration with comprehensive MDM and cloud integration capabilities Talend - Open-source based platform with cloud-native options. Strong in real-time data integration SAP Data Services - SAP ecosystem integration and enterprise data quality Modern &amp; Low-Code Platforms Matillion - Cloud-first platform for data warehouse automation. Native integrations with Snowflake, Databricks, and Redshift CloverDX - Low-code integration platform with strong data quality capabilities Qlik Compose - Data warehouse automation for cloud platforms Pentaho Data Integration (PDI) - Open-source ETL with visual job designer Cloud Integration &amp; SaaS Platforms Hevo - No-code data pipeline platform. 150&#43; pre-built connectors with automatic schema updates Integrate - iPaaS platform for connecting cloud and on-premises systems Stitch - Data integration platform focused on simplicity and rapid deployment Microsoft Stack SQL Server Integration Services (SSIS) - Integrated with SQL Server and Azure ecosystem. Excellent for Windows-based enterprises Choosing Your ETL Tool Consider these factors:">
+  <meta name="twitter:description" content="Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.">
 
 
 <script type="application/ld+json">
@@ -171,15 +119,15 @@ Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job
   "@type": "BlogPosting",
   "headline": "ETL Tools \u0026 Data Integration Platforms",
   "name": "ETL Tools \u0026 Data Integration Platforms",
-  "description": "What is ETL? ETL is a foundational data engineering process:\nExtract - Retrieve data from various sources (databases, APIs, files, cloud services) Transform - Clean, validate, and reshape data into required data models Load - Move processed data into data warehouses, data lakes, or analytical systems ETL ensures data quality, consistency, and accessibility for analytics and reporting.\nCloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job editor and PySpark/Scala support. Best for AWS-native workloads AWS Data Pipeline - Orchestration service for workflow automation and scheduling Azure Azure Data Factory - Hybrid data integration service for both cloud and on-premises. Visual pipeline builder with 90+ connectors Google Cloud Google Cloud Dataflow - Serverless, fully managed data processing (Apache Beam). Excellent for both batch and streaming pipelines Enterprise \u0026amp; Legacy ETL Tools Ab Initio - Enterprise-grade platform for large-scale data integration. Strong in financial services and manufacturing Datastage - IBM\u0026rsquo;s flagship ETL tool with robust enterprise features and governance capabilities Informatica - Market leader in enterprise data integration with comprehensive MDM and cloud integration capabilities Talend - Open-source based platform with cloud-native options. Strong in real-time data integration SAP Data Services - SAP ecosystem integration and enterprise data quality Modern \u0026amp; Low-Code Platforms Matillion - Cloud-first platform for data warehouse automation. Native integrations with Snowflake, Databricks, and Redshift CloverDX - Low-code integration platform with strong data quality capabilities Qlik Compose - Data warehouse automation for cloud platforms Pentaho Data Integration (PDI) - Open-source ETL with visual job designer Cloud Integration \u0026amp; SaaS Platforms Hevo - No-code data pipeline platform. 150+ pre-built connectors with automatic schema updates Integrate - iPaaS platform for connecting cloud and on-premises systems Stitch - Data integration platform focused on simplicity and rapid deployment Microsoft Stack SQL Server Integration Services (SSIS) - Integrated with SQL Server and Azure ecosystem. Excellent for Windows-based enterprises Choosing Your ETL Tool Consider these factors:\n",
+  "description": "Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.",
   "keywords": [
-    "abinitio", "aws", "azure", "data", "etl", "data-integration", "data-pipelines", "tool"
+    "abinitio", "aws", "azure", "data", "etl", "data-integration", "data-pipeline", "tool"
   ],
-  "articleBody": "What is ETL? ETL is a foundational data engineering process:\nExtract - Retrieve data from various sources (databases, APIs, files, cloud services) Transform - Clean, validate, and reshape data into required data models Load - Move processed data into data warehouses, data lakes, or analytical systems ETL ensures data quality, consistency, and accessibility for analytics and reporting.\nCloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job editor and PySpark/Scala support. Best for AWS-native workloads AWS Data Pipeline - Orchestration service for workflow automation and scheduling Azure Azure Data Factory - Hybrid data integration service for both cloud and on-premises. Visual pipeline builder with 90+ connectors Google Cloud Google Cloud Dataflow - Serverless, fully managed data processing (Apache Beam). Excellent for both batch and streaming pipelines Enterprise \u0026 Legacy ETL Tools Ab Initio - Enterprise-grade platform for large-scale data integration. Strong in financial services and manufacturing Datastage - IBM’s flagship ETL tool with robust enterprise features and governance capabilities Informatica - Market leader in enterprise data integration with comprehensive MDM and cloud integration capabilities Talend - Open-source based platform with cloud-native options. Strong in real-time data integration SAP Data Services - SAP ecosystem integration and enterprise data quality Modern \u0026 Low-Code Platforms Matillion - Cloud-first platform for data warehouse automation. Native integrations with Snowflake, Databricks, and Redshift CloverDX - Low-code integration platform with strong data quality capabilities Qlik Compose - Data warehouse automation for cloud platforms Pentaho Data Integration (PDI) - Open-source ETL with visual job designer Cloud Integration \u0026 SaaS Platforms Hevo - No-code data pipeline platform. 150+ pre-built connectors with automatic schema updates Integrate - iPaaS platform for connecting cloud and on-premises systems Stitch - Data integration platform focused on simplicity and rapid deployment Microsoft Stack SQL Server Integration Services (SSIS) - Integrated with SQL Server and Azure ecosystem. Excellent for Windows-based enterprises Choosing Your ETL Tool Consider these factors:\nScale - Processing volume and data complexity requirements Ecosystem - Integration with existing cloud provider or on-premises infrastructure Code vs. Visual - Preference for programmatic (Python, Scala) vs. visual pipeline builders Cost Model - Subscription-based, per-run, or open-source Specialized Needs - Real-time streaming, unstructured data, machine learning integration ",
-  "wordCount" : "363",
+  "articleBody": "What is ETL? ETL is a foundational data engineering process that powers modern analytics:\nExtract - Retrieve data from various sources (databases, APIs, files, cloud services, streaming platforms) Transform - Clean, validate, deduplicate, and reshape data into required data models Load - Move processed data into data warehouses, data lakes, or analytical systems ETL ensures data quality, consistency, and accessibility for analytics and reporting. Modern variants include ELT (Extract-Load-Transform), which leverages cloud data warehouse compute for transformation.\nCloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job editor and PySpark/Scala support. Best for AWS-native workloads AWS Data Pipeline - Orchestration service for workflow automation and scheduling Azure Azure Data Factory - Hybrid data integration service for both cloud and on-premises. Visual pipeline builder with 90+ connectors Google Cloud Google Cloud Dataflow - Serverless, fully managed data processing (Apache Beam). Excellent for both batch and streaming pipelines Enterprise \u0026 Legacy ETL Tools Ab Initio - Enterprise-grade platform for large-scale data integration. Strong in financial services and manufacturing Datastage - IBM’s flagship ETL tool with robust enterprise features and governance capabilities Informatica - Market leader in enterprise data integration with comprehensive MDM and cloud integration capabilities Talend - Open-source based platform with cloud-native options. Strong in real-time data integration SAP Data Services - SAP ecosystem integration and enterprise data quality Modern \u0026 Low-Code Platforms Matillion - Cloud-first platform for data warehouse automation. Native integrations with Snowflake, Databricks, and Redshift CloverDX - Low-code integration platform with strong data quality capabilities Qlik Compose - Data warehouse automation for cloud platforms Pentaho Data Integration (PDI) - Open-source ETL with visual job designer Cloud Integration \u0026 SaaS Platforms Hevo - No-code data pipeline platform. 150+ pre-built connectors with automatic schema updates Integrate - iPaaS platform for connecting cloud and on-premises systems Stitch - Data integration platform focused on simplicity and rapid deployment Microsoft Stack SQL Server Integration Services (SSIS) - Integrated with SQL Server and Azure ecosystem. Excellent for Windows-based enterprises Choosing Your ETL Tool Consider these factors:\nScale - Processing volume and data complexity requirements (batch vs. real-time streaming) Ecosystem - Integration with existing cloud provider (AWS, Azure, GCP) or on-premises infrastructure Code vs. Visual - Preference for programmatic (Python, Scala, SQL) vs. visual pipeline builders Cost Model - Subscription-based, per-run consumption, open-source, or enterprise licensing Specialized Needs - Real-time streaming, unstructured data, machine learning integration, data governance Team Expertise - Learning curve and alignment with existing skills (DataOps, Python, SQL) Time to Value - Balance between quick deployment and long-term maintainability ",
+  "wordCount" : "420",
   "inLanguage": "en",
-  "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2021-01-01T06:51:25+01:00",
-  "dateModified": "2021-01-01T06:51:25+01:00",
+  "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2026-04-19T07:30:00+01:00",
+  "dateModified": "2026-04-19T07:30:00+01:00",
   "author":{
     "@type": "Person",
     "name": "James M"
@@ -299,7 +247,10 @@ Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job
     <h1 class="post-title entry-hint-parent">
       ETL Tools &amp; Data Integration Platforms
     </h1>
-    <div class="post-meta"><span title='2021-01-01 06:51:25 +0100 +0100'>January 1, 2021</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span>
+    <div class="post-description">
+      Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.
+    </div>
+    <div class="post-meta"><span title='2026-04-19 07:30:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
   </header> <div class="toc">
@@ -338,13 +289,13 @@ Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job
 </div>
 
   <div class="post-content"><h2 id="what-is-etl">What is ETL?<a hidden class="anchor" aria-hidden="true" href="#what-is-etl">#</a></h2>
-<p>ETL is a foundational data engineering process:</p>
+<p>ETL is a foundational data engineering process that powers modern analytics:</p>
 <ul>
-<li><strong>Extract</strong> - Retrieve data from various sources (databases, APIs, files, cloud services)</li>
-<li><strong>Transform</strong> - Clean, validate, and reshape data into required data models</li>
+<li><strong>Extract</strong> - Retrieve data from various sources (databases, APIs, files, cloud services, streaming platforms)</li>
+<li><strong>Transform</strong> - Clean, validate, deduplicate, and reshape data into required data models</li>
 <li><strong>Load</strong> - Move processed data into data warehouses, data lakes, or analytical systems</li>
 </ul>
-<p>ETL ensures data quality, consistency, and accessibility for analytics and reporting.</p>
+<p>ETL ensures data quality, consistency, and accessibility for analytics and reporting. Modern variants include ELT (Extract-Load-Transform), which leverages cloud data warehouse compute for transformation.</p>
 <h2 id="cloud-native-etl-platforms">Cloud-Native ETL Platforms<a hidden class="anchor" aria-hidden="true" href="#cloud-native-etl-platforms">#</a></h2>
 <h3 id="aws">AWS<a hidden class="anchor" aria-hidden="true" href="#aws">#</a></h3>
 <ul>
@@ -387,11 +338,13 @@ Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job
 <h2 id="choosing-your-etl-tool">Choosing Your ETL Tool<a hidden class="anchor" aria-hidden="true" href="#choosing-your-etl-tool">#</a></h2>
 <p><strong>Consider these factors:</strong></p>
 <ul>
-<li><strong>Scale</strong> - Processing volume and data complexity requirements</li>
-<li><strong>Ecosystem</strong> - Integration with existing cloud provider or on-premises infrastructure</li>
-<li><strong>Code vs. Visual</strong> - Preference for programmatic (Python, Scala) vs. visual pipeline builders</li>
-<li><strong>Cost Model</strong> - Subscription-based, per-run, or open-source</li>
-<li><strong>Specialized Needs</strong> - Real-time streaming, unstructured data, machine learning integration</li>
+<li><strong>Scale</strong> - Processing volume and data complexity requirements (batch vs. real-time streaming)</li>
+<li><strong>Ecosystem</strong> - Integration with existing cloud provider (AWS, Azure, GCP) or on-premises infrastructure</li>
+<li><strong>Code vs. Visual</strong> - Preference for programmatic (Python, Scala, SQL) vs. visual pipeline builders</li>
+<li><strong>Cost Model</strong> - Subscription-based, per-run consumption, open-source, or enterprise licensing</li>
+<li><strong>Specialized Needs</strong> - Real-time streaming, unstructured data, machine learning integration, data governance</li>
+<li><strong>Team Expertise</strong> - Learning curve and alignment with existing skills (DataOps, Python, SQL)</li>
+<li><strong>Time to Value</strong> - Balance between quick deployment and long-term maintainability</li>
 </ul>
 
 
@@ -400,24 +353,19 @@ Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://jamesm.blog/tags/abinitio/">Abinitio</a></li>
-      <li><a href="https://jamesm.blog/tags/aws/">AWS</a></li>
+      <li><a href="https://jamesm.blog/tags/aws/">Aws</a></li>
       <li><a href="https://jamesm.blog/tags/azure/">Azure</a></li>
       <li><a href="https://jamesm.blog/tags/data/">Data</a></li>
       <li><a href="https://jamesm.blog/tags/etl/">Etl</a></li>
       <li><a href="https://jamesm.blog/tags/data-integration/">Data-Integration</a></li>
-      <li><a href="https://jamesm.blog/tags/data-pipelines/">Data-Pipelines</a></li>
+      <li><a href="https://jamesm.blog/tags/data-pipeline/">Data-Pipeline</a></li>
       <li><a href="https://jamesm.blog/tags/tool/">Tool</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://jamesm.blog/devops/devops-conferences/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>List of DevOps Conferences</span>
-  </a>
-  <a class="next" href="https://jamesm.blog/retro-computing/favourite-computer-games/">
+  <a class="next" href="https://jamesm.blog/ai/ai-cloud-subscriptions/">
     <span class="title">Next »</span>
     <br>
-    <span>Favourite Computer Games</span>
+    <span>AI Cloud Subscriptions: Comparing Pricing and Features in 2026</span>
   </a>
 </nav>
 
@@ -425,7 +373,7 @@ Cloud-Native ETL Platforms AWS AWS Glue - Serverless ETL service with visual job
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share ETL Tools & Data Integration Platforms on x"
-            href="https://x.com/intent/tweet/?text=ETL%20Tools%20%26%20Data%20Integration%20Platforms&amp;url=https%3a%2f%2fjamesm.blog%2fdata-engineering%2fetl-tools%2f&amp;hashtags=abinitio%2caws%2cazure%2cdata%2cetl%2cdata-integration%2cdata-pipelines%2ctool">
+            href="https://x.com/intent/tweet/?text=ETL%20Tools%20%26%20Data%20Integration%20Platforms&amp;url=https%3a%2f%2fjamesm.blog%2fdata-engineering%2fetl-tools%2f&amp;hashtags=abinitio%2caws%2cazure%2cdata%2cetl%2cdata-integration%2cdata-pipeline%2ctool">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />

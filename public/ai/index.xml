@@ -241,22 +241,10 @@
     </item>
     <item>
       <title>Personal AI Development Stack</title>
-      <link>https://jamesm.blog/ai/my-ai-dev-stack/</link>
+      <link>https://jamesm.blog/ai/personal-ai-dev-stack/</link>
       <pubDate>Fri, 03 Apr 2026 23:09:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/my-ai-dev-stack/</guid>
-      <description>&lt;p&gt;This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;architecture-overview&#34;&gt;Architecture Overview&lt;/h2&gt;
-&lt;h3 id=&#34;hardware--connectivity&#34;&gt;Hardware &amp;amp; Connectivity&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;iPhone ──(Tailscale VPN)──→ MacBook Air
-                              ├─ tmux/zellij (session persistence)
-                              └─ Lungo, Patterned (keep-awake utilities)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ide--editor-layer&#34;&gt;IDE &amp;amp; Editor Layer&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PRIMARY: Cursor AI  -  fastest iteration with native AI engine
-SECONDARY: VS Code (+ Cline + Continue.dev)  -  battle-tested
-TERMINAL: Claude Code CLI  -  heavy multi-file work
-SSH: Termius (mobile remote access)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor&lt;/a&gt; | &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;VS Code&lt;/a&gt; | &lt;a href=&#34;https://github.com/cline/cline&#34;&gt;Cline&lt;/a&gt; | &lt;a href=&#34;https://continue.dev/&#34;&gt;Continue.dev&lt;/a&gt; | &lt;a href=&#34;https://code.claude.com/&#34;&gt;Claude Code&lt;/a&gt; | &lt;a href=&#34;https://www.termius.com/&#34;&gt;Termius&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://jamesm.blog/ai/personal-ai-dev-stack/</guid>
+      <description>A practical, AI-driven development stack combining cloud and local LLMs, terminal tools, IDEs, and mobile access for persistent, productive workflows.</description>
     </item>
     <item>
       <title>Claude Code Source Leak: Anthropic&#39;s 2,000-File Exposure and What It Means</title>

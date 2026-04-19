@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:11:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 07:30:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ETL Tools &amp; Data Integration Platforms</title>
+      <link>https://jamesm.blog/data-engineering/etl-tools/</link>
+      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
+      <description>Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.</description>
+    </item>
     <item>
       <title>Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure</title>
       <link>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</link>
