@@ -43,7 +43,7 @@ In [The Architect vs The Builder](/ai/architect-vs-builder/) I argued that the h
 
 The interesting consequence is that the SaaS dashboard - the dominant software metaphor of the last twenty years - starts to look dated. Why build a dashboard with forty buttons when the user is going to ask an agent to do the thing, and the agent is going to press the buttons for them? The pressure on software vendors to expose clean, machine-readable APIs and primitives will become overwhelming, because the real customer is increasingly not a human but an agent acting on a human's behalf.
 
-## The Bottleneck Moves to Judgment
+## The Bottleneck Moves to Judgement
 
 The third thing that happens is the one I find most interesting: the scarce resource changes.
 

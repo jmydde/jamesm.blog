@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.159.2"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>jamesm.blog</title>
+
+<meta name="description" content="">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/json" href="https://jamesm.blog/index.json" title="json">
+<link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jamesm.blog/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="jamesm.blog">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="jamesm.blog">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "jamesm.blog",
+  "url": "https://jamesm.blog/",
+  "description": "",
+  "logo": "https://jamesm.blog/favicon.ico",
+  "sameAs": [
+      "mailto:jamesmyddelton@gmail.com", "https://uk.linkedin.com/in/jamesmyddelton/", "https://twitter.com/jamesmyddelton/", "https://www.facebook.com/jamesmyddelton/", "https://www.instagram.com/jamesmyddelton/", "https://www.youtube.com/@JamesMyddelton/playlists/", "https://t.me/jamesmyd", "https://soundcloud.com/jamesm/", "https://github.com/jmydde/jamesm.blog", "https://ko-fi.com/U6U1LGXXV/", "https://www.tiktok.com/@james.m.uk", "https://ClubTheWorld.uk", "https://DevOpsForum.uk", "https://tensor.art/u/855380090597470967", "index.xml"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Eng">
+                    <span>Data Eng</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music">
+                    <span>Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro">
+                    <span>Retro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1></h1>
+    </header>
+    <div class="entry-content">
+        <ul>
+<li><a href="/ai/"><strong>Artificial Intelligence</strong></a> (LLMs, AI agents, and the future of human expertise)</li>
+<li><a href="/blockchain/"><strong>Blockchain</strong></a> (Decentralized infrastructure, networks, and ecosystem evolution)</li>
+<li><a href="/data-engineering/"><strong>Data Engineering</strong></a> (Building data infrastructure that actually scales)</li>
+<li><a href="/devops/"><strong>DevOps</strong></a> (Infrastructure, automation, and operational philosophy)</li>
+<li><a href="/general/"><strong>General</strong></a> (Culture, science, and the miscellaneous)</li>
+<li><a href="/retro-computing/"><strong>Retro Computing</strong></a> (The machines and culture that shaped computing)</li>
+<li><a href="/music-production/"><strong>Music Production</strong></a> (Gear, sound design, and creative workflow)</li>
+<li><a href="/personal-development/"><strong>Personal Development</strong></a> (Expertise, craft, and the engineering mindset)</li>
+<li><a href="/space/"><strong>Space</strong></a> (Infrastructure and vision for human expansion beyond Earth)</li>
+</ul>
+
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="mailto:jamesmyddelton@gmail.com" target="_blank" rel="noopener noreferrer me"
+        title="Gmail">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+    </a>
+    <a href="https://uk.linkedin.com/in/jamesmyddelton/" target="_blank" rel="noopener noreferrer me"
+        title="Linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+    </a>
+    <a href="https://twitter.com/jamesmyddelton/" target="_blank" rel="noopener noreferrer me"
+        title="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+    </path>
+</svg>
+    </a>
+    <a href="https://www.facebook.com/jamesmyddelton/" target="_blank" rel="noopener noreferrer me"
+        title="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+    </a>
+    <a href="https://www.instagram.com/jamesmyddelton/" target="_blank" rel="noopener noreferrer me"
+        title="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+</svg>
+    </a>
+    <a href="https://www.youtube.com/@JamesMyddelton/playlists/" target="_blank" rel="noopener noreferrer me"
+        title="Youtube">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+    </path>
+    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+    </a>
+    <a href="https://t.me/jamesmyd" target="_blank" rel="noopener noreferrer me"
+        title="Telegram">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-8.609 3.33c-2.068.8-4.133 1.598-5.724 2.21a405.15 405.15 0 0 1-2.849 1.09c-.42.147-.99.332-1.473.901-.728.968.193 1.798.919 2.286 1.61.516 3.275 1.009 4.654 1.472.509 1.793.997 3.592 1.48 5.388.16.36.506.494.864.498l-.002.018s.281.028.555-.038a2.1 2.1 0 0 0 .933-.517c.345-.324 1.28-1.244 1.811-1.764l3.999 2.952.032.018s.442.311 1.09.355c.324.022.75-.04 1.116-.308.37-.27.613-.702.728-1.196.342-1.492 2.61-12.285 2.997-14.072l-.01.042c.27-1.006.17-1.928-.455-2.474a1.654 1.654 0 0 0-1.034-.407z" />
+</svg>
+    </a>
+    <a href="https://soundcloud.com/jamesm/" target="_blank" rel="noopener noreferrer me"
+        title="Soundcloud">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+    <path
+        d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952" />
+</svg>
+    </a>
+    <a href="https://github.com/jmydde/jamesm.blog" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://ko-fi.com/U6U1LGXXV/" target="_blank" rel="noopener noreferrer me"
+        title="KoFi">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3 23 27" preserveAspectRatio="xMidYMid meet" fill="none"
+    stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734c4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09c-.443-.441-3.368-3.049-4.034-3.954c-.709-.965-1.041-2.7-.091-3.71c.951-1.01 3.005-1.086 4.363.407c0 0 1.565-1.782 3.468-.963c1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z" />
+</svg>
+    </a>
+    <a href="https://www.tiktok.com/@james.m.uk" target="_blank" rel="noopener noreferrer me"
+        title="Tiktok">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.000000 76.000000" fill="currentColor" stroke-width="2"
+    preserveAspectRatio="xMidYMid meet">
+    <path d="M65.9,19.4c1.4,0.2,2.8,0.1,2.8,0.1s0,6.2,0,12.2c-6.3,0-12.1-2-16.8-5.4V51c0.1,20-24.6,29.8-38.3,15.6
+    c-14.7-15.1-2.1-40.5,19-37.7v12.3c-9.5-3-17.2,8-11.2,15.9c5.8,7.7,18.3,3.6,18.3-6.1c0,0,0-48.2,0-48.2c2.4,0,9.9,0,12.2,0v1.6
+    c0.7,7.4,6.1,13.4,13.3,15v0C65.4,19.3,65.6,19.4,65.9,19.4z" />
+</svg>
+    </a>
+    <a href="https://ClubTheWorld.uk" target="_blank" rel="noopener noreferrer me"
+        title="Other">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+    </a>
+    <a href="https://DevOpsForum.uk" target="_blank" rel="noopener noreferrer me"
+        title="Other">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+    </a>
+    <a href="https://tensor.art/u/855380090597470967" target="_blank" rel="noopener noreferrer me"
+        title="Other">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+    </a>
+    <a href="index.xml" target="_blank" rel="noopener noreferrer me"
+        title="Rss-Simple">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-cloud-subscriptions.jpg" alt="AI Cloud Subsriptions Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI Cloud Subscriptions: Comparing Pricing and Features in 2026
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>AI cloud subscriptions have fragmented into a crowded market. Frontier-lab APIs compete with open-weights challengers, consumer chat plans compete with agent platforms, and every provider is reshuffling model tiers every few months. This guide organizes the 2026 landscape so you can pick a plan without reading six pricing pages.
+For background on how these costs behave over time, see Token Economics: Why Costs Aren’t Going Down and Local vs Cloud AI in 2026.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-19 07:12:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Cloud Subscriptions: Comparing Pricing and Features in 2026" href="https://jamesm.blog/ai/ai-cloud-subscriptions/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Best value: Mac Studio M4 Max at $1,999 for most local LLM work Best prefill speed: DGX Spark at $4,699 (3.8× faster prompt processing) Best token generation: Mac Studio M3 Ultra at $3,999 (819 GB/s bandwidth) Best for fine-tuning: DGX Spark (CUDA ecosystem wins) Best combined setup: DGX Spark &#43; M3 Ultra = 2.8× faster than either alone Introduction The market for personal AI supercomputers has exploded in 2025-2026. Two standout options have emerged: NVIDIA’s DGX Spark and Apple’s Mac Studio lineup. Both promise desktop-scale AI compute, but they approach the problem very differently. This guide breaks down the specs, costs, and real-world performance to help you decide which is right for you.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-19 05:22:00 +0000 UTC'>April 19, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?" href="https://jamesm.blog/ai/dgx-spark-vs-mac-studio/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Complete AI Developer&#39;s Guide: Resources and Best Practices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
+Key Best Practices to Master Prompt Engineering Fundamentals Clear, specific prompts produce better results than vague requests. The foundation of working with any LLM is understanding how to communicate your intent precisely. Break complex tasks into smaller, manageable steps and provide context about what success looks like.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 08:15:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Complete AI Developer&#39;s Guide: Resources and Best Practices" href="https://jamesm.blog/ai/ai-resources-and-best-practices/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/mac-studio-llms_hu_2d372ca9789c067e.jpg 360w,https://jamesm.blog/images/mac-studio-llms_hu_6a3dc7979e81a42.jpg 480w,https://jamesm.blog/images/mac-studio-llms_hu_cd9a17d322f111f5.jpg 720w,https://jamesm.blog/images/mac-studio-llms_hu_b6d8419116959ab4.jpg 1080w,https://jamesm.blog/images/mac-studio-llms.jpg 1280w'
+                src="https://jamesm.blog/images/mac-studio-llms.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1280" height="720"
+                alt="Mac Studio LLMs Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Which Mac Studio Should You Buy for Running LLMs Locally?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Best entry point: M2 Max 32-64 GB (~£1.4k-£2k) for 7B-13B models at 25-40 tok/s Best sweet spot: M2 Ultra 64-128 GB (~£3k-£4.5k) handles 30B&#43; models comfortably Best for 70B models: M3 Ultra 128 GB&#43; (~£5.5k&#43;) with 800&#43; GB/s bandwidth Newer alternative: M4 Max (£2k-£4k) - lower bandwidth (410-546 GB/s) than Ultra chips, but still solid for 7B-13B models Key rule: Memory bandwidth matters more than raw compute for token generation Reality check: A RTX 5090 rig is 2-3× faster for similar money - buy Mac for simplicity and unified memory You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what “works” versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 07:22:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Which Mac Studio Should You Buy for Running LLMs Locally?" href="https://jamesm.blog/ai/mac-studio-local-llm-guide/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/snowflake_hu_ae93bd2b96c5e3df.jpg 360w,https://jamesm.blog/images/snowflake_hu_ba7ceb8e07177a9b.jpg 480w,https://jamesm.blog/images/snowflake_hu_8d515f8b53f4133b.jpg 720w,https://jamesm.blog/images/snowflake.jpg 1024w'
+                src="https://jamesm.blog/images/snowflake.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="512"
+                alt="Snowflake Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A New Era for Open Data Formats Snowflake has announced the general availability of Snowflake Storage for Apache Iceberg on both AWS and Azure, marking a significant shift in how enterprises can build open, interoperable data lakehouses. This development combines Snowflake’s enterprise reliability and governance capabilities with the flexibility and openness of Apache Iceberg, one of the most promising open table formats in the data ecosystem.
+What is Snowflake Storage for Apache Iceberg? Snowflake Storage for Apache Iceberg enables users to query and manage Iceberg tables using Snowflake’s SQL engine while storing data in their own cloud object storage. This is fundamentally different from traditional Snowflake architectures—you get:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 07:11:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure" href="https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/modular-synths_hu_2d5ab036c9f860d4.jpg 360w,https://jamesm.blog/images/modular-synths_hu_cae9ccf589ccb799.jpg 480w,https://jamesm.blog/images/modular-synths_hu_1d740a488351bb8e.jpg 720w,https://jamesm.blog/images/modular-synths_hu_d6a0e6232e00eec1.jpg 1080w,https://jamesm.blog/images/modular-synths.jpg 1280w'
+                src="https://jamesm.blog/images/modular-synths.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1280" height="720"
+                alt="Modular Synths Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Introduction to Modular Synthesis - The Building Blocks
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Modular synthesis can feel overwhelming at first. There are dozens of modules, hundreds of cables, and infinite ways to patch them together. But underneath all that complexity lies a simple truth: modular synthesis is about understanding how audio flows from one place to another, and learning to shape that signal at every step.
+If you’ve ever felt lost looking at a Eurorack case, this post is for you. We’re going to break modular synthesis down to its essential building blocks - the modules that do the heavy lifting in almost every patch.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 07:01:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Introduction to Modular Synthesis - The Building Blocks" href="https://jamesm.blog/music-production/modular-synthesis-building-blocks/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/claude-code.png" alt="Token efficiency visualization">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
+The difference isn’t randomness. It’s a mental model problem.
+The Problem With “Just Ask” Most people treat Claude like a search engine with a long context window. You dump information, ask a question, wait for an answer. If you don’t like it, you ask again. Iterate until satisfied.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-17 21:36:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should" href="https://jamesm.blog/ai/claude-token-efficiency-mindset/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/claude-design_hu_bddf4cde3b6d53b9.png 360w,https://jamesm.blog/images/claude-design_hu_2898ee01d62e7a55.png 480w,https://jamesm.blog/images/claude-design_hu_692365824f43a22a.png 720w,https://jamesm.blog/images/claude-design_hu_3fd9664aafc5f616.png 1080w,https://jamesm.blog/images/claude-design_hu_ad6a5fd685495e6.png 1500w,https://jamesm.blog/images/claude-design.png 1710w'
+                src="https://jamesm.blog/images/claude-design.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1710" height="944"
+                alt="Claude Design Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Claude Design: Closing the Design-to-Code Gap
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Design-to-development handoff has always been a friction point. Designers create something beautiful. Engineers interpret Figma specs, argue about spacing, squint at color values. SVG assets get lost. Responsive behavior gets reimplemented. By the time the code matches the design, half the polish is gone.
+Claude Design, Anthropic’s new design collaboration tool, attacks this problem directly. Instead of designers creating static files that engineers have to decode, Claude Design lets both sides work in the same tool - with Claude as the bridge.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-17 19:11:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Claude Design: Closing the Design-to-Code Gap" href="https://jamesm.blog/ai/claude-design/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/Claude%20Opus_hu_18242ae3d378f287.png 360w,https://jamesm.blog/images/Claude%20Opus_hu_ff07fc90ef1da4ea.png 480w,https://jamesm.blog/images/Claude%20Opus_hu_ff5a4d474ad54f93.png 720w,https://jamesm.blog/images/Claude%20Opus_hu_224d18cd67f28cdf.png 1080w,https://jamesm.blog/images/Claude%20Opus.png 1254w'
+                src="https://jamesm.blog/images/Claude%20Opus.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1254" height="696"
+                alt="Claude Opus Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Claude Opus 4.7: Autonomy and Vision at Scale
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Opus 4.7 is a meaningful step forward. Not a revolutionary rewrite, but a targeted upgrade that addresses friction points developers actually experience: vision quality, autonomous task handling, and creative output.
+The headline feature is deceptively simple - images up to 2,576 pixels. That’s 3.75 megapixels, roughly three times the previous limit. In practice, this means Claude can now read a dense screenshot without losing details, extract data from complex charts without ambiguity, and handle UI testing images that show real context instead of cropped fragments.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-16 16:15:00 +0000 +0000'>April 16, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Claude Opus 4.7: Autonomy and Vision at Scale" href="https://jamesm.blog/ai/claude-opus-4-7/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/Universe_hu_2563ff5c41fdb72d.jpg 360w,https://jamesm.blog/images/Universe_hu_846ab8161de1644.jpg 480w,https://jamesm.blog/images/Universe_hu_c6e216b13aa09c9b.jpg 720w,https://jamesm.blog/images/Universe_hu_eb458d5083d677c8.jpg 1080w,https://jamesm.blog/images/Universe.jpg 1280w'
+                src="https://jamesm.blog/images/Universe.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1280" height="720"
+                alt="Universe Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">A New Universe All Throughout The Day
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I have always had this strange gut feeling that the universe is, in some sense, new all throughout the day.
+Not new in the dramatic science-fiction sense, where everything resets and starts over, but new in the sense that reality seems to keep unfolding into fresh versions of itself depending on what happens next. A conversation goes one way instead of another. You decide to go out, or stay in. You send the message, or you leave it unsent. Tiny differences, and suddenly the entire shape of the day changes.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-16 07:24:00 +0100 BST'>April 16, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to A New Universe All Throughout The Day" href="https://jamesm.blog/general/a-new-universe-all-throughout-the-day/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://jamesm.blog/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
