@@ -4,6 +4,9 @@ date: 2026-04-19T07:12:00+01:00
 draft: false
 tags: ["ai", "cloud", "subscription", "api"]
 description: "A 2026 buyer's guide to AI cloud subscriptions. Compare API pricing, context windows, rate limits, and consumer plans across Anthropic, OpenAI, Google, Microsoft, xAI, Mistral, and DeepSeek."
+cover:
+  image: /assets/images/ai/ai-cloud-subscriptions.jpg
+  alt: AI Cloud Subsriptions Icon
 ---
 
 AI cloud subscriptions have fragmented into a crowded market. Frontier-lab APIs compete with open-weights challengers, consumer chat plans compete with agent platforms, and every provider is reshuffling model tiers every few months. This guide organizes the 2026 landscape so you can pick a plan without reading six pricing pages.
@@ -11,23 +14,6 @@ AI cloud subscriptions have fragmented into a crowded market. Frontier-lab APIs 
 For background on how these costs behave over time, see [Token Economics: Why Costs Aren't Going Down](/ai/token-economics-why-costs-arent-going-down/) and [Local vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/).
 
 ## TL;DR Comparison
-
-All API prices normalised to USD per 1M tokens. Consumer plans listed at flat monthly price.
-
-### Developer APIs
-
-| Provider | Flagship model | Input $/1M | Output $/1M | Context | Notable feature |
-|----------|----------------|-----------:|------------:|--------:|-----------------|
-| **Anthropic** | Claude Opus 4.7 | $15 | $75 | 200K | Prompt caching, computer use |
-| **Anthropic** | Claude Sonnet 4.6 | $3 | $15 | 200K | Best price/performance |
-| **Anthropic** | Claude Haiku 4.5 | $0.80 | $4 | 200K | Cheap, fast, capable |
-| **OpenAI** | GPT-5 | $10 | $30 | 400K | Strong multimodal |
-| **OpenAI** | GPT-5 mini | $0.40 | $1.60 | 400K | High volume default |
-| **Google** | Gemini 2.5 Pro | $1.25 | $10 | 2M | Huge context window |
-| **Google** | Gemini 2.5 Flash | $0.30 | $2.50 | 1M | Cheapest long-context |
-| **xAI** | Grok 4 | $5 | $15 | 256K | Real-time X data |
-| **Mistral** | Mistral Large 2 | $2 | $6 | 128K | EU-hosted, open weights |
-| **DeepSeek** | DeepSeek V3 | $0.14 | $0.28 | 128K | Cheapest frontier-class |
 
 ### Consumer and team plans
 
@@ -43,6 +29,23 @@ All API prices normalised to USD per 1M tokens. Consumer plans listed at flat mo
 | **SuperGrok** | $30/mo | Higher Grok limits, Grok 4 access |
 | **Claude Team** | $30/user/mo | Small engineering teams |
 | **ChatGPT Team** | $25/user/mo | Mixed-function teams |
+
+### Developer APIs
+
+All API prices normalised to USD per 1M tokens. Consumer plans listed at flat monthly price.
+
+| Provider | Flagship model | Input $/1M | Output $/1M | Context | Notable feature |
+|----------|----------------|-----------:|------------:|--------:|-----------------|
+| **Anthropic** | Claude Opus 4.7 | $15 | $75 | 200K | Prompt caching, computer use |
+| **Anthropic** | Claude Sonnet 4.6 | $3 | $15 | 200K | Best price/performance |
+| **Anthropic** | Claude Haiku 4.5 | $0.80 | $4 | 200K | Cheap, fast, capable |
+| **OpenAI** | GPT-5 | $10 | $30 | 400K | Strong multimodal |
+| **OpenAI** | GPT-5 mini | $0.40 | $1.60 | 400K | High volume default |
+| **Google** | Gemini 2.5 Pro | $1.25 | $10 | 2M | Huge context window |
+| **Google** | Gemini 2.5 Flash | $0.30 | $2.50 | 1M | Cheapest long-context |
+| **xAI** | Grok 4 | $5 | $15 | 256K | Real-time X data |
+| **Mistral** | Mistral Large 2 | $2 | $6 | 128K | EU-hosted, open weights |
+| **DeepSeek** | DeepSeek V3 | $0.14 | $0.28 | 128K | Cheapest frontier-class |
 
 Prices shift constantly - always check the provider's pricing page before committing to a plan.
 
