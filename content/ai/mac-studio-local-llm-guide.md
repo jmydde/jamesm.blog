@@ -14,9 +14,9 @@ cover:
 - **Best entry point:** M2 Max 32-64 GB (~£1.4k-£2k) for 7B-13B models at 25-40 tok/s
 - **Best sweet spot:** M2 Ultra 64-128 GB (~£3k-£4.5k) handles 30B+ models comfortably
 - **Best for 70B models:** M3 Ultra 128 GB+ (~£5.5k+) with 800+ GB/s bandwidth
-- **Skip unless committed to small models:** M4 Max - 410-546 GB/s bandwidth bottlenecks LLM generation
+- **Newer alternative:** M4 Max (£2k-£4k) - lower bandwidth (410-546 GB/s) than Ultra chips, but still solid for 7B-13B models
 - **Key rule:** Memory bandwidth matters more than raw compute for token generation
-- **Reality check:** A RTX 4090 rig is 2-3× faster for the same price - buy Mac for simplicity and unified memory
+- **Reality check:** A RTX 5090 rig is 2-3× faster for similar money - buy Mac for simplicity and unified memory
 
 You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what "works" versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
 
@@ -107,25 +107,25 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 **What runs well:**
 - All medium models: 🚀 excellent (35–50+ tok/s)
 - Qwen 35B / Mixtral variants: 🚀 very smooth (20–30 tok/s)
-- LLaMA 70B: ✅ usable (15–22 tok/s at 128GB, faster at 192GB+)
+- LLaMA 70B: ✅ smooth (22–30 tok/s at 128GB, faster at 192GB+)
 - Multiple concurrent models: ✅ comfortable headroom
 
 **Cost:** £4,200–£7,500+
 
 **When to buy:** You're serious about local AI. You want to run large models, experiment with different ones, or handle long contexts (32K+).
 
-### M4 Max (36–128 GB) - The confusing option
+### M4 Max (36–128 GB) - The newer alternative
 
-**Critical limitation:** Only 410–546 GB/s bandwidth vs 800+ on Ultra chips.
+**Bandwidth trade-off:** 410–546 GB/s vs 800+ on Ultra chips. Still faster than NVIDIA's DGX Spark (273 GB/s), just lower than Ultra-tier Macs.
 
-**What runs okay:**
-- LLaMA 3 7B–13B: ✅ fine (25–35 tok/s)
-- Mixtral 8x7B: ⚠️ barely (12–20 tok/s)
-- Qwen 35B: ❌ only if maxed to 128GB, then ~15–22 tok/s (but M2 Ultra does same for less)
+**What runs well:**
+- LLaMA 3 7B–13B: ✅ great (25–35 tok/s)
+- Mixtral 8x7B: ✅ workable (15–22 tok/s)
+- Qwen 35B: ⚠️ only if maxed to 128GB, then ~15–22 tok/s (M2 Ultra does similar for less)
 
 **Cost:** ~£2,000–£4,000
 
-**Verdict:** Newer chip, but memory bandwidth is the bottleneck for LLMs. Only makes sense if you're committed to small models or willing to accept compromises.
+**Verdict:** Newer chip with better efficiency, genuinely good for 7B-13B models at the base config. If you want 30B+ headroom, M2/M3 Ultra is the better-bandwidth pick.
 
 ## Realistic performance expectations
 
@@ -174,7 +174,7 @@ So "20 tok/s at 4K context" becomes "maybe 12 tok/s at 32K context" on the same 
 
 → **M3 Ultra with 128 GB** (~£5.5k)
 
-- 15–22 tok/s on 70B models
+- 22–30 tok/s on 70B models
 - Newest architecture, better efficiency
 - Actually comfortable for production-style use
 
@@ -194,8 +194,11 @@ So "20 tok/s at 4K context" becomes "maybe 12 tok/s at 32K context" on the same 
 | M2 Max 64GB | £2k | 30–40 ✅ | 12–18 ⚠️ | struggles ❌ | no ❌ | Good for small |
 | M2 Ultra 64GB | £3k | 35–45 ✅ | 18–28 ✅ | 15–22 ✅ | 8–12 ⚠️ | Sweet spot |
 | M2 Ultra 128GB | £4.5k | 35–45 ✅ | 20–30 ✅ | 18–25 ✅ | 10–15 ⚠️ | Comfortable |
-| M3 Ultra 128GB | £5.5k | 40–50 🚀 | 22–32 🚀 | 20–28 🚀 | 15–22 ✅ | Excellent |
-| M3 Ultra 256GB | £8k+ | 40–50 🚀 | 22–32 🚀 | 20–28 🚀 | 18–25 ✅ | Workstation |
+| M3 Ultra 128GB | £5.5k | 40–50 🚀 | 22–32 🚀 | 20–28 🚀 | 22–30 ✅ | Excellent |
+| M3 Ultra 256GB | £8k+ | 40–50 🚀 | 22–32 🚀 | 20–28 🚀 | 25–32 ✅ | Workstation |
+| M4 Max 36GB | £2k | 25–35 ✅ | not viable ❌ | not viable ❌ | no ❌ | Newer, efficient |
+| M4 Max 64GB | £3k | 25–35 ✅ | 15–22 ✅ | struggles ❌ | no ❌ | Decent mid-tier |
+| M4 Max 128GB | £4k | 25–35 ✅ | 15–22 ✅ | 15–22 ⚠️ | no ❌ | Good but Ultra wins |
 
 **My recommendation:** If you're spending £3k–£4k anyway, M2 Ultra with 64–128 GB is the inflection point where the experience stops feeling constrained. You get real performance without paying for the latest chip.
 
@@ -217,16 +220,16 @@ Larger context windows mean larger KV cache, which means slower generation. This
 
 Since you're spending £3k–£5k anyway, you should know: a comparable GPU setup isn't obviously better.
 
-A single RTX 4090:
-- £1,800–£2,200
-- 24 GB VRAM
+A single RTX 5090:
+- £2,500–£3,500 (depending on availability)
+- 32 GB VRAM
 - 40–70 tok/s on Qwen 35B
-- But: CUDA setup overhead, electricity cost, cooling
+- But: CUDA setup overhead, electricity cost (~600W), cooling
 
-**RTX 4090 vs M2 Ultra 64 GB:**
-- RTX is 2–3× faster
-- Mac is simpler, cheaper running costs, unified memory
-- You're paying for convenience more than performance
+**RTX 5090 vs M2 Ultra 64 GB:**
+- RTX is 2–3× faster on models that fit in VRAM
+- Mac is simpler, cheaper running costs, unified memory (no 32GB VRAM ceiling)
+- You're paying for convenience more than raw performance
 
 Both are legitimate choices. Mac Studio is the right call if you value simplicity. For a detailed side-by-side with NVIDIA's purpose-built AI box, see [DGX Spark vs Mac Studio](/ai/dgx-spark-vs-mac-studio/) - prefill speed, CUDA fine-tuning, and the hybrid setup that beats either alone.
 
@@ -244,7 +247,7 @@ Since you're choosing both a Mac and a model, here's what actually matters:
 | Gemma 13B | 13B | 8–10 GB | 25–35 | 35–45 | Smaller, efficient alternative |
 | Qwen 35B MoE | MoE 35B | 19–22 GB | 15–22 | 20–28 | Strong reasoning, sparse |
 | Mixtral 8x22B | MoE 141B | 24–28 GB | 12–18 | 16–24 | Highest quality dense-equivalent |
-| LLaMA 3 70B | 70B | 38–42 GB | 8–12 | 15–22 | Expert-level, needs headroom |
+| LLaMA 3 70B | 70B | 38–42 GB | 8–12 | 22–30 | Expert-level, needs headroom |
 
 **Patterns:**
 - 7B models: fit anywhere, 30–40+ tok/s even on M2 Max
@@ -260,7 +263,7 @@ Since you're choosing both a Mac and a model, here's what actually matters:
 
 **If you're serious about local AI:** M2 Ultra 128 GB or M3 Ultra 128 GB. You can keep multiple models loaded, experiment freely, and handle longer contexts without compromise.
 
-**If GPU is an option:** Price out a RTX 4090 rig anyway. For £3k–£4k, a 4090 will give you 2–3× the speed. Mac Studio is the right choice only if you value simplicity + unified memory + lower power consumption.
+**If GPU is an option:** Price out a RTX 5090 rig anyway. For £3k–£4k, a 5090 will give you 2–3× the speed on models that fit in 32GB VRAM. Mac Studio is the right choice only if you value simplicity + unified memory + larger model support + lower power consumption.
 
 ---
 

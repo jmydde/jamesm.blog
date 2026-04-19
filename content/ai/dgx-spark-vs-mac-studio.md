@@ -263,6 +263,7 @@ Both systems comfortably run smaller models (7B-13B) like Llama 3.1 8B or Mistra
 
 Before committing to either system, these alternatives are worth evaluating:
 
+- **Mac Studio M2 Ultra (refurbished):** ~$3,000-3,500 refurbished for 64-128GB configs. 800 GB/s bandwidth (vs 819 GB/s on M3 Ultra) and the previous-gen sweet spot for 30B+ models. Strong choice if M3 Ultra is out of budget. See [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/) for a full breakdown.
 - **AMD Ryzen AI Max+ 395 (Strix Halo):** ~$2,000 for mini PCs like the Framework Desktop. 128GB unified memory at 256 GB/s. Decent competitor to DGX Spark at half the price, though software ecosystem lags.
 - **RTX 5090 Custom Build:** ~$3,500-4,500 for a build with 32GB VRAM. Faster than DGX Spark for models that fit in VRAM, but 32GB is limiting for large models. Windows/Linux flexibility.
 - **Dual RTX 5090 Workstation:** ~$7,000+. 64GB combined VRAM with NVLink. Best raw performance per dollar for 70B models, but massive power draw (~1,200W).
