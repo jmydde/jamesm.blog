@@ -10,6 +10,16 @@ This guide documents a highly productive, AI-driven development stack using clou
 
 ---
 
+## TL;DR
+
+- **Primary IDE:** [Cursor AI](https://www.cursor.com/) for daily work, [Claude Code](https://code.claude.com/) CLI for multi-file refactors.
+- **Local completions:** [Ollama](https://ollama.ai/) with Qwen 2.5 Coder or Llama 3.3 to keep latency low and costs at zero.
+- **Routing:** [OpenRouter](https://openrouter.ai/) as a single API gateway; [LiteLLM](https://litellm.ai/) if you want fallback chains.
+- **Persistence:** [tmux](https://github.com/tmux/tmux) sessions survive disconnects; [Tailscale](https://tailscale.com/) makes your MacBook reachable from an iPhone without port forwarding.
+- **Total baseline:** around $20/month (Cursor only) scaling to $40-50/month plus API usage for the full stack.
+
+---
+
 ## Architecture Overview
 
 ### Hardware & Connectivity
@@ -132,9 +142,9 @@ An iPhone connects over Tailscale VPN to a MacBook Air. The MacBook runs tmux or
 
 ### Example Routing Logic
 
-For fast tasks (under a 30-second deadline), set your primary model to Ollama (local and instant) with a cheap backup such as a smaller hosted model via OpenRouter.
+For fast tasks (under a 30-second deadline), set your primary model to Ollama (local and instant) with a cheap hosted backup via OpenRouter, such as [GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) or Claude Haiku 4.5.
 
-For complex tasks without a time limit, set your primary model to Claude for best reasoning, and use a second frontier model (such as GPT-4 Turbo) as a fallback for a second opinion.
+For complex tasks without a time limit, set your primary to Claude Opus 4.7 for best reasoning, and use a second frontier model (such as GPT-5 or Gemini 2.5 Pro) as a fallback for a second opinion.
 
 ---
 
@@ -148,7 +158,7 @@ For complex tasks without a time limit, set your primary model to Claude for bes
 - [ ] Install Termius on iPhone, add MacBook via Tailscale
 
 ### Phase 2: IDEs & Editors (1 hour)
-- [ ] Download Cursor AI from cursor.sh
+- [ ] Download Cursor AI from [cursor.com](https://www.cursor.com/)
 - [ ] Install VS Code: `brew install visual-studio-code`
 - [ ] VS Code extensions: 
   - [ ] Cline (saoudrizwan.cline)
@@ -193,7 +203,7 @@ For complex tasks without a time limit, set your primary model to Claude for bes
 
 ### Cost Optimization Strategies
 1. **Use Ollama for quick completions**  -  saves ~$200/month vs. API-only
-2. **Route expensive tasks to cheaper models**  -  use GPT-3.5 instead of GPT-4 for simple edits
+2. **Route expensive tasks to cheaper models**  -  use Haiku 4.5 or GPT-4o mini instead of Opus/GPT-5 for simple edits
 3. **Batch AI requests**  -  run multiple tasks in one session to amortize API calls
 4. **Leverage free tiers**  -  Perplexity, Grok free tier for research
 5. **Track usage**  -  Monitor OpenRouter dashboard to catch runaway costs
@@ -319,7 +329,7 @@ Kill the `dev` tmux session and bring Tailscale down to close out for the day.
 
 - **Keep tmux/zellij sessions persistent**  -  don't kill sessions, reattach and resume.
 - **Use Tailscale for mobile-first**  -  no port forwarding, no security holes.
-- **Route expensive tasks to cheaper models**  -  use GPT-3.5 before Claude, Ollama before paid APIs.
+- **Route expensive tasks to cheaper models**  -  use Haiku 4.5 before Opus, Ollama before paid APIs.
 - **Batch API requests**  -  group 5 small tasks into one session to save on round-trip overhead.
 - **Monitor API costs**  -  set OpenRouter budget limits ($5/day) to avoid surprises.
 - **Test locally first**  -  use Ollama for quick validation before hitting paid APIs.
@@ -329,3 +339,14 @@ Kill the `dev` tmux session and bring Tailscale down to close out for the day.
 ---
 
 This stack provides **seamless mobile access, persistent development environments, AI coding assistants, and cost-optimized LLM routing**  -  ideal for solo developers or small teams who rely heavily on AI-driven productivity.
+
+---
+
+## Related Reading
+
+- [AI Cloud Subscriptions: Comparing Pricing and Features in 2026](/ai/ai-cloud-subscriptions/)
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [Claude Code vs Cursor](/ai/claude-code-vs-cursor/)
+- [Local vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/)
+- [Tailscale docs](https://tailscale.com/kb/) for VPN setup and advanced ACLs
+- [Ollama model library](https://ollama.com/library) for picking local coding models
