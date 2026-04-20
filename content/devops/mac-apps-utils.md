@@ -3,10 +3,14 @@ title: "Mac Applications & Utilities"
 date: 2026-04-04T20:56:00+01:00
 draft: false
 tags: ['mac', 'macos', 'tool', 'utility', 'productivity', 'development']
-description: "Curated collection of essential macOS applications and utilities for productivity, development, file management, and system optimization."
+description: "Curated collection of essential macOS applications and utilities for productivity, development, file management, and system optimisation."
 ---
 
-## Productivity & Writing
+This is the working set of Mac applications I actually use, grouped by the job they do rather than by category of app. Most of these I have paid for at some point - the investment has usually been justified within a week. A handful are free and just happen to be best-in-class. For command-line tooling installed through Homebrew, see the companion [Mac Homebrew Packages]({{< ref "/devops/mac-brew-packages" >}}) page.
+
+**Legend:** 🆓 Free - 💰 Paid or Freemium
+
+## Productivity and Writing
 - [Microsoft 365](https://www.microsoft.com/en-ie/microsoft-365/mac/microsoft-365-for-mac) 💰  -  Suite of office applications
   - [Excel](https://www.microsoft.com/en-ie/microsoft-365/excel)  -  Spreadsheet application
   - [OneNote](https://www.microsoft.com/en-ie/microsoft-365/onenote/digital-note-taking-app)  -  Digital note-taking
@@ -68,7 +72,7 @@ description: "Curated collection of essential macOS applications and utilities f
 - [Otter](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) 💰  -  Voice-to-text transcription
 - [WisprFlow](https://wisprflow.ai/) 💰  -  Voice recording and transcription tool
 
-**Legend:** 🆓 = Free | 💰 = Paid/Freemium
-
 ## Related Pages
-- [Mac Homebrew Packages]({{< ref "/devops/mac-brew-packages" >}})
+
+- [Mac Homebrew Packages]({{< ref "/devops/mac-brew-packages" >}}) - command-line equivalents for the terminal-first workflow
+- [DevOps Best Practices]({{< ref "/devops/best-practices" >}})

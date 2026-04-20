@@ -31,6 +31,13 @@
       <description>Practical DevOps and system design best practices covering microservices architecture, CI/CD pipelines, observability, and scalable system design.</description>
     </item>
     <item>
+      <title>AWS re:Invent Slides (2022)</title>
+      <link>https://jamesm.blog/devops/aws-reinvent-2022-slides/</link>
+      <pubDate>Sat, 03 Dec 2022 11:04:16 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
+      <description>Curated collection of presentation slide decks from AWS re:Invent 2022, covering DevOps, Kubernetes on EKS, CI/CD, and DevSecOps topics with short practitioner summaries.</description>
+    </item>
+    <item>
       <title>CI/CD Tools</title>
       <link>https://jamesm.blog/devops/cicd-tools/</link>
       <pubDate>Sun, 21 Aug 2022 11:51:18 +0100</pubDate>

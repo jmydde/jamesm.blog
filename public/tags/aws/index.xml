@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AWS on jamesm.blog</title>
+    <title>Aws on jamesm.blog</title>
     <link>https://jamesm.blog/tags/aws/</link>
-    <description>Recent content in AWS on jamesm.blog</description>
+    <description>Recent content in Aws on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -74,7 +74,7 @@
       <link>https://jamesm.blog/devops/aws-reinvent-2022-slides/</link>
       <pubDate>Sat, 03 Dec 2022 11:04:16 +0100</pubDate>
       <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
-      <description>Curated collection of presentation slides from AWS re:Invent 2022 covering DevOps, Kubernetes, CI/CD, and security topics.</description>
+      <description>Curated collection of presentation slide decks from AWS re:Invent 2022, covering DevOps, Kubernetes on EKS, CI/CD, and DevSecOps topics with short practitioner summaries.</description>
     </item>
   </channel>
 </rss>

@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Apr 2023 11:50:32 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 29 May 2023 06:45:18 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/sre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps GitHub Projects</title>
+      <link>https://jamesm.blog/devops/github-projects/</link>
+      <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/github-projects/</guid>
+      <description>Curated collection of essential open-source DevOps projects on GitHub - SRE learning resources, Kubernetes tooling, Linux utilities, and workflow schedulers.</description>
+    </item>
+    <item>
+      <title>DevOps Books</title>
+      <link>https://jamesm.blog/devops/books/</link>
+      <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/books/</guid>
+      <description>Recommended reading list of DevOps and infrastructure engineering books covering culture, cloud, containers, infrastructure as code, SRE, and programming languages.</description>
+    </item>
     <item>
       <title>DevOps Blogs</title>
       <link>https://jamesm.blog/devops/blogs/</link>

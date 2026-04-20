@@ -5,6 +5,9 @@ draft: false
 tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 'syntax highlighting', 'monitoring', 'package management', 'linux']
 description: "Comprehensive list of essential Homebrew packages for macOS development, DevOps, cloud tools, and command-line utilities."
 ---
+
+[Homebrew](https://brew.sh/) is the package manager that makes a Mac genuinely usable as a development machine. The list below is the working set of packages I install on a new laptop, organised by what they do rather than alphabetically. Most can be installed in one command: `brew install <package>`. For graphical applications, see the companion [Mac Applications and Utilities]({{< ref "/devops/mac-apps-utils" >}}) page.
+
 ## Essential
 * **bat** - Cat alternative with syntax highlighting and Git integration
 * **fzf** - Fuzzy finder for CLI (command history, file search, etc.)
@@ -81,4 +84,6 @@ description: "Comprehensive list of essential Homebrew packages for macOS develo
 * **youtube-dl** - Download videos from YouTube and other sites
 
 ## Related Pages
-- [Mac Applications & Utilities]({{< ref "/devops/mac-apps-utils" >}})
+
+- [Mac Applications and Utilities]({{< ref "/devops/mac-apps-utils" >}}) - graphical applications to pair with this CLI toolkit
+- [DevOps Best Practices]({{< ref "/devops/best-practices" >}})

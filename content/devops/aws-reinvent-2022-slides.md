@@ -2,47 +2,96 @@
 title: "AWS re:Invent Slides (2022)"
 date: 2022-12-03T11:04:16+01:00
 draft: false
-tags: ['aws', 'devops', 'conference', 're:invent', 'kubernetes', 'eks', 'ci/cd', 'pipeline', 'security', 'compliance', 'devsecops']
-description: "Curated collection of presentation slides from AWS re:Invent 2022 covering DevOps, Kubernetes, CI/CD, and security topics."
+tags: ['aws', 'devops', 'conference', 're-invent', 'kubernetes', 'eks', 'ci-cd', 'pipeline', 'security', 'compliance', 'devsecops']
+description: "Curated collection of presentation slide decks from AWS re:Invent 2022, covering DevOps, Kubernetes on EKS, CI/CD, and DevSecOps topics with short practitioner summaries."
 ---
-### DevOps
-- [Amazon's approach to high-availability deployment](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon's_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf)
-  - Continuous-delivery failures can lead to reduced service availability and bad customer experiences. To maximize the rate of successful deployments, Amazon's development teams implement guardrails in the end-to-end release process to minimize deployment errors, with a goal of achieving zero deployment failures. In this session, learn the continuous-delivery practices that we invented that help raise the bar and prevent costly deployment failures.
-- [Automating cross-account CI/CD pipelines](https://d1.awsstatic.com/events/reinvent/2021/Automating_crossaccount_CICD_pipelines_REPEAT_DOP402-R1.pdf)
-  - When building a deployment strategy for your applications, using a multi-account approach is a recommended best practice. This limits the area of impact for changes made and results in better modularity, security, and governance. In this session, dive deep into an example multi-account deployment using infrastructure-as-code (IaC) services such as the AWS CDK, AWS CodePipeline, and AWS CloudFormation. Also explore a real-world customer use case that is deploying at scale across hundreds of AWS accounts.
-- [Continuous improvement of code quality with Amazon CodeGuru](https://d1.awsstatic.com/events/reinvent/2020/Continuous_improvement_of_code_quality_with_Amazon_CodeGuru_DOP403.pdf)
-  - Software development teams are using modern tools that help automate developer workflows in order to improve speed and code quality. Amazon CodeGuru is powered by machine learning to provide intelligent recommendations and help you identify your application’s most expensive lines of code. CodeGuru enables developers to mitigate potential defects and optimize performance early in the development cycle. In this session, you walk through how to onboard CodeGuru, review architectural diagrams, and witness CodeGuru in a pipeline, providing continuous feedback to the developer to iterate through code improvements.
-- [Continuous security and compliance for your CI/CD pipeline](https://d1.awsstatic.com/events/reinvent/2021/Continuous_security_and_compliance_for_your_CICD_pipeline_REPEAT_DOP401-R2.pdf)
-  - This workshop dives deep into the importance of and mechanisms for meeting security and compliance requirements for your organization. Learn ways that you can enforce pre- and post-deployment standards, shift-left testing, and use of services like Amazon CodeGuru Reviewer, AWS CloudFormation Guard, and AWS Config for security static analysis and runtime compliance checks.
-- [Deep dive into AWS Cloud Development Kit](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Deep_dive_into_AWS_Cloud_Development_Kit_DOP402-R1.pdf)
-  - The AWS Cloud Development Kit (AWS CDK) is a multi-language, open-source framework that enables developers to harness the full power of familiar programming languages to define reusable cloud components and provision applications built from those components using AWS CloudFormation. In this session, you develop an AWS CDK application and learn how to quickly assemble AWS infrastructure. We explore the AWS Construct Library and show you how easy it is to configure your cloud resources, manage permissions, connect event sources, and build and publish your own constructs.
-- [Implementing DevSecOps pipelines with compliance in mind](https://d1.awsstatic.com/events/Summits/reinvent2022/DOP402-R_Implementing-DevSecOps-pipelines-with-compliance-in-mind.pdf)
-  - Review a DevSecOps CI/CD pipeline that includes software composition analysis, static application security testing, and dynamic application security testing. Also learn about best practices for incorporating security checkpoints across various pipeline stages and aggregating vulnerability findings into a single pane of glass. Finally, hear about processes and tools that can increase an organization’s ability to deliver applications and services in a secure manner.
-- [Multi-account and multi-Region deployments at scale](https://d1.awsstatic.com/events/Summits/reinvent2022/DOP403-R_Multi-account-and-multi-Region-deployments-at-scale.pdf)
-  - Many AWS customers are implementing multi-account strategies in order to more easily manage their cloud infrastructure and improve their security and compliance posture. In this chalk talk, learn about various options for deploying resources into multiple accounts and AWS Regions including across partitions (as in AWS GovCloud [US]). The talk also covers how these options can align to your organizational units in AWS Control Tower.
+
+This is the set of re:Invent 2022 slide decks I found most useful when they were published, grouped by topic. Each entry links to the official AWS-hosted PDF and carries a short, plain-language note about what the session is useful for in practice - so you can decide which decks are worth reading before committing the time.
+
+For the full session video recordings, see the [AWS Events channel on YouTube](https://www.youtube.com/@AWSEventsChannel).
+
+## DevOps
+
+### [Amazon's approach to high-availability deployment](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Amazon's_approach_to_high-availability_deployment_DOP404-R1.pdf.pdf)
+
+The practices Amazon's own delivery teams use to reach near-zero deployment failure rates. Most of the value is in the guardrail patterns - pre-production gates, automated rollback triggers, and how to design a release process that protects itself from human error.
+
+### [Automating cross-account CI/CD pipelines](https://d1.awsstatic.com/events/reinvent/2021/Automating_crossaccount_CICD_pipelines_REPEAT_DOP402-R1.pdf)
+
+A worked example of multi-account deployment using CDK, CodePipeline, and CloudFormation. Useful if you are moving from a single-account delivery setup to the recommended multi-account model and want a reference architecture to adapt.
+
+### [Continuous improvement of code quality with Amazon CodeGuru](https://d1.awsstatic.com/events/reinvent/2020/Continuous_improvement_of_code_quality_with_Amazon_CodeGuru_DOP403.pdf)
+
+Onboarding, architecture, and pipeline integration patterns for CodeGuru. Worth reading if you are evaluating ML-assisted code review tooling, though the market has shifted significantly since 2022 and newer AI-native options now compete directly.
+
+### [Continuous security and compliance for your CI/CD pipeline](https://d1.awsstatic.com/events/reinvent/2021/Continuous_security_and_compliance_for_your_CICD_pipeline_REPEAT_DOP401-R2.pdf)
+
+Shift-left security patterns using CodeGuru Reviewer, CloudFormation Guard, and AWS Config. A useful menu of checkpoints to consider adding to an existing pipeline, rather than a prescriptive blueprint.
+
+### [Deep dive into AWS Cloud Development Kit](https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Deep_dive_into_AWS_Cloud_Development_Kit_DOP402-R1.pdf)
+
+Introduction to building AWS infrastructure with the CDK - constructs, stacks, applications - in your language of choice. The right starting point if you are considering CDK over raw CloudFormation or Terraform.
+
+### [Implementing DevSecOps pipelines with compliance in mind](https://d1.awsstatic.com/events/Summits/reinvent2022/DOP402-R_Implementing-DevSecOps-pipelines-with-compliance-in-mind.pdf)
+
+Pattern for a pipeline that includes software composition analysis, SAST, and DAST, with vulnerability findings aggregated into a single view. Practical if you are building out a pipeline from scratch and want to understand where each scanning stage fits.
+
+### [Multi-account and multi-Region deployments at scale](https://d1.awsstatic.com/events/Summits/reinvent2022/DOP403-R_Multi-account-and-multi-Region-deployments-at-scale.pdf)
+
+Options for deploying into many accounts and regions, including GovCloud, and how to align deployment targets with AWS Control Tower organisational units. Useful if you are about to hit the wall where a single account is no longer sufficient.
 
 ## Kubernetes (EKS)
-- [Amazon EKS SaaS: Building a working multi-tenant environment](https://d1.awsstatic.com/events/Summits/reinvent2022/SAS401-R_Amazon-EKS-SaaS-Building-a-working-multi-tenant-environment.pdf)
-  - Amazon EKS provides SaaS developers with a rich collection of constructs that can be used to create a SaaS solution. In this workshop, learn how to build a complete multi-tenant SaaS environment that highlights the different strategies and considerations that come with building, securing, and deploying SaaS applications in an Amazon EKS model. Work through labs that demonstrate the implementation of core multi-tenant concepts, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning. Get hands-on experience with the moving parts of an Amazon EKS SaaS solution while discovering the nuances of the Amazon EKS SaaS model.
-- [Best practices for using Amazon EKS add-ons](https://d1.awsstatic.com/events/Summits/reinvent2022/CON201_Best-practices-for-using-Amazon-EKS-add-ons.pdf)
-  - Kubernetes add-on software extends the functionality of Kubernetes and is typically built and maintained by the Kubernetes community, AWS, and other third-party vendors. Amazon EKS add-ons allow you to configure, deploy, and update the operational software or add-ons that provide key functionality to support your Kubernetes applications, including cluster networking, operational software for observability, management, scaling, and security. In this chalk talk, walk through best practices for using add-ons to consistently maintain the security and stability of your Amazon EKS clusters.
-- [Best practices platform teams can use to streamline Kubernetes operations](https://d1.awsstatic.com/events/Summits/reinvent2022/PRT002_Best-practices-platform-teams-can-use-to-streamline-Kubernetes-operations-sponsored-by-Rafay-Systems.pdf)
-  - Kubernetes accelerates the digital transformation of cloud-native applications. As organizations expand, the number of Kubernetes clusters and applications can lead to significant operational challenges. A popular choice for managed Kubernetes is Amazon EKS. It’s no wonder that platform teams are on a quest to better manage, scale, and secure their Amazon EKS clusters across disparate internal application teams while working with multiple AWS accounts in multiple AWS Regions. AWS Partner Rafay Systems helps hundreds of enterprises reduce the complexity of Kubernetes. In this lightning talk, learn best practices on streamlining Kubernetes from self-service cluster provisioning through to centralized policy management.
-- [Bootstrapping “batteries-included” Amazon EKS clusters](https://d1.awsstatic.com/events/Summits/reinvent2022/CON403-R_Bootstrapping-batteries-included-Amazon-EKS-clusters--.pdf)
-  - In this builders’ session, learn about using Amazon EKS Blueprints for Terraform to configure and deploy “batteries-included” Amazon EKS clusters. Dive deep into EKS Blueprints code and learn to deploy security-compliant EKS clusters with managed node groups and AWS Fargate profiles. Learn how to build EKS clusters that support workloads from multiple teams with EKS Blueprint’s teams functionality. Lastly, learn how to easily deploy AWS managed add-ons (like VPC CNI, CoreDNS, and kube-proxy) in addition to popular open-source add-ons, including Metrics Server, cluster autoscaler, Prometheus, Karpenter, AWS Load Balancer Controller, Fluent Bit, and Argo CD.
-- [Build Kubernetes at scale using AWS file services](https://d1.awsstatic.com/events/Summits/reinvent2022/STG326_Build-Kubernetes-at-scale-using-AWS-file-services-.pdf)
-  - Learn how you can launch and use Amazon FSx fully managed file services to power your Amazon EKS Kubernetes container workloads. Deploy a container-based workload with persistent storage from Amazon FSx to better understand the benefits and key features for container-based workloads. The workshop also touches on dimensions such as performance, scale, high availability, and how to create clones of your DevOps data in seconds, or replicate and access your data seamlessly across AWS Regions, to further power at-scale container-based workloads.
-- [Data analysis with Amazon EKS and AWS Batch](https://d1.awsstatic.com/events/Summits/reinvent2022/CMP335-R_Data-analysis-with-Amazon-EKS-and-AWS-Batch.pdf)
-  - Gain an understanding of the recently added AWS Batch support for managing and scheduling large-scale data analysis using Amazon EKS. Learn AWS Batch fundamental concepts and how AWS Batch works together with your other AWS services running within Amazon EKS. Deploy an Amazon EKS cluster, leverage AWS Batch to manage pods, and train a simple machine learning model.
-- [Disaster recovery, high availability, and resiliency on Amazon EKS](https://d1.awsstatic.com/events/Summits/reinvent2022/CON404_Disaster-recovery-high-availability-and-resiliency-on-Amazon-EKS.pdf)
-  - Kubernetes application development and operations teams need to build resilient systems that embrace failure as a natural occurrence. Learn about patterns and strategies for running resilient Kubernetes clusters on AWS. Use chaos engineering tools to simulate failures and disaster scenarios for Kubernetes clusters on AWS and learn how to recover from them within given recovery time and recovery point objectives.
-- [Getting started with Amazon Elastic Kubernetes Service (Amazon EKS)](https://d1.awsstatic.com/events/Summits/reinvent2022/CON204-R_Getting-started-with-Amazon-Elastic-Kubernetes-Service-Amazon-EKS.pdf)
-  - Introduction to Kubernetes using the AWS managed Kubernetes service Amazon EKS. Previous experience with Kubernetes or container workflows is useful but not required. During this workshop you deploy everything needed to have a set of microservices running with additional useful day-2 functionality in place. The workshop includes deploying a set of microservices, configuring a load balancer in front of your service, configuring centralized logging, and enabling automatic scaling of your pods and worker nodes. 
-- [How to monitor and reduce your compute costs](https://d1.awsstatic.com/events/Summits/reinvent2022/CON405_How-to-monitor-and-reduce-your-compute-costs.pdf)
-  - As organizations adopt Amazon EKS to securely and reliably run their mission-critical workloads in the AWS cloud and on premises, it is essential that they have tools to monitor and optimize what they spend to run their Kubernetes applications. This builders’ session demonstrates cost-reduction steps in a sample architecture and then shows ways you can identify and reduce compute costs in your environment using OpenCost, Kubecost, Karpenter, and AWS Graviton. Join Adobe and AWS to learn how they are collaborating with Kubecost and the OpenCost community to standardize cost tracking, allocation, methodologies, and measurements and help teams using Kubernetes more easily understand their infrastructure costs.
-- [Running efficient Kubernetes clusters on Amazon EC2 with Karpenter](https://d1.awsstatic.com/events/Summits/reinvent2022/CMP405-R_Running-efficient-Kubernetes-clusters-on-Amazon-EC2-with-Karpenter.pdf)
-  - Learn how to provision, manage, and maintain your Kubernetes clusters with Amazon EKS at virtually any scale using Karpenter. Karpenter is a node lifecycle management solution used to scale your Kubernetes cluster. It observes incoming pods and launches the right instances for the situation. Instance selection decisions are intent-based and driven by the specification of incoming pods, including resource requests and scheduling constraints.
-- [Simplifying Kubernetes application management with cdk8s](https://d1.awsstatic.com/events/reinvent/2020/Simplifying_Kubernetes_application_management_with_cdk8s_DOP401.pdf)
-  - The CDK for Kubernetes (cdk8s) is a new open-source software development framework that lets you define Kubernetes applications and resources using familiar programming languages. In this session, learn how to use the construct programing model and the cdk8s+ library to define your Kubernetes applications and share common definitions as reusable components with your team, organization, and Community Heroes (AWS). Come learn the fundamentals you need to use cdk8s to accelerate application development on any Kubernetes cluster running anywhere.
-- [Spot invaders: A fault-tolerant chaos engineering game](https://d1.awsstatic.com/events/Summits/reinvent2022/CMP001_Spot-invaders-A-fault-tolerant-chaos-engineering-game.pdf)
-  - In this session, experience your favorite arcade game with an AWS twist. Spot Invaders is a retro game where your goal is to earn points by defeating wave after wave of invaders to destroy pods and nodes on an Amazon EKS cluster and so make the underlying microservices exposed by the cluster unavailable. By applying Amazon EC2 Spot best practices on an Amazon EKS system and utilizing chaos engineering using AWS Fault Injector Simulator, learn how to build fault-tolerant and cost-optimized container systems.
+
+### [Amazon EKS SaaS: Building a working multi-tenant environment](https://d1.awsstatic.com/events/Summits/reinvent2022/SAS401-R_Amazon-EKS-SaaS-Building-a-working-multi-tenant-environment.pdf)
+
+End-to-end walk through building a multi-tenant SaaS on EKS, including onboarding, tenant isolation, tiering, cost attribution, and data partitioning. Strong reference if you are architecting a SaaS product on Kubernetes rather than starting from scratch.
+
+### [Best practices for using Amazon EKS add-ons](https://d1.awsstatic.com/events/Summits/reinvent2022/CON201_Best-practices-for-using-Amazon-EKS-add-ons.pdf)
+
+How to manage the operational software layer on EKS clusters - networking, observability, autoscaling - as a consistent, versioned set of add-ons rather than ad-hoc installs.
+
+### [Best practices platform teams can use to streamline Kubernetes operations](https://d1.awsstatic.com/events/Summits/reinvent2022/PRT002_Best-practices-platform-teams-can-use-to-streamline-Kubernetes-operations-sponsored-by-Rafay-Systems.pdf)
+
+Partner-sponsored session on scaling platform engineering practices across many EKS clusters and application teams. Some vendor-specific framing, but the organisational patterns are widely applicable.
+
+### [Bootstrapping "batteries-included" Amazon EKS clusters](https://d1.awsstatic.com/events/Summits/reinvent2022/CON403-R_Bootstrapping-batteries-included-Amazon-EKS-clusters--.pdf)
+
+Using EKS Blueprints (Terraform) to stand up opinionated, security-compliant clusters with managed node groups, Fargate profiles, and a curated set of open-source add-ons (Karpenter, Argo CD, Load Balancer Controller, and so on). A useful fast path if you are tired of reinventing cluster bootstrap.
+
+### [Build Kubernetes at scale using AWS file services](https://d1.awsstatic.com/events/Summits/reinvent2022/STG326_Build-Kubernetes-at-scale-using-AWS-file-services-.pdf)
+
+Using Amazon FSx as persistent storage for containerised workloads on EKS, covering performance, high availability, and cross-region replication.
+
+### [Data analysis with Amazon EKS and AWS Batch](https://d1.awsstatic.com/events/Summits/reinvent2022/CMP335-R_Data-analysis-with-Amazon-EKS-and-AWS-Batch.pdf)
+
+Using AWS Batch to manage large-scale data-analysis workloads on EKS, including a worked example of training a simple ML model. Interesting if you run analytics jobs on Kubernetes and want to replace hand-rolled job orchestration.
+
+### [Disaster recovery, high availability, and resiliency on Amazon EKS](https://d1.awsstatic.com/events/Summits/reinvent2022/CON404_Disaster-recovery-high-availability-and-resiliency-on-Amazon-EKS.pdf)
+
+Patterns for building resilient Kubernetes clusters, including chaos-engineering techniques to simulate failures and validate recovery procedures against RTO and RPO targets.
+
+### [Getting started with Amazon EKS](https://d1.awsstatic.com/events/Summits/reinvent2022/CON204-R_Getting-started-with-Amazon-Elastic-Kubernetes-Service-Amazon-EKS.pdf)
+
+Introductory workshop deploying microservices on EKS with load balancing, centralised logging, and autoscaling. Useful as a refresher or as onboarding material for someone new to Kubernetes on AWS.
+
+### [How to monitor and reduce your compute costs](https://d1.awsstatic.com/events/Summits/reinvent2022/CON405_How-to-monitor-and-reduce-your-compute-costs.pdf)
+
+Practical cost-reduction walkthrough using OpenCost, Kubecost, Karpenter, and Graviton, with a case study from Adobe. Worth reading before you negotiate your next EKS budget.
+
+### [Running efficient Kubernetes clusters on Amazon EC2 with Karpenter](https://d1.awsstatic.com/events/Summits/reinvent2022/CMP405-R_Running-efficient-Kubernetes-clusters-on-Amazon-EC2-with-Karpenter.pdf)
+
+Deep dive on Karpenter as a node-lifecycle manager, including how its intent-based instance selection differs from the cluster autoscaler.
+
+### [Simplifying Kubernetes application management with cdk8s](https://d1.awsstatic.com/events/reinvent/2020/Simplifying_Kubernetes_application_management_with_cdk8s_DOP401.pdf)
+
+Using cdk8s to define Kubernetes applications in familiar programming languages instead of raw YAML. Worth a look if your team is drowning in YAML and considering a programmatic abstraction.
+
+### [Spot Invaders: A fault-tolerant chaos engineering game](https://d1.awsstatic.com/events/Summits/reinvent2022/CMP001_Spot-invaders-A-fault-tolerant-chaos-engineering-game.pdf)
+
+A genuinely playful session using an arcade-style game to teach Spot instance best practices and chaos engineering with AWS Fault Injection Simulator. Lighter content but a clever way to introduce the concepts.
+
+## Related Pages
+
+- [AWS Summit London 2023 - Agenda Announcement]({{< ref "/devops/aws-summit-2023" >}})
+- [AWS Summit London 2023 - Full Agenda]({{< ref "/devops/aws-summit-2023-agenda" >}})
+- [DevOps Conferences]({{< ref "/devops/devops-conferences" >}})

@@ -25,7 +25,7 @@
       <link>https://jamesm.blog/devops/explainers/</link>
       <pubDate>Sat, 16 Dec 2023 09:36:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/explainers/</guid>
-      <description>Educational explainer videos and articles covering DevOps concepts including APIs, databases, DNS, Git, and Linux fundamentals.</description>
+      <description>Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found.</description>
     </item>
     <item>
       <title>DevOps Cheatsheets</title>
@@ -33,6 +33,13 @@
       <pubDate>Sat, 16 Dec 2023 09:28:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/cheatsheets/</guid>
       <description>Quick reference guides and cheatsheets for DevOps tools, cloud computing concepts, Linux commands, and Kubernetes operations.</description>
+    </item>
+    <item>
+      <title>DevOps GitHub Projects</title>
+      <link>https://jamesm.blog/devops/github-projects/</link>
+      <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/github-projects/</guid>
+      <description>Curated collection of essential open-source DevOps projects on GitHub - SRE learning resources, Kubernetes tooling, Linux utilities, and workflow schedulers.</description>
     </item>
     <item>
       <title>List of DevOps Courses</title>
@@ -46,7 +53,7 @@
       <link>https://jamesm.blog/devops/books/</link>
       <pubDate>Fri, 21 Apr 2023 23:07:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/books/</guid>
-      <description>Recommended reading list of DevOps and infrastructure engineering books covering cloud, containers, infrastructure as code, and programming languages.</description>
+      <description>Recommended reading list of DevOps and infrastructure engineering books covering culture, cloud, containers, infrastructure as code, SRE, and programming languages.</description>
     </item>
   </channel>
 </rss>

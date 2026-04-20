@@ -20,12 +20,5 @@
       <guid>https://jamesm.blog/devops/devops-courses/</guid>
       <description>Comprehensive collection of DevOps courses covering AWS, Azure, Docker, Kubernetes, Terraform, CI/CD, Linux, and cloud infrastructure training.</description>
     </item>
-    <item>
-      <title>AWS re:Invent Slides (2022)</title>
-      <link>https://jamesm.blog/devops/aws-reinvent-2022-slides/</link>
-      <pubDate>Sat, 03 Dec 2022 11:04:16 +0100</pubDate>
-      <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
-      <description>Curated collection of presentation slides from AWS re:Invent 2022 covering DevOps, Kubernetes, CI/CD, and security topics.</description>
-    </item>
   </channel>
 </rss>
