@@ -33,7 +33,7 @@ https://gist.github.com/sansmischevia/5148109
 {{< x user="SanDiegoZoo" id="1453110110599868418" >}}
 
 ### Vimeo
-{{< vimeo 55073825 >}}
+<iframe src="https://player.vimeo.com/video/55073825" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ### YouTube
 {{< youtube w7Ft2ymGmfc >}}
