@@ -52,6 +52,7 @@ description: "Curated collection of essential macOS applications and utilities f
 - [Slack](https://slack.com/) 💰  -  Team messaging and collaboration platform
 - [Teams](https://www.microsoft.com/en-ie/microsoft-teams/group-chat-software) 💰  -  Microsoft unified communications platform
 - [Otter](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) 💰  -  AI-powered voice transcription
+- [WisprFlow](https://wisprflow.ai/) 💰  -  Voice recording and transcription tool
 
 ## System Utilities
 - [Alfred](https://www.alfredapp.com/) 💰  -  Productivity launcher with hotkeys, snippets, and workflows
@@ -65,6 +66,7 @@ description: "Curated collection of essential macOS applications and utilities f
 ## iPhone Apps
 - [Just Press Record](https://www.openplanetsoftware.com/just-press-record/) 💰  -  Recording and transcription with iCloud sync
 - [Otter](https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113) 💰  -  Voice-to-text transcription
+- [WisprFlow](https://wisprflow.ai/) 💰  -  Voice recording and transcription tool
 
 **Legend:** 🆓 = Free | 💰 = Paid/Freemium
 
