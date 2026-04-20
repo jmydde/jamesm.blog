@@ -1,7 +1,7 @@
 ---
 title: "Reading the Signals: Which of the Four Futures Is Actually Emerging?"
-date: 2026-04-20T21:45:00+01:00
-draft: true
+date: 2026-04-20T20:45:00+01:00
+draft: false
 tags: ["ai", "economy", "future", "society"]
 description: "A follow-up to the four futures framework - scoring the real-world signals firing right now against broad abundance, winner-take-most, techno-feudalism, and managed transition."
 cover:

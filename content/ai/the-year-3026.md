@@ -25,6 +25,20 @@ What they could have predicted, and got right, were the slow-moving constants. P
 
 That's the frame. Over a thousand years, the substrate of civilisation is likely to change beyond recognition. The human core probably does not.
 
+```
+   1026                       2026                       3026
+    │                          │                          │
+    ├─ Cnut the Great          ├─ AI emerging             ├─ Ambient intelligence
+    ├─ No printing press       ├─ Intelligence priced     ├─ Solar-system scale
+    ├─ No electricity          ├─ Nation-states peak      ├─ Kardashev I to II
+    ├─ No germ theory          ├─ Climate inflection      ├─ Institutions thin
+    ├─ Old English             ├─ You are here            ├─ Categories dissolve
+    │                          │                          │
+    └────── 1000 years ────────┴─────── 1000 years ───────┘
+         substrate churn             substrate churn
+         human core persists         human core persists
+```
+
 ## What Extrapolates and What Breaks
 
 Some trends plausibly survive the full thousand years because they are rooted in physics and thermodynamics rather than fashion. Others will not make it past the next fifty.

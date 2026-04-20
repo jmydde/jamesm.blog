@@ -23,6 +23,45 @@ The pattern is that the hundred-year horizon is close enough that some current t
 
 With that caveat stated loudly, here is what I think the honest, probability-weighted picture actually looks like.
 
+## A Rough Timeline
+
+```
+ Year   Milestone
+ ────   ──────────────────────────────────────────────────────
+ 2026 ──┬── You are here. AI era begins in earnest.
+        │
+ 2035 ──┼── Routine cognitive work largely automated.
+        │
+ 2045 ──┼── Clean energy cost approaches delivery cost.
+        │       Fusion demonstrably commercial.
+        │
+ 2055 ──┼── First generation with no pre-AI memory hits middle age.
+        │       Gigatonne-scale carbon removal operational.
+        │
+ 2065 ──┼── Global population peaks near 10B, decline begins.
+        │       Off-world workforce in the thousands.
+        │
+ 2075 ──┼── Brain-computer interfaces mainstream medical devices.
+        │       Longevity interventions compound: +10 healthy years.
+        │
+ 2085 ──┼── Pension systems either transformed or abandoned.
+        │       Asteroid mining and orbital manufacturing routine.
+        │
+ 2095 ──┼── Cities that grew for 200 years are visibly shrinking.
+        │       Moral-status debate for AI enters legal systems.
+        │
+ 2105 ──┼── Climate: stabilised below 3C, or in partial retreat.
+        │       The fork is now visible in hindsight.
+        │
+ 2115 ──┼── Stewardship-of-continuity profession matures.
+        │       Tens of thousands live off Earth full-time.
+        │
+ 2126 ──┴── 100-year-olds are ordinary. Children are rare and valued.
+            The generation born in 2026 is being interviewed.
+```
+
+The milestone dates are directional, not precise. The ordering is the part that matters: energy and automation resolve first, demography and longevity in the middle, institutional and off-world shifts last.
+
 ## What Is Almost Certainly Solved
 
 Some problems that dominate the current decade will be historical footnotes by 2126.
