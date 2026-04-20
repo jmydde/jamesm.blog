@@ -230,6 +230,45 @@
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
+                srcset='https://jamesm.blog/images/mac-studio-llms_hu_2d372ca9789c067e.jpg 360w,https://jamesm.blog/images/mac-studio-llms_hu_6a3dc7979e81a42.jpg 480w,https://jamesm.blog/images/mac-studio-llms_hu_cd9a17d322f111f5.jpg 720w,https://jamesm.blog/images/mac-studio-llms_hu_b6d8419116959ab4.jpg 1080w,https://jamesm.blog/images/mac-studio-llms.jpg 1280w'
+                src="https://jamesm.blog/images/mac-studio-llms.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1280" height="720"
+                alt="Mac Studio LLMs Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Which Mac Studio Should You Buy for Running LLMs Locally?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Best entry point: M2 Max 32-64 GB (~£1.4k-£2k) for 7B-13B models at 25-40 tok/s Best sweet spot: M2 Ultra 64-128 GB (~£3k-£4.5k) handles 30B&#43; models comfortably Best for 70B models: M3 Ultra 128 GB&#43; (~£5.5k&#43;) with 800&#43; GB/s bandwidth Newer alternative: M4 Max (£2k-£4k) - lower bandwidth (410-546 GB/s) than Ultra chips, but still solid for 7B-13B models Key rule: Memory bandwidth matters more than raw compute for token generation Reality check: A RTX 5090 rig is 2-3× faster for similar money - buy Mac for simplicity and unified memory You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what “works” versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 07:22:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Which Mac Studio Should You Buy for Running LLMs Locally?" href="https://jamesm.blog/ai/mac-studio-local-llm-guide/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/claude-code.png" alt="Token efficiency visualization">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
+The difference isn’t randomness. It’s a mental model problem.
+The Problem With “Just Ask” Most people treat Claude like a search engine with a long context window. You dump information, ask a question, wait for an answer. If you don’t like it, you ask again. Iterate until satisfied.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-17 21:36:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should" href="https://jamesm.blog/ai/claude-token-efficiency-mindset/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
                 srcset='https://jamesm.blog/images/claude-design_hu_bddf4cde3b6d53b9.png 360w,https://jamesm.blog/images/claude-design_hu_2898ee01d62e7a55.png 480w,https://jamesm.blog/images/claude-design_hu_692365824f43a22a.png 720w,https://jamesm.blog/images/claude-design_hu_3fd9664aafc5f616.png 1080w,https://jamesm.blog/images/claude-design_hu_ad6a5fd685495e6.png 1500w,https://jamesm.blog/images/claude-design.png 1710w'
                 src="https://jamesm.blog/images/claude-design.png"
                 sizes="(min-width: 768px) 720px, 100vw"
@@ -355,34 +394,6 @@ The context window arms race reveals a gap between what engineers think matters 
   </div>
   <footer class="entry-footer"><span title='2026-04-09 06:14:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to The LLM Context Window Arms Race: Does It Actually Matter?" href="https://jamesm.blog/ai/llm-context-window-arms-race/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Token Economics: Why the Cost of AI Isn&#39;t Going Down
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>There’s a persistent myth in tech: AI will get cheaper. The argument is straightforward - Moore’s Law, scale effects, competition, and raw compute efficiency improvements mean costs should plummet. Yet in April 2026, Claude costs roughly what it did in 2024. GPT-4 Turbo pricing hasn’t moved in eighteen months. Gemini’s cost structure remains sticky. Why?
-The answer isn’t that progress hasn’t happened. It’s that the economics of modern AI are fundamentally different from hardware commoditization. Once you understand the actual constraints, the stability of pricing becomes logical.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:40:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Token Economics: Why the Cost of AI Isn&#39;t Going Down" href="https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Local AI vs Cloud AI: The Tradeoff Landscape in 2026
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>By early 2026, the “Local vs. Cloud” debate has moved past the experimental phase. We are no longer just “trying to see if Llama runs on a Mac.” Instead, professional engineers are building sophisticated Hybrid AI Stacks where local and cloud models work in tandem.
-The landscape has shifted because the hardware caught up to the software. With the prevalence of unified memory on Apple Silicon and the accessibility of 24GB&#43; VRAM cards like the RTX 50-series, the “local” ceiling has been smashed.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:11:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Local AI vs Cloud AI: The Tradeoff Landscape in 2026" href="https://jamesm.blog/ai/local-vs-cloud-ai-2026/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
