@@ -14,11 +14,11 @@
     <lastBuildDate>Fri, 28 May 2021 11:51:18 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>List of Development Courses</title>
+      <title>Development Courses</title>
       <link>https://jamesm.blog/devops/dev-courses/</link>
       <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/dev-courses/</guid>
-      <description>Development and programming courses covering Django, React Native, C&#43;&#43;, and other languages for software engineers.</description>
+      <description>Curated list of development and programming courses covering Python, Django, React, C&#43;&#43;, JavaScript, and fundamentals for software engineers at every level.</description>
     </item>
   </channel>
 </rss>

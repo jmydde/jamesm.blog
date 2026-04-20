@@ -34,5 +34,12 @@
       <guid>https://jamesm.blog/devops/books/</guid>
       <description>Recommended reading list of DevOps and infrastructure engineering books covering cloud, containers, infrastructure as code, and programming languages.</description>
     </item>
+    <item>
+      <title>Development Courses</title>
+      <link>https://jamesm.blog/devops/dev-courses/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/dev-courses/</guid>
+      <description>Curated list of development and programming courses covering Python, Django, React, C&#43;&#43;, JavaScript, and fundamentals for software engineers at every level.</description>
+    </item>
   </channel>
 </rss>

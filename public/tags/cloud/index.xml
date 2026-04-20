@@ -28,11 +28,39 @@
       <description>Explore AWS S3 Files, a new file system interface that brings high-performance file access to Amazon S3 data without duplication or complex integration.</description>
     </item>
     <item>
-      <title>Monitoring</title>
+      <title>DevOps Cheatsheets</title>
+      <link>https://jamesm.blog/devops/cheatsheets/</link>
+      <pubDate>Sat, 16 Dec 2023 09:28:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/cheatsheets/</guid>
+      <description>Quick reference guides and cheatsheets for DevOps tools, cloud computing concepts, Linux commands, and Kubernetes operations.</description>
+    </item>
+    <item>
+      <title>AWS Summit London (2023) - Agenda Announcement</title>
+      <link>https://jamesm.blog/devops/aws-summit-2023/</link>
+      <pubDate>Thu, 18 May 2023 09:54:16 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/aws-summit-2023/</guid>
+      <description>AWS Summit London 2023 agenda announcement with keynote details, technical tracks, and planning guidance for attendees.</description>
+    </item>
+    <item>
+      <title>DevOps Blogs</title>
+      <link>https://jamesm.blog/devops/blogs/</link>
+      <pubDate>Fri, 21 Apr 2023 11:50:32 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/blogs/</guid>
+      <description>Curated list of DevOps and SRE blogs covering infrastructure, automation, continuous delivery, platform engineering, and operational best practices.</description>
+    </item>
+    <item>
+      <title>Monitoring and Observability</title>
       <link>https://jamesm.blog/devops/monitoring/</link>
       <pubDate>Fri, 21 Jan 2022 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/monitoring/</guid>
-      <description>Monitoring and observability tools for cloud infrastructure, applications, and systems including AWS CloudWatch, Datadog, Grafana, and Prometheus.</description>
+      <description>Guide to monitoring and observability tools for cloud infrastructure and applications - AWS CloudWatch, Datadog, Grafana, Prometheus, and open-source alternatives.</description>
+    </item>
+    <item>
+      <title>DevOps Conferences</title>
+      <link>https://jamesm.blog/devops/devops-conferences/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/devops-conferences/</guid>
+      <description>Guide to major DevOps conferences and summits - KubeCon, DevOpsDays, PlatformCon, AWS re:Invent - covering cloud infrastructure, SRE, and platform engineering.</description>
     </item>
   </channel>
 </rss>

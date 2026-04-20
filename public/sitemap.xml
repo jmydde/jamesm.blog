@@ -410,10 +410,10 @@
     <loc>https://jamesm.blog/devops/aws-s3-files/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/s3/</loc>
@@ -947,19 +947,10 @@
     <loc>https://jamesm.blog/tags/terraform/</loc>
     <lastmod>2026-04-04T20:59:35+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/mac/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/macos/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/tools/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/utilities/</loc>
-    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/mac-apps-utils/</loc>
+    <lastmod>2026-04-04T20:56:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/utility/</loc>
     <lastmod>2026-04-04T20:56:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/airflow/</loc>
@@ -1976,9 +1967,6 @@
     <loc>https://jamesm.blog/tags/system-design/</loc>
     <lastmod>2023-12-16T09:33:18+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/cloud-computing/</loc>
-    <lastmod>2023-12-16T09:28:18+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/devops/cheatsheets/</loc>
     <lastmod>2023-12-16T09:28:18+01:00</lastmod>
   </url><url>
@@ -2046,6 +2034,12 @@
     <lastmod>2023-06-10T06:51:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/aws-summit-2023-videos/</loc>
+    <lastmod>2023-06-07T11:04:16+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/keynote/</loc>
+    <lastmod>2023-06-07T11:04:16+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/london/</loc>
     <lastmod>2023-06-07T11:04:16+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/video/</loc>
@@ -2252,6 +2246,12 @@
     <loc>https://jamesm.blog/devops/blogs/</loc>
     <lastmod>2023-04-21T11:50:32+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/platform/</loc>
+    <lastmod>2023-04-21T11:50:32+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/reading/</loc>
+    <lastmod>2023-04-21T11:50:32+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/sre/</loc>
     <lastmod>2023-04-21T11:50:32+01:00</lastmod>
   </url><url>
@@ -2333,10 +2333,19 @@
     <loc>https://jamesm.blog/tags/continuous-delivery/</loc>
     <lastmod>2022-08-21T11:51:18+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/logging/</loc>
+    <lastmod>2022-01-21T11:51:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/metric/</loc>
+    <lastmod>2022-01-21T11:51:18+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/devops/monitoring/</loc>
     <lastmod>2022-01-21T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/observability/</loc>
+    <lastmod>2022-01-21T11:51:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/tracing/</loc>
     <lastmod>2022-01-21T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/blockchain-comparison/</loc>
@@ -2354,16 +2363,19 @@
     <loc>https://jamesm.blog/tags/lex-fridman/</loc>
     <lastmod>2021-06-17T09:53:39+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/c&#43;&#43;/</loc>
-    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/django/</loc>
+    <loc>https://jamesm.blog/tags/cpp/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/dev-courses/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/devops/devops-conferences/</loc>
+    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/django/</loc>
+    <lastmod>2021-05-28T11:51:18+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/javascript/</loc>
     <lastmod>2021-05-28T11:51:18+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/react/</loc>

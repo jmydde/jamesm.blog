@@ -253,16 +253,16 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">AWS Summit London (2023) - Agenda now available
+    <h2 class="entry-hint-parent">AWS Summit London (2023) - Agenda Announcement
     </h2>
   </header>
   <div class="entry-content">
-    <p>The AWS Summit London agenda is now available
-Plan your day &amp; get ready to explore technical sessions, hands-on workshops &amp; keynotes
-AWS Summit London Agenda </p>
+    <p>The AWS Summit London agenda for 2023 went live in mid-May, and the schedule shape will be familiar to anyone who has attended a Summit before - a morning keynote followed by parallel technical tracks, hands-on workshops, and partner sessions spread across the afternoon.
+What to expect AWS Summits are the free regional cousins of re:Invent. You lose the service-launch spectacle but gain something useful: the content is pitched at the realities of running AWS in your region, often with local customer case studies that simply would not make the Vegas keynote stage.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2023-05-18 09:54:16 +0100 BST'>May 18, 2023</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to AWS Summit London (2023) - Agenda now available" href="https://jamesm.blog/devops/aws-summit-2023/"></a>
+  <footer class="entry-footer"><span title='2023-05-18 09:54:16 +0100 BST'>May 18, 2023</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AWS Summit London (2023) - Agenda Announcement" href="https://jamesm.blog/devops/aws-summit-2023/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -284,9 +284,12 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
     </h2>
   </header>
   <div class="entry-content">
-    <p>DevOps &amp; SRE Atlassian DevOps Blog AWS DevOps Blog Everything DevOps (Reddit) Ricard Bejarano - SRE at Cisco </p>
+    <p>Good engineering blogs are one of the cheapest forms of mentorship available. The posts below are from teams and individuals I return to when I want to see how real organisations solve real problems - outages, scaling walls, migrations, and the occasional cultural mistake.
+Vendor and Platform Blogs These blogs publish architectural deep-dives and reference implementations. They are partly marketing, but the engineering detail is usually genuine.
+Atlassian DevOps Blog - practitioner posts on pipelines, incident response, and team topology AWS DevOps Blog - pipeline patterns, CDK/CodePipeline how-tos, and multi-account guidance Google Cloud Blog - the SRE-flavoured material that originated at Google Microsoft DevOps Blog - Azure DevOps, GitHub Actions, and developer platform posts GitLab Blog - CI/CD and platform engineering content from the GitLab team HashiCorp Blog - Terraform, Vault, Consul, and Nomad in production Individual and Community Voices Ricard Bejarano - SRE at Cisco with sharp posts on minimal container images and infrastructure hygiene Charity Majors - co-founder of Honeycomb, writing extensively on observability and on-call culture Julia Evans - illustrated explainers on Linux, networking, and debugging fundamentals Gergely Orosz - The Pragmatic Engineer - deep dives into how large engineering organisations actually operate High Scalability - architecture breakdowns of well-known systems SRE-Specific Reading Google SRE Books - the foundational texts on SRE as a discipline Increment Magazine - long-form essays on on-call, incident response, and reliability Everything DevOps (Reddit) - less polished, but a useful pulse on what practitioners are struggling with this week How I Use This List Blog posts age quickly. A Kubernetes best-practices post from 2019 may actively mislead you in 2026. When I read any of these, I check the date first and treat anything older than three years as historical context rather than current guidance.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2023-04-21 11:50:32 +0100 BST'>April 21, 2023</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2023-04-21 11:50:32 +0100 BST'>April 21, 2023</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to DevOps Blogs" href="https://jamesm.blog/devops/blogs/"></a>
 </article>
 
@@ -308,48 +311,54 @@ DevOps The DevOps Handbook The Phoenix Project Containers Docker Docker Deep Div
     </h2>
   </header>
   <div class="entry-content">
-    <p> ArgoCD - a declarative, GitOps continuous delivery tool for Kubernetes AWS CodePipeline - a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software Azure DevOps - provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities GitLab - allows software development teams to plan, code, test, deploy and monitor product changes in one place Jenkins - the leading open source automation server, provides hundreds of plugins to support building, deploying and automating any project </p>
+    <p>CI/CD is the plumbing that turns a commit into running software. The tools below cover the full spectrum - from fully managed SaaS that you never have to operate, to self-hosted automation servers you tune yourself, to GitOps controllers that treat your Kubernetes cluster as the deployment target.
+How to choose A few questions that tend to cut through the vendor noise:
+Is your code in GitHub, GitLab, or Bitbucket? Staying in-ecosystem reduces integration effort dramatically Do you deploy to Kubernetes? GitOps tools like Argo CD and Flux are often a better fit than traditional pipelines Do you want to operate the control plane yourself? Jenkins gives you maximum flexibility and maximum operational burden How many parallel runners will you need at peak, and who pays for them? Hosted CI/CD platforms Low operational overhead, tight integration with their source-control parents, and usage-based pricing.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-08-21 11:51:18 +0100 BST'>August 21, 2022</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2022-08-21 11:51:18 +0100 BST'>August 21, 2022</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to CI/CD Tools" href="https://jamesm.blog/devops/cicd-tools/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Monitoring
+    <h2 class="entry-hint-parent">Monitoring and Observability
     </h2>
   </header>
   <div class="entry-content">
-    <p>Overview A collection of monitoring and observability platforms for tracking system health, application performance, and infrastructure metrics.
-Tools AWS CloudWatch - Observe and monitor resources and applications on AWS, on premises, and on other clouds Datadog - Cloud Monitoring as a Service Application Performance Monitoring (APM), Application Security Management, Application Vulnerability Management, Cloud SIEM, Container Monitoring, Cost Management, CSPM, DB Monitoring, Infrastructure Monitoring, Sensitive Data Scanner, Service Catalog … Grafana - Open-source observability platform for metrics visualization and alerting Prometheus </p>
+    <p>“Monitoring” and “observability” are not the same thing, even though the words are often used interchangeably. Monitoring tells you when a pre-defined thing has gone wrong. Observability is whether you can answer new questions about system behaviour - including questions you had not thought to ask when you built the dashboards.
+This page groups tools by what they do rather than by vendor, because most real production stacks combine several of them.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2022-01-21 11:51:18 +0100 +0100'>January 21, 2022</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Monitoring" href="https://jamesm.blog/devops/monitoring/"></a>
+  <footer class="entry-footer"><span title='2022-01-21 11:51:18 +0100 +0100'>January 21, 2022</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Monitoring and Observability" href="https://jamesm.blog/devops/monitoring/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">List of Development Courses
+    <h2 class="entry-hint-parent">Development Courses
     </h2>
   </header>
   <div class="entry-content">
-    <p>Code With Mosh The Ultimate Django Series The Ultimate React Native Series Ultimate C&#43;&#43; Series Note: This page is a stub and needs expansion with course links and additional resources.
-</p>
+    <p>A short list of development courses I either learned from myself or have recommended to others starting out. Most of the best teachers charge for their work - I have pointed out the free options where they are genuinely good.
+Python and Django Code With Mosh - The Ultimate Django Series - structured end-to-end path, best if you already know Python basics Corey Schafer’s Python tutorials - free YouTube series covering Python, Django, and Flask in genuine depth Real Python - article- and video-driven learning with a strong practical slant Django Girls Tutorial - free, beginner-friendly, the cleanest on-ramp to Django I have seen JavaScript and React The Odin Project - free full-stack curriculum that takes you from HTML through to JavaScript frameworks Code With Mosh - The Ultimate React Native Series - covers cross-platform mobile development with React Native Kent C. Dodds - Epic React - paid but widely regarded as the deepest React course available React official tutorial - free, well-maintained, and the right place to start for the current React model C and C&#43;&#43; Code With Mosh - Ultimate C&#43;&#43; Series - modern C&#43;&#43; taught from first principles learncpp.com - a free, comprehensive, and regularly updated C&#43;&#43; reference-and-tutorial hybrid The C Programming Language (K&amp;R) - still the canonical text for learning C, forty years on Fundamentals and Computer Science CS50 (Harvard) - free introductory computer-science course, famously well-produced Missing Semester of Your CS Education (MIT) - shell, Git, debugging, and the tools a CS degree usually skips Teach Yourself Computer Science - a curated syllabus for self-taught engineers who want to fill gaps Related Pages DevOps Courses DevOps Books </p>
   </div>
-  <footer class="entry-footer"><span title='2021-05-28 11:51:18 +0100 BST'>May 28, 2021</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to List of Development Courses" href="https://jamesm.blog/devops/dev-courses/"></a>
+  <footer class="entry-footer"><span title='2021-05-28 11:51:18 +0100 BST'>May 28, 2021</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Development Courses" href="https://jamesm.blog/devops/dev-courses/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">List of DevOps Conferences
+    <h2 class="entry-hint-parent">DevOps Conferences
     </h2>
   </header>
   <div class="entry-content">
-    <p> IDC DevOps Summit PlatformCon The National DevOps Conference </p>
+    <p>Conferences are an inefficient way to learn a specific skill and an excellent way to discover what the rest of the industry is struggling with this year. The ones below are the events I either attend or watch closely, grouped by focus area.
+Large vendor conferences These are the flagship events run by the major cloud and software vendors. Content is partly marketing, but the architectural talks and customer case studies are genuinely useful.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2021-05-28 11:51:18 +0100 BST'>May 28, 2021</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to List of DevOps Conferences" href="https://jamesm.blog/devops/devops-conferences/"></a>
+  <footer class="entry-footer"><span title='2021-05-28 11:51:18 +0100 BST'>May 28, 2021</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DevOps Conferences" href="https://jamesm.blog/devops/devops-conferences/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

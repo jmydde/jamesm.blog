@@ -35,11 +35,18 @@
       <description>Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.</description>
     </item>
     <item>
-      <title>AWS Summit London (2023) - Videos</title>
+      <title>DevOps Cheatsheets</title>
+      <link>https://jamesm.blog/devops/cheatsheets/</link>
+      <pubDate>Sat, 16 Dec 2023 09:28:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/cheatsheets/</guid>
+      <description>Quick reference guides and cheatsheets for DevOps tools, cloud computing concepts, Linux commands, and Kubernetes operations.</description>
+    </item>
+    <item>
+      <title>AWS Summit London (2023) - Video Highlights</title>
       <link>https://jamesm.blog/devops/aws-summit-2023-videos/</link>
       <pubDate>Wed, 07 Jun 2023 11:04:16 +0100</pubDate>
       <guid>https://jamesm.blog/devops/aws-summit-2023-videos/</guid>
-      <description>Video recordings and keynote presentations from AWS Summit London 2023.</description>
+      <description>Video recordings and key takeaways from AWS Summit London 2023, including the opening keynote on generative AI, data strategy, and customer stories from Compare the Market and Arup.</description>
     </item>
     <item>
       <title>AWS Summit London (2023) - Agenda</title>
@@ -56,11 +63,11 @@
       <description>Comprehensive collection of DevOps courses covering AWS, Azure, Docker, Kubernetes, Terraform, CI/CD, Linux, and cloud infrastructure training.</description>
     </item>
     <item>
-      <title>AWS Summit London (2023) - Agenda now available</title>
+      <title>AWS Summit London (2023) - Agenda Announcement</title>
       <link>https://jamesm.blog/devops/aws-summit-2023/</link>
       <pubDate>Thu, 18 May 2023 09:54:16 +0100</pubDate>
       <guid>https://jamesm.blog/devops/aws-summit-2023/</guid>
-      <description>AWS Summit London 2023 announcement with agenda, keynote information, and technical session details.</description>
+      <description>AWS Summit London 2023 agenda announcement with keynote details, technical tracks, and planning guidance for attendees.</description>
     </item>
     <item>
       <title>AWS re:Invent Slides (2022)</title>

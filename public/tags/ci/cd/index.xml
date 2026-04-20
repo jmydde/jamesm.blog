@@ -27,12 +27,5 @@
       <guid>https://jamesm.blog/devops/aws-reinvent-2022-slides/</guid>
       <description>Curated collection of presentation slides from AWS re:Invent 2022 covering DevOps, Kubernetes, CI/CD, and security topics.</description>
     </item>
-    <item>
-      <title>CI/CD Tools</title>
-      <link>https://jamesm.blog/devops/cicd-tools/</link>
-      <pubDate>Sun, 21 Aug 2022 11:51:18 +0100</pubDate>
-      <guid>https://jamesm.blog/devops/cicd-tools/</guid>
-      <description>Overview of popular CI/CD and continuous delivery tools for automating software builds, testing, and deployments.</description>
-    </item>
   </channel>
 </rss>

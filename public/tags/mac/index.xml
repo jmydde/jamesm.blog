@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>‘Mac’ on jamesm.blog</title>
+    <title>Mac on jamesm.blog</title>
     <link>https://jamesm.blog/tags/mac/</link>
-    <description>Recent content in ‘Mac’ on jamesm.blog</description>
+    <description>Recent content in Mac on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 20:56:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 19:02:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared</title>
+      <link>https://jamesm.blog/ai/mac-dictation-tools-comparison/</link>
+      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mac-dictation-tools-comparison/</guid>
+      <description>A practical breakdown of the three dictation apps every Mac user keeps hearing about - who they&amp;#39;re for, what they cost, and where they stop being interchangeable.</description>
+    </item>
     <item>
       <title>Mac Applications &amp; Utilities</title>
       <link>https://jamesm.blog/devops/mac-apps-utils/</link>

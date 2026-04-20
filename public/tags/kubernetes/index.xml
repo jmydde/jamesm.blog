@@ -21,6 +21,13 @@
       <description>Comprehensive list of essential Homebrew packages for macOS development, DevOps, cloud tools, and command-line utilities.</description>
     </item>
     <item>
+      <title>DevOps Cheatsheets</title>
+      <link>https://jamesm.blog/devops/cheatsheets/</link>
+      <pubDate>Sat, 16 Dec 2023 09:28:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/cheatsheets/</guid>
+      <description>Quick reference guides and cheatsheets for DevOps tools, cloud computing concepts, Linux commands, and Kubernetes operations.</description>
+    </item>
+    <item>
       <title>List of DevOps GitHub Projects</title>
       <link>https://jamesm.blog/devops/github-projects/</link>
       <pubDate>Mon, 29 May 2023 06:45:18 +0100</pubDate>
@@ -53,7 +60,14 @@
       <link>https://jamesm.blog/devops/cicd-tools/</link>
       <pubDate>Sun, 21 Aug 2022 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/cicd-tools/</guid>
-      <description>Overview of popular CI/CD and continuous delivery tools for automating software builds, testing, and deployments.</description>
+      <description>Overview of popular CI/CD and continuous delivery tools - managed services, self-hosted platforms, and GitOps systems - for automating software builds, testing, and deployments.</description>
+    </item>
+    <item>
+      <title>DevOps Conferences</title>
+      <link>https://jamesm.blog/devops/devops-conferences/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/devops-conferences/</guid>
+      <description>Guide to major DevOps conferences and summits - KubeCon, DevOpsDays, PlatformCon, AWS re:Invent - covering cloud infrastructure, SRE, and platform engineering.</description>
     </item>
   </channel>
 </rss>

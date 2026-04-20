@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>London on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/london/</link>
+    <description>Recent content in London on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Jun 2023 11:04:16 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/london/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Summit London (2023) - Video Highlights</title>
+      <link>https://jamesm.blog/devops/aws-summit-2023-videos/</link>
+      <pubDate>Wed, 07 Jun 2023 11:04:16 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/aws-summit-2023-videos/</guid>
+      <description>Video recordings and key takeaways from AWS Summit London 2023, including the opening keynote on generative AI, data strategy, and customer stories from Compare the Market and Arup.</description>
+    </item>
+    <item>
+      <title>AWS Summit London (2023) - Agenda Announcement</title>
+      <link>https://jamesm.blog/devops/aws-summit-2023/</link>
+      <pubDate>Thu, 18 May 2023 09:54:16 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/aws-summit-2023/</guid>
+      <description>AWS Summit London 2023 agenda announcement with keynote details, technical tracks, and planning guidance for attendees.</description>
+    </item>
+  </channel>
+</rss>

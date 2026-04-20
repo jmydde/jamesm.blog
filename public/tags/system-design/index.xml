@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>System Design on jamesm.blog</title>
+    <title>System-Design on jamesm.blog</title>
     <link>https://jamesm.blog/tags/system-design/</link>
-    <description>Recent content in System Design on jamesm.blog</description>
+    <description>Recent content in System-Design on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -18,7 +18,7 @@
       <link>https://jamesm.blog/devops/best-practices/</link>
       <pubDate>Sat, 16 Dec 2023 09:33:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/best-practices/</guid>
-      <description>Curated collection of DevOps and system design best practices from industry experts covering microservices architecture and scalable system design.</description>
+      <description>Practical DevOps and system design best practices covering microservices architecture, CI/CD pipelines, observability, and scalable system design.</description>
     </item>
   </channel>
 </rss>

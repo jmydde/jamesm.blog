@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Platform on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/platform/</link>
+    <description>Recent content in Platform on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Apr 2023 11:50:32 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/platform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps Blogs</title>
+      <link>https://jamesm.blog/devops/blogs/</link>
+      <pubDate>Fri, 21 Apr 2023 11:50:32 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/blogs/</guid>
+      <description>Curated list of DevOps and SRE blogs covering infrastructure, automation, continuous delivery, platform engineering, and operational best practices.</description>
+    </item>
+  </channel>
+</rss>

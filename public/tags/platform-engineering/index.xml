@@ -23,5 +23,12 @@
 &lt;h2 id=&#34;from-automation-to-autonomy&#34;&gt;From Automation to Autonomy&lt;/h2&gt;
 &lt;p&gt;Traditional DevOps automation follows a strict &amp;ldquo;if this, then that&amp;rdquo; logic. AI-driven DevOps uses reasoning models to handle the &amp;ldquo;I&amp;rsquo;m not sure, let me figure it out&amp;rdquo; scenarios that typically stall a release.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>DevOps Conferences</title>
+      <link>https://jamesm.blog/devops/devops-conferences/</link>
+      <pubDate>Fri, 28 May 2021 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/devops-conferences/</guid>
+      <description>Guide to major DevOps conferences and summits - KubeCon, DevOpsDays, PlatformCon, AWS re:Invent - covering cloud infrastructure, SRE, and platform engineering.</description>
+    </item>
   </channel>
 </rss>
