@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Autonomous-System on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/autonomous-system/</link>
+    <description>Recent content in Autonomous-System on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Apr 2026 19:03:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/autonomous-system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hermes Agent: Persistent Autonomy That Learns and Grows</title>
+      <link>https://jamesm.blog/ai/hermes-agent/</link>
+      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/hermes-agent/</guid>
+      <description>Nous Research&amp;#39;s Hermes Agent is an open-source, persistent autonomous system. A look at features, use cases, pricing, and how it compares to OpenClaw, Claude Managed Agents, and Perplexity Computer.</description>
+    </item>
+  </channel>
+</rss>

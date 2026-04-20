@@ -204,6 +204,49 @@
 <article class="post-entry"> 
 <figure class="entry-cover">
             <img loading="lazy"
+                srcset='https://jamesm.blog/images/mac-studio-llms_hu_2d372ca9789c067e.jpg 360w,https://jamesm.blog/images/mac-studio-llms_hu_6a3dc7979e81a42.jpg 480w,https://jamesm.blog/images/mac-studio-llms_hu_cd9a17d322f111f5.jpg 720w,https://jamesm.blog/images/mac-studio-llms_hu_b6d8419116959ab4.jpg 1080w,https://jamesm.blog/images/mac-studio-llms.jpg 1280w'
+                src="https://jamesm.blog/images/mac-studio-llms.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1280" height="720"
+                alt="Mac Studio LLMs Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Which Mac Studio Should You Buy for Running LLMs Locally?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Best entry point: M2 Max 32-64 GB (~£1.4k-£2k) for 7B-13B models at 25-40 tok/s Best sweet spot: M2 Ultra 64-128 GB (~£3k-£4.5k) handles 30B&#43; models comfortably Best for 70B models: M3 Ultra 128 GB&#43; (~£5.5k&#43;) with 800&#43; GB/s bandwidth Newer alternative: M4 Max (£2k-£4k) - lower bandwidth (410-546 GB/s) than Ultra chips, but still solid for 7B-13B models Key rule: Memory bandwidth matters more than raw compute for token generation Reality check: A RTX 5090 rig is 2-3× faster for similar money - buy Mac for simplicity and unified memory You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what “works” versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 07:22:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Which Mac Studio Should You Buy for Running LLMs Locally?" href="https://jamesm.blog/ai/mac-studio-local-llm-guide/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/snowflake_hu_ae93bd2b96c5e3df.jpg 360w,https://jamesm.blog/images/snowflake_hu_ba7ceb8e07177a9b.jpg 480w,https://jamesm.blog/images/snowflake_hu_8d515f8b53f4133b.jpg 720w,https://jamesm.blog/images/snowflake.jpg 1024w'
+                src="https://jamesm.blog/images/snowflake.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="512"
+                alt="Snowflake Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A New Era for Open Data Formats Snowflake has announced the general availability of Snowflake Storage for Apache Iceberg on both AWS and Azure, marking a significant shift in how enterprises can build open, interoperable data lakehouses. This development combines Snowflake’s enterprise reliability and governance capabilities with the flexibility and openness of Apache Iceberg, one of the most promising open table formats in the data ecosystem.
+What is Snowflake Storage for Apache Iceberg? Snowflake Storage for Apache Iceberg enables users to query and manage Iceberg tables using Snowflake’s SQL engine while storing data in their own cloud object storage. This is fundamentally different from traditional Snowflake architectures—you get:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 07:11:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure" href="https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
                 srcset='https://jamesm.blog/images/modular-synths_hu_2d5ab036c9f860d4.jpg 360w,https://jamesm.blog/images/modular-synths_hu_cae9ccf589ccb799.jpg 480w,https://jamesm.blog/images/modular-synths_hu_1d740a488351bb8e.jpg 720w,https://jamesm.blog/images/modular-synths_hu_d6a0e6232e00eec1.jpg 1080w,https://jamesm.blog/images/modular-synths.jpg 1280w'
                 src="https://jamesm.blog/images/modular-synths.jpg"
                 sizes="(min-width: 768px) 720px, 100vw"
@@ -365,33 +408,6 @@ This isn’t just an update; it’s a complete reimagining, building on the stre
   </div>
   <footer class="entry-footer"><span title='2026-04-09 22:46:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to u-he Zebra 3: The Modular Beast Unleashed" href="https://jamesm.blog/music-production/u-he-zebra-3-the-modular-beast-unleashed/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent.
-But this shift introduces a profound, often uncomfortable, question: How do we know it actually works?
-In a world where AI is writing the code, generating the data, and even orchestrating deployments, traditional notions of testing and reliability are breaking down. AI reliability is weird, and it demands a complete re-evaluation of our verification strategies.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-09 22:00:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know" href="https://jamesm.blog/ai/ai-reliability-is-weird/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Cline: The Next Generation AI Coding Assistant
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-09 10:00:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James Myddelton</span></footer>
-  <a class="entry-link" aria-label="post link to Cline: The Next Generation AI Coding Assistant" href="https://jamesm.blog/ai/cline/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

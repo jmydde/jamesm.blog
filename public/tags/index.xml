@@ -11,8 +11,71 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2026 07:31:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 19:03:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent</title>
+      <link>https://jamesm.blog/tags/agent/</link>
+      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://jamesm.blog/tags/ai/</link>
+      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Autonomous-System</title>
+      <link>https://jamesm.blog/tags/autonomous-system/</link>
+      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/autonomous-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hermes</title>
+      <link>https://jamesm.blog/tags/hermes/</link>
+      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/hermes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://jamesm.blog/tags/open-source/</link>
+      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>https://jamesm.blog/tags/mac/</link>
+      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/mac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://jamesm.blog/tags/productivity/</link>
+      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tool</title>
+      <link>https://jamesm.blog/tags/tool/</link>
+      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/tool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Voice</title>
+      <link>https://jamesm.blog/tags/voice/</link>
+      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/voice/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Future</title>
       <link>https://jamesm.blog/tags/future/</link>
@@ -49,13 +112,6 @@
       <description></description>
     </item>
     <item>
-      <title>AI</title>
-      <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Sun, 19 Apr 2026 21:07:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Api</title>
       <link>https://jamesm.blog/tags/api/</link>
       <pubDate>Sun, 19 Apr 2026 21:07:00 +0000</pubDate>
@@ -67,13 +123,6 @@
       <link>https://jamesm.blog/tags/grok/</link>
       <pubDate>Sun, 19 Apr 2026 21:07:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/grok/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Voice</title>
-      <link>https://jamesm.blog/tags/voice/</link>
-      <pubDate>Sun, 19 Apr 2026 21:07:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/voice/</guid>
       <description></description>
     </item>
     <item>
@@ -189,7 +238,7 @@
       <description></description>
     </item>
     <item>
-      <title>Best Practice</title>
+      <title>Best-Practice</title>
       <link>https://jamesm.blog/tags/best-practice/</link>
       <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/best-practice/</guid>
@@ -280,17 +329,17 @@
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
-      <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
+      <title>Data Engineering</title>
       <link>https://jamesm.blog/tags/data-engineering/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Science</title>
+      <link>https://jamesm.blog/tags/data-science/</link>
+      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
@@ -298,13 +347,6 @@
       <link>https://jamesm.blog/tags/lakehouse/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/lakehouse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open-Source</title>
-      <link>https://jamesm.blog/tags/open-source/</link>
-      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
@@ -357,7 +399,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music Production</title>
+      <title>Music-Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>
@@ -403,13 +445,6 @@
       <link>https://jamesm.blog/tags/claude/</link>
       <pubDate>Fri, 17 Apr 2026 21:36:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>https://jamesm.blog/tags/productivity/</link>
-      <pubDate>Fri, 17 Apr 2026 21:36:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
@@ -2650,13 +2685,6 @@
       <link>https://jamesm.blog/tags/text-to-speech/</link>
       <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
       <guid>https://jamesm.blog/tags/text-to-speech/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tool</title>
-      <link>https://jamesm.blog/tags/tool/</link>
-      <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/tool/</guid>
       <description></description>
     </item>
     <item>

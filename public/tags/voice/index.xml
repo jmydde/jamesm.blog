@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 21:07:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 19:02:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/voice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared</title>
+      <link>https://jamesm.blog/ai/mac-dictation-tools-comparison/</link>
+      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mac-dictation-tools-comparison/</guid>
+      <description>A practical breakdown of the three dictation apps every Mac user keeps hearing about - who they&amp;#39;re for, what they cost, and where they stop being interchangeable.</description>
+    </item>
     <item>
       <title>Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale</title>
       <link>https://jamesm.blog/ai/grok-voice-apis/</link>

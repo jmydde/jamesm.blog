@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/agent/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/autonomous-system/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/hermes/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/hermes-agent/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/open-source/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/mac/</loc>
+    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/mac-dictation-tools-comparison/</loc>
+    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/productivity/</loc>
+    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/tool/</loc>
+    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/voice/</loc>
+    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/future/</loc>
     <lastmod>2026-04-20T07:31:00+01:00</lastmod>
   </url><url>
@@ -17,34 +59,19 @@
     <loc>https://jamesm.blog/tags/innovation/</loc>
     <lastmod>2026-04-20T07:31:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/technology/</loc>
     <lastmod>2026-04-20T07:31:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/human-advancement-acceleration/</loc>
     <lastmod>2026-04-20T07:31:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/api/</loc>
-    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
     <lastmod>2026-04-19T21:07:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/grok/</loc>
     <lastmod>2026-04-19T21:07:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/grok-voice-apis/</loc>
-    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/voice/</loc>
     <lastmod>2026-04-19T21:07:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/astronomy/</loc>
@@ -161,16 +188,13 @@
     <loc>https://jamesm.blog/data-engineering/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
-    <lastmod>2026-04-18T07:11:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/lakehouse/</loc>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/open-source/</loc>
+    <loc>https://jamesm.blog/tags/lakehouse/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/snowflake/</loc>
@@ -222,9 +246,6 @@
     <lastmod>2026-04-17T21:36:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/claude/</loc>
-    <lastmod>2026-04-17T21:36:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/productivity/</loc>
     <lastmod>2026-04-17T21:36:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/claude-token-efficiency-mindset/</loc>
@@ -1533,9 +1554,6 @@
     <lastmod>2025-10-28T16:17:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/text-to-speech/</loc>
-    <lastmod>2025-10-28T16:17:14+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/tool/</loc>
     <lastmod>2025-10-28T16:17:14+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/writing/</loc>
