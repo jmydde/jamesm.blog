@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/future/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/general/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/history/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/innovation/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/technology/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/general/human-advancement-acceleration/</loc>
+    <lastmod>2026-04-20T07:31:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
     <lastmod>2026-04-19T21:07:00+00:00</lastmod>
   </url><url>
@@ -15,12 +42,6 @@
     <lastmod>2026-04-19T21:07:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/grok-voice-apis/</loc>
-    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-19T21:07:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-19T21:07:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/voice/</loc>
@@ -60,9 +81,6 @@
     <lastmod>2026-04-19T19:26:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/four-futures-machine-speed-economy/</loc>
-    <lastmod>2026-04-19T19:26:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/future/</loc>
     <lastmod>2026-04-19T19:26:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/society/</loc>
@@ -143,10 +161,10 @@
     <loc>https://jamesm.blog/data-engineering/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
     <lastmod>2026-04-18T07:11:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/lakehouse/</loc>
@@ -243,12 +261,6 @@
     <lastmod>2026-04-16T07:24:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/cosmology/</loc>
-    <lastmod>2026-04-16T07:24:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/general/</loc>
-    <lastmod>2026-04-16T07:24:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/general/</loc>
     <lastmod>2026-04-16T07:24:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/quantum-mechanics/</loc>
@@ -365,10 +377,10 @@
     <loc>https://jamesm.blog/devops/aws-s3-files/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/s3/</loc>
@@ -654,9 +666,6 @@
     <lastmod>2026-04-08T06:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/drm/</loc>
-    <lastmod>2026-04-08T06:11:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/history/</loc>
     <lastmod>2026-04-08T06:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/retro/</loc>
@@ -1568,6 +1577,12 @@
     <loc>https://jamesm.blog/ai/ai-agents-emergency-debate/</loc>
     <lastmod>2025-05-12T16:27:14+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/attack/</loc>
+    <lastmod>2025-04-20T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/devops/cyber-attack-types/</loc>
+    <lastmod>2025-04-20T10:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/abinitio/</loc>
     <lastmod>2025-04-19T07:30:00+01:00</lastmod>
   </url><url>
@@ -1596,9 +1611,6 @@
     <lastmod>2024-09-22T12:57:01+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/museum/</loc>
-    <lastmod>2024-09-22T12:57:01+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/technology/</loc>
     <lastmod>2024-09-22T12:57:01+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/retro-computing/favourite-computers/</loc>

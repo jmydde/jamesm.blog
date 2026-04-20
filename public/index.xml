@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 21:07:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 07:31:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Exponential Curve: Understanding Human Advancement Acceleration</title>
+      <link>https://jamesm.blog/general/human-advancement-acceleration/</link>
+      <pubDate>Mon, 20 Apr 2026 07:31:00 +0100</pubDate>
+      <guid>https://jamesm.blog/general/human-advancement-acceleration/</guid>
+      <description>Why human advancement is accelerating exponentially - from steam engines to AGI in three centuries</description>
+    </item>
     <item>
       <title>Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale</title>
       <link>https://jamesm.blog/ai/grok-voice-apis/</link>
@@ -1960,6 +1967,13 @@
     &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Worth watching for the practical implications of agent AI and perspectives on workforce adaptation strategies.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Types of Cyber Attacks: A DevOps Guide</title>
+      <link>https://jamesm.blog/devops/cyber-attack-types/</link>
+      <pubDate>Sun, 20 Apr 2025 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/cyber-attack-types/</guid>
+      <description>Comprehensive guide to different types of cyber attacks, attack vectors, and defense strategies for DevOps teams</description>
     </item>
     <item>
       <title>ETL Tools &amp; Data Integration Platforms</title>

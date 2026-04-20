@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Devops on jamesm.blog</title>
+    <title>DevOps on jamesm.blog</title>
     <link>https://jamesm.blog/tags/devops/</link>
-    <description>Recent content in Devops on jamesm.blog</description>
+    <description>Recent content in DevOps on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -29,6 +29,13 @@
 &lt;p&gt;But in 2026, the bottleneck is no longer the speed of the pipeline - it&amp;rsquo;s the speed of human decision-making within that pipeline. We are entering the era of &lt;strong&gt;Agentic DevOps&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;from-automation-to-autonomy&#34;&gt;From Automation to Autonomy&lt;/h2&gt;
 &lt;p&gt;Traditional DevOps automation follows a strict &amp;ldquo;if this, then that&amp;rdquo; logic. AI-driven DevOps uses reasoning models to handle the &amp;ldquo;I&amp;rsquo;m not sure, let me figure it out&amp;rdquo; scenarios that typically stall a release.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding Types of Cyber Attacks: A DevOps Guide</title>
+      <link>https://jamesm.blog/devops/cyber-attack-types/</link>
+      <pubDate>Sun, 20 Apr 2025 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/cyber-attack-types/</guid>
+      <description>Comprehensive guide to different types of cyber attacks, attack vectors, and defense strategies for DevOps teams</description>
     </item>
     <item>
       <title>DevOps Explainers</title>
