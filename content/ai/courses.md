@@ -35,7 +35,7 @@ tags: ['ai', 'chatbot', 'chatgpt', 'training-course']
     - [Attention Mechanism](https://www.cloudskillsboost.google/course_templates/537/)
     - [Create Image Captioning Models](https://www.cloudskillsboost.google/course_templates/542/)
     - [Encoder-Decoder Architecture](https://www.cloudskillsboost.google/course_templates/543/)
-    - [Generative AI Explorer - Vertex AI](https://www.cloudskillsboost.google/quests/299/)
+    - [Generative AI Explorer - Vertex AI](https://www.cloudskillsboost.google/journeys/118/)
     - [Introduction to Generative AI](https://www.cloudskillsboost.google/course_templates/536/)
     - [Introduction to Generative AI Studio](https://www.cloudskillsboost.google/course_templates/552/)
     - [Introduction to Image Generation](https://www.cloudskillsboost.google/course_templates/541/)

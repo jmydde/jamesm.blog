@@ -13,9 +13,6 @@ Originally reported as a Microsoft-OpenAI effort, the project was expanded in Ja
 
 Construction has already begun in Texas and other locations as of 2026, with plans for additional facilities across multiple regions. The purpose is to provide the computational infrastructure needed to train and deploy next-generation AI models and support the rapidly expanding AI ecosystem.
 
-## Links
-- https://www.cnbc.com/2025/01/21/microsoft-openai-softbank-and-oracle-announce-stargate-ai-infrastructure-project.html
-- https://www.theverge.com/2025/1/21/23934343/openai-microsoft-stargate-500-billion-ai-project-softbank-oracle
 
 ## YouTube
 

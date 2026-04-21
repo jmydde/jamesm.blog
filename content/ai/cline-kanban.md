@@ -35,10 +35,10 @@ This transforms Cline from a "chat with your code" tool into a **genuinely async
 
 First, set up an MCP server for your Kanban system. Popular options include:
 
-- **Linear** - Via the [Linear MCP server](https://github.com/modelcontextprotocol/servers/tree/main/src/linear) for issue tracking
+- **Linear** - Via the Linear MCP server for issue tracking
 - **GitHub Projects** - Via GitHub's MCP integration for native GitHub workflows
 - **Trello** - Community-built MCP adapters available on the MCP registry
-- **Jira** - Jira Cloud MCP server for enterprise environments
+- **Jira** - Jira MCP server for enterprise environments
 
 Configure Cline to load the relevant MCP server in your VS Code settings.
 
@@ -117,7 +117,7 @@ Your team's board and your code repository finally speak the same language.
 
 - [Linear](https://linear.app/) - Modern issue tracking with MCP support
 - [GitHub Projects](https://github.com/features/project-management) - Native GitHub integration
-- [Jira Cloud](https://www.atlassian.com/software/jira/cloud) - Enterprise project management
+- [Jira Cloud](https://www.atlassian.com/software/jira) - Enterprise project management
 - [Trello](https://trello.com/) - Simple Kanban boards
 
 **Related Concepts:**

@@ -25,7 +25,6 @@ tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","mu
 
 ### ChatBot
 - [BuddyGPT](http://buddygpt.ai/) - the power of ChatGPT, on WhatsApp & Telegram
-- [ChatABC](https://chatabc.ai/) - features such as search web, team collaboration, prompt library & service never-goes-down
 - [ChatGPT](https://openai.com/blog/chatgpt/) - an artificial intelligence chatbot developed by OpenAI (**G**enerative **P**re-trained **T**ransformer)
 - [Cohere](http://cohere.com/) - build incredible products with world-class language AI
 - [Google Gemini](https://gemini.google.com/) - conversational generative AI chatbot developed by Google (formerly Bard), available in free and Pro tiers
@@ -62,7 +61,6 @@ tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","mu
 
 ### Gaming
 - [Nvidia Game AI](https://www.youtube.com/watch?v=nAEQdF3JAJo/)
-- [Unity](https://create.unity.com/ai-beta/) - AI ecosystem that will put AI-powered game-development tools in the hands of millions of creators
 - [Voyager](https://voyager.minedojo.org/) - open-ended embodied agent with large language models (LLMs)
 
 ### Marketing
@@ -73,7 +71,6 @@ tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","mu
 - [Beatoven](https://www.beatoven.ai/) - create customisable royalty free music that elevates your story
 - [Boomy](https://boomy.com/) - create original songs in seconds
 - [Brain.fm](https://www.brain.fm/) - get more done with less effort & unlock your best self on demand
-- [Infinite Album](https://www.infinitealbum.io/) - generative AI music for gamers
 - [LALAL.AI](https://www.lalal.ai/) - extract vocal, accompaniment & various instruments from any audio / video
 - [Muzeek](https://muzeek.com/) - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities
 - [Soundraw](https://soundraw.io/) - royalty-free AI generated music
@@ -121,7 +118,6 @@ tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","mu
 - [Simplified](https://simplified.com/) - supercharge content creation
 - [Sudowrite](https://www.sudowrite.com/) - AI novel writing assistant that makes the creative writing process more fun and interactive
 - [Text Blaze](https://blaze.today/) - eliminate repetitive typing and mistakes
-- [Tome](https://tome.app/) - world’s first generative storytelling format to truly harness the power of artificial intelligence
 - [Trinka](https://trinka.ai) - online grammar checker and language correction AI tool for academic and technical writing
 - [Writesonic](https://writesonic.com/) - create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster
 

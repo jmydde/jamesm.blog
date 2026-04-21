@@ -12,7 +12,7 @@ tags: [‘ai’, ‘chatbot’, ‘google’, ‘gemini’]
 [Google Gemini Ultra](https://gemini.google.com/) was [Google DeepMind](https://deepmind.google/)’s top-tier offering in the Gemini family, known for:
 
 **Performance Highlights**
-- Achieves 90.0% on [MMLU benchmark](https://github.com/hendrycks/MMLU) (Massive Multitask Language Understanding), competitive with other frontier models.
+- Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.
 - Multimodal reasoning across text, images, video, and code.
 - Strong performance on coding tasks, creative writing, and complex reasoning.
 

@@ -5,7 +5,7 @@ draft: false
 tags: ['ai', 'boston dynamics', 'robot', 'humanoid-robot']
 ---
 
-[Boston Dynamics](https://bostondynamics.com/) has [revealed it's most astonishing humanoid robot so far](https://devopsforum.uk/topic/62710-boston-dynamics-reveals-its-most-astonishing-humanoid-robot-so-far-%E2%80%93-and-i-can%E2%80%99t-stop-watching-it/#comment-180907).
+[Boston Dynamics](https://bostondynamics.com/) has revealed its most astonishing humanoid robot so far.
 
 The [All New Atlas](https://bostondynamics.com/atlas/) is Boston Dynamic's first all-electric humanoid robot, designed for real-world applications, it has a far more human-like body. However it's still a long way from commercial or consumer availability.
 

@@ -55,7 +55,6 @@ The AI field changes month-to-month. Following official documentation from model
 | [Claude API Documentation](https://docs.anthropic.com/) | Comprehensive API reference and guides for building with Claude, including prompt caching, tool use, and system design patterns. |
 | [Customize LLMs with Ollama](https://www.freecodecamp.org/news/run-and-customize-llms-locally-with-ollama/) | FreeCodeCamp's guide to Ollama featuring model customization, API integration, and practical examples. |
 | [DeepSeek Complete Guide](https://www.bentoml.com/blog/the-complete-guide-to-deepseek-models-from-v3-to-r1-and-beyond) | Comprehensive overview of DeepSeek models (V3, R1, and variants), their capabilities, and use cases. |
-| [Google Gemini API Guide](https://ai.google.dev/gemini-2/docs) | Official documentation for Google's Gemini models with examples and implementation patterns. |
 | [Prompt Engineering Guide](https://www.promptingguide.ai/) | Comprehensive open-source resource covering prompt engineering techniques, zero-shot learning, chain-of-thought, and advanced patterns. |
 | [Running LLMs Locally with Ollama](https://realpython.com/ollama/) | Real Python's complete guide to setting up and using Ollama for local LLM deployment, including Python integration. |
 | [Stanford AI Index Report](https://aiindex.stanford.edu/) | Annual comprehensive analysis of AI trends, capabilities, and implications for industry and society. |
@@ -64,7 +63,6 @@ The AI field changes month-to-month. Following official documentation from model
 | [Claude Skills](http://claude-skills.free) | Overview of Claude's specialized skills and capabilities for different use cases. |
 | [Stop Prompting: Advanced Claude Usage](https://ruben.substack.com/p/stop-prompting-claude) | Insights on moving beyond basic prompting to leverage Claude's full potential effectively. |
 | [Claude in Excel: Spreadsheet Automation](https://ruben.substack.com/p/ai-couldnt-do-excel) | Guide to integrating Claude capabilities into Excel workflows for automated data processing. |
-| [Scale with Claude: 1M Followers Strategy](https://ruben.substack.com/p/1000000how-claude.team) | Case study on building audience and scaling operations using Claude as a productivity multiplier. |
 | [Claude for Your Team](http://how-claude.team) | Guide to implementing Claude across team workflows and organizational processes. |
 | [No Prompt Saves You: Prompt-Independent Usage](https://ruben.substack.com/p/magic) | Techniques for using Claude effectively beyond traditional prompt engineering. |
 | [AI Slides: Creating Presentations with Claude](http://how-to-gamma.ai) | Guide to generating professional presentations and slides using Claude with Gamma integration. |

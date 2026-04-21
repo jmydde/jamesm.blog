@@ -23,7 +23,7 @@
 &lt;p&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Google Gemini Ultra&lt;/a&gt; was &lt;a href=&#34;https://deepmind.google/&#34;&gt;Google DeepMind&lt;/a&gt;’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Performance Highlights&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Achieves 90.0% on &lt;a href=&#34;https://github.com/hendrycks/MMLU&#34;&gt;MMLU benchmark&lt;/a&gt; (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
+&lt;li&gt;Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
 &lt;li&gt;Multimodal reasoning across text, images, video, and code.&lt;/li&gt;
 &lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
 &lt;/ul&gt;

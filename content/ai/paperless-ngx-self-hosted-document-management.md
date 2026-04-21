@@ -52,7 +52,7 @@ Where Paperless-ngx gets interesting is the consumption workflow. After scanning
 
 - **Web upload**: Drop PDFs directly into the interface
 - **Email integration**: Configure an email address where you can send documents
-- **Mobile apps**: Third-party apps like [Paperless Mobile](https://github.com/justintime50/paperless-mobile) let you photograph documents and send them to Paperless
+- **Mobile apps**: Third-party apps let you photograph documents and send them to Paperless
 - **Automation**: Webhook support means you can trigger Paperless consumption from other systems
 
 The real power emerges when you combine this with document metadata extraction. Modern OCR isn't just finding text - it's extracting sender names, dates, document types, and amounts. Paperless uses this to pre-populate metadata that matching rules can then use for automatic organization.
