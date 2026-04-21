@@ -12,7 +12,7 @@ description: "Recommended reading list of personal development and self-improvem
 - [Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time](https://www.goodreads.com/book/show/95887.Eat_That_Frog_/) (Brian Tracy) - practical strategies for overcoming procrastination and increasing personal productivity
 - [Ego Is the Enemy](https://www.goodreads.com/book/show/27036528-ego-is-the-enemy/) (Ryan Holiday)
 - [Get the Edge](https://www.goodreads.com/en/book/show/6235336/) (Tony Robbins) - strategies for personal transformation and achieving excellence in all areas of life
-- [High Performance Habits](https://brendon.com/blog/high-performancehabits/) (Brendon Burchard)
+- [High Performance Habits](https://www.goodreads.com/book/show/24734172-high-performance-habits/) (Brendon Burchard)
 - [How to Win Friends and Influence People](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People/) (Dale Carnegie) - timeless principles for building relationships and improving interpersonal effectiveness
 - [Moonwalking with Einstein](https://www.goodreads.com/book/show/6346975-moonwalking-with-einstein/) (Joshua Foer) - journey into memory and the art of remembering through ancient techniques and modern neuroscience
 - [Screw It, Let's Do It](https://www.virgin.com/branson-family/books/richard-branson/screw-it-lets-do-it/) (Richard Branson)

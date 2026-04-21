@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>An AI Tooling Learning Path: Logical Phases for 2026 | jamesm.blog</title>
+<meta name="keywords" content="ai, learning, developer-tool, llm, claude-code, cursor-ai, cline, ollama">
+<meta name="description" content="A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/ai-tooling-learning-path/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/ai-tooling-learning-path/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/ai-tooling-learning-path/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="An AI Tooling Learning Path: Logical Phases for 2026">
+  <meta property="og:description" content="A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-04-21T19:07:00+01:00">
+    <meta property="article:modified_time" content="2026-04-21T19:07:00+01:00">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Learning">
+    <meta property="article:tag" content="Developer-Tool">
+    <meta property="article:tag" content="Llm">
+    <meta property="article:tag" content="Claude Code">
+    <meta property="article:tag" content="Cursor-Ai">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/ai/ai-tooling-learning-path.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/ai/ai-tooling-learning-path.jpg">
+  <meta name="twitter:title" content="An AI Tooling Learning Path: Logical Phases for 2026">
+  <meta name="twitter:description" content="A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "An AI Tooling Learning Path: Logical Phases for 2026",
+      "item": "https://jamesm.blog/ai/ai-tooling-learning-path/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "An AI Tooling Learning Path: Logical Phases for 2026",
+  "name": "An AI Tooling Learning Path: Logical Phases for 2026",
+  "description": "A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals.",
+  "keywords": [
+    "ai", "learning", "developer-tool", "llm", "claude-code", "cursor-ai", "cline", "ollama"
+  ],
+  "articleBody": "The hardest part of learning AI tooling in 2026 is not any single tool. It is the order you meet them in.\nMost people start in the wrong place. They install a terminal agent before they have ever sat with a chat UI long enough to understand how models fail. They buy a Cursor subscription before they have written a single decent prompt. They wire up local models with Ollama before they know which tasks actually benefit from running offline.\nThis post is the phased path I would recommend to someone starting from scratch today. Each phase has a clear outcome, builds on the last, and has a natural point where you graduate to the next layer.\nWhy Phases Matter AI tooling compounds. A terminal agent is much more useful once you know how to write a spec. Local models are only worth configuring once you have felt the pain of API costs. Review workflows only make sense once you have been burned by a confident-but-wrong implementation.\nIf you try to absorb it all at once, you end up with a stack of tools you do not trust and habits you cannot defend. The goal of a phased path is to internalise each layer before adding the next.\nPhase 1: Fundamentals - Learn How Models Actually Work Outcome: You can describe, in your own words, what a large language model is doing when it responds to you.\nBefore you touch a single developer tool, spend a few hours on the mental model. Not the math, not the linear algebra - just enough to stop treating models as magic.\nUseful starting points:\nWhat is ChatGPT doing, and why does it work? by Stephen Wolfram Elements of AI for a gentle, non-technical introduction Fast.ai’s Practical Deep Learning if you want a top-down, build-first course The Prompt Engineering Guide for a broad survey of prompting techniques Things worth understanding at this stage:\nTokens, context windows, and why both matter The difference between a base model, an instruction-tuned model, and a reasoning model Why models hallucinate and why confidence is not correctness The basic shape of a transformer, at an intuition level You will come back to these ideas in every later phase. See my AI Explainers page for a curated list of deeper resources.\nPhase 2: Chat Interfaces - Build Prompting Fluency Outcome: You can reliably get useful output from a frontier chat model on a non-trivial task.\nPick one chat interface and live in it for a few weeks. The goal is not to sample every product - it is to develop instincts for how frontier models respond to different kinds of framing.\nReasonable starting points:\nClaude for long, structured reasoning ChatGPT for breadth of features and image generation Gemini if you are already deep in the Google ecosystem Perplexity when you need cited, research-first answers What to practise:\nWriting specs, not just questions Providing context explicitly rather than hoping the model will infer it Iterating on prompts when output is weak, instead of giving up or accepting mediocrity Noticing where a model confidently invents things You graduate from this phase when you can get a model to help with a real work task - a document, a plan, a piece of analysis - and the result is genuinely useful rather than impressively shaped filler.\nPhase 3: AI-Native Editors - Bring AI Into Your Flow Outcome: You can stay in flow state while using AI for quick edits, refactors, and inline explanations.\nOnce prompting feels natural, move the assistant into your editor. This is where AI starts to affect the shape of your day rather than just the odd task.\nThe two dominant choices in 2026:\nCursor AI for an AI-native editor with codebase-aware chat GitHub Copilot inside VS Code or JetBrains if you prefer to keep your existing editor Either works. What matters is that you build habits around inline edits, codebase-aware chat, and quick transformations. See Claude Code vs Cursor for a breakdown of where each fits.\nSkills to develop here:\nUsing inline commands (Cmd+K in Cursor, equivalent in Copilot) for small, scoped edits Asking codebase questions before diving into unfamiliar files Recognising when the suggestion is wrong fast enough that you do not accept it on autopilot Keeping diffs small so review stays honest This phase tends to reshape how quickly you move through routine work. It is also the phase where most people stop - which is why their AI workflow caps out early.\nPhase 4: Terminal Agents - Take On Multi-File Work Outcome: You can hand off a non-trivial, multi-file task to an agent and review the result critically.\nInline edits are great for small changes. They fall apart on anything that spans files, requires running tests in a loop, or needs deeper reasoning about a codebase.\nThat is the job of a terminal agent:\nClaude Code - Anthropic’s official CLI, strong on repo-wide reasoning Cline - an open-source autonomous agent that plugs into VS Code Aider - focused on iterative, test-driven workflows The mindset shift in this phase is important. With an editor assistant, you are driving and the model is suggesting. With a terminal agent, you are specifying and the model is executing. The prompt becomes a brief, not a keystroke.\nWhat to practise:\nWriting clear task briefs before invoking the agent Reviewing diffs carefully instead of assuming the agent got it right Running tests as part of the loop, not as an afterthought Knowing when to stop an agent that has gone off course You graduate from this phase when you trust yourself to review agent output, not when you trust the agent.\nPhase 5: Local Models - Control Cost and Latency Outcome: You can handle the cheap end of your workload without hitting a paid API.\nBy now you are spending real money on frontier models and feeling the latency of every round trip. This is the right moment to introduce a local tier.\nThe practical starting stack:\nOllama for running models locally with minimal setup A coding model like Qwen 2.5 Coder or Llama 3.3 for inline completions Open WebUI if you want a local chat interface LM Studio as a GUI-first alternative to Ollama Tasks that belong on a local tier:\nBoilerplate and scaffolding Repetitive transforms (renaming, formatting, small refactors) Offline work on a plane or train First-pass drafts you will clean up with a stronger model For hardware context, see Which Mac Studio Should You Buy for Running LLMs Locally? and Local vs Cloud AI in 2026.\nThe goal is not ideological - it is to stop paying frontier prices for work that does not need frontier capability.\nPhase 6: Orchestration and Spec-Driven Development Outcome: You can design a workflow where each model and tool has a clear job, coordinated by a spec.\nAt this point you have a cluster of tools. The risk is that they all overlap, contradict each other, and turn your workflow into noise.\nTwo ideas clean this up:\nModel routing. Use something like OpenRouter or LiteLLM to send each task to the right model - Haiku or a local model for cheap work, Sonnet for most coding, Opus for hard reasoning. See my Personal AI Dev Stack for a concrete example.\nSpec-driven development. Tools like GitHub Spec Kit force you to write down requirements, constraints, and acceptance criteria before implementation. The spec becomes the shared artefact that every tool in your stack works against.\nThe shift in this phase is going from “which tool should I use?” to “which responsibility belongs in the stack, and which tool fits each one?”\nPhase 7: Review, Evaluation, and Capture Outcome: You have habits that catch bad output before it ships, and a system that turns one-off work into reusable leverage.\nThis is the phase most developers skip, and it is the one that separates AI-curious from AI-competent.\nReview: Never let the tool that generated the code also be the tool that reviews it. Run a separate review pass, with a different model or a much more critical prompt. Look for failures, not validation. See Claude Code Review for how this looks in practice.\nEvaluation: For anything you rely on repeatedly, build a small evaluation set - a handful of inputs where you know what good output looks like. Run your prompt or workflow against them whenever you change models or providers.\nCapture: Keep a lightweight store of prompts, specs, setup notes, and architectural decisions. Claude Skills, CLAUDE.md files, and a plain notes directory all work. Without a capture habit, every session starts from too close to zero.\nA Rough Timeline There is no prize for speed, but here is a realistic pace for someone doing this alongside regular work:\nPhase Focus Realistic Time 1 Fundamentals 1 - 2 weeks of reading on the side 2 Chat interfaces 2 - 4 weeks of daily use 3 AI-native editor 2 - 4 weeks to build habits 4 Terminal agents 4 - 8 weeks of real project work 5 Local models A weekend to set up, longer to refine 6 Orchestration and specs Ongoing, evolves with your projects 7 Review, evaluation, capture Forever - these are habits, not a stage You do not need to finish Phase 3 before starting Phase 4. The phases are a rough ordering, not a gate system. But skipping ahead without the earlier instincts tends to leave gaps that show up later as bad habits.\nWhat To Avoid On The Way Up A few patterns that slow people down:\nCollecting tools instead of using them. A shelf full of unused subscriptions is worse than one tool you know deeply. Trusting one frontier model for everything. Powerful is not the same as consistently correct. Skipping the fundamentals. If you do not understand why models hallucinate, you will be blindsided every time it matters. Avoiding the terminal. Editor integrations are comfortable, but terminal agents unlock a different class of work. Treating generation and review as one step. They are different jobs. See AI Resources and Best Practices for a longer list of official guides to lean on along the way.\nClosing Thought The goal of this path is not to turn you into someone who has tried every tool. It is to leave you with a working mental model of what each layer of the AI stack is for, and the judgement to pick the right one for the task in front of you.\nThe tools will keep changing. Claude 5, GPT-6, and whatever agent framework is hot next quarter will all arrive faster than most people can evaluate them. But the shape of the stack - foundations, chat, editor, agent, local tier, orchestration, review - is stable enough to build a career on.\nStart at Phase 1. Do not skip ahead. And do not confuse “I have used this tool once” with “I understand where it belongs.”\nRelated Reading What Actually Belongs in My AI Dev Stack in 2026 Personal AI Development Stack The Complete AI Developer’s Guide: Resources and Best Practices Claude Code vs Cursor Local vs Cloud AI in 2026 GitHub Spec Kit in 2026 AI Explainers ",
+  "wordCount" : "1852",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/ai/ai-tooling-learning-path.jpg","datePublished": "2026-04-21T19:07:00+01:00",
+  "dateModified": "2026-04-21T19:07:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/ai-tooling-learning-path/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Eng">
+                    <span>Data Eng</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music">
+                    <span>Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro">
+                    <span>Retro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/ai/">Artificial Intelligence</a></div>
+    <h1 class="post-title entry-hint-parent">
+      An AI Tooling Learning Path: Logical Phases for 2026
+    </h1>
+    <div class="post-description">
+      A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals.
+    </div>
+    <div class="post-meta"><span title='2026-04-21 19:07:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/ai/ai-tooling-learning-path.jpg" alt="AI Tooling Learning Path Banner">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#why-phases-matter" aria-label="Why Phases Matter">Why Phases Matter</a></li>
+                <li>
+                    <a href="#phase-1-fundamentals---learn-how-models-actually-work" aria-label="Phase 1: Fundamentals - Learn How Models Actually Work">Phase 1: Fundamentals - Learn How Models Actually Work</a></li>
+                <li>
+                    <a href="#phase-2-chat-interfaces---build-prompting-fluency" aria-label="Phase 2: Chat Interfaces - Build Prompting Fluency">Phase 2: Chat Interfaces - Build Prompting Fluency</a></li>
+                <li>
+                    <a href="#phase-3-ai-native-editors---bring-ai-into-your-flow" aria-label="Phase 3: AI-Native Editors - Bring AI Into Your Flow">Phase 3: AI-Native Editors - Bring AI Into Your Flow</a></li>
+                <li>
+                    <a href="#phase-4-terminal-agents---take-on-multi-file-work" aria-label="Phase 4: Terminal Agents - Take On Multi-File Work">Phase 4: Terminal Agents - Take On Multi-File Work</a></li>
+                <li>
+                    <a href="#phase-5-local-models---control-cost-and-latency" aria-label="Phase 5: Local Models - Control Cost and Latency">Phase 5: Local Models - Control Cost and Latency</a></li>
+                <li>
+                    <a href="#phase-6-orchestration-and-spec-driven-development" aria-label="Phase 6: Orchestration and Spec-Driven Development">Phase 6: Orchestration and Spec-Driven Development</a></li>
+                <li>
+                    <a href="#phase-7-review-evaluation-and-capture" aria-label="Phase 7: Review, Evaluation, and Capture">Phase 7: Review, Evaluation, and Capture</a></li>
+                <li>
+                    <a href="#a-rough-timeline" aria-label="A Rough Timeline">A Rough Timeline</a></li>
+                <li>
+                    <a href="#what-to-avoid-on-the-way-up" aria-label="What To Avoid On The Way Up">What To Avoid On The Way Up</a></li>
+                <li>
+                    <a href="#closing-thought" aria-label="Closing Thought">Closing Thought</a></li>
+                <li>
+                    <a href="#related-reading" aria-label="Related Reading">Related Reading</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>The hardest part of learning AI tooling in 2026 is not any single tool. It is the order you meet them in.</p>
+<p>Most people start in the wrong place. They install a terminal agent before they have ever sat with a chat UI long enough to understand how models fail. They buy a Cursor subscription before they have written a single decent prompt. They wire up local models with <a href="https://ollama.com/">Ollama</a> before they know which tasks actually benefit from running offline.</p>
+<p>This post is the phased path I would recommend to someone starting from scratch today. Each phase has a clear outcome, builds on the last, and has a natural point where you graduate to the next layer.</p>
+<hr>
+<h2 id="why-phases-matter">Why Phases Matter<a hidden class="anchor" aria-hidden="true" href="#why-phases-matter">#</a></h2>
+<p>AI tooling compounds. A terminal agent is much more useful once you know how to write a spec. Local models are only worth configuring once you have felt the pain of API costs. Review workflows only make sense once you have been burned by a confident-but-wrong implementation.</p>
+<p>If you try to absorb it all at once, you end up with a stack of tools you do not trust and habits you cannot defend. The goal of a phased path is to internalise each layer before adding the next.</p>
+<hr>
+<h2 id="phase-1-fundamentals---learn-how-models-actually-work">Phase 1: Fundamentals - Learn How Models Actually Work<a hidden class="anchor" aria-hidden="true" href="#phase-1-fundamentals---learn-how-models-actually-work">#</a></h2>
+<p><strong>Outcome:</strong> You can describe, in your own words, what a large language model is doing when it responds to you.</p>
+<p>Before you touch a single developer tool, spend a few hours on the mental model. Not the math, not the linear algebra - just enough to stop treating models as magic.</p>
+<p>Useful starting points:</p>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">What is ChatGPT doing, and why does it work?</a> by Stephen Wolfram</li>
+<li><a href="https://www.elementsofai.com/">Elements of AI</a> for a gentle, non-technical introduction</li>
+<li><a href="https://course.fast.ai/">Fast.ai&rsquo;s Practical Deep Learning</a> if you want a top-down, build-first course</li>
+<li>The <a href="https://www.promptingguide.ai/">Prompt Engineering Guide</a> for a broad survey of prompting techniques</li>
+</ul>
+<p>Things worth understanding at this stage:</p>
+<ul>
+<li>Tokens, context windows, and why both matter</li>
+<li>The difference between a base model, an instruction-tuned model, and a reasoning model</li>
+<li>Why models hallucinate and why confidence is not correctness</li>
+<li>The basic shape of a transformer, at an intuition level</li>
+</ul>
+<p>You will come back to these ideas in every later phase. See my <a href="/ai/explainers/">AI Explainers</a> page for a curated list of deeper resources.</p>
+<hr>
+<h2 id="phase-2-chat-interfaces---build-prompting-fluency">Phase 2: Chat Interfaces - Build Prompting Fluency<a hidden class="anchor" aria-hidden="true" href="#phase-2-chat-interfaces---build-prompting-fluency">#</a></h2>
+<p><strong>Outcome:</strong> You can reliably get useful output from a frontier chat model on a non-trivial task.</p>
+<p>Pick one chat interface and live in it for a few weeks. The goal is not to sample every product - it is to develop instincts for how frontier models respond to different kinds of framing.</p>
+<p>Reasonable starting points:</p>
+<ul>
+<li><a href="https://claude.ai/">Claude</a> for long, structured reasoning</li>
+<li><a href="https://chatgpt.com/">ChatGPT</a> for breadth of features and image generation</li>
+<li><a href="https://gemini.google.com/">Gemini</a> if you are already deep in the Google ecosystem</li>
+<li><a href="https://www.perplexity.ai/">Perplexity</a> when you need cited, research-first answers</li>
+</ul>
+<p>What to practise:</p>
+<ul>
+<li>Writing specs, not just questions</li>
+<li>Providing context explicitly rather than hoping the model will infer it</li>
+<li>Iterating on prompts when output is weak, instead of giving up or accepting mediocrity</li>
+<li>Noticing where a model confidently invents things</li>
+</ul>
+<p>You graduate from this phase when you can get a model to help with a real work task - a document, a plan, a piece of analysis - and the result is genuinely useful rather than impressively shaped filler.</p>
+<hr>
+<h2 id="phase-3-ai-native-editors---bring-ai-into-your-flow">Phase 3: AI-Native Editors - Bring AI Into Your Flow<a hidden class="anchor" aria-hidden="true" href="#phase-3-ai-native-editors---bring-ai-into-your-flow">#</a></h2>
+<p><strong>Outcome:</strong> You can stay in flow state while using AI for quick edits, refactors, and inline explanations.</p>
+<p>Once prompting feels natural, move the assistant into your editor. This is where AI starts to affect the shape of your day rather than just the odd task.</p>
+<p>The two dominant choices in 2026:</p>
+<ul>
+<li><a href="https://www.cursor.com/">Cursor AI</a> for an AI-native editor with codebase-aware chat</li>
+<li><a href="https://github.com/features/copilot">GitHub Copilot</a> inside VS Code or JetBrains if you prefer to keep your existing editor</li>
+</ul>
+<p>Either works. What matters is that you build habits around inline edits, codebase-aware chat, and quick transformations. See <a href="/ai/claude-code-vs-cursor/">Claude Code vs Cursor</a> for a breakdown of where each fits.</p>
+<p>Skills to develop here:</p>
+<ul>
+<li>Using inline commands (Cmd+K in Cursor, equivalent in Copilot) for small, scoped edits</li>
+<li>Asking codebase questions before diving into unfamiliar files</li>
+<li>Recognising when the suggestion is wrong fast enough that you do not accept it on autopilot</li>
+<li>Keeping diffs small so review stays honest</li>
+</ul>
+<p>This phase tends to reshape how quickly you move through routine work. It is also the phase where most people stop - which is why their AI workflow caps out early.</p>
+<hr>
+<h2 id="phase-4-terminal-agents---take-on-multi-file-work">Phase 4: Terminal Agents - Take On Multi-File Work<a hidden class="anchor" aria-hidden="true" href="#phase-4-terminal-agents---take-on-multi-file-work">#</a></h2>
+<p><strong>Outcome:</strong> You can hand off a non-trivial, multi-file task to an agent and review the result critically.</p>
+<p>Inline edits are great for small changes. They fall apart on anything that spans files, requires running tests in a loop, or needs deeper reasoning about a codebase.</p>
+<p>That is the job of a terminal agent:</p>
+<ul>
+<li><a href="https://code.claude.com/">Claude Code</a> - Anthropic&rsquo;s official CLI, strong on repo-wide reasoning</li>
+<li><a href="https://cline.bot/">Cline</a> - an open-source autonomous agent that plugs into VS Code</li>
+<li><a href="https://aider.chat/">Aider</a> - focused on iterative, test-driven workflows</li>
+</ul>
+<p>The mindset shift in this phase is important. With an editor assistant, you are driving and the model is suggesting. With a terminal agent, you are specifying and the model is executing. The prompt becomes a brief, not a keystroke.</p>
+<p>What to practise:</p>
+<ul>
+<li>Writing clear task briefs before invoking the agent</li>
+<li>Reviewing diffs carefully instead of assuming the agent got it right</li>
+<li>Running tests as part of the loop, not as an afterthought</li>
+<li>Knowing when to stop an agent that has gone off course</li>
+</ul>
+<p>You graduate from this phase when you trust yourself to review agent output, not when you trust the agent.</p>
+<hr>
+<h2 id="phase-5-local-models---control-cost-and-latency">Phase 5: Local Models - Control Cost and Latency<a hidden class="anchor" aria-hidden="true" href="#phase-5-local-models---control-cost-and-latency">#</a></h2>
+<p><strong>Outcome:</strong> You can handle the cheap end of your workload without hitting a paid API.</p>
+<p>By now you are spending real money on frontier models and feeling the latency of every round trip. This is the right moment to introduce a local tier.</p>
+<p>The practical starting stack:</p>
+<ul>
+<li><a href="https://ollama.com/">Ollama</a> for running models locally with minimal setup</li>
+<li>A coding model like Qwen 2.5 Coder or Llama 3.3 for inline completions</li>
+<li><a href="https://openwebui.com/">Open WebUI</a> if you want a local chat interface</li>
+<li><a href="https://lmstudio.ai/">LM Studio</a> as a GUI-first alternative to Ollama</li>
+</ul>
+<p>Tasks that belong on a local tier:</p>
+<ul>
+<li>Boilerplate and scaffolding</li>
+<li>Repetitive transforms (renaming, formatting, small refactors)</li>
+<li>Offline work on a plane or train</li>
+<li>First-pass drafts you will clean up with a stronger model</li>
+</ul>
+<p>For hardware context, see <a href="/ai/mac-studio-local-llm-guide/">Which Mac Studio Should You Buy for Running LLMs Locally?</a> and <a href="/ai/local-vs-cloud-ai-2026/">Local vs Cloud AI in 2026</a>.</p>
+<p>The goal is not ideological - it is to stop paying frontier prices for work that does not need frontier capability.</p>
+<hr>
+<h2 id="phase-6-orchestration-and-spec-driven-development">Phase 6: Orchestration and Spec-Driven Development<a hidden class="anchor" aria-hidden="true" href="#phase-6-orchestration-and-spec-driven-development">#</a></h2>
+<p><strong>Outcome:</strong> You can design a workflow where each model and tool has a clear job, coordinated by a spec.</p>
+<p>At this point you have a cluster of tools. The risk is that they all overlap, contradict each other, and turn your workflow into noise.</p>
+<p>Two ideas clean this up:</p>
+<p><strong>Model routing.</strong> Use something like <a href="https://openrouter.ai/">OpenRouter</a> or <a href="https://litellm.ai/">LiteLLM</a> to send each task to the right model - Haiku or a local model for cheap work, Sonnet for most coding, Opus for hard reasoning. See my <a href="/ai/personal-ai-dev-stack/">Personal AI Dev Stack</a> for a concrete example.</p>
+<p><strong>Spec-driven development.</strong> Tools like <a href="/ai/github-spec-kit-2026-update/">GitHub Spec Kit</a> force you to write down requirements, constraints, and acceptance criteria before implementation. The spec becomes the shared artefact that every tool in your stack works against.</p>
+<p>The shift in this phase is going from &ldquo;which tool should I use?&rdquo; to &ldquo;which responsibility belongs in the stack, and which tool fits each one?&rdquo;</p>
+<hr>
+<h2 id="phase-7-review-evaluation-and-capture">Phase 7: Review, Evaluation, and Capture<a hidden class="anchor" aria-hidden="true" href="#phase-7-review-evaluation-and-capture">#</a></h2>
+<p><strong>Outcome:</strong> You have habits that catch bad output before it ships, and a system that turns one-off work into reusable leverage.</p>
+<p>This is the phase most developers skip, and it is the one that separates AI-curious from AI-competent.</p>
+<p><strong>Review:</strong> Never let the tool that generated the code also be the tool that reviews it. Run a separate review pass, with a different model or a much more critical prompt. Look for failures, not validation. See <a href="/ai/claude-code-review/">Claude Code Review</a> for how this looks in practice.</p>
+<p><strong>Evaluation:</strong> For anything you rely on repeatedly, build a small evaluation set - a handful of inputs where you know what good output looks like. Run your prompt or workflow against them whenever you change models or providers.</p>
+<p><strong>Capture:</strong> Keep a lightweight store of prompts, specs, setup notes, and architectural decisions. <a href="https://docs.claude.com/en/docs/build-with-claude/skills/">Claude Skills</a>, CLAUDE.md files, and a plain notes directory all work. Without a capture habit, every session starts from too close to zero.</p>
+<hr>
+<h2 id="a-rough-timeline">A Rough Timeline<a hidden class="anchor" aria-hidden="true" href="#a-rough-timeline">#</a></h2>
+<p>There is no prize for speed, but here is a realistic pace for someone doing this alongside regular work:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Phase</th>
+          <th>Focus</th>
+          <th>Realistic Time</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Fundamentals</td>
+          <td>1 - 2 weeks of reading on the side</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Chat interfaces</td>
+          <td>2 - 4 weeks of daily use</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>AI-native editor</td>
+          <td>2 - 4 weeks to build habits</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Terminal agents</td>
+          <td>4 - 8 weeks of real project work</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Local models</td>
+          <td>A weekend to set up, longer to refine</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Orchestration and specs</td>
+          <td>Ongoing, evolves with your projects</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Review, evaluation, capture</td>
+          <td>Forever - these are habits, not a stage</td>
+      </tr>
+  </tbody>
+</table>
+<p>You do not need to finish Phase 3 before starting Phase 4. The phases are a rough ordering, not a gate system. But skipping ahead without the earlier instincts tends to leave gaps that show up later as bad habits.</p>
+<hr>
+<h2 id="what-to-avoid-on-the-way-up">What To Avoid On The Way Up<a hidden class="anchor" aria-hidden="true" href="#what-to-avoid-on-the-way-up">#</a></h2>
+<p>A few patterns that slow people down:</p>
+<ul>
+<li><strong>Collecting tools instead of using them.</strong> A shelf full of unused subscriptions is worse than one tool you know deeply.</li>
+<li><strong>Trusting one frontier model for everything.</strong> Powerful is not the same as consistently correct.</li>
+<li><strong>Skipping the fundamentals.</strong> If you do not understand why models hallucinate, you will be blindsided every time it matters.</li>
+<li><strong>Avoiding the terminal.</strong> Editor integrations are comfortable, but terminal agents unlock a different class of work.</li>
+<li><strong>Treating generation and review as one step.</strong> They are different jobs.</li>
+</ul>
+<p>See <a href="/ai/ai-resources-and-best-practices/">AI Resources and Best Practices</a> for a longer list of official guides to lean on along the way.</p>
+<hr>
+<h2 id="closing-thought">Closing Thought<a hidden class="anchor" aria-hidden="true" href="#closing-thought">#</a></h2>
+<p>The goal of this path is not to turn you into someone who has tried every tool. It is to leave you with a working mental model of what each layer of the AI stack is for, and the judgement to pick the right one for the task in front of you.</p>
+<p>The tools will keep changing. Claude 5, GPT-6, and whatever agent framework is hot next quarter will all arrive faster than most people can evaluate them. But the shape of the stack - foundations, chat, editor, agent, local tier, orchestration, review - is stable enough to build a career on.</p>
+<p>Start at Phase 1. Do not skip ahead. And do not confuse &ldquo;I have used this tool once&rdquo; with &ldquo;I understand where it belongs.&rdquo;</p>
+<hr>
+<h2 id="related-reading">Related Reading<a hidden class="anchor" aria-hidden="true" href="#related-reading">#</a></h2>
+<ul>
+<li><a href="/ai/what-actually-belongs-in-my-ai-dev-stack-2026/">What Actually Belongs in My AI Dev Stack in 2026</a></li>
+<li><a href="/ai/personal-ai-dev-stack/">Personal AI Development Stack</a></li>
+<li><a href="/ai/ai-resources-and-best-practices/">The Complete AI Developer&rsquo;s Guide: Resources and Best Practices</a></li>
+<li><a href="/ai/claude-code-vs-cursor/">Claude Code vs Cursor</a></li>
+<li><a href="/ai/local-vs-cloud-ai-2026/">Local vs Cloud AI in 2026</a></li>
+<li><a href="/ai/github-spec-kit-2026-update/">GitHub Spec Kit in 2026</a></li>
+<li><a href="/ai/explainers/">AI Explainers</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/learning/">Learning</a></li>
+      <li><a href="https://jamesm.blog/tags/developer-tool/">Developer-Tool</a></li>
+      <li><a href="https://jamesm.blog/tags/llm/">Llm</a></li>
+      <li><a href="https://jamesm.blog/tags/claude-code/">Claude Code</a></li>
+      <li><a href="https://jamesm.blog/tags/cursor-ai/">Cursor-Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/cline/">Cline</a></li>
+      <li><a href="https://jamesm.blog/tags/ollama/">Ollama</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Amazon Doubles Down: The $25 Billion Anthropic Bet</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share An AI Tooling Learning Path: Logical Phases for 2026 on x"
+            href="https://x.com/intent/tweet/?text=An%20AI%20Tooling%20Learning%20Path%3a%20Logical%20Phases%20for%202026&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f&amp;hashtags=ai%2clearning%2cdeveloper-tool%2cllm%2cclaude-code%2ccursor-ai%2ccline%2collama">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share An AI Tooling Learning Path: Logical Phases for 2026 on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f&amp;title=An%20AI%20Tooling%20Learning%20Path%3a%20Logical%20Phases%20for%202026&amp;summary=An%20AI%20Tooling%20Learning%20Path%3a%20Logical%20Phases%20for%202026&amp;source=https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share An AI Tooling Learning Path: Logical Phases for 2026 on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f&title=An%20AI%20Tooling%20Learning%20Path%3a%20Logical%20Phases%20for%202026">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share An AI Tooling Learning Path: Logical Phases for 2026 on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share An AI Tooling Learning Path: Logical Phases for 2026 on whatsapp"
+            href="https://api.whatsapp.com/send?text=An%20AI%20Tooling%20Learning%20Path%3a%20Logical%20Phases%20for%202026%20-%20https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share An AI Tooling Learning Path: Logical Phases for 2026 on telegram"
+            href="https://telegram.me/share/url?text=An%20AI%20Tooling%20Learning%20Path%3a%20Logical%20Phases%20for%202026&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share An AI Tooling Learning Path: Logical Phases for 2026 on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=An%20AI%20Tooling%20Learning%20Path%3a%20Logical%20Phases%20for%202026&u=https%3a%2f%2fjamesm.blog%2fai%2fai-tooling-learning-path%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

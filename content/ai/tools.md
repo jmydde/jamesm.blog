@@ -33,7 +33,6 @@ tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","mu
 - [Playground](https://platform.openai.com/playground/) - explore the capabilities of various AI models developed by OpenAI
 - [Quickchat](http://quickchat.ai/) - technology to build AI assistants that talk like a human
 - [Typewise](http://typewise.app/) - AI writing solution for customer service and sales teams
-- [Yatter+](http://yatterplus.in/) - personal AI-powered assistant on WhatsApp
 
 ### Chrome Extensions
 - [alicent](http://alicent.ai/) - browser extension for ChatGPT

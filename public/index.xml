@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2026 22:03:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 19:07:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An AI Tooling Learning Path: Logical Phases for 2026</title>
+      <link>https://jamesm.blog/ai/ai-tooling-learning-path/</link>
+      <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-tooling-learning-path/</guid>
+      <description>A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals.</description>
+    </item>
+    <item>
+      <title>Amazon Doubles Down: The $25 Billion Anthropic Bet</title>
+      <link>https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/</link>
+      <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/</guid>
+      <description>Amazon announces up to $25 billion additional investment in Anthropic, with Anthropic committing over $100 billion to AWS over the next decade.</description>
+    </item>
     <item>
       <title>The Year 3026: Thinking Seriously About a Thousand Years From Now</title>
       <link>https://jamesm.blog/ai/the-year-3026/</link>
@@ -1754,7 +1768,6 @@
 &lt;li&gt;&lt;a href=&#34;https://platform.openai.com/playground/&#34;&gt;Playground&lt;/a&gt; - explore the capabilities of various AI models developed by OpenAI&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://quickchat.ai/&#34;&gt;Quickchat&lt;/a&gt; - technology to build AI assistants that talk like a human&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://typewise.app/&#34;&gt;Typewise&lt;/a&gt; - AI writing solution for customer service and sales teams&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://yatterplus.in/&#34;&gt;Yatter+&lt;/a&gt; - personal AI-powered assistant on WhatsApp&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;chrome-extensions&#34;&gt;Chrome Extensions&lt;/h3&gt;
 &lt;ul&gt;

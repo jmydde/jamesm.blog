@@ -116,7 +116,6 @@ If you want to understand the DX7's influence:
 - [DX7 Patch Library Archive](https://www.dx7.info/) - Historical patch collections and preset management
 
 ### FM Synthesis Theory & Research
-- [John Chowning - FM Synthesis](https://ccrma.stanford.edu/~chowning/) - Original FM synthesis research papers from Stanford
 - [Chowning, J. M. "The Synthesis of Complex Audio Spectra by Means of Frequency Modulation"](https://www.jstor.org/stable/3679620) - Foundational academic paper (JSTOR)
 - [FM Synthesis Resource Library](https://www.fm7.info/) - Educational FM synthesis fundamentals
 

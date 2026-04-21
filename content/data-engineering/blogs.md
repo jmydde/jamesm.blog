@@ -13,7 +13,6 @@ description: "Curated list of Data Engineering blogs covering ETL/ELT, data ware
 * [Seattle Data Guy](https://www.seattledataguy.com/) - Balance of business strategy and technical implementation in modern data engineering.
 * [Eclectic Data](https://www.blefari.com/) - Deep technical analysis of data infrastructure, distributed systems, and architectural patterns.
 * [Benn Stancil's Blog](https://benn.substack.com/) - Strategic insights and industry commentary on analytics, data culture, and organizational challenges.
-* [A16Z Data & AI](https://a16z.com/category/data-ai/) - Industry trends, venture-backed perspective on the evolution of the data ecosystem.
 
 ### Platform & Tool Blogs
 * [Airbyte Blog](https://airbyte.com/blog) - Data integration, ELT approaches, and best practices for data movement at scale.
