@@ -2,28 +2,29 @@
 title: "Top 5 Human In-Demand Jobs in 10 Years"
 date: 2025-11-27T07:39:14+01:00
 draft: false
-tags: ["ai","human","human-job","job"]
+tags: ["ai","human","job","career","future-of-work"]
+description: "Which jobs survive when AI handles execution? A look at the five categories of work that stay human-shaped - judgment, empathy, embodied skill, taste, and accountability."
 ---
 
-*Assume AI is “everywhere” – what still **needs** actual humans?*
+*Assume AI is "everywhere"  -  what still **needs** actual humans?*
 
-When AI eats routine tasks, jobs don’t disappear – they **mutate**.  
+When AI eats routine tasks, jobs don't disappear  -  they **mutate**.
 
-Anything that leans heavily on **judgement, emotion, trust, embodied skill, or accountability** stays human-shaped.
+Anything that leans heavily on **judgement, emotion, trust, embodied skill, or accountability** stays human-shaped. The [World Economic Forum's Future of Jobs Report](https://www.weforum.org/publications/the-future-of-jobs-report-2025/) and the [OECD's work on AI and the labour market](https://www.oecd.org/en/topics/sub-issues/ai-and-the-future-of-work.html) both point in the same direction: the categories below are the ones that compound in value as automation accelerates.
 
-## 1. Human Relationship Professionals  
+## 1. Human Relationship Professionals
 *The negotiators of human chaos*
 
-These are roles where the “job” is less about information and more about **being with** another human in difficulty or growth.
+These are roles where the "job" is less about information and more about **being with** another human in difficulty or growth.
 
 **Why they remain in demand:**
 
-- People don’t want a chatbot when:
-  - their marriage is collapsing  
-  - they’re grieving  
-  - their kid is melting down at school  
-- Trust is built on **shared vulnerability**, body language, tone, presence. AI can simulate empathy, but it doesn’t *have skin in the game*.
-- Ethical and safeguarding responsibilities (e.g. mandatory reporting, complex family situations) benefit from human judgment.
+- People don't want a chatbot when:
+  - their marriage is collapsing
+  - they're grieving
+  - their kid is melting down at school
+- Trust is built on **shared vulnerability**, body language, tone, and presence. AI can simulate empathy, but it doesn't *have skin in the game*.
+- Ethical and safeguarding responsibilities (e.g. mandatory reporting, complex family situations) benefit from human judgment and professional accountability  -  see the [BACP ethical framework](https://www.bacp.co.uk/events-and-resources/ethics-and-standards/ethical-framework-for-the-counselling-professions/) for an example of what "responsibility" actually looks like in practice.
 
 **Examples:**
 
@@ -34,56 +35,57 @@ These are roles where the “job” is less about information and more about **b
 - Teachers and specialist educators
 - Carers for children, elderly, and neurodiverse people
 
-**How AI fits in:**  
+**How AI fits in:**
 AI will assist (notes, suggestions, diagnostics, admin, lesson planning), but the **core interaction** will still be human-to-human.
 
 ---
 
-## 2. AI Wranglers & System Architects  
+## 2. AI Wranglers & System Architects
 *The keepers of the machine zoo*
 
-As AI systems get more capable, they become more like **power tools** and less like “apps”. Someone has to specify, supervise and constrain them.
+As AI systems get more capable, they become more like **power tools** and less like "apps". Someone has to specify, supervise, and constrain them.
 
 **Why they remain in demand:**
 
-- Powerful systems need **alignment** with human goals, ethics, and regulation.
+- Powerful systems need **alignment** with human goals, ethics, and regulation. Frameworks like the [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and the [EU AI Act](https://artificialintelligenceact.eu/) make this a legal as well as a technical concern.
 - Organizations will need humans who understand:
-  - what the system **can** do  
-  - what it **shouldn’t** do  
-  - how to detect when it’s gone off the rails
-- Risk, compliance, and governance around AI will be a huge domain.
+  - what the system **can** do
+  - what it **shouldn't** do
+  - how to detect when it's gone off the rails
+- Risk, compliance, and governance around AI will be a huge domain  -  research labs like [Anthropic](https://www.anthropic.com/research) and the [UK AI Security Institute](https://www.aisi.gov.uk/) are already building the playbook.
 
 **Examples:**
 
-- AI safety / alignment engineers  
-- AI governance / risk architects  
-- Data quality stewards & bias auditors  
-- Human-in-the-loop supervision roles  
-- Prompt / system / workflow designers  
-- People who design **AI + human** workflows, not just “use AI here”
+- AI safety / alignment engineers
+- AI governance / risk architects
+- Data quality stewards & bias auditors
+- Human-in-the-loop supervision roles
+- Prompt / system / workflow designers
+- People who design **AI + human** workflows, not just "use AI here"
 
-**How AI fits in:**  
+**How AI fits in:**
 AI will help build more AI, but humans set **objectives, constraints, and guardrails**, and own the consequences when things go wrong.
 
 ---
 
-## 3. Skilled Trades & Physical Infrastructure  
+## 3. Skilled Trades & Physical Infrastructure
 *The people who fix the non-virtual mess*
 
-Software eats the world, but it still can’t fix your boiler or crawl into the loft.
+Software eats the world, but it still can't fix your boiler or crawl into the loft.
 
 **Why they remain in demand:**
 
 - Real buildings, pipes, wires, and machines live in:
-  - cramped spaces  
-  - weird legacy configurations  
+  - cramped spaces
+  - weird legacy configurations
   - unpredictable conditions
-- Robotics will exist, but **general-purpose, cheap, safe, robust robots** that can handle every UK home or random building site? That’s a much harder problem.
+- Robotics will exist, but **general-purpose, cheap, safe, robust robots** that can handle every UK home or random building site? That's a much harder problem  -  what roboticists call [Moravec's paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox).
 - These jobs often need:
-  - improvisation  
-  - risk awareness  
-  - physical dexterity  
+  - improvisation
+  - risk awareness
+  - physical dexterity
   - on-site judgment
+- The UK [CITB skills outlook](https://www.citb.co.uk/about-citb/construction-industry-research-reports/) and similar reports across Europe and the US flag persistent shortages in these trades  -  shortages that AI does not fix.
 
 **Examples:**
 
@@ -94,25 +96,25 @@ Software eats the world, but it still can’t fix your boiler or crawl into the 
 - Robotics installation and maintenance techs
 - On-site field engineers of many kinds
 
-**How AI fits in:**  
-AI will guide diagnostics (“this error code usually means X”), planning, and logistics – but **the hands-on work** is human.
+**How AI fits in:**
+AI will guide diagnostics ("this error code usually means X"), planning, and logistics  -  but **the hands-on work** is human.
 
 ---
 
-## 4. Creative Producers & World-Builders  
+## 4. Creative Producers & World-Builders
 *The meaning-makers in a world drowning in content*
 
-AI can mass-generate music, images, copy, and entire video sequences. That doesn’t solve the harder problem: **what do humans actually care about?**
+AI can mass-generate music, images, copy, and entire video sequences. That doesn't solve the harder problem: **what do humans actually care about?**
 
 **Why they remain in demand:**
 
-- People don’t just want *content*; they want:
-  - identity  
-  - stories  
-  - cultural signals  
-  - emotional resonance  
+- People don't just want *content*; they want:
+  - identity
+  - stories
+  - cultural signals
+  - emotional resonance
 - Taste, curation, and cultural leadership are **social**, not computational.
-- The more “infinite AI content” we have, the more valuable **trusted human voices and brands** become.
+- The more "infinite AI content" we have, the more valuable **trusted human voices and brands** become  -  a dynamic [Ben Thompson at Stratechery](https://stratechery.com/) has been mapping for years.
 
 **Examples:**
 
@@ -123,27 +125,28 @@ AI can mass-generate music, images, copy, and entire video sequences. That doesn
 - Concept / narrative designers for products, games, and apps
 - Curators, editors, and community leaders
 
-**How AI fits in:**  
-AI becomes an **insanely powerful instrument** – like a limitless synthesizer or graphics workstation. The human decides *what to make*, *when it’s finished*, and *what it means*.
+**How AI fits in:**
+AI becomes an **insanely powerful instrument**  -  like a limitless synthesizer or graphics workstation. The human decides *what to make*, *when it's finished*, and *what it means*.
 
 ---
 
-## 5. Human Trust & Accountability Roles  
-*The “adult in the room” when stakes are high*
+## 5. Human Trust & Accountability Roles
+*The "adult in the room" when stakes are high*
 
 Where there is **serious risk, regulation, or life-changing consequence**, societies will want a human ultimately on the hook.
 
 **Why they remain in demand:**
 
 - AI can assist with recommendations, but:
-  - Who signs off on a risky surgery?  
-  - Who signs a legal opinion that goes to court?  
+  - Who signs off on a risky surgery?
+  - Who signs a legal opinion that goes to court?
   - Who takes responsibility when a financial product wipes someone out?
 - These roles sit at the intersection of:
-  - technical knowledge  
-  - ethics  
-  - law / regulation  
+  - technical knowledge
+  - ethics
+  - law / regulation
   - human communication and negotiation
+- Regulators already encode this expectation. The [GMC](https://www.gmc-uk.org/), the [SRA](https://www.sra.org.uk/), and the [FCA](https://www.fca.org.uk/) all assume a named, accountable human at the end of the chain  -  AI doesn't change who gets struck off.
 
 **Examples:**
 
@@ -154,7 +157,7 @@ Where there is **serious risk, regulation, or life-changing consequence**, socie
 - Public safety and emergency responders
 - Senior decision-makers in critical infrastructure (energy, transport, health)
 
-**How AI fits in:**  
+**How AI fits in:**
 AI will be like a **super-analyst** sitting next to them. But when something goes wrong, regulators and the public will look for a **human**.
 
 ---
@@ -162,24 +165,26 @@ AI will be like a **super-analyst** sitting next to them. But when something goe
 ## The Meta-Pattern: Interpretation vs Execution
 
 AI is getting absurdly good at **execution**:
-- generating code, text, images, designs  
+- generating code, text, images, designs
 - summarizing, translating, optimising, scheduling
 
 The jobs that survive and thrive are those focused on **interpretation**:
-- what should we build?  
-- which outcome matters?  
-- whose values are at stake?  
-- how do we trade off risk vs reward?  
+- what should we build?
+- which outcome matters?
+- whose values are at stake?
+- how do we trade off risk vs reward?
 - how do we care for the humans affected?
 
 In 10 years, the high-value humans will be those who can:
 - wield AI tools fluently, **and**
 - bring **judgment, empathy, responsibility, and taste** into the loop.
 
-That’s the stack to build towards.
+That's the stack to build towards.
 
 ---
 
 **Related reading:**
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  On judgment and taste as the premium human currency
 - [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On how intelligence is becoming a commodity
+- [Expertise After AI](/ai/expertise-after-ai)  -  What expertise looks like when the floor rises
+- [Career Ops](/ai/career-ops)  -  Practical moves for navigating an AI-shaped career

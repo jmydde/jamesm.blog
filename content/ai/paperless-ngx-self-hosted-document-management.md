@@ -6,7 +6,7 @@ tags: ["document-management","self-hosted","automation","productivity","digital-
 description: "Paperless-ngx is a self-hosted document management system that lets you scan, digitize, and organize physical paperwork with full control over your data and zero subscription fees."
 ---
 
-The paper stack on your desk is growing again. Medical records mixed with tax documents, utility bills, insurance forms—all of it scattered across a filing cabinet that's become increasingly harder to navigate. There's probably some important document you can't quite remember where you filed it.
+The paper stack on your desk is growing again. Medical records mixed with tax documents, utility bills, insurance forms - all of it scattered across a filing cabinet that's become increasingly harder to navigate. There's probably some important document you can't quite remember where you filed it.
 
 This is the problem Paperless-ngx solves, but with a crucial difference from commercial alternatives: you own it entirely.
 

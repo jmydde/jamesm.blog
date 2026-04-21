@@ -23,7 +23,7 @@ So, why is an AI of this caliber kept under wraps? The answer lies in Project Gl
 
 Mythos, in its limited preview, demonstrated an alarming proficiency in discovering zero-day vulnerabilities. It autonomously identified thousands of previously unknown flaws across critical systems, from operating systems to web browsers. This extraordinary talent, while invaluable for defense, simultaneously highlights the immense offensive potential. An AI that can find a 27-year-old unpatched OpenBSD bug is an AI that could, in the wrong hands, unravel the digital world.
 
-Anthropic's reasoning is clear: the model's ability to uncover systemic weaknesses is too potent to be democratized without stringent controls. The risks of widespread availability—from state-sponsored cyber warfare to sophisticated criminal exploitation—outweigh the benefits of public access.
+Anthropic's reasoning is clear: the model's ability to uncover systemic weaknesses is too potent to be democratized without stringent controls. The risks of widespread availability - from state-sponsored cyber warfare to sophisticated criminal exploitation - outweigh the benefits of public access.
 
 ## Redefining AI Deployment and Ethics
 
