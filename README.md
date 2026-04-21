@@ -110,7 +110,7 @@ Reference in posts using relative paths or Hugo shortcodes.
 
 - **Email:** [jamesmyddelton@gmail.com](mailto:jamesmyddelton@gmail.com)
 - **LinkedIn:** [linkedin.com/in/jamesmyddelton](https://uk.linkedin.com/in/jamesmyddelton/)
-- **Twitter/X:** [@jamesmyddelton](https://twitter.com/jamesmyddelton/)
+- **Twitter/X:** [@jamesmyddelton](https://x.com/jamesmyddelton/)
 - **GitHub:** [github.com/jmydde](https://github.com/jmydde/jamesm.blog)
 - **YouTube:** [@JamesMyddelton](https://www.youtube.com/@JamesMyddelton/playlists/)
 - **Ko-fi:** [ko-fi.com/U6U1LGXXV](https://ko-fi.com/U6U1LGXXV/)
