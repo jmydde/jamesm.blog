@@ -4,6 +4,9 @@ date: 2026-04-05T20:00:00+01:00
 draft: false
 tags: ["data-engineering","data","etl","big-data"]
 description: "Curated list of Data Engineering blogs covering ETL/ELT, data warehousing, orchestration, and modern data stack best practices."
+cover:
+  image: images/data.jpg
+  alt: Data Engineering Blogs
 ---
 
 ## Modern Data Stack & Engineering
@@ -47,3 +50,15 @@ description: "Curated list of Data Engineering blogs covering ETL/ELT, data ware
 * [The Data Stack News](https://datastacknews.com/) - Weekly roundup of news, funding announcements, and updates across the data ecosystem.
 * [KDnuggets](https://www.kdnuggets.com/) - News, tutorials, and discussions on data science, machine learning, and data engineering.
 * [Data Engineering Weekly](https://www.dataengineeringweekly.com/) - Curated newsletter featuring tools, articles, and thought leadership in data engineering.
+* [The Pragmatic Engineer - Data](https://newsletter.pragmaticengineer.com/) - Engineering-led analysis with frequent data platform deep dives.
+
+## Open Table Format & Lakehouse
+* [Apache Iceberg Blog](https://iceberg.apache.org/blog/) - Official updates on the open table format increasingly central to the 2026 lakehouse.
+* [Tabular Blog](https://tabular.io/blog/) - Deep technical writing on Iceberg internals and multi-engine lakehouse design.
+* [Dremio Blog](https://www.dremio.com/blog/) - Query engines, Iceberg, and open data architecture.
+* [Onehouse Blog](https://www.onehouse.ai/blog) - Hudi and open lakehouse patterns.
+
+## Transformation & Analytics Engineering
+* [dbt Developer Blog](https://docs.getdbt.com/blog) - Analytics engineering patterns and practical SQL modelling guidance.
+* [Tobiko / SQLMesh Blog](https://tobikodata.com/blog) - Next-generation transformation framework with virtual environments.
+* [Locally Optimistic](https://locallyoptimistic.com/) - Long-form posts on analytics engineering culture and practice.

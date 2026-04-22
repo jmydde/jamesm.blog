@@ -5,6 +5,9 @@ draft: false
 tags: ['databricks', 'unity-catalog', 'governance', 'data-governance', 'access-control', 'lakehouse']
 description: "Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings."
 slug: "unity-catalog-in-practice-2026"
+cover:
+  image: images/data.jpg
+  alt: Unity Catalog in Practice
 ---
 
 Unity Catalog sounds straightforward: "one governance layer for all your data and AI assets." In theory, it's elegant. In practice, you'll run into gotchas that docs don't prepare you for.

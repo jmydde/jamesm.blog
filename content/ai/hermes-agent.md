@@ -4,6 +4,9 @@ date: 2026-04-20T19:03:00+01:00
 draft: false
 tags: ["ai","agent","autonomous-system","hermes","open-source"]
 description: "Nous Research's Hermes Agent is an open-source, persistent autonomous system. A look at features, use cases, pricing, and how it compares to OpenClaw, Claude Managed Agents, and Perplexity Computer."
+cover:
+  image: /assets/images/ai/hermes-agent.jpg
+  alt: Hermes Agent Banner
 ---
 
 Most AI agents are forgettable. You ask them to do something, they do it, you close the window. The next time you need help, they start from zero - no context, no learning, no continuity. Hermes Agent works differently. [Nous Research](https://www.nousresearch.com/) built it as a persistent system that remembers what it learns and gets measurably more capable the longer it runs.

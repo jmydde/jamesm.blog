@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Aws on jamesm.blog</title>
+    <title>AWS on jamesm.blog</title>
     <link>https://jamesm.blog/tags/aws/</link>
-    <description>Recent content in Aws on jamesm.blog</description>
+    <description>Recent content in AWS on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -21,6 +21,13 @@
       <description>Amazon announces up to $25 billion additional investment in Anthropic, with Anthropic committing over $100 billion to AWS over the next decade.</description>
     </item>
     <item>
+      <title>ETL Tools &amp; Data Integration Platforms</title>
+      <link>https://jamesm.blog/data-engineering/etl-tools/</link>
+      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
+      <description>Comprehensive guide to ETL and ELT tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms in 2026.</description>
+    </item>
+    <item>
       <title>Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure</title>
       <link>https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
@@ -33,13 +40,6 @@
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/devops/aws-s3-files/</guid>
       <description>Explore AWS S3 Files, a new file system interface that brings high-performance file access to Amazon S3 data without duplication or complex integration.</description>
-    </item>
-    <item>
-      <title>ETL Tools &amp; Data Integration Platforms</title>
-      <link>https://jamesm.blog/data-engineering/etl-tools/</link>
-      <pubDate>Sat, 19 Apr 2025 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
-      <description>Comprehensive guide to ETL tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms.</description>
     </item>
     <item>
       <title>DevOps Cheatsheets</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fivetran on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/fivetran/</link>
+    <description>Recent content in Fivetran on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Apr 2026 07:30:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/fivetran/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ETL Tools &amp; Data Integration Platforms</title>
+      <link>https://jamesm.blog/data-engineering/etl-tools/</link>
+      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/etl-tools/</guid>
+      <description>Comprehensive guide to ETL and ELT tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms in 2026.</description>
+    </item>
+  </channel>
+</rss>

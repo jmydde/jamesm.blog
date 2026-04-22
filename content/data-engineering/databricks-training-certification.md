@@ -4,6 +4,9 @@ date: 2026-04-04T20:47:25+01:00
 draft: false
 tags: ['databricks', 'training', 'certification', 'lakehouse', 'dlt', 'unity-catalog']
 description: "Complete guide to Databricks certifications with training resources, exam costs, and learning paths"
+cover:
+  image: images/data.jpg
+  alt: Databricks Training and Certification
 ---
 
 ## Overview
@@ -12,7 +15,7 @@ Databricks offers certification tracks aligned to common roles: Data Engineer, D
 - **Validity:** 2 years from pass date
 - **Cost:** $200 per exam attempt
 - **Format:** Multiple choice, proctored online
-- **Recent Updates (2025):** Emphasis on DLT (Delta Live Tables), Unity Catalog, Lakehouse Federation, and Auto Loader
+- **Recent Updates (2026):** Emphasis on Lakeflow Declarative Pipelines (the evolution of DLT), Unity Catalog, liquid clustering, predictive optimization, `AUTO CDC`, Lakehouse Federation, and serverless compute
 
 Choose a certification based on your:
 - **Current Role:** Align with job responsibilities
@@ -39,12 +42,16 @@ Start here for authoritative training materials and exam information:
 
 Build and optimize data pipelines on the Lakehouse platform.
 
-**Recent Exam Updates (July 2025):**
-- Delta Live Tables (DLT) - declarative ETL framework
-- Unity Catalog - data governance and access control
+**Recent Exam Updates (2026):**
+- Lakeflow Declarative Pipelines - the new declarative ETL framing (evolution of DLT)
+- `AUTO CDC` APIs - recommended CDC pattern over `APPLY CHANGES INTO`
+- Unity Catalog - data governance, volumes, and access control
+- Liquid clustering - the new default over partitioning
+- Predictive optimization - automated maintenance for managed tables
 - Delta Sharing - secure data sharing across organizations
 - Lakehouse Federation - querying across data sources
 - Auto Loader - incremental data ingestion
+- Serverless compute - across SQL, notebooks, jobs, and pipelines
 
 **Associate Level** - Entry-level, covers core Databricks platform and PySpark fundamentals
 - Typical prep time: 4-8 weeks with practice

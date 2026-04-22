@@ -15,7 +15,7 @@ Snowflake has announced the general availability of Snowflake Storage for Apache
 
 ## What is Snowflake Storage for Apache Iceberg?
 
-Snowflake Storage for Apache Iceberg enables users to query and manage Iceberg tables using Snowflake's SQL engine while storing data in their own cloud object storage. This is fundamentally different from traditional Snowflake architectures—you get:
+Snowflake Storage for Apache Iceberg enables users to query and manage Iceberg tables using Snowflake's SQL engine while storing data in their own cloud object storage. This is fundamentally different from traditional Snowflake architectures - you get:
 
 - **Enterprise reliability** - ACID transactions, schema evolution, and time travel
 - **Governance and security** - Role-based access control, data masking, and audit logging
@@ -26,7 +26,7 @@ Snowflake Storage for Apache Iceberg enables users to query and manage Iceberg t
 
 ### 1. Breaking Vendor Lock-In
 
-For years, one of the key criticisms of traditional data warehouses was vendor lock-in. Data stored in proprietary formats couldn't easily migrate to competing platforms. With Iceberg and Snowflake Storage, you get enterprise-grade performance without sacrificing portability—your data remains in an open format that other tools can access.
+For years, one of the key criticisms of traditional data warehouses was vendor lock-in. Data stored in proprietary formats couldn't easily migrate to competing platforms. With Iceberg and Snowflake Storage, you get enterprise-grade performance without sacrificing portability - your data remains in an open format that other tools can access.
 
 ### 2. Unified Analytics
 
@@ -62,7 +62,7 @@ Snowflake Storage for Apache Iceberg is now available on:
 - **AWS** - Via AWS S3
 - **Azure** - Via Azure Data Lake Storage
 
-The availability on both major cloud platforms is significant—it reflects the industry's move toward multi-cloud architectures where data strategies shouldn't lock you into a single provider.
+The availability on both major cloud platforms is significant - it reflects the industry's move toward multi-cloud architectures where data strategies shouldn't lock you into a single provider.
 
 ## Implications for Data Architecture
 
@@ -90,4 +90,4 @@ If you're considering Snowflake Storage for Apache Iceberg:
 
 ## Conclusion
 
-Snowflake Storage for Apache Iceberg represents a maturation of the data lakehouse concept. By combining enterprise reliability with open data formats, it offers organizations the best of both worlds—governance and performance without vendor lock-in. For teams already using Snowflake or investing in Apache Iceberg, this capability opens new architectural possibilities for modern data platforms.
+Snowflake Storage for Apache Iceberg represents a maturation of the data lakehouse concept. By combining enterprise reliability with open data formats, it offers organizations the best of both worlds - governance and performance without vendor lock-in. For teams already using Snowflake or investing in Apache Iceberg, this capability opens new architectural possibilities for modern data platforms.

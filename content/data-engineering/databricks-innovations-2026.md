@@ -5,6 +5,9 @@ draft: false
 tags: ['databricks', 'data-engineering', 'delta-lake', 'unity-catalog', 'serverless', 'lakeflow']
 description: "A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows."
 slug: "modern-data-engineering-databricks-2026"
+cover:
+  image: images/data.jpg
+  alt: Modern Data Engineering on Databricks
 ---
 
 ## The 2026 Databricks Baseline

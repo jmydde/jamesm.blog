@@ -5,6 +5,9 @@ draft: false
 tags: ['databricks', 'lakeflow', 'dlt', 'declarative-pipeline', 'data-engineering', 'etl']
 description: "From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026."
 slug: "lakeflow-declarative-pipelines-2026"
+cover:
+  image: images/data.jpg
+  alt: Lakeflow Declarative Pipelines
 ---
 
 If you've been writing Delta Live Tables (DLT) pipelines, you've been building with Lakeflow without knowing the new name. In 2026, the rebranding matters because it signals how Databricks now wants you to think about declarative pipeline design.

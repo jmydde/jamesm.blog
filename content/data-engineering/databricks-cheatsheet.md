@@ -4,6 +4,9 @@ date: 2026-04-04T20:44:25+01:00
 draft: false
 tags: ['databricks', 'cheatsheet', 'pyspark', 'sql', 'delta-lake']
 description: "Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns"
+cover:
+  image: images/data.jpg
+  alt: Databricks CheatSheet
 ---
 
 ## Quick Start
@@ -422,19 +425,26 @@ VACUUM test RETAIN 240 HOURS;
 %python spark.conf.set("spark.databricks.delta.retentionDurationCheck.enabled", "false")
 ```
 
-## Delta Live Table Statements
+## Lakeflow Declarative Pipelines (formerly Delta Live Tables)
+
+In 2026, Databricks rebranded Delta Live Tables to [Lakeflow Declarative Pipelines](https://docs.databricks.com/gcp/en/ldp/concepts). The syntax below still works, but prefer `STREAMING TABLE` and `MATERIALIZED VIEW` over the older `LIVE TABLE` framing for new pipelines.
+
 ```
-CREATE OR REFRESH LIVE TABLE test_raw
-AS SELECT * FROM json.`/repo/data/test.json`;
+CREATE OR REFRESH STREAMING TABLE test_raw
+AS SELECT * FROM cloud_files('/repo/data/', 'json');
 
 CREATE OR REFRESH STREAMING TABLE test
 AS SELECT * FROM STREAM read_files('/repo/data/test*.json');
 
-CREATE OR REFRESH LIVE TABLE test_cleaned
-AS SELECT col1, col2, col3, col4 FROM live.test_raw;
+CREATE OR REFRESH MATERIALIZED VIEW test_cleaned
+AS SELECT col1, col2, col3, col4 FROM test_raw;
 
-CREATE OR REFRESH LIVE TABLE recent_test
-AS SELECT col1, col2 FROM live.test2 ORDER BY creation_time DESC LIMIT 10;
+CREATE OR REFRESH MATERIALIZED VIEW recent_test
+AS SELECT col1, col2 FROM test2 ORDER BY creation_time DESC LIMIT 10;
+
+-- Legacy syntax (still supported)
+CREATE OR REFRESH LIVE TABLE test_raw
+AS SELECT * FROM json.`/repo/data/test.json`;
 ```
 
 ## Functions
@@ -520,7 +530,23 @@ CONSTRAINT positive_timestamp EXPECT (creation_time > 0) ON VIOLATION FAIL UPDAT
 ```
 
 ## CDC Statements
+
+In 2026, prefer [`AUTO CDC`](https://docs.databricks.com/gcp/en/ldp/cdc) over the older `APPLY CHANGES INTO` for new pipelines.
+
 ```
+-- 2026 recommended syntax
+CREATE OR REFRESH STREAMING TABLE target;
+
+CREATE FLOW target_cdc AS
+AUTO CDC INTO target
+FROM stream(cdc_source)
+KEYS (col1)
+APPLY AS DELETE WHEN col2 = "DELETE"
+SEQUENCE BY col3
+COLUMNS * EXCEPT (col)
+STORED AS SCD TYPE 2;
+
+-- Legacy syntax (still supported)
 APPLY CHANGES INTO live.target
   FROM stream(live.cdc_source)
   KEYS (col1)
