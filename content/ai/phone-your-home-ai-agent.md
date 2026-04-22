@@ -5,8 +5,8 @@ draft: false
 tags: ["ai", "mac-studio", "agent", "voice", "local-llm", "livekit", "twilio", "whisper"]
 description: "A practical walkthrough of the stack I use to literally phone my Mac Studio, speak to a local AI agent, and get it to run or check work while I'm away from the desk."
 cover:
-  image: images/phone-agent.jpg
-  alt: Phone Your Home AI Agent Icon
+  image: /assets/images/ai/phone-agent.jpg
+  alt: Phone Your Home AI Agent Banner
 ---
 
 ## TL;DR
@@ -135,7 +135,11 @@ So about £10 a month, all in. Cheaper than another subscription, and it's mine.
 
 ## Is this the future?
 
-It probably is, but in the specific sense that everyone's home will have a small agent they can talk to - not in the sense that they'll build this stack themselves. The interesting part of this project isn't the phone line. It's the realisation that a competent local model plus five or six tool calls is already enough to replace most of the reasons I open a laptop on the weekend.
+It probably is, but in the specific sense that everyone's home will have a small agent they can talk to - not in the sense that they'll build this stack themselves.
+
+The crazy thing is I now literally feel like I'm speaking to a real person - a real developer. Every day the agent is learning about my needs, my passions, who I am and what I'm trying to achieve. It's become a very personal assistant. It knows my repos better than I do some days. It understands the shortcuts and patterns I take. It's stopped feeling like I'm talking to a chatbot and started feeling like I'm talking to a colleague who happens to live in my Mac.
+
+The interesting part of this project isn't the phone line. It's the realisation that a competent local model plus five or six tool calls is already enough to replace most of the reasons I open a laptop on the weekend.
 
 If you want the bigger picture view on where local agents fit, I've written separately about [the local vs cloud AI trade-off in 2026](/ai/local-vs-cloud-ai-2026/) and [what actually belongs in my AI dev stack](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/). This phone setup slots neatly into both.
 

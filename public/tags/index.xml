@@ -11,13 +11,62 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 19:07:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 21:48:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent</title>
+      <link>https://jamesm.blog/tags/agent/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agent/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Livekit</title>
+      <link>https://jamesm.blog/tags/livekit/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/livekit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local-Llm</title>
+      <link>https://jamesm.blog/tags/local-llm/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/local-llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac-Studio</title>
+      <link>https://jamesm.blog/tags/mac-studio/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/mac-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Twilio</title>
+      <link>https://jamesm.blog/tags/twilio/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/twilio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Voice</title>
+      <link>https://jamesm.blog/tags/voice/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/voice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Whisper</title>
+      <link>https://jamesm.blog/tags/whisper/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/whisper/</guid>
       <description></description>
     </item>
     <item>
@@ -84,7 +133,7 @@
       <description></description>
     </item>
     <item>
-      <title>AWS</title>
+      <title>Aws</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -133,13 +182,6 @@
       <description></description>
     </item>
     <item>
-      <title>Agent</title>
-      <link>https://jamesm.blog/tags/agent/</link>
-      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/agent/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Autonomous-System</title>
       <link>https://jamesm.blog/tags/autonomous-system/</link>
       <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
@@ -179,13 +221,6 @@
       <link>https://jamesm.blog/tags/tool/</link>
       <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/tool/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Voice</title>
-      <link>https://jamesm.blog/tags/voice/</link>
-      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/voice/</guid>
       <description></description>
     </item>
     <item>
@@ -357,20 +392,6 @@
       <description></description>
     </item>
     <item>
-      <title>Local-Llm</title>
-      <link>https://jamesm.blog/tags/local-llm/</link>
-      <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/local-llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mac-Studio</title>
-      <link>https://jamesm.blog/tags/mac-studio/</link>
-      <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/mac-studio/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Qwen</title>
       <link>https://jamesm.blog/tags/qwen/</link>
       <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
@@ -469,7 +490,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music-Production</title>
+      <title>Music Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>
@@ -490,7 +511,7 @@
       <description></description>
     </item>
     <item>
-      <title>Sound-Design</title>
+      <title>Sound Design</title>
       <link>https://jamesm.blog/tags/sound-design/</link>
       <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sound-design/</guid>
@@ -693,7 +714,7 @@
       <description></description>
     </item>
     <item>
-      <title>Life-Purpose</title>
+      <title>Life Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
@@ -749,7 +770,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>

@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-21T19:07:00+01:00</lastmod>
+    <loc>https://jamesm.blog/tags/agent/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/ai/ai-tooling-learning-path/</loc>
-    <lastmod>2026-04-21T19:07:00+01:00</lastmod>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/phone-your-home-ai-agent/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/livekit/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/local-llm/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/mac-studio/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/twilio/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/voice/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/whisper/</loc>
+    <lastmod>2026-04-21T21:48:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/ai-tooling-learning-path/</loc>
     <lastmod>2026-04-21T19:07:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/claude-code/</loc>
@@ -23,9 +53,6 @@
     <loc>https://jamesm.blog/tags/developer-tool/</loc>
     <lastmod>2026-04-21T19:07:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-21T19:07:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/learning/</loc>
     <lastmod>2026-04-21T19:07:00+01:00</lastmod>
   </url><url>
@@ -33,9 +60,6 @@
     <lastmod>2026-04-21T19:07:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ollama/</loc>
-    <lastmod>2026-04-21T19:07:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-21T19:07:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/amazon/</loc>
@@ -77,9 +101,6 @@
     <loc>https://jamesm.blog/ai/reading-the-signals-four-futures/</loc>
     <lastmod>2026-04-20T20:45:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/agent/</loc>
-    <lastmod>2026-04-20T19:03:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/autonomous-system/</loc>
     <lastmod>2026-04-20T19:03:00+01:00</lastmod>
   </url><url>
@@ -102,9 +123,6 @@
     <lastmod>2026-04-20T19:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tool/</loc>
-    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/voice/</loc>
     <lastmod>2026-04-20T19:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/general/</loc>
@@ -207,12 +225,6 @@
     <lastmod>2026-04-18T07:22:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/llama/</loc>
-    <lastmod>2026-04-18T07:22:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/local-llm/</loc>
-    <lastmod>2026-04-18T07:22:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/mac-studio/</loc>
     <lastmod>2026-04-18T07:22:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/qwen/</loc>
@@ -437,10 +449,10 @@
     <loc>https://jamesm.blog/devops/aws-s3-files/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-09T07:11:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/s3/</loc>

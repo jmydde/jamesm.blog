@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 21:48:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/mac-studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Phone Your Home AI Agent Running on a Mac Studio</title>
+      <link>https://jamesm.blog/ai/phone-your-home-ai-agent/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/phone-your-home-ai-agent/</guid>
+      <description>A practical walkthrough of the stack I use to literally phone my Mac Studio, speak to a local AI agent, and get it to run or check work while I&amp;#39;m away from the desk.</description>
+    </item>
     <item>
       <title>Which Mac Studio Should You Buy for Running LLMs Locally?</title>
       <link>https://jamesm.blog/ai/mac-studio-local-llm-guide/</link>
