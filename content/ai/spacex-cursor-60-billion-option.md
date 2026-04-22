@@ -1,6 +1,6 @@
 ---
 title: "SpaceX Buys the Right to Buy Cursor for $60 Billion"
-date: 2026-04-22T23:30:00+01:00
+date: 2026-04-22T19:16:00+01:00
 draft: false
 tags: ["ai", "cursor", "spacex", "xai", "acquisition"]
 description: "SpaceX has taken an option to acquire Cursor for $60 billion later this year, or pay $10 billion for a joint build. A look at the deal structure, what it tells us about xAI's coding ambitions, and why Anysphere is suddenly the most sought-after company in developer tools."

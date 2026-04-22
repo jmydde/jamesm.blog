@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Giving Your Home AI Agent Memory That Lasts | jamesm.blog</title>
+<meta name="keywords" content="ai, memory, mac-studio, agent, local-llm, rag, claude">
+<meta name="description" content="An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Giving Your Home AI Agent Memory That Lasts">
+  <meta property="og:description" content="An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-04-22T19:30:00+01:00">
+    <meta property="article:modified_time" content="2026-04-22T19:30:00+01:00">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Memory">
+    <meta property="article:tag" content="Mac-Studio">
+    <meta property="article:tag" content="Agent">
+    <meta property="article:tag" content="Local-Llm">
+    <meta property="article:tag" content="Rag">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg">
+  <meta name="twitter:title" content="Giving Your Home AI Agent Memory That Lasts">
+  <meta name="twitter:description" content="An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Giving Your Home AI Agent Memory That Lasts",
+      "item": "https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Giving Your Home AI Agent Memory That Lasts",
+  "name": "Giving Your Home AI Agent Memory That Lasts",
+  "description": "An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite.",
+  "keywords": [
+    "ai", "memory", "mac-studio", "agent", "local-llm", "rag", "claude"
+  ],
+  "articleBody": "TL;DR Problem: a home agent with tools but no memory is a very well-read goldfish. Every morning it re-meets you. Answer: split memory into three layers - working, episodic, and semantic - and give each layer its own store and its own rules for what gets written. Where it lives: SQLite for episodic and facts, a local vector store for semantic search, and a tiny policy file that decides what is worth remembering in the first place. How it plugs in: a memory MCP server that exposes recall, remember, and forget - nothing else. Result: the agent can say “last Tuesday we tried restarting the Postgres container and it worked” and mean it. It also knows what not to store. The Goldfish Problem The home agent I built over the last few weeks can do real things now. It can read my mail, move files around my workspace, turn lights off, and check my calendar. What it could not do, until this week, was remember any of it.\nEvery conversation started cold. “Remind me what we decided about the deploy script” got back “I do not have context for that”. Every time I phoned the agent I had to re-explain who I was talking about, which project I meant, which Postgres container. The tool calls worked. The continuity did not.\nThis is the bit that quietly makes or breaks a home agent. Tools are the product. Memory is what stops the product being exhausting to use.\nThree Layers, Not One The first thing I got wrong was treating memory as one big bucket. I pointed the agent at a vector store, dumped every message into it, and called it done. Within a week the store was 40,000 chunks of “ok” and “thanks” and the retrieval was useless - every search hit a pile of conversational filler before the actual fact.\nThe model that works for me now splits memory into three clearly different things:\nWorking memory - the current conversation. Lives in the context window. Dies when the session ends. This is what the model already does. Episodic memory - “what happened”. Timestamped events, tool calls, decisions. Lives in SQLite. Queried by time and topic. Semantic memory - “what is true”. Facts, preferences, relationships, project conventions. Lives in a small vector store plus a structured table. Queried by similarity and by key. Those three have completely different write rules and completely different retrieval patterns. Collapsing them is why the single-bucket version rotted so fast.\nWhat Actually Gets Stored The second thing I got wrong was letting the agent decide what was worth remembering. It is not good at that yet. Left alone it remembers the most recent thing, not the most important thing, and it remembers things in the model’s own phrasing rather than mine.\nI now have a tiny policy file that says what each layer is allowed to capture. It is not clever, and that is the point.\nepisodic: capture: - tool_calls: all - decisions: when the user says \"let's\", \"we decided\", \"going with\" - incidents: when a tool returns an error the user reacts to retention: 180 days semantic: capture: - preferences: when the user says \"I prefer\", \"always\", \"never\" - facts: when the user states something about a person, project, or thing - corrections: when the user corrects the agent's previous statement retention: until contradicted forbidden: - ephemeral_state: \"I am tired\", \"let's pick this up tomorrow\" - ui_noise: \"ok\", \"thanks\", \"nice\" - model_self_narration: \"I will now search for...\" The rules are enforced in the memory server, not in the prompt. Prompts drift. A 60-line Python function does not.\nWhere It All Lives Everything runs on the same Mac Studio as the rest of the agent. No cloud, no third-party vector DB, no managed service.\n~/agent-memory/ ├── episodic.sqlite (events, tool calls, decisions, with FTS5) ├── semantic.sqlite (structured facts: key, value, source, updated_at) ├── vectors/ (local vector store for semantic search) │ └── index.bin └── policy.yaml (the capture rules above) A few specific choices worth calling out:\nSQLite with FTS5 for episodic. Full-text search is more useful than embeddings for “did we ever talk about X”. It is also trivial to grep at 11pm when something weird happens. A local vector store, not Pinecone. I use a single-file index that lives next to the SQLite databases. The whole thing is ~40 MB after two months of daily use. It backs up with cp. Structured facts next to the vectors. Vectors are good for “find me something like this”. A plain (key, value) table is better for “what is the user’s preferred deploy command”. Both, not either. Embeddings run locally. A small embedding model on the same machine - no external API call on the write path. This matters because the agent writes memory more often than it reads it. The MCP Server, Deliberately Boring The memory MCP server exposes three tools to the agent. That is all.\nrecall(query, layer?, since?, limit?) -\u003e list of hits remember(content, layer, tags?) -\u003e id forget(id | query) -\u003e count recall is the workhorse. It searches the right store based on the layer hint, or all three if unhinted. Episodic hits come back with timestamps. Semantic hits come back with the source message so the agent can cite itself. Every call is logged to the same SQLite audit trail as every other tool.\nremember is called by the server itself far more often than by the agent. The policy engine watches the conversation and writes memories proactively. The agent can also call remember directly when the user explicitly asks (“remember that Alex is on the infra team”), but that path is the minority.\nforget is the one the agent is not allowed to call on its own initiative. If the user says “forget that”, the server confirms what it is about to delete and waits for a yes. I learned this one the hard way after the agent helpfully “cleaned up” three weeks of project notes it decided were no longer relevant.\nRetrieval: The Bit That Decides Whether It Feels Alive Writing memory is easy. Retrieval is the part that decides whether the agent feels like it knows you or like it is guessing.\nThe pattern that works:\nPre-retrieve on session start. When a session begins, the server runs a cheap query for “recent decisions, last 7 days” and “pinned facts” and injects a short summary into the system prompt. This is the equivalent of the agent flicking through yesterday’s notes before the meeting starts. On-demand recall during the session. When the agent is about to answer something that smells like it needs history, it calls recall with a specific query. The key word is specific - “Postgres container restart” not “database stuff”. Cite back to the user. If the agent uses a memory, it says so: “last Tuesday we restarted it and it came back in about 40 seconds”. The user can correct it. Corrections feed back into semantic memory as higher-weighted facts. The third one is where trust is built or lost. A memory system that silently shapes answers is unsettling. A memory system that says “I remember this from last Tuesday, is that still right?” feels like an assistant.\nWhat I Got Wrong First In rough order:\nOne bucket for everything. Already covered. The three-layer split was the single biggest improvement. Embedding every message. Most messages are not worth embedding. Filtering by the policy rules before embedding cut the vector store from 40,000 entries to about 1,200, and retrieval quality went up, not down. Letting the agent pick what to remember. It reliably picked the wrong things. Moving the decision into the server, with explicit rules, fixed it. Summarising at write time. I used to summarise long conversations into a single “gist” and store that. You lose the texture. Now I store the raw events in episodic and let the retrieval step summarise if it needs to. No expiry. The first version never forgot anything. Six months in, the agent was confidently quoting a project convention that had been reversed in January. Retention windows fix this - facts live until contradicted, episodes live 180 days, incidents live forever. No user-visible view. For a month I had no way to see what the agent “knew” about me. I now have a small local web page that lists the contents of the semantic store, grouped by topic. Being able to read your own agent’s memory is non-negotiable. Contradictions, Which Are the Hard Part Facts change. “I use Postgres 15” becomes “I use Postgres 16”. A good memory system has to detect and resolve contradictions, not just accumulate.\nMy current approach is pragmatic rather than clever:\nEvery semantic fact has a key, a value, a source message, and an updated_at. When the server sees a new fact with the same key, it checks whether the values agree. If not, it writes the new value and keeps the old one with a superseded_at timestamp. The retrieval layer only returns non-superseded facts unless the agent explicitly asks for history. The user can ask “what did I used to use” and get the superseded chain back. This is not a full truth-maintenance system. It does not need to be. Most contradictions in a personal assistant are “I changed my mind” or “this project moved on”, and a timestamped supersede chain handles both.\nPrivacy, Because Someone Will Ask Everything is local. The stores sit in an encrypted APFS volume. The MCP server only listens on localhost and is reachable over Tailscale from my phone for the call-in agent. Nothing touches a third-party service on the write or read path.\nThe one exception is the fallback to the Claude API when a local model is not strong enough for a task. In that case, the memory retrieval still happens locally - the agent pulls the relevant snippets, then sends only those snippets to the API along with the current turn. The full store never leaves the box. This is the minimum bar I was willing to accept.\nWhere This Goes Next Two things on the list.\nFirst, per-project scoping. Right now memory is global to me. It should be scoped so that “our deploy convention” resolves differently depending on which repo I am working in. This is the bridge to my personal AI dev stack post - project-level context that the agent picks up from cwd without being told.\nSecond, a memory-of-memory layer. The agent should notice when it has been asked the same thing three times and promote that into a pinned fact. Right now I do the promotion manually. Automating it carefully is a small research project in its own right.\nIf you are building a home agent and you have the tools layer working, memory is the next unlock. It is not a vector database. It is three stores, a policy, and a habit of citing what you recall. Get those right and the agent stops being a clever stranger every morning.\nFurther Reading Model Context Protocol specification SQLite FTS5 documentation Anthropic on agent memory patterns Tailscale for private service mesh My earlier post on MCP servers for a home agent ",
+  "wordCount" : "1856",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg","datePublished": "2026-04-22T19:30:00+01:00",
+  "dateModified": "2026-04-22T19:30:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Eng">
+                    <span>Data Eng</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music">
+                    <span>Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro">
+                    <span>Retro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/ai/">Artificial Intelligence</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Giving Your Home AI Agent Memory That Lasts
+    </h1>
+    <div class="post-description">
+      An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite.
+    </div>
+    <div class="post-meta"><span title='2026-04-22 19:30:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg" alt="Home AI Agent Memory That Lasts Banner">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#tldr" aria-label="TL;DR">TL;DR</a></li>
+                <li>
+                    <a href="#the-goldfish-problem" aria-label="The Goldfish Problem">The Goldfish Problem</a></li>
+                <li>
+                    <a href="#three-layers-not-one" aria-label="Three Layers, Not One">Three Layers, Not One</a></li>
+                <li>
+                    <a href="#what-actually-gets-stored" aria-label="What Actually Gets Stored">What Actually Gets Stored</a></li>
+                <li>
+                    <a href="#where-it-all-lives" aria-label="Where It All Lives">Where It All Lives</a></li>
+                <li>
+                    <a href="#the-mcp-server-deliberately-boring" aria-label="The MCP Server, Deliberately Boring">The MCP Server, Deliberately Boring</a></li>
+                <li>
+                    <a href="#retrieval-the-bit-that-decides-whether-it-feels-alive" aria-label="Retrieval: The Bit That Decides Whether It Feels Alive">Retrieval: The Bit That Decides Whether It Feels Alive</a></li>
+                <li>
+                    <a href="#what-i-got-wrong-first" aria-label="What I Got Wrong First">What I Got Wrong First</a></li>
+                <li>
+                    <a href="#contradictions-which-are-the-hard-part" aria-label="Contradictions, Which Are the Hard Part">Contradictions, Which Are the Hard Part</a></li>
+                <li>
+                    <a href="#privacy-because-someone-will-ask" aria-label="Privacy, Because Someone Will Ask">Privacy, Because Someone Will Ask</a></li>
+                <li>
+                    <a href="#where-this-goes-next" aria-label="Where This Goes Next">Where This Goes Next</a></li>
+                <li>
+                    <a href="#further-reading" aria-label="Further Reading">Further Reading</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
+<ul>
+<li><strong>Problem:</strong> a home agent with tools but no memory is a very well-read goldfish. Every morning it re-meets you.</li>
+<li><strong>Answer:</strong> split memory into three layers - working, episodic, and semantic - and give each layer its own store and its own rules for what gets written.</li>
+<li><strong>Where it lives:</strong> SQLite for episodic and facts, a local vector store for semantic search, and a tiny policy file that decides what is worth remembering in the first place.</li>
+<li><strong>How it plugs in:</strong> a <a href="/ai/mcp-servers-home-ai-agent/">memory MCP server</a> that exposes <code>recall</code>, <code>remember</code>, and <code>forget</code> - nothing else.</li>
+<li><strong>Result:</strong> the agent can say &ldquo;last Tuesday we tried restarting the Postgres container and it worked&rdquo; and mean it. It also knows what <em>not</em> to store.</li>
+</ul>
+<h2 id="the-goldfish-problem">The Goldfish Problem<a hidden class="anchor" aria-hidden="true" href="#the-goldfish-problem">#</a></h2>
+<p>The <a href="/ai/phone-your-home-ai-agent/">home agent</a> I built over the last few weeks can do real things now. It can read my mail, move files around my workspace, turn lights off, and check my calendar. What it could not do, until this week, was remember any of it.</p>
+<p>Every conversation started cold. &ldquo;Remind me what we decided about the deploy script&rdquo; got back &ldquo;I do not have context for that&rdquo;. Every time I phoned the agent I had to re-explain who I was talking about, which project I meant, which Postgres container. The tool calls worked. The continuity did not.</p>
+<p>This is the bit that quietly makes or breaks a home agent. Tools are the product. Memory is what stops the product being exhausting to use.</p>
+<h2 id="three-layers-not-one">Three Layers, Not One<a hidden class="anchor" aria-hidden="true" href="#three-layers-not-one">#</a></h2>
+<p>The first thing I got wrong was treating memory as one big bucket. I pointed the agent at a vector store, dumped every message into it, and called it done. Within a week the store was 40,000 chunks of &ldquo;ok&rdquo; and &ldquo;thanks&rdquo; and the retrieval was useless - every search hit a pile of conversational filler before the actual fact.</p>
+<p>The model that works for me now splits memory into three clearly different things:</p>
+<ol>
+<li><strong>Working memory</strong> - the current conversation. Lives in the context window. Dies when the session ends. This is what the model already does.</li>
+<li><strong>Episodic memory</strong> - &ldquo;what happened&rdquo;. Timestamped events, tool calls, decisions. Lives in SQLite. Queried by time and topic.</li>
+<li><strong>Semantic memory</strong> - &ldquo;what is true&rdquo;. Facts, preferences, relationships, project conventions. Lives in a small vector store plus a structured table. Queried by similarity and by key.</li>
+</ol>
+<p>Those three have completely different write rules and completely different retrieval patterns. Collapsing them is why the single-bucket version rotted so fast.</p>
+<h2 id="what-actually-gets-stored">What Actually Gets Stored<a hidden class="anchor" aria-hidden="true" href="#what-actually-gets-stored">#</a></h2>
+<p>The second thing I got wrong was letting the agent decide what was worth remembering. It is not good at that yet. Left alone it remembers the most recent thing, not the most important thing, and it remembers things in the model&rsquo;s own phrasing rather than mine.</p>
+<p>I now have a tiny policy file that says what each layer is allowed to capture. It is not clever, and that is the point.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">episodic</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">capture</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">tool_calls</span><span class="p">:</span><span class="w"> </span><span class="l">all</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">decisions</span><span class="p">:</span><span class="w"> </span><span class="l">when the user says &#34;let&#39;s&#34;, &#34;we decided&#34;, &#34;going with&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">incidents</span><span class="p">:</span><span class="w"> </span><span class="l">when a tool returns an error the user reacts to</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">retention</span><span class="p">:</span><span class="w"> </span><span class="m">180</span><span class="w"> </span><span class="l">days</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">semantic</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">capture</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">preferences</span><span class="p">:</span><span class="w"> </span><span class="l">when the user says &#34;I prefer&#34;, &#34;always&#34;, &#34;never&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">facts</span><span class="p">:</span><span class="w"> </span><span class="l">when the user states something about a person, project, or thing</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">corrections</span><span class="p">:</span><span class="w"> </span><span class="l">when the user corrects the agent&#39;s previous statement</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">retention</span><span class="p">:</span><span class="w"> </span><span class="l">until contradicted</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">forbidden</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">ephemeral_state</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;I am tired&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;let&#39;s pick this up tomorrow&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">ui_noise</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;ok&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;thanks&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;nice&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">model_self_narration</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;I will now search for...&#34;</span><span class="w">
+</span></span></span></code></pre></div><p>The rules are enforced in the memory server, not in the prompt. Prompts drift. A 60-line Python function does not.</p>
+<h2 id="where-it-all-lives">Where It All Lives<a hidden class="anchor" aria-hidden="true" href="#where-it-all-lives">#</a></h2>
+<p>Everything runs on the same <a href="/ai/mac-studio-local-llm-guide/">Mac Studio</a> as the rest of the agent. No cloud, no third-party vector DB, no managed service.</p>
+<pre tabindex="0"><code>~/agent-memory/
+├── episodic.sqlite       (events, tool calls, decisions, with FTS5)
+├── semantic.sqlite       (structured facts: key, value, source, updated_at)
+├── vectors/              (local vector store for semantic search)
+│   └── index.bin
+└── policy.yaml           (the capture rules above)
+</code></pre><p>A few specific choices worth calling out:</p>
+<ul>
+<li><strong>SQLite with FTS5 for episodic.</strong> Full-text search is more useful than embeddings for &ldquo;did we ever talk about X&rdquo;. It is also trivial to grep at 11pm when something weird happens.</li>
+<li><strong>A local vector store, not Pinecone.</strong> I use a single-file index that lives next to the SQLite databases. The whole thing is ~40 MB after two months of daily use. It backs up with <code>cp</code>.</li>
+<li><strong>Structured facts next to the vectors.</strong> Vectors are good for &ldquo;find me something like this&rdquo;. A plain <code>(key, value)</code> table is better for &ldquo;what is the user&rsquo;s preferred deploy command&rdquo;. Both, not either.</li>
+<li><strong>Embeddings run locally.</strong> A small embedding model on the same machine - no external API call on the write path. This matters because the agent writes memory more often than it reads it.</li>
+</ul>
+<h2 id="the-mcp-server-deliberately-boring">The MCP Server, Deliberately Boring<a hidden class="anchor" aria-hidden="true" href="#the-mcp-server-deliberately-boring">#</a></h2>
+<p>The <a href="/ai/mcp-servers-home-ai-agent/">memory MCP server</a> exposes three tools to the agent. That is all.</p>
+<pre tabindex="0"><code>recall(query, layer?, since?, limit?)   -&gt; list of hits
+remember(content, layer, tags?)         -&gt; id
+forget(id | query)                      -&gt; count
+</code></pre><p><code>recall</code> is the workhorse. It searches the right store based on the <code>layer</code> hint, or all three if unhinted. Episodic hits come back with timestamps. Semantic hits come back with the source message so the agent can cite itself. Every call is logged to the same SQLite audit trail as every other tool.</p>
+<p><code>remember</code> is called by the server itself far more often than by the agent. The policy engine watches the conversation and writes memories proactively. The agent can also call <code>remember</code> directly when the user explicitly asks (&ldquo;remember that Alex is on the infra team&rdquo;), but that path is the minority.</p>
+<p><code>forget</code> is the one the agent is not allowed to call on its own initiative. If the user says &ldquo;forget that&rdquo;, the server confirms what it is about to delete and waits for a yes. I learned this one the hard way after the agent helpfully &ldquo;cleaned up&rdquo; three weeks of project notes it decided were no longer relevant.</p>
+<h2 id="retrieval-the-bit-that-decides-whether-it-feels-alive">Retrieval: The Bit That Decides Whether It Feels Alive<a hidden class="anchor" aria-hidden="true" href="#retrieval-the-bit-that-decides-whether-it-feels-alive">#</a></h2>
+<p>Writing memory is easy. Retrieval is the part that decides whether the agent feels like it knows you or like it is guessing.</p>
+<p>The pattern that works:</p>
+<ol>
+<li><strong>Pre-retrieve on session start.</strong> When a session begins, the server runs a cheap query for &ldquo;recent decisions, last 7 days&rdquo; and &ldquo;pinned facts&rdquo; and injects a short summary into the system prompt. This is the equivalent of the agent flicking through yesterday&rsquo;s notes before the meeting starts.</li>
+<li><strong>On-demand recall during the session.</strong> When the agent is about to answer something that smells like it needs history, it calls <code>recall</code> with a specific query. The key word is <em>specific</em> - &ldquo;Postgres container restart&rdquo; not &ldquo;database stuff&rdquo;.</li>
+<li><strong>Cite back to the user.</strong> If the agent uses a memory, it says so: &ldquo;last Tuesday we restarted it and it came back in about 40 seconds&rdquo;. The user can correct it. Corrections feed back into semantic memory as higher-weighted facts.</li>
+</ol>
+<p>The third one is where trust is built or lost. A memory system that silently shapes answers is unsettling. A memory system that says &ldquo;I remember this from last Tuesday, is that still right?&rdquo; feels like an assistant.</p>
+<h2 id="what-i-got-wrong-first">What I Got Wrong First<a hidden class="anchor" aria-hidden="true" href="#what-i-got-wrong-first">#</a></h2>
+<p>In rough order:</p>
+<ul>
+<li><strong>One bucket for everything.</strong> Already covered. The three-layer split was the single biggest improvement.</li>
+<li><strong>Embedding every message.</strong> Most messages are not worth embedding. Filtering by the policy rules before embedding cut the vector store from 40,000 entries to about 1,200, and retrieval quality went up, not down.</li>
+<li><strong>Letting the agent pick what to remember.</strong> It reliably picked the wrong things. Moving the decision into the server, with explicit rules, fixed it.</li>
+<li><strong>Summarising at write time.</strong> I used to summarise long conversations into a single &ldquo;gist&rdquo; and store that. You lose the texture. Now I store the raw events in episodic and let the retrieval step summarise if it needs to.</li>
+<li><strong>No expiry.</strong> The first version never forgot anything. Six months in, the agent was confidently quoting a project convention that had been reversed in January. Retention windows fix this - facts live until contradicted, episodes live 180 days, incidents live forever.</li>
+<li><strong>No user-visible view.</strong> For a month I had no way to see what the agent &ldquo;knew&rdquo; about me. I now have a small local web page that lists the contents of the semantic store, grouped by topic. Being able to read your own agent&rsquo;s memory is non-negotiable.</li>
+</ul>
+<h2 id="contradictions-which-are-the-hard-part">Contradictions, Which Are the Hard Part<a hidden class="anchor" aria-hidden="true" href="#contradictions-which-are-the-hard-part">#</a></h2>
+<p>Facts change. &ldquo;I use Postgres 15&rdquo; becomes &ldquo;I use Postgres 16&rdquo;. A good memory system has to detect and resolve contradictions, not just accumulate.</p>
+<p>My current approach is pragmatic rather than clever:</p>
+<ul>
+<li>Every semantic fact has a key, a value, a source message, and an <code>updated_at</code>.</li>
+<li>When the server sees a new fact with the same key, it checks whether the values agree. If not, it writes the new value and keeps the old one with a <code>superseded_at</code> timestamp.</li>
+<li>The retrieval layer only returns non-superseded facts unless the agent explicitly asks for history.</li>
+<li>The user can ask &ldquo;what did I used to use&rdquo; and get the superseded chain back.</li>
+</ul>
+<p>This is not a full truth-maintenance system. It does not need to be. Most contradictions in a personal assistant are &ldquo;I changed my mind&rdquo; or &ldquo;this project moved on&rdquo;, and a timestamped supersede chain handles both.</p>
+<h2 id="privacy-because-someone-will-ask">Privacy, Because Someone Will Ask<a hidden class="anchor" aria-hidden="true" href="#privacy-because-someone-will-ask">#</a></h2>
+<p>Everything is local. The stores sit in an encrypted APFS volume. The MCP server only listens on <code>localhost</code> and is reachable over <a href="https://tailscale.com/">Tailscale</a> from my phone for the <a href="/ai/phone-your-home-ai-agent/">call-in agent</a>. Nothing touches a third-party service on the write or read path.</p>
+<p>The one exception is the fallback to the Claude API when a local model is not strong enough for a task. In that case, the memory retrieval still happens locally - the agent pulls the relevant snippets, then sends only those snippets to the API along with the current turn. The full store never leaves the box. This is the minimum bar I was willing to accept.</p>
+<h2 id="where-this-goes-next">Where This Goes Next<a hidden class="anchor" aria-hidden="true" href="#where-this-goes-next">#</a></h2>
+<p>Two things on the list.</p>
+<p>First, <strong>per-project scoping.</strong> Right now memory is global to me. It should be scoped so that &ldquo;our deploy convention&rdquo; resolves differently depending on which repo I am working in. This is the bridge to my <a href="/ai/personal-ai-dev-stack/">personal AI dev stack</a> post - project-level context that the agent picks up from cwd without being told.</p>
+<p>Second, <strong>a memory-of-memory layer.</strong> The agent should notice when it has been asked the same thing three times and promote that into a pinned fact. Right now I do the promotion manually. Automating it carefully is a small research project in its own right.</p>
+<p>If you are building a home agent and you have the tools layer working, memory is the next unlock. It is not a vector database. It is three stores, a policy, and a habit of citing what you recall. Get those right and the agent stops being a clever stranger every morning.</p>
+<h2 id="further-reading">Further Reading<a hidden class="anchor" aria-hidden="true" href="#further-reading">#</a></h2>
+<ul>
+<li><a href="https://modelcontextprotocol.io/specification">Model Context Protocol specification</a></li>
+<li><a href="https://www.sqlite.org/fts5.html">SQLite FTS5 documentation</a></li>
+<li><a href="https://www.anthropic.com/research">Anthropic on agent memory patterns</a></li>
+<li><a href="https://tailscale.com/kb/">Tailscale for private service mesh</a></li>
+<li><a href="/ai/mcp-servers-home-ai-agent/">My earlier post on MCP servers for a home agent</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/memory/">Memory</a></li>
+      <li><a href="https://jamesm.blog/tags/mac-studio/">Mac-Studio</a></li>
+      <li><a href="https://jamesm.blog/tags/agent/">Agent</a></li>
+      <li><a href="https://jamesm.blog/tags/local-llm/">Local-Llm</a></li>
+      <li><a href="https://jamesm.blog/tags/rag/">Rag</a></li>
+      <li><a href="https://jamesm.blog/tags/claude/">Claude</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://jamesm.blog/ai/spacex-cursor-60-billion-option/">
+    <span class="title">Next »</span>
+    <br>
+    <span>SpaceX Buys the Right to Buy Cursor for $60 Billion</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Giving Your Home AI Agent Memory That Lasts on x"
+            href="https://x.com/intent/tweet/?text=Giving%20Your%20Home%20AI%20Agent%20Memory%20That%20Lasts&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f&amp;hashtags=ai%2cmemory%2cmac-studio%2cagent%2clocal-llm%2crag%2cclaude">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Giving Your Home AI Agent Memory That Lasts on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f&amp;title=Giving%20Your%20Home%20AI%20Agent%20Memory%20That%20Lasts&amp;summary=Giving%20Your%20Home%20AI%20Agent%20Memory%20That%20Lasts&amp;source=https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Giving Your Home AI Agent Memory That Lasts on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f&title=Giving%20Your%20Home%20AI%20Agent%20Memory%20That%20Lasts">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Giving Your Home AI Agent Memory That Lasts on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Giving Your Home AI Agent Memory That Lasts on whatsapp"
+            href="https://api.whatsapp.com/send?text=Giving%20Your%20Home%20AI%20Agent%20Memory%20That%20Lasts%20-%20https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Giving Your Home AI Agent Memory That Lasts on telegram"
+            href="https://telegram.me/share/url?text=Giving%20Your%20Home%20AI%20Agent%20Memory%20That%20Lasts&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Giving Your Home AI Agent Memory That Lasts on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Giving%20Your%20Home%20AI%20Agent%20Memory%20That%20Lasts&u=https%3a%2f%2fjamesm.blog%2fai%2fhome-ai-agent-memory-that-lasts%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
