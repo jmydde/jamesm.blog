@@ -5,7 +5,7 @@ draft: false
 tags: ["ai","anthropic","amazon","aws","investment"]
 description: "Amazon announces up to $25 billion additional investment in Anthropic, with Anthropic committing over $100 billion to AWS over the next decade."
 cover:
-  image: /assets/images/ai/amazon.jpg
+  image: /assets/images/ai/amazon-anthropic.png
   alt: Amazon Banner
 ---
 
