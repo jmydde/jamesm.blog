@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 07:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 07:53:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Iceberg in 2026: The Open Table Format That Won</title>
+      <link>https://jamesm.blog/data-engineering/apache-iceberg-2026/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/apache-iceberg-2026/</guid>
+      <description>A technical deep dive into Apache Iceberg in 2026 - how the metadata layer works, catalog choices (Polaris, Nessie, Unity), migration patterns, and why both Snowflake and Databricks now treat it as first-class.</description>
+    </item>
+    <item>
+      <title>Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse</title>
+      <link>https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/</link>
+      <pubDate>Mon, 20 Apr 2026 07:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/</guid>
+      <description>Anthropic&amp;#39;s Claude Opus 4.7 is now available inside Databricks, bringing 21% fewer document reasoning errors on OfficeQA Pro and first-class Agent Bricks support to governed enterprise workflows.</description>
+    </item>
     <item>
       <title>ETL Tools &amp; Data Integration Platforms</title>
       <link>https://jamesm.blog/data-engineering/etl-tools/</link>

@@ -11,20 +11,111 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 00:12:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://jamesm.blog/tags/ai/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Growth</title>
+      <link>https://jamesm.blog/tags/growth/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/growth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>https://jamesm.blog/tags/learning/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Development</title>
+      <link>https://jamesm.blog/tags/personal-development/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/personal-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Improvement</title>
+      <link>https://jamesm.blog/tags/self-improvement/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/self-improvement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wellness</title>
+      <link>https://jamesm.blog/tags/wellness/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/wellness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catalog</title>
+      <link>https://jamesm.blog/tags/catalog/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/catalog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>https://jamesm.blog/tags/data/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Science</title>
+      <link>https://jamesm.blog/tags/data-science/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iceberg</title>
+      <link>https://jamesm.blog/tags/iceberg/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/iceberg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lakehouse</title>
+      <link>https://jamesm.blog/tags/lakehouse/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/lakehouse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://jamesm.blog/tags/open-source/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Table-Format</title>
+      <link>https://jamesm.blog/tags/table-format/</link>
+      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/table-format/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agent</title>
       <link>https://jamesm.blog/tags/agent/</link>
       <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/agent/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai</title>
-      <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -119,13 +210,6 @@
       <description></description>
     </item>
     <item>
-      <title>Learning</title>
-      <link>https://jamesm.blog/tags/learning/</link>
-      <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/learning/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Llm</title>
       <link>https://jamesm.blog/tags/llm/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
@@ -147,7 +231,7 @@
       <description></description>
     </item>
     <item>
-      <title>Aws</title>
+      <title>AWS</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -210,13 +294,6 @@
       <description></description>
     </item>
     <item>
-      <title>Open-Source</title>
-      <link>https://jamesm.blog/tags/open-source/</link>
-      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/open-source/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Mac</title>
       <link>https://jamesm.blog/tags/mac/</link>
       <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
@@ -235,6 +312,20 @@
       <link>https://jamesm.blog/tags/tool/</link>
       <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/tool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databricks</title>
+      <link>https://jamesm.blog/tags/databricks/</link>
+      <pubDate>Mon, 20 Apr 2026 07:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/databricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise</title>
+      <link>https://jamesm.blog/tags/enterprise/</link>
+      <pubDate>Mon, 20 Apr 2026 07:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/enterprise/</guid>
       <description></description>
     </item>
     <item>
@@ -357,20 +448,6 @@
       <description></description>
     </item>
     <item>
-      <title>Data</title>
-      <link>https://jamesm.blog/tags/data/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data-Integration</title>
       <link>https://jamesm.blog/tags/data-integration/</link>
       <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
@@ -382,13 +459,6 @@
       <link>https://jamesm.blog/tags/data-pipeline/</link>
       <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data-pipeline/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Science</title>
-      <link>https://jamesm.blog/tags/data-science/</link>
-      <pubDate>Sun, 19 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
@@ -494,13 +564,6 @@
       <link>https://jamesm.blog/tags/apache-iceberg/</link>
       <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/apache-iceberg/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lakehouse</title>
-      <link>https://jamesm.blog/tags/lakehouse/</link>
-      <pubDate>Sat, 18 Apr 2026 07:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/lakehouse/</guid>
       <description></description>
     </item>
     <item>
@@ -756,13 +819,6 @@
       <description></description>
     </item>
     <item>
-      <title>Growth</title>
-      <link>https://jamesm.blog/tags/growth/</link>
-      <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/growth/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Implementation</title>
       <link>https://jamesm.blog/tags/implementation/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
@@ -770,17 +826,10 @@
       <description></description>
     </item>
     <item>
-      <title>Life-Purpose</title>
+      <title>Life Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal-Development</title>
-      <link>https://jamesm.blog/tags/personal-development/</link>
-      <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/personal-development/</guid>
       <description></description>
     </item>
     <item>
@@ -788,20 +837,6 @@
       <link>https://jamesm.blog/tags/resilience/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/resilience/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Self-Improvement</title>
-      <link>https://jamesm.blog/tags/self-improvement/</link>
-      <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/self-improvement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wellness</title>
-      <link>https://jamesm.blog/tags/wellness/</link>
-      <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/wellness/</guid>
       <description></description>
     </item>
     <item>
@@ -826,7 +861,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -1274,20 +1309,6 @@
       <description></description>
     </item>
     <item>
-      <title>Databricks</title>
-      <link>https://jamesm.blog/tags/databricks/</link>
-      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/databricks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Iceberg</title>
-      <link>https://jamesm.blog/tags/iceberg/</link>
-      <pubDate>Wed, 08 Apr 2026 07:40:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/iceberg/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Coding</title>
       <link>https://jamesm.blog/tags/coding/</link>
       <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
@@ -1554,7 +1575,7 @@
       <description></description>
     </item>
     <item>
-      <title>Spec Kit</title>
+      <title>Spec-Kit</title>
       <link>https://jamesm.blog/tags/spec-kit/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spec-kit/</guid>

@@ -202,6 +202,55 @@
 <main class="main"> 
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/images/data.jpg" alt="Databricks Training and Certification">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Databricks Training &amp; Certification
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview Databricks offers certification tracks aligned to common roles: Data Engineer, Data Analyst, Apache Spark Developer, Machine Learning Engineer, and Generative AI Engineer. All certifications:
+Validity: 2 years from pass date Cost: $200 per exam attempt Format: Multiple choice, proctored online Recent Updates (2026): Emphasis on Lakeflow Declarative Pipelines (the evolution of DLT), Unity Catalog, liquid clustering, predictive optimization, AUTO CDC, Lakehouse Federation, and serverless compute Choose a certification based on your:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-04 20:47:25 +0100 BST'>April 4, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Databricks Training & Certification" href="https://jamesm.blog/data-engineering/databricks-training-certification/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/images/data.jpg" alt="Databricks CheatSheet">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Databricks CheatSheet
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Quick Start This cheatsheet covers essential Databricks notebook commands, SQL operations, PySpark transformations, and optimization techniques for the lakehouse platform.
+Databricks Notebook Commands Magic commands provide shortcuts for common operations in Databricks notebooks:
+Command Purpose Use Case %python Executes python code (default language) PySpark transformations, data processing %sql Executes SQL queries Querying tables and views %scala Executes scala code Spark API operations, JVM access %r Execute R code Statistical analysis and visualization %sh Shell commands on cluster nodes Git operations, system utilities %fs Databricks file system operations File management, DBFS interactions %md Markdown text formatting Documentation and cell titles %pip Install Python packages Adding Python dependencies %env Set environment variables Configuration and secrets %config Notebook configuration options Display settings, execution parameters %jobs Lists all running jobs Job monitoring %load Load external file contents Include external code %reload Reload Python modules Refresh imports %run Execute another notebook Code reuse and modularization %lsmagic List all available magic commands Discovery %who List variables in current scope Debugging and variable inspection %matplotlib Configure matplotlib backend Visualization setup Notebook Widgets # Create widgets dbutils.widgets.text(&#34;param_name&#34;, &#34;default_value&#34;, &#34;label&#34;) dbutils.widgets.dropdown(&#34;param_name&#34;, &#34;default&#34;, [&#34;option1&#34;, &#34;option2&#34;]) dbutils.widgets.multiselect(&#34;param_name&#34;, &#34;default&#34;, [&#34;option1&#34;, &#34;option2&#34;]) dbutils.widgets.combobox(&#34;param_name&#34;, &#34;default&#34;, [&#34;option1&#34;, &#34;option2&#34;]) # Get widget values param_value = dbutils.widgets.get(&#34;param_name&#34;) # Remove widget dbutils.widgets.remove(&#34;param_name&#34;) dbutils.widgets.removeAll() Secrets Management # Create secret scope dbutils.secrets.createScope(&#34;scope_name&#34;) # Store secret dbutils.secrets.put(&#34;scope_name&#34;, &#34;secret_key&#34;, &#34;secret_value&#34;) # Retrieve secret secret_value = dbutils.secrets.get(&#34;scope_name&#34;, &#34;secret_key&#34;) # List secrets dbutils.secrets.list(&#34;scope_name&#34;) # Delete secret dbutils.secrets.delete(&#34;scope_name&#34;, &#34;secret_key&#34;) Accessing Files /path/to/file (local) dbfs:/path/to/file (DBFS) file:/path/to/file (driver filesystem) s3://path/to/file (S3) /Volumes/catalog/schema/volume/path (Unity Catalog Volumes) Copying Files %fs cp file:/&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt; %python dbutils.fs.cp(&#34;file:/&lt;path&gt;&#34;, &#34;/Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt;&#34;) %python dbutils.fs.cp(&#34;file:/databricks/driver/test&#34;, &#34;dbfs:/repo&#34;, True) %sh cp /&lt;path&gt; /Volumes/&lt;catalog&gt;/&lt;schema&gt;/&lt;volume&gt;/&lt;path&gt; SQL Statements DDL - Data Definition Language (Schema &amp; Table Operations) Create &amp; Use Schema CREATE SCHEMA test; CREATE SCHEMA custom LOCATION &#39;dbfs:/custom&#39;; USE SCHEMA test; Unity Catalog (UC) -- Create catalog CREATE CATALOG my_catalog COMMENT &#34;Production catalog&#34;; -- Create schema in UC CREATE SCHEMA my_catalog.my_schema; USE CATALOG my_catalog; USE SCHEMA my_schema; -- Create volume (for files) CREATE VOLUME my_catalog.my_schema.my_volume; ALTER VOLUME my_catalog.my_schema.my_volume OWNER TO `team@company.com`; -- List catalogs, schemas, volumes SHOW CATALOGS; SHOW SCHEMAS IN my_catalog; SHOW VOLUMES IN my_catalog.my_schema; -- Grant permissions GRANT USAGE ON CATALOG my_catalog TO `user@company.com`; GRANT READ_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`; Create Table CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT); CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;); CREATE TABLE test USING CSV LOCATION &#39;/repo/data/test.csv&#39;; CREATE TABLE test USING CSV OPTIONS (header=&#34;true&#34;) LOCATION &#39;/repo/data/test.csv&#39;; CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;); CREATE TABLE test AS ... CREATE TABLE test USING ... CREATE TABLE test(id INT, title STRING, col1 STRING, publish_time BIGINT, pages INT, price FLOAT) COMMENT &#39;This is comment for the table itself&#39;; CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.json&#39;, format =&gt; &#39;json&#39;); CREATE TABLE test_raw AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;, sep =&gt; &#39;;&#39;); CREATE TABLE custom_table_test LOCATION &#39;dbfs:/custom-table&#39; AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;); CREATE TABLE test PARTITIONED BY (col1) AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;) CREATE TABLE users( firstname STRING, lastname STRING, full_name STRING GENERATED ALWAYS AS (concat(firstname, &#39; &#39;, lastname)) ); CREATE OR REPLACE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files(&#39;/repo/data/test.csv&#39;); CREATE OR REPLACE TABLE test AS SELECT * FROM json.`/repo/data/test.json`; CREATE OR REPLACE TABLE test AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;); Create View CREATE VIEW view_test AS SELECT * FROM test WHERE col1 = &#39;test&#39;; CREATE VIEW view_test AS SELECT col1, col1 FROM test JOIN test2 ON test.col2 == test2.col2; CREATE TEMP VIEW temp_test AS SELECT * FROM test WHERE col1 = &#39;test&#39;; CREATE TEMP VIEW temp_test AS SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;); CREATE GLOBAL TEMP VIEW view_test AS SELECT * FROM test WHERE col1 = &#39;test&#39;; SELECT * FROM global_temp.view_test; CREATE TEMP VIEW jdbc_example USING JDBC OPTIONS ( url &#34;&lt;jdbc-url&gt;&#34;, dbtable &#34;&lt;table-name&gt;&#34;, user &#39;&lt;username&gt;&#39;, password &#39;&lt;password&gt;&#39;); CREATE OR REPLACE TEMP VIEW test AS SELECT * FROM delta.`&lt;logpath&gt;`; CREATE VIEW event_log_raw AS SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;); CREATE OR REPLACE TEMP VIEW test_view AS SELECT test.col1 AS col1 FROM test_table WHERE col1 = &#39;value1&#39; ORDER BY timestamp DESC LIMIT 1; Drop &amp; Describe DROP TABLE test; SHOW TABLES; DESCRIBE EXTENDED test; DML - Data Manipulation Language (Data Operations) Select SELECT * FROM csv.`/repo/data/test.csv`; SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;); SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;, format =&gt; &#39;csv&#39;, header =&gt; &#39;true&#39;, sep =&gt; &#39;,&#39;) SELECT * FROM json.`/repo/data/test.json`; SELECT * FROM json.`/repo/data/*.json`; SELECT * FROM test WHERE year(from_unixtime(test_time)) &gt; 1900; SELECT * FROM test WHERE title LIKE &#39;%a%&#39; SELECT * FROM test WHERE title LIKE &#39;a%&#39; SELECT * FROM test WHERE title LIKE &#39;%a&#39; SELECT * FROM test TIMESTAMP AS OF &#39;2024-01-01T00:00:00.000Z&#39;; SELECT * FROM test VERSION AS OF 2; SELECT * FROM test@v2; SELECT * FROM event_log(&#34;&lt;pipeline-id&gt;&#34;); SELECT count(*) FROM VALUES (NULL), (10), (10) AS example(col); SELECT count(col) FROM VALUES (NULL), (10), (10) AS example(col); SELECT count_if(col1 = &#39;test&#39;) FROM test; SELECT from_unixtime(test_time) FROM test; SELECT cast(test_time / 1 AS timestamp) FROM test; SELECT cast(cast(test_time AS BIGINT) AS timestamp) FROM test; SELECT element.sub_element FROM test; SELECT flatten(array(array(1, 2), array(3, 4))); SELECT * FROM ( SELECT col1, col2 FROM test ) PIVOT ( sum(col1) for col2 in (&#39;item1&#39;,&#39;item2&#39;) ); SELECT *, CASE WHEN col1 &gt; 10 THEN &#39;value1&#39; ELSE &#39;value2&#39; END FROM test; SELECT * FROM test ORDER BY (CASE WHEN col1 &gt; 10 THEN col2 ELSE col3 END); WITH t(col1, col2) AS (SELECT 1, 2) SELECT * FROM t WHERE col1 = 1; SELECT details:flow_definition.output_dataset as output_dataset, details:flow_definition.input_datasets as input_dataset FROM event_log_raw, latest_update WHERE event_type = &#39;flow_definition&#39; AND origin.update_id = latest_update.id; Insert INSERT OVERWRITE test SELECT * FROM read_files(&#39;/repo/data/test.csv&#39;); INSERT INTO test(col1, col2) VALUES (&#39;value1&#39;, &#39;value2&#39;); Merge Into MERGE INTO test USING test_to_delete ON test.col1 = test_to_delete.col1 WHEN MATCHED THEN DELETE; MERGE INTO test USING test_to_update ON test.col1 = test_to_update.col1 WHEN MATCHED THEN UPDATE SET *; MERGE INTO test USING test_to_insert ON test.col1 = test_to_insert.col1 WHEN NOT MATCHED THEN INSERT *; Copy Into COPY INTO test FROM &#39;/repo/data&#39; FILEFORMAT = CSV FILES = (&#39;test.csv&#39;) FORMAT_OPTIONS(&#39;header&#39; = &#39;true&#39;, &#39;inferSchema&#39; = &#39;true&#39;); Spark DataFrame API PySpark is the Python API for Apache Spark, enabling distributed data processing on the Databricks platform.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-04 20:44:25 +0100 BST'>April 4, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Databricks CheatSheet" href="https://jamesm.blog/data-engineering/databricks-cheatsheet/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Artemis II: Breaking the Distance Record
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>As the Orion spacecraft sweeps around the lunar far side, the four-person crew of Artemis II is doing more than just testing hardware - they are venturing further into the cosmos than any human being has ever traveled.
+Surpassing Apollo 13 For over five decades, the record for the farthest distance humans have traveled from Earth was held by the crew of Apollo 13. In April 1970, due to an emergency “free-return” trajectory, Jim Lovell, Jack Swigert, and Fred Haise reached a distance of approximately 400,171 kilometers (248,655 miles) from Earth.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-04 18:00:00 +0000 +0000'>April 4, 2026</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Artemis II: Breaking the Distance Record" href="https://jamesm.blog/space/artemis-ii-distance-record/"></a>
+</article>
+
+<article class="post-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">Quantum Computing: A Threat to Bitcoin?
     </h2>
@@ -298,48 +347,6 @@ TL;DR Primary IDE: Cursor AI for daily work, Claude Code CLI for multi-file refa
   </div>
   <footer class="entry-footer"><span title='2026-04-03 23:09:25 +0100 BST'>April 3, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Personal AI Development Stack" href="https://jamesm.blog/ai/personal-ai-dev-stack/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">What the Amiga Got Right (That We&#39;re Still Copying)
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>What the Amiga Got Right (That We’re Still Copying) The Commodore Amiga was not the most successful computer. It was not the fastest. It was not the cheapest. It was introduced in 1985, bought by Commodore in a panic, and discontinued by 1994 as the company collapsed. By most commercial metrics, it was a failure.
-Yet almost every good idea in modern computing traces back to the Amiga. Preemptive multitasking. Graphics layers and compositing. Named pipes. Memory protection. Hardware acceleration. Plug-and-play peripherals. Scripting languages. Digital audio and video editing. Networking. The Amiga did these things in 1985 when IBM PCs were still running in 8-bit mode.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-03 14:00:00 +0000 +0000'>April 3, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to What the Amiga Got Right (That We&#39;re Still Copying)" href="https://jamesm.blog/retro-computing/what-the-amiga-got-right-that-were-still-copying/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Compunet: Britain&#39;s Forgotten Pre-Internet Community
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Compunet: Britain’s Forgotten Pre-Internet Community Long before Facebook, Twitter, or Reddit, there was Compunet. In 1982, in a small flat in Islington, London, two teenagers set up a computer bulletin board system on a network called Prestel. Within a few years, it had become one of the world’s first genuine online communities - thousands of people meeting in cyberspace, exchanging messages, playing games, and falling in love, all before the internet existed in public consciousness.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-03 09:00:00 +0000 +0000'>April 3, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Compunet: Britain&#39;s Forgotten Pre-Internet Community" href="https://jamesm.blog/retro-computing/compunet-britains-forgotten-pre-internet-community/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Demoscene: Where Art Met Assembly
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The Demoscene: Where Art Met Assembly The demoscene wasn’t about games. It wasn’t about productivity software or killer apps. It was about taking a computer that wasn’t designed for art, stripping away the operating system, and hand-crafting something beautiful in 512 bytes of RAM.
-This was the demoscene, and it was the most vital creative community in computing.
-What Was the Demoscene? A “demo” is a real-time audiovisual production written from scratch - no pre-rendered video, no external assets, just code and mathematics creating sound and graphics in real time on modest hardware. Think of it as a 4-minute music video that weighs 64 kilobytes and runs on a Commodore 64.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-02 14:00:00 +0000 +0000'>April 2, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Demoscene: Where Art Met Assembly" href="https://jamesm.blog/retro-computing/the-demoscene-where-art-met-assembly/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 07:40:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 07:45:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/databricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse</title>
+      <link>https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/</link>
+      <pubDate>Mon, 20 Apr 2026 07:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/</guid>
+      <description>Anthropic&amp;#39;s Claude Opus 4.7 is now available inside Databricks, bringing 21% fewer document reasoning errors on OfficeQA Pro and first-class Agent Bricks support to governed enterprise workflows.</description>
+    </item>
     <item>
       <title>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</title>
       <link>https://jamesm.blog/data-engineering/following-the-money/</link>
