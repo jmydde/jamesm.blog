@@ -11,20 +11,55 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 21:48:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 00:12:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agent</title>
       <link>https://jamesm.blog/tags/agent/</link>
-      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/agent/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI</title>
+      <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://jamesm.blog/tags/claude/</link>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local-Llm</title>
+      <link>https://jamesm.blog/tags/local-llm/</link>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/local-llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac-Studio</title>
+      <link>https://jamesm.blog/tags/mac-studio/</link>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/mac-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mcp</title>
+      <link>https://jamesm.blog/tags/mcp/</link>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ollama</title>
+      <link>https://jamesm.blog/tags/ollama/</link>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ollama/</guid>
       <description></description>
     </item>
     <item>
@@ -32,20 +67,6 @@
       <link>https://jamesm.blog/tags/livekit/</link>
       <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/livekit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Local-Llm</title>
-      <link>https://jamesm.blog/tags/local-llm/</link>
-      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/local-llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mac-Studio</title>
-      <link>https://jamesm.blog/tags/mac-studio/</link>
-      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/mac-studio/</guid>
       <description></description>
     </item>
     <item>
@@ -84,7 +105,7 @@
       <description></description>
     </item>
     <item>
-      <title>Cursor Ai</title>
+      <title>Cursor-Ai</title>
       <link>https://jamesm.blog/tags/cursor-ai/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor-ai/</guid>
@@ -112,13 +133,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ollama</title>
-      <link>https://jamesm.blog/tags/ollama/</link>
-      <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ollama/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Amazon</title>
       <link>https://jamesm.blog/tags/amazon/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
@@ -133,7 +147,7 @@
       <description></description>
     </item>
     <item>
-      <title>AWS</title>
+      <title>Aws</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -560,7 +574,7 @@
       <description></description>
     </item>
     <item>
-      <title>Sound Design</title>
+      <title>Sound-Design</title>
       <link>https://jamesm.blog/tags/sound-design/</link>
       <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sound-design/</guid>
@@ -578,13 +592,6 @@
       <link>https://jamesm.blog/tags/ai-usage/</link>
       <pubDate>Fri, 17 Apr 2026 21:36:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/ai-usage/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://jamesm.blog/tags/claude/</link>
-      <pubDate>Fri, 17 Apr 2026 21:36:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -672,7 +679,7 @@
       <description></description>
     </item>
     <item>
-      <title>Software Synth</title>
+      <title>Software-Synth</title>
       <link>https://jamesm.blog/tags/software-synth/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/software-synth/</guid>
@@ -763,14 +770,14 @@
       <description></description>
     </item>
     <item>
-      <title>Life Purpose</title>
+      <title>Life-Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
       <description></description>
     </item>
     <item>
-      <title>Personal Development</title>
+      <title>Personal-Development</title>
       <link>https://jamesm.blog/tags/personal-development/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/personal-development/</guid>
@@ -819,7 +826,7 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Thu, 09 Apr 2026 07:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -844,13 +851,6 @@
       <link>https://jamesm.blog/tags/kanban/</link>
       <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/kanban/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mcp</title>
-      <link>https://jamesm.blog/tags/mcp/</link>
-      <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/mcp/</guid>
       <description></description>
     </item>
     <item>

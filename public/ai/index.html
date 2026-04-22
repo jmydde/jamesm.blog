@@ -229,6 +229,22 @@
 
 <article class="post-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/mcp-servers-home-agent.jpg" alt="MCP Servers for a Home AI Agent Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Problem: a local agent that can only chat is a toy. The value is in what it can do. Answer: Model Context Protocol servers, running locally on the Mac Studio, expose filesystem, calendar, mail, notes, and a handful of custom tools. Runtime: one supervisord config, a small router, and per-server allowlists so nothing escapes its box. Security posture: no tool runs without a policy, secrets live in the macOS Keychain, and every call is logged to a local SQLite file I can grep at 11pm. Result: I can phone the agent (see How to Phone Your Home AI Agent), ask “move the CI failure email to triage and put a 15 minute hold on my calendar at 4”, and it actually does it. Why MCP and Not “Just Functions” Before MCP I had a directory of half-finished Python shims. Each one spoke a slightly different dialect: one took JSON arguments, one took positional args, one returned markdown and one returned a dict. Adding a new tool meant editing the agent prompt, the router, and the caller.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-22 00:12:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio" href="https://jamesm.blog/ai/mcp-servers-home-ai-agent/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/ai/phone-agent.jpg" alt="Phone Your Home AI Agent Banner">
 </figure>
   <header class="entry-header">
@@ -376,23 +392,6 @@ The interesting question isn’t whether Grok’s voice tech is good. It clearly
   </div>
   <footer class="entry-footer"><span title='2026-04-19 21:07:00 +0000 +0000'>April 19, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale" href="https://jamesm.blog/ai/grok-voice-apis/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/four-futures-machine-speed-economy.jpg" alt="Four Futures Machine Speed Economy Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Four Futures for the Machine-Speed Economy
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The pace of AI development over the past three years is genuinely unlike anything in recent economic history. The Stanford AI Index has tracked frontier model capability roughly doubling on a yearly cadence, and private AI investment has reached levels that dwarf the dot-com peak in inflation-adjusted terms. What’s less widely understood is what that pace actually means for competition, investment, and the structure of the economy.
-The Build Time Collapse It’s not just that AI is writing code faster. Build times are collapsing across the entire software stack - design, implementation, testing, deployment - and that changes the rules of competition.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-19 19:26:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Four Futures for the Machine-Speed Economy" href="https://jamesm.blog/ai/four-futures-machine-speed-economy/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
