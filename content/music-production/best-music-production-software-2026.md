@@ -5,7 +5,7 @@ draft: false
 tags: ['music production', 'software', 'daw']
 description: "A 2026 tour of the DAWs worth building a studio around - Ableton Live 12, Logic Pro 12, Cubase 15, Fender Studio Pro 8, Bitwig 6, Reason 14, and the first wave of AI-native workstations."
 cover:
-  image: images/music-production.png
+  image: /assets/images/music-production/music-production.png
   alt: Music Production Software 2026
 ---
 
