@@ -39,7 +39,9 @@ Before we go deep, here's the flow of a single call:
 3. The worker hands the audio to [LiveKit Agents](https://docs.livekit.io/agents/) running as the voice orchestrator.
 4. LiveKit streams the audio over Tailscale to the Mac Studio.
 5. On the Mac - Whisper transcribes, the local LLM reasons and calls tools, Piper speaks the reply.
-6. Audio streams back out the same way. Total round trip - roughly 1.5 to 2.5 seconds per turn.
+6. Audio streams back out the same way.
+
+Budget for the round trip, end to end, is roughly 1.5 to 2.5 seconds per turn. Rough split: 300 ms Twilio / SIP ingress, 150 ms Whisper partials finalising, 400 ms first token from the LLM, 200 ms Piper starting to speak, the rest is network and jitter. The human ear is unforgiving below about 800 ms - under 2 seconds and it feels like a conversation, over 3 and it feels like a walkie-talkie.
 
 Most of the cleverness is already in LiveKit's agent framework. You are not writing a real-time audio pipeline from scratch, which is the whole reason this is doable in a weekend.
 
@@ -49,7 +51,7 @@ I'm running the setup on an M2 Ultra 128 GB - more than most people need, but I 
 
 The key services on the Mac are all run under `launchd` so they come back after reboots:
 
-- **[Ollama](https://ollama.ai)** serving a 30B-class model on `localhost:11434`. I'm using a Qwen MoE for most calls and falling back to Claude Sonnet via the [Anthropic API](https://docs.anthropic.com) for anything that needs proper reasoning.
+- **[Ollama](https://ollama.ai)** serving a 30B-class model on `localhost:11434`. I'm using a Qwen3 MoE variant for most calls and falling back to Claude Sonnet via the [Anthropic API](https://docs.anthropic.com) for anything that needs proper reasoning. On an M2 Ultra you can comfortably sit at 4-bit quantisation and still get first-token latency under 400 ms, which is the real bottleneck for voice.
 - **[whisper.cpp](https://github.com/ggerganov/whisper.cpp)** with the Metal backend, running a streaming server that takes audio chunks and returns partial transcripts. `large-v3-turbo` is my default - fast enough on Apple Silicon and very forgiving with UK accents.
 - **[Piper TTS](https://github.com/rhasspy/piper)** for voice out. The `en_GB-alan-medium` voice is the best local option I've tried. If I'm feeling flush I swap in [ElevenLabs](https://elevenlabs.io) streaming TTS for a much nicer voice - but then the audio does leave the house.
 - **A thin Python worker** that holds the tool-call plumbing - GitHub status, a read-only SSH into my dev box, a couple of bash shortcuts for "check the build" and "what's Claude saying about PR 42".
@@ -73,6 +75,20 @@ For the actual PSTN side you need a SIP trunk. I'm using [Twilio Programmable Vo
 The TwiML config is literally a single verb that dials the SIP URI exposed by LiveKit. Twilio handles the PSTN to SIP bridge. LiveKit handles the SIP to WebRTC bridge. Your agent just sees an audio track.
 
 If you already use [Telnyx](https://telnyx.com) or [Vonage](https://www.vonage.com/communications-apis/voice/) the same pattern works - anything that can terminate a SIP URI is fine. I wouldn't use a consumer VoIP provider; the jitter is noticeably worse.
+
+## Stopping strangers from talking to your agent
+
+This is the part I wish every tutorial addressed and almost none do. The moment your Twilio number is live, anyone on Earth can dial it and start a conversation with a thing that has shell access to your dev box. Caller ID spoofing is trivial. A naive setup is an open door.
+
+The layers I use, in order:
+
+1. **Allowlist on caller ID.** Twilio hands the `From` header to LiveKit. I reject anything that isn't my personal mobile. This stops 99% of nonsense but is not real security - caller ID can be spoofed.
+2. **A spoken PIN.** On answer, the agent asks for a short passphrase before it will do anything. Transcribed by Whisper, compared to a hash. If it fails twice the call drops.
+3. **Read-only by default.** The agent boots into a tool set that can only *look* at things. Destructive tools (push, merge, delete, run shortcut) are gated behind a second verbal confirmation each time.
+4. **Rate limits and budget caps.** The SIP worker drops the call if Whisper or the LLM hit unusual usage in a short window - a runaway loop shouldn't cost me £50.
+5. **An audit log.** Every call writes a transcript and tool-call trace to a file on the Mac. If something weird happened I can go back and see it.
+
+None of this is exotic, but all of it is mandatory. Treat the phone number as a public API endpoint for your home, because that is exactly what it is.
 
 ## Connecting the Mac to the world without opening ports
 
@@ -135,9 +151,9 @@ So about £10 a month, all in. Cheaper than another subscription, and it's mine.
 
 ## Is this the future?
 
-It probably is, but in the specific sense that everyone's home will have a small agent they can talk to - not in the sense that they'll build this stack themselves.
+Probably, but in the specific sense that most homes will end up with a small agent they can talk to - not in the sense that most people will build this stack themselves. The hard parts get commoditised and somebody ships an appliance.
 
-The crazy thing is I now literally feel like I'm speaking to a real person - a real developer. Every day the agent is learning about my needs, my passions, who I am and what I'm trying to achieve. It's become a very personal assistant. It knows my repos better than I do some days. It understands the shortcuts and patterns I take. It's stopped feeling like I'm talking to a chatbot and started feeling like I'm talking to a colleague who happens to live in my Mac.
+What surprised me was how quickly it stopped feeling like a chatbot. The agent has access to my repos, my notes, my shortcuts. It understands the patterns I use without me having to explain them each time. On a long walk it's genuinely closer to a colleague than a tool.
 
 The interesting part of this project isn't the phone line. It's the realisation that a competent local model plus five or six tool calls is already enough to replace most of the reasons I open a laptop on the weekend.
 
