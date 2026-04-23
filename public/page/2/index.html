@@ -203,6 +203,22 @@
 
 <article class="post-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/mcp-servers-home-agent.jpg" alt="MCP Servers for a Home AI Agent Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Problem: a local agent that can only chat is a toy. The value is in what it can do. Answer: Model Context Protocol servers, running locally on the Mac Studio, expose filesystem, calendar, mail, notes, and a handful of custom tools. Runtime: one supervisord config, a small router, and per-server allowlists so nothing escapes its box. Security posture: no tool runs without a policy, secrets live in the macOS Keychain, and every call is logged to a local SQLite file I can grep at 11pm. Result: I can phone the agent (see How to Phone Your Home AI Agent), ask “move the CI failure email to triage and put a 15 minute hold on my calendar at 4”, and it actually does it. Why MCP and Not “Just Functions” Before MCP I had a directory of half-finished Python shims. Each one spoke a slightly different dialect: one took JSON arguments, one took positional args, one returned markdown and one returned a dict. Adding a new tool meant editing the agent prompt, the router, and the caller.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-22 00:12:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio" href="https://jamesm.blog/ai/mcp-servers-home-ai-agent/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/ai/phone-agent.jpg" alt="Phone Your Home AI Agent Banner">
 </figure>
   <header class="entry-header">
@@ -351,24 +367,6 @@ Why This Matters More Than Another Model Announcement Most Claude releases get s
   </div>
   <footer class="entry-footer"><span title='2026-04-20 07:45:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse" href="https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/general/human-advancement-acceleration.jpg" alt="Human Advancement Acceleration Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Exponential Curve: Understanding Human Advancement Acceleration
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>A child born in 1700 inherited a world barely changed from their grandparents’. A child born in 1900 saw horses give way to automobiles, then aircraft, then space travel within a single lifetime. A child born today will witness more transformation in their first 30 years than humans experienced across the entire 18th century.
-This isn’t hyperbole. It’s geometry.
-INNOVATION DENSITY PER DECADE (1700 - 2030) ════════════════════════════════════════════════════════════ 1700s │▏ 1710s │▏ 1720s │▎ The &#34;slow century&#34; 1730s │▎ Marine Chronometer (1735) 1740s │▍ 1750s │▍ 1760s │▌ Spinning Jenny (1764) 1770s │▋ ◀── Steam Engine (1769) - Industrial Revolution begins 1780s │▊ 1790s │▉ 1800s │█ Photography emerges 1810s │█▏ 1820s │█▎ 1830s │█▌ Telegraph (1837) 1840s │█▋ 1850s │█▊ Bessemer Steel 1860s │██ Internal Combustion Engine 1870s │██▎ Telephone (1876), Phonograph 1880s │██▌ Electric Light, Automobile 1890s │██▊ Radio Waves, X-rays 1900s │███ Powered Flight (1903) 1910s │███▎ 1920s │███▌ Television 1930s │████ Antibiotics 1940s │█████ ◀── ENIAC &#43; Transistor - Computing era begins 1950s │██████ Commercial Jets, DNA Discovered 1960s │████████ Integrated Circuit, Moon Landing 1970s │██████████ Microprocessor, Personal Computer 1980s │█████████████ Internet, Mobile Phones 1990s │████████████████ World Wide Web 2000s │█████████████████████ Smartphones, Social Media 2010s │██████████████████████████ Deep Learning, CRISPR 2020s │█████████████████████████████████████ ◀── YOU ARE HERE │ └──→ AGI? Fusion? Age Reversal? ──→ 2030s What ‘Exponential’ Actually Means Most people nod along when someone says “technology is accelerating,” but few grasp what exponential growth looks like up close.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-20 07:31:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Exponential Curve: Understanding Human Advancement Acceleration" href="https://jamesm.blog/general/human-advancement-acceleration/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

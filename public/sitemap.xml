@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jamesm.blog/tags/ableton/</loc>
-    <lastmod>2026-04-22T22:02:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/chatgpt/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/chatgpt-images-2/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/image-generation/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/openai/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/ableton/</loc>
     <lastmod>2026-04-22T22:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ai-music/</loc>
@@ -18,9 +39,6 @@
     <lastmod>2026-04-22T22:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/daw/</loc>
-    <lastmod>2026-04-22T22:02:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2026-04-22T22:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/music/</loc>
@@ -44,19 +62,16 @@
     <loc>https://jamesm.blog/tags/synthesis/</loc>
     <lastmod>2026-04-22T22:02:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2026-04-22T22:02:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/architecture/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ci-cd/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/kubernetes/</loc>
@@ -75,9 +90,6 @@
     <lastmod>2026-04-22T21:06:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-law-trends-2026/</loc>
-    <lastmod>2026-04-22T21:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
     <lastmod>2026-04-22T21:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/law/</loc>
@@ -1643,9 +1655,6 @@
     <loc>https://jamesm.blog/tags/chatbot/</loc>
     <lastmod>2025-10-28T16:17:14+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/chatgpt/</loc>
-    <lastmod>2025-10-28T16:17:14+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/copilot/</loc>
     <lastmod>2025-10-28T16:17:14+01:00</lastmod>
   </url><url>
@@ -1912,9 +1921,6 @@
   </url><url>
     <loc>https://jamesm.blog/music-production/analogue-vs-digital-synths/</loc>
     <lastmod>2024-04-20T06:59:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/openai/</loc>
-    <lastmod>2024-03-29T23:12:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/openai-voice-engine/</loc>
     <lastmod>2024-03-29T23:12:25+01:00</lastmod>

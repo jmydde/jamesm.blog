@@ -5,7 +5,7 @@ draft: false
 tags: ['abinitio', 'aws', 'azure', 'data', 'etl', 'data-integration', 'data-pipeline', 'tool', 'airbyte', 'fivetran', 'dbt']
 description: "Comprehensive guide to ETL and ELT tools and data integration platforms across cloud providers, enterprise solutions, and modern low-code platforms in 2026."
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/etl-tools-2026.jpg
   alt: ETL Tools and Data Integration
 ---
 
