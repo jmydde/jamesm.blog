@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 06:52:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 21:01:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent-First Architecture: The Engineer as System Curator</title>
+      <link>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</guid>
+      <description>Some thoughts on where agent-first architecture might take us, and what engineering could look like if the job shifts from building systems line by line to curating, governing, and evolving fleets of agents.</description>
+    </item>
+    <item>
+      <title>Is the $20 AI Subscription Era Over?</title>
+      <link>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</link>
+      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</guid>
+      <description>Every major AI provider is quietly repositioning the $20/month tier. Here&amp;#39;s what&amp;#39;s happening at Anthropic, OpenAI, Google, Microsoft, xAI, and what monthly prices are likely to look like by the end of 2026.</description>
+    </item>
+    <item>
+      <title>Meta Is Tracking Its Own Employees to Train AI Agents</title>
+      <link>https://jamesm.blog/ai/meta-employee-tracking/</link>
+      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/meta-employee-tracking/</guid>
+      <description>Meta&amp;#39;s Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out.</description>
+    </item>
     <item>
       <title>ChatGPT Images 2.0: Why Everyone Is Impressed</title>
       <link>https://jamesm.blog/ai/chatgpt-images-2/</link>

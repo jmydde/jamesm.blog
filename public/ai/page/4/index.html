@@ -229,6 +229,50 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Structured Outputs: When Your AI Needs to Follow a Schema
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>For years, extracting structured data from LLMs meant post-processing their text output: parse JSON, handle edge cases where the model forgot to close a bracket, write validation code to check if the output matched your schema, implement fallback logic when parsing failed.
+Then came structured outputs - a way to constrain LLM responses to match a JSON schema before they’re returned to you.
+Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-09 06:17:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Structured Outputs: When Your AI Needs to Follow a Schema" href="https://jamesm.blog/ai/structured-outputs-schema/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The LLM Context Window Arms Race: Does It Actually Matter?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Every week brings a new headline: “Model X reaches 1M token context!” “Model Y supports 2M tokens!” The LLM industry seems locked in an arms race where the stated goal is always “bigger context window,” as if this single metric determines whether a model is useful.
+It doesn’t.
+The context window arms race reveals a gap between what engineers think matters and what actually works in production systems. And if you’re building with LLMs, understanding that gap will save you from infrastructure that doesn’t solve your problems.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-09 06:14:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The LLM Context Window Arms Race: Does It Actually Matter?" href="https://jamesm.blog/ai/llm-context-window-arms-race/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Token Economics: Why the Cost of AI Isn&#39;t Going Down
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>There’s a persistent myth in tech: AI will get cheaper. The argument is straightforward - Moore’s Law, scale effects, competition, and raw compute efficiency improvements mean costs should plummet. Yet in April 2026, Claude costs roughly what it did in 2024. GPT-4 Turbo pricing hasn’t moved in eighteen months. Gemini’s cost structure remains sticky. Why?
+The answer isn’t that progress hasn’t happened. It’s that the economics of modern AI are fundamentally different from hardware commoditization. Once you understand the actual constraints, the stability of pricing becomes logical.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-09 06:40:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Token Economics: Why the Cost of AI Isn&#39;t Going Down" href="https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Local AI vs Cloud AI: The Tradeoff Landscape in 2026
     </h2>
   </header>
@@ -328,46 +372,6 @@ The project broke React’s 10-year GitHub record in 60 days.
   </div>
   <footer class="entry-footer"><span title='2026-04-08 08:05:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to GitHub Is Now Officially Backing OpenClaw" href="https://jamesm.blog/ai/github-backing-openclaw/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Claude Code vs Cursor: A 6-Month Comparison
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>After six months of daily use, here is how the two heavyweights of AI-assisted coding compare: the terminal-native Claude Code and the IDE-integrated Cursor.</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-08 07:30:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Claude Code vs Cursor: A 6-Month Comparison" href="https://jamesm.blog/ai/claude-code-vs-cursor/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Imagine an artificial intelligence so profoundly capable, so far beyond anything we’ve seen, that its creators deem it too risky for public release. This isn’t a dystopian fantasy, but the real-world scenario presented by Anthropic’s Claude Mythos. When Anthropic first unveiled Mythos, the AI community was abuzz - not just with its mind-bending benchmarks, but with the immediate caveat: it would not be publicly available. This decision heralds a new era in AI, one where raw power intersects with paramount security concerns.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-08 06:12:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power" href="https://jamesm.blog/ai/claude-mythos-restricted/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Automation Paradox: Why More AI Makes Human Judgment More Valuable
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The automation paradox is quietly reshaping what we pay for.
-Every time AI gets better at a specific task - writing code, analyzing documents, generating designs - the monetary value of doing that task falls. Commodity work becomes commodified. And yet, the people who thrive are not those who do the task fastest; they’re the ones who decide whether it should be done at all.
-The Direction Problem In 1997, Deep Blue beat Kasparov at chess. The immediate prediction was obvious: computers will replace chess players.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-07 14:00:00 +0000 +0000'>April 7, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Automation Paradox: Why More AI Makes Human Judgment More Valuable" href="https://jamesm.blog/ai/automation-paradox/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

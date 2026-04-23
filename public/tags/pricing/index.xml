@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pricing on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/pricing/</link>
+    <description>Recent content in Pricing on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Apr 2026 08:45:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/pricing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is the $20 AI Subscription Era Over?</title>
+      <link>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</link>
+      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</guid>
+      <description>Every major AI provider is quietly repositioning the $20/month tier. Here&amp;#39;s what&amp;#39;s happening at Anthropic, OpenAI, Google, Microsoft, xAI, and what monthly prices are likely to look like by the end of 2026.</description>
+    </item>
+  </channel>
+</rss>

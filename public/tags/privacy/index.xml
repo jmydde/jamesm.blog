@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 06:11:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 08:30:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta Is Tracking Its Own Employees to Train AI Agents</title>
+      <link>https://jamesm.blog/ai/meta-employee-tracking/</link>
+      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/meta-employee-tracking/</guid>
+      <description>Meta&amp;#39;s Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out.</description>
+    </item>
     <item>
       <title>Local AI vs Cloud AI: The Tradeoff Landscape in 2026</title>
       <link>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</link>

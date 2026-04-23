@@ -11,20 +11,111 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 06:52:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 21:01:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai</title>
+      <title>Agent</title>
+      <link>https://jamesm.blog/tags/agent/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Thu, 23 Apr 2026 06:52:00 +0100</pubDate>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>https://jamesm.blog/tags/architecture/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://jamesm.blog/tags/data-engineering/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>https://jamesm.blog/tags/leadership/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Platform-Engineering</title>
+      <link>https://jamesm.blog/tags/platform-engineering/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/platform-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product-Management</title>
+      <link>https://jamesm.blog/tags/product-management/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/product-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Chatgpt</title>
       <link>https://jamesm.blog/tags/chatgpt/</link>
-      <pubDate>Thu, 23 Apr 2026 06:52:00 +0100</pubDate>
+      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://jamesm.blog/tags/claude/</link>
+      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pricing</title>
+      <link>https://jamesm.blog/tags/pricing/</link>
+      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/pricing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subscription</title>
+      <link>https://jamesm.blog/tags/subscription/</link>
+      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/subscription/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai-Agent</title>
+      <link>https://jamesm.blog/tags/ai-agent/</link>
+      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ai-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meta</title>
+      <link>https://jamesm.blog/tags/meta/</link>
+      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/meta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://jamesm.blog/tags/privacy/</link>
+      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surveillance</title>
+      <link>https://jamesm.blog/tags/surveillance/</link>
+      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/surveillance/</guid>
       <description></description>
     </item>
     <item>
@@ -77,7 +168,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music-Production</title>
+      <title>Music Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Wed, 22 Apr 2026 22:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>
@@ -112,13 +203,6 @@
       <description></description>
     </item>
     <item>
-      <title>Architecture</title>
-      <link>https://jamesm.blog/tags/architecture/</link>
-      <pubDate>Wed, 22 Apr 2026 21:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/architecture/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ci-Cd</title>
       <link>https://jamesm.blog/tags/ci-cd/</link>
       <pubDate>Wed, 22 Apr 2026 21:30:00 +0100</pubDate>
@@ -137,13 +221,6 @@
       <link>https://jamesm.blog/tags/kubernetes/</link>
       <pubDate>Wed, 22 Apr 2026 21:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Platform-Engineering</title>
-      <link>https://jamesm.blog/tags/platform-engineering/</link>
-      <pubDate>Wed, 22 Apr 2026 21:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/platform-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -182,7 +259,7 @@
       <description></description>
     </item>
     <item>
-      <title>Personal Development</title>
+      <title>Personal-Development</title>
       <link>https://jamesm.blog/tags/personal-development/</link>
       <pubDate>Wed, 22 Apr 2026 20:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/personal-development/</guid>
@@ -200,20 +277,6 @@
       <link>https://jamesm.blog/tags/wellness/</link>
       <pubDate>Wed, 22 Apr 2026 20:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/wellness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agent</title>
-      <link>https://jamesm.blog/tags/agent/</link>
-      <pubDate>Wed, 22 Apr 2026 19:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/agent/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://jamesm.blog/tags/claude/</link>
-      <pubDate>Wed, 22 Apr 2026 19:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -291,13 +354,6 @@
       <link>https://jamesm.blog/tags/data/</link>
       <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Engineering</title>
-      <link>https://jamesm.blog/tags/data-engineering/</link>
-      <pubDate>Wed, 22 Apr 2026 07:53:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -392,7 +448,7 @@
       <description></description>
     </item>
     <item>
-      <title>Cursor-Ai</title>
+      <title>Cursor Ai</title>
       <link>https://jamesm.blog/tags/cursor-ai/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor-ai/</guid>
@@ -427,7 +483,7 @@
       <description></description>
     </item>
     <item>
-      <title>AWS</title>
+      <title>Aws</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -679,13 +735,6 @@
       <description></description>
     </item>
     <item>
-      <title>Subscription</title>
-      <link>https://jamesm.blog/tags/subscription/</link>
-      <pubDate>Sun, 19 Apr 2026 07:12:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/subscription/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Comparison</title>
       <link>https://jamesm.blog/tags/comparison/</link>
       <pubDate>Sun, 19 Apr 2026 05:22:00 +0000</pubDate>
@@ -868,7 +917,7 @@
       <description></description>
     </item>
     <item>
-      <title>Software-Synth</title>
+      <title>Software Synth</title>
       <link>https://jamesm.blog/tags/software-synth/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/software-synth/</guid>
@@ -1194,13 +1243,6 @@
       <link>https://jamesm.blog/tags/cloud-ai/</link>
       <pubDate>Thu, 09 Apr 2026 06:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cloud-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>https://jamesm.blog/tags/privacy/</link>
-      <pubDate>Thu, 09 Apr 2026 06:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/privacy/</guid>
       <description></description>
     </item>
     <item>

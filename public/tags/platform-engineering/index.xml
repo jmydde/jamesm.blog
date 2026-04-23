@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 21:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 21:01:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/platform-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent-First Architecture: The Engineer as System Curator</title>
+      <link>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</guid>
+      <description>Some thoughts on where agent-first architecture might take us, and what engineering could look like if the job shifts from building systems line by line to curating, governing, and evolving fleets of agents.</description>
+    </item>
     <item>
       <title>Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopting It</title>
       <link>https://jamesm.blog/devops/platform-engineering-2026/</link>
