@@ -13,7 +13,7 @@ That approach breaks down quickly.
 In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
@@ -51,12 +51,6 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -98,8 +92,8 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
     <meta property="article:tag" content="Development">
     <meta property="article:tag" content="Developer-Tool">
     <meta property="article:tag" content="Llm">
-    <meta property="article:tag" content="Claude Code">
-    <meta property="article:tag" content="Cursor Ai">
+    <meta property="article:tag" content="Claude-Code">
+    <meta property="article:tag" content="Cursor-Ai">
       <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -167,17 +161,17 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
 </head>
 <body id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -193,7 +187,7 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
@@ -261,93 +255,97 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/ai/">Artificial Intelligence</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
     <h1 class="post-title entry-hint-parent">
       What Actually Belongs in My AI Dev Stack in 2026
     </h1>
     <div class="post-meta"><span title='2026-04-06 00:05:00 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#the-problem-with-the-one-tool-fantasy" aria-label="The Problem With the One-Tool Fantasy">The Problem With the One-Tool Fantasy</a></li>
-                <li>
-                    <a href="#what-the-stack-needs-to-cover" aria-label="What the Stack Needs to Cover">What the Stack Needs to Cover</a><ul>
-                        
-                <li>
-                    <a href="#1-specification-and-planning" aria-label="1. Specification and planning">1. Specification and planning</a></li>
-                <li>
-                    <a href="#2-fast-day-to-day-coding" aria-label="2. Fast day-to-day coding">2. Fast day-to-day coding</a></li>
-                <li>
-                    <a href="#3-deep-reasoning-for-non-trivial-tasks" aria-label="3. Deep reasoning for non-trivial tasks">3. Deep reasoning for non-trivial tasks</a></li>
-                <li>
-                    <a href="#4-review-and-second-opinions" aria-label="4. Review and second opinions">4. Review and second opinions</a></li>
-                <li>
-                    <a href="#5-research-and-reference-checking" aria-label="5. Research and reference checking">5. Research and reference checking</a></li>
-                <li>
-                    <a href="#6-documentation-and-capture" aria-label="6. Documentation and capture">6. Documentation and capture</a></li></ul>
-                </li>
-                <li>
-                    <a href="#what-actually-belongs-in-my-stack" aria-label="What Actually Belongs in My Stack">What Actually Belongs in My Stack</a><ul>
-                        
-                <li>
-                    <a href="#1-a-spec-layer" aria-label="1. A spec layer">1. A spec layer</a></li>
-                <li>
-                    <a href="#2-a-fast-ai-native-editor" aria-label="2. A fast AI-native editor">2. A fast AI-native editor</a></li>
-                <li>
-                    <a href="#3-a-terminal-agent-or-autonomous-assistant-for-heavy-lifting" aria-label="3. A terminal agent or autonomous assistant for heavy lifting">3. A terminal agent or autonomous assistant for heavy lifting</a></li>
-                <li>
-                    <a href="#4-a-cheap-or-local-model-tier" aria-label="4. A cheap or local model tier">4. A cheap or local model tier</a></li>
-                <li>
-                    <a href="#5-a-separate-review-model-or-review-pass" aria-label="5. A separate review model or review pass">5. A separate review model or review pass</a></li>
-                <li>
-                    <a href="#6-a-web-research-layer" aria-label="6. A web research layer">6. A web research layer</a></li>
-                <li>
-                    <a href="#7-a-capture-layer" aria-label="7. A capture layer">7. A capture layer</a></li></ul>
-                </li>
-                <li>
-                    <a href="#what-i-do-not-think-belongs-in-the-core-stack" aria-label="What I Do Not Think Belongs in the Core Stack">What I Do Not Think Belongs in the Core Stack</a><ul>
-                        
-                <li>
-                    <a href="#too-many-overlapping-subscriptions" aria-label="Too many overlapping subscriptions">Too many overlapping subscriptions</a></li>
-                <li>
-                    <a href="#blind-trust-in-one-frontier-model" aria-label="Blind trust in one frontier model">Blind trust in one frontier model</a></li>
-                <li>
-                    <a href="#fancy-orchestration-before-basic-workflow-discipline" aria-label="Fancy orchestration before basic workflow discipline">Fancy orchestration before basic workflow discipline</a></li>
-                <li>
-                    <a href="#treating-research-implementation-and-review-as-one-step" aria-label="Treating research, implementation, and review as one step">Treating research, implementation, and review as one step</a></li></ul>
-                </li>
-                <li>
-                    <a href="#the-workflow-i-actually-think-makes-sense" aria-label="The Workflow I Actually Think Makes Sense">The Workflow I Actually Think Makes Sense</a><ul>
-                        
-                <li>
-                    <a href="#1-define-the-task-properly" aria-label="1. Define the task properly">1. Define the task properly</a></li>
-                <li>
-                    <a href="#2-use-a-fast-editor-tool-for-exploration-and-initial-implementation" aria-label="2. Use a fast editor tool for exploration and initial implementation">2. Use a fast editor tool for exploration and initial implementation</a></li>
-                <li>
-                    <a href="#3-use-a-stronger-terminal-agent-or-autonomous-assistant-for-the-heavy-work" aria-label="3. Use a stronger terminal agent or autonomous assistant for the heavy work">3. Use a stronger terminal agent or autonomous assistant for the heavy work</a></li>
-                <li>
-                    <a href="#4-review-with-distance" aria-label="4. Review with distance">4. Review with distance</a></li>
-                <li>
-                    <a href="#5-verify-against-reality" aria-label="5. Verify against reality">5. Verify against reality</a></li>
-                <li>
-                    <a href="#6-capture-what-mattered" aria-label="6. Capture what mattered">6. Capture what mattered</a></li></ul>
-                </li>
-                <li>
-                    <a href="#my-current-take" aria-label="My Current Take">My Current Take</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
+    <div class="inner"><ul>
+            <li>
+                <a href="#the-problem-with-the-one-tool-fantasy" aria-label="The Problem With the One-Tool Fantasy">The Problem With the One-Tool Fantasy</a></li>
+            <li>
+                <a href="#what-the-stack-needs-to-cover" aria-label="What the Stack Needs to Cover">What the Stack Needs to Cover</a><ul>
+                    
+            <li>
+                <a href="#1-specification-and-planning" aria-label="1. Specification and planning">1. Specification and planning</a></li>
+            <li>
+                <a href="#2-fast-day-to-day-coding" aria-label="2. Fast day-to-day coding">2. Fast day-to-day coding</a></li>
+            <li>
+                <a href="#3-deep-reasoning-for-non-trivial-tasks" aria-label="3. Deep reasoning for non-trivial tasks">3. Deep reasoning for non-trivial tasks</a></li>
+            <li>
+                <a href="#4-review-and-second-opinions" aria-label="4. Review and second opinions">4. Review and second opinions</a></li>
+            <li>
+                <a href="#5-research-and-reference-checking" aria-label="5. Research and reference checking">5. Research and reference checking</a></li>
+            <li>
+                <a href="#6-documentation-and-capture" aria-label="6. Documentation and capture">6. Documentation and capture</a></li></ul>
+            </li>
+            <li>
+                <a href="#what-actually-belongs-in-my-stack" aria-label="What Actually Belongs in My Stack">What Actually Belongs in My Stack</a><ul>
+                    
+            <li>
+                <a href="#1-a-spec-layer" aria-label="1. A spec layer">1. A spec layer</a></li>
+            <li>
+                <a href="#2-a-fast-ai-native-editor" aria-label="2. A fast AI-native editor">2. A fast AI-native editor</a></li>
+            <li>
+                <a href="#3-a-terminal-agent-or-autonomous-assistant-for-heavy-lifting" aria-label="3. A terminal agent or autonomous assistant for heavy lifting">3. A terminal agent or autonomous assistant for heavy lifting</a></li>
+            <li>
+                <a href="#4-a-cheap-or-local-model-tier" aria-label="4. A cheap or local model tier">4. A cheap or local model tier</a></li>
+            <li>
+                <a href="#5-a-separate-review-model-or-review-pass" aria-label="5. A separate review model or review pass">5. A separate review model or review pass</a></li>
+            <li>
+                <a href="#6-a-web-research-layer" aria-label="6. A web research layer">6. A web research layer</a></li>
+            <li>
+                <a href="#7-a-capture-layer" aria-label="7. A capture layer">7. A capture layer</a></li></ul>
+            </li>
+            <li>
+                <a href="#what-i-do-not-think-belongs-in-the-core-stack" aria-label="What I Do Not Think Belongs in the Core Stack">What I Do Not Think Belongs in the Core Stack</a><ul>
+                    
+            <li>
+                <a href="#too-many-overlapping-subscriptions" aria-label="Too many overlapping subscriptions">Too many overlapping subscriptions</a></li>
+            <li>
+                <a href="#blind-trust-in-one-frontier-model" aria-label="Blind trust in one frontier model">Blind trust in one frontier model</a></li>
+            <li>
+                <a href="#fancy-orchestration-before-basic-workflow-discipline" aria-label="Fancy orchestration before basic workflow discipline">Fancy orchestration before basic workflow discipline</a></li>
+            <li>
+                <a href="#treating-research-implementation-and-review-as-one-step" aria-label="Treating research, implementation, and review as one step">Treating research, implementation, and review as one step</a></li></ul>
+            </li>
+            <li>
+                <a href="#the-workflow-i-actually-think-makes-sense" aria-label="The Workflow I Actually Think Makes Sense">The Workflow I Actually Think Makes Sense</a><ul>
+                    
+            <li>
+                <a href="#1-define-the-task-properly" aria-label="1. Define the task properly">1. Define the task properly</a></li>
+            <li>
+                <a href="#2-use-a-fast-editor-tool-for-exploration-and-initial-implementation" aria-label="2. Use a fast editor tool for exploration and initial implementation">2. Use a fast editor tool for exploration and initial implementation</a></li>
+            <li>
+                <a href="#3-use-a-stronger-terminal-agent-or-autonomous-assistant-for-the-heavy-work" aria-label="3. Use a stronger terminal agent or autonomous assistant for the heavy work">3. Use a stronger terminal agent or autonomous assistant for the heavy work</a></li>
+            <li>
+                <a href="#4-review-with-distance" aria-label="4. Review with distance">4. Review with distance</a></li>
+            <li>
+                <a href="#5-verify-against-reality" aria-label="5. Verify against reality">5. Verify against reality</a></li>
+            <li>
+                <a href="#6-capture-what-mattered" aria-label="6. Capture what mattered">6. Capture what mattered</a></li></ul>
+            </li>
+            <li>
+                <a href="#my-current-take" aria-label="My Current Take">My Current Take</a>
+            </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><p>There is a big difference between using AI for development and having an actual AI development stack.</p>
+  <div class="post-content md-content"><p>There is a big difference between using AI for development and having an actual AI development stack.</p>
 <p>Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.</p>
 <p>That approach breaks down quickly.</p>
 <p>In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.</p>
@@ -569,21 +567,19 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
       <li><a href="https://jamesm.blog/tags/development/">Development</a></li>
       <li><a href="https://jamesm.blog/tags/developer-tool/">Developer-Tool</a></li>
       <li><a href="https://jamesm.blog/tags/llm/">Llm</a></li>
-      <li><a href="https://jamesm.blog/tags/claude-code/">Claude Code</a></li>
-      <li><a href="https://jamesm.blog/tags/cursor-ai/">Cursor Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/claude-code/">Claude-Code</a></li>
+      <li><a href="https://jamesm.blog/tags/cursor-ai/">Cursor-Ai</a></li>
       <li><a href="https://jamesm.blog/tags/cline/">Cline</a></li>
-      <li><a href="https://jamesm.blog/tags/spec-kit/">Spec-Kit</a></li>
+      <li><a href="https://jamesm.blog/tags/spec-kit/">Spec Kit</a></li>
       <li><a href="https://jamesm.blog/tags/sdd/">Sdd</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/personal-development/rebuilding-life-with-small-systems/">
     <span class="title">« Prev</span>
-    <br>
     <span>Rebuilding Your Life With Small Systems</span>
   </a>
   <a class="next" href="https://jamesm.blog/space/nasa-artemis-ii/">
     <span class="title">Next »</span>
-    <br>
     <span>NASA Artemis II</span>
   </a>
 </nav>
@@ -669,9 +665,11 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -710,14 +708,13 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 

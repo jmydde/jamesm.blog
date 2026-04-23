@@ -10,7 +10,7 @@
 <meta name="description" content="If AI can pass the bar exam, the CPA exam, and every technical certification, what are we actually certifying? Expertise becomes something else entirely - and much harder to fake.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/ai/expertise-after-ai/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
@@ -48,12 +48,6 @@
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -157,17 +151,17 @@
 </head>
 <body id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -183,7 +177,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
@@ -251,7 +245,13 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/ai/">Artificial Intelligence</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
     <h1 class="post-title entry-hint-parent">
       What Does &#39;Expertise&#39; Mean When AI Can Pass Any Exam?
     </h1>
@@ -261,28 +261,26 @@
     <div class="post-meta"><span title='2026-04-06 09:00:00 +0000 +0000'>April 6, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#what-exams-were-actually-testing" aria-label="What Exams Were Actually Testing">What Exams Were Actually Testing</a></li>
-                <li>
-                    <a href="#the-real-expertise-problem" aria-label="The Real Expertise Problem">The Real Expertise Problem</a></li>
-                <li>
-                    <a href="#how-well-actually-test-expertise" aria-label="How We&rsquo;ll Actually Test Expertise">How We&rsquo;ll Actually Test Expertise</a></li>
-                <li>
-                    <a href="#the-uncomfortable-truth" aria-label="The Uncomfortable Truth">The Uncomfortable Truth</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
+    <div class="inner"><ul>
+            <li>
+                <a href="#what-exams-were-actually-testing" aria-label="What Exams Were Actually Testing">What Exams Were Actually Testing</a></li>
+            <li>
+                <a href="#the-real-expertise-problem" aria-label="The Real Expertise Problem">The Real Expertise Problem</a></li>
+            <li>
+                <a href="#how-well-actually-test-expertise" aria-label="How We&rsquo;ll Actually Test Expertise">How We&rsquo;ll Actually Test Expertise</a></li>
+            <li>
+                <a href="#the-uncomfortable-truth" aria-label="The Uncomfortable Truth">The Uncomfortable Truth</a>
+            </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><p>In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there&rsquo;s barely an exam left that AI can&rsquo;t pass, often on the first try.</p>
+  <div class="post-content md-content"><p>In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there&rsquo;s barely an exam left that AI can&rsquo;t pass, often on the first try.</p>
 <p>This has broken something we relied on without thinking too hard about it: the equivalence between &ldquo;passed the exam&rdquo; and &ldquo;has expertise.&rdquo;</p>
 <p>For a century, we used exams as a proxy for skill. You pass the bar, you&rsquo;re qualified to practice law. You pass medical licensing, you&rsquo;re qualified to practice medicine. You get a degree in computer science, you&rsquo;re qualified to be a programmer. The exam was the evidence that you had the knowledge and could apply it.</p>
 <p>But now we have machines that can pass every exam better than every human, and they have no expertise whatsoever.</p>
@@ -366,12 +364,10 @@
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/ai/architect-vs-builder/">
     <span class="title">« Prev</span>
-    <br>
     <span>The Architect vs The Builder: Redefining Engineering Roles in 2026</span>
   </a>
   <a class="next" href="https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/">
     <span class="title">Next »</span>
-    <br>
     <span>Modern Data Engineering on Databricks (2026 Guide)</span>
   </a>
 </nav>
@@ -457,9 +453,11 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -498,14 +496,13 @@
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 

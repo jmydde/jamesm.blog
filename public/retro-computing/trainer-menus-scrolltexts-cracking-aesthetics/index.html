@@ -10,7 +10,7 @@
 <meta name="description" content="How cracking groups transformed pirated games with menus, cheat systems, and animated scrolltext screens - creating a visual language that defined 1980s underground computing culture.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
@@ -48,12 +48,6 @@
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -158,17 +152,17 @@
 </head>
 <body id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -184,7 +178,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
@@ -252,7 +246,13 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/retro-computing/">Retro Computing</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/retro-computing/">Retro Computing</a></nav>
     <h1 class="post-title entry-hint-parent">
       Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene
     </h1>
@@ -262,55 +262,53 @@
     <div class="post-meta"><span title='2026-04-09 05:32:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#trainer-menus--scrolltexts-the-unique-aesthetics-of-the-cracking-scene" aria-label="Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene">Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene</a><ul>
-                        
-                <li>
-                    <a href="#what-was-a-trainer" aria-label="What Was a Trainer?">What Was a Trainer?</a></li>
-                <li>
-                    <a href="#the-aesthetic-problem" aria-label="The Aesthetic Problem">The Aesthetic Problem</a></li>
-                <li>
-                    <a href="#scrolltexts-the-signature-art-form" aria-label="Scrolltexts: The Signature Art Form">Scrolltexts: The Signature Art Form</a></li>
-                <li>
-                    <a href="#the-aesthetics-of-constraint" aria-label="The Aesthetics of Constraint">The Aesthetics of Constraint</a></li>
-                <li>
-                    <a href="#the-technical-craft" aria-label="The Technical Craft">The Technical Craft</a></li>
-                <li>
-                    <a href="#cracking-groups-as-organized-communities" aria-label="Cracking Groups as Organized Communities">Cracking Groups as Organized Communities</a></li>
-                <li>
-                    <a href="#the-visual-signature" aria-label="The Visual Signature">The Visual Signature</a></li>
-                <li>
-                    <a href="#copy-protection-trainers-and-the-ecosystem" aria-label="Copy Protection, Trainers, and the Ecosystem">Copy Protection, Trainers, and the Ecosystem</a></li>
-                <li>
-                    <a href="#the-scrolltext-as-meme" aria-label="The Scrolltext as Meme">The Scrolltext as Meme</a></li>
-                <li>
-                    <a href="#the-technical-showcase" aria-label="The Technical Showcase">The Technical Showcase</a></li>
-                <li>
-                    <a href="#the-influence-on-legitimate-software" aria-label="The Influence on Legitimate Software">The Influence on Legitimate Software</a></li>
-                <li>
-                    <a href="#the-decline-and-legacy" aria-label="The Decline and Legacy">The Decline and Legacy</a></li>
-                <li>
-                    <a href="#what-they-actually-meant" aria-label="What They Actually Meant">What They Actually Meant</a></li>
-                <li>
-                    <a href="#the-aesthetic-lesson" aria-label="The Aesthetic Lesson">The Aesthetic Lesson</a></li>
-                <li>
-                    <a href="#further-reading" aria-label="Further Reading">Further Reading</a>
-                </li>
-            </ul>
+    <div class="inner"><ul>
+            <li>
+                <a href="#trainer-menus--scrolltexts-the-unique-aesthetics-of-the-cracking-scene" aria-label="Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene">Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene</a><ul>
+                    
+            <li>
+                <a href="#what-was-a-trainer" aria-label="What Was a Trainer?">What Was a Trainer?</a></li>
+            <li>
+                <a href="#the-aesthetic-problem" aria-label="The Aesthetic Problem">The Aesthetic Problem</a></li>
+            <li>
+                <a href="#scrolltexts-the-signature-art-form" aria-label="Scrolltexts: The Signature Art Form">Scrolltexts: The Signature Art Form</a></li>
+            <li>
+                <a href="#the-aesthetics-of-constraint" aria-label="The Aesthetics of Constraint">The Aesthetics of Constraint</a></li>
+            <li>
+                <a href="#the-technical-craft" aria-label="The Technical Craft">The Technical Craft</a></li>
+            <li>
+                <a href="#cracking-groups-as-organized-communities" aria-label="Cracking Groups as Organized Communities">Cracking Groups as Organized Communities</a></li>
+            <li>
+                <a href="#the-visual-signature" aria-label="The Visual Signature">The Visual Signature</a></li>
+            <li>
+                <a href="#copy-protection-trainers-and-the-ecosystem" aria-label="Copy Protection, Trainers, and the Ecosystem">Copy Protection, Trainers, and the Ecosystem</a></li>
+            <li>
+                <a href="#the-scrolltext-as-meme" aria-label="The Scrolltext as Meme">The Scrolltext as Meme</a></li>
+            <li>
+                <a href="#the-technical-showcase" aria-label="The Technical Showcase">The Technical Showcase</a></li>
+            <li>
+                <a href="#the-influence-on-legitimate-software" aria-label="The Influence on Legitimate Software">The Influence on Legitimate Software</a></li>
+            <li>
+                <a href="#the-decline-and-legacy" aria-label="The Decline and Legacy">The Decline and Legacy</a></li>
+            <li>
+                <a href="#what-they-actually-meant" aria-label="What They Actually Meant">What They Actually Meant</a></li>
+            <li>
+                <a href="#the-aesthetic-lesson" aria-label="The Aesthetic Lesson">The Aesthetic Lesson</a></li>
+            <li>
+                <a href="#further-reading" aria-label="Further Reading">Further Reading</a>
             </li>
-            </ul>
-        </div>
-    </details>
-</div>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><h1 id="trainer-menus--scrolltexts-the-unique-aesthetics-of-the-cracking-scene">Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene<a hidden class="anchor" aria-hidden="true" href="#trainer-menus--scrolltexts-the-unique-aesthetics-of-the-cracking-scene">#</a></h1>
+  <div class="post-content md-content"><h1 id="trainer-menus--scrolltexts-the-unique-aesthetics-of-the-cracking-scene">Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene<a hidden class="anchor" aria-hidden="true" href="#trainer-menus--scrolltexts-the-unique-aesthetics-of-the-cracking-scene">#</a></h1>
 <p>If you loaded a pirated Commodore Amiga game in 1988, you wouldn&rsquo;t just get the game. You&rsquo;d get <em>an experience</em>. Before the title screen, before the game even loaded, you&rsquo;d see a custom introduction - a piece of underground art that served no commercial purpose and had to be coded in secret. This was the cracking scene&rsquo;s gift to itself.</p>
 <p>Trainer menus and scrolltexts were the visual signature of the piracy underground. They were utilitarian (providing cheats and game modifications) but executed as art. They became a language - a way for cracking groups to claim territory, demonstrate technical skill, and build reputation. Understanding them means understanding how the 1980s underground organized itself aesthetically.</p>
 <h2 id="what-was-a-trainer">What Was a Trainer?<a hidden class="anchor" aria-hidden="true" href="#what-was-a-trainer">#</a></h2>
@@ -510,12 +508,10 @@
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/retro-computing/the-postal-pirates/">
     <span class="title">« Prev</span>
-    <br>
     <span>The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground</span>
   </a>
   <a class="next" href="https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/">
     <span class="title">Next »</span>
-    <br>
     <span>Open WebUI: A Polished Interface for Local and Remote LLMs</span>
   </a>
 </nav>
@@ -601,9 +597,11 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -642,14 +640,13 @@
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 

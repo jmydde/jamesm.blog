@@ -10,7 +10,7 @@
 <meta name="description" content="The legal frameworks around AI are shifting fast. The EU AI Act is in force, copyright battles are mounting in US courts, and liability questions are landing on businesses whether they are ready or not.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/ai/ai-law-trends-2026/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
@@ -48,12 +48,6 @@
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -153,17 +147,17 @@
 </head>
 <body id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -179,7 +173,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
@@ -247,7 +241,13 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/ai/">Artificial Intelligence</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
     <h1 class="post-title entry-hint-parent">
       AI Law Is No Longer Theoretical: What&#39;s Here, What&#39;s Coming, and What It Means
     </h1>
@@ -261,32 +261,30 @@
 <figure class="entry-cover">
         <img loading="eager" src="https://jamesm.blog/assets/images/ai/ai-intelligence.jpg" alt="AI Law and Regulation">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#the-eu-ai-act-now-enforced-not-just-law" aria-label="The EU AI Act: Now Enforced, Not Just Law">The EU AI Act: Now Enforced, Not Just Law</a></li>
-                <li>
-                    <a href="#the-copyright-war-is-now-a-case-law-factory" aria-label="The Copyright War Is Now a Case Law Factory">The Copyright War Is Now a Case Law Factory</a></li>
-                <li>
-                    <a href="#who-is-responsible-when-ai-gets-it-wrong" aria-label="Who Is Responsible When AI Gets It Wrong">Who Is Responsible When AI Gets It Wrong</a></li>
-                <li>
-                    <a href="#the-us-federal-gap---and-how-states-are-filling-it" aria-label="The US Federal Gap - and How States Are Filling It">The US Federal Gap - and How States Are Filling It</a></li>
-                <li>
-                    <a href="#what-is-coming-in-the-next-few-years" aria-label="What Is Coming in the Next Few Years">What Is Coming in the Next Few Years</a></li>
-                <li>
-                    <a href="#the-uncomfortable-reality" aria-label="The Uncomfortable Reality">The Uncomfortable Reality</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
+    <div class="inner"><ul>
+            <li>
+                <a href="#the-eu-ai-act-now-enforced-not-just-law" aria-label="The EU AI Act: Now Enforced, Not Just Law">The EU AI Act: Now Enforced, Not Just Law</a></li>
+            <li>
+                <a href="#the-copyright-war-is-now-a-case-law-factory" aria-label="The Copyright War Is Now a Case Law Factory">The Copyright War Is Now a Case Law Factory</a></li>
+            <li>
+                <a href="#who-is-responsible-when-ai-gets-it-wrong" aria-label="Who Is Responsible When AI Gets It Wrong">Who Is Responsible When AI Gets It Wrong</a></li>
+            <li>
+                <a href="#the-us-federal-gap---and-how-states-are-filling-it" aria-label="The US Federal Gap - and How States Are Filling It">The US Federal Gap - and How States Are Filling It</a></li>
+            <li>
+                <a href="#what-is-coming-in-the-next-few-years" aria-label="What Is Coming in the Next Few Years">What Is Coming in the Next Few Years</a></li>
+            <li>
+                <a href="#the-uncomfortable-reality" aria-label="The Uncomfortable Reality">The Uncomfortable Reality</a>
+            </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><p>For the past few years, AI law has been one of those topics that felt perpetually five minutes away. Governments would announce frameworks. Committees would publish white papers. Experts would debate what the rules should eventually look like.</p>
+  <div class="post-content md-content"><p>For the past few years, AI law has been one of those topics that felt perpetually five minutes away. Governments would announce frameworks. Committees would publish white papers. Experts would debate what the rules should eventually look like.</p>
 <p>That phase is over.</p>
 <p>In 2026, the legal infrastructure around AI is arriving, piece by piece, and not always in a coherent sequence. The EU has its Act. The US has fifty state governments moving in slightly different directions while Washington stalls on federal legislation. Courts in multiple jurisdictions are working through copyright cases with implications that will reshape the entire industry. And businesses deploying AI tools are discovering, sometimes the hard way, that &ldquo;the AI did it&rdquo; is not a defence that holds up in court.</p>
 <p>This is where things actually stand - and where they are heading.</p>
@@ -343,12 +341,10 @@
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/music-production/best-music-production-software-2026/">
     <span class="title">« Prev</span>
-    <br>
     <span>The Best Music Production Software in 2026</span>
   </a>
   <a class="next" href="https://jamesm.blog/personal-development/math-academy-the-fastest-way-to-learn-maths/">
     <span class="title">Next »</span>
-    <br>
     <span>Math Academy: The Fastest Way to Actually Learn Maths</span>
   </a>
 </nav>
@@ -434,9 +430,11 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -475,14 +473,13 @@
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 

@@ -10,7 +10,7 @@
 <meta name="description" content="Collection of fascinating YouTube videos exploring extraordinarily large numbers, infinity, and mathematical concepts.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/general/huge-numbers/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
@@ -48,12 +48,6 @@
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -157,17 +151,17 @@
 </head>
 <body id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -183,7 +177,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
@@ -251,7 +245,13 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/general/">General</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/general/">General</a></nav>
     <h1 class="post-title entry-hint-parent">
       Very very large numbers
     </h1>
@@ -261,59 +261,57 @@
     <div class="post-meta"><span title='2024-04-21 22:07:01 +0100 BST'>April 21, 2024</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
-  </header> <div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#what-are-very-large-numbers" aria-label="What Are Very Large Numbers?">What Are Very Large Numbers?</a></li>
-                <li>
-                    <a href="#famous-named-numbers" aria-label="Famous Named Numbers">Famous Named Numbers</a><ul>
-                        
-                <li>
-                    <a href="#googol-and-googolplex" aria-label="Googol and Googolplex">Googol and Googolplex</a></li>
-                <li>
-                    <a href="#grahams-number" aria-label="Graham&rsquo;s Number">Graham&rsquo;s Number</a></li></ul>
-                </li>
-                <li>
-                    <a href="#the-hierarchy-of-infinity" aria-label="The Hierarchy of Infinity">The Hierarchy of Infinity</a><ul>
-                        
-                <li>
-                    <a href="#a-hierarchy-of-infinities" aria-label="A Hierarchy of Infinities">A Hierarchy of Infinities</a></li>
-                <li>
-                    <a href="#infinity-is-bigger-than-you-think" aria-label="Infinity Is Bigger Than You Think">Infinity Is Bigger Than You Think</a></li></ul>
-                </li>
-                <li>
-                    <a href="#recursive-giants-numbers-beyond-naming" aria-label="Recursive Giants: Numbers Beyond Naming">Recursive Giants: Numbers Beyond Naming</a><ul>
-                        
-                <li>
-                    <a href="#tree3" aria-label="TREE(3)">TREE(3)</a></li></ul>
-                </li>
-                <li>
-                    <a href="#the-infinite-hotel-paradox" aria-label="The Infinite Hotel Paradox">The Infinite Hotel Paradox</a><ul>
-                        
-                <li>
-                    <a href="#how-an-infinite-hotel-ran-out-of-room" aria-label="How An Infinite Hotel Ran Out Of Room">How An Infinite Hotel Ran Out Of Room</a></li></ul>
-                </li>
-                <li>
-                    <a href="#modern-surveys-and-comparisons" aria-label="Modern Surveys and Comparisons">Modern Surveys and Comparisons</a><ul>
-                        
-                <li>
-                    <a href="#ultimate-large-numbers-list-2024" aria-label="Ultimate Large Numbers List 2024">Ultimate Large Numbers List 2024</a></li>
-                <li>
-                    <a href="#neil-degrasse-tyson-explains-big-numbers" aria-label="Neil deGrasse Tyson Explains Big Numbers">Neil deGrasse Tyson Explains Big Numbers</a>
-                </li>
-            </ul>
+    <div class="inner"><ul>
+            <li>
+                <a href="#what-are-very-large-numbers" aria-label="What Are Very Large Numbers?">What Are Very Large Numbers?</a></li>
+            <li>
+                <a href="#famous-named-numbers" aria-label="Famous Named Numbers">Famous Named Numbers</a><ul>
+                    
+            <li>
+                <a href="#googol-and-googolplex" aria-label="Googol and Googolplex">Googol and Googolplex</a></li>
+            <li>
+                <a href="#grahams-number" aria-label="Graham&rsquo;s Number">Graham&rsquo;s Number</a></li></ul>
             </li>
-            </ul>
-        </div>
-    </details>
-</div>
+            <li>
+                <a href="#the-hierarchy-of-infinity" aria-label="The Hierarchy of Infinity">The Hierarchy of Infinity</a><ul>
+                    
+            <li>
+                <a href="#a-hierarchy-of-infinities" aria-label="A Hierarchy of Infinities">A Hierarchy of Infinities</a></li>
+            <li>
+                <a href="#infinity-is-bigger-than-you-think" aria-label="Infinity Is Bigger Than You Think">Infinity Is Bigger Than You Think</a></li></ul>
+            </li>
+            <li>
+                <a href="#recursive-giants-numbers-beyond-naming" aria-label="Recursive Giants: Numbers Beyond Naming">Recursive Giants: Numbers Beyond Naming</a><ul>
+                    
+            <li>
+                <a href="#tree3" aria-label="TREE(3)">TREE(3)</a></li></ul>
+            </li>
+            <li>
+                <a href="#the-infinite-hotel-paradox" aria-label="The Infinite Hotel Paradox">The Infinite Hotel Paradox</a><ul>
+                    
+            <li>
+                <a href="#how-an-infinite-hotel-ran-out-of-room" aria-label="How An Infinite Hotel Ran Out Of Room">How An Infinite Hotel Ran Out Of Room</a></li></ul>
+            </li>
+            <li>
+                <a href="#modern-surveys-and-comparisons" aria-label="Modern Surveys and Comparisons">Modern Surveys and Comparisons</a><ul>
+                    
+            <li>
+                <a href="#ultimate-large-numbers-list-2024" aria-label="Ultimate Large Numbers List 2024">Ultimate Large Numbers List 2024</a></li>
+            <li>
+                <a href="#neil-degrasse-tyson-explains-big-numbers" aria-label="Neil deGrasse Tyson Explains Big Numbers">Neil deGrasse Tyson Explains Big Numbers</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><h2 id="what-are-very-large-numbers">What Are Very Large Numbers?<a hidden class="anchor" aria-hidden="true" href="#what-are-very-large-numbers">#</a></h2>
+  <div class="post-content md-content"><h2 id="what-are-very-large-numbers">What Are Very Large Numbers?<a hidden class="anchor" aria-hidden="true" href="#what-are-very-large-numbers">#</a></h2>
 <p>Large numbers exist on a spectrum so extreme that human intuition breaks down. From the observable universe containing roughly 10^80 atoms, to numbers so impossibly vast that they dwarf the atoms themselves, these magnitudes challenge our ability to comprehend scale.</p>
 <p>But they&rsquo;re not just abstract curiosities. Large numbers appear in computer science (combinatorics, compression), physics (entropy, quantum possibilities), and mathematics (set theory, ordinal numbers). Understanding them requires leaving behind our everyday sense of &ldquo;big&rdquo; and embracing the mathematical structures that define these hierarchies.</p>
 <p>The fascinating part? Some numbers are so large that it&rsquo;s physically impossible to even write down their digits. Others exist only as mathematical concepts - yet mathematicians can still reason about their properties, compare them, and rank them in hierarchies of incomprehensible magnitude.</p>
@@ -392,12 +390,10 @@
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/ai/1x-eve/">
     <span class="title">« Prev</span>
-    <br>
     <span>1X - Eve</span>
   </a>
   <a class="next" href="https://jamesm.blog/ai/tesla-optimus-robot/">
     <span class="title">Next »</span>
-    <br>
     <span>Tesla Optimus Robot</span>
   </a>
 </nav>
@@ -483,9 +479,11 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -524,14 +522,13 @@
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 

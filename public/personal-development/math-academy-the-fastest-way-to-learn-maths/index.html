@@ -10,7 +10,7 @@
 <meta name="description" content="Math Academy claims to teach maths at four times the speed of a traditional class. After digging into how it actually works, I think that claim is believable - and the reason why is more interesting than the headline.">
 <meta name="author" content="James M">
 <link rel="canonical" href="https://jamesm.blog/personal-development/math-academy-the-fastest-way-to-learn-maths/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://jamesm.blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
@@ -48,12 +48,6 @@
 
             .toc {
                 background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
             }
         }
 
@@ -156,17 +150,17 @@
 </head>
 <body id="top">
     <header class="header">
-    <nav class="nav">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -182,7 +176,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
@@ -250,7 +244,13 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://jamesm.blog/">Home</a>&nbsp;»&nbsp;<a href="https://jamesm.blog/personal-development/">Personal Development</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/personal-development/">Personal Development</a></nav>
     <h1 class="post-title entry-hint-parent">
       Math Academy: The Fastest Way to Actually Learn Maths
     </h1>
@@ -264,38 +264,36 @@
 <figure class="entry-cover">
         <img loading="eager" src="https://jamesm.blog/assets/images/personal-development/math-academy-the-fastest-way-to-learn-maths.jpg" alt="Math Academy - The Fastest Way to Actually Learn Maths">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#the-gap-between-knowing-maths-and-being-good-at-it" aria-label="The Gap Between Knowing Maths and Being Good at It">The Gap Between Knowing Maths and Being Good at It</a></li>
-                <li>
-                    <a href="#why-most-maths-learning-fails" aria-label="Why Most Maths Learning Fails">Why Most Maths Learning Fails</a></li>
-                <li>
-                    <a href="#what-math-academy-actually-does-differently" aria-label="What Math Academy Actually Does Differently">What Math Academy Actually Does Differently</a></li>
-                <li>
-                    <a href="#the-curriculum" aria-label="The Curriculum">The Curriculum</a></li>
-                <li>
-                    <a href="#accreditation-and-independent-review" aria-label="Accreditation and Independent Review">Accreditation and Independent Review</a></li>
-                <li>
-                    <a href="#pricing" aria-label="Pricing">Pricing</a></li>
-                <li>
-                    <a href="#who-this-is-for" aria-label="Who This Is For">Who This Is For</a></li>
-                <li>
-                    <a href="#the-honest-caveat" aria-label="The Honest Caveat">The Honest Caveat</a></li>
-                <li>
-                    <a href="#a-good-time-to-fix-the-gap" aria-label="A Good Time to Fix the Gap">A Good Time to Fix the Gap</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
+    <div class="inner"><ul>
+            <li>
+                <a href="#the-gap-between-knowing-maths-and-being-good-at-it" aria-label="The Gap Between Knowing Maths and Being Good at It">The Gap Between Knowing Maths and Being Good at It</a></li>
+            <li>
+                <a href="#why-most-maths-learning-fails" aria-label="Why Most Maths Learning Fails">Why Most Maths Learning Fails</a></li>
+            <li>
+                <a href="#what-math-academy-actually-does-differently" aria-label="What Math Academy Actually Does Differently">What Math Academy Actually Does Differently</a></li>
+            <li>
+                <a href="#the-curriculum" aria-label="The Curriculum">The Curriculum</a></li>
+            <li>
+                <a href="#accreditation-and-independent-review" aria-label="Accreditation and Independent Review">Accreditation and Independent Review</a></li>
+            <li>
+                <a href="#pricing" aria-label="Pricing">Pricing</a></li>
+            <li>
+                <a href="#who-this-is-for" aria-label="Who This Is For">Who This Is For</a></li>
+            <li>
+                <a href="#the-honest-caveat" aria-label="The Honest Caveat">The Honest Caveat</a></li>
+            <li>
+                <a href="#a-good-time-to-fix-the-gap" aria-label="A Good Time to Fix the Gap">A Good Time to Fix the Gap</a>
+            </li>
+        </ul>
+    </div>
+</details>
 
-  <div class="post-content"><h2 id="the-gap-between-knowing-maths-and-being-good-at-it">The Gap Between Knowing Maths and Being Good at It<a hidden class="anchor" aria-hidden="true" href="#the-gap-between-knowing-maths-and-being-good-at-it">#</a></h2>
+  <div class="post-content md-content"><h2 id="the-gap-between-knowing-maths-and-being-good-at-it">The Gap Between Knowing Maths and Being Good at It<a hidden class="anchor" aria-hidden="true" href="#the-gap-between-knowing-maths-and-being-good-at-it">#</a></h2>
 <p>Most adults who went through mainstream education have a complicated relationship with maths. They were taught it, they passed it (or did not), and then they mostly stopped doing it. Somewhere between primary school and the end of formal education, the subject either clicked or it did not - and for a significant majority, it did not.</p>
 <p>The consequences of that tend to surface slowly. You take a data science course and realise you cannot follow the linear algebra. You try to understand how a model is actually working under the hood and the notation stops you cold. You sit in a finance meeting and the numbers float past you. You always meant to go back and fill the gaps. You never quite did.</p>
 <p><a href="https://www.mathacademy.com/">Math Academy</a> is built for exactly this problem. It is an AI-driven adaptive learning platform that covers mathematics from 4th grade arithmetic through to university-level multivariable calculus, linear algebra, and machine learning mathematics. Its headline claim is that it teaches at four times the speed of a traditional class - compressing what would normally take 180 classroom hours into 20 to 40 hours of focused practice.</p>
@@ -351,12 +349,10 @@
 <nav class="paginav">
   <a class="prev" href="https://jamesm.blog/ai/ai-law-trends-2026/">
     <span class="title">« Prev</span>
-    <br>
     <span>AI Law Is No Longer Theoretical: What&#39;s Here, What&#39;s Coming, and What It Means</span>
   </a>
   <a class="next" href="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/">
     <span class="title">Next »</span>
-    <br>
     <span>Giving Your Home AI Agent Memory That Lasts</span>
   </a>
 </nav>
@@ -442,9 +438,11 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
@@ -483,14 +481,13 @@
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
