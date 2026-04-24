@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 06:52:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 07:51:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?</title>
+      <link>https://jamesm.blog/ai/gpt-5-5-release/</link>
+      <pubDate>Fri, 24 Apr 2026 07:51:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/gpt-5-5-release/</guid>
+      <description>OpenAI shipped GPT-5.5 on April 23, 2026 - the first fully retrained base model since GPT-4.5. A look at the benchmarks, the new features, and whether this release actually matters.</description>
+    </item>
     <item>
       <title>ChatGPT Images 2.0: Why Everyone Is Impressed</title>
       <link>https://jamesm.blog/ai/chatgpt-images-2/</link>

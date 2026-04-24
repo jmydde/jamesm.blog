@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/benchmark/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/gpt/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/gpt-5-5-release/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/model-release/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/openai/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-24T07:51:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/agent/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-23T21:01:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/architecture/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2026-04-23T21:01:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/data-engineering/</loc>
-    <lastmod>2026-04-23T21:01:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/leadership/</loc>
@@ -30,9 +48,6 @@
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/product-management/</loc>
-    <lastmod>2026-04-23T21:01:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/chatgpt/</loc>
@@ -69,9 +84,6 @@
     <lastmod>2026-04-23T06:52:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/image-generation/</loc>
-    <lastmod>2026-04-23T06:52:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/openai/</loc>
     <lastmod>2026-04-23T06:52:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ableton/</loc>
@@ -512,9 +524,6 @@
     <loc>https://jamesm.blog/ai/claude-opus-4-7/</loc>
     <lastmod>2026-04-16T16:15:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/model-release/</loc>
-    <lastmod>2026-04-16T16:15:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/software-engineering/</loc>
     <lastmod>2026-04-16T16:15:00+00:00</lastmod>
   </url><url>
@@ -819,9 +828,6 @@
     <lastmod>2026-04-08T22:21:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ai-model/</loc>
-    <lastmod>2026-04-08T08:45:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/benchmark/</loc>
     <lastmod>2026-04-08T08:45:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/claude-mythos-benchmarks/</loc>
@@ -1845,9 +1851,6 @@
     <lastmod>2024-05-17T17:06:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/gemini/</loc>
-    <lastmod>2024-05-17T17:06:25+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/gpt/</loc>
     <lastmod>2024-05-17T17:06:25+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/adsr/</loc>
