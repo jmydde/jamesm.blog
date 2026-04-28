@@ -14,7 +14,7 @@
     <lastBuildDate>Tue, 28 Apr 2026 00:48:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
+      <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
       <pubDate>Tue, 28 Apr 2026 00:48:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
@@ -70,6 +70,13 @@
       <description></description>
     </item>
     <item>
+      <title>Growth</title>
+      <link>https://jamesm.blog/tags/growth/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/growth/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Leadership</title>
       <link>https://jamesm.blog/tags/leadership/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
@@ -81,6 +88,41 @@
       <link>https://jamesm.blog/tags/learning/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Development</title>
+      <link>https://jamesm.blog/tags/personal-development/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/personal-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflection</title>
+      <link>https://jamesm.blog/tags/reflection/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/reflection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Awareness</title>
+      <link>https://jamesm.blog/tags/self-awareness/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/self-awareness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Improvement</title>
+      <link>https://jamesm.blog/tags/self-improvement/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/self-improvement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wellness</title>
+      <link>https://jamesm.blog/tags/wellness/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/wellness/</guid>
       <description></description>
     </item>
     <item>
@@ -280,7 +322,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music Production</title>
+      <title>Music-Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Wed, 22 Apr 2026 22:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>
@@ -322,7 +364,7 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Wed, 22 Apr 2026 21:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -361,27 +403,6 @@
       <link>https://jamesm.blog/tags/maths/</link>
       <pubDate>Wed, 22 Apr 2026 20:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/maths/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal-Development</title>
-      <link>https://jamesm.blog/tags/personal-development/</link>
-      <pubDate>Wed, 22 Apr 2026 20:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/personal-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Self-Improvement</title>
-      <link>https://jamesm.blog/tags/self-improvement/</link>
-      <pubDate>Wed, 22 Apr 2026 20:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/self-improvement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wellness</title>
-      <link>https://jamesm.blog/tags/wellness/</link>
-      <pubDate>Wed, 22 Apr 2026 20:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/wellness/</guid>
       <description></description>
     </item>
     <item>
@@ -438,13 +459,6 @@
       <link>https://jamesm.blog/tags/xai/</link>
       <pubDate>Wed, 22 Apr 2026 19:16:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/xai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Growth</title>
-      <link>https://jamesm.blog/tags/growth/</link>
-      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/growth/</guid>
       <description></description>
     </item>
     <item>
@@ -539,7 +553,7 @@
       <description></description>
     </item>
     <item>
-      <title>Claude Code</title>
+      <title>Claude-Code</title>
       <link>https://jamesm.blog/tags/claude-code/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/claude-code/</guid>
@@ -903,7 +917,7 @@
       <description></description>
     </item>
     <item>
-      <title>Sound-Design</title>
+      <title>Sound Design</title>
       <link>https://jamesm.blog/tags/sound-design/</link>
       <pubDate>Sat, 18 Apr 2026 07:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sound-design/</guid>
@@ -987,7 +1001,7 @@
       <description></description>
     </item>
     <item>
-      <title>Software Synth</title>
+      <title>Software-Synth</title>
       <link>https://jamesm.blog/tags/software-synth/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/software-synth/</guid>
@@ -1743,7 +1757,7 @@
       <description></description>
     </item>
     <item>
-      <title>Spec-Kit</title>
+      <title>Spec Kit</title>
       <link>https://jamesm.blog/tags/spec-kit/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spec-kit/</guid>
