@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apprenticeship on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/apprenticeship/</link>
+    <description>Recent content in Apprenticeship on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Apr 2026 00:12:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/apprenticeship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?</title>
+      <link>https://jamesm.blog/ai/junior-developer-pipeline-problem/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/junior-developer-pipeline-problem/</guid>
+      <description>Most of the AI-and-developers conversation assumes a steady supply of senior engineers who can curate, review, and judge. But the work that used to produce those seniors is the work AI now does. Where does the next generation come from?</description>
+    </item>
+  </channel>
+</rss>
