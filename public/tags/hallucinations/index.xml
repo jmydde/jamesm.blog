@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hallucinations on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/hallucinations/</link>
+    <description>Recent content in Hallucinations on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Apr 2026 00:02:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/hallucinations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Hallucinations: Understanding and Mitigating False Outputs</title>
+      <link>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</guid>
+      <description>What hallucinations actually are, why the word is a slightly misleading import from psychiatry, why no model will ever stop producing them entirely, and the small set of techniques that genuinely move the dial on false outputs in production.</description>
+    </item>
+  </channel>
+</rss>

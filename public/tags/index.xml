@@ -14,7 +14,7 @@
     <lastBuildDate>Tue, 28 Apr 2026 00:12:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
+      <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
@@ -53,6 +53,41 @@
       <link>https://jamesm.blog/tags/learning/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agentic-Engineering</title>
+      <link>https://jamesm.blog/tags/agentic-engineering/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agentic-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hallucinations</title>
+      <link>https://jamesm.blog/tags/hallucinations/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/hallucinations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://jamesm.blog/tags/llm/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reliability</title>
+      <link>https://jamesm.blog/tags/reliability/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/reliability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Verification</title>
+      <link>https://jamesm.blog/tags/verification/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/verification/</guid>
       <description></description>
     </item>
     <item>
@@ -217,7 +252,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music-Production</title>
+      <title>Music Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Wed, 22 Apr 2026 22:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>
@@ -490,7 +525,7 @@
       <description></description>
     </item>
     <item>
-      <title>Cursor Ai</title>
+      <title>Cursor-Ai</title>
       <link>https://jamesm.blog/tags/cursor-ai/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor-ai/</guid>
@@ -501,13 +536,6 @@
       <link>https://jamesm.blog/tags/developer-tool/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/developer-tool/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>https://jamesm.blog/tags/llm/</link>
-      <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/llm/</guid>
       <description></description>
     </item>
     <item>
@@ -525,7 +553,7 @@
       <description></description>
     </item>
     <item>
-      <title>Aws</title>
+      <title>AWS</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -987,31 +1015,10 @@
       <description></description>
     </item>
     <item>
-      <title>Agentic-Engineering</title>
-      <link>https://jamesm.blog/tags/agentic-engineering/</link>
-      <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/agentic-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reliability</title>
-      <link>https://jamesm.blog/tags/reliability/</link>
-      <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/reliability/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Testing</title>
       <link>https://jamesm.blog/tags/testing/</link>
       <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/tags/testing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Verification</title>
-      <link>https://jamesm.blog/tags/verification/</link>
-      <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/verification/</guid>
       <description></description>
     </item>
     <item>
@@ -1036,7 +1043,7 @@
       <description></description>
     </item>
     <item>
-      <title>Life Purpose</title>
+      <title>Life-Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>

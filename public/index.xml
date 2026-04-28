@@ -21,6 +21,13 @@
       <description>Most of the AI-and-developers conversation assumes a steady supply of senior engineers who can curate, review, and judge. But the work that used to produce those seniors is the work AI now does. Where does the next generation come from?</description>
     </item>
     <item>
+      <title>AI Hallucinations: Understanding and Mitigating False Outputs</title>
+      <link>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</guid>
+      <description>What hallucinations actually are, why the word is a slightly misleading import from psychiatry, why no model will ever stop producing them entirely, and the small set of techniques that genuinely move the dial on false outputs in production.</description>
+    </item>
+    <item>
       <title>GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?</title>
       <link>https://jamesm.blog/ai/gpt-5-5-release/</link>
       <pubDate>Fri, 24 Apr 2026 07:51:00 +0100</pubDate>
