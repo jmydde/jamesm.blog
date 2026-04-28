@@ -10,6 +10,8 @@ cover:
   alt: Databricks vs Snowflake
 ---
 
+*The views in this post are my own personal reflections on the data industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.*
+
 The question "Databricks or Snowflake?" has dominated data engineering conversations for the past five years. In 2026, it's still the wrong question.
 
 But let me answer it anyway, because sometimes you have to pick one.

@@ -9,6 +9,8 @@ cover:
   alt: Following the Money in Data
 ---
 
+*The views in this post are my own personal reflections on the data industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.*
+
 In 2026, the technical gap between Databricks and Snowflake has narrowed to a sliver. Both offer world-class serverless compute, both support Iceberg/Delta as first-class citizens, and both have integrated AI agents that can write SQL better than your average intern. 
 
 If you want to understand which one is right for your organization, you stop looking at the feature list. You start **following the money**.

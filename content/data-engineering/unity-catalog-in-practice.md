@@ -10,9 +10,11 @@ cover:
   alt: Unity Catalog in Practice
 ---
 
+*The views in this post are my own personal reflections on industry patterns, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.*
+
 Unity Catalog sounds straightforward: "one governance layer for all your data and AI assets." In theory, it's elegant. In practice, you'll run into gotchas that docs don't prepare you for.
 
-This post is from the field - patterns that work, mistakes I've seen repeated, and how to actually build a sustainable governance layer in 2026.
+This post collects generic patterns that come up repeatedly in public talks, vendor docs, community write-ups, and open discussions of UC adoption in 2026.
 
 ## What Unity Catalog Is (And Isn't)
 
@@ -277,7 +279,7 @@ Assign a **data owner** (business stakeholder) and **data steward** (engineer) t
 ```
 title: Raw Events
 owner: Ali Chen (Product Analytics)
-steward: James Smith (Data Engineering)
+steward: Sam Patel (Data Engineering)
 sla: 4-hour freshness
 pii_classification: HIGH
 retention_period: 2 years
@@ -293,7 +295,7 @@ backup_location: s3://backup/events/
 - Communicates data quality issues
 - Owns SLA compliance
 
-**Steward (James):**
+**Steward (Sam):**
 - Implements the pipeline
 - Maintains the table
 - Monitors quality and freshness
@@ -317,7 +319,7 @@ Then build a data catalog/wiki on top:
 ```markdown
 # Events Table (main.silver.events)
 
-**Owner:** Ali Chen | **Steward:** James Smith
+**Owner:** Ali Chen | **Steward:** Sam Patel
 
 ## SLAs
 - **Freshness:** 2 hours max lag
@@ -491,7 +493,7 @@ This is what a mature UC implementation looks like in 2026:
 
 ## Lessons Learned
 
-After implementing UC in multiple organizations, here's what actually matters:
+Pulling together what the public record suggests actually matters:
 
 1. **Start simple.** Catalog structure first, granular permissions later.
 2. **Document everything.** Governance without docs is theater.

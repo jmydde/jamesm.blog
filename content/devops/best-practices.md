@@ -6,7 +6,9 @@ tags: ['devops', 'best-practice', 'microservice', 'system-design', 'architecture
 description: "Practical DevOps and system design best practices covering microservices architecture, CI/CD pipelines, observability, and scalable system design."
 ---
 
-"Best practice" is a phrase that should be treated with suspicion. What works for a fintech running 500 engineers rarely works for a five-person startup. The notes below are patterns I have seen hold up across multiple organisations - but always weighed against context, team size, and what the system is actually trying to do.
+*The views in this post are my own personal reflections on the industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.*
+
+"Best practice" is a phrase that should be treated with suspicion. What works for a fintech running 500 engineers rarely works for a five-person startup. The notes below are generic patterns drawn from public talks, books, and industry write-ups - always weighed against context, team size, and what the system is actually trying to do.
 
 ## Microservices
 
