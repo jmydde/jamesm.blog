@@ -10,7 +10,7 @@ For years, extracting structured data from LLMs meant post-processing their text
 
 Then came structured outputs - a way to constrain LLM responses to match a JSON schema before they're returned to you.
 
-Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent.
+Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent. They also pair naturally with [prompt caching](/ai/prompt-caching/) - the schema is part of the static prefix you want to cache - and with the verification disciplines I cover in ["AI agents that actually work"](/ai/ai-agents-that-actually-work/).
 
 ## What Structured Outputs Actually Do
 

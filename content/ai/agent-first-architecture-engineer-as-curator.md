@@ -17,7 +17,7 @@ Here is where my thinking currently lands.
 
 ## The Idea: Agent-First Architecture
 
-Most systems today have AI features bolted on. A chat box here, a copilot there, a model called from a handler. That feels like an intermediate step to me, not an end state.
+Most systems today have AI features bolted on. A chat box here, a copilot there, a model called from a handler. That feels like an intermediate step to me, not an end state. The patterns that separate agents that actually survive contact with production from the ones that don't are something I have written about more concretely in ["AI agents that actually work"](/ai/ai-agents-that-actually-work/).
 
 The thing I find myself imagining is something different. A system where the primary unit of work is an agent with intent, tools, memory, and a feedback loop, and where the human's role is to define, constrain, observe, and evolve it. I have started calling this agent-first architecture in my head, though I am sure smarter people have better names for it.
 

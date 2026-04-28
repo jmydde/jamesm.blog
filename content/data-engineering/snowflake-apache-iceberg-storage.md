@@ -11,7 +11,7 @@ cover:
 
 ## A New Era for Open Data Formats
 
-Snowflake has announced the general availability of Snowflake Storage for Apache Iceberg on both AWS and Azure, marking a significant shift in how enterprises can build open, interoperable data lakehouses. This development combines Snowflake's enterprise reliability and governance capabilities with the flexibility and openness of Apache Iceberg, one of the most promising open table formats in the data ecosystem.
+Snowflake has announced the general availability of Snowflake Storage for Apache Iceberg on both AWS and Azure, marking a significant shift in how enterprises can build open, interoperable data lakehouses. This development combines Snowflake's enterprise reliability and governance capabilities with the flexibility and openness of Apache Iceberg, one of the most promising open table formats in the data ecosystem. For a deeper look at Iceberg itself, see [Apache Iceberg in 2026](/data-engineering/apache-iceberg-2026/), and for where this sits in the broader platform picture see [The modern lakehouse stack](/data-engineering/modern-lakehouse-stack/).
 
 ## What is Snowflake Storage for Apache Iceberg?
 

@@ -211,7 +211,7 @@
     <p>The word “hallucination” is one of the most successful pieces of accidental marketing in our industry. It is a soft, almost endearing way to describe an LLM stating with full confidence that a function exists when it does not, that a court case was decided when it was not, that a paper was written by an author who has never published in that field. It makes the failure sound like a quirk rather than the central reliability problem of the entire technology.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-28 00:02:00 +0100 BST'>April 28, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-28 00:02:00 +0100 BST'>April 28, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to AI Hallucinations: Understanding and Mitigating False Outputs" href="https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/"></a>
 </article>
 
@@ -272,9 +272,8 @@ Most people start in the wrong place. They install a terminal agent before they 
     </h2>
   </header>
   <div class="entry-content">
-    <p>We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent.
+    <p>We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in “AI agents that actually work”, and the wider safety framing sits in “AI safety from first principles”.
 But this shift introduces a profound, often uncomfortable, question: How do we know it actually works?
-In a world where AI is writing the code, generating the data, and even orchestrating deployments, traditional notions of testing and reliability are breaking down. AI reliability is weird, and it demands a complete re-evaluation of our verification strategies.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 22:00:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -289,7 +288,7 @@ In a world where AI is writing the code, generating the data, and even orchestra
   <div class="entry-content">
     <p>For years, extracting structured data from LLMs meant post-processing their text output: parse JSON, handle edge cases where the model forgot to close a bracket, write validation code to check if the output matched your schema, implement fallback logic when parsing failed.
 Then came structured outputs - a way to constrain LLM responses to match a JSON schema before they’re returned to you.
-Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent.
+Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent. They also pair naturally with prompt caching - the schema is part of the static prefix you want to cache - and with the verification disciplines I cover in “AI agents that actually work”.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 06:17:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>

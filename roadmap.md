@@ -1,221 +1,59 @@
-# jamesm.blog Content Roadmap
+# Blog Post Roadmap
 
-## Editorial Model
+A structured roadmap of upcoming blog posts, organized by category and priority.
 
-- Primary pillars: `AI systems in practice`, `Music technology with first-hand perspective`, `Modern data engineering`
-- Secondary lanes: `software engineering`, `personal development`, `history & culture`, `physics`, `general`, `space`, `blockchain`
-- Content formats:
-  - `explainer`
-  - `comparison`
-  - `field-note`
-  - `resource-hub`
-- Roadmap rule: every new idea must fit exactly one pillar and one format or it stays in the parking lot.
-- Publishing cadence: 6-week cycles with one dominant theme per cycle.
-- Content ratio target: `60%` pillar content, `25%` supporting comparisons/reviews, `15%` exploratory backlog topics.
+## In Progress (Drafts)
 
-## Active Quarter
+These posts are currently being written:
 
-### Focus
+### AI & LLMs
+- [ ] **ai-agents-that-actually-work.md** - Practical guide to building reliable AI agents
+- [ ] **ai-safety-first-principles.md** - Safety considerations in agent design
+- [ ] **fine-tune-vs-rag.md** - Comparison of fine-tuning vs retrieval approaches
+- [ ] **multimodal-ai-2026.md** - The state of multimodal AI in 2026
+- [ ] **prompt-caching.md** - Optimizing costs and latency with prompt caching
 
-- Theme 1: `Reliable AI Systems`
-- Theme 2: `Instruments, Workflow, and AI`
-- Theme 3: `Production Data Platforms in 2026`
+### Data Engineering
+- [ ] **modern-lakehouse-stack.md** - Building modern lakehouse architectures
+- [ ] **stream-vs-batch-processing.md** - When to choose streaming vs batch
 
-### Active Goals
+### Music Production
+- [ ] **hybrid-systems-montage-mc-707.md** - Integrating Montage with MC-707
+- [ ] **mpe-deep-dive.md** - MPE (MIDI Polyphonic Expression) in depth
+- [ ] **yamaha-montage-m-six-months.md** - Six months with the Montage M
 
-- Finish one strong AI series around reliability, hallucinations, verification, and architecture choices.
-- Publish two music workflow posts grounded in direct usage and hardware integration.
-- Keep data engineering timely and practical with platform, governance, and architecture coverage.
-- Publish one bridge post per month linking two proven strengths:
-  - `AI + music`
-  - `AI + software engineering`
-  - `data engineering + AI systems`
+---
 
-### Top Priority Recommendations (Based on Existing Content)
+## Upcoming Posts (Suggested)
 
-Recent coverage shows: strong AI (Claude models, reliability articles), solid music (modular synthesis, synths), good data eng (Databricks, ETL tools). Recommended next posts for maximum impact:
+### AI & LLMs
+- [ ] **From Embeddings to Retrieval: Building Better RAG** - Deep dive into embedding models, similarity search, and RAG optimization
+- [ ] **Agentic Workflows: When to Loop vs When to Orchestrate** - Architecture patterns for multi-step agent systems
+- [ ] **The Cost of Context: Understanding Token Arithmetic** - Practical guide to optimizing token usage and cost-per-query
+- [ ] **Latency Matters: Response Time Impact on UX** - Real-world performance analysis of AI API latency in production systems
+- [ ] **Constitutional AI in Practice** - Building safe, aligned agent behaviors beyond prompt injection prevention
 
-1. **⭕ AI Hallucinations: Understanding and Mitigating False Outputs** — Completes the reliability series, highest ROI given recent Claude/safety focus
-2. **⏳ MPE Deep Dive: Why Expressive MIDI Changes Everything** — Bridges synthesizer knowledge gap, differentiates from generic music content
-3. **⏳ The Modern Lakehouse Stack: What Actually Belongs in Production** — Foundational for data platform content, pairs well with existing Databricks coverage
-4. **⏳ AI Agents That Actually Work: Patterns From Real Projects** — Bridge post with strong potential, builds on existing AI reliability work
-5. **⏳ Hybrid Systems: Montage + MC-707 Architecture** — Grounded field-note, leverages direct hardware experience
+### Data Engineering
+- [ ] **Building a Data Contract Layer** - Schema evolution, versioning, and governance for modern pipelines
+- [ ] **Real-Time vs Eventual Consistency: The Trade-off Matrix** - When to pick each pattern with concrete examples
+- [ ] **Debugging Data Lineage in Your Lakehouse** - Practical tools for tracing data quality issues end-to-end
+- [ ] **Time Series at Scale: Metrics Database Design** - ClickHouse, VictoriaMetrics, or Timescale patterns
 
-## Next 6 Committed Posts
+### Music Production
+- [ ] **Programming Drums on the MC-707: Workflow Patterns** - Step-by-step beats with workflow optimization
+- [ ] **MPE Workflow Comparison: Expressive vs Traditional MIDI** - Tangible use cases for expressive controllers
+- [ ] **Integrating Montage with Your Gear: Real Setup Scenarios** - Practical routing and sequencing
 
-1. ⭕ `AI` `explainer` **AI Hallucinations: Understanding and Mitigating False Outputs**
-2. ✍️ `AI` `comparison` **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
-3. ⏳ `AI + Software Engineering` `field-note` **AI Agents That Actually Work: Patterns From Real Projects**
-4. ⏳ `Music` `explainer` **MPE Deep Dive: Why Expressive MIDI Changes Everything**
-5. ⏳ `Music` `field-note` **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
-6. ⏳ `Data` `explainer` **The Modern Lakehouse Stack: What Actually Belongs in Production**
+### Personal Development
+- [ ] **Engineering Your Sleep: Data-Driven Recovery** - Biohacking approach to sleep quality
+- [ ] **Decision-Making Under Uncertainty: A Framework** - Practical mental models for big decisions
 
-## Pillar Backlogs
+---
 
-### AI Systems in Practice
+## Notes
 
-**Flagship series:** `Reliable AI Systems`
-
-#### Evergreen Explainers
-
-- ⭕ `explainer` **AI Hallucinations: Understanding and Mitigating False Outputs**
-- ✍️ `explainer` **AI Safety From First Principles: What Actually Matters vs What's Hype**
-- ⏳ `explainer` **Prompt Caching: The Quiet Performance Win for LLM Applications**
-- ⏳ `explainer` **Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful**
-- ⏳ `explainer` **The GPU Lottery: Why You Can't Just 'Scale Up' AI Anymore**
-- ⏳ `explainer` **Cost Optimization for LLM Applications: Token Budgets That Actually Work**
-- ⏳ `explainer` **Common LLM Failure Modes Beyond Hallucinations**
-- ⏳ `explainer` **Evaluating AI Systems in Production: Metrics That Matter**
-- ✅ `explainer` **Structured Outputs: When Your AI Needs to Follow a Schema**
-
-#### Opinionated Comparisons
-
-- ✍️ `comparison` **When to Fine-Tune vs When to RAG: Choosing Your AI Architecture**
-- ⏳ `comparison` **AI Coding Assistants: Context Window vs Model Capability vs Integration**
-- ⏳ `comparison` **Model Context Protocol in Practice: Where MCP Is Useful and Where It Adds Noise**
-- ⏳ `comparison` **Designing an AI Dev Stack That Fails Gracefully**
-- ⏳ `comparison` **Why AI Assistants Struggle to Follow Instructions (And How to Fix It)**
-
-#### Field Notes / 2026 Updates
-
-- ⏳ `field-note` **AI Agents That Actually Work: Patterns From Real Projects**
-- ⏳ `field-note` **Stop Debugging AI Code: How to Actually Verify Generated Output**
-- ⏳ `field-note` **The AI Code Review Trap: Why Fast Feedback Still Misses the Real Bugs**
-- ⏳ `field-note` **Building Debugging Skills Alongside AI Assistants**
-- ✅ `field-note` **AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know**
-
-#### Resource Hubs
-
-- ⏳ `resource-hub` **AI Build Stack: Tools, Frameworks, and Interfaces That Still Matter**
-
-### Music Technology With First-Hand Perspective
-
-**Flagship series:** `Instruments, Workflow, and AI`
-
-#### Evergreen Explainers
-
-- ⏳ `explainer` **MPE Deep Dive: Why Expressive MIDI Changes Everything**
-- ⏳ `explainer` **The Psychology of Mixing: How Our Brains Perceive Sound**
-- ⏳ `explainer` **Why Every Producer Should Learn At Least One Proper Instrument**
-- ⏳ `explainer` **Arrangement Is 90% Of The Track: The Most Underrated Skill**
-- ✅ `explainer` **Introduction to Modular Synthesis: The Building Blocks**
-- ⏳ `explainer` **Eurorack Fundamentals: Format, Power, and Signal Flow**
-- ⏳ `explainer` **Synthesis vs Sampling: Choosing Your Primary Creative Tool**
-
-#### Opinionated Comparisons
-
-- ⏳ `comparison` **Workstation vs Groovebox vs Controller: Choosing the Right Creative Centerpiece**
-- ⏳ `comparison` **AI Mastering and Mixing: When to Trust the Algorithm vs Your Ears**
-- ⏳ `comparison` **Real-Time AI Effects: Processing with Models vs Traditional DSP**
-- ⏳ `comparison` **DIY vs Commercial: When to Build vs Buy**
-- ⏳ `comparison` **Modular vs Fixed Architecture: When Limited Is More Creative**
-- ⏳ `comparison` **When to Skip AI Generation in Music Production**
-
-#### Field Notes / 2026 Updates
-
-- ⏳ `field-note` **Hybrid Systems: Montage + MC-707 Architecture and Workflow**
-- ⏳ `field-note` **The Yamaha Montage M: 6 Months In Real World Usage**
-- ⏳ `field-note` **Ableton + Max for Live in 2026: What's Actually New**
-- ⏳ `field-note` **Mobile Music Production: Current Controller + iPad Combinations**
-- ⏳ `field-note` **Why Some Instruments Make You Finish Tracks and Others Just Make You Browse Presets**
-- ⏳ `field-note` **Building a Sustainable Sample Library: Organization, Sourcing, and Legal**
-- ⏳ `field-note` **Hardware Reliability for Live Performance: What Actually Fails on Tour**
-- ✅ `field-note` **u-he Zebra 3: The Modular Beast Unleashed**
-
-#### Resource Hubs
-
-- ⏳ `resource-hub` **Music Production Learning Stack: Best Blogs, Courses, Channels, and Sites**
-
-#### AI Music in Practice Cluster
-
-- ⏳ `comparison` **When AI Makes Music: Suno vs Udio vs Human Creativity**
-- ⏳ `field-note` **Workflow: Using AI to Speed Up Demos Without Losing Authenticity**
-- ⏳ `comparison` **Why Generative Music Still Feels Soulless (And How That's Changing)**
-- ⏳ `explainer` **Prompt Engineering for Music: How to Get the Output You Actually Want**
-- ⏳ `comparison` **Ethical AI in Creative Fields: Ownership, Attribution, and Deepfakes**
-
-### Modern Data Engineering
-
-**Flagship series:** `Production Data Platforms in 2026`
-
-#### Evergreen Explainers
-
-- ⏳ `explainer` **The Modern Lakehouse Stack: What Actually Belongs in Production**
-- ⏳ `explainer` **Open Table Formats Explained: Delta Lake vs Iceberg vs Hudi**
-- ⏳ `explainer` **Real-Time Data Processing: Stream Processing vs Batch Processing**
-- ⏳ `explainer` **Data Governance in the Age of AI: Ensuring Data Quality and Compliance**
-- ⏳ `explainer` **The Role of Data Engineering in Machine Learning Pipelines**
-- ⏳ `explainer` **Data Platform Cost Optimization: Where the Money Actually Goes**
-- ⏳ `explainer` **Data Observability in 2026: Beyond Monitoring Into Understanding**
-
-#### Opinionated Comparisons
-
-- ⏳ `comparison` **Data Platform Migrations: Why the Org Problem Is Bigger Than the Tech**
-- ⏳ `comparison` **Databricks vs Snowflake vs Open Source: What the Economics Change**
-
-#### Field Notes / 2026 Updates
-
-- ⏳ `field-note` **Unity Catalog in Practice: Lessons From the Field**
-- ⏳ `field-note` **Lakeflow Declarative Pipelines: From DLT to Production**
-- ⏳ `field-note` **Modern Data Engineering on Databricks (2026 Guide)**
-- ⏳ `field-note` **Databricks Training and Certification: What's Actually Worth It**
-- ⏳ `field-note` **From Warehouse to Lakehouse: Migration Patterns That Reduce Risk**
-
-#### Resource Hubs
-
-- ⏳ `resource-hub` **Data Engineering Learning Stack: Best Blogs, Courses, and Cheat Sheets**
-
-## Bridge Post Track
-
-- ⏳ `AI + Music` `comparison` **The Synthesizer as a Model for Thinking About AI**
-- ⏳ `AI + Software Engineering` `field-note` **Good Judgment Cannot Be Automated**
-- ⏳ `Data + AI` `explainer` **Why AI Systems Need Data Governance Before Better Models**
-- ⏳ `AI + Retro/Creative Tech` `explainer` **Constraint Is a Feature**
-- ⏳ `AI + Music + Retro` `field-note` **Tools Change, Taste Doesn't**
-- ⏳ `Data + AI` `field-note` **dbt + AI: Keeping Data Pipelines Intelligent and Observable**
-- ⏳ `Data + Music` `explainer` **Using Music Composition Principles to Structure Data Pipelines**
-- ⏳ `AI + Music + Software Engineering` `field-note` **Why Great Artists and Great Engineers Think the Same Way**
-
-## Secondary Backlog
-
-### Supporting Professional Topics
-
-- ⏳ `Software Engineering` `explainer` **Code Review That Actually Improves Code (Not Just Slows It Down)**
-- ⏳ `Software Engineering` `explainer` **Testing Strategies: Unit Tests, Integration Tests, and When to Abandon Perfectionism**
-- ⏳ `Software Engineering` `field-note` **When AI Agents Meet CI/CD: New Failure Modes in the Delivery Pipeline**
-- ⏳ `Personal Development` `field-note` **Momentum Before Motivation: Why Tiny Wins Matter More Than Big Plans**
-- ⏳ `Personal Development` `field-note` **How to Rebuild Trust in Yourself After a Bad Season**
-- ⏳ `Personal Development` `field-note` **Energy Management for Creative and Technical Work**
-
-### History, Culture, and Big-Idea Writing
-
-- ⏳ `History & Culture` `explainer` **The BBC Micro: Britain's Most Important Computer**
-- ⏳ `History & Culture` `explainer` **Paula, Agnus, and Denise: The Trinity That Made the Amiga Magic**
-- ⏳ `History & Culture` `field-note` **How Computer Magazines Taught a Generation to Type In Code**
-- ⏳ `Music History` `explainer` **How the Roland TB-303 Accidentally Invented Acid House**
-- ⏳ `Music History` `explainer` **The Yamaha DX7: The Most Influential Synthesizer Ever Made**
-- ⏳ `History & Culture` `explainer` **Algorithmic Creativity: Demoscene Then, Generative Art Now**
-
-### Physics and Systems Thinking
-
-- ⏳ `Physics` `explainer` **Why Is There Something Rather Than Nothing? Physics, Philosophy, and the Limits of Explanation**
-- ⏳ `Physics` `explainer` **Quantum Mechanics for Sceptics: What the Weirdness Actually Means**
-- ⏳ `Physics` `explainer` **Information Is Physical: Why Computation Always Has a Real-World Cost**
-- ⏳ `Physics` `explainer` **The Thermodynamics of Computing: Why Intelligence Isn't Free**
-- ⏳ `Physics + Music` `explainer` **Resonance, Harmonics, and Why Synths Sound the Way They Do**
-
-## Parking Lot
-
-### Hold Until a Stronger Editorial Reason Appears
-
-- ⏳ `resource-hub` Broad list posts that duplicate existing resource pages without a stronger point of view.
-- ⏳ `comparison` Trend-driven crypto or emerging-tech topics without a clear first-hand angle.
-- ⏳ `explainer` New topic branches that do not reinforce `AI`, `Music`, or `Data`.
-- ⏳ `field-note` General-interest essays that belong on the site only if they directly support the core voice.
-
-## Validation Checklist
-
-- Every roadmap item belongs to one pillar or one secondary lane and one format.
-- The committed queue keeps the center of gravity on `AI`, `Music`, and `Data`.
-- Resource-hub ideas replace scattered lists of blogs, websites, courses, and tools.
-- Bridge posts connect strong existing lanes instead of opening new unrelated ones.
+- Posts follow the metadata requirements in [README.md](README.md)
+- All posts require cover images and proper YAML frontmatter
+- Links must be verified before publication
+- Tags should use singular form (e.g., `ai` not `ai-tools`)
+- Dates use ISO 8601 format with timezone (e.g., 2026-04-28T14:30:00+01:00)

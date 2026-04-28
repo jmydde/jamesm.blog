@@ -27,7 +27,7 @@ Despite the massive growth in Small Language Models (SLMs), there is still a cle
 - **Local (Edge Models):** Models in the 7B to 32B range (like [Qwen 2.5 Coder](https://qwenlm.github.io/) or [DeepSeek V3](https://github.com/deepseek-ai)) are now "perfect" for 90% of coding tasks. They handle function implementation, unit tests, and refactoring with ease.
 - **Mid-tier (SLMs):** [Phi-4](https://huggingface.co/microsoft) and [Gemma 3](https://ai.google.dev/gemma) sit at the sweet spot for instruction-following on modest hardware - capable enough for summarisation and search augmentation without needing a workstation GPU.
 
-**The 2026 Rule:** Use the Cloud for *planning* and Local for *execution*.
+**The 2026 Rule:** Use the Cloud for *planning* and Local for *execution*. The architectural question of *what knowledge belongs in the weights vs in the prompt* is closely related, and I cover it in [When to fine-tune vs when to RAG](/ai/fine-tune-vs-rag/).
 
 ## 2. Privacy and the "Sensitive Data" Moat
 

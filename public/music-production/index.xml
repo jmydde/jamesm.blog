@@ -116,7 +116,7 @@
       <pubDate>Thu, 08 Jan 2026 19:35:21 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/using-mc-707-as-midi-brain-for-modx-m/</guid>
       <description>&lt;p&gt;The Yamaha MODX M and Roland MC-707 make a surprisingly elegant pair when you stop thinking of them as separate instruments and start treating the MC-707 as a &lt;strong&gt;MIDI recorder and playback brain&lt;/strong&gt; for the MODX.&lt;/p&gt;
-&lt;p&gt;In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow.&lt;/p&gt;</description>
+&lt;p&gt;In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow. I use a closely related architecture with a Montage M instead of a MODX, which I cover in &lt;a href=&#34;https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/&#34;&gt;Hybrid systems: Montage + MC-707&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Music: My Favourite Artists, Bands, DJs, Composers, Concerts &amp; Theatre</title>
@@ -157,7 +157,7 @@
       <pubDate>Fri, 02 Jan 2026 06:35:21 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/roland-tr-8s-vs-mc-707/</guid>
       <description>&lt;p&gt;Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices - the &lt;strong&gt;TR-8S Rhythm Performer&lt;/strong&gt; and the &lt;strong&gt;MC-707 Groovebox&lt;/strong&gt; - often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.&lt;/p&gt;
-&lt;p&gt;This post brings together everything you need to know to decide &lt;strong&gt;TR-8S vs MC-707&lt;/strong&gt;, including workflow, genres, live use, and how they can even work together.&lt;/p&gt;</description>
+&lt;p&gt;This post brings together everything you need to know to decide &lt;strong&gt;TR-8S vs MC-707&lt;/strong&gt;, including workflow, genres, live use, and how they can even work together. If you are interested in pairing the MC-707 with a flagship synth as the master of a hybrid rig, I cover that approach in &lt;a href=&#34;https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/&#34;&gt;Hybrid systems: Montage + MC-707&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Best Software Synths of 2025</title>
@@ -1139,7 +1139,7 @@
 &lt;li&gt;&lt;strong&gt;VCM Rotary Speaker Effect&lt;/strong&gt; - This new effect accurately emulates the classic sound of a Leslie speaker cabinet, adding warmth and movement to organ and electric piano sounds.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Powerful USB Audio Interface&lt;/strong&gt; - The Montage M functions as a 6-in/32-out USB audio interface, allowing you to record audio directly to your DAW (Digital Audio Workstation) for seamless integration into your studio workflow.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities.&lt;/p&gt;</description>
+&lt;p&gt;Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities. For my long-form impressions after living with the M8X, see &lt;a href=&#34;https://jamesm.blog/music-production/yamaha-montage-m-six-months/&#34;&gt;The Yamaha Montage M: 6 months in real-world usage&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Music Production YouTube Channels</title>
@@ -1321,7 +1321,7 @@
       <pubDate>Sat, 03 Feb 2024 11:24:00 +0000</pubDate>
       <guid>https://jamesm.blog/music-production/mpe-midi-controllers/</guid>
       <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;MIDI Polyphonic Expression (MPE) is a method of using MIDI that enables pitch bend, and other dimensions of expressive control, to be adjusted continuously for individual notes.&lt;/p&gt;
+&lt;p&gt;MIDI Polyphonic Expression (MPE) is a method of using MIDI that enables pitch bend, and other dimensions of expressive control, to be adjusted continuously for individual notes. For a longer-form take on why MPE matters and how the four families of controller actually feel under the fingers, see &lt;a href=&#34;https://jamesm.blog/music-production/mpe-deep-dive/&#34;&gt;MPE deep dive: why expressive MIDI changes everything&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;mpe-controllers&#34;&gt;MPE Controllers&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.embodme.com/&#34;&gt;embodme&lt;/a&gt;

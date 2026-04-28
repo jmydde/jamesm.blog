@@ -14,7 +14,7 @@ cover:
 
 Unity Catalog sounds straightforward: "one governance layer for all your data and AI assets." In theory, it's elegant. In practice, you'll run into gotchas that docs don't prepare you for.
 
-This post collects generic patterns that come up repeatedly in public talks, vendor docs, community write-ups, and open discussions of UC adoption in 2026.
+This post collects generic patterns that come up repeatedly in public talks, vendor docs, community write-ups, and open discussions of UC adoption in 2026. For where Unity sits in the broader picture of catalogs, table formats, and engines, see [The modern lakehouse stack](/data-engineering/modern-lakehouse-stack/).
 
 ## What Unity Catalog Is (And Isn't)
 

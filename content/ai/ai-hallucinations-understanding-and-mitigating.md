@@ -47,7 +47,7 @@ There is a long list of folk remedies for hallucination. "Tell the model not to 
 
 ### Grounding through retrieval
 
-The single most effective technique is to stop asking the model to recall facts and start asking it to read them. Retrieval-augmented generation, in its various forms, replaces "what do you know about X" with "here is a passage about X, answer the question using this passage". The model's job collapses from open-ended recall to constrained reading comprehension, which it is much better at.
+The single most effective technique is to stop asking the model to recall facts and start asking it to read them. Retrieval-augmented generation, in its various forms, replaces "what do you know about X" with "here is a passage about X, answer the question using this passage". The model's job collapses from open-ended recall to constrained reading comprehension, which it is much better at. I lay out the architectural choice between retrieval and weight-baked knowledge in [When to fine-tune vs when to RAG](/ai/fine-tune-vs-rag/).
 
 This is not a magic switch. The retrieval has to actually find the right passage, the chunking has to preserve meaning, and the prompt has to instruct the model to stick to the source. Anthropic's work on [contextual retrieval](https://www.anthropic.com/news/contextual-retrieval) is a good example of how much engineering sits behind getting this right at scale. But when you compare a grounded answer to an ungrounded one on the same factual question, the difference in reliability is not subtle.
 
@@ -55,7 +55,7 @@ This is not a magic switch. The retrieval has to actually find the right passage
 
 A close cousin. If the question has a deterministic answer that some tool can produce, give the model the tool rather than asking it to remember. Calculators for arithmetic. SQL for tabular questions. A code interpreter for anything numerical. A documentation search for API questions. The model becomes the orchestrator rather than the oracle, and the answer comes from a thing that does not hallucinate.
 
-The interesting failure mode here is that the model sometimes pretends to have called the tool when it did not. This is an instruction hallucination, and it is why tool calls have to be observed by the system, not just narrated by the model.
+The interesting failure mode here is that the model sometimes pretends to have called the tool when it did not. This is an instruction hallucination, and it is why tool calls have to be observed by the system, not just narrated by the model. I unpack the verification patterns that catch this in [AI agents that actually work](/ai/ai-agents-that-actually-work/).
 
 ### Constrained outputs
 

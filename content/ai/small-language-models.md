@@ -28,7 +28,7 @@ The practical reality became undeniable: for most real-world applications, you d
 
 **Privacy**  -  Your data stays on your hardware or your infrastructure. No prompts sent to Anthropic, OpenAI, or Google. Increasingly important for enterprises handling sensitive data.
 
-**Control**  -  You own the model. No API deprecations. No sudden price increases. No feature removals. You can fine-tune it, quantize it, or adapt it to your specific domain without asking permission.
+**Control**  -  You own the model. No API deprecations. No sudden price increases. No feature removals. You can fine-tune it, quantize it, or adapt it to your specific domain without asking permission. The architectural question of when fine-tuning is the right choice (versus pulling context in at runtime) is one I cover in [When to fine-tune vs when to RAG](/ai/fine-tune-vs-rag/).
 
 **Offline capability**  -  Download once, run anywhere. Great for edge devices, unreliable networks, or air-gapped environments.
 

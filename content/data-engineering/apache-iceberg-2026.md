@@ -14,7 +14,7 @@ In 2023, the question was "which open table format will survive - Iceberg, Delta
 
 It won because it is the only format that **both Snowflake and Databricks now treat as a first-class citizen**, because the vendors picked sides on catalogs rather than table formats, and because enterprise buyers decided that multi-engine portability was worth more than a small performance edge.
 
-If your existing understanding of Iceberg stops at "it's like Parquet but better," this post is the technical grounding you need.
+If your existing understanding of Iceberg stops at "it's like Parquet but better," this post is the technical grounding you need. For where it sits in the wider 2026 platform picture, see [The modern lakehouse stack](/data-engineering/modern-lakehouse-stack/).
 
 ## What Apache Iceberg Actually Is
 

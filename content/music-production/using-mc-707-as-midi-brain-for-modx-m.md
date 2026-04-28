@@ -7,7 +7,7 @@ tags: ['workflows', 'midi', 'music production', 'sequencing', 'synth', 'synthesi
 
 The Yamaha MODX M and Roland MC-707 make a surprisingly elegant pair when you stop thinking of them as separate instruments and start treating the MC-707 as a **MIDI recorder and playback brain** for the MODX.
 
-In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow.
+In this setup, the MODX becomes your hands and sound engine, while the MC-707 becomes the place where performances are captured, edited, looped, and arranged. It’s a simple idea, but it unlocks a very fluid, performance-first workflow. I use a closely related architecture with a Montage M instead of a MODX, which I cover in [Hybrid systems: Montage + MC-707](/music-production/hybrid-systems-montage-mc-707/).
 
 ## The Core Concept
 

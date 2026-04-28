@@ -7,7 +7,7 @@ tags: ['roland', 'groovebox', 'drum machines']
 
 Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices - the **TR-8S Rhythm Performer** and the **MC-707 Groovebox** - often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.
 
-This post brings together everything you need to know to decide **TR-8S vs MC-707**, including workflow, genres, live use, and how they can even work together.
+This post brings together everything you need to know to decide **TR-8S vs MC-707**, including workflow, genres, live use, and how they can even work together. If you are interested in pairing the MC-707 with a flagship synth as the master of a hybrid rig, I cover that approach in [Hybrid systems: Montage + MC-707](/music-production/hybrid-systems-montage-mc-707/).
 
 ---
 

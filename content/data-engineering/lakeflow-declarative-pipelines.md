@@ -12,7 +12,7 @@ cover:
 
 If you've been writing Delta Live Tables (DLT) pipelines, you've been building with Lakeflow without knowing the new name. In 2026, the rebranding matters because it signals how Databricks now wants you to think about declarative pipeline design.
 
-This isn't just a rename. The mental model has shifted from "tables and dependencies" to "data flows and transformations." Let me show you what changed and why it matters.
+This isn't just a rename. The mental model has shifted from "tables and dependencies" to "data flows and transformations." Let me show you what changed and why it matters. For where Lakeflow fits relative to other orchestration choices and the broader paradigm question, see [The modern lakehouse stack](/data-engineering/modern-lakehouse-stack/) and [Stream vs batch processing](/data-engineering/stream-vs-batch-processing/).
 
 ## What Lakeflow Actually Is
 

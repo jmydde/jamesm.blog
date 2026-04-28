@@ -14,7 +14,7 @@ cover:
 
 The question "Databricks or Snowflake?" has dominated data engineering conversations for the past five years. In 2026, it's still the wrong question.
 
-But let me answer it anyway, because sometimes you have to pick one.
+But let me answer it anyway, because sometimes you have to pick one. For the wider stack this choice sits inside, see [The modern lakehouse stack](/data-engineering/modern-lakehouse-stack/).
 
 ## The Honest Framing
 

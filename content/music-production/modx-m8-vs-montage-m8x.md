@@ -8,7 +8,7 @@ description: "Detailed comparison between Yamaha MODX M8 and Montage M8X synthes
 
 Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code  -  three powerful sound engines  -  but they live in different worlds when it comes to feel, performance depth, and long-term ambition.
 
-If you’re torn between them, this breakdown should make your choice a whole lot easier.
+If you’re torn between them, this breakdown should make your choice a whole lot easier. For day-to-day impressions of the Montage M8X after six months of real-world use, see [The Yamaha Montage M: 6 months in real-world usage](/music-production/yamaha-montage-m-six-months/).
 
 ---
 

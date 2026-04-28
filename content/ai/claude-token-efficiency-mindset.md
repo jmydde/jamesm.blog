@@ -17,7 +17,7 @@ The difference isn't randomness. It's a mental model problem.
 
 Most people treat Claude like a search engine with a long context window. You dump information, ask a question, wait for an answer. If you don't like it, you ask again. Iterate until satisfied.
 
-This approach mirrors how many people use general search engines - but Claude's cost structure is fundamentally different from free search. Understanding how tokens are priced changes the mental model entirely.
+This approach mirrors how many people use general search engines - but Claude's cost structure is fundamentally different from free search. Understanding how tokens are priced changes the mental model entirely. The single biggest lever most teams are leaving on the table is [prompt caching](/ai/prompt-caching/), which can cut input token costs by eighty to ninety percent on workloads with stable prefixes.
 
 This works. It's just expensive in ways that aren't obvious until you run the numbers.
 

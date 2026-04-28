@@ -250,9 +250,8 @@ The headline feature is deceptively simple - images up to 2,576 pixels. That’s
     </h2>
   </header>
   <div class="entry-content">
-    <p>We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent.
+    <p>We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in “AI agents that actually work”, and the wider safety framing sits in “AI safety from first principles”.
 But this shift introduces a profound, often uncomfortable, question: How do we know it actually works?
-In a world where AI is writing the code, generating the data, and even orchestrating deployments, traditional notions of testing and reliability are breaking down. AI reliability is weird, and it demands a complete re-evaluation of our verification strategies.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 22:00:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -308,7 +307,7 @@ Kanban board (Linear, GitHub Projects, Jira, Trello): “Build the user authenti
   <div class="entry-content">
     <p>For years, extracting structured data from LLMs meant post-processing their text output: parse JSON, handle edge cases where the model forgot to close a bracket, write validation code to check if the output matched your schema, implement fallback logic when parsing failed.
 Then came structured outputs - a way to constrain LLM responses to match a JSON schema before they’re returned to you.
-Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent.
+Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent. They also pair naturally with prompt caching - the schema is part of the static prefix you want to cache - and with the verification disciplines I cover in “AI agents that actually work”.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 06:17:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -337,7 +336,7 @@ The context window arms race reveals a gap between what engineers think matters 
   </header>
   <div class="entry-content">
     <p>There’s a persistent myth in tech: AI will get cheaper. The argument is straightforward - Moore’s Law, scale effects, competition, and raw compute efficiency improvements mean costs should plummet. Yet in April 2026, Claude costs roughly what it did in 2024. GPT-4 Turbo pricing hasn’t moved in eighteen months. Gemini’s cost structure remains sticky. Why?
-The answer isn’t that progress hasn’t happened. It’s that the economics of modern AI are fundamentally different from hardware commoditization. Once you understand the actual constraints, the stability of pricing becomes logical.
+The answer isn’t that progress hasn’t happened. It’s that the economics of modern AI are fundamentally different from hardware commoditization. Once you understand the actual constraints, the stability of pricing becomes logical. The biggest lever individual teams have to push back on this is prompt caching, which is the rare optimisation that genuinely changes the per-request cost shape.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 06:40:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -354,7 +353,7 @@ The answer isn’t that progress hasn’t happened. It’s that the economics of
 The landscape has shifted because the hardware caught up to the software. With the prevalence of unified memory on Apple Silicon and the accessibility of 24GB&#43; VRAM cards like the RTX 50-series, the “local” ceiling has been smashed.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:11:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 06:11:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Local AI vs Cloud AI: The Tradeoff Landscape in 2026" href="https://jamesm.blog/ai/local-vs-cloud-ai-2026/"></a>
 </article>
 

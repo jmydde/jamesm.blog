@@ -21,7 +21,7 @@ Here is a summary of the key aspects of the Yamaha Montage M
 - **VCM Rotary Speaker Effect** - This new effect accurately emulates the classic sound of a Leslie speaker cabinet, adding warmth and movement to organ and electric piano sounds.
 - **Powerful USB Audio Interface** - The Montage M functions as a 6-in/32-out USB audio interface, allowing you to record audio directly to your DAW (Digital Audio Workstation) for seamless integration into your studio workflow.
 
-Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities.
+Overall, the Yamaha Montage M is a premium synthesizer workstation offering a powerful combination of sound quality, versatile sound engines, improved control options, and seamless studio integration. It caters to professional keyboardists who demand the best in performance and production capabilities. For my long-form impressions after living with the M8X, see [The Yamaha Montage M: 6 months in real-world usage](/music-production/yamaha-montage-m-six-months/).
 
 ## Models
 The Montage M comes in three versions, each with a different keyboard action

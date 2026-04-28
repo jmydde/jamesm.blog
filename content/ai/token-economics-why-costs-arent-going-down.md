@@ -8,7 +8,7 @@ description: "Despite massive scale and competition, LLM pricing hasn't meaningf
 
 There's a persistent myth in tech: AI will get cheaper. The argument is straightforward - Moore's Law, scale effects, competition, and raw compute efficiency improvements mean costs should plummet. Yet in April 2026, [Claude](https://claude.ai/) costs roughly what it did in 2024. [GPT-4 Turbo](https://openai.com/research/gpt-4) pricing hasn't moved in eighteen months. [Gemini](https://gemini.google.com/)'s cost structure remains sticky. Why?
 
-The answer isn't that progress hasn't happened. It's that the economics of modern AI are fundamentally different from hardware commoditization. Once you understand the actual constraints, the stability of pricing becomes logical.
+The answer isn't that progress hasn't happened. It's that the economics of modern AI are fundamentally different from hardware commoditization. Once you understand the actual constraints, the stability of pricing becomes logical. The biggest lever individual teams have to push back on this is [prompt caching](/ai/prompt-caching/), which is the rare optimisation that genuinely changes the per-request cost shape.
 
 ---
 
