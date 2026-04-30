@@ -8,48 +8,15 @@ description: "A collection of electronic and ambient music tracks, including ori
 
 A selection of my music production work spanning various genres and styles. These tracks explore themes of ambient soundscapes, electronic textures, and atmospheric production.
 
-{{< soundcloud "https://soundcloud.com/jamesm/falling-into-light" >}}
+## Browse by Month
 
-{{< soundcloud "https://soundcloud.com/jamesm/falling-into-light-remix" >}}
+- [April 2026](/music-production/my-tracks-2026-04/) - 21 tracks
+- [March 2026](/music-production/my-tracks-2026-03/) - 15 tracks
+- [January 2026](/music-production/my-tracks-2026-01/) - 5 tracks
+- [December 2025](/music-production/my-tracks-2025-12/) - 72 tracks
+- [November 2025](/music-production/my-tracks-2025-11/) - 17 tracks
+- [October 2025](/music-production/my-tracks-2025-10/) - 13 tracks
+- [August 2025](/music-production/my-tracks-2025-08/) - 10 tracks
+- [June 2025](/music-production/my-tracks-2025-06/) - 9 tracks
 
-{{< soundcloud "https://soundcloud.com/jamesm/hikari-no-tombo" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/whispers-beneath-the-sunrise" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/higher-than-forever-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/higher-than-forever" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/wings-of-the-skyline-garage" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/sora-ni-tokeru" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/i-want-you" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/back-to-the-floor-shadowdance" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/wings-of-the-skyline-1" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/wings-of-the-skyline" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/gate-of-the-aurora" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/breath-of-the-open-sky" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/winds-of-the-quiet-sky" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/beyond-the-sky-reimagined" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/lift-me-higher" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/shine-it-up" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/where-youre-at-afterglow-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/where-youre-at-neon-shift" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/the-truth-of-love-reborn" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/the-truth-of-love" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/the-truth-of-love-remix" >}}
+**Total: 162 tracks**
