@@ -11,20 +11,83 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 06:32:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 08:06:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agent</title>
       <link>https://jamesm.blog/tags/agent/</link>
-      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/agent/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI</title>
+      <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://jamesm.blog/tags/future/</link>
+      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/future/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://jamesm.blog/tags/productivity/</link>
+      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tooling</title>
+      <link>https://jamesm.blog/tags/tooling/</link>
+      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/tooling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workflow</title>
+      <link>https://jamesm.blog/tags/workflow/</link>
+      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/workflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agentic-Engineering</title>
+      <link>https://jamesm.blog/tags/agentic-engineering/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agentic-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://jamesm.blog/tags/alignment/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/alignment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Policy</title>
+      <link>https://jamesm.blog/tags/policy/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/policy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reliability</title>
+      <link>https://jamesm.blog/tags/reliability/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/reliability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Safety</title>
+      <link>https://jamesm.blog/tags/safety/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/safety/</guid>
       <description></description>
     </item>
     <item>
@@ -46,13 +109,6 @@
       <link>https://jamesm.blog/tags/skill/</link>
       <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/skill/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tooling</title>
-      <link>https://jamesm.blog/tags/tooling/</link>
-      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/tooling/</guid>
       <description></description>
     </item>
     <item>
@@ -98,20 +154,6 @@
       <description></description>
     </item>
     <item>
-      <title>Workflow</title>
-      <link>https://jamesm.blog/tags/workflow/</link>
-      <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/workflow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agentic-Engineering</title>
-      <link>https://jamesm.blog/tags/agentic-engineering/</link>
-      <pubDate>Wed, 29 Apr 2026 08:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/agentic-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Architecture</title>
       <link>https://jamesm.blog/tags/architecture/</link>
       <pubDate>Wed, 29 Apr 2026 08:00:00 +0100</pubDate>
@@ -144,13 +186,6 @@
       <link>https://jamesm.blog/tags/economy/</link>
       <pubDate>Tue, 28 Apr 2026 00:48:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/economy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Future</title>
-      <link>https://jamesm.blog/tags/future/</link>
-      <pubDate>Tue, 28 Apr 2026 00:48:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/future/</guid>
       <description></description>
     </item>
     <item>
@@ -210,7 +245,7 @@
       <description></description>
     </item>
     <item>
-      <title>Personal-Development</title>
+      <title>Personal Development</title>
       <link>https://jamesm.blog/tags/personal-development/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/personal-development/</guid>
@@ -249,13 +284,6 @@
       <link>https://jamesm.blog/tags/hallucinations/</link>
       <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/hallucinations/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reliability</title>
-      <link>https://jamesm.blog/tags/reliability/</link>
-      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/reliability/</guid>
       <description></description>
     </item>
     <item>
@@ -711,13 +739,6 @@
       <link>https://jamesm.blog/tags/mac/</link>
       <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/mac/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>https://jamesm.blog/tags/productivity/</link>
-      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
@@ -1806,7 +1827,7 @@
       <description></description>
     </item>
     <item>
-      <title>Spec-Kit</title>
+      <title>Spec Kit</title>
       <link>https://jamesm.blog/tags/spec-kit/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spec-kit/</guid>

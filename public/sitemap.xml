@@ -2,34 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/ai/year-of-agents-and-whats-next/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/agent/</loc>
-    <lastmod>2026-04-30T06:32:00+01:00</lastmod>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-30T06:32:00+01:00</lastmod>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/future/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/productivity/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/tooling/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/workflow/</loc>
+    <lastmod>2026-04-30T08:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/agentic-engineering/</loc>
+    <lastmod>2026-04-30T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/ai-safety-first-principles/</loc>
+    <lastmod>2026-04-30T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/alignment/</loc>
+    <lastmod>2026-04-30T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/policy/</loc>
+    <lastmod>2026-04-30T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/reliability/</loc>
+    <lastmod>2026-04-30T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/safety/</loc>
+    <lastmod>2026-04-30T08:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</loc>
     <lastmod>2026-04-30T06:32:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2026-04-30T06:32:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/claude/</loc>
-    <lastmod>2026-04-30T06:32:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/</loc>
     <lastmod>2026-04-30T06:32:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/prompt/</loc>
     <lastmod>2026-04-30T06:32:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/skill/</loc>
-    <lastmod>2026-04-30T06:32:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
-    <lastmod>2026-04-30T06:32:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/tooling/</loc>
     <lastmod>2026-04-30T06:32:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/claude-code/</loc>
@@ -53,12 +83,6 @@
     <loc>https://jamesm.blog/tags/spec-driven/</loc>
     <lastmod>2026-04-29T08:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/workflow/</loc>
-    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/agentic-engineering/</loc>
-    <lastmod>2026-04-29T08:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/architecture/</loc>
     <lastmod>2026-04-29T08:00:00+01:00</lastmod>
   </url><url>
@@ -75,9 +99,6 @@
     <lastmod>2026-04-29T08:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/economy/</loc>
-    <lastmod>2026-04-28T00:48:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/future/</loc>
     <lastmod>2026-04-28T00:48:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/labour/</loc>
@@ -135,9 +156,6 @@
     <lastmod>2026-04-28T00:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/hallucinations/</loc>
-    <lastmod>2026-04-28T00:02:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/reliability/</loc>
     <lastmod>2026-04-28T00:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/verification/</loc>
@@ -414,9 +432,6 @@
     <lastmod>2026-04-20T19:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/mac-dictation-tools-comparison/</loc>
-    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/productivity/</loc>
     <lastmod>2026-04-20T19:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/tool/</loc>

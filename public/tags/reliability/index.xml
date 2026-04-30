@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 00:02:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/reliability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Safety From First Principles: What Actually Matters vs What&#39;s Hype</title>
+      <link>https://jamesm.blog/ai/ai-safety-first-principles/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-safety-first-principles/</guid>
+      <description>Stripping the AI safety conversation down to its load-bearing parts, separating the engineering problems that matter today from the speculative scenarios that absorb most of the attention.</description>
+    </item>
     <item>
       <title>AI Hallucinations: Understanding and Mitigating False Outputs</title>
       <link>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</link>

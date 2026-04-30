@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>AI | jamesm.blog</title>
+<title>Ai | jamesm.blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="James M">
@@ -76,14 +76,14 @@
 </script>
 <meta property="og:url" content="https://jamesm.blog/tags/ai/">
   <meta property="og:site_name" content="jamesm.blog">
-  <meta property="og:title" content="AI">
+  <meta property="og:title" content="Ai">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
-  <meta name="twitter:title" content="AI">
+  <meta name="twitter:title" content="Ai">
 
 </head>
 <body class="list" id="top">
@@ -187,7 +187,7 @@
             </svg>
             <a href="https://jamesm.blog/tags/">Tags</a></nav>
   <h1>
-    AI
+    Ai
     <a href="/tags/ai/index.xml" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" height="23">
@@ -198,6 +198,39 @@
     </a>
   </h1>
 </header>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/agent-first-architecture.jpg" alt="Agent-First Architecture Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Agent-First Architecture: The Engineer as System Curator
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is a “thinking out loud” post, not a report from the front lines. I have no evidence any of this is happening at scale, and it is not how my current day job looks. These are just ideas I keep turning over, and I wanted to write them down to see if they hold together.
+The question I keep coming back to is simple. If AI agents continue to improve at the rate they seem to be, what does engineering work look like five or ten years from now? Not tomorrow. Not next quarter. Further out, where the shape of the job might actually be different.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-23 21:01:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Agent-First Architecture: The Engineer as System Curator" href="https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/twenty-dollar-ai-era-is-over.jpg" alt="AI subscription pricing illustration">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Is the $20 AI Subscription Era Over?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>For the last three years, $20 a month has been the magic number. Claude Pro, ChatGPT Plus, Gemini Advanced, Copilot Pro, Cursor Pro - all twenty dollars, all clearly priced to anchor against Netflix rather than against enterprise software. That anchor is cracking. The labs are burning cash on inference for power users, the frontier models cost more per token than they did a year ago, and agent tools like Claude Code and Codex are consuming ten to a hundred times the compute a chat session does. Something has to give.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-23 08:45:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Is the $20 AI Subscription Era Over?" href="https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/"></a>
+</article>
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
@@ -332,38 +365,6 @@ That bottleneck is gone. A capable model will now explain quantum mechanics, deb
   </div>
   <footer class="entry-footer"><span title='2026-04-22 09:00:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Learning How to Learn in the Age of AI" href="https://jamesm.blog/personal-development/learning-how-to-learn-in-the-age-of-ai/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/mcp-servers-home-agent.jpg" alt="MCP Servers for a Home AI Agent Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Problem: a local agent that can only chat is a toy. The value is in what it can do. Answer: Model Context Protocol servers, running locally on the Mac Studio, expose filesystem, calendar, mail, notes, and a handful of custom tools. Runtime: one supervisord config, a small router, and per-server allowlists so nothing escapes its box. Security posture: no tool runs without a policy, secrets live in the macOS Keychain, and every call is logged to a local SQLite file I can grep at 11pm. Result: I can phone the agent (see How to Phone Your Home AI Agent), ask “move the CI failure email to triage and put a 15 minute hold on my calendar at 4”, and it actually does it. Why MCP and Not “Just Functions” Before MCP I had a directory of half-finished Python shims. Each one spoke a slightly different dialect: one took JSON arguments, one took positional args, one returned markdown and one returned a dict. Adding a new tool meant editing the agent prompt, the router, and the caller.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-22 00:12:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio" href="https://jamesm.blog/ai/mcp-servers-home-ai-agent/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/phone-agent.jpg" alt="Phone Your Home AI Agent Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Phone Your Home AI Agent Running on a Mac Studio
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Goal: Call a real phone number and have a proper back-and-forth with my Mac Studio agent while walking the dog. Hardware: Mac Studio (M2 Ultra, 128 GB) running a local model via Ollama or MLX. Voice pipeline: Twilio SIP in, LiveKit Agents orchestrating STT / LLM / TTS, Whisper for transcription, Piper or ElevenLabs for speech. Brain: A local 30B-class model for chat plus tool calls, with Claude API as a fallback for the harder reasoning. Reach: Tailscale between the Mac and a tiny VPS so I never punch a hole in my home router. Outcome: I can ring a UK landline number, ask “what’s failing on the CI pipeline?” and get a spoken answer in ~2 seconds. Why bother phoning your own agent? Typing is great at a desk. Outside the desk, it’s hopeless. I wanted the simplest possible interface to the box sat under my desk at home - dial a number, talk, hang up. No app, no login, no VPN dance on my phone.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-21 21:48:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to How to Phone Your Home AI Agent Running on a Mac Studio" href="https://jamesm.blog/ai/phone-your-home-ai-agent/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
