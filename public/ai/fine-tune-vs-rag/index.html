@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>When to Fine-Tune vs When to RAG: Choosing Your AI Architecture | jamesm.blog</title>
+<meta name="keywords" content="ai, rag, fine-tuning, architecture, llm, agentic-engineering">
+<meta name="description" content="A practical decision framework for choosing between fine-tuning and retrieval-augmented generation, the failure modes of picking the wrong one, and the hybrid patterns that quietly do most of the heavy lifting in production.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/fine-tune-vs-rag/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/fine-tune-vs-rag/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/fine-tune-vs-rag/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="When to Fine-Tune vs When to RAG: Choosing Your AI Architecture">
+  <meta property="og:description" content="A practical decision framework for choosing between fine-tuning and retrieval-augmented generation, the failure modes of picking the wrong one, and the hybrid patterns that quietly do most of the heavy lifting in production.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-04-29T08:00:00+01:00">
+    <meta property="article:modified_time" content="2026-04-29T08:00:00+01:00">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="Rag">
+    <meta property="article:tag" content="Fine-Tuning">
+    <meta property="article:tag" content="Architecture">
+    <meta property="article:tag" content="Llm">
+    <meta property="article:tag" content="Agentic-Engineering">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/ai/fine-tune-vs-rag.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/ai/fine-tune-vs-rag.jpg">
+  <meta name="twitter:title" content="When to Fine-Tune vs When to RAG: Choosing Your AI Architecture">
+  <meta name="twitter:description" content="A practical decision framework for choosing between fine-tuning and retrieval-augmented generation, the failure modes of picking the wrong one, and the hybrid patterns that quietly do most of the heavy lifting in production.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "When to Fine-Tune vs When to RAG: Choosing Your AI Architecture",
+      "item": "https://jamesm.blog/ai/fine-tune-vs-rag/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "When to Fine-Tune vs When to RAG: Choosing Your AI Architecture",
+  "name": "When to Fine-Tune vs When to RAG: Choosing Your AI Architecture",
+  "description": "A practical decision framework for choosing between fine-tuning and retrieval-augmented generation, the failure modes of picking the wrong one, and the hybrid patterns that quietly do most of the heavy lifting in production.",
+  "keywords": [
+    "ai", "rag", "fine-tuning", "architecture", "llm", "agentic-engineering"
+  ],
+  "articleBody": "The question I get asked most often by engineers starting to build with language models is some variation of: “should we fine-tune or should we do RAG?” It is almost always the wrong question, but it is the wrong question in an instructive way. The reason it gets asked so much is that the choice feels architectural, and architectural choices feel like the kind of thing you commit to once and live with. In practice, the choice is closer to “should I use a database or a cache” - the answer is usually some of both, applied to different problems, and the ratio shifts as the system matures.\nThis post is the answer I now give. It is opinionated, it draws on patterns I have seen succeed and fail repeatedly, and it tries to be honest about the cases where the conventional wisdom is wrong.\nThe two techniques in one paragraph each Retrieval-augmented generation is the practice of fetching relevant context at query time and putting it directly into the model’s prompt. The model is unchanged. What changes is what it gets to read before it answers. RAG is a runtime architecture, not a model modification. Its quality depends entirely on the quality of the retrieval step and the discipline of the prompt that consumes the retrieved chunks.\nFine-tuning is the practice of continuing the training of a base model on a curated dataset, so that the resulting weights produce different outputs than the base would have. Fine-tuning is a build-time architecture. The cost is paid up front, the artifact is a new model, and the behaviour is baked into the parameters rather than supplied by a prompt. It is also where small language models earn their keep - a fine-tuned 7B model on a narrow domain can outperform a frontier model on the same task at a fraction of the cost, and is what makes local-first AI deployments feasible.\nThose two definitions sound symmetric. They are not. The asymmetry is the whole point of this post.\nThe default should be RAG If you are starting a new project and you are not sure which to use, start with RAG. Not because RAG is universally better, but because the reversibility profile is wildly different.\nA RAG system you do not like can be torn down and rebuilt in days. The model is unchanged, the corpus is unchanged, the retrieval index is the only thing that took real effort, and you can swap out the retriever, the embedding model, the chunking strategy, the reranker, the prompt, and even the foundation model behind it without re-running a training job. You can also make changes incrementally and observe their effect in production with very little risk.\nA fine-tuned model you do not like is a sunk cost. The dataset took weeks to curate, the training run cost real money, the resulting weights are a frozen artifact that needs to be re-evaluated, re-versioned, and re-deployed. You cannot easily un-bake an undesirable behaviour. You can only train again on different data and hope.\nThis is not a small difference. The default architectural choice should favour the option that lets you change your mind cheaply, especially in a domain where your intuitions about what works will improve faster than your engineering can keep up with.\nWhere RAG quietly fails RAG has a very specific failure mode that the marketing literature is curiously silent about. It fails when the question requires the model to reason over the entire retrieved context as a unified whole, rather than extracting an answer from a specific passage.\nConsider three queries against the same knowledge base of internal engineering documents:\n“What is the timeout value for the payment service?” “Summarise the architectural decisions we made about the payment service this quarter.” “Given our existing payment service architecture, what tradeoffs would we hit if we moved to event-driven settlement?” The first query is what RAG was designed for. There is one passage that contains the answer, the retriever finds it, the model reads it, the answer comes out clean.\nThe second query requires the model to fuse multiple passages into a coherent narrative. RAG can sort of do this, but performance degrades as the number of relevant chunks grows. The model is being asked to synthesise across pieces it has no global view of, and it will often miss connections, double-count claims, or invent transitions.\nThe third query requires the model to reason from internalised understanding of how your architecture actually works. RAG is fundamentally not designed for this. You can shove a hundred documents into the context and ask the question, but the model is still doing reading comprehension, not architectural reasoning. It does not have your system in its head. It has fragments of it in its working memory.\nThis is where fine-tuning earns its keep. A model fine-tuned on a corpus of your engineering decisions has those decisions encoded in its weights. It can reason from them the same way it reasons from anything else in its training distribution. It does not need to retrieve them, and it does not have a context window limit on how much it knows.\nWhere fine-tuning quietly fails The mirror failure is just as common, and more expensive. Fine-tuning fails when the underlying facts change.\nIf you fine-tune a model on your product documentation as of January, and your documentation changes in March, the model is now wrong. It will confidently produce outputs that were correct three months ago and are not correct any more. There is no error message, no warning, no indication that the answer is stale. The model has forgotten that the world is a moving target.\nYou can solve this with re-training, but re-training is a discrete event that happens on the cadence of your training pipeline, not the cadence of reality. RAG, by contrast, picks up changes the moment the underlying source is updated, because it reads the source at query time.\nAnything that changes - prices, policies, schemas, names of people in your organisation, current state of any system - is a poor candidate for fine-tuning and a natural candidate for RAG. Anything that is stable - core domain concepts, your house writing style, a body of historical reasoning - is a poor candidate for RAG and a natural candidate for fine-tuning.\nThe decision framework I actually use When someone asks me which to choose, I run through a short series of questions in my head. They are not perfect, but they sort the cases quickly.\nDoes the answer change frequently? If yes, lean RAG. The cost of stale fine-tuned knowledge is high and silent.\nIs the question answerable from a small number of identifiable passages? If yes, lean RAG. This is exactly the regime retrieval was built for.\nDoes the model need to produce output in a specific style, voice, or format that is hard to specify in a prompt? If yes, lean fine-tuning. Style transfer is one of the things fine-tuning is genuinely good at, and prompts trying to specify the same style tend to bloat over time.\nDoes the task require reasoning across the entire body of knowledge, not retrieval from it? If yes, lean fine-tuning. RAG cannot fit a whole domain in a context window.\nDo you have less than a few thousand high-quality examples? If yes, do not fine-tune. You will not have enough signal to move the model meaningfully, and you will overfit on idiosyncrasies of your dataset. Use RAG and a strong prompt instead - and structure that prompt so it caches well, because RAG prompts are exactly the workload caching is shaped for.\nIs the cost of being wrong high, and do you need to cite sources? If yes, lean RAG. RAG gives you a natural attribution path - the chunk the model used. Fine-tuning gives you opaque parameters that produced the answer somehow, and that opacity is one of the common roots of hallucinations.\nIs latency critical, and is the retrieval step expensive? If yes, lean fine-tuning. A fine-tuned model that already knows the answer is faster than one that has to query a vector database, rerank, and digest a prompt.\nThese pull in different directions for any non-trivial system. That is the point. Real systems use both.\nHybrid is the actual answer The architecture I see succeed most often in production is not pure RAG and not pure fine-tuning. It is a fine-tuned base model that has internalised the domain’s vocabulary, voice, and stable patterns, augmented with retrieval over the parts of the domain that change.\nThe fine-tuning handles the things that are stable and cross-cutting. The way your company describes itself. The terminology your customers use. The tone of voice the brand expects. The structural patterns the system always follows.\nThe retrieval handles the things that are specific and current. This week’s product catalogue. The customer’s account state. The most recent decision the architecture council made.\nThis split has another quiet benefit. It lets you size each piece appropriately. You do not need to fine-tune on a giant dataset, because the fine-tuning is only carrying the stable parts. You do not need to retrieve a giant context, because the retrieval is only filling in the volatile parts. The system stays small and fast where it can, and brings out the heavy machinery only where it must.\nWhat this looks like in practice A support assistant for a SaaS product is a clean example. The fine-tuning teaches the model your support voice, your product’s mental model, the kinds of distinctions you draw between features, the boilerplate it should always use when escalating. The retrieval pulls in the customer’s account state, the latest documentation for the feature they are asking about, and any open known-issue notes. The model is good at the conversation because of the fine-tuning and correct about the facts because of the retrieval. The same hybrid pattern is what I leaned on when giving a home AI agent durable memory.\nA code assistant inside an engineering organisation is another clean example. The fine-tuning teaches the model your house style, your internal naming conventions, your preferred patterns for error handling and testing. The retrieval pulls in the relevant files from the repository the developer is currently editing, the latest API documentation, and recent discussions in the relevant pull request. Neither piece is sufficient on its own. Together they produce something that reads like a colleague rather than a generic assistant.\nIn both cases the engineering question is not “which technique” but “which technique for which slice of the problem”. The architecture is the answer to that question, not the answer to a binary one.\nWhat I would tell a team starting today If you are building your first AI feature, start with RAG. Use a strong base model, focus on retrieval quality, write clear prompts, and ship. You will learn more about what your users actually need from the first month in production than you will from any amount of architectural deliberation.\nOnce you have something running, watch where it consistently disappoints. If it is getting facts wrong because the underlying source changed, your retrieval needs work. If it is getting voice and structure wrong, or struggling to reason across the domain, fine-tuning is starting to earn its keep. Layer it in, but only over the slices where you have real evidence the prompt and retrieval cannot carry the load.\nAvoid the mistake of treating this as a one-time choice. Treat it the way you treat caching: a thing you add when it earns its place, scoped narrowly, removed when it stops earning. The systems that age well are not the ones that picked the right architecture on day one. They are the ones that kept the cost of changing their minds low.\n",
+  "wordCount" : "1966",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/ai/fine-tune-vs-rag.jpg","datePublished": "2026-04-29T08:00:00+01:00",
+  "dateModified": "2026-04-29T08:00:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/fine-tune-vs-rag/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Eng">
+                    <span>Data Eng</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music">
+                    <span>Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro">
+                    <span>Retro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      When to Fine-Tune vs When to RAG: Choosing Your AI Architecture
+    </h1>
+    <div class="post-description">
+      A practical decision framework for choosing between fine-tuning and retrieval-augmented generation, the failure modes of picking the wrong one, and the hybrid patterns that quietly do most of the heavy lifting in production.
+    </div>
+    <div class="post-meta"><span title='2026-04-29 08:00:00 +0100 BST'>April 29, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/ai/fine-tune-vs-rag.jpg" alt="When to Fine-Tune vs When to RAG Banner">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#the-two-techniques-in-one-paragraph-each" aria-label="The two techniques in one paragraph each">The two techniques in one paragraph each</a></li>
+            <li>
+                <a href="#the-default-should-be-rag" aria-label="The default should be RAG">The default should be RAG</a></li>
+            <li>
+                <a href="#where-rag-quietly-fails" aria-label="Where RAG quietly fails">Where RAG quietly fails</a></li>
+            <li>
+                <a href="#where-fine-tuning-quietly-fails" aria-label="Where fine-tuning quietly fails">Where fine-tuning quietly fails</a></li>
+            <li>
+                <a href="#the-decision-framework-i-actually-use" aria-label="The decision framework I actually use">The decision framework I actually use</a></li>
+            <li>
+                <a href="#hybrid-is-the-actual-answer" aria-label="Hybrid is the actual answer">Hybrid is the actual answer</a></li>
+            <li>
+                <a href="#what-this-looks-like-in-practice" aria-label="What this looks like in practice">What this looks like in practice</a></li>
+            <li>
+                <a href="#what-i-would-tell-a-team-starting-today" aria-label="What I would tell a team starting today">What I would tell a team starting today</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>The question I get asked most often by engineers starting to build with language models is some variation of: &ldquo;should we fine-tune or should we do RAG?&rdquo; It is almost always the wrong question, but it is the wrong question in an instructive way. The reason it gets asked so much is that the choice feels architectural, and architectural choices feel like the kind of thing you commit to once and live with. In practice, the choice is closer to &ldquo;should I use a database or a cache&rdquo; - the answer is usually some of both, applied to different problems, and the ratio shifts as the system matures.</p>
+<p>This post is the answer I now give. It is opinionated, it draws on patterns I have seen succeed and fail repeatedly, and it tries to be honest about the cases where the conventional wisdom is wrong.</p>
+<h2 id="the-two-techniques-in-one-paragraph-each">The two techniques in one paragraph each<a hidden class="anchor" aria-hidden="true" href="#the-two-techniques-in-one-paragraph-each">#</a></h2>
+<p><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval-augmented generation</a> is the practice of fetching relevant context at query time and putting it directly into the model&rsquo;s prompt. The model is unchanged. What changes is what it gets to read before it answers. RAG is a runtime architecture, not a model modification. Its quality depends entirely on the quality of the retrieval step and the discipline of the prompt that consumes the retrieved chunks.</p>
+<p><a href="https://en.wikipedia.org/wiki/Fine-tuning_%28deep_learning%29">Fine-tuning</a> is the practice of continuing the training of a base model on a curated dataset, so that the resulting weights produce different outputs than the base would have. Fine-tuning is a build-time architecture. The cost is paid up front, the artifact is a new model, and the behaviour is baked into the parameters rather than supplied by a prompt. It is also where <a href="/ai/small-language-models/">small language models</a> earn their keep - a fine-tuned 7B model on a narrow domain can outperform a frontier model on the same task at a fraction of the cost, and is what makes <a href="/ai/local-vs-cloud-ai-2026/">local-first AI deployments</a> feasible.</p>
+<p>Those two definitions sound symmetric. They are not. The asymmetry is the whole point of this post.</p>
+<h2 id="the-default-should-be-rag">The default should be RAG<a hidden class="anchor" aria-hidden="true" href="#the-default-should-be-rag">#</a></h2>
+<p>If you are starting a new project and you are not sure which to use, start with RAG. Not because RAG is universally better, but because the reversibility profile is wildly different.</p>
+<p>A RAG system you do not like can be torn down and rebuilt in days. The model is unchanged, the corpus is unchanged, the retrieval index is the only thing that took real effort, and you can swap out the retriever, the embedding model, the chunking strategy, the reranker, the prompt, and even the foundation model behind it without re-running a training job. You can also make changes incrementally and observe their effect in production with very little risk.</p>
+<p>A fine-tuned model you do not like is a sunk cost. The dataset took weeks to curate, the training run cost real money, the resulting weights are a frozen artifact that needs to be re-evaluated, re-versioned, and re-deployed. You cannot easily un-bake an undesirable behaviour. You can only train again on different data and hope.</p>
+<p>This is not a small difference. The default architectural choice should favour the option that lets you change your mind cheaply, especially in a domain where your intuitions about what works will improve faster than your engineering can keep up with.</p>
+<h2 id="where-rag-quietly-fails">Where RAG quietly fails<a hidden class="anchor" aria-hidden="true" href="#where-rag-quietly-fails">#</a></h2>
+<p>RAG has a very specific failure mode that the marketing literature is curiously silent about. It fails when the question requires the model to reason over the entire retrieved context as a unified whole, rather than extracting an answer from a specific passage.</p>
+<p>Consider three queries against the same knowledge base of internal engineering documents:</p>
+<ol>
+<li>&ldquo;What is the timeout value for the payment service?&rdquo;</li>
+<li>&ldquo;Summarise the architectural decisions we made about the payment service this quarter.&rdquo;</li>
+<li>&ldquo;Given our existing payment service architecture, what tradeoffs would we hit if we moved to event-driven settlement?&rdquo;</li>
+</ol>
+<p>The first query is what RAG was designed for. There is one passage that contains the answer, the retriever finds it, the model reads it, the answer comes out clean.</p>
+<p>The second query requires the model to fuse multiple passages into a coherent narrative. RAG can sort of do this, but performance degrades as the number of relevant chunks grows. The model is being asked to synthesise across pieces it has no global view of, and it will often miss connections, double-count claims, or invent transitions.</p>
+<p>The third query requires the model to reason from internalised understanding of how your architecture actually works. RAG is fundamentally not designed for this. You can shove a hundred documents into the context and ask the question, but the model is still doing reading comprehension, not architectural reasoning. It does not have your system in its head. It has fragments of it in its working memory.</p>
+<p>This is where fine-tuning earns its keep. A model fine-tuned on a corpus of your engineering decisions has those decisions encoded in its weights. It can reason from them the same way it reasons from anything else in its training distribution. It does not need to retrieve them, and it does not have a context window limit on how much it knows.</p>
+<h2 id="where-fine-tuning-quietly-fails">Where fine-tuning quietly fails<a hidden class="anchor" aria-hidden="true" href="#where-fine-tuning-quietly-fails">#</a></h2>
+<p>The mirror failure is just as common, and more expensive. Fine-tuning fails when the underlying facts change.</p>
+<p>If you fine-tune a model on your product documentation as of January, and your documentation changes in March, the model is now wrong. It will confidently produce outputs that were correct three months ago and are not correct any more. There is no error message, no warning, no indication that the answer is stale. The model has forgotten that the world is a moving target.</p>
+<p>You can solve this with re-training, but re-training is a discrete event that happens on the cadence of your training pipeline, not the cadence of reality. RAG, by contrast, picks up changes the moment the underlying source is updated, because it reads the source at query time.</p>
+<p>Anything that changes - prices, policies, schemas, names of people in your organisation, current state of any system - is a poor candidate for fine-tuning and a natural candidate for RAG. Anything that is stable - core domain concepts, your house writing style, a body of historical reasoning - is a poor candidate for RAG and a natural candidate for fine-tuning.</p>
+<h2 id="the-decision-framework-i-actually-use">The decision framework I actually use<a hidden class="anchor" aria-hidden="true" href="#the-decision-framework-i-actually-use">#</a></h2>
+<p>When someone asks me which to choose, I run through a short series of questions in my head. They are not perfect, but they sort the cases quickly.</p>
+<p><strong>Does the answer change frequently?</strong> If yes, lean RAG. The cost of stale fine-tuned knowledge is high and silent.</p>
+<p><strong>Is the question answerable from a small number of identifiable passages?</strong> If yes, lean RAG. This is exactly the regime retrieval was built for.</p>
+<p><strong>Does the model need to produce output in a specific style, voice, or format that is hard to specify in a prompt?</strong> If yes, lean fine-tuning. Style transfer is one of the things fine-tuning is genuinely good at, and prompts trying to specify the same style tend to bloat over time.</p>
+<p><strong>Does the task require reasoning across the entire body of knowledge, not retrieval from it?</strong> If yes, lean fine-tuning. RAG cannot fit a whole domain in a context window.</p>
+<p><strong>Do you have less than a few thousand high-quality examples?</strong> If yes, do not fine-tune. You will not have enough signal to move the model meaningfully, and you will overfit on idiosyncrasies of your dataset. Use RAG and a strong prompt instead - and structure that prompt so it <a href="/ai/prompt-caching/">caches well</a>, because RAG prompts are exactly the workload caching is shaped for.</p>
+<p><strong>Is the cost of being wrong high, and do you need to cite sources?</strong> If yes, lean RAG. RAG gives you a natural attribution path - the chunk the model used. Fine-tuning gives you opaque parameters that produced the answer somehow, and that opacity is one of the <a href="/ai/ai-hallucinations-understanding-and-mitigating/">common roots of hallucinations</a>.</p>
+<p><strong>Is latency critical, and is the retrieval step expensive?</strong> If yes, lean fine-tuning. A fine-tuned model that already knows the answer is faster than one that has to query a vector database, rerank, and digest a prompt.</p>
+<p>These pull in different directions for any non-trivial system. That is the point. Real systems use both.</p>
+<h2 id="hybrid-is-the-actual-answer">Hybrid is the actual answer<a hidden class="anchor" aria-hidden="true" href="#hybrid-is-the-actual-answer">#</a></h2>
+<p>The architecture I see succeed most often in production is not pure RAG and not pure fine-tuning. It is a fine-tuned base model that has internalised the domain&rsquo;s vocabulary, voice, and stable patterns, augmented with retrieval over the parts of the domain that change.</p>
+<p>The fine-tuning handles the things that are stable and cross-cutting. The way your company describes itself. The terminology your customers use. The tone of voice the brand expects. The structural patterns the system always follows.</p>
+<p>The retrieval handles the things that are specific and current. This week&rsquo;s product catalogue. The customer&rsquo;s account state. The most recent decision the architecture council made.</p>
+<p>This split has another quiet benefit. It lets you size each piece appropriately. You do not need to fine-tune on a giant dataset, because the fine-tuning is only carrying the stable parts. You do not need to retrieve a giant context, because the retrieval is only filling in the volatile parts. The system stays small and fast where it can, and brings out the heavy machinery only where it must.</p>
+<h2 id="what-this-looks-like-in-practice">What this looks like in practice<a hidden class="anchor" aria-hidden="true" href="#what-this-looks-like-in-practice">#</a></h2>
+<p>A support assistant for a SaaS product is a clean example. The fine-tuning teaches the model your support voice, your product&rsquo;s mental model, the kinds of distinctions you draw between features, the boilerplate it should always use when escalating. The retrieval pulls in the customer&rsquo;s account state, the latest documentation for the feature they are asking about, and any open known-issue notes. The model is good at the conversation because of the fine-tuning and correct about the facts because of the retrieval. The same hybrid pattern is what I leaned on when <a href="/ai/home-ai-agent-memory-that-lasts/">giving a home AI agent durable memory</a>.</p>
+<p>A code assistant inside an engineering organisation is another clean example. The fine-tuning teaches the model your house style, your internal naming conventions, your preferred patterns for error handling and testing. The retrieval pulls in the relevant files from the repository the developer is currently editing, the latest API documentation, and recent discussions in the relevant pull request. Neither piece is sufficient on its own. Together they produce something that reads like a colleague rather than a generic assistant.</p>
+<p>In both cases the engineering question is not &ldquo;which technique&rdquo; but &ldquo;which technique for which slice of the problem&rdquo;. The architecture is the answer to that question, not the answer to a binary one.</p>
+<h2 id="what-i-would-tell-a-team-starting-today">What I would tell a team starting today<a hidden class="anchor" aria-hidden="true" href="#what-i-would-tell-a-team-starting-today">#</a></h2>
+<p>If you are building your first AI feature, start with RAG. Use a strong base model, focus on retrieval quality, write clear prompts, and ship. You will learn more about what your users actually need from the first month in production than you will from any amount of architectural deliberation.</p>
+<p>Once you have something running, watch where it consistently disappoints. If it is getting facts wrong because the underlying source changed, your retrieval needs work. If it is getting voice and structure wrong, or struggling to reason across the domain, fine-tuning is starting to earn its keep. Layer it in, but only over the slices where you have real evidence the prompt and retrieval cannot carry the load.</p>
+<p>Avoid the mistake of treating this as a one-time choice. Treat it the way you treat caching: a thing you add when it earns its place, scoped narrowly, removed when it stops earning. The systems that age well are not the ones that picked the right architecture on day one. They are the ones that kept the cost of changing their minds low.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai/">AI</a></li>
+      <li><a href="https://jamesm.blog/tags/rag/">Rag</a></li>
+      <li><a href="https://jamesm.blog/tags/fine-tuning/">Fine-Tuning</a></li>
+      <li><a href="https://jamesm.blog/tags/architecture/">Architecture</a></li>
+      <li><a href="https://jamesm.blog/tags/llm/">Llm</a></li>
+      <li><a href="https://jamesm.blog/tags/agentic-engineering/">Agentic-Engineering</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/ai/ai-augmented-design-workflow/">
+    <span class="title">« Prev</span>
+    <span>My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/ai/free-intelligence-era/">
+    <span class="title">Next »</span>
+    <span>The Free Intelligence Era: What Breaks When Thinking Costs Nothing</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share When to Fine-Tune vs When to RAG: Choosing Your AI Architecture on x"
+            href="https://x.com/intent/tweet/?text=When%20to%20Fine-Tune%20vs%20When%20to%20RAG%3a%20Choosing%20Your%20AI%20Architecture&amp;url=https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f&amp;hashtags=ai%2crag%2cfine-tuning%2carchitecture%2cllm%2cagentic-engineering">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share When to Fine-Tune vs When to RAG: Choosing Your AI Architecture on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f&amp;title=When%20to%20Fine-Tune%20vs%20When%20to%20RAG%3a%20Choosing%20Your%20AI%20Architecture&amp;summary=When%20to%20Fine-Tune%20vs%20When%20to%20RAG%3a%20Choosing%20Your%20AI%20Architecture&amp;source=https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share When to Fine-Tune vs When to RAG: Choosing Your AI Architecture on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f&title=When%20to%20Fine-Tune%20vs%20When%20to%20RAG%3a%20Choosing%20Your%20AI%20Architecture">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share When to Fine-Tune vs When to RAG: Choosing Your AI Architecture on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share When to Fine-Tune vs When to RAG: Choosing Your AI Architecture on whatsapp"
+            href="https://api.whatsapp.com/send?text=When%20to%20Fine-Tune%20vs%20When%20to%20RAG%3a%20Choosing%20Your%20AI%20Architecture%20-%20https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share When to Fine-Tune vs When to RAG: Choosing Your AI Architecture on telegram"
+            href="https://telegram.me/share/url?text=When%20to%20Fine-Tune%20vs%20When%20to%20RAG%3a%20Choosing%20Your%20AI%20Architecture&amp;url=https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share When to Fine-Tune vs When to RAG: Choosing Your AI Architecture on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=When%20to%20Fine-Tune%20vs%20When%20to%20RAG%3a%20Choosing%20Your%20AI%20Architecture&u=https%3a%2f%2fjamesm.blog%2fai%2ffine-tune-vs-rag%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision | jamesm.blog</title>
+<meta name="keywords" content="ai, workflow, cursor, claude-code, codex, documentation, spec-driven, design">
+<meta name="description" content="How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/ai-augmented-design-workflow/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/ai-augmented-design-workflow/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/ai-augmented-design-workflow/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision">
+  <meta property="og:description" content="How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-04-29T08:30:00+01:00">
+    <meta property="article:modified_time" content="2026-04-29T08:30:00+01:00">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="Workflow">
+    <meta property="article:tag" content="Cursor">
+    <meta property="article:tag" content="Claude-Code">
+    <meta property="article:tag" content="Codex">
+    <meta property="article:tag" content="Documentation">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/ai/ai-augmented-design-workflow.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/ai/ai-augmented-design-workflow.jpg">
+  <meta name="twitter:title" content="My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision">
+  <meta name="twitter:description" content="How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision",
+      "item": "https://jamesm.blog/ai/ai-augmented-design-workflow/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision",
+  "name": "My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision",
+  "description": "How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design.",
+  "keywords": [
+    "ai", "workflow", "cursor", "claude-code", "codex", "documentation", "spec-driven", "design"
+  ],
+  "articleBody": "Since making a combination of Cursor in the IDE and Claude Code and Codex in the terminal the centre of my working day - with ChatGPT for general questions and GitHub Spec Kit holding the design contract - the way I move from a question on Slack to a documented design decision has changed beyond recognition.\nWhat used to be a multi-day shuffle of meetings, follow-ups, written summaries, and “I will circle back on that” is now a tight loop that closes in five to ten minutes. The result is not just faster - it feels qualitatively different. There is no context switching, no postponed thinking, no half-finished docs. The decision is made, captured, validated against the rest of the design, and rendered into diagrams before the next meeting starts.\nThis post is partly a writeup of what that workflow looks like in practice, and partly a set of notes on the things I am still trying to get right. AI is now suggesting improvements faster than I can implement them, which is a strange new bottleneck to reason about.\nThe tools, and what each one is actually for It is worth being precise about which tool does what, because I use a combination of them and the division of labour matters.\nCursor is my main IDE, with its own models. It is where the code, the design corpus, the meeting transcripts, and the Mermaid diagrams all live, and it is where the cross-checking happens. Sometimes I use Visual Studio Code (VSC) instead, with extensions for Claude Code, Codex, Cline, and Google Gemini - same loop, different surface. Claude Code is an agent in the terminal. It is the tool I reach for when I want something planned, refactored, or audited across the repo from the command line. Codex is another agent in the terminal. I run it alongside Claude Code, picking whichever model feels right for the task in front of me. ChatGPT is for general questions. Anything outside the repo - a half-remembered concept, a quick explainer, a sanity check on a non-code topic - goes there. It is no longer in the inner loop. GitHub Spec Kit holds the contract. The spec is the artefact every other tool reconciles against. Picking the right model for the job Within Claude Code I move between models depending on what the task actually needs. Anthropic offers a spread - Haiku for fast and cheap, Sonnet for the balanced middle, and Opus for slow, expensive, deep work - and it pays to be deliberate about which one I reach for.\nCheaper, faster models (Haiku, smaller Sonnet variants) for small jobs. Basic refactoring on a single file, a one-line tweak, drafting a simple idea, or quickly prototyping something that may not go anywhere. There is no point spending Opus tokens on a throwaway sketch. The most expensive models (Opus) for the heavy lifting. Large refactors that span the repo, deep thinking and analysis, anything where the cost of a wrong answer is high. When I have decided on a firm path, I bring Opus in to check all of my work and ideas end to end. A two-pass pattern in between. I will often let a cheaper model produce a first draft - a refactor, a stub, an exploratory design - and then ask the more expensive model to verify, rewrite, or enhance it. The cheaper pass surfaces the shape of the answer; the expensive pass makes sure it is actually correct. The mental model is the same one I apply to people: do not use senior time for things a junior can do well, but do not let a junior ship something load-bearing without a senior reading it.\nThe loop The core flow has six steps and lives between three surfaces: Slack, Cursor in the IDE, and an agent in the terminal (Claude Code or Codex, depending on the task).\nDiscuss and ideate. Everything starts on Slack. Someone raises a question, an issue, or a design challenge. The thread is the rawest possible artefact - opinions, half-formed ideas, links, gut reactions. AI brainstorming. I pull the thread into Cursor or one of the terminal agents to unpack it, surface trade-offs, and shape it into a structured proposal. The model is not deciding anything; it is putting structure under the conversation that humans had. Collaborative refinement. The structured proposal goes back into Slack. The team responds. I loop between human input and model iterations until the shape of the decision is stable. Automated documentation. The agent extracts the final decision and emits a Markdown summary in the format the design corpus uses - title, context, decision, consequences, open questions. Seamless integration. The summary lands directly in Cursor, in the right place in the design tree, with the right cross-links. AI validation and maintenance. Cursor cross-checks the new decision against the rest of the design, flags conflicts with earlier choices, updates Mermaid diagrams, and revises sample data and data models so they stay coherent. The whole loop, discussion to documented decision, takes five to ten minutes. The first time it closed inside a single coffee, I genuinely sat back and stared at the screen.\nThe end-to-end picture The six-step loop is the inner cycle, but it sits inside a broader pipeline that runs from the first Slack message all the way through to production support. Everything in the diagram below converges on a single GitHub repository - code, design, transcripts, specs, and tests all live together so the agents can reason across the lot.\n┌─────────────────────┐ ┌──────────────────────┐ │ Slack discussions │ │ Meetings │ │ questions · issues │ │ auto-transcribed │ └──────────┬──────────┘ └──────────┬───────────┘ │ │ ▼ │ ┌─────────────────────────────────────────┐ │ │ DESIGN │ │ │ ┌───────────────────────────────────┐ │ │ │ │ Cursor + Claude Code + Codex │ │ │ │ │ structure the proposal │ │ │ │ └────────────────┬──────────────────┘ │ │ │ ▼ │ │ │ ┌───────────────────────────────────┐ │ │ │ │ Slack feedback loop │ │ │ │ └────────────────┬──────────────────┘ │ │ │ ▼ │ │ │ ┌───────────────────────────────────┐ │ │ │ │ Markdown decision │ │ │ │ │ context · decision · consequences │ │ │ │ └────────────────┬──────────────────┘ │ │ │ ▼ │ │ │ ┌───────────────────────────────────┐ │ │ │ │ GitHub Spec Kit (living contract)│ │ │ │ └────────────────┬──────────────────┘ │ │ └───────────────────┼─────────────────────┘ │ │ │ ▼ ▼ ╔══════════════════════════════════════════════════╗ ║ GitHub repository ║ ║ code · design · transcripts · specs · tests ║◀─── reads ───┐ ╚════════════════════┬═════════════════════════════╝ │ │ │ ▼ │ ┌─────────────────────────────────────────┐ │ │ DEVELOPMENT │ │ │ Agent plans the change vs the spec │ │ │ ▼ │ │ │ Cursor (IDE) + Claude Code + Codex │ │ │ ▼ │ │ │ Pull request, linked to the decision │ │ └────────────────┬────────────────────────┘ │ ▼ │ ┌─────────────────────────────────────────┐ │ │ TESTING │ │ │ Unit \u0026 integration tests │ │ │ ▼ │ │ │ Agent-callable regression suite │ │ │ ▼ │ │ │ AI-assisted code review │ │ └────────────────┬────────────────────────┘ │ ▼ │ ┌─────────────────────────────────────────┐ │ │ DEPLOYMENT │ │ │ CI pipeline ──▶ Release to prod │ │ └────────────────┬────────────────────────┘ │ ▼ │ ┌─────────────────────────────────────────┐ │ │ SUPPORT │ │ │ Monitoring \u0026 alerts │ │ │ ▼ │ │ │ Agent triage vs design + transcripts ──┼──── reads history ───────────────┘ │ ▼ │ │ Issues feed back to Slack ─────────────┼──── (loop closes) ──▶ back to top └─────────────────────────────────────────┘ ┌──────────────────────────────────────────────┐ │ Nightly design CI (idea, not live yet) │ │ would cross-check code ↔ design ↔ spec, │ │ and flag drift into Slack each morning │ └──────────────────────────────────────────────┘ A few things in this picture are worth pulling out. The GitHub repo is the gravitational centre - every other surface either feeds it or reads from it. Meeting transcripts land in it directly, so the agents that triage a production incident can read what was said in the design review nine months ago. The nightly design CI in the diagram is an idea, not something I have running yet - today the same job is done by hand, with me asking Cursor in the IDE chat to update the docs and code when something drifts. And the support loop closes back into Slack, so a real-world issue becomes a new Slack thread, which becomes a new design decision, which becomes a new spec, which becomes new code. The whole thing is one cycle, not a line.\nAll the design work, centralised Everything now lives in a single Cursor workspace, backed by GitHub - meeting notes, design discussions, data models, business rules, sample data, and Mermaid process and data flow diagrams. The docs-as-code philosophy was right ten years ago and is more right now, because the tools that read the docs are also the tools that maintain them.\nCrucially, every meeting is transcribed and the transcript is checked into GitHub alongside the design corpus. That means the agents have access to the full historical record - not just the curated decisions, but the conversations that led to them. When Claude Code is asked why a particular choice was made, it does not have to guess. It can read the room from six months ago. This single change has done more for the quality of AI-suggested designs than any prompt-engineering trick I have tried, because the model is no longer reasoning from a sanitised summary; it is reasoning from the actual debate.\nOn top of that, everything is cross-checked regularly - though for now that cross-checking is a manual habit, not an automated job. I lean on Cursor’s IDE chat to walk the repo with me and ask one question over and over: does the code still match the design, and does the design still match itself? Drift gets flagged the day I look, not the quarter it appears. The plan is to hand this off to a scheduled agent so it happens overnight without me, but that is the next step, not the current state. Either way, it is the difference between documentation as an artefact and documentation as a system.\nCursor does not just store. It thinks. It restructures documents, surfaces related concepts, and finds connections I would not have noticed. During design reviews it has become a running joke - I will suggest adding something, and someone will reply, “No James, it is already there.” And it is, perfectly phrased and in exactly the right place.\nFor the design-heavy phase I am in, this setup is saving weeks. It maintains a living, self-updating documentation set, flags inconsistencies, highlights conflicting decisions, and reminds us about unfinished actions. I also wrote a small script that merges every Markdown file in the corpus into a single concatenated .md, which I upload to a custom GPT for deeper synthesis when I want a second opinion on the entire design at once.\nAI-assisted meeting notes review Even meeting notes go through a review pass. I have a model check every note for tone, professionalism, and objectivity before it is shared. The output is a simple two-list report - what the notes correctly include (technical summaries, task assignments, design and architecture decisions, professional references to teammates) and what they are clean of (biased language, personal remarks, controversial opinions).\nThe notes are stakeholder-ready by the time they leave my machine, with a neutral, business-like tone that reflects how I want my team’s work to land in the rest of the organisation. This single pass has eliminated a class of after-the-fact edits that used to chew up an hour a week.\nThe real breakthrough is cognitive flow The transformation I did not predict is in mental flow. There is no context switching. The iteration loop is so fast that I can make complex design decisions in real time, while the problem is still fresh in my head.\nBefore, I would constantly postpone things - “I will come back to that later.” Now those delays are mostly gone. It is not that AI made me cleverer. It removed the friction between thinking and recording, so the thinking does not get lost waiting for the recording to catch up. It feels like working in a state of continuous clarity, which is the part I would miss most if you took it away.\nThis connects to a point I have been trying to articulate in a previous post on judgment and execution - when execution becomes cheap, the only thing worth optimising for is the quality of the next decision. Cognitive flow is what lets you actually deliver on that.\nAI is racing ahead, and I am the bottleneck For the first time, I genuinely feel how quickly AI is pulling ahead. It suggests best practices and design improvements that are correct - but I often cannot implement them immediately because I am still finishing previously committed work. The AI is moving faster than my human brain can deliver, and the queue of “we should also do this” is growing.\nThis has made me think seriously about automating the next stage. Three things are on the experiment list:\nA code refactoring automation system that takes a model’s structured suggestion and applies it as a draft pull request, ready for human review. A regression suite the AI can call autonomously, so the model can verify its own refactor against behavioural expectations before asking for a human eye. Overnight tasks - letting agents refactor designs, regenerate diagrams, or verify logic while I sleep, so I wake up to a fresh, reconciled system and a morning report in Slack. The constraint here is not capability. The constraint is verbosity. AI produces so much documentation that I now spend a non-trivial slice of the week compacting, deduplicating, and structuring it across multiple docs. The fix I am converging on is to invert the role - rather than asking the model to generate docs, I ask it to compact them, reducing each document to its load-bearing claims and pushing the detail into appendices the human reader can ignore. Generation is the easy half of the job. Compaction is the half that takes taste.\nManaging multiple design states I am currently maintaining three parallel views of the design.\nCurrent - the implemented, production-aligned version. Next or immediate future - improvements currently in flight. Long-term or ideal end state - the architecture vision we are pulling towards. Each has its own lifecycle, dependencies, and assumptions. The interesting question is how to store them.\nMy initial instinct was feature branches. The more I sit with it, the more I think subfolders are the right answer - current/, next/, north-star/ - with a small README in each that names the lifecycle and the dependencies. Branches obscure the parallel views, because you cannot see them side by side. Subfolders let the AI read all three at once and reason about the deltas. The reconciliation between them becomes a first-class workflow rather than a merge conflict.\nThe nightly “design CI” I mentioned earlier is the same idea applied to these three folders, and it is still an idea rather than a running pipeline. Today I do the equivalent by hand inside Cursor’s IDE chat - asking it to walk all three folders, regenerate Mermaid diagrams, flag drift between the spec and the code, and reconcile deltas between the layers. The aspiration is to hand that off to a scheduled agent that posts a morning report into Slack while I sleep. This is the spec-driven idea taken one step further: the spec is not just a target, it is a living artefact that an agent audits against meeting transcripts, code, and design docs that all live in the same repo.\nThe result This AI-augmented workflow has reshaped not just how the team works, but how I think about working. The headline outcomes are the obvious ones - instant iteration loops, automated documentation and visualisation, proactive surfacing of design insights, and AI-driven suggestions that go beyond human bandwidth. The deeper change is harder to summarise.\nThe role of the senior engineer is starting to look less like “the person who writes the design” and more like “the person who curates the design the AI maintains.” The taste, the constraints, the willingness to say no, not that - those still belong to the humans. Everything downstream of those judgments is increasingly machine work.\nIt is efficient, creative, and constantly evolving. And even though it is already miles ahead of me, I am doing my best to keep up.\n",
+  "wordCount" : "2728",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/ai/ai-augmented-design-workflow.jpg","datePublished": "2026-04-29T08:30:00+01:00",
+  "dateModified": "2026-04-29T08:30:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/ai-augmented-design-workflow/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Eng">
+                    <span>Data Eng</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music">
+                    <span>Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro">
+                    <span>Retro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision
+    </h1>
+    <div class="post-description">
+      How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design.
+    </div>
+    <div class="post-meta"><span title='2026-04-29 08:30:00 +0100 BST'>April 29, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/ai/ai-augmented-design-workflow.jpg" alt="AI-Augmented Design Workflow Banner">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#the-tools-and-what-each-one-is-actually-for" aria-label="The tools, and what each one is actually for">The tools, and what each one is actually for</a></li>
+            <li>
+                <a href="#picking-the-right-model-for-the-job" aria-label="Picking the right model for the job">Picking the right model for the job</a></li>
+            <li>
+                <a href="#the-loop" aria-label="The loop">The loop</a></li>
+            <li>
+                <a href="#the-end-to-end-picture" aria-label="The end-to-end picture">The end-to-end picture</a></li>
+            <li>
+                <a href="#all-the-design-work-centralised" aria-label="All the design work, centralised">All the design work, centralised</a></li>
+            <li>
+                <a href="#ai-assisted-meeting-notes-review" aria-label="AI-assisted meeting notes review">AI-assisted meeting notes review</a></li>
+            <li>
+                <a href="#the-real-breakthrough-is-cognitive-flow" aria-label="The real breakthrough is cognitive flow">The real breakthrough is cognitive flow</a></li>
+            <li>
+                <a href="#ai-is-racing-ahead-and-i-am-the-bottleneck" aria-label="AI is racing ahead, and I am the bottleneck">AI is racing ahead, and I am the bottleneck</a></li>
+            <li>
+                <a href="#managing-multiple-design-states" aria-label="Managing multiple design states">Managing multiple design states</a></li>
+            <li>
+                <a href="#the-result" aria-label="The result">The result</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>Since making a combination of <a href="https://www.cursor.com/">Cursor</a> in the IDE and <a href="https://github.com/anthropics/claude-code">Claude Code</a> and <a href="https://github.com/openai/codex">Codex</a> in the terminal the centre of my working day - with <a href="https://en.wikipedia.org/wiki/ChatGPT">ChatGPT</a> for general questions and <a href="https://github.com/github/spec-kit">GitHub Spec Kit</a> holding the design contract - the way I move from a question on Slack to a documented design decision has changed beyond recognition.</p>
+<p>What used to be a multi-day shuffle of meetings, follow-ups, written summaries, and &ldquo;I will circle back on that&rdquo; is now a tight loop that closes in five to ten minutes. The result is not just faster - it feels qualitatively different. There is no context switching, no postponed thinking, no half-finished docs. The decision is made, captured, validated against the rest of the design, and rendered into diagrams before the next meeting starts.</p>
+<p>This post is partly a writeup of what that workflow looks like in practice, and partly a set of notes on the things I am still trying to get right. AI is now suggesting improvements faster than I can implement them, which is a strange new bottleneck to reason about.</p>
+<h2 id="the-tools-and-what-each-one-is-actually-for">The tools, and what each one is actually for<a hidden class="anchor" aria-hidden="true" href="#the-tools-and-what-each-one-is-actually-for">#</a></h2>
+<p>It is worth being precise about which tool does what, because I use a combination of them and the division of labour matters.</p>
+<ul>
+<li><strong>Cursor is my main IDE, with its own models.</strong> It is where the code, the design corpus, the meeting transcripts, and the Mermaid diagrams all live, and it is where the cross-checking happens.</li>
+<li><strong>Sometimes I use Visual Studio Code (VSC) instead</strong>, with extensions for <a href="https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code">Claude Code</a>, <a href="https://marketplace.visualstudio.com/items?itemName=openai.chatgpt">Codex</a>, <a href="https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev">Cline</a>, and <a href="https://marketplace.visualstudio.com/items?itemName=Google.geminicodeassist">Google Gemini</a> - same loop, different surface.</li>
+<li><strong>Claude Code is an agent in the terminal.</strong> It is the tool I reach for when I want something planned, refactored, or audited across the repo from the command line.</li>
+<li><strong>Codex is another agent in the terminal.</strong> I run it alongside Claude Code, picking whichever model feels right for the task in front of me.</li>
+<li><strong>ChatGPT is for general questions.</strong> Anything outside the repo - a half-remembered concept, a quick explainer, a sanity check on a non-code topic - goes there. It is no longer in the inner loop.</li>
+<li><strong>GitHub Spec Kit holds the contract.</strong> The spec is the artefact every other tool reconciles against.</li>
+</ul>
+<h2 id="picking-the-right-model-for-the-job">Picking the right model for the job<a hidden class="anchor" aria-hidden="true" href="#picking-the-right-model-for-the-job">#</a></h2>
+<p>Within Claude Code I move between models depending on what the task actually needs. Anthropic offers a spread - <a href="https://www.anthropic.com/claude/haiku">Haiku</a> for fast and cheap, <a href="https://www.anthropic.com/claude/sonnet">Sonnet</a> for the balanced middle, and <a href="https://www.anthropic.com/claude/opus">Opus</a> for slow, expensive, deep work - and it pays to be deliberate about which one I reach for.</p>
+<ul>
+<li><strong>Cheaper, faster models (Haiku, smaller Sonnet variants) for small jobs.</strong> Basic refactoring on a single file, a one-line tweak, drafting a simple idea, or quickly prototyping something that may not go anywhere. There is no point spending Opus tokens on a throwaway sketch.</li>
+<li><strong>The most expensive models (Opus) for the heavy lifting.</strong> Large refactors that span the repo, deep thinking and analysis, anything where the cost of a wrong answer is high. When I have decided on a firm path, I bring Opus in to check all of my work and ideas end to end.</li>
+<li><strong>A two-pass pattern in between.</strong> I will often let a cheaper model produce a first draft - a refactor, a stub, an exploratory design - and then ask the more expensive model to verify, rewrite, or enhance it. The cheaper pass surfaces the shape of the answer; the expensive pass makes sure it is actually correct.</li>
+</ul>
+<p>The mental model is the same one I apply to people: do not use senior time for things a junior can do well, but do not let a junior ship something load-bearing without a senior reading it.</p>
+<h2 id="the-loop">The loop<a hidden class="anchor" aria-hidden="true" href="#the-loop">#</a></h2>
+<p>The core flow has six steps and lives between three surfaces: <a href="https://slack.com">Slack</a>, Cursor in the IDE, and an agent in the terminal (Claude Code or Codex, depending on the task).</p>
+<ol>
+<li><strong>Discuss and ideate.</strong> Everything starts on Slack. Someone raises a question, an issue, or a design challenge. The thread is the rawest possible artefact - opinions, half-formed ideas, links, gut reactions.</li>
+<li><strong>AI brainstorming.</strong> I pull the thread into Cursor or one of the terminal agents to unpack it, surface trade-offs, and shape it into a structured proposal. The model is not deciding anything; it is putting structure under the conversation that humans had.</li>
+<li><strong>Collaborative refinement.</strong> The structured proposal goes back into Slack. The team responds. I loop between human input and model iterations until the shape of the decision is stable.</li>
+<li><strong>Automated documentation.</strong> The agent extracts the final decision and emits a Markdown summary in the format the design corpus uses - title, context, decision, consequences, open questions.</li>
+<li><strong>Seamless integration.</strong> The summary lands directly in Cursor, in the right place in the design tree, with the right cross-links.</li>
+<li><strong>AI validation and maintenance.</strong> Cursor cross-checks the new decision against the rest of the design, flags conflicts with earlier choices, updates <a href="https://mermaid.js.org/">Mermaid</a> diagrams, and revises sample data and data models so they stay coherent.</li>
+</ol>
+<p>The whole loop, discussion to documented decision, takes five to ten minutes. The first time it closed inside a single coffee, I genuinely sat back and stared at the screen.</p>
+<h2 id="the-end-to-end-picture">The end-to-end picture<a hidden class="anchor" aria-hidden="true" href="#the-end-to-end-picture">#</a></h2>
+<p>The six-step loop is the inner cycle, but it sits inside a broader pipeline that runs from the first Slack message all the way through to production support. Everything in the diagram below converges on a single GitHub repository - code, design, transcripts, specs, and tests all live together so the agents can reason across the lot.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">                  ┌─────────────────────┐     ┌──────────────────────┐
+</span></span><span class="line"><span class="cl">                  │  Slack discussions  │     │  Meetings            │
+</span></span><span class="line"><span class="cl">                  │  questions · issues │     │  auto-transcribed    │
+</span></span><span class="line"><span class="cl">                  └──────────┬──────────┘     └──────────┬───────────┘
+</span></span><span class="line"><span class="cl">                             │                           │
+</span></span><span class="line"><span class="cl">                             ▼                           │
+</span></span><span class="line"><span class="cl">   ┌─────────────────────────────────────────┐           │
+</span></span><span class="line"><span class="cl">   │  DESIGN                                 │           │
+</span></span><span class="line"><span class="cl">   │  ┌───────────────────────────────────┐  │           │
+</span></span><span class="line"><span class="cl">   │  │ Cursor + Claude Code + Codex      │  │           │
+</span></span><span class="line"><span class="cl">   │  │ structure the proposal            │  │           │
+</span></span><span class="line"><span class="cl">   │  └────────────────┬──────────────────┘  │           │
+</span></span><span class="line"><span class="cl">   │                   ▼                     │           │
+</span></span><span class="line"><span class="cl">   │  ┌───────────────────────────────────┐  │           │
+</span></span><span class="line"><span class="cl">   │  │ Slack feedback loop               │  │           │
+</span></span><span class="line"><span class="cl">   │  └────────────────┬──────────────────┘  │           │
+</span></span><span class="line"><span class="cl">   │                   ▼                     │           │
+</span></span><span class="line"><span class="cl">   │  ┌───────────────────────────────────┐  │           │
+</span></span><span class="line"><span class="cl">   │  │ Markdown decision                 │  │           │
+</span></span><span class="line"><span class="cl">   │  │ context · decision · consequences │  │           │
+</span></span><span class="line"><span class="cl">   │  └────────────────┬──────────────────┘  │           │
+</span></span><span class="line"><span class="cl">   │                   ▼                     │           │
+</span></span><span class="line"><span class="cl">   │  ┌───────────────────────────────────┐  │           │
+</span></span><span class="line"><span class="cl">   │  │ GitHub Spec Kit  (living contract)│  │           │
+</span></span><span class="line"><span class="cl">   │  └────────────────┬──────────────────┘  │           │
+</span></span><span class="line"><span class="cl">   └───────────────────┼─────────────────────┘           │
+</span></span><span class="line"><span class="cl">                       │                                 │
+</span></span><span class="line"><span class="cl">                       ▼                                 ▼
+</span></span><span class="line"><span class="cl">              ╔══════════════════════════════════════════════════╗
+</span></span><span class="line"><span class="cl">              ║              GitHub repository                   ║
+</span></span><span class="line"><span class="cl">              ║   code · design · transcripts · specs · tests    ║◀─── reads ───┐
+</span></span><span class="line"><span class="cl">              ╚════════════════════┬═════════════════════════════╝              │
+</span></span><span class="line"><span class="cl">                                   │                                            │
+</span></span><span class="line"><span class="cl">                                   ▼                                            │
+</span></span><span class="line"><span class="cl">   ┌─────────────────────────────────────────┐                                  │
+</span></span><span class="line"><span class="cl">   │  DEVELOPMENT                            │                                  │
+</span></span><span class="line"><span class="cl">   │  Agent plans the change vs the spec     │                                  │
+</span></span><span class="line"><span class="cl">   │            ▼                            │                                  │
+</span></span><span class="line"><span class="cl">   │  Cursor (IDE) + Claude Code + Codex     │                                  │
+</span></span><span class="line"><span class="cl">   │            ▼                            │                                  │
+</span></span><span class="line"><span class="cl">   │  Pull request, linked to the decision   │                                  │
+</span></span><span class="line"><span class="cl">   └────────────────┬────────────────────────┘                                  │
+</span></span><span class="line"><span class="cl">                    ▼                                                           │
+</span></span><span class="line"><span class="cl">   ┌─────────────────────────────────────────┐                                  │
+</span></span><span class="line"><span class="cl">   │  TESTING                                │                                  │
+</span></span><span class="line"><span class="cl">   │  Unit &amp; integration tests               │                                  │
+</span></span><span class="line"><span class="cl">   │            ▼                            │                                  │
+</span></span><span class="line"><span class="cl">   │  Agent-callable regression suite        │                                  │
+</span></span><span class="line"><span class="cl">   │            ▼                            │                                  │
+</span></span><span class="line"><span class="cl">   │  AI-assisted code review                │                                  │
+</span></span><span class="line"><span class="cl">   └────────────────┬────────────────────────┘                                  │
+</span></span><span class="line"><span class="cl">                    ▼                                                           │
+</span></span><span class="line"><span class="cl">   ┌─────────────────────────────────────────┐                                  │
+</span></span><span class="line"><span class="cl">   │  DEPLOYMENT                             │                                  │
+</span></span><span class="line"><span class="cl">   │  CI pipeline  ──▶  Release to prod      │                                  │
+</span></span><span class="line"><span class="cl">   └────────────────┬────────────────────────┘                                  │
+</span></span><span class="line"><span class="cl">                    ▼                                                           │
+</span></span><span class="line"><span class="cl">   ┌─────────────────────────────────────────┐                                  │
+</span></span><span class="line"><span class="cl">   │  SUPPORT                                │                                  │
+</span></span><span class="line"><span class="cl">   │  Monitoring &amp; alerts                    │                                  │
+</span></span><span class="line"><span class="cl">   │            ▼                            │                                  │
+</span></span><span class="line"><span class="cl">   │  Agent triage vs design + transcripts ──┼──── reads history ───────────────┘
+</span></span><span class="line"><span class="cl">   │            ▼                            │
+</span></span><span class="line"><span class="cl">   │  Issues feed back to Slack ─────────────┼──── (loop closes) ──▶ back to top
+</span></span><span class="line"><span class="cl">   └─────────────────────────────────────────┘
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                ┌──────────────────────────────────────────────┐
+</span></span><span class="line"><span class="cl">                │  Nightly design CI  (idea, not live yet)     │
+</span></span><span class="line"><span class="cl">                │  would cross-check code ↔ design ↔ spec,     │
+</span></span><span class="line"><span class="cl">                │  and flag drift into Slack each morning      │
+</span></span><span class="line"><span class="cl">                └──────────────────────────────────────────────┘
+</span></span></code></pre></div><p>A few things in this picture are worth pulling out. The GitHub repo is the gravitational centre - every other surface either feeds it or reads from it. Meeting transcripts land in it directly, so the agents that triage a production incident can read what was said in the design review nine months ago. The nightly design CI in the diagram is an idea, not something I have running yet - today the same job is done by hand, with me asking Cursor in the IDE chat to update the docs and code when something drifts. And the support loop closes back into Slack, so a real-world issue becomes a new Slack thread, which becomes a new design decision, which becomes a new spec, which becomes new code. The whole thing is one cycle, not a line.</p>
+<h2 id="all-the-design-work-centralised">All the design work, centralised<a hidden class="anchor" aria-hidden="true" href="#all-the-design-work-centralised">#</a></h2>
+<p>Everything now lives in a single Cursor workspace, backed by GitHub - meeting notes, design discussions, data models, business rules, sample data, and Mermaid process and data flow diagrams. The <a href="https://www.writethedocs.org/guide/docs-as-code/">docs-as-code</a> philosophy was right ten years ago and is more right now, because the tools that read the docs are also the tools that maintain them.</p>
+<p>Crucially, <strong>every meeting is transcribed and the transcript is checked into GitHub</strong> alongside the design corpus. That means the agents have access to the full historical record - not just the curated decisions, but the conversations that led to them. When Claude Code is asked <em>why</em> a particular choice was made, it does not have to guess. It can read the room from six months ago. This single change has done more for the quality of AI-suggested designs than any prompt-engineering trick I have tried, because the model is no longer reasoning from a sanitised summary; it is reasoning from the actual debate.</p>
+<p>On top of that, <strong>everything is cross-checked regularly</strong> - though for now that cross-checking is a manual habit, not an automated job. I lean on Cursor&rsquo;s IDE chat to walk the repo with me and ask one question over and over: does the code still match the design, and does the design still match itself? Drift gets flagged the day I look, not the quarter it appears. The plan is to hand this off to a scheduled agent so it happens overnight without me, but that is the next step, not the current state. Either way, it is the difference between documentation as an artefact and documentation as a system.</p>
+<p>Cursor does not just store. It thinks. It restructures documents, surfaces related concepts, and finds connections I would not have noticed. During design reviews it has become a running joke - I will suggest adding something, and someone will reply, &ldquo;No James, it is already there.&rdquo; And it is, perfectly phrased and in exactly the right place.</p>
+<p>For the design-heavy phase I am in, this setup is saving weeks. It maintains a living, self-updating documentation set, flags inconsistencies, highlights conflicting decisions, and reminds us about unfinished actions. I also wrote a small script that merges every Markdown file in the corpus into a single concatenated <code>.md</code>, which I upload to a custom GPT for deeper synthesis when I want a second opinion on the entire design at once.</p>
+<h2 id="ai-assisted-meeting-notes-review">AI-assisted meeting notes review<a hidden class="anchor" aria-hidden="true" href="#ai-assisted-meeting-notes-review">#</a></h2>
+<p>Even meeting notes go through a review pass. I have a model check every note for tone, professionalism, and objectivity before it is shared. The output is a simple two-list report - what the notes correctly include (technical summaries, task assignments, design and architecture decisions, professional references to teammates) and what they are clean of (biased language, personal remarks, controversial opinions).</p>
+<p>The notes are stakeholder-ready by the time they leave my machine, with a neutral, business-like tone that reflects how I want my team&rsquo;s work to land in the rest of the organisation. This single pass has eliminated a class of after-the-fact edits that used to chew up an hour a week.</p>
+<h2 id="the-real-breakthrough-is-cognitive-flow">The real breakthrough is cognitive flow<a hidden class="anchor" aria-hidden="true" href="#the-real-breakthrough-is-cognitive-flow">#</a></h2>
+<p>The transformation I did not predict is in mental flow. There is no context switching. The iteration loop is so fast that I can make complex design decisions in real time, while the problem is still fresh in my head.</p>
+<p>Before, I would constantly postpone things - &ldquo;I will come back to that later.&rdquo; Now those delays are mostly gone. It is not that AI made me cleverer. It removed the friction between thinking and recording, so the thinking does not get lost waiting for the recording to catch up. It feels like working in a state of continuous clarity, which is the part I would miss most if you took it away.</p>
+<p>This connects to a point I have been trying to articulate in a <a href="/ai/automation-paradox/">previous post on judgment and execution</a> - when execution becomes cheap, the only thing worth optimising for is the quality of the next decision. Cognitive flow is what lets you actually deliver on that.</p>
+<h2 id="ai-is-racing-ahead-and-i-am-the-bottleneck">AI is racing ahead, and I am the bottleneck<a hidden class="anchor" aria-hidden="true" href="#ai-is-racing-ahead-and-i-am-the-bottleneck">#</a></h2>
+<p>For the first time, I genuinely feel how quickly AI is pulling ahead. It suggests best practices and design improvements that are correct - but I often cannot implement them immediately because I am still finishing previously committed work. The AI is moving faster than my human brain can deliver, and the queue of &ldquo;we should also do this&rdquo; is growing.</p>
+<p>This has made me think seriously about automating the next stage. Three things are on the experiment list:</p>
+<ul>
+<li><strong>A code refactoring automation system</strong> that takes a model&rsquo;s structured suggestion and applies it as a draft pull request, ready for human review.</li>
+<li><strong>A regression suite the AI can call autonomously</strong>, so the model can verify its own refactor against behavioural expectations before asking for a human eye.</li>
+<li><strong>Overnight tasks</strong> - letting agents refactor designs, regenerate diagrams, or verify logic while I sleep, so I wake up to a fresh, reconciled system and a morning report in Slack.</li>
+</ul>
+<p>The constraint here is not capability. The constraint is verbosity. AI produces so much documentation that I now spend a non-trivial slice of the week compacting, deduplicating, and structuring it across multiple docs. The fix I am converging on is to invert the role - rather than asking the model to <em>generate</em> docs, I ask it to <em>compact</em> them, reducing each document to its load-bearing claims and pushing the detail into appendices the human reader can ignore. Generation is the easy half of the job. Compaction is the half that takes taste.</p>
+<h2 id="managing-multiple-design-states">Managing multiple design states<a hidden class="anchor" aria-hidden="true" href="#managing-multiple-design-states">#</a></h2>
+<p>I am currently maintaining three parallel views of the design.</p>
+<ol>
+<li><strong>Current</strong> - the implemented, production-aligned version.</li>
+<li><strong>Next or immediate future</strong> - improvements currently in flight.</li>
+<li><strong>Long-term or ideal end state</strong> - the architecture vision we are pulling towards.</li>
+</ol>
+<p>Each has its own lifecycle, dependencies, and assumptions. The interesting question is how to store them.</p>
+<p>My initial instinct was feature branches. The more I sit with it, the more I think subfolders are the right answer - <code>current/</code>, <code>next/</code>, <code>north-star/</code> - with a small README in each that names the lifecycle and the dependencies. Branches obscure the parallel views, because you cannot see them side by side. Subfolders let the AI read all three at once and reason about the deltas. The reconciliation between them becomes a first-class workflow rather than a merge conflict.</p>
+<p>The nightly &ldquo;design CI&rdquo; I mentioned earlier is the same idea applied to these three folders, and it is still an idea rather than a running pipeline. Today I do the equivalent by hand inside Cursor&rsquo;s IDE chat - asking it to walk all three folders, regenerate Mermaid diagrams, flag drift between the spec and the code, and reconcile deltas between the layers. The aspiration is to hand that off to a scheduled agent that posts a morning report into Slack while I sleep. This is the <a href="/ai/spec-driven-development/">spec-driven</a> idea taken one step further: the spec is not just a target, it is a living artefact that an agent audits against meeting transcripts, code, and design docs that all live in the same repo.</p>
+<h2 id="the-result">The result<a hidden class="anchor" aria-hidden="true" href="#the-result">#</a></h2>
+<p>This AI-augmented workflow has reshaped not just how the team works, but how I think about working. The headline outcomes are the obvious ones - instant iteration loops, automated documentation and visualisation, proactive surfacing of design insights, and AI-driven suggestions that go beyond human bandwidth. The deeper change is harder to summarise.</p>
+<p>The role of the senior engineer is starting to look less like &ldquo;the person who writes the design&rdquo; and more like &ldquo;the person who curates the design the AI maintains.&rdquo; The taste, the constraints, the willingness to say <em>no, not that</em> - those still belong to the humans. Everything downstream of those judgments is increasingly machine work.</p>
+<p>It is efficient, creative, and constantly evolving. And even though it is already miles ahead of me, I am doing my best to keep up.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai/">AI</a></li>
+      <li><a href="https://jamesm.blog/tags/workflow/">Workflow</a></li>
+      <li><a href="https://jamesm.blog/tags/cursor/">Cursor</a></li>
+      <li><a href="https://jamesm.blog/tags/claude-code/">Claude-Code</a></li>
+      <li><a href="https://jamesm.blog/tags/codex/">Codex</a></li>
+      <li><a href="https://jamesm.blog/tags/documentation/">Documentation</a></li>
+      <li><a href="https://jamesm.blog/tags/spec-driven/">Spec-Driven</a></li>
+      <li><a href="https://jamesm.blog/tags/design/">Design</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://jamesm.blog/ai/fine-tune-vs-rag/">
+    <span class="title">Next »</span>
+    <span>When to Fine-Tune vs When to RAG: Choosing Your AI Architecture</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision on x"
+            href="https://x.com/intent/tweet/?text=My%20AI-Augmented%20Design%20Workflow%3a%20A%2010-Minute%20Loop%20From%20Slack%20to%20Documented%20Decision&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f&amp;hashtags=ai%2cworkflow%2ccursor%2cclaude-code%2ccodex%2cdocumentation%2cspec-driven%2cdesign">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f&amp;title=My%20AI-Augmented%20Design%20Workflow%3a%20A%2010-Minute%20Loop%20From%20Slack%20to%20Documented%20Decision&amp;summary=My%20AI-Augmented%20Design%20Workflow%3a%20A%2010-Minute%20Loop%20From%20Slack%20to%20Documented%20Decision&amp;source=https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f&title=My%20AI-Augmented%20Design%20Workflow%3a%20A%2010-Minute%20Loop%20From%20Slack%20to%20Documented%20Decision">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision on whatsapp"
+            href="https://api.whatsapp.com/send?text=My%20AI-Augmented%20Design%20Workflow%3a%20A%2010-Minute%20Loop%20From%20Slack%20to%20Documented%20Decision%20-%20https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision on telegram"
+            href="https://telegram.me/share/url?text=My%20AI-Augmented%20Design%20Workflow%3a%20A%2010-Minute%20Loop%20From%20Slack%20to%20Documented%20Decision&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=My%20AI-Augmented%20Design%20Workflow%3a%20A%2010-Minute%20Loop%20From%20Slack%20to%20Documented%20Decision&u=https%3a%2f%2fjamesm.blog%2fai%2fai-augmented-design-workflow%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

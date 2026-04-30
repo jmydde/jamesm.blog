@@ -1,6 +1,6 @@
 ---
 title: "Where Should Documentation Actually Live? Thinking Out Loud in the AI Era"
-date: 2026-04-24T14:30:00+01:00
+date: 2026-04-29T07:30:00+01:00
 draft: true
 tags: ['devops', 'documentation', 'knowledge-management', 'ai', 'workflow', 'confluence']
 description: "A brainstorm - not a proposal - on where different types of documents and artefacts should live, what the source of truth should be, and how AI tooling is reshaping that question."

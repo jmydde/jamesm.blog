@@ -3,10 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-04-28T00:48:00+01:00</lastmod>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/</loc>
-    <lastmod>2026-04-28T00:48:00+01:00</lastmod>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/claude-code/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/codex/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/cursor/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/design/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/documentation/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/ai-augmented-design-workflow/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/spec-driven/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/workflow/</loc>
+    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/agentic-engineering/</loc>
+    <lastmod>2026-04-29T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/architecture/</loc>
+    <lastmod>2026-04-29T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/fine-tuning/</loc>
+    <lastmod>2026-04-29T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/llm/</loc>
+    <lastmod>2026-04-29T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/rag/</loc>
+    <lastmod>2026-04-29T08:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/fine-tune-vs-rag/</loc>
+    <lastmod>2026-04-29T08:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/economy/</loc>
     <lastmod>2026-04-28T00:48:00+01:00</lastmod>
@@ -14,16 +62,10 @@
     <loc>https://jamesm.blog/tags/future/</loc>
     <lastmod>2026-04-28T00:48:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-04-28T00:48:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/labour/</loc>
     <lastmod>2026-04-28T00:48:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/society/</loc>
-    <lastmod>2026-04-28T00:48:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-04-28T00:48:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/free-intelligence-era/</loc>
@@ -71,16 +113,10 @@
     <loc>https://jamesm.blog/tags/wellness/</loc>
     <lastmod>2026-04-28T00:12:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/agentic-engineering/</loc>
-    <lastmod>2026-04-28T00:02:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</loc>
     <lastmod>2026-04-28T00:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/hallucinations/</loc>
-    <lastmod>2026-04-28T00:02:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/llm/</loc>
     <lastmod>2026-04-28T00:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/reliability/</loc>
@@ -117,9 +153,6 @@
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</loc>
-    <lastmod>2026-04-23T21:01:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/architecture/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/data-engineering/</loc>
@@ -206,10 +239,10 @@
     <loc>https://jamesm.blog/tags/ci-cd/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/kubernetes/</loc>
@@ -251,13 +284,7 @@
     <loc>https://jamesm.blog/tags/memory/</loc>
     <lastmod>2026-04-22T19:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/rag/</loc>
-    <lastmod>2026-04-22T19:30:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/acquisition/</loc>
-    <lastmod>2026-04-22T19:16:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/cursor/</loc>
     <lastmod>2026-04-22T19:16:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/spacex/</loc>
@@ -324,9 +351,6 @@
     <lastmod>2026-04-21T21:48:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-tooling-learning-path/</loc>
-    <lastmod>2026-04-21T19:07:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/claude-code/</loc>
     <lastmod>2026-04-21T19:07:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/cline/</loc>
@@ -896,9 +920,6 @@
     <loc>https://jamesm.blog/tags/tactility/</loc>
     <lastmod>2026-04-08T07:50:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/workflow/</loc>
-    <lastmod>2026-04-08T07:50:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/data-engineering/following-the-money/</loc>
     <lastmod>2026-04-08T07:40:00+01:00</lastmod>
   </url><url>
@@ -973,9 +994,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/work-life-balance/</loc>
     <lastmod>2026-04-07T11:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/design/</loc>
-    <lastmod>2026-04-07T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/launch-vehicles/</loc>
     <lastmod>2026-04-07T10:00:00+01:00</lastmod>
