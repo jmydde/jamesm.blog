@@ -11,17 +11,52 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 08:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 06:32:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent</title>
+      <link>https://jamesm.blog/tags/agent/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agent/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Claude-Code</title>
+      <title>Claude</title>
+      <link>https://jamesm.blog/tags/claude/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt</title>
+      <link>https://jamesm.blog/tags/prompt/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/prompt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skill</title>
+      <link>https://jamesm.blog/tags/skill/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/skill/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tooling</title>
+      <link>https://jamesm.blog/tags/tooling/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/tooling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude Code</title>
       <link>https://jamesm.blog/tags/claude-code/</link>
       <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/claude-code/</guid>
@@ -175,7 +210,7 @@
       <description></description>
     </item>
     <item>
-      <title>Personal Development</title>
+      <title>Personal-Development</title>
       <link>https://jamesm.blog/tags/personal-development/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/personal-development/</guid>
@@ -273,13 +308,6 @@
       <description></description>
     </item>
     <item>
-      <title>Agent</title>
-      <link>https://jamesm.blog/tags/agent/</link>
-      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/agent/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data-Engineering</title>
       <link>https://jamesm.blog/tags/data-engineering/</link>
       <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
@@ -305,13 +333,6 @@
       <link>https://jamesm.blog/tags/chatgpt/</link>
       <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/chatgpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://jamesm.blog/tags/claude/</link>
-      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -441,7 +462,7 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Wed, 22 Apr 2026 21:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -623,7 +644,7 @@
       <description></description>
     </item>
     <item>
-      <title>Cursor Ai</title>
+      <title>Cursor-Ai</title>
       <link>https://jamesm.blog/tags/cursor-ai/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor-ai/</guid>
@@ -651,7 +672,7 @@
       <description></description>
     </item>
     <item>
-      <title>Aws</title>
+      <title>AWS</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -1050,7 +1071,7 @@
       <description></description>
     </item>
     <item>
-      <title>Software Synth</title>
+      <title>Software-Synth</title>
       <link>https://jamesm.blog/tags/software-synth/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/software-synth/</guid>
@@ -1113,7 +1134,7 @@
       <description></description>
     </item>
     <item>
-      <title>Life-Purpose</title>
+      <title>Life Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
@@ -1743,13 +1764,6 @@
       <description></description>
     </item>
     <item>
-      <title>Skill</title>
-      <link>https://jamesm.blog/tags/skill/</link>
-      <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/tags/skill/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Delta-Lake</title>
       <link>https://jamesm.blog/tags/delta-lake/</link>
       <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
@@ -1792,7 +1806,7 @@
       <description></description>
     </item>
     <item>
-      <title>Spec Kit</title>
+      <title>Spec-Kit</title>
       <link>https://jamesm.blog/tags/spec-kit/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spec-kit/</guid>

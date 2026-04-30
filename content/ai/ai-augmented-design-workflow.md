@@ -1,5 +1,5 @@
 ---
-title: "My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision"
+title: "My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision"
 date: 2026-04-29T08:30:00+01:00
 draft: false
 tags: ['ai', 'workflow', 'cursor', 'claude-code', 'codex', 'documentation', 'spec-driven', 'design']

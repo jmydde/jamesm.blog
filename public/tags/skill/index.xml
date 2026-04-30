@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 06:32:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/skill/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Skills: One Folder, Any Model</title>
+      <link>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</guid>
+      <description>What Claude Code skills actually are under the hood, why the SKILL.md format is model-agnostic, and how the same folder can drive Claude, Gemini, Codex, and a dozen other agents without changes.</description>
+    </item>
     <item>
       <title>What Does &#39;Expertise&#39; Mean When AI Can Pass Any Exam?</title>
       <link>https://jamesm.blog/ai/expertise-after-ai/</link>

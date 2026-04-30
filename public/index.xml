@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 08:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 06:32:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My AI-Augmented Design Workflow: A 10-Minute Loop From Slack to Documented Decision</title>
+      <title>AI Skills: One Folder, Any Model</title>
+      <link>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</guid>
+      <description>What Claude Code skills actually are under the hood, why the SKILL.md format is model-agnostic, and how the same folder can drive Claude, Gemini, Codex, and a dozen other agents without changes.</description>
+    </item>
+    <item>
+      <title>My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision</title>
       <link>https://jamesm.blog/ai/ai-augmented-design-workflow/</link>
       <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ai-augmented-design-workflow/</guid>
