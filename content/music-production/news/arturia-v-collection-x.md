@@ -2,7 +2,7 @@
 title: "News: Arturia Collection X"
 date: 2023-12-12T09:53:39+01:00
 draft: false
-tags: [‘music production’, ‘arturia’, ‘plugins’, ‘vsts’, ‘virtual instruments’, ‘news’, ‘software’]
+tags: ['music production', 'arturia', 'plugins', 'vsts', 'virtual instruments', 'news', 'software']
 description: "Announcement of Arturia V Collection X featuring 39 professional software instruments and sound emulations."
 ---
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>‘Ai’ on jamesm.blog</title>
+    <title>Ai on jamesm.blog</title>
     <link>https://jamesm.blog/tags/ai/</link>
-    <description>Recent content in ‘Ai’ on jamesm.blog</description>
+    <description>Recent content in Ai on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,8 +11,903 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Mar 2024 07:16:25 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 19:19:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting Claude to Ableton: Why the New Knowledge Connector Matters</title>
+      <link>https://jamesm.blog/music-production/claude-ableton-connector/</link>
+      <pubDate>Thu, 30 Apr 2026 19:19:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/claude-ableton-connector/</guid>
+      <description>Anthropic just shipped an official Ableton Knowledge connector for Claude. Here is what it actually does, how it differs from the community AbletonMCP project, and why it changes how you learn Live and Push.</description>
+    </item>
+    <item>
+      <title>A Year of Agents, and What is Coming Next</title>
+      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
+      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
+      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
+    </item>
+    <item>
+      <title>AI Safety From First Principles: What Actually Matters vs What&#39;s Hype</title>
+      <link>https://jamesm.blog/ai/ai-safety-first-principles/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-safety-first-principles/</guid>
+      <description>Stripping the AI safety conversation down to its load-bearing parts, separating the engineering problems that matter today from the speculative scenarios that absorb most of the attention.</description>
+    </item>
+    <item>
+      <title>AI Skills: One Folder, Any Model</title>
+      <link>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</link>
+      <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</guid>
+      <description>What Claude Code skills actually are under the hood, why the SKILL.md format is model-agnostic, and how the same folder can drive Claude, Gemini, Codex, and a dozen other agents without changes.</description>
+    </item>
+    <item>
+      <title>My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision</title>
+      <link>https://jamesm.blog/ai/ai-augmented-design-workflow/</link>
+      <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-augmented-design-workflow/</guid>
+      <description>How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design.</description>
+    </item>
+    <item>
+      <title>When to Fine-Tune vs When to RAG: Choosing Your AI Architecture</title>
+      <link>https://jamesm.blog/ai/fine-tune-vs-rag/</link>
+      <pubDate>Wed, 29 Apr 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/fine-tune-vs-rag/</guid>
+      <description>A practical decision framework for choosing between fine-tuning and retrieval-augmented generation, the failure modes of picking the wrong one, and the hybrid patterns that quietly do most of the heavy lifting in production.</description>
+    </item>
+    <item>
+      <title>The Free Intelligence Era: What Breaks When Thinking Costs Nothing</title>
+      <link>https://jamesm.blog/ai/free-intelligence-era/</link>
+      <pubDate>Tue, 28 Apr 2026 00:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/free-intelligence-era/</guid>
+      <description>The single most important economic fact about AI is that the marginal cost of intelligence is collapsing toward zero. Most of our institutions, careers, and pricing models were built for the regime where it was scarce. This is what breaks when thinking goes from expensive to nearly free, and what that future actually rewards.</description>
+    </item>
+    <item>
+      <title>The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?</title>
+      <link>https://jamesm.blog/ai/junior-developer-pipeline-problem/</link>
+      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/junior-developer-pipeline-problem/</guid>
+      <description>Most of the AI-and-developers conversation assumes a steady supply of senior engineers who can curate, review, and judge. But the work that used to produce those seniors is the work AI now does. Where does the next generation come from?</description>
+    </item>
+    <item>
+      <title>AI Hallucinations: Understanding and Mitigating False Outputs</title>
+      <link>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</link>
+      <pubDate>Tue, 28 Apr 2026 00:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-hallucinations-understanding-and-mitigating/</guid>
+      <description>What hallucinations actually are, why the word is a slightly misleading import from psychiatry, why no model will ever stop producing them entirely, and the small set of techniques that genuinely move the dial on false outputs in production.</description>
+    </item>
+    <item>
+      <title>GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?</title>
+      <link>https://jamesm.blog/ai/gpt-5-5-release/</link>
+      <pubDate>Fri, 24 Apr 2026 07:51:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/gpt-5-5-release/</guid>
+      <description>OpenAI shipped GPT-5.5 on April 23, 2026 - the first fully retrained base model since GPT-4.5. A look at the benchmarks, the new features, and whether this release actually matters.</description>
+    </item>
+    <item>
+      <title>The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting</title>
+      <link>https://jamesm.blog/ai/meaning-of-work-age-of-abundance/</link>
+      <pubDate>Thu, 23 Apr 2026 23:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/meaning-of-work-age-of-abundance/</guid>
+      <description>If agents end up doing the execution, what are we for? Some thinking out loud about purpose, identity, and what a working life might look like when the labour layer is automated.</description>
+    </item>
+    <item>
+      <title>Agent-First Architecture: The Engineer as System Curator</title>
+      <link>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</link>
+      <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</guid>
+      <description>Some thoughts on where agent-first architecture might take us, and what engineering could look like if the job shifts from building systems line by line to curating, governing, and evolving fleets of agents.</description>
+    </item>
+    <item>
+      <title>Is the $20 AI Subscription Era Over?</title>
+      <link>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</link>
+      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</guid>
+      <description>Every major AI provider is quietly repositioning the $20/month tier. Here&amp;#39;s what&amp;#39;s happening at Anthropic, OpenAI, Google, Microsoft, xAI, and what monthly prices are likely to look like by the end of 2026.</description>
+    </item>
+    <item>
+      <title>Meta Is Tracking Its Own Employees to Train AI Agents</title>
+      <link>https://jamesm.blog/ai/meta-employee-tracking/</link>
+      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/meta-employee-tracking/</guid>
+      <description>Meta&amp;#39;s Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out.</description>
+    </item>
+    <item>
+      <title>ChatGPT Images 2.0: Why Everyone Is Impressed</title>
+      <link>https://jamesm.blog/ai/chatgpt-images-2/</link>
+      <pubDate>Thu, 23 Apr 2026 06:52:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/chatgpt-images-2/</guid>
+      <description>ChatGPT Images 2.0 arrives with thinking mode, web-search-informed generation, and text rendering that actually works. Here&amp;#39;s what changed and why the reaction has been so positive.</description>
+    </item>
+    <item>
+      <title>AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion</title>
+      <link>https://jamesm.blog/music-production/ai-music-tools-shootout-2026/</link>
+      <pubDate>Wed, 22 Apr 2026 22:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/ai-music-tools-shootout-2026/</guid>
+      <description>A head-to-head look at the AI music generation tools that actually matter in 2026 - Suno, Udio, AIVA, and Riffusion - and where each one earns its place in a producer&amp;#39;s workflow.</description>
+    </item>
+    <item>
+      <title>Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopting It</title>
+      <link>https://jamesm.blog/devops/platform-engineering-2026/</link>
+      <pubDate>Wed, 22 Apr 2026 21:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/platform-engineering-2026/</guid>
+      <description>A practical guide to platform engineering in 2026 - what an internal developer platform actually is, why DevOps teams are adopting it, and how AI agents are reshaping the discipline.</description>
+    </item>
+    <item>
+      <title>AI Law Is No Longer Theoretical: What&#39;s Here, What&#39;s Coming, and What It Means</title>
+      <link>https://jamesm.blog/ai/ai-law-trends-2026/</link>
+      <pubDate>Wed, 22 Apr 2026 21:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-law-trends-2026/</guid>
+      <description>The legal frameworks around AI are shifting fast. The EU AI Act is in force, copyright battles are mounting in US courts, and liability questions are landing on businesses whether they are ready or not.</description>
+    </item>
+    <item>
+      <title>Giving Your Home AI Agent Memory That Lasts</title>
+      <link>https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/</link>
+      <pubDate>Wed, 22 Apr 2026 19:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/</guid>
+      <description>An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite.</description>
+    </item>
+    <item>
+      <title>SpaceX Buys the Right to Buy Cursor for $60 Billion</title>
+      <link>https://jamesm.blog/ai/spacex-cursor-60-billion-option/</link>
+      <pubDate>Wed, 22 Apr 2026 19:16:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/spacex-cursor-60-billion-option/</guid>
+      <description>SpaceX has taken an option to acquire Cursor for $60 billion later this year, or pay $10 billion for a joint build. A look at the deal structure, what it tells us about xAI&amp;#39;s coding ambitions, and why Anysphere is suddenly the most sought-after company in developer tools.</description>
+    </item>
+    <item>
+      <title>Learning How to Learn in the Age of AI</title>
+      <link>https://jamesm.blog/personal-development/learning-how-to-learn-in-the-age-of-ai/</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/personal-development/learning-how-to-learn-in-the-age-of-ai/</guid>
+      <description>When an AI can answer any question instantly, the old study habits stop working. A practical guide to rebuilding your learning process so you still end up with skills, not just finished tasks.</description>
+    </item>
+    <item>
+      <title>Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio</title>
+      <link>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</link>
+      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</guid>
+      <description>The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac Studio to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability.</description>
+    </item>
+    <item>
+      <title>How to Phone Your Home AI Agent Running on a Mac Studio</title>
+      <link>https://jamesm.blog/ai/phone-your-home-ai-agent/</link>
+      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/phone-your-home-ai-agent/</guid>
+      <description>A practical walkthrough of the stack I use to literally phone my Mac Studio, speak to a local AI agent, and get it to run or check work while I&amp;#39;m away from the desk.</description>
+    </item>
+    <item>
+      <title>An AI Tooling Learning Path: Logical Phases for 2026</title>
+      <link>https://jamesm.blog/ai/ai-tooling-learning-path/</link>
+      <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-tooling-learning-path/</guid>
+      <description>A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals.</description>
+    </item>
+    <item>
+      <title>Amazon Doubles Down: The $25 Billion Anthropic Bet</title>
+      <link>https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/</link>
+      <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/</guid>
+      <description>Amazon announces up to $25 billion additional investment in Anthropic, with Anthropic committing over $100 billion to AWS over the next decade.</description>
+    </item>
+    <item>
+      <title>The Year 3026: Thinking Seriously About a Thousand Years From Now</title>
+      <link>https://jamesm.blog/ai/the-year-3026/</link>
+      <pubDate>Mon, 20 Apr 2026 22:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/the-year-3026/</guid>
+      <description>A thousand years is long enough that nothing we currently call a company, a currency, or a country is likely to survive. What does thinking seriously about 3026 actually look like - and what, if anything, holds its value across that horizon?</description>
+    </item>
+    <item>
+      <title>The Year 2126: What the Next Hundred Years Actually Looks Like</title>
+      <link>https://jamesm.blog/ai/the-year-2126/</link>
+      <pubDate>Mon, 20 Apr 2026 21:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/the-year-2126/</guid>
+      <description>A hundred years is close enough to reason about concretely and far enough that most of what feels fixed today will be gone. What does 2126 honestly look like - and which of today&amp;#39;s problems have we solved by then, which have we inherited, and which are entirely new?</description>
+    </item>
+    <item>
+      <title>Reading the Signals: Which of the Four Futures Is Actually Emerging?</title>
+      <link>https://jamesm.blog/ai/reading-the-signals-four-futures/</link>
+      <pubDate>Mon, 20 Apr 2026 20:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/reading-the-signals-four-futures/</guid>
+      <description>A follow-up to the four futures framework - scoring the real-world signals firing right now against broad abundance, winner-take-most, techno-feudalism, and managed transition.</description>
+    </item>
+    <item>
+      <title>Hermes Agent: Persistent Autonomy That Learns and Grows</title>
+      <link>https://jamesm.blog/ai/hermes-agent/</link>
+      <pubDate>Mon, 20 Apr 2026 19:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/hermes-agent/</guid>
+      <description>Nous Research&amp;#39;s Hermes Agent is an open-source, persistent autonomous system. A look at features, use cases, pricing, and how it compares to OpenClaw, Claude Managed Agents, and Perplexity Computer.</description>
+    </item>
+    <item>
+      <title>MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared</title>
+      <link>https://jamesm.blog/ai/mac-dictation-tools-comparison/</link>
+      <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mac-dictation-tools-comparison/</guid>
+      <description>A practical breakdown of the three dictation apps every Mac user keeps hearing about - who they&amp;#39;re for, what they cost, and where they stop being interchangeable.</description>
+    </item>
+    <item>
+      <title>Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse</title>
+      <link>https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/</link>
+      <pubDate>Mon, 20 Apr 2026 07:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/</guid>
+      <description>Anthropic&amp;#39;s Claude Opus 4.7 is now available inside Databricks, bringing 21% fewer document reasoning errors on OfficeQA Pro and first-class Agent Bricks support to governed enterprise workflows.</description>
+    </item>
+    <item>
+      <title>Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale</title>
+      <link>https://jamesm.blog/ai/grok-voice-apis/</link>
+      <pubDate>Sun, 19 Apr 2026 21:07:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/grok-voice-apis/</guid>
+      <description>xAI launches standalone Speech-to-Text and Text-to-Speech APIs, bringing production-grade voice capabilities to developers at competitive pricing.</description>
+    </item>
+    <item>
+      <title>Four Futures for the Machine-Speed Economy</title>
+      <link>https://jamesm.blog/ai/four-futures-machine-speed-economy/</link>
+      <pubDate>Sun, 19 Apr 2026 19:26:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/four-futures-machine-speed-economy/</guid>
+      <description>A map of four plausible futures - broad abundance, winner-take-most, techno-feudalism, and a managed transition - with the signals that suggest which one is emerging.</description>
+    </item>
+    <item>
+      <title>The Next Decade of AI: What Actually Happens From Here</title>
+      <link>https://jamesm.blog/ai/the-next-decade-of-ai/</link>
+      <pubDate>Sun, 19 Apr 2026 07:55:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/the-next-decade-of-ai/</guid>
+      <description>Most predictions about the future of AI are either utopian or apocalyptic. The real trajectory is stranger and more interesting than both - and it&amp;#39;s already visible if you look at what&amp;#39;s quietly working right now.</description>
+    </item>
+    <item>
+      <title>AI Cloud Subscriptions: Comparing Pricing and Features in 2026</title>
+      <link>https://jamesm.blog/ai/ai-cloud-subscriptions/</link>
+      <pubDate>Sun, 19 Apr 2026 07:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-cloud-subscriptions/</guid>
+      <description>A 2026 buyer&amp;#39;s guide to AI cloud subscriptions. Compare API pricing, context windows, rate limits, and consumer plans across Anthropic, OpenAI, Google, Microsoft, xAI, Mistral, and DeepSeek.</description>
+    </item>
+    <item>
+      <title>DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?</title>
+      <link>https://jamesm.blog/ai/dgx-spark-vs-mac-studio/</link>
+      <pubDate>Sun, 19 Apr 2026 05:22:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/dgx-spark-vs-mac-studio/</guid>
+      <description>An in-depth comparison of NVIDIA DGX Spark and Apple Mac Studio for local LLM inference. Includes specifications, pricing, performance benchmarks, and cost analysis to help you choose the right personal AI supercomputer.</description>
+    </item>
+    <item>
+      <title>The Complete AI Developer&#39;s Guide: Resources and Best Practices</title>
+      <link>https://jamesm.blog/ai/ai-resources-and-best-practices/</link>
+      <pubDate>Sat, 18 Apr 2026 08:15:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-resources-and-best-practices/</guid>
+      <description>A comprehensive guide to the best resources and practices for working effectively with AI models, from prompt engineering to system design.</description>
+    </item>
+    <item>
+      <title>Which Mac Studio Should You Buy for Running LLMs Locally?</title>
+      <link>https://jamesm.blog/ai/mac-studio-local-llm-guide/</link>
+      <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mac-studio-local-llm-guide/</guid>
+      <description>A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense.</description>
+    </item>
+    <item>
+      <title>AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know</title>
+      <link>https://jamesm.blog/ai/ai-reliability-is-weird/</link>
+      <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/ai-reliability-is-weird/</guid>
+      <description>Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the &amp;#39;builder&amp;#39; is non-deterministic.</description>
+    </item>
+    <item>
+      <title>Cline: The Next Generation AI Coding Assistant</title>
+      <link>https://jamesm.blog/ai/cline/</link>
+      <pubDate>Thu, 09 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline/</guid>
+      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
+    </item>
+    <item>
+      <title>Career-Ops: Flipping the Script on AI-Powered Job Search</title>
+      <link>https://jamesm.blog/ai/career-ops/</link>
+      <pubDate>Thu, 09 Apr 2026 07:25:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/career-ops/</guid>
+      <description>Career-Ops inverts the typical job-search power dynamic by giving candidates AI-powered tools to intelligently evaluate and prioritize opportunities, automate application workflows, and maintain strategic control over their career decisions.</description>
+    </item>
+    <item>
+      <title>Cline &#43; Kanban: Autonomous Development Meets Project Management</title>
+      <link>https://jamesm.blog/ai/cline-kanban/</link>
+      <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline-kanban/</guid>
+      <description>How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management.</description>
+    </item>
+    <item>
+      <title>The LLM Context Window Arms Race: Does It Actually Matter?</title>
+      <link>https://jamesm.blog/ai/llm-context-window-arms-race/</link>
+      <pubDate>Thu, 09 Apr 2026 06:14:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/llm-context-window-arms-race/</guid>
+      <description>The obsession with massive context windows misses what actually matters in production LLM systems</description>
+    </item>
+    <item>
+      <title>Token Economics: Why the Cost of AI Isn&#39;t Going Down</title>
+      <link>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</link>
+      <pubDate>Thu, 09 Apr 2026 06:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</guid>
+      <description>Despite massive scale and competition, LLM pricing hasn&amp;#39;t meaningfully declined. Here&amp;#39;s why the fundamentals don&amp;#39;t support cheaper AI.</description>
+    </item>
+    <item>
+      <title>Local AI vs Cloud AI: The Tradeoff Landscape in 2026</title>
+      <link>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</link>
+      <pubDate>Thu, 09 Apr 2026 06:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</guid>
+      <description>In 2026, the choice between running AI locally or in the cloud is no longer a binary one. It is a strategic architectural decision based on privacy, latency, and &amp;#39;reasoning density&amp;#39;.</description>
+    </item>
+    <item>
+      <title>GitHub Is Now Officially Backing OpenClaw</title>
+      <link>https://jamesm.blog/ai/github-backing-openclaw/</link>
+      <pubDate>Wed, 08 Apr 2026 08:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-backing-openclaw/</guid>
+      <description>GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, providing Copilot Pro&#43; and security funding.</description>
+    </item>
+    <item>
+      <title>Claude Code vs Cursor: A 6-Month Comparison</title>
+      <link>https://jamesm.blog/ai/claude-code-vs-cursor/</link>
+      <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-code-vs-cursor/</guid>
+      <description>After six months of daily use, here is how the two heavyweights of AI-assisted coding compare: the terminal-native Claude Code and the IDE-integrated Cursor.</description>
+    </item>
+    <item>
+      <title>The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power</title>
+      <link>https://jamesm.blog/ai/claude-mythos-restricted/</link>
+      <pubDate>Wed, 08 Apr 2026 06:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-mythos-restricted/</guid>
+      <description>Anthropic&amp;#39;s Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI&amp;#39;s immense power demands unprecedented control.</description>
+    </item>
+    <item>
+      <title>The Automation Paradox: Why More AI Makes Human Judgment More Valuable</title>
+      <link>https://jamesm.blog/ai/automation-paradox/</link>
+      <pubDate>Tue, 07 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/automation-paradox/</guid>
+      <description>As AI handles routine cognitive work, the irreplaceable skill becomes not execution, but deciding what&amp;#39;s worth doing - and why human judgment becomes more valuable, not less.</description>
+    </item>
+    <item>
+      <title>Spec-Driven Development: When the Brief Becomes the Product</title>
+      <link>https://jamesm.blog/ai/spec-driven-development/</link>
+      <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/spec-driven-development/</guid>
+      <description>With AI handling implementation, the specification itself becomes the product. What you&amp;#39;re really selling is clarity of thought - and the ability to write briefs that don&amp;#39;t lie.</description>
+    </item>
+    <item>
+      <title>The Architect vs The Builder: Redefining Engineering Roles in 2026</title>
+      <link>https://jamesm.blog/ai/architect-vs-builder/</link>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/architect-vs-builder/</guid>
+      <description>The traditional engineering hierarchy of junior→senior→architect is collapsing. What emerges is a cleaner, harsher split: people who decide what to build, and people who turn that decision into code.</description>
+    </item>
+    <item>
+      <title>What Does &#39;Expertise&#39; Mean When AI Can Pass Any Exam?</title>
+      <link>https://jamesm.blog/ai/expertise-after-ai/</link>
+      <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/expertise-after-ai/</guid>
+      <description>If AI can pass the bar exam, the CPA exam, and every technical certification, what are we actually certifying? Expertise becomes something else entirely - and much harder to fake.</description>
+    </item>
+    <item>
+      <title>What Actually Belongs in My AI Dev Stack in 2026</title>
+      <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
+      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
+      <description>&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;
+&lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
+&lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
+&lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)</title>
+      <link>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</link>
+      <pubDate>Sun, 05 Apr 2026 23:16:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</guid>
+      <description>A practical 2026 breakdown of when to rent GPUs versus buy API credits, with cost-per-token figures, break-even thresholds, and a hybrid architecture playbook.</description>
+    </item>
+    <item>
+      <title>DevOps in the Age of AI Agents</title>
+      <link>https://jamesm.blog/devops/devops-in-the-age-of-ai-agents/</link>
+      <pubDate>Sun, 05 Apr 2026 23:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/devops-in-the-age-of-ai-agents/</guid>
+      <description>&lt;p&gt;For years, DevOps has been about breaking down silos and automating the software delivery lifecycle. We moved from manual deployments to Jenkins scripts, then to YAML-defined pipelines, and eventually to Infrastructure as Code (IaC).&lt;/p&gt;
+&lt;p&gt;But in 2026, the bottleneck is no longer the speed of the pipeline - it&amp;rsquo;s the speed of human decision-making within that pipeline. We are entering the era of &lt;strong&gt;Agentic DevOps&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;from-automation-to-autonomy&#34;&gt;From Automation to Autonomy&lt;/h2&gt;
+&lt;p&gt;Traditional DevOps automation follows a strict &amp;ldquo;if this, then that&amp;rdquo; logic. AI-driven DevOps uses reasoning models to handle the &amp;ldquo;I&amp;rsquo;m not sure, let me figure it out&amp;rdquo; scenarios that typically stall a release.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
+      <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>
+      <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-spec-kit-2026-update/</guid>
+      <description>&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing  -  it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what&amp;rsquo;s changed, and why you should care.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-big-shift-from-framework-to-platform&#34;&gt;The Big Shift: From Framework to Platform&lt;/h2&gt;
+&lt;p&gt;GitHub Spec Kit is no longer just a lightweight documentation toolkit. As of April 2026, it&amp;rsquo;s evolved into a full extensibility platform that works across the entire AI-assisted development landscape.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Taste Is the New Scarcity</title>
+      <link>https://jamesm.blog/ai/taste-is-the-new-scarcity/</link>
+      <pubDate>Sat, 04 Apr 2026 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/taste-is-the-new-scarcity/</guid>
+      <description>&lt;p&gt;If intelligence is becoming a commodity, then something else becomes precious.&lt;/p&gt;
+&lt;p&gt;When you can generate a thousand solutions to a problem with a prompt, the question is no longer &amp;ldquo;can I get an answer?&amp;rdquo; The question becomes &amp;ldquo;which answer is good?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;When you can write code, design systems, draft strategies, analyze data, or explore ideas simply by asking, the bottleneck shifts. It is no longer &lt;em&gt;thinking capacity&lt;/em&gt;. It is &lt;em&gt;judgment&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Personal AI Development Stack</title>
+      <link>https://jamesm.blog/ai/personal-ai-dev-stack/</link>
+      <pubDate>Fri, 03 Apr 2026 23:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/personal-ai-dev-stack/</guid>
+      <description>A practical, AI-driven development stack combining cloud and local LLMs, terminal tools, IDEs, and mobile access for persistent, productive workflows.</description>
+    </item>
+    <item>
+      <title>From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About</title>
+      <link>https://jamesm.blog/retro-computing/basic-to-claude-code-2026/</link>
+      <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/retro-computing/basic-to-claude-code-2026/</guid>
+      <description>A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn&amp;#39;t changed about programming, and what fundamentally has.</description>
+    </item>
+    <item>
+      <title>We Are Learning to Buy Intelligence</title>
+      <link>https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/</link>
+      <pubDate>Wed, 11 Mar 2026 07:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/</guid>
+      <description>Intelligence used to be something you hired, trained for, or waited in line for. Now it is becoming infrastructure - metered, on-demand, and collapsing in price.</description>
+    </item>
+    <item>
+      <title>Claude Code Just Got a Serious Code Review Feature</title>
+      <link>https://jamesm.blog/ai/claude-code-review/</link>
+      <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-code-review/</guid>
+      <description>&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;
+&lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in &lt;a href=&#34;https://code.claude.com/&#34;&gt;Claude Code&lt;/a&gt;, which &lt;a href=&#34;https://www.anthropic.com/&#34;&gt;Anthropic&lt;/a&gt; just released in research preview.&lt;/p&gt;
+&lt;p&gt;Docs: &lt;a href=&#34;https://code.claude.com/docs/en/code-review&#34;&gt;https://code.claude.com/docs/en/code-review&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At first glance it sounds like another &amp;ldquo;AI reviews your code&amp;rdquo; feature. We&amp;rsquo;ve had plenty of those.&lt;/p&gt;
+&lt;p&gt;But when you look closer, this one is actually quite different.&lt;/p&gt;
+&lt;p&gt;Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward</title>
+      <link>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</link>
+      <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</guid>
+      <description>&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;
+&lt;p&gt;So I started exploring alternatives.&lt;/p&gt;
+&lt;p&gt;What I&amp;rsquo;ve realised is that the best approach isn&amp;rsquo;t replacing Claude Code entirely - it&amp;rsquo;s building a hybrid AI developer stack where different models handle different types of work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenClaw Is Absolutely Wild</title>
+      <link>https://jamesm.blog/ai/openclaw-is-wild/</link>
+      <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/openclaw-is-wild/</guid>
+      <description>&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Wait&amp;hellip; this changes everything.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That was my reaction when I saw OpenClaw.&lt;/p&gt;
+&lt;h2 id=&#34;software-that-can-actually-do-things&#34;&gt;Software That Can Actually Do Things&lt;/h2&gt;
+&lt;p&gt;Most of the time when we talk to AI, we are talking to a chatbot. It answers questions, writes text, maybe generates some code. Useful, sure - but still mostly passive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geoffrey Hinton Interviews</title>
+      <link>https://jamesm.blog/ai/geoffrey-hinton-interviews/</link>
+      <pubDate>Tue, 27 Jan 2026 21:07:21 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/geoffrey-hinton-interviews/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Geoffrey Hinton - AI Researcher and Pioneer&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Geoffrey-Hinton.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Geoffrey Hinton is a foundational figure in artificial intelligence, particularly known for his work on artificial neural networks. A British-Canadian computer scientist and cognitive psychologist, his career is defined by several major milestones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pioneering Deep Learning&lt;/strong&gt;: Hinton&amp;rsquo;s research helped lay the groundwork for the resurgence of deep learning, a powerful technique that enables computers to learn from vast amounts of data. This has led to advancements in areas like image recognition, speech recognition, and natural language processing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backpropagation Advocate&lt;/strong&gt;: He was instrumental in reviving the idea of backpropagation, a learning algorithm that allows neural networks to adjust and improve their performance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academia and Industry&lt;/strong&gt;: Hinton spent time at both the University of Toronto and Google (until 2023), where he co-founded the Vector Institute in Toronto and worked on Google Brain, a deep learning research team.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Awards and Recognition&lt;/strong&gt;: His contributions have been widely recognized. He&amp;rsquo;s a recipient of the prestigious Turing Award, often called the &amp;ldquo;Nobel Prize of computing,&amp;rdquo; among many other accolades.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;interviews&#34;&gt;Interviews&lt;/h2&gt;
+&lt;h3 id=&#34;2026-01-29-godfather-of-ai-predicts-all-jobs-will-be-in-wiped-out-by-ai&#34;&gt;[2026-01-29] &amp;lsquo;Godfather of AI&amp;rsquo; predicts ALL jobs will be in &amp;lsquo;wiped out&amp;rsquo; by AI&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/eddSGoSYnSU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2025-10-09-ai-what-could-go-wrong-with-geoffrey-hinton&#34;&gt;[2025-10-09] AI: What Could Go Wrong? with Geoffrey Hinton&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/jrK3PsD3APk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2025-04-26-full-interview-godfather-of-ai-shares-prediction-for-future-of-ai-issues-warnings&#34;&gt;[2025-04-26] Full interview: &amp;ldquo;Godfather of AI&amp;rdquo; shares prediction for future of AI, issues warnings&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/qyH3NxFz3Aw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2025-01-30-godfather-of-ai-predicts-it-will-take-over-the-world&#34;&gt;[2025-01-30] ‘Godfather of AI’ predicts it will take over the world&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/vxkBE23zDmQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2024-06-15-discussion-on-ai-safety-and-future-risks&#34;&gt;[2024-06-15] Discussion on AI safety and future risks&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://x.com/elonmusk/status/1801976488251814048&#34;&gt;View on Twitter/X&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suno Voice Personas</title>
+      <link>https://jamesm.blog/music-production/suno-voice-personas/</link>
+      <pubDate>Sat, 20 Dec 2025 21:47:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/suno-voice-personas/</guid>
+      <description>&lt;h2 id=&#34;suno-voice-personas-consistent-vocals-creative-freedom&#34;&gt;Suno Voice Personas: Consistent Vocals, Creative Freedom&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://suno.com/&#34;&gt;Suno&lt;/a&gt; has just rolled out a &lt;strong&gt;vocal-first update to Personas&lt;/strong&gt;, and it’s a genuinely important shift for anyone creating music at scale.&lt;/p&gt;
+&lt;p&gt;For the first time, you can build an entire album around the &lt;strong&gt;same vocalist&lt;/strong&gt;, without being locked into a specific instrumental style.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;whats-new-voice-personas&#34;&gt;What’s New: Voice Personas&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Voice Personas&lt;/strong&gt; are designed to focus on what most creators care about first  -  the singer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯</title>
+      <link>https://jamesm.blog/ai/github-spec-kit/</link>
+      <pubDate>Wed, 03 Dec 2025 13:21:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-spec-kit/</guid>
+      <description>&lt;p&gt;Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, &lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.&lt;/p&gt;
+&lt;p&gt;This post explores what GitHub Spec Kit is, how Spec-Driven Development works, and why the pairing with Cursor AI creates a genuinely new style of building software.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯</title>
+      <link>https://jamesm.blog/ai/cursor-ai/</link>
+      <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cursor-ai/</guid>
+      <description>&lt;p&gt;Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor AI&lt;/a&gt; has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of &lt;em&gt;“this is the future of development”&lt;/em&gt; as Cursor.&lt;/p&gt;
+&lt;p&gt;Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Top 5 Human In-Demand Jobs in 10 Years</title>
+      <link>https://jamesm.blog/ai/human-in-demand-jobs/</link>
+      <pubDate>Thu, 27 Nov 2025 07:39:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/human-in-demand-jobs/</guid>
+      <description>Which jobs survive when AI handles execution? A look at the five categories of work that stay human-shaped - judgment, empathy, embodied skill, taste, and accountability.</description>
+    </item>
+    <item>
+      <title>AI Tools &amp; Frameworks</title>
+      <link>https://jamesm.blog/ai/tools/</link>
+      <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/tools/</guid>
+      <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
+&lt;h3 id=&#34;art--graphic-design&#34;&gt;Art &amp;amp; Graphic Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://autodraw.com&#34;&gt;AutoDraw&lt;/a&gt; - fast drawing for everyone&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/ie/sensei/generative-ai/firefly.html/&#34;&gt;Adobe Firefly&lt;/a&gt; - generative AI tool with Generative Fill, part of Adobe Photoshop&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cleanup.pictures/&#34;&gt;Cleanup.pictures&lt;/a&gt; - remove unwanted object, defect, people or text from your pictures&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/product/dall-e-2/&#34;&gt;DALL·E 2&lt;/a&gt; - creates realistic images &amp;amp; art from a description in natural language&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.myheritage.com/deep-nostalgia/&#34;&gt;Deep Nostalgia&lt;/a&gt; - animate your family photos&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://instorier.com/&#34;&gt;Instorier&lt;/a&gt; - picture to 3D tool&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tryleap.ai/&#34;&gt;Leap&lt;/a&gt; - generate images, edit them, fine tune models, retrieve text context and more with best-in-class APIs and SDKs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://leonardo.ai/&#34;&gt;Leonardo&lt;/a&gt; - create stunning game assets with AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://designer.microsoft.com/&#34;&gt;Microsoft Designer&lt;/a&gt; - stunning designs, made lightning fast with AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://midjourney.com&#34;&gt;Midjourney&lt;/a&gt; - generates images from natural language descriptions, called &amp;ldquo;prompts&amp;rdquo; (similar to OpenAI&amp;rsquo;s DALL-E &amp;amp; Stable Diffusion)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pixteller.com/&#34;&gt;PixTeller&lt;/a&gt; online image editor &amp;amp; animation maker to create posters, animated gifs, logos, banners, invitations, flyers, animated logos, video thumbnails &amp;amp; more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://playgroundai.com/&#34;&gt;Playground&lt;/a&gt; - create any image from your imagination&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stockimg.ai/&#34;&gt;Stockimg AI&lt;/a&gt; - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations &amp;amp; art&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://styledrop.github.io/&#34;&gt;StyleDrop&lt;/a&gt; - text-to-image generation in any style&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;chatbot&#34;&gt;ChatBot&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://buddygpt.ai/&#34;&gt;BuddyGPT&lt;/a&gt; - the power of ChatGPT, on WhatsApp &amp;amp; Telegram&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/chatgpt/&#34;&gt;ChatGPT&lt;/a&gt; - an artificial intelligence chatbot developed by OpenAI (&lt;strong&gt;G&lt;/strong&gt;enerative &lt;strong&gt;P&lt;/strong&gt;re-trained &lt;strong&gt;T&lt;/strong&gt;ransformer)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cohere.com/&#34;&gt;Cohere&lt;/a&gt; - build incredible products with world-class language AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Google Gemini&lt;/a&gt; - conversational generative AI chatbot developed by Google (formerly Bard), available in free and Pro tiers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kaizan.ai/&#34;&gt;Kaizan&lt;/a&gt; - uses conversation intelligence to highlight client health and what will increase revenue&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;Perplexity&lt;/a&gt; - chatbot that uses machine learning and Natural Language Processing (NLP) to respond to user questions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://platform.openai.com/playground/&#34;&gt;Playground&lt;/a&gt; - explore the capabilities of various AI models developed by OpenAI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://quickchat.ai/&#34;&gt;Quickchat&lt;/a&gt; - technology to build AI assistants that talk like a human&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://typewise.app/&#34;&gt;Typewise&lt;/a&gt; - AI writing solution for customer service and sales teams&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;chrome-extensions&#34;&gt;Chrome Extensions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://alicent.ai/&#34;&gt;alicent&lt;/a&gt; - browser extension for ChatGPT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.compose.ai/&#34;&gt;Compose&lt;/a&gt; - Chrome extension that cuts down your writing time with AI-powered autocompletion &amp;amp; text generation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://finalscout.com/&#34;&gt;FinalScout&lt;/a&gt; - ChatGPT-powered email finding &amp;amp; outreach at scale&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://getvoila.ai/&#34;&gt;Voilà&lt;/a&gt; - personal AI assistant for supercharged productivity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://poised.com/&#34;&gt;Poised&lt;/a&gt; - AI-powered communication coach that helps you speak with confidence and clarity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wiseone.io/&#34;&gt;Wiseone&lt;/a&gt; - helps you master any topic you are reading online by bringing relevant and reliable information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;customer-support&#34;&gt;Customer Support&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forethought.ai/&#34;&gt;Forethought&lt;/a&gt; - generative AI for customer support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://flair.ai/&#34;&gt;Flair&lt;/a&gt; - AI design tool for branded content&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.usegalileo.ai/&#34;&gt;Galileo AI&lt;/a&gt; - creates delightful, editable UI designs from a simple text description&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;co-pilot&#34;&gt;Co-Pilot&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://askcodi.com/&#34;&gt;AskCodi&lt;/a&gt; - speed up the development process through tools, ask Codi AI to answer coding questions, explain code, document, or test code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/features/copilot/&#34;&gt;GitHub Copilot&lt;/a&gt; - cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/avsthiago/kopylot/&#34;&gt;KoPylot&lt;/a&gt; - open-source AI-powered Kubernetes assistant to help developers &amp;amp; DevOps engineers easily manage &amp;amp; monitor their Kubernetes clusters&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://monica.im/&#34;&gt;Monica&lt;/a&gt; - Chrome extension powered by ChatGPT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://replit.com/&#34;&gt;Replit&lt;/a&gt; - build software collaboratively with the power of AI, on any device, without spending a second on setup&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://usechatgpt.ai/&#34;&gt;UseChatGPT&lt;/a&gt; - use ChatGPT, Bard, Bing Chat &amp;amp; Claude on any website without copy &amp;amp; pasting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiseone.io/&#34;&gt;Wiseone&lt;/a&gt; - AI-powered browser extension that offers a new way of reading &amp;amp; exploring information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gaming&#34;&gt;Gaming&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nAEQdF3JAJo/&#34;&gt;Nvidia Game AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://voyager.minedojo.org/&#34;&gt;Voyager&lt;/a&gt; - open-ended embodied agent with large language models (LLMs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;marketing&#34;&gt;Marketing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://automizy.com/&#34;&gt;Automizy&lt;/a&gt; - email marketing software designed to increase your email open rates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;music&#34;&gt;Music&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audoir.com/&#34;&gt;Audoir&lt;/a&gt; - AI lyrics &amp;amp; poetry generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.beatoven.ai/&#34;&gt;Beatoven&lt;/a&gt; - create customisable royalty free music that elevates your story&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://boomy.com/&#34;&gt;Boomy&lt;/a&gt; - create original songs in seconds&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.brain.fm/&#34;&gt;Brain.fm&lt;/a&gt; - get more done with less effort &amp;amp; unlock your best self on demand&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lalal.ai/&#34;&gt;LALAL.AI&lt;/a&gt; - extract vocal, accompaniment &amp;amp; various instruments from any audio / video&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://muzeek.com/&#34;&gt;Muzeek&lt;/a&gt; - aim to save venues and promoters a ton of time, help artists and their teams automate opportunities&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soundraw.io/&#34;&gt;Soundraw&lt;/a&gt; - royalty-free AI generated music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wavtool.com/&#34;&gt;WavTool&lt;/a&gt; - make high-quality music with an AI assistant in the browser, for free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;project-management&#34;&gt;Project Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.liquidplanner.com/&#34;&gt;LiquidPlanner&lt;/a&gt; - project management solution that dynamically adapts to change and manages uncertainty to help teams plan, predict, and perform with confidence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;prompt-engineering&#34;&gt;Prompt Engineering&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://borriss.gumroad.com/&#34;&gt;Borriss&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://borriss.gumroad.com/l/APW/&#34;&gt;The Advanced Prompt Writer Tool&lt;/a&gt; - write complex prompts in seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;text-to-speech--voice&#34;&gt;Text to Speech &amp;amp; Voice&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cleanvoice.ai/&#34;&gt;Cleanvoice&lt;/a&gt; - removes filler sounds, stuttering and mouth sounds from your podcast or audio recording&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lovo.ai/&#34;&gt;LOVO&lt;/a&gt; - AI voice generator and Text to Speech&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://murf.ai/&#34;&gt;Murf&lt;/a&gt; - AI voice generator and Text to Speech&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; - mobile and desktop app that reads text aloud using a computer generated Text to Speech voice&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://voicemaker.in/&#34;&gt;Voicemaker&lt;/a&gt; - online free Text to Speech converter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.descript.com/&#34;&gt;Descript&lt;/a&gt; - write, record, transcribe, edit, collaborate, and share your videos and podcasts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://elai.io/&#34;&gt;Elai&lt;/a&gt; - build customized AI videos with a presenter in minutes without using a camera, studio and a green screen&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.steve.ai/&#34;&gt;Steve AI&lt;/a&gt; - make professional videos in minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;website-builders&#34;&gt;Website Builders&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://10web.io/&#34;&gt;10Web&lt;/a&gt; - AI-powered WordPress platform&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://durable.co/&#34;&gt;Durable&lt;/a&gt; - AI website builder that generates an entire website with images and copy in seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;writing&#34;&gt;Writing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aiseo.ai/&#34;&gt;AISEO&lt;/a&gt; - AI writing assistant that delivers undetectable, human-like content in just a few clicks&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.beautiful.ai/&#34;&gt;Beautiful&lt;/a&gt; - jumpstart your presentations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bertha.ai/&#34;&gt;Bertha&lt;/a&gt; - create engaging content without the hassle of creating it&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.decktopus.com/&#34;&gt;Decktopus&lt;/a&gt; - AI-powered presentation generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fireflies.ai/&#34;&gt;Fireflies&lt;/a&gt; - automate your meeting notes: record, transcribe, search and analyze voice conversations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gamma.app/&#34;&gt;Gamma&lt;/a&gt; - start writing beautiful &amp;amp; engaging content with none of the formatting and design work&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jasper.ai/&#34;&gt;Jasper&lt;/a&gt; - AI writer and AI art generator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kickresume.com/en/&#34;&gt;Kickresume&lt;/a&gt; - create a beautiful resume in minutes using AI &amp;amp; customizable templates&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/product/ai/&#34;&gt;Notion&lt;/a&gt; - organizational tools including task management, project tracking, to-do lists, bookmarking, and more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ocoya.com/&#34;&gt;Ocoya&lt;/a&gt; - create and schedule social media, content marketing &amp;amp; copywriting quicker using AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paperpal.com/&#34;&gt;Paperpal&lt;/a&gt; - real-time, subject-specific language suggestions that help you write better, faster&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://postwise.ai/&#34;&gt;Postwise&lt;/a&gt; - craft engaging posts with AI, schedule effortlessly and watch your followers grow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quillbot.com/&#34;&gt;Quillbot&lt;/a&gt; - AI-powered paraphrasing tool to enhance your writing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://saga.so/ai/&#34;&gt;Saga AI&lt;/a&gt; - write faster, and do better work directly in Saga with the help of a digital AI assistant&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://getscribe.how/chrome/&#34;&gt;Scribe&lt;/a&gt; - automatically create step-by-step guides in seconds simply by watching you work&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://simplified.com/&#34;&gt;Simplified&lt;/a&gt; - supercharge content creation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sudowrite.com/&#34;&gt;Sudowrite&lt;/a&gt; - AI novel writing assistant that makes the creative writing process more fun and interactive&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blaze.today/&#34;&gt;Text Blaze&lt;/a&gt; - eliminate repetitive typing and mistakes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://trinka.ai&#34;&gt;Trinka&lt;/a&gt; - online grammar checker and language correction AI tool for academic and technical writing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://writesonic.com/&#34;&gt;Writesonic&lt;/a&gt; - create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eightify.app/&#34;&gt;Eightify&lt;/a&gt; - YouTube summaries powered by ChatGPT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tubebuddy.com/&#34;&gt;TubeBuddy&lt;/a&gt; - optimize your YouTube channel faster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adriel.com/&#34;&gt;Adriel&lt;/a&gt; - handle complex marketing campaigns and reach your advertising goals&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adscale.com/&#34;&gt;AdScale&lt;/a&gt; - boost your ad performance by automating everything from ad creation, and optimization, to audience targeting and performance tracking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.akkio.com/&#34;&gt;Akkio&lt;/a&gt; - predictive AI for Analysts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audiense.com/&#34;&gt;Audiense&lt;/a&gt; - audience Intelligence platform, helping marketers and consumer researchers to be innovative and develop relevant audience-centric strategies through proprietary social consumer segmentation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bardeen.ai/&#34;&gt;Bardeen&lt;/a&gt; - mission is to help people leverage technology, do more of what they love, and stay in the flow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brancher.ai/&#34;&gt;Brancher&lt;/a&gt; - connect AI models to build AI apps in minutes, with no-code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://decoherence.co/&#34;&gt;Decoherence&lt;/a&gt; - create what can&amp;rsquo;t be filmed&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://donotpay.com/&#34;&gt;DoNotPay&lt;/a&gt; - the world&amp;rsquo;s first robot lawyer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fylehq.com/&#34;&gt;Fyle&lt;/a&gt; - real-time expense management&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/&#34;&gt;Google Flood AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hints.so/&#34;&gt;Hints&lt;/a&gt; - AI assistant that integrates with any software to perform tasks on your behalf&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://krisp.ai/&#34;&gt;Krisp&lt;/a&gt; - improves the productivity of online meetings with its AI-powered Voice Clarity and Meeting Assistant&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lavender.ai&#34;&gt;Lavender&lt;/a&gt; - sales email assistant powered by AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mixo.io/&#34;&gt;Mixo&lt;/a&gt; - helps entrepreneurs quickly launch and validate their business ideas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mosaic.ai/&#34;&gt;MosaicTrack&lt;/a&gt; - smart recruiting solution that leverages the cognitive power of artificial intelligence to read through resumes and social profiles to find the best talent based on culture fit and skill set&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nosto.com/&#34;&gt;Nosto&lt;/a&gt; - commerce experience platform  -  an integrated suite of data-fueled personalization and merchandising solutions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://octaneai.com&#34;&gt;Octane AI&lt;/a&gt; - Shopify app for AI-powered customer engagement&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.outfitsai.com/&#34;&gt;Outfits AI&lt;/a&gt; - try on any outfits using AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://regie.ai&#34;&gt;Regie&lt;/a&gt; - AI sales assistant for email&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://snazzy.ai/&#34;&gt;Snazzy&lt;/a&gt; - gives you great content ideas for social media ads, landing pages and more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sproutsocial.com/&#34;&gt;Sprout Social&lt;/a&gt; - extract real business value from social&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://taskade.com&#34;&gt;Taskade&lt;/a&gt; - AI-powered workspace for productivity&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tldv.io&#34;&gt;TldV&lt;/a&gt; - AI meeting recorder and summarizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twain.ai&#34;&gt;Twain&lt;/a&gt; - AI writing assistant&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vondy.com&#34;&gt;Vondy&lt;/a&gt; - AI app builder&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.apptus.com/voyado-elevate/&#34;&gt;Voyado Elevate&lt;/a&gt; - intelligent search and merchandising for online retailers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://warmer.ai&#34;&gt;Warmer&lt;/a&gt; - AI cold email outreach&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wnr.ai/&#34;&gt;WNR&lt;/a&gt; - prompts made easy with AI templates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://consensus.app/&#34;&gt;Consensus&lt;/a&gt; - search engine that uses AI to extract and distill findings directly from scientific research&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scispace.com/&#34;&gt;SciSpace&lt;/a&gt; - do hours worth of reading and understanding in minutes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scholarcy.com/&#34;&gt;Scholarcy&lt;/a&gt; - reads your research articles, reports and book chapters in seconds and breaks them down into bite-sized sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;spec-driven-development-sdd&#34;&gt;Spec-driven Development (SDD)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/github/spec-kit&#34;&gt;GitHub Spec Kit&lt;/a&gt; - toolkit to help you get started with Spec-Driven Development (SDD) - specifications become executable, directly generating working implementations rather than just guiding them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blackmagic.so/&#34;&gt;BlackMagic&lt;/a&gt; - enhanced Twitter for pro tweeters&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hypefury.com/&#34;&gt;Hypefury&lt;/a&gt; - personal assistant to grow &amp;amp; monetize your Twitter audience&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tribescaler.com/&#34;&gt;Tribescaler&lt;/a&gt; - get more impressions, grow a better network and earn more money&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tweethunter.io/&#34;&gt;Tweet Hunter&lt;/a&gt; - build &amp;amp; monetize your Twitter audience&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tweetlify.co/&#34;&gt;Tweetlify&lt;/a&gt; - create viral tweets, grow followers &amp;amp; make money&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-research-companies&#34;&gt;AI Research Companies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BostonDynamics/&#34;&gt;Boston Dynamics&lt;/a&gt; - create exceptional robots that enrich people’s lives&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt; - making deep learning easier to use&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai.google/&#34;&gt;Google AI&lt;/a&gt; - a division of Google dedicated to artificial intelligence&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.midjourney.com/&#34;&gt;Midjourney&lt;/a&gt; - independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt; - AI research and deployment company&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stability.ai/&#34;&gt;Stability&lt;/a&gt; - building the foundation to activate humanity&amp;rsquo;s potential&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI/&#34;&gt;Tesla AI &amp;amp; Robotics&lt;/a&gt; - developing &amp;amp; deploying autonomy at scale in vehicles &amp;amp; robots&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Suno Studio is here</title>
+      <link>https://jamesm.blog/music-production/suno-studio/</link>
+      <pubDate>Fri, 26 Sep 2025 08:29:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/suno-studio/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://suno.com/&#34;&gt;Suno&lt;/a&gt; Suno has launched &lt;a href=&#34;https://suno.com/studio-welcome&#34;&gt;Suno Studio&lt;/a&gt;, a cloud-based platform it calls the first generative DAW - a digital audio workstation built around AI. Unlike traditional DAWs that rely only on pre-recorded sounds, Suno Studio puts generative technology at the core, letting creators compose, edit, and arrange music directly from text prompts while still offering pro-level multitrack tools. Users can upload samples, tweak tempo, pitch, and volume, and export stems for use in other software.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sergey Brin Interviews</title>
+      <link>https://jamesm.blog/ai/sergey-brin-interviews/</link>
+      <pubDate>Tue, 20 May 2025 19:27:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/sergey-brin-interviews/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Sergey Brin is the co-founder of Google and a prominent voice in AI discussion and investment. His perspective on foundational AI developments, the role of open-source models, and the future of human-computer interaction has shaped industry thinking as Google and others navigate the competitive landscape of frontier AI.&lt;/p&gt;
+&lt;h2 id=&#34;interviews&#34;&gt;Interviews&lt;/h2&gt;
+&lt;h3 id=&#34;2025-05-20-sergey-brin-google-co-founder--all-in-live-from-miami&#34;&gt;[2025-05-20] Sergey Brin, Google Co-Founder | All-In Live from Miami&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Timestamps:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(0:00) The Besties welcome Sergey Brin&lt;/li&gt;
+&lt;li&gt;(0:40) Sergey on his return to Google, and how an OpenAI employee played a role&lt;/li&gt;
+&lt;li&gt;(5:58) AI&amp;rsquo;s true superpower and the next jump&lt;/li&gt;
+&lt;li&gt;(12:23) AI robotics: humanoids and other form factors&lt;/li&gt;
+&lt;li&gt;(17:07) Future of foundational models and open-source&lt;/li&gt;
+&lt;li&gt;(19:59) Human-computer interaction in the age of AI&lt;/li&gt;
+&lt;li&gt;(31:09) Partner shoutouts: Thanks to OKX, Circle, Polymarket, Solana, BVNK, and Google Cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/8g7a0IWKDRE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Note: This page will be expanded with additional Sergey Brin interviews as they become available.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Agents Emergency Debate</title>
+      <link>https://jamesm.blog/ai/ai-agents-emergency-debate/</link>
+      <pubDate>Mon, 12 May 2025 16:27:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-agents-emergency-debate/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;This debate explores urgent questions about AI&amp;rsquo;s impact on employment and the workforce. Contributors discuss the timeline for AI-driven job displacement and the societal preparations needed to adapt to rapid automation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Topics:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Speed of AI agent adoption in the workplace&lt;/li&gt;
+&lt;li&gt;Jobs and sectors facing near-term disruption&lt;/li&gt;
+&lt;li&gt;Skills and roles that will remain in demand&lt;/li&gt;
+&lt;li&gt;Education and training priorities for workers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+&lt;h3 id=&#34;ai-agents-emergency-debate-these-jobs-wont-exist-in-24-months&#34;&gt;AI AGENTS EMERGENCY DEBATE: These Jobs Won&amp;rsquo;t Exist In 24 Months!&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/JMYQmGfTltY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Worth watching for the practical implications of agent AI and perspectives on workforce adaptation strategies.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepSeek 🤯</title>
+      <link>https://jamesm.blog/ai/deepseek/</link>
+      <pubDate>Mon, 27 Jan 2025 21:39:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/deepseek/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Wow, crazy times, &lt;strong&gt;the best technology in the world is now becoming incredibly cheap and accessible to everyone!&lt;/strong&gt; 🤯&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DeepSeek&lt;/strong&gt;&amp;rsquo;s AI chatbot has become the &lt;strong&gt;top free app on Apple&amp;rsquo;s store&lt;/strong&gt; since its January launch. This rapid success, fuelled by DeepSeek&amp;rsquo;s &lt;strong&gt;cost-effectiveness&lt;/strong&gt; compared to US competitors, has sent shockwaves through financial markets.&lt;/p&gt;
+&lt;p&gt;Venture capitalist Marc Andreessen has lauded DeepSeek&amp;rsquo;s AI as a &amp;ldquo;&lt;strong&gt;groundbreaking achievement&lt;/strong&gt;&amp;rdquo;, while the company claims its models rival industry leaders like ChatGPT at a &lt;strong&gt;fraction of the cost&lt;/strong&gt;. DeepSeek reportedly invested &lt;strong&gt;only $6 million&lt;/strong&gt; in its development, a stark contrast to the &lt;strong&gt;billions spent by US AI companies&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?</title>
+      <link>https://jamesm.blog/music-production/suno-mikey-shulman/</link>
+      <pubDate>Fri, 10 Jan 2025 08:29:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/suno-mikey-shulman/</guid>
+      <description>&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
+&lt;h3 id=&#34;2025-01-10-mikey-shulman-ceo-suno-the-future-of-music-what-is-gonna-happen--e1244&#34;&gt;[2025-01-10] Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen? | E1244&lt;/h3&gt;
+&lt;p&gt;Mikey Shulman is the Co-Founder and CEO of Suno, the leading music AI company. Suno lets everyone make and share music. Mikey has raised over $125M for the company from the likes of Lightspeed, Founder Collective, Matrix and Nat Friedman and Daniel Gross. Prior to founding Suno, Mikey was the first machine learning engineer and head of machine learning at Kensho technologies, which was acquired by S&amp;amp;P Global for over $500 million.
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/E0YL83U5VWk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unitree G1 - AI Humanoid Robot</title>
+      <link>https://jamesm.blog/ai/unitree-g1/</link>
+      <pubDate>Tue, 21 May 2024 20:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/unitree-g1/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Unitree G1 AI Humanoid Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k!&lt;/p&gt;
+&lt;p&gt;With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&amp;rsquo;s development highlights Unitree&amp;rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chatbots &amp; Large Language Models (LLMs)</title>
+      <link>https://jamesm.blog/ai/chatbots-llms/</link>
+      <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/chatbots-llms/</guid>
+      <description>A practical explainer on the difference between chatbots and large language models, how modern model families fit together, and how to choose the right AI tool for a task.</description>
+    </item>
+    <item>
+      <title>1X - Eve</title>
+      <link>https://jamesm.blog/ai/1x-eve/</link>
+      <pubDate>Sun, 21 Apr 2024 22:26:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/1x-eve/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;1X EVE Android Worker Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;
+&lt;p&gt;Here are some key features of 1X EVE:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed for safe interaction with humans due to its soft and organic-inspired mechanics.&lt;/li&gt;
+&lt;li&gt;Can navigate human environments by opening doors, using elevators, and fitting into workspaces.&lt;/li&gt;
+&lt;li&gt;Equipped with advanced language processing and can understand and respond to natural language commands.&lt;/li&gt;
+&lt;li&gt;Learns and adapts through embodied artificial intelligence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
+&lt;h3 id=&#34;2024-04-21-how-1x-will-beat-tesla&#34;&gt;[2024-04-21] How 1X Will Beat Tesla!&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio&#34;&gt;[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Tesla Optimus Robot</title>
+      <link>https://jamesm.blog/ai/tesla-optimus-robot/</link>
+      <pubDate>Sun, 21 Apr 2024 20:44:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/tesla-optimus-robot/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI&#34;&gt;Tesla Optimus&lt;/a&gt;, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by &lt;a href=&#34;https://www.tesla.com/&#34;&gt;Tesla&lt;/a&gt; since 2021. It&amp;rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It&amp;rsquo;s equipped with Tesla-designed AI for navigation &amp;amp; understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp;amp; improved dexterity.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Elon_Musk&#34;&gt;Elon Musk&lt;/a&gt; envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&amp;rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far</title>
+      <link>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</link>
+      <pubDate>Sat, 20 Apr 2024 22:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://bostondynamics.com/&#34;&gt;Boston Dynamics&lt;/a&gt; has revealed its most astonishing humanoid robot so far.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://bostondynamics.com/atlas/&#34;&gt;All New Atlas&lt;/a&gt; is Boston Dynamic&amp;rsquo;s first all-electric humanoid robot, designed for real-world applications, it has a far more human-like body. However it&amp;rsquo;s still a long way from commercial or consumer availability.&lt;/p&gt;
+&lt;p&gt;The next generation of the &lt;a href=&#34;https://bostondynamics.com/atlas/&#34;&gt;Atlas&lt;/a&gt; program builds on decades of research and furthers their commitment to delivering the most capable, useful mobile robots. An advanced control system and state-of-the-art hardware give the robot the power and balance to demonstrate advanced athletics and agility.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenAI Voice Engine</title>
+      <link>https://jamesm.blog/ai/openai-voice-engine/</link>
+      <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;OpenAI&amp;rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.&lt;/p&gt;
+&lt;h2 id=&#34;status--access&#34;&gt;Status &amp;amp; Access&lt;/h2&gt;
+&lt;p&gt;Voice Engine has remained in &lt;strong&gt;limited preview&lt;/strong&gt; since its 2024 announcement. OpenAI has been cautious about broader deployment due to responsible AI considerations around synthetic voice generation, particularly concerns about voice cloning and impersonation risks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stargate</title>
+      <link>https://jamesm.blog/ai/microsoft-openai-stargate/</link>
+      <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between &lt;a href=&#34;https://www.microsoft.com/&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://group.softbank/en/&#34;&gt;SoftBank&lt;/a&gt;, and &lt;a href=&#34;https://www.oracle.com/&#34;&gt;Oracle&lt;/a&gt; to build a series of massive AI supercomputers and data centers.&lt;/p&gt;
+&lt;p&gt;Originally reported as a Microsoft-OpenAI effort, the project was expanded in January 2025 to include SoftBank&amp;rsquo;s Vision Fund and Oracle as major partners. The partnership combines OpenAI&amp;rsquo;s AI expertise, Microsoft&amp;rsquo;s cloud infrastructure and enterprise reach, SoftBank&amp;rsquo;s capital and global networks, and Oracle&amp;rsquo;s database and enterprise technology capabilities.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Google Gemini Ultra</title>
       <link>https://jamesm.blog/ai/google-gemini-ultra/</link>
@@ -28,6 +923,389 @@
 &lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Gemini Advanced</title>
+      <link>https://jamesm.blog/ai/google-gemini-advanced/</link>
+      <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;
+&lt;p&gt;Google Gemini Advanced offered enhanced capabilities over base Gemini, designed for power users and professionals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multimodal Reasoning: Analyzes text combined with images, video, and other modalities.&lt;/li&gt;
+&lt;li&gt;Coding Expertise: Understands, explains, and generates code in multiple programming languages.&lt;/li&gt;
+&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate various text formats for digital content.&lt;/li&gt;
+&lt;li&gt;Long-form Conversations: Extended context windows for deeper, multi-turn interactions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Current Access (2026)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>List of AI Courses &amp; Learning Resources</title>
+      <link>https://jamesm.blog/ai/courses/</link>
+      <pubDate>Mon, 18 Dec 2023 10:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/courses/</guid>
+      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/deep-learning-with-python/&#34;&gt;Deep Learning with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hastie.su.domains/Papers/ESLII.pdf/&#34;&gt;The Elements of Statistical Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/&#34;&gt;Class Central&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/ai/&#34;&gt;Artificial Intelligence Courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/chatgpt/&#34;&gt;ChatGPT Courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/course/independent-elements-of-ai-12469/&#34;&gt;Elements of AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.classcentral.com/subject/midjourney/&#34;&gt;Midjourney Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/ai-for-everyone/&#34;&gt;AI for Everyone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai/&#34;&gt;IBM Applied AI Professional Certificate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coursera.org/learn/machine-learning/&#34;&gt;Supervised Machine Learning: Regression and Classification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/ai-fundamentals&#34;&gt;AI Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-chatgpt&#34;&gt;Introduction to ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/&#34;&gt;DeepLearning&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/&#34;&gt;ChatGPT Prompt Engineering for Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/learning-from-data-introductory-machine-learning/&#34;&gt;Learning From Data (Introductory Machine Learning)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.elementsofai.com/&#34;&gt;Elements of AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.futurelearn.com/&#34;&gt;Future Learn&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.futurelearn.com/courses/artificial-intelligence/&#34;&gt;Digital Skills: Artificial Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/&#34;&gt;Google Cloud Skills Boost&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/journeys/118/&#34;&gt;Generative AI learning path&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/537/&#34;&gt;Attention Mechanism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/542/&#34;&gt;Create Image Captioning Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/543/&#34;&gt;Encoder-Decoder Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/journeys/118/&#34;&gt;Generative AI Explorer - Vertex AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/536/&#34;&gt;Introduction to Generative AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/552/&#34;&gt;Introduction to Generative AI Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/541/&#34;&gt;Introduction to Image Generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/539/&#34;&gt;Introduction to Large Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/554/&#34;&gt;Introduction to Responsible AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/course_templates/538/&#34;&gt;Transformer Models and BERT Model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pll.harvard.edu/&#34;&gt;Harvard&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pll.harvard.edu/subject/artificial-intelligence/&#34;&gt;Artificial Intelligence Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/&#34;&gt;Machine Learning Mastery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microsoft.github.io/&#34;&gt;Microsoft&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/AI-For-Beginners/&#34;&gt;AI for Beginners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conted.ox.ac.uk/&#34;&gt;Oxford&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conted.ox.ac.uk/about/online-courses-in-technology-and-ai/&#34;&gt;AI Online Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/&#34;&gt;PyTorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reed.co.uk/&#34;&gt;Reed&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reed.co.uk/courses/ai-artificial-intelligence/online/&#34;&gt;AI Online Courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.stanford.edu/&#34;&gt;Stanford&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate/&#34;&gt;Artificial Intelligence Graduate Certificate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.stanford.edu/LP-Hackr-AI.html?utm_id=courses/&#34;&gt;Artificial Intelligence Programs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tensorflow.org/learn/&#34;&gt;TensorFlow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/&#34;&gt;Udacity&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udacity.com/course/intro-to-artificial-intelligence--cs271/&#34;&gt;Intro to Artificial Intelligence&lt;/a&gt; (Free)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/&#34;&gt;Udemy&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-az/&#34;&gt;Artificial Intelligence A-Z™: Build an AI with ChatGPT and more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-ars/&#34;&gt;Artificial Intelligence (ARS): Build the Most Powerful AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-masterclass/&#34;&gt;Artificial Intelligence Masterclass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-reinforcement-learning-in-python/&#34;&gt;Artificial Intelligence: Reinforcement Learning in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.udemy.com/course/artificial-intelligence-in-unity/&#34;&gt;The Beginner&amp;rsquo;s Guide to Artificial Intelligence (Unity 2022)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.unity.com/&#34;&gt;Unity&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learn.unity.com/course/artificial-intelligence-for-beginners/&#34;&gt;Artificial Intelligence for Beginners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learning-resources&#34;&gt;Learning Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai.google/build/machine-learning/&#34;&gt;Google AI Build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/&#34;&gt;How to use ChatGPT to create an app&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;newsletters&#34;&gt;Newsletters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lore.ai/&#34;&gt;Lore&lt;/a&gt; - weekly newsletter with the latest Generative AI news, insights and featured tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;twitter-accounts&#34;&gt;Twitter Accounts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/AlexAIDaily/&#34;&gt;AI Daily&lt;/a&gt; - teaches about AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/_Borriss_/&#34;&gt;Borriss&lt;/a&gt; - developer &amp;amp; writer of practical AI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/javilopen/&#34;&gt;Javi Lopez&lt;/a&gt; - AI educator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/lexfridman/&#34;&gt;Lex Fridman&lt;/a&gt; - host of Lex Fridman Podcast, research scientist at MIT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/LinusEkenstam/&#34;&gt;Linus&lt;/a&gt; - AI educator &amp;amp; designer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/SteveMills/&#34;&gt;Steve Mills&lt;/a&gt; - exploring creative uses of Generative AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube-channels&#34;&gt;YouTube Channels&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/&#34;&gt;Artificial Intelligence - All in One&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw/&#34;&gt;Connor Shorten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/Deeplearningai/&#34;&gt;DeepLearningAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCX7Y2qWriXpqocG97SFW2OQ/&#34;&gt;Jeremy Howard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCSNeZleDn9c74yQc-EKnVTA/&#34;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/lexfridman/&#34;&gt;Lex Fridman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/sentdex/&#34;&gt;sentdex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/TheArtificialIntelligenceChannel/&#34;&gt;The Artificial Intelligence Channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg/&#34;&gt;Two Minute Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew/&#34;&gt;Yannic Kilcher&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=b-cFv2DvEqE/&#34;&gt;Excel AI - data analysis made easy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=f4LiRtjaW28/&#34;&gt;Google Gemini (formerly Bard): A beginner&amp;rsquo;s guide to Google&amp;rsquo;s AI chatbot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=i_a9bqvqmzo/&#34;&gt;How to Build a FULL App With ChatGPT in 20 minutes!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5wdCev86RYE/&#34;&gt;How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hDK8W5SLzlw/&#34;&gt;Midjourney Prompt Tips for Beginners and Veterans&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=NU2TYgfQwcA/&#34;&gt;Stable diffusion prompt tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>AI Conferences Worth Following</title>
+      <link>https://jamesm.blog/ai/conferences/</link>
+      <pubDate>Sat, 10 Jun 2023 06:51:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/conferences/</guid>
+      <description>A practical guide to the AI conferences worth following, who each type of event is for, and how to choose the right one before spending time or money.</description>
+    </item>
+    <item>
+      <title>List of AI GitHub Projects</title>
+      <link>https://jamesm.blog/ai/github-projects/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-projects/</guid>
+      <description>&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;
+&lt;h2 id=&#34;ai-agent-frameworks&#34;&gt;AI Agent Frameworks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt;  -  Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt;  -  Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt;  -  Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt;  -  Let LLMs run code locally and interact with your computer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code--development&#34;&gt;Code &amp;amp; Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt;  -  Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt;  -  AI pair programmer that can edit code in your local repository&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt;  -  Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;specialized-tools&#34;&gt;Specialized Tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt;  -  AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt;  -  Simple way to run large language models locally&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt;  -  Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;research--resources&#34;&gt;Research &amp;amp; Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt;  -  Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt;  -  Curated dataset linking papers with their implementations&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Adobe&#39;s new Generative Fill is mind-blowing 🤯</title>
+      <link>https://jamesm.blog/ai/adobe-generative-fill/</link>
+      <pubDate>Fri, 26 May 2023 20:04:28 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/adobe-generative-fill/</guid>
+      <description>&lt;p&gt;Experience the future of Photoshop with Generative Fill&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&#34;&gt;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Generative AI with Firefly&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/sensei/generative-ai/firefly.html&#34;&gt;https://www.adobe.com/sensei/generative-ai/firefly.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other new features &amp;amp; improvements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjustment presets&lt;/li&gt;
+&lt;li&gt;Contextual task bar&lt;/li&gt;
+&lt;li&gt;Gradients&lt;/li&gt;
+&lt;li&gt;Remove tool: easily remove any object or person from an image instantly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
+&lt;h3 id=&#34;adobes-new-ai-firefly-photoshop-has-everyone-stunned&#34;&gt;Adobes New AI &amp;lsquo;FIREFLY Photoshop&amp;rsquo; Has Everyone Stunned!&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4_ziOUKgfxM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;this-new-photoshop-tool-will-change-photography-forever&#34;&gt;This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER&lt;/h3&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/2iEQ6p9iGng?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;List of AI Tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Neuralink receives FDA approval to launch first-in-human clinical study</title>
+      <link>https://jamesm.blog/ai/tweets/neurallink/</link>
+      <pubDate>Thu, 25 May 2023 11:30:14 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/tweets/neurallink/</guid>
+      <description>&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;We are excited to share that we have received the FDA’s approval to launch our first-in-human clinical study!&lt;br&gt;&lt;br&gt;This is the result of incredible work by the Neuralink team in close collaboration with the FDA and represents an important first step that will one day allow our…&lt;/p&gt;&amp;mdash; Neuralink (@neuralink) &lt;a href=&#34;https://twitter.com/neuralink/status/1661857379460468736?ref_src=twsrc%5Etfw&#34;&gt;May 25, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Speechify - Best Text to Speech App</title>
+      <link>https://jamesm.blog/ai/speechify/</link>
+      <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/speechify/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; is a leading text-to-speech platform that converts written content into natural-sounding audio, available across web, mobile, and browser extensions.&lt;/p&gt;
+&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Text-to-Speech&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High-quality AI voices across multiple languages&lt;/li&gt;
+&lt;li&gt;Natural prosody and emotional expression&lt;/li&gt;
+&lt;li&gt;Adjustable playback speed and voice selection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Content Support&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDF, Word, Google Docs, web articles&lt;/li&gt;
+&lt;li&gt;Optical character recognition (OCR) for images and scanned text&lt;/li&gt;
+&lt;li&gt;Camera feature to scan physical text instantly&lt;/li&gt;
+&lt;li&gt;Website and browser integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Premium Features (Speechify Studio)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why the ChatGPT iPhone App Mattered</title>
+      <link>https://jamesm.blog/ai/chatgpt-app-ios/</link>
+      <pubDate>Thu, 18 May 2023 19:05:35 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/chatgpt-app-ios/</guid>
+      <description>Why the ChatGPT iPhone app mattered, what changed when AI moved onto mobile, and why the launch was more important than a simple companion app release.</description>
+    </item>
+    <item>
+      <title>Notion</title>
+      <link>https://jamesm.blog/ai/notion/</link>
+      <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/notion/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Database and content management with flexible views (table, calendar, gallery, timeline)&lt;/li&gt;
+&lt;li&gt;Wiki and documentation creation&lt;/li&gt;
+&lt;li&gt;Task and project management&lt;/li&gt;
+&lt;li&gt;Team collaboration and permission controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Notion AI&lt;/strong&gt; (Available as add-on)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Q&amp;amp;A Mode:&lt;/strong&gt; Ask questions about your content and get AI-powered answers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auto-fill:&lt;/strong&gt; Generate content automatically based on context&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Summarization:&lt;/strong&gt; Auto-summarize pages, databases, and meeting notes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content Generation:&lt;/strong&gt; Create outlines, blog posts, and structured content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Writing Assistant:&lt;/strong&gt; Grammar checking, tone adjustment, rephrasing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Personal knowledge management and second brain&lt;/li&gt;
+&lt;li&gt;Team documentation and wikis&lt;/li&gt;
+&lt;li&gt;Project and product management&lt;/li&gt;
+&lt;li&gt;Database and CRM systems&lt;/li&gt;
+&lt;li&gt;Meeting notes and action item tracking&lt;/li&gt;
+&lt;li&gt;Writer&amp;rsquo;s workspace with AI assistance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Free tier:&lt;/strong&gt; Core features with limited blocks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plus:&lt;/strong&gt; $10/user/month with Notion AI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business:&lt;/strong&gt; $18/user/month with advanced features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise:&lt;/strong&gt; Custom pricing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notion AI transforms the platform from a note-taking tool into a collaborative knowledge system with generative capabilities, making it valuable for both individual and team knowledge workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Auto-GPT is now able to write it&#39;s own code</title>
+      <link>https://jamesm.blog/ai/tweets/auto-gpt/</link>
+      <pubDate>Sat, 01 Apr 2023 14:53:39 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/tweets/auto-gpt/</guid>
+      <description>&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Massive Update for Auto-GPT: Code Execution! 🤖💻&lt;br&gt;&lt;br&gt;Auto-GPT is now able to write it&amp;#39;s own code using &lt;a href=&#34;https://twitter.com/hashtag/gpt4?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#gpt4&lt;/a&gt; and execute python scripts! &lt;br&gt;&lt;br&gt;This allows it to recursively debug, develop and self-improve... 🤯 👇 &lt;a href=&#34;https://t.co/GEkMb1LyxV&#34;&gt;pic.twitter.com/GEkMb1LyxV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Toran Bruce Richards (@SigGravitas) &lt;a href=&#34;https://twitter.com/SigGravitas/status/1642181498278408193?ref_src=twsrc%5Etfw&#34;&gt;April 1, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>OpenAI has released GPT-4</title>
+      <link>https://jamesm.blog/ai/tweets/gpt-4/</link>
+      <pubDate>Thu, 16 Mar 2023 14:53:39 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/tweets/gpt-4/</guid>
+      <description>&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Fully intent on being the next Skynet, OpenAI has released GPT-4, its most robust AI to date that the company claims is even more accurate while generating language and even better at solving problems. GPT-4 is so good at its job, in fact, that it report… &lt;a href=&#34;https://t.co/Q2btYgtWSA&#34;&gt;https://t.co/Q2btYgtWSA&lt;/a&gt;&lt;/p&gt;&amp;mdash; GrindZero Tribe (@Snapzu_Blogs) &lt;a href=&#34;https://twitter.com/Snapzu_Blogs/status/1636353726519689217?ref_src=twsrc%5Etfw&#34;&gt;March 16, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>AI Explainers</title>
+      <link>https://jamesm.blog/ai/explainers/</link>
+      <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/explainers/</guid>
+      <description>&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;
+&lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;&lt;strong&gt;Yes you should understand backprop&lt;/strong&gt;&lt;/a&gt;  -  Andrej Karpathy&amp;rsquo;s definitive explanation of backpropagation, the fundamental algorithm behind neural network training&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;&lt;strong&gt;Deep Learning in a Nutshell: Core Concepts&lt;/strong&gt;&lt;/a&gt;  -  NVIDIA&amp;rsquo;s accessible overview of deep learning architectures and their applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;transformers--language-models&#34;&gt;Transformers &amp;amp; Language Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;&lt;strong&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/strong&gt;&lt;/a&gt;  -  Stephen Wolfram&amp;rsquo;s phenomenal breakdown of transformer architecture and the surprising effectiveness of next-token prediction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;&lt;strong&gt;Word2Vec Explained&lt;/strong&gt;&lt;/a&gt;  -  Foundation for understanding how words become numerical representations that models can process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;generative-models&#34;&gt;Generative Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;&lt;strong&gt;How Stable Diffusion Works&lt;/strong&gt;&lt;/a&gt;  -  Detailed technical walkthrough of diffusion models for image generation, with clear diagrams and intuitive explanations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;courses--practical-learning&#34;&gt;Courses &amp;amp; Practical Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt;  -  Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Copilot</title>
+      <link>https://jamesm.blog/ai/github-copilot/</link>
+      <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-copilot/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; in partnership with &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;
+&lt;p&gt;GitHub Copilot uses advanced language models (&lt;a href=&#34;https://openai.com/research/gpt-4&#34;&gt;GPT-4&lt;/a&gt; based) to suggest code, functions, and solutions in real-time, right from your editor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code autocompletion and function generation&lt;/li&gt;
+&lt;li&gt;Copilot Chat for conversational coding assistance&lt;/li&gt;
+&lt;li&gt;Context-aware suggestions based on your codebase&lt;/li&gt;
+&lt;li&gt;Support for dozens of programming languages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Supported IDEs&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
