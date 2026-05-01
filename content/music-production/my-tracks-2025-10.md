@@ -1,6 +1,6 @@
 ---
 title: "My Tracks - October 2025"
-date: 2026-04-30T12:00:00+01:00
+date: 2025-10-01T12:00:00+01:00
 draft: false
 tags: ['soundcloud', 'music']
 description: "Tracks from October 2025"

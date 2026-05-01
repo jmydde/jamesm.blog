@@ -11,70 +11,28 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 19:19:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Agents That Actually Work: Patterns From Real Projects</title>
+      <link>https://jamesm.blog/ai/ai-agents-that-actually-work/</link>
+      <pubDate>Fri, 01 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-agents-that-actually-work/</guid>
+      <description>The patterns that separate agents that ship and stay shipped from the ones that demo well and fall over the moment they meet a real workload.</description>
+    </item>
+    <item>
+      <title>My Tracks - April 2026</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2026-04/</link>
+      <pubDate>Thu, 30 Apr 2026 22:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2026-04/</guid>
+      <description>Tracks from April 2026</description>
+    </item>
     <item>
       <title>Connecting Claude to Ableton: Why the New Knowledge Connector Matters</title>
       <link>https://jamesm.blog/music-production/claude-ableton-connector/</link>
       <pubDate>Thu, 30 Apr 2026 19:19:00 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/claude-ableton-connector/</guid>
       <description>Anthropic just shipped an official Ableton Knowledge connector for Claude. Here is what it actually does, how it differs from the community AbletonMCP project, and why it changes how you learn Live and Push.</description>
-    </item>
-    <item>
-      <title>My Tracks - April 2026</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2026-04/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2026-04/</guid>
-      <description>Tracks from April 2026</description>
-    </item>
-    <item>
-      <title>My Tracks - August 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-08/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-08/</guid>
-      <description>Tracks from August 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - December 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-12/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-12/</guid>
-      <description>Tracks from December 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - January 2026</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2026-01/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2026-01/</guid>
-      <description>Tracks from January 2026</description>
-    </item>
-    <item>
-      <title>My Tracks - June 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-06/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-06/</guid>
-      <description>Tracks from June 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - March 2026</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2026-03/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2026-03/</guid>
-      <description>Tracks from March 2026</description>
-    </item>
-    <item>
-      <title>My Tracks - November 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-11/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-11/</guid>
-      <description>Tracks from November 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - October 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-10/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-10/</guid>
-      <description>Tracks from October 2025</description>
     </item>
     <item>
       <title>A Year of Agents, and What is Coming Next</title>
@@ -979,6 +937,13 @@
 &lt;p&gt;Most of the time when we talk to AI, we are talking to a chatbot. It answers questions, writes text, maybe generates some code. Useful, sure - but still mostly passive.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>My Tracks - March 2026</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2026-03/</link>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2026-03/</guid>
+      <description>Tracks from March 2026</description>
+    </item>
+    <item>
       <title>Stability in a Storm: Practical Principles for Tough Times</title>
       <link>https://jamesm.blog/personal-development/practical-principals-for-tough-times/</link>
       <pubDate>Sun, 22 Feb 2026 09:02:39 +0100</pubDate>
@@ -1119,6 +1084,13 @@
       <guid>https://jamesm.blog/music-production/roland-tr-8s-vs-mc-707/</guid>
       <description>&lt;p&gt;Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices - the &lt;strong&gt;TR-8S Rhythm Performer&lt;/strong&gt; and the &lt;strong&gt;MC-707 Groovebox&lt;/strong&gt; - often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.&lt;/p&gt;
 &lt;p&gt;This post brings together everything you need to know to decide &lt;strong&gt;TR-8S vs MC-707&lt;/strong&gt;, including workflow, genres, live use, and how they can even work together. If you are interested in pairing the MC-707 with a flagship synth as the master of a hybrid rig, I cover that approach in &lt;a href=&#34;https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/&#34;&gt;Hybrid systems: Montage + MC-707&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Tracks - January 2026</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2026-01/</link>
+      <pubDate>Thu, 01 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2026-01/</guid>
+      <description>Tracks from January 2026</description>
     </item>
     <item>
       <title>The Best Software Synths of 2025</title>
@@ -1987,11 +1959,25 @@
 &lt;/table&gt;</description>
     </item>
     <item>
+      <title>My Tracks - December 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-12/</link>
+      <pubDate>Mon, 01 Dec 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-12/</guid>
+      <description>Tracks from December 2025</description>
+    </item>
+    <item>
       <title>Top 5 Human In-Demand Jobs in 10 Years</title>
       <link>https://jamesm.blog/ai/human-in-demand-jobs/</link>
       <pubDate>Thu, 27 Nov 2025 07:39:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/human-in-demand-jobs/</guid>
       <description>Which jobs survive when AI handles execution? A look at the five categories of work that stay human-shaped - judgment, empathy, embodied skill, taste, and accountability.</description>
+    </item>
+    <item>
+      <title>My Tracks - November 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-11/</link>
+      <pubDate>Sat, 01 Nov 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-11/</guid>
+      <description>Tracks from November 2025</description>
     </item>
     <item>
       <title>AI Tools &amp; Frameworks</title>
@@ -2204,6 +2190,13 @@
 &lt;p&gt;The DJ world is buzzing, and for good reason: &lt;strong&gt;Native Instruments&lt;/strong&gt; has dropped a controller that’s both familiar and forward-thinking. The &lt;strong&gt;Traktor MX2&lt;/strong&gt; isn’t just another piece of DJ gear. It’s a compact performance instrument that wraps pro-level tools into a friendly two-channel format  -  perfect for bedroom DJs stepping up their game, vinyl lovers exploring digital workflows, or seasoned selectors looking for a portable second rig.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>My Tracks - October 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-10/</link>
+      <pubDate>Wed, 01 Oct 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-10/</guid>
+      <description>Tracks from October 2025</description>
+    </item>
+    <item>
       <title>Suno Studio is here</title>
       <link>https://jamesm.blog/music-production/suno-studio/</link>
       <pubDate>Fri, 26 Sep 2025 08:29:21 +0100</pubDate>
@@ -2216,6 +2209,20 @@
       <pubDate>Tue, 09 Sep 2025 14:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/blockchain/polkadot-agile-coretime-explainer/</guid>
       <description>What Agile Coretime is, why it matters, and how it changes Polkadot&amp;#39;s economics.</description>
+    </item>
+    <item>
+      <title>My Tracks - August 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-08/</link>
+      <pubDate>Fri, 01 Aug 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-08/</guid>
+      <description>Tracks from August 2025</description>
+    </item>
+    <item>
+      <title>My Tracks - June 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-06/</link>
+      <pubDate>Sun, 01 Jun 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-06/</guid>
+      <description>Tracks from June 2025</description>
     </item>
     <item>
       <title>Sergey Brin Interviews</title>

@@ -11,70 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 19:19:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 22:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/music-production/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Tracks - April 2026</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2026-04/</link>
+      <pubDate>Thu, 30 Apr 2026 22:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2026-04/</guid>
+      <description>Tracks from April 2026</description>
+    </item>
     <item>
       <title>Connecting Claude to Ableton: Why the New Knowledge Connector Matters</title>
       <link>https://jamesm.blog/music-production/claude-ableton-connector/</link>
       <pubDate>Thu, 30 Apr 2026 19:19:00 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/claude-ableton-connector/</guid>
       <description>Anthropic just shipped an official Ableton Knowledge connector for Claude. Here is what it actually does, how it differs from the community AbletonMCP project, and why it changes how you learn Live and Push.</description>
-    </item>
-    <item>
-      <title>My Tracks - April 2026</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2026-04/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2026-04/</guid>
-      <description>Tracks from April 2026</description>
-    </item>
-    <item>
-      <title>My Tracks - August 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-08/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-08/</guid>
-      <description>Tracks from August 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - December 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-12/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-12/</guid>
-      <description>Tracks from December 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - January 2026</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2026-01/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2026-01/</guid>
-      <description>Tracks from January 2026</description>
-    </item>
-    <item>
-      <title>My Tracks - June 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-06/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-06/</guid>
-      <description>Tracks from June 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - March 2026</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2026-03/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2026-03/</guid>
-      <description>Tracks from March 2026</description>
-    </item>
-    <item>
-      <title>My Tracks - November 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-11/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-11/</guid>
-      <description>Tracks from November 2025</description>
-    </item>
-    <item>
-      <title>My Tracks - October 2025</title>
-      <link>https://jamesm.blog/music-production/my-tracks-2025-10/</link>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/my-tracks-2025-10/</guid>
-      <description>Tracks from October 2025</description>
     </item>
     <item>
       <title>AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion</title>
@@ -138,6 +89,13 @@
       <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/music-production/yamaha-dx7-influential-synthesizer/</guid>
       <description>Why the DX7 revolutionized music production and remains the gold standard for FM synthesis three decades later</description>
+    </item>
+    <item>
+      <title>My Tracks - March 2026</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2026-03/</link>
+      <pubDate>Sun, 01 Mar 2026 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2026-03/</guid>
+      <description>Tracks from March 2026</description>
     </item>
     <item>
       <title>When Circuits Go Public: Patents, Copyright, and the Rise of Clone Synths</title>
@@ -221,6 +179,13 @@
       <guid>https://jamesm.blog/music-production/roland-tr-8s-vs-mc-707/</guid>
       <description>&lt;p&gt;Roland has long been a cornerstone of electronic music hardware, and two of its most popular modern devices - the &lt;strong&gt;TR-8S Rhythm Performer&lt;/strong&gt; and the &lt;strong&gt;MC-707 Groovebox&lt;/strong&gt; - often come up in the same conversation. While they overlap in some areas, they’re built with very different goals in mind.&lt;/p&gt;
 &lt;p&gt;This post brings together everything you need to know to decide &lt;strong&gt;TR-8S vs MC-707&lt;/strong&gt;, including workflow, genres, live use, and how they can even work together. If you are interested in pairing the MC-707 with a flagship synth as the master of a hybrid rig, I cover that approach in &lt;a href=&#34;https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/&#34;&gt;Hybrid systems: Montage + MC-707&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Tracks - January 2026</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2026-01/</link>
+      <pubDate>Thu, 01 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2026-01/</guid>
+      <description>Tracks from January 2026</description>
     </item>
     <item>
       <title>The Best Software Synths of 2025</title>
@@ -1073,6 +1038,20 @@
 &lt;/table&gt;</description>
     </item>
     <item>
+      <title>My Tracks - December 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-12/</link>
+      <pubDate>Mon, 01 Dec 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-12/</guid>
+      <description>Tracks from December 2025</description>
+    </item>
+    <item>
+      <title>My Tracks - November 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-11/</link>
+      <pubDate>Sat, 01 Nov 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-11/</guid>
+      <description>Tracks from November 2025</description>
+    </item>
+    <item>
       <title>Native Instruments Traktor MX2</title>
       <link>https://jamesm.blog/music-production/ni-traktor-mx2/</link>
       <pubDate>Fri, 10 Oct 2025 21:47:21 +0100</pubDate>
@@ -1081,11 +1060,32 @@
 &lt;p&gt;The DJ world is buzzing, and for good reason: &lt;strong&gt;Native Instruments&lt;/strong&gt; has dropped a controller that’s both familiar and forward-thinking. The &lt;strong&gt;Traktor MX2&lt;/strong&gt; isn’t just another piece of DJ gear. It’s a compact performance instrument that wraps pro-level tools into a friendly two-channel format  -  perfect for bedroom DJs stepping up their game, vinyl lovers exploring digital workflows, or seasoned selectors looking for a portable second rig.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>My Tracks - October 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-10/</link>
+      <pubDate>Wed, 01 Oct 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-10/</guid>
+      <description>Tracks from October 2025</description>
+    </item>
+    <item>
       <title>Suno Studio is here</title>
       <link>https://jamesm.blog/music-production/suno-studio/</link>
       <pubDate>Fri, 26 Sep 2025 08:29:21 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/suno-studio/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://suno.com/&#34;&gt;Suno&lt;/a&gt; Suno has launched &lt;a href=&#34;https://suno.com/studio-welcome&#34;&gt;Suno Studio&lt;/a&gt;, a cloud-based platform it calls the first generative DAW - a digital audio workstation built around AI. Unlike traditional DAWs that rely only on pre-recorded sounds, Suno Studio puts generative technology at the core, letting creators compose, edit, and arrange music directly from text prompts while still offering pro-level multitrack tools. Users can upload samples, tweak tempo, pitch, and volume, and export stems for use in other software.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Tracks - August 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-08/</link>
+      <pubDate>Fri, 01 Aug 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-08/</guid>
+      <description>Tracks from August 2025</description>
+    </item>
+    <item>
+      <title>My Tracks - June 2025</title>
+      <link>https://jamesm.blog/music-production/my-tracks-2025-06/</link>
+      <pubDate>Sun, 01 Jun 2025 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/my-tracks-2025-06/</guid>
+      <description>Tracks from June 2025</description>
     </item>
     <item>
       <title>Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?</title>
