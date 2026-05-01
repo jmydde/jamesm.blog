@@ -7,4 +7,4 @@ tags = ["retro-computing"]
 
 {{< figure src="images/retro-computing.jpg" title="" >}}
 
-A dive into computing history: from the ZX Spectrum and BBC Micro through the Commodore Amiga, the demoscene, early online communities, and the ingenious copy-protection schemes that shaped an era. Personal essays spanning 45 years of computing, museum visits, and retrospectives on hardware and ideas that continue to influence modern computing.
+Explorations of the 8-bit era and beyond, examining how the BBC Micro and ZX Spectrum sparked a generation of bedroom coders, how the demoscene turned assembly language into art, and the creative cat-and-mouse game of copy protection that defined an age. Essays on the Commodore Amiga, gaming culture, cracking aesthetics, early online communities like Compunet, and the ingenuity that shaped computing from the 1980s onward - all with an eye toward how these ideas continue to influence how we code, create, and think about technology today.

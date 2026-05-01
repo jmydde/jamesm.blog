@@ -1,7 +1,6 @@
 ---
 title: "Data Science"
-description: "Practical data science: graph algorithms, machine learning patterns, and building systems that work at scale."
 ---
 {{< figure src="images/data-science.jpg" title="" >}}
 
-Exploring the intersection of data science, graph theory, and building data-driven systems. Topics include graph algorithms, network analysis, Neptune Analytics, and scaling techniques for real-world problems.
+Deep dives into graph algorithms and network analysis. Topics include PageRank, centrality measures, community detection (Louvain, modularity), and practical scaling techniques for production graph systems. Practical guides for building graph-based recommendation systems, fraud detection, and leveraging managed graph databases like Neptune Analytics.
