@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 08:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 20:41:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Production: Mobile Apps for iPad and iPhone</title>
+      <link>https://jamesm.blog/music-production/mobile-apps-ipad-iphone/</link>
+      <pubDate>Fri, 01 May 2026 20:41:00 +0000</pubDate>
+      <guid>https://jamesm.blog/music-production/mobile-apps-ipad-iphone/</guid>
+      <description>A curated guide to the iPad and iPhone music production apps worth installing in 2026 - synths, grooveboxes, sketchpads, and learning tools, with notes on what each one is actually good for.</description>
+    </item>
+    <item>
+      <title>The Best MPE Controllers in 2026</title>
+      <link>https://jamesm.blog/music-production/best-mpe-controllers-2026/</link>
+      <pubDate>Fri, 01 May 2026 20:24:00 +0000</pubDate>
+      <guid>https://jamesm.blog/music-production/best-mpe-controllers-2026/</guid>
+      <description>A practical guide to the MPE controllers worth knowing about in 2026 - what each one is good at, who it suits, and how to choose between keyboards, grids, fabric surfaces, and pads.</description>
+    </item>
     <item>
       <title>AI Agents That Actually Work: Patterns From Real Projects</title>
       <link>https://jamesm.blog/ai/ai-agents-that-actually-work/</link>
@@ -1049,10 +1063,7 @@
       <link>https://jamesm.blog/music-production/why-i-play-and-create-music-intuitively/</link>
       <pubDate>Wed, 07 Jan 2026 23:35:21 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/why-i-play-and-create-music-intuitively/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Playing by ear - discovering by accident&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;the-joy-of-surprise&#34;&gt;The Joy of Surprise&lt;/h2&gt;
-&lt;p&gt;I don’t play the piano to master it. I play it because sometimes it surprises me.&lt;/p&gt;
-&lt;p&gt;That sounds backwards, especially in a world obsessed with progress, scales, grades, and measurable improvement. But the thing that keeps pulling me back to the keys isn’t control - it’s discovery. It’s that moment when my fingers land somewhere they’ve never quite been before and something &lt;em&gt;clicks&lt;/em&gt;. A sound appears that I didn’t plan, didn’t predict, and definitely didn’t know I knew.&lt;/p&gt;</description>
+      <description>A personal reflection on playing piano by ear, chasing flow, and treating music as a landscape to wander rather than a skill to master - where discovery and surprise matter more than theory.</description>
     </item>
     <item>
       <title>Mastering Major Scales: How to Instantly Know the Sharps and Flats</title>
@@ -2755,79 +2766,6 @@
       <description>Overview of Ableton Live 12 features, new devices, MIDI tools, pricing, and learning resources.</description>
     </item>
     <item>
-      <title>Music Production: MPE Controllers</title>
-      <link>https://jamesm.blog/music-production/mpe-midi-controllers/</link>
-      <pubDate>Sat, 03 Feb 2024 11:24:00 +0000</pubDate>
-      <guid>https://jamesm.blog/music-production/mpe-midi-controllers/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;MIDI Polyphonic Expression (MPE) is a method of using MIDI that enables pitch bend, and other dimensions of expressive control, to be adjusted continuously for individual notes. For a longer-form take on why MPE matters and how the four families of controller actually feel under the fingers, see &lt;a href=&#34;https://jamesm.blog/music-production/mpe-deep-dive/&#34;&gt;MPE deep dive: why expressive MIDI changes everything&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;mpe-controllers&#34;&gt;MPE Controllers&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.embodme.com/&#34;&gt;embodme&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.embodme.com/erae-touch&#34;&gt;ERAE Touch&lt;/a&gt; - born out of a desire to combine both sensitivity and versatility in a seamless object&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.keithmcmillen.com/&#34;&gt;Keith McMillen&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.keithmcmillen.com/products/quneo/&#34;&gt;QuNeo&lt;/a&gt; - MPE MIDI Finger Drum Controller&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rogerlinndesign.com/&#34;&gt;Roger Linn Design&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rogerlinndesign.com/linnstrument&#34;&gt;LinnStrument&lt;/a&gt; - expressive MIDI controller for musical performance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://roli.com/&#34;&gt;Roli&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://roli.com/products/blocks/lumi-keys-studio-edition&#34;&gt;LUMI Keys Studio Edition&lt;/a&gt; - world’s first keyboard controller with per-key pitchbend and polyphonic aftertouch, plus whole-key illumination that sparks new ideas for playing and composing&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://roli.com/products/blocks/seaboard-block-m&#34;&gt;Seaboard BLOCK M&lt;/a&gt; - compact and powerful, play any sound imaginable and express yourself effortlessly  -  wherever creativity finds you  -  on this evolution of the multi-award-winning original&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://roli.com/products/seaboard/rise2&#34;&gt;Seaboard RISE 2&lt;/a&gt; - a keyboard designed for limitless exploration of sound&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/&#34;&gt;Yamaha&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://uk.yamaha.com/en/products/music_production/music-production-studios/seqtrak/index.html&#34;&gt;SEQTRAK&lt;/a&gt; - ultimate music creation station that empowers you to capture, create and connect with fans&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;youtube-videos&#34;&gt;YouTube Videos&lt;/h2&gt;
-&lt;h3 id=&#34;erae-touch&#34;&gt;ERAE Touch&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/yZot3ykgll0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;linnstrument&#34;&gt;LinnStrument&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/STz__28Scwc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;lumi-keys-studio-edition&#34;&gt;LUMI Keys Studio Edition&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/LAmHvkCt-7g?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;quneo-mpe&#34;&gt;QuNeo MPE&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/Hnsd8M-yiuQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;seaboard-block-m&#34;&gt;Seaboard BLOCK M&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4kAr2wnvwO0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;seaboard-rise-2&#34;&gt;Seaboard RISE 2&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/CAR0_PmGQg0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;seqtrak&#34;&gt;SEQTRAK&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/Og-jigFAWq4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
-    </item>
-    <item>
       <title>Music Production: NAMM 2024</title>
       <link>https://jamesm.blog/music-production/news/namm-2024/</link>
       <pubDate>Sun, 28 Jan 2024 19:17:00 +0000</pubDate>
@@ -2923,63 +2861,6 @@
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/_gLbr88S4kQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>Music Production: Mobile Apps</title>
-      <link>https://jamesm.blog/music-production/mobile-apps/</link>
-      <pubDate>Sun, 28 Jan 2024 09:15:00 +0000</pubDate>
-      <guid>https://jamesm.blog/music-production/mobile-apps/</guid>
-      <description>&lt;h1 id=&#34;ipad--iphone-apps&#34;&gt;iPad &amp;amp; iPhone Apps&lt;/h1&gt;
-&lt;p&gt;Recommended iPad &amp;amp; iPhone apps &amp;hellip;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/developer/ableton-ag/id1228664884&#34;&gt;Ableton&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/ableton-note/id1633243177&#34;&gt;Ableton Note&lt;/a&gt; - A place to start musical ideas&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/audiokit-pro/id1307785645&#34;&gt;AudioKit Pro&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/audiokit-synth-one-synthesizer/id1371050497&#34;&gt;AudioKit Synth One Synthesizer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/jam-with-jordan/id1524167609&#34;&gt;Jam with Jordan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/king-of-digital-hybrid-synth/id6467825289&#34;&gt;King of Digital | Hybrid Synth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/king-of-fm-dx-synth-e-piano/id1672644102&#34;&gt;King of FM: DX Synth/E Piano&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/le05-digitalism-2000-auv3/id1547016343&#34;&gt;LE05: Digitalism 2000 + AUv3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/saga-synth-16-bit-super-fun/id1658167569&#34;&gt;SAGA Synth | 16-Bit Super Fun!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/developer/korg-inc/id363714046&#34;&gt;KORG&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/arp-odyssei/id1147432809&#34;&gt;ARP ODYSSEi&lt;/a&gt; - The ARP Odyssey of 1972 has earned an unshakable position as a classic analog synthesizer. In 2015, KORG produced the ARP ODYSSEY, a complete reproduction of the original&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/korg-electribe-wave/id1399464596&#34;&gt;KORG ELECTRIBE Wave&lt;/a&gt; - Groovebox&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/korg-gadget-3/id791077159&#34;&gt;KORG Gadget 3&lt;/a&gt; - A Complete, Seamlessly Integrated Music Production Ecosystem&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/developer/korg-inc/id363714046&#34;&gt;KORG iMono/Poly&lt;/a&gt; - Synthesizer / Keyboard&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/korg-iwavestation/id1118072618&#34;&gt;KORG iWAVESTATION&lt;/a&gt; - Synthesizer&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/korg-module-pro/id932191687&#34;&gt;KORG Module Pro&lt;/a&gt; - High resolution Piano/Keyboard&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/developer/kv331-audio/id944155925&#34;&gt;KV331 Audio&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/synthmaster-one/id1254353266&#34;&gt;SynthMaster One&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/developer/modartt/id1363148724&#34;&gt;Modartt&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/pianoteq-8/id1642344241&#34;&gt;Pianoteq 8&lt;/a&gt; - Pianoteq is an award-winning virtual instrument that can simulate many instruments (Pianos, Electric Pianos, Harpsichords, Vibraphones, Guitar, Steeldrums and more) thanks to physical modelling&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/developer/roland-corporation/id387333694&#34;&gt;Roland&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/roland-zenbeats/id1473380367&#34;&gt;Roland Zenbeats&lt;/a&gt; - Roland Zenbeats is a music creation app that keeps you in an effortless artistic flow.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/developer/sincere-apps/id1317949625&#34;&gt;Sincere Apps&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/gb/app/piano-chords-and-scales/id714086944&#34;&gt;Piano Chords and Scales&lt;/a&gt; - Play, learn theory, make songs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;iphone-apps&#34;&gt;iPhone Apps&lt;/h1&gt;
-&lt;p&gt;Recommended iPhone apps &amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Music Production Blogs</title>

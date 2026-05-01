@@ -6,171 +6,138 @@ tags: ['music', 'artist', 'band', 'dj', 'composer', 'concert', 'entertainment']
 description: "Personal collection of favourite music artists, bands, DJs, composers, concerts, and theatre experiences."
 ---
 
-# My Favourite Artists & Bands
-- 90s Dance
-  - Awesome 3
-  - Cappella
-  - D:Ream
-  - Hyper Go Go
-  - Shades of Rhythm
-- Dance / Electronic
-  - [Jeremy Ellis](https://www.youtube.com/@jeremyellismusic)
-  - [Mezerg](https://www.youtube.com/channel/UCUaQxmkh81tJAWrreHe3CJg)
-- Funk & Jazz
-  - Jamiroquai
-  - Matt Johnson
-- Funky House
-  - Purple Disco Machine
-- Instrumental
-  - Al Marconi
-  - Jean-Michel Jarre
-  - The Piano Guys
-- Pop
-  - Bronski Beat
-  - [Calvin Harris](https://www.youtube.com/channel/UCIjYyZxkFucP_W-tmXg_9Ow)
-  - Coldplay
-  - Craig David
-  - Curiosity Killed The Cat
-  - Daði Freyr
-  - Deacon Blue
-  - Dead Or Alive
-  - [DJ Fresh](https://www.youtube.com/channel/UC0y8P5OjTKLTpnDt62WJzCA)
-  - Enigma
-  - Enya
-  - Erasure
-  - Gloria Estefan
-  - Howard Jones
-  - Jimmy Somerville
-  - JLS
-  - Josh Groban
-  - Kool & The Gang
-  - Kylie Minogue
-  - Level 42
-  - Lighthouse Family
-  - Limahl
-  - Mariah Carey
-  - Michael Bolton
-  - Michael Jackson
-  - [Paul Hardcastle](https://paulhardcastle.com/)
-  - Pet Shop Boys
-  - Rozalla
-  - Spandau Ballet
-  - Take That
-  - [Technotronic](https://www.youtube.com/@TechnotronicVEVO)
-  - The Communards
-  - Tony Mortimer
-  - Westlife
-  - Whitney Houston
-  - Years & Years
-  - Youngr
-- Rock
-  - Eagles
-  - Fleetwood Mac
-  - The Beach Boys
-  - The Cure
-- Singer Songwriters
-  - Barry Manilow
-  - Carpenters
-  - Christopher Cross
-  - Stevie Wonder
-- Synthwave
-  - Sunglasses Kid
-- Trance
-  - [Above & Beyond](https://www.youtube.com/@aboveandbeyond)
-  - [Armin Van Buuren](https://www.youtube.com/@arminvanbuuren)
+A curated, living list of the artists, players, and shows that have shaped my listening and playing over the years. Grouped by category and condensed into tables for quick scanning.
 
-# My Favourite DJs
-- Hard House
-  - [Andy Farley](https://soundcloud.com/andyfarley)
-  - [Andy Whitby](https://www.youtube.com/@BounceHeaven)
-  - BK
-  - Carl Nicholson
-  - Guyver
-  - Paul Glazby
-  - Paul Maddox
-- Trance
-  - Andy Bagguley
-  - Armin Van Buuren
-- Other
-  - Jaguar Skills
+# Favourite Artists & Bands
 
-# My Favourite Keyboard Players & Pianists
-- [Anthony Marinelli](https://www.youtube.com/@anthonymarinellimusic/)
-- [Barry Manilow](https://www.youtube.com/@BarryManilow/)
-- [Bartek Krzemiński](https://www.youtube.com/@bartekkrzemien/)
-- [Bert Smorenburg](https://www.bertsmorenburg.com/)
-- [Howard Jones](https://www.youtube.com/@howardjonesmusic/)
-- [Jean-Michel Jarre](https://www.youtube.com/@jeanmicheljarre/)
-- [Jordan Rudess](https://www.youtube.com/@JordanRudessKeys/)
-- [Matt Johnson](https://www.youtube.com/@MattJohnsonJamiroquai/)
-- [Robby Sharp](https://www.youtube.com/@RobbySharp/)
-- [Simeon Amburgey](https://www.youtube.com/@PraiseTracks/)
-- [Stevie Wonder](https://www.youtube.com/@steviewonder/)
-- [Thiago Pinheiro](https://www.youtube.com/@AASphysicalmodeling/)
+| Genre | Artist |
+| --- | --- |
+| 90s Dance | Awesome 3 |
+| 90s Dance | Cappella |
+| 90s Dance | D:Ream |
+| 90s Dance | Hyper Go Go |
+| 90s Dance | Shades of Rhythm |
+| Dance / Electronic | [Jeremy Ellis](https://www.youtube.com/@jeremyellismusic) |
+| Dance / Electronic | [Mezerg](https://www.youtube.com/channel/UCUaQxmkh81tJAWrreHe3CJg) |
+| Funk & Jazz | Jamiroquai |
+| Funk & Jazz | Matt Johnson |
+| Funky House | Purple Disco Machine |
+| Instrumental | Al Marconi |
+| Instrumental | Jean-Michel Jarre |
+| Instrumental | The Piano Guys |
+| Pop | Bronski Beat |
+| Pop | [Calvin Harris](https://www.youtube.com/channel/UCIjYyZxkFucP_W-tmXg_9Ow) |
+| Pop | Coldplay |
+| Pop | Craig David |
+| Pop | Curiosity Killed The Cat |
+| Pop | Daði Freyr |
+| Pop | Deacon Blue |
+| Pop | Dead Or Alive |
+| Pop | [DJ Fresh](https://www.youtube.com/channel/UC0y8P5OjTKLTpnDt62WJzCA) |
+| Pop | Enigma |
+| Pop | Enya |
+| Pop | Erasure |
+| Pop | Gloria Estefan |
+| Pop | Howard Jones |
+| Pop | Jimmy Somerville |
+| Pop | JLS |
+| Pop | Josh Groban |
+| Pop | Kool & The Gang |
+| Pop | Kylie Minogue |
+| Pop | Level 42 |
+| Pop | Lighthouse Family |
+| Pop | Limahl |
+| Pop | Mariah Carey |
+| Pop | Michael Bolton |
+| Pop | Michael Jackson |
+| Pop | [Paul Hardcastle](https://paulhardcastle.com/) |
+| Pop | Pet Shop Boys |
+| Pop | Rozalla |
+| Pop | Spandau Ballet |
+| Pop | Take That |
+| Pop | [Technotronic](https://www.youtube.com/@TechnotronicVEVO) |
+| Pop | The Communards |
+| Pop | Tony Mortimer |
+| Pop | Westlife |
+| Pop | Whitney Houston |
+| Pop | Years & Years |
+| Pop | Youngr |
+| Rock | Eagles |
+| Rock | Fleetwood Mac |
+| Rock | The Beach Boys |
+| Rock | The Cure |
+| Singer Songwriters | Barry Manilow |
+| Singer Songwriters | Carpenters |
+| Singer Songwriters | Christopher Cross |
+| Singer Songwriters | Stevie Wonder |
+| Synthwave | Sunglasses Kid |
+| Trance | [Above & Beyond](https://www.youtube.com/@aboveandbeyond) |
+| Trance | [Armin Van Buuren](https://www.youtube.com/@arminvanbuuren) |
 
-# My Favourite Composers
-- [Alan Menken](https://www.alanmenken.com/)
-  - Disney
-    - Aladdin
-    - Beauty and the Beast
-    - Hercules
-    - Pocahontas
-    - Tangled
-    - The Little Mermaid
-    - ...
-- [Andrew Lloyd Webber](https://www.andrewlloydwebber.com/)
-  - Cats
-  - Jesus Christ Superstar
-  - Joseph and the Amazing Technicolor Dreamcoat
-  - The Phantom of the Opera
-  - ...
-- [Dario Marianelli](https://en.wikipedia.org/wiki/Dario_Marianelli)
-  - [Everest](https://www.imdb.com/title/tt2719848/)
-- [Hans Zimmer](https://hans-zimmer.com/)
-  - Gladiator
-  - Inception
-  - Interstellar
-  - The Dark Knight
-  - The Last Samurai
-  - The Lion King
-  - ...
-- [James Horner](https://en.wikipedia.org/wiki/James_Horner)
-  - Aliens
-  - Apocalypto
-  - Apollo 13
-  - Titanic
-  - ...
-- [John Williams](https://www.johnwilliams.org/)
-  - A.I. Artificial Intelligence
-  - Catch Me If You Can
-  - E.T. The Extra Terrestrial
-  - Harry Potter
-  - Home Alone
-  - Jurassic Park
-  - Saving Private Ryan
-  - Schindler's List
-  - Superman
-  - ...
-- [Tom Salta](https://www.tomsalta.com/) - ASCAP award-winning and BAFTA-nominated composer Tom Salta is one of the most versatile and prolific music artists/producers working in film, television, advertising, and video games
-  - Halo
-  - Prince of Persia
-  - Tom Clancy franchise
-  - ...
+# Favourite DJs
+
+| Genre | DJ |
+| --- | --- |
+| Hard House | [Andy Farley](https://soundcloud.com/andyfarley) |
+| Hard House | [Andy Whitby](https://www.youtube.com/@BounceHeaven) |
+| Hard House | BK |
+| Hard House | Carl Nicholson |
+| Hard House | Guyver |
+| Hard House | Paul Glazby |
+| Hard House | Paul Maddox |
+| Trance | Andy Bagguley |
+| Trance | Armin Van Buuren |
+| Other | Jaguar Skills |
+
+# Favourite Keyboard Players & Pianists
+
+| Player | Link |
+| --- | --- |
+| Anthony Marinelli | [YouTube](https://www.youtube.com/@anthonymarinellimusic/) |
+| Barry Manilow | [YouTube](https://www.youtube.com/@BarryManilow/) |
+| Bartek Krzemiński | [YouTube](https://www.youtube.com/@bartekkrzemien/) |
+| Bert Smorenburg | [Website](https://www.bertsmorenburg.com/) |
+| Howard Jones | [YouTube](https://www.youtube.com/@howardjonesmusic/) |
+| Jean-Michel Jarre | [YouTube](https://www.youtube.com/@jeanmicheljarre/) |
+| Jordan Rudess | [YouTube](https://www.youtube.com/@JordanRudessKeys/) |
+| Matt Johnson | [YouTube](https://www.youtube.com/@MattJohnsonJamiroquai/) |
+| Robby Sharp | [YouTube](https://www.youtube.com/@RobbySharp/) |
+| Simeon Amburgey | [YouTube](https://www.youtube.com/@PraiseTracks/) |
+| Stevie Wonder | [YouTube](https://www.youtube.com/@steviewonder/) |
+| Thiago Pinheiro | [YouTube](https://www.youtube.com/@AASphysicalmodeling/) |
+
+# Favourite Composers
+
+| Composer | Notable Works |
+| --- | --- |
+| [Alan Menken](https://www.alanmenken.com/) | Aladdin, Beauty and the Beast, Hercules, Pocahontas, Tangled, The Little Mermaid |
+| [Andrew Lloyd Webber](https://www.andrewlloydwebber.com/) | Cats, Jesus Christ Superstar, Joseph and the Amazing Technicolor Dreamcoat, The Phantom of the Opera |
+| [Dario Marianelli](https://en.wikipedia.org/wiki/Dario_Marianelli) | [Everest](https://www.imdb.com/title/tt2719848/) |
+| [Hans Zimmer](https://hans-zimmer.com/) | Gladiator, Inception, Interstellar, The Dark Knight, The Last Samurai, The Lion King |
+| [James Horner](https://en.wikipedia.org/wiki/James_Horner) | Aliens, Apocalypto, Apollo 13, Titanic |
+| [John Williams](https://www.johnwilliams.org/) | A.I. Artificial Intelligence, Catch Me If You Can, E.T. The Extra Terrestrial, Harry Potter, Home Alone, Jurassic Park, Saving Private Ryan, Schindler's List, Superman |
+| [Tom Salta](https://www.tomsalta.com/) | Halo, Prince of Persia, Tom Clancy franchise |
+
+Tom Salta is an ASCAP award-winning and BAFTA-nominated composer, one of the most versatile and prolific artists/producers working across film, television, advertising, and video games.
 
 # Concerts
-- Erasure
-  - Wild! - London Arena (1989-12)
-- Howard Jones
-  - London Palladium (2023-10-17)
-- Pet Shop Boys
-  - London (TBC)
-- Prince
-  - Lovesexy - Wembley Arena, London (1988-08)
+
+| Artist | Show / Tour | Venue | Date |
+| --- | --- | --- | --- |
+| Erasure | Wild! | London Arena | 1989-12 |
+| Howard Jones |  | London Palladium | 2023-10-17 |
+| Pet Shop Boys |  | London | TBC |
+| Prince | Lovesexy | Wembley Arena, London | 1988-08 |
 
 # Theatre Shows
-- Cats
-- Les Miserables
-- Mary Poppins
-  - Prince Edward Theatre, London (2022-06-04)
-- Phantom of the Opera
-- Woman in White
+
+| Show | Venue | Date |
+| --- | --- | --- |
+| Book of Mormon |  |  |
+| Cats |  |  |
+| Disney Hercules |  |  |
+| Les Miserables |  |  |
+| Mary Poppins | Prince Edward Theatre, London | 2022-06-04 |
+| Oliver |  |  |
+| Phantom of the Opera |  |  |
+| Woman in White |  |  |

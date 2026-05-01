@@ -3,6 +3,10 @@ title: "Why I Play & Create Music Intuitively"
 date: 2026-01-07T23:35:21+01:00
 draft: false
 tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'inspiration', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synth']
+description: "A personal reflection on playing piano by ear, chasing flow, and treating music as a landscape to wander rather than a skill to master - where discovery and surprise matter more than theory."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Playing and creating music intuitively
 ---
 
 *Playing by ear - discovering by accident*
@@ -19,23 +23,23 @@ Those moments feel accidental, but they’re not random in the way dice rolls ar
 
 It’s not about finding “the right chord” or remembering some formal name. Often I don’t know what the chord *is*. I only know what it does - how it leans, how it resolves, how it feels slightly unstable in a way that makes me want to stay there a second longer. The theory can come later, or never. The joy is in the encounter.
 
-If you asked me to describe my playing style, I’d call it **ear-based or intuitive playing**. I struggle with most traditional music theory, and trying to force it feels wrong. But I can tell immediately when something sounds right. I play by ear, but not just to reproduce what I hear - I explore, experiment, and discover new chords, phrases, and patterns as I go. My hands and ears guide me more than rules ever could.
+If you asked me to describe my playing style, I’d call it **ear-based or intuitive playing**. I struggle with most traditional music theory, and trying to force it feels wrong. But I can tell immediately when something sounds right. I [play by ear](https://en.wikipedia.org/wiki/Playing_by_ear), but not just to reproduce what I hear - I explore, experiment, and discover new chords, phrases, and patterns as I go. My hands and ears guide me more than rules ever could.
 
 What fascinates me is that these discoveries don’t feel like invention so much as recognition. As if the sound already existed and I just happened to bump into it. My conscious brain takes the credit, but really it’s my hands doing the thinking. They remember distances, tensions, shapes across the keyboard. They learn quietly, without asking permission.
 
 ## The Zone - Flow and Inspiration
 
-Sometimes, when everything clicks, I get this incredible buzz - that feeling of being completely *in the zone*. I’m totally in tune with myself, and somehow, with the universe. It feels like I could play anything, like suddenly everything makes perfect sense. Every chord, every melody, every rhythm lines up and flows effortlessly. 
+Sometimes, when everything clicks, I get this incredible buzz - that feeling of being completely *in the zone*, what psychologists call [flow](https://en.wikipedia.org/wiki/Flow_(psychology)). I’m totally in tune with myself, and somehow, with the universe. It feels like I could play anything, like suddenly everything makes perfect sense. Every chord, every melody, every rhythm lines up and flows effortlessly. 
 
 At the same time, my head fills with inspiration, as if the melodies and chords are being fed to me. It’s an extremely relaxed but exhilarating feeling. I chase it, and it doesn’t happen every time, but when it does, I know it instantly. Just a few minutes in this zone feels like I’ve accomplished what would normally take hours, or even days, in other areas of life. The time invested in these moments feels tremendously amplified - every idea, every pattern, every discovery counts for so much more than normal. In these moments, music isn’t just something I play - it’s something I live, breathe, and discover all at once.
 
 ## Sound Design and Pattern Exploration
 
-Over time, I’ve realised this is exactly the same reason I love creating music more broadly, especially sound design.
+Over time, I’ve realised this is exactly the same reason I love creating music more broadly, especially [sound design](https://en.wikipedia.org/wiki/Sound_design).
 
 Digging through vast libraries of patches, stumbling across a sound I didn’t expect, or building one from scratch and watching it slowly turn into something interesting - it scratches the same itch as finding a new chord by accident. A filter tweak, an envelope change, one parameter nudged slightly too far, and suddenly the sound *speaks* differently. I didn’t plan it. I found it.
 
-The same goes for patterns. I love creating something simple and then deliberately destabilising it - shifting certain notes, randomising note positions, letting small changes ripple through the whole idea. Patterns emerge that I would never have come up with consciously. It feels less like composition and more like exploration, as if I’m uncovering possibilities rather than authoring them.
+The same goes for patterns. I love creating something simple and then deliberately destabilising it - shifting certain notes, randomising note positions, letting small changes ripple through the whole idea. Patterns emerge that I would never have come up with consciously. It feels less like composition and more like [improvisation](https://en.wikipedia.org/wiki/Improvisation), as if I’m uncovering possibilities rather than authoring them.
 
 ## Software, Hardware, and Tactile Music
 
