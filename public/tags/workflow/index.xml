@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 08:06:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 07:50:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hardware Sequencers in 2026: When Physical Beats Software</title>
+      <link>https://jamesm.blog/music-production/hardware-sequencers-2026/</link>
+      <pubDate>Sat, 02 May 2026 07:50:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/hardware-sequencers-2026/</guid>
+      <description>Why dedicated hardware sequencers are seeing a resurgence in 2026 - the cognitive case for constraint-first workflows, and the boxes worth building a setup around.</description>
+    </item>
     <item>
       <title>A Year of Agents, and What is Coming Next</title>
       <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
@@ -26,13 +33,6 @@
       <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ai-augmented-design-workflow/</guid>
       <description>How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design.</description>
-    </item>
-    <item>
-      <title>Hardware Sequencers in 2026: When Physical Beats Software</title>
-      <link>https://jamesm.blog/music-production/hardware-sequencers-2026/</link>
-      <pubDate>Wed, 08 Apr 2026 07:50:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/hardware-sequencers-2026/</guid>
-      <description>In an era of AI-generated melodies and infinite DAW power, the physical hardware sequencer has transitioned from a niche tool to a vital mental anchor for the modern producer.</description>
     </item>
   </channel>
 </rss>

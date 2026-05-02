@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Expression on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/expression/</link>
+    <description>Recent content in Expression on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 May 2026 08:00:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/expression/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MPE Deep Dive: Why Expressive MIDI Changes Everything</title>
+      <link>https://jamesm.blog/music-production/mpe-deep-dive/</link>
+      <pubDate>Sat, 02 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/mpe-deep-dive/</guid>
+      <description>Why MIDI Polyphonic Expression is not just a feature on a spec sheet but a fundamental shift in how electronic instruments behave under your fingers, and what it takes to make the most of it.</description>
+    </item>
+  </channel>
+</rss>
