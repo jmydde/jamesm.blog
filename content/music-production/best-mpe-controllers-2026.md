@@ -5,7 +5,7 @@ draft: false
 tags: ['midi', 'mpe', 'controller']
 description: "A practical guide to the MPE controllers worth knowing about in 2026 - what each one is good at, who it suits, and how to choose between keyboards, grids, fabric surfaces, and pads."
 cover:
-  image: /assets/images/music-production/music-production.png
+  image: /assets/images/music-production/best-mpe-controllers-2026.jpg
   alt: MPE MIDI Controllers
 ---
 
