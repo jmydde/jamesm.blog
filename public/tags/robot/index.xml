@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 May 2024 20:09:25 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/robot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Humanoid Robotics in 2026: From Prototypes to Production</title>
+      <link>https://jamesm.blog/ai/humanoid-robotics-2026/</link>
+      <pubDate>Sat, 02 May 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/humanoid-robotics-2026/</guid>
+      <description>After a decade of prototypes, humanoid robots are crossing into early production in 2026. A technical look at the leading platforms, the economics, the actuator breakthroughs, and what is still hype.</description>
+    </item>
     <item>
       <title>Unitree G1 - AI Humanoid Robot</title>
       <link>https://jamesm.blog/ai/unitree-g1/</link>
