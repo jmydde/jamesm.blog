@@ -1,9 +1,12 @@
 ---
 title: "Physical Modeling Synthesis: The Underrated Future of Sound Design"
-date: 2026-04-04T09:00:00+00:00
+date: 2026-05-02T09:00:00+01:00
 draft: false
 tags: ['physical modeling', 'synthesis', 'sound design', 'future tech']
 description: "Why physical modeling - not sampling or wavetables - is the next frontier in expressive digital instruments"
+cover:
+  image: /assets/images/music-production/physical-modeling-synths.jpg
+  alt: Physical Modeling Synthesis
 ---
 
 If you've spent any time with Pianoteq or the Audio Modeling SWAM instruments, you've felt something different. Not the crisp accuracy of a sampled library, not the flexibility of wavetable synthesis - but something that responds *like* an instrument. Strings that vibrate with sympathetic resonance. Piano keys with wooden resistance. A cello that sings differently when you bow it hard versus soft.
@@ -23,7 +26,9 @@ The Arturia link below explains this brilliantly, but the key insight is this: *
 
 This is why Pianoteq's pianos feel alive - they're not layered samples of static key presses. They're a model of wooden soundboards, hammer mechanics, and damper pedal physics. Every performance is unique because the instrument is responding to your *input*, not recalling a preset take.
 
-References: https://www.arturia.com/phi
+Modartt's late-2025 release of [Pianoteq 9](https://www.modartt.com/pianoteq_overview) made this tangible: a rebuilt soundboard model, instrument-wide revoicing across 2026 point releases, and a redesigned mic panel that lets you place up to **eight virtual microphones in 3D space** around the instrument. That kind of mic flexibility is impossible in a sampled library - you can't reposition a mic on a recording that was tracked five years ago. With a model, you just move the mic.
+
+For a plain-language primer on the underlying maths, [Arturia's "What is Physical Modeling?"](https://www.arturia.com/phi) explainer is one of the better resources online, with a nice walkthrough of how IRCAM and Stanford research fed into commercial plugins.
 
 ## Why This Matters for Sound Design
 
@@ -76,29 +81,41 @@ This is the future: not "intelligent sampled libraries" but instruments that *re
 
 ## Who's Leading This Space (2026)
 
-**Applied Acoustics Systems**  -  The pioneers. Chromaphone is underrated as a creative tool (not just realistic piano emulation). UltraAnalog VA-3 is a pure joy to play.
+The landscape shifted noticeably between 2024 and 2026. A wave of new physics-first synths landed - some free, some experimental - and the established players pushed major updates. Here's the current map.
 
-**Modartt (Pianoteq)**  -  The gold standard for digital pianos. But it's also a modular sound-design tool if you look at it sideways. Tweak the hammer, the strings, the dampers - suddenly you have an alien instrument.
+**[Anukari](https://anukari.com/)** (Anukari, new in 2025/2026)  -  Probably the most exciting newcomer. Anukari is a fully interactive 3D physics synthesizer where you place masses, springs, microphones and speakers in a 3D space and let them collide, ring and resonate. It runs up to 16 parallel physics worlds for polyphony, supports MPE and MTS-ESP microtuning, and ships with audio-reactive visuals you can use live. Currently in public beta with a free demo (the demo periodically plays white noise - otherwise unrestricted). NAMM 2026 was where it really turned heads.
 
-**Audio Modeling (SWAM)**  -  The most expressive orchestral tools on the market. If you care about violin as an *instrument* and not just a sound effect, SWAM is mandatory. Their modeling of bowing techniques is unmatched.
+**[Atoms](https://babyaud.io/atoms)** (Baby Audio)  -  A mass-spring physical modeling synth designed in collaboration with Silvin Willemsen, a postdoctoral researcher at Eindhoven University of Technology with 25+ academic papers on real-time instrument simulation. Six knobs (Chaos, Force, Drive, Order, Overtones, Filter), 250 presets, all FX baked into the physical model itself. It's a great way in if AAS or Pianoteq feels too parametric - Atoms hides the complexity behind a deliberately small UI.
 
-**Physical Audio**  -  The experimentalists. Modus and Derailer aren't trying to emulate reality; they're using physical modeling to create *impossible* instruments. This is where the future gets weird.
+**[Chromaphone & UltraAnalog VA-3](https://www.applied-acoustics.com/)** (Applied Acoustics Systems)  -  The pioneers. Chromaphone is still underrated as a creative tool (not just realistic piano emulation). UltraAnalog VA-3 is a pure joy to play. AAS were doing this when nobody else cared, and the engines hold up.
 
-**Expressive E (Imagine)**  -  A playful entry point. Less realistic, more "acoustic character meets modern sound design." Great for people who want the responsiveness without the acoustic simulation.
+**[Imagine](https://www.expressivee.com/63-imagine)** (Expressive E)  -  A playful entry point. Less realistic, more "acoustic character meets modern sound design." Great for people who want the responsiveness without the academic acoustic simulation. Pairs especially well with Expressive E's own Osmose and Touché controllers.
 
-**Arturia (Piano V, Harp V, etc.)**  -  Consumer-friendly physical modeling with their typical quality. Excellent starting point.
+**[Kaivo](https://madronalabs.com/products/kaivo)** (Madrona Labs)  -  Granular meets physical modeling. Kaivo brought academic-grade physical modeling research into a patchable, modular package, and it's still one of the highest-quality engines you can buy. Madrona's [Sumu](https://madronalabs.com/products/sumu) (additive + FM, MPE-enabled since 2025) is a sister instrument worth knowing about - not strictly physical modeling, but cut from the same expressivity cloth.
+
+**[Modus, Derailer & Preparation](https://physicalaudio.co.uk/)** (Physical Audio)  -  The experimentalists. Modus, Derailer and Preparation aren't trying to emulate reality; they're using mathematical models of bars, strings and rattling elements to build *impossible* instruments. This is where the future gets weird - and where sound designers are quietly mining for unique textures.
+
+**[Piano V, Stage-73 V & Clavinet V](https://www.arturia.com/)** (Arturia)  -  Consumer-friendly physical modeling with the V Collection's typical polish. Built on research partnerships with IRCAM and Stanford. Excellent starting point if you live inside V Collection already.
+
+**[Pianoteq 9 + Syngular](https://www.modartt.com/pianoteq_overview)** (Modartt)  -  The gold standard for digital pianos, and as of December 2025 also a *proper* physical modeling synthesizer. The new [Syngular](https://www.modartt.com/syngular) expansion pack repurposes the Pianoteq engine - strings, hammers, soundboards - as a sound-design playground. Over 30 parameters, ADSR, filter, mallet bounce, randomisation, plus 50+ presets aimed squarely at keys, pads, basses and leads. If you already own Pianoteq 9, the €39 add-on is the cheapest way into modern physical modeling synthesis.
+
+**[Plasmonic](https://rhizomatic.fr/)** (Rhizomatic)  -  Hybrid physical modeling and subtractive synthesis. Underrated outside of sound-designer circles, and worth a demo if you're chasing acoustic resonance with familiar synthesist controls.
+
+**Rippler** (Tiagolr, free, 2026)  -  A 32-voice physical modeling synth heavily inspired by Chromaphone, with 12 acoustic resonator models (string, beam, bell, membrane, plate, drumhead, djembe, vibraphone, marimba, open/closed tube, manual). Free and MPE-capable. Currently in late beta heading toward 1.0 - this is the easiest possible way to find out if you like physical modeling without spending a penny.
+
+**[SWAM Strings & SWAM Solo Strings](https://audiomodeling.com/)** (Audio Modeling)  -  The most expressive orchestral tools on the market. If you care about violin as an *instrument* and not just a sound effect, SWAM is mandatory. Their modeling of bowing techniques is unmatched, and the SWAM Solo Strings remain the benchmark for MPE-driven realistic strings.
 
 ## The Barrier to Adoption
 
 Physical modeling hasn't taken over because:
 
-1. **CPU cost**  -  It's heavier than sampling on the DSP side (you're running math, not sample playback). This is improving but still matters on large sessions.
+1. **CPU cost**  -  It's heavier than sampling on the DSP side (you're running math, not sample playback). 2026 is the first year this stopped being a serious objection on modern Apple Silicon and recent x86 chips - Anukari, for instance, leans on GPU physics simulation to keep latency tolerable - but it still matters on large sessions and older machines.
 
 2. **Workflow inertia**  -  We're trained on samplers. "Load a library, adjust velocity curves, done." Physical modeling requires understanding what you're modeling.
 
 3. **Lack of "perfect" recreations**  -  A Spitfire violin sounds closer to a *specific* Strad than any physical model. If your goal is "authentic takeover," samplers still win. (Though I'd argue they're dying on that criterion as libraries age - a 2020 sampled library of a 1992 recorded session isn't *authentic* to modern playing styles.)
 
-4. **Small ecosystem**  -  Wavetable synthesis has thousands of preset designers. Physical modeling has dozens. This creates a perception gap.
+4. **Small ecosystem**  -  Wavetable synthesis has thousands of preset designers. Physical modeling has dozens. The 2026 release of Syngular, Anukari, Atoms and Rippler is closing this gap fast, but the perception lag is real.
 
 ## Why the Future Belongs to Physical Modeling
 
@@ -120,10 +137,13 @@ Physical modeling doesn't compete with reality. It *becomes* reality the moment 
 
 ## For Further Exploration
 
-The plugins listed below represent the full landscape. I'd recommend starting with:
+The plugins listed below represent the full landscape. For 2026, I'd recommend starting with:
 
-- **Pianoteq** if you care about classical/jazz expression
-- **SWAM Strings** if you're building orchestral arrangements
+- **Tiagolr Rippler** (free) if you've never touched physical modeling and want to see what the fuss is about
+- **Pianoteq 9** if you care about classical/jazz expression - and add the **Syngular** expansion if you want to use the same engine as a synth
+- **Anukari** if you want the most experimental, physics-first sound-design rabbit hole on the market
+- **Baby Audio Atoms** if you want a small, friendly UI hiding a serious mass-spring engine
+- **SWAM Solo Strings** if you're building orchestral arrangements with an MPE controller
 - **Chromaphone** if you want to understand physical modeling as a creative tool first, emulation second
 - **Tension** if you have Ableton and want to experiment without buying new software
 
@@ -136,31 +156,37 @@ Honestly, spend an hour with any of these and you'll understand why the future o
 ## Physical Modeling Plugins
 - [Ableton](https://www.ableton.com/)
   - [Tension](https://www.ableton.com/en/packs/tension/) - physical modeling string synthesizer capable of creating incredibly accurate reproductions of real stringed instruments or otherworldly hybrids
+- [Anukari](https://anukari.com/) - 3D physics synthesizer where masses, springs, mics and speakers in a 3D space generate sound (public beta, free demo available)
 - [Applied Acoustics Systems](https://www.applied-acoustics.com/)
   - [Chromaphone](https://www.applied-acoustics.com/chromaphone-3/) - creative synthesis with real-life acoustic character
   - [Ultra Analog VA-3](https://www.applied-acoustics.com/ultra-analog-va-3/) - performs as a unique and powerful synth that is fast, easy, and remarkably versatile
 - [Audio Modeling](https://audiomodeling.com/)
-  - [SWAM String Sections](https://audiomodeling.com/sections/swam-string-sections/) - truly innovative suite of four plug-ins, corresponding to the orchestra sections Violins, Violas, Cellos, and Double Basses, and based on Audio Modeling’s exclusive modeling technology
+  - [SWAM String Sections](https://audiomodeling.com/sections/swam-string-sections/) - truly innovative suite of four plug-ins corresponding to the orchestra sections Violins, Violas, Cellos, and Double Basses
+  - [SWAM Solo Strings](https://audiomodeling.com/solo/) - flagship MPE-driven solo violin, viola, cello and double bass
 - [Arturia](https://www.arturia.com/)
   - [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview) - finest array of production-worthy pianos
+- [Baby Audio](https://babyaud.io/)
+  - [Atoms](https://babyaud.io/atoms) - mass-spring physical modeling synth designed in collaboration with researcher Silvin Willemsen
 - [Expressive E](https://www.expressivee.com/)
-  - [imagine](https://www.expressivee.com/63-imagine) - a playful world of unknown acoustic sounds
+  - [Imagine](https://www.expressivee.com/63-imagine) - a playful world of unknown acoustic sounds
+- [Madrona Labs](https://madronalabs.com/)
+  - [Kaivo](https://madronalabs.com/products/kaivo) - granular synthesis combined with high-quality physical modeling in a patchable interface
+  - [Sumu](https://madronalabs.com/products/sumu) - additive resynthesis with FM (MPE-enabled, 2025+); not strictly physical modeling but a sibling in expressivity
 - [Modartt](https://www.modartt.com/)
-  - [Pianoteq](https://www.modartt.com/pianoteq_overview) - award-winning virtual instrument
+  - [Pianoteq 9](https://www.modartt.com/pianoteq_overview) - the gold-standard physically modeled piano, with a rebuilt soundboard model and 8-mic 3D placement
+  - [Syngular](https://www.modartt.com/syngular) - 2025 expansion that turns the Pianoteq engine into a fully-fledged physical modeling synthesizer
 - [Physical Audio](https://physicalaudio.co.uk/)
   - [Derailer](https://physicalaudio.co.uk/products/derailer/) - physical modelling instrument plugin built from mathematical models of strings, bars and spring connection elements
   - [Modus](https://physicalaudio.co.uk/products/modus/) - virtual world of conceptual instruments, modelled with cutting edge physical behaviours and acoustic properties
   - [Preparation](https://physicalaudio.co.uk/products/preparation/) - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element
 - [Rhizomatic](https://rhizomatic.fr/)
   - [Plasmonic](https://rhizomatic.fr/) - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists
+- [Tiagolr](https://tiagolr.com/) - free 32-voice physical modeling synth Rippler, with 12 acoustic resonator models (Chromaphone-inspired)
 
 ## YouTube Videos
 
 ### Chromaphone
 {{< youtube AW0BfyWKIRI >}}
-
-### Derailer
-{{< youtube 3JFwlPCrcto >}}
 
 ### Imagine
 {{< youtube pfQbfhBN0oQ >}}
@@ -178,7 +204,7 @@ Honestly, spend an hour with any of these and you'll understand why the future o
 {{< youtube nS04DHdljKk >}}
 
 ### Preparation
-{{< youtube 2wL9TC-V19w >}}
+{{< youtube X0RHcg89NO4 >}}
 
 ### SWAM String Sections
 {{< youtube ln_vqLmNGUU >}}
