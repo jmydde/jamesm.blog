@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 May 2026 21:03:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 00:01:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Physics and Philosophy of Interstellar</title>
+      <link>https://jamesm.blog/space/interstellar-physics-and-philosophy/</link>
+      <pubDate>Mon, 04 May 2026 00:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/interstellar-physics-and-philosophy/</guid>
+      <description>How Christopher Nolan and Nobel laureate Kip Thorne built a Hollywood film around real general relativity - wormholes, Gargantua, gravitational time dilation, the Tesseract, and the trade-offs between scientific accuracy and storytelling.</description>
+    </item>
+    <item>
+      <title>LLM-Powered Personal Productivity: Building a Private Automation Stack</title>
+      <link>https://jamesm.blog/ai/llm-powered-personal-productivity/</link>
+      <pubDate>Sun, 03 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/llm-powered-personal-productivity/</guid>
+      <description>Local LLMs have quietly become good enough to run a real personal automation stack - inbox triage, second-brain notes, home routines, voice capture - without sending anything to the cloud. A walkthrough of what I run, why each piece is there, and where the seams are.</description>
+    </item>
     <item>
       <title>Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled</title>
       <link>https://jamesm.blog/ai/roman-yampolskiy/</link>

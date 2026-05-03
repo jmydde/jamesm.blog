@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 08:06:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM-Powered Personal Productivity: Building a Private Automation Stack</title>
+      <link>https://jamesm.blog/ai/llm-powered-personal-productivity/</link>
+      <pubDate>Sun, 03 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/llm-powered-personal-productivity/</guid>
+      <description>Local LLMs have quietly become good enough to run a real personal automation stack - inbox triage, second-brain notes, home routines, voice capture - without sending anything to the cloud. A walkthrough of what I run, why each piece is there, and where the seams are.</description>
+    </item>
     <item>
       <title>A Year of Agents, and What is Coming Next</title>
       <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
