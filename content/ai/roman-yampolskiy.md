@@ -47,7 +47,7 @@ For a reader who wants to engage with the primary sources rather than the press,
 - *Artificial Superintelligence: A Futuristic Approach* (2016). His first book-length treatment, structured as a tour of the open problems in superintelligence safety. Useful as orientation, dated in places.
 - [*A Timeline of AI Failures*](https://arxiv.org/abs/1610.07997) (2016). The empirical foundation. A catalogue of incidents that grounds the more theoretical work in observed reality.
 - [*On Controllability of AI*](https://arxiv.org/abs/2008.04071) (2020). The cleanest single statement of the uncontrollability thesis. If you read one of his papers, this is the one.
-- *Artificial Intelligence Safety and Security* (2019, edited volume). A reference collection that gathers the field's main arguments under one cover. Useful for breadth.
+- *Artificial Intelligence Safety and Security* (2018, edited volume). A reference collection that gathers the field's main arguments under one cover. Useful for breadth.
 - *AI: Unexplainable, Unpredictable, Uncontrollable* (2024). His most recent book. The argument is restated for a general audience and updated to the post-LLM era. The [TechXplore summary](https://techxplore.com/news/2024-02-proof-ai.html) of its launch interview is a reasonable preview if you want the gist before buying it.
 
 ## Core beliefs, stated as cleanly as possible
@@ -102,8 +102,28 @@ The thread that connects the short-term and long-term predictions is the one I t
 
 ## How to read him
 
-The honest summary is that Yampolskiy is neither a crank nor a prophet. He is a long-serving researcher with a coherent thesis, an unusually consistent track record of saying the same things since 2008, and a willingness to put his arguments in formal terms even when the conclusions are unwelcome. The strongest version of his position - that controllable superintelligence is impossible in principle - is contested and probably not provable. The weaker version - that the field has not yet produced a credible argument for controllability, and that the asymmetry of consequences should drive caution - is harder to dismiss.
+The honest summary is that Yampolskiy is best understood not as an outlier, but as a consistent advocate of a particular risk thesis. He is a long-serving researcher with a coherent position, an unusually consistent track record of saying the same things since 2008, and a willingness to put his arguments in formal terms even when the conclusions are unwelcome. The strongest version of his position - that controllable superintelligence is impossible in principle - is contested and probably not provable. The weaker version - that the field has not yet produced a credible argument for controllability, and that the asymmetry of consequences should drive caution - is harder to dismiss.
 
 Whether you treat him as alarmist or ahead of his time depends on what you think the next decade looks like. If frontier capability stalls, Yampolskiy's framing will look like a category error applied to systems that turned out to be tractable. If it does not, the people asking impossibility-style questions ten years before the rest of the field will look like the ones who were paying attention.
 
 For a working engineer, the practical implication is the same regardless of which side of that question you land on. Build systems that fail in [detectable, recoverable, and bounded ways](/ai/ai-safety-first-principles/). Treat the gap between empirical safety and provable safety as real. Take the cybersecurity-mindset framing seriously even if you do not buy the longest-arc conclusions. The unglamorous parts of safety engineering are the parts that hold up regardless of whose forecast turns out to be right.
+
+## Further Watching
+
+### The AI Expert Who Thinks We've Already Lost — Dr Roman Yampolskiy
+{{< youtube "3I60uZEqXr0" >}}
+
+### The Man Who Proved We Can't Control AI (And What That Means for Humanity) | Roman Yampolskiy
+{{< youtube "U9xygNoXnZQ" >}}
+
+### The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! - Dr. Roman Yampolskiy
+{{< youtube "UclrVWafRAI" >}}
+
+### Is AI Already Conscious? | Roman Yampolskiy
+{{< youtube "LNWWpq3vfSI" >}}
+
+### Joe Rogan Experience #2345 - Roman Yampolskiy
+{{< youtube "j2i9D24KQ5k" >}}
+
+### Roman Yampolskiy: Dangers of Superintelligent AI | Lex Fridman Podcast #431
+{{< youtube "NNr6gPelJ3E" >}}
