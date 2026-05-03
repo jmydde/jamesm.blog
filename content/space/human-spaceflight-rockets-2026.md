@@ -169,3 +169,22 @@ The rockets, at least, are finally up to the job.
 - [Long March 10 (Wikipedia)](https://en.wikipedia.org/wiki/Long_March_10)
 - [SpaceX Mars launch plans](https://www.space.com/spacex-starship-mars-launches-2026-elon-musk)
 - [NASA Artemis architecture update, February 2026](https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/)
+
+---
+
+## Featured Videos
+
+### NASA's Artemis II Crew Launches to the Moon (Official Broadcast)
+{{< youtube Tf_UjBMIzNo >}}
+
+### NASA's Artemis II Crew Flies Around the Moon (Official Broadcast)
+{{< youtube z-j1uxBmis0 >}}
+
+### SpaceX Starship Documentary 2026 - TEST LIKE YOU FLY
+{{< youtube qq3kHVxCejM >}}
+
+### Replay: New Glenn Mission NG-2 Webcast
+{{< youtube ecfxcTEl-1I >}}
+
+### New Glenn-2 Launch Recap
+{{< youtube lVvURVG_b10 >}}
