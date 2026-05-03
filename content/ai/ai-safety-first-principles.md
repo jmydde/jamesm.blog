@@ -79,3 +79,7 @@ This is not specific to AI. It is the same principle that produces good distribu
 Almost everything else in the public AI safety conversation is downstream of this. The four-layer model is just a way of asking, at each layer: what is the failure mode here, and is it detectable, recoverable, and bounded?
 
 If you keep that question in your head, the rest of the noise resolves into useful work.
+
+## Related Reading
+
+- [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/) - a profile of the long-running uncontrollability argument that lives mostly at the civilisational layer, and how to read it without confusing it for the engineering work below.
