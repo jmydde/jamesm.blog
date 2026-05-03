@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ai on jamesm.blog</title>
+    <title>AI on jamesm.blog</title>
     <link>https://jamesm.blog/tags/ai/</link>
-    <description>Recent content in Ai on jamesm.blog</description>
+    <description>Recent content in AI on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -778,6 +778,14 @@
 &lt;li&gt;&lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt; - AI research and deployment company&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://stability.ai/&#34;&gt;Stability&lt;/a&gt; - building the foundation to activate humanity&amp;rsquo;s potential&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI/&#34;&gt;Tesla AI &amp;amp; Robotics&lt;/a&gt; - developing &amp;amp; deploying autonomy at scale in vehicles &amp;amp; robots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/github-projects/&#34;&gt;List of AI GitHub Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-resources-and-best-practices/&#34;&gt;The Complete AI Developer&amp;rsquo;s Guide: Resources and Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/courses/&#34;&gt;List of AI Courses &amp;amp; Learning Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/conferences/&#34;&gt;AI Conferences Worth Following&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/explainers/&#34;&gt;AI Explainers&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -897,7 +905,15 @@
 &lt;h3 id=&#34;2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio&#34;&gt;[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;</description>
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/humanoid-robotics-2026/&#34;&gt;Humanoid Robotics in 2026: From Prototypes to Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tesla-optimus-robot/&#34;&gt;Tesla Optimus Robot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/boston-dynamics-humanoid-robot/&#34;&gt;Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/unitree-g1/&#34;&gt;Unitree G1 - AI Humanoid Robot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Tesla Optimus Robot</title>
@@ -1125,6 +1141,13 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5wdCev86RYE/&#34;&gt;How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hDK8W5SLzlw/&#34;&gt;Midjourney Prompt Tips for Beginners and Veterans&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=NU2TYgfQwcA/&#34;&gt;Stable diffusion prompt tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-resources-and-best-practices/&#34;&gt;The Complete AI Developer&amp;rsquo;s Guide: Resources and Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/conferences/&#34;&gt;AI Conferences Worth Following&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/explainers/&#34;&gt;AI Explainers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-tooling-learning-path/&#34;&gt;An AI Tooling Learning Path: Logical Phases for 2026&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -1163,6 +1186,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt;  -  Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt;  -  Curated dataset linking papers with their implementations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/github-copilot/&#34;&gt;GitHub Copilot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ollama/&#34;&gt;Running AI Models Locally with Ollama: From Setup to OpenClaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/openclaw-is-wild/&#34;&gt;OpenClaw Is Absolutely Wild&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-resources-and-best-practices/&#34;&gt;The Complete AI Developer&amp;rsquo;s Guide: Resources and Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;AI Tools &amp;amp; Frameworks&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -1199,6 +1230,13 @@
 &lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;List of AI Tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/chatgpt-images-2/&#34;&gt;ChatGPT Images 2.0: Why Everyone Is Impressed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-augmented-design-workflow/&#34;&gt;My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/claude-design/&#34;&gt;Claude Design: Closing the Design-to-Code Gap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/taste-is-the-new-scarcity/&#34;&gt;Taste Is the New Scarcity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -1317,6 +1355,14 @@
 &lt;h2 id=&#34;courses--practical-learning&#34;&gt;Courses &amp;amp; Practical Learning&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt;  -  Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/chatbots-llms/&#34;&gt;Chatbots &amp;amp; Large Language Models (LLMs)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-resources-and-best-practices/&#34;&gt;The Complete AI Developer&amp;rsquo;s Guide: Resources and Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/courses/&#34;&gt;List of AI Courses &amp;amp; Learning Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/llm-context-window-arms-race/&#34;&gt;The LLM Context Window Arms Race: Does It Actually Matter?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/structured-outputs-schema/&#34;&gt;Structured Outputs: When Your AI Needs to Follow a Schema&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>

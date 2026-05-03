@@ -83,3 +83,20 @@ Buy the cheapest MPE controller you are willing to live with for six months. Bor
 If it has changed your relationship, you will probably want to upgrade to something that fits your playing style more deliberately. If it has not, you have learned something useful about yourself as a musician, which is also worth the cost of admission.
 
 The thing to avoid is the trap of treating MPE as a spec to compare. The data is in the playing. Spec sheets are useful for picking which controller to evaluate. Only the hours under your fingers will tell you whether MPE is for you.
+
+## Further Learning
+
+### MPE Introduction: What is MPE and how does it work?
+{{< youtube "76JVtUVAfJQ" >}}
+
+### An Introduction to MIDI Polyphonic Expression
+{{< youtube "2jTCM3EGxhU" >}}
+
+### Unlocking MPE in Omnisphere 3 - Roli Seaboard Performance & Setup Tips
+{{< youtube "u1IWGjisX74" >}}
+
+### ROLI Seaboard 2 vs Expressive E Osmose
+{{< youtube "JZL76RTrlLg" >}}
+
+### Littel Jam on Osmose, Roli Seaboard and Haken Continuum
+{{< youtube "k7TGUGeSSLk" >}}

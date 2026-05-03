@@ -86,7 +86,7 @@ What I’ve realised is that the best approach isn’t replacing Claude Code ent
     <meta property="article:section" content="ai">
     <meta property="article:published_time" content="2026-03-09T07:09:25+01:00">
     <meta property="article:modified_time" content="2026-03-09T07:09:25+01:00">
-    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="AI">
     <meta property="article:tag" content="Claude">
     <meta property="article:tag" content="Claude-Code">
       <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
@@ -129,8 +129,8 @@ What I’ve realised is that the best approach isn’t replacing Claude Code ent
   "keywords": [
     "ai", "claude", "claude code"
   ],
-  "articleBody": "I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.\nSo I started exploring alternatives.\nWhat I’ve realised is that the best approach isn’t replacing Claude Code entirely - it’s building a hybrid AI developer stack where different models handle different types of work.\nThink of it like a compute tiering strategy.\nThe Hybrid AI Stack Instead of relying on a single frontier model, I’m moving towards something like this:\nTask Model Type Cost Quick edits, small scripts Local model Free General coding tasks Cheap cloud models Pennies Architecture / complex work Claude / frontier models Occasional In practice this means most requests never touch the expensive models.\nRunning Models Locally For basic coding tasks, local models are already surprisingly capable.\nTools to run them:\nOllama LM Studio Then connect them to an IDE agent such as:\nContinue.dev Cline Aider Some good coding models:\nModel Size Notes DeepSeek Coder 6B / 33B Strong coding performance Qwen2.5 Coder 7B / 32B Good reasoning + tool use Codestral ~22B Solid refactoring Llama-3.1 8B Fast and lightweight Example:\nbrew install ollama ollama run deepseek-coder:6.7b Local models are great for:\nwriting functions fixing bugs editing files explaining code generating tests They struggle more with large multi-file reasoning, which is where frontier models still shine.\nCheap Cloud Models Instead of paying subscription pricing, you can also call open models via inference providers.\nSome good ones:\nGroq Together AI DeepInfra Fireworks AI Typical pricing is tiny:\nModel Approx Price Llama-3 70B ~$0.20 / million tokens DeepSeek V3 ~$0.30 / million tokens Qwen coder ~$0.10 / million tokens For normal coding tasks this means pennies per session.\nFree Coding Assistants There are also tools offering free or semi-free coding models:\nTool Notes Cursor small models + limited premium usage Codeium unlimited completions Tabnine free tier available JetBrains AI local + quota models Some allow plugging in your own local models, which removes limits entirely.\nUsing Claude Code Less (But More Strategically) The key insight for me was this:\nFrontier models like Claude are still the best for:\narchitecture decisions large refactors complex reasoning multi-file edits But they’re overkill for everyday coding tasks.\nSo instead of using Claude for everything, it becomes the top tier tool in the stack.\nThe Setup I’m Experimenting With Something roughly like this:\nVS Code ├─ Continue.dev ├─ Ollama (local models) │ ├─ qwen2.5-coder │ └─ deepseek-coder │ └─ API fallback ├─ Groq └─ Claude Code Usage ends up looking like:\n80% local models 15% cheap APIs 5% frontier models Which dramatically reduces usage limits.\nHardware Option If you code constantly, running bigger models locally becomes viable.\nTypical developer setups:\nHardware Cost Used RTX 3090 workstation ~$1.5–2k RTX 4090 workstation ~$3–4k A 24GB GPU can run models in the 30B parameter range, which are good enough for most coding tasks.\nWhat’s Happening in the AI Coding Space One thing is clear: coding models are rapidly commoditising.\nFrontier models still lead in reasoning and agent reliability, but open models are already competitive for:\nwriting functions generating boilerplate fixing bugs explaining code The gap is shrinking fast.\nMy Takeaway Instead of paying for bigger and bigger subscriptions, it makes more sense to build a layered AI workflow:\nlocal models for everyday work cheap cloud inference for heavier tasks frontier models only when needed You keep the power of Claude, but avoid hitting limits constantly.\nAnd realistically, this is probably how most developer AI stacks will look going forward.\n",
-  "wordCount" : "604",
+  "articleBody": "I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.\nSo I started exploring alternatives.\nWhat I’ve realised is that the best approach isn’t replacing Claude Code entirely - it’s building a hybrid AI developer stack where different models handle different types of work.\nThink of it like a compute tiering strategy.\nThe Hybrid AI Stack Instead of relying on a single frontier model, I’m moving towards something like this:\nTask Model Type Cost Quick edits, small scripts Local model Free General coding tasks Cheap cloud models Pennies Architecture / complex work Claude / frontier models Occasional In practice this means most requests never touch the expensive models.\nRunning Models Locally For basic coding tasks, local models are already surprisingly capable.\nTools to run them:\nOllama LM Studio Then connect them to an IDE agent such as:\nContinue.dev Cline Aider Some good coding models:\nModel Size Notes DeepSeek Coder 6B / 33B Strong coding performance Qwen2.5 Coder 7B / 32B Good reasoning + tool use Codestral ~22B Solid refactoring Llama-3.1 8B Fast and lightweight Example:\nbrew install ollama ollama run deepseek-coder:6.7b Local models are great for:\nwriting functions fixing bugs editing files explaining code generating tests They struggle more with large multi-file reasoning, which is where frontier models still shine.\nCheap Cloud Models Instead of paying subscription pricing, you can also call open models via inference providers.\nSome good ones:\nGroq Together AI DeepInfra Fireworks AI Typical pricing is tiny:\nModel Approx Price Llama-3 70B ~$0.20 / million tokens DeepSeek V3 ~$0.30 / million tokens Qwen coder ~$0.10 / million tokens For normal coding tasks this means pennies per session.\nFree Coding Assistants There are also tools offering free or semi-free coding models:\nTool Notes Cursor small models + limited premium usage Codeium unlimited completions Tabnine free tier available JetBrains AI local + quota models Some allow plugging in your own local models, which removes limits entirely.\nUsing Claude Code Less (But More Strategically) The key insight for me was this:\nFrontier models like Claude are still the best for:\narchitecture decisions large refactors complex reasoning multi-file edits But they’re overkill for everyday coding tasks.\nSo instead of using Claude for everything, it becomes the top tier tool in the stack.\nThe Setup I’m Experimenting With Something roughly like this:\nVS Code ├─ Continue.dev ├─ Ollama (local models) │ ├─ qwen2.5-coder │ └─ deepseek-coder │ └─ API fallback ├─ Groq └─ Claude Code Usage ends up looking like:\n80% local models 15% cheap APIs 5% frontier models Which dramatically reduces usage limits.\nHardware Option If you code constantly, running bigger models locally becomes viable.\nTypical developer setups:\nHardware Cost Used RTX 3090 workstation ~$1.5–2k RTX 4090 workstation ~$3–4k A 24GB GPU can run models in the 30B parameter range, which are good enough for most coding tasks.\nWhat’s Happening in the AI Coding Space One thing is clear: coding models are rapidly commoditising.\nFrontier models still lead in reasoning and agent reliability, but open models are already competitive for:\nwriting functions generating boilerplate fixing bugs explaining code The gap is shrinking fast.\nMy Takeaway Instead of paying for bigger and bigger subscriptions, it makes more sense to build a layered AI workflow:\nlocal models for everyday work cheap cloud inference for heavier tasks frontier models only when needed You keep the power of Claude, but avoid hitting limits constantly.\nAnd realistically, this is probably how most developer AI stacks will look going forward.\nRelated Reading Claude Code vs Cursor: A 6-Month Comparison The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should What Actually Belongs in My AI Dev Stack in 2026 An AI Tooling Learning Path: Logical Phases for 2026 ",
+  "wordCount" : "646",
   "inLanguage": "en",
   "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2026-03-09T07:09:25+01:00",
   "dateModified": "2026-03-09T07:09:25+01:00",
@@ -259,7 +259,7 @@ What I’ve realised is that the best approach isn’t replacing Claude Code ent
     <h1 class="post-title entry-hint-parent">
       Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward
     </h1>
-    <div class="post-meta"><span title='2026-03-09 07:09:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span>
+    <div class="post-meta"><span title='2026-03-09 07:09:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
   </header> <details class="toc" >
@@ -285,7 +285,9 @@ What I’ve realised is that the best approach isn’t replacing Claude Code ent
             <li>
                 <a href="#whats-happening-in-the-ai-coding-space" aria-label="What&rsquo;s Happening in the AI Coding Space">What&rsquo;s Happening in the AI Coding Space</a></li>
             <li>
-                <a href="#my-takeaway" aria-label="My Takeaway">My Takeaway</a>
+                <a href="#my-takeaway" aria-label="My Takeaway">My Takeaway</a></li>
+            <li>
+                <a href="#related-reading" aria-label="Related Reading">Related Reading</a>
             </li>
         </ul>
     </div>
@@ -523,13 +525,20 @@ What I’ve realised is that the best approach isn’t replacing Claude Code ent
 </ul>
 <p>You keep the power of Claude, but avoid hitting limits constantly.</p>
 <p>And realistically, this is probably how most developer AI stacks will look going forward.</p>
+<h2 id="related-reading">Related Reading<a hidden class="anchor" aria-hidden="true" href="#related-reading">#</a></h2>
+<ul>
+<li><a href="/ai/claude-code-vs-cursor/">Claude Code vs Cursor: A 6-Month Comparison</a></li>
+<li><a href="/ai/claude-token-efficiency-mindset/">The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should</a></li>
+<li><a href="/ai/what-actually-belongs-in-my-ai-dev-stack-2026/">What Actually Belongs in My AI Dev Stack in 2026</a></li>
+<li><a href="/ai/ai-tooling-learning-path/">An AI Tooling Learning Path: Logical Phases for 2026</a></li>
+</ul>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/ai/">AI</a></li>
       <li><a href="https://jamesm.blog/tags/claude/">Claude</a></li>
       <li><a href="https://jamesm.blog/tags/claude-code/">Claude-Code</a></li>
     </ul>
