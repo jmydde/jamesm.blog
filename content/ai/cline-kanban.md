@@ -130,3 +130,10 @@ Your team's board and your code repository finally speak the same language.
 - [Cline: The Next Generation AI Coding Assistant](https://jamesm.blog/ai/cline/)
 - [The Automation Paradox](https://jamesm.blog/ai/automation-paradox/)
 - [Spec-Driven Development: When the Brief Becomes the Product](https://jamesm.blog/ai/spec-driven-development/)
+
+## Related Reading
+
+- [Cline: The Next Generation AI Coding Assistant](/ai/cline/)
+- [GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀](/ai/github-spec-kit-2026-update/)
+- [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)

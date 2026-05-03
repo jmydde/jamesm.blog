@@ -66,3 +66,10 @@ A few second-order effects worth watching:
 Options are exercised, or they are not. SpaceX can still walk away, pay the $10 billion, and leave Cursor to a more traditional exit or IPO path. That path is not obviously worse for Anysphere. A fully independent Cursor with $10 billion in the bank and a deep technical collaboration already done is still one of the most interesting companies in software.
 
 What this deal does is set a price. For a four-year-old startup making a code editor, the market - or at least Elon Musk's slice of it - is now willing to sign a contract that says Cursor is worth $60 billion. That number will shape every other conversation in AI developer tools for the rest of the year.
+
+## Related Reading
+
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
+- [Stargate](/ai/microsoft-openai-stargate/)
+- [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)

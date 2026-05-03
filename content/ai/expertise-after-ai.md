@@ -108,3 +108,11 @@ But maybe that's the point. Maybe expertise was never supposed to be scalable. M
 The exam was a convenient shortcut. It was always a lie - a useful lie, but a lie. AI didn't break expertise. It just broke the lie we told ourselves about what the exam meant.
 
 Now we get to build something more honest.
+
+## Related Reading
+
+- [The Junior Developer Pipeline Problem: Where Do Tomorrow's Seniors Come From?](/ai/junior-developer-pipeline-problem/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/)
+- [The Architect vs The Builder: Redefining Engineering Roles in 2026](/ai/architect-vs-builder/)

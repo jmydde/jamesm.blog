@@ -134,3 +134,10 @@ For now, pick based on whether your audio leaves your machine, and don't overthi
 - [Superwhisper](https://superwhisper.com/)
 - [OpenAI Whisper](https://openai.com/index/whisper/)
 - [Nvidia Parakeet](https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/)
+
+## Related Reading
+
+- [Speechify - Best Text to Speech App](/ai/speechify/)
+- [OpenAI Voice Engine](/ai/openai-voice-engine/)
+- [Grok's New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale](/ai/grok-voice-apis/)
+- [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/)

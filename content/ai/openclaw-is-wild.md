@@ -94,3 +94,10 @@ And projects like OpenClaw are showing us what that future actually looks like.
 OpenClaw is an open-source AI agent framework that enables language models to interact with and control computer interfaces directly. It uses computer vision and reasoning to understand UI elements and execute clicks, typing, and navigation  -  essentially giving AI the ability to operate software the way humans do.
 
 The project demonstrates how frontier models like Claude can be augmented with the ability to see and interact with any application, from legacy enterprise software to modern web interfaces, making any software automatable without custom APIs or integrations.
+
+## Related Reading
+
+- [GitHub Is Now Officially Backing OpenClaw](/ai/github-backing-openclaw/)
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
+- [Open WebUI: A Polished Interface for Local and Remote LLMs](/ai/open-webui-self-hosted-llm-interface/)
+- [The Rise of Small Language Models: Why Size Isn't Everything](/ai/small-language-models/)

@@ -29,3 +29,10 @@ Musk has predicted long-term their robot will probably be worth __significantly 
 
 ### [2023-05-16] Tesla Bot update
 {{< youtube XiQkeWOFwmk >}}
+
+## Related Reading
+
+- [Humanoid Robotics in 2026: From Prototypes to Production](/ai/humanoid-robotics-2026/)
+- [1X - Eve](/ai/1x-eve/)
+- [Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far](/ai/boston-dynamics-humanoid-robot/)
+- [Unitree G1 - AI Humanoid Robot](/ai/unitree-g1/)

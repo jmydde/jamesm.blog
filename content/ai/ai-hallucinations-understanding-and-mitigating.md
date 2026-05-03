@@ -121,3 +121,11 @@ We are somewhere in the early second generation with LLMs. The companies and tea
 Hallucination is not the bug. The absence of a system around the model is the bug. Once you start building like that, the problem stops being unsolvable and starts being engineering.
 
 For anyone who wants to go deeper than this overview, the Anthropic [research index](https://www.anthropic.com/research) and the [hallucination survey paper](https://arxiv.org/abs/2311.05232) on arXiv are both good starting points. The literature is moving fast, but the underlying principles are stable enough that you can build against them now without expecting to throw the work away in six months.
+
+## Related Reading
+
+- [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/)
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)
+- [Structured Outputs: When Your AI Needs to Follow a Schema](/ai/structured-outputs-schema/)
+- [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)

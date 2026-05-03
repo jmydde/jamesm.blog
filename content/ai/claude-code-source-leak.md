@@ -43,3 +43,10 @@ The distinction between what's already built versus what's been publicly release
 ## Bottom Line
 
 Although unlikely to cause lasting damage to Anthropic, the leak effectively offers competitors a detailed look at how to design and scale an advanced AI coding platform  -  while also raising questions about the company's own operational discipline. For developers using Claude Code, it's a reminder that no vendor is immune to security incidents, and operational failures happen even at well-funded, security-conscious companies. The safeguarding of internal systems is just as critical as external defense.
+
+## Related Reading
+
+- [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/)
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power](/ai/claude-mythos-restricted/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)

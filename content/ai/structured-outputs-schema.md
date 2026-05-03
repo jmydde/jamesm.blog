@@ -196,3 +196,11 @@ The teams that adopt structured outputs early build more reliable systems. The t
 - [JSON Schema Reference](https://json-schema.org/) - The schema standard
 - [OpenAI Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs) - Alternative implementation
 - [Pydantic for Schema Definition](https://docs.pydantic.dev/) - Python library for defining schemas programmatically
+
+## Related Reading
+
+- [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/)
+- [AI Hallucinations: Understanding and Mitigating False Outputs](/ai/ai-hallucinations-understanding-and-mitigating/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)
+- [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
+- [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/)

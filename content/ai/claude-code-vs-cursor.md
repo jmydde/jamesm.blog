@@ -44,3 +44,11 @@ After 180 days, my workflow has settled into a hybrid model:
 2. **Claude Code** is my go-to for **debugging, test-driven fixes, and housekeeping**. If a test is failing, I give it to Claude Code and let it loop until it's fixed.
 
 The winner isn't a single tool, but rather the model they both share: **Claude 3.5 Sonnet**. The tool you choose simply defines *how* you interact with that intelligence.
+
+## Related Reading
+
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
+- [An AI Tooling Learning Path: Logical Phases for 2026](/ai/ai-tooling-learning-path/)
+- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/)
+- [GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀](/ai/github-spec-kit-2026-update/)
+- [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)

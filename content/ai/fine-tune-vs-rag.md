@@ -104,3 +104,11 @@ If you are building your first AI feature, start with RAG. Use a strong base mod
 Once you have something running, watch where it consistently disappoints. If it is getting facts wrong because the underlying source changed, your retrieval needs work. If it is getting voice and structure wrong, or struggling to reason across the domain, fine-tuning is starting to earn its keep. Layer it in, but only over the slices where you have real evidence the prompt and retrieval cannot carry the load.
 
 Avoid the mistake of treating this as a one-time choice. Treat it the way you treat caching: a thing you add when it earns its place, scoped narrowly, removed when it stops earning. The systems that age well are not the ones that picked the right architecture on day one. They are the ones that kept the cost of changing their minds low.
+
+## Related Reading
+
+- [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/)
+- [AI Hallucinations: Understanding and Mitigating False Outputs](/ai/ai-hallucinations-understanding-and-mitigating/)
+- [Structured Outputs: When Your AI Needs to Follow a Schema](/ai/structured-outputs-schema/)
+- [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/)
+- [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)

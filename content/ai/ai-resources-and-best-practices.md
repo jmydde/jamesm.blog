@@ -76,3 +76,11 @@ The AI field changes month-to-month. Following official documentation from model
 ## Next Steps
 
 Start with one resource relevant to your current project. Master the basics of clear communication with models, understand the economics of your chosen platform, and build iteratively. The best practices will deepen as you work with real-world problems and encounter the constraints specific to your domain.
+
+## Related Reading
+
+- [An AI Tooling Learning Path: Logical Phases for 2026](/ai/ai-tooling-learning-path/)
+- [List of AI Courses & Learning Resources](/ai/courses/)
+- [AI Conferences Worth Following](/ai/conferences/)
+- [AI Explainers](/ai/explainers/)
+- [List of AI GitHub Projects](/ai/github-projects/)

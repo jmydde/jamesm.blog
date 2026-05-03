@@ -103,3 +103,11 @@ AI reliability is weird because it forces us to confront the non-deterministic n
 
 ---
 *How are you tackling reliability in your agentic workflows? Share your insights in the comments below!*
+
+## Related Reading
+
+- [AI Hallucinations: Understanding and Mitigating False Outputs](/ai/ai-hallucinations-understanding-and-mitigating/)
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)
+- [Structured Outputs: When Your AI Needs to Follow a Schema](/ai/structured-outputs-schema/)

@@ -144,3 +144,11 @@ If you are running a Mac Studio and a local model, MCP is the part that turns a 
 - [Anthropic's MCP introduction](https://www.anthropic.com/news/model-context-protocol)
 - [Home Assistant local API docs](https://developers.home-assistant.io/docs/api/rest/)
 - [LiveKit Agents docs](https://docs.livekit.io/agents/)
+
+## Related Reading
+
+- [Giving Your Home AI Agent Memory That Lasts](/ai/home-ai-agent-memory-that-lasts/)
+- [How to Phone Your Home AI Agent Running on a Mac Studio](/ai/phone-your-home-ai-agent/)
+- [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [AI Skills: One Folder, Any Model](/ai/ai-skills-one-folder-any-model/)

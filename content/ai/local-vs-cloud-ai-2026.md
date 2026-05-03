@@ -94,3 +94,11 @@ If you want the absolute cutting edge of human knowledge and reasoning, the Clou
 - [Running AI Models Locally with Ollama](/ai/ollama/)
 - [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/)
 - [The Automation Paradox: Judgment over Execution](/ai/automation-paradox/)
+
+## Related Reading
+
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/)
+- [GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)](/ai/gpu-servers-vs-api-credits/)
+- [AI Cloud Subscriptions: Comparing Pricing and Features in 2026](/ai/ai-cloud-subscriptions/)
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)

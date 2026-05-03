@@ -24,3 +24,10 @@ Sergey Brin is the co-founder of Google and a prominent voice in AI discussion a
 {{< youtube 8g7a0IWKDRE >}}
 
 _Note: This page will be expanded with additional Sergey Brin interviews as they become available._
+
+## Related Reading
+
+- [Geoffrey Hinton Interviews](/ai/geoffrey-hinton-interviews/)
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)

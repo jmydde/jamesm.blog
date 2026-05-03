@@ -117,3 +117,11 @@ A year ago I would have called most of this speculative. Now most of it is shipp
 The next two years will be more of the same, faster. The people who do well will be the ones who treat the tools like a craft - learning them carefully, picking the right one for the right job, building habits around review and judgement rather than typing speed.
 
 The verb is "delegate" now. The skill is knowing what to delegate, to whom, and what to do with the result. Everything else follows from that.
+
+## Related Reading
+
+- [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
+- [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/)
+- [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)
+- [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)

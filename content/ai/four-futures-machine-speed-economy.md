@@ -50,3 +50,11 @@ The common thread across their thinking: the meaningful variable is no longer ho
 In most of these scenarios, more time opens up for things that are currently treated as secondary - music, community, nature, local connection. The things that hold their value regardless of which scenario plays out are consistent: trust, relationships, physical presence, and creativity that comes from a specific human life lived in a specific place. None of those are replicable at machine speed, and none depend on a particular economic structure to remain meaningful.
 
 The exact shape of what's coming remains genuinely open. What's not open is that the shift is already underway. The question worth holding isn't whether it happens, but which of the outcomes above the next few years of decisions - corporate, political, personal - are quietly selecting for.
+
+## Related Reading
+
+- [Reading the Signals: Which of the Four Futures Is Actually Emerging?](/ai/reading-the-signals-four-futures/)
+- [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
+- [The Year 3026: Thinking Seriously About a Thousand Years From Now](/ai/the-year-3026/)
+- [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)

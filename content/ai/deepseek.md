@@ -27,3 +27,10 @@ Since the initial R1 release in January 2025, DeepSeek has continued iterating w
 
 ### [2025-01-26] I Did 5 DeepSeek-R1 Experiments | Better Than OpenAI o1?
 {{< youtube liESRDW7RrE >}}
+
+## Related Reading
+
+- [GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?](/ai/gpt-5-5-release/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [Google Gemini Ultra](/ai/google-gemini-ultra/)
+- [The Rise of Small Language Models: Why Size Isn't Everything](/ai/small-language-models/)

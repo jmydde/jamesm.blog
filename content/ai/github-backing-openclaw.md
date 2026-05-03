@@ -74,3 +74,10 @@ GitHub just officially bet on it.
 - [OpenClaw on GitHub](https://github.com/openclaw/openclaw)
 - [Kyle Daigle's announcement on X](https://x.com/kdaigle/status/2041254442994205164)
 - [OpenClaw: The Fastest-Growing Open Source Project](https://medium.com/@aftab001x/openclaw-just-beat-reacts-10-year-github-record-in-60-days-now-nobody-knows-what-to-do-with-it-937b8f370507)
+
+## Related Reading
+
+- [OpenClaw Is Absolutely Wild](/ai/openclaw-is-wild/)
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
+- [Open WebUI: A Polished Interface for Local and Remote LLMs](/ai/open-webui-self-hosted-llm-interface/)
+- [The Rise of Small Language Models: Why Size Isn't Everything](/ai/small-language-models/)

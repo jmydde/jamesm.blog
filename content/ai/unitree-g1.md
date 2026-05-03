@@ -13,3 +13,10 @@ With a range of motion and speed that surpasses many of its rivals, the G1 uses 
 
 ### New AI Humanoid Robot Shakes Up the Industry - Unitree G1 - (Beats Tesla Bot & Boston Dynamics)
 {{< youtube AW952y5INBQ >}}
+
+## Related Reading
+
+- [Humanoid Robotics in 2026: From Prototypes to Production](/ai/humanoid-robotics-2026/)
+- [1X - Eve](/ai/1x-eve/)
+- [Tesla Optimus Robot](/ai/tesla-optimus-robot/)
+- [Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far](/ai/boston-dynamics-humanoid-robot/)

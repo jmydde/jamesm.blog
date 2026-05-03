@@ -30,3 +30,10 @@ tags: ['ai', 'chatbot', 'google', 'gemini']
 
 ### Google’s GEMINI ULTRA 1.0 First Look - Breakdown and Testing
 {{< youtube NuPREI6mB0g >}}
+
+## Related Reading
+
+- [Google Gemini Advanced](/ai/google-gemini-advanced/)
+- [GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?](/ai/gpt-5-5-release/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [DeepSeek 🤯](/ai/deepseek/)

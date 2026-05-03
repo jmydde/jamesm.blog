@@ -83,3 +83,10 @@ Spec-Driven Development isn’t just a documentation style - it’s a way of thi
 
 ### [2025-09-13] The ONLY guide you'll need for GitHub Spec Kit
 {{< youtube a9eR1xsfvHg >}}
+
+## Related Reading
+
+- [GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀](/ai/github-spec-kit-2026-update/)
+- [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)

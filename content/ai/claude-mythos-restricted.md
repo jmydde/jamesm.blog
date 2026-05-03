@@ -45,3 +45,10 @@ Claude Mythos serves as a stark reminder: we are entering an era where artificia
 - [Anthropic Blog](https://www.anthropic.com/news) - Latest updates from Anthropic
 - [Anthropic's Constitutional AI approach](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
 - [AI Safety and Security Research](https://www.anthropic.com/research)
+
+## Related Reading
+
+- [Claude Mythos: The AI Benchmark Breaker That Won't Be Released](/ai/claude-mythos-benchmarks/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/)

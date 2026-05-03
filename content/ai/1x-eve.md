@@ -23,3 +23,10 @@ Here are some key features of 1X EVE:
 
 ### [2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio
 {{< youtube XpBWxLg-3bI >}}
+
+## Related Reading
+
+- [Humanoid Robotics in 2026: From Prototypes to Production](/ai/humanoid-robotics-2026/)
+- [Tesla Optimus Robot](/ai/tesla-optimus-robot/)
+- [Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far](/ai/boston-dynamics-humanoid-robot/)
+- [Unitree G1 - AI Humanoid Robot](/ai/unitree-g1/)

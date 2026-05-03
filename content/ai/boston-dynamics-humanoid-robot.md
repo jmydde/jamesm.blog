@@ -32,3 +32,10 @@ They use [Atlas](https://bostondynamics.com/atlas/) to explore the potential of 
 
 ### Farewell to HD Atlas
 {{< youtube -9EM5_VFlt8 >}}
+
+## Related Reading
+
+- [Humanoid Robotics in 2026: From Prototypes to Production](/ai/humanoid-robotics-2026/)
+- [Tesla Optimus Robot](/ai/tesla-optimus-robot/)
+- [1X - Eve](/ai/1x-eve/)
+- [Unitree G1 - AI Humanoid Robot](/ai/unitree-g1/)

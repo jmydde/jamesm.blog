@@ -116,3 +116,11 @@ If you have an existing application, the highest-leverage optimisation you can d
 If you are evaluating model providers, ask explicitly how their caching works. The mechanics differ. The pricing differs. The cache lifetime differs. These differences can be the deciding factor in which provider is cheapest for your workload, and the headline per-token price is misleading without them.
 
 The reason prompt caching is the quiet performance win is that it does not require model changes, prompt-engineering wizardry, or fancy infrastructure. It requires writing prompts in a slightly different order. The leverage-to-effort ratio is the highest of any optimisation in the LLM toolkit, and it remains underused. If you are paying full price for tokens you have already computed, you are leaving money on the table.
+
+## Related Reading
+
+- [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
+- [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)
+- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [Structured Outputs: When Your AI Needs to Follow a Schema](/ai/structured-outputs-schema/)

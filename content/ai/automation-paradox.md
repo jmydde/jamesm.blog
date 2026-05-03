@@ -85,3 +85,11 @@ Going forward, you hire for judgment and pay for *prevention*. The value is in t
 This is harder to measure. You can't count "bad decisions prevented" the way you count "features shipped." But it's more valuable. A well-judged choice to do nothing can be worth millions. A flawlessly executed wrong choice costs everything.
 
 The paradox resolves: more AI makes human judgment more valuable because execution stops being the bottleneck. Judgment becomes the irreplaceable resource. And that's not a threat to humans - it's an opportunity, if we're willing to reclaim what only we can do.
+
+## Related Reading
+
+- [The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting](/ai/meaning-of-work-age-of-abundance/)
+- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai/)
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)

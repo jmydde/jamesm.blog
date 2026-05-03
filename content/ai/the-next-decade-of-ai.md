@@ -117,3 +117,11 @@ The future of AI is not a moment. It is a direction. And the direction is alread
 - [Anthropic's research on agentic systems](https://www.anthropic.com/research)
 - [Stanford HAI AI Index Report](https://hai.stanford.edu/ai-index)
 - [The State of AI Report](https://www.stateof.ai/)
+
+## Related Reading
+
+- [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
+- [The Year 3026: Thinking Seriously About a Thousand Years From Now](/ai/the-year-3026/)
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
+- [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)
+- [A Year of Agents, and What is Coming Next](/ai/year-of-agents-and-whats-next/)

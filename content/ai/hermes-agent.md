@@ -116,3 +116,10 @@ It's less suitable if you need a one-shot, stateless task executor. If you're ru
 But for teams where an autonomous system becomes a gradual operational extension - learning your codebase, remembering solutions, developing specialized workflows - Hermes is a credible direction.
 
 For more information, visit [Hermes Agent](https://hermes-agent.nousresearch.com/) or explore [Nous Research's work](https://www.nousresearch.com/).
+
+## Related Reading
+
+- [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
+- [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/)
+- [A Year of Agents, and What is Coming Next](/ai/year-of-agents-and-whats-next/)
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/)

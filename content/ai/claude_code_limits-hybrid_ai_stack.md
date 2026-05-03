@@ -184,3 +184,10 @@ Instead of paying for bigger and bigger subscriptions, it makes more sense to bu
 You keep the power of Claude, but avoid hitting limits constantly.
 
 And realistically, this is probably how most developer AI stacks will look going forward.
+
+## Related Reading
+
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
+- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/)
+- [An AI Tooling Learning Path: Logical Phases for 2026](/ai/ai-tooling-learning-path/)

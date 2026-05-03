@@ -99,3 +99,10 @@ For builders, the choice gets easier, not harder. More providers means better pr
 - [ElevenLabs pricing](https://elevenlabs.io/pricing)
 - [Deepgram pricing](https://deepgram.com/pricing)
 - [AssemblyAI pricing](https://www.assemblyai.com/pricing)
+
+## Related Reading
+
+- [OpenAI Voice Engine](/ai/openai-voice-engine/)
+- [MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared](/ai/mac-dictation-tools-comparison/)
+- [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/)
+- [Speechify - Best Text to Speech App](/ai/speechify/)

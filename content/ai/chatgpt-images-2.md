@@ -81,3 +81,10 @@ Community examples on X:
 - [@DeryaTR_ - more Images 2.0 outputs](https://x.com/DeryaTR_/status/2047002347990106406)
 - [@ErRahul337 - technical visualisations](https://x.com/ErRahul337/status/2047003542553276863)
 - [@rohanpaul_ai - AI-focused diagrams](https://x.com/rohanpaul_ai/status/2047047274774331747)
+
+## Related Reading
+
+- [Adobe's new Generative Fill is mind-blowing 🤯](/ai/adobe-generative-fill/)
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)
+- [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)

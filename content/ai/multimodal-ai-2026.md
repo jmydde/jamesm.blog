@@ -86,3 +86,11 @@ The places to be sceptical of are anything requiring precise spatial reasoning, 
 The state of the art has improved enough that the question is no longer "is multimodal capable enough". It is "is the use case in the part of the capability surface that has matured". Two years ago, that surface was small. In 2026 it is broad enough that most teams can find genuinely valuable applications, and the next two years will continue to expand it.
 
 The mistake to avoid is treating multimodal as a thing to deploy because it exists. The mistake to embrace is treating it as a tool that, used in the right places, makes some previously-painful problems quietly tractable. The systems that age well will be built on that latter framing.
+
+## Related Reading
+
+- [Chatbots & Large Language Models (LLMs)](/ai/chatbots-llms/)
+- [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)
+- [ChatGPT Images 2.0: Why Everyone Is Impressed](/ai/chatgpt-images-2/)
+- [Grok's New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale](/ai/grok-voice-apis/)

@@ -95,3 +95,10 @@ For anyone drowning in paper or frustrated with the limitations of cloud documen
 ---
 
 **Getting started**: Head to [Paperless-ngx on GitHub](https://github.com/paperless-ngx/paperless-ngx) for installation instructions, or check out the [official documentation](https://docs.paperless-ngx.com/) for detailed setup guides across different platforms. The community is active and helpful if you get stuck.
+
+## Related Reading
+
+- [Open WebUI: A Polished Interface for Local and Remote LLMs](/ai/open-webui-self-hosted-llm-interface/)
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
+- [Where Should Documentation Actually Live? Thinking Out Loud in the AI Era](/ai/where-should-documentation-live/)
+- [Notion](/ai/notion/)

@@ -101,3 +101,10 @@ tags: ['ai', 'chatbot', 'chatgpt', 'training-course']
 - [How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website](https://www.youtube.com/watch?v=5wdCev86RYE/)
 - [Midjourney Prompt Tips for Beginners and Veterans](https://www.youtube.com/watch?v=hDK8W5SLzlw/)
 - [Stable diffusion prompt tutorial](https://www.youtube.com/watch?v=NU2TYgfQwcA/)
+
+## Related Reading
+
+- [The Complete AI Developer's Guide: Resources and Best Practices](/ai/ai-resources-and-best-practices/)
+- [AI Conferences Worth Following](/ai/conferences/)
+- [AI Explainers](/ai/explainers/)
+- [An AI Tooling Learning Path: Logical Phases for 2026](/ai/ai-tooling-learning-path/)

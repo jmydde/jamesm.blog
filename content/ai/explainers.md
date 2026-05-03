@@ -24,3 +24,11 @@ A curated collection of clear, technical explanations of foundational AI concept
 ## Courses & Practical Learning
 
 - [**Practical Deep Learning**](https://course.fast.ai/)  -  Fast.ai's top-down course that teaches you to build working deep learning systems before diving into theory
+
+## Related Reading
+
+- [Chatbots & Large Language Models (LLMs)](/ai/chatbots-llms/)
+- [The Complete AI Developer's Guide: Resources and Best Practices](/ai/ai-resources-and-best-practices/)
+- [List of AI Courses & Learning Resources](/ai/courses/)
+- [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/)
+- [Structured Outputs: When Your AI Needs to Follow a Schema](/ai/structured-outputs-schema/)

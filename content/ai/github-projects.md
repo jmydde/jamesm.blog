@@ -30,3 +30,11 @@ A collection of significant open-source AI projects that are shaping the ecosyst
 
 - [**Transformers**](https://github.com/huggingface/transformers)  -  Hugging Face's comprehensive library for state-of-the-art NLP models
 - [**Papers with Code**](https://github.com/paperswithcode/paperswithcode-data)  -  Curated dataset linking papers with their implementations
+
+## Related Reading
+
+- [GitHub Copilot](/ai/github-copilot/)
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
+- [OpenClaw Is Absolutely Wild](/ai/openclaw-is-wild/)
+- [The Complete AI Developer's Guide: Resources and Best Practices](/ai/ai-resources-and-best-practices/)
+- [AI Tools & Frameworks](/ai/tools/)

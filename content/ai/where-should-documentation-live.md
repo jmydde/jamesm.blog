@@ -155,3 +155,10 @@ I do not have a good answer. I have a shape of an answer - docs-as-code for tech
 What I do believe is that the question is worth taking seriously, right now, because the assumption underneath every existing documentation strategy - that humans are the only ones reading and writing these documents - is no longer true. AI agents are becoming first-class consumers and producers of organisational knowledge, and the workflow has not caught up.
 
 If you have solved this at your organisation, or if you have tried something similar and watched it fail, I would genuinely like to hear about it. This post is an open question, not a conclusion.
+
+## Related Reading
+
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)
+- [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)
+- [Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in](/ai/paperless-ngx-self-hosted-document-management/)
+- [Notion](/ai/notion/)

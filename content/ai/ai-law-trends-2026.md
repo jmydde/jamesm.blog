@@ -89,3 +89,10 @@ If you are building with AI, deploying AI, or your business depends on AI output
 - [AI Enforcement Accelerates as Federal Policy Stalls - Morgan Lewis](https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in)
 - [How 2026 Will Reshape Technology and AI Law - Founders Legal](https://founderslegal.com/how-2026-will-reshape-technology-and-ai-law/)
 - [Generative AI Copyright: Law, Litigation & Best Practices in 2026 - AIMultiple](https://aimultiple.com/generative-ai-copyright)
+
+## Related Reading
+
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [Meta Is Tracking Its Own Employees to Train AI Agents](/ai/meta-employee-tracking/)
+- [Claude Code Source Leak: Anthropic's 2,000-File Exposure and What It Means](/ai/claude-code-source-leak/)
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)

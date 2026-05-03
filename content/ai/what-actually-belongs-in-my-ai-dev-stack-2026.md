@@ -313,3 +313,11 @@ It is no longer "which AI tool should I use?"
 It becomes:
 
 **Which responsibilities belong in the stack, and which tool is actually best suited to each one?**
+
+## Related Reading
+
+- [Personal AI Development Stack](/ai/personal-ai-dev-stack/)
+- [An AI Tooling Learning Path: Logical Phases for 2026](/ai/ai-tooling-learning-path/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀](/ai/github-spec-kit-2026-update/)
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)

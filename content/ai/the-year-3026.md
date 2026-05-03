@@ -137,3 +137,11 @@ The people in 3026, whatever they are, will look back at us the way we look back
 - [The Kardashev Scale](https://en.wikipedia.org/wiki/Kardashev_scale)
 - [Landauer's Principle](https://en.wikipedia.org/wiki/Landauer%27s_principle)
 - [The Long Now Foundation](https://longnow.org/) - An organisation explicitly built around thousand-year thinking
+
+## Related Reading
+
+- [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
+- [Reading the Signals: Which of the Four Futures Is Actually Emerging?](/ai/reading-the-signals-four-futures/)
+- [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
+- [The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting](/ai/meaning-of-work-age-of-abundance/)

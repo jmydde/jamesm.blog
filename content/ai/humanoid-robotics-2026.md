@@ -194,3 +194,10 @@ The interesting question is no longer whether humanoids will ship in volume. It 
 - [Boston Dynamics - electric Atlas](https://bostondynamics.com/atlas/)
 - [Wikipedia - Humanoid robot overview](https://en.wikipedia.org/wiki/Humanoid_robot)
 - [Wikipedia - Tesla Optimus](https://en.wikipedia.org/wiki/Optimus_(robot))
+
+## Related Reading
+
+- [1X - Eve](/ai/1x-eve/)
+- [Tesla Optimus Robot](/ai/tesla-optimus-robot/)
+- [Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far](/ai/boston-dynamics-humanoid-robot/)
+- [Unitree G1 - AI Humanoid Robot](/ai/unitree-g1/)

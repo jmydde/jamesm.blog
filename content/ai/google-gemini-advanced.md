@@ -27,3 +27,10 @@ Google Gemini Advanced offered enhanced capabilities over base Gemini, designed 
 
 ### NEW Google Gemini Is Here! Is It Better Than ChatGPT?
 {{< youtube l3ArneTKv_0 >}}
+
+## Related Reading
+
+- [Google Gemini Ultra](/ai/google-gemini-ultra/)
+- [DeepSeek 🤯](/ai/deepseek/)
+- [GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?](/ai/gpt-5-5-release/)
+- [Chatbots & Large Language Models (LLMs)](/ai/chatbots-llms/)

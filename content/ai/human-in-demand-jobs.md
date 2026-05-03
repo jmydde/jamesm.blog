@@ -188,3 +188,11 @@ That's the stack to build towards.
 - [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On how intelligence is becoming a commodity
 - [Expertise After AI](/ai/expertise-after-ai)  -  What expertise looks like when the floor rises
 - [Career Ops](/ai/career-ops)  -  Practical moves for navigating an AI-shaped career
+
+## Related Reading
+
+- [Career-Ops: Flipping the Script on AI-Powered Job Search](/ai/career-ops/)
+- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai/)
+- [The Architect vs The Builder: Redefining Engineering Roles in 2026](/ai/architect-vs-builder/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)
+- [The Junior Developer Pipeline Problem: Where Do Tomorrow's Seniors Come From?](/ai/junior-developer-pipeline-problem/)

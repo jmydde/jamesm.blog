@@ -101,3 +101,9 @@ What's clear: we've entered an era where "the best model" and "the publicly avai
 - [SWE-bench: Evaluating LLMs for Software Engineering](https://swe-bench.github.io/)
 - [Understanding AI Model Benchmarks](https://www.anthropic.com/research)
 
+## Related Reading
+
+- [The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power](/ai/claude-mythos-restricted/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/)
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)

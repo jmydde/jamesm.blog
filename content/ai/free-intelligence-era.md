@@ -110,3 +110,11 @@ We are living in the gap. The new regime exists. The old regime's prices, career
 I do not think it will be a catastrophe. I do not think it will be a utopia. I think it will be the messy, contested, century-long renegotiation that every previous general-purpose technology produced, compressed into a much shorter window than we are used to. The interesting work, for the next ten years, is in being honest about what is happening and trying to land somewhere useful inside it.
 
 The thinking is going free. What we do with that fact is still up to us.
+
+## Related Reading
+
+- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
+- [The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting](/ai/meaning-of-work-age-of-abundance/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)

@@ -39,3 +39,10 @@ tags: ['ai', 'tool', 'productivity']
 - **Enterprise:** Custom pricing
 
 Notion AI transforms the platform from a note-taking tool into a collaborative knowledge system with generative capabilities, making it valuable for both individual and team knowledge workflows.
+
+## Related Reading
+
+- [AI Tools & Frameworks](/ai/tools/)
+- [List of AI GitHub Projects](/ai/github-projects/)
+- [GitHub Copilot](/ai/github-copilot/)
+- [Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in](/ai/paperless-ngx-self-hosted-document-management/)

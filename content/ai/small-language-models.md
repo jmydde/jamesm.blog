@@ -113,3 +113,11 @@ This shift unlocks entire categories of applications. Devices with 4GB of RAM ca
 The large models will remain important. But the future of AI is increasingly one where small models handle the majority of the work, and large models are reserved for the tasks that actually need them.
 
 Size mattered when we didn't know what was possible. Now that we do, efficiency matters more.
+
+## Related Reading
+
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
+- [OpenClaw Is Absolutely Wild](/ai/openclaw-is-wild/)
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [Local AI vs Cloud AI: The Tradeoff Landscape in 2026](/ai/local-vs-cloud-ai-2026/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)

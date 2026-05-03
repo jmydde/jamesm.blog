@@ -31,3 +31,11 @@ GitHub Copilot uses advanced language models ([GPT-4](https://openai.com/researc
 **Links**
 - [Documentation](https://docs.github.com/en/copilot)
 - [GitHub Copilot](https://github.com/features/copilot)
+
+## Related Reading
+
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [Cline: The Next Generation AI Coding Assistant](/ai/cline/)
+- [List of AI GitHub Projects](/ai/github-projects/)
+- [GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯](/ai/github-spec-kit/)

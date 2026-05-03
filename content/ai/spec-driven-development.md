@@ -95,3 +95,11 @@ We've known this for decades. AI is just making it impossible to ignore.
 The brief is becoming the product because the brief is *the* product. Everything else is just rendering that brief into runnable form. And as that rendering becomes cheaper and more automated, the quality of the brief becomes the only thing that separates good from mediocre.
 
 Which means if you're a developer in 2026, your job is not to implement specs. Your job is to write specs that are clear enough to implement themselves - and thoughtful enough to be worth implementing at all.
+
+## Related Reading
+
+- [GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀](/ai/github-spec-kit-2026-update/)
+- [GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯](/ai/github-spec-kit/)
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)

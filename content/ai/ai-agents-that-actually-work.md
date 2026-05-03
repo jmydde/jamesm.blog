@@ -102,3 +102,11 @@ Production is none of those things. Production is long-running, multi-tool, full
 The patterns above are how you bridge that gap. None of them are research-level innovations. All of them are engineering discipline applied to a new problem domain. The agents that work are the ones built by teams who treat them as systems first and as AI second.
 
 If I had to compress all of this into one line, it would be: build agents the same way you would build any other long-running, partially-autonomous system that you cannot afford to have fail silently. Most of what you already know about reliable systems still applies. The novelty is in the failure modes, not in the engineering principles.
+
+## Related Reading
+
+- [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/)
+- [A Year of Agents, and What is Coming Next](/ai/year-of-agents-and-whats-next/)
+- [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)
+- [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/)
+- [AI Hallucinations: Understanding and Mitigating False Outputs](/ai/ai-hallucinations-understanding-and-mitigating/)

@@ -26,3 +26,10 @@ Other new features & improvements
 
 ## Related
 - [List of AI Tools](/ai/tools)
+
+## Related Reading
+
+- [ChatGPT Images 2.0: Why Everyone Is Impressed](/ai/chatgpt-images-2/)
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)
+- [Claude Design: Closing the Design-to-Code Gap](/ai/claude-design/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)

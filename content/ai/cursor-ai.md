@@ -45,3 +45,11 @@ It’s clear that we’re watching a major shift in how software will be built. 
 These tools don’t replace developers - they amplify them. They eliminate friction between thought and execution. They let you think at a higher level without drowning in boilerplate or context switching.
 
 The combination of Cursor AI and GitHub Spec Kit genuinely feels like the next chapter of software development. Coding feels different now - more intuitive, more powerful - and I can’t imagine going back.
+
+## Related Reading
+
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯](/ai/github-spec-kit/)
+- [Cline: The Next Generation AI Coding Assistant](/ai/cline/)
+- [GitHub Copilot](/ai/github-copilot/)
+- [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)

@@ -59,3 +59,10 @@ The code is [open source](https://github.com/santifer/career-ops), so you can se
 Career-Ops is part of a larger shift: practical AI tools that amplify individual judgment instead of replacing it. You see this in [GitHub Spec Kit](https://github.com/github/spec) (AI-assisted specification writing), [Cursor](https://cursor.sh) (AI paired programming), and other tools that treat the human as the decision-maker and AI as the accelerant.
 
 Job search is personal - your career trajectory matters too much to outsource entirely. Career-Ops gives you the thinking tools to stay in control while moving faster.
+
+## Related Reading
+
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/)
+- [The Junior Developer Pipeline Problem: Where Do Tomorrow's Seniors Come From?](/ai/junior-developer-pipeline-problem/)
+- [The Architect vs The Builder: Redefining Engineering Roles in 2026](/ai/architect-vs-builder/)
+- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai/)

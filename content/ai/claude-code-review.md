@@ -110,3 +110,10 @@ Instead of one developer reviewing another developer’s work, you now have AI r
 That’s a pretty wild shift in how software gets built.
 
 And honestly, I suspect this is just the beginning.
+
+## Related Reading
+
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [Claude Code Source Leak: Anthropic's 2,000-File Exposure and What It Means](/ai/claude-code-source-leak/)
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)

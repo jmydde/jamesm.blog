@@ -23,3 +23,10 @@ As of 2026, access is still restricted to approved partners and researchers, wit
 
 ### OpenAI Introducing: A New Era of Human-like AI Voices
 {{< youtube BHVoHlpH2og >}}
+
+## Related Reading
+
+- [Grok's New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale](/ai/grok-voice-apis/)
+- [MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared](/ai/mac-dictation-tools-comparison/)
+- [Speechify - Best Text to Speech App](/ai/speechify/)
+- [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/)

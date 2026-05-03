@@ -177,3 +177,11 @@ tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","mu
 - [OpenAI](https://openai.com/) - AI research and deployment company
 - [Stability](https://stability.ai/) - building the foundation to activate humanity's potential
 - [Tesla AI & Robotics](https://www.tesla.com/en_gb/AI/) - developing & deploying autonomy at scale in vehicles & robots
+
+## Related Reading
+
+- [List of AI GitHub Projects](/ai/github-projects/)
+- [The Complete AI Developer's Guide: Resources and Best Practices](/ai/ai-resources-and-best-practices/)
+- [List of AI Courses & Learning Resources](/ai/courses/)
+- [AI Conferences Worth Following](/ai/conferences/)
+- [AI Explainers](/ai/explainers/)

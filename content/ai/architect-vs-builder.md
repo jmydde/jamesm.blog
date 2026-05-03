@@ -116,3 +116,11 @@ So we're inverting back. In 2026, the architect is not the person who used to wr
 Both roles are necessary. Both roles are skilled. But they're not a ladder anymore. They're a fork in the road, and you need to choose which path matches your strengths.
 
 The ladder was a convenient lie. AI has made it impossible to keep lying.
+
+## Related Reading
+
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/)
+- [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/)
+- [The Junior Developer Pipeline Problem: Where Do Tomorrow's Seniors Come From?](/ai/junior-developer-pipeline-problem/)
+- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)

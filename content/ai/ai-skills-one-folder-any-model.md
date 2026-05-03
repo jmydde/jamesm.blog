@@ -123,3 +123,10 @@ I have written before about [how I think about Claude Code vs Cursor](/ai/claude
 If the long arc of agentic tooling is heading toward something like the [agent-first architecture I sketched out previously](/ai/agent-first-architecture-engineer-as-curator/), then the parts of your stack that are model-agnostic are the parts most worth investing in. Skills happen to be one of them.
 
 A folder of markdown is not a glamorous answer. But "boring, portable, and version-controlled" is a much stronger starting position than most of what came before it.
+
+## Related Reading
+
+- [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [An AI Tooling Learning Path: Logical Phases for 2026](/ai/ai-tooling-learning-path/)

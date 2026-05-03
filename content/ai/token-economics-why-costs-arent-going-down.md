@@ -167,3 +167,11 @@ And even if one of those breakthroughs happens, the vendors who own it (Anthropi
 The era of "wait for AI to get cheaper" is over. You should be in "AI costs are fixed infrastructure spend" mode. Price in at today's rate, optimize usage, and move forward.
 
 The fundamentals don't support cheap AI anytime soon. Understand that, and you'll make better decisions about when and where to deploy it.
+
+## Related Reading
+
+- [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
+- [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
+- [AI Cloud Subscriptions: Comparing Pricing and Features in 2026](/ai/ai-cloud-subscriptions/)
+- [GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)](/ai/gpu-servers-vs-api-credits/)
+- [Is the $20 AI Subscription Era Over?](/ai/twenty-dollar-ai-era-is-over/)

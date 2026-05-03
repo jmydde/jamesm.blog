@@ -161,3 +161,10 @@ If you are building a home agent and you have the tools layer working, memory is
 - [Anthropic on agent memory patterns](https://www.anthropic.com/research)
 - [Tailscale for private service mesh](https://tailscale.com/kb/)
 - [My earlier post on MCP servers for a home agent](/ai/mcp-servers-home-ai-agent/)
+
+## Related Reading
+
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/)
+- [How to Phone Your Home AI Agent Running on a Mac Studio](/ai/phone-your-home-ai-agent/)
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)

@@ -114,3 +114,11 @@ Either way, the advice ends up in the same place: put your meaning somewhere tha
 If you want more of me [thinking out loud](/ai/architect-vs-builder/) [about where this might be going](/ai/automation-paradox/), the last few posts in the AI section are all orbiting the same question from different angles. None of them are predictions. They are all me trying to figure out, in public, what any of this is for.
 
 I would rather be usefully wrong about it than quietly anxious.
+
+## Related Reading
+
+- [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)
+- [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/)

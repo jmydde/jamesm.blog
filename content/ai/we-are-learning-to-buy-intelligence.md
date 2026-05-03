@@ -53,3 +53,10 @@ And it is a fascinating time to be alive.
 **Related reading:**
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  What becomes valuable when intelligence becomes cheap
 - [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs)  -  The skills that remain irreplaceable
+
+## Related Reading
+
+- [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)
+- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [AI Cloud Subscriptions: Comparing Pricing and Features in 2026](/ai/ai-cloud-subscriptions/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)

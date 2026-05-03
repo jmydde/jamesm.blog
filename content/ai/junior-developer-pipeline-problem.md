@@ -99,3 +99,11 @@ The good news is that the pipeline is not a force of nature. It is something the
 If you are a senior reading this, it is worth asking, in a personal capacity, whether the engineers who will eventually replace you are being trained anywhere at all. If you are a junior reading this, it is worth asking whether the path you are on is one that will turn you into the engineer you want to be, or whether you need to seek the missing parts deliberately on the side.
 
 Neither question is comfortable. Both are worth sitting with.
+
+## Related Reading
+
+- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai/)
+- [The Architect vs The Builder: Redefining Engineering Roles in 2026](/ai/architect-vs-builder/)
+- [Career-Ops: Flipping the Script on AI-Powered Job Search](/ai/career-ops/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/)

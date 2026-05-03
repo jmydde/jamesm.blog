@@ -48,3 +48,10 @@ For teams that are already using Claude for everything else - writing, coding, r
 Claude Design is available at [claude.ai/design](https://claude.ai/design). If you have a Claude Pro or Team subscription, you can access it in research preview right now.
 
 The design-to-code pipeline has been a constant source of friction. This won't solve every problem, but it directly addresses the worst parts - maintaining consistency, speeding up iteration, and making handoffs less painful. Whether it becomes your primary design tool depends on how well it meshes with your existing workflows, but for teams already sold on Claude, it's worth trying.
+
+## Related Reading
+
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)
+- [Adobe's new Generative Fill is mind-blowing 🤯](/ai/adobe-generative-fill/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)

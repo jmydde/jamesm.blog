@@ -115,3 +115,10 @@ For anyone running local models who's tired of wrestling with command-line tools
 ---
 
 **Getting started**: Visit [Open WebUI's official site](https://openwebui.com/) for deployment guides, or head to the [GitHub repository](https://github.com/open-webui/open-webui) for source code and contributions. If you need a model to run behind it, [Ollama](https://ollama.ai) is the standard choice - it's equally simple to set up.
+
+## Related Reading
+
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
+- [OpenClaw Is Absolutely Wild](/ai/openclaw-is-wild/)
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [Local AI vs Cloud AI: The Tradeoff Landscape in 2026](/ai/local-vs-cloud-ai-2026/)

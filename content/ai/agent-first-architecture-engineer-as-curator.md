@@ -165,3 +165,10 @@ It might not play out that way. The cynical version is just as plausible. But th
 If any of this resonates, I have been circling similar ideas from different angles in recent posts: the [architect vs builder split](/ai/architect-vs-builder/), the [automation paradox](/ai/automation-paradox/), and [platform engineering in 2026](/devops/platform-engineering-2026/). None of them are predictions. They are all me trying to think out loud about where this might be going.
 
 I would rather be usefully wrong in public than quietly uncertain.
+
+## Related Reading
+
+- [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
+- [A Year of Agents, and What is Coming Next](/ai/year-of-agents-and-whats-next/)
+- [The Architect vs The Builder: Redefining Engineering Roles in 2026](/ai/architect-vs-builder/)
+- [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)

@@ -188,3 +188,11 @@ This AI-augmented workflow has reshaped not just how the team works, but how I t
 The role of the senior engineer is starting to look less like "the person who writes the design" and more like "the person who curates the design the AI maintains." The taste, the constraints, the willingness to say *no, not that* - those still belong to the humans. Everything downstream of those judgments is increasingly machine work.
 
 It is efficient, creative, and constantly evolving. And even though it is already miles ahead of me, I am doing my best to keep up.
+
+## Related Reading
+
+- [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)
+- [Claude Design: Closing the Design-to-Code Gap](/ai/claude-design/)
+- [GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀](/ai/github-spec-kit-2026-update/)
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)

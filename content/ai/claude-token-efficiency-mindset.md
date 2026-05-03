@@ -82,3 +82,11 @@ Third thing: **Keep a running list of your repeated tasks.** Every time you find
 The token efficiency mindset isn't about being stingy. It's about recognizing that every token is an opportunity cost - not just money, but the opportunity to use that token on something else, something harder, something that actually matters.
 
 Once you see it that way, the rest follows naturally.
+
+## Related Reading
+
+- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)](/ai/gpu-servers-vs-api-credits/)
+- [AI Cloud Subscriptions: Comparing Pricing and Features in 2026](/ai/ai-cloud-subscriptions/)

@@ -116,3 +116,11 @@ The team building with a 200K context window and intelligent architecture will s
 - [RAG Systems Survey](https://arxiv.org/abs/2312.10997) - Why retrieval beats bulk context
 - [Context Window Benchmarks](https://www.anthropic.com/research) - What context size actually predicts for real tasks
 - [Token Counting and Optimization](https://docs.anthropic.com/claude/reference/token-counting-api) - Practical tools for measuring efficiency
+
+## Related Reading
+
+- [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
+- [Structured Outputs: When Your AI Needs to Follow a Schema](/ai/structured-outputs-schema/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)
+- [Chatbots & Large Language Models (LLMs)](/ai/chatbots-llms/)
+- [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/)

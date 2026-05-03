@@ -199,3 +199,11 @@ That is a much more useful way to think about AI than treating the whole space l
 - [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026)  -  How I think about combining different AI tools into one workflow
 - [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  Why intelligence itself is starting to behave like infrastructure
 - [AI Explainers](/ai/explainers)  -  Foundational resources for understanding how the underlying systems work
+
+## Related Reading
+
+- [AI Explainers](/ai/explainers/)
+- [Structured Outputs: When Your AI Needs to Follow a Schema](/ai/structured-outputs-schema/)
+- [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/)
+- [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/)
+- [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)

@@ -68,3 +68,11 @@ For developers using Claude Code or similar tools, the practical question is whe
 For OpenAI, this is a competitive response that puts them back at the top of the agentic coding charts. Whether they hold that position depends on what Anthropic ships next, which based on recent patterns won't take long.
 
 The model is rolling out now to Plus, Pro, Business, and Enterprise users in ChatGPT and Codex. API access via Responses and Chat Completions follows shortly.
+
+## Related Reading
+
+- [Why the ChatGPT iPhone App Mattered](/ai/chatgpt-app-ios/)
+- [ChatGPT Images 2.0: Why Everyone Is Impressed](/ai/chatgpt-images-2/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
+- [Google Gemini Ultra](/ai/google-gemini-ultra/)
+- [DeepSeek 🤯](/ai/deepseek/)

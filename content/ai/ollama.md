@@ -112,3 +112,11 @@ Ollama is part of a shift toward *local-first AI*. As open models improve and qu
 Whether you're prototyping, avoiding API costs, prioritizing privacy, or just exploring what's possible with open models, Ollama makes it all straightforward. It's a simple tool that removes friction from an otherwise complex task.
 
 Start with `ollama run openclaw` and see what it can do.
+
+## Related Reading
+
+- [OpenClaw Is Absolutely Wild](/ai/openclaw-is-wild/)
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [Open WebUI: A Polished Interface for Local and Remote LLMs](/ai/open-webui-self-hosted-llm-interface/)
+- [Local AI vs Cloud AI: The Tradeoff Landscape in 2026](/ai/local-vs-cloud-ai-2026/)
+- [The Rise of Small Language Models: Why Size Isn't Everything](/ai/small-language-models/)

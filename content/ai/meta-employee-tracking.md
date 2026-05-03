@@ -78,3 +78,10 @@ The Model Capability Initiative is not, by itself, a uniquely dystopian program.
 - [Fortune - Meta will start tracking employees' screens and keystrokes to train AI tools](https://fortune.com/2026/04/21/meta-will-start-tracking-employees-screens-and-keystrokes-to-train-ai/) - scope and context alongside Meta's broader AI spending
 - [Futurism - Meta Installs Software on Employee Computers to Track Everything](https://futurism.com/artificial-intelligence/meta-track-everything-workers-type-click-train-ai) - reporting on the opt-out question and employee reaction
 - [The Register - Meta staff unhappy about running surveillance software on work PCs](https://www.theregister.com/2026/04/22/meta_employee_surveillance_software/) - the internal reaction and the irony of the situation
+
+## Related Reading
+
+- [AI Law Is No Longer Theoretical: What's Here, What's Coming, and What It Means](/ai/ai-law-trends-2026/)
+- [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)

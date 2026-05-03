@@ -177,3 +177,11 @@ That is enough weight for a decade. It is also enough reason to take the hundred
 - [IEA World Energy Outlook](https://www.iea.org/reports/world-energy-outlook-2024) - Energy trajectory data
 - [Our World in Data: Fertility Rates](https://ourworldindata.org/fertility-rate) - The fertility decline pattern
 - [The Long Now Foundation](https://longnow.org/) - Institutional thinking at long horizons
+
+## Related Reading
+
+- [The Year 3026: Thinking Seriously About a Thousand Years From Now](/ai/the-year-3026/)
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
+- [Reading the Signals: Which of the Four Futures Is Actually Emerging?](/ai/reading-the-signals-four-futures/)
+- [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
+- [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)

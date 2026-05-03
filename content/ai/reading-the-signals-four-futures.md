@@ -68,3 +68,11 @@ None of these are predictions. They're the variables that would cause me to upda
 The original post ended with what holds its value regardless of which scenario plays out - trust, relationships, presence, creativity tied to a specific life lived in a specific place. Reading the signals a day later hasn't changed that. If anything, the fact that the mix is tilting toward concentration makes the counterweight even more worth cultivating.
 
 The scenarios are not things that happen to us. They're the aggregate of a lot of small decisions about what to build, what to buy, what to regulate, what to walk away from. The signals above are just the public face of those decisions. The private face is whichever ones you and I make this month.
+
+## Related Reading
+
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
+- [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
+- [The Year 3026: Thinking Seriously About a Thousand Years From Now](/ai/the-year-3026/)
+- [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)

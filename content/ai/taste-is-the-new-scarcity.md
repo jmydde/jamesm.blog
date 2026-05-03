@@ -82,3 +82,11 @@ That is an invitation.
 **Related reading:**
 - [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On the commodification of intelligence itself
 - [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs)  -  Which skills remain valuable when AI is everywhere
+
+## Related Reading
+
+- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai/)
+- [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)
+- [The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting](/ai/meaning-of-work-age-of-abundance/)
+- [Claude Design: Closing the Design-to-Code Gap](/ai/claude-design/)
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)

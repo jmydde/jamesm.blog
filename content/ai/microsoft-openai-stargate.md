@@ -18,3 +18,10 @@ Construction has already begun in Texas and other locations as of 2026, with pla
 
 ### Stargate AI Infrastructure Project Announcement
 {{< youtube UkUqwi96IJc >}}
+
+## Related Reading
+
+- [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/)
+- [SpaceX Buys the Right to Buy Cursor for $60 Billion](/ai/spacex-cursor-60-billion-option/)
+- [GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?](/ai/gpt-5-5-release/)
+- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)

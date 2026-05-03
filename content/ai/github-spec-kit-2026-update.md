@@ -140,3 +140,11 @@ The future of software development is clearer, more intentional, and spec-first.
 - [Official GitHub Spec Kit Repository](https://github.com/github/spec-kit)
 - [Spec-Driven Development with spec-kit (Fred Hutch writeup)](https://matsen.fredhutch.org/general/2026/02/10/spec-kit-walkthrough.html)
 - [GitHub Blog: Spec-driven development with AI](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/)
+
+## Related Reading
+
+- [GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯](/ai/github-spec-kit/)
+- [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)
+- [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision](/ai/ai-augmented-design-workflow/)

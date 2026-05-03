@@ -64,3 +64,11 @@ None of this is magical. But collectively, it pushes AI from "useful assistant f
 For developers already convinced on Claude, Opus 4.7 is a straightforward upgrade. For teams still evaluating, it's worth another look - especially if you've had friction with vision capabilities or autonomous task execution in the past.
 
 Available now across Claude Pro, Team, and Enterprise. Same pricing as before. If you're building seriously with AI, upgrade.
+
+## Related Reading
+
+- [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
+- [Claude Design: Closing the Design-to-Code Gap](/ai/claude-design/)
+- [AI Skills: One Folder, Any Model](/ai/ai-skills-one-folder-any-model/)
+- [Claude Mythos: The AI Benchmark Breaker That Won't Be Released](/ai/claude-mythos-benchmarks/)

@@ -90,3 +90,10 @@ Either way, the era of AI labs as scrappy independent startups is effectively ov
 - [Microsoft, OpenAI and Stargate](/ai/microsoft-openai-stargate/) - The parallel hyperscaler AI infrastructure play
 - [Token Economics: Why Costs Aren't Going Down](/ai/token-economics-why-costs-arent-going-down/) - The economics driving these infrastructure deals
 - [GPU Servers vs API Credits](/ai/gpu-servers-vs-api-credits/) - How compute decisions flow through to developers
+
+## Related Reading
+
+- [Stargate](/ai/microsoft-openai-stargate/)
+- [SpaceX Buys the Right to Buy Cursor for $60 Billion](/ai/spacex-cursor-60-billion-option/)
+- [Claude Mythos: The AI Benchmark Breaker That Won't Be Released](/ai/claude-mythos-benchmarks/)
+- [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)

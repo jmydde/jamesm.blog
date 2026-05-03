@@ -169,3 +169,10 @@ If you want the bigger picture view on where local agents fit, I've written sepa
 - [Ollama](https://ollama.ai) - local LLM serving
 - [Tailscale](https://tailscale.com) - the only sane way to reach a home box
 - [Anthropic API docs](https://docs.anthropic.com) - for the Claude fallback tool
+
+## Related Reading
+
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/)
+- [Giving Your Home AI Agent Memory That Lasts](/ai/home-ai-agent-memory-that-lasts/)
+- [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
+- [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)
