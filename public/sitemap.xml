@@ -59,6 +59,57 @@
     <loc>https://jamesm.blog/tags/yamaha/</loc>
     <lastmod>2026-05-04T08:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://jamesm.blog/tags/abinitio/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/agent/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/ai/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/airbyte/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/aws/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/azure/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-engineering/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-engineering/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-integration/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-pipeline/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/data-science/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/dbt/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/etl/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/data-engineering/etl-tools/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/fivetran/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/tool/</loc>
+    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/2026/</loc>
     <lastmod>2026-05-04T04:00:00+01:00</lastmod>
   </url><url>
@@ -145,12 +196,6 @@
   </url><url>
     <loc>https://jamesm.blog/tags/wormhole/</loc>
     <lastmod>2026-05-04T00:01:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/agent/</loc>
-    <lastmod>2026-05-03T08:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-05-03T08:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/</loc>
     <lastmod>2026-05-03T08:00:00+01:00</lastmod>
@@ -491,9 +536,6 @@
     <loc>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data-engineering/</loc>
-    <lastmod>2026-04-23T21:01:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/platform-engineering/</loc>
     <lastmod>2026-04-23T21:01:00+01:00</lastmod>
   </url><url>
@@ -536,10 +578,10 @@
     <loc>https://jamesm.blog/tags/ci-cd/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-04-22T21:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/kubernetes/</loc>
@@ -596,15 +638,6 @@
     <loc>https://jamesm.blog/tags/catalog/</loc>
     <lastmod>2026-04-22T07:53:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/data/</loc>
-    <lastmod>2026-04-22T07:53:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data-engineering/</loc>
-    <lastmod>2026-04-22T07:53:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-science/</loc>
-    <lastmod>2026-04-22T07:53:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/iceberg/</loc>
     <lastmod>2026-04-22T07:53:00+01:00</lastmod>
   </url><url>
@@ -659,9 +692,6 @@
     <loc>https://jamesm.blog/tags/anthropic/</loc>
     <lastmod>2026-04-21T06:36:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/aws/</loc>
-    <lastmod>2026-04-21T06:36:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/investment/</loc>
     <lastmod>2026-04-21T06:36:00+01:00</lastmod>
   </url><url>
@@ -690,9 +720,6 @@
     <lastmod>2026-04-20T19:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/mac-dictation-tools-comparison/</loc>
-    <lastmod>2026-04-20T19:02:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/tool/</loc>
     <lastmod>2026-04-20T19:02:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/</loc>
@@ -748,33 +775,6 @@
   </url><url>
     <loc>https://jamesm.blog/ai/the-next-decade-of-ai/</loc>
     <lastmod>2026-04-19T07:55:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/abinitio/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/airbyte/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/azure/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-integration/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/data-pipeline/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/dbt/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/etl/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/data-engineering/etl-tools/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/fivetran/</loc>
-    <lastmod>2026-04-19T07:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-cloud-subscriptions/</loc>
     <lastmod>2026-04-19T07:12:00+01:00</lastmod>
