@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow | jamesm.blog</title>
+<meta name="keywords" content="yamaha, roland, montage, groovebox, midi, workflow, hardware">
+<meta name="description" content="How a Yamaha Montage M and a Roland MC-707 stop being two boxes that fight each other and start being one instrument with two heads, plus the wiring, the routing, and the parts of the workflow that earn their keep.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow">
+  <meta property="og:description" content="How a Yamaha Montage M and a Roland MC-707 stop being two boxes that fight each other and start being one instrument with two heads, plus the wiring, the routing, and the parts of the workflow that earn their keep.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="music-production">
+    <meta property="article:published_time" content="2026-05-04T08:00:00+01:00">
+    <meta property="article:modified_time" content="2026-05-04T08:00:00+01:00">
+    <meta property="article:tag" content="Yamaha">
+    <meta property="article:tag" content="Roland">
+    <meta property="article:tag" content="Montage">
+    <meta property="article:tag" content="Groovebox">
+    <meta property="article:tag" content="Midi">
+    <meta property="article:tag" content="Workflow">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/music-production/hybrid-systems-montage-mc-707.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/music-production/hybrid-systems-montage-mc-707.jpg">
+  <meta name="twitter:title" content="Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow">
+  <meta name="twitter:description" content="How a Yamaha Montage M and a Roland MC-707 stop being two boxes that fight each other and start being one instrument with two heads, plus the wiring, the routing, and the parts of the workflow that earn their keep.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Music Production",
+      "item": "https://jamesm.blog/music-production/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Hybrid Systems: Montage + MC-707 Architecture and Workflow",
+      "item": "https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hybrid Systems: Montage + MC-707 Architecture and Workflow",
+  "name": "Hybrid Systems: Montage \u002b MC-707 Architecture and Workflow",
+  "description": "How a Yamaha Montage M and a Roland MC-707 stop being two boxes that fight each other and start being one instrument with two heads, plus the wiring, the routing, and the parts of the workflow that earn their keep.",
+  "keywords": [
+    "yamaha", "roland", "montage", "groovebox", "midi", "workflow", "hardware"
+  ],
+  "articleBody": "The Yamaha Montage M and the Roland MC-707 are both, on paper, complete instruments. The Montage is a flagship synth workstation with three distinct sound engines and the kind of polyphony and DSP headroom that makes most studio plugins look slow. The MC-707 is a compact groovebox with eight tracks, an internal sequencer, sample playback, and the kind of immediate hands-on workflow that makes laptop production feel laborious by comparison.\nEither one will get you a finished track. Together they are a different instrument entirely, and the pairing has become my main writing rig for the last year. This post is the architecture I have settled on, the wiring that makes it work, and the parts of the workflow that genuinely earn their place. For wider context on where the MC-707 sits in the groovebox landscape, see Top 5 grooveboxes of 2025 and the TR-8S vs MC-707 comparison.\nWhy pair them at all The first question to answer is why bother. A single workstation will do everything. A laptop and a controller will do everything more flexibly. Why introduce the friction of two pieces of hardware that have to talk to each other?\nThe honest answer is that each instrument is best at a thing the other is mediocre at, and the combination is more than the sum. The Montage is a sound design instrument. Its strength is in deep, evolving, cinematic-quality voices that take time to program but reward the effort with a sound nothing else in the studio produces. The MC-707 is a song construction instrument. Its strength is in fast, looped, pattern-driven sketching where you can have a four-bar idea playing in two minutes and a full arrangement in twenty.\nUsed alone, the Montage is slow to compose on. Its sequencer is competent but its workflow rewards careful programming, not exploratory looping. Used alone, the MC-707 is sonically constrained. Its internal voices are good for what they are, but they cannot match the depth of a Yamaha AWM2 or FM-X patch played through the Montage’s effects.\nThe pairing fixes both problems. The MC-707 sequences. The Montage voices. The combination has the immediacy of a groovebox and the sonic ceiling of a flagship synth. I cover the Montage M itself in more detail in my six-month review, and the closely related MODX-based variant of this rig in Using the MC-707 as a MIDI brain for the MODX.\nThe basic architecture The architecture I run is straightforward. The MC-707 is the master. It runs the clock, it runs the sequencer, it runs the song structure. The Montage is a slave voice, receiving MIDI on multiple channels, playing back what the MC-707 sends it.\nThere are three signal paths to think about: MIDI, audio, and control.\nThe MIDI path goes from the MC-707’s MIDI out, into the Montage’s MIDI in. The MC-707 sends note data on multiple channels, and the Montage is configured in multi-part mode with a different voice on each channel. The MC-707 thinks it is driving an external synth. The Montage thinks it is being played by a clever sequencer. Neither of them needs to know the other’s identity.\nThe audio path goes from the Montage’s main outputs into a stereo input on the MC-707. The MC-707 has a “external in” assignment that lets you route incoming audio through its mixer, its effects, and onto its master output, which is what feeds my monitors and the recorder. This means the MC-707 is the final summing point. Everything you hear, including the Montage, is going through the groovebox’s mix and master chain.\nThe control path is the optional one. I send MIDI clock and program changes from the MC-707 to the Montage, but I leave most of the synth-side control for the Montage to handle. The reason is that the MC-707’s control surface is too coarse to drive Montage parameters with the precision the Montage rewards. If I want to tweak a filter cutoff on a Montage voice, I do it on the Montage’s own knobs.\nThis has two consequences. First, you have to be willing to reach over and touch the Montage when you want sound design changes. Second, the MC-707 is doing what it is best at, which is sequencing and high-level mixing, and the Montage is doing what it is best at, which is producing sound.\nThe MIDI channel layout Channel allocation is where the system either becomes a joy to use or starts to fight you. After several iterations I have settled on a layout that has stayed stable.\nChannels 1 to 4: Montage Performance parts 1 to 4. These are the four voices I expect to use most heavily on a given track - typically a lead, a pad, a bass, and a percussion or pluck patch. Each one is mapped to a different MC-707 track. Channels 5 to 8: Reserved for additional Montage parts when a track calls for them. I leave these unassigned by default and bring them online only when I need them. Channels 9 to 16: Internal MC-707 voices and drum tracks. These never leave the groovebox. The reason for the split is that the MC-707 has eight tracks and the Montage has up to sixteen parts. If I treated every Montage part as a candidate for a track, I would constantly be rearranging the MC-707 to accommodate the Montage’s complexity. Capping it at four primary parts and four reserves matches the MC-707’s natural unit of work - eight tracks - and forces the kind of compositional discipline that produces tracks that finish.\nThe clocking question Whoever is the master of MIDI clock has authority over tempo, swing, and start/stop. I have run this both ways, and I have settled hard on the MC-707 being the master.\nThe reason is that the MC-707’s transport is the natural place for me to start and stop while writing. I am hitting the play button on the MC-707 dozens of times in an hour. The Montage’s transport is in a less convenient position, and it has more state to manage on each start. When the MC-707 is the clock master, hitting play on the MC-707 starts the song. The Montage receives clock and song-position-pointer messages and plays along.\nThe MC-707 has a slight quirk in how it sends clock - there is a documented latency on certain tempo changes - but in practice it has been accurate enough that I have not felt the need to drive both from a dedicated master clock. If you are working at extreme tempos or recording multiple synced devices to tape, you may want to introduce a USAMO or similar high-precision sync source. For my use case, the MC-707 is sufficient. If you are weighing other sequencer options for the master role, Top 5 hardware sequencers of 2025 and Hardware sequencers in 2026 compare the candidates.\nThe audio routing reality The audio side is where small choices matter a lot. The default approach of routing the Montage into the MC-707’s stereo input works, and I have used it for a year, but it has a cost worth understanding.\nThe cost is that everything from the Montage hits a single stereo bus on the MC-707. You cannot independently EQ or compress the Montage’s lead patch and pad patch unless you split them in the Montage’s own output stage. The Montage has multiple physical outputs and a flexible internal routing matrix, so this is solvable, but it is a tradeoff to make consciously rather than fall into.\nIf you want full per-voice mixing, you route each Montage part to its own physical output, and you feed those into separate inputs on the MC-707 or, more sensibly, into an external mixer or audio interface that lives between both instruments and your recording rig. I have not gone there because the additional patching is more friction than the mixing flexibility is worth, but if you are trying to use this as a live rig with full per-part processing, that is the architecture you want.\nWhat this gets you that nothing else does After running this rig for a year, the things I would miss most if I had to give one of them up are not the obvious features. They are the workflow properties.\nThe Montage’s sound is always one MIDI channel away. I do not have to bounce, render, freeze, or stage anything to get a Montage voice into the song I am writing. It is just there, in the part, on the channel, playing along with the rest of the MC-707’s tracks.\nThe MC-707’s looping is the song’s backbone. I am not building tracks linearly from a piano roll. I am layering loops, muting and unmuting them in real time, recording the resulting performance into the song. The MC-707 makes that workflow feel like an instrument rather than a DAW. Adding the Montage on top makes that instrument capable of sounds the MC-707 could not produce on its own.\nThe split between sequencer and voice is, as it turns out, a sensible split. The MC-707 sequences. The Montage voices. Each device is doing what it is best at. Each device is shielded from the other’s weaknesses. The combination is faster to write on than either device alone, and produces tracks that sound bigger than the sum of the parts.\nWhat I would tell someone considering this setup The setup is worth it if you already have one of the two pieces and you are missing something the other would provide. If you have a Montage and find yourself bouncing ideas in a DAW because the Montage’s sequencer is slow, the MC-707 is the missing piece. If you have an MC-707 and find yourself frustrated by the sonic ceiling of its voices, the Montage is the missing piece.\nThe setup is not worth it if you are starting from scratch and trying to build a complete rig from zero. There is too much overlap, too much cost, and too many simpler paths that get you to a similar place. A laptop and a good controller will do most of what this rig does for a fraction of the price. The hybrid hardware approach is an intermediate destination, not a starting point.\nFor me, in the place I am in as a player and producer, it is the right rig. It rewards time spent learning it. It produces tracks I am proud of. It makes me reach for it before I reach for the laptop, which is the most reliable signal I have ever found that a rig is actually working.\n",
+  "wordCount" : "1761",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/music-production/hybrid-systems-montage-mc-707.jpg","datePublished": "2026-05-04T08:00:00+01:00",
+  "dateModified": "2026-05-04T08:00:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/music-production/">Music Production</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow
+    </h1>
+    <div class="post-description">
+      How a Yamaha Montage M and a Roland MC-707 stop being two boxes that fight each other and start being one instrument with two heads, plus the wiring, the routing, and the parts of the workflow that earn their keep.
+    </div>
+    <div class="post-meta"><span title='2026-05-04 08:00:00 +0100 BST'>May 4, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/music-production/hybrid-systems-montage-mc-707.jpg" alt="Hybrid Systems Montage MC-707 Banner">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#why-pair-them-at-all" aria-label="Why pair them at all">Why pair them at all</a></li>
+            <li>
+                <a href="#the-basic-architecture" aria-label="The basic architecture">The basic architecture</a></li>
+            <li>
+                <a href="#the-midi-channel-layout" aria-label="The MIDI channel layout">The MIDI channel layout</a></li>
+            <li>
+                <a href="#the-clocking-question" aria-label="The clocking question">The clocking question</a></li>
+            <li>
+                <a href="#the-audio-routing-reality" aria-label="The audio routing reality">The audio routing reality</a></li>
+            <li>
+                <a href="#what-this-gets-you-that-nothing-else-does" aria-label="What this gets you that nothing else does">What this gets you that nothing else does</a></li>
+            <li>
+                <a href="#what-i-would-tell-someone-considering-this-setup" aria-label="What I would tell someone considering this setup">What I would tell someone considering this setup</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>The Yamaha Montage M and the Roland MC-707 are both, on paper, complete instruments. The Montage is a flagship synth workstation with three distinct sound engines and the kind of polyphony and DSP headroom that makes most studio plugins look slow. The MC-707 is a compact groovebox with eight tracks, an internal sequencer, sample playback, and the kind of immediate hands-on workflow that makes laptop production feel laborious by comparison.</p>
+<p>Either one will get you a finished track. Together they are a different instrument entirely, and the pairing has become my main writing rig for the last year. This post is the architecture I have settled on, the wiring that makes it work, and the parts of the workflow that genuinely earn their place. For wider context on where the MC-707 sits in the groovebox landscape, see <a href="/music-production/top-5-grooveboxes-2025/">Top 5 grooveboxes of 2025</a> and the <a href="/music-production/roland-tr-8s-vs-mc-707/">TR-8S vs MC-707 comparison</a>.</p>
+<h2 id="why-pair-them-at-all">Why pair them at all<a hidden class="anchor" aria-hidden="true" href="#why-pair-them-at-all">#</a></h2>
+<p>The first question to answer is why bother. A single workstation will do everything. A laptop and a controller will do everything more flexibly. Why introduce the friction of two pieces of hardware that have to talk to each other?</p>
+<p>The honest answer is that each instrument is best at a thing the other is mediocre at, and the combination is more than the sum. The Montage is a sound design instrument. Its strength is in deep, evolving, cinematic-quality voices that take time to program but reward the effort with a sound nothing else in the studio produces. The MC-707 is a song construction instrument. Its strength is in fast, looped, pattern-driven sketching where you can have a four-bar idea playing in two minutes and a full arrangement in twenty.</p>
+<p>Used alone, the Montage is slow to compose on. Its sequencer is competent but its workflow rewards careful programming, not exploratory looping. Used alone, the MC-707 is sonically constrained. Its internal voices are good for what they are, but they cannot match the depth of a <a href="https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html">Yamaha AWM2</a> or <a href="https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html">FM-X</a> patch played through the Montage&rsquo;s effects.</p>
+<p>The pairing fixes both problems. The MC-707 sequences. The Montage voices. The combination has the immediacy of a groovebox and the sonic ceiling of a flagship synth. I cover the Montage M itself in more detail in <a href="/music-production/yamaha-montage-m-six-months/">my six-month review</a>, and the closely related MODX-based variant of this rig in <a href="/music-production/using-mc-707-as-midi-brain-for-modx-m/">Using the MC-707 as a MIDI brain for the MODX</a>.</p>
+<h2 id="the-basic-architecture">The basic architecture<a hidden class="anchor" aria-hidden="true" href="#the-basic-architecture">#</a></h2>
+<p>The architecture I run is straightforward. The MC-707 is the master. It runs the clock, it runs the sequencer, it runs the song structure. The Montage is a slave voice, receiving MIDI on multiple channels, playing back what the MC-707 sends it.</p>
+<p>There are three signal paths to think about: MIDI, audio, and control.</p>
+<p>The MIDI path goes from the MC-707&rsquo;s MIDI out, into the Montage&rsquo;s MIDI in. The MC-707 sends note data on multiple channels, and the Montage is configured in multi-part mode with a different voice on each channel. The MC-707 thinks it is driving an external synth. The Montage thinks it is being played by a clever sequencer. Neither of them needs to know the other&rsquo;s identity.</p>
+<p>The audio path goes from the Montage&rsquo;s main outputs into a stereo input on the MC-707. The MC-707 has a &ldquo;external in&rdquo; assignment that lets you route incoming audio through its mixer, its effects, and onto its master output, which is what feeds my monitors and the recorder. This means the MC-707 is the final summing point. Everything you hear, including the Montage, is going through the groovebox&rsquo;s mix and master chain.</p>
+<p>The control path is the optional one. I send MIDI clock and program changes from the MC-707 to the Montage, but I leave most of the synth-side control for the Montage to handle. The reason is that the MC-707&rsquo;s control surface is too coarse to drive Montage parameters with the precision the Montage rewards. If I want to tweak a filter cutoff on a Montage voice, I do it on the Montage&rsquo;s own knobs.</p>
+<p>This has two consequences. First, you have to be willing to reach over and touch the Montage when you want sound design changes. Second, the MC-707 is doing what it is best at, which is sequencing and high-level mixing, and the Montage is doing what it is best at, which is producing sound.</p>
+<h2 id="the-midi-channel-layout">The MIDI channel layout<a hidden class="anchor" aria-hidden="true" href="#the-midi-channel-layout">#</a></h2>
+<p>Channel allocation is where the system either becomes a joy to use or starts to fight you. After several iterations I have settled on a layout that has stayed stable.</p>
+<ul>
+<li><strong>Channels 1 to 4:</strong> Montage Performance parts 1 to 4. These are the four voices I expect to use most heavily on a given track - typically a lead, a pad, a bass, and a percussion or pluck patch. Each one is mapped to a different MC-707 track.</li>
+<li><strong>Channels 5 to 8:</strong> Reserved for additional Montage parts when a track calls for them. I leave these unassigned by default and bring them online only when I need them.</li>
+<li><strong>Channels 9 to 16:</strong> Internal MC-707 voices and drum tracks. These never leave the groovebox.</li>
+</ul>
+<p>The reason for the split is that the MC-707 has eight tracks and the Montage has up to sixteen parts. If I treated every Montage part as a candidate for a track, I would constantly be rearranging the MC-707 to accommodate the Montage&rsquo;s complexity. Capping it at four primary parts and four reserves matches the MC-707&rsquo;s natural unit of work - eight tracks - and forces the kind of compositional discipline that produces tracks that finish.</p>
+<h2 id="the-clocking-question">The clocking question<a hidden class="anchor" aria-hidden="true" href="#the-clocking-question">#</a></h2>
+<p>Whoever is the master of MIDI clock has authority over tempo, swing, and start/stop. I have run this both ways, and I have settled hard on the MC-707 being the master.</p>
+<p>The reason is that the MC-707&rsquo;s transport is the natural place for me to start and stop while writing. I am hitting the play button on the MC-707 dozens of times in an hour. The Montage&rsquo;s transport is in a less convenient position, and it has more state to manage on each start. When the MC-707 is the clock master, hitting play on the MC-707 starts the song. The Montage receives clock and song-position-pointer messages and plays along.</p>
+<p>The MC-707 has a slight quirk in how it sends clock - there is a documented latency on certain tempo changes - but in practice it has been accurate enough that I have not felt the need to drive both from a dedicated master clock. If you are working at extreme tempos or recording multiple synced devices to tape, you may want to introduce a <a href="https://www.expert-sleepers.co.uk/usamo.html">USAMO</a> or similar high-precision sync source. For my use case, the MC-707 is sufficient. If you are weighing other sequencer options for the master role, <a href="/music-production/top-5-sequencers-2025/">Top 5 hardware sequencers of 2025</a> and <a href="/music-production/hardware-sequencers-2026/">Hardware sequencers in 2026</a> compare the candidates.</p>
+<h2 id="the-audio-routing-reality">The audio routing reality<a hidden class="anchor" aria-hidden="true" href="#the-audio-routing-reality">#</a></h2>
+<p>The audio side is where small choices matter a lot. The default approach of routing the Montage into the MC-707&rsquo;s stereo input works, and I have used it for a year, but it has a cost worth understanding.</p>
+<p>The cost is that everything from the Montage hits a single stereo bus on the MC-707. You cannot independently EQ or compress the Montage&rsquo;s lead patch and pad patch unless you split them in the Montage&rsquo;s own output stage. The Montage has multiple physical outputs and a flexible internal routing matrix, so this is solvable, but it is a tradeoff to make consciously rather than fall into.</p>
+<p>If you want full per-voice mixing, you route each Montage part to its own physical output, and you feed those into separate inputs on the MC-707 or, more sensibly, into an external mixer or audio interface that lives between both instruments and your recording rig. I have not gone there because the additional patching is more friction than the mixing flexibility is worth, but if you are trying to use this as a live rig with full per-part processing, that is the architecture you want.</p>
+<h2 id="what-this-gets-you-that-nothing-else-does">What this gets you that nothing else does<a hidden class="anchor" aria-hidden="true" href="#what-this-gets-you-that-nothing-else-does">#</a></h2>
+<p>After running this rig for a year, the things I would miss most if I had to give one of them up are not the obvious features. They are the workflow properties.</p>
+<p>The Montage&rsquo;s sound is always one MIDI channel away. I do not have to bounce, render, freeze, or stage anything to get a Montage voice into the song I am writing. It is just there, in the part, on the channel, playing along with the rest of the MC-707&rsquo;s tracks.</p>
+<p>The MC-707&rsquo;s looping is the song&rsquo;s backbone. I am not building tracks linearly from a piano roll. I am layering loops, muting and unmuting them in real time, recording the resulting performance into the song. The MC-707 makes that workflow feel like an instrument rather than a DAW. Adding the Montage on top makes that instrument capable of sounds the MC-707 could not produce on its own.</p>
+<p>The split between sequencer and voice is, as it turns out, a sensible split. The MC-707 sequences. The Montage voices. Each device is doing what it is best at. Each device is shielded from the other&rsquo;s weaknesses. The combination is faster to write on than either device alone, and produces tracks that sound bigger than the sum of the parts.</p>
+<h2 id="what-i-would-tell-someone-considering-this-setup">What I would tell someone considering this setup<a hidden class="anchor" aria-hidden="true" href="#what-i-would-tell-someone-considering-this-setup">#</a></h2>
+<p>The setup is worth it if you already have one of the two pieces and you are missing something the other would provide. If you have a Montage and find yourself bouncing ideas in a DAW because the Montage&rsquo;s sequencer is slow, the MC-707 is the missing piece. If you have an MC-707 and find yourself frustrated by the sonic ceiling of its voices, the Montage is the missing piece.</p>
+<p>The setup is not worth it if you are starting from scratch and trying to build a complete rig from zero. There is too much overlap, too much cost, and too many simpler paths that get you to a similar place. A laptop and a good controller will do most of what this rig does for a fraction of the price. The hybrid hardware approach is an intermediate destination, not a starting point.</p>
+<p>For me, in the place I am in as a player and producer, it is the right rig. It rewards time spent learning it. It produces tracks I am proud of. It makes me reach for it before I reach for the laptop, which is the most reliable signal I have ever found that a rig is actually working.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/yamaha/">Yamaha</a></li>
+      <li><a href="https://jamesm.blog/tags/roland/">Roland</a></li>
+      <li><a href="https://jamesm.blog/tags/montage/">Montage</a></li>
+      <li><a href="https://jamesm.blog/tags/groovebox/">Groovebox</a></li>
+      <li><a href="https://jamesm.blog/tags/midi/">Midi</a></li>
+      <li><a href="https://jamesm.blog/tags/workflow/">Workflow</a></li>
+      <li><a href="https://jamesm.blog/tags/hardware/">Hardware</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://jamesm.blog/blockchain/state-of-blockchain-2026/">
+    <span class="title">Next »</span>
+    <span>The State of Blockchain in 2026</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow on x"
+            href="https://x.com/intent/tweet/?text=Hybrid%20Systems%3a%20Montage%20%2b%20MC-707%20Architecture%20and%20Workflow&amp;url=https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f&amp;hashtags=yamaha%2croland%2cmontage%2cgroovebox%2cmidi%2cworkflow%2chardware">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f&amp;title=Hybrid%20Systems%3a%20Montage%20%2b%20MC-707%20Architecture%20and%20Workflow&amp;summary=Hybrid%20Systems%3a%20Montage%20%2b%20MC-707%20Architecture%20and%20Workflow&amp;source=https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f&title=Hybrid%20Systems%3a%20Montage%20%2b%20MC-707%20Architecture%20and%20Workflow">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow on whatsapp"
+            href="https://api.whatsapp.com/send?text=Hybrid%20Systems%3a%20Montage%20%2b%20MC-707%20Architecture%20and%20Workflow%20-%20https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow on telegram"
+            href="https://telegram.me/share/url?text=Hybrid%20Systems%3a%20Montage%20%2b%20MC-707%20Architecture%20and%20Workflow&amp;url=https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Hybrid%20Systems%3a%20Montage%20%2b%20MC-707%20Architecture%20and%20Workflow&u=https%3a%2f%2fjamesm.blog%2fmusic-production%2fhybrid-systems-montage-mc-707%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

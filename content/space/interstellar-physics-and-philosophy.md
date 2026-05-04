@@ -18,6 +18,9 @@ This post walks through the central physics ideas in the film - the wormhole, Ga
 ### Interstellar Official Trailer
 {{< youtube AM4w7zYKRIw >}}
 
+### Infographic
+![Interstellar Physics Infographic](/assets/images/space/physics-interstellar-infographic.jpeg)
+
 ---
 
 ## A Film Built on a Physicist's Treatment
