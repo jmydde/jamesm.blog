@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eigenlayer on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/eigenlayer/</link>
+    <description>Recent content in Eigenlayer on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 May 2026 04:00:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/eigenlayer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The State of Blockchain in 2026: Leading Projects and Where Web3 Is Heading</title>
+      <link>https://jamesm.blog/blockchain/state-of-blockchain-2026/</link>
+      <pubDate>Mon, 04 May 2026 04:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/state-of-blockchain-2026/</guid>
+      <description>A grounded look at the blockchain landscape in 2026 - the Layer 1s that survived the cycle, the Layer 2 explosion on Ethereum, the modular and restaking thesis, the stablecoin volumes that quietly overtook Visa, and the tokenization of real-world assets that is starting to matter. Where the leading projects are and where the next two years are headed.</description>
+    </item>
+  </channel>
+</rss>
