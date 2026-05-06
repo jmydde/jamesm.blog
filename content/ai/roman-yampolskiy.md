@@ -128,6 +128,9 @@ For a working engineer, the practical implication is the same regardless of whic
 ### Roman Yampolskiy: Dangers of Superintelligent AI | Lex Fridman Podcast #431
 {{< youtube "NNr6gPelJ3E" >}}
 
+### How Dangerous Is Artificial Intelligence? | Roman Yampolskiy
+{{< youtube "NvDdSO-H7So" >}}
+
 ## Related Reading
 
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/) - the four-layer framework an engineer can use to place Yampolskiy's uncontrollability argument against the system, product, and alignment work that sits underneath it.

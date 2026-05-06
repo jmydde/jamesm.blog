@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 May 2026 08:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 22:31:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scott Galloway on AI: The Marketing Professor&#39;s Case That the Rich Don&#39;t Need You Anymore</title>
+      <link>https://jamesm.blog/ai/scott-galloway-on-ai/</link>
+      <pubDate>Mon, 04 May 2026 22:31:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/scott-galloway-on-ai/</guid>
+      <description>A grounded look at Scott Galloway - the NYU marketing professor and serial entrepreneur arguing that AI is a late-stage bubble, that AI was built for the rich, and that storytelling and relationships are the skills the next decade rewards.</description>
+    </item>
     <item>
       <title>Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow</title>
       <link>https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/</link>
@@ -40,6 +47,90 @@
       <pubDate>Mon, 04 May 2026 00:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/space/interstellar-physics-and-philosophy/</guid>
       <description>How Christopher Nolan and Nobel laureate Kip Thorne built a Hollywood film around real general relativity - wormholes, Gargantua, gravitational time dilation, the Tesseract, and the trade-offs between scientific accuracy and storytelling.</description>
+    </item>
+    <item>
+      <title>Space Debris Is a Tragedy of the Commons - Here&#39;s the Math</title>
+      <link>https://jamesm.blog/space/space-debris-tragedy-of-the-commons/</link>
+      <pubDate>Sun, 03 May 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/space-debris-tragedy-of-the-commons/</guid>
+      <description>Low Earth orbit is filling up. The economics of space debris look exactly like a textbook tragedy of the commons - private benefits, shared costs, no pricing mechanism. A grounded look at the numbers behind Kessler syndrome and what would actually fix it.</description>
+    </item>
+    <item>
+      <title>China&#39;s Space Programme in 2026 - Tiangong, Chang&#39;e, Lunar Plans</title>
+      <link>https://jamesm.blog/space/china-space-programme-2026/</link>
+      <pubDate>Sun, 03 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/china-space-programme-2026/</guid>
+      <description>While Western space coverage focused on Starship and Artemis, China quietly executed one of the most consistent national space programmes in history. A grounded look at where Tiangong, the Chang&amp;#39;e lunar series, and the broader Chinese space architecture stand in 2026.</description>
+    </item>
+    <item>
+      <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
+      <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
+      <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
+      <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
+    </item>
+    <item>
+      <title>The eBPF Revolution - What Every Platform Engineer Should Know</title>
+      <link>https://jamesm.blog/devops/ebpf-revolution/</link>
+      <pubDate>Sun, 03 May 2026 17:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/ebpf-revolution/</guid>
+      <description>eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.</description>
+    </item>
+    <item>
+      <title>AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard</title>
+      <link>https://jamesm.blog/data-engineering/ai-native-pipelines/</link>
+      <pubDate>Sun, 03 May 2026 16:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/ai-native-pipelines/</guid>
+      <description>Most data pipelines were designed to feed dashboards and analysts. In 2026 a growing share of pipeline output is being consumed by language models, agents, and other non-human readers. The shape of the pipeline changes more than people realise when the consumer is no longer a human.</description>
+    </item>
+    <item>
+      <title>The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie</title>
+      <link>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</link>
+      <pubDate>Sun, 03 May 2026 15:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</guid>
+      <description>The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run.</description>
+    </item>
+    <item>
+      <title>Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over</title>
+      <link>https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/</link>
+      <pubDate>Sun, 03 May 2026 14:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/</guid>
+      <description>The open table format wars dominated the lakehouse conversation for five years. In 2026 the picture has settled. A grounded look at where Iceberg, Delta, and Hudi actually stand, who won which battles, and what that means for the people who have to choose.</description>
+    </item>
+    <item>
+      <title>Onchain AI Agents - Hype, Reality, and Where the Money Actually Flows</title>
+      <link>https://jamesm.blog/blockchain/onchain-ai-agents-hype-reality/</link>
+      <pubDate>Sun, 03 May 2026 13:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/onchain-ai-agents-hype-reality/</guid>
+      <description>Onchain AI agents were the hottest crypto narrative of 2025. A year later the picture is clearer. A grounded look at what these agents actually do, which categories have real revenue, where the money is leaking out, and what to ignore.</description>
+    </item>
+    <item>
+      <title>The Quiet Standardisation of Agent Protocols - MCP, A2A, ACP Compared</title>
+      <link>https://jamesm.blog/ai/agent-protocols-mcp-a2a-acp/</link>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/agent-protocols-mcp-a2a-acp/</guid>
+      <description>While the headlines were about model launches, the agent ecosystem quietly converged on three protocols that matter - MCP, A2A, and ACP. A grounded comparison of what each one actually does, where they overlap, and which to bet on if you are building agents in 2026.</description>
+    </item>
+    <item>
+      <title>Kubernetes in 2026 - Is It Still Worth the Complexity Tax?</title>
+      <link>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</link>
+      <pubDate>Sun, 03 May 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</guid>
+      <description>Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.</description>
+    </item>
+    <item>
+      <title>Artemis III Lander Architecture - What Could Still Go Wrong</title>
+      <link>https://jamesm.blog/space/artemis-iii-lander-architecture/</link>
+      <pubDate>Sun, 03 May 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/artemis-iii-lander-architecture/</guid>
+      <description>Artemis III is the mission that lands humans on the Moon for the first time in over five decades. The architecture is bold, dependent, and unlike anything Apollo attempted. Here is an honest look at the lander stack and where the risk actually lives.</description>
+    </item>
+    <item>
+      <title>Polkadot 2.0 One Year On - Did Agile Coretime Deliver?</title>
+      <link>https://jamesm.blog/blockchain/polkadot-2-one-year-on/</link>
+      <pubDate>Sun, 03 May 2026 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/polkadot-2-one-year-on/</guid>
+      <description>A year after Polkadot 2.0 went live, the data is in. Did Agile Coretime, Elastic Scaling, and Asynchronous Backing actually move the needle? An honest scorecard on utilization, builder economics, and what still has not landed.</description>
     </item>
     <item>
       <title>Five AI Tokens Worth Understanding in 2026 (And One You&#39;re Probably Missing)</title>

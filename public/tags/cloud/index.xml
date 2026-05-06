@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 07:12:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 18:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
+      <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
+      <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
+      <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
+    </item>
+    <item>
+      <title>Kubernetes in 2026 - Is It Still Worth the Complexity Tax?</title>
+      <link>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</link>
+      <pubDate>Sun, 03 May 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</guid>
+      <description>Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.</description>
+    </item>
     <item>
       <title>AI Cloud Subscriptions: Comparing Pricing and Features in 2026</title>
       <link>https://jamesm.blog/ai/ai-cloud-subscriptions/</link>

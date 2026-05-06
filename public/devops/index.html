@@ -225,6 +225,54 @@ Navigate the evolution of DevOps in the age of AI agents and platform engineerin
 
 <article class="post-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/self-hosted-vs-managed-2026.jpg" alt="Self-Hosted vs Managed in 2026 Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The self-hosted vs managed decision in 2026 is genuinely different from the same decision in 2022. The math has shifted in three directions: cloud egress costs, AI workload economics, and self-hosted tooling maturity. Managed remains the right default for most teams. The thing that has changed is that the threshold at which self-hosting becomes worth considering has dropped. Workloads that were obviously managed in 2022 are genuine 50/50 calls in 2026. The most important shift is that self-hosting is no longer synonymous with on-premises. Modern self-hosting often means renting bare-metal in a colocation, running your own clusters in a hyperscaler, or using sovereign cloud providers - all with different economics. For specific categories - AI inference at scale, data egress-heavy workloads, predictable steady-state compute, regulated environments - self-hosting now wins on cost more often than people assume. The honest framing: managed is the right default; self-hosting is the right minority case; the minority is bigger than it used to be. Why This Decision Got Harder For most of the 2010s the answer was easy. Managed services were cheaper than self-hosting once you priced in operational overhead. The cloud providers competed aggressively. Self-hosting was for the regulated, the eccentric, and the very large.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 18:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again" href="https://jamesm.blog/devops/self-hosted-vs-managed-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg" alt="The eBPF Revolution Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The eBPF Revolution - What Every Platform Engineer Should Know
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR eBPF is the technology that lets you run safe, sandboxed programs inside the Linux kernel without writing kernel modules. In 2026 it is the foundation under most serious observability, networking, and runtime security tools. The interesting story is not the technology itself - it is the wave of products built on top of it: Cilium for networking, Tetragon for runtime security, Pixie, Parca, and Coroot for observability, plus a long tail of vendor offerings using eBPF under the hood. For platform engineers, eBPF is not “a thing you have to learn to write.” It is a thing you have to know about so you can choose tools intelligently and understand what is happening on your nodes when those tools cause problems. The most important shift eBPF has enabled is observability without instrumentation. You can see what is happening on a system without modifying the application, without restarting it, and with low overhead. That is genuinely new. What eBPF Actually Is eBPF stands for “extended Berkeley Packet Filter,” which is historical and confusing because eBPF has long since outgrown packet filtering. The simple version:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 17:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The eBPF Revolution - What Every Platform Engineer Should Know" href="https://jamesm.blog/devops/ebpf-revolution/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/kubernetes-2026-complexity-tax.jpg" alt="Kubernetes in 2026 Complexity Tax Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Kubernetes in 2026 - Is It Still Worth the Complexity Tax?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Kubernetes won the orchestration argument years ago. The question is no longer “should we use Kubernetes.” It is “should this particular team, with this particular workload, with this particular budget, pay the operational tax.” For genuinely large, multi-tenant, multi-region platforms with dedicated infrastructure teams, the answer is still mostly yes. The ecosystem maturity is unmatched and the alternatives lose at scale. For mid-sized engineering organisations, the answer in 2026 is probably not, and increasingly not. Managed serverless, container platforms like Fly and Railway, and the new generation of platform-as-a-service offerings are competitive in ways they were not three years ago. For startups and small teams, the answer is almost always no, and stop pretending otherwise. The honest read in 2026: Kubernetes is the right answer to fewer questions than it used to be, and being honest about that is now a competitive advantage rather than a heresy. How We Got Here Kubernetes was the right idea at the right time. By the late 2010s, every serious engineering team needed an answer to “how do we run containers in production.” Kubernetes provided one, it was open, it was backed by a credible foundation, and the cloud providers all blessed it. Within five years it was the default. Within ten years it was the assumption.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 11:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Kubernetes in 2026 - Is It Still Worth the Complexity Tax?" href="https://jamesm.blog/devops/kubernetes-2026-complexity-tax/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/devops/platform-engineering-2026.jpg" alt="Platform Engineering in 2026 Banner">
 </figure>
   <header class="entry-header">
@@ -323,48 +371,6 @@ APIs An API is a contract: this is what I will accept, this is what I promise to
   </div>
   <footer class="entry-footer"><span title='2023-12-16 09:36:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to DevOps Explainers" href="https://jamesm.blog/devops/explainers/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">DevOps Best Practices
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The views in this post are my own personal reflections on the industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.
-“Best practice” is a phrase that should be treated with suspicion. What works for a fintech running 500 engineers rarely works for a five-person startup. The notes below are generic patterns drawn from public talks, books, and industry write-ups - always weighed against context, team size, and what the system is actually trying to do.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-12-16 09:33:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to DevOps Best Practices" href="https://jamesm.blog/devops/best-practices/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">DevOps Cheatsheets
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Cheatsheets are one of the most under-rated learning tools in the DevOps toolbox. When you are three hours into debugging a broken pipeline, you don’t want a 400-page book - you want the one page that reminds you which flag does what. This page collects quick references I keep within arm’s reach.
-Cloud Computing A concise summary of the core cloud service models (IaaS, PaaS, SaaS), deployment patterns, and the shared responsibility model is a good starting point for anyone new to cloud infrastructure.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-12-16 09:28:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to DevOps Cheatsheets" href="https://jamesm.blog/devops/cheatsheets/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">AWS Summit London (2023) - Video Highlights
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The AWS Summit London 2023 keynote was posted to AWS’s event channel shortly after the event, and it is the single best hour of content to watch if you are trying to calibrate where AWS is pushing the ecosystem. This post pulls out the session and the themes I found most useful.
-Keynote The opening keynote featured the typical mix of AWS leadership, senior AWS product voices, and UK customer stories.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-06-07 11:04:16 +0100 BST'>June 7, 2023</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to AWS Summit London (2023) - Video Highlights" href="https://jamesm.blog/devops/aws-summit-2023-videos/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

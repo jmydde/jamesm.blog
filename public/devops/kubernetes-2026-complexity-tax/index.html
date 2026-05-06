@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Kubernetes in 2026 - Is It Still Worth the Complexity Tax? | jamesm.blog</title>
+<meta name="keywords" content="devops, kubernetes, platform, cloud, infrastructure, 2026">
+<meta name="description" content="Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/devops/kubernetes-2026-complexity-tax/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/devops/kubernetes-2026-complexity-tax/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/devops/kubernetes-2026-complexity-tax/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Kubernetes in 2026 - Is It Still Worth the Complexity Tax?">
+  <meta property="og:description" content="Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="devops">
+    <meta property="article:published_time" content="2026-05-03T11:00:00+01:00">
+    <meta property="article:modified_time" content="2026-05-03T11:00:00+01:00">
+    <meta property="article:tag" content="Devops">
+    <meta property="article:tag" content="Kubernetes">
+    <meta property="article:tag" content="Platform">
+    <meta property="article:tag" content="Cloud">
+    <meta property="article:tag" content="Infrastructure">
+    <meta property="article:tag" content="2026">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/devops/kubernetes-2026-complexity-tax.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/devops/kubernetes-2026-complexity-tax.jpg">
+  <meta name="twitter:title" content="Kubernetes in 2026 - Is It Still Worth the Complexity Tax?">
+  <meta name="twitter:description" content="Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "DevOps",
+      "item": "https://jamesm.blog/devops/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Kubernetes in 2026 - Is It Still Worth the Complexity Tax?",
+      "item": "https://jamesm.blog/devops/kubernetes-2026-complexity-tax/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kubernetes in 2026 - Is It Still Worth the Complexity Tax?",
+  "name": "Kubernetes in 2026 - Is It Still Worth the Complexity Tax?",
+  "description": "Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.",
+  "keywords": [
+    "devops", "kubernetes", "platform", "cloud", "infrastructure", "2026"
+  ],
+  "articleBody": "TL;DR Kubernetes won the orchestration argument years ago. The question is no longer “should we use Kubernetes.” It is “should this particular team, with this particular workload, with this particular budget, pay the operational tax.” For genuinely large, multi-tenant, multi-region platforms with dedicated infrastructure teams, the answer is still mostly yes. The ecosystem maturity is unmatched and the alternatives lose at scale. For mid-sized engineering organisations, the answer in 2026 is probably not, and increasingly not. Managed serverless, container platforms like Fly and Railway, and the new generation of platform-as-a-service offerings are competitive in ways they were not three years ago. For startups and small teams, the answer is almost always no, and stop pretending otherwise. The honest read in 2026: Kubernetes is the right answer to fewer questions than it used to be, and being honest about that is now a competitive advantage rather than a heresy. How We Got Here Kubernetes was the right idea at the right time. By the late 2010s, every serious engineering team needed an answer to “how do we run containers in production.” Kubernetes provided one, it was open, it was backed by a credible foundation, and the cloud providers all blessed it. Within five years it was the default. Within ten years it was the assumption.\nBut somewhere along the way, the conversation shifted. Kubernetes stopped being an answer and started being a question. Specifically, it started being a question every engineering org had to answer regardless of whether they actually had the workload that justified it. Five-engineer teams adopted Kubernetes because that was what serious teams used. Companies running three services migrated to Kubernetes because that was what the platform team was hired to build.\nA lot of those decisions look worse in hindsight. The complexity got real. The on-call got real. The cloud bill got real. And the alternatives got better.\nWhat The Complexity Tax Actually Costs The cost of running Kubernetes in production is rarely the line item people think it is. In rough order of importance:\nCognitive overhead. Kubernetes has its own object model, its own networking abstractions, its own storage abstractions, and its own RBAC system. Every engineer who touches the platform has to learn enough of this to be effective. For a team running ten services this is overhead that does not pay back.\nOperational headcount. A “real” Kubernetes platform - one with proper observability, secret management, ingress, certificate rotation, autoscaling, and security policies - is at minimum a 0.5-1 FTE for a small environment and rapidly more as the cluster grows. Most teams under-resource this and pay for it later.\nEcosystem churn. Tools you depend on break, deprecate, or get superseded. The CNCF landscape adds and retires projects faster than most teams can keep up. Pinning versions and standing still works for a while, then it does not.\nCloud cost surprise. Managed Kubernetes nodes are not cheap. Add load balancers, persistent volumes, log aggregation, and observability tooling, and the bill for a single environment routinely exceeds what the same workload would cost on a serverless or platform-as-a-service equivalent.\nSecurity surface. A Kubernetes cluster is a sprawling system with a large default attack surface. Hardening it takes work. Most clusters are not hardened to the standard their security teams would write down on paper.\nNone of this is unique to Kubernetes. It is the cost of running infrastructure. The question is whether you get value back for that cost.\nWhen Kubernetes Still Earns Its Keep There are categories of work where Kubernetes is genuinely the best choice in 2026 and probably will be for years.\nMulti-tenant platforms at scale. If you are building something where many internal or external customers share infrastructure, Kubernetes’ scheduling and isolation primitives are unmatched. The big SaaS platforms run on Kubernetes for a reason.\nWorkloads with strong locality requirements. Stateful workloads, data systems, GPU-bound workloads, and anything that benefits from explicit scheduling all do well on Kubernetes. The serverless platforms struggle here.\nHybrid and multi-cloud. If you genuinely need to run the same workload across AWS, GCP, on-prem, and the edge, Kubernetes is the closest thing to a portable substrate. Most teams who say they need this do not actually need it. Some do.\nHeavily regulated environments. Banks, governments, and other organisations where the cloud account itself is a compliance boundary often end up on Kubernetes because the alternatives do not give them the control they need.\nTeams with existing Kubernetes expertise and momentum. If you already have a working Kubernetes platform, a team that knows it, and a roadmap of value built on it, ripping it out is rarely justified. Sunk-cost bias is real, but so is the cost of switching.\nWhen It Stops Earning Its Keep The clearer picture in 2026 is when Kubernetes is the wrong choice.\nSmall product teams with small footprints. If you have under a dozen services, fewer than 10 engineers, and a single cloud account, you almost certainly do not need Kubernetes. You need a managed runtime that boots containers on push.\nTeams optimising for time to market. Every hour spent on cluster operations is an hour not spent on the product. Early-stage companies that adopt Kubernetes routinely lose 6-12 months of product velocity to platform work.\nWorkloads that fit cleanly into serverless. If your workload is request-response with predictable shapes, managed serverless on a major cloud is cheaper, simpler, and more reliable than the equivalent Kubernetes setup. The latency and cold-start arguments against serverless have been substantially mitigated by the providers in the last few years.\nInternal tools and dashboards. A lot of internal infrastructure that ended up on Kubernetes belonged on a single VM or a managed PaaS the whole time.\nThe Alternatives In 2026 The alternatives have improved meaningfully and that is the part of the conversation that has actually changed.\nManaged serverless - AWS Lambda, Cloudflare Workers, Google Cloud Run - has continued to mature. Cold starts are largely a solved problem for most workloads. Pricing is competitive for variable traffic. The developer experience is clean.\nContainer platforms like Fly.io and Railway have carved out a real niche between serverless and Kubernetes. You write a Dockerfile, you push, you get a globally distributed runtime with sane defaults. Operations are not zero, but they are roughly an order of magnitude lower than Kubernetes.\nManaged Kubernetes done right - GKE Autopilot, EKS Fargate, and similar - lets you keep the Kubernetes API surface without managing nodes, which removes a meaningful chunk of the operational burden. This is a credible middle path for teams that want Kubernetes’ ecosystem without all of its toil.\nModern platform-as-a-service offerings have come back into fashion. Some of them are simply Heroku reimplemented for the 2020s, and that turns out to be a great product for a lot of teams.\nThe point is that in 2024 a serious mid-sized company defaulting to “we run Kubernetes” was a reasonable choice. In 2026 it should be a deliberate one.\nThe AI Wrinkle One thing that pulled some teams back toward Kubernetes in 2025-2026 is AI workloads. GPU scheduling, model serving, training orchestration, and the operational requirements of inference platforms tend to look more like classical infrastructure problems than like serverless workloads. Tools like KServe, Ray on Kubernetes, and the various LLM-serving platforms assume Kubernetes underneath.\nIf your roadmap includes hosting your own models or running serious AI infrastructure, the Kubernetes case gets stronger again. If your AI strategy is “call APIs,” it does not.\nThis is one of the reasons it is hard to give a single answer to the question. The same company can be on the wrong side of the Kubernetes cost-benefit curve for its application workload and the right side for its AI workload. Splitting the difference is allowed and increasingly common.\nThe Test I Would Apply If you are deciding from scratch in 2026, the questions I would actually ask:\nDo you have at least one engineer whose job description includes operating Kubernetes? If no, do not adopt it. Do you have workloads that genuinely benefit from Kubernetes-specific features - stateful sets, custom resources, GPU scheduling, multi-tenancy? If no, look at managed runtimes first. Is your scale large enough that the per-workload overhead of Kubernetes is amortised? If you have three services, the overhead per service is enormous. If you have three hundred, it might be efficient. Are you paying for portability you actually use? If you are on a single cloud and likely to remain so, the multi-cloud argument is hypothetical. What is the second-order cost of not adopting Kubernetes? Sometimes the answer is “we lose access to a bunch of CNCF tooling we want.” That is a real cost. Sometimes the answer is “nothing.” Be honest. If you cannot answer “yes” to at least two of those, the complexity tax is probably not worth it.\nThe Honest Verdict Kubernetes is excellent infrastructure software. It is also more infrastructure than most teams need.\nThe cultural shift I have watched happen in 2025 and 2026 is healthy: it is becoming acceptable to say “we are not running Kubernetes and we are not going to.” A few years ago that statement would have read as either negligent or nostalgic. Today it reads as deliberate.\nThe teams I see making the best infrastructure decisions in 2026 are the ones who have stopped treating Kubernetes as the default and started treating it as one option among several. That posture lets them choose Kubernetes when it actually fits and skip it when it does not. Either outcome is fine. The only bad outcome is paying the complexity tax and not getting value back.\nIf your platform team can articulate, in plain English, what specific Kubernetes features they depend on and why those features do not exist on the alternative they are dismissing - keep doing what you are doing. If they cannot, the conversation is overdue.\nRelated Reading Platform Engineering 2026 DevOps in the Age of AI Agents DevOps Best Practices DevOps CI/CD Tools DevOps Monitoring ",
+  "wordCount" : "1666",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/devops/kubernetes-2026-complexity-tax.jpg","datePublished": "2026-05-03T11:00:00+01:00",
+  "dateModified": "2026-05-03T11:00:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/devops/kubernetes-2026-complexity-tax/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/devops/">DevOps</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      Kubernetes in 2026 - Is It Still Worth the Complexity Tax?
+    </h1>
+    <div class="post-description">
+      Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.
+    </div>
+    <div class="post-meta"><span title='2026-05-03 11:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/devops/kubernetes-2026-complexity-tax.jpg" alt="Kubernetes in 2026 Complexity Tax Banner">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#tldr" aria-label="TL;DR">TL;DR</a></li>
+            <li>
+                <a href="#how-we-got-here" aria-label="How We Got Here">How We Got Here</a></li>
+            <li>
+                <a href="#what-the-complexity-tax-actually-costs" aria-label="What The Complexity Tax Actually Costs">What The Complexity Tax Actually Costs</a></li>
+            <li>
+                <a href="#when-kubernetes-still-earns-its-keep" aria-label="When Kubernetes Still Earns Its Keep">When Kubernetes Still Earns Its Keep</a></li>
+            <li>
+                <a href="#when-it-stops-earning-its-keep" aria-label="When It Stops Earning Its Keep">When It Stops Earning Its Keep</a></li>
+            <li>
+                <a href="#the-alternatives-in-2026" aria-label="The Alternatives In 2026">The Alternatives In 2026</a></li>
+            <li>
+                <a href="#the-ai-wrinkle" aria-label="The AI Wrinkle">The AI Wrinkle</a></li>
+            <li>
+                <a href="#the-test-i-would-apply" aria-label="The Test I Would Apply">The Test I Would Apply</a></li>
+            <li>
+                <a href="#the-honest-verdict" aria-label="The Honest Verdict">The Honest Verdict</a></li>
+            <li>
+                <a href="#related-reading" aria-label="Related Reading">Related Reading</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
+<ul>
+<li><a href="https://kubernetes.io/">Kubernetes</a> won the orchestration argument years ago. The question is no longer &ldquo;should we use Kubernetes.&rdquo; It is &ldquo;should this particular team, with this particular workload, with this particular budget, pay the operational tax.&rdquo;</li>
+<li>For genuinely large, multi-tenant, multi-region platforms with dedicated infrastructure teams, the answer is still mostly yes. The ecosystem maturity is unmatched and the alternatives lose at scale.</li>
+<li>For mid-sized engineering organisations, the answer in 2026 is <strong>probably not, and increasingly not</strong>. Managed serverless, container platforms like <a href="https://fly.io/">Fly</a> and <a href="https://railway.app/">Railway</a>, and the new generation of platform-as-a-service offerings are competitive in ways they were not three years ago.</li>
+<li>For startups and small teams, the answer is almost always <strong>no, and stop pretending otherwise</strong>.</li>
+<li>The honest read in 2026: Kubernetes is the right answer to fewer questions than it used to be, and being honest about that is now a competitive advantage rather than a heresy.</li>
+</ul>
+<h2 id="how-we-got-here">How We Got Here<a hidden class="anchor" aria-hidden="true" href="#how-we-got-here">#</a></h2>
+<p>Kubernetes was the right idea at the right time. By the late 2010s, every serious engineering team needed an answer to &ldquo;how do we run containers in production.&rdquo; Kubernetes provided one, it was open, it was backed by a credible foundation, and the cloud providers all blessed it. Within five years it was the default. Within ten years it was the assumption.</p>
+<p>But somewhere along the way, the conversation shifted. Kubernetes stopped being an answer and started being a question. Specifically, it started being a question every engineering org had to answer regardless of whether they actually had the workload that justified it. Five-engineer teams adopted Kubernetes because that was what serious teams used. Companies running three services migrated to Kubernetes because that was what the platform team was hired to build.</p>
+<p>A lot of those decisions look worse in hindsight. The complexity got real. The on-call got real. The cloud bill got real. And the alternatives got better.</p>
+<h2 id="what-the-complexity-tax-actually-costs">What The Complexity Tax Actually Costs<a hidden class="anchor" aria-hidden="true" href="#what-the-complexity-tax-actually-costs">#</a></h2>
+<p>The cost of running Kubernetes in production is rarely the line item people think it is. In rough order of importance:</p>
+<p><strong>Cognitive overhead.</strong> Kubernetes has its own object model, its own networking abstractions, its own storage abstractions, and its own RBAC system. Every engineer who touches the platform has to learn enough of this to be effective. For a team running ten services this is overhead that does not pay back.</p>
+<p><strong>Operational headcount.</strong> A &ldquo;real&rdquo; Kubernetes platform - one with proper observability, secret management, ingress, certificate rotation, autoscaling, and security policies - is at minimum a 0.5-1 FTE for a small environment and rapidly more as the cluster grows. Most teams under-resource this and pay for it later.</p>
+<p><strong>Ecosystem churn.</strong> Tools you depend on break, deprecate, or get superseded. The CNCF landscape adds and retires projects faster than most teams can keep up. Pinning versions and standing still works for a while, then it does not.</p>
+<p><strong>Cloud cost surprise.</strong> Managed Kubernetes nodes are not cheap. Add load balancers, persistent volumes, log aggregation, and observability tooling, and the bill for a single environment routinely exceeds what the same workload would cost on a serverless or platform-as-a-service equivalent.</p>
+<p><strong>Security surface.</strong> A Kubernetes cluster is a sprawling system with a large default attack surface. Hardening it takes work. Most clusters are not hardened to the standard their security teams would write down on paper.</p>
+<p>None of this is unique to Kubernetes. It is the cost of running infrastructure. The question is whether you get value back for that cost.</p>
+<h2 id="when-kubernetes-still-earns-its-keep">When Kubernetes Still Earns Its Keep<a hidden class="anchor" aria-hidden="true" href="#when-kubernetes-still-earns-its-keep">#</a></h2>
+<p>There are categories of work where Kubernetes is genuinely the best choice in 2026 and probably will be for years.</p>
+<p><strong>Multi-tenant platforms at scale.</strong> If you are building something where many internal or external customers share infrastructure, Kubernetes&rsquo; scheduling and isolation primitives are unmatched. The big SaaS platforms run on Kubernetes for a reason.</p>
+<p><strong>Workloads with strong locality requirements.</strong> Stateful workloads, data systems, GPU-bound workloads, and anything that benefits from explicit scheduling all do well on Kubernetes. The serverless platforms struggle here.</p>
+<p><strong>Hybrid and multi-cloud.</strong> If you genuinely need to run the same workload across AWS, GCP, on-prem, and the edge, Kubernetes is the closest thing to a portable substrate. Most teams who say they need this do not actually need it. Some do.</p>
+<p><strong>Heavily regulated environments.</strong> Banks, governments, and other organisations where the cloud account itself is a compliance boundary often end up on Kubernetes because the alternatives do not give them the control they need.</p>
+<p><strong>Teams with existing Kubernetes expertise and momentum.</strong> If you already have a working Kubernetes platform, a team that knows it, and a roadmap of value built on it, ripping it out is rarely justified. Sunk-cost bias is real, but so is the cost of switching.</p>
+<h2 id="when-it-stops-earning-its-keep">When It Stops Earning Its Keep<a hidden class="anchor" aria-hidden="true" href="#when-it-stops-earning-its-keep">#</a></h2>
+<p>The clearer picture in 2026 is when Kubernetes is the wrong choice.</p>
+<p><strong>Small product teams with small footprints.</strong> If you have under a dozen services, fewer than 10 engineers, and a single cloud account, you almost certainly do not need Kubernetes. You need a managed runtime that boots containers on push.</p>
+<p><strong>Teams optimising for time to market.</strong> Every hour spent on cluster operations is an hour not spent on the product. Early-stage companies that adopt Kubernetes routinely lose 6-12 months of product velocity to platform work.</p>
+<p><strong>Workloads that fit cleanly into serverless.</strong> If your workload is request-response with predictable shapes, managed serverless on a major cloud is cheaper, simpler, and more reliable than the equivalent Kubernetes setup. The latency and cold-start arguments against serverless have been substantially mitigated by the providers in the last few years.</p>
+<p><strong>Internal tools and dashboards.</strong> A lot of internal infrastructure that ended up on Kubernetes belonged on a single VM or a managed PaaS the whole time.</p>
+<h2 id="the-alternatives-in-2026">The Alternatives In 2026<a hidden class="anchor" aria-hidden="true" href="#the-alternatives-in-2026">#</a></h2>
+<p>The alternatives have improved meaningfully and that is the part of the conversation that has actually changed.</p>
+<p><strong>Managed serverless</strong> - <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>, <a href="https://workers.cloudflare.com/">Cloudflare Workers</a>, <a href="https://cloud.google.com/run">Google Cloud Run</a> - has continued to mature. Cold starts are largely a solved problem for most workloads. Pricing is competitive for variable traffic. The developer experience is clean.</p>
+<p><strong>Container platforms</strong> like <a href="https://fly.io/">Fly.io</a> and <a href="https://railway.app/">Railway</a> have carved out a real niche between serverless and Kubernetes. You write a Dockerfile, you push, you get a globally distributed runtime with sane defaults. Operations are not zero, but they are roughly an order of magnitude lower than Kubernetes.</p>
+<p><strong>Managed Kubernetes done right</strong> - <a href="https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview">GKE Autopilot</a>, <a href="https://docs.aws.amazon.com/eks/latest/userguide/fargate.html">EKS Fargate</a>, and similar - lets you keep the Kubernetes API surface without managing nodes, which removes a meaningful chunk of the operational burden. This is a credible middle path for teams that want Kubernetes&rsquo; ecosystem without all of its toil.</p>
+<p><strong>Modern platform-as-a-service</strong> offerings have come back into fashion. Some of them are simply Heroku reimplemented for the 2020s, and that turns out to be a great product for a lot of teams.</p>
+<p>The point is that in 2024 a serious mid-sized company defaulting to &ldquo;we run Kubernetes&rdquo; was a reasonable choice. In 2026 it should be a deliberate one.</p>
+<h2 id="the-ai-wrinkle">The AI Wrinkle<a hidden class="anchor" aria-hidden="true" href="#the-ai-wrinkle">#</a></h2>
+<p>One thing that pulled some teams <em>back</em> toward Kubernetes in 2025-2026 is AI workloads. GPU scheduling, model serving, training orchestration, and the operational requirements of inference platforms tend to look more like classical infrastructure problems than like serverless workloads. Tools like <a href="https://kserve.github.io/website/">KServe</a>, <a href="https://docs.ray.io/en/latest/cluster/kubernetes/index.html">Ray on Kubernetes</a>, and the various LLM-serving platforms assume Kubernetes underneath.</p>
+<p>If your roadmap includes hosting your own models or running serious AI infrastructure, the Kubernetes case gets stronger again. If your AI strategy is &ldquo;call APIs,&rdquo; it does not.</p>
+<p>This is one of the reasons it is hard to give a single answer to the question. The same company can be on the wrong side of the Kubernetes cost-benefit curve for its application workload and the right side for its AI workload. Splitting the difference is allowed and increasingly common.</p>
+<h2 id="the-test-i-would-apply">The Test I Would Apply<a hidden class="anchor" aria-hidden="true" href="#the-test-i-would-apply">#</a></h2>
+<p>If you are deciding from scratch in 2026, the questions I would actually ask:</p>
+<ol>
+<li><strong>Do you have at least one engineer whose job description includes operating Kubernetes?</strong> If no, do not adopt it.</li>
+<li><strong>Do you have workloads that genuinely benefit from Kubernetes-specific features</strong> - stateful sets, custom resources, GPU scheduling, multi-tenancy? If no, look at managed runtimes first.</li>
+<li><strong>Is your scale large enough that the per-workload overhead of Kubernetes is amortised?</strong> If you have three services, the overhead per service is enormous. If you have three hundred, it might be efficient.</li>
+<li><strong>Are you paying for portability you actually use?</strong> If you are on a single cloud and likely to remain so, the multi-cloud argument is hypothetical.</li>
+<li><strong>What is the second-order cost of <em>not</em> adopting Kubernetes?</strong> Sometimes the answer is &ldquo;we lose access to a bunch of CNCF tooling we want.&rdquo; That is a real cost. Sometimes the answer is &ldquo;nothing.&rdquo; Be honest.</li>
+</ol>
+<p>If you cannot answer &ldquo;yes&rdquo; to at least two of those, the complexity tax is probably not worth it.</p>
+<h2 id="the-honest-verdict">The Honest Verdict<a hidden class="anchor" aria-hidden="true" href="#the-honest-verdict">#</a></h2>
+<p>Kubernetes is excellent infrastructure software. It is also more infrastructure than most teams need.</p>
+<p>The cultural shift I have watched happen in 2025 and 2026 is healthy: it is becoming acceptable to say &ldquo;we are not running Kubernetes and we are not going to.&rdquo; A few years ago that statement would have read as either negligent or nostalgic. Today it reads as deliberate.</p>
+<p>The teams I see making the best infrastructure decisions in 2026 are the ones who have stopped treating Kubernetes as the default and started treating it as one option among several. That posture lets them choose Kubernetes when it actually fits and skip it when it does not. Either outcome is fine. The only bad outcome is paying the complexity tax and not getting value back.</p>
+<p>If your platform team can articulate, in plain English, what specific Kubernetes features they depend on and why those features do not exist on the alternative they are dismissing - keep doing what you are doing. If they cannot, the conversation is overdue.</p>
+<h2 id="related-reading">Related Reading<a hidden class="anchor" aria-hidden="true" href="#related-reading">#</a></h2>
+<ul>
+<li><a href="/devops/platform-engineering-2026/">Platform Engineering 2026</a></li>
+<li><a href="/devops/devops-in-the-age-of-ai-agents/">DevOps in the Age of AI Agents</a></li>
+<li><a href="/devops/best-practices/">DevOps Best Practices</a></li>
+<li><a href="/devops/cicd-tools/">DevOps CI/CD Tools</a></li>
+<li><a href="/devops/monitoring/">DevOps Monitoring</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/devops/">Devops</a></li>
+      <li><a href="https://jamesm.blog/tags/kubernetes/">Kubernetes</a></li>
+      <li><a href="https://jamesm.blog/tags/platform/">Platform</a></li>
+      <li><a href="https://jamesm.blog/tags/cloud/">Cloud</a></li>
+      <li><a href="https://jamesm.blog/tags/infrastructure/">Infrastructure</a></li>
+      <li><a href="https://jamesm.blog/tags/2026/">2026</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/ai/agent-protocols-mcp-a2a-acp/">
+    <span class="title">« Prev</span>
+    <span>The Quiet Standardisation of Agent Protocols - MCP, A2A, ACP Compared</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/space/artemis-iii-lander-architecture/">
+    <span class="title">Next »</span>
+    <span>Artemis III Lander Architecture - What Could Still Go Wrong</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Kubernetes in 2026 - Is It Still Worth the Complexity Tax? on x"
+            href="https://x.com/intent/tweet/?text=Kubernetes%20in%202026%20-%20Is%20It%20Still%20Worth%20the%20Complexity%20Tax%3f&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f&amp;hashtags=devops%2ckubernetes%2cplatform%2ccloud%2cinfrastructure%2c2026">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Kubernetes in 2026 - Is It Still Worth the Complexity Tax? on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f&amp;title=Kubernetes%20in%202026%20-%20Is%20It%20Still%20Worth%20the%20Complexity%20Tax%3f&amp;summary=Kubernetes%20in%202026%20-%20Is%20It%20Still%20Worth%20the%20Complexity%20Tax%3f&amp;source=https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Kubernetes in 2026 - Is It Still Worth the Complexity Tax? on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f&title=Kubernetes%20in%202026%20-%20Is%20It%20Still%20Worth%20the%20Complexity%20Tax%3f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Kubernetes in 2026 - Is It Still Worth the Complexity Tax? on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Kubernetes in 2026 - Is It Still Worth the Complexity Tax? on whatsapp"
+            href="https://api.whatsapp.com/send?text=Kubernetes%20in%202026%20-%20Is%20It%20Still%20Worth%20the%20Complexity%20Tax%3f%20-%20https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Kubernetes in 2026 - Is It Still Worth the Complexity Tax? on telegram"
+            href="https://telegram.me/share/url?text=Kubernetes%20in%202026%20-%20Is%20It%20Still%20Worth%20the%20Complexity%20Tax%3f&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Kubernetes in 2026 - Is It Still Worth the Complexity Tax? on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Kubernetes%20in%202026%20-%20Is%20It%20Still%20Worth%20the%20Complexity%20Tax%3f&u=https%3a%2f%2fjamesm.blog%2fdevops%2fkubernetes-2026-complexity-tax%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

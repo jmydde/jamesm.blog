@@ -225,6 +225,48 @@ Navigate the evolution of DevOps in the age of AI agents and platform engineerin
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">DevOps Best Practices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The views in this post are my own personal reflections on the industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.
+“Best practice” is a phrase that should be treated with suspicion. What works for a fintech running 500 engineers rarely works for a five-person startup. The notes below are generic patterns drawn from public talks, books, and industry write-ups - always weighed against context, team size, and what the system is actually trying to do.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-16 09:33:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DevOps Best Practices" href="https://jamesm.blog/devops/best-practices/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">DevOps Cheatsheets
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Cheatsheets are one of the most under-rated learning tools in the DevOps toolbox. When you are three hours into debugging a broken pipeline, you don’t want a 400-page book - you want the one page that reminds you which flag does what. This page collects quick references I keep within arm’s reach.
+Cloud Computing A concise summary of the core cloud service models (IaaS, PaaS, SaaS), deployment patterns, and the shared responsibility model is a good starting point for anyone new to cloud infrastructure.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-16 09:28:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DevOps Cheatsheets" href="https://jamesm.blog/devops/cheatsheets/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AWS Summit London (2023) - Video Highlights
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The AWS Summit London 2023 keynote was posted to AWS’s event channel shortly after the event, and it is the single best hour of content to watch if you are trying to calibrate where AWS is pushing the ecosystem. This post pulls out the session and the themes I found most useful.
+Keynote The opening keynote featured the typical mix of AWS leadership, senior AWS product voices, and UK customer stories.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-07 11:04:16 +0100 BST'>June 7, 2023</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AWS Summit London (2023) - Video Highlights" href="https://jamesm.blog/devops/aws-summit-2023-videos/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">AWS Summit London (2023) - Agenda
     </h2>
   </header>
@@ -318,48 +360,6 @@ DevOps Amazon’s approach to high-availability deployment The practices Amazon�
   </div>
   <footer class="entry-footer"><span title='2022-12-03 11:04:16 +0100 +0100'>December 3, 2022</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to AWS re:Invent Slides (2022)" href="https://jamesm.blog/devops/aws-reinvent-2022-slides/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CI/CD Tools
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>CI/CD is the plumbing that turns a commit into running software. The tools below cover the full spectrum - from fully managed SaaS that you never have to operate, to self-hosted automation servers you tune yourself, to GitOps controllers that treat your Kubernetes cluster as the deployment target.
-How to choose A few questions that tend to cut through the vendor noise:
-Is your code in GitHub, GitLab, or Bitbucket? Staying in-ecosystem reduces integration effort dramatically Do you deploy to Kubernetes? GitOps tools like Argo CD and Flux are often a better fit than traditional pipelines Do you want to operate the control plane yourself? Jenkins gives you maximum flexibility and maximum operational burden How many parallel runners will you need at peak, and who pays for them? Hosted CI/CD platforms Low operational overhead, tight integration with their source-control parents, and usage-based pricing.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-08-21 11:51:18 +0100 BST'>August 21, 2022</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to CI/CD Tools" href="https://jamesm.blog/devops/cicd-tools/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Monitoring and Observability
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>“Monitoring” and “observability” are not the same thing, even though the words are often used interchangeably. Monitoring tells you when a pre-defined thing has gone wrong. Observability is whether you can answer new questions about system behaviour - including questions you had not thought to ask when you built the dashboards.
-This page groups tools by what they do rather than by vendor, because most real production stacks combine several of them.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-01-21 11:51:18 +0100 +0100'>January 21, 2022</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Monitoring and Observability" href="https://jamesm.blog/devops/monitoring/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Development Courses
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>A short list of development courses I either learned from myself or have recommended to others starting out. Most of the best teachers charge for their work - I have pointed out the free options where they are genuinely good.
-Python and Django Code With Mosh - The Ultimate Django Series - structured end-to-end path, best if you already know Python basics Corey Schafer’s Python tutorials - free YouTube series covering Python, Django, and Flask in genuine depth Real Python - article- and video-driven learning with a strong practical slant Django Girls Tutorial - free, beginner-friendly, the cleanest on-ramp to Django I have seen JavaScript and React The Odin Project - free full-stack curriculum that takes you from HTML through to JavaScript frameworks Code With Mosh - The Ultimate React Native Series - covers cross-platform mobile development with React Native Kent C. Dodds - Epic React - paid but widely regarded as the deepest React course available React official tutorial - free, well-maintained, and the right place to start for the current React model C and C&#43;&#43; Code With Mosh - Ultimate C&#43;&#43; Series - modern C&#43;&#43; taught from first principles learncpp.com - a free, comprehensive, and regularly updated C&#43;&#43; reference-and-tutorial hybrid The C Programming Language (K&amp;R) - still the canonical text for learning C, forty years on Fundamentals and Computer Science CS50 (Harvard) - free introductory computer-science course, famously well-produced Missing Semester of Your CS Education (MIT) - shell, Git, debugging, and the tools a CS degree usually skips Teach Yourself Computer Science - a curated syllabus for self-taught engineers who want to fill gaps Related Pages DevOps Courses DevOps Books </p>
-  </div>
-  <footer class="entry-footer"><span title='2021-05-28 11:51:18 +0100 BST'>May 28, 2021</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Development Courses" href="https://jamesm.blog/devops/dev-courses/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

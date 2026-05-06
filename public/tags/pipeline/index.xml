@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 20:51:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 16:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/pipeline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard</title>
+      <link>https://jamesm.blog/data-engineering/ai-native-pipelines/</link>
+      <pubDate>Sun, 03 May 2026 16:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/ai-native-pipelines/</guid>
+      <description>Most data pipelines were designed to feed dashboards and analysts. In 2026 a growing share of pipeline output is being consumed by language models, agents, and other non-human readers. The shape of the pipeline changes more than people realise when the consumer is no longer a human.</description>
+    </item>
     <item>
       <title>Data Engineering &amp; Data Science Courses</title>
       <link>https://jamesm.blog/data-engineering/data-engineering-science-courses/</link>

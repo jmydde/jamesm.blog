@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 May 2026 10:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/artemis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artemis III Lander Architecture - What Could Still Go Wrong</title>
+      <link>https://jamesm.blog/space/artemis-iii-lander-architecture/</link>
+      <pubDate>Sun, 03 May 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/artemis-iii-lander-architecture/</guid>
+      <description>Artemis III is the mission that lands humans on the Moon for the first time in over five decades. The architecture is bold, dependent, and unlike anything Apollo attempted. Here is an honest look at the lander stack and where the risk actually lives.</description>
+    </item>
     <item>
       <title>Human Spaceflight Rockets in 2026: A New Era Takes Off</title>
       <link>https://jamesm.blog/space/human-spaceflight-rockets-2026/</link>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>DevOps on jamesm.blog</title>
+    <title>Devops on jamesm.blog</title>
     <link>https://jamesm.blog/tags/devops/</link>
-    <description>Recent content in DevOps on jamesm.blog</description>
+    <description>Recent content in Devops on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 21:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 18:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
+      <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
+      <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
+      <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
+    </item>
+    <item>
+      <title>The eBPF Revolution - What Every Platform Engineer Should Know</title>
+      <link>https://jamesm.blog/devops/ebpf-revolution/</link>
+      <pubDate>Sun, 03 May 2026 17:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/ebpf-revolution/</guid>
+      <description>eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.</description>
+    </item>
+    <item>
+      <title>Kubernetes in 2026 - Is It Still Worth the Complexity Tax?</title>
+      <link>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</link>
+      <pubDate>Sun, 03 May 2026 11:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</guid>
+      <description>Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.</description>
+    </item>
     <item>
       <title>Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopting It</title>
       <link>https://jamesm.blog/devops/platform-engineering-2026/</link>

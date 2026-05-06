@@ -201,6 +201,54 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/ai-native-pipelines.jpg" alt="AI-Native Pipelines Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Data pipelines were optimised for human consumers - dashboards, BI tools, analysts. In 2026 a growing share of pipeline output flows directly to language models, agents, and retrieval systems. That changes the design constraints in ways that catch teams off guard. Aggregation matters less. Context fidelity matters more. Freshness behaves differently. Schema moves from rigid to negotiated. Cost shifts from compute to tokens. The biggest mistake is treating an LLM consumer as if it were just another dashboard. It is not. It does not skim, it does not interpret charts, it does not have working memory across rows. It needs to be fed. The new patterns - retrieval-aware partitioning, embedding pipelines, structured-document outputs, prompt-shaped views, evaluation harnesses for data quality - are the actual subject of “AI-native data engineering” in 2026. The Underlying Shift For thirty years the implicit consumer of every data pipeline was a human looking at a screen. Even when the pipeline ended in an API or a CSV, the conceptual end-user was someone who would interpret the output with judgement, context, and skim-reading.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 16:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard" href="https://jamesm.blog/data-engineering/ai-native-pipelines/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/catalog-layer-battleground.jpg" alt="Catalog Layer Battleground Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR With the open table format wars largely settled, the strategic fight in 2026 has moved up to the catalog layer - the system that manages tables, namespaces, governance, and access. Four credible open or open-ish catalogs are now in serious play: Unity Catalog (Databricks), Polaris (Snowflake), Apache Gravitino (Datastrato/community), and Project Nessie (Dremio/community). All four implement the Iceberg REST catalog spec to varying degrees, which means clients can talk to them through a common protocol. The differentiation has moved to governance, multi-tenancy, lineage, federation, and developer experience. Unity is the most production-mature and the most coupled to Databricks. Polaris is the cleanest open implementation of the REST spec. Gravitino is the most ambitious in scope - aiming to catalog non-table assets too. Nessie is the most opinionated about Git-style branching for data. The winning catalog will probably not be a single project. It will be the protocol (Iceberg REST) plus multiple compliant implementations plus federation between them. That is the picture 2026 ends with. Why The Catalog Layer Matters Now A table format defines how data is laid out on disk. A catalog defines:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 15:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie" href="https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/iceberg-vs-delta-vs-hudi-2026.jpg" alt="Iceberg vs Delta vs Hudi 2026 Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The open table format war between Apache Iceberg, Delta Lake, and Apache Hudi is effectively over in 2026 - and the outcome is not a single winner but a clear settlement. Iceberg has won the role of the neutral standard that engines and platforms expect to read and write. It is the format you choose when you do not want to be coupled to a single vendor. Delta has won the role of the incumbent default inside the Databricks ecosystem and remains a strong choice if Databricks is your primary engine. Delta UniForm has narrowed the gap by letting Delta tables expose Iceberg metadata. Hudi has not won a category outright. It retains a smaller but loyal user base for streaming-heavy and CDC-heavy workloads, where its design choices still genuinely fit. The interesting battle has moved up the stack to the catalog layer. The format question is mostly settled. The catalog question is the new fight. The Format Wars - A Brief History For most of the early 2020s the lakehouse story was a three-way argument about how to put ACID transactions on top of object storage.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 14:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over" href="https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/apache-iceberg-2026.jpg" alt="Apache Iceberg in 2026">
 </figure>
   <header class="entry-header">

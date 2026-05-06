@@ -1,7 +1,7 @@
 ---
 title: "The Yamaha Montage M: 6 Months In Real World Usage"
-date: 2026-05-06T08:00:00+01:00
-draft: false
+date: 2026-05-04T08:00:00+01:00
+draft: true
 tags: ["yamaha", "montage", "synth", "workstation", "review", "field-note"]
 description: "What the Yamaha Montage M is actually like to live with after six months of daily use, the parts that have aged well, the parts that have not, and the workflow conclusions that only come from time on the keys."
 cover:
