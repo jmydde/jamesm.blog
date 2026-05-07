@@ -208,12 +208,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>A year ago, in April 2025, “AI in your workflow” mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was “ask”.
-In April 2026, the verb is “delegate”.
-That is the headline, and it is not subtle once you go looking for it. The tools you use day to day no longer wait for prompts. They run for minutes at a time, open files, edit them, run shells, spin up sub-agents, browse the web, and come back with a result that is either roughly right or visibly wrong. You are no longer in the loop on every keystroke. You are in the loop on the outcome.
+    <p>TL;DR The defining shift from April 2025 to April 2026 is the move from “ask” to “delegate” - agents now run for minutes, open files, execute shells, and return results rather than waiting for each prompt Key developments that drove this: coding agents becoming operators (Claude Code, Cursor, Codex), MCP standardising tool access, spec-driven development going mainstream, and context windows expanding to millions of tokens In the next two years, longer-horizon agents, multi-agent coordination, persistent personal AI memory, and computer-use automation will move from early features to default expectations The working day is reshaping around less typing and more reviewing - the skill that matters is judgement over diffs, not typing speed or boilerplate generation To adapt now: pick a stack and use it daily, write specs before code, build the habit of reviewing diffs fast, and move procedural knowledge into reusable agent skills A year ago, in April 2025, “AI in your workflow” mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was “ask”.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-30 08:06:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-30 08:06:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to A Year of Agents, and What is Coming Next" href="https://jamesm.blog/ai/year-of-agents-and-whats-next/"></a>
 </article>
 
@@ -226,11 +224,10 @@ That is the headline, and it is not subtle once you go looking for it. The tools
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
-A skill is a folder. Inside the folder is a SKILL.md file with some YAML frontmatter and some markdown instructions. That is the whole format. Anthropic shipped them in Claude Code, open-sourced the spec, and at this point you can drop the same folder into Cursor, the Gemini CLI, OpenAI Codex, OpenHands, Goose, VS Code, GitHub Copilot, and a couple of dozen other tools, and they all do roughly the same thing with it.
+    <p>TL;DR A Claude Code skill is just a folder with a SKILL.md file - YAML frontmatter plus natural-language instructions - and the same folder works across Cursor, Gemini CLI, Codex, and a dozen other tools The format is model-agnostic because it contains no provider-specific syntax; any instruction-following model can read it, and any harness that loads markdown can execute it Progressive disclosure keeps large skill libraries cheap: only names and descriptions load at session start, with full instructions loading only when a skill is activated The portability is practically valuable - version-controlled runbooks that survive tool switches, model upgrades, and team growth without being rewritten Core skills are genuinely portable; advanced frontmatter extensions (like allowed-tools or context: fork) are tool-specific and may need tuning across harnesses Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to AI Skills: One Folder, Any Model" href="https://jamesm.blog/ai/ai-skills-one-folder-any-model/"></a>
 </article>
     </main>

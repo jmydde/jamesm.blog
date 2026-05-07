@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'tool', 'text-to-speech', 'productivity']
 ---
 
+## TL;DR
+
+- **Speechify** converts written content - PDFs, Word docs, web articles, and even physical text via camera - into natural-sounding audio using AI voices
+- It supports multiple languages, adjustable playback speed, and OCR for scanned or image-based text
+- The premium **Speechify Studio** tier adds AI voice cloning, professional audiobook creation, and batch processing for large documents
+- Key use cases include accessibility for people with dyslexia or ADHD, productivity during commutes, and professional audiobook publishing
+- Pricing starts free for basic use, with premium plans at $12-20 per month for unlimited access and higher-quality voices
+
 [Speechify](https://speechify.com/) is a leading text-to-speech platform that converts written content into natural-sounding audio, available across web, mobile, and browser extensions.
 
 ## Core Features

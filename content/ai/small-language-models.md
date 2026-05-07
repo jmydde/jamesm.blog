@@ -6,6 +6,14 @@ tags: ["small-language-model","slm","efficiency","open-source","local-ai","mistr
 description: "Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development."
 ---
 
+## TL;DR
+
+- **Small language models** (typically under 15B parameters) trained on high-quality data can match or outperform much larger models on many real-world tasks, thanks to distillation, instruction tuning, and quantization
+- The key advantages are speed (milliseconds vs seconds), cost (no per-token API charges), **privacy** (data stays on your hardware), and offline capability
+- Standout models include Mistral 7B for speed, Phi-3 for edge devices, and OpenClaw for code and reasoning - all usable locally via Ollama
+- The industry is moving toward a **multi-tier approach**: small models (7-13B) for 80% of workloads, medium models as a step-up, and large models reserved only for complex reasoning tasks where they genuinely outperform
+- Large models still win on deep multi-step reasoning, breadth of knowledge, and few-shot generalization - the shift is about matching model size to task, not replacing large models entirely
+
 # The Rise of Small Language Models: Why Size Isn't Everything
 
 For years, the narrative was simple: bigger is better. [GPT-4](https://openai.com/research/gpt-4) was massive, [Claude](https://claude.ai/) was massive, and the race seemed to be about who could train the largest model on the most data. But that story is changing. Small language models - typically under 15 billion parameters - are proving that you don't need 175 billion parameters to solve real problems.

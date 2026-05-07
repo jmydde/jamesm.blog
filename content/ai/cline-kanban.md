@@ -6,6 +6,14 @@ tags: ["ai","cline","kanban","project-management","mcp","automation"]
 description: "How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management."
 ---
 
+## TL;DR
+
+- **Cline** integrates with Kanban boards (Linear, GitHub Projects, Jira, Trello) via **Model Context Protocol (MCP)**, closing the gap between project management and code execution
+- Instead of manually copy-pasting tasks, Cline reads directly from your board, works through the implementation, and updates the task status automatically when done
+- This makes the Kanban board the **single source of truth** - it stays in sync with reality rather than being an afterthought you update when you remember
+- Works best with clear, testable acceptance criteria; vague tasks like "improve performance" need refinement before Cline can act on them autonomously
+- Even with full autonomy, human code review remains essential - Cline completing a task means it is "Ready for Review", not that it ships
+
 In the evolution of [agentic software engineering](https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/), one critical gap remains: **the disconnect between project management and code execution**. Your Kanban board tracks what needs doing, but your AI assistant lives in your IDE. [Cline](https://github.com/cline/cline) + Kanban closes that gap.
 
 ## The Problem: Two Separate Systems

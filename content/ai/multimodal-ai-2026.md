@@ -9,6 +9,14 @@ cover:
   alt: Multimodal AI in 2026 Banner
 ---
 
+## TL;DR
+
+- **Document understanding** is the unglamorous killer application - invoices, contracts, and scanned PDFs that were painful to extract data from are now tractable without dedicated pipelines
+- Vision models still under-deliver on precise spatial reasoning, object counting, and subtle medical or scientific imagery - these remain jobs for specialist models
+- **Audio is the modality with the most upside**: beyond transcription, it carries tone, pace, and hesitation that text loses, enabling fault detection, emotional analysis, and richer inputs
+- The teams getting real value treat multimodal as an **invisible enabling capability** within a workflow, not a feature to demo - and they verify high-stakes outputs just as they would text
+- The right question when evaluating multimodal is not "can we use this" but "what specific user problem becomes tractable that previously was not"
+
 When the first multimodal frontier models shipped, the demos were genuinely impressive. A photo of a fridge interior with the model suggesting a recipe. A handwritten napkin sketch becoming working code. A short audio clip of a meeting being transcribed, summarised, and structured. It looked, briefly, like the boundary between modalities had collapsed and we were entering a new regime in which models could reason fluidly across text, images, and sound.
 
 Two years later, the picture is more interesting. Multimodality has delivered real value, but not always where the demos suggested. It has also produced a long tail of features that are technically impressive and practically irrelevant, and a small set of capabilities that have quietly become indispensable to working systems. This post is the working summary of where the line falls.

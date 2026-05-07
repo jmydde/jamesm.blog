@@ -9,6 +9,14 @@ cover:
   alt: Meta employee tracking banner
 ---
 
+## TL;DR
+
+- Meta's **Model Capability Initiative** installs software on US employee laptops that captures keystrokes, mouse movements, and screenshots to train AI agents - there is no opt-out
+- The program is US-only because **EU and UK employees are protected by GDPR**; the scope of the tracking maps directly onto the absence of legal protection
+- Meta CTO Andrew Bosworth openly framed the end state: agents do the work, humans direct and review - the surveillance and the automation plan are the same story
+- The irony is deliberate: Meta's defence of the program - narrow purpose, safeguards, not used against the person - echoes its long-standing defences of **consumer data collection**
+- This is a signal about where the agent-training bottleneck actually sits: not reasoning or context windows, but the **long tail of real software interactions** that only real employees can provide
+
 Meta has started installing tracking software on the work laptops of its US-based employees. It captures keystrokes, mouse movements, clicks, and occasional screenshots. The captured activity is fed back into training data for AI agents. There is no opt-out. The program was disclosed to staff in an internal memo in April 2026, and the response from inside the company has been about what you would expect.
 
 The program is called the Model Capability Initiative, and it sits under a broader effort branded as the Agent Transformation Accelerator within [Meta's Superintelligence Labs](https://ai.meta.com/), the AI group now led by former Scale AI CEO Alexandr Wang.

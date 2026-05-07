@@ -205,14 +205,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:
-Should I rent a GPU and run models myself, or just pay for API credits?
-At first glance, APIs feel expensive. GPUs feel powerful. But the real answer is more nuanced - and getting it wrong can cost you a lot.
-Let’s break it down properly.
-The Core Trade-off This isn’t really about “cheap vs expensive.” It’s about:
+    <p>TL;DR The core trade-off is pay-per-use (APIs) vs pay-for-capacity (GPUs) - APIs are cheaper at low volume, GPUs win massively at high volume (100M&#43; tokens/day) The break-even point for GPU self-hosting sits around 2 to 5 million tokens per day for premium-model workloads - below that, APIs almost always win GPU utilisation is the most important variable: at less than 50-60% utilisation, self-hosted inference costs more per token than just calling an API Hidden costs matter - real GPU spend is 2x to 5x the raw hardware price once you add DevOps, scaling, monitoring, and networking; API costs can also balloon from poor prompt design and multi-step agent loops Most serious production systems land on a hybrid architecture: APIs for complex reasoning and long-context work, GPUs for bulk inference, embeddings, and fine-tuned models If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-05 23:16:25 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-05 23:16:25 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)" href="https://jamesm.blog/ai/gpu-servers-vs-api-credits/"></a>
 </article>
     </main>

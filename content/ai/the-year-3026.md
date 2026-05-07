@@ -9,6 +9,14 @@ cover:
   alt: The Year 3026 Banner
 ---
 
+## TL;DR
+
+- Over a thousand years, the substrate of civilisation changes beyond recognition, but the human core - love, grief, storytelling, the search for meaning - almost certainly does not
+- Computation and energy will have hit their physical cost floors by 3026; **intelligence is ambient**, woven into the environment so thoroughly that "using AI" becomes as meaningless a phrase as "using oxygen"
+- The built environment is almost certainly at **solar-system scale** - with the Earth a protected biosphere and heavy industry, compute, and energy capture distributed across the inner solar system
+- No company, currency, or nation founded in 2026 is likely to survive in any meaningful continuity; the middle layer of institutions gets hollowed out, leaving fewer but far longer-lived structures
+- The decisions being made right now - on AI safety, climate, and coordination - have genuinely astronomical consequences, because they determine whether there is a 3026 worth having at all
+
 Most writing about the future of AI stops at ten years. A few brave pieces stretch to fifty. I wrote one of the ten-year ones myself in [The Next Decade of AI](/ai/the-next-decade-of-ai), and the honest reason the horizon stays short is that the uncertainty gets unmanageable much past that. Forecasting even the shape of the economy in 2040 is already mostly vibes.
 
 A thousand years, then, is almost ridiculous as a frame. But almost is not quite the same as is. There is a specific kind of value in trying to think at this distance, precisely because it forces you to let go of the things that cannot survive the journey - companies, currencies, programming languages, probably nations - and look at what, if anything, does.

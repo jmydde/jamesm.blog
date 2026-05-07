@@ -9,6 +9,14 @@ cover:
   alt: When to Fine-Tune vs When to RAG Banner
 ---
 
+## TL;DR
+
+- The default choice for most teams should be **RAG** - it is reversible in days, whereas a bad fine-tuning decision is an expensive sunk cost that requires retraining to fix
+- RAG fails when the question requires reasoning across an entire knowledge domain rather than extracting a specific answer from a passage; **fine-tuning** handles that case better
+- Fine-tuning fails silently when underlying facts change - it produces confidently wrong, stale answers with no warning; RAG automatically picks up changes at query time
+- A practical decision framework: use RAG for volatile facts and cited answers, use fine-tuning for stable style, voice, and cross-domain reasoning
+- The best production systems use **both**: a fine-tuned base model for stable domain knowledge, augmented with retrieval for current and specific information
+
 The question I get asked most often by engineers starting to build with language models is some variation of: "should we fine-tune or should we do RAG?" It is almost always the wrong question, but it is the wrong question in an instructive way. The reason it gets asked so much is that the choice feels architectural, and architectural choices feel like the kind of thing you commit to once and live with. In practice, the choice is closer to "should I use a database or a cache" - the answer is usually some of both, applied to different problems, and the ratio shifts as the system matures.
 
 This post is the answer I now give. It is opinionated, it draws on patterns I have seen succeed and fail repeatedly, and it tries to be honest about the cases where the conventional wisdom is wrong.

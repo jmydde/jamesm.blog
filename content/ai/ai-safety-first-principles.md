@@ -9,6 +9,14 @@ cover:
   alt: AI Safety From First Principles Banner
 ---
 
+## TL;DR
+
+- "AI safety" covers four distinct layers - **product safety**, **system safety**, **model alignment**, and civilisational safety - and conflating them produces incoherent debates
+- For engineers building production systems today, system safety dominates: most real incidents trace back to flawed system design around the model, not the model itself
+- Practical mitigations are unglamorous: scope tool permissions, bound blast radius, require human approval for irreversible actions, validate outputs, and observe everything
+- The hype conflates capability with intent, existential risk with ordinary risk, and refusal with safety - all three conflations make the conversation harder to act on
+- The load-bearing principle across all four layers is the same: a system should **fail in ways that are detectable, recoverable, and bounded**
+
 The AI safety conversation has reached the point where the phrase has stopped meaning anything specific. In the same week, you will see "AI safety" used to describe content moderation on a chat product, the alignment of frontier models toward human values, the question of whether superintelligence ends civilisation, and a regulatory paper about copyright. These are not the same problem. Treating them as one conversation is the reason the conversation never resolves.
 
 This post is an attempt to disentangle them. Not to take a side on which problems are most important - that depends on your role and your time horizon - but to give you a framework that lets you tell which problem someone is actually talking about when they say the words.

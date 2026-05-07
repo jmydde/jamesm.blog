@@ -208,11 +208,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
-A skill is a folder. Inside the folder is a SKILL.md file with some YAML frontmatter and some markdown instructions. That is the whole format. Anthropic shipped them in Claude Code, open-sourced the spec, and at this point you can drop the same folder into Cursor, the Gemini CLI, OpenAI Codex, OpenHands, Goose, VS Code, GitHub Copilot, and a couple of dozen other tools, and they all do roughly the same thing with it.
+    <p>TL;DR A Claude Code skill is just a folder with a SKILL.md file - YAML frontmatter plus natural-language instructions - and the same folder works across Cursor, Gemini CLI, Codex, and a dozen other tools The format is model-agnostic because it contains no provider-specific syntax; any instruction-following model can read it, and any harness that loads markdown can execute it Progressive disclosure keeps large skill libraries cheap: only names and descriptions load at session start, with full instructions loading only when a skill is activated The portability is practically valuable - version-controlled runbooks that survive tool switches, model upgrades, and team growth without being rewritten Core skills are genuinely portable; advanced frontmatter extensions (like allowed-tools or context: fork) are tool-specific and may need tuning across harnesses Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to AI Skills: One Folder, Any Model" href="https://jamesm.blog/ai/ai-skills-one-folder-any-model/"></a>
 </article>
 
@@ -222,12 +221,10 @@ A skill is a folder. Inside the folder is a SKILL.md file with some YAML frontma
     </h2>
   </header>
   <div class="entry-content">
-    <p>In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there’s barely an exam left that AI can’t pass, often on the first try.
-This has broken something we relied on without thinking too hard about it: the equivalence between “passed the exam” and “has expertise.”
-For a century, we used exams as a proxy for skill. You pass the bar, you’re qualified to practice law. You pass medical licensing, you’re qualified to practice medicine. You get a degree in computer science, you’re qualified to be a programmer. The exam was the evidence that you had the knowledge and could apply it.
+    <p>TL;DR AI can now pass virtually every professional exam, breaking the long-held assumption that passing an exam equals having expertise What exams actually tested was knowledge retrieval under pressure - a bottleneck that no longer exists when machines can retrieve and apply knowledge better than any human Real expertise is what remains after knowledge retrieval is automated: judgment, integration of context, responsibility, and taste - none of which appear on any exam Professions built on credentialing (law, medicine, engineering) are being forced to confront that their proxies for expertise never measured the thing they cared about New models of assessment - portfolio-based credentialing, apprenticeship, outcomes tracking, and community reputation - will replace exams, but none of them scale as easily In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there’s barely an exam left that AI can’t pass, often on the first try.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-06 09:00:00 +0000 +0000'>April 6, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-06 09:00:00 +0000 +0000'>April 6, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to What Does &#39;Expertise&#39; Mean When AI Can Pass Any Exam?" href="https://jamesm.blog/ai/expertise-after-ai/"></a>
 </article>
     </main>

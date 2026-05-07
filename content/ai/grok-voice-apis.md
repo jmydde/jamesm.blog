@@ -9,6 +9,14 @@ cover:
   alt: Speech To Text Banner
 ---
 
+## TL;DR
+
+- xAI launched standalone **Speech-to-Text** (STT) and **Text-to-Speech** (TTS) APIs built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support
+- Grok's STT is among the cheapest at $0.10/hour (batch) and $0.20/hour (streaming), with features like speaker diarization, word-level timestamps, and Inverse Text Normalization
+- The TTS offering ships with five expressive voices, inline **expression control tags** ([laugh], [sigh], whisper), and covers 20 languages - priced at $4.20 per million characters
+- xAI's pitch is **vendor consolidation**: replacing three separate contracts (transcription, LLM, synthesis) with one stack on one billing account
+- The best fit is teams already building on Grok for reasoning - for lowest-latency TTS, ElevenLabs Flash v2.5 at ~75ms is still unmatched
+
 xAI has released two standalone voice APIs - Speech-to-Text (STT) and Text-to-Speech (TTS) - built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support. The move puts xAI in direct competition with ElevenLabs, Deepgram, and AssemblyAI, three companies that have owned the enterprise voice API market for years.
 
 The interesting question isn't whether Grok's voice tech is good. It clearly is - Tesla wouldn't ship it otherwise. The question is whether xAI's bundle (voice + reasoning + frontier models under one roof) is worth switching for.

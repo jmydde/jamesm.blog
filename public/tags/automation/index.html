@@ -221,11 +221,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
-The Problem It Solves The traditional job search is a grind of low-signal noise. You find 30 job postings. You read them. You customize a resume. You write a cover letter. You track applications in a spreadsheet. You wait. You compare offers using gut feel and spotty spreadsheet columns. The process burns time and attention - exactly when you need both to think clearly about your career.
+    <p>TL;DR Career-Ops is an open-source tool built on Claude Code that inverts the job search power dynamic - giving candidates AI-powered evaluation and application tools to match what companies use to filter them Each opportunity is scored across 10 weighted dimensions on an A-F scale, producing a structured comparison that replaces the ad hoc spreadsheet most candidates rely on The system generates ATS-optimized resumes dynamically tailored to each job description and auto-discovers new postings from 45&#43; pre-configured job boards A key design principle is human-in-control: nothing auto-submits, the AI recommends and the candidate decides, making it a decision-support system rather than an automation Career-Ops is a clean example of the broader pattern of AI tools that amplify individual judgment rather than replace it - worth studying for its architecture as much as its use case The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Career-Ops: Flipping the Script on AI-Powered Job Search" href="https://jamesm.blog/ai/career-ops/"></a>
 </article>
 
@@ -235,9 +234,7 @@ The Problem It Solves The traditional job search is a grind of low-signal noise.
     </h2>
   </header>
   <div class="entry-content">
-    <p>In the evolution of agentic software engineering, one critical gap remains: the disconnect between project management and code execution. Your Kanban board tracks what needs doing, but your AI assistant lives in your IDE. Cline &#43; Kanban closes that gap.
-The Problem: Two Separate Systems Most teams operate with a frustrating split:
-Kanban board (Linear, GitHub Projects, Jira, Trello): “Build the user authentication flow” IDE with Cline: “Let me write code” Manual sync: You paste the task, manually update the board status, context-switch constantly This handoff is where developers lose hours to context-switching and where tasks fall through the cracks.
+    <p>TL;DR Cline integrates with Kanban boards (Linear, GitHub Projects, Jira, Trello) via Model Context Protocol (MCP), closing the gap between project management and code execution Instead of manually copy-pasting tasks, Cline reads directly from your board, works through the implementation, and updates the task status automatically when done This makes the Kanban board the single source of truth - it stays in sync with reality rather than being an afterthought you update when you remember Works best with clear, testable acceptance criteria; vague tasks like “improve performance” need refinement before Cline can act on them autonomously Even with full autonomy, human code review remains essential - Cline completing a task means it is “Ready for Review”, not that it ships In the evolution of agentic software engineering, one critical gap remains: the disconnect between project management and code execution. Your Kanban board tracks what needs doing, but your AI assistant lives in your IDE. Cline &#43; Kanban closes that gap.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 07:44:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -250,9 +247,7 @@ Kanban board (Linear, GitHub Projects, Jira, Trello): “Build the user authenti
     </h2>
   </header>
   <div class="entry-content">
-    <p>The paper stack on your desk is growing again. Medical records mixed with tax documents, utility bills, insurance forms - all of it scattered across a filing cabinet that’s become increasingly harder to navigate. There’s probably some important document you can’t quite remember where you filed it.
-This is the problem Paperless-ngx solves, but with a crucial difference from commercial alternatives: you own it entirely.
-What is Paperless-ngx? Paperless-ngx is a community-driven, self-hosted document management system that automates the digitization and organization of physical paperwork. It’s the modern continuation of the original Paperless project, designed as a more actively maintained fork.
+    <p>TL;DR Paperless-ngx is a self-hosted, open-source document management system that scans, OCRs, and auto-organizes physical paperwork with no subscription fees or vendor lock-in Documents are automatically tagged and filed using custom rules, and the full archive is searchable by text extracted via OCR Self-hosting options include a local NAS, Docker on a server, a cheap cloud VPS, or even a Raspberry Pi - the system is not computationally demanding The primary benefits over commercial alternatives are complete data ownership, zero recurring cost at scale, and suitability for sensitive documents under HIPAA or GDPR It suits document-heavy professionals and privacy-conscious individuals best; casual users with few documents don’t need it The paper stack on your desk is growing again. Medical records mixed with tax documents, utility bills, insurance forms - all of it scattered across a filing cabinet that’s become increasingly harder to navigate. There’s probably some important document you can’t quite remember where you filed it.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-08 22:21:00 +0000 +0000'>April 8, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -268,12 +263,10 @@ What is Paperless-ngx? Paperless-ngx is a community-driven, self-hosted document
     </h2>
   </header>
   <div class="entry-content">
-    <p>The automation paradox is quietly reshaping what we pay for.
-Every time AI gets better at a specific task - writing code, analyzing documents, generating designs - the monetary value of doing that task falls. Commodity work becomes commodified. And yet, the people who thrive are not those who do the task fastest; they’re the ones who decide whether it should be done at all.
-The Direction Problem In 1997, Deep Blue beat Kasparov at chess. The immediate prediction was obvious: computers will replace chess players.
+    <p>TL;DR Every time AI automates a specific task, the monetary value of doing that task falls - the scarce resource shifts from execution to the judgment of what is worth doing at all Historical precedent holds: Deep Blue did not kill professional chess, calculators did not kill accountants - automation raises the value of the thinking above the automated layer The new hierarchy of work puts judgment first (irreplaceable), direction second (human but scalable), and execution last (increasingly commodity) Judgment is constrained opinion - it requires trade-off awareness, skin in the game, pattern recognition, and willingness to be wrong - none of which AI can replicate The economic inversion means hiring shifts from paying for output to paying for prevention: the bad decisions not made, the features not built, the wrong paths not taken The automation paradox is quietly reshaping what we pay for.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-07 14:00:00 +0000 +0000'>April 7, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-07 14:00:00 +0000 +0000'>April 7, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to The Automation Paradox: Why More AI Makes Human Judgment More Valuable" href="https://jamesm.blog/ai/automation-paradox/"></a>
 </article>
 

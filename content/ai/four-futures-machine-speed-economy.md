@@ -9,6 +9,14 @@ cover:
   alt: Four Futures Machine Speed Economy Banner
 ---
 
+## TL;DR
+
+- AI is collapsing **build times** across the entire software stack, meaning small teams can now ship in weeks what once required 50-person organisations working for a year
+- Four plausible futures are mapped: **Broad Abundance** (gains widely distributed), **Winner-Take-Most** (rents accrue to infrastructure owners), **Techno-Feudalism** (intelligence rented from platform landlords), and **Managed Transition** (governments respond with UBI and regulation)
+- Signals to watch include open-source model performance, vertical integration of chips and data centres, platform lock-in of agentic workflows, and serious UBI pilots at national scale
+- Leading AI researchers including **Geoffrey Hinton** and **Yoshua Bengio** argue the critical variable is no longer how capable models become, but how gains are distributed and how fast institutions adapt
+- Across most scenarios, the things that hold their value are consistent: **trust**, relationships, physical presence, and creativity rooted in specific human experience
+
 The pace of AI development over the past three years is genuinely unlike anything in recent economic history. The [Stanford AI Index](https://aiindex.stanford.edu/) has tracked frontier model capability roughly doubling on a yearly cadence, and private AI investment has reached levels that dwarf the dot-com peak in inflation-adjusted terms. What's less widely understood is what that pace actually means for competition, investment, and the structure of the economy.
 
 ## The Build Time Collapse

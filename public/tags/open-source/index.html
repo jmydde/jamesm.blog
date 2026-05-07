@@ -225,8 +225,7 @@ It won because it is the only format that both Snowflake and Databricks now trea
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most AI agents are forgettable. You ask them to do something, they do it, you close the window. The next time you need help, they start from zero - no context, no learning, no continuity. Hermes Agent works differently. Nous Research built it as a persistent system that remembers what it learns and gets measurably more capable the longer it runs.
-This is a meaningful shift in how we think about autonomous systems.
+    <p>TL;DR Hermes Agent by Nous Research is an open-source persistent autonomous system that builds memory across conversations, auto-generates reusable skills from repeated tasks, and compounds in capability over time Unlike stateless agents, Hermes accumulates project context - learning codebase quirks, team conventions, and recurring workflows so it stops asking questions it has already answered It works across Telegram, Discord, Slack, WhatsApp, Signal, Email, and CLI - meeting teams on the platforms they already use rather than requiring a dedicated app Running cost is roughly $20 to $60 per month for a solo developer (a $5-$10 VPS plus LLM API calls); it is MIT licensed with no seat fees or vendor lock-in The honest trade-off: Hermes beats alternatives on persistence and learning depth, but raises open questions about memory scaling, skill auditing, and what happens when an agent learns something wrong Most AI agents are forgettable. You ask them to do something, they do it, you close the window. The next time you need help, they start from zero - no context, no learning, no continuity. Hermes Agent works differently. Nous Research built it as a persistent system that remembers what it learns and gets measurably more capable the longer it runs.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-20 19:03:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -262,7 +261,7 @@ This is a meaningful shift in how we think about autonomous systems.
   <div class="entry-content">
     <p>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 10:00:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James Myddelton</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 10:00:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James Myddelton</span></footer>
   <a class="entry-link" aria-label="post link to Cline: The Next Generation AI Coding Assistant" href="https://jamesm.blog/ai/cline/"></a>
 </article>
 
@@ -272,11 +271,10 @@ This is a meaningful shift in how we think about autonomous systems.
     </h2>
   </header>
   <div class="entry-content">
-    <p>The Rise of Small Language Models: Why Size Isn’t Everything For years, the narrative was simple: bigger is better. GPT-4 was massive, Claude was massive, and the race seemed to be about who could train the largest model on the most data. But that story is changing. Small language models - typically under 15 billion parameters - are proving that you don’t need 175 billion parameters to solve real problems.
-The shift isn’t just about efficiency. It’s a fundamental change in how we think about AI deployment, cost, and what actually matters for most use cases.
+    <p>TL;DR Small language models (typically under 15B parameters) trained on high-quality data can match or outperform much larger models on many real-world tasks, thanks to distillation, instruction tuning, and quantization The key advantages are speed (milliseconds vs seconds), cost (no per-token API charges), privacy (data stays on your hardware), and offline capability Standout models include Mistral 7B for speed, Phi-3 for edge devices, and OpenClaw for code and reasoning - all usable locally via Ollama The industry is moving toward a multi-tier approach: small models (7-13B) for 80% of workloads, medium models as a step-up, and large models reserved only for complex reasoning tasks where they genuinely outperform Large models still win on deep multi-step reasoning, breadth of knowledge, and few-shot generalization - the shift is about matching model size to task, not replacing large models entirely The Rise of Small Language Models: Why Size Isn’t Everything For years, the narrative was simple: bigger is better. GPT-4 was massive, Claude was massive, and the race seemed to be about who could train the largest model on the most data. But that story is changing. Small language models - typically under 15 billion parameters - are proving that you don’t need 175 billion parameters to solve real problems.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:03:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 06:03:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to The Rise of Small Language Models: Why Size Isn&#39;t Everything" href="https://jamesm.blog/ai/small-language-models/"></a>
 </article>
 
@@ -286,9 +284,7 @@ The shift isn’t just about efficiency. It’s a fundamental change in how we t
     </h2>
   </header>
   <div class="entry-content">
-    <p>If you’ve spent time running language models locally through Ollama or another inference engine, you’ve probably discovered the same friction point: the command-line experience works, but it’s clunky. You’re juggling terminal windows, managing conversation context manually, managing files through the filesystem.
-Open WebUI solves this by offering what Ollama itself didn’t: a genuinely usable interface.
-What Open WebUI Does Open WebUI is a web-based chat interface designed to work with language models. It’s styled after ChatGPT, with a familiar conversation layout, sidebar for conversation management, and all the modern UX conveniences you’d expect. The critical difference: you control the backend entirely.
+    <p>TL;DR Open WebUI is an open-source, ChatGPT-style web interface that connects to local Ollama instances, OpenAI’s API, or any OpenAI-compatible backend It eliminates the friction of command-line LLM tools and supports features like RAG with document uploads, web search, custom prompts, model switching, and multi-user permissions Deployment is a single Docker command; maintenance is lightweight with persistent storage and optional PostgreSQL for multi-instance setups The primary appeal is full data ownership - queries never leave your infrastructure - making it well suited for privacy-conscious users and compliance-bound organizations Open WebUI adds minimal latency since the bottleneck is always the inference engine behind it, not the web interface itself If you’ve spent time running language models locally through Ollama or another inference engine, you’ve probably discovered the same friction point: the command-line experience works, but it’s clunky. You’re juggling terminal windows, managing conversation context manually, managing files through the filesystem.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-08 23:15:00 +0000 +0000'>April 8, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -301,8 +297,7 @@ What Open WebUI Does Open WebUI is a web-based chat interface designed to work w
     </h2>
   </header>
   <div class="entry-content">
-    <p>Running AI Models Locally with Ollama: From Setup to OpenClaw Ollama has quietly become the go-to tool for developers who want to run large language models on their own machines without relying on APIs. No cloud costs, no rate limits, no sending your prompts to third-party servers. Just you, your hardware, and a surprisingly capable AI model running locally.
-What is Ollama? Ollama is a lightweight platform designed to make running open-source language models accessible. It handles the complexity of model management - downloading, optimization, memory management - so you just run a command and start prompting.
+    <p>TL;DR Ollama is a lightweight tool for running open-source language models locally with no cloud costs, rate limits, or data leaving your machine Models are managed with simple commands (ollama pull, ollama run) and can be queried via a local HTTP API on localhost:11434 Popular models include Mistral 7B for speed, Llama 2 for all-around performance, and OpenClaw for code and reasoning tasks Running models locally delivers privacy, zero per-token cost, lower latency, and full offline capability You don’t need a GPU to start - a 7B model runs on 8GB of RAM, and Ollama automatically uses 4-bit quantization for larger models Running AI Models Locally with Ollama: From Setup to OpenClaw Ollama has quietly become the go-to tool for developers who want to run large language models on their own machines without relying on APIs. No cloud costs, no rate limits, no sending your prompts to third-party servers. Just you, your hardware, and a surprisingly capable AI model running locally.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-08 08:25:25 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -315,10 +310,7 @@ What is Ollama? Ollama is a lightweight platform designed to make running open-s
     </h2>
   </header>
   <div class="entry-content">
-    <p>Two weeks ago, GitHub made a quiet but significant announcement: they are now an official sponsor of OpenClaw.
-This is not a casual endorsement. This is GitHub putting resources and weight behind what has become the fastest-growing open source project in history.
-The Numbers Are Staggering If you have been paying attention to GitHub trends, OpenClaw’s rise has been unlike anything the platform has ever seen.
-The project broke React’s 10-year GitHub record in 60 days.
+    <p>TL;DR GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, breaking React’s 10-year GitHub milestone in just 60 days The sponsorship is concrete, not symbolic - it includes Copilot Pro&#43; access, dedicated security funding, and scalability support for the project team GitHub sponsors projects that matter for the future of software development, and this backing signals OpenClaw has crossed from “interesting experiment” into infrastructure-level significance The move is a bet that open source AI agents will be central to how software is built in 2026 and beyond, and that GitHub wants to be the home where that class of technology lives and scales OpenClaw’s growth trajectory and now its platform backing make it a clear signal about the direction of agentic, AI-operated software development Two weeks ago, GitHub made a quiet but significant announcement: they are now an official sponsor of OpenClaw.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-08 08:05:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>

@@ -102,21 +102,30 @@
       <link>https://jamesm.blog/ai/claude-code-review/</link>
       <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude-code-review/</guid>
-      <description>&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;
-&lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in &lt;a href=&#34;https://code.claude.com/&#34;&gt;Claude Code&lt;/a&gt;, which &lt;a href=&#34;https://www.anthropic.com/&#34;&gt;Anthropic&lt;/a&gt; just released in research preview.&lt;/p&gt;
-&lt;p&gt;Docs: &lt;a href=&#34;https://code.claude.com/docs/en/code-review&#34;&gt;https://code.claude.com/docs/en/code-review&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At first glance it sounds like another &amp;ldquo;AI reviews your code&amp;rdquo; feature. We&amp;rsquo;ve had plenty of those.&lt;/p&gt;
-&lt;p&gt;But when you look closer, this one is actually quite different.&lt;/p&gt;
-&lt;p&gt;Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude Code&amp;rsquo;s new &lt;strong&gt;Code Review&lt;/strong&gt; feature dispatches multiple AI agents in parallel to review a PR from different angles, rather than running a single shallow model pass over the diff&lt;/li&gt;
+&lt;li&gt;The motivation is real: Anthropic&amp;rsquo;s internal code output per engineer increased by around 200%, making human review the bottleneck - and humans consistently miss subtle bugs on large diffs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-agent review&lt;/strong&gt; cross-checks findings, filters false positives, and ranks issues by severity before posting a clean, high-signal review comment plus inline annotations&lt;/li&gt;
+&lt;li&gt;Review depth scales with PR size; typical runs take about 20 minutes and cost $15 - $25, which is cheap compared to the cost of a production bug&lt;/li&gt;
+&lt;li&gt;Humans still approve PRs - the tool&amp;rsquo;s role is a thorough pre-review pass, not automated sign-off, making it a complement to human judgment rather than a replacement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward</title>
       <link>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</link>
       <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</guid>
-      <description>&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;
-&lt;p&gt;So I started exploring alternatives.&lt;/p&gt;
-&lt;p&gt;What I&amp;rsquo;ve realised is that the best approach isn&amp;rsquo;t replacing Claude Code entirely - it&amp;rsquo;s building a hybrid AI developer stack where different models handle different types of work.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hitting Claude Code Pro usage limits does not mean upgrading to the $200/month plan - a &lt;strong&gt;hybrid AI stack&lt;/strong&gt; is a smarter and cheaper alternative&lt;/li&gt;
+&lt;li&gt;The tiering strategy: local models (free) for quick edits, cheap cloud APIs for general coding, and frontier models only for architecture or complex multi-file reasoning&lt;/li&gt;
+&lt;li&gt;Tools like &lt;strong&gt;Ollama&lt;/strong&gt; or &lt;strong&gt;LM Studio&lt;/strong&gt; with coding models such as DeepSeek Coder or Qwen2.5 handle the majority of everyday tasks locally at no cost&lt;/li&gt;
+&lt;li&gt;Cheap cloud inference providers (Groq, Together AI, DeepInfra) offer capable open models at fractions of a cent per session for heavier work&lt;/li&gt;
+&lt;li&gt;A realistic usage split of 80% local / 15% cheap APIs / 5% frontier models dramatically reduces limit burn while keeping Claude available when it genuinely matters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chatbots &amp; Large Language Models (LLMs)</title>

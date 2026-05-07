@@ -6,6 +6,14 @@ tags: ["ai","llm","cost-optimization","gpu","2026"]
 description: "A practical 2026 breakdown of when to rent GPUs versus buy API credits, with cost-per-token figures, break-even thresholds, and a hybrid architecture playbook."
 ---
 
+## TL;DR
+
+- The core trade-off is **pay-per-use (APIs) vs pay-for-capacity (GPUs)** - APIs are cheaper at low volume, GPUs win massively at high volume (100M+ tokens/day)
+- The break-even point for GPU self-hosting sits around **2 to 5 million tokens per day** for premium-model workloads - below that, APIs almost always win
+- **GPU utilisation** is the most important variable: at less than 50-60% utilisation, self-hosted inference costs more per token than just calling an API
+- Hidden costs matter - real GPU spend is 2x to 5x the raw hardware price once you add DevOps, scaling, monitoring, and networking; API costs can also balloon from poor prompt design and multi-step agent loops
+- Most serious production systems land on a **hybrid architecture**: APIs for complex reasoning and long-context work, GPUs for bulk inference, embeddings, and fine-tuned models
+
 If you're building anything with LLMs right now, you'll hit this question sooner than you expect:
 
 > **Should I rent a GPU and run models myself, or just pay for API credits?**

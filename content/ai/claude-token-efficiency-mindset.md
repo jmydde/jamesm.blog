@@ -9,6 +9,14 @@ cover:
   alt: Token efficiency visualization
 ---
 
+## TL;DR
+
+- Token costs don't scale linearly with productivity - the **context window** compounds with every follow-up message, so a five-message conversation can cost 2-3x more than one well-structured request
+- **Compression is your biggest lever**: cutting a prompt in half before sending it reduces cost and often improves answer quality by removing noise
+- Batch tasks that share context together; don't batch unrelated tasks - real batching spreads the setup cost across related work
+- Build reusable systems (templates, project files, prompt prefixes) instead of solving the same problem repeatedly and paying the context cost each time
+- **Prompt caching** can cut input token costs by 80-90% on workloads with stable prefixes - the single biggest structural saving most teams are missing
+
 If you're paying attention to your Claude usage, you've probably noticed something: your token bills don't scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
 
 The difference isn't randomness. It's a mental model problem.

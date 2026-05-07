@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","github","spec-kit","sdd","cursor-ai"]
 ---
 
+## TL;DR
+
+- **GitHub Spec Kit** is a structured framework of version-controlled markdown files (`spec.md`, `constitution.md`, `boundaries.md`, etc.) that serve as the single source of truth for a software project
+- **Spec-Driven Development (SDD)** means writing the specification first, then generating and refactoring code in alignment with it - preventing architectural drift over time
+- Integrating Spec Kit with **Cursor AI** turns the spec from a static document into an active constraint the AI understands and respects
+- The spec-first loop (define, implement, refine, repeat) creates development that is clearer, faster, and easier to maintain than ad-hoc planning
+- SDD is especially powerful for long-term projects and large teams where shared mental models and consistent architecture matter most
+
 Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, **GitHub Spec Kit** stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.
 
 This post explores what GitHub Spec Kit is, how Spec-Driven Development works, and why the pairing with Cursor AI creates a genuinely new style of building software.

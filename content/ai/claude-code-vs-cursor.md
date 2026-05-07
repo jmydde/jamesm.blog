@@ -6,6 +6,14 @@ tags: ['ai', 'llm', 'coding', 'claude', 'cursor', 'productivity']
 summary: "After six months of daily use, here is how the two heavyweights of AI-assisted coding compare: the terminal-native Claude Code and the IDE-integrated Cursor."
 ---
 
+## TL;DR
+
+- After six months of daily use, neither **Cursor** nor **Claude Code** wins outright - they represent two distinct philosophies that complement each other in a hybrid workflow
+- Cursor’s strength is deep IDE integration: seamless codebase indexing, best-in-class multi-file **Composer Mode**, and zero context switching for feature development and UI work
+- Claude Code’s strength is agentic execution: it runs tests, reads output, fixes code, and loops until passing - ideal for debugging, test-driven fixes, and housekeeping tasks
+- The real winner underlying both tools is **Claude 3.5 Sonnet**; the choice of tool determines how you interact with that intelligence, not which intelligence you get
+- The practical split: use Cursor as your primary environment for feature work, use Claude Code when you need something to just run and fix itself
+
 It’s been six months since the landscape of AI coding tools shifted from "helpful autocomplete" to "autonomous agents." During this time, I’ve used both **[Cursor](https://www.cursor.com/)** and **[Claude Code](https://code.claude.com/)** ([Anthropic](https://www.anthropic.com/)’s CLI tool) for every major project.
 
 While both tools rely heavily on Claude 3.5 Sonnet, they represent two fundamentally different philosophies of how we should build software with AI.

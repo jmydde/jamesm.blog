@@ -6,6 +6,14 @@ tags: ['ai']
 description: "Intelligence used to be something you hired, trained for, or waited in line for. Now it is becoming infrastructure - metered, on-demand, and collapsing in price."
 ---
 
+## TL;DR
+
+- For most of history, usable intelligence - the kind that solves complex problems - required hiring expensive specialists or spending years acquiring expertise yourself
+- Research shows the cost of running AI capability has been falling roughly **an order of magnitude every one to two years**, making intelligence increasingly affordable
+- **Intelligence is becoming infrastructure** - like electricity or compute, available on demand through APIs rather than locked inside individuals or institutions
+- When intelligence is cheap and abundant, **creativity becomes the limiting factor**, not knowledge, credentials, or access to experts
+- This democratisation is extraordinary, but the question of how we deploy these tools wisely matters as much as the capability itself
+
 For most of human history, intelligence has been scarce. Not intelligence in the biological sense - people have always been clever - but *usable intelligence*. The kind that helps you design a system, debug a problem, write code, plan a strategy, analyse data, or turn a vague idea into something real.
 
 That kind of intelligence has always been expensive. You hired it, studied for years to acquire it, or waited for an expert to have time for you. Companies paid consultants, specialists, analysts, engineers, and researchers because complex thinking historically required humans who spent decades learning their craft.

@@ -9,6 +9,14 @@ cover:
   alt: AI Hallucinations Understanding and Mitigating False Outputs Banner
 ---
 
+## TL;DR
+
+- **AI hallucinations** are not perceptual errors - they are confident pattern completions that happen to be unanchored in the world, and no model will ever stop producing them entirely because truth is not what the training objective optimises for
+- Hallucinations cluster into five distinct types: factual, citation, code and API, instruction (claiming to have done something it did not), and reasoning - each with a different root cause and a different mitigation
+- The mitigations that genuinely move the dial are structural: **retrieval-augmented generation**, tool use over recall, constrained structured outputs, explicit verification layers, and lower temperature for factual tasks
+- The model is not the product; the model surrounded by retrieval, verification, structured outputs, calibration, and human-in-the-loop review is the product
+- Hallucination is not the bug - the absence of a system around the model is the bug, and treating it as an engineering problem rather than a model problem is what separates demos from production
+
 The word "hallucination" is one of the most successful pieces of accidental marketing in our industry. It is a soft, almost endearing way to describe an LLM stating with full confidence that a function exists when it does not, that a court case was decided when it was not, that a paper was written by an author who has never published in that field. It makes the failure sound like a quirk rather than the central reliability problem of the entire technology.
 
 It is also, quietly, a misleading frame. A person who hallucinates believes the false thing. A model that "hallucinates" does not believe anything. It produces a token sequence with high probability under its training distribution, and sometimes that sequence is not anchored in the world. The mechanism is closer to confident pattern completion than to a perceptual error.

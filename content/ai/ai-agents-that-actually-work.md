@@ -9,6 +9,14 @@ cover:
   alt: AI Agents That Actually Work Banner
 ---
 
+## TL;DR
+
+- Most agent demos fail in production because demos operate in a regime where the model's natural behaviour is good enough - production is longer, messier, and largely unobserved
+- Eight patterns separate agents that stay shipped from the ones that fall over: **scope the loop**, structured tool design, mandatory verification, curated context, first-class human handoff, idempotency, agent-level observability, and real evaluation infrastructure
+- Models confabulate actions - "I ran the tests" does not mean the tests were run; every agent needs explicit verification baked into the control flow, not bolted on as an afterthought
+- The tool layer between the model and underlying systems is where most of the engineering effort actually lives, and exposing raw APIs directly to the agent almost always goes wrong
+- Build agents the same way you would build any other long-running, partially-autonomous system you cannot afford to have fail silently - the novelty is in the failure modes, not the engineering principles
+
 I have spent the last eighteen months either building, reviewing, or operating systems that some marketing department somewhere has called "agents". The definition has been so thoroughly stretched that it now means anything from a chatbot with a calculator tool to a long-running autonomous workflow that touches production infrastructure. Underneath the noise there is a real engineering discipline emerging, and the patterns that separate the systems that survive contact with real users from the ones that demo well and fall over are starting to be legible.
 
 This post is the working summary of what I have learned. It is not theoretical. Every pattern here is something I have either watched succeed in a system that is still running, or watched fail in a system that had to be rebuilt.

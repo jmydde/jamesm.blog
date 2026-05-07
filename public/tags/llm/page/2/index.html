@@ -217,13 +217,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>There is a big difference between using AI for development and having an actual AI development stack.
-Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.
-That approach breaks down quickly.
-In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.
+    <p>TL;DR A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture Spec-driven development is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations Tools like Cursor AI handle fast, in-flow editing while Claude Code or Cline are better suited to multi-file refactors and autonomous implementation from specs Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential The real shift is treating AI not as a bolt-on assistant but as part of the workflow architecture itself, with each tool assigned a clear, specific responsibility There is a big difference between using AI for development and having an actual AI development stack.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-06 00:05:00 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-06 00:05:00 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to What Actually Belongs in My AI Dev Stack in 2026" href="https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/"></a>
 </article>
 
@@ -233,14 +230,10 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
     </h2>
   </header>
   <div class="entry-content">
-    <p>If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:
-Should I rent a GPU and run models myself, or just pay for API credits?
-At first glance, APIs feel expensive. GPUs feel powerful. But the real answer is more nuanced - and getting it wrong can cost you a lot.
-Let’s break it down properly.
-The Core Trade-off This isn’t really about “cheap vs expensive.” It’s about:
+    <p>TL;DR The core trade-off is pay-per-use (APIs) vs pay-for-capacity (GPUs) - APIs are cheaper at low volume, GPUs win massively at high volume (100M&#43; tokens/day) The break-even point for GPU self-hosting sits around 2 to 5 million tokens per day for premium-model workloads - below that, APIs almost always win GPU utilisation is the most important variable: at less than 50-60% utilisation, self-hosted inference costs more per token than just calling an API Hidden costs matter - real GPU spend is 2x to 5x the raw hardware price once you add DevOps, scaling, monitoring, and networking; API costs can also balloon from poor prompt design and multi-step agent loops Most serious production systems land on a hybrid architecture: APIs for complex reasoning and long-context work, GPUs for bulk inference, embeddings, and fine-tuned models If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-05 23:16:25 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-05 23:16:25 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)" href="https://jamesm.blog/ai/gpu-servers-vs-api-credits/"></a>
 </article>
 
@@ -262,14 +255,10 @@ The Core Trade-off This isn’t really about “cheap vs expensive.” It’s ab
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most people still talk about chatbots and large language models as if they are the same thing.
-They are related, but they are not identical.
-A chatbot is the product experience. A large language model is the reasoning engine underneath. Once you separate those two layers, the AI landscape becomes much easier to understand.
-Quick Answer If you only want the short version:
-an LLM is the underlying model a chatbot is the product wrapped around that model the best choice depends on the task, the interface, and the context you need Chatbot vs LLM At A Glance Question LLM Chatbot What is it? The model itself The user-facing product Main job Generate and transform language and other modalities Make the model usable in a workflow Typical interface API, SDK, model endpoint Chat UI, app, assistant product Common extras None by default memory, files, search, tools, voice Best for automation, integration, custom systems everyday use, exploration, fast collaboration The Simple Distinction A large language model (LLM) is a model trained to predict and generate language. In practice, modern LLMs can also handle code, structured data, reasoning tasks, and increasingly multimodal inputs such as images, audio, and video.
+    <p>TL;DR An LLM is the underlying reasoning engine; a chatbot is the product experience wrapped around it - they are related but not the same thing LLMs excel at summarizing, rewriting, generating drafts, and coding, but should be treated as fast collaborators rather than infallible oracles The main model families are frontier models (GPT, Claude, Gemini), open-weight / self-hostable models (Llama), and product-specific assistants (ChatGPT, Cursor, Copilot) Choose the right tool for the job: chatbots for convenience and exploration, APIs for automation, coding-native tools for repo-aware work The market is now split between AI as a consumer product and AI as programmable infrastructure - understanding both layers makes the landscape far less confusing Most people still talk about chatbots and large language models as if they are the same thing.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-05-17 17:06:25 +0100 BST'>May 17, 2024</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2024-05-17 17:06:25 +0100 BST'>May 17, 2024</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Chatbots & Large Language Models (LLMs)" href="https://jamesm.blog/ai/chatbots-llms/"></a>
 </article>
 
@@ -279,10 +268,7 @@ an LLM is the underlying model a chatbot is the product wrapped around that mode
     </h2>
   </header>
   <div class="entry-content">
-    <p>When OpenAI launched the ChatGPT app for iPhone, it was easy to see it as a simple mobile companion to a popular web product.
-It turned out to matter much more than that.
-The release was one of the clearest signals that large language models were moving from a novelty on desktops into an everyday computing layer people could carry in their pocket.
-In One Sentence The app mattered because it moved AI from a destination you visited on a laptop to a tool you could reach for in the middle of ordinary life.
+    <p>TL;DR The ChatGPT iPhone app mattered not as a feature release but as the moment AI shifted from a desktop destination to an everyday mobile utility Key additions - native interface, synced history, and voice input - were modest, but they fundamentally changed when and how people reached for AI Mobile AI is intimate in a way desktop AI is not, fitting into gaps throughout the day rather than dedicated work sessions The launch signalled that ChatGPT was becoming a platform and a habit, not just a viral website or a one-off experiment It pointed toward the future that followed: voice as a primary interface, cross-device continuity, and conversational AI as persistent infrastructure When OpenAI launched the ChatGPT app for iPhone, it was easy to see it as a simple mobile companion to a popular web product.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2023-05-18 19:05:35 +0100 BST'>May 18, 2023</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>

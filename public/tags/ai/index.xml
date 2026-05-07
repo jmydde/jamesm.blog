@@ -459,10 +459,15 @@
       <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
-      <description>&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;
-&lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
-&lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
-&lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for &lt;strong&gt;spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec-driven development&lt;/strong&gt; is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations&lt;/li&gt;
+&lt;li&gt;Tools like &lt;strong&gt;Cursor AI&lt;/strong&gt; handle fast, in-flow editing while &lt;strong&gt;Claude Code&lt;/strong&gt; or &lt;strong&gt;Cline&lt;/strong&gt; are better suited to multi-file refactors and autonomous implementation from specs&lt;/li&gt;
+&lt;li&gt;Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential&lt;/li&gt;
+&lt;li&gt;The real shift is treating AI not as a bolt-on assistant but as part of the &lt;strong&gt;workflow architecture itself&lt;/strong&gt;, with each tool assigned a clear, specific responsibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)</title>
@@ -486,20 +491,30 @@
       <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>
       <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-spec-kit-2026-update/</guid>
-      <description>&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing  -  it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s what&amp;rsquo;s changed, and why you should care.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;the-big-shift-from-framework-to-platform&#34;&gt;The Big Shift: From Framework to Platform&lt;/h2&gt;
-&lt;p&gt;GitHub Spec Kit is no longer just a lightweight documentation toolkit. As of April 2026, it&amp;rsquo;s evolved into a full extensibility platform that works across the entire AI-assisted development landscape.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; reached v0.5.0 in 2026, evolving from a documentation toolkit into a full extensibility platform for AI-assisted development&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Code CLI&lt;/strong&gt; is now a native skill within Spec Kit, making spec-to-code pipelines seamless and built-in&lt;/li&gt;
+&lt;li&gt;The ecosystem has exploded with dedicated tools like &lt;strong&gt;AWS Kiro&lt;/strong&gt; and Tessl, while multi-agent support covers Copilot, Cursor, Gemini CLI, and more&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec-Driven Development&lt;/strong&gt; prevents architectural drift by making the spec the single source of truth - versioned, reviewable, and respected by AI agents&lt;/li&gt;
+&lt;li&gt;Getting started is now low-effort: write a &lt;code&gt;spec.md&lt;/code&gt;, pick any AI tool, and let the spec drive implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing  -  it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taste Is the New Scarcity</title>
       <link>https://jamesm.blog/ai/taste-is-the-new-scarcity/</link>
       <pubDate>Sat, 04 Apr 2026 12:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/taste-is-the-new-scarcity/</guid>
-      <description>&lt;p&gt;If intelligence is becoming a commodity, then something else becomes precious.&lt;/p&gt;
-&lt;p&gt;When you can generate a thousand solutions to a problem with a prompt, the question is no longer &amp;ldquo;can I get an answer?&amp;rdquo; The question becomes &amp;ldquo;which answer is good?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;When you can write code, design systems, draft strategies, analyze data, or explore ideas simply by asking, the bottleneck shifts. It is no longer &lt;em&gt;thinking capacity&lt;/em&gt;. It is &lt;em&gt;judgment&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When AI can generate thousands of solutions on demand, the bottleneck shifts from thinking capacity to &lt;strong&gt;judgment&lt;/strong&gt; - knowing which answer is actually right&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Taste&lt;/strong&gt; - the ability to recognise what is elegant, insightful, or truly worth building - becomes the primary skill rather than a secondary one layered on top of expertise&lt;/li&gt;
+&lt;li&gt;Editing and curation become more valuable than creation; the ability to say &amp;ldquo;no&amp;rdquo; to a thousand options and hold out for the right one is rare and increasingly prized&lt;/li&gt;
+&lt;li&gt;Experience still matters, but for a different reason - not to accumulate facts, but to develop the discernment that recognises quality when you see it&lt;/li&gt;
+&lt;li&gt;In a world of abundant intelligence, &lt;strong&gt;wisdom&lt;/strong&gt; - knowing not just what you can do but what you should do - becomes the most distinctly human and most valuable contribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If intelligence is becoming a commodity, then something else becomes precious.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Personal AI Development Stack</title>
@@ -527,32 +542,45 @@
       <link>https://jamesm.blog/ai/claude-code-review/</link>
       <pubDate>Mon, 09 Mar 2026 07:14:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude-code-review/</guid>
-      <description>&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;
-&lt;p&gt;A good example of that is the new &lt;strong&gt;Code Review&lt;/strong&gt; feature in &lt;a href=&#34;https://code.claude.com/&#34;&gt;Claude Code&lt;/a&gt;, which &lt;a href=&#34;https://www.anthropic.com/&#34;&gt;Anthropic&lt;/a&gt; just released in research preview.&lt;/p&gt;
-&lt;p&gt;Docs: &lt;a href=&#34;https://code.claude.com/docs/en/code-review&#34;&gt;https://code.claude.com/docs/en/code-review&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At first glance it sounds like another &amp;ldquo;AI reviews your code&amp;rdquo; feature. We&amp;rsquo;ve had plenty of those.&lt;/p&gt;
-&lt;p&gt;But when you look closer, this one is actually quite different.&lt;/p&gt;
-&lt;p&gt;Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude Code&amp;rsquo;s new &lt;strong&gt;Code Review&lt;/strong&gt; feature dispatches multiple AI agents in parallel to review a PR from different angles, rather than running a single shallow model pass over the diff&lt;/li&gt;
+&lt;li&gt;The motivation is real: Anthropic&amp;rsquo;s internal code output per engineer increased by around 200%, making human review the bottleneck - and humans consistently miss subtle bugs on large diffs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-agent review&lt;/strong&gt; cross-checks findings, filters false positives, and ranks issues by severity before posting a clean, high-signal review comment plus inline annotations&lt;/li&gt;
+&lt;li&gt;Review depth scales with PR size; typical runs take about 20 minutes and cost $15 - $25, which is cheap compared to the cost of a production bug&lt;/li&gt;
+&lt;li&gt;Humans still approve PRs - the tool&amp;rsquo;s role is a thorough pre-review pass, not automated sign-off, making it a complement to human judgment rather than a replacement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward</title>
       <link>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</link>
       <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</guid>
-      <description>&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;
-&lt;p&gt;So I started exploring alternatives.&lt;/p&gt;
-&lt;p&gt;What I&amp;rsquo;ve realised is that the best approach isn&amp;rsquo;t replacing Claude Code entirely - it&amp;rsquo;s building a hybrid AI developer stack where different models handle different types of work.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hitting Claude Code Pro usage limits does not mean upgrading to the $200/month plan - a &lt;strong&gt;hybrid AI stack&lt;/strong&gt; is a smarter and cheaper alternative&lt;/li&gt;
+&lt;li&gt;The tiering strategy: local models (free) for quick edits, cheap cloud APIs for general coding, and frontier models only for architecture or complex multi-file reasoning&lt;/li&gt;
+&lt;li&gt;Tools like &lt;strong&gt;Ollama&lt;/strong&gt; or &lt;strong&gt;LM Studio&lt;/strong&gt; with coding models such as DeepSeek Coder or Qwen2.5 handle the majority of everyday tasks locally at no cost&lt;/li&gt;
+&lt;li&gt;Cheap cloud inference providers (Groq, Together AI, DeepInfra) offer capable open models at fractions of a cent per session for heavier work&lt;/li&gt;
+&lt;li&gt;A realistic usage split of 80% local / 15% cheap APIs / 5% frontier models dramatically reduces limit burn while keeping Claude available when it genuinely matters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenClaw Is Absolutely Wild</title>
       <link>https://jamesm.blog/ai/openclaw-is-wild/</link>
       <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/openclaw-is-wild/</guid>
-      <description>&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Wait&amp;hellip; this changes everything.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;That was my reaction when I saw OpenClaw.&lt;/p&gt;
-&lt;h2 id=&#34;software-that-can-actually-do-things&#34;&gt;Software That Can Actually Do Things&lt;/h2&gt;
-&lt;p&gt;Most of the time when we talk to AI, we are talking to a chatbot. It answers questions, writes text, maybe generates some code. Useful, sure - but still mostly passive.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt; is an open-source AI agent framework that enables language models to operate software directly through computer interfaces - clicking, typing, and navigating the same way a human does&lt;/li&gt;
+&lt;li&gt;Unlike chatbots that only respond to prompts, OpenClaw acts as an &lt;strong&gt;operator&lt;/strong&gt; - automating any software without requiring custom APIs or integrations&lt;/li&gt;
+&lt;li&gt;This makes legacy enterprise software, complex dashboards, and multi-application workflows instantly automatable using computer vision and reasoning models&lt;/li&gt;
+&lt;li&gt;Because it uses reasoning models rather than fixed scripts, it can adapt to unexpected states and recover from mistakes - closer to &lt;strong&gt;digital labor&lt;/strong&gt; than traditional automation&lt;/li&gt;
+&lt;li&gt;This represents a shift in computing: software that can build, run, and manage other software, driven by open projects improving rapidly every month&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Geoffrey Hinton Interviews</title>
@@ -609,16 +637,30 @@
       <link>https://jamesm.blog/ai/github-spec-kit/</link>
       <pubDate>Wed, 03 Dec 2025 13:21:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-spec-kit/</guid>
-      <description>&lt;p&gt;Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, &lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.&lt;/p&gt;
-&lt;p&gt;This post explores what GitHub Spec Kit is, how Spec-Driven Development works, and why the pairing with Cursor AI creates a genuinely new style of building software.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; is a structured framework of version-controlled markdown files (&lt;code&gt;spec.md&lt;/code&gt;, &lt;code&gt;constitution.md&lt;/code&gt;, &lt;code&gt;boundaries.md&lt;/code&gt;, etc.) that serve as the single source of truth for a software project&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec-Driven Development (SDD)&lt;/strong&gt; means writing the specification first, then generating and refactoring code in alignment with it - preventing architectural drift over time&lt;/li&gt;
+&lt;li&gt;Integrating Spec Kit with &lt;strong&gt;Cursor AI&lt;/strong&gt; turns the spec from a static document into an active constraint the AI understands and respects&lt;/li&gt;
+&lt;li&gt;The spec-first loop (define, implement, refine, repeat) creates development that is clearer, faster, and easier to maintain than ad-hoc planning&lt;/li&gt;
+&lt;li&gt;SDD is especially powerful for long-term projects and large teams where shared mental models and consistent architecture matter most&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, &lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯</title>
       <link>https://jamesm.blog/ai/cursor-ai/</link>
       <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/cursor-ai/</guid>
-      <description>&lt;p&gt;Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor AI&lt;/a&gt; has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of &lt;em&gt;“this is the future of development”&lt;/em&gt; as Cursor.&lt;/p&gt;
-&lt;p&gt;Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cursor AI&lt;/strong&gt; is an AI-native editor that reads your repo with architectural awareness, reasons across files, and turns complex refactors into simple conversations&lt;/li&gt;
+&lt;li&gt;Integrating &lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; (spec.md, constitution.md, acceptance criteria) gives Cursor a structured foundation it treats as living, authoritative constraints&lt;/li&gt;
+&lt;li&gt;The combined workflow creates a tight loop: refine the spec, ask Cursor to implement, update the spec, generate more code - documentation and code feed each other in real time&lt;/li&gt;
+&lt;li&gt;Key benefits include automatic consistency between spec and code, safer large-scale refactors, and faster onboarding for new contributors&lt;/li&gt;
+&lt;li&gt;These tools don&amp;rsquo;t replace developers - they eliminate friction between thought and execution, letting you think at a higher level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor AI&lt;/a&gt; has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of &lt;em&gt;“this is the future of development”&lt;/em&gt; as Cursor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Top 5 Human In-Demand Jobs in 10 Years</title>
@@ -919,9 +961,14 @@
       <link>https://jamesm.blog/ai/unitree-g1/</link>
       <pubDate>Tue, 21 May 2024 20:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/unitree-g1/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Unitree G1 AI Humanoid Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The Unitree G1 is a new AI humanoid robot that significantly undercuts the price of competitors like Tesla&amp;rsquo;s Optimus, offering advanced capabilities and impressive stability. It starts at only $16k!&lt;/p&gt;
-&lt;p&gt;With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot&amp;rsquo;s development highlights Unitree&amp;rsquo;s rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;Unitree G1&lt;/strong&gt; is an AI humanoid robot starting at $16,000 - dramatically undercutting competitors like Tesla&amp;rsquo;s Optimus and Boston Dynamics&lt;/li&gt;
+&lt;li&gt;It uses &lt;strong&gt;imitation and reinforcement learning&lt;/strong&gt; to perform tasks with high precision, combined with an impressive range of motion and speed&lt;/li&gt;
+&lt;li&gt;The G1 represents a significant step toward more accessible humanoid robotics, opening up potential applications across many fields&lt;/li&gt;
+&lt;li&gt;Unitree&amp;rsquo;s rapid progress signals that the humanoid robot market is moving faster than most expected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Unitree G1 AI Humanoid Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Unitree-G1.png&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chatbots &amp; Large Language Models (LLMs)</title>
@@ -936,42 +983,32 @@
       <pubDate>Sun, 21 Apr 2024 22:26:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/1x-eve/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;1X EVE Android Worker Robot&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/1X-Eve.jpg&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;
-&lt;p&gt;Here are some key features of 1X EVE:&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Designed for safe interaction with humans due to its soft and organic-inspired mechanics.&lt;/li&gt;
-&lt;li&gt;Can navigate human environments by opening doors, using elevators, and fitting into workspaces.&lt;/li&gt;
-&lt;li&gt;Equipped with advanced language processing and can understand and respond to natural language commands.&lt;/li&gt;
-&lt;li&gt;Learns and adapts through embodied artificial intelligence.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1X EVE&lt;/strong&gt; is a wheeled android robot designed by 1X Technologies for logistics, retail, and industrial environments&lt;/li&gt;
+&lt;li&gt;Built with soft, organic-inspired mechanics to enable safe physical interaction with humans&lt;/li&gt;
+&lt;li&gt;Can navigate real-world environments independently - doors, elevators, and standard workspaces&lt;/li&gt;
+&lt;li&gt;Understands and responds to natural language commands via advanced language processing&lt;/li&gt;
+&lt;li&gt;Learns and adapts over time through &lt;strong&gt;embodied AI&lt;/strong&gt;, rather than following fixed pre-programmed routines&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
-&lt;h3 id=&#34;2024-04-21-how-1x-will-beat-tesla&#34;&gt;[2024-04-21] How 1X Will Beat Tesla!&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/zqrg7brCx-s?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2024-03-19-end-to-end-autonomy--march-2024-update--1x-studio&#34;&gt;[2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/XpBWxLg-3bI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/humanoid-robotics-2026/&#34;&gt;Humanoid Robotics in 2026: From Prototypes to Production&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tesla-optimus-robot/&#34;&gt;Tesla Optimus Robot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/boston-dynamics-humanoid-robot/&#34;&gt;Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/unitree-g1/&#34;&gt;Unitree G1 - AI Humanoid Robot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;1X EVE is an android worker designed by &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X Technologies&lt;/a&gt;. It&amp;rsquo;s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tesla Optimus Robot</title>
       <link>https://jamesm.blog/ai/tesla-optimus-robot/</link>
       <pubDate>Sun, 21 Apr 2024 20:44:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/tesla-optimus-robot/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI&#34;&gt;Tesla Optimus&lt;/a&gt;, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by &lt;a href=&#34;https://www.tesla.com/&#34;&gt;Tesla&lt;/a&gt; since 2021. It&amp;rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It&amp;rsquo;s equipped with Tesla-designed AI for navigation &amp;amp; understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp;amp; improved dexterity.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Elon_Musk&#34;&gt;Elon Musk&lt;/a&gt; envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There&amp;rsquo;s even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tesla Optimus&lt;/strong&gt; (also called the Tesla Bot) is a bipedal humanoid robot designed for general-purpose tasks, powered by Tesla-designed AI for navigation and environmental understanding&lt;/li&gt;
+&lt;li&gt;The latest version, &lt;strong&gt;Optimus Gen 2&lt;/strong&gt;, is faster, lighter, and has improved dexterity compared to earlier prototypes&lt;/li&gt;
+&lt;li&gt;Elon Musk&amp;rsquo;s target price is less than half the cost of a Tesla car - roughly $20,000 to $25,000 - with the expectation that the price will fall further as production scales&lt;/li&gt;
+&lt;li&gt;Musk has predicted that long-term, the robot business will be worth significantly more than Tesla&amp;rsquo;s car business&lt;/li&gt;
+&lt;li&gt;The vision is for Optimus to take on dangerous or unpleasant jobs, freeing humans for more creative and leisure-based pursuits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tesla.com/en_gb/AI&#34;&gt;Tesla Optimus&lt;/a&gt;, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by &lt;a href=&#34;https://www.tesla.com/&#34;&gt;Tesla&lt;/a&gt; since 2021. It&amp;rsquo;s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It&amp;rsquo;s equipped with Tesla-designed AI for navigation &amp;amp; understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp;amp; improved dexterity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far</title>
@@ -987,10 +1024,16 @@
       <link>https://jamesm.blog/ai/openai-voice-engine/</link>
       <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;OpenAI&amp;rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.&lt;/p&gt;
-&lt;h2 id=&#34;status--access&#34;&gt;Status &amp;amp; Access&lt;/h2&gt;
-&lt;p&gt;Voice Engine has remained in &lt;strong&gt;limited preview&lt;/strong&gt; since its 2024 announcement. OpenAI has been cautious about broader deployment due to responsible AI considerations around synthetic voice generation, particularly concerns about voice cloning and impersonation risks.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI Voice Engine&lt;/strong&gt; is a text-to-speech model that can clone a realistic voice from just a 15-second audio sample&lt;/li&gt;
+&lt;li&gt;It produces emotive, natural-sounding speech despite using a small model and minimal training data&lt;/li&gt;
+&lt;li&gt;Access has remained in &lt;strong&gt;limited preview&lt;/strong&gt; since its 2024 announcement due to responsible AI concerns around voice cloning and impersonation&lt;/li&gt;
+&lt;li&gt;Approved testers must obtain clear consent from voice providers and inform listeners that voices are AI-generated&lt;/li&gt;
+&lt;li&gt;As of 2026, the technology is restricted to approved partners and researchers rather than general availability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;OpenAI&amp;rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stargate</title>
@@ -1301,22 +1344,15 @@
       <link>https://jamesm.blog/ai/speechify/</link>
       <pubDate>Sat, 20 May 2023 12:54:16 +0100</pubDate>
       <guid>https://jamesm.blog/ai/speechify/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; is a leading text-to-speech platform that converts written content into natural-sounding audio, available across web, mobile, and browser extensions.&lt;/p&gt;
-&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Text-to-Speech&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;High-quality AI voices across multiple languages&lt;/li&gt;
-&lt;li&gt;Natural prosody and emotional expression&lt;/li&gt;
-&lt;li&gt;Adjustable playback speed and voice selection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speechify&lt;/strong&gt; converts written content - PDFs, Word docs, web articles, and even physical text via camera - into natural-sounding audio using AI voices&lt;/li&gt;
+&lt;li&gt;It supports multiple languages, adjustable playback speed, and OCR for scanned or image-based text&lt;/li&gt;
+&lt;li&gt;The premium &lt;strong&gt;Speechify Studio&lt;/strong&gt; tier adds AI voice cloning, professional audiobook creation, and batch processing for large documents&lt;/li&gt;
+&lt;li&gt;Key use cases include accessibility for people with dyslexia or ADHD, productivity during commutes, and professional audiobook publishing&lt;/li&gt;
+&lt;li&gt;Pricing starts free for basic use, with premium plans at $12-20 per month for unlimited access and higher-quality voices&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Content Support&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PDF, Word, Google Docs, web articles&lt;/li&gt;
-&lt;li&gt;Optical character recognition (OCR) for images and scanned text&lt;/li&gt;
-&lt;li&gt;Camera feature to scan physical text instantly&lt;/li&gt;
-&lt;li&gt;Website and browser integration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Premium Features (Speechify Studio)&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://speechify.com/&#34;&gt;Speechify&lt;/a&gt; is a leading text-to-speech platform that converts written content into natural-sounding audio, available across web, mobile, and browser extensions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why the ChatGPT iPhone App Mattered</title>

@@ -6,6 +6,14 @@ tags: ['llm', 'structured outputs', 'schema', 'json']
 description: "Why guaranteeing output format matters more than you think, and when to use structured outputs in production"
 ---
 
+## TL;DR
+
+- **Structured outputs** constrain an LLM's response to match a JSON schema during generation, eliminating the entire class of post-processing parse failures (which occur 2-5% of the time with free-form output)
+- They produce simpler code, more reliable pipelines, and modest inference cost savings (typically 5-15% fewer tokens) in high-volume systems
+- Use structured outputs for data extraction, classification, entity recognition, and API payload generation - not for creative writing or open-ended reasoning
+- Common mistakes include over-constraining schemas with too-strict enums, forgetting that the response format changes, and mistaking schema validity for semantic correctness
+- The trajectory is toward structured outputs becoming the default: schemas will be inferred from English descriptions, and TypeScript types will auto-generate schemas
+
 For years, extracting structured data from LLMs meant post-processing their text output: parse JSON, handle edge cases where the model forgot to close a bracket, write validation code to check if the output matched your schema, implement fallback logic when parsing failed.
 
 Then came structured outputs - a way to constrain LLM responses to match a JSON schema before they're returned to you.

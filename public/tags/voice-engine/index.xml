@@ -18,10 +18,16 @@
       <link>https://jamesm.blog/ai/openai-voice-engine/</link>
       <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;OpenAI&amp;rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.&lt;/p&gt;
-&lt;h2 id=&#34;status--access&#34;&gt;Status &amp;amp; Access&lt;/h2&gt;
-&lt;p&gt;Voice Engine has remained in &lt;strong&gt;limited preview&lt;/strong&gt; since its 2024 announcement. OpenAI has been cautious about broader deployment due to responsible AI considerations around synthetic voice generation, particularly concerns about voice cloning and impersonation risks.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI Voice Engine&lt;/strong&gt; is a text-to-speech model that can clone a realistic voice from just a 15-second audio sample&lt;/li&gt;
+&lt;li&gt;It produces emotive, natural-sounding speech despite using a small model and minimal training data&lt;/li&gt;
+&lt;li&gt;Access has remained in &lt;strong&gt;limited preview&lt;/strong&gt; since its 2024 announcement due to responsible AI concerns around voice cloning and impersonation&lt;/li&gt;
+&lt;li&gt;Approved testers must obtain clear consent from voice providers and inform listeners that voices are AI-generated&lt;/li&gt;
+&lt;li&gt;As of 2026, the technology is restricted to approved partners and researchers rather than general availability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;OpenAI&amp;rsquo;s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

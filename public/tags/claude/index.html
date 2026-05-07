@@ -225,11 +225,10 @@ What the Connector Actually Does The official Ableton connector grounds Claude�
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
-A skill is a folder. Inside the folder is a SKILL.md file with some YAML frontmatter and some markdown instructions. That is the whole format. Anthropic shipped them in Claude Code, open-sourced the spec, and at this point you can drop the same folder into Cursor, the Gemini CLI, OpenAI Codex, OpenHands, Goose, VS Code, GitHub Copilot, and a couple of dozen other tools, and they all do roughly the same thing with it.
+    <p>TL;DR A Claude Code skill is just a folder with a SKILL.md file - YAML frontmatter plus natural-language instructions - and the same folder works across Cursor, Gemini CLI, Codex, and a dozen other tools The format is model-agnostic because it contains no provider-specific syntax; any instruction-following model can read it, and any harness that loads markdown can execute it Progressive disclosure keeps large skill libraries cheap: only names and descriptions load at session start, with full instructions loading only when a skill is activated The portability is practically valuable - version-controlled runbooks that survive tool switches, model upgrades, and team growth without being rewritten Core skills are genuinely portable; advanced frontmatter extensions (like allowed-tools or context: fork) are tool-specific and may need tuning across harnesses Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to AI Skills: One Folder, Any Model" href="https://jamesm.blog/ai/ai-skills-one-folder-any-model/"></a>
 </article>
 
@@ -242,10 +241,10 @@ A skill is a folder. Inside the folder is a SKILL.md file with some YAML frontma
     </h2>
   </header>
   <div class="entry-content">
-    <p>For the last three years, $20 a month has been the magic number. Claude Pro, ChatGPT Plus, Gemini Advanced, Copilot Pro, Cursor Pro - all twenty dollars, all clearly priced to anchor against Netflix rather than against enterprise software. That anchor is cracking. The labs are burning cash on inference for power users, the frontier models cost more per token than they did a year ago, and agent tools like Claude Code and Codex are consuming ten to a hundred times the compute a chat session does. Something has to give.
+    <p>TL;DR The $20/month subscription tier is not disappearing, but what you get for it is quietly shrinking - agent features are being capped or metered while the price holds The Claude Code episode (briefly paywalled for Pro users) was a deliberate A/B test, not a glitch - a signal that Anthropic is steering heavy users toward the Max tier at $100 - $200/month Agent workflows like Claude Code consume 50 - 500x more tokens than a chat session, making flat all-you-can-eat pricing economically unsustainable for power users Most major providers (Anthropic, OpenAI, Google, Cursor) are projected to raise consumer tiers by $5 - $10 by end of 2026, with sharper increases at the enterprise level If you are a chat-only user the $20 plan remains a good deal; if you are running agents daily, budget for a higher tier or pay-as-you-go API access instead For the last three years, $20 a month has been the magic number. Claude Pro, ChatGPT Plus, Gemini Advanced, Copilot Pro, Cursor Pro - all twenty dollars, all clearly priced to anchor against Netflix rather than against enterprise software. That anchor is cracking. The labs are burning cash on inference for power users, the frontier models cost more per token than they did a year ago, and agent tools like Claude Code and Codex are consuming ten to a hundred times the compute a chat session does. Something has to give.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-23 08:45:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-23 08:45:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Is the $20 AI Subscription Era Over?" href="https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/"></a>
 </article>
 
@@ -308,9 +307,7 @@ Why This Matters More Than Another Model Announcement Most Claude releases get s
     </h2>
   </header>
   <div class="entry-content">
-    <p>If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
-The difference isn’t randomness. It’s a mental model problem.
-The Problem With “Just Ask” Most people treat Claude like a search engine with a long context window. You dump information, ask a question, wait for an answer. If you don’t like it, you ask again. Iterate until satisfied.
+    <p>TL;DR Token costs don’t scale linearly with productivity - the context window compounds with every follow-up message, so a five-message conversation can cost 2-3x more than one well-structured request Compression is your biggest lever: cutting a prompt in half before sending it reduces cost and often improves answer quality by removing noise Batch tasks that share context together; don’t batch unrelated tasks - real batching spreads the setup cost across related work Build reusable systems (templates, project files, prompt prefixes) instead of solving the same problem repeatedly and paying the context cost each time Prompt caching can cut input token costs by 80-90% on workloads with stable prefixes - the single biggest structural saving most teams are missing If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-17 21:36:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -331,11 +328,10 @@ The Problem With “Just Ask” Most people treat Claude like a search engine wi
     </h2>
   </header>
   <div class="entry-content">
-    <p>Design-to-development handoff has always been a friction point. Designers create something beautiful. Engineers interpret Figma specs, argue about spacing, squint at color values. SVG assets get lost. Responsive behavior gets reimplemented. By the time the code matches the design, half the polish is gone.
-Claude Design, Anthropic’s new design collaboration tool, attacks this problem directly. Instead of designers creating static files that engineers have to decode, Claude Design lets both sides work in the same tool - with Claude as the bridge.
+    <p>TL;DR Claude Design is Anthropic’s new design collaboration tool that lets designers and engineers work in the same environment, with Claude as the bridge between intent and implementation It reads your codebase and existing design files during onboarding so generated designs respect your team’s actual constraints, not hypothetical best practices The strongest feature is its integration with Claude Code: designs are packaged into handoff bundles that encode intent and context, not just pixels and spacing values Collaboration happens inside the tool - inline comments, on-the-fly adjustments, and consistent application of changes across the whole design - removing the need for scattered Figma comments and DMs Currently in research preview for paid Claude tiers; works best for teams already using Claude across writing, coding, and research rather than teams deeply embedded in the Figma ecosystem Design-to-development handoff has always been a friction point. Designers create something beautiful. Engineers interpret Figma specs, argue about spacing, squint at color values. SVG assets get lost. Responsive behavior gets reimplemented. By the time the code matches the design, half the polish is gone.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-17 19:11:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-17 19:11:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Claude Design: Closing the Design-to-Code Gap" href="https://jamesm.blog/ai/claude-design/"></a>
 </article>
 
@@ -353,8 +349,7 @@ Claude Design, Anthropic’s new design collaboration tool, attacks this problem
     </h2>
   </header>
   <div class="entry-content">
-    <p>Opus 4.7 is a meaningful step forward. Not a revolutionary rewrite, but a targeted upgrade that addresses friction points developers actually experience: vision quality, autonomous task handling, and creative output.
-The headline feature is deceptively simple - images up to 2,576 pixels. That’s 3.75 megapixels, roughly three times the previous limit. In practice, this means Claude can now read a dense screenshot without losing details, extract data from complex charts without ambiguity, and handle UI testing images that show real context instead of cropped fragments.
+    <p>TL;DR Claude Opus 4.7 raises the vision ceiling to 3.75 megapixels (2,576 pixels), letting Claude read dense screenshots and complex charts without losing detail Autonomous software engineering is the headline upgrade - Opus 4.7 can handle complex, long-running tasks with reduced need for constant direction A new xhigh effort level for extended thinking gives developers explicit control over the speed-versus-reasoning tradeoff Improved instruction-following and resistance to prompt injection make it safer for production use Pricing remains unchanged at $5 per million input tokens and $25 per million output tokens - this is the new standard, not a premium tier Opus 4.7 is a meaningful step forward. Not a revolutionary rewrite, but a targeted upgrade that addresses friction points developers actually experience: vision quality, autonomous task handling, and creative output.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-16 16:15:00 +0000 +0000'>April 16, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -367,11 +362,10 @@ The headline feature is deceptively simple - images up to 2,576 pixels. That’s
     </h2>
   </header>
   <div class="entry-content">
-    <p>The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
-The Problem It Solves The traditional job search is a grind of low-signal noise. You find 30 job postings. You read them. You customize a resume. You write a cover letter. You track applications in a spreadsheet. You wait. You compare offers using gut feel and spotty spreadsheet columns. The process burns time and attention - exactly when you need both to think clearly about your career.
+    <p>TL;DR Career-Ops is an open-source tool built on Claude Code that inverts the job search power dynamic - giving candidates AI-powered evaluation and application tools to match what companies use to filter them Each opportunity is scored across 10 weighted dimensions on an A-F scale, producing a structured comparison that replaces the ad hoc spreadsheet most candidates rely on The system generates ATS-optimized resumes dynamically tailored to each job description and auto-discovers new postings from 45&#43; pre-configured job boards A key design principle is human-in-control: nothing auto-submits, the AI recommends and the candidate decides, making it a decision-support system rather than an automation Career-Ops is a clean example of the broader pattern of AI tools that amplify individual judgment rather than replace it - worth studying for its architecture as much as its use case The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Career-Ops: Flipping the Script on AI-Powered Job Search" href="https://jamesm.blog/ai/career-ops/"></a>
 </article>
 <footer class="page-footer">

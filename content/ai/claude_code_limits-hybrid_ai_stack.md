@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'claude', 'claude code']
 ---
 
+## TL;DR
+
+- Hitting Claude Code Pro usage limits does not mean upgrading to the $200/month plan - a **hybrid AI stack** is a smarter and cheaper alternative
+- The tiering strategy: local models (free) for quick edits, cheap cloud APIs for general coding, and frontier models only for architecture or complex multi-file reasoning
+- Tools like **Ollama** or **LM Studio** with coding models such as DeepSeek Coder or Qwen2.5 handle the majority of everyday tasks locally at no cost
+- Cheap cloud inference providers (Groq, Together AI, DeepInfra) offer capable open models at fractions of a cent per session for heavier work
+- A realistic usage split of 80% local / 15% cheap APIs / 5% frontier models dramatically reduces limit burn while keeping Claude available when it genuinely matters
+
 I keep running into the same problem with Claude Code Pro (\$20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the \$200/month plan, but that feels excessive for how I actually use it.
 
 So I started exploring alternatives.

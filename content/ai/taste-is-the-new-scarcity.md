@@ -5,6 +5,14 @@ draft: false
 tags: ['ai']
 ---
 
+## TL;DR
+
+- When AI can generate thousands of solutions on demand, the bottleneck shifts from thinking capacity to **judgment** - knowing which answer is actually right
+- **Taste** - the ability to recognise what is elegant, insightful, or truly worth building - becomes the primary skill rather than a secondary one layered on top of expertise
+- Editing and curation become more valuable than creation; the ability to say "no" to a thousand options and hold out for the right one is rare and increasingly prized
+- Experience still matters, but for a different reason - not to accumulate facts, but to develop the discernment that recognises quality when you see it
+- In a world of abundant intelligence, **wisdom** - knowing not just what you can do but what you should do - becomes the most distinctly human and most valuable contribution
+
 If intelligence is becoming a commodity, then something else becomes precious.
 
 When you can generate a thousand solutions to a problem with a prompt, the question is no longer "can I get an answer?" The question becomes "which answer is good?"

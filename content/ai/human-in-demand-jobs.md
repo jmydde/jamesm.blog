@@ -6,6 +6,14 @@ tags: ["ai","human","job","career","future-of-work"]
 description: "Which jobs survive when AI handles execution? A look at the five categories of work that stay human-shaped - judgment, empathy, embodied skill, taste, and accountability."
 ---
 
+## TL;DR
+
+- When AI handles execution, the jobs that survive are those built on **judgement, empathy, embodied skill, accountability, and taste** - none of which AI can fully replicate
+- The five durable categories are: human relationship professionals, AI wranglers and system architects, skilled trades, creative producers, and human trust and accountability roles
+- **Skilled trades** (plumbers, electricians, HVAC engineers) are particularly resilient because general-purpose robots that handle unpredictable physical environments remain a hard unsolved problem
+- **AI wranglers** - people who set objectives, constraints, and guardrails for AI systems - are a new and growing category driven by regulation like the EU AI Act and NIST's AI Risk Management Framework
+- The meta-pattern is **interpretation vs execution**: AI excels at execution, so high-value humans are those who bring judgment and responsibility to the question of what should be built and why
+
 *Assume AI is "everywhere"  -  what still **needs** actual humans?*
 
 When AI eats routine tasks, jobs don't disappear  -  they **mutate**.

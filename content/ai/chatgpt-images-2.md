@@ -9,6 +9,14 @@ cover:
   alt: AI generated image
 ---
 
+## TL;DR
+
+- ChatGPT Images 2.0 introduces a **thinking mode** that reasons through complex prompts before generating, dramatically improving instruction-following for multi-part requests
+- **Text rendering** is finally reliable - legible across English, Japanese, Korean, Chinese, Hindi, and Bengali - unlocking infographics, menus, and slides as genuine use cases
+- Web search during generation means Images 2.0 can pull accurate, current data into visual outputs rather than fabricating plausible-looking information
+- Batch generation produces up to eight images from one prompt with **consistent characters and style** across all of them, solving a long-standing problem for narrative and sequential content
+- The overall shift is from toy to tool: outputs are more predictable, less stylistically over-processed, and viable for production work rather than just prototyping
+
 A year ago, OpenAI's image generation went viral for Studio Ghibli portraits. That was GPT Image 1 - impressive, playful, and fundamentally still a party trick. ChatGPT Images 2.0, released on April 22nd 2026, is a different thing entirely. It's the version that starts to look genuinely useful.
 
 ## It Thinks Before It Draws

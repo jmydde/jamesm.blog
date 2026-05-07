@@ -6,6 +6,14 @@ tags: ["ai","expertise","learning","skill","education"]
 description: "If AI can pass the bar exam, the CPA exam, and every technical certification, what are we actually certifying? Expertise becomes something else entirely - and much harder to fake."
 ---
 
+## TL;DR
+
+- AI can now pass virtually every professional exam, breaking the long-held assumption that **passing an exam equals having expertise**
+- What exams actually tested was knowledge retrieval under pressure - a bottleneck that no longer exists when machines can retrieve and apply knowledge better than any human
+- Real expertise is what remains after knowledge retrieval is automated: **judgment**, **integration of context**, responsibility, and taste - none of which appear on any exam
+- Professions built on credentialing (law, medicine, engineering) are being forced to confront that their proxies for expertise never measured the thing they cared about
+- New models of assessment - **portfolio-based credentialing**, apprenticeship, outcomes tracking, and community reputation - will replace exams, but none of them scale as easily
+
 In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there's barely an exam left that AI can't pass, often on the first try.
 
 This has broken something we relied on without thinking too hard about it: the equivalence between "passed the exam" and "has expertise."

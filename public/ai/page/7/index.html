@@ -229,11 +229,7 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
     </h2>
   </header>
   <div class="entry-content">
-    <p>For forty years, the engineering career ladder has looked like this:
-Junior → Mid-level → Senior → Staff/Principal → Architect
-It’s a smooth progression. You write more code, then you write less code but influence the shape of it, then you write almost no code and mostly make decisions about how things are built.
-This ladder is becoming obsolete. Not in five years. Now.
-The problem is not the ladder itself. The problem is that AI has already done something the ladder never anticipated: it’s collapsed the middle rungs by automating the step where you learn to execute well.
+    <p>TL;DR AI has collapsed the middle rungs of the engineering ladder by automating execution - the junior-to-architect progression no longer works the way it did The emerging split is two human roles: Architects who decide what to build and why, and Builders who turn architectural decisions into precise, testable specifications Neither role exists to write code - code-writing is incidental to both, and AI handles the bulk of implementation The two paths require genuinely different skills that do not build cleanly on each other; taste for architectural judgment and clarity for specification are separate capabilities If you are a junior engineer in 2026, you need to choose your path now - the traditional ladder is a trap, and “I write good code” is no longer a sufficient value proposition For forty years, the engineering career ladder has looked like this:
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-06 14:00:00 +0000 +0000'>April 6, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -246,12 +242,10 @@ The problem is not the ladder itself. The problem is that AI has already done so
     </h2>
   </header>
   <div class="entry-content">
-    <p>In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there’s barely an exam left that AI can’t pass, often on the first try.
-This has broken something we relied on without thinking too hard about it: the equivalence between “passed the exam” and “has expertise.”
-For a century, we used exams as a proxy for skill. You pass the bar, you’re qualified to practice law. You pass medical licensing, you’re qualified to practice medicine. You get a degree in computer science, you’re qualified to be a programmer. The exam was the evidence that you had the knowledge and could apply it.
+    <p>TL;DR AI can now pass virtually every professional exam, breaking the long-held assumption that passing an exam equals having expertise What exams actually tested was knowledge retrieval under pressure - a bottleneck that no longer exists when machines can retrieve and apply knowledge better than any human Real expertise is what remains after knowledge retrieval is automated: judgment, integration of context, responsibility, and taste - none of which appear on any exam Professions built on credentialing (law, medicine, engineering) are being forced to confront that their proxies for expertise never measured the thing they cared about New models of assessment - portfolio-based credentialing, apprenticeship, outcomes tracking, and community reputation - will replace exams, but none of them scale as easily In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there’s barely an exam left that AI can’t pass, often on the first try.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-06 09:00:00 +0000 +0000'>April 6, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-06 09:00:00 +0000 +0000'>April 6, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to What Does &#39;Expertise&#39; Mean When AI Can Pass Any Exam?" href="https://jamesm.blog/ai/expertise-after-ai/"></a>
 </article>
 
@@ -261,13 +255,10 @@ For a century, we used exams as a proxy for skill. You pass the bar, you’re qu
     </h2>
   </header>
   <div class="entry-content">
-    <p>There is a big difference between using AI for development and having an actual AI development stack.
-Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.
-That approach breaks down quickly.
-In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.
+    <p>TL;DR A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture Spec-driven development is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations Tools like Cursor AI handle fast, in-flow editing while Claude Code or Cline are better suited to multi-file refactors and autonomous implementation from specs Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential The real shift is treating AI not as a bolt-on assistant but as part of the workflow architecture itself, with each tool assigned a clear, specific responsibility There is a big difference between using AI for development and having an actual AI development stack.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-06 00:05:00 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-06 00:05:00 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to What Actually Belongs in My AI Dev Stack in 2026" href="https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/"></a>
 </article>
 
@@ -277,14 +268,10 @@ In practice, the best AI workflow in 2026 is not about finding one perfect tool.
     </h2>
   </header>
   <div class="entry-content">
-    <p>If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:
-Should I rent a GPU and run models myself, or just pay for API credits?
-At first glance, APIs feel expensive. GPUs feel powerful. But the real answer is more nuanced - and getting it wrong can cost you a lot.
-Let’s break it down properly.
-The Core Trade-off This isn’t really about “cheap vs expensive.” It’s about:
+    <p>TL;DR The core trade-off is pay-per-use (APIs) vs pay-for-capacity (GPUs) - APIs are cheaper at low volume, GPUs win massively at high volume (100M&#43; tokens/day) The break-even point for GPU self-hosting sits around 2 to 5 million tokens per day for premium-model workloads - below that, APIs almost always win GPU utilisation is the most important variable: at less than 50-60% utilisation, self-hosted inference costs more per token than just calling an API Hidden costs matter - real GPU spend is 2x to 5x the raw hardware price once you add DevOps, scaling, monitoring, and networking; API costs can also balloon from poor prompt design and multi-step agent loops Most serious production systems land on a hybrid architecture: APIs for complex reasoning and long-context work, GPUs for bulk inference, embeddings, and fine-tuned models If you’re building anything with LLMs right now, you’ll hit this question sooner than you expect:
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-05 23:16:25 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-05 23:16:25 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)" href="https://jamesm.blog/ai/gpu-servers-vs-api-credits/"></a>
 </article>
 
@@ -294,9 +281,7 @@ The Core Trade-off This isn’t really about “cheap vs expensive.” It’s ab
     </h2>
   </header>
   <div class="entry-content">
-    <p>Six months ago, we explored how GitHub Spec Kit was beginning to reshape software development. In early 2026, that promise isn’t just materializing - it’s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from “interesting idea” to actual industry standard.
-Here’s what’s changed, and why you should care.
-The Big Shift: From Framework to Platform GitHub Spec Kit is no longer just a lightweight documentation toolkit. As of April 2026, it’s evolved into a full extensibility platform that works across the entire AI-assisted development landscape.
+    <p>TL;DR GitHub Spec Kit reached v0.5.0 in 2026, evolving from a documentation toolkit into a full extensibility platform for AI-assisted development Claude Code CLI is now a native skill within Spec Kit, making spec-to-code pipelines seamless and built-in The ecosystem has exploded with dedicated tools like AWS Kiro and Tessl, while multi-agent support covers Copilot, Cursor, Gemini CLI, and more Spec-Driven Development prevents architectural drift by making the spec the single source of truth - versioned, reviewable, and respected by AI agents Getting started is now low-effort: write a spec.md, pick any AI tool, and let the spec drive implementation Six months ago, we explored how GitHub Spec Kit was beginning to reshape software development. In early 2026, that promise isn’t just materializing - it’s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from “interesting idea” to actual industry standard.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-04 21:06:14 +0100 BST'>April 4, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -309,12 +294,10 @@ The Big Shift: From Framework to Platform GitHub Spec Kit is no longer just a li
     </h2>
   </header>
   <div class="entry-content">
-    <p>If intelligence is becoming a commodity, then something else becomes precious.
-When you can generate a thousand solutions to a problem with a prompt, the question is no longer “can I get an answer?” The question becomes “which answer is good?”
-When you can write code, design systems, draft strategies, analyze data, or explore ideas simply by asking, the bottleneck shifts. It is no longer thinking capacity. It is judgment.
+    <p>TL;DR When AI can generate thousands of solutions on demand, the bottleneck shifts from thinking capacity to judgment - knowing which answer is actually right Taste - the ability to recognise what is elegant, insightful, or truly worth building - becomes the primary skill rather than a secondary one layered on top of expertise Editing and curation become more valuable than creation; the ability to say “no” to a thousand options and hold out for the right one is rare and increasingly prized Experience still matters, but for a different reason - not to accumulate facts, but to develop the discernment that recognises quality when you see it In a world of abundant intelligence, wisdom - knowing not just what you can do but what you should do - becomes the most distinctly human and most valuable contribution If intelligence is becoming a commodity, then something else becomes precious.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-04 12:00:00 +0100 BST'>April 4, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-04 12:00:00 +0100 BST'>April 4, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Taste Is the New Scarcity" href="https://jamesm.blog/ai/taste-is-the-new-scarcity/"></a>
 </article>
 
@@ -338,11 +321,10 @@ TL;DR Primary IDE: Cursor AI for daily work, Claude Code CLI for multi-file refa
     </h2>
   </header>
   <div class="entry-content">
-    <p>Anthropic’s Claude Code has been making waves as one of the most capable AI coding assistants available, but a significant internal leak has exposed the underlying technology behind the platform for the second time in just over a year. The incident raised fresh concerns about how the company handles sensitive internal information and operational security.
-What Happened An internal debugging file was mistakenly included in a routine software update and published to a public package registry used by developers. This file referenced a compressed archive stored on Anthropic’s cloud infrastructure.
+    <p>TL;DR An internal debugging file was accidentally included in a public package update, exposing a compressed archive of roughly 500,000 lines of code across around 2,000 files - not a breach, but a packaging mistake The leaked material revealed unreleased features including persistent memory, an always-on autonomous background assistant, and multi-device remote access Competitors gained rare visibility into Anthropic’s development pipeline and longer-term product direction, which is the primary competitive damage The incident undermines Anthropic’s safety-first positioning, particularly because it was the second such exposure in just over a year The broader lesson for the AI industry: internal operational security is becoming as critical as defending against external threats, especially as AI tools target enterprise customers Anthropic’s Claude Code has been making waves as one of the most capable AI coding assistants available, but a significant internal leak has exposed the underlying technology behind the platform for the second time in just over a year. The incident raised fresh concerns about how the company handles sensitive internal information and operational security.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-01 07:42:00 +0000 +0000'>April 1, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-01 07:42:00 +0000 +0000'>April 1, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Claude Code Source Leak: Anthropic&#39;s 2,000-File Exposure and What It Means" href="https://jamesm.blog/ai/claude-code-source-leak/"></a>
 </article>
 
@@ -352,11 +334,10 @@ What Happened An internal debugging file was mistakenly included in a routine so
     </h2>
   </header>
   <div class="entry-content">
-    <p>For most of human history, intelligence has been scarce. Not intelligence in the biological sense - people have always been clever - but usable intelligence. The kind that helps you design a system, debug a problem, write code, plan a strategy, analyse data, or turn a vague idea into something real.
-That kind of intelligence has always been expensive. You hired it, studied for years to acquire it, or waited for an expert to have time for you. Companies paid consultants, specialists, analysts, engineers, and researchers because complex thinking historically required humans who spent decades learning their craft.
+    <p>TL;DR For most of history, usable intelligence - the kind that solves complex problems - required hiring expensive specialists or spending years acquiring expertise yourself Research shows the cost of running AI capability has been falling roughly an order of magnitude every one to two years, making intelligence increasingly affordable Intelligence is becoming infrastructure - like electricity or compute, available on demand through APIs rather than locked inside individuals or institutions When intelligence is cheap and abundant, creativity becomes the limiting factor, not knowledge, credentials, or access to experts This democratisation is extraordinary, but the question of how we deploy these tools wisely matters as much as the capability itself For most of human history, intelligence has been scarce. Not intelligence in the biological sense - people have always been clever - but usable intelligence. The kind that helps you design a system, debug a problem, write code, plan a strategy, analyse data, or turn a vague idea into something real.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-03-11 07:09:25 +0100 +0100'>March 11, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-03-11 07:09:25 +0100 +0100'>March 11, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to We Are Learning to Buy Intelligence" href="https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/"></a>
 </article>
 
@@ -366,15 +347,10 @@ That kind of intelligence has always been expensive. You hired it, studied for y
     </h2>
   </header>
   <div class="entry-content">
-    <p>I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
-A good example of that is the new Code Review feature in Claude Code, which Anthropic just released in research preview.
-Docs: https://code.claude.com/docs/en/code-review
-At first glance it sounds like another “AI reviews your code” feature. We’ve had plenty of those.
-But when you look closer, this one is actually quite different.
-Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.
+    <p>TL;DR Claude Code’s new Code Review feature dispatches multiple AI agents in parallel to review a PR from different angles, rather than running a single shallow model pass over the diff The motivation is real: Anthropic’s internal code output per engineer increased by around 200%, making human review the bottleneck - and humans consistently miss subtle bugs on large diffs Multi-agent review cross-checks findings, filters false positives, and ranks issues by severity before posting a clean, high-signal review comment plus inline annotations Review depth scales with PR size; typical runs take about 20 minutes and cost $15 - $25, which is cheap compared to the cost of a production bug Humans still approve PRs - the tool’s role is a thorough pre-review pass, not automated sign-off, making it a complement to human judgment rather than a replacement I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-03-09 07:14:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-03-09 07:14:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Claude Code Just Got a Serious Code Review Feature" href="https://jamesm.blog/ai/claude-code-review/"></a>
 </article>
 <footer class="page-footer">

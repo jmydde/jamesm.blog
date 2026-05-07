@@ -9,6 +9,14 @@ cover:
   alt: Abstract illustration of a person sitting with a tool laid down beside them
 ---
 
+## TL;DR
+
+- Modern knowledge work has quietly built identity on **producing things** - and AI pressure makes that fragility visible without you having to lose your job to feel it
+- History (Keynes' 1930 prediction) suggests freed-up capacity defaults to "more work", not leisure - the shift to meaningful work has to be chosen deliberately
+- What stays valuable when execution gets cheap: **deciding what is worth doing**, taking responsibility, sitting with other humans, craft for its own sake, and growing other people
+- The "everyone will do deeper work" narrative ignores the **dignity problem** - for many people, work is structure and belonging, not just a vehicle for meaning
+- Put your meaning somewhere that does not depend on being the cheapest producer of an artefact - it was never a secure place to put it, and agents are just making that clearer
+
 This is another "thinking out loud" post, in the same spirit as the [agent-first architecture](/ai/agent-first-architecture-engineer-as-curator/) piece. I do not know how any of this is going to land. I am writing it partly because the question has been rattling around in my head for months, and partly because I suspect a lot of people in and around software are quietly wondering the same thing without quite wanting to say it out loud.
 
 The question is roughly this. If the optimistic version of the AI trajectory plays out - if agents really do absorb large chunks of what we currently call "the work" - then what is work actually *for*? Not economically. I mean for the person doing it. What is left of meaning, identity, and self-respect when the doing itself has been handed off?

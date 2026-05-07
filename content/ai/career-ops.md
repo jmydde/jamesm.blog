@@ -6,6 +6,14 @@ tags: ["ai","career","automation","job-search","claude"]
 description: "Career-Ops inverts the typical job-search power dynamic by giving candidates AI-powered tools to intelligently evaluate and prioritize opportunities, automate application workflows, and maintain strategic control over their career decisions."
 ---
 
+## TL;DR
+
+- **Career-Ops** is an open-source tool built on Claude Code that inverts the job search power dynamic - giving candidates AI-powered evaluation and application tools to match what companies use to filter them
+- Each opportunity is scored across 10 weighted dimensions on an A-F scale, producing a structured comparison that replaces the ad hoc spreadsheet most candidates rely on
+- The system generates **ATS-optimized resumes** dynamically tailored to each job description and auto-discovers new postings from 45+ pre-configured job boards
+- A key design principle is human-in-control: nothing auto-submits, the AI recommends and the candidate decides, making it a decision-support system rather than an automation
+- Career-Ops is a clean example of the broader pattern of AI tools that amplify individual judgment rather than replace it - worth studying for its architecture as much as its use case
+
 The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. [Career-Ops](https://github.com/santifer/career-ops) flips that script entirely. Built on [Claude Code](https://claude.com/claude-code), it's an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
 
 ## The Problem It Solves

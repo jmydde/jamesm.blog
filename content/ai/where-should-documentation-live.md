@@ -9,6 +9,14 @@ cover:
   alt: Where Should Documentation Live Banner
 ---
 
+## TL;DR
+
+- Documentation sprawl across Confluence, Jira, SharePoint, Google Docs, GitHub, and Miro is not a tool problem - it is a **joints problem**: the same decision exists in four places, drifting out of sync immediately
+- Three forces constantly pull against each other: **source of truth** (one canonical home), **discoverability** (right surface for every audience), and **governance** (real access control) - optimising for any one breaks the others
+- The proposed shape: **docs-as-code** for engineering artefacts in Git, collaborative tools for business content, a read-only render layer between them, and an AI-assisted discovery layer across all of it
+- AI tooling weakens the old boundary - a business user can get a summary generated from a markdown master without ever seeing the file, and an engineer can draft an ADR pulling context from Confluence and Jira automatically
+- Several genuine open questions remain unsolved: versioning across boundaries, who owns the render pipeline, and whether Jira tickets as documents should be formalised or fought against
+
 This post is me thinking out loud. It is not a proposal, not a recommended pattern, and possibly not even a useful framing. I am writing it because I am actively stuck on the question, and writing in public tends to be the fastest way I find out what I have got wrong. Feel free to disagree with any of it.
 
 The question is simple to state and hard to answer: where should different kinds of documents actually live, and how should that change now that AI tooling can read, write, and reason across all of them?

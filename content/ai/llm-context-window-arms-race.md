@@ -6,6 +6,14 @@ tags: ['llm', 'context window', 'ai', 'practical development']
 description: "The obsession with massive context windows misses what actually matters in production LLM systems"
 ---
 
+## TL;DR
+
+- **Context window size** is the wrong metric to optimise for - attention scales quadratically, so larger windows mean dramatically higher latency and cost with diminishing quality gains
+- **Retrieval-augmented generation** consistently outperforms stuffing entire documents into a prompt, because focused context beats diluted context
+- What actually matters in production: token efficiency, **prompt caching**, structured output formats, and intelligent retrieval - not raw window size
+- Large context windows are genuinely useful for whole-document analysis and complex cross-file code review, but wasteful for Q&A, structured extraction, and high-volume routine tasks
+- The teams that will ship faster and scale further are those building **intelligent architecture** around a 200K context window, not those waiting for 1M-token models
+
 Every week brings a new headline: "Model X reaches 1M token context!" "Model Y supports 2M tokens!" The LLM industry seems locked in an arms race where the stated goal is always "bigger context window," as if this single metric determines whether a model is useful.
 
 It doesn't.

@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'claude', 'code-review']
 ---
 
+## TL;DR
+
+- Claude Code's new **Code Review** feature dispatches multiple AI agents in parallel to review a PR from different angles, rather than running a single shallow model pass over the diff
+- The motivation is real: Anthropic's internal code output per engineer increased by around 200%, making human review the bottleneck - and humans consistently miss subtle bugs on large diffs
+- **Multi-agent review** cross-checks findings, filters false positives, and ranks issues by severity before posting a clean, high-signal review comment plus inline annotations
+- Review depth scales with PR size; typical runs take about 20 minutes and cost $15 - $25, which is cheap compared to the cost of a production bug
+- Humans still approve PRs - the tool's role is a thorough pre-review pass, not automated sign-off, making it a complement to human judgment rather than a replacement
+
 I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
 
 A good example of that is the new **Code Review** feature in [Claude Code](https://code.claude.com/), which [Anthropic](https://www.anthropic.com/) just released in research preview.

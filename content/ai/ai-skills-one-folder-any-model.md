@@ -9,6 +9,14 @@ cover:
   alt: AI Skills banner
 ---
 
+## TL;DR
+
+- A **Claude Code skill** is just a folder with a `SKILL.md` file - YAML frontmatter plus natural-language instructions - and the same folder works across Cursor, Gemini CLI, Codex, and a dozen other tools
+- The format is model-agnostic because it contains no provider-specific syntax; any instruction-following model can read it, and any harness that loads markdown can execute it
+- **Progressive disclosure** keeps large skill libraries cheap: only names and descriptions load at session start, with full instructions loading only when a skill is activated
+- The portability is practically valuable - version-controlled runbooks that survive tool switches, model upgrades, and team growth without being rewritten
+- Core skills are genuinely portable; advanced frontmatter extensions (like `allowed-tools` or `context: fork`) are tool-specific and may need tuning across harnesses
+
 Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about [agent skills](https://agentskills.io) is that they are not.
 
 A skill is a folder. Inside the folder is a `SKILL.md` file with some YAML frontmatter and some markdown instructions. That is the whole format. [Anthropic](https://www.anthropic.com/) shipped them in [Claude Code](https://code.claude.com/docs/en/skills), open-sourced the spec, and at this point you can drop the same folder into [Cursor](https://cursor.com/), the [Gemini CLI](https://geminicli.com/), [OpenAI Codex](https://developers.openai.com/codex), [OpenHands](https://openhands.dev/), [Goose](https://block.github.io/goose/), [VS Code](https://code.visualstudio.com/), [GitHub Copilot](https://github.com/), and a couple of dozen other tools, and they all do roughly the same thing with it.

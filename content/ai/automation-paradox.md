@@ -9,6 +9,14 @@ cover:
   alt: The Automation Paradox Why More AI Makes Human Judgment More Valuable Banner
 ---
 
+## TL;DR
+
+- Every time AI automates a specific task, the monetary value of doing that task falls - the scarce resource shifts from execution to the **judgment** of what is worth doing at all
+- Historical precedent holds: Deep Blue did not kill professional chess, calculators did not kill accountants - automation raises the value of the thinking above the automated layer
+- The new hierarchy of work puts judgment first (irreplaceable), direction second (human but scalable), and execution last (increasingly commodity)
+- **Judgment** is constrained opinion - it requires trade-off awareness, skin in the game, pattern recognition, and willingness to be wrong - none of which AI can replicate
+- The economic inversion means hiring shifts from paying for output to paying for prevention: the bad decisions not made, the features not built, the wrong paths not taken
+
 The automation paradox is quietly reshaping what we pay for.
 
 Every time AI gets better at a specific task - writing code, analyzing documents, generating designs - the monetary value of doing that task falls. Commodity work becomes commodified. And yet, the people who thrive are not those who do the task fastest; they're the ones who decide *whether* it should be done at all.

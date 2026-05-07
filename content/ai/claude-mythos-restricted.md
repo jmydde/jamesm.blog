@@ -6,6 +6,14 @@ tags: ["ai","anthropic","claude-mythos","cybersecurity","ai-safety"]
 description: "Anthropic's Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI's immense power demands unprecedented control."
 ---
 
+## TL;DR
+
+- **Claude Mythos** is Anthropic's most powerful model to date, scoring 93.9% on SWE-bench and 97.6% on USAMO 2026 - a 55-point leap over rival models
+- It is not publicly available; Anthropic restricted access to 12 vetted companies through **Project Glasswing**, focused on defensive cybersecurity
+- Mythos autonomously identified thousands of zero-day vulnerabilities, including a 27-year-old unpatched OpenBSD bug - making its offensive potential too dangerous to democratize
+- This marks a shift away from open innovation toward controlled deployment, where the most capable AI may never be publicly released
+- The Mythos story forces a rethink of how we evaluate AI: benchmark performance and public availability are no longer the same thing
+
 Imagine an artificial intelligence so profoundly capable, so far beyond anything we've seen, that its creators deem it too risky for public release. This isn't a dystopian fantasy, but the real-world scenario presented by Anthropic's Claude Mythos. When Anthropic first unveiled Mythos, the AI community was abuzz - not just with its mind-bending benchmarks, but with the immediate caveat: it would not be publicly available. This decision heralds a new era in AI, one where raw power intersects with paramount security concerns.
 
 ## Benchmark Shattering, Publicly Unavailable

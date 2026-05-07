@@ -9,6 +9,14 @@ cover:
   alt: Claude Design Icon
 ---
 
+## TL;DR
+
+- **Claude Design** is Anthropic's new design collaboration tool that lets designers and engineers work in the same environment, with Claude as the bridge between intent and implementation
+- It reads your codebase and existing design files during onboarding so generated designs respect your team's actual constraints, not hypothetical best practices
+- The strongest feature is its integration with **Claude Code**: designs are packaged into handoff bundles that encode intent and context, not just pixels and spacing values
+- Collaboration happens inside the tool - inline comments, on-the-fly adjustments, and consistent application of changes across the whole design - removing the need for scattered Figma comments and DMs
+- Currently in research preview for paid Claude tiers; works best for teams already using Claude across writing, coding, and research rather than teams deeply embedded in the Figma ecosystem
+
 Design-to-development handoff has always been a friction point. Designers create something beautiful. Engineers interpret Figma specs, argue about spacing, squint at color values. SVG assets get lost. Responsive behavior gets reimplemented. By the time the code matches the design, half the polish is gone.
 
 [Claude Design](https://claude.ai/design), Anthropic's new design collaboration tool, attacks this problem directly. Instead of designers creating static files that engineers have to decode, Claude Design lets both sides work in the same tool - with Claude as the bridge.

@@ -6,6 +6,14 @@ tags: ["ai","summit","conference","event"]
 description: "A practical guide to the AI conferences worth following, who each type of event is for, and how to choose the right one before spending time or money."
 ---
 
+## TL;DR
+
+- AI conferences fall into three categories: **research-heavy** (depth and technical signal), **builder and developer** (workflows and tooling), and **enterprise** (adoption, governance, vendor comparisons)
+- The right conference depends on what you want to leave with - one strong event matched to your goals beats three generic ones
+- Worth keeping an eye on: World Summit AI, The AI Summit London, AI & Big Data Expo, and Data + AI Summit
+- Before buying a ticket, check whether the audience, agenda, and location actually match your purpose - many events are content marketing with lanyards
+- Dates and formats change year to year, so always verify details on the official event site before committing
+
 AI conferences age quickly.
 
 A list of exact dates is useful for a few months and then quietly becomes wrong. So instead of pretending this is a perfectly current calendar, it is more useful to treat it as a guide to the conferences that tend to matter and the reasons you might care about them.

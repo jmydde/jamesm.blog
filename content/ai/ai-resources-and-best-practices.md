@@ -9,6 +9,14 @@ cover:
   alt: AI Resources & Best Practices Banner
 ---
 
+## TL;DR
+
+- **Prompt engineering**, token efficiency, and structured outputs are the core skills for working effectively with any AI model
+- System design patterns - streaming, caching, structured outputs, graceful fallbacks - matter as much as prompting fluency
+- Testing and validation in AI systems requires clear evaluation criteria and production monitoring, not just pre-launch checks
+- Official documentation from model providers (Anthropic, OpenAI, Google) is the most reliable source of best practices
+- The curated resources table covers everything from **GitHub Copilot** to local model deployment with Ollama
+
 The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
 
 ## Key Best Practices to Master

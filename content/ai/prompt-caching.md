@@ -9,6 +9,14 @@ cover:
   alt: Prompt Caching Banner
 ---
 
+## TL;DR
+
+- **Prompt caching** saves the computed representation of a prompt's static prefix so subsequent requests reuse it rather than recompute it - cached tokens cost roughly 10% of normal input token prices
+- The savings are highest when prompts have a long, identical prefix across requests - system prompts, tool definitions, and few-shot examples can make up 80-90% of total input cost
+- The most common mistake is **interpolating variables into the system prompt**, which breaks caching silently; fix it by moving all static content to the top and dynamic content to the end
+- Cache lifetimes are bounded (minutes to a few hours per provider) and any change to the prefix - including whitespace - creates a new cache miss
+- Track your **cache hit rate** explicitly on every LLM dashboard; a dropping hit rate usually signals unintended prompt construction changes, and fixing it is the highest-leverage cost optimisation available
+
 If you build LLM applications for any length of time, you eventually notice that you are paying to have the model read the same instructions over and over again. The system prompt, the tool definitions, the few-shot examples, the [structured output schema](/ai/structured-outputs-schema/) - all of it goes back into the model on every single request, and you pay for the input tokens every single time. For a chatbot doing one or two thousand requests a day this is annoying. For an [agent doing tens of thousands of requests with long contexts](/ai/ai-agents-that-actually-work/), it is the dominant cost line.
 
 Prompt caching is the technique that fixes this, and in 2026 it is one of the highest-leverage optimisations available to anyone running production LLM workloads. It also has surprisingly subtle failure modes when you get the layout of your prompts wrong, which is why posts like this one exist.

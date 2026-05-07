@@ -32,11 +32,15 @@
       <link>https://jamesm.blog/ai/openclaw-is-wild/</link>
       <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/openclaw-is-wild/</guid>
-      <description>&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Wait&amp;hellip; this changes everything.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;That was my reaction when I saw OpenClaw.&lt;/p&gt;
-&lt;h2 id=&#34;software-that-can-actually-do-things&#34;&gt;Software That Can Actually Do Things&lt;/h2&gt;
-&lt;p&gt;Most of the time when we talk to AI, we are talking to a chatbot. It answers questions, writes text, maybe generates some code. Useful, sure - but still mostly passive.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt; is an open-source AI agent framework that enables language models to operate software directly through computer interfaces - clicking, typing, and navigating the same way a human does&lt;/li&gt;
+&lt;li&gt;Unlike chatbots that only respond to prompts, OpenClaw acts as an &lt;strong&gt;operator&lt;/strong&gt; - automating any software without requiring custom APIs or integrations&lt;/li&gt;
+&lt;li&gt;This makes legacy enterprise software, complex dashboards, and multi-application workflows instantly automatable using computer vision and reasoning models&lt;/li&gt;
+&lt;li&gt;Because it uses reasoning models rather than fixed scripts, it can adapt to unexpected states and recover from mistakes - closer to &lt;strong&gt;digital labor&lt;/strong&gt; than traditional automation&lt;/li&gt;
+&lt;li&gt;This represents a shift in computing: software that can build, run, and manage other software, driven by open projects improving rapidly every month&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

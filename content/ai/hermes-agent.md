@@ -9,6 +9,14 @@ cover:
   alt: Hermes Agent Banner
 ---
 
+## TL;DR
+
+- **Hermes Agent** by Nous Research is an open-source persistent autonomous system that builds memory across conversations, auto-generates reusable skills from repeated tasks, and compounds in capability over time
+- Unlike stateless agents, Hermes accumulates project context - learning codebase quirks, team conventions, and recurring workflows so it stops asking questions it has already answered
+- It works across Telegram, Discord, Slack, WhatsApp, Signal, Email, and CLI - meeting teams on the platforms they already use rather than requiring a dedicated app
+- Running cost is roughly $20 to $60 per month for a solo developer (a $5-$10 VPS plus LLM API calls); it is MIT licensed with no seat fees or vendor lock-in
+- The honest trade-off: Hermes beats alternatives on **persistence and learning depth**, but raises open questions about memory scaling, skill auditing, and what happens when an agent learns something wrong
+
 Most AI agents are forgettable. You ask them to do something, they do it, you close the window. The next time you need help, they start from zero - no context, no learning, no continuity. Hermes Agent works differently. [Nous Research](https://www.nousresearch.com/) built it as a persistent system that remembers what it learns and gets measurably more capable the longer it runs.
 
 This is a meaningful shift in how we think about autonomous systems.

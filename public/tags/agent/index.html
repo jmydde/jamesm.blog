@@ -274,10 +274,10 @@ TL;DR The AI-token sector has stratified. There is a clear top tier of projects 
     </h2>
   </header>
   <div class="entry-content">
-    <p>I have spent the last eighteen months either building, reviewing, or operating systems that some marketing department somewhere has called “agents”. The definition has been so thoroughly stretched that it now means anything from a chatbot with a calculator tool to a long-running autonomous workflow that touches production infrastructure. Underneath the noise there is a real engineering discipline emerging, and the patterns that separate the systems that survive contact with real users from the ones that demo well and fall over are starting to be legible.
+    <p>TL;DR Most agent demos fail in production because demos operate in a regime where the model’s natural behaviour is good enough - production is longer, messier, and largely unobserved Eight patterns separate agents that stay shipped from the ones that fall over: scope the loop, structured tool design, mandatory verification, curated context, first-class human handoff, idempotency, agent-level observability, and real evaluation infrastructure Models confabulate actions - “I ran the tests” does not mean the tests were run; every agent needs explicit verification baked into the control flow, not bolted on as an afterthought The tool layer between the model and underlying systems is where most of the engineering effort actually lives, and exposing raw APIs directly to the agent almost always goes wrong Build agents the same way you would build any other long-running, partially-autonomous system you cannot afford to have fail silently - the novelty is in the failure modes, not the engineering principles I have spent the last eighteen months either building, reviewing, or operating systems that some marketing department somewhere has called “agents”. The definition has been so thoroughly stretched that it now means anything from a chatbot with a calculator tool to a long-running autonomous workflow that touches production infrastructure. Underneath the noise there is a real engineering discipline emerging, and the patterns that separate the systems that survive contact with real users from the ones that demo well and fall over are starting to be legible.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-05-01 08:00:00 +0100 BST'>May 1, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-05-01 08:00:00 +0100 BST'>May 1, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to AI Agents That Actually Work: Patterns From Real Projects" href="https://jamesm.blog/ai/ai-agents-that-actually-work/"></a>
 </article>
 
@@ -290,12 +290,10 @@ TL;DR The AI-token sector has stratified. There is a clear top tier of projects 
     </h2>
   </header>
   <div class="entry-content">
-    <p>A year ago, in April 2025, “AI in your workflow” mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was “ask”.
-In April 2026, the verb is “delegate”.
-That is the headline, and it is not subtle once you go looking for it. The tools you use day to day no longer wait for prompts. They run for minutes at a time, open files, edit them, run shells, spin up sub-agents, browse the web, and come back with a result that is either roughly right or visibly wrong. You are no longer in the loop on every keystroke. You are in the loop on the outcome.
+    <p>TL;DR The defining shift from April 2025 to April 2026 is the move from “ask” to “delegate” - agents now run for minutes, open files, execute shells, and return results rather than waiting for each prompt Key developments that drove this: coding agents becoming operators (Claude Code, Cursor, Codex), MCP standardising tool access, spec-driven development going mainstream, and context windows expanding to millions of tokens In the next two years, longer-horizon agents, multi-agent coordination, persistent personal AI memory, and computer-use automation will move from early features to default expectations The working day is reshaping around less typing and more reviewing - the skill that matters is judgement over diffs, not typing speed or boilerplate generation To adapt now: pick a stack and use it daily, write specs before code, build the habit of reviewing diffs fast, and move procedural knowledge into reusable agent skills A year ago, in April 2025, “AI in your workflow” mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was “ask”.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-30 08:06:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-30 08:06:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to A Year of Agents, and What is Coming Next" href="https://jamesm.blog/ai/year-of-agents-and-whats-next/"></a>
 </article>
 
@@ -308,11 +306,10 @@ That is the headline, and it is not subtle once you go looking for it. The tools
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
-A skill is a folder. Inside the folder is a SKILL.md file with some YAML frontmatter and some markdown instructions. That is the whole format. Anthropic shipped them in Claude Code, open-sourced the spec, and at this point you can drop the same folder into Cursor, the Gemini CLI, OpenAI Codex, OpenHands, Goose, VS Code, GitHub Copilot, and a couple of dozen other tools, and they all do roughly the same thing with it.
+    <p>TL;DR A Claude Code skill is just a folder with a SKILL.md file - YAML frontmatter plus natural-language instructions - and the same folder works across Cursor, Gemini CLI, Codex, and a dozen other tools The format is model-agnostic because it contains no provider-specific syntax; any instruction-following model can read it, and any harness that loads markdown can execute it Progressive disclosure keeps large skill libraries cheap: only names and descriptions load at session start, with full instructions loading only when a skill is activated The portability is practically valuable - version-controlled runbooks that survive tool switches, model upgrades, and team growth without being rewritten Core skills are genuinely portable; advanced frontmatter extensions (like allowed-tools or context: fork) are tool-specific and may need tuning across harnesses Most of the tooling I have written about over the last year has been provider-specific. A particular model, a particular harness, a particular set of features. The thing I find interesting about agent skills is that they are not.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-30 06:32:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to AI Skills: One Folder, Any Model" href="https://jamesm.blog/ai/ai-skills-one-folder-any-model/"></a>
 </article>
 
@@ -325,11 +322,10 @@ A skill is a folder. Inside the folder is a SKILL.md file with some YAML frontma
     </h2>
   </header>
   <div class="entry-content">
-    <p>This is a “thinking out loud” post, not a report from the front lines. I have no evidence any of this is happening at scale, and it is not how my current day job looks. These are just ideas I keep turning over, and I wanted to write them down to see if they hold together.
-The question I keep coming back to is simple. If AI agents continue to improve at the rate they seem to be, what does engineering work look like five or ten years from now? Not tomorrow. Not next quarter. Further out, where the shape of the job might actually be different.
+    <p>TL;DR Agent-first architecture imagines a future where the primary unit of work is an AI agent with intent, tools, memory, and a feedback loop - not a human-authored codebase The engineer’s role may shift from building and maintaining systems line by line to curating, governing, and evolving fleets of agents Glue code, routine maintenance, first-pass incident triage, and migration work are plausible candidates for automation; deciding what a system is for and holding architectural intent across time probably are not Managing an agent fleet might resemble logistics fleet management: define intent, set constraints, design feedback loops, curate the roster, and own the outcomes This is a speculative post, not a description of how anything works today - the author is pinning down a hypothesis to revisit when it turns out to be wrong This is a “thinking out loud” post, not a report from the front lines. I have no evidence any of this is happening at scale, and it is not how my current day job looks. These are just ideas I keep turning over, and I wanted to write them down to see if they hold together.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-23 21:01:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-23 21:01:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Agent-First Architecture: The Engineer as System Curator" href="https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/"></a>
 </article>
 

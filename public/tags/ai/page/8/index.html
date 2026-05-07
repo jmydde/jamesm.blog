@@ -205,11 +205,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>For most of human history, intelligence has been scarce. Not intelligence in the biological sense - people have always been clever - but usable intelligence. The kind that helps you design a system, debug a problem, write code, plan a strategy, analyse data, or turn a vague idea into something real.
-That kind of intelligence has always been expensive. You hired it, studied for years to acquire it, or waited for an expert to have time for you. Companies paid consultants, specialists, analysts, engineers, and researchers because complex thinking historically required humans who spent decades learning their craft.
+    <p>TL;DR For most of history, usable intelligence - the kind that solves complex problems - required hiring expensive specialists or spending years acquiring expertise yourself Research shows the cost of running AI capability has been falling roughly an order of magnitude every one to two years, making intelligence increasingly affordable Intelligence is becoming infrastructure - like electricity or compute, available on demand through APIs rather than locked inside individuals or institutions When intelligence is cheap and abundant, creativity becomes the limiting factor, not knowledge, credentials, or access to experts This democratisation is extraordinary, but the question of how we deploy these tools wisely matters as much as the capability itself For most of human history, intelligence has been scarce. Not intelligence in the biological sense - people have always been clever - but usable intelligence. The kind that helps you design a system, debug a problem, write code, plan a strategy, analyse data, or turn a vague idea into something real.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-03-11 07:09:25 +0100 +0100'>March 11, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-03-11 07:09:25 +0100 +0100'>March 11, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to We Are Learning to Buy Intelligence" href="https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/"></a>
 </article>
 
@@ -219,15 +218,10 @@ That kind of intelligence has always been expensive. You hired it, studied for y
     </h2>
   </header>
   <div class="entry-content">
-    <p>I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
-A good example of that is the new Code Review feature in Claude Code, which Anthropic just released in research preview.
-Docs: https://code.claude.com/docs/en/code-review
-At first glance it sounds like another “AI reviews your code” feature. We’ve had plenty of those.
-But when you look closer, this one is actually quite different.
-Most automated code review tools are basically static analysis with a large language model wrapped around them. They skim the diff, leave a few comments, maybe point out a style issue or a possible bug.
+    <p>TL;DR Claude Code’s new Code Review feature dispatches multiple AI agents in parallel to review a PR from different angles, rather than running a single shallow model pass over the diff The motivation is real: Anthropic’s internal code output per engineer increased by around 200%, making human review the bottleneck - and humans consistently miss subtle bugs on large diffs Multi-agent review cross-checks findings, filters false positives, and ranks issues by severity before posting a clean, high-signal review comment plus inline annotations Review depth scales with PR size; typical runs take about 20 minutes and cost $15 - $25, which is cheap compared to the cost of a production bug Humans still approve PRs - the tool’s role is a thorough pre-review pass, not automated sign-off, making it a complement to human judgment rather than a replacement I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-03-09 07:14:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-03-09 07:14:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Claude Code Just Got a Serious Code Review Feature" href="https://jamesm.blog/ai/claude-code-review/"></a>
 </article>
 
@@ -237,9 +231,7 @@ Most automated code review tools are basically static analysis with a large lang
     </h2>
   </header>
   <div class="entry-content">
-    <p>I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.
-So I started exploring alternatives.
-What I’ve realised is that the best approach isn’t replacing Claude Code entirely - it’s building a hybrid AI developer stack where different models handle different types of work.
+    <p>TL;DR Hitting Claude Code Pro usage limits does not mean upgrading to the $200/month plan - a hybrid AI stack is a smarter and cheaper alternative The tiering strategy: local models (free) for quick edits, cheap cloud APIs for general coding, and frontier models only for architecture or complex multi-file reasoning Tools like Ollama or LM Studio with coding models such as DeepSeek Coder or Qwen2.5 handle the majority of everyday tasks locally at no cost Cheap cloud inference providers (Groq, Together AI, DeepInfra) offer capable open models at fractions of a cent per session for heavier work A realistic usage split of 80% local / 15% cheap APIs / 5% frontier models dramatically reduces limit burn while keeping Claude available when it genuinely matters I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-03-09 07:09:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -252,10 +244,7 @@ What I’ve realised is that the best approach isn’t replacing Claude Code ent
     </h2>
   </header>
   <div class="entry-content">
-    <p>Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:
-“Wait… this changes everything.”
-That was my reaction when I saw OpenClaw.
-Software That Can Actually Do Things Most of the time when we talk to AI, we are talking to a chatbot. It answers questions, writes text, maybe generates some code. Useful, sure - but still mostly passive.
+    <p>TL;DR OpenClaw is an open-source AI agent framework that enables language models to operate software directly through computer interfaces - clicking, typing, and navigating the same way a human does Unlike chatbots that only respond to prompts, OpenClaw acts as an operator - automating any software without requiring custom APIs or integrations This makes legacy enterprise software, complex dashboards, and multi-application workflows instantly automatable using computer vision and reasoning models Because it uses reasoning models rather than fixed scripts, it can adapt to unexpected states and recover from mistakes - closer to digital labor than traditional automation This represents a shift in computing: software that can build, run, and manage other software, driven by open projects improving rapidly every month Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-03-09 07:09:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -298,8 +287,7 @@ What’s New: Voice Personas Voice Personas are designed to focus on what most c
     </h2>
   </header>
   <div class="entry-content">
-    <p>Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, GitHub Spec Kit stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.
-This post explores what GitHub Spec Kit is, how Spec-Driven Development works, and why the pairing with Cursor AI creates a genuinely new style of building software.
+    <p>TL;DR GitHub Spec Kit is a structured framework of version-controlled markdown files (spec.md, constitution.md, boundaries.md, etc.) that serve as the single source of truth for a software project Spec-Driven Development (SDD) means writing the specification first, then generating and refactoring code in alignment with it - preventing architectural drift over time Integrating Spec Kit with Cursor AI turns the spec from a static document into an active constraint the AI understands and respects The spec-first loop (define, implement, refine, repeat) creates development that is clearer, faster, and easier to maintain than ad-hoc planning SDD is especially powerful for long-term projects and large teams where shared mental models and consistent architecture matter most Spec-Driven Development is starting to reshape how modern software is planned, built, and maintained. Among the tools pushing this shift forward, GitHub Spec Kit stands out as one of the clearest, cleanest ways to bring structure and intention into your workflow. It turns the usual chaos of planning into something organised, navigable, and repeatable - and when combined with AI-powered editors like Cursor, it becomes even more powerful.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-12-03 13:21:14 +0100 +0100'>December 3, 2025</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -312,8 +300,7 @@ This post explores what GitHub Spec Kit is, how Spec-Driven Development works, a
     </h2>
   </header>
   <div class="entry-content">
-    <p>Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. Cursor AI has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of “this is the future of development” as Cursor.
-Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.
+    <p>TL;DR Cursor AI is an AI-native editor that reads your repo with architectural awareness, reasons across files, and turns complex refactors into simple conversations Integrating GitHub Spec Kit (spec.md, constitution.md, acceptance criteria) gives Cursor a structured foundation it treats as living, authoritative constraints The combined workflow creates a tight loop: refine the spec, ask Cursor to implement, update the spec, generate more code - documentation and code feed each other in real time Key benefits include automatic consistency between spec and code, safer large-scale refactors, and faster onboarding for new contributors These tools don’t replace developers - they eliminate friction between thought and execution, letting you think at a higher level Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. Cursor AI has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of “this is the future of development” as Cursor.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-12-03 13:15:25 +0100 +0100'>December 3, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -326,9 +313,7 @@ Cursor isn’t simply an AI-augmented editor. It feels like a true development p
     </h2>
   </header>
   <div class="entry-content">
-    <p>Assume AI is “everywhere” - what still needs actual humans?
-When AI eats routine tasks, jobs don’t disappear - they mutate.
-Anything that leans heavily on judgement, emotion, trust, embodied skill, or accountability stays human-shaped. The World Economic Forum’s Future of Jobs Report and the OECD’s work on AI and the labour market both point in the same direction: the categories below are the ones that compound in value as automation accelerates.
+    <p>TL;DR When AI handles execution, the jobs that survive are those built on judgement, empathy, embodied skill, accountability, and taste - none of which AI can fully replicate The five durable categories are: human relationship professionals, AI wranglers and system architects, skilled trades, creative producers, and human trust and accountability roles Skilled trades (plumbers, electricians, HVAC engineers) are particularly resilient because general-purpose robots that handle unpredictable physical environments remain a hard unsolved problem AI wranglers - people who set objectives, constraints, and guardrails for AI systems - are a new and growing category driven by regulation like the EU AI Act and NIST’s AI Risk Management Framework The meta-pattern is interpretation vs execution: AI excels at execution, so high-value humans are those who bring judgment and responsibility to the question of what should be built and why Assume AI is “everywhere” - what still needs actual humans?
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-11-27 07:39:14 +0100 +0100'>November 27, 2025</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>

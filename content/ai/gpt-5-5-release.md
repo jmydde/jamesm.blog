@@ -9,6 +9,14 @@ cover:
   alt: GPT-5.5 release illustration
 ---
 
+## TL;DR
+
+- **GPT-5.5** ("Spud") is the first fully retrained base model since GPT-4.5, with architecture and pretraining reworked from scratch with agentic objectives in mind
+- It takes the top spot on Terminal-Bench 2.0 (82.7%) and GDPval (84.9%), narrowly beating Anthropic's Claude Mythos Preview on agentic coding benchmarks
+- A **1M-token context window** is new for OpenAI, enabling whole-codebase reasoning and long multi-step agent runs without context collapse
+- Pricing is competitive ($5/$30 per million input/output tokens) but the strategic story is about OpenAI building an integrated **super app** - chat, code, browser agent - all driven by one model
+- The gains are incremental, not a leap - but the full retraining signals OpenAI is betting the next two years on **autonomous agentic work**, not chat
+
 OpenAI released [GPT-5.5](https://openai.com/index/introducing-gpt-5-5/) on April 23, 2026, weeks after GPT-5.4 and only months after GPT-5. The cadence is starting to feel relentless. Codenamed "Spud" internally, GPT-5.5 is the first fully retrained base model since GPT-4.5 - architecture, pretraining corpus, and agent-oriented objectives all reworked from scratch.
 
 The question worth asking is whether any of this is actually significant, or if we've reached the part of the curve where every new release looks like a small step.

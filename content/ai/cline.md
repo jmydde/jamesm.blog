@@ -7,6 +7,14 @@ tags: ["ai","coding-assistant","productivity","open-source","cline"]
 author: "James Myddelton"
 ---
 
+## TL;DR
+
+- **Cline** (formerly Claude Dev) is an open-source VS Code extension that acts as an autonomous agent - it reasons, uses tools, runs terminal commands, and verifies its own work in a loop
+- Unlike "chat-and-copy" tools, Cline operates as an **operator with tools**: reading files, executing code, running tests, and iterating until a task is complete
+- **Model Context Protocol (MCP)** is Cline's superpower - it lets Cline connect to external data sources like databases, documentation, and APIs without those features being hard-coded
+- Compared to Cursor (best for speed and UX) and Claude Code (best for terminal-native workflows), Cline excels at complex, multi-file tasks that span many steps
+- The developer's role shifts from writing syntax to **architectural oversight** - you review intent and direction, not individual lines of code
+
 In the rapidly evolving landscape of [AI Dev Stacks](https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/), a new heavyweight has emerged that fundamentally changes the "Assistant" dynamic. Formerly known as Claude Dev, **[Cline](https://github.com/cline/cline)** has matured into a sophisticated autonomous agent that doesn't just suggest code - it executes engineering plans.
 
 While tools like [Cursor](https://www.cursor.com/) provide the best "integrated" feel, Cline represents the shift toward **Agentic Software Engineering**.

@@ -6,6 +6,14 @@ tags: ["ai","llm","chatbot","gpt","claude","gemini","llama"]
 description: "A practical explainer on the difference between chatbots and large language models, how modern model families fit together, and how to choose the right AI tool for a task."
 ---
 
+## TL;DR
+
+- An **LLM** is the underlying reasoning engine; a **chatbot** is the product experience wrapped around it - they are related but not the same thing
+- LLMs excel at summarizing, rewriting, generating drafts, and coding, but should be treated as fast collaborators rather than infallible oracles
+- The main model families are frontier models (GPT, Claude, Gemini), **open-weight / self-hostable** models (Llama), and product-specific assistants (ChatGPT, Cursor, Copilot)
+- Choose the right tool for the job: chatbots for convenience and exploration, APIs for automation, coding-native tools for repo-aware work
+- The market is now split between AI as a consumer product and AI as programmable infrastructure - understanding both layers makes the landscape far less confusing
+
 Most people still talk about chatbots and large language models as if they are the same thing.
 
 They are related, but they are not identical.

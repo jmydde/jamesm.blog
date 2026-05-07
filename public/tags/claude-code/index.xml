@@ -32,21 +32,30 @@
       <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
-      <description>&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;
-&lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
-&lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
-&lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for &lt;strong&gt;spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec-driven development&lt;/strong&gt; is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations&lt;/li&gt;
+&lt;li&gt;Tools like &lt;strong&gt;Cursor AI&lt;/strong&gt; handle fast, in-flow editing while &lt;strong&gt;Claude Code&lt;/strong&gt; or &lt;strong&gt;Cline&lt;/strong&gt; are better suited to multi-file refactors and autonomous implementation from specs&lt;/li&gt;
+&lt;li&gt;Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential&lt;/li&gt;
+&lt;li&gt;The real shift is treating AI not as a bolt-on assistant but as part of the &lt;strong&gt;workflow architecture itself&lt;/strong&gt;, with each tool assigned a clear, specific responsibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
       <link>https://jamesm.blog/ai/github-spec-kit-2026-update/</link>
       <pubDate>Sat, 04 Apr 2026 21:06:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-spec-kit-2026-update/</guid>
-      <description>&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing  -  it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s what&amp;rsquo;s changed, and why you should care.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;the-big-shift-from-framework-to-platform&#34;&gt;The Big Shift: From Framework to Platform&lt;/h2&gt;
-&lt;p&gt;GitHub Spec Kit is no longer just a lightweight documentation toolkit. As of April 2026, it&amp;rsquo;s evolved into a full extensibility platform that works across the entire AI-assisted development landscape.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; reached v0.5.0 in 2026, evolving from a documentation toolkit into a full extensibility platform for AI-assisted development&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claude Code CLI&lt;/strong&gt; is now a native skill within Spec Kit, making spec-to-code pipelines seamless and built-in&lt;/li&gt;
+&lt;li&gt;The ecosystem has exploded with dedicated tools like &lt;strong&gt;AWS Kiro&lt;/strong&gt; and Tessl, while multi-agent support covers Copilot, Cursor, Gemini CLI, and more&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec-Driven Development&lt;/strong&gt; prevents architectural drift by making the spec the single source of truth - versioned, reviewable, and respected by AI agents&lt;/li&gt;
+&lt;li&gt;Getting started is now low-effort: write a &lt;code&gt;spec.md&lt;/code&gt;, pick any AI tool, and let the spec drive implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Six months ago, we explored how &lt;a href=&#34;https://jamesm.blog/ai/github-spec-kit/&#34;&gt;GitHub Spec Kit&lt;/a&gt; was beginning to reshape software development. In early 2026, that promise isn&amp;rsquo;t just materializing  -  it&amp;rsquo;s accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from &amp;ldquo;interesting idea&amp;rdquo; to actual industry standard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Claude Code Source Leak: Anthropic&#39;s 2,000-File Exposure and What It Means</title>
@@ -60,9 +69,15 @@
       <link>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</link>
       <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/</guid>
-      <description>&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;
-&lt;p&gt;So I started exploring alternatives.&lt;/p&gt;
-&lt;p&gt;What I&amp;rsquo;ve realised is that the best approach isn&amp;rsquo;t replacing Claude Code entirely - it&amp;rsquo;s building a hybrid AI developer stack where different models handle different types of work.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hitting Claude Code Pro usage limits does not mean upgrading to the $200/month plan - a &lt;strong&gt;hybrid AI stack&lt;/strong&gt; is a smarter and cheaper alternative&lt;/li&gt;
+&lt;li&gt;The tiering strategy: local models (free) for quick edits, cheap cloud APIs for general coding, and frontier models only for architecture or complex multi-file reasoning&lt;/li&gt;
+&lt;li&gt;Tools like &lt;strong&gt;Ollama&lt;/strong&gt; or &lt;strong&gt;LM Studio&lt;/strong&gt; with coding models such as DeepSeek Coder or Qwen2.5 handle the majority of everyday tasks locally at no cost&lt;/li&gt;
+&lt;li&gt;Cheap cloud inference providers (Groq, Together AI, DeepInfra) offer capable open models at fractions of a cent per session for heavier work&lt;/li&gt;
+&lt;li&gt;A realistic usage split of 80% local / 15% cheap APIs / 5% frontier models dramatically reduces limit burn while keeping Claude available when it genuinely matters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

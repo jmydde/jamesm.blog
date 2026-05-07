@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'openclaw']
 ---
 
+## TL;DR
+
+- **OpenClaw** is an open-source AI agent framework that enables language models to operate software directly through computer interfaces - clicking, typing, and navigating the same way a human does
+- Unlike chatbots that only respond to prompts, OpenClaw acts as an **operator** - automating any software without requiring custom APIs or integrations
+- This makes legacy enterprise software, complex dashboards, and multi-application workflows instantly automatable using computer vision and reasoning models
+- Because it uses reasoning models rather than fixed scripts, it can adapt to unexpected states and recover from mistakes - closer to **digital labor** than traditional automation
+- This represents a shift in computing: software that can build, run, and manage other software, driven by open projects improving rapidly every month
+
 Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:
 
 "Wait... this changes everything."

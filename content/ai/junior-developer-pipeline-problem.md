@@ -9,6 +9,14 @@ cover:
   alt: Junior Developer Pipeline Problem Banner
 ---
 
+## TL;DR
+
+- The work AI now automates - boring tickets, bug hunts, boilerplate - was the **unspoken apprenticeship** that turned juniors into seniors
+- The skills that work built (pattern recognition, systems intuition, taste, calibration) are built by doing, not by reading - and that doing is now cheapest to delegate
+- The **new apprenticeship** shifts toward reading over writing, debugging agent output, earlier architectural decisions, and deliberate practice of things agents do badly
+- There is a **coordination problem**: individual organisations rationally skip junior investment in the short term, but the senior pipeline thins industry-wide a few years later
+- If you are starting out today, optimise for proximity to a great senior engineer above salary, title, or any other variable
+
 *The views in this post are my own personal reflections on the industry as a whole, written in my own time. They are not about any specific employer, team, or colleague, past or present.*
 
 Almost every confident take on the future of software engineering assumes a particular kind of person at the centre of it. A senior. Someone who can read a generated diff and feel which line is wrong before they can articulate why. Someone with taste, judgement, and a working theory of the system in their head. Someone who can curate, review, and steer fleets of agents.

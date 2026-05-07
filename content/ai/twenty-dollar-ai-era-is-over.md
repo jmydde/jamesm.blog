@@ -9,6 +9,14 @@ cover:
   alt: AI subscription pricing illustration
 ---
 
+## TL;DR
+
+- The **$20/month subscription tier** is not disappearing, but what you get for it is quietly shrinking - agent features are being capped or metered while the price holds
+- The Claude Code episode (briefly paywalled for Pro users) was a deliberate A/B test, not a glitch - a signal that Anthropic is steering heavy users toward the **Max tier** at $100 - $200/month
+- Agent workflows like Claude Code consume 50 - 500x more tokens than a chat session, making flat all-you-can-eat pricing economically unsustainable for power users
+- Most major providers (Anthropic, OpenAI, Google, Cursor) are projected to raise consumer tiers by $5 - $10 by end of 2026, with sharper increases at the enterprise level
+- If you are a chat-only user the $20 plan remains a good deal; if you are running agents daily, budget for a higher tier or pay-as-you-go API access instead
+
 For the last three years, $20 a month has been the magic number. Claude Pro, ChatGPT Plus, Gemini Advanced, Copilot Pro, Cursor Pro - all twenty dollars, all clearly priced to anchor against Netflix rather than against enterprise software. That anchor is cracking. The labs are burning cash on inference for power users, the frontier models cost more per token than they did a year ago, and agent tools like Claude Code and Codex are consuming ten to a hundred times the compute a chat session does. Something has to give.
 
 This post pulls together what's actually happening across the providers, the Claude Code episode that had the developer community briefly losing its mind, and a table of current prices next to what I think the 2026 year-end picture looks like.

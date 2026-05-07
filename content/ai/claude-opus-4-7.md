@@ -9,6 +9,14 @@ cover:
   alt: Claude Opus Icon
 ---
 
+## TL;DR
+
+- **Claude Opus 4.7** raises the vision ceiling to 3.75 megapixels (2,576 pixels), letting Claude read dense screenshots and complex charts without losing detail
+- Autonomous software engineering is the headline upgrade - Opus 4.7 can handle complex, long-running tasks with reduced need for constant direction
+- A new `xhigh` effort level for **extended thinking** gives developers explicit control over the speed-versus-reasoning tradeoff
+- Improved instruction-following and resistance to **prompt injection** make it safer for production use
+- Pricing remains unchanged at $5 per million input tokens and $25 per million output tokens - this is the new standard, not a premium tier
+
 Opus 4.7 is a meaningful step forward. Not a revolutionary rewrite, but a targeted upgrade that addresses friction points developers actually experience: vision quality, autonomous task handling, and creative output.
 
 The headline feature is deceptively simple - images up to 2,576 pixels. That's 3.75 megapixels, roughly three times the previous limit. In practice, this means Claude can now read a dense screenshot without losing details, extract data from complex charts without ambiguity, and handle UI testing images that show real context instead of cropped fragments.

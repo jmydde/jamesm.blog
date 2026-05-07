@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","github","spec-kit","sdd","cursor-ai","claude-code","2026"]
 ---
 
+## TL;DR
+
+- **GitHub Spec Kit** reached v0.5.0 in 2026, evolving from a documentation toolkit into a full extensibility platform for AI-assisted development
+- **Claude Code CLI** is now a native skill within Spec Kit, making spec-to-code pipelines seamless and built-in
+- The ecosystem has exploded with dedicated tools like **AWS Kiro** and Tessl, while multi-agent support covers Copilot, Cursor, Gemini CLI, and more
+- **Spec-Driven Development** prevents architectural drift by making the spec the single source of truth - versioned, reviewable, and respected by AI agents
+- Getting started is now low-effort: write a `spec.md`, pick any AI tool, and let the spec drive implementation
+
 Six months ago, we explored how [GitHub Spec Kit](/ai/github-spec-kit/) was beginning to reshape software development. In early 2026, that promise isn't just materializing  -  it's accelerating. The project has hit version 0.5.0, the ecosystem has exploded, and Spec-Driven Development has transitioned from "interesting idea" to actual industry standard.
 
 Here's what's changed, and why you should care.

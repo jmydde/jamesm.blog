@@ -6,6 +6,14 @@ tags: ["ai","reliability","testing","llm","agentic-engineering","verification"]
 description: "Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the 'builder' is non-deterministic."
 ---
 
+## TL;DR
+
+- Traditional testing assumes **determinism** - given input X, function f always returns Y - but LLMs are non-deterministic, which breaks assertion-based testing at its foundation
+- The same agentic task run twice may produce different but equally correct code, making exact-output assertions brittle and often useless
+- The new paradigm shifts from "test the code" to "verify the intent": **property-based testing**, LLM-as-a-Judge evaluation, golden datasets for regression, and human review for overall correctness
+- Structured outputs enforce syntactic correctness at generation time, but semantic correctness - whether the output actually solves the right problem - still requires layered verification on top
+- The future of AI quality assurance is designing robust evaluation frameworks and measuring properties of acceptable outputs, not writing exhaustive unit tests for code the model may generate differently next time
+
 We've embraced the future. AI agents like [Cline](https://jamesm.blog/ai/cline/) are now the primary "builders" of software, executing complex engineering plans from high-level specifications. As I've argued in ["The Architect vs The Builder"](https://jamesm.blog/ai/architect-vs-builder/), the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in ["AI agents that actually work"](/ai/ai-agents-that-actually-work/), and the wider safety framing sits in ["AI safety from first principles"](/ai/ai-safety-first-principles/).
 
 But this shift introduces a profound, often uncomfortable, question: **How do we know it actually works?**

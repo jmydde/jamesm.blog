@@ -9,6 +9,14 @@ cover:
   alt: AI-Augmented Design Workflow Banner
 ---
 
+## TL;DR
+
+- A combination of **Cursor** in the IDE, **Claude Code** and **Codex** in the terminal, and **GitHub Spec Kit** as the living contract has collapsed the discuss-design-document loop from days to under ten minutes
+- Every meeting is transcribed and checked into GitHub alongside the design corpus, giving AI agents access to the full historical record - not just curated decisions but the debates that shaped them
+- Model selection matters: cheaper, faster models for throwaway sketches and small refactors; expensive models (Opus) for large cross-repo work where the cost of a wrong answer is high
+- The real transformation is **cognitive flow** - removing friction between thinking and recording means decisions get made and captured while the problem is still fresh, with almost no context switching
+- AI is now suggesting improvements faster than the author can implement them; the next bottleneck is compaction, not generation - asking the model to reduce documents to their load-bearing claims rather than produce more content
+
 Since making a combination of [Cursor](https://www.cursor.com/) in the IDE and [Claude Code](https://github.com/anthropics/claude-code) and [Codex](https://github.com/openai/codex) in the terminal the centre of my working day - with [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) for general questions and [GitHub Spec Kit](https://github.com/github/spec-kit) holding the design contract - the way I move from a question on Slack to a documented design decision has changed beyond recognition.
 
 What used to be a multi-day shuffle of meetings, follow-ups, written summaries, and "I will circle back on that" is now a tight loop that closes in five to ten minutes. The result is not just faster - it feels qualitatively different. There is no context switching, no postponed thinking, no half-finished docs. The decision is made, captured, validated against the rest of the design, and rendered into diagrams before the next meeting starts.

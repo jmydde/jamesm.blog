@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'openai', 'voice engine', 'voice']
 ---
 
+## TL;DR
+
+- **OpenAI Voice Engine** is a text-to-speech model that can clone a realistic voice from just a 15-second audio sample
+- It produces emotive, natural-sounding speech despite using a small model and minimal training data
+- Access has remained in **limited preview** since its 2024 announcement due to responsible AI concerns around voice cloning and impersonation
+- Approved testers must obtain clear consent from voice providers and inform listeners that voices are AI-generated
+- As of 2026, the technology is restricted to approved partners and researchers rather than general availability
+
 ## About
 OpenAI's Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
 

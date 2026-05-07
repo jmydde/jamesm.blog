@@ -6,6 +6,14 @@ tags: ['ai', 'economics', 'infrastructure']
 description: "Despite massive scale and competition, LLM pricing hasn't meaningfully declined. Here's why the fundamentals don't support cheaper AI."
 ---
 
+## TL;DR
+
+- **Inference cost is architectural** - generating each token requires loading massive models into GPU memory, and that fundamental constraint doesn't disappear with scale or competition
+- Despite Moore's Law expectations, flagship model prices (Claude 3, GPT-4) have remained flat for 18+ months because demand growth absorbs any efficiency gains
+- The true cost of using AI is **1.5 - 2.5x the raw token price** once you factor in monitoring, retries, fine-tuning, and compliance overhead
+- Providers convert efficiency gains into better features (longer context, faster inference, multimodal) rather than lower prices - you get more value per dollar, not fewer dollars
+- Stop waiting for cheaper AI; treat token costs as fixed infrastructure spend and optimise usage with tools like **prompt caching** instead
+
 There's a persistent myth in tech: AI will get cheaper. The argument is straightforward - Moore's Law, scale effects, competition, and raw compute efficiency improvements mean costs should plummet. Yet in April 2026, [Claude](https://claude.ai/) costs roughly what it did in 2024. [GPT-4 Turbo](https://openai.com/research/gpt-4) pricing hasn't moved in eighteen months. [Gemini](https://gemini.google.com/)'s cost structure remains sticky. Why?
 
 The answer isn't that progress hasn't happened. It's that the economics of modern AI are fundamentally different from hardware commoditization. Once you understand the actual constraints, the stability of pricing becomes logical. The biggest lever individual teams have to push back on this is [prompt caching](/ai/prompt-caching/), which is the rare optimisation that genuinely changes the per-request cost shape.

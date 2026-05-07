@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'development', 'developer-tool', 'llm', 'claude code', 'cursor ai', 'cline', 'spec kit', 'sdd']
 ---
 
+## TL;DR
+
+- A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for **spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture**
+- **Spec-driven development** is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations
+- Tools like **Cursor AI** handle fast, in-flow editing while **Claude Code** or **Cline** are better suited to multi-file refactors and autonomous implementation from specs
+- Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential
+- The real shift is treating AI not as a bolt-on assistant but as part of the **workflow architecture itself**, with each tool assigned a clear, specific responsibility
+
 There is a big difference between using AI for development and having an actual AI development stack.
 
 Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.

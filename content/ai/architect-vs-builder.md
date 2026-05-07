@@ -6,6 +6,14 @@ tags: ["ai","engineering","role","career","management"]
 description: "The traditional engineering hierarchy of junior→senior→architect is collapsing. What emerges is a cleaner, harsher split: people who decide what to build, and people who turn that decision into code."
 ---
 
+## TL;DR
+
+- AI has collapsed the middle rungs of the engineering ladder by automating execution - the junior-to-architect progression no longer works the way it did
+- The emerging split is two human roles: **Architects** who decide what to build and why, and **Builders** who turn architectural decisions into precise, testable specifications
+- Neither role exists to write code - code-writing is incidental to both, and AI handles the bulk of implementation
+- The two paths require genuinely different skills that do not build cleanly on each other; taste for architectural judgment and clarity for specification are separate capabilities
+- If you are a junior engineer in 2026, you need to choose your path now - the traditional ladder is a trap, and "I write good code" is no longer a sufficient value proposition
+
 For forty years, the engineering career ladder has looked like this:
 
 Junior → Mid-level → Senior → Staff/Principal → Architect

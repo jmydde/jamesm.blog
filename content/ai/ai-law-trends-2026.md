@@ -9,6 +9,14 @@ cover:
   alt: AI Law and Regulation
 ---
 
+## TL;DR
+
+- The **EU AI Act** is now in force with full enforcement of high-risk AI requirements from August 2026, carrying fines of up to 7% of global turnover - this is no longer a distant deadline
+- Over fifty copyright lawsuits against AI developers are working through US courts, and the EU Copyright Directive puts the burden of verifying training data rights on the **AI developer**, not the rights holder
+- Courts in multiple jurisdictions are consistently finding that deploying AI does not transfer liability to the vendor - "the AI did it" is not a defence that holds up
+- The US has no comprehensive federal AI law; instead, businesses must navigate a patchwork of state statutes (California, Colorado, New York, Texas) alongside existing federal agency enforcement from the FTC, CFPB, and FDA
+- The "move fast and figure out the legal stuff later" era is over - enough of the legal framework has arrived that the gaps are no longer a safe place to operate
+
 For the past few years, AI law has been one of those topics that felt perpetually five minutes away. Governments would announce frameworks. Committees would publish white papers. Experts would debate what the rules should eventually look like.
 
 That phase is over.

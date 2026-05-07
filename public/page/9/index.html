@@ -261,8 +261,7 @@ This isn’t just an update; it’s a complete reimagining, building on the stre
     </h2>
   </header>
   <div class="entry-content">
-    <p>We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in “AI agents that actually work”, and the wider safety framing sits in “AI safety from first principles”.
-But this shift introduces a profound, often uncomfortable, question: How do we know it actually works?
+    <p>TL;DR Traditional testing assumes determinism - given input X, function f always returns Y - but LLMs are non-deterministic, which breaks assertion-based testing at its foundation The same agentic task run twice may produce different but equally correct code, making exact-output assertions brittle and often useless The new paradigm shifts from “test the code” to “verify the intent”: property-based testing, LLM-as-a-Judge evaluation, golden datasets for regression, and human review for overall correctness Structured outputs enforce syntactic correctness at generation time, but semantic correctness - whether the output actually solves the right problem - still requires layered verification on top The future of AI quality assurance is designing robust evaluation frameworks and measuring properties of acceptable outputs, not writing exhaustive unit tests for code the model may generate differently next time We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in “AI agents that actually work”, and the wider safety framing sits in “AI safety from first principles”.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 22:00:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -277,7 +276,7 @@ But this shift introduces a profound, often uncomfortable, question: How do we k
   <div class="entry-content">
     <p>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 10:00:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James Myddelton</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 10:00:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James Myddelton</span></footer>
   <a class="entry-link" aria-label="post link to Cline: The Next Generation AI Coding Assistant" href="https://jamesm.blog/ai/cline/"></a>
 </article>
 
@@ -302,11 +301,10 @@ The bills still need to be paid. The old habits are still there, waiting at 3am.
     </h2>
   </header>
   <div class="entry-content">
-    <p>The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
-The Problem It Solves The traditional job search is a grind of low-signal noise. You find 30 job postings. You read them. You customize a resume. You write a cover letter. You track applications in a spreadsheet. You wait. You compare offers using gut feel and spotty spreadsheet columns. The process burns time and attention - exactly when you need both to think clearly about your career.
+    <p>TL;DR Career-Ops is an open-source tool built on Claude Code that inverts the job search power dynamic - giving candidates AI-powered evaluation and application tools to match what companies use to filter them Each opportunity is scored across 10 weighted dimensions on an A-F scale, producing a structured comparison that replaces the ad hoc spreadsheet most candidates rely on The system generates ATS-optimized resumes dynamically tailored to each job description and auto-discovers new postings from 45&#43; pre-configured job boards A key design principle is human-in-control: nothing auto-submits, the AI recommends and the candidate decides, making it a decision-support system rather than an automation Career-Ops is a clean example of the broader pattern of AI tools that amplify individual judgment rather than replace it - worth studying for its architecture as much as its use case The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Career-Ops: Flipping the Script on AI-Powered Job Search" href="https://jamesm.blog/ai/career-ops/"></a>
 </article>
 
@@ -331,9 +329,7 @@ Use object APIs - Build custom integration code and refactor applications Duplic
     </h2>
   </header>
   <div class="entry-content">
-    <p>In the evolution of agentic software engineering, one critical gap remains: the disconnect between project management and code execution. Your Kanban board tracks what needs doing, but your AI assistant lives in your IDE. Cline &#43; Kanban closes that gap.
-The Problem: Two Separate Systems Most teams operate with a frustrating split:
-Kanban board (Linear, GitHub Projects, Jira, Trello): “Build the user authentication flow” IDE with Cline: “Let me write code” Manual sync: You paste the task, manually update the board status, context-switch constantly This handoff is where developers lose hours to context-switching and where tasks fall through the cracks.
+    <p>TL;DR Cline integrates with Kanban boards (Linear, GitHub Projects, Jira, Trello) via Model Context Protocol (MCP), closing the gap between project management and code execution Instead of manually copy-pasting tasks, Cline reads directly from your board, works through the implementation, and updates the task status automatically when done This makes the Kanban board the single source of truth - it stays in sync with reality rather than being an afterthought you update when you remember Works best with clear, testable acceptance criteria; vague tasks like “improve performance” need refinement before Cline can act on them autonomously Even with full autonomy, human code review remains essential - Cline completing a task means it is “Ready for Review”, not that it ships In the evolution of agentic software engineering, one critical gap remains: the disconnect between project management and code execution. Your Kanban board tracks what needs doing, but your AI assistant lives in your IDE. Cline &#43; Kanban closes that gap.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-09 07:44:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -346,12 +342,10 @@ Kanban board (Linear, GitHub Projects, Jira, Trello): “Build the user authenti
     </h2>
   </header>
   <div class="entry-content">
-    <p>For years, extracting structured data from LLMs meant post-processing their text output: parse JSON, handle edge cases where the model forgot to close a bracket, write validation code to check if the output matched your schema, implement fallback logic when parsing failed.
-Then came structured outputs - a way to constrain LLM responses to match a JSON schema before they’re returned to you.
-Structured outputs sound simple but represent a fundamental shift in how to build production LLM systems. And yet, most teams are still extracting data the old way - waiting for the post-processing disasters that guaranteed outputs prevent. They also pair naturally with prompt caching - the schema is part of the static prefix you want to cache - and with the verification disciplines I cover in “AI agents that actually work”.
+    <p>TL;DR Structured outputs constrain an LLM’s response to match a JSON schema during generation, eliminating the entire class of post-processing parse failures (which occur 2-5% of the time with free-form output) They produce simpler code, more reliable pipelines, and modest inference cost savings (typically 5-15% fewer tokens) in high-volume systems Use structured outputs for data extraction, classification, entity recognition, and API payload generation - not for creative writing or open-ended reasoning Common mistakes include over-constraining schemas with too-strict enums, forgetting that the response format changes, and mistaking schema validity for semantic correctness The trajectory is toward structured outputs becoming the default: schemas will be inferred from English descriptions, and TypeScript types will auto-generate schemas For years, extracting structured data from LLMs meant post-processing their text output: parse JSON, handle edge cases where the model forgot to close a bracket, write validation code to check if the output matched your schema, implement fallback logic when parsing failed.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:17:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-09 06:17:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Structured Outputs: When Your AI Needs to Follow a Schema" href="https://jamesm.blog/ai/structured-outputs-schema/"></a>
 </article>
 <footer class="page-footer">

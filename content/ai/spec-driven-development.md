@@ -6,6 +6,14 @@ tags: ["ai","product-development","engineering","specification","design","sdd"]
 description: "With AI handling implementation, the specification itself becomes the product. What you're really selling is clarity of thought - and the ability to write briefs that don't lie."
 ---
 
+## TL;DR
+
+- **Spec-driven development** means making specifications iteratively precise enough that handing them to an AI produces the right result without further iteration
+- AI makes hidden specification costs visible - ambiguous briefs now produce wrong code instantly rather than surfacing bugs slowly during implementation
+- The spec becomes the product because it is where all the thinking lives; implementation is just the reflection of the spec in runnable form
+- Good specs must be **honest**, not just precise - they should explain trade-offs accepted, constraints being solved for, and how you will know if the spec was wrong
+- Developers in 2026 need to shift from implementing specs to writing specs that are clear enough to implement themselves
+
 There's a moment in every developer's career when you realize the code is not the product. The product is the decision.
 
 For the last five years, I've watched this shift accelerate with AI. And it's forcing us to confront something uncomfortable: the quality of what we build is almost entirely determined by the clarity of what we asked for.

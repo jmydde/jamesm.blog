@@ -9,6 +9,14 @@ cover:
   alt: SpaceX Cursor Deal Banner
 ---
 
+## TL;DR
+
+- **SpaceX** has signed an option to acquire **Cursor** (made by Anysphere) for **$60 billion**, or pay $10 billion for the joint work if it walks away
+- Cursor's valuation has risen 24x in fifteen months - from $2.5 billion in January 2025 to a $60 billion option price in April 2026
+- The deal sits under SpaceX rather than xAI directly, because SpaceX holds the balance sheet after the SpaceX - xAI merger valued at $1.25 trillion
+- For xAI, buying Cursor is a faster route to developer relevance than out-marketing OpenAI's Codex or Anthropic's Claude Code
+- If the acquisition closes, three of the main AI coding interfaces will sit inside three frontier labs - raising questions about **model neutrality** and pricing pressure on independent tools
+
 It's rare to see an option contract make the front page, but that is what landed on 21 April 2026. [SpaceX](https://www.spacex.com/) disclosed that it has signed a deal with [Cursor](https://www.cursor.com/) - the AI coding tool made by [Anysphere](https://anysphere.inc/) - giving it the right to buy the startup outright for **$60 billion** later this year, or to walk away with a **$10 billion** payment for the joint work the two teams are doing in the meantime.
 
 That is not a typical M&A structure. It is closer to a call option on a company.

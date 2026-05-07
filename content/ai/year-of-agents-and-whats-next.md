@@ -9,6 +9,14 @@ cover:
   alt: A year of AI agents
 ---
 
+## TL;DR
+
+- The defining shift from April 2025 to April 2026 is the move from "ask" to **"delegate"** - agents now run for minutes, open files, execute shells, and return results rather than waiting for each prompt
+- Key developments that drove this: coding agents becoming operators (Claude Code, Cursor, Codex), **MCP** standardising tool access, spec-driven development going mainstream, and context windows expanding to millions of tokens
+- In the next two years, longer-horizon agents, **multi-agent coordination**, persistent personal AI memory, and computer-use automation will move from early features to default expectations
+- The working day is reshaping around less typing and more reviewing - the skill that matters is **judgement over diffs**, not typing speed or boilerplate generation
+- To adapt now: pick a stack and use it daily, write specs before code, build the habit of reviewing diffs fast, and move procedural knowledge into reusable agent skills
+
 A year ago, in April 2025, "AI in your workflow" mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was "ask".
 
 In April 2026, the verb is "delegate".

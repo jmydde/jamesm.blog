@@ -18,10 +18,15 @@
       <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
-      <description>&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;
-&lt;p&gt;Most developers still seem to be operating with a single-tool mindset. They pick one assistant, one model, one editor, and then expect it to handle everything from planning and architecture to implementation, debugging, review, and documentation.&lt;/p&gt;
-&lt;p&gt;That approach breaks down quickly.&lt;/p&gt;
-&lt;p&gt;In practice, the best AI workflow in 2026 is not about finding one perfect tool. It is about assembling a small stack where each part has a clear job. Fast models handle cheap iteration. Stronger models handle harder reasoning. Specs keep the whole process coherent. Review loops stop you from shipping nonsense with confidence.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for &lt;strong&gt;spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec-driven development&lt;/strong&gt; is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations&lt;/li&gt;
+&lt;li&gt;Tools like &lt;strong&gt;Cursor AI&lt;/strong&gt; handle fast, in-flow editing while &lt;strong&gt;Claude Code&lt;/strong&gt; or &lt;strong&gt;Cline&lt;/strong&gt; are better suited to multi-file refactors and autonomous implementation from specs&lt;/li&gt;
+&lt;li&gt;Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential&lt;/li&gt;
+&lt;li&gt;The real shift is treating AI not as a bolt-on assistant but as part of the &lt;strong&gt;workflow architecture itself&lt;/strong&gt;, with each tool assigned a clear, specific responsibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mac Applications &amp; Utilities</title>
@@ -42,8 +47,15 @@
       <link>https://jamesm.blog/ai/cursor-ai/</link>
       <pubDate>Wed, 03 Dec 2025 13:15:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/cursor-ai/</guid>
-      <description>&lt;p&gt;Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor AI&lt;/a&gt; has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of &lt;em&gt;“this is the future of development”&lt;/em&gt; as Cursor.&lt;/p&gt;
-&lt;p&gt;Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cursor AI&lt;/strong&gt; is an AI-native editor that reads your repo with architectural awareness, reasons across files, and turns complex refactors into simple conversations&lt;/li&gt;
+&lt;li&gt;Integrating &lt;strong&gt;GitHub Spec Kit&lt;/strong&gt; (spec.md, constitution.md, acceptance criteria) gives Cursor a structured foundation it treats as living, authoritative constraints&lt;/li&gt;
+&lt;li&gt;The combined workflow creates a tight loop: refine the spec, ask Cursor to implement, update the spec, generate more code - documentation and code feed each other in real time&lt;/li&gt;
+&lt;li&gt;Key benefits include automatic consistency between spec and code, safer large-scale refactors, and faster onboarding for new contributors&lt;/li&gt;
+&lt;li&gt;These tools don&amp;rsquo;t replace developers - they eliminate friction between thought and execution, letting you think at a higher level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor AI&lt;/a&gt; has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of &lt;em&gt;“this is the future of development”&lt;/em&gt; as Cursor.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Polkadot News 2024</title>

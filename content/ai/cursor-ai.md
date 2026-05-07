@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'cursor ai', 'sdd', 'development']
 ---
 
+## TL;DR
+
+- **Cursor AI** is an AI-native editor that reads your repo with architectural awareness, reasons across files, and turns complex refactors into simple conversations
+- Integrating **GitHub Spec Kit** (spec.md, constitution.md, acceptance criteria) gives Cursor a structured foundation it treats as living, authoritative constraints
+- The combined workflow creates a tight loop: refine the spec, ask Cursor to implement, update the spec, generate more code - documentation and code feed each other in real time
+- Key benefits include automatic consistency between spec and code, safer large-scale refactors, and faster onboarding for new contributors
+- These tools don't replace developers - they eliminate friction between thought and execution, letting you think at a higher level
+
 Every so often a tool appears that doesn’t just streamline your workflow - it rewires the way you think about building software. [Cursor AI](https://www.cursor.com/) has done exactly that. After years of bouncing between editors, IDEs, extensions, and automation layers, nothing has delivered the same sense of *“this is the future of development”* as Cursor.
 
 Cursor isn’t simply an AI-augmented editor. It feels like a true development partner. It reads your repo with real architectural awareness, reasons across files, maintains context, and helps you iterate on ideas with an almost uncanny understanding of intent. Complex refactors turn into simple conversations. Vague concepts turn into working code. The entire process becomes fluid.

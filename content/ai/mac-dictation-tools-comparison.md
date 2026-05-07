@@ -9,6 +9,14 @@ cover:
   alt: Speech To Text Banner
 ---
 
+## TL;DR
+
+- **MacWhisper** is a file transcription tool (audio in, text out) that runs entirely on-device - the right pick for journalists, researchers, and anyone transcribing recordings
+- **Wispr Flow** is the easiest system-wide dictation option, with AI-powered prose cleanup and cross-platform sync, but it sends audio to the cloud with no on-device option
+- **Superwhisper** matches Wispr Flow's system-wide dictation but processes audio locally, with bring-your-own-key LLM cleanup and deep customisation for power users
+- The core decision is simple: **if your audio can leave your machine**, use Wispr Flow; **if it must stay local**, use Superwhisper; if you just need transcription, use MacWhisper
+- The real product differentiation is no longer the underlying Whisper model - it is hotkey ergonomics, auto-edit prompts, and workflow integration
+
 Voice input on the Mac used to mean fighting with the built-in Dictation feature or paying Nuance a small fortune. In 2026, the landscape looks completely different. A handful of indie and venture-backed apps have turned Whisper-class models into genuinely fast, accurate tools that sit quietly in your menu bar until you hold a hotkey.
 
 The three names that come up in every Mac productivity thread are [MacWhisper](https://goodsnooze.gumroad.com/l/macwhisper), [Wispr Flow](https://wisprflow.ai/), and [Superwhisper](https://superwhisper.com/). They all transcribe speech. They are not the same product.

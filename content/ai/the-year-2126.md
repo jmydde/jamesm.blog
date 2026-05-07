@@ -9,6 +9,14 @@ cover:
   alt: The Year 2126 Banner
 ---
 
+## TL;DR
+
+- By 2126, **clean energy**, most infectious disease, and routine cognitive work are almost certainly solved - the AI transition will look as obvious in hindsight as the car replacing the horse
+- Climate is the hardest unsolved problem: the outcome depends on decisions made in the next thirty years, and 2126 inherits either a managed problem or a civilisation in partial retreat
+- The **demographic inversion** is one of the most structurally important facts - global population peaks around 2060-2080 then declines, leaving a world where a hundred-year-old is ordinary and a child is rare and socially valued
+- Human work shifts toward human-presence roles, stewardship of powerful systems, physical craft, meaning-making, and accountability - the categories that cannot be automated
+- The decade we are in now is one that 2126 will study closely; the decisions made about AI safety, climate, and institutional reform are visibly reflected in the outcome a century later
+
 A hundred years is a useful distance. Long enough that the current news cycle is ancient history, short enough that some people alive in 2126 will have living memory of people who were alive in 2026. The children being born this week have a non-trivial chance of being interviewed, in their late nineties, about what the early AI era was actually like. That matters. It makes the 100-year horizon a question about the world people we know will inherit, not an abstract one.
 
 I wrote recently about [the next decade of AI](/ai/the-next-decade-of-ai) and, at the other extreme, about [what a thousand years from now might look like](/ai/the-year-3026). This is the post that sits in the middle - the horizon where you can still be specific without being silly, and where the current generation's decisions are still visibly reflected in the outcome.

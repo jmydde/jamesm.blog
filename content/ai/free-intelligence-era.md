@@ -9,6 +9,14 @@ cover:
   alt: The Free Intelligence Era Banner
 ---
 
+## TL;DR
+
+- The **marginal cost of AI intelligence** is halving roughly every two months and heading toward a level where rationing stops making sense - similar to how bandwidth and storage became effectively unconstrained
+- This will break pricing models built on scarce cognition: anything billed per word, per hour, or per consult faces a hard ceiling set by what machines charge for the same work
+- The **Jevons paradox** means total cognitive work in the economy likely goes up, not down - cheaper thinking means we apply thinking to far more problems, not the same problems more cheaply
+- Three categories of human work survive: **accountability** (being the named responsible party), **taste** (choosing well from infinite AI-generated options), and **real-world coupling** (a body in a place, a relationship that took years to build)
+- The political question of who captures the surplus and who absorbs the transition cost is still open - it will be decided by institutions and policy, not by the technology itself
+
 This is a personal reflection, not a forecast dressed up as one. I am writing about a trend I think is real, but the second-order consequences are guesses, and I am sure some of them are wrong.
 
 The single most important economic fact about AI is not that the models are getting smarter. It is that intelligence is getting cheap.

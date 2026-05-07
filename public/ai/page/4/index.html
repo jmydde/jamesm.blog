@@ -232,8 +232,7 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most AI agents are forgettable. You ask them to do something, they do it, you close the window. The next time you need help, they start from zero - no context, no learning, no continuity. Hermes Agent works differently. Nous Research built it as a persistent system that remembers what it learns and gets measurably more capable the longer it runs.
-This is a meaningful shift in how we think about autonomous systems.
+    <p>TL;DR Hermes Agent by Nous Research is an open-source persistent autonomous system that builds memory across conversations, auto-generates reusable skills from repeated tasks, and compounds in capability over time Unlike stateless agents, Hermes accumulates project context - learning codebase quirks, team conventions, and recurring workflows so it stops asking questions it has already answered It works across Telegram, Discord, Slack, WhatsApp, Signal, Email, and CLI - meeting teams on the platforms they already use rather than requiring a dedicated app Running cost is roughly $20 to $60 per month for a solo developer (a $5-$10 VPS plus LLM API calls); it is MIT licensed with no seat fees or vendor lock-in The honest trade-off: Hermes beats alternatives on persistence and learning depth, but raises open questions about memory scaling, skill auditing, and what happens when an agent learns something wrong Most AI agents are forgettable. You ask them to do something, they do it, you close the window. The next time you need help, they start from zero - no context, no learning, no continuity. Hermes Agent works differently. Nous Research built it as a persistent system that remembers what it learns and gets measurably more capable the longer it runs.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-20 19:03:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -249,8 +248,7 @@ This is a meaningful shift in how we think about autonomous systems.
     </h2>
   </header>
   <div class="entry-content">
-    <p>Voice input on the Mac used to mean fighting with the built-in Dictation feature or paying Nuance a small fortune. In 2026, the landscape looks completely different. A handful of indie and venture-backed apps have turned Whisper-class models into genuinely fast, accurate tools that sit quietly in your menu bar until you hold a hotkey.
-The three names that come up in every Mac productivity thread are MacWhisper, Wispr Flow, and Superwhisper. They all transcribe speech. They are not the same product.
+    <p>TL;DR MacWhisper is a file transcription tool (audio in, text out) that runs entirely on-device - the right pick for journalists, researchers, and anyone transcribing recordings Wispr Flow is the easiest system-wide dictation option, with AI-powered prose cleanup and cross-platform sync, but it sends audio to the cloud with no on-device option Superwhisper matches Wispr Flow’s system-wide dictation but processes audio locally, with bring-your-own-key LLM cleanup and deep customisation for power users The core decision is simple: if your audio can leave your machine, use Wispr Flow; if it must stay local, use Superwhisper; if you just need transcription, use MacWhisper The real product differentiation is no longer the underlying Whisper model - it is hotkey ergonomics, auto-edit prompts, and workflow integration Voice input on the Mac used to mean fighting with the built-in Dictation feature or paying Nuance a small fortune. In 2026, the landscape looks completely different. A handful of indie and venture-backed apps have turned Whisper-class models into genuinely fast, accurate tools that sit quietly in your menu bar until you hold a hotkey.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-20 19:02:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -266,11 +264,10 @@ The three names that come up in every Mac productivity thread are MacWhisper, Wi
     </h2>
   </header>
   <div class="entry-content">
-    <p>xAI has released two standalone voice APIs - Speech-to-Text (STT) and Text-to-Speech (TTS) - built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support. The move puts xAI in direct competition with ElevenLabs, Deepgram, and AssemblyAI, three companies that have owned the enterprise voice API market for years.
-The interesting question isn’t whether Grok’s voice tech is good. It clearly is - Tesla wouldn’t ship it otherwise. The question is whether xAI’s bundle (voice &#43; reasoning &#43; frontier models under one roof) is worth switching for.
+    <p>TL;DR xAI launched standalone Speech-to-Text (STT) and Text-to-Speech (TTS) APIs built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support Grok’s STT is among the cheapest at $0.10/hour (batch) and $0.20/hour (streaming), with features like speaker diarization, word-level timestamps, and Inverse Text Normalization The TTS offering ships with five expressive voices, inline expression control tags ([laugh], [sigh], whisper), and covers 20 languages - priced at $4.20 per million characters xAI’s pitch is vendor consolidation: replacing three separate contracts (transcription, LLM, synthesis) with one stack on one billing account The best fit is teams already building on Grok for reasoning - for lowest-latency TTS, ElevenLabs Flash v2.5 at ~75ms is still unmatched xAI has released two standalone voice APIs - Speech-to-Text (STT) and Text-to-Speech (TTS) - built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support. The move puts xAI in direct competition with ElevenLabs, Deepgram, and AssemblyAI, three companies that have owned the enterprise voice API market for years.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-19 21:07:00 +0000 +0000'>April 19, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-19 21:07:00 +0000 +0000'>April 19, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale" href="https://jamesm.blog/ai/grok-voice-apis/"></a>
 </article>
 
@@ -283,11 +280,10 @@ The interesting question isn’t whether Grok’s voice tech is good. It clearly
     </h2>
   </header>
   <div class="entry-content">
-    <p>The pace of AI development over the past three years is genuinely unlike anything in recent economic history. The Stanford AI Index has tracked frontier model capability roughly doubling on a yearly cadence, and private AI investment has reached levels that dwarf the dot-com peak in inflation-adjusted terms. What’s less widely understood is what that pace actually means for competition, investment, and the structure of the economy.
-The Build Time Collapse It’s not just that AI is writing code faster. Build times are collapsing across the entire software stack - design, implementation, testing, deployment - and that changes the rules of competition.
+    <p>TL;DR AI is collapsing build times across the entire software stack, meaning small teams can now ship in weeks what once required 50-person organisations working for a year Four plausible futures are mapped: Broad Abundance (gains widely distributed), Winner-Take-Most (rents accrue to infrastructure owners), Techno-Feudalism (intelligence rented from platform landlords), and Managed Transition (governments respond with UBI and regulation) Signals to watch include open-source model performance, vertical integration of chips and data centres, platform lock-in of agentic workflows, and serious UBI pilots at national scale Leading AI researchers including Geoffrey Hinton and Yoshua Bengio argue the critical variable is no longer how capable models become, but how gains are distributed and how fast institutions adapt Across most scenarios, the things that hold their value are consistent: trust, relationships, physical presence, and creativity rooted in specific human experience The pace of AI development over the past three years is genuinely unlike anything in recent economic history. The Stanford AI Index has tracked frontier model capability roughly doubling on a yearly cadence, and private AI investment has reached levels that dwarf the dot-com peak in inflation-adjusted terms. What’s less widely understood is what that pace actually means for competition, investment, and the structure of the economy.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-19 19:26:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-19 19:26:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Four Futures for the Machine-Speed Economy" href="https://jamesm.blog/ai/four-futures-machine-speed-economy/"></a>
 </article>
 
@@ -300,11 +296,10 @@ The Build Time Collapse It’s not just that AI is writing code faster. Build ti
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most predictions about the future of AI fall into two flavours. One camp says we are months away from machines that can do everything a human can do, and we should brace for either paradise or extinction. The other camp says the whole thing is a bubble, the models have plateaued, and in five years we will be talking about something else.
-Both are wrong, and both are wrong for the same reason. They are trying to forecast a single headline event - arrival of AGI, collapse of the hype - when the actual future of AI is not an event. It is a slow, uneven transformation of how ordinary work gets done.
+    <p>TL;DR AI will not arrive as a single dramatic event - it will be a slow, uneven embedding of intelligence into ordinary software until it becomes invisible infrastructure, like electricity The agent layer will eat the interface: for a growing share of tasks, humans will give high-level intent to an agent that drives other software on their behalf, making the SaaS dashboard model look dated The scarce resource shifts from generating answers to judging which answer is right - hiring, education, and professional identity will all restructure around this AI splits into two permanent species: powerful, expensive frontier models in the cloud, and fast, private, cheap local models - with hybrid architectures winning in practice Reliability, not capability, becomes the dominant engineering problem as agents move from co-pilots to operators; the field must invent new testing and monitoring disciplines for non-deterministic systems Most predictions about the future of AI fall into two flavours. One camp says we are months away from machines that can do everything a human can do, and we should brace for either paradise or extinction. The other camp says the whole thing is a bubble, the models have plateaued, and in five years we will be talking about something else.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-19 07:55:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-19 07:55:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to The Next Decade of AI: What Actually Happens From Here" href="https://jamesm.blog/ai/the-next-decade-of-ai/"></a>
 </article>
 
@@ -347,8 +342,7 @@ For background on how these costs behave over time, see Token Economics: Why Cos
     </h2>
   </header>
   <div class="entry-content">
-    <p>The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
-Key Best Practices to Master Prompt Engineering Fundamentals Clear, specific prompts produce better results than vague requests. The foundation of working with any LLM is understanding how to communicate your intent precisely. Break complex tasks into smaller, manageable steps and provide context about what success looks like.
+    <p>TL;DR Prompt engineering, token efficiency, and structured outputs are the core skills for working effectively with any AI model System design patterns - streaming, caching, structured outputs, graceful fallbacks - matter as much as prompting fluency Testing and validation in AI systems requires clear evaluation criteria and production monitoring, not just pre-launch checks Official documentation from model providers (Anthropic, OpenAI, Google) is the most reliable source of best practices The curated resources table covers everything from GitHub Copilot to local model deployment with Ollama The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-18 08:15:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -385,9 +379,7 @@ Key Best Practices to Master Prompt Engineering Fundamentals Clear, specific pro
     </h2>
   </header>
   <div class="entry-content">
-    <p>If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
-The difference isn’t randomness. It’s a mental model problem.
-The Problem With “Just Ask” Most people treat Claude like a search engine with a long context window. You dump information, ask a question, wait for an answer. If you don’t like it, you ask again. Iterate until satisfied.
+    <p>TL;DR Token costs don’t scale linearly with productivity - the context window compounds with every follow-up message, so a five-message conversation can cost 2-3x more than one well-structured request Compression is your biggest lever: cutting a prompt in half before sending it reduces cost and often improves answer quality by removing noise Batch tasks that share context together; don’t batch unrelated tasks - real batching spreads the setup cost across related work Build reusable systems (templates, project files, prompt prefixes) instead of solving the same problem repeatedly and paying the context cost each time Prompt caching can cut input token costs by 80-90% on workloads with stable prefixes - the single biggest structural saving most teams are missing If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-17 21:36:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>

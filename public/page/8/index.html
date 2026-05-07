@@ -234,8 +234,7 @@ For background on how these costs behave over time, see Token Economics: Why Cos
     </h2>
   </header>
   <div class="entry-content">
-    <p>The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
-Key Best Practices to Master Prompt Engineering Fundamentals Clear, specific prompts produce better results than vague requests. The foundation of working with any LLM is understanding how to communicate your intent precisely. Break complex tasks into smaller, manageable steps and provide context about what success looks like.
+    <p>TL;DR Prompt engineering, token efficiency, and structured outputs are the core skills for working effectively with any AI model System design patterns - streaming, caching, structured outputs, graceful fallbacks - matter as much as prompting fluency Testing and validation in AI systems requires clear evaluation criteria and production monitoring, not just pre-launch checks Official documentation from model providers (Anthropic, OpenAI, Google) is the most reliable source of best practices The curated resources table covers everything from GitHub Copilot to local model deployment with Ollama The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-18 08:15:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -315,9 +314,7 @@ If you’ve ever felt lost looking at a Eurorack case, this post is for you. We�
     </h2>
   </header>
   <div class="entry-content">
-    <p>If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
-The difference isn’t randomness. It’s a mental model problem.
-The Problem With “Just Ask” Most people treat Claude like a search engine with a long context window. You dump information, ask a question, wait for an answer. If you don’t like it, you ask again. Iterate until satisfied.
+    <p>TL;DR Token costs don’t scale linearly with productivity - the context window compounds with every follow-up message, so a five-message conversation can cost 2-3x more than one well-structured request Compression is your biggest lever: cutting a prompt in half before sending it reduces cost and often improves answer quality by removing noise Batch tasks that share context together; don’t batch unrelated tasks - real batching spreads the setup cost across related work Build reusable systems (templates, project files, prompt prefixes) instead of solving the same problem repeatedly and paying the context cost each time Prompt caching can cut input token costs by 80-90% on workloads with stable prefixes - the single biggest structural saving most teams are missing If you’re paying attention to your Claude usage, you’ve probably noticed something: your token bills don’t scale linearly with your productivity. Sometimes a conversation that feels quick costs three times more than expected. Other conversations that took hours feel suspiciously cheap.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-17 21:36:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
@@ -338,11 +335,10 @@ The Problem With “Just Ask” Most people treat Claude like a search engine wi
     </h2>
   </header>
   <div class="entry-content">
-    <p>Design-to-development handoff has always been a friction point. Designers create something beautiful. Engineers interpret Figma specs, argue about spacing, squint at color values. SVG assets get lost. Responsive behavior gets reimplemented. By the time the code matches the design, half the polish is gone.
-Claude Design, Anthropic’s new design collaboration tool, attacks this problem directly. Instead of designers creating static files that engineers have to decode, Claude Design lets both sides work in the same tool - with Claude as the bridge.
+    <p>TL;DR Claude Design is Anthropic’s new design collaboration tool that lets designers and engineers work in the same environment, with Claude as the bridge between intent and implementation It reads your codebase and existing design files during onboarding so generated designs respect your team’s actual constraints, not hypothetical best practices The strongest feature is its integration with Claude Code: designs are packaged into handoff bundles that encode intent and context, not just pixels and spacing values Collaboration happens inside the tool - inline comments, on-the-fly adjustments, and consistent application of changes across the whole design - removing the need for scattered Figma comments and DMs Currently in research preview for paid Claude tiers; works best for teams already using Claude across writing, coding, and research rather than teams deeply embedded in the Figma ecosystem Design-to-development handoff has always been a friction point. Designers create something beautiful. Engineers interpret Figma specs, argue about spacing, squint at color values. SVG assets get lost. Responsive behavior gets reimplemented. By the time the code matches the design, half the polish is gone.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-17 19:11:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-17 19:11:00 +0000 +0000'>April 17, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Claude Design: Closing the Design-to-Code Gap" href="https://jamesm.blog/ai/claude-design/"></a>
 </article>
 
@@ -360,8 +356,7 @@ Claude Design, Anthropic’s new design collaboration tool, attacks this problem
     </h2>
   </header>
   <div class="entry-content">
-    <p>Opus 4.7 is a meaningful step forward. Not a revolutionary rewrite, but a targeted upgrade that addresses friction points developers actually experience: vision quality, autonomous task handling, and creative output.
-The headline feature is deceptively simple - images up to 2,576 pixels. That’s 3.75 megapixels, roughly three times the previous limit. In practice, this means Claude can now read a dense screenshot without losing details, extract data from complex charts without ambiguity, and handle UI testing images that show real context instead of cropped fragments.
+    <p>TL;DR Claude Opus 4.7 raises the vision ceiling to 3.75 megapixels (2,576 pixels), letting Claude read dense screenshots and complex charts without losing detail Autonomous software engineering is the headline upgrade - Opus 4.7 can handle complex, long-running tasks with reduced need for constant direction A new xhigh effort level for extended thinking gives developers explicit control over the speed-versus-reasoning tradeoff Improved instruction-following and resistance to prompt injection make it safer for production use Pricing remains unchanged at $5 per million input tokens and $25 per million output tokens - this is the new standard, not a premium tier Opus 4.7 is a meaningful step forward. Not a revolutionary rewrite, but a targeted upgrade that addresses friction points developers actually experience: vision quality, autonomous task handling, and creative output.
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-16 16:15:00 +0000 +0000'>April 16, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>

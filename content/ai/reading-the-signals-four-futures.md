@@ -9,6 +9,14 @@ cover:
   alt: Reading the Signals Four Futures Banner
 ---
 
+## TL;DR
+
+- Scoring four future scenarios against real-world signals: **winner-take-most** has the clearest corporate and capital logic behind it as of April 2026, driven by vertical integration across chips, data centres, models, and distribution
+- **Broad abundance** gets partial credit - inference costs have fallen two orders of magnitude and open-weight models are competitive, but institutional-level gains in healthcare and education haven't materialized
+- **Techno-feudalism** is quietly accumulating through agentic platform lock-in (Claude Code, Cursor, Devin) and payment rail consolidation, with competition enforcement as the main counterweight
+- **Managed transition** is the weakest scenario - UBI pilots haven't scaled nationally, compute taxation remains a proposal, and institutional response cycles are mismatched with AI deployment speed
+- The three signals that will determine where this goes: whether the open-weight frontier gap widens or closes, whether agentic memory becomes portable or platform-owned, and whether any serious economy moves past pilot-scale on redistribution
+
 I recently [mapped four plausible futures](/ai/four-futures-machine-speed-economy) for the machine-speed economy and listed the signals to watch for each. The obvious next question is the one I deliberately held back from answering: which signals are actually firing right now, and what does the mix say about where we're heading?
 
 The honest answer is that all four scenarios have real evidence in their favour, which is part of why this moment is so hard to read. But the weights aren't equal. Some signals are strengthening; others have stalled or reversed. Here's what the dashboard looks like this week.

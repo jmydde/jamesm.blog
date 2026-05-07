@@ -6,6 +6,14 @@ tags: ["ai-model","benchmark","claude","anthropic"]
 description: "Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks."
 ---
 
+## TL;DR
+
+- **Claude Mythos Preview** set new records across coding, mathematics, and reasoning: 93.9% on SWE-bench Verified, 97.6% on USAMO 2026, and leads GPT-5.4 on every shared benchmark
+- The USAMO result - a 55-point jump over Claude Opus 4.6 - suggests genuinely different reasoning capabilities, not just incremental improvement, and Anthropic screened against memorization concerns
+- Despite dominating benchmarks, Mythos is not publicly available because it autonomously discovered **thousands of zero-day vulnerabilities** across every major OS and browser
+- Access is restricted to 12 major tech and finance companies via **Project Glasswing**, a defensive cybersecurity research initiative backed by $100M in Anthropic usage credits
+- The wider implication: we have entered an era where "the best model" and "the publicly available model" may be permanently different things, with security becoming a deployment constraint alongside capability
+
 Anthropic released Claude Mythos Preview on April 7, 2026 - and immediately announced it won't be publicly available.
 
 The reason? It's too dangerous.
