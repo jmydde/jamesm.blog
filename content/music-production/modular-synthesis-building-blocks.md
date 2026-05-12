@@ -144,7 +144,6 @@ The building blocks are simple. The combinations are infinite.
 
 ## Resources
 
-- [Eurorack Fundamentals: Format, Power, and Signal Flow](https://jamesm.blog/music-production/eurorack-fundamentals) - If you're planning to buy modules, start here.
 - [Mutable Instruments](https://mutable-instruments.net/) - High-quality, documented open-source modules that teach you what each component does.
 - [VCV Rack](https://vcvrack.com/) - Free software modular synth. A perfect learning tool before you buy hardware.
 - [Patch Me In](https://www.patchmein.com/) - Community patches and learning resources.

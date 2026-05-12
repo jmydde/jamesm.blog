@@ -48,6 +48,6 @@ What is currently in your plugin folder? Let me know which synth has become your
 
 ## Useful Links
 - [Arturia Pigments](https://www.arturia.com/products/software-instruments/pigments/overview)
-- [U-he Zebra](https://u-he.com/products/zebra2/)
+- [U-he Zebra](https://u-he.com/products/zebra2)
 - [Xfer Records](https://xferrecords.com/products/serum)
 - [Vital Audio](https://vital.audio/)

@@ -110,7 +110,7 @@ For a working engineer, the practical implication is the same regardless of whic
 
 ## Further Watching
 
-### The AI Expert Who Thinks We've Already Lost — Dr Roman Yampolskiy
+### The AI Expert Who Thinks We've Already Lost - Dr Roman Yampolskiy
 {{< youtube "3I60uZEqXr0" >}}
 
 ### The Man Who Proved We Can't Control AI (And What That Means for Humanity) | Roman Yampolskiy

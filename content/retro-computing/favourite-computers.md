@@ -11,7 +11,7 @@ A list of all my favourite computers, phones & games consoles I've mostly owned 
 ## Computers
 
 ### Commodore PET (1977)
-The [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET/) was the first computer I learnt BASIC in the school computing club (1981)
+The [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET) was the first computer I learnt BASIC in the school computing club (1981)
 
 The first program I wrote was an animated Christmas card as part of a  school competition, I was quite proud of it.  We were meant to showcase all of our programs at a public school event however I forgot to take the tape with me to school, I was truly gutted.   I also mislaid the tape at home so have lost all those initial programs I wrote :(
 
@@ -44,19 +44,19 @@ I spent so long on the Spectrum one of my sisters suggested I should go to compu
 
 #### Peripherals
 - [Alphacom 32](https://worldofspectrum.org/hardware/feat11.html) thermal printer
-- [Competition Pro joystick](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics/)
-- [Kempston joystick interface](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics/)
+- [Competition Pro joystick](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics)
+- [Kempston joystick interface](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics)
 - Tape player/recorder
 - I always wanted a [ZX Microdrive](https://en.wikipedia.org/wiki/ZX_Microdrive) but couldn't afford it
 
 #### Magazines
-- [Crash](https://en.wikipedia.org/wiki/Crash_(magazine)/)
+- [Crash](https://en.wikipedia.org/wiki/Crash_(magazine))
 
 ### Commodore 64 (1982)
-I was just blown away by this computer, it was the first time I appreciated the impact of [Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law/)
+I was just blown away by this computer, it was the first time I appreciated the impact of [Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law)
 
 #### Peripherals
-- [Action Replay](https://rr.pokefinder.org/wiki/Action_Replay/) (Datel Electronics)
+- [Action Replay](https://rr.pokefinder.org/wiki/Action_Replay) (Datel Electronics)
   - This was pretty much the first peripheral I bought for a home computer, I was blown away that the computer could be extended and modified at the hardware level.  I used this to save game state and hacking games typing in pokes & cheat codes etc.
 - [Commodore 64 Communications Modem (Compunet)](https://www.nightfallcrew.com/27/02/2021/commodore-64-communications-modem-compunet/)
   - This completely blew my mind as it was the first time I got online from home, to connect to other computer systems such as bulletin boards & Compunet.  
@@ -69,24 +69,24 @@ My dad had one of these at home, although I only really used it to play a few ga
 - [Apple IIe Wikipedia](https://en.wikipedia.org/wiki/Apple_IIe)
 
 ### IBM Personal Computer (1983)
-We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_Computer/) at computing college to learn;
-- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language/) - low level programming
-- [Borland Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal/) - programming language
+We used the [IBM Personal Computer](https://en.wikipedia.org/wiki/IBM_Personal_Computer) at computing college to learn;
+- [Assembly language](https://en.wikipedia.org/wiki/Assembly_language) - low level programming
+- [Borland Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal) - programming language
 - [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3) - spreadsheet
 - [Microsoft MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) - operating system
 
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/IBM_PC-IMG_7271_%28transparent%29.png/1920px-IBM_PC-IMG_7271_%28transparent%29.png" title="IBM Personal Computer" height=250 width=300 >}}
 
 ### Data General Eclipse MV/15000 (1986)
-As part of my first job as a computer operator (1992) I was responsible for operating the [Data General](https://en.wikipedia.org/wiki/Data_General/) **MV/15000** mainframe computer & writing automation scripts.  This has been one of my favourite jobs over the years as I had a lot of responsibility and had to do a lot of problem solving late into the evening, I learnt a lot.   We didn't have the internet or up-to-date manuals back then :)
+As part of my first job as a computer operator (1992) I was responsible for operating the [Data General](https://en.wikipedia.org/wiki/Data_General) **MV/15000** mainframe computer & writing automation scripts.  This has been one of my favourite jobs over the years as I had a lot of responsibility and had to do a lot of problem solving late into the evening, I learnt a lot.   We didn't have the internet or up-to-date manuals back then :)
 {{< figure src="images/Data-General-MV15000-1986.png" title="Data General MV/15000" >}}
 
 #### Peripherals
-- [Kyocera Laser Printer](https://en.wikipedia.org/wiki/Kyocera/)
+- [Kyocera Laser Printer](https://en.wikipedia.org/wiki/Kyocera)
   - I programmed using Page Description Language (PDL) to re-create a load of forms which we previously had to buy externally pre-printed, this saved us a lot of money.
 
 #### Software
-- [AOS/VS II](https://en.wikipedia.org/wiki/AOS/VS_II/) - Operating System
+- [AOS/VS II](https://en.wikipedia.org/wiki/AOS/VS_II) - Operating System
   - [CLI32](http://phrack.org/issues/44/14.html/) - developing automation scripts
 - [Micro Focus COBOL](https://en.wikipedia.org/wiki/Micro_Focus) - developing reports
 - [Cyberscience CyberQuery / CyberScreen (CQCS)](https://www.cyberscience.com/what-is-cyberquery/) - building Business Intelligence & database solutions
