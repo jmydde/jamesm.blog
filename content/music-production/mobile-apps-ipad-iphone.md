@@ -97,20 +97,20 @@ From there, follow whatever sound is missing rather than collecting apps for the
 
 ### KORG Gadget 3 - Quick Start Guide & Song Construction
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7HneyRe-z1U" title="KORG Gadget 3 - Quick Start Guide & Song Construction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-for-downgrade" allowfullscreen></iframe>
+{{< youtube 7HneyRe-z1U >}}
 
 ### Logic Pro for iPad: Do THIS First
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DVFSZUsnHGA" title="Logic Pro for iPad: Do THIS First" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-for-downgrade" allowfullscreen></iframe>
+{{< youtube DVFSZUsnHGA >}}
 
 ### Ableton Note - Getting Started
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-5RJd2sXCf4" title="Ableton Note - Getting Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-for-downgrade" allowfullscreen></iframe>
+{{< youtube -5RJd2sXCf4 >}}
 
 ### My New iPad Music Production Setup 2026
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KfO5nLL_RV4" title="My New iPad Music Production Setup 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-for-downgrade" allowfullscreen></iframe>
+{{< youtube KfO5nLL_RV4 >}}
 
 ### How To Set Up AUM To Record Into Cubasis
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Kpb313MT9HQ" title="How To Set Up AUM To Record Into Cubasis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-for-downgrade" allowfullscreen></iframe>
+{{< youtube Kpb313MT9HQ >}}

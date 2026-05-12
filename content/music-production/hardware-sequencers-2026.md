@@ -87,19 +87,19 @@ In the era of [spec-driven development](/ai/spec-driven-development/), where eve
 ## Video Tutorials & Reviews
 
 ### Squarp Hapax Review - 4 Pros, 4 Cons & Advanced Sequencing Tutorial
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/tTLQx2kexNM" title="Squarp Hapax Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube tTLQx2kexNM >}}
 
 ### Teenage Engineering OP-XY - The Ultimate Deep Dive
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/6ElRS6F5g2c" title="Teenage Engineering OP-XY Deep Dive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube 6ElRS6F5g2c >}}
 
 ### Elektron Digitakt II Review - Still the King of Samplers?
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/oFmmuhV64WU" title="Elektron Digitakt II Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube oFmmuhV64WU >}}
 
 ### OXI One MKII - What's New?
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/ckcGreSIKxY" title="OXI One MKII What's New" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube ckcGreSIKxY >}}
 
 ### Ultimate MIDI Sequencers Compared - OXI One vs Synthstrom Deluge Shootout
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/oBb0mXGT5s4" title="Ultimate MIDI Sequencers Compared" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube oBb0mXGT5s4 >}}
 
 **Related posts:**
 
