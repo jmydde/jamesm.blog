@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","sergey-brin","interview"]
 ---
 
+## TL;DR
+
+- A growing collection of interviews with **Sergey Brin**, Google co-founder and an active voice on AI now that he is back hands-on at Google
+- His perspective spans foundational models, open-source strategy, AI robotics, and the future of human-computer interaction
+- Sits alongside the [Geoffrey Hinton interviews](/ai/geoffrey-hinton-interviews/) and other founder-level commentary on where AI is headed
+- Useful for understanding Google's internal positioning on frontier AI from someone who has chosen to engage directly rather than from a distance
+- Page will be expanded as new interviews appear - this is a working index, not a finished archive
+
 ## About
 
 Sergey Brin is the co-founder of Google and a prominent voice in AI discussion and investment. His perspective on foundational AI developments, the role of open-source models, and the future of human-computer interaction has shaped industry thinking as Google and others navigate the competitive landscape of frontier AI.

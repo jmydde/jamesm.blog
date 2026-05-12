@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","job","future-of-work"]
 ---
 
+## TL;DR
+
+- An "emergency debate" framing the case that AI agents will displace large parts of the workforce inside a 24-month horizon
+- Contributors disagree on speed but agree the direction is settled - the question is which sectors move first, not whether they move
+- Near-term pressure is on roles built around predictable, repeatable cognitive work; durable roles cluster around judgment, taste, and accountability
+- Education and training systems are slower to adapt than the technology, which creates a real workforce mismatch in the meantime
+- Worth watching as a snapshot of the 2025 conversation - useful frame even where you disagree with the specific predictions
+
 ## About
 
 This debate explores urgent questions about AI's impact on employment and the workforce. Contributors discuss the timeline for AI-driven job displacement and the societal preparations needed to adapt to rapid automation.

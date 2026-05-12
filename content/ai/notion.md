@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'tool', 'productivity']
 ---
 
+## TL;DR
+
+- **Notion** is a flexible workspace for notes, documents, databases, and task management - extended with **Notion AI** as a paid add-on
+- AI features cover document Q&A, content generation, summarisation, and a writing assistant for grammar and tone
+- Strongest as a single home for personal knowledge, team wikis, and lightweight project management - one workspace instead of three tools
+- The AI layer is good for in-context drafting and lookup; less suited to heavy reasoning where a dedicated [LLM tool](/ai/tools/) does better
+- Pricing is per-seat for Notion plus an AI add-on; check the current tiers before committing for a team
+
 [Notion](https://www.notion.so/) is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.
 
 ## Features

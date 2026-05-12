@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","deepseek","ai-model"]
 ---
 
+## TL;DR
+
+- **DeepSeek**'s January 2025 release of R1 shook markets - a frontier-grade reasoning model trained for a reported $6M, a fraction of US lab budgets
+- The app shot to #1 on Apple's App Store inside days, and the open weights forced an industry-wide rethink of what training really costs
+- Subsequent releases (V3 and beyond) cemented DeepSeek as a serious competitor in the open-source and cost-efficient AI category
+- The story is less "China caught up" and more "the cost floor moved" - implications for closed-model pricing, GPU demand, and open-weight strategy
+- Worth understanding as the moment that made cheap, capable, open models a credible default rather than a curiosity
+
 ## Overview
 Wow, crazy times, **the best technology in the world is now becoming incredibly cheap and accessible to everyone!** 🤯
 

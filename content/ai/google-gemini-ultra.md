@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'chatbot', 'google', 'gemini']
 ---
 
+## TL;DR
+
+- **Gemini Ultra** was Google DeepMind's flagship Gemini tier at launch in early 2024 - notable for hitting 90.0% on the MMLU benchmark
+- Multimodal across text, images, video, and code, with strong coding and reasoning performance for its era
+- Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and other specialised variants in the Gemini family
+- Documented here for historical context - the original Ultra branding is no longer the main consumer-facing model
+- Access today is through [AI Studio](https://aistudio.google.com/), [Vertex AI](https://cloud.google.com/vertex-ai), and Google One AI Premium plans
+
 ## About
 
 **Note:** Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.

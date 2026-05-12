@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'openai', 'microsoft', 'stargate', 'supercomputer', 'infrastructure']
 ---
 
+## TL;DR
+
+- **Stargate** is a $500B AI infrastructure programme announced in January 2025 - a joint effort between [Microsoft](https://www.microsoft.com/), [OpenAI](https://openai.com/), [SoftBank](https://group.softbank/en/), and [Oracle](https://www.oracle.com/)
+- Construction has already started in Texas with more sites planned, aimed at training and serving the next generation of frontier AI models
+- The scale signals where compute spend is heading - tens of billions per cluster is becoming the price of admission at the frontier
+- Combines OpenAI's models, Microsoft's cloud, SoftBank's capital, and Oracle's enterprise infrastructure into one of the largest tech buildouts ever announced
+- Worth tracking as a useful proxy for how seriously the industry takes the compute side of the AGI race
+
 ## About
 
 Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between [Microsoft](https://www.microsoft.com/), [OpenAI](https://openai.com/), [SoftBank](https://group.softbank/en/), and [Oracle](https://www.oracle.com/) to build a series of massive AI supercomputers and data centers.

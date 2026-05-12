@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","geoffrey-hinton","interview"]
 ---
 
+## TL;DR
+
+- An evolving collection of interviews with **Geoffrey Hinton**, the British-Canadian "Godfather of AI" whose work on backpropagation underpins modern deep learning
+- Hinton spent decades at the University of Toronto and Google before leaving in 2023 to speak more freely about AI risk
+- The interviews trace the arc from foundational technical work to public warnings - including his 2024 Nobel Prize in Physics for neural network research
+- Recurring themes: timelines for advanced AI, job displacement, existential risk, and what regulation realistically looks like
+- A useful entry point if you want to understand the safety-concerned wing of the AI community in the person's own words
+
 ![Geoffrey Hinton - AI Researcher and Pioneer](/images/Geoffrey-Hinton.jpg)
 
 ## About

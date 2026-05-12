@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'boston dynamics', 'robot', 'humanoid-robot']
 ---
 
+## TL;DR
+
+- **All New Atlas** is [Boston Dynamics](https://bostondynamics.com/)' first fully-electric humanoid - a clean break from the hydraulic Atlas it replaced
+- Designed for real-world work environments rather than stage demos, with a body more human-like than anything Boston Dynamics has shipped before
+- Still a research platform - commercial and consumer availability is some way off, but the underlying control and balance work is impressive
+- Builds on decades of agility and mobility research and signals where the humanoid form factor is heading next
+- Part of a broader 2024-2026 wave of humanoid programmes from [Boston Dynamics](https://bostondynamics.com/), [Tesla](https://www.tesla.com/optimus), [1X](https://www.1x.tech/), and others
+
 [Boston Dynamics](https://bostondynamics.com/) has revealed its most astonishing humanoid robot so far.
 
 The [All New Atlas](https://bostondynamics.com/atlas/) is Boston Dynamic's first all-electric humanoid robot, designed for real-world applications, it has a far more human-like body. However it's still a long way from commercial or consumer availability.

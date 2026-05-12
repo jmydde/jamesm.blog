@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'chatbot', 'chatgpt', 'training-course']
 ---
 
+## TL;DR
+
+- A curated index of AI courses, books, and learning platforms - organised by provider so you can compare offerings quickly
+- Covers free starting points ([Elements of AI](https://www.elementsofai.com/), [Fast.ai](https://www.fast.ai/)) through to paid professional certificates ([Coursera](https://www.coursera.org/), [DeepLearning.AI](https://www.deeplearning.ai/))
+- Includes both broad foundations (machine learning, deep learning) and specific specialisations (prompt engineering, LLM application development)
+- Use it as a launching point - pick one course aligned to your goal and finish it before grazing across the rest
+- Updated as new programmes appear; the structure favours longevity over hype
+
 ## Books
 - [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python/)
 - [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf/)

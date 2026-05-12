@@ -5,6 +5,14 @@ draft: false
 tags: ['ai', 'chatbot', 'google', 'gemini']
 ---
 
+## TL;DR
+
+- **Gemini Advanced** was Google's tier-based offering for power users at launch in early 2024 - enhanced reasoning, longer context, and multimodal input
+- Built around [Gemini Ultra](/ai/google-gemini-ultra/) at first, then succeeded by Gemini 2.0 Flash, 2.5 Pro, and other newer models
+- Use cases: coding, creative collaboration, long-form multi-turn conversations, document and media analysis
+- Available through Google One AI Premium with web, mobile, and API access; pricing has shifted as the lineup evolved
+- Documented here as the original 2024 positioning - check Google's current site for what "Advanced" maps to today
+
 ## About
 
 **Note:** Gemini Advanced (released early 2024) was Google's tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.

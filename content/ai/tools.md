@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","music","text-to-speech","writing","copilot","robotics"]
 ---
 
+## TL;DR
+
+- A broad, categorised index of AI tools - art and design, chatbots, code, music, text-to-speech, writing, and more
+- Each entry is a one-line description so you can scan quickly and click into anything interesting
+- Best used as a discovery surface - bookmark the ones that match your work and ignore the rest
+- Heavily skewed toward tools that have actually been useful or notable rather than every product in the space
+- Living list - the tools update as the ecosystem moves, so the categories matter more than any single entry
+
 ## AI Tools
 
 ### Art & Graphic Design

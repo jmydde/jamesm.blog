@@ -5,6 +5,14 @@ draft: false
 tags: ["ai","chatbot","chatgpt","llm","deep-learning","education"]
 ---
 
+## TL;DR
+
+- A curated set of the clearest technical explainers of foundational AI concepts - the ones that build real intuition, not just vocabulary
+- Covers fundamentals (backprop, neural networks), transformers and language models, and generative models like diffusion
+- Authors include [Andrej Karpathy](https://karpathy.medium.com/), [Stephen Wolfram](https://writings.stephenwolfram.com/), and NVIDIA's developer team - high signal, low fluff
+- Read one piece slowly rather than skimming five - the value is in working through the maths, not collecting links
+- Pairs well with the [courses list](/ai/courses/) if you want a structured path after the explainers click
+
 A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.
 
 ## Fundamentals
