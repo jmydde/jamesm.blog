@@ -1,7 +1,7 @@
 ---
 title: "Real-Time Data Processing: Stream Processing vs Batch Processing"
 date: 2026-05-10T08:00:00+01:00
-draft: false
+draft: true
 tags: ["streaming", "batch", "data-engineering", "kafka", "spark", "architecture"]
 description: "A direct comparison of stream and batch processing as architectural choices, the operational and cost tradeoffs that the marketing material does not mention, and the patterns that work when you need both."
 cover:
