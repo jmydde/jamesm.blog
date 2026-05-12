@@ -25,33 +25,32 @@
       <link>https://jamesm.blog/ai/google-gemini-ultra/</link>
       <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-ultra/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Google Gemini Ultra&lt;/a&gt; was &lt;a href=&#34;https://deepmind.google/&#34;&gt;Google DeepMind&lt;/a&gt;’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Performance Highlights&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
-&lt;li&gt;Multimodal reasoning across text, images, video, and code.&lt;/li&gt;
-&lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Ultra&lt;/strong&gt; was Google DeepMind&amp;rsquo;s flagship Gemini tier at launch in early 2024 - notable for hitting 90.0% on the MMLU benchmark&lt;/li&gt;
+&lt;li&gt;Multimodal across text, images, video, and code, with strong coding and reasoning performance for its era&lt;/li&gt;
+&lt;li&gt;Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and other specialised variants in the Gemini family&lt;/li&gt;
+&lt;li&gt;Documented here for historical context - the original Ultra branding is no longer the main consumer-facing model&lt;/li&gt;
+&lt;li&gt;Access today is through &lt;a href=&#34;https://aistudio.google.com/&#34;&gt;AI Studio&lt;/a&gt;, &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI&lt;/a&gt;, and Google One AI Premium plans&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Gemini Advanced</title>
       <link>https://jamesm.blog/ai/google-gemini-advanced/</link>
       <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;
-&lt;p&gt;Google Gemini Advanced offered enhanced capabilities over base Gemini, designed for power users and professionals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Multimodal Reasoning: Analyzes text combined with images, video, and other modalities.&lt;/li&gt;
-&lt;li&gt;Coding Expertise: Understands, explains, and generates code in multiple programming languages.&lt;/li&gt;
-&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate various text formats for digital content.&lt;/li&gt;
-&lt;li&gt;Long-form Conversations: Extended context windows for deeper, multi-turn interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Advanced&lt;/strong&gt; was Google&amp;rsquo;s tier-based offering for power users at launch in early 2024 - enhanced reasoning, longer context, and multimodal input&lt;/li&gt;
+&lt;li&gt;Built around &lt;a href=&#34;https://jamesm.blog/ai/google-gemini-ultra/&#34;&gt;Gemini Ultra&lt;/a&gt; at first, then succeeded by Gemini 2.0 Flash, 2.5 Pro, and other newer models&lt;/li&gt;
+&lt;li&gt;Use cases: coding, creative collaboration, long-form multi-turn conversations, document and media analysis&lt;/li&gt;
+&lt;li&gt;Available through Google One AI Premium with web, mobile, and API access; pricing has shifted as the lineup evolved&lt;/li&gt;
+&lt;li&gt;Documented here as the original 2024 positioning - check Google&amp;rsquo;s current site for what &amp;ldquo;Advanced&amp;rdquo; maps to today&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Current Access (2026)&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -39,7 +39,15 @@
       <link>https://jamesm.blog/ai/tools/</link>
       <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A broad, categorised index of AI tools - art and design, chatbots, code, music, text-to-speech, writing, and more&lt;/li&gt;
+&lt;li&gt;Each entry is a one-line description so you can scan quickly and click into anything interesting&lt;/li&gt;
+&lt;li&gt;Best used as a discovery surface - bookmark the ones that match your work and ignore the rest&lt;/li&gt;
+&lt;li&gt;Heavily skewed toward tools that have actually been useful or notable rather than every product in the space&lt;/li&gt;
+&lt;li&gt;Living list - the tools update as the ecosystem moves, so the categories matter more than any single entry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
 &lt;h3 id=&#34;art--graphic-design&#34;&gt;Art &amp;amp; Graphic Design&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://autodraw.com&#34;&gt;AutoDraw&lt;/a&gt; - fast drawing for everyone&lt;/li&gt;
@@ -264,56 +272,30 @@
       <link>https://jamesm.blog/ai/notion/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/notion/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Database and content management with flexible views (table, calendar, gallery, timeline)&lt;/li&gt;
-&lt;li&gt;Wiki and documentation creation&lt;/li&gt;
-&lt;li&gt;Task and project management&lt;/li&gt;
-&lt;li&gt;Team collaboration and permission controls&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notion&lt;/strong&gt; is a flexible workspace for notes, documents, databases, and task management - extended with &lt;strong&gt;Notion AI&lt;/strong&gt; as a paid add-on&lt;/li&gt;
+&lt;li&gt;AI features cover document Q&amp;amp;A, content generation, summarisation, and a writing assistant for grammar and tone&lt;/li&gt;
+&lt;li&gt;Strongest as a single home for personal knowledge, team wikis, and lightweight project management - one workspace instead of three tools&lt;/li&gt;
+&lt;li&gt;The AI layer is good for in-context drafting and lookup; less suited to heavy reasoning where a dedicated &lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;LLM tool&lt;/a&gt; does better&lt;/li&gt;
+&lt;li&gt;Pricing is per-seat for Notion plus an AI add-on; check the current tiers before committing for a team&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Notion AI&lt;/strong&gt; (Available as add-on)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Q&amp;amp;A Mode:&lt;/strong&gt; Ask questions about your content and get AI-powered answers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Auto-fill:&lt;/strong&gt; Generate content automatically based on context&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Summarization:&lt;/strong&gt; Auto-summarize pages, databases, and meeting notes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Content Generation:&lt;/strong&gt; Create outlines, blog posts, and structured content&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Writing Assistant:&lt;/strong&gt; Grammar checking, tone adjustment, rephrasing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Personal knowledge management and second brain&lt;/li&gt;
-&lt;li&gt;Team documentation and wikis&lt;/li&gt;
-&lt;li&gt;Project and product management&lt;/li&gt;
-&lt;li&gt;Database and CRM systems&lt;/li&gt;
-&lt;li&gt;Meeting notes and action item tracking&lt;/li&gt;
-&lt;li&gt;Writer&amp;rsquo;s workspace with AI assistance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Free tier:&lt;/strong&gt; Core features with limited blocks&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plus:&lt;/strong&gt; $10/user/month with Notion AI&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business:&lt;/strong&gt; $18/user/month with advanced features&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enterprise:&lt;/strong&gt; Custom pricing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Notion AI transforms the platform from a note-taking tool into a collaborative knowledge system with generative capabilities, making it valuable for both individual and team knowledge workflows.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub Copilot</title>
       <link>https://jamesm.blog/ai/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; in partnership with &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;
-&lt;p&gt;GitHub Copilot uses advanced language models (&lt;a href=&#34;https://openai.com/research/gpt-4&#34;&gt;GPT-4&lt;/a&gt; based) to suggest code, functions, and solutions in real-time, right from your editor.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Code autocompletion and function generation&lt;/li&gt;
-&lt;li&gt;Copilot Chat for conversational coding assistance&lt;/li&gt;
-&lt;li&gt;Context-aware suggestions based on your codebase&lt;/li&gt;
-&lt;li&gt;Support for dozens of programming languages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Copilot&lt;/strong&gt; is the AI pair programmer from GitHub and OpenAI - code completions, function generation, and conversational assistance inside your editor&lt;/li&gt;
+&lt;li&gt;Works across &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;VS Code&lt;/a&gt;, &lt;a href=&#34;https://visualstudio.microsoft.com/&#34;&gt;Visual Studio&lt;/a&gt;, &lt;a href=&#34;https://www.jetbrains.com/&#34;&gt;JetBrains&lt;/a&gt; IDEs, &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;, and the GitHub.com editor&lt;/li&gt;
+&lt;li&gt;Tiered pricing: free for verified students, maintainers, and teachers; $10/month individual; $19/month business; enterprise with codebase indexing on top&lt;/li&gt;
+&lt;li&gt;The original mainstream AI coding assistant - now competing with &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor&lt;/a&gt;, &lt;a href=&#34;https://github.com/cline/cline&#34;&gt;Cline&lt;/a&gt;, and &lt;a href=&#34;https://www.anthropic.com/claude-code&#34;&gt;Claude Code&lt;/a&gt; on agentic depth&lt;/li&gt;
+&lt;li&gt;Best for incremental in-editor assistance; less suited to multi-file refactors where agentic tools have moved ahead&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Supported IDEs&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; in partnership with &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

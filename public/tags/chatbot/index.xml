@@ -18,7 +18,15 @@
       <link>https://jamesm.blog/ai/tools/</link>
       <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A broad, categorised index of AI tools - art and design, chatbots, code, music, text-to-speech, writing, and more&lt;/li&gt;
+&lt;li&gt;Each entry is a one-line description so you can scan quickly and click into anything interesting&lt;/li&gt;
+&lt;li&gt;Best used as a discovery surface - bookmark the ones that match your work and ignore the rest&lt;/li&gt;
+&lt;li&gt;Heavily skewed toward tools that have actually been useful or notable rather than every product in the space&lt;/li&gt;
+&lt;li&gt;Living list - the tools update as the ecosystem moves, so the categories matter more than any single entry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
 &lt;h3 id=&#34;art--graphic-design&#34;&gt;Art &amp;amp; Graphic Design&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://autodraw.com&#34;&gt;AutoDraw&lt;/a&gt; - fast drawing for everyone&lt;/li&gt;
@@ -235,40 +243,47 @@
       <link>https://jamesm.blog/ai/google-gemini-ultra/</link>
       <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-ultra/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Google Gemini Ultra&lt;/a&gt; was &lt;a href=&#34;https://deepmind.google/&#34;&gt;Google DeepMind&lt;/a&gt;’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Performance Highlights&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
-&lt;li&gt;Multimodal reasoning across text, images, video, and code.&lt;/li&gt;
-&lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Ultra&lt;/strong&gt; was Google DeepMind&amp;rsquo;s flagship Gemini tier at launch in early 2024 - notable for hitting 90.0% on the MMLU benchmark&lt;/li&gt;
+&lt;li&gt;Multimodal across text, images, video, and code, with strong coding and reasoning performance for its era&lt;/li&gt;
+&lt;li&gt;Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and other specialised variants in the Gemini family&lt;/li&gt;
+&lt;li&gt;Documented here for historical context - the original Ultra branding is no longer the main consumer-facing model&lt;/li&gt;
+&lt;li&gt;Access today is through &lt;a href=&#34;https://aistudio.google.com/&#34;&gt;AI Studio&lt;/a&gt;, &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI&lt;/a&gt;, and Google One AI Premium plans&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Gemini Advanced</title>
       <link>https://jamesm.blog/ai/google-gemini-advanced/</link>
       <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;
-&lt;p&gt;Google Gemini Advanced offered enhanced capabilities over base Gemini, designed for power users and professionals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Multimodal Reasoning: Analyzes text combined with images, video, and other modalities.&lt;/li&gt;
-&lt;li&gt;Coding Expertise: Understands, explains, and generates code in multiple programming languages.&lt;/li&gt;
-&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate various text formats for digital content.&lt;/li&gt;
-&lt;li&gt;Long-form Conversations: Extended context windows for deeper, multi-turn interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Advanced&lt;/strong&gt; was Google&amp;rsquo;s tier-based offering for power users at launch in early 2024 - enhanced reasoning, longer context, and multimodal input&lt;/li&gt;
+&lt;li&gt;Built around &lt;a href=&#34;https://jamesm.blog/ai/google-gemini-ultra/&#34;&gt;Gemini Ultra&lt;/a&gt; at first, then succeeded by Gemini 2.0 Flash, 2.5 Pro, and other newer models&lt;/li&gt;
+&lt;li&gt;Use cases: coding, creative collaboration, long-form multi-turn conversations, document and media analysis&lt;/li&gt;
+&lt;li&gt;Available through Google One AI Premium with web, mobile, and API access; pricing has shifted as the lineup evolved&lt;/li&gt;
+&lt;li&gt;Documented here as the original 2024 positioning - check Google&amp;rsquo;s current site for what &amp;ldquo;Advanced&amp;rdquo; maps to today&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Current Access (2026)&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of AI Courses &amp; Learning Resources</title>
       <link>https://jamesm.blog/ai/courses/</link>
       <pubDate>Mon, 18 Dec 2023 10:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/courses/</guid>
-      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A curated index of AI courses, books, and learning platforms - organised by provider so you can compare offerings quickly&lt;/li&gt;
+&lt;li&gt;Covers free starting points (&lt;a href=&#34;https://www.elementsofai.com/&#34;&gt;Elements of AI&lt;/a&gt;, &lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;) through to paid professional certificates (&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;, &lt;a href=&#34;https://www.deeplearning.ai/&#34;&gt;DeepLearning.AI&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Includes both broad foundations (machine learning, deep learning) and specific specialisations (prompt engineering, LLM application development)&lt;/li&gt;
+&lt;li&gt;Use it as a launching point - pick one course aligned to your goal and finish it before grazing across the rest&lt;/li&gt;
+&lt;li&gt;Updated as new programmes appear; the structure favours longevity over hype&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/deep-learning-with-python/&#34;&gt;Deep Learning with Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://hastie.su.domains/Papers/ESLII.pdf/&#34;&gt;The Elements of Statistical Learning&lt;/a&gt;&lt;/li&gt;
@@ -456,33 +471,15 @@
       <link>https://jamesm.blog/ai/explainers/</link>
       <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/explainers/</guid>
-      <description>&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;
-&lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;&lt;strong&gt;Yes you should understand backprop&lt;/strong&gt;&lt;/a&gt;  -  Andrej Karpathy&amp;rsquo;s definitive explanation of backpropagation, the fundamental algorithm behind neural network training&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;&lt;strong&gt;Deep Learning in a Nutshell: Core Concepts&lt;/strong&gt;&lt;/a&gt;  -  NVIDIA&amp;rsquo;s accessible overview of deep learning architectures and their applications&lt;/li&gt;
+&lt;li&gt;A curated set of the clearest technical explainers of foundational AI concepts - the ones that build real intuition, not just vocabulary&lt;/li&gt;
+&lt;li&gt;Covers fundamentals (backprop, neural networks), transformers and language models, and generative models like diffusion&lt;/li&gt;
+&lt;li&gt;Authors include &lt;a href=&#34;https://karpathy.medium.com/&#34;&gt;Andrej Karpathy&lt;/a&gt;, &lt;a href=&#34;https://writings.stephenwolfram.com/&#34;&gt;Stephen Wolfram&lt;/a&gt;, and NVIDIA&amp;rsquo;s developer team - high signal, low fluff&lt;/li&gt;
+&lt;li&gt;Read one piece slowly rather than skimming five - the value is in working through the maths, not collecting links&lt;/li&gt;
+&lt;li&gt;Pairs well with the &lt;a href=&#34;https://jamesm.blog/ai/courses/&#34;&gt;courses list&lt;/a&gt; if you want a structured path after the explainers click&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;transformers--language-models&#34;&gt;Transformers &amp;amp; Language Models&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;&lt;strong&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/strong&gt;&lt;/a&gt;  -  Stephen Wolfram&amp;rsquo;s phenomenal breakdown of transformer architecture and the surprising effectiveness of next-token prediction&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;&lt;strong&gt;Word2Vec Explained&lt;/strong&gt;&lt;/a&gt;  -  Foundation for understanding how words become numerical representations that models can process&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;generative-models&#34;&gt;Generative Models&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;&lt;strong&gt;How Stable Diffusion Works&lt;/strong&gt;&lt;/a&gt;  -  Detailed technical walkthrough of diffusion models for image generation, with clear diagrams and intuitive explanations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;courses--practical-learning&#34;&gt;Courses &amp;amp; Practical Learning&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt;  -  Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/chatbots-llms/&#34;&gt;Chatbots &amp;amp; Large Language Models (LLMs)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-resources-and-best-practices/&#34;&gt;The Complete AI Developer&amp;rsquo;s Guide: Resources and Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/courses/&#34;&gt;List of AI Courses &amp;amp; Learning Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/llm-context-window-arms-race/&#34;&gt;The LLM Context Window Arms Race: Does It Actually Matter?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/structured-outputs-schema/&#34;&gt;Structured Outputs: When Your AI Needs to Follow a Schema&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

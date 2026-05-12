@@ -577,38 +577,15 @@
       <link>https://jamesm.blog/ai/geoffrey-hinton-interviews/</link>
       <pubDate>Tue, 27 Jan 2026 21:07:21 +0100</pubDate>
       <guid>https://jamesm.blog/ai/geoffrey-hinton-interviews/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Geoffrey Hinton - AI Researcher and Pioneer&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Geoffrey-Hinton.jpg&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Geoffrey Hinton is a foundational figure in artificial intelligence, particularly known for his work on artificial neural networks. A British-Canadian computer scientist and cognitive psychologist, his career is defined by several major milestones:&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pioneering Deep Learning&lt;/strong&gt;: Hinton&amp;rsquo;s research helped lay the groundwork for the resurgence of deep learning, a powerful technique that enables computers to learn from vast amounts of data. This has led to advancements in areas like image recognition, speech recognition, and natural language processing.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Backpropagation Advocate&lt;/strong&gt;: He was instrumental in reviving the idea of backpropagation, a learning algorithm that allows neural networks to adjust and improve their performance.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Academia and Industry&lt;/strong&gt;: Hinton spent time at both the University of Toronto and Google (until 2023), where he co-founded the Vector Institute in Toronto and worked on Google Brain, a deep learning research team.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Awards and Recognition&lt;/strong&gt;: His contributions have been widely recognized. He&amp;rsquo;s a recipient of the prestigious Turing Award, often called the &amp;ldquo;Nobel Prize of computing,&amp;rdquo; among many other accolades.&lt;/li&gt;
+&lt;li&gt;An evolving collection of interviews with &lt;strong&gt;Geoffrey Hinton&lt;/strong&gt;, the British-Canadian &amp;ldquo;Godfather of AI&amp;rdquo; whose work on backpropagation underpins modern deep learning&lt;/li&gt;
+&lt;li&gt;Hinton spent decades at the University of Toronto and Google before leaving in 2023 to speak more freely about AI risk&lt;/li&gt;
+&lt;li&gt;The interviews trace the arc from foundational technical work to public warnings - including his 2024 Nobel Prize in Physics for neural network research&lt;/li&gt;
+&lt;li&gt;Recurring themes: timelines for advanced AI, job displacement, existential risk, and what regulation realistically looks like&lt;/li&gt;
+&lt;li&gt;A useful entry point if you want to understand the safety-concerned wing of the AI community in the person&amp;rsquo;s own words&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;interviews&#34;&gt;Interviews&lt;/h2&gt;
-&lt;h3 id=&#34;2026-01-29-godfather-of-ai-predicts-all-jobs-will-be-in-wiped-out-by-ai&#34;&gt;[2026-01-29] &amp;lsquo;Godfather of AI&amp;rsquo; predicts ALL jobs will be in &amp;lsquo;wiped out&amp;rsquo; by AI&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/eddSGoSYnSU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2025-10-09-ai-what-could-go-wrong-with-geoffrey-hinton&#34;&gt;[2025-10-09] AI: What Could Go Wrong? with Geoffrey Hinton&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/jrK3PsD3APk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2025-04-26-full-interview-godfather-of-ai-shares-prediction-for-future-of-ai-issues-warnings&#34;&gt;[2025-04-26] Full interview: &amp;ldquo;Godfather of AI&amp;rdquo; shares prediction for future of AI, issues warnings&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/qyH3NxFz3Aw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2025-01-30-godfather-of-ai-predicts-it-will-take-over-the-world&#34;&gt;[2025-01-30] ‘Godfather of AI’ predicts it will take over the world&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/vxkBE23zDmQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;2024-06-15-discussion-on-ai-safety-and-future-risks&#34;&gt;[2024-06-15] Discussion on AI safety and future risks&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://x.com/elonmusk/status/1801976488251814048&#34;&gt;View on Twitter/X&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;Geoffrey Hinton - AI Researcher and Pioneer&#34; loading=&#34;lazy&#34; src=&#34;https://jamesm.blog/images/Geoffrey-Hinton.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub Spec Kit and the Rise of Spec-Driven Development (SDD) 🤯</title>
@@ -652,7 +629,15 @@
       <link>https://jamesm.blog/ai/tools/</link>
       <pubDate>Tue, 28 Oct 2025 16:17:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/tools/</guid>
-      <description>&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A broad, categorised index of AI tools - art and design, chatbots, code, music, text-to-speech, writing, and more&lt;/li&gt;
+&lt;li&gt;Each entry is a one-line description so you can scan quickly and click into anything interesting&lt;/li&gt;
+&lt;li&gt;Best used as a discovery surface - bookmark the ones that match your work and ignore the rest&lt;/li&gt;
+&lt;li&gt;Heavily skewed toward tools that have actually been useful or notable rather than every product in the space&lt;/li&gt;
+&lt;li&gt;Living list - the tools update as the ecosystem moves, so the categories matter more than any single entry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-tools&#34;&gt;AI Tools&lt;/h2&gt;
 &lt;h3 id=&#34;art--graphic-design&#34;&gt;Art &amp;amp; Graphic Design&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://autodraw.com&#34;&gt;AutoDraw&lt;/a&gt; - fast drawing for everyone&lt;/li&gt;
@@ -862,57 +847,48 @@
       <link>https://jamesm.blog/ai/sergey-brin-interviews/</link>
       <pubDate>Tue, 20 May 2025 19:27:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/sergey-brin-interviews/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Sergey Brin is the co-founder of Google and a prominent voice in AI discussion and investment. His perspective on foundational AI developments, the role of open-source models, and the future of human-computer interaction has shaped industry thinking as Google and others navigate the competitive landscape of frontier AI.&lt;/p&gt;
-&lt;h2 id=&#34;interviews&#34;&gt;Interviews&lt;/h2&gt;
-&lt;h3 id=&#34;2025-05-20-sergey-brin-google-co-founder--all-in-live-from-miami&#34;&gt;[2025-05-20] Sergey Brin, Google Co-Founder | All-In Live from Miami&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Timestamps:&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;(0:00) The Besties welcome Sergey Brin&lt;/li&gt;
-&lt;li&gt;(0:40) Sergey on his return to Google, and how an OpenAI employee played a role&lt;/li&gt;
-&lt;li&gt;(5:58) AI&amp;rsquo;s true superpower and the next jump&lt;/li&gt;
-&lt;li&gt;(12:23) AI robotics: humanoids and other form factors&lt;/li&gt;
-&lt;li&gt;(17:07) Future of foundational models and open-source&lt;/li&gt;
-&lt;li&gt;(19:59) Human-computer interaction in the age of AI&lt;/li&gt;
-&lt;li&gt;(31:09) Partner shoutouts: Thanks to OKX, Circle, Polymarket, Solana, BVNK, and Google Cloud&lt;/li&gt;
+&lt;li&gt;A growing collection of interviews with &lt;strong&gt;Sergey Brin&lt;/strong&gt;, Google co-founder and an active voice on AI now that he is back hands-on at Google&lt;/li&gt;
+&lt;li&gt;His perspective spans foundational models, open-source strategy, AI robotics, and the future of human-computer interaction&lt;/li&gt;
+&lt;li&gt;Sits alongside the &lt;a href=&#34;https://jamesm.blog/ai/geoffrey-hinton-interviews/&#34;&gt;Geoffrey Hinton interviews&lt;/a&gt; and other founder-level commentary on where AI is headed&lt;/li&gt;
+&lt;li&gt;Useful for understanding Google&amp;rsquo;s internal positioning on frontier AI from someone who has chosen to engage directly rather than from a distance&lt;/li&gt;
+&lt;li&gt;Page will be expanded as new interviews appear - this is a working index, not a finished archive&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/8g7a0IWKDRE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;Note: This page will be expanded with additional Sergey Brin interviews as they become available.&lt;/em&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Sergey Brin is the co-founder of Google and a prominent voice in AI discussion and investment. His perspective on foundational AI developments, the role of open-source models, and the future of human-computer interaction has shaped industry thinking as Google and others navigate the competitive landscape of frontier AI.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Agents Emergency Debate</title>
       <link>https://jamesm.blog/ai/ai-agents-emergency-debate/</link>
       <pubDate>Mon, 12 May 2025 16:27:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ai-agents-emergency-debate/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;This debate explores urgent questions about AI&amp;rsquo;s impact on employment and the workforce. Contributors discuss the timeline for AI-driven job displacement and the societal preparations needed to adapt to rapid automation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key Topics:&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Speed of AI agent adoption in the workplace&lt;/li&gt;
-&lt;li&gt;Jobs and sectors facing near-term disruption&lt;/li&gt;
-&lt;li&gt;Skills and roles that will remain in demand&lt;/li&gt;
-&lt;li&gt;Education and training priorities for workers&lt;/li&gt;
+&lt;li&gt;An &amp;ldquo;emergency debate&amp;rdquo; framing the case that AI agents will displace large parts of the workforce inside a 24-month horizon&lt;/li&gt;
+&lt;li&gt;Contributors disagree on speed but agree the direction is settled - the question is which sectors move first, not whether they move&lt;/li&gt;
+&lt;li&gt;Near-term pressure is on roles built around predictable, repeatable cognitive work; durable roles cluster around judgment, taste, and accountability&lt;/li&gt;
+&lt;li&gt;Education and training systems are slower to adapt than the technology, which creates a real workforce mismatch in the meantime&lt;/li&gt;
+&lt;li&gt;Worth watching as a snapshot of the 2025 conversation - useful frame even where you disagree with the specific predictions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;h3 id=&#34;ai-agents-emergency-debate-these-jobs-wont-exist-in-24-months&#34;&gt;AI AGENTS EMERGENCY DEBATE: These Jobs Won&amp;rsquo;t Exist In 24 Months!&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/JMYQmGfTltY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;Worth watching for the practical implications of agent AI and perspectives on workforce adaptation strategies.&lt;/em&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;This debate explores urgent questions about AI&amp;rsquo;s impact on employment and the workforce. Contributors discuss the timeline for AI-driven job displacement and the societal preparations needed to adapt to rapid automation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DeepSeek 🤯</title>
       <link>https://jamesm.blog/ai/deepseek/</link>
       <pubDate>Mon, 27 Jan 2025 21:39:14 +0100</pubDate>
       <guid>https://jamesm.blog/ai/deepseek/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Wow, crazy times, &lt;strong&gt;the best technology in the world is now becoming incredibly cheap and accessible to everyone!&lt;/strong&gt; 🤯&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DeepSeek&lt;/strong&gt;&amp;rsquo;s AI chatbot has become the &lt;strong&gt;top free app on Apple&amp;rsquo;s store&lt;/strong&gt; since its January launch. This rapid success, fuelled by DeepSeek&amp;rsquo;s &lt;strong&gt;cost-effectiveness&lt;/strong&gt; compared to US competitors, has sent shockwaves through financial markets.&lt;/p&gt;
-&lt;p&gt;Venture capitalist Marc Andreessen has lauded DeepSeek&amp;rsquo;s AI as a &amp;ldquo;&lt;strong&gt;groundbreaking achievement&lt;/strong&gt;&amp;rdquo;, while the company claims its models rival industry leaders like ChatGPT at a &lt;strong&gt;fraction of the cost&lt;/strong&gt;. DeepSeek reportedly invested &lt;strong&gt;only $6 million&lt;/strong&gt; in its development, a stark contrast to the &lt;strong&gt;billions spent by US AI companies&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DeepSeek&lt;/strong&gt;&amp;rsquo;s January 2025 release of R1 shook markets - a frontier-grade reasoning model trained for a reported $6M, a fraction of US lab budgets&lt;/li&gt;
+&lt;li&gt;The app shot to #1 on Apple&amp;rsquo;s App Store inside days, and the open weights forced an industry-wide rethink of what training really costs&lt;/li&gt;
+&lt;li&gt;Subsequent releases (V3 and beyond) cemented DeepSeek as a serious competitor in the open-source and cost-efficient AI category&lt;/li&gt;
+&lt;li&gt;The story is less &amp;ldquo;China caught up&amp;rdquo; and more &amp;ldquo;the cost floor moved&amp;rdquo; - implications for closed-model pricing, GPU demand, and open-weight strategy&lt;/li&gt;
+&lt;li&gt;Worth understanding as the moment that made cheap, capable, open models a credible default rather than a curiosity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Wow, crazy times, &lt;strong&gt;the best technology in the world is now becoming incredibly cheap and accessible to everyone!&lt;/strong&gt; 🤯&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unitree G1 - AI Humanoid Robot</title>
@@ -973,9 +949,15 @@
       <link>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</link>
       <pubDate>Sat, 20 Apr 2024 22:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/boston-dynamics-humanoid-robot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://bostondynamics.com/&#34;&gt;Boston Dynamics&lt;/a&gt; has revealed its most astonishing humanoid robot so far.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://bostondynamics.com/atlas/&#34;&gt;All New Atlas&lt;/a&gt; is Boston Dynamic&amp;rsquo;s first all-electric humanoid robot, designed for real-world applications, it has a far more human-like body. However it&amp;rsquo;s still a long way from commercial or consumer availability.&lt;/p&gt;
-&lt;p&gt;The next generation of the &lt;a href=&#34;https://bostondynamics.com/atlas/&#34;&gt;Atlas&lt;/a&gt; program builds on decades of research and furthers their commitment to delivering the most capable, useful mobile robots. An advanced control system and state-of-the-art hardware give the robot the power and balance to demonstrate advanced athletics and agility.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;All New Atlas&lt;/strong&gt; is &lt;a href=&#34;https://bostondynamics.com/&#34;&gt;Boston Dynamics&lt;/a&gt;&amp;rsquo; first fully-electric humanoid - a clean break from the hydraulic Atlas it replaced&lt;/li&gt;
+&lt;li&gt;Designed for real-world work environments rather than stage demos, with a body more human-like than anything Boston Dynamics has shipped before&lt;/li&gt;
+&lt;li&gt;Still a research platform - commercial and consumer availability is some way off, but the underlying control and balance work is impressive&lt;/li&gt;
+&lt;li&gt;Builds on decades of agility and mobility research and signals where the humanoid form factor is heading next&lt;/li&gt;
+&lt;li&gt;Part of a broader 2024-2026 wave of humanoid programmes from &lt;a href=&#34;https://bostondynamics.com/&#34;&gt;Boston Dynamics&lt;/a&gt;, &lt;a href=&#34;https://www.tesla.com/optimus&#34;&gt;Tesla&lt;/a&gt;, &lt;a href=&#34;https://www.1x.tech/&#34;&gt;1X&lt;/a&gt;, and others&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://bostondynamics.com/&#34;&gt;Boston Dynamics&lt;/a&gt; has revealed its most astonishing humanoid robot so far.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenAI Voice Engine</title>
@@ -998,49 +980,63 @@
       <link>https://jamesm.blog/ai/microsoft-openai-stargate/</link>
       <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between &lt;a href=&#34;https://www.microsoft.com/&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://group.softbank/en/&#34;&gt;SoftBank&lt;/a&gt;, and &lt;a href=&#34;https://www.oracle.com/&#34;&gt;Oracle&lt;/a&gt; to build a series of massive AI supercomputers and data centers.&lt;/p&gt;
-&lt;p&gt;Originally reported as a Microsoft-OpenAI effort, the project was expanded in January 2025 to include SoftBank&amp;rsquo;s Vision Fund and Oracle as major partners. The partnership combines OpenAI&amp;rsquo;s AI expertise, Microsoft&amp;rsquo;s cloud infrastructure and enterprise reach, SoftBank&amp;rsquo;s capital and global networks, and Oracle&amp;rsquo;s database and enterprise technology capabilities.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stargate&lt;/strong&gt; is a $500B AI infrastructure programme announced in January 2025 - a joint effort between &lt;a href=&#34;https://www.microsoft.com/&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://group.softbank/en/&#34;&gt;SoftBank&lt;/a&gt;, and &lt;a href=&#34;https://www.oracle.com/&#34;&gt;Oracle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Construction has already started in Texas with more sites planned, aimed at training and serving the next generation of frontier AI models&lt;/li&gt;
+&lt;li&gt;The scale signals where compute spend is heading - tens of billions per cluster is becoming the price of admission at the frontier&lt;/li&gt;
+&lt;li&gt;Combines OpenAI&amp;rsquo;s models, Microsoft&amp;rsquo;s cloud, SoftBank&amp;rsquo;s capital, and Oracle&amp;rsquo;s enterprise infrastructure into one of the largest tech buildouts ever announced&lt;/li&gt;
+&lt;li&gt;Worth tracking as a useful proxy for how seriously the industry takes the compute side of the AGI race&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between &lt;a href=&#34;https://www.microsoft.com/&#34;&gt;Microsoft&lt;/a&gt;, &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://group.softbank/en/&#34;&gt;SoftBank&lt;/a&gt;, and &lt;a href=&#34;https://www.oracle.com/&#34;&gt;Oracle&lt;/a&gt; to build a series of massive AI supercomputers and data centers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Gemini Ultra</title>
       <link>https://jamesm.blog/ai/google-gemini-ultra/</link>
       <pubDate>Fri, 29 Mar 2024 07:16:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-ultra/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Google Gemini Ultra&lt;/a&gt; was &lt;a href=&#34;https://deepmind.google/&#34;&gt;Google DeepMind&lt;/a&gt;’s top-tier offering in the Gemini family, known for:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Performance Highlights&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Achieves 90.0% on MMLU benchmark (Massive Multitask Language Understanding), competitive with other frontier models.&lt;/li&gt;
-&lt;li&gt;Multimodal reasoning across text, images, video, and code.&lt;/li&gt;
-&lt;li&gt;Strong performance on coding tasks, creative writing, and complex reasoning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Ultra&lt;/strong&gt; was Google DeepMind&amp;rsquo;s flagship Gemini tier at launch in early 2024 - notable for hitting 90.0% on the MMLU benchmark&lt;/li&gt;
+&lt;li&gt;Multimodal across text, images, video, and code, with strong coding and reasoning performance for its era&lt;/li&gt;
+&lt;li&gt;Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and other specialised variants in the Gemini family&lt;/li&gt;
+&lt;li&gt;Documented here for historical context - the original Ultra branding is no longer the main consumer-facing model&lt;/li&gt;
+&lt;li&gt;Access today is through &lt;a href=&#34;https://aistudio.google.com/&#34;&gt;AI Studio&lt;/a&gt;, &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI&lt;/a&gt;, and Google One AI Premium plans&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Gemini Advanced</title>
       <link>https://jamesm.blog/ai/google-gemini-advanced/</link>
       <pubDate>Fri, 29 Mar 2024 07:12:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/google-gemini-advanced/</guid>
-      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;
-&lt;p&gt;Google Gemini Advanced offered enhanced capabilities over base Gemini, designed for power users and professionals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Multimodal Reasoning: Analyzes text combined with images, video, and other modalities.&lt;/li&gt;
-&lt;li&gt;Coding Expertise: Understands, explains, and generates code in multiple programming languages.&lt;/li&gt;
-&lt;li&gt;Creative Collaboration: Helps brainstorm ideas and generate various text formats for digital content.&lt;/li&gt;
-&lt;li&gt;Long-form Conversations: Extended context windows for deeper, multi-turn interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gemini Advanced&lt;/strong&gt; was Google&amp;rsquo;s tier-based offering for power users at launch in early 2024 - enhanced reasoning, longer context, and multimodal input&lt;/li&gt;
+&lt;li&gt;Built around &lt;a href=&#34;https://jamesm.blog/ai/google-gemini-ultra/&#34;&gt;Gemini Ultra&lt;/a&gt; at first, then succeeded by Gemini 2.0 Flash, 2.5 Pro, and other newer models&lt;/li&gt;
+&lt;li&gt;Use cases: coding, creative collaboration, long-form multi-turn conversations, document and media analysis&lt;/li&gt;
+&lt;li&gt;Available through Google One AI Premium with web, mobile, and API access; pricing has shifted as the lineup evolved&lt;/li&gt;
+&lt;li&gt;Documented here as the original 2024 positioning - check Google&amp;rsquo;s current site for what &amp;ldquo;Advanced&amp;rdquo; maps to today&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Current Access (2026)&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Gemini Advanced (released early 2024) was Google&amp;rsquo;s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of AI Courses &amp; Learning Resources</title>
       <link>https://jamesm.blog/ai/courses/</link>
       <pubDate>Mon, 18 Dec 2023 10:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/courses/</guid>
-      <description>&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A curated index of AI courses, books, and learning platforms - organised by provider so you can compare offerings quickly&lt;/li&gt;
+&lt;li&gt;Covers free starting points (&lt;a href=&#34;https://www.elementsofai.com/&#34;&gt;Elements of AI&lt;/a&gt;, &lt;a href=&#34;https://www.fast.ai/&#34;&gt;Fast.ai&lt;/a&gt;) through to paid professional certificates (&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;, &lt;a href=&#34;https://www.deeplearning.ai/&#34;&gt;DeepLearning.AI&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Includes both broad foundations (machine learning, deep learning) and specific specialisations (prompt engineering, LLM application development)&lt;/li&gt;
+&lt;li&gt;Use it as a launching point - pick one course aligned to your goal and finish it before grazing across the rest&lt;/li&gt;
+&lt;li&gt;Updated as new programmes appear; the structure favours longevity over hype&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;books&#34;&gt;Books&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/deep-learning-with-python/&#34;&gt;Deep Learning with Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://hastie.su.domains/Papers/ESLII.pdf/&#34;&gt;The Elements of Statistical Learning&lt;/a&gt;&lt;/li&gt;
@@ -1212,82 +1208,30 @@
       <link>https://jamesm.blog/ai/github-projects/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-projects/</guid>
-      <description>&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;
-&lt;h2 id=&#34;ai-agent-frameworks&#34;&gt;AI Agent Frameworks&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;&lt;strong&gt;AutoGen&lt;/strong&gt;&lt;/a&gt;  -  Microsoft&amp;rsquo;s multi-agent conversation framework for building complex AI systems with role-based agents&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;&lt;strong&gt;CrewAI&lt;/strong&gt;&lt;/a&gt;  -  Framework for orchestrating autonomous AI agents that work together as a crew&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;&lt;strong&gt;Langchain&lt;/strong&gt;&lt;/a&gt;  -  Foundational library for building applications with LLMs, offering chains, agents, and memory abstractions&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;&lt;strong&gt;Open Interpreter&lt;/strong&gt;&lt;/a&gt;  -  Let LLMs run code locally and interact with your computer&lt;/li&gt;
+&lt;li&gt;A curated index of significant open-source AI projects on GitHub - the ones worth knowing about, not the entire ecosystem&lt;/li&gt;
+&lt;li&gt;Covers agent frameworks (&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;AutoGen&lt;/a&gt;, &lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;CrewAI&lt;/a&gt;, &lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;LangChain&lt;/a&gt;), code-focused tools (&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;Aider&lt;/a&gt;, &lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;Open Interpreter&lt;/a&gt;), and local LLM runners (&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;Ollama&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Useful as a starting map if you&amp;rsquo;re choosing between frameworks, or want to see what the community is converging on&lt;/li&gt;
+&lt;li&gt;Star counts and momentum shift quickly here - treat the list as a snapshot rather than a permanent ranking&lt;/li&gt;
+&lt;li&gt;Pair with the &lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;tools list&lt;/a&gt; for hosted products and the &lt;a href=&#34;https://jamesm.blog/ai/explainers/&#34;&gt;explainers&lt;/a&gt; for foundations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;code--development&#34;&gt;Code &amp;amp; Development&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Significant-Gravitas/Auto-GPT&#34;&gt;&lt;strong&gt;Auto-GPT&lt;/strong&gt;&lt;/a&gt;  -  Early autonomous AI agent that can break down goals and execute them iteratively&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;&lt;strong&gt;Aider&lt;/strong&gt;&lt;/a&gt;  -  AI pair programmer that can edit code in your local repository&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dair-ai/Prompt-Engineering-Guide&#34;&gt;&lt;strong&gt;Prompt Engineering Guide&lt;/strong&gt;&lt;/a&gt;  -  Comprehensive guide with papers, techniques, and best practices&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;specialized-tools&#34;&gt;Specialized Tools&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/openclawcompute&#34;&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt;&lt;/a&gt;  -  AI agent framework for operating graphical user interfaces directly&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;&lt;strong&gt;Ollama&lt;/strong&gt;&lt;/a&gt;  -  Simple way to run large language models locally&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/BerriAI/litellm&#34;&gt;&lt;strong&gt;LiteLLM&lt;/strong&gt;&lt;/a&gt;  -  Unified interface for calling all major LLM APIs with cost tracking&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;research--resources&#34;&gt;Research &amp;amp; Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/transformers&#34;&gt;&lt;strong&gt;Transformers&lt;/strong&gt;&lt;/a&gt;  -  Hugging Face&amp;rsquo;s comprehensive library for state-of-the-art NLP models&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/paperswithcode/paperswithcode-data&#34;&gt;&lt;strong&gt;Papers with Code&lt;/strong&gt;&lt;/a&gt;  -  Curated dataset linking papers with their implementations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/github-copilot/&#34;&gt;GitHub Copilot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ollama/&#34;&gt;Running AI Models Locally with Ollama: From Setup to OpenClaw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/openclaw-is-wild/&#34;&gt;OpenClaw Is Absolutely Wild&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-resources-and-best-practices/&#34;&gt;The Complete AI Developer&amp;rsquo;s Guide: Resources and Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;AI Tools &amp;amp; Frameworks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adobe&#39;s new Generative Fill is mind-blowing 🤯</title>
       <link>https://jamesm.blog/ai/adobe-generative-fill/</link>
       <pubDate>Fri, 26 May 2023 20:04:28 +0100</pubDate>
       <guid>https://jamesm.blog/ai/adobe-generative-fill/</guid>
-      <description>&lt;p&gt;Experience the future of Photoshop with Generative Fill&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&#34;&gt;https://helpx.adobe.com/ie/photoshop/using/generative-fill.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generative Fill&lt;/strong&gt; brings text-prompted image manipulation directly into Photoshop, powered by Adobe&amp;rsquo;s &lt;a href=&#34;https://www.adobe.com/sensei/generative-ai/firefly.html&#34;&gt;Firefly&lt;/a&gt; model&lt;/li&gt;
+&lt;li&gt;Add, remove, or extend image content by selecting an area and describing what you want - no separate tool, no leaving the canvas&lt;/li&gt;
+&lt;li&gt;Sits alongside other Firefly-era features in Photoshop: adjustment presets, the contextual task bar, gradients, and a Remove tool for clean object deletion&lt;/li&gt;
+&lt;li&gt;Trained on Adobe Stock and openly licensed work, which makes the output commercially safer than many general-purpose image models&lt;/li&gt;
+&lt;li&gt;A clear inflection point for professional retouching - what used to take careful masking and clone-stamping is now a sentence&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Generative AI with Firefly&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/sensei/generative-ai/firefly.html&#34;&gt;https://www.adobe.com/sensei/generative-ai/firefly.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Other new features &amp;amp; improvements&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Adjustment presets&lt;/li&gt;
-&lt;li&gt;Contextual task bar&lt;/li&gt;
-&lt;li&gt;Gradients&lt;/li&gt;
-&lt;li&gt;Remove tool: easily remove any object or person from an image instantly&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;youtube&#34;&gt;YouTube&lt;/h2&gt;
-&lt;h3 id=&#34;adobes-new-ai-firefly-photoshop-has-everyone-stunned&#34;&gt;Adobes New AI &amp;lsquo;FIREFLY Photoshop&amp;rsquo; Has Everyone Stunned!&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/4_ziOUKgfxM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h3 id=&#34;this-new-photoshop-tool-will-change-photography-forever&#34;&gt;This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER&lt;/h3&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/2iEQ6p9iGng?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-&lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;List of AI Tools&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/chatgpt-images-2/&#34;&gt;ChatGPT Images 2.0: Why Everyone Is Impressed&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-augmented-design-workflow/&#34;&gt;My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/claude-design/&#34;&gt;Claude Design: Closing the Design-to-Code Gap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/taste-is-the-new-scarcity/&#34;&gt;Taste Is the New Scarcity&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;Experience the future of Photoshop with Generative Fill&lt;/p&gt;</description>
     </item>
     <item>
       <title>Neuralink receives FDA approval to launch first-in-human clinical study</title>
@@ -1324,40 +1268,15 @@
       <link>https://jamesm.blog/ai/notion/</link>
       <pubDate>Thu, 11 May 2023 21:06:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/notion/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Core Capabilities&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Database and content management with flexible views (table, calendar, gallery, timeline)&lt;/li&gt;
-&lt;li&gt;Wiki and documentation creation&lt;/li&gt;
-&lt;li&gt;Task and project management&lt;/li&gt;
-&lt;li&gt;Team collaboration and permission controls&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notion&lt;/strong&gt; is a flexible workspace for notes, documents, databases, and task management - extended with &lt;strong&gt;Notion AI&lt;/strong&gt; as a paid add-on&lt;/li&gt;
+&lt;li&gt;AI features cover document Q&amp;amp;A, content generation, summarisation, and a writing assistant for grammar and tone&lt;/li&gt;
+&lt;li&gt;Strongest as a single home for personal knowledge, team wikis, and lightweight project management - one workspace instead of three tools&lt;/li&gt;
+&lt;li&gt;The AI layer is good for in-context drafting and lookup; less suited to heavy reasoning where a dedicated &lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;LLM tool&lt;/a&gt; does better&lt;/li&gt;
+&lt;li&gt;Pricing is per-seat for Notion plus an AI add-on; check the current tiers before committing for a team&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Notion AI&lt;/strong&gt; (Available as add-on)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Q&amp;amp;A Mode:&lt;/strong&gt; Ask questions about your content and get AI-powered answers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Auto-fill:&lt;/strong&gt; Generate content automatically based on context&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Summarization:&lt;/strong&gt; Auto-summarize pages, databases, and meeting notes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Content Generation:&lt;/strong&gt; Create outlines, blog posts, and structured content&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Writing Assistant:&lt;/strong&gt; Grammar checking, tone adjustment, rephrasing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Personal knowledge management and second brain&lt;/li&gt;
-&lt;li&gt;Team documentation and wikis&lt;/li&gt;
-&lt;li&gt;Project and product management&lt;/li&gt;
-&lt;li&gt;Database and CRM systems&lt;/li&gt;
-&lt;li&gt;Meeting notes and action item tracking&lt;/li&gt;
-&lt;li&gt;Writer&amp;rsquo;s workspace with AI assistance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Free tier:&lt;/strong&gt; Core features with limited blocks&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plus:&lt;/strong&gt; $10/user/month with Notion AI&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business:&lt;/strong&gt; $18/user/month with advanced features&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enterprise:&lt;/strong&gt; Custom pricing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Notion AI transforms the platform from a note-taking tool into a collaborative knowledge system with generative capabilities, making it valuable for both individual and team knowledge workflows.&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Auto-GPT is now able to write it&#39;s own code</title>
@@ -1380,49 +1299,30 @@
       <link>https://jamesm.blog/ai/explainers/</link>
       <pubDate>Wed, 15 Feb 2023 19:05:35 +0100</pubDate>
       <guid>https://jamesm.blog/ai/explainers/</guid>
-      <description>&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;
-&lt;h2 id=&#34;fundamentals&#34;&gt;Fundamentals&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b/&#34;&gt;&lt;strong&gt;Yes you should understand backprop&lt;/strong&gt;&lt;/a&gt;  -  Andrej Karpathy&amp;rsquo;s definitive explanation of backpropagation, the fundamental algorithm behind neural network training&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/blog/deep-learning-nutshell-core-concepts/&#34;&gt;&lt;strong&gt;Deep Learning in a Nutshell: Core Concepts&lt;/strong&gt;&lt;/a&gt;  -  NVIDIA&amp;rsquo;s accessible overview of deep learning architectures and their applications&lt;/li&gt;
+&lt;li&gt;A curated set of the clearest technical explainers of foundational AI concepts - the ones that build real intuition, not just vocabulary&lt;/li&gt;
+&lt;li&gt;Covers fundamentals (backprop, neural networks), transformers and language models, and generative models like diffusion&lt;/li&gt;
+&lt;li&gt;Authors include &lt;a href=&#34;https://karpathy.medium.com/&#34;&gt;Andrej Karpathy&lt;/a&gt;, &lt;a href=&#34;https://writings.stephenwolfram.com/&#34;&gt;Stephen Wolfram&lt;/a&gt;, and NVIDIA&amp;rsquo;s developer team - high signal, low fluff&lt;/li&gt;
+&lt;li&gt;Read one piece slowly rather than skimming five - the value is in working through the maths, not collecting links&lt;/li&gt;
+&lt;li&gt;Pairs well with the &lt;a href=&#34;https://jamesm.blog/ai/courses/&#34;&gt;courses list&lt;/a&gt; if you want a structured path after the explainers click&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;transformers--language-models&#34;&gt;Transformers &amp;amp; Language Models&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/&#34;&gt;&lt;strong&gt;What is ChatGPT doing &amp;amp; why does it work?&lt;/strong&gt;&lt;/a&gt;  -  Stephen Wolfram&amp;rsquo;s phenomenal breakdown of transformer architecture and the surprising effectiveness of next-token prediction&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/word2vec-explained-49c52b4ccb71/&#34;&gt;&lt;strong&gt;Word2Vec Explained&lt;/strong&gt;&lt;/a&gt;  -  Foundation for understanding how words become numerical representations that models can process&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;generative-models&#34;&gt;Generative Models&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://mccormickml.com/2022/12/21/how-stable-diffusion-works/&#34;&gt;&lt;strong&gt;How Stable Diffusion Works&lt;/strong&gt;&lt;/a&gt;  -  Detailed technical walkthrough of diffusion models for image generation, with clear diagrams and intuitive explanations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;courses--practical-learning&#34;&gt;Courses &amp;amp; Practical Learning&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://course.fast.ai/&#34;&gt;&lt;strong&gt;Practical Deep Learning&lt;/strong&gt;&lt;/a&gt;  -  Fast.ai&amp;rsquo;s top-down course that teaches you to build working deep learning systems before diving into theory&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;related-reading&#34;&gt;Related Reading&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/chatbots-llms/&#34;&gt;Chatbots &amp;amp; Large Language Models (LLMs)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/ai-resources-and-best-practices/&#34;&gt;The Complete AI Developer&amp;rsquo;s Guide: Resources and Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/courses/&#34;&gt;List of AI Courses &amp;amp; Learning Resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/llm-context-window-arms-race/&#34;&gt;The LLM Context Window Arms Race: Does It Actually Matter?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jamesm.blog/ai/structured-outputs-schema/&#34;&gt;Structured Outputs: When Your AI Needs to Follow a Schema&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;A curated collection of clear, technical explanations of foundational AI concepts. These resources help build intuition about how modern AI systems actually work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub Copilot</title>
       <link>https://jamesm.blog/ai/github-copilot/</link>
       <pubDate>Sat, 14 Jan 2023 11:51:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-copilot/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; in partnership with &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;
-&lt;p&gt;GitHub Copilot uses advanced language models (&lt;a href=&#34;https://openai.com/research/gpt-4&#34;&gt;GPT-4&lt;/a&gt; based) to suggest code, functions, and solutions in real-time, right from your editor.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Code autocompletion and function generation&lt;/li&gt;
-&lt;li&gt;Copilot Chat for conversational coding assistance&lt;/li&gt;
-&lt;li&gt;Context-aware suggestions based on your codebase&lt;/li&gt;
-&lt;li&gt;Support for dozens of programming languages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Copilot&lt;/strong&gt; is the AI pair programmer from GitHub and OpenAI - code completions, function generation, and conversational assistance inside your editor&lt;/li&gt;
+&lt;li&gt;Works across &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;VS Code&lt;/a&gt;, &lt;a href=&#34;https://visualstudio.microsoft.com/&#34;&gt;Visual Studio&lt;/a&gt;, &lt;a href=&#34;https://www.jetbrains.com/&#34;&gt;JetBrains&lt;/a&gt; IDEs, &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;, and the GitHub.com editor&lt;/li&gt;
+&lt;li&gt;Tiered pricing: free for verified students, maintainers, and teachers; $10/month individual; $19/month business; enterprise with codebase indexing on top&lt;/li&gt;
+&lt;li&gt;The original mainstream AI coding assistant - now competing with &lt;a href=&#34;https://www.cursor.com/&#34;&gt;Cursor&lt;/a&gt;, &lt;a href=&#34;https://github.com/cline/cline&#34;&gt;Cline&lt;/a&gt;, and &lt;a href=&#34;https://www.anthropic.com/claude-code&#34;&gt;Claude Code&lt;/a&gt; on agentic depth&lt;/li&gt;
+&lt;li&gt;Best for incremental in-editor assistance; less suited to multi-file refactors where agentic tools have moved ahead&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Supported IDEs&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/features/copilot&#34;&gt;GitHub Copilot&lt;/a&gt; is an AI pair programmer developed by &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; in partnership with &lt;a href=&#34;https://openai.com/&#34;&gt;OpenAI&lt;/a&gt;. It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
