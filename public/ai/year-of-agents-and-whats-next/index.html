@@ -1,12 +1,591 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>A Year of Agents, and What is Coming Next | jamesm.blog</title><meta name=keywords content="ai,agent,tooling,workflow,future,productivity"><meta name=description content="A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows."><meta name=author content="James M"><link rel=canonical href=https://jamesm.blog/ai/year-of-agents-and-whats-next/><link crossorigin=anonymous href=/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css integrity="sha256-R+UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe+v3ZDTU=" rel="preload stylesheet" as=style><link rel=icon href=https://jamesm.blog/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://jamesm.blog/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://jamesm.blog/favicon-32x32.png><link rel=apple-touch-icon href=https://jamesm.blog/apple-touch-icon.png><link rel=mask-icon href=https://jamesm.blog/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://jamesm.blog/ai/year-of-agents-and-whats-next/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-LTL3NQVCDT")</script><meta property="og:url" content="https://jamesm.blog/ai/year-of-agents-and-whats-next/"><meta property="og:site_name" content="jamesm.blog"><meta property="og:title" content="A Year of Agents, and What is Coming Next"><meta property="og:description" content="A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="ai"><meta property="article:published_time" content="2026-04-30T08:06:00+01:00"><meta property="article:modified_time" content="2026-04-30T08:06:00+01:00"><meta property="article:tag" content="AI"><meta property="article:tag" content="Agent"><meta property="article:tag" content="Tooling"><meta property="article:tag" content="Workflow"><meta property="article:tag" content="Future"><meta property="article:tag" content="Productivity"><meta property="og:image" content="https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg"><meta name=twitter:title content="A Year of Agents, and What is Coming Next"><meta name=twitter:description content="A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Artificial Intelligence","item":"https://jamesm.blog/ai/"},{"@type":"ListItem","position":2,"name":"A Year of Agents, and What is Coming Next","item":"https://jamesm.blog/ai/year-of-agents-and-whats-next/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"A Year of Agents, and What is Coming Next","name":"A Year of Agents, and What is Coming Next","description":"A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.","keywords":["ai","agent","tooling","workflow","future","productivity"],"articleBody":"TL;DR The defining shift from April 2025 to April 2026 is the move from “ask” to “delegate” - agents now run for minutes, open files, execute shells, and return results rather than waiting for each prompt Key developments that drove this: coding agents becoming operators (Claude Code, Cursor, Codex), MCP standardising tool access, spec-driven development going mainstream, and context windows expanding to millions of tokens In the next two years, longer-horizon agents, multi-agent coordination, persistent personal AI memory, and computer-use automation will move from early features to default expectations The working day is reshaping around less typing and more reviewing - the skill that matters is judgement over diffs, not typing speed or boilerplate generation To adapt now: pick a stack and use it daily, write specs before code, build the habit of reviewing diffs fast, and move procedural knowledge into reusable agent skills A year ago, in April 2025, “AI in your workflow” mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was “ask”.\nIn April 2026, the verb is “delegate”.\nThat is the headline, and it is not subtle once you go looking for it. The tools you use day to day no longer wait for prompts. They run for minutes at a time, open files, edit them, run shells, spin up sub-agents, browse the web, and come back with a result that is either roughly right or visibly wrong. You are no longer in the loop on every keystroke. You are in the loop on the outcome.\nThis post is a stocktake. What changed in the last twelve months, what is clearly coming in the next twenty-four, and what it does to the shape of a working day - both at work and at home.\nWhat Changed in the Last Year I want to be honest about how much of this snuck up on people. None of it was a single moment. There was no GPT-3-shaped thunderclap. It was a steady drumbeat of capability and ergonomics improvements, and the cumulative effect is that the tools now do qualitatively different work.\nA rough taxonomy of what shifted:\nCoding agents went from “assistant” to “operator.” Claude Code, Cursor, OpenAI Codex, and a long tail of open-source harnesses (Cline, OpenHands, Goose, Aider) all converged on the same shape: a long-running loop where the model plans, edits, runs, and reviews on its own, and the human judges the diff. The thing you tab between while you make coffee is not the same thing it was a year ago.\nLong-running, multi-step tasks became routine. A task that takes thirty minutes of agent time was exotic in mid-2025. By the end of 2025 it was normal. Now sub-agents fan out, work in parallel, and report back to a coordinator. I have written about this shift in Agent-First Architecture, and the gist is that you spend less time writing code and more time deciding what should run and reviewing what came back.\nStandards started showing up. Two are worth singling out. MCP (the Model Context Protocol) has become the default way an agent talks to your tools - your filesystem, your database, your calendar, your issue tracker. And Agent Skills - a folder with a SKILL.md file - has become the default way you give an agent procedural knowledge that works across tools. Both are open. Both are boring on purpose. Both are the right kind of boring. I wrote up the skills story in AI Skills: One Folder, Any Model.\nSpec-driven development stopped being a meme. GitHub’s Spec Kit and the broader pattern of writing a spec first, generating an implementation, and reviewing the diff is now how most teams I talk to actually run. The interesting move is that the spec is the artefact. The code is the by-product. That is a different mental model than “AI helps me write code.”\nContext windows stopped being scarce. A million tokens is normal. Several million is not unusual. Prompt caching means that loading a whole repo into context is cheap on the second turn. The economics of “let the model read everything before it answers” are no longer absurd. I wrote about this trajectory in The LLM Context Window Arms Race.\nLocal AI stopped being a toy. A Mac Studio with an M4 Ultra runs a 70B-class model fast enough to be useful. Ollama and LM Studio made the install painless. The frontier still lives in the cloud, but a serious chunk of “small task, sensitive data” work now happens on a desk.\nVoice and multimodal got real. Dictation that actually keeps up. Models that read a screenshot and act on it. Computer use that drives a browser well enough to book a flight or extract a number from a PDF. A year ago these felt like demos. Now they feel like features.\nIf you put all of that together, the change of state is the move from “AI helps me do my job” to “AI does parts of my job, and I supervise.”\nWhat is Definitely Coming in the Next Two Years I want to be careful here. The track record of AI predictions is unkind to anyone who picks specific dates. So I am only going to list things where the trajectory is so well-established that the question is “when, exactly?” rather than “if at all?”\nLonger-horizon agents. Today’s agents reliably do tasks that take minutes, sometimes an hour. The frontier of useful is now several hours of unattended work. By 2027 a job-day of agent work, with reasonable check-ins, will be normal. Whether that means “writes a feature end-to-end” or “investigates a bug across three services and proposes a fix” depends on the day, but the direction is the same.\nMulti-agent systems as the default. Single-agent runs are already starting to feel quaint. The shape that wins is a coordinator and a fleet of specialised sub-agents - one for research, one for code, one for review, one for tests - each running in parallel against the same goal. You will not write the agents. You will configure them.\nPersonal AI with persistent memory. The thing nobody has gotten right yet is an assistant that remembers what you told it last month without you having to remind it. The pieces are now in place: stable embeddings, cheap long context, MCP access to your calendar and email and notes. Within two years this is a product, not a research project. I sketched out where this is going in Home AI Agent Memory That Lasts.\nAgents that drive your computer. “Computer use” - the model controlling a real browser or a real desktop - was clunky in 2025 and credible in 2026. By 2027 the booking, scheduling, form-filling, expense-claim layer of work life is largely something you supervise rather than something you do. Most knowledge workers will spend less time in browsers because their agents will spend more.\nCheaper inference, more capable small models. The cost of a frontier-quality token is falling roughly tenfold per year, and there is no reason to think the curve flattens before 2028. Small models keep eating tasks the big ones used to monopolise. The interesting consequence: cost stops being the constraint on agent design. Latency and quality become the only things that matter.\nRobotics moving from demo to deployment. Humanoid platforms - Tesla Optimus, Boston Dynamics Atlas, Unitree G1 - are the visible bit. The less visible bit is that the same model architectures driving software agents are starting to drive physical ones. Two years out, “an agent did it” stops being purely digital.\nRegulation catches up, unevenly. The EU AI Act is in force. The US is patchwork. The UK is trying to thread the needle. None of this stops the trajectory, but it changes which products ship in which markets and how fast. Worth watching if your work crosses borders.\nThere are plenty of things I am genuinely uncertain about - whether we get a true general-purpose agent that holds together across weeks of work, whether AGI-shaped capabilities show up by 2028, whether the labour market reshapes faster than education can - but I would rather list the things I am confident about and stop there.\nHow This Changes the Working Day The interesting question is not “what can the tools do?” but “what does the day look like?” Here is what I see, both in my own work as a data engineer and in the teams I talk to.\nLess typing, more reviewing. The unit of work shifts from “write a function” to “decide whether this diff is right.” That is a different cognitive load. It rewards taste, judgement, and the ability to read code fast - skills that were always valuable but were never the bottleneck. They are now. I wrote about this in Taste is the New Scarcity.\nSpecs become the artefact. A clear, testable description of what you want is the new commit. The agent generates the code. You review the diff. The spec is what gets versioned, argued about, and revisited. If you are not already writing things down before you build them, you will be.\nParallelism is real for individuals, not just teams. A single engineer running three or four agents in parallel against three or four tasks is no longer notable. It is just Tuesday. The constraint is review bandwidth, not implementation bandwidth. People who can keep four threads of work in their head while reviewing the diffs as they land have a real edge.\nThe “junior task” middle hollows out. The work that used to be “give it to a junior to learn the codebase” is the work an agent does best. That has uncomfortable consequences for how careers start, which I have chewed on in The Junior Developer Pipeline Problem. It is not solved. It needs to be.\nStandups change shape. “What I did yesterday” becomes “what my agents did yesterday and what I approved.” Demos shift from “look at this code” to “look at these specs and the diffs the agents produced.” The metabolism of a team gets faster in a way that is genuinely uncomfortable for the first few months.\nHow This Changes Life Outside Work This is the bit that gets less coverage and matters more.\nEmail, calendar, scheduling. The amount of mental load you carry around for “who do I owe a reply to, when is that thing, did I confirm the booking” is going to shrink. Personal assistants with MCP access to your inbox, calendar, and a scratchpad of your preferences will do this layer. Not perfectly. Well enough that you stop noticing.\nResearch and decisions. Buying a flat, choosing a school, planning a trip, comparing pension providers. The work is currently slow, lonely, and dependent on whoever has the time to grind through PDFs. A capable assistant collapses the time cost by an order of magnitude. The decision is still yours. The legwork is not.\nHealth and admin. Reading lab results, summarising a consultant’s letter, working out which insurance form to fill in, chasing the council about the bins. None of this is glamorous. All of this drains hours from a week. Agents will do almost all of it within two years, with you in the loop only when something matters.\nLearning. A patient tutor who knows what you already know, has read the textbook, and can run examples on demand is now a real thing. The bottleneck on learning a new field stops being “find a teacher” and becomes “decide what you want to learn.” That is a much better problem to have.\nThe flip side: attention. The same systems that save you hours can also fill them. Always-on agents, always-on summaries, always-on suggestions. The skill that compounds is knowing when to switch them off. I do not have a clean answer to this. It is something I am paying attention to.\nWhat to Actually Do About It A short list, because long lists in posts like this rarely survive contact with a Tuesday.\nPick a stack and use it daily. I have written up mine in What Actually Belongs in My AI Dev Stack in 2026. The specifics matter less than the habit. You learn this by using it, not by reading about it. Write specs before code. Even small ones. Even informal ones. The muscle of “describe what you want clearly” is the muscle that pays off everywhere else. Get good at reviewing diffs fast. This is the new core skill. It is not glamorous and it is not taught. You build it by doing it. Move procedural knowledge into skills. Anything you do twice should be a skill. Anything in your head that a colleague would also benefit from should be in a folder, not in your head. Set up one personal agent. Not for work. For your inbox, your calendar, your reading list. The shape of “AI in my life” makes a lot more sense once you have one running. Keep a notebook. When something surprises you - good or bad - write it down. The pace of change is faster than memory. The notebook is how you keep your taste calibrated. A Closing Thought A year ago I would have called most of this speculative. Now most of it is shipped, in production, and either on my machine or about to be. The thing I keep coming back to is that the change is not really about the models. It is about what happens when capable models are wrapped in good harnesses, given access to the tools you already use, and pointed at problems you care about.\nThe next two years will be more of the same, faster. The people who do well will be the ones who treat the tools like a craft - learning them carefully, picking the right one for the right job, building habits around review and judgement rather than typing speed.\nThe verb is “delegate” now. The skill is knowing what to delegate, to whom, and what to do with the result. Everything else follows from that.\nRelated Reading AI Agents That Actually Work: Patterns From Real Projects Agent-First Architecture: The Engineer as System Curator Hermes Agent: Persistent Autonomy That Learns and Grows The Next Decade of AI: What Actually Happens From Here The Automation Paradox: Why More AI Makes Human Judgment More Valuable ","wordCount":"2411","inLanguage":"en","image":"https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg","datePublished":"2026-04-30T08:06:00+01:00","dateModified":"2026-04-30T08:06:00+01:00","author":{"@type":"Person","name":"James M"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jamesm.blog/ai/year-of-agents-and-whats-next/"},"publisher":{"@type":"Organization","name":"jamesm.blog","logo":{"@type":"ImageObject","url":"https://jamesm.blog/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=header-nav><div class=logo><a href=https://jamesm.blog/ accesskey=h title="jamesm.blog (Alt + H)">jamesm.blog</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://jamesm.blog/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://jamesm.blog/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://jamesm.blog/ai title=AI><span>AI</span></a></li><li><a href=https://jamesm.blog/blockchain title=Blockchain><span>Blockchain</span></a></li><li><a href=https://jamesm.blog/data-engineering title="Data Engineering"><span>Data Engineering</span></a></li><li><a href=https://jamesm.blog/data-science title="Data Science"><span>Data Science</span></a></li><li><a href=https://jamesm.blog/devops title=DevOps><span>DevOps</span></a></li><li><a href=https://jamesm.blog/general title=General><span>General</span></a></li><li><a href=https://jamesm.blog/music-production title="Music Production"><span>Music Production</span></a></li><li><a href=https://jamesm.blog/personal-development title="Personal Dev"><span>Personal Dev</span></a></li><li><a href=https://jamesm.blog/retro-computing title="Retro Computing"><span>Retro Computing</span></a></li><li><a href=https://jamesm.blog/space title=Space><span>Space</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://jamesm.blog/>Home</a>
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
-<a href=https://jamesm.blog/ai/>Artificial Intelligence</a></nav><h1 class="post-title entry-hint-parent">A Year of Agents, and What is Coming Next</h1><div class=post-description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</div><div class=post-meta><span title='2026-04-30 08:06:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></div></header><figure class=entry-cover><img loading=eager src=https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg alt="A year of AI agents"></figure><details class=toc><summary accesskey=c title="(Alt + C)"><span class=title>Table of Contents</span></summary><div class=inner><ul><li><a href=#tldr aria-label=TL;DR>TL;DR</a></li><li><a href=#what-changed-in-the-last-year aria-label="What Changed in the Last Year">What Changed in the Last Year</a></li><li><a href=#what-is-definitely-coming-in-the-next-two-years aria-label="What is Definitely Coming in the Next Two Years">What is Definitely Coming in the Next Two Years</a></li><li><a href=#how-this-changes-the-working-day aria-label="How This Changes the Working Day">How This Changes the Working Day</a></li><li><a href=#how-this-changes-life-outside-work aria-label="How This Changes Life Outside Work">How This Changes Life Outside Work</a></li><li><a href=#what-to-actually-do-about-it aria-label="What to Actually Do About It">What to Actually Do About It</a></li><li><a href=#a-closing-thought aria-label="A Closing Thought">A Closing Thought</a></li><li><a href=#related-reading aria-label="Related Reading">Related Reading</a></li></ul></div></details><div class="post-content md-content"><h2 id=tldr>TL;DR<a hidden class=anchor aria-hidden=true href=#tldr>#</a></h2><ul><li>The defining shift from April 2025 to April 2026 is the move from &ldquo;ask&rdquo; to <strong>&ldquo;delegate&rdquo;</strong> - agents now run for minutes, open files, execute shells, and return results rather than waiting for each prompt</li><li>Key developments that drove this: coding agents becoming operators (Claude Code, Cursor, Codex), <strong>MCP</strong> standardising tool access, spec-driven development going mainstream, and context windows expanding to millions of tokens</li><li>In the next two years, longer-horizon agents, <strong>multi-agent coordination</strong>, persistent personal AI memory, and computer-use automation will move from early features to default expectations</li><li>The working day is reshaping around less typing and more reviewing - the skill that matters is <strong>judgement over diffs</strong>, not typing speed or boilerplate generation</li><li>To adapt now: pick a stack and use it daily, write specs before code, build the habit of reviewing diffs fast, and move procedural knowledge into reusable agent skills</li></ul><p>A year ago, in April 2025, &ldquo;AI in your workflow&rdquo; mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was &ldquo;ask&rdquo;.</p><p>In April 2026, the verb is &ldquo;delegate&rdquo;.</p><p>That is the headline, and it is not subtle once you go looking for it. The tools you use day to day no longer wait for prompts. They run for minutes at a time, open files, edit them, run shells, spin up sub-agents, browse the web, and come back with a result that is either roughly right or visibly wrong. You are no longer in the loop on every keystroke. You are in the loop on the outcome.</p><p>This post is a stocktake. What changed in the last twelve months, what is clearly coming in the next twenty-four, and what it does to the shape of a working day - both at work and at home.</p><hr><h2 id=what-changed-in-the-last-year>What Changed in the Last Year<a hidden class=anchor aria-hidden=true href=#what-changed-in-the-last-year>#</a></h2><p>I want to be honest about how much of this snuck up on people. None of it was a single moment. There was no GPT-3-shaped thunderclap. It was a steady drumbeat of capability and ergonomics improvements, and the cumulative effect is that the tools now do qualitatively different work.</p><p>A rough taxonomy of what shifted:</p><p><strong>Coding agents went from &ldquo;assistant&rdquo; to &ldquo;operator.&rdquo;</strong> <a href=https://www.claude.com/product/claude-code>Claude Code</a>, <a href=https://cursor.com/>Cursor</a>, <a href=https://developers.openai.com/codex>OpenAI Codex</a>, and a long tail of open-source harnesses (<a href=https://github.com/cline/cline>Cline</a>, <a href=https://openhands.dev/>OpenHands</a>, <a href=https://goose-docs.ai/>Goose</a>, <a href=https://aider.chat/>Aider</a>) all converged on the same shape: a long-running loop where the model plans, edits, runs, and reviews on its own, and the human judges the diff. The thing you tab between while you make coffee is not the same thing it was a year ago.</p><p><strong>Long-running, multi-step tasks became routine.</strong> A task that takes thirty minutes of agent time was exotic in mid-2025. By the end of 2025 it was normal. Now sub-agents fan out, work in parallel, and report back to a coordinator. I have written about this shift in <a href=/ai/agent-first-architecture-engineer-as-curator/>Agent-First Architecture</a>, and the gist is that you spend less time writing code and more time deciding what should run and reviewing what came back.</p><p><strong>Standards started showing up.</strong> Two are worth singling out. <a href=https://modelcontextprotocol.io/>MCP</a> (the Model Context Protocol) has become the default way an agent talks to your tools - your filesystem, your database, your calendar, your issue tracker. And <a href=https://agentskills.io/>Agent Skills</a> - a folder with a <code>SKILL.md</code> file - has become the default way you give an agent procedural knowledge that works across tools. Both are open. Both are boring on purpose. Both are the right kind of boring. I wrote up the skills story in <a href=/ai/ai-skills-one-folder-any-model/>AI Skills: One Folder, Any Model</a>.</p><p><strong>Spec-driven development stopped being a meme.</strong> <a href=https://github.com/github/spec-kit>GitHub&rsquo;s Spec Kit</a> and the broader pattern of writing a spec first, generating an implementation, and reviewing the diff is now how most teams I talk to actually run. The interesting move is that the spec is the artefact. The code is the by-product. That is a different mental model than &ldquo;AI helps me write code.&rdquo;</p><p><strong>Context windows stopped being scarce.</strong> A million tokens is normal. Several million is not unusual. Prompt caching means that loading a whole repo into context is cheap on the second turn. The economics of &ldquo;let the model read everything before it answers&rdquo; are no longer absurd. I wrote about this trajectory in <a href=/ai/llm-context-window-arms-race/>The LLM Context Window Arms Race</a>.</p><p><strong>Local AI stopped being a toy.</strong> A Mac Studio with an M4 Ultra runs a 70B-class model fast enough to be useful. <a href=https://ollama.com/>Ollama</a> and <a href=https://lmstudio.ai/>LM Studio</a> made the install painless. The frontier still lives in the cloud, but a serious chunk of &ldquo;small task, sensitive data&rdquo; work now happens on a desk.</p><p><strong>Voice and multimodal got real.</strong> Dictation that actually keeps up. Models that read a screenshot and act on it. Computer use that drives a browser well enough to book a flight or extract a number from a PDF. A year ago these felt like demos. Now they feel like features.</p><p>If you put all of that together, the change of state is the move from &ldquo;AI helps me do my job&rdquo; to &ldquo;AI does parts of my job, and I supervise.&rdquo;</p><hr><h2 id=what-is-definitely-coming-in-the-next-two-years>What is Definitely Coming in the Next Two Years<a hidden class=anchor aria-hidden=true href=#what-is-definitely-coming-in-the-next-two-years>#</a></h2><p>I want to be careful here. The track record of AI predictions is unkind to anyone who picks specific dates. So I am only going to list things where the trajectory is so well-established that the question is &ldquo;when, exactly?&rdquo; rather than &ldquo;if at all?&rdquo;</p><p><strong>Longer-horizon agents.</strong> Today&rsquo;s agents reliably do tasks that take minutes, sometimes an hour. The frontier of useful is now several hours of unattended work. By 2027 a job-day of agent work, with reasonable check-ins, will be normal. Whether that means &ldquo;writes a feature end-to-end&rdquo; or &ldquo;investigates a bug across three services and proposes a fix&rdquo; depends on the day, but the direction is the same.</p><p><strong>Multi-agent systems as the default.</strong> Single-agent runs are already starting to feel quaint. The shape that wins is a coordinator and a fleet of specialised sub-agents - one for research, one for code, one for review, one for tests - each running in parallel against the same goal. You will not write the agents. You will configure them.</p><p><strong>Personal AI with persistent memory.</strong> The thing nobody has gotten right yet is an assistant that remembers what you told it last month without you having to remind it. The pieces are now in place: stable embeddings, cheap long context, MCP access to your calendar and email and notes. Within two years this is a product, not a research project. I sketched out where this is going in <a href=/ai/home-ai-agent-memory-that-lasts/>Home AI Agent Memory That Lasts</a>.</p><p><strong>Agents that drive your computer.</strong> &ldquo;Computer use&rdquo; - the model controlling a real browser or a real desktop - was clunky in 2025 and credible in 2026. By 2027 the booking, scheduling, form-filling, expense-claim layer of work life is largely something you supervise rather than something you do. Most knowledge workers will spend less time in browsers because their agents will spend more.</p><p><strong>Cheaper inference, more capable small models.</strong> The cost of a frontier-quality token is falling roughly tenfold per year, and there is no reason to think the curve flattens before 2028. Small models keep eating tasks the big ones used to monopolise. The interesting consequence: cost stops being the constraint on agent design. Latency and quality become the only things that matter.</p><p><strong>Robotics moving from demo to deployment.</strong> Humanoid platforms - <a href=/ai/tesla-optimus-robot/>Tesla Optimus</a>, <a href=https://bostondynamics.com/atlas/>Boston Dynamics Atlas</a>, <a href=https://www.unitree.com/g1>Unitree G1</a> - are the visible bit. The less visible bit is that the same model architectures driving software agents are starting to drive physical ones. Two years out, &ldquo;an agent did it&rdquo; stops being purely digital.</p><p><strong>Regulation catches up, unevenly.</strong> The EU AI Act is in force. The US is patchwork. The UK is trying to thread the needle. None of this stops the trajectory, but it changes which products ship in which markets and how fast. Worth watching if your work crosses borders.</p><p>There are plenty of things I am genuinely uncertain about - whether we get a true general-purpose agent that holds together across weeks of work, whether AGI-shaped capabilities show up by 2028, whether the labour market reshapes faster than education can - but I would rather list the things I am confident about and stop there.</p><hr><h2 id=how-this-changes-the-working-day>How This Changes the Working Day<a hidden class=anchor aria-hidden=true href=#how-this-changes-the-working-day>#</a></h2><p>The interesting question is not &ldquo;what can the tools do?&rdquo; but &ldquo;what does the day look like?&rdquo; Here is what I see, both in my own work as a <a href=https://en.wikipedia.org/wiki/Data_engineering>data engineer</a> and in the teams I talk to.</p><p><strong>Less typing, more reviewing.</strong> The unit of work shifts from &ldquo;write a function&rdquo; to &ldquo;decide whether this diff is right.&rdquo; That is a different cognitive load. It rewards taste, judgement, and the ability to read code fast - skills that were always valuable but were never the bottleneck. They are now. I wrote about this in <a href=/ai/taste-is-the-new-scarcity/>Taste is the New Scarcity</a>.</p><p><strong>Specs become the artefact.</strong> A clear, testable description of what you want is the new commit. The agent generates the code. You review the diff. The spec is what gets versioned, argued about, and revisited. If you are not already writing things down before you build them, you will be.</p><p><strong>Parallelism is real for individuals, not just teams.</strong> A single engineer running three or four agents in parallel against three or four tasks is no longer notable. It is just Tuesday. The constraint is review bandwidth, not implementation bandwidth. People who can keep four threads of work in their head while reviewing the diffs as they land have a real edge.</p><p><strong>The &ldquo;junior task&rdquo; middle hollows out.</strong> The work that used to be &ldquo;give it to a junior to learn the codebase&rdquo; is the work an agent does best. That has uncomfortable consequences for how careers start, which I have chewed on in <a href=/ai/junior-developer-pipeline-problem/>The Junior Developer Pipeline Problem</a>. It is not solved. It needs to be.</p><p><strong>Standups change shape.</strong> &ldquo;What I did yesterday&rdquo; becomes &ldquo;what my agents did yesterday and what I approved.&rdquo; Demos shift from &ldquo;look at this code&rdquo; to &ldquo;look at these specs and the diffs the agents produced.&rdquo; The metabolism of a team gets faster in a way that is genuinely uncomfortable for the first few months.</p><hr><h2 id=how-this-changes-life-outside-work>How This Changes Life Outside Work<a hidden class=anchor aria-hidden=true href=#how-this-changes-life-outside-work>#</a></h2><p>This is the bit that gets less coverage and matters more.</p><p><strong>Email, calendar, scheduling.</strong> The amount of mental load you carry around for &ldquo;who do I owe a reply to, when is that thing, did I confirm the booking&rdquo; is going to shrink. Personal assistants with MCP access to your inbox, calendar, and a scratchpad of your preferences will do this layer. Not perfectly. Well enough that you stop noticing.</p><p><strong>Research and decisions.</strong> Buying a flat, choosing a school, planning a trip, comparing pension providers. The work is currently slow, lonely, and dependent on whoever has the time to grind through PDFs. A capable assistant collapses the time cost by an order of magnitude. The decision is still yours. The legwork is not.</p><p><strong>Health and admin.</strong> Reading lab results, summarising a consultant&rsquo;s letter, working out which insurance form to fill in, chasing the council about the bins. None of this is glamorous. All of this drains hours from a week. Agents will do almost all of it within two years, with you in the loop only when something matters.</p><p><strong>Learning.</strong> A patient tutor who knows what you already know, has read the textbook, and can run examples on demand is now a real thing. The bottleneck on learning a new field stops being &ldquo;find a teacher&rdquo; and becomes &ldquo;decide what you want to learn.&rdquo; That is a much better problem to have.</p><p><strong>The flip side: attention.</strong> The same systems that save you hours can also fill them. Always-on agents, always-on summaries, always-on suggestions. The skill that compounds is knowing when to switch them off. I do not have a clean answer to this. It is something I am paying attention to.</p><hr><h2 id=what-to-actually-do-about-it>What to Actually Do About It<a hidden class=anchor aria-hidden=true href=#what-to-actually-do-about-it>#</a></h2><p>A short list, because long lists in posts like this rarely survive contact with a Tuesday.</p><ol><li><strong>Pick a stack and use it daily.</strong> I have written up mine in <a href=/ai/what-actually-belongs-in-my-ai-dev-stack-2026/>What Actually Belongs in My AI Dev Stack in 2026</a>. The specifics matter less than the habit. You learn this by using it, not by reading about it.</li><li><strong>Write specs before code.</strong> Even small ones. Even informal ones. The muscle of &ldquo;describe what you want clearly&rdquo; is the muscle that pays off everywhere else.</li><li><strong>Get good at reviewing diffs fast.</strong> This is the new core skill. It is not glamorous and it is not taught. You build it by doing it.</li><li><strong>Move procedural knowledge into <a href=/ai/ai-skills-one-folder-any-model/>skills</a>.</strong> Anything you do twice should be a skill. Anything in your head that a colleague would also benefit from should be in a folder, not in your head.</li><li><strong>Set up one personal agent.</strong> Not for work. For your inbox, your calendar, your reading list. The shape of &ldquo;AI in my life&rdquo; makes a lot more sense once you have one running.</li><li><strong>Keep a notebook.</strong> When something surprises you - good or bad - write it down. The pace of change is faster than memory. The notebook is how you keep your taste calibrated.</li></ol><hr><h2 id=a-closing-thought>A Closing Thought<a hidden class=anchor aria-hidden=true href=#a-closing-thought>#</a></h2><p>A year ago I would have called most of this speculative. Now most of it is shipped, in production, and either on my machine or about to be. The thing I keep coming back to is that the change is not really about the models. It is about what happens when capable models are wrapped in good harnesses, given access to the tools you already use, and pointed at problems you care about.</p><p>The next two years will be more of the same, faster. The people who do well will be the ones who treat the tools like a craft - learning them carefully, picking the right one for the right job, building habits around review and judgement rather than typing speed.</p><p>The verb is &ldquo;delegate&rdquo; now. The skill is knowing what to delegate, to whom, and what to do with the result. Everything else follows from that.</p><h2 id=related-reading>Related Reading<a hidden class=anchor aria-hidden=true href=#related-reading>#</a></h2><ul><li><a href=/ai/ai-agents-that-actually-work/>AI Agents That Actually Work: Patterns From Real Projects</a></li><li><a href=/ai/agent-first-architecture-engineer-as-curator/>Agent-First Architecture: The Engineer as System Curator</a></li><li><a href=/ai/hermes-agent/>Hermes Agent: Persistent Autonomy That Learns and Grows</a></li><li><a href=/ai/the-next-decade-of-ai/>The Next Decade of AI: What Actually Happens From Here</a></li><li><a href=/ai/automation-paradox/>The Automation Paradox: Why More AI Makes Human Judgment More Valuable</a></li></ul></div><footer class=post-footer><ul class=post-tags><li><a href=https://jamesm.blog/tags/ai/>AI</a></li><li><a href=https://jamesm.blog/tags/agent/>Agent</a></li><li><a href=https://jamesm.blog/tags/tooling/>Tooling</a></li><li><a href=https://jamesm.blog/tags/workflow/>Workflow</a></li><li><a href=https://jamesm.blog/tags/future/>Future</a></li><li><a href=https://jamesm.blog/tags/productivity/>Productivity</a></li></ul><nav class=paginav><a class=prev href=https://jamesm.blog/music-production/claude-ableton-connector/><span class=title>« Prev</span>
-<span>Connecting Claude to Ableton: Why the New Knowledge Connector Matters</span>
-</a><a class=next href=https://jamesm.blog/ai/ai-safety-first-principles/><span class=title>Next »</span>
-<span>AI Safety From First Principles: What Actually Matters vs What's Hype</span></a></nav><ul class=share-buttons><li><a target=_blank rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on x" href="https://x.com/intent/tweet/?text=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f&amp;hashtags=ai%2cagent%2ctooling%2cworkflow%2cfuture%2cproductivity"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446C483.971.0 512 28.03 512 62.554zM269.951 190.75 182.567 75.216H56L207.216 272.95 63.9 436.783h61.366L235.9 310.383l96.667 126.4H456L298.367 228.367l134-153.151H371.033zM127.633 110h36.468l219.38 290.065H349.5z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f&amp;title=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;summary=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;source=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f&title=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on whatsapp" href="https://api.whatsapp.com/send?text=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next%20-%20https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on telegram" href="https://telegram.me/share/url?text=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f"><svg viewBox="2 2 28 28" height="30" width="30" fill="currentColor"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on ycombinator" href="https://news.ycombinator.com/submitlink?t=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&u=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f"><svg width="30" height="30" viewBox="0 0 512 512" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446zM183.8767 87.9921h-62.034L230.6673 292.4508V424.0079h50.6655V292.4508L390.1575 87.9921H328.1233L256 238.2489z"/></svg></a></li></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://jamesm.blog/>jamesm.blog</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A Year of Agents, and What is Coming Next | jamesm.blog</title>
+<meta name="keywords" content="ai, agent, tooling, workflow, future, productivity">
+<meta name="description" content="A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/year-of-agents-and-whats-next/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/year-of-agents-and-whats-next/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/year-of-agents-and-whats-next/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="A Year of Agents, and What is Coming Next">
+  <meta property="og:description" content="A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-04-30T08:06:00+01:00">
+    <meta property="article:modified_time" content="2026-04-30T08:06:00+01:00">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Agent">
+    <meta property="article:tag" content="Tooling">
+    <meta property="article:tag" content="Workflow">
+    <meta property="article:tag" content="Future">
+    <meta property="article:tag" content="Productivity">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg">
+  <meta name="twitter:title" content="A Year of Agents, and What is Coming Next">
+  <meta name="twitter:description" content="A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "A Year of Agents, and What is Coming Next",
+      "item": "https://jamesm.blog/ai/year-of-agents-and-whats-next/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A Year of Agents, and What is Coming Next",
+  "name": "A Year of Agents, and What is Coming Next",
+  "description": "A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.",
+  "keywords": [
+    "ai", "agent", "tooling", "workflow", "future", "productivity"
+  ],
+  "articleBody": "TL;DR The defining shift from April 2025 to April 2026 is the move from “ask” to “delegate” - agents now run for minutes, open files, execute shells, and return results rather than waiting for each prompt Key developments that drove this: coding agents becoming operators (Claude Code, Cursor, Codex), MCP standardising tool access, spec-driven development going mainstream, and context windows expanding to millions of tokens In the next two years, longer-horizon agents, multi-agent coordination, persistent personal AI memory, and computer-use automation will move from early features to default expectations The working day is reshaping around less typing and more reviewing - the skill that matters is judgement over diffs, not typing speed or boilerplate generation To adapt now: pick a stack and use it daily, write specs before code, build the habit of reviewing diffs fast, and move procedural knowledge into reusable agent skills A year ago, in April 2025, “AI in your workflow” mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was “ask”.\nIn April 2026, the verb is “delegate”.\nThat is the headline, and it is not subtle once you go looking for it. The tools you use day to day no longer wait for prompts. They run for minutes at a time, open files, edit them, run shells, spin up sub-agents, browse the web, and come back with a result that is either roughly right or visibly wrong. You are no longer in the loop on every keystroke. You are in the loop on the outcome.\nThis post is a stocktake. What changed in the last twelve months, what is clearly coming in the next twenty-four, and what it does to the shape of a working day - both at work and at home.\nWhat Changed in the Last Year I want to be honest about how much of this snuck up on people. None of it was a single moment. There was no GPT-3-shaped thunderclap. It was a steady drumbeat of capability and ergonomics improvements, and the cumulative effect is that the tools now do qualitatively different work.\nA rough taxonomy of what shifted:\nCoding agents went from “assistant” to “operator.” Claude Code, Cursor, OpenAI Codex, and a long tail of open-source harnesses (Cline, OpenHands, Goose, Aider) all converged on the same shape: a long-running loop where the model plans, edits, runs, and reviews on its own, and the human judges the diff. The thing you tab between while you make coffee is not the same thing it was a year ago.\nLong-running, multi-step tasks became routine. A task that takes thirty minutes of agent time was exotic in mid-2025. By the end of 2025 it was normal. Now sub-agents fan out, work in parallel, and report back to a coordinator. I have written about this shift in Agent-First Architecture, and the gist is that you spend less time writing code and more time deciding what should run and reviewing what came back.\nStandards started showing up. Two are worth singling out. MCP (the Model Context Protocol) has become the default way an agent talks to your tools - your filesystem, your database, your calendar, your issue tracker. And Agent Skills - a folder with a SKILL.md file - has become the default way you give an agent procedural knowledge that works across tools. Both are open. Both are boring on purpose. Both are the right kind of boring. I wrote up the skills story in AI Skills: One Folder, Any Model.\nSpec-driven development stopped being a meme. GitHub’s Spec Kit and the broader pattern of writing a spec first, generating an implementation, and reviewing the diff is now how most teams I talk to actually run. The interesting move is that the spec is the artefact. The code is the by-product. That is a different mental model than “AI helps me write code.”\nContext windows stopped being scarce. A million tokens is normal. Several million is not unusual. Prompt caching means that loading a whole repo into context is cheap on the second turn. The economics of “let the model read everything before it answers” are no longer absurd. I wrote about this trajectory in The LLM Context Window Arms Race.\nLocal AI stopped being a toy. A Mac Studio with an M4 Ultra runs a 70B-class model fast enough to be useful. Ollama and LM Studio made the install painless. The frontier still lives in the cloud, but a serious chunk of “small task, sensitive data” work now happens on a desk.\nVoice and multimodal got real. Dictation that actually keeps up. Models that read a screenshot and act on it. Computer use that drives a browser well enough to book a flight or extract a number from a PDF. A year ago these felt like demos. Now they feel like features.\nIf you put all of that together, the change of state is the move from “AI helps me do my job” to “AI does parts of my job, and I supervise.”\nWhat is Definitely Coming in the Next Two Years I want to be careful here. The track record of AI predictions is unkind to anyone who picks specific dates. So I am only going to list things where the trajectory is so well-established that the question is “when, exactly?” rather than “if at all?”\nLonger-horizon agents. Today’s agents reliably do tasks that take minutes, sometimes an hour. The frontier of useful is now several hours of unattended work. By 2027 a job-day of agent work, with reasonable check-ins, will be normal. Whether that means “writes a feature end-to-end” or “investigates a bug across three services and proposes a fix” depends on the day, but the direction is the same.\nMulti-agent systems as the default. Single-agent runs are already starting to feel quaint. The shape that wins is a coordinator and a fleet of specialised sub-agents - one for research, one for code, one for review, one for tests - each running in parallel against the same goal. You will not write the agents. You will configure them.\nPersonal AI with persistent memory. The thing nobody has gotten right yet is an assistant that remembers what you told it last month without you having to remind it. The pieces are now in place: stable embeddings, cheap long context, MCP access to your calendar and email and notes. Within two years this is a product, not a research project. I sketched out where this is going in Home AI Agent Memory That Lasts.\nAgents that drive your computer. “Computer use” - the model controlling a real browser or a real desktop - was clunky in 2025 and credible in 2026. By 2027 the booking, scheduling, form-filling, expense-claim layer of work life is largely something you supervise rather than something you do. Most knowledge workers will spend less time in browsers because their agents will spend more.\nCheaper inference, more capable small models. The cost of a frontier-quality token is falling roughly tenfold per year, and there is no reason to think the curve flattens before 2028. Small models keep eating tasks the big ones used to monopolise. The interesting consequence: cost stops being the constraint on agent design. Latency and quality become the only things that matter.\nRobotics moving from demo to deployment. Humanoid platforms - Tesla Optimus, Boston Dynamics Atlas, Unitree G1 - are the visible bit. The less visible bit is that the same model architectures driving software agents are starting to drive physical ones. Two years out, “an agent did it” stops being purely digital.\nRegulation catches up, unevenly. The EU AI Act is in force. The US is patchwork. The UK is trying to thread the needle. None of this stops the trajectory, but it changes which products ship in which markets and how fast. Worth watching if your work crosses borders.\nThere are plenty of things I am genuinely uncertain about - whether we get a true general-purpose agent that holds together across weeks of work, whether AGI-shaped capabilities show up by 2028, whether the labour market reshapes faster than education can - but I would rather list the things I am confident about and stop there.\nHow This Changes the Working Day The interesting question is not “what can the tools do?” but “what does the day look like?” Here is what I see, both in my own work as a data engineer and in the teams I talk to.\nLess typing, more reviewing. The unit of work shifts from “write a function” to “decide whether this diff is right.” That is a different cognitive load. It rewards taste, judgement, and the ability to read code fast - skills that were always valuable but were never the bottleneck. They are now. I wrote about this in Taste is the New Scarcity.\nSpecs become the artefact. A clear, testable description of what you want is the new commit. The agent generates the code. You review the diff. The spec is what gets versioned, argued about, and revisited. If you are not already writing things down before you build them, you will be.\nParallelism is real for individuals, not just teams. A single engineer running three or four agents in parallel against three or four tasks is no longer notable. It is just Tuesday. The constraint is review bandwidth, not implementation bandwidth. People who can keep four threads of work in their head while reviewing the diffs as they land have a real edge.\nThe “junior task” middle hollows out. The work that used to be “give it to a junior to learn the codebase” is the work an agent does best. That has uncomfortable consequences for how careers start, which I have chewed on in The Junior Developer Pipeline Problem. It is not solved. It needs to be.\nStandups change shape. “What I did yesterday” becomes “what my agents did yesterday and what I approved.” Demos shift from “look at this code” to “look at these specs and the diffs the agents produced.” The metabolism of a team gets faster in a way that is genuinely uncomfortable for the first few months.\nHow This Changes Life Outside Work This is the bit that gets less coverage and matters more.\nEmail, calendar, scheduling. The amount of mental load you carry around for “who do I owe a reply to, when is that thing, did I confirm the booking” is going to shrink. Personal assistants with MCP access to your inbox, calendar, and a scratchpad of your preferences will do this layer. Not perfectly. Well enough that you stop noticing.\nResearch and decisions. Buying a flat, choosing a school, planning a trip, comparing pension providers. The work is currently slow, lonely, and dependent on whoever has the time to grind through PDFs. A capable assistant collapses the time cost by an order of magnitude. The decision is still yours. The legwork is not.\nHealth and admin. Reading lab results, summarising a consultant’s letter, working out which insurance form to fill in, chasing the council about the bins. None of this is glamorous. All of this drains hours from a week. Agents will do almost all of it within two years, with you in the loop only when something matters.\nLearning. A patient tutor who knows what you already know, has read the textbook, and can run examples on demand is now a real thing. The bottleneck on learning a new field stops being “find a teacher” and becomes “decide what you want to learn.” That is a much better problem to have.\nThe flip side: attention. The same systems that save you hours can also fill them. Always-on agents, always-on summaries, always-on suggestions. The skill that compounds is knowing when to switch them off. I do not have a clean answer to this. It is something I am paying attention to.\nWhat to Actually Do About It A short list, because long lists in posts like this rarely survive contact with a Tuesday.\nPick a stack and use it daily. I have written up mine in What Actually Belongs in My AI Dev Stack in 2026. The specifics matter less than the habit. You learn this by using it, not by reading about it. Write specs before code. Even small ones. Even informal ones. The muscle of “describe what you want clearly” is the muscle that pays off everywhere else. Get good at reviewing diffs fast. This is the new core skill. It is not glamorous and it is not taught. You build it by doing it. Move procedural knowledge into skills. Anything you do twice should be a skill. Anything in your head that a colleague would also benefit from should be in a folder, not in your head. Set up one personal agent. Not for work. For your inbox, your calendar, your reading list. The shape of “AI in my life” makes a lot more sense once you have one running. Keep a notebook. When something surprises you - good or bad - write it down. The pace of change is faster than memory. The notebook is how you keep your taste calibrated. A Closing Thought A year ago I would have called most of this speculative. Now most of it is shipped, in production, and either on my machine or about to be. The thing I keep coming back to is that the change is not really about the models. It is about what happens when capable models are wrapped in good harnesses, given access to the tools you already use, and pointed at problems you care about.\nThe next two years will be more of the same, faster. The people who do well will be the ones who treat the tools like a craft - learning them carefully, picking the right one for the right job, building habits around review and judgement rather than typing speed.\nThe verb is “delegate” now. The skill is knowing what to delegate, to whom, and what to do with the result. Everything else follows from that.\nRelated Reading AI Agents That Actually Work: Patterns From Real Projects Agent-First Architecture: The Engineer as System Curator Hermes Agent: Persistent Autonomy That Learns and Grows The Next Decade of AI: What Actually Happens From Here The Automation Paradox: Why More AI Makes Human Judgment More Valuable ",
+  "wordCount" : "2411",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg","datePublished": "2026-04-30T08:06:00+01:00",
+  "dateModified": "2026-04-30T08:06:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/year-of-agents-and-whats-next/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      A Year of Agents, and What is Coming Next
+    </h1>
+    <div class="post-description">
+      A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.
+    </div>
+    <div class="post-meta"><span title='2026-04-30 08:06:00 +0100 BST'>April 30, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/ai/a-year-of-agents-whats-next.jpg" alt="A year of AI agents">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#tldr" aria-label="TL;DR">TL;DR</a></li>
+            <li>
+                <a href="#what-changed-in-the-last-year" aria-label="What Changed in the Last Year">What Changed in the Last Year</a></li>
+            <li>
+                <a href="#what-is-definitely-coming-in-the-next-two-years" aria-label="What is Definitely Coming in the Next Two Years">What is Definitely Coming in the Next Two Years</a></li>
+            <li>
+                <a href="#how-this-changes-the-working-day" aria-label="How This Changes the Working Day">How This Changes the Working Day</a></li>
+            <li>
+                <a href="#how-this-changes-life-outside-work" aria-label="How This Changes Life Outside Work">How This Changes Life Outside Work</a></li>
+            <li>
+                <a href="#what-to-actually-do-about-it" aria-label="What to Actually Do About It">What to Actually Do About It</a></li>
+            <li>
+                <a href="#a-closing-thought" aria-label="A Closing Thought">A Closing Thought</a></li>
+            <li>
+                <a href="#related-reading" aria-label="Related Reading">Related Reading</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
+<ul>
+<li>The defining shift from April 2025 to April 2026 is the move from &ldquo;ask&rdquo; to <strong>&ldquo;delegate&rdquo;</strong> - agents now run for minutes, open files, execute shells, and return results rather than waiting for each prompt</li>
+<li>Key developments that drove this: coding agents becoming operators (Claude Code, Cursor, Codex), <strong>MCP</strong> standardising tool access, spec-driven development going mainstream, and context windows expanding to millions of tokens</li>
+<li>In the next two years, longer-horizon agents, <strong>multi-agent coordination</strong>, persistent personal AI memory, and computer-use automation will move from early features to default expectations</li>
+<li>The working day is reshaping around less typing and more reviewing - the skill that matters is <strong>judgement over diffs</strong>, not typing speed or boilerplate generation</li>
+<li>To adapt now: pick a stack and use it daily, write specs before code, build the habit of reviewing diffs fast, and move procedural knowledge into reusable agent skills</li>
+</ul>
+<p>A year ago, in April 2025, &ldquo;AI in your workflow&rdquo; mostly meant a chat window in a browser tab and an autocomplete plugin in your editor. You typed, it suggested, you accepted or rejected. The interaction model was small. The blast radius was small. The verb was &ldquo;ask&rdquo;.</p>
+<p>In April 2026, the verb is &ldquo;delegate&rdquo;.</p>
+<p>That is the headline, and it is not subtle once you go looking for it. The tools you use day to day no longer wait for prompts. They run for minutes at a time, open files, edit them, run shells, spin up sub-agents, browse the web, and come back with a result that is either roughly right or visibly wrong. You are no longer in the loop on every keystroke. You are in the loop on the outcome.</p>
+<p>This post is a stocktake. What changed in the last twelve months, what is clearly coming in the next twenty-four, and what it does to the shape of a working day - both at work and at home.</p>
+<hr>
+<h2 id="what-changed-in-the-last-year">What Changed in the Last Year<a hidden class="anchor" aria-hidden="true" href="#what-changed-in-the-last-year">#</a></h2>
+<p>I want to be honest about how much of this snuck up on people. None of it was a single moment. There was no GPT-3-shaped thunderclap. It was a steady drumbeat of capability and ergonomics improvements, and the cumulative effect is that the tools now do qualitatively different work.</p>
+<p>A rough taxonomy of what shifted:</p>
+<p><strong>Coding agents went from &ldquo;assistant&rdquo; to &ldquo;operator.&rdquo;</strong> <a href="https://www.claude.com/product/claude-code">Claude Code</a>, <a href="https://cursor.com/">Cursor</a>, <a href="https://developers.openai.com/codex">OpenAI Codex</a>, and a long tail of open-source harnesses (<a href="https://github.com/cline/cline">Cline</a>, <a href="https://openhands.dev/">OpenHands</a>, <a href="https://goose-docs.ai/">Goose</a>, <a href="https://aider.chat/">Aider</a>) all converged on the same shape: a long-running loop where the model plans, edits, runs, and reviews on its own, and the human judges the diff. The thing you tab between while you make coffee is not the same thing it was a year ago.</p>
+<p><strong>Long-running, multi-step tasks became routine.</strong> A task that takes thirty minutes of agent time was exotic in mid-2025. By the end of 2025 it was normal. Now sub-agents fan out, work in parallel, and report back to a coordinator. I have written about this shift in <a href="/ai/agent-first-architecture-engineer-as-curator/">Agent-First Architecture</a>, and the gist is that you spend less time writing code and more time deciding what should run and reviewing what came back.</p>
+<p><strong>Standards started showing up.</strong> Two are worth singling out. <a href="https://modelcontextprotocol.io/">MCP</a> (the Model Context Protocol) has become the default way an agent talks to your tools - your filesystem, your database, your calendar, your issue tracker. And <a href="https://agentskills.io/">Agent Skills</a> - a folder with a <code>SKILL.md</code> file - has become the default way you give an agent procedural knowledge that works across tools. Both are open. Both are boring on purpose. Both are the right kind of boring. I wrote up the skills story in <a href="/ai/ai-skills-one-folder-any-model/">AI Skills: One Folder, Any Model</a>.</p>
+<p><strong>Spec-driven development stopped being a meme.</strong> <a href="https://github.com/github/spec-kit">GitHub&rsquo;s Spec Kit</a> and the broader pattern of writing a spec first, generating an implementation, and reviewing the diff is now how most teams I talk to actually run. The interesting move is that the spec is the artefact. The code is the by-product. That is a different mental model than &ldquo;AI helps me write code.&rdquo;</p>
+<p><strong>Context windows stopped being scarce.</strong> A million tokens is normal. Several million is not unusual. Prompt caching means that loading a whole repo into context is cheap on the second turn. The economics of &ldquo;let the model read everything before it answers&rdquo; are no longer absurd. I wrote about this trajectory in <a href="/ai/llm-context-window-arms-race/">The LLM Context Window Arms Race</a>.</p>
+<p><strong>Local AI stopped being a toy.</strong> A Mac Studio with an M4 Ultra runs a 70B-class model fast enough to be useful. <a href="https://ollama.com/">Ollama</a> and <a href="https://lmstudio.ai/">LM Studio</a> made the install painless. The frontier still lives in the cloud, but a serious chunk of &ldquo;small task, sensitive data&rdquo; work now happens on a desk.</p>
+<p><strong>Voice and multimodal got real.</strong> Dictation that actually keeps up. Models that read a screenshot and act on it. Computer use that drives a browser well enough to book a flight or extract a number from a PDF. A year ago these felt like demos. Now they feel like features.</p>
+<p>If you put all of that together, the change of state is the move from &ldquo;AI helps me do my job&rdquo; to &ldquo;AI does parts of my job, and I supervise.&rdquo;</p>
+<hr>
+<h2 id="what-is-definitely-coming-in-the-next-two-years">What is Definitely Coming in the Next Two Years<a hidden class="anchor" aria-hidden="true" href="#what-is-definitely-coming-in-the-next-two-years">#</a></h2>
+<p>I want to be careful here. The track record of AI predictions is unkind to anyone who picks specific dates. So I am only going to list things where the trajectory is so well-established that the question is &ldquo;when, exactly?&rdquo; rather than &ldquo;if at all?&rdquo;</p>
+<p><strong>Longer-horizon agents.</strong> Today&rsquo;s agents reliably do tasks that take minutes, sometimes an hour. The frontier of useful is now several hours of unattended work. By 2027 a job-day of agent work, with reasonable check-ins, will be normal. Whether that means &ldquo;writes a feature end-to-end&rdquo; or &ldquo;investigates a bug across three services and proposes a fix&rdquo; depends on the day, but the direction is the same.</p>
+<p><strong>Multi-agent systems as the default.</strong> Single-agent runs are already starting to feel quaint. The shape that wins is a coordinator and a fleet of specialised sub-agents - one for research, one for code, one for review, one for tests - each running in parallel against the same goal. You will not write the agents. You will configure them.</p>
+<p><strong>Personal AI with persistent memory.</strong> The thing nobody has gotten right yet is an assistant that remembers what you told it last month without you having to remind it. The pieces are now in place: stable embeddings, cheap long context, MCP access to your calendar and email and notes. Within two years this is a product, not a research project. I sketched out where this is going in <a href="/ai/home-ai-agent-memory-that-lasts/">Home AI Agent Memory That Lasts</a>.</p>
+<p><strong>Agents that drive your computer.</strong> &ldquo;Computer use&rdquo; - the model controlling a real browser or a real desktop - was clunky in 2025 and credible in 2026. By 2027 the booking, scheduling, form-filling, expense-claim layer of work life is largely something you supervise rather than something you do. Most knowledge workers will spend less time in browsers because their agents will spend more.</p>
+<p><strong>Cheaper inference, more capable small models.</strong> The cost of a frontier-quality token is falling roughly tenfold per year, and there is no reason to think the curve flattens before 2028. Small models keep eating tasks the big ones used to monopolise. The interesting consequence: cost stops being the constraint on agent design. Latency and quality become the only things that matter.</p>
+<p><strong>Robotics moving from demo to deployment.</strong> Humanoid platforms - <a href="/ai/tesla-optimus-robot/">Tesla Optimus</a>, <a href="https://bostondynamics.com/atlas/">Boston Dynamics Atlas</a>, <a href="https://www.unitree.com/g1">Unitree G1</a> - are the visible bit. The less visible bit is that the same model architectures driving software agents are starting to drive physical ones. Two years out, &ldquo;an agent did it&rdquo; stops being purely digital.</p>
+<p><strong>Regulation catches up, unevenly.</strong> The EU AI Act is in force. The US is patchwork. The UK is trying to thread the needle. None of this stops the trajectory, but it changes which products ship in which markets and how fast. Worth watching if your work crosses borders.</p>
+<p>There are plenty of things I am genuinely uncertain about - whether we get a true general-purpose agent that holds together across weeks of work, whether AGI-shaped capabilities show up by 2028, whether the labour market reshapes faster than education can - but I would rather list the things I am confident about and stop there.</p>
+<hr>
+<h2 id="how-this-changes-the-working-day">How This Changes the Working Day<a hidden class="anchor" aria-hidden="true" href="#how-this-changes-the-working-day">#</a></h2>
+<p>The interesting question is not &ldquo;what can the tools do?&rdquo; but &ldquo;what does the day look like?&rdquo; Here is what I see, both in my own work as a <a href="https://en.wikipedia.org/wiki/Data_engineering">data engineer</a> and in the teams I talk to.</p>
+<p><strong>Less typing, more reviewing.</strong> The unit of work shifts from &ldquo;write a function&rdquo; to &ldquo;decide whether this diff is right.&rdquo; That is a different cognitive load. It rewards taste, judgement, and the ability to read code fast - skills that were always valuable but were never the bottleneck. They are now. I wrote about this in <a href="/ai/taste-is-the-new-scarcity/">Taste is the New Scarcity</a>.</p>
+<p><strong>Specs become the artefact.</strong> A clear, testable description of what you want is the new commit. The agent generates the code. You review the diff. The spec is what gets versioned, argued about, and revisited. If you are not already writing things down before you build them, you will be.</p>
+<p><strong>Parallelism is real for individuals, not just teams.</strong> A single engineer running three or four agents in parallel against three or four tasks is no longer notable. It is just Tuesday. The constraint is review bandwidth, not implementation bandwidth. People who can keep four threads of work in their head while reviewing the diffs as they land have a real edge.</p>
+<p><strong>The &ldquo;junior task&rdquo; middle hollows out.</strong> The work that used to be &ldquo;give it to a junior to learn the codebase&rdquo; is the work an agent does best. That has uncomfortable consequences for how careers start, which I have chewed on in <a href="/ai/junior-developer-pipeline-problem/">The Junior Developer Pipeline Problem</a>. It is not solved. It needs to be.</p>
+<p><strong>Standups change shape.</strong> &ldquo;What I did yesterday&rdquo; becomes &ldquo;what my agents did yesterday and what I approved.&rdquo; Demos shift from &ldquo;look at this code&rdquo; to &ldquo;look at these specs and the diffs the agents produced.&rdquo; The metabolism of a team gets faster in a way that is genuinely uncomfortable for the first few months.</p>
+<hr>
+<h2 id="how-this-changes-life-outside-work">How This Changes Life Outside Work<a hidden class="anchor" aria-hidden="true" href="#how-this-changes-life-outside-work">#</a></h2>
+<p>This is the bit that gets less coverage and matters more.</p>
+<p><strong>Email, calendar, scheduling.</strong> The amount of mental load you carry around for &ldquo;who do I owe a reply to, when is that thing, did I confirm the booking&rdquo; is going to shrink. Personal assistants with MCP access to your inbox, calendar, and a scratchpad of your preferences will do this layer. Not perfectly. Well enough that you stop noticing.</p>
+<p><strong>Research and decisions.</strong> Buying a flat, choosing a school, planning a trip, comparing pension providers. The work is currently slow, lonely, and dependent on whoever has the time to grind through PDFs. A capable assistant collapses the time cost by an order of magnitude. The decision is still yours. The legwork is not.</p>
+<p><strong>Health and admin.</strong> Reading lab results, summarising a consultant&rsquo;s letter, working out which insurance form to fill in, chasing the council about the bins. None of this is glamorous. All of this drains hours from a week. Agents will do almost all of it within two years, with you in the loop only when something matters.</p>
+<p><strong>Learning.</strong> A patient tutor who knows what you already know, has read the textbook, and can run examples on demand is now a real thing. The bottleneck on learning a new field stops being &ldquo;find a teacher&rdquo; and becomes &ldquo;decide what you want to learn.&rdquo; That is a much better problem to have.</p>
+<p><strong>The flip side: attention.</strong> The same systems that save you hours can also fill them. Always-on agents, always-on summaries, always-on suggestions. The skill that compounds is knowing when to switch them off. I do not have a clean answer to this. It is something I am paying attention to.</p>
+<hr>
+<h2 id="what-to-actually-do-about-it">What to Actually Do About It<a hidden class="anchor" aria-hidden="true" href="#what-to-actually-do-about-it">#</a></h2>
+<p>A short list, because long lists in posts like this rarely survive contact with a Tuesday.</p>
+<ol>
+<li><strong>Pick a stack and use it daily.</strong> I have written up mine in <a href="/ai/what-actually-belongs-in-my-ai-dev-stack-2026/">What Actually Belongs in My AI Dev Stack in 2026</a>. The specifics matter less than the habit. You learn this by using it, not by reading about it.</li>
+<li><strong>Write specs before code.</strong> Even small ones. Even informal ones. The muscle of &ldquo;describe what you want clearly&rdquo; is the muscle that pays off everywhere else.</li>
+<li><strong>Get good at reviewing diffs fast.</strong> This is the new core skill. It is not glamorous and it is not taught. You build it by doing it.</li>
+<li><strong>Move procedural knowledge into <a href="/ai/ai-skills-one-folder-any-model/">skills</a>.</strong> Anything you do twice should be a skill. Anything in your head that a colleague would also benefit from should be in a folder, not in your head.</li>
+<li><strong>Set up one personal agent.</strong> Not for work. For your inbox, your calendar, your reading list. The shape of &ldquo;AI in my life&rdquo; makes a lot more sense once you have one running.</li>
+<li><strong>Keep a notebook.</strong> When something surprises you - good or bad - write it down. The pace of change is faster than memory. The notebook is how you keep your taste calibrated.</li>
+</ol>
+<hr>
+<h2 id="a-closing-thought">A Closing Thought<a hidden class="anchor" aria-hidden="true" href="#a-closing-thought">#</a></h2>
+<p>A year ago I would have called most of this speculative. Now most of it is shipped, in production, and either on my machine or about to be. The thing I keep coming back to is that the change is not really about the models. It is about what happens when capable models are wrapped in good harnesses, given access to the tools you already use, and pointed at problems you care about.</p>
+<p>The next two years will be more of the same, faster. The people who do well will be the ones who treat the tools like a craft - learning them carefully, picking the right one for the right job, building habits around review and judgement rather than typing speed.</p>
+<p>The verb is &ldquo;delegate&rdquo; now. The skill is knowing what to delegate, to whom, and what to do with the result. Everything else follows from that.</p>
+<h2 id="related-reading">Related Reading<a hidden class="anchor" aria-hidden="true" href="#related-reading">#</a></h2>
+<ul>
+<li><a href="/ai/ai-agents-that-actually-work/">AI Agents That Actually Work: Patterns From Real Projects</a></li>
+<li><a href="/ai/agent-first-architecture-engineer-as-curator/">Agent-First Architecture: The Engineer as System Curator</a></li>
+<li><a href="/ai/hermes-agent/">Hermes Agent: Persistent Autonomy That Learns and Grows</a></li>
+<li><a href="/ai/the-next-decade-of-ai/">The Next Decade of AI: What Actually Happens From Here</a></li>
+<li><a href="/ai/automation-paradox/">The Automation Paradox: Why More AI Makes Human Judgment More Valuable</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/agent/">Agent</a></li>
+      <li><a href="https://jamesm.blog/tags/tooling/">Tooling</a></li>
+      <li><a href="https://jamesm.blog/tags/workflow/">Workflow</a></li>
+      <li><a href="https://jamesm.blog/tags/future/">Future</a></li>
+      <li><a href="https://jamesm.blog/tags/productivity/">Productivity</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/music-production/claude-ableton-connector/">
+    <span class="title">« Prev</span>
+    <span>Connecting Claude to Ableton: Why the New Knowledge Connector Matters</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/ai/ai-safety-first-principles/">
+    <span class="title">Next »</span>
+    <span>AI Safety From First Principles: What Actually Matters vs What&#39;s Hype</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on x"
+            href="https://x.com/intent/tweet/?text=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f&amp;hashtags=ai%2cagent%2ctooling%2cworkflow%2cfuture%2cproductivity">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f&amp;title=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;summary=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;source=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f&title=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on whatsapp"
+            href="https://api.whatsapp.com/send?text=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next%20-%20https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on telegram"
+            href="https://telegram.me/share/url?text=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share A Year of Agents, and What is Coming Next on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=A%20Year%20of%20Agents%2c%20and%20What%20is%20Coming%20Next&u=https%3a%2f%2fjamesm.blog%2fai%2fyear-of-agents-and-whats-next%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

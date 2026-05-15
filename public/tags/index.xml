@@ -11,20 +11,55 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 07:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic-Engineering</title>
+      <link>https://jamesm.blog/tags/agentic-engineering/</link>
+      <pubDate>Thu, 14 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agentic-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://jamesm.blog/tags/ai/</link>
+      <pubDate>Thu, 14 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>https://jamesm.blog/tags/audio/</link>
+      <pubDate>Thu, 14 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://jamesm.blog/tags/llm/</link>
+      <pubDate>Thu, 14 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodal</title>
+      <link>https://jamesm.blog/tags/multimodal/</link>
+      <pubDate>Thu, 14 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/multimodal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vision</title>
+      <link>https://jamesm.blog/tags/vision/</link>
+      <pubDate>Thu, 14 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/vision/</guid>
+      <description></description>
+    </item>
     <item>
       <title>2026</title>
       <link>https://jamesm.blog/tags/2026/</link>
       <pubDate>Mon, 11 May 2026 07:22:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/2026/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Mon, 11 May 2026 07:22:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -147,7 +182,7 @@
       <description></description>
     </item>
     <item>
-      <title>Music-Production</title>
+      <title>Music Production</title>
       <link>https://jamesm.blog/tags/music-production/</link>
       <pubDate>Mon, 04 May 2026 08:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/music-production/</guid>
@@ -546,7 +581,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -606,13 +641,6 @@
       <link>https://jamesm.blog/tags/lakehouse/</link>
       <pubDate>Sun, 03 May 2026 16:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/lakehouse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>https://jamesm.blog/tags/llm/</link>
-      <pubDate>Sun, 03 May 2026 16:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/llm/</guid>
       <description></description>
     </item>
     <item>
@@ -896,7 +924,7 @@
       <description></description>
     </item>
     <item>
-      <title>Sound-Design</title>
+      <title>Sound Design</title>
       <link>https://jamesm.blog/tags/sound-design/</link>
       <pubDate>Sat, 02 May 2026 09:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sound-design/</guid>
@@ -1008,13 +1036,6 @@
       <description></description>
     </item>
     <item>
-      <title>Agentic-Engineering</title>
-      <link>https://jamesm.blog/tags/agentic-engineering/</link>
-      <pubDate>Fri, 01 May 2026 08:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/agentic-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Architecture</title>
       <link>https://jamesm.blog/tags/architecture/</link>
       <pubDate>Fri, 01 May 2026 08:00:00 +0100</pubDate>
@@ -1078,7 +1099,7 @@
       <description></description>
     </item>
     <item>
-      <title>Claude Code</title>
+      <title>Claude-Code</title>
       <link>https://jamesm.blog/tags/claude-code/</link>
       <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/claude-code/</guid>
@@ -1936,13 +1957,6 @@
       <link>https://jamesm.blog/tags/strategy/</link>
       <pubDate>Thu, 09 Apr 2026 06:24:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/strategy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Audio</title>
-      <link>https://jamesm.blog/tags/audio/</link>
-      <pubDate>Thu, 09 Apr 2026 06:22:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/audio/</guid>
       <description></description>
     </item>
     <item>

@@ -16,8 +16,8 @@ Dario Amodei is one of the few frontier-lab CEOs whose public talking points hav
 - Dario Amodei is the [co-founder and CEO of Anthropic](https://en.wikipedia.org/wiki/Dario_Amodei), the AI safety company behind the Claude model family.
 - He was born in San Francisco in 1983, studied physics at Stanford as an undergraduate, and earned a PhD in physics from Princeton focused on the electrophysiology of neural circuits.
 - He worked at Baidu and Google before joining OpenAI in 2016, where he served as Vice President of Research and led the development of GPT-2 and GPT-3. He is a co-inventor of reinforcement learning from human feedback (RLHF).
-- He and his sister [Daniela Amodei](https://www.anthropic.com/company) - now Anthropic's President - left OpenAI in 2021 over what both have described as differences in direction, and co-founded Anthropic with several colleagues from the OpenAI safety and policy teams.
-- Anthropic was [valued at around $183 billion](https://www.anthropic.com/) in late 2025 and reportedly around $380 billion in early 2026. Forbes estimated Amodei's net worth at approximately $7 billion in early 2026.
+- He and his sister [Daniela Amodei](https://en.wikipedia.org/wiki/Daniela_Amodei) - now Anthropic's President - left OpenAI in 2021 over what both have described as differences in direction, and co-founded Anthropic with several colleagues from the OpenAI safety and policy teams.
+- Anthropic was valued at around $183 billion in late 2025 and reportedly around $380 billion in early 2026. Forbes estimated Amodei's net worth at approximately $7 billion in early 2026.
 - His commercial bet is that safety, interpretability, and predictability are the features enterprises actually pay for as they scale AI into production, and that the lab most credibly delivering them captures the most valuable end of the market.
 - His public posture is unusually direct for a frontier-lab CEO. He has said publicly that AI could displace half of entry-level white-collar jobs within five years, that the US is "near the end of the exponential," and that Congress should regulate the technology now rather than later.
 

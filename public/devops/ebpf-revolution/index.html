@@ -1,12 +1,614 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>The eBPF Revolution - What Every Platform Engineer Should Know | jamesm.blog</title><meta name=keywords content="devops,ebpf,kubernetes,observability,platform,linux,2026"><meta name=description content="eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going."><meta name=author content="James M"><link rel=canonical href=https://jamesm.blog/devops/ebpf-revolution/><link crossorigin=anonymous href=/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css integrity="sha256-R+UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe+v3ZDTU=" rel="preload stylesheet" as=style><link rel=icon href=https://jamesm.blog/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://jamesm.blog/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://jamesm.blog/favicon-32x32.png><link rel=apple-touch-icon href=https://jamesm.blog/apple-touch-icon.png><link rel=mask-icon href=https://jamesm.blog/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://jamesm.blog/devops/ebpf-revolution/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-LTL3NQVCDT")</script><meta property="og:url" content="https://jamesm.blog/devops/ebpf-revolution/"><meta property="og:site_name" content="jamesm.blog"><meta property="og:title" content="The eBPF Revolution - What Every Platform Engineer Should Know"><meta property="og:description" content="eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="devops"><meta property="article:published_time" content="2026-05-03T17:00:00+01:00"><meta property="article:modified_time" content="2026-05-03T17:00:00+01:00"><meta property="article:tag" content="DevOps"><meta property="article:tag" content="Ebpf"><meta property="article:tag" content="Kubernetes"><meta property="article:tag" content="Observability"><meta property="article:tag" content="Platform"><meta property="article:tag" content="Linux"><meta property="og:image" content="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg"><meta name=twitter:title content="The eBPF Revolution - What Every Platform Engineer Should Know"><meta name=twitter:description content="eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"DevOps","item":"https://jamesm.blog/devops/"},{"@type":"ListItem","position":2,"name":"The eBPF Revolution - What Every Platform Engineer Should Know","item":"https://jamesm.blog/devops/ebpf-revolution/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"The eBPF Revolution - What Every Platform Engineer Should Know","name":"The eBPF Revolution - What Every Platform Engineer Should Know","description":"eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.","keywords":["devops","ebpf","kubernetes","observability","platform","linux","2026"],"articleBody":"TL;DR eBPF is the technology that lets you run safe, sandboxed programs inside the Linux kernel without writing kernel modules. In 2026 it is the foundation under most serious observability, networking, and runtime security tools. The interesting story is not the technology itself - it is the wave of products built on top of it: Cilium for networking, Tetragon for runtime security, Pixie, Parca, and Coroot for observability, plus a long tail of vendor offerings using eBPF under the hood. For platform engineers, eBPF is not “a thing you have to learn to write.” It is a thing you have to know about so you can choose tools intelligently and understand what is happening on your nodes when those tools cause problems. The most important shift eBPF has enabled is observability without instrumentation. You can see what is happening on a system without modifying the application, without restarting it, and with low overhead. That is genuinely new. What eBPF Actually Is eBPF stands for “extended Berkeley Packet Filter,” which is historical and confusing because eBPF has long since outgrown packet filtering. The simple version:\neBPF is a virtual machine inside the Linux kernel that runs small, sandboxed programs in response to events. The events can be network packets arriving, system calls happening, function calls in the kernel, or even function calls in userspace via uprobes.\nYou write an eBPF program (typically in a restricted dialect of C, or in a higher-level language like Rust that compiles to eBPF bytecode), the kernel verifies it for safety - bounded loops, no wild memory access, finite execution - and then JIT-compiles it to native instructions that run when the corresponding event fires.\nThe kernel verifier is the magic. It is what makes it safe to load arbitrary code into the kernel without crashing your machine. It is also what makes eBPF programs feel oddly constrained when you first write them.\nWhat you can do with this is broad:\nCapture and modify network packets (Cilium does this). Trace system calls and report on them (most observability tools). Enforce security policies at the syscall layer (Tetragon, Falco). Profile applications without instrumenting them (Parca, Pyroscope). Implement custom load balancing, NAT, and routing (Cilium again). The unifying theme: see and act on kernel events, safely, with minimal overhead, without modifying applications.\nWhy It Took Off eBPF has been around in some form since 2014. The 2026 explosion is the result of three things finally landing at once.\nKernel maturity. The features eBPF needs - BTF (BPF Type Format), CO-RE (Compile Once, Run Everywhere), the ring buffer interface, broader kernel coverage of probes and tracepoints - all stabilised over the last few years. eBPF programs are now portable across kernel versions in a way they were not.\nTool maturity. Writing raw eBPF is unpleasant. The frameworks - libbpf, Aya for Rust, BCC, bpftrace - have matured to the point where teams who are not kernel experts can build useful eBPF tools. Cilium’s contribution here is enormous; it created tooling and patterns that everyone else borrows from.\nThe Kubernetes pull. Kubernetes created a massive demand for in-kernel networking, observability, and security solutions that work the same way across thousands of nodes. eBPF is exceptionally well suited to that demand. The two technologies grew together.\nBy 2026 you can credibly say that the modern Linux platform stack runs on eBPF, even if most of the platform engineers running it have never written an eBPF program.\nThe Tools That Matter The eBPF ecosystem in 2026 has consolidated around a handful of high-quality projects. These are the ones platform engineers should know.\nCilium Cilium is the de-facto Kubernetes networking layer in 2026 for any cluster that has outgrown the basic networking offered by managed Kubernetes services. Cilium replaces kube-proxy, implements the CNI, provides network policies, supports service mesh features, and does observability via Hubble - all using eBPF.\nCilium is also a graduated CNCF project and is endorsed by every major cloud provider. If you are running serious Kubernetes, you are probably either running Cilium or considering moving to it.\nTetragon Tetragon is Cilium’s sibling project for runtime security. It uses eBPF to observe and enforce policies on syscalls, process execution, and file/network access. Where Cilium is the network plane, Tetragon is the runtime security plane.\nThe killer feature is that Tetragon can enforce policies (kill a process that shells out from a container, block a syscall) rather than just observe. Most security tools in this space stopped at observation.\nPixie Pixie gives you instant, no-instrumentation observability for Kubernetes workloads. You install it on a cluster, and immediately you can run scripts that show HTTP traces, database queries, function-level CPU usage, and network flows. All of it without modifying any application.\nPixie is the cleanest demonstration of “observability without instrumentation” that exists. The trade-off is that it works best for protocols and runtimes Pixie understands - HTTP, gRPC, Postgres, MySQL, Go, and a few others.\nParca and Pyroscope Parca and Pyroscope are continuous profiling tools. They sample CPU and memory profiles continuously across your fleet, with negligible overhead, and let you ask “where was time being spent on this service yesterday.” This is a workflow that did not really exist before eBPF made it cheap.\nFalco Falco is the older runtime security project that has mostly migrated to eBPF as its data source. Still widely deployed, still very useful for compliance and audit use cases.\nCoroot Coroot bundles observability and root-cause analysis in one tool, using eBPF for data collection. Smaller community than the CNCF-graduated projects but well thought through.\nWhat This Means For Platform Engineers You probably will not write eBPF programs. You will absolutely make decisions that depend on understanding what eBPF tools are doing on your nodes.\nPerformance footprint. eBPF programs run in the kernel and have low but real overhead. Stacking too many of them on a single node - networking with Cilium, security with Tetragon, observability with Pixie, profiling with Parca, plus a vendor’s eBPF agent - can add up. Modern tools are increasingly aware of this and try to share infrastructure (libbpf, BTF), but you should still measure.\nKernel version dependencies. Every eBPF tool has a minimum kernel version requirement. The newer the kernel, the more the tool can do. CO-RE has reduced this pain dramatically but it has not eliminated it. When you are choosing nodes, choose distros and kernel versions with eBPF in mind.\nPrivilege model. eBPF programs traditionally required CAP_SYS_ADMIN, which is a very large capability to grant. Newer kernels have introduced more granular eBPF capabilities (CAP_BPF, CAP_PERFMON). Platform engineers should care about which capabilities the tools they install actually need.\nDebuggability. When an eBPF tool misbehaves, the failure modes are weird. A network policy not being enforced, a profile that stops collecting, a security rule that silently fails. Knowing how to inspect loaded eBPF programs (bpftool), where the verifier rejected something, and what kernel events your tools are subscribed to is now part of the platform engineer toolkit.\nWhat eBPF Has Genuinely Changed It is worth being precise about what is actually new.\nObservability without instrumentation is the big one. For decades you could only see what your applications told you about themselves. Now you can see what they actually do at the syscall and network layers, without modifying the application. That is a qualitative change.\nNetwork policy enforcement at line rate is the other big one. Cilium can enforce network policies at hardware-near speeds because the enforcement happens in eBPF programs running in the kernel, not in userspace proxies. This made network policy a real feature rather than a theoretical one.\nContinuous profiling at scale went from “we run profiling occasionally” to “we always know where every service is spending its time.” That changes how teams approach performance work.\nCustom kernel behaviour without kernel modules is the meta-shift. Loading a kernel module used to be the only way to extend kernel behaviour and was risky enough that most ops teams avoided it. eBPF makes safe kernel extension a routine operation. That is a permanent change in how Linux platforms work.\nWhat eBPF Is Not eBPF is not magic. It does not let you do anything you want in the kernel - the verifier rejects programs that look unsafe, and the rules for what counts as unsafe are strict. Many useful programs require workarounds.\neBPF is not a replacement for application instrumentation. The most useful observability is usually a combination of eBPF-derived signals (what the system actually did) and application-emitted signals (why the application thought it was doing it). The two complement each other.\neBPF is not free. The overhead is small but real. Production deployments do measure it.\neBPF is not a way to bypass kernel security. The verifier and the privilege model exist precisely to prevent that. Treat eBPF tools the same way you treat any privileged software - audit, restrict, monitor.\nWhat Comes Next A few directions eBPF is genuinely heading in.\nWider language support. Rust on eBPF (Aya) is maturing. Go support is improving. The era of eBPF being a “C-only” technology is ending.\nUserspace eBPF. Projects to bring the eBPF programming model and runtime out of the kernel and into userspace are gaining traction. Use cases include sandboxing untrusted code, hot-reloading parts of applications, and embedded scripting.\nWindows. Microsoft has invested heavily in eBPF for Windows, which gives the technology a credible cross-platform story for the first time.\nMore vendor adoption. Almost every observability and security vendor in 2026 has either released an eBPF-based product or is integrating eBPF into an existing one. The tooling is becoming infrastructure.\nThe Honest Verdict eBPF is the most important Linux platform technology of the last decade. It has changed what observability, networking, and security tools can do, and the change is permanent. You do not need to write eBPF to live in the world it has produced - but you do need to understand what it is, which tools depend on it, and what you are signing up for when you adopt them.\nFor platform engineers in 2026, “knowing eBPF” means knowing the ecosystem. Cilium for networking, Tetragon for runtime security, Pixie for instant observability, Parca for continuous profiling. Knowing which kernel version you need, which capabilities to grant, and how to debug when something goes sideways.\nThe revolution is over and you are living in the result. The question now is how to get the most out of it without paying for what you do not need.\nRelated Reading Kubernetes in 2026 - Is It Still Worth the Complexity Tax? Platform Engineering 2026 DevOps Monitoring DevOps Best Practices DevOps in the Age of AI Agents ","wordCount":"1776","inLanguage":"en","image":"https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg","datePublished":"2026-05-03T17:00:00+01:00","dateModified":"2026-05-03T17:00:00+01:00","author":{"@type":"Person","name":"James M"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jamesm.blog/devops/ebpf-revolution/"},"publisher":{"@type":"Organization","name":"jamesm.blog","logo":{"@type":"ImageObject","url":"https://jamesm.blog/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=header-nav><div class=logo><a href=https://jamesm.blog/ accesskey=h title="jamesm.blog (Alt + H)">jamesm.blog</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://jamesm.blog/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://jamesm.blog/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://jamesm.blog/ai title=AI><span>AI</span></a></li><li><a href=https://jamesm.blog/blockchain title=Blockchain><span>Blockchain</span></a></li><li><a href=https://jamesm.blog/data-engineering title="Data Engineering"><span>Data Engineering</span></a></li><li><a href=https://jamesm.blog/data-science title="Data Science"><span>Data Science</span></a></li><li><a href=https://jamesm.blog/devops title=DevOps><span>DevOps</span></a></li><li><a href=https://jamesm.blog/general title=General><span>General</span></a></li><li><a href=https://jamesm.blog/music-production title="Music Production"><span>Music Production</span></a></li><li><a href=https://jamesm.blog/personal-development title="Personal Dev"><span>Personal Dev</span></a></li><li><a href=https://jamesm.blog/retro-computing title="Retro Computing"><span>Retro Computing</span></a></li><li><a href=https://jamesm.blog/space title=Space><span>Space</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://jamesm.blog/>Home</a>
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
-<a href=https://jamesm.blog/devops/>DevOps</a></nav><h1 class="post-title entry-hint-parent">The eBPF Revolution - What Every Platform Engineer Should Know</h1><div class=post-description>eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.</div><div class=post-meta><span title='2026-05-03 17:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></div></header><figure class=entry-cover><img loading=eager src=https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg alt="The eBPF Revolution Banner"></figure><details class=toc><summary accesskey=c title="(Alt + C)"><span class=title>Table of Contents</span></summary><div class=inner><ul><li><a href=#tldr aria-label=TL;DR>TL;DR</a></li><li><a href=#what-ebpf-actually-is aria-label="What eBPF Actually Is">What eBPF Actually Is</a></li><li><a href=#why-it-took-off aria-label="Why It Took Off">Why It Took Off</a></li><li><a href=#the-tools-that-matter aria-label="The Tools That Matter">The Tools That Matter</a><ul><li><a href=#cilium aria-label=Cilium>Cilium</a></li><li><a href=#tetragon aria-label=Tetragon>Tetragon</a></li><li><a href=#pixie aria-label=Pixie>Pixie</a></li><li><a href=#parca-and-pyroscope aria-label="Parca and Pyroscope">Parca and Pyroscope</a></li><li><a href=#falco aria-label=Falco>Falco</a></li><li><a href=#coroot aria-label=Coroot>Coroot</a></li></ul></li><li><a href=#what-this-means-for-platform-engineers aria-label="What This Means For Platform Engineers">What This Means For Platform Engineers</a></li><li><a href=#what-ebpf-has-genuinely-changed aria-label="What eBPF Has Genuinely Changed">What eBPF Has Genuinely Changed</a></li><li><a href=#what-ebpf-is-not aria-label="What eBPF Is Not">What eBPF Is Not</a></li><li><a href=#what-comes-next aria-label="What Comes Next">What Comes Next</a></li><li><a href=#the-honest-verdict aria-label="The Honest Verdict">The Honest Verdict</a></li><li><a href=#related-reading aria-label="Related Reading">Related Reading</a></li></ul></div></details><div class="post-content md-content"><h2 id=tldr>TL;DR<a hidden class=anchor aria-hidden=true href=#tldr>#</a></h2><ul><li><a href=https://ebpf.io/>eBPF</a> is the technology that lets you run safe, sandboxed programs <strong>inside the Linux kernel</strong> without writing kernel modules. In 2026 it is the foundation under most serious observability, networking, and runtime security tools.</li><li>The interesting story is not the technology itself - it is the <strong>wave of products built on top of it</strong>: <a href=https://cilium.io/>Cilium</a> for networking, <a href=https://tetragon.io/>Tetragon</a> for runtime security, <a href=https://px.dev/>Pixie</a>, <a href=https://www.parca.dev/>Parca</a>, and <a href=https://coroot.com/>Coroot</a> for observability, plus a long tail of vendor offerings using eBPF under the hood.</li><li>For platform engineers, eBPF is not &ldquo;a thing you have to learn to write.&rdquo; It is <strong>a thing you have to know about so you can choose tools intelligently</strong> and understand what is happening on your nodes when those tools cause problems.</li><li>The most important shift eBPF has enabled is <strong>observability without instrumentation</strong>. You can see what is happening on a system without modifying the application, without restarting it, and with low overhead. That is genuinely new.</li></ul><h2 id=what-ebpf-actually-is>What eBPF Actually Is<a hidden class=anchor aria-hidden=true href=#what-ebpf-actually-is>#</a></h2><p>eBPF stands for &ldquo;extended Berkeley Packet Filter,&rdquo; which is historical and confusing because eBPF has long since outgrown packet filtering. The simple version:</p><p>eBPF is a <strong>virtual machine inside the Linux kernel</strong> that runs small, sandboxed programs in response to events. The events can be network packets arriving, system calls happening, function calls in the kernel, or even function calls in userspace via uprobes.</p><p>You write an eBPF program (typically in a restricted dialect of C, or in a higher-level language like Rust that compiles to eBPF bytecode), the kernel <strong>verifies</strong> it for safety - bounded loops, no wild memory access, finite execution - and then JIT-compiles it to native instructions that run when the corresponding event fires.</p><p>The kernel verifier is the magic. It is what makes it safe to load arbitrary code into the kernel without crashing your machine. It is also what makes eBPF programs feel oddly constrained when you first write them.</p><p>What you can do with this is broad:</p><ul><li>Capture and modify network packets (Cilium does this).</li><li>Trace system calls and report on them (most observability tools).</li><li>Enforce security policies at the syscall layer (Tetragon, Falco).</li><li>Profile applications without instrumenting them (Parca, Pyroscope).</li><li>Implement custom load balancing, NAT, and routing (Cilium again).</li></ul><p>The unifying theme: <strong>see and act on kernel events, safely, with minimal overhead, without modifying applications</strong>.</p><h2 id=why-it-took-off>Why It Took Off<a hidden class=anchor aria-hidden=true href=#why-it-took-off>#</a></h2><p>eBPF has been around in some form since 2014. The 2026 explosion is the result of three things finally landing at once.</p><p><strong>Kernel maturity.</strong> The features eBPF needs - BTF (BPF Type Format), CO-RE (Compile Once, Run Everywhere), the ring buffer interface, broader kernel coverage of probes and tracepoints - all stabilised over the last few years. eBPF programs are now portable across kernel versions in a way they were not.</p><p><strong>Tool maturity.</strong> Writing raw eBPF is unpleasant. The frameworks - libbpf, Aya for Rust, BCC, bpftrace - have matured to the point where teams who are not kernel experts can build useful eBPF tools. Cilium&rsquo;s contribution here is enormous; it created tooling and patterns that everyone else borrows from.</p><p><strong>The Kubernetes pull.</strong> Kubernetes created a massive demand for in-kernel networking, observability, and security solutions that work the same way across thousands of nodes. eBPF is exceptionally well suited to that demand. The two technologies grew together.</p><p>By 2026 you can credibly say that <strong>the modern Linux platform stack runs on eBPF</strong>, even if most of the platform engineers running it have never written an eBPF program.</p><h2 id=the-tools-that-matter>The Tools That Matter<a hidden class=anchor aria-hidden=true href=#the-tools-that-matter>#</a></h2><p>The eBPF ecosystem in 2026 has consolidated around a handful of high-quality projects. These are the ones platform engineers should know.</p><h3 id=cilium>Cilium<a hidden class=anchor aria-hidden=true href=#cilium>#</a></h3><p><a href=https://cilium.io/>Cilium</a> is the de-facto Kubernetes networking layer in 2026 for any cluster that has outgrown the basic networking offered by managed Kubernetes services. Cilium replaces kube-proxy, implements the CNI, provides network policies, supports service mesh features, and does observability via <a href=https://github.com/cilium/hubble>Hubble</a> - all using eBPF.</p><p>Cilium is also a graduated CNCF project and is endorsed by every major cloud provider. If you are running serious Kubernetes, you are probably either running Cilium or considering moving to it.</p><h3 id=tetragon>Tetragon<a hidden class=anchor aria-hidden=true href=#tetragon>#</a></h3><p><a href=https://tetragon.io/>Tetragon</a> is Cilium&rsquo;s sibling project for runtime security. It uses eBPF to observe and enforce policies on syscalls, process execution, and file/network access. Where Cilium is the network plane, Tetragon is the runtime security plane.</p><p>The killer feature is that Tetragon can enforce policies (kill a process that shells out from a container, block a syscall) rather than just observe. Most security tools in this space stopped at observation.</p><h3 id=pixie>Pixie<a hidden class=anchor aria-hidden=true href=#pixie>#</a></h3><p><a href=https://px.dev/>Pixie</a> gives you instant, no-instrumentation observability for Kubernetes workloads. You install it on a cluster, and immediately you can run scripts that show HTTP traces, database queries, function-level CPU usage, and network flows. All of it without modifying any application.</p><p>Pixie is the cleanest demonstration of &ldquo;observability without instrumentation&rdquo; that exists. The trade-off is that it works best for protocols and runtimes Pixie understands - HTTP, gRPC, Postgres, MySQL, Go, and a few others.</p><h3 id=parca-and-pyroscope>Parca and Pyroscope<a hidden class=anchor aria-hidden=true href=#parca-and-pyroscope>#</a></h3><p><a href=https://www.parca.dev/>Parca</a> and <a href=https://pyroscope.io/>Pyroscope</a> are continuous profiling tools. They sample CPU and memory profiles continuously across your fleet, with negligible overhead, and let you ask &ldquo;where was time being spent on this service yesterday.&rdquo; This is a workflow that did not really exist before eBPF made it cheap.</p><h3 id=falco>Falco<a hidden class=anchor aria-hidden=true href=#falco>#</a></h3><p><a href=https://falco.org/>Falco</a> is the older runtime security project that has mostly migrated to eBPF as its data source. Still widely deployed, still very useful for compliance and audit use cases.</p><h3 id=coroot>Coroot<a hidden class=anchor aria-hidden=true href=#coroot>#</a></h3><p><a href=https://coroot.com/>Coroot</a> bundles observability and root-cause analysis in one tool, using eBPF for data collection. Smaller community than the CNCF-graduated projects but well thought through.</p><h2 id=what-this-means-for-platform-engineers>What This Means For Platform Engineers<a hidden class=anchor aria-hidden=true href=#what-this-means-for-platform-engineers>#</a></h2><p>You probably will not write eBPF programs. You will absolutely make decisions that depend on understanding what eBPF tools are doing on your nodes.</p><p><strong>Performance footprint.</strong> eBPF programs run in the kernel and have low but real overhead. Stacking too many of them on a single node - networking with Cilium, security with Tetragon, observability with Pixie, profiling with Parca, plus a vendor&rsquo;s eBPF agent - can add up. Modern tools are increasingly aware of this and try to share infrastructure (libbpf, BTF), but you should still measure.</p><p><strong>Kernel version dependencies.</strong> Every eBPF tool has a minimum kernel version requirement. The newer the kernel, the more the tool can do. CO-RE has reduced this pain dramatically but it has not eliminated it. When you are choosing nodes, choose distros and kernel versions with eBPF in mind.</p><p><strong>Privilege model.</strong> eBPF programs traditionally required CAP_SYS_ADMIN, which is a very large capability to grant. Newer kernels have introduced more granular eBPF capabilities (CAP_BPF, CAP_PERFMON). Platform engineers should care about which capabilities the tools they install actually need.</p><p><strong>Debuggability.</strong> When an eBPF tool misbehaves, the failure modes are weird. A network policy not being enforced, a profile that stops collecting, a security rule that silently fails. Knowing how to inspect loaded eBPF programs (<code>bpftool</code>), where the verifier rejected something, and what kernel events your tools are subscribed to is now part of the platform engineer toolkit.</p><h2 id=what-ebpf-has-genuinely-changed>What eBPF Has Genuinely Changed<a hidden class=anchor aria-hidden=true href=#what-ebpf-has-genuinely-changed>#</a></h2><p>It is worth being precise about what is actually new.</p><p><strong>Observability without instrumentation</strong> is the big one. For decades you could only see what your applications told you about themselves. Now you can see what they actually do at the syscall and network layers, without modifying the application. That is a qualitative change.</p><p><strong>Network policy enforcement at line rate</strong> is the other big one. Cilium can enforce network policies at hardware-near speeds because the enforcement happens in eBPF programs running in the kernel, not in userspace proxies. This made network policy a real feature rather than a theoretical one.</p><p><strong>Continuous profiling at scale</strong> went from &ldquo;we run profiling occasionally&rdquo; to &ldquo;we always know where every service is spending its time.&rdquo; That changes how teams approach performance work.</p><p><strong>Custom kernel behaviour without kernel modules</strong> is the meta-shift. Loading a kernel module used to be the only way to extend kernel behaviour and was risky enough that most ops teams avoided it. eBPF makes safe kernel extension a routine operation. That is a permanent change in how Linux platforms work.</p><h2 id=what-ebpf-is-not>What eBPF Is Not<a hidden class=anchor aria-hidden=true href=#what-ebpf-is-not>#</a></h2><p>eBPF is not magic. It does not let you do anything you want in the kernel - the verifier rejects programs that look unsafe, and the rules for what counts as unsafe are strict. Many useful programs require workarounds.</p><p>eBPF is not a replacement for application instrumentation. The most useful observability is usually a combination of eBPF-derived signals (what the system actually did) and application-emitted signals (why the application thought it was doing it). The two complement each other.</p><p>eBPF is not free. The overhead is small but real. Production deployments do measure it.</p><p>eBPF is not a way to bypass kernel security. The verifier and the privilege model exist precisely to prevent that. Treat eBPF tools the same way you treat any privileged software - audit, restrict, monitor.</p><h2 id=what-comes-next>What Comes Next<a hidden class=anchor aria-hidden=true href=#what-comes-next>#</a></h2><p>A few directions eBPF is genuinely heading in.</p><p><strong>Wider language support.</strong> Rust on eBPF (Aya) is maturing. Go support is improving. The era of eBPF being a &ldquo;C-only&rdquo; technology is ending.</p><p><strong>Userspace eBPF.</strong> Projects to bring the eBPF programming model and runtime out of the kernel and into userspace are gaining traction. Use cases include sandboxing untrusted code, hot-reloading parts of applications, and embedded scripting.</p><p><strong>Windows.</strong> Microsoft has invested heavily in eBPF for Windows, which gives the technology a credible cross-platform story for the first time.</p><p><strong>More vendor adoption.</strong> Almost every observability and security vendor in 2026 has either released an eBPF-based product or is integrating eBPF into an existing one. The tooling is becoming infrastructure.</p><h2 id=the-honest-verdict>The Honest Verdict<a hidden class=anchor aria-hidden=true href=#the-honest-verdict>#</a></h2><p>eBPF is the most important Linux platform technology of the last decade. It has changed what observability, networking, and security tools can do, and the change is permanent. You do not need to write eBPF to live in the world it has produced - but you do need to understand what it is, which tools depend on it, and what you are signing up for when you adopt them.</p><p>For platform engineers in 2026, &ldquo;knowing eBPF&rdquo; means knowing the ecosystem. Cilium for networking, Tetragon for runtime security, Pixie for instant observability, Parca for continuous profiling. Knowing which kernel version you need, which capabilities to grant, and how to debug when something goes sideways.</p><p>The revolution is over and you are living in the result. The question now is how to get the most out of it without paying for what you do not need.</p><h2 id=related-reading>Related Reading<a hidden class=anchor aria-hidden=true href=#related-reading>#</a></h2><ul><li><a href=/devops/kubernetes-2026-complexity-tax/>Kubernetes in 2026 - Is It Still Worth the Complexity Tax?</a></li><li><a href=/devops/platform-engineering-2026/>Platform Engineering 2026</a></li><li><a href=/devops/monitoring/>DevOps Monitoring</a></li><li><a href=/devops/best-practices/>DevOps Best Practices</a></li><li><a href=/devops/devops-in-the-age-of-ai-agents/>DevOps in the Age of AI Agents</a></li></ul></div><footer class=post-footer><ul class=post-tags><li><a href=https://jamesm.blog/tags/devops/>DevOps</a></li><li><a href=https://jamesm.blog/tags/ebpf/>Ebpf</a></li><li><a href=https://jamesm.blog/tags/kubernetes/>Kubernetes</a></li><li><a href=https://jamesm.blog/tags/observability/>Observability</a></li><li><a href=https://jamesm.blog/tags/platform/>Platform</a></li><li><a href=https://jamesm.blog/tags/linux/>Linux</a></li><li><a href=https://jamesm.blog/tags/2026/>2026</a></li></ul><nav class=paginav><a class=prev href=https://jamesm.blog/devops/self-hosted-vs-managed-2026/><span class=title>« Prev</span>
-<span>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</span>
-</a><a class=next href=https://jamesm.blog/data-engineering/ai-native-pipelines/><span class=title>Next »</span>
-<span>AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard</span></a></nav><ul class=share-buttons><li><a target=_blank rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on x" href="https://x.com/intent/tweet/?text=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f&amp;hashtags=devops%2cebpf%2ckubernetes%2cobservability%2cplatform%2clinux%2c2026"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446C483.971.0 512 28.03 512 62.554zM269.951 190.75 182.567 75.216H56L207.216 272.95 63.9 436.783h61.366L235.9 310.383l96.667 126.4H456L298.367 228.367l134-153.151H371.033zM127.633 110h36.468l219.38 290.065H349.5z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f&amp;title=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;summary=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;source=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f&title=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on whatsapp" href="https://api.whatsapp.com/send?text=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know%20-%20https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on telegram" href="https://telegram.me/share/url?text=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f"><svg viewBox="2 2 28 28" height="30" width="30" fill="currentColor"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on ycombinator" href="https://news.ycombinator.com/submitlink?t=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&u=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f"><svg width="30" height="30" viewBox="0 0 512 512" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446zM183.8767 87.9921h-62.034L230.6673 292.4508V424.0079h50.6655V292.4508L390.1575 87.9921H328.1233L256 238.2489z"/></svg></a></li></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://jamesm.blog/>jamesm.blog</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>The eBPF Revolution - What Every Platform Engineer Should Know | jamesm.blog</title>
+<meta name="keywords" content="devops, ebpf, kubernetes, observability, platform, linux, 2026">
+<meta name="description" content="eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/devops/ebpf-revolution/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/devops/ebpf-revolution/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/devops/ebpf-revolution/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="The eBPF Revolution - What Every Platform Engineer Should Know">
+  <meta property="og:description" content="eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="devops">
+    <meta property="article:published_time" content="2026-05-03T17:00:00+01:00">
+    <meta property="article:modified_time" content="2026-05-03T17:00:00+01:00">
+    <meta property="article:tag" content="Devops">
+    <meta property="article:tag" content="Ebpf">
+    <meta property="article:tag" content="Kubernetes">
+    <meta property="article:tag" content="Observability">
+    <meta property="article:tag" content="Platform">
+    <meta property="article:tag" content="Linux">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg">
+  <meta name="twitter:title" content="The eBPF Revolution - What Every Platform Engineer Should Know">
+  <meta name="twitter:description" content="eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "DevOps",
+      "item": "https://jamesm.blog/devops/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "The eBPF Revolution - What Every Platform Engineer Should Know",
+      "item": "https://jamesm.blog/devops/ebpf-revolution/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The eBPF Revolution - What Every Platform Engineer Should Know",
+  "name": "The eBPF Revolution - What Every Platform Engineer Should Know",
+  "description": "eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.",
+  "keywords": [
+    "devops", "ebpf", "kubernetes", "observability", "platform", "linux", "2026"
+  ],
+  "articleBody": "TL;DR eBPF is the technology that lets you run safe, sandboxed programs inside the Linux kernel without writing kernel modules. In 2026 it is the foundation under most serious observability, networking, and runtime security tools. The interesting story is not the technology itself - it is the wave of products built on top of it: Cilium for networking, Tetragon for runtime security, Pixie, Parca, and Coroot for observability, plus a long tail of vendor offerings using eBPF under the hood. For platform engineers, eBPF is not “a thing you have to learn to write.” It is a thing you have to know about so you can choose tools intelligently and understand what is happening on your nodes when those tools cause problems. The most important shift eBPF has enabled is observability without instrumentation. You can see what is happening on a system without modifying the application, without restarting it, and with low overhead. That is genuinely new. What eBPF Actually Is eBPF stands for “extended Berkeley Packet Filter,” which is historical and confusing because eBPF has long since outgrown packet filtering. The simple version:\neBPF is a virtual machine inside the Linux kernel that runs small, sandboxed programs in response to events. The events can be network packets arriving, system calls happening, function calls in the kernel, or even function calls in userspace via uprobes.\nYou write an eBPF program (typically in a restricted dialect of C, or in a higher-level language like Rust that compiles to eBPF bytecode), the kernel verifies it for safety - bounded loops, no wild memory access, finite execution - and then JIT-compiles it to native instructions that run when the corresponding event fires.\nThe kernel verifier is the magic. It is what makes it safe to load arbitrary code into the kernel without crashing your machine. It is also what makes eBPF programs feel oddly constrained when you first write them.\nWhat you can do with this is broad:\nCapture and modify network packets (Cilium does this). Trace system calls and report on them (most observability tools). Enforce security policies at the syscall layer (Tetragon, Falco). Profile applications without instrumenting them (Parca, Pyroscope). Implement custom load balancing, NAT, and routing (Cilium again). The unifying theme: see and act on kernel events, safely, with minimal overhead, without modifying applications.\nWhy It Took Off eBPF has been around in some form since 2014. The 2026 explosion is the result of three things finally landing at once.\nKernel maturity. The features eBPF needs - BTF (BPF Type Format), CO-RE (Compile Once, Run Everywhere), the ring buffer interface, broader kernel coverage of probes and tracepoints - all stabilised over the last few years. eBPF programs are now portable across kernel versions in a way they were not.\nTool maturity. Writing raw eBPF is unpleasant. The frameworks - libbpf, Aya for Rust, BCC, bpftrace - have matured to the point where teams who are not kernel experts can build useful eBPF tools. Cilium’s contribution here is enormous; it created tooling and patterns that everyone else borrows from.\nThe Kubernetes pull. Kubernetes created a massive demand for in-kernel networking, observability, and security solutions that work the same way across thousands of nodes. eBPF is exceptionally well suited to that demand. The two technologies grew together.\nBy 2026 you can credibly say that the modern Linux platform stack runs on eBPF, even if most of the platform engineers running it have never written an eBPF program.\nThe Tools That Matter The eBPF ecosystem in 2026 has consolidated around a handful of high-quality projects. These are the ones platform engineers should know.\nCilium Cilium is the de-facto Kubernetes networking layer in 2026 for any cluster that has outgrown the basic networking offered by managed Kubernetes services. Cilium replaces kube-proxy, implements the CNI, provides network policies, supports service mesh features, and does observability via Hubble - all using eBPF.\nCilium is also a graduated CNCF project and is endorsed by every major cloud provider. If you are running serious Kubernetes, you are probably either running Cilium or considering moving to it.\nTetragon Tetragon is Cilium’s sibling project for runtime security. It uses eBPF to observe and enforce policies on syscalls, process execution, and file/network access. Where Cilium is the network plane, Tetragon is the runtime security plane.\nThe killer feature is that Tetragon can enforce policies (kill a process that shells out from a container, block a syscall) rather than just observe. Most security tools in this space stopped at observation.\nPixie Pixie gives you instant, no-instrumentation observability for Kubernetes workloads. You install it on a cluster, and immediately you can run scripts that show HTTP traces, database queries, function-level CPU usage, and network flows. All of it without modifying any application.\nPixie is the cleanest demonstration of “observability without instrumentation” that exists. The trade-off is that it works best for protocols and runtimes Pixie understands - HTTP, gRPC, Postgres, MySQL, Go, and a few others.\nParca and Pyroscope Parca and Pyroscope are continuous profiling tools. They sample CPU and memory profiles continuously across your fleet, with negligible overhead, and let you ask “where was time being spent on this service yesterday.” This is a workflow that did not really exist before eBPF made it cheap.\nFalco Falco is the older runtime security project that has mostly migrated to eBPF as its data source. Still widely deployed, still very useful for compliance and audit use cases.\nCoroot Coroot bundles observability and root-cause analysis in one tool, using eBPF for data collection. Smaller community than the CNCF-graduated projects but well thought through.\nWhat This Means For Platform Engineers You probably will not write eBPF programs. You will absolutely make decisions that depend on understanding what eBPF tools are doing on your nodes.\nPerformance footprint. eBPF programs run in the kernel and have low but real overhead. Stacking too many of them on a single node - networking with Cilium, security with Tetragon, observability with Pixie, profiling with Parca, plus a vendor’s eBPF agent - can add up. Modern tools are increasingly aware of this and try to share infrastructure (libbpf, BTF), but you should still measure.\nKernel version dependencies. Every eBPF tool has a minimum kernel version requirement. The newer the kernel, the more the tool can do. CO-RE has reduced this pain dramatically but it has not eliminated it. When you are choosing nodes, choose distros and kernel versions with eBPF in mind.\nPrivilege model. eBPF programs traditionally required CAP_SYS_ADMIN, which is a very large capability to grant. Newer kernels have introduced more granular eBPF capabilities (CAP_BPF, CAP_PERFMON). Platform engineers should care about which capabilities the tools they install actually need.\nDebuggability. When an eBPF tool misbehaves, the failure modes are weird. A network policy not being enforced, a profile that stops collecting, a security rule that silently fails. Knowing how to inspect loaded eBPF programs (bpftool), where the verifier rejected something, and what kernel events your tools are subscribed to is now part of the platform engineer toolkit.\nWhat eBPF Has Genuinely Changed It is worth being precise about what is actually new.\nObservability without instrumentation is the big one. For decades you could only see what your applications told you about themselves. Now you can see what they actually do at the syscall and network layers, without modifying the application. That is a qualitative change.\nNetwork policy enforcement at line rate is the other big one. Cilium can enforce network policies at hardware-near speeds because the enforcement happens in eBPF programs running in the kernel, not in userspace proxies. This made network policy a real feature rather than a theoretical one.\nContinuous profiling at scale went from “we run profiling occasionally” to “we always know where every service is spending its time.” That changes how teams approach performance work.\nCustom kernel behaviour without kernel modules is the meta-shift. Loading a kernel module used to be the only way to extend kernel behaviour and was risky enough that most ops teams avoided it. eBPF makes safe kernel extension a routine operation. That is a permanent change in how Linux platforms work.\nWhat eBPF Is Not eBPF is not magic. It does not let you do anything you want in the kernel - the verifier rejects programs that look unsafe, and the rules for what counts as unsafe are strict. Many useful programs require workarounds.\neBPF is not a replacement for application instrumentation. The most useful observability is usually a combination of eBPF-derived signals (what the system actually did) and application-emitted signals (why the application thought it was doing it). The two complement each other.\neBPF is not free. The overhead is small but real. Production deployments do measure it.\neBPF is not a way to bypass kernel security. The verifier and the privilege model exist precisely to prevent that. Treat eBPF tools the same way you treat any privileged software - audit, restrict, monitor.\nWhat Comes Next A few directions eBPF is genuinely heading in.\nWider language support. Rust on eBPF (Aya) is maturing. Go support is improving. The era of eBPF being a “C-only” technology is ending.\nUserspace eBPF. Projects to bring the eBPF programming model and runtime out of the kernel and into userspace are gaining traction. Use cases include sandboxing untrusted code, hot-reloading parts of applications, and embedded scripting.\nWindows. Microsoft has invested heavily in eBPF for Windows, which gives the technology a credible cross-platform story for the first time.\nMore vendor adoption. Almost every observability and security vendor in 2026 has either released an eBPF-based product or is integrating eBPF into an existing one. The tooling is becoming infrastructure.\nThe Honest Verdict eBPF is the most important Linux platform technology of the last decade. It has changed what observability, networking, and security tools can do, and the change is permanent. You do not need to write eBPF to live in the world it has produced - but you do need to understand what it is, which tools depend on it, and what you are signing up for when you adopt them.\nFor platform engineers in 2026, “knowing eBPF” means knowing the ecosystem. Cilium for networking, Tetragon for runtime security, Pixie for instant observability, Parca for continuous profiling. Knowing which kernel version you need, which capabilities to grant, and how to debug when something goes sideways.\nThe revolution is over and you are living in the result. The question now is how to get the most out of it without paying for what you do not need.\nRelated Reading Kubernetes in 2026 - Is It Still Worth the Complexity Tax? Platform Engineering 2026 DevOps Monitoring DevOps Best Practices DevOps in the Age of AI Agents ",
+  "wordCount" : "1776",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg","datePublished": "2026-05-03T17:00:00+01:00",
+  "dateModified": "2026-05-03T17:00:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/devops/ebpf-revolution/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/devops/">DevOps</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      The eBPF Revolution - What Every Platform Engineer Should Know
+    </h1>
+    <div class="post-description">
+      eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going.
+    </div>
+    <div class="post-meta"><span title='2026-05-03 17:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg" alt="The eBPF Revolution Banner">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#tldr" aria-label="TL;DR">TL;DR</a></li>
+            <li>
+                <a href="#what-ebpf-actually-is" aria-label="What eBPF Actually Is">What eBPF Actually Is</a></li>
+            <li>
+                <a href="#why-it-took-off" aria-label="Why It Took Off">Why It Took Off</a></li>
+            <li>
+                <a href="#the-tools-that-matter" aria-label="The Tools That Matter">The Tools That Matter</a><ul>
+                    
+            <li>
+                <a href="#cilium" aria-label="Cilium">Cilium</a></li>
+            <li>
+                <a href="#tetragon" aria-label="Tetragon">Tetragon</a></li>
+            <li>
+                <a href="#pixie" aria-label="Pixie">Pixie</a></li>
+            <li>
+                <a href="#parca-and-pyroscope" aria-label="Parca and Pyroscope">Parca and Pyroscope</a></li>
+            <li>
+                <a href="#falco" aria-label="Falco">Falco</a></li>
+            <li>
+                <a href="#coroot" aria-label="Coroot">Coroot</a></li></ul>
+            </li>
+            <li>
+                <a href="#what-this-means-for-platform-engineers" aria-label="What This Means For Platform Engineers">What This Means For Platform Engineers</a></li>
+            <li>
+                <a href="#what-ebpf-has-genuinely-changed" aria-label="What eBPF Has Genuinely Changed">What eBPF Has Genuinely Changed</a></li>
+            <li>
+                <a href="#what-ebpf-is-not" aria-label="What eBPF Is Not">What eBPF Is Not</a></li>
+            <li>
+                <a href="#what-comes-next" aria-label="What Comes Next">What Comes Next</a></li>
+            <li>
+                <a href="#the-honest-verdict" aria-label="The Honest Verdict">The Honest Verdict</a></li>
+            <li>
+                <a href="#related-reading" aria-label="Related Reading">Related Reading</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
+<ul>
+<li><a href="https://ebpf.io/">eBPF</a> is the technology that lets you run safe, sandboxed programs <strong>inside the Linux kernel</strong> without writing kernel modules. In 2026 it is the foundation under most serious observability, networking, and runtime security tools.</li>
+<li>The interesting story is not the technology itself - it is the <strong>wave of products built on top of it</strong>: <a href="https://cilium.io/">Cilium</a> for networking, <a href="https://tetragon.io/">Tetragon</a> for runtime security, <a href="https://px.dev/">Pixie</a>, <a href="https://www.parca.dev/">Parca</a>, and <a href="https://coroot.com/">Coroot</a> for observability, plus a long tail of vendor offerings using eBPF under the hood.</li>
+<li>For platform engineers, eBPF is not &ldquo;a thing you have to learn to write.&rdquo; It is <strong>a thing you have to know about so you can choose tools intelligently</strong> and understand what is happening on your nodes when those tools cause problems.</li>
+<li>The most important shift eBPF has enabled is <strong>observability without instrumentation</strong>. You can see what is happening on a system without modifying the application, without restarting it, and with low overhead. That is genuinely new.</li>
+</ul>
+<h2 id="what-ebpf-actually-is">What eBPF Actually Is<a hidden class="anchor" aria-hidden="true" href="#what-ebpf-actually-is">#</a></h2>
+<p>eBPF stands for &ldquo;extended Berkeley Packet Filter,&rdquo; which is historical and confusing because eBPF has long since outgrown packet filtering. The simple version:</p>
+<p>eBPF is a <strong>virtual machine inside the Linux kernel</strong> that runs small, sandboxed programs in response to events. The events can be network packets arriving, system calls happening, function calls in the kernel, or even function calls in userspace via uprobes.</p>
+<p>You write an eBPF program (typically in a restricted dialect of C, or in a higher-level language like Rust that compiles to eBPF bytecode), the kernel <strong>verifies</strong> it for safety - bounded loops, no wild memory access, finite execution - and then JIT-compiles it to native instructions that run when the corresponding event fires.</p>
+<p>The kernel verifier is the magic. It is what makes it safe to load arbitrary code into the kernel without crashing your machine. It is also what makes eBPF programs feel oddly constrained when you first write them.</p>
+<p>What you can do with this is broad:</p>
+<ul>
+<li>Capture and modify network packets (Cilium does this).</li>
+<li>Trace system calls and report on them (most observability tools).</li>
+<li>Enforce security policies at the syscall layer (Tetragon, Falco).</li>
+<li>Profile applications without instrumenting them (Parca, Pyroscope).</li>
+<li>Implement custom load balancing, NAT, and routing (Cilium again).</li>
+</ul>
+<p>The unifying theme: <strong>see and act on kernel events, safely, with minimal overhead, without modifying applications</strong>.</p>
+<h2 id="why-it-took-off">Why It Took Off<a hidden class="anchor" aria-hidden="true" href="#why-it-took-off">#</a></h2>
+<p>eBPF has been around in some form since 2014. The 2026 explosion is the result of three things finally landing at once.</p>
+<p><strong>Kernel maturity.</strong> The features eBPF needs - BTF (BPF Type Format), CO-RE (Compile Once, Run Everywhere), the ring buffer interface, broader kernel coverage of probes and tracepoints - all stabilised over the last few years. eBPF programs are now portable across kernel versions in a way they were not.</p>
+<p><strong>Tool maturity.</strong> Writing raw eBPF is unpleasant. The frameworks - libbpf, Aya for Rust, BCC, bpftrace - have matured to the point where teams who are not kernel experts can build useful eBPF tools. Cilium&rsquo;s contribution here is enormous; it created tooling and patterns that everyone else borrows from.</p>
+<p><strong>The Kubernetes pull.</strong> Kubernetes created a massive demand for in-kernel networking, observability, and security solutions that work the same way across thousands of nodes. eBPF is exceptionally well suited to that demand. The two technologies grew together.</p>
+<p>By 2026 you can credibly say that <strong>the modern Linux platform stack runs on eBPF</strong>, even if most of the platform engineers running it have never written an eBPF program.</p>
+<h2 id="the-tools-that-matter">The Tools That Matter<a hidden class="anchor" aria-hidden="true" href="#the-tools-that-matter">#</a></h2>
+<p>The eBPF ecosystem in 2026 has consolidated around a handful of high-quality projects. These are the ones platform engineers should know.</p>
+<h3 id="cilium">Cilium<a hidden class="anchor" aria-hidden="true" href="#cilium">#</a></h3>
+<p><a href="https://cilium.io/">Cilium</a> is the de-facto Kubernetes networking layer in 2026 for any cluster that has outgrown the basic networking offered by managed Kubernetes services. Cilium replaces kube-proxy, implements the CNI, provides network policies, supports service mesh features, and does observability via <a href="https://github.com/cilium/hubble">Hubble</a> - all using eBPF.</p>
+<p>Cilium is also a graduated CNCF project and is endorsed by every major cloud provider. If you are running serious Kubernetes, you are probably either running Cilium or considering moving to it.</p>
+<h3 id="tetragon">Tetragon<a hidden class="anchor" aria-hidden="true" href="#tetragon">#</a></h3>
+<p><a href="https://tetragon.io/">Tetragon</a> is Cilium&rsquo;s sibling project for runtime security. It uses eBPF to observe and enforce policies on syscalls, process execution, and file/network access. Where Cilium is the network plane, Tetragon is the runtime security plane.</p>
+<p>The killer feature is that Tetragon can enforce policies (kill a process that shells out from a container, block a syscall) rather than just observe. Most security tools in this space stopped at observation.</p>
+<h3 id="pixie">Pixie<a hidden class="anchor" aria-hidden="true" href="#pixie">#</a></h3>
+<p><a href="https://px.dev/">Pixie</a> gives you instant, no-instrumentation observability for Kubernetes workloads. You install it on a cluster, and immediately you can run scripts that show HTTP traces, database queries, function-level CPU usage, and network flows. All of it without modifying any application.</p>
+<p>Pixie is the cleanest demonstration of &ldquo;observability without instrumentation&rdquo; that exists. The trade-off is that it works best for protocols and runtimes Pixie understands - HTTP, gRPC, Postgres, MySQL, Go, and a few others.</p>
+<h3 id="parca-and-pyroscope">Parca and Pyroscope<a hidden class="anchor" aria-hidden="true" href="#parca-and-pyroscope">#</a></h3>
+<p><a href="https://www.parca.dev/">Parca</a> and <a href="https://pyroscope.io/">Pyroscope</a> are continuous profiling tools. They sample CPU and memory profiles continuously across your fleet, with negligible overhead, and let you ask &ldquo;where was time being spent on this service yesterday.&rdquo; This is a workflow that did not really exist before eBPF made it cheap.</p>
+<h3 id="falco">Falco<a hidden class="anchor" aria-hidden="true" href="#falco">#</a></h3>
+<p><a href="https://falco.org/">Falco</a> is the older runtime security project that has mostly migrated to eBPF as its data source. Still widely deployed, still very useful for compliance and audit use cases.</p>
+<h3 id="coroot">Coroot<a hidden class="anchor" aria-hidden="true" href="#coroot">#</a></h3>
+<p><a href="https://coroot.com/">Coroot</a> bundles observability and root-cause analysis in one tool, using eBPF for data collection. Smaller community than the CNCF-graduated projects but well thought through.</p>
+<h2 id="what-this-means-for-platform-engineers">What This Means For Platform Engineers<a hidden class="anchor" aria-hidden="true" href="#what-this-means-for-platform-engineers">#</a></h2>
+<p>You probably will not write eBPF programs. You will absolutely make decisions that depend on understanding what eBPF tools are doing on your nodes.</p>
+<p><strong>Performance footprint.</strong> eBPF programs run in the kernel and have low but real overhead. Stacking too many of them on a single node - networking with Cilium, security with Tetragon, observability with Pixie, profiling with Parca, plus a vendor&rsquo;s eBPF agent - can add up. Modern tools are increasingly aware of this and try to share infrastructure (libbpf, BTF), but you should still measure.</p>
+<p><strong>Kernel version dependencies.</strong> Every eBPF tool has a minimum kernel version requirement. The newer the kernel, the more the tool can do. CO-RE has reduced this pain dramatically but it has not eliminated it. When you are choosing nodes, choose distros and kernel versions with eBPF in mind.</p>
+<p><strong>Privilege model.</strong> eBPF programs traditionally required CAP_SYS_ADMIN, which is a very large capability to grant. Newer kernels have introduced more granular eBPF capabilities (CAP_BPF, CAP_PERFMON). Platform engineers should care about which capabilities the tools they install actually need.</p>
+<p><strong>Debuggability.</strong> When an eBPF tool misbehaves, the failure modes are weird. A network policy not being enforced, a profile that stops collecting, a security rule that silently fails. Knowing how to inspect loaded eBPF programs (<code>bpftool</code>), where the verifier rejected something, and what kernel events your tools are subscribed to is now part of the platform engineer toolkit.</p>
+<h2 id="what-ebpf-has-genuinely-changed">What eBPF Has Genuinely Changed<a hidden class="anchor" aria-hidden="true" href="#what-ebpf-has-genuinely-changed">#</a></h2>
+<p>It is worth being precise about what is actually new.</p>
+<p><strong>Observability without instrumentation</strong> is the big one. For decades you could only see what your applications told you about themselves. Now you can see what they actually do at the syscall and network layers, without modifying the application. That is a qualitative change.</p>
+<p><strong>Network policy enforcement at line rate</strong> is the other big one. Cilium can enforce network policies at hardware-near speeds because the enforcement happens in eBPF programs running in the kernel, not in userspace proxies. This made network policy a real feature rather than a theoretical one.</p>
+<p><strong>Continuous profiling at scale</strong> went from &ldquo;we run profiling occasionally&rdquo; to &ldquo;we always know where every service is spending its time.&rdquo; That changes how teams approach performance work.</p>
+<p><strong>Custom kernel behaviour without kernel modules</strong> is the meta-shift. Loading a kernel module used to be the only way to extend kernel behaviour and was risky enough that most ops teams avoided it. eBPF makes safe kernel extension a routine operation. That is a permanent change in how Linux platforms work.</p>
+<h2 id="what-ebpf-is-not">What eBPF Is Not<a hidden class="anchor" aria-hidden="true" href="#what-ebpf-is-not">#</a></h2>
+<p>eBPF is not magic. It does not let you do anything you want in the kernel - the verifier rejects programs that look unsafe, and the rules for what counts as unsafe are strict. Many useful programs require workarounds.</p>
+<p>eBPF is not a replacement for application instrumentation. The most useful observability is usually a combination of eBPF-derived signals (what the system actually did) and application-emitted signals (why the application thought it was doing it). The two complement each other.</p>
+<p>eBPF is not free. The overhead is small but real. Production deployments do measure it.</p>
+<p>eBPF is not a way to bypass kernel security. The verifier and the privilege model exist precisely to prevent that. Treat eBPF tools the same way you treat any privileged software - audit, restrict, monitor.</p>
+<h2 id="what-comes-next">What Comes Next<a hidden class="anchor" aria-hidden="true" href="#what-comes-next">#</a></h2>
+<p>A few directions eBPF is genuinely heading in.</p>
+<p><strong>Wider language support.</strong> Rust on eBPF (Aya) is maturing. Go support is improving. The era of eBPF being a &ldquo;C-only&rdquo; technology is ending.</p>
+<p><strong>Userspace eBPF.</strong> Projects to bring the eBPF programming model and runtime out of the kernel and into userspace are gaining traction. Use cases include sandboxing untrusted code, hot-reloading parts of applications, and embedded scripting.</p>
+<p><strong>Windows.</strong> Microsoft has invested heavily in eBPF for Windows, which gives the technology a credible cross-platform story for the first time.</p>
+<p><strong>More vendor adoption.</strong> Almost every observability and security vendor in 2026 has either released an eBPF-based product or is integrating eBPF into an existing one. The tooling is becoming infrastructure.</p>
+<h2 id="the-honest-verdict">The Honest Verdict<a hidden class="anchor" aria-hidden="true" href="#the-honest-verdict">#</a></h2>
+<p>eBPF is the most important Linux platform technology of the last decade. It has changed what observability, networking, and security tools can do, and the change is permanent. You do not need to write eBPF to live in the world it has produced - but you do need to understand what it is, which tools depend on it, and what you are signing up for when you adopt them.</p>
+<p>For platform engineers in 2026, &ldquo;knowing eBPF&rdquo; means knowing the ecosystem. Cilium for networking, Tetragon for runtime security, Pixie for instant observability, Parca for continuous profiling. Knowing which kernel version you need, which capabilities to grant, and how to debug when something goes sideways.</p>
+<p>The revolution is over and you are living in the result. The question now is how to get the most out of it without paying for what you do not need.</p>
+<h2 id="related-reading">Related Reading<a hidden class="anchor" aria-hidden="true" href="#related-reading">#</a></h2>
+<ul>
+<li><a href="/devops/kubernetes-2026-complexity-tax/">Kubernetes in 2026 - Is It Still Worth the Complexity Tax?</a></li>
+<li><a href="/devops/platform-engineering-2026/">Platform Engineering 2026</a></li>
+<li><a href="/devops/monitoring/">DevOps Monitoring</a></li>
+<li><a href="/devops/best-practices/">DevOps Best Practices</a></li>
+<li><a href="/devops/devops-in-the-age-of-ai-agents/">DevOps in the Age of AI Agents</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/devops/">Devops</a></li>
+      <li><a href="https://jamesm.blog/tags/ebpf/">Ebpf</a></li>
+      <li><a href="https://jamesm.blog/tags/kubernetes/">Kubernetes</a></li>
+      <li><a href="https://jamesm.blog/tags/observability/">Observability</a></li>
+      <li><a href="https://jamesm.blog/tags/platform/">Platform</a></li>
+      <li><a href="https://jamesm.blog/tags/linux/">Linux</a></li>
+      <li><a href="https://jamesm.blog/tags/2026/">2026</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/devops/self-hosted-vs-managed-2026/">
+    <span class="title">« Prev</span>
+    <span>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/data-engineering/ai-native-pipelines/">
+    <span class="title">Next »</span>
+    <span>AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on x"
+            href="https://x.com/intent/tweet/?text=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f&amp;hashtags=devops%2cebpf%2ckubernetes%2cobservability%2cplatform%2clinux%2c2026">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f&amp;title=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;summary=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;source=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f&title=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on whatsapp"
+            href="https://api.whatsapp.com/send?text=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know%20-%20https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on telegram"
+            href="https://telegram.me/share/url?text=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&amp;url=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The eBPF Revolution - What Every Platform Engineer Should Know on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=The%20eBPF%20Revolution%20-%20What%20Every%20Platform%20Engineer%20Should%20Know&u=https%3a%2f%2fjamesm.blog%2fdevops%2febpf-revolution%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

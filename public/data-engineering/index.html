@@ -1,42 +1,508 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Data Engineering | jamesm.blog</title><meta name=keywords content="data,data-engineering,data-science"><meta name=description content="
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Data Engineering | jamesm.blog</title>
+<meta name="keywords" content="data, data-engineering, data-science">
+<meta name="description" content="
      
 
 
 Data Engineering Resources
 Practical guides and technical deep dives on modern data engineering, covering lakehouse platforms, open table formats, streaming architectures, and real-world implementation lessons. This section includes:
 
-Courses & Certifications - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers
+Courses &amp; Certifications - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers
 Databricks Deep Dives - Cheatsheets, 2026 innovations, certification guides, and Claude Opus 4.7 integration on Databricks
 Platform Comparisons - Head-to-head analysis of Databricks vs Snowflake in 2026, including cost and architectural tradeoffs
 Open Table Formats - Apache Iceberg in 2026, Snowflake Storage for Iceberg, and choosing the right open format
 Modern Lakehouse Architecture - Production-ready stack recommendations, governance patterns, and stream vs batch processing decisions
-Governance & Pipelines - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production
-ETL & Integration Tools - Overview of data integration, orchestration, and real-time processing platforms
-Blogs & Communities - Curated list of authoritative data engineering voices
+Governance &amp; Pipelines - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production
+ETL &amp; Integration Tools - Overview of data integration, orchestration, and real-time processing platforms
+Blogs &amp; Communities - Curated list of authoritative data engineering voices
 
-From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions."><meta name=author content="James M"><link rel=canonical href=https://jamesm.blog/data-engineering/><link crossorigin=anonymous href=/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css integrity="sha256-R+UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe+v3ZDTU=" rel="preload stylesheet" as=style><link rel=icon href=https://jamesm.blog/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://jamesm.blog/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://jamesm.blog/favicon-32x32.png><link rel=apple-touch-icon href=https://jamesm.blog/apple-touch-icon.png><link rel=mask-icon href=https://jamesm.blog/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://jamesm.blog/data-engineering/index.xml title=rss><link rel=alternate hreflang=en href=https://jamesm.blog/data-engineering/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-LTL3NQVCDT")</script><meta property="og:url" content="https://jamesm.blog/data-engineering/"><meta property="og:site_name" content="jamesm.blog"><meta property="og:title" content="Data Engineering"><meta property="og:description" content="Data Engineering Resources Practical guides and technical deep dives on modern data engineering, covering lakehouse platforms, open table formats, streaming architectures, and real-world implementation lessons. This section includes:
-Courses & Certifications - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers Databricks Deep Dives - Cheatsheets, 2026 innovations, certification guides, and Claude Opus 4.7 integration on Databricks Platform Comparisons - Head-to-head analysis of Databricks vs Snowflake in 2026, including cost and architectural tradeoffs Open Table Formats - Apache Iceberg in 2026, Snowflake Storage for Iceberg, and choosing the right open format Modern Lakehouse Architecture - Production-ready stack recommendations, governance patterns, and stream vs batch processing decisions Governance & Pipelines - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production ETL & Integration Tools - Overview of data integration, orchestration, and real-time processing platforms Blogs & Communities - Curated list of authoritative data engineering voices From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta property="og:image" content="https://jamesm.blog/papermod-cover.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://jamesm.blog/papermod-cover.png"><meta name=twitter:title content="Data Engineering"><meta name=twitter:description content="Data Engineering Resources Practical guides and technical deep dives on modern data engineering, covering lakehouse platforms, open table formats, streaming architectures, and real-world implementation lessons. This section includes:
-Courses & Certifications - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers Databricks Deep Dives - Cheatsheets, 2026 innovations, certification guides, and Claude Opus 4.7 integration on Databricks Platform Comparisons - Head-to-head analysis of Databricks vs Snowflake in 2026, including cost and architectural tradeoffs Open Table Formats - Apache Iceberg in 2026, Snowflake Storage for Iceberg, and choosing the right open format Modern Lakehouse Architecture - Production-ready stack recommendations, governance patterns, and stream vs batch processing decisions Governance & Pipelines - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production ETL & Integration Tools - Overview of data integration, orchestration, and real-time processing platforms Blogs & Communities - Curated list of authoritative data engineering voices From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Data Engineering","item":"https://jamesm.blog/data-engineering/"}]}</script></head><body class=list id=top><header class=header><nav class=header-nav><div class=logo><a href=https://jamesm.blog/ accesskey=h title="jamesm.blog (Alt + H)">jamesm.blog</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://jamesm.blog/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://jamesm.blog/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://jamesm.blog/ai title=AI><span>AI</span></a></li><li><a href=https://jamesm.blog/blockchain title=Blockchain><span>Blockchain</span></a></li><li><a href=https://jamesm.blog/data-engineering title="Data Engineering"><span class=active>Data Engineering</span></a></li><li><a href=https://jamesm.blog/data-science title="Data Science"><span>Data Science</span></a></li><li><a href=https://jamesm.blog/devops title=DevOps><span>DevOps</span></a></li><li><a href=https://jamesm.blog/general title=General><span>General</span></a></li><li><a href=https://jamesm.blog/music-production title="Music Production"><span>Music Production</span></a></li><li><a href=https://jamesm.blog/personal-development title="Personal Dev"><span>Personal Dev</span></a></li><li><a href=https://jamesm.blog/retro-computing title="Retro Computing"><span>Retro Computing</span></a></li><li><a href=https://jamesm.blog/space title=Space><span>Space</span></a></li></ul></nav></header><main class=main><header class=page-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://jamesm.blog/>Home</a></nav><h1>Data Engineering
-<a href=/data-engineering/index.xml title=RSS aria-label=RSS><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><div class=md-content><figure><img loading=lazy src=images/data.jpg></figure><h2 id=data-engineering-resources>Data Engineering Resources<a hidden class=anchor aria-hidden=true href=#data-engineering-resources>#</a></h2><p>Practical guides and technical deep dives on modern data engineering, covering lakehouse platforms, open table formats, streaming architectures, and real-world implementation lessons. This section includes:</p><ul><li><strong>Courses & Certifications</strong> - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers</li><li><strong>Databricks Deep Dives</strong> - Cheatsheets, 2026 innovations, certification guides, and Claude Opus 4.7 integration on Databricks</li><li><strong>Platform Comparisons</strong> - Head-to-head analysis of Databricks vs Snowflake in 2026, including cost and architectural tradeoffs</li><li><strong>Open Table Formats</strong> - Apache Iceberg in 2026, Snowflake Storage for Iceberg, and choosing the right open format</li><li><strong>Modern Lakehouse Architecture</strong> - Production-ready stack recommendations, governance patterns, and stream vs batch processing decisions</li><li><strong>Governance & Pipelines</strong> - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production</li><li><strong>ETL & Integration Tools</strong> - Overview of data integration, orchestration, and real-time processing platforms</li><li><strong>Blogs & Communities</strong> - Curated list of authoritative data engineering voices</li></ul><p>From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions.</p></div><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/assets/images/data-engineering/etl-tools-2026.jpg alt="ETL Tools and Data Integration"></figure><header class=entry-header><h2 class=entry-hint-parent>ETL Tools & Data Integration Platforms</h2></header><div class=entry-content><p>What is ETL? ETL is a foundational data engineering process that powers modern analytics:
+From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/data-engineering/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/data-engineering/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/data-engineering/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/data-engineering/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Data Engineering">
+  <meta property="og:description" content="Data Engineering Resources Practical guides and technical deep dives on modern data engineering, covering lakehouse platforms, open table formats, streaming architectures, and real-world implementation lessons. This section includes:
+Courses &amp; Certifications - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers Databricks Deep Dives - Cheatsheets, 2026 innovations, certification guides, and Claude Opus 4.7 integration on Databricks Platform Comparisons - Head-to-head analysis of Databricks vs Snowflake in 2026, including cost and architectural tradeoffs Open Table Formats - Apache Iceberg in 2026, Snowflake Storage for Iceberg, and choosing the right open format Modern Lakehouse Architecture - Production-ready stack recommendations, governance patterns, and stream vs batch processing decisions Governance &amp; Pipelines - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production ETL &amp; Integration Tools - Overview of data integration, orchestration, and real-time processing platforms Blogs &amp; Communities - Curated list of authoritative data engineering voices From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="Data Engineering">
+  <meta name="twitter:description" content="Data Engineering Resources Practical guides and technical deep dives on modern data engineering, covering lakehouse platforms, open table formats, streaming architectures, and real-world implementation lessons. This section includes:
+Courses &amp; Certifications - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers Databricks Deep Dives - Cheatsheets, 2026 innovations, certification guides, and Claude Opus 4.7 integration on Databricks Platform Comparisons - Head-to-head analysis of Databricks vs Snowflake in 2026, including cost and architectural tradeoffs Open Table Formats - Apache Iceberg in 2026, Snowflake Storage for Iceberg, and choosing the right open format Modern Lakehouse Architecture - Production-ready stack recommendations, governance patterns, and stream vs batch processing decisions Governance &amp; Pipelines - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production ETL &amp; Integration Tools - Overview of data integration, orchestration, and real-time processing platforms Blogs &amp; Communities - Curated list of authoritative data engineering voices From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Data Engineering",
+      "item": "https://jamesm.blog/data-engineering/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span class="active">Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a></nav>
+  <h1>
+    Data Engineering
+    <a href="/data-engineering/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+<div class="md-content"><figure>
+    <img loading="lazy" src="images/data.jpg"/> 
+</figure>
+
+<h2 id="data-engineering-resources">Data Engineering Resources<a hidden class="anchor" aria-hidden="true" href="#data-engineering-resources">#</a></h2>
+<p>Practical guides and technical deep dives on modern data engineering, covering lakehouse platforms, open table formats, streaming architectures, and real-world implementation lessons. This section includes:</p>
+<ul>
+<li><strong>Courses &amp; Certifications</strong> - Curated learning paths from Coursera, DataCamp, A Cloud Guru, and specialized providers</li>
+<li><strong>Databricks Deep Dives</strong> - Cheatsheets, 2026 innovations, certification guides, and Claude Opus 4.7 integration on Databricks</li>
+<li><strong>Platform Comparisons</strong> - Head-to-head analysis of Databricks vs Snowflake in 2026, including cost and architectural tradeoffs</li>
+<li><strong>Open Table Formats</strong> - Apache Iceberg in 2026, Snowflake Storage for Iceberg, and choosing the right open format</li>
+<li><strong>Modern Lakehouse Architecture</strong> - Production-ready stack recommendations, governance patterns, and stream vs batch processing decisions</li>
+<li><strong>Governance &amp; Pipelines</strong> - Unity Catalog implementation lessons and Lakeflow Declarative Pipelines for production</li>
+<li><strong>ETL &amp; Integration Tools</strong> - Overview of data integration, orchestration, and real-time processing platforms</li>
+<li><strong>Blogs &amp; Communities</strong> - Curated list of authoritative data engineering voices</li>
+</ul>
+<p>From foundational courses to advanced architecture decisions, these resources guide you through building scalable, cost-effective data pipelines and understanding the tradeoffs that shape real-world engineering decisions.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/etl-tools-2026.jpg" alt="ETL Tools and Data Integration">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ETL Tools &amp; Data Integration Platforms
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>What is ETL? ETL is a foundational data engineering process that powers modern analytics:
 Extract - Retrieve data from various sources (databases, APIs, files, cloud services, streaming platforms) Transform - Clean, validate, deduplicate, and reshape data into required data models Load - Move processed data into data warehouses, data lakes, or analytical systems ETL ensures data quality, consistency, and accessibility for analytics and reporting. In 2026 the dominant pattern is ELT (Extract-Load-Transform), which leverages cloud data warehouse compute for transformation, and increasingly EtLT (adding lightweight pre-load transforms for streaming and schema drift). See the Fundamentals of Data Engineering book for a deeper framing.
-...</p></div><footer class=entry-footer><span title='2026-05-04 07:30:00 +0100 BST'>May 4, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to ETL Tools & Data Integration Platforms" href=https://jamesm.blog/data-engineering/etl-tools/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/assets/images/data-engineering/ai-native-pipelines.jpg alt="AI-Native Pipelines Banner"></figure><header class=entry-header><h2 class=entry-hint-parent>AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard</h2></header><div class=entry-content><p>TL;DR Data pipelines were optimised for human consumers - dashboards, BI tools, analysts. In 2026 a growing share of pipeline output flows directly to language models, agents, and retrieval systems. That changes the design constraints in ways that catch teams off guard. Aggregation matters less. Context fidelity matters more. Freshness behaves differently. Schema moves from rigid to negotiated. Cost shifts from compute to tokens. The biggest mistake is treating an LLM consumer as if it were just another dashboard. It is not. It does not skim, it does not interpret charts, it does not have working memory across rows. It needs to be fed. The new patterns - retrieval-aware partitioning, embedding pipelines, structured-document outputs, prompt-shaped views, evaluation harnesses for data quality - are the actual subject of “AI-native data engineering” in 2026. The Underlying Shift For thirty years the implicit consumer of every data pipeline was a human looking at a screen. Even when the pipeline ended in an API or a CSV, the conceptual end-user was someone who would interpret the output with judgement, context, and skim-reading.
-...</p></div><footer class=entry-footer><span title='2026-05-03 16:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard" href=https://jamesm.blog/data-engineering/ai-native-pipelines/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/assets/images/data-engineering/catalog-layer-battleground.jpg alt="Catalog Layer Battleground Banner"></figure><header class=entry-header><h2 class=entry-hint-parent>The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie</h2></header><div class=entry-content><p>TL;DR With the open table format wars largely settled, the strategic fight in 2026 has moved up to the catalog layer - the system that manages tables, namespaces, governance, and access. Four credible open or open-ish catalogs are now in serious play: Unity Catalog (Databricks), Polaris (Snowflake), Apache Gravitino (Datastrato/community), and Project Nessie (Dremio/community). All four implement the Iceberg REST catalog spec to varying degrees, which means clients can talk to them through a common protocol. The differentiation has moved to governance, multi-tenancy, lineage, federation, and developer experience. Unity is the most production-mature and the most coupled to Databricks. Polaris is the cleanest open implementation of the REST spec. Gravitino is the most ambitious in scope - aiming to catalog non-table assets too. Nessie is the most opinionated about Git-style branching for data. The winning catalog will probably not be a single project. It will be the protocol (Iceberg REST) plus multiple compliant implementations plus federation between them. That is the picture 2026 ends with. Why The Catalog Layer Matters Now A table format defines how data is laid out on disk. A catalog defines:
-...</p></div><footer class=entry-footer><span title='2026-05-03 15:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie" href=https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/assets/images/data-engineering/iceberg-vs-delta-vs-hudi-2026.jpg alt="Iceberg vs Delta vs Hudi 2026 Banner"></figure><header class=entry-header><h2 class=entry-hint-parent>Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over</h2></header><div class=entry-content><p>TL;DR The open table format war between Apache Iceberg, Delta Lake, and Apache Hudi is effectively over in 2026 - and the outcome is not a single winner but a clear settlement. Iceberg has won the role of the neutral standard that engines and platforms expect to read and write. It is the format you choose when you do not want to be coupled to a single vendor. Delta has won the role of the incumbent default inside the Databricks ecosystem and remains a strong choice if Databricks is your primary engine. Delta UniForm has narrowed the gap by letting Delta tables expose Iceberg metadata. Hudi has not won a category outright. It retains a smaller but loyal user base for streaming-heavy and CDC-heavy workloads, where its design choices still genuinely fit. The interesting battle has moved up the stack to the catalog layer. The format question is mostly settled. The catalog question is the new fight. The Format Wars - A Brief History For most of the early 2020s the lakehouse story was a three-way argument about how to put ACID transactions on top of object storage.
-...</p></div><footer class=entry-footer><span title='2026-05-03 14:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over" href=https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/assets/images/data-engineering/apache-iceberg-2026.jpg alt="Apache Iceberg in 2026"></figure><header class=entry-header><h2 class=entry-hint-parent>Apache Iceberg in 2026: The Open Table Format That Won</h2></header><div class=entry-content><p>In 2023, the question was “which open table format will survive - Iceberg, Delta, or Hudi?” In 2026, that debate is over. Apache Iceberg won, and it won for reasons that have almost nothing to do with its raw performance.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-04 07:30:00 +0100 BST'>May 4, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to ETL Tools & Data Integration Platforms" href="https://jamesm.blog/data-engineering/etl-tools/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/ai-native-pipelines.jpg" alt="AI-Native Pipelines Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Data pipelines were optimised for human consumers - dashboards, BI tools, analysts. In 2026 a growing share of pipeline output flows directly to language models, agents, and retrieval systems. That changes the design constraints in ways that catch teams off guard. Aggregation matters less. Context fidelity matters more. Freshness behaves differently. Schema moves from rigid to negotiated. Cost shifts from compute to tokens. The biggest mistake is treating an LLM consumer as if it were just another dashboard. It is not. It does not skim, it does not interpret charts, it does not have working memory across rows. It needs to be fed. The new patterns - retrieval-aware partitioning, embedding pipelines, structured-document outputs, prompt-shaped views, evaluation harnesses for data quality - are the actual subject of “AI-native data engineering” in 2026. The Underlying Shift For thirty years the implicit consumer of every data pipeline was a human looking at a screen. Even when the pipeline ended in an API or a CSV, the conceptual end-user was someone who would interpret the output with judgement, context, and skim-reading.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 16:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard" href="https://jamesm.blog/data-engineering/ai-native-pipelines/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/catalog-layer-battleground.jpg" alt="Catalog Layer Battleground Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR With the open table format wars largely settled, the strategic fight in 2026 has moved up to the catalog layer - the system that manages tables, namespaces, governance, and access. Four credible open or open-ish catalogs are now in serious play: Unity Catalog (Databricks), Polaris (Snowflake), Apache Gravitino (Datastrato/community), and Project Nessie (Dremio/community). All four implement the Iceberg REST catalog spec to varying degrees, which means clients can talk to them through a common protocol. The differentiation has moved to governance, multi-tenancy, lineage, federation, and developer experience. Unity is the most production-mature and the most coupled to Databricks. Polaris is the cleanest open implementation of the REST spec. Gravitino is the most ambitious in scope - aiming to catalog non-table assets too. Nessie is the most opinionated about Git-style branching for data. The winning catalog will probably not be a single project. It will be the protocol (Iceberg REST) plus multiple compliant implementations plus federation between them. That is the picture 2026 ends with. Why The Catalog Layer Matters Now A table format defines how data is laid out on disk. A catalog defines:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 15:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie" href="https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/iceberg-vs-delta-vs-hudi-2026.jpg" alt="Iceberg vs Delta vs Hudi 2026 Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The open table format war between Apache Iceberg, Delta Lake, and Apache Hudi is effectively over in 2026 - and the outcome is not a single winner but a clear settlement. Iceberg has won the role of the neutral standard that engines and platforms expect to read and write. It is the format you choose when you do not want to be coupled to a single vendor. Delta has won the role of the incumbent default inside the Databricks ecosystem and remains a strong choice if Databricks is your primary engine. Delta UniForm has narrowed the gap by letting Delta tables expose Iceberg metadata. Hudi has not won a category outright. It retains a smaller but loyal user base for streaming-heavy and CDC-heavy workloads, where its design choices still genuinely fit. The interesting battle has moved up the stack to the catalog layer. The format question is mostly settled. The catalog question is the new fight. The Format Wars - A Brief History For most of the early 2020s the lakehouse story was a three-way argument about how to put ACID transactions on top of object storage.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 14:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over" href="https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/apache-iceberg-2026.jpg" alt="Apache Iceberg in 2026">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Apache Iceberg in 2026: The Open Table Format That Won
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In 2023, the question was “which open table format will survive - Iceberg, Delta, or Hudi?” In 2026, that debate is over. Apache Iceberg won, and it won for reasons that have almost nothing to do with its raw performance.
 It won because it is the only format that both Snowflake and Databricks now treat as a first-class citizen, because the vendors picked sides on catalogs rather than table formats, and because enterprise buyers decided that multi-engine portability was worth more than a small performance edge.
-...</p></div><footer class=entry-footer><span title='2026-04-22 07:53:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Apache Iceberg in 2026: The Open Table Format That Won" href=https://jamesm.blog/data-engineering/apache-iceberg-2026/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/assets/images/ai/ai-intelligence.jpg alt="Claude Opus 4.7 on Databricks Banner"></figure><header class=entry-header><h2 class=entry-hint-parent>Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse</h2></header><div class=entry-content><p>Databricks announced this week that Anthropic’s Claude Opus 4.7 is now live on the platform. The headline from Databricks’ own benchmarking is the part worth pausing on - 21% fewer errors than Opus 4.6 on the OfficeQA Pro document-reasoning benchmark when the model is grounded in source information.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-22 07:53:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Apache Iceberg in 2026: The Open Table Format That Won" href="https://jamesm.blog/data-engineering/apache-iceberg-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-intelligence.jpg" alt="Claude Opus 4.7 on Databricks Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Databricks announced this week that Anthropic’s Claude Opus 4.7 is now live on the platform. The headline from Databricks’ own benchmarking is the part worth pausing on - 21% fewer errors than Opus 4.6 on the OfficeQA Pro document-reasoning benchmark when the model is grounded in source information.
 That single number tells you more about where enterprise AI is going than any launch keynote.
 Why This Matters More Than Another Model Announcement Most Claude releases get surfaced the same week across the API, Amazon Bedrock, Google Cloud’s Vertex AI, and Microsoft Foundry. That was true of Opus 4.7 on April 16 as well. The Databricks story is different because Databricks is not just another hosting destination - it is where the actual enterprise data lives.
-...</p></div><footer class=entry-footer><span title='2026-04-20 07:45:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse" href=https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy srcset='https://jamesm.blog/images/snowflake_hu_ae93bd2b96c5e3df.jpg 360w,https://jamesm.blog/images/snowflake_hu_ba7ceb8e07177a9b.jpg 480w,https://jamesm.blog/images/snowflake_hu_8d515f8b53f4133b.jpg 720w,https://jamesm.blog/images/snowflake.jpg 1024w' src=https://jamesm.blog/images/snowflake.jpg sizes="(min-width: 768px) 720px, 100vw" width=1024 height=512 alt="Snowflake Icon"></figure><header class=entry-header><h2 class=entry-hint-parent>Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure</h2></header><div class=entry-content><p>A New Era for Open Data Formats Snowflake has announced the general availability of Snowflake Storage for Apache Iceberg on both AWS and Azure, marking a significant shift in how enterprises can build open, interoperable data lakehouses. This development combines Snowflake’s enterprise reliability and governance capabilities with the flexibility and openness of Apache Iceberg, one of the most promising open table formats in the data ecosystem. For a deeper look at Iceberg itself, see Apache Iceberg in 2026, and for where this sits in the broader platform picture see The modern lakehouse stack.
-...</p></div><footer class=entry-footer><span title='2026-04-18 07:11:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure" href=https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/images/data.jpg alt="Following the Money in Data"></figure><header class=entry-header><h2 class=entry-hint-parent>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</h2></header><div class=entry-content><p>The views in this post are my own personal reflections on the data industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-20 07:45:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse" href="https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy"
+                srcset='https://jamesm.blog/images/snowflake_hu_ae93bd2b96c5e3df.jpg 360w,https://jamesm.blog/images/snowflake_hu_ba7ceb8e07177a9b.jpg 480w,https://jamesm.blog/images/snowflake_hu_8d515f8b53f4133b.jpg 720w,https://jamesm.blog/images/snowflake.jpg 1024w'
+                src="https://jamesm.blog/images/snowflake.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1024" height="512"
+                alt="Snowflake Icon">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A New Era for Open Data Formats Snowflake has announced the general availability of Snowflake Storage for Apache Iceberg on both AWS and Azure, marking a significant shift in how enterprises can build open, interoperable data lakehouses. This development combines Snowflake’s enterprise reliability and governance capabilities with the flexibility and openness of Apache Iceberg, one of the most promising open table formats in the data ecosystem. For a deeper look at Iceberg itself, see Apache Iceberg in 2026, and for where this sits in the broader platform picture see The modern lakehouse stack.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-18 07:11:00 +0100 BST'>April 18, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure" href="https://jamesm.blog/data-engineering/snowflake-apache-iceberg-storage/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/images/data.jpg" alt="Following the Money in Data">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Following the Money: Databricks vs Snowflake vs the Open-Source Alternative
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The views in this post are my own personal reflections on the data industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.
 In 2026, the technical gap between Databricks and Snowflake has narrowed to a sliver. Both offer world-class serverless compute, both support Iceberg/Delta as first-class citizens, and both have integrated AI agents that can write SQL better than your average intern.
-...</p></div><footer class=entry-footer><span title='2026-04-08 07:40:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Following the Money: Databricks vs Snowflake vs the Open-Source Alternative" href=https://jamesm.blog/data-engineering/following-the-money/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/images/data.jpg alt="Modern Data Engineering on Databricks"></figure><header class=entry-header><h2 class=entry-hint-parent>Modern Data Engineering on Databricks (2026 Guide)</h2></header><div class=entry-content><p>The 2026 Databricks Baseline Databricks in 2026 looks much more opinionated than it did just a few years ago.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-08 07:40:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Following the Money: Databricks vs Snowflake vs the Open-Source Alternative" href="https://jamesm.blog/data-engineering/following-the-money/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/images/data.jpg" alt="Modern Data Engineering on Databricks">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Modern Data Engineering on Databricks (2026 Guide)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The 2026 Databricks Baseline Databricks in 2026 looks much more opinionated than it did just a few years ago.
 For most new data engineering work, the default stack is now clear:
 Unity Catalog for governance managed tables where possible serverless compute for notebooks, SQL, pipelines, and jobs Lakeflow Declarative Pipelines for batch and streaming data products liquid clustering instead of old-style partition design for many workloads That shift matters because the platform has moved beyond “bring your own clusters and tune everything manually.” The modern Databricks approach is increasingly declarative, governed, and automated.
-...</p></div><footer class=entry-footer><span title='2026-04-06 00:19:31 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Modern Data Engineering on Databricks (2026 Guide)" href=https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jamesm.blog/images/data.jpg alt="Data Engineering Blogs"></figure><header class=entry-header><h2 class=entry-hint-parent>Data Engineering Blogs</h2></header><div class=entry-content><p>Modern Data Stack & Engineering Core Blogs & Publications Start Data Engineering - Practical guides, tutorials, and real-world projects for building scalable data platforms from scratch. Seattle Data Guy - Balance of business strategy and technical implementation in modern data engineering. Eclectic Data - Deep technical analysis of data infrastructure, distributed systems, and architectural patterns. Benn Stancil’s Blog - Strategic insights and industry commentary on analytics, data culture, and organizational challenges. Platform & Tool Blogs Airbyte Blog - Data integration, ELT approaches, and best practices for data movement at scale. Databricks Blog - Comprehensive coverage of Apache Spark, Delta Lake, and Lakehouse architectural patterns. LakeFS Blog - Data versioning, governance, and data lakes as code principles. dbt Blog - Analytics engineering workflows, SQL best practices, and modern data transformation. Apache Airflow Blog - Workflow orchestration patterns, DAG design, and production deployment strategies. Kafka Blog - Stream processing, real-time data architectures, and event-driven systems. Redpanda Blog - Kafka ecosystem evolution, streaming data pipelines, and cost optimization. Podcasts & Multimedia The Data Engineering Podcast - Interviews and deep dives into data tools, techniques, and industry practitioners. DataFramed Podcast - Conversations on data careers, best practices, and emerging technologies. Data Warehousing & Analytics Snowflake Blog - Cloud data warehouse innovations, performance optimization, and enterprise data strategies. Google Cloud Data Analytics Blog - BigQuery best practices, modern data stack integration, and Google Cloud data solutions. Restack Blog - Data infrastructure comparisons, architecture patterns, and cost optimization strategies. Communities & Learning Online Communities DataTalks.Club - Free community-driven courses, job board, and peer-to-peer learning for data professionals. r/dataengineering - Active community discussions, career advice, and industry insights. dbt Community - Slack workspace, forums, and networking for analytics engineers and data teams. Learning Resources Data Engineering Fundamentals - Comprehensive guide covering data architecture, ETL/ELT, and system design. Engineer Codehouse - Practical tutorials and guides for modern data stack technologies. Industry News & Trends The Data Stack News - Weekly roundup of news, funding announcements, and updates across the data ecosystem. KDnuggets - News, tutorials, and discussions on data science, machine learning, and data engineering. Data Engineering Weekly - Curated newsletter featuring tools, articles, and thought leadership in data engineering. The Pragmatic Engineer - Data - Engineering-led analysis with frequent data platform deep dives. Open Table Format & Lakehouse Apache Iceberg Blog - Official updates on the open table format increasingly central to the 2026 lakehouse. Tabular Blog - Deep technical writing on Iceberg internals and multi-engine lakehouse design. Dremio Blog - Query engines, Iceberg, and open data architecture. Onehouse Blog - Hudi and open lakehouse patterns. Transformation & Analytics Engineering dbt Developer Blog - Analytics engineering patterns and practical SQL modelling guidance. Tobiko / SQLMesh Blog - Next-generation transformation framework with virtual environments. Locally Optimistic - Long-form posts on analytics engineering culture and practice.</p></div><footer class=entry-footer><span title='2026-04-05 20:00:00 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Data Engineering Blogs" href=https://jamesm.blog/data-engineering/blogs/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://jamesm.blog/data-engineering/page/2/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://jamesm.blog/>jamesm.blog</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-06 00:19:31 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Modern Data Engineering on Databricks (2026 Guide)" href="https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/images/data.jpg" alt="Data Engineering Blogs">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Data Engineering Blogs
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Modern Data Stack &amp; Engineering Core Blogs &amp; Publications Start Data Engineering - Practical guides, tutorials, and real-world projects for building scalable data platforms from scratch. Seattle Data Guy - Balance of business strategy and technical implementation in modern data engineering. Eclectic Data - Deep technical analysis of data infrastructure, distributed systems, and architectural patterns. Benn Stancil’s Blog - Strategic insights and industry commentary on analytics, data culture, and organizational challenges. Platform &amp; Tool Blogs Airbyte Blog - Data integration, ELT approaches, and best practices for data movement at scale. Databricks Blog - Comprehensive coverage of Apache Spark, Delta Lake, and Lakehouse architectural patterns. LakeFS Blog - Data versioning, governance, and data lakes as code principles. dbt Blog - Analytics engineering workflows, SQL best practices, and modern data transformation. Apache Airflow Blog - Workflow orchestration patterns, DAG design, and production deployment strategies. Kafka Blog - Stream processing, real-time data architectures, and event-driven systems. Redpanda Blog - Kafka ecosystem evolution, streaming data pipelines, and cost optimization. Podcasts &amp; Multimedia The Data Engineering Podcast - Interviews and deep dives into data tools, techniques, and industry practitioners. DataFramed Podcast - Conversations on data careers, best practices, and emerging technologies. Data Warehousing &amp; Analytics Snowflake Blog - Cloud data warehouse innovations, performance optimization, and enterprise data strategies. Google Cloud Data Analytics Blog - BigQuery best practices, modern data stack integration, and Google Cloud data solutions. Restack Blog - Data infrastructure comparisons, architecture patterns, and cost optimization strategies. Communities &amp; Learning Online Communities DataTalks.Club - Free community-driven courses, job board, and peer-to-peer learning for data professionals. r/dataengineering - Active community discussions, career advice, and industry insights. dbt Community - Slack workspace, forums, and networking for analytics engineers and data teams. Learning Resources Data Engineering Fundamentals - Comprehensive guide covering data architecture, ETL/ELT, and system design. Engineer Codehouse - Practical tutorials and guides for modern data stack technologies. Industry News &amp; Trends The Data Stack News - Weekly roundup of news, funding announcements, and updates across the data ecosystem. KDnuggets - News, tutorials, and discussions on data science, machine learning, and data engineering. Data Engineering Weekly - Curated newsletter featuring tools, articles, and thought leadership in data engineering. The Pragmatic Engineer - Data - Engineering-led analysis with frequent data platform deep dives. Open Table Format &amp; Lakehouse Apache Iceberg Blog - Official updates on the open table format increasingly central to the 2026 lakehouse. Tabular Blog - Deep technical writing on Iceberg internals and multi-engine lakehouse design. Dremio Blog - Query engines, Iceberg, and open data architecture. Onehouse Blog - Hudi and open lakehouse patterns. Transformation &amp; Analytics Engineering dbt Developer Blog - Analytics engineering patterns and practical SQL modelling guidance. Tobiko / SQLMesh Blog - Next-generation transformation framework with virtual environments. Locally Optimistic - Long-form posts on analytics engineering culture and practice. </p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-05 20:00:00 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Data Engineering Blogs" href="https://jamesm.blog/data-engineering/blogs/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://jamesm.blog/data-engineering/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

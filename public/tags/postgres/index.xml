@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Postgres on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/postgres/</link>
+    <description>Recent content in Postgres on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 12 May 2026 11:30:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgres as the AI Stack: pgvector, Listen/Notify, and Logical Replication</title>
+      <link>https://jamesm.blog/data-engineering/postgres-as-the-ai-stack/</link>
+      <pubDate>Tue, 12 May 2026 11:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/postgres-as-the-ai-stack/</guid>
+      <description>Why a surprising number of AI-era data architectures in 2026 are quietly converging on Postgres as the central component - and what changes when you stop reaching for a separate vector store, a separate event bus, and a separate change-data-capture pipeline.</description>
+    </item>
+  </channel>
+</rss>

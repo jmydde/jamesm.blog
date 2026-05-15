@@ -1,22 +1,444 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Artificial Intelligence | jamesm.blog</title><meta name=keywords content="ai"><meta name=description content="
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Artificial Intelligence | jamesm.blog</title>
+<meta name="keywords" content="ai">
+<meta name="description" content="
      
 
 
-In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what&rsquo;s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work."><meta name=author content="James M"><link rel=canonical href=https://jamesm.blog/ai/><link crossorigin=anonymous href=/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css integrity="sha256-R+UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe+v3ZDTU=" rel="preload stylesheet" as=style><link rel=icon href=https://jamesm.blog/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://jamesm.blog/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://jamesm.blog/favicon-32x32.png><link rel=apple-touch-icon href=https://jamesm.blog/apple-touch-icon.png><link rel=mask-icon href=https://jamesm.blog/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://jamesm.blog/ai/index.xml title=rss><link rel=alternate hreflang=en href=https://jamesm.blog/ai/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-LTL3NQVCDT")</script><meta property="og:url" content="https://jamesm.blog/ai/"><meta property="og:site_name" content="jamesm.blog"><meta property="og:title" content="Artificial Intelligence"><meta property="og:description" content="In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what’s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta property="og:image" content="https://jamesm.blog/papermod-cover.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://jamesm.blog/papermod-cover.png"><meta name=twitter:title content="Artificial Intelligence"><meta name=twitter:description content="In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what’s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Artificial Intelligence","item":"https://jamesm.blog/ai/"}]}</script></head><body class=list id=top><header class=header><nav class=header-nav><div class=logo><a href=https://jamesm.blog/ accesskey=h title="jamesm.blog (Alt + H)">jamesm.blog</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://jamesm.blog/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://jamesm.blog/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://jamesm.blog/ai title=AI><span class=active>AI</span></a></li><li><a href=https://jamesm.blog/blockchain title=Blockchain><span>Blockchain</span></a></li><li><a href=https://jamesm.blog/data-engineering title="Data Engineering"><span>Data Engineering</span></a></li><li><a href=https://jamesm.blog/data-science title="Data Science"><span>Data Science</span></a></li><li><a href=https://jamesm.blog/devops title=DevOps><span>DevOps</span></a></li><li><a href=https://jamesm.blog/general title=General><span>General</span></a></li><li><a href=https://jamesm.blog/music-production title="Music Production"><span>Music Production</span></a></li><li><a href=https://jamesm.blog/personal-development title="Personal Dev"><span>Personal Dev</span></a></li><li><a href=https://jamesm.blog/retro-computing title="Retro Computing"><span>Retro Computing</span></a></li><li><a href=https://jamesm.blog/space title=Space><span>Space</span></a></li></ul></nav></header><main class=main><header class=page-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://jamesm.blog/>Home</a></nav><h1>Artificial Intelligence
-<a href=/ai/index.xml title=RSS aria-label=RSS><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><div class=md-content><figure><img loading=lazy src=images/ai.jpg></figure><p>In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what&rsquo;s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work.</p></div><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>DeepSeek 🤯</h2></header><div class=entry-content><p>TL;DR DeepSeek’s January 2025 release of R1 shook markets - a frontier-grade reasoning model trained for a reported $6M, a fraction of US lab budgets The app shot to #1 on Apple’s App Store inside days, and the open weights forced an industry-wide rethink of what training really costs Subsequent releases (V3 and beyond) cemented DeepSeek as a serious competitor in the open-source and cost-efficient AI category The story is less “China caught up” and more “the cost floor moved” - implications for closed-model pricing, GPU demand, and open-weight strategy Worth understanding as the moment that made cheap, capable, open models a credible default rather than a curiosity Overview Wow, crazy times, the best technology in the world is now becoming incredibly cheap and accessible to everyone! 🤯
-...</p></div><footer class=entry-footer><span title='2025-01-27 21:39:14 +0100 +0100'>January 27, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to DeepSeek 🤯" href=https://jamesm.blog/ai/deepseek/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Unitree G1 - AI Humanoid Robot</h2></header><div class=entry-content><p>TL;DR The Unitree G1 is an AI humanoid robot starting at $16,000 - dramatically undercutting competitors like Tesla’s Optimus and Boston Dynamics It uses imitation and reinforcement learning to perform tasks with high precision, combined with an impressive range of motion and speed The G1 represents a significant step toward more accessible humanoid robotics, opening up potential applications across many fields Unitree’s rapid progress signals that the humanoid robot market is moving faster than most expected ...</p></div><footer class=entry-footer><span title='2024-05-21 20:09:25 +0100 BST'>May 21, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Unitree G1 - AI Humanoid Robot" href=https://jamesm.blog/ai/unitree-g1/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Chatbots & Large Language Models (LLMs)</h2></header><div class=entry-content><p>TL;DR An LLM is the underlying reasoning engine; a chatbot is the product experience wrapped around it - they are related but not the same thing LLMs excel at summarizing, rewriting, generating drafts, and coding, but should be treated as fast collaborators rather than infallible oracles The main model families are frontier models (GPT, Claude, Gemini), open-weight / self-hostable models (Llama), and product-specific assistants (ChatGPT, Cursor, Copilot) Choose the right tool for the job: chatbots for convenience and exploration, APIs for automation, coding-native tools for repo-aware work The market is now split between AI as a consumer product and AI as programmable infrastructure - understanding both layers makes the landscape far less confusing Most people still talk about chatbots and large language models as if they are the same thing.
-...</p></div><footer class=entry-footer><span title='2024-05-17 17:06:25 +0100 BST'>May 17, 2024</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Chatbots & Large Language Models (LLMs)" href=https://jamesm.blog/ai/chatbots-llms/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>1X - Eve</h2></header><div class=entry-content><p>TL;DR 1X EVE is a wheeled android robot designed by 1X Technologies for logistics, retail, and industrial environments Built with soft, organic-inspired mechanics to enable safe physical interaction with humans Can navigate real-world environments independently - doors, elevators, and standard workspaces Understands and responds to natural language commands via advanced language processing Learns and adapts over time through embodied AI, rather than following fixed pre-programmed routines Overview 1X EVE is an android worker designed by 1X Technologies. It’s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.
-...</p></div><footer class=entry-footer><span title='2024-04-21 22:26:14 +0100 BST'>April 21, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to 1X - Eve" href=https://jamesm.blog/ai/1x-eve/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Tesla Optimus Robot</h2></header><div class=entry-content><p>TL;DR Tesla Optimus (also called the Tesla Bot) is a bipedal humanoid robot designed for general-purpose tasks, powered by Tesla-designed AI for navigation and environmental understanding The latest version, Optimus Gen 2, is faster, lighter, and has improved dexterity compared to earlier prototypes Elon Musk’s target price is less than half the cost of a Tesla car - roughly $20,000 to $25,000 - with the expectation that the price will fall further as production scales Musk has predicted that long-term, the robot business will be worth significantly more than Tesla’s car business The vision is for Optimus to take on dangerous or unpleasant jobs, freeing humans for more creative and leisure-based pursuits Overview Tesla Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It’s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It’s equipped with Tesla-designed AI for navigation & understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight & improved dexterity.
-...</p></div><footer class=entry-footer><span title='2024-04-21 20:44:14 +0100 BST'>April 21, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Tesla Optimus Robot" href=https://jamesm.blog/ai/tesla-optimus-robot/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far</h2></header><div class=entry-content><p>TL;DR All New Atlas is Boston Dynamics’ first fully-electric humanoid - a clean break from the hydraulic Atlas it replaced Designed for real-world work environments rather than stage demos, with a body more human-like than anything Boston Dynamics has shipped before Still a research platform - commercial and consumer availability is some way off, but the underlying control and balance work is impressive Builds on decades of agility and mobility research and signals where the humanoid form factor is heading next Part of a broader 2024-2026 wave of humanoid programmes from Boston Dynamics, Tesla, 1X, and others Boston Dynamics has revealed its most astonishing humanoid robot so far.
-...</p></div><footer class=entry-footer><span title='2024-04-20 22:09:25 +0100 BST'>April 20, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far" href=https://jamesm.blog/ai/boston-dynamics-humanoid-robot/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>OpenAI Voice Engine</h2></header><div class=entry-content><p>TL;DR OpenAI Voice Engine is a text-to-speech model that can clone a realistic voice from just a 15-second audio sample It produces emotive, natural-sounding speech despite using a small model and minimal training data Access has remained in limited preview since its 2024 announcement due to responsible AI concerns around voice cloning and impersonation Approved testers must obtain clear consent from voice providers and inform listeners that voices are AI-generated As of 2026, the technology is restricted to approved partners and researchers rather than general availability About OpenAI’s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample. It is notable that a small model with a single 15-second sample can create emotive and realistic voices. To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
-...</p></div><footer class=entry-footer><span title='2024-03-29 23:12:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to OpenAI Voice Engine" href=https://jamesm.blog/ai/openai-voice-engine/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Stargate</h2></header><div class=entry-content><p>TL;DR Stargate is a $500B AI infrastructure programme announced in January 2025 - a joint effort between Microsoft, OpenAI, SoftBank, and Oracle Construction has already started in Texas with more sites planned, aimed at training and serving the next generation of frontier AI models The scale signals where compute spend is heading - tens of billions per cluster is becoming the price of admission at the frontier Combines OpenAI’s models, Microsoft’s cloud, SoftBank’s capital, and Oracle’s enterprise infrastructure into one of the largest tech buildouts ever announced Worth tracking as a useful proxy for how seriously the industry takes the compute side of the AGI race About Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between Microsoft, OpenAI, SoftBank, and Oracle to build a series of massive AI supercomputers and data centers.
-...</p></div><footer class=entry-footer><span title='2024-03-29 22:09:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Stargate" href=https://jamesm.blog/ai/microsoft-openai-stargate/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Google Gemini Ultra</h2></header><div class=entry-content><p>TL;DR Gemini Ultra was Google DeepMind’s flagship Gemini tier at launch in early 2024 - notable for hitting 90.0% on the MMLU benchmark Multimodal across text, images, video, and code, with strong coding and reasoning performance for its era Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and other specialised variants in the Gemini family Documented here for historical context - the original Ultra branding is no longer the main consumer-facing model Access today is through AI Studio, Vertex AI, and Google One AI Premium plans About Note: Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.
-...</p></div><footer class=entry-footer><span title='2024-03-29 07:16:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Google Gemini Ultra" href=https://jamesm.blog/ai/google-gemini-ultra/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Google Gemini Advanced</h2></header><div class=entry-content><p>TL;DR Gemini Advanced was Google’s tier-based offering for power users at launch in early 2024 - enhanced reasoning, longer context, and multimodal input Built around Gemini Ultra at first, then succeeded by Gemini 2.0 Flash, 2.5 Pro, and other newer models Use cases: coding, creative collaboration, long-form multi-turn conversations, document and media analysis Available through Google One AI Premium with web, mobile, and API access; pricing has shifted as the lineup evolved Documented here as the original 2024 positioning - check Google’s current site for what “Advanced” maps to today About Note: Gemini Advanced (released early 2024) was Google’s tier-based offering. By 2026, this has evolved into a more diverse model lineup including Gemini Pro, Gemini 2.0, and Gemini 2.5 Pro with different access tiers. This article reflects the original 2024 positioning.
-...</p></div><footer class=entry-footer><span title='2024-03-29 07:12:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer><a class=entry-link aria-label="post link to Google Gemini Advanced" href=https://jamesm.blog/ai/google-gemini-advanced/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://jamesm.blog/ai/page/8/>«&nbsp;Prev&nbsp;
-</a><a class=next href=https://jamesm.blog/ai/page/10/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://jamesm.blog/>jamesm.blog</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what&rsquo;s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://jamesm.blog/ai/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Artificial Intelligence">
+  <meta property="og:description" content="In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what’s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://jamesm.blog/papermod-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jamesm.blog/papermod-cover.png">
+  <meta name="twitter:title" content="Artificial Intelligence">
+  <meta name="twitter:description" content="In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what’s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span class="active">AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a></nav>
+  <h1>
+    Artificial Intelligence
+    <a href="/ai/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+<div class="md-content"><figure>
+    <img loading="lazy" src="images/ai.jpg"/> 
+</figure>
+
+<p>In-depth exploration of AI in practice: building and deploying AI agents that work, designing developer workflows around Claude and other LLMs, critical analysis of AI safety and reliability, and the real shifts happening in careers, skills, and how we work. This section mixes tactical guides (how to actually build with AI), strategic analysis (what&rsquo;s hype vs. what matters), and deeper dives into the tools and systems reshaping software development and knowledge work.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI Agents Emergency Debate
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR An “emergency debate” framing the case that AI agents will displace large parts of the workforce inside a 24-month horizon Contributors disagree on speed but agree the direction is settled - the question is which sectors move first, not whether they move Near-term pressure is on roles built around predictable, repeatable cognitive work; durable roles cluster around judgment, taste, and accountability Education and training systems are slower to adapt than the technology, which creates a real workforce mismatch in the meantime Worth watching as a snapshot of the 2025 conversation - useful frame even where you disagree with the specific predictions About This debate explores urgent questions about AI’s impact on employment and the workforce. Contributors discuss the timeline for AI-driven job displacement and the societal preparations needed to adapt to rapid automation.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-12 16:27:14 +0100 BST'>May 12, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Agents Emergency Debate" href="https://jamesm.blog/ai/ai-agents-emergency-debate/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">DeepSeek 🤯
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR DeepSeek’s January 2025 release of R1 shook markets - a frontier-grade reasoning model trained for a reported $6M, a fraction of US lab budgets The app shot to #1 on Apple’s App Store inside days, and the open weights forced an industry-wide rethink of what training really costs Subsequent releases (V3 and beyond) cemented DeepSeek as a serious competitor in the open-source and cost-efficient AI category The story is less “China caught up” and more “the cost floor moved” - implications for closed-model pricing, GPU demand, and open-weight strategy Worth understanding as the moment that made cheap, capable, open models a credible default rather than a curiosity Overview Wow, crazy times, the best technology in the world is now becoming incredibly cheap and accessible to everyone! 🤯
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-27 21:39:14 +0100 +0100'>January 27, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DeepSeek 🤯" href="https://jamesm.blog/ai/deepseek/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Unitree G1 - AI Humanoid Robot
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The Unitree G1 is an AI humanoid robot starting at $16,000 - dramatically undercutting competitors like Tesla’s Optimus and Boston Dynamics It uses imitation and reinforcement learning to perform tasks with high precision, combined with an impressive range of motion and speed The G1 represents a significant step toward more accessible humanoid robotics, opening up potential applications across many fields Unitree’s rapid progress signals that the humanoid robot market is moving faster than most expected ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-05-21 20:09:25 +0100 BST'>May 21, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Unitree G1 - AI Humanoid Robot" href="https://jamesm.blog/ai/unitree-g1/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Chatbots &amp; Large Language Models (LLMs)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR An LLM is the underlying reasoning engine; a chatbot is the product experience wrapped around it - they are related but not the same thing LLMs excel at summarizing, rewriting, generating drafts, and coding, but should be treated as fast collaborators rather than infallible oracles The main model families are frontier models (GPT, Claude, Gemini), open-weight / self-hostable models (Llama), and product-specific assistants (ChatGPT, Cursor, Copilot) Choose the right tool for the job: chatbots for convenience and exploration, APIs for automation, coding-native tools for repo-aware work The market is now split between AI as a consumer product and AI as programmable infrastructure - understanding both layers makes the landscape far less confusing Most people still talk about chatbots and large language models as if they are the same thing.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-05-17 17:06:25 +0100 BST'>May 17, 2024</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Chatbots & Large Language Models (LLMs)" href="https://jamesm.blog/ai/chatbots-llms/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">1X - Eve
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+TL;DR 1X EVE is a wheeled android robot designed by 1X Technologies for logistics, retail, and industrial environments Built with soft, organic-inspired mechanics to enable safe physical interaction with humans Can navigate real-world environments independently - doors, elevators, and standard workspaces Understands and responds to natural language commands via advanced language processing Learns and adapts over time through embodied AI, rather than following fixed pre-programmed routines Overview 1X EVE is an android worker designed by 1X Technologies. It’s a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-21 22:26:14 +0100 BST'>April 21, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to 1X - Eve" href="https://jamesm.blog/ai/1x-eve/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Tesla Optimus Robot
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Tesla Optimus (also called the Tesla Bot) is a bipedal humanoid robot designed for general-purpose tasks, powered by Tesla-designed AI for navigation and environmental understanding The latest version, Optimus Gen 2, is faster, lighter, and has improved dexterity compared to earlier prototypes Elon Musk’s target price is less than half the cost of a Tesla car - roughly $20,000 to $25,000 - with the expectation that the price will fall further as production scales Musk has predicted that long-term, the robot business will be worth significantly more than Tesla’s car business The vision is for Optimus to take on dangerous or unpleasant jobs, freeing humans for more creative and leisure-based pursuits Overview Tesla Optimus, also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by Tesla since 2021. It’s designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It’s equipped with Tesla-designed AI for navigation &amp; understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight &amp; improved dexterity.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-21 20:44:14 +0100 BST'>April 21, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Tesla Optimus Robot" href="https://jamesm.blog/ai/tesla-optimus-robot/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR All New Atlas is Boston Dynamics’ first fully-electric humanoid - a clean break from the hydraulic Atlas it replaced Designed for real-world work environments rather than stage demos, with a body more human-like than anything Boston Dynamics has shipped before Still a research platform - commercial and consumer availability is some way off, but the underlying control and balance work is impressive Builds on decades of agility and mobility research and signals where the humanoid form factor is heading next Part of a broader 2024-2026 wave of humanoid programmes from Boston Dynamics, Tesla, 1X, and others Boston Dynamics has revealed its most astonishing humanoid robot so far.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-20 22:09:25 +0100 BST'>April 20, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far" href="https://jamesm.blog/ai/boston-dynamics-humanoid-robot/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">OpenAI Voice Engine
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR OpenAI Voice Engine is a text-to-speech model that can clone a realistic voice from just a 15-second audio sample It produces emotive, natural-sounding speech despite using a small model and minimal training data Access has remained in limited preview since its 2024 announcement due to responsible AI concerns around voice cloning and impersonation Approved testers must obtain clear consent from voice providers and inform listeners that voices are AI-generated As of 2026, the technology is restricted to approved partners and researchers rather than general availability About OpenAI’s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample. It is notable that a small model with a single 15-second sample can create emotive and realistic voices. To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-29 23:12:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to OpenAI Voice Engine" href="https://jamesm.blog/ai/openai-voice-engine/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Stargate
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Stargate is a $500B AI infrastructure programme announced in January 2025 - a joint effort between Microsoft, OpenAI, SoftBank, and Oracle Construction has already started in Texas with more sites planned, aimed at training and serving the next generation of frontier AI models The scale signals where compute spend is heading - tens of billions per cluster is becoming the price of admission at the frontier Combines OpenAI’s models, Microsoft’s cloud, SoftBank’s capital, and Oracle’s enterprise infrastructure into one of the largest tech buildouts ever announced Worth tracking as a useful proxy for how seriously the industry takes the compute side of the AGI race About Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between Microsoft, OpenAI, SoftBank, and Oracle to build a series of massive AI supercomputers and data centers.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-29 22:09:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Stargate" href="https://jamesm.blog/ai/microsoft-openai-stargate/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Google Gemini Ultra
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Gemini Ultra was Google DeepMind’s flagship Gemini tier at launch in early 2024 - notable for hitting 90.0% on the MMLU benchmark Multimodal across text, images, video, and code, with strong coding and reasoning performance for its era Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and other specialised variants in the Gemini family Documented here for historical context - the original Ultra branding is no longer the main consumer-facing model Access today is through AI Studio, Vertex AI, and Google One AI Premium plans About Note: Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-29 07:16:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Google Gemini Ultra" href="https://jamesm.blog/ai/google-gemini-ultra/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://jamesm.blog/ai/page/8/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://jamesm.blog/ai/page/10/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
