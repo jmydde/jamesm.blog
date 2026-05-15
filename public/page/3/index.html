@@ -197,22 +197,6 @@
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/llm-powered-personal-productivity.jpg" alt="LLM-Powered Personal Productivity Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">LLM-Powered Personal Productivity: Building a Private Automation Stack
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR The interesting question in 2026 is not “can a local model do this”, it is “which jobs should you give it”. My stack: Ollama for inference, Letta for persistent agent memory, Obsidian as the second brain, Home Assistant for the physical world, and a small router that decides where each thought goes. Three jobs are the sweet spot for local: inbox triage, note enrichment, and routine automation. Each one is repetitive, private, and tolerant of a bit of latency. Two jobs are still worth handing to a frontier cloud model: anything novel-and-hard, and anything where you want the best draft on the first attempt. The bit nobody talks about is the router. The model is not the product. The thing that decides which model gets which job is the product. Why Local Got Interesting For years the answer to “should I run an LLM locally” was “no, just use the API”. The API was cheaper, faster, smarter, and you did not have to think about VRAM. The only reason to go local was privacy, and most people did not actually care about privacy enough to give up the quality gap.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-03 08:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to LLM-Powered Personal Productivity: Building a Private Automation Stack" href="https://jamesm.blog/ai/llm-powered-personal-productivity/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/ai/roman-yampolskiy.jpg" alt="Roman Yampolskiy - The Researcher Who Thinks AI Cannot Be Controlled Banner">
 </figure>
   <header class="entry-header">
@@ -358,6 +342,22 @@ In practice this means you can hold a chord and bend a single note up, slide bet
   </div>
   <footer class="entry-footer"><span title='2026-05-01 19:02:00 +0100 BST'>May 1, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Suno in May 2026: where the platform actually is" href="https://jamesm.blog/music-production/suno-may-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-agents-that-actually-work.jpg" alt="AI Agents That Actually Work Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI Agents That Actually Work: Patterns From Real Projects
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Most agent demos fail in production because demos operate in a regime where the model’s natural behaviour is good enough - production is longer, messier, and largely unobserved Eight patterns separate agents that stay shipped from the ones that fall over: scope the loop, structured tool design, mandatory verification, curated context, first-class human handoff, idempotency, agent-level observability, and real evaluation infrastructure Models confabulate actions - “I ran the tests” does not mean the tests were run; every agent needs explicit verification baked into the control flow, not bolted on as an afterthought The tool layer between the model and underlying systems is where most of the engineering effort actually lives, and exposing raw APIs directly to the agent almost always goes wrong Build agents the same way you would build any other long-running, partially-autonomous system you cannot afford to have fail silently - the novelty is in the failure modes, not the engineering principles I have spent the last eighteen months either building, reviewing, or operating systems that some marketing department somewhere has called “agents”. The definition has been so thoroughly stretched that it now means anything from a chatbot with a calculator tool to a long-running autonomous workflow that touches production infrastructure. Underneath the noise there is a real engineering discipline emerging, and the patterns that separate the systems that survive contact with real users from the ones that demo well and fall over are starting to be legible.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-01 08:00:00 +0100 BST'>May 1, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Agents That Actually Work: Patterns From Real Projects" href="https://jamesm.blog/ai/ai-agents-that-actually-work/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

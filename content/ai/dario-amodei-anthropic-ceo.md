@@ -1,6 +1,6 @@
 ---
 title: "Dario Amodei: The Anthropic CEO Betting on Safety as Strategy"
-date: 2026-05-11T07:22:00+01:00
+date: 2026-05-14T21:22:00+01:00
 draft: false
 tags: ["ai", "anthropic", "people", "safety", "claude", "leadership", "2026"]
 description: "A grounded look at Dario Amodei - the Princeton-trained physicist who left OpenAI to co-found Anthropic, made AI safety the company's commercial differentiator, and now runs the second-most-valuable private AI company on the planet."
