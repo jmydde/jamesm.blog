@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "science", "research", "discovery", "alphafold"]
 description: "AlphaFold was the headline AI-for-science story. In 2026 the story has broadened into something more interesting - AI tools in routine use across many scientific fields, with uneven but real impact. A practical look at where the gains actually are."
 cover:
-  image: /assets/images/ai/ai-in-scientific-research-2026.jpg
+  image: /assets/images/ai/ai-in-scientific-research-2026.png
   alt: AI in Scientific Research - From AlphaFold to the Long Tail Banner
 ---
 

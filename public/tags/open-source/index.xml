@@ -85,6 +85,21 @@
     </item>
     <item>
       <title>List of AI GitHub Projects</title>
+      <link>https://jamesm.blog/ai/github-projects-2/</link>
+      <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-projects-2/</guid>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A curated index of significant open-source AI projects on GitHub - the ones worth knowing about, not the entire ecosystem&lt;/li&gt;
+&lt;li&gt;Covers agent frameworks (&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;AutoGen&lt;/a&gt;, &lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;CrewAI&lt;/a&gt;, &lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;LangChain&lt;/a&gt;), code-focused tools (&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;Aider&lt;/a&gt;, &lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;Open Interpreter&lt;/a&gt;), and local LLM runners (&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;Ollama&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Useful as a starting map if you&amp;rsquo;re choosing between frameworks, or want to see what the community is converging on&lt;/li&gt;
+&lt;li&gt;Star counts and momentum shift quickly here - treat the list as a snapshot rather than a permanent ranking&lt;/li&gt;
+&lt;li&gt;Pair with the &lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;tools list&lt;/a&gt; for hosted products and the &lt;a href=&#34;https://jamesm.blog/ai/explainers/&#34;&gt;explainers&lt;/a&gt; for foundations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>List of AI GitHub Projects</title>
       <link>https://jamesm.blog/ai/github-projects/</link>
       <pubDate>Sat, 27 May 2023 08:01:18 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-projects/</guid>
