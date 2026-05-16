@@ -1,6 +1,6 @@
 ---
 title: "Top 5 Grooveboxes of 2025"
-date: 2025-12-26T18:47:21+01:00
+date: 2025-12-27T18:47:21+01:00
 draft: false
 tags: ['music production', 'groovebox']
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie"
-date: 2026-05-03T15:00:00+01:00
+date: 2026-05-02T15:00:00+01:00
 draft: false
 tags: ['data-engineering', 'catalog', 'iceberg', 'unity-catalog', 'lakehouse', 'governance', '2026']
 description: "The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run."

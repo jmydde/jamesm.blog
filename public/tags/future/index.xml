@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 08:06:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 00:48:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/future/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Year of Agents, and What is Coming Next</title>
-      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
-      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
-      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
-    </item>
     <item>
       <title>The Free Intelligence Era: What Breaks When Thinking Costs Nothing</title>
       <link>https://jamesm.blog/ai/free-intelligence-era/</link>
@@ -30,21 +23,21 @@
     <item>
       <title>The Year 3026: Thinking Seriously About a Thousand Years From Now</title>
       <link>https://jamesm.blog/ai/the-year-3026/</link>
-      <pubDate>Mon, 20 Apr 2026 22:03:00 +0100</pubDate>
+      <pubDate>Sun, 26 Apr 2026 22:03:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/the-year-3026/</guid>
       <description>A thousand years is long enough that nothing we currently call a company, a currency, or a country is likely to survive. What does thinking seriously about 3026 actually look like - and what, if anything, holds its value across that horizon?</description>
     </item>
     <item>
       <title>The Year 2126: What the Next Hundred Years Actually Looks Like</title>
       <link>https://jamesm.blog/ai/the-year-2126/</link>
-      <pubDate>Mon, 20 Apr 2026 21:02:00 +0100</pubDate>
+      <pubDate>Sun, 26 Apr 2026 21:02:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/the-year-2126/</guid>
       <description>A hundred years is close enough to reason about concretely and far enough that most of what feels fixed today will be gone. What does 2126 honestly look like - and which of today&amp;#39;s problems have we solved by then, which have we inherited, and which are entirely new?</description>
     </item>
     <item>
       <title>Reading the Signals: Which of the Four Futures Is Actually Emerging?</title>
       <link>https://jamesm.blog/ai/reading-the-signals-four-futures/</link>
-      <pubDate>Mon, 20 Apr 2026 20:45:00 +0100</pubDate>
+      <pubDate>Sat, 25 Apr 2026 20:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/reading-the-signals-four-futures/</guid>
       <description>A follow-up to the four futures framework - scoring the real-world signals firing right now against broad abundance, winner-take-most, techno-feudalism, and managed transition.</description>
     </item>
@@ -58,9 +51,16 @@
     <item>
       <title>Four Futures for the Machine-Speed Economy</title>
       <link>https://jamesm.blog/ai/four-futures-machine-speed-economy/</link>
-      <pubDate>Sun, 19 Apr 2026 19:26:00 +0100</pubDate>
+      <pubDate>Thu, 16 Apr 2026 19:26:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/four-futures-machine-speed-economy/</guid>
       <description>A map of four plausible futures - broad abundance, winner-take-most, techno-feudalism, and a managed transition - with the signals that suggest which one is emerging.</description>
+    </item>
+    <item>
+      <title>A Year of Agents, and What is Coming Next</title>
+      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
+      <pubDate>Fri, 13 Mar 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
+      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
     </item>
   </channel>
 </rss>

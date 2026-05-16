@@ -201,29 +201,28 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Local AI vs Cloud AI: The Tradeoff Landscape in 2026
+    <h2 class="entry-hint-parent">AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know
     </h2>
   </header>
   <div class="entry-content">
-    <p>By early 2026, the “Local vs. Cloud” debate has moved past the experimental phase. We are no longer just “trying to see if Llama runs on a Mac.” Instead, professional engineers are building sophisticated Hybrid AI Stacks where local and cloud models work in tandem.
-The landscape has shifted because the hardware caught up to the software. With the prevalence of unified memory on Apple Silicon and the accessibility of 24GB&#43; VRAM cards like the RTX 50-series, the “local” ceiling has been smashed.
+    <p>TL;DR Traditional testing assumes determinism - given input X, function f always returns Y - but LLMs are non-deterministic, which breaks assertion-based testing at its foundation The same agentic task run twice may produce different but equally correct code, making exact-output assertions brittle and often useless The new paradigm shifts from “test the code” to “verify the intent”: property-based testing, LLM-as-a-Judge evaluation, golden datasets for regression, and human review for overall correctness Structured outputs enforce syntactic correctness at generation time, but semantic correctness - whether the output actually solves the right problem - still requires layered verification on top The future of AI quality assurance is designing robust evaluation frameworks and measuring properties of acceptable outputs, not writing exhaustive unit tests for code the model may generate differently next time We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in “AI agents that actually work”, and the wider safety framing sits in “AI safety from first principles”.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:11:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Local AI vs Cloud AI: The Tradeoff Landscape in 2026" href="https://jamesm.blog/ai/local-vs-cloud-ai-2026/"></a>
+  <footer class="entry-footer"><span title='2026-04-09 22:00:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know" href="https://jamesm.blog/ai/ai-reliability-is-weird/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">GitHub Is Now Officially Backing OpenClaw
+    <h2 class="entry-hint-parent">Career-Ops: Flipping the Script on AI-Powered Job Search
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, breaking React’s 10-year GitHub milestone in just 60 days The sponsorship is concrete, not symbolic - it includes Copilot Pro&#43; access, dedicated security funding, and scalability support for the project team GitHub sponsors projects that matter for the future of software development, and this backing signals OpenClaw has crossed from “interesting experiment” into infrastructure-level significance The move is a bet that open source AI agents will be central to how software is built in 2026 and beyond, and that GitHub wants to be the home where that class of technology lives and scales OpenClaw’s growth trajectory and now its platform backing make it a clear signal about the direction of agentic, AI-operated software development Two weeks ago, GitHub made a quiet but significant announcement: they are now an official sponsor of OpenClaw.
+    <p>TL;DR Career-Ops is an open-source tool built on Claude Code that inverts the job search power dynamic - giving candidates AI-powered evaluation and application tools to match what companies use to filter them Each opportunity is scored across 10 weighted dimensions on an A-F scale, producing a structured comparison that replaces the ad hoc spreadsheet most candidates rely on The system generates ATS-optimized resumes dynamically tailored to each job description and auto-discovers new postings from 45&#43; pre-configured job boards A key design principle is human-in-control: nothing auto-submits, the AI recommends and the candidate decides, making it a decision-support system rather than an automation Career-Ops is a clean example of the broader pattern of AI tools that amplify individual judgment rather than replace it - worth studying for its architecture as much as its use case The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-08 08:05:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to GitHub Is Now Officially Backing OpenClaw" href="https://jamesm.blog/ai/github-backing-openclaw/"></a>
+  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Career-Ops: Flipping the Script on AI-Powered Job Search" href="https://jamesm.blog/ai/career-ops/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -236,19 +235,6 @@ The landscape has shifted because the hardware caught up to the software. With t
   </div>
   <footer class="entry-footer"><span title='2026-04-08 07:30:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Claude Code vs Cursor: A 6-Month Comparison" href="https://jamesm.blog/ai/claude-code-vs-cursor/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Claude Mythos is Anthropic’s most powerful model to date, scoring 93.9% on SWE-bench and 97.6% on USAMO 2026 - a 55-point leap over rival models It is not publicly available; Anthropic restricted access to 12 vetted companies through Project Glasswing, focused on defensive cybersecurity Mythos autonomously identified thousands of zero-day vulnerabilities, including a 27-year-old unpatched OpenBSD bug - making its offensive potential too dangerous to democratize This marks a shift away from open innovation toward controlled deployment, where the most capable AI may never be publicly released The Mythos story forces a rethink of how we evaluate AI: benchmark performance and public availability are no longer the same thing Imagine an artificial intelligence so profoundly capable, so far beyond anything we’ve seen, that its creators deem it too risky for public release. This isn’t a dystopian fantasy, but the real-world scenario presented by Anthropic’s Claude Mythos. When Anthropic first unveiled Mythos, the AI community was abuzz - not just with its mind-bending benchmarks, but with the immediate caveat: it would not be publicly available. This decision heralds a new era in AI, one where raw power intersects with paramount security concerns.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-08 06:12:00 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power" href="https://jamesm.blog/ai/claude-mythos-restricted/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -308,19 +294,6 @@ The landscape has shifted because the hardware caught up to the software. With t
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">What Actually Belongs in My AI Dev Stack in 2026
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture Spec-driven development is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations Tools like Cursor AI handle fast, in-flow editing while Claude Code or Cline are better suited to multi-file refactors and autonomous implementation from specs Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential The real shift is treating AI not as a bolt-on assistant but as part of the workflow architecture itself, with each tool assigned a clear, specific responsibility There is a big difference between using AI for development and having an actual AI development stack.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-06 00:05:00 +0100 BST'>April 6, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to What Actually Belongs in My AI Dev Stack in 2026" href="https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)
     </h2>
   </header>
@@ -330,6 +303,34 @@ The landscape has shifted because the hardware caught up to the software. With t
   </div>
   <footer class="entry-footer"><span title='2026-04-05 23:16:25 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)" href="https://jamesm.blog/ai/gpu-servers-vs-api-credits/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">DevOps in the Age of AI Agents
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>For years, DevOps has been about breaking down silos and automating the software delivery lifecycle. We moved from manual deployments to Jenkins scripts, then to YAML-defined pipelines, and eventually to Infrastructure as Code (IaC).
+But in 2026, the bottleneck is no longer the speed of the pipeline - it’s the speed of human decision-making within that pipeline. We are entering the era of Agentic DevOps.
+From Automation to Autonomy Traditional DevOps automation follows a strict “if this, then that” logic. AI-driven DevOps uses reasoning models to handle the “I’m not sure, let me figure it out” scenarios that typically stall a release.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-05 23:00:00 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DevOps in the Age of AI Agents" href="https://jamesm.blog/devops/devops-in-the-age-of-ai-agents/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">What Actually Belongs in My AI Dev Stack in 2026
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture Spec-driven development is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations Tools like Cursor AI handle fast, in-flow editing while Claude Code or Cline are better suited to multi-file refactors and autonomous implementation from specs Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential The real shift is treating AI not as a bolt-on assistant but as part of the workflow architecture itself, with each tool assigned a clear, specific responsibility There is a big difference between using AI for development and having an actual AI development stack.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-05 00:05:00 +0100 BST'>April 5, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to What Actually Belongs in My AI Dev Stack in 2026" href="https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

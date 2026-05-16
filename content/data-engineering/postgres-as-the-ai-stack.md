@@ -1,6 +1,6 @@
 ---
 title: "Postgres as the AI Stack: pgvector, Listen/Notify, and Logical Replication"
-date: 2026-05-12T11:30:00+01:00
+date: 2026-05-11T11:30:00+01:00
 draft: true
 tags: ["data", "postgres", "ai", "vector", "database", "architecture"]
 description: "Why a surprising number of AI-era data architectures in 2026 are quietly converging on Postgres as the central component - and what changes when you stop reaching for a separate vector store, a separate event bus, and a separate change-data-capture pipeline."

@@ -21,18 +21,18 @@
       <description>Local LLMs have quietly become good enough to run a real personal automation stack - inbox triage, second-brain notes, home routines, voice capture - without sending anything to the cloud. A walkthrough of what I run, why each piece is there, and where the seams are.</description>
     </item>
     <item>
-      <title>Meta Is Tracking Its Own Employees to Train AI Agents</title>
-      <link>https://jamesm.blog/ai/meta-employee-tracking/</link>
-      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/meta-employee-tracking/</guid>
-      <description>Meta&amp;#39;s Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out.</description>
-    </item>
-    <item>
       <title>Local AI vs Cloud AI: The Tradeoff Landscape in 2026</title>
       <link>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</link>
-      <pubDate>Thu, 09 Apr 2026 06:11:00 +0100</pubDate>
+      <pubDate>Sat, 11 Apr 2026 06:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</guid>
       <description>In 2026, the choice between running AI locally or in the cloud is no longer a binary one. It is a strategic architectural decision based on privacy, latency, and &amp;#39;reasoning density&amp;#39;.</description>
+    </item>
+    <item>
+      <title>Meta Is Tracking Its Own Employees to Train AI Agents</title>
+      <link>https://jamesm.blog/ai/meta-employee-tracking/</link>
+      <pubDate>Wed, 01 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/meta-employee-tracking/</guid>
+      <description>Meta&amp;#39;s Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out.</description>
     </item>
   </channel>
 </rss>

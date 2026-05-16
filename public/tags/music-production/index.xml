@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Music Production on jamesm.blog</title>
+    <title>Music-Production on jamesm.blog</title>
     <link>https://jamesm.blog/tags/music-production/</link>
-    <description>Recent content in Music Production on jamesm.blog</description>
+    <description>Recent content in Music-Production on jamesm.blog</description>
     <image>
       <title>jamesm.blog</title>
       <url>https://jamesm.blog/papermod-cover.png</url>
@@ -11,21 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 19:02:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 19:19:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/music-production/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Suno in May 2026: where the platform actually is</title>
-      <link>https://jamesm.blog/music-production/suno-may-2026/</link>
-      <pubDate>Fri, 01 May 2026 19:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/suno-may-2026/</guid>
-      <description>A clear-eyed look at Suno as of May 2026 - the v5.5 model, Voices, Custom Models, My Taste, and the platform changes flowing from the Warner Music deal.</description>
-    </item>
     <item>
       <title>Connecting Claude to Ableton: Why the New Knowledge Connector Matters</title>
       <link>https://jamesm.blog/music-production/claude-ableton-connector/</link>
       <pubDate>Thu, 30 Apr 2026 19:19:00 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/claude-ableton-connector/</guid>
       <description>Anthropic just shipped an official Ableton Knowledge connector for Claude. Here is what it actually does, how it differs from the community AbletonMCP project, and why it changes how you learn Live and Push.</description>
+    </item>
+    <item>
+      <title>Suno in May 2026: where the platform actually is</title>
+      <link>https://jamesm.blog/music-production/suno-may-2026/</link>
+      <pubDate>Wed, 29 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/suno-may-2026/</guid>
+      <description>A clear-eyed look at Suno as of May 2026 - the v5.5 model, Voices, Custom Models, My Taste, and the platform changes flowing from the Warner Music deal.</description>
     </item>
     <item>
       <title>AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion</title>
@@ -93,6 +93,27 @@
       <pubDate>Wed, 07 Jan 2026 23:35:21 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/why-i-play-and-create-music-intuitively/</guid>
       <description>A personal reflection on playing piano by ear, chasing flow, and treating music as a landscape to wander rather than a skill to master - where discovery and surprise matter more than theory.</description>
+    </item>
+    <item>
+      <title>Top 5 Hardware Sequencers of 2025</title>
+      <link>https://jamesm.blog/music-production/top-5-sequencers-2025/</link>
+      <pubDate>Sat, 27 Dec 2025 20:52:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/top-5-sequencers-2025/</guid>
+      <description>&lt;p&gt;Hardware sequencers remain essential for producers who want hands-on control over patterns, rhythms, and melodies. Unlike grooveboxes, sequencers are often designed to drive external synths, modular systems, or entire hardware setups. Here’s a detailed look at the top 5 hardware sequencers in 2025, complete with images, prices, and strengths. (&lt;a href=&#34;https://reverb.com/uk/news/the-5-best-hardware-sequencers-for-your-rig?utm_source=chatgpt.com&#34;&gt;reverb.com&lt;/a&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;teenage-engineering-op-xy-1799&#34;&gt;&lt;strong&gt;Teenage Engineering OP-XY&lt;/strong&gt; (~£1,799)&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;OP-XY&lt;/strong&gt; is a portable sequencer with integrated synth engines and expressive pattern management. It offers parameter locks, modulation lanes, and performance-friendly workflow. Its unique combination of sequencing and sound generation makes it excellent for live improvisation and musical idea exploration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Top 5 Grooveboxes of 2025</title>
+      <link>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</link>
+      <pubDate>Sat, 27 Dec 2025 18:47:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</guid>
+      <description>&lt;p&gt;Grooveboxes are island universes of music creation  -  sequencing, sampling, synthesis, and performance all in a single box. They let you sketch ideas, build full tracks, jam live, and take your studio wherever you want. In 2025, they’re more powerful and diverse than ever.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;roland-mc-707-1013&#34;&gt;&lt;strong&gt;Roland MC-707&lt;/strong&gt; (£1,013)&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&amp;width=3840&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The MC‑707 is a flagship groovebox from Roland with a &lt;strong&gt;ZEN‑Core sound engine&lt;/strong&gt; that packs thousands of presets, drum kits, effects, and routing options. Its strength lies in pattern and clip‑based sequencing, deep effects, and live remixing capabilities. Each track can be assigned Tone, Drum, or Looper engines, and you can arrange your patterns into complete songs right from the hardware. The MC‑707 also has strong mixing features, send/return loops, and plenty of audio and MIDI connectivity. It’s a studio and stage workhorse, ideal for electronic, hip‑hop, and multi‑genre performance rigs.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Best Software Synths of 2025</title>
@@ -184,27 +205,6 @@
       <description>&lt;p&gt;Whether you’re sketching out your first track, pumping out hip‑hop beats, scoring films, or mixing for a full band, 2025 offers an exciting landscape of &lt;strong&gt;music production software (DAWs)&lt;/strong&gt; with something for everyone. A &lt;em&gt;digital audio workstation&lt;/em&gt; (DAW) is where ideas become demos and demos become finished releases - so choosing one that fits your workflow is crucial. Here’s where you’ll want to start.&lt;/p&gt;
 &lt;h2 id=&#34;ableton-live-12--creative-powerhouse-for-electronic--live-artists&#34;&gt;&lt;a href=&#34;https://www.ableton.com/en/live/&#34;&gt;Ableton Live 12&lt;/a&gt; – Creative Powerhouse for Electronic &amp;amp; Live Artists&lt;/h2&gt;
 &lt;p&gt;Ableton Live has long been the darling of electronic producers, DJs, and experimental musicians thanks to its uniquely flexible workflow and loop-based Session View. In 2025, &lt;strong&gt;Live 12&lt;/strong&gt; continues to lead with fluid real-time manipulation, robust MIDI and audio tools, and deep integration with controllers and hardware - all of which make it a standout choice whether you’re performing or producing.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Top 5 Hardware Sequencers of 2025</title>
-      <link>https://jamesm.blog/music-production/top-5-sequencers-2025/</link>
-      <pubDate>Fri, 26 Dec 2025 20:52:21 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/top-5-sequencers-2025/</guid>
-      <description>&lt;p&gt;Hardware sequencers remain essential for producers who want hands-on control over patterns, rhythms, and melodies. Unlike grooveboxes, sequencers are often designed to drive external synths, modular systems, or entire hardware setups. Here’s a detailed look at the top 5 hardware sequencers in 2025, complete with images, prices, and strengths. (&lt;a href=&#34;https://reverb.com/uk/news/the-5-best-hardware-sequencers-for-your-rig?utm_source=chatgpt.com&#34;&gt;reverb.com&lt;/a&gt;)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;teenage-engineering-op-xy-1799&#34;&gt;&lt;strong&gt;Teenage Engineering OP-XY&lt;/strong&gt; (~£1,799)&lt;/h2&gt;
-&lt;p&gt;The &lt;strong&gt;OP-XY&lt;/strong&gt; is a portable sequencer with integrated synth engines and expressive pattern management. It offers parameter locks, modulation lanes, and performance-friendly workflow. Its unique combination of sequencing and sound generation makes it excellent for live improvisation and musical idea exploration.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Top 5 Grooveboxes of 2025</title>
-      <link>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</link>
-      <pubDate>Fri, 26 Dec 2025 18:47:21 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</guid>
-      <description>&lt;p&gt;Grooveboxes are island universes of music creation  -  sequencing, sampling, synthesis, and performance all in a single box. They let you sketch ideas, build full tracks, jam live, and take your studio wherever you want. In 2025, they’re more powerful and diverse than ever.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;roland-mc-707-1013&#34;&gt;&lt;strong&gt;Roland MC-707&lt;/strong&gt; (£1,013)&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&amp;width=3840&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The MC‑707 is a flagship groovebox from Roland with a &lt;strong&gt;ZEN‑Core sound engine&lt;/strong&gt; that packs thousands of presets, drum kits, effects, and routing options. Its strength lies in pattern and clip‑based sequencing, deep effects, and live remixing capabilities. Each track can be assigned Tone, Drum, or Looper engines, and you can arrange your patterns into complete songs right from the hardware. The MC‑707 also has strong mixing features, send/return loops, and plenty of audio and MIDI connectivity. It’s a studio and stage workhorse, ideal for electronic, hip‑hop, and multi‑genre performance rigs.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Music Production YouTube Channels</title>
@@ -373,7 +373,7 @@
     <item>
       <title>Music Production Websites</title>
       <link>https://jamesm.blog/music-production/websites/</link>
-      <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      <pubDate>Thu, 18 Jan 2024 18:31:21 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/websites/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://ask.video/&#34;&gt;Ask.Video&lt;/a&gt; - Ableton, Cubase, Logic Pro, Native Instruments &amp;hellip;&lt;/li&gt;

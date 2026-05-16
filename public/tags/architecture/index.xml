@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 08:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-Time Data Processing: Stream Processing vs Batch Processing</title>
+      <link>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</link>
+      <pubDate>Sun, 10 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</guid>
+      <description>A direct comparison of stream and batch processing as architectural choices, the operational and cost tradeoffs that the marketing material does not mention, and the patterns that work when you need both.</description>
+    </item>
+    <item>
+      <title>The Modern Lakehouse Stack: What Actually Belongs in Production</title>
+      <link>https://jamesm.blog/data-engineering/modern-lakehouse-stack/</link>
+      <pubDate>Fri, 08 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/modern-lakehouse-stack/</guid>
+      <description>A working data engineer&amp;#39;s view of what genuinely belongs in a 2026 lakehouse stack, the layers that have shaken out, and the parts of the marketing landscape that deserve to be ignored.</description>
+    </item>
     <item>
       <title>AI Agents That Actually Work: Patterns From Real Projects</title>
       <link>https://jamesm.blog/ai/ai-agents-that-actually-work/</link>

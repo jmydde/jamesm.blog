@@ -1,6 +1,6 @@
 ---
 title: "Voice AI in 2026: Real-Time Speech After Whisper"
-date: 2026-05-13T05:30:00+01:00
+date: 2026-05-10T05:30:00+01:00
 draft: true
 tags: ["ai", "voice", "speech", "whisper", "audio", "model"]
 description: "Voice AI has moved beyond transcription. A practical look at where real-time speech AI actually stands in 2026, the models doing the work, and which applications have made the jump from demo to production."

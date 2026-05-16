@@ -197,18 +197,115 @@
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/blockchain/polkadot-2-one-year-on.jpg" alt="Polkadot 2.0 One Year On Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/ai-native-pipelines.jpg" alt="AI-Native Pipelines Banner">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Polkadot 2.0 One Year On - Did Agile Coretime Deliver?
+    <h2 class="entry-hint-parent">AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR One year after Polkadot 2.0 shipped its three flagship pieces - Agile Coretime, Elastic Scaling, and Asynchronous Backing - the picture is mixed but mostly positive. What worked: core prices collapsed, network utilization roughly doubled, and the barrier to entry is now hundreds of dollars instead of millions. New teams are shipping that would never have run a crowdloan. What did not: the secondary market for cores is thin, bulk sales are dominated by a small set of repeat bidders, and the developer story for “buy a core and ship something” is still rougher than it should be. The honest verdict: Agile Coretime delivered on the economics. It did not deliver on the user-experience promise. Polkadot 2.0 is a better foundation than Polkadot 1.0 by every measurable metric, but the application layer is still where the network has to prove itself. Where We Were A Year Ago Last September I wrote a plain-English explainer of Agile Coretime. The pitch was simple: stop selling parachain slots like reserved parking spaces and start selling them like a parking meter. Pay for what you use, when you use it. Resell what you do not.
+    <p>TL;DR Data pipelines were optimised for human consumers - dashboards, BI tools, analysts. In 2026 a growing share of pipeline output flows directly to language models, agents, and retrieval systems. That changes the design constraints in ways that catch teams off guard. Aggregation matters less. Context fidelity matters more. Freshness behaves differently. Schema moves from rigid to negotiated. Cost shifts from compute to tokens. The biggest mistake is treating an LLM consumer as if it were just another dashboard. It is not. It does not skim, it does not interpret charts, it does not have working memory across rows. It needs to be fed. The new patterns - retrieval-aware partitioning, embedding pipelines, structured-document outputs, prompt-shaped views, evaluation harnesses for data quality - are the actual subject of “AI-native data engineering” in 2026. The Underlying Shift For thirty years the implicit consumer of every data pipeline was a human looking at a screen. Even when the pipeline ended in an API or a CSV, the conceptual end-user was someone who would interpret the output with judgement, context, and skim-reading.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-05-03 09:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Polkadot 2.0 One Year On - Did Agile Coretime Deliver?" href="https://jamesm.blog/blockchain/polkadot-2-one-year-on/"></a>
+  <footer class="entry-footer"><span title='2026-05-03 16:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard" href="https://jamesm.blog/data-engineering/ai-native-pipelines/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/iceberg-vs-delta-vs-hudi-2026.jpg" alt="Iceberg vs Delta vs Hudi 2026 Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The open table format war between Apache Iceberg, Delta Lake, and Apache Hudi is effectively over in 2026 - and the outcome is not a single winner but a clear settlement. Iceberg has won the role of the neutral standard that engines and platforms expect to read and write. It is the format you choose when you do not want to be coupled to a single vendor. Delta has won the role of the incumbent default inside the Databricks ecosystem and remains a strong choice if Databricks is your primary engine. Delta UniForm has narrowed the gap by letting Delta tables expose Iceberg metadata. Hudi has not won a category outright. It retains a smaller but loyal user base for streaming-heavy and CDC-heavy workloads, where its design choices still genuinely fit. The interesting battle has moved up the stack to the catalog layer. The format question is mostly settled. The catalog question is the new fight. The Format Wars - A Brief History For most of the early 2020s the lakehouse story was a three-way argument about how to put ACID transactions on top of object storage.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 14:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over" href="https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/blockchain/onchain-ai-agents-hype-reality.jpg" alt="Onchain AI Agents Hype Reality Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Onchain AI Agents - Hype, Reality, and Where the Money Actually Flows
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR “Onchain AI agents” became the dominant crypto narrative in 2025 and has cooled meaningfully in 2026 as the picture has gotten clearer. The honest taxonomy has three buckets: agents that hold wallets and trade, agents that automate DeFi operations, and agents that exist primarily as tokens with a chatbot attached. Only the first two are doing real work. Real revenue is concentrated in agent-driven DeFi automation, MEV strategies executed by agents, and onchain payment rails for AI services. Most of the rest is meme economics dressed in technical clothing. The structural question - “do AI agents need crypto rails at all” - has become a genuinely live debate. The answer in 2026 is “yes, but only for a narrow set of jobs, and most of those jobs are not what was being pitched.” If you are evaluating an onchain AI agent project, the test is brutally simple: strip away the token and ask whether the agent does something useful. If the answer is no, the project is a token with extra steps. How We Got Here The phrase “onchain AI agent” started showing up in crypto Twitter in late 2024 and exploded in early 2025. By the middle of last year there were thousands of agent tokens, dozens of agent platforms, and a handful of agents with billion-dollar implied market caps doing things that would have embarrassed a 2010-era chatbot.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 13:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Onchain AI Agents - Hype, Reality, and Where the Money Actually Flows" href="https://jamesm.blog/blockchain/onchain-ai-agents-hype-reality/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/agent-protocols-mcp-a2a-acp.jpg" alt="Agent Protocols MCP A2A ACP Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Quiet Standardisation of Agent Protocols - MCP, A2A, ACP Compared
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The 2026 agent ecosystem has, while nobody was paying close attention, converged on three protocols that solve different problems and partly overlap: MCP (Model Context Protocol), A2A (Agent-to-Agent), and ACP (Agent Communication Protocol). MCP is the model-to-tool protocol. It standardises how an agent talks to its tools, data sources, and local context. This is the one that has clearly won its layer. A2A is the agent-to-agent protocol. It standardises how separately deployed agents discover each other, exchange tasks, and pass results. Adoption is growing but the picture is less settled. ACP is the orchestration-and-runtime protocol. It standardises how an agent runtime exposes its lifecycle, state, and operations to the systems around it. Newer, more enterprise-focused, and not yet a clear winner. The mental model: MCP for tools, A2A for peers, ACP for the platform. Build with all three in mind even if you only need one today. Why Protocols, Why Now A year ago “agents” was still a debate about whether the things existed. By mid-2026 the debate has shifted. Agents exist. They do useful work. The interesting question is no longer “will this work” but “how do we connect them to everything else.”
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 12:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Quiet Standardisation of Agent Protocols - MCP, A2A, ACP Compared" href="https://jamesm.blog/ai/agent-protocols-mcp-a2a-acp/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/kubernetes-2026-complexity-tax.jpg" alt="Kubernetes in 2026 Complexity Tax Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Kubernetes in 2026 - Is It Still Worth the Complexity Tax?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Kubernetes won the orchestration argument years ago. The question is no longer “should we use Kubernetes.” It is “should this particular team, with this particular workload, with this particular budget, pay the operational tax.” For genuinely large, multi-tenant, multi-region platforms with dedicated infrastructure teams, the answer is still mostly yes. The ecosystem maturity is unmatched and the alternatives lose at scale. For mid-sized engineering organisations, the answer in 2026 is probably not, and increasingly not. Managed serverless, container platforms like Fly and Railway, and the new generation of platform-as-a-service offerings are competitive in ways they were not three years ago. For startups and small teams, the answer is almost always no, and stop pretending otherwise. The honest read in 2026: Kubernetes is the right answer to fewer questions than it used to be, and being honest about that is now a competitive advantage rather than a heresy. How We Got Here Kubernetes was the right idea at the right time. By the late 2010s, every serious engineering team needed an answer to “how do we run containers in production.” Kubernetes provided one, it was open, it was backed by a credible foundation, and the cloud providers all blessed it. Within five years it was the default. Within ten years it was the assumption.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 11:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Kubernetes in 2026 - Is It Still Worth the Complexity Tax?" href="https://jamesm.blog/devops/kubernetes-2026-complexity-tax/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/space/artemis-iii-lander-architecture.jpg" alt="Artemis III Lander Architecture Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Artemis III Lander Architecture - What Could Still Go Wrong
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Artemis III is supposed to land two astronauts near the lunar south pole using a stripped-down SpaceX Starship as the Human Landing System (HLS). The architecture is genuinely audacious - it requires a new super-heavy rocket to fly several times before the crewed mission, on-orbit cryogenic propellant transfer at a scale that has never been demonstrated, and a lunar surface stay enabled by a vehicle three times taller than the Saturn V’s lunar module. The technical risk is concentrated in propellant transfer, boil-off management, engine relight reliability, and crew ingress/egress from a 50-metre tower on a sloped, unprepared surface. The schedule risk is concentrated in everything that has to happen before the crewed flight - and most of it has not happened yet. The mission can succeed. The honest read in mid-2026 is that it will succeed late, and the more interesting question is which of these subsystems is actually the long pole. How Artemis III Is Supposed To Work Artemis III’s architecture is not Apollo. Apollo carried everything it needed in one stack on a Saturn V. Artemis III spreads the mission across multiple launches, multiple vehicles, and two distinct propulsion systems, with a crew transfer in lunar orbit.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 10:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Artemis III Lander Architecture - What Could Still Go Wrong" href="https://jamesm.blog/space/artemis-iii-lander-architecture/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/physical-modeling-synths.jpg" alt="Physical Modeling Synthesis">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Physical Modeling Synthesis: The Underrated Future of Sound Design
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>If you’ve spent any time with Pianoteq or the Audio Modeling SWAM instruments, you’ve felt something different. Not the crisp accuracy of a sampled library, not the flexibility of wavetable synthesis - but something that responds like an instrument. Strings that vibrate with sympathetic resonance. Piano keys with wooden resistance. A cello that sings differently when you bow it hard versus soft.
+This is physical modeling: mathematics as an instrument, not just a sampler or synth engine.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-03 09:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Physical Modeling Synthesis: The Underrated Future of Sound Design" href="https://jamesm.blog/music-production/physical-modeling-synths/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -258,106 +355,6 @@ TL;DR The AI-token sector has stratified. There is a clear top tier of projects 
   </div>
   <footer class="entry-footer"><span title='2026-05-02 21:03:00 +0100 BST'>May 2, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled" href="https://jamesm.blog/ai/roman-yampolskiy/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/space/human-spaceflight-rockets-2026.jpg" alt="Human Spaceflight Rockets 2026 Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Human Spaceflight Rockets in 2026: A New Era Takes Off
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>A few weeks ago, four astronauts came home from the Moon for the first time since 1972. Artemis II splashed down on April 11, 2026, after a nine-day flight that took its crew further from Earth than any human has ever travelled - 252,756 miles, a new record set by Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen.
-It is the clearest signal yet that human spaceflight has stopped being a thing of the past and started being a thing of the near future again. But the headline mission is only one piece of a much larger picture. The decade we are living in is shaping up to be the most consequential one for crewed space travel since Apollo - and unlike the 1960s, this time it is not a single government driving it.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-02 10:00:00 +0100 BST'>May 2, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Human Spaceflight Rockets in 2026: A New Era Takes Off" href="https://jamesm.blog/space/human-spaceflight-rockets-2026/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/humanoid-robotics-2026.jpg" alt="Humanoid Robotics in 2026">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Humanoid Robotics in 2026: From Prototypes to Production
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR 2026 is the inflection point for humanoid robotics - real customers like BMW, GXO, and Mercedes-Benz are paying for deployments, not just watching demos Hardware is no longer the bottleneck; the constraints have shifted to physical training data, unstructured-task autonomy, and production supply chains The economics work today for two-to-three shift warehouse operations via Robots-as-a-Service contracts at roughly USD 30-50K per year Production volumes still lag announcements by 3-5x - Unitree is likely the 2026 volume leader, not Tesla or Figure The form factor wins where environments are human-shaped and mixed-use; wheeled robots remain cheaper in purpose-built facilities For most of the last decade, humanoid robotics looked like a category that would always be three years away. Demos were impressive, factory floors stayed empty, and serious analysts pointed to bipedal locomotion, dexterous manipulation, and the price of high torque-density actuators as reasons the form factor would lose to wheeled and fixed-arm systems for any real industrial work.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-02 09:00:00 +0100 BST'>May 2, 2026</span>&nbsp;·&nbsp;<span>18 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Humanoid Robotics in 2026: From Prototypes to Production" href="https://jamesm.blog/ai/humanoid-robotics-2026/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/physical-modeling-synths.jpg" alt="Physical Modeling Synthesis">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Physical Modeling Synthesis: The Underrated Future of Sound Design
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>If you’ve spent any time with Pianoteq or the Audio Modeling SWAM instruments, you’ve felt something different. Not the crisp accuracy of a sampled library, not the flexibility of wavetable synthesis - but something that responds like an instrument. Strings that vibrate with sympathetic resonance. Piano keys with wooden resistance. A cello that sings differently when you bow it hard versus soft.
-This is physical modeling: mathematics as an instrument, not just a sampler or synth engine.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-02 09:00:00 +0100 BST'>May 2, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Physical Modeling Synthesis: The Underrated Future of Sound Design" href="https://jamesm.blog/music-production/physical-modeling-synths/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/mpe-deep-dive.jpg" alt="MPE Deep Dive Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">MPE Deep Dive: Why Expressive MIDI Changes Everything
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>If you have spent any time around electronic music in the last decade, you have probably seen the letters MPE written on the side of a controller and not thought too much about them. The acronym sounds like a feature bullet. It is not. It is a quiet but fundamental reframing of what an electronic instrument can do, and once you have spent serious time playing one, going back to a fixed-velocity keyboard feels like trading a touch screen for a number pad.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-02 08:00:00 +0100 BST'>May 2, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to MPE Deep Dive: Why Expressive MIDI Changes Everything" href="https://jamesm.blog/music-production/mpe-deep-dive/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/hardware-sequencers-2026.jpg" alt="Hardware Sequencers in 2026">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hardware Sequencers in 2026: When Physical Beats Software
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>By mid-2026, the “in-the-box” vs “out-of-the-box” debate has fundamentally shifted. We no longer argue about analog warmth or filter aliasing - neural synthesis has made those distinctions almost invisible to the ear. The new battleground is cognitive load, and that is where dedicated hardware sequencers are quietly winning ground back.
-As I argued in The Automation Paradox, once AI can generate a passable 16-bar loop in seconds, the human’s job shifts to curation and intent. A hardware sequencer is the most direct tool we have for enforcing that intent.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-02 07:50:00 +0100 BST'>May 2, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Hardware Sequencers in 2026: When Physical Beats Software" href="https://jamesm.blog/music-production/hardware-sequencers-2026/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/mobile-apps-ipad-iphone.jpg" alt="Mobile music production apps for iPad and iPhone">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Music Production: Mobile Apps for iPad and iPhone
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>About iOS has quietly become one of the most interesting platforms for music making. The combination of multi-touch, low-latency audio, AUv3 plug-in hosting, and instant-on hardware means an iPad can sit somewhere between a notebook for ideas and a fully credible studio instrument.
-The list below is what I keep installed and reach for - synths I actually open, grooveboxes that have made it into finished tracks, and a couple of learning tools that are genuinely useful. Apps are grouped by developer so you can find related instruments quickly. Where an app is iPhone-only or particularly suited to one device, I’ve called that out.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-01 20:41:00 +0000 +0000'>May 1, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Music Production: Mobile Apps for iPad and iPhone" href="https://jamesm.blog/music-production/mobile-apps-ipad-iphone/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

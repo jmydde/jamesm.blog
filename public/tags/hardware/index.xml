@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 May 2026 08:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 13:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cerebras, Groq, SambaNova: The Inference Hardware Insurgents</title>
+      <link>https://jamesm.blog/ai/inference-hardware-insurgents/</link>
+      <pubDate>Mon, 11 May 2026 13:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/inference-hardware-insurgents/</guid>
+      <description>A grounded look at the three serious AI inference hardware insurgents in 2026 - Cerebras with its wafer-scale WSE-3, Groq with its LPU architecture now part-licensed by Nvidia, and SambaNova with its SN40L and SN50 reconfigurable dataflow units - and what their different bets tell us about where inference is heading.</description>
+    </item>
     <item>
       <title>Hybrid Systems: Montage &#43; MC-707 Architecture and Workflow</title>
       <link>https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/</link>

@@ -1,6 +1,6 @@
 ---
 title: "The SRE Skillset in 2026: What Actually Matters Now"
-date: 2026-05-12T13:30:00+01:00
+date: 2026-05-10T13:30:00+01:00
 draft: true
 tags: ["devops", "sre", "reliability", "observability", "agent"]
 description: "Site Reliability Engineering has not disappeared in the AI era - it has changed shape. A look at which classic SRE skills still pay off in 2026, which have faded, and the new ones that have moved to the centre of the job."

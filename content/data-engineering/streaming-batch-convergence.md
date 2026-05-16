@@ -1,6 +1,6 @@
 ---
 title: "Streaming Meets Batch: The Convergence That Took a Decade"
-date: 2026-05-13T08:30:00+01:00
+date: 2026-05-10T08:30:00+01:00
 draft: true
 tags: ["data", "streaming", "batch", "flink", "kafka", "iceberg"]
 description: "For a decade the data engineering field has been promising that streaming and batch processing would converge into a single paradigm. In 2026 that convergence is genuinely happening, just not in the way the original proponents expected. A practical look at what actually changed."

@@ -1,6 +1,6 @@
 ---
 title: "Token Economics: Why the Cost of AI Isn't Going Down"
-date: 2026-04-09T06:40:00+01:00
+date: 2026-04-13T06:40:00+01:00
 draft: false
 tags: ['ai', 'economics', 'infrastructure']
 description: "Despite massive scale and competition, LLM pricing hasn't meaningfully declined. Here's why the fundamentals don't support cheaper AI."

@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 08:02:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 08:02:00 +0000</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI as Analogy Engine: Synthesis, Invention, and the Combinatorial Frontier</title>
       <link>https://jamesm.blog/ai/ai-as-analogy-engine/</link>
-      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/ai-as-analogy-engine/</guid>
       <description>The deepest misunderstanding about modern AI is that it merely retrieves memorised text. The more interesting truth is that large models form analogies, combine concepts, and explore conceptual relationships at a scale that may eventually industrialise parts of the invention process itself.</description>
     </item>
@@ -35,11 +35,67 @@
       <description>AlphaFold was the headline AI-for-science story. In 2026 the story has broadened into something more interesting - AI tools in routine use across many scientific fields, with uneven but real impact. A practical look at where the gains actually are.</description>
     </item>
     <item>
+      <title>The Causal Inference Comeback: Why Correlation-Era ML Hit a Wall</title>
+      <link>https://jamesm.blog/data-science/causal-inference-comeback/</link>
+      <pubDate>Tue, 12 May 2026 17:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-science/causal-inference-comeback/</guid>
+      <description>Causal inference - the methodological tradition that asks &amp;#39;why&amp;#39; rather than &amp;#39;what&amp;#39; - is having a quiet renaissance in 2026 as the limits of correlation-based machine learning have become harder to ignore. A look at what has changed, what the practical methods are, and why this matters for anyone using data to make decisions.</description>
+    </item>
+    <item>
+      <title>The AI Energy Crisis: Why Data Center Power Will Define the Next Decade</title>
+      <link>https://jamesm.blog/ai/ai-energy-crisis-data-center-power/</link>
+      <pubDate>Mon, 11 May 2026 17:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-energy-crisis-data-center-power/</guid>
+      <description>A grounded look at the energy constraint becoming the binding limit on AI deployment in 2026 - the power demand, the transformer backlogs, the grid interconnect queues, the rising consumer electricity prices, and what it means for the shape of the next decade of compute.</description>
+    </item>
+    <item>
+      <title>Cerebras, Groq, SambaNova: The Inference Hardware Insurgents</title>
+      <link>https://jamesm.blog/ai/inference-hardware-insurgents/</link>
+      <pubDate>Mon, 11 May 2026 13:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/inference-hardware-insurgents/</guid>
+      <description>A grounded look at the three serious AI inference hardware insurgents in 2026 - Cerebras with its wafer-scale WSE-3, Groq with its LPU architecture now part-licensed by Nvidia, and SambaNova with its SN40L and SN50 reconfigurable dataflow units - and what their different bets tell us about where inference is heading.</description>
+    </item>
+    <item>
+      <title>The Open Weight Models Renaissance: Llama, Mistral, Qwen, DeepSeek</title>
+      <link>https://jamesm.blog/ai/open-weight-models-renaissance/</link>
+      <pubDate>Sun, 10 May 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/open-weight-models-renaissance/</guid>
+      <description>Open-weight models are no longer the cheap alternative - in 2026 they are credible defaults for many workloads. A walk through where Llama, Mistral, Qwen, and DeepSeek actually sit relative to closed frontier models, and what changed in the last 18 months.</description>
+    </item>
+    <item>
+      <title>Real-Time Data Processing: Stream Processing vs Batch Processing</title>
+      <link>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</link>
+      <pubDate>Sun, 10 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</guid>
+      <description>A direct comparison of stream and batch processing as architectural choices, the operational and cost tradeoffs that the marketing material does not mention, and the patterns that work when you need both.</description>
+    </item>
+    <item>
+      <title>Multimodal AI in 2026: Vision &#43; Text &#43; Audio - What&#39;s Actually Useful</title>
+      <link>https://jamesm.blog/ai/multimodal-ai-2026/</link>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/multimodal-ai-2026/</guid>
+      <description>Where multimodal AI has actually delivered value in 2026, where it is still demoware, and the patterns that determine whether vision and audio are quietly indispensable in your stack or just an expensive distraction.</description>
+    </item>
+    <item>
+      <title>Prompt Caching: The Quiet Performance Win for LLM Applications</title>
+      <link>https://jamesm.blog/ai/prompt-caching/</link>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/prompt-caching/</guid>
+      <description>What prompt caching actually is, why it is the highest-leverage performance and cost optimisation available to most LLM applications, and the patterns that determine whether you get a 90 percent cost reduction or no benefit at all.</description>
+    </item>
+    <item>
       <title>Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift</title>
       <link>https://jamesm.blog/ai/reasoning-models-2026/</link>
-      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <pubDate>Fri, 08 May 2026 19:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/reasoning-models-2026/</guid>
       <description>A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.</description>
+    </item>
+    <item>
+      <title>The Modern Lakehouse Stack: What Actually Belongs in Production</title>
+      <link>https://jamesm.blog/data-engineering/modern-lakehouse-stack/</link>
+      <pubDate>Fri, 08 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/modern-lakehouse-stack/</guid>
+      <description>A working data engineer&amp;#39;s view of what genuinely belongs in a 2026 lakehouse stack, the layers that have shaken out, and the parts of the marketing landscape that deserve to be ignored.</description>
     </item>
     <item>
       <title>Scott Galloway on AI: The Marketing Professor&#39;s Case That the Rich Don&#39;t Need You Anymore</title>
@@ -54,6 +110,13 @@
       <pubDate>Mon, 04 May 2026 08:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/hybrid-systems-montage-mc-707/</guid>
       <description>How a Yamaha Montage M and a Roland MC-707 stop being two boxes that fight each other and start being one instrument with two heads, plus the wiring, the routing, and the parts of the workflow that earn their keep.</description>
+    </item>
+    <item>
+      <title>The Yamaha Montage M: 6 Months In Real World Usage</title>
+      <link>https://jamesm.blog/music-production/yamaha-montage-m-six-months/</link>
+      <pubDate>Mon, 04 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/yamaha-montage-m-six-months/</guid>
+      <description>What the Yamaha Montage M is actually like to live with after six months of daily use, the parts that have aged well, the parts that have not, and the workflow conclusions that only come from time on the keys.</description>
     </item>
     <item>
       <title>ETL Tools &amp; Data Integration Platforms</title>
@@ -77,25 +140,11 @@
       <description>How Christopher Nolan and Nobel laureate Kip Thorne built a Hollywood film around real general relativity - wormholes, Gargantua, gravitational time dilation, the Tesseract, and the trade-offs between scientific accuracy and storytelling.</description>
     </item>
     <item>
-      <title>Space Debris Is a Tragedy of the Commons - Here&#39;s the Math</title>
-      <link>https://jamesm.blog/space/space-debris-tragedy-of-the-commons/</link>
-      <pubDate>Sun, 03 May 2026 20:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/space/space-debris-tragedy-of-the-commons/</guid>
-      <description>Low Earth orbit is filling up. The economics of space debris look exactly like a textbook tragedy of the commons - private benefits, shared costs, no pricing mechanism. A grounded look at the numbers behind Kessler syndrome and what would actually fix it.</description>
-    </item>
-    <item>
       <title>China&#39;s Space Programme in 2026 - Tiangong, Chang&#39;e, Lunar Plans</title>
       <link>https://jamesm.blog/space/china-space-programme-2026/</link>
       <pubDate>Sun, 03 May 2026 19:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/space/china-space-programme-2026/</guid>
       <description>While Western space coverage focused on Starship and Artemis, China quietly executed one of the most consistent national space programmes in history. A grounded look at where Tiangong, the Chang&amp;#39;e lunar series, and the broader Chinese space architecture stand in 2026.</description>
-    </item>
-    <item>
-      <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
-      <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
-      <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
-      <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
     </item>
     <item>
       <title>The eBPF Revolution - What Every Platform Engineer Should Know</title>
@@ -110,13 +159,6 @@
       <pubDate>Sun, 03 May 2026 16:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/ai-native-pipelines/</guid>
       <description>Most data pipelines were designed to feed dashboards and analysts. In 2026 a growing share of pipeline output is being consumed by language models, agents, and other non-human readers. The shape of the pipeline changes more than people realise when the consumer is no longer a human.</description>
-    </item>
-    <item>
-      <title>The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie</title>
-      <link>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</link>
-      <pubDate>Sun, 03 May 2026 15:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</guid>
-      <description>The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run.</description>
     </item>
     <item>
       <title>Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over</title>
@@ -154,11 +196,11 @@
       <description>Artemis III is the mission that lands humans on the Moon for the first time in over five decades. The architecture is bold, dependent, and unlike anything Apollo attempted. Here is an honest look at the lander stack and where the risk actually lives.</description>
     </item>
     <item>
-      <title>Polkadot 2.0 One Year On - Did Agile Coretime Deliver?</title>
-      <link>https://jamesm.blog/blockchain/polkadot-2-one-year-on/</link>
+      <title>Physical Modeling Synthesis: The Underrated Future of Sound Design</title>
+      <link>https://jamesm.blog/music-production/physical-modeling-synths/</link>
       <pubDate>Sun, 03 May 2026 09:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/blockchain/polkadot-2-one-year-on/</guid>
-      <description>A year after Polkadot 2.0 went live, the data is in. Did Agile Coretime, Elastic Scaling, and Asynchronous Backing actually move the needle? An honest scorecard on utilization, builder economics, and what still has not landed.</description>
+      <guid>https://jamesm.blog/music-production/physical-modeling-synths/</guid>
+      <description>Why physical modeling - not sampling or wavetables - is the next frontier in expressive digital instruments</description>
     </item>
     <item>
       <title>Five AI Tokens Worth Understanding in 2026 (And One You&#39;re Probably Missing)</title>
@@ -182,6 +224,27 @@
       <description>A grounded look at Roman Yampolskiy - the computer scientist who coined the term AI safety, why he argues superintelligence is fundamentally uncontrollable, and how seriously to take him.</description>
     </item>
     <item>
+      <title>Space Debris Is a Tragedy of the Commons - Here&#39;s the Math</title>
+      <link>https://jamesm.blog/space/space-debris-tragedy-of-the-commons/</link>
+      <pubDate>Sat, 02 May 2026 20:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/space-debris-tragedy-of-the-commons/</guid>
+      <description>Low Earth orbit is filling up. The economics of space debris look exactly like a textbook tragedy of the commons - private benefits, shared costs, no pricing mechanism. A grounded look at the numbers behind Kessler syndrome and what would actually fix it.</description>
+    </item>
+    <item>
+      <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
+      <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
+      <pubDate>Sat, 02 May 2026 18:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
+      <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
+    </item>
+    <item>
+      <title>The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie</title>
+      <link>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</link>
+      <pubDate>Sat, 02 May 2026 15:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</guid>
+      <description>The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run.</description>
+    </item>
+    <item>
       <title>Human Spaceflight Rockets in 2026: A New Era Takes Off</title>
       <link>https://jamesm.blog/space/human-spaceflight-rockets-2026/</link>
       <pubDate>Sat, 02 May 2026 10:00:00 +0100</pubDate>
@@ -196,11 +259,11 @@
       <description>After a decade of prototypes, humanoid robots are crossing into early production in 2026. A technical look at the leading platforms, the economics, the actuator breakthroughs, and what is still hype.</description>
     </item>
     <item>
-      <title>Physical Modeling Synthesis: The Underrated Future of Sound Design</title>
-      <link>https://jamesm.blog/music-production/physical-modeling-synths/</link>
+      <title>Polkadot 2.0 One Year On - Did Agile Coretime Deliver?</title>
+      <link>https://jamesm.blog/blockchain/polkadot-2-one-year-on/</link>
       <pubDate>Sat, 02 May 2026 09:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/physical-modeling-synths/</guid>
-      <description>Why physical modeling - not sampling or wavetables - is the next frontier in expressive digital instruments</description>
+      <guid>https://jamesm.blog/blockchain/polkadot-2-one-year-on/</guid>
+      <description>A year after Polkadot 2.0 went live, the data is in. Did Agile Coretime, Elastic Scaling, and Asynchronous Backing actually move the needle? An honest scorecard on utilization, builder economics, and what still has not landed.</description>
     </item>
     <item>
       <title>MPE Deep Dive: Why Expressive MIDI Changes Everything</title>
@@ -231,13 +294,6 @@
       <description>A practical guide to the MPE controllers worth knowing about in 2026 - what each one is good at, who it suits, and how to choose between keyboards, grids, fabric surfaces, and pads.</description>
     </item>
     <item>
-      <title>Suno in May 2026: where the platform actually is</title>
-      <link>https://jamesm.blog/music-production/suno-may-2026/</link>
-      <pubDate>Fri, 01 May 2026 19:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/suno-may-2026/</guid>
-      <description>A clear-eyed look at Suno as of May 2026 - the v5.5 model, Voices, Custom Models, My Taste, and the platform changes flowing from the Warner Music deal.</description>
-    </item>
-    <item>
       <title>AI Agents That Actually Work: Patterns From Real Projects</title>
       <link>https://jamesm.blog/ai/ai-agents-that-actually-work/</link>
       <pubDate>Fri, 01 May 2026 08:00:00 +0100</pubDate>
@@ -266,13 +322,6 @@
       <description>Anthropic just shipped an official Ableton Knowledge connector for Claude. Here is what it actually does, how it differs from the community AbletonMCP project, and why it changes how you learn Live and Push.</description>
     </item>
     <item>
-      <title>A Year of Agents, and What is Coming Next</title>
-      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
-      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
-      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
-    </item>
-    <item>
       <title>AI Safety From First Principles: What Actually Matters vs What&#39;s Hype</title>
       <link>https://jamesm.blog/ai/ai-safety-first-principles/</link>
       <pubDate>Thu, 30 Apr 2026 08:00:00 +0100</pubDate>
@@ -285,6 +334,13 @@
       <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</guid>
       <description>What Claude Code skills actually are under the hood, why the SKILL.md format is model-agnostic, and how the same folder can drive Claude, Gemini, Codex, and a dozen other agents without changes.</description>
+    </item>
+    <item>
+      <title>Suno in May 2026: where the platform actually is</title>
+      <link>https://jamesm.blog/music-production/suno-may-2026/</link>
+      <pubDate>Wed, 29 Apr 2026 19:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/suno-may-2026/</guid>
+      <description>A clear-eyed look at Suno as of May 2026 - the v5.5 model, Voices, Custom Models, My Taste, and the platform changes flowing from the Warner Music deal.</description>
     </item>
     <item>
       <title>My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision</title>
@@ -308,13 +364,6 @@
       <description>The single most important economic fact about AI is that the marginal cost of intelligence is collapsing toward zero. Most of our institutions, careers, and pricing models were built for the regime where it was scarce. This is what breaks when thinking goes from expensive to nearly free, and what that future actually rewards.</description>
     </item>
     <item>
-      <title>The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?</title>
-      <link>https://jamesm.blog/ai/junior-developer-pipeline-problem/</link>
-      <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/junior-developer-pipeline-problem/</guid>
-      <description>Most of the AI-and-developers conversation assumes a steady supply of senior engineers who can curate, review, and judge. But the work that used to produce those seniors is the work AI now does. Where does the next generation come from?</description>
-    </item>
-    <item>
       <title>The Quiet Discipline of Self-Honesty</title>
       <link>https://jamesm.blog/personal-development/the-quiet-discipline-of-self-honesty/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
@@ -329,6 +378,55 @@
       <description>What hallucinations actually are, why the word is a slightly misleading import from psychiatry, why no model will ever stop producing them entirely, and the small set of techniques that genuinely move the dial on false outputs in production.</description>
     </item>
     <item>
+      <title>How to Phone Your Home AI Agent Running on a Mac Studio</title>
+      <link>https://jamesm.blog/ai/phone-your-home-ai-agent/</link>
+      <pubDate>Mon, 27 Apr 2026 21:48:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/phone-your-home-ai-agent/</guid>
+      <description>A practical walkthrough of the stack I use to literally phone my Mac Studio, speak to a local AI agent, and get it to run or check work while I&amp;#39;m away from the desk.</description>
+    </item>
+    <item>
+      <title>Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio</title>
+      <link>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</link>
+      <pubDate>Mon, 27 Apr 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</guid>
+      <description>The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac Studio to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability.</description>
+    </item>
+    <item>
+      <title>The Year 3026: Thinking Seriously About a Thousand Years From Now</title>
+      <link>https://jamesm.blog/ai/the-year-3026/</link>
+      <pubDate>Sun, 26 Apr 2026 22:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/the-year-3026/</guid>
+      <description>A thousand years is long enough that nothing we currently call a company, a currency, or a country is likely to survive. What does thinking seriously about 3026 actually look like - and what, if anything, holds its value across that horizon?</description>
+    </item>
+    <item>
+      <title>The Year 2126: What the Next Hundred Years Actually Looks Like</title>
+      <link>https://jamesm.blog/ai/the-year-2126/</link>
+      <pubDate>Sun, 26 Apr 2026 21:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/the-year-2126/</guid>
+      <description>A hundred years is close enough to reason about concretely and far enough that most of what feels fixed today will be gone. What does 2126 honestly look like - and which of today&amp;#39;s problems have we solved by then, which have we inherited, and which are entirely new?</description>
+    </item>
+    <item>
+      <title>Reading the Signals: Which of the Four Futures Is Actually Emerging?</title>
+      <link>https://jamesm.blog/ai/reading-the-signals-four-futures/</link>
+      <pubDate>Sat, 25 Apr 2026 20:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/reading-the-signals-four-futures/</guid>
+      <description>A follow-up to the four futures framework - scoring the real-world signals firing right now against broad abundance, winner-take-most, techno-feudalism, and managed transition.</description>
+    </item>
+    <item>
+      <title>The Next Decade of AI: What Actually Happens From Here</title>
+      <link>https://jamesm.blog/ai/the-next-decade-of-ai/</link>
+      <pubDate>Sat, 25 Apr 2026 07:55:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/the-next-decade-of-ai/</guid>
+      <description>Most predictions about the future of AI are either utopian or apocalyptic. The real trajectory is stranger and more interesting than both - and it&amp;#39;s already visible if you look at what&amp;#39;s quietly working right now.</description>
+    </item>
+    <item>
+      <title>Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale</title>
+      <link>https://jamesm.blog/ai/grok-voice-apis/</link>
+      <pubDate>Fri, 24 Apr 2026 21:07:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/grok-voice-apis/</guid>
+      <description>xAI launches standalone Speech-to-Text and Text-to-Speech APIs, bringing production-grade voice capabilities to developers at competitive pricing.</description>
+    </item>
+    <item>
       <title>GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?</title>
       <link>https://jamesm.blog/ai/gpt-5-5-release/</link>
       <pubDate>Fri, 24 Apr 2026 07:51:00 +0100</pubDate>
@@ -336,32 +434,11 @@
       <description>OpenAI shipped GPT-5.5 on April 23, 2026 - the first fully retrained base model since GPT-4.5. A look at the benchmarks, the new features, and whether this release actually matters.</description>
     </item>
     <item>
-      <title>The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting</title>
-      <link>https://jamesm.blog/ai/meaning-of-work-age-of-abundance/</link>
-      <pubDate>Thu, 23 Apr 2026 23:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/meaning-of-work-age-of-abundance/</guid>
-      <description>If agents end up doing the execution, what are we for? Some thinking out loud about purpose, identity, and what a working life might look like when the labour layer is automated.</description>
-    </item>
-    <item>
       <title>Agent-First Architecture: The Engineer as System Curator</title>
       <link>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</link>
       <pubDate>Thu, 23 Apr 2026 21:01:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/</guid>
       <description>Some thoughts on where agent-first architecture might take us, and what engineering could look like if the job shifts from building systems line by line to curating, governing, and evolving fleets of agents.</description>
-    </item>
-    <item>
-      <title>Is the $20 AI Subscription Era Over?</title>
-      <link>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</link>
-      <pubDate>Thu, 23 Apr 2026 08:45:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</guid>
-      <description>Every major AI provider is quietly repositioning the $20/month tier. Here&amp;#39;s what&amp;#39;s happening at Anthropic, OpenAI, Google, Microsoft, xAI, and what monthly prices are likely to look like by the end of 2026.</description>
-    </item>
-    <item>
-      <title>Meta Is Tracking Its Own Employees to Train AI Agents</title>
-      <link>https://jamesm.blog/ai/meta-employee-tracking/</link>
-      <pubDate>Thu, 23 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/meta-employee-tracking/</guid>
-      <description>Meta&amp;#39;s Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out.</description>
     </item>
     <item>
       <title>ChatGPT Images 2.0: Why Everyone Is Impressed</title>
@@ -413,13 +490,6 @@
       <description>An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite.</description>
     </item>
     <item>
-      <title>SpaceX Buys the Right to Buy Cursor for $60 Billion</title>
-      <link>https://jamesm.blog/ai/spacex-cursor-60-billion-option/</link>
-      <pubDate>Wed, 22 Apr 2026 19:16:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/spacex-cursor-60-billion-option/</guid>
-      <description>SpaceX has taken an option to acquire Cursor for $60 billion later this year, or pay $10 billion for a joint build. A look at the deal structure, what it tells us about xAI&amp;#39;s coding ambitions, and why Anysphere is suddenly the most sought-after company in developer tools.</description>
-    </item>
-    <item>
       <title>Learning How to Learn in the Age of AI</title>
       <link>https://jamesm.blog/personal-development/learning-how-to-learn-in-the-age-of-ai/</link>
       <pubDate>Wed, 22 Apr 2026 09:00:00 +0100</pubDate>
@@ -434,20 +504,6 @@
       <description>A technical deep dive into Apache Iceberg in 2026 - how the metadata layer works, catalog choices (Polaris, Nessie, Unity), migration patterns, and why both Snowflake and Databricks now treat it as first-class.</description>
     </item>
     <item>
-      <title>Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio</title>
-      <link>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</link>
-      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</guid>
-      <description>The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac Studio to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability.</description>
-    </item>
-    <item>
-      <title>How to Phone Your Home AI Agent Running on a Mac Studio</title>
-      <link>https://jamesm.blog/ai/phone-your-home-ai-agent/</link>
-      <pubDate>Tue, 21 Apr 2026 21:48:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/phone-your-home-ai-agent/</guid>
-      <description>A practical walkthrough of the stack I use to literally phone my Mac Studio, speak to a local AI agent, and get it to run or check work while I&amp;#39;m away from the desk.</description>
-    </item>
-    <item>
       <title>An AI Tooling Learning Path: Logical Phases for 2026</title>
       <link>https://jamesm.blog/ai/ai-tooling-learning-path/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
@@ -460,27 +516,6 @@
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/</guid>
       <description>Amazon announces up to $25 billion additional investment in Anthropic, with Anthropic committing over $100 billion to AWS over the next decade.</description>
-    </item>
-    <item>
-      <title>The Year 3026: Thinking Seriously About a Thousand Years From Now</title>
-      <link>https://jamesm.blog/ai/the-year-3026/</link>
-      <pubDate>Mon, 20 Apr 2026 22:03:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/the-year-3026/</guid>
-      <description>A thousand years is long enough that nothing we currently call a company, a currency, or a country is likely to survive. What does thinking seriously about 3026 actually look like - and what, if anything, holds its value across that horizon?</description>
-    </item>
-    <item>
-      <title>The Year 2126: What the Next Hundred Years Actually Looks Like</title>
-      <link>https://jamesm.blog/ai/the-year-2126/</link>
-      <pubDate>Mon, 20 Apr 2026 21:02:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/the-year-2126/</guid>
-      <description>A hundred years is close enough to reason about concretely and far enough that most of what feels fixed today will be gone. What does 2126 honestly look like - and which of today&amp;#39;s problems have we solved by then, which have we inherited, and which are entirely new?</description>
-    </item>
-    <item>
-      <title>Reading the Signals: Which of the Four Futures Is Actually Emerging?</title>
-      <link>https://jamesm.blog/ai/reading-the-signals-four-futures/</link>
-      <pubDate>Mon, 20 Apr 2026 20:45:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/reading-the-signals-four-futures/</guid>
-      <description>A follow-up to the four futures framework - scoring the real-world signals firing right now against broad abundance, winner-take-most, techno-feudalism, and managed transition.</description>
     </item>
     <item>
       <title>Hermes Agent: Persistent Autonomy That Learns and Grows</title>
@@ -511,32 +546,11 @@
       <description>Why human advancement is accelerating exponentially - from steam engines to AGI in three centuries</description>
     </item>
     <item>
-      <title>Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale</title>
-      <link>https://jamesm.blog/ai/grok-voice-apis/</link>
-      <pubDate>Sun, 19 Apr 2026 21:07:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/grok-voice-apis/</guid>
-      <description>xAI launches standalone Speech-to-Text and Text-to-Speech APIs, bringing production-grade voice capabilities to developers at competitive pricing.</description>
-    </item>
-    <item>
       <title>Why Spacecraft Don&#39;t Just Slow Down Before Reentry</title>
       <link>https://jamesm.blog/space/why-spacecraft-dont-slow-down-before-reentry/</link>
       <pubDate>Sun, 19 Apr 2026 19:54:00 +0100</pubDate>
       <guid>https://jamesm.blog/space/why-spacecraft-dont-slow-down-before-reentry/</guid>
       <description>Returning from the Moon, spacecraft slam into the atmosphere at 25,000 mph. Why not slow down first? The answer comes down to energy, mass, and the brutal mathematics of rocket fuel.</description>
-    </item>
-    <item>
-      <title>Four Futures for the Machine-Speed Economy</title>
-      <link>https://jamesm.blog/ai/four-futures-machine-speed-economy/</link>
-      <pubDate>Sun, 19 Apr 2026 19:26:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/four-futures-machine-speed-economy/</guid>
-      <description>A map of four plausible futures - broad abundance, winner-take-most, techno-feudalism, and a managed transition - with the signals that suggest which one is emerging.</description>
-    </item>
-    <item>
-      <title>The Next Decade of AI: What Actually Happens From Here</title>
-      <link>https://jamesm.blog/ai/the-next-decade-of-ai/</link>
-      <pubDate>Sun, 19 Apr 2026 07:55:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/the-next-decade-of-ai/</guid>
-      <description>Most predictions about the future of AI are either utopian or apocalyptic. The real trajectory is stranger and more interesting than both - and it&amp;#39;s already visible if you look at what&amp;#39;s quietly working right now.</description>
     </item>
     <item>
       <title>AI Cloud Subscriptions: Comparing Pricing and Features in 2026</title>
@@ -595,6 +609,13 @@
       <description>Claude Design brings AI-powered visual collaboration to teams, automating the tedious handoff between design and development while maintaining design system consistency.</description>
     </item>
     <item>
+      <title>Four Futures for the Machine-Speed Economy</title>
+      <link>https://jamesm.blog/ai/four-futures-machine-speed-economy/</link>
+      <pubDate>Thu, 16 Apr 2026 19:26:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/four-futures-machine-speed-economy/</guid>
+      <description>A map of four plausible futures - broad abundance, winner-take-most, techno-feudalism, and a managed transition - with the signals that suggest which one is emerging.</description>
+    </item>
+    <item>
       <title>Claude Opus 4.7: Autonomy and Vision at Scale</title>
       <link>https://jamesm.blog/ai/claude-opus-4-7/</link>
       <pubDate>Thu, 16 Apr 2026 16:15:00 +0000</pubDate>
@@ -609,6 +630,13 @@
       <description>A short reflection on the strange feeling that reality is constantly becoming new, and how that connects to the many-worlds interpretation of quantum mechanics.</description>
     </item>
     <item>
+      <title>Open WebUI: A Polished Interface for Local and Remote LLMs</title>
+      <link>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</link>
+      <pubDate>Wed, 15 Apr 2026 23:15:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</guid>
+      <description>Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in.</description>
+    </item>
+    <item>
       <title>Why Is There Something Rather Than Nothing?</title>
       <link>https://jamesm.blog/general/why-is-there-something-rather-than-nothing/</link>
       <pubDate>Wed, 15 Apr 2026 23:41:00 +0100</pubDate>
@@ -616,11 +644,102 @@
       <description>A physics-minded reflection on one of the deepest questions there is: why anything exists at all instead of nothing.</description>
     </item>
     <item>
+      <title>Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in</title>
+      <link>https://jamesm.blog/ai/paperless-ngx-self-hosted-document-management/</link>
+      <pubDate>Wed, 15 Apr 2026 22:21:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/paperless-ngx-self-hosted-document-management/</guid>
+      <description>Paperless-ngx is a self-hosted document management system that lets you scan, digitize, and organize physical paperwork with full control over your data and zero subscription fees.</description>
+    </item>
+    <item>
+      <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
+      <link>https://jamesm.blog/ai/ollama/</link>
+      <pubDate>Tue, 14 Apr 2026 08:25:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ollama/</guid>
+      <description>A practical guide to Ollama, the platform for running large language models locally, including how to launch OpenClaw and explore its available models.</description>
+    </item>
+    <item>
+      <title>GitHub Is Now Officially Backing OpenClaw</title>
+      <link>https://jamesm.blog/ai/github-backing-openclaw/</link>
+      <pubDate>Tue, 14 Apr 2026 08:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/github-backing-openclaw/</guid>
+      <description>GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, providing Copilot Pro&#43; and security funding.</description>
+    </item>
+    <item>
+      <title>Token Economics: Why the Cost of AI Isn&#39;t Going Down</title>
+      <link>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</link>
+      <pubDate>Mon, 13 Apr 2026 06:40:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</guid>
+      <description>Despite massive scale and competition, LLM pricing hasn&amp;#39;t meaningfully declined. Here&amp;#39;s why the fundamentals don&amp;#39;t support cheaper AI.</description>
+    </item>
+    <item>
+      <title>The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power</title>
+      <link>https://jamesm.blog/ai/claude-mythos-restricted/</link>
+      <pubDate>Mon, 13 Apr 2026 06:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-mythos-restricted/</guid>
+      <description>Anthropic&amp;#39;s Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI&amp;#39;s immense power demands unprecedented control.</description>
+    </item>
+    <item>
+      <title>Structured Outputs: When Your AI Needs to Follow a Schema</title>
+      <link>https://jamesm.blog/ai/structured-outputs-schema/</link>
+      <pubDate>Sun, 12 Apr 2026 06:17:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/structured-outputs-schema/</guid>
+      <description>Why guaranteeing output format matters more than you think, and when to use structured outputs in production</description>
+    </item>
+    <item>
+      <title>The Rise of Small Language Models: Why Size Isn&#39;t Everything</title>
+      <link>https://jamesm.blog/ai/small-language-models/</link>
+      <pubDate>Sun, 12 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/small-language-models/</guid>
+      <description>Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development.</description>
+    </item>
+    <item>
+      <title>The LLM Context Window Arms Race: Does It Actually Matter?</title>
+      <link>https://jamesm.blog/ai/llm-context-window-arms-race/</link>
+      <pubDate>Sat, 11 Apr 2026 06:14:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/llm-context-window-arms-race/</guid>
+      <description>The obsession with massive context windows misses what actually matters in production LLM systems</description>
+    </item>
+    <item>
+      <title>Local AI vs Cloud AI: The Tradeoff Landscape in 2026</title>
+      <link>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</link>
+      <pubDate>Sat, 11 Apr 2026 06:11:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</guid>
+      <description>In 2026, the choice between running AI locally or in the cloud is no longer a binary one. It is a strategic architectural decision based on privacy, latency, and &amp;#39;reasoning density&amp;#39;.</description>
+    </item>
+    <item>
+      <title>Cline: The Next Generation AI Coding Assistant</title>
+      <link>https://jamesm.blog/ai/cline/</link>
+      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline/</guid>
+      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
+    </item>
+    <item>
       <title>The Best Software Synths of 2026: From AI-Native to Analog Perfection</title>
       <link>https://jamesm.blog/music-production/best-software-synths-2026/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/best-software-synths-2026/</guid>
       <description>A look at the most powerful and innovative software synthesizers dominating the music production landscape in 2026.</description>
+    </item>
+    <item>
+      <title>Cline &#43; Kanban: Autonomous Development Meets Project Management</title>
+      <link>https://jamesm.blog/ai/cline-kanban/</link>
+      <pubDate>Fri, 10 Apr 2026 07:44:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline-kanban/</guid>
+      <description>How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management.</description>
+    </item>
+    <item>
+      <title>The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground</title>
+      <link>https://jamesm.blog/retro-computing/the-postal-pirates/</link>
+      <pubDate>Fri, 10 Apr 2026 06:01:00 +0100</pubDate>
+      <guid>https://jamesm.blog/retro-computing/the-postal-pirates/</guid>
+      <description>How magazine classifieds, postal delivery services, and teenage traders turned the 1980s into an era of sophisticated software distribution that predated the internet.</description>
+    </item>
+    <item>
+      <title>Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene</title>
+      <link>https://jamesm.blog/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/</link>
+      <pubDate>Fri, 10 Apr 2026 05:32:00 +0100</pubDate>
+      <guid>https://jamesm.blog/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/</guid>
+      <description>How cracking groups transformed pirated games with menus, cheat systems, and animated scrolltext screens - creating a visual language that defined 1980s underground computing culture.</description>
     </item>
     <item>
       <title>u-he Zebra 3: The Modular Beast Unleashed</title>
@@ -635,13 +754,6 @@
       <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/ai-reliability-is-weird/</guid>
       <description>Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the &amp;#39;builder&amp;#39; is non-deterministic.</description>
-    </item>
-    <item>
-      <title>Cline: The Next Generation AI Coding Assistant</title>
-      <link>https://jamesm.blog/ai/cline/</link>
-      <pubDate>Thu, 09 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/cline/</guid>
-      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
     </item>
     <item>
       <title>From Awakening to Action: Building the Life You&#39;ve Discovered</title>
@@ -665,39 +777,11 @@
       <description>Explore AWS S3 Files, a new file system interface that brings high-performance file access to Amazon S3 data without duplication or complex integration.</description>
     </item>
     <item>
-      <title>Cline &#43; Kanban: Autonomous Development Meets Project Management</title>
-      <link>https://jamesm.blog/ai/cline-kanban/</link>
-      <pubDate>Thu, 09 Apr 2026 07:44:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/cline-kanban/</guid>
-      <description>How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management.</description>
-    </item>
-    <item>
-      <title>Structured Outputs: When Your AI Needs to Follow a Schema</title>
-      <link>https://jamesm.blog/ai/structured-outputs-schema/</link>
-      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/structured-outputs-schema/</guid>
-      <description>Why guaranteeing output format matters more than you think, and when to use structured outputs in production</description>
-    </item>
-    <item>
-      <title>The LLM Context Window Arms Race: Does It Actually Matter?</title>
-      <link>https://jamesm.blog/ai/llm-context-window-arms-race/</link>
-      <pubDate>Thu, 09 Apr 2026 06:14:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/llm-context-window-arms-race/</guid>
-      <description>The obsession with massive context windows misses what actually matters in production LLM systems</description>
-    </item>
-    <item>
       <title>What Comes After Artemis: The Road to a Lunar Gateway</title>
       <link>https://jamesm.blog/space/lunar-gateway/</link>
       <pubDate>Thu, 09 Apr 2026 06:50:00 +0100</pubDate>
       <guid>https://jamesm.blog/space/lunar-gateway/</guid>
       <description>Beyond Apollo-style moon landings: how the Lunar Gateway transforms humanity&amp;#39;s approach to sustained lunar presence and deep space exploration.</description>
-    </item>
-    <item>
-      <title>Token Economics: Why the Cost of AI Isn&#39;t Going Down</title>
-      <link>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</link>
-      <pubDate>Thu, 09 Apr 2026 06:40:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</guid>
-      <description>Despite massive scale and competition, LLM pricing hasn&amp;#39;t meaningfully declined. Here&amp;#39;s why the fundamentals don&amp;#39;t support cheaper AI.</description>
     </item>
     <item>
       <title>How BASIC Shaped a Generation of Programmers</title>
@@ -721,67 +805,11 @@
       <description>The SID chip gave the Commodore 64 the ability to synthesize complex sound in real-time. But why did it sound so distinctive? And why has no other chip in computing history achieved the same cultural impact?</description>
     </item>
     <item>
-      <title>Local AI vs Cloud AI: The Tradeoff Landscape in 2026</title>
-      <link>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</link>
-      <pubDate>Thu, 09 Apr 2026 06:11:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</guid>
-      <description>In 2026, the choice between running AI locally or in the cloud is no longer a binary one. It is a strategic architectural decision based on privacy, latency, and &amp;#39;reasoning density&amp;#39;.</description>
-    </item>
-    <item>
-      <title>The Rise of Small Language Models: Why Size Isn&#39;t Everything</title>
-      <link>https://jamesm.blog/ai/small-language-models/</link>
-      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/small-language-models/</guid>
-      <description>Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development.</description>
-    </item>
-    <item>
-      <title>The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground</title>
-      <link>https://jamesm.blog/retro-computing/the-postal-pirates/</link>
-      <pubDate>Thu, 09 Apr 2026 06:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/retro-computing/the-postal-pirates/</guid>
-      <description>How magazine classifieds, postal delivery services, and teenage traders turned the 1980s into an era of sophisticated software distribution that predated the internet.</description>
-    </item>
-    <item>
-      <title>Trainer Menus &amp; Scrolltexts: The Unique Aesthetics of the Cracking Scene</title>
-      <link>https://jamesm.blog/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/</link>
-      <pubDate>Thu, 09 Apr 2026 05:32:00 +0100</pubDate>
-      <guid>https://jamesm.blog/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/</guid>
-      <description>How cracking groups transformed pirated games with menus, cheat systems, and animated scrolltext screens - creating a visual language that defined 1980s underground computing culture.</description>
-    </item>
-    <item>
-      <title>Open WebUI: A Polished Interface for Local and Remote LLMs</title>
-      <link>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</link>
-      <pubDate>Wed, 08 Apr 2026 23:15:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</guid>
-      <description>Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in.</description>
-    </item>
-    <item>
-      <title>Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in</title>
-      <link>https://jamesm.blog/ai/paperless-ngx-self-hosted-document-management/</link>
-      <pubDate>Wed, 08 Apr 2026 22:21:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/paperless-ngx-self-hosted-document-management/</guid>
-      <description>Paperless-ngx is a self-hosted document management system that lets you scan, digitize, and organize physical paperwork with full control over your data and zero subscription fees.</description>
-    </item>
-    <item>
       <title>Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released</title>
       <link>https://jamesm.blog/ai/claude-mythos-benchmarks/</link>
       <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude-mythos-benchmarks/</guid>
       <description>Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.</description>
-    </item>
-    <item>
-      <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
-      <link>https://jamesm.blog/ai/ollama/</link>
-      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/ollama/</guid>
-      <description>A practical guide to Ollama, the platform for running large language models locally, including how to launch OpenClaw and explore its available models.</description>
-    </item>
-    <item>
-      <title>GitHub Is Now Officially Backing OpenClaw</title>
-      <link>https://jamesm.blog/ai/github-backing-openclaw/</link>
-      <pubDate>Wed, 08 Apr 2026 08:05:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/github-backing-openclaw/</guid>
-      <description>GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, providing Copilot Pro&#43; and security funding.</description>
     </item>
     <item>
       <title>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</title>
@@ -803,13 +831,6 @@
       <pubDate>Wed, 08 Apr 2026 06:11:00 +0000</pubDate>
       <guid>https://jamesm.blog/retro-computing/copy-protection-wars/</guid>
       <description>A deep dive into the creative, bizarre, and often frustrating world of 1980s copy protection, from code wheels to lensloks.</description>
-    </item>
-    <item>
-      <title>The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power</title>
-      <link>https://jamesm.blog/ai/claude-mythos-restricted/</link>
-      <pubDate>Wed, 08 Apr 2026 06:12:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/claude-mythos-restricted/</guid>
-      <description>Anthropic&amp;#39;s Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI&amp;#39;s immense power demands unprecedented control.</description>
     </item>
     <item>
       <title>When 8-bit Computers Taught An Entire Nation To Code</title>
@@ -847,6 +868,13 @@
       <description>With AI handling implementation, the specification itself becomes the product. What you&amp;#39;re really selling is clarity of thought - and the ability to write briefs that don&amp;#39;t lie.</description>
     </item>
     <item>
+      <title>Lakeflow Declarative Pipelines: From DLT to Production</title>
+      <link>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</link>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</guid>
+      <description>From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026.</description>
+    </item>
+    <item>
       <title>Boosting Productivity: Essential Habits for Personal Growth</title>
       <link>https://jamesm.blog/personal-development/boosting-productivity-habits/</link>
       <pubDate>Mon, 06 Apr 2026 16:00:00 +0100</pubDate>
@@ -882,21 +910,6 @@
       <description>A practical guide to rebuilding confidence, stability, and momentum through small daily systems rather than dramatic reinvention.</description>
     </item>
     <item>
-      <title>What Actually Belongs in My AI Dev Stack in 2026</title>
-      <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
-      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
-      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for &lt;strong&gt;spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Spec-driven development&lt;/strong&gt; is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations&lt;/li&gt;
-&lt;li&gt;Tools like &lt;strong&gt;Cursor AI&lt;/strong&gt; handle fast, in-flow editing while &lt;strong&gt;Claude Code&lt;/strong&gt; or &lt;strong&gt;Cline&lt;/strong&gt; are better suited to multi-file refactors and autonomous implementation from specs&lt;/li&gt;
-&lt;li&gt;Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential&lt;/li&gt;
-&lt;li&gt;The real shift is treating AI not as a bolt-on assistant but as part of the &lt;strong&gt;workflow architecture itself&lt;/strong&gt;, with each tool assigned a clear, specific responsibility&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>NASA Artemis II</title>
       <link>https://jamesm.blog/space/nasa-artemis-ii/</link>
       <pubDate>Mon, 06 Apr 2026 00:01:00 +0100</pubDate>
@@ -928,25 +941,26 @@
       <description>Curated list of Data Engineering blogs covering ETL/ELT, data warehousing, orchestration, and modern data stack best practices.</description>
     </item>
     <item>
-      <title>Lakeflow Declarative Pipelines: From DLT to Production</title>
-      <link>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</link>
-      <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</guid>
-      <description>From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026.</description>
-    </item>
-    <item>
-      <title>Unity Catalog in Practice: Lessons From the Field</title>
-      <link>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</link>
-      <pubDate>Sun, 05 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</guid>
-      <description>Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings.</description>
-    </item>
-    <item>
       <title>Databricks vs Snowflake in 2026: An Honest Comparison</title>
       <link>https://jamesm.blog/data-engineering/databricks-vs-snowflake-2026/</link>
       <pubDate>Sun, 05 Apr 2026 09:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/data-engineering/databricks-vs-snowflake-2026/</guid>
       <description>Head-to-head comparison of Databricks and Snowflake in 2026 - when you should choose each, their actual strengths and weaknesses, and the direction each is moving.</description>
+    </item>
+    <item>
+      <title>What Actually Belongs in My AI Dev Stack in 2026</title>
+      <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
+      <pubDate>Sun, 05 Apr 2026 00:05:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A single AI tool cannot handle everything - a proper AI dev stack in 2026 needs distinct layers for &lt;strong&gt;spec writing, fast editing, heavy agentic work, cheap model tasks, review, research, and capture&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec-driven development&lt;/strong&gt; is the most underused part: writing requirements and acceptance criteria before generation dramatically improves AI output and reduces wasted iterations&lt;/li&gt;
+&lt;li&gt;Tools like &lt;strong&gt;Cursor AI&lt;/strong&gt; handle fast, in-flow editing while &lt;strong&gt;Claude Code&lt;/strong&gt; or &lt;strong&gt;Cline&lt;/strong&gt; are better suited to multi-file refactors and autonomous implementation from specs&lt;/li&gt;
+&lt;li&gt;Letting the same model that generated code also review it is a weak loop - a separate review pass with a different model or explicitly critical prompt is essential&lt;/li&gt;
+&lt;li&gt;The real shift is treating AI not as a bolt-on assistant but as part of the &lt;strong&gt;workflow architecture itself&lt;/strong&gt;, with each tool assigned a clear, specific responsibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀</title>
@@ -983,13 +997,6 @@
       <pubDate>Sat, 04 Apr 2026 20:51:25 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/data-engineering-science-courses/</guid>
       <description>Comprehensive curated list of data engineering and data science courses from Coursera, DataCamp, A Cloud Guru, Udacity, Google Cloud, and other platforms with learning paths and certifications.</description>
-    </item>
-    <item>
-      <title>Databricks Training &amp; Certification</title>
-      <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
-      <description>Complete guide to Databricks certifications with training resources, exam costs, and learning paths</description>
     </item>
     <item>
       <title>Databricks CheatSheet</title>
@@ -1067,6 +1074,20 @@
       <description>A practical, AI-driven development stack combining cloud and local LLMs, terminal tools, IDEs, and mobile access for persistent, productive workflows.</description>
     </item>
     <item>
+      <title>Databricks Training &amp; Certification</title>
+      <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>
+      <pubDate>Fri, 03 Apr 2026 20:47:25 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
+      <description>Complete guide to Databricks certifications with training resources, exam costs, and learning paths</description>
+    </item>
+    <item>
+      <title>Unity Catalog in Practice: Lessons From the Field</title>
+      <link>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</link>
+      <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</guid>
+      <description>Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings.</description>
+    </item>
+    <item>
       <title>What the Amiga Got Right (That We&#39;re Still Copying)</title>
       <link>https://jamesm.blog/retro-computing/what-the-amiga-got-right-that-were-still-copying/</link>
       <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
@@ -1079,6 +1100,27 @@
       <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
       <guid>https://jamesm.blog/retro-computing/compunet-britains-forgotten-pre-internet-community/</guid>
       <description>The story of Compunet: how a British BBS became one of the world&amp;#39;s first online communities, years before the internet, and how it shaped British digital culture.</description>
+    </item>
+    <item>
+      <title>Is the $20 AI Subscription Era Over?</title>
+      <link>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</link>
+      <pubDate>Fri, 03 Apr 2026 08:45:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/twenty-dollar-ai-era-is-over/</guid>
+      <description>Every major AI provider is quietly repositioning the $20/month tier. Here&amp;#39;s what&amp;#39;s happening at Anthropic, OpenAI, Google, Microsoft, xAI, and what monthly prices are likely to look like by the end of 2026.</description>
+    </item>
+    <item>
+      <title>The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting</title>
+      <link>https://jamesm.blog/ai/meaning-of-work-age-of-abundance/</link>
+      <pubDate>Thu, 02 Apr 2026 23:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/meaning-of-work-age-of-abundance/</guid>
+      <description>If agents end up doing the execution, what are we for? Some thinking out loud about purpose, identity, and what a working life might look like when the labour layer is automated.</description>
+    </item>
+    <item>
+      <title>SpaceX Buys the Right to Buy Cursor for $60 Billion</title>
+      <link>https://jamesm.blog/ai/spacex-cursor-60-billion-option/</link>
+      <pubDate>Thu, 02 Apr 2026 19:16:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/spacex-cursor-60-billion-option/</guid>
+      <description>SpaceX has taken an option to acquire Cursor for $60 billion later this year, or pay $10 billion for a joint build. A look at the deal structure, what it tells us about xAI&amp;#39;s coding ambitions, and why Anysphere is suddenly the most sought-after company in developer tools.</description>
     </item>
     <item>
       <title>The Demoscene: Where Art Met Assembly</title>
@@ -1102,6 +1144,20 @@
       <description>Nearly 2,000 internal files from Claude Code were briefly leaked due to human error. Here&amp;#39;s what happened, what was exposed, and the security implications for developers using Anthropic&amp;#39;s AI coding tool.</description>
     </item>
     <item>
+      <title>Meta Is Tracking Its Own Employees to Train AI Agents</title>
+      <link>https://jamesm.blog/ai/meta-employee-tracking/</link>
+      <pubDate>Wed, 01 Apr 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/meta-employee-tracking/</guid>
+      <description>Meta&amp;#39;s Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out.</description>
+    </item>
+    <item>
+      <title>A Year of Agents, and What is Coming Next</title>
+      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
+      <pubDate>Fri, 13 Mar 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
+      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
+    </item>
+    <item>
       <title>The Universe Has a Plan for You</title>
       <link>https://jamesm.blog/personal-development/the-universe-has-a-plan-for-you/</link>
       <pubDate>Thu, 12 Mar 2026 20:00:39 +0100</pubDate>
@@ -1109,11 +1165,40 @@
       <description>Reflective essay on adversity, personal awakening, and discovering life purpose through life&amp;#39;s challenges.</description>
     </item>
     <item>
+      <title>Where Should Documentation Actually Live? Thinking Out Loud in the AI Era</title>
+      <link>https://jamesm.blog/ai/where-should-documentation-live/</link>
+      <pubDate>Thu, 12 Mar 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/where-should-documentation-live/</guid>
+      <description>A brainstorm - not a proposal - on where different types of documents and artefacts should live, what the source of truth should be, and how AI tooling is reshaping that question.</description>
+    </item>
+    <item>
+      <title>The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?</title>
+      <link>https://jamesm.blog/ai/junior-developer-pipeline-problem/</link>
+      <pubDate>Thu, 12 Mar 2026 00:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/junior-developer-pipeline-problem/</guid>
+      <description>Most of the AI-and-developers conversation assumes a steady supply of senior engineers who can curate, review, and judge. But the work that used to produce those seniors is the work AI now does. Where does the next generation come from?</description>
+    </item>
+    <item>
       <title>We Are Learning to Buy Intelligence</title>
       <link>https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/</link>
       <pubDate>Wed, 11 Mar 2026 07:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/</guid>
       <description>Intelligence used to be something you hired, trained for, or waited in line for. Now it is becoming infrastructure - metered, on-demand, and collapsing in price.</description>
+    </item>
+    <item>
+      <title>OpenClaw Is Absolutely Wild</title>
+      <link>https://jamesm.blog/ai/openclaw-is-wild/</link>
+      <pubDate>Tue, 10 Mar 2026 07:09:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/openclaw-is-wild/</guid>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt; is an open-source AI agent framework that enables language models to operate software directly through computer interfaces - clicking, typing, and navigating the same way a human does&lt;/li&gt;
+&lt;li&gt;Unlike chatbots that only respond to prompts, OpenClaw acts as an &lt;strong&gt;operator&lt;/strong&gt; - automating any software without requiring custom APIs or integrations&lt;/li&gt;
+&lt;li&gt;This makes legacy enterprise software, complex dashboards, and multi-application workflows instantly automatable using computer vision and reasoning models&lt;/li&gt;
+&lt;li&gt;Because it uses reasoning models rather than fixed scripts, it can adapt to unexpected states and recover from mistakes - closer to &lt;strong&gt;digital labor&lt;/strong&gt; than traditional automation&lt;/li&gt;
+&lt;li&gt;This represents a shift in computing: software that can build, run, and manage other software, driven by open projects improving rapidly every month&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scaling Graph Algorithms: From Prototypes to Production</title>
@@ -1158,21 +1243,6 @@
 &lt;li&gt;A realistic usage split of 80% local / 15% cheap APIs / 5% frontier models dramatically reduces limit burn while keeping Claude available when it genuinely matters&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenClaw Is Absolutely Wild</title>
-      <link>https://jamesm.blog/ai/openclaw-is-wild/</link>
-      <pubDate>Mon, 09 Mar 2026 07:09:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/openclaw-is-wild/</guid>
-      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt; is an open-source AI agent framework that enables language models to operate software directly through computer interfaces - clicking, typing, and navigating the same way a human does&lt;/li&gt;
-&lt;li&gt;Unlike chatbots that only respond to prompts, OpenClaw acts as an &lt;strong&gt;operator&lt;/strong&gt; - automating any software without requiring custom APIs or integrations&lt;/li&gt;
-&lt;li&gt;This makes legacy enterprise software, complex dashboards, and multi-application workflows instantly automatable using computer vision and reasoning models&lt;/li&gt;
-&lt;li&gt;Because it uses reasoning models rather than fixed scripts, it can adapt to unexpected states and recover from mistakes - closer to &lt;strong&gt;digital labor&lt;/strong&gt; than traditional automation&lt;/li&gt;
-&lt;li&gt;This represents a shift in computing: software that can build, run, and manage other software, driven by open projects improving rapidly every month&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Tracks - March 2026</title>
@@ -1305,6 +1375,27 @@
       <description>Tracks from January 2026</description>
     </item>
     <item>
+      <title>Top 5 Hardware Sequencers of 2025</title>
+      <link>https://jamesm.blog/music-production/top-5-sequencers-2025/</link>
+      <pubDate>Sat, 27 Dec 2025 20:52:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/top-5-sequencers-2025/</guid>
+      <description>&lt;p&gt;Hardware sequencers remain essential for producers who want hands-on control over patterns, rhythms, and melodies. Unlike grooveboxes, sequencers are often designed to drive external synths, modular systems, or entire hardware setups. Here’s a detailed look at the top 5 hardware sequencers in 2025, complete with images, prices, and strengths. (&lt;a href=&#34;https://reverb.com/uk/news/the-5-best-hardware-sequencers-for-your-rig?utm_source=chatgpt.com&#34;&gt;reverb.com&lt;/a&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;teenage-engineering-op-xy-1799&#34;&gt;&lt;strong&gt;Teenage Engineering OP-XY&lt;/strong&gt; (~£1,799)&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;OP-XY&lt;/strong&gt; is a portable sequencer with integrated synth engines and expressive pattern management. It offers parameter locks, modulation lanes, and performance-friendly workflow. Its unique combination of sequencing and sound generation makes it excellent for live improvisation and musical idea exploration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Top 5 Grooveboxes of 2025</title>
+      <link>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</link>
+      <pubDate>Sat, 27 Dec 2025 18:47:21 +0100</pubDate>
+      <guid>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</guid>
+      <description>&lt;p&gt;Grooveboxes are island universes of music creation  -  sequencing, sampling, synthesis, and performance all in a single box. They let you sketch ideas, build full tracks, jam live, and take your studio wherever you want. In 2025, they’re more powerful and diverse than ever.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;roland-mc-707-1013&#34;&gt;&lt;strong&gt;Roland MC-707&lt;/strong&gt; (£1,013)&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&amp;width=3840&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The MC‑707 is a flagship groovebox from Roland with a &lt;strong&gt;ZEN‑Core sound engine&lt;/strong&gt; that packs thousands of presets, drum kits, effects, and routing options. Its strength lies in pattern and clip‑based sequencing, deep effects, and live remixing capabilities. Each track can be assigned Tone, Drum, or Looper engines, and you can arrange your patterns into complete songs right from the hardware. The MC‑707 also has strong mixing features, send/return loops, and plenty of audio and MIDI connectivity. It’s a studio and stage workhorse, ideal for electronic, hip‑hop, and multi‑genre performance rigs.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The Best Software Synths of 2025</title>
       <link>https://jamesm.blog/music-production/best-software-synths-2025/</link>
       <pubDate>Fri, 26 Dec 2025 21:42:00 +0000</pubDate>
@@ -1398,14 +1489,14 @@
     <item>
       <title>My Music Production Hardware &amp; Software</title>
       <link>https://jamesm.blog/music-production/my-music-hardware-software/</link>
-      <pubDate>Fri, 26 Dec 2025 21:29:00 +0000</pubDate>
+      <pubDate>Thu, 25 Dec 2025 21:29:00 +0000</pubDate>
       <guid>https://jamesm.blog/music-production/my-music-hardware-software/</guid>
       <description>Comprehensive inventory of current and past music production hardware and software in my studio setup.</description>
     </item>
     <item>
       <title>My Music Production Hardware &amp; Software Wishlists</title>
       <link>https://jamesm.blog/music-production/my-music-hardware-software-wishlist/</link>
-      <pubDate>Fri, 26 Dec 2025 21:28:00 +0000</pubDate>
+      <pubDate>Thu, 25 Dec 2025 21:28:00 +0000</pubDate>
       <guid>https://jamesm.blog/music-production/my-music-hardware-software-wishlist/</guid>
       <description>&lt;h2 id=&#34;music-production-wishlist---hardware&#34;&gt;Music Production Wishlist - Hardware&lt;/h2&gt;
 &lt;ul&gt;
@@ -1758,27 +1849,6 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Top 5 Hardware Sequencers of 2025</title>
-      <link>https://jamesm.blog/music-production/top-5-sequencers-2025/</link>
-      <pubDate>Fri, 26 Dec 2025 20:52:21 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/top-5-sequencers-2025/</guid>
-      <description>&lt;p&gt;Hardware sequencers remain essential for producers who want hands-on control over patterns, rhythms, and melodies. Unlike grooveboxes, sequencers are often designed to drive external synths, modular systems, or entire hardware setups. Here’s a detailed look at the top 5 hardware sequencers in 2025, complete with images, prices, and strengths. (&lt;a href=&#34;https://reverb.com/uk/news/the-5-best-hardware-sequencers-for-your-rig?utm_source=chatgpt.com&#34;&gt;reverb.com&lt;/a&gt;)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;teenage-engineering-op-xy-1799&#34;&gt;&lt;strong&gt;Teenage Engineering OP-XY&lt;/strong&gt; (~£1,799)&lt;/h2&gt;
-&lt;p&gt;The &lt;strong&gt;OP-XY&lt;/strong&gt; is a portable sequencer with integrated synth engines and expressive pattern management. It offers parameter locks, modulation lanes, and performance-friendly workflow. Its unique combination of sequencing and sound generation makes it excellent for live improvisation and musical idea exploration.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Top 5 Grooveboxes of 2025</title>
-      <link>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</link>
-      <pubDate>Fri, 26 Dec 2025 18:47:21 +0100</pubDate>
-      <guid>https://jamesm.blog/music-production/top-5-grooveboxes-2025/</guid>
-      <description>&lt;p&gt;Grooveboxes are island universes of music creation  -  sequencing, sampling, synthesis, and performance all in a single box. They let you sketch ideas, build full tracks, jam live, and take your studio wherever you want. In 2025, they’re more powerful and diverse than ever.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;roland-mc-707-1013&#34;&gt;&lt;strong&gt;Roland MC-707&lt;/strong&gt; (£1,013)&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://store.djtechtools.com/cdn/shop/files/roland_mc-707_groovebox_pads.jpg?v=1691702107&amp;width=3840&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The MC‑707 is a flagship groovebox from Roland with a &lt;strong&gt;ZEN‑Core sound engine&lt;/strong&gt; that packs thousands of presets, drum kits, effects, and routing options. Its strength lies in pattern and clip‑based sequencing, deep effects, and live remixing capabilities. Each track can be assigned Tone, Drum, or Looper engines, and you can arrange your patterns into complete songs right from the hardware. The MC‑707 also has strong mixing features, send/return loops, and plenty of audio and MIDI connectivity. It’s a studio and stage workhorse, ideal for electronic, hip‑hop, and multi‑genre performance rigs.(&lt;a href=&#34;https://www.musicradar.com/news/best-groovebox?utm_source=chatgpt.com&#34;&gt;musicradar.com&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Suno Voice Personas</title>
@@ -2706,7 +2776,7 @@
     <item>
       <title>OpenAI Voice Engine</title>
       <link>https://jamesm.blog/ai/openai-voice-engine/</link>
-      <pubDate>Fri, 29 Mar 2024 23:12:25 +0100</pubDate>
+      <pubDate>Sun, 31 Mar 2024 23:12:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/openai-voice-engine/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
@@ -2722,7 +2792,7 @@
     <item>
       <title>Stargate</title>
       <link>https://jamesm.blog/ai/microsoft-openai-stargate/</link>
-      <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
+      <pubDate>Sat, 30 Mar 2024 22:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
@@ -2895,7 +2965,7 @@
     <item>
       <title>Music Production Websites</title>
       <link>https://jamesm.blog/music-production/websites/</link>
-      <pubDate>Fri, 19 Jan 2024 18:31:21 +0100</pubDate>
+      <pubDate>Thu, 18 Jan 2024 18:31:21 +0100</pubDate>
       <guid>https://jamesm.blog/music-production/websites/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://ask.video/&#34;&gt;Ask.Video&lt;/a&gt; - Ableton, Cubase, Logic Pro, Native Instruments &amp;hellip;&lt;/li&gt;
@@ -3118,13 +3188,6 @@
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>DevOps Explainers</title>
-      <link>https://jamesm.blog/devops/explainers/</link>
-      <pubDate>Sat, 16 Dec 2023 09:36:18 +0100</pubDate>
-      <guid>https://jamesm.blog/devops/explainers/</guid>
-      <description>Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found.</description>
-    </item>
-    <item>
       <title>DevOps Best Practices</title>
       <link>https://jamesm.blog/devops/best-practices/</link>
       <pubDate>Sat, 16 Dec 2023 09:33:18 +0100</pubDate>
@@ -3137,6 +3200,13 @@
       <pubDate>Sat, 16 Dec 2023 09:28:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/cheatsheets/</guid>
       <description>Quick reference guides and cheatsheets for DevOps tools, cloud computing concepts, Linux commands, and Kubernetes operations.</description>
+    </item>
+    <item>
+      <title>DevOps Explainers</title>
+      <link>https://jamesm.blog/devops/explainers/</link>
+      <pubDate>Fri, 15 Dec 2023 09:36:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/explainers/</guid>
+      <description>Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found.</description>
     </item>
     <item>
       <title>News: Arturia Collection X</title>
@@ -3268,7 +3338,7 @@
     <item>
       <title>List of Personal Development Videos</title>
       <link>https://jamesm.blog/personal-development/videos/</link>
-      <pubDate>Sun, 28 May 2023 09:02:39 +0100</pubDate>
+      <pubDate>Sat, 27 May 2023 09:02:39 +0100</pubDate>
       <guid>https://jamesm.blog/personal-development/videos/</guid>
       <description>Curated list of YouTube channels and creators focused on personal development, motivation, and self-improvement.</description>
     </item>
@@ -3522,18 +3592,18 @@
       <description>Curated learning resources for blockchain development and Web3, from beginner fundamentals to advanced smart contract development</description>
     </item>
     <item>
-      <title>Cryptocurrency Hardware Wallets</title>
-      <link>https://jamesm.blog/blockchain/hardware-wallets/</link>
-      <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/blockchain/hardware-wallets/</guid>
-      <description>Guide to hardware wallets for secure cryptocurrency storage, covering leading providers and best practices for cold storage security</description>
-    </item>
-    <item>
       <title>Gavin Wood</title>
       <link>https://jamesm.blog/blockchain/gavin-wood/</link>
       <pubDate>Tue, 18 Apr 2023 09:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/blockchain/gavin-wood/</guid>
       <description>Dr. Gavin Wood&amp;#39;s contributions to blockchain technology, from Ethereum to Polkadot, and his vision for Web3 interoperability</description>
+    </item>
+    <item>
+      <title>Cryptocurrency Hardware Wallets</title>
+      <link>https://jamesm.blog/blockchain/hardware-wallets/</link>
+      <pubDate>Mon, 17 Apr 2023 09:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/blockchain/hardware-wallets/</guid>
+      <description>Guide to hardware wallets for secure cryptocurrency storage, covering leading providers and best practices for cold storage security</description>
     </item>
     <item>
       <title>Auto-GPT is now able to write it&#39;s own code</title>

@@ -1,6 +1,6 @@
 ---
 title: "Lakeflow Declarative Pipelines: From DLT to Production"
-date: 2026-04-05T18:00:00+00:00
+date: 2026-04-06T18:00:00+00:00
 draft: false
 tags: ['databricks', 'lakeflow', 'dlt', 'declarative-pipeline', 'data-engineering', 'etl']
 description: "From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026."

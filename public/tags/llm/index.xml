@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 May 2026 16:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multimodal AI in 2026: Vision &#43; Text &#43; Audio - What&#39;s Actually Useful</title>
+      <link>https://jamesm.blog/ai/multimodal-ai-2026/</link>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/multimodal-ai-2026/</guid>
+      <description>Where multimodal AI has actually delivered value in 2026, where it is still demoware, and the patterns that determine whether vision and audio are quietly indispensable in your stack or just an expensive distraction.</description>
+    </item>
+    <item>
+      <title>Prompt Caching: The Quiet Performance Win for LLM Applications</title>
+      <link>https://jamesm.blog/ai/prompt-caching/</link>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/prompt-caching/</guid>
+      <description>What prompt caching actually is, why it is the highest-leverage performance and cost optimisation available to most LLM applications, and the patterns that determine whether you get a 90 percent cost reduction or no benefit at all.</description>
+    </item>
     <item>
       <title>AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard</title>
       <link>https://jamesm.blog/data-engineering/ai-native-pipelines/</link>
@@ -63,32 +77,32 @@
       <description>A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense.</description>
     </item>
     <item>
-      <title>AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know</title>
-      <link>https://jamesm.blog/ai/ai-reliability-is-weird/</link>
-      <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/ai-reliability-is-weird/</guid>
-      <description>Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the &amp;#39;builder&amp;#39; is non-deterministic.</description>
+      <title>Open WebUI: A Polished Interface for Local and Remote LLMs</title>
+      <link>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</link>
+      <pubDate>Wed, 15 Apr 2026 23:15:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</guid>
+      <description>Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in.</description>
     </item>
     <item>
       <title>Structured Outputs: When Your AI Needs to Follow a Schema</title>
       <link>https://jamesm.blog/ai/structured-outputs-schema/</link>
-      <pubDate>Thu, 09 Apr 2026 06:17:00 +0000</pubDate>
+      <pubDate>Sun, 12 Apr 2026 06:17:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/structured-outputs-schema/</guid>
       <description>Why guaranteeing output format matters more than you think, and when to use structured outputs in production</description>
     </item>
     <item>
       <title>The LLM Context Window Arms Race: Does It Actually Matter?</title>
       <link>https://jamesm.blog/ai/llm-context-window-arms-race/</link>
-      <pubDate>Thu, 09 Apr 2026 06:14:00 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 06:14:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/llm-context-window-arms-race/</guid>
       <description>The obsession with massive context windows misses what actually matters in production LLM systems</description>
     </item>
     <item>
-      <title>Open WebUI: A Polished Interface for Local and Remote LLMs</title>
-      <link>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</link>
-      <pubDate>Wed, 08 Apr 2026 23:15:00 +0000</pubDate>
-      <guid>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</guid>
-      <description>Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in.</description>
+      <title>AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know</title>
+      <link>https://jamesm.blog/ai/ai-reliability-is-weird/</link>
+      <pubDate>Thu, 09 Apr 2026 22:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/ai/ai-reliability-is-weird/</guid>
+      <description>Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the &amp;#39;builder&amp;#39; is non-deterministic.</description>
     </item>
     <item>
       <title>Claude Code vs Cursor: A 6-Month Comparison</title>
@@ -98,9 +112,16 @@
       <description>After six months of daily use, here is how the two heavyweights of AI-assisted coding compare: the terminal-native Claude Code and the IDE-integrated Cursor.</description>
     </item>
     <item>
+      <title>GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)</title>
+      <link>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</link>
+      <pubDate>Sun, 05 Apr 2026 23:16:25 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</guid>
+      <description>A practical 2026 breakdown of when to rent GPUs versus buy API credits, with cost-per-token figures, break-even thresholds, and a hybrid architecture playbook.</description>
+    </item>
+    <item>
       <title>What Actually Belongs in My AI Dev Stack in 2026</title>
       <link>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</link>
-      <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
+      <pubDate>Sun, 05 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/what-actually-belongs-in-my-ai-dev-stack-2026/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
@@ -111,13 +132,6 @@
 &lt;li&gt;The real shift is treating AI not as a bolt-on assistant but as part of the &lt;strong&gt;workflow architecture itself&lt;/strong&gt;, with each tool assigned a clear, specific responsibility&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;There is a big difference between using AI for development and having an actual AI development stack.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)</title>
-      <link>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</link>
-      <pubDate>Sun, 05 Apr 2026 23:16:25 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/gpu-servers-vs-api-credits/</guid>
-      <description>A practical 2026 breakdown of when to rent GPUs versus buy API credits, with cost-per-token figures, break-even thresholds, and a hybrid architecture playbook.</description>
     </item>
     <item>
       <title>Chatbots &amp; Large Language Models (LLMs)</title>

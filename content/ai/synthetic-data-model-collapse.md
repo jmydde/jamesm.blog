@@ -1,6 +1,6 @@
 ---
 title: "Synthetic Data and Model Collapse: The Quiet Crisis in Training Data"
-date: 2026-05-13T15:00:00+01:00
+date: 2026-05-12T15:00:00+01:00
 draft: true
 tags: ["ai", "training-data", "synthetic-data", "model-collapse", "research", "2026"]
 description: "A grounded look at the training-data crisis underneath 2026's frontier model conversation - the exhaustion of high-quality human text, the model-collapse risk when synthetic data feeds back into training, and how the labs are actually handling the problem."

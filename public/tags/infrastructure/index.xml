@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 May 2026 11:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 17:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI Energy Crisis: Why Data Center Power Will Define the Next Decade</title>
+      <link>https://jamesm.blog/ai/ai-energy-crisis-data-center-power/</link>
+      <pubDate>Mon, 11 May 2026 17:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-energy-crisis-data-center-power/</guid>
+      <description>A grounded look at the energy constraint becoming the binding limit on AI deployment in 2026 - the power demand, the transformer backlogs, the grid interconnect queues, the rising consumer electricity prices, and what it means for the shape of the next decade of compute.</description>
+    </item>
     <item>
       <title>Kubernetes in 2026 - Is It Still Worth the Complexity Tax?</title>
       <link>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</link>
@@ -21,25 +28,25 @@
       <description>Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.</description>
     </item>
     <item>
-      <title>What Comes After Artemis: The Road to a Lunar Gateway</title>
-      <link>https://jamesm.blog/space/lunar-gateway/</link>
-      <pubDate>Thu, 09 Apr 2026 06:50:00 +0100</pubDate>
-      <guid>https://jamesm.blog/space/lunar-gateway/</guid>
-      <description>Beyond Apollo-style moon landings: how the Lunar Gateway transforms humanity&amp;#39;s approach to sustained lunar presence and deep space exploration.</description>
-    </item>
-    <item>
       <title>Token Economics: Why the Cost of AI Isn&#39;t Going Down</title>
       <link>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</link>
-      <pubDate>Thu, 09 Apr 2026 06:40:00 +0100</pubDate>
+      <pubDate>Mon, 13 Apr 2026 06:40:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/token-economics-why-costs-arent-going-down/</guid>
       <description>Despite massive scale and competition, LLM pricing hasn&amp;#39;t meaningfully declined. Here&amp;#39;s why the fundamentals don&amp;#39;t support cheaper AI.</description>
     </item>
     <item>
       <title>Local AI vs Cloud AI: The Tradeoff Landscape in 2026</title>
       <link>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</link>
-      <pubDate>Thu, 09 Apr 2026 06:11:00 +0100</pubDate>
+      <pubDate>Sat, 11 Apr 2026 06:11:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/local-vs-cloud-ai-2026/</guid>
       <description>In 2026, the choice between running AI locally or in the cloud is no longer a binary one. It is a strategic architectural decision based on privacy, latency, and &amp;#39;reasoning density&amp;#39;.</description>
+    </item>
+    <item>
+      <title>What Comes After Artemis: The Road to a Lunar Gateway</title>
+      <link>https://jamesm.blog/space/lunar-gateway/</link>
+      <pubDate>Thu, 09 Apr 2026 06:50:00 +0100</pubDate>
+      <guid>https://jamesm.blog/space/lunar-gateway/</guid>
+      <description>Beyond Apollo-style moon landings: how the Lunar Gateway transforms humanity&amp;#39;s approach to sustained lunar presence and deep space exploration.</description>
     </item>
     <item>
       <title>Polkadot 2026: From Infrastructure to Applications</title>
@@ -53,7 +60,7 @@
     <item>
       <title>Stargate</title>
       <link>https://jamesm.blog/ai/microsoft-openai-stargate/</link>
-      <pubDate>Fri, 29 Mar 2024 22:09:25 +0100</pubDate>
+      <pubDate>Sat, 30 Mar 2024 22:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/microsoft-openai-stargate/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;

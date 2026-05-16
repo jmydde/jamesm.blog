@@ -23,7 +23,7 @@
     <item>
       <title>Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio</title>
       <link>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</link>
-      <pubDate>Wed, 22 Apr 2026 00:12:00 +0100</pubDate>
+      <pubDate>Mon, 27 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/mcp-servers-home-ai-agent/</guid>
       <description>The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac Studio to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability.</description>
     </item>
@@ -37,7 +37,7 @@
     <item>
       <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
       <link>https://jamesm.blog/ai/ollama/</link>
-      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
+      <pubDate>Tue, 14 Apr 2026 08:25:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ollama/</guid>
       <description>A practical guide to Ollama, the platform for running large language models locally, including how to launch OpenClaw and explore its available models.</description>
     </item>

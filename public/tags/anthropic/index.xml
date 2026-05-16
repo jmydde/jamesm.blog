@@ -23,7 +23,7 @@
     <item>
       <title>Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift</title>
       <link>https://jamesm.blog/ai/reasoning-models-2026/</link>
-      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <pubDate>Fri, 08 May 2026 19:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/reasoning-models-2026/</guid>
       <description>A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.</description>
     </item>
@@ -42,18 +42,18 @@
       <description>Anthropic&amp;#39;s Claude Opus 4.7 is now available inside Databricks, bringing 21% fewer document reasoning errors on OfficeQA Pro and first-class Agent Bricks support to governed enterprise workflows.</description>
     </item>
     <item>
+      <title>The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power</title>
+      <link>https://jamesm.blog/ai/claude-mythos-restricted/</link>
+      <pubDate>Mon, 13 Apr 2026 06:12:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/claude-mythos-restricted/</guid>
+      <description>Anthropic&amp;#39;s Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI&amp;#39;s immense power demands unprecedented control.</description>
+    </item>
+    <item>
       <title>Claude Mythos: The AI Benchmark Breaker That Won&#39;t Be Released</title>
       <link>https://jamesm.blog/ai/claude-mythos-benchmarks/</link>
       <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/claude-mythos-benchmarks/</guid>
       <description>Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks.</description>
-    </item>
-    <item>
-      <title>The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power</title>
-      <link>https://jamesm.blog/ai/claude-mythos-restricted/</link>
-      <pubDate>Wed, 08 Apr 2026 06:12:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/claude-mythos-restricted/</guid>
-      <description>Anthropic&amp;#39;s Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI&amp;#39;s immense power demands unprecedented control.</description>
     </item>
     <item>
       <title>Claude Code Source Leak: Anthropic&#39;s 2,000-File Exposure and What It Means</title>

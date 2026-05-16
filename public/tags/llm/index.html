@@ -201,6 +201,38 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/multimodal-ai-2026.jpg" alt="Multimodal AI in 2026 Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Multimodal AI in 2026: Vision &#43; Text &#43; Audio - What&#39;s Actually Useful
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Document understanding is the unglamorous killer application - invoices, contracts, and scanned PDFs that were painful to extract data from are now tractable without dedicated pipelines Vision models still under-deliver on precise spatial reasoning, object counting, and subtle medical or scientific imagery - these remain jobs for specialist models Audio is the modality with the most upside: beyond transcription, it carries tone, pace, and hesitation that text loses, enabling fault detection, emotional analysis, and richer inputs The teams getting real value treat multimodal as an invisible enabling capability within a workflow, not a feature to demo - and they verify high-stakes outputs just as they would text The right question when evaluating multimodal is not “can we use this” but “what specific user problem becomes tractable that previously was not” When the first multimodal frontier models shipped, the demos were genuinely impressive. A photo of a fridge interior with the model suggesting a recipe. A handwritten napkin sketch becoming working code. A short audio clip of a meeting being transcribed, summarised, and structured. It looked, briefly, like the boundary between modalities had collapsed and we were entering a new regime in which models could reason fluidly across text, images, and sound.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-09 08:00:00 +0100 BST'>May 9, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Multimodal AI in 2026: Vision &#43; Text &#43; Audio - What&#39;s Actually Useful" href="https://jamesm.blog/ai/multimodal-ai-2026/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/prompt-caching.jpg" alt="Prompt Caching Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Prompt Caching: The Quiet Performance Win for LLM Applications
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Prompt caching saves the computed representation of a prompt’s static prefix so subsequent requests reuse it rather than recompute it - cached tokens cost roughly 10% of normal input token prices The savings are highest when prompts have a long, identical prefix across requests - system prompts, tool definitions, and few-shot examples can make up 80-90% of total input cost The most common mistake is interpolating variables into the system prompt, which breaks caching silently; fix it by moving all static content to the top and dynamic content to the end Cache lifetimes are bounded (minutes to a few hours per provider) and any change to the prefix - including whitespace - creates a new cache miss Track your cache hit rate explicitly on every LLM dashboard; a dropping hit rate usually signals unintended prompt construction changes, and fixing it is the highest-leverage cost optimisation available If you build LLM applications for any length of time, you eventually notice that you are paying to have the model read the same instructions over and over again. The system prompt, the tool definitions, the few-shot examples, the structured output schema - all of it goes back into the model on every single request, and you pay for the input tokens every single time. For a chatbot doing one or two thousand requests a day this is annoying. For an agent doing tens of thousands of requests with long contexts, it is the dominant cost line.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-09 08:00:00 +0100 BST'>May 9, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Prompt Caching: The Quiet Performance Win for LLM Applications" href="https://jamesm.blog/ai/prompt-caching/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/ai-native-pipelines.jpg" alt="AI-Native Pipelines Banner">
 </figure>
   <header class="entry-header">
@@ -311,41 +343,15 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know
+    <h2 class="entry-hint-parent">Open WebUI: A Polished Interface for Local and Remote LLMs
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Traditional testing assumes determinism - given input X, function f always returns Y - but LLMs are non-deterministic, which breaks assertion-based testing at its foundation The same agentic task run twice may produce different but equally correct code, making exact-output assertions brittle and often useless The new paradigm shifts from “test the code” to “verify the intent”: property-based testing, LLM-as-a-Judge evaluation, golden datasets for regression, and human review for overall correctness Structured outputs enforce syntactic correctness at generation time, but semantic correctness - whether the output actually solves the right problem - still requires layered verification on top The future of AI quality assurance is designing robust evaluation frameworks and measuring properties of acceptable outputs, not writing exhaustive unit tests for code the model may generate differently next time We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in “AI agents that actually work”, and the wider safety framing sits in “AI safety from first principles”.
+    <p>TL;DR Open WebUI is an open-source, ChatGPT-style web interface that connects to local Ollama instances, OpenAI’s API, or any OpenAI-compatible backend It eliminates the friction of command-line LLM tools and supports features like RAG with document uploads, web search, custom prompts, model switching, and multi-user permissions Deployment is a single Docker command; maintenance is lightweight with persistent storage and optional PostgreSQL for multi-instance setups The primary appeal is full data ownership - queries never leave your infrastructure - making it well suited for privacy-conscious users and compliance-bound organizations Open WebUI adds minimal latency since the bottleneck is always the inference engine behind it, not the web interface itself If you’ve spent time running language models locally through Ollama or another inference engine, you’ve probably discovered the same friction point: the command-line experience works, but it’s clunky. You’re juggling terminal windows, managing conversation context manually, managing files through the filesystem.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 22:00:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know" href="https://jamesm.blog/ai/ai-reliability-is-weird/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Structured Outputs: When Your AI Needs to Follow a Schema
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Structured outputs constrain an LLM’s response to match a JSON schema during generation, eliminating the entire class of post-processing parse failures (which occur 2-5% of the time with free-form output) They produce simpler code, more reliable pipelines, and modest inference cost savings (typically 5-15% fewer tokens) in high-volume systems Use structured outputs for data extraction, classification, entity recognition, and API payload generation - not for creative writing or open-ended reasoning Common mistakes include over-constraining schemas with too-strict enums, forgetting that the response format changes, and mistaking schema validity for semantic correctness The trajectory is toward structured outputs becoming the default: schemas will be inferred from English descriptions, and TypeScript types will auto-generate schemas For years, extracting structured data from LLMs meant post-processing their text output: parse JSON, handle edge cases where the model forgot to close a bracket, write validation code to check if the output matched your schema, implement fallback logic when parsing failed.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:17:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Structured Outputs: When Your AI Needs to Follow a Schema" href="https://jamesm.blog/ai/structured-outputs-schema/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The LLM Context Window Arms Race: Does It Actually Matter?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Context window size is the wrong metric to optimise for - attention scales quadratically, so larger windows mean dramatically higher latency and cost with diminishing quality gains Retrieval-augmented generation consistently outperforms stuffing entire documents into a prompt, because focused context beats diluted context What actually matters in production: token efficiency, prompt caching, structured output formats, and intelligent retrieval - not raw window size Large context windows are genuinely useful for whole-document analysis and complex cross-file code review, but wasteful for Q&amp;A, structured extraction, and high-volume routine tasks The teams that will ship faster and scale further are those building intelligent architecture around a 200K context window, not those waiting for 1M-token models Every week brings a new headline: “Model X reaches 1M token context!” “Model Y supports 2M tokens!” The LLM industry seems locked in an arms race where the stated goal is always “bigger context window,” as if this single metric determines whether a model is useful.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:14:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The LLM Context Window Arms Race: Does It Actually Matter?" href="https://jamesm.blog/ai/llm-context-window-arms-race/"></a>
+  <footer class="entry-footer"><span title='2026-04-15 23:15:00 +0000 +0000'>April 15, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Open WebUI: A Polished Interface for Local and Remote LLMs" href="https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

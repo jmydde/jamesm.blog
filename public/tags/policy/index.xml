@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 08:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 17:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/policy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The AI Energy Crisis: Why Data Center Power Will Define the Next Decade</title>
+      <link>https://jamesm.blog/ai/ai-energy-crisis-data-center-power/</link>
+      <pubDate>Mon, 11 May 2026 17:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-energy-crisis-data-center-power/</guid>
+      <description>A grounded look at the energy constraint becoming the binding limit on AI deployment in 2026 - the power demand, the transformer backlogs, the grid interconnect queues, the rising consumer electricity prices, and what it means for the shape of the next decade of compute.</description>
+    </item>
     <item>
       <title>AI Safety From First Principles: What Actually Matters vs What&#39;s Hype</title>
       <link>https://jamesm.blog/ai/ai-safety-first-principles/</link>

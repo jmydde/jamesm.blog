@@ -1,6 +1,6 @@
 ---
 title: "Demis Hassabis: The DeepMind Chief Playing the Long Game"
-date: 2026-05-12T15:00:00+01:00
+date: 2026-05-06T15:00:00+01:00
 draft: true
 tags: ["ai", "deepmind", "google", "people", "agi", "alphafold", "2026"]
 description: "A grounded look at Demis Hassabis - the chess prodigy turned video game designer turned neuroscientist who co-founded DeepMind, won the 2024 Nobel Prize in Chemistry for AlphaFold, and now runs the part of Google trying to build AGI on a longer time horizon than the rest of the industry."

@@ -1,6 +1,6 @@
 ---
 title: "The LLM Context Window Arms Race: Does It Actually Matter?"
-date: 2026-04-09T06:14:00+00:00
+date: 2026-04-11T06:14:00+00:00
 draft: false
 tags: ['llm', 'context window', 'ai', 'practical development']
 description: "The obsession with massive context windows misses what actually matters in production LLM systems"

@@ -1,6 +1,6 @@
 ---
 title: "Meta Is Tracking Its Own Employees to Train AI Agents"
-date: 2026-04-23T08:30:00+01:00
+date: 2026-04-01T08:30:00+01:00
 draft: false
 tags: ["ai", "meta", "privacy", "surveillance", "ai-agent"]
 description: "Meta's Model Capability Initiative is installing monitoring software on US employee laptops to capture keystrokes, clicks, and screenshots - all to train AI agents. There is no opt-out."

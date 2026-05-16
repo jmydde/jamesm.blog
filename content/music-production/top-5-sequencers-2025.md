@@ -1,6 +1,6 @@
 ---
 title: "Top 5 Hardware Sequencers of 2025"
-date: 2025-12-26T20:52:21+01:00
+date: 2025-12-27T20:52:21+01:00
 draft: false
 tags: ['music production', 'hardware sequencers', 'sequencers', 'music hardware']
 ---

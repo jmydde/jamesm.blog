@@ -1,6 +1,6 @@
 ---
 title: "The Year 3026: Thinking Seriously About a Thousand Years From Now"
-date: 2026-04-20T22:03:00+01:00
+date: 2026-04-26T22:03:00+01:00
 draft: false
 tags: ["ai", "future", "society", "philosophy"]
 description: "A thousand years is long enough that nothing we currently call a company, a currency, or a country is likely to survive. What does thinking seriously about 3026 actually look like - and what, if anything, holds its value across that horizon?"

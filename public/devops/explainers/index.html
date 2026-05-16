@@ -80,9 +80,9 @@
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="devops">
-    <meta property="article:published_time" content="2023-12-16T09:36:18+01:00">
-    <meta property="article:modified_time" content="2023-12-16T09:36:18+01:00">
-    <meta property="article:tag" content="Devops">
+    <meta property="article:published_time" content="2023-12-15T09:36:18+01:00">
+    <meta property="article:modified_time" content="2023-12-15T09:36:18+01:00">
+    <meta property="article:tag" content="DevOps">
     <meta property="article:tag" content="Education">
     <meta property="article:tag" content="Explainer">
     <meta property="article:tag" content="Api">
@@ -129,8 +129,8 @@
   "articleBody": "Most engineering concepts are easier than they look once someone explains them clearly. This page collects short explainer notes on the fundamentals I find myself re-explaining most often, each paired with the best external visual or video I have found on the topic.\nAPIs An API is a contract: this is what I will accept, this is what I promise to return, this is how I will behave when something goes wrong. Everything else - REST, GraphQL, gRPC, WebSockets - is just a different way of expressing that contract over the wire.\nTypes of API testing There are nine commonly-cited categories of API test: functional, load, security, reliability, runtime error, validation, UI, penetration, and fuzz. In practice most teams do contract tests and load tests well, security tests occasionally, and the rest intermittently.\nExplaining 9 types of API testing. The method to download the high-resolution PDF is available at the end.\n🔹 Smoke Testing\nThis is done after API development is complete. Simply validate if the APIs are working and nothing breaks.\n🔹 Functional Testing\nThis creates a test plan… pic.twitter.com/SIsERpQVX9\n— Alex Xu (@alexxubyte) October 26, 2023 API vs SDK An API is the contract; an SDK is a wrapper library that makes calling the API in a specific language less painful. You can always call the API directly - you almost never should, because the SDK handles retries, pagination, auth, and rate limits for you.\nAPI Vs SDK!\nAPI (Application Programming Interface) and SDK (Software Development Kit) are essential tools in the software development world, but they serve distinct purposes:\nAPI:\nAn API is a set of rules and protocols that allows different software applications and services… pic.twitter.com/cclxtknqRu\n— Alex Xu (@alexxubyte) October 27, 2023 Databases Six database types worth knowing Relational, document, key-value, column-family, graph, and time-series. Most production systems use more than one, picked per workload rather than chosen as a single organisational standard. “Polyglot persistence” is the term, and the hard part is not picking the database - it is keeping them in sync.\n6 Database Types You Must Know\n1. Relational Database 💼\n- Data Model: Organizes data into tables with rows and columns.\n- Examples: MySQL, PostgreSQL, Oracle, SQL Server.\n- Key Features: ACID compliance, strong data consistency, structured data storage, support for SQL… pic.twitter.com/yWZN2OAgfL\n— Nelson Djalo | Amigoscode (@AmigosCode) October 26, 2023 Why is Redis fast The short answer: everything lives in memory, the data structures are purpose-built, and the single-threaded event loop avoids lock contention. The longer answer involves the specifics of epoll, the Redis protocol, and pipelining.\nWhy is Redis Fast?\nRedis is fast for in-memory data storage. Its speed has made it popular for caching, session storage, and real-time analytics. But what gives Redis its blazing speed? Let's explore:\nRAM-Based Storage\nAt its core, Redis primarily uses main memory for storing… pic.twitter.com/yDe4AZ5ojh\n— Sahn Lam (@sahnlam) October 30, 2023 DNS DNS is the phone book of the internet, and like a phone book it is eventually consistent, aggressively cached, and occasionally wrong. Most production outages I have seen that looked like “the internet is broken” were actually DNS - either a stale record, a propagation delay, or a resolver misconfigured somewhere.\nHow DNS Works#infosec #cybersecurity #pentesting #redteam #informationsecurity #CyberSec #networking #networksecurity #infosecurity #cyberattacks #security #linux #cybersecurityawareness #bugbounty #bugbountytips pic.twitter.com/Q41sXGAcg5\n— Hacking Articles (@hackinarticles) October 29, 2023 Git Git’s popularity comes down to three things: it is distributed (every clone is a full copy), branching is cheap enough to be a casual operation, and the content-addressable object model is surprisingly simple once you understand it. The confusion most people hit comes from the command-line interface, which is famously inconsistent, rather than from the model underneath.\nWhat makes Git so popular? How does it work?\nBefore Git, developers struggled with source control. Systems like CVS and Subversion caused:\n- Collaboration Bottlenecks - Pushing to a shared central codebase created bottlenecks and isolated work.\n- Slow Branching/Merging -… pic.twitter.com/KEF4GHyZ8r\n— Sahn Lam (@sahnlam) October 28, 2023 Linux How the Linux boot process works BIOS or UEFI hands control to the bootloader (usually GRUB), which loads the kernel and an initial RAM disk. The kernel mounts the root filesystem and launches PID 1 (systemd on most modern distributions), which then starts every other service according to its dependency graph.\nProgramming Languages How C++, Java, and Python differ under the hood C++ compiles directly to machine code and has no runtime garbage collector - you manage memory yourself. Java compiles to bytecode which runs on the JVM, with a garbage collector and a JIT compiler that optimises hot paths. Python is interpreted (CPython reads bytecode at runtime), dynamically typed, and significantly slower than either for CPU-bound work - which is why the scientific ecosystem pushes heavy computation into C extensions via NumPy and friends.\nHow Do C++, Java, and Python Function? We just made a video on this topic.\nThe illustration details the processes of compilation and execution.\nLanguages that compile transform source code into machine code using a compiler. This machine code can subsequently be run directly by… pic.twitter.com/qFhfIxdCI5\n— Alex Xu (@alexxubyte) October 23, 2023 Further reading High Performance Browser Networking - Ilya Grigorik’s free book covering TCP, TLS, HTTP, and WebRTC in illustrated depth Julia Evans’ zines - illustrated explainers on Linux, networking, Git, and debugging Related Pages DevOps Cheatsheets - reference material to pair with these concepts DevOps Best Practices ",
   "wordCount" : "901",
   "inLanguage": "en",
-  "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2023-12-16T09:36:18+01:00",
-  "dateModified": "2023-12-16T09:36:18+01:00",
+  "image": "https://jamesm.blog/papermod-cover.png","datePublished": "2023-12-15T09:36:18+01:00",
+  "dateModified": "2023-12-15T09:36:18+01:00",
   "author":{
     "@type": "Person",
     "name": "James M"
@@ -259,7 +259,7 @@
     <div class="post-description">
       Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found.
     </div>
-    <div class="post-meta"><span title='2023-12-16 09:36:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span>
+    <div class="post-meta"><span title='2023-12-15 09:36:18 +0100 +0100'>December 15, 2023</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span>
 
 </div>
   </header> <details class="toc" >
@@ -379,7 +379,7 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://jamesm.blog/tags/devops/">Devops</a></li>
+      <li><a href="https://jamesm.blog/tags/devops/">DevOps</a></li>
       <li><a href="https://jamesm.blog/tags/education/">Education</a></li>
       <li><a href="https://jamesm.blog/tags/explainer/">Explainer</a></li>
       <li><a href="https://jamesm.blog/tags/api/">Api</a></li>
@@ -390,13 +390,13 @@
       <li><a href="https://jamesm.blog/tags/programming/">Programming</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://jamesm.blog/ai/courses/">
+  <a class="prev" href="https://jamesm.blog/devops/cheatsheets/">
     <span class="title">« Prev</span>
-    <span>List of AI Courses &amp; Learning Resources</span>
+    <span>DevOps Cheatsheets</span>
   </a>
-  <a class="next" href="https://jamesm.blog/devops/best-practices/">
+  <a class="next" href="https://jamesm.blog/music-production/news/arturia-v-collection-x/">
     <span class="title">Next »</span>
-    <span>DevOps Best Practices</span>
+    <span>News: Arturia Collection X</span>
   </a>
 </nav>
 

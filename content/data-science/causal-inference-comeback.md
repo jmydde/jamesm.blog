@@ -1,11 +1,11 @@
 ---
 title: "The Causal Inference Comeback: Why Correlation-Era ML Hit a Wall"
 date: 2026-05-12T17:00:00+01:00
-draft: true
+draft: false
 tags: ["data", "statistics", "causal", "machine-learning", "method"]
 description: "Causal inference - the methodological tradition that asks 'why' rather than 'what' - is having a quiet renaissance in 2026 as the limits of correlation-based machine learning have become harder to ignore. A look at what has changed, what the practical methods are, and why this matters for anyone using data to make decisions."
 cover:
-  image: /assets/images/data-science/causal-inference-comeback.jpg
+  image: /assets/images/data-science/causal-inference-comeback.png
   alt: The Causal Inference Comeback Banner
 ---
 

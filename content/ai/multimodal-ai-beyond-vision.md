@@ -1,6 +1,6 @@
 ---
 title: "Multimodal AI in 2026: Beyond Vision"
-date: 2026-05-12T11:00:00+01:00
+date: 2026-05-05T11:00:00+01:00
 draft: true
 tags: ["ai", "multimodal", "audio", "video", "robot", "model"]
 description: "Multimodal AI moved past 'a model that can also see images' in 2026. A look at where audio, video, 3D, and embodied inputs actually work now - and where the integration gaps still are."

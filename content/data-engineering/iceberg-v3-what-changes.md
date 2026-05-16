@@ -1,6 +1,6 @@
 ---
 title: "Iceberg V3: What the New Spec Actually Changes"
-date: 2026-05-12T23:00:00+01:00
+date: 2026-05-11T23:00:00+01:00
 draft: true
 tags: ["data", "iceberg", "lakehouse", "format", "table"]
 description: "Apache Iceberg V3 is the most significant change to the format since it became the de facto lakehouse standard. A practical look at what V3 actually adds, which use cases benefit, and what migration looks like."

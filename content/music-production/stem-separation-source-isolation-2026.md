@@ -1,6 +1,6 @@
 ---
 title: "Stem Separation and Source Isolation in 2026: What Actually Works"
-date: 2026-05-12T14:00:00+01:00
+date: 2026-05-11T14:00:00+01:00
 draft: true
 tags: ["music", "ai", "stem", "production", "remix"]
 description: "AI stem separation went from gimmick to professional tool quickly. A practical look at the state of the art in 2026 - what each tool is genuinely good at, where the artefacts still show, and how producers are actually using these in real workflows."

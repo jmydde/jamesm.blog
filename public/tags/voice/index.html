@@ -211,8 +211,24 @@
     <p>TL;DR Goal: Call a real phone number and have a proper back-and-forth with my Mac Studio agent while walking the dog. Hardware: Mac Studio (M2 Ultra, 128 GB) running a local model via Ollama or MLX. Voice pipeline: Twilio SIP in, LiveKit Agents orchestrating STT / LLM / TTS, Whisper for transcription, Piper or ElevenLabs for speech. Brain: A local 30B-class model for chat plus tool calls, with Claude API as a fallback for the harder reasoning. Reach: Tailscale between the Mac and a tiny VPS so I never punch a hole in my home router. Outcome: I can ring a UK landline number, ask “what’s failing on the CI pipeline?” and get a spoken answer in ~2 seconds. Why bother phoning your own agent? Typing is great at a desk. Outside the desk, it’s hopeless. I wanted the simplest possible interface to the box sat under my desk at home - dial a number, talk, hang up. No app, no login, no VPN dance on my phone.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-21 21:48:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-27 21:48:00 +0100 BST'>April 27, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to How to Phone Your Home AI Agent Running on a Mac Studio" href="https://jamesm.blog/ai/phone-your-home-ai-agent/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/speech-to-text.jpg" alt="Speech To Text Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR xAI launched standalone Speech-to-Text (STT) and Text-to-Speech (TTS) APIs built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support Grok’s STT is among the cheapest at $0.10/hour (batch) and $0.20/hour (streaming), with features like speaker diarization, word-level timestamps, and Inverse Text Normalization The TTS offering ships with five expressive voices, inline expression control tags ([laugh], [sigh], whisper), and covers 20 languages - priced at $4.20 per million characters xAI’s pitch is vendor consolidation: replacing three separate contracts (transcription, LLM, synthesis) with one stack on one billing account The best fit is teams already building on Grok for reasoning - for lowest-latency TTS, ElevenLabs Flash v2.5 at ~75ms is still unmatched xAI has released two standalone voice APIs - Speech-to-Text (STT) and Text-to-Speech (TTS) - built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support. The move puts xAI in direct competition with ElevenLabs, Deepgram, and AssemblyAI, three companies that have owned the enterprise voice API market for years.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-24 21:07:00 +0000 +0000'>April 24, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale" href="https://jamesm.blog/ai/grok-voice-apis/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -232,22 +248,6 @@
 </article>
 
 <article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/speech-to-text.jpg" alt="Speech To Text Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR xAI launched standalone Speech-to-Text (STT) and Text-to-Speech (TTS) APIs built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support Grok’s STT is among the cheapest at $0.10/hour (batch) and $0.20/hour (streaming), with features like speaker diarization, word-level timestamps, and Inverse Text Normalization The TTS offering ships with five expressive voices, inline expression control tags ([laugh], [sigh], whisper), and covers 20 languages - priced at $4.20 per million characters xAI’s pitch is vendor consolidation: replacing three separate contracts (transcription, LLM, synthesis) with one stack on one billing account The best fit is teams already building on Grok for reasoning - for lowest-latency TTS, ElevenLabs Flash v2.5 at ~75ms is still unmatched xAI has released two standalone voice APIs - Speech-to-Text (STT) and Text-to-Speech (TTS) - built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support. The move puts xAI in direct competition with ElevenLabs, Deepgram, and AssemblyAI, three companies that have owned the enterprise voice API market for years.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-19 21:07:00 +0000 +0000'>April 19, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale" href="https://jamesm.blog/ai/grok-voice-apis/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">OpenAI Voice Engine
     </h2>
@@ -256,7 +256,7 @@
     <p>TL;DR OpenAI Voice Engine is a text-to-speech model that can clone a realistic voice from just a 15-second audio sample It produces emotive, natural-sounding speech despite using a small model and minimal training data Access has remained in limited preview since its 2024 announcement due to responsible AI concerns around voice cloning and impersonation Approved testers must obtain clear consent from voice providers and inform listeners that voices are AI-generated As of 2026, the technology is restricted to approved partners and researchers rather than general availability About OpenAI’s Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample. It is notable that a small model with a single 15-second sample can create emotive and realistic voices. To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-03-29 23:12:25 +0100 +0100'>March 29, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2024-03-31 23:12:25 +0100 BST'>March 31, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to OpenAI Voice Engine" href="https://jamesm.blog/ai/openai-voice-engine/"></a>
 </article>
     </main>

@@ -1,7 +1,7 @@
 ---
 title: "The Modern Lakehouse Stack: What Actually Belongs in Production"
 date: 2026-05-08T08:00:00+01:00
-draft: true
+draft: false
 tags: ["lakehouse", "data-engineering", "architecture", "iceberg", "databricks", "platform"]
 description: "A working data engineer's view of what genuinely belongs in a 2026 lakehouse stack, the layers that have shaken out, and the parts of the marketing landscape that deserve to be ignored."
 cover:

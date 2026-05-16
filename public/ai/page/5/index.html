@@ -225,36 +225,6 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-cloud-subscriptions.jpg" alt="AI Cloud Subsriptions Icon">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">AI Cloud Subscriptions: Comparing Pricing and Features in 2026
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>AI cloud subscriptions have fragmented into a crowded market. Frontier-lab APIs compete with open-weights challengers, consumer chat plans compete with agent platforms, and every provider is reshuffling model tiers every few months. This guide organizes the 2026 landscape so you can pick a plan without reading six pricing pages.
-For background on how these costs behave over time, see Token Economics: Why Costs Aren’t Going Down and Local vs Cloud AI in 2026.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-19 07:12:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to AI Cloud Subscriptions: Comparing Pricing and Features in 2026" href="https://jamesm.blog/ai/ai-cloud-subscriptions/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Best value: Mac Studio M4 Max at $1,999 for most local LLM work Best prefill speed: DGX Spark at $4,699 (3.8× faster prompt processing) Best token generation: Mac Studio M3 Ultra at $3,999 (819 GB/s bandwidth) Best for fine-tuning: DGX Spark (CUDA ecosystem wins) Best combined setup: DGX Spark &#43; M3 Ultra = 2.8× faster than either alone Introduction The market for personal AI supercomputers has exploded in 2025-2026. Two standout options have emerged: NVIDIA’s DGX Spark and Apple’s Mac Studio lineup. Both promise desktop-scale AI compute, but they approach the problem very differently. This guide breaks down the specs, costs, and real-world performance to help you decide which is right for you.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-19 05:22:00 +0000 UTC'>April 19, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?" href="https://jamesm.blog/ai/dgx-spark-vs-mac-studio/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-resources-best-practices.jpg" alt="AI Resources & Best Practices Banner">
 </figure>
   <header class="entry-header">
@@ -329,6 +299,22 @@ For background on how these costs behave over time, see Token Economics: Why Cos
 
 <article class="post-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/four-futures-machine-speed-economy.jpg" alt="Four Futures Machine Speed Economy Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Four Futures for the Machine-Speed Economy
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR AI is collapsing build times across the entire software stack, meaning small teams can now ship in weeks what once required 50-person organisations working for a year Four plausible futures are mapped: Broad Abundance (gains widely distributed), Winner-Take-Most (rents accrue to infrastructure owners), Techno-Feudalism (intelligence rented from platform landlords), and Managed Transition (governments respond with UBI and regulation) Signals to watch include open-source model performance, vertical integration of chips and data centres, platform lock-in of agentic workflows, and serious UBI pilots at national scale Leading AI researchers including Geoffrey Hinton and Yoshua Bengio argue the critical variable is no longer how capable models become, but how gains are distributed and how fast institutions adapt Across most scenarios, the things that hold their value are consistent: trust, relationships, physical presence, and creativity rooted in specific human experience The pace of AI development over the past three years is genuinely unlike anything in recent economic history. The Stanford AI Index has tracked frontier model capability roughly doubling on a yearly cadence, and private AI investment has reached levels that dwarf the dot-com peak in inflation-adjusted terms. What’s less widely understood is what that pace actually means for competition, investment, and the structure of the economy.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-16 19:26:00 +0100 BST'>April 16, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Four Futures for the Machine-Speed Economy" href="https://jamesm.blog/ai/four-futures-machine-speed-economy/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
             <img loading="lazy"
                 srcset='https://jamesm.blog/images/Claude%20Opus_hu_18242ae3d378f287.png 360w,https://jamesm.blog/images/Claude%20Opus_hu_ff07fc90ef1da4ea.png 480w,https://jamesm.blog/images/Claude%20Opus_hu_ff5a4d474ad54f93.png 720w,https://jamesm.blog/images/Claude%20Opus_hu_224d18cd67f28cdf.png 1080w,https://jamesm.blog/images/Claude%20Opus.png 1254w'
                 src="https://jamesm.blog/images/Claude%20Opus.png"
@@ -350,40 +336,54 @@ For background on how these costs behave over time, see Token Economics: Why Cos
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know
+    <h2 class="entry-hint-parent">Open WebUI: A Polished Interface for Local and Remote LLMs
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Traditional testing assumes determinism - given input X, function f always returns Y - but LLMs are non-deterministic, which breaks assertion-based testing at its foundation The same agentic task run twice may produce different but equally correct code, making exact-output assertions brittle and often useless The new paradigm shifts from “test the code” to “verify the intent”: property-based testing, LLM-as-a-Judge evaluation, golden datasets for regression, and human review for overall correctness Structured outputs enforce syntactic correctness at generation time, but semantic correctness - whether the output actually solves the right problem - still requires layered verification on top The future of AI quality assurance is designing robust evaluation frameworks and measuring properties of acceptable outputs, not writing exhaustive unit tests for code the model may generate differently next time We’ve embraced the future. AI agents like Cline are now the primary “builders” of software, executing complex engineering plans from high-level specifications. As I’ve argued in “The Architect vs The Builder”, the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in “AI agents that actually work”, and the wider safety framing sits in “AI safety from first principles”.
+    <p>TL;DR Open WebUI is an open-source, ChatGPT-style web interface that connects to local Ollama instances, OpenAI’s API, or any OpenAI-compatible backend It eliminates the friction of command-line LLM tools and supports features like RAG with document uploads, web search, custom prompts, model switching, and multi-user permissions Deployment is a single Docker command; maintenance is lightweight with persistent storage and optional PostgreSQL for multi-instance setups The primary appeal is full data ownership - queries never leave your infrastructure - making it well suited for privacy-conscious users and compliance-bound organizations Open WebUI adds minimal latency since the bottleneck is always the inference engine behind it, not the web interface itself If you’ve spent time running language models locally through Ollama or another inference engine, you’ve probably discovered the same friction point: the command-line experience works, but it’s clunky. You’re juggling terminal windows, managing conversation context manually, managing files through the filesystem.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 22:00:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know" href="https://jamesm.blog/ai/ai-reliability-is-weird/"></a>
+  <footer class="entry-footer"><span title='2026-04-15 23:15:00 +0000 +0000'>April 15, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Open WebUI: A Polished Interface for Local and Remote LLMs" href="https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Cline: The Next Generation AI Coding Assistant
+    <h2 class="entry-hint-parent">Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in
     </h2>
   </header>
   <div class="entry-content">
-    <p>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</p>
+    <p>TL;DR Paperless-ngx is a self-hosted, open-source document management system that scans, OCRs, and auto-organizes physical paperwork with no subscription fees or vendor lock-in Documents are automatically tagged and filed using custom rules, and the full archive is searchable by text extracted via OCR Self-hosting options include a local NAS, Docker on a server, a cheap cloud VPS, or even a Raspberry Pi - the system is not computationally demanding The primary benefits over commercial alternatives are complete data ownership, zero recurring cost at scale, and suitability for sensitive documents under HIPAA or GDPR It suits document-heavy professionals and privacy-conscious individuals best; casual users with few documents don’t need it The paper stack on your desk is growing again. Medical records mixed with tax documents, utility bills, insurance forms - all of it scattered across a filing cabinet that’s become increasingly harder to navigate. There’s probably some important document you can’t quite remember where you filed it.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 10:00:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James Myddelton</span></footer>
-  <a class="entry-link" aria-label="post link to Cline: The Next Generation AI Coding Assistant" href="https://jamesm.blog/ai/cline/"></a>
+  <footer class="entry-footer"><span title='2026-04-15 22:21:00 +0000 +0000'>April 15, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in" href="https://jamesm.blog/ai/paperless-ngx-self-hosted-document-management/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Career-Ops: Flipping the Script on AI-Powered Job Search
+    <h2 class="entry-hint-parent">Running AI Models Locally with Ollama: From Setup to OpenClaw
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Career-Ops is an open-source tool built on Claude Code that inverts the job search power dynamic - giving candidates AI-powered evaluation and application tools to match what companies use to filter them Each opportunity is scored across 10 weighted dimensions on an A-F scale, producing a structured comparison that replaces the ad hoc spreadsheet most candidates rely on The system generates ATS-optimized resumes dynamically tailored to each job description and auto-discovers new postings from 45&#43; pre-configured job boards A key design principle is human-in-control: nothing auto-submits, the AI recommends and the candidate decides, making it a decision-support system rather than an automation Career-Ops is a clean example of the broader pattern of AI tools that amplify individual judgment rather than replace it - worth studying for its architecture as much as its use case The job search has long been a one-way mirror - companies deploy AI to filter applications while candidates manually juggle spreadsheets, tailor cover letters, and hope their resume gets past the automated screener. Career-Ops flips that script entirely. Built on Claude Code, it’s an open-source system that gives job seekers their own AI advantage: intelligent evaluation of opportunities, automated customized applications, and systematic candidate strategy.
+    <p>TL;DR Ollama is a lightweight tool for running open-source language models locally with no cloud costs, rate limits, or data leaving your machine Models are managed with simple commands (ollama pull, ollama run) and can be queried via a local HTTP API on localhost:11434 Popular models include Mistral 7B for speed, Llama 2 for all-around performance, and OpenClaw for code and reasoning tasks Running models locally delivers privacy, zero per-token cost, lower latency, and full offline capability You don’t need a GPU to start - a 7B model runs on 8GB of RAM, and Ollama automatically uses 4-bit quantization for larger models Running AI Models Locally with Ollama: From Setup to OpenClaw Ollama has quietly become the go-to tool for developers who want to run large language models on their own machines without relying on APIs. No cloud costs, no rate limits, no sending your prompts to third-party servers. Just you, your hardware, and a surprisingly capable AI model running locally.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 07:25:00 +0000 +0000'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Career-Ops: Flipping the Script on AI-Powered Job Search" href="https://jamesm.blog/ai/career-ops/"></a>
+  <footer class="entry-footer"><span title='2026-04-14 08:25:25 +0100 BST'>April 14, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Running AI Models Locally with Ollama: From Setup to OpenClaw" href="https://jamesm.blog/ai/ollama/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">GitHub Is Now Officially Backing OpenClaw
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, breaking React’s 10-year GitHub milestone in just 60 days The sponsorship is concrete, not symbolic - it includes Copilot Pro&#43; access, dedicated security funding, and scalability support for the project team GitHub sponsors projects that matter for the future of software development, and this backing signals OpenClaw has crossed from “interesting experiment” into infrastructure-level significance The move is a bet that open source AI agents will be central to how software is built in 2026 and beyond, and that GitHub wants to be the home where that class of technology lives and scales OpenClaw’s growth trajectory and now its platform backing make it a clear signal about the direction of agentic, AI-operated software development Two weeks ago, GitHub made a quiet but significant announcement: they are now an official sponsor of OpenClaw.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-14 08:05:00 +0100 BST'>April 14, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to GitHub Is Now Officially Backing OpenClaw" href="https://jamesm.blog/ai/github-backing-openclaw/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

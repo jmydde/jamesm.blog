@@ -225,6 +225,70 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
 
 <article class="post-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/agent-first-architecture.jpg" alt="Agent-First Architecture Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Agent-First Architecture: The Engineer as System Curator
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Agent-first architecture imagines a future where the primary unit of work is an AI agent with intent, tools, memory, and a feedback loop - not a human-authored codebase The engineer’s role may shift from building and maintaining systems line by line to curating, governing, and evolving fleets of agents Glue code, routine maintenance, first-pass incident triage, and migration work are plausible candidates for automation; deciding what a system is for and holding architectural intent across time probably are not Managing an agent fleet might resemble logistics fleet management: define intent, set constraints, design feedback loops, curate the roster, and own the outcomes This is a speculative post, not a description of how anything works today - the author is pinning down a hypothesis to revisit when it turns out to be wrong This is a “thinking out loud” post, not a report from the front lines. I have no evidence any of this is happening at scale, and it is not how my current day job looks. These are just ideas I keep turning over, and I wanted to write them down to see if they hold together.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-23 21:01:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Agent-First Architecture: The Engineer as System Curator" href="https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/chatgpt-images-2.png" alt="AI generated image">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ChatGPT Images 2.0: Why Everyone Is Impressed
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR ChatGPT Images 2.0 introduces a thinking mode that reasons through complex prompts before generating, dramatically improving instruction-following for multi-part requests Text rendering is finally reliable - legible across English, Japanese, Korean, Chinese, Hindi, and Bengali - unlocking infographics, menus, and slides as genuine use cases Web search during generation means Images 2.0 can pull accurate, current data into visual outputs rather than fabricating plausible-looking information Batch generation produces up to eight images from one prompt with consistent characters and style across all of them, solving a long-standing problem for narrative and sequential content The overall shift is from toy to tool: outputs are more predictable, less stylistically over-processed, and viable for production work rather than just prototyping A year ago, OpenAI’s image generation went viral for Studio Ghibli portraits. That was GPT Image 1 - impressive, playful, and fundamentally still a party trick. ChatGPT Images 2.0, released on April 22nd 2026, is a different thing entirely. It’s the version that starts to look genuinely useful.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-23 06:52:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to ChatGPT Images 2.0: Why Everyone Is Impressed" href="https://jamesm.blog/ai/chatgpt-images-2/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-intelligence.jpg" alt="AI Law and Regulation">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI Law Is No Longer Theoretical: What&#39;s Here, What&#39;s Coming, and What It Means
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The EU AI Act is now in force with full enforcement of high-risk AI requirements from August 2026, carrying fines of up to 7% of global turnover - this is no longer a distant deadline Over fifty copyright lawsuits against AI developers are working through US courts, and the EU Copyright Directive puts the burden of verifying training data rights on the AI developer, not the rights holder Courts in multiple jurisdictions are consistently finding that deploying AI does not transfer liability to the vendor - “the AI did it” is not a defence that holds up The US has no comprehensive federal AI law; instead, businesses must navigate a patchwork of state statutes (California, Colorado, New York, Texas) alongside existing federal agency enforcement from the FTC, CFPB, and FDA The “move fast and figure out the legal stuff later” era is over - enough of the legal framework has arrived that the gaps are no longer a safe place to operate For the past few years, AI law has been one of those topics that felt perpetually five minutes away. Governments would announce frameworks. Committees would publish white papers. Experts would debate what the rules should eventually look like.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-22 21:00:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Law Is No Longer Theoretical: What&#39;s Here, What&#39;s Coming, and What It Means" href="https://jamesm.blog/ai/ai-law-trends-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg" alt="Home AI Agent Memory That Lasts Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Giving Your Home AI Agent Memory That Lasts
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Problem: a home agent with tools but no memory is a very well-read goldfish. Every morning it re-meets you. Answer: split memory into three layers - working, episodic, and semantic - and give each layer its own store and its own rules for what gets written. Where it lives: SQLite for episodic and facts, a local vector store for semantic search, and a tiny policy file that decides what is worth remembering in the first place. How it plugs in: a memory MCP server that exposes recall, remember, and forget - nothing else. Result: the agent can say “last Tuesday we tried restarting the Postgres container and it worked” and mean it. It also knows what not to store. The Goldfish Problem The home agent I built over the last few weeks can do real things now. It can read my mail, move files around my workspace, turn lights off, and check my calendar. What it could not do, until this week, was remember any of it.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-22 19:30:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Memory That Lasts" href="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-tooling-learning-path.jpg" alt="AI Tooling Learning Path Banner">
 </figure>
   <header class="entry-header">
@@ -253,54 +317,6 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
   </div>
   <footer class="entry-footer"><span title='2026-04-21 06:36:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Amazon Doubles Down: The $25 Billion Anthropic Bet" href="https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/the-year-3026.jpg" alt="The Year 3026 Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Year 3026: Thinking Seriously About a Thousand Years From Now
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Over a thousand years, the substrate of civilisation changes beyond recognition, but the human core - love, grief, storytelling, the search for meaning - almost certainly does not Computation and energy will have hit their physical cost floors by 3026; intelligence is ambient, woven into the environment so thoroughly that “using AI” becomes as meaningless a phrase as “using oxygen” The built environment is almost certainly at solar-system scale - with the Earth a protected biosphere and heavy industry, compute, and energy capture distributed across the inner solar system No company, currency, or nation founded in 2026 is likely to survive in any meaningful continuity; the middle layer of institutions gets hollowed out, leaving fewer but far longer-lived structures The decisions being made right now - on AI safety, climate, and coordination - have genuinely astronomical consequences, because they determine whether there is a 3026 worth having at all Most writing about the future of AI stops at ten years. A few brave pieces stretch to fifty. I wrote one of the ten-year ones myself in The Next Decade of AI, and the honest reason the horizon stays short is that the uncertainty gets unmanageable much past that. Forecasting even the shape of the economy in 2040 is already mostly vibes.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-20 22:03:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>14 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Year 3026: Thinking Seriously About a Thousand Years From Now" href="https://jamesm.blog/ai/the-year-3026/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/the-year-2126.jpg" alt="The Year 2126 Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Year 2126: What the Next Hundred Years Actually Looks Like
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR By 2126, clean energy, most infectious disease, and routine cognitive work are almost certainly solved - the AI transition will look as obvious in hindsight as the car replacing the horse Climate is the hardest unsolved problem: the outcome depends on decisions made in the next thirty years, and 2126 inherits either a managed problem or a civilisation in partial retreat The demographic inversion is one of the most structurally important facts - global population peaks around 2060-2080 then declines, leaving a world where a hundred-year-old is ordinary and a child is rare and socially valued Human work shifts toward human-presence roles, stewardship of powerful systems, physical craft, meaning-making, and accountability - the categories that cannot be automated The decade we are in now is one that 2126 will study closely; the decisions made about AI safety, climate, and institutional reform are visibly reflected in the outcome a century later A hundred years is a useful distance. Long enough that the current news cycle is ancient history, short enough that some people alive in 2126 will have living memory of people who were alive in 2026. The children being born this week have a non-trivial chance of being interviewed, in their late nineties, about what the early AI era was actually like. That matters. It makes the 100-year horizon a question about the world people we know will inherit, not an abstract one.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-20 21:02:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>17 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Year 2126: What the Next Hundred Years Actually Looks Like" href="https://jamesm.blog/ai/the-year-2126/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/reading-the-signals-four-futures.jpg" alt="Reading the Signals Four Futures Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Reading the Signals: Which of the Four Futures Is Actually Emerging?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Scoring four future scenarios against real-world signals: winner-take-most has the clearest corporate and capital logic behind it as of April 2026, driven by vertical integration across chips, data centres, models, and distribution Broad abundance gets partial credit - inference costs have fallen two orders of magnitude and open-weight models are competitive, but institutional-level gains in healthcare and education haven’t materialized Techno-feudalism is quietly accumulating through agentic platform lock-in (Claude Code, Cursor, Devin) and payment rail consolidation, with competition enforcement as the main counterweight Managed transition is the weakest scenario - UBI pilots haven’t scaled nationally, compute taxation remains a proposal, and institutional response cycles are mismatched with AI deployment speed The three signals that will determine where this goes: whether the open-weight frontier gap widens or closes, whether agentic memory becomes portable or platform-owned, and whether any serious economy moves past pilot-scale on redistribution I recently mapped four plausible futures for the machine-speed economy and listed the signals to watch for each. The obvious next question is the one I deliberately held back from answering: which signals are actually firing right now, and what does the mix say about where we’re heading?
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-20 20:45:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Reading the Signals: Which of the Four Futures Is Actually Emerging?" href="https://jamesm.blog/ai/reading-the-signals-four-futures/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -337,50 +353,32 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/speech-to-text.jpg" alt="Speech To Text Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-cloud-subscriptions.jpg" alt="AI Cloud Subsriptions Icon">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale
+    <h2 class="entry-hint-parent">AI Cloud Subscriptions: Comparing Pricing and Features in 2026
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR xAI launched standalone Speech-to-Text (STT) and Text-to-Speech (TTS) APIs built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support Grok’s STT is among the cheapest at $0.10/hour (batch) and $0.20/hour (streaming), with features like speaker diarization, word-level timestamps, and Inverse Text Normalization The TTS offering ships with five expressive voices, inline expression control tags ([laugh], [sigh], whisper), and covers 20 languages - priced at $4.20 per million characters xAI’s pitch is vendor consolidation: replacing three separate contracts (transcription, LLM, synthesis) with one stack on one billing account The best fit is teams already building on Grok for reasoning - for lowest-latency TTS, ElevenLabs Flash v2.5 at ~75ms is still unmatched xAI has released two standalone voice APIs - Speech-to-Text (STT) and Text-to-Speech (TTS) - built on the same stack powering Grok Voice, Tesla in-vehicle assistants, and Starlink customer support. The move puts xAI in direct competition with ElevenLabs, Deepgram, and AssemblyAI, three companies that have owned the enterprise voice API market for years.
+    <p>AI cloud subscriptions have fragmented into a crowded market. Frontier-lab APIs compete with open-weights challengers, consumer chat plans compete with agent platforms, and every provider is reshuffling model tiers every few months. This guide organizes the 2026 landscape so you can pick a plan without reading six pricing pages.
+For background on how these costs behave over time, see Token Economics: Why Costs Aren’t Going Down and Local vs Cloud AI in 2026.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-19 21:07:00 +0000 +0000'>April 19, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale" href="https://jamesm.blog/ai/grok-voice-apis/"></a>
+  <footer class="entry-footer"><span title='2026-04-19 07:12:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Cloud Subscriptions: Comparing Pricing and Features in 2026" href="https://jamesm.blog/ai/ai-cloud-subscriptions/"></a>
 </article>
 
 <article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/four-futures-machine-speed-economy.jpg" alt="Four Futures Machine Speed Economy Banner">
-</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Four Futures for the Machine-Speed Economy
+    <h2 class="entry-hint-parent">DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR AI is collapsing build times across the entire software stack, meaning small teams can now ship in weeks what once required 50-person organisations working for a year Four plausible futures are mapped: Broad Abundance (gains widely distributed), Winner-Take-Most (rents accrue to infrastructure owners), Techno-Feudalism (intelligence rented from platform landlords), and Managed Transition (governments respond with UBI and regulation) Signals to watch include open-source model performance, vertical integration of chips and data centres, platform lock-in of agentic workflows, and serious UBI pilots at national scale Leading AI researchers including Geoffrey Hinton and Yoshua Bengio argue the critical variable is no longer how capable models become, but how gains are distributed and how fast institutions adapt Across most scenarios, the things that hold their value are consistent: trust, relationships, physical presence, and creativity rooted in specific human experience The pace of AI development over the past three years is genuinely unlike anything in recent economic history. The Stanford AI Index has tracked frontier model capability roughly doubling on a yearly cadence, and private AI investment has reached levels that dwarf the dot-com peak in inflation-adjusted terms. What’s less widely understood is what that pace actually means for competition, investment, and the structure of the economy.
+    <p>TL;DR Best value: Mac Studio M4 Max at $1,999 for most local LLM work Best prefill speed: DGX Spark at $4,699 (3.8× faster prompt processing) Best token generation: Mac Studio M3 Ultra at $3,999 (819 GB/s bandwidth) Best for fine-tuning: DGX Spark (CUDA ecosystem wins) Best combined setup: DGX Spark &#43; M3 Ultra = 2.8× faster than either alone Introduction The market for personal AI supercomputers has exploded in 2025-2026. Two standout options have emerged: NVIDIA’s DGX Spark and Apple’s Mac Studio lineup. Both promise desktop-scale AI compute, but they approach the problem very differently. This guide breaks down the specs, costs, and real-world performance to help you decide which is right for you.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-19 19:26:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Four Futures for the Machine-Speed Economy" href="https://jamesm.blog/ai/four-futures-machine-speed-economy/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-intelligence.jpg" alt="AI Intelligence Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Next Decade of AI: What Actually Happens From Here
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR AI will not arrive as a single dramatic event - it will be a slow, uneven embedding of intelligence into ordinary software until it becomes invisible infrastructure, like electricity The agent layer will eat the interface: for a growing share of tasks, humans will give high-level intent to an agent that drives other software on their behalf, making the SaaS dashboard model look dated The scarce resource shifts from generating answers to judging which answer is right - hiring, education, and professional identity will all restructure around this AI splits into two permanent species: powerful, expensive frontier models in the cloud, and fast, private, cheap local models - with hybrid architectures winning in practice Reliability, not capability, becomes the dominant engineering problem as agents move from co-pilots to operators; the field must invent new testing and monitoring disciplines for non-deterministic systems Most predictions about the future of AI fall into two flavours. One camp says we are months away from machines that can do everything a human can do, and we should brace for either paradise or extinction. The other camp says the whole thing is a bubble, the models have plateaued, and in five years we will be talking about something else.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-19 07:55:00 +0100 BST'>April 19, 2026</span>&nbsp;·&nbsp;<span>12 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Next Decade of AI: What Actually Happens From Here" href="https://jamesm.blog/ai/the-next-decade-of-ai/"></a>
+  <footer class="entry-footer"><span title='2026-04-19 05:22:00 +0000 UTC'>April 19, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?" href="https://jamesm.blog/ai/dgx-spark-vs-mac-studio/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

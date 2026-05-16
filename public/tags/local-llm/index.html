@@ -217,18 +217,18 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg" alt="Home AI Agent Memory That Lasts Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/phone-agent.jpg" alt="Phone Your Home AI Agent Banner">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Giving Your Home AI Agent Memory That Lasts
+    <h2 class="entry-hint-parent">How to Phone Your Home AI Agent Running on a Mac Studio
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Problem: a home agent with tools but no memory is a very well-read goldfish. Every morning it re-meets you. Answer: split memory into three layers - working, episodic, and semantic - and give each layer its own store and its own rules for what gets written. Where it lives: SQLite for episodic and facts, a local vector store for semantic search, and a tiny policy file that decides what is worth remembering in the first place. How it plugs in: a memory MCP server that exposes recall, remember, and forget - nothing else. Result: the agent can say “last Tuesday we tried restarting the Postgres container and it worked” and mean it. It also knows what not to store. The Goldfish Problem The home agent I built over the last few weeks can do real things now. It can read my mail, move files around my workspace, turn lights off, and check my calendar. What it could not do, until this week, was remember any of it.
+    <p>TL;DR Goal: Call a real phone number and have a proper back-and-forth with my Mac Studio agent while walking the dog. Hardware: Mac Studio (M2 Ultra, 128 GB) running a local model via Ollama or MLX. Voice pipeline: Twilio SIP in, LiveKit Agents orchestrating STT / LLM / TTS, Whisper for transcription, Piper or ElevenLabs for speech. Brain: A local 30B-class model for chat plus tool calls, with Claude API as a fallback for the harder reasoning. Reach: Tailscale between the Mac and a tiny VPS so I never punch a hole in my home router. Outcome: I can ring a UK landline number, ask “what’s failing on the CI pipeline?” and get a spoken answer in ~2 seconds. Why bother phoning your own agent? Typing is great at a desk. Outside the desk, it’s hopeless. I wanted the simplest possible interface to the box sat under my desk at home - dial a number, talk, hang up. No app, no login, no VPN dance on my phone.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-22 19:30:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Memory That Lasts" href="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/"></a>
+  <footer class="entry-footer"><span title='2026-04-27 21:48:00 +0100 BST'>April 27, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to How to Phone Your Home AI Agent Running on a Mac Studio" href="https://jamesm.blog/ai/phone-your-home-ai-agent/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -243,24 +243,24 @@
     <p>TL;DR Problem: a local agent that can only chat is a toy. The value is in what it can do. Answer: Model Context Protocol servers, running locally on the Mac Studio, expose filesystem, calendar, mail, notes, and a handful of custom tools. Runtime: one supervisord config, a small router, and per-server allowlists so nothing escapes its box. Security posture: no tool runs without a policy, secrets live in the macOS Keychain, and every call is logged to a local SQLite file I can grep at 11pm. Result: I can phone the agent (see How to Phone Your Home AI Agent), ask “move the CI failure email to triage and put a 15 minute hold on my calendar at 4”, and it actually does it. Why MCP and Not “Just Functions” Before MCP I had a directory of half-finished Python shims. Each one spoke a slightly different dialect: one took JSON arguments, one took positional args, one returned markdown and one returned a dict. Adding a new tool meant editing the agent prompt, the router, and the caller.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-22 00:12:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-27 00:12:00 +0100 BST'>April 27, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio" href="https://jamesm.blog/ai/mcp-servers-home-ai-agent/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/phone-agent.jpg" alt="Phone Your Home AI Agent Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg" alt="Home AI Agent Memory That Lasts Banner">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Phone Your Home AI Agent Running on a Mac Studio
+    <h2 class="entry-hint-parent">Giving Your Home AI Agent Memory That Lasts
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Goal: Call a real phone number and have a proper back-and-forth with my Mac Studio agent while walking the dog. Hardware: Mac Studio (M2 Ultra, 128 GB) running a local model via Ollama or MLX. Voice pipeline: Twilio SIP in, LiveKit Agents orchestrating STT / LLM / TTS, Whisper for transcription, Piper or ElevenLabs for speech. Brain: A local 30B-class model for chat plus tool calls, with Claude API as a fallback for the harder reasoning. Reach: Tailscale between the Mac and a tiny VPS so I never punch a hole in my home router. Outcome: I can ring a UK landline number, ask “what’s failing on the CI pipeline?” and get a spoken answer in ~2 seconds. Why bother phoning your own agent? Typing is great at a desk. Outside the desk, it’s hopeless. I wanted the simplest possible interface to the box sat under my desk at home - dial a number, talk, hang up. No app, no login, no VPN dance on my phone.
+    <p>TL;DR Problem: a home agent with tools but no memory is a very well-read goldfish. Every morning it re-meets you. Answer: split memory into three layers - working, episodic, and semantic - and give each layer its own store and its own rules for what gets written. Where it lives: SQLite for episodic and facts, a local vector store for semantic search, and a tiny policy file that decides what is worth remembering in the first place. How it plugs in: a memory MCP server that exposes recall, remember, and forget - nothing else. Result: the agent can say “last Tuesday we tried restarting the Postgres container and it worked” and mean it. It also knows what not to store. The Goldfish Problem The home agent I built over the last few weeks can do real things now. It can read my mail, move files around my workspace, turn lights off, and check my calendar. What it could not do, until this week, was remember any of it.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-21 21:48:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to How to Phone Your Home AI Agent Running on a Mac Studio" href="https://jamesm.blog/ai/phone-your-home-ai-agent/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 19:30:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Memory That Lasts" href="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -294,7 +294,7 @@
 The landscape has shifted because the hardware caught up to the software. With the prevalence of unified memory on Apple Silicon and the accessibility of 24GB&#43; VRAM cards like the RTX 50-series, the “local” ceiling has been smashed.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-09 06:11:00 +0100 BST'>April 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-11 06:11:00 +0100 BST'>April 11, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Local AI vs Cloud AI: The Tradeoff Landscape in 2026" href="https://jamesm.blog/ai/local-vs-cloud-ai-2026/"></a>
 </article>
     </main>

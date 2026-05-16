@@ -11,12 +11,19 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 May 2026 18:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/cost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Caching: The Quiet Performance Win for LLM Applications</title>
+      <link>https://jamesm.blog/ai/prompt-caching/</link>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/prompt-caching/</guid>
+      <description>What prompt caching actually is, why it is the highest-leverage performance and cost optimisation available to most LLM applications, and the patterns that determine whether you get a 90 percent cost reduction or no benefit at all.</description>
+    </item>
     <item>
       <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
       <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
-      <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
+      <pubDate>Sat, 02 May 2026 18:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
       <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
     </item>

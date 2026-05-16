@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 07:53:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Open Weight Models Renaissance: Llama, Mistral, Qwen, DeepSeek</title>
+      <link>https://jamesm.blog/ai/open-weight-models-renaissance/</link>
+      <pubDate>Sun, 10 May 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/open-weight-models-renaissance/</guid>
+      <description>Open-weight models are no longer the cheap alternative - in 2026 they are credible defaults for many workloads. A walk through where Llama, Mistral, Qwen, and DeepSeek actually sit relative to closed frontier models, and what changed in the last 18 months.</description>
+    </item>
     <item>
       <title>Apache Iceberg in 2026: The Open Table Format That Won</title>
       <link>https://jamesm.blog/data-engineering/apache-iceberg-2026/</link>
@@ -35,39 +42,39 @@
       <description>Snowflake Storage for Apache Iceberg is now available on AWS and Azure, enabling enterprise-grade reliability and governance for open data formats while breaking vendor lock-in.</description>
     </item>
     <item>
-      <title>Cline: The Next Generation AI Coding Assistant</title>
-      <link>https://jamesm.blog/ai/cline/</link>
-      <pubDate>Thu, 09 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/cline/</guid>
-      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
-    </item>
-    <item>
-      <title>The Rise of Small Language Models: Why Size Isn&#39;t Everything</title>
-      <link>https://jamesm.blog/ai/small-language-models/</link>
-      <pubDate>Thu, 09 Apr 2026 06:03:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/small-language-models/</guid>
-      <description>Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development.</description>
-    </item>
-    <item>
       <title>Open WebUI: A Polished Interface for Local and Remote LLMs</title>
       <link>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</link>
-      <pubDate>Wed, 08 Apr 2026 23:15:00 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 23:15:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/open-webui-self-hosted-llm-interface/</guid>
       <description>Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in.</description>
     </item>
     <item>
       <title>Running AI Models Locally with Ollama: From Setup to OpenClaw</title>
       <link>https://jamesm.blog/ai/ollama/</link>
-      <pubDate>Wed, 08 Apr 2026 08:25:25 +0100</pubDate>
+      <pubDate>Tue, 14 Apr 2026 08:25:25 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ollama/</guid>
       <description>A practical guide to Ollama, the platform for running large language models locally, including how to launch OpenClaw and explore its available models.</description>
     </item>
     <item>
       <title>GitHub Is Now Officially Backing OpenClaw</title>
       <link>https://jamesm.blog/ai/github-backing-openclaw/</link>
-      <pubDate>Wed, 08 Apr 2026 08:05:00 +0100</pubDate>
+      <pubDate>Tue, 14 Apr 2026 08:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/github-backing-openclaw/</guid>
       <description>GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, providing Copilot Pro&#43; and security funding.</description>
+    </item>
+    <item>
+      <title>The Rise of Small Language Models: Why Size Isn&#39;t Everything</title>
+      <link>https://jamesm.blog/ai/small-language-models/</link>
+      <pubDate>Sun, 12 Apr 2026 06:03:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/small-language-models/</guid>
+      <description>Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development.</description>
+    </item>
+    <item>
+      <title>Cline: The Next Generation AI Coding Assistant</title>
+      <link>https://jamesm.blog/ai/cline/</link>
+      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline/</guid>
+      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
     </item>
     <item>
       <title>Following the Money: Databricks vs Snowflake vs the Open-Source Alternative</title>

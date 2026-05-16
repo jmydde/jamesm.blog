@@ -1,6 +1,6 @@
 ---
 title: "Physical Modeling Synthesis: The Underrated Future of Sound Design"
-date: 2026-05-02T09:00:00+01:00
+date: 2026-05-03T09:00:00+01:00
 draft: false
 tags: ['physical modeling', 'synthesis', 'sound design', 'future tech']
 description: "Why physical modeling - not sampling or wavetables - is the next frontier in expressive digital instruments"

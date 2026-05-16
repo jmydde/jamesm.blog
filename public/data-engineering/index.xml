@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 May 2026 07:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-Time Data Processing: Stream Processing vs Batch Processing</title>
+      <link>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</link>
+      <pubDate>Sun, 10 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</guid>
+      <description>A direct comparison of stream and batch processing as architectural choices, the operational and cost tradeoffs that the marketing material does not mention, and the patterns that work when you need both.</description>
+    </item>
+    <item>
+      <title>The Modern Lakehouse Stack: What Actually Belongs in Production</title>
+      <link>https://jamesm.blog/data-engineering/modern-lakehouse-stack/</link>
+      <pubDate>Fri, 08 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/modern-lakehouse-stack/</guid>
+      <description>A working data engineer&amp;#39;s view of what genuinely belongs in a 2026 lakehouse stack, the layers that have shaken out, and the parts of the marketing landscape that deserve to be ignored.</description>
+    </item>
     <item>
       <title>ETL Tools &amp; Data Integration Platforms</title>
       <link>https://jamesm.blog/data-engineering/etl-tools/</link>
@@ -28,18 +42,18 @@
       <description>Most data pipelines were designed to feed dashboards and analysts. In 2026 a growing share of pipeline output is being consumed by language models, agents, and other non-human readers. The shape of the pipeline changes more than people realise when the consumer is no longer a human.</description>
     </item>
     <item>
-      <title>The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie</title>
-      <link>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</link>
-      <pubDate>Sun, 03 May 2026 15:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</guid>
-      <description>The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run.</description>
-    </item>
-    <item>
       <title>Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over</title>
       <link>https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/</link>
       <pubDate>Sun, 03 May 2026 14:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/iceberg-vs-delta-vs-hudi-2026/</guid>
       <description>The open table format wars dominated the lakehouse conversation for five years. In 2026 the picture has settled. A grounded look at where Iceberg, Delta, and Hudi actually stand, who won which battles, and what that means for the people who have to choose.</description>
+    </item>
+    <item>
+      <title>The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie</title>
+      <link>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</link>
+      <pubDate>Sat, 02 May 2026 15:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</guid>
+      <description>The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run.</description>
     </item>
     <item>
       <title>Apache Iceberg in 2026: The Open Table Format That Won</title>
@@ -70,6 +84,13 @@
       <description>Deep dive into the shifting economics of the data landscape in 2026: why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack saves money.</description>
     </item>
     <item>
+      <title>Lakeflow Declarative Pipelines: From DLT to Production</title>
+      <link>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</link>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</guid>
+      <description>From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026.</description>
+    </item>
+    <item>
       <title>Modern Data Engineering on Databricks (2026 Guide)</title>
       <link>https://jamesm.blog/data-engineering/modern-data-engineering-databricks-2026/</link>
       <pubDate>Mon, 06 Apr 2026 00:19:31 +0100</pubDate>
@@ -82,20 +103,6 @@
       <pubDate>Sun, 05 Apr 2026 20:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/blogs/</guid>
       <description>Curated list of Data Engineering blogs covering ETL/ELT, data warehousing, orchestration, and modern data stack best practices.</description>
-    </item>
-    <item>
-      <title>Lakeflow Declarative Pipelines: From DLT to Production</title>
-      <link>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</link>
-      <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/data-engineering/lakeflow-declarative-pipelines-2026/</guid>
-      <description>From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026.</description>
-    </item>
-    <item>
-      <title>Unity Catalog in Practice: Lessons From the Field</title>
-      <link>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</link>
-      <pubDate>Sun, 05 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</guid>
-      <description>Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings.</description>
     </item>
     <item>
       <title>Databricks vs Snowflake in 2026: An Honest Comparison</title>
@@ -112,18 +119,25 @@
       <description>Comprehensive curated list of data engineering and data science courses from Coursera, DataCamp, A Cloud Guru, Udacity, Google Cloud, and other platforms with learning paths and certifications.</description>
     </item>
     <item>
-      <title>Databricks Training &amp; Certification</title>
-      <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>
-      <pubDate>Sat, 04 Apr 2026 20:47:25 +0100</pubDate>
-      <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
-      <description>Complete guide to Databricks certifications with training resources, exam costs, and learning paths</description>
-    </item>
-    <item>
       <title>Databricks CheatSheet</title>
       <link>https://jamesm.blog/data-engineering/databricks-cheatsheet/</link>
       <pubDate>Sat, 04 Apr 2026 20:44:25 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/databricks-cheatsheet/</guid>
       <description>Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns</description>
+    </item>
+    <item>
+      <title>Databricks Training &amp; Certification</title>
+      <link>https://jamesm.blog/data-engineering/databricks-training-certification/</link>
+      <pubDate>Fri, 03 Apr 2026 20:47:25 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/databricks-training-certification/</guid>
+      <description>Complete guide to Databricks certifications with training resources, exam costs, and learning paths</description>
+    </item>
+    <item>
+      <title>Unity Catalog in Practice: Lessons From the Field</title>
+      <link>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</link>
+      <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
+      <guid>https://jamesm.blog/data-engineering/unity-catalog-in-practice-2026/</guid>
+      <description>Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings.</description>
     </item>
   </channel>
 </rss>

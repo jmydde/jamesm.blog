@@ -1,11 +1,11 @@
 ---
 title: "The AI Energy Crisis: Why Data Center Power Will Define the Next Decade"
-date: 2026-05-12T17:00:00+01:00
-draft: true
+date: 2026-05-11T17:00:00+01:00
+draft: false
 tags: ["ai", "energy", "infrastructure", "data-center", "policy", "2026"]
 description: "A grounded look at the energy constraint becoming the binding limit on AI deployment in 2026 - the power demand, the transformer backlogs, the grid interconnect queues, the rising consumer electricity prices, and what it means for the shape of the next decade of compute."
 cover:
-  image: /assets/images/ai/ai-energy-crisis-data-center-power.jpg
+  image: /assets/images/ai/ai-energy-crisis-data-center-power.png
   alt: AI Energy Crisis - Why Data Center Power Will Define the Next Decade Banner
 ---
 

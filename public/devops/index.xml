@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 May 2026 18:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 17:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/devops/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
-      <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
-      <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
-      <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
-    </item>
     <item>
       <title>The eBPF Revolution - What Every Platform Engineer Should Know</title>
       <link>https://jamesm.blog/devops/ebpf-revolution/</link>
@@ -33,6 +26,13 @@
       <pubDate>Sun, 03 May 2026 11:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/devops/kubernetes-2026-complexity-tax/</guid>
       <description>Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now.</description>
+    </item>
+    <item>
+      <title>Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again</title>
+      <link>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</link>
+      <pubDate>Sat, 02 May 2026 18:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/self-hosted-vs-managed-2026/</guid>
+      <description>The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now.</description>
     </item>
     <item>
       <title>Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopting It</title>
@@ -80,13 +80,6 @@
       <description>Comprehensive guide to different types of cyber attacks, attack vectors, and defense strategies for DevOps teams</description>
     </item>
     <item>
-      <title>DevOps Explainers</title>
-      <link>https://jamesm.blog/devops/explainers/</link>
-      <pubDate>Sat, 16 Dec 2023 09:36:18 +0100</pubDate>
-      <guid>https://jamesm.blog/devops/explainers/</guid>
-      <description>Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found.</description>
-    </item>
-    <item>
       <title>DevOps Best Practices</title>
       <link>https://jamesm.blog/devops/best-practices/</link>
       <pubDate>Sat, 16 Dec 2023 09:33:18 +0100</pubDate>
@@ -99,6 +92,13 @@
       <pubDate>Sat, 16 Dec 2023 09:28:18 +0100</pubDate>
       <guid>https://jamesm.blog/devops/cheatsheets/</guid>
       <description>Quick reference guides and cheatsheets for DevOps tools, cloud computing concepts, Linux commands, and Kubernetes operations.</description>
+    </item>
+    <item>
+      <title>DevOps Explainers</title>
+      <link>https://jamesm.blog/devops/explainers/</link>
+      <pubDate>Fri, 15 Dec 2023 09:36:18 +0100</pubDate>
+      <guid>https://jamesm.blog/devops/explainers/</guid>
+      <description>Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found.</description>
     </item>
     <item>
       <title>AWS Summit London (2023) - Video Highlights</title>

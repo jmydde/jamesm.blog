@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/qwen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Open Weight Models Renaissance: Llama, Mistral, Qwen, DeepSeek</title>
+      <link>https://jamesm.blog/ai/open-weight-models-renaissance/</link>
+      <pubDate>Sun, 10 May 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/open-weight-models-renaissance/</guid>
+      <description>Open-weight models are no longer the cheap alternative - in 2026 they are credible defaults for many workloads. A walk through where Llama, Mistral, Qwen, and DeepSeek actually sit relative to closed frontier models, and what changed in the last 18 months.</description>
+    </item>
     <item>
       <title>Which Mac Studio Should You Buy for Running LLMs Locally?</title>
       <link>https://jamesm.blog/ai/mac-studio-local-llm-guide/</link>

@@ -1,6 +1,6 @@
 ---
 title: "Unity Catalog in Practice: Lessons From the Field"
-date: 2026-04-05T14:00:00+00:00
+date: 2026-04-03T14:00:00+00:00
 draft: false
 tags: ['databricks', 'unity-catalog', 'governance', 'data-governance', 'access-control', 'lakehouse']
 description: "Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings."

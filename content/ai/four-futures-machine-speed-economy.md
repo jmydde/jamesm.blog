@@ -1,6 +1,6 @@
 ---
 title: "Four Futures for the Machine-Speed Economy"
-date: 2026-04-19T19:26:00+01:00
+date: 2026-04-16T19:26:00+01:00
 draft: false
 tags: ["ai", "economy", "future", "society"]
 description: "A map of four plausible futures - broad abundance, winner-take-most, techno-feudalism, and a managed transition - with the signals that suggest which one is emerging."

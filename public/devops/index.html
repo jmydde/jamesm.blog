@@ -225,22 +225,6 @@ Navigate the evolution of DevOps in the age of AI agents and platform engineerin
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/self-hosted-vs-managed-2026.jpg" alt="Self-Hosted vs Managed in 2026 Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR The self-hosted vs managed decision in 2026 is genuinely different from the same decision in 2022. The math has shifted in three directions: cloud egress costs, AI workload economics, and self-hosted tooling maturity. Managed remains the right default for most teams. The thing that has changed is that the threshold at which self-hosting becomes worth considering has dropped. Workloads that were obviously managed in 2022 are genuine 50/50 calls in 2026. The most important shift is that self-hosting is no longer synonymous with on-premises. Modern self-hosting often means renting bare-metal in a colocation, running your own clusters in a hyperscaler, or using sovereign cloud providers - all with different economics. For specific categories - AI inference at scale, data egress-heavy workloads, predictable steady-state compute, regulated environments - self-hosting now wins on cost more often than people assume. The honest framing: managed is the right default; self-hosting is the right minority case; the minority is bigger than it used to be. Why This Decision Got Harder For most of the 2010s the answer was easy. Managed services were cheaper than self-hosting once you priced in operational overhead. The cloud providers competed aggressively. Self-hosting was for the regulated, the eccentric, and the very large.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-03 18:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again" href="https://jamesm.blog/devops/self-hosted-vs-managed-2026/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg" alt="The eBPF Revolution Banner">
 </figure>
   <header class="entry-header">
@@ -269,6 +253,22 @@ Navigate the evolution of DevOps in the age of AI agents and platform engineerin
   </div>
   <footer class="entry-footer"><span title='2026-05-03 11:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Kubernetes in 2026 - Is It Still Worth the Complexity Tax?" href="https://jamesm.blog/devops/kubernetes-2026-complexity-tax/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/self-hosted-vs-managed-2026.jpg" alt="Self-Hosted vs Managed in 2026 Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The self-hosted vs managed decision in 2026 is genuinely different from the same decision in 2022. The math has shifted in three directions: cloud egress costs, AI workload economics, and self-hosted tooling maturity. Managed remains the right default for most teams. The thing that has changed is that the threshold at which self-hosting becomes worth considering has dropped. Workloads that were obviously managed in 2022 are genuine 50/50 calls in 2026. The most important shift is that self-hosting is no longer synonymous with on-premises. Modern self-hosting often means renting bare-metal in a colocation, running your own clusters in a hyperscaler, or using sovereign cloud providers - all with different economics. For specific categories - AI inference at scale, data egress-heavy workloads, predictable steady-state compute, regulated environments - self-hosting now wins on cost more often than people assume. The honest framing: managed is the right default; self-hosting is the right minority case; the minority is bigger than it used to be. Why This Decision Got Harder For most of the 2010s the answer was easy. Managed services were cheaper than self-hosting once you priced in operational overhead. The cloud providers competed aggressively. Self-hosting was for the regulated, the eccentric, and the very large.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-02 18:00:00 +0100 BST'>May 2, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again" href="https://jamesm.blog/devops/self-hosted-vs-managed-2026/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -361,16 +361,16 @@ Social Engineering Attacks Phishing remains one of the most effective attack vec
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">DevOps Explainers
+    <h2 class="entry-hint-parent">DevOps Best Practices
     </h2>
   </header>
   <div class="entry-content">
-    <p>Most engineering concepts are easier than they look once someone explains them clearly. This page collects short explainer notes on the fundamentals I find myself re-explaining most often, each paired with the best external visual or video I have found on the topic.
-APIs An API is a contract: this is what I will accept, this is what I promise to return, this is how I will behave when something goes wrong. Everything else - REST, GraphQL, gRPC, WebSockets - is just a different way of expressing that contract over the wire.
+    <p>The views in this post are my own personal reflections on the industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.
+“Best practice” is a phrase that should be treated with suspicion. What works for a fintech running 500 engineers rarely works for a five-person startup. The notes below are generic patterns drawn from public talks, books, and industry write-ups - always weighed against context, team size, and what the system is actually trying to do.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2023-12-16 09:36:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to DevOps Explainers" href="https://jamesm.blog/devops/explainers/"></a>
+  <footer class="entry-footer"><span title='2023-12-16 09:33:18 +0100 +0100'>December 16, 2023</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to DevOps Best Practices" href="https://jamesm.blog/devops/best-practices/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

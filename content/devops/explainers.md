@@ -1,6 +1,6 @@
 ---
 title: "DevOps Explainers"
-date: 2023-12-16T09:36:18+01:00
+date: 2023-12-15T09:36:18+01:00
 draft: false
 tags: ['devops', 'education', 'explainer', 'api', 'database', 'dns', 'git', 'linux', 'programming']
 description: "Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found."

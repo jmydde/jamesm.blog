@@ -197,164 +197,168 @@
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/mcp-servers-home-agent.jpg" alt="MCP Servers for a Home AI Agent Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/agent-first-architecture.jpg" alt="Agent-First Architecture Banner">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio
+    <h2 class="entry-hint-parent">Agent-First Architecture: The Engineer as System Curator
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Problem: a local agent that can only chat is a toy. The value is in what it can do. Answer: Model Context Protocol servers, running locally on the Mac Studio, expose filesystem, calendar, mail, notes, and a handful of custom tools. Runtime: one supervisord config, a small router, and per-server allowlists so nothing escapes its box. Security posture: no tool runs without a policy, secrets live in the macOS Keychain, and every call is logged to a local SQLite file I can grep at 11pm. Result: I can phone the agent (see How to Phone Your Home AI Agent), ask “move the CI failure email to triage and put a 15 minute hold on my calendar at 4”, and it actually does it. Why MCP and Not “Just Functions” Before MCP I had a directory of half-finished Python shims. Each one spoke a slightly different dialect: one took JSON arguments, one took positional args, one returned markdown and one returned a dict. Adding a new tool meant editing the agent prompt, the router, and the caller.
+    <p>TL;DR Agent-first architecture imagines a future where the primary unit of work is an AI agent with intent, tools, memory, and a feedback loop - not a human-authored codebase The engineer’s role may shift from building and maintaining systems line by line to curating, governing, and evolving fleets of agents Glue code, routine maintenance, first-pass incident triage, and migration work are plausible candidates for automation; deciding what a system is for and holding architectural intent across time probably are not Managing an agent fleet might resemble logistics fleet management: define intent, set constraints, design feedback loops, curate the roster, and own the outcomes This is a speculative post, not a description of how anything works today - the author is pinning down a hypothesis to revisit when it turns out to be wrong This is a “thinking out loud” post, not a report from the front lines. I have no evidence any of this is happening at scale, and it is not how my current day job looks. These are just ideas I keep turning over, and I wanted to write them down to see if they hold together.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-22 00:12:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio" href="https://jamesm.blog/ai/mcp-servers-home-ai-agent/"></a>
+  <footer class="entry-footer"><span title='2026-04-23 21:01:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>13 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Agent-First Architecture: The Engineer as System Curator" href="https://jamesm.blog/ai/agent-first-architecture-engineer-as-curator/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/phone-agent.jpg" alt="Phone Your Home AI Agent Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/chatgpt-images-2.png" alt="AI generated image">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Phone Your Home AI Agent Running on a Mac Studio
+    <h2 class="entry-hint-parent">ChatGPT Images 2.0: Why Everyone Is Impressed
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Goal: Call a real phone number and have a proper back-and-forth with my Mac Studio agent while walking the dog. Hardware: Mac Studio (M2 Ultra, 128 GB) running a local model via Ollama or MLX. Voice pipeline: Twilio SIP in, LiveKit Agents orchestrating STT / LLM / TTS, Whisper for transcription, Piper or ElevenLabs for speech. Brain: A local 30B-class model for chat plus tool calls, with Claude API as a fallback for the harder reasoning. Reach: Tailscale between the Mac and a tiny VPS so I never punch a hole in my home router. Outcome: I can ring a UK landline number, ask “what’s failing on the CI pipeline?” and get a spoken answer in ~2 seconds. Why bother phoning your own agent? Typing is great at a desk. Outside the desk, it’s hopeless. I wanted the simplest possible interface to the box sat under my desk at home - dial a number, talk, hang up. No app, no login, no VPN dance on my phone.
+    <p>TL;DR ChatGPT Images 2.0 introduces a thinking mode that reasons through complex prompts before generating, dramatically improving instruction-following for multi-part requests Text rendering is finally reliable - legible across English, Japanese, Korean, Chinese, Hindi, and Bengali - unlocking infographics, menus, and slides as genuine use cases Web search during generation means Images 2.0 can pull accurate, current data into visual outputs rather than fabricating plausible-looking information Batch generation produces up to eight images from one prompt with consistent characters and style across all of them, solving a long-standing problem for narrative and sequential content The overall shift is from toy to tool: outputs are more predictable, less stylistically over-processed, and viable for production work rather than just prototyping A year ago, OpenAI’s image generation went viral for Studio Ghibli portraits. That was GPT Image 1 - impressive, playful, and fundamentally still a party trick. ChatGPT Images 2.0, released on April 22nd 2026, is a different thing entirely. It’s the version that starts to look genuinely useful.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-21 21:48:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to How to Phone Your Home AI Agent Running on a Mac Studio" href="https://jamesm.blog/ai/phone-your-home-ai-agent/"></a>
+  <footer class="entry-footer"><span title='2026-04-23 06:52:00 +0100 BST'>April 23, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to ChatGPT Images 2.0: Why Everyone Is Impressed" href="https://jamesm.blog/ai/chatgpt-images-2/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-tooling-learning-path.jpg" alt="AI Tooling Learning Path Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/ai-music-tools-2026.png" alt="AI Music Tools Comparison 2026">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">An AI Tooling Learning Path: Logical Phases for 2026
+    <h2 class="entry-hint-parent">AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR The order you learn AI tools matters as much as which tools you learn - most people start with terminal agents or editors before they understand how models actually fail The seven-phase path runs: fundamentals, chat interfaces, AI-native editors, terminal agents, local models, orchestration, and review and evaluation Terminal agents (Claude Code, Cline, Aider) represent the biggest mindset shift - you move from driving with suggestions to specifying and letting the model execute Local models via Ollama belong in phase five, once you have felt the pain of API costs and know which tasks actually need frontier capability Review, evaluation, and capture (phase seven) is the phase most developers skip - and the one that separates AI-curious from AI-competent The hardest part of learning AI tooling in 2026 is not any single tool. It is the order you meet them in.
+    <p>AI music generation has gone from novelty to legitimate production tool in eighteen months. In 2024 the conversation was “is this cheating?” In 2026 the conversation is “which one do I subscribe to?” Four tools dominate the space right now, and they are not interchangeable. Here is how they actually compare when you sit down and try to make music with them.
+The Contenders Suno - text-to-song with the best vocal synthesis, now with a full DAW (Suno Studio). Udio - the main challenger to Suno, popular for instrumental and genre-accurate output. AIVA - symbolic composition (MIDI-first), aimed at composers and scoring. Riffusion - spectrogram-based generation, strong for loops and experimental textures. Round 1: Vocal Quality Suno - still the leader. The v5 model handles vowel shapes, breath noise, and consonant articulation with a realism that was science fiction two years ago. Mikey Shulman has talked about this at length and the voice personas feature makes it easy to nail a specific tone. Udio - close, sometimes better on stylised delivery (rap cadence, country twang), but less consistent. AIVA - does not generate audio vocals at all. MIDI only. Riffusion - can produce vocal-like textures but not coherent lyrics. Not a vocal tool. Winner: Suno, with Udio a strong second for specific genres.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-21 19:07:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to An AI Tooling Learning Path: Logical Phases for 2026" href="https://jamesm.blog/ai/ai-tooling-learning-path/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 22:02:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion" href="https://jamesm.blog/music-production/ai-music-tools-shootout-2026/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/amazon-anthropic.png" alt="Amazon Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/platform-engineering-2026.jpg" alt="Platform Engineering in 2026 Banner">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Amazon Doubles Down: The $25 Billion Anthropic Bet
+    <h2 class="entry-hint-parent">Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopting It
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Amazon announced up to $25 billion in additional investment in Anthropic on April 20, 2026, bringing total committed capital past $33 billion In return, Anthropic committed to spending over $100 billion on AWS over the next decade - effectively a closed loop where Amazon’s capital funds Anthropic’s compute bill The deal gives Amazon a flagship AI workload to prove out its Trainium custom silicon against Nvidia, while countering Microsoft’s OpenAI advantage on Azure For developers building with Claude, expect more capacity, more aggressive pricing on Bedrock, and deeper AWS service integration as the compute comes online The arrangement signals that frontier AI has fully consolidated into a small number of hyperscaler-aligned labs - the era of independent AI startups is effectively over On April 20, 2026, Amazon announced it would invest up to an additional $25 billion in Anthropic, stacking on top of the $8 billion it has already poured into the AI startup over recent years. In return, Anthropic committed to spending more than $100 billion on Amazon Web Services over the next ten years.
+    <p>Platform engineering used to be the title on a few job adverts at Spotify and Netflix. In 2026 it is the default shape of any infrastructure team larger than a dozen people. The shift is worth understanding, because it is not just a rebrand of DevOps - it is a different operating model, with different tools, different incentives, and a different relationship to the developers it serves.
+This post is a plain-language walk through what platform engineering actually is, why the industry has converged on it, and how the arrival of AI agents is reshaping the discipline mid-flight.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-21 06:36:00 +0100 BST'>April 21, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Amazon Doubles Down: The $25 Billion Anthropic Bet" href="https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 21:30:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopting It" href="https://jamesm.blog/devops/platform-engineering-2026/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/the-year-3026.jpg" alt="The Year 3026 Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/music-production.png" alt="Music Production Software 2026">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">The Year 3026: Thinking Seriously About a Thousand Years From Now
+    <h2 class="entry-hint-parent">The Best Music Production Software in 2026
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Over a thousand years, the substrate of civilisation changes beyond recognition, but the human core - love, grief, storytelling, the search for meaning - almost certainly does not Computation and energy will have hit their physical cost floors by 3026; intelligence is ambient, woven into the environment so thoroughly that “using AI” becomes as meaningless a phrase as “using oxygen” The built environment is almost certainly at solar-system scale - with the Earth a protected biosphere and heavy industry, compute, and energy capture distributed across the inner solar system No company, currency, or nation founded in 2026 is likely to survive in any meaningful continuity; the middle layer of institutions gets hollowed out, leaving fewer but far longer-lived structures The decisions being made right now - on AI safety, climate, and coordination - have genuinely astronomical consequences, because they determine whether there is a 3026 worth having at all Most writing about the future of AI stops at ten years. A few brave pieces stretch to fifty. I wrote one of the ten-year ones myself in The Next Decade of AI, and the honest reason the horizon stays short is that the uncertainty gets unmanageable much past that. Forecasting even the shape of the economy in 2040 is already mostly vibes.
+    <p>The DAW landscape in 2026 looks different to the one I wrote about last year. AI-assisted stem separation is now table stakes, generative co-writers are embedded everywhere, and the “cloud DAW” idea has finally stopped being a novelty. Whether you are sketching your first loop or mixing a full band, here is where I would start in 2026.
+Ableton Live 12 - Still the Creative Sandbox Live 12 is still the current major version in April 2026, now at 12.3 with 12.4 landing as a free update for Live 12 users. The recent releases have brought Stem Separation in Suite, Splice integration, Bounce Groups, and the new Auto Pan-Tremolo. The Session View remains unbeaten for rapid sketching and live performance, and Max for Live continues to be the quiet superpower that keeps Live feeling fresh a decade on.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-20 22:03:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>14 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Year 3026: Thinking Seriously About a Thousand Years From Now" href="https://jamesm.blog/ai/the-year-3026/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 21:06:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Best Music Production Software in 2026" href="https://jamesm.blog/music-production/best-music-production-software-2026/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/the-year-2126.jpg" alt="The Year 2126 Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-intelligence.jpg" alt="AI Law and Regulation">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">The Year 2126: What the Next Hundred Years Actually Looks Like
+    <h2 class="entry-hint-parent">AI Law Is No Longer Theoretical: What&#39;s Here, What&#39;s Coming, and What It Means
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR By 2126, clean energy, most infectious disease, and routine cognitive work are almost certainly solved - the AI transition will look as obvious in hindsight as the car replacing the horse Climate is the hardest unsolved problem: the outcome depends on decisions made in the next thirty years, and 2126 inherits either a managed problem or a civilisation in partial retreat The demographic inversion is one of the most structurally important facts - global population peaks around 2060-2080 then declines, leaving a world where a hundred-year-old is ordinary and a child is rare and socially valued Human work shifts toward human-presence roles, stewardship of powerful systems, physical craft, meaning-making, and accountability - the categories that cannot be automated The decade we are in now is one that 2126 will study closely; the decisions made about AI safety, climate, and institutional reform are visibly reflected in the outcome a century later A hundred years is a useful distance. Long enough that the current news cycle is ancient history, short enough that some people alive in 2126 will have living memory of people who were alive in 2026. The children being born this week have a non-trivial chance of being interviewed, in their late nineties, about what the early AI era was actually like. That matters. It makes the 100-year horizon a question about the world people we know will inherit, not an abstract one.
+    <p>TL;DR The EU AI Act is now in force with full enforcement of high-risk AI requirements from August 2026, carrying fines of up to 7% of global turnover - this is no longer a distant deadline Over fifty copyright lawsuits against AI developers are working through US courts, and the EU Copyright Directive puts the burden of verifying training data rights on the AI developer, not the rights holder Courts in multiple jurisdictions are consistently finding that deploying AI does not transfer liability to the vendor - “the AI did it” is not a defence that holds up The US has no comprehensive federal AI law; instead, businesses must navigate a patchwork of state statutes (California, Colorado, New York, Texas) alongside existing federal agency enforcement from the FTC, CFPB, and FDA The “move fast and figure out the legal stuff later” era is over - enough of the legal framework has arrived that the gaps are no longer a safe place to operate For the past few years, AI law has been one of those topics that felt perpetually five minutes away. Governments would announce frameworks. Committees would publish white papers. Experts would debate what the rules should eventually look like.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-20 21:02:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>17 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Year 2126: What the Next Hundred Years Actually Looks Like" href="https://jamesm.blog/ai/the-year-2126/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 21:00:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Law Is No Longer Theoretical: What&#39;s Here, What&#39;s Coming, and What It Means" href="https://jamesm.blog/ai/ai-law-trends-2026/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/reading-the-signals-four-futures.jpg" alt="Reading the Signals Four Futures Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/personal-development/math-academy-the-fastest-way-to-learn-maths.jpg" alt="Math Academy - The Fastest Way to Actually Learn Maths">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Reading the Signals: Which of the Four Futures Is Actually Emerging?
+    <h2 class="entry-hint-parent">Math Academy: The Fastest Way to Actually Learn Maths
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Scoring four future scenarios against real-world signals: winner-take-most has the clearest corporate and capital logic behind it as of April 2026, driven by vertical integration across chips, data centres, models, and distribution Broad abundance gets partial credit - inference costs have fallen two orders of magnitude and open-weight models are competitive, but institutional-level gains in healthcare and education haven’t materialized Techno-feudalism is quietly accumulating through agentic platform lock-in (Claude Code, Cursor, Devin) and payment rail consolidation, with competition enforcement as the main counterweight Managed transition is the weakest scenario - UBI pilots haven’t scaled nationally, compute taxation remains a proposal, and institutional response cycles are mismatched with AI deployment speed The three signals that will determine where this goes: whether the open-weight frontier gap widens or closes, whether agentic memory becomes portable or platform-owned, and whether any serious economy moves past pilot-scale on redistribution I recently mapped four plausible futures for the machine-speed economy and listed the signals to watch for each. The obvious next question is the one I deliberately held back from answering: which signals are actually firing right now, and what does the mix say about where we’re heading?
+    <p>The Gap Between Knowing Maths and Being Good at It Most adults who went through mainstream education have a complicated relationship with maths. They were taught it, they passed it (or did not), and then they mostly stopped doing it. Somewhere between primary school and the end of formal education, the subject either clicked or it did not - and for a significant majority, it did not.
+The consequences of that tend to surface slowly. You take a data science course and realise you cannot follow the linear algebra. You try to understand how a model is actually working under the hood and the notation stops you cold. You sit in a finance meeting and the numbers float past you. You always meant to go back and fill the gaps. You never quite did.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-20 20:45:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Reading the Signals: Which of the Four Futures Is Actually Emerging?" href="https://jamesm.blog/ai/reading-the-signals-four-futures/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 20:02:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Math Academy: The Fastest Way to Actually Learn Maths" href="https://jamesm.blog/personal-development/math-academy-the-fastest-way-to-learn-maths/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/hermes-agent.jpg" alt="Hermes Agent Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/home-ai-agent-memory.jpg" alt="Home AI Agent Memory That Lasts Banner">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Hermes Agent: Persistent Autonomy That Learns and Grows
+    <h2 class="entry-hint-parent">Giving Your Home AI Agent Memory That Lasts
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR Hermes Agent by Nous Research is an open-source persistent autonomous system that builds memory across conversations, auto-generates reusable skills from repeated tasks, and compounds in capability over time Unlike stateless agents, Hermes accumulates project context - learning codebase quirks, team conventions, and recurring workflows so it stops asking questions it has already answered It works across Telegram, Discord, Slack, WhatsApp, Signal, Email, and CLI - meeting teams on the platforms they already use rather than requiring a dedicated app Running cost is roughly $20 to $60 per month for a solo developer (a $5-$10 VPS plus LLM API calls); it is MIT licensed with no seat fees or vendor lock-in The honest trade-off: Hermes beats alternatives on persistence and learning depth, but raises open questions about memory scaling, skill auditing, and what happens when an agent learns something wrong Most AI agents are forgettable. You ask them to do something, they do it, you close the window. The next time you need help, they start from zero - no context, no learning, no continuity. Hermes Agent works differently. Nous Research built it as a persistent system that remembers what it learns and gets measurably more capable the longer it runs.
+    <p>TL;DR Problem: a home agent with tools but no memory is a very well-read goldfish. Every morning it re-meets you. Answer: split memory into three layers - working, episodic, and semantic - and give each layer its own store and its own rules for what gets written. Where it lives: SQLite for episodic and facts, a local vector store for semantic search, and a tiny policy file that decides what is worth remembering in the first place. How it plugs in: a memory MCP server that exposes recall, remember, and forget - nothing else. Result: the agent can say “last Tuesday we tried restarting the Postgres container and it worked” and mean it. It also knows what not to store. The Goldfish Problem The home agent I built over the last few weeks can do real things now. It can read my mail, move files around my workspace, turn lights off, and check my calendar. What it could not do, until this week, was remember any of it.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-20 19:03:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Hermes Agent: Persistent Autonomy That Learns and Grows" href="https://jamesm.blog/ai/hermes-agent/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 19:30:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Memory That Lasts" href="https://jamesm.blog/ai/home-ai-agent-memory-that-lasts/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/speech-to-text.jpg" alt="Speech To Text Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg" alt="Learning How to Learn in the Age of AI Banner">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared
+    <h2 class="entry-hint-parent">Learning How to Learn in the Age of AI
     </h2>
   </header>
   <div class="entry-content">
-    <p>TL;DR MacWhisper is a file transcription tool (audio in, text out) that runs entirely on-device - the right pick for journalists, researchers, and anyone transcribing recordings Wispr Flow is the easiest system-wide dictation option, with AI-powered prose cleanup and cross-platform sync, but it sends audio to the cloud with no on-device option Superwhisper matches Wispr Flow’s system-wide dictation but processes audio locally, with bring-your-own-key LLM cleanup and deep customisation for power users The core decision is simple: if your audio can leave your machine, use Wispr Flow; if it must stay local, use Superwhisper; if you just need transcription, use MacWhisper The real product differentiation is no longer the underlying Whisper model - it is hotkey ergonomics, auto-edit prompts, and workflow integration Voice input on the Mac used to mean fighting with the built-in Dictation feature or paying Nuance a small fortune. In 2026, the landscape looks completely different. A handful of indie and venture-backed apps have turned Whisper-class models into genuinely fast, accurate tools that sit quietly in your menu bar until you hold a hotkey.
+    <p>The Problem Nobody Warned You About For most of history, learning was gated by access. You wanted to understand a topic, you had to find a book, a teacher, a course, or a mentor. The bottleneck was information. If you could get your hands on the material, the rest was time and effort.
+That bottleneck is gone. A capable model will now explain quantum mechanics, debug your code, summarise a legal document, and walk you through a new language - all in the same afternoon, at a level pitched exactly to you.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-20 19:02:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared" href="https://jamesm.blog/ai/mac-dictation-tools-comparison/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 09:00:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Learning How to Learn in the Age of AI" href="https://jamesm.blog/personal-development/learning-how-to-learn-in-the-age-of-ai/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-intelligence.jpg" alt="Claude Opus 4.7 on Databricks Banner">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/data-engineering/apache-iceberg-2026.jpg" alt="Apache Iceberg in 2026">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse
+    <h2 class="entry-hint-parent">Apache Iceberg in 2026: The Open Table Format That Won
     </h2>
   </header>
   <div class="entry-content">
-    <p>Databricks announced this week that Anthropic’s Claude Opus 4.7 is now live on the platform. The headline from Databricks’ own benchmarking is the part worth pausing on - 21% fewer errors than Opus 4.6 on the OfficeQA Pro document-reasoning benchmark when the model is grounded in source information.
-That single number tells you more about where enterprise AI is going than any launch keynote.
-Why This Matters More Than Another Model Announcement Most Claude releases get surfaced the same week across the API, Amazon Bedrock, Google Cloud’s Vertex AI, and Microsoft Foundry. That was true of Opus 4.7 on April 16 as well. The Databricks story is different because Databricks is not just another hosting destination - it is where the actual enterprise data lives.
+    <p>In 2023, the question was “which open table format will survive - Iceberg, Delta, or Hudi?” In 2026, that debate is over. Apache Iceberg won, and it won for reasons that have almost nothing to do with its raw performance.
+It won because it is the only format that both Snowflake and Databricks now treat as a first-class citizen, because the vendors picked sides on catalogs rather than table formats, and because enterprise buyers decided that multi-engine portability was worth more than a small performance edge.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-20 07:45:00 +0100 BST'>April 20, 2026</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse" href="https://jamesm.blog/data-engineering/claude-opus-4-7-databricks/"></a>
+  <footer class="entry-footer"><span title='2026-04-22 07:53:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Apache Iceberg in 2026: The Open Table Format That Won" href="https://jamesm.blog/data-engineering/apache-iceberg-2026/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -1,6 +1,6 @@
 ---
 title: "What Actually Belongs in My AI Dev Stack in 2026"
-date: 2026-04-06T00:05:00+01:00
+date: 2026-04-05T00:05:00+01:00
 draft: false
 tags: ['ai', 'development', 'developer-tool', 'llm', 'claude code', 'cursor ai', 'cline', 'spec kit', 'sdd']
 ---

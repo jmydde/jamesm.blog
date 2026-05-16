@@ -1,6 +1,6 @@
 ---
 title: "The Single-Node Renaissance: When Your Data Fits on a Laptop"
-date: 2026-05-14T15:00:00+01:00
+date: 2026-05-08T15:00:00+01:00
 draft: true
 tags: ["data-engineering", "duckdb", "polars", "single-node", "architecture", "2026"]
 description: "A grounded look at the single-node renaissance in data engineering - the architectural shift from distributed-by-default to single-node-where-it-fits, the engines that make it possible (DuckDB, Polars, ClickHouse-Local), and why a meaningful fraction of distributed systems work was always unnecessary."

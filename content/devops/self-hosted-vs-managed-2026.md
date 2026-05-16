@@ -1,6 +1,6 @@
 ---
 title: "Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again"
-date: 2026-05-03T18:00:00+01:00
+date: 2026-05-02T18:00:00+01:00
 draft: false
 tags: ['devops', 'cloud', 'self-hosted', 'managed', 'platform', 'cost', '2026']
 description: "The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now."

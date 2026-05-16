@@ -1,6 +1,6 @@
 ---
 title: "FinOps for the AI Era: When Tokens Cost Real Money"
-date: 2026-05-12T21:30:00+01:00
+date: 2026-05-11T21:30:00+01:00
 draft: true
 tags: ["devops", "finops", "cloud", "cost", "ai"]
 description: "Cloud cost discipline was already a real practice. AI inference budgets have made it a critical one. A practical look at how FinOps is changing in 2026 to account for the token-and-GPU costs that now dominate many engineering budgets."

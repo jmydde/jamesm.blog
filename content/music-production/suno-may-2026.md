@@ -1,6 +1,6 @@
 ---
 title: "Suno in May 2026: where the platform actually is"
-date: 2026-05-01T19:02:00+01:00
+date: 2026-04-29T19:02:00+01:00
 draft: false
 tags: ['suno', 'ai', 'ai music', 'music production']
 description: "A clear-eyed look at Suno as of May 2026 - the v5.5 model, Voices, Custom Models, My Taste, and the platform changes flowing from the Warner Music deal."

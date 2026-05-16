@@ -200,6 +200,86 @@
 </header>
 
 <article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/junior-developer-pipeline.jpg" alt="Junior Developer Pipeline Problem Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The work AI now automates - boring tickets, bug hunts, boilerplate - was the unspoken apprenticeship that turned juniors into seniors The skills that work built (pattern recognition, systems intuition, taste, calibration) are built by doing, not by reading - and that doing is now cheapest to delegate The new apprenticeship shifts toward reading over writing, debugging agent output, earlier architectural decisions, and deliberate practice of things agents do badly There is a coordination problem: individual organisations rationally skip junior investment in the short term, but the senior pipeline thins industry-wide a few years later If you are starting out today, optimise for proximity to a great senior engineer above salary, title, or any other variable The views in this post are my own personal reflections on the industry as a whole, written in my own time. They are not about any specific employer, team, or colleague, past or present.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-12 00:12:00 +0100 +0100'>March 12, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?" href="https://jamesm.blog/ai/junior-developer-pipeline-problem/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">We Are Learning to Buy Intelligence
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR For most of history, usable intelligence - the kind that solves complex problems - required hiring expensive specialists or spending years acquiring expertise yourself Research shows the cost of running AI capability has been falling roughly an order of magnitude every one to two years, making intelligence increasingly affordable Intelligence is becoming infrastructure - like electricity or compute, available on demand through APIs rather than locked inside individuals or institutions When intelligence is cheap and abundant, creativity becomes the limiting factor, not knowledge, credentials, or access to experts This democratisation is extraordinary, but the question of how we deploy these tools wisely matters as much as the capability itself For most of human history, intelligence has been scarce. Not intelligence in the biological sense - people have always been clever - but usable intelligence. The kind that helps you design a system, debug a problem, write code, plan a strategy, analyse data, or turn a vague idea into something real.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-11 07:09:25 +0100 +0100'>March 11, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to We Are Learning to Buy Intelligence" href="https://jamesm.blog/ai/we-are-learning-to-buy-intelligence/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">OpenClaw Is Absolutely Wild
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR OpenClaw is an open-source AI agent framework that enables language models to operate software directly through computer interfaces - clicking, typing, and navigating the same way a human does Unlike chatbots that only respond to prompts, OpenClaw acts as an operator - automating any software without requiring custom APIs or integrations This makes legacy enterprise software, complex dashboards, and multi-application workflows instantly automatable using computer vision and reasoning models Because it uses reasoning models rather than fixed scripts, it can adapt to unexpected states and recover from mistakes - closer to digital labor than traditional automation This represents a shift in computing: software that can build, run, and manage other software, driven by open projects improving rapidly every month Every now and then a piece of technology appears that quietly changes the rules. Not in a loud marketing way. Not with a huge product launch. Just a project sitting on GitHub that makes you stop, stare at the screen for a second, and think:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-10 07:09:25 +0100 +0100'>March 10, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to OpenClaw Is Absolutely Wild" href="https://jamesm.blog/ai/openclaw-is-wild/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Claude Code Just Got a Serious Code Review Feature
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Claude Code’s new Code Review feature dispatches multiple AI agents in parallel to review a PR from different angles, rather than running a single shallow model pass over the diff The motivation is real: Anthropic’s internal code output per engineer increased by around 200%, making human review the bottleneck - and humans consistently miss subtle bugs on large diffs Multi-agent review cross-checks findings, filters false positives, and ranks issues by severity before posting a clean, high-signal review comment plus inline annotations Review depth scales with PR size; typical runs take about 20 minutes and cost $15 - $25, which is cheap compared to the cost of a production bug Humans still approve PRs - the tool’s role is a thorough pre-review pass, not automated sign-off, making it a complement to human judgment rather than a replacement I genuinely think a lot of people still underestimate how fast the AI developer tooling ecosystem is evolving.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-09 07:14:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Claude Code Just Got a Serious Code Review Feature" href="https://jamesm.blog/ai/claude-code-review/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Hitting Claude Code Pro usage limits does not mean upgrading to the $200/month plan - a hybrid AI stack is a smarter and cheaper alternative The tiering strategy: local models (free) for quick edits, cheap cloud APIs for general coding, and frontier models only for architecture or complex multi-file reasoning Tools like Ollama or LM Studio with coding models such as DeepSeek Coder or Qwen2.5 handle the majority of everyday tasks locally at no cost Cheap cloud inference providers (Groq, Together AI, DeepInfra) offer capable open models at fractions of a cent per session for heavier work A realistic usage split of 80% local / 15% cheap APIs / 5% frontier models dramatically reduces limit burn while keeping Claude available when it genuinely matters I keep running into the same problem with Claude Code Pro ($20/month): I burn through the usage limits faster than I expect. The obvious solution is upgrading to the $200/month plan, but that feels excessive for how I actually use it.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-09 07:09:25 +0100 +0100'>March 9, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward" href="https://jamesm.blog/ai/claude_code_limits-hybrid_ai_stack/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Geoffrey Hinton Interviews
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR An evolving collection of interviews with Geoffrey Hinton, the British-Canadian “Godfather of AI” whose work on backpropagation underpins modern deep learning Hinton spent decades at the University of Toronto and Google before leaving in 2023 to speak more freely about AI risk The interviews trace the arc from foundational technical work to public warnings - including his 2024 Nobel Prize in Physics for neural network research Recurring themes: timelines for advanced AI, job displacement, existential risk, and what regulation realistically looks like A useful entry point if you want to understand the safety-concerned wing of the AI community in the person’s own words ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-01-27 21:07:21 +0100 +0100'>January 27, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Geoffrey Hinton Interviews" href="https://jamesm.blog/ai/geoffrey-hinton-interviews/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">Suno Voice Personas
     </h2>
@@ -251,86 +331,6 @@ What’s New: Voice Personas Voice Personas are designed to focus on what most c
   </div>
   <footer class="entry-footer"><span title='2025-11-27 07:39:14 +0100 +0100'>November 27, 2025</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Top 5 Human In-Demand Jobs in 10 Years" href="https://jamesm.blog/ai/human-in-demand-jobs/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/music-production.png" alt="Suno Studio generative DAW">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Suno Studio is here
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Suno has launched Suno Studio, a cloud-based platform the company is calling the first generative DAW - a digital audio workstation built around AI from the ground up. Where a traditional DAW like Ableton Live or Logic Pro treats sound as something you record, sample, or program, Suno Studio treats sound as something you can ask for in plain language and then shape on a timeline.
-What it actually is Suno Studio sits in the browser. You can prompt for a stem - a drum loop, a bassline, a vocal hook - and drop it onto a multitrack arrangement. From there you get the controls a producer expects: tempo, pitch, volume, basic effects, and the ability to slice and rearrange. Stems can be exported as audio so the project can continue in a conventional DAW if you want to mix it properly later.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-26 08:29:21 +0100 BST'>September 26, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Suno Studio is here" href="https://jamesm.blog/music-production/suno-studio/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Sergey Brin Interviews
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR A growing collection of interviews with Sergey Brin, Google co-founder and an active voice on AI now that he is back hands-on at Google working on Gemini His perspective spans foundational models, open-source strategy, AI robotics, AGI timelines, and the future of human-computer interaction Brin’s return to coding in 2024 makes him an unusually direct signal of how Google is positioning itself against OpenAI, Anthropic, and the rest of the frontier lab field Sits alongside the Geoffrey Hinton interviews and other founder-level commentary on where AI is headed Page will be expanded as new interviews appear - this is a working index, not a finished archive About Sergey Brin co-founded Google with Larry Page in 1998 while a PhD student at Stanford. He stepped back from day-to-day operations at parent company Alphabet in 2019, but returned to active engineering work on Gemini in 2024 as the competitive pressure from frontier AI labs intensified.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-05-20 19:27:14 +0100 BST'>May 20, 2025</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Sergey Brin Interviews" href="https://jamesm.blog/ai/sergey-brin-interviews/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">AI Agents Emergency Debate
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR An “emergency debate” framing the case that AI agents will displace large parts of the workforce inside a 24-month horizon Contributors disagree on speed but agree the direction is settled - the question is which sectors move first, not whether they move Near-term pressure is on roles built around predictable, repeatable cognitive work; durable roles cluster around judgment, taste, and accountability Education and training systems are slower to adapt than the technology, which creates a real workforce mismatch in the meantime Worth watching as a snapshot of the 2025 conversation - useful frame even where you disagree with the specific predictions About This debate explores urgent questions about AI’s impact on employment and the workforce. Contributors discuss the timeline for AI-driven job displacement and the societal preparations needed to adapt to rapid automation.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-05-12 16:27:14 +0100 BST'>May 12, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to AI Agents Emergency Debate" href="https://jamesm.blog/ai/ai-agents-emergency-debate/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">DeepSeek 🤯
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR DeepSeek’s January 2025 release of R1 shook markets - a frontier-grade reasoning model trained for a reported $6M, a fraction of US lab budgets The app shot to #1 on Apple’s App Store inside days, and the open weights forced an industry-wide rethink of what training really costs Subsequent releases (V3 and beyond) cemented DeepSeek as a serious competitor in the open-source and cost-efficient AI category The story is less “China caught up” and more “the cost floor moved” - implications for closed-model pricing, GPU demand, and open-weight strategy Worth understanding as the moment that made cheap, capable, open models a credible default rather than a curiosity Overview Wow, crazy times, the best technology in the world is now becoming incredibly cheap and accessible to everyone! 🤯
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-01-27 21:39:14 +0100 +0100'>January 27, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to DeepSeek 🤯" href="https://jamesm.blog/ai/deepseek/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>YouTube Videos [2025-01-10] Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen? | E1244 Mikey Shulman is the Co-Founder and CEO of Suno, the leading music AI company. Suno lets everyone make and share music. Mikey has raised over $125M for the company from the likes of Lightspeed, Founder Collective, Matrix and Nat Friedman and Daniel Gross. Prior to founding Suno, Mikey was the first machine learning engineer and head of machine learning at Kensho technologies, which was acquired by S&amp;P Global for over $500 million. </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-01-10 08:29:21 +0100 +0100'>January 10, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?" href="https://jamesm.blog/music-production/suno-mikey-shulman/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Unitree G1 - AI Humanoid Robot
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR The Unitree G1 is an AI humanoid robot starting at $16,000 - dramatically undercutting competitors like Tesla’s Optimus and Boston Dynamics It uses imitation and reinforcement learning to perform tasks with high precision, combined with an impressive range of motion and speed The G1 represents a significant step toward more accessible humanoid robotics, opening up potential applications across many fields Unitree’s rapid progress signals that the humanoid robot market is moving faster than most expected ...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-05-21 20:09:25 +0100 BST'>May 21, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to Unitree G1 - AI Humanoid Robot" href="https://jamesm.blog/ai/unitree-g1/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

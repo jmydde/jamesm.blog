@@ -1,6 +1,6 @@
 ---
 title: "Text-to-SQL Has Quietly Become the Most Useful AI in Data Engineering"
-date: 2026-05-14T19:00:00+01:00
+date: 2026-05-07T19:00:00+01:00
 draft: true
 tags: ["data-engineering", "ai", "sql", "text-to-sql", "llm", "2026"]
 description: "A grounded look at how text-to-SQL has gone from research demo to genuinely useful AI in production data teams - what the current tools (Vanna, Snowflake Cortex Analyst, Databricks AI/BI Genie, custom solutions) actually do, where they work, and where the demos still oversell what's possible."

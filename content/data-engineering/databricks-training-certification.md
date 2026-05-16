@@ -1,6 +1,6 @@
 ---
 title: "Databricks Training & Certification"
-date: 2026-04-04T20:47:25+01:00
+date: 2026-04-03T20:47:25+01:00
 draft: false
 tags: ['databricks', 'training', 'certification', 'lakehouse', 'dlt', 'unity-catalog']
 description: "Complete guide to Databricks certifications with training resources, exam costs, and learning paths"

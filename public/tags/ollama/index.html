@@ -227,7 +227,7 @@
     <p>TL;DR Problem: a local agent that can only chat is a toy. The value is in what it can do. Answer: Model Context Protocol servers, running locally on the Mac Studio, expose filesystem, calendar, mail, notes, and a handful of custom tools. Runtime: one supervisord config, a small router, and per-server allowlists so nothing escapes its box. Security posture: no tool runs without a policy, secrets live in the macOS Keychain, and every call is logged to a local SQLite file I can grep at 11pm. Result: I can phone the agent (see How to Phone Your Home AI Agent), ask “move the CI failure email to triage and put a 15 minute hold on my calendar at 4”, and it actually does it. Why MCP and Not “Just Functions” Before MCP I had a directory of half-finished Python shims. Each one spoke a slightly different dialect: one took JSON arguments, one took positional args, one returned markdown and one returned a dict. Adding a new tool meant editing the agent prompt, the router, and the caller.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-22 00:12:00 +0100 BST'>April 22, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-27 00:12:00 +0100 BST'>April 27, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio" href="https://jamesm.blog/ai/mcp-servers-home-ai-agent/"></a>
 </article>
 
@@ -256,7 +256,7 @@
     <p>TL;DR Ollama is a lightweight tool for running open-source language models locally with no cloud costs, rate limits, or data leaving your machine Models are managed with simple commands (ollama pull, ollama run) and can be queried via a local HTTP API on localhost:11434 Popular models include Mistral 7B for speed, Llama 2 for all-around performance, and OpenClaw for code and reasoning tasks Running models locally delivers privacy, zero per-token cost, lower latency, and full offline capability You don’t need a GPU to start - a 7B model runs on 8GB of RAM, and Ollama automatically uses 4-bit quantization for larger models Running AI Models Locally with Ollama: From Setup to OpenClaw Ollama has quietly become the go-to tool for developers who want to run large language models on their own machines without relying on APIs. No cloud costs, no rate limits, no sending your prompts to third-party servers. Just you, your hardware, and a surprisingly capable AI model running locally.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-08 08:25:25 +0100 BST'>April 8, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <footer class="entry-footer"><span title='2026-04-14 08:25:25 +0100 BST'>April 14, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Running AI Models Locally with Ollama: From Setup to OpenClaw" href="https://jamesm.blog/ai/ollama/"></a>
 </article>
     </main>

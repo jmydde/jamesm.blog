@@ -1,6 +1,6 @@
 ---
 title: "Data Contracts: From Buzzword to Production Practice in 2026"
-date: 2026-05-14T13:00:00+01:00
+date: 2026-05-09T13:00:00+01:00
 draft: true
 tags: ["data-engineering", "data-contracts", "data-quality", "governance", "schema", "2026"]
 description: "A grounded look at what data contracts actually mean in production in 2026 - what the implementations actually look like, where they work, where they fail, and the lessons from teams that have shipped them at scale."

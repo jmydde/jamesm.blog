@@ -21,13 +21,6 @@
       <description>Local LLMs have quietly become good enough to run a real personal automation stack - inbox triage, second-brain notes, home routines, voice capture - without sending anything to the cloud. A walkthrough of what I run, why each piece is there, and where the seams are.</description>
     </item>
     <item>
-      <title>A Year of Agents, and What is Coming Next</title>
-      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
-      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
-      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
-    </item>
-    <item>
       <title>MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared</title>
       <link>https://jamesm.blog/ai/mac-dictation-tools-comparison/</link>
       <pubDate>Mon, 20 Apr 2026 19:02:00 +0100</pubDate>
@@ -42,18 +35,18 @@
       <description>Most people waste tokens on Claude not because they&amp;#39;re bad at prompting, but because they haven&amp;#39;t internalized the real cost structure. Here&amp;#39;s how to think about token efficiency as a first-class design constraint.</description>
     </item>
     <item>
-      <title>Cline: The Next Generation AI Coding Assistant</title>
-      <link>https://jamesm.blog/ai/cline/</link>
-      <pubDate>Thu, 09 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/cline/</guid>
-      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
-    </item>
-    <item>
       <title>Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in</title>
       <link>https://jamesm.blog/ai/paperless-ngx-self-hosted-document-management/</link>
-      <pubDate>Wed, 08 Apr 2026 22:21:00 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 22:21:00 +0000</pubDate>
       <guid>https://jamesm.blog/ai/paperless-ngx-self-hosted-document-management/</guid>
       <description>Paperless-ngx is a self-hosted document management system that lets you scan, digitize, and organize physical paperwork with full control over your data and zero subscription fees.</description>
+    </item>
+    <item>
+      <title>Cline: The Next Generation AI Coding Assistant</title>
+      <link>https://jamesm.blog/ai/cline/</link>
+      <pubDate>Fri, 10 Apr 2026 10:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/cline/</guid>
+      <description>An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency.</description>
     </item>
     <item>
       <title>Claude Code vs Cursor: A 6-Month Comparison</title>
@@ -82,6 +75,13 @@
       <pubDate>Sat, 04 Apr 2026 20:56:00 +0100</pubDate>
       <guid>https://jamesm.blog/devops/mac-apps-utils/</guid>
       <description>Curated collection of essential macOS applications and utilities for productivity, development, file management, and system optimisation.</description>
+    </item>
+    <item>
+      <title>A Year of Agents, and What is Coming Next</title>
+      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
+      <pubDate>Fri, 13 Mar 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
+      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
     </item>
     <item>
       <title>Speechify - Best Text to Speech App</title>

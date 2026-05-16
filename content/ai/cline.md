@@ -1,6 +1,6 @@
 ---
 title: "Cline: The Next Generation AI Coding Assistant"
-date: 2026-04-09T10:00:00+01:00
+date: 2026-04-10T10:00:00+01:00
 summary: "An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency."
 categories: ["ai"]
 tags: ["ai","coding-assistant","productivity","open-source","cline"]

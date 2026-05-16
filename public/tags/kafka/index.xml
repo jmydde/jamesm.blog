@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Apr 2026 20:51:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 08:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-Time Data Processing: Stream Processing vs Batch Processing</title>
+      <link>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</link>
+      <pubDate>Sun, 10 May 2026 08:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/stream-vs-batch-processing/</guid>
+      <description>A direct comparison of stream and batch processing as architectural choices, the operational and cost tradeoffs that the marketing material does not mention, and the patterns that work when you need both.</description>
+    </item>
     <item>
       <title>Data Engineering &amp; Data Science Courses</title>
       <link>https://jamesm.blog/data-engineering/data-engineering-science-courses/</link>

@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 May 2026 15:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 15:00:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/catalog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie</title>
       <link>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</link>
-      <pubDate>Sun, 03 May 2026 15:00:00 +0100</pubDate>
+      <pubDate>Sat, 02 May 2026 15:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/data-engineering/the-catalog-layer-is-the-new-battleground/</guid>
       <description>The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run.</description>
     </item>

@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw Is Absolutely Wild"
-date: 2026-03-09T07:09:25+01:00
+date: 2026-03-10T07:09:25+01:00
 draft: false
 tags: ['ai', 'openclaw']
 ---

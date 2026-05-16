@@ -11,21 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 08:06:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 06:32:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Year of Agents, and What is Coming Next</title>
-      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
-      <pubDate>Thu, 30 Apr 2026 08:06:00 +0100</pubDate>
-      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
-      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
-    </item>
     <item>
       <title>AI Skills: One Folder, Any Model</title>
       <link>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</link>
       <pubDate>Thu, 30 Apr 2026 06:32:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/ai-skills-one-folder-any-model/</guid>
       <description>What Claude Code skills actually are under the hood, why the SKILL.md format is model-agnostic, and how the same folder can drive Claude, Gemini, Codex, and a dozen other agents without changes.</description>
+    </item>
+    <item>
+      <title>A Year of Agents, and What is Coming Next</title>
+      <link>https://jamesm.blog/ai/year-of-agents-and-whats-next/</link>
+      <pubDate>Fri, 13 Mar 2026 08:06:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/year-of-agents-and-whats-next/</guid>
+      <description>A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows.</description>
     </item>
   </channel>
 </rss>

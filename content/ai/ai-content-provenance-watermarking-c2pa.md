@@ -1,6 +1,6 @@
 ---
 title: "AI Content Provenance and Watermarking: Where C2PA Is Going in 2026"
-date: 2026-05-12T21:00:00+01:00
+date: 2026-05-07T21:00:00+01:00
 draft: true
 tags: ["ai", "provenance", "watermark", "c2pa", "deepfake", "policy"]
 description: "Distinguishing AI-generated content from human-made content has become an actual policy goal in 2026. A practical look at where C2PA, model-level watermarking, and detection tools stand, what they can and cannot do, and why the answer is messier than the marketing suggests."

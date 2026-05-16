@@ -1,7 +1,7 @@
 ---
 title: "Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful"
-date: 2026-05-14T08:00:00+01:00
-draft: true
+date: 2026-05-09T08:00:00+01:00
+draft: false
 tags: ["ai", "multimodal", "vision", "audio", "llm", "agentic-engineering"]
 description: "Where multimodal AI has actually delivered value in 2026, where it is still demoware, and the patterns that determine whether vision and audio are quietly indispensable in your stack or just an expensive distraction."
 cover:

@@ -1,11 +1,11 @@
 ---
 title: "The Open Weight Models Renaissance: Llama, Mistral, Qwen, DeepSeek"
-date: 2026-05-12T10:00:00+01:00
-draft: true
+date: 2026-05-10T10:00:00+01:00
+draft: false
 tags: ["ai", "model", "open-source", "llama", "mistral", "qwen", "deepseek"]
 description: "Open-weight models are no longer the cheap alternative - in 2026 they are credible defaults for many workloads. A walk through where Llama, Mistral, Qwen, and DeepSeek actually sit relative to closed frontier models, and what changed in the last 18 months."
 cover:
-  image: /assets/images/ai/open-weight-models-renaissance.jpg
+  image: /assets/images/ai/open-weight-models-renaissance.png
   alt: Open Weight Models Renaissance Banner
 ---
 

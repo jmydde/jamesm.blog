@@ -1,6 +1,6 @@
 ---
 title: "Observability for LLM Applications: What Actually Works in 2026"
-date: 2026-05-12T22:00:00+01:00
+date: 2026-05-11T22:00:00+01:00
 draft: true
 tags: ["devops", "observability", "llm", "tracing", "monitoring"]
 description: "Watching an LLM-powered application in production is harder than watching a classic service - the failure modes are different and the signals are noisier. A practical look at the observability patterns that have stabilised in 2026 and which tools are doing the work."

@@ -1,6 +1,6 @@
 ---
 title: "Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio"
-date: 2026-04-22T00:12:00+01:00
+date: 2026-04-27T00:12:00+01:00
 draft: false
 tags: ["ai", "mcp", "mac-studio", "agent", "local-llm", "claude", "ollama"]
 description: "The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac Studio to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability."

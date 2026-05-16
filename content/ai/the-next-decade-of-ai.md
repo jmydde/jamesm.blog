@@ -1,6 +1,6 @@
 ---
 title: "The Next Decade of AI: What Actually Happens From Here"
-date: 2026-04-19T07:55:00+01:00
+date: 2026-04-25T07:55:00+01:00
 draft: false
 tags: ['ai']
 description: "Most predictions about the future of AI are either utopian or apocalyptic. The real trajectory is stranger and more interesting than both - and it's already visible if you look at what's quietly working right now."

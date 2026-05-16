@@ -1,6 +1,6 @@
 ---
 title: "Is the $20 AI Subscription Era Over?"
-date: 2026-04-23T08:45:00+01:00
+date: 2026-04-03T08:45:00+01:00
 draft: false
 tags: ["ai", "subscription", "claude", "chatgpt", "pricing"]
 description: "Every major AI provider is quietly repositioning the $20/month tier. Here's what's happening at Anthropic, OpenAI, Google, Microsoft, xAI, and what monthly prices are likely to look like by the end of 2026."

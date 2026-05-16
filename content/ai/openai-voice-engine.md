@@ -1,6 +1,6 @@
 ---
 title: "OpenAI Voice Engine"
-date: 2024-03-29T23:12:25+01:00
+date: 2024-03-31T23:12:25+01:00
 draft: false
 tags: ['ai', 'openai', 'voice engine', 'voice']
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Video Generation Wars: Sora 2, Veo 3, and Runway Gen-4 in 2026"
-date: 2026-05-12T09:00:00+01:00
+date: 2026-05-04T09:00:00+01:00
 draft: true
 tags: ["ai", "video", "openai", "google", "runway", "multimodal", "2026"]
 description: "A grounded comparison of the three frontier AI video generation systems in 2026 - OpenAI's Sora 2, Google DeepMind's Veo 3.1, and Runway Gen-4.5 - what each one is, where the trade-offs land, and what the shape of the race tells us about the next year."

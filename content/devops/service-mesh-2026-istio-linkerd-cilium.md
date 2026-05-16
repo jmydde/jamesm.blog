@@ -1,6 +1,6 @@
 ---
 title: "Service Mesh in 2026: Istio, Linkerd, Cilium - Do You Still Need One?"
-date: 2026-05-13T07:00:00+01:00
+date: 2026-05-14T07:00:00+01:00
 draft: true
 tags: ["devops", "service-mesh", "istio", "linkerd", "cilium", "kubernetes"]
 description: "Service mesh was the architectural pattern that defined Kubernetes operations for years. The 2026 picture is more complicated - simpler alternatives have absorbed many use cases, while the meshes themselves have changed shape. A practical look at when to deploy one and when to leave well alone."

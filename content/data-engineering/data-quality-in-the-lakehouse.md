@@ -1,6 +1,6 @@
 ---
 title: "Data Quality in the Lakehouse: Tools, Patterns, and What Actually Works"
-date: 2026-05-14T17:00:00+01:00
+date: 2026-05-09T17:00:00+01:00
 draft: true
 tags: ["data-engineering", "data-quality", "lakehouse", "great-expectations", "soda", "monte-carlo", "2026"]
 description: "A grounded look at how data quality actually works in 2026 lakehouse deployments - the tools (Great Expectations, Soda, Anomalo, Monte Carlo), the patterns that ship to production, the failure modes that the marketing hides, and what teams have learned about doing this for real."

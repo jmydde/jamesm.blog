@@ -1,6 +1,6 @@
 ---
 title: "AI as Analogy Engine: Synthesis, Invention, and the Combinatorial Frontier"
-date: 2026-05-16T08:02:00+01:00
+date: 2026-05-16T08:02:00+00:00
 draft: false
 tags: ["ai", "invention", "analogy", "discovery", "research", "intelligence"]
 description: "The deepest misunderstanding about modern AI is that it merely retrieves memorised text. The more interesting truth is that large models form analogies, combine concepts, and explore conceptual relationships at a scale that may eventually industrialise parts of the invention process itself."
