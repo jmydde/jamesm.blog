@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift | jamesm.blog</title>
+<meta name="keywords" content="ai, reasoning, openai, deepseek, anthropic, gemini, inference, 2026">
+<meta name="description" content="A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/reasoning-models-2026/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/reasoning-models-2026/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/reasoning-models-2026/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift">
+  <meta property="og:description" content="A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-05-12T19:00:00+01:00">
+    <meta property="article:modified_time" content="2026-05-12T19:00:00+01:00">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Reasoning">
+    <meta property="article:tag" content="Openai">
+    <meta property="article:tag" content="Deepseek">
+    <meta property="article:tag" content="Anthropic">
+    <meta property="article:tag" content="Gemini">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/ai/reasoning-models-2026.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/ai/reasoning-models-2026.jpg">
+  <meta name="twitter:title" content="Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift">
+  <meta name="twitter:description" content="A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift",
+      "item": "https://jamesm.blog/ai/reasoning-models-2026/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift",
+  "name": "Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift",
+  "description": "A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.",
+  "keywords": [
+    "ai", "reasoning", "openai", "deepseek", "anthropic", "gemini", "inference", "2026"
+  ],
+  "articleBody": "Two years ago the way to make a model better was to train a bigger one. By the start of 2026 that recipe has stopped being the most interesting answer. The frontier has moved to a different lever - letting the model think for longer at inference time, generating intermediate reasoning, and only then producing the final answer. The category has a name now (reasoning models) and a family of products built around it. The interesting questions are no longer whether the trick works, because it clearly does, but when to reach for one, where it lands in production, and what the costs actually look like once the demo glow wears off.\nTL;DR The reasoning-model wave began in late 2024 with OpenAI’s o1 and went mainstream in 2025-2026 with OpenAI o3, DeepSeek R1 and the R2 successor, Gemini Deep Think, and Claude Extended Thinking. The core mechanism is test-time compute: the model generates a long chain of intermediate reasoning before the final answer. The chain may consume tens or hundreds of thousands of tokens for a single hard problem. Reasoning models trade time and tokens for accuracy. They are slower, more expensive per task, and substantially better on problems that genuinely require multi-step reasoning. Use them for hard problems where being right matters more than being fast - mathematical derivations, complex coding refactors, scientific reasoning, structured argument analysis. Use non-reasoning models for everything else. Conversational interactions, simple lookups, content generation, anything where a competent first-pass answer is enough. The benchmark gains are real and large. o3 scores 87.7% on GPQA Diamond (graduate-level science) and broke the ARC-AGI benchmark with 96.7% in its high-compute setting. DeepSeek R1 hit 79.8% on AIME 2024 at roughly 5% of o1’s API price. The cost structure has flipped. In the high-compute regime, o3 averages around 57 million tokens per question and roughly 14 minutes of runtime for the hardest problems. The economics of inference now look more like the economics of training. The category is splitting into two product modes: synchronous reasoning (the model thinks for seconds-to-minutes and returns an answer) and agentic reasoning (the model thinks across many tool calls and external interactions over hours). The deployment pattern that works is hybrid routing - send easy queries to fast models and hard queries to reasoning models, deciding at runtime which is which. What actually changed The classical transformer model produces tokens left-to-right, one at a time, with the same fixed amount of compute per token. The only way to make the model better at a given task was to make the model itself larger or to train it on more data. That scaling regime delivered most of the gains of the 2020-2024 era.\nThe reasoning-model wave came from a different direction. Instead of making the model bigger, you let the model think for longer. The model is trained to generate a long internal chain of intermediate reasoning - exploring solution strategies, checking partial answers, backing up when something looks wrong - and only after this chain is done does it produce the final response. The internal chain is often not shown - the model thinks privately, then writes the response. The technical name for the lever is test-time compute, or sometimes inference-time scaling, and the empirical result is that you can trade compute at inference for capability on hard problems in a way that the older scaling regime did not allow.\nThe training is the part that matters. Reasoning models are post-trained, typically with reinforcement learning, to produce internal reasoning chains that are factually accurate, well-structured, and lead to correct conclusions. The chain itself is not a magic incantation - it is the result of significant training effort directed at making the model’s own reasoning reliable.\nThe reason this is a big deal is that the curves are favourable. On a wide range of hard reasoning tasks - mathematics olympiad problems, graduate-level science, competitive programming, novel logic puzzles - adding inference compute keeps improving the score for far longer than was expected. The o3 high-compute results on ARC-AGI are the most striking public demonstration of this - a benchmark that was specifically designed to be hard for current models was effectively saturated by spending substantial compute on each problem.\nThe other reason it is a big deal is that it works on much smaller base models than the brute-force scaling approach. DeepSeek R1, released in early 2025, demonstrated that you can get reasoning performance comparable to OpenAI’s o1 with a model whose API pricing was roughly 3-5% of o1’s. The R2 successor that followed in late 2025 narrowed the gap with the frontier further. The implication is that the reasoning capability is not locked behind frontier-scale training and that the open-weight ecosystem can compete on this dimension in a way it could not when the only lever was raw model size.\nThe state of the frontier The reasoning-model category in 2026 has four serious entrants and a longer tail of credible open-weight alternatives.\nOpenAI o3 and o4 are the current performance leaders on most public benchmarks. The o-series is what most teams reach for when they need state-of-the-art reasoning and are willing to pay for it. The high-compute setting is genuinely strong but very expensive - tens of millions of tokens per hard problem and runtimes measured in minutes. The low-compute setting is much cheaper and is what most production deployments actually use. OpenAI has also shipped o3-mini and o4-mini as smaller, faster variants for use cases that need reasoning without the full o3 cost structure.\nAnthropic’s Claude Extended Thinking is built into the Claude family rather than being a separate product. The extended-thinking mode gives Claude deliberate internal reasoning steps; the same model can be invoked in fast mode for routine work. The Anthropic implementation is unusual in that it exposes the reasoning trace to the user by default, which has implications for both interpretability and how the product is used. The strength is integration with the rest of the Claude ecosystem - tool use, agentic loops, long context all work the same way regardless of thinking mode. The Claude Opus 4.7 release in early 2026 made significant gains on the agentic-reasoning end of the spectrum.\nGoogle Gemini Deep Think is Google DeepMind’s entry in the category, integrated into the Gemini Ultra tier. It has carved out the niche of strong reasoning at competitive pricing, with particular strength on multimodal reasoning problems - Gemini’s reasoning over images, video, and audio is meaningfully ahead of the text-only reasoning competition. The 2.0 generation, shipped in late 2025, introduced significantly stronger long-horizon reasoning and tool use.\nDeepSeek R1 and R2 are the open-weight benchmark. R1 was released in January 2025 and demonstrated that reasoning performance comparable to o1 was possible at a fraction of the cost. R2 followed later in 2025 with significant improvements on coding and on longer-horizon reasoning. The models are available under permissive licences and have been adopted widely across the open-source ecosystem. The trade-off is that you have to run the inference yourself. Their existence is the single biggest reason the price floor for reasoning models has compressed so quickly.\nBeyond these four, the open-weight ecosystem has shipped credible reasoning models from Qwen, Mistral, and several smaller research labs. The category is increasingly crowded and the gap between the frontier and the open alternatives is narrower on reasoning than it is on raw capability.\nThe cost story is the story The most underappreciated fact about reasoning models is how dramatically they change the cost structure of inference. The classical pricing model for an LLM API was a fixed cost per input and output token, and most production workloads consumed a small enough number of tokens per request that the cost was approximately constant.\nReasoning models break this. In the high-compute regime, a single hard problem can consume tens of millions of tokens of internal reasoning before producing a final answer. The runtime can stretch to minutes or longer. The cost per problem can rise into the dollars rather than the cents. The economics of inference, for hard problems, start to look more like the economics of small training runs than like the economics of classical API calls.\nThe practical implication is that reasoning models are not a drop-in replacement for the classical models on every workload. For an enormous fraction of production use cases - text generation, summarisation, classification, routine code generation, routine question answering - the marginal value of the reasoning capability is small and the marginal cost is large. The reasoning models are the wrong tool for these workloads and the smart deployment pattern is to keep the classical models in place for the bulk of traffic and route only the hard problems to the reasoning models.\nWhere reasoning models actually win The category wins on a specific shape of problem and is mediocre or wasteful on everything else.\nHard reasoning problems with verifiable answers. Mathematics, formal logic, competitive programming with test cases, scientific questions with structured answers. Word problems, derivations, statistical analysis, financial calculations - the kind of work where a small error early in the chain compounds into a wrong final answer. The reasoning chain has something to verify against and the model can self-correct when it goes wrong. The benchmark gains in this category are the largest and the most defensible.\nLong-horizon coding tasks. Multi-file refactors, debugging subtle bugs, designing data structures - anything that requires holding multiple files, multiple constraints, and multiple steps in working memory while reasoning about the changes. The frontier reasoning models have transformed what you can ship in a single coding turn, and the Claude Code and related agentic-coding products are built around this capability.\nComplex tool use and agentic workflows. Tasks where the model has to plan a sequence of actions, execute them, observe the results, and revise the plan. The reasoning capability is what makes this work end-to-end without constant human intervention. The agentic deployments that work in 2026 are almost all built on top of reasoning models.\nStructured analytical work. Financial analysis, legal reasoning, scientific literature synthesis. Reading a legal document and identifying the obligations, examining a contract for ambiguities, evaluating a logical argument. Tasks where the answer requires holding many constraints and structured arguments together. The reasoning models are markedly better at this than the classical predecessors and the gap is large enough to be commercially meaningful.\nHigh-stakes decisions where being right matters. Cases where the cost of a wrong answer is high enough to justify the extra inference cost.\nWhere they do not The places where reasoning models add friction without value:\nConversational interactions. The latency makes them feel slow and unnatural in chat. Content generation. Writing an email, drafting a blog post, creating marketing copy - a fast model produces work that is hard to distinguish from a slow one. Simple lookups. “What is the capital of Bolivia” does not benefit from extended thought. Tool-heavy agentic loops where the bottleneck is orchestration. When most of the work is calling tools and parsing results, the reasoning model’s strength is wasted on the overhead. Subjective tasks and creative writing where the bottleneck is style rather than logic. The hype around reasoning models has sometimes obscured how narrow the actual capability advantage is, and the production deployment patterns have started to reflect this. Using a reasoning model for everything is expensive and slow; using one for nothing leaves accuracy on the table for the cases that benefit.\nThe hybrid pattern that works The deployment pattern that most teams running serious production workloads have converged on is hybrid routing. A cheap, fast classifier model looks at the incoming request and decides whether it is a “hard” question that warrants reasoning-model treatment or a “routine” question that goes to a fast model. The decision is made in milliseconds; the routing is invisible to the user.\nThis is harder to operate than picking one model and using it for everything, but the economics are dramatically better. Reserving reasoning-model spend for the queries that actually need it - typically a small fraction of total traffic for most applications - keeps the cost manageable while preserving the accuracy benefit where it matters.\nTeams running this pattern report 80-90% of queries handled by fast models and 10-20% routed to reasoning models. The split varies by domain. A coding assistant routes more to reasoning. A customer support bot routes less.\nSeveral of the frontier providers now offer hybrid endpoints that automatically decide whether a given query needs the reasoning path or can be handled by the classical model. The accuracy of this routing layer is one of the more consequential factors in real-world cost-to-serve, and the labs are competing on it in ways that are not yet visible in the public benchmarks.\nThe controversial parts Four claims about reasoning models deserve more pushback than they typically get.\nThe first is the claim that reasoning models are a step toward AGI. The framing is appealing but the empirical case is weaker than it sounds. The benchmarks where reasoning models do best are benchmarks specifically designed to test the kinds of reasoning the models are now good at. The benchmarks where they do less well - long-horizon planning, novel-context generalisation, dealing with genuine ambiguity - are still hard for them. The progress is real but it is progress along a specific axis, not progress along all axes.\nThe second is the claim that the reasoning capability is fundamentally different from what came before. There is a credible technical argument that the long chain-of-thought is just a way of unlocking capability that was already latent in the base model, rather than a new capability per se. The training procedure that turns a base model into a reasoning model - large-scale reinforcement learning on reasoning traces with verifiable outcomes - is genuinely new, but the resulting model is on a continuum with the predecessors rather than a phase change away from them.\nThe third is the claim that test-time compute scales indefinitely. The test-time compute paradox is real - in some regimes, adding more inference compute starts to hurt accuracy rather than help it. The model gets lost in its own reasoning, talks itself out of correct answers, or wastes compute on dead ends. The current frontier reasoning models have made significant progress on this but it has not been eliminated and the optimal amount of compute per problem is itself a hard tuning question.\nThe fourth is the claim that DeepSeek R1 and R2 prove that the open-weight ecosystem has caught up with the frontier. The benchmark numbers are real but the production reliability gap is larger than the benchmarks suggest. The frontier models from OpenAI, Anthropic, and Google have advantages in long-tail reliability, in tool integration, and in the surrounding infrastructure that do not show up in the public scores. The gap is closing but it has not yet closed, particularly on the hardest agentic workloads.\nWhere this is heading The reasoning-model era has split the LLM market into two related but distinct product categories. Fast models for the high-volume, latency-sensitive, accuracy-tolerant work. Reasoning models for the lower-volume, accuracy-critical work. The pricing reflects this, the architectures are diverging, and the labs are increasingly developing them as separate product lines. The 2026 application developer is no longer choosing “which model” - they are choosing which mix of models, with which routing logic, for which workloads.\nThe most likely shape of 2027 is that reasoning models become a normal part of the API surface rather than a distinct category, with the routing between reasoning and non-reasoning paths happening transparently at the provider level. The price differential between the modes will compress as the providers compete on cost-to-serve, and the deployment patterns will stabilise around the workload shapes that actually benefit from the capability.\nThe other prediction worth making is that the open-weight reasoning ecosystem will continue to compress the price floor faster than the frontier labs can keep up with on commercial pricing. The DeepSeek R2 release is the template - a reasoning model that is open-weight, available under permissive licences, and price-competitive with the frontier on most production workloads. The strategic implication for the closed labs is that the moat on reasoning capability is narrower than the moat on raw capability has been, and the differentiation has to come from somewhere other than the model itself.\nThe third prediction is that agentic deployments are going to drive most of the real-world reasoning-model demand by 2027. The early 2026 picture is that synchronous reasoning - the user asks a question and waits for the answer - is the dominant use case. The 2027 picture is more likely to be agentic reasoning - the model is doing extended work on the user’s behalf, taking actions, observing results, and reasoning across long horizons. The compute demand from this shift is one of the things that is going to keep the AI energy crisis at the centre of the conversation.\nFor people building with reasoning models today, the practical guidance is the boring version of the exciting story. Use them for the workloads where they win. Keep classical models for the workloads where they do not. Build the routing layer carefully because that is where the cost-to-serve actually lives. Expect the price-per-token in the high-compute regime to come down significantly over the next 18 months, and expect new capability gains to keep arriving from the open-weight side faster than the closed-lab marketing implies.\nRelated Reading The Rise of Small Language Models: Why Size Isn’t Everything - the model-size counterpart to the test-time-compute story. DeepSeek - the lab whose R1/R2 releases reset the price floor for reasoning models. Claude Opus 4.7: Autonomy and Vision at Scale - the agentic-reasoning story from the Anthropic side. The LLM Context Window Arms Race: Does It Actually Matter? - the adjacent capability lever that reasoning models complicate. Cerebras, Groq, SambaNova: The Inference Hardware Insurgents - the hardware story that reasoning models have made commercially significant. ",
+  "wordCount" : "2997",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/ai/reasoning-models-2026.jpg","datePublished": "2026-05-12T19:00:00+01:00",
+  "dateModified": "2026-05-12T19:00:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/reasoning-models-2026/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift
+    </h1>
+    <div class="post-description">
+      A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.
+    </div>
+    <div class="post-meta"><span title='2026-05-12 19:00:00 +0100 BST'>May 12, 2026</span>&nbsp;·&nbsp;<span>15 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/ai/reasoning-models-2026.jpg" alt="Reasoning Models in 2026 - o3, R2, and the Compute-at-Inference Shift Banner">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#tldr" aria-label="TL;DR">TL;DR</a></li>
+            <li>
+                <a href="#what-actually-changed" aria-label="What actually changed">What actually changed</a></li>
+            <li>
+                <a href="#the-state-of-the-frontier" aria-label="The state of the frontier">The state of the frontier</a></li>
+            <li>
+                <a href="#the-cost-story-is-the-story" aria-label="The cost story is the story">The cost story is the story</a></li>
+            <li>
+                <a href="#where-reasoning-models-actually-win" aria-label="Where reasoning models actually win">Where reasoning models actually win</a></li>
+            <li>
+                <a href="#where-they-do-not" aria-label="Where they do not">Where they do not</a></li>
+            <li>
+                <a href="#the-hybrid-pattern-that-works" aria-label="The hybrid pattern that works">The hybrid pattern that works</a></li>
+            <li>
+                <a href="#the-controversial-parts" aria-label="The controversial parts">The controversial parts</a></li>
+            <li>
+                <a href="#where-this-is-heading" aria-label="Where this is heading">Where this is heading</a></li>
+            <li>
+                <a href="#related-reading" aria-label="Related Reading">Related Reading</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><p>Two years ago the way to make a model better was to train a bigger one. By the start of 2026 that recipe has stopped being the most interesting answer. The frontier has moved to a different lever - letting the model think for longer at inference time, generating intermediate reasoning, and only then producing the final answer. The category has a name now (reasoning models) and a family of products built around it. The interesting questions are no longer whether the trick works, because it clearly does, but when to reach for one, where it lands in production, and what the costs actually look like once the demo glow wears off.</p>
+<h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
+<ul>
+<li>The reasoning-model wave began in late 2024 with OpenAI&rsquo;s o1 and went mainstream in 2025-2026 with <strong>OpenAI o3</strong>, <strong>DeepSeek R1</strong> and the R2 successor, <strong>Gemini Deep Think</strong>, and <strong>Claude Extended Thinking</strong>.</li>
+<li>The core mechanism is <strong>test-time compute</strong>: the model generates a long chain of intermediate reasoning before the final answer. The chain may consume tens or hundreds of thousands of tokens for a single hard problem.</li>
+<li><strong>Reasoning models trade time and tokens for accuracy.</strong> They are slower, more expensive per task, and substantially better on problems that genuinely require multi-step reasoning. Use them for hard problems where being right matters more than being fast - mathematical derivations, complex coding refactors, scientific reasoning, structured argument analysis.</li>
+<li><strong>Use non-reasoning models for everything else.</strong> Conversational interactions, simple lookups, content generation, anything where a competent first-pass answer is enough.</li>
+<li>The benchmark gains are real and large. <a href="https://aiweekly.co/learning-ai/deep-learning/what-test-time-compute-how-ai-models-think-they-answer">o3 scores 87.7% on GPQA Diamond</a> (graduate-level science) and broke the ARC-AGI benchmark with 96.7% in its high-compute setting. DeepSeek R1 hit 79.8% on AIME 2024 at roughly 5% of o1&rsquo;s API price.</li>
+<li>The cost structure has flipped. In the high-compute regime, <a href="https://aiweekly.co/learning-ai/deep-learning/what-test-time-compute-how-ai-models-think-they-answer">o3 averages around 57 million tokens per question and roughly 14 minutes of runtime</a> for the hardest problems. The economics of inference now look more like the economics of training.</li>
+<li>The category is splitting into <strong>two product modes</strong>: synchronous reasoning (the model thinks for seconds-to-minutes and returns an answer) and <strong>agentic reasoning</strong> (the model thinks across many tool calls and external interactions over hours).</li>
+<li>The deployment pattern that works is <strong>hybrid routing</strong> - send easy queries to fast models and hard queries to reasoning models, deciding at runtime which is which.</li>
+</ul>
+<h2 id="what-actually-changed">What actually changed<a hidden class="anchor" aria-hidden="true" href="#what-actually-changed">#</a></h2>
+<p>The classical transformer model produces tokens left-to-right, one at a time, with the same fixed amount of compute per token. The only way to make the model better at a given task was to make the model itself larger or to train it on more data. That scaling regime delivered most of the gains of the 2020-2024 era.</p>
+<p>The reasoning-model wave came from a different direction. Instead of making the model bigger, you let the model think for longer. The model is trained to generate a long internal chain of intermediate reasoning - exploring solution strategies, checking partial answers, backing up when something looks wrong - and only after this chain is done does it produce the final response. The internal chain is often not shown - the model thinks privately, then writes the response. The technical name for the lever is <em>test-time compute</em>, or sometimes <em>inference-time scaling</em>, and the empirical result is that you can trade compute at inference for capability on hard problems in a way that the older scaling regime did not allow.</p>
+<p>The training is the part that matters. Reasoning models are post-trained, typically with reinforcement learning, to produce internal reasoning chains that are factually accurate, well-structured, and lead to correct conclusions. The chain itself is not a magic incantation - it is the result of significant training effort directed at making the model&rsquo;s own reasoning reliable.</p>
+<p>The reason this is a big deal is that the curves are favourable. On a wide range of hard reasoning tasks - mathematics olympiad problems, graduate-level science, competitive programming, novel logic puzzles - adding inference compute keeps improving the score for far longer than was expected. The <a href="https://aiweekly.co/learning-ai/deep-learning/what-test-time-compute-how-ai-models-think-they-answer">o3 high-compute results</a> on ARC-AGI are the most striking public demonstration of this - a benchmark that was specifically designed to be hard for current models was effectively saturated by spending substantial compute on each problem.</p>
+<p>The other reason it is a big deal is that it works on much smaller base models than the brute-force scaling approach. DeepSeek R1, released in early 2025, demonstrated that you can get reasoning performance comparable to OpenAI&rsquo;s o1 with a model whose API pricing was roughly <a href="https://magazine.sebastianraschka.com/p/state-of-llms-2025">3-5% of o1&rsquo;s</a>. The R2 successor that followed in late 2025 narrowed the gap with the frontier further. The implication is that the reasoning capability is not locked behind frontier-scale training and that the open-weight ecosystem can compete on this dimension in a way it could not when the only lever was raw model size.</p>
+<h2 id="the-state-of-the-frontier">The state of the frontier<a hidden class="anchor" aria-hidden="true" href="#the-state-of-the-frontier">#</a></h2>
+<p>The reasoning-model category in 2026 has four serious entrants and a longer tail of credible open-weight alternatives.</p>
+<p><strong>OpenAI o3 and o4</strong> are the current performance leaders on most public benchmarks. The o-series is what most teams reach for when they need state-of-the-art reasoning and are willing to pay for it. The high-compute setting is genuinely strong but very expensive - tens of millions of tokens per hard problem and runtimes measured in minutes. The low-compute setting is much cheaper and is what most production deployments actually use. OpenAI has also shipped <strong>o3-mini</strong> and <strong>o4-mini</strong> as smaller, faster variants for use cases that need reasoning without the full o3 cost structure.</p>
+<p><strong>Anthropic&rsquo;s Claude Extended Thinking</strong> is built into the Claude family rather than being a separate product. The extended-thinking mode gives <a href="/ai/claude-opus-4-7/">Claude</a> deliberate internal reasoning steps; the same model can be invoked in fast mode for routine work. The Anthropic implementation is unusual in that it exposes the reasoning trace to the user by default, which has implications for both interpretability and how the product is used. The strength is integration with the rest of the Claude ecosystem - tool use, agentic loops, long context all work the same way regardless of thinking mode. The <a href="/ai/claude-opus-4-7/">Claude Opus 4.7</a> release in early 2026 made significant gains on the agentic-reasoning end of the spectrum.</p>
+<p><strong>Google Gemini Deep Think</strong> is Google DeepMind&rsquo;s entry in the category, integrated into the Gemini Ultra tier. It has carved out the niche of strong reasoning at competitive pricing, with particular strength on multimodal reasoning problems - Gemini&rsquo;s reasoning over images, video, and audio is meaningfully ahead of the text-only reasoning competition. The 2.0 generation, shipped in late 2025, introduced significantly stronger long-horizon reasoning and tool use.</p>
+<p><strong>DeepSeek R1 and R2</strong> are the open-weight benchmark. R1 was released in January 2025 and demonstrated that reasoning performance comparable to o1 was possible at a fraction of the cost. R2 followed later in 2025 with significant improvements on coding and on longer-horizon reasoning. The models are available under permissive licences and have been adopted widely across the open-source ecosystem. The trade-off is that you have to run the inference yourself. Their existence is the single biggest reason the price floor for reasoning models has compressed so quickly.</p>
+<p>Beyond these four, the open-weight ecosystem has shipped credible reasoning models from Qwen, Mistral, and several smaller research labs. The category is increasingly crowded and the gap between the frontier and the open alternatives is narrower on reasoning than it is on raw capability.</p>
+<h2 id="the-cost-story-is-the-story">The cost story is the story<a hidden class="anchor" aria-hidden="true" href="#the-cost-story-is-the-story">#</a></h2>
+<p>The most underappreciated fact about reasoning models is how dramatically they change the cost structure of inference. The classical pricing model for an LLM API was a fixed cost per input and output token, and most production workloads consumed a small enough number of tokens per request that the cost was approximately constant.</p>
+<p>Reasoning models break this. In the high-compute regime, a single hard problem can consume tens of millions of tokens of internal reasoning before producing a final answer. The runtime can stretch to minutes or longer. The cost per problem can rise into the dollars rather than the cents. The economics of inference, for hard problems, start to look more like the economics of small training runs than like the economics of classical API calls.</p>
+<p>The practical implication is that reasoning models are not a drop-in replacement for the classical models on every workload. For an enormous fraction of production use cases - text generation, summarisation, classification, routine code generation, routine question answering - the marginal value of the reasoning capability is small and the marginal cost is large. The reasoning models are the wrong tool for these workloads and the smart deployment pattern is to keep the classical models in place for the bulk of traffic and route only the hard problems to the reasoning models.</p>
+<h2 id="where-reasoning-models-actually-win">Where reasoning models actually win<a hidden class="anchor" aria-hidden="true" href="#where-reasoning-models-actually-win">#</a></h2>
+<p>The category wins on a specific shape of problem and is mediocre or wasteful on everything else.</p>
+<p><strong>Hard reasoning problems with verifiable answers.</strong> Mathematics, formal logic, competitive programming with test cases, scientific questions with structured answers. Word problems, derivations, statistical analysis, financial calculations - the kind of work where a small error early in the chain compounds into a wrong final answer. The reasoning chain has something to verify against and the model can self-correct when it goes wrong. The benchmark gains in this category are the largest and the most defensible.</p>
+<p><strong>Long-horizon coding tasks.</strong> Multi-file refactors, debugging subtle bugs, designing data structures - anything that requires holding multiple files, multiple constraints, and multiple steps in working memory while reasoning about the changes. The frontier reasoning models have transformed what you can ship in a single coding turn, and the <a href="/ai/claude-code-vs-cursor/">Claude Code</a> and related agentic-coding products are built around this capability.</p>
+<p><strong>Complex tool use and agentic workflows.</strong> Tasks where the model has to plan a sequence of actions, execute them, observe the results, and revise the plan. The reasoning capability is what makes this work end-to-end without constant human intervention. The agentic deployments that work in 2026 are almost all built on top of reasoning models.</p>
+<p><strong>Structured analytical work.</strong> Financial analysis, legal reasoning, scientific literature synthesis. Reading a legal document and identifying the obligations, examining a contract for ambiguities, evaluating a logical argument. Tasks where the answer requires holding many constraints and structured arguments together. The reasoning models are markedly better at this than the classical predecessors and the gap is large enough to be commercially meaningful.</p>
+<p><strong>High-stakes decisions where being right matters.</strong> Cases where the cost of a wrong answer is high enough to justify the extra inference cost.</p>
+<h2 id="where-they-do-not">Where they do not<a hidden class="anchor" aria-hidden="true" href="#where-they-do-not">#</a></h2>
+<p>The places where reasoning models add friction without value:</p>
+<ul>
+<li><strong>Conversational interactions.</strong> The latency makes them feel slow and unnatural in chat.</li>
+<li><strong>Content generation.</strong> Writing an email, drafting a blog post, creating marketing copy - a fast model produces work that is hard to distinguish from a slow one.</li>
+<li><strong>Simple lookups.</strong> &ldquo;What is the capital of Bolivia&rdquo; does not benefit from extended thought.</li>
+<li><strong>Tool-heavy agentic loops where the bottleneck is orchestration.</strong> When most of the work is calling tools and parsing results, the reasoning model&rsquo;s strength is wasted on the overhead.</li>
+<li><strong>Subjective tasks and creative writing</strong> where the bottleneck is style rather than logic.</li>
+</ul>
+<p>The hype around reasoning models has sometimes obscured how narrow the actual capability advantage is, and the production deployment patterns have started to reflect this. Using a reasoning model for everything is expensive and slow; using one for nothing leaves accuracy on the table for the cases that benefit.</p>
+<h2 id="the-hybrid-pattern-that-works">The hybrid pattern that works<a hidden class="anchor" aria-hidden="true" href="#the-hybrid-pattern-that-works">#</a></h2>
+<p>The deployment pattern that most teams running serious production workloads have converged on is hybrid routing. A cheap, fast classifier model looks at the incoming request and decides whether it is a &ldquo;hard&rdquo; question that warrants reasoning-model treatment or a &ldquo;routine&rdquo; question that goes to a fast model. The decision is made in milliseconds; the routing is invisible to the user.</p>
+<p>This is harder to operate than picking one model and using it for everything, but the economics are dramatically better. Reserving reasoning-model spend for the queries that actually need it - typically a small fraction of total traffic for most applications - keeps the cost manageable while preserving the accuracy benefit where it matters.</p>
+<p>Teams running this pattern report 80-90% of queries handled by fast models and 10-20% routed to reasoning models. The split varies by domain. A coding assistant routes more to reasoning. A customer support bot routes less.</p>
+<p>Several of the frontier providers now offer hybrid endpoints that automatically decide whether a given query needs the reasoning path or can be handled by the classical model. The accuracy of this routing layer is one of the more consequential factors in real-world cost-to-serve, and the labs are competing on it in ways that are not yet visible in the public benchmarks.</p>
+<h2 id="the-controversial-parts">The controversial parts<a hidden class="anchor" aria-hidden="true" href="#the-controversial-parts">#</a></h2>
+<p>Four claims about reasoning models deserve more pushback than they typically get.</p>
+<p>The first is the claim that reasoning models are a step toward AGI. The framing is appealing but the empirical case is weaker than it sounds. The benchmarks where reasoning models do best are benchmarks specifically designed to test the kinds of reasoning the models are now good at. The benchmarks where they do less well - long-horizon planning, novel-context generalisation, dealing with genuine ambiguity - are still hard for them. The progress is real but it is progress along a specific axis, not progress along all axes.</p>
+<p>The second is the claim that the reasoning capability is fundamentally different from what came before. There is a credible technical argument that the long chain-of-thought is just a way of unlocking capability that was already latent in the base model, rather than a new capability per se. The training procedure that turns a base model into a reasoning model - large-scale reinforcement learning on reasoning traces with verifiable outcomes - is genuinely new, but the resulting model is on a continuum with the predecessors rather than a phase change away from them.</p>
+<p>The third is the claim that test-time compute scales indefinitely. The <a href="https://www.arturmarkus.com/the-test-time-compute-paradox-why-reasoning-models-like-o1-and-deepseek-r1-are-proving-that-more-inference-compute-can-destroy-accuracy/">test-time compute paradox</a> is real - in some regimes, adding more inference compute starts to hurt accuracy rather than help it. The model gets lost in its own reasoning, talks itself out of correct answers, or wastes compute on dead ends. The current frontier reasoning models have made significant progress on this but it has not been eliminated and the optimal amount of compute per problem is itself a hard tuning question.</p>
+<p>The fourth is the claim that DeepSeek R1 and R2 prove that the open-weight ecosystem has caught up with the frontier. The benchmark numbers are real but the production reliability gap is larger than the benchmarks suggest. The frontier models from OpenAI, Anthropic, and Google have advantages in long-tail reliability, in tool integration, and in the surrounding infrastructure that do not show up in the public scores. The gap is closing but it has not yet closed, particularly on the hardest agentic workloads.</p>
+<h2 id="where-this-is-heading">Where this is heading<a hidden class="anchor" aria-hidden="true" href="#where-this-is-heading">#</a></h2>
+<p>The reasoning-model era has split the LLM market into two related but distinct product categories. Fast models for the high-volume, latency-sensitive, accuracy-tolerant work. Reasoning models for the lower-volume, accuracy-critical work. The pricing reflects this, the architectures are diverging, and the labs are increasingly developing them as separate product lines. The 2026 application developer is no longer choosing &ldquo;which model&rdquo; - they are choosing which mix of models, with which routing logic, for which workloads.</p>
+<p>The most likely shape of 2027 is that reasoning models become a normal part of the API surface rather than a distinct category, with the routing between reasoning and non-reasoning paths happening transparently at the provider level. The price differential between the modes will compress as the providers compete on cost-to-serve, and the deployment patterns will stabilise around the workload shapes that actually benefit from the capability.</p>
+<p>The other prediction worth making is that the open-weight reasoning ecosystem will continue to compress the price floor faster than the frontier labs can keep up with on commercial pricing. The DeepSeek R2 release is the template - a reasoning model that is open-weight, available under permissive licences, and price-competitive with the frontier on most production workloads. The strategic implication for the closed labs is that the moat on reasoning capability is narrower than the moat on raw capability has been, and the differentiation has to come from somewhere other than the model itself.</p>
+<p>The third prediction is that agentic deployments are going to drive most of the real-world reasoning-model demand by 2027. The early 2026 picture is that synchronous reasoning - the user asks a question and waits for the answer - is the dominant use case. The 2027 picture is more likely to be agentic reasoning - the model is doing extended work on the user&rsquo;s behalf, taking actions, observing results, and reasoning across long horizons. The compute demand from this shift is one of the things that is going to keep the <a href="/ai/ai-energy-crisis-data-center-power/">AI energy crisis</a> at the centre of the conversation.</p>
+<p>For people building with reasoning models today, the practical guidance is the boring version of the exciting story. Use them for the workloads where they win. Keep classical models for the workloads where they do not. Build the routing layer carefully because that is where the cost-to-serve actually lives. Expect the price-per-token in the high-compute regime to come down significantly over the next 18 months, and expect new capability gains to keep arriving from the open-weight side faster than the closed-lab marketing implies.</p>
+<h2 id="related-reading">Related Reading<a hidden class="anchor" aria-hidden="true" href="#related-reading">#</a></h2>
+<ul>
+<li><a href="/ai/small-language-models/">The Rise of Small Language Models: Why Size Isn&rsquo;t Everything</a> - the model-size counterpart to the test-time-compute story.</li>
+<li><a href="/ai/deepseek/">DeepSeek</a> - the lab whose R1/R2 releases reset the price floor for reasoning models.</li>
+<li><a href="/ai/claude-opus-4-7/">Claude Opus 4.7: Autonomy and Vision at Scale</a> - the agentic-reasoning story from the Anthropic side.</li>
+<li><a href="/ai/llm-context-window-arms-race/">The LLM Context Window Arms Race: Does It Actually Matter?</a> - the adjacent capability lever that reasoning models complicate.</li>
+<li><a href="/ai/inference-hardware-insurgents/">Cerebras, Groq, SambaNova: The Inference Hardware Insurgents</a> - the hardware story that reasoning models have made commercially significant.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/reasoning/">Reasoning</a></li>
+      <li><a href="https://jamesm.blog/tags/openai/">Openai</a></li>
+      <li><a href="https://jamesm.blog/tags/deepseek/">Deepseek</a></li>
+      <li><a href="https://jamesm.blog/tags/anthropic/">Anthropic</a></li>
+      <li><a href="https://jamesm.blog/tags/gemini/">Gemini</a></li>
+      <li><a href="https://jamesm.blog/tags/inference/">Inference</a></li>
+      <li><a href="https://jamesm.blog/tags/2026/">2026</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jamesm.blog/ai/ai-in-scientific-research-2026/">
+    <span class="title">« Prev</span>
+    <span>AI in Scientific Research: From AlphaFold to the Long Tail</span>
+  </a>
+  <a class="next" href="https://jamesm.blog/ai/scott-galloway-on-ai/">
+    <span class="title">Next »</span>
+    <span>Scott Galloway on AI: The Marketing Professor&#39;s Case That the Rich Don&#39;t Need You Anymore</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift on x"
+            href="https://x.com/intent/tweet/?text=Reasoning%20Models%20in%202026%3a%20o3%2c%20R2%2c%20and%20the%20Compute-at-Inference%20Shift&amp;url=https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f&amp;hashtags=ai%2creasoning%2copenai%2cdeepseek%2canthropic%2cgemini%2cinference%2c2026">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f&amp;title=Reasoning%20Models%20in%202026%3a%20o3%2c%20R2%2c%20and%20the%20Compute-at-Inference%20Shift&amp;summary=Reasoning%20Models%20in%202026%3a%20o3%2c%20R2%2c%20and%20the%20Compute-at-Inference%20Shift&amp;source=https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f&title=Reasoning%20Models%20in%202026%3a%20o3%2c%20R2%2c%20and%20the%20Compute-at-Inference%20Shift">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift on whatsapp"
+            href="https://api.whatsapp.com/send?text=Reasoning%20Models%20in%202026%3a%20o3%2c%20R2%2c%20and%20the%20Compute-at-Inference%20Shift%20-%20https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift on telegram"
+            href="https://telegram.me/share/url?text=Reasoning%20Models%20in%202026%3a%20o3%2c%20R2%2c%20and%20the%20Compute-at-Inference%20Shift&amp;url=https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Reasoning%20Models%20in%202026%3a%20o3%2c%20R2%2c%20and%20the%20Compute-at-Inference%20Shift&u=https%3a%2f%2fjamesm.blog%2fai%2freasoning-models-2026%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

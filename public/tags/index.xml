@@ -11,20 +11,55 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 21:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 08:02:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://jamesm.blog/tags/ai/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analogy</title>
+      <link>https://jamesm.blog/tags/analogy/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/analogy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Discovery</title>
+      <link>https://jamesm.blog/tags/discovery/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/discovery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intelligence</title>
+      <link>https://jamesm.blog/tags/intelligence/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Invention</title>
+      <link>https://jamesm.blog/tags/invention/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/invention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://jamesm.blog/tags/research/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/research/</guid>
+      <description></description>
+    </item>
     <item>
       <title>2026</title>
       <link>https://jamesm.blog/tags/2026/</link>
       <pubDate>Thu, 14 May 2026 21:22:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/2026/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Thu, 14 May 2026 21:22:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -60,6 +95,55 @@
       <link>https://jamesm.blog/tags/safety/</link>
       <pubDate>Thu, 14 May 2026 21:22:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/safety/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alphafold</title>
+      <link>https://jamesm.blog/tags/alphafold/</link>
+      <pubDate>Wed, 13 May 2026 06:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/alphafold/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>https://jamesm.blog/tags/science/</link>
+      <pubDate>Wed, 13 May 2026 06:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deepseek</title>
+      <link>https://jamesm.blog/tags/deepseek/</link>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/deepseek/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gemini</title>
+      <link>https://jamesm.blog/tags/gemini/</link>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inference</title>
+      <link>https://jamesm.blog/tags/inference/</link>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/inference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openai</title>
+      <link>https://jamesm.blog/tags/openai/</link>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reasoning</title>
+      <link>https://jamesm.blog/tags/reasoning/</link>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/reasoning/</guid>
       <description></description>
     </item>
     <item>
@@ -217,7 +301,7 @@
       <description></description>
     </item>
     <item>
-      <title>AWS</title>
+      <title>Aws</title>
       <link>https://jamesm.blog/tags/aws/</link>
       <pubDate>Mon, 04 May 2026 07:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/aws/</guid>
@@ -434,13 +518,6 @@
       <description></description>
     </item>
     <item>
-      <title>Science</title>
-      <link>https://jamesm.blog/tags/science/</link>
-      <pubDate>Mon, 04 May 2026 00:01:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/science/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Space</title>
       <link>https://jamesm.blog/tags/space/</link>
       <pubDate>Mon, 04 May 2026 00:01:00 +0100</pubDate>
@@ -546,7 +623,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Sun, 03 May 2026 18:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -847,13 +924,6 @@
       <description></description>
     </item>
     <item>
-      <title>Research</title>
-      <link>https://jamesm.blog/tags/research/</link>
-      <pubDate>Sat, 02 May 2026 21:03:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/research/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Rocket</title>
       <link>https://jamesm.blog/tags/rocket/</link>
       <pubDate>Sat, 02 May 2026 10:00:00 +0100</pubDate>
@@ -896,7 +966,7 @@
       <description></description>
     </item>
     <item>
-      <title>Sound-Design</title>
+      <title>Sound Design</title>
       <link>https://jamesm.blog/tags/sound-design/</link>
       <pubDate>Sat, 02 May 2026 09:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sound-design/</guid>
@@ -1148,7 +1218,7 @@
       <description></description>
     </item>
     <item>
-      <title>Claude-Code</title>
+      <title>Claude Code</title>
       <link>https://jamesm.blog/tags/claude-code/</link>
       <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/claude-code/</guid>
@@ -1232,7 +1302,7 @@
       <description></description>
     </item>
     <item>
-      <title>Personal Development</title>
+      <title>Personal-Development</title>
       <link>https://jamesm.blog/tags/personal-development/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/personal-development/</guid>
@@ -1299,13 +1369,6 @@
       <link>https://jamesm.blog/tags/model-release/</link>
       <pubDate>Fri, 24 Apr 2026 07:51:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/model-release/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Openai</title>
-      <link>https://jamesm.blog/tags/openai/</link>
-      <pubDate>Fri, 24 Apr 2026 07:51:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/openai/</guid>
       <description></description>
     </item>
     <item>
@@ -1652,13 +1715,6 @@
       <description></description>
     </item>
     <item>
-      <title>Inference</title>
-      <link>https://jamesm.blog/tags/inference/</link>
-      <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/inference/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Llama</title>
       <link>https://jamesm.blog/tags/llama/</link>
       <pubDate>Sat, 18 Apr 2026 07:22:00 +0100</pubDate>
@@ -1827,7 +1883,7 @@
       <description></description>
     </item>
     <item>
-      <title>Life-Purpose</title>
+      <title>Life Purpose</title>
       <link>https://jamesm.blog/tags/life-purpose/</link>
       <pubDate>Thu, 09 Apr 2026 08:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/life-purpose/</guid>
@@ -2422,7 +2478,7 @@
       <description></description>
     </item>
     <item>
-      <title>Spec Kit</title>
+      <title>Spec-Kit</title>
       <link>https://jamesm.blog/tags/spec-kit/</link>
       <pubDate>Mon, 06 Apr 2026 00:05:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/spec-kit/</guid>
@@ -3080,13 +3136,6 @@
       <description></description>
     </item>
     <item>
-      <title>Discovery</title>
-      <link>https://jamesm.blog/tags/discovery/</link>
-      <pubDate>Wed, 07 Jan 2026 23:35:21 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/discovery/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Experimentation</title>
       <link>https://jamesm.blog/tags/experimentation/</link>
       <pubDate>Wed, 07 Jan 2026 23:35:21 +0100</pubDate>
@@ -3423,13 +3472,6 @@
       <description></description>
     </item>
     <item>
-      <title>Deepseek</title>
-      <link>https://jamesm.blog/tags/deepseek/</link>
-      <pubDate>Mon, 27 Jan 2025 21:39:14 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/deepseek/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Heritage</title>
       <link>https://jamesm.blog/tags/heritage/</link>
       <pubDate>Sun, 22 Sep 2024 12:57:01 +0000</pubDate>
@@ -3560,13 +3602,6 @@
       <link>https://jamesm.blog/tags/unitree-g1/</link>
       <pubDate>Tue, 21 May 2024 20:09:25 +0100</pubDate>
       <guid>https://jamesm.blog/tags/unitree-g1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gemini</title>
-      <link>https://jamesm.blog/tags/gemini/</link>
-      <pubDate>Fri, 17 May 2024 17:06:25 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/gemini/</guid>
       <description></description>
     </item>
     <item>
@@ -4190,13 +4225,6 @@
       <link>https://jamesm.blog/tags/sale/</link>
       <pubDate>Fri, 26 May 2023 07:01:39 +0100</pubDate>
       <guid>https://jamesm.blog/tags/sale/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Intelligence</title>
-      <link>https://jamesm.blog/tags/intelligence/</link>
-      <pubDate>Thu, 25 May 2023 12:53:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/intelligence/</guid>
       <description></description>
     </item>
     <item>

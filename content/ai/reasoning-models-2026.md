@@ -1,30 +1,34 @@
 ---
 title: "Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift"
 date: 2026-05-12T19:00:00+01:00
-draft: true
-tags: ["ai", "reasoning", "openai", "deepseek", "anthropic", "inference", "2026"]
-description: "A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, why test-time compute is now the dominant lever, and what the cost and capability trade-offs actually look like in production."
+draft: false
+tags: ["ai", "reasoning", "openai", "deepseek", "anthropic", "gemini", "inference", "2026"]
+description: "A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production."
 cover:
   image: /assets/images/ai/reasoning-models-2026.jpg
   alt: Reasoning Models in 2026 - o3, R2, and the Compute-at-Inference Shift Banner
 ---
 
-Two years ago the way to make a model better was to train a bigger one. By the start of 2026 that recipe has stopped being the most interesting answer. The frontier has moved to a different lever - letting the model think for longer at inference time, generating intermediate reasoning, and only then producing the final answer. The category has a name now (reasoning models) and a family of products built around it. The interesting question is not whether the trick works, because it clearly does, but where it lands in production and what the costs actually look like once the demo glow wears off.
+Two years ago the way to make a model better was to train a bigger one. By the start of 2026 that recipe has stopped being the most interesting answer. The frontier has moved to a different lever - letting the model think for longer at inference time, generating intermediate reasoning, and only then producing the final answer. The category has a name now (reasoning models) and a family of products built around it. The interesting questions are no longer whether the trick works, because it clearly does, but when to reach for one, where it lands in production, and what the costs actually look like once the demo glow wears off.
 
 ## TL;DR
 
 - The reasoning-model wave began in late 2024 with OpenAI's o1 and went mainstream in 2025-2026 with **OpenAI o3**, **DeepSeek R1** and the R2 successor, **Gemini Deep Think**, and **Claude Extended Thinking**.
 - The core mechanism is **test-time compute**: the model generates a long chain of intermediate reasoning before the final answer. The chain may consume tens or hundreds of thousands of tokens for a single hard problem.
+- **Reasoning models trade time and tokens for accuracy.** They are slower, more expensive per task, and substantially better on problems that genuinely require multi-step reasoning. Use them for hard problems where being right matters more than being fast - mathematical derivations, complex coding refactors, scientific reasoning, structured argument analysis.
+- **Use non-reasoning models for everything else.** Conversational interactions, simple lookups, content generation, anything where a competent first-pass answer is enough.
 - The benchmark gains are real and large. [o3 scores 87.7% on GPQA Diamond](https://aiweekly.co/learning-ai/deep-learning/what-test-time-compute-how-ai-models-think-they-answer) (graduate-level science) and broke the ARC-AGI benchmark with 96.7% in its high-compute setting. DeepSeek R1 hit 79.8% on AIME 2024 at roughly 5% of o1's API price.
 - The cost structure has flipped. In the high-compute regime, [o3 averages around 57 million tokens per question and roughly 14 minutes of runtime](https://aiweekly.co/learning-ai/deep-learning/what-test-time-compute-how-ai-models-think-they-answer) for the hardest problems. The economics of inference now look more like the economics of training.
-- The category is splitting into **two product modes**: synchronous reasoning (the model thinks for seconds-to-minutes and returns an answer) and **agentic reasoning** (the model thinks across many tool calls and external interactions over hours). Different use cases need different modes.
-- The most consequential effect of the wave is **cost compression on the long tail of hard problems**, not the average task. Most production workloads do not need a reasoning model. The ones that do, now have something that genuinely works.
+- The category is splitting into **two product modes**: synchronous reasoning (the model thinks for seconds-to-minutes and returns an answer) and **agentic reasoning** (the model thinks across many tool calls and external interactions over hours).
+- The deployment pattern that works is **hybrid routing** - send easy queries to fast models and hard queries to reasoning models, deciding at runtime which is which.
 
 ## What actually changed
 
 The classical transformer model produces tokens left-to-right, one at a time, with the same fixed amount of compute per token. The only way to make the model better at a given task was to make the model itself larger or to train it on more data. That scaling regime delivered most of the gains of the 2020-2024 era.
 
-The reasoning-model wave came from a different direction. Instead of making the model bigger, you let the model think for longer. The model is trained to generate a long internal chain of intermediate reasoning - exploring solution strategies, checking partial answers, backing up when something looks wrong - and only after this chain is done does it produce the final response. The technical name for the lever is *test-time compute*, or sometimes *inference-time scaling*, and the empirical result is that you can trade compute at inference for capability on hard problems in a way that the older scaling regime did not allow.
+The reasoning-model wave came from a different direction. Instead of making the model bigger, you let the model think for longer. The model is trained to generate a long internal chain of intermediate reasoning - exploring solution strategies, checking partial answers, backing up when something looks wrong - and only after this chain is done does it produce the final response. The internal chain is often not shown - the model thinks privately, then writes the response. The technical name for the lever is *test-time compute*, or sometimes *inference-time scaling*, and the empirical result is that you can trade compute at inference for capability on hard problems in a way that the older scaling regime did not allow.
+
+The training is the part that matters. Reasoning models are post-trained, typically with reinforcement learning, to produce internal reasoning chains that are factually accurate, well-structured, and lead to correct conclusions. The chain itself is not a magic incantation - it is the result of significant training effort directed at making the model's own reasoning reliable.
 
 The reason this is a big deal is that the curves are favourable. On a wide range of hard reasoning tasks - mathematics olympiad problems, graduate-level science, competitive programming, novel logic puzzles - adding inference compute keeps improving the score for far longer than was expected. The [o3 high-compute results](https://aiweekly.co/learning-ai/deep-learning/what-test-time-compute-how-ai-models-think-they-answer) on ARC-AGI are the most striking public demonstration of this - a benchmark that was specifically designed to be hard for current models was effectively saturated by spending substantial compute on each problem.
 
@@ -34,13 +38,13 @@ The other reason it is a big deal is that it works on much smaller base models t
 
 The reasoning-model category in 2026 has four serious entrants and a longer tail of credible open-weight alternatives.
 
-**OpenAI o3** is the current performance leader on most public benchmarks. The model was released in early 2025 and has been steadily improved since. The high-compute setting is genuinely strong but very expensive - tens of millions of tokens per hard problem and runtimes measured in minutes. The low-compute setting is much cheaper and is what most production deployments actually use. OpenAI has also shipped **o3-mini** and **o4-mini** as smaller, faster variants for use cases that need reasoning without the full o3 cost structure.
+**OpenAI o3 and o4** are the current performance leaders on most public benchmarks. The o-series is what most teams reach for when they need state-of-the-art reasoning and are willing to pay for it. The high-compute setting is genuinely strong but very expensive - tens of millions of tokens per hard problem and runtimes measured in minutes. The low-compute setting is much cheaper and is what most production deployments actually use. OpenAI has also shipped **o3-mini** and **o4-mini** as smaller, faster variants for use cases that need reasoning without the full o3 cost structure.
 
-**DeepSeek R1 and R2** are the open-weight benchmark. R1 was released in January 2025 and demonstrated that reasoning performance comparable to o1 was possible at a fraction of the cost. R2 followed later in 2025 with significant improvements on coding and on longer-horizon reasoning. The models are available under permissive licences and have been adopted widely across the open-source ecosystem. Their existence is the single biggest reason the price floor for reasoning models has compressed so quickly.
+**Anthropic's Claude Extended Thinking** is built into the Claude family rather than being a separate product. The extended-thinking mode gives [Claude](/ai/claude-opus-4-7/) deliberate internal reasoning steps; the same model can be invoked in fast mode for routine work. The Anthropic implementation is unusual in that it exposes the reasoning trace to the user by default, which has implications for both interpretability and how the product is used. The strength is integration with the rest of the Claude ecosystem - tool use, agentic loops, long context all work the same way regardless of thinking mode. The [Claude Opus 4.7](/ai/claude-opus-4-7/) release in early 2026 made significant gains on the agentic-reasoning end of the spectrum.
 
-**Gemini Deep Think** is Google DeepMind's entry in the category, integrated into the Gemini Ultra tier. The capability is comparable to the other frontier reasoning models on most benchmarks and the integration with the Google product surface makes it the default for Google customers. The 2.0 generation, shipped in late 2025, introduced significantly stronger long-horizon reasoning and tool use.
+**Google Gemini Deep Think** is Google DeepMind's entry in the category, integrated into the Gemini Ultra tier. It has carved out the niche of strong reasoning at competitive pricing, with particular strength on multimodal reasoning problems - Gemini's reasoning over images, video, and audio is meaningfully ahead of the text-only reasoning competition. The 2.0 generation, shipped in late 2025, introduced significantly stronger long-horizon reasoning and tool use.
 
-**Claude Extended Thinking** is Anthropic's entry, available across the Claude 4 and Claude Opus 4.7 models. The Anthropic implementation is unusual in that it exposes the reasoning trace to the user by default, which has implications for both interpretability and for how the product is used. The capability is strong on coding and on structured analytical tasks, and the [Claude Opus 4.7](/ai/claude-opus-4-7/) release in early 2026 made significant gains on the agentic-reasoning end of the spectrum.
+**DeepSeek R1 and R2** are the open-weight benchmark. R1 was released in January 2025 and demonstrated that reasoning performance comparable to o1 was possible at a fraction of the cost. R2 followed later in 2025 with significant improvements on coding and on longer-horizon reasoning. The models are available under permissive licences and have been adopted widely across the open-source ecosystem. The trade-off is that you have to run the inference yourself. Their existence is the single biggest reason the price floor for reasoning models has compressed so quickly.
 
 Beyond these four, the open-weight ecosystem has shipped credible reasoning models from Qwen, Mistral, and several smaller research labs. The category is increasingly crowded and the gap between the frontier and the open alternatives is narrower on reasoning than it is on raw capability.
 
@@ -52,21 +56,41 @@ Reasoning models break this. In the high-compute regime, a single hard problem c
 
 The practical implication is that reasoning models are not a drop-in replacement for the classical models on every workload. For an enormous fraction of production use cases - text generation, summarisation, classification, routine code generation, routine question answering - the marginal value of the reasoning capability is small and the marginal cost is large. The reasoning models are the wrong tool for these workloads and the smart deployment pattern is to keep the classical models in place for the bulk of traffic and route only the hard problems to the reasoning models.
 
-The interesting part is that the routing itself is becoming a real engineering problem. Several of the frontier providers now offer hybrid endpoints that automatically decide whether a given query needs the reasoning path or can be handled by the classical model. The accuracy of this routing layer is one of the more consequential factors in real-world cost-to-serve, and the labs are competing on it in ways that are not yet visible in the public benchmarks.
-
 ## Where reasoning models actually win
 
 The category wins on a specific shape of problem and is mediocre or wasteful on everything else.
 
-**Hard reasoning problems with verifiable answers.** Mathematics, formal logic, competitive programming with test cases, scientific questions with structured answers. The reasoning chain has something to verify against and the model can self-correct when it goes wrong. The benchmark gains in this category are the largest and the most defensible.
+**Hard reasoning problems with verifiable answers.** Mathematics, formal logic, competitive programming with test cases, scientific questions with structured answers. Word problems, derivations, statistical analysis, financial calculations - the kind of work where a small error early in the chain compounds into a wrong final answer. The reasoning chain has something to verify against and the model can self-correct when it goes wrong. The benchmark gains in this category are the largest and the most defensible.
 
-**Long-horizon coding tasks.** Anything that requires holding multiple files, multiple constraints, and multiple steps in working memory while reasoning about the changes. The frontier reasoning models have transformed what you can ship in a single coding turn, and the [Claude Code](/ai/claude-code-vs-cursor/) and related agentic-coding products are built around this capability.
+**Long-horizon coding tasks.** Multi-file refactors, debugging subtle bugs, designing data structures - anything that requires holding multiple files, multiple constraints, and multiple steps in working memory while reasoning about the changes. The frontier reasoning models have transformed what you can ship in a single coding turn, and the [Claude Code](/ai/claude-code-vs-cursor/) and related agentic-coding products are built around this capability.
 
 **Complex tool use and agentic workflows.** Tasks where the model has to plan a sequence of actions, execute them, observe the results, and revise the plan. The reasoning capability is what makes this work end-to-end without constant human intervention. The agentic deployments that work in 2026 are almost all built on top of reasoning models.
 
-**Structured analytical work.** Financial analysis, legal reasoning, scientific literature synthesis. Tasks where the answer requires holding many constraints and structured arguments together. The reasoning models are markedly better at this than the classical predecessors and the gap is large enough to be commercially meaningful.
+**Structured analytical work.** Financial analysis, legal reasoning, scientific literature synthesis. Reading a legal document and identifying the obligations, examining a contract for ambiguities, evaluating a logical argument. Tasks where the answer requires holding many constraints and structured arguments together. The reasoning models are markedly better at this than the classical predecessors and the gap is large enough to be commercially meaningful.
 
-The category does not particularly win on creative writing, on subjective tasks, on tasks where the bottleneck is style rather than logic, or on most of the routine text-generation workloads that make up the bulk of consumer LLM usage. The hype around reasoning models has sometimes obscured how narrow the actual capability advantage is, and the production deployment patterns have started to reflect this.
+**High-stakes decisions where being right matters.** Cases where the cost of a wrong answer is high enough to justify the extra inference cost.
+
+## Where they do not
+
+The places where reasoning models add friction without value:
+
+- **Conversational interactions.** The latency makes them feel slow and unnatural in chat.
+- **Content generation.** Writing an email, drafting a blog post, creating marketing copy - a fast model produces work that is hard to distinguish from a slow one.
+- **Simple lookups.** "What is the capital of Bolivia" does not benefit from extended thought.
+- **Tool-heavy agentic loops where the bottleneck is orchestration.** When most of the work is calling tools and parsing results, the reasoning model's strength is wasted on the overhead.
+- **Subjective tasks and creative writing** where the bottleneck is style rather than logic.
+
+The hype around reasoning models has sometimes obscured how narrow the actual capability advantage is, and the production deployment patterns have started to reflect this. Using a reasoning model for everything is expensive and slow; using one for nothing leaves accuracy on the table for the cases that benefit.
+
+## The hybrid pattern that works
+
+The deployment pattern that most teams running serious production workloads have converged on is hybrid routing. A cheap, fast classifier model looks at the incoming request and decides whether it is a "hard" question that warrants reasoning-model treatment or a "routine" question that goes to a fast model. The decision is made in milliseconds; the routing is invisible to the user.
+
+This is harder to operate than picking one model and using it for everything, but the economics are dramatically better. Reserving reasoning-model spend for the queries that actually need it - typically a small fraction of total traffic for most applications - keeps the cost manageable while preserving the accuracy benefit where it matters.
+
+Teams running this pattern report 80-90% of queries handled by fast models and 10-20% routed to reasoning models. The split varies by domain. A coding assistant routes more to reasoning. A customer support bot routes less.
+
+Several of the frontier providers now offer hybrid endpoints that automatically decide whether a given query needs the reasoning path or can be handled by the classical model. The accuracy of this routing layer is one of the more consequential factors in real-world cost-to-serve, and the labs are competing on it in ways that are not yet visible in the public benchmarks.
 
 ## The controversial parts
 
@@ -81,6 +105,8 @@ The third is the claim that test-time compute scales indefinitely. The [test-tim
 The fourth is the claim that DeepSeek R1 and R2 prove that the open-weight ecosystem has caught up with the frontier. The benchmark numbers are real but the production reliability gap is larger than the benchmarks suggest. The frontier models from OpenAI, Anthropic, and Google have advantages in long-tail reliability, in tool integration, and in the surrounding infrastructure that do not show up in the public scores. The gap is closing but it has not yet closed, particularly on the hardest agentic workloads.
 
 ## Where this is heading
+
+The reasoning-model era has split the LLM market into two related but distinct product categories. Fast models for the high-volume, latency-sensitive, accuracy-tolerant work. Reasoning models for the lower-volume, accuracy-critical work. The pricing reflects this, the architectures are diverging, and the labs are increasingly developing them as separate product lines. The 2026 application developer is no longer choosing "which model" - they are choosing which mix of models, with which routing logic, for which workloads.
 
 The most likely shape of 2027 is that reasoning models become a normal part of the API surface rather than a distinct category, with the routing between reasoning and non-reasoning paths happening transparently at the provider level. The price differential between the modes will compress as the providers compete on cost-to-serve, and the deployment patterns will stabilise around the workload shapes that actually benefit from the capability.
 

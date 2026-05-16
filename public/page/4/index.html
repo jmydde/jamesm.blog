@@ -196,6 +196,55 @@
 <main class="main"> 
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/best-mpe-controllers-2026.jpg" alt="MPE MIDI Controllers">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The Best MPE Controllers in 2026
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>About MIDI Polyphonic Expression (MPE) is an extension of MIDI that gives every note its own continuous control over pitch, pressure, and timbre. Where standard MIDI shares pitch bend and aftertouch across the whole channel, MPE spreads notes across multiple channels so each voice in a chord can be bent, swelled, or shaped independently.
+In practice this means you can hold a chord and bend a single note up, slide between voicings without re-triggering, add vibrato to the top line of a phrase while the rest sustains cleanly, and play electronic instruments with the kind of per-note nuance that string and wind players have always taken for granted.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-01 20:24:00 +0000 +0000'>May 1, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to The Best MPE Controllers in 2026" href="https://jamesm.blog/music-production/best-mpe-controllers-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/music-production/suno-may-2026.png" alt="Suno AI music platform in May 2026">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Suno in May 2026: where the platform actually is
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR - Suno v5.5 (March 2026) is the most expressive model yet, and three personalisation features finally make the platform usable as a real workflow: Voices (clone your own verified singing voice), Custom Models (fine-tune v5.5 on your own catalogue), and My Taste (lightweight preference learning for everyone). The Warner Music deal is now visible in the product - older models are being deprecated, free accounts have lost commercial download rights, and the ownership language has softened from “you own this” to “you have commercial rights.” Best used for demos, stem libraries, and personal sound signatures; still risky for releases that need clean copyright provenance.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-01 19:02:00 +0100 BST'>May 1, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Suno in May 2026: where the platform actually is" href="https://jamesm.blog/music-production/suno-may-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/ai-agents-that-actually-work.jpg" alt="AI Agents That Actually Work Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI Agents That Actually Work: Patterns From Real Projects
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Most agent demos fail in production because demos operate in a regime where the model’s natural behaviour is good enough - production is longer, messier, and largely unobserved Eight patterns separate agents that stay shipped from the ones that fall over: scope the loop, structured tool design, mandatory verification, curated context, first-class human handoff, idempotency, agent-level observability, and real evaluation infrastructure Models confabulate actions - “I ran the tests” does not mean the tests were run; every agent needs explicit verification baked into the control flow, not bolted on as an afterthought The tool layer between the model and underlying systems is where most of the engineering effort actually lives, and exposing raw APIs directly to the agent almost always goes wrong Build agents the same way you would build any other long-running, partially-autonomous system you cannot afford to have fail silently - the novelty is in the failure modes, not the engineering principles I have spent the last eighteen months either building, reviewing, or operating systems that some marketing department somewhere has called “agents”. The definition has been so thoroughly stretched that it now means anything from a chatbot with a calculator tool to a long-running autonomous workflow that touches production infrastructure. Underneath the noise there is a real engineering discipline emerging, and the patterns that separate the systems that survive contact with real users from the ones that demo well and fall over are starting to be legible.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-01 08:00:00 +0100 BST'>May 1, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to AI Agents That Actually Work: Patterns From Real Projects" href="https://jamesm.blog/ai/ai-agents-that-actually-work/"></a>
+</article>
+
+<article class="post-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">AI Tools &amp; Frameworks
     </h2>
@@ -304,54 +353,6 @@ What the Connector Actually Does The official Ableton connector grounds Claude�
   </div>
   <footer class="entry-footer"><span title='2026-04-29 08:30:00 +0100 BST'>April 29, 2026</span>&nbsp;·&nbsp;<span>14 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision" href="https://jamesm.blog/ai/ai-augmented-design-workflow/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/fine-tune-vs-rag.jpg" alt="When to Fine-Tune vs When to RAG Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">When to Fine-Tune vs When to RAG: Choosing Your AI Architecture
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR The default choice for most teams should be RAG - it is reversible in days, whereas a bad fine-tuning decision is an expensive sunk cost that requires retraining to fix RAG fails when the question requires reasoning across an entire knowledge domain rather than extracting a specific answer from a passage; fine-tuning handles that case better Fine-tuning fails silently when underlying facts change - it produces confidently wrong, stale answers with no warning; RAG automatically picks up changes at query time A practical decision framework: use RAG for volatile facts and cited answers, use fine-tuning for stable style, voice, and cross-domain reasoning The best production systems use both: a fine-tuned base model for stable domain knowledge, augmented with retrieval for current and specific information The question I get asked most often by engineers starting to build with language models is some variation of: “should we fine-tune or should we do RAG?” It is almost always the wrong question, but it is the wrong question in an instructive way. The reason it gets asked so much is that the choice feels architectural, and architectural choices feel like the kind of thing you commit to once and live with. In practice, the choice is closer to “should I use a database or a cache” - the answer is usually some of both, applied to different problems, and the ratio shifts as the system matures.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-29 08:00:00 +0100 BST'>April 29, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to When to Fine-Tune vs When to RAG: Choosing Your AI Architecture" href="https://jamesm.blog/ai/fine-tune-vs-rag/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/free-intelligence-era.jpg" alt="The Free Intelligence Era Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Free Intelligence Era: What Breaks When Thinking Costs Nothing
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR The marginal cost of AI intelligence is halving roughly every two months and heading toward a level where rationing stops making sense - similar to how bandwidth and storage became effectively unconstrained This will break pricing models built on scarce cognition: anything billed per word, per hour, or per consult faces a hard ceiling set by what machines charge for the same work The Jevons paradox means total cognitive work in the economy likely goes up, not down - cheaper thinking means we apply thinking to far more problems, not the same problems more cheaply Three categories of human work survive: accountability (being the named responsible party), taste (choosing well from infinite AI-generated options), and real-world coupling (a body in a place, a relationship that took years to build) The political question of who captures the surplus and who absorbs the transition cost is still open - it will be decided by institutions and policy, not by the technology itself This is a personal reflection, not a forecast dressed up as one. I am writing about a trend I think is real, but the second-order consequences are guesses, and I am sure some of them are wrong.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-28 00:48:00 +0100 BST'>April 28, 2026</span>&nbsp;·&nbsp;<span>14 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Free Intelligence Era: What Breaks When Thinking Costs Nothing" href="https://jamesm.blog/ai/free-intelligence-era/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/junior-developer-pipeline.jpg" alt="Junior Developer Pipeline Problem Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR The work AI now automates - boring tickets, bug hunts, boilerplate - was the unspoken apprenticeship that turned juniors into seniors The skills that work built (pattern recognition, systems intuition, taste, calibration) are built by doing, not by reading - and that doing is now cheapest to delegate The new apprenticeship shifts toward reading over writing, debugging agent output, earlier architectural decisions, and deliberate practice of things agents do badly There is a coordination problem: individual organisations rationally skip junior investment in the short term, but the senior pipeline thins industry-wide a few years later If you are starting out today, optimise for proximity to a great senior engineer above salary, title, or any other variable The views in this post are my own personal reflections on the industry as a whole, written in my own time. They are not about any specific employer, team, or colleague, past or present.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-28 00:12:00 +0100 BST'>April 28, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The Junior Developer Pipeline Problem: Where Do Tomorrow&#39;s Seniors Come From?" href="https://jamesm.blog/ai/junior-developer-pipeline-problem/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

@@ -92,5 +92,5 @@ This is going to settle one way or another in the next few years. The technology
 - [Multimodal AI in 2026: Beyond Vision](/ai/multimodal-ai-beyond-vision/)
 - [AI Content Provenance and Watermarking](/ai/ai-content-provenance-watermarking-c2pa/)
 - [Grok Voice APIs](/ai/grok-voice-apis/)
-- [The Reasoning Model Era](/ai/reasoning-model-era/)
+- [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [AI Agents That Actually Work](/ai/ai-agents-that-actually-work/)

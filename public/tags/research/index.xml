@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 May 2026 21:03:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 08:02:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI as Analogy Engine: Synthesis, Invention, and the Combinatorial Frontier</title>
+      <link>https://jamesm.blog/ai/ai-as-analogy-engine/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-as-analogy-engine/</guid>
+      <description>The deepest misunderstanding about modern AI is that it merely retrieves memorised text. The more interesting truth is that large models form analogies, combine concepts, and explore conceptual relationships at a scale that may eventually industrialise parts of the invention process itself.</description>
+    </item>
+    <item>
+      <title>AI in Scientific Research: From AlphaFold to the Long Tail</title>
+      <link>https://jamesm.blog/ai/ai-in-scientific-research-2026/</link>
+      <pubDate>Wed, 13 May 2026 06:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-in-scientific-research-2026/</guid>
+      <description>AlphaFold was the headline AI-for-science story. In 2026 the story has broadened into something more interesting - AI tools in routine use across many scientific fields, with uneven but real impact. A practical look at where the gains actually are.</description>
+    </item>
     <item>
       <title>Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled</title>
       <link>https://jamesm.blog/ai/roman-yampolskiy/</link>

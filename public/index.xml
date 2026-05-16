@@ -11,14 +11,35 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 21:22:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 08:02:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI as Analogy Engine: Synthesis, Invention, and the Combinatorial Frontier</title>
+      <link>https://jamesm.blog/ai/ai-as-analogy-engine/</link>
+      <pubDate>Sat, 16 May 2026 08:02:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-as-analogy-engine/</guid>
+      <description>The deepest misunderstanding about modern AI is that it merely retrieves memorised text. The more interesting truth is that large models form analogies, combine concepts, and explore conceptual relationships at a scale that may eventually industrialise parts of the invention process itself.</description>
+    </item>
     <item>
       <title>Dario Amodei: The Anthropic CEO Betting on Safety as Strategy</title>
       <link>https://jamesm.blog/ai/dario-amodei-anthropic-ceo/</link>
       <pubDate>Thu, 14 May 2026 21:22:00 +0100</pubDate>
       <guid>https://jamesm.blog/ai/dario-amodei-anthropic-ceo/</guid>
       <description>A grounded look at Dario Amodei - the Princeton-trained physicist who left OpenAI to co-found Anthropic, made AI safety the company&amp;#39;s commercial differentiator, and now runs the second-most-valuable private AI company on the planet.</description>
+    </item>
+    <item>
+      <title>AI in Scientific Research: From AlphaFold to the Long Tail</title>
+      <link>https://jamesm.blog/ai/ai-in-scientific-research-2026/</link>
+      <pubDate>Wed, 13 May 2026 06:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/ai-in-scientific-research-2026/</guid>
+      <description>AlphaFold was the headline AI-for-science story. In 2026 the story has broadened into something more interesting - AI tools in routine use across many scientific fields, with uneven but real impact. A practical look at where the gains actually are.</description>
+    </item>
+    <item>
+      <title>Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift</title>
+      <link>https://jamesm.blog/ai/reasoning-models-2026/</link>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/reasoning-models-2026/</guid>
+      <description>A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.</description>
     </item>
     <item>
       <title>Scott Galloway on AI: The Marketing Professor&#39;s Case That the Rich Don&#39;t Need You Anymore</title>
@@ -3262,7 +3283,7 @@
 &lt;li&gt;Covers agent frameworks (&lt;a href=&#34;https://github.com/microsoft/autogen&#34;&gt;AutoGen&lt;/a&gt;, &lt;a href=&#34;https://github.com/joaomdmoura/crewai&#34;&gt;CrewAI&lt;/a&gt;, &lt;a href=&#34;https://github.com/langchain-ai/langchain&#34;&gt;LangChain&lt;/a&gt;), code-focused tools (&lt;a href=&#34;https://github.com/paul-gauthier/aider&#34;&gt;Aider&lt;/a&gt;, &lt;a href=&#34;https://github.com/OpenInterpreter/open-interpreter&#34;&gt;Open Interpreter&lt;/a&gt;), and local LLM runners (&lt;a href=&#34;https://github.com/jmorganca/ollama&#34;&gt;Ollama&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Useful as a starting map if you&amp;rsquo;re choosing between frameworks, or want to see what the community is converging on&lt;/li&gt;
 &lt;li&gt;Star counts and momentum shift quickly here - treat the list as a snapshot rather than a permanent ranking&lt;/li&gt;
-&lt;li&gt;Pair with the &lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;tools list&lt;/a&gt; for hosted products and the &lt;a href=&#34;https://jamesm.blog/ai/explainers/&#34;&gt;explainers&lt;/a&gt; for foundations&lt;/li&gt;
+&lt;li&gt;Pair with the &lt;a href=&#34;https://jamesm.blog/ai/ai-tools/&#34;&gt;tools list&lt;/a&gt; for hosted products and the &lt;a href=&#34;https://jamesm.blog/ai/explainers/&#34;&gt;explainers&lt;/a&gt; for foundations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;A collection of significant open-source AI projects that are shaping the ecosystem.&lt;/p&gt;</description>
     </item>
@@ -3452,7 +3473,7 @@
 &lt;li&gt;&lt;strong&gt;Notion&lt;/strong&gt; is a flexible workspace for notes, documents, databases, and task management - extended with &lt;strong&gt;Notion AI&lt;/strong&gt; as a paid add-on&lt;/li&gt;
 &lt;li&gt;AI features cover document Q&amp;amp;A, content generation, summarisation, and a writing assistant for grammar and tone&lt;/li&gt;
 &lt;li&gt;Strongest as a single home for personal knowledge, team wikis, and lightweight project management - one workspace instead of three tools&lt;/li&gt;
-&lt;li&gt;The AI layer is good for in-context drafting and lookup; less suited to heavy reasoning where a dedicated &lt;a href=&#34;https://jamesm.blog/ai/tools/&#34;&gt;LLM tool&lt;/a&gt; does better&lt;/li&gt;
+&lt;li&gt;The AI layer is good for in-context drafting and lookup; less suited to heavy reasoning where a dedicated &lt;a href=&#34;https://jamesm.blog/ai/ai-tools/&#34;&gt;LLM tool&lt;/a&gt; does better&lt;/li&gt;
 &lt;li&gt;Pricing is per-seat for Notion plus an AI add-on; check the current tiers before committing for a team&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.notion.so/&#34;&gt;Notion&lt;/a&gt; is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.&lt;/p&gt;</description>

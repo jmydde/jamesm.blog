@@ -34,7 +34,7 @@ Other new features & improvements
 {{< youtube 2iEQ6p9iGng >}}
 
 ## Related
-- [List of AI Tools](/ai/tools)
+- [List of AI Tools](/ai/ai-tools/)
 
 ## Related Reading
 

@@ -11,7 +11,7 @@ tags: ["ai","github","chatgpt","open-source","framework"]
 - Covers agent frameworks ([AutoGen](https://github.com/microsoft/autogen), [CrewAI](https://github.com/joaomdmoura/crewai), [LangChain](https://github.com/langchain-ai/langchain)), code-focused tools ([Aider](https://github.com/paul-gauthier/aider), [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)), and local LLM runners ([Ollama](https://github.com/jmorganca/ollama))
 - Useful as a starting map if you're choosing between frameworks, or want to see what the community is converging on
 - Star counts and momentum shift quickly here - treat the list as a snapshot rather than a permanent ranking
-- Pair with the [tools list](/ai/tools/) for hosted products and the [explainers](/ai/explainers/) for foundations
+- Pair with the [tools list](/ai/ai-tools/) for hosted products and the [explainers](/ai/explainers/) for foundations
 
 A collection of significant open-source AI projects that are shaping the ecosystem.
 
@@ -45,4 +45,4 @@ A collection of significant open-source AI projects that are shaping the ecosyst
 - [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
 - [OpenClaw Is Absolutely Wild](/ai/openclaw-is-wild/)
 - [The Complete AI Developer's Guide: Resources and Best Practices](/ai/ai-resources-and-best-practices/)
-- [AI Tools & Frameworks](/ai/tools/)
+- [AI Tools & Frameworks](/ai/ai-tools/)

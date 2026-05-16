@@ -21,6 +21,13 @@
       <description>A grounded look at Dario Amodei - the Princeton-trained physicist who left OpenAI to co-found Anthropic, made AI safety the company&amp;#39;s commercial differentiator, and now runs the second-most-valuable private AI company on the planet.</description>
     </item>
     <item>
+      <title>Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift</title>
+      <link>https://jamesm.blog/ai/reasoning-models-2026/</link>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0100</pubDate>
+      <guid>https://jamesm.blog/ai/reasoning-models-2026/</guid>
+      <description>A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production.</description>
+    </item>
+    <item>
       <title>Amazon Doubles Down: The $25 Billion Anthropic Bet</title>
       <link>https://jamesm.blog/ai/amazon-anthropic-25-billion-investment/</link>
       <pubDate>Tue, 21 Apr 2026 06:36:00 +0100</pubDate>

@@ -127,7 +127,7 @@ DeepSeek V3 and R1 collapsed the price floor in 2025 and remain the cheapest fro
 - **Team ($30/user/mo, 5 seat min)**: Central billing, shared Projects.
 - **Enterprise**: SSO, audit logs, data residency, custom usage.
 
-The Max tiers are specifically positioned for developers running [Claude Code](/ai/my-ai-dev-stack/) sessions all day - at that usage, Max is cheaper than the API.
+The Max tiers are specifically positioned for developers running [Claude Code](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/) sessions all day - at that usage, Max is cheaper than the API.
 
 ### ChatGPT
 
@@ -159,7 +159,7 @@ Worth considering if you already live on X or need live social data inside your 
 
 Match the plan to the shape of your usage, not the brand:
 
-- **Daily coding with an agent**: Claude Max. Cheaper than the API once you pass ~$100/mo of equivalent usage. See [My AI Dev Stack](/ai/my-ai-dev-stack/).
+- **Daily coding with an agent**: Claude Max. Cheaper than the API once you pass ~$100/mo of equivalent usage. See [My AI Dev Stack](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/).
 - **Weekend experimentation**: Pay-as-you-go API with a spending cap. Skip subscriptions entirely.
 - **Production app, low volume**: Haiku 4.5 or GPT-5 mini. Both handle the vast majority of real tasks.
 - **Production app, high volume**: DeepSeek V3 for batch, Gemini Flash for long context, Claude Haiku for quality-sensitive paths. Route per task.
@@ -230,5 +230,5 @@ Pricing keeps falling at the low end while the frontier stays expensive. Context
 - [Local vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/)
 - [GPU Servers vs API Credits](/ai/gpu-servers-vs-api-credits/)
 - [Token Economics: Why Costs Aren't Going Down](/ai/token-economics-why-costs-arent-going-down/)
-- [My AI Dev Stack](/ai/my-ai-dev-stack/)
+- [My AI Dev Stack](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/)
 - [LLM Context Window Arms Race](/ai/llm-context-window-arms-race/)

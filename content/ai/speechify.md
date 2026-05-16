@@ -54,4 +54,4 @@ Speechify has become the standard tool for accessible reading and is widely used
 - [MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared](/ai/mac-dictation-tools-comparison/)
 - [OpenAI Voice Engine](/ai/openai-voice-engine/)
 - [Grok's New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale](/ai/grok-voice-apis/)
-- [AI Tools & Frameworks](/ai/tools/)
+- [AI Tools & Frameworks](/ai/ai-tools/)

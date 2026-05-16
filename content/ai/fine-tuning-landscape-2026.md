@@ -49,7 +49,7 @@ Distillation takes a large model that works well and trains a smaller model to r
 The 2026 distillation landscape is the most active research area of the three. Several specific techniques are in production use:
 
 - **Output distillation** - train the student to match the teacher's output distribution on a representative dataset.
-- **Reasoning distillation** - train the student on the teacher's chain of thought, including from [reasoning models](/ai/reasoning-model-era/).
+- **Reasoning distillation** - train the student on the teacher's chain of thought, including from [reasoning models](/ai/reasoning-models-2026/).
 - **Task-specific distillation** - train a small model just for one specific task, using a larger model to generate training data.
 
 Distillation is the right approach when you have an expensive model that works and you need a cheaper one that approximates it. The cost trade-off is usually favourable - a few hundred dollars of distillation cost saves orders of magnitude more in inference cost over the deployed lifetime.
@@ -90,6 +90,6 @@ The combined effect is that fine-tuning is no longer a specialised activity rese
 
 - [The Open Weight Models Renaissance](/ai/open-weight-models-renaissance/)
 - [Fine-Tune vs RAG](/ai/fine-tune-vs-rag/)
-- [The Reasoning Model Era](/ai/reasoning-model-era/)
+- [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [AI Hardware Wars 2026](/ai/ai-hardware-wars-blackwell-mi300x-tpuv6/)
 - [Claude's Memory and Long Context in 2026](/ai/claude-long-context-and-memory-2026/)

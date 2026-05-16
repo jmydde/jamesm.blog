@@ -1,7 +1,7 @@
 ---
 title: "AI in Scientific Research: From AlphaFold to the Long Tail"
 date: 2026-05-13T06:00:00+01:00
-draft: true
+draft: false
 tags: ["ai", "science", "research", "discovery", "alphafold"]
 description: "AlphaFold was the headline AI-for-science story. In 2026 the story has broadened into something more interesting - AI tools in routine use across many scientific fields, with uneven but real impact. A practical look at where the gains actually are."
 cover:
@@ -99,7 +99,7 @@ The next decade will probably continue this pattern. A few headline AlphaFold-cl
 ## Related Reading
 
 - [AI Hallucinations: Understanding and Mitigating](/ai/ai-hallucinations-understanding-and-mitigating/)
-- [The Reasoning Model Era](/ai/reasoning-model-era/)
+- [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [Fine-Tune vs RAG](/ai/fine-tune-vs-rag/)
 - [The Open Weight Models Renaissance](/ai/open-weight-models-renaissance/)
 - [The Causal Inference Comeback](/data-science/causal-inference-comeback/)
