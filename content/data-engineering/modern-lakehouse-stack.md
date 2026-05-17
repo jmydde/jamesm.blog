@@ -5,7 +5,7 @@ draft: false
 tags: ["lakehouse", "data-engineering", "architecture", "iceberg", "databricks", "platform"]
 description: "A working data engineer's view of what genuinely belongs in a 2026 lakehouse stack, the layers that have shaken out, and the parts of the marketing landscape that deserve to be ignored."
 cover:
-  image: assets/images/data-engineering/modern-lakehouse-stack.jpg
+  image: assets/images/data-engineering/modern-lakehouse-stack.png
   alt: The Modern Lakehouse Stack Banner
 ---
 

@@ -5,7 +5,7 @@ draft: false
 tags: ["streaming", "batch", "data-engineering", "kafka", "spark", "architecture"]
 description: "A direct comparison of stream and batch processing as architectural choices, the operational and cost tradeoffs that the marketing material does not mention, and the patterns that work when you need both."
 cover:
-  image: assets/images/data-engineering/stream-vs-batch-processing.jpg
+  image: assets/images/data-engineering/stream-vs-batch-processing.png
   alt: Stream vs Batch Processing Banner
 ---
 

@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "multimodal", "vision", "audio", "llm", "agentic-engineering"]
 description: "Where multimodal AI has actually delivered value in 2026, where it is still demoware, and the patterns that determine whether vision and audio are quietly indispensable in your stack or just an expensive distraction."
 cover:
-  image: assets/images/ai/multimodal-ai-2026.jpg
+  image: assets/images/ai/multimodal-ai-2026.png
   alt: Multimodal AI in 2026 Banner
 ---
 
