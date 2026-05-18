@@ -11,13 +11,48 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 08:02:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 07:30:00 +0100</lastBuildDate>
     <atom:link href="https://jamesm.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent</title>
+      <link>https://jamesm.blog/tags/agent/</link>
+      <pubDate>Mon, 18 May 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/agent/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ai</title>
       <link>https://jamesm.blog/tags/ai/</link>
-      <pubDate>Sat, 16 May 2026 08:02:00 +0000</pubDate>
+      <pubDate>Mon, 18 May 2026 07:30:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>https://jamesm.blog/tags/coding/</link>
+      <pubDate>Mon, 18 May 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Composer</title>
+      <link>https://jamesm.blog/tags/composer/</link>
+      <pubDate>Mon, 18 May 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/composer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cursor</title>
+      <link>https://jamesm.blog/tags/cursor/</link>
+      <pubDate>Mon, 18 May 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/cursor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Model</title>
+      <link>https://jamesm.blog/tags/model/</link>
+      <pubDate>Mon, 18 May 2026 07:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/tags/model/</guid>
       <description></description>
     </item>
     <item>
@@ -235,13 +270,6 @@
       <link>https://jamesm.blog/tags/mistral/</link>
       <pubDate>Sun, 10 May 2026 10:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/mistral/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Model</title>
-      <link>https://jamesm.blog/tags/model/</link>
-      <pubDate>Sun, 10 May 2026 10:00:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/model/</guid>
       <description></description>
     </item>
     <item>
@@ -574,13 +602,6 @@
       <description></description>
     </item>
     <item>
-      <title>Agent</title>
-      <link>https://jamesm.blog/tags/agent/</link>
-      <pubDate>Mon, 04 May 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/agent/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Airbyte</title>
       <link>https://jamesm.blog/tags/airbyte/</link>
       <pubDate>Mon, 04 May 2026 07:30:00 +0100</pubDate>
@@ -840,7 +861,7 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
+      <title>Devops</title>
       <link>https://jamesm.blog/tags/devops/</link>
       <pubDate>Sun, 03 May 2026 17:00:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/devops/</guid>
@@ -1414,13 +1435,6 @@
       <description></description>
     </item>
     <item>
-      <title>Cursor</title>
-      <link>https://jamesm.blog/tags/cursor/</link>
-      <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/cursor/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Documentation</title>
       <link>https://jamesm.blog/tags/documentation/</link>
       <pubDate>Wed, 29 Apr 2026 08:30:00 +0100</pubDate>
@@ -1470,7 +1484,7 @@
       <description></description>
     </item>
     <item>
-      <title>Personal Development</title>
+      <title>Personal-Development</title>
       <link>https://jamesm.blog/tags/personal-development/</link>
       <pubDate>Tue, 28 Apr 2026 00:12:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/personal-development/</guid>
@@ -1673,7 +1687,7 @@
       <description></description>
     </item>
     <item>
-      <title>Cursor Ai</title>
+      <title>Cursor-Ai</title>
       <link>https://jamesm.blog/tags/cursor-ai/</link>
       <pubDate>Tue, 21 Apr 2026 19:07:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/cursor-ai/</guid>
@@ -2363,13 +2377,6 @@
       <link>https://jamesm.blog/tags/ai-model/</link>
       <pubDate>Wed, 08 Apr 2026 08:45:00 +0100</pubDate>
       <guid>https://jamesm.blog/tags/ai-model/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Coding</title>
-      <link>https://jamesm.blog/tags/coding/</link>
-      <pubDate>Wed, 08 Apr 2026 07:30:00 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/coding/</guid>
       <description></description>
     </item>
     <item>
@@ -3231,13 +3238,6 @@
       <link>https://jamesm.blog/tags/band/</link>
       <pubDate>Thu, 08 Jan 2026 18:53:39 +0100</pubDate>
       <guid>https://jamesm.blog/tags/band/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Composer</title>
-      <link>https://jamesm.blog/tags/composer/</link>
-      <pubDate>Thu, 08 Jan 2026 18:53:39 +0100</pubDate>
-      <guid>https://jamesm.blog/tags/composer/</guid>
       <description></description>
     </item>
     <item>

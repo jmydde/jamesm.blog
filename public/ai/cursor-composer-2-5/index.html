@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Composer 2.5: Cursor&#39;s In-House Model Grows Up | jamesm.blog</title>
+<meta name="keywords" content="ai, cursor, composer, coding, agent, model">
+<meta name="description" content="Cursor&#39;s new Composer 2.5 is the first time the company&#39;s in-house coding model deserves to be treated as a daily driver rather than a budget fallback. A look at what changed, what it costs, and when to reach for it instead of Claude, GPT-5.5, or Gemini.">
+<meta name="author" content="James M">
+<link rel="canonical" href="https://jamesm.blog/ai/cursor-composer-2-5/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.47e51c7d8489b002361bac156ce9a0a8776d08c5462c2cee95801efafdd90d35.css" integrity="sha256-R&#43;UcfYSJsAI2G6wVbOmgqHdtCMVGLCzulYAe&#43;v3ZDTU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jamesm.blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamesm.blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamesm.blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jamesm.blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jamesm.blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://jamesm.blog/ai/cursor-composer-2-5/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTL3NQVCDT');
+</script>
+<meta property="og:url" content="https://jamesm.blog/ai/cursor-composer-2-5/">
+  <meta property="og:site_name" content="jamesm.blog">
+  <meta property="og:title" content="Composer 2.5: Cursor&#39;s In-House Model Grows Up">
+  <meta property="og:description" content="Cursor&#39;s new Composer 2.5 is the first time the company&#39;s in-house coding model deserves to be treated as a daily driver rather than a budget fallback. A look at what changed, what it costs, and when to reach for it instead of Claude, GPT-5.5, or Gemini.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-05-18T07:30:00+01:00">
+    <meta property="article:modified_time" content="2026-05-18T07:30:00+01:00">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Cursor">
+    <meta property="article:tag" content="Composer">
+    <meta property="article:tag" content="Coding">
+    <meta property="article:tag" content="Agent">
+    <meta property="article:tag" content="Model">
+    <meta property="og:image" content="https://jamesm.blog/assets/images/ai/cursor-composer-2-5.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jamesm.blog/assets/images/ai/cursor-composer-2-5.png">
+  <meta name="twitter:title" content="Composer 2.5: Cursor&#39;s In-House Model Grows Up">
+  <meta name="twitter:description" content="Cursor&#39;s new Composer 2.5 is the first time the company&#39;s in-house coding model deserves to be treated as a daily driver rather than a budget fallback. A look at what changed, what it costs, and when to reach for it instead of Claude, GPT-5.5, or Gemini.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Artificial Intelligence",
+      "item": "https://jamesm.blog/ai/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Composer 2.5: Cursor's In-House Model Grows Up",
+      "item": "https://jamesm.blog/ai/cursor-composer-2-5/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Composer 2.5: Cursor's In-House Model Grows Up",
+  "name": "Composer 2.5: Cursor\u0027s In-House Model Grows Up",
+  "description": "Cursor's new Composer 2.5 is the first time the company's in-house coding model deserves to be treated as a daily driver rather than a budget fallback. A look at what changed, what it costs, and when to reach for it instead of Claude, GPT-5.5, or Gemini.",
+  "keywords": [
+    "ai", "cursor", "composer", "coding", "agent", "model"
+  ],
+  "articleBody": "TL;DR Composer 2.5 is Cursor’s most capable in-house coding model yet, built on Moonshot’s open-source Kimi K2.5 checkpoint with about 85% of total training compute spent on Cursor’s own continued pretraining and RL The model is purpose-built for the agent loop inside Cursor - long-horizon tasks, hundreds of tool calls, multi-step instructions - rather than as a general-purpose chat model Cursor claims parity with Claude Opus 4.7 and GPT-5.5 on its own CursorBench v3.1 (63.2%) and a strong 79.8% on SWE-Bench Multilingual Pricing is dramatically lower: $0.50 / $2.50 per million input/output tokens on the default variant, with included usage doubled for the first week Together with SpaceXAI, Cursor is now training a much larger successor model from scratch on Colossus 2 with around 10x the compute - so 2.5 is a waypoint, not the endgame For a while, Cursor was an IDE wrapped around someone else’s models - Claude, GPT, Gemini. That story has shifted. With Composer 2.5, released this week, Cursor has shipped its most capable first-party coding model yet, and it is a serious enough piece of work that it deserves real consideration as a daily driver rather than a budget fallback.\nThis is a post for engineers who already live in Cursor (or are thinking about it) and want to understand what Composer is, what 2.5 changes, and when you would actually choose it over Claude Opus 4.7, GPT-5.5, Gemini, or Codex.\nWhat is Composer? Composer is Cursor’s own coding model, built on top of Moonshot AI’s open-source Kimi K2.5 checkpoint. About 85% of the total training compute went into Cursor’s own continued pretraining and reinforcement learning on top of that base - so while the foundation is open-source, the behaviour you experience inside the IDE is heavily Cursor-shaped.\nThe crucial design point: Composer is trained specifically for the agent loop inside Cursor. That means it is not trying to be a general-purpose chat model. It is optimised for:\nLong-horizon tasks involving hundreds of tool calls Reading and editing across a real codebase Following multi-step instructions without going off the rails Behaving sensibly inside Cursor’s specific agent harness That tight coupling between model and harness is the most important thing to understand about Composer. It is also why benchmark numbers do not fully capture how it feels day to day.\nWhat is new in 2.5 The headline claim from Cursor is that 2.5 is a substantial step up over Composer 2 - better at sustained work, better at following complex instructions, and (their phrase) more pleasant to collaborate with. Three technical changes are worth flagging.\n1. Targeted textual feedback during RL. In a rollout that spans hundreds of thousands of tokens, it is brutally hard to figure out which decision earned or lost the reward. Cursor’s approach is to insert short, localised hints at the exact point in a trajectory where the model misstepped - a bad tool call, a confused explanation, a style violation - and use the corrected distribution as a teacher signal via on-policy distillation. The result is a far more surgical training signal than a single end-of-rollout reward, which is the kind of credit-assignment problem anyone who has run distributed pipelines will appreciate.\n2. 25x more synthetic tasks. One of the more inventive ones is “feature deletion”: take a working codebase with a full test suite, strip out a feature, and ask the model to reimplement it with the tests as the verifiable reward. As a side note, Cursor have flagged that during training the model occasionally got too clever. In one case it reverse-engineered a Python type-checking cache to recover a deleted function signature; in another it decompiled Java bytecode to reconstruct a third-party API. They caught these with agentic monitoring, but it is an honest disclosure about the messier side of RL alignment.\n3. Sharded Muon with dual-mesh HSDP. A distributed variant of the Muon optimiser running Newton-Schulz orthogonalisation asynchronously across shards, overlapping network communication with compute. This is the kind of infra detail that matters if you care about how the sausage is made - and as someone who has spent enough time tuning Spark shuffles, it is the sort of thing I find genuinely interesting.\nCursor has also confirmed that, jointly with SpaceXAI, they are training a substantially larger model from scratch using 10x more total compute on Colossus 2’s million H100-equivalents. So 2.5 is not the endgame - it is the beginning of a more aggressive training trajectory and is closely tied to the SpaceX-Cursor option deal signed in April.\nThe benchmarks (with the usual caveats) On the numbers Cursor published:\nBenchmark Composer 2.5 SWE-Bench Multilingual 79.8% CursorBench v3.1 63.2% Terminal-Bench 2.0 competitive with frontier models The claim - corroborated by several outlets - is that 2.5 matches Opus 4.7 and GPT-5.5 on CursorBench 3.1. Take CursorBench with a pinch of salt: it is Cursor’s own benchmark, so it naturally favours the harness Composer is trained for. SWE-Bench Multilingual is the more neutral signal, and 79.8% on a multilingual variant of the SWE-Bench suite is a serious number.\nThe more interesting chart in the release is the effort curve: Composer 2.5 reaches roughly 63% on CursorBench at under $1 average cost per task, where Opus 4.7 and GPT-5.5 sit several dollars higher for similar or worse results.\nPricing - this is where it gets interesting Model Input ($/M tokens) Output ($/M tokens) Composer 2.5 (default) $0.50 $2.50 Composer 2.5 (fast variant) $3.00 $15.00 Claude Opus 4.7 ~$15 ~$75 GPT-5.5 comparable to Opus tier comparable to Opus tier The default Composer 2.5 is dramatically cheaper than frontier alternatives for the same task. The fast variant exists because it runs at higher tokens-per-second for interactive work; even there, it is cheaper than the fast tiers of Opus and GPT-5.5. For the first week after launch, Cursor is doubling the included usage on subscription plans.\nFor anyone burning through agent-loop tokens at meaningful volume - and if you are running parallel agents via git worktrees the way I do, you know exactly how fast that adds up - the cost-per-task delta is the single most compelling argument for Composer. It is also worth reading alongside the broader token economics question for AI tooling.\nWhat is it actually good for? Based on the design intent and the released benchmarks, here is where I would reach for Composer 2.5:\nLong-running agent tasks inside Cursor. Refactors that span dozens of files, migrations, dependency upgrades, anything where the agent needs to take hundreds of actions and not lose the plot. This is the workload it was trained for. Iterative front-end and full-stack work. Composer 2 had a reputation for being strong on front-end iteration; 2.5 broadens that well beyond. Cost-sensitive autonomous workflows. Unattended batch execution - Claude Code-style headless runs across many tasks - is where the per-task economics swing hardest in Composer’s favour. Codebases where Cursor’s indexing already gives the agent strong context. Composer is designed to make use of Cursor’s retrieval, so it benefits disproportionately from the IDE’s understanding of your repo, which dovetails nicely with a spec-driven workflow. When I would still reach for something else This is the honest part. Composer 2.5 is excellent, but it is not a universal replacement.\nClaude (Opus / Sonnet) - still my pick for nuanced architectural reasoning, dense technical writing (RFCs, design docs, stakeholder-facing material), tricky distributed-systems debugging, and anything where I want the model to push back on my thinking rather than just execute. For data engineering work where I am reasoning about PySpark shuffle behaviour or Snowflake query plans, Claude is still where I go first.\nGPT-5.5 / Codex - strong on broad general knowledge, multi-modal tasks, and ecosystem niches where OpenAI has invested heavily. Also still ahead for things that are not really coding tasks at all.\nGemini - useful when you genuinely need a million-token context window or are deep in the Google Cloud ecosystem. Has its own strengths in long-document analysis.\nComposer 2.5 - the IDE-native agent loop. Long sustained tasks. Cost-efficient autonomous runs. Tight integration with Cursor’s tooling.\nThe honest framing is not Composer vs. Claude vs. GPT - it is that the right tool depends on the shape of the task, and Composer has now earned a real seat at that table rather than being the budget option you tolerate.\nWhy this matters strategically There is a bigger picture worth naming. Cursor was in an awkward spot: paying Anthropic for inference while Claude Code competed directly with it at prices Cursor structurally could not match. Training their own model on an open-source base is the obvious move - and it is the same playbook that every serious AI tooling company will eventually run. Outsourcing your core capability to an API provider you also compete with is not a long-term position.\nCursor’s CEO has noted that around a third of merged PRs at Cursor itself are now created by autonomous agents. Whatever you think of that number, it is a real signal about where the industry is heading - and it is exactly the workload Composer is built for.\nBottom line Composer 2.5 is the first time I would say Cursor’s in-house model is a genuine first-choice option for a meaningful slice of work, not a cost-saving compromise. If you live in the Cursor agent loop, especially for long-running or unattended tasks, it deserves to be the default for that workload. For deep architectural thinking and writing, Claude is still where I would start. For most engineers, the answer is not picking one - it is knowing which to reach for, and Composer has just made that decision more interesting.\nTry it on a long-horizon task - a real refactor, a migration, something that will take the agent twenty or thirty tool calls minimum - and see how it feels. That is where the 2.5 training shows up most clearly.\nRelated Reading Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up Claude Code vs Cursor: A 6-Month Comparison SpaceX Buys the Right to Buy Cursor for $60 Billion Claude Opus 4.7 Token Economics: Why Costs Aren’t Going Down ",
+  "wordCount" : "1684",
+  "inLanguage": "en",
+  "image":"https://jamesm.blog/assets/images/ai/cursor-composer-2-5.png","datePublished": "2026-05-18T07:30:00+01:00",
+  "dateModified": "2026-05-18T07:30:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "James M"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jamesm.blog/ai/cursor-composer-2-5/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "jamesm.blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jamesm.blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://jamesm.blog/" accesskey="h" title="jamesm.blog (Alt + H)">jamesm.blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://jamesm.blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/ai" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/blockchain" title="Blockchain">
+                    <span>Blockchain</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-engineering" title="Data Engineering">
+                    <span>Data Engineering</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/data-science" title="Data Science">
+                    <span>Data Science</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/devops" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/general" title="General">
+                    <span>General</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/music-production" title="Music Production">
+                    <span>Music Production</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/personal-development" title="Personal Dev">
+                    <span>Personal Dev</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/retro-computing" title="Retro Computing">
+                    <span>Retro Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jamesm.blog/space" title="Space">
+                    <span>Space</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://jamesm.blog/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://jamesm.blog/ai/">Artificial Intelligence</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      Composer 2.5: Cursor&#39;s In-House Model Grows Up
+    </h1>
+    <div class="post-description">
+      Cursor&#39;s new Composer 2.5 is the first time the company&#39;s in-house coding model deserves to be treated as a daily driver rather than a budget fallback. A look at what changed, what it costs, and when to reach for it instead of Claude, GPT-5.5, or Gemini.
+    </div>
+    <div class="post-meta"><span title='2026-05-18 07:30:00 +0100 BST'>May 18, 2026</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>James M</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://jamesm.blog/assets/images/ai/cursor-composer-2-5.png" alt="Cursor Composer 2.5 banner">
+        
+</figure><details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#tldr" aria-label="TL;DR">TL;DR</a></li>
+            <li>
+                <a href="#what-is-composer" aria-label="What is Composer?">What is Composer?</a></li>
+            <li>
+                <a href="#what-is-new-in-25" aria-label="What is new in 2.5">What is new in 2.5</a></li>
+            <li>
+                <a href="#the-benchmarks-with-the-usual-caveats" aria-label="The benchmarks (with the usual caveats)">The benchmarks (with the usual caveats)</a></li>
+            <li>
+                <a href="#pricing---this-is-where-it-gets-interesting" aria-label="Pricing - this is where it gets interesting">Pricing - this is where it gets interesting</a></li>
+            <li>
+                <a href="#what-is-it-actually-good-for" aria-label="What is it actually good for?">What is it actually good for?</a></li>
+            <li>
+                <a href="#when-i-would-still-reach-for-something-else" aria-label="When I would still reach for something else">When I would still reach for something else</a></li>
+            <li>
+                <a href="#why-this-matters-strategically" aria-label="Why this matters strategically">Why this matters strategically</a></li>
+            <li>
+                <a href="#bottom-line" aria-label="Bottom line">Bottom line</a></li>
+            <li>
+                <a href="#related-reading" aria-label="Related Reading">Related Reading</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
+<ul>
+<li><strong>Composer 2.5</strong> is <a href="https://www.cursor.com/">Cursor&rsquo;s</a> most capable in-house coding model yet, built on Moonshot&rsquo;s open-source <strong>Kimi K2.5</strong> checkpoint with about 85% of total training compute spent on Cursor&rsquo;s own continued pretraining and RL</li>
+<li>The model is purpose-built for the <strong>agent loop inside Cursor</strong> - long-horizon tasks, hundreds of tool calls, multi-step instructions - rather than as a general-purpose chat model</li>
+<li>Cursor claims parity with <strong>Claude Opus 4.7</strong> and <strong>GPT-5.5</strong> on its own CursorBench v3.1 (63.2%) and a strong 79.8% on SWE-Bench Multilingual</li>
+<li>Pricing is dramatically lower: $0.50 / $2.50 per million input/output tokens on the default variant, with included usage doubled for the first week</li>
+<li>Together with SpaceXAI, Cursor is now training a much larger successor model from scratch on Colossus 2 with around 10x the compute - so 2.5 is a waypoint, not the endgame</li>
+</ul>
+<p>For a while, Cursor was an IDE wrapped around someone else&rsquo;s models - Claude, GPT, Gemini. That story has shifted. With <strong>Composer 2.5</strong>, released this week, Cursor has shipped its most capable first-party coding model yet, and it is a serious enough piece of work that it deserves real consideration as a daily driver rather than a budget fallback.</p>
+<p>This is a post for engineers who already live in Cursor (or are thinking about it) and want to understand what Composer is, what 2.5 changes, and when you would actually choose it over <a href="/ai/claude-opus-4-7/">Claude Opus 4.7</a>, GPT-5.5, Gemini, or Codex.</p>
+<h2 id="what-is-composer">What is Composer?<a hidden class="anchor" aria-hidden="true" href="#what-is-composer">#</a></h2>
+<p>Composer is Cursor&rsquo;s own coding model, built on top of <a href="https://www.moonshot.ai/">Moonshot AI&rsquo;s</a> open-source <strong>Kimi K2.5</strong> checkpoint. About 85% of the total training compute went into Cursor&rsquo;s own continued pretraining and reinforcement learning on top of that base - so while the foundation is open-source, the behaviour you experience inside the IDE is heavily Cursor-shaped.</p>
+<p>The crucial design point: Composer is trained specifically for the <strong>agent loop</strong> inside Cursor. That means it is not trying to be a general-purpose chat model. It is optimised for:</p>
+<ul>
+<li>Long-horizon tasks involving hundreds of tool calls</li>
+<li>Reading and editing across a real codebase</li>
+<li>Following multi-step instructions without going off the rails</li>
+<li>Behaving sensibly inside Cursor&rsquo;s specific agent harness</li>
+</ul>
+<p>That tight coupling between model and harness is the most important thing to understand about Composer. It is also why benchmark numbers do not fully capture how it feels day to day.</p>
+<h2 id="what-is-new-in-25">What is new in 2.5<a hidden class="anchor" aria-hidden="true" href="#what-is-new-in-25">#</a></h2>
+<p>The headline claim from Cursor is that 2.5 is a substantial step up over Composer 2 - better at sustained work, better at following complex instructions, and (their phrase) more pleasant to collaborate with. Three technical changes are worth flagging.</p>
+<p><strong>1. Targeted textual feedback during RL.</strong> In a rollout that spans hundreds of thousands of tokens, it is brutally hard to figure out which decision earned or lost the reward. Cursor&rsquo;s approach is to insert short, localised hints at the exact point in a trajectory where the model misstepped - a bad tool call, a confused explanation, a style violation - and use the corrected distribution as a teacher signal via on-policy distillation. The result is a far more surgical training signal than a single end-of-rollout reward, which is the kind of credit-assignment problem anyone who has run distributed pipelines will appreciate.</p>
+<p><strong>2. 25x more synthetic tasks.</strong> One of the more inventive ones is &ldquo;feature deletion&rdquo;: take a working codebase with a full test suite, strip out a feature, and ask the model to reimplement it with the tests as the verifiable reward. As a side note, Cursor have flagged that during training the model occasionally got too clever. In one case it reverse-engineered a Python type-checking cache to recover a deleted function signature; in another it decompiled Java bytecode to reconstruct a third-party API. They caught these with agentic monitoring, but it is an honest disclosure about the messier side of <a href="/ai/ai-safety-first-principles/">RL alignment</a>.</p>
+<p><strong>3. Sharded Muon with dual-mesh HSDP.</strong> A distributed variant of the Muon optimiser running Newton-Schulz orthogonalisation asynchronously across shards, overlapping network communication with compute. This is the kind of infra detail that matters if you care about how the sausage is made - and as someone who has spent enough time tuning Spark shuffles, it is the sort of thing I find genuinely interesting.</p>
+<p>Cursor has also confirmed that, jointly with SpaceXAI, they are training a substantially larger model from scratch using 10x more total compute on Colossus 2&rsquo;s million H100-equivalents. So 2.5 is not the endgame - it is the beginning of a more aggressive training trajectory and is closely tied to the <a href="/ai/spacex-cursor-60-billion-option/">SpaceX-Cursor option deal</a> signed in April.</p>
+<h2 id="the-benchmarks-with-the-usual-caveats">The benchmarks (with the usual caveats)<a hidden class="anchor" aria-hidden="true" href="#the-benchmarks-with-the-usual-caveats">#</a></h2>
+<p>On the numbers Cursor <a href="https://cursor.com/blog/composer-2-5">published</a>:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Benchmark</th>
+          <th>Composer 2.5</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>SWE-Bench Multilingual</td>
+          <td>79.8%</td>
+      </tr>
+      <tr>
+          <td>CursorBench v3.1</td>
+          <td>63.2%</td>
+      </tr>
+      <tr>
+          <td>Terminal-Bench 2.0</td>
+          <td>competitive with frontier models</td>
+      </tr>
+  </tbody>
+</table>
+<p>The claim - corroborated by <a href="https://the-decoder.com/cursors-composer-2-5-matches-opus-4-7-and-gpt-5-5-benchmarks-at-a-fraction-of-the-cost/">several outlets</a> - is that 2.5 matches <strong>Opus 4.7</strong> and <strong>GPT-5.5</strong> on CursorBench 3.1. Take CursorBench with a pinch of salt: it is Cursor&rsquo;s own benchmark, so it naturally favours the harness Composer is trained for. SWE-Bench Multilingual is the more neutral signal, and 79.8% on a multilingual variant of the <a href="https://www.swebench.com/">SWE-Bench</a> suite is a serious number.</p>
+<p>The more interesting chart in the release is the <strong>effort curve</strong>: Composer 2.5 reaches roughly 63% on CursorBench at under $1 average cost per task, where Opus 4.7 and GPT-5.5 sit several dollars higher for similar or worse results.</p>
+<h2 id="pricing---this-is-where-it-gets-interesting">Pricing - this is where it gets interesting<a hidden class="anchor" aria-hidden="true" href="#pricing---this-is-where-it-gets-interesting">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Input ($/M tokens)</th>
+          <th>Output ($/M tokens)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Composer 2.5 (default)</td>
+          <td>$0.50</td>
+          <td>$2.50</td>
+      </tr>
+      <tr>
+          <td>Composer 2.5 (fast variant)</td>
+          <td>$3.00</td>
+          <td>$15.00</td>
+      </tr>
+      <tr>
+          <td>Claude Opus 4.7</td>
+          <td>~$15</td>
+          <td>~$75</td>
+      </tr>
+      <tr>
+          <td>GPT-5.5</td>
+          <td>comparable to Opus tier</td>
+          <td>comparable to Opus tier</td>
+      </tr>
+  </tbody>
+</table>
+<p>The default Composer 2.5 is dramatically cheaper than frontier alternatives for the same task. The fast variant exists because it runs at higher tokens-per-second for interactive work; even there, it is cheaper than the fast tiers of Opus and GPT-5.5. For the first week after launch, Cursor is doubling the included usage on subscription plans.</p>
+<p>For anyone burning through agent-loop tokens at meaningful volume - and if you are running parallel agents via git worktrees the way I do, you know exactly how fast that adds up - the cost-per-task delta is the single most compelling argument for Composer. It is also worth reading alongside the broader <a href="/ai/token-economics-why-costs-arent-going-down/">token economics question</a> for AI tooling.</p>
+<h2 id="what-is-it-actually-good-for">What is it actually good for?<a hidden class="anchor" aria-hidden="true" href="#what-is-it-actually-good-for">#</a></h2>
+<p>Based on the design intent and the released benchmarks, here is where I would reach for Composer 2.5:</p>
+<ul>
+<li><strong>Long-running agent tasks inside Cursor.</strong> Refactors that span dozens of files, migrations, dependency upgrades, anything where the agent needs to take hundreds of actions and not lose the plot. This is the workload it was trained for.</li>
+<li><strong>Iterative front-end and full-stack work.</strong> Composer 2 had a reputation for being strong on front-end iteration; 2.5 broadens that well beyond.</li>
+<li><strong>Cost-sensitive autonomous workflows.</strong> Unattended batch execution - <a href="/ai/claude-code-review/">Claude Code</a>-style headless runs across many tasks - is where the per-task economics swing hardest in Composer&rsquo;s favour.</li>
+<li><strong>Codebases where Cursor&rsquo;s indexing already gives the agent strong context.</strong> Composer is designed to make use of Cursor&rsquo;s retrieval, so it benefits disproportionately from the IDE&rsquo;s understanding of your repo, which dovetails nicely with a <a href="/ai/cursor-ai/">spec-driven workflow</a>.</li>
+</ul>
+<h2 id="when-i-would-still-reach-for-something-else">When I would still reach for something else<a hidden class="anchor" aria-hidden="true" href="#when-i-would-still-reach-for-something-else">#</a></h2>
+<p>This is the honest part. Composer 2.5 is excellent, but it is not a universal replacement.</p>
+<p><strong>Claude (Opus / Sonnet)</strong> - still my pick for nuanced architectural reasoning, dense technical writing (RFCs, design docs, stakeholder-facing material), tricky distributed-systems debugging, and anything where I want the model to push back on my thinking rather than just execute. For data engineering work where I am reasoning about PySpark shuffle behaviour or Snowflake query plans, <a href="https://www.anthropic.com/claude">Claude</a> is still where I go first.</p>
+<p><strong>GPT-5.5 / Codex</strong> - strong on broad general knowledge, multi-modal tasks, and ecosystem niches where <a href="https://openai.com/">OpenAI</a> has invested heavily. Also still ahead for things that are not really coding tasks at all.</p>
+<p><strong>Gemini</strong> - useful when you genuinely need a million-token context window or are deep in the Google Cloud ecosystem. Has its own strengths in long-document analysis.</p>
+<p><strong>Composer 2.5</strong> - the IDE-native agent loop. Long sustained tasks. Cost-efficient autonomous runs. Tight integration with Cursor&rsquo;s tooling.</p>
+<p>The honest framing is not <em>Composer vs. Claude vs. GPT</em> - it is that the right tool depends on the shape of the task, and Composer has now earned a real seat at that table rather than being the budget option you tolerate.</p>
+<h2 id="why-this-matters-strategically">Why this matters strategically<a hidden class="anchor" aria-hidden="true" href="#why-this-matters-strategically">#</a></h2>
+<p>There is a bigger picture worth naming. Cursor was in an awkward spot: paying Anthropic for inference while <a href="/ai/claude-code-vs-cursor/">Claude Code competed directly</a> with it at prices Cursor structurally could not match. Training their own model on an open-source base is the obvious move - and it is the same playbook that every serious AI tooling company will eventually run. Outsourcing your core capability to an API provider you also compete with is not a long-term position.</p>
+<p>Cursor&rsquo;s CEO has noted that around a third of merged PRs at Cursor itself are now created by autonomous agents. Whatever you think of that number, it is a real signal about where the industry is heading - and it is exactly the workload Composer is built for.</p>
+<h2 id="bottom-line">Bottom line<a hidden class="anchor" aria-hidden="true" href="#bottom-line">#</a></h2>
+<p>Composer 2.5 is the first time I would say Cursor&rsquo;s in-house model is a genuine first-choice option for a meaningful slice of work, not a cost-saving compromise. If you live in the Cursor agent loop, especially for long-running or unattended tasks, it deserves to be the default for that workload. For deep architectural thinking and writing, <a href="https://www.anthropic.com/">Claude</a> is still where I would start. For most engineers, the answer is not picking one - it is knowing which to reach for, and Composer has just made that decision more interesting.</p>
+<p>Try it on a long-horizon task - a real refactor, a migration, something that will take the agent twenty or thirty tool calls minimum - and see how it feels. That is where the 2.5 training shows up most clearly.</p>
+<h2 id="related-reading">Related Reading<a hidden class="anchor" aria-hidden="true" href="#related-reading">#</a></h2>
+<ul>
+<li><a href="/ai/cursor-ai/">Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up</a></li>
+<li><a href="/ai/claude-code-vs-cursor/">Claude Code vs Cursor: A 6-Month Comparison</a></li>
+<li><a href="/ai/spacex-cursor-60-billion-option/">SpaceX Buys the Right to Buy Cursor for $60 Billion</a></li>
+<li><a href="/ai/claude-opus-4-7/">Claude Opus 4.7</a></li>
+<li><a href="/ai/token-economics-why-costs-arent-going-down/">Token Economics: Why Costs Aren&rsquo;t Going Down</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jamesm.blog/tags/ai/">Ai</a></li>
+      <li><a href="https://jamesm.blog/tags/cursor/">Cursor</a></li>
+      <li><a href="https://jamesm.blog/tags/composer/">Composer</a></li>
+      <li><a href="https://jamesm.blog/tags/coding/">Coding</a></li>
+      <li><a href="https://jamesm.blog/tags/agent/">Agent</a></li>
+      <li><a href="https://jamesm.blog/tags/model/">Model</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://jamesm.blog/ai/ai-as-analogy-engine/">
+    <span class="title">Next »</span>
+    <span>AI as Analogy Engine: Synthesis, Invention, and the Combinatorial Frontier</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Composer 2.5: Cursor&#39;s In-House Model Grows Up on x"
+            href="https://x.com/intent/tweet/?text=Composer%202.5%3a%20Cursor%27s%20In-House%20Model%20Grows%20Up&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f&amp;hashtags=ai%2ccursor%2ccomposer%2ccoding%2cagent%2cmodel">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Composer 2.5: Cursor&#39;s In-House Model Grows Up on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f&amp;title=Composer%202.5%3a%20Cursor%27s%20In-House%20Model%20Grows%20Up&amp;summary=Composer%202.5%3a%20Cursor%27s%20In-House%20Model%20Grows%20Up&amp;source=https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Composer 2.5: Cursor&#39;s In-House Model Grows Up on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f&title=Composer%202.5%3a%20Cursor%27s%20In-House%20Model%20Grows%20Up">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Composer 2.5: Cursor&#39;s In-House Model Grows Up on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Composer 2.5: Cursor&#39;s In-House Model Grows Up on whatsapp"
+            href="https://api.whatsapp.com/send?text=Composer%202.5%3a%20Cursor%27s%20In-House%20Model%20Grows%20Up%20-%20https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Composer 2.5: Cursor&#39;s In-House Model Grows Up on telegram"
+            href="https://telegram.me/share/url?text=Composer%202.5%3a%20Cursor%27s%20In-House%20Model%20Grows%20Up&amp;url=https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Composer 2.5: Cursor&#39;s In-House Model Grows Up on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Composer%202.5%3a%20Cursor%27s%20In-House%20Model%20Grows%20Up&u=https%3a%2f%2fjamesm.blog%2fai%2fcursor-composer-2-5%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jamesm.blog/">jamesm.blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

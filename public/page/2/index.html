@@ -197,6 +197,22 @@
 
 <article class="post-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/prompt-caching.png" alt="Prompt Caching Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Prompt Caching: The Quiet Performance Win for LLM Applications
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR Prompt caching saves the computed representation of a prompt’s static prefix so subsequent requests reuse it rather than recompute it - cached tokens cost roughly 10% of normal input token prices The savings are highest when prompts have a long, identical prefix across requests - system prompts, tool definitions, and few-shot examples can make up 80-90% of total input cost The most common mistake is interpolating variables into the system prompt, which breaks caching silently; fix it by moving all static content to the top and dynamic content to the end Cache lifetimes are bounded (minutes to a few hours per provider) and any change to the prefix - including whitespace - creates a new cache miss Track your cache hit rate explicitly on every LLM dashboard; a dropping hit rate usually signals unintended prompt construction changes, and fixing it is the highest-leverage cost optimisation available If you build LLM applications for any length of time, you eventually notice that you are paying to have the model read the same instructions over and over again. The system prompt, the tool definitions, the few-shot examples, the structured output schema - all of it goes back into the model on every single request, and you pay for the input tokens every single time. For a chatbot doing one or two thousand requests a day this is annoying. For an agent doing tens of thousands of requests with long contexts, it is the dominant cost line.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-05-09 08:00:00 +0100 BST'>May 9, 2026</span>&nbsp;·&nbsp;<span>10 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to Prompt Caching: The Quiet Performance Win for LLM Applications" href="https://jamesm.blog/ai/prompt-caching/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/ai/reasoning-models-2026.png" alt="Reasoning Models in 2026 - o3, R2, and the Compute-at-Inference Shift Banner">
 </figure>
   <header class="entry-header">
@@ -341,22 +357,6 @@ That single fact captures what makes the film unusual. It is, on the surface, a 
   </div>
   <footer class="entry-footer"><span title='2026-05-03 19:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to China&#39;s Space Programme in 2026 - Tiangong, Chang&#39;e, Lunar Plans" href="https://jamesm.blog/space/china-space-programme-2026/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/devops/ebpf-revolution.jpg" alt="The eBPF Revolution Banner">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The eBPF Revolution - What Every Platform Engineer Should Know
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR eBPF is the technology that lets you run safe, sandboxed programs inside the Linux kernel without writing kernel modules. In 2026 it is the foundation under most serious observability, networking, and runtime security tools. The interesting story is not the technology itself - it is the wave of products built on top of it: Cilium for networking, Tetragon for runtime security, Pixie, Parca, and Coroot for observability, plus a long tail of vendor offerings using eBPF under the hood. For platform engineers, eBPF is not “a thing you have to learn to write.” It is a thing you have to know about so you can choose tools intelligently and understand what is happening on your nodes when those tools cause problems. The most important shift eBPF has enabled is observability without instrumentation. You can see what is happening on a system without modifying the application, without restarting it, and with low overhead. That is genuinely new. What eBPF Actually Is eBPF stands for “extended Berkeley Packet Filter,” which is historical and confusing because eBPF has long since outgrown packet filtering. The simple version:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-05-03 17:00:00 +0100 BST'>May 3, 2026</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to The eBPF Revolution - What Every Platform Engineer Should Know" href="https://jamesm.blog/devops/ebpf-revolution/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

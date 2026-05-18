@@ -225,6 +225,22 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
 
 <article class="post-entry"> 
 <figure class="entry-cover">
+        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/fine-tune-vs-rag.jpg" alt="When to Fine-Tune vs When to RAG Banner">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">When to Fine-Tune vs When to RAG: Choosing Your AI Architecture
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;DR The default choice for most teams should be RAG - it is reversible in days, whereas a bad fine-tuning decision is an expensive sunk cost that requires retraining to fix RAG fails when the question requires reasoning across an entire knowledge domain rather than extracting a specific answer from a passage; fine-tuning handles that case better Fine-tuning fails silently when underlying facts change - it produces confidently wrong, stale answers with no warning; RAG automatically picks up changes at query time A practical decision framework: use RAG for volatile facts and cited answers, use fine-tuning for stable style, voice, and cross-domain reasoning The best production systems use both: a fine-tuned base model for stable domain knowledge, augmented with retrieval for current and specific information The question I get asked most often by engineers starting to build with language models is some variation of: “should we fine-tune or should we do RAG?” It is almost always the wrong question, but it is the wrong question in an instructive way. The reason it gets asked so much is that the choice feels architectural, and architectural choices feel like the kind of thing you commit to once and live with. In practice, the choice is closer to “should I use a database or a cache” - the answer is usually some of both, applied to different problems, and the ratio shifts as the system matures.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-04-29 08:00:00 +0100 BST'>April 29, 2026</span>&nbsp;·&nbsp;<span>11 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
+  <a class="entry-link" aria-label="post link to When to Fine-Tune vs When to RAG: Choosing Your AI Architecture" href="https://jamesm.blog/ai/fine-tune-vs-rag/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
         <img loading="lazy" src="https://jamesm.blog/assets/images/ai/free-intelligence-era.jpg" alt="The Free Intelligence Era Banner">
 </figure>
   <header class="entry-header">
@@ -365,22 +381,6 @@ In-depth exploration of AI in practice: building and deploying AI agents that wo
   </div>
   <footer class="entry-footer"><span title='2026-04-24 21:07:00 +0000 +0000'>April 24, 2026</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
   <a class="entry-link" aria-label="post link to Grok&#39;s New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale" href="https://jamesm.blog/ai/grok-voice-apis/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://jamesm.blog/assets/images/ai/gpt-5-5.jpg" alt="GPT-5.5 release illustration">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR GPT-5.5 (“Spud”) is the first fully retrained base model since GPT-4.5, with architecture and pretraining reworked from scratch with agentic objectives in mind It takes the top spot on Terminal-Bench 2.0 (82.7%) and GDPval (84.9%), narrowly beating Anthropic’s Claude Mythos Preview on agentic coding benchmarks A 1M-token context window is new for OpenAI, enabling whole-codebase reasoning and long multi-step agent runs without context collapse Pricing is competitive ($5/$30 per million input/output tokens) but the strategic story is about OpenAI building an integrated super app - chat, code, browser agent - all driven by one model The gains are incremental, not a leap - but the full retraining signals OpenAI is betting the next two years on autonomous agentic work, not chat OpenAI released GPT-5.5 on April 23, 2026, weeks after GPT-5.4 and only months after GPT-5. The cadence is starting to feel relentless. Codenamed “Spud” internally, GPT-5.5 is the first fully retrained base model since GPT-4.5 - architecture, pretraining corpus, and agent-oriented objectives all reworked from scratch.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-04-24 07:51:00 +0100 BST'>April 24, 2026</span>&nbsp;·&nbsp;<span>6 min</span>&nbsp;·&nbsp;<span>James M</span></footer>
-  <a class="entry-link" aria-label="post link to GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?" href="https://jamesm.blog/ai/gpt-5-5-release/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

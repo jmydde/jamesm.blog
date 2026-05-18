@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Diagram on jamesm.blog</title>
+    <link>https://jamesm.blog/tags/diagram/</link>
+    <description>Recent content in Diagram on jamesm.blog</description>
+    <image>
+      <title>jamesm.blog</title>
+      <url>https://jamesm.blog/papermod-cover.png</url>
+      <link>https://jamesm.blog/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 May 2026 08:30:00 +0100</lastBuildDate>
+    <atom:link href="https://jamesm.blog/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diagrams as Code: A Practitioner&#39;s Guide for Data Engineers</title>
+      <link>https://jamesm.blog/data-engineering/diagrams-as-code/</link>
+      <pubDate>Mon, 18 May 2026 08:30:00 +0100</pubDate>
+      <guid>https://jamesm.blog/data-engineering/diagrams-as-code/</guid>
+      <description>An opinionated working guide to producing, versioning, and maintaining technical diagrams in text. Covers Mermaid, D2, PlantUML and Python diagrams, with worked examples, CI rendering, ADRs, and generation patterns that stop architecture drawings from rotting.</description>
+    </item>
+  </channel>
+</rss>

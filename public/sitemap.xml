@@ -2,16 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesm.blog/tags/agent/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
     <loc>https://jamesm.blog/tags/ai/</loc>
-    <lastmod>2026-05-16T08:02:00+00:00</lastmod>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/coding/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/composer/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/ai/cursor-composer-2-5/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/cursor/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/model/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
+  </url><url>
+    <loc>https://jamesm.blog/tags/</loc>
+    <lastmod>2026-05-18T07:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/ai/ai-as-analogy-engine/</loc>
     <lastmod>2026-05-16T08:02:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/analogy/</loc>
-    <lastmod>2026-05-16T08:02:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/ai/</loc>
     <lastmod>2026-05-16T08:02:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/discovery/</loc>
@@ -23,13 +47,7 @@
     <loc>https://jamesm.blog/tags/invention/</loc>
     <lastmod>2026-05-16T08:02:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/</loc>
-    <lastmod>2026-05-16T08:02:00+00:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/research/</loc>
-    <lastmod>2026-05-16T08:02:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/</loc>
     <lastmod>2026-05-16T08:02:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/2026/</loc>
@@ -126,9 +144,6 @@
     <lastmod>2026-05-10T10:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/mistral/</loc>
-    <lastmod>2026-05-10T10:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/model/</loc>
     <lastmod>2026-05-10T10:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/open-source/</loc>
@@ -305,9 +320,6 @@
     <loc>https://jamesm.blog/tags/abinitio/</loc>
     <lastmod>2026-05-04T07:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/agent/</loc>
-    <lastmod>2026-05-04T07:30:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/airbyte/</loc>
     <lastmod>2026-05-04T07:30:00+01:00</lastmod>
   </url><url>
@@ -437,10 +449,10 @@
     <loc>https://jamesm.blog/tags/tiangong/</loc>
     <lastmod>2026-05-03T19:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/devops/</loc>
+    <loc>https://jamesm.blog/tags/devops/</loc>
     <lastmod>2026-05-03T17:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/devops/</loc>
+    <loc>https://jamesm.blog/devops/</loc>
     <lastmod>2026-05-03T17:00:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/ebpf/</loc>
@@ -768,9 +780,6 @@
     <lastmod>2026-04-29T08:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/codex/</loc>
-    <lastmod>2026-04-29T08:30:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/cursor/</loc>
     <lastmod>2026-04-29T08:30:00+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/documentation/</loc>
@@ -1400,9 +1409,6 @@
     <loc>https://jamesm.blog/ai/claude-code-vs-cursor/</loc>
     <lastmod>2026-04-08T07:30:00+01:00</lastmod>
   </url><url>
-    <loc>https://jamesm.blog/tags/coding/</loc>
-    <lastmod>2026-04-08T07:30:00+01:00</lastmod>
-  </url><url>
     <loc>https://jamesm.blog/tags/computing/</loc>
     <lastmod>2026-04-08T06:11:00+00:00</lastmod>
   </url><url>
@@ -1950,9 +1956,6 @@
     <lastmod>2026-01-08T18:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/band/</loc>
-    <lastmod>2026-01-08T18:53:39+01:00</lastmod>
-  </url><url>
-    <loc>https://jamesm.blog/tags/composer/</loc>
     <lastmod>2026-01-08T18:53:39+01:00</lastmod>
   </url><url>
     <loc>https://jamesm.blog/tags/concert/</loc>
