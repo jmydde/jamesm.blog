@@ -1,0 +1,17 @@
+# Hugo build output (deployed via rsync in deploy.sh, not needed in repo)
+/public/
+
+# Hugo asset processing cache (regenerated from assets/)
+/resources/_gen/
+
+# Hugo per-build lock file
+.hugo_build.lock
+
+# macOS Finder metadata
+.DS_Store
+
+# Common editor/OS noise
+*.swp
+*.swo
+.idea/
+.vscode/
