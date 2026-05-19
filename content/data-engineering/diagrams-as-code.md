@@ -406,6 +406,8 @@ d2 --layout=elk --theme=200 pipeline.d2 pipeline.png
 
 For AWS-heavy architecture decks, nothing beats real provider icons. Python `diagrams` uses Graphviz under the hood and lets you express infrastructure in code that is also readable by anyone who has used [PyTorch](https://pytorch.org/) or [Airflow](https://airflow.apache.org/).
 
+![Python diagrams output - Lineage Platform](/images/07-python-diagrams-lineage.png)
+
 ```python
 from diagrams import Diagram, Cluster, Edge
 from diagrams.aws.compute import Lambda, ECS
@@ -470,7 +472,7 @@ Every diagram file gets a header comment with provenance and a review date.
 # diagram: ingest-pipeline
 # version: 2.3.0
 # last_verified: 2026-05-10
-# verified_by: james.myddelton
+# verified_by: james.m
 # confidence: high
 # review_cadence: quarterly
 # next_review_due: 2026-08-10
