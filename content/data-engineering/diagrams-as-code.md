@@ -1,13 +1,20 @@
 ---
 title: "Diagrams as Code: A Practitioner's Guide for Data Engineers"
-date: 2026-05-18T08:30:00+01:00
-draft: true
+date: 2026-05-18T21:32:00+01:00
+draft: false
 tags: ["data-engineering", "architecture", "documentation", "platform", "tooling", "diagram"]
 description: "An opinionated working guide to producing, versioning, and maintaining technical diagrams in text. Covers Mermaid, D2, PlantUML and Python diagrams, with worked examples, CI rendering, ADRs, and generation patterns that stop architecture drawings from rotting."
 cover:
-  image: /images/01-c4-context.png
+  image: /assets/images/data-engineering/diagrams-as-code.png
   alt: Diagrams as Code Banner
 ---
+
+## TL;DR
+
+- Hand-drawn diagrams in Lucidchart, Visio, draw.io or Confluence rot because they live outside the codebase, cannot be diffed, and have no compiler to flag when they go stale. **Diagrams as code** closes all three gaps by treating the text source as truth and the rendered image as a build artefact.
+- Pick by **the question you are answering**, not by taste. Mermaid for embedded docs and anything that has to render in GitHub. D2 for aesthetically polished architecture with real cloud icons. Python `diagrams` for AWS-heavy decks. PlantUML or Structurizr when you need formal UML or the C4 model.
+- The conventions that make trust explicit: co-locate diagrams with the code they describe, add a **metadata header** with `last_verified` and `next_review_due`, encode **confidence visually** ( verified / stale / proposed ), pair each non-obvious diagram with an **ADR**, and render in CI.
+- The highest-leverage move is to **generate diagrams from the system itself** - Terraform state, lineage graphs, dbt manifests, Airflow DAGs. A generated diagram is provably current by construction, which is a much stronger guarantee than "I reviewed it last quarter."
 
 If you have ever opened a [Confluence](https://www.atlassian.com/software/confluence) page from two years ago and wondered whether the architecture it shows is still real, you have already met the problem this post is trying to fix. Hand-drawn diagrams in [Lucidchart](https://www.lucidchart.com/), [Visio](https://www.microsoft.com/en-gb/microsoft-365/visio/flowchart-software), [draw.io](https://www.drawio.com/) or PowerPoint share three failure modes that no amount of governance ever quite eliminates. They live somewhere your code does not, so nobody updates them in the same PR that changes the system. They cannot be diffed, reviewed, or merged. And they rot silently, because there is no compiler error for "this picture is now a lie."
 
@@ -52,13 +59,13 @@ Pick one. If the diagram is trying to answer two questions at once, the diagram 
 
 ## Worked examples
 
-The five examples below are rendered Mermaid. The same patterns transfer to D2 and PlantUML with minor syntax changes.
+The five examples below are shown in both Mermaid and D2 so you can compare the syntax and output side by side. Mermaid renders natively in GitHub; D2 needs a CLI render step but produces noticeably more polished output, especially when you pull in real cloud icons.
 
 ### 1. C4 Context
 
 This is the top-level "what is this system and who touches it" view. It should fit on one page and contain no implementation detail. If your context diagram has database names on it, it is not a context diagram.
 
-![C4 Context diagram](/images/01-c4-context.png)
+![C4 Context diagram - Mermaid](/images/01-c4-context.png)
 
 ```mermaid
 C4Context
@@ -71,15 +78,50 @@ C4Context
 
     System_Ext(databricks, "Databricks", "Population-scale ETL")
     System_Ext(snowflake, "Snowflake", "Analytical warehouse")
-    System_Ext(neptune, "Neptune Analytics", "Lineage graph store")
+    System_Ext(neo4j, "Neo4j Aura", "Lineage graph store")
     System_Ext(aws, "AWS S3 + Glue", "Data lake & catalog")
 
     Rel(de, adpa, "Configures and reviews")
     Rel(ba, adpa, "Queries lineage")
     Rel(adpa, databricks, "Submits jobs")
     Rel(adpa, snowflake, "Queries metadata")
-    Rel(adpa, neptune, "Reads/writes lineage")
+    Rel(adpa, neo4j, "Reads/writes lineage")
     Rel(adpa, aws, "Catalogs assets")
+```
+
+The same context in D2. D2 has no native C4 syntax, so the convention is to use the `person` shape for actors, colour the focal system distinctly, and grey out external systems.
+
+![C4 Context diagram - D2](/images/01-d2-c4-context.png)
+
+```d2
+direction: down
+
+de: Data Engineer {
+  shape: person
+  tooltip: Designs and operates pipelines
+}
+ba: Business Analyst {
+  shape: person
+  tooltip: Consumes lineage and metrics
+}
+
+adpa: Autonomous Data Pipeline Agent {
+  style.fill: "#1168BD"
+  style.font-color: white
+  style.bold: true
+}
+
+databricks: Databricks { style.fill: "#999999"; style.font-color: white }
+snowflake: Snowflake { style.fill: "#999999"; style.font-color: white }
+neo4j:     Neo4j Aura { style.fill: "#999999"; style.font-color: white }
+aws:       AWS S3 + Glue { style.fill: "#999999"; style.font-color: white }
+
+de -> adpa: Configures and reviews
+ba -> adpa: Queries lineage
+adpa -> databricks: Submits jobs
+adpa -> snowflake: Queries metadata
+adpa -> neo4j: Reads/writes lineage
+adpa -> aws: Catalogs assets
 ```
 
 ### 2. ETL pipeline / data flow
@@ -88,7 +130,7 @@ The convention for data flow is left-to-right, sources on the left, sinks on the
 
 Notice the dashed orange box. That is a legacy job we know is still running but plan to retire. Encoding confidence visually saves a thousand wiki comments. More on this convention below.
 
-![ETL pipeline diagram](/images/02-etl-pipeline.png)
+![ETL pipeline diagram - Mermaid](/images/02-etl-pipeline.png)
 
 ```mermaid
 flowchart LR
@@ -104,116 +146,24 @@ flowchart LR
     C[Databricks Silver - PySpark]:::compute
     G[Databricks Gold - Aggregates]:::compute
     SF[(Snowflake)]:::store
-    NEP[(Neptune Lineage)]:::store
+    NEO[(Neo4j Lineage)]:::store
     LK[Legacy ETL Cron Jobs]:::warn
 
     S1 --> L
     S2 --> L
     S3 --> L
     L --> C --> G --> SF
-    C -.->|metadata| NEP
-    G -.->|metadata| NEP
+    C -.->|metadata| NEO
+    G -.->|metadata| NEO
     LK -.-> SF
 ```
 
-### 3. Network / deployment
+The same pipeline in D2 with real AWS icons pulled from Terrastruct, confidence classes for verified vs stale components, and ELK layout for clean left-to-right flow.
 
-Networks need explicit boundaries: VPC, subnet, account, region. Mermaid subgraphs map cleanly to these. Always label which subnets are public and which are private, because that is almost always the actual question the reviewer is trying to answer.
-
-![Network diagram](/images/03-network.png)
-
-```mermaid
-flowchart TB
-    subgraph Internet
-        U[Users]
-    end
-    subgraph AWS[AWS Account - eu-west-2]
-        CF[CloudFront + WAF]
-        ALB[Application LB]
-        subgraph PUB[Public Subnet]
-            NAT[NAT Gateway]
-            BAST[Bastion]
-        end
-        subgraph PRIV[Private Subnet - App]
-            APP1[ECS Task 1]
-            LAMBDA[Lambda Lineage API]
-        end
-        subgraph DATA[Private Subnet - Data]
-            NEPT[(Neptune)]
-            RDS[(RDS Postgres)]
-        end
-    end
-    U --> CF --> ALB --> APP1
-    APP1 --> LAMBDA --> NEPT
-    APP1 --> RDS
-    APP1 --> NAT --> Internet
-```
-
-### 4. Sequence diagram for an AI agent
-
-Sequence diagrams are the right tool when the question is "what happens, in what order, between which actors." For AI agent flows specifically they are invaluable, because they make tool-use loops visible in a way that prose never quite does.
-
-![Agent sequence diagram](/images/04-agent-sequence.png)
-
-```mermaid
-sequenceDiagram
-    autonumber
-    participant U as User
-    participant API as Agent API
-    participant LLM as Claude
-    participant LG as Lineage Graph
-    participant DB as Databricks
-
-    U->>API: "Why is the daily job 3h late?"
-    API->>LLM: System prompt + question
-    LLM->>API: Tool call: query_lineage(job_id)
-    API->>LG: MATCH upstream dependencies
-    LG-->>API: 14 upstream nodes, 2 with errors
-    API->>LLM: Lineage result
-    LLM->>API: Tool call: check_job(stripe_ingest)
-    API->>DB: Get job run status
-    DB-->>API: FAILED, retries exhausted
-    API-->>U: Diagnosis + retry triggered
-```
-
-### 5. Confidence-coded diagram
-
-This is the technique most teams skip and most often need. Colour and stroke style encode how much you trust each component to be current. A diagram that is honest about its own confidence is far more useful than one that pretends every box was verified yesterday.
-
-![Confidence-coded diagram](/images/05-state-confidence.png)
-
-```mermaid
-flowchart LR
-    classDef verified fill:#E8F5E9,stroke:#2E7D32,stroke-width:3px
-    classDef stale fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px,stroke-dasharray:6 3
-    classDef proposed fill:#FFEBEE,stroke:#C62828,stroke-width:2px,stroke-dasharray:3 3
-
-    A[Glue Catalog verified 2026-05-10]:::verified
-    B[Databricks ETL verified 2026-05-08]:::verified
-    C[Snowflake DW verified 2026-05-09]:::verified
-    D[Legacy Airflow last checked 2025-09]:::stale
-    E[Proposed Kafka ADR-0042 draft]:::proposed
-
-    A --> B --> C
-    D -.-> C
-    E -.-> B
-```
-
-The visual convention I would suggest is simple. Solid green is verified within the review window, dashed orange is stale or being retired, dashed red is proposed and not yet built. Reviewers see the diagram's own self-assessment at a glance and can immediately tell which parts to trust.
-
-## A D2 example for comparison
-
-For the same pipeline, here is roughly the same diagram in D2. D2's strengths are aesthetics, real cloud provider icons (Terrastruct hosts the AWS, GCP and Azure SVGs as URLs you can reference directly), and proper container nesting.
+![ETL pipeline diagram - D2](/images/02-d2-etl-pipeline.png)
 
 ```d2
 direction: right
-
-vars: {
-  d2-config: {
-    layout-engine: elk
-    theme-id: 200
-  }
-}
 
 classes: {
   verified: { style.stroke: "#2E7D32"; style.stroke-width: 3 }
@@ -238,10 +188,7 @@ silver: Databricks Silver { class: verified }
 gold:   Databricks Gold   { class: verified }
 
 snowflake: Snowflake { shape: cylinder; class: verified }
-neptune:   Neptune Lineage {
-  icon: https://icons.terrastruct.com/aws%2FDatabase%2FAmazon-Neptune.svg
-  shape: image
-}
+neo4j:     Neo4j Lineage { shape: cylinder; class: verified }
 
 legacy: Legacy ETL Cron { class: stale }
 
@@ -249,16 +196,210 @@ sources.salesforce -> bronze
 sources.stripe     -> bronze
 sources.logs       -> bronze
 bronze -> silver -> gold -> snowflake
-silver -> neptune: metadata
-gold   -> neptune: metadata
+silver -> neo4j: metadata
+gold   -> neo4j: metadata
 legacy -> snowflake: scheduled (deprecated)
 ```
 
-Render with:
+### 3. Network / deployment
+
+Networks need explicit boundaries: VPC, subnet, account, region. Mermaid subgraphs map cleanly to these. Always label which subnets are public and which are private, because that is almost always the actual question the reviewer is trying to answer.
+
+![Network diagram - Mermaid](/images/03-network.png)
+
+```mermaid
+flowchart TB
+    subgraph Internet
+        U[Users]
+    end
+    subgraph AWS[AWS Account - eu-west-2]
+        CF[CloudFront + WAF]
+        ALB[Application LB]
+        subgraph PUB[Public Subnet]
+            NAT[NAT Gateway]
+            BAST[Bastion]
+        end
+        subgraph PRIV[Private Subnet - App]
+            APP1[ECS Task 1]
+            LAMBDA[Lambda Lineage API]
+        end
+        subgraph DATA[Private Subnet - Data]
+            NEO[(Neo4j)]
+            RDS[(RDS Postgres)]
+        end
+    end
+    U --> CF --> ALB --> APP1
+    APP1 --> LAMBDA --> NEO
+    APP1 --> RDS
+    APP1 --> NAT --> Internet
+```
+
+The same topology in D2. Container nesting is one of D2's strongest features: account, public subnet, private subnets and data tier are all proper containers rather than `subgraph` labels.
+
+![Network diagram - D2](/images/03-d2-network.png)
+
+```d2
+direction: down
+
+internet: Internet {
+  users: Users
+}
+
+aws: AWS Account - eu-west-2 {
+  cf: CloudFront + WAF
+  alb: Application LB
+
+  pub: Public Subnet {
+    nat: NAT Gateway
+    bast: Bastion
+  }
+
+  priv: Private Subnet - App {
+    app1: ECS Task 1
+    lambda: Lambda Lineage API
+  }
+
+  data: Private Subnet - Data {
+    neo4j: Neo4j { shape: cylinder }
+    rds: RDS Postgres { shape: cylinder }
+  }
+}
+
+internet.users -> aws.cf
+aws.cf -> aws.alb
+aws.alb -> aws.priv.app1
+aws.priv.app1 -> aws.priv.lambda
+aws.priv.lambda -> aws.data.neo4j
+aws.priv.app1 -> aws.data.rds
+aws.priv.app1 -> aws.pub.nat
+aws.pub.nat -> internet
+```
+
+### 4. Sequence diagram for an AI agent
+
+Sequence diagrams are the right tool when the question is "what happens, in what order, between which actors." For AI agent flows specifically they are invaluable, because they make tool-use loops visible in a way that prose never quite does.
+
+![Agent sequence diagram - Mermaid](/images/04-agent-sequence.png)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant U as User
+    participant API as Agent API
+    participant LLM as Claude
+    participant LG as Lineage Graph
+    participant DB as Databricks
+
+    U->>API: "Why is the daily job 3h late?"
+    API->>LLM: System prompt + question
+    LLM->>API: Tool call: query_lineage(job_id)
+    API->>LG: MATCH upstream dependencies
+    LG-->>API: 14 upstream nodes, 2 with errors
+    API->>LLM: Lineage result
+    LLM->>API: Tool call: check_job(stripe_ingest)
+    API->>DB: Get job run status
+    DB-->>API: FAILED, retries exhausted
+    API-->>U: Diagnosis + retry triggered
+```
+
+The same flow in D2. Setting `shape: sequence_diagram` at the top of the file switches the entire diagram into sequence mode and lets you express the interaction as ordered edges between participants.
+
+![Agent sequence diagram - D2](/images/04-d2-agent-sequence.png)
+
+```d2
+shape: sequence_diagram
+
+u:   User
+api: Agent API
+llm: Claude
+lg:  Lineage Graph
+db:  Databricks
+
+u   -> api: Why is the daily job 3h late?
+api -> llm: System prompt + question
+llm -> api: Tool call: query_lineage(job_id)
+api -> lg:  MATCH upstream dependencies
+lg  -> api: 14 upstream nodes, 2 with errors
+api -> llm: Lineage result
+llm -> api: Tool call: check_job(stripe_ingest)
+api -> db:  Get job run status
+db  -> api: FAILED, retries exhausted
+api -> u:   Diagnosis + retry triggered
+```
+
+### 5. Confidence-coded diagram
+
+This is the technique most teams skip and most often need. Colour and stroke style encode how much you trust each component to be current. A diagram that is honest about its own confidence is far more useful than one that pretends every box was verified yesterday.
+
+![Confidence-coded diagram - Mermaid](/images/05-state-confidence.png)
+
+```mermaid
+flowchart LR
+    classDef verified fill:#E8F5E9,stroke:#2E7D32,stroke-width:3px
+    classDef stale fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px,stroke-dasharray:6 3
+    classDef proposed fill:#FFEBEE,stroke:#C62828,stroke-width:2px,stroke-dasharray:3 3
+
+    A[Glue Catalog verified 2026-05-10]:::verified
+    B[Databricks ETL verified 2026-05-08]:::verified
+    C[Snowflake DW verified 2026-05-09]:::verified
+    D[Legacy Airflow last checked 2025-09]:::stale
+    E[Proposed Kafka ADR-0042 draft]:::proposed
+
+    A --> B --> C
+    D -.-> C
+    E -.-> B
+```
+
+The same convention in D2. Classes are defined once at the top and applied with `class:` on each node, which keeps the visual vocabulary consistent across every diagram in the repo.
+
+![Confidence-coded diagram - D2](/images/05-d2-state-confidence.png)
+
+```d2
+direction: right
+
+classes: {
+  verified: {
+    style.stroke: "#2E7D32"
+    style.stroke-width: 3
+    style.fill: "#E8F5E9"
+    style.font-color: "#1B5E20"
+  }
+  stale: {
+    style.stroke: "#EF6C00"
+    style.stroke-width: 2
+    style.stroke-dash: 4
+    style.fill: "#FFF3E0"
+    style.font-color: "#BF360C"
+  }
+  proposed: {
+    style.stroke: "#C62828"
+    style.stroke-width: 2
+    style.stroke-dash: 3
+    style.fill: "#FFEBEE"
+    style.font-color: "#B71C1C"
+  }
+}
+
+a: "Glue Catalog\nverified 2026-05-10"     { class: verified }
+b: "Databricks ETL\nverified 2026-05-08"   { class: verified }
+c: "Snowflake DW\nverified 2026-05-09"     { class: verified }
+d: "Legacy Airflow\nlast checked 2025-09"  { class: stale }
+e: "Proposed Kafka\nADR-0042 draft"        { class: proposed }
+
+a -> b -> c
+d -> c: scheduled
+e -> b: planned
+```
+
+The visual convention I would suggest is simple. Solid green is verified within the review window, dashed orange is stale or being retired, dashed red is proposed and not yet built. Reviewers see the diagram's own self-assessment at a glance and can immediately tell which parts to trust.
+
+## Rendering D2
+
+All the D2 examples above are rendered with the same command. Pin the layout engine and theme so output is reproducible across machines.
 
 ```bash
-d2 --layout=elk pipeline.d2 pipeline.svg
-d2 --layout=elk pipeline.d2 pipeline.png
+d2 --layout=elk --theme=200 pipeline.d2 pipeline.svg
+d2 --layout=elk --theme=200 pipeline.d2 pipeline.png
 ```
 
 ## A Python `diagrams` example
@@ -268,11 +409,11 @@ For AWS-heavy architecture decks, nothing beats real provider icons. Python `dia
 ```python
 from diagrams import Diagram, Cluster, Edge
 from diagrams.aws.compute import Lambda, ECS
-from diagrams.aws.database import Neptune
 from diagrams.aws.storage import S3
 from diagrams.aws.analytics import Glue
 from diagrams.aws.network import CloudFront, ELB
 from diagrams.onprem.analytics import Databricks
+from diagrams.onprem.database import Neo4J
 from diagrams.saas.analytics import Snowflake
 
 with Diagram("Lineage Platform", filename="lineage_platform", show=False, direction="LR"):
@@ -282,7 +423,7 @@ with Diagram("Lineage Platform", filename="lineage_platform", show=False, direct
             api = ECS("Agent API")
             lin = Lambda("Lineage API")
         with Cluster("Data Tier"):
-            graph = Neptune("Lineage Graph")
+            graph = Neo4J("Lineage Graph")
             lake = S3("Data Lake")
     glue = Glue("Glue Catalog")
     spark = Databricks("Databricks")
@@ -314,7 +455,7 @@ your-repo/
 │       ├── ingest-pipeline.png
 │       ├── network-prod.d2
 │       └── adrs/
-│           ├── 0001-use-neptune-for-lineage.md
+│           ├── 0001-use-neo4j-for-lineage.md
 │           └── 0042-evaluate-kafka.md
 ```
 
@@ -461,7 +602,7 @@ This is the highest-leverage idea in the whole guide, and the one that defeats d
 | [dbt](https://www.getdbt.com/) project | `dbt docs generate` | Model lineage |
 | [OpenAPI spec](https://www.openapis.org/) | openapi-to-plantuml | Sequence diagrams |
 
-For a lineage platform built on a graph store like [Neptune](https://aws.amazon.com/neptune/), the diagrams are literally a view over the data. You can emit a `.d2` or `.mmd` file directly from a Cypher or openCypher query and re-render on every change. The diagram is then provably current by construction. That is a much stronger guarantee than "I checked it last quarter."
+For a lineage platform built on a graph store like [Neo4j](https://neo4j.com/), the diagrams are literally a view over the data. You can emit a `.d2` or `.mmd` file directly from a Cypher query and re-render on every change. The diagram is then provably current by construction. That is a much stronger guarantee than "I checked it last quarter."
 
 ### Skeleton: lineage graph to Mermaid
 
@@ -489,7 +630,7 @@ A practical workflow:
 
 1. Describe what you want in plain English: components, connections, audience, level of detail.
 2. Let the agent write the `.d2` or `.mmd` file and run the render command.
-3. View the output, iterate by describing changes ("make Neptune a hexagon, dash the legacy edge").
+3. View the output, iterate by describing changes ("make Neo4j a hexagon, dash the legacy edge").
 4. Commit both source and rendered image.
 
 Drop a section like this into your `CLAUDE.md` or `AGENTS.md` so the agent follows your conventions:
