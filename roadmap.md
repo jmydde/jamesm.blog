@@ -24,6 +24,30 @@ These posts are currently being written:
 
 ---
 
+## Next Priority Posts (Top 10)
+
+The 10 highest-value posts to write next - chosen for importance, uniqueness (no existing post or roadmap item covers them), and practical usefulness to readers.
+
+### AI & LLMs
+- [x] **Context Engineering: The Discipline That Replaced Prompt Engineering** - Managing the whole context window - retrieval, memory, tool results, and compaction - as the core production skill, not clever wording (published: content/ai/context-engineering.md)
+- [ ] **Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem** - Threat models and concrete defenses for agentic systems with real-world tool and data access
+- [ ] **World Models: What Comes After the Language-Only Era** - Why simulators of physical and causal reality are the next research frontier, and what they unlock for robotics and agents
+- [ ] **Evaluating Agents in Production: Trajectory Metrics, Not Just Final Answers** - Step-level scoring, replay harnesses, and regression suites for multi-step agent quality
+
+### Data Engineering
+- [ ] **The Semantic Layer: Making Metrics a First-Class Citizen** - How a shared metrics layer (dbt Semantic Layer, Cube) ends dashboard drift and conflicting definitions
+- [ ] **Feature Stores in 2026: The Bridge Between Data Engineering and ML** - Online/offline parity, point-in-time correctness, and whether you actually need one
+- [ ] **Lakehouse Disaster Recovery: Time Travel Is Not a Backup** - Designing RPO/RTO, cross-region replication, and recovery runbooks for table-format platforms
+
+### Data Science
+- [ ] **Graph Neural Networks: From PageRank to Learned Node Representations** - A practical introduction to GNNs and where they beat classic graph algorithms
+- [ ] **Experimentation at Scale: A/B Testing Pitfalls and How to Avoid Them** - Peeking, network effects, variance reduction (CUPED), and trustworthy experiment design
+
+### Personal Development
+- [ ] **Staying Hands-On as a Staff Engineer** - Keeping technical depth while the role pulls toward leadership and breadth
+
+---
+
 ## Upcoming Posts (Suggested)
 
 ### AI & LLMs
