@@ -651,6 +651,23 @@ Drop a section like this into your `CLAUDE.md` or `AGENTS.md` so the agent follo
 
 A small caveat: LLMs sometimes hallucinate syntax for newer language features, particularly D2 `vars`, `classes` and glob selectors, and the Mermaid v10+ changes. The CLI error messages are good and agents typically fix syntax issues in one turn. Worth pinning tool versions in CI either way.
 
+## From Mermaid to a generated image
+
+There is a second, less obvious way to put AI to work here, and it produces output no deterministic renderer can match. Write the diagram in Mermaid as normal, then paste that Mermaid source into [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) and ask its image model, ChatGPT Images 2.0, to render it as a polished illustration. The Mermaid code does the heavy lifting. It is an unambiguous, structured description of every node, edge and grouping, so the image model is not guessing at your architecture - it is transcribing a precise spec into a picture. The results are surprisingly accurate out of the box, with correct labels, correct connections and a presentation-quality finish that looks hand-designed.
+
+> **Note to self:** add example images of this Mermaid-to-ChatGPT workflow once I have a clean before-and-after pair to show.
+
+Why it works so well is worth understanding. Most image models struggle with diagrams because a plain-English prompt badly under-specifies the structure, leaving the model to invent the boxes and the wiring. Feeding it Mermaid removes that ambiguity entirely. You are handing the model a finished wiring diagram and asking only for the visual treatment, which is the part it is genuinely good at.
+
+The trade-off matters and is worth being explicit about. A generated image is a raster artefact. It cannot be diffed, it is not reproducible, and re-running the same prompt will not give you the same picture twice. It is therefore not diagrams as code, and it must not become your source of truth. The Mermaid file stays canonical, versioned and rendered in CI exactly as before. The ChatGPT image is a derived presentation layer, ideal for a slide, an exec readout or a blog header where polish matters more than diffability. Treat it the way you would treat an exported PNG, never the way you would treat the `.mmd` source.
+
+A practical loop:
+
+1. Author and verify the diagram in Mermaid, committed as the source of truth.
+2. Paste the Mermaid source into ChatGPT and ask ChatGPT Images 2.0 to render it, specifying a style ("clean, flat, muted palette" or "isometric, soft shadows").
+3. Iterate on the visual treatment in plain English. Any change to structure goes back to the `.mmd` file, never to the prompt.
+4. Save the generated image next to the diagram, named clearly enough that nobody mistakes it for the rendered source.
+
 ## Best practices, compressed
 
 ### Do

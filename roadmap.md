@@ -57,6 +57,18 @@ The 10 highest-value posts to write next - chosen for importance, uniqueness (no
 - [ ] **Latency Matters: Response Time Impact on UX** - Real-world performance analysis of AI API latency in production systems
 - [ ] **Constitutional AI in Practice** - Building safe, aligned agent behaviors beyond prompt injection prevention
 
+### AI & LLMs - Frontier (Ultra Futuristic)
+- [ ] **Artificial General Intelligence: Timelines, Definitions, and What Actually Changes** - Cutting through hype to examine credible AGI milestones and their concrete impact on engineering work
+- [ ] **Brain-Computer Interfaces Meet LLMs: The Neural Co-Processor** - How neural implants and language models could merge into a real-time cognitive layer
+- [x] **Recursive Self-Improvement: Can AI Bootstrap Its Own Intelligence?** - The theory, the safety constraints, and where automated capability gains plausibly stop (published: content/ai/recursive-self-improvement.md)
+- [ ] **Quantum Machine Learning: When Qubits Train Neural Networks** - Where quantum hardware genuinely accelerates learning, and where it is still marketing
+- [ ] **Agent Economies: When AIs Negotiate, Transact, and Hire Each Other** - Autonomous agents with wallets, contracts, and reputation - and the infrastructure they need
+- [ ] **The AI Scientist: Autonomous Research Agents That Discover, Not Just Assist** - End-to-end agents that form hypotheses, run experiments, and publish findings
+- [ ] **Neuromorphic Computing: Brain-Inspired Chips for Always-On AI** - Spiking neural networks and event-driven silicon for ultra-low-power intelligence
+- [ ] **Machine Consciousness: The Hard Problem Comes for AI** - What it would take to claim a model is sentient, and why the question matters for engineers
+- [ ] **Digital Twins of You: Lifelong Personal AI and the Memory Problem** - Persistent personal models that learn across decades, and how to architect their memory
+- [ ] **Embodied AI at Scale: Humanoid Robots and the Sim-to-Real Frontier** - Foundation models for robotics, simulation pipelines, and the leap from lab to living room
+
 ### Data Engineering
 - [ ] **Building a Data Contract Layer** - Schema evolution, versioning, and governance for modern pipelines
 - [ ] **Real-Time vs Eventual Consistency: The Trade-off Matrix** - When to pick each pattern with concrete examples
