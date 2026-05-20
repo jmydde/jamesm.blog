@@ -1,6 +1,6 @@
 ---
 title: "System Design Fundamentals: Making Trade-offs You Won't Regret"
-date: 2026-05-20T12:00:00+01:00
+date: 2026-05-19T12:00:00+01:00
 draft: false
 tags: ["software-engineering", "system-design", "architecture"]
 description: "System design is not about knowing the right answer. It is about understanding the trade-offs well enough to choose deliberately. Here are the core axes every design decision moves along, a worked example, and why designing for scale you do not have is the most common self-inflicted wound in software."
