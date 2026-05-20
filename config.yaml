@@ -56,6 +56,10 @@ languages:
           url: /music-production
         - name: Personal Dev
           url: /personal-development
+        - name: Security
+          url: /security
+        - name: Software Eng
+          url: /software-engineering
         - name: Space
           url: /space
 
@@ -85,6 +89,8 @@ params:
     - retro-computing
     - music-production
     - personal-development
+    - security
+    - software-engineering
     - space
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
@@ -113,11 +119,14 @@ params:
       - [**Artificial Intelligence**](/ai) (LLMs, AI agents, and the future of human expertise)
       - [**Blockchain**](/blockchain) (Decentralized infrastructure, networks, and ecosystem evolution)
       - [**Data Engineering**](/data-engineering) (Building data infrastructure that actually scales)
+      - [**Data Science**](/data-science) (Graph algorithms, network analysis, and statistical methods)
       - [**DevOps**](/devops) (Infrastructure, automation, and operational philosophy)
       - [**General**](/general) (Culture, science, and the miscellaneous)
       - [**Retro Computing**](/retro-computing) (The machines and culture that shaped computing)
       - [**Music Production**](/music-production) (Gear, sound design, and creative workflow)
       - [**Personal Development**](/personal-development) (Expertise, craft, and the engineering mindset)
+      - [**Security**](/security) (Threat modeling, cryptography, and systems that resist attack)
+      - [**Software Engineering**](/software-engineering) (System design, languages, and the craft of code)
       - [**Space**](/space) (Infrastructure and vision for human expansion beyond Earth)
 
   socialIcons:

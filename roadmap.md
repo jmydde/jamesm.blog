@@ -257,6 +257,51 @@ The 10 highest-value posts to write next - chosen for importance, uniqueness (no
 - [ ] **Stress Management Techniques** - Reducing chronic stress
 - [ ] **Building Sustainable Habits** - Creating lasting change
 
+### Gaming & Game Technology (12 posts)
+
+- [ ] **Game Technology in 2026: Inside the Stack Behind a Live Service Game** - The five layers of a modern live game and how they fit together (published: content/gaming/game-technology-2026.md)
+- [ ] **Game Telemetry at Scale: The Data Pipeline Behind a Live Game** - Ingesting billions of player events a day and serving every consumer from one stream
+- [ ] **Netcode Explained: Rollback, Lockstep, and Client-Side Prediction** - The techniques that hide the speed of light in multiplayer games
+- [ ] **Matchmaking Systems: Skill Rating and the Math of a Fair Match** - Balancing match quality, queue time, and connection quality in real time
+- [ ] **Anti-Cheat in 2026: Kernel Drivers, Server Authority, and ML Detection** - How studios detect and deter cheating, and the trade-offs of each approach
+- [ ] **Game Engines Compared: Unreal 5, Unity, Godot, and the In-House Question** - Choosing who owns the hardest bugs
+- [ ] **LiveOps: Running a Game as a Service** - Seasons, events, and steering a live game with data
+- [ ] **The Economics of Free-to-Play: Monetisation and Player Lifetime Value** - How free games make money and what the data looks like
+- [ ] **Cloud Gaming in 2026: Latency, Streaming, and Whether It Finally Works** - The infrastructure behind game streaming and its real constraints
+- [ ] **Procedural Generation: From Noise Functions to Infinite Worlds** - Algorithms for generating game content at scale
+- [ ] **AI in Games: NPC Behaviour, Generative Content, and Player Modelling** - Where machine learning is changing how games are built and played
+- [ ] **Player Analytics: Funnels, Retention, and Reading Behaviour From Events** - Turning raw telemetry into design and business decisions
+
+### Security & Cybersecurity (12 posts)
+
+- [x] **Threat Modeling for Engineers: Finding the Flaws Before Attackers Do** - A structured way to find design flaws before writing code (published: content/security/threat-modeling-for-engineers.md)
+- [ ] **The Software Supply Chain: SBOMs, Dependency Risk, and Lessons From xz** - Securing what you depend on, not just what you write
+- [ ] **Secrets Management: Vaults, Rotation, and Why .env Files Keep Leaking** - Handling credentials without scattering them across the codebase
+- [ ] **Zero Trust Explained: Identity as the New Perimeter** - What zero trust actually means beyond the marketing
+- [ ] **Cryptography for Engineers: What to Use and What to Never Touch** - Practical crypto choices without rolling your own
+- [ ] **OAuth and OIDC Demystified: Tokens, Flows, and Common Mistakes** - The protocols behind modern auth, explained clearly
+- [ ] **Securing AI Agents: Tool-Calling Risks and the Confused Deputy Problem** - Threat models and defenses for agentic systems (cross-referenced with the AI section)
+- [ ] **The Anatomy of a Data Breach: How Attacks Actually Unfold** - Walking a real breach from initial access to exfiltration
+- [ ] **Container and Kubernetes Security: Hardening the Stack** - Securing the layers from image to cluster
+- [ ] **Security for Data Pipelines: Access Control, PII, and Exfiltration** - Protecting data systems specifically
+- [ ] **Passkeys and the End of Passwords** - How passkeys work and why they replace passwords
+- [ ] **Red Team vs Blue Team: How Security Testing Actually Works** - Offensive and defensive security testing in practice
+
+### Software Engineering (12 posts)
+
+- [x] **System Design Fundamentals: Making Trade-offs You Won't Regret** - The core axes every design decision moves along (published: content/software-engineering/system-design-fundamentals.md)
+- [ ] **API Design That Lasts: REST, gRPC, and the Contract Mindset** - Designing interfaces that survive their first version
+- [ ] **Rust for the Curious: When It Earns Its Complexity** - Where Rust's guarantees are worth the learning curve
+- [ ] **Go in Practice: Why It Keeps Winning Backend Work** - The language design choices behind Go's staying power
+- [ ] **Testing Strategy: The Pyramid, the Trophy, and What to Actually Test** - Choosing what to test and at which level
+- [ ] **Debugging as a Discipline: From Print Statements to Systematic Diagnosis** - Turning debugging from luck into method
+- [ ] **Code Review That Improves Code, Not Just Catches Bugs** - Making review a tool for design and learning
+- [ ] **Design Patterns Worth Knowing in 2026 (and the Ones to Forget)** - Which classic patterns still earn their place
+- [ ] **Concurrency Models Compared: Threads, Async, Actors, and CSP** - Choosing a concurrency model for the problem
+- [ ] **Technical Debt: Naming It, Measuring It, Paying It Down** - Making debt visible and manageable
+- [ ] **Reading Code: The Underrated Engineering Skill** - Getting fast and accurate at understanding code you did not write
+- [ ] **The Art of the Interface: Abstraction Boundaries That Don't Leak** - Designing boundaries that hide the right things
+
 ---
 
 ## Notes
