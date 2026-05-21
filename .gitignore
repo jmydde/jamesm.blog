@@ -15,3 +15,6 @@
 *.swo
 .idea/
 .vscode/
+
+# Generated news-script run logs
+scripts/logs/
