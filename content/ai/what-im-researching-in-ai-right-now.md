@@ -1,7 +1,7 @@
 ---
 title: "What I'm Researching in AI Right Now - And Where I'm Going Next"
 date: 2026-05-19T07:30:00+01:00
-draft: false
+draft: true
 tags: ["ai", "agent", "research", "context-engineering", "reliability", "world-model"]
 description: "I treat my own learning like a research agenda - a small set of questions I am actively chasing rather than a reading list. Here are the AI areas I have been deep in, the ones I have decided to move into next, and the ones I am deliberately leaving on the watch list."
 cover:

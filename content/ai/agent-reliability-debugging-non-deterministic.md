@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "agent", "reliability", "debugging", "testing", "production"]
 description: "AI agents that work in the demo and fail in production are the standard story of the last two years. A practical look at why agent reliability is genuinely hard, what patterns have emerged for handling it, and which testing approaches actually work."
 cover:
-  image: /assets/images/ai/agent-reliability-debugging-non-deterministic.md.jpg
+  image: /assets/images/ai/agent-reliability-debugging-non-deterministic.jpg
   alt: The Agent Reliability Problem Banner
 ---
 
