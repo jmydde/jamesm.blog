@@ -20,7 +20,7 @@ Wow, crazy times, **the best technology in the world is now becoming incredibly 
 
 Venture capitalist Marc Andreessen has lauded DeepSeek's AI as a "**groundbreaking achievement**", while the company claims its models rival industry leaders like ChatGPT at a **fraction of the cost**. DeepSeek reportedly invested **only $6 million** in its development, a stark contrast to the **billions spent by US AI companies**.
 
-Since the initial R1 release in January 2025, DeepSeek has continued iterating with improved models including DeepSeek V3 and other variants, establishing itself as a significant competitor in the open-source and cost-efficient AI space.
+DeepSeek had already shipped its V3 base model in late December 2024, but it was the R1 reasoning release in January 2025 that broke into the mainstream. The lab has continued iterating since - V3.1, V3.2, and further reasoning-tuned variants - and has cemented its place as one of the most credible open-weight competitors to the US frontier labs.
 
 ## Links
 - [DeepSeek Homepage](https://www.deepseek.com/)

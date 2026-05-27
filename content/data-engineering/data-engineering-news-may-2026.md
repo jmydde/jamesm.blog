@@ -1,7 +1,7 @@
 ---
 title: "Data Engineering News - May 2026: The Agentic Control Plane, Iceberg v3, and a $2bn Acquisition"
 date: 2026-05-21T22:30:00+01:00
-draft: false
+draft: true
 tags: ['data-engineering', 'news', 'iceberg', 'databricks', 'snowflake', 'airflow', 'ai']
 description: "The biggest data engineering stories of the last month - the platform war over the agentic control plane, Apache Iceberg v3 reaching public preview, Airflow 3.1, the Publicis-LiveRamp deal, and what Meta's ingestion rebuild teaches the rest of us."
 cover:

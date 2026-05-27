@@ -48,7 +48,7 @@ To generate a token, you must:
 3. Compute attention over the full context
 4. Write the output token
 
-A 70B parameter model like [Llama 2](https://www.meta.com/llama/) requires roughly 140GB of VRAM in bfloat16 (2 bytes per parameter). To serve 1,000 concurrent users at reasonable latency, you need multiple copies - easily 5-10 copies minimum for queue absorption. That's 700GB - 1.4TB of GPU memory just to exist. A single H100 has 80GB, so you're looking at 9-18 H100s per 1,000 concurrent users.
+A 70B parameter model like [Llama 3.3](https://www.llama.com/) requires roughly 140GB of VRAM in bfloat16 (2 bytes per parameter). To serve 1,000 concurrent users at reasonable latency, you need multiple copies - easily 5-10 copies minimum for queue absorption. That's 700GB - 1.4TB of GPU memory just to exist. A single H100 has 80GB, so you're looking at 9-18 H100s per 1,000 concurrent users.
 
 An H100 costs ~$40,000. An entire GPU cluster serving 100,000 concurrent users costs tens of millions of dollars, and that's just hardware. Add power, cooling, redundancy, network, security, and you're in the hundred-millions range for a production system.
 

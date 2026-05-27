@@ -22,7 +22,7 @@ The context window arms race reveals a gap between what engineers think matters 
 
 ## What the Context Window Actually Is
 
-A context window is the amount of text an LLM can process in a single request. Claude 3.5 Sonnet supports 200,000 tokens (roughly 150,000 words). GPT-4o supports 128,000 tokens. The latest open-source models are pushing toward 1 million tokens or more.
+A context window is the amount of text an LLM can process in a single request. Claude Sonnet 4.6 supports 200,000 tokens as standard (roughly 150,000 words), with a 1M-token tier available on the API. GPT-5 and GPT-5.5 also offer a 1M-token tier. Google's Gemini 2.5 Pro and Gemini 3 stretch to several million tokens. The latest open-source models are pushing toward 1 million tokens or more.
 
 Larger context windows sound like strictly better - you can fit more information into a single request, right? You can put your entire codebase in the prompt, or process a 400-page document in one go.
 
@@ -65,7 +65,7 @@ What actually matters is how efficiently you use the context you have. This incl
 - **Prompt engineering**: A 500-token optimized prompt often extracts better answers than a 5,000-token verbose prompt.
 - **Few-shot examples**: 3 well-chosen examples are more valuable than 30 mediocre ones.
 - **Structured data formats**: JSON and markdown are more efficient than natural language for conveying structured information.
-- **Caching**: Reusing context across multiple requests (supported by Claude and now GPT-4) reduces token processing costs by 90%+ on repeated requests.
+- **Caching**: Reusing context across multiple requests (now supported across Claude, GPT-5, and Gemini) reduces token processing costs by 90%+ on repeated requests.
 
 The team optimizing for token efficiency will solve problems faster and cheaper than the team betting on unlimited context.
 

@@ -57,7 +57,7 @@ Because Cline can write and execute code autonomously, the developer's role shif
 
 Cline is open-source and lives as a VS Code extension. To get the most out of it in 2026, I recommend:
 
-1. **Bring Your Own Key**: Use a high-reasoning model like Claude 3.5 Sonnet or a specialized "Thinking" model via OpenRouter.
+1. **Bring Your Own Key**: Use a high-reasoning model - Claude Sonnet 4.6 or Opus 4.7 for the bulk of agentic work, or a specialised "thinking" model via OpenRouter when you want to mix providers.
 2. **Strict Guidelines**: Use a `.clinerules` file in your repository to give Cline "guardrails" on your specific coding style and architecture.
 3. **Task Decomposition**: Even though it's an agent, breaking a massive feature into smaller, logical "Tasks" helps Cline maintain context and stay within token limits.
 

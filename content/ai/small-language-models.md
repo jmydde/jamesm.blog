@@ -24,7 +24,7 @@ The shift isn't just about efficiency. It's a fundamental change in how we think
 
 The turning point came when researchers realized something counterintuitive: smaller models trained on high-quality data can outperform larger models trained on general internet scale data. Techniques like distillation, instruction tuning, and quantization meant that you could take the knowledge from a large model and compress it into something that runs on your laptop.
 
-Then [OpenAI](https://openai.com/) released [GPT-4 Turbo](https://openai.com/research/gpt-4), [Anthropic](https://www.anthropic.com/) pushed Opus, and the race seemed set on maximum parameters again. But meanwhile, [Mistral](https://mistral.ai/) released 7B, [Microsoft](https://www.microsoft.com/) shipped Phi, and [Meta](https://www.meta.com/) released [Llama 2](https://www.meta.com/llama/). These models didn't just work - they worked *well*, often outperforming much larger competitors on benchmark tasks.
+Then [OpenAI](https://openai.com/) pushed the GPT-4 and GPT-5 families, [Anthropic](https://www.anthropic.com/) pushed Opus, and the race seemed set on maximum parameters again. But meanwhile, [Mistral](https://mistral.ai/) released its 7B model, [Microsoft](https://www.microsoft.com/) shipped Phi, and [Meta](https://www.meta.com/) released the [Llama](https://www.llama.com/) family. These open-weight models didn't just work - they worked *well*, often outperforming much larger competitors on benchmark tasks.
 
 The practical reality became undeniable: for most real-world applications, you don't need a 70 billion parameter model.
 
@@ -44,7 +44,7 @@ The practical reality became undeniable: for most real-world applications, you d
 
 **[Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)**  -  Released in 2024, it became the speed champion. It performs at the level of Llama 13B on many benchmarks while running 2-3x faster. Now the default choice for developers who want "good enough, but fast."
 
-**[Llama 2 (7B, 13B)](https://huggingface.co/meta-llama)**  -  Meta's open models set the bar for what an open-source small model should be. Still widely used, still solid across reasoning, coding, and general tasks.
+**[Llama 3 and Llama 4 small variants](https://huggingface.co/meta-llama)**  -  Meta's open models have continued to set the bar for what an open-source small model should be. Llama 3.1 8B, the Llama 3.2 multimodal small models, and the smaller Llama 4 MoE variants are now the default starting points for serious local work.
 
 **[Phi-2, Phi-3](https://azure.microsoft.com/en-us/products/phi)**  -  Microsoft's research into scaling laws led to surprisingly capable small models. Phi-3 mini runs on phones and edge devices. The inference quality is disproportionate to the parameter count.
 
@@ -88,7 +88,7 @@ Small models aren't perfect for everything. Large models still have advantages:
 - **Few-shot capability**  -  Large models often handle new tasks with minimal examples. Small models need more examples or fine-tuning.
 - **Language coverage**  -  Large models handle more languages better. Small models tend to be optimized for English.
 
-When you need genuine reasoning - complex mathematics, multi-step logic, novel domain problems - you still reach for Claude, GPT-4, or Gemini.
+When you need genuine reasoning - complex mathematics, multi-step logic, novel domain problems - you still reach for frontier models like Claude Opus, GPT-5, or Gemini.
 
 ## The Practical Shift
 

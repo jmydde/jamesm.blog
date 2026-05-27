@@ -66,7 +66,7 @@ There are also no improvements mid-development. The RS-25 engines are 40+ years 
 
 SpaceX's approach inverts the traditional aerospace model. Instead of testing to launch, Starship tests by launching.
 
-The first Starship integrated flight test (April 2023) exploded. So did the second (November 2023). The third (March 2024) reached new milestones before exploding. Each flight captured terabytes of data, and each iteration improved. By April 2024, the fourth flight achieved booster catch and controlled Starship reentry.
+The first Starship integrated flight test (April 2023) exploded. So did the second (November 2023). The third (March 2024) reached new milestones before exploding. The fourth (June 2024) achieved a controlled Super Heavy splashdown and a controlled Starship reentry and splashdown. Each flight captured terabytes of data, and each iteration improved. The fifth flight (October 2024) was the headline moment: Super Heavy returned to the launch site and was caught mid-air by the Mechazilla tower arms - the first time anyone had ever recovered an orbital-class booster that way.
 
 This is not recklessness - it's empiricism. You learn more from a failed flight test than from a thousand simulations. The actual physics of 29 hypersonic engines, grid fins in plasma, and rapid reusability can't be fully predicted.
 
@@ -114,7 +114,7 @@ Starship is reusable by design. SpaceX's long-term vision is:
 3. Refuel in orbit from tanker Starships
 4. Fly again within hours or days
 
-This isn't science fiction anymore - SpaceX caught the booster for the first time in April 2024. Rapid reuse is the next frontier.
+This isn't science fiction anymore - SpaceX caught the Super Heavy booster with the Mechazilla tower arms for the first time on Flight 5 in October 2024. Rapid reuse is the next frontier.
 
 The math of reusability is overwhelming:
 
@@ -162,7 +162,7 @@ But this creates a dependency. Artemis III can't launch until:
 - Starship's lunar variant is ready (also delayed)
 - Both are flight-proven
 
-Currently, Artemis II (uncrewed flight around the Moon with SLS) is aiming for late 2025 or 2026. Artemis III (humans to lunar surface) is 2026–2027 at the earliest.
+Currently, Artemis II (a crewed flyby of the Moon on SLS, with no landing) is targeting a 2026 launch. Artemis III (humans to the lunar surface, using the Starship lunar HLS) is 2027 at the earliest, and slipping right.
 
 SpaceX has already demonstrated more rapid iteration on Starship than NASA has on SLS in the same timeframe.
 

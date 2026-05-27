@@ -2,22 +2,22 @@
 title: "Stargate"
 date: 2024-03-30T22:09:25+01:00
 draft: false
-tags: ['ai', 'openai', 'microsoft', 'stargate', 'supercomputer', 'infrastructure']
+tags: ['ai', 'openai', 'stargate', 'supercomputer', 'infrastructure']
 ---
 
 ## TL;DR
 
-- **Stargate** is a $500B AI infrastructure programme announced in January 2025 - a joint effort between [Microsoft](https://www.microsoft.com/), [OpenAI](https://openai.com/), [SoftBank](https://group.softbank/en/), and [Oracle](https://www.oracle.com/)
+- **Stargate** is a $500B AI infrastructure programme announced in January 2025 - the equity partners are [OpenAI](https://openai.com/), [SoftBank](https://group.softbank/en/), [Oracle](https://www.oracle.com/), and Abu Dhabi sovereign investor [MGX](https://mgx.ae/)
 - Construction has already started in Texas with more sites planned, aimed at training and serving the next generation of frontier AI models
 - The scale signals where compute spend is heading - tens of billions per cluster is becoming the price of admission at the frontier
-- Combines OpenAI's models, Microsoft's cloud, SoftBank's capital, and Oracle's enterprise infrastructure into one of the largest tech buildouts ever announced
+- The initial $100B commitment is intended to scale to $500B by 2029, combining OpenAI's models, SoftBank and MGX capital, and Oracle's data-centre and infrastructure capabilities
 - Worth tracking as a useful proxy for how seriously the industry takes the compute side of the AGI race
 
 ## About
 
-Stargate is a $500 billion AI infrastructure project announced in January 2025. The initiative is a collaboration between [Microsoft](https://www.microsoft.com/), [OpenAI](https://openai.com/), [SoftBank](https://group.softbank/en/), and [Oracle](https://www.oracle.com/) to build a series of massive AI supercomputers and data centers.
+Stargate is a $500 billion AI infrastructure project announced in January 2025. The equity partners are [OpenAI](https://openai.com/), [SoftBank](https://group.softbank/en/), [Oracle](https://www.oracle.com/), and [MGX](https://mgx.ae/), with [Microsoft](https://www.microsoft.com/) and Nvidia listed as technology partners rather than equity investors.
 
-Originally reported as a Microsoft-OpenAI effort, the project was expanded in January 2025 to include SoftBank's Vision Fund and Oracle as major partners. The partnership combines OpenAI's AI expertise, Microsoft's cloud infrastructure and enterprise reach, SoftBank's capital and global networks, and Oracle's database and enterprise technology capabilities.
+The venture launched with an initial $100 billion committed, with plans to grow to $500 billion by 2029. SoftBank and OpenAI each hold roughly 40% of the entity; Oracle and MGX contribute the remainder. The partnership combines OpenAI's AI expertise, SoftBank and MGX capital, and Oracle's data-centre and enterprise infrastructure capabilities.
 
 Construction has already begun in Texas and other locations as of 2026, with plans for additional facilities across multiple regions. The purpose is to provide the computational infrastructure needed to train and deploy next-generation AI models and support the rapidly expanding AI ecosystem.
 

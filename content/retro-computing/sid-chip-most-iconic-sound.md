@@ -28,7 +28,7 @@ The original vision was more ambitious: a chip that could rival professional syn
 
 This was synthesizer architecture from the 1970s - authentic analog synthesis concepts - compressed onto a chip that cost a few dollars.
 
-To put this in perspective, a Minimoog synthesizer (released in 1970 and still used professionally) had a similar architecture: oscillators, filters, envelopes. The Minimoog cost $10,000 in 1970 money (about $80,000 in 2026 dollars). The SID chip cost less than $5 and occupied a couple of square millimeters on silicon.
+To put this in perspective, a Minimoog synthesizer (released in 1970 and still used professionally) had a similar architecture: oscillators, filters, envelopes. The Minimoog launched at $1,495 in 1970 money - roughly $12,000 in 2026 dollars once inflation is accounted for. The SID chip cost less than $5 and occupied a couple of square millimeters on silicon.
 
 ## The Constraint That Created the Aesthetic
 

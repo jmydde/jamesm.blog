@@ -1,7 +1,7 @@
 ---
 title: "DevOps News - May 2026: Supply Chain Carnage, Agentic Operations, and Git's Scaling Crisis"
 date: 2026-05-21T20:00:00+01:00
-draft: false
+draft: true
 tags: ['devops', 'news', 'security', 'kubernetes', 'ci-cd', 'ai']
 description: "The biggest DevOps stories of the last month - a npm supply chain attack that swallowed GitHub and Grafana, AWS shipping autonomous operations agents, Kubernetes v1.36, and the growing argument that Git cannot keep up with AI-generated code."
 cover:

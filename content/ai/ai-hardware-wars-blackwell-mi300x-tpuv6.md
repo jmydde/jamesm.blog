@@ -27,7 +27,7 @@ For frontier training, Blackwell is still the safest choice. The clusters scale,
 
 ## AMD MI300X: the credible alternative
 
-The story for MI300X in 2026 is that it has become *boring* in the best sense. ROCm runs, PyTorch works, vLLM serves Llama and Mistral at competitive throughput, and the larger HBM3e memory per GPU genuinely helps for inference workloads that fit better in 192GB than they do in Blackwell's 80-180GB.
+The story for MI300X in 2026 is that it has become *boring* in the best sense. ROCm runs, PyTorch works, vLLM serves Llama and Mistral at competitive throughput, and the larger HBM3 memory per GPU genuinely helps for inference workloads that fit better in MI300X's 192GB than they do on an H100-class part. Against Blackwell B200 the per-GPU memory is comparable - 192GB on either side - but MI300X usually wins on price-per-GB and per-token economics for the open-weight models most production teams actually serve.
 
 The remaining gaps are real but narrower than they were. Training large MoE models is still smoother on NVIDIA. The cluster networking story is less polished. The talent pool is smaller. But for inference - which is the bulk of production AI spend - MI300X is a serious option that did not exist eighteen months ago.
 

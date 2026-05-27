@@ -22,7 +22,7 @@ Instead of a pipeline simply failing because a dependency version changed, an AI
 
 ## The AI DevOps Stack
 
-The tools we use to write code are evolving, as documented in my [AI Development Stack](/ai/my-ai-dev-stack), and that evolution is now hitting the operations side.
+The tools we use to write code are evolving, as documented in my [AI Development Stack](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/), and that evolution is now hitting the operations side.
 
 ### 1. Intelligent CI/CD
 We are seeing a shift where tools like [Claude Code](/ai/claude-code-review) perform deep architectural reviews of PRs. This doesn't just check for syntax; it acts as a "superhuman pre-review," reducing the time humans spend on routine checks and catching critical security flaws before they reach production.

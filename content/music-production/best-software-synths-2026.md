@@ -16,8 +16,8 @@ Here are the top software synths currently defining the sound of 2026.
 ## 1. Xfer Serum 2 (The Evolution)
 After years of anticipation, the successor to the most popular wavetable synth in history has finally matured. Serum 2 maintains the workflow we love but adds a "Neural Resynthesis" engine. You can now drop any audio sample into the oscillator, and the AI will reconstruct it as a fully morphable wavetable with uncanny accuracy.
 
-## 2. Arturia Pigments 6
-Pigments continues to be the "everything synth." In version 6, Arturia introduced the **Generative Sequencer**, which uses probability and machine learning to suggest melodies and modulations based on the current patch's timbre. It remains the gold standard for visual feedback and sound design exploration.
+## 2. Arturia Pigments 7
+Pigments continues to be the "everything synth." Version 7, released in late 2025, layered new expressive tools and a refined sound-design workflow on top of the six engines that already made it a favourite - wavetable, virtual analog, granular, sample, harmonic, and the modal engine. It remains the gold standard for visual feedback and sound design exploration.
 
 ## 3. U-he Zebra 3
 It's finally here, and it was worth the wait. Zebra 3 moves away from the modular clutter of the past into a sleek, "context-aware" interface. Its physical modeling capabilities are now so advanced that it is often indistinguishable from real acoustic instruments, making it a favorite for cinematic scoring.
@@ -39,7 +39,7 @@ In 2026, the biggest trend isn't just "more oscillators." It is **Latent Space S
 
 ## Which One Should You Choose?
 
-- **For Versatility:** Pigments 6.
+- **For Versatility:** Pigments 7.
 - **For Complex Sound Design:** Zebra 3.
 - **For Modern Electronic Music:** Serum 2.
 - **For Experimental Textures:** Synplant 3.

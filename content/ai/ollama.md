@@ -10,7 +10,7 @@ description: "A practical guide to Ollama, the platform for running large langua
 
 - **Ollama** is a lightweight tool for running open-source language models locally with no cloud costs, rate limits, or data leaving your machine
 - Models are managed with simple commands (`ollama pull`, `ollama run`) and can be queried via a local HTTP API on `localhost:11434`
-- Popular models include **Mistral 7B** for speed, Llama 2 for all-around performance, and **OpenClaw** for code and reasoning tasks
+- Popular models include **Mistral 7B** for speed, Meta's Llama 3 and Llama 4 lineups for all-around performance, and **OpenClaw** for code and reasoning tasks
 - Running models locally delivers privacy, zero per-token cost, lower latency, and full offline capability
 - You don't need a GPU to start - a 7B model runs on 8GB of RAM, and Ollama automatically uses 4-bit quantization for larger models
 
@@ -47,7 +47,7 @@ The Ollama library has grown significantly. Here are the standouts:
 
 **[Mistral 7B](https://mistral.ai/)**  -  The speed champion. Fast inference, surprisingly good reasoning for its size. Great for real-time applications.
 
-**[Llama 2](https://www.meta.com/llama/) (7B, 13B, 70B)**  -  Meta's Llama series offers a range of sizes. The 13B version is a sweet spot for most machines. Solid all-around performer.
+**[Llama 3 and Llama 4](https://www.llama.com/)**  -  Meta's current open-weight families. Llama 3.1 (8B), Llama 3.2 (multimodal small models), Llama 3.3 (70B-class), and the newer Llama 4 mixture-of-experts variants cover everything from laptop inference to serious server-side workloads. The smaller 8B and 7B-class models remain the sweet spot for most local setups.
 
 **Neural Chat**  -  A conversational model tuned for dialogue. Feels more natural than raw base models.
 

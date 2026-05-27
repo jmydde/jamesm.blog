@@ -7,15 +7,16 @@ tags: ['ai', 'tool', 'github']
 
 ## TL;DR
 
-- **GitHub Copilot** is the AI pair programmer from GitHub and OpenAI - code completions, function generation, and conversational assistance inside your editor
-- Works across [VS Code](https://code.visualstudio.com/), [Visual Studio](https://visualstudio.microsoft.com/), [JetBrains](https://www.jetbrains.com/) IDEs, [Neovim](https://neovim.io/), and the GitHub.com editor
-- Tiered pricing: free for verified students, maintainers, and teachers; $10/month individual; $19/month business; enterprise with codebase indexing on top
+- **GitHub Copilot** is the AI pair programmer from GitHub - code completions, function generation, conversational assistance, and an agent mode that can plan and execute multi-file changes
+- Works across [VS Code](https://code.visualstudio.com/), [Visual Studio](https://visualstudio.microsoft.com/), [JetBrains](https://www.jetbrains.com/) IDEs, [Neovim](https://neovim.io/), [Xcode](https://developer.apple.com/xcode/), and the GitHub.com editor
+- Now multi-model: routes between OpenAI's GPT-5 family, Anthropic's Claude Sonnet and Opus, Google's Gemini, and several open-weight options depending on the task and plan
+- Tiered pricing: a Free tier with capped usage; Pro at $10/month; Pro+ at $39/month for heavier frontier usage; Business at $19/user/month; Enterprise at $39/user/month with org-wide controls
 - The original mainstream AI coding assistant - now competing with [Cursor](https://www.cursor.com/), [Cline](https://github.com/cline/cline), and [Claude Code](https://www.anthropic.com/claude-code) on agentic depth
-- Best for incremental in-editor assistance; less suited to multi-file refactors where agentic tools have moved ahead
+- Best when your team already lives inside GitHub - the integration with Pull Requests, Issues, Actions, and the GitHub.com agent surface is the differentiator
 
-[GitHub Copilot](https://github.com/features/copilot) is an AI pair programmer developed by [GitHub](https://github.com/) in partnership with [OpenAI](https://openai.com/). It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.
+[GitHub Copilot](https://github.com/features/copilot) is an AI pair programmer developed by [GitHub](https://github.com/), originally launched in partnership with [OpenAI](https://openai.com/). It provides code completions, suggestions, and AI-powered development assistance across multiple IDEs.
 
-GitHub Copilot uses advanced language models ([GPT-4](https://openai.com/research/gpt-4) based) to suggest code, functions, and solutions in real-time, right from your editor.
+GitHub Copilot is now multi-model. Depending on your plan and the task, it can route to OpenAI's GPT-5 family, Anthropic's [Claude](https://www.anthropic.com/) Sonnet and Opus models, Google's [Gemini](https://gemini.google.com/), and a selection of open-weight options - rather than being locked to a single underlying model the way it was at launch.
 
 **Key Features**
 - Code autocompletion and function generation
@@ -32,10 +33,11 @@ GitHub Copilot uses advanced language models ([GPT-4](https://openai.com/researc
 - [GitHub.com editor](https://github.com/)
 
 **Pricing**
-- **Free tier:** Available to verified students, maintainers of popular open-source projects, and teachers
-- **Copilot Individual:** $10/month or $100/year
-- **Copilot Business:** $19/month per user (for enterprises)
-- **Copilot Enterprise:** Custom pricing (with enhanced features like codebase indexing)
+- **Copilot Free:** Capped monthly usage for everyone; still free for verified students, maintainers of popular open-source projects, and teachers
+- **Copilot Pro:** $10/month or $100/year for individuals
+- **Copilot Pro+:** $39/month for heavier frontier-model usage and access to premium models
+- **Copilot Business:** $19/user/month for organisations
+- **Copilot Enterprise:** $39/user/month with org-wide controls, codebase indexing, and the GitHub.com agent surface
 
 **Links**
 - [Documentation](https://docs.github.com/en/copilot)

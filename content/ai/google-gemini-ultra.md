@@ -9,13 +9,13 @@ tags: ['ai', 'chatbot', 'google', 'gemini']
 
 - **Gemini Ultra** was Google DeepMind's flagship Gemini tier at launch in early 2024 - notable for hitting 90.0% on the MMLU benchmark
 - Multimodal across text, images, video, and code, with strong coding and reasoning performance for its era
-- Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and other specialised variants in the Gemini family
+- Has since been superseded by Gemini 2.0, Gemini 2.5 Pro, and the current Gemini 3 family
 - Documented here for historical context - the original Ultra branding is no longer the main consumer-facing model
 - Access today is through [AI Studio](https://aistudio.google.com/), [Vertex AI](https://cloud.google.com/vertex-ai), and Google One AI Premium plans
 
 ## About
 
-**Note:** Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship models include Gemini 2.0, Gemini 2.5 Pro, and specialized variants. This article documents the original Gemini Ultra for historical context.
+**Note:** Gemini Ultra (released early 2024) has since been superseded by more advanced versions. As of 2026, Google’s flagship offering is the Gemini 3 family, sitting above the still-shipping Gemini 2.0 and Gemini 2.5 Pro tiers. This article documents the original Gemini Ultra for historical context.
 
 [Google Gemini Ultra](https://gemini.google.com/) was [Google DeepMind](https://deepmind.google/)’s top-tier offering in the Gemini family, known for:
 
@@ -30,7 +30,7 @@ tags: ['ai', 'chatbot', 'google', 'gemini']
 - Enhanced creative capabilities for brainstorm and content generation.
 
 **Current Status (2026)**
-- Gemini Ultra has been succeeded by more capable models including Gemini 2.0 and 2.5 Pro.
+- Gemini Ultra has been succeeded by more capable models including Gemini 2.0, Gemini 2.5 Pro, and the Gemini 3 family.
 - Access now primarily through Google’s AI Studio, Vertex AI, and Google One AI Premium plans.
 - Older benchmarks (MMLU 90.0%) have been surpassed by newer models in the Gemini family.
 

@@ -82,13 +82,13 @@ tags: ['ai', 'chatbot', 'chatgpt', 'training-course']
 ## Newsletters
 - [Lore](https://www.lore.ai/) - weekly newsletter with the latest Generative AI news, insights and featured tools
 
-## Twitter Accounts
-- [AI Daily](https://twitter.com/AlexAIDaily/) - teaches about AI
-- [Borriss](https://twitter.com/_Borriss_/) - developer & writer of practical AI
-- [Javi Lopez](https://twitter.com/javilopen/) - AI educator
-- [Lex Fridman](https://twitter.com/lexfridman/) - host of Lex Fridman Podcast, research scientist at MIT
-- [Linus](https://twitter.com/LinusEkenstam/) - AI educator & designer
-- [Steve Mills](https://twitter.com/SteveMills/) - exploring creative uses of Generative AI
+## X (Twitter) Accounts
+- [AI Daily](https://x.com/AlexAIDaily/) - teaches about AI
+- [Borriss](https://x.com/_Borriss_/) - developer & writer of practical AI
+- [Javi Lopez](https://x.com/javilopen/) - AI educator
+- [Lex Fridman](https://x.com/lexfridman/) - host of Lex Fridman Podcast, research scientist at MIT
+- [Linus](https://x.com/LinusEkenstam/) - AI educator & designer
+- [Steve Mills](https://x.com/SteveMills/) - exploring creative uses of Generative AI
 
 ## YouTube Channels
 - [Artificial Intelligence - All in One](https://www.youtube.com/channel/UC5zx8Owijmv-bbhAK6Z9apg/)

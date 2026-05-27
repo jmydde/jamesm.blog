@@ -14,7 +14,7 @@ Dario Amodei is one of the few frontier-lab CEOs whose public talking points hav
 ## TL;DR
 
 - Dario Amodei is the [co-founder and CEO of Anthropic](https://en.wikipedia.org/wiki/Dario_Amodei), the AI safety company behind the Claude model family.
-- He was born in San Francisco in 1983, studied physics at Stanford as an undergraduate, and earned a PhD in physics from Princeton focused on the electrophysiology of neural circuits.
+- He was born in San Francisco in 1983, studied physics at Stanford as an undergraduate, and earned a PhD in biophysics from Princeton focused on the electrophysiology of neural circuits.
 - He worked at Baidu and Google before joining OpenAI in 2016, where he served as Vice President of Research and led the development of GPT-2 and GPT-3. He is a co-inventor of reinforcement learning from human feedback (RLHF).
 - He and his sister [Daniela Amodei](https://en.wikipedia.org/wiki/Daniela_Amodei) - now Anthropic's President - left OpenAI in 2021 over what both have described as differences in direction, and co-founded Anthropic with several colleagues from the OpenAI safety and policy teams.
 - Anthropic was valued at around $183 billion in late 2025 and reportedly around $380 billion in early 2026. Forbes estimated Amodei's net worth at approximately $7 billion in early 2026.
@@ -23,7 +23,7 @@ Dario Amodei is one of the few frontier-lab CEOs whose public talking points hav
 
 ## The man behind the company
 
-Amodei's biography is a useful frame for the company he built. He is a physicist by training, not a computer scientist, and the orientation comes through in how he and Anthropic talk about their work. His PhD at Princeton was in computational neuroscience - the study of how real biological neural networks compute - and he came to deep learning from the direction of trying to understand what intelligence actually is rather than from the direction of trying to build a product.
+Amodei's biography is a useful frame for the company he built. He is a physicist by training, not a computer scientist, and the orientation comes through in how he and Anthropic talk about their work. His PhD at Princeton was in biophysics, on the electrophysiology of neural circuits - the study of how real biological neural networks compute - and he came to deep learning from the direction of trying to understand what intelligence actually is rather than from the direction of trying to build a product.
 
 That background shaped two things. The first is Anthropic's heavy investment in [mechanistic interpretability](https://www.anthropic.com/research), the research programme that tries to understand what is happening inside large language models at the level of features and circuits. The second is the consistent framing he uses in interviews - that current AI systems are scientifically interesting and important to understand on their own terms, separate from any product question. The framing is unusual in the industry and it is one of the things that has made his commentary travel.
 

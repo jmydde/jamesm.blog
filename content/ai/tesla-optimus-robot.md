@@ -8,13 +8,13 @@ tags: ["ai","robotics","tesla","tesla-bot","optimus","robotics"]
 ## TL;DR
 
 - **Tesla Optimus** (also called the Tesla Bot) is a bipedal humanoid robot designed for general-purpose tasks, powered by Tesla-designed AI for navigation and environmental understanding
-- The latest version, **Optimus Gen 2**, is faster, lighter, and has improved dexterity compared to earlier prototypes
+- The current platform is **Optimus Gen 3**, which builds on the Gen 2 redesign with substantially improved hand dexterity, faster walking, lower weight, and tighter integration with Tesla's vision and self-driving stack
 - Elon Musk's target price is less than half the cost of a Tesla car - roughly $20,000 to $25,000 - with the expectation that the price will fall further as production scales
 - Musk has predicted that long-term, the robot business will be worth significantly more than Tesla's car business
 - The vision is for Optimus to take on dangerous or unpleasant jobs, freeing humans for more creative and leisure-based pursuits
 
 ## Overview
-[Tesla Optimus](https://www.tesla.com/en_gb/AI), also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by [Tesla](https://www.tesla.com/) since 2021. It's designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It's equipped with Tesla-designed AI for navigation & understanding surroundings. The latest version (Optimus Gen 2) boasts faster walking, lighter weight & improved dexterity.
+[Tesla Optimus](https://www.tesla.com/en_gb/AI), also known as the Tesla Bot, is a bipedal humanoid robot which has been under development by [Tesla](https://www.tesla.com/) since 2021. It's designed to be a general-purpose robot, meaning it could potentially be used for a wide range of tasks. It's equipped with Tesla-designed AI for navigation and environmental understanding, reusing much of the same vision and neural-net stack that powers Full Self-Driving. The current platform is Optimus Gen 3, which builds on the Gen 2 redesign with significantly improved hand dexterity, faster walking, lower weight, and refined fine-motor control.
 
 [Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk) envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There's even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.
 
