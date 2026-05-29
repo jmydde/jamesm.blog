@@ -25,4 +25,6 @@ Sean Carroll was the person who really led me into this way of thinking. His boo
 
 Whether many-worlds turns out to be right or wrong, I love that it exists as a serious attempt to answer one of the deepest questions there is: what is reality actually doing when we are not looking at it in the simplified way human intuition wants?
 
+I should be honest that this is more than an interpretation of quantum mechanics for me. I have come to believe, as a matter of personal conviction rather than settled science, that reality is far larger than the single universe we find ourselves in. I think there are parallel universes, very likely an unbounded run of big bangs, and quite possibly other dimensions we have no way to perceive. The laws of physics themselves may not even be the same from one universe to the next. Many-worlds is the version of that intuition that arrives wearing a lab coat, but the feeling it formalises is something I suspect is true at a far grander scale than any single theory yet captures.
+
 And maybe that is part of why the idea sticks with me. It gives formal language to a feeling I have had for years, that the universe is not old and settled even by lunchtime. It is still arriving.

@@ -1,7 +1,7 @@
 ---
 title: "Personal Universes: Yampolskiy's Strangest Answer to the AI Alignment Problem"
 date: 2026-05-27T19:30:00+01:00
-draft: false
+draft: true
 tags: ["ai", "safety", "alignment", "philosophy", "simulation"]
 description: "Roman Yampolskiy's Personal Universes proposal takes the simulation hypothesis seriously and turns it into an alignment strategy: one optimised reality per person. A look at what the idea claims, where it cracks, and why it is more useful than it looks."
 cover:
@@ -86,6 +86,8 @@ You can read it as a counsel of despair - if we cannot align an AI to humanity, 
 ## My own view
 
 I think the proposal is wrong as a destination and useful as a probe. The objections from Nozick and the wireheading literature are not minor patches; they cut at the core of what the proposal promises. The compute cost is at the wrong end of plausible. The dissolution of shared reality is not a side effect but the structural cost of the design, and that cost is too high to pay even if everything else worked.
+
+There is also a deeper reason I am sceptical, and it is one I hold more as conviction than as airtight argument. I lean toward thinking consciousness is fundamental rather than something a sufficiently detailed computation switches on once it gets complex enough. If that is right, the whole edifice wobbles, because Personal Universes needs simulated experience to be genuine experience - it needs substrate independence to be true, not merely assumed. A reality optimised for one person is only worth something if there is actually someone in there to optimise for. I am not at all sure the proposal can guarantee that, and I am increasingly unsure any purely computational proposal can.
 
 But I keep finding it valuable to think about. Forcing alignment specifications to survive Personal Universes - the experience-machine test, the wireheading test, the moral-progress test - filters out the proposals that are vague about what human flourishing actually is. If your alignment plan would happily collapse into a billion solipsistic happiness pumps when handed enough compute, that is a problem with the plan, not with the test.
 

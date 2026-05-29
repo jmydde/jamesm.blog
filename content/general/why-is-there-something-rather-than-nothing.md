@@ -154,6 +154,10 @@ I do think physics has taught us that the question is subtler than it first appe
 
 And I keep coming back to the laws themselves. My instinct is that the laws of physics are discovered, not invented. Our formulations are human, but the regularities they describe seem to exist regardless of us. In that sense, it feels possible that the laws are not just features of a universe that happens to exist, but part of the deeper reason any universe could exist at all.
 
+That instinct runs deeper for me than physics. I lean toward thinking mathematics is genuinely fundamental - not a human language we lay over reality, but part of the bedrock - and that if we ever reach base reality, maths is the thing most likely to get us there. It would be a quietly sad thought if base reality turned out to be permanently beyond reach, though I accept it might be.
+
+I have also come to suspect that consciousness is fundamental rather than something that only switches on late, once matter happens to get complicated enough. The longer I sit with the hard problem, the less it looks like a feature you can assemble out of entirely non-conscious parts, and the more it looks like part of the floor everything else is built on. If that is right, then a complete account of why there is something rather than nothing may have to include mind at the ground level, not bolt it on as an afterthought.
+
 I am also very drawn to the possibility that existence is, at bottom, a brute fact. The universe, or reality itself, may just *be*. No further why underneath it. No final external explanation that wraps everything up with a bow. That answer can feel unsatisfying at first, but it may be the most honest one.
 
 And if reality really is a brute fact, that still leaves open a striking possibility: perhaps existence is not the strange thing and non-existence is. Perhaps something does not need to claw its way out of nothing. Perhaps being is the default, and it is nothingness that would have required the impossible explanation.
