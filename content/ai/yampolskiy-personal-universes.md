@@ -13,7 +13,7 @@ First, the thing this is all in service of. The **[AI alignment problem](https:/
 
 Most AI alignment proposals try to teach one system to satisfy everyone. Roman Yampolskiy's [Personal Universes](https://arxiv.org/abs/1901.01851) proposal goes the other way. Give each person their own universe. Stop pretending that several billion conflicting value systems can be merged into a single coherent objective for a superintelligence to optimise, and instead carve reality into per-person simulations, each one a custom optimisation target for an AI tuned to a single mind.
 
-It is, on first reading, hard to take seriously. On a second reading it still feels strange, but the strangeness is doing something useful - it reveals something real about the alignment problem. That is the part of the talk I keep coming back to.
+It is, on first reading, a startling proposal - the kind of idea that is easy to dismiss before you have sat with it. On a second reading it still feels strange, but the strangeness is doing something useful - it reveals something real about the alignment problem. That is the part of the talk I keep coming back to.
 
 ## TL;DR
 
