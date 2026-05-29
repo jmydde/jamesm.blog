@@ -131,8 +131,8 @@ If I try to say something definite: I think Hoffman has the most serious attempt
 
 ## Further Watching
 
-### Do we see reality as it is? | Donald Hoffman | TED
-{{< youtube "oYp5XuGYqqY" >}}
+### What's Outside The Simulation? w/ Donald Hoffman | Impact Theory
+{{< youtube "EykaPqzzdQg" >}}
 
 ### The Greatest Discovery About Reality & the Consciousness Behind It | Donald Hoffman
 {{< youtube "xaeafKPfs1M" >}}
@@ -140,11 +140,14 @@ If I try to say something definite: I think Hoffman has the most serious attempt
 ### Fusions of Consciousness | Donald Hoffman Technical Interview
 {{< youtube "cSk5l1BOvts" >}}
 
+### Donald Hoffman: Consciousness May Be Fundamental to Physics
+{{< youtube "12PZQrDbjlg" >}}
+
 ### Donald Hoffman - What is Consciousness?
 {{< youtube "ynTqCFBhRmw" >}}
 
-### Donald Hoffman: Consciousness May Be Fundamental to Physics
-{{< youtube "12PZQrDbjlg" >}}
+### Do we see reality as it is? | Donald Hoffman | TED
+{{< youtube "oYp5XuGYqqY" >}}
 
 ## Related Reading
 
