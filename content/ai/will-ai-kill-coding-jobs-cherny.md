@@ -1,5 +1,5 @@
 ---
-title: "Will AI Kill Coding Jobs? Reacting to Claude Code's Creator and Three Charts"
+title: "Will AI Kill Coding Jobs? Claude Code's Creator Reacts"
 date: 2026-05-26T08:00:00+01:00
 draft: false
 tags: ["ai", "coding", "anthropic", "future-of-work", "claude-code"]
