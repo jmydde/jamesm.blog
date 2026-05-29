@@ -29,4 +29,6 @@ I should be honest that this is more than an interpretation of quantum mechanics
 
 And I have started to wonder whether the branching is the whole point - whether the reason reality keeps splitting into every possible outcome is so that all of those outcomes actually get lived, each path explored from the inside and the lessons gathered back up somewhere deeper. That is well past anything physics would sign off on, and I know it. But it is the direction my intuition keeps pulling: not a universe idly forking, but one experiencing everything it can possibly be.
 
+I should add one honest caveat to all of this. These are my views as they stand right now, and right now is the key phrase. I revise my own theories constantly, sometimes week to week, as I read further or understand a new idea, so what I have written here will very likely have shifted by the time you come across it. That does not trouble me - it is the part I love most. A theory is just a theory: something to be tested, pushed on, and actively tried to be proven wrong, and I would rather have mine fall over than turn out to be right by luck.
+
 And maybe that is part of why the idea sticks with me. It gives formal language to a feeling I have had for years, that the universe is not old and settled even by lunchtime. It is still arriving.

@@ -126,6 +126,8 @@ And there is one more thing I keep coming back to. Even if we are in a simulatio
 
 So how likely is it that we are living in a simulation? Too uncertain to be worth a number, and yet, if you make me answer from the gut rather than the spreadsheet, I think we are probably not in base reality. And, in the end, that is not even the question that decides whether any of this matters.
 
+One standing caveat, which applies to everything personal in this post: this is where I land today, and today is the operative word. I update my own theories all the time, sometimes within the space of a week, as I take in new arguments or better physics. So the view above will probably have moved by the time you read it. That constant revising is not a bug - it is the thing I enjoy most about this. A theory is just a theory, something to be tested and actively tried to be proven wrong, and I would far rather have one of mine fall over than cling to it.
+
 ## Closer To Truth on this question
 
 If you want to hear physicists and philosophers actually argue this out, the [Closer To Truth YouTube channel](https://www.youtube.com/@CloserToTruthTV) is the best place I know. Robert Lawrence Kuhn has interviewed a wide range of thinkers on simulated reality, and what comes through is the same thing you find with most deep questions: even the experts do not converge on an answer. They converge on the fact that the question is real, and that the easy confident takes in either direction usually have not done the work.

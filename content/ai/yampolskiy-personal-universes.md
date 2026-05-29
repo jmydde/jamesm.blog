@@ -95,6 +95,8 @@ But I keep finding it valuable to think about. Forcing alignment specifications 
 
 Whatever you think of Yampolskiy's odds on uncontrollability, he is unusually good at constructing thought experiments that put the easy answers under pressure. Personal Universes is one of the sharper ones, and it is doing real work even when, perhaps especially when, you end up disagreeing with the conclusion.
 
+I will add the same caveat I attach to anything speculative I write: this is my current thinking, and "current" matters. I revise these theories constantly, sometimes from one week to the next, as I read more and understand more, so the version I hold today will very likely have changed by tomorrow. That ongoing revision is the part I enjoy most. A theory is only ever a theory - something to be tested and actively tried to be proven wrong - and I would rather be shown wrong than stay comfortable.
+
 ## Further Watching
 
 ### Personal Universes and the Simulation Hypothesis | Roman Yampolskiy

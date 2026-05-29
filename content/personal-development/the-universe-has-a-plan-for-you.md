@@ -128,6 +128,10 @@ And I do not think the learning stays with us alone. The same superconscious tha
 
 ---
 
+A caveat worth being honest about: these are my own beliefs as they stand today, and they keep changing. I revise how I think about consciousness, about what carries forward, and about how it all fits together fairly constantly, sometimes from one week to the next, as I read more and understand more. So what I have written here is where I am right now, not a fixed creed, and it will very likely have moved on by the time you read it. I hold these as living ideas rather than settled answers - things to keep testing against experience and, where they need to be, to let go of. That openness is, for me, part of the point.
+
+---
+
 ## A Final Thought
 
 The Universe does not waste experiences. Every difficulty carries a lesson. Every loss creates a space. Every period of forced stillness is an invitation to remember something important about who you are and what you are here for.

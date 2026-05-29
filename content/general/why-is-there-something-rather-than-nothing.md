@@ -164,6 +164,8 @@ And if reality really is a brute fact, that still leaves open a striking possibi
 
 But I also think the deepest version of the question remains open. Maybe permanently open.
 
+A standing caveat on all of this: these are my views as they stand today, and "today" is doing real work in that sentence. I revise my own theories constantly, sometimes from one week to the next, as I read further, understand a new idea, or run into evidence that pushes me somewhere else. So what I have written here will very likely have shifted by the time you read it. I do not see that as a weakness - it is the part of physics I love most. A theory is only ever a theory: something to be tested, pressed on, and actively tried to be proven wrong. If any of this turns out to be mistaken, I would rather find that out than be right by accident.
+
 And oddly, I do not find that disappointing.
 
 There is something wonderful about the fact that the universe is not just full of objects, but full of intelligible mystery. We can discover the age of stars, map the cosmic microwave background, write equations for quantum fields, and still arrive at a question so deep that it makes all of existence feel newly strange again.
