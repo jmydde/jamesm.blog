@@ -1,6 +1,6 @@
 ---
 title: "Is Reality Made of Mathematics?"
-date: 2026-06-01T08:30:00+01:00
+date: 2026-05-31T08:30:00+01:00
 draft: false
 tags: ["physics","science","mathematics","cosmology","philosophy"]
 description: "Max Tegmark's Mathematical Universe Hypothesis says reality is not merely described by mathematics - it is a mathematical structure, and nothing else. A walk through the claim, the Level IV multiverse, the strongest objections, and why the idea sits so close to something I already lean toward."
@@ -9,7 +9,7 @@ cover:
   alt: Is Reality Made of Mathematics Banner
 ---
 
-In [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/) I admitted to an instinct I have never quite been able to shake: that the laws of physics are discovered rather than invented, and that mathematics might be genuinely fundamental - not a human language we lay over reality, but part of the bedrock. I said that if we ever reach base reality, maths is the thing most likely to get us there. I left it as a feeling. This post is me taking the feeling and pushing it as far as a serious physicist has been willing to push it.
+In [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/) I admitted to an instinct I have never quite been able to shake: that the laws of physics are discovered rather than invented, and that mathematics might be genuinely fundamental - not a human language we lay over reality, but part of the bedrock. I said that if we ever reach base reality, maths is the thing most likely to get us there. I left it as a feeling. This post is me taking that feeling and seeing how far a serious physicist has been willing to push it.
 
 That physicist is [Max Tegmark](https://en.wikipedia.org/wiki/Max_Tegmark), who sits at the top of my [favourite physicists](/general/favourite-physicists/) list, and the idea is his [Mathematical Universe Hypothesis](https://en.wikipedia.org/wiki/Mathematical_universe_hypothesis). It is one of the boldest claims in modern physics, and it is easy to half-hear it as a poetic flourish - "the universe is deeply mathematical, isn't that lovely." That is not what Tegmark means. He means it literally. He is not saying reality is *described by* mathematics. He is saying reality *is* mathematics, that there is no other ingredient, and that you and I are self-aware substructures inside a mathematical object that exists in the same timeless way the number seven does.
 
