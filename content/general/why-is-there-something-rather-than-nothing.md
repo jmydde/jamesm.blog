@@ -5,8 +5,8 @@ draft: false
 tags: ["physics","science","cosmology","philosophy","quantum-mechanics"]
 description: "A physics-minded reflection on one of the deepest questions there is: why anything exists at all instead of nothing."
 cover:
-  image: images/Universe-2.jpg
-  alt: Universe Icon
+  image: assets/images/general/why-is-there-something-rather-than-nothing.jpg
+  alt: Why Is There Something Rather Than Nothing? Banner
 ---
 
 One of the strangest facts about reality is that there is any reality at all.
