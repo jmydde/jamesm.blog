@@ -15,6 +15,8 @@ The honest short answer to "how likely" is that nobody knows, and that the quest
 
 So this is not a post that will hand you a percentage. It is a post about why the percentage is so slippery, and what I actually think once you account for that.
 
+One thing before I dig in, as I always like to flag: I am an interested outsider here, not a physicist or a philosopher. This is me working through other people's arguments as a fascinated reader, so take my conclusions as where I currently lean rather than as anything settled.
+
 ## TL;DR
 
 - The simulation argument (Nick Bostrom, 2003) is a trilemma, not a claim that we are simulated: either civilizations die before technological maturity, or mature ones do not run ancestor simulations, or we are almost certainly living in one.

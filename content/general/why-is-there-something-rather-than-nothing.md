@@ -19,6 +19,8 @@ Physics has a lot to say about how the universe behaves once it exists. It tells
 
 Still, physics does not leave us completely empty-handed.
 
+I should say up front, as I always try to with this material, that I am a fascinated amateur here and not a physicist. What follows is me thinking out loud about ideas far cleverer people have spent careers on, so treat my reservations as questions rather than verdicts.
+
 ## The first thing to be careful about
 
 When people say "nothing," they usually do not mean what physicists mean.
@@ -164,7 +166,7 @@ And if reality really is a brute fact, that still leaves open a striking possibi
 
 But I also think the deepest version of the question remains open. Maybe permanently open.
 
-> A standing caveat on all of this: these are my views as they stand today, and "today" is doing real work in that sentence. I revise my own theories constantly, sometimes from one week to the next, as I read further, understand a new idea, or run into evidence that pushes me somewhere else. So what I have written here will very likely have shifted by the time you read it. I do not see that as a weakness - it is the part of physics I love most. A theory is only ever a theory: something to be tested, pressed on, and actively tried to be proven wrong. If any of this turns out to be mistaken, I would rather find that out than be right by accident.
+> A standing caveat on all of this: these are my views as they stand today, and "today" is doing real work in that sentence. I revise my own theories constantly, sometimes from one week to the next, as I read further, understand a new idea, or run into evidence that pushes me somewhere else. So what I have written here will very likely have shifted by the time you read it. I do not see that as a weakness - it is the part of all this I love most. A theory is only ever a theory: something to be tested, pressed on, and actively tried to be proven wrong. If any of this turns out to be mistaken, I would rather find that out than be right by accident.
 
 And oddly, I do not find that disappointing.
 

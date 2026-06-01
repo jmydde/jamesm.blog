@@ -19,6 +19,8 @@ As I understand it, many-worlds says that reality may not pick a single outcome 
 
 That does **not** mean physicists have proven that every conscious choice literally creates a brand new universe in the simple pop-culture way people sometimes say it. Many-worlds is an interpretation, not an established fact. But still, even as an interpretation, it is one of the most mind-bending and beautiful ideas I have come across.
 
+A quick word on where I am standing: I am a hobbyist with these ideas, not a physicist, and this is a personal reflection rather than anything authoritative. I am reaching for the feeling the science gives me, not claiming to speak for it.
+
 What I find so compelling is how it changes the emotional texture of ordinary life. It makes existence feel less like a fixed track and more like a constant flowering of possibility. Even if that is not quite the right scientific phrasing, it captures something I have always felt: the world is not just sitting there unchanged while we move through it. It is continuously becoming.
 
 Sean Carroll was the person who really led me into this way of thinking. His book [*Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime*](https://www.amazon.co.uk/dp/1524743011) is the one I need to re-read, or probably re-listen to. He has a gift for taking ideas that sound completely absurd at first and showing why serious physicists are willing to entertain them.
