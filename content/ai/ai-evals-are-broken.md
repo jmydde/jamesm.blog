@@ -1,6 +1,6 @@
 ---
 title: "AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability"
-date: 2026-06-10T09:00:00+01:00
+date: 2026-06-12T19:00:00+01:00
 draft: false
 series: ["Trust"]
 type: essay
