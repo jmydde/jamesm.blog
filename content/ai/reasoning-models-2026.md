@@ -2,6 +2,7 @@
 title: "Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift"
 date: 2026-05-08T19:00:00+01:00
 draft: false
+type: essay
 tags: ["ai", "reasoning", "openai", "deepseek", "anthropic", "gemini", "inference", "2026"]
 description: "A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production."
 cover:

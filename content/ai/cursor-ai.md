@@ -2,8 +2,11 @@
 title: "Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯"
 date: 2025-12-03T13:15:25+01:00
 draft: false
-tags: ['ai', 'cursor ai', 'sdd', 'development']
+type: brief
+tags: ["ai", "cursor", "sdd", "development"]
 ---
+
+> **Reading path:** For the canonical stack essay, start with [AI Dev Tooling](/ai/ai-dev-tooling/) and [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026/).
 
 ## TL;DR
 

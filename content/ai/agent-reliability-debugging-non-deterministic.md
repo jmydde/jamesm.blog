@@ -2,7 +2,8 @@
 title: "The Agent Reliability Problem: Debugging Non-Deterministic Systems"
 date: 2026-05-15T06:30:00+01:00
 draft: false
-tags: ["ai", "agent", "reliability", "debugging", "testing", "production"]
+type: essay
+tags: ["ai", "agent", "reliability", "debugging", "testing", "production", "agentic-engineering"]
 description: "AI agents that work in the demo and fail in production are the standard story of the last two years. A practical look at why agent reliability is genuinely hard, what patterns have emerged for handling it, and which testing approaches actually work."
 cover:
   image: /assets/images/ai/agent-reliability-debugging-non-deterministic.jpg

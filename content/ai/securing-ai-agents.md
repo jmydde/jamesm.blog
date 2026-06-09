@@ -1,9 +1,10 @@
 ---
 title: "Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem"
 date: 2026-06-11T10:00:00+01:00
-draft: true
+draft: false
 series: ["Trust"]
-tags: ["ai", "agent", "security", "mcp", "prompt-injection", "2026"]
+type: essay
+tags: ["ai", "agent", "security", "mcp", "prompt-injection", "agentic-engineering"]
 description: "The moment an agent holds real tool access, reliability and security stop being separate problems. A practitioner walkthrough of the confused-deputy attack surface, MCP hardening patterns, and the defenses I actually run on my home agent stack."
 cover:
   image: /assets/images/ai/ai-cyber-threat-is-rising.png
@@ -187,7 +188,7 @@ Security is one leg of a three-legged stool I keep coming back to:
 - **Security** - does it refuse the wrong thing under adversarial conditions?
 - **Evaluation** - can you measure either property before production?
 
-[AI evals are broken](/ai/ai-evals-are-broken/) for endpoint scoring on static benchmarks. They are even worse for security, where the failure mode is a single successful exploit, not a average score. The next layer - trajectory evaluation, step-level scoring, replay harnesses - is how you catch agents that reach correct answers through reckless paths. That is the sequel to this post.
+[AI evals are broken](/ai/ai-evals-are-broken/) for endpoint scoring on static benchmarks. They are even worse for security, where the failure mode is a single successful exploit, not an average score. [Trajectory evaluation](/ai/evaluating-agents-in-production-trajectory-metrics/) — step-level scoring and replay harnesses — is how you catch agents that reach correct answers through reckless paths.
 
 For now, the practical bar is lower and more concrete: **assume the context window contains hostile instructions, and build the tool layer so that following them cannot cause harm.** The agent will be confused sometimes. The deputy should not be able to hand over the keys.
 
@@ -195,6 +196,7 @@ For now, the practical bar is lower and more concrete: **assume the context wind
 
 - [What I'm Researching in AI Right Now](/ai/what-im-researching-in-ai-right-now/) - where agent security sits on my research map.
 - [AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability](/ai/ai-evals-are-broken/) - why endpoint benchmarks miss agent security entirely.
+- [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/) - step-level scoring and replay harnesses.
 - [The Agent Reliability Problem: Debugging Non-Deterministic Systems](/ai/agent-reliability-debugging-non-deterministic/) - the non-adversarial half of the same engineering challenge.
 - [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/) - the stack these defenses protect.
 - [Agent Protocols in 2026: MCP, A2A, and ACP](/ai/agent-protocols-mcp-a2a-acp/) - the protocol layer agents talk through.

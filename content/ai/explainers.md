@@ -2,7 +2,10 @@
 title: "AI Explainers"
 date: 2023-02-15T19:05:35+01:00
 draft: false
-tags: ["ai","chatbot","chatgpt","llm","deep-learning","education"]
+type: reference
+hiddenInHomeList: true
+robotsNoIndex: true
+tags: ["ai", "chatbot", "chatgpt", "llm", "deep-learning", "education"]
 ---
 
 ## TL;DR

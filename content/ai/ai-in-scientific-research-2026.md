@@ -101,5 +101,5 @@ The next decade will probably continue this pattern. A few headline AlphaFold-cl
 - [AI Hallucinations: Understanding and Mitigating](/ai/ai-hallucinations-understanding-and-mitigating/)
 - [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [Fine-Tune vs RAG](/ai/fine-tune-vs-rag/)
-- [The Open Weight Models Renaissance](/ai/open-weight-models-renaissance/)
+- [The State of Open-Weight Models in 2026](/ai/state-of-open-weight-models-2026/)
 - [The Causal Inference Comeback](/data-science/causal-inference-comeback/)

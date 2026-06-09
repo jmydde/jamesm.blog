@@ -2,6 +2,7 @@
 title: "When to Fine-Tune vs When to RAG: Choosing Your AI Architecture"
 date: 2026-04-29T08:00:00+01:00
 draft: false
+type: guide
 tags: ["ai", "rag", "fine-tuning", "architecture", "llm", "agentic-engineering"]
 description: "A practical decision framework for choosing between fine-tuning and retrieval-augmented generation, the failure modes of picking the wrong one, and the hybrid patterns that quietly do most of the heavy lifting in production."
 cover:

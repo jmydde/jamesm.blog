@@ -2,7 +2,10 @@
 title: "List of AI Courses & Learning Resources"
 date: 2023-12-18T10:51:25+01:00
 draft: false
-tags: ['ai', 'chatbot', 'chatgpt', 'training-course']
+type: reference
+hiddenInHomeList: true
+robotsNoIndex: true
+tags: ["ai", "chatbot", "chatgpt", "training-course"]
 ---
 
 ## TL;DR

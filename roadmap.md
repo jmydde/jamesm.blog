@@ -34,7 +34,8 @@ Informal mini-series on conditions for trusting agents in production (`series: [
 - [x] **What I'm Researching in AI Right Now** (published: content/ai/what-im-researching-in-ai-right-now.md) - research manifesto framing the trust agenda
 - [x] **AI Evals Are Broken** (published: content/ai/ai-evals-are-broken.md) - why public benchmarks fail
 - [x] **Securing AI Agents** (published: content/ai/securing-ai-agents.md) - MCP hardening and the confused deputy problem
-- [ ] **Evaluating Agents in Production: Trajectory Metrics** - step-level scoring sequel (planned)
+- [x] **World Models: What Comes After the Language-Only Era** (published: content/ai/world-models-after-language.md)
+- [x] **Evaluating Agents in Production: Trajectory Metrics** - step-level scoring sequel (published: content/ai/evaluating-agents-in-production-trajectory-metrics.md)
 
 ---
 
@@ -47,7 +48,7 @@ The 10 highest-value posts to write next - chosen for importance, uniqueness (no
 - [x] **Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem** - Threat models and concrete defenses for agentic systems with real-world tool and data access (published: content/ai/securing-ai-agents.md)
 - [x] **World Models: What Comes After the Language-Only Era** - Why simulators of physical and causal reality are the next research frontier, and what they unlock for robotics and agents (published: content/ai/world-models-after-language.md)
 - [x] **AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability** - Saturation, contamination, and workload-specific evals (published: content/ai/ai-evals-are-broken.md)
-- [ ] **Evaluating Agents in Production: Trajectory Metrics, Not Just Final Answers** - Step-level scoring, replay harnesses, and regression suites for multi-step agent quality
+- [x] **Evaluating Agents in Production: Trajectory Metrics, Not Just Final Answers** - Step-level scoring, replay harnesses, and regression suites for multi-step agent quality (published: content/ai/evaluating-agents-in-production-trajectory-metrics.md)
 
 ### Data Engineering
 - [ ] **The Semantic Layer: Making Metrics a First-Class Citizen** - How a shared metrics layer (dbt Semantic Layer, Cube) ends dashboard drift and conflicting definitions

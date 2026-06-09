@@ -2,6 +2,7 @@
 title: "GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?"
 date: 2026-04-24T07:51:00+01:00
 draft: false
+type: brief
 tags: ["ai", "openai", "gpt", "model-release", "benchmark"]
 description: "OpenAI shipped GPT-5.5 on April 23, 2026 - the first fully retrained base model since GPT-4.5. A look at the benchmarks, the new features, and whether this release actually matters."
 cover:
@@ -77,8 +78,11 @@ For OpenAI, this is a competitive response that puts them back at the top of the
 
 The model is rolling out now to Plus, Pro, Business, and Enterprise users in ChatGPT and Codex. API access via Responses and Chat Completions follows shortly.
 
+For the durable take on where reasoning models are heading, see [Reasoning Models in 2026](/ai/reasoning-models-2026/).
+
 ## Related Reading
 
+- [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [Why the ChatGPT iPhone App Mattered](/ai/chatgpt-app-ios/)
 - [ChatGPT Images 2.0: Why Everyone Is Impressed](/ai/chatgpt-images-2/)
 - [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)

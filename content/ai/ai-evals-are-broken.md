@@ -1,9 +1,10 @@
 ---
 title: "AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability"
 date: 2026-06-10T09:00:00+01:00
-draft: true
+draft: false
 series: ["Trust"]
-tags: ["ai", "evals", "benchmarks", "mmlu", "swe-bench", "contamination", "2026"]
+type: essay
+tags: ["ai", "evals", "benchmarks", "mmlu", "swe-bench", "contamination", "agentic-engineering"]
 description: "A grounded look at why the public benchmark numbers you see on AI model launches in 2026 are increasingly disconnected from real-world capability - saturation, contamination, gaming, and what's replacing them as the basis for actual decisions."
 cover:
   image: /assets/images/ai/ai-evals-are-broken.jpg
@@ -43,7 +44,18 @@ The deeper problem is structural. Benchmarks live on the public internet. Models
 
 The other structural problem is saturation. Once a benchmark's frontier scores are within a few percentage points of the ceiling, score differences at the top stop carrying information about capability differences between models.
 
-The current state of the major benchmarks looks like this. MMLU is saturated above 88% for frontier models, with top models scoring 90-93%. MMLU-Pro is approaching saturation - top models cluster around 90% as of early 2026. GPQA Diamond is partially saturated, with the strongest reasoning models scoring 87-90%. SWE-Bench Verified scores at the frontier have converged in the 75-82% range. The headline benchmarks have stopped being useful for distinguishing the top three or four models, which are the models anyone making a real production decision is actually choosing between.
+| Benchmark | Frontier range (early 2026) | Still informative? | Main failure mode |
+|---|---|---|---|
+| MMLU | 90–93% | No | Saturation; heavy contamination |
+| GSM8K | 95%+ | No | Saturation; training overlap |
+| HumanEval | 90%+ | No | Test-set leakage in code corpora |
+| MMLU-Pro | ~88–90% | Fading | Approaching saturation |
+| GPQA Diamond | 87–90% | Partially | Frontier convergence |
+| SWE-Bench Verified | 75–82% | Partially | Agentic but gaming risk rising |
+| Humanity's Last Exam | ~37% best model | Yes | Young; contamination risk ahead |
+| WebArena / OSWorld | Wide spread | Yes | Hard to contaminate; action-space evals |
+
+The headline benchmarks have stopped being useful for distinguishing the top three or four models, which are the models anyone making a real production decision is actually choosing between.
 
 The harder benchmarks designed to delay saturation have helped, but only briefly. **Humanity's Last Exam** - 2,500 questions designed by domain experts at the edge of academic knowledge - drops the best model to roughly 37.5% as of early 2026. That is currently informative. It will probably stay informative for 18 to 24 months. The empirical pattern is that any benchmark good enough to be useful gets saturated within two years of release, and the community has not yet developed a sustainable answer to this dynamic.
 
@@ -113,7 +125,7 @@ If you are starting from zero, this is enough to stop picking models by leaderbo
 
 That is the whole playbook. The tooling (LangSmith, Braintrust, Weights & Biases, Anthropic Evals, OpenAI Evals) makes steps 3-5 easier than they were a year ago, but the structure is the same regardless of vendor.
 
-For multi-step agents specifically, endpoint scoring is not enough. Step-level scoring and replay harnesses are the next layer - the subject of a follow-up on trajectory evaluation in production.
+For multi-step agents specifically, endpoint scoring is not enough. Step-level scoring and replay harnesses are the next layer — see [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/).
 
 ## Related Reading
 

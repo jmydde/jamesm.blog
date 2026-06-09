@@ -2,6 +2,9 @@
 title: "AI Tools & Frameworks"
 date: 2026-05-01T06:00:00+01:00
 draft: false
+type: reference
+hiddenInHomeList: true
+robotsNoIndex: true
 description: "A categorised, curated index of AI tools across art, chatbots, coding, music, video, voice, writing, research, and local LLMs - updated for 2026."
 tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","music","text-to-speech","writing","copilot","robotics"]
 ---

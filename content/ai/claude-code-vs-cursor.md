@@ -2,8 +2,9 @@
 title: "Claude Code vs Cursor: A 6-Month Comparison"
 date: 2026-04-08T07:30:00+01:00
 draft: false
-tags: ['ai', 'llm', 'coding', 'claude', 'cursor', 'productivity']
-summary: "After six months of daily use, here is how the two heavyweights of AI-assisted coding compare: the terminal-native Claude Code and the IDE-integrated Cursor."
+type: brief
+tags: ["ai", "llm", "coding", "claude", "cursor", "productivity"]
+description: "After six months of daily use, here is how the two heavyweights of AI-assisted coding compare: the terminal-native Claude Code and the IDE-integrated Cursor."
 ---
 
 ## TL;DR

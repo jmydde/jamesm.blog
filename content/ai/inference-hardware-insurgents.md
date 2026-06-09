@@ -2,6 +2,7 @@
 title: "Cerebras, Groq, SambaNova: The Inference Hardware Insurgents"
 date: 2026-05-11T13:00:00+01:00
 draft: false
+type: essay
 tags: ["ai", "hardware", "inference", "cerebras", "groq", "sambanova", "nvidia", "2026"]
 description: "A grounded look at the three serious AI inference hardware insurgents in 2026 - Cerebras with its wafer-scale WSE-3, Groq with its LPU architecture now part-licensed by Nvidia, and SambaNova with its SN40L and SN50 reconfigurable dataflow units - and what their different bets tell us about where inference is heading."
 cover:

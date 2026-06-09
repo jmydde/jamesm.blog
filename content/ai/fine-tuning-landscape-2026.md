@@ -40,7 +40,7 @@ Full fine-tuning makes sense when:
 - You need full control over the resulting model weights for licensing, deployment, or modification reasons.
 - The base model needs to be modified, not just adapted - say, to remove a behaviour rather than redirect it.
 
-The economics of full fine-tuning have improved significantly. Open-weight models like [Llama, Mistral, and Qwen](/ai/open-weight-models-renaissance/) are full-fine-tuneable for costs that a year or two ago would have required a research-lab budget.
+The economics of full fine-tuning have improved significantly. Open-weight models like [Llama, Mistral, and Qwen](/ai/state-of-open-weight-models-2026/) are full-fine-tuneable for costs that a year or two ago would have required a research-lab budget.
 
 ## Distillation
 
@@ -88,7 +88,7 @@ The combined effect is that fine-tuning is no longer a specialised activity rese
 
 ## Related Reading
 
-- [The Open Weight Models Renaissance](/ai/open-weight-models-renaissance/)
+- [The State of Open-Weight Models in 2026](/ai/state-of-open-weight-models-2026/)
 - [Fine-Tune vs RAG](/ai/fine-tune-vs-rag/)
 - [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [AI Hardware Wars 2026](/ai/ai-hardware-wars-blackwell-mi300x-tpuv6/)

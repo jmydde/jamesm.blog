@@ -2,6 +2,7 @@
 title: "Agent-First Architecture: The Engineer as System Curator"
 date: 2026-04-23T21:01:00+01:00
 draft: false
+type: essay
 tags: ["ai", "agent", "architecture", "platform-engineering", "data-engineering", "product-management", "leadership"]
 description: "Some thoughts on where agent-first architecture might take us, and what engineering could look like if the job shifts from building systems line by line to curating, governing, and evolving fleets of agents."
 cover:

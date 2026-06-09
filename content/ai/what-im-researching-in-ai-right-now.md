@@ -2,7 +2,9 @@
 title: "What I'm Researching in AI Right Now - And Where I'm Going Next"
 date: 2026-06-08T23:00:00+01:00
 draft: false
-tags: ["ai", "agent", "research", "context-engineering", "reliability", "world-model"]
+series: ["Trust"]
+type: essay
+tags: ["ai", "agent", "research", "context-engineering", "reliability", "world-model", "agentic-engineering"]
 description: "I treat my own learning like a research agenda - a small set of questions I am actively chasing rather than a reading list. Here are the AI areas I have been deep in, the ones I have decided to move into next, and the ones I am deliberately leaving on the watch list."
 cover:
   image: /assets/images/ai/what-im-researching-in-ai.png
@@ -149,8 +151,11 @@ I do not have that fully answered. But I know which questions get me closer, I k
 
 ## Related Reading
 
+- [Trust series hub](/ai/trust-series/)
 - [Context Engineering: The Discipline That Replaced Prompt Engineering](/ai/context-engineering/)
 - [The Agent Reliability Problem: Debugging Non-Deterministic Systems](/ai/agent-reliability-debugging-non-deterministic/)
 - [Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem](/ai/securing-ai-agents/)
 - [AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability](/ai/ai-evals-are-broken/)
+- [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/)
 - [World Models: What Comes After the Language-Only Era](/ai/world-models-after-language/)
+- [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/)

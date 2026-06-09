@@ -1,8 +1,10 @@
 ---
 title: "World Models: What Comes After the Language-Only Era"
 date: 2026-06-13T10:00:00+01:00
-draft: true
-tags: ["ai", "world-model", "robotics", "agent", "multimodal", "2026"]
+draft: false
+series: ["Trust"]
+type: essay
+tags: ["ai", "world-model", "robotics", "agent", "multimodal", "agentic-engineering"]
 description: "Language-only models have a statistical shadow of physical reality, not a reliable simulator of it. A grounded look at world models - what they are, where the 2026 frontier sits, and why they matter for agents that need to act rather than answer."
 cover:
   image: /assets/images/ai/humanoid-robotics-2026.jpg
@@ -51,6 +53,29 @@ The term comes from David Ha and Jürgen Schmidhuber's [2018 paper "World Models
 3. **A controller** that plans by searching or learning inside the dynamics model - trying actions in simulation before executing them in reality.
 
 The key property is **predictive simulation**. The system can ask "what happens if I do X?" and get an answer from an internal model of the environment, not from retrieving a similar paragraph from training data.
+
+```
+Observations (images, sensors)
+        │
+        ▼
+┌───────────────────┐
+│ Perception module │  compress to compact state
+└─────────┬─────────┘
+          │ state_t
+          ▼
+┌───────────────────┐     action
+│  Dynamics model   │◄────────────┐
+│  (world model)    │             │
+└─────────┬─────────┘             │
+          │ predicted state_{t+1} │
+          ▼                       │
+┌───────────────────┐             │
+│    Controller     │─────────────┘
+│  (plan in sim)    │
+└─────────┬─────────┘
+          ▼
+    Execute in reality
+```
 
 This is distinct from several things it is often confused with:
 

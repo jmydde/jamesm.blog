@@ -2,8 +2,11 @@
 title: "GitHub Copilot"
 date: 2023-01-14T11:51:18+01:00
 draft: false
-tags: ['ai', 'tool', 'github']
+type: brief
+tags: ["ai", "tool", "github"]
 ---
+
+> **Reading path:** For the canonical stack essay, start with [AI Dev Tooling](/ai/ai-dev-tooling/).
 
 ## TL;DR
 

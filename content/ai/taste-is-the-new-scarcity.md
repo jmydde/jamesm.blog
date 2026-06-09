@@ -2,7 +2,8 @@
 title: "Taste Is the New Scarcity"
 date: 2026-04-04T12:00:00+01:00
 draft: false
-tags: ['ai']
+type: essay
+tags: ["ai", "expertise", "career"]
 ---
 
 ## TL;DR

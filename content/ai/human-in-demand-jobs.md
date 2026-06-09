@@ -2,6 +2,8 @@
 title: "Top 5 Human In-Demand Jobs in 10 Years"
 date: 2025-11-27T07:39:14+01:00
 draft: false
+type: brief
+hiddenInHomeList: true
 tags: ["ai","human","job","career","future-of-work"]
 description: "Which jobs survive when AI handles execution? A look at the five categories of work that stay human-shaped - judgment, empathy, embodied skill, taste, and accountability."
 ---

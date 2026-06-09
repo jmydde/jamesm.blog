@@ -2,7 +2,8 @@
 title: "Claude Opus 4.7: Autonomy and Vision at Scale"
 date: 2026-04-16T16:15:00+00:00
 draft: false
-tags: ["claude","model-release","software-engineering","ai-capabilities"]
+type: brief
+tags: ["claude", "model-release", "software-engineering", "ai-capabilities"]
 description: "Claude Opus 4.7 brings autonomous software engineering, 3.75 megapixel vision, and extended reasoning control - raising the bar for AI-assisted development."
 cover:
   image: images/claude-opus.png
@@ -73,8 +74,11 @@ For developers already convinced on Claude, Opus 4.7 is a straightforward upgrad
 
 Available now across Claude Pro, Team, and Enterprise. Same pricing as before. If you're building seriously with AI, upgrade.
 
+For the durable take on where reasoning models are heading, see [Reasoning Models in 2026](/ai/reasoning-models-2026/).
+
 ## Related Reading
 
+- [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
 - [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
 - [Claude Design: Closing the Design-to-Code Gap](/ai/claude-design/)

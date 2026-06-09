@@ -2,6 +2,7 @@
 title: "RAG in 2026: What Won, What Lost"
 date: 2026-05-05T20:00:00+01:00
 draft: true
+type: essay
 tags: ["ai", "rag", "retrieval", "embedding", "vector", "model"]
 description: "Retrieval-augmented generation went through a full hype cycle and out the other side. A grounded look at which RAG patterns survived 2025-2026, which ones were displaced by long context and structured memory, and where retrieval still wins."
 cover:

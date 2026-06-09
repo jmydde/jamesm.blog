@@ -2,6 +2,7 @@
 title: "An AI Tooling Learning Path: Logical Phases for 2026"
 date: 2026-04-21T19:07:00+01:00
 draft: false
+type: guide
 tags: ["ai", "learning", "developer-tool", "llm", "claude-code", "cursor-ai", "cline", "ollama"]
 description: "A phased learning path for getting from zero to a full AI development stack in 2026, without drowning in tool choice or skipping the fundamentals."
 cover:

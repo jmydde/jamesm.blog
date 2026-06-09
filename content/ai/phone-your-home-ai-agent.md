@@ -2,6 +2,7 @@
 title: "How to Phone Your Home AI Agent Running on a Mac Studio"
 date: 2026-04-27T21:48:00+01:00
 draft: false
+type: guide
 tags: ["ai", "mac-studio", "agent", "voice", "local-llm", "livekit", "twilio", "whisper"]
 description: "A practical walkthrough of the stack I use to literally phone my Mac Studio, speak to a local AI agent, and get it to run or check work while I'm away from the desk."
 cover:
