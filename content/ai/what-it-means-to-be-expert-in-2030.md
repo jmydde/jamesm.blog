@@ -1,12 +1,13 @@
 ---
 title: "What It Means to Be Expert in 2030"
-date: 2026-05-13T04:30:00+01:00
+date: 2026-06-12T08:00:00+01:00
 draft: true
 tags: ["idea", "expertise", "career", "ai", "future"]
 description: "A speculative essay on how the meaning of expertise is changing as AI assistance becomes ambient. What kinds of expert knowledge are being commodified, which are appreciating in value, and what the next generation of practitioners needs to actually be expert at."
 cover:
   image: /assets/images/ideas/what-it-means-to-be-expert-in-2030.jpg
   alt: What It Means to Be Expert in 2030 Banner
+slug: "what-it-means-to-be-expert-in-2030"
 ---
 
 For most of the post-Enlightenment era, "expert" has meant something specific: someone who has spent enough time in a domain to know the things that practitioners need to know, and who can apply that knowledge reliably. The medical doctor who recognises the pattern of a rare disease. The lawyer who knows the precedents that bear on a case. The engineer who can size a beam without checking the tables. The expert holds substantial reference knowledge in working memory and uses it efficiently.
@@ -77,6 +78,9 @@ The work of being expert in 2030 starts now. It is not a transition that announc
 
 - [Expertise After AI](/ai/expertise-after-ai/)
 - [The Architect vs the Builder](/ai/architect-vs-builder/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)
 - [Agent-First Architecture: The Engineer as Curator](/ai/agent-first-architecture-engineer-as-curator/)
+- [What I'm Researching in AI Right Now](/ai/what-im-researching-in-ai-right-now/)
+- [Securing AI Agents](/ai/securing-ai-agents/) - accountability when agents act on your behalf.
 - [The Last Generic Software](/ideas/last-generic-software/)
 - [The End of the Open Web?](/ideas/end-of-the-open-web/)

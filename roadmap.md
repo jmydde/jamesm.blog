@@ -7,20 +7,34 @@ A structured roadmap of upcoming blog posts, organized by category and priority.
 These posts are currently being written:
 
 ### AI & LLMs
-- [ ] **ai-agents-that-actually-work.md** - Practical guide to building reliable AI agents
-- [ ] **ai-safety-first-principles.md** - Safety considerations in agent design
-- [ ] **fine-tune-vs-rag.md** - Comparison of fine-tuning vs retrieval approaches
+- [x] **ai-agents-that-actually-work.md** - Practical guide to building reliable AI agents (published: content/ai/ai-agents-that-actually-work.md)
+- [x] **ai-safety-first-principles.md** - Safety considerations in agent design (published: content/ai/ai-safety-first-principles.md)
+- [x] **fine-tune-vs-rag.md** - Comparison of fine-tuning vs retrieval approaches (published: content/ai/fine-tune-vs-rag.md)
 - [ ] **multimodal-ai-2026.md** - The state of multimodal AI in 2026
-- [ ] **prompt-caching.md** - Optimizing costs and latency with prompt caching
+- [x] **prompt-caching.md** - Optimizing costs and latency with prompt caching (published: content/ai/prompt-caching.md)
 
 ### Data Engineering
-- [ ] **modern-lakehouse-stack.md** - Building modern lakehouse architectures
-- [ ] **stream-vs-batch-processing.md** - When to choose streaming vs batch
+- [x] **modern-lakehouse-stack.md** - Building modern lakehouse architectures (published: content/data-engineering/modern-lakehouse-stack.md)
+- [x] **stream-vs-batch-processing.md** - When to choose streaming vs batch (published: content/data-engineering/stream-vs-batch-processing.md)
 
 ### Music Production
 - [ ] **hybrid-systems-montage-mc-707.md** - Integrating Montage with MC-707
 - [ ] **mpe-deep-dive.md** - MPE (MIDI Polyphonic Expression) in depth
-- [ ] **yamaha-montage-m-six-months.md** - Six months with the Montage M
+- [x] **yamaha-montage-m-six-months.md** - Six months with the Montage M (published: content/music-production/yamaha-montage-m-six-months.md)
+
+### Ideas
+- [x] **what-it-means-to-be-expert-in-2030.md** - Expertise futures essay (published: content/ai/what-it-means-to-be-expert-in-2030.md)
+
+---
+
+## Trust Series (Published)
+
+Informal mini-series on conditions for trusting agents in production (`series: ["Trust"]` frontmatter):
+
+- [x] **What I'm Researching in AI Right Now** (published: content/ai/what-im-researching-in-ai-right-now.md) - research manifesto framing the trust agenda
+- [x] **AI Evals Are Broken** (published: content/ai/ai-evals-are-broken.md) - why public benchmarks fail
+- [x] **Securing AI Agents** (published: content/ai/securing-ai-agents.md) - MCP hardening and the confused deputy problem
+- [ ] **Evaluating Agents in Production: Trajectory Metrics** - step-level scoring sequel (planned)
 
 ---
 
@@ -30,8 +44,9 @@ The 10 highest-value posts to write next - chosen for importance, uniqueness (no
 
 ### AI & LLMs
 - [x] **Context Engineering: The Discipline That Replaced Prompt Engineering** - Managing the whole context window - retrieval, memory, tool results, and compaction - as the core production skill, not clever wording (published: content/ai/context-engineering.md)
-- [ ] **Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem** - Threat models and concrete defenses for agentic systems with real-world tool and data access
-- [ ] **World Models: What Comes After the Language-Only Era** - Why simulators of physical and causal reality are the next research frontier, and what they unlock for robotics and agents
+- [x] **Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem** - Threat models and concrete defenses for agentic systems with real-world tool and data access (published: content/ai/securing-ai-agents.md)
+- [x] **World Models: What Comes After the Language-Only Era** - Why simulators of physical and causal reality are the next research frontier, and what they unlock for robotics and agents (published: content/ai/world-models-after-language.md)
+- [x] **AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability** - Saturation, contamination, and workload-specific evals (published: content/ai/ai-evals-are-broken.md)
 - [ ] **Evaluating Agents in Production: Trajectory Metrics, Not Just Final Answers** - Step-level scoring, replay harnesses, and regression suites for multi-step agent quality
 
 ### Data Engineering

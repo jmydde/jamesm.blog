@@ -1,7 +1,8 @@
 ---
 title: "AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability"
-date: 2026-05-15T11:00:00+01:00
+date: 2026-06-10T09:00:00+01:00
 draft: true
+series: ["Trust"]
 tags: ["ai", "evals", "benchmarks", "mmlu", "swe-bench", "contamination", "2026"]
 description: "A grounded look at why the public benchmark numbers you see on AI model launches in 2026 are increasingly disconnected from real-world capability - saturation, contamination, gaming, and what's replacing them as the basis for actual decisions."
 cover:
@@ -98,8 +99,26 @@ The other prediction worth making is that agentic and tool-use benchmarks will b
 
 For people building with AI today, the practical guidance is the boring version of the exciting story. Build your own evals. Run candidate models against your own data. Trust your eval set more than the leaderboard. Update your evals when the model landscape changes. Treat the public benchmarks as one signal among many and not as the basis for the decision. The labs are doing this internally. The serious enterprises are doing this externally. The leaderboard-driven decision-making is the part of the AI industry that has aged worst between 2023 and 2026, and the move away from it is the most important methodological shift in serious AI deployment.
 
+## What to do instead: a minimal workload-eval checklist
+
+If you are starting from zero, this is enough to stop picking models by leaderboard:
+
+1. **Collect 50-200 real examples** from production logs, support tickets, or actual user sessions - not synthetic prompts you wrote in a hurry.
+2. **Write a rubric per example** - what a good answer must include, what it must not do, and which tools it should or should not call.
+3. **Run every candidate model 10+ times per example** - agents are non-deterministic; a single pass tells you almost nothing.
+4. **Score agentic tasks on the trajectory**, not just the final answer - which tools were called, in what order, with what arguments. A correct endpoint reached through a reckless path is a failure you will see in production.
+5. **Track regressions statistically** - a 5-point drop across 100 trials is real; one failed demo is noise.
+6. **Re-run when anything material changes** - model version, prompt, tool surface, or retrieval corpus.
+7. **Keep a held-out set you never tune against** - otherwise you are just overfitting your eval to your current stack.
+
+That is the whole playbook. The tooling (LangSmith, Braintrust, Weights & Biases, Anthropic Evals, OpenAI Evals) makes steps 3-5 easier than they were a year ago, but the structure is the same regardless of vendor.
+
+For multi-step agents specifically, endpoint scoring is not enough. Step-level scoring and replay harnesses are the next layer - the subject of a follow-up on trajectory evaluation in production.
+
 ## Related Reading
 
+- [What I'm Researching in AI Right Now](/ai/what-im-researching-in-ai-right-now/) - where trajectory evaluation sits on my research map.
+- [Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem](/ai/securing-ai-agents/) - the trust problem from the adversary side.
 - [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/) - the closely-related testing-and-quality story for production LLM systems.
 - [The State of Open-Weight Models in 2026: Llama, Qwen, Mistral, DeepSeek](/ai/state-of-open-weight-models-2026/) - the model landscape these evals are supposed to be measuring.
 - [Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - the capability category that has driven much of the recent benchmark saturation.

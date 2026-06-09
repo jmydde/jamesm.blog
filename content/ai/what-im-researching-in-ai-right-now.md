@@ -1,7 +1,7 @@
 ---
 title: "What I'm Researching in AI Right Now - And Where I'm Going Next"
-date: 2026-05-19T07:30:00+01:00
-draft: true
+date: 2026-06-08T23:00:00+01:00
+draft: false
 tags: ["ai", "agent", "research", "context-engineering", "reliability", "world-model"]
 description: "I treat my own learning like a research agenda - a small set of questions I am actively chasing rather than a reading list. Here are the AI areas I have been deep in, the ones I have decided to move into next, and the ones I am deliberately leaving on the watch list."
 cover:
@@ -87,7 +87,7 @@ The four clusters above are where I have answers. The next four are where I keep
 
 This is the one I am most certain about. The more I work on agent reliability, the more obvious it becomes that I have been studying the failure modes where nobody is trying to break the system. The moment an agent holds genuine tool access - reading files, calling APIs, moving money, touching production - reliability and security stop being separate problems.
 
-The specific questions I am taking on: how the confused-deputy problem shows up when an agent acts with its own privileges on behalf of an untrusted instruction, how to harden [the protocols agents talk through](/ai/agent-protocols-mcp-a2a-acp/) such as the [Model Context Protocol](https://modelcontextprotocol.io/), and how prompt injection stops being a curiosity and becomes the primary attack surface. The [OWASP Top 10 for LLM applications](https://genai.owasp.org/llm-top-10/) - prompt injection, excessive agency, improper output handling - reads like a list of things my own designs do not yet defend against properly. That is the gap I am closing.
+The specific questions I am taking on: how the confused-deputy problem shows up when an agent acts with its own privileges on behalf of an untrusted instruction, how to harden [the protocols agents talk through](/ai/agent-protocols-mcp-a2a-acp/) such as the [Model Context Protocol](https://modelcontextprotocol.io/), and how prompt injection stops being a curiosity and becomes the primary attack surface. The [OWASP Top 10 for LLM applications](https://genai.owasp.org/llm-top-10/) - prompt injection, excessive agency, improper output handling - reads like a list of things my own designs do not yet defend against properly. I have started closing that gap in [Securing AI Agents](/ai/securing-ai-agents/).
 
 ### 2. Evaluating agents on the trajectory, not the answer
 
@@ -99,7 +99,7 @@ An agent can reach a correct answer through a reckless trajectory - calling the 
 
 The third move is the most speculative, and the one I think is most underrated. Almost everything I have researched so far assumes a model whose understanding of the world arrives through text. That assumption has carried us a long way. I do not think it carries us all the way.
 
-A model trained only on language has no reliable internal simulator of physical and causal reality - it has a statistical shadow of one. World models, in the sense David Ha and Jürgen Schmidhuber set out in their [2018 "World Models" paper](https://arxiv.org/abs/1803.10122) and the line of work that followed, are systems that learn a predictive model of an environment and can reason and plan inside it. That capability is what stands between today's agents and ones that can act competently in physical space, which is also why it connects directly to [humanoid robotics](/ai/humanoid-robotics-2026/) and [multimodal AI that goes beyond vision](/ai/multimodal-ai-beyond-vision/). I want to understand what comes after the language-only era before it arrives, not after.
+A model trained only on language has no reliable internal simulator of physical and causal reality - it has a statistical shadow of one. World models, in the sense David Ha and Jürgen Schmidhuber set out in their [2018 "World Models" paper](https://arxiv.org/abs/1803.10122) and the line of work that followed, are systems that learn a predictive model of an environment and can reason and plan inside it. That capability is what stands between today's agents and ones that can act competently in physical space, which is also why it connects directly to [humanoid robotics](/ai/humanoid-robotics-2026/) and [multimodal AI that goes beyond vision](/ai/multimodal-ai-beyond-vision/). I wrote up the first pass in [World Models: What Comes After the Language-Only Era](/ai/world-models-after-language/).
 
 ### 4. The agent economy
 
@@ -151,6 +151,6 @@ I do not have that fully answered. But I know which questions get me closer, I k
 
 - [Context Engineering: The Discipline That Replaced Prompt Engineering](/ai/context-engineering/)
 - [The Agent Reliability Problem: Debugging Non-Deterministic Systems](/ai/agent-reliability-debugging-non-deterministic/)
+- [Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem](/ai/securing-ai-agents/)
 - [AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability](/ai/ai-evals-are-broken/)
-- [Recursive Self-Improvement: Can AI Bootstrap Its Own Intelligence?](/ai/recursive-self-improvement/)
-- [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
+- [World Models: What Comes After the Language-Only Era](/ai/world-models-after-language/)
