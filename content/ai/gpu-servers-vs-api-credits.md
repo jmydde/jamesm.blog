@@ -2,7 +2,6 @@
 title: "GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)"
 date: 2026-04-05T23:16:25+01:00
 draft: false
-type: essay
 tags: ["ai","llm","cost-optimization","gpu","2026"]
 description: "A practical 2026 breakdown of when to rent GPUs versus buy API credits, with cost-per-token figures, break-even thresholds, and a hybrid architecture playbook."
 cover:

@@ -3,7 +3,6 @@ title: "World Models: What Comes After the Language-Only Era"
 date: 2026-06-13T10:00:00+01:00
 draft: false
 series: ["Trust"]
-type: essay
 tags: ["ai", "world-model", "robotics", "agent", "multimodal", "agentic-engineering"]
 description: "Language-only models have a statistical shadow of physical reality, not a reliable simulator of it. A grounded look at world models - what they are, where the 2026 frontier sits, and why they matter for agents that need to act rather than answer."
 cover:

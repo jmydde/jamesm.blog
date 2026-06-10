@@ -2,7 +2,6 @@
 title: "What Actually Belongs in My AI Dev Stack in 2026"
 date: 2026-04-05T00:05:00+01:00
 draft: false
-type: essay
 tags: ["ai", "development", "developer-tool", "llm", "claude-code", "cursor", "cline", "spec-kit", "sdd", "agentic-engineering"]
 description: "A proper AI dev stack in 2026 needs distinct layers - spec writing, fast editing, heavy agentic work, cheap models, review, research, and capture. The case for treating AI as workflow architecture, not a bolt-on assistant."
 cover:

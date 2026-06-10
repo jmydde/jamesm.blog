@@ -2,7 +2,6 @@
 title: "AI Hallucinations: Understanding and Mitigating False Outputs"
 date: 2026-04-28T00:02:00+01:00
 draft: false
-type: essay
 tags: ["ai", "reliability", "llm", "hallucinations", "verification", "agentic-engineering"]
 description: "What hallucinations actually are, why the word is a slightly misleading import from psychiatry, why no model will ever stop producing them entirely, and the small set of techniques that genuinely move the dial on false outputs in production."
 cover:

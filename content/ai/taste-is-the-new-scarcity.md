@@ -2,7 +2,6 @@
 title: "Taste Is the New Scarcity"
 date: 2026-04-04T12:00:00+01:00
 draft: false
-type: essay
 tags: ["ai", "expertise", "career"]
 description: "When AI can generate thousands of solutions on demand, the bottleneck shifts from thinking capacity to judgment. Taste - knowing which answer is actually right - becomes the primary human skill in an age of abundant intelligence."
 cover:

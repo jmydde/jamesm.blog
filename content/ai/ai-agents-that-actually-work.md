@@ -2,7 +2,6 @@
 title: "AI Agents That Actually Work: Patterns From Real Projects"
 date: 2026-05-01T08:00:00+01:00
 draft: false
-type: essay
 tags: ["ai", "agent", "architecture", "tool-use", "agentic-engineering", "reliability"]
 description: "The patterns that separate agents that ship and stay shipped from the ones that demo well and fall over the moment they meet a real workload."
 cover:

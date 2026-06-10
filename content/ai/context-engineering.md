@@ -2,7 +2,6 @@
 title: "Context Engineering: The Discipline That Replaced Prompt Engineering"
 date: 2026-05-20T20:45:00+01:00
 draft: false
-type: essay
 tags: ["ai", "context-engineering", "llm", "agent", "memory", "agentic-engineering"]
 description: "Prompt engineering was about wording a single request well. Context engineering is about curating everything in the model's window - retrieval, memory, tool results, and compaction - across a whole agent run. Here is why the discipline shifted, and the practices that separate reliable production systems from ones that quietly rot."
 cover:

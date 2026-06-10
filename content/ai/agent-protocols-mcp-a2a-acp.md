@@ -2,7 +2,6 @@
 title: "The Quiet Standardisation of Agent Protocols - MCP, A2A, ACP Compared"
 date: 2026-05-03T12:00:00+01:00
 draft: false
-type: essay
 tags: ['ai', 'agent', 'mcp', 'protocol', 'tools', 'interoperability', '2026']
 description: "While the headlines were about model launches, the agent ecosystem quietly converged on three protocols that matter - MCP, A2A, and ACP. A grounded comparison of what each one actually does, where they overlap, and which to bet on if you are building agents in 2026."
 cover:

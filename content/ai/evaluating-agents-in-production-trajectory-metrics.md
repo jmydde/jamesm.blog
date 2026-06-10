@@ -3,7 +3,6 @@ title: "Evaluating Agents in Production: Trajectory Metrics, Not Just Final Answ
 date: 2026-06-14T09:00:00+01:00
 draft: false
 series: ["Trust"]
-type: essay
 tags: ["ai", "agent", "evals", "reliability", "agentic-engineering"]
 description: "Endpoint scoring certifies answers, not behaviour. A practitioner guide to step-level agent evaluation - trajectory rubrics, replay harnesses, and regression suites for multi-step production agents."
 cover:

@@ -2,7 +2,6 @@
 title: "AI Safety From First Principles: What Actually Matters vs What's Hype"
 date: 2026-04-30T08:00:00+01:00
 draft: false
-type: essay
 tags: ["ai", "safety", "alignment", "reliability", "policy", "agentic-engineering"]
 description: "Stripping the AI safety conversation down to its load-bearing parts, separating the engineering problems that matter today from the speculative scenarios that absorb most of the attention."
 cover:
