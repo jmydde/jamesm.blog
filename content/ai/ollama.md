@@ -4,6 +4,9 @@ date: 2026-04-14T08:25:25+01:00
 draft: false
 tags: ["ollama","local-ai","openclaw","open-source","model"]
 description: "A practical guide to Ollama, the platform for running large language models locally, including how to launch OpenClaw and explore its available models."
+cover:
+  image: /assets/images/ai/ai-intelligence.jpg
+  alt: Running AI models locally with Ollama
 ---
 
 ## TL;DR

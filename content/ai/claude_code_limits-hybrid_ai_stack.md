@@ -2,7 +2,11 @@
 title: "Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward"
 date: 2026-03-09T07:09:25+01:00
 draft: false
-tags: ['ai', 'claude', 'claude code']
+tags: ["ai", "claude", "claude-code"]
+description: "Hitting Claude Code usage limits doesn't mean upgrading to $200/month. A hybrid AI stack using local models, cheap cloud inference, and frontier models strategically is a smarter and cheaper approach."
+cover:
+  image: /assets/images/ai/ai-skills.jpg
+  alt: Hybrid AI stack for developers hitting Claude Code limits
 ---
 
 ## TL;DR

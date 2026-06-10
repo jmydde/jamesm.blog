@@ -125,7 +125,7 @@ If you are starting from zero, this is enough to stop picking models by leaderbo
 
 That is the whole playbook. The tooling (LangSmith, Braintrust, Weights & Biases, Anthropic Evals, OpenAI Evals) makes steps 3-5 easier than they were a year ago, but the structure is the same regardless of vendor.
 
-For multi-step agents specifically, endpoint scoring is not enough. Step-level scoring and replay harnesses are the next layer — see [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/).
+For multi-step agents specifically, endpoint scoring is not enough. Step-level scoring and replay harnesses are the next layer - see [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/).
 
 ## Related Reading
 

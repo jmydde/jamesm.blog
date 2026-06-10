@@ -4,6 +4,10 @@ date: 2023-01-14T11:51:18+01:00
 draft: false
 type: brief
 tags: ["ai", "tool", "github"]
+description: "GitHub Copilot is the original mainstream AI pair programmer - now multi-model with GPT-5, Claude, and Gemini routing - covering code completions, agent mode, and IDE integrations across all plans."
+cover:
+  image: /assets/images/ai/ai-skills.jpg
+  alt: GitHub Copilot AI pair programmer
 ---
 
 > **Reading path:** For the canonical stack essay, start with [AI Dev Tooling](/ai/ai-dev-tooling/).

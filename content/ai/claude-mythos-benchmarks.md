@@ -4,6 +4,9 @@ date: 2026-04-08T08:45:00+01:00
 draft: false
 tags: ["ai-model","benchmark","claude","anthropic"]
 description: "Claude Mythos Preview shattered AI benchmarks with 93.9% SWE-bench and 97.6% USAMO scores, but remains restricted to security partners due to cybersecurity risks."
+cover:
+  image: /assets/images/ai/ai-safety-first-principles.jpg
+  alt: Claude Mythos benchmark performance
 ---
 
 ## TL;DR

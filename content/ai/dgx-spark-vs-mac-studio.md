@@ -4,6 +4,9 @@ date: 2026-04-19T05:22:00Z
 draft: false
 tags: ["ai", "hardware", "gpu", "llm", "comparison"]
 description: "An in-depth comparison of NVIDIA DGX Spark and Apple Mac Studio for local LLM inference. Includes specifications, pricing, performance benchmarks, and cost analysis to help you choose the right personal AI supercomputer."
+cover:
+  image: /assets/images/ai/inference-hardware-insurgents.png
+  alt: DGX Spark vs Mac Studio comparison
 ---
 
 ## TL;DR

@@ -7,6 +7,9 @@ hiddenInHomeList: true
 robotsNoIndex: true
 tags: ["ai", "llm", "chatbot", "gpt", "claude", "gemini", "llama"]
 description: "A practical explainer on the difference between chatbots and large language models, how modern model families fit together, and how to choose the right AI tool for a task."
+cover:
+  image: /assets/images/ai/llm-powered-personal-productivity.jpg
+  alt: Chatbots and large language models explainer
 ---
 
 ## TL;DR

@@ -6,6 +6,9 @@ type: brief
 hiddenInHomeList: true
 tags: ["ai","human","job","career","future-of-work"]
 description: "Which jobs survive when AI handles execution? A look at the five categories of work that stay human-shaped - judgment, empathy, embodied skill, taste, and accountability."
+cover:
+  image: /assets/images/ai/junior-developer-pipeline.jpg
+  alt: Human in-demand jobs after AI
 ---
 
 ## TL;DR

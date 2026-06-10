@@ -4,6 +4,9 @@ date: 2026-04-15T23:15:00+00:00
 draft: false
 tags: ["llm","self-hosted","open-source","ai-tool","local-model"]
 description: "Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in."
+cover:
+  image: /assets/images/ai/ai-intelligence.jpg
+  alt: Open WebUI self-hosted LLM interface
 ---
 
 ## TL;DR

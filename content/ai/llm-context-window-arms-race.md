@@ -4,6 +4,9 @@ date: 2026-04-11T06:14:00+00:00
 draft: false
 tags: ['llm', 'context window', 'ai', 'practical development']
 description: "The obsession with massive context windows misses what actually matters in production LLM systems"
+cover:
+  image: /assets/images/ai/ai-intelligence.jpg
+  alt: LLM context window arms race
 ---
 
 ## TL;DR

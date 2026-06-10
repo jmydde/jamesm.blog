@@ -4,6 +4,9 @@ date: 2026-04-03T23:09:25+01:00
 draft: false
 tags: ['ai']
 description: "A practical, AI-driven development stack combining cloud and local LLMs, terminal tools, IDEs, and mobile access for persistent, productive workflows."
+cover:
+  image: /assets/images/ai/ai-skills.jpg
+  alt: Personal AI development stack
 ---
 
 This guide documents a highly productive, AI-driven development stack using cloud-based LLMs, terminal tools, IDEs, and mobile access. It is designed for developers who want persistent workflows, AI-powered coding assistance, and flexible access from multiple devices.

@@ -3,6 +3,10 @@ title: "Adobe's new Generative Fill is mind-blowing 🤯"
 date: 2023-05-26T20:04:28+01:00
 draft: false
 tags: ["ai","adobe","photoshop","photo","photography","generative-ai"]
+description: "Adobe Generative Fill in Photoshop brings text-prompted image manipulation powered by Firefly - removing objects, extending scenes, and adding content, all trained on commercially safe licensed work."
+cover:
+  image: /assets/images/ai/chatgpt-images-2.png
+  alt: Adobe Generative Fill - Photoshop AI
 ---
 
 ## TL;DR

@@ -2,7 +2,11 @@
 title: "Notion"
 date: 2023-05-11T21:06:35+01:00
 draft: false
-tags: ['ai', 'tool', 'productivity']
+tags: ["ai", "tool", "productivity"]
+description: "Notion is a flexible workspace for notes, documents, databases, and tasks - extended with Notion AI for Q&A, summarisation, and content generation across your knowledge base."
+cover:
+  image: /assets/images/ai/llm-powered-personal-productivity.jpg
+  alt: Notion AI workspace
 ---
 
 ## TL;DR

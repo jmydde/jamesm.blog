@@ -4,6 +4,9 @@ date: 2026-04-15T22:21:00+00:00
 draft: false
 tags: ["document-management","self-hosted","automation","productivity","digital-minimalism"]
 description: "Paperless-ngx is a self-hosted document management system that lets you scan, digitize, and organize physical paperwork with full control over your data and zero subscription fees."
+cover:
+  image: /assets/images/ai/ai-intelligence.jpg
+  alt: Paperless-ngx self-hosted document management
 ---
 
 ## TL;DR

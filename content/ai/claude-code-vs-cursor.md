@@ -5,6 +5,9 @@ draft: false
 type: brief
 tags: ["ai", "llm", "coding", "claude", "cursor", "productivity"]
 description: "After six months of daily use, here is how the two heavyweights of AI-assisted coding compare: the terminal-native Claude Code and the IDE-integrated Cursor."
+cover:
+  image: /assets/images/ai/cursor-composer-2-5.png
+  alt: Claude Code vs Cursor comparison
 ---
 
 ## TL;DR

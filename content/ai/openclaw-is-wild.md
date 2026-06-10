@@ -2,7 +2,11 @@
 title: "OpenClaw Is Absolutely Wild"
 date: 2026-03-10T07:09:25+01:00
 draft: false
-tags: ['ai', 'openclaw']
+tags: ["ai", "openclaw"]
+description: "OpenClaw is an open-source AI agent framework that lets language models operate software directly through computer interfaces - clicking, typing, and navigating without custom APIs, making any software automatable."
+cover:
+  image: /assets/images/ai/ai-intelligence.jpg
+  alt: OpenClaw - AI agent framework for computer interfaces
 ---
 
 ## TL;DR

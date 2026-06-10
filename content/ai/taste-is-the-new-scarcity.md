@@ -4,6 +4,10 @@ date: 2026-04-04T12:00:00+01:00
 draft: false
 type: essay
 tags: ["ai", "expertise", "career"]
+description: "When AI can generate thousands of solutions on demand, the bottleneck shifts from thinking capacity to judgment. Taste - knowing which answer is actually right - becomes the primary human skill in an age of abundant intelligence."
+cover:
+  image: /assets/images/ai/free-intelligence-era.jpg
+  alt: Taste is the new scarcity - judgment in an age of AI abundance
 ---
 
 ## TL;DR
@@ -87,10 +91,6 @@ That is not a threat.
 That is an invitation.
 
 ---
-
-**Related reading:**
-- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On the commodification of intelligence itself
-- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs)  -  Which skills remain valuable when AI is everywhere
 
 ## Related Reading
 

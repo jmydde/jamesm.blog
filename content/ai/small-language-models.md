@@ -5,6 +5,9 @@ draft: false
 type: essay
 tags: ["small-language-model","slm","efficiency","open-source","local-ai","mistral","phi"]
 description: "Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development."
+cover:
+  image: /assets/images/ai/open-weight-models-renaissance.png
+  alt: Small language models - why size is not everything
 ---
 
 ## TL;DR

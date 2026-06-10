@@ -4,6 +4,9 @@ date: 2026-03-11T07:09:25+01:00
 draft: false
 tags: ['ai']
 description: "Intelligence used to be something you hired, trained for, or waited in line for. Now it is becoming infrastructure - metered, on-demand, and collapsing in price."
+cover:
+  image: /assets/images/ai/free-intelligence-era.jpg
+  alt: Learning to buy intelligence as infrastructure
 ---
 
 ## TL;DR

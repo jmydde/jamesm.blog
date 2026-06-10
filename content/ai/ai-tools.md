@@ -6,6 +6,9 @@ type: reference
 hiddenInHomeList: true
 robotsNoIndex: true
 description: "A categorised, curated index of AI tools across art, chatbots, coding, music, video, voice, writing, research, and local LLMs - updated for 2026."
+cover:
+  image: /assets/images/ai/ai-resources-best-practices.jpg
+  alt: AI tools and frameworks index
 tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","music","text-to-speech","writing","copilot","robotics"]
 ---
 

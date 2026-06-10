@@ -2,7 +2,11 @@
 title: "Stargate"
 date: 2024-03-30T22:09:25+01:00
 draft: false
-tags: ['ai', 'openai', 'stargate', 'supercomputer', 'infrastructure']
+tags: ["ai", "openai", "stargate", "supercomputer", "infrastructure"]
+description: "Stargate is a $500B AI infrastructure programme from OpenAI, SoftBank, Oracle, and MGX - the largest announced compute bet in history and a proxy for how seriously the industry takes the AGI race."
+cover:
+  image: /assets/images/ai/inference-hardware-insurgents.png
+  alt: Stargate - $500B OpenAI AI infrastructure project
 ---
 
 ## TL;DR

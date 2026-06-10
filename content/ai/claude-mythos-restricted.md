@@ -4,6 +4,9 @@ date: 2026-04-13T06:12:00+01:00
 draft: false
 tags: ["ai","anthropic","claude-mythos","cybersecurity","ai-safety"]
 description: "Anthropic's Claude Mythos shattered performance records but was immediately restricted to a select few, marking a new era where AI's immense power demands unprecedented control."
+cover:
+  image: /assets/images/ai/ai-safety-first-principles.jpg
+  alt: Claude Mythos restricted release
 ---
 
 ## TL;DR

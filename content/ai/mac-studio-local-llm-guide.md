@@ -293,8 +293,10 @@ Since you're choosing both a Mac and a model, here's what actually matters:
 - [Apple MLX documentation](https://ml-explore.github.io/mlx/) - Framework optimised for Apple Silicon
 - [llama.cpp Metal backend](https://github.com/ggerganov/llama.cpp/blob/master/docs/build.md#metal-build) - How Metal acceleration works on Mac
 
-## Related reading
+## Related Reading
 
-- [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/) - Full comparison with NVIDIA's Blackwell-powered AI appliance
-- [Running AI Models Locally with Ollama](/ai/ollama/) - Practical walkthrough of the easiest local-inference stack
-- [Local vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/) - When to run locally versus pay per token
+- [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/) - full comparison with NVIDIA's Blackwell-powered AI appliance
+- [Running AI Models Locally with Ollama](/ai/ollama/) - practical walkthrough of the easiest local-inference stack
+- [Local vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/) - when to run locally versus pay per token
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/) - wiring the tool layer once the hardware is sorted
+- [AI Economics and Hardware: A Reading Path](/ai/ai-economics-hardware/) - full reading path on token costs, GPU choices, and energy constraints

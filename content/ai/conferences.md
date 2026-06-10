@@ -7,6 +7,9 @@ hiddenInHomeList: true
 robotsNoIndex: true
 tags: ["ai", "summit", "conference", "event"]
 description: "A practical guide to the AI conferences worth following, who each type of event is for, and how to choose the right one before spending time or money."
+cover:
+  image: /assets/images/ai/ai-resources-best-practices.jpg
+  alt: AI conferences worth following
 ---
 
 ## TL;DR

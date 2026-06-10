@@ -4,6 +4,9 @@ date: 2026-04-09T07:25:00+00:00
 draft: false
 tags: ["ai","career","automation","job-search","claude"]
 description: "Career-Ops inverts the typical job-search power dynamic by giving candidates AI-powered tools to intelligently evaluate and prioritize opportunities, automate application workflows, and maintain strategic control over their career decisions."
+cover:
+  image: /assets/images/ai/junior-developer-pipeline.jpg
+  alt: Career-Ops - AI-powered career decision tools
 ---
 
 ## TL;DR

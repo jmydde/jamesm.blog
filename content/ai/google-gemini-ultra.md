@@ -2,7 +2,11 @@
 title: "Google Gemini Ultra"
 date: 2024-03-29T07:16:25+01:00
 draft: false
-tags: ['ai', 'chatbot', 'google', 'gemini']
+tags: ["ai", "chatbot", "google", "gemini"]
+description: "Google Gemini Ultra was Google DeepMind's flagship model tier at launch in early 2024 - 90% MMLU, multimodal reasoning across text, images, video, and code, since superseded by the Gemini 3 family."
+cover:
+  image: /assets/images/ai/multimodal-ai-2026.png
+  alt: Google Gemini Ultra
 ---
 
 ## TL;DR

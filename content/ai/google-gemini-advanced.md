@@ -2,7 +2,11 @@
 title: "Google Gemini Advanced"
 date: 2024-03-29T07:12:25+01:00
 draft: false
-tags: ['ai', 'chatbot', 'google', 'gemini']
+tags: ["ai", "chatbot", "google", "gemini"]
+description: "Google Gemini Advanced was the 2024 power-user tier built around Gemini Ultra - enhanced reasoning, longer context, and multimodal input, documented here as the lineup has since evolved into Gemini 2.5 and the Gemini 3 family."
+cover:
+  image: /assets/images/ai/multimodal-ai-2026.png
+  alt: Google Gemini Advanced
 ---
 
 ## TL;DR

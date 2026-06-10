@@ -2,7 +2,11 @@
 title: "OpenAI Voice Engine"
 date: 2024-03-31T23:12:25+01:00
 draft: false
-tags: ['ai', 'openai', 'voice engine', 'voice']
+tags: ["ai", "openai", "voice-engine", "voice"]
+description: "OpenAI Voice Engine can clone a realistic voice from a 15-second audio sample - still in limited preview as of 2026, restricted to approved partners with strict consent and transparency requirements."
+cover:
+  image: /assets/images/ai/speech-to-text.jpg
+  alt: OpenAI Voice Engine - AI voice cloning
 ---
 
 ## TL;DR

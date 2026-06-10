@@ -5,6 +5,9 @@ draft: false
 type: essay
 tags: ['ai', 'economics', 'infrastructure']
 description: "Despite massive scale and competition, LLM pricing hasn't meaningfully declined. Here's why the fundamentals don't support cheaper AI."
+cover:
+  image: /assets/images/ai/twenty-dollar-ai-era-is-over.jpg
+  alt: Token economics - why AI costs are not falling
 ---
 
 ## TL;DR

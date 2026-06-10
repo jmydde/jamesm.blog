@@ -2,7 +2,11 @@
 title: "Boston Dynamics Reveals Its Most Astonishing Humanoid Robot So Far"
 date: 2024-04-20T22:09:25+01:00
 draft: false
-tags: ['ai', 'boston dynamics', 'robot', 'humanoid-robot']
+tags: ["ai", "boston-dynamics", "robot", "humanoid-robot"]
+description: "Boston Dynamics' all-electric Atlas humanoid marks a break from hydraulic prototypes toward real-world deployment - a look at what the new robot means for the 2024-2026 humanoid wave."
+cover:
+  image: /assets/images/ai/humanoid-robotics-2026.jpg
+  alt: Boston Dynamics All New Atlas Humanoid Robot
 ---
 
 ## TL;DR

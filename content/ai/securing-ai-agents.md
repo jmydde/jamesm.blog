@@ -188,7 +188,7 @@ Security is one leg of a three-legged stool I keep coming back to:
 - **Security** - does it refuse the wrong thing under adversarial conditions?
 - **Evaluation** - can you measure either property before production?
 
-[AI evals are broken](/ai/ai-evals-are-broken/) for endpoint scoring on static benchmarks. They are even worse for security, where the failure mode is a single successful exploit, not an average score. [Trajectory evaluation](/ai/evaluating-agents-in-production-trajectory-metrics/) — step-level scoring and replay harnesses — is how you catch agents that reach correct answers through reckless paths.
+[AI evals are broken](/ai/ai-evals-are-broken/) for endpoint scoring on static benchmarks. They are even worse for security, where the failure mode is a single successful exploit, not an average score. [Trajectory evaluation](/ai/evaluating-agents-in-production-trajectory-metrics/) - step-level scoring and replay harnesses - is how you catch agents that reach correct answers through reckless paths.
 
 For now, the practical bar is lower and more concrete: **assume the context window contains hostile instructions, and build the tool layer so that following them cannot cause harm.** The agent will be confused sometimes. The deputy should not be able to hand over the keys.
 

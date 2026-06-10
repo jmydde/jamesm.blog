@@ -2,7 +2,11 @@
 title: "Speechify - Best Text to Speech App"
 date: 2023-05-20T12:54:16+01:00
 draft: false
-tags: ['ai', 'tool', 'text-to-speech', 'productivity']
+tags: ["ai", "tool", "text-to-speech", "productivity"]
+description: "Speechify converts PDFs, web articles, and scanned text into natural-sounding audio with AI voices and adjustable speed - widely used for accessibility, productivity, and professional audiobook creation."
+cover:
+  image: /assets/images/ai/speech-to-text.jpg
+  alt: Speechify text-to-speech app
 ---
 
 ## TL;DR

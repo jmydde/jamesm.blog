@@ -4,6 +4,9 @@ date: 2023-05-18T19:05:35+01:00
 draft: false
 tags: ["ai","chatbot","chatgpt","llm","ios"]
 description: "Why the ChatGPT iPhone app mattered, what changed when AI moved onto mobile, and why the launch was more important than a simple companion app release."
+cover:
+  image: /assets/images/ai/llm-powered-personal-productivity.jpg
+  alt: ChatGPT iPhone app launch
 ---
 
 ## TL;DR

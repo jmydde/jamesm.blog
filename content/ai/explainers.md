@@ -6,6 +6,10 @@ type: reference
 hiddenInHomeList: true
 robotsNoIndex: true
 tags: ["ai", "chatbot", "chatgpt", "llm", "deep-learning", "education"]
+description: "A curated set of the clearest technical explainers for foundational AI concepts - backpropagation, transformers, language models, and diffusion - written by Karpathy, Wolfram, and NVIDIA's team."
+cover:
+  image: /assets/images/ai/ai-intelligence.jpg
+  alt: AI explainers - foundational concepts
 ---
 
 ## TL;DR

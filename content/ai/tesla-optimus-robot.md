@@ -2,7 +2,11 @@
 title: "Tesla Optimus Robot"
 date: 2024-04-21T20:44:14+01:00
 draft: false
-tags: ["ai","robotics","tesla","tesla-bot","optimus","robotics"]
+tags: ["ai","robotics","tesla","tesla-bot","optimus"]
+description: "Tesla Optimus Gen 3 is a bipedal humanoid robot powered by Tesla's vision and self-driving AI stack, targeting under $25,000 per unit - with Elon Musk predicting the robot business will eventually exceed the car business."
+cover:
+  image: /assets/images/ai/humanoid-robotics-2026.jpg
+  alt: Tesla Optimus humanoid robot
 ---
 
 ## TL;DR

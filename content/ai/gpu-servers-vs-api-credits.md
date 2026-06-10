@@ -5,6 +5,9 @@ draft: false
 type: essay
 tags: ["ai","llm","cost-optimization","gpu","2026"]
 description: "A practical 2026 breakdown of when to rent GPUs versus buy API credits, with cost-per-token figures, break-even thresholds, and a hybrid architecture playbook."
+cover:
+  image: /assets/images/ai/inference-hardware-insurgents.png
+  alt: GPU servers vs API credits cost breakdown
 ---
 
 ## TL;DR

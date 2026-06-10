@@ -6,6 +6,10 @@ type: reference
 hiddenInHomeList: true
 robotsNoIndex: true
 tags: ["ai", "github", "chatgpt", "open-source", "framework"]
+description: "A curated index of significant open-source AI projects on GitHub - agent frameworks, coding tools, and local LLM runners worth knowing about as a starting map of the ecosystem."
+cover:
+  image: /assets/images/ai/ai-resources-best-practices.jpg
+  alt: List of AI GitHub projects
 ---
 
 ## TL;DR

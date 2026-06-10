@@ -5,6 +5,9 @@ draft: false
 type: essay
 tags: ["ai","product-development","engineering","specification","design","sdd"]
 description: "With AI handling implementation, the specification itself becomes the product. What you're really selling is clarity of thought - and the ability to write briefs that don't lie."
+cover:
+  image: /assets/images/ai/context-engineering.png
+  alt: Spec-driven development - when the brief becomes the product
 ---
 
 ## TL;DR

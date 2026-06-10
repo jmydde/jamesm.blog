@@ -5,6 +5,9 @@ draft: false
 type: essay
 tags: ["ai","engineering","role","career","management"]
 description: "The traditional engineering hierarchy of junior→senior→architect is collapsing. What emerges is a cleaner, harsher split: people who decide what to build, and people who turn that decision into code."
+cover:
+  image: /assets/images/ai/agent-first-architecture.jpg
+  alt: The architect vs builder split in AI-assisted development
 ---
 
 ## TL;DR

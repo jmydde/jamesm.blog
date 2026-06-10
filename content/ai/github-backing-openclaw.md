@@ -4,6 +4,9 @@ date: 2026-04-14T08:05:00+01:00
 draft: false
 tags: ['ai', 'openclaw', 'github', 'open-source']
 description: "GitHub became an official sponsor of OpenClaw, the fastest-growing open source project in history, providing Copilot Pro+ and security funding."
+cover:
+  image: /assets/images/ai/ai-intelligence.jpg
+  alt: GitHub backing OpenClaw
 ---
 
 ## TL;DR

@@ -2,7 +2,11 @@
 title: "Unitree G1 - AI Humanoid Robot"
 date: 2024-05-21T20:09:25+01:00
 draft: false
-tags: ['ai', 'unitree', 'unitree g1', 'robot', 'humanoid-robot']
+tags: ["ai", "unitree", "robot", "humanoid-robot"]
+description: "Unitree's G1 humanoid robot starts at $16k - dramatically undercutting Tesla Optimus and Boston Dynamics while using reinforcement and imitation learning for precision real-world tasks."
+cover:
+  image: /assets/images/ai/humanoid-robotics-2026.jpg
+  alt: Unitree G1 AI Humanoid Robot
 ---
 
 ## TL;DR
