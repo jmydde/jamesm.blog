@@ -4,6 +4,9 @@ date: 2025-09-09T14:00:00+01:00
 draft: false
 tags: ['polkadot', 'blockchain', 'coretime', 'scalability', 'parachain']
 description: "What Agile Coretime is, why it matters, and how it changes Polkadot's economics."
+cover:
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
+  alt: Polkadot Agile Coretime Explainer Banner
 ---
 
 If you've been following Polkadot, you've probably heard "Agile Coretime" mentioned alongside "Elastic Scaling" and "Asynchronous Backing." It sounds technical, important, and confusing. This post explains what it actually is, why it matters, and what it means for the network.

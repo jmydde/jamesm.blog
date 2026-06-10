@@ -4,6 +4,9 @@ date: 2023-12-16T09:28:18+01:00
 draft: false
 tags: ['devops', 'cheatsheet', 'cloud', 'reference', 'linux', 'kubernetes', 'aws']
 description: "Quick reference guides and cheatsheets for DevOps tools, cloud computing concepts, Linux commands, and Kubernetes operations."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps Cheatsheets Banner
 ---
 
 Cheatsheets are one of the most under-rated learning tools in the DevOps toolbox. When you are three hours into debugging a broken pipeline, you don't want a 400-page book - you want the one page that reminds you which flag does what. This page collects quick references I keep within arm's reach.

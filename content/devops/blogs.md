@@ -4,6 +4,9 @@ date: 2023-04-21T11:50:32+01:00
 draft: false
 tags: ['devops', 'sre', 'blog', 'reading', 'cloud', 'platform']
 description: "Curated list of DevOps and SRE blogs covering infrastructure, automation, continuous delivery, platform engineering, and operational best practices."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps Blogs Banner
 ---
 
 Good engineering blogs are one of the cheapest forms of mentorship available. The posts below are from teams and individuals I return to when I want to see how real organisations solve real problems - outages, scaling walls, migrations, and the occasional cultural mistake.

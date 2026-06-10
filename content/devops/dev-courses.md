@@ -4,6 +4,9 @@ date: 2021-05-28T11:51:18+01:00
 draft: false
 tags: ['tutorial', 'training', 'course', 'django', 'cpp', 'react', 'python', 'javascript', 'programming']
 description: "Curated list of development and programming courses covering Python, Django, React, C++, JavaScript, and fundamentals for software engineers at every level."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: Development Courses Banner
 ---
 
 A short list of development courses I either learned from myself or have recommended to others starting out. Most of the best teachers charge for their work - I have pointed out the free options where they are genuinely good.

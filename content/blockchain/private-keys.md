@@ -4,6 +4,9 @@ date: 2023-06-23T13:30:39+01:00
 draft: false
 description: "Understanding private keys - the secret numbers that control your cryptocurrency funds. Learn how they work, why they matter, and how to protect them."
 tags: ['bitcoin', 'cryptography', 'private-key', 'wallet', 'security', 'asymmetric-encryption', 'key-management']
+cover:
+  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  alt: Private Keys in Cryptocurrency Banner
 ---
 
 ## What Are Private Keys?

@@ -2,10 +2,10 @@
 title: "Stablecoins After PYUSD: The Real Adoption Story in 2026"
 date: 2026-05-12T16:00:00+01:00
 draft: true
-tags: ["blockchain", "stablecoin", "finance", "payment", "regulation"]
+tags: ['blockchain', 'stablecoin', 'finance', 'payment', 'regulation']
 description: "The interesting story in crypto in 2026 is not memecoins or speculation - it is the quiet, large-scale adoption of stablecoins for real payments. A look at where they have actually displaced traditional rails, where they have not, and what the regulatory landscape looks like now that the major economies have weighed in."
 cover:
-  image: /assets/images/blockchain/stablecoins-after-pyusd-2026.jpg
+  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
   alt: Stablecoins After PYUSD in 2026 Banner
 ---
 

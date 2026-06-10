@@ -4,6 +4,9 @@ date: 2022-08-21T11:51:18+01:00
 draft: false
 tags: ['ci-cd', 'devops', 'continuous-delivery', 'automation', 'kubernetes', 'pipeline']
 description: "Overview of popular CI/CD and continuous delivery tools - managed services, self-hosted platforms, and GitOps systems - for automating software builds, testing, and deployments."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: CI/CD Tools Banner
 ---
 
 CI/CD is the plumbing that turns a commit into running software. The tools below cover the full spectrum - from fully managed SaaS that you never have to operate, to self-hosted automation servers you tune yourself, to GitOps controllers that treat your Kubernetes cluster as the deployment target.

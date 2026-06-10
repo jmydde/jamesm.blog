@@ -4,6 +4,9 @@ date: 2023-04-21T23:07:18+01:00
 draft: false
 tags: ['devops', 'book', 'python', 'docker', 'kubernetes', 'terraform', 'iac', 'linux', 'programming', 'bash', 'sql', 'golang', 'sre']
 description: "Recommended reading list of DevOps and infrastructure engineering books covering culture, cloud, containers, infrastructure as code, SRE, and programming languages."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps Books Banner
 ---
 
 A working DevOps engineer draws from several disciplines at once - distributed systems, operating systems, network engineering, software development, and the organisational side that keeps it all moving. The books below are the ones I have either read cover-to-cover or regularly pull off the shelf to reference. I have added a one-line note on why each one is on the list.

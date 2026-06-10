@@ -4,6 +4,9 @@ date: 2021-05-28T11:51:18+01:00
 draft: false
 tags: ['devops', 'conference', 'summit', 'event', 'kubernetes', 'cloud', 'platform-engineering']
 description: "Guide to major DevOps conferences and summits - KubeCon, DevOpsDays, PlatformCon, AWS re:Invent - covering cloud infrastructure, SRE, and platform engineering."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps Conferences Banner
 ---
 
 Conferences are an inefficient way to learn a specific skill and an excellent way to discover what the rest of the industry is struggling with this year. The ones below are the events I either attend or watch closely, grouped by focus area.

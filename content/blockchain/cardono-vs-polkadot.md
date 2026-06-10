@@ -2,7 +2,11 @@
 title: "Cardano vs Polkadot | Charles Hoskinson and Lex Fridman"
 date: 2021-06-17T09:53:39+01:00
 draft: false
-tags: ['cardano', 'polkadot', 'charles hoskinson', 'lex fridman', 'blockchain comparison', 'cryptocurrency']
+tags: ['cardano', 'polkadot', 'charles-hoskinson', 'lex-fridman', 'blockchain-comparison', 'cryptocurrency']
+description: "Cardano founder Charles Hoskinson joins Lex Fridman to compare Cardano and Polkadot, exploring their different approaches to scalability, governance, and ecosystem development."
+cover:
+  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  alt: Cardano vs Polkadot Banner
 ---
 
 ## Overview

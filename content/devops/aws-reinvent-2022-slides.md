@@ -4,6 +4,9 @@ date: 2022-12-03T11:04:16+01:00
 draft: false
 tags: ['aws', 'devops', 'conference', 're-invent', 'kubernetes', 'eks', 'ci-cd', 'pipeline', 'security', 'compliance', 'devsecops']
 description: "Curated collection of presentation slide decks from AWS re:Invent 2022, covering DevOps, Kubernetes on EKS, CI/CD, and DevSecOps topics with short practitioner summaries."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: AWS re:Invent 2022 Slides Banner
 ---
 
 This is the set of re:Invent 2022 slide decks I found most useful when they were published, grouped by topic. Each entry links to the official AWS-hosted PDF and carries a short, plain-language note about what the session is useful for in practice - so you can decide which decks are worth reading before committing the time.

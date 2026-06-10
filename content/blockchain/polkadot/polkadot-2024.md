@@ -4,6 +4,9 @@ date: 2024-03-19T06:00:22+01:00
 draft: false
 tags: ['polkadot', 'dot', 'blockchain', 'news', 'ecosystem', 'development']
 description: "Major Polkadot developments in 2024 - from Polkadot 2.0 implementation to blockchain academy expansion. Track key announcements, protocol upgrades, and ecosystem milestones throughout the year."
+cover:
+  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  alt: Polkadot News 2024 Banner
 ---
 
 ## 2024 Polkadot Ecosystem Developments

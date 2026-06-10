@@ -3,6 +3,10 @@ title: "Music Production: Ableton Max for Live Devices"
 date: 2024-01-14T22:33:41+01:00
 draft: false
 tags: ['ableton', 'max4live']
+description: "A curated selection of Max for Live devices worth installing - from generative MIDI sequencers to creative drum synthesizers and polyphonic processors."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Ableton Max for Live Devices
 ---
 ## Ableton Packs
 

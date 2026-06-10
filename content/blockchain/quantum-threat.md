@@ -2,7 +2,7 @@
 title: "Quantum Computing: A Threat to Bitcoin?"
 date: 2026-05-20T09:00:00+01:00
 draft: false
-tags: ['bitcoin', 'blockchain', 'quantum computing', 'cryptography', 'security', 'web3', 'post-quantum']
+tags: ['bitcoin', 'blockchain', 'quantum-computing', 'cryptography', 'security', 'web3', 'post-quantum']
 description: "How real is the quantum threat to Bitcoin in 2026? A grounded update on the timeline to Q-Day, how much BTC genuinely sits at risk, the recent quantum milestones, and the defences taking shape - BIP-360, BIP-361 and NIST's post-quantum cryptography standards."
 cover:
   image: /assets/images/blockchain/quantum-threat.png

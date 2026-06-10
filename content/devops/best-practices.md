@@ -4,6 +4,9 @@ date: 2023-12-16T09:33:18+01:00
 draft: false
 tags: ['devops', 'best-practice', 'microservice', 'system-design', 'architecture', 'ci-cd']
 description: "Practical DevOps and system design best practices covering microservices architecture, CI/CD pipelines, observability, and scalable system design."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps Best Practices Banner
 ---
 
 *The views in this post are my own personal reflections on the industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.*

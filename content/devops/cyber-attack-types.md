@@ -3,7 +3,10 @@ title: "Understanding Types of Cyber Attacks: A DevOps Guide"
 date: 2025-04-20T10:00:00+01:00
 draft: false
 tags: ["security", "cybersecurity", "devops", "attack"]
-description: "Comprehensive guide to different types of cyber attacks, attack vectors, and defense strategies for DevOps teams"
+description: "Comprehensive guide to different types of cyber attacks, attack vectors, and defense strategies for DevOps teams."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: Understanding Types of Cyber Attacks Banner
 ---
 
 Cyber attacks are becoming increasingly sophisticated, and DevOps teams must understand the landscape to build resilient systems. This guide covers the most common attack types and practical defense strategies.

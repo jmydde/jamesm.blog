@@ -4,6 +4,9 @@ date: 2023-06-07T11:04:16+01:00
 draft: false
 tags: ['aws', 'devops', 'summit', 'video', 'conference', 'london', 'keynote']
 description: "Video recordings and key takeaways from AWS Summit London 2023, including the opening keynote on generative AI, data strategy, and customer stories from Compare the Market and Arup."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: AWS Summit London 2023 Video Highlights Banner
 ---
 
 The AWS Summit London 2023 keynote was posted to AWS's event channel shortly after the event, and it is the single best hour of content to watch if you are trying to calibrate where AWS is pushing the ecosystem. This post pulls out the session and the themes I found most useful.

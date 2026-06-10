@@ -4,6 +4,9 @@ date: 2023-04-18T09:00:00+01:00
 draft: false
 description: "Curated learning resources for blockchain development and Web3, from beginner fundamentals to advanced smart contract development"
 tags: ['bitcoin', 'blockchain', 'course', 'crypto', 'polkadot', 'training', 'web3', 'education', 'learning']
+cover:
+  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  alt: Blockchain and Web3 Courses Banner
 ---
 
 ## Overview

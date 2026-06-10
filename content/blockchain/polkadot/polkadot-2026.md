@@ -2,7 +2,11 @@
 title: "Polkadot 2026: From Infrastructure to Applications"
 date: 2026-04-04T10:00:00+01:00
 draft: false
-tags: ['polkadot', 'dot', 'blockchain', 'web3', 'ecosystem', '2026', 'infrastructure', 'applications']
+tags: ['polkadot', 'dot', 'blockchain', 'web3', 'ecosystem', '2026', 'infrastructure', 'application']
+description: "Polkadot's 2026 strategic pivot from infrastructure to user-facing applications - covering the hard DOT supply cap, Elastic Scaling, Revive EVM compatibility, validator economics changes, and what JAM means for the network's future."
+cover:
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
+  alt: Polkadot 2026 From Infrastructure to Applications Banner
 ---
 
 ## The Pivot Year: Polkadot's Strategic Shift in 2026

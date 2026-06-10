@@ -4,6 +4,9 @@ date: 2023-05-18T09:54:16+01:00
 draft: false
 tags: ['aws', 'devops', 'conference', 'summit', 'event', 'london', 'cloud']
 description: "AWS Summit London 2023 agenda announcement with keynote details, technical tracks, and planning guidance for attendees."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: AWS Summit London 2023 Agenda Announcement Banner
 ---
 
 The **AWS Summit London** agenda for 2023 went live in mid-May, and the schedule shape will be familiar to anyone who has attended a Summit before - a morning keynote followed by parallel technical tracks, hands-on workshops, and partner sessions spread across the afternoon.

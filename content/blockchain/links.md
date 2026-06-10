@@ -3,6 +3,10 @@ title: "Blockchain & Crypto Resources"
 date: 2023-12-01T13:30:39+01:00
 draft: false
 tags: ['web3', 'youtube', 'blockchain', 'resource', 'cryptocurrency', 'education']
+description: "Curated YouTube channels for blockchain and cryptocurrency education, covering technical fundamentals, market analysis, ecosystem-specific coverage, and Bitcoin-focused content."
+cover:
+  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  alt: Blockchain and Crypto Resources Banner
 ---
 
 ## Curated YouTube Channels

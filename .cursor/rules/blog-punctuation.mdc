@@ -1,0 +1,23 @@
+---
+description: Blog article punctuation - use spaced hyphens instead of em dashes
+globs: content/**/*.md
+alwaysApply: false
+---
+
+# Blog Punctuation
+
+Do not use em dashes (`—`, U+2014) in blog articles.
+
+Use a spaced hyphen instead: ` - `
+
+## Examples
+
+```
+❌ Anthropic launches Fable 5 — the same underlying model
+✅ Anthropic launches Fable 5 - the same underlying model
+
+❌ Pricing drops to $10 — less than half
+✅ Pricing drops to $10 - less than half
+```
+
+When editing or writing content under `content/`, replace any `—` with ` - `.

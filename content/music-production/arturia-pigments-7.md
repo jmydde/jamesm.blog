@@ -3,6 +3,10 @@ title: "Arturia Pigments 7"
 date: 2025-12-17T21:47:21+01:00
 draft: false
 tags: ['pigments', 'synth', 'arturia']
+description: "Arturia Pigments 7 refines one of the most visually expressive software synthesizers available - new filter types, a redesigned Play page, CPU optimisations, and a fresh content library."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Arturia Pigments 7
 ---
 
 # Arturia Pigments 7  -  A Sonic Canvas for the Modern Creator
