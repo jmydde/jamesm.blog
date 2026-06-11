@@ -48,14 +48,9 @@ This situation challenges the traditional Silicon Valley ethos of rapid, open in
 
 ## The Future is Restricted
 
-Claude Mythos serves as a stark reminder: we are entering an era where artificial intelligence isn't just about what's technically possible, but what's ethically and safely permissible. The "forbidden frontier" of AI, embodied by Mythos, pushes us to grapple with difficult questions about control, responsibility, and the societal impact of intelligence that vastly outstrips our own. Its existence, even in limited form, is a testament to both the incredible potential and the inherent dangers of truly advanced AI. The lessons learned from Mythos will undoubtedly shape the regulatory frameworks and deployment strategies for generations of AI to come.
+The question Mythos poses is practical, not philosophical: if Project Glasswing works - if defensive use of a restricted frontier model genuinely outpaces offensive misuse - then this deployment model becomes the template. The most capable AI available to vetted research partners. A safer, capable version available to the public. A gap between those two tiers that never fully closes.
 
-## Related Links
-
-- [Claude Mythos: The AI Benchmark Breaker That Won't Be Released](/ai/claude-mythos-benchmarks/)
-- [Anthropic Blog](https://www.anthropic.com/news) - Latest updates from Anthropic
-- [Anthropic's Constitutional AI approach](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
-- [AI Safety and Security Research](https://www.anthropic.com/research)
+That gap is not a failure of openness. It may be the most honest reckoning with what these systems can actually do. Whether Anthropic's controls hold under sustained adversarial pressure is the experiment now underway. The results will shape how every lab behind them handles the same decision.
 
 ## Related Reading
 

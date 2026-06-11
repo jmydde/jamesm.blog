@@ -9,7 +9,7 @@ cover:
   alt: The Fine-Tuning Landscape in 2026 Banner
 ---
 
-For most of the LLM era, "fine-tuning" was one thing: take a base model, train it further on your data, end up with a model that knows your domain. In 2026 the picture is considerably more sophisticated. There are several distinct techniques with different costs, benefits, and use cases - and the choice between them has become a real design decision rather than a foregone conclusion.
+Two years ago, "fine-tuning" was essentially one thing: take a base model, train it on your data, and end up with a model that knows your domain. The decision was mostly about whether to do it at all. In 2026, the choice is more interesting. There are now four distinct techniques - LoRA, full fine-tuning, distillation, and continued pre-training - with meaningfully different costs, trade-offs, and appropriate use cases. Picking the wrong one is an expensive mistake. Knowing which to reach for has become a real engineering decision, not an afterthought.
 
 ## TL;DR
 

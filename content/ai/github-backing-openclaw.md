@@ -68,15 +68,9 @@ By backing OpenClaw early and publicly, GitHub is positioning itself as the home
 
 ## What Happens Next
 
-OpenClaw is not slowing down. Every release brings improvements in reliability, capability, and speed.
+OpenClaw is not slowing down. Every release brings improvements in reliability, capability, and speed. With GitHub's infrastructure and security backing now in place, the project can scale to meet the demand that has already outpaced most open-source projects in history.
 
-And now it has the backing of one of the world's largest software platforms.
-
-That is a pretty clear signal about where the future is heading.
-
-Open source AI agents. Operating software. Building systems.
-
-GitHub just officially bet on it.
+The broader signal is worth sitting with. When the platform that hosts most of the world's software starts writing checks to ensure one specific open-source project stays healthy, it is not a casual endorsement. It is a statement about what kind of software development infrastructure they expect to matter in two years. GitHub has placed its institutional weight behind agentic, AI-operated software as a category - and OpenClaw is the bet they are making on what that category looks like.
 
 ---
 

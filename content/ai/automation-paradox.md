@@ -56,10 +56,10 @@ None of these scale. They don't parallelize. They're inherently human and inhere
 
 We're moving toward a clearer hierarchy:
 
-1. **Judgment** (irreplaceable, growing more valuable)  -  "What should we do?"
-2. **Direction** (scalable, but still human)  -  "Here's the taste and constraints. Now interpret them."
-3. **Execution** (becoming commodity)  -  "Here's the spec. Build it." ← AI beats humans here
-4. **Optimization** (becoming commodity)  -  "Make it faster/cheaper/better given the constraints." ← AI beats humans here
+1. **Judgment** (irreplaceable, growing more valuable) - "What should we do?"
+2. **Direction** (scalable, but still human) - "Here's the taste and constraints. Now interpret them."
+3. **Execution** (becoming commodity) - "Here's the spec. Build it." ← AI beats humans here
+4. **Optimization** (becoming commodity) - "Make it faster/cheaper/better given the constraints." ← AI beats humans here
 
 In 2026, the person who gives good direction is more valuable than the person who executes well. But a decade from now, as AI gets better at direction, the person who exercises good judgment about direction becomes the constraint.
 

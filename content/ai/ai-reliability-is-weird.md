@@ -3,7 +3,7 @@ title: "AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know"
 date: 2026-04-09T22:00:00+00:00
 draft: false
 tags: ["ai","reliability","testing","llm","agentic-engineering","verification"]
-description: "Traditional testing methods are failing in the age of autonomous AI agents. We need a new approach to ensure reliability when the 'builder' is non-deterministic."
+description: "Traditional testing methods break down in the age of autonomous AI agents. A practical look at why deterministic testing fails for non-deterministic builders, and what actually works instead."
 cover:
   image: /assets/images/ai/agent-reliability-debugging-non-deterministic.jpg
   alt: AI reliability - testing non-deterministic systems

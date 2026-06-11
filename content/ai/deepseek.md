@@ -21,9 +21,7 @@ cover:
 
 In January 2025, a Chinese AI lab most people had never heard of dropped a frontier-grade reasoning model for a reported $6 million and watched it hit the top of the Apple App Store inside days. **DeepSeek** R1 did not just impress researchers - it shook equity markets, forced a hard look at what US labs were actually spending their billions on, and made cheap, capable, open-weight models a credible default rather than an interesting curiosity.
 
-**DeepSeek**'s AI chatbot became the **top free app on Apple's store** within days of its January launch. The rapid ascent, driven by DeepSeek's **cost-effectiveness** compared to US competitors, sent shockwaves through financial markets.
-
-Venture capitalist Marc Andreessen has lauded DeepSeek's AI as a "**groundbreaking achievement**", while the company claims its models rival industry leaders like ChatGPT at a **fraction of the cost**. DeepSeek reportedly invested **only $6 million** in its development, a stark contrast to the **billions spent by US AI companies**.
+Venture capitalist Marc Andreessen called it a "**groundbreaking achievement**". The lab claims its models rival industry leaders like ChatGPT at a **fraction of the cost** - and the $6 million training figure, compared to the **billions spent by US AI companies**, made that claim very hard to dismiss.
 
 DeepSeek had already shipped its V3 base model in late December 2024, but it was the R1 reasoning release in January 2025 that broke into the mainstream. The lab has continued iterating since - V3.1, V3.2, and further reasoning-tuned variants - and has cemented its place as one of the most credible open-weight competitors to the US frontier labs.
 

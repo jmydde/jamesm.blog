@@ -60,28 +60,28 @@ Now you can look anything up. During surgery, you have access to the entire medi
 
 The expertise that remains is:
 
-- **Judgment about what's relevant**  -  Given 10,000 papers on this condition, which ones matter to this patient?
-- **Recognition of the unexpected**  -  This presentation looks like X but I've seen this before when it was actually Y.
-- **Integration across domains**  -  This is not a pure orthopedic problem; there's a vascular component that changes everything.
-- **Acceptance of responsibility**  -  I'm making a call that might hurt this person, and I'm accountable.
+- **Judgment about what's relevant** - Given 10,000 papers on this condition, which ones matter to this patient?
+- **Recognition of the unexpected** - This presentation looks like X but I've seen this before when it was actually Y.
+- **Integration across domains** - This is not a pure orthopedic problem; there's a vascular component that changes everything.
+- **Acceptance of responsibility** - I'm making a call that might hurt this person, and I'm accountable.
 
 None of these show up on the licensing exam.
 
 For a lawyer, expertise used to mean knowing the law. Now it means:
 
-- **Knowing what law actually means in this context**  -  The letter vs. the spirit, and which one matters here.
-- **Anticipating what opposing counsel will do**  -  Not because you don't know the law, but because you've fought them before and know their tactics.
-- **Seeing the risk that's not in the contract**  -  What did the parties not think to worry about?
-- **Making the call when there's no case law**  -  When the precedent doesn't apply, what guides you?
+- **Knowing what law actually means in this context** - The letter vs. the spirit, and which one matters here.
+- **Anticipating what opposing counsel will do** - Not because you don't know the law, but because you've fought them before and know their tactics.
+- **Seeing the risk that's not in the contract** - What did the parties not think to worry about?
+- **Making the call when there's no case law** - When the precedent doesn't apply, what guides you?
 
 Again, not on the exam.
 
 For an engineer, expertise used to mean knowing how to build things. Now it's much harder to operationalize:
 
-- **Knowing when not to use the standard solution**  -  This looks like a typical scaling problem but it's actually a latency problem, which is different.
-- **Seeing the architecture that will survive the next five years**  -  Not the one that works today, but the one that won't need rewriting.
-- **Integrating non-technical constraints**  -  This is the right solution technically, but the team can't maintain it, so we need the second-best solution that we can.
-- **Bearing the cost of mistakes**  -  If this scales wrong, people will blame me, and I'll have to wake up at 3 AM to fix it.
+- **Knowing when not to use the standard solution** - This looks like a typical scaling problem but it's actually a latency problem, which is different.
+- **Seeing the architecture that will survive the next five years** - Not the one that works today, but the one that won't need rewriting.
+- **Integrating non-technical constraints** - This is the right solution technically, but the team can't maintain it, so we need the second-best solution that we can.
+- **Bearing the cost of mistakes** - If this scales wrong, people will blame me, and I'll have to wake up at 3 AM to fix it.
 
 ## How We'll Actually Test Expertise
 
@@ -95,10 +95,10 @@ Programming doesn't have licensing, which might be a feature - we've never had a
 
 What we might see instead:
 
-- **Portfolio-based credentialing**  -  Show what you've built, why it matters, what trade-offs you made.
-- **Apprenticeship models**  -  Spend time with someone who's exercised good judgment, and let them vouch for you.
-- **Outcomes-based assessment**  -  Track people who've made major decisions and see how they aged.
-- **Reputation in community**  -  In fields with clear professional communities, people know who's trustworthy.
+- **Portfolio-based credentialing** - Show what you've built, why it matters, what trade-offs you made.
+- **Apprenticeship models** - Spend time with someone who's exercised good judgment, and let them vouch for you.
+- **Outcomes-based assessment** - Track people who've made major decisions and see how they aged.
+- **Reputation in community** - In fields with clear professional communities, people know who's trustworthy.
 
 None of these scale like exams do. All of them are harder to game. And all of them test something closer to actual expertise.
 

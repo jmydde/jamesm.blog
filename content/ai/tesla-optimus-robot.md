@@ -22,11 +22,9 @@ cover:
 
 [Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk) envisions a future where Optimus can take on dangerous or unpleasant jobs, freeing humans for more creative or leisure pursuits. There's even speculation that Optimus could be available for purchase within the next few years, potentially revolutionizing how we work and live.
 
-The goal is for Optimus to be __less than half the cost of a Tesla car__;
-- this translates to roughly $20,000 to $25,000 based on current Tesla car prices
-- the price could eventually fall even lower as production scales up
+The goal is for Optimus to be **less than half the cost of a Tesla car** - roughly $20,000 to $25,000 based on current Tesla car prices, with the price expected to fall further as production scales up.
 
-Musk has predicted long-term their robot will probably be worth __significantly more__ than the car side of their business.
+Musk has predicted long-term their robot will probably be worth **significantly more** than the car side of their business.
 
 ## YouTube
 

@@ -195,7 +195,7 @@ Instead of paying for bigger and bigger subscriptions, it makes more sense to bu
 
 You keep the power of Claude, but avoid hitting limits constantly.
 
-And realistically, this is probably how most developer AI stacks will look going forward.
+The tiering approach also forces a useful discipline: you start thinking about which tasks actually require frontier reasoning and which do not. Most do not. That clarity is worth something regardless of cost.
 
 ## Related Reading
 
