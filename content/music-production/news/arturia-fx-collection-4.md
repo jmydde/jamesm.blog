@@ -4,6 +4,9 @@ date: 2023-06-02T09:53:39+01:00
 draft: false
 tags: ['music production', 'arturia', 'plugin', 'fx', 'news']
 description: "Announcement and overview of Arturia FX Collection 4 effects plugin suite with 30 professional effects."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Arturia FX Collection 4 Banner
 ---
 
 ## Overview

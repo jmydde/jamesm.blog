@@ -4,9 +4,10 @@ date: 2026-04-08T06:11:00+00:00
 draft: false
 tags: ['retro', 'computing', 'history', 'security', 'software', 'drm']
 description: "A deep dive into the creative, bizarre, and often frustrating world of 1980s copy protection, from code wheels to lensloks."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: Copy protection wars in 1980s software - code wheels, Lenslok, and disk tricks
 ---
-
-# Copy Protection Wars: The Ingenious Schemes Of 1980s Software
 
 Before the era of always-online DRM and AI-powered anti-tamper software, the battle against software piracy was fought with cardboard, plastic, and clever manipulation of magnetic disk geometry. In the 1980s, developers faced a simple problem: floppy disks were incredibly easy to copy. Their solutions, however, were anything but simple.
 

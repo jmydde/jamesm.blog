@@ -5,7 +5,7 @@ draft: true
 tags: ["learning", "habit", "discipline", "skill", "deliberate-practice"]
 description: "Ninety days is short enough to be ambitious and long enough to actually change. A practical framework for compressing the first phase of learning a new skill into a single quarter - based on what works, not on what sounds good in a productivity book."
 cover:
-  image: /assets/images/personal-development/learning-anything-in-90-days.jpg
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
   alt: Learning Anything in 90 Days Banner
 ---
 

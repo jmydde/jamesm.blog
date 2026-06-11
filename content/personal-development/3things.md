@@ -4,6 +4,9 @@ date: 2023-06-03T14:56:39+01:00
 draft: false
 tags: ["personal-development", "gratitude", "daily-practice"]
 description: "Daily reflection practice with three key questions for gratitude, affirmation, and intentional living."
+cover:
+  image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg
+  alt: 3 Things Daily Reflection Practice Banner
 ---
 
 ## How to Use This Practice

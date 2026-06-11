@@ -5,7 +5,7 @@ draft: true
 tags: ["productivity", "discipline", "career", "boundary", "habit"]
 description: "Saying no is the most consistently undervalued professional skill. A practical look at why it is hard, why it matters more in 2026 than it did a decade ago, and the specific practices that make refusing a request feel less costly than it usually does."
 cover:
-  image: /assets/images/personal-development/the-art-of-saying-no.jpg
+  image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg
   alt: The Art of Saying No Banner
 ---
 

@@ -5,7 +5,7 @@ draft: true
 tags: ['space', 'news', 'starship', 'nasa', 'esa', 'jwst', '2026']
 description: "The five space stories that mattered most over the last month - the first flight of SpaceX Starship V3, the SMILE mission's launch, a record-setting Cargo Dragon, China's Tianzhou-10 resupply, and the most detailed map yet of the universe's cosmic web."
 cover:
-  image: /assets/images/space/space-news-may-2026.jpg
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
   alt: Space news round-up for May 2026
 ---
 

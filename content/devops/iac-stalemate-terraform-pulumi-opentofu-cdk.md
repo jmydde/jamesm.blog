@@ -5,7 +5,7 @@ draft: true
 tags: ["devops", "iac", "terraform", "pulumi", "opentofu", "cdk"]
 description: "Infrastructure as Code in 2026 has settled into a four-way stalemate that nobody predicted. A practical look at Terraform, Pulumi, OpenTofu, and CDK - what each is genuinely good at, where each is fading, and which one you should actually pick today."
 cover:
-  image: /assets/images/devops/iac-stalemate-terraform-pulumi-opentofu-cdk.jpg
+  image: /assets/images/devops/platform-engineering-2026.jpg
   alt: The IaC Stalemate - Terraform Pulumi OpenTofu CDK Banner
 ---
 

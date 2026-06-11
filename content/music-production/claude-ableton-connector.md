@@ -5,7 +5,7 @@ draft: false
 tags: ['ai', 'ableton', 'claude', 'music production']
 description: "Anthropic just shipped an official Ableton Knowledge connector for Claude. Here is what it actually does, how it differs from the community AbletonMCP project, and why it changes how you learn Live and Push."
 cover:
-  image: assets/images/music-production/claude-ableton-connector.png
+  image: /assets/images/music-production/claude-ableton-connector.png
   alt: Claude connected to Ableton Live and Push
 ---
 

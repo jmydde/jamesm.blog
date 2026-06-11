@@ -5,7 +5,7 @@ draft: false
 tags: ["yamaha", "montage", "synth", "workstation", "review", "field-note"]
 description: "What the Yamaha Montage M is actually like to live with after six months of daily use, the parts that have aged well, the parts that have not, and the workflow conclusions that only come from time on the keys."
 cover:
-  image: assets/images/music-production/yamaha-montage-m-six-months.jpg
+  image: /assets/images/music-production/yamaha-montage-m-six-months.jpg
   alt: Yamaha Montage M Six Months In Banner
 ---
 

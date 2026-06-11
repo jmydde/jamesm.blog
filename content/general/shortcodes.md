@@ -4,6 +4,9 @@ date: 2020-01-01T00:00:01+01:00
 draft: false
 tags: ['hugo', 'shortcodes', 'reference', 'developer']
 description: "Developer reference guide for Hugo shortcodes and embedded content syntax."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: Hugo Shortcode Syntax Reference Banner
 ---
 
 ### Code

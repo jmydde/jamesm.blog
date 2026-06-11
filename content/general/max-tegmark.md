@@ -5,7 +5,7 @@ draft: false
 tags: ["physics","cosmology","multiverse","mathematics","ai","consciousness","science"]
 description: "Max Tegmark sits at the top of my favourite physicists list, and not by accident. A profile of the man and the through-line in his work - from precision cosmology to the four-level multiverse, the Mathematical Universe Hypothesis, consciousness as a state of matter, and his late turn to AI safety - and why his theories keep landing so close to what I already believe."
 cover:
-  image: assets/images/general/max-tegmark.jpg
+  image: /assets/images/general/max-tegmark.jpg
   alt: Max Tegmark - The Physicist Who Took Mathematics All the Way Down Banner
 ---
 

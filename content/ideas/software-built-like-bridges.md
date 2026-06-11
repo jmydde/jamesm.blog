@@ -5,7 +5,7 @@ draft: true
 tags: ["idea", "software", "engineering", "philosophy", "architecture"]
 description: "A speculative essay on what the practice of building software would look like if it borrowed the conventions of civil engineering - signed designs, regulated practitioners, public investigations of failures - and what that would actually cost and gain."
 cover:
-  image: /assets/images/ideas/software-built-like-bridges.jpg
+  image: /assets/images/general/human-advancement-acceleration.jpg
   alt: What If Software Were Built Like Bridges Banner
 ---
 

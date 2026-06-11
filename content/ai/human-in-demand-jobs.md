@@ -194,14 +194,6 @@ In 10 years, the high-value humans will be those who can:
 
 That's the stack to build towards.
 
----
-
-**Related reading:**
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  On judgment and taste as the premium human currency
-- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On how intelligence is becoming a commodity
-- [Expertise After AI](/ai/expertise-after-ai)  -  What expertise looks like when the floor rises
-- [Career Ops](/ai/career-ops)  -  Practical moves for navigating an AI-shaped career
-
 ## Related Reading
 
 - [Career-Ops: Flipping the Script on AI-Powered Job Search](/ai/career-ops/)

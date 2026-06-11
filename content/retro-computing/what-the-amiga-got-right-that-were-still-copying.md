@@ -2,11 +2,12 @@
 title: "What the Amiga Got Right (That We're Still Copying)"
 date: 2026-04-03T14:00:00+00:00
 draft: false
-tags: ['computing', 'retro', 'amiga', 'design', 'history', 'architecture']
+tags: ['retro-computing', 'amiga', 'design', 'history', 'architecture']
 description: "Why the Amiga was 20 years ahead of its time, and why modern operating systems are still trying to copy its best ideas."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: What the Amiga got right that we are still copying in modern computing
 ---
-
-# What the Amiga Got Right (That We're Still Copying)
 
 The Commodore Amiga was not the most successful computer. It was not the fastest. It was not the cheapest. It was introduced in 1985, bought by Commodore in a panic, and discontinued by 1994 as the company collapsed. By most commercial metrics, it was a failure.
 

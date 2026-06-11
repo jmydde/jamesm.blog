@@ -5,7 +5,7 @@ draft: true
 tags: ["creativity", "habit", "focus", "thinking", "discipline"]
 description: "A short essay on walking - not as exercise or transport, but as a deliberate cognitive practice. Why it works, how it differs from sitting and thinking, and how to make space for it when the rest of the day argues against it."
 cover:
-  image: /assets/images/general/walking-as-a-creative-tool.jpg
+  image: /assets/images/general/human-advancement-acceleration.jpg
   alt: Walking as a Creative Tool Banner
 ---
 

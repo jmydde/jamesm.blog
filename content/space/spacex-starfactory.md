@@ -4,6 +4,9 @@ date: 2024-06-22T18:39:01+01:00
 draft: false
 tags: ['spacex', 'space', 'starfactory', 'starship']
 description: "Information about SpaceX's Starfactory production facility for Starship rocket manufacturing and assembly."
+cover:
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
+  alt: SpaceX Starfactory - mass producing Starship rockets at Boca Chica, Texas
 ---
 
 ## About

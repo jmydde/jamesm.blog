@@ -5,7 +5,7 @@ draft: true
 tags: ["devops", "observability", "llm", "tracing", "monitoring"]
 description: "Watching an LLM-powered application in production is harder than watching a classic service - the failure modes are different and the signals are noisier. A practical look at the observability patterns that have stabilised in 2026 and which tools are doing the work."
 cover:
-  image: /assets/images/devops/observability-for-llm-applications.jpg
+  image: /assets/images/devops/ebpf-revolution.jpg
   alt: Observability for LLM Applications Banner
 ---
 

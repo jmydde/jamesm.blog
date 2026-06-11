@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "economy", "business", "labour", "opinion"]
 description: "A grounded look at Scott Galloway - the NYU marketing professor and serial entrepreneur arguing that AI is a late-stage bubble, that AI was built for the rich, and that storytelling and relationships are the skills the next decade rewards."
 cover:
-  image: assets/images/ai/scott-galloway-on-ai.jpg
+  image: /assets/images/ai/scott-galloway-on-ai.jpg
   alt: Scott Galloway on AI - The Marketing Professor's Case That the Rich Don't Need You Anymore Banner
 ---
 

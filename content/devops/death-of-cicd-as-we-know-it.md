@@ -5,7 +5,7 @@ draft: true
 tags: ["devops", "cicd", "agent", "automation", "build"]
 description: "The shape of CI/CD changed more in 2025-2026 than in the entire decade before it. A look at what AI-native build and test workflows actually look like, and what is genuinely different about them."
 cover:
-  image: /assets/images/devops/death-of-cicd-as-we-know-it.jpg
+  image: /assets/images/devops/platform-engineering-2026.jpg
   alt: The Quiet Death of CI CD as We Know It Banner
 ---
 

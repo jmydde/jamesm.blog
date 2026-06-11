@@ -4,6 +4,9 @@ date: 2023-05-29T06:45:18+01:00
 draft: false
 tags: ['airflow', 'apache', 'devops', 'github', 'cli', 'terminal', 'kubernetes', 'scheduling', 'sre', 'linux', 'open-source']
 description: "Curated collection of essential open-source DevOps projects on GitHub - SRE learning resources, Kubernetes tooling, Linux utilities, and workflow schedulers."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps GitHub Projects Banner
 ---
 
 Most of what makes a productive DevOps engineer is not hidden inside vendor portals - it lives in open source, on GitHub, and it is free. The projects below are the ones I return to most often, whether for learning, daily tooling, or reference implementations of patterns that would otherwise take weeks to work out alone.

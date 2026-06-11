@@ -4,6 +4,9 @@ date: 2026-04-07T11:00:00+01:00
 draft: false
 tags: ['engineering', 'burnout', 'productivity', 'management', 'communication', 'work-life-balance']
 description: "How engineers can recognize and prevent creative burnout through effective timeboxing, boundary-setting, and cross-level communication with stakeholders at all levels."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: The Engineer's Guide to Managing Creative Burnout Banner
 ---
 
 ## The Shape of Engineer Burnout

@@ -5,7 +5,7 @@ draft: true
 tags: ["idea", "software", "ai", "future", "saas"]
 description: "A speculative essay on what happens to mainstream software products as AI makes bespoke software economically viable for individuals and small teams. The case that we are nearing the end of generic software as the default, and what replaces it."
 cover:
-  image: /assets/images/ideas/last-generic-software.jpg
+  image: /assets/images/general/human-advancement-acceleration.jpg
   alt: The Last Generic Software Banner
 ---
 

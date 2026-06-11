@@ -4,6 +4,9 @@ date: 2026-03-12T20:00:39+01:00
 draft: false
 tags: ["personal-development","spirituality","self-improvement","personal-growth","life-purpose","resilience"]
 description: "Reflective essay on adversity, personal awakening, and discovering life purpose through life's challenges."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: The Universe Has a Plan for You Banner
 ---
 
 ## *On Adversity, Awakening, and Rediscovering Who You Are*

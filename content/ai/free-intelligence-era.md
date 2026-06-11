@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "future", "economy", "labour", "society"]
 description: "The single most important economic fact about AI is that the marginal cost of intelligence is collapsing toward zero. Most of our institutions, careers, and pricing models were built for the regime where it was scarce. This is what breaks when thinking goes from expensive to nearly free, and what that future actually rewards."
 cover:
-  image: assets/images/ai/free-intelligence-era.jpg
+  image: /assets/images/ai/free-intelligence-era.jpg
   alt: The Free Intelligence Era Banner
 ---
 
@@ -99,7 +99,7 @@ What can be said with some confidence is that the question is no longer whether 
 
 ## What to do, if you are sitting inside it
 
-This is not a essay where I pretend to have a tidy five-point action plan. But there are a few things I would say honestly to anyone trying to navigate this regime, in roughly the order I would prioritise them.
+This is not an essay where I pretend to have a tidy five-point action plan. But there are a few things I would say honestly to anyone trying to navigate this regime, in roughly the order I would prioritise them.
 
 Build deep familiarity with the tools, not as a hobby but as a working skill. The gap between people who can direct AI systems effectively and people who cannot is already large and widening. Sitting it out is not a neutral choice - it is a slow drift toward the bottom of the cognitive labour market. I wrote a [practical learning path](/ai/ai-tooling-learning-path) for the people I work with who asked me where to start.
 

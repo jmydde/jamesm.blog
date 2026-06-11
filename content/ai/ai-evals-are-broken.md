@@ -3,7 +3,7 @@ title: "AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability"
 date: 2026-06-12T19:00:00+01:00
 draft: false
 series: ["Trust"]
-tags: ["ai", "evals", "benchmarks", "mmlu", "swe-bench", "contamination", "agentic-engineering"]
+tags: ["ai", "eval", "benchmark", "mmlu", "swe-bench", "contamination", "agentic-engineering"]
 description: "A grounded look at why the public benchmark numbers you see on AI model launches in 2026 are increasingly disconnected from real-world capability - saturation, contamination, gaming, and what's replacing them as the basis for actual decisions."
 cover:
   image: /assets/images/ai/ai-evals-are-broken.jpg

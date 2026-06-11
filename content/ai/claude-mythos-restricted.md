@@ -17,7 +17,7 @@ cover:
 - This marks a shift away from open innovation toward controlled deployment, where the most capable AI may never be publicly released
 - The Mythos story forces a rethink of how we evaluate AI: benchmark performance and public availability are no longer the same thing
 
-Imagine an artificial intelligence so profoundly capable, so far beyond anything we've seen, that its creators deem it too risky for public release. This isn't a dystopian fantasy, but the real-world scenario presented by Anthropic's Claude Mythos. When Anthropic first unveiled Mythos, the AI community was abuzz - not just with its mind-bending benchmarks, but with the immediate caveat: it would not be publicly available. This decision heralds a new era in AI, one where raw power intersects with paramount security concerns.
+Anthropic built its most capable model to date, demonstrated it autonomously discovering thousands of zero-day vulnerabilities, and then declined to release it. That is the Mythos story, and it is worth sitting with rather than rushing past. The benchmarks are striking, but the decision not to publish is the more consequential part - it signals a real shift in how frontier AI labs are thinking about deployment.
 
 ## Benchmark Shattering, Publicly Unavailable
 

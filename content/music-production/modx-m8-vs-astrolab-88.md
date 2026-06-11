@@ -2,7 +2,11 @@
 title: "Yamaha MODX M8 vs Arturia AstroLab 88"
 date: 2025-12-16T21:47:21+01:00
 draft: false
-tags: ['yamaha', 'synth', 'arturia', 'astrolab', 'modx', 'pianos', 'keyboard']
+tags: ['yamaha', 'synth', 'arturia', 'astrolab', 'modx', 'piano', 'keyboard']
+description: "A side-by-side comparison of the Yamaha MODX M8 synthesizer workstation and the Arturia AstroLab 88 stage keyboard - two very different instruments aimed at different kinds of players."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Yamaha MODX M8 vs Arturia AstroLab 88
 ---
 
 ## Overview

@@ -4,6 +4,9 @@ date: 2022-01-21T11:51:18+01:00
 draft: false
 tags: ['monitoring', 'observability', 'devops', 'cloud', 'metric', 'logging', 'tracing']
 description: "Guide to monitoring and observability tools for cloud infrastructure and applications - AWS CloudWatch, Datadog, Grafana, Prometheus, and open-source alternatives."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: Monitoring and Observability Banner
 ---
 
 "Monitoring" and "observability" are not the same thing, even though the words are often used interchangeably. Monitoring tells you when a pre-defined thing has gone wrong. Observability is whether you can answer new questions about system behaviour - including questions you had not thought to ask when you built the dashboards.

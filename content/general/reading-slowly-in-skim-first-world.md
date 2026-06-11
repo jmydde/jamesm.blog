@@ -5,7 +5,7 @@ draft: true
 tags: ["reading", "focus", "attention", "habit", "mind"]
 description: "Most reading in 2026 happens as skimming, summarising, or AI-assisted extraction. A short defence of the older practice of reading slowly - what it does that the faster modes do not, and why it has become a quiet act of attention worth keeping."
 cover:
-  image: /assets/images/general/reading-slowly-in-skim-first-world.jpg
+  image: /assets/images/general/human-advancement-acceleration.jpg
   alt: Reading Slowly in a Skim-First World Banner
 ---
 

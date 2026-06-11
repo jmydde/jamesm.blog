@@ -4,6 +4,9 @@ date: 2020-01-01T00:00:00+01:00
 draft: false
 tags: ['markdown', 'hugo', 'reference', 'syntax']
 description: "Developer reference guide for Markdown syntax and Hugo shortcodes used on this site."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: Markdown Syntax Reference Banner
 ---
 
 # Headings

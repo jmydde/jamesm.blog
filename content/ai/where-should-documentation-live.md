@@ -5,7 +5,7 @@ draft: false
 tags: ['devops', 'documentation', 'knowledge-management', 'ai', 'workflow', 'confluence']
 description: "A brainstorm - not a proposal - on where different types of documents and artefacts should live, what the source of truth should be, and how AI tooling is reshaping that question."
 cover:
-  image: assets/images/devops/where-should-documentation-live.jpg
+  image: /assets/images/ai/ai-skills.jpg
   alt: Where Should Documentation Live Banner
 ---
 

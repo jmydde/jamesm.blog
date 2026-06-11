@@ -183,12 +183,6 @@ Go when you want one of three things:
 
 If an event gives you none of those, it is probably content marketing with lanyards.
 
----
-
-**Related reading:**
-- [AI Tools & Frameworks](/ai/ai-tools/)  -  A broader index of tools, platforms, and companies in the space
-- [AI Explainers](/ai/explainers)  -  Foundational material if you want deeper technical context before attending events
-
 ## Related Reading
 
 - [List of AI Courses & Learning Resources](/ai/courses/)

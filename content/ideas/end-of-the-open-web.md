@@ -5,7 +5,7 @@ draft: true
 tags: ["idea", "web", "internet", "future", "ai"]
 description: "A speculative essay on whether the open, link-and-search-driven web is in genuine decline as AI assistants become the primary interface to information. What 'open' really meant, what is replacing it, and what might be lost in the transition."
 cover:
-  image: /assets/images/ideas/end-of-the-open-web.jpg
+  image: /assets/images/general/human-advancement-acceleration.jpg
   alt: The End of the Open Web Banner
 ---
 

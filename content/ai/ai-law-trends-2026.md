@@ -89,9 +89,8 @@ What is certain is that the "move fast and figure out the legal stuff later" era
 
 If you are building with AI, deploying AI, or your business depends on AI outputs, the legal landscape is now one of the real constraints on what you can do and how you do it. That is probably healthy. But it is also genuinely new, and anyone who tells you they have it fully figured out is guessing.
 
----
+## External Resources
 
-*Further reading:*
 - [EU AI Act compliance overview - European Commission](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
 - [EU AI Act: Practical Compliance Guide for 2026 - Legiscope](https://www.legiscope.com/blog/eu-ai-act-compliance-guide.html)
 - [AI Enforcement Accelerates as Federal Policy Stalls - Morgan Lewis](https://www.morganlewis.com/pubs/2026/04/ai-enforcement-accelerates-as-federal-policy-stalls-and-states-step-in)

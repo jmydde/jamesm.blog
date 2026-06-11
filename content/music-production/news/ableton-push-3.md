@@ -3,6 +3,10 @@ title: "News: Ableton Push 3"
 date: 2023-05-23T14:53:39+01:00
 draft: false
 tags: ['music production', 'ableton']
+description: "Ableton Push 3 launches in two configurations - standalone and computer-connected - bringing 64 expressive pads, a built-in audio interface, and the option to upgrade to a full standalone instrument later."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Ableton Push 3 Banner
 ---
 
 ## About

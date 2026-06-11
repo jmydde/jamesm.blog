@@ -42,14 +42,7 @@ That sounds modest now, but at the time it was enough to change user behavior.
 
 ## Why the iPhone App Was a Big Deal
 
-The product itself was straightforward:
-
-- a native mobile interface
-- synced conversation history
-- voice input
-- easier access than a browser tab
-
-But the real shift was behavioral.
+The real shift was behavioral.
 
 Once AI became a tap away on a phone, it stopped feeling like a special destination and started feeling like a utility:
 
@@ -123,12 +116,6 @@ The significance of the app was never just that OpenAI shipped a mobile client.
 It was that AI crossed a line from "interesting software" into "default companion interface."
 
 That is when a category starts to become real.
-
----
-
-**Related reading:**
-- [Chatbots & Large Language Models (LLMs)](/ai/chatbots-llms)  -  A clearer explanation of the model layer versus the chatbot layer
-- [What Actually Belongs in My AI Dev Stack in 2026](/ai/what-actually-belongs-in-my-ai-dev-stack-2026)  -  How AI tools fit into a broader workflow once they become everyday utilities
 
 ## Related Reading
 

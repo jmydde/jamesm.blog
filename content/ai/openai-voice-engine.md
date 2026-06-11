@@ -18,13 +18,18 @@ cover:
 - As of 2026, the technology is restricted to approved partners and researchers rather than general availability
 
 ## About
-OpenAI's Voice Engine is a text-to-speech tool which can create realistic voices from just a 15-second audio sample.  It is notable that a small model with a single 15-second sample can create emotive and realistic voices.  To ensure responsible use testers must get clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
+
+Voice cloning used to require hours of studio recordings and bespoke model training. OpenAI's Voice Engine changes the equation: a 15-second audio sample is enough to produce a realistic, emotive voice clone. The capability is striking, which is exactly why OpenAI has kept it locked down since the initial preview.
+
+OpenAI's Voice Engine is a text-to-speech tool that creates realistic voices from just a 15-second audio sample. A small model with a single short sample can generate emotive and natural-sounding output - a combination that would have seemed implausible three years ago. To ensure responsible use, testers must obtain clear consent from voice providers, avoid creating user-generated voices, and inform listeners that the voices are AI-generated.
 
 ## Status & Access
 
 Voice Engine has remained in **limited preview** since its 2024 announcement. OpenAI has been cautious about broader deployment due to responsible AI considerations around synthetic voice generation, particularly concerns about voice cloning and impersonation risks.
 
 As of 2026, access is still restricted to approved partners and researchers, with clear consent and transparency requirements.
+
+The cautious rollout is the right call. The same capability that helps a non-verbal person use their own voice also makes fraud and impersonation trivially easy. Whether OpenAI eventually opens this up broadly - or keeps it restricted - will say a lot about how the industry handles dual-use voice technology going forward.
 
 ## Links
 

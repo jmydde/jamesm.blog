@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "agent", "architecture", "platform-engineering", "data-engineering", "product-management", "leadership"]
 description: "Some thoughts on where agent-first architecture might take us, and what engineering could look like if the job shifts from building systems line by line to curating, governing, and evolving fleets of agents."
 cover:
-  image: assets/images/ai/agent-first-architecture.jpg
+  image: /assets/images/ai/agent-first-architecture.jpg
   alt: Agent-First Architecture Banner
 ---
 
@@ -15,7 +15,7 @@ cover:
 - The engineer's role may shift from building and maintaining systems line by line to curating, governing, and evolving fleets of agents
 - Glue code, routine maintenance, first-pass incident triage, and migration work are plausible candidates for automation; deciding what a system is for and holding architectural intent across time probably are not
 - Managing an agent fleet might resemble logistics fleet management: define intent, set constraints, design feedback loops, curate the roster, and own the outcomes
-- This is a speculative post, not a description of how anything works today - the author is pinning down a hypothesis to revisit when it turns out to be wrong
+- This is a speculative post, not a description of how anything works today - pinning down a hypothesis to revisit when it turns out to be wrong
 
 This is a "thinking out loud" post, not a report from the front lines. I have no evidence any of this is happening at scale, and it is not how my current day job looks. These are just ideas I keep turning over, and I wanted to write them down to see if they hold together.
 

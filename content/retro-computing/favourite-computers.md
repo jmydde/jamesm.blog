@@ -4,6 +4,9 @@ date: 2024-07-29T07:50:01+01:00
 draft: false
 tags: ['computing', 'software', 'gaming', 'phone', 'pc', 'computer', 'retro']
 description: "Personal history and collection of favourite computers, gaming consoles, and mobile devices from the 1970s to present day."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: A personal history of favourite computers, consoles, and mobile devices
 ---
 
 A list of all my favourite computers, phones & games consoles I've mostly owned or used at school & college, in order of purchase / initial use ...

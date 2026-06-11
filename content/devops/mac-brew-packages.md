@@ -2,8 +2,11 @@
 title: "Mac Homebrew packages"
 date: 2026-04-04T20:59:35+01:00
 draft: false
-tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 'syntax highlighting', 'monitoring', 'package management', 'linux']
+tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 'monitoring', 'linux']
 description: "Comprehensive list of essential Homebrew packages for macOS development, DevOps, cloud tools, and command-line utilities."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: Mac Homebrew Packages Banner
 ---
 
 [Homebrew](https://brew.sh/) is the package manager that makes a Mac genuinely usable as a development machine. The list below is the working set of packages I install on a new laptop, organised by what they do rather than alphabetically. Most can be installed in one command: `brew install <package>`. For graphical applications, see the companion [Mac Applications and Utilities]({{< ref "/devops/mac-apps-utils" >}}) page.

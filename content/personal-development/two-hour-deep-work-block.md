@@ -5,7 +5,7 @@ draft: true
 tags: ["productivity", "focus", "deep-work", "discipline", "habit"]
 description: "Sustained focus has become more valuable and harder to protect as AI assistants shorten the cycle on shallow work. A practical look at the 2-hour deep work block as a defensive structure, what makes it work, and what tends to break it."
 cover:
-  image: /assets/images/personal-development/two-hour-deep-work-block.jpg
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
   alt: The 2-Hour Deep Work Block - Defending Cognition in 2026 Banner
 ---
 

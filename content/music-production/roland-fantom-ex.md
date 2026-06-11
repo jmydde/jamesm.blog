@@ -2,8 +2,11 @@
 title: "Roland Fantom EX"
 date: 2024-06-17T22:29:21+01:00
 draft: false
-tags: ['roland', 'fantom', 'fantom ex', 'synth', 'synthesizers', 'workstations', 'keyboard']
+tags: ['roland', 'fantom', 'fantom ex', 'synth', 'synthesizer', 'workstation', 'keyboard']
 description: "Comprehensive guide to Roland Fantom EX synthesizer workstations including models, features, and specifications."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Roland Fantom EX Synthesizer Workstation
 ---
 
 ![alt](/images/Roland-Fantom-8-EX.jpg)

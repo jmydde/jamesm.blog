@@ -3,6 +3,10 @@ title: "DevOps in the Age of AI Agents"
 date: 2026-04-05T23:00:00+01:00
 draft: false
 tags: ['devops', 'ai', 'automation', 'ci-cd', 'platform-engineering']
+description: "AI agents are reshaping DevOps - from intelligent CI/CD pipelines that self-heal broken builds to autonomous operations that can navigate cloud consoles and roll back deployments without human intervention."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps in the Age of AI Agents Banner
 ---
 
 For years, DevOps has been about breaking down silos and automating the software delivery lifecycle. We moved from manual deployments to Jenkins scripts, then to YAML-defined pipelines, and eventually to Infrastructure as Code (IaC).

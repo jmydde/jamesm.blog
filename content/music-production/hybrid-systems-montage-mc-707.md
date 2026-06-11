@@ -5,7 +5,7 @@ draft: false
 tags: ["yamaha", "roland", "montage", "groovebox", "midi", "workflow", "hardware"]
 description: "How a Yamaha Montage M and a Roland MC-707 stop being two boxes that fight each other and start being one instrument with two heads, plus the wiring, the routing, and the parts of the workflow that earn their keep."
 cover:
-  image: assets/images/music-production/hybrid-systems-montage-mc-707.jpg
+  image: /assets/images/music-production/hybrid-systems-montage-mc-707.jpg
   alt: Hybrid Systems Montage MC-707 Banner
 ---
 

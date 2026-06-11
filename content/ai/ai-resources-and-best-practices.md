@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "best-practice", "learning", "resource"]
 description: "A comprehensive guide to the best resources and practices for working effectively with AI models, from prompt engineering to system design."
 cover:
-  image: assets/images/ai/ai-resources-best-practices.jpg
+  image: /assets/images/ai/ai-resources-best-practices.jpg
   alt: AI Resources & Best Practices Banner
 ---
 
@@ -17,7 +17,7 @@ cover:
 - Official documentation from model providers (Anthropic, OpenAI, Google) is the most reliable source of best practices
 - The curated resources table covers everything from **GitHub Copilot** to local model deployment with Ollama
 
-The AI landscape is evolving rapidly, and knowing where to find reliable guidance on best practices has become essential for developers, researchers, and organizations. This post curates the most valuable resources and practices that will help you work more effectively with modern AI systems.
+Most AI tutorials teach you how to get started. Few teach you how to get it right. This post curates the most valuable resources and practices for working effectively with modern AI systems - from prompt engineering fundamentals through to production system design and evaluation.
 
 ## Key Best Practices to Master
 

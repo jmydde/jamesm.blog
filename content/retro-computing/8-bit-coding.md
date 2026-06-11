@@ -4,6 +4,9 @@ date: 2026-04-08T06:00:00+01:00
 draft: false
 tags: ["retro-computing","tech-history","programming","bbc-micro","zx-spectrum","80s"]
 description: "In the 1980s, a unique confluence of government policy, public broadcasting, and garage-built hardware turned the UK into a coding powerhouse. This is how it happened."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: 8-bit computers and the UK coding revolution of the 1980s
 ---
 
 There is a specific sound that defines the childhood of a generation: the high-pitched screech and rhythmic thrum of a data cassette loading into an 8-bit computer. 

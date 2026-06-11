@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "safety", "alignment", "philosophy", "simulation"]
 description: "Roman Yampolskiy's Personal Universes proposal takes the simulation hypothesis seriously and turns it into an alignment strategy: one optimised reality per person. A look at what the idea claims, where it cracks, and why it is more useful than it looks."
 cover:
-  image: assets/images/ai/yampolskiy-personal-universes.png
+  image: /assets/images/ai/yampolskiy-personal-universes.png
   alt: Personal Universes - Yampolskiy's Strangest Answer to the AI Alignment Problem Banner
 ---
 

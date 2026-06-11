@@ -5,8 +5,8 @@ draft: false
 tags: ["philosophy","science","physics","consciousness","simulation"]
 description: "A careful look at the simulation argument: what it actually claims, why putting a number on it is so hard, and how likely it really is that our reality is computed."
 cover:
-  image: assets/images/general/how-likely-are-we-living-in-a-simulation.png
-  alt: Universe Icon
+  image: /assets/images/general/how-likely-are-we-living-in-a-simulation.png
+  alt: How Likely Are We Living in a Simulation Banner
 ---
 
 "Are we living in a simulation?" is one of those questions that sounds like late-night dorm-room talk and then turns out to have a serious literature behind it.

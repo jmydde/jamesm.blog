@@ -2,7 +2,11 @@
 title: "Top 10 Plugins of 2025"
 date: 2025-12-02T09:29:21+01:00
 draft: false
-tags: ['plugin', 'top 10']
+tags: ['plugin']
+description: "A curated look at the top 10 VST plugins of 2025, plus a tier list of the 30 best plugins for music production across FL Studio, Ableton Live, and Logic Pro."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Top 10 VST Plugins of 2025
 ---
 
 ## My Top 10 Plugins of 2025!

@@ -5,7 +5,7 @@ draft: false
 tags: ['soundcloud', 'music']
 description: "Tracks from April 2026"
 cover:
-  image: assets/images/music-production/my-tracks-2026-04.jpg
+  image: /assets/images/music-production/my-tracks-2026-04.jpg
   alt: My Tracks - April 2026 - Banner
 ---
 

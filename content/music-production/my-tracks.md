@@ -4,6 +4,9 @@ date: 2025-12-05T12:28:21+01:00
 draft: false
 tags: ['soundcloud', 'music']
 description: "A collection of electronic and ambient music tracks, including original compositions and remixes."
+cover:
+  image: /assets/images/music-production/my-tracks-2026-04.jpg
+  alt: My Tracks - Music Production
 ---
 
 A selection of my music production work spanning various genres and styles. These tracks explore themes of ambient soundscapes, electronic textures, and atmospheric production.

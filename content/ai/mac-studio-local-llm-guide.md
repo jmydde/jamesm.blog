@@ -6,7 +6,7 @@ type: guide
 tags: ["ai","apple-silicon","llm","mac-studio","inference","local-llm","qwen","llama"]
 description: "A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense."
 cover:
-  image: images/mac-studio-llms.jpg
+  image: /assets/images/ai/inference-hardware-insurgents.png
   alt: Mac Studio LLMs Icon
 ---
 

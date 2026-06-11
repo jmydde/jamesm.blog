@@ -17,11 +17,11 @@ cover:
 - Structured outputs enforce syntactic correctness at generation time, but semantic correctness - whether the output actually solves the right problem - still requires layered verification on top
 - The future of AI quality assurance is designing robust evaluation frameworks and measuring properties of acceptable outputs, not writing exhaustive unit tests for code the model may generate differently next time
 
-We've embraced the future. AI agents like [Cline](https://jamesm.blog/ai/cline/) are now the primary "builders" of software, executing complex engineering plans from high-level specifications. As I've argued in ["The Architect vs The Builder"](https://jamesm.blog/ai/architect-vs-builder/), the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in ["AI agents that actually work"](/ai/ai-agents-that-actually-work/), and the wider safety framing sits in ["AI safety from first principles"](/ai/ai-safety-first-principles/).
+AI agents like [Cline](https://jamesm.blog/ai/cline/) are now the primary "builders" of software in many workflows, executing complex engineering plans from high-level specifications. As I have argued in ["The Architect vs The Builder"](https://jamesm.blog/ai/architect-vs-builder/), the human role is shifting from execution to architectural oversight and defining intent. The patterns that determine whether agents stay shipped are covered in ["AI agents that actually work"](/ai/ai-agents-that-actually-work/), and the wider safety framing sits in ["AI safety from first principles"](/ai/ai-safety-first-principles/).
 
-But this shift introduces a profound, often uncomfortable, question: **How do we know it actually works?**
+But this shift introduces a direct and uncomfortable question: **How do we know it actually works?**
 
-In a world where AI is writing the code, generating the data, and even orchestrating deployments, traditional notions of testing and reliability are breaking down. AI reliability is weird, and it demands a complete re-evaluation of our verification strategies.
+In a world where AI is writing the code, generating the data, and orchestrating deployments, traditional notions of testing and reliability are breaking down. AI reliability is weird, and it demands a complete re-evaluation of verification strategies.
 
 ## The Old Covenant: Deterministic Testing for Deterministic Code
 
@@ -110,10 +110,7 @@ The future of software quality in the agentic era is less about writing exhausti
 *   **Embracing iterative refinement of evaluation metrics.**
 *   **Leveraging AI itself to verify AI-generated outputs.**
 
-AI reliability is weird because it forces us to confront the non-deterministic nature of intelligence. But by adapting our verification strategies, we can build trust in our autonomous builders and continue to push the boundaries of what's possible. It's a shift from "test what you wrote" to "verify what the AI built against your intent." This is the new frontier for software quality.
-
----
-*How are you tackling reliability in your agentic workflows? Share your insights in the comments below!*
+AI reliability is weird because it forces a confrontation with the non-deterministic nature of intelligence. By adapting verification strategies, it is possible to build trust in autonomous builders and continue pushing the boundaries of what is possible. The shift is from "test what you wrote" to "verify what the AI built against your intent." That is the new frontier for software quality, and it requires building for it intentionally rather than hoping the model gets it right.
 
 ## Related Reading
 

@@ -17,7 +17,7 @@ cover:
 - The AI layer is good for in-context drafting and lookup; less suited to heavy reasoning where a dedicated [LLM tool](/ai/ai-tools/) does better
 - Pricing is per-seat for Notion plus an AI add-on; check the current tiers before committing for a team
 
-[Notion](https://www.notion.so/) is a comprehensive workspace platform for note-taking, documentation, task management, and knowledge organization.
+Most productivity tools force a choice: notes here, tasks there, docs somewhere else. [Notion](https://www.notion.so/) bets that a single flexible workspace - one that handles all of these - is more valuable than three best-of-breed tools that don't talk to each other. The bet mostly holds, and the addition of Notion AI has made the knowledge layer genuinely more useful.
 
 ## Features
 
@@ -50,7 +50,7 @@ cover:
 - **Business:** $18/user/month with advanced features
 - **Enterprise:** Custom pricing
 
-Notion AI transforms the platform from a note-taking tool into a collaborative knowledge system with generative capabilities, making it valuable for both individual and team knowledge workflows.
+Notion AI transforms the platform from a note-taking tool into a collaborative knowledge system with generative capabilities. For individuals and teams already invested in the Notion workspace, the AI layer is a meaningful upgrade - not because it does anything revolutionary, but because Q&A, summarisation, and drafting happen where your knowledge already lives.
 
 ## Related Reading
 

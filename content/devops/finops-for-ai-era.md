@@ -5,7 +5,7 @@ draft: true
 tags: ["devops", "finops", "cloud", "cost", "ai"]
 description: "Cloud cost discipline was already a real practice. AI inference budgets have made it a critical one. A practical look at how FinOps is changing in 2026 to account for the token-and-GPU costs that now dominate many engineering budgets."
 cover:
-  image: /assets/images/devops/finops-for-ai-era.jpg
+  image: /assets/images/devops/platform-engineering-2026.jpg
   alt: FinOps for the AI Era Banner
 ---
 

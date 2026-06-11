@@ -25,6 +25,7 @@ The venture launched with an initial $100 billion committed, with plans to grow 
 
 Construction has already begun in Texas and other locations as of 2026, with plans for additional facilities across multiple regions. The purpose is to provide the computational infrastructure needed to train and deploy next-generation AI models and support the rapidly expanding AI ecosystem.
 
+Whether the full $500B materialises on schedule is the question. The first $100B is committed and construction is underway. Stargate is the clearest signal yet that the people building frontier AI genuinely believe the compute requirements of the next decade will dwarf what has come before - and that they are willing to bet at sovereign-wealth scale on that belief.
 
 ## YouTube
 

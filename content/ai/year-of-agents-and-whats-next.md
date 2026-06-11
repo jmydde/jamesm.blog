@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "agent", "tooling", "workflow", "future", "productivity"]
 description: "A look back at how AI tooling and agents shifted between April 2025 and April 2026, what is clearly coming in the next two years, and how the changes will reshape both work and personal workflows."
 cover:
-  image: assets/images/ai/a-year-of-agents-whats-next.jpg
+  image: /assets/images/ai/a-year-of-agents-whats-next.jpg
   alt: A year of AI agents
 ---
 

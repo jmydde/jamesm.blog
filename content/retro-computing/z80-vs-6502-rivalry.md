@@ -5,8 +5,8 @@ draft: true
 tags: ["retro", "8-bit", "cpu", "zilog", "mos", "architecture"]
 description: "Two 8-bit processors defined the home computer revolution: Zilog's Z80 and MOS Technology's 6502. A look at how their architectural choices shaped completely different traditions of programming - and which echoes of that rivalry are still visible in modern CPU design."
 cover:
-  image: /assets/images/retro-computing/z80-vs-6502-rivalry.jpg
-  alt: Z80 vs 6502 - The Architectural Rivalry That Shaped a Generation Banner
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: Z80 vs 6502 - the architectural rivalry that shaped a generation of home computers
 ---
 
 The home computer revolution of the late 1970s and early 1980s was carried, more than anything else, by two 8-bit processors. The Zilog Z80 powered the Sinclair ZX Spectrum, the Amstrad CPC, the various MSX machines, the TRS-80, and the CP/M ecosystem. The MOS 6502 powered the Commodore PET, VIC-20, and C64, the Apple II, the Atari 8-bit family, the BBC Micro, and the original Nintendo Entertainment System. Almost every home computer of the era ran one or the other - rarely something else, and almost never both.

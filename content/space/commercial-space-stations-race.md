@@ -5,8 +5,8 @@ draft: true
 tags: ["space", "iss", "station", "commercial", "nasa"]
 description: "The International Space Station retires before the decade ends, and four commercial successors are now in serious development. A look at where each one actually stands in 2026, what NASA's transition plan looks like, and which of these will plausibly fly."
 cover:
-  image: /assets/images/space/commercial-space-stations-race.jpg
-  alt: The Commercial Space Stations Race Banner
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
+  alt: The commercial space stations race - Vast, Axiom, Starlab, and Orbital Reef
 ---
 
 The International Space Station's planned end-of-life around 2030 has put a hard deadline on a question that has been circling NASA for years: what does continuous American presence in low Earth orbit look like after the ISS? The bet NASA placed - that commercial operators would build replacements rather than the agency funding a successor outright - is now midway through being tested. Four serious projects are in development, with real money, real hardware, and real schedules. Whether any of them will be flying habitable stations by the ISS's actual retirement is the open question.

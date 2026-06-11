@@ -2,8 +2,11 @@
 title: "u-he Zebra 3: The Modular Beast Unleashed"
 date: 2026-04-09T22:46:00+00:00
 draft: false
-tags: ["synth","software-synth","sound-design","music-production","u-he","zebra3"]
-description: "Exploring the highly anticipated u-he Zebra 3, a modular soft synth that redefines sound design with its unparalleled flexibility and sonic depth."
+tags: ["synth","software synth","sound design","music production","u-he","zebra3"]
+description: "Exploring u-he Zebra 3, a modular soft synth that redefines sound design with its grid-based modulation, spectral oscillators, and deep signal routing."
+cover:
+  image: /assets/images/music-production/physical-modeling-synths.jpg
+  alt: u-he Zebra 3 Modular Software Synthesizer
 ---
 
 In the realm of software synthesizers, few names command as much respect and anticipation as u-he. And among their legendary lineup, Zebra has always stood out as a chameleon – a semi-modular powerhouse capable of almost any sound. Now, with the long-awaited arrival of **Zebra 3**, the beast has truly been unleashed, promising to redefine what's possible in digital sound design.

@@ -4,9 +4,10 @@ date: 2026-04-03T09:00:00+00:00
 draft: false
 tags: ['computing', 'retro', 'history', 'community', 'bbs', 'prestel', 'britain']
 description: "The story of Compunet: how a British BBS became one of the world's first online communities, years before the internet, and how it shaped British digital culture."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: Compunet - Britain's forgotten pre-internet online community
 ---
-
-# Compunet: Britain's Forgotten Pre-Internet Community
 
 Long before Facebook, Twitter, or Reddit, there was Compunet. In 1982, in a small flat in Islington, London, two teenagers set up a computer bulletin board system on a network called Prestel. Within a few years, it had become one of the world's first genuine online communities - thousands of people meeting in cyberspace, exchanging messages, playing games, and falling in love, all before the internet existed in public consciousness.
 

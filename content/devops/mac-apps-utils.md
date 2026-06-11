@@ -4,6 +4,9 @@ date: 2026-04-04T20:56:00+01:00
 draft: false
 tags: ['mac', 'macos', 'tool', 'utility', 'productivity', 'development']
 description: "Curated collection of essential macOS applications and utilities for productivity, development, file management, and system optimisation."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: Mac Applications and Utilities Banner
 ---
 
 This is the working set of Mac applications I actually use, grouped by the job they do rather than by category of app. Most of these I have paid for at some point - the investment has usually been justified within a week. A handful are free and just happen to be best-in-class. For command-line tooling installed through Homebrew, see the companion [Mac Homebrew Packages]({{< ref "/devops/mac-brew-packages" >}}) page.

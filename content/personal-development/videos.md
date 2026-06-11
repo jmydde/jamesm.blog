@@ -4,6 +4,9 @@ date: 2023-05-27T09:02:39+01:00
 draft: false
 tags: ["personal-development","youtube","video","motivation","self-improvement"]
 description: "Curated list of YouTube channels and creators focused on personal development, motivation, and self-improvement."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: List of Personal Development Videos Banner
 ---
 ## [Absolute Motivation](https://www.youtube.com/channel/UCpmZQGTZXn9xd4nN59pbIWQ/)
 - ...

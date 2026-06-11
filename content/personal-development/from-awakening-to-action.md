@@ -2,8 +2,11 @@
 title: "From Awakening to Action: Building the Life You've Discovered"
 date: 2026-04-09T08:30:00+01:00
 draft: false
-tags: ['personal development', 'action', 'resilience', 'life purpose', 'growth', 'implementation']
+tags: ['personal-development', 'action', 'resilience', 'life-purpose', 'growth', 'implementation']
 description: "After the awakening comes the work: How to translate clarity about your purpose into concrete, sustainable action. The bridge between cosmic insight and real change."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: From Awakening to Action Banner
 ---
 
 ## *The Space Between Knowing and Becoming*

@@ -18,9 +18,10 @@ cover:
 - Worth understanding as the moment that made cheap, capable, open models a credible default rather than a curiosity
 
 ## Overview
-Wow, crazy times, **the best technology in the world is now becoming incredibly cheap and accessible to everyone!** 🤯
 
-**DeepSeek**'s AI chatbot has become the **top free app on Apple's store** since its January launch. This rapid success, fuelled by DeepSeek's **cost-effectiveness** compared to US competitors, has sent shockwaves through financial markets.
+In January 2025, a Chinese AI lab most people had never heard of dropped a frontier-grade reasoning model for a reported $6 million and watched it hit the top of the Apple App Store inside days. **DeepSeek** R1 did not just impress researchers - it shook equity markets, forced a hard look at what US labs were actually spending their billions on, and made cheap, capable, open-weight models a credible default rather than an interesting curiosity.
+
+**DeepSeek**'s AI chatbot became the **top free app on Apple's store** within days of its January launch. The rapid ascent, driven by DeepSeek's **cost-effectiveness** compared to US competitors, sent shockwaves through financial markets.
 
 Venture capitalist Marc Andreessen has lauded DeepSeek's AI as a "**groundbreaking achievement**", while the company claims its models rival industry leaders like ChatGPT at a **fraction of the cost**. DeepSeek reportedly invested **only $6 million** in its development, a stark contrast to the **billions spent by US AI companies**.
 

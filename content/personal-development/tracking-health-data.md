@@ -4,6 +4,9 @@ date: 2024-07-27T10:47:39+01:00
 draft: false
 tags: ["personal-development","health","health-data","wellness","fitness"]
 description: "Guide to tracking personal health data including blood testing, fitness apps, smartwatches, and health monitoring tools."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: Tracking Health Data Banner
 ---
 
 ## Blood Testing

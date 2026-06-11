@@ -5,8 +5,8 @@ draft: true
 tags: ["space", "astronomy", "starlink", "satellite", "observation"]
 description: "The night sky in 2026 has tens of thousands of satellites in low Earth orbit, and that number is going to keep climbing. A practical look at what this is actually doing to professional astronomy, what the mitigations are achieving, and where the unresolved tensions remain."
 cover:
-  image: /assets/images/space/astronomy-in-era-of-giant-constellations.jpg
-  alt: Astronomy in the Era of Giant Constellations Banner
+  image: /assets/images/space/space-debris-tragedy-of-the-commons.jpg
+  alt: Astronomy in the era of giant satellite constellations - the Starlink problem
 ---
 
 For most of human history the night sky has been the most stable thing in our experience. The same constellations, in roughly the same positions, for tens of thousands of years. That stability ended around 2019 when SpaceX began launching Starlink satellites in significant numbers, and the change has accelerated since. By 2026 there are tens of thousands of active satellites in low Earth orbit, with announced plans pushing toward hundreds of thousands by the end of the decade across Starlink, OneWeb, Amazon's Project Kuiper, Chinese constellations, and others.

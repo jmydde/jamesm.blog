@@ -2,8 +2,11 @@
 title: "SpaceX Starship vs NASA SLS: Two Visions for Deep Space"
 date: 2026-04-07T10:00:00+01:00
 draft: false
-tags: ['spacex', 'nasa', 'starship', 'sls', 'space', 'launch-vehicles', 'artemis']
+tags: ['spacex', 'nasa', 'starship', 'sls', 'space', 'launch-vehicle', 'artemis']
 description: "A detailed comparison of SpaceX's Starship and NASA's Space Launch System - two fundamentally different approaches to returning humans to the Moon and beyond."
+cover:
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
+  alt: SpaceX Starship vs NASA SLS - two visions for the future of deep space exploration
 ---
 
 ## Two Paths Diverge

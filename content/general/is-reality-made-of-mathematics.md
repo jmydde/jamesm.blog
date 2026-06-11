@@ -5,7 +5,7 @@ draft: false
 tags: ["physics","science","mathematics","cosmology","philosophy"]
 description: "Max Tegmark's Mathematical Universe Hypothesis says reality is not merely described by mathematics - it is a mathematical structure, and nothing else. A walk through the claim, the Level IV multiverse, the strongest objections, and why the idea sits so close to something I already lean toward."
 cover:
-  image: assets/images/general/is-reality-made-of-mathematics.jpg
+  image: /assets/images/general/is-reality-made-of-mathematics.jpg
   alt: Is Reality Made of Mathematics Banner
 ---
 

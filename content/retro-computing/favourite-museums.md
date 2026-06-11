@@ -4,6 +4,9 @@ date: 2024-09-22T12:57:01+00:00
 draft: false
 tags: ['computing', 'technology', 'museum', 'history', 'heritage', 'science']
 description: "Personal list of favourite museums, particularly focused on computing, technology and natural history."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: Favourite museums covering computing, science, history and art
 ---
 
 ## Computing

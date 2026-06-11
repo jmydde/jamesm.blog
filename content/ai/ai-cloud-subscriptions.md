@@ -6,7 +6,7 @@ tags: ["ai", "cloud", "subscription", "api"]
 description: "A 2026 buyer's guide to AI cloud subscriptions. Compare API pricing, context windows, rate limits, and consumer plans across Anthropic, OpenAI, Google, Microsoft, xAI, Mistral, and DeepSeek."
 cover:
   image: /assets/images/ai/ai-cloud-subscriptions.jpg
-  alt: AI Cloud Subsriptions Icon
+  alt: AI Cloud Subscriptions Icon
 ---
 
 AI cloud subscriptions have fragmented into a crowded market. Frontier-lab APIs compete with open-weights challengers, consumer chat plans compete with agent platforms, and every provider is reshuffling model tiers every few months. This guide organizes the 2026 landscape so you can pick a plan without reading six pricing pages.

@@ -5,7 +5,7 @@ draft: false
 tags: ["ai","automation","future-of-work","judgment","economics"]
 description: "As AI handles routine cognitive work, the irreplaceable skill becomes not execution, but deciding what's worth doing - and why human judgment becomes more valuable, not less."
 cover:
-  image: assets/images/ai/automation-paradox.jpg
+  image: /assets/images/ai/automation-paradox.jpg
   alt: The Automation Paradox Why More AI Makes Human Judgment More Valuable Banner
 ---
 

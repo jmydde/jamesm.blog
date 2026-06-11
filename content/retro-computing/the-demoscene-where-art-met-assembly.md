@@ -2,11 +2,12 @@
 title: "The Demoscene: Where Art Met Assembly"
 date: 2026-04-02T14:00:00+00:00
 draft: false
-tags: ['computing', 'retro', 'assembly', 'demoscene', 'art', 'history']
+tags: ['retro-computing', 'assembly', 'demoscene', 'art', 'history']
 description: "The story of the demoscene: where programmers turned constraint into creativity, and assembly language into art."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: The demoscene - where art met assembly language on 1980s home computers
 ---
-
-# The Demoscene: Where Art Met Assembly
 
 The demoscene wasn't about games. It wasn't about productivity software or killer apps. It was about taking a computer that wasn't designed for art, stripping away the operating system, and hand-crafting something beautiful in 512 bytes of RAM.
 

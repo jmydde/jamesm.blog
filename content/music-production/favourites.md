@@ -4,6 +4,9 @@ date: 2026-01-08T18:53:39+01:00
 draft: false
 tags: ['music', 'artist', 'band', 'dj', 'composer', 'concert', 'entertainment']
 description: "Personal collection of favourite music artists, bands, DJs, composers, concerts, and theatre experiences."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Favourite Artists Bands DJs Composers
 ---
 
 A curated, living list of the artists, players, and shows that have shaped my listening and playing over the years. Grouped by category and condensed into tables for quick scanning.

@@ -4,6 +4,9 @@ date: 2026-04-09T06:24:00+01:00
 draft: false
 tags: ['personal-development', 'product', 'strategy']
 description: "The skill of saying no - of recognizing which ideas deserve your time and which don't - is more valuable than execution ability."
+cover:
+  image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg
+  alt: The Most Valuable Skill Is Knowing What Not to Build Banner
 ---
 
 Every builder knows the feeling. You have an idea. It's clever. It could be useful. You start sketching it out, planning the architecture, imagining how it would work.

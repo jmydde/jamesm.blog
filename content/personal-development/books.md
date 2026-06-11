@@ -4,6 +4,9 @@ date: 2023-05-28T09:02:39+01:00
 draft: false
 tags: ["personal-development", "book", "self-improvement", "learning"]
 description: "Recommended reading list of personal development and self-improvement books covering mental models, habits, and success."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: List of Personal Development Books Banner
 ---
 ## Books
 - [100 Mental Models](https://wisdomtheory.gumroad.com/l/100MM/) ([Wisdom Theory](https://wisdomtheory.gumroad.com/)) - the most important ideas of each science: philosophy, mathematics, physics, statistics, engineering, chemistry, biology, psychology, economics & history

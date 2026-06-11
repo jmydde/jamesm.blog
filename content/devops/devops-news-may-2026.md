@@ -5,7 +5,7 @@ draft: true
 tags: ['devops', 'news', 'security', 'kubernetes', 'ci-cd', 'ai']
 description: "The biggest DevOps stories of the last month - a npm supply chain attack that swallowed GitHub and Grafana, AWS shipping autonomous operations agents, Kubernetes v1.36, and the growing argument that Git cannot keep up with AI-generated code."
 cover:
-  image: /assets/images/devops/devops-news-may-2026.jpg
+  image: /assets/images/devops/platform-engineering-2026.jpg
   alt: DevOps news round-up for May 2026
 ---
 

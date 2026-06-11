@@ -5,7 +5,7 @@ draft: false
 tags: ['space', 'nasa', 'spacex', 'artemis', 'starship', 'sls', 'moon', 'mars', 'rocket']
 description: "A grounded look at the rockets carrying humans into space in 2026 - SLS, Starship, New Glenn, and Long March 10 - and where crewed exploration is actually heading over the next decade."
 cover:
-  image: assets/images/space/human-spaceflight-rockets-2026.jpg
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
   alt: Human Spaceflight Rockets 2026 Banner
 ---
 

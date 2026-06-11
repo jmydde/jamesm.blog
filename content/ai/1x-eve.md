@@ -19,13 +19,13 @@ cover:
 - Learns and adapts over time through **embodied AI**, rather than following fixed pre-programmed routines
 
 ## Overview
-1X EVE is an android worker designed by [1X Technologies](https://www.1x.tech/). It's a mobile robot with wheels and gripper arms that can be used for various tasks in logistics, retail, and other industries.
+1X EVE is an android worker designed by [1X Technologies](https://www.1x.tech/). It is a wheeled robot with gripper arms, built for logistics, retail, and industrial environments where operating alongside humans is the default, not the exception.
 
-Here are some key features of 1X EVE:
-- Designed for safe interaction with humans due to its soft and organic-inspired mechanics.
-- Can navigate human environments by opening doors, using elevators, and fitting into workspaces.
-- Equipped with advanced language processing and can understand and respond to natural language commands.
-- Learns and adapts through embodied artificial intelligence.
+Key design properties:
+- Soft, organic-inspired mechanics for safe physical interaction with humans.
+- Navigates human environments by opening doors, using elevators, and fitting into standard workspaces.
+- Understands and responds to natural language commands via advanced language processing.
+- Learns and adapts through embodied artificial intelligence rather than fixed pre-programmed routines.
 
 ## YouTube
 

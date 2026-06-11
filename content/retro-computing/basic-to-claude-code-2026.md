@@ -2,8 +2,11 @@
 title: "From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About"
 date: 2026-04-02T09:00:00+00:00
 draft: false
-tags: ['programming', 'history', 'AI', 'retro-computing', 'philosophy', 'development']
+tags: ['programming', 'history', 'ai', 'retro-computing', 'philosophy']
 description: "A 45-year thread from typing BASIC on a ZX Spectrum to using Claude Code: what hasn't changed about programming, and what fundamentally has."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: From BASIC in 1981 to Claude Code in 2026
 slug: "basic-to-claude-code-2026"
 ---
 

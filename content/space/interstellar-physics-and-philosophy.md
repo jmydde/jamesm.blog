@@ -5,7 +5,7 @@ draft: false
 tags: ['space', 'physics', 'film', 'science', 'relativity', 'philosophy', 'black-hole', 'wormhole']
 description: "How Christopher Nolan and Nobel laureate Kip Thorne built a Hollywood film around real general relativity - wormholes, Gargantua, gravitational time dilation, the Tesseract, and the trade-offs between scientific accuracy and storytelling."
 cover:
-  image: assets/images/space/interstellar-physics-and-philosophy.jpg
+  image: /assets/images/space/interstellar-physics-and-philosophy.jpg
   alt: Interstellar Physics and Philosophy Banner
 ---
 

@@ -4,6 +4,9 @@ date: 2023-12-15T09:36:18+01:00
 draft: false
 tags: ['devops', 'education', 'explainer', 'api', 'database', 'dns', 'git', 'linux', 'programming']
 description: "Short explainer posts on DevOps fundamentals - APIs, databases, DNS, Git, Linux, and programming languages - paired with the best explanatory content I have found."
+cover:
+  image: /assets/images/devops/platform-engineering-2026.jpg
+  alt: DevOps Explainers Banner
 ---
 
 Most engineering concepts are easier than they look once someone explains them clearly. This page collects short explainer notes on the fundamentals I find myself re-explaining most often, each paired with the best external visual or video I have found on the topic.

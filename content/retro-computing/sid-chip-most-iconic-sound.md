@@ -4,9 +4,10 @@ date: 2026-04-09T06:22:00+01:00
 draft: false
 tags: ["retro-computing","sid-chip","commodore-64","sound-synthesis","engineering","1980s","audio"]
 description: "The SID chip gave the Commodore 64 the ability to synthesize complex sound in real-time. But why did it sound so distinctive? And why has no other chip in computing history achieved the same cultural impact?"
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: The SID chip - engineering the most iconic sound in computing history
 ---
-
-# The SID Chip: Engineering the Most Iconic Sound in Computing History
 
 The Commodore 64, released in 1982, had one feature that set it apart from every other personal computer: it had a synthesizer on a chip. Not a speaker driver. Not a simple sound generator. An actual synthesizer - with oscillators, filters, envelope generators, the same components used in professional synthesizers costing thousands of dollars.
 

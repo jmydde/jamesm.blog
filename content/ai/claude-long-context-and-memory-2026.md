@@ -9,8 +9,6 @@ cover:
   alt: Claude Memory and Long Context in 2026 Banner
 ---
 
-The conversation about "context window" has quietly stopped being interesting. In 2026 every frontier model is at least a million tokens. The interesting question is no longer how big the window is - it is how the model behaves when you actually fill it, and whether memory belongs inside the window at all.
-
 ## TL;DR
 
 - **Long context is solved, retrieval over long context is not.** A million-token window does not mean the model uses every token equally - attention still degrades over distance and middle-of-context recall remains the weakest part of the curve.
@@ -18,6 +16,8 @@ The conversation about "context window" has quietly stopped being interesting. I
 - **Memory is a separate concept from context.** Anthropic's memory tooling treats persisted state as an explicit resource the model reads and writes - closer to a filesystem than a transcript.
 - **Most failures are not "context too small" - they are "context too noisy".** Curating what goes into the window beats stuffing everything in.
 - **The interesting design question in 2026** is what you choose to keep in cache, what you push to memory, and what you regenerate fresh per call.
+
+The conversation about "context window" has quietly stopped being interesting. In 2026 every frontier model is at least a million tokens. The interesting question is no longer how big the window is - it is how the model behaves when you actually fill it, and whether memory belongs inside the window at all.
 
 ## Long context is solved, retrieval is not
 

@@ -5,7 +5,7 @@ draft: false
 tags: ['ai', 'workflow', 'cursor', 'claude-code', 'codex', 'documentation', 'spec-driven', 'design']
 description: "How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design."
 cover:
-  image: assets/images/ai/ai-augmented-design-workflow.jpg
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: AI-Augmented Design Workflow Banner
 ---
 

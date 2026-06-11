@@ -5,7 +5,7 @@ draft: false
 tags: ["mpe", "midi", "synth", "controller", "expression", "performance"]
 description: "Why MIDI Polyphonic Expression is not just a feature on a spec sheet but a fundamental shift in how electronic instruments behave under your fingers, and what it takes to make the most of it."
 cover:
-  image: assets/images/music-production/mpe-deep-dive.jpg
+  image: /assets/images/music-production/mpe-deep-dive.jpg
   alt: MPE Deep Dive Banner
 ---
 

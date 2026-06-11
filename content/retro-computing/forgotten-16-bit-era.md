@@ -2,11 +2,11 @@
 title: "The Forgotten 16-Bit Era: Atari ST, Acorn Archimedes, Sharp X68000"
 date: 2026-05-12T18:00:00+01:00
 draft: true
-tags: ["retro", "computer", "atari", "acorn", "sharp", "16-bit"]
+tags: ["retro-computing", "atari", "acorn", "sharp", "16-bit"]
 description: "The 16-bit home-computer era is mostly remembered through the Amiga and the early Mac. A look at the three significant machines that history mostly skipped - the Atari ST, the Acorn Archimedes, and the Sharp X68000 - and what each of them got right that the survivors did not."
 cover:
-  image: /assets/images/retro-computing/forgotten-16-bit-era.jpg
-  alt: The Forgotten 16-Bit Era Banner
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: The forgotten 16-bit era - Atari ST, Acorn Archimedes, and Sharp X68000
 ---
 
 The way the 16-bit home-computer era is usually remembered - through the [Amiga](/retro-computing/what-the-amiga-got-right-that-were-still-copying/) on one hand and the early Mac on the other - leaves out three machines that mattered a great deal at the time and have been compressed almost entirely out of the popular memory. The Atari ST was a serious computer with a serious user base. The Acorn Archimedes shipped the first ARM processor and pioneered design ideas now standard. The Sharp X68000 was the most overbuilt home computer of its era, and the source of some of the best Japanese arcade ports ever made.

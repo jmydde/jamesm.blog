@@ -5,7 +5,7 @@ draft: false
 tags: ["claude","ai-design-tool","product-launch","design-workflow"]
 description: "Claude Design brings AI-powered visual collaboration to teams, automating the tedious handoff between design and development while maintaining design system consistency."
 cover:
-  image: images/claude-design.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: Claude Design Icon
 ---
 

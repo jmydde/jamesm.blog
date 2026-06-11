@@ -2,8 +2,11 @@
 title: "Yamaha MODX M8 vs Yamaha Montage M8X"
 date: 2025-12-05T11:58:21+01:00
 draft: false
-tags: ['yamaha', 'synth', 'montage', 'modx', 'pianos', 'keyboard']
-description: "Detailed comparison between Yamaha MODX M8 and Montage M8X synthesizer workstations."
+tags: ['yamaha', 'synth', 'montage', 'modx', 'piano', 'keyboard']
+description: "Detailed comparison between Yamaha MODX M8 and Montage M8X synthesizer workstations - which engine they share, where they differ, and which one makes sense for your budget and playing style."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Yamaha MODX M8 vs Montage M8X
 ---
 
 Synth-shopping is one of those delightful rabbit holes where technology, creativity, and philosophy collide. Yamaha’s MODX M8 and Montage M8X share the same genetic code  -  three powerful sound engines  -  but they live in different worlds when it comes to feel, performance depth, and long-term ambition.

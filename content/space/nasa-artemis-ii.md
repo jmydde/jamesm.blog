@@ -2,8 +2,11 @@
 title: "NASA Artemis II"
 date: 2026-04-06T00:01:00+01:00
 draft: false
-tags: ['nasa', 'artemis', 'artemis ii', 'moon', 'orion', 'sls', 'space']
+tags: ['nasa', 'artemis', 'moon', 'orion', 'sls', 'space']
 description: "An overview of NASA Artemis II, the first crewed Artemis mission, including the crew, mission profile, current status, and why it matters."
+cover:
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
+  alt: NASA Artemis II - the first crewed Artemis mission around the Moon
 ---
 
 > Mission status note: this page includes a time-sensitive status snapshot from **April 6, 2026**. For live updates, use the official NASA links below and the site tracking page.

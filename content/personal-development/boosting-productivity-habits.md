@@ -2,8 +2,11 @@
 title: "Boosting Productivity: Essential Habits for Personal Growth"
 date: 2026-04-06T16:00:00+01:00
 draft: false
-tags: ['personal development', 'productivity', 'self-improvement', 'habit', 'growth']
+tags: ['personal-development', 'productivity', 'self-improvement', 'habit', 'growth']
 description: "Discover actionable strategies and essential habits to significantly boost your productivity, foster continuous personal growth, and achieve your goals more effectively."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: Boosting Productivity Essential Habits for Personal Growth Banner
 ---
 
 ## Introduction

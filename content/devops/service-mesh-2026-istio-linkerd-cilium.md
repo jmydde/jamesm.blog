@@ -5,7 +5,7 @@ draft: true
 tags: ["devops", "service-mesh", "istio", "linkerd", "cilium", "kubernetes"]
 description: "Service mesh was the architectural pattern that defined Kubernetes operations for years. The 2026 picture is more complicated - simpler alternatives have absorbed many use cases, while the meshes themselves have changed shape. A practical look at when to deploy one and when to leave well alone."
 cover:
-  image: /assets/images/devops/service-mesh-2026-istio-linkerd-cilium.jpg
+  image: /assets/images/devops/kubernetes-2026-complexity-tax.jpg
   alt: Service Mesh in 2026 - Istio Linkerd Cilium Banner
 ---
 

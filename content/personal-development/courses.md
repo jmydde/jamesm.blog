@@ -4,6 +4,9 @@ date: 2023-05-28T09:02:39+01:00
 draft: false
 tags: ["personal-development", "course", "online-learning", "self-improvement"]
 description: "Curated collection of online courses for personal development from leading platforms including edX, Harvard, and Udemy."
+cover:
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
+  alt: List of Personal Development Courses Banner
 ---
 
 A comprehensive guide to reputable online courses and programs designed to support personal growth, self-improvement, and skill development.

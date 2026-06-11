@@ -2,8 +2,11 @@
 title: "Artemis II: Breaking the Distance Record"
 date: 2026-04-04T18:00:00+00:00
 draft: false
-tags: ['nasa', 'artemis', 'artemis ii', 'moon', 'space', 'exploration']
+tags: ['nasa', 'artemis', 'moon', 'space', 'exploration']
 description: "The crew of Artemis II is journeying further from Earth than any humans in history, surpassing the long-standing record held by the Apollo 13 mission."
+cover:
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
+  alt: Artemis II breaking the human distance record beyond the lunar far side
 ---
 
 As the Orion spacecraft sweeps around the lunar far side, the four-person crew of Artemis II is doing more than just testing hardware - they are venturing further into the cosmos than any human being has ever traveled.

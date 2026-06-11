@@ -4,9 +4,10 @@ date: 2026-04-10T06:01:00+01:00
 draft: false
 tags: ["retro-computing","tape-swapping","micro-mart","piracy","1980s","underground","bbs"]
 description: "How magazine classifieds, postal delivery services, and teenage traders turned the 1980s into an era of sophisticated software distribution that predated the internet."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: The postal pirates - tape swapping and the 1980s software underground
 ---
-
-# The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground
 
 You can't understand the culture of 1980s computing without understanding the postal tape trade. Before the internet democratized access, there was an entire underground economy running on paper classifieds, cassette tapes, and the British Royal Mail.
 

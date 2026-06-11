@@ -5,8 +5,8 @@ draft: false
 tags: ['space', 'nasa', 'physics', 'engineering', 'reentry', 'orion']
 description: "Returning from the Moon, spacecraft slam into the atmosphere at 25,000 mph. Why not slow down first? The answer comes down to energy, mass, and the brutal mathematics of rocket fuel."
 cover:
-  image: assets/images/space/spacecraft-reentry.jpg
-  alt: Spacefact Reenty Banner
+  image: /assets/images/space/spacecraft-reentry.jpg
+  alt: Why spacecraft don't slow down before reentry - the physics of atmospheric braking
 ---
 
 When a spacecraft returns from the Moon, it strikes Earth's atmosphere at around **25,000 miles per hour**. The air in front of it compresses into a glowing plasma sheath hotter than molten lava, and the vehicle effectively becomes a fireball for several minutes.

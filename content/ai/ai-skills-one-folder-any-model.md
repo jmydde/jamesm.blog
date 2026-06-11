@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "claude", "skill", "agent", "tooling", "prompt"]
 description: "What Claude Code skills actually are under the hood, why the SKILL.md format is model-agnostic, and how the same folder can drive Claude, Gemini, Codex, and a dozen other agents without changes."
 cover:
-  image: assets/images/ai/ai-skills.jpg
+  image: /assets/images/ai/ai-skills.jpg
   alt: AI Skills banner
 ---
 

@@ -2,8 +2,11 @@
 title: "Rebuilding Your Life With Small Systems"
 date: 2026-04-06T00:09:00+01:00
 draft: false
-tags: ["personal-development","self-improvement","habit","resilience","life-systems"]
+tags: ["personal-development","self-improvement","habit","resilience","life-system"]
 description: "A practical guide to rebuilding confidence, stability, and momentum through small daily systems rather than dramatic reinvention."
+cover:
+  image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg
+  alt: Rebuilding Your Life With Small Systems Banner
 ---
 
 There are periods in life when big goals feel completely unrealistic.

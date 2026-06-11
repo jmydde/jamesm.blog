@@ -4,6 +4,9 @@ date: 2023-05-20T12:54:16+01:00
 draft: true
 tags: ["project","website","idea","devops","blockchain"]
 description: "Inventory of personal website projects and initiatives across various domains including forums, dashboards, and community platforms."
+cover:
+  image: /assets/images/general/human-advancement-acceleration.jpg
+  alt: My Website Projects Banner
 ---
 
 | Website                                           | Description              | Status   | Notes                                             |

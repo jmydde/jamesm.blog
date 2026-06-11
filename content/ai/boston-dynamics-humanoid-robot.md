@@ -17,13 +17,11 @@ cover:
 - Builds on decades of agility and mobility research and signals where the humanoid form factor is heading next
 - Part of a broader 2024-2026 wave of humanoid programmes from [Boston Dynamics](https://bostondynamics.com/), [Tesla](https://www.tesla.com/optimus), [1X](https://www.1x.tech/), and others
 
-[Boston Dynamics](https://bostondynamics.com/) has revealed its most astonishing humanoid robot so far.
+The hydraulic Atlas was already one of the most impressive pieces of robotics engineering on the planet. [Boston Dynamics](https://bostondynamics.com/) retired it anyway.
 
-The [All New Atlas](https://bostondynamics.com/atlas/) is Boston Dynamic's first all-electric humanoid robot, designed for real-world applications, it has a far more human-like body. However it's still a long way from commercial or consumer availability.
+The [All New Atlas](https://bostondynamics.com/atlas/) is Boston Dynamics’ first fully-electric humanoid robot - a clean architectural break rather than an incremental upgrade. It is designed for real-world work environments rather than stage demos, with a body geometry that is markedly more human-like than anything the company has shipped before. Commercial deployment is still some way off, but the control system and balance work underneath are worth paying attention to.
 
-The next generation of the [Atlas](https://bostondynamics.com/atlas/) program builds on decades of research and furthers their commitment to delivering the most capable, useful mobile robots. An advanced control system and state-of-the-art hardware give the robot the power and balance to demonstrate advanced athletics and agility.
-
-They use [Atlas](https://bostondynamics.com/atlas/) to explore the potential of the humanoid form factor, leveraging the robot’s whole body to move with grace, speed, and dexterity. [Atlas](https://bostondynamics.com/atlas/) demonstrates their efforts to develop the next generation of robots with the mobility, perception, and intelligence needed to be commonplace in our lives.
+The new [Atlas](https://bostondynamics.com/atlas/) program builds on decades of mobility research and represents Boston Dynamics’ clearest signal yet about where the humanoid form factor is heading: whole-body coordination, dexterous manipulation, and the agility needed to operate in spaces built for people rather than machines.
 
 ## YouTube
 

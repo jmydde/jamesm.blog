@@ -4,6 +4,9 @@ date: 2024-01-19T18:31:21+01:00
 draft: false
 tags: ['music production', 'course', 'training', 'learning', 'daw', 'online education']
 description: "Comprehensive list of music production courses from major platforms covering all popular DAWs and production techniques."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Music Production Courses
 ---
 
 ### Ableton

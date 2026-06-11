@@ -5,7 +5,7 @@ draft: true
 tags: ["career", "income", "portfolio", "freelance", "discipline"]
 description: "The single-employer career has been weakening as a default for a decade. A practical look at what a career portfolio actually looks like in 2026, what it costs to build one, and where the model genuinely works versus where it gets oversold."
 cover:
-  image: /assets/images/personal-development/career-portfolio-income-streams.jpg
+  image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg
   alt: Building a Career Portfolio - Multiple Income Streams in 2026 Banner
 ---
 

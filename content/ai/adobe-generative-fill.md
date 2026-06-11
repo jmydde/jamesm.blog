@@ -17,17 +17,9 @@ cover:
 - Trained on Adobe Stock and openly licensed work, which makes the output commercially safer than many general-purpose image models
 - A clear inflection point for professional retouching - what used to take careful masking and clone-stamping is now a sentence
 
-Experience the future of Photoshop with Generative Fill
-- https://helpx.adobe.com/ie/photoshop/using/generative-fill.html
+**Resources:** [Generative Fill documentation](https://helpx.adobe.com/ie/photoshop/using/generative-fill.html) - [Firefly overview](https://www.adobe.com/sensei/generative-ai/firefly.html)
 
-Generative AI with Firefly
-- https://www.adobe.com/sensei/generative-ai/firefly.html
-
-Other new features & improvements
-- Adjustment presets
-- Contextual task bar
-- Gradients
-- Remove tool: easily remove any object or person from an image instantly
+The same update also added adjustment presets, a new contextual task bar, gradients, and a Remove tool that instantly removes any object or person from an image.
 
 ## YouTube
 
@@ -36,9 +28,6 @@ Other new features & improvements
 
 ### This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER
 {{< youtube 2iEQ6p9iGng >}}
-
-## Related
-- [List of AI Tools](/ai/ai-tools/)
 
 ## Related Reading
 

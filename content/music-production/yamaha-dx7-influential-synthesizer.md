@@ -2,8 +2,11 @@
 title: "The Yamaha DX7: The Most Influential Synthesizer Ever Made"
 date: 2026-03-09T10:00:00+00:00
 draft: false
-tags: ['yamaha dx7', 'fm synthesis', 'synthesizers', 'music history']
-description: "Why the DX7 revolutionized music production and remains the gold standard for FM synthesis three decades later"
+tags: ['yamaha dx7', 'fm synthesis', 'synthesizer', 'music history']
+description: "Why the DX7 revolutionized music production and remains the gold standard for FM synthesis three decades later."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Yamaha DX7 The Most Influential Synthesizer Ever Made
 ---
 
 The Yamaha DX7 wasn't the first synthesizer. It wasn't the most powerful. It wasn't the cheapest. But in 1983, it became the most important instrument released that decade - and arguably the most influential synthesizer in history. By 1989, over 200,000 units had been sold. Today, it remains the second-best-selling synthesizer of all time (after the Casio VL-Tone, which was technically a calculator with a synth).

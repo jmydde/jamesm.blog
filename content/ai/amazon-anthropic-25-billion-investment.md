@@ -91,14 +91,6 @@ Either way, the era of AI labs as scrappy independent startups is effectively ov
 - [AWS Trainium Overview](https://aws.amazon.com/ai/machine-learning/trainium/)
 - [Amazon Bedrock Claude Models](https://aws.amazon.com/bedrock/claude/)
 
-## Related Links
-
-- [Claude Mythos Benchmarks](/ai/claude-mythos-benchmarks/) - Anthropic's most powerful model yet
-- [Claude Opus 4.7](/ai/claude-opus-4-7/) - Anthropic's flagship frontier model
-- [Microsoft, OpenAI and Stargate](/ai/microsoft-openai-stargate/) - The parallel hyperscaler AI infrastructure play
-- [Token Economics: Why Costs Aren't Going Down](/ai/token-economics-why-costs-arent-going-down/) - The economics driving these infrastructure deals
-- [GPU Servers vs API Credits](/ai/gpu-servers-vs-api-credits/) - How compute decisions flow through to developers
-
 ## Related Reading
 
 - [Stargate](/ai/microsoft-openai-stargate/)

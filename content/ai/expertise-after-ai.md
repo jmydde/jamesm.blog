@@ -37,10 +37,10 @@ But exams test *only* this skill.
 
 They do not test:
 
-- **Judgment about whether to use the knowledge**  -  An exam asks "what's the treatment?" A doctor's real expertise is knowing when not to treat, or when to treat differently because the patient's actual constraint is not medical.
-- **Integration with context**  -  An exam is abstract. Real expertise is knowing that this context matters, and this one doesn't.
-- **Responsibility**  -  An exam has no stakes. Real expertise emerges because someone made a decision and lived with the consequences.
-- **Taste**  -  Exams have right answers. Real practice has trade-offs.
+- **Judgment about whether to use the knowledge** - An exam asks "what's the treatment?" A doctor's real expertise is knowing when not to treat, or when to treat differently because the patient's actual constraint is not medical.
+- **Integration with context** - An exam is abstract. Real expertise is knowing that this context matters, and this one doesn't.
+- **Responsibility** - An exam has no stakes. Real expertise emerges because someone made a decision and lived with the consequences.
+- **Taste** - Exams have right answers. Real practice has trade-offs.
 
 The exam tested knowledge retrieval and application. It was a proxy for expertise because, in the pre-AI world, knowledge retrieval was the bottleneck. If you knew the material well enough to pass the exam, you probably also had the other stuff - experience, judgment, skin in the game.
 

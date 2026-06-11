@@ -5,7 +5,7 @@ draft: false
 tags: ['devops', 'platform-engineering', 'ai', 'ci-cd', 'kubernetes', 'architecture']
 description: "A practical guide to platform engineering in 2026 - what an internal developer platform actually is, why DevOps teams are adopting it, and how AI agents are reshaping the discipline."
 cover:
-  image: assets/images/devops/platform-engineering-2026.jpg
+  image: /assets/images/devops/platform-engineering-2026.jpg
   alt: Platform Engineering in 2026 Banner
 ---
 

@@ -5,7 +5,7 @@ draft: true
 tags: ["devops", "sre", "reliability", "observability", "agent"]
 description: "Site Reliability Engineering has not disappeared in the AI era - it has changed shape. A look at which classic SRE skills still pay off in 2026, which have faded, and the new ones that have moved to the centre of the job."
 cover:
-  image: /assets/images/devops/sre-skillset-2026.jpg
+  image: /assets/images/devops/platform-engineering-2026.jpg
   alt: The SRE Skillset in 2026 Banner
 ---
 
