@@ -21,19 +21,19 @@ The conversation about "context window" has quietly stopped being interesting. I
 
 ## Long context is solved, retrieval is not
 
-Frontier models in 2026 all advertise context windows in the millions. The benchmarks have largely caught up - models can recall a single fact placed almost anywhere in a million-token document with high accuracy. What they still cannot do well is reason across many facts scattered across that document.
+Frontier models in 2026 all advertise context windows in the millions - [Claude's models reach a million tokens](https://platform.claude.com/docs/en/build-with-claude/context-windows) on the standard API. The benchmarks have largely caught up - models can recall a single fact placed almost anywhere in a million-token document with high accuracy. What they still cannot do well is reason across many facts scattered across that document. The 2023 paper [Lost in the Middle](https://arxiv.org/abs/2307.03172) named the failure mode early: recall is strongest at the very start and very end of a long context and sags in the middle, and that U-shaped curve has not fully flattened even as windows have grown. Anthropic now has a name for the broader effect - *context rot* - the observation that accuracy and recall degrade as token count climbs, regardless of how much capacity is left.
 
 The pattern most teams have learnt: long context is for *grounding*, not for *retrieval*. If you need to pull together information from twelve different places in a corpus, retrieval-augmented generation still beats a long-context dump. If you need the model to keep an entire engineering spec in view while it modifies one file, long context is exactly the right tool.
 
 ## Prompt caching is the real unlock
 
-The shift that matters in 2026 is not the window size. It is that you can pin a large block of context once and pay a much smaller cost on every subsequent call that references it. A 200K-token codebase index, a 50K-token style guide, a 100K-token policy document - these become viable as persistent system context when the cached read is an order of magnitude cheaper than the cold write.
+The shift that matters in 2026 is not the window size. It is that you can pin a large block of context once and pay a much smaller cost on every subsequent call that references it. [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) is the mechanism: a cache read costs roughly a tenth of the base input price while the cache write costs about 1.25 times, so the break-even arrives after only a couple of reuses. A 200K-token codebase index, a 50K-token style guide, a 100K-token policy document - these become viable as persistent system context when the cached read is an order of magnitude cheaper than the cold write. Anthropic quotes cost reductions of up to 90% and latency reductions of up to 85% on long, reused prompts.
 
 The architectural implication is significant. The previous design assumed you would assemble a fresh prompt for every call. The new design assumes you have a long-lived cached context that you append small per-call additions to. This is closer to how a stateful service works than how a stateless API works.
 
 ## Memory is not context
 
-Anthropic's memory tooling makes a useful distinction between *context* (what the model sees in this call) and *memory* (what the model can read and write across calls). Memory is closer to a filesystem - the agent decides what to persist, what to retrieve, and when. The model does not get the entire memory store in its context window; it queries the memory like any other tool.
+Anthropic's [memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool) makes a useful distinction between *context* (what the model sees in this call) and *memory* (what the model can read and write across calls). Memory is closer to a filesystem - the agent reads, writes, and deletes files in a `/memories` directory, deciding what to persist, what to retrieve, and when. The model does not get the entire memory store in its context window; it queries the memory like any other tool. The storage backend is yours to implement, which means you control where the data lives and how long it lasts.
 
 This matters because it puts the burden of curation on the agent rather than the prompt. Instead of stuffing every prior interaction into the window and hoping attention does the right thing, the agent stores summaries, retrieves them on demand, and keeps the in-window context focused on the task at hand.
 

@@ -15,7 +15,7 @@ The question "is this AI-generated?" stopped being abstract some time in 2024 an
 
 There are three distinct technical approaches in serious deployment, each addressing a different part of the question:
 
-**Content credentials** ([C2PA](https://c2pa.org/)) attach cryptographic signatures to content at creation time. A camera, an AI generator, or an editing tool signs the file with metadata about who created it and what changes have been made. This is forensic-grade attribution when the chain is intact.
+**Content credentials** ([C2PA](https://c2pa.org/), surfaced to users as [Content Credentials](https://contentcredentials.org/)) attach cryptographic signatures to content at creation time. A camera, an AI generator, or an editing tool signs the file with metadata about who created it and what changes have been made - "a nutrition label for digital content," as the coalition puts it. This is forensic-grade attribution when the chain is intact.
 
 **Model-level watermarks** embed statistical signatures into AI-generated content that are invisible to humans but detectable by inspection tools. Major image generators, video generators, and increasingly text generators ship with watermarks of varying strengths.
 
@@ -41,7 +41,7 @@ The major model providers have continued shipping watermarks anyway, on the grou
 
 ## What the policy environment looks like
 
-The regulatory side has caught up faster than the technical side has. The EU AI Act provisions on AI content labelling came into force in 2025. The US has produced an executive-order-level framework that most major platforms are voluntarily complying with. The UK has its own variation. China has its own much stricter version.
+The regulatory side has caught up faster than the technical side has. The [EU AI Act](https://artificialintelligenceact.eu/) provisions on AI content labelling - which require synthetic media to be marked as such - came into force in 2025. The US has produced an executive-order-level framework that most major platforms are voluntarily complying with. The UK has its own variation. China has its own much stricter version.
 
 The practical effect: most major platforms now label content they identify as AI-generated, most major generators apply watermarks by default, and most major regulated industries (finance, healthcare, government) require provenance documentation for any AI-generated material used in formal capacity.
 

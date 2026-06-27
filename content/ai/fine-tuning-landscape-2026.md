@@ -21,7 +21,7 @@ Two years ago, "fine-tuning" was essentially one thing: take a base model, train
 
 ## LoRA and its variants
 
-LoRA - low-rank adaptation - trains a small set of additional parameters that adjust the base model's behaviour without modifying the base weights. The fine-tuned model is the base model plus a small "adapter" that can be loaded or removed at runtime.
+[LoRA - low-rank adaptation](https://arxiv.org/abs/2106.09685) - trains a small set of additional parameters that adjust the base model's behaviour without modifying the base weights. The original paper froze the pre-trained weights and injected trainable rank-decomposition matrices into each transformer layer, cutting trainable parameters by roughly four orders of magnitude. The fine-tuned model is the base model plus a small "adapter" that can be loaded or removed at runtime.
 
 The case for LoRA is strong for most adaptation scenarios. Training cost is a tiny fraction of full fine-tuning. The resulting adapters are small (megabytes rather than gigabytes). Multiple LoRAs can be combined or hot-swapped at inference time. The base model is unchanged, so security and licensing implications are straightforward.
 
@@ -44,7 +44,7 @@ The economics of full fine-tuning have improved significantly. Open-weight model
 
 ## Distillation
 
-Distillation takes a large model that works well and trains a smaller model to replicate its behaviour. The smaller model is cheaper to run, faster to respond, and can be deployed in places the larger model cannot.
+[Distillation](https://arxiv.org/abs/1503.02531) takes a large model that works well and trains a smaller model to replicate its behaviour. The idea goes back to Hinton, Vinyals, and Dean's 2015 work on transferring the knowledge of a large ensemble into a single deployable model; in 2026 it is one of the most-used compression techniques in production. The smaller model is cheaper to run, faster to respond, and can be deployed in places the larger model cannot.
 
 The 2026 distillation landscape is the most active research area of the three. Several specific techniques are in production use:
 
@@ -80,7 +80,7 @@ Three specific things changed the fine-tuning landscape in 2026:
 
 **Open-weight models with permissive licensing.** The Llama, Mistral, and Qwen families all allow commercial fine-tuning under reasonable terms. The legal friction that limited fine-tuning two years ago is largely resolved.
 
-**Better tooling.** Libraries like Axolotl, Unsloth, and the various Hugging Face tools have made fine-tuning routine rather than research-grade work. A small team can produce production-quality fine-tunes without a dedicated ML engineering function.
+**Better tooling.** Libraries like Axolotl, [Unsloth](https://github.com/unslothai/unsloth), and the various Hugging Face tools have made fine-tuning routine rather than research-grade work. Unsloth alone claims training speed-ups of around 2x with up to 70% less VRAM across hundreds of models. A small team can produce production-quality fine-tunes without a dedicated ML engineering function.
 
 **Cheaper compute.** The combination of [improved hardware](/ai/ai-hardware-wars-blackwell-mi300x-tpuv6/) and cloud GPU availability has made fine-tuning costs an order of magnitude lower than they were two years ago.
 

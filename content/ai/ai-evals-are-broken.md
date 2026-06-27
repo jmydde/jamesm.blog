@@ -14,7 +14,7 @@ When a frontier lab releases a new model in 2026, the press release leads with a
 
 ## TL;DR
 
-- The most-cited benchmarks - **MMLU**, **GSM8K**, **HumanEval**, and most of the early reasoning benchmarks - are **functionally saturated** at the frontier. Top models cluster within a few points of each other and within a few points of the ceiling.
+- The most-cited benchmarks - [**MMLU**](https://arxiv.org/abs/2009.03300), **GSM8K**, **HumanEval**, and most of the early reasoning benchmarks - are **functionally saturated** at the frontier. Top models cluster within a few points of each other and within a few points of the ceiling.
 - **Contamination is rampant.** Independent reproduction studies estimate [MMLU scores are inflated by 8-15 points](https://digiterialabs.com/ai/insights/model-benchmarks-reality-check) on frontier models due to training data overlap. MMLU questions have been found verbatim in Common Crawl, the primary pre-training corpus.
 - The replacement benchmarks - **MMLU-Pro**, **GPQA Diamond**, **SWE-Bench Verified**, **Humanity's Last Exam** - have helped but the same dynamics are appearing. MMLU-Pro is approaching saturation. SWE-Bench Verified scores are converging at the frontier. Each new harder benchmark survives roughly 18-24 months before the same problems recur.
 - **Public benchmarks no longer differentiate the frontier models on most production-relevant dimensions.** Real-world capability differences between Claude Opus 4.7, GPT-5.5, and Gemini 3 Ultra are measurable in production deployments but not legible in the headline numbers.

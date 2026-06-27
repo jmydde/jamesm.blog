@@ -21,7 +21,7 @@ For two years "multimodal" mostly meant "the model can also take an image." That
 
 ## Audio is where the bar moved most
 
-The interesting audio story in 2026 is not generation - text-to-speech has been good for two years. It is real-time, low-latency, multilingual speech-to-speech with natural turn-taking. The gap between "talking to a model" and "talking to a competent human" closed in the second half of 2025 and has stayed closed.
+The interesting audio story in 2026 is not generation - text-to-speech has been good for two years. It is real-time, low-latency, multilingual speech-to-speech with natural turn-taking. The recognition layer underneath it owes a lot to [OpenAI's Whisper](https://arxiv.org/abs/2212.04356), whose large-scale weakly-supervised training showed that robust, multilingual transcription was a data problem as much as a modelling one; the speech-to-speech systems built since then inherit that robustness. The gap between "talking to a model" and "talking to a competent human" closed in the second half of 2025 and has stayed closed.
 
 What this enables is mostly invisible. Voice-first interfaces feel less stilted. Customer support handoffs between human and agent feel less abrupt. Live translation works well enough that conference monolinguals can follow multilingual conversations in real time. None of these are headline-grabbing, but together they represent the largest practical shift in how people use AI day to day.
 
@@ -33,7 +33,7 @@ Video is the modality where the marketing has run ahead of the capability. Front
 
 ## 3D and spatial input
 
-The 3D story in 2026 is mostly about better tokenisation. Native 3D inputs - point clouds, Gaussian splats, structured meshes - are now tractable for the larger models. This matters for robotics, where scene understanding from sensors is the input layer. It also matters for design tools, where models can reason about geometry rather than just rasterised views of it.
+The 3D story in 2026 is mostly about better tokenisation. Native 3D inputs - point clouds, [Gaussian splats](https://arxiv.org/abs/2308.04079), structured meshes - are now tractable for the larger models. This matters for robotics, where scene understanding from sensors is the input layer. It also matters for design tools, where models can reason about geometry rather than just rasterised views of it.
 
 The interesting consequence is that the design-to-physical pipeline has shortened. A model that understands a CAD file as 3D structure, rather than as a screenshot, can iterate on it in ways that previous tooling could not.
 

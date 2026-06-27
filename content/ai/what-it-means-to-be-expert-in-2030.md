@@ -50,7 +50,7 @@ At the same time, certain kinds of expertise are becoming more valuable, not les
 
 **Direct accountability.** When the work matters enough that someone needs to be personally responsible for it - bear the legal liability, the reputational risk, the moral weight - the human expert provides something the AI cannot. The signature on the document, the seal on the design, the decision to admit the patient.
 
-**Tacit knowledge and apprenticed skill.** The kinds of skill that cannot be written down because the practitioners themselves cannot fully articulate them. Surgical technique, courtroom instinct, the diagnostic sense that experienced clinicians develop. These are appreciating because they are exactly the kinds of skill that AI training cannot easily capture.
+**Tacit knowledge and apprenticed skill.** The kinds of skill that cannot be written down because the practitioners themselves cannot fully articulate them - what Michael Polanyi called [tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge), summed up in his line "we can know more than we can tell." Surgical technique, courtroom instinct, the diagnostic sense that experienced clinicians develop. These are appreciating because they are exactly the kinds of skill that AI training cannot easily capture - if the experts cannot articulate them, neither can the text the models train on.
 
 ------------------------------------------------------------------------
 

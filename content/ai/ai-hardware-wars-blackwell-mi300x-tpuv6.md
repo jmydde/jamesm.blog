@@ -21,19 +21,19 @@ For most of the deep-learning era, AI hardware meant NVIDIA. Other players exist
 
 ## NVIDIA Blackwell: the default that earned its position
 
-Blackwell is the chip that the rest of the industry measures itself against. The B200 doubled effective memory bandwidth from Hopper, the GB200 superchip configurations let you treat 36 GPUs as a single logical unit, and the software stack - CUDA, cuDNN, TensorRT-LLM, NCCL - is still the most polished by a meaningful margin.
+Blackwell is the chip that the rest of the industry measures itself against. [NVIDIA's Blackwell architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) packs 208 billion transistors on TSMC's custom 4NP process; the B200 doubled effective memory bandwidth from Hopper, the GB200 superchip configurations let you treat dozens of GPUs as a single logical unit over fifth-generation NVLink, and the software stack - CUDA, cuDNN, TensorRT-LLM, NCCL - is still the most polished by a meaningful margin.
 
 For frontier training, Blackwell is still the safest choice. The clusters scale, the tooling is mature, and the talent pool understands them. The cost is the cost - Blackwell is expensive, supply-constrained, and locks you into NVIDIA's roadmap.
 
 ## AMD MI300X: the credible alternative
 
-The story for MI300X in 2026 is that it has become *boring* in the best sense. ROCm runs, PyTorch works, vLLM serves Llama and Mistral at competitive throughput, and the larger HBM3 memory per GPU genuinely helps for inference workloads that fit better in MI300X's 192GB than they do on an H100-class part. Against Blackwell B200 the per-GPU memory is comparable - 192GB on either side - but MI300X usually wins on price-per-GB and per-token economics for the open-weight models most production teams actually serve.
+The story for MI300X in 2026 is that it has become *boring* in the best sense. [ROCm](https://github.com/ROCm/ROCm), AMD's open GPU stack, runs; PyTorch works; [vLLM](https://github.com/vllm-project/vllm) serves Llama and Mistral at competitive throughput; and the larger HBM3 memory per GPU genuinely helps for inference workloads that fit better in MI300X's 192GB than they do on an H100-class part. Against Blackwell B200 the per-GPU memory is comparable - 192GB on either side - but MI300X usually wins on price-per-GB and per-token economics for the open-weight models most production teams actually serve.
 
 The remaining gaps are real but narrower than they were. Training large MoE models is still smoother on NVIDIA. The cluster networking story is less polished. The talent pool is smaller. But for inference - which is the bulk of production AI spend - MI300X is a serious option that did not exist eighteen months ago.
 
 ## Google TPUv6: the giant you do not buy
 
-TPUv6 (Trillium and its successors) is the most interesting accelerator most teams will never directly purchase. It is available exclusively through Google Cloud, optimised for JAX, and built around a different architectural philosophy - high-bandwidth pod fabrics, deeply tuned for training and large-batch inference.
+TPUv6 (Trillium and its successors) is the most interesting accelerator most teams will never directly purchase. It is available exclusively [through Google Cloud](https://cloud.google.com/tpu), optimised for JAX, and built around a different architectural philosophy - high-bandwidth pod fabrics, deeply tuned for training and large-batch inference.
 
 The TPU story matters for two reasons. First, a significant share of frontier training runs happen on TPUs even when the final model serves on GPUs. Second, the economics inside Google Cloud favour TPUs for many workloads in a way that GPU clouds cannot match. If you are committing to Google Cloud, ignoring TPUs in 2026 leaves money on the table.
 

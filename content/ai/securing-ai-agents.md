@@ -23,7 +23,7 @@ I spent most of last year on [agent reliability](/ai/agent-reliability-debugging
 
 Reliability asks: will the agent do the right thing when nobody is trying to trick it? Security asks: will it refuse to do the wrong thing when someone is? Those questions merge the instant your agent can read files, send email, or touch production.
 
-This post is what I wish I had read before wiring [MCP servers onto my Mac Studio](/ai/mcp-servers-home-ai-agent/).
+This post is what I wish I had read before wiring [MCP servers onto my Mac Studio](/ai/mcp-servers-home-ai-agent/) - the [Model Context Protocol](https://modelcontextprotocol.io/) being the open standard most of these tool integrations now speak.
 
 ------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ Pasted document          Memory retrieval          Shell commands
 
 The agent sits in the middle with credentials the tools trust. The input on the left is not fully trustworthy - even when it comes from the user, because users paste things from the internet without reading them. The tools on the right do not know whether the agent was manipulated. They just execute.
 
-That is the **confused deputy**: a component trusted by the system acts on behalf of a component the system should not trust.
+That is the [**confused deputy**](https://en.wikipedia.org/wiki/Confused_deputy_problem): a component trusted by the system acts on behalf of a component the system should not trust. The term predates AI by decades - it originally described a compiler tricked into overwriting files its caller had no right to touch - but an agent holding tool credentials is the cleanest example the idea has ever had.
 
 ------------------------------------------------------------------------
 

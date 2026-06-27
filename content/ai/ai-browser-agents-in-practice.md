@@ -25,6 +25,8 @@ The thing that closed the demo-to-deployment gap was not a single capability jum
 
 The vision models got reliable enough to identify UI elements consistently across page reloads and minor layout changes. The action models learned to recover gracefully when a click did not produce the expected state. The orchestration layer got good at maintaining task-level coherence across many small UI interactions, including the recovery moments where the agent had to figure out what went wrong and try again.
 
+The scale of the jump is easier to appreciate against a benchmark. When [WebArena](https://arxiv.org/abs/2307.13854) launched in 2023 - a realistic environment of fully-functional e-commerce, forum, and software-development sites - the best GPT-4 agent completed about 14% of tasks against a human baseline of 78%. The gap that production deployments have closed since then is exactly that distance between a single-digit-to-teens success rate and one high enough to trust with real work.
+
 None of these were headline-worthy individually. The combination produced agents that finish multi-step tasks at a high enough success rate to be deployed for real work, rather than as proof-of-concept demos.
 
 ## Where it actually works

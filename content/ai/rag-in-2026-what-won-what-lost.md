@@ -9,7 +9,7 @@ cover:
   alt: RAG in 2026 - What Won What Lost Banner
 ---
 
-In 2023, "RAG" was the architectural answer to every question about getting LLMs to know your data. By 2024 the limitations had become obvious enough that a counter-trend emerged - long context, then memory, then structured tool use - all promising to displace the embedding-and-retrieve pattern. By 2026 the dust has settled enough to talk honestly about what survived and what did not.
+In 2023, "RAG" was the architectural answer to every question about getting LLMs to know your data. The idea itself was older - the [2020 paper that named retrieval-augmented generation](https://arxiv.org/abs/2005.11401) paired a sequence-to-sequence model with a dense vector index of Wikipedia - but it was the LLM boom that turned it into a default. By 2024 the limitations had become obvious enough that a counter-trend emerged - long context, then memory, then structured tool use - all promising to displace the embedding-and-retrieve pattern. By 2026 the dust has settled enough to talk honestly about what survived and what did not.
 
 ## TL;DR
 

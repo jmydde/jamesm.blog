@@ -9,7 +9,7 @@ cover:
   alt: Voice AI in 2026 - Real-Time Speech After Whisper Banner
 ---
 
-For a few years, "voice AI" mostly meant Whisper - OpenAI's open-source speech-to-text model that did transcription very well and not much else. In 2026 the category has expanded considerably. Real-time speech-to-speech models, low-latency speech synthesis, voice cloning at consumer-quality, and multimodal speech-aware reasoning are all in production deployment. The category has moved from "models that transcribe audio" to "models that participate in spoken interaction."
+For a few years, "voice AI" mostly meant [Whisper](https://arxiv.org/abs/2212.04356) - OpenAI's open-source speech-to-text model, trained on 680,000 hours of weakly-supervised multilingual audio, that did transcription very well and not much else. In 2026 the category has expanded considerably. Real-time speech-to-speech models, low-latency speech synthesis, voice cloning at consumer-quality, and multimodal speech-aware reasoning are all in production deployment. The category has moved from "models that transcribe audio" to "models that participate in spoken interaction."
 
 ## TL;DR
 
@@ -27,7 +27,7 @@ The post-Whisper landscape includes several distinct kinds of model:
 
 **Real-time speech-to-speech.** The headline development. Models like GPT-4o Voice, Anthropic's voice capabilities in Claude, and Google's Gemini Live can do native speech-in, speech-out conversation with under a second of end-to-end latency. The interactions feel like talking to a person rather than to a system that transcribes, thinks, and speaks in sequence.
 
-**Voice cloning.** ElevenLabs, Resemble AI, and several open-source projects can produce convincing voice replicas from a few seconds of audio. The quality has improved enough that distinguishing cloned voices from real ones is genuinely difficult.
+**Voice cloning.** [ElevenLabs](https://elevenlabs.io/), Resemble AI, and several open-source projects can produce convincing voice replicas from a few seconds of audio. The quality has improved enough that distinguishing cloned voices from real ones is genuinely difficult.
 
 **Multimodal speech-aware models.** Newer models can reason about audio in ways previous models could not - identifying emotion, detecting speaker changes, recognising music versus speech versus environmental sound. The audio modality is now integrated rather than translated to text first.
 
