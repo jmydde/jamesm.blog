@@ -83,6 +83,11 @@ If AI development is constrained by how fast and effectively teams can build, de
 
 Whether that bet pays off depends entirely on execution. But the strategic logic is sound.
 
+## Sources
+
+- [Cursor](https://cursor.com/)
+- [SpaceX](https://www.spacex.com/)
+
 ## Related Reading
 
 - [Securing AI Agents](/ai/securing-ai-agents/)

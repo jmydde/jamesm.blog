@@ -10,6 +10,16 @@ cover:
 slug: "basic-to-claude-code-2026"
 ---
 
+## TL;DR
+
+- **45 years** separate typing BASIC on a ZX Spectrum and using Claude Code on a MacBook - the abstraction rose, but the core loop stayed the same
+- Programming has always been: figure out what you want, type, run, fail, fix
+- AI agents compress the feedback loop and raise the abstraction - they do not replace the act of directing the machine
+- The tools changed from line numbers and 16KB RAM to natural language and cloud models; the discipline did not
+- I suspect that loop will still be true in another 45 years
+
+---
+
 I'm sitting at a desk with two machines.
 
 One is a 1981 ZX Spectrum, 16KB of RAM, sitting on a desk in my garage. The other is a 2026 MacBook running Claude Code. Between them lie 45 years of computing history.
@@ -291,6 +301,14 @@ But I'm still typing, running, failing, fixing.
 That's what programming is.
 
 And I suspect that will remain true for the next 45 years, even though I won't be here to see it.
+
+## Related Reading
+
+- [How BASIC Shaped a Generation](/retro-computing/how-basic-shaped-a-generation/)
+- [8-Bit Coding](/retro-computing/8-bit-coding/)
+- [AI Agents That Actually Work](/ai/ai-agents-that-actually-work/)
+- [Expertise After AI](/ai/expertise-after-ai/)
+- [Human Advancement Is Accelerating](/general/human-advancement-acceleration/)
 
 ---
 

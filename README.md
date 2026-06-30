@@ -18,6 +18,7 @@ Built with [Hugo](https://gohugo.io) using the [PaperMod](https://github.com/adi
 - **[Data Science](/data-science)** - Data analysis and scientific exploration
 - **[DevOps](/devops)** - Infrastructure, automation, and operational philosophy
 - **[General](/general)** - Culture, science, and miscellaneous observations
+- **[Gaming](/gaming)** - Game technology, live service economics, and blockbuster launches
 - **[Retro Computing](/retro-computing)** - The machines and culture that shaped computing
 - **[Music Production](/music-production)** - Gear, sound design, and creative workflow
 - **[Personal Development](/personal-development)** - Expertise, craft, and the engineering mindset
@@ -33,6 +34,7 @@ content/
   ├── data-science/          # Data science and analysis
   ├── devops/                # DevOps, infrastructure, and cloud
   ├── general/               # General-interest articles
+  ├── gaming/                # Game technology and economics
   ├── music-production/      # Music production and sound design
   ├── personal-development/  # Career and skill development
   ├── retro-computing/       # Retro computing and computing history
@@ -96,15 +98,33 @@ description: "A brief description of the post"
 - Use singular tag names (e.g., `ai` not `ai-tools`)
 - Include relevant links to authoritative sources
 - Keep content original and copyright-free
+- See [EDITORIAL.md](EDITORIAL.md) for post archetypes, section conventions, and publish checklist
+
+### Post archetypes
+
+Use Hugo archetypes when scaffolding new content:
+
+```bash
+hugo new ai/my-post.md --kind essay      # long-form analysis essay
+hugo new ai/my-series.md --kind reference # series hub page
+hugo new general/my-list.md               # resource list (default)
+```
 
 ### Adding Images
 
-Place images in the category's `images/` subdirectory:
+Place cover images at:
+
 ```
-content/[category]/images/image-name.png
+static/assets/images/<category>/<slug>.jpg
 ```
 
-Reference in posts using relative paths or Hugo shortcodes.
+Reference in frontmatter:
+
+```yaml
+cover:
+  image: /assets/images/<category>/<slug>.jpg
+  alt: Descriptive alt text
+```
 
 ## Connect
 

@@ -9,6 +9,16 @@ cover:
   alt: Why Is There Something Rather Than Nothing? Banner
 ---
 
+## TL;DR
+
+- The deepest question in cosmology: **why is there something rather than nothing?** - physics explains how the universe behaves once it exists, not necessarily why it exists at all
+- Physicists' "nothing" is not absolute absence - quantum vacua still have fields, rules, and structure
+- Elegant physical laws and mathematics may be **discovered rather than invented** - part of why anything could exist
+- Consciousness may be fundamental or emergent; either answer changes what a complete explanation would require
+- I am a fascinated amateur, not a physicist - treat this as thinking out loud, not a verdict
+
+---
+
 One of the strangest facts about reality is that there is any reality at all.
 
 Not just stars, galaxies, black holes, planets, oceans, or people. Not just matter and energy arranged in complicated ways. The deeper mystery is that there is *something* rather than nothing.
@@ -177,3 +187,11 @@ Why is there anything at all?
 I do not know.
 
 But the fact that the question can be asked from within the universe by a temporary arrangement of atoms on a small planet around an ordinary star seems, in itself, almost miraculous.
+
+## Related Reading
+
+- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/)
+- [How Likely Is It That We're Living in a Simulation?](/general/how-likely-are-we-living-in-a-simulation/)
+- [Max Tegmark and the Mathematical Universe](/general/max-tegmark/)
+- [The Computational Case for Consciousness](/ai/the-computational-case-for-consciousness/)
+- [Human Advancement Is Accelerating](/general/human-advancement-acceleration/)

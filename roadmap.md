@@ -275,7 +275,10 @@ The 10 highest-value posts to write next - chosen for importance, uniqueness (no
 
 ### Gaming & Game Technology (12 posts)
 
-- [ ] **Game Technology in 2026: Inside the Stack Behind a Live Service Game** - The five layers of a modern live game and how they fit together (published: content/gaming/game-technology-2026.md)
+Section hub: [content/gaming/gaming-hub.md](content/gaming/gaming-hub.md) - nav at `/gaming/`
+
+- [x] **GTA 6 and the Economics of the Biggest Launch Ever** (published: content/general/gta-6-the-economics-of-the-biggest-launch-ever.md)
+- [ ] **Game Technology in 2026: Inside the Stack Behind a Live Service Game** - The five layers of a modern live game and how they fit together (planned: content/gaming/game-technology-2026.md)
 - [ ] **Game Telemetry at Scale: The Data Pipeline Behind a Live Game** - Ingesting billions of player events a day and serving every consumer from one stream
 - [ ] **Netcode Explained: Rollback, Lockstep, and Client-Side Prediction** - The techniques that hide the speed of light in multiplayer games
 - [ ] **Matchmaking Systems: Skill Rating and the Math of a Fair Match** - Balancing match quality, queue time, and connection quality in real time
@@ -322,7 +325,7 @@ The 10 highest-value posts to write next - chosen for importance, uniqueness (no
 
 ## Notes
 
-- Posts follow the metadata requirements in [README.md](README.md)
+- Posts follow the metadata requirements in [README.md](README.md) and [EDITORIAL.md](EDITORIAL.md)
 - All posts require cover images and proper YAML frontmatter
 - Links must be verified before publication
 - Tags should use singular form (e.g., `ai` not `ai-tools`)

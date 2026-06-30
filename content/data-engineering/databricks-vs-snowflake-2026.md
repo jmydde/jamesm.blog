@@ -10,6 +10,16 @@ cover:
   alt: Databricks vs Snowflake
 ---
 
+## TL;DR
+
+- By 2026, **Databricks and Snowflake have converged** - both claim lakehouse status; the old binary is outdated
+- **Databricks** wins on transformation, ML, and cost at scale; **Snowflake** wins on SQL simplicity and BI integration
+- Choose on workload (analytics vs ETL vs ML), team skills (SQL-first vs code-first), budget, and existing ecosystem
+- Iceberg support on both sides makes multi-engine portability real - the mistake is choosing on hype, not fit
+- For stack context, see [The Modern Lakehouse Stack](/data-engineering/modern-lakehouse-stack/)
+
+---
+
 *The views in this post are my own personal reflections on the data industry, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.*
 
 The question "Databricks or Snowflake?" has dominated data engineering conversations for the past five years. In 2026, it's still the wrong question.
@@ -371,6 +381,14 @@ Both are mature, both are growing, and both will exist for decades. **The real m
 4. Your existing ecosystem (BI tools, orchestration, data integration)
 
 Everything else is implementation detail.
+
+## Related Reading
+
+- [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)
+- [Apache Iceberg in 2026: The Open Table Format That Won](/data-engineering/apache-iceberg-2026/)
+- [Following the Money: Databricks vs Snowflake vs the Open-Source Alternative](/data-engineering/following-the-money/)
+- [Snowflake Storage for Apache Iceberg](/data-engineering/snowflake-apache-iceberg-storage/)
+- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice/)
 
 ---
 

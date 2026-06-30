@@ -103,6 +103,12 @@ Dario said he is "deeply uncomfortable with these decisions being made by a few 
 
 ---
 
+## Sources
+
+- [Anthropic](https://www.anthropic.com/)
+- [Anthropic-DoD dispute - Wikipedia](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute)
+- [Bloomberg The Circuit: Inside Anthropic](https://www.bloomberg.com/) (episode aired June 10, 2026)
+
 ## Related Reading
 
 - [Dario Amodei: The Anthropic CEO Betting on Safety as Strategy](/ai/dario-amodei-anthropic-ceo/)

@@ -9,6 +9,16 @@ cover:
   alt: Human Advancement Acceleration Banner
 ---
 
+## TL;DR
+
+- A child born in **1700** inherited a world barely changed from their grandparents'; a child born today may see more transformation in 30 years than the 18th century saw in a century
+- **Moore's Law** drove ~50,000,000x transistor growth since 1971 - exponential growth is geometry, not hyperbole
+- The **transistor (1947)** collapsed barriers to innovation: talent, equipment, communication, and capital
+- AI is the latest accelerant on an already-exponential curve - the question is how we shape it, not whether it happens
+- We are the first generation to face civilisation-scale choice at this speed
+
+---
+
 A child born in 1700 inherited a world barely changed from their grandparents'. A child born in 1900 saw horses give way to automobiles, then aircraft, then space travel within a single lifetime. A child born today will witness more transformation in their first 30 years than humans experienced across the entire 18th century.
 
 This isn't hyperbole. It's geometry.
@@ -113,7 +123,15 @@ History suggests the people who think about these questions early have outsized 
 
 We are, quite literally, the first generation in human history to face this scale of choice. And probably not the last - assuming we navigate it well.
 
-## References
+## Related Reading
+
+- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
+- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
+- [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
+- [Policy on the AI Exponential](/ai/policy-on-the-ai-exponential/)
+- [Recursive Self-Improvement: Can AI Bootstrap Its Own Intelligence?](/ai/recursive-self-improvement/)
+
+## Sources
 
 - [Our World in Data: Technological Progress](https://ourworldindata.org/technological-progress) - Comprehensive data on innovation timelines
 - [The Long Now Foundation](https://longnow.org/) - Long-term thinking about civilisation

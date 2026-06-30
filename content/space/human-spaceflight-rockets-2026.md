@@ -9,6 +9,16 @@ cover:
   alt: Human Spaceflight Rockets 2026 Banner
 ---
 
+## TL;DR
+
+- **Artemis II** splashed down April 11, 2026 - first crewed lunar return since 1972, setting a new distance record of **252,756 miles**
+- Crewed rockets in 2026: **SLS/Orion**, **Starship**, **New Glenn**, and China's **Long March 10** - government and commercial programmes running in parallel
+- The Moon is the near-term focus (Artemis III lander race); Mars remains Starship's long bet
+- Reusability and launch cadence now matter as much as raw lift capacity
+- This decade may be the most consequential for crewed spaceflight since Apollo - but with a different industrial base
+
+---
+
 A few weeks ago, four astronauts came home from the Moon for the first time since 1972. Artemis II splashed down on April 11, 2026, after a nine-day flight that took its crew further from Earth than any human has ever travelled - 252,756 miles, a new record set by Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen.
 
 It is the clearest signal yet that human spaceflight has stopped being a thing of the past and started being a thing of the near future again. But the headline mission is only one piece of a much larger picture. The decade we are living in is shaping up to be the most consequential one for crewed space travel since Apollo - and unlike the 1960s, this time it is not a single government driving it.
@@ -188,3 +198,11 @@ The rockets, at least, are finally up to the job.
 
 ### New Glenn-2 Launch Recap
 {{< youtube lVvURVG_b10 >}}
+
+## Related Reading
+
+- [Artemis III Lander Architecture](/space/artemis-iii-lander-architecture/)
+- [China's Space Programme in 2026](/space/china-space-programme-2026/)
+- [SpaceX Starship vs NASA SLS](/space/spacex-starship-vs-nasa-sls/)
+- [Commercial Space Stations Race](/space/commercial-space-stations-race/)
+- [Space Debris: Tragedy of the Commons](/space/space-debris-tragedy-of-the-commons/)

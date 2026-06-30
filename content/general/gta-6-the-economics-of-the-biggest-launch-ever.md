@@ -85,8 +85,17 @@ For now, though, I'll do the same thing as everyone else: keep an eye on Novembe
 
 {{< youtube tcm9ELy-u1Q >}}
 
+## Sources
+
+- [Grand Theft Auto VI - November 19, 2026 launch - Rockstar Newswire](https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026)
+- [Grand Theft Auto VI - May 26, 2026 delay - Rockstar Newswire](https://www.rockstargames.com/newswire/article/258aa538o412ok/grand-theft-auto-vi-is-now-coming-may-26-2026)
+- [GTA V reaches 225 million sales - TweakTown](https://www.tweaktown.com/news/110014/gta-v-reaches-225-million-sales-total-grand-theft-auto-series-now-at-465-million/index.html)
+- [GTA 6 pre-orders reportedly hit $1 billion in first hour - GameRant](https://gamerant.com/gta-6-copies-sold-billion-dollar-sales-hour/)
+- [GTA V Guinness World Records - first 24 hours](https://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft-auto-breaks-six-sales-world-records-51900)
+
 ## Related Reading
 
+- [Gaming: Economics, Technology, and Live Service](/gaming/gaming-hub/)
 - [Human Advancement Is Accelerating](/general/human-advancement-acceleration/)
-- [How Likely Is It That We're Living in a Simulation?](/general/how-likely-are-we-living-in-a-simulation/)
 - [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
+- [The $2.22 Problem: OpenAI's IPO and the First Crack in the ChatGPT Monopoly](/ai/openai-ipo-chatgpt-market-share/)

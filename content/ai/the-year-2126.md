@@ -2,6 +2,7 @@
 title: "The Year 2126: What the Next Hundred Years Actually Looks Like"
 date: 2026-04-26T21:02:00+01:00
 draft: false
+series: ["Four Futures"]
 tags: ["ai", "future", "society", "climate"]
 description: "A hundred years is close enough to reason about concretely and far enough that most of what feels fixed today will be gone. What does 2126 honestly look like - and which of today's problems have we solved by then, which have we inherited, and which are entirely new?"
 cover:

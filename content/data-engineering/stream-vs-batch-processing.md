@@ -9,6 +9,16 @@ cover:
   alt: Stream vs Batch Processing Banner
 ---
 
+## TL;DR
+
+- **Batch** processes bounded data on a schedule; **streaming** processes unbounded data continuously - different operational profiles, not a religious choice
+- Streaming often costs **5-10x more per row** than batch for the same volume; you pay for latency
+- Streaming earns its keep when event value decays fast: fraud, ops alerts, live dashboards, inventory sync
+- The **lambda hybrid** (streaming fast path + batch system of record) is what large platforms actually run
+- Default to batch in 2026; add streaming only where latency genuinely matters, and land raw events in object storage from day one
+
+---
+
 If you spend enough time in data engineering, you will eventually encounter the conviction that batch processing is dying and streaming is the future. This is the third or fourth time the industry has had this conversation in my career, and the answer has been the same every time. Streaming is not the future. Batch is not the past. They are different tools with different operational profiles, and the systems that age well use both, with discipline about which is the right choice for which problem.
 
 This post is the working comparison I would have with an engineer who has been told by a vendor or a thought leader that the future is real-time and is wondering whether they should be tearing out their batch jobs.
@@ -102,3 +112,11 @@ When you do need streaming, be honest about which use cases require it. The four
 Build the hybrid lambda architecture from the start, even if you only need batch initially. This means landing events in object storage in their raw form, treating that as the authoritative input, and running batch jobs over it. Adding a streaming path later is then a matter of attaching a stream processor to the same event source, not re-architecting from scratch. On Databricks, [Lakeflow declarative pipelines](/data-engineering/lakeflow-declarative-pipelines-2026/) make this kind of shared-source-of-truth pattern noticeably cleaner than it used to be.
 
 The thing to avoid is the trap of treating streaming and batch as a religious choice. They are tools. Each is the right answer for some problems. The skill is knowing which is which and being willing to use both.
+
+## Related Reading
+
+- [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)
+- [Apache Flink in 2026: Streaming SQL Comes of Age](/data-engineering/apache-flink-2026-streaming-sql/)
+- [Streaming and Batch Convergence](/data-engineering/streaming-batch-convergence/)
+- [AI-Native Pipelines: Where Agents Meet Data Engineering](/data-engineering/ai-native-pipelines/)
+- [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines/)

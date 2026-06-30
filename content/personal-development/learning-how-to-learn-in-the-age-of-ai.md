@@ -9,6 +9,16 @@ cover:
   alt: Learning How to Learn in the Age of AI Banner
 ---
 
+## TL;DR
+
+- AI removed the **information bottleneck** on learning - the new bottleneck is whether you actually retain anything
+- You can finish tasks with AI and still have **outputs without understanding** six weeks later
+- Rebuild friction: predict before lookup, practice without autocomplete, teach-back sessions, spaced retrieval
+- Weekly rhythm: daily retrieval, twice-weekly deliberate practice offline, weekly teach-back, monthly honest review
+- The meta-skill of this era is learning in an environment that will happily let you stop
+
+---
+
 ## The Problem Nobody Warned You About
 
 For most of history, learning was gated by access. You wanted to understand a topic, you had to find a book, a teacher, a course, or a mentor. The bottleneck was information. If you could get your hands on the material, the rest was time and effort.
@@ -128,3 +138,11 @@ The people who will do genuinely remarkable work over the next decade are not th
 The tools will keep improving. The bar for real understanding will keep rising, because the easy version of everything is now free. The only durable edge is the one you build slowly, on purpose, in the quiet hours when nobody is watching.
 
 Learn how to learn. It may turn out to be the most important thing you do.
+
+## Related Reading
+
+- [Math Academy: The Fastest Way to Learn Maths](/personal-development/math-academy-the-fastest-way-to-learn-maths/)
+- [The Quiet Discipline of Self-Honesty](/personal-development/the-quiet-discipline-of-self-honesty/)
+- [Two-Hour Deep Work Block](/personal-development/two-hour-deep-work-block/)
+- [What It Means to Be an Expert in 2030](/ai/what-it-means-to-be-expert-in-2030/)
+- [AI Tooling Learning Path](/ai/ai-tooling-learning-path/)

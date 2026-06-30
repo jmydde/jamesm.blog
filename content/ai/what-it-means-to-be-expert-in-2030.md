@@ -1,7 +1,7 @@
 ---
 title: "What It Means to Be Expert in 2030"
 date: 2026-06-12T08:00:00+01:00
-draft: true
+draft: false
 tags: ["ai", "expertise", "career", "future-of-work"]
 description: "A sequel to the credential crisis - how the meaning of expertise is changing as AI assistance becomes ambient, with a concrete walkthrough of what a 2030 civil engineer might actually need to be expert at."
 cover:

@@ -9,6 +9,16 @@ cover:
   alt: Interstellar Physics and Philosophy Banner
 ---
 
+## TL;DR
+
+- *Interstellar* visualised a spinning black hole rigorously enough to produce a [peer-reviewed physics paper](https://arxiv.org/abs/1502.03808) with Kip Thorne
+- Core ideas: **wormhole traversal**, supermassive black hole **Gargantua**, **gravitational time dilation**, Penrose slingshot, and the five-dimensional **Tesseract**
+- The film honours general relativity where Hollywood usually fudges - but bends science where story demands it
+- Gravitational time dilation on Miller's planet is the most famous trade-off between accuracy and narrative
+- For a blockbuster, taking physics this seriously is unusual - and worth unpacking
+
+---
+
 There are not many films where the visual effects pipeline produces a peer-reviewed physics paper. Christopher Nolan's *Interstellar* is one of them. The visualisation of the supermassive black hole Gargantua was rigorous enough that it ended up in [*Classical and Quantum Gravity*](https://arxiv.org/abs/1502.03808), co-authored by the visual effects team and [Nobel laureate Kip Thorne](https://en.wikipedia.org/wiki/Kip_Thorne).
 
 That single fact captures what makes the film unusual. It is, on the surface, a story about love, time, and survival. Underneath, it is a serious attempt to take Einstein's general relativity and put it on a 70mm IMAX screen with as little fudging as Hollywood would allow.

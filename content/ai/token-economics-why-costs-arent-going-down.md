@@ -179,6 +179,14 @@ The era of "wait for AI to get cheaper" is over. You should be in "AI costs are 
 
 The fundamentals don't support cheap AI anytime soon. Understand that, and you'll make better decisions about when and where to deploy it.
 
+## Sources
+
+- [Claude](https://claude.ai/)
+- [OpenAI GPT-4 research](https://openai.com/research/gpt-4)
+- [Google Gemini](https://gemini.google.com/)
+- [Mistral AI](https://mistral.ai/)
+- [Meta Llama](https://www.llama.com/)
+
 ## Related Reading
 
 - [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)

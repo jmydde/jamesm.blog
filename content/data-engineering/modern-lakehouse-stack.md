@@ -9,6 +9,16 @@ cover:
   alt: The Modern Lakehouse Stack Banner
 ---
 
+## TL;DR
+
+- A 2026 lakehouse has **seven layers**: object storage, open table format, catalog, compute engine, orchestration, transformation, and governance
+- **Apache Iceberg** is the default table format; catalog choice (Unity, Polaris, Nessie) depends on your primary engine
+- **Databricks or Snowflake** as compute, **dbt or SQLMesh** for transformation, orchestration via **Dagster or Airflow**
+- Governance and observability are the layer most often skipped and most expensive to retrofit
+- Default stack: ship end-to-end on a small slice first, then expand - do not spend six months evaluating before data flows
+
+---
+
 The word "lakehouse" has been doing a lot of work for the last five years. It has been used to describe everything from a thin SQL layer over object storage to a fully integrated platform with governance, lineage, ML training, and BI built on top. Like most umbrella terms, this elasticity has been useful for marketers and confusing for engineers.
 
 This post is the version of the conversation I would have with a senior engineer who has been asked to "build out our lakehouse" and wants to know which pieces are load-bearing and which are noise. It draws on what I have actually seen ship and survive in production data platforms in 2026, and it tries to be specific about why each layer is in the stack rather than just describing the picture as a fait accompli.
@@ -100,3 +110,11 @@ If you are building a new lakehouse in 2026, the default stack is something like
 This is not the stack for every team. It is the stack you should deviate from with intent, not by default. The shape of a 2026 lakehouse has stabilised enough that the cost of accidentally building something exotic is meaningful, and the benefit of staying close to the well-trodden path is real: better tooling, better hiring, better support, and better integrations across the rest of your data ecosystem.
 
 The thing not to do is to spend six months evaluating options before shipping anything. The lakehouse architecture rewards iteration. Build a first version that runs end-to-end on a small slice of your data, prove that the bones work, and then expand. The platforms that succeed are the ones that get to a working state quickly and improve from there. The platforms that fail are the ones that try to architect their way to perfection before any data has flowed.
+
+## Related Reading
+
+- [Apache Iceberg in 2026: The Open Table Format That Won](/data-engineering/apache-iceberg-2026/)
+- [Stream vs Batch Processing: When to Choose Each](/data-engineering/stream-vs-batch-processing/)
+- [Databricks vs Snowflake in 2026: An Honest Comparison](/data-engineering/databricks-vs-snowflake-2026/)
+- [Iceberg vs Delta vs Hudi in 2026](/data-engineering/iceberg-vs-delta-vs-hudi-2026/)
+- [The Catalog Layer Is the New Battleground](/data-engineering/the-catalog-layer-is-the-new-battleground/)

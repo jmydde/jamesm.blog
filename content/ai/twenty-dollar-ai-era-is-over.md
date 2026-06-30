@@ -112,7 +112,13 @@ Some practical advice:
 
 The $20/month price point was set when AI was a text-in, text-out product competing with consumer subscriptions. That product still exists and is still priced accordingly. What's changed is that the flagship experience is now a multi-hour agent session that touches a codebase, a browser, and half a dozen APIs. That product is priced like developer infrastructure, because that's what it is.
 
-Expect the next 12 months to be messy - quiet test rollouts, walked-back changes, new tiers that didn't exist last quarter, and a lot of user confusion about what's actually included in what. Read the pricing page before you renew. Check what's metered and what's unlimited. And if you rely on one provider's agent tool for daily work, have a fallback - the Claude Code Pro episode is a preview, not a one-off.
+Read the pricing page before you renew. Check what's metered and what's unlimited. And if you rely on one provider's agent tool for daily work, have a fallback - the Claude Code Pro episode is a preview, not a one-off.
+
+## Sources
+
+- [OpenRouter](https://openrouter.ai/)
+- [Anthropic pricing](https://www.anthropic.com/pricing)
+- [OpenAI pricing](https://openai.com/pricing)
 
 ## Related Reading
 

@@ -10,6 +10,16 @@ cover:
   alt: Apache Iceberg in 2026
 ---
 
+## TL;DR
+
+- **Apache Iceberg** won the open table format war in 2026 - both Snowflake and Databricks treat it as first-class
+- Iceberg is a **table format** (metadata on top of Parquet), not a storage format - ACID, time travel, and schema evolution live in the metadata tree
+- **Catalog choice** (Polaris, Nessie, Unity) is now the harder decision than picking Iceberg itself
+- Every stack layer above Iceberg is replaceable: change engine, catalog, or storage without rewriting data files
+- For platform context, pair this with [The Modern Lakehouse Stack](/data-engineering/modern-lakehouse-stack/)
+
+---
+
 In 2023, the question was "which open table format will survive - Iceberg, Delta, or Hudi?" In 2026, that debate is over. Apache Iceberg won, and it won for reasons that have almost nothing to do with its raw performance.
 
 It won because it is the only format that **both Snowflake and Databricks now treat as a first-class citizen**, because the vendors picked sides on catalogs rather than table formats, and because enterprise buyers decided that multi-engine portability was worth more than a small performance edge.
@@ -318,23 +328,18 @@ Iceberg winning was not inevitable. Delta Lake had a two-year head start and the
 
 In 2026, that is exactly what it is. You will spend your design time arguing about catalogs, compute engines, and transformation frameworks - not about whether your files are readable in five years. That is the quiet success of an open standard.
 
-## Useful Resources
+## Sources
 
 - [Apache Iceberg official documentation](https://iceberg.apache.org/)
 - [Iceberg table spec](https://iceberg.apache.org/spec/)
-- [Iceberg REST catalog spec](https://iceberg.apache.org/spec/#appendix-a-format-version)
 - [Polaris Catalog on GitHub](https://github.com/apache/polaris)
 - [Unity Catalog OSS](https://www.unitycatalog.io/)
 - [Project Nessie](https://projectnessie.org/)
-- [Dremio's Iceberg guide](https://www.dremio.com/resources/guides/apache-iceberg/)
-- [Tabular's Iceberg internals series](https://tabular.io/blog/)
 
----
+## Related Reading
 
-**Related Posts:**
+- [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)
 - [Databricks vs Snowflake in 2026: An Honest Comparison](/data-engineering/databricks-vs-snowflake-2026/)
 - [Following the Money: Databricks vs Snowflake vs the Open-Source Alternative](/data-engineering/following-the-money/)
 - [Snowflake Storage for Apache Iceberg](/data-engineering/snowflake-apache-iceberg-storage/)
-- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice-2026/)
-
-*Last Updated: April 22, 2026*
+- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice/)

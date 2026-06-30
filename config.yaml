@@ -50,6 +50,8 @@ languages:
           url: /devops
         - name: General
           url: /general
+        - name: Gaming
+          url: /gaming
         - name: Retro Computing
           url: /retro-computing
         - name: Music Production
