@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "anthropic", "claude", "fable", "mythos", "ai-safety", "ai-policy", "cybersecurity", "2026"]
 description: "Eighteen days after a US export control directive pulled Fable 5 and Mythos 5 offline, Anthropic is redeploying Fable 5 globally. The company says the jailbreak that triggered the recall was minor, that rival models could do the same thing, and that the industry needs a CVSS-style framework for AI jailbreaks."
 cover:
-  image: /assets/images/ai/claude-fable-mythos.jpg
+  image: /assets/images/ai/redeploying-fable-5.jpg
   alt: Claude Fable 5 redeployment after export control suspension
 ---
 
