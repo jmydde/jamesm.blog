@@ -136,5 +136,5 @@ None of this is exotic. It is just the boring engineering work that the next gen
 - [Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over](/data-engineering/iceberg-vs-delta-vs-hudi-2026/)
 - [The Catalog Layer Is the New Battleground](/data-engineering/the-catalog-layer-is-the-new-battleground/)
 - [The Modern Lakehouse Stack](/data-engineering/modern-lakehouse-stack/)
-- [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines/)
+- [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines-2026/)
 - [Stream vs Batch Processing](/data-engineering/stream-vs-batch-processing/)

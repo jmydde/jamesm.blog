@@ -35,7 +35,7 @@ MPE puts the variation back where it belongs: in the player's hands. It is not j
 
 ## The hardware that makes it work
 
-You cannot really evaluate MPE in the abstract. The experience is a function of the physical interface. There are roughly four families of MPE controller in 2026, and they feel meaningfully different. I keep an updated list of specific instruments in [MPE controllers](/music-production/mpe-midi-controllers/).
+You cannot really evaluate MPE in the abstract. The experience is a function of the physical interface. There are roughly four families of MPE controller in 2026, and they feel meaningfully different. I keep an updated list of specific instruments in [MPE controllers](/music-production/best-mpe-controllers-2026/).
 
 **Soft-surface controllers** like the [ROLI Seaboard](https://roli.com/products/seaboard) replace the keyboard with a continuous silicone surface. There are no discrete keys. You press into the surface, slide along it, lift off it. Pitch bend is the X axis, pressure is the Z axis, timbre is the Y axis. This is the most acoustic-feeling MPE controller in the sense that the playing technique is closest to a fretless instrument, and it is also the most disorienting if you come from a piano background.
 

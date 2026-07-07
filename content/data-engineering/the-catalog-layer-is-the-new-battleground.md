@@ -40,7 +40,7 @@ That is why the catalog layer is now the strategic battleground. Whoever owns th
 **Strengths:**
 
 - **Maturity.** Unity has been in heavy production at thousands of Databricks customers for years. The hard cases - cross-region replication, fine-grained access control, audit logging at scale - have been worked out.
-- **Scope.** Unity catalogs tables, volumes, models, functions, and now [AI assets](/data-engineering/unity-catalog-in-practice/). The scope expansion since the open-source release has been significant.
+- **Scope.** Unity catalogs tables, volumes, models, functions, and now [AI assets](/data-engineering/unity-catalog-in-practice-2026/). The scope expansion since the open-source release has been significant.
 - **Federation.** Unity can federate to external catalogs (Hive Metastore, AWS Glue, others) which makes adoption incremental rather than cutover.
 - **Native Iceberg REST support.** External engines can read Unity-managed tables through the Iceberg REST API.
 
@@ -143,7 +143,7 @@ The format wars taught us that standards win when neutrality is valued. The cata
 ## Related Reading
 
 - [Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over](/data-engineering/iceberg-vs-delta-vs-hudi-2026/)
-- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice/)
+- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice-2026/)
 - [Apache Iceberg in 2026](/data-engineering/apache-iceberg-2026/)
 - [The Modern Lakehouse Stack](/data-engineering/modern-lakehouse-stack/)
 - [Databricks vs Snowflake 2026](/data-engineering/databricks-vs-snowflake-2026/)

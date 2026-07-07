@@ -342,4 +342,4 @@ In 2026, that is exactly what it is. You will spend your design time arguing abo
 - [Databricks vs Snowflake in 2026: An Honest Comparison](/data-engineering/databricks-vs-snowflake-2026/)
 - [Following the Money: Databricks vs Snowflake vs the Open-Source Alternative](/data-engineering/following-the-money/)
 - [Snowflake Storage for Apache Iceberg](/data-engineering/snowflake-apache-iceberg-storage/)
-- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice/)
+- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice-2026/)

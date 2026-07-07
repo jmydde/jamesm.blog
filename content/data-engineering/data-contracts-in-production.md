@@ -73,7 +73,7 @@ The data contract tooling landscape in 2026 has consolidated around a handful of
 
 **[Monte Carlo](https://www.montecarlodata.com/)** is the observability-side option that catches contract violations after the fact through anomaly detection rather than explicit validation. The framework is complementary to the explicit-validation tools rather than competitive with them, and the patterns that work in production typically use both.
 
-**The catalog layer.** [Unity Catalog](/data-engineering/unity-catalog-in-practice/), [Polaris](/data-engineering/the-catalog-layer-is-the-new-battleground/), and the other catalog systems have started supporting contract definitions as first-class metadata, with enforcement integrated into the table format layer. This is the most architecturally interesting development of 2025-2026 because it moves contract enforcement from the pipeline layer into the storage layer - the contract is part of the table definition rather than a separate concept.
+**The catalog layer.** [Unity Catalog](/data-engineering/unity-catalog-in-practice-2026/), [Polaris](/data-engineering/the-catalog-layer-is-the-new-battleground/), and the other catalog systems have started supporting contract definitions as first-class metadata, with enforcement integrated into the table format layer. This is the most architecturally interesting development of 2025-2026 because it moves contract enforcement from the pipeline layer into the storage layer - the contract is part of the table definition rather than a separate concept.
 
 ## What the production deployments actually look like
 
@@ -121,6 +121,6 @@ For teams considering data contracts in 2026, the practical guidance is the bori
 
 - [AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard](/data-engineering/ai-native-pipelines/) - the consumer-side story where contract violations have different consequences than in classical analytics.
 - [The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie](/data-engineering/the-catalog-layer-is-the-new-battleground/) - the catalog-layer story that data contracts are increasingly being absorbed into.
-- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice/) - the production deployment of a catalog that increasingly carries contract metadata.
+- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice-2026/) - the production deployment of a catalog that increasingly carries contract metadata.
 - [dbt vs SQLMesh: The Transformation Layer Showdown in 2026](/data-engineering/dbt-vs-sqlmesh-2026/) - the transformation-layer tools that ship the most-deployed contract enforcement in production.
 - [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/) - the broader stack context where contracts fit.

@@ -105,6 +105,6 @@ The thing I keep coming back to is that ethical data use stopped being a values 
 
 ## Related Reading
 
-- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice/) - the governance layer where consent tags, row filters, and least-privilege access are actually enforced.
+- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice-2026/) - the governance layer where consent tags, row filters, and least-privilege access are actually enforced.
 - [The Catalog Layer Is the New Battleground](/data-engineering/the-catalog-layer-is-the-new-battleground/) - the catalog wars that decide where ethical enforcement lives in the stack.
 - [AI-Native Pipelines: What Changes When Your Consumer Is an LLM, Not a Dashboard](/data-engineering/ai-native-pipelines/) - the consumer-side shift that makes training-data ethics a pipeline concern.

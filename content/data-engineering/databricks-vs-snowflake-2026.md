@@ -388,7 +388,7 @@ Everything else is implementation detail.
 - [Apache Iceberg in 2026: The Open Table Format That Won](/data-engineering/apache-iceberg-2026/)
 - [Following the Money: Databricks vs Snowflake vs the Open-Source Alternative](/data-engineering/following-the-money/)
 - [Snowflake Storage for Apache Iceberg](/data-engineering/snowflake-apache-iceberg-storage/)
-- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice/)
+- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice-2026/)
 
 ---
 

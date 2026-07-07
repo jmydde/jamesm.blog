@@ -130,5 +130,5 @@ Boring infrastructure is a compliment. Boring means stable, interoperable, and o
 - [Snowflake's Apache Iceberg Storage](/data-engineering/snowflake-apache-iceberg-storage/)
 - [The Modern Lakehouse Stack](/data-engineering/modern-lakehouse-stack/)
 - [Databricks vs Snowflake 2026](/data-engineering/databricks-vs-snowflake-2026/)
-- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice/)
-- [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines/)
+- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice-2026/)
+- [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines-2026/)

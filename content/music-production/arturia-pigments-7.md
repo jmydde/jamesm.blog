@@ -16,9 +16,6 @@ https://www.arturia.com/products/software-instruments/pigments/overview
 
 At its heart, Pigments is an **all-in-one synth engine** built to blur the line between imagination and sound. It brings together six distinct synthesis engines  -  including wavetable, virtual analog, granular, sample, harmonic and the increasingly explored modal engine  -  all within a responsive, color-coded interface designed for playful experimentation.
 
-![alt](/images/arturia-pigments-7.jpg)
-(Image:Arturia Pigments 7)
-
 ---
 
 ## What’s New in Pigments 7

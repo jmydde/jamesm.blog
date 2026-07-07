@@ -33,7 +33,7 @@ V3 introduces a few features that meaningfully expand what Iceberg can do:
 
 V3 is explicitly designed for backward compatibility. The core promises of Iceberg - ACID semantics, schema evolution, time travel, hidden partitioning - all carry over unchanged. Existing V2 tables can be read by V3-aware tooling without conversion. V3 features are opt-in at the table level, so a single catalog can hold V2 and V3 tables side by side.
 
-The catalog story is also unchanged - V3 works with the same catalog implementations (Glue, Nessie, [Unity](/data-engineering/unity-catalog-in-practice/), Polaris, REST) that V2 worked with, with the catalog protocol extended for the new features.
+The catalog story is also unchanged - V3 works with the same catalog implementations (Glue, Nessie, [Unity](/data-engineering/unity-catalog-in-practice-2026/), Polaris, REST) that V2 worked with, with the catalog protocol extended for the new features.
 
 ## Why row lineage matters
 
@@ -85,5 +85,5 @@ The result is that Iceberg V3 is harder to dismiss as "Delta but open" in 2026 t
 - [Apache Iceberg in 2026](/data-engineering/apache-iceberg-2026/)
 - [Iceberg vs Delta vs Hudi 2026](/data-engineering/iceberg-vs-delta-vs-hudi-2026/)
 - [The Catalog Layer Is the New Battleground](/data-engineering/the-catalog-layer-is-the-new-battleground/)
-- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice/)
+- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice-2026/)
 - [Snowflake and Apache Iceberg Storage](/data-engineering/snowflake-apache-iceberg-storage/)

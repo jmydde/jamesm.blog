@@ -52,8 +52,8 @@ The 8-bit revolution didn't just teach a nation to code; it taught a nation how 
 *   **Amstrad CPC:** The all-in-one "home office" before such a thing existed.
 
 ### Related Reading:
-*   [What the Amiga Got Right](/retro-computing/amiga-legacy/)
-*   [The Demoscene: Where Art Met Assembly](/retro-computing/demoscene/)
+*   [What the Amiga Got Right](/retro-computing/what-the-amiga-got-right-that-were-still-copying/)
+*   [The Demoscene: Where Art Met Assembly](/retro-computing/the-demoscene-where-art-met-assembly/)
 *   [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)
 
 ## Related Reading

@@ -117,4 +117,4 @@ The thing to avoid is the trap of treating streaming and batch as a religious ch
 
 - [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)
 - [AI-Native Pipelines: Where Agents Meet Data Engineering](/data-engineering/ai-native-pipelines/)
-- [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines/)
+- [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines-2026/)

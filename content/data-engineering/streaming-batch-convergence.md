@@ -37,7 +37,7 @@ The architectures that work for combined streaming and batch in 2026 share a rec
 
 **Batch for historical and offline work.** Long-running aggregations, ML training, regulatory reports, complex joins - all done as batch over the same tables that the streaming jobs are writing.
 
-**Catalog as coordination.** [Unity Catalog](/data-engineering/unity-catalog-in-practice/), Polaris, or Nessie managing the namespace, access control, and metadata for both streaming and batch consumers.
+**Catalog as coordination.** [Unity Catalog](/data-engineering/unity-catalog-in-practice-2026/), Polaris, or Nessie managing the namespace, access control, and metadata for both streaming and batch consumers.
 
 **Interactive query for exploration.** Trino, DuckDB, or whatever is convenient pointed at the same tables for ad-hoc analysis.
 
@@ -97,4 +97,4 @@ For most teams in 2026, that trade-off is worth it. The convergence at the stora
 - [The Quiet Death of the Classic Data Warehouse Pattern](/data-engineering/death-of-classic-data-warehouse-pattern/)
 - [Apache Iceberg in 2026](/data-engineering/apache-iceberg-2026/)
 - [Iceberg V3 - What the New Spec Changes](/data-engineering/iceberg-v3-what-changes/)
-- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice/)
+- [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice-2026/)

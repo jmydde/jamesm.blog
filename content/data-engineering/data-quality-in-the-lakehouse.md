@@ -54,7 +54,7 @@ The data quality tooling has consolidated around several credible options, each 
 
 **[Bigeye](https://www.bigeye.com/)** and **[Acceldata](https://www.acceldata.io/)** round out the observability category with similar capabilities and different commercial positioning.
 
-**Catalog-integrated quality.** [Unity Catalog](/data-engineering/unity-catalog-in-practice/) and the [other major catalogs](/data-engineering/the-catalog-layer-is-the-new-battleground/) have started shipping data quality features as first-class catalog metadata. The integration is architecturally interesting because it moves quality enforcement closer to the storage layer, but the feature maturity varies and most production deployments still rely on the dedicated tools alongside the catalog features.
+**Catalog-integrated quality.** [Unity Catalog](/data-engineering/unity-catalog-in-practice-2026/) and the [other major catalogs](/data-engineering/the-catalog-layer-is-the-new-battleground/) have started shipping data quality features as first-class catalog metadata. The integration is architecturally interesting because it moves quality enforcement closer to the storage layer, but the feature maturity varies and most production deployments still rely on the dedicated tools alongside the catalog features.
 
 **Streaming validation.** For teams running streaming ingestion pipelines, in-pipeline validation (typically with Soda or custom Flink jobs) catches quality issues before bad data enters the lakehouse. The pattern is increasingly common as streaming becomes a default ingestion path.
 
@@ -144,5 +144,5 @@ For teams building data quality programmes today, the practical guidance is the 
 - [Data Contracts: From Buzzword to Production Practice in 2026](/data-engineering/data-contracts-in-production/) - the contract-driven approach that is one part of the broader quality story.
 - [AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard](/data-engineering/ai-native-pipelines/) - the consumer-side story where quality issues have different consequences.
 - [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/) - the broader stack context.
-- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice/) - the catalog that increasingly carries quality metadata.
+- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice-2026/) - the catalog that increasingly carries quality metadata.
 - [dbt vs SQLMesh: The Transformation Layer Showdown in 2026](/data-engineering/dbt-vs-sqlmesh-2026/) - the transformation-layer tools that ship the most-deployed quality enforcement.

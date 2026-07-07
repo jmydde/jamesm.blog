@@ -125,5 +125,5 @@ For teams thinking about architecture today, the practical guidance is the borin
 - [The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie](/data-engineering/the-catalog-layer-is-the-new-battleground/) - the governance substrate that makes federated architectures practical.
 - [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/) - the underlying architecture that federated data work runs on.
 - [Data Contracts: From Buzzword to Production Practice in 2026](/data-engineering/data-contracts-in-production/) - the interface mechanism between domain teams in a federated architecture.
-- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice/) - the catalog that supports most modern federated architectures.
+- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice-2026/) - the catalog that supports most modern federated architectures.
 - [AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a Dashboard](/data-engineering/ai-native-pipelines/) - the AI-side story that is lowering the cost of producing good data products.

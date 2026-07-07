@@ -29,7 +29,7 @@ The combined effect is that the warehouse stopped being the centre of gravity. I
 
 A typical 2026 analytics architecture looks something like this:
 
-- **Storage** is Iceberg or Delta tables in object storage (S3, GCS, Azure Blob), with a catalog ([Unity Catalog](/data-engineering/unity-catalog-in-practice/), Polaris, or Nessie) managing namespaces and access.
+- **Storage** is Iceberg or Delta tables in object storage (S3, GCS, Azure Blob), with a catalog ([Unity Catalog](/data-engineering/unity-catalog-in-practice-2026/), Polaris, or Nessie) managing namespaces and access.
 - **Ingestion** writes directly to those tables, increasingly with a [streaming-first pattern](/data-engineering/apache-flink-2026-streaming-sql/) rather than batched extracts.
 - **Transformation** is dbt or SQLMesh code, executed by whichever engine makes sense for the workload - Snowflake, Databricks, Spark, Trino, DuckDB.
 - **BI and analytics** consume the same tables through the same catalog, with no separate "warehouse copy" needed.
