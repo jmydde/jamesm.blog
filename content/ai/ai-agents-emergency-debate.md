@@ -2,7 +2,7 @@
 title: "AI Agents Emergency Debate"
 date: 2025-05-12T16:27:14+01:00
 draft: false
-tags: ["ai","job","future-of-work"]
+tags: ["ai", "career", "future-of-work"]
 description: "An emergency debate on AI's impact on employment - which sectors face near-term disruption, which roles stay human-shaped, and how fast the transition is actually moving."
 cover:
   image: /assets/images/ai/automation-paradox.jpg

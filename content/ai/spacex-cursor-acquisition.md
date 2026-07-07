@@ -2,7 +2,7 @@
 title: "SpaceX's $60 Billion Cursor Acquisition: Why It Matters"
 date: 2026-06-16T21:30:00-07:00
 draft: false
-tags: ["ai", "spacex", "acquisition", "coding", "startup"]
+tags: ["ai", "spacex", "acquisition", "coding", "business"]
 description: "SpaceX filed a $60 billion all-stock acquisition of Cursor, the AI-powered code editor, signaling a strategic shift in how tech companies build critical infrastructure for AI development."
 cover:
   image: /assets/images/ai/spacex-cursor-acquisition.jpg

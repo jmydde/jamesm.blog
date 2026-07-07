@@ -2,7 +2,7 @@
 title: "The Yamaha DX7: The Most Influential Synthesizer Ever Made"
 date: 2026-03-09T10:00:00+00:00
 draft: false
-tags: ['yamaha dx7', 'fm synthesis', 'synthesizer', 'music history']
+tags: ["dx7", "fm-synthesis", "synth", "history"]
 description: "Why the DX7 revolutionized music production and remains the gold standard for FM synthesis three decades later."
 cover:
   image: /assets/images/music-production/music-production.png

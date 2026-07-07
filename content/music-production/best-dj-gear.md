@@ -2,7 +2,7 @@
 title: "List of links for best DJ gear, controllers & software"
 date: 2024-06-23T09:33:21+01:00
 draft: false
-tags: ['dj', 'djing', 'software']
+tags: ["dj", "software"]
 description: "A curated collection of links covering the best DJ controllers, gear, and software for 2023 and 2024 - from budget options to professional setups."
 cover:
   image: /assets/images/music-production/music-production.png

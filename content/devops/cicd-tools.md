@@ -2,7 +2,7 @@
 title: "CI/CD Tools"
 date: 2022-08-21T11:51:18+01:00
 draft: false
-tags: ['ci-cd', 'devops', 'continuous-delivery', 'automation', 'kubernetes', 'pipeline']
+tags: ["ci-cd", "devops", "automation", "kubernetes", "pipeline"]
 description: "Overview of popular CI/CD and continuous delivery tools - managed services, self-hosted platforms, and GitOps systems - for automating software builds, testing, and deployments."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

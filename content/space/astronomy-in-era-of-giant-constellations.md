@@ -2,7 +2,7 @@
 title: "Astronomy in the Era of Giant Constellations: The Starlink Problem"
 date: 2026-05-13T02:00:00+01:00
 draft: true
-tags: ["space", "astronomy", "starlink", "satellite", "observation"]
+tags: ["space", "astronomy", "satellite"]
 description: "The night sky in 2026 has tens of thousands of satellites in low Earth orbit, and that number is going to keep climbing. A practical look at what this is actually doing to professional astronomy, what the mitigations are achieving, and where the unresolved tensions remain."
 cover:
   image: /assets/images/space/space-debris-tragedy-of-the-commons.jpg

@@ -9,7 +9,7 @@ description: "A categorised, curated index of AI tools across art, chatbots, cod
 cover:
   image: /assets/images/ai/ai-resources-best-practices.jpg
   alt: AI tools and frameworks index
-tags: ["ai","art","link","tool","design","graphic","llm","chatbot","chatgpt","music","text-to-speech","writing","copilot","robotics"]
+tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "music", "text-to-speech", "creativity", "coding", "robotics"]
 ---
 
 ## TL;DR

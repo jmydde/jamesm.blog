@@ -2,7 +2,7 @@
 title: "AI Browser Agents in Practice: Computer Use, Atlas, and the Real Patterns"
 date: 2026-05-08T19:30:00+01:00
 draft: true
-tags: ["ai", "agent", "browser", "automation", "computer-use", "anthropic"]
+tags: ["ai", "agent", "automation", "computer-use", "anthropic"]
 description: "Browser-controlling AI agents went from demo to actual deployment in 2026. A practical look at where they work, where they fail, and which workflows are quietly being automated by them now."
 cover:
   image: /assets/images/ai/ai-browser-agents-in-practice.jpg

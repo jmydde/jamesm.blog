@@ -2,7 +2,7 @@
 title: "Arturia Keylab 88 MK3 vs Native Instruments Kontrol S88 MK3"
 date: 2025-12-02T07:29:21+01:00
 draft: false
-tags: ['native instruments', 'arturia', 'controller keyboard']
+tags: ["native-instruments", "arturia", "keyboard"]
 description: "A detailed comparison of the Arturia KeyLab 88 MK3 and Native Instruments Kontrol S88 MK3, covering keybed feel, workflow, software integration, and which one suits different studio and stage needs."
 cover:
   image: /assets/images/music-production/music-production.png

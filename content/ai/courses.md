@@ -5,7 +5,7 @@ draft: false
 type: reference
 hiddenInHomeList: true
 robotsNoIndex: true
-tags: ["ai", "chatbot", "chatgpt", "training-course"]
+tags: ["ai", "chatbot", "chatgpt", "course"]
 description: "A curated index of AI courses, books, newsletters, and YouTube channels - from free starting points to professional certificates, organised by provider and learning goal."
 cover:
   image: /assets/images/ai/ai-resources-best-practices.jpg

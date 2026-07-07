@@ -2,7 +2,7 @@
 title: "Why Spacecraft Don't Just Slow Down Before Reentry"
 date: 2026-04-19T19:54:00+01:00
 draft: false
-tags: ['space', 'nasa', 'physics', 'engineering', 'reentry', 'orion']
+tags: ["space", "nasa", "physics", "engineering", "orion"]
 description: "Returning from the Moon, spacecraft slam into the atmosphere at 25,000 mph. Why not slow down first? The answer comes down to energy, mass, and the brutal mathematics of rocket fuel."
 cover:
   image: /assets/images/space/spacecraft-reentry.jpg

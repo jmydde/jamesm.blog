@@ -2,7 +2,7 @@
 title: "Native Instruments Traktor MX2"
 date: 2025-10-10T21:47:21+01:00
 draft: false
-tags: ['native instruments', 'dj', 'dj controller', 'traktor']
+tags: ["native-instruments", "dj", "traktor"]
 description: "The Native Instruments Traktor MX2 is a compact two-channel DJ controller with Stems, Pattern Player, and 40+ effects - built for expressive performance rather than just track playback."
 cover:
   image: /assets/images/music-production/music-production.png

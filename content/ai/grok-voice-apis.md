@@ -2,7 +2,7 @@
 title: "Grok's New Voice APIs: Speech Recognition and Synthesis at Enterprise Scale"
 date: 2026-04-24T21:07:00+00:00
 draft: false
-tags: ["ai", "api", "grok", "voice"]
+tags: ["ai", "api", "xai", "voice"]
 description: "xAI launches standalone Speech-to-Text and Text-to-Speech APIs, bringing production-grade voice capabilities to developers at competitive pricing."
 cover:
   image: /assets/images/ai/speech-to-text.jpg

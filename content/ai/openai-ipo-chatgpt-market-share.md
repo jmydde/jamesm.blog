@@ -2,7 +2,7 @@
 title: "The $2.22 Problem: OpenAI's IPO and the First Crack in the ChatGPT Monopoly"
 date: 2026-06-27T07:30:00+01:00
 draft: false
-tags: ["ai", "openai", "chatgpt", "ipo", "market", "economics", "2026"]
+tags: ["ai", "openai", "chatgpt", "business", "economics", "2026"]
 description: "OpenAI filed its confidential S-1 on June 8, 2026, targeting a $1 trillion public listing. The same week, ChatGPT fell below 50% market share for the first time. The company spends $2.22 for every dollar it earns. Here is what public markets are actually being asked to buy."
 cover:
   image: /assets/images/ai/openai-ipo-chatgpt-market-share.jpg

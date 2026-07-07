@@ -2,7 +2,7 @@
 title: "Music Production: Mobile Apps for iPad and iPhone"
 date: 2026-05-01T20:41:00+00:00
 draft: false
-tags: ['ableton', 'app', 'iphone', 'ipad', 'ios', 'korg', 'roland', 'modartt', 'synth']
+tags: ["ableton", "mobile", "ios", "korg", "roland", "modartt", "synth"]
 description: "A curated guide to the iPad and iPhone music production apps worth installing in 2026 - synths, grooveboxes, sketchpads, and learning tools, with notes on what each one is actually good for."
 cover:
   image: /assets/images/music-production/mobile-apps-ipad-iphone.jpg

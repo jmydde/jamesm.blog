@@ -2,7 +2,7 @@
 title: "My Music Production Hardware & Software Wishlists"
 date: 2025-12-25T21:28:00+00:00
 draft: false
-tags: ['aas', 'ableton', 'air', 'apple', 'arturia', 'behringer', 'casio', 'cherry audio', 'cubase', 'eventide', 'heavyocity', 'image-line', 'ios', 'izotope', 'jvc', 'keyboard', 'korg', 'lennardigital', 'modartt', 'moog', 'native instruments', 'novation', 'pluginguru', 'projectsam', 'roland', 'spectrasonics', 'spitfire audio', 'steinberg', 'synth', 'toontrack', 'uhe', 'uvi', 'yamaha']
+tags: ["aas", "ableton", "air", "apple", "arturia", "behringer", "casio", "cherry-audio", "cubase", "eventide", "heavyocity", "image-line", "ios", "izotope", "jvc", "keyboard", "korg", "lennardigital", "modartt", "moog", "native-instruments", "novation", "pluginguru", "projectsam", "roland", "spectrasonics", "spitfire-audio", "steinberg", "synth", "toontrack", "uhe", "uvi", "yamaha"]
 description: "Hardware and software gear James M wants to add to the studio - synthesizers, controller keyboards, arranger keyboards, DAWs, and plugins from Yamaha, Roland, Moog, Arturia, and many others."
 cover:
   image: /assets/images/music-production/music-production.png

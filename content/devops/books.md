@@ -2,7 +2,7 @@
 title: "DevOps Books"
 date: 2023-04-21T23:07:18+01:00
 draft: false
-tags: ['devops', 'book', 'python', 'docker', 'kubernetes', 'terraform', 'iac', 'linux', 'programming', 'bash', 'sql', 'golang', 'sre']
+tags: ["devops", "book", "python", "docker", "kubernetes", "terraform", "iac", "linux", "programming", "sql", "sre"]
 description: "Recommended reading list of DevOps and infrastructure engineering books covering culture, cloud, containers, infrastructure as code, SRE, and programming languages."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

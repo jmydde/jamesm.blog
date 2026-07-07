@@ -2,7 +2,7 @@
 title: "Mac Applications & Utilities"
 date: 2026-04-04T20:56:00+01:00
 draft: false
-tags: ['mac', 'macos', 'tool', 'utility', 'productivity', 'development']
+tags: ["macos", "tool", "productivity", "development"]
 description: "Curated collection of essential macOS applications and utilities for productivity, development, file management, and system optimisation."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

@@ -2,7 +2,7 @@
 title: "The Quiet Discipline of Self-Honesty"
 date: 2026-04-28T00:12:00+01:00
 draft: false
-tags: ["personal-development","self-improvement","self-awareness","growth","reflection"]
+tags: ["personal-development", "self-improvement", "mindset", "growth"]
 description: "Self-honesty is the foundational skill that quietly decides whether any other self-improvement effort works. A practical look at why most progress stalls without it, and how to build it deliberately."
 cover:
   image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg

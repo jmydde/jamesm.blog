@@ -2,7 +2,7 @@
 title: "1X - Eve"
 date: 2024-04-21T22:26:14+01:00
 draft: false
-tags: ["ai","robotics","1x","eve"]
+tags: ["ai", "robotics", "1x"]
 description: "1X EVE is a wheeled android worker robot built for logistics and retail environments, using embodied AI and natural language processing to navigate real-world spaces safely alongside humans."
 cover:
   image: /assets/images/ai/humanoid-robotics-2026.jpg

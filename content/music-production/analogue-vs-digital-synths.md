@@ -2,7 +2,7 @@
 title: "Music Production: Analogue vs Digital Synths"
 date: 2024-04-20T06:59:00+00:00
 draft: false
-tags: ['analogue', 'digital', 'synth']
+tags: ["synth"]
 description: "A clear breakdown of the key differences between analogue and digital synthesizers - how each generates sound, their pros and cons, and how to choose the right type for your music."
 cover:
   image: /assets/images/music-production/music-production.png

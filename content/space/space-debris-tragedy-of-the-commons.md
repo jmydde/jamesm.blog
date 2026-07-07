@@ -2,7 +2,7 @@
 title: "Space Debris Is a Tragedy of the Commons - Here's the Math"
 date: 2026-05-02T20:00:00+01:00
 draft: false
-tags: ['space', 'debris', 'leo', 'kessler', 'satellite', 'sustainability', '2026']
+tags: ["space", "debris", "satellite", "2026"]
 description: "Low Earth orbit is filling up. The economics of space debris look exactly like a textbook tragedy of the commons - private benefits, shared costs, no pricing mechanism. A grounded look at the numbers behind Kessler syndrome and what would actually fix it."
 cover:
   image: /assets/images/space/space-debris-tragedy-of-the-commons.jpg

@@ -2,7 +2,7 @@
 title: "DuckDB: The In-Process Analytics Engine Eating the Stack"
 date: 2026-05-13T17:00:00+01:00
 draft: true
-tags: ["data-engineering", "duckdb", "lakehouse", "analytics", "single-node", "ducklake", "2026"]
+tags: ["data-engineering", "duckdb", "lakehouse", "analytics", "single-node", "2026"]
 description: "A grounded look at why DuckDB has moved from a clever academic project to one of the most important pieces of the 2026 data-engineering stack - what it is, what DuckLake changes, where it competes with the lakehouse, and what teams are actually shipping with it."
 cover:
   image: /assets/images/data-engineering/duckdb-in-process-analytics-eating-the-stack.jpg

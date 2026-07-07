@@ -2,7 +2,7 @@
 title: "Top 5 Hardware Sequencers of 2025"
 date: 2025-12-27T20:52:21+01:00
 draft: false
-tags: ['music production', 'hardware sequencer', 'sequencer', 'music hardware']
+tags: ["music-production", "sequencer", "hardware"]
 description: "The five hardware sequencers worth considering in 2025 - Teenage Engineering OP-XY, OXI One MKII, Arturia KeyStep Pro, Korg SQ-64, and Arturia BeatStep - compared by price, track count, and workflow."
 cover:
   image: /assets/images/music-production/hardware-sequencers-2026.jpg

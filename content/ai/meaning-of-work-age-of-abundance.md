@@ -2,7 +2,7 @@
 title: "The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting"
 date: 2026-04-02T23:30:00+01:00
 draft: false
-tags: ["ai", "philosophy", "work", "career", "leadership"]
+tags: ["ai", "philosophy", "future-of-work", "career", "leadership"]
 description: "If agents end up doing the execution, what are we for? Some thinking out loud about purpose, identity, and what a working life might look like when the labour layer is automated."
 cover:
   image: /assets/images/ai/meaning-of-work-abundance.jpg

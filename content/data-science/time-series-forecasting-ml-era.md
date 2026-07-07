@@ -2,7 +2,7 @@
 title: "Time Series Forecasting in the ML Era: What Actually Works"
 date: 2026-05-13T02:30:00+01:00
 draft: true
-tags: ["data", "forecasting", "time-series", "machine-learning", "statistics"]
+tags: ["data", "time-series", "machine-learning", "statistics"]
 description: "Forecasting is one of the oldest statistical problems and one where the deep-learning revolution has produced mixed results. A practical look at the state of time-series forecasting in 2026, where neural approaches actually beat classical statistics, and where they do not."
 cover:
   image: /assets/images/data-science/time-series-forecasting-ml-era.jpg

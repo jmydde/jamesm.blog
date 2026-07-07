@@ -2,7 +2,7 @@
 title: "dbt vs SQLMesh: The Transformation Layer Showdown in 2026"
 date: 2026-05-13T19:00:00+01:00
 draft: true
-tags: ["data-engineering", "dbt", "sqlmesh", "analytics-engineering", "transformation", "2026"]
+tags: ["data-engineering", "dbt", "sqlmesh", "etl", "2026"]
 description: "A grounded comparison of the two serious SQL transformation frameworks in 2026 - dbt, the incumbent that built the analytics engineering discipline, and SQLMesh, the challenger built around SQL parsing, virtual environments, and column-level lineage."
 cover:
   image: /assets/images/data-engineering/dbt-vs-sqlmesh-2026.jpg

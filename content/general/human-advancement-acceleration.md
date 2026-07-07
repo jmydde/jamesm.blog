@@ -2,7 +2,7 @@
 title: "The Exponential Curve: Understanding Human Advancement Acceleration"
 date: 2026-04-20T07:31:00+01:00
 draft: false
-tags: ["technology", "history", "innovation", "future"]
+tags: ["technology", "history", "future"]
 description: "Why human advancement is accelerating exponentially - from steam engines to AGI in three centuries"
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

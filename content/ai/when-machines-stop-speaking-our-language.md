@@ -2,7 +2,7 @@
 title: "When Machines Stop Speaking Our Language - Binary Agents and the End of Compilers"
 date: 2026-06-10T20:30:00+01:00
 draft: false
-tags: ['ai', 'agent', 'language', 'compiler', 'binary', 'communication', 'future', '2026']
+tags: ["ai", "agent", "llm", "programming", "communication", "future", "2026"]
 description: "Human language between AI agents is a compatibility layer, and so are programming languages. A speculative look at machines inventing their own protocols, agents reasoning in neuralese, and a future where software is built without source code a human ever reads - and what we lose if the audit trail goes dark."
 cover:
   image: /assets/images/ai/machines-stop-speaking-our-language.jpg

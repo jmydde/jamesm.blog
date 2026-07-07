@@ -2,7 +2,7 @@
 title: "What Comes After Artemis: The Road to a Lunar Gateway"
 date: 2026-04-09T06:50:00+01:00
 draft: false
-tags: ['nasa', 'artemis', 'lunar-gateway', 'moon', 'space-station', 'infrastructure']
+tags: ["nasa", "artemis", "moon", "space-station", "infrastructure"]
 description: "Beyond Apollo-style moon landings: how the Lunar Gateway transforms humanity's approach to sustained lunar presence and deep space exploration."
 cover:
   image: /assets/images/space/artemis-iii-lander-architecture.jpg

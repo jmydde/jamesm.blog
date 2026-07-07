@@ -2,7 +2,7 @@
 title: "The Most Valuable Skill Is Knowing What Not To Build"
 date: 2026-04-09T06:24:00+01:00
 draft: false
-tags: ['personal-development', 'product', 'strategy']
+tags: ["personal-development", "product", "product-management"]
 description: "The skill of saying no - of recognizing which ideas deserve your time and which don't - is more valuable than execution ability."
 cover:
   image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg

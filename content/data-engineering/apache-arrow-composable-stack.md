@@ -2,7 +2,7 @@
 title: "Apache Arrow and the Composable Data Stack"
 date: 2026-05-14T09:00:00+01:00
 draft: true
-tags: ["data-engineering", "apache-arrow", "datafusion", "composable", "open-source", "2026"]
+tags: ["data-engineering", "apache-arrow", "open-source", "2026"]
 description: "A grounded look at the Apache Arrow ecosystem and the composable data stack thesis - how a memory format from 2016 became the universal substrate for DuckDB, Polars, DataFusion, Velox, and most of the next generation of data infrastructure, and what that means for builders in 2026."
 cover:
   image: /assets/images/data-engineering/apache-arrow-composable-stack.jpg

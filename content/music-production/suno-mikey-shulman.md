@@ -2,7 +2,7 @@
 title: "Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?"
 date: 2025-01-10T08:29:21+01:00
 draft: false
-tags: ['suno', 'ai', 'ai music']
+tags: ["suno", "ai", "ai-music"]
 description: "Mikey Shulman, co-founder and CEO of Suno, on the future of AI music - what it means for creativity, who benefits, and where the technology is heading."
 cover:
   image: /assets/images/music-production/suno-may-2026.png

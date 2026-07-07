@@ -2,7 +2,7 @@
 title: "Scaling Graph Algorithms: From Prototypes to Production"
 date: 2026-03-09T10:00:00+00:00
 draft: false
-tags: ['data-science', 'graph-algorithms', 'scaling', 'distributed-systems', 'neptune-analytics', 'performance']
+tags: ["data-science", "graph-algorithm", "performance", "distributed-system", "neptune-analytics"]
 description: "How to take graph algorithms from laptop experiments to production systems handling billions of nodes. Covers memory constraints, distributed computation, query patterns, and the hidden costs nobody talks about."
 slug: "scaling-graph-algorithms"
 ---

@@ -2,7 +2,7 @@
 title: "Music Production Websites"
 date: 2024-01-18T18:31:21+01:00
 draft: false
-tags: ['aas', 'ableton', 'adsr', 'course', 'cubase', 'groove3', 'logic pro', 'maschine', 'music production', 'music theory', 'native instruments', 'piano', 'pianote', 'serum', 'steinberg', 'training', 'youtube']
+tags: ["aas", "ableton", "adsr", "course", "cubase", "groove3", "logic-pro", "maschine", "music-production", "music-theory", "native-instruments", "piano", "pianote", "serum", "steinberg", "training", "youtube"]
 description: "A curated list of music production websites covering online learning platforms, DAW tutorials, and music technology resources."
 cover:
   image: /assets/images/music-production/music-production.png

@@ -2,7 +2,7 @@
 title: "Connecting Claude to Ableton: Why the New Knowledge Connector Matters"
 date: 2026-04-30T19:19:00+01:00
 draft: false
-tags: ['ai', 'ableton', 'claude', 'music production']
+tags: ["ai", "ableton", "claude", "music-production"]
 description: "Anthropic just shipped an official Ableton Knowledge connector for Claude. Here is what it actually does, how it differs from the community AbletonMCP project, and why it changes how you learn Live and Push."
 cover:
   image: /assets/images/music-production/claude-ableton-connector.png

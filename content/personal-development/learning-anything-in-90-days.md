@@ -2,7 +2,7 @@
 title: "Learning Anything in 90 Days: A Practical Compression"
 date: 2026-05-12T15:30:00+01:00
 draft: true
-tags: ["learning", "habit", "discipline", "skill", "deliberate-practice"]
+tags: ["learning", "habit", "discipline", "skill"]
 description: "Ninety days is short enough to be ambitious and long enough to actually change. A practical framework for compressing the first phase of learning a new skill into a single quarter - based on what works, not on what sounds good in a productivity book."
 cover:
   image: /assets/images/personal-development/learning-how-to-learn-in-the-age-of-ai.jpg

@@ -2,7 +2,7 @@
 title: "Bitcoin"
 date: 2023-06-23T13:30:39+01:00
 draft: false
-tags: ['bitcoin', 'cryptocurrency', 'blockchain', 'decentralized', 'digital-currency', 'economics']
+tags: ["bitcoin", "cryptocurrency", "blockchain", "web3", "economics"]
 description: "An introduction to Bitcoin - the world's first decentralised cryptocurrency. Covers key characteristics, how it works, and curated educational resources for understanding Bitcoin from first principles."
 cover:
   image: /assets/images/blockchain/state-of-blockchain-2026.jpg

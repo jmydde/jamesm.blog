@@ -2,7 +2,7 @@
 title: "Suno Studio is here"
 date: 2025-09-26T08:29:21+01:00
 draft: false
-tags: ['suno', 'suno ai', 'ai', 'ai music']
+tags: ["suno", "ai", "ai-music"]
 description: "Suno Studio is the first generative DAW - a cloud-based workstation that puts text-to-music at the centre of the editing flow rather than bolting it on. Here is what it does, who it is for, and where it fits."
 cover:
   image: /assets/images/music-production/music-production.png

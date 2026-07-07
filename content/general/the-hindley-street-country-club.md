@@ -2,7 +2,7 @@
 title: "The Hindley Street Country Club"
 date: 2024-04-22T20:47:01+01:00
 draft: false
-tags: ['music', 'cover-band', 'youtube', 'entertainment']
+tags: ["music", "band", "youtube", "entertainment"]
 description: "Australian cover band group with millions of YouTube views and global following for innovative music arrangements."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

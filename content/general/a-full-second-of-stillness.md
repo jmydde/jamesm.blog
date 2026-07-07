@@ -2,7 +2,7 @@
 title: "A Full Second of Stillness: How Physicists Pinned Light in Place"
 date: 2026-04-19T22:28:00+01:00
 draft: true
-tags: [quantum, physics, light, breakthrough]
+tags: ["quantum", "physics", "science"]
 description: "Researchers have held a pulse of light motionless for an entire second - a thousandfold leap over earlier records. Here is what that actually means, how it was done, and why it reshapes the future of quantum hardware."
 cover:
   image: /assets/images/ai/a-full-second-of-stillness.jpg

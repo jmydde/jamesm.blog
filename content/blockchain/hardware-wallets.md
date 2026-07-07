@@ -3,7 +3,7 @@ title: "Cryptocurrency Hardware Wallets"
 date: 2023-04-17T09:00:00+01:00
 draft: false
 description: "Guide to hardware wallets for secure cryptocurrency storage, covering leading providers and best practices for cold storage security"
-tags: ['bitcoin', 'hardware-wallet', 'safepal', 'ledger', 'trezor', 'hacking', 'security', 'cryptocurrency']
+tags: ["bitcoin", "hardware-wallet", "security", "cryptocurrency"]
 cover:
   image: /assets/images/blockchain/state-of-blockchain-2026.jpg
   alt: Cryptocurrency Hardware Wallets Banner

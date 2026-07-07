@@ -2,7 +2,7 @@
 title: "Copy Protection Wars: The Ingenious Schemes Of 1980s Software"
 date: 2026-04-08T06:11:00+00:00
 draft: false
-tags: ['retro', 'computing', 'history', 'security', 'software', 'drm']
+tags: ["retro-computing", "computing", "history", "security", "software", "piracy"]
 description: "A deep dive into the creative, bizarre, and often frustrating world of 1980s copy protection, from code wheels to lensloks."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

@@ -2,7 +2,7 @@
 title: "AWS Summit London (2023) - Agenda Announcement"
 date: 2023-05-18T09:54:16+01:00
 draft: false
-tags: ['aws', 'devops', 'conference', 'summit', 'event', 'london', 'cloud']
+tags: ["aws", "devops", "conference", "london", "cloud"]
 description: "AWS Summit London 2023 agenda announcement with keynote details, technical tracks, and planning guidance for attendees."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

@@ -4,7 +4,7 @@ date: 2025-11-27T07:39:14+01:00
 draft: false
 type: brief
 hiddenInHomeList: true
-tags: ["ai","human","job","career","future-of-work"]
+tags: ["ai", "society", "career", "future-of-work"]
 description: "Which jobs survive when AI handles execution? A look at the five categories of work that stay human-shaped - judgment, empathy, embodied skill, taste, and accountability."
 cover:
   image: /assets/images/ai/junior-developer-pipeline.jpg

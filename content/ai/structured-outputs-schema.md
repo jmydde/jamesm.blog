@@ -2,7 +2,7 @@
 title: "Structured Outputs: When Your AI Needs to Follow a Schema"
 date: 2026-04-12T06:17:00+00:00
 draft: false
-tags: ['llm', 'structured-output', 'schema', 'json']
+tags: ["llm", "json", "schema"]
 description: "Why guaranteeing output format matters more than you think, and when to use structured outputs in production"
 cover:
   image: /assets/images/ai/context-engineering.png

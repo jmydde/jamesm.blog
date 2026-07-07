@@ -2,7 +2,7 @@
 title: "Internal Developer Platforms: Backstage and the IDP Stack in 2026"
 date: 2026-05-13T07:30:00+01:00
 draft: true
-tags: ["devops", "platform", "idp", "backstage", "developer-experience"]
+tags: ["devops", "platform", "platform-engineering", "backstage"]
 description: "Internal Developer Platforms went from buzzword to expected infrastructure inside three years. A practical look at the IDP stack in 2026 - what Backstage actually does, where the gaps are, and what the alternatives look like."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

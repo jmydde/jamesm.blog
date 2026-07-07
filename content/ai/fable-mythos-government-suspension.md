@@ -2,7 +2,7 @@
 title: "Pulled From The Shelf: The Government Order to Suspend Fable 5 and Mythos 5"
 date: 2026-06-13T07:30:00+01:00
 draft: false
-tags: ["ai", "anthropic", "claude", "fable", "mythos", "ai-safety", "ai-policy", "2026"]
+tags: ["ai", "anthropic", "claude", "fable", "mythos", "ai-safety", "policy", "2026"]
 description: "Four days after Fable 5 and Mythos 5 went public, the US government issued an export control directive ordering Anthropic to suspend all access. Anthropic says it's a misunderstanding over a narrow jailbreak. Here's what happened, what's at stake, and why it matters for every frontier lab."
 cover:
   image: /assets/images/ai/fable-mythos-government-suspension.jpg

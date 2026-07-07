@@ -2,7 +2,7 @@
 title: "Amazon Doubles Down: The $25 Billion Anthropic Bet"
 date: 2026-04-21T06:36:00+01:00
 draft: false
-tags: ["ai","anthropic","amazon","aws","investment"]
+tags: ["ai", "anthropic", "amazon", "aws", "economics"]
 description: "Amazon announces up to $25 billion additional investment in Anthropic, with Anthropic committing over $100 billion to AWS over the next decade."
 cover:
   image: /assets/images/ai/amazon-anthropic.png

@@ -2,7 +2,7 @@
 title: "Monitoring and Observability"
 date: 2022-01-21T11:51:18+01:00
 draft: false
-tags: ['monitoring', 'observability', 'devops', 'cloud', 'metric', 'logging', 'tracing']
+tags: ["observability", "devops", "cloud"]
 description: "Guide to monitoring and observability tools for cloud infrastructure and applications - AWS CloudWatch, Datadog, Grafana, Prometheus, and open-source alternatives."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

@@ -2,7 +2,7 @@
 title: "Data Engineering & Data Science Courses"
 date: 2026-04-04T20:51:25+01:00
 draft: false
-tags: ['airflow', 'data', 'data-engineering', 'data-science', 'database', 'databricks', 'datacamp', 'db', 'deep-learning', 'course', 'etl', 'google', 'nosql', 'pipeline', 'python', 'scheduling', 'streaming', 'snowflake', 'tensorflow', 'training', 'kafka', 'spark', 'cloud-certification']
+tags: ["airflow", "data", "data-engineering", "data-science", "database", "databricks", "course", "deep-learning", "etl", "google", "pipeline", "python", "scheduling", "streaming", "snowflake", "machine-learning", "training", "kafka", "spark", "certification"]
 description: "Comprehensive curated list of data engineering and data science courses from Coursera, DataCamp, A Cloud Guru, Udacity, Google Cloud, and other platforms with learning paths and certifications."
 cover:
   image: images/data.jpg

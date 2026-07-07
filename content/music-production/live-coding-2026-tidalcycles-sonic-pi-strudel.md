@@ -2,7 +2,7 @@
 title: "Live Coding in 2026: TidalCycles, Sonic Pi, and Strudel"
 date: 2026-05-12T23:45:00+01:00
 draft: true
-tags: ["music", "live coding", "algorithm", "performance", "tidal", "strudel"]
+tags: ["music", "live-coding", "performance"]
 description: "Live coding has quietly become a meaningful corner of electronic music performance. A look at the three serious live-coding environments in 2026, what each one is genuinely good at, and why the practice is bigger than the niche-music framing suggests."
 cover:
   image: /assets/images/music-production/live-coding-2026-tidalcycles-sonic-pi-strudel.jpg

@@ -2,7 +2,7 @@
 title: "News: Native Instruments Sale (50% off)"
 date: 2023-05-26T07:01:39+01:00
 draft: false
-tags: ['music', 'music production', 'native instruments', 'sale', 'discount', 'plugin']
+tags: ["music", "music-production", "native-instruments", "sale", "plugin"]
 description: "Native Instruments Summer of Sound 2023 sale offers 50% off Komplete 14 upgrades, Traktor Pro 3, instrument and effect plugins, and iZotope products until 6th July 2023."
 cover:
   image: /assets/images/music-production/music-production.png

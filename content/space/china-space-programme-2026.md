@@ -2,7 +2,7 @@
 title: "China's Space Programme in 2026 - Tiangong, Chang'e, Lunar Plans"
 date: 2026-05-03T19:00:00+01:00
 draft: false
-tags: ['space', 'china', 'tiangong', 'change', 'moon', 'mars', '2026']
+tags: ["space", "tiangong", "future", "moon", "mars", "2026"]
 description: "While Western space coverage focused on Starship and Artemis, China quietly executed one of the most consistent national space programmes in history. A grounded look at where Tiangong, the Chang'e lunar series, and the broader Chinese space architecture stand in 2026."
 cover:
   image: /assets/images/space/china-space-programme-2026.jpg

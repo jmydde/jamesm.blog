@@ -2,7 +2,7 @@
 title: "The Best Software Synths of 2025"
 date: 2025-12-26T21:42:00+00:00
 draft: false
-tags: ['music production', 'software synth', 'synth']
+tags: ["music-production", "software-synth", "synth"]
 description: "A panoramic look at the top software synthesizers of 2025 - from Serum 2 and Pigments 7 to Omnisphere 3 and Vital Pro, with release timing and what makes each one stand out."
 cover:
   image: /assets/images/music-production/music-production.png

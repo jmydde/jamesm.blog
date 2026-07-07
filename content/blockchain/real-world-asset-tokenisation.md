@@ -2,7 +2,7 @@
 title: "Real World Asset Tokenisation: The Slow Revolution in 2026"
 date: 2026-05-13T01:30:00+01:00
 draft: true
-tags: ['blockchain', 'rwa', 'finance', 'tokenisation', 'regulation']
+tags: ["blockchain", "rwa", "finance", "regulation"]
 description: "Tokenising real-world assets on blockchains was the persistent promise of the last few crypto cycles. In 2026 it has quietly started working at meaningful scale, in specific asset classes, with specific regulators on board. A practical look at where the slow revolution actually is."
 cover:
   image: /assets/images/blockchain/state-of-blockchain-2026.jpg

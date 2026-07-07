@@ -2,7 +2,7 @@
 title: "Z80 vs 6502: The Architectural Rivalry That Shaped a Generation"
 date: 2026-05-13T03:30:00+01:00
 draft: true
-tags: ["retro", "8-bit", "cpu", "zilog", "mos", "architecture"]
+tags: ["retro-computing", "8-bit", "cpu", "architecture"]
 description: "Two 8-bit processors defined the home computer revolution: Zilog's Z80 and MOS Technology's 6502. A look at how their architectural choices shaped completely different traditions of programming - and which echoes of that rivalry are still visible in modern CPU design."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

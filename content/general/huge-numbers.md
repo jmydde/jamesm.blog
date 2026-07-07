@@ -2,7 +2,7 @@
 title: "Very very large numbers"
 date: 2024-04-21T22:07:01+01:00
 draft: false
-tags: ['numbers', 'mathematics', 'science', 'youtube', 'education']
+tags: ["mathematics", "science", "youtube", "education"]
 description: "Collection of fascinating YouTube videos exploring extraordinarily large numbers, infinity, and mathematical concepts."
 cover:
   image: /assets/images/general/is-reality-made-of-mathematics.jpg

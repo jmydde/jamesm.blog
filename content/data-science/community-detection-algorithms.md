@@ -2,7 +2,7 @@
 title: "Community Detection Algorithms: Finding Clusters and Groups in Network Data"
 date: 2026-02-09T09:00:00+00:00
 draft: false
-tags: ['data-science', 'graph-algorithms', 'community-detection', 'clustering', 'network-analysis', 'modularity']
+tags: ["data-science", "graph-algorithm", "network-analysis"]
 description: "Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations."
 slug: "community-detection-algorithms"
 ---

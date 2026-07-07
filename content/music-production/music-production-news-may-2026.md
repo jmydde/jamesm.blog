@@ -2,7 +2,7 @@
 title: "Music Production News - May 2026: Superbooth, AI Settlements, and the Updates That Matter"
 date: 2026-05-21T21:12:00+01:00
 draft: false
-tags: ['music production', 'ai', 'ai music', 'news', 'suno', 'synth']
+tags: ["music-production", "ai", "ai-music", "news", "suno", "synth"]
 description: "The biggest computer music production stories of the last month - Superbooth 2026, neural audio in hardware, the shifting AI music legal picture, Tamber's launch, and the DAW updates worth your attention."
 cover:
   image: /assets/images/music-production/music-production-news-may-2026.png

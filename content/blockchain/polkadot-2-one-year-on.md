@@ -2,7 +2,7 @@
 title: "Polkadot 2.0 One Year On - Did Agile Coretime Deliver?"
 date: 2026-05-02T09:00:00+01:00
 draft: false
-tags: ['polkadot', 'blockchain', 'coretime', 'web3', 'parachain', '2026']
+tags: ["polkadot", "blockchain", "web3", "2026"]
 description: "A year after Polkadot 2.0 went live, the data is in. Did Agile Coretime, Elastic Scaling, and Asynchronous Backing actually move the needle? An honest scorecard on utilization, builder economics, and what still has not landed."
 cover:
   image: /assets/images/blockchain/polkadot-2-one-year-on.jpg

@@ -2,7 +2,7 @@
 title: "Five Archetypes for a Post-Role Team"
 date: 2026-06-29T20:30:00+01:00
 draft: false
-tags: ["ai", "role", "career", "team", "engineering"]
+tags: ["ai", "role", "career", "management", "engineering"]
 description: "Boris Cherny, who created Claude Code, sketched five archetypes he sees on his team as engineering, product, design, and data science melt into one role. Here is what that framing gets right, and where I think it still leaves us guessing."
 cover:
   image: /assets/images/ai/five-archetypes-post-role-team.jpg

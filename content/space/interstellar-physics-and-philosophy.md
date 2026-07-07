@@ -2,7 +2,7 @@
 title: "The Physics and Philosophy of Interstellar"
 date: 2026-05-04T00:01:00+01:00
 draft: false
-tags: ['space', 'physics', 'film', 'science', 'relativity', 'philosophy', 'black-hole', 'wormhole']
+tags: ["space", "physics", "entertainment", "science", "philosophy"]
 description: "How Christopher Nolan and Nobel laureate Kip Thorne built a Hollywood film around real general relativity - wormholes, Gargantua, gravitational time dilation, the Tesseract, and the trade-offs between scientific accuracy and storytelling."
 cover:
   image: /assets/images/space/interstellar-physics-and-philosophy.jpg

@@ -3,7 +3,7 @@ title: "Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused 
 date: 2026-06-11T10:00:00+01:00
 draft: false
 series: ["Trust"]
-tags: ["ai", "agent", "security", "mcp", "prompt-injection", "agentic-engineering"]
+tags: ["ai", "agent", "security", "mcp", "agentic-engineering"]
 description: "The moment an agent holds real tool access, reliability and security stop being separate problems. A practitioner walkthrough of the confused-deputy attack surface, MCP hardening patterns, and the defenses I actually run on my home agent stack."
 cover:
   image: /assets/images/ai/ai-cyber-threat-is-rising.png

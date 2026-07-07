@@ -2,7 +2,7 @@
 title: "IK Multimedia - Pianoverse"
 date: 2024-06-22T10:09:21+01:00
 draft: false
-tags: ['ik multimedia', 'piano']
+tags: ["ik-multimedia", "piano"]
 description: "IK Multimedia's Pianoverse offers a collection of deeply sampled grand and upright piano instruments with excellent effects - a personal take on why the Pianoverse MAX bundle is worth it."
 cover:
   image: /assets/images/music-production/music-production.png

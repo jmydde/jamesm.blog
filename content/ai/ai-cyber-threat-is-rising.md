@@ -2,7 +2,7 @@
 title: "Why the AI Cyber Threat Is Rising"
 date: 2026-05-26T07:30:00+01:00
 draft: false
-tags: ["ai", "cybersecurity", "anthropic", "security", "agent"]
+tags: ["ai", "security", "anthropic", "agent"]
 description: "Sky News technology correspondent Rowland Manthorpe lays out the evidence that AI models are getting dramatically better at offensive cyber tasks. A look at what the AISI and CAISI numbers actually say, why open-weight releases change the threat curve, and what defenders should do about it."
 cover:
   image: /assets/images/ai/ai-cyber-threat-is-rising.png

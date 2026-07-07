@@ -2,7 +2,7 @@
 title: "The Quiet Death of the Classic Data Warehouse Pattern"
 date: 2026-05-12T12:00:00+01:00
 draft: true
-tags: ["data", "warehouse", "lakehouse", "architecture", "etl"]
+tags: ["data", "data-warehouse", "lakehouse", "architecture", "etl"]
 description: "The pattern that defined enterprise analytics for two decades - ingest, transform, load into a star schema in a warehouse - is no longer the default in 2026. A look at what replaced it, why, and what is genuinely lost along the way."
 cover:
   image: /assets/images/data-engineering/death-of-classic-data-warehouse-pattern.jpg

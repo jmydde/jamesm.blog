@@ -2,7 +2,7 @@
 title: "Roland Jupiter‑X Review: A Workstation‑Level Synth with Legendary Sound"
 date: 2026-01-22T22:31:21+01:00
 draft: false
-tags: ['synth', 'roland', 'jupiter-x', 'music production', 'synthesizer']
+tags: ["synth", "roland", "jupiter-x", "music-production"]
 description: "The Roland Jupiter-X combines ZEN-Core models of the Jupiter-8, Juno-106, and SH-101 with layering, rhythm, and I-Arpeggio into one versatile stage and studio instrument."
 cover:
   image: /assets/images/music-production/music-production.png

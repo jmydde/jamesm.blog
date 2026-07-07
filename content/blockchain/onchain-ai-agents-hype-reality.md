@@ -2,7 +2,7 @@
 title: "Onchain AI Agents - Hype, Reality, and Where the Money Actually Flows"
 date: 2026-05-03T13:00:00+01:00
 draft: false
-tags: ['blockchain', 'ai', 'agent', 'crypto', 'defi', 'web3', '2026']
+tags: ["blockchain", "ai", "agent", "cryptocurrency", "defi", "web3", "2026"]
 description: "Onchain AI agents were the hottest crypto narrative of 2025. A year later the picture is clearer. A grounded look at what these agents actually do, which categories have real revenue, where the money is leaking out, and what to ignore."
 cover:
   image: /assets/images/blockchain/onchain-ai-agents-hype-reality.jpg

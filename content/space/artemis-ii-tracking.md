@@ -2,7 +2,7 @@
 title: "NASA Artemis II Tracking Dashboards"
 date: 2026-04-04T00:00:00Z
 draft: false
-tags: ['nasa', 'artemis', 'moon', 'tracking', 'dashboard', 'space']
+tags: ["nasa", "artemis", "moon", "satellite", "tool", "space"]
 description: "Resources for tracking NASA's Artemis II lunar mission including official dashboards, tools, and mission information."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg

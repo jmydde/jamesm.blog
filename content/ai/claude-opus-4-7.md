@@ -3,7 +3,7 @@ title: "Claude Opus 4.7: Autonomy and Vision at Scale"
 date: 2026-04-16T16:15:00+00:00
 draft: false
 type: brief
-tags: ["claude", "model-release", "software-engineering", "ai-capabilities"]
+tags: ["claude", "model-release", "software-engineering", "ai"]
 description: "Claude Opus 4.7 brings autonomous software engineering, 3.75 megapixel vision, and extended reasoning control - raising the bar for AI-assisted development."
 cover:
   image: /assets/images/ai/claude-fable-mythos.jpg

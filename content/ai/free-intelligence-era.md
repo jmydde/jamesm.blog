@@ -2,7 +2,7 @@
 title: "The Free Intelligence Era: What Breaks When Thinking Costs Nothing"
 date: 2026-04-28T00:48:00+01:00
 draft: false
-tags: ["ai", "future", "economy", "labour", "society"]
+tags: ["ai", "future", "economy", "future-of-work", "society"]
 description: "The single most important economic fact about AI is that the marginal cost of intelligence is collapsing toward zero. Most of our institutions, careers, and pricing models were built for the regime where it was scarce. This is what breaks when thinking goes from expensive to nearly free, and what that future actually rewards."
 cover:
   image: /assets/images/ai/free-intelligence-era.jpg

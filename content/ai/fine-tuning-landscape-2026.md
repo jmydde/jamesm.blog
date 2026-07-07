@@ -2,7 +2,7 @@
 title: "The Fine-Tuning Landscape in 2026: LoRA, Full FT, and Distillation"
 date: 2026-05-14T05:00:00+01:00
 draft: true
-tags: ["ai", "fine-tuning", "lora", "distillation", "model", "training"]
+tags: ["ai", "fine-tuning", "model", "training"]
 description: "Fine-tuning has matured into a discipline with real choices: LoRA for adaptation, full fine-tuning for capability, distillation for cost. A practical look at which method to pick for which job, and what has actually changed in 2026."
 cover:
   image: /assets/images/ai/fine-tuning-landscape-2026.jpg

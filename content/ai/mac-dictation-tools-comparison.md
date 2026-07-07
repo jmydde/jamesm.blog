@@ -2,7 +2,7 @@
 title: "MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared"
 date: 2026-04-20T19:02:00+01:00
 draft: false
-tags: ["ai", "voice", "tool", "mac", "productivity"]
+tags: ["ai", "voice", "tool", "macos", "productivity"]
 description: "A practical breakdown of the three dictation apps every Mac user keeps hearing about - who they're for, what they cost, and where they stop being interchangeable."
 cover:
   image: /assets/images/ai/speech-to-text.jpg

@@ -2,7 +2,7 @@
 title: "Music Production Blogs"
 date: 2024-01-19T18:31:21+01:00
 draft: false
-tags: ['music production', 'blog', 'learning', 'daw', 'synthesis', 'production tip']
+tags: ["music-production", "blog", "learning", "daw", "synthesis", "production"]
 description: "Curated list of music production blogs covering DAWs, music theory, synthesis, and production techniques."
 cover:
   image: /assets/images/music-production/music-production.png

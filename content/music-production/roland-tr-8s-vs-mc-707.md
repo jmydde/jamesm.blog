@@ -2,7 +2,7 @@
 title: "Roland TR-8S vs MC-707"
 date: 2026-01-02T06:35:21+01:00
 draft: false
-tags: ['roland', 'groovebox', 'drum machine']
+tags: ["roland", "groovebox", "drum-machine"]
 description: "TR-8S vs MC-707 - a detailed comparison of Roland's dedicated rhythm performer and its full groovebox, covering workflow, sound engines, genre fit, and how to use them together."
 cover:
   image: /assets/images/music-production/hybrid-systems-montage-mc-707.jpg

@@ -2,7 +2,7 @@
 title: "LLM-Powered Personal Productivity: Building a Private Automation Stack"
 date: 2026-05-03T08:00:00+01:00
 draft: false
-tags: ["ai", "local-llm", "ollama", "obsidian", "automation", "letta", "privacy", "productivity"]
+tags: ["ai", "local-llm", "ollama", "obsidian", "automation", "memory", "privacy", "productivity"]
 description: "Local LLMs have quietly become good enough to run a real personal automation stack - inbox triage, second-brain notes, home routines, voice capture - without sending anything to the cloud. A walkthrough of what I run, why each piece is there, and where the seams are."
 cover:
   image: /assets/images/ai/llm-powered-personal-productivity.jpg

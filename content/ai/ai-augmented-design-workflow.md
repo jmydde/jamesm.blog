@@ -2,7 +2,7 @@
 title: "My AI-Augmented Design Workflow: A 10-Minute Loop From Discussion to Documented Decision"
 date: 2026-04-29T08:30:00+01:00
 draft: false
-tags: ['ai', 'workflow', 'cursor', 'claude-code', 'codex', 'documentation', 'spec-driven', 'design']
+tags: ["ai", "workflow", "cursor", "claude-code", "codex", "documentation", "sdd", "design"]
 description: "How a combination of Cursor in the IDE, Claude Code and Codex in the terminal, and ChatGPT for general questions, collapsed my discuss-design-document loop to under ten minutes - backed by transcribed meetings checked into GitHub and a daily cross-check between code and design."
 cover:
   image: /assets/images/ai/ai-augmented-design-workflow.jpg

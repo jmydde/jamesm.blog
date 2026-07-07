@@ -2,7 +2,7 @@
 title: "AWS Summit London (2023) - Video Highlights"
 date: 2023-06-07T11:04:16+01:00
 draft: false
-tags: ['aws', 'devops', 'summit', 'video', 'conference', 'london', 'keynote']
+tags: ["aws", "devops", "conference", "video", "london"]
 description: "Video recordings and key takeaways from AWS Summit London 2023, including the opening keynote on generative AI, data strategy, and customer stories from Compare the Market and Arup."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

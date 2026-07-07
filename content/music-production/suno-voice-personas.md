@@ -2,7 +2,7 @@
 title: "Suno Voice Personas"
 date: 2025-12-20T21:47:21+01:00
 draft: false
-tags: ['suno', 'ai', 'ai music']
+tags: ["suno", "ai", "ai-music"]
 description: "Suno's Voice Personas update lets you lock in a consistent vocalist across an entire project without inheriting any particular genre or instrumentation - a significant step for AI-assisted album-making."
 cover:
   image: /assets/images/music-production/suno-may-2026.png

@@ -2,7 +2,7 @@
 title: "Claude's Memory and Long Context in 2026: What Actually Works"
 date: 2026-05-06T09:00:00+01:00
 draft: true
-tags: ["ai", "claude", "memory", "context", "anthropic", "agent"]
+tags: ["ai", "claude", "memory", "context-engineering", "anthropic", "agent"]
 description: "A grounded look at how Claude's memory and long-context behaviour actually works in 2026 - what the million-token window really gives you, where prompt caching changes the economics, and how memory tools differ from context."
 cover:
   image: /assets/images/ai/claude-long-context-and-memory-2026.jpg

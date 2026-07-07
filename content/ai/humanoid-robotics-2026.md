@@ -2,7 +2,7 @@
 title: "Humanoid Robotics in 2026: From Prototypes to Production"
 date: 2026-05-02T09:00:00+01:00
 draft: false
-tags: ['ai', 'robot', 'humanoid-robot', 'hardware']
+tags: ["ai", "robotics", "hardware"]
 description: "After a decade of prototypes, humanoid robots are crossing into early production in 2026. A technical look at the leading platforms, the economics, the actuator breakthroughs, and what is still hype."
 cover:
   image: /assets/images/ai/humanoid-robotics-2026.jpg

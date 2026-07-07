@@ -2,7 +2,7 @@
 title: "The Junior Developer Pipeline Problem: Where Do Tomorrow's Seniors Come From?"
 date: 2026-03-12T00:12:00+01:00
 draft: false
-tags: ["ai", "career", "learning", "apprenticeship", "future-of-work", "leadership"]
+tags: ["ai", "career", "learning", "future-of-work", "leadership"]
 description: "Most of the AI-and-developers conversation assumes a steady supply of senior engineers who can curate, review, and judge. But the work that used to produce those seniors is the work AI now does. Where does the next generation come from?"
 cover:
   image: /assets/images/ai/junior-developer-pipeline.jpg

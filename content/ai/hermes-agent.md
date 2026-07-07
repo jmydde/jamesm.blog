@@ -2,7 +2,7 @@
 title: "Hermes Agent: Persistent Autonomy That Learns and Grows"
 date: 2026-04-20T19:03:00+01:00
 draft: false
-tags: ["ai","agent","autonomous-system","hermes","open-source"]
+tags: ["ai", "agent", "hermes", "open-source"]
 description: "Nous Research's Hermes Agent is an open-source, persistent autonomous system. A look at features, use cases, pricing, and how it compares to OpenClaw, Claude Managed Agents, and Perplexity Computer."
 cover:
   image: /assets/images/ai/hermes-agent.jpg

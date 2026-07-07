@@ -2,7 +2,7 @@
 title: "Top 5 Grooveboxes of 2025"
 date: 2025-12-27T18:47:21+01:00
 draft: false
-tags: ['music production', 'groovebox']
+tags: ["music-production", "groovebox"]
 description: "The five grooveboxes worth considering in 2025 - Roland MC-707, NI Maschine+, Elektron Digitakt II, Polyend Play+, and Akai MPC One+ - compared by workflow, price, and ideal use case."
 cover:
   image: /assets/images/music-production/hybrid-systems-montage-mc-707.jpg

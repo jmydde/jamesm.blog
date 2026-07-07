@@ -2,7 +2,7 @@
 title: "Five AI Tokens Worth Understanding in 2026 (And One You're Probably Missing)"
 date: 2026-05-03T08:00:00+01:00
 draft: false
-tags: ['ai', 'blockchain', 'crypto', 'token', 'defi', 'agent', 'bittensor', 'near', 'render', 'virtual', 'fet', '2026']
+tags: ["ai", "blockchain", "cryptocurrency", "defi", "agent", "bittensor", "near", "render", "web3", "fet", "2026"]
 description: "A technical reader's guide to the five AI-crypto tokens worth understanding in May 2026 - Bittensor, Virtuals, Render, the Artificial Superintelligence Alliance, and NEAR Protocol - plus the honourable mentions, the names to avoid, and a framework for sizing exposure across the basket."
 cover:
   image: /assets/images/blockchain/ai-tokens-2026.jpg

@@ -2,7 +2,7 @@
 title: "Is Data Mesh Dead, or Did We Just Stop Calling It That?"
 date: 2026-05-15T11:00:00+01:00
 draft: true
-tags: ["data-engineering", "data-mesh", "data-products", "architecture", "governance", "2026"]
+tags: ["data-engineering", "data-mesh", "architecture", "governance", "2026"]
 description: "A grounded look at the state of data mesh in 2026 - the original framing, what worked, what didn't, and how the ideas that survived have been absorbed into the broader data engineering vocabulary under different names."
 cover:
   image: /assets/images/data-engineering/is-data-mesh-dead-2026.jpg

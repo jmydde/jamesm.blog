@@ -2,7 +2,7 @@
 title: "The Commercial Space Stations Race: Vast, Axiom, Starlab, Orbital Reef"
 date: 2026-05-12T16:30:00+01:00
 draft: true
-tags: ["space", "iss", "station", "commercial", "nasa"]
+tags: ["space", "space-station", "nasa"]
 description: "The International Space Station retires before the decade ends, and four commercial successors are now in serious development. A look at where each one actually stands in 2026, what NASA's transition plan looks like, and which of these will plausibly fly."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg

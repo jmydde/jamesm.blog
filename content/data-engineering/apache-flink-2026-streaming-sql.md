@@ -2,7 +2,7 @@
 title: "Apache Flink in 2026: Streaming SQL Comes of Age"
 date: 2026-05-14T11:00:00+01:00
 draft: true
-tags: ["data-engineering", "flink", "streaming", "confluent", "real-time", "2026"]
+tags: ["data-engineering", "flink", "streaming", "kafka", "2026"]
 description: "A grounded look at where Apache Flink sits in 2026 after the 2.0 release - disaggregated state, materialised tables, Flink SQL coming of age on Confluent Cloud, and what it means for streaming finally being a normal part of the data engineering stack rather than a specialist niche."
 cover:
   image: /assets/images/data-engineering/apache-flink-2026-streaming-sql.jpg

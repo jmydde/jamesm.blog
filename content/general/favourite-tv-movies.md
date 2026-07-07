@@ -2,7 +2,7 @@
 title: "Favourite TV & Movies"
 date: 2023-05-11T21:06:35+01:00
 draft: false
-tags: ["movie", "comedy", "documentary", "magic", "director", "actor"]
+tags: ["entertainment", "comedy", "documentary"]
 description: "Personal collection of favourite television shows, films, comedians, directors, and actors."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

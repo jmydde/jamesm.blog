@@ -2,7 +2,7 @@
 title: "Inside Anthropic: What The Bloomberg Documentary Reveals"
 date: 2026-06-12T06:00:00+01:00
 draft: false
-tags: ["ai", "anthropic", "safety", "claude", "bloomberg", "documentary", "2026"]
+tags: ["ai", "anthropic", "safety", "claude", "business", "documentary", "2026"]
 description: "Bloomberg's The Circuit goes inside Anthropic as it eclipses OpenAI to become the world's most valuable AI lab. Emily Chang's rare access with Dario and Daniela Amodei reveals whether safety-first is a strategy or a conviction - and the Pentagon battle is the answer."
 cover:
   image: /assets/images/ai/anthropic-circuit-bloomberg-965-billion.jpg

@@ -2,7 +2,7 @@
 title: "GitHub Spec Kit in 2026: SDD Goes Mainstream 🚀"
 date: 2026-04-04T21:06:14+01:00
 draft: false
-tags: ["ai","github","spec-kit","sdd","cursor-ai","claude-code"]
+tags: ["ai", "github", "spec-kit", "sdd", "cursor", "claude-code"]
 description: "GitHub Spec Kit v0.5.0 evolved from a documentation toolkit into a full AI development platform in 2026 - Claude Code as a native skill, AWS Kiro integration, and multi-agent support across Cursor, Copilot, and Gemini CLI."
 cover:
   image: /assets/images/ai/context-engineering.png

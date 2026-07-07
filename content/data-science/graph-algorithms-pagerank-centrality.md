@@ -2,7 +2,7 @@
 title: "Graph Algorithms Explained: PageRank, Centrality, and Why They Matter"
 date: 2026-01-02T08:00:00+00:00
 draft: false
-tags: ['data-science', 'graph-algorithms', 'pagerank', 'centrality', 'network-analysis', 'neptune-analytics']
+tags: ["data-science", "graph-algorithm", "network-analysis", "neptune-analytics"]
 description: "A practical guide to understanding graph algorithms: how PageRank actually works, when to use centrality measures, and why these patterns matter for real-world problems like recommendation systems and fraud detection."
 slug: "graph-algorithms-pagerank-centrality"
 ---

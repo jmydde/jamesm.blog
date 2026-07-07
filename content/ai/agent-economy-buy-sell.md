@@ -2,7 +2,7 @@
 title: "The Agent Economy: When AIs Buy and Sell From Each Other"
 date: 2026-05-13T13:00:00+01:00
 draft: true
-tags: ["ai", "agent", "commerce", "payment", "a2a", "protocol", "2026"]
+tags: ["ai", "agent", "commerce", "payment", "protocol", "2026"]
 description: "A grounded look at the agent-to-agent economy actually forming in 2026 - the payment rails Visa and Mastercard have built for AI agents, the AP2 and ACP commerce protocols, AgentCore Payments, and what it really means when AIs start transacting with each other on a human's behalf."
 cover:
   image: /assets/images/ai/agent-economy-buy-sell.jpg

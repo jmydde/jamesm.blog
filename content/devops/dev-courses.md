@@ -2,7 +2,7 @@
 title: "Development Courses"
 date: 2021-05-28T11:51:18+01:00
 draft: false
-tags: ['tutorial', 'training', 'course', 'django', 'cpp', 'react', 'python', 'javascript', 'programming']
+tags: ["course", "training", "programming", "python"]
 description: "Curated list of development and programming courses covering Python, Django, React, C++, JavaScript, and fundamentals for software engineers at every level."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

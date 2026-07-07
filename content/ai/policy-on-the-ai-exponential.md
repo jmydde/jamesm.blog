@@ -2,7 +2,7 @@
 title: "Policy on the AI Exponential: Dario Amodei's Case for Acting While the Window Is Open"
 date: 2026-06-11T06:23:00+01:00
 draft: false
-tags: ["ai", "policy", "anthropic", "safety", "regulation", "economics", "geopolitics", "2026"]
+tags: ["ai", "policy", "anthropic", "safety", "regulation", "economics", "2026"]
 description: "Dario Amodei's new essay argues that slow-moving institutions are now the binding constraint on a fast-moving technology, and lays out a five-part policy agenda for the exponential. A summary of the argument, what lands, and where I still have questions."
 cover:
   image: /assets/images/ai/policy-on-the-ai-exponential.jpg

@@ -2,7 +2,7 @@
 title: "Roland Juno‑X Review: A Modern Reinterpretation of a Classic Synth"
 date: 2026-01-22T21:42:21+01:00
 draft: false
-tags: ['synth', 'roland', 'juno-x', 'music production', 'synthesizer']
+tags: ["synth", "roland", "juno-x", "music-production"]
 description: "The Roland Juno-X uses the ZEN-Core engine to capture the character of the classic Juno line with modern polyphony and effects - a hands-on review of who it is for and what it does well."
 cover:
   image: /assets/images/music-production/music-production.png

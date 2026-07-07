@@ -2,7 +2,7 @@
 title: "Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene"
 date: 2026-04-10T05:32:00+01:00
 draft: false
-tags: ["retro-computing","cracking-scene","aesthetic","1980s","trainer","scrolltext","amiga","c64"]
+tags: ["retro-computing", "cracking-scene", "demoscene", "1980s", "amiga", "commodore-64"]
 description: "How cracking groups transformed pirated games with menus, cheat systems, and animated scrolltext screens - creating a visual language that defined 1980s underground computing culture."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

@@ -2,7 +2,7 @@
 title: "Fable 5 Is Back: What Anthropic Learned From Eighteen Days Off The Shelf"
 date: 2026-07-01T08:00:00+01:00
 draft: false
-tags: ["ai", "anthropic", "claude", "fable", "mythos", "ai-safety", "ai-policy", "cybersecurity", "2026"]
+tags: ["ai", "anthropic", "claude", "fable", "mythos", "ai-safety", "policy", "security", "2026"]
 description: "Eighteen days after a US export control directive pulled Fable 5 and Mythos 5 offline, Anthropic is redeploying Fable 5 globally. The company says the jailbreak that triggered the recall was minor, that rival models could do the same thing, and that the industry needs a CVSS-style framework for AI jailbreaks."
 cover:
   image: /assets/images/ai/redeploying-fable-5.jpg

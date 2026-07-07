@@ -2,7 +2,7 @@
 title: "Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over"
 date: 2026-05-03T14:00:00+01:00
 draft: false
-tags: ['data-engineering', 'iceberg', 'delta', 'hudi', 'lakehouse', 'data', '2026']
+tags: ["data-engineering", "iceberg", "delta-lake", "hudi", "lakehouse", "data", "2026"]
 description: "The open table format wars dominated the lakehouse conversation for five years. In 2026 the picture has settled. A grounded look at where Iceberg, Delta, and Hudi actually stand, who won which battles, and what that means for the people who have to choose."
 cover:
   image: /assets/images/data-engineering/iceberg-vs-delta-vs-hudi-2026.jpg

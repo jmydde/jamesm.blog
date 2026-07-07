@@ -2,7 +2,7 @@
 title: "Rebuilding Your Life With Small Systems"
 date: 2026-04-06T00:09:00+01:00
 draft: false
-tags: ["personal-development","self-improvement","habit","resilience","life-system"]
+tags: ["personal-development", "self-improvement", "habit", "resilience"]
 description: "A practical guide to rebuilding confidence, stability, and momentum through small daily systems rather than dramatic reinvention."
 cover:
   image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg

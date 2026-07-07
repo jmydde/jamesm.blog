@@ -2,7 +2,7 @@
 title: "AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion"
 date: 2026-04-22T22:02:00+01:00
 draft: false
-tags: ['ai', 'ai music', 'suno', 'music production']
+tags: ["ai", "ai-music", "suno", "music-production"]
 description: "A head-to-head look at the AI music generation tools that actually matter in 2026 - Suno, Udio, AIVA, and Riffusion - and where each one earns its place in a producer's workflow."
 cover:
   image: /assets/images/music-production/ai-music-tools-2026.png

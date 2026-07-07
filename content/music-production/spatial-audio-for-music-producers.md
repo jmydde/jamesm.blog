@@ -2,7 +2,7 @@
 title: "Spatial Audio for Music Producers: Dolby Atmos and Beyond in 2026"
 date: 2026-05-13T00:00:00+01:00
 draft: true
-tags: ["music", "spatial", "atmos", "production", "mixing"]
+tags: ["music", "spatial-audio", "production", "mixing"]
 description: "Spatial audio went from format curiosity to mainstream distribution platform in 2025-2026. A practical look at what Dolby Atmos and the alternatives actually require, what they deliver, and whether producers should invest in learning the format now."
 cover:
   image: /assets/images/music-production/spatial-audio-for-music-producers.jpg

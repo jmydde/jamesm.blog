@@ -2,7 +2,7 @@
 title: "DuckDB at Scale: Where the Tipping Point Actually Is"
 date: 2026-05-12T23:30:00+01:00
 draft: true
-tags: ["data", "duckdb", "analytics", "single-node", "olap"]
+tags: ["data", "duckdb", "analytics", "single-node"]
 description: "DuckDB has eaten the small-and-medium analytics market faster than most predictions suggested. A working analysis of where the practical scaling limits actually are in 2026, what breaks first, and when distributed engines still make sense."
 cover:
   image: /assets/images/data-engineering/duckdb-at-scale-tipping-point.jpg

@@ -2,7 +2,7 @@
 title: "Database Operations in 2026: Serverless, Managed, or DIY"
 date: 2026-05-12T22:30:00+01:00
 draft: true
-tags: ["devops", "database", "serverless", "postgres", "operation"]
+tags: ["devops", "database", "serverless", "postgres"]
 description: "The 'should we run our own database' question changed significantly in 2025-2026. A practical look at where serverless databases actually pay off, where managed wins, and where there is still a real case for running your own."
 cover:
   image: /assets/images/devops/self-hosted-vs-managed-2026.jpg

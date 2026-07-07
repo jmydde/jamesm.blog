@@ -2,7 +2,7 @@
 title: "Recursive Self-Improvement: Can AI Bootstrap Its Own Intelligence?"
 date: 2026-06-04T20:03:00+01:00
 draft: false
-tags: ["ai", "agi", "safety", "alignment", "research", "superintelligence"]
+tags: ["ai", "agi", "safety", "alignment", "research"]
 description: "Recursive self-improvement is the idea that an AI could rewrite itself into something smarter, then repeat - the engine behind every intelligence-explosion scenario. Here is what the theory actually claims, which pieces are already real in 2026, the bottlenecks that decide whether it runs away or fizzles, and why the honest answer is partly, slowly, and not the way the science fiction tells it."
 cover:
   image: /assets/images/ai/recursive-self-improvement.png

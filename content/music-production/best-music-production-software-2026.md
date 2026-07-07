@@ -2,7 +2,7 @@
 title: "The Best Music Production Software in 2026"
 date: 2026-04-22T21:06:00+01:00
 draft: false
-tags: ['music production', 'software', 'daw']
+tags: ["music-production", "software", "daw"]
 description: "A 2026 tour of the DAWs worth building a studio around - Ableton Live 12, Logic Pro 12, Cubase 15, Fender Studio Pro 8, Bitwig 6, Reason 14, and the first wave of AI-native workstations."
 cover:
   image: /assets/images/music-production/music-production.png

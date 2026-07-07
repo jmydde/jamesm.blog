@@ -2,7 +2,7 @@
 title: "DevOps Best Practices"
 date: 2023-12-16T09:33:18+01:00
 draft: false
-tags: ['devops', 'best-practice', 'microservice', 'system-design', 'architecture', 'ci-cd']
+tags: ["devops", "best-practice", "architecture", "ci-cd"]
 description: "Practical DevOps and system design best practices covering microservices architecture, CI/CD pipelines, observability, and scalable system design."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

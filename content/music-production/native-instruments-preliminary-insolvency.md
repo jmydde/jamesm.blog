@@ -2,7 +2,7 @@
 title: "Native Instruments: A Turning Point in Music Tech"
 date: 2026-01-27T21:07:21+01:00
 draft: false
-tags: ['native instruments']
+tags: ["native-instruments"]
 description: "Native Instruments has entered preliminary insolvency proceedings in Germany - a pivotal moment for producers, DJs, and composers who have built careers around Kontakt, Maschine, Traktor, and Reaktor."
 cover:
   image: /assets/images/music-production/music-production.png

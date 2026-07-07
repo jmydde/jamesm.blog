@@ -2,7 +2,7 @@
 title: "Polkadot's Agile Coretime: A Plain-English Explainer"
 date: 2025-09-09T14:00:00+01:00
 draft: false
-tags: ['polkadot', 'blockchain', 'coretime', 'scalability', 'parachain']
+tags: ["polkadot", "blockchain", "performance"]
 description: "What Agile Coretime is, why it matters, and how it changes Polkadot's economics."
 cover:
   image: /assets/images/blockchain/polkadot-2-one-year-on.jpg

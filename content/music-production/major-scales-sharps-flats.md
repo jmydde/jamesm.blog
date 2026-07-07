@@ -2,7 +2,7 @@
 title: "Mastering Major Scales: How to Instantly Know the Sharps and Flats"
 date: 2026-01-04T12:35:21+01:00
 draft: false
-tags: ['music theory']
+tags: ["music-theory"]
 description: "A step-by-step guide to working out the number of sharps and flats in any major scale using the circle of fifths, with mnemonics and a handy cheat sheet."
 cover:
   image: /assets/images/music-production/music-production.png

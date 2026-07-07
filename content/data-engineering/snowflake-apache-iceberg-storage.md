@@ -2,7 +2,7 @@
 title: "Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure"
 date: 2026-04-18T07:11:00+01:00
 draft: false
-tags: ["snowflake", "apache-iceberg", "lakehouse", "aws", "azure", "open-source"]
+tags: ["snowflake", "iceberg", "lakehouse", "aws", "azure", "open-source"]
 description: "Snowflake Storage for Apache Iceberg is now available on AWS and Azure, enabling enterprise-grade reliability and governance for open data formats while breaking vendor lock-in."
 cover:
   image: images/snowflake.jpg

@@ -2,7 +2,7 @@
 title: "Claude Code Just Got a Serious Code Review Feature"
 date: 2026-03-09T07:14:25+01:00
 draft: false
-tags: ["ai", "claude", "code-review"]
+tags: ["ai", "claude", "coding"]
 description: "Claude Code's multi-agent code review dispatches parallel AI agents to cross-check PRs from different angles, filtering false positives and ranking issues by severity - a fundamentally different approach to automated review."
 cover:
   image: /assets/images/ai/ai-skills.jpg

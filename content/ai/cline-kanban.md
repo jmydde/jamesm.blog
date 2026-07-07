@@ -2,7 +2,7 @@
 title: "Cline + Kanban: Autonomous Development Meets Project Management"
 date: 2026-04-10T07:44:00+01:00
 draft: false
-tags: ["ai","cline","kanban","project-management","mcp","automation"]
+tags: ["ai", "cline", "project-management", "mcp", "automation"]
 description: "How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management."
 cover:
   image: /assets/images/ai/context-engineering.png

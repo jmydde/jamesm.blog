@@ -2,7 +2,7 @@
 title: "DeepSeek 🤯"
 date: 2025-01-27T21:39:14+01:00
 draft: false
-tags: ["ai","deepseek","ai-model"]
+tags: ["ai", "deepseek", "model"]
 description: "DeepSeek R1's January 2025 release shook the AI industry - a frontier-grade reasoning model built for a reported $6M that forced a rethink of training costs, open-source strategy, and closed-model pricing."
 cover:
   image: /assets/images/ai/ai-intelligence.jpg

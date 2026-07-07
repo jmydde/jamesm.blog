@@ -3,7 +3,7 @@ title: "Prompt Caching: The Quiet Performance Win for LLM Applications"
 date: 2026-05-09T08:00:00+01:00
 draft: false
 type: guide
-tags: ["ai", "prompt-cache", "performance", "llm", "cost", "agentic-engineering"]
+tags: ["ai", "llm", "performance", "cost", "agentic-engineering"]
 description: "What prompt caching actually is, why it is the highest-leverage performance and cost optimisation available to most LLM applications, and the patterns that determine whether you get a 90 percent cost reduction or no benefit at all."
 cover:
   image: /assets/images/ai/prompt-caching.png

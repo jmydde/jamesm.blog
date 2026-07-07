@@ -2,7 +2,7 @@
 title: "Why Is There Something Rather Than Nothing?"
 date: 2026-04-15T23:41:00+01:00
 draft: false
-tags: ["physics","science","cosmology","philosophy","quantum-mechanics"]
+tags: ["physics", "science", "cosmology", "philosophy", "quantum"]
 description: "A physics-minded reflection on one of the deepest questions there is: why anything exists at all instead of nothing."
 cover:
   image: /assets/images/general/why-is-there-something-rather-than-nothing.jpg

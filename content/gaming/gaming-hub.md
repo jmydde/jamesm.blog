@@ -3,7 +3,7 @@ title: "Gaming: Economics, Technology, and Live Service"
 date: 2026-06-30T08:00:00+01:00
 draft: false
 type: reference
-tags: ["gaming", "economics", "technology", "live-service"]
+tags: ["gaming", "economics", "technology"]
 description: "A reading path for game technology and blockbuster economics - from live service stacks to launch-scale revenue and the studios that can afford to build at this scale."
 cover:
   image: /assets/images/gaming/game-technology-2026.png

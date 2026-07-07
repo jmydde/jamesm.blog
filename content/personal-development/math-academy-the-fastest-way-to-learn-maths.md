@@ -2,7 +2,7 @@
 title: "Math Academy: The Fastest Way to Actually Learn Maths"
 date: 2026-04-22T20:02:00+01:00
 draft: false
-tags: ['personal-development', 'learning', 'maths', 'education', 'self-improvement']
+tags: ["personal-development", "learning", "mathematics", "education", "self-improvement"]
 description: "Math Academy claims to teach maths at four times the speed of a traditional class. After digging into how it actually works, I think that claim is believable - and the reason why is more interesting than the headline."
 cover:
   image: /assets/images/personal-development/math-academy-the-fastest-way-to-learn-maths.jpg

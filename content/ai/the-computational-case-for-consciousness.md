@@ -2,7 +2,7 @@
 title: "The Computational Case for Consciousness"
 date: 2026-05-31T10:30:00+01:00
 draft: false
-tags: ["ai", "consciousness", "philosophy", "neuroscience", "computation"]
+tags: ["ai", "consciousness", "philosophy", "computing"]
 description: "I wrote up the case that consciousness is fundamental through Donald Hoffman. Honesty demands the other side: the case that consciousness is computational - something that switches on when information is processed in the right way. Global Workspace Theory, Integrated Information Theory, the hard problem, and why I still cannot close the question."
 cover:
   image: /assets/images/ai/the-computational-case-for-consciousness.jpg

@@ -2,7 +2,7 @@
 title: "Threat Modeling for Engineers: Finding the Flaws Before Attackers Do"
 date: 2026-05-20T10:30:00+01:00
 draft: false
-tags: ["security", "threat-modeling", "architecture"]
+tags: ["security", "architecture"]
 description: "Most security work is reactive - a scanner flags an issue, someone patches it. Threat modeling is the opposite: a structured way to find design flaws before you write the code. Here is how it works, a worked example, and why it is the one security skill every engineer should have."
 cover:
   image: /assets/images/security/threat-modeling-for-engineers.png

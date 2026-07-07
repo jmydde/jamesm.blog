@@ -2,7 +2,7 @@
 title: "When Circuits Go Public: Patents, Copyright, and the Rise of Clone Synths"
 date: 2026-02-08T21:07:21+01:00
 draft: false
-tags: ['synth', 'hardware synth', 'analog synth', 'patent', 'copyright', 'behringer', 'moog']
+tags: ["synth", "law", "behringer", "moog"]
 description: "How expired patents, copyright law, and trade dress rules make clone synthesizers legal - and why affordable Behringer replicas of classic Moog circuits are entirely above board."
 cover:
   image: /assets/images/music-production/music-production.png

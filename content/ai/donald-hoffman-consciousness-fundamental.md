@@ -2,7 +2,7 @@
 title: "Donald Hoffman: The Case That Consciousness Is Fundamental"
 date: 2026-05-29T10:30:00+01:00
 draft: false
-tags: ["ai", "consciousness", "philosophy", "physics", "perception"]
+tags: ["ai", "consciousness", "philosophy", "physics", "multimodal"]
 description: "Donald Hoffman argues that consciousness is fundamental and the physical world is an evolved interface - and he tries to prove it with evolutionary game theory and a formal mathematics of conscious agents. A walk through the argument, the maths, the objections, and why I keep coming back to it."
 cover:
   image: /assets/images/ai/donald-hoffman-consciousness-fundamental.jpg

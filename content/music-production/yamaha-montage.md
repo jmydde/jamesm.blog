@@ -2,7 +2,7 @@
 title: "Yamaha Montage M"
 date: 2024-06-16T08:29:21+01:00
 draft: false
-tags: ['yamaha', 'montage', 'montage m', 'synth', 'synthesizer', 'workstation']
+tags: ["yamaha", "montage", "synth", "workstation"]
 description: "Overview of the Yamaha Montage M flagship synthesizer - its three sound engines (AWM2, FM-X, AN-X), key improvements over the original Montage, models, and prices."
 cover:
   image: /assets/images/music-production/music-production.png

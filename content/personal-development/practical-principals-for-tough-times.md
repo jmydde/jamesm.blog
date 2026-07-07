@@ -2,7 +2,7 @@
 title: "Stability in a Storm: Practical Principles for Tough Times"
 date: 2026-02-22T09:02:39+01:00
 draft: false
-tags: ["personal-development","resilience","life-transition","practical-guidance"]
+tags: ["personal-development", "resilience"]
 description: "Practical principles and guidelines for maintaining stability and making sound decisions during challenging life periods."
 cover:
   image: /assets/images/personal-development/the-quiet-discipline-of-self-honesty.jpg

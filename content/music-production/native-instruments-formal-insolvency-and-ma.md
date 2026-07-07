@@ -2,7 +2,7 @@
 title: "Native Instruments: From Preliminary Insolvency to M&A - What Comes Next"
 date: 2026-04-04T12:00:00Z
 draft: false
-tags: ['native instruments', 'music tech', 'private equity']
+tags: ["native-instruments", "technology", "business"]
 description: "Native Instruments has entered formal insolvency and is in active M&A talks. A clear-eyed look at what went wrong under private equity ownership, the possible acquisition scenarios, and what it means for producers who depend on their tools."
 cover:
   image: /assets/images/music-production/music-production.png

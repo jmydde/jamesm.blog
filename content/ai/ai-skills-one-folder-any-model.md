@@ -2,7 +2,7 @@
 title: "AI Skills: One Folder, Any Model"
 date: 2026-04-30T06:32:00+01:00
 draft: false
-tags: ["ai", "claude", "skill", "agent", "tooling", "prompt"]
+tags: ["ai", "claude", "skill", "agent", "tool", "llm"]
 description: "What Claude Code skills actually are under the hood, why the SKILL.md format is model-agnostic, and how the same folder can drive Claude, Gemini, Codex, and a dozen other agents without changes."
 cover:
   image: /assets/images/ai/ai-skills.jpg

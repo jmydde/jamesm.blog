@@ -2,7 +2,7 @@
 title: "Why I Play & Create Music Intuitively"
 date: 2026-01-07T23:35:21+01:00
 draft: false
-tags: ['creativity', 'discovery', 'exploration', 'experimentation', 'improvisation', 'inspiration', 'music', 'music production', 'music theory', 'playing by ear', 'piano', 'sound design', 'synth']
+tags: ["creativity", "discovery", "exploration", "experimentation", "improvisation", "inspiration", "music", "music-production", "music-theory", "piano", "sound-design", "synth"]
 description: "A personal reflection on playing piano by ear, chasing flow, and treating music as a landscape to wander rather than a skill to master - where discovery and surprise matter more than theory."
 cover:
   image: /assets/images/music-production/music-production.png

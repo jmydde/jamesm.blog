@@ -2,7 +2,7 @@
 title: "Diagrams as Code: A Practitioner's Guide for Data Engineers"
 date: 2026-05-18T21:32:00+01:00
 draft: false
-tags: ["data-engineering", "architecture", "documentation", "platform", "tooling", "diagram"]
+tags: ["data-engineering", "architecture", "documentation", "platform", "tool", "diagram"]
 description: "An opinionated working guide to producing, versioning, and maintaining technical diagrams in text. Covers Mermaid, D2, PlantUML and Python diagrams, with worked examples, CI rendering, ADRs, and generation patterns that stop architecture drawings from rotting."
 cover:
   image: /assets/images/data-engineering/diagrams-as-code.png

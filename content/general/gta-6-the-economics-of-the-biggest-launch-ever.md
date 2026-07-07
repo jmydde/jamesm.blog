@@ -2,7 +2,7 @@
 title: "GTA 6 and the Economics of the Biggest Launch in Entertainment History"
 date: 2026-06-30T08:00:00+01:00
 draft: false
-tags: ["gta", "gaming", "economics", "rockstar", "2026"]
+tags: ["gaming", "economics", "2026"]
 description: "Grand Theft Auto VI lands on November 19, 2026 after roughly a decade in development and a budget that may pass anything in entertainment history. A hobbyist's look at the numbers - what it cost, what it could earn, and why a single video game now behaves like a national economy."
 cover:
   image: /assets/images/general/gta-6-the-economics-of-the-biggest-launch-ever.jpg

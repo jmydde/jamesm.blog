@@ -2,7 +2,7 @@
 title: "Mac Homebrew packages"
 date: 2026-04-04T20:59:35+01:00
 draft: false
-tags: ['brew', 'macos', 'terminal', 'cli', 'kubernetes', 'terraform', 'python', 'monitoring', 'linux']
+tags: ["macos", "terminal", "cli", "kubernetes", "terraform", "python", "observability", "linux"]
 description: "Comprehensive list of essential Homebrew packages for macOS development, DevOps, cloud tools, and command-line utilities."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

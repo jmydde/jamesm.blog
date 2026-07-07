@@ -2,7 +2,7 @@
 title: "Favourite Computer Games"
 date: 2020-01-01T00:00:01+01:00
 draft: false
-tags: ['computing', 'software', 'gaming', 'retro']
+tags: ["computing", "software", "gaming", "retro-computing"]
 description: "Personal collection of favourite computer and console games across decades of gaming history."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg
