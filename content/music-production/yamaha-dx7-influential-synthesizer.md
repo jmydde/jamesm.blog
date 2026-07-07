@@ -113,10 +113,10 @@ If you want to understand the DX7's influence:
 ## Resources & Further Reading
 
 ### Hardware & Historical Context
-- [Yamaha DX7 Product History](https://www.yamaha.com/en/news/release/20230410_01.html) - Official Yamaha documentation
-- [Vintage Synth Explorer - Yamaha DX7](https://www.vintagesynth.com/yamaha/2226) - Comprehensive specifications, serial numbers, and user community reviews
-- [Soundonsound DX7 Classic Synths Review](https://www.soundonsound.com/reviews/yamaha-dx7) - In-depth analysis of sound characteristics and design
-- [DX7 Patch Library Archive](https://www.dx7.info/) - Historical patch collections and preset management
+- Yamaha DX7 Product History - Official Yamaha documentation
+- Vintage Synth Explorer - Yamaha DX7 - Comprehensive specifications, serial numbers, and user community reviews
+- Soundonsound DX7 Classic Synths Review - In-depth analysis of sound characteristics and design
+- [DX7 Patch Library Archive](https://web.archive.org/web/20190815102258/http://dx7.info/) - Historical patch collections and preset management
 
 ### FM Synthesis Theory & Research
 - [Chowning, J. M. "The Synthesis of Complex Audio Spectra by Means of Frequency Modulation"](https://www.jstor.org/stable/3679620) - Foundational academic paper (JSTOR)
@@ -124,19 +124,19 @@ If you want to understand the DX7's influence:
 
 ### Modern FM Synthesis Tools
 - [Native Instruments FM8](https://www.native-instruments.com/en/products/komplete/synths/fm8/) - Professional FM synthesis plugin directly inspired by DX7 architecture
-- [Yamaha Montage/MOXF Series](https://www.yamaha.com/en/products/musical_instruments/synthesizers/montage/) - Modern Yamaha FM + subtractive synthesis hybrid
-- [Korg Volca FM](https://www.korg.com/us/products/synthesizers/volca_fm/) - Affordable FM synthesizer for learning and experimentation
-- [Native Instruments Operator (Ableton)](https://www.ableton.com/en/manual/max-for-live-standard-library/) - Full FM synthesis tool integrated into Ableton Live
+- Yamaha Montage/MOXF Series - Modern Yamaha FM + subtractive synthesis hybrid
+- Korg Volca FM - Affordable FM synthesizer for learning and experimentation
+- Native Instruments Operator (Ableton) - Full FM synthesis tool integrated into Ableton Live
 
 ### Cultural Impact & Music Production History
 - [AllMusic - Yamaha DX7 Sound Influence](https://www.allmusic.com/album) - Discography analysis of DX7-era music
 - [Discogs Yamaha DX7 Community Notes](https://www.discogs.com/search?q=yamaha+dx7) - Equipment notes from musicians who owned DX7s in the 1980s
-- ["Digital Pioneers: Electronic Music in the '80s"](https://www.musictech.net/) - Music Technology magazine archives covering the DX7 era
+- ["Digital Pioneers: Electronic Music in the '80s"](https://web.archive.org/web/20211023181028/https://www.musictech.net/) - Music Technology magazine archives covering the DX7 era
 
 ### Learning Resources
 - [Syntorial FM Synthesis Course](https://www.syntorial.com/) - Interactive video course including dedicated FM synthesis modules
 - [Thinking in FM](https://www.attackmagazine.com/tag/fm-synthesis/) - Attack Magazine's FM synthesis tutorial series
-- [DX7 Manual - PDF Archive](https://www.manualslib.com/products/Yamaha-Dx7-10238) - Original user manual and programming guides
+- DX7 Manual - PDF Archive - Original user manual and programming guides
 
 ## Related Reading
 

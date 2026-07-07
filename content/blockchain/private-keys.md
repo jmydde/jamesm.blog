@@ -24,7 +24,7 @@ A private key is a cryptographic variable used in conjunction with an algorithm 
 
 Private keys are the foundation of public-key cryptography. When you create a cryptocurrency wallet, a private key is generated - typically as a random 256-bit number. Your public key (and thus your public address) is mathematically derived from this private key. This relationship is one-way: while anyone with your public key can verify that you signed a transaction, they cannot derive your private key from it.
 
-For detailed technical information, see the [Bitcoin Wiki on Private Keys](https://en.bitcoin.it/wiki/Private_key) or the [CoinDesk guide to cryptocurrency wallets](https://www.coindesk.com/learn/crypto-101/what-is-a-crypto-wallet).
+For detailed technical information, see the [Bitcoin Wiki on Private Keys](https://en.bitcoin.it/wiki/Private_key) or the CoinDesk guide to cryptocurrency wallets.
 
 ## Key Storage Methods
 

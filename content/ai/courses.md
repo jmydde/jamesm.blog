@@ -22,7 +22,7 @@ cover:
 
 ## Books
 - [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python/)
-- [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf/)
+- [The Elements of Statistical Learning](https://web.archive.org/web/20240928121726/https://hastie.su.domains/Papers/ESLII.pdf)
 
 ## Courses
 - [Class Central](https://www.classcentral.com/)
@@ -87,7 +87,7 @@ cover:
 - [How to use ChatGPT to create an app](https://www.zdnet.com/article/how-to-use-chatgpt-to-create-an-app/)
 
 ## Newsletters
-- [Lore](https://www.lore.ai/) - weekly newsletter with the latest Generative AI news, insights and featured tools
+- Lore - weekly newsletter with the latest Generative AI news, insights and featured tools
 
 ## X (Twitter) Accounts
 - [AI Daily](https://x.com/AlexAIDaily/) - teaches about AI

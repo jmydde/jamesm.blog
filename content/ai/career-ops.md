@@ -67,7 +67,7 @@ The code is [open source](https://github.com/santifer/career-ops), so you can se
 
 ## The Bigger Pattern
 
-Career-Ops is part of a larger shift: practical AI tools that amplify individual judgment instead of replacing it. You see this in [GitHub Spec Kit](https://github.com/github/spec) (AI-assisted specification writing), [Cursor](https://cursor.sh) (AI paired programming), and other tools that treat the human as the decision-maker and AI as the accelerant.
+Career-Ops is part of a larger shift: practical AI tools that amplify individual judgment instead of replacing it. You see this in GitHub Spec Kit (AI-assisted specification writing), [Cursor](https://cursor.sh) (AI paired programming), and other tools that treat the human as the decision-maker and AI as the accelerant.
 
 Job search is personal - your career trajectory matters too much to outsource entirely. Career-Ops gives you the thinking tools to stay in control while moving faster.
 

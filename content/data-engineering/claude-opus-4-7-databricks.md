@@ -46,7 +46,7 @@ This is the integration pattern that unlocks AI for the analyst population rathe
 
 ### 2. Lakeflow Declarative Pipelines
 
-For scheduled, production workloads, Claude plugs into [Lakeflow](https://www.databricks.com/product/data-engineering/lakeflow) pipelines. The pattern here is GenAI ETL - ingest from Salesforce, S3, Workday, or whatever source system, then apply AI transformations like summarisation, classification, or entity extraction as a stage in the pipeline.
+For scheduled, production workloads, Claude plugs into Lakeflow pipelines. The pattern here is GenAI ETL - ingest from Salesforce, S3, Workday, or whatever source system, then apply AI transformations like summarisation, classification, or entity extraction as a stage in the pipeline.
 
 The Lakeflow angle matters because it pulls AI operations under the same orchestration, lineage, and observability model as the rest of the data platform. When something goes wrong at 3am, the on-call engineer sees the AI step in the same DAG view as every other transformation.
 

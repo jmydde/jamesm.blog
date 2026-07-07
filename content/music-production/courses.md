@@ -18,7 +18,7 @@ cover:
 - [London Academy of Music Production](https://www.londonamp.com/courses/ableton-live-music-software-course/)
 - [MacProVideo](https://macprovideo.com/library/application/Ableton)
 - [Point Blank Music School](https://www.pointblankmusicschool.com/courses/online/music-production-courses/ableton-live-in-depth/)
-- [Producertech](https://www.producertech.com/software-courses/ableton-live/)
+- Producertech
 - [Skillshare](https://www.skillshare.com/en/browse/ableton-live)
 - [Udemy](https://www.udemy.com/)
   - [Tomas George](https://www.udemy.com/user/tomas-george/) - music producer, composer & audio engineer
@@ -42,7 +42,7 @@ cover:
 - [Ask.Video](https://ask.video/library/application/maschine)
 - [MacProVideo](https://www.macprovideo.com/library/application/maschine)
 - [Maschine Tutorials](https://maschinetutorials.com/maschine-tutorial-courses/)
-- [Producertech](https://www.producertech.com/software-courses/maschine/)
+- Producertech
 
 ### Masterclass
 - [Armin van Buuren Teaches Dance Music](https://www.masterclass.com/classes/armin-van-buuren-teaches-dance-music)
@@ -95,7 +95,7 @@ Learn the entire process of music production, mixing and mastering from the worl
 
 ### Serum
 - [ADSR](https://www.adsrsounds.com/category/serum-tutorials/)
-- [Producertech](https://www.producertech.com/new-releases/165/serum-sound-design-masterclass)
+- Producertech
 
 ## Related Reading
 

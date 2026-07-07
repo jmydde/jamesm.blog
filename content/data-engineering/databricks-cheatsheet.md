@@ -611,7 +611,7 @@ job = w.jobs.create(
   - [MLOps Workflow](https://docs.databricks.com/en/machine-learning/mlops/mlops-workflow.html)
 
 - **Tools & APIs**
-  - [Databricks Python SDK](https://databricks-py.readthedocs.io/)
+  - Databricks Python SDK
   - [Databricks CLI](https://docs.databricks.com/en/dev-tools/cli/index.html)
   - [Terraform Provider](https://registry.terraform.io/providers/databricks/databricks/latest/docs)
 

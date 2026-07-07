@@ -85,7 +85,7 @@ For most teams, the orchestration layer is the part of the platform that enginee
 
 ### Layer 6: Transformation
 
-This is where raw data becomes the data products that downstream users actually consume. In 2026, this layer has consolidated heavily around [dbt](https://www.getdbt.com/) and [SQLMesh](https://sqlmesh.com/), with dbt being dominant and SQLMesh being the credible alternative for teams that need stronger data warehouse semantics around environments and column-level lineage.
+This is where raw data becomes the data products that downstream users actually consume. In 2026, this layer has consolidated heavily around [dbt](https://www.getdbt.com/) and [SQLMesh](https://web.archive.org/web/20260213033021/https://sqlmesh.com/), with dbt being dominant and SQLMesh being the credible alternative for teams that need stronger data warehouse semantics around environments and column-level lineage.
 
 The thing to recognise about this layer is that the transformation tool is not really the value. The value is the discipline the tool enforces: code-defined transformations, version-controlled SQL, dependency-aware scheduling, declarative tests. Almost any tool that enforces these properties will be a major step up from hand-rolled scripts. The choice between dbt and SQLMesh is one of degree, not kind.
 

@@ -13,7 +13,7 @@ cover:
 
 - China's space programme in 2026 is one of the most consistently executed national space efforts in history. Where Western programmes have lurched between budgets and political cycles, China's [CNSA](http://www.cnsa.gov.cn/) has shipped roughly what it announced, on roughly the timelines it announced.
 - The **[Tiangong space station](https://en.wikipedia.org/wiki/Tiangong_space_station)** is fully operational, continuously crewed, and has hosted both domestic and international experiments.
-- The **[Chang'e lunar series](https://en.wikipedia.org/wiki/Chang%27e_(spacecraft))** has progressed from sample return (Chang'e 5, 6) to the precursors of a crewed lunar landing programme planned before 2030. China has now returned samples from both the near and far sides of the Moon - the only nation to have done so.
+- The **[Chang'e lunar series](https://en.wikipedia.org/wiki/Chinese_Lunar_Exploration_Program)** has progressed from sample return (Chang'e 5, 6) to the precursors of a crewed lunar landing programme planned before 2030. China has now returned samples from both the near and far sides of the Moon - the only nation to have done so.
 - The **lunar plan** centres on the **International Lunar Research Station (ILRS)** - a long-term, China-led, multinational lunar surface base, with crewed landings as a milestone rather than the goal.
 - Mars sample return, deep-space exploration, and a permanent lunar presence are all on a credible timeline. The realistic 2030 picture is two distinct, durable lunar architectures - American and Chinese - running in parallel.
 
@@ -61,7 +61,7 @@ This is a much slower, more incremental approach than the Apollo or Artemis fram
 
 China's stated goal is a **crewed lunar landing before 2030**. The infrastructure for this is real and visible.
 
-The architecture - [as currently described](https://en.wikipedia.org/wiki/Chinese_lunar_exploration_program) - involves two launches of the new **[Long March 10 rocket](https://en.wikipedia.org/wiki/Long_March_10)**:
+The architecture - [as currently described](https://web.archive.org/web/20260623025735/https://en.wikipedia.org/wiki/Chinese_Lunar_Exploration_Program) - involves two launches of the new **[Long March 10 rocket](https://en.wikipedia.org/wiki/Long_March_10)**:
 
 1. One Long March 10 launches the **Lanyue lunar lander** to lunar orbit.
 2. A second Long March 10 launches the **Mengzhou crew vehicle** carrying the astronauts.

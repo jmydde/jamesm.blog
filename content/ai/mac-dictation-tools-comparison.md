@@ -102,7 +102,7 @@ Superwhisper has a learning curve. Users routinely compare the initial setup to 
 
 The three products above cover most use cases, but the space is crowded. A few others come up regularly:
 
-- **[WhisperClip](https://whisperclip.com/)** - cheaper Wispr Flow competitor, aggressively priced for casual users
+- **WhisperClip** - cheaper Wispr Flow competitor, aggressively priced for casual users
 - **[Voicy](https://usevoicy.com/)** - dictation app focused on Mac, simpler feature set
 - **[OpenWhispr](https://openwhispr.com/)** - open source, bring-your-own-infrastructure
 - **[Spokenly](https://spokenly.app/)** - BYOK model, competitive on the power-user end

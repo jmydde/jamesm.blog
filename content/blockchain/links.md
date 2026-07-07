@@ -27,7 +27,7 @@ Explore these trusted YouTube channels covering blockchain, cryptocurrencies, We
 
 - **[DataDash](https://www.youtube.com/@DataDash/)**  -  Comprehensive resource for cryptocurrencies, financial markets, and blockchain analysis
 
-- **[Lark Davis](https://www.youtube.com/@TheCryptoLark/)**  -  Bitcoin, cryptocurrency, and stock market investor perspectives
+- **[Lark Davis](https://web.archive.org/web/20260418183813/https://www.youtube.com/@TheCryptoLark)**  -  Bitcoin, cryptocurrency, and stock market investor perspectives
 
 - **[The Moon](https://www.youtube.com/@TheMoon/)**  -  Real-time Bitcoin news and price analysis
 

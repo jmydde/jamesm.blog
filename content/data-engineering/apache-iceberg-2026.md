@@ -100,7 +100,7 @@ An Iceberg table on its own is just files in a bucket. Something has to own the 
 
 ### Polaris Catalog (Snowflake)
 
-[Polaris](https://www.snowflake.com/en/data-cloud/polaris/) is Snowflake's open-source Iceberg catalog, donated to the Apache Software Foundation in mid-2024. It implements the Iceberg REST catalog spec and supports cross-engine read and write. Snowflake uses it as the substrate for its own Iceberg tables and positions it as vendor-neutral.
+Polaris is Snowflake's open-source Iceberg catalog, donated to the Apache Software Foundation in mid-2024. It implements the Iceberg REST catalog spec and supports cross-engine read and write. Snowflake uses it as the substrate for its own Iceberg tables and positions it as vendor-neutral.
 
 **Strength:** true REST-catalog standardization; no Snowflake lock-in on the catalog layer itself.
 

@@ -24,7 +24,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 
 ### Art & Graphic Design
 - [AutoDraw](http://autodraw.com) - fast drawing for everyone
-- [Adobe Firefly](https://www.adobe.com/sensei/generative-ai/firefly.html) - generative AI tool with Generative Fill, part of Adobe Photoshop
+- [Adobe Firefly](https://web.archive.org/web/20240710032743/https://www.adobe.com/sensei/generative-ai/firefly.html/) - generative AI tool with Generative Fill, part of Adobe Photoshop
 - [Cleanup.pictures](https://cleanup.pictures/) - remove unwanted objects, defects, people or text from your pictures
 - [DALL·E 3](https://openai.com/index/dall-e-3/) - creates realistic images and art from a description in natural language, integrated into ChatGPT
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia/) - animate your family photos
@@ -56,7 +56,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [FinalScout](http://finalscout.com/) - ChatGPT-powered email finding & outreach at scale
 - [Voilà](http://getvoila.ai/) - personal AI assistant for supercharged productivity
 - [Poised](http://poised.com/) - AI-powered communication coach that helps you speak with confidence and clarity
-- [Wiseone](http://wiseone.io/) - helps you master any topic you are reading online by bringing relevant and reliable information
+- [Wiseone](https://web.archive.org/web/20260508013632/https://wiseone.io/) - helps you master any topic you are reading online by bringing relevant and reliable information
 
 ### Customer Support
 - [Forethought](https://forethought.ai/) - generative AI for customer support
@@ -112,7 +112,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [ElevenLabs](https://elevenlabs.io/) - market-leading AI voice generation, cloning, and dubbing
 - [LOVO](https://lovo.ai/) - AI voice generator and text-to-speech
 - [Murf](https://murf.ai/) - AI voice generator and text-to-speech
-- [Play.ht](https://play.ht/) - realistic AI voices and voice cloning for content creators
+- [Play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - realistic AI voices and voice cloning for content creators
 - [Resemble AI](https://www.resemble.ai/) - voice cloning, real-time TTS, and speech-to-speech
 - [Speechify](https://speechify.com/) - reads text aloud using computer-generated text-to-speech voices
 
@@ -217,9 +217,9 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 ### Twitter
 - [BlackMagic](https://blackmagic.so/) - enhanced Twitter for pro tweeters
 - [Hypefury](https://hypefury.com/) - personal assistant to grow & monetize your Twitter audience
-- [Tribescaler](https://tribescaler.com/) - get more impressions, grow a better network and earn more money
+- [Tribescaler](https://web.archive.org/web/20260113192131/http://tribescaler.com/) - get more impressions, grow a better network and earn more money
 - [Tweet Hunter](https://tweethunter.io/) - build & monetize your Twitter audience
-- [Tweetlify](https://www.tweetlify.co/) - create viral tweets, grow followers & make money
+- [Tweetlify](https://web.archive.org/web/20250806105522/http://tweetlify.co/) - create viral tweets, grow followers & make money
 
 ## AI Research Companies
 - [Anthropic](https://www.anthropic.com/) - AI safety company, makers of Claude

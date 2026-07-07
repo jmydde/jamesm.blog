@@ -103,7 +103,7 @@ A curated, living list of the artists, players, and shows that have shaped my li
 | Howard Jones | [YouTube](https://www.youtube.com/@howardjonesmusic/) |
 | Jean-Michel Jarre | [YouTube](https://www.youtube.com/@jeanmicheljarre/) |
 | Jordan Rudess | [YouTube](https://www.youtube.com/@JordanRudessKeys/) |
-| Matt Johnson | [YouTube](https://www.youtube.com/@MattJohnsonJamiroquai/) |
+| Matt Johnson | YouTube |
 | Robby Sharp | [YouTube](https://www.youtube.com/@RobbySharp/) |
 | Simeon Amburgey | [YouTube](https://www.youtube.com/@PraiseTracks/) |
 | Stevie Wonder | [YouTube](https://www.youtube.com/@steviewonder/) |

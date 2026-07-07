@@ -11,13 +11,13 @@ cover:
 
 ## TL;DR
 
-- **Generative Fill** brings text-prompted image manipulation directly into Photoshop, powered by Adobe's [Firefly](https://www.adobe.com/sensei/generative-ai/firefly.html) model
+- **Generative Fill** brings text-prompted image manipulation directly into Photoshop, powered by Adobe's [Firefly](https://web.archive.org/web/20240710032743/https://www.adobe.com/sensei/generative-ai/firefly.html/) model
 - Add, remove, or extend image content by selecting an area and describing what you want - no separate tool, no leaving the canvas
 - Sits alongside other Firefly-era features in Photoshop: adjustment presets, the contextual task bar, gradients, and a Remove tool for clean object deletion
 - Trained on Adobe Stock and openly licensed work, which makes the output commercially safer than many general-purpose image models
 - A clear inflection point for professional retouching - what used to take careful masking and clone-stamping is now a sentence
 
-**Resources:** [Generative Fill documentation](https://helpx.adobe.com/ie/photoshop/using/generative-fill.html) - [Firefly overview](https://www.adobe.com/sensei/generative-ai/firefly.html)
+**Resources:** [Generative Fill documentation](https://web.archive.org/web/20251112123605/https://helpx.adobe.com/ie/photoshop/using/generative-fill.html) - [Firefly overview](https://web.archive.org/web/20240710032743/https://www.adobe.com/sensei/generative-ai/firefly.html/)
 
 The same update also added adjustment presets, a new contextual task bar, gradients, and a Remove tool that instantly removes any object or person from an image.
 

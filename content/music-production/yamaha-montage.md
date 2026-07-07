@@ -79,7 +79,7 @@ The Montage M comes in three versions, each with a different keyboard action
 ## Alternatives
 Here are a few alternative workstation synths to consider
 - [Korg Nautilus](https://www.korg.com/uk/products/synthesizers/nautilus/) (£1,499 - £2,055, as of June 2024)
-- [Roland Fantom EX](https://www.roland.com/global/promos/fantom_ex_series/) (£3,599 - £4,177, as of June 2024)
+- [Roland Fantom EX](https://web.archive.org/web/20260429030031/https://www.roland.com/global/promos/fantom_ex_series/) (£3,599 - £4,177, as of June 2024)
 
 ## YouTube Videos
 

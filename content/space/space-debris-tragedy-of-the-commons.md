@@ -81,7 +81,7 @@ A few specific events define the modern debris picture.
 
 **The 2009 Iridium-Cosmos collision** - an active satellite hitting a defunct one - produced over 2,000 trackable fragments and was the first major accidental collision between two satellites.
 
-**The 2021 Russian ASAT test** destroyed [Cosmos 1408](https://en.wikipedia.org/wiki/2021_Russian_anti-satellite_missile_test) and forced the ISS crew to shelter in their return capsules. Over 1,500 trackable fragments produced.
+**The 2021 Russian ASAT test** destroyed Cosmos 1408 and forced the ISS crew to shelter in their return capsules. Over 1,500 trackable fragments produced.
 
 **The 2024 Long March 5B reentry incidents** raised concerns about uncontrolled large stage deorbits, even though those events removed mass from orbit rather than adding debris.
 
@@ -99,7 +99,7 @@ Variants of this exist as proposals. Some form of orbital-use fee has been studi
 
 ### Mandatory deorbit and end-of-life rules
 
-The [FCC's 5-year rule](https://www.fcc.gov/document/fcc-adopts-new-5-year-rule-deorbiting-satellites) for US-licensed satellites in LEO is a meaningful step. It requires deorbit within five years of mission end rather than the previous 25-year guideline. Other regulators are following.
+The [FCC's 5-year rule](https://web.archive.org/web/20251107202533/https://www.fcc.gov/document/fcc-adopts-new-5-year-rule-deorbiting-satellites) for US-licensed satellites in LEO is a meaningful step. It requires deorbit within five years of mission end rather than the previous 25-year guideline. Other regulators are following.
 
 These rules cover a meaningful share of new launches but not all of them. A coordinated international rule with similar teeth is the natural next step.
 

@@ -83,10 +83,10 @@ If you're considering Snowflake Storage for Apache Iceberg:
 
 ## Resources
 
-- [Snowflake Storage for Apache Iceberg Documentation](https://docs.snowflake.com/en/user-guide/iceberg-overview)
+- Snowflake Storage for Apache Iceberg Documentation
 - [Apache Iceberg Official Documentation](https://iceberg.apache.org/)
 - [Understanding Apache Iceberg Table Format](https://iceberg.apache.org/docs/latest/)
-- [Snowflake Governance Best Practices](https://docs.snowflake.com/en/user-guide/governance)
+- Snowflake Governance Best Practices
 
 ## Conclusion
 

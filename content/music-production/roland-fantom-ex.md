@@ -12,7 +12,7 @@ cover:
 ![alt](/images/Roland-Fantom-8-EX.jpg)
 
 ## About
-The [Roland Fantom EX](https://www.roland.com/us/products/fantom_8_ex/) is a series of professional-grade synthesizer workstations aimed at musicians and producers. It's known for its versatility, high-quality sounds, and powerful features. Here's a breakdown of its key characteristics:
+The Roland Fantom EX is a series of professional-grade synthesizer workstations aimed at musicians and producers. It's known for its versatility, high-quality sounds, and powerful features. Here's a breakdown of its key characteristics:
 - **Sounds**
   - Diverse sound library with over 7,000 tones covering various musical styles.
   - Roland's sound engine technologies like ACB (Analog Circuit Behavior) for realistic analog sounds, ZEN-Core for sample-based sounds, V-Piano for superior piano tones, and SuperNATURAL for rich and expressive acoustic instruments.
@@ -31,15 +31,15 @@ The [Roland Fantom EX](https://www.roland.com/us/products/fantom_8_ex/) is a ser
 Here are some additional points to consider
 - The Fantom EX series was released in 2019, building upon the original Fantom platform.
 - Existing Fantom owners can upgrade their instruments to include the EX features and sounds through the Roland Cloud Fantom EX Upgrade.
-- There are many online resources available that provide more detailed information and reviews about the Roland Fantom EX, including [Roland's official website](https://www.roland.com/global/promos/fantom_ex_series/), demos on YouTube and reviews from music stores.
+- There are many online resources available that provide more detailed information and reviews about the Roland Fantom EX, including [Roland's official website](https://web.archive.org/web/20260429030031/https://www.roland.com/global/promos/fantom_ex_series/), demos on YouTube and reviews from music stores.
 
 Overall, the Roland Fantom EX is a powerful and versatile workstation that caters to a wide range of musical needs. Whether you're a producer, keyboardist, or simply a musician looking for a comprehensive instrument for creating and performing music, the Fantom EX is a great option to consider.
 
 ## Models
 Each FANTOM EX model includes the same internal features, panel layout, and connectivity. The only differences are the keyboard configuration, size, and weight.
-- [Fantom 6 EX](https://www.roland.com/us/products/fantom_6_ex/) - The most compact FANTOM EX comes equipped with 61 synth-action keys.
-- [Fantom 7 EX](https://www.roland.com/us/products/fantom_7_ex/) - Extend your musical range with 76 synth-action keys.
-- [Fantom 8 EX](https://www.roland.com/us/products/fantom_8_ex/) - The top-tier FANTOM EX model with 88 hammer-action keys.
+- [Fantom 6 EX](https://web.archive.org/web/20250725022414/https://www.roland.com/us/products/fantom_6_ex/) - The most compact FANTOM EX comes equipped with 61 synth-action keys.
+- Fantom 7 EX - Extend your musical range with 76 synth-action keys.
+- Fantom 8 EX - The top-tier FANTOM EX model with 88 hammer-action keys.
 
 ## Prices
 (as of June 2024)

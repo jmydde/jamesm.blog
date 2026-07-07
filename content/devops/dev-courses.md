@@ -21,7 +21,7 @@ A short list of development courses I either learned from myself or have recomme
 ## JavaScript and React
 
 - [The Odin Project](https://www.theodinproject.com/) - free full-stack curriculum that takes you from HTML through to JavaScript frameworks
-- [Code With Mosh - The Ultimate React Native Series](https://codewithmosh.com/p/the-ultimate-react-native-series) - covers cross-platform mobile development with React Native
+- Code With Mosh - The Ultimate React Native Series - covers cross-platform mobile development with React Native
 - [Kent C. Dodds - Epic React](https://www.epicreact.dev/) - paid but widely regarded as the deepest React course available
 - [React official tutorial](https://react.dev/learn) - free, well-maintained, and the right place to start for the current React model
 

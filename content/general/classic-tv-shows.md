@@ -24,7 +24,7 @@ A celebration of timeless television that shaped British culture and influenced 
 {{< youtube uYoX8ltQ4rk >}}
 
 ## Monkey Magic (1978 - 1980)
-[Monkey](https://en.wikipedia.org/wiki/Monkey_(1978_TV_series)) was a Japanese-British television series based on the classic novel "Journey to the West." The show featured imaginative special effects and martial arts sequences that captivated audiences. Its theme song became instantly recognizable and the show developed a dedicated cult following.
+[Monkey](https://en.wikipedia.org/wiki/Monkey_(TV_series)) was a Japanese-British television series based on the classic novel "Journey to the West." The show featured imaginative special effects and martial arts sequences that captivated audiences. Its theme song became instantly recognizable and the show developed a dedicated cult following.
 
 ### Monkey (1978-80). Journey to the Best.
 {{< youtube yYUcGIspzZE >}}
@@ -95,7 +95,7 @@ I don't understand why we still don't have educational programs like this on TV 
 - [Juliet Bravo](https://en.wikipedia.org/wiki/Juliet_Bravo) - British police comedy-drama
 - [Knight Rider](https://en.wikipedia.org/wiki/Knight_Rider_(TV_series)) - Action series featuring an AI-equipped talking car
 - [London's Burning](https://en.wikipedia.org/wiki/London%27s_Burning) - Drama following the lives of firefighters
-- [Quantum Leap](https://en.wikipedia.org/wiki/Quantum_Leap_(original_series)) - Science fiction series about time-traveling adventures
+- [Quantum Leap](https://en.wikipedia.org/wiki/Quantum_Leap) - Science fiction series about time-traveling adventures
 - [The Fall Guy](https://en.wikipedia.org/wiki/The_Fall_Guy) - Action-packed series about a Hollywood stunt performer
 
 ## Related Reading

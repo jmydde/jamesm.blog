@@ -67,7 +67,7 @@ Below is a list of my favourite music production YouTube channels
 - [Junkie XL](https://www.youtube.com/channel/UCor9SN3lpO-BT2aBvAwBptw) - grammy nominated multi platinum producer, musician, composer and educator
 - [Liam Killen](https://www.youtube.com/channel/UCcDhRSTD-ba6Di5Kt9gy68g) - electronic music producer sharing how to create music
 - [Loopop](https://www.youtube.com/@loopop/) - in-depth electronic music & synth ideas tips, tricks & reviews
-- [LotusTunes Academy](https://www.youtube.com/@lotustunesacademy/) - learn about deep & organic house music production
+- LotusTunes Academy - learn about deep & organic house music production
 - [Martin Stürtzer](https://www.youtube.com/channel/UCGSSFkUjSBpDzA1aD4yq1zw) - an Ambient / Electronic / Dub Techno artist from Wuppertal (Germany). He works with analog, digital, hardware and virtual instruments to create Ambient, Electronic and Dub Techno music
 - [Mastering․com](https://www.youtube.com/@masteringcom/) - turn self-producing artists into professionally trained mastering engineers in just 9 weeks
 - [Mattias Holmgren](https://www.youtube.com/@MattiasHolmgren/) - guides you in music production, sound design and creativity
@@ -81,7 +81,7 @@ Below is a list of my favourite music production YouTube channels
 - [Pick Yourself](https://www.youtube.com/@pickyourselfofficial/) - helps electronic music producers finish music they're proud of
 - [PlugInGuru](https://www.youtube.com/@PlugInGuruVideo/) - created by John "Skippy" Lehmkuhl (Korg sound designer), home of the amazing Unify plugin
 - [Point Blank Music School](https://www.youtube.com/@PointBlankMusicSchool/) - music school with courses in London, LA, Ibiza & Online
-- [Producing In The Box](https://www.youtube.com/@ProducingInTheBox/) - how to make incredible-sounding music in the box!
+- Producing In The Box - how to make incredible-sounding music in the box!
 - [ProjectSAM](https://www.youtube.com/@ProjectSAMCinematicSampling/) - official channel of the creators of the acclaimed Symphobia Series, Orchestral Essentials Series and Swing! sample libraries
 - [Rachel K Collier](https://youtube.com/@RachelKCollierRKC/) - Welsh electronic producer & performer who makes songs and performances with Ableton
 - [Raveyard Sounds](https://www.youtube.com/@raveyardsounds/) - music production tutorials

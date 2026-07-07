@@ -137,5 +137,5 @@ We are, quite literally, the first generation in human history to face this scal
 - [The Long Now Foundation](https://longnow.org/) - Long-term thinking about civilisation
 - [MIT Technology Review](https://www.technologyreview.com/) - Current analysis of emerging technologies
 - [Moore's Law - Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law) - The pattern driving computing acceleration
-- [Future of Humanity Institute](https://www.fhi.ox.ac.uk/) - Academic research on long-term technological impact
-- [Ray Kurzweil: The Law of Accelerating Returns](https://www.kurzweilai.net/the-law-of-accelerating-returns) - Foundational essay on exponential technological progress
+- Future of Humanity Institute - Academic research on long-term technological impact
+- [Ray Kurzweil: The Law of Accelerating Returns](https://web.archive.org/web/20230602231212/https://www.kurzweilai.net/the-law-of-accelerating-returns) - Foundational essay on exponential technological progress

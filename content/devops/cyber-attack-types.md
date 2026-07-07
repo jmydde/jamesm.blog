@@ -95,7 +95,7 @@ No single defense prevents all attacks. Organizations must implement defense-in-
 
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/) - Web application security risks
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - Standards and guidelines
-- [CISA Cyber Alerts](https://www.cisa.gov/news-events/alerts) - Current threat intelligence
+- CISA Cyber Alerts - Current threat intelligence
 - [CIS Controls](https://www.cisecurity.org/controls) - Critical safeguards
 
 ## Related Reading

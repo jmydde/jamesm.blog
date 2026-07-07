@@ -13,18 +13,18 @@ cover:
 | :------------------------------------------------ | :----------------------- | :------: | :------------------------------------------------ |
 | [DevOpsForum.uk](https://devopsforum.uk/)         | UK DevOps forum          | Live     |                                                   |
 | [JamesM.blog](https://jamesm.blog/)               | My personal blog         | Live     |                                                   |
-| [PolkaView.io](https://polkaview.io/)             | Polkadot dashboards      | Live     |                                                   |
-| [CloudETL.io](https://cloudetl.io/)               | Cloud-based ETL tool     | Pending  |                                                   |
-| [DataForum.uk](https://dataforum.uk/)             | UK Data forum            | Pending  |                                                   |
-| [DevForum.uk](https://devforum.uk/)               | UK Developers forum      | Pending  |                                                   |
-| [DivorceForum.uk](https://divorceforum.uk/)        | UK Divorce forum         | Pending  |                                                   |
+| [PolkaView.io](https://web.archive.org/web/20240621004750/https://polkaview.io/)             | Polkadot dashboards      | Live     |                                                   |
+| [CloudETL.io](https://web.archive.org/web/20250313145247/https://cloudetl.io/)               | Cloud-based ETL tool     | Pending  |                                                   |
+| [DataForum.uk](https://web.archive.org/web/20211130190823/http://dataforum.uk/)             | UK Data forum            | Pending  |                                                   |
+| [DevForum.uk](https://web.archive.org/web/20260313204740/http://devforum.uk/)               | UK Developers forum      | Pending  |                                                   |
+| [DivorceForum.uk](https://web.archive.org/web/20250123111225/https://divorceforum.uk/)        | UK Divorce forum         | Pending  |                                                   |
 | [HyperAuto.ai](https://hyperauto.ai/)             | Hyper Automation         | Pending  |                                                   |
-| [BlockForum.uk](https://blockforum.uk/)           | UK Blockchain forum      | Archived |                                                   | 
+| BlockForum.uk           | UK Blockchain forum      | Archived |                                                   | 
 | [ClubTheWorld.uk](https://clubtheworld.uk/)       | ClubTheWorld community   | Archived | previously ClubTheWorld.com & ClubbingNetwork.com |
-| [Coiners.uk](https://coiners.co.uk/)              | Blockchain forum         | Archived |                                                   |
-| [DataTransforms.com](https://datatransforms.com/) | Data Transforms LTD      | Archived |                                                   |
-| [KatKinz.com](https://katkinz.com/)               | Katie's web site         | Archived |                                                   |
-| [PolkaCloud.io](https://polkacloud.io/)           | Polkadot Cloud ecosystem | Archived |                                                   |
+| [Coiners.uk](https://web.archive.org/web/20190109044543/https://coiners.co.uk/)              | Blockchain forum         | Archived |                                                   |
+| [DataTransforms.com](https://web.archive.org/web/20170928222134/http://datatransforms.com/) | Data Transforms LTD      | Archived |                                                   |
+| KatKinz.com               | Katie's web site         | Archived |                                                   |
+| PolkaCloud.io           | Polkadot Cloud ecosystem | Archived |                                                   |
 
 ## Related Reading
 

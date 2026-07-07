@@ -43,7 +43,7 @@ Best for: Specializations and career-focused learning
 
 - **[Introduction to Data Engineering](https://www.coursera.org/learn/introduction-to-data-engineering/)** - Entry-level fundamentals covering pipelines, storage, and processing
 - **[Master Real-Time Streaming with Kafka & Spark](https://www.coursera.org/learn/master-real-time-streaming-kafka-spark)** - Updated Jan 2026. Real-time data processing and stream architectures
-- **[Data Science with Databricks for Data Analysts Specialization](https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/)** - Multi-course specialization on modern lakehouse analytics
+- **Data Science with Databricks for Data Analysts Specialization** - Multi-course specialization on modern lakehouse analytics
 
 ### DataCamp
 
@@ -127,7 +127,7 @@ Best for: Recognized credentials from tech leaders
 
 ### Coursera
 
-- **[Data Science with Databricks for Data Analysts Specialization](https://www.coursera.org/specializations/data-science-with-databricks-for-data-analysts/)** - Modern analytics on the lakehouse platform
+- **Data Science with Databricks for Data Analysts Specialization** - Modern analytics on the lakehouse platform
 
 ### DataCamp
 

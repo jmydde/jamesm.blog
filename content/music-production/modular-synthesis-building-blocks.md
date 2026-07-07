@@ -146,7 +146,7 @@ The building blocks are simple. The combinations are infinite.
 
 - [Mutable Instruments](https://mutable-instruments.net/) - High-quality, documented open-source modules that teach you what each component does.
 - [VCV Rack](https://vcvrack.com/) - Free software modular synth. A perfect learning tool before you buy hardware.
-- [Patch Me In](https://www.patchmein.com/) - Community patches and learning resources.
+- Patch Me In - Community patches and learning resources.
 
 
 ## Related Reading

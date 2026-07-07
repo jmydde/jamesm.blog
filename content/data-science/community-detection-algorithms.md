@@ -218,8 +218,8 @@ That's a signal you can trust.
 ## Going Deeper
 
 - [The Louvain Method paper](https://arxiv.org/abs/0803.0476) is readable and includes comparison to other methods
-- [Community Detection in Graphs](https://en.wikipedia.org/wiki/Community_detection) on Wikipedia covers the landscape
-- [Neo4j's Community Detection Algorithms](https://neo4j.com/developer/algorithms/community-detection/) has practical implementations
+- Community Detection in Graphs on Wikipedia covers the landscape
+- Neo4j's Community Detection Algorithms has practical implementations
 
 The key insight for 2026: Community detection is now a standard tool in the data scientist's toolkit. You're not doing cutting-edge research using these algorithms - you're solving practical problems with proven techniques.
 

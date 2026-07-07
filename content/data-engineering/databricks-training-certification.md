@@ -76,7 +76,7 @@ Focuses on PySpark programming and optimization for distributed computing.
 - Topics: RDD operations, DataFrame API, optimization, cluster execution
 - Resources:
   - [Whizlabs Practice Test](https://www.whizlabs.com/databricks-certified-associate-developer-apache-spark/)
-  - [Official Databricks Spark Documentation](https://docs.databricks.com/en/spark/latest/)
+  - Official Databricks Spark Documentation
 
 ### Data Analyst
 

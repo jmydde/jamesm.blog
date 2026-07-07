@@ -37,7 +37,7 @@ A collection of significant open-source AI projects that are shaping the ecosyst
 
 ## Specialized Tools
 
-- [**OpenClaw**](https://github.com/openclawcompute)  -  AI agent framework for operating graphical user interfaces directly
+- **OpenClaw**  -  AI agent framework for operating graphical user interfaces directly
 - [**Ollama**](https://github.com/ollama/ollama)  -  Simple way to run large language models locally
 - [**LiteLLM**](https://github.com/BerriAI/litellm)  -  Unified interface for calling all major LLM APIs with cost tracking
 

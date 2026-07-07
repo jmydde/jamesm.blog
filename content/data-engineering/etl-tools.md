@@ -105,7 +105,7 @@ Ab Initio is one of the few ETL platforms still trusted with the largest regulat
 ## Transformation & Analytics Engineering
 
 - [dbt](https://www.getdbt.com/) - SQL-first transformation framework that has become the de facto standard for the "T" in ELT. Works across Snowflake, Databricks, BigQuery, Redshift, and more
-- [SQLMesh](https://sqlmesh.com/) - Newer dbt alternative with virtual data environments, stronger incremental semantics, and built-in testing
+- [SQLMesh](https://web.archive.org/web/20260213033021/https://sqlmesh.com/) - Newer dbt alternative with virtual data environments, stronger incremental semantics, and built-in testing
 - [Coalesce](https://coalesce.io/) - Column-aware transformation tooling for Snowflake with a graphical DAG
 
 ## Orchestration & Workflow Engines

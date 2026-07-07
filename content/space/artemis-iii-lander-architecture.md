@@ -26,7 +26,7 @@ The simplified flow:
 1. **SpaceX launches a Starship HLS depot** to low Earth orbit. This vehicle's job is to hold cryogenic propellant.
 2. **SpaceX flies a series of tanker Starships** to the depot, each one transferring liquid methane and liquid oxygen. Industry estimates put this at somewhere between **8 and 16 tanker flights** depending on boil-off and per-flight payload performance.
 3. **SpaceX launches the crewed Starship HLS** - the actual lander - which docks with the depot and takes on a full propellant load.
-4. The fuelled HLS then **performs a trans-lunar injection** and parks itself in [Near-Rectilinear Halo Orbit (NRHO)](https://www.nasa.gov/feature/goddard/2019/what-is-the-gateway-orbit) around the Moon.
+4. The fuelled HLS then **performs a trans-lunar injection** and parks itself in Near-Rectilinear Halo Orbit (NRHO) around the Moon.
 5. **NASA launches Orion on SLS** with the crew. Orion travels to NRHO and rendezvouses with the waiting HLS.
 6. Two crew members transfer from Orion to the HLS, descend to the surface, perform their EVAs, and ascend back to NRHO.
 7. The crew transfers back to Orion. Orion returns to Earth. The HLS is left in lunar orbit.
@@ -41,7 +41,7 @@ Several pieces of the architecture have **never been demonstrated** at the scale
 
 Transferring liquid oxygen and liquid methane between vehicles in microgravity, in the quantities required (hundreds of tonnes), is the single biggest unproven element. Smaller propellant transfer demos have happened with hypergolics. Cryogenics are a different problem - they boil, they slosh, they thermally couple to anything they touch.
 
-[NASA and SpaceX have flown propellant transfer tests](https://www.nasa.gov/news-release/nasa-spacex-progress-on-starship-human-landing-system-for-artemis-iii/), including internal-tank transfer demonstrations. A full ship-to-ship cryogenic transfer at operational scale has not yet been publicly demonstrated as of mid-2026. This is the long pole that everyone watches.
+NASA and SpaceX have flown propellant transfer tests, including internal-tank transfer demonstrations. A full ship-to-ship cryogenic transfer at operational scale has not yet been publicly demonstrated as of mid-2026. This is the long pole that everyone watches.
 
 ### Boil-Off Management For Long Loiter
 
@@ -73,7 +73,7 @@ If you ranked the risks by "what is most likely to slip the schedule" rather tha
 
 **3. HLS uncrewed demonstration.** The contract requires an uncrewed lunar landing of the HLS before the crewed flight. That is itself a major mission - a fully fuelled Starship landing on the Moon, autonomously. Anything that goes wrong on that flight resets the timeline.
 
-**4. Spacesuits.** [Axiom Space's AxEMU suits](https://www.axiomspace.com/axemu) are the planned EVA suits for Artemis III. Suits are historically a long pole in any human spaceflight programme. The Apollo suits took years. The ISS suits are decades old. New suits are hard.
+**4. Spacesuits.** Axiom Space's AxEMU suits are the planned EVA suits for Artemis III. Suits are historically a long pole in any human spaceflight programme. The Apollo suits took years. The ISS suits are decades old. New suits are hard.
 
 **5. Orion's life support and integration.** Orion has flown uncrewed on Artemis I. It is supposed to fly crewed on Artemis II in the next window. Any anomaly there - and Artemis I produced a few, including unexpected heat shield erosion - feeds directly into Artemis III readiness.
 

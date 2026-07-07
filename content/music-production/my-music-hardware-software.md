@@ -18,7 +18,7 @@ cover:
 | Storage | WD Elements 5TB, Integral USB 3.0 128GB, Crucial P3 M.2 PCIe Gen3 1TB, Fikwot FN501 Pro NVMe 1TB, Sandisk Extreme Pro Portable SSD 1TB, Orico M.2 NVMe SATA SSD enclosure |
 | Controller Keyboards | [NI Komplete Kontrol M32](https://www.native-instruments.com/en/products/komplete/keyboards/komplete-kontrol-m32/), [Novation LaunchKey 61](https://novationmusic.com/en/keys/launchkey/) |
 | DJ Controllers | [NI Traktor Kontrol S3](https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s3/) |
-| Drum Machines / Grooveboxes | [NI Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/), [Roland MC-707](https://www.roland.com/ca/products/mc-707/) |
+| Drum Machines / Grooveboxes | [NI Maschine MK3](https://www.native-instruments.com/en/products/maschine/production-systems/maschine/), [Roland MC-707](https://web.archive.org/web/20250619235738/https://www.roland.com/ca/products/mc-707/) |
 | Portable Keyboards | [Yamaha EZ-300](https://uk.yamaha.com/en/products/musical_instruments/keyboards/portable_keyboards/ez-300/index.html) |
 | Synthesizers | [Yamaha MODX M8](https://uk.yamaha.com/en/musical-instruments/keyboards/products/synthesizers/modxm/), [Yamaha Motif ES8](https://www.soundonsound.com/reviews/yamaha-motif-es) |
 
@@ -30,7 +30,7 @@ cover:
 | Tower | [Dell](https://www.dell.com/en-uk/) T5400 Twin Quad Core Xeon 3.0GHz 16GB RAM |
 | Peripherals | [C64 Music Maker keyboard](https://collection.sciencemuseumgroup.org.uk/objects/co8210535/commodore-64-music-maker-keyboard-1984-keyboard), [Microdeal PRO-MIDI Interface (Amiga)](https://bigbookofamigahardware.com/bboah/product.aspx?id=1540) |
 | Drum Machines | [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1), [Roland R-8 Human Rhythm Composer](https://www.vintagesynth.com/roland/r8.php) |
-| Keyboards | [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/), [JVC KB-700](https://jvckeyboards.tripod.com/kb700.html) |
+| Keyboards | [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/), [JVC KB-700](https://web.archive.org/web/20250805224652/https://jvckeyboards.tripod.com/kb700.html) |
 | Sound Modules | [Roland Edirol SD90](https://www.soundonsound.com/reviews/edirol-sd90) |
 | Synthesizers | [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php), [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php) |
 
@@ -53,8 +53,8 @@ Virtual instruments, effects and expansions.
 
 | Bundle | Contents |
 |---|---|
-| [AIR Essential Synths Pack](https://www.airmusictech.com/virtual-instruments/air-essential-synths-pack.html) | [LOOM II](https://www.airmusictech.com/virtual-instruments/loom-ii.html), [The Riser](https://www.airmusictech.com/virtual-instruments/theRiser.html), [Vacuum Pro](https://www.airmusictech.com/virtual-instruments/vacuum-pro.html) |
-| [AIR Power Pack](https://www.airmusictech.com/virtual-instruments/air-power-pack.html) | [Hybrid 3](https://www.airmusictech.com/virtual-instruments/hybrid3.html) (+ E-lec-tro Waves, Fresh Energy expansions), [Mini Grand](https://www.airmusictech.com/virtual-instruments/mini-grand.html), [Velvet 2](https://www.airmusictech.com/virtual-instruments/velvet.html) |
+| AIR Essential Synths Pack | [LOOM II](https://web.archive.org/web/20260415042835/https://www.airmusictech.com/virtual-instruments/loom-ii.html/), [The Riser](https://web.archive.org/web/20240527040206/https://www.airmusictech.com/virtual-instruments/theRiser.html), [Vacuum Pro](https://web.archive.org/web/20260415043855/https://www.airmusictech.com/virtual-instruments/vacuum-pro.html/) |
+| AIR Power Pack | Hybrid 3 (+ E-lec-tro Waves, Fresh Energy expansions), [Mini Grand](https://web.archive.org/web/20260308181719/https://www.airmusictech.com/virtual-instruments/mini-grand.html/), Velvet 2 |
 
 ### Apple
 
@@ -83,7 +83,7 @@ French manufacturer of audio interfaces, software/hardware synths, drum machines
 | [Efx REFRACT](https://www.arturia.com/products/software-effects/efx-refract/overview) | Stereo multi-effect |
 | [FX Collection 4](https://www.arturia.com/products/software-effects/fx-collection/overview) | [Bus FORCE](https://www.arturia.com/products/software-effects/bus-force/overview), Chorus DIMENSION-D, [Chorus JUN-6](https://www.arturia.com/products/software-effects/chorus-jun-6/overview), Comp DIODE-609 / FET-76 / TUBE-STA / VCA-65, Delay BRIGADE / ETERNITY / [TAPE-201](https://www.arturia.com/products/software-effects/delay-tape201/overview), [Dist COLDFIRE](https://www.arturia.com/products/software-effects/dist-coldfire/overview), Dist OPAMP-21 / TUBE-CULTURE, [EQ SITRAL-295](https://www.arturia.com/products/software-effects/eq-sitral-295/overview), Efx FRAGMENTS, Filter M12 / MINI / [MS-20](https://www.arturia.com/products/software-effects/filter-ms-20/overview) / SEM, Flanger BL-20, Phaser BI-TRON, Pre 1973 / TridA / V76, Rev INTENSITY / [LX-24](https://www.arturia.com/products/software-effects/rev-lx-24/overview) / PLATE-140 / SPRING-636, Rotary CLS-222, Tape MELLO-FI |
 | [V Collection X](https://www.arturia.com/products/software-instruments/v-collection/overview) | 39 instruments + 10,000 presets. Instruments: ARP 2600 V, Acid V, [Analog Lab Pro](https://www.arturia.com/products/software-instruments/analoglab/overview), Augmented BRASS / GRAND PIANO / STRINGS / VOICES / WOODWINDS, B-3 V, Buchla Easel V, CMI V, CP-70 V, CS-80 V, CZ V, Clavinet V, DX7 V, Emulator II V, Farfisa V, Jun-6 V, Jup-8 V, KORG MS-20 V, Matrix-12 V, Mellotron V, Mini V (+ V 4), MiniFreak V, Modular V, OP-Xa V, [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview), [Pigments](https://www.arturia.com/products/software-instruments/pigments/overview), Prophet-5 V, Prophet-VS V, SEM V, SQ80 V, Solina V, Stage-73 V, Synclavier V, Synthi V, VOX Continental V, Vocoder V, Wurli V (+ V 3). Expansions: Hyper Rave, Inner City Soul, Inward Universe |
-| [Wavelengths Bundle](https://www.arturia.com/sound-banks/wavelengthsbundle) | Sound bank |
+| [Wavelengths Bundle](https://web.archive.org/web/20240616084813/https://www.arturia.com/sound-banks/wavelengthsbundle) | Sound bank |
 
 ### Cherry Audio
 Founded by veterans from Sonic Foundry, Cakewalk, Bias, Acoustica and Keyboard Magazine.
@@ -193,7 +193,7 @@ Founded by John Lehmkuhl; inspiring synth patches for popular plug-ins.
 
 | Product | Notes |
 |---|---|
-| [Unify](https://www.pluginguru.com/products/unify-standard/) | + [Cutting Edge - Magic Motion](https://www.pluginguru.com/products/magic-motion/), [Modern Cinema - Ambient Dreams](https://www.pluginguru.com/products/ambient-dreams/) |
+| [Unify](https://web.archive.org/web/20250917202610/https://www.pluginguru.com/products/unify-standard/) | + [Cutting Edge - Magic Motion](https://www.pluginguru.com/products/magic-motion/), [Modern Cinema - Ambient Dreams](https://www.pluginguru.com/products/ambient-dreams/) |
 
 ### ProjectSAM
 Award-winning cinematic sample libraries used in film, game and series scores.
@@ -207,7 +207,7 @@ Award-winning cinematic sample libraries used in film, game and series scores.
 
 | Product | Notes |
 |---|---|
-| [Spire](https://www.reveal-sound.com/plug-ins/spire) | Polyphonic synth combining sound engine modulation with flexible architecture |
+| Spire | Polyphonic synth combining sound engine modulation with flexible architecture |
 
 ### Sonic Academy
 
@@ -265,20 +265,20 @@ Software instruments, effects and soundware leveraging research-led design.
 | [Falcon 3](https://www.uvi.net/falcon) | + [Expansions](https://www.uvi.net/en/falcon-expansions): [Analog Motion](https://www.uvi.net/en/falcon-expansions/analog-motion.html), [Digital Motion](https://www.uvi.net/en/falcon-expansions/digital-motion.html), [Organic Arps](https://www.uvi.net/en/falcon-expansions/organic-arps.html), [Organic Keys](https://www.uvi.net/en/falcon-expansions/organic-keys.html), [Organic Pads](https://www.uvi.net/en/falcon-expansions/organic-pads.html) |
 | [Spectre](https://www.uvi.net/en/falcon-expansions/spectre.html) | 140 presets |
 | [HX-20](https://www.uvi.net/en/vintage-synth/hx-20.html) | 222 presets, 182 layers, 13,341 samples |
-| [Key Suite Bundle](https://www.uvi.net/key-suite.html) | [Austrian Grand](https://www.uvi.net/austrian-grand) (23 presets, 6,450 samples), [Acoustic](https://www.uvi.net/en/pianos-keyboards/key-suite-acoustic.html) (20 instruments, 22,424 samples), [Digital](https://www.uvi.net/en/pianos-keyboards/key-suite-digital.html) (10 instruments, 28,852 samples), [Electric](https://www.uvi.net/en/pianos-keyboards/key-suite-electric.html) (63 instruments, 53,562 samples) |
+| [Key Suite Bundle](https://www.uvi.net/key-suite.html) | [Austrian Grand](https://web.archive.org/web/20251008163719/https://www.uvi.net/en/pianos-keyboards/323-key-suite.html) (23 presets, 6,450 samples), [Acoustic](https://www.uvi.net/en/pianos-keyboards/key-suite-acoustic.html) (20 instruments, 22,424 samples), [Digital](https://www.uvi.net/en/pianos-keyboards/key-suite-digital.html) (10 instruments, 28,852 samples), [Electric](https://www.uvi.net/en/pianos-keyboards/key-suite-electric.html) (63 instruments, 53,562 samples) |
 | [Meteor](https://www.uvi.net/en/soundfx/meteor.html) | 699 presets, 3,891 samples |
 | [Mission 6](https://www.uvi.net/en/vintage-synth/mission-6.html) | 400 presets, 341 layers, 33,174 samples |
-| [Noctua](https://www.uvi.net/en/soundware/noctua.html) | 100 presets, 3 layers, 632 samples |
+| Noctua | 100 presets, 3 layers, 632 samples |
 | [Percussion Factory](https://www.uvi.net/en/bass-drums-perc/percussion-factory.html) | 556 presets, 1,014 layers, 8,560 samples |
 | [PX Memories](https://www.uvi.net/en/vintage-synth/px-memories.html) | 353 presets, 38,988 samples |
 | [Quadra - Muted and Harmonics](https://www.uvi.net/en/unconventional/quadra-muted-and-harmonics.html) | 335 presets, 150 layers, 29,043 samples |
-| [Scratch Machine](https://www.uvi.net/en/music-genres/scratch-machine.html) | 6,381 samples, 4,209 loops, 108 presets |
+| Scratch Machine | 6,381 samples, 4,209 loops, 108 presets |
 | [Shade](https://www.uvi.net/en/effects/shade.html) | Filter effect |
 | [Sparkverb](https://www.uvi.net/en/effects/sparkverb.html) | Reverb |
 | [Synth Anthology 4](https://www.uvi.net/synth-anthology-4) | 38,071 samples, 4,767 presets |
-| [World Suite 2](https://www.uvi.net/en/music-genres/world-suite-2.html) | 66,460 samples, 369 instruments, 10,584 loops & phrases |
+| World Suite 2 | 66,460 samples, 369 instruments, 10,584 loops & phrases |
 
-[Vintage Vault 4](https://www.uvi.net/vintage-vault-4-upgrade-sp.html) - 36 UVI products, 14,000+ presets, 800,000+ samples:
+[Vintage Vault 4](https://web.archive.org/web/20250131040526/https://www.uvi.net/vintage-vault-4.html) - 36 UVI products, 14,000+ presets, 800,000+ samples:
 
 | Instrument | Notes |
 |---|---|
@@ -331,11 +331,11 @@ Software instruments, effects and soundware leveraging research-led design.
 
 | Vendor | Product |
 |---|---|
-| [Antares](https://www.antarestech.com/) | [Choir](https://www.antarestech.com/products/vocal-effects/choir) |
+| [Antares](https://www.antarestech.com/) | [Choir](https://web.archive.org/web/20250304082719/https://www.antarestech.com/products/vocal-effects/choir) |
 | [Dear Reality](https://www.dear-reality.com/) | [EXOVERB Micro](https://www.dear-reality.com/products/exoverb-micro) |
 | [GForce Software](https://www.gforcesoftware.com/) | [impOSCar2](https://www.gforcesoftware.com/products/imposcar2/) |
 | [Minimal Audio](https://www.minimal.audio/) | [Rift Filter Lite](https://www.minimal.audio/products/rift-filter-lite) |
-| [Moog](https://www.moogmusic.com/) | [Moogerfooger MF-108S Cluster Flux](https://www.moogmusic.com/products/moogerfooger-mf-108m-cluster-flux) |
+| [Moog](https://www.moogmusic.com/) | [Moogerfooger MF-108S Cluster Flux](https://web.archive.org/web/20250207012329/https://www.moogmusic.com/products/moogerfooger-mf-108m-cluster-flux) |
 | [Plugin Boutique](https://www.pluginboutique.com/) | [StereoSavage 2 Elements](https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/9785-StereoSavage-2-Elements) |
 | [Pulsar Audio](https://pulsar.audio/) | [W495](https://pulsar.audio/w495/) |
 | [Sonible](https://www.sonible.com/) | [pure:limit](https://www.sonible.com/purelimit/) |

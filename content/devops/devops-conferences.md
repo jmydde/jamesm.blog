@@ -27,20 +27,20 @@ Focused on the culture, practice, and tooling of DevOps rather than a specific v
 
 - [DevOpsDays](https://devopsdays.org/) - community-run local conferences held in dozens of cities every year, with a distinctive open-space format
 - [DevOps Enterprise Summit](https://events.itrevolution.com/) - Gene Kim's invitation-style summit for large-enterprise DevOps transformations
-- [IDC DevOps Summit](https://www.idc.com/eu/events/70272-idc-devops-summit/) - analyst-led event focused on enterprise delivery practices
-- [The National DevOps Conference](https://www.devopsonline.co.uk/national-devops-conference/) - UK-centric conference covering delivery, tooling, and culture
+- IDC DevOps Summit - analyst-led event focused on enterprise delivery practices
+- The National DevOps Conference - UK-centric conference covering delivery, tooling, and culture
 
 ## Kubernetes, containers, and cloud-native
 
 - [KubeCon + CloudNativeCon](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/) - the flagship CNCF event, runs in Europe, North America, and China each year
-- [DockerCon](https://www.docker.com/dockercon/) - Docker's annual event, now focused on developer experience and supply chain
+- [DockerCon](https://web.archive.org/web/20230716103532/https://www.docker.com/dockercon/) - Docker's annual event, now focused on developer experience and supply chain
 - [Container Days](https://containerdays.io/) - European conference covering Kubernetes and the wider container ecosystem
 
 ## Platform Engineering and SRE
 
 - [PlatformCon](https://platformcon.com/) - dedicated to the emerging discipline of platform engineering, held online each year
 - [SREcon](https://www.usenix.org/conferences) - USENIX's SRE conference series, with EMEA, Americas, and Asia-Pacific editions
-- [Observability Day](https://events.linuxfoundation.org/observabilityday-europe/) - co-located with KubeCon, focused on tracing, metrics, and logs
+- Observability Day - co-located with KubeCon, focused on tracing, metrics, and logs
 
 ## How to get value when you can't attend
 

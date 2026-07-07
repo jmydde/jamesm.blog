@@ -211,7 +211,7 @@ Once you see that pattern, you can reason about designing custom centrality meas
 ## Going Deeper
 
 If you want to understand the math:
-- [Google's original PageRank paper](https://research.google/pubs/the-pagerank-citation-ranking-bringing-order-to-the-web/) is surprisingly readable
+- Google's original PageRank paper is surprisingly readable
 - [Centrality in Networks](https://en.wikipedia.org/wiki/Centrality) on Wikipedia has the math without drowning in it
 - [Graph Algorithms in Neo4j](https://neo4j.com/developer/graph-algorithms/) has practical examples (even if you're using Neptune)
 

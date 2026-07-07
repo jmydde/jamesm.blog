@@ -24,7 +24,7 @@ The rest of the show was more conventional, and none the worse for it:
 - **[Buchla](https://buchla.com/) Ziggy** - a compact desktop synth at $999, the most affordable complete instrument Buchla USA has ever put on sale. Buchla has always been a cult brand with cult pricing; this is a deliberate move to let more people in.
 - **[Polyend](https://polyend.com/) Drums** - a hybrid drum machine pairing four analogue voices with digital engines, aimed squarely at producers who want analogue punch without giving up sampling flexibility.
 - **[Modal Electronics](https://modalelectronics.com/) Element One** - a small 37-key synth built for playing rather than menu-diving, designed with the Axel Hartmann team.
-- **[Roland](https://www.roland.com/global/) TR-1000 1.20 update** - new 909 and 808 Bass Line instruments plus 303 and 404 vinyl-simulation effects, keeping one of last year's flagship drum machines fresh.
+- **[Roland](https://web.archive.org/web/20260705042416/https://www.roland.com/global/) TR-1000 1.20 update** - new 909 and 808 Bass Line instruments plus 303 and 404 vinyl-simulation effects, keeping one of last year's flagship drum machines fresh.
 
 If you want the full firehose, MusicRadar ran [live coverage from the show floor](https://www.musicradar.com/news/live/superbooth-2026-all-the-latest-synth-news-from-berlin-live).
 

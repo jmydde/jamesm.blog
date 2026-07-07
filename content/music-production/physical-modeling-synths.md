@@ -28,7 +28,7 @@ This is why Pianoteq's pianos feel alive - they're not layered samples of static
 
 Modartt's late-2025 release of [Pianoteq 9](https://www.modartt.com/pianoteq_overview) made this tangible: a rebuilt soundboard model, instrument-wide revoicing across 2026 point releases, and a redesigned mic panel that lets you place up to **eight virtual microphones in 3D space** around the instrument. That kind of mic flexibility is impossible in a sampled library - you can't reposition a mic on a recording that was tracked five years ago. With a model, you just move the mic.
 
-For a plain-language primer on the underlying maths, [Arturia's "What is Physical Modeling?"](https://www.arturia.com/phi) explainer is one of the better resources online, with a nice walkthrough of how IRCAM and Stanford research fed into commercial plugins.
+For a plain-language primer on the underlying maths, [Arturia's "What is Physical Modeling?"](https://web.archive.org/web/20260115151932/https://www.arturia.com/phi) explainer is one of the better resources online, with a nice walkthrough of how IRCAM and Stanford research fed into commercial plugins.
 
 ## Why This Matters for Sound Design
 
@@ -162,7 +162,7 @@ Honestly, spend an hour with any of these and you'll understand why the future o
   - [Ultra Analog VA-3](https://www.applied-acoustics.com/ultra-analog-va-3/) - performs as a unique and powerful synth that is fast, easy, and remarkably versatile
 - [Audio Modeling](https://audiomodeling.com/)
   - [SWAM String Sections](https://audiomodeling.com/sections/swam-string-sections/) - truly innovative suite of four plug-ins corresponding to the orchestra sections Violins, Violas, Cellos, and Double Basses
-  - [SWAM Solo Strings](https://audiomodeling.com/solo/) - flagship MPE-driven solo violin, viola, cello and double bass
+  - SWAM Solo Strings - flagship MPE-driven solo violin, viola, cello and double bass
 - [Arturia](https://www.arturia.com/)
   - [Piano V](https://www.arturia.com/products/software-instruments/piano-v/overview) - finest array of production-worthy pianos
 - [Baby Audio](https://babyaud.io/)
@@ -181,7 +181,7 @@ Honestly, spend an hour with any of these and you'll understand why the future o
   - [Preparation](https://physicalaudio.co.uk/products/preparation/) - based on mathematical modelling of 2 basic elements; strings which can be configured as bars, and a rattling element
 - [Rhizomatic](https://rhizomatic.fr/)
   - [Plasmonic](https://rhizomatic.fr/) - captures the complex acoustic resonances of Physical Modeling, expands on it with more familiar elements of Subtractive Synthesis, and adds a few unique twists
-- [Tiagolr](https://tiagolr.com/) - free 32-voice physical modeling synth Rippler, with 12 acoustic resonator models (Chromaphone-inspired)
+- Tiagolr - free 32-voice physical modeling synth Rippler, with 12 acoustic resonator models (Chromaphone-inspired)
 
 ## YouTube Videos
 

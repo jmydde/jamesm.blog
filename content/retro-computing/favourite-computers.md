@@ -46,7 +46,7 @@ I spent so long on the Spectrum one of my sisters suggested I should go to compu
 {{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1920px-ZXSpectrum48k.jpg" title="ZX Spectrum 48k" height=250 width=250 >}}
 
 #### Peripherals
-- [Alphacom 32](https://worldofspectrum.org/hardware/feat11.html) thermal printer
+- Alphacom 32 thermal printer
 - [Competition Pro joystick](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics)
 - [Kempston joystick interface](https://en.wikipedia.org/wiki/Kempston_Micro_Electronics)
 - Tape player/recorder

@@ -23,7 +23,7 @@ cover:
 * [LakeFS Blog](https://lakefs.io/blog/) - Data versioning, governance, and data lakes as code principles.
 * [dbt Blog](https://blog.getdbt.com/) - Analytics engineering workflows, SQL best practices, and modern data transformation.
 * [Apache Airflow Blog](https://airflow.apache.org/blog/) - Workflow orchestration patterns, DAG design, and production deployment strategies.
-* [Kafka Blog](https://kafka.apache.org/blog.html) - Stream processing, real-time data architectures, and event-driven systems.
+* [Kafka Blog](https://web.archive.org/web/20230901202347/https://kafka.apache.org/blog.html) - Stream processing, real-time data architectures, and event-driven systems.
 * [Redpanda Blog](https://redpanda.com/blog) - Kafka ecosystem evolution, streaming data pipelines, and cost optimization.
 
 ### Podcasts & Multimedia
@@ -33,7 +33,7 @@ cover:
 ## Data Warehousing & Analytics
 * [Snowflake Blog](https://www.snowflake.com/en/blog/) - Cloud data warehouse innovations, performance optimization, and enterprise data strategies.
 * [Google Cloud Data Analytics Blog](https://cloud.google.com/blog/topics/data-analytics) - BigQuery best practices, modern data stack integration, and Google Cloud data solutions.
-* [Restack Blog](https://www.restack.io/blog) - Data infrastructure comparisons, architecture patterns, and cost optimization strategies.
+* Restack Blog - Data infrastructure comparisons, architecture patterns, and cost optimization strategies.
 
 ## Communities & Learning
 
@@ -43,18 +43,18 @@ cover:
 * [dbt Community](https://getdbt.com/community) - Slack workspace, forums, and networking for analytics engineers and data teams.
 
 ### Learning Resources
-* [Data Engineering Fundamentals](https://www.fundamentaldataengineering.com/) - Comprehensive guide covering data architecture, ETL/ELT, and system design.
-* [Engineer Codehouse](https://engineercodehouse.com/) - Practical tutorials and guides for modern data stack technologies.
+* Data Engineering Fundamentals - Comprehensive guide covering data architecture, ETL/ELT, and system design.
+* Engineer Codehouse - Practical tutorials and guides for modern data stack technologies.
 
 ## Industry News & Trends
-* [The Data Stack News](https://datastacknews.com/) - Weekly roundup of news, funding announcements, and updates across the data ecosystem.
+* The Data Stack News - Weekly roundup of news, funding announcements, and updates across the data ecosystem.
 * [KDnuggets](https://www.kdnuggets.com/) - News, tutorials, and discussions on data science, machine learning, and data engineering.
 * [Data Engineering Weekly](https://www.dataengineeringweekly.com/) - Curated newsletter featuring tools, articles, and thought leadership in data engineering.
 * [The Pragmatic Engineer - Data](https://newsletter.pragmaticengineer.com/) - Engineering-led analysis with frequent data platform deep dives.
 
 ## Open Table Format & Lakehouse
 * [Apache Iceberg Blog](https://iceberg.apache.org/blog/) - Official updates on the open table format increasingly central to the 2026 lakehouse.
-* [Tabular Blog](https://tabular.io/blog/) - Deep technical writing on Iceberg internals and multi-engine lakehouse design.
+* [Tabular Blog](https://web.archive.org/web/20250805080427/https://www.tabular.io/blog/) - Deep technical writing on Iceberg internals and multi-engine lakehouse design.
 * [Dremio Blog](https://www.dremio.com/blog/) - Query engines, Iceberg, and open data architecture.
 * [Onehouse Blog](https://www.onehouse.ai/blog) - Hudi and open lakehouse patterns.
 

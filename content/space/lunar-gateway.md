@@ -76,7 +76,7 @@ Over time, additional modules provide:
 - **Power systems** (more solar arrays, possibly nuclear)
 - **Storage** for fuel, water, and supplies
 - **Laboratory** for science and resource processing
-- **Manufacturing** for [in-situ resource utilization (ISRU)](https://www.nasa.gov/exploration/whatsnew/ISRU_Fueling_the_Future.html)
+- **Manufacturing** for in-situ resource utilization (ISRU)
 - **Communication arrays** for Earth and surface operations
 
 The Gateway grows like the ISS did - module by module, partnership by partnership.
@@ -129,7 +129,7 @@ Artemis III and beyond prioritize human landings using existing infrastructure:
 
 Meanwhile, NASA and international partners build Gateway components:
 
-- PPE begins fabrication (already in development with Japanese [HTV-X vehicles](https://www.jaxa.jp/en/projects/htv-x/))
+- PPE begins fabrication (already in development with Japanese HTV-X vehicles)
 - HALO module is assembled
 - Secondary modules are designed
 
@@ -157,7 +157,7 @@ This is genuinely international:
 
 **[NASA](https://www.nasa.gov/) (US)**: Overall architecture, HALO module, operational infrastructure
 
-**[JAXA](https://www.jaxa.jp/en/) (Japan)**: Power and Propulsion Element, resupply vehicles
+**JAXA (Japan)**: Power and Propulsion Element, resupply vehicles
 
 **[ESA](https://www.esa.int/) (Europe)**: Pressurized logistics modules, power elements
 
@@ -187,7 +187,7 @@ The Gateway isn't competing with commercial lunar landers. It's enabling them. A
 
 ## The Far-Side Telescope
 
-One specific example: [radio astronomy from the Moon's far side](https://www.nasa.gov/lunar/lunar-far-side-science/).
+One specific example: radio astronomy from the Moon's far side.
 
 The far side is shielded from Earth's radio noise. A large radio telescope there could detect gravitational waves, map the early universe, and answer questions about cosmic origins that Earth-based telescopes can't.
 
@@ -237,7 +237,7 @@ For crew to work from the Gateway, you need reliable landers. Starship is untest
 
 ## Artemis IV and Beyond
 
-[Artemis III](https://www.nasa.gov/artemis/artemis-missions/) will land humans on the Moon, probably 2026-2027.
+Artemis III will land humans on the Moon, probably 2026-2027.
 
 Artemis IV might launch to the Gateway instead of the surface - testing the new architecture while SLS still flies.
 

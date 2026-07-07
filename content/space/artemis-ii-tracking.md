@@ -25,7 +25,7 @@ These dashboards showcase NASA's commitment to transparency, allowing space enth
 
 The official Artemis II tracking dashboard provides live updates on mission progress, launch windows, vehicle status, and key milestones.
 
-**[Artemis II Tracker](https://artemis-ii-tracker.com/)**
+**[Artemis II Tracker](https://web.archive.org/web/20260410151711/https://artemis-ii-tracker.com/)**
 
 Follow the mission in real-time and stay informed about one of humanity's most significant space exploration endeavors.
 

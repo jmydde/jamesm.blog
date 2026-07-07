@@ -48,7 +48,7 @@ This is the one I want to spend the rest of the post on, because this is the upg
 
 ## The Numbers - Honest Scorecard
 
-I have pulled what is publicly visible from the [Polkadot Coretime dashboards](https://coretime.polkadot.network/) and various ecosystem analytics. The numbers below are directional, not audited.
+I have pulled what is publicly visible from the Polkadot Coretime dashboards and various ecosystem analytics. The numbers below are directional, not audited.
 
 ### Core Prices
 

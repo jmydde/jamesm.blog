@@ -43,7 +43,7 @@ Before the list, a few things worth thinking about:
 ### Fabric and touch surfaces
 
 - [Embodme](https://www.embodme.com/)
-  - [ERAE Touch](https://www.embodme.com/erae-touch) - a flat, fully customisable touch surface with high-resolution pressure sensing. You can lay out keyboards, drum grids, X/Y pads, or anything else, and reconfigure on the fly.
+  - [ERAE Touch](https://web.archive.org/web/20240820122004/https://www.embodme.com/erae-touch) - a flat, fully customisable touch surface with high-resolution pressure sensing. You can lay out keyboards, drum grids, X/Y pads, or anything else, and reconfigure on the fly.
 
 ### Pad-based MPE
 
