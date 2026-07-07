@@ -139,4 +139,3 @@ A companion talk from Andreas on how the Bitcoin protocol can evolve, via soft f
 - [The State of Blockchain in 2026](/blockchain/state-of-blockchain-2026/)
 - [Private Keys in Cryptocurrency](/blockchain/private-keys/)
 - [Cryptocurrency Hardware Wallets](/blockchain/hardware-wallets/)
-- [Real World Asset Tokenisation: The Slow Revolution in 2026](/blockchain/real-world-asset-tokenisation/)

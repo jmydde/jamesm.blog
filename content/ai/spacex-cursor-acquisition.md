@@ -91,6 +91,5 @@ Whether that bet pays off depends entirely on execution. But the strategic logic
 ## Related Reading
 
 - [Securing AI Agents](/ai/securing-ai-agents/)
-- [AI Agent Economy: Buy, Sell, and Compete](/ai/agent-economy-buy-sell/)
 - [Agent-First Architecture: The Engineer as Curator](/ai/agent-first-architecture-engineer-as-curator/)
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)

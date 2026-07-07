@@ -99,7 +99,7 @@ The field in 2026 is not one breakthrough but several stacks maturing in paralle
 
 **Sim-to-real pipelines.** The practical path for industrial robots remains: train in simulation with a known physics engine, transfer to reality with domain randomisation and teleoperation fine-tuning. NVIDIA Isaac, Meta's Habitat, and a growing list of open simulators are the training grounds. World models may eventually replace hand-built simulators. Today they augment them.
 
-**Multimodal foundation models.** Models that see, hear, and read are necessary but not sufficient. [Multimodal AI beyond vision](/ai/multimodal-ai-beyond-vision/) adds perception channels. World models add the predictive layer on top - the "what happens next if I act" that perception alone does not provide.
+**Multimodal foundation models.** Models that see, hear, and read are necessary but not sufficient. Multimodal AI beyond vision adds perception channels. World models add the predictive layer on top - the "what happens next if I act" that perception alone does not provide.
 
 The honest summary: **no one has a general-purpose world model good enough to drop into an arbitrary physical deployment.** The pieces exist. The integration does not. That is why this is a research frontier and not a product category yet.
 

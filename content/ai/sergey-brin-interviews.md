@@ -5,7 +5,7 @@ draft: false
 tags: ["ai","sergey-brin","interview"]
 description: "A working index of Sergey Brin interviews on AI, Gemini, robotics, AGI timelines, and the future of human-computer interaction - tracking the Google co-founder's public commentary since his return to hands-on work in 2024-2026."
 cover:
-  image: /assets/images/ai/sergey-brin-interviews.jpg
+  image: /assets/images/ai/ai-intelligence.jpg
   alt: Sergey Brin - Google Co-Founder
 ---
 
@@ -96,7 +96,6 @@ _Note: This page will be expanded with additional Sergey Brin interviews as they
 ## Related Reading
 
 - [Geoffrey Hinton Interviews](/ai/geoffrey-hinton-interviews/)
-- [Demis Hassabis: DeepMind Chief](/ai/demis-hassabis-deepmind-chief/)
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
 - [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
 - [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)

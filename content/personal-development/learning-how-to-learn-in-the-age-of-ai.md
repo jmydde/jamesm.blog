@@ -143,6 +143,5 @@ Learn how to learn. It may turn out to be the most important thing you do.
 
 - [Math Academy: The Fastest Way to Learn Maths](/personal-development/math-academy-the-fastest-way-to-learn-maths/)
 - [The Quiet Discipline of Self-Honesty](/personal-development/the-quiet-discipline-of-self-honesty/)
-- [Two-Hour Deep Work Block](/personal-development/two-hour-deep-work-block/)
 - [What It Means to Be an Expert in 2030](/ai/what-it-means-to-be-expert-in-2030/)
 - [AI Tooling Learning Path](/ai/ai-tooling-learning-path/)

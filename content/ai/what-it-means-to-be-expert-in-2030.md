@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "expertise", "career", "future-of-work"]
 description: "A sequel to the credential crisis - how the meaning of expertise is changing as AI assistance becomes ambient, with a concrete walkthrough of what a 2030 civil engineer might actually need to be expert at."
 cover:
-  image: /assets/images/ideas/what-it-means-to-be-expert-in-2030.jpg
+  image: /assets/images/ai/meaning-of-work-abundance.jpg
   alt: What It Means to Be Expert in 2030 Banner
 slug: "what-it-means-to-be-expert-in-2030"
 ---
@@ -116,4 +116,3 @@ The work of being expert in 2030 starts now. It is not a transition that announc
 - [Agent-First Architecture: The Engineer as Curator](/ai/agent-first-architecture-engineer-as-curator/)
 - [What I'm Researching in AI Right Now](/ai/what-im-researching-in-ai-right-now/)
 - [Securing AI Agents](/ai/securing-ai-agents/) - accountability when agents act on your behalf
-- [The Last Generic Software](/ideas/last-generic-software/)

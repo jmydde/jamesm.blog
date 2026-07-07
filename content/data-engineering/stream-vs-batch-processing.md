@@ -116,7 +116,5 @@ The thing to avoid is the trap of treating streaming and batch as a religious ch
 ## Related Reading
 
 - [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)
-- [Apache Flink in 2026: Streaming SQL Comes of Age](/data-engineering/apache-flink-2026-streaming-sql/)
-- [Streaming and Batch Convergence](/data-engineering/streaming-batch-convergence/)
 - [AI-Native Pipelines: Where Agents Meet Data Engineering](/data-engineering/ai-native-pipelines/)
 - [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines/)

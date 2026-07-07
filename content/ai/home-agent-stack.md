@@ -6,7 +6,7 @@ type: reference
 tags: ["ai", "agent", "mcp", "mac-studio", "agentic-engineering"]
 description: "A reading path for building a home AI agent on Apple Silicon - local inference, MCP servers, persistent memory, remote access, and security hardening in order."
 cover:
-  image: /assets/images/ai/mcp-servers-home-ai-agent.jpg
+  image: /assets/images/ai/mcp-servers-home-agent.jpg
   alt: Home agent stack reading path
 slug: "home-agent-stack"
 ---

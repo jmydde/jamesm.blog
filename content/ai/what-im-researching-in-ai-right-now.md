@@ -62,13 +62,13 @@ The second cluster grew directly out of the first. If agents fail in long runs, 
 
 I have spent real time on this one. [Context engineering](/ai/context-engineering/) - treating the whole window as a curated, decaying budget rather than a bucket you fill - is, I think, the production skill that quietly replaced prompt engineering. Anthropic's engineering team frames it well in their write-up on [effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents): the job is curating what enters the model's limited attention at each step, not wording one request perfectly.
 
-The adjacent questions have kept me busy too: [memory that survives across runs](/ai/home-ai-agent-memory-that-lasts/), [what actually works with long context](/ai/claude-long-context-and-memory-2026/), [prompt caching](/ai/prompt-caching/) as a cost lever, and the [token efficiency mindset](/ai/claude-token-efficiency-mindset/) that ties them together. The through-line: more context is almost never the answer, and the teams shipping reliable systems are the ones who curate aggressively.
+The adjacent questions have kept me busy too: [memory that survives across runs](/ai/home-ai-agent-memory-that-lasts/), what actually works with long context, [prompt caching](/ai/prompt-caching/) as a cost lever, and the [token efficiency mindset](/ai/claude-token-efficiency-mindset/) that ties them together. The through-line: more context is almost never the answer, and the teams shipping reliable systems are the ones who curate aggressively.
 
 ### 3. The economics of intelligence
 
 The third cluster is the one I underrated at first and now think about constantly: what does intelligence actually cost, and who pays.
 
-It is easy to assume inference costs only ever fall. They do not, cleanly - and I dug into [why costs are not going down](/ai/token-economics-why-costs-arent-going-down/) the way the headline price-per-token numbers suggest. Around that sit the questions of [running models locally versus in the cloud](/ai/local-vs-cloud-ai-2026/), the [hardware war](/ai/ai-hardware-wars-blackwell-mi300x-tpuv6/) deciding who can serve intelligence cheaply, and the [data-centre power crunch](/ai/ai-energy-crisis-data-center-power/) that turns out to be a hard physical ceiling on the whole thing.
+It is easy to assume inference costs only ever fall. They do not, cleanly - and I dug into [why costs are not going down](/ai/token-economics-why-costs-arent-going-down/) the way the headline price-per-token numbers suggest. Around that sit the questions of [running models locally versus in the cloud](/ai/local-vs-cloud-ai-2026/), the hardware war deciding who can serve intelligence cheaply, and the [data-centre power crunch](/ai/ai-energy-crisis-data-center-power/) that turns out to be a hard physical ceiling on the whole thing.
 
 What I have taken from it: cost is a design constraint, not an afterthought. The architecture decisions that look like pure engineering - which model tier, local or hosted, how much context - are economic decisions wearing engineering clothes.
 
@@ -76,7 +76,7 @@ What I have taken from it: cost is a design constraint, not an afterthought. The
 
 The fourth cluster is the counterweight to the frontier-model story. While the headlines track the largest models, the more interesting question for a practitioner is how small and how open you can go before quality actually breaks.
 
-I have looked at the [state of open-weight models](/ai/state-of-open-weight-models-2026/), the case for [small language models](/ai/small-language-models/) doing real work, the [fine-tuning landscape](/ai/fine-tuning-landscape-2026/), and [what RAG won and lost](/ai/rag-in-2026-what-won-what-lost/) as a way of getting capability without scale. The pattern is consistent: a surprising amount of production work does not need a frontier model, and the skill is knowing which work does.
+I have looked at the [state of open-weight models](/ai/state-of-open-weight-models-2026/), the case for [small language models](/ai/small-language-models/) doing real work, the fine-tuning landscape, and what RAG won and lost as a way of getting capability without scale. The pattern is consistent: a surprising amount of production work does not need a frontier model, and the skill is knowing which work does.
 
 ------------------------------------------------------------------------
 
@@ -100,13 +100,13 @@ An agent can reach a correct answer through a reckless trajectory - calling the 
 
 The third move is the most speculative, and the one I think is most underrated. Almost everything I have researched so far assumes a model whose understanding of the world arrives through text. That assumption has carried us a long way. I do not think it carries us all the way.
 
-A model trained only on language has no reliable internal simulator of physical and causal reality - it has a statistical shadow of one. World models, in the sense David Ha and Jürgen Schmidhuber set out in their [2018 "World Models" paper](https://arxiv.org/abs/1803.10122) and the line of work that followed, are systems that learn a predictive model of an environment and can reason and plan inside it. That capability is what stands between today's agents and ones that can act competently in physical space, which is also why it connects directly to [humanoid robotics](/ai/humanoid-robotics-2026/) and [multimodal AI that goes beyond vision](/ai/multimodal-ai-beyond-vision/). I wrote up the first pass in [World Models: What Comes After the Language-Only Era](/ai/world-models-after-language/).
+A model trained only on language has no reliable internal simulator of physical and causal reality - it has a statistical shadow of one. World models, in the sense David Ha and Jürgen Schmidhuber set out in their [2018 "World Models" paper](https://arxiv.org/abs/1803.10122) and the line of work that followed, are systems that learn a predictive model of an environment and can reason and plan inside it. That capability is what stands between today's agents and ones that can act competently in physical space, which is also why it connects directly to [humanoid robotics](/ai/humanoid-robotics-2026/) and multimodal AI that goes beyond vision. I wrote up the first pass in [World Models: What Comes After the Language-Only Era](/ai/world-models-after-language/).
 
 ### 4. The agent economy
 
 The fourth move is what happens when the first three mature. Once agents are reliable enough to trust, secured enough to give real access, and evaluated well enough to deploy, the next question is what they do with each other.
 
-I have started on this with a look at [agents that buy and sell](/ai/agent-economy-buy-sell/) and the broader idea of [the engineer as a curator of agent-first systems](/ai/agent-first-architecture-engineer-as-curator/). The open questions are concrete: what does identity, payment, and reputation look like when the transacting parties are software; what contracts are enforceable; and what infrastructure has to exist before machine-to-machine commerce is anything other than a demo. This is further out than the other three, but it is the logical destination, so it belongs on the map.
+I have started on this with a look at agents that buy and sell and the broader idea of [the engineer as a curator of agent-first systems](/ai/agent-first-architecture-engineer-as-curator/). The open questions are concrete: what does identity, payment, and reputation look like when the transacting parties are software; what contracts are enforceable; and what infrastructure has to exist before machine-to-machine commerce is anything other than a demo. This is further out than the other three, but it is the logical destination, so it belongs on the map.
 
 ### A planning input, not a forecast: AGI timelines
 

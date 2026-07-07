@@ -6,7 +6,7 @@ aliases: ["ai/open-weight-models-renaissance"]
 tags: ["ai", "open-source", "llama", "qwen", "mistral", "deepseek", "gemma"]
 description: "A grounded look at where the open-weight LLM ecosystem actually stands in May 2026 - Llama 4, Qwen 3.5, DeepSeek V4, Gemma 4, Mistral Medium 3.5 - what each family is best at, where the licences land, and how close the gap with the frontier proprietary models has actually closed."
 cover:
-  image: /assets/images/ai/state-of-open-weight-models-2026.jpg
+  image: /assets/images/ai/open-weight-models-renaissance.png
   alt: The State of Open-Weight Models in 2026 Banner
 ---
 

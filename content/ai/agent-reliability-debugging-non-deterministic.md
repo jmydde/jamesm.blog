@@ -102,6 +102,5 @@ The teams that have not done this are running agents in production while pretend
 
 - [AI Agents That Actually Work](/ai/ai-agents-that-actually-work/)
 - [AI Reliability Is Weird](/ai/ai-reliability-is-weird/)
-- [Observability for LLM Applications](/devops/observability-for-llm-applications/)
 - [AI Evals Are Broken](/ai/ai-evals-are-broken/)
 - [Agent-First Architecture: The Engineer as Curator](/ai/agent-first-architecture-engineer-as-curator/)

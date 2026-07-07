@@ -29,7 +29,7 @@ Agents broke that model. In an agentic run, the model is called in a loop. Each 
 
 - The system prompt and behaviour instructions
 - A list of tool definitions, often long and verbose
-- Whatever the [retrieval layer](/ai/rag-in-2026-what-won-what-lost/) pulled in
+- Whatever the retrieval layer pulled in
 - The full transcript of every tool call and every tool result so far
 - The model's own intermediate reasoning and plans
 - Any [persistent memory](/ai/home-ai-agent-memory-that-lasts/) loaded from previous sessions
@@ -57,13 +57,13 @@ Context engineering, in practice, is the management of four things. Get these ri
 
 Retrieval decides which external information enters the window. The old reflex was to pull generously - grab the top 20 chunks, paste them all in, let the model sort it out. With a budget mindset, that is backwards. Every irrelevant chunk is a distractor, and Chroma's work shows distractors hurt even when the answer is also present.
 
-The pattern that works is to retrieve less and retrieve later. Pull in a small number of high-precision results, and prefer **just-in-time retrieval** - let the agent fetch a document at the step it needs it, rather than front-loading everything it might conceivably want. A [reranking](/ai/rag-in-2026-what-won-what-lost/) step that trims ten candidates to the three that matter is worth more than a wider net. Precision beats recall when recall costs you accuracy elsewhere.
+The pattern that works is to retrieve less and retrieve later. Pull in a small number of high-precision results, and prefer **just-in-time retrieval** - let the agent fetch a document at the step it needs it, rather than front-loading everything it might conceivably want. A reranking step that trims ten candidates to the three that matter is worth more than a wider net. Precision beats recall when recall costs you accuracy elsewhere.
 
 ### Memory: what persists across runs
 
 The window is wiped between runs. Memory is what survives. This is the layer that lets an agent remember your preferences, the decisions made yesterday, and the state of a long project - without dragging the entire history back into context every time.
 
-The mistake is to treat memory as "append the whole transcript to a file and reload it." That just moves the bloat. Good memory is *structured and selective*: durable facts, not raw logs. A short profile, a list of decisions with rationale, the current state of the task - written deliberately, retrieved deliberately. I wrote about [building this for my own home agent](/ai/home-ai-agent-memory-that-lasts/), and the lesson that stuck was that memory is a curation problem too. What you choose not to remember matters as much as what you keep. Anthropic and others now ship dedicated memory tools for exactly this reason, and they are covered in more depth in [what actually works with Claude's memory in 2026](/ai/claude-long-context-and-memory-2026/).
+The mistake is to treat memory as "append the whole transcript to a file and reload it." That just moves the bloat. Good memory is *structured and selective*: durable facts, not raw logs. A short profile, a list of decisions with rationale, the current state of the task - written deliberately, retrieved deliberately. I wrote about [building this for my own home agent](/ai/home-ai-agent-memory-that-lasts/), and the lesson that stuck was that memory is a curation problem too. What you choose not to remember matters as much as what you keep. Anthropic and others now ship dedicated memory tools for exactly this reason, and they are covered in more depth in what actually works with Claude's memory in 2026.
 
 ### Tool results: what tools dump back
 
@@ -121,5 +121,3 @@ Prompt engineering was a real skill, and the parts of it that mattered - clarity
 - [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
 - [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
 - [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/)
-- [Claude's Memory and Long Context in 2026: What Actually Works](/ai/claude-long-context-and-memory-2026/)
-- [RAG in 2026: What Won, What Lost](/ai/rag-in-2026-what-won-what-lost/)

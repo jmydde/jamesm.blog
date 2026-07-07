@@ -6,7 +6,7 @@ type: reference
 tags: ["ai", "expertise", "career", "future-of-work"]
 description: "Reading path on expertise after AI - credentials, judgement, taste, engineering roles, and what being expert might mean by 2030."
 cover:
-  image: /assets/images/ideas/what-it-means-to-be-expert-in-2030.jpg
+  image: /assets/images/ai/meaning-of-work-abundance.jpg
   alt: Expertise and work reading path
 slug: "expertise-and-work"
 ---

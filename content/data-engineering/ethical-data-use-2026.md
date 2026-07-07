@@ -105,8 +105,6 @@ The thing I keep coming back to is that ethical data use stopped being a values 
 
 ## Related Reading
 
-- [Data Contracts: From Buzzword to Production Practice in 2026](/data-engineering/data-contracts-in-production/) - the contract-driven approach that carries consent, ownership, and purpose metadata into production.
-- [Data Quality in the Lakehouse](/data-engineering/data-quality-in-the-lakehouse/) - the quality discipline that ethical-property monitoring extends directly from.
 - [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice/) - the governance layer where consent tags, row filters, and least-privilege access are actually enforced.
 - [The Catalog Layer Is the New Battleground](/data-engineering/the-catalog-layer-is-the-new-battleground/) - the catalog wars that decide where ethical enforcement lives in the stack.
 - [AI-Native Pipelines: What Changes When Your Consumer Is an LLM, Not a Dashboard](/data-engineering/ai-native-pipelines/) - the consumer-side shift that makes training-data ethics a pipeline concern.

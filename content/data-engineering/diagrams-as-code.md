@@ -715,6 +715,5 @@ Pick one diagram you currently maintain in Lucidchart or Confluence. Convert it.
 
 - [The Modern Lakehouse Stack](/data-engineering/modern-lakehouse-stack/)
 - [The Catalog Layer Is the New Battleground](/data-engineering/the-catalog-layer-is-the-new-battleground/)
-- [Data Contracts in Production](/data-engineering/data-contracts-in-production/)
 - [AI-Native Pipelines](/data-engineering/ai-native-pipelines/)
 - [Unity Catalog in Practice](/data-engineering/unity-catalog-in-practice/)

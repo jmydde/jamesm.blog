@@ -70,6 +70,4 @@ That is not a complaint. Incremental is how computer music actually gets better.
 
 - [AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion](/music-production/ai-music-tools-shootout-2026/)
 - [Suno in May 2026: where the platform actually is](/music-production/suno-may-2026/)
-- [Stem Separation and Source Isolation in 2026](/music-production/stem-separation-source-isolation-2026/)
-- [Spatial Audio for Music Producers](/music-production/spatial-audio-for-music-producers/)
 - [Best Music Production Software 2026](/music-production/best-music-production-software-2026/)
