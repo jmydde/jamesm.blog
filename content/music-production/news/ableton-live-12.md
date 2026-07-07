@@ -4,6 +4,9 @@ date: 2024-03-05T21:10:00+01:00
 draft: false
 tags: ['music production', 'ableton', 'ableton live', 'daw', 'news']
 description: "Overview of Ableton Live 12 features, new devices, MIDI tools, pricing, and learning resources."
+cover:
+  image: /assets/images/music-production/music-production.png
+  alt: Ableton Live 12 release
 ---
 
 ## Overview
