@@ -9,3 +9,10 @@ cover:
   alt: Phrases to teach your kids
 ---
 {{< x user="giftofdad" id="1663539612890058752" >}}
+
+## Related Reading
+
+- [Powerful Visuals About Psychology & Life](/personal-development/tweets/visuals-about-life/)
+- [Habits of Intelligent People](/personal-development/tweets/habits-intelligent-people/)
+- [The Most Valuable Skill Is Knowing What Not To Build](/personal-development/knowing-what-not-to-build/)
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)

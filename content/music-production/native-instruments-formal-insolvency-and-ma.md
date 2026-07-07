@@ -78,3 +78,10 @@ We're past the initial shock. Now comes the harder part: watching how the indust
 ---
 
 *This post reflects the status of Native Instruments as of early April 2026. The M&A process is ongoing, and more details will emerge in coming weeks and months. Any updates to the company's situation will likely be significant enough to warrant their own follow-up.*
+
+## Related Reading
+
+- [Physical Modeling Synthesis: The Underrated Future of Sound Design](/music-production/physical-modeling-synths/)
+- [Native Instruments: A Turning Point in Music Tech](/music-production/native-instruments-preliminary-insolvency/)
+- [Native Instruments Traktor MX2](/music-production/ni-traktor-mx2/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)

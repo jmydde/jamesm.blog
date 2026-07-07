@@ -129,3 +129,10 @@ Below is a list of my favourite music production YouTube channels
 - [Woody Piano Shack](https://www.youtube.com/@WoodyPianoShack/) - music production & reviews
 - [Yamaha Global](https://www.youtube.com/@yamahaglobal) - official Yamaha Corporation YouTube channel
 - [Yamaha Music Europe](https://www.youtube.com/@YamahaMusicEurope) - official YouTube Channel of Yamaha Music Europe
+
+## Related Reading
+
+- [Music Production Websites](/music-production/websites/)
+- [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)
+- [Why I Play & Create Music Intuitively](/music-production/why-i-play-and-create-music-intuitively/)

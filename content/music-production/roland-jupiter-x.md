@@ -40,3 +40,10 @@ This breadth of features comes at a cost - both in terms of price and complexity
 The Jupiter‑X is ideal for **producers and performers** seeking one keyboard that can do it all: classic analog emulations, modern digital textures, rhythm parts, layered patches, and expressive live control. It rewards time and exploration, making it a powerful tool for evolving creative needs.
 
 If your focus is strictly vintage analog sound or ultra-deep sound design without a performance angle, more specialized hardware or software synths might be more cost-effective. However, for a hands-on, versatile powerhouse that bridges the past and the present, the Jupiter‑X stands out as a compelling choice.
+
+## Related Reading
+
+- [Roland Juno‑X Review: A Modern Reinterpretation of a Classic Synth](/music-production/roland-juno-x/)
+- [Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX](/music-production/using-mc-707-as-midi-brain-for-modx-m/)
+- [Music Production: Mobile Apps for iPad and iPhone](/music-production/mobile-apps-ipad-iphone/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)

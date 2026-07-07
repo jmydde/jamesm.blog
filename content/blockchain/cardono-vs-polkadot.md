@@ -20,3 +20,10 @@ Charles Hoskinson is the founder of Cardano, a co-founder of Ethereum, a mathema
 ## Discussion
 
 {{< youtube hM10jjMvpSg >}}
+
+## Related Reading
+
+- [Blockchain & Web3 Courses](/blockchain/courses/)
+- [Onchain AI Agents - Hype, Reality, and Where the Money Actually Flows](/blockchain/onchain-ai-agents-hype-reality/)
+- [Five AI Tokens Worth Understanding in 2026 (And One You're Probably Missing)](/blockchain/ai-tokens-2026/)
+- [Blockchain & Crypto Resources](/blockchain/links/)

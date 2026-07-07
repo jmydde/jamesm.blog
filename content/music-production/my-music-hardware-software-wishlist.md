@@ -195,3 +195,10 @@ cover:
 - [UVI](https://www.uvi.net/)
   - [IRCAM Prepared Piano 2](https://www.uvi.net/en/pianos-keyboards/ircam-prepared-piano-2.html)
   - [IRCAM Solo Instruments 2](https://www.uvi.net/ircam-solo-instruments-2.html) 
+
+## Related Reading
+
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)
+- [Music Production: Mobile Apps for iPad and iPhone](/music-production/mobile-apps-ipad-iphone/)
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Music Production Websites](/music-production/websites/)

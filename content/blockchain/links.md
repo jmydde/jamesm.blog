@@ -44,3 +44,10 @@ Explore these trusted YouTube channels covering blockchain, cryptocurrencies, We
 ### Bitcoin-Focused
 
 - **[Orange Pill](https://www.youtube.com/@orangepill/)**  -  Long-form Bitcoin content by Max Keiser & Stacy Herbert, creators since 2011
+
+## Related Reading
+
+- [Blockchain & Web3 Courses](/blockchain/courses/)
+- [Onchain AI Agents - Hype, Reality, and Where the Money Actually Flows](/blockchain/onchain-ai-agents-hype-reality/)
+- [Five AI Tokens Worth Understanding in 2026 (And One You're Probably Missing)](/blockchain/ai-tokens-2026/)
+- [Bitcoin](/blockchain/bitcoin/bitcoin/)

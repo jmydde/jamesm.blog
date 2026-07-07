@@ -34,3 +34,10 @@ And I have started to wonder whether the branching is the whole point - whether 
 > I should add one honest caveat to all of this. These are my views as they stand right now, and right now is the key phrase. I revise my own theories constantly, sometimes week to week, as I read further or understand a new idea, so what I have written here will very likely have shifted by the time you come across it. That does not trouble me - it is the part I love most. A theory is just a theory: something to be tested, pushed on, and actively tried to be proven wrong, and I would rather have mine fall over than turn out to be right by luck.
 
 And maybe that is part of why the idea sticks with me. It gives formal language to a feeling I have had for years, that the universe is not old and settled even by lunchtime. It is still arriving.
+
+## Related Reading
+
+- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/general/sean-carroll/)
+- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)
+- [Favourite Physicists](/general/favourite-physicists/)

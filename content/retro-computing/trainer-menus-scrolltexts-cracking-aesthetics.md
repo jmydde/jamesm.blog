@@ -250,3 +250,10 @@ That wasn't piracy. That was a thriving artistic scene that happened to attach i
 - 8BitSaint's YouTube channel - which preserves cracking intros and analyzes their technical implementation
 - Demoscene history documentaries - many early demo scene artists came directly from the cracking scene
 - *Pixels Raid* and other retrospectives on Amiga and C64 demo and cracking culture
+
+## Related Reading
+
+- [The SID Chip: Engineering the Most Iconic Sound in Computing History](/retro-computing/sid-chip-most-iconic-sound/)
+- [The Demoscene: Where Art Met Assembly](/retro-computing/the-demoscene-where-art-met-assembly/)
+- [What the Amiga Got Right (That We're Still Copying)](/retro-computing/what-the-amiga-got-right-that-were-still-copying/)
+- [When 8-bit Computers Taught An Entire Nation To Code](/retro-computing/8-bit-coding/)

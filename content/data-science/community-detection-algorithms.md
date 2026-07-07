@@ -224,3 +224,9 @@ That's a signal you can trust.
 The key insight for 2026: Community detection is now a standard tool in the data scientist's toolkit. You're not doing cutting-edge research using these algorithms - you're solving practical problems with proven techniques.
 
 The next time you need to understand the structure of a network, find natural groupings, or set up recommendations, reach for community detection. The algorithms will do the heavy lifting.
+
+## Related Reading
+
+- [Graph Algorithms Explained: PageRank, Centrality, and Why They Matter](/data-science/graph-algorithms-pagerank-centrality/)
+- [Scaling Graph Algorithms: From Prototypes to Production](/data-science/scaling-graph-algorithms/)
+- [The Causal Inference Comeback: Why Correlation-Era ML Hit a Wall](/data-science/causal-inference-comeback/)

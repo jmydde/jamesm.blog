@@ -120,3 +120,10 @@ A detailed comparison of two flagship 88-key MIDI controllers aimed at serious p
 |----------------|-----|
 | **Choose Arturia KeyLab 88 MK3** | A flexible, hardware-rich controller great for DAW work, sound design, playing, and broad plugin compatibility. |
 | **Choose NI Kontrol S88 MK3** | The definitive controller for Komplete, Kontakt, and NKS libraries, with unbeatable browsing and parameter integration. |
+
+## Related Reading
+
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)
+- [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)
+- [Yamaha MODX M8 vs Arturia AstroLab 88](/music-production/modx-m8-vs-astrolab-88/)
+- [Roland Fantom EX](/music-production/roland-fantom-ex/)

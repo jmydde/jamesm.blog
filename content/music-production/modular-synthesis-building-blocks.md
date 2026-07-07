@@ -148,3 +148,10 @@ The building blocks are simple. The combinations are infinite.
 - [VCV Rack](https://vcvrack.com/) - Free software modular synth. A perfect learning tool before you buy hardware.
 - [Patch Me In](https://www.patchmein.com/) - Community patches and learning resources.
 
+
+## Related Reading
+
+- [The Best Software Synths of 2026: From AI-Native to Analog Perfection](/music-production/best-software-synths-2026/)
+- [Physical Modeling Synthesis: The Underrated Future of Sound Design](/music-production/physical-modeling-synths/)
+- [Music Production Blogs](/music-production/blogs/)
+- [u-he Zebra 3: The Modular Beast Unleashed](/music-production/u-he-zebra-3-the-modular-beast-unleashed/)

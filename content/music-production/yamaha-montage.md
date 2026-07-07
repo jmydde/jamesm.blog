@@ -100,3 +100,10 @@ Here are a few alternative workstation synths to consider
 
 ### [2023-10-10] Yamaha | Montage M Sound Demo
 {{< youtube fN59j2cqwoI >}}
+
+## Related Reading
+
+- [The Yamaha Montage M: 6 Months In Real World Usage](/music-production/yamaha-montage-m-six-months/)
+- [Yamaha MODX M8 vs Yamaha Montage M8X](/music-production/modx-m8-vs-montage-m8x/)
+- [Hybrid Systems: Montage + MC-707 Architecture and Workflow](/music-production/hybrid-systems-montage-mc-707/)
+- [Roland Fantom EX](/music-production/roland-fantom-ex/)

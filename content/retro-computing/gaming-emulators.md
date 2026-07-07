@@ -142,3 +142,10 @@ The arrival of game emulators on iOS marks a significant shift in mobile gaming.
 ---
 
 **Note**: Always ensure you're following legal guidelines and respecting copyright when using emulators and ROMs.
+
+## Related Reading
+
+- [Favourite Computers, Consoles & Mobiles](/retro-computing/favourite-computers/)
+- [Favourite Computer Games](/retro-computing/favourite-computer-games/)
+- [Copy Protection Wars: The Ingenious Schemes Of 1980s Software](/retro-computing/copy-protection-wars/)
+- [How BASIC Shaped a Generation of Programmers](/retro-computing/how-basic-shaped-a-generation/)

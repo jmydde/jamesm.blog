@@ -90,3 +90,10 @@ You've felt what happens when art meets assembly.
 - **Hubbard's Commodore Music**  -  Rob Hubbard composed some of the most beautiful SID chip music ever made. These are engineering and art in perfect balance.
 - **Lemon64**  -  Comprehensive archive of Commodore 64 demos, with comments from the original coders.
 - **Atari ST demos**  -  Often overlooked, but the Atari ST demoscene produced some of the most technically impressive work.
+
+## Related Reading
+
+- [Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene](/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/)
+- [How BASIC Shaped a Generation of Programmers](/retro-computing/how-basic-shaped-a-generation/)
+- [When 8-bit Computers Taught An Entire Nation To Code](/retro-computing/8-bit-coding/)
+- [From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About](/retro-computing/basic-to-claude-code-2026/)

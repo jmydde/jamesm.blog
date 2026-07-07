@@ -355,3 +355,10 @@ Software instruments, effects and soundware leveraging research-led design.
 | Vendor | Library | Notes |
 |---|---|---|
 | [Samples From Mars](https://samplesfrommars.com/) | [All The Samples From Mars](https://samplesfrommars.com/products/all-products-from-mars) | 62 GB collection of 75 sample packs covering rare/vintage drum machines, synths, samplers, custom vinyl and acoustic instruments. Discovered via [John Selway](https://soundcloud.com/johnselway) of [343 Labs](https://www.youtube.com/@343labs) on his [DRIFT tutorial livestream](https://www.youtube.com/watch?v=6M8DRtkuU3c). Includes: 101, 2600, 360, 505, 606, 626, 707, 727, 808, 909, ACID, ARP OMNI, CR-78, DMX, DR BOHM, DR SAMPLE, DRUMTRAX, DRUMULATOR, DX, DX100, JUPITER DRUMS, KAWAII DREAMS, LINDRUM, LINN60, LM1, MICRO, MINI, MINIPOPS SNACKS, MIRAGE, MODULAR (CREATIONS / DRUMS / DRUM LOOPS), MPC1 / 2000 / 3000 / 60, MR10, MS10, OB, PRIVATE RESERVE, PULSAR, RHYTHM, S612, S950, SDS800, SDSV, SH5, SID, SK1, SOVIET SYNTHS, SP 1200, SP 909, SYNARE, SYS100M, TAPE FRAGMENTS, TOM, TRUMPET FRAGMENTS, VINYL DRUM MACHINES / DRUMS / SYNTHS, VISCOUNT, VOYETRA, VP-330, WASP, WENDEL, FROM MARS |
+
+## Related Reading
+
+- [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)
+- [Music Production: Mobile Apps for iPad and iPhone](/music-production/mobile-apps-ipad-iphone/)
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Music Production Websites](/music-production/websites/)

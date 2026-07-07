@@ -104,3 +104,10 @@ Reentry isn't a failure to slow down - it *is* the act of slowing down.
 The atmosphere is effectively a giant, invisible brake pad wrapped around the planet. Spacecraft simply lean into it, trading enormous speed for manageable heat in a controlled, well-understood way.
 
 It looks violent from the outside. But it remains one of the most elegant solutions in all of aerospace engineering.
+
+## Related Reading
+
+- [NASA Artemis II](/space/nasa-artemis-ii/)
+- [SpaceX Starship vs NASA SLS: Two Visions for Deep Space](/space/spacex-starship-vs-nasa-sls/)
+- [Artemis II: Breaking the Distance Record](/space/artemis-ii-distance-record/)
+- [Artemis III Lander Architecture - What Could Still Go Wrong](/space/artemis-iii-lander-architecture/)

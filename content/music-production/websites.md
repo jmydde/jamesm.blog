@@ -22,3 +22,10 @@ cover:
 - [Sonic Academy](https://www.sonicacademy.com/)
 - [Steinberg](https://www.steinberg.net/education/certified-training/)
 - [Udemy](https://www.udemy.com/)
+
+## Related Reading
+
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)
+- [Why I Play & Create Music Intuitively](/music-production/why-i-play-and-create-music-intuitively/)

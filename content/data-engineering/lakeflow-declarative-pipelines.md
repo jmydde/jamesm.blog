@@ -442,3 +442,10 @@ That's the promise of Lakeflow.
 ---
 
 *Last Updated: April 7, 2026*
+
+## Related Reading
+
+- [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
+- [Modern Data Engineering on Databricks (2026 Guide)](/data-engineering/modern-data-engineering-databricks-2026/)
+- [Databricks Training & Certification](/data-engineering/databricks-training-certification/)
+- [ETL Tools & Data Integration Platforms](/data-engineering/etl-tools/)

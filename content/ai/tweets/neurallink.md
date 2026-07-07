@@ -9,3 +9,10 @@ cover:
   alt: Neuralink brain-computer interface
 ---
 {{< x user="neuralink" id="1661857379460468736" >}}
+
+## Related Reading
+
+- [OpenAI has released GPT-4](/ai/tweets/gpt-4/)
+- [Auto-GPT is now able to write it's own code](/ai/tweets/auto-gpt/)
+- [Hitting Claude Code Limits? Here’s the Setup I’m Moving Toward](/ai/claude_code_limits-hybrid_ai_stack/)
+- [Cline + Kanban: Autonomous Development Meets Project Management](/ai/cline-kanban/)

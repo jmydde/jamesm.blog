@@ -97,3 +97,10 @@ No single defense prevents all attacks. Organizations must implement defense-in-
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - Standards and guidelines
 - [CISA Cyber Alerts](https://www.cisa.gov/news-events/alerts) - Current threat intelligence
 - [CIS Controls](https://www.cisecurity.org/controls) - Critical safeguards
+
+## Related Reading
+
+- [List of DevOps Courses](/devops/devops-courses/)
+- [AWS re:Invent Slides (2022)](/devops/aws-reinvent-2022-slides/)
+- [Kubernetes in 2026 - Is It Still Worth the Complexity Tax?](/devops/kubernetes-2026-complexity-tax/)
+- [DevOps Best Practices](/devops/best-practices/)

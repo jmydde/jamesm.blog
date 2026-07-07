@@ -21,3 +21,10 @@ cover:
 ## Personal Blogs
 Nicely formatted blogs
 - [oostens.me](https://oostens.me/) - personal page / CV / blog
+
+## Related Reading
+
+- [The Hindley Street Country Club](/general/the-hindley-street-country-club/)
+- [The Exponential Curve: Understanding Human Advancement Acceleration](/general/human-advancement-acceleration/)
+- [Classic TV Shows](/general/classic-tv-shows/)
+- [Favourite TV & Movies](/general/favourite-tv-movies/)

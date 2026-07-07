@@ -88,3 +88,10 @@ cover:
 #### YouTube Videos
 ##### Polyform Max for Live Edition 1.1 – Overview Video
 {{< youtube damGaSbib4E >}}
+
+## Related Reading
+
+- [Music Production: Mobile Apps for iPad and iPhone](/music-production/mobile-apps-ipad-iphone/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)

@@ -117,3 +117,10 @@ cover:
 | SUS201 | Architecting for Sustainability | 200 - Intermediate AWS |
 | SUS301 | How Channel 4 Optimize for Sustainability with AWS Well-Architected | 300 - Advanced AWS |
 | SUS302 | Carbon emissions reporting using AWS Modern Data Architecture | 300 - Advanced AWS |
+
+## Related Reading
+
+- [AWS Summit London (2023) - Agenda Announcement](/devops/aws-summit-2023/)
+- [AWS Summit London (2023) - Video Highlights](/devops/aws-summit-2023-videos/)
+- [AWS re:Invent Slides (2022)](/devops/aws-reinvent-2022-slides/)
+- [DevOps Conferences](/devops/devops-conferences/)

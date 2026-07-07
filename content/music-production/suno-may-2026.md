@@ -64,3 +64,10 @@ The combination that finally feels coherent is Voices + Custom Model + Studio: a
 ## Where this is heading
 
 The next milestone is the post-Warner licensed model, due later in 2026. When that ships, the existing model line is deprecated, the legal posture cleans up considerably, and the artist-opt-in system goes live in earnest. Until then, May 2026 is a useful window: v5.5 is mature, the personalisation features are real, and the platform is still operating under terms that make casual experimentation easy.
+
+## Related Reading
+
+- [AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion](/music-production/ai-music-tools-shootout-2026/)
+- [Music Production News - May 2026: Superbooth, AI Settlements, and the Updates That Matter](/music-production/music-production-news-may-2026/)
+- [Suno Studio is here](/music-production/suno-studio/)
+- [Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?](/music-production/suno-mikey-shulman/)

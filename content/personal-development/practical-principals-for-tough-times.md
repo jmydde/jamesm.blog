@@ -80,3 +80,10 @@ In turbulent periods of life, a few clear principles can make complex decisions 
   After a difficult chapter, capture what worked - key steps, order, and pitfalls - so the next time you face upheaval, you have a starting template instead of a blank page.
 
 These principles can be revisited whenever life tilts off balance: as a checklist, a planning tool, or a quiet reminder that stability is usually built through a series of clear, deliberate moves rather than one grand decision.
+
+## Related Reading
+
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
+- [From Awakening to Action: Building the Life You've Discovered](/personal-development/from-awakening-to-action/)
+- [The Universe Has a Plan for You](/personal-development/the-universe-has-a-plan-for-you/)
+- [The Most Valuable Skill Is Knowing What Not To Build](/personal-development/knowing-what-not-to-build/)

@@ -187,3 +187,10 @@ That lesson transcends the chip itself. It says something about craftsmanship, a
 - Chiptune archives and communities dedicated to preserving and creating SID music
 - Modern SID emulation projects (like Resid, which reverses and recreates the SID's behavior in software)
 - Academic papers on synthesizer architecture and the technical innovations in the SID
+
+## Related Reading
+
+- [Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene](/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/)
+- [When 8-bit Computers Taught An Entire Nation To Code](/retro-computing/8-bit-coding/)
+- [How BASIC Shaped a Generation of Programmers](/retro-computing/how-basic-shaped-a-generation/)
+- [The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground](/retro-computing/the-postal-pirates/)

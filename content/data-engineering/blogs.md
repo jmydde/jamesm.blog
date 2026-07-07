@@ -62,3 +62,10 @@ cover:
 * [dbt Developer Blog](https://docs.getdbt.com/blog) - Analytics engineering patterns and practical SQL modelling guidance.
 * [Tobiko / SQLMesh Blog](https://tobikodata.com/blog) - Next-generation transformation framework with virtual environments.
 * [Locally Optimistic](https://locallyoptimistic.com/) - Long-form posts on analytics engineering culture and practice.
+
+## Related Reading
+
+- [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
+- [ETL Tools & Data Integration Platforms](/data-engineering/etl-tools/)
+- [Lakeflow Declarative Pipelines: From DLT to Production](/data-engineering/lakeflow-declarative-pipelines-2026/)
+- [Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over](/data-engineering/iceberg-vs-delta-vs-hudi-2026/)

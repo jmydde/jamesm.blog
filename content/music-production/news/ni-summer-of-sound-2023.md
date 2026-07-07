@@ -22,3 +22,10 @@ See the full details here;
 - https://www.native-instruments.com/en/catalog/summer-of-sound-2023/komplete-bundles/
 
 {{< figure src="/music-production/news/images/ni-summer-of-sound-2023.jpg" title="Summer of Sound Sale (2023)" >}}
+
+## Related Reading
+
+- [News: Arturia Collection X](/music-production/news/arturia-v-collection-x/)
+- [News: Arturia FX Collection 4](/music-production/news/arturia-fx-collection-4/)
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Music Production Websites](/music-production/websites/)

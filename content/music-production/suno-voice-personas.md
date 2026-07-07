@@ -66,3 +66,10 @@ To see how Voice Personas work in practice and hear the difference compared to l
 **Learn more by watching the demo.**
 
 {{< youtube 09pG2UFHra4 >}}
+
+## Related Reading
+
+- [Suno in May 2026: where the platform actually is](/music-production/suno-may-2026/)
+- [Suno Studio is here](/music-production/suno-studio/)
+- [AI Music Tools Shootout 2026: Suno vs Udio vs AIVA vs Riffusion](/music-production/ai-music-tools-shootout-2026/)
+- [Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?](/music-production/suno-mikey-shulman/)

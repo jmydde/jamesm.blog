@@ -36,3 +36,10 @@ Replace processor, battery and hard drive as technology improves |
 
 ### 5 Cool Features of ABLETON PUSH 3
 {{< youtube VLxOPnCumjM >}}
+
+## Related Reading
+
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Connecting Claude to Ableton: Why the New Knowledge Connector Matters](/music-production/claude-ableton-connector/)
+- [Music Production Websites](/music-production/websites/)
+- [Music Production: Ableton Live 12](/music-production/news/ableton-live-12/)

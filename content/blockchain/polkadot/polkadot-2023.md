@@ -71,3 +71,10 @@ A comprehensive collection of major Polkadot developments, announcements, and in
 
 **Gavin Wood Sees Polkadot as a Global Supercomputer**  -  Polkadot Decoded 2023 (June 30)
 {{< youtube GIB1WeVuJD0 >}}
+
+## Related Reading
+
+- [Polkadot News 2024](/blockchain/polkadot/polkadot-2024/)
+- [Polkadot 2026: From Infrastructure to Applications](/blockchain/polkadot/polkadot-2026/)
+- [Polkadot 2.0 One Year On - Did Agile Coretime Deliver?](/blockchain/polkadot-2-one-year-on/)
+- [Cardano vs Polkadot | Charles Hoskinson and Lex Fridman](/blockchain/cardono-vs-polkadot/)

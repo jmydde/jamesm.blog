@@ -245,3 +245,10 @@ Every programmer writing Python today is, in a sense, writing evolved BASIC - th
 - *The Mythical Man-Month* and other essays on software engineering that discuss BASIC's influence
 - *Code* by Charles Petzold - discusses the history of programming languages and BASIC's role
 - Python's design documentation, which explicitly credits BASIC's influence on accessibility-first language design
+
+## Related Reading
+
+- [The Demoscene: Where Art Met Assembly](/retro-computing/the-demoscene-where-art-met-assembly/)
+- [When 8-bit Computers Taught An Entire Nation To Code](/retro-computing/8-bit-coding/)
+- [The SID Chip: Engineering the Most Iconic Sound in Computing History](/retro-computing/sid-chip-most-iconic-sound/)
+- [Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene](/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/)

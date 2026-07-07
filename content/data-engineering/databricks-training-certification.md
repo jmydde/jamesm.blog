@@ -174,3 +174,10 @@ Design, build, and deploy Generative AI solutions with Databricks. *Latest track
 - **Associate certifications:** ~60-70% first-time pass rate with 4-8 weeks prep
 - **Professional certifications:** ~40-50% first-time pass rate with 8-12 weeks prep
 - **Retake policy:** $200 per attempt, retake after 2 weeks
+
+## Related Reading
+
+- [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
+- [Unity Catalog in Practice: Lessons From the Field](/data-engineering/unity-catalog-in-practice-2026/)
+- [Lakeflow Declarative Pipelines: From DLT to Production](/data-engineering/lakeflow-declarative-pipelines-2026/)
+- [Modern Data Engineering on Databricks (2026 Guide)](/data-engineering/modern-data-engineering-databricks-2026/)

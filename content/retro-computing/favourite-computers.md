@@ -199,3 +199,10 @@ Samsung's flagship with a cutting-edge display, triple camera array, and in-disp
 
 ### iPhone 13 Pro Max 128GB Graphite (2021)
 My current flagship iPhone, offering Pro-level features in a large package. The A15 Bionic processor is incredibly powerful, the camera system (with macro mode and ProRes video) is professional-grade, and the 120Hz ProMotion display is silky smooth. It's a device that feels both premium and practical for daily use and creative work.
+
+## Related Reading
+
+- [Favourite Computer Games](/retro-computing/favourite-computer-games/)
+- [Apple finally allows game emulators in the App Store](/retro-computing/gaming-emulators/)
+- [Copy Protection Wars: The Ingenious Schemes Of 1980s Software](/retro-computing/copy-protection-wars/)
+- [How BASIC Shaped a Generation of Programmers](/retro-computing/how-basic-shaped-a-generation/)

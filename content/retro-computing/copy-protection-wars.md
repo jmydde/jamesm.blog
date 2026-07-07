@@ -60,3 +60,10 @@ Yet, there is a certain charm missing from the modern experience. There was some
 *   **Don't Copy That Floppy:** The infamous 1992 anti-piracy rap video.
 *   **SimCity (SNES):** Used a massive sheet of red-tinted codes that was "copy-proof."
 *   **EarthBound:** Had one of the most brutal anti-piracy measures - it would let you play the whole game, but delete your save file right at the final boss if it detected a copy.
+
+## Related Reading
+
+- [The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground](/retro-computing/the-postal-pirates/)
+- [Compunet: Britain's Forgotten Pre-Internet Community](/retro-computing/compunet-britains-forgotten-pre-internet-community/)
+- [Favourite Computers, Consoles & Mobiles](/retro-computing/favourite-computers/)
+- [Favourite Computer Games](/retro-computing/favourite-computer-games/)

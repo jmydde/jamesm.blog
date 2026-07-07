@@ -55,3 +55,10 @@ Connect with the Web3 industry and find opportunities:
 - **[Web3.career](https://web3.career/)**  -  Dedicated job board and professional resources for Web3 developers, designers, and operators
 
 - **[Web3 Community Platforms](https://web3.university/)**  -  Networking opportunities and peer learning communities within the Web3 ecosystem
+
+## Related Reading
+
+- [Bitcoin](/blockchain/bitcoin/bitcoin/)
+- [The State of Blockchain in 2026](/blockchain/state-of-blockchain-2026/)
+- [Blockchain & Crypto Resources](/blockchain/links/)
+- [Quantum Computing: A Threat to Bitcoin?](/blockchain/quantum-threat/)

@@ -9,3 +9,10 @@ cover:
   alt: Habits of intelligent people
 ---
 {{< x user="SeekWiser_" id="1661681509500350465" >}}
+
+## Related Reading
+
+- [Powerful Visuals About Psychology & Life](/personal-development/tweets/visuals-about-life/)
+- [Phrases to Teach Your Kids](/personal-development/tweets/phrases-to-teach-your-kids/)
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
+- [3 Things Daily Reflection Practice](/personal-development/3things/)

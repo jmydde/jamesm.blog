@@ -75,3 +75,10 @@ cover:
 * [Joe Pesci](https://www.imdb.com/name/nm0000582/)
 * [Ray Liotta](https://www.imdb.com/name/nm0000501/)
 * [Robert De Niro](https://www.imdb.com/name/nm0000134/)
+
+## Related Reading
+
+- [Classic TV Shows](/general/classic-tv-shows/)
+- [The Hindley Street Country Club](/general/the-hindley-street-country-club/)
+- [General Links](/general/links/)
+- [Inside Anthropic: What The Bloomberg Documentary Reveals](/ai/anthropic-circuit-bloomberg-965-billion/)

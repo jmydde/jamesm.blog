@@ -101,3 +101,10 @@ I can't recommend these highly enough, they don't just track your weight they tr
   - 2.2" HD screen
   - 159 sports mode
   - Titanium alloy
+
+## Related Reading
+
+- [The Most Valuable Skill Is Knowing What Not To Build](/personal-development/knowing-what-not-to-build/)
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
+- [Stability in a Storm: Practical Principles for Tough Times](/personal-development/practical-principals-for-tough-times/)
+- [List of Personal Development Videos](/personal-development/videos/)

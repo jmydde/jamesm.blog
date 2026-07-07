@@ -32,3 +32,10 @@ Udemy offers affordable, practical courses across numerous personal development 
 
 #### Comprehensive Programs
 - [The Complete Personal Development Course - 22 Courses in 1](https://www.udemy.com/course/the-complete-personal-development-course/) - all-in-one personal development masterclass covering multiple areas of growth
+
+## Related Reading
+
+- [Math Academy: The Fastest Way to Actually Learn Maths](/personal-development/math-academy-the-fastest-way-to-learn-maths/)
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
+- [List of Personal Development Videos](/personal-development/videos/)
+- [The Quiet Discipline of Self-Honesty](/personal-development/the-quiet-discipline-of-self-honesty/)

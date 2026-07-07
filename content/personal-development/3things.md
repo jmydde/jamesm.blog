@@ -29,3 +29,10 @@ This practice rewires your brain to notice abundance rather than scarcity. Over 
 - Create a personal record of growth and gratitude
 
 **Source:** [Leyla Kazim's Substack - How to Slow Down the Passing of Time](https://leylakazim.substack.com/p/how-to-slow-down-the-passing-of-time)
+
+## Related Reading
+
+- [List of Personal Development Videos](/personal-development/videos/)
+- [The Quiet Discipline of Self-Honesty](/personal-development/the-quiet-discipline-of-self-honesty/)
+- [Powerful Visuals About Psychology & Life](/personal-development/tweets/visuals-about-life/)
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)

@@ -107,3 +107,10 @@ In the era of [spec-driven development](/ai/spec-driven-development/), where eve
 - [The Best MPE Controllers in 2026](/music-production/best-mpe-controllers-2026/)
 - [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/)
 - [Physical Modeling Synthesis: The Underrated Future of Sound Design](/music-production/physical-modeling-synths/)
+
+## Related Reading
+
+- [Hybrid Systems: Montage + MC-707 Architecture and Workflow](/music-production/hybrid-systems-montage-mc-707/)
+- [Top 5 Hardware Sequencers of 2025](/music-production/top-5-sequencers-2025/)
+- [Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX](/music-production/using-mc-707-as-midi-brain-for-modx-m/)
+- [The Best MPE Controllers in 2026](/music-production/best-mpe-controllers-2026/)

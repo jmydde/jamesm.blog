@@ -92,3 +92,10 @@ Here are a few alternative workstation synths to consider
 
 ### [2023-11-14] Roland Fantom EX Update - Will It Win Jack Over?
 {{< youtube MeBMfO9vTfc >}}
+
+## Related Reading
+
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)
+- [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)
+- [The Yamaha Montage M: 6 Months In Real World Usage](/music-production/yamaha-montage-m-six-months/)
+- [Yamaha Montage M](/music-production/yamaha-montage/)

@@ -9,3 +9,10 @@ cover:
   alt: OpenAI GPT-4 release
 ---
 {{< x user="Snapzu_Blogs" id="1636353726519689217" >}}
+
+## Related Reading
+
+- [Auto-GPT is now able to write it's own code](/ai/tweets/auto-gpt/)
+- [AI Explainers](/ai/explainers/)
+- [AI Tools & Frameworks](/ai/ai-tools/)
+- [Why the ChatGPT iPhone App Mattered](/ai/chatgpt-app-ios/)

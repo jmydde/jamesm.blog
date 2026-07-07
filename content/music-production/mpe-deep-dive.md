@@ -100,3 +100,10 @@ The thing to avoid is the trap of treating MPE as a spec to compare. The data is
 
 ### Littel Jam on Osmose, Roli Seaboard and Haken Continuum
 {{< youtube "k7TGUGeSSLk" >}}
+
+## Related Reading
+
+- [The Best MPE Controllers in 2026](/music-production/best-mpe-controllers-2026/)
+- [Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX](/music-production/using-mc-707-as-midi-brain-for-modx-m/)
+- [Hardware Sequencers in 2026: When Physical Beats Software](/music-production/hardware-sequencers-2026/)
+- [Hybrid Systems: Montage + MC-707 Architecture and Workflow](/music-production/hybrid-systems-montage-mc-707/)

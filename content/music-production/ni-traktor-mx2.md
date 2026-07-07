@@ -73,3 +73,10 @@ The Traktor MX2 isn’t just about mixing tracks. It’s about **performing idea
 
 ### How to start DJing with Traktor MX2 | Native Instruments
 {{< youtube jWZCB5MFYT4 >}}
+
+## Related Reading
+
+- [List of links for best DJ gear, controllers & software](/music-production/best-dj-gear/)
+- [Music: My Favourite Artists, Bands, DJs, Composers, Concerts & Theatre](/music-production/favourites/)
+- [Native Instruments: A Turning Point in Music Tech](/music-production/native-instruments-preliminary-insolvency/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)

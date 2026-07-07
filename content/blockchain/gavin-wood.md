@@ -55,3 +55,10 @@ Dr. Gavin James Wood is a pioneering computer scientist and entrepreneur who has
 
 **Gavin Wood on the $60M DAO Hack** (March 2017) - Historical perspective on early Ethereum challenges and security lessons
 {{< youtube jAfDkmEBFco >}}
+
+## Related Reading
+
+- [The State of Blockchain in 2026](/blockchain/state-of-blockchain-2026/)
+- [Polkadot 2.0 One Year On - Did Agile Coretime Deliver?](/blockchain/polkadot-2-one-year-on/)
+- [Blockchain & Web3 Courses](/blockchain/courses/)
+- [Polkadot 2026: From Infrastructure to Applications](/blockchain/polkadot/polkadot-2026/)

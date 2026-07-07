@@ -56,3 +56,10 @@ A collection of Richard Feynman's delightful explorations of everyday phenomena,
 {{< youtube tWr39Q9vBgo >}}
 
 Feynman's witty and penetrating critique of pseudoscience and the importance of intellectual honesty in scientific practice. Essential viewing for anyone interested in critical thinking and the scientific method.
+
+## Related Reading
+
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)
+- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/)
+- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
+- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/general/sean-carroll/)

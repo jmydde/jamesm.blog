@@ -58,3 +58,10 @@ We aren't just building pipelines anymore. We are building the nervous systems o
 - [Claude Code Just Got a Serious Code Review Feature](/ai/claude-code-review)
 - [GitHub Spec Kit and the Rise of SDD](/ai/github-spec-kit)
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)
+
+## Related Reading
+
+- [Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopting It](/devops/platform-engineering-2026/)
+- [CI/CD Tools](/devops/cicd-tools/)
+- [DevOps Conferences](/devops/devops-conferences/)
+- [List of DevOps Courses](/devops/devops-courses/)

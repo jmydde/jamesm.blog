@@ -117,3 +117,10 @@ Pick one, spend a month with it, and see whether it earns a place in your studio
 
 ### Your AI Music Isn't Safe Until You Do This
 {{< youtube fv38_Otkyio >}}
+
+## Related Reading
+
+- [Suno in May 2026: where the platform actually is](/music-production/suno-may-2026/)
+- [Music Production News - May 2026: Superbooth, AI Settlements, and the Updates That Matter](/music-production/music-production-news-may-2026/)
+- [Suno Studio is here](/music-production/suno-studio/)
+- [Mikey Shulman, CEO @Suno: The Future of Music, What is Gonna Happen?](/music-production/suno-mikey-shulman/)

@@ -149,3 +149,10 @@ These can act as a **master clock**, drive multiple devices, or create patterns 
 
 **Bottom line:**
 The TR-8S and MC-707 aren’t competitors - they’re **complements**. One is a performance-driven drum instrument, the other a complete groovebox studio. The right choice depends on whether you want to *play beats*, *build tracks*, or do both.
+
+## Related Reading
+
+- [Hybrid Systems: Montage + MC-707 Architecture and Workflow](/music-production/hybrid-systems-montage-mc-707/)
+- [Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX](/music-production/using-mc-707-as-midi-brain-for-modx-m/)
+- [Top 5 Grooveboxes of 2025](/music-production/top-5-grooveboxes-2025/)
+- [Music Production: Mobile Apps for iPad and iPhone](/music-production/mobile-apps-ipad-iphone/)

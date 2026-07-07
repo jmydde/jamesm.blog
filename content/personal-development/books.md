@@ -35,3 +35,10 @@ cover:
 - [The Subtle Art of Not Giving a F^ck](https://www.audible.co.uk/pd/The-Subtle-Art-of-Not-Giving-a-F-ck-Audiobook/) (Mark Manson)
 - [Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills](https://www.audible.co.uk/pd/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/) (Steven Novella)
 - [Zero to One](https://www.audible.co.uk/pd/Zero-to-One-Audiobook/) (Peter Thiel)
+
+## Related Reading
+
+- [Math Academy: The Fastest Way to Actually Learn Maths](/personal-development/math-academy-the-fastest-way-to-learn-maths/)
+- [Learning How to Learn in the Age of AI](/personal-development/learning-how-to-learn-in-the-age-of-ai/)
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
+- [List of Personal Development Videos](/personal-development/videos/)

@@ -180,3 +180,10 @@ We're still copying its homework. And we could be doing worse.
 - **Jay Miner interviews**  -  Archived interviews with the Amiga's designer
 - **Paula chip documentation**  -  Technical specs that remain remarkable for their sophistication
 - **"The Amiga: A History"** by Leonard Herman (partial)  -  Coverage of the Amiga's technical achievements
+
+## Related Reading
+
+- [Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene](/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/)
+- [When 8-bit Computers Taught An Entire Nation To Code](/retro-computing/8-bit-coding/)
+- [From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About](/retro-computing/basic-to-claude-code-2026/)
+- [Copy Protection Wars: The Ingenious Schemes Of 1980s Software](/retro-computing/copy-protection-wars/)

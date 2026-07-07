@@ -325,3 +325,9 @@ The biggest mistake teams make: Implementing graph algorithms for production wit
 Start with: What's my actual use case? Exact or approximate? Batch or streaming? Then choose the approach that fits.
 
 The algebra is the easy part. The scaling is where real expertise lives.
+
+## Related Reading
+
+- [Graph Algorithms Explained: PageRank, Centrality, and Why They Matter](/data-science/graph-algorithms-pagerank-centrality/)
+- [Community Detection Algorithms: Finding Clusters and Groups in Network Data](/data-science/community-detection-algorithms/)
+- [The Causal Inference Comeback: Why Correlation-Era ML Hit a Wall](/data-science/causal-inference-comeback/)

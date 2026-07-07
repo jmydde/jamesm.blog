@@ -74,3 +74,9 @@ That is so funny! :joy:
 
 # References
 - https://www.markdownguide.org/extended-syntax/
+
+## Related Reading
+
+- [Hugo Shortcode Syntax](/general/shortcodes/)
+- [DevOps Cheatsheets](/devops/cheatsheets/)
+- [DevOps Blogs](/devops/blogs/)

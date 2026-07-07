@@ -25,3 +25,9 @@ cover:
 | [DataTransforms.com](https://datatransforms.com/) | Data Transforms LTD      | Archived |                                                   |
 | [KatKinz.com](https://katkinz.com/)               | Katie's web site         | Archived |                                                   |
 | [PolkaCloud.io](https://polkacloud.io/)           | Polkadot Cloud ecosystem | Archived |                                                   |
+
+## Related Reading
+
+- [Markdown Syntax](/general/markdown/)
+- [Hugo Shortcode Syntax](/general/shortcodes/)
+- [DevOps GitHub Projects](/devops/github-projects/)

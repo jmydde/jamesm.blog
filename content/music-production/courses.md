@@ -96,3 +96,10 @@ Learn the entire process of music production, mixing and mastering from the worl
 ### Serum
 - [ADSR](https://www.adsrsounds.com/category/serum-tutorials/)
 - [Producertech](https://www.producertech.com/new-releases/165/serum-sound-design-masterclass)
+
+## Related Reading
+
+- [Music Production Blogs](/music-production/blogs/)
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Music Production Websites](/music-production/websites/)
+- [Blockchain & Web3 Courses](/blockchain/courses/)

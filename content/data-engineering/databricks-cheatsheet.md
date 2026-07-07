@@ -618,3 +618,10 @@ job = w.jobs.create(
 - **Community Resources**
   - [Databricks Cheat Sheet - Medium](https://mayur-saparia7.medium.com/databricks-cheat-sheet-1-a0d3e0f70065)
   - [Notebook Markdown Cheat Sheet](https://grabngoinfo.com/databricks-notebook-markdown-cheat-sheet/)
+
+## Related Reading
+
+- [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
+- [Modern Data Engineering on Databricks (2026 Guide)](/data-engineering/modern-data-engineering-databricks-2026/)
+- [Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over](/data-engineering/iceberg-vs-delta-vs-hudi-2026/)
+- [Real-Time Data Processing: Stream Processing vs Batch Processing](/data-engineering/stream-vs-batch-processing/)

@@ -179,3 +179,10 @@ Agile Coretime transforms Polkadot from "exclusive club with expensive entry" to
 Combined with Elastic Scaling (which lets parachains dynamically use multiple cores) and Asynchronous Backing (which reduces latency), Agile Coretime completes Polkadot's evolution from a research prototype to a practical, scalable infrastructure platform.
 
 The infrastructure is now in place. The question for 2026 and beyond is: will teams and users actually migrate? That depends on applications, not architecture.
+
+## Related Reading
+
+- [Polkadot 2.0 One Year On - Did Agile Coretime Deliver?](/blockchain/polkadot-2-one-year-on/)
+- [Cardano vs Polkadot | Charles Hoskinson and Lex Fridman](/blockchain/cardono-vs-polkadot/)
+- [Blockchain & Web3 Courses](/blockchain/courses/)
+- [Gavin Wood](/blockchain/gavin-wood/)

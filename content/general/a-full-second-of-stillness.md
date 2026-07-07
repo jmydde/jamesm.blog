@@ -65,3 +65,10 @@ For now, it is enough to sit with the strangeness of the achievement. A pulse of
 - [Frozen Light research at NASA JPL](https://www.jpl.nasa.gov/news/frozen-light-cool-nasa-research-holds-promise/)
 - [Electromagnetically induced transparency - background reading](https://www.sciencedaily.com/releases/2013/08/130806111151.htm)
 - [Lene Hau's slow-light research at Harvard](https://www.harvard.edu/)
+
+## Related Reading
+
+- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
+- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/general/sean-carroll/)
+- [A New Universe All Throughout The Day](/general/a-new-universe-all-throughout-the-day/)
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)

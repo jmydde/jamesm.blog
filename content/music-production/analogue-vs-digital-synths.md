@@ -66,3 +66,10 @@ Analog & digital synthesizers are both electronic instruments that create sound,
 
 ### Comparing Analogue Vs Digital Synthesis
 {{< youtube BKUfytjA5C4 >}}
+
+## Related Reading
+
+- [The Yamaha Montage M: 6 Months In Real World Usage](/music-production/yamaha-montage-m-six-months/)
+- [Music Production: Mobile Apps for iPad and iPhone](/music-production/mobile-apps-ipad-iphone/)
+- [Arturia Pigments 7](/music-production/arturia-pigments-7/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)

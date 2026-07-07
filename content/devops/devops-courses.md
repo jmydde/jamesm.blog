@@ -266,3 +266,10 @@ These are no longer available
 - Katacoda - this used to have a lot of excellent free online labs, this has now all moved over to a paid subscription (O’Reilly)
 - Lynda - now LinkedIn
 - LinuxAcademy - now A Cloud Guru
+
+## Related Reading
+
+- [DevOps Books](/devops/books/)
+- [DevOps Explainers](/devops/explainers/)
+- [Mac Homebrew packages](/devops/mac-brew-packages/)
+- [AWS re:Invent Slides (2022)](/devops/aws-reinvent-2022-slides/)

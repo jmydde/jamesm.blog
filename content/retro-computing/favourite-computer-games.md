@@ -142,3 +142,10 @@ This collection represents just a fraction of the incredible games that have sha
 These games showcase the innovation, creativity, and technical achievement of developers across generations. They represent milestones in gaming history - from pioneering game mechanics to breakthrough graphics and storytelling. Whether discovering the infinite replayability of roguelikes or experiencing the emotional narratives of modern adventures, each title on this list holds special memories.
 
 I hope this comprehensive list inspires others to explore these classics and discover the rich, diverse history of video games. Many of these titles remain playable today through emulation or re-releases, offering modern audiences the chance to experience the creativity and fun that captivated gamers in their time.
+
+## Related Reading
+
+- [Favourite Computers, Consoles & Mobiles](/retro-computing/favourite-computers/)
+- [Apple finally allows game emulators in the App Store](/retro-computing/gaming-emulators/)
+- [Copy Protection Wars: The Ingenious Schemes Of 1980s Software](/retro-computing/copy-protection-wars/)
+- [How BASIC Shaped a Generation of Programmers](/retro-computing/how-basic-shaped-a-generation/)

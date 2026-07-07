@@ -507,3 +507,10 @@ UC is powerful, but it's not a silver bullet. It's a foundation for governance, 
 ---
 
 *Last Updated: April 7, 2026*
+
+## Related Reading
+
+- [The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, Nessie](/data-engineering/the-catalog-layer-is-the-new-battleground/)
+- [Databricks Training & Certification](/data-engineering/databricks-training-certification/)
+- [Modern Data Engineering on Databricks (2026 Guide)](/data-engineering/modern-data-engineering-databricks-2026/)
+- [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)

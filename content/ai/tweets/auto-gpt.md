@@ -9,3 +9,10 @@ cover:
   alt: Auto-GPT autonomous agent writing code
 ---
 {{< x user="SigGravitas" id="1642181498278408193" >}}
+
+## Related Reading
+
+- [OpenAI has released GPT-4](/ai/tweets/gpt-4/)
+- [AI Explainers](/ai/explainers/)
+- [List of AI Courses & Learning Resources](/ai/courses/)
+- [AI Tools & Frameworks](/ai/ai-tools/)

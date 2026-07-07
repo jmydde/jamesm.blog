@@ -55,3 +55,10 @@ The 8-bit revolution didn't just teach a nation to code; it taught a nation how 
 *   [What the Amiga Got Right](/retro-computing/amiga-legacy/)
 *   [The Demoscene: Where Art Met Assembly](/retro-computing/demoscene/)
 *   [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)
+
+## Related Reading
+
+- [From BASIC in 1981 to Claude Code in 2026: What Programming Has Always Been About](/retro-computing/basic-to-claude-code-2026/)
+- [The SID Chip: Engineering the Most Iconic Sound in Computing History](/retro-computing/sid-chip-most-iconic-sound/)
+- [Trainer Menus & Scrolltexts: The Unique Aesthetics of the Cracking Scene](/retro-computing/trainer-menus-scrolltexts-cracking-aesthetics/)
+- [How BASIC Shaped a Generation of Programmers](/retro-computing/how-basic-shaped-a-generation/)

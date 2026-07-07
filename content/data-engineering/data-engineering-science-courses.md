@@ -190,3 +190,10 @@ Choosing the right cloud platform depends on your goals and specialization:
 - Start with free resources (Google ML Crash Course, Databricks Academy)
 - Choose one paid specialization based on your company's stack
 - Add 1-2 certification prep courses for job competitiveness
+
+## Related Reading
+
+- [Real-Time Data Processing: Stream Processing vs Batch Processing](/data-engineering/stream-vs-batch-processing/)
+- [Lakeflow Declarative Pipelines: From DLT to Production](/data-engineering/lakeflow-declarative-pipelines-2026/)
+- [Databricks Training & Certification](/data-engineering/databricks-training-certification/)
+- [ETL Tools & Data Integration Platforms](/data-engineering/etl-tools/)

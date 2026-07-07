@@ -116,3 +116,10 @@ That world is gone. But for a moment, in the early 1980s, in a small corner of t
 - **DCRU (Digital Culture Research Unit)**  -  Archival efforts to preserve early online communities
 - **Prestel Archive Project**  -  Ongoing efforts to document and preserve Prestel system information
 - **"The Computer Misuse Act 1990"**  -  The legislation born partly from Compunet's existence
+
+## Related Reading
+
+- [The Postal Pirates: Micro Mart, Loot, and the 1980s Tape-Swapping Underground](/retro-computing/the-postal-pirates/)
+- [Copy Protection Wars: The Ingenious Schemes Of 1980s Software](/retro-computing/copy-protection-wars/)
+- [Favourite Museums](/retro-computing/favourite-museums/)
+- [Favourite Computers, Consoles & Mobiles](/retro-computing/favourite-computers/)

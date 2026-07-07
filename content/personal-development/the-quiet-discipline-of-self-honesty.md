@@ -157,3 +157,10 @@ But it is the one skill that makes every other skill in this category actually w
 
 Build that one first.
 Everything else compounds on top of it.
+
+## Related Reading
+
+- [List of Personal Development Videos](/personal-development/videos/)
+- [Boosting Productivity: Essential Habits for Personal Growth](/personal-development/boosting-productivity-habits/)
+- [Learning How to Learn in the Age of AI](/personal-development/learning-how-to-learn-in-the-age-of-ai/)
+- [The Universe Has a Plan for You](/personal-development/the-universe-has-a-plan-for-you/)

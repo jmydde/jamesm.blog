@@ -42,3 +42,10 @@ Key announcements and updates from Polkadot's 2024 roadmap, including the rollou
 
 **Polkadot Showcases Industry-Leading Scalability in Positive End to 2023** (January 12)
 - [Read on Polkadot Blog](https://polkadot.network/blog/polkadot_q4_update_data/)
+
+## Related Reading
+
+- [Polkadot News 2023](/blockchain/polkadot/polkadot-2023/)
+- [Polkadot 2026: From Infrastructure to Applications](/blockchain/polkadot/polkadot-2026/)
+- [Polkadot 2.0 One Year On - Did Agile Coretime Deliver?](/blockchain/polkadot-2-one-year-on/)
+- [Cardano vs Polkadot | Charles Hoskinson and Lex Fridman](/blockchain/cardono-vs-polkadot/)

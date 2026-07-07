@@ -39,3 +39,10 @@ I already have a ridiculous amount of piano libraries already and I honestly don
 
 ### Into The PIANOVERSE From IK Multimedia | Is it truly the only virtual piano you will ever need?
 {{< youtube soyjeKpU3VY >}}
+
+## Related Reading
+
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Why I Play & Create Music Intuitively](/music-production/why-i-play-and-create-music-intuitively/)
+- [Yamaha MODX M8 vs Arturia AstroLab 88](/music-production/modx-m8-vs-astrolab-88/)
+- [Yamaha MODX M8 vs Yamaha Montage M8X](/music-production/modx-m8-vs-montage-m8x/)

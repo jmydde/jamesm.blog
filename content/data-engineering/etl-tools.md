@@ -188,3 +188,10 @@ The mature pattern in 2026 is to treat AI features as accelerators inside a stro
 - **AI and Agentic Features** - Quality of in-product copilots, support for vector/embedding pipelines, and how well agents are sandboxed inside the governance model
 - **Team Expertise** - Learning curve and alignment with existing skills (DataOps, Python, SQL)
 - **Time to Value** - Balance between quick deployment and long-term maintainability
+
+## Related Reading
+
+- [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
+- [Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure](/data-engineering/snowflake-apache-iceberg-storage/)
+- [Lakeflow Declarative Pipelines: From DLT to Production](/data-engineering/lakeflow-declarative-pipelines-2026/)
+- [Data Engineering Blogs](/data-engineering/blogs/)

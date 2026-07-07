@@ -37,3 +37,10 @@ The foundational explanation of Bitcoin, covering its history, purpose, and sign
 
 {{< youtube l1si5ZWLgy0 >}}
 
+
+## Related Reading
+
+- [Blockchain & Web3 Courses](/blockchain/courses/)
+- [Quantum Computing: A Threat to Bitcoin?](/blockchain/quantum-threat/)
+- [The State of Blockchain in 2026](/blockchain/state-of-blockchain-2026/)
+- [Onchain AI Agents - Hype, Reality, and Where the Money Actually Flows](/blockchain/onchain-ai-agents-hype-reality/)

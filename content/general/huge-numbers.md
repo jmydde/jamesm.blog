@@ -73,3 +73,10 @@ A comprehensive 2024 survey of the largest numbers discussed in mathematics and 
 {{< youtube YPenDUY68rM >}}
 
 A more accessible introduction to why we care about large numbers, how they appear in cosmology and astrophysics, and how to think about scale from a scientist's perspective.
+
+## Related Reading
+
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)
+- [Favourite Physicists](/general/favourite-physicists/)
+- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/)
+- [The Hindley Street Country Club](/general/the-hindley-street-country-club/)

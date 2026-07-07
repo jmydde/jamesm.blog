@@ -337,3 +337,10 @@ Start with one of these: pick a focus block and defend it, say no to one meeting
 
 Small acts of boundary-setting, done consistently, are what prevent burnout. And they're often the difference between a career you can sustain and one that consumes you.
 
+
+## Related Reading
+
+- [The Architect vs The Builder: Redefining Engineering Roles in 2026](/ai/architect-vs-builder/)
+- [Five Archetypes for a Post-Role Team](/ai/five-archetypes-post-role-team/)
+- [Boosting Productivity: Essential Habits for Personal Growth](/personal-development/boosting-productivity-habits/)
+- [From Awakening to Action: Building the Life You've Discovered](/personal-development/from-awakening-to-action/)

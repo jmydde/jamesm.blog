@@ -218,3 +218,9 @@ If you want to understand the math:
 The key insight for 2026 is: **graph algorithms are no longer academic**. They're the standard way to solve relationship problems in data. Understanding PageRank and centrality measures isn't just theoretical knowledge - it's foundational to building modern data systems.
 
 The next time you're designing a recommendation system, fraud detection pipeline, or network analysis project, you'll know exactly which algorithm to reach for.
+
+## Related Reading
+
+- [Scaling Graph Algorithms: From Prototypes to Production](/data-science/scaling-graph-algorithms/)
+- [Community Detection Algorithms: Finding Clusters and Groups in Network Data](/data-science/community-detection-algorithms/)
+- [The Causal Inference Comeback: Why Correlation-Era ML Hit a Wall](/data-science/causal-inference-comeback/)

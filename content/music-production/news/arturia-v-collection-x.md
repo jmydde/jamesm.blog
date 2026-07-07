@@ -77,3 +77,10 @@ Full Price: £599 (Upgrade: £399)
 
 ## Full Details
 Full details can be found [here](https://www.arturia.com/products/software-instruments/v-collection/overview/)
+
+## Related Reading
+
+- [News: Arturia FX Collection 4](/music-production/news/arturia-fx-collection-4/)
+- [The Best Software Synths of 2026: From AI-Native to Analog Perfection](/music-production/best-software-synths-2026/)
+- [News: Native Instruments Sale (50% off)](/music-production/news/ni-summer-of-sound-2023/)
+- [Music Production News - May 2026: Superbooth, AI Settlements, and the Updates That Matter](/music-production/music-production-news-may-2026/)

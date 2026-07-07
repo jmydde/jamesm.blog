@@ -120,3 +120,10 @@ A **stage keyboard** focused on giving you **ready-to-play sounds** drawn from A
 These aren’t apples-to-apples instruments. The **MODX M8** is about **control and creation**; the **AstroLab 88** is about **playability and sonic richness**. Your choice hinges on whether you want to **design and sculpt** or **perform and explore** sounds with minimal fuss.
 
 Feel into how you like to play and create  -  that’s where the magic actually lives.
+
+## Related Reading
+
+- [Yamaha MODX M8 vs Yamaha Montage M8X](/music-production/modx-m8-vs-montage-m8x/)
+- [My Music Production Hardware & Software](/music-production/my-music-hardware-software/)
+- [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)
+- [Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX](/music-production/using-mc-707-as-midi-brain-for-modx-m/)

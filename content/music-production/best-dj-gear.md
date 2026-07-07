@@ -26,3 +26,10 @@ Here is a list of useful links for the best DJ gear, controllers & software
 - [Best DJ Gear 2023: 9 of the best DJ Controllers under $400](https://musictech.com/guides/buyers-guide/best-dj-controllers-under-400-dollars/)
 - [Best DJ Gear 2023: 8 of the best Standalone DJ Controllers in 2023](https://musictech.com/guides/buyers-guide/best-standalone-dj-controllers-systems/)
 - [The 10 best DJ software available in 2023](https://musictech.com/guides/buyers-guide/best-dj-software/)
+
+## Related Reading
+
+- [Native Instruments Traktor MX2](/music-production/ni-traktor-mx2/)
+- [Music: My Favourite Artists, Bands, DJs, Composers, Concerts & Theatre](/music-production/favourites/)
+- [The Best Music Production Software in 2026](/music-production/best-music-production-software-2026/)
+- [The Best Music Production Software in 2025](/music-production/best-music-production-software-2025/)

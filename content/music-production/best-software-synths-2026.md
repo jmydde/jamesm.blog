@@ -51,3 +51,10 @@ What is currently in your plugin folder? Let me know which synth has become your
 - [U-he Zebra](https://u-he.com/products/zebra2)
 - [Xfer Records](https://xferrecords.com/products/serum)
 - [Vital Audio](https://vital.audio/)
+
+## Related Reading
+
+- [u-he Zebra 3: The Modular Beast Unleashed](/music-production/u-he-zebra-3-the-modular-beast-unleashed/)
+- [Introduction to Modular Synthesis - The Building Blocks](/music-production/modular-synthesis-building-blocks/)
+- [News: Arturia Collection X](/music-production/news/arturia-v-collection-x/)
+- [Physical Modeling Synthesis: The Underrated Future of Sound Design](/music-production/physical-modeling-synths/)

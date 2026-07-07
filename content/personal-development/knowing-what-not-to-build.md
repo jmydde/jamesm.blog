@@ -134,3 +134,10 @@ And that is the most valuable skill of all.
 **Related reading:**
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  On judgment becoming the scarce resource
 - [Rebuilding Life with Small Systems](/personal-development/rebuilding-life-with-small-systems)  -  On building sustainable practices through focus
+
+## Related Reading
+
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
+- [Stability in a Storm: Practical Principles for Tough Times](/personal-development/practical-principals-for-tough-times/)
+- [Tracking Health Data](/personal-development/tracking-health-data/)
+- [List of Personal Development Videos](/personal-development/videos/)

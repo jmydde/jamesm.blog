@@ -103,3 +103,10 @@ Instead of programming notes step-by-step, you perform ideas once and let the se
 ## Summary
 
 Using the Roland MC-707 as a MIDI recorder and playback device for the Yamaha MODX M is simple, reliable, and musically satisfying. It turns the MC-707 into a central brain and the MODX into a powerful performance instrument  -  a combination that encourages playing first and organising later.
+
+## Related Reading
+
+- [Hybrid Systems: Montage + MC-707 Architecture and Workflow](/music-production/hybrid-systems-montage-mc-707/)
+- [Hardware Sequencers in 2026: When Physical Beats Software](/music-production/hardware-sequencers-2026/)
+- [Roland Jupiter‑X Review: A Workstation‑Level Synth with Legendary Sound](/music-production/roland-jupiter-x/)
+- [Roland Juno‑X Review: A Modern Reinterpretation of a Classic Synth](/music-production/roland-juno-x/)

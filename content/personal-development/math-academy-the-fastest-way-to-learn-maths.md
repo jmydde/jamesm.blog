@@ -83,3 +83,10 @@ The gap between those two conversations is exactly what Math Academy is designed
 If you have been meaning to go back and actually learn the maths you skipped the first time around - the real version, not just enough to get past the next job interview - this is probably the most efficient way to do it.
 
 [Math Academy](https://www.mathacademy.com/) is available now at $49 per month with a 30-day money-back guarantee.
+
+## Related Reading
+
+- [List of Personal Development Courses](/personal-development/courses/)
+- [Learning How to Learn in the Age of AI](/personal-development/learning-how-to-learn-in-the-age-of-ai/)
+- [List of Personal Development Books](/personal-development/books/)
+- [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)

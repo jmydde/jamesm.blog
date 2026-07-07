@@ -80,3 +80,10 @@ The setup is worth it if you already have one of the two pieces and you are miss
 The setup is not worth it if you are starting from scratch and trying to build a complete rig from zero. There is too much overlap, too much cost, and too many simpler paths that get you to a similar place. A laptop and a good controller will do most of what this rig does for a fraction of the price. The hybrid hardware approach is an intermediate destination, not a starting point.
 
 For me, in the place I am in as a player and producer, it is the right rig. It rewards time spent learning it. It produces tracks I am proud of. It makes me reach for it before I reach for the laptop, which is the most reliable signal I have ever found that a rig is actually working.
+
+## Related Reading
+
+- [Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX](/music-production/using-mc-707-as-midi-brain-for-modx-m/)
+- [Hardware Sequencers in 2026: When Physical Beats Software](/music-production/hardware-sequencers-2026/)
+- [The Yamaha Montage M: 6 Months In Real World Usage](/music-production/yamaha-montage-m-six-months/)
+- [Yamaha Montage M](/music-production/yamaha-montage/)

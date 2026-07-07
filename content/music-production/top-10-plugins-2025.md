@@ -17,3 +17,9 @@ cover:
 
 ## These Are The Only Plugins Worth Buying in 2026
 {{< youtube 2IjGu5urC4U >}}
+
+## Related Reading
+
+- [News: Arturia Collection X](/music-production/news/arturia-v-collection-x/)
+- [News: Arturia FX Collection 4](/music-production/news/arturia-fx-collection-4/)
+- [News: Native Instruments Sale (50% off)](/music-production/news/ni-summer-of-sound-2023/)

@@ -76,3 +76,10 @@ For now, if you use Ableton and you use Claude, switching this connector on cost
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [My Ableton Max for Live devices roundup]({{< relref "ableton-max-for-live-devices.md" >}})
 - [AI music tools shootout 2026]({{< relref "ai-music-tools-shootout-2026.md" >}})
+
+## Related Reading
+
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Music Production Websites](/music-production/websites/)
+- [News: Ableton Push 3](/music-production/news/ableton-push-3/)
+- [Music Production: Ableton Live 12](/music-production/news/ableton-live-12/)

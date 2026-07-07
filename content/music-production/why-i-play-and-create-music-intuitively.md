@@ -52,3 +52,10 @@ In all of this, I’m not chasing mastery or completeness. I know I’ll never d
 Sometimes I sit down and nothing new happens. That’s fine. Other times, a strange voicing appears, or a sound suddenly blooms into something unexpected, and I just stop and listen, slightly stunned.
 
 I don’t play to eliminate mystery. I play to keep it alive.
+
+## Related Reading
+
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Music Production Websites](/music-production/websites/)
+- [u-he Zebra 3: The Modular Beast Unleashed](/music-production/u-he-zebra-3-the-modular-beast-unleashed/)
+- [The Best Software Synths of 2026: From AI-Native to Analog Perfection](/music-production/best-software-synths-2026/)

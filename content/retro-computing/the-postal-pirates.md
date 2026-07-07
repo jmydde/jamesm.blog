@@ -158,3 +158,10 @@ The only difference was the physics: tapes and postage instead of packets and fi
 - *Sinclair User* back issues - particularly letters sections where readers complained about piracy
 - Computing history forums and enthusiast communities that document 1980s UK computing culture
 - Documentaries on 8-bit gaming (especially *From Bedrooms to Billions*) which touches on the software distribution landscape
+
+## Related Reading
+
+- [Copy Protection Wars: The Ingenious Schemes Of 1980s Software](/retro-computing/copy-protection-wars/)
+- [Compunet: Britain's Forgotten Pre-Internet Community](/retro-computing/compunet-britains-forgotten-pre-internet-community/)
+- [When 8-bit Computers Taught An Entire Nation To Code](/retro-computing/8-bit-coding/)
+- [The SID Chip: Engineering the Most Iconic Sound in Computing History](/retro-computing/sid-chip-most-iconic-sound/)

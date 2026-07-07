@@ -229,3 +229,10 @@ If life feels heavy or scattered, do not wait for a total reinvention.
 Build one small system.
 Then another.
 Then let stability do what motivation often cannot.
+
+## Related Reading
+
+- [The Universe Has a Plan for You](/personal-development/the-universe-has-a-plan-for-you/)
+- [Boosting Productivity: Essential Habits for Personal Growth](/personal-development/boosting-productivity-habits/)
+- [Stability in a Storm: Practical Principles for Tough Times](/personal-development/practical-principals-for-tough-times/)
+- [From Awakening to Action: Building the Life You've Discovered](/personal-development/from-awakening-to-action/)

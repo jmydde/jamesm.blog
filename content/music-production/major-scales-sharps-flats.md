@@ -135,3 +135,9 @@ With this method, you’ll never have to wonder how many sharps are in a major s
 
 ### Circle of 5ths: EASIEST Way to Memorize & Understand It
 {{< youtube XNwlybb-j_M >}}
+
+## Related Reading
+
+- [Music Production YouTube Channels](/music-production/youtube-channels/)
+- [Why I Play & Create Music Intuitively](/music-production/why-i-play-and-create-music-intuitively/)
+- [Music Production Websites](/music-production/websites/)

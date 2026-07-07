@@ -117,3 +117,10 @@ Building a platform is a multi-year commitment. Starting small, treating it as a
 - [DevOps Best Practices]({{< ref "/devops/best-practices" >}})
 - [CI/CD Tools]({{< ref "/devops/cicd-tools" >}})
 - [Monitoring and Observability]({{< ref "/devops/monitoring" >}})
+
+## Related Reading
+
+- [DevOps in the Age of AI Agents](/devops/devops-in-the-age-of-ai-agents/)
+- [List of DevOps Courses](/devops/devops-courses/)
+- [DevOps Conferences](/devops/devops-conferences/)
+- [CI/CD Tools](/devops/cicd-tools/)

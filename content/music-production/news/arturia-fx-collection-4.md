@@ -36,3 +36,10 @@ Full details can be found [here](https://www.arturia.com/products/software-effec
 
 ### The Arturia Fx Collection 4 is a Must-have ! Now with Rotary fx plugin
 {{< youtube Y6Fo4xWN_W8 >}}
+
+## Related Reading
+
+- [News: Arturia Collection X](/music-production/news/arturia-v-collection-x/)
+- [News: Native Instruments Sale (50% off)](/music-production/news/ni-summer-of-sound-2023/)
+- [Music Production News - May 2026: Superbooth, AI Settlements, and the Updates That Matter](/music-production/music-production-news-may-2026/)
+- [Music Production: Ableton Live 12](/music-production/news/ableton-live-12/)

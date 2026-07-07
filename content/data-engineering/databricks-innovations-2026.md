@@ -249,3 +249,10 @@ Databricks increasingly wants data engineering teams to work with governed asset
 
 ---
 *Last Updated: April 6, 2026*
+
+## Related Reading
+
+- [Lakeflow Declarative Pipelines: From DLT to Production](/data-engineering/lakeflow-declarative-pipelines-2026/)
+- [Databricks CheatSheet](/data-engineering/databricks-cheatsheet/)
+- [Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over](/data-engineering/iceberg-vs-delta-vs-hudi-2026/)
+- [Databricks Training & Certification](/data-engineering/databricks-training-certification/)

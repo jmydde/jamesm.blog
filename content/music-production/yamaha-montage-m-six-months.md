@@ -84,3 +84,10 @@ The Montage M has earned its place in my studio. The instruments that pass that 
 It is not the right synth for everyone. If your music does not have keyboard-driven parts at its core, the Montage M is more synth than you need. If your relationship with synths is heavy on hands-on parameter exploration, the menu system will frustrate you. If you do not already have an established workflow that values per-Performance orchestration, the depth of the Performance mode will be wasted on you.
 
 But if you are a player whose music depends on rich, layered, well-orchestrated voices, and you want a single instrument that can be the heart of a hybrid rig for the next decade, the Montage M is one of a very small number of instruments that genuinely earn the flagship label. Six months in, I have no buyer's regret. That is a higher bar than most flagship instruments clear, and the Montage M clears it cleanly.
+
+## Related Reading
+
+- [Yamaha Montage M](/music-production/yamaha-montage/)
+- [Yamaha MODX M8 vs Yamaha Montage M8X](/music-production/modx-m8-vs-montage-m8x/)
+- [Hybrid Systems: Montage + MC-707 Architecture and Workflow](/music-production/hybrid-systems-montage-mc-707/)
+- [Roland Fantom EX](/music-production/roland-fantom-ex/)

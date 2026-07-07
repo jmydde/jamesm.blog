@@ -80,3 +80,10 @@ Explains the mathematical impossibility of guessing Bitcoin private keys.
 {{< youtube bvSJm7fHXto >}}
 
 A clear explanation of the public-key cryptography system that powers cryptocurrency wallets and transactions.
+
+## Related Reading
+
+- [Quantum Computing: A Threat to Bitcoin?](/blockchain/quantum-threat/)
+- [Cryptocurrency Hardware Wallets](/blockchain/hardware-wallets/)
+- [Blockchain & Web3 Courses](/blockchain/courses/)
+- [Bitcoin](/blockchain/bitcoin/bitcoin/)

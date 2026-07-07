@@ -80,3 +80,10 @@ Most modern soft synths handle MPE well. A few that are particularly worth pairi
 
 ### QuNeo MPE
 {{< youtube Hnsd8M-yiuQ >}}
+
+## Related Reading
+
+- [MPE Deep Dive: Why Expressive MIDI Changes Everything](/music-production/mpe-deep-dive/)
+- [Hardware Sequencers in 2026: When Physical Beats Software](/music-production/hardware-sequencers-2026/)
+- [Hybrid Systems: Montage + MC-707 Architecture and Workflow](/music-production/hybrid-systems-montage-mc-707/)
+- [Using the Roland MC-707 as a MIDI Recorder and Brain for the Yamaha MODX](/music-production/using-mc-707-as-midi-brain-for-modx-m/)

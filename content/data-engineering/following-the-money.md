@@ -81,3 +81,10 @@ The open-source alternative isn't just a way to save money; it's an insurance po
 - [Databricks vs Snowflake in 2026: An Honest Comparison](/data-engineering/databricks-vs-snowflake-2026/)
 - [The Architect vs The Builder: Redefining Engineering Roles](/ai/architect-vs-builder/)
 - [Modern Data Engineering on Databricks (2026 Guide)](/data-engineering/modern-data-engineering-databricks-2026/)
+
+## Related Reading
+
+- [Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure](/data-engineering/snowflake-apache-iceberg-storage/)
+- [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
+- [Databricks vs Snowflake in 2026: An Honest Comparison](/data-engineering/databricks-vs-snowflake-2026/)
+- [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)
