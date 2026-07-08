@@ -14,7 +14,7 @@ slug: "trust-series"
 ## TL;DR
 
 - The Trust series is my answer to one question: **what has to be true before you can hand a non-deterministic system a real job and walk away?**
-- Read in this order: research map → evals → security → world models → trajectory evaluation
+- Read in this order: research map → evals → security → world models → trajectory evaluation → interpretability
 - Supporting posts cover reliability, context engineering, and safety foundations
 - Full series index: [/series/trust/](/series/trust/)
 
@@ -27,6 +27,7 @@ slug: "trust-series"
 3. [Securing AI Agents](/ai/securing-ai-agents/) - MCP hardening, confused deputy, and what I run on my home stack
 4. [World Models: What Comes After the Language-Only Era](/ai/world-models-after-language/) - when text-only agents hit their ceiling
 5. [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/) - step-level scoring, not just final answers
+6. [Mechanistic Interpretability: Reading the Mind of a Model](/ai/mechanistic-interpretability-inside-the-black-box/) - the inside-out complement to behavioural safety
 
 ------------------------------------------------------------------------
 
