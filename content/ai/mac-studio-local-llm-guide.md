@@ -1,12 +1,12 @@
 ---
 title: "Which Mac Studio Should You Buy for Running LLMs Locally?"
-date: 2026-04-18T07:22:00+01:00
+date: 2026-07-13T21:22:00+01:00
 draft: false
 type: guide
 tags: ["ai", "apple", "llm", "mac-studio", "inference", "local-llm", "qwen", "llama"]
 description: "A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense."
 cover:
-  image: /assets/images/ai/inference-hardware-insurgents.png
+  image: /assets/images/ai/which-mac-studio-llms.jpg
   alt: Mac Studio LLMs Icon
 ---
 
@@ -18,6 +18,8 @@ cover:
 - **Newer alternative:** M4 Max (£2k-£4k) - lower bandwidth (410-546 GB/s) than Ultra chips, but still solid for 7B-13B models
 - **Key rule:** Memory bandwidth matters more than raw compute for token generation
 - **Reality check:** A RTX 5090 rig is 2-3× faster for similar money - buy Mac for simplicity and unified memory
+- **July 2026 update:** Apple's memory crunch has killed new 256GB/512GB Ultra configs for now - big-memory Macs are refurb-only until the M5 Ultra (tested up to 768GB) lands late 2026
+- **On the horizon:** the M7 Ultra, rumoured for around 2029, is reportedly designed to support up to 1.5TB of unified memory - see [the road ahead](#the-road-ahead-m5-ultra-this-year-then-a-15tb-m7-ultra) below
 
 You want to run large language models locally on a Mac Studio. Good idea - unified memory is genuinely useful for LLMs. But the specs matter, and there are some hard truths about what "works" versus what feels responsive. More importantly: the right Mac depends entirely on which model you want to run.
 
@@ -103,7 +105,9 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 
 **When to buy:** You want proper performance on 30B+ models without overspending. Excellent refurbished market (these age well).
 
-### M3 Ultra (96–256 GB) - No compromises
+### M3 Ultra (96–512 GB) - No compromises
+
+> **Availability note (July 2026):** Apple discontinued the 256GB and 512GB M3 Ultra options in March 2026 amid memory chip supply issues, and new units now cap at 96GB - at a higher price than before. Anything bigger means the refurbished or second-hand market until the M5 Ultra refresh arrives. Full details in [MacRumors' report](https://www.macrumors.com/2026/06/25/m5-ultra-mac-studio-2026/).
 
 **What runs well:**
 - All medium models: 🚀 excellent (35–50+ tok/s)
@@ -266,6 +270,48 @@ Since you're choosing both a Mac and a model, here's what actually matters:
 
 **If GPU is an option:** Price out a RTX 5090 rig anyway. For £3k–£4k, a 5090 will give you 2–3× the speed on models that fit in 32GB VRAM. Mac Studio is the right choice only if you value simplicity + unified memory + larger model support + lower power consumption.
 
+## The road ahead: M5 Ultra this year, then a 1.5TB M7 Ultra
+
+*Updated July 2026.* Everything above is about what you can buy today. But Apple's chip roadmap has leaked in enough detail that it's worth factoring into any purchase decision - because the ceiling on local AI is about to move a long way.
+
+### M5 Ultra Mac Studio (expected late 2026)
+
+The next Mac Studio refresh was originally pencilled in for mid-2026 but has slipped to an expected October window, delayed by memory chip supply issues and price rises. According to [MacRumors' reporting](https://www.macrumors.com/2026/06/25/m5-ultra-mac-studio-2026/), the M5 Ultra is expected to bring:
+
+- ~36 CPU cores and ~80 GPU cores
+- Tested support for up to **768GB of unified memory** - triple the M3 Ultra's original 256GB mid-tier and half again over its 512GB ceiling
+- The caveat: supply constraints could keep the biggest memory option off the launch configurator, and a 768GB variant would likely cost well north of $10,000
+
+If you're eyeing a big-memory Mac and can wait a few months, the M5 Ultra is the obvious thing to wait for. If you can't, the refurbished M2/M3 Ultra market remains the value play.
+
+### The M7 Ultra rumour: 1.5TB of unified memory by ~2029
+
+This is the one that made me sit up. According to Bloomberg's Mark Gurman, whose reporting was picked up by [9to5Mac](https://9to5mac.com/2026/07/12/m7-ultra-mac-studio-to-support-up-to-1-5-tb-unified-memory/) and [Tom's Hardware](https://www.tomshardware.com/tech-industry/semiconductors/apples-rumored-m7-ultra-targets-1-5tb-of-memory-and-blackwell-class-ai), Apple plans to skip high-end M6 desktop variants entirely and jump to an M7 generation, with an **M7 Ultra designed to support up to 1.5TB of unified memory** - roughly double the M5 Ultra's ceiling, finally matching the 2019 Intel Mac Pro's RAM limit, and aimed at Blackwell-class AI performance. A server variant of the chip is reportedly also in the works. Expected arrival: around 2029.
+
+The usual rumour disclaimers apply, and [Macworld makes a fair point](https://www.macworld.com/article/3189940/apple-is-working-on-an-ultra-chip-with-1-5tb-of-ram-but-we-may-never-see-it.html) that the state of the RAM market will decide whether the 1.5TB configuration ever actually ships. Apple has confirmed none of this.
+
+### What 1.5TB on a desk would actually mean
+
+The rumour went properly viral when [Alex Finn put it bluntly on X](https://x.com/AlexFinn/status/2076800124072955959): "You are going to be able to run Fable 5 locally on your desk... With just 300GB of memory you can run Opus 4.8 level intelligence. Think of what you can do with 5x that."
+
+I'd gently correct the letter of that while agreeing with the spirit. Frontier labs don't publish their weights, so nobody will be downloading Fable 5 or Opus 4.8 onto a Mac Studio. What you *will* be able to do is run **open-weight models at the trillion-parameter scale** - and the open-weight frontier has been tracking a couple of years behind the closed frontier. Around 300GB already fits today's largest open-weight models at sensible quantisation (see my [state of open-weight models](/ai/state-of-open-weight-models-2026/) post). So "2029-era open weights on 1.5TB of memory" plausibly does mean something like today's frontier-level intelligence, running on your desk, with no subscription and no data leaving the room. That's a genuinely different world for privacy, tinkering, and home agents.
+
+Two engineering caveats before anyone gets carried away:
+
+- **Capacity isn't speed.** Token generation is bandwidth-bound, and 1.5TB of weights doesn't help if the bandwidth-per-byte doesn't scale with it. A dense trillion-parameter model would still generate slowly; in practice mixture-of-experts architectures (where only a fraction of weights activate per token) are what make this class of machine useful, exactly as with the MoE models covered above.
+- **This is a 2029 rumour about an unannounced chip**, filtered through a supply-constrained RAM market. Plan with it, don't bank on it.
+
+### How to prepare now
+
+Here's the part of Finn's thread I fully agree with: the people who learn local AI now will be miles ahead when this hardware lands. The skills transfer completely - a 7B model on an M2 Max teaches you the same stack you'd use on a 1.5TB M7 Ultra:
+
+- Get comfortable with [Ollama](/ai/ollama/) and quantised models - even on a MacBook
+- Put a proper interface on it with [Open WebUI](/ai/open-webui-self-hosted-llm-interface/)
+- Understand the [local vs cloud trade-offs](/ai/local-vs-cloud-ai-2026/) so you know what belongs where
+- Start wiring up a [home agent stack](/ai/home-agent-stack/) - agents are where big local memory pays off most, since you can keep several specialised models resident at once
+
+None of that requires new hardware. All of it compounds.
+
 ---
 
 ## Tools to actually run these models
@@ -292,6 +338,8 @@ Since you're choosing both a Mac and a model, here's what actually matters:
 - [Mac Studio specs](https://www.apple.com/mac-studio/specs/) - Official Apple configurations
 - [Apple MLX documentation](https://ml-explore.github.io/mlx/) - Framework optimised for Apple Silicon
 - [llama.cpp Metal backend](https://github.com/ggerganov/llama.cpp/blob/master/docs/build.md#metal-build) - How Metal acceleration works on Mac
+- [MacRumors: M5 Ultra Mac Studio](https://www.macrumors.com/2026/06/25/m5-ultra-mac-studio-2026/) - Late-2026 refresh, up to 768GB tested
+- [9to5Mac: M7 Ultra and 1.5TB unified memory](https://9to5mac.com/2026/07/12/m7-ultra-mac-studio-to-support-up-to-1-5-tb-unified-memory/) - The ~2029 roadmap rumour
 
 ## Related Reading
 

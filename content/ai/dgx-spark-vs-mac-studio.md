@@ -73,6 +73,8 @@ The M4 Max has better memory bandwidth than the DGX Spark (410-546 GB/s vs 273 G
 
 If the M4 Max is impressive, the M3 Ultra is Apple's flagship for pro users. It fuses two M3 Max chips together via UltraFusion:
 
+> **Availability update (July 2026):** Apple quietly discontinued the 256GB and 512GB M3 Ultra configurations in March 2026 amid memory chip supply issues, and raised the 96GB model's price from $3,999 to $5,299. New units now cap at 96GB - the big-memory configs below are refurbished/second-hand only until the M5 Ultra arrives. See [MacRumors' coverage](https://www.macrumors.com/2026/06/25/m5-ultra-mac-studio-2026/) for details.
+
 **Base Configuration ($3,999):**
 - **CPU:** 28-core (24 performance + 4 efficiency cores)
 - **GPU:** 60-core GPU
@@ -91,15 +93,13 @@ If the M4 Max is impressive, the M3 Ultra is Apple's flagship for pro users. It 
 
 With 3× the memory bandwidth of the DGX Spark and up to 512GB of unified memory, the M3 Ultra is the fastest Mac Studio for token generation and can hold the largest models entirely in memory.
 
-### Upcoming M5 Max (Expected Mid-2026)
+### Upcoming M5 Max and M5 Ultra (Expected Late 2026)
 
-Apple is expected to release the M5 Max Mac Studio around mid-2026. Expected specs include:
+Apple's next Mac Studio refresh has slipped from mid-2026 to an expected October 2026 window, delayed by the same memory supply issues that hit the M3 Ultra lineup. Based on [current reporting](https://www.macrumors.com/2026/06/25/m5-ultra-mac-studio-2026/), expected specs include:
 
-- **CPU:** 18-core (6 super cores + 12 performance cores)
-- **GPU:** 32-core or 40-core options
-- **Memory:** Up to 128GB unified memory
-- **Memory Bandwidth:** ~614 GB/s
-- **Price:** Likely $2,200-2,400 base
+- **M5 Max:** ~18-core CPU, 32/40-core GPU options, up to 128GB unified memory, ~614 GB/s bandwidth, likely $2,200-2,400 base
+- **M5 Ultra:** ~36-core CPU, ~80-core GPU, tested with up to 768GB unified memory - though supply constraints may keep the top memory config off the launch sheet
+- Further out, Apple is reportedly skipping high-end M6 desktop variants and jumping to an M7 Ultra designed for up to 1.5TB of unified memory - see my [Mac Studio local LLM guide](/ai/mac-studio-local-llm-guide/) for what that roadmap means for local AI
 
 ## Specs & Cost Comparison Table
 
