@@ -9,6 +9,14 @@ cover:
   alt: SpaceX Starship vs NASA SLS - two visions for the future of deep space exploration
 ---
 
+## TL;DR
+
+- SLS and Starship are two bets on the same goal: SLS is the traditional aerospace approach (proven Shuttle-era hardware, simulate everything, launch when confident), Starship is the empirical one (test by launching, iterate fast)
+- The cost chasm is the story: SLS launches are estimated at $2-4 billion each and fully expendable, while SpaceX targets $10 million per launch at scale with full-stack reusability
+- Capability differs less than philosophy - SLS Block 1 lifts 95 tonnes to LEO, Starship 100+ tonnes fully reusable, and both have roles in Artemis
+- SLS looks like a sunset vehicle; Starship is designed as a platform, but it still has to prove orbital refuelling and rapid reuse before the comparison is settled
+- The likely end state is convergence: NASA missions increasingly flown on commercial reusable hardware
+
 ## Two Paths Diverge
 
 The 21st century space race isn't between countries - it's between philosophies. NASA's Space Launch System (SLS) and SpaceX's Starship represent two radically different bets on how to explore deep space.

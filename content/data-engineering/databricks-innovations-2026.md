@@ -6,7 +6,7 @@ tags: ['databricks', 'data-engineering', 'delta-lake', 'unity-catalog', 'serverl
 description: "A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows."
 slug: "modern-data-engineering-databricks-2026"
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Modern Data Engineering on Databricks
 ---
 
@@ -24,7 +24,7 @@ For most new data engineering work, the default stack is now clear:
 
 That shift matters because the platform has moved beyond "bring your own clusters and tune everything manually." The modern Databricks approach is increasingly declarative, governed, and automated.
 
-## Executive Summary
+## TL;DR
 
 If you only want the practical default stack, it is this:
 

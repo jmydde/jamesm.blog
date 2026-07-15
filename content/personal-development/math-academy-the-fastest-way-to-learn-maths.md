@@ -9,6 +9,14 @@ cover:
   alt: Math Academy - The Fastest Way to Actually Learn Maths
 ---
 
+## TL;DR
+
+- [Math Academy](https://www.mathacademy.com/) is an AI-driven adaptive learning platform covering everything from 4th-grade arithmetic to university-level linear algebra and machine learning mathematics
+- Its headline claim: four times the speed of a traditional class, compressing roughly 180 classroom hours into 20-40 hours of focused practice
+- The mechanism is what makes the claim worth taking seriously - fully adaptive diagnostics, spaced repetition, and mastery-based progression with no filler
+- It is built for exactly the adult who always meant to go back and fill the gaps: the data science course you cannot follow, the notation that stops you cold
+- The honest caveat: the speed claim assumes you sit down and do the work consistently - the platform cannot manufacture motivation from nothing
+
 ## The Gap Between Knowing Maths and Being Good at It
 
 Most adults who went through mainstream education have a complicated relationship with maths. They were taught it, they passed it (or did not), and then they mostly stopped doing it. Somewhere between primary school and the end of formal education, the subject either clicked or it did not - and for a significant majority, it did not.

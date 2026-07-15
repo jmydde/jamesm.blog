@@ -96,6 +96,7 @@ Missing TL;DR, Related Reading, or cover. Add sections per [EDITORIAL.md](EDITOR
 - [a-full-second-of-stillness.md](content/general/a-full-second-of-stillness.md)
 - [reading-slowly-in-skim-first-world.md](content/general/reading-slowly-in-skim-first-world.md)
 - [walking-as-a-creative-tool.md](content/general/walking-as-a-creative-tool.md)
+- [unbaffled-jim-al-khalili.md](content/general/unbaffled-jim-al-khalili.md) - complete except cover image
 
 ### Ideas
 

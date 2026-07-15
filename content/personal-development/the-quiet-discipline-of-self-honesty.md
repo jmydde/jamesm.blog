@@ -9,6 +9,14 @@ cover:
   alt: The Quiet Discipline of Self-Honesty Banner
 ---
 
+## TL;DR
+
+- Nearly all self-improvement advice assumes you have already looked at yourself clearly - and that step is the bottleneck almost nobody completes
+- Goals that match a fictional version of you cannot be reached by the real one, which is why systems and habit trackers fail for people with an inaccurate self-picture
+- Self-honesty is hard because the mind protects identity, not accuracy; the signs of low self-honesty are recognisable and worth checking for
+- It can be practised deliberately - small, regular, low-stakes acts of telling yourself the truth compound like any other habit
+- Self-honesty and self-compassion are not opposites; honesty without compassion becomes self-attack, which is just another form of avoidance
+
 Most self-improvement advice assumes a step that almost nobody actually completes.
 
 It assumes you have looked at yourself clearly. It assumes you know, with reasonable accuracy, what you are good at, what you avoid, where your time really goes, what you actually want, and what you keep telling yourself to avoid the discomfort of changing.

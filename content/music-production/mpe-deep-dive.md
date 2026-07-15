@@ -9,6 +9,14 @@ cover:
   alt: MPE Deep Dive Banner
 ---
 
+## TL;DR
+
+- [MPE (MIDI Polyphonic Expression)](https://en.wikipedia.org/wiki/MIDI_Polyphonic_Expression) gives every sounding note its own continuous pitch, pressure, and timbre control, where standard MIDI shares those controls across the whole channel
+- The trick is channel rotation: a master channel carries global messages while each note gets its own channel, making per-voice expression a first-class citizen
+- Hardware and synth must both participate - an MPE controller into a non-MPE synth gets you nothing
+- It is genuinely worth the cost for solo lines, expressive pads, and modelled acoustic instruments; it is overkill for step-sequenced and quantised material
+- Once you have spent serious time on an MPE instrument, a fixed-velocity keyboard feels like trading a touch screen for a number pad
+
 If you have spent any time around electronic music in the last decade, you have probably seen the letters MPE written on the side of a controller and not thought too much about them. The acronym sounds like a feature bullet. It is not. It is a quiet but fundamental reframing of what an electronic instrument can do, and once you have spent serious time playing one, going back to a fixed-velocity keyboard feels like trading a touch screen for a number pad.
 
 This post is the explanation I wish someone had given me when I first encountered MPE. It is the technical version, the musical version, and a working set of opinions about where it is genuinely worth the cost and where it is overkill.

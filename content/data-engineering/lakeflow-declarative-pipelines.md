@@ -6,9 +6,17 @@ tags: ["databricks", "lakeflow", "dlt", "pipeline", "data-engineering", "etl"]
 description: "From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026."
 slug: "lakeflow-declarative-pipelines-2026"
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Lakeflow Declarative Pipelines
 ---
+
+## TL;DR
+
+- Lakeflow Declarative Pipelines is the evolution of Delta Live Tables, and the rename signals a real shift in mental model: from "tables and dependencies" to "data flows and transformations"
+- The three core building blocks are streaming tables (incremental, append-only), materialized views (full recompute, best for aggregations), and AUTO CDC for slowly-changing dimensions without hand-rolled merge logic
+- Physical optimisation is increasingly automatic in 2026 - liquid clustering is the default, predictive optimization handles maintenance, and Z-order is legacy
+- Keep hand-rolled Spark jobs for imperative logic, external API calls, and ML workloads; Lakeflow is for SQL-shaped data movement
+- Lakeflow and dbt are complementary rather than competitors - some teams use Lakeflow for ingestion to silver and dbt for silver-to-gold
 
 If you've been writing Delta Live Tables (DLT) pipelines, you've been building with Lakeflow without knowing the new name. In 2026, the rebranding matters because it signals how Databricks now wants you to think about declarative pipeline design.
 

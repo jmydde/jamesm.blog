@@ -9,6 +9,14 @@ cover:
   alt: Polkadot 2026 From Infrastructure to Applications Banner
 ---
 
+## TL;DR
+
+- Polkadot's 2026 story is a pivot from infrastructure to user-facing applications, backed by Polkadot 2.0's three pillars (Asynchronous Backing, Agile Coretime, Elastic Scaling) now live - Moonbeam and Astar reported 3-5x throughput gains
+- The March 2026 tokenomics overhaul introduced a hard cap of 2.1 billion DOT, dropping annual inflation from 7.2% to 3.1% in the first year
+- Revive combines the RISC-V PolkaVM with a fully compliant EVM interpreter, so teams get Polkadot performance without abandoning Ethereum tooling
+- The market has not caught up: as of April 2026, DOT trades around $1.24, roughly 97.9% below its all-time high, despite the protocol-level progress
+- JAM (Polkadot 3.0) reached a near-final v0.8 specification in early 2026, with mainnet expected later in the year or beyond
+
 ## The Pivot Year: Polkadot's Strategic Shift in 2026
 
 Polkadot has undergone a fundamental transformation in 2025-2026. After years of building infrastructure layers, the ecosystem is making a decisive pivot toward user-facing applications. This isn't just a narrative shift - it's embedded in technical upgrades, tokenomics redesigns, and validator economics that reflect a maturing network ready to compete at the application layer.

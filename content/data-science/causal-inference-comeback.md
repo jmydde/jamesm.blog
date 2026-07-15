@@ -9,6 +9,14 @@ cover:
   alt: The Causal Inference Comeback Banner
 ---
 
+## TL;DR
+
+- Causal inference is having a quiet renaissance in 2026 because the failure modes of correlation-only ML - distribution shift, recommendation feedback loops, biased hiring and lending models, broken A/B tests - have become too expensive to ignore
+- The practical toolkit is econometrics come to industry: potential outcomes, DAGs, instrumental variables, regression discontinuity, synthetic controls, and double machine learning
+- Tooling like [DoWhy](https://github.com/py-why/dowhy), EconML, and CausalML dropped the friction that used to keep these methods in academia, and AI assistants dropped the implementation cost
+- The teams absorbing causal thinking are not abandoning predictive ML - they use predictive models where the world is stable and causal models where they are evaluating interventions
+- The deeper shift: data science is moving from technical execution to analytical judgement, and judgement is the part that is not automatable
+
 For most of the deep-learning era, the answer to "why is this happening in our data?" was "we do not actually care - we care that our model predicts well." For a wide range of problems, that pragmatism worked. The models did predict well. The business outcomes followed. The causal questions were left to academics and economists.
 
 The mood has shifted in 2026. The cases where prediction-without-understanding fails are now visible enough, and expensive enough, that causal inference has moved back from the academic margins to something practitioners need to know about. It is not displacing predictive ML - it is filling in the gap that became unignorable.

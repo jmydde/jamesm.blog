@@ -9,6 +9,14 @@ cover:
   alt: The postal pirates - tape swapping and the 1980s software underground
 ---
 
+## TL;DR
+
+- Before the internet, Britain's software underground ran on paper classifieds, cassette tapes, and the Royal Mail - a postal piracy economy that shaped 1980s computing culture
+- The economics drove it: games cost £15-£40 in 1983 (roughly £60-£160 in 2026 money), while a blank cassette and a stamp cost pennies
+- Magazine classified pages like Micro Mart were the discovery layer - the underground's search engine
+- The trade scaled through the Amiga era on blank floppy disks, with traders building reputations and networks that prefigured online file-sharing culture
+- Almost nobody involved thought of it as crime; the copyright question simply was not asked, which says as much about the era as the copying itself
+
 You can't understand the culture of 1980s computing without understanding the postal tape trade. Before the internet democratized access, there was an entire underground economy running on paper classifieds, cassette tapes, and the British Royal Mail.
 
 ## The Infrastructure of Scarcity

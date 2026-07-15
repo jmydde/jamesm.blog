@@ -9,6 +9,14 @@ cover:
   alt: What the Amiga got right that we are still copying in modern computing
 ---
 
+## TL;DR
+
+- The Amiga, launched in 1985 and dead by 1994, was a commercial failure - and almost every good idea in modern computing traces back to it
+- Preemptive multitasking, graphics compositing, hardware-accelerated audio and video, plug-and-play expansion, and system-wide scripting all shipped on the Amiga while IBM PCs were still effectively 8-bit
+- Jay Miner's radical design used multiple custom processors, each with its own job - the same philosophy behind today's GPUs and specialised silicon
+- What killed it was not the technology but Commodore's management collapse
+- The lesson: deep architectural insight can put a machine a decade ahead, and still lose to distribution and business execution
+
 The Commodore Amiga was not the most successful computer. It was not the fastest. It was not the cheapest. It was introduced in 1985, bought by Commodore in a panic, and discontinued by 1994 as the company collapsed. By most commercial metrics, it was a failure.
 
 Yet almost every good idea in modern computing traces back to the Amiga. Preemptive multitasking. Graphics layers and compositing. Named pipes. Memory protection. Hardware acceleration. Plug-and-play peripherals. Scripting languages. Digital audio and video editing. Networking. The Amiga did these things in 1985 when IBM PCs were still running in 8-bit mode.

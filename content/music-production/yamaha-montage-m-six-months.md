@@ -9,6 +9,14 @@ cover:
   alt: Yamaha Montage M Six Months In Banner
 ---
 
+## TL;DR
+
+- Six months in, the [Yamaha Montage M](https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html) (M8X) is the most musically rewarding synth I have owned - and I use maybe twenty percent of what it can do
+- That is not a complaint: it is a flagship trying to be a stage piano, sample workstation, FM synth, virtual analogue, and controller all at once, and no working musician uses all of it
+- The question that matters is whether the things it does brilliantly map onto the things you actually do; for my hybrid-rig use case the answer is yes
+- Some showroom features were quietly abandoned, while features I initially overlooked became indispensable - the six-month view is very different from release day
+- Your mileage will genuinely vary with your use case; this review is from a hybrid hardware rig perspective, not a stage or sound-design one
+
 A six-month review is a different beast from a release-day one. The honeymoon is over. The early enthusiasm has cooled. The features that demoed well in the showroom have either earned their place in your daily workflow or quietly been abandoned, and the features you initially overlooked have either continued to be irrelevant or become indispensable.
 
 This is a six-month review of the [Yamaha Montage M](https://uk.yamaha.com/en/products/music_production/synthesizers/montagem/index.html), the M8X variant specifically, from the perspective of someone using it as the centrepiece of a hybrid hardware rig rather than a stage instrument or a sound-design lab. The conclusions are mine, the use case is specific, and your mileage will genuinely vary, but the patterns I have noticed are likely to repeat across other working setups.

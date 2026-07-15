@@ -9,6 +9,14 @@ cover:
   alt: Yamaha DX7 The Most Influential Synthesizer Ever Made
 ---
 
+## TL;DR
+
+- The 1983 Yamaha DX7 sold over 200,000 units by 1989 and remains arguably the most influential synthesizer in history - it did not just change synth design, it changed how modern music sounds
+- It was built on FM synthesis, invented by John Chowning at Stanford in the 1970s and licensed by Yamaha - six operators producing timbres subtractive synths could not touch
+- The glassy electric pianos, basses, and bells of mid-80s pop are DX7 presets; a huge share of the era's hits used the factory sounds unchanged
+- It was notoriously hard to program, which nobody cared about - and which accidentally created the preset culture that still defines synth use today
+- Its influence runs to the present: FM engines sit inside most modern workstations and software synths
+
 The Yamaha DX7 wasn't the first synthesizer. It wasn't the most powerful. It wasn't the cheapest. But in 1983, it became the most important instrument released that decade - and arguably the most influential synthesizer in history. By 1989, over 200,000 units had been sold. Today, it remains the second-best-selling synthesizer of all time (after the Casio VL-Tone, which was technically a calculator with a synth).
 
 Here's why that matters: the DX7 didn't just change synthesizer design. It fundamentally altered how modern music sounds.

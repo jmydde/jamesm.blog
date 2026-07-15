@@ -5,7 +5,7 @@ draft: false
 tags: ["databricks", "snowflake", "open-source", "data-engineering", "iceberg", "economics"]
 description: "Deep dive into the shifting economics of the data landscape in 2026: why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack saves money."
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Following the Money in Data
 ---
 

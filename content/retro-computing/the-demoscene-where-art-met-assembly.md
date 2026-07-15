@@ -9,6 +9,14 @@ cover:
   alt: The demoscene - where art met assembly language on 1980s home computers
 ---
 
+## TL;DR
+
+- A demo is a real-time audiovisual production built from nothing but code and mathematics - a 4-minute music video that weighs 64 kilobytes and runs on a Commodore 64
+- The scene evolved from the cracking scene in the early 1980s: groups added intros to cracked games, then realised the intros were the interesting part and dropped the games
+- Size limits (4KB, 64KB) and weak hardware were the point - constraint was the art form
+- Demoscene alumni went on to shape the games industry, graphics programming, and real-time rendering techniques still in use
+- It remains the strongest example of a creative community that valued technical mastery as an aesthetic in itself
+
 The demoscene wasn't about games. It wasn't about productivity software or killer apps. It was about taking a computer that wasn't designed for art, stripping away the operating system, and hand-crafting something beautiful in 512 bytes of RAM.
 
 This was the demoscene, and it was the most vital creative community in computing.

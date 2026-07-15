@@ -9,6 +9,14 @@ cover:
   alt: How BASIC shaped a generation of programmers in the 1980s
 ---
 
+## TL;DR
+
+- BASIC shaped how a generation thought about programming not because it was good, but because it was the only language shipped with the C64, Spectrum, BBC Micro, and Apple II - the machine booted straight into it
+- The gateway effect was real: zero installation, instant feedback, and a language readable enough that magazine listings could be typed in and modified by children
+- Its flaws left marks too - type coercion taught loose thinking, and GOTO-heavy structure fuelled the structured-programming backlash
+- Platform-fragmented dialects meant BASIC skills never fully transferred, an early lesson in lock-in
+- BASIC's real legacy is the idea that a computer should be programmable by its owner out of the box - something modern computing has largely abandoned
+
 When you powered on a Commodore 64 in 1983, the first thing you saw was:
 
 ```

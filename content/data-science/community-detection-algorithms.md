@@ -4,8 +4,19 @@ date: 2026-02-09T09:00:00+00:00
 draft: false
 tags: ["data-science", "graph-algorithm", "network-analysis"]
 description: "Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations."
+cover:
+  image: /assets/images/data-science/data-science.jpg
+  alt: Network graph showing clusters of connected nodes representing community detection
 slug: "community-detection-algorithms"
 ---
+
+## TL;DR
+
+- A community is a group of nodes with more internal connections than you would expect by chance; community detection finds these groups purely from network structure, not features
+- Modularity is the metric everything uses - 0.3-0.7 is typical for real networks, and 0.9+ usually means you have over-clustered
+- Louvain is the industry standard: fast, greedy, no hyperparameters to tune, and it produces high-modularity divisions; label propagation, spectral clustering, and Girvan-Newman fill the gaps
+- The same technique powers friend-group detection, product clustering, fraud-ring identification, and finding functional modules in biological networks
+- Overlapping communities remain the genuinely hard problem - most standard algorithms assign each node to exactly one group
 
 If you've ever looked at a social network and wondered "why is this group of people more connected to each other than to the rest of the network?", you've just articulated the community detection problem.
 

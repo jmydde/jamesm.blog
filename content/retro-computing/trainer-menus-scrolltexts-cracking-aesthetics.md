@@ -9,6 +9,14 @@ cover:
   alt: Trainer menus and scrolltexts - the unique aesthetics of the 1980s cracking scene
 ---
 
+## TL;DR
+
+- Crack intros on 1980s pirated games were underground art with no commercial purpose: trainer menus (cheat systems added after copy protection was removed) and scrolltexts became the visual language of the cracking scene
+- Trainers were augmentation, not piracy itself - groups removed protection and then added menus letting players modify gameplay
+- The aesthetic came from constraint: tiny memory budgets and raw hardware access forced a distinctive look that groups turned into territorial signatures and reputation-building
+- Cracking groups were organised communities with roles, rivalries, and codes of craft, and their techniques leaked into legitimate software and the demoscene
+- The scene's legacy is the lesson that constraints breed style - the look is still copied by artists and game developers today
+
 If you loaded a pirated Commodore Amiga game in 1988, you wouldn't just get the game. You'd get *an experience*. Before the title screen, before the game even loaded, you'd see a custom introduction - a piece of underground art that served no commercial purpose and had to be coded in secret. This was the cracking scene's gift to itself.
 
 Trainer menus and scrolltexts were the visual signature of the piracy underground. They were utilitarian (providing cheats and game modifications) but executed as art. They became a language - a way for cracking groups to claim territory, demonstrate technical skill, and build reputation. Understanding them means understanding how the 1980s underground organized itself aesthetically.

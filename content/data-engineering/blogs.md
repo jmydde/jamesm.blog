@@ -5,7 +5,7 @@ draft: false
 tags: ["data-engineering", "data", "etl"]
 description: "Curated list of Data Engineering blogs covering ETL/ELT, data warehousing, orchestration, and modern data stack best practices."
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Data Engineering Blogs
 ---
 

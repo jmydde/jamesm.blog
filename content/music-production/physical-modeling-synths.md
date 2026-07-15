@@ -9,6 +9,14 @@ cover:
   alt: Physical Modeling Synthesis
 ---
 
+## TL;DR
+
+- Physical modeling recreates the physics of how an instrument produces sound - string tension, resonant cavities, bowing and striking - rather than storing samples or shaping waveforms
+- The payoff is responsiveness: modelled instruments react to how you play in ways a sample library structurally cannot
+- The practical advantage is scale without bloat - a full modelled piano is megabytes, not the hundreds of gigabytes of a flagship sample library
+- Pianoteq and Audio Modeling's SWAM line lead the space in 2026, with the main barrier to adoption being that modelled instruments must be played, not just triggered
+- My take: as processing power keeps rising and expressive controllers spread, physical modeling is where expressive digital instruments are heading
+
 If you've spent any time with Pianoteq or the Audio Modeling SWAM instruments, you've felt something different. Not the crisp accuracy of a sampled library, not the flexibility of wavetable synthesis - but something that responds *like* an instrument. Strings that vibrate with sympathetic resonance. Piano keys with wooden resistance. A cello that sings differently when you bow it hard versus soft.
 
 This is physical modeling: mathematics as an instrument, not just a sampler or synth engine.

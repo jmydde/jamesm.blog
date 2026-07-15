@@ -6,7 +6,7 @@ tags: ['databricks', 'snowflake', 'data-engineering', 'data-warehouse', 'lakehou
 description: "Head-to-head comparison of Databricks and Snowflake in 2026 - when you should choose each, their actual strengths and weaknesses, and the direction each is moving."
 slug: "databricks-vs-snowflake-2026"
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Databricks vs Snowflake
 ---
 

@@ -4,8 +4,19 @@ date: 2026-03-09T10:00:00+00:00
 draft: false
 tags: ["data-science", "graph-algorithm", "performance", "distributed-system", "neptune-analytics"]
 description: "How to take graph algorithms from laptop experiments to production systems handling billions of nodes. Covers memory constraints, distributed computation, query patterns, and the hidden costs nobody talks about."
+cover:
+  image: /assets/images/data-science/data-science.jpg
+  alt: Large-scale network graph representing graph algorithms at production scale
 slug: "scaling-graph-algorithms"
 ---
+
+## TL;DR
+
+- Graph algorithms are memory-bound, not CPU-bound: a 5 billion node, 50 billion edge graph needs 500+ GB just for adjacency, scores, and working memory - it simply does not fit on one machine
+- Four scaling strategies cover most production cases: distributed processing (vertex-cut or edge-cut partitioning), approximate algorithms (sampling, sketching, early stopping), incremental/streaming approaches, and storage-level optimisation (columnar layout, compression, caching)
+- The hidden costs dominate at scale: communication overhead, synchronisation barriers, debugging distributed state, and the operational burden of keeping it all running
+- Full-graph recompute is not feasible at billions of nodes - incremental algorithms and clever approximations are the norm, not the exception
+- Managed services like Neptune Analytics remove much of the partitioning and operations work, at the price of less control
 
 Graph algorithms work great on your laptop. PageRank on a 100,000-node graph finishes in seconds. Louvain finds communities instantly.
 

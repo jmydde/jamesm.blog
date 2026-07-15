@@ -9,6 +9,14 @@ cover:
   alt: Compunet - Britain's forgotten pre-internet online community
 ---
 
+## TL;DR
+
+- Compunet, started in 1982 from a flat in Islington on the Post Office's Prestel videotex network, became one of the world's first genuine online communities - 15 years before most people had an email address
+- It had everything the internet later promised: real-time messaging, online games, pseudonymous identities, digital art, and a culture of people who knew they were part of something new
+- Prestel was the world's first public videotex system (1979), accessed by modem and paid by the minute through modified televisions and home computers
+- By the 1990s it had vanished - Prestel shut down, servers went offline, and the community was almost erased from computing history
+- Its story matters because it shows online culture was invented by hobbyists on the margins, not delivered by the internet's arrival
+
 Long before Facebook, Twitter, or Reddit, there was Compunet. In 1982, in a small flat in Islington, London, two teenagers set up a computer bulletin board system on a network called Prestel. Within a few years, it had become one of the world's first genuine online communities - thousands of people meeting in cyberspace, exchanging messages, playing games, and falling in love, all before the internet existed in public consciousness.
 
 By the 1990s, Compunet had vanished. The Prestel network was shut down. The servers went offline. For decades, it was forgotten - a ghost in the British tech landscape, barely mentioned in the histories of computing or the internet. Yet it had everything the internet would later promise: real-time communication, online games, digital culture, pseudonymity, and a thriving culture of users who saw themselves as part of something new.

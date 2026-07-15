@@ -9,6 +9,14 @@ cover:
   alt: Rebuilding Your Life With Small Systems Banner
 ---
 
+## TL;DR
+
+- When you are rebuilding after a hard chapter, big goals feel absurd - small systems that run even when life is messy are what actually move things
+- Systems beat motivation because motivation is a weather pattern; a system is infrastructure
+- Build for bad days, not ideal days: a system you can run at 30% capacity is worth ten you can only run at your best
+- Confidence is built through evidence - small kept promises to yourself compound into a different self-image
+- The most useful life systems are boring, and rebuilding is rarely linear; the framework is start smaller than feels worthwhile, then let it grow
+
 There are periods in life when big goals feel completely unrealistic.
 
 You might know what you want in theory: more energy, more clarity, better health, stronger finances, a calmer home, a more meaningful life. But when you are tired, emotionally stretched, or rebuilding after a difficult chapter, the idea of "transforming your life" can feel absurdly far away.

@@ -5,7 +5,7 @@ draft: false
 tags: ["databricks", "cheatsheet", "spark", "sql", "delta-lake"]
 description: "Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns"
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Databricks CheatSheet
 ---
 

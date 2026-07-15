@@ -9,6 +9,15 @@ cover:
   alt: Claude Opus 4.7 on Databricks Banner
 ---
 
+## TL;DR
+
+- [Databricks](https://www.databricks.com/) has made Claude Opus 4.7 available on the platform, days after the model's 16 April 2026 release across the Anthropic API, Bedrock, Vertex AI, and Foundry
+- Databricks' own benchmarking shows 21% fewer errors than Opus 4.6 on [OfficeQA Pro](https://www.tipranks.com/news/private-companies/databricks-expands-enterprise-ai-capabilities-with-anthropic-claude-opus-4-7-integration), its internal benchmark for agentic reasoning over business documents
+- The model is exposed through three surfaces: built-in SQL and Python functions, Lakeflow Declarative Pipelines, and Agent Bricks, where it is now the recommended reasoning model
+- Unity Catalog governance, lineage tracking, and audit logging apply to every call - data never leaves the governed boundary
+- Pricing is unchanged at $5 per million input tokens and $25 per million output tokens
+- The bigger story is distribution: Claude is now a first-class model inside all four major enterprise data planes
+
 [Databricks](https://www.databricks.com/) announced this week that [Anthropic's](https://www.anthropic.com/) Claude Opus 4.7 is now live on the platform. The headline from Databricks' own benchmarking is the part worth pausing on - 21% fewer errors than Opus 4.6 on the OfficeQA Pro document-reasoning benchmark when the model is grounded in source information.
 
 That single number tells you more about where enterprise AI is going than any launch keynote.
@@ -106,7 +115,7 @@ That combination is harder to assemble from scratch than any individual piece su
 - [Claude Opus 4.5 Is Here - Databricks Blog](https://www.databricks.com/blog/claude-opus-45-here)
 - [Agent Bricks - Databricks](https://www.databricks.com/product/artificial-intelligence/agent-bricks)
 
-## Related Links
+## Related Reading
 
 - [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/) - The underlying model release
 - [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/) - The hyperscaler context behind Claude's enterprise distribution

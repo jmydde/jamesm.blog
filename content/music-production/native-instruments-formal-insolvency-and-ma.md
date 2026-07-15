@@ -9,6 +9,14 @@ cover:
   alt: Native Instruments Formal Insolvency and MA
 ---
 
+## TL;DR
+
+- Native Instruments has moved from preliminary to formal insolvency proceedings and is simultaneously in active M&A talks with multiple interested buyers - a controlled restructuring, not a death spiral
+- The numbers: roughly €288 million in cumulative losses across 2023-2024 against looming debt maturities of about €262 million
+- Operations continue - products ship, support runs - but CEO Nick Williams' message is clear: the company needs a new ownership structure to survive
+- The private equity chapter is where much of the community's anger is justifiably directed - debt-loaded expansion strategy meeting a declining market
+- What happens next depends on who buys and why; the hopeful scenario is a buyer who wants the instruments business, not just the assets
+
 When Native Instruments entered preliminary insolvency in late January, it felt like a seismic moment. Two months later, the picture has gotten clearer - and in some ways, more complex. The company has now moved into **formal insolvency proceedings**, and simultaneously revealed it's in active **merger and acquisition talks** with multiple interested buyers. This isn't a bankruptcy death spiral; it's a controlled restructuring. But it raises harder questions about what went wrong, and what salvation might actually look like.
 
 ## The Escalation: From Preliminary to Formal

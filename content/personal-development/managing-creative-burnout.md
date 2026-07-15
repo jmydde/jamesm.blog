@@ -9,6 +9,14 @@ cover:
   alt: The Engineer's Guide to Managing Creative Burnout Banner
 ---
 
+## TL;DR
+
+- Engineer burnout has a specific shape: infinite scope, context switching, invisible work, decision fatigue, and the expectation to be always-on
+- Prevention rests on three pillars: timeboxing work items, learning to say no, and communicating honestly across levels
+- Timeboxing works because it converts infinite scope into finite commitments - the box is the boundary, not the estimate
+- Saying no is a skill with scripts, not a personality trait; most "no"s are actually "not now" or "not me"
+- The paradox of boundaries: the engineers who protect their creative energy most fiercely are the ones who end up giving the most
+
 ## The Shape of Engineer Burnout
 
 Creative burnout in engineering looks different than burnout in other fields. It's not just exhaustion from long hours (though that's part of it). It's the specific fatigue that comes from:

@@ -9,6 +9,14 @@ cover:
   alt: Modular Synthesis Building Blocks
 ---
 
+## TL;DR
+
+- Modular synthesis reduces to one idea: signal flow - generate a signal, shape it, modulate it, send it somewhere useful
+- Six module types do the heavy lifting in almost every patch: oscillators (raw material), filters (sculpting), envelopes (shape over time), LFOs (motion), VCAs (controlled loudness), and mixers (combining)
+- A basic patch - oscillator into filter into VCA, with an envelope opening the VCA - is the skeleton behind most of what you hear from any synth
+- Modular feels hard because nothing is pre-wired; that is also exactly why it teaches synthesis better than any preset instrument
+- Start small: understand these blocks before buying a case full of exotic modules
+
 Modular synthesis can feel overwhelming at first. There are dozens of modules, hundreds of cables, and infinite ways to patch them together. But underneath all that complexity lies a simple truth: modular synthesis is about understanding how audio flows from one place to another, and learning to shape that signal at every step.
 
 If you've ever felt lost looking at a Eurorack case, this post is for you. We're going to break modular synthesis down to its essential building blocks - the modules that do the heavy lifting in almost every patch.

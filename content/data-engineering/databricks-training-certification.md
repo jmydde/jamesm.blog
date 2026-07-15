@@ -5,7 +5,7 @@ draft: false
 tags: ['databricks', 'training', 'certification', 'lakehouse', 'dlt', 'unity-catalog']
 description: "Complete guide to Databricks certifications with training resources, exam costs, and learning paths"
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Databricks Training and Certification
 ---
 

@@ -87,7 +87,7 @@ If you are new to iOS music apps and want a sensible starting kit:
 
 From there, follow whatever sound is missing rather than collecting apps for their own sake. The iOS music ecosystem rewards depth in a few tools far more than breadth across many.
 
-## Related posts
+## Related Reading
 
 - [The Best Software Synths in 2026](/music-production/best-software-synths-2026/)
 - [The Best MPE Controllers in 2026](/music-production/best-mpe-controllers-2026/)

@@ -6,11 +6,19 @@ tags: ["databricks", "unity-catalog", "governance", "lakehouse"]
 description: "Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings."
 slug: "unity-catalog-in-practice-2026"
 cover:
-  image: images/data.jpg
+  image: /assets/images/data-engineering/data.jpg
   alt: Unity Catalog in Practice
 ---
 
 *The views in this post are my own personal reflections on industry patterns, written in my own time. They are not about any specific employer, team, or colleague, past or present, and do not draw on any non-public information.*
+
+## TL;DR
+
+- Unity Catalog is a unified access-control and metadata layer for tables, volumes, models, and notebooks - it is not a data-quality tool, a discovery engine, or a masking system, and teams expecting those will be disappointed
+- Migrating from Hive metastore remains the biggest operational challenge in 2026; the hybrid path (migrate reference data first, stage the rest) is the most common in practice
+- Design catalogs around medallion layers (bronze/silver/gold), not per-environment schema sprawl, and grant permissions only through roles, never directly to users
+- Budget realistically: $50k-$200k of engineering time for large-organisation migrations, roughly a third to half of one engineer's time ongoing, and under 5% query overhead
+- Skip UC for single-team startups, sandbox data, and some streaming workloads; full adoption typically takes 6-12 months
 
 Unity Catalog sounds straightforward: "one governance layer for all your data and AI assets." In theory, it's elegant. In practice, you'll run into gotchas that docs don't prepare you for.
 

@@ -9,6 +9,14 @@ cover:
   alt: Platform Engineering in 2026 Banner
 ---
 
+## TL;DR
+
+- Platform engineering - building an internal developer platform (IDP) of golden paths, self-service environments, a developer portal, policy as code, and paved-road CI/CD - is the default shape of infrastructure teams larger than a dozen people in 2026
+- Four forces drove the convergence: cognitive load (the cloud-native stack is too big for one head), the [DORA evidence](https://dora.dev/research/) linking platforms to elite performance, the regulatory ratchet, and AI agents
+- AI agents made 2026 the tipping point: an agent that can open PRs and apply Terraform changes is only safe inside a platform that enforces policy checks, cost caps, and blast-radius limits
+- Platform engineering is not a rebrand of DevOps - the platform team is a product team whose customers are other engineers
+- If you have no platform yet, start with the single most-painful golden path, not a portal
+
 Platform engineering used to be the title on a few job adverts at Spotify and Netflix. In 2026 it is the default shape of any infrastructure team larger than a dozen people. The shift is worth understanding, because it is not just a rebrand of DevOps - it is a different operating model, with different tools, different incentives, and a different relationship to the developers it serves.
 
 This post is a plain-language walk through what platform engineering actually is, why the industry has converged on it, and how the arrival of AI agents is reshaping the discipline mid-flight.

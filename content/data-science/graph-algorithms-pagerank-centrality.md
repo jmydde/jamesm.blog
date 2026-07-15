@@ -4,8 +4,19 @@ date: 2026-01-02T08:00:00+00:00
 draft: false
 tags: ["data-science", "graph-algorithm", "network-analysis", "neptune-analytics"]
 description: "A practical guide to understanding graph algorithms: how PageRank actually works, when to use centrality measures, and why these patterns matter for real-world problems like recommendation systems and fraud detection."
+cover:
+  image: /assets/images/data-science/data-science.jpg
+  alt: Network graph visualisation representing PageRank and centrality algorithms
 slug: "graph-algorithms-pagerank-centrality"
 ---
+
+## TL;DR
+
+- Graph queries answer relationship questions (paths, positions, influence) that are impossibly expensive in a relational database - the mental shift is from filtering rows to traversing paths
+- PageRank measures a node's importance by the importance of the nodes pointing to it; it is recursive, converges after 20-30 iterations, and applies far beyond web pages - citations, social influence, recommendations
+- Centrality is an umbrella term: degree (how connected), betweenness (how many paths run through you), closeness (how near everything you are), and eigenvector (whether you are connected to important nodes) each answer a different question
+- Picking the right centrality measure for the question matters more than tuning any single algorithm
+- Managed engines like Neptune Analytics run these at scale without you implementing the iteration loops yourself
 
 Graph algorithms often get treated as academic curiosities - something you learn in a computer science course and then never think about again. But they're actually the hidden backbone of some of the most profitable systems on the internet.
 

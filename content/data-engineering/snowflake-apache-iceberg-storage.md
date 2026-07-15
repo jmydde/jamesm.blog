@@ -5,7 +5,7 @@ draft: false
 tags: ["snowflake", "iceberg", "lakehouse", "aws", "azure", "open-source"]
 description: "Snowflake Storage for Apache Iceberg is now available on AWS and Azure, enabling enterprise-grade reliability and governance for open data formats while breaking vendor lock-in."
 cover:
-  image: images/snowflake.jpg
+  image: /assets/images/data-engineering/snowflake.jpg
   alt: Snowflake Icon
 ---
 

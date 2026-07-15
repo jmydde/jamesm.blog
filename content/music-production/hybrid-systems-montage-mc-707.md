@@ -9,6 +9,14 @@ cover:
   alt: Hybrid Systems Montage MC-707 Banner
 ---
 
+## TL;DR
+
+- The Yamaha Montage M and Roland MC-707 are each complete instruments, but paired they become something neither is alone - this has been my main writing rig for the past year
+- The logic of the pairing: the Montage is a sound design instrument (deep, evolving voices that reward programming), the MC-707 is a song construction instrument (a four-bar idea playing in two minutes)
+- The architecture that works: MC-707 as sequencer and clock master, Montage as a multitimbral sound module, with careful MIDI channel layout and audio routing
+- Clocking and audio routing are where hybrid rigs live or die - decide the master early and keep it
+- If you are considering the setup, buy the workflow, not the spec sheets: the value is in how the two instruments cover each other's weaknesses
+
 The Yamaha Montage M and the Roland MC-707 are both, on paper, complete instruments. The Montage is a flagship synth workstation with three distinct sound engines and the kind of polyphony and DSP headroom that makes most studio plugins look slow. The MC-707 is a compact groovebox with eight tracks, an internal sequencer, sample playback, and the kind of immediate hands-on workflow that makes laptop production feel laborious by comparison.
 
 Either one will get you a finished track. Together they are a different instrument entirely, and the pairing has become my main writing rig for the last year. This post is the architecture I have settled on, the wiring that makes it work, and the parts of the workflow that genuinely earn their place. For wider context on where the MC-707 sits in the groovebox landscape, see [Top 5 grooveboxes of 2025](/music-production/top-5-grooveboxes-2025/) and the [TR-8S vs MC-707 comparison](/music-production/roland-tr-8s-vs-mc-707/).

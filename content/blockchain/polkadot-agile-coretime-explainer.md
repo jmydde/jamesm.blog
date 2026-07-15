@@ -9,6 +9,14 @@ cover:
   alt: Polkadot Agile Coretime Explainer Banner
 ---
 
+## TL;DR
+
+- Agile Coretime (Polkadot 2.0) replaces two-year reserved parachain slots with pay-as-you-go blockspace - reserved parking spots become parking meters
+- The old model cost $2-5 million in DOT collateral per slot and left the network at maybe 30-40% effective capacity, because idle parachains still held their lanes
+- Cores now sell by the week, month, or season - roughly $100-500 per week as of 2026, around 100x cheaper than the per-week equivalent of a traditional slot
+- The secondary market is the quiet game-changer: unused capacity can be resold instead of wasted
+- The trade-offs are real - bulk-sale price volatility and less long-term certainty for teams that want guaranteed capacity
+
 If you've been following Polkadot, you've probably heard "Agile Coretime" mentioned alongside "Elastic Scaling" and "Asynchronous Backing." It sounds technical, important, and confusing. This post explains what it actually is, why it matters, and what it means for the network.
 
 The short version: **Polkadot used to allocate blockspace like reserved parking spots. Agile Coretime makes it more like a parking meter - you pay for what you use, when you use it.**

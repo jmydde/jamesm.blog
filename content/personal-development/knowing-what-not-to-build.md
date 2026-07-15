@@ -9,6 +9,14 @@ cover:
   alt: The Most Valuable Skill Is Knowing What Not to Build Banner
 ---
 
+## TL;DR
+
+- The ability to say no to a buildable idea is rarer and more valuable than knowing how to build well
+- Ideas are abundant; attention, energy, and years are not - every yes is an implicit no to everything else you could have built
+- Discernment is a trainable skill: interrogate who the thing is for, what it costs to maintain, and whether you would still want it in five years
+- The compound effect runs both ways - focused builders compound depth, scattered builders compound half-finished repositories
+- The hardest no is to the idea that is genuinely good but still not yours to build
+
 Every builder knows the feeling. You have an idea. It's clever. It could be useful. You start sketching it out, planning the architecture, imagining how it would work.
 
 Then you stop.

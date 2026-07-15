@@ -9,6 +9,14 @@ cover:
   alt: The Lunar Gateway - humanity's stepping stone to sustained lunar presence
 ---
 
+## TL;DR
+
+- The [Lunar Gateway](https://www.nasa.gov/gateway/) is infrastructure, not a destination: a way station in lunar orbit that separates the hard problem (Earth to lunar orbit) from the repeated one (orbit to surface)
+- Without it, each Artemis landing needs at least two SLS launches plus a Starship - roughly four Moon landings per decade; with it, landings can become routine
+- Assembly is modular: the Power and Propulsion Element arrives around 2028-2029, followed by the HALO habitation module, with operations expanding through the 2030s
+- The Gateway is to the Moon what the ISS is to Earth orbit, and it doubles as a staging point for the lunar far side and eventually deeper space
+- The honest risks are funding uncertainty, lander development, and international coordination - the technology is the more solved part
+
 ## The Gateway Concept
 
 When most people think of returning to the Moon, they imagine Artemis astronauts landing, collecting samples, and returning home - just like Apollo. That's the goal for Artemis III and IV.
