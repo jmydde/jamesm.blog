@@ -2,6 +2,7 @@
 title: "How Likely Is It That We're Living in a Simulation?"
 date: 2026-05-21T20:32:00+01:00
 draft: false
+aliases: ["/general/how-likely-are-we-living-in-a-simulation/"]
 tags: ["philosophy","science","physics","consciousness","simulation"]
 description: "A careful look at the simulation argument: what it actually claims, why putting a number on it is so hard, and how likely it really is that our reality is computed."
 cover:
@@ -158,8 +159,8 @@ A few interviews worth your time:
 
 ## Related Reading
 
-- [Why Is There Something Rather Than Nothing?](https://jamesm.blog/general/why-is-there-something-rather-than-nothing/)
-- [Favourite Physicists](https://jamesm.blog/general/favourite-physicists/)
-- [Very Very Large Numbers](https://jamesm.blog/general/huge-numbers/)
+- [Why Is There Something Rather Than Nothing?](https://jamesm.blog/theories/why-is-there-something-rather-than-nothing/)
+- [Favourite Physicists](https://jamesm.blog/theories/favourite-physicists/)
+- [Very Very Large Numbers](https://jamesm.blog/theories/huge-numbers/)
 - [The Physics and Philosophy of Interstellar](https://jamesm.blog/space/interstellar-physics-and-philosophy/)
 - [The Exponential Curve: Understanding Human Advancement Acceleration](https://jamesm.blog/general/human-advancement-acceleration/)

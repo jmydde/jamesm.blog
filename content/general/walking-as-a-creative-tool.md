@@ -81,7 +81,7 @@ The boring summary: most successful sustained creative work in history has invol
 ## Related Reading
 
 - [Reading Slowly in a Skim-First World](/general/reading-slowly-in-skim-first-world/)
-- [A Full Second of Stillness](/general/a-full-second-of-stillness/)
+- [A Full Second of Stillness](/theories/a-full-second-of-stillness/)
 - [The Two-Hour Deep Work Block](/personal-development/two-hour-deep-work-block/)
 - [Managing Creative Burnout](/personal-development/managing-creative-burnout/)
 - [Boosting Productivity Habits](/personal-development/boosting-productivity-habits/)

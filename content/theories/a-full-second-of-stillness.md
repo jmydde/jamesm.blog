@@ -2,6 +2,7 @@
 title: "A Full Second of Stillness: How Physicists Pinned Light in Place"
 date: 2026-04-19T22:28:00+01:00
 draft: true
+aliases: ["/general/a-full-second-of-stillness/"]
 tags: ["quantum", "physics", "science"]
 description: "Researchers have held a pulse of light motionless for an entire second - a thousandfold leap over earlier records. Here is what that actually means, how it was done, and why it reshapes the future of quantum hardware."
 cover:
@@ -68,7 +69,7 @@ For now, it is enough to sit with the strangeness of the achievement. A pulse of
 
 ## Related Reading
 
-- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
-- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/general/sean-carroll/)
-- [A New Universe All Throughout The Day](/general/a-new-universe-all-throughout-the-day/)
-- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)
+- [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/)
+- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/theories/sean-carroll/)
+- [A New Universe All Throughout The Day](/theories/a-new-universe-all-throughout-the-day/)
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/theories/max-tegmark/)

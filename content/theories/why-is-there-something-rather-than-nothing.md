@@ -2,6 +2,7 @@
 title: "Why Is There Something Rather Than Nothing?"
 date: 2026-04-15T23:41:00+01:00
 draft: false
+aliases: ["/general/why-is-there-something-rather-than-nothing/"]
 tags: ["physics", "science", "cosmology", "philosophy", "quantum"]
 description: "A physics-minded reflection on one of the deepest questions there is: why anything exists at all instead of nothing."
 cover:
@@ -190,8 +191,8 @@ But the fact that the question can be asked from within the universe by a tempor
 
 ## Related Reading
 
-- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/)
-- [How Likely Is It That We're Living in a Simulation?](/general/how-likely-are-we-living-in-a-simulation/)
-- [Max Tegmark and the Mathematical Universe](/general/max-tegmark/)
+- [Is Reality Made of Mathematics?](/theories/is-reality-made-of-mathematics/)
+- [How Likely Is It That We're Living in a Simulation?](/theories/how-likely-are-we-living-in-a-simulation/)
+- [Max Tegmark and the Mathematical Universe](/theories/max-tegmark/)
 - [The Computational Case for Consciousness](/ai/the-computational-case-for-consciousness/)
 - [Human Advancement Is Accelerating](/general/human-advancement-acceleration/)

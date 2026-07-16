@@ -2,6 +2,7 @@
 title: "Is Reality Made of Mathematics?"
 date: 2026-05-31T08:30:00+01:00
 draft: false
+aliases: ["/general/is-reality-made-of-mathematics/"]
 tags: ["physics","science","mathematics","cosmology","philosophy"]
 description: "Max Tegmark's Mathematical Universe Hypothesis says reality is not merely described by mathematics - it is a mathematical structure, and nothing else. A walk through the claim, the Level IV multiverse, the strongest objections, and why the idea sits so close to something I already lean toward."
 cover:
@@ -9,9 +10,9 @@ cover:
   alt: Is Reality Made of Mathematics Banner
 ---
 
-In [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/) I admitted to an instinct I have never quite been able to shake: that the laws of physics are discovered rather than invented, and that mathematics might be genuinely fundamental - not a human language we lay over reality, but part of the bedrock. I said that if we ever reach base reality, maths is the thing most likely to get us there. I left it as a feeling. This post is me taking that feeling and seeing how far a serious physicist has been willing to push it.
+In [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/) I admitted to an instinct I have never quite been able to shake: that the laws of physics are discovered rather than invented, and that mathematics might be genuinely fundamental - not a human language we lay over reality, but part of the bedrock. I said that if we ever reach base reality, maths is the thing most likely to get us there. I left it as a feeling. This post is me taking that feeling and seeing how far a serious physicist has been willing to push it.
 
-That physicist is [Max Tegmark](https://en.wikipedia.org/wiki/Max_Tegmark), who sits at the top of my [favourite physicists](/general/favourite-physicists/) list, and the idea is his [Mathematical Universe Hypothesis](https://en.wikipedia.org/wiki/Mathematical_universe_hypothesis). It is one of the boldest claims in modern physics, and it is easy to half-hear it as a poetic flourish - "the universe is deeply mathematical, isn't that lovely." That is not what Tegmark means. He means it literally. He is not saying reality is *described by* mathematics. He is saying reality *is* mathematics, that there is no other ingredient, and that you and I are self-aware substructures inside a mathematical object that exists in the same timeless way the number seven does.
+That physicist is [Max Tegmark](https://en.wikipedia.org/wiki/Max_Tegmark), who sits at the top of my [favourite physicists](/theories/favourite-physicists/) list, and the idea is his [Mathematical Universe Hypothesis](https://en.wikipedia.org/wiki/Mathematical_universe_hypothesis). It is one of the boldest claims in modern physics, and it is easy to half-hear it as a poetic flourish - "the universe is deeply mathematical, isn't that lovely." That is not what Tegmark means. He means it literally. He is not saying reality is *described by* mathematics. He is saying reality *is* mathematics, that there is no other ingredient, and that you and I are self-aware substructures inside a mathematical object that exists in the same timeless way the number seven does.
 
 ## TL;DR
 
@@ -53,7 +54,7 @@ Here is where the hypothesis stops being a reinterpretation of our universe and 
 
 If our universe exists *because* it is a consistent mathematical structure, then the obvious question is what is special about that particular structure. Tegmark's honest answer is: nothing. There is no principled reason to grant physical existence to the structure we happen to live in while denying it to every other consistent structure. So he bites the bullet. Every mathematically consistent structure exists, in exactly the same full-blooded sense ours does, and each is a universe (or a whole class of universes) unto itself. This is the **[Level IV multiverse](https://en.wikipedia.org/wiki/Multiverse#Tegmark's_classification)**, the top of the four-level hierarchy of parallel universes he has mapped out.
 
-It is worth pausing on how far this goes, because it dwarfs the more familiar multiverse ideas. Level I is just space beyond our cosmic horizon, more of the same kind of universe. Level II is the bubble universes of [eternal inflation](https://en.wikipedia.org/wiki/Eternal_inflation), where the constants of physics can vary from bubble to bubble. Level III is the [many-worlds](https://en.wikipedia.org/wiki/Many-worlds_interpretation) branching of quantum mechanics, which I wrote about in [A New Universe All Throughout The Day](/general/a-new-universe-all-throughout-the-day/). Levels I to III still share our basic mathematical framework - the same fundamental equations, different solutions or different regions. Level IV throws even that out. Different structures mean genuinely different mathematics, different laws at the deepest level, governed by equations that need have nothing in common with ours.
+It is worth pausing on how far this goes, because it dwarfs the more familiar multiverse ideas. Level I is just space beyond our cosmic horizon, more of the same kind of universe. Level II is the bubble universes of [eternal inflation](https://en.wikipedia.org/wiki/Eternal_inflation), where the constants of physics can vary from bubble to bubble. Level III is the [many-worlds](https://en.wikipedia.org/wiki/Many-worlds_interpretation) branching of quantum mechanics, which I wrote about in [A New Universe All Throughout The Day](/theories/a-new-universe-all-throughout-the-day/). Levels I to III still share our basic mathematical framework - the same fundamental equations, different solutions or different regions. Level IV throws even that out. Different structures mean genuinely different mathematics, different laws at the deepest level, governed by equations that need have nothing in common with ours.
 
 I will admit this is the point where the hypothesis stops feeling abstract for me, because it rhymes hard with an intuition I have had for a long time and set down in that earlier post: that reality is far larger than the single universe we find ourselves in, that there are very likely parallel universes and an unbounded run of big bangs, and that the laws of physics themselves may not be the same from one universe to the next. Tegmark's Level IV is the most rigorous attempt I have seen to take that exact feeling and give it a foundation. That resonance is precisely why I am being careful with it.
 
@@ -97,7 +98,7 @@ That is exactly the tension with the other thread I have been pulling on. When I
 
 ## A note on the simulation question
 
-It is worth heading off a natural confusion, because this looks superficially like the [simulation hypothesis](/general/how-likely-are-we-living-in-a-simulation/) and is not the same thing at all.
+It is worth heading off a natural confusion, because this looks superficially like the [simulation hypothesis](/theories/how-likely-are-we-living-in-a-simulation/) and is not the same thing at all.
 
 A simulation needs a computer, a substrate, a base reality running the code. Tegmark's picture has no substrate and no programmer. The mathematical structure is not being *computed by* anything in a deeper physical world - it just exists, statically and self-sufficiently, the way a mathematical object exists. There is no machine humming away underneath. In that respect the Mathematical Universe Hypothesis is closer to the projected picture I keep being drawn back to than to the engineered-simulation one: a reality that is self-existent rather than manufactured, with no operators standing outside it. The difference is what does the projecting. Where I have wondered whether a single underlying consciousness might be living out every possible life from the inside, Tegmark would say there is no projector and no audience - only structure, all the way down, with the feeling of being someone a pattern the structure contains. Those are very different bedrocks, and which one you prefer comes back, again, to the consciousness question I cannot close.
 
@@ -126,8 +127,8 @@ The honest sticking point, for me, is consciousness. A universe made of pure str
 
 ## Related Reading
 
-- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/) - the companion question this post grew out of, where I first set down the instinct that mathematics might be the bedrock of reality.
-- [A New Universe All Throughout The Day](/general/a-new-universe-all-throughout-the-day/) - the many-worlds branching that sits at Level III of Tegmark's hierarchy, one rung below the mathematical multiverse.
+- [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/) - the companion question this post grew out of, where I first set down the instinct that mathematics might be the bedrock of reality.
+- [A New Universe All Throughout The Day](/theories/a-new-universe-all-throughout-the-day/) - the many-worlds branching that sits at Level III of Tegmark's hierarchy, one rung below the mathematical multiverse.
 - [Donald Hoffman: The Case That Consciousness Is Fundamental](/ai/donald-hoffman-consciousness-fundamental/) - the opposite bet, where consciousness rather than mathematics is the floor, and the cleanest foil for the strong hypothesis here.
-- [How Likely Is It That We're Living in a Simulation?](/general/how-likely-are-we-living-in-a-simulation/) - why a mathematical universe is not a simulated one, despite the surface resemblance.
-- [Favourite Physicists](/general/favourite-physicists/) - more on Tegmark and the others who have shaped how I think about the deepest layer of reality.
+- [How Likely Is It That We're Living in a Simulation?](/theories/how-likely-are-we-living-in-a-simulation/) - why a mathematical universe is not a simulated one, despite the surface resemblance.
+- [Favourite Physicists](/theories/favourite-physicists/) - more on Tegmark and the others who have shaped how I think about the deepest layer of reality.

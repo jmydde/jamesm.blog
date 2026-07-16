@@ -3,6 +3,7 @@ title: "Favourite Physicists"
 date: 2023-05-11T21:06:35+01:00
 updated: 2026-04-07T00:00:00+01:00
 draft: false
+aliases: ["/general/favourite-physicists/"]
 tags: ["mathematics", "physics", "science", "cosmology"]
 description: "A collection of influential physicists who have shaped our understanding of the universe, with notable talks and contributions."
 cover:
@@ -59,7 +60,7 @@ Feynman's witty and penetrating critique of pseudoscience and the importance of 
 
 ## Related Reading
 
-- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)
-- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/)
-- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
-- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/general/sean-carroll/)
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/theories/max-tegmark/)
+- [Is Reality Made of Mathematics?](/theories/is-reality-made-of-mathematics/)
+- [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/)
+- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/theories/sean-carroll/)

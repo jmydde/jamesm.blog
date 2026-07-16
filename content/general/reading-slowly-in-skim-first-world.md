@@ -57,8 +57,8 @@ In a year when more text is being produced, distributed, and consumed than at an
 
 ## Related Reading
 
-- [A Full Second of Stillness](/general/a-full-second-of-stillness/)
-- [Why Is There Something Rather Than Nothing](/general/why-is-there-something-rather-than-nothing/)
+- [A Full Second of Stillness](/theories/a-full-second-of-stillness/)
+- [Why Is There Something Rather Than Nothing](/theories/why-is-there-something-rather-than-nothing/)
 - [Human Advancement Acceleration](/general/human-advancement-acceleration/)
 - [The Two-Hour Deep Work Block](/personal-development/two-hour-deep-work-block/)
 - [Learning Anything in 90 Days](/personal-development/learning-anything-in-90-days/)

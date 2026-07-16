@@ -64,6 +64,8 @@ languages:
           url: /software-engineering
         - name: Space
           url: /space
+        - name: Theories
+          url: /theories
 
 outputs:
   home:
@@ -95,6 +97,7 @@ params:
     - security
     - software-engineering
     - space
+    - theories
   ShowCodeCopyButtons:            true
   ShowBreadCrumbs:                true
   ShowPostNavLinks:               true
@@ -124,13 +127,14 @@ params:
       - [**Data Engineering**](/data-engineering) (Building data infrastructure that actually scales)
       - [**Data Science**](/data-science) (Graph algorithms, network analysis, and statistical methods)
       - [**DevOps**](/devops) (Infrastructure, automation, and operational philosophy)
-      - [**General**](/general) (Culture, science, and the miscellaneous)
+      - [**General**](/general) (Culture, television, and the miscellaneous)
       - [**Retro Computing**](/retro-computing) (The machines and culture that shaped computing)
       - [**Music Production**](/music-production) (Gear, sound design, and creative workflow)
       - [**Personal Development**](/personal-development) (Expertise, craft, and the engineering mindset)
       - [**Security**](/security) (Threat modeling, cryptography, and systems that resist attack)
       - [**Software Engineering**](/software-engineering) (System design, languages, and the craft of code)
       - [**Space**](/space) (Infrastructure and vision for human expansion beyond Earth)
+      - [**Theories**](/theories) (Physics, cosmology, and the big open questions about reality)
 
   socialIcons:
     - name: gmail

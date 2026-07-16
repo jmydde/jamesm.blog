@@ -2,6 +2,7 @@
 title: "Unbaffled with Jim Al-Khalili: Making the Weirdest Ideas in Science Feel Intuitive"
 date: 2026-07-15T09:00:00+01:00
 draft: false
+aliases: ["/general/unbaffled-jim-al-khalili/"]
 tags: ["physics","quantum","science","youtube","education","jim-al-khalili"]
 description: "Jim Al-Khalili's new YouTube channel Unbaffled launched in June 2026 with a simple pitch - make the ideas that baffle people, from many-worlds to why your brain has two hemispheres, feel intuitive rather than impossible. A first look at the channel, three of its early videos, and where I land on the many-worlds one."
 cover:
@@ -9,13 +10,13 @@ cover:
   alt: Unbaffled with Jim Al-Khalili Banner
 ---
 
-I have already written about the two physicists who did the most to talk me into taking [many-worlds](/general/sean-carroll/) and the wider [multiverse](/general/max-tegmark/) seriously, so when a new YouTube channel showed up in my feed built entirely around the premise that science *doesn't have to be baffling*, I was always going to click. [Unbaffled](https://www.youtube.com/@UnbaffledScience), presented by [Professor Jim Al-Khalili](https://en.wikipedia.org/wiki/Jim_Al-Khalili), launched on 25 June 2026, and in its first three weeks it has already covered quantum interpretation, brain lateralisation, and whether time travel is physically permitted. That is a wide spread for a channel barely a month old, and it is exactly the range I wanted a profile to capture.
+I have already written about the two physicists who did the most to talk me into taking [many-worlds](/theories/sean-carroll/) and the wider [multiverse](/theories/max-tegmark/) seriously, so when a new YouTube channel showed up in my feed built entirely around the premise that science *doesn't have to be baffling*, I was always going to click. [Unbaffled](https://www.youtube.com/@UnbaffledScience), presented by [Professor Jim Al-Khalili](https://en.wikipedia.org/wiki/Jim_Al-Khalili), launched on 25 June 2026, and in its first three weeks it has already covered quantum interpretation, brain lateralisation, and whether time travel is physically permitted. That is a wide spread for a channel barely a month old, and it is exactly the range I wanted a profile to capture.
 
 ## TL;DR
 
 - [Unbaffled](https://www.youtube.com/@UnbaffledScience) launched on 25 June 2026, presented by [Jim Al-Khalili](https://en.wikipedia.org/wiki/Jim_Al-Khalili), Distinguished Professor Emeritus of Physics at the [University of Surrey](https://www.surrey.ac.uk/people/jim-al-khalili) and a [Fellow of the Royal Society](https://royalsociety.org/people/jim-al-khalili-13796/).
 - The channel mixes short explainers with longer sit-down pieces, publishing several times a week rather than on a slow monthly documentary cycle.
-- Its most direct video for me was *[The Many Worlds Interpretation of quantum mechanics implies multiples of you exist](https://www.youtube.com/watch?v=VOe1EmdTI_s)*, which lands on the same territory I covered when writing about [Sean Carroll](/general/sean-carroll/).
+- Its most direct video for me was *[The Many Worlds Interpretation of quantum mechanics implies multiples of you exist](https://www.youtube.com/watch?v=VOe1EmdTI_s)*, which lands on the same territory I covered when writing about [Sean Carroll](/theories/sean-carroll/).
 - *[There's a Problem with Quantum Mechanics](https://www.youtube.com/watch?v=sivQ-jbZ2oM)* and *[Three Ways Physicists Think Reality Works](https://www.youtube.com/watch?v=-_8apfiiTR4)* lay the groundwork for that video by walking through why physicists still disagree about what quantum theory means.
 - The channel is not just quantum foundations - *[Why Evolution Split Your Brain In Half](https://www.youtube.com/watch?v=ybuhqtDVO_A)* is a genuinely good primer on brain [lateralisation](https://en.wikipedia.org/wiki/Lateralization_of_brain_function) that has nothing to do with physics at all.
 - Al-Khalili has spent over three decades as an academic physicist working on the foundations of quantum mechanics and the [arrow of time](https://en.wikipedia.org/wiki/Arrow_of_time), which is a rare and useful thing to have behind a channel this new.
@@ -34,7 +35,7 @@ Alongside the research he has built one of the more substantial public-science c
 
 {{< youtube "VOe1EmdTI_s" >}}
 
-*The Many Worlds Interpretation of quantum mechanics implies multiples of you exist* does exactly what the channel name promises. Al-Khalili takes an idea that sounds like it belongs in science fiction - that every quantum event branches reality into multiple outcomes, all of which actually happen - and works through why a working physicist can hold it as a serious, mainstream reading of the equations rather than a flourish. It is the same territory I covered at length when I wrote about [Sean Carroll](/general/sean-carroll/), and it is useful to watch the two side by side, because Al-Khalili's background in the foundations of quantum mechanics gives him a slightly different entry point into the same argument.
+*The Many Worlds Interpretation of quantum mechanics implies multiples of you exist* does exactly what the channel name promises. Al-Khalili takes an idea that sounds like it belongs in science fiction - that every quantum event branches reality into multiple outcomes, all of which actually happen - and works through why a working physicist can hold it as a serious, mainstream reading of the equations rather than a flourish. It is the same territory I covered at length when I wrote about [Sean Carroll](/theories/sean-carroll/), and it is useful to watch the two side by side, because Al-Khalili's background in the foundations of quantum mechanics gives him a slightly different entry point into the same argument.
 
 Two companion videos do the groundwork this one leans on. *[There's a Problem with Quantum Mechanics](https://www.youtube.com/watch?v=sivQ-jbZ2oM)* sets up the actual puzzle - that the theory predicts outcomes with extraordinary precision while physicists still cannot agree on what is physically happening between the equations and the result you observe. *[Three Ways Physicists Think Reality Works](https://www.youtube.com/watch?v=-_8apfiiTR4)* then lays out the field of live interpretations side by side, with many-worlds as one option among several rather than the default answer. That ordering matters. It would be easy for a single video to present many-worlds as *the* answer; watching it as the third video in a short arc makes clear it is Al-Khalili's preferred reading of a genuinely open question, not settled physics.
 
@@ -52,7 +53,7 @@ The format difference is also worth noting. Unbaffled is not publishing one poli
 
 ## Why I will keep watching
 
-I go looking for channels like this for the same reason I wrote about Carroll and [Max Tegmark](/general/max-tegmark/) - not because I need convincing that quantum mechanics is strange, but because I want people who actually work in the field checking my intuitions rather than confirming them. Al-Khalili has the research background to do that properly, the channel is publishing often enough to actually build a body of work rather than one viral video, and the range on display in the first month, from many-worlds to brain lateralisation to a live audience Q&A, suggests it is not going to narrow into a single-topic channel. A month of output is not enough to declare it essential, but it is enough to say I am subscribed and paying attention.
+I go looking for channels like this for the same reason I wrote about Carroll and [Max Tegmark](/theories/max-tegmark/) - not because I need convincing that quantum mechanics is strange, but because I want people who actually work in the field checking my intuitions rather than confirming them. Al-Khalili has the research background to do that properly, the channel is publishing often enough to actually build a body of work rather than one viral video, and the range on display in the first month, from many-worlds to brain lateralisation to a live audience Q&A, suggests it is not going to narrow into a single-topic channel. A month of output is not enough to declare it essential, but it is enough to say I am subscribed and paying attention.
 
 ## Further Watching
 
@@ -73,8 +74,8 @@ I go looking for channels like this for the same reason I wrote about Carroll an
 
 ## Related Reading
 
-- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/general/sean-carroll/) - the profile that first got me taking many-worlds seriously, and the closest companion piece to this one.
-- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/) - the wider multiverse picture that Al-Khalili's many-worlds video sits inside.
-- [Favourite Physicists](/general/favourite-physicists/) - the running list of thinkers who have shaped how I look at these questions.
-- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/) - the deeper question of what is actually doing the branching, if anything is.
-- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/) - where I first set down the instinct that reality is larger than one universe.
+- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/theories/sean-carroll/) - the profile that first got me taking many-worlds seriously, and the closest companion piece to this one.
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/theories/max-tegmark/) - the wider multiverse picture that Al-Khalili's many-worlds video sits inside.
+- [Favourite Physicists](/theories/favourite-physicists/) - the running list of thinkers who have shaped how I look at these questions.
+- [Is Reality Made of Mathematics?](/theories/is-reality-made-of-mathematics/) - the deeper question of what is actually doing the branching, if anything is.
+- [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/) - where I first set down the instinct that reality is larger than one universe.

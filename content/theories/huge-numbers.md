@@ -2,6 +2,7 @@
 title: "Very very large numbers"
 date: 2024-04-21T22:07:01+01:00
 draft: false
+aliases: ["/general/huge-numbers/"]
 tags: ["mathematics", "science", "youtube", "education"]
 description: "Collection of fascinating YouTube videos exploring extraordinarily large numbers, infinity, and mathematical concepts."
 cover:
@@ -76,7 +77,7 @@ A more accessible introduction to why we care about large numbers, how they appe
 
 ## Related Reading
 
-- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)
-- [Favourite Physicists](/general/favourite-physicists/)
-- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/)
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/theories/max-tegmark/)
+- [Favourite Physicists](/theories/favourite-physicists/)
+- [Is Reality Made of Mathematics?](/theories/is-reality-made-of-mathematics/)
 - [The Hindley Street Country Club](/general/the-hindley-street-country-club/)

@@ -126,7 +126,7 @@ We are, quite literally, the first generation in human history to face this scal
 ## Related Reading
 
 - [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
-- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
+- [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/)
 - [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
 - [Policy on the AI Exponential](/ai/policy-on-the-ai-exponential/)
 - [Recursive Self-Improvement: Can AI Bootstrap Its Own Intelligence?](/ai/recursive-self-improvement/)

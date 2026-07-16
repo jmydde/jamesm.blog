@@ -2,6 +2,7 @@
 title: "A New Universe All Throughout The Day"
 date: 2026-04-16T07:24:00+01:00
 draft: false
+aliases: ["/general/a-new-universe-all-throughout-the-day/"]
 tags: ["physics","science","quantum","cosmology","sean-carroll"]
 description: "A short reflection on the strange feeling that reality is constantly becoming new, and how that connects to the many-worlds interpretation of quantum mechanics."
 cover:
@@ -37,7 +38,7 @@ And maybe that is part of why the idea sticks with me. It gives formal language 
 
 ## Related Reading
 
-- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/general/sean-carroll/)
-- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/)
-- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/)
-- [Favourite Physicists](/general/favourite-physicists/)
+- [Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable](/theories/sean-carroll/)
+- [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/)
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/theories/max-tegmark/)
+- [Favourite Physicists](/theories/favourite-physicists/)

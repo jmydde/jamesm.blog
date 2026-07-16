@@ -2,6 +2,7 @@
 title: "Sean Carroll: The Physicist Who Made Many-Worlds Feel Reasonable"
 date: 2026-07-02T23:00:00+01:00
 draft: false
+aliases: ["/general/sean-carroll/"]
 tags: ["physics","quantum","multiverse","cosmology","consciousness","science","sean-carroll"]
 description: "Two recent New Scientist videos sent me back to Sean Carroll, the physicist who first talked me into taking the many-worlds interpretation seriously. A profile of the man and his argument - why he thinks quantum mechanics already implies a multiverse, how that differs from the cosmological one, and where I land as a hobbyist who wants it all to be true."
 cover:
@@ -9,7 +10,7 @@ cover:
   alt: Sean Carroll - The Physicist Who Made Many-Worlds Feel Reasonable Banner
 ---
 
-I already owed [Sean Carroll](https://en.wikipedia.org/wiki/Sean_M._Carroll) a proper post. When I wrote [A New Universe All Throughout The Day](/general/a-new-universe-all-throughout-the-day/) I admitted, almost in passing, that he was the person who really led me into taking the [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation) seriously rather than treating it as a science-fiction gimmick. Then two [New Scientist](https://www.youtube.com/@newscientist) videos landed in front of me within a few weeks of each other - one titled *We May Never Understand Reality* and one titled *Why Quantum Physics Says There's a Multiverse* - and I realised I had been circling him for months without ever writing the man down. This is me doing that.
+I already owed [Sean Carroll](https://en.wikipedia.org/wiki/Sean_M._Carroll) a proper post. When I wrote [A New Universe All Throughout The Day](/theories/a-new-universe-all-throughout-the-day/) I admitted, almost in passing, that he was the person who really led me into taking the [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation) seriously rather than treating it as a science-fiction gimmick. Then two [New Scientist](https://www.youtube.com/@newscientist) videos landed in front of me within a few weeks of each other - one titled *We May Never Understand Reality* and one titled *Why Quantum Physics Says There's a Multiverse* - and I realised I had been circling him for months without ever writing the man down. This is me doing that.
 
 What draws me to Carroll is not that he has the most exotic ideas in physics. It is that he takes an idea most people find absurd on first contact - that reality is constantly branching into countless versions - and makes it feel like the *calm, conservative* reading of the equations rather than the wild one. That inversion is the whole trick, and it is worth pulling apart.
 
@@ -56,7 +57,7 @@ I found this genuinely useful, because it named a sloppiness I had been guilty o
 
 If I try to say plainly why Carroll gets under my skin more than most, it is this. He reframes many-worlds from an extravagant addition into an act of restraint. The other interpretations, in his telling, are the ones doing something extra and unexplained - collapsing the wave function by hand, or smuggling in [hidden variables](https://en.wikipedia.org/wiki/Quantum_decoherence), or drawing a magic line between the quantum and classical worlds. Many-worlds just declines to do any of that and accepts the bill. Whether or not he is ultimately right, that is a beautiful shape for an argument to have, because it flips the burden of weirdness onto the people who thought they were being sensible.
 
-It also happens to formalise something I have felt for years and wrote about in [that earlier post](/general/a-new-universe-all-throughout-the-day/): the sense that the world is not sitting still while we move through it, but continuously becoming, forever arriving at the next version of itself. Many-worlds is that intuition wearing a lab coat. And I have to be careful here, because "this rigorous theory agrees with the thing I already felt in my gut" is not evidence that the theory is true. It is the precise condition under which I should be most suspicious of my own applause. I flagged the same trap when I wrote about [Max Tegmark](/general/max-tegmark/), whose ladder of multiverses places Carroll's branching worlds at Level III, and the warning holds doubly for Carroll because he is even better at making me nod.
+It also happens to formalise something I have felt for years and wrote about in [that earlier post](/theories/a-new-universe-all-throughout-the-day/): the sense that the world is not sitting still while we move through it, but continuously becoming, forever arriving at the next version of itself. Many-worlds is that intuition wearing a lab coat. And I have to be careful here, because "this rigorous theory agrees with the thing I already felt in my gut" is not evidence that the theory is true. It is the precise condition under which I should be most suspicious of my own applause. I flagged the same trap when I wrote about [Max Tegmark](/theories/max-tegmark/), whose ladder of multiverses places Carroll's branching worlds at Level III, and the warning holds doubly for Carroll because he is even better at making me nod.
 
 ## My own view
 
@@ -87,8 +88,8 @@ None of which changes the debt. Sean Carroll is the person who took an idea I wo
 
 ## Related Reading
 
-- [A New Universe All Throughout The Day](/general/a-new-universe-all-throughout-the-day/) - the personal reflection where Carroll first led me into many-worlds, and the feeling this whole post grew out of.
-- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/general/max-tegmark/) - the companion physicist profile, whose four-level multiverse places Carroll's branching worlds at Level III.
-- [Is Reality Made of Mathematics?](/general/is-reality-made-of-mathematics/) - where I chase the deeper question of whether the structure underneath quantum mechanics is mathematical all the way down.
-- [Why Is There Something Rather Than Nothing?](/general/why-is-there-something-rather-than-nothing/) - the post where I set down my instinct that reality is far larger than the single universe we find ourselves in.
-- [Favourite Physicists](/general/favourite-physicists/) - the wider list of the thinkers who have shaped how I look at the deepest layer of reality.
+- [A New Universe All Throughout The Day](/theories/a-new-universe-all-throughout-the-day/) - the personal reflection where Carroll first led me into many-worlds, and the feeling this whole post grew out of.
+- [Max Tegmark: The Physicist Who Took Mathematics All the Way Down](/theories/max-tegmark/) - the companion physicist profile, whose four-level multiverse places Carroll's branching worlds at Level III.
+- [Is Reality Made of Mathematics?](/theories/is-reality-made-of-mathematics/) - where I chase the deeper question of whether the structure underneath quantum mechanics is mathematical all the way down.
+- [Why Is There Something Rather Than Nothing?](/theories/why-is-there-something-rather-than-nothing/) - the post where I set down my instinct that reality is far larger than the single universe we find ourselves in.
+- [Favourite Physicists](/theories/favourite-physicists/) - the wider list of the thinkers who have shaped how I look at the deepest layer of reality.
