@@ -35,6 +35,8 @@ That made early conviction expensive. You needed a plan, a budget, and often an 
 
 AI compresses the first loop. A person can outline a workflow, create an interface, model data, draft documentation, prepare a landing page, and put a prototype in front of users in days.
 
+The numbers back this up. Stanford's [2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report) found that performance on SWE-bench Verified, a benchmark built from real-world coding tasks, rose from around 60 percent to near 100 percent in a single year - a pace of improvement with few precedents in software history.
+
 The result is not magic. Production systems still need reliability, security, maintenance, and someone accountable for the outcomes. AI can make a convincing demo quickly; it cannot make a bad product wanted.
 
 But the economic threshold has moved. The useful question is increasingly not "Can I afford a development team?" It is "Can I find out whether this is useful?"
@@ -63,11 +65,13 @@ Give two people the same models and the same week to build something. Their outp
 
 One sees a blank canvas and asks for a useful app. The other has spent twenty years close to a particular world: its customers, its informal rules, the data people ignore, and the problems nobody has bothered to name.
 
-Take the nightclub industry. Someone who has collected events, DJs, venues, promoters, and historical line-ups can see a map that is invisible to a generalist.
+Take a hypothetical: the nightclub industry. Someone who has collected events, DJs, venues, promoters, and historical line-ups can see a map that is invisible to a generalist.
 
 They might recognise which venues incubated a sound, how promoters shaped local scenes, or why a certain DJ matters beyond streaming statistics. They could make that history searchable, connected, and useful.
 
 The model can help create the database, interface, and recommendations. It cannot supply the years of attention that reveal why those connections are worth making.
+
+The pattern is not just hypothetical. [Pieter Levels](https://levels.io) built Nomad List out of his own years living as a digital nomad, long before remote work was a mainstream category, then used that same insider view to build Remote OK and Photo AI. He now runs the portfolio largely alone, using AI to handle most of the coding. The insight came first, from lived experience nobody could prompt their way to. The AI made it practical for one person to act on it at scale.
 
 This is the new leverage. AI gives a domain expert a larger surface area for action. It does not give every outsider the same depth of perception.
 
@@ -104,7 +108,9 @@ That is likely to produce more niche software, not only more global platforms. T
 
 These businesses may be uninteresting to a venture fund and immensely valuable to the people who use them. Lower build costs allow the long tail of genuine needs to become a market.
 
-There is a caveat. A one-person company does not become a one-person responsibility. As a product grows, support, security, finance, operations, and customer commitments grow with it.
+There is a caveat, and the evidence for it is already visible. A Dallas Federal Reserve study cited in a recent [Forbes analysis](https://www.forbes.com/sites/terdawn-deboe/2026/03/29/the-one-person-unicorn-is-trending-your-team-is-still-your-edge/) found that AI rewards experience and punishes inexperience: entry-level roles are shrinking even as experienced workers see wage gains. Judgement compounds. It does not get replaced.
+
+A one-person company does not become a one-person responsibility. As a product grows, support, security, finance, operations, and customer commitments grow with it.
 
 AI can extend a person's reach. It cannot eliminate the consequences of serving real users. The durable version of this future is a smaller, more leveraged company, not a founder permanently working alone.
 
