@@ -11,31 +11,39 @@ cover:
 
 A selection of my music production work from October 2025.
 
-{{< soundcloud "https://soundcloud.com/jamesm/hearts-on-fire" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/steppin-into-love" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/first-time-forever" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/euphoric-circuitry" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/as-time-turns-the-page" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/polyphonic-pulse" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/glimpses-of-forever" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/feel-alright" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/feelin-love" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/get-up" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/glitter-in-the-groove" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/i-wonder" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-on-the-floor-chill-mix" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/light-beyond-the-sky-1" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/glitter-in-the-night" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/dreamwave-transmission" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/velvet-shuffle" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/my-ears-are-burning" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-and-light-remix" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/rewind-the-night" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-and-light" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/what-you-saying-tonight" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-of-tomorrow" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/no-need-to-hide" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-in-the-rhythm" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/couldnt-let-you-go" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/our-everlasting-light-remix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/our-everlasting-light-k-remix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/never-stop-dancing-funk-mix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/never-stop-dancing-remix" >}}
 
 ---
 
@@ -45,7 +53,6 @@ A selection of my music production work from October 2025.
 
 ## Related Reading
 
+- [My Tracks - September 2025](/music-production/my-tracks-2025-09/)
 - [My Tracks - November 2025](/music-production/my-tracks-2025-11/)
-- [My Tracks - January 2026](/music-production/my-tracks-2026-01/)
-- [My Tracks - April 2026](/music-production/my-tracks-2026-04/)
 - [My Tracks](/music-production/my-tracks/)

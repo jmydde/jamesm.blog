@@ -11,25 +11,13 @@ cover:
 
 A selection of my music production work from August 2025.
 
-{{< soundcloud "https://soundcloud.com/jamesm/we-own-the-night" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light-remix" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/beyond-the-sky" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light-remix-1" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/light-beyond-the-sky" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/back-to-the-floor-piano-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/back-to-the-floor" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm-groove-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/beyond-the-sky" >}}
 
 ---
 
@@ -39,7 +27,6 @@ A selection of my music production work from August 2025.
 
 ## Related Reading
 
-- [My Tracks - November 2025](/music-production/my-tracks-2025-11/)
-- [My Tracks - October 2025](/music-production/my-tracks-2025-10/)
-- [My Tracks - January 2026](/music-production/my-tracks-2026-01/)
-- [My Tracks - April 2026](/music-production/my-tracks-2026-04/)
+- [My Tracks - July 2025](/music-production/my-tracks-2025-07/)
+- [My Tracks - September 2025](/music-production/my-tracks-2025-09/)
+- [My Tracks](/music-production/my-tracks/)

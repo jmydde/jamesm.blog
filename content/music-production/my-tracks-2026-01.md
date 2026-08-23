@@ -11,15 +11,15 @@ cover:
 
 A selection of my music production work from January 2026.
 
-{{< soundcloud "https://soundcloud.com/jamesm/breath-of-the-infinite-trance-mix" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/breath-of-the-infinite-trance" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/breath-of-the-infinite" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/breath-of-the-open-sky" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/breath-of-the-open-sky-hd" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/galaxy-glide-remix" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-of-tomorrow-new-year-mix" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/shadows-of-tomorrow-new-year" >}}
 
 ---
 
