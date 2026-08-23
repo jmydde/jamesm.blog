@@ -11,13 +11,13 @@ cover:
 
 A selection of my music production work from August 2025.
 
-{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light-remix-1" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/beyond-the-sky" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/light-beyond-the-sky" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/beyond-the-sky" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light-remix-1" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/pulse-of-light-remix" >}}
 
 ---
 

@@ -11,29 +11,29 @@ cover:
 
 A selection of my music production work from August 2026.
 
-August was club-heavy. Future Garage mixes sat next to full Club Mixes, with a couple of UKG remixes and a WahWah mix thrown in for good measure. The month opens with the curtain rising and closes with a pair of Where You Used to Be reworks.
+August was club-heavy. Future Garage mixes sat next to full Club Mixes, with a couple of UKG remixes and a WahWah mix thrown in for good measure. The newest additions are a WahWah rework and a pair of Where You Used to Be reworks, with When the Curtain Rises from the start of the month rounding things out.
 
 You can find more of my work on [SoundCloud](https://soundcloud.com/jamesm).
 
-{{< soundcloud "https://soundcloud.com/jamesm/when-the-curtain-rises-future" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/velvet-lights-club-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/velvet-lights-future-garage" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/nightclubbing-dreams-club-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/echoes-of-becoming-destiny" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/clubbin-all-night-ukg-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/clubbin-all-night-future" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/where-you-used-to-be-ukg-remix" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/clubbin-all-night-wahwah-mix" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/where-you-used-to-be-future" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/clubbin-all-night-wahwah-mix" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/where-you-used-to-be-ukg-remix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/clubbin-all-night-future" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/clubbin-all-night-ukg-remix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/echoes-of-becoming-destiny" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/nightclubbing-dreams-club-mix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/velvet-lights-future-garage" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/velvet-lights-club-mix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/when-the-curtain-rises-future" >}}
 
 ---
 

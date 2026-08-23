@@ -15,23 +15,23 @@ July settled into a soulful, after-hours mood. Older tracks got Soulful Mixes an
 
 You can find more of my work on [SoundCloud](https://soundcloud.com/jamesm).
 
-{{< soundcloud "https://soundcloud.com/jamesm/our-everlasting-light-after" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/collective-dream-soulful-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/rewind-the-night-soulful-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/destiny-found-its-way-soulful" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/neon-after-midnight-future" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/the-page-turns-future-garage" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/when-the-story-finds-you" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/until-we-stand-together-future" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/until-we-stand-together-ukg" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/until-we-stand-together-future" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/when-the-story-finds-you" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/the-page-turns-future-garage" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/neon-after-midnight-future" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/destiny-found-its-way-soulful" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/rewind-the-night-soulful-mix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/collective-dream-soulful-mix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/our-everlasting-light-after" >}}
 
 ---
 

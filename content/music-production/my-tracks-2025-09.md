@@ -11,31 +11,31 @@ cover:
 
 A selection of my music production work from September 2025.
 
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-in-the-rhythm" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-of-tomorrow-mp3" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-and-light" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-and-light-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/velvet-shuffle" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/glitter-in-the-night" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/shadows-on-the-floor-chill-mix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/glitter-in-the-groove" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/feelin-love" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/glimpses-of-forever" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/as-time-turns-the-page" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/hearts-on-fire" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/first-time-forever" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/hearts-on-fire" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/as-time-turns-the-page" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/glimpses-of-forever" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/feelin-love" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/glitter-in-the-groove" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/shadows-on-the-floor-chill-mix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/glitter-in-the-night" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/velvet-shuffle" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/shadows-and-light-remix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/shadows-and-light" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/shadows-of-tomorrow-mp3" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/shadows-in-the-rhythm" >}}
 
 ---
 

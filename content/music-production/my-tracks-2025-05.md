@@ -11,23 +11,23 @@ cover:
 
 A selection of my music production work from May 2025.
 
-{{< soundcloud "https://soundcloud.com/jamesm/echoes-in-the-hallway" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/echoes-in-the-hallway-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/trust-the-universe" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/collective-dream-remix-1" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/collective-dream-remix-2" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/until-we-stand-together" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/this-burden-of-sorrow" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/i-will-prevail" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/this-burden-of-sorrow-remix" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/i-will-prevail" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/this-burden-of-sorrow" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/until-we-stand-together" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/collective-dream-remix-2" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/collective-dream-remix-1" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/trust-the-universe" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/echoes-in-the-hallway-remix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/echoes-in-the-hallway" >}}
 
 ---
 

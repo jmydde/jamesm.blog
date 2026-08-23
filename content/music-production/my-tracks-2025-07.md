@@ -11,15 +11,15 @@ cover:
 
 A selection of my music production work from July 2025.
 
-{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm-remix" >}}
-
-{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm-remix-2" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/back-to-the-floor-remix" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/back-to-the-floor" >}}
 
-{{< soundcloud "https://soundcloud.com/jamesm/back-to-the-floor-remix" >}}
+{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm-remix-2" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm-remix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/feel-the-rhythm" >}}
 
 ---
 
