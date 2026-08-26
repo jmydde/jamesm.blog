@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - New cover images for data engineering and data science posts (not yet committed).
+- Three new tracks (Feelin' In My Mind - After Hours Mix, Feelin' In My Mind - UKG Mix, Breath of the Open Sky - Atmospheric Mix) added to the August 2026 tracks post.
 
 ## 2026-07
 
