@@ -13,7 +13,7 @@ A selection of my music production work spanning various genres and styles. Thes
 
 ## Browse by Month
 
-- [August 2026](/music-production/my-tracks-2026-08/) - 10 tracks
+- [August 2026](/music-production/my-tracks-2026-08/) - 14 tracks
 - [July 2026](/music-production/my-tracks-2026-07/) - 9 tracks
 - [June 2026](/music-production/my-tracks-2026-06/) - 35 tracks
 - [May 2026](/music-production/my-tracks-2026-05/) - 14 tracks
@@ -28,7 +28,7 @@ A selection of my music production work spanning various genres and styles. Thes
 - [July 2025](/music-production/my-tracks-2025-07/) - 5 tracks
 - [May 2025](/music-production/my-tracks-2025-05/) - 9 tracks
 
-**Total: 229 tracks**
+**Total: 233 tracks**
 
 ## Related Reading
 

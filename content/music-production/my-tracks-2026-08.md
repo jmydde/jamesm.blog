@@ -11,13 +11,15 @@ cover:
 
 A selection of my music production work from August 2026.
 
-August was club-heavy. Future Garage mixes sat next to full Club Mixes, with a couple of UKG remixes and a WahWah mix thrown in for good measure. The newest additions are a pair of **Feelin' In My Mind** mixes ([**After Hours**](https://soundcloud.com/jamesm/feelin-in-my-mind-after-hours) and [**UKG**](https://soundcloud.com/jamesm/feelin-in-my-mind-ukg-mix)) and an Atmospheric take on [**Breath of the Open Sky**](https://soundcloud.com/jamesm/breath-of-the-open-sky-future), following on from a WahWah rework of [**Clubbin' All Night**](https://soundcloud.com/jamesm/clubbin-all-night-wahwah-mix) and a pair of [**Where You Used to Be**](https://soundcloud.com/jamesm/where-you-used-to-be-future) reworks, with [**When the Curtain Rises**](https://soundcloud.com/jamesm/when-the-curtain-rises-future) from the start of the month rounding things out.
+August was club-heavy. Future Garage mixes sat next to full Club Mixes, with a couple of UKG remixes and a WahWah mix thrown in for good measure. The newest additions are a pair of **Feelin' In My Mind** mixes ([**After Hours**](https://soundcloud.com/jamesm/feelin-in-my-mind-after-hours) and [**UKG**](https://soundcloud.com/jamesm/feelin-in-my-mind-ukg-mix)), a [**Tokyo Garage**](https://soundcloud.com/jamesm/come-back-forever-tokyo-garage) rework of **Come Back Forever**, and an Atmospheric take on [**Breath of the Open Sky**](https://soundcloud.com/jamesm/breath-of-the-open-sky-future), following on from a WahWah rework of [**Clubbin' All Night**](https://soundcloud.com/jamesm/clubbin-all-night-wahwah-mix) and a pair of [**Where You Used to Be**](https://soundcloud.com/jamesm/where-you-used-to-be-future) reworks, with [**When the Curtain Rises**](https://soundcloud.com/jamesm/when-the-curtain-rises-future) from the start of the month rounding things out.
 
 You can find more of my work on [SoundCloud](https://soundcloud.com/jamesm).
 
 {{< soundcloud "https://soundcloud.com/jamesm/feelin-in-my-mind-after-hours" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/feelin-in-my-mind-ukg-mix" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/come-back-forever-tokyo-garage" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/breath-of-the-open-sky-future" >}}
 
