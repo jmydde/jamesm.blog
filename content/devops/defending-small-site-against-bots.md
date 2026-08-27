@@ -5,8 +5,8 @@ draft: false
 tags: ["devops", "security", "cloud", "observability", "incident-response", "2026"]
 description: "A month spent defending a one-person, single-VPS community site against fake analytics, a combinatorial crawler, and a WAF rule that blocked a real visitor - and what it taught about layered bot defence."
 cover:
-  image: /assets/images/devops/platform-engineering-2026.jpg
-  alt: Server infrastructure behind a firewall, illustrating layered bot defence
+  image: /assets/images/devops/defending-small-site-against-bots.jpg
+  alt: "'You Can't Just Block the Bots': dashboard, server, and swarming bot spiders breaking through Cloudflare shield icons"
 ---
 
 ## TL;DR
