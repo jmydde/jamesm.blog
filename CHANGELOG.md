@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - New cover images for data engineering and data science posts (not yet committed).
 - Four new tracks (Feelin' In My Mind - After Hours Mix, Feelin' In My Mind - UKG Mix, Come Back Forever - Tokyo Garage, Breath of the Open Sky - Atmospheric Mix) added to the August 2026 tracks post.
 - New AI post: "The Day I Stop Chasing Better AI: When Frontier Models Come Home" - a hobbyist's case for why a capability threshold, not the moving frontier, is what will make local AI hardware compelling.
+- New personal development post: "Just a Theory" - on why decades-in-the-making theories rarely survive being explained in a few minutes, and why a lot of people aren't open to hearing them regardless.
 
 ## 2026-07
 
