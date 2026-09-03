@@ -1,10 +1,10 @@
 ---
-title: "Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio"
+title: "Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6"
 date: 2026-04-27T00:12:00+01:00
 draft: false
 type: guide
-tags: ["ai", "mcp", "mac-studio", "agent", "local-llm", "claude", "ollama", "agentic-engineering"]
-description: "The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac Studio to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability."
+tags: ["ai", "mcp", "mac-mini", "agent", "local-llm", "claude", "ollama", "agentic-engineering"]
+description: "The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac mini M6 to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability."
 cover:
   image: /assets/images/ai/mcp-servers-home-agent.jpg
   alt: MCP Servers for a Home AI Agent Banner
@@ -13,7 +13,8 @@ cover:
 ## TL;DR
 
 - **Problem:** a local agent that can only chat is a toy. The value is in what it can *do*.
-- **Answer:** [Model Context Protocol](https://modelcontextprotocol.io/) servers, running locally on the Mac Studio, expose filesystem, calendar, mail, notes, and a handful of custom tools.
+- **Answer:** [Model Context Protocol](https://modelcontextprotocol.io/) servers, running locally on the Mac mini M6, expose filesystem, calendar, mail, notes, and a handful of custom tools.
+- **Update:** I originally sized this stack around a Mac Studio for local inference. I've since moved to a much smaller [Mac mini M6, with Hermes routing most reasoning to the cloud](/ai/mac-mini-m6-always-on-ai-agent-server/) instead - the MCP layer below is unchanged, it just runs on smaller hardware now.
 - **Runtime:** one supervisord config, a small router, and per-server allowlists so nothing escapes its box.
 - **Security posture:** no tool runs without a policy, secrets live in the macOS Keychain, and every call is logged to a local SQLite file I can grep at 11pm.
 - **Result:** I can phone the agent (see [How to Phone Your Home AI Agent](/ai/phone-your-home-ai-agent/)), ask "move the CI failure email to triage and put a 15 minute hold on my calendar at 4", and it actually does it.
@@ -32,12 +33,12 @@ That is not a revolution, but it means I stopped writing glue. When Anthropic or
 
 The [Claude Code source leak](/ai/claude-code-source-leak/) made this concrete for me. The agent loop is surprisingly thin - the interesting work has moved into the tool surface. MCP is the part that makes that surface reusable.
 
-## The Stack on My Mac Studio
+## The Stack on My Mac mini M6
 
-I run a [Mac Studio M2 Ultra with 128 GB](/ai/mac-studio-local-llm-guide/). The agent is a local 30B-class model via Ollama for fast paths, with Claude API as a fallback when the task needs more thinking. Everything below runs on the same machine, supervised by one process.
+I run a [Mac mini M6 with 24 GB unified memory](/ai/mac-mini-m6-always-on-ai-agent-server/). Rather than a large local model, most reasoning routes through Hermes to DeepSeek V4 Flash for fast paths, DeepSeek V4 Pro when that isn't enough, and Claude Sonnet as the final escalation. A small local model (Qwen 8B-class) handles trivial routing and classification where a network round trip isn't worth it. Everything below runs on the same machine, supervised by one process.
 
 ```
-Mac Studio
+Mac mini M6
 ├── agent-host          (LiveKit agent, phone-in + local chat)
 ├── mcp-router          (routes tool calls by policy)
 ├── mcp-filesystem      (scoped to ~/agent-workspace)
@@ -136,7 +137,7 @@ The next thing on my list is per-task memory that the tools can read. Right now 
 
 After that: a tool for my [personal AI dev stack](/ai/personal-ai-dev-stack/) - project-level context, so the agent knows which repo I am in and which conventions apply without being told every time.
 
-If you are running a Mac Studio and a local model, MCP is the part that turns a chat toy into an assistant. The voice pipeline is the demo. The tools are the product.
+If you are running a small always-on Mac and routing most reasoning to the cloud, MCP is still the part that turns a chat toy into an assistant. The voice pipeline is the demo. The tools are the product.
 
 ## Further Reading
 
@@ -148,8 +149,9 @@ If you are running a Mac Studio and a local model, MCP is the part that turns a 
 
 ## Related Reading
 
+- [Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server](/ai/mac-mini-m6-always-on-ai-agent-server/)
 - [Giving Your Home AI Agent Memory That Lasts](/ai/home-ai-agent-memory-that-lasts/)
-- [How to Phone Your Home AI Agent Running on a Mac Studio](/ai/phone-your-home-ai-agent/)
+- [How to Phone Your Home AI Agent Running on a Mac mini M6](/ai/phone-your-home-ai-agent/)
 - [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)
 - [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
 - [AI Skills: One Folder, Any Model](/ai/ai-skills-one-folder-any-model/)

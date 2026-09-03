@@ -1,10 +1,10 @@
 ---
-title: "How to Phone Your Home AI Agent Running on a Mac Studio"
+title: "How to Phone Your Home AI Agent Running on a Mac mini M6"
 date: 2026-04-27T21:48:00+01:00
 draft: false
 type: guide
-tags: ["ai", "mac-studio", "agent", "voice", "local-llm", "whisper"]
-description: "A practical walkthrough of the stack I use to literally phone my Mac Studio, speak to a local AI agent, and get it to run or check work while I'm away from the desk."
+tags: ["ai", "mac-mini", "agent", "voice", "local-llm", "whisper"]
+description: "A practical walkthrough of the stack I use to literally phone my Mac mini, speak to a home AI agent, and get it to run or check work while I'm away from the desk."
 cover:
   image: /assets/images/ai/phone-agent.jpg
   alt: Phone Your Home AI Agent Banner
@@ -12,12 +12,13 @@ cover:
 
 ## TL;DR
 
-- **Goal:** Call a real phone number and have a proper back-and-forth with my Mac Studio agent while walking the dog.
-- **Hardware:** Mac Studio (M2 Ultra, 128 GB) running a local model via Ollama or MLX.
+- **Goal:** Call a real phone number and have a proper back-and-forth with my home agent while walking the dog.
+- **Hardware:** Mac mini M6, 24 GB unified memory - see [why I built the agent server this way](/ai/mac-mini-m6-always-on-ai-agent-server/) rather than around a big local-inference machine.
 - **Voice pipeline:** Twilio SIP in, [LiveKit Agents](https://docs.livekit.io/agents/) orchestrating STT / LLM / TTS, Whisper for transcription, Piper or ElevenLabs for speech.
-- **Brain:** A local 30B-class model for chat plus tool calls, with Claude API as a fallback for the harder reasoning.
+- **Brain:** DeepSeek V4 Flash for most chat and tool calls, escalating to DeepSeek V4 Pro or Claude Sonnet for harder reasoning, with a small local model handling trivial routing only.
 - **Reach:** [Tailscale](https://tailscale.com) between the Mac and a tiny VPS so I never punch a hole in my home router.
-- **Outcome:** I can ring a UK landline number, ask "what's failing on the CI pipeline?" and get a spoken answer in ~2 seconds.
+- **Outcome:** I can ring a UK landline number, ask "what's failing on the CI pipeline?" and get a spoken answer in a few seconds.
+- **Update:** I originally spec'd this around a Mac Studio doing local generation. I've since moved the brain to cloud-routed DeepSeek/Claude via Hermes and downsized the box - the voice pipeline below is otherwise unchanged, but the latency numbers now include a network hop.
 
 ## Why bother phoning your own agent?
 
@@ -38,21 +39,21 @@ Before we go deep, here's the flow of a single call:
 1. I dial a Twilio number from my mobile.
 2. Twilio routes the call over SIP to a small cloud worker.
 3. The worker hands the audio to [LiveKit Agents](https://docs.livekit.io/agents/) running as the voice orchestrator.
-4. LiveKit streams the audio over Tailscale to the Mac Studio.
-5. On the Mac - Whisper transcribes, the local LLM reasons and calls tools, Piper speaks the reply.
+4. LiveKit streams the audio over Tailscale to the Mac mini.
+5. On the Mac - Whisper transcribes, then Hermes reasons (locally for trivial routing, or via a DeepSeek/Claude API call for anything real) and calls tools, and Piper speaks the reply.
 6. Audio streams back out the same way.
 
-Budget for the round trip, end to end, is roughly 1.5 to 2.5 seconds per turn. Rough split: 300 ms Twilio / SIP ingress, 150 ms Whisper partials finalising, 400 ms first token from the LLM, 200 ms Piper starting to speak, the rest is network and jitter. The human ear is unforgiving below about 800 ms - under 2 seconds and it feels like a conversation, over 3 and it feels like a walkie-talkie.
+Budget for the round trip, end to end, is roughly 1.5 to 3 seconds per turn. Rough split: 300 ms Twilio / SIP ingress, 150 ms Whisper partials finalising, 300-800 ms first token (well under 100 ms for the trivial local-routing path, more like 500-800 ms once a DeepSeek or Claude API call is in the loop), 200 ms Piper starting to speak, the rest is network and jitter. The human ear is unforgiving below about 800 ms - under 2 seconds and it feels like a conversation, over 3 and it feels like a walkie-talkie. The cloud calls push the top end of that budget compared to pure local generation, which is the honest trade-off of this setup - I've decided it's worth it for what I save on hardware.
 
 Most of the cleverness is already in LiveKit's agent framework. You are not writing a real-time audio pipeline from scratch, which is the whole reason this is doable in a weekend.
 
-## The Mac Studio side
+## The Mac mini side
 
-I'm running the setup on an M2 Ultra 128 GB - more than most people need, but I already had it from the [local LLM experiments I wrote up previously](/ai/mac-studio-local-llm-guide/). An M2 Max 64 GB would be completely fine if you stay on a 13B class model.
+I'm running the setup on a [Mac mini M6, 24 GB unified memory](/ai/mac-mini-m6-always-on-ai-agent-server/) - deliberately not a Mac Studio. I looked hard at the bigger local-inference machines and decided I'd rather route the hard reasoning to the cloud and keep the box small, quiet, and cheap. Even an M1 or M2 mini with 16GB would be fine here, since the mini isn't doing the heavy lifting itself.
 
 The key services on the Mac are all run under `launchd` so they come back after reboots:
 
-- **[Ollama](https://ollama.ai)** serving a 30B-class model on `localhost:11434`. I'm using a Qwen3 MoE variant for most calls and falling back to Claude Sonnet via the [Anthropic API](https://docs.anthropic.com) for anything that needs proper reasoning. On an M2 Ultra you can comfortably sit at 4-bit quantisation and still get first-token latency under 400 ms, which is the real bottleneck for voice.
+- **[Ollama](https://ollama.ai)** serving a small model (Qwen 8B-class) on `localhost:11434` for trivial routing and classification only. Everything that needs real reasoning goes through Hermes to DeepSeek V4 Flash, DeepSeek V4 Pro, or Claude Sonnet via the [Anthropic API](https://docs.anthropic.com) - see [the full routing breakdown](/ai/mac-mini-m6-always-on-ai-agent-server/) for why. The small local model gets first-token latency well under 100 ms; the cloud tiers add a network round trip on top, which is the real bottleneck for voice now.
 - **[whisper.cpp](https://github.com/ggerganov/whisper.cpp)** with the Metal backend, running a streaming server that takes audio chunks and returns partial transcripts. `large-v3-turbo` is my default - fast enough on Apple Silicon and very forgiving with UK accents.
 - **[Piper TTS](https://github.com/rhasspy/piper)** for voice out. The `en_GB-alan-medium` voice is the best local option I've tried. If I'm feeling flush I swap in [ElevenLabs](https://elevenlabs.io) streaming TTS for a much nicer voice - but then the audio does leave the house.
 - **A thin Python worker** that holds the tool-call plumbing - GitHub status, a read-only SSH into my dev box, a couple of bash shortcuts for "check the build" and "what's Claude saying about PR 42".
@@ -93,11 +94,11 @@ None of this is exotic, but all of it is mandatory. Treat the phone number as a 
 
 ## Connecting the Mac to the world without opening ports
 
-This is where most home setups go wrong. You do not want a public IP on your Mac Studio, and you do not want to mess with port forwarding on your home router.
+This is where most home setups go wrong. You do not want a public IP on your Mac mini, and you do not want to mess with port forwarding on your home router.
 
 I use [Tailscale](https://tailscale.com) with two nodes:
 
-- The Mac Studio at home.
+- The Mac mini at home.
 - A tiny £4/month VPS (hosted at [Hetzner](https://www.hetzner.com/cloud/)) that runs the LiveKit server and the SIP worker.
 
 The VPS has a public address and handles the call from Twilio. LiveKit then reaches the Mac agent process over the Tailscale interface, not the open internet. Latency between the VPS and the Mac is about 15 ms on my connection - which is fine for conversational voice.
@@ -114,9 +115,9 @@ This is the bit that separates a chat toy from something actually useful. The ag
 - `search_notes(query)` - greps my Obsidian vault.
 - `ask_claude(prompt)` - escalates a hard reasoning task to Claude Sonnet via the API, with the local context stuffed in.
 
-That last tool is the quiet star of the show. A local 30B model is great at conversation and orchestration - not always great at nuanced code reasoning. Letting it delegate to a smarter model when it needs to is the difference between "neat demo" and "thing I actually use".
+That last tool is the quiet star of the show. The small local model is fine at routing and simple orchestration - not great at nuanced code reasoning. Letting Hermes delegate to DeepSeek or Claude when it needs to is the difference between "neat demo" and "thing I actually use".
 
-All the tools are defined with [function calling](https://docs.anthropic.com/en/docs/tool-use) and exposed to the local model via Ollama's tool calling support.
+All the tools are defined with [function calling](https://docs.anthropic.com/en/docs/tool-use) and exposed through Hermes, whether the call lands on the local model, DeepSeek, or Claude.
 
 ## Making it feel like a phone call, not a radio
 
@@ -137,11 +138,12 @@ Rounded monthly numbers for my setup:
 
 - Twilio number plus talk: ~£3-5
 - VPS: ~£4
-- Electricity for the Mac Studio: negligible on top of what it was already using (it idles most of the day)
-- Local models: free
+- Electricity for the Mac mini: negligible - it's a genuinely low-power box, and idles most of the day
+- DeepSeek/Claude API calls for the cloud-routed tiers: a few dollars, see [the full cost breakdown](/ai/mac-mini-m6-always-on-ai-agent-server/)
+- Local model calls: free
 - ElevenLabs (when I use it): ~£4 for the starter tier
 
-So about £10 a month, all in. Cheaper than another subscription, and it's mine.
+So somewhere around £15-20 a month, all in. Cheaper than another subscription, and it's mine.
 
 ## What I'd skip if I were starting again
 
@@ -173,7 +175,8 @@ If you want the bigger picture view on where local agents fit, I've written sepa
 
 ## Related Reading
 
-- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/)
+- [Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server](/ai/mac-mini-m6-always-on-ai-agent-server/)
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6](/ai/mcp-servers-home-ai-agent/)
 - [Giving Your Home AI Agent Memory That Lasts](/ai/home-ai-agent-memory-that-lasts/)
 - [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
 - [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)

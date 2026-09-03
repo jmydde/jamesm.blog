@@ -23,7 +23,7 @@ I spent most of last year on [agent reliability](/ai/agent-reliability-debugging
 
 Reliability asks: will the agent do the right thing when nobody is trying to trick it? Security asks: will it refuse to do the wrong thing when someone is? Those questions merge the instant your agent can read files, send email, or touch production.
 
-This post is what I wish I had read before wiring [MCP servers onto my Mac Studio](/ai/mcp-servers-home-ai-agent/) - the [Model Context Protocol](https://modelcontextprotocol.io/) being the open standard most of these tool integrations now speak.
+This post is what I wish I had read before wiring [MCP servers onto my home agent box](/ai/mcp-servers-home-ai-agent/) - the [Model Context Protocol](https://modelcontextprotocol.io/) being the open standard most of these tool integrations now speak. (That box is a [Mac mini M6](/ai/mac-mini-m6-always-on-ai-agent-server/) these days, not the Mac Studio I originally sized it around - the security posture below is unchanged either way.)
 
 ------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ If your defense is a paragraph in the system prompt, you do not have a defense. 
 
 ## MCP hardening: what actually works
 
-I run seven MCP servers behind a small router on my Mac Studio. The security properties that matter are boring and mechanical.
+I run seven MCP servers behind a small router on my Mac mini M6. The security properties that matter are boring and mechanical.
 
 ### Least-privilege tool schemas
 
@@ -197,7 +197,8 @@ For now, the practical bar is lower and more concrete: **assume the context wind
 - [AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability](/ai/ai-evals-are-broken/) - why endpoint benchmarks miss agent security entirely.
 - [Evaluating Agents in Production: Trajectory Metrics](/ai/evaluating-agents-in-production-trajectory-metrics/) - step-level scoring and replay harnesses.
 - [The Agent Reliability Problem: Debugging Non-Deterministic Systems](/ai/agent-reliability-debugging-non-deterministic/) - the non-adversarial half of the same engineering challenge.
-- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/) - the stack these defenses protect.
+- [Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server](/ai/mac-mini-m6-always-on-ai-agent-server/) - the hardware and routing decision behind the box these defenses protect.
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6](/ai/mcp-servers-home-ai-agent/) - the stack these defenses protect.
 - [Agent Protocols in 2026: MCP, A2A, and ACP](/ai/agent-protocols-mcp-a2a-acp/) - the protocol layer agents talk through.
 - [AI Safety From First Principles](/ai/ai-safety-first-principles/) - separating engineering safety from speculative scenarios.
 - [Threat Modeling for Engineers](/security/threat-modeling-for-engineers/) - the method to run before you wire the tools.

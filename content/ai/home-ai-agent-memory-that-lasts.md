@@ -3,8 +3,8 @@ title: "Giving Your Home AI Agent Memory That Lasts"
 date: 2026-04-22T19:30:00+01:00
 draft: false
 type: guide
-tags: ["ai", "memory", "mac-studio", "agent", "local-llm", "rag", "claude"]
-description: "An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent running on a Mac Studio - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite."
+tags: ["ai", "memory", "mac-mini", "agent", "local-llm", "rag", "claude"]
+description: "An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite."
 cover:
   image: /assets/images/ai/home-ai-agent-memory.jpg
   alt: Home AI Agent Memory That Lasts Banner
@@ -17,6 +17,7 @@ cover:
 - **Where it lives:** SQLite for episodic and facts, a local vector store for semantic search, and a tiny policy file that decides what is worth remembering in the first place.
 - **How it plugs in:** a [memory MCP server](/ai/mcp-servers-home-ai-agent/) that exposes `recall`, `remember`, and `forget` - nothing else.
 - **Result:** the agent can say "last Tuesday we tried restarting the Postgres container and it worked" and mean it. It also knows what *not* to store.
+- **Update:** this originally ran on a Mac Studio I'd sized for local inference. It now runs on a much smaller [Mac mini M6](/ai/mac-mini-m6-always-on-ai-agent-server/), with reasoning routed to the cloud - the memory design below didn't need to change at all, since it was always local-storage-only regardless of where the reasoning happened.
 
 ## The Goldfish Problem
 
@@ -69,7 +70,7 @@ The rules are enforced in the memory server, not in the prompt. Prompts drift. A
 
 ## Where It All Lives
 
-Everything runs on the same [Mac Studio](/ai/mac-studio-local-llm-guide/) as the rest of the agent. No cloud, no third-party vector DB, no managed service.
+Everything runs on the same [Mac mini M6](/ai/mac-mini-m6-always-on-ai-agent-server/) as the rest of the agent. No cloud, no third-party vector DB, no managed service.
 
 ```
 ~/agent-memory/
@@ -165,7 +166,8 @@ If you are building a home agent and you have the tools layer working, memory is
 
 ## Related Reading
 
-- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/)
-- [How to Phone Your Home AI Agent Running on a Mac Studio](/ai/phone-your-home-ai-agent/)
+- [Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server](/ai/mac-mini-m6-always-on-ai-agent-server/)
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6](/ai/mcp-servers-home-ai-agent/)
+- [How to Phone Your Home AI Agent Running on a Mac mini M6](/ai/phone-your-home-ai-agent/)
 - [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
 - [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)

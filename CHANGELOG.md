@@ -14,6 +14,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Four new tracks (Feelin' In My Mind - After Hours Mix, Feelin' In My Mind - UKG Mix, Come Back Forever - Tokyo Garage, Breath of the Open Sky - Atmospheric Mix) added to the August 2026 tracks post.
 - New AI post: "The Day I Stop Chasing Better AI: When Frontier Models Come Home" - a hobbyist's case for why a capability threshold, not the moving frontier, is what will make local AI hardware compelling.
 - New personal development post: "Just a Theory" - on why decades-in-the-making theories rarely survive being explained in a few minutes, and why a lot of people aren't open to hearing them regardless.
+- New AI post: "Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server" - why a Mac mini M6 plus cloud-routed DeepSeek/Claude via Hermes won out over a local-inference Mac Studio build.
+
+### Changed
+- Updated the home agent series (MCP servers, phone-in agent, memory, security, and the reading path) to reflect the actual build: a Mac mini M6 routing most reasoning to DeepSeek/Claude via Hermes, not the Mac Studio local-inference setup those posts originally described.
 
 ## 2026-07
 
