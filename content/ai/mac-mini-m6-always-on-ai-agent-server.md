@@ -12,7 +12,7 @@ cover:
 
 ## TL;DR
 
-- **Goal:** a small, silent, always-on machine that runs [Hermes Agent](/ai/hermes-agent/), MCP servers, and automations independently of my laptop.
+- **Goal:** a small, silent, always-on machine that runs [Hermes Agent](https://hermes-agent.nousresearch.com/) ([GitHub](https://github.com/nousresearch/hermes-agent), [my review](/ai/hermes-agent/)), MCP servers, and automations independently of my laptop.
 - **What I didn't need it to be:** a local inference workstation. I looked seriously at a Mac Studio and other machines capable of running 70B-class models, and talked myself out of it.
 - **What I bought instead:** a **Mac mini M6, 24GB unified memory, 512GB SSD** (~£1,299) - enough headroom for containers, browsers, and small local models, not enough (or intended) to run frontier-class weights locally.
 - **The routing policy:** small local model → [DeepSeek V4 Flash](https://api-docs.deepseek.com/quick_start/pricing) → DeepSeek V4 Pro → Claude Sonnet, cheapest capable model first.
@@ -258,7 +258,7 @@ I don't need to own the AI compute. I need to own the orchestration layer. Cloud
 ## Final Setup
 
 - **Hardware:** Mac mini M6, 24GB unified memory, 512GB SSD, ~£1,299 one-off
-- **Agent platform:** [Hermes Agent](/ai/hermes-agent/)
+- **Agent platform:** [Hermes Agent](https://hermes-agent.nousresearch.com/) by [Nous Research](https://www.nousresearch.com/), [open source on GitHub](https://github.com/nousresearch/hermes-agent)
 - **Local AI:** Qwen 8B/14B and similar small models, where appropriate
 - **Default cloud AI:** DeepSeek V4 Flash
 - **Advanced reasoning:** DeepSeek V4 Pro
