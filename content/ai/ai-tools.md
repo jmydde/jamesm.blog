@@ -36,6 +36,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [Microsoft Designer](https://designer.microsoft.com/) - stunning designs, made lightning fast with AI
 - [Midjourney](https://midjourney.com) - generates images from natural language descriptions, called "prompts"
 - [Playground](https://playgroundai.com/) - create any image from your imagination
+- [PixMind](https://www.pixmind.io/) - browser-based workspace for multi-model AI image and video generation, reference-image workflows, and natural-language editing
 - [Recraft](https://www.recraft.ai/) - generative design tool with brand-consistent vector and raster output
 - [Stockimg AI](https://stockimg.ai/) - generate with AI: book covers, wallpapers, posters, logos, stock images, illustrations and art
 
