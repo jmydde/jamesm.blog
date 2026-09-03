@@ -85,6 +85,7 @@ The Mac mini wasn't the only box on the list, and it wasn't even the first purpo
 | **Mac mini M6** | **24GB unified memory, 512GB SSD** | **£1,299** | **Bought** |
 | Used RTX 3090/4090 (GPU only, not a full machine) | 24GB VRAM | ~£600-700 second-hand | Ruled out - solves a problem I don't have |
 | [Ryzen AI Max+ 395 mini PC](https://www.layer3labs.io/gear/ryzen-ai-mini-pcs) | up to 128GB unified LPDDR5X | roughly £1,500-£2,500+ depending on OEM | Ruled out - same reason as the 3090 |
+| [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) | 128GB unified LPDDR5X (only option), 4TB NVMe | $4,699 (~£3,700) | Ruled out - fixed 128GB, same reason as the Mac Studio |
 | Mac mini M5 Pro | 64GB unified memory | £3,199 | Ruled out - overkill for an API router |
 | Mac Studio (M5 Max / M5 Ultra) | up to 128GB / up to 512GB | £3,000-£4,500+ | Ruled out - enterprise-grade |
 
@@ -115,6 +116,12 @@ Worth noting for anyone doing the same comparison: Apple Silicon trades roughly 
 This is the non-Mac mini PC people usually bring up in this conversation, and for good reason: AMD's Ryzen AI Max+ 395 pairs 16 Zen 5 cores with up to 128GB of unified LPDDR5X memory, up to 96GB of which can be handed to the integrated GPU - enough to load genuinely large models without a discrete card at all. [GMKtec's EVO-X2 is usually the cheapest way into a full 128GB configuration](https://www.layer3labs.io/gear/ryzen-ai-mini-pcs), with Beelink, Framework Desktop, Bosgame, and HP all shipping their own versions at various price points, generally landing somewhere between a Mac mini and a Mac Studio.
 
 It's a legitimately good machine for local inference - arguably better value than a Mac Studio on a pure £-per-GB-of-memory basis. But it's still solving the problem I decided I didn't have: a 128GB local box only pays for itself if you're running large models locally often enough that the hardware cost beats the API bill. Mine doesn't, so it joined the 3090 and the Mac Studio in the "genuinely good hardware, wrong problem for this build" pile.
+
+### NVIDIA DGX Spark - one fixed memory size, and no cheaper way in
+
+[NVIDIA's DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) is the purpose-built compute appliance in this comparison rather than a general-purpose mini PC: a GB10 Grace Blackwell Superchip pairing a Blackwell-generation GPU with a 20-core Arm CPU, **128GB of unified LPDDR5X memory at 273 GB/s bandwidth**, a 4TB NVMe SSD, up to 1 petaFLOP of FP4 compute, in a 5.9" x 5.9" x 2" box drawing roughly 240W under load. It launched at $3,999 and NVIDIA raised that to **$4,699** (~£3,700) in February 2026, citing memory supply constraints - pricing that's held through to when I was shopping for this build.
+
+Two things ruled it out quickly. First, unlike the Mac mini or Mac Studio, there's no smaller or cheaper configuration to step down into - DGX Spark ships in exactly one memory size, 128GB, full stop. The $4,699 entry price is the only price. Second, and more fundamentally, it's the same "wrong problem" as the Mac Studio and the Ryzen AI Max+ box below: Hermes calls hosted models over an API, so 128GB of unified memory and a petaFLOP of Blackwell compute would sit there mostly idle behind an agent orchestrator that doesn't do local inference. DGX Spark genuinely wins for prefill-heavy workloads and CUDA fine-tuning - I go through the benchmarks properly in [DGX Spark vs Mac Studio](/ai/dgx-spark-vs-mac-studio/) - but neither is what an always-on agent server needs.
 
 ---
 
