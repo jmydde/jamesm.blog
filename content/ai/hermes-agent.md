@@ -127,7 +127,8 @@ For more information, visit [Hermes Agent](https://hermes-agent.nousresearch.com
 
 ## Related Reading
 
+- [Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server](/ai/mac-mini-m6-always-on-ai-agent-server/)
 - [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
 - [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/)
 - [A Year of Agents, and What is Coming Next](/ai/year-of-agents-and-whats-next/)
-- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/)
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6](/ai/mcp-servers-home-ai-agent/)
