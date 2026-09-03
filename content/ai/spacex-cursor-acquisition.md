@@ -11,7 +11,7 @@ cover:
 
 ## TL;DR
 
-- **SpaceX filed a $60 billion all-stock acquisition** of Cursor on June 16, 2026 - marking one of the largest AI/developer tools acquisitions ever (confirmed via SEC filing)
+- **The option got exercised.** Back in April, [SpaceX signed an option to acquire Cursor for $60 billion or walk away for $10 billion](/ai/spacex-cursor-60-billion-option/), tied to the SpaceX-xAI merger and Colossus compute. On June 16, 2026, SpaceX filed the $60 billion all-stock acquisition itself - marking one of the largest AI/developer tools acquisitions ever (confirmed via SEC filing)
 - **Cursor's revenue metrics are impressive**: ~$4 billion annualized revenue with $2.6 billion from enterprise customers, suggesting strong product-market fit
 - **Strategic pivot**: SpaceX is moving beyond rockets and satellites into the software infrastructure layer that powers AI development itself
 - **Signal to the market**: This acquisition suggests major tech companies are betting heavily on owning the entire stack - from hardware to the tools developers use to build AI systems
@@ -90,6 +90,7 @@ Whether that bet pays off depends entirely on execution. But the strategic logic
 
 ## Related Reading
 
+- [SpaceX Buys the Right to Buy Cursor for $60 Billion](/ai/spacex-cursor-60-billion-option/) - the April option deal this acquisition follows through on
 - [Securing AI Agents](/ai/securing-ai-agents/)
 - [Agent-First Architecture: The Engineer as Curator](/ai/agent-first-architecture-engineer-as-curator/)
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)

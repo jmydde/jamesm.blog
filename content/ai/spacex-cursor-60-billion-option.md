@@ -77,6 +77,7 @@ What this deal does is set a price. For a four-year-old startup making a code ed
 
 ## Related Reading
 
+- [SpaceX's $60 Billion Cursor Acquisition: Why It Matters](/ai/spacex-cursor-acquisition/) - the option gets exercised and filed as an acquisition two months later
 - [Cursor AI, Spec-Driven Magic, and Why My Entire Development Workflow Just Leveled Up 🤯](/ai/cursor-ai/)
 - [Stargate](/ai/microsoft-openai-stargate/)
 - [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/)

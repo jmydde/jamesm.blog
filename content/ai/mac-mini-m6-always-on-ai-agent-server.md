@@ -69,6 +69,53 @@ The obvious question: why spend that much when an older, cheaper Mac mini would 
 
 But this machine is meant to become permanent infrastructure, not another general-purpose computer I outgrow in a year. The extra memory buys headroom for containers, browser sessions, a vector database, and concurrent agent sessions - and unlike an external drive, it isn't upgradeable later. I'd rather have 24GB and not need it than hit a wall in two years and have to replace the whole box.
 
+I also looked at the same chip with less storage - **Mac mini M6, 24GB/256GB, £1,099** - and ruled it out for a more mundane reason: not enough SSD headroom once you account for container images, logs, a local vector database, and caching, on a box that's meant to keep running for years without a storage upgrade path. £200 for another 256GB was an easy call.
+
+---
+
+## The Full Shortlist: Every Machine I Priced Out
+
+The Mac mini wasn't the only box on the list, and it wasn't even the first purpose-built option I looked at. Roughly cheapest to most expensive, here's everything else I priced out - Mac and non-Mac - and why each one is or isn't what's sitting on my desk now.
+
+| Option | Spec | Price | Verdict |
+|---|---|---:|---|
+| [Umbrel Home](https://umbrel.com/umbrel-home) | Intel N150 quad-core, 16GB (soldered), 2TB NVMe | £699 (£599-£949 across capacities) | Ruled out - not upgradeable, not general-purpose enough |
+| [Start9 Server One](https://store.start9.com/products/server-one-2026) | AMD Ryzen 5/7, up to 32GB LPDDR5, up to 4TB NVMe | $899-$1,399 | Ruled out - no official Hermes app, no Docker Compose |
+| Mac mini M6 | 24GB unified memory, 256GB SSD | £1,099 | Ruled out - too little SSD headroom |
+| **Mac mini M6** | **24GB unified memory, 512GB SSD** | **£1,299** | **Bought** |
+| Used RTX 3090/4090 (GPU only, not a full machine) | 24GB VRAM | ~£600-700 second-hand | Ruled out - solves a problem I don't have |
+| [Ryzen AI Max+ 395 mini PC](https://www.layer3labs.io/gear/ryzen-ai-mini-pcs) | up to 128GB unified LPDDR5X | roughly £1,500-£2,500+ depending on OEM | Ruled out - same reason as the 3090 |
+| Mac mini M5 Pro | 64GB unified memory | £3,199 | Ruled out - overkill for an API router |
+| Mac Studio (M5 Max / M5 Ultra) | up to 128GB / up to 512GB | £3,000-£4,500+ | Ruled out - enterprise-grade |
+
+### Umbrel Home - the purpose-built appliance, and why 16GB soldered was the dealbreaker
+
+[Umbrel Home](https://umbrel.com/umbrel-home) is genuinely well-matched to this job on paper: an Intel N150 quad-core box with 16GB of DDR5 and a choice of 1TB/2TB/4TB NVMe storage, running £599-£949 depending on capacity (I was pricing the 2TB config, £699). It runs a containerized, Docker-native OS with Tailscale and Tor built in, draws about 10W, and - the part that made it a serious contender - [Hermes Agent is an official one-click install from the Umbrel App Store](https://apps.umbrel.com/app/hermes-agent), published directly by Nous Research. There's also [Umbrel Pro](https://umbrel.com/umbrel-pro) for more storage, same 16GB memory ceiling.
+
+I even priced out running two Umbrel units instead of one Mac mini - one for Hermes, one as a secondary node - and talked myself out of it. Two boxes with 16GB of soldered, non-upgradeable memory each don't add up to more usable headroom than one machine with 24GB and room to run Docker, Postgres, Redis, Qdrant, and a browser session at the same time, and I'd rather administer one box than keep two in sync. The 16GB ceiling on a single unit was the real problem: fine for Hermes alone, tight the moment you add a vector database and a few concurrent browser-automation sessions on a machine that's meant to be permanent infrastructure with no upgrade path. If all I wanted was Hermes running somewhere, Umbrel Home would be the cheaper, more purpose-built answer.
+
+### Start9 Server One - a similar shape of box, ruled out on packaging
+
+[Start9](https://store.start9.com/products/server-one-2026) makes a comparable home-server appliance: AMD Ryzen 5 or 7, configurable up to 32GB of RAM and 4TB of NVMe, running $899-$1,399 depending on spec, on their own OS with its own curated app marketplace. It's a step up from Umbrel Home on RAM ceiling alone. Two things ruled it out quickly, though: there's no official Hermes Agent app in their marketplace, and StartOS doesn't support Docker Compose - it only runs one Dockerfile per service, so anything outside the marketplace has to be hand-packaged into their own format and sideloaded rather than just `docker compose up`. More friction than Umbrel for the one app I actually needed, so it didn't get further than the shortlist.
+
+### A used RTX 3090/4090 - the right answer to a question I wasn't asking
+
+Part of my earlier local-inference research was sizing GPUs rather than complete machines. The rough ladder, for reference:
+
+- **8-16GB VRAM**: 7B-14B models
+- **24GB VRAM** (a used RTX 3090 or 4090, roughly £600-700 second-hand): 32B models at Q4 quantization - the local sweet spot for price against capability
+- **48GB+ VRAM**: 70B-class models, at which point you're stacking cards or buying workstation-grade hardware
+
+A used 3090/4090 is the correct answer if the goal is "run the biggest model I can locally for the least money." It stopped being relevant here because that was never the actual goal - Hermes calls hosted models over an API, so there's no local inference workload for a 24GB card to accelerate. Buying one would mean building (and powering, and cooling) a second machine to sit next to the Mac mini and mostly idle, which is exactly the trap I was trying to avoid by not buying a Mac Studio.
+
+Worth noting for anyone doing the same comparison: Apple Silicon trades roughly 40-70% of an NVIDIA card's raw inference throughput for full unified-memory access to the weights, with no separate VRAM ceiling to size around - one reason the Mac Studio conversation below is about memory capacity rather than GPU throughput. And [Ollama](https://ollama.com/) is the sensible default runtime either way - an OpenAI-compatible API with tens of millions of monthly downloads, and it slots straight into Cline, Continue.dev, and Claude Code if I ever do want a local model in the loop.
+
+### Ryzen AI Max+ 395 mini PCs - huge memory, same problem as the 3090
+
+This is the non-Mac mini PC people usually bring up in this conversation, and for good reason: AMD's Ryzen AI Max+ 395 pairs 16 Zen 5 cores with up to 128GB of unified LPDDR5X memory, up to 96GB of which can be handed to the integrated GPU - enough to load genuinely large models without a discrete card at all. [GMKtec's EVO-X2 is usually the cheapest way into a full 128GB configuration](https://www.layer3labs.io/gear/ryzen-ai-mini-pcs), with Beelink, Framework Desktop, Bosgame, and HP all shipping their own versions at various price points, generally landing somewhere between a Mac mini and a Mac Studio.
+
+It's a legitimately good machine for local inference - arguably better value than a Mac Studio on a pure £-per-GB-of-memory basis. But it's still solving the problem I decided I didn't have: a 128GB local box only pays for itself if you're running large models locally often enough that the hardware cost beats the API bill. Mine doesn't, so it joined the 3090 and the Mac Studio in the "genuinely good hardware, wrong problem for this build" pile.
+
 ---
 
 ## Why I Didn't Build a Local Inference Machine
@@ -81,9 +128,11 @@ Small models are easy - an 8B model runs comfortably on almost anything modern. 
 
 That made me question the entire objective. I wasn't trying to build an AI agent server - I was trying to reproduce a slice of a datacentre in my house, for a worse result than just calling one.
 
-### Specifically, why not a 64GB, 128GB or 256GB Mac Studio?
+### Specifically, why not the Mac mini M5 Pro, or a 64GB, 128GB or 256GB Mac Studio?
 
-I went back and forth on this one longest, because a Mac Studio was the obvious "just buy enough memory and stop worrying about it" answer. The honest reason I didn't is cost, plainly: an M2/M3 Ultra with 64-128GB is somewhere around £3,000-£4,500, and a 256GB config (where you can still get one) pushes well past that. That's real money to spend on hardware whose main job would be sitting mostly idle, running inference I can currently get from DeepSeek for a few dollars a month.
+I went back and forth on this one longest, because a Mac Studio - or the step just below it - was the obvious "just buy enough memory and stop worrying about it" answer. I priced a **Mac mini M5 Pro with 64GB for £3,199**: same chassis as the machine I bought, same idea as the Mac Studio conversation, just in a smaller box. The extra £1,900 over my final spec buys local-inference headroom for 30B-70B class models, which I ruled out for the identical reason as the Mac Studio below - Hermes calls hosted models over an API rather than running local inference, so that headroom would sit unused.
+
+The honest reason I didn't go further up to a Mac Studio is cost, plainly: an M2/M3 Ultra with 64-128GB is somewhere around £3,000-£4,500, and a 256GB config (where you can still get one) pushes well past that. That's real money to spend on hardware whose main job would be sitting mostly idle, running inference I can currently get from DeepSeek for a few dollars a month.
 
 I'm not against local frontier-class inference on principle - I just can't justify that outlay *right now* against what I'm actually getting for it. £3k+ buys a lot of DeepSeek and Claude API calls, and I'm genuinely fine with the privacy and latency trade-offs of calling cloud models for the hard reasoning, given the security and confirmation-gate layer I already run in front of anything an agent can do (see [Securing AI Agents](/ai/securing-ai-agents/)). If the economics were different - if I were running enough volume that the API bill rivalled the hardware cost, or if a 128GB machine were meaningfully cheaper - the answer might flip.
 
@@ -247,7 +296,7 @@ This is a work in progress and subject to change as the build evolves - worth ch
 
 ## Why the M6 24GB Mac Mini, in the End
 
-I looked at cheaper Mac minis, high-end Mac minis, Mac Studios, Intel and AMD Ryzen AI mini PCs with huge unified memory pools, and GPU rigs built to run 70B models at speed. I kept optimising the wrong variable.
+I looked at cheaper Mac minis, high-end Mac minis, Mac Studios, a purpose-built Umbrel Home appliance, Ryzen AI Max mini PCs with huge unified memory pools, and a used RTX 3090/4090 built into its own GPU rig. I kept optimising the wrong variable.
 
 I don't need to own the AI compute. I need to own the orchestration layer. Cloud AI is improving fast enough that spending several thousand pounds today to replicate it locally risks buying hardware that's outclassed before it's paid for itself. The Mac mini gives me plenty of headroom for the part I actually want to own - agents, tools, memory, databases, automation, browsers, code, MCP, workflows - while the inference layer stays swappable. Today that's DeepSeek V4 Flash → Pro → Claude Sonnet. If something better or cheaper shows up, I change a routing config, not the hardware.
 

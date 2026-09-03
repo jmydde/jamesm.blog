@@ -88,7 +88,7 @@ Even if inference costs somehow fell 50%, you wouldn't see price drops. Here's w
 
 **Competition doesn't drive down prices.** [Anthropic](https://www.anthropic.com/), [OpenAI](https://openai.com/), [Google](https://www.google.com/), and [Meta](https://www.meta.com/) have all released models in the last 18 months. Have prices fallen? No. Why would they undercut each other if they can all make $1B+ in ARR at current pricing? Price wars happen in commodities with interchangeable products. LLMs aren't interchangeable - Claude and GPT-4 have different strengths, and customers choose based on quality and integrations, not cost.
 
-**Open-source didn't kill commercial models.** [Llama](https://www.meta.com/llama/), [Mistral](https://mistral.ai/), and other open models are freely available. Yet commercial LLM revenue is growing, not shrinking. Open models serve a different segment (developers who can self-host, cost-sensitive companies). They don't cannibalize commercial pricing - they coexist.
+**Open-source didn't kill commercial models.** [Llama](https://www.llama.com/), [Mistral](https://mistral.ai/), and other open models are freely available. Yet commercial LLM revenue is growing, not shrinking. Open models serve a different segment (developers who can self-host, cost-sensitive companies). They don't cannibalize commercial pricing - they coexist.
 
 ---
 

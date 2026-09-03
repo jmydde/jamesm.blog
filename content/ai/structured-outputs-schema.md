@@ -203,7 +203,7 @@ The teams that adopt structured outputs early build more reliable systems. The t
 
 ## For Further Exploration
 
-- [Anthropic Structured Outputs Documentation](https://docs.anthropic.com/build-guides/structured-outputs) - Full guide with examples
+- [Anthropic Structured Outputs Documentation](https://docs.claude.com/en/docs/build-with-claude/structured-outputs) - Full guide with examples
 - [JSON Schema Reference](https://json-schema.org/) - The schema standard
 - [OpenAI Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs) - Alternative implementation
 - [Pydantic for Schema Definition](https://docs.pydantic.dev/) - Python library for defining schemas programmatically

@@ -133,7 +133,7 @@ A few areas I find compelling but have deliberately left off my active work list
 
 **Claims that language models "already are" world models.** Sometimes true in narrow domains where the environment is text-shaped. Misleading as a general statement about physical reality. I prefer the honest gap to the comforting conflation.
 
-The line between watching and researching is the line between "I can run an experiment this month" and "I can read papers and feel informed." World models are moving toward the first category for robotics teams. For a home-agent builder on a Mac Studio, they are still mostly the second.
+The line between watching and researching is the line between "I can run an experiment this month" and "I can read papers and feel informed." World models are moving toward the first category for robotics teams. For a home-agent builder on a Mac mini, they are still mostly the second.
 
 ------------------------------------------------------------------------
 

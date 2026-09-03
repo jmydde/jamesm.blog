@@ -110,7 +110,6 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 ### Text to Speech & Voice
 - [Cleanvoice](https://cleanvoice.ai/) - removes filler sounds, stuttering, and mouth sounds from your podcast or audio recording
 - [ElevenLabs](https://elevenlabs.io/) - market-leading AI voice generation, cloning, and dubbing
-- [LOVO](https://lovo.ai/) - AI voice generator and text-to-speech
 - [Murf](https://murf.ai/) - AI voice generator and text-to-speech
 - [Play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - realistic AI voices and voice cloning for content creators
 - [Resemble AI](https://www.resemble.ai/) - voice cloning, real-time TTS, and speech-to-speech
@@ -176,7 +175,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [Octane AI](http://octaneai.com) - Shopify app for AI-powered customer engagement
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
 - [Regie](http://regie.ai) - AI sales assistant for email
-- [Snazzy](https://snazzy.ai/) - gives you great content ideas for social media ads, landing pages and more
+- [Smart Copy](https://unbounce.com/product/smart-copy/) - Unbounce's AI copywriting tool (formerly Snazzy AI) for social media ads, landing pages and more
 - [Sprout Social](https://sproutsocial.com/) - extract real business value from social
 - [Taskade](http://taskade.com) - AI-powered workspace for productivity
 - [TldV](http://tldv.io) - AI meeting recorder and summarizer

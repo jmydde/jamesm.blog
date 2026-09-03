@@ -123,10 +123,10 @@ The team building with a 200K context window and intelligent architecture will s
 
 ## For Further Exploration
 
-- [Anthropic Prompt Caching Documentation](https://docs.anthropic.com/claude/reference/prompt-caching) - How to reuse context efficiently
+- [Anthropic Prompt Caching Documentation](https://docs.claude.com/en/docs/build-with-claude/prompt-caching) - How to reuse context efficiently
 - [RAG Systems Survey](https://arxiv.org/abs/2312.10997) - Why retrieval beats bulk context
 - [Context Window Benchmarks](https://www.anthropic.com/research) - What context size actually predicts for real tasks
-- [Token Counting and Optimization](https://docs.anthropic.com/claude/reference/token-counting-api) - Practical tools for measuring efficiency
+- [Token Counting and Optimization](https://docs.claude.com/en/docs/build-with-claude/token-counting) - Practical tools for measuring efficiency
 
 ## Related Reading
 

@@ -346,5 +346,5 @@ None of that requires new hardware. All of it compounds.
 - [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/) - full comparison with NVIDIA's Blackwell-powered AI appliance
 - [Running AI Models Locally with Ollama](/ai/ollama/) - practical walkthrough of the easiest local-inference stack
 - [Local vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/) - when to run locally versus pay per token
-- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac Studio](/ai/mcp-servers-home-ai-agent/) - wiring the tool layer once the hardware is sorted
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6](/ai/mcp-servers-home-ai-agent/) - wiring the tool layer once the hardware is sorted
 - [AI Economics and Hardware: A Reading Path](/ai/ai-economics-hardware/) - full reading path on token costs, GPU choices, and energy constraints

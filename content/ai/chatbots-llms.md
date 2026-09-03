@@ -97,7 +97,7 @@ They tend to be strongest at broad reasoning, writing, coding help, and multimod
 
 ### Open-weight and self-hostable models
 
-This category includes model families such as [Llama](https://www.meta.com/llama/) and other open or partially open ecosystems.
+This category includes model families such as [Llama](https://www.llama.com/) and other open or partially open ecosystems.
 
 These matter because they give developers more control over:
 

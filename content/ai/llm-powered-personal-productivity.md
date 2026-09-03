@@ -16,6 +16,7 @@ cover:
 - Three jobs are the sweet spot for local: inbox triage, note enrichment, and routine automation. Each one is repetitive, private, and tolerant of a bit of latency.
 - Two jobs are still worth handing to a frontier cloud model: anything novel-and-hard, and anything where you want the best draft on the first attempt.
 - The bit nobody talks about is the **router**. The model is not the product. The thing that decides which model gets which job is the product.
+- **Update:** this stack now runs on top of [Hermes Agent on a Mac mini M6](/ai/mac-mini-m6-always-on-ai-agent-server/) rather than a Mac Studio doing everything locally. The split described below still holds - small, repetitive, private jobs stay local; the "frontier model in the cloud" for hard reasoning is now specifically DeepSeek and Claude Sonnet, routed by Hermes.
 
 ## Why Local Got Interesting
 
@@ -25,7 +26,7 @@ Two things changed that.
 
 First, the open-weight models caught up to where the cloud models were 18 months ago. An 8B model on a laptop can now do the kinds of triage, summarisation, and tagging tasks that used to need a frontier model. It is not as good at novel reasoning, but most personal-productivity work is not novel reasoning. It is repetitive shape-matching.
 
-Second, hardware got embarrassingly capable. Apple Silicon's [unified memory](/ai/mac-studio-local-llm-guide/) means a Mac Mini can hold a 30B model in RAM with room to spare for the rest of your laptop's life. A second-hand RTX 3090 is now the cheapest way to run a useful local agent, and it sits quietly in a closet.
+Second, hardware got embarrassingly capable. Apple Silicon's [unified memory](/ai/mac-studio-local-llm-guide/) means an entry-level Mac mini can hold an 8B-14B model with room to spare for everything else it's doing - a 30B model needs real headroom, which is a Mac Studio-class or upper-tier Mac mini conversation, not the base config. A second-hand RTX 3090 is now the cheapest way to run a useful local agent, and it sits quietly in a closet.
 
 The combination means you can put a model in front of every email, every note, and every sensor in your house, and the marginal cost of a query is the electricity. That changes what you build.
 

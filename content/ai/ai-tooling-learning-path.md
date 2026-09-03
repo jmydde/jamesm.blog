@@ -183,7 +183,7 @@ This is the phase most developers skip, and it is the one that separates AI-curi
 
 **Evaluation:** For anything you rely on repeatedly, build a small evaluation set - a handful of inputs where you know what good output looks like. Run your prompt or workflow against them whenever you change models or providers.
 
-**Capture:** Keep a lightweight store of prompts, specs, setup notes, and architectural decisions. [Claude Skills](https://docs.claude.com/en/docs/build-with-claude/skills/), CLAUDE.md files, and a plain notes directory all work. Without a capture habit, every session starts from too close to zero.
+**Capture:** Keep a lightweight store of prompts, specs, setup notes, and architectural decisions. [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills), CLAUDE.md files, and a plain notes directory all work. Without a capture habit, every session starts from too close to zero.
 
 ---
 

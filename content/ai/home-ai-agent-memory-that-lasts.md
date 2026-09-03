@@ -144,7 +144,7 @@ This is not a full truth-maintenance system. It does not need to be. Most contra
 
 Everything is local. The stores sit in an encrypted APFS volume. The MCP server only listens on `localhost` and is reachable over [Tailscale](https://tailscale.com/) from my phone for the [call-in agent](/ai/phone-your-home-ai-agent/). Nothing touches a third-party service on the write or read path.
 
-The one exception is the fallback to the Claude API when a local model is not strong enough for a task. In that case, the memory retrieval still happens locally - the agent pulls the relevant snippets, then sends only those snippets to the API along with the current turn. The full store never leaves the box. This is the minimum bar I was willing to accept.
+The exception is escalation to DeepSeek or the Claude API when a local model is not strong enough for a task - which, per the [routing policy on the Mac mini M6](/ai/mac-mini-m6-always-on-ai-agent-server/), is most tasks that need real reasoning. In that case, the memory retrieval still happens locally - the agent pulls the relevant snippets, then sends only those snippets to the API along with the current turn. The full store never leaves the box. This is the minimum bar I was willing to accept.
 
 ## Where This Goes Next
 

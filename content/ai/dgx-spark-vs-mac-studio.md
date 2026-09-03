@@ -1,6 +1,6 @@
 ---
 title: "DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?"
-date: 2026-04-19T05:22:00Z
+date: 2026-04-19T05:22:00+00:00
 draft: false
 tags: ["ai", "hardware", "gpu", "llm", "comparison"]
 description: "An in-depth comparison of NVIDIA DGX Spark and Apple Mac Studio for local LLM inference. Includes specifications, pricing, performance benchmarks, and cost analysis to help you choose the right personal AI supercomputer."

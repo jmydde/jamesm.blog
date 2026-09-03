@@ -66,7 +66,7 @@ The more interesting chart in the release is the **effort curve**: Composer 2.5 
 |---|---|---|
 | Composer 2.5 (default) | $0.50 | $2.50 |
 | Composer 2.5 (fast variant) | $3.00 | $15.00 |
-| Claude Opus 4.7 | ~$15 | ~$75 |
+| Claude Opus 4.7 | $5 | $25 |
 | GPT-5.5 | comparable to Opus tier | comparable to Opus tier |
 
 The default Composer 2.5 is dramatically cheaper than frontier alternatives for the same task. The fast variant exists because it runs at higher tokens-per-second for interactive work; even there, it is cheaper than the fast tiers of Opus and GPT-5.5. For the first week after launch, Cursor is doubling the included usage on subscription plans.
