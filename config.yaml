@@ -6,7 +6,7 @@ enableEmoji:            true
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 #googleAnalytics:        UA-123-45
-pagination.pagerSize:   5
+pagination.pagerSize:   15
 pygmentsUseClasses:     true
 title:                  jamesm.blog
 
@@ -32,6 +32,9 @@ languages:
       series:   series
     menu:
       main:
+        - name: Archive
+          url: archives/
+          weight: 5
         - name: Search
           url: search/
           weight: 10

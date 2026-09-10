@@ -15,8 +15,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - New AI post: "The Day I Stop Chasing Better AI: When Frontier Models Come Home" - a hobbyist's case for why a capability threshold, not the moving frontier, is what will make local AI hardware compelling.
 - New personal development post: "Just a Theory" - on why decades-in-the-making theories rarely survive being explained in a few minutes, and why a lot of people aren't open to hearing them regardless.
 - New AI post: "Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server" - why a Mac mini M6 plus cloud-routed DeepSeek/Claude via Hermes won out over a local-inference Mac Studio build.
+- Archive page (`/archives/`) listing every post grouped by year and month, plus an "Archive" link in the main nav - the back catalogue was previously unreachable except by paging through "Next" dozens of times.
 
 ### Changed
+- Increased pagination page size from 5 to 15 posts per page, cutting the number of pages needed to browse the full site from ~70 down to single digits.
 - Updated the home agent series (MCP servers, phone-in agent, memory, security, and the reading path) to reflect the actual build: a Mac mini M6 routing most reasoning to DeepSeek/Claude via Hermes, not the Mac Studio local-inference setup those posts originally described.
 
 ## 2026-07
