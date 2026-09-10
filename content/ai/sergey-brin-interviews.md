@@ -2,7 +2,7 @@
 title: "Sergey Brin Interviews"
 date: 2025-05-20T19:27:14+01:00
 draft: false
-tags: ["ai","sergey-brin","interview"]
+tags: ["ai", "interview"]
 description: "A working index of Sergey Brin interviews on AI, Gemini, robotics, AGI timelines, and the future of human-computer interaction - tracking the Google co-founder's public commentary since his return to hands-on work in 2024-2026."
 cover:
   image: /assets/images/ai/ai-intelligence.jpg

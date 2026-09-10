@@ -2,7 +2,7 @@
 title: "MPE Deep Dive: Why Expressive MIDI Changes Everything"
 date: 2026-05-02T08:00:00+01:00
 draft: false
-tags: ["mpe", "midi", "synth", "controller", "expression", "performance"]
+tags: ["mpe", "midi", "synth", "controller", "performance"]
 description: "Why MIDI Polyphonic Expression is not just a feature on a spec sheet but a fundamental shift in how electronic instruments behave under your fingers, and what it takes to make the most of it."
 cover:
   image: /assets/images/music-production/mpe-deep-dive.jpg

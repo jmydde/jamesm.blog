@@ -1,0 +1,87 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+{{- /*
+  Weighted tag cloud: font-size scales with how many posts carry the tag, so
+  the handful of tags that actually organise the site (ai, devops, agent...)
+  read as dominant at a glance instead of being buried alphabetically among
+  hundreds of tags used once or twice. Sort stays alphabetical for scanning;
+  size carries the weight signal.
+*/}}
+{{- if eq .Data.Plural "tags" }}
+<style>
+  .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 10px 14px;
+      margin-top: var(--content-gap);
+  }
+  .tag-cloud li { display: inline-block; }
+  .tag-cloud a {
+      display: inline-block;
+      padding: 3px 10px;
+      background: var(--tertiary);
+      border-radius: 6px;
+      transition: transform 0.1s;
+      line-height: 1.4;
+  }
+  .tag-cloud a:active { transform: scale(0.96); }
+  .tag-cloud .count {
+      font-size: 0.68em;
+      opacity: 0.6;
+      margin-left: 3px;
+  }
+  /* Weight bands, smallest to largest. */
+  .tag-w1 a { font-size: 0.82rem; font-weight: 400; opacity: 0.75; }
+  .tag-w2 a { font-size: 0.95rem; font-weight: 500; opacity: 0.85; }
+  .tag-w3 a { font-size: 1.15rem; font-weight: 500; }
+  .tag-w4 a { font-size: 1.45rem; font-weight: 600; }
+  .tag-w5 a { font-size: 1.85rem; font-weight: 700; }
+</style>
+
+<ul class="tag-cloud">
+    {{- range .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- $weight := 1 }}
+    {{- if ge $count 100 }}{{ $weight = 5 }}
+    {{- else if ge $count 25 }}{{ $weight = 4 }}
+    {{- else if ge $count 12 }}{{ $weight = 3 }}
+    {{- else if ge $count 5 }}{{ $weight = 2 }}
+    {{- end }}
+    {{- with site.GetPage (printf "/tags/%s" $name) }}
+    <li class="tag-w{{ $weight }}">
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}<span class="count">{{ $count }}</span></a>
+    </li>
+    {{- end }}
+    {{- end }}
+</ul>
+
+{{- else }}
+{{- /* Categories, series, and any other taxonomy keep the plain list. */}}
+<ul class="terms-tags">
+    {{- $type := .Type }}
+    {{- range .Data.Terms.Alphabetical }}
+    {{- $name := .Name }}
+    {{- $count := .Count }}
+    {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .LinkTitle }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+    </li>
+    {{- end }}
+    {{- end }}
+</ul>
+{{- end }}
+
+{{- end }}{{/* end main */ -}}

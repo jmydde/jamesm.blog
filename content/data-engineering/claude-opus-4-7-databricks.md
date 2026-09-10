@@ -2,7 +2,7 @@
 title: "Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lakehouse"
 date: 2026-04-20T07:45:00+01:00
 draft: false
-tags: ["ai", "claude", "anthropic", "databricks", "agent", "enterprise"]
+tags: ["ai", "claude", "anthropic", "databricks", "agent"]
 description: "Anthropic's Claude Opus 4.7 is now available inside Databricks, bringing 21% fewer document reasoning errors on OfficeQA Pro and first-class Agent Bricks support to governed enterprise workflows."
 cover:
   image: /assets/images/ai/ai-intelligence.jpg

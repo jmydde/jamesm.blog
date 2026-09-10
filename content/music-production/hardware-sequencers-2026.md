@@ -2,7 +2,7 @@
 title: "Hardware Sequencers in 2026: When Physical Beats Software"
 date: 2026-05-02T07:50:00+01:00
 draft: false
-tags: ['hardware', 'sequencer', 'workflow', 'midi', 'cv']
+tags: ['hardware', 'sequencer', 'workflow', 'midi']
 description: "Why dedicated hardware sequencers are seeing a resurgence in 2026 - the cognitive case for constraint-first workflows, and the boxes worth building a setup around."
 cover:
   image: /assets/images/music-production/hardware-sequencers-2026.jpg

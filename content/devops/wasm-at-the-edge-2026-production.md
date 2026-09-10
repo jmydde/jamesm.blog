@@ -2,7 +2,7 @@
 title: "Wasm at the Edge: What Production Looks Like in 2026"
 date: 2026-05-10T12:30:00+01:00
 draft: true
-tags: ["devops", "wasm", "edge", "platform", "runtime"]
+tags: ["devops", "wasm", "platform"]
 description: "WebAssembly stopped being a curiosity sometime in 2025. A look at how Wasm is actually being deployed at the edge in 2026, what works, what does not, and where it is replacing containers in real production."
 cover:
   image: /assets/images/devops/kubernetes-2026-complexity-tax.jpg

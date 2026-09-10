@@ -2,7 +2,7 @@
 title: "Space News - May 2026: Starship V3 Returns, SMILE Lifts Off, and Webb Maps the Cosmic Web"
 date: 2026-05-21T09:00:00+01:00
 draft: true
-tags: ['space', 'news', 'starship', 'nasa', 'esa', 'jwst', '2026']
+tags: ['space', 'news', 'starship', 'nasa', '2026']
 description: "The five space stories that mattered most over the last month - the first flight of SpaceX Starship V3, the SMILE mission's launch, a record-setting Cargo Dragon, China's Tianzhou-10 resupply, and the most detailed map yet of the universe's cosmic web."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg

@@ -3,7 +3,7 @@ title: "Unbaffled with Jim Al-Khalili: Making the Weirdest Ideas in Science Feel
 date: 2026-07-15T09:00:00+01:00
 draft: false
 aliases: ["/general/unbaffled-jim-al-khalili/"]
-tags: ["physics","quantum","science","youtube","education","jim-al-khalili"]
+tags: ["physics", "quantum", "science", "youtube", "education"]
 description: "Jim Al-Khalili's new YouTube channel Unbaffled launched in June 2026 with a simple pitch - make the ideas that baffle people, from many-worlds to why your brain has two hemispheres, feel intuitive rather than impossible. A first look at the channel, three of its early videos, and where I land on the many-worlds one."
 cover:
   image: /assets/images/general/unbaffled-jim-al-khalili.jpg

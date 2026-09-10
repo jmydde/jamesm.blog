@@ -4,8 +4,6 @@ date: 2026-04-09T07:11:00+00:00
 draft: false
 tags:
   - aws
-  - s3
-  - storage
   - cloud
   - devops
 description: Explore AWS S3 Files, a new file system interface that brings high-performance file access to Amazon S3 data without duplication or complex integration.

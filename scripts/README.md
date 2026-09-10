@@ -64,3 +64,26 @@ The Mac must be powered on for it to run; if it is asleep at 09:00 on the 1st,
 the job runs when the Mac next wakes. `launchd` is used instead of `cron`
 because it runs inside your login session and can reach the credentials Claude
 Code needs.
+
+## validate-tags.py
+
+Fails the build if a post's frontmatter uses a tag that isn't in the
+canonical allowlist at `data/tags.yaml`. Run automatically by `deploy.sh`
+before `hugo` builds the site; you can also run it standalone:
+
+```bash
+python3 scripts/validate-tags.py
+```
+
+No dependencies beyond the standard library.
+
+### Adding a new tag
+
+The list exists to stop tags piling up one-off per post (that's how the site
+got to 457 distinct tags, a third of them used exactly once). Before adding a
+new tag, check whether an existing one in `data/tags.yaml` already covers the
+topic - reuse it instead. Add a genuinely new tag only when you expect more
+than one post to eventually carry it: use it in the post's frontmatter (as a
+singular noun, see the tag-format convention), then add the same string to
+`data/tags.yaml` in alphabetical order. The next `deploy.sh` run will fail
+until both are done.

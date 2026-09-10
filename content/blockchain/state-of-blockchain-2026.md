@@ -2,7 +2,7 @@
 title: "The State of Blockchain in 2026"
 date: 2026-05-04T04:00:00+01:00
 draft: false
-tags: ['blockchain', 'web3', 'bitcoin', 'ethereum', 'solana', 'polkadot', 'defi', 'stablecoin', 'rwa', 'eigenlayer', 'celestia', '2026']
+tags: ['blockchain', 'web3', 'bitcoin', 'ethereum', 'polkadot', 'defi', 'stablecoin', 'rwa', '2026']
 description: "A grounded look at the blockchain landscape in 2026 - the Layer 1s that survived the cycle, the Layer 2 explosion on Ethereum, the modular and restaking thesis, the stablecoin volumes that quietly overtook Visa, and the tokenization of real-world assets that is starting to matter. Where the leading projects are and where the next two years are headed."
 cover:
   image: /assets/images/blockchain/state-of-blockchain-2026.jpg

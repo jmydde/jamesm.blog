@@ -2,7 +2,7 @@
 title: "Apple finally allows game emulators in the App Store"
 date: 2024-04-20T08:00:01+01:00
 draft: false
-tags: ['computing', 'software', 'gaming', 'emulator', 'ios']
+tags: ['computing', 'software', 'gaming', 'ios']
 description: "News and resources about Apple's decision to allow game emulators in the App Store, including Delta, Dolphin, and retro emulator apps."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

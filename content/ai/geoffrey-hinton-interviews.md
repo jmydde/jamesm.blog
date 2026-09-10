@@ -2,7 +2,7 @@
 title: "Geoffrey Hinton Interviews"
 date: 2026-06-08T21:07:21+01:00
 draft: false
-tags: ["ai","geoffrey-hinton","interview"]
+tags: ["ai", "interview"]
 description: "A working index of Geoffrey Hinton interviews - the Nobel and Turing Award winner often called the Godfather of AI - tracing his arc from backpropagation and deep learning to public warnings about superintelligence, job displacement, and existential risk."
 cover:
   image: /assets/images/ai/geoffrey-hinton-interviews.jpg

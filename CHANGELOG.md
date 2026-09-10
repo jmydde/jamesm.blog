@@ -16,10 +16,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - New personal development post: "Just a Theory" - on why decades-in-the-making theories rarely survive being explained in a few minutes, and why a lot of people aren't open to hearing them regardless.
 - New AI post: "Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server" - why a Mac mini M6 plus cloud-routed DeepSeek/Claude via Hermes won out over a local-inference Mac Studio build.
 - Archive page (`/archives/`) listing every post grouped by year and month, plus an "Archive" link in the main nav - the back catalogue was previously unreachable except by paging through "Next" dozens of times.
+- Canonical tag allowlist (`data/tags.yaml`) plus `scripts/validate-tags.py`, run from `deploy.sh` before every `hugo` build - a build now fails if a post uses a tag that isn't on the list, so the tag set can no longer drift back to sprawl the way it did after the July 2026 consolidation. Adding a genuinely new tag is a deliberate one-line edit to the allowlist.
+- Weighted tag cloud on `/tags/` - font size now scales with how many posts carry a tag, so the handful of tags that actually organise the site (`ai`, `devops`, `agent`, `2026`...) read as dominant at a glance instead of being buried alphabetically among hundreds of similarly-sized entries. Categories and series pages keep the plain list.
 
 ### Changed
 - Increased pagination page size from 5 to 15 posts per page, cutting the number of pages needed to browse the full site from ~70 down to single digits.
 - Updated the home agent series (MCP servers, phone-in agent, memory, security, and the reading path) to reflect the actual build: a Mac mini M6 routing most reasoning to DeepSeek/Claude via Hermes, not the Mac Studio local-inference setup those posts originally described.
+- Consolidated 96 one-off tags (brand/product/person names and generic words already covered by a sibling tag on the same post, e.g. `atari`, `tesla`, `sqlmesh`, `mixing`) back into their posts' remaining tags: 457 distinct tags down to 361, and single-use tags down from 133 to 37 - the remainder are genuine standalone topics rather than noise.
 
 ## 2026-07
 

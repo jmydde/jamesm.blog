@@ -95,7 +95,7 @@ description: "A brief description of the post"
 
 **Key guidelines:**
 - Use ISO 8601 date format with timezone
-- Use singular tag names (e.g., `ai` not `ai-tools`)
+- Use singular tag names (e.g., `ai` not `ai-tools`), and only tags already listed in [data/tags.yaml](data/tags.yaml) - `deploy.sh` runs [scripts/validate-tags.py](scripts/validate-tags.py) before every build and fails on any tag not on that list. Reuse an existing tag before adding a new one; see [scripts/README.md](scripts/README.md#validate-tagspy) for how to add one deliberately.
 - Include relevant links to authoritative sources
 - Keep content original and copyright-free
 - See [EDITORIAL.md](EDITORIAL.md) for post archetypes, section conventions, and publish checklist

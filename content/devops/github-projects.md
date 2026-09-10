@@ -2,7 +2,7 @@
 title: "DevOps GitHub Projects"
 date: 2023-05-29T06:45:18+01:00
 draft: false
-tags: ['airflow', 'apache', 'devops', 'github', 'cli', 'terminal', 'kubernetes', 'scheduling', 'sre', 'linux', 'open-source']
+tags: ['airflow', 'devops', 'github', 'cli', 'terminal', 'kubernetes', 'scheduling', 'sre', 'linux', 'open-source']
 description: "Curated collection of essential open-source DevOps projects on GitHub - SRE learning resources, Kubernetes tooling, Linux utilities, and workflow schedulers."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg

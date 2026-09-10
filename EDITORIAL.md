@@ -156,7 +156,7 @@ YouTube embeds and trailers go after the argument, under a clearly labeled appen
 | Field | Rule |
 |-------|------|
 | `date` | ISO 8601 with timezone, e.g. `2026-04-28T14:30:00+01:00` |
-| `tags` | Singular nouns (`ai`, `gaming`, `economics`). Avoid category name as tag. |
+| `tags` | Singular nouns (`ai`, `gaming`, `economics`). Avoid category name as tag. Must be on the canonical list in [data/tags.yaml](data/tags.yaml) - `deploy.sh` fails the build otherwise. Reuse an existing tag before adding a new one to the list. |
 | `description` | One sentence; used for SEO and social previews |
 | `cover.image` | `/assets/images/<category>/<slug>.jpg` under `static/` |
 | `series` | Use for multi-post reading paths; pair with a hub page |
@@ -177,7 +177,7 @@ Reference in frontmatter as `/assets/images/<category>/<slug>.jpg`.
 
 Before setting `draft: false`:
 
-1. Frontmatter complete (`title`, `date`, `tags`, `description`, `cover`)
+1. Frontmatter complete (`title`, `date`, `tags`, `description`, `cover`); every tag is on the canonical list in [data/tags.yaml](data/tags.yaml)
 2. `## TL;DR` present (analysis essays only)
 3. External links verified
 4. No em dashes (`—`)

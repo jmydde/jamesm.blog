@@ -2,7 +2,7 @@
 title: "The Forgotten 16-Bit Era: Atari ST, Acorn Archimedes, Sharp X68000"
 date: 2026-05-12T18:00:00+01:00
 draft: true
-tags: ["retro-computing", "atari", "acorn", "sharp", "16-bit"]
+tags: ["retro-computing"]
 description: "The 16-bit home-computer era is mostly remembered through the Amiga and the early Mac. A look at the three significant machines that history mostly skipped - the Atari ST, the Acorn Archimedes, and the Sharp X68000 - and what each of them got right that the survivors did not."
 cover:
   image: /assets/images/general/human-advancement-acceleration.jpg

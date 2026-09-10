@@ -2,7 +2,7 @@
 title: "AI Hardware Wars 2026: Blackwell, MI300X, and TPUv6"
 date: 2026-05-07T10:30:00+01:00
 draft: true
-tags: ["ai", "hardware", "gpu", "nvidia", "amd", "google", "tpu", "infrastructure"]
+tags: ["ai", "hardware", "gpu", "nvidia", "google", "infrastructure"]
 description: "The 2026 AI accelerator landscape is a real three-horse race for the first time. A practical look at NVIDIA Blackwell, AMD's MI300X, and Google's TPUv6 - what each is actually good for, where the software stacks have caught up, and what it means for buyers."
 cover:
   image: /assets/images/ai/ai-hardware-wars-blackwell-mi300x-tpuv6.jpg
