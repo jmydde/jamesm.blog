@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - In-progress edits to 41 posts across blockchain, data engineering, data science, DevOps, music production, personal development and retro computing.
 
 ### Added
+- Automatic "More on this topic" block on every post, beneath the hand-curated `## Related Reading` section - powered by Hugo's built-in related-content index (`related:` in `config.yaml`, weighted on tags/series/date, threshold 80). Curation stays hand-written and takes precedence; the automatic block only surfaces posts not already linked in the post body, and now gives internal links to the 52 posts that previously had none.
 - New cover images for data engineering and data science posts (not yet committed).
 - Four new tracks (Feelin' In My Mind - After Hours Mix, Feelin' In My Mind - UKG Mix, Come Back Forever - Tokyo Garage, Breath of the Open Sky - Atmospheric Mix) added to the August 2026 tracks post.
 - New AI post: "The Day I Stop Chasing Better AI: When Frontier Models Come Home" - a hobbyist's case for why a capability threshold, not the moving frontier, is what will make local AI hardware compelling.

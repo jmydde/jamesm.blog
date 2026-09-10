@@ -41,6 +41,7 @@ content/
   └── space/                 # Space exploration and infrastructure
 
 config.yaml                   # Hugo configuration
+layouts/                      # Theme overrides (e.g. the automatic "More on this topic" block - see EDITORIAL.md)
 themes/PaperMod/             # Blog theme
 ```
 

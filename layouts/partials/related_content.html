@@ -1,0 +1,36 @@
+{{- /*
+  Automatic "More on this topic" block, driven by Hugo's related-content
+  index (see `related:` in config.yaml: tags/series/date, threshold 80).
+
+  This is secondary to, and never replaces, the hand-curated "## Related
+  Reading" section authors write into the post body (see EDITORIAL.md) -
+  it exists purely to give posts with no curated links some internal
+  linking coverage. Candidates are restricted to the blog's main content
+  sections (so utility pages like search/archives never show up here),
+  and any page already linked to from within the post's own body is
+  dropped to avoid repeating the curated list.
+*/}}
+{{- $page := . }}
+{{- $candidates := where site.RegularPages "Section" "in" site.Params.mainSections }}
+{{- $related := $candidates.Related $page | first 5 }}
+{{- /* Use rendered .Content (not .RawContent) so links written via the
+     {{< ref >}}/{{< relref >}} shortcodes - which resolve to a permalink
+     only after rendering - are still detected and deduped. */}}
+{{- $renderedContent := $page.Content }}
+{{- $shown := slice }}
+{{- range $related }}
+  {{- if not (in $renderedContent .RelPermalink) }}
+    {{- $shown = $shown | append . }}
+  {{- end }}
+{{- end }}
+{{- with $shown }}
+<section class="related-content">
+  <h2>More on this topic</h2>
+  <p class="related-content-note">Automatically suggested based on shared tags, series, or timing - not hand-picked.</p>
+  <ul class="related-content-list">
+    {{- range . }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

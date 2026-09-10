@@ -104,6 +104,8 @@ Every link must share **at least two tags** with the post, or sit in the **same 
 
 Prefer posts that extend the argument, not loosely adjacent topics.
 
+Every post also gets an automatic "More on this topic" block rendered beneath this one (`related:` config in `config.yaml`, `layouts/partials/related_content.html`), driven by Hugo's related-content index over tags/series/date. That block is coverage, not curation - it exists so posts don't go with zero internal links, and it never replaces writing a real `## Related Reading` section by hand.
+
 ### Sources
 
 Add `## Sources` when the post includes:

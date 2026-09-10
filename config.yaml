@@ -76,6 +76,23 @@ outputs:
     - JSON
     - RSS
 
+# Automatic "More on this topic" related-content index (rendered in
+# layouts/_default/single.html). This is separate from, and secondary to,
+# the hand-curated "## Related Reading" section written into each post -
+# see EDITORIAL.md. It exists to give the posts with no curated links at
+# all some internal linking coverage.
+related:
+  includeNewer: true
+  threshold: 80
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: series
+      weight: 60
+    - name: date
+      weight: 10
+
 params:
   author:                 James M
   #comments:              false
