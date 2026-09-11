@@ -87,3 +87,36 @@ than one post to eventually carry it: use it in the post's frontmatter (as a
 singular noun, see the tag-format convention), then add the same string to
 `data/tags.yaml` in alphabetical order. The next `deploy.sh` run will fail
 until both are done.
+
+## link-audit.py
+
+Reports internal-linking problems that are otherwise invisible - a post
+nothing else links to is only reachable via search, a tag page, or deep
+pagination. Run automatically by `deploy.sh` after `hugo` builds the site
+(it needs the rendered `public/` output, not just the markdown source);
+run it standalone any time with:
+
+```bash
+hugo && python3 scripts/link-audit.py
+```
+
+It checks three things:
+
+1. **Orphan posts** - any post with zero inbound links from another post's
+   body or its automatic "More on this topic" block (see
+   `layouts/partials/related_content.html`). Tag pages, prev/next nav, and
+   the tags footer don't count as real discoverability.
+2. **Related Reading section mismatches** - a curated `## Related Reading`
+   link whose URL names a section the target post doesn't actually live
+   in (left behind when a post moves between sections), or that doesn't
+   resolve to any post at all.
+3. **Links to drafts** - any published post linking to a post still marked
+   `draft: true`. Plain markdown links to a draft aren't caught by Hugo at
+   build time; they render as a normal-looking link that 404s once the
+   reader clicks it.
+
+Reports only by default (exit 0), so it won't block a deploy - treat it as
+the weekly ten-minute chore of skimming the output and fixing what it
+finds. Pass `--strict` to exit non-zero on any finding instead, for wiring
+into CI once the backlog it finds is clear. No dependencies beyond the
+standard library.

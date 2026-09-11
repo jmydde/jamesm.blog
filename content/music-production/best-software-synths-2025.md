@@ -36,3 +36,4 @@ What sets 2025 apart isn’t just feature lists or spec sheets - it’s **integr
 - [The Best Software Synths of 2026: From AI-Native to Analog Perfection](/music-production/best-software-synths-2026/)
 - [Roland Jupiter‑X Review: A Workstation‑Level Synth with Legendary Sound](/music-production/roland-jupiter-x/)
 - [Roland Juno‑X Review: A Modern Reinterpretation of a Classic Synth](/music-production/roland-juno-x/)
+- [Top 10 Plugins of 2025](/music-production/top-10-plugins-2025/) - the wider plugin picks that round out this year's synth list.

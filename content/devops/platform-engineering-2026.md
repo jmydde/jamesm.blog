@@ -132,3 +132,4 @@ Building a platform is a multi-year commitment. Starting small, treating it as a
 - [List of DevOps Courses](/devops/devops-courses/)
 - [DevOps Conferences](/devops/devops-conferences/)
 - [CI/CD Tools](/devops/cicd-tools/)
+- [System Design Fundamentals: Making Trade-offs You Won't Regret](/software-engineering/system-design-fundamentals/) - the trade-off framework platform engineering decisions ultimately answer to.
