@@ -232,3 +232,4 @@ Honestly, spend an hour with any of these and you'll understand why the future o
 - [Introduction to Modular Synthesis - The Building Blocks](/music-production/modular-synthesis-building-blocks/)
 - [Music Production Blogs](/music-production/blogs/)
 - [u-he Zebra 3: The Modular Beast Unleashed](/music-production/u-he-zebra-3-the-modular-beast-unleashed/)
+- [Music Production: Analogue vs Digital Synths](/music-production/analogue-vs-digital-synths/) - the foundational analogue-vs-digital distinction this physical-modeling deep dive builds on.

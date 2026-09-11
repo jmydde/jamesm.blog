@@ -127,3 +127,4 @@ A detailed comparison of two flagship 88-key MIDI controllers aimed at serious p
 - [My Music Production Hardware & Software Wishlists](/music-production/my-music-hardware-software-wishlist/)
 - [Yamaha MODX M8 vs Arturia AstroLab 88](/music-production/modx-m8-vs-astrolab-88/)
 - [Roland Fantom EX](/music-production/roland-fantom-ex/)
+- [IK Multimedia - Pianoverse](/music-production/pianoverse/) - a deeply-sampled piano library worth pairing with either controller.

@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - In-progress edits to 41 posts across blockchain, data engineering, data science, DevOps, music production, personal development and retro computing.
 
 ### Added
+- `scripts/link-audit.py`, run from `deploy.sh` after every `hugo` build - reports posts with zero inbound internal links, curated `## Related Reading` links that name a section the target post doesn't actually live in, and any published post linking to a draft (a silent 404 Hugo doesn't catch). Report-only for now (`--strict` available once the backlog is clear); closed out the last 9 real orphans it found (5 in music production, 2 in general, 1 each in personal development and software engineering) by adding a reciprocal link from a topically related post.
 - Automatic "More on this topic" block on every post, beneath the hand-curated `## Related Reading` section - powered by Hugo's built-in related-content index (`related:` in `config.yaml`, weighted on tags/series/date, threshold 80). Curation stays hand-written and takes precedence; the automatic block only surfaces posts not already linked in the post body, and now gives internal links to the 52 posts that previously had none.
 - New cover images for data engineering and data science posts (not yet committed).
 - Four new tracks (Feelin' In My Mind - After Hours Mix, Feelin' In My Mind - UKG Mix, Come Back Forever - Tokyo Garage, Breath of the Open Sky - Atmospheric Mix) added to the August 2026 tracks post.

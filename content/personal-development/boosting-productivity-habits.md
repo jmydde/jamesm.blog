@@ -69,3 +69,4 @@ Personal development is an ongoing journey, not a destination. By intentionally 
 - [Learning How to Learn in the Age of AI](/personal-development/learning-how-to-learn-in-the-age-of-ai/)
 - [The Universe Has a Plan for You](/personal-development/the-universe-has-a-plan-for-you/)
 - [From Awakening to Action: Building the Life You've Discovered](/personal-development/from-awakening-to-action/)
+- [The Engineer's Guide to Managing Creative Burnout](/personal-development/managing-creative-burnout/) - what happens when these habits aren't enough and burnout sets in anyway.

@@ -29,3 +29,4 @@ See the full details here;
 - [News: Arturia FX Collection 4](/music-production/news/arturia-fx-collection-4/)
 - [Music Production YouTube Channels](/music-production/youtube-channels/)
 - [Music Production Websites](/music-production/websites/)
+- [Music Production: NAMM 2024](/music-production/news/namm-2024/) - the next gear-announcement roundup after this one.

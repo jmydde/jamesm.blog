@@ -16,3 +16,4 @@ cover:
 - [3 Things Daily Reflection Practice](/personal-development/3things/)
 - [The Quiet Discipline of Self-Honesty](/personal-development/the-quiet-discipline-of-self-honesty/)
 - [Habits of Intelligent People](/personal-development/tweets/habits-intelligent-people/)
+- [Worst User Interfaces](/general/tweets/worst-uis/) - the design-failure counterpart to these psychology visuals.

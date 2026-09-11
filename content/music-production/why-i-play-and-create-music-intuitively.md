@@ -59,3 +59,4 @@ I don’t play to eliminate mystery. I play to keep it alive.
 - [Music Production Websites](/music-production/websites/)
 - [u-he Zebra 3: The Modular Beast Unleashed](/music-production/u-he-zebra-3-the-modular-beast-unleashed/)
 - [The Best Software Synths of 2026: From AI-Native to Analog Perfection](/music-production/best-software-synths-2026/)
+- [Mastering Major Scales: How to Instantly Know the Sharps and Flats](/music-production/major-scales-sharps-flats/) - the theory shortcut for the moments when intuition wants a map.
