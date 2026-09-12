@@ -26,6 +26,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Updated the home agent series (MCP servers, phone-in agent, memory, security, and the reading path) to reflect the actual build: a Mac mini M6 routing most reasoning to DeepSeek/Claude via Hermes, not the Mac Studio local-inference setup those posts originally described.
 - Consolidated 96 one-off tags (brand/product/person names and generic words already covered by a sibling tag on the same post, e.g. `atari`, `tesla`, `sqlmesh`, `mixing`) back into their posts' remaining tags: 457 distinct tags down to 361, and single-use tags down from 133 to 37 - the remainder are genuine standalone topics rather than noise.
 
+### Fixed
+- `deploy.sh` now runs `hugo --cleanDestinationDir` instead of a plain `hugo` build. The project lives under iCloud-synced `~/Documents`, and without cleaning first, `public/` had been silently accumulating duplicate directories (iCloud sync-conflict copies like `ai 2`, `assets 2`, ...) and stale tag pages left over from the July 2026 tag consolidation - all of which `rsync --delete` was faithfully scanning and, in the case of the duplicates, shipping to production alongside the real content. One clean deploy under the fixed script removed ~2,500 stale files from the live site.
+
 ## 2026-07
 
 ### Added

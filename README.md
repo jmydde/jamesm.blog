@@ -75,10 +75,12 @@ The blog will be available at `http://localhost:1313`
 ### Building for Production
 
 ```bash
-hugo
+hugo --cleanDestinationDir
 ```
 
-The static site will be generated in the `public/` directory.
+The static site is generated in the `public/` directory. `--cleanDestinationDir` wipes stale output first - without it, renamed/removed content and any filesystem cruft (e.g. iCloud sync-conflict duplicates, if the repo lives under an iCloud-synced folder) silently accumulates in `public/` build after build.
+
+To validate tags, build, audit links, and push to production (via `rsync`) in one step, run `./deploy.sh` instead.
 
 ## Writing New Posts
 
