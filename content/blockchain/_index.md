@@ -1,5 +1,5 @@
 +++
-aliases = ["posts", "articles", "blog", "showcase", "docs", "web3"]
+aliases = ["web3"]
 title = "Blockchain & Web3"
 author = "James M"
 tags = ["blockchain", "bitcoin", "polkadot", "web3", "cryptocurrency", "decentralization"]

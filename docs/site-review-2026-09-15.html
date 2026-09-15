@@ -1,0 +1,842 @@
+<meta charset="utf-8">
+<title>jamesm.blog Teardown</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg:        #F2F4F7;
+    --surface:   #FFFFFF;
+    --ink:       #12161F;
+    --muted:     #5B6575;
+    --rule:      #DDE2EA;
+    --rule-soft: #E8ECF2;
+    --accent:    #0E6E78;
+    --accent-bg: #E2F0F1;
+    --crit:      #B3261E;
+    --crit-bg:   #FBEAE8;
+    --warn:      #8A5A00;
+    --warn-bg:   #FAF0DC;
+    --ok:        #1E6B45;
+    --ok-bg:     #E4F2EA;
+
+    --sans:  "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --disp:  "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --mono:  "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:        #0F1319;
+      --surface:   #161B24;
+      --ink:       #E4E8EF;
+      --muted:     #94A0B2;
+      --rule:      #242C38;
+      --rule-soft: #1D242E;
+      --accent:    #57CFC4;
+      --accent-bg: #133334;
+      --crit:      #F28B80;
+      --crit-bg:   #35201E;
+      --warn:      #E3B341;
+      --warn-bg:   #332A14;
+      --ok:        #6FCF9B;
+      --ok-bg:     #16301F;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg:        #0F1319;
+    --surface:   #161B24;
+    --ink:       #E4E8EF;
+    --muted:     #94A0B2;
+    --rule:      #242C38;
+    --rule-soft: #1D242E;
+    --accent:    #57CFC4;
+    --accent-bg: #133334;
+    --crit:      #F28B80;
+    --crit-bg:   #35201E;
+    --warn:      #E3B341;
+    --warn-bg:   #332A14;
+    --ok:        #6FCF9B;
+    --ok-bg:     #16301F;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding-inline: 20px;
+    padding-block: 0 96px;
+  }
+
+  /* ---------- masthead ---------- */
+
+  .masthead {
+    padding-block: 56px 28px;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .kicker {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 14px;
+  }
+
+  h1 {
+    font-family: var(--disp);
+    font-weight: 700;
+    font-size: clamp(34px, 7vw, 52px);
+    line-height: 1.04;
+    letter-spacing: -0.025em;
+    margin: 0 0 18px;
+    text-wrap: balance;
+  }
+
+  .standfirst {
+    font-size: 18px;
+    color: var(--muted);
+    margin: 0 0 26px;
+    max-width: 60ch;
+  }
+
+  .scan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 22px;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--muted);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .scan b {
+    color: var(--ink);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- sticky section nav ---------- */
+
+  .tocbar {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 5;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 8px;
+  }
+  .tocbar ol {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    scrollbar-width: thin;
+  }
+  .tocbar a {
+    display: block;
+    white-space: nowrap;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--muted);
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  .tocbar a:hover { color: var(--ink); background: var(--rule-soft); }
+  .tocbar a .n { color: var(--accent); font-weight: 500; }
+
+  /* ---------- sections ---------- */
+
+  section { padding-block: 44px 8px; }
+
+  h2 {
+    font-family: var(--disp);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    margin: 0 0 6px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+  h2 .count {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .lede {
+    color: var(--muted);
+    margin: 0 0 26px;
+    max-width: 62ch;
+  }
+
+  /* ---------- findings ---------- */
+
+  .finding {
+    border-top: 1px solid var(--rule);
+    padding: 22px 0 24px;
+  }
+  .finding.is-crit {
+    border-left: 3px solid var(--crit);
+    padding-left: 18px;
+    background: linear-gradient(90deg, var(--crit-bg), transparent 42%);
+  }
+
+  .fhead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 17.5px;
+    line-height: 1.35;
+    margin: 0;
+    flex: 1 1 320px;
+    text-wrap: balance;
+  }
+
+  .chip {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .chip.crit  { color: var(--crit); background: var(--crit-bg); }
+  .chip.warn  { color: var(--warn); background: var(--warn-bg); }
+  .chip.low   { color: var(--muted); background: var(--rule-soft); }
+  .chip.fixed { color: var(--ok); background: var(--ok-bg); }
+
+  .finding.is-fixed {
+    border-left: 3px solid var(--ok);
+    padding-left: 18px;
+    background: linear-gradient(90deg, var(--ok-bg), transparent 42%);
+  }
+  .finding.is-fixed h3 { text-decoration: line-through; text-decoration-color: var(--muted); text-decoration-thickness: 1px; }
+  .verified { display: grid; grid-template-columns: 78px 1fr; gap: 12px; align-items: start; margin-top: 12px; font-size: 14.5px; max-width: 68ch; }
+  .verified .tag { font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ok); padding-top: 4px; }
+  .verified .body { color: var(--ink); }
+
+  .finding p { margin: 0 0 10px; max-width: 66ch; }
+  .finding p:last-child { margin-bottom: 0; }
+
+  code {
+    font-family: var(--mono);
+    font-size: 0.875em;
+    background: var(--rule-soft);
+    padding: 1px 5px;
+    border-radius: 3px;
+    word-break: break-word;
+  }
+
+  .evidence, .fix {
+    display: grid;
+    grid-template-columns: 78px 1fr;
+    gap: 12px;
+    align-items: start;
+    margin-top: 12px;
+    font-size: 14.5px;
+    max-width: 68ch;
+  }
+  .evidence .tag, .fix .tag {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding-top: 4px;
+  }
+  .evidence .body { font-family: var(--mono); font-size: 13px; line-height: 1.55; color: var(--muted); }
+  .evidence .body code { background: none; padding: 0; color: var(--ink); }
+  .fix .body { color: var(--ink); }
+  .fix .tag { color: var(--accent); }
+
+  @media (max-width: 560px) {
+    .evidence, .fix { grid-template-columns: 1fr; gap: 3px; }
+    .evidence .tag, .fix .tag { padding-top: 0; }
+  }
+
+  pre {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.6;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    margin: 12px 0 0;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+
+  .tablewrap { overflow-x: auto; margin-top: 14px; border: 1px solid var(--rule); border-radius: 4px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
+  th {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--surface);
+    white-space: nowrap;
+  }
+  tr:last-child td { border-bottom: none; }
+  td.u { font-family: var(--mono); font-size: 12.5px; word-break: break-all; }
+  td.s { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--crit); white-space: nowrap; }
+
+  /* ---------- order of work ---------- */
+
+  .order { margin-top: 10px; counter-reset: step; list-style: none; padding: 0; }
+  .order li {
+    counter-increment: step;
+    display: grid;
+    grid-template-columns: 34px 1fr;
+    gap: 14px;
+    padding: 13px 0;
+    border-top: 1px solid var(--rule-soft);
+    align-items: baseline;
+  }
+  .order li::before {
+    content: counter(step, decimal-leading-zero);
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .order .effort {
+    display: block;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  .closer {
+    margin-top: 48px;
+    padding: 20px 22px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    font-size: 14.5px;
+    color: var(--muted);
+  }
+  .closer strong { color: var(--ink); font-weight: 600; }
+
+  a { color: var(--accent); }
+  a:focus-visible, .tocbar a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  }
+  html { scroll-behavior: smooth; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="kicker">Site teardown · 15 September 2026</p>
+    <h1>jamesm.blog Teardown</h1>
+    <p class="standfirst">Thirty-eight findings across build correctness, performance, discoverability, content and repo health. Every one was checked against the live site or a clean local build — nothing here is inferred from reading the config.</p>
+    <ul class="scan">
+      <li><b>352</b> published posts</li>
+      <li><b>61</b> drafts</li>
+      <li><b>1,076</b> pages built</li>
+      <li><b>828</b> pages link-scanned</li>
+      <li><b>2,807</b> external URLs probed</li>
+      <li>Hugo <b>0.159.2</b> · PaperMod</li>
+      <li style="color: var(--ok);"><b style="color: var(--ok);">1</b> of 38 fixed</li>
+    </ul>
+  </header>
+
+  <nav class="tocbar" aria-label="Sections">
+    <ol>
+      <li><a href="#broken"><span class="n">01</span> &nbsp;Broken</a></li>
+      <li><a href="#perf"><span class="n">02</span> &nbsp;Performance</a></li>
+      <li><a href="#seo"><span class="n">03</span> &nbsp;Discoverability</a></li>
+      <li><a href="#content"><span class="n">04</span> &nbsp;Content</a></li>
+      <li><a href="#repo"><span class="n">05</span> &nbsp;Repo &amp; build</a></li>
+      <li><a href="#order"><span class="n">06</span> &nbsp;Order of work</a></li>
+    </ol>
+  </nav>
+
+  <section>
+    <p class="lede">The editorial system underneath this site is unusually strong: a tag allowlist that gates the build, an orphan-link auditor, documented post archetypes, cover image <em>and</em> alt text on 100% of posts, zero em dashes. Both existing audit scripts pass clean. What follows is what those scripts don't look at.</p>
+  </section>
+
+  <section id="broken">
+    <h2>Broken <span class="count">9 findings · 1 fixed</span></h2>
+    <p class="lede">Things that are wrong right now, on the live site or in the build.</p>
+
+    <article class="finding is-fixed">
+      <div class="fhead">
+        <h3>/blog/, /posts/, /articles/, /showcase/ and /docs/ all redirect to /space/</h3>
+        <span class="chip fixed">Fixed</span>
+      </div>
+      <p>Every section's <code>_index.md</code> carried the same copy-pasted alias list. Hugo let one page win the collision and <code>space</code> won it. <code>/blog/</code> is the single most-guessed URL on a blog, and it landed people in rocket launches.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body">curl https://jamesm.blog/blog/ → <code>&lt;meta http-equiv="refresh" url=https://jamesm.blog/space/&gt;</code><br>Same for /posts/, /articles/, /showcase/, /docs/</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Removed <code>posts</code>, <code>articles</code>, <code>blog</code>, <code>showcase</code>, <code>docs</code> from all 12 section index files. Kept only the real ones: <code>web3</code>→blockchain, <code>data</code>→data-engineering, <code>idea</code>→ideas. Also dropped the self-aliases (<code>"ai"</code> on <code>content/ai/_index.md</code>) and the two containing spaces. Verified with a clean rebuild: the five junk paths resolve to nothing, the three genuine aliases still redirect correctly, and every section page renders unaffected.</span></div>
+    </article>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>Pagination config is silently ignored — the homepage is 33 pages, not 22</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p><code>config.yaml:9</code> reads <code>pagination.pagerSize:&nbsp;&nbsp;&nbsp;15</code>. That's a literal dotted YAML key, not a nested map, so Hugo never sees it and falls back to the default of 10. The CHANGELOG records this change as shipped; it never took effect.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">hugo config → <code>[pagination] pagersize = 10</code><br>Built output: 10 entries on page 1, <code>public/page/33/</code> exists</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Nest the key. Test-built: 15 entries on page 1, 22 pages total.<pre><code>pagination:
+  pagerSize: 15</code></pre></span></div>
+    </article>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>The Gaming section never appears on the homepage</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p><code>gaming</code> is missing from <code>params.mainSections</code>, which instead lists <code>guide</code> — a section that doesn't exist. Gaming is in the nav and the README, so it reads as live, but its posts are excluded from the homepage feed and can never surface in the automatic "More on this topic" block, which filters candidates to <code>mainSections</code>.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>/gaming/gaming-hub/</code> (30 Jun 2026) appears on 0 of 33 home paginator pages. A comparable May 2026 post from a listed section appears on 1.</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body"><code>config.yaml:106–120</code> — add <code>gaming</code>, remove <code>guide</code>. Decide whether <code>ideas</code> (4 drafts, 1 live empty index) should join it or be unpublished.</span></div>
+    </article>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>Four favicon files 404 on every single page load</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p>The theme emits <code>&lt;link&gt;</code> tags for four icon files that were never created. Four failed requests per pageview, and no icon on an iOS home screen, an Android shortcut, or a high-DPI browser tab.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">404: favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png, safari-pinned-tab.svg<br>200: favicon.ico</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Generate the four files into <code>static/</code>, or remove the tags via <code>params.assets</code>. Generating them is the better call — the Apple touch icon is what shows when someone saves the site to a phone.</span></div>
+    </article>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>Dead links hit the hosting panel's error page, not yours</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p>Hugo builds a styled 404 that works — it returns 200 at <code>/404.html</code>. But the web server serves its own generic "Server Error" page from May 2023 instead, so anyone following a stale link is dumped out of the site with no nav, no search and no branding.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">GET /definitely-not-a-page/ → 808 bytes, <code>&lt;title&gt;404 Not Found&lt;/title&gt;</code>, <code>/error_docs/styles.css</code>, <code>last-modified: Sun, 14 May 2023</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">One line in the vhost config: <code>ErrorDocument 404 /404.html</code> (Apache) or <code>error_page 404 /404.html;</code> (nginx). Worth adding a search box and top-section links to that page while you're there.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Section hero images 404 on every paginated page</h3>
+        <span class="chip warn">Broken</span>
+      </div>
+      <p>The section index pages use a relative figure path, so on page 2 onward the browser resolves it against the paginator URL instead of the section root.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>{{&lt; figure src="images/ai.jpg" &gt;}}</code> → <code>/ai/page/2/images/ai.jpg</code> → 404<br>27 broken images across ai (14), music-production (7), devops, blockchain, data-engineering, space, retro-computing</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Make the paths site-absolute: <code>src="/ai/images/ai.jpg"</code>.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>A retro-computing post points at an image left behind in another section</h3>
+        <span class="chip warn">Broken</span>
+      </div>
+      <p>The post moved sections; the page-bundle image didn't move with it.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>content/retro-computing/favourite-computers.md:85</code> → <code>images/Data-General-MV15000-1986.png</code><br>File is at <code>content/general/images/</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Move the file into <code>content/retro-computing/images/</code>. This is the only unresolved relative image reference on the whole site.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>A published post links readers to a GitHub file that 404s</h3>
+        <span class="chip warn">Broken</span>
+      </div>
+      <p>Git tracks the file as lowercase <code>roadmap.md</code>. GitHub is case-sensitive; macOS is not, which is why this is invisible locally.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>content/gaming/gaming-hub.md:30</code> → <code>.../blob/main/ROADMAP.md</code> → 404<br><code>.../blob/main/roadmap.md</code> → 200<br><code>EDITORIAL.md:3</code> has the same mismatch</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Fix the case, or rename the file to <code>ROADMAP.md</code> with <code>git mv</code> (a plain rename won't register on a case-insensitive filesystem). Also worth asking whether a public post should link to an internal planning doc at all.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>The repo doesn't build from a clean clone</h3>
+        <span class="chip warn">Broken</span>
+      </div>
+      <p>The theme is committed as a submodule pointer, but <code>.gitmodules</code> has no entry for it — only stale entries for two directories that no longer exist. A fresh recursive clone produces an empty theme directory and no site, which makes the README's Getting Started section wrong for anyone, including you on a new machine.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>git ls-files -s themes/</code> → <code>160000 f207ce6 themes/hugo-PaperMod</code><br><code>git submodule status</code> → <code>fatal: no submodule mapping found in .gitmodules</code><br>.gitmodules maps only <code>themes/ananke</code> and <code>themes/PaperMod</code> — neither exists</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Map the real path and drop the two dead entries.<pre><code>git config -f .gitmodules submodule."themes/hugo-PaperMod".path themes/hugo-PaperMod
+git config -f .gitmodules submodule."themes/hugo-PaperMod".url \
+  https://github.com/adityatelange/hugo-PaperMod.git</code></pre>The pinned theme commit is from 11 April 2026 — five months stale, and the source of 43 deprecation warnings per build.</span></div>
+    </article>
+  </section>
+
+  <section id="perf">
+    <h2>Performance <span class="count">5 findings</span></h2>
+    <p class="lede">Two of these dominate everything else: images and the search index.</p>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>The homepage ships 5.39 MB of cover images for ten posts</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p>Cover images live in <code>static/</code>, which bypasses Hugo's image pipeline entirely — no resizing, no format conversion, no <code>srcset</code>. They're served at their native 1280–1792px into a 670px slot, roughly 2.5× oversized, and none carry <code>width</code>/<code>height</code>, so every card shifts as it loads.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">Home page 1: 5.39 MB · /ai/ page 1: 4.87 MB · /music-production/: 3.35 MB<br>254 JPG + 95 PNG, zero WebP or AVIF<br>mac-mini-m6-hermes-agent-infographic.png = 1.9 MB · game-technology-2026.png = 1.2 MB</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Move <code>static/assets/images/</code> into <code>assets/</code> and add a cover partial plus a <code>render-image</code> hook that emits resized WebP with <code>srcset</code> and explicit dimensions. Expect an 80–90% cut. Lazy loading is already on, which softens the hit, but one scroll of the homepage is still 5.4 MB.</span></div>
+    </article>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>Search downloads 963 KB before you can type a character</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p><code>/index.json</code> embeds the full body text of all 350 posts. It isn't edge-cached either, so every visit to <code>/search/</code> pays for it again from origin.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">3.65 MB raw / 963 KB brotli · 2.76M characters of post body<br><code>cf-cache-status: DYNAMIC</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Drop <code>content</code> from the index template (title + summary + tags lands near 100 KB), or truncate to the first ~500 characters per post. Fuzzy matching over full bodies is also why searching "iceberg" currently returns "OpenAI Voice Engine" — a smaller index improves relevance as well as speed.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>No cache headers on HTML at all</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p>Every HTML response comes back with no <code>cache-control</code>, so Cloudflare classifies it as dynamic and never serves it from the edge. For a fully static site this is the cheapest available win.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">GET / and GET /ai/ai-evals-are-broken/ → no cache-control, <code>cf-cache-status: DYNAMIC</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">A Cloudflare cache rule for <code>text/html</code> with a short edge TTL and origin revalidation. Purge on deploy from <code>deploy.sh</code>.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Content-hashed assets expire after four hours</h3>
+        <span class="chip low">Medium</span>
+      </div>
+      <p>The stylesheet filename contains its own content hash, so it can never change under a given URL — but it's served with a four-hour TTL, forcing needless revalidation.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>/assets/css/stylesheet.47e51c7d….css</code> → <code>cache-control: max-age=14400</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body"><code>max-age=31536000, immutable</code> for <code>/assets/css/</code> and <code>/assets/js/</code>. Leave images on a shorter TTL since their filenames aren't hashed.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>The RSS feed carries all 350 posts</h3>
+        <span class="chip low">Medium</span>
+      </div>
+      <p>176 KB per fetch, re-downloaded by every reader on every poll.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>public/index.xml</code> → 350 <code>&lt;item&gt;</code>, 176 KB, description-only (183 chars average)</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Cap it with <code>services.rss.limit: 30</code>. Separately, consider whether to ship full post bodies via <code>content:encoded</code> — a 183-character teaser is thin for a feed reader.</span></div>
+    </article>
+  </section>
+
+  <section id="seo">
+    <h2>Discoverability <span class="count">9 findings</span></h2>
+    <p class="lede">How the site is navigated, crawled, and trusted.</p>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>The navigation hides a third of the site</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p>Seventeen menu items in a container the theme caps at 1024px. Six sections are clipped off-screen at every viewport width, with no scroll affordance to suggest they're there.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>#menu.scrollWidth = 1615</code> · <code>clientWidth = 1024</code> · overflow 591px<br>Hidden: Personal Dev, Retro Computing, Security, Software Eng, Space, Theories</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Group the sections under one "Topics" dropdown, or move Tags, Archive and Search to the footer and keep the nav for sections only. A visible fade or chevron at the overflow edge is the minimum stopgap.</span></div>
+    </article>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>There is no About page</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p>For a personal blog with 352 posts this is the biggest structural gap. Someone arriving from a search result has no way to learn who wrote this or why they'd trust it — the standard experience and authority signal, and there is currently none.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">/about/ → 404 · /now/ → 404 · /contact/ → 404<br>Author appears only as a byline string</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">A short page covering what you work on, why these particular topics, and how to reach you. Link it from the nav and add <code>Person</code> structured data pointing at it.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Half the sitemap is thin tag pages</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p>Of 712 sitemap URLs, 340 are tag archives. Of 333 tags in use, 44 appear on a single post and 101 on two — so 44% of tags cover two posts or fewer, each generating a near-empty page competing for crawl budget with real articles.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">sitemap.xml: 712 &lt;loc&gt;, 340 under /tags/<br>Tag frequency: 44×1 post, 101×2 posts, 43×3 posts, 41×≥10 posts</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Exclude low-count terms from the sitemap, or fold them into their nearest sibling the way the July consolidation did. Two more to reconsider: <code>2026</code> is on 32 posts and is a date rather than a topic, and five tags duplicate their own section name — something <code>EDITORIAL.md</code> explicitly warns against.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>No security headers at all</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p>No HSTS, CSP, <code>X-Content-Type-Options</code>, <code>Referrer-Policy</code> or <code>Permissions-Policy</code>. The stack is also announced to every visitor.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">0 of 6 standard headers present · <code>x-powered-by: PleskLin</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">All of them are settable in Cloudflare Transform Rules without touching the origin. Start with HSTS, <code>nosniff</code> and <code>Referrer-Policy: strict-origin-when-cross-origin</code>; a CSP needs more care given the Google Analytics and X widget scripts.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Analytics loads with no consent gate</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p>Google Analytics is injected unconditionally from <code>layouts/partials/extend_head.html</code> and sets cookies before any consent is given. For a UK-facing site under PECR that's a real exposure.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>gtag/js?id=G-LTL3NQVCDT</code> loaded on every page, no consent UI present</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Cloudflare Web Analytics is cookieless and sidesteps the requirement entirely, with no consent banner to build or maintain. If GA has to stay, gate it behind a consent check.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>A taxonomy is declared but never used</h3>
+        <span class="chip low">Medium</span>
+      </div>
+      <p><code>categories</code> is configured at <code>config.yaml:30</code> and carried by exactly zero posts, so <code>/categories/</code> is an empty page sitting in the sitemap.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>grep -rl '^categories:' content | wc -l</code> → 0</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Remove the <code>category: categories</code> line from the taxonomy block.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Social and structured-data gaps</h3>
+        <span class="chip low">Medium</span>
+      </div>
+      <p>Post-level markup is solid — OpenGraph, Twitter cards, <code>BlogPosting</code> and <code>BreadcrumbList</code> all present and correct. The gaps are at the edges.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">No <code>twitter:site</code> / <code>twitter:creator</code><br>Homepage JSON-LD is <code>Organization</code> only — no <code>WebSite</code> + <code>SearchAction</code><br>No <code>og:image:width</code> / <code>og:image:height</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Add the Twitter attribution params and a <code>WebSite</code> node with <code>SearchAction</code>, which is what earns a sitelinks search box in Google results.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>The feed is only discoverable at one URL</h3>
+        <span class="chip low">Low</span>
+      </div>
+      <p><code>/index.xml</code> works, but the two URLs people actually guess don't.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">/feed/ → 404 · /rss.xml → 404</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Two server-side redirects to <code>/index.xml</code>.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>No skip-to-content link, and paginated pages have no heading</h3>
+        <span class="chip low">Low</span>
+      </div>
+      <p>Accessibility is otherwise good — contrast is 9.6:1 on body text, every image has alt text, landmarks and heading order are correct, links are underlined rather than colour-only. Two gaps remain.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">No <code>a[href="#main"]</code> · every <code>/page/N/</code> renders zero <code>&lt;h1&gt;</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Add a visually-hidden skip link, and give the list template a heading on paginated pages.</span></div>
+    </article>
+  </section>
+
+  <section id="content">
+    <h2>Content <span class="count">8 findings</span></h2>
+    <p class="lede">Editorial issues nothing in the current toolchain checks for.</p>
+
+    <article class="finding is-crit">
+      <div class="fhead">
+        <h3>Around 140 posts display another article's title in their hero image</h3>
+        <span class="chip crit">Critical</span>
+      </div>
+      <p>49 cover images are shared between two or more posts. 35 of those are named after one specific post and borrowed by 140 others — and where the image has a title rendered into it, every borrower shows the wrong headline, on the page and in its social preview.</p>
+      <p>Two confirmed by reading the files: <code>ai-evals-are-broken.jpg</code> renders the words <em>"Evaluating Agents in Production: Trajectory Metrics, Not Just Final Answers"</em>, so the evals post leads with a different article's title. <code>context-engineering.png</code> reads <em>"Context Engineering: The Discipline That Replaced Prompt Engineering"</em> and is the cover for eight other posts including <code>cline.md</code>, <code>github-spec-kit.md</code> and <code>spec-driven-development.md</code>.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">Heaviest reuse: music-production.png ×38 · human-advancement-acceleration.jpg ×22 · platform-engineering-2026.jpg ×21 · my-tracks-2026-04.jpg ×15</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Reuse is only a problem where the image carries text. Untitled images like <code>platform-engineering-2026.jpg</code> are shared 21 ways harmlessly. Audit the 35 owner-named images, and stop borrowing the ones with titles rendered in.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Two Hugo scratch pages are published</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p><code>/general/markdown/</code> and <code>/general/shortcodes/</code> are theme test pages, both dated 1 January 2020, both indexed and in the RSS feed, carrying headings like "Highlight - not working" and "Syntax Highlighting - not working".</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">markdown.md renders 14 <code>&lt;h1&gt;</code> · shortcodes.md is 95 words with two raw <code>&lt;iframe&gt;</code> tags</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Set <code>draft: true</code> or move them out of <code>content/</code> into <code>docs/</code>.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>All 19 X embeds are broken, and their payload was always an image</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p><code>platform.twitter.com/widgets.js</code> still loads but no longer upgrades the embeds, so they render as raw blockquotes whose actual content — the diagram — is a dead <code>pic.twitter.com</code> link. <code>/devops/explainers/</code> has eight of these, each promising a visual that never appears.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">19 <code>{{&lt; x &gt;}}</code> shortcodes across 11 files · 8 dead pic.twitter.com references on the explainers page alone</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Replace with locally hosted screenshots and attribution, or cut them. Removing them also drops your last third-party script besides analytics. The 359 YouTube embeds are fine — all shortcode-based and privacy-enhanced.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Confirmed dead external links</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p>All 2,807 unique external URLs were probed, then re-verified with a browser user-agent to filter out bot-blocking false positives. These are genuinely gone.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Status</th><th>URL</th><th>Post</th></tr></thead>
+          <tbody>
+            <tr><td class="s">404</td><td class="u">xferrecords.com/products/serum</td><td>best-software-synths-2026</td></tr>
+            <tr><td class="s">404</td><td class="u">roli.com/products/seaboard</td><td>mpe-deep-dive</td></tr>
+            <tr><td class="s">404</td><td class="u">vengeance-sound.com/plugins.php</td><td>best-software-synths-2025</td></tr>
+            <tr><td class="s">404</td><td class="u">pluralsight.com/paths/aws-* (6 URLs)</td><td>devops-courses</td></tr>
+            <tr><td class="s">404</td><td class="u">acloudguru.com/course/hashicorp-packer</td><td>devops-courses</td></tr>
+            <tr><td class="s">404</td><td class="u">store.start9.com/products/server-one-2026</td><td>mac-mini-m6-always-on-ai-agent-server</td></tr>
+            <tr><td class="s">404</td><td class="u">help.suno.com/en/articles/11362305</td><td>suno-may-2026</td></tr>
+            <tr><td class="s">503</td><td class="u">learnweb3.io</td><td>blockchain/courses</td></tr>
+            <tr><td class="s">DNS</td><td class="u">phrack.org · unbounce.com · dynatrace.com</td><td>various — check manually</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Worth folding an external-link check into <code>scripts/link-audit.py</code> — with a browser user-agent and a 403/429 allowlist, since those two statuses mean bot-blocking rather than breakage and a naive checker drowns you in false positives. Wikipedia URLs with parentheses need balanced-paren parsing for the same reason.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Seven posts render multiple H1 headings</h3>
+        <span class="chip low">Medium</span>
+      </div>
+      <p>Body text using <code>#</code> where it should use <code>##</code>, which breaks the document outline for screen readers and search engines.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">markdown.md (14) · favourites.md (7) · roland-juno-x, ni-traktor-mx2, major-scales-sharps-flats, keylab-vs-kontrol, arturia-pigments-7 (2 each)<br>The 42 <code>#</code> lines in databricks-cheatsheet.md are inside code fences and render correctly</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Demote body <code>#</code> to <code>##</code>. Cheap to add to the publish checklist.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>118 descriptions are too long for the places they appear</h3>
+        <span class="chip low">Medium</span>
+      </div>
+      <p>They get truncated in search results and social cards, so the end of the sentence is never read. <code>EDITORIAL.md</code> already specifies one sentence.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">118 over 200 characters · longest 427 (ethical-data-use-2026) · then 399, 371, 360, 357</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Add a length assertion to <code>validate-tags.py</code> so new posts can't drift, then work back through the existing 118.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>56 posts are under 300 words</h3>
+        <span class="chip low">Low</span>
+      </div>
+      <p>Including seven tweet-only posts of 29–43 words, each indexed as a standalone page.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">Thinnest: auto-gpt (29w), gpt-4 (33w), worst-uis (33w), habits-intelligent-people (34w)</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Consolidate each section's <code>tweets/</code> posts into one roundup. The monthly <code>my-tracks-*</code> posts are thin by design and fine as they are.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Two dates break the house format</h3>
+        <span class="chip low">Low</span>
+      </div>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>native-instruments-formal-insolvency-and-ma.md</code> → <code>2026-04-04T12:00:00Z</code><br><code>artemis-ii-tracking.md</code> → <code>2026-04-04T00:00:00Z</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Both should carry the <code>+01:00</code> offset. Worth asserting in the validator alongside the description length.</span></div>
+    </article>
+  </section>
+
+  <section id="repo">
+    <h2>Repo &amp; build <span class="count">7 findings</span></h2>
+    <p class="lede">Housekeeping, plus a few things that will bite later.</p>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Finder metadata is live on the site</h3>
+        <span class="chip warn">High</span>
+      </div>
+      <p>Gitignored, but still present in <code>static/</code>, so it gets copied into <code>public/</code> and rsynced to production.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>https://jamesm.blog/assets/images/.DS_Store</code> → <code>200</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Delete them from <code>static/</code> and add <code>--exclude='.DS_Store'</code> to the rsync in <code>deploy.sh</code> so they can't come back.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>Five iCloud sync-conflict duplicates are committed and deployed</h3>
+        <span class="chip warn">Medium</span>
+      </div>
+      <p>The "filename 2.ext" pattern the CHANGELOG already describes, but these ones made it into git rather than just into <code>public/</code>. About 2.5 MB of dead weight shipping on every deploy.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">system-design-fundamentals 2.png (1.2 MB) · the-computational-case-for-consciousness 2.jpg · gta-6-…-ever 2.jpg · is-reality-made-of-mathematics 2.jpg · apache-iceberg-2026 2.jpg</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Delete, and add <code>* [0-9].*</code> to <code>.gitignore</code> and to the rsync excludes.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>--cleanDestinationDir isn't catching everything</h3>
+        <span class="chip warn">Medium</span>
+      </div>
+      <p>The fix recorded in the CHANGELOG is working on directories but not on these files — stale duplicates from 11 September survived a 12 September build, which means they were live until the next clean deploy.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>public/index 2.html</code> dated 11 Sep alongside <code>public/index.html</code> dated 12 Sep<br>~45 similar files across public/</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Belt and braces: <code>rm -rf public</code> before the build, plus rsync excludes. The real cure is moving the repo out of the iCloud-synced <code>~/Documents</code> tree.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>deploy.sh has no failure handling</h3>
+        <span class="chip warn">Medium</span>
+      </div>
+      <p>No shebang, no strict mode, and the link audit runs in report-only mode so it can never actually gate a deploy. It also pushes to production over SSH as root.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>python3 scripts/validate-tags.py &amp;&amp; hugo --cleanDestinationDir &amp;&amp; python3 scripts/link-audit.py &amp;&amp; rsync -avz --delete public/ root@jamesm.blog:…</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Add <code>#!/usr/bin/env bash</code> and <code>set -euo pipefail</code>, pass <code>--strict</code> to the audit now that the orphan backlog is clear, guard that <code>public/</code> is non-empty before <code>--delete</code> runs, and deploy as a non-root user.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>A dead layout directory is still in the tree</h3>
+        <span class="chip low">Low</span>
+      </div>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>layouts/_default-REMOVE-NOT-WORKING/_markup/render-link.html</code></span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Delete it. Worth noting it was trying to do something useful — adding <code>rel="nofollow noopener noreferrer"</code> and <code>target="_blank"</code> to external links. If you still want that, Hugo's current render-hook API makes it straightforward.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>43 deprecation warnings per build</h3>
+        <span class="chip low">Low</span>
+      </div>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>.Language.LanguageCode was deprecated in Hugo v0.158.0</code> ×43 — theme-side, fixed by updating PaperMod</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Rolls in with the submodule fix. Build time is a healthy 806 ms for 1,076 pages, so there's no performance pressure here — just noise hiding real warnings.</span></div>
+    </article>
+
+    <article class="finding">
+      <div class="fhead">
+        <h3>The CHANGELOG records a change that didn't happen</h3>
+        <span class="chip low">Low</span>
+      </div>
+      <p>The Unreleased section says pagination went from 5 to 15 and cut browsing to "single digits". It's actually 10, and 33 pages.</p>
+      <div class="evidence"><span class="tag">Evidence</span><span class="body">"Increased pagination page size from 5 to 15 posts per page, cutting the number of pages needed to browse the full site from ~70 down to single digits."</span></div>
+      <div class="fix"><span class="tag">Fix</span><span class="body">Correct the entry once the config key is nested. 352 posts at 15 per page is 24 pages, not single digits.</span></div>
+    </article>
+  </section>
+
+  <section id="order">
+    <h2>Order of work</h2>
+    <p class="lede">Sequenced by value per hour of effort, not by severity.</p>
+    <ol class="order">
+      <li><span>Config one-liners — nest <code>pagerSize</code>, add <code>gaming</code> and drop <code>guide</code> from <code>mainSections</code>, remove the unused <code>categories</code> taxonomy.<span class="effort">~10 minutes · fixes three findings, effect is immediate</span></span></li>
+      <li><span><s>Strip the copy-pasted aliases so <code>/blog/</code> stops meaning <code>/space/</code>.</s> <span class="chip fixed">Fixed</span><span class="effort">12 files, verified with a clean rebuild</span></span></li>
+      <li><span>Fix <code>.gitmodules</code> so the repo builds from a clean clone, and update PaperMod while you're in there.<span class="effort">~15 minutes · also clears the 43 build warnings</span></span></li>
+      <li><span>Server side: point 404s at your own page, cache HTML at the edge, make hashed assets immutable, add security headers.<span class="effort">~1 hour · all in Cloudflare and one vhost line</span></span></li>
+      <li><span>Generate the four missing favicons; make section hero paths absolute; move the one stray image.<span class="effort">~30 minutes · clears 32 404s</span></span></li>
+      <li><span>Trim the search index.<span class="effort">~30 minutes · 963 KB → ~100 KB</span></span></li>
+      <li><span>Move images into <code>assets/</code> and build a cover partial with WebP, <code>srcset</code> and explicit dimensions.<span class="effort">Half a day · the single biggest performance win</span></span></li>
+      <li><span>Write the About page.<span class="effort">~1 hour · the biggest structural gap on the site</span></span></li>
+      <li><span>Content sweep: mismatched titled covers, the two scratch pages, the X embeds, the dead links, the stray H1s.<span class="effort">Ongoing · worth automating the checks into <code>scripts/</code> first</span></span></li>
+    </ol>
+
+    <p class="closer"><strong>One framing worth keeping.</strong> Almost everything above is either configuration or housekeeping. The writing, the tagging discipline, the internal linking and the editorial standards — the parts that are genuinely hard and genuinely slow to build — are already in place and in better shape than most sites this size. The gap is that the toolchain currently checks tags and orphan links, and nothing else. Most of these findings would have surfaced on their own if the same instinct that produced <code>validate-tags.py</code> were extended to frontmatter, images, headings and external links.</p>
+  </section>
+
+</div>
