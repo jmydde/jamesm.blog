@@ -1,5 +1,4 @@
 +++
-aliases = ["posts", "articles", "blog", "showcase", "docs", "space"]
 title = "Space"
 author = "James M"
 tags = ["space", "nasa", "spacex", "astronomy"]

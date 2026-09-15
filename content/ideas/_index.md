@@ -1,5 +1,5 @@
 +++
-aliases = ["posts", "articles", "blog", "showcase", "docs", "idea"]
+aliases = ["idea"]
 title = "Ideas"
 author = "James M"
 tags = ["idea", "project"]
