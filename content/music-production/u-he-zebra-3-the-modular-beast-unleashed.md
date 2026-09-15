@@ -5,7 +5,7 @@ draft: false
 tags: ["synth", "software-synth", "sound-design", "music-production", "uhe"]
 description: "Exploring u-he Zebra 3, a modular soft synth that redefines sound design with its grid-based modulation, spectral oscillators, and deep signal routing."
 cover:
-  image: /assets/images/music-production/physical-modeling-synths.jpg
+  image: /assets/images/music-production/music-production.png
   alt: u-he Zebra 3 Modular Software Synthesizer
 ---
 

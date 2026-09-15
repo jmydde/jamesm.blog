@@ -5,7 +5,7 @@ draft: false
 description: "Guide to hardware wallets for secure cryptocurrency storage, covering leading providers and best practices for cold storage security"
 tags: ["bitcoin", "hardware-wallet", "security", "cryptocurrency"]
 cover:
-  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
   alt: Cryptocurrency Hardware Wallets Banner
 ---
 

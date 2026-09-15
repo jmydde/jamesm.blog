@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "development", "tool", "llm", "claude-code", "cursor", "cline", "spec-kit", "sdd", "agentic-engineering"]
 description: "A proper AI dev stack in 2026 needs distinct layers - spec writing, fast editing, heavy agentic work, cheap models, review, research, and capture. The case for treating AI as workflow architecture, not a bolt-on assistant."
 cover:
-  image: /assets/images/ai/context-engineering.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: What belongs in an AI dev stack in 2026
 ---
 

@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "robotics"]
 description: "Boston Dynamics' all-electric Atlas humanoid marks a break from hydraulic prototypes toward real-world deployment - a look at what the new robot means for the 2024-2026 humanoid wave."
 cover:
-  image: /assets/images/ai/humanoid-robotics-2026.jpg
+  image: /assets/images/ai/ai-agents-that-actually-work.jpg
   alt: Boston Dynamics All New Atlas Humanoid Robot
 ---
 

@@ -19,7 +19,7 @@ TAGS_YAML = f"{REPO_ROOT}/data/tags.yaml"
 CONTENT_GLOB = f"{REPO_ROOT}/content/**/*.md"
 
 # Pages that intentionally carry no tags (section indexes, utility pages).
-UNTAGGED_OK = re.compile(r"(^|/)_index\.md$|(^|/)(search|archives)\.md$")
+UNTAGGED_OK = re.compile(r"(^|/)_index\.md$|(^|/)(search|archives|about)\.md$")
 
 INLINE_RE = re.compile(r"^tags:\s*\[(.*)\]\s*$", re.MULTILINE)
 MULTI_RE = re.compile(r"^tags:\s*$\n((?:^\s*-\s*.+$\n?)+)", re.MULTILINE)

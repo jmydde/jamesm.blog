@@ -7,7 +7,7 @@ aliases: ["/general/favourite-physicists/"]
 tags: ["mathematics", "physics", "science", "cosmology"]
 description: "A collection of influential physicists who have shaped our understanding of the universe, with notable talks and contributions."
 cover:
-  image: /assets/images/general/max-tegmark.jpg
+  image: /assets/images/general/human-advancement-acceleration.jpg
   alt: Favourite Physicists Banner
 ---
 

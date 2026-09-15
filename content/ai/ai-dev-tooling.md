@@ -6,7 +6,7 @@ type: reference
 tags: ["ai", "coding", "cursor", "claude-code", "agentic-engineering"]
 description: "Canonical reading path for AI-assisted development - stack decisions, learning order, spec-driven workflows, and deep dives on Cursor vs Claude Code."
 cover:
-  image: /assets/images/ai/context-engineering.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: AI dev tooling reading path
 slug: "ai-dev-tooling"
 ---

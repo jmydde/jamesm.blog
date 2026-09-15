@@ -5,7 +5,7 @@ draft: false
 tags: ["llm", "schema"]
 description: "Why guaranteeing output format matters more than you think, and when to use structured outputs in production"
 cover:
-  image: /assets/images/ai/context-engineering.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: Structured outputs and schema design for LLMs
 ---
 

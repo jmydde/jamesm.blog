@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "robotics"]
 description: "1X EVE is a wheeled android worker robot built for logistics and retail environments, using embodied AI and natural language processing to navigate real-world spaces safely alongside humans."
 cover:
-  image: /assets/images/ai/humanoid-robotics-2026.jpg
+  image: /assets/images/ai/ai-agents-that-actually-work.jpg
   alt: 1X EVE android worker robot
 ---
 ![1X EVE Android Worker Robot](/images/1X-Eve.jpg)

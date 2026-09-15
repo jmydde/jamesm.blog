@@ -6,7 +6,7 @@ series: ["Trust"]
 tags: ["ai", "world-model", "robotics", "agent", "multimodal", "agentic-engineering"]
 description: "Language-only models have a statistical shadow of physical reality, not a reliable simulator of it. A grounded look at world models - what they are, where the 2026 frontier sits, and why they matter for agents that need to act rather than answer."
 cover:
-  image: /assets/images/ai/humanoid-robotics-2026.jpg
+  image: /assets/images/ai/ai-agents-that-actually-work.jpg
   alt: World Models - What Comes After the Language-Only Era Banner
 slug: "world-models-after-language"
 ---

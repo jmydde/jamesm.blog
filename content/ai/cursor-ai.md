@@ -6,7 +6,7 @@ type: brief
 tags: ["ai", "cursor", "sdd", "development"]
 description: "Cursor AI reads your repo with architectural awareness and turns complex refactors into conversations. Combined with GitHub Spec Kit, it creates a tight spec-to-implementation loop."
 cover:
-  image: /assets/images/ai/cursor-composer-2-5.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: Cursor AI spec-driven development workflow
 ---
 

@@ -245,6 +245,8 @@
   .verified { display: grid; grid-template-columns: 78px 1fr; gap: 12px; align-items: start; margin-top: 12px; font-size: 14.5px; max-width: 68ch; }
   .verified .tag { font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ok); padding-top: 4px; }
   .verified .body { color: var(--ink); }
+  .verified .body p { margin: 0 0 10px; }
+  .verified .body p:last-child { margin-bottom: 0; }
 
   .finding p { margin: 0 0 10px; max-width: 66ch; }
   .finding p:last-child { margin-bottom: 0; }
@@ -381,7 +383,7 @@
       <li><b>828</b> pages link-scanned</li>
       <li><b>2,807</b> external URLs probed</li>
       <li>Hugo <b>0.159.2</b> · PaperMod</li>
-      <li style="color: var(--ok);"><b style="color: var(--ok);">1</b> of 38 fixed</li>
+      <li style="color: var(--ok);"><b style="color: var(--ok);">10</b> of 38 fixed</li>
     </ul>
   </header>
 
@@ -401,7 +403,7 @@
   </section>
 
   <section id="broken">
-    <h2>Broken <span class="count">9 findings · 1 fixed</span></h2>
+    <h2>Broken <span class="count">9 findings · 5 fixed</span></h2>
     <p class="lede">Things that are wrong right now, on the live site or in the build.</p>
 
     <article class="finding is-fixed">
@@ -414,45 +416,45 @@
       <div class="verified"><span class="tag">Fixed</span><span class="body">Removed <code>posts</code>, <code>articles</code>, <code>blog</code>, <code>showcase</code>, <code>docs</code> from all 12 section index files. Kept only the real ones: <code>web3</code>→blockchain, <code>data</code>→data-engineering, <code>idea</code>→ideas. Also dropped the self-aliases (<code>"ai"</code> on <code>content/ai/_index.md</code>) and the two containing spaces. Verified with a clean rebuild: the five junk paths resolve to nothing, the three genuine aliases still redirect correctly, and every section page renders unaffected.</span></div>
     </article>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
         <h3>Pagination config is silently ignored — the homepage is 33 pages, not 22</h3>
-        <span class="chip crit">Critical</span>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p><code>config.yaml:9</code> reads <code>pagination.pagerSize:&nbsp;&nbsp;&nbsp;15</code>. That's a literal dotted YAML key, not a nested map, so Hugo never sees it and falls back to the default of 10. The CHANGELOG records this change as shipped; it never took effect.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body">hugo config → <code>[pagination] pagersize = 10</code><br>Built output: 10 entries on page 1, <code>public/page/33/</code> exists</span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">Nest the key. Test-built: 15 entries on page 1, 22 pages total.<pre><code>pagination:
-  pagerSize: 15</code></pre></span></div>
+      <p><code>config.yaml:9</code> read <code>pagination.pagerSize:&nbsp;&nbsp;&nbsp;15</code>. That's a literal dotted YAML key, not a nested map, so Hugo never saw it and fell back to the default of 10. The CHANGELOG recorded this change as shipped; it never took effect.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body">hugo config → <code>[pagination] pagersize = 10</code><br>Built output: 10 entries on page 1, <code>public/page/33/</code> exists</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Nested the key under its own block.<pre><code>pagination:
+  pagerSize: 15</code></pre>Rebuilt and confirmed: 15 entries on page 1, 22 pages total.</span></div>
     </article>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
-        <h3>The Gaming section never appears on the homepage</h3>
-        <span class="chip crit">Critical</span>
+        <h3>The Gaming section was missing from mainSections</h3>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p><code>gaming</code> is missing from <code>params.mainSections</code>, which instead lists <code>guide</code> — a section that doesn't exist. Gaming is in the nav and the README, so it reads as live, but its posts are excluded from the homepage feed and can never surface in the automatic "More on this topic" block, which filters candidates to <code>mainSections</code>.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>/gaming/gaming-hub/</code> (30 Jun 2026) appears on 0 of 33 home paginator pages. A comparable May 2026 post from a listed section appears on 1.</span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body"><code>config.yaml:106–120</code> — add <code>gaming</code>, remove <code>guide</code>. Decide whether <code>ideas</code> (4 drafts, 1 live empty index) should join it or be unpublished.</span></div>
+      <p><code>gaming</code> was missing from <code>params.mainSections</code>, which instead listed <code>guide</code> — a section that doesn't exist. Gaming is in the nav and the README, so it read as live, but its posts were excluded from anywhere <code>mainSections</code> gates.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body"><code>/gaming/gaming-hub/</code> (30 Jun 2026) appeared in 0 other posts' "More on this topic" blocks despite matching tags/timing.</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body"><code>config.yaml</code> — added <code>gaming</code>, removed <code>guide</code>. One correction to the original diagnosis: <code>gaming-hub.md</code> is <code>type: reference</code> (a hub page, like the site's 12 other hub pages), and PaperMod's homepage/archive templates filter by <code>.Type</code>, not <code>.Section</code> — so it correctly still won't appear in the reverse-chronological stream, matching every other hub page site-wide by design. What this fix actually restores is <code>related_content.html</code>, which filters by <code>.Section</code>: rebuilt and confirmed <code>gaming-hub</code> now appears in 4 other posts' "More on this topic" blocks that it was invisible to before.</span></div>
     </article>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
         <h3>Four favicon files 404 on every single page load</h3>
-        <span class="chip crit">Critical</span>
+        <span class="chip fixed">Fixed</span>
       </div>
       <p>The theme emits <code>&lt;link&gt;</code> tags for four icon files that were never created. Four failed requests per pageview, and no icon on an iOS home screen, an Android shortcut, or a high-DPI browser tab.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body">404: favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png, safari-pinned-tab.svg<br>200: favicon.ico</span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">Generate the four files into <code>static/</code>, or remove the tags via <code>params.assets</code>. Generating them is the better call — the Apple touch icon is what shows when someone saves the site to a phone.</span></div>
+      <div class="evidence"><span class="tag">Was</span><span class="body">404: favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png, safari-pinned-tab.svg<br>200: favicon.ico</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Generated the three raster sizes from the existing 64×64 <code>favicon.ico</code> with <code>sips</code> (flattened onto an opaque background for the Apple touch icon specifically — its source had transparency, which iOS renders as solid black on a home screen). Hand-authored <code>safari-pinned-tab.svg</code> as a single-colour black silhouette matching the existing icon's shape, per Safari's mask-icon requirements. All four now sit in <code>static/</code> at the exact filenames PaperMod already defaults to, no config needed. Verified all four ship in the build and render correctly at their target sizes.</span></div>
     </article>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
         <h3>Dead links hit the hosting panel's error page, not yours</h3>
-        <span class="chip crit">Critical</span>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p>Hugo builds a styled 404 that works — it returns 200 at <code>/404.html</code>. But the web server serves its own generic "Server Error" page from May 2023 instead, so anyone following a stale link is dumped out of the site with no nav, no search and no branding.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body">GET /definitely-not-a-page/ → 808 bytes, <code>&lt;title&gt;404 Not Found&lt;/title&gt;</code>, <code>/error_docs/styles.css</code>, <code>last-modified: Sun, 14 May 2023</code></span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">One line in the vhost config: <code>ErrorDocument 404 /404.html</code> (Apache) or <code>error_page 404 /404.html;</code> (nginx). Worth adding a search box and top-section links to that page while you're there.</span></div>
+      <p>Hugo builds a styled 404 that works — it returns 200 at <code>/404.html</code>. But the web server was serving its own generic "Server Error" page from May 2023 instead, so anyone following a stale link was dumped out of the site with no nav, no search and no branding.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body">GET /definitely-not-a-page/ → 808 bytes, <code>&lt;title&gt;404 Not Found&lt;/title&gt;</code>, <code>/error_docs/styles.css</code>, <code>last-modified: Sun, 14 May 2023</code></span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Simpler than first assumed — no Plesk panel access needed. Added <code>static/.htaccess</code>:<pre><code>ErrorDocument 404 /404.html</code></pre>Confirmed Hugo copies dotfiles from <code>static/</code> straight into <code>public/</code>, so it ships and gets rsynced on every deploy automatically, same as any other static asset.</span></div>
     </article>
 
     <article class="finding">
@@ -499,27 +501,27 @@ git config -f .gitmodules submodule."themes/hugo-PaperMod".url \
   </section>
 
   <section id="perf">
-    <h2>Performance <span class="count">5 findings</span></h2>
+    <h2>Performance <span class="count">5 findings · 2 fixed</span></h2>
     <p class="lede">Two of these dominate everything else: images and the search index.</p>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
-        <h3>The homepage ships 5.39 MB of cover images for ten posts</h3>
-        <span class="chip crit">Critical</span>
+        <h3>The homepage shipped 5.39 MB of cover images for ten posts</h3>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p>Cover images live in <code>static/</code>, which bypasses Hugo's image pipeline entirely — no resizing, no format conversion, no <code>srcset</code>. They're served at their native 1280–1792px into a 670px slot, roughly 2.5× oversized, and none carry <code>width</code>/<code>height</code>, so every card shifts as it loads.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body">Home page 1: 5.39 MB · /ai/ page 1: 4.87 MB · /music-production/: 3.35 MB<br>254 JPG + 95 PNG, zero WebP or AVIF<br>mac-mini-m6-hermes-agent-infographic.png = 1.9 MB · game-technology-2026.png = 1.2 MB</span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">Move <code>static/assets/images/</code> into <code>assets/</code> and add a cover partial plus a <code>render-image</code> hook that emits resized WebP with <code>srcset</code> and explicit dimensions. Expect an 80–90% cut. Lazy loading is already on, which softens the hit, but one scroll of the homepage is still 5.4 MB.</span></div>
+      <p>Cover images live in <code>static/</code>, which bypasses Hugo's image pipeline entirely — no resizing, no format conversion, no <code>srcset</code>. They were served at their native 1280–1792px into a 670px slot, roughly 2.5× oversized.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body">Home page 1: 5.39 MB · /ai/ page 1: 4.87 MB · /music-production/: 3.35 MB<br>254 JPG + 95 PNG, zero WebP or AVIF<br>mac-mini-m6-hermes-agent-infographic.png = 1.9 MB · game-technology-2026.png = 1.2 MB</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Lower-risk fix than the full pipeline rework: resized and recompressed in place, same paths and filenames, zero frontmatter changes across 350 posts. JPEGs capped at 1600px long edge and re-encoded (quality 82, progressive) - 85 files, 28.5&nbsp;MB → 14.0&nbsp;MB. PNGs run through <code>pngquant</code> (quality 75-95) - along the way, found 30 files with a <code>.png</code> extension that were actually JPEG-encoded (real magic bytes checked); routed those through the JPEG path instead, writing back to the same <code>.png</code>-named path. <code>static/assets/images/</code> total: 46&nbsp;MB → 24&nbsp;MB (48%). Homepage: 5.39&nbsp;MB → 2.68&nbsp;MB for <em>more</em> posts (15 vs 10, after the pagination fix). Verified: zero corrupted files across all 137 images, and visually spot-checked two text-heavy infographics at full size - fully legible, no visible artifacting.</span></div>
     </article>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
-        <h3>Search downloads 963 KB before you can type a character</h3>
-        <span class="chip crit">Critical</span>
+        <h3>Search downloaded 963 KB before you could type a character</h3>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p><code>/index.json</code> embeds the full body text of all 350 posts. It isn't edge-cached either, so every visit to <code>/search/</code> pays for it again from origin.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body">3.65 MB raw / 963 KB brotli · 2.76M characters of post body<br><code>cf-cache-status: DYNAMIC</code></span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">Drop <code>content</code> from the index template (title + summary + tags lands near 100 KB), or truncate to the first ~500 characters per post. Fuzzy matching over full bodies is also why searching "iceberg" currently returns "OpenAI Voice Engine" — a smaller index improves relevance as well as speed.</span></div>
+      <p><code>/index.json</code> embedded the full body text of all 350 posts.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body">3.65 MB raw / 963 KB brotli · 2.76M characters of post body</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Added <code>layouts/_default/index.json</code>, a project override of the theme's index template, truncating the <code>content</code> field to 600 characters per post instead of the full body:<pre><code>"content" (.Plain | strings.Truncate 600)</code></pre>350 entries, raw size 3.6&nbsp;MB → 1.1&nbsp;MB (gzip -9: 232 KB, so brotli should land lower still). Verified functionally, not just by file size: served the rebuilt site locally and ran a real search for "iceberg" through the live Fuse.js index - the three actual Iceberg posts now rank at the top, matching or improving on the pre-fix ranking.</span></div>
     </article>
 
     <article class="finding">
@@ -554,27 +556,27 @@ git config -f .gitmodules submodule."themes/hugo-PaperMod".url \
   </section>
 
   <section id="seo">
-    <h2>Discoverability <span class="count">9 findings</span></h2>
+    <h2>Discoverability <span class="count">9 findings · 2 fixed</span></h2>
     <p class="lede">How the site is navigated, crawled, and trusted.</p>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
-        <h3>The navigation hides a third of the site</h3>
-        <span class="chip crit">Critical</span>
+        <h3>The navigation hid a third of the site</h3>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p>Seventeen menu items in a container the theme caps at 1024px. Six sections are clipped off-screen at every viewport width, with no scroll affordance to suggest they're there.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body"><code>#menu.scrollWidth = 1615</code> · <code>clientWidth = 1024</code> · overflow 591px<br>Hidden: Personal Dev, Retro Computing, Security, Software Eng, Space, Theories</span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">Group the sections under one "Topics" dropdown, or move Tags, Archive and Search to the footer and keep the nav for sections only. A visible fade or chevron at the overflow edge is the minimum stopgap.</span></div>
+      <p>Seventeen menu items in a container the theme caps at 1024px. Six sections were clipped off-screen at every viewport width, with no scroll affordance to suggest they were there.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body"><code>#menu.scrollWidth = 1615</code> · <code>clientWidth = 1024</code> · overflow 591px<br>Hidden: Personal Dev, Retro Computing, Security, Software Eng, Space, Theories</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Built the "Topics" dropdown option. Added <code>layouts/partials/header.html</code> (a project override) that groups the 14 section links under one "Topics ▾" button, driven by menu weight (utility links stay flat below weight 100, sections above it) rather than hard-coding names. The button shows the current section name when you're on one. Two real bugs surfaced and got fixed along the way: the dropdown initially rendered off-screen (anchored <code>left:0</code> under a button sitting near the nav's right edge - switched to <code>right:0</code>), then was invisible despite correct layout (the theme's <code>.menu{overflow-x:auto}</code>, a leftover scroll workaround, was clipping the absolutely-positioned dropdown regardless of z-index - removed it, since grouping into Topics means the nav no longer needs to scroll). Verified: all 14 sections reachable, click-outside and Escape close it, active section shows in the button label, keyboard-focusable.</span></div>
     </article>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
-        <h3>There is no About page</h3>
-        <span class="chip crit">Critical</span>
+        <h3>There was no About page</h3>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p>For a personal blog with 352 posts this is the biggest structural gap. Someone arriving from a search result has no way to learn who wrote this or why they'd trust it — the standard experience and authority signal, and there is currently none.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body">/about/ → 404 · /now/ → 404 · /contact/ → 404<br>Author appears only as a byline string</span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">A short page covering what you work on, why these particular topics, and how to reach you. Link it from the nav and add <code>Person</code> structured data pointing at it.</span></div>
+      <p>For a personal blog with 352 posts this was the biggest structural gap. Someone arriving from a search result had no way to learn who wrote this or why they'd trust it.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body">/about/ → 404 · Author appeared only as a byline string</span></div>
+      <div class="verified"><span class="tag">Fixed</span><span class="body">Added <code>content/about.md</code> and linked it from the nav (utility group, next to Archive/Search/Tags). Covers who writes the blog, what it's for, the fourteen sections with a line each, and how to get in touch - drawing only on facts already public elsewhere on the site (job title without employer, per the site's existing convention on the mechanistic-interpretability and policy posts) rather than inventing biographical detail. One build gotcha worth flagging for future posts: the page's timestamp was 11 minutes ahead of the build clock, and <code>buildFuture: false</code> silently drops future-dated content with no warning - caught it by diffing the build output, not from any error message.</span></div>
     </article>
 
     <article class="finding">
@@ -649,18 +651,20 @@ git config -f .gitmodules submodule."themes/hugo-PaperMod".url \
   </section>
 
   <section id="content">
-    <h2>Content <span class="count">8 findings</span></h2>
+    <h2>Content <span class="count">8 findings · 1 fixed</span></h2>
     <p class="lede">Editorial issues nothing in the current toolchain checks for.</p>
 
-    <article class="finding is-crit">
+    <article class="finding is-fixed">
       <div class="fhead">
-        <h3>Around 140 posts display another article's title in their hero image</h3>
-        <span class="chip crit">Critical</span>
+        <h3>Some posts displayed another article's title in their hero image</h3>
+        <span class="chip fixed">Fixed</span>
       </div>
-      <p>49 cover images are shared between two or more posts. 35 of those are named after one specific post and borrowed by 140 others — and where the image has a title rendered into it, every borrower shows the wrong headline, on the page and in its social preview.</p>
-      <p>Two confirmed by reading the files: <code>ai-evals-are-broken.jpg</code> renders the words <em>"Evaluating Agents in Production: Trajectory Metrics, Not Just Final Answers"</em>, so the evals post leads with a different article's title. <code>context-engineering.png</code> reads <em>"Context Engineering: The Discipline That Replaced Prompt Engineering"</em> and is the cover for eight other posts including <code>cline.md</code>, <code>github-spec-kit.md</code> and <code>spec-driven-development.md</code>.</p>
-      <div class="evidence"><span class="tag">Evidence</span><span class="body">Heaviest reuse: music-production.png ×38 · human-advancement-acceleration.jpg ×22 · platform-engineering-2026.jpg ×21 · my-tracks-2026-04.jpg ×15</span></div>
-      <div class="fix"><span class="tag">Fix</span><span class="body">Reuse is only a problem where the image carries text. Untitled images like <code>platform-engineering-2026.jpg</code> are shared 21 ways harmlessly. Audit the 35 owner-named images, and stop borrowing the ones with titles rendered in.</span></div>
+      <p>49 cover images were shared between two or more posts, 35 of them named after one specific post. The initial estimate of 140 affected posts was from a script that only checked whether an image was shared and owner-named, not whether it actually had text rendered into it - the real number, after checking all 35 by eye, was smaller and worth being precise about.</p>
+      <div class="evidence"><span class="tag">Was</span><span class="body">Confirmed: <code>ai-evals-are-broken.jpg</code> rendered <em>"Evaluating Agents in Production: Trajectory Metrics..."</em>; <code>context-engineering.png</code> rendered <em>"Context Engineering: The Discipline That Replaced Prompt Engineering"</em> across 8 other posts.</span></div>
+      <div class="verified"><span class="tag">Fixed</span><div class="body">
+        <p>Installed <code>tesseract</code> to OCR-triage all 35 owner-named images at once rather than guessing from file size, then read each one to confirm - OCR on stylised sci-fi fonts over busy backgrounds is noisy enough that it's a triage signal, not a verdict on its own. Result: <strong>17 images genuinely had another post's specific title or product name baked in</strong> (not 35) - the other 18 are generic concept art, diagrams, or category labels ("SUNO", "AI Cloud Subscriptions") that don't claim to be a different article, so reuse there is fine, same as the site's other big shared images.</p>
+        <p>For the 17 real ones, reassigned <strong>47 borrowing posts</strong> to an already-established generic image in the same section (the site already had several safe, textless images shared broadly - <code>music-production.png</code> ×38, <code>human-advancement-acceleration.jpg</code> ×22 - so this extends that existing pattern rather than inventing a new one; no image generation involved). Alt text needed no changes - it already described each post's own content independently of what was literally in the image. Verified programmatically across the full rebuilt site (zero pages still show a problem image that isn't its own) and spot-checked visually.</p>
+      </div></div>
     </article>
 
     <article class="finding">
@@ -825,15 +829,16 @@ git config -f .gitmodules submodule."themes/hugo-PaperMod".url \
     <h2>Order of work</h2>
     <p class="lede">Sequenced by value per hour of effort, not by severity.</p>
     <ol class="order">
-      <li><span>Config one-liners — nest <code>pagerSize</code>, add <code>gaming</code> and drop <code>guide</code> from <code>mainSections</code>, remove the unused <code>categories</code> taxonomy.<span class="effort">~10 minutes · fixes three findings, effect is immediate</span></span></li>
+      <li><span><s>Config one-liners — nest <code>pagerSize</code>, add <code>gaming</code> and drop <code>guide</code> from <code>mainSections</code>.</s> <span class="chip fixed">Fixed</span><span class="effort">The unused <code>categories</code> taxonomy is still there - low effort, not critical, left open</span></span></li>
       <li><span><s>Strip the copy-pasted aliases so <code>/blog/</code> stops meaning <code>/space/</code>.</s> <span class="chip fixed">Fixed</span><span class="effort">12 files, verified with a clean rebuild</span></span></li>
-      <li><span>Fix <code>.gitmodules</code> so the repo builds from a clean clone, and update PaperMod while you're in there.<span class="effort">~15 minutes · also clears the 43 build warnings</span></span></li>
-      <li><span>Server side: point 404s at your own page, cache HTML at the edge, make hashed assets immutable, add security headers.<span class="effort">~1 hour · all in Cloudflare and one vhost line</span></span></li>
-      <li><span>Generate the four missing favicons; make section hero paths absolute; move the one stray image.<span class="effort">~30 minutes · clears 32 404s</span></span></li>
-      <li><span>Trim the search index.<span class="effort">~30 minutes · 963 KB → ~100 KB</span></span></li>
-      <li><span>Move images into <code>assets/</code> and build a cover partial with WebP, <code>srcset</code> and explicit dimensions.<span class="effort">Half a day · the single biggest performance win</span></span></li>
-      <li><span>Write the About page.<span class="effort">~1 hour · the biggest structural gap on the site</span></span></li>
-      <li><span>Content sweep: mismatched titled covers, the two scratch pages, the X embeds, the dead links, the stray H1s.<span class="effort">Ongoing · worth automating the checks into <code>scripts/</code> first</span></span></li>
+      <li><span>Fix <code>.gitmodules</code> so the repo builds from a clean clone, and update PaperMod while you're in there.<span class="effort">~15 minutes · still open · also clears the 43 build warnings</span></span></li>
+      <li><span><s>Point 404s at the site's own page.</s> <span class="chip fixed">Fixed</span><span class="effort">One-line <code>static/.htaccess</code>. Cache-at-the-edge, immutable asset headers and security headers still need Cloudflare dashboard access - still open</span></span></li>
+      <li><span><s>Generate the four missing favicons.</s> <span class="chip fixed">Fixed</span><span class="effort">Section hero paths (absolute vs relative) and the one stray retro-computing image are still open - low effort</span></span></li>
+      <li><span><s>Trim the search index.</s> <span class="chip fixed">Fixed</span><span class="effort">3.65 MB → 1.1 MB raw, verified functional</span></span></li>
+      <li><span><s>Cut the homepage's cover-image weight.</s> <span class="chip fixed">Fixed</span><span class="effort">In-place resize/recompress, not the full assets/+WebP+srcset pipeline - static/assets/images/: 46 MB → 24 MB (48%)</span></span></li>
+      <li><span><s>Write the About page.</s> <span class="chip fixed">Fixed</span></span></li>
+      <li><span><s>Fix the posts showing another article's title in their cover image.</s> <span class="chip fixed">Fixed</span><span class="effort">17 images, 47 posts reassigned to safe generic covers</span></span></li>
+      <li><span>Remaining content sweep: the two scratch pages, the X embeds, the dead links, the stray H1s.<span class="effort">Ongoing, none critical · worth automating the checks into <code>scripts/</code> first</span></span></li>
     </ol>
 
     <p class="closer"><strong>One framing worth keeping.</strong> Almost everything above is either configuration or housekeeping. The writing, the tagging discipline, the internal linking and the editorial standards — the parts that are genuinely hard and genuinely slow to build — are already in place and in better shape than most sites this size. The gap is that the toolchain currently checks tags and orphan links, and nothing else. Most of these findings would have surfaced on their own if the same instinct that produced <code>validate-tags.py</code> were extended to frontmatter, images, headings and external links.</p>

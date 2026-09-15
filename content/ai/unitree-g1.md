@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "robotics"]
 description: "Unitree's G1 humanoid robot starts at $16k - dramatically undercutting Tesla Optimus and Boston Dynamics while using reinforcement and imitation learning for precision real-world tasks."
 cover:
-  image: /assets/images/ai/humanoid-robotics-2026.jpg
+  image: /assets/images/ai/ai-agents-that-actually-work.jpg
   alt: Unitree G1 AI Humanoid Robot
 ---
 

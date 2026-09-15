@@ -5,7 +5,7 @@ draft: false
 tags: ["claude-code", "security", "anthropic", "programming"]
 description: "Nearly 2,000 internal files from Claude Code were briefly leaked due to human error. Here's what happened, what was exposed, and the security implications for developers using Anthropic's AI coding tool."
 cover:
-  image: /assets/images/ai/ai-cyber-threat-is-rising.png
+  image: /assets/images/ai/ai-safety-first-principles.jpg
   alt: Claude Code source leak - Anthropic 2000 file exposure
 ---
 

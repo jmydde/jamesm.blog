@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "cline", "project-management", "mcp", "automation"]
 description: "How to integrate Cline with Kanban boards via Model Context Protocol to create a seamless autonomous workflow that bridges development and task management."
 cover:
-  image: /assets/images/ai/context-engineering.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: Cline Kanban integration via MCP
 ---
 

@@ -5,7 +5,7 @@ draft: false
 tags: ["ai","reliability","testing","llm","agentic-engineering","verification"]
 description: "Traditional testing methods break down in the age of autonomous AI agents. A practical look at why deterministic testing fails for non-deterministic builders, and what actually works instead."
 cover:
-  image: /assets/images/ai/agent-reliability-debugging-non-deterministic.jpg
+  image: /assets/images/ai/ai-safety-first-principles.jpg
   alt: AI reliability - testing non-deterministic systems
 ---
 

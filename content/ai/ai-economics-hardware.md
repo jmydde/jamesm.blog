@@ -6,7 +6,7 @@ type: reference
 tags: ["ai", "economics", "hardware", "inference", "agentic-engineering"]
 description: "Reading path for intelligence economics - token costs, local vs cloud, GPU choices, energy constraints, and the inference hardware insurgents."
 cover:
-  image: /assets/images/ai/inference-hardware-insurgents.png
+  image: /assets/images/ai/ai-cloud-subscriptions.jpg
   alt: AI economics and hardware reading path
 slug: "ai-economics-hardware"
 ---

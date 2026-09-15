@@ -5,7 +5,7 @@ draft: false
 type: brief
 description: "An exploration of Cline, the autonomous AI coding agent that lives in your IDE and handles complex, multi-step engineering tasks through tool-use and agency."
 cover:
-  image: /assets/images/ai/context-engineering.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: Cline AI coding agent
 tags: ["ai", "coding", "productivity", "open-source", "cline"]
 ---

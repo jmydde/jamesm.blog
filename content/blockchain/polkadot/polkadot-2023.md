@@ -5,7 +5,7 @@ draft: false
 tags: ["polkadot", "blockchain", "news", "ecosystem", "development"]
 description: "2023 Polkadot ecosystem highlights covering the network’s evolution toward Polkadot 1.0. Features major developments including parachain expansion, staking growth, technical upgrades, and founder insights on governance and scalability."
 cover:
-  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
   alt: Polkadot News 2023 Banner
 ---
 

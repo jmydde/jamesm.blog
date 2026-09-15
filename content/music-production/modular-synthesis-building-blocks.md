@@ -5,7 +5,7 @@ draft: false
 tags: ["music-production", "synthesis", "modular", "eurorack", "sound-design"]
 description: "A practical guide to understanding modular synthesis fundamentals. Learn what oscillators, envelopes, filters, and LFOs actually do, and how they connect to create sound."
 cover:
-  image: /assets/images/music-production/physical-modeling-synths.jpg
+  image: /assets/images/music-production/music-production.png
   alt: Modular Synthesis Building Blocks
 ---
 

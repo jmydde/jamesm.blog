@@ -5,7 +5,7 @@ draft: false
 tags: ["workflow", "midi", "music-production", "synth", "modx", "roland", "groovebox"]
 description: "How to use the Roland MC-707 as a MIDI recorder and sequencer brain for the Yamaha MODX M - a simple setup that turns the MC-707 into a central hub and the MODX into a pure performance instrument."
 cover:
-  image: /assets/images/music-production/hybrid-systems-montage-mc-707.jpg
+  image: /assets/images/music-production/music-production.png
   alt: Using Roland MC-707 as MIDI Brain for Yamaha MODX
 ---
 
