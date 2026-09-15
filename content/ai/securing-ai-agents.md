@@ -6,7 +6,7 @@ series: ["Trust"]
 tags: ["ai", "agent", "security", "mcp", "agentic-engineering"]
 description: "The moment an agent holds real tool access, reliability and security stop being separate problems. A practitioner walkthrough of the confused-deputy attack surface, MCP hardening patterns, and the defenses I actually run on my home agent stack."
 cover:
-  image: /assets/images/ai/ai-cyber-threat-is-rising.png
+  image: /assets/images/ai/ai-safety-first-principles.jpg
   alt: Securing AI Agents Banner
 slug: "securing-ai-agents"
 ---

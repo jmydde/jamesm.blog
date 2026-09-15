@@ -5,7 +5,7 @@ draft: false
 tags: ["bitcoin", "cryptocurrency", "blockchain", "web3", "economics"]
 description: "An introduction to Bitcoin - the world's first decentralised cryptocurrency. Covers key characteristics, how it works, and curated educational resources for understanding Bitcoin from first principles."
 cover:
-  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
   alt: Bitcoin Banner
 ---
 

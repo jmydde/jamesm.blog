@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "github", "spec-kit", "sdd", "cursor"]
 description: "GitHub Spec Kit is a version-controlled markdown framework for spec-driven development - writing the specification first and letting AI tools implement against it to prevent architectural drift."
 cover:
-  image: /assets/images/ai/context-engineering.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: GitHub Spec Kit - spec-driven development with AI
 ---
 

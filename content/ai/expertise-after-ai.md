@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "expertise", "learning", "skill", "education"]
 description: "If AI can pass the bar exam, the CPA exam, and every technical certification, what are we actually certifying? Expertise becomes something else entirely - and much harder to fake."
 cover:
-  image: /assets/images/ai/will-ai-kill-coding-jobs-cherny.png
+  image: /assets/images/ai/ai-agents-that-actually-work.jpg
   alt: What expertise means when AI can pass any exam
 ---
 

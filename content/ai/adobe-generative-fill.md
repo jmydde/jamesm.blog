@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "photography"]
 description: "Adobe Generative Fill in Photoshop brings text-prompted image manipulation powered by Firefly - removing objects, extending scenes, and adding content, all trained on commercially safe licensed work."
 cover:
-  image: /assets/images/ai/chatgpt-images-2.png
+  image: /assets/images/ai/ai-augmented-design-workflow.jpg
   alt: Adobe Generative Fill - Photoshop AI
 ---
 

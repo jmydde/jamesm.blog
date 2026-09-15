@@ -1,0 +1,19 @@
+{{- /*
+  Override of themes/hugo-PaperMod/layouts/_default/index.json.
+
+  Only change vs. the theme default: the "content" field is truncated to
+  the first 600 characters of each post's plain text instead of the full
+  body. fastsearch.js (theme) fuzzy-matches on title/permalink/summary/
+  content - the full body was pushing this file to ~3.6MB raw / ~960KB
+  brotli on a 350-post site, downloaded in full before a single character
+  can be typed into /search/. A 600-char excerpt (intro + opening of the
+  TL;DR, for most posts) keeps content genuinely searchable while cutting
+  the payload by roughly 90%. See docs/site-review-2026-09-15.html.
+*/}}
+{{- $.Scratch.Add "index" slice -}}
+{{- range site.RegularPages -}}
+    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `search`) }}
+    {{- $.Scratch.Add "index" (dict "title" .Title "content" (.Plain | strings.Truncate 600) "permalink" .Permalink "summary" .Summary) -}}
+    {{- end }}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

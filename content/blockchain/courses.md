@@ -5,7 +5,7 @@ draft: false
 description: "Curated learning resources for blockchain development and Web3, from beginner fundamentals to advanced smart contract development"
 tags: ["bitcoin", "blockchain", "course", "cryptocurrency", "polkadot", "training", "web3", "education", "learning"]
 cover:
-  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
   alt: Blockchain and Web3 Courses Banner
 ---
 

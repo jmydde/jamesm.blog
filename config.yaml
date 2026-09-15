@@ -6,7 +6,6 @@ enableEmoji:            true
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 #googleAnalytics:        UA-123-45
-pagination.pagerSize:   15
 pygmentsUseClasses:     true
 title:                  jamesm.blog
 
@@ -32,49 +31,73 @@ languages:
       series:   series
     menu:
       main:
+        # Weight < 100: utility links, always flat in the visible nav (see
+        # layouts/partials/header.html - the project override that groups
+        # weight >= 100 under a "Topics" dropdown so the 14 section links
+        # don't overflow the nav bar off-screen on common viewports).
         - name: Archive
           url: archives/
-          weight: 5
+          weight: 1
         - name: Search
           url: search/
-          weight: 10
+          weight: 2
         - name: Tags
           url: tags/
-          weight: 10
+          weight: 3
+        - name: About
+          url: about/
+          weight: 4
         - name: AI
           url: /ai
+          weight: 100
         - name: Blockchain
           url: /blockchain
+          weight: 101
         - name: Data Engineering
           url: /data-engineering
+          weight: 102
         - name: Data Science
           url: /data-science
+          weight: 103
         - name: DevOps
           url: /devops
-        - name: General
-          url: /general
+          weight: 104
         - name: Gaming
           url: /gaming
-        - name: Retro Computing
-          url: /retro-computing
+          weight: 105
+        - name: General
+          url: /general
+          weight: 106
         - name: Music Production
           url: /music-production
+          weight: 107
         - name: Personal Dev
           url: /personal-development
+          weight: 108
+        - name: Retro Computing
+          url: /retro-computing
+          weight: 109
         - name: Security
           url: /security
+          weight: 110
         - name: Software Eng
           url: /software-engineering
+          weight: 111
         - name: Space
           url: /space
+          weight: 112
         - name: Theories
           url: /theories
+          weight: 113
 
 outputs:
   home:
     - HTML
     - JSON
     - RSS
+
+pagination:
+  pagerSize: 15
 
 # Automatic "More on this topic" related-content index (rendered in
 # layouts/_default/single.html). This is separate from, and secondary to,
@@ -105,11 +128,11 @@ params:
   images:                 ["papermod-cover.png"]
   mainSections:
     - ai
-    - guide
     - blockchain
     - data-engineering
     - data-science
     - devops
+    - gaming
     - general
     - retro-computing
     - music-production
@@ -147,6 +170,7 @@ params:
       - [**Data Engineering**](/data-engineering) (Building data infrastructure that actually scales)
       - [**Data Science**](/data-science) (Graph algorithms, network analysis, and statistical methods)
       - [**DevOps**](/devops) (Infrastructure, automation, and operational philosophy)
+      - [**Gaming**](/gaming) (Game technology, live service economics, and blockbuster launches)
       - [**General**](/general) (Culture, television, and the miscellaneous)
       - [**Retro Computing**](/retro-computing) (The machines and culture that shaped computing)
       - [**Music Production**](/music-production) (Gear, sound design, and creative workflow)

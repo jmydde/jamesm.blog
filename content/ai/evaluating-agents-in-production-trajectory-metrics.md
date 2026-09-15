@@ -6,7 +6,7 @@ series: ["Trust"]
 tags: ["ai", "agent", "eval", "reliability", "agentic-engineering"]
 description: "Endpoint scoring certifies answers, not behaviour. A practitioner guide to step-level agent evaluation - trajectory rubrics, replay harnesses, and regression suites for multi-step production agents."
 cover:
-  image: /assets/images/ai/ai-evals-are-broken.jpg
+  image: /assets/images/ai/ai-safety-first-principles.jpg
   alt: Evaluating agents in production with trajectory metrics
 slug: "evaluating-agents-in-production-trajectory-metrics"
 ---

@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "openai", "data-center", "hardware", "infrastructure"]
 description: "Stargate is a $500B AI infrastructure programme from OpenAI, SoftBank, Oracle, and MGX - the largest announced compute bet in history and a proxy for how seriously the industry takes the AGI race."
 cover:
-  image: /assets/images/ai/inference-hardware-insurgents.png
+  image: /assets/images/ai/ai-cloud-subscriptions.jpg
   alt: Stargate - $500B OpenAI AI infrastructure project
 ---
 

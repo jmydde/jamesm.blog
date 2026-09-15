@@ -5,7 +5,7 @@ draft: false
 tags: ["nasa", "artemis", "moon", "space-station", "infrastructure"]
 description: "Beyond Apollo-style moon landings: how the Lunar Gateway transforms humanity's approach to sustained lunar presence and deep space exploration."
 cover:
-  image: /assets/images/space/artemis-iii-lander-architecture.jpg
+  image: /assets/images/space/human-spaceflight-rockets-2026.jpg
   alt: The Lunar Gateway - humanity's stepping stone to sustained lunar presence
 ---
 

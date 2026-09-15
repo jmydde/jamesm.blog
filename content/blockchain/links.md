@@ -5,7 +5,7 @@ draft: false
 tags: ['web3', 'youtube', 'blockchain', 'resource', 'cryptocurrency', 'education']
 description: "Curated YouTube channels for blockchain and cryptocurrency education, covering technical fundamentals, market analysis, ecosystem-specific coverage, and Bitcoin-focused content."
 cover:
-  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
   alt: Blockchain and Crypto Resources Banner
 ---
 

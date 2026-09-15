@@ -5,7 +5,7 @@ draft: false
 description: "Dr. Gavin Wood's contributions to blockchain technology, from Ethereum to Polkadot, and his vision for Web3 interoperability"
 tags: ["polkadot", "ethereum", "blockchain", "web3"]
 cover:
-  image: /assets/images/blockchain/state-of-blockchain-2026.jpg
+  image: /assets/images/blockchain/polkadot-2-one-year-on.jpg
   alt: Gavin Wood Banner
 ---
 
