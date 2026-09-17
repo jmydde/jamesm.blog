@@ -14,9 +14,12 @@ mount, so this never ships to production.
   bug that started this (originally its own fix, done first).
 - **28 open** — none critical. Breakdown by section is in the artifact
   itself (each finding is tagged Fixed / Critical / High / Medium / Low).
-- **176 files changed, uncommitted on `main`** as of this note. Nothing has
-  been pushed or deployed - `./deploy.sh` has not been run since these
-  fixes landed, so none of this is live on jamesm.blog yet.
+- **Committed, merged, and deployed.** [PR #4](https://github.com/jmydde/jamesm.blog/pull/4)
+  merged to `main` on 15 Sep 2026, then `./deploy.sh` was run - live on
+  jamesm.blog. Spot-checked after deploy: alias redirects gone, favicons
+  and 404 page serving, pagination and search index sizes match the build,
+  the reassigned cover image and the gaming related-content fix both
+  confirmed on the live site.
 
 ## What was fixed
 
@@ -40,8 +43,9 @@ Full detail, evidence, and verification notes for each are in the artifact.
 ## To resume in a new session
 
 1. Open the artifact link above (or ask Claude to read it) to see current
-   fixed/open status.
-2. `git status` in this repo to see the 176 pending changes are still
-   there (or check if they've since been committed/deployed).
-3. Tell Claude what to do next - e.g. "commit these", "fix the next
-   highest-priority open finding", or "deploy this".
+   fixed/open status - the 9 critical findings are done and live; 28
+   lower-severity ones remain, none critical.
+2. `git log` / `git status` to confirm nothing's changed since (the fixes
+   landed via PR #4, already deployed as of this note).
+3. Tell Claude what to do next - e.g. "fix the next highest-priority open
+   finding," or point it at a specific section of the artifact.
