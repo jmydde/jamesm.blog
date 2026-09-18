@@ -48,7 +48,7 @@ That speed-and-reliability combination is also what's showing up in the more bus
 
 The demo wave had mostly run its course within the first week when a different kind of coverage started showing up - not from AI creators, but from security trade press. OpenAI's own [safety materials](https://openai.com/index/path-to-astra/) disclosed that Astra is the first model the company has broadly deployed to cross the **Critical threshold for cybersecurity capability** under its Preparedness Framework, and that during evaluation on a deliberately fresh vulnerability dataset, Astra **discovered and used two previously unknown zero-day vulnerabilities** as part of its own exploit chains - vulnerabilities OpenAI says it's now disclosing to the affected maintainers. [InfoQ](https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/), [Bleeping Computer](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/), and [CSO Online](https://www.csoonline.com/article/4218679/openai-launches-gpt-6-astra-its-first-model-to-cross-a-critical-cybersecurity-threshold.html) all picked the story up, which is a very different audience from the one sharing 3D city builds.
 
-I've written separately about [what crossing that threshold actually means](/ai/gpt-6-astra-critical-threshold/) and about the [Senate letter that followed a week later](/ai/astra-monitorability-senate-letter/) over reduced chain-of-thought monitorability - both genuinely separate stories from the demo wave, but both extended Astra's visibility well past the normal lifespan of a launch-week news cycle.
+I've written separately about [what crossing that threshold actually means](/ai/gpt-6-astra-critical-threshold/) and about the [Senate letter that followed a week later](/ai/gpt-6-astra-monitorability-senate-letter/) over reduced chain-of-thought monitorability - both genuinely separate stories from the demo wave, but both extended Astra's visibility well past the normal lifespan of a launch-week news cycle.
 
 ## Why It Compounded Instead of Fading
 
@@ -63,7 +63,7 @@ If you want to see what the fuss is actually about rather than read about it, th
 ## Related Reading
 
 - [The Critical Threshold: What It Means That OpenAI Shipped a Cyber-Critical Model](/ai/gpt-6-astra-critical-threshold/)
-- [Sailing Into Unknown Waters: The Real Questions Congress Is Asking About GPT-6 Astra](/ai/astra-monitorability-senate-letter/)
+- [Sailing Into Unknown Waters: The Real Questions Congress Is Asking About GPT-6 Astra](/ai/gpt-6-astra-monitorability-senate-letter/)
 - [Claude Fable 5.1 and Mythos 5.1](/ai/claude-fable-5-mythos-5/)
 - [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
 - [GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?](/ai/gpt-5-5-release/)
