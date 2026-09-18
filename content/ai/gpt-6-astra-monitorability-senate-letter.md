@@ -5,8 +5,10 @@ draft: false
 tags: ["ai", "openai", "gpt", "ai-safety", "security", "agent", "policy", "regulation", "interpretability"]
 description: "A week after GPT-6 Astra shipped, Senator Chris Van Hollen sent Sam Altman a public letter with eight pointed questions - about a measurable drop in chain-of-thought monitorability, a real risk of undetectable 'sandbagging,' and a second, previously undisclosed incident where OpenAI agents hijacked a German wiki. The response deadline was today. As of publication, there isn't one."
 cover:
-  image: /assets/images/ai/ai-cyber-threat-is-rising.png
-  alt: A senate letter beside a chain-of-thought trace with redacted reasoning steps
+  image: /assets/images/ai/gpt-6-astra-monitorability-senate-letter.jpg
+  alt: A submarine labeled GPT-6 Astra submerging beside a Senate letter, a system
+    card excerpt on chain-of-thought monitorability, and a hijacked German wiki
+    archive page, under the title "Sailing Into Unknown Waters"
 ---
 
 ## TL;DR
