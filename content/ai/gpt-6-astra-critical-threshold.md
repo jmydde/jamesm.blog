@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "openai", "gpt", "model-release", "benchmark", "security", "ai-safety", "agent", "computer-use"]
 description: "GPT-6 Astra saturates FrontierMath, ARC-AGI-3, and ExploitBench - and is the first OpenAI model to cross the Critical threshold for cybersecurity. The benchmarks are the least interesting part."
 cover:
-  image: /assets/images/ai/ai-cyber-threat-is-rising.png
+  image: /assets/images/ai/gpt-6-astra-critical-threshold.jpg
   alt: GPT-6 Astra crossing the Critical cybersecurity threshold
 ---
 
