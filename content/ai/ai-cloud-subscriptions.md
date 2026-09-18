@@ -36,10 +36,10 @@ All API prices normalised to USD per 1M tokens. Consumer plans listed at flat mo
 
 | Provider | Flagship model | Input $/1M | Output $/1M | Context | Notable feature |
 |----------|----------------|-----------:|------------:|--------:|-----------------|
-| **Anthropic** | Claude Opus 4.7 | $15 | $75 | 200K | Prompt caching, computer use |
+| **Anthropic** | Claude Opus 4.7 | $5 | $25 | 1M | Prompt caching, computer use |
 | **Anthropic** | Claude Sonnet 4.6 | $3 | $15 | 200K | Best price/performance |
 | **Anthropic** | Claude Haiku 4.5 | $0.80 | $4 | 200K | Cheap, fast, capable |
-| **OpenAI** | GPT-5 | $10 | $30 | 400K | Strong multimodal |
+| **OpenAI** | GPT-5 | $1.25 | $10 | 400K | Strong multimodal |
 | **OpenAI** | GPT-5 mini | $0.40 | $1.60 | 400K | High volume default |
 | **Google** | Gemini 2.5 Pro | $1.25 | $10 | 2M | Huge context window |
 | **Google** | Gemini 2.5 Flash | $0.30 | $2.50 | 1M | Cheapest long-context |

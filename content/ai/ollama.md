@@ -13,7 +13,8 @@ cover:
 
 - **Ollama** is a lightweight tool for running open-source language models locally with no cloud costs, rate limits, or data leaving your machine
 - Models are managed with simple commands (`ollama pull`, `ollama run`) and can be queried via a local HTTP API on `localhost:11434`
-- Popular models include **Mistral 7B** for speed, Meta's Llama 3 and Llama 4 lineups for all-around performance, and **OpenClaw** for code and reasoning tasks
+- Popular models include **Mistral 7B** for speed, Meta's Llama 3 and Llama 4 lineups for all-around performance, and **Qwen 3**/**DeepSeek Coder** for code and reasoning tasks
+- Ollama also runs **OpenClaw** - not a model itself, but an agent/messaging-bridge tool you launch with `ollama launch openclaw`, which then routes to a real underlying model of your choice
 - Running models locally delivers privacy, zero per-token cost, lower latency, and full offline capability
 - You don't need a GPU to start - a 7B model runs on 8GB of RAM, and Ollama automatically uses 4-bit quantization for larger models
 
@@ -54,38 +55,30 @@ The Ollama library has grown significantly. Here are the standouts:
 
 **[Phi](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)**  -  Microsoft's compact model. Runs on modest hardware, useful for edge cases or resource-constrained environments.
 
-**Openclaw**  -  The newcomer. Built for code-intensive tasks with strong reasoning capabilities.
+**[Qwen 3](https://github.com/QwenLM/Qwen)**  -  Alibaba's open-weight family, a strong general-purpose choice for code and reasoning at a range of sizes.
 
 **[DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder)**  -  Specifically trained for code generation. If you're using Ollama for programming assistance, worth trying.
 
 You can see the full library with `ollama list` or browse at [ollama.ai/library](https://ollama.ai/library).
 
-## Running OpenClaw Locally with Ollama
+## Launching OpenClaw on Top of Ollama
 
-OpenClaw is one of the newer models available through Ollama, and it's particularly strong for reasoning and code-related tasks. Launching it is a single command:
+[OpenClaw](/ai/openclaw-is-wild/) is not itself a language model, so you won't find it in `ollama pull`. It's an open-source **agent framework** - it operates software directly through computer interfaces (clicking, typing, navigating) rather than just answering prompts, and it needs an actual model underneath it to do the reasoning. Ollama added a dedicated command for this:
 
 ```bash
-ollama run openclaw
+ollama launch openclaw
 ```
 
-If you haven't downloaded it yet, Ollama will pull it automatically (around 8GB depending on quantization). Once loaded, you get a local terminal interface:
+This sets up OpenClaw and prompts you to pick which locally-available model should power it - options like `qwen3`, `gpt-oss`, or `kimi-k2.5` are common choices, depending on what your hardware can run. Once configured, you get a local terminal interface:
 
 ```bash
 >>> What does this code do?
 [your code here]
 ```
 
-For more advanced usage, query it via API:
+Because OpenClaw is a framework rather than a model, there's no single `"model": "openclaw"` you can query through Ollama's generate API - your application instead talks to whichever underlying model you picked during setup, with OpenClaw's agent logic operating on top of it.
 
-```bash
-curl http://localhost:11434/api/generate -d '{
-  "model": "openclaw",
-  "prompt": "Explain this algorithm",
-  "stream": false
-}'
-```
-
-This lets you integrate OpenClaw into your own applications - a local AI backbone with no external dependencies.
+This still gets you what most people actually want: an agent that can operate real software locally, with no cloud dependency and no external API calls once everything is downloaded.
 
 ## Why Run Models Locally?
 
@@ -108,7 +101,7 @@ If your machine has limited resources, try quantized versions. Ollama automatica
 ## Getting Started
 
 1. Download and install from [ollama.ai](https://ollama.ai)
-2. Open a terminal and run: `ollama run openclaw`
+2. Open a terminal and run: `ollama run mistral` (or any model from the library)
 3. Start prompting
 4. When done, it automatically unloads from memory
 
@@ -116,11 +109,11 @@ For development: keep Ollama running in the background and query via API from yo
 
 ## The Larger Picture
 
-Ollama is part of a shift toward *local-first AI*. As open models improve and quantization techniques get better, relying on cloud APIs becomes less necessary. OpenClaw represents the kind of reasoning-heavy model that's increasingly practical to run yourself.
+Ollama is part of a shift toward *local-first AI*. As open models improve and quantization techniques get better, relying on cloud APIs becomes less necessary. Agent frameworks like OpenClaw, which need a strong local model to operate against, are a big part of why that's increasingly practical.
 
 Whether you're prototyping, avoiding API costs, prioritizing privacy, or just exploring what's possible with open models, Ollama makes it all straightforward. It's a simple tool that removes friction from an otherwise complex task.
 
-Start with `ollama run openclaw` and see what it can do.
+Start with `ollama run mistral` for a model, or `ollama launch openclaw` for the agent, and see what it can do.
 
 ## Related Reading
 

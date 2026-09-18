@@ -31,7 +31,7 @@ The [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-fra
 
 The framework works on a risk tiering system. Systems that pose unacceptable risk - social scoring by governments, real-time biometric surveillance in public spaces, AI that manipulates people psychologically - are banned outright. High-risk AI (think hiring tools, credit scoring, medical devices, critical infrastructure) faces a demanding compliance burden: mandatory risk assessments, human oversight, detailed documentation, and registration in a public EU database.
 
-The penalties for getting this wrong are not theoretical. Fines for high-risk violations run up to €30 million or 6% of global annual turnover, whichever is higher. Violations of the prohibited practices rules are capped at €35 million or 7% of turnover. For large AI companies, these are numbers that require board-level attention.
+The penalties for getting this wrong are not theoretical. Fines for high-risk violations run up to €15 million or 3% of global annual turnover, whichever is higher. Violations of the prohibited practices rules are capped at €35 million or 7% of turnover. For large AI companies, these are numbers that require board-level attention.
 
 For most UK and European businesses, the most immediate requirements are around general-purpose AI models and the training data they use - which brings us to the copyright problem.
 
@@ -53,7 +53,7 @@ This is the question that is landing on businesses right now, and the answer is 
 
 Courts are increasingly clear that deploying AI does not transfer liability to the AI vendor. If an AI system causes harm - a wrong medical diagnosis, a biased hiring decision, a financial recommendation that loses a client's savings - the liability assessment looks at the humans and companies who built it, sold it, deployed it, and supervised its use. The organisation deploying the AI, and the professionals using it, remain fully liable for outcomes.
 
-The EEOC in the US filed an amicus brief in 2025 supporting plaintiffs in an AI hiring discrimination case, arguing that AI vendors exercising control over hiring decisions can be directly liable under anti-discrimination laws. That argument is finding traction. It means the vendor - not just the employer - can be held responsible if an AI tool they designed produces unlawfully discriminatory outcomes.
+The EEOC in the US filed an amicus brief in April 2024 supporting plaintiffs in an AI hiring discrimination case, arguing that AI vendors exercising control over hiring decisions can be directly liable under anti-discrimination laws. That argument is finding traction. It means the vendor - not just the employer - can be held responsible if an AI tool they designed produces unlawfully discriminatory outcomes.
 
 For businesses using AI in customer-facing contexts, the practical implication is that [the law expects you to understand what your tools are doing and to have controls in place](https://blueheadline.com/need-to-know/ai-liability-2026/). "We trusted the algorithm" is not an adequate response.
 

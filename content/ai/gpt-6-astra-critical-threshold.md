@@ -11,7 +11,7 @@ cover:
 
 ## TL;DR
 
-- OpenAI shipped **GPT-6 Astra** on 10 September 2026 - a full retrained frontier model that saturates **FrontierMath Tier 4** (98%) and **ARC-AGI-3** (99.9%), and hits a perfect **100% on ExploitBench**
+- OpenAI shipped **GPT-6 Astra** on 3 September 2026 - a full retrained frontier model that saturates **FrontierMath Tier 4** (98%) and **ARC-AGI-3** (99.9%), and hits a perfect **100% on ExploitBench**
 - Astra is the first OpenAI model to cross the **Critical threshold for cybersecurity** under the company's Preparedness Framework, and it discovered **two previously unknown zero-days** during its own evaluation
 - Against the current field - **GPT-5.6 Sol**, **Claude Fable 5.1**, **Claude Opus 5**, **Gemini 3.8 Flash** - Astra leads on coding, computer use, and professional-work benchmarks, usually at meaningfully lower token cost
 - OpenAI's response to the cyber jump is **Daybreak**, a gated program that will roll out *less restrictive* safeguards to vetted defenders - the same shape of deployment Anthropic used for Mythos, and the one the US government pulled apart in June

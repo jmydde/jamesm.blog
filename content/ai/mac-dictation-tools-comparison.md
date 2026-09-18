@@ -34,7 +34,7 @@ If you record meetings, lectures, or interviews and want the transcript, use Mac
 | Product | Free tier | Monthly | Annual | Lifetime | Model location |
 | --- | --- | --- | --- | --- | --- |
 | MacWhisper | Yes (Tiny/Base/Small) | - | - | $79.99 Pro | On-device |
-| Wispr Flow | 14-day Pro trial | $15 | $144 ($12/mo) | - | Cloud |
+| Wispr Flow | Free (Basic, 2,000 words/week) | $15 | $144 ($12/mo) | - | Cloud |
 | Superwhisper | Yes (small local models) | $8.49 | $84.99 | $249.99 | On-device (cloud optional) |
 
 Students get Wispr Flow Pro for $10/month with a .edu email. Superwhisper's lifetime price has been moving around in 2026 - [a few sources](https://www.blazingfasttranscription.com/blog/superwhisper-pricing) report increases beyond the $249.99 sticker, so check the checkout page before assuming.
@@ -75,7 +75,7 @@ MacWhisper is not a system-wide dictation replacement. It has a dictation mode, 
 
 Wispr Flow sends your audio to the cloud. It runs on third-party AI infrastructure (including OpenAI and Meta services) and the company is [transparent about that](https://docs.wisprflow.ai/). If your work involves NDAs, client data, or anything you would not paste into ChatGPT, this is a real constraint. HIPAA compliance is available for Enterprise customers, which tells you how they think about the tradeoff.
 
-**Pricing:** 14-day free Pro trial, no card needed. Then $15/month or $144/year ($12/month annual). Students pay $10/month.
+**Pricing:** Free Basic plan, no card needed, capped at 2,000 words/week on desktop (1,000/week on iPhone) - some new signups get a Pro trial instead. Pro is $15/month or $144/year ($12/month annual) for unlimited words. Students pay $10/month.
 
 **Best for:** Knowledge workers, customer support teams, salespeople, lawyers drafting routine correspondence. Anyone whose job is typing words into boxes all day and whose content is not sensitive.
 

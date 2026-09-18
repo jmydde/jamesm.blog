@@ -17,7 +17,7 @@ cover:
 - Professions built on credentialing (law, medicine, engineering) are being forced to confront that their proxies for expertise never measured the thing they cared about
 - New models of assessment - **portfolio-based credentialing**, apprenticeship, outcomes tracking, and community reputation - will replace exams, but none of them scale as easily
 
-In 2023, Claude passed the bar exam. In 2024, it passed the CPA exam and medical licensing exams. By 2026, there's barely an exam left that AI can't pass, often on the first try.
+In 2023, GPT-4 scored around the 90th percentile on a simulated bar exam and passed a simulated CPA exam. By 2026, there's barely an exam left that AI can't pass, often on the first try.
 
 This has broken something we relied on without thinking too hard about it: the equivalence between "passed the exam" and "has expertise."
 

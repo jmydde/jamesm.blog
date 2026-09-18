@@ -12,7 +12,7 @@ cover:
 ## TL;DR
 
 - **Career-Ops** is an open-source tool built on Claude Code that inverts the job search power dynamic - giving candidates AI-powered evaluation and application tools to match what companies use to filter them
-- Each opportunity is scored across 10 weighted dimensions on an A-F scale, producing a structured comparison that replaces the ad hoc spreadsheet most candidates rely on
+- Each individual opportunity gets a holistic 1-5 score across five dimensions (role match, "North Star" alignment, compensation, cultural signals, red flags) via a structured A-H block evaluation, and the system recommends against applying below 4.0; when comparing multiple offers side by side, a separate mode ranks them across ten weighted dimensions
 - The system generates **ATS-optimized resumes** dynamically tailored to each job description and auto-discovers new postings from 45+ pre-configured job boards
 - A key design principle is human-in-control: nothing auto-submits, the AI recommends and the candidate decides, making it a decision-support system rather than an automation
 - Career-Ops is a clean example of the broader pattern of AI tools that amplify individual judgment rather than replace it - worth studying for its architecture as much as its use case
@@ -31,7 +31,7 @@ Career-Ops operates as a structured pipeline that moves jobs from discovery thro
 
 **Structured Evaluation**
 
-Each opportunity gets scored across 10 weighted dimensions (role fit, compensation, growth potential, team stability, interview burden, location flexibility, and others) on an A-F scale. This produces a comparable 6-block evaluation covering role fit, compensation research, interview preparation strategy, and personalization approach. It's the spreadsheet comparison you'd do manually, but standardized and AI-powered.
+Each opportunity gets evaluated through a structured A-H block pipeline - role summary, CV match, level strategy, compensation research, personalization plan, interview prep, and a posting-legitimacy check - and rolled up into a holistic 1-5 score across five weighted dimensions: role/CV match, "North Star" career alignment, compensation, cultural signals, and red flags. Anything scoring below 4.0 the system recommends skipping. When you want to compare several offers side by side rather than evaluate one in isolation, a separate ranking mode scores them across ten weighted dimensions instead, led by North Star alignment (25%). It's the spreadsheet comparison you'd do manually, but standardized and AI-powered.
 
 **Intelligent Application**
 

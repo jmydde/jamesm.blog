@@ -17,7 +17,7 @@ cover:
 - Batch generation produces up to eight images from one prompt with **consistent characters and style** across all of them, solving a long-standing problem for narrative and sequential content
 - The overall shift is from toy to tool: outputs are more predictable, less stylistically over-processed, and viable for production work rather than just prototyping
 
-A year ago, OpenAI's image generation went viral for Studio Ghibli portraits. That was GPT Image 1 - impressive, playful, and fundamentally still a party trick. ChatGPT Images 2.0, released on April 22nd 2026, is a different thing entirely. It's the version that starts to look genuinely useful.
+A year ago, OpenAI's image generation went viral for Studio Ghibli portraits. That was GPT Image 1 - impressive, playful, and fundamentally still a party trick. ChatGPT Images 2.0, released on April 21st 2026, is a different thing entirely. It's the version that starts to look genuinely useful.
 
 ## It Thinks Before It Draws
 
@@ -74,7 +74,7 @@ The enthusiasm for Images 2.0 comes from a simple shift: it feels like a tool ra
 
 Images 2.0 is more predictable. The thinking mode means complex requests get properly processed rather than roughly approximated. The text rendering means you're not spending time manually fixing signs and labels in post. The batch consistency means multi-image projects don't require regenerating everything when one image is off.
 
-Sam Altman described the release as "a huge leap, equivalent to jumping directly from GPT-3 to GPT-5 all at once." That's obviously promotional, but the underlying point is fair - this isn't a minor upgrade. The combination of reasoning, web search, consistent batch generation, and reliable text rendering represents a qualitative shift in what the tool can do.
+Sam Altman described the release as "a huge step forward - it's like going from GPT-3 to GPT-5 all at once." That's obviously promotional, but the underlying point is fair - this isn't a minor upgrade. The combination of reasoning, web search, consistent batch generation, and reliable text rendering represents a qualitative shift in what the tool can do.
 
 The thinking mode is currently exclusive to paid tiers. The base model improvements are available to all ChatGPT users. If you're on a paid plan and haven't tried it yet, the infographic and multi-scene capabilities are worth exploring - they're the clearest demonstration of how much has changed.
 

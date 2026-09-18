@@ -73,7 +73,7 @@ The M4 Max has better memory bandwidth than the DGX Spark (410-546 GB/s vs 273 G
 
 If the M4 Max is impressive, the M3 Ultra is Apple's flagship for pro users. It fuses two M3 Max chips together via UltraFusion:
 
-> **Availability update (July 2026):** Apple quietly discontinued the 256GB and 512GB M3 Ultra configurations in March 2026 amid memory chip supply issues, and raised the 96GB model's price from $3,999 to $5,299. New units now cap at 96GB - the big-memory configs below are refurbished/second-hand only until the M5 Ultra arrives. See [MacRumors' coverage](https://www.macrumors.com/2026/06/25/m5-ultra-mac-studio-2026/) for details.
+> **Availability update (July 2026):** Apple quietly discontinued only the **512GB** M3 Ultra memory option in March 2026 amid a global DRAM shortage, capping new orders at 256GB, and raised the 96GB-to-256GB upgrade price from $1,600 to $2,000. The 96GB base price is unchanged at $3,999. The 512GB configurations below are no longer purchasable new - only refurbished/second-hand - until supply improves or the M5 Ultra arrives. See [MacRumors' coverage](https://www.macrumors.com/2026/03/05/mac-studio-no-512gb-ram-upgrade/) for details.
 
 **Base Configuration ($3,999):**
 - **CPU:** 28-core (24 performance + 4 efficiency cores)

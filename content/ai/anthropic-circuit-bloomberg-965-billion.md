@@ -45,7 +45,7 @@ This is the part of the Bloomberg episode that matters most. Not because the spe
 
 The sequence of events: In July 2025, the Department of Defense awarded Anthropic a roughly $200 million contract, making Claude the first frontier AI system cleared for classified military use. Anthropic agreed on the condition that its models would not be used for fully autonomous weapons systems or mass surveillance. That condition held for several months.
 
-Starting in January 2026, the Pentagon pushed for unrestricted use. Anthropic refused. In February, the DoD used Claude in its Venezuela intervention and Anthropic threatened to walk away from the contract. The Trump administration responded by [designating Anthropic as a national security supply chain risk](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute) - a designation that would effectively bar it from federal contracting entirely.
+Starting in January 2026, the Pentagon pushed for unrestricted use. Anthropic refused. The DoD used Claude in its Venezuela intervention that same month, though the story didn't break publicly until mid-February, when Anthropic threatened to walk away from the contract. The Trump administration responded by [designating Anthropic as a national security supply chain risk](https://en.wikipedia.org/wiki/Anthropic%E2%80%93United_States_Department_of_Defense_dispute) - a designation that would effectively bar it from federal contracting entirely.
 
 Anthropic sued. In March, Federal Judge Rita F. Lin granted a preliminary injunction against the government, writing that the DoD had designated Anthropic as a supply chain risk because of its "hostile manner through the press" - and that punishing a company for public scrutiny of a government position is "classic illegal First Amendment retaliation." The appeals court upheld the designation for covered systems in April, so the litigation continues. The Pentagon has since signed AI contracts with Google, OpenAI, and xAI - companies that did not insist on the same guardrails.
 
@@ -67,7 +67,7 @@ Dario revealed in the episode that he has only one direct report: his chief of s
 
 ## The IPO Question
 
-[Anthropic confidentially filed its S-1](https://fortune.com/2026/06/02/anthropic-confidential-s-1-ai-ipo-race/) with regulators on June 2, 2026. Confidential means no public financial disclosure yet and no committed timeline. It could be summer 2026, autumn, or withdrawn entirely.
+[Anthropic confidentially filed its S-1](https://fortune.com/2026/06/02/anthropic-confidential-s-1-ai-ipo-race/) with regulators on June 1, 2026. Confidential means no public financial disclosure yet and no committed timeline. It could be summer 2026, autumn, or withdrawn entirely.
 
 The signal matters regardless of timing. An S-1 filing means the company has reached the point where public markets become a plausible next step. At $965 billion, Anthropic would be one of the largest technology IPOs in history if it proceeds. The more interesting question is what happens to the safety-first mission once quarterly earnings calls become part of the governance structure. Public companies face different pressures than private ones. The public benefit corporation structure helps, but it has never been tested at this scale.
 

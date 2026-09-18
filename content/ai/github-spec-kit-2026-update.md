@@ -48,7 +48,7 @@ For teams already using Cursor, Copilot, or Claude Code, this feels almost magic
 
 The real story isn't just Spec Kit itself. The ecosystem around it has exploded:
 
-- **AWS Kiro** - A dedicated spec-driven development IDE launched in early 2026
+- **AWS Kiro** - A dedicated spec-driven development IDE that launched in preview in July 2025 and reached general availability in November 2025
 - **Tessl** - Pushing the boundary toward "spec-as-source," treating specs as the primary artifact
 - **IBM's Spec Kit Adaptation** - Infrastructure-as-code now uses the same SDD methodology
 - **Community Catalog** - Five new lifecycle extensions added in the latest release cycle

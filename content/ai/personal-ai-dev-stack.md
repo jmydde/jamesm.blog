@@ -127,7 +127,7 @@ An iPhone connects over Tailscale VPN to a MacBook Air. The MacBook runs tmux or
 | Quick completions | Ollama (Llama 3.3 or Qwen 2.5 Coder) | Instant, local, free | Free |
 | Research + facts | [Perplexity](https://www.perplexity.ai/) | Built-in web search, citations | Free / Pro |
 | Image generation | [Grok](https://x.com/i/grok) or [Gemini](https://gemini.google.com/) | Fast visual reasoning | Variable |
-| Debugging | [Claude Opus 4.7](https://www.anthropic.com/claude) | Strongest at error analysis | $0.015-0.06/task |
+| Debugging | [Claude Opus 4.6](https://www.anthropic.com/claude) | Strongest at error analysis | $0.015-0.06/task |
 | Long-context tasks | Claude Sonnet 4.6 | 200K+ token window | $0.003-0.015/task |
 | Cheap batch tasks | [Claude Haiku 4.5](https://www.anthropic.com/claude) | Fastest Claude model, low cost | $0.001-0.005/task |
 
@@ -147,7 +147,7 @@ An iPhone connects over Tailscale VPN to a MacBook Air. The MacBook runs tmux or
 
 For fast tasks (under a 30-second deadline), set your primary model to Ollama (local and instant) with a cheap hosted backup via OpenRouter, such as [GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) or Claude Haiku 4.5.
 
-For complex tasks without a time limit, set your primary to Claude Opus 4.7 for best reasoning, and use a second frontier model (such as GPT-5 or Gemini 2.5 Pro) as a fallback for a second opinion.
+For complex tasks without a time limit, set your primary to Claude Opus 4.6 for best reasoning, and use a second frontier model (such as GPT-5 or Gemini 2.5 Pro) as a fallback for a second opinion.
 
 ---
 

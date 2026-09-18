@@ -1,0 +1,39 @@
+---
+description: Fact-check real-world claims before publishing news-style posts
+globs: content/**/*.md
+alwaysApply: false
+---
+
+# Verify Before Publishing
+
+This blog reports on real, currently-unfolding events - AI model releases, corporate
+actions, government/policy actions, lawsuits, incidents. It is not speculative
+fiction, even when a post covers a company, product, or model name that sounds
+unfamiliar or futuristic. This blog moves faster than any fixed knowledge cutoff -
+search first, never assume something is fictional because you don't recognise it.
+
+Before setting `draft: false` on any post that describes a specific real-world
+event, quote, statistic, or action attributed to a real, identifiable company,
+person, or government body:
+
+1. **Web search to confirm the event actually happened.** Never invent a
+   plausible-sounding continuation of a story and publish it as fact.
+2. **Never invent quotes.** Every quoted sentence attributed to a real person
+   or organisation must come from a source you actually read.
+3. **Never invent citation URLs.** Every link in a `## Sources` section must be
+   a URL you fetched or found via search - not one constructed to look
+   plausible (e.g. guessing a company's blog URL pattern).
+4. **If a claim can't be verified, don't publish it as fact.** Leave the post
+   as `draft: true`, cut the unverifiable claim, or explicitly frame it as your
+   own speculation in the body text.
+5. **Vague, unattributed trend claims count too.** "People are saying...",
+   "it's going viral because...", "the reaction has been..." need the same
+   scrutiny as a direct quote - either point to a real, checkable source, or
+   frame it explicitly as your own read rather than reported fact.
+6. **Check the post's own `date` field is not in the future** relative to now
+   - Hugo silently excludes future-dated posts from the build, which can hide
+   a publish mistake instead of surfacing it.
+
+If proper sourcing takes real research, that's fine: draft with `draft: true`,
+research it properly, then flip to `false` once every factual claim traces to
+something actually verified.

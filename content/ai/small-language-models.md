@@ -13,7 +13,7 @@ cover:
 
 - **Small language models** (typically under 15B parameters) trained on high-quality data can match or outperform much larger models on many real-world tasks, thanks to distillation, instruction tuning, and quantization
 - The key advantages are speed (milliseconds vs seconds), cost (no per-token API charges), **privacy** (data stays on your hardware), and offline capability
-- Standout models include Mistral 7B for speed, Phi-3 for edge devices, and OpenClaw for code and reasoning - all usable locally via Ollama
+- Standout models include Mistral 7B for speed, Phi-3 for edge devices, and Qwen2.5 Coder for code and reasoning - all usable locally via Ollama
 - The industry is moving toward a **multi-tier approach**: small models (7-13B) for 80% of workloads, medium models as a step-up, and large models reserved only for complex reasoning tasks where they genuinely outperform
 - Large models still win on deep multi-step reasoning, breadth of knowledge, and few-shot generalization - the shift is about matching model size to task, not replacing large models entirely
 
@@ -51,13 +51,13 @@ The practical reality became undeniable: for most real-world applications, you d
 
 **[TinyLlama](https://github.com/jzhang38/TinyLlama)**  -  1.1B parameters. Runs on phones, embedded systems, and the very edge. Not a replacement for larger models, but proof that the floor keeps moving.
 
-**[Openclaw](https://openclaw.ai/)**  -  The newcomer from GitHub and Anthropic partners, designed for code and reasoning. Strikes a balance between capability and efficiency that's making it increasingly popular in development workflows.
+**[Qwen2.5 Coder](https://github.com/QwenLM/Qwen2.5-Coder)**  -  Alibaba's code-focused small model line, with 7B and 14B variants that punch well above their parameter count on code generation and reasoning benchmarks. A common local pick where OpenClaw-style agent frameworks need something to run on top of.
 
 **[Dolphin](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b)**  -  Fine-tuned on Llama, optimized for instruction-following and reasoning. Popular in open-source communities for its performance relative to size.
 
 ## Where Small Models Excel
 
-**Code generation and analysis**  -  Mistral, Openclaw, and Phi are genuinely strong at code tasks. For IDE integration, real-time linting, or code review, a small model is often the right choice.
+**Code generation and analysis**  -  Mistral, Qwen2.5 Coder, and Phi are genuinely strong at code tasks. For IDE integration, real-time linting, or code review, a small model is often the right choice.
 
 **Content moderation**  -  Classify text, detect spam, identify toxicity. Small models trained on these tasks work faster and cheaper than asking a large model for every decision.
 

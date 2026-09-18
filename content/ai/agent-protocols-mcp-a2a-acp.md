@@ -14,8 +14,8 @@ cover:
 - The 2026 agent ecosystem has, while nobody was paying close attention, converged on three protocols that solve different problems and partly overlap: **MCP** (Model Context Protocol), **A2A** (Agent-to-Agent), and **ACP** (Agent Communication Protocol).
 - **MCP** is the model-to-tool protocol. It standardises how an agent talks to its tools, data sources, and local context. This is the one that has clearly won its layer.
 - **A2A** is the agent-to-agent protocol. It standardises how separately deployed agents discover each other, exchange tasks, and pass results. Adoption is growing but the picture is less settled.
-- **ACP** is the orchestration-and-runtime protocol. It standardises how an agent runtime exposes its lifecycle, state, and operations to the systems around it. Newer, more enterprise-focused, and not yet a clear winner.
-- The mental model: **MCP for tools, A2A for peers, ACP for the platform.** Build with all three in mind even if you only need one today.
+- **ACP** was a proposed orchestration-and-runtime protocol from IBM. **Update: it merged into A2A under the Linux Foundation in August 2025** and is no longer developed independently - kept here for context on what it set out to solve.
+- The mental model that still holds: **MCP for tools, A2A for peers (and, now, for the platform concerns ACP used to cover).**
 
 ## Why Protocols, Why Now
 
@@ -86,7 +86,9 @@ Multi-agent workflows across organisational or vendor boundaries. Agent marketpl
 
 ## ACP - Agent Communication Protocol
 
-[ACP](https://agentcommunicationprotocol.dev/) was introduced by IBM and the Linux Foundation in 2025 and lives in a different layer from the other two. Where MCP is model-to-tool and A2A is agent-to-agent, ACP is closer to **agent-to-runtime** or **agent-to-platform**.
+> **Correction (September 2026):** This section was written as if ACP were still an independent, actively-developing third protocol. It isn't anymore. On 29 August 2025 - before this post was even published - [IBM announced that ACP was merging into A2A under the Linux Foundation](https://lfaidata.foundation/communityblog/2025/08/29/acp-joins-forces-with-a2a-under-the-linux-foundations-lf-ai-data/), winding down independent ACP development and contributing its technology and team to A2A. BeeAI, ACP's reference implementation, has since migrated to A2A (`acp_sdk` → `beeai_sdk`). The comparison below is left for historical context on what ACP set out to do, but treat "ACP" today as absorbed into A2A rather than a live third option to evaluate separately.
+
+[ACP](https://agentcommunicationprotocol.dev/) was introduced by IBM and the Linux Foundation in 2025 and lived in a different layer from the other two. Where MCP is model-to-tool and A2A is agent-to-agent, ACP was closer to **agent-to-runtime** or **agent-to-platform**.
 
 ### What it does
 
@@ -101,9 +103,9 @@ ACP is more of an enterprise concern. The problem it solves is "I need to deploy
 
 ### Where ACP is in 2026
 
-ACP is the youngest of the three. Adoption is concentrated in enterprise platforms and is still building. The Linux Foundation home gives it credibility but credibility alone does not move adoption. What is going to determine ACP's trajectory over the next 12-18 months is whether the major commercial agent platforms standardise on it or roll their own equivalents.
+ACP no longer exists as an independent protocol - it merged into A2A under the Linux Foundation in August 2025, and its features and enterprise-runtime concerns are being folded into A2A's roadmap rather than developed separately. If you're evaluating "ACP" today, what you actually want to look at is A2A, plus whichever platform-specific runtime extensions have absorbed the lifecycle/observability concerns ACP used to own.
 
-I would call ACP **the most important protocol you can still afford to wait on**, with the caveat that if you are building enterprise agent infrastructure, you cannot wait on it.
+The lesson from ACP's trajectory: **the Linux Foundation home and a credible original sponsor (IBM) weren't enough to sustain a third, separately-governed protocol once its problem space overlapped heavily with an already-winning one.** Consolidation, not proliferation, is what happened here.
 
 ### Where ACP fits
 
