@@ -23,12 +23,17 @@
   }
 </style>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT"></script>
+<!-- Google tag (gtag.js) - skipped for navigator.webdriver clients (Selenium/Playwright/etc.) to keep headless crawler traffic out of GA -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  if (!navigator.webdriver) {
+    var gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-LTL3NQVCDT';
+    document.head.appendChild(gaScript);
 
-  gtag('config', 'G-LTL3NQVCDT');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LTL3NQVCDT');
+  }
 </script>
