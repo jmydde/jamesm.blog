@@ -51,6 +51,7 @@ You can find more of my work on [SoundCloud](https://soundcloud.com/jamesm).
 
 ## Related Reading
 
+- [My Tracks - September 2026](/music-production/my-tracks-2026-09/)
 - [My Tracks - July 2026](/music-production/my-tracks-2026-07/)
 - [My Tracks - June 2026](/music-production/my-tracks-2026-06/)
 - [My Tracks - May 2026](/music-production/my-tracks-2026-05/)
