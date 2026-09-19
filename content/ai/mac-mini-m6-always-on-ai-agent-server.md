@@ -1,21 +1,22 @@
 ---
 title: "Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server"
-date: 2026-09-19T05:00:00+01:00
+date: 2026-09-19T06:20:00+01:00
 draft: false
-tags: ["ai", "agent", "hermes", "deepseek", "claude", "mac-mini", "hardware", "local-llm"]
-description: "Why I ended up choosing a Mac mini M6 (24GB) over a Mac Studio for an always-on AI agent server - and why the deciding factor wasn't local inference power at all, but cheap cloud routing through Hermes, DeepSeek, and Claude."
+tags: ["ai", "agent", "hermes", "deepseek", "claude", "claude-code", "mac-mini", "hardware", "local-llm", "docker", "ollama", "mcp", "postgres", "observability"]
+description: "Why I ended up choosing a Mac mini M6 (24GB) over a Mac Studio for an always-on AI agent server - and why the deciding factor wasn't local inference power at all, but cheap cloud routing through Hermes, DeepSeek V4.1 Flash, and Claude Sonnet 5."
 cover:
-  image: /assets/images/ai/mac-mini-m6-hermes-agent-infographic.png
-  alt: Infographic showing the Mac mini M6 hardware and software setup on the left and the Hermes model-routing decision flow with DeepSeek and Claude pricing on the right
+  image: /assets/images/ai/mac-mini-m6-hermes-agent-infographic.jpg
+  alt: Infographic of the always-on Hermes AI agent server - Mac mini M6 hardware and software on the left, Hermes routing policy with DeepSeek V4.1 Flash and Claude Sonnet 5 on the right
 ---
 
 ## TL;DR
 
-- **Goal:** a small, silent, always-on machine that runs [Hermes Agent](https://hermes-agent.nousresearch.com/) ([GitHub](https://github.com/nousresearch/hermes-agent), [my review](/ai/hermes-agent/)), MCP servers, and automations independently of my laptop.
+- **Goal:** a small, silent, always-on machine that runs [Hermes Agent](https://hermes-agent.nousresearch.com/) ([GitHub](https://github.com/nousresearch/hermes-agent), [my review](/ai/hermes-agent/)) as a coordinator, with [Claude Code](https://claude.com/claude-code), [Codex](https://github.com/openai/codex), MCP servers, and automations independently of my laptop.
 - **What I didn't need it to be:** a local inference workstation. I looked seriously at a Mac Studio and other machines capable of running 70B-class models, and talked myself out of it.
 - **What I bought instead:** a **Mac mini M6, 24GB unified memory, 512GB SSD** (~£1,299) - enough headroom for containers, browsers, and small local models, not enough (or intended) to run frontier-class weights locally.
-- **The routing policy:** small local model → [DeepSeek V4 Flash](https://api-docs.deepseek.com/quick_start/pricing) → DeepSeek V4 Pro → Claude Sonnet, cheapest capable model first.
-- **The number that changed my mind:** DeepSeek's off-peak output pricing is cents per million tokens. A realistic monthly routing mix comes out under $10, which is a lot cheaper than the electricity and depreciation on a GPU rig.
+- **The routing policy:** small local model → [DeepSeek V4.1 Flash](https://api-docs.deepseek.com/quick_start/pricing) → [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5), cheapest capable model first.
+- **The software layer:** Homebrew, GitHub CLI, Docker, Tailscale, tmux, and the usual Unix primitives on day one; Ollama, Playwright, Postgres, Qdrant, and Paperless next; observability and encrypted backups once agents are actually running unattended.
+- **The number that changed my mind:** DeepSeek V4.1 Flash off-peak output is $0.60 per million tokens. Claude Pro is already $20/month (~£20). Electricity is £2-£4. A realistic month is a few dollars of DeepSeek on top of a subscription I already pay for.
 - **The line I keep coming back to:** own the agent, rent the intelligence.
 
 I've been experimenting with AI agents, coding assistants, and different models for a while now, but one problem kept coming up: my workflows were still tied to my laptop. Close the lid, and every agent, every scheduled job, every long-running task dies with it.
@@ -24,7 +25,7 @@ I wanted a small, silent computer that sits at home, runs 24/7, and acts as a pe
 
 I'd been circling the idea of a proper local inference box for a while - the kind of machine that could run a genuinely large model at home. After actually pricing that route out, I landed somewhere much simpler:
 
-> **Mac mini M6 (24GB) + Hermes Agent + DeepSeek V4 Flash/Pro + Claude Sonnet**
+> **Mac mini M6 (24GB) + Hermes Agent + Codex / Claude Code + DeepSeek V4.1 Flash + Claude Sonnet 5**
 
 The interesting part isn't the shopping list. It's why I talked myself out of the bigger machine.
 
@@ -36,18 +37,19 @@ My main requirement wasn't local AI inference. It was **AI orchestration**.
 
 I wanted a dedicated machine capable of continuously running:
 
-- [Hermes Agent](/ai/hermes-agent/)
+- [Hermes Agent](/ai/hermes-agent/) as the coordinator, with [Claude Code](https://claude.com/claude-code) and [Codex](https://github.com/openai/codex) doing the actual coding work
 - Docker containers
 - [MCP servers](https://modelcontextprotocol.io/)
-- Python and Node.js
-- Git repositories
+- Python (via [uv](https://docs.astral.sh/uv/)) and Node.js
+- Git repositories plus the [GitHub CLI](https://cli.github.com/)
 - Playwright / browser automation
 - PostgreSQL and Redis
 - A vector database such as [Qdrant](https://qdrant.tech/)
 - Scheduled jobs
 - Tailscale and SSH for remote access
-- Small local models where useful
+- Small local models where useful, served by [Ollama](https://ollama.com/)
 - Multiple cloud AI providers
+- Encrypted backups and a health-check layer once agents are running unattended
 
 That machine becomes the **body** of the AI system. The cloud models provide most of the **intelligence**. That distinction changes the hardware requirements completely - and it's the thing I got wrong on my first pass at this.
 
@@ -57,8 +59,8 @@ That machine becomes the **body** of the AI system. The cloud models provide mos
 
 **Apple Mac mini M6**
 
-- M6, 12-core CPU, 12-core GPU, 16-core Neural Engine
-- **24GB unified memory**
+- M6, 12-core CPU (2 super / 4 performance / 6 efficiency), 12-core GPU, Dual 16-core Neural Engine
+- **24GB unified memory**, up to 170GB/s memory bandwidth
 - **512GB SSD**
 - 2.5Gb Ethernet, Wi-Fi 7, Bluetooth 6
 - macOS
@@ -144,7 +146,7 @@ I'm not against local frontier-class inference on principle - I just can't justi
 
 ### The bet I'm making instead
 
-I wrote about this properly in [The Day I Stop Chasing Better AI: When Frontier Models Come Home](/ai/frontier-models-come-home/): my guess is that somewhere around 2029-2031, the capability of *today's* frontier cloud models becomes cheap enough to run permanently on desktop-class hardware. When that happens, a local machine won't need to chase whatever the frontier is at that point - it just needs to match what Claude Sonnet or DeepSeek V4 Pro can already do today, which will look increasingly modest as hardware and smaller/smarter models both improve.
+I wrote about this properly in [The Day I Stop Chasing Better AI: When Frontier Models Come Home](/ai/frontier-models-come-home/): my guess is that somewhere around 2029-2031, the capability of *today's* frontier cloud models becomes cheap enough to run permanently on desktop-class hardware. When that happens, a local machine won't need to chase whatever the frontier is at that point - it just needs to match what Claude Sonnet 5 or DeepSeek V4.1 Flash can already do today, which will look increasingly modest as hardware and smaller/smarter models both improve.
 
 So the Mac mini isn't a rejection of local inference, it's a deferral. Right now, cheap cloud models make a big local-inference machine hard to justify. In a few years, I expect that trade to flip - at which point the sensible move is to buy the local hardware once it can match today's cloud frontier for a fraction of the cost, rather than buying it now while it's still catching up.
 
@@ -152,51 +154,43 @@ So the Mac mini isn't a rejection of local inference, it's a deferral. Right now
 
 ## Cloud AI Changes the Economics
 
-The deciding factor was [DeepSeek's](https://www.deepseek.com/) API pricing. It makes genuinely capable inference remarkably cheap - cheap enough that I stopped thinking of "AI compute" as something I need to own outright, and started treating it more like a utility. Hermes can just pick the appropriate model for each task:
+The deciding factor was [DeepSeek's](https://www.deepseek.com/) API pricing. [V4.1 Flash](https://api-docs.deepseek.com/news/news260910) shipped in September 2026 as `deepseek-flash` - native vision, 1M context, tool calling, and cheaper than the V4 Flash it replaced. It makes genuinely capable inference cheap enough that I stopped thinking of "AI compute" as something I need to own outright, and started treating it more like a utility. Hermes picks the appropriate model for each task:
 
 ```text
 Small local model
        ↓
-DeepSeek V4 Flash
+DeepSeek V4.1 Flash
        ↓
-DeepSeek V4 Pro
-       ↓
-Claude Sonnet
+Claude Sonnet 5
 ```
 
-Each tier is progressively more capable and is only used when the tier below it isn't enough.
+Each tier is only used when the tier below it isn't enough. DeepSeek still lists V4 Pro on the API, but it isn't in this routing path - V4.1 Flash is the default workhorse, and Sonnet 5 is the independent frontier opinion.
 
-### Tier 1: local
+### Local models (on the Mac mini)
 
-Small models like Qwen 8B or Qwen 14B still run fine on the Mac mini - not to compete with Claude or DeepSeek Pro, but for classification, extraction, simple SQL, routing decisions, local RAG, and anything that should stay private or work offline. Cost per token here is £0, electricity aside.
+Small models like Qwen 8B, Qwen 14B, or Granite 8B still run fine on the Mac mini - not to compete with Claude or DeepSeek, but for classification, extraction, simple SQL, routing decisions, local RAG, and anything that should stay private or work offline. Roughly 40-70 tok/s on an 8B and 25-40 tok/s on a 14B, depending on quantisation. Cost per token here is £0, electricity aside.
 
-### Tier 2: DeepSeek V4 Flash
+**Best for:** simple, repetitive, private, or offline tasks.
 
-This is the default cloud workhorse - where most everyday coding, reasoning, and agent work should land. Current pricing (per [DeepSeek's API pricing page](https://api-docs.deepseek.com/quick_start/pricing)):
+### DeepSeek V4.1 Flash (default workhorse)
 
-| V4 Flash | Off-Peak | Peak |
+This is where most everyday coding, reasoning, and agent work should land. 1M context, tool calling, vision, max output 384K. API throughput is roughly 100-300 tok/s depending on load. Current pricing (per [DeepSeek's API pricing page](https://api-docs.deepseek.com/quick_start/pricing)):
+
+| V4.1 Flash (per 1M tokens) | Off-Peak | Peak |
 |---|---:|---:|
-| Cached input / 1M tokens | $0.007 | $0.014 |
-| Uncached input / 1M tokens | $0.22 | $0.44 |
-| Output / 1M tokens | **$0.66** | **$1.32** |
+| Input (cache hit) | $0.003 | $0.006 |
+| Input (cache miss) | $0.15 | $0.30 |
+| Output | **$0.60** | **$1.20** |
 
-DeepSeek's peak window is 01:00-04:00 and 06:00-10:00 UTC, Monday to Friday; everything else is off-peak.
+DeepSeek's peak window is 01:00-04:00 and 06:00-10:00 UTC, Monday to Friday, excluding Chinese public holidays. Weekends, those holidays, and every other weekday hour are off-peak at half the peak rate.
 
-### Tier 3: DeepSeek V4 Pro
+**Best for:** most everyday coding, reasoning, and agent tasks.
 
-For harder reasoning and agentic work, roughly triple the Flash price:
+### Claude Sonnet 5 (escalation / second opinion)
 
-| V4 Pro | Off-Peak | Peak |
-|---|---:|---:|
-| Cached input / 1M tokens | $0.022 | $0.044 |
-| Uncached input / 1M tokens | $0.66 | $1.32 |
-| Output / 1M tokens | **$1.98** | **$3.96** |
+I already pay for [Claude Pro](https://www.anthropic.com/pricing) at $20/month (~£20), so [Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) becomes the final escalation - for when DeepSeek struggles, a coding problem is genuinely hard, the task is high-risk, or I want a second opinion from a different model family. API list price is $2 / $10 per million input/output tokens; Pro covers the Sonnet 5 usage on this box unless I blow past the subscription limits. Context is up to 1M tokens with a 128K max output.
 
-Three times a very small number is still a small number - a million output tokens off-peak on Pro is under $2.
-
-### Tier 4: Claude Sonnet
-
-I already pay for [Claude Pro](https://www.anthropic.com/pricing) at $20/month, so Sonnet becomes the final escalation - for when DeepSeek repeatedly struggles, a coding problem is genuinely hard, or I want a second opinion from a different model family. It doesn't need to process everything; it's another specialist Hermes can reach for.
+**Best for:** complex tasks, high risk, independent reasoning.
 
 ---
 
@@ -206,6 +200,7 @@ Rather than deciding manually which model handles a given request, Hermes makes 
 
 ```text
                     Incoming task
+                 (user / agent / schedule)
                           │
                           ▼
              Simple, repetitive, private,
@@ -214,24 +209,28 @@ Rather than deciding manually which model handles a given request, Hermes makes 
                    YES          NO
                     │           │
                     ▼           ▼
-             Local model   DeepSeek V4 Flash
+             Local model   DeepSeek V4.1 Flash
+             Qwen 8B/14B   (default workhorse)
+             Granite 8B
                     │           │
                     └─────┬─────┘
                           ▼
-                   Was it successful?
+              Failed, very difficult,
+                 or high risk?
                     │           │
-                   YES          NO
+                   NO          YES
                     │           │
                     ▼           ▼
-                  Finish   DeepSeek V4 Pro
+                  Finish   Claude Sonnet 5
                                 │
                                 ▼
-                         Was it successful?
+                       Still struggling, or
+                    want a second opinion?
                           │           │
                          YES          NO
                           │           │
                           ▼           ▼
-                        Finish   Claude Sonnet
+                 Second opinion     Finish
 ```
 
 The objective isn't to minimise cost for its own sake - it's to use the cheapest model that can reliably finish the task.
@@ -240,17 +239,26 @@ The objective isn't to minimise cost for its own sake - it's to use the cheapest
 
 ## What This Actually Costs
 
-Say Hermes generates 10 million output tokens in a month, split roughly:
+Output-only, off-peak, per [DeepSeek](https://api-docs.deepseek.com/quick_start/pricing) and [Anthropic](https://www.anthropic.com/pricing):
+
+| Model | 1M tokens | 10M tokens | 100M tokens |
+|---|---:|---:|---:|
+| Local (Qwen 8B/14B, Granite 8B) | £0 | £0 | £0 |
+| DeepSeek V4.1 Flash | $0.60 | $6.00 | $60.00 |
+| Claude Sonnet 5 (API) | $10.00 | $100.00 | $1,000.00 |
+
+I don't pay Sonnet 5 per token for this machine. Claude Pro at $20/month already includes it. A realistic mix is mostly Flash, with Sonnet 5 as escalation on that subscription:
 
 ```text
-80% DeepSeek Flash → 8M × $0.66  = $5.28
-15% DeepSeek Pro   → 1.5M × $1.98 = $2.97
-5% Local           → 0.5M         = $0.00
+80% DeepSeek V4.1 Flash → 8M × $0.60  = $4.80
+20% local / Claude Pro  → 2M           = $0.00 extra
+Claude Pro (already paid)              = $20.00
+Electricity (~10-15W, ~£2-£4)          ≈ $3.00
                                    --------
-                          Total ≈ $8.25/month (output only)
+                    Total ≈ $28/month  (~£21)
 ```
 
-Input costs are additional, and cached input is dramatically cheaper again. Even a pessimistic estimate leaves this well under the cost of a single additional SaaS subscription, let alone a GPU workstation. Electricity for the Mac mini itself is negligible next to running a GPU rig continuously - it's also silent, tiny, and low-heat, which matters more than benchmark numbers for a box that has to live under a desk permanently.
+A lighter month - a few million Flash tokens rather than 10M - lands closer to $22, which is essentially Claude Pro plus a couple of dollars of DeepSeek. Input costs are additional, and cached input on Flash is $0.003 per million off-peak. Either way this is well under the cost of a GPU workstation. Electricity for the Mac mini itself is negligible next to running a GPU rig continuously - it's also silent, tiny, and low-heat, which matters more than benchmark numbers for a box that has to live under a desk permanently.
 
 ---
 
@@ -262,39 +270,267 @@ With [Tailscale](https://tailscale.com/) and SSH, I can reach the Mac mini remot
 
 ---
 
+## Software and Tools
+
+The hardware is settled. Hermes plus Paperless is not enough of a software layer: "Docker, MCP, Python/Node" is the orchestration *idea*, not the actual stack an always-on agent server needs.
+
+Hermes should be the **coordinator**, not the thing doing every piece of work itself. Coding goes to Claude Code and Codex. Services, databases, and Paperless run in Docker. Small local models go through Ollama. Secrets stay out of `.env` files. And once agents are running unattended, I want to know they are still up without discovering three days later that a launchd job died.
+
+I'm not installing all of this on day one. The table is the target stack; the phases further down are the order.
+
+| Tool | Priority | What it's for |
+|---|---|---|
+| [Homebrew](https://brew.sh/) | Essential | Package management for everything that isn't a container |
+| Git + [GitHub CLI (`gh`)](https://cli.github.com/) | Essential | Repos, PRs, issues, Actions, auth - the biggest omission if this is going to be an autonomous development machine |
+| [Docker Desktop](https://www.docker.com/products/docker-desktop/) | Essential | Run services, MCP helpers, and databases without cluttering macOS |
+| [Tailscale](https://tailscale.com/) | Essential | Secure remote access without opening router ports |
+| [tmux](https://github.com/tmux/tmux) | Essential | Persistent terminal and admin sessions even if Hermes itself runs as a service |
+| [ripgrep](https://github.com/BurntSushi/ripgrep) (`rg`) | Essential | Fast repo search - the primitive agents actually use |
+| [jq](https://jqlang.github.io/jq/) + [yq](https://github.com/mikefarah/yq) | Essential | JSON/YAML manipulation for scripts and tool output |
+| [uv](https://docs.astral.sh/uv/) | Essential | Fast Python environments, so agents don't turn a global install into a dependency graveyard |
+| Node.js via [fnm](https://github.com/Schniz/fnm) | Essential | MCP servers, Playwright, JS tooling |
+| [Hermes Agent](https://hermes-agent.nousresearch.com/) ([GitHub](https://github.com/nousresearch/hermes-agent), [my review](/ai/hermes-agent/)) | Essential | Persistent coordinator: memory, routing, scheduled work |
+| [Claude Code](https://claude.com/claude-code) | Recommended | Coding agent Hermes can hand work to, rather than implementing every edit itself |
+| [Codex](https://github.com/openai/codex) | Recommended | Same idea from the OpenAI side; Hermes can optionally run Codex as a runtime underneath it |
+| [Ollama](https://ollama.com/) ([my write-up](/ai/ollama/)) | Recommended | Local Qwen and Granite models for private, cheap, or offline tasks |
+| [Playwright](https://playwright.dev/) | Recommended | Browser automation: logins, deploys, forms, screenshots, regression checks |
+| [Qdrant](https://qdrant.tech/) | Recommended | Vector / RAG memory, in Docker |
+| [PostgreSQL](https://www.postgresql.org/) | Recommended | Durable structured agent state and an audit trail, in Docker |
+| [Paperless-ngx](https://docs.paperless-ngx.com/) ([GitHub](https://github.com/paperless-ngx/paperless-ngx), [my write-up](/ai/paperless-ngx-self-hosted-document-management/)) | Recommended | Self-hosted document archive with OCR, in Docker |
+| [Restic](https://restic.net/) | Recommended | Encrypted backups. Time Machine is not enough for this box. |
+| [1Password CLI](https://developer.1password.com/docs/cli/) | Recommended | Agent-accessible secrets without plaintext `.env` files |
+| [Redis](https://redis.io/) | Later | Queues, locks, transient state, in Docker |
+| [Loki](https://grafana.com/oss/loki/) + [Grafana](https://grafana.com/) | Later | Agent and service logs once several things are running unattended |
+| [Uptime Kuma](https://uptime.kuma.pet/) | Later | Simple health checks with a phone alert when Hermes has been down for four minutes |
+| [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) | Optional | Expose a selected service without port forwarding. Tailscale covers me for almost everything. |
+
+If I sit down at the machine today, the first additional installs are `gh`, `uv`, `tmux`, `ripgrep`, `jq`, `yq`, `fzf`, Docker, Tailscale, Ollama, and Playwright. Postgres, Qdrant, Redis, and Paperless stay behind Docker rather than living on macOS itself.
+
+### Hermes as coordinator
+
+The machine is structured around Hermes handing work out, not swallowing it:
+
+```text
+Hermes
+   │
+   ├── Git
+   ├── GitHub CLI
+   ├── Claude Code
+   ├── Codex
+   ├── DeepSeek
+   ├── MCP
+   ├── Playwright
+   └── Docker
+```
+
+That is closer to a personal AI operating system than "a Mac running Hermes." It also matches how Hermes is actually evolving: it can optionally hand `openai/*` and `openai-codex/*` turns to the [Codex CLI app-server](https://hermes-agent.nousresearch.com/docs/user-guide/features/codex-app-server-runtime) instead of running its own tool loop. Native Codex plugins such as GitHub, Linear, Gmail, and Calendar then show up inside the Hermes session. Default Hermes behaviour is unchanged unless you opt in.
+
+[GitHub CLI](https://cli.github.com/) is the biggest day-one gap. With `gh auth login` in place, Hermes, Claude Code, and Codex can work with issues, pull requests, branches, releases, Actions, and code review instead of treating GitHub as a remote you only `git push` to.
+
+### Python, terminals, and boring Unix tools
+
+Python is [uv](https://docs.astral.sh/uv/), not a global Homebrew Python that every agent pollutes:
+
+```bash
+brew install uv
+uv python install 3.13
+```
+
+Each project gets its own environment. Agents do not inherit last month's dependency soup.
+
+[tmux](https://github.com/tmux/tmux) is the emergency/admin layer even if Hermes normally runs as a service:
+
+```text
+tmux
+├── hermes
+├── coding
+├── monitoring
+├── paperless
+└── maintenance
+```
+
+And the unglamorous CLI tools are extremely useful once an agent is exploring a repo or parsing tool output. On every agent machine I want `rg`, `fd`, `jq`, `yq`, and `fzf`; `bat` and `tree` come along for free:
+
+```bash
+brew install ripgrep jq yq fzf fd bat tree gh uv tmux
+```
+
+### Local models without becoming a local-inference workstation
+
+[Ollama](https://ollama.com/) goes on even though this is deliberately *not* a local-inference box. The 24GB is for small Qwen or Granite models doing classification, extraction, routing, simple SQL, and anything that should stay private or work offline - not for keeping an enormous model resident.
+
+```text
+Hermes
+   │
+   ├── Qwen 8B / Granite 8B  ← cheap / private / simple
+   │
+   ├── DeepSeek V4.1 Flash   ← normal work
+   │
+   └── Claude Sonnet 5       ← hardest / second opinion
+```
+
+That is a much better use of this machine than trying to run a 70B-class model continuously. I wrote about the Ollama setup itself in [Running AI Models Locally with Ollama](/ai/ollama/).
+
+### Browser automation as a first-class component
+
+[Playwright](https://playwright.dev/) is not a nice-to-have for a box that is meant to keep working while I am not looking. Login checks, deployment verification, form submission, screenshots, regression tests - those are jobs, not prompts. A nightly loop looks more like:
+
+```text
+Nightly
+   ↓
+Hermes
+   ↓
+Open a production site
+   ↓
+Check critical pages / login / forms
+   ↓
+Check errors
+   ↓
+Report anomalies
+```
+
+That is more useful than an LLM sitting idle waiting for the next chat.
+
+### Memory: four stores, not one vector database
+
+Qdrant stays in Docker. Postgres does too. I am not making a vector database the entire memory system.
+
+```text
+PostgreSQL
+    ↓
+facts / jobs / state / audit records
+
+Qdrant
+    ↓
+semantic memory / documents / previous investigations
+
+Git
+    ↓
+code / configuration / agent instructions
+
+Markdown
+    ↓
+human-readable knowledge
+```
+
+Postgres rather than SQLite for the core persistent services. For an autonomous agent the audit trail matters more than squeezing another few percent out of the model: what did you do, why, which model decided it, which tools ran, what changed. Tables along the lines of `agent_runs`, `agent_tasks`, `agent_events`, `agent_errors`, `approvals`, `scheduled_jobs`, `model_usage`, `model_cost`, and `security_events`.
+
+Paperless is the document half of that picture - OCR'd paperwork the agent can search, not rewrite. I go through the product itself in [Paperless-ngx](/ai/paperless-ngx-self-hosted-document-management/).
+
+### Secrets, backups, and (later) observability
+
+Once Hermes has real permissions, plaintext `.env` files full of API keys are the wrong shape. The goal is:
+
+```text
+Agent → approved secret → tool
+```
+
+not "read the entire `.env` and here are 27 credentials." [1Password CLI](https://developer.1password.com/docs/cli/) fits the confirmation-gate approach I already use in [Securing AI Agents](/ai/securing-ai-agents/).
+
+Backups are [Restic](https://restic.net/), encrypted, and not Time Machine alone. Local working data, an external copy, and an encrypted off-machine copy. At minimum: Hermes config and memory, agent instructions, project repos, Postgres dumps, Qdrant snapshots, and Paperless documents.
+
+Observability is the piece that can wait until several agents are actually running, and then becomes critical. Loki and Grafana for logs; Uptime Kuma watching Hermes, Postgres, Qdrant, Paperless, MCP endpoints, and anything customer-facing. The point is a phone alert that Hermes has been down for four minutes, not a forensic reconstruction three days later. I covered the Grafana/Loki side of this more generally in [Monitoring and Observability](/devops/monitoring/).
+
+```text
+                 ┌───────────────┐
+                 │    Hermes     │
+                 └───────┬───────┘
+                         │
+                ┌────────▼────────┐
+                │ Agent event log │
+                └────────┬────────┘
+                         │
+          ┌──────────────┼─────────────┐
+          ↓              ↓             ↓
+      PostgreSQL        Loki        metrics
+          │              │             │
+          └──────────────┼─────────────┘
+                         ↓
+                      Grafana
+```
+
+### Don't install everything at once
+
+**Phase 1 - foundation**
+
+```text
+Homebrew, Git, GitHub CLI, Tailscale, SSH, tmux,
+ripgrep, jq, yq, uv, Node.js, Docker
+```
+
+**Phase 2 - AI**
+
+```text
+Hermes, Claude Code, Codex, Ollama, Qwen, MCP servers
+```
+
+**Phase 3 - agent capabilities**
+
+```text
+Playwright, PostgreSQL, Qdrant, Redis, Paperless-ngx
+```
+
+**Phase 4 - autonomous infrastructure**
+
+```text
+launchd, Uptime Kuma, Grafana, Loki, Restic,
+automated backups, health checks, cost monitoring
+```
+
+---
+
 ## The Final Architecture
 
 ```text
-                        Internet
-                           │
-           ┌───────────────┼────────────────┐
-           ▼               ▼                ▼
-     DeepSeek Flash   DeepSeek Pro    Claude Sonnet
-           ▲               ▲                ▲
-           └───────────────┼────────────────┘
-                           │
-                    Hermes router
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-          Local LLM     MCP servers    Agents
-              │            │            │
-              └────────────┼────────────┘
-                           │
-                     Mac mini M6
-                     24GB / 512GB
-                           │
-        ┌──────────┬───────┼───────┬──────────┐
-        ▼          ▼       ▼       ▼          ▼
-      Docker    Browser   Git    Python     Databases
-                 tools           Node
+                         ┌──────────────┐
+                         │    HUMAN     │
+                         └──────┬───────┘
+                                │
+                         approval / goals
+                                │
+                         ┌──────▼───────┐
+                         │    HERMES    │
+                         │  coordinator │
+                         └──────┬───────┘
+                                │
+          ┌─────────────────────┼─────────────────────┐
+          │                     │                     │
+     ┌────▼────┐          ┌─────▼──────┐        ┌─────▼─────┐
+     │  Local  │          │  DeepSeek  │        │  Claude   │
+     │ Qwen /  │          │ V4.1 Flash │        │ Sonnet 5  │
+     │ Granite │          └────────────┘        └───────────┘
+     └─────────┘
+                                │
+                    ┌───────────┼───────────┐
+                    │           │           │
+                 Codex     Claude Code   Playwright
+                    │           │           │
+                    └───────────┼───────────┘
+                                │
+                     ┌──────────▼──────────┐
+                     │     Tool layer      │
+                     │ MCP / Git / GitHub  │
+                     │ Docker / APIs / SSH │
+                     └──────────┬──────────┘
+                                │
+             ┌──────────────────┼──────────────────┐
+             ↓                  ↓                  ↓
+          Postgres            Qdrant          Paperless
 ```
 
-The Mac provides the persistent execution environment. Hermes provides the orchestration. DeepSeek and Claude provide the intelligence. Local models provide privacy, speed, and offline capability.
+The Mac provides the persistent execution environment. Hermes coordinates. Codex and Claude Code do the coding. DeepSeek V4.1 Flash and Claude Sonnet 5 provide the intelligence. Local models provide privacy, speed, and offline capability. Postgres, Qdrant, and Paperless are the memory and document layer, all in Docker.
 
-Here's the setup laid out as one infographic - hardware and software on the left, the Hermes routing decision flow and DeepSeek pricing on the right:
+Here's the hardware and routing view as one infographic - Mac mini and local services on the left, the Hermes decision flow with DeepSeek V4.1 Flash and Claude Sonnet 5 on the right:
 
-![Infographic showing the Mac mini M6 hardware and software setup on the left, and the Hermes model-routing decision flow with DeepSeek/Claude pricing tables on the right](/assets/images/ai/mac-mini-m6-hermes-agent-infographic.png)
+![Infographic of the always-on Hermes AI agent server - Mac mini M6 hardware and software on the left, Hermes routing policy with DeepSeek V4.1 Flash and Claude Sonnet 5 pricing on the right](/assets/images/ai/mac-mini-m6-hermes-agent-infographic.jpg)
+
+Why this setup works:
+
+- Best-in-class cloud models for the money (DeepSeek V4.1 Flash / Claude Sonnet 5)
+- Local models for privacy, speed, and offline use
+- Smart routing keeps cost down without giving up quality
+- Mac mini M6 is silent, efficient, and built for 24/7
+- Predictable monthly running cost
 
 This is a work in progress and subject to change as the build evolves - worth checking back on this post for updates rather than treating it as final.
 
@@ -304,7 +540,7 @@ This is a work in progress and subject to change as the build evolves - worth ch
 
 I looked at cheaper Mac minis, high-end Mac minis, Mac Studios, a purpose-built Umbrel Home appliance, Ryzen AI Max mini PCs with huge unified memory pools, and a used RTX 3090/4090 built into its own GPU rig. I kept optimising the wrong variable.
 
-I don't need to own the AI compute. I need to own the orchestration layer. Cloud AI is improving fast enough that spending several thousand pounds today to replicate it locally risks buying hardware that's outclassed before it's paid for itself. The Mac mini gives me plenty of headroom for the part I actually want to own - agents, tools, memory, databases, automation, browsers, code, MCP, workflows - while the inference layer stays swappable. Today that's DeepSeek V4 Flash → Pro → Claude Sonnet. If something better or cheaper shows up, I change a routing config, not the hardware.
+I don't need to own the AI compute. I need to own the orchestration layer. Cloud AI is improving fast enough that spending several thousand pounds today to replicate it locally risks buying hardware that's outclassed before it's paid for itself. The Mac mini gives me plenty of headroom for the part I actually want to own - agents, tools, memory, databases, automation, browsers, code, MCP, workflows - while the inference layer stays swappable. Today that's DeepSeek V4.1 Flash → Claude Sonnet 5, with Claude Code and Codex as the coding workers underneath Hermes. If something better or cheaper shows up, I change a routing config, not the hardware.
 
 **Own the agent, rent the intelligence.** My files, tools, databases, automation, and agent state stay under my control on hardware I own. When an agent needs serious reasoning power, it borrows infrastructure far bigger than anything I'd reasonably install at home, for a few dollars a month.
 
@@ -313,12 +549,15 @@ I don't need to own the AI compute. I need to own the orchestration layer. Cloud
 ## Final Setup
 
 - **Hardware:** Mac mini M6, 24GB unified memory, 512GB SSD, ~£1,299 one-off
-- **Agent platform:** [Hermes Agent](https://hermes-agent.nousresearch.com/) by [Nous Research](https://www.nousresearch.com/), [open source on GitHub](https://github.com/nousresearch/hermes-agent)
-- **Local AI:** Qwen 8B/14B and similar small models, where appropriate
-- **Default cloud AI:** DeepSeek V4 Flash
-- **Advanced reasoning:** DeepSeek V4 Pro
-- **Frontier escalation:** Claude Sonnet (Claude Pro, $20/month, already paid for)
-- **Additional DeepSeek spend:** realistically a few dollars a month under normal use
+- **Coordinator:** [Hermes Agent](https://hermes-agent.nousresearch.com/) by [Nous Research](https://www.nousresearch.com/), [open source on GitHub](https://github.com/nousresearch/hermes-agent)
+- **Coding agents:** [Claude Code](https://claude.com/claude-code) and [Codex](https://github.com/openai/codex), with Hermes optionally using Codex's [app-server runtime](https://hermes-agent.nousresearch.com/docs/user-guide/features/codex-app-server-runtime)
+- **Local AI:** Qwen 8B/14B and Granite 8B via [Ollama](https://ollama.com/), where appropriate
+- **Default cloud AI:** DeepSeek V4.1 Flash (`deepseek-flash`)
+- **Frontier escalation:** Claude Sonnet 5 (Claude Pro, $20/month / ~£20, already paid for)
+- **Access:** [Tailscale](https://tailscale.com/) and SSH - no router ports opened
+- **Data:** PostgreSQL, Qdrant, and [Paperless-ngx](https://docs.paperless-ngx.com/) in Docker
+- **Secrets / backups:** [1Password CLI](https://developer.1password.com/docs/cli/) and [Restic](https://restic.net/)
+- **Running cost:** Claude Pro $20 + a few dollars of DeepSeek + £2-£4 electricity
 
 ---
 
@@ -326,14 +565,19 @@ I don't need to own the AI compute. I need to own the orchestration layer. Cloud
 
 I started this research expecting to end up buying a powerful local inference workstation. I ended up deciding almost the opposite: for an always-on agent server, the orchestrator doesn't need to be the intelligence. It needs to be reliable, quiet, efficient, and good at coordinating everything else - which is exactly what a small Mac mini is for.
 
-Small jobs stay local. Most serious work goes to DeepSeek Flash. Hard problems escalate to DeepSeek Pro. Claude stays available when I want a different frontier model in the loop. Rather than spending thousands trying to bring a datacentre into my house, I've built a small, efficient gateway into whichever models happen to be best at the time - which feels like a considerably more future-proof way to run an always-on personal AI system.
+Small jobs stay local. Most serious work goes to DeepSeek V4.1 Flash. Hard or high-risk problems escalate to Claude Sonnet 5. Coding work goes to Claude Code and Codex rather than making Hermes implement every edit. Rather than spending thousands trying to bring a datacentre into my house, I've built a small, efficient gateway into whichever models happen to be best at the time - which feels like a considerably more future-proof way to run an always-on personal AI system.
 
 This build is still evolving, so I'll keep this post updated as the setup changes.
 
 ## Related Reading
 
 - [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)
+- [Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem](/ai/securing-ai-agents/)
+- [Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6](/ai/mcp-servers-home-ai-agent/)
+- [Paperless-ngx: Self-Hosted Document Management Without the Vendor Lock-in](/ai/paperless-ngx-self-hosted-document-management/)
+- [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/)
 - [Which Mac Studio Should You Buy for Running LLMs Locally?](/ai/mac-studio-local-llm-guide/)
 - [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/)
 - [Local AI vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/)
 - [The Day I Stop Chasing Better AI: When Frontier Models Come Home](/ai/frontier-models-come-home/)
+- [Monitoring and Observability](/devops/monitoring/)
