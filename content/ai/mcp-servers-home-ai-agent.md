@@ -2,7 +2,6 @@
 title: "Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6"
 date: 2026-04-27T00:12:00+01:00
 draft: false
-type: guide
 tags: ["ai", "mcp", "mac-mini", "agent", "local-llm", "claude", "ollama", "agentic-engineering"]
 description: "The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac mini M6 to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability."
 cover:

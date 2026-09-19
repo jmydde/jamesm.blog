@@ -1,8 +1,7 @@
 ---
 title: "Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Server"
-date: 2026-09-03T07:00:00+01:00
+date: 2026-09-19T05:00:00+01:00
 draft: false
-type: guide
 tags: ["ai", "agent", "hermes", "deepseek", "claude", "mac-mini", "hardware", "local-llm"]
 description: "Why I ended up choosing a Mac mini M6 (24GB) over a Mac Studio for an always-on AI agent server - and why the deciding factor wasn't local inference power at all, but cheap cloud routing through Hermes, DeepSeek, and Claude."
 cover:

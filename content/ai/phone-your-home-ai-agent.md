@@ -2,7 +2,6 @@
 title: "How to Phone Your Home AI Agent Running on a Mac mini M6"
 date: 2026-04-27T21:48:00+01:00
 draft: false
-type: guide
 tags: ["ai", "mac-mini", "agent", "voice", "local-llm", "whisper"]
 description: "A practical walkthrough of the stack I use to literally phone my Mac mini, speak to a home AI agent, and get it to run or check work while I'm away from the desk."
 cover:

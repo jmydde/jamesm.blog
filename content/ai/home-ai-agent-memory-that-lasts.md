@@ -2,7 +2,6 @@
 title: "Giving Your Home AI Agent Memory That Lasts"
 date: 2026-04-22T19:30:00+01:00
 draft: false
-type: guide
 tags: ["ai", "memory", "mac-mini", "agent", "local-llm", "rag", "claude"]
 description: "An agent with tools but no memory forgets you every morning. A walkthrough of how I bolted durable, structured memory onto my home AI agent - what I store, where it lives, how retrieval works, and the mistakes I stopped making after the third rewrite."
 cover:

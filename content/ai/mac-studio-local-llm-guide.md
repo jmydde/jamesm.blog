@@ -2,7 +2,6 @@
 title: "Which Mac Studio Should You Buy for Running LLMs Locally?"
 date: 2026-07-13T21:22:00+01:00
 draft: false
-type: guide
 tags: ["ai", "apple", "llm", "mac-studio", "inference", "local-llm", "qwen", "llama"]
 description: "A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense."
 cover:
