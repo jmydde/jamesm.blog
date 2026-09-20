@@ -11,9 +11,13 @@ cover:
 
 A selection of my music production work from September 2026.
 
-September was quieter but more focused, with reworks leaning into disco, funk and cinematic textures. The newest addition is a [**Nu Disco Remix**](https://soundcloud.com/jamesm/come-back-forever-nu-disco) of **Come Back Forever**, following a [**Nu Disco Mix**](https://soundcloud.com/jamesm/ivory-funk-nu-disco-mix) of **Ivory Funk** and a stripped-back [**Prelude**](https://soundcloud.com/jamesm/breath-of-the-open-sky-prelude) take on **Breath of the Open Sky**. The start of the month brought a [**J-Pop**](https://soundcloud.com/jamesm/breath-of-the-open-sky-j-pop) remix of the same track, alongside a pair of **Pulse of Light** mixes ([**Aurora**](https://soundcloud.com/jamesm/pulse-of-light-aurora-remix) and [**Ethereal**](https://soundcloud.com/jamesm/pulse-of-light-ethereal-mix)) rounding things out.
+September was quieter but more focused, with reworks leaning into disco, funk and cinematic textures. The newest additions are a [**Nu Disco Remix**](https://soundcloud.com/jamesm/between-goodbye-forever-nu) of **Somewhere Between Goodbye & Forever** and a [**Disco Revival Mix**](https://soundcloud.com/jamesm/come-back-forever-disco) of **Come Back Forever**, following a [**Nu Disco Remix**](https://soundcloud.com/jamesm/come-back-forever-nu-disco) of the same track, a [**Nu Disco Mix**](https://soundcloud.com/jamesm/ivory-funk-nu-disco-mix) of **Ivory Funk**, and a stripped-back [**Prelude**](https://soundcloud.com/jamesm/breath-of-the-open-sky-prelude) take on **Breath of the Open Sky**. The start of the month brought a [**J-Pop**](https://soundcloud.com/jamesm/breath-of-the-open-sky-j-pop) remix of the same track, alongside a pair of **Pulse of Light** mixes ([**Aurora**](https://soundcloud.com/jamesm/pulse-of-light-aurora-remix) and [**Ethereal**](https://soundcloud.com/jamesm/pulse-of-light-ethereal-mix)) rounding things out.
 
 You can find more of my work on [SoundCloud](https://soundcloud.com/jamesm).
+
+{{< soundcloud "https://soundcloud.com/jamesm/between-goodbye-forever-nu" >}}
+
+{{< soundcloud "https://soundcloud.com/jamesm/come-back-forever-disco" >}}
 
 {{< soundcloud "https://soundcloud.com/jamesm/come-back-forever-nu-disco" >}}
 
