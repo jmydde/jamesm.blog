@@ -127,6 +127,7 @@ The reason prompt caching is the quiet performance win is that it does not requi
 
 ## Related Reading
 
+- [The Real Cost of Cloud AI Models in 2026](/ai/the-real-cost-of-cloud-ai-models-2026/)
 - [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
 - [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/)
 - [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/)

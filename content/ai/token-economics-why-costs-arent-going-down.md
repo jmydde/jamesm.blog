@@ -189,6 +189,7 @@ The fundamentals don't support cheap AI anytime soon. Understand that, and you'l
 
 ## Related Reading
 
+- [The Real Cost of Cloud AI Models in 2026](/ai/the-real-cost-of-cloud-ai-models-2026/)
 - [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
 - [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)
 - [AI Cloud Subscriptions: Comparing Pricing and Features in 2026](/ai/ai-cloud-subscriptions/)
