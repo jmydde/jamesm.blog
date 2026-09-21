@@ -92,15 +92,6 @@ Finally gaming emulators are now permitted on Apple devices. I've just downloade
 - **Homebrew**: Use legally created homebrew games
 - **Backups**: Create backups of games you own
 
-## User Reviews
-
-### Community Feedback
-> "Delta has completely changed mobile gaming for me. The controller support and save states make it feel like a real console experience." - Alex T.
-
-> "Finally, I can play my favorite childhood games on my iPhone. The performance is surprisingly good even on my older device." - Sarah M.
-
-> "The customization options are incredible. I love being able to tweak the controls to my liking." - Mike R.
-
 ## Comparison Table
 
 | Emulator | Systems Supported | Price | Key Features | Performance |

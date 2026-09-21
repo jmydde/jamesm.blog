@@ -92,6 +92,7 @@ _Note: This page will be expanded with additional Geoffrey Hinton interviews as 
 ## Related Reading
 
 - [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/)
+- [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/)
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
 - [Sergey Brin Interviews](/ai/sergey-brin-interviews/)
 - [The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power](/ai/claude-mythos-restricted/)

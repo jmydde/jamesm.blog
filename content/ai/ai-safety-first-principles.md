@@ -91,3 +91,4 @@ If you keep that question in your head, the rest of the noise resolves into usef
 ## Related Reading
 
 - [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/) - a profile of the long-running uncontrollability argument that lives mostly at the civilisational layer, and how to read it without confusing it for the engineering work below.
+- [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/) - MIRI's version of the civilisational-layer case: you do not get what you train for, and a superintelligence grown by current methods would not stay on a leash.

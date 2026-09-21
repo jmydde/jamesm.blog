@@ -118,4 +118,5 @@ The most likely outcome is somewhere in between. The enterprise segment that val
 - [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/) - the financing arrangement that underpins Anthropic's commercial scale.
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/) - the broader safety landscape Amodei's positioning sits inside.
 - [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/) - a more pessimistic safety position to read against Amodei's qualified optimism.
+- [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/) - the MIRI argument that lab safety work is fume hoods in an alchemy lab, aimed directly at the posture Amodei represents.
 - [Geoffrey Hinton Interviews](/ai/geoffrey-hinton-interviews/) - the closest thing to a generational predecessor in the AI safety conversation Amodei is now central to.

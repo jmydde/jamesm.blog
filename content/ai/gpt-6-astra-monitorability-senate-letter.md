@@ -88,4 +88,5 @@ What it has not done, as far as I can find as I publish this, is answer Van Holl
 - [Why the AI Cyber Threat Is Rising](/ai/ai-cyber-threat-is-rising/)
 - [Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem](/ai/securing-ai-agents/)
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
+- [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/)
 - [Mechanistic Interpretability: Reading the Mind of a Model](/ai/mechanistic-interpretability-inside-the-black-box/)
