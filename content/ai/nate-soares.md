@@ -146,6 +146,7 @@ Also: [Great Simplification](https://www.youtube.com/watch?v=0tjOzQne1LY), [Sema
 
 ## Related Reading
 
+- [We Built AI We Don't Fully Understand. What Happens When It's Smarter Than Us?](/ai/we-built-ai-we-dont-fully-understand/) - the interpretability gap underneath "you do not get what you train for"
 - [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/)
 - [AI Safety From First Principles](/ai/ai-safety-first-principles/)
 - [Recursive Self-Improvement](/ai/recursive-self-improvement/)

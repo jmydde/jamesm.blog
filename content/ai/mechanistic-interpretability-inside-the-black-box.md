@@ -105,3 +105,4 @@ Whichever way the mind question eventually falls, the practical case stands on i
 - [Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/)
 - [The Computational Case for Consciousness](/ai/the-computational-case-for-consciousness/)
 - [Dario Amodei: The Anthropic CEO Betting on Safety as Strategy](/ai/dario-amodei-anthropic-ceo/)
+- [We Built AI We Don't Fully Understand. What Happens When It's Smarter Than Us?](/ai/we-built-ai-we-dont-fully-understand/) - the gap that remains after the circuits, and the control question it raises if capability keeps ahead of understanding
