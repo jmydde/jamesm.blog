@@ -3,6 +3,7 @@ title: "Human Spaceflight Rockets in 2026: A New Era Takes Off"
 date: 2026-05-02T10:00:00+01:00
 draft: false
 tags: ['space', 'nasa', 'spacex', 'artemis', 'starship', 'sls', 'moon', 'mars', 'rocket']
+lastmod: 2026-09-27T09:00:00+01:00
 description: "A grounded look at the rockets carrying humans into space in 2026 - SLS, Starship, New Glenn, and Long March 10 - and where crewed exploration is actually heading over the next decade."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg
@@ -11,7 +12,7 @@ cover:
 
 ## TL;DR
 
-- **Artemis II** splashed down April 11, 2026 - first crewed lunar return since 1972, setting a new distance record of **252,756 miles**
+- **Artemis II** splashed down April 10, 2026 (US time) - first crewed lunar return since 1972, setting a new distance record of **252,756 miles**
 - Crewed rockets in 2026: **SLS/Orion**, **Starship**, **New Glenn**, and China's **Long March 10** - government and commercial programmes running in parallel
 - The Moon is the near-term focus (Artemis III lander race); Mars remains Starship's long bet
 - Reusability and launch cadence now matter as much as raw lift capacity
@@ -89,7 +90,7 @@ Behind the headline rockets sit a handful of engineering breakthroughs that are 
 
 **Heat shield technology.** Returning from the Moon means hitting the atmosphere at 25,000 mph. Orion's AVCOAT heat shield was tested on Artemis I and again on Artemis II. Starship's tile-based shield - thousands of hexagonal ceramic tiles, similar in spirit to the Shuttle's but mass-produced - is on its third major iteration after several burns through earlier versions.
 
-**Life support and long-duration habitation.** A trip to Mars is roughly nine months one way. The closed-loop life support systems being built for Gateway, for the Artemis lunar base, and eventually for Mars transit, are descendants of what currently runs on the ISS - but they need to work for far longer with no resupply.
+**Life support and long-duration habitation.** A trip to Mars is roughly nine months one way. The closed-loop life support systems being built for the Artemis lunar base, and eventually for Mars transit, are descendants of what currently runs on the ISS - but they need to work for far longer with no resupply.
 
 **The cost curve.** In 1981, the Shuttle cost roughly $60,000 per kilogram to LEO. Falcon 9 brought that to about $2,500 per kilogram. Starship, if it reaches its design goals at full reuse, targets something closer to $200 per kilogram. That is an order-of-magnitude shift, and it is what makes everything else - permanent lunar bases, Mars exploration, point-to-point Earth travel - even worth talking about.
 
@@ -106,7 +107,7 @@ Here is what is actually scheduled or seriously planned, separated from speculat
 | Artemis II | Completed April 2026 | First crewed lunar flyby since Apollo 17 |
 | Artemis III | Late 2027 | LEO docking test with Starship HLS and Blue Moon |
 | Artemis IV | Early 2028 | First crewed lunar landing of the Artemis program |
-| Artemis V | Late 2028 | Second surface landing, Gateway operations |
+| Artemis V | Late 2028 | Second surface landing, start of surface base work |
 | Artemis VI+ | ~Annual after 2028 | Sustained lunar presence and base-building |
 | China Long March 10 first flight | September 2026 | Uncrewed orbital test |
 | China crewed lunar landing | Before 2030 | First Chinese crew on the Moon |
@@ -127,7 +128,7 @@ The interesting story underneath the rockets is the manufacturing one. SpaceX's 
 
 Whether that target is realistic is debatable. Whether it is even *necessary* to get to one Starship a week to make the architecture viable is a more interesting question. Even at one a month, you are operating at a cadence no human spaceflight program has ever come close to.
 
-Compare this to the Apollo era - 13 Saturn Vs total, hand-built, each one a national project. Or the Shuttle - 135 missions across 30 years, with four orbiters. The bet underneath Starship is that human spaceflight only becomes truly transformational when launch starts to feel less like a moonshot and more like an airline.
+Compare this to the Apollo era - 13 Saturn Vs total, hand-built, each one a national project. Or the Shuttle - 135 missions across 30 years, flown by five orbiters. The bet underneath Starship is that human spaceflight only becomes truly transformational when launch starts to feel less like a moonshot and more like an airline.
 
 ---
 
@@ -135,7 +136,7 @@ Compare this to the Apollo era - 13 Saturn Vs total, hand-built, each one a nati
 
 The honest forecast for the next ten years looks something like this:
 
-- **Late 2020s**: Multiple American crews back on the lunar surface. A small Chinese presence on the Moon. Gateway taking shape. Starship operational, possibly with the first uncrewed Mars landings successful.
+- **Late 2020s**: Multiple American crews back on the lunar surface. A small Chinese presence on the Moon. Surface base construction under way. Starship operational, possibly with the first uncrewed Mars landings successful.
 - **Early 2030s**: A permanent crewed lunar outpost begins, supported by regular Starship and Long March 10 flights. ISS retired, replaced by commercial LEO stations. First crewed Mars mission, if it happens, in this window.
 - **Mid-2030s**: Lunar base operations become routine. The cost-per-kilogram curve flattens at a point that makes industrial activity in space (mining, manufacturing, in-space construction) economically thinkable for the first time. Mars infrastructure - power, life support, ISRU - begins to grow.
 

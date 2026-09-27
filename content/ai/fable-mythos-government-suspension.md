@@ -3,6 +3,7 @@ title: "Pulled From The Shelf: The Government Order to Suspend Fable 5 and Mytho
 date: 2026-06-13T07:30:00+01:00
 draft: false
 tags: ["ai", "anthropic", "claude", "fable", "mythos", "ai-safety", "policy", "2026"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "Four days after Fable 5 and Mythos 5 went public, the US government issued an export control directive ordering Anthropic to suspend all access. Anthropic says it's a misunderstanding over a narrow jailbreak. Here's what happened, what's at stake, and why it matters for every frontier lab."
 cover:
   image: /assets/images/ai/fable-mythos-government-suspension.jpg
@@ -10,6 +11,9 @@ cover:
 ---
 
 ## TL;DR
+
+> **Update (July 2026):** Export controls were lifted on 30 June and Fable 5 returned on 1 July. The follow-up, including what actually triggered the recall, is in [Fable 5 Is Back](/ai/redeploying-fable-5/).
+
 
 - On **12 June 2026 at 5:21pm ET**, the US government issued an **export control directive** ordering Anthropic to suspend all access to **Fable 5 and Mythos 5** - globally, for every user, including Anthropic's own employees
 - The stated reason is national security: the government believes it has identified a method of **jailbreaking Fable 5**. Anthropic says the evidence was verbal only and describes a **narrow, non-universal** technique - essentially asking the model to read a codebase and fix software flaws

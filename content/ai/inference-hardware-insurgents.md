@@ -110,6 +110,6 @@ For people building with these tools today, the practical implication is the bor
 
 - [GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)](/ai/gpu-servers-vs-api-credits/) - the deployer's view of the same cost-of-inference story these chips are designed to change.
 - [DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?](/ai/dgx-spark-vs-mac-studio/) - the consumer-end inference-hardware story.
-- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/) - the economics that makes specialised inference silicon necessary in the first place.
+- [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/) - the economics that makes specialised inference silicon necessary in the first place.
 - [Local AI vs Cloud AI: The Tradeoff Landscape in 2026](/ai/local-vs-cloud-ai-2026/) - where inference actually runs in 2026.
 - [The Rise of Small Language Models: Why Size Isn't Everything](/ai/small-language-models/) - the model-side counterpart to the hardware-side story here.

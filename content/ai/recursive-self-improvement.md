@@ -105,7 +105,7 @@ The mental model I have settled on is not an explosion and not a wall. It is a *
 
 ## Related Reading
 
-- [Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/)
+- [Reasoning Models in 2026: o3, R1, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/)
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
 - [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/)
 - [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/)

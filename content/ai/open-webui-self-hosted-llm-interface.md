@@ -3,6 +3,7 @@ title: "Open WebUI: A Polished Interface for Local and Remote LLMs"
 date: 2026-04-15T23:15:00+00:00
 draft: false
 tags: ["ai", "llm", "self-hosted", "open-source", "tool", "local-llm"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "Open WebUI is an open-source interface that brings ChatGPT-like convenience to local language models, giving you a sleek chat interface for Ollama, OpenAI, and compatible APIs with zero vendor lock-in."
 cover:
   image: /assets/images/ai/ai-intelligence.jpg
@@ -87,8 +88,14 @@ The interface is intuitive enough that non-technical users can operate it, but d
 Open WebUI is deployed as a Docker container, making it relatively straightforward to spin up. On a basic level:
 
 ```bash
-docker run -d -p 8080:8080 --add-host=host.docker.internal:host-gateway ghcr.io/open-webui/open-webui:latest
+docker run -d -p 3000:8080 \
+  --add-host=host.docker.internal:host-gateway \
+  -v open-webui:/app/backend/data \
+  --name open-webui --restart always \
+  ghcr.io/open-webui/open-webui:main
 ```
+
+The `-v open-webui:/app/backend/data` volume is the important part: it holds your users, chats and settings, and without it everything is lost when the container is recreated. The UI is then at `http://localhost:3000`.
 
 That's it for a basic instance. Point it at your Ollama container, and you've got a working setup.
 

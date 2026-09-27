@@ -3,6 +3,7 @@ title: "China's Space Programme in 2026 - Tiangong, Chang'e, Lunar Plans"
 date: 2026-05-03T19:00:00+01:00
 draft: false
 tags: ["space", "future", "moon", "mars", "2026"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "While Western space coverage focused on Starship and Artemis, China quietly executed one of the most consistent national space programmes in history. A grounded look at where Tiangong, the Chang'e lunar series, and the broader Chinese space architecture stand in 2026."
 cover:
   image: /assets/images/space/china-space-programme-2026.jpg
@@ -29,7 +30,7 @@ In 2026, that programme has three pillars: the orbital station, the lunar series
 
 [Tiangong](https://en.wikipedia.org/wiki/Tiangong_space_station) ("Heavenly Palace") is China's third-generation space station and the only fully operational continuously-crewed station outside of the [International Space Station](https://www.nasa.gov/international-space-station/) consortium.
 
-The station was assembled across 2021-2022 with three modules: Tianhe (the core habitation module), Wentian, and Mengtian (laboratory modules). Subsequent expansions have added an extension module and visiting Tianzhou cargo missions.
+The station was assembled across 2021-2022 with three modules: Tianhe (the core habitation module), Wentian, and Mengtian (laboratory modules). It has since been supplied by regular Tianzhou cargo missions, and China has announced plans to expand it with additional modules.
 
 What is notable about Tiangong in 2026:
 
@@ -49,7 +50,7 @@ The Chang'e programme is the part of China's space architecture that has changed
 
 **Chang'e 6** returned samples from the far side of the Moon in 2024. This was the first time any nation had returned samples from the lunar far side, and the scientific implications are still being worked out. The samples are continuing to produce papers in 2026.
 
-**Chang'e 7**, planned for 2026, targets the lunar south pole - the same region of strategic interest as Artemis III. Its mission profile includes a hopper that will explore permanently shadowed regions for water ice. If the mission succeeds, China will have ground-truth water-ice data from the south pole well before any Artemis crewed landing.
+**Chang'e 7**, planned for 2026, targets the lunar south pole - the same region NASA is targeting for its Artemis landings. Its mission profile includes a hopper that will explore permanently shadowed regions for water ice. If the mission succeeds, China will have ground-truth water-ice data from the south pole well before any Artemis crewed landing.
 
 **Chang'e 8**, planned for around 2028, is positioned as a precursor to the lunar research station - testing in-situ resource utilisation, 3D printing of lunar regolith, and long-duration surface infrastructure.
 

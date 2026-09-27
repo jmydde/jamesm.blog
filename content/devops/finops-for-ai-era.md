@@ -76,6 +76,6 @@ The teams that have made this work treat FinOps the way they treat security or r
 
 - [GPU Servers vs API Credits](/ai/gpu-servers-vs-api-credits/)
 - [AI Cloud Subscriptions](/ai/ai-cloud-subscriptions/)
-- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
 - [Platform Engineering in 2026](/devops/platform-engineering-2026/)
 - [The SRE Skillset in 2026](/devops/sre-skillset-2026/)

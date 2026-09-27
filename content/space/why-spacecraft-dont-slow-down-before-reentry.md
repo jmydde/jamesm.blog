@@ -3,6 +3,7 @@ title: "Why Spacecraft Don't Just Slow Down Before Reentry"
 date: 2026-04-19T19:54:00+01:00
 draft: false
 tags: ["space", "nasa", "physics", "engineering", "orion"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "Returning from the Moon, spacecraft slam into the atmosphere at 25,000 mph. Why not slow down first? The answer comes down to energy, mass, and the brutal mathematics of rocket fuel."
 cover:
   image: /assets/images/space/spacecraft-reentry.jpg
@@ -13,7 +14,7 @@ When a spacecraft returns from the Moon, it strikes Earth's atmosphere at around
 
 A reasonable question follows - why not just slow down first? Why not fire engines to drop down to something more manageable, like the ~17,500 mph of low Earth orbit, and skip the inferno entirely?
 
-It sounds sensible. In practice, it is wildly impractical.
+It sounds sensible. In practice, it is wildly impractical - and it wouldn't even avoid the fireball, because vehicles returning from low Earth orbit at 17,500 mph still need heat shields and still glow on the way down. Avoiding reentry heating entirely would mean braking all ~11 km/s propulsively.
 
 ## The Real Problem Is Energy, Not Speed
 
@@ -34,7 +35,7 @@ To slow down in space you fire engines against the direction of travel - a retro
 
 Rocket propulsion is governed by the [Tsiolkovsky rocket equation](https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation), which has a brutal implication - the more you want to change your velocity, the more fuel you need, and the relationship grows exponentially.
 
-To shed the ~3.3 km/s difference between lunar return and orbital speed, a spacecraft would need a *huge* propellant reserve. Not a top-up. A meaningful fraction of the vehicle's total mass.
+To shed the ~3.4 km/s difference between lunar return (~11.2 km/s) and orbital speed (~7.8 km/s), a spacecraft would need a *huge* propellant reserve. With an engine like Orion's service module main engine (specific impulse around 316 seconds, an exhaust velocity of about 3.1 km/s), the rocket equation gives a mass ratio of e^(3.4/3.1) ≈ 3: roughly **two thirds of the vehicle arriving at Earth would have to be propellant**. Not a top-up.
 
 That fuel has knock-on costs:
 

@@ -93,7 +93,7 @@ Once you see it that way, the rest follows naturally.
 
 ## Related Reading
 
-- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
 - [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
 - [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
 - [GPU Servers vs AI API Credits: The Real Cost Breakdown (2026)](/ai/gpu-servers-vs-api-credits/)

@@ -3,6 +3,7 @@ title: "NASA Artemis II Tracking Dashboards"
 date: 2026-04-04T00:00:00Z
 draft: false
 tags: ["nasa", "artemis", "moon", "satellite", "tool", "space"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "Resources for tracking NASA's Artemis II lunar mission including official dashboards, tools, and mission information."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg
@@ -39,7 +40,9 @@ Track Artemis II mission data directly from your terminal with the community-bui
 
 ## Mission Overview
 
-Artemis II will carry a crew around the Moon, testing critical systems and paving the way for Artemis III lunar landings. The mission demonstrates NASA's capability to safely conduct crewed lunar operations and establishes the foundation for sustained lunar exploration.
+*This page was written while the mission was under way. Artemis II launched on 1 April 2026, set a new record for the farthest humans have travelled from Earth - [252,756 miles (406,771 km)](https://ny1.com/nyc/all-boroughs/space/2026/04/10/artemis-ii-orion-splashdown-day-10) - and splashed down safely off San Diego on 10 April. The live trackers above are now archival.*
+
+Artemis II carried a crew of four around the Moon, testing Orion's life support, navigation and heat shield with people on board, and paving the way for Artemis III.
 
 ## Related Reading
 

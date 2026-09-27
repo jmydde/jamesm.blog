@@ -3,6 +3,7 @@ title: "The Critical Threshold: What It Means That OpenAI Shipped a Cyber-Critic
 date: 2026-09-16T21:00:00+01:00
 draft: false
 tags: ["ai", "openai", "gpt", "model-release", "benchmark", "security", "ai-safety", "agent", "computer-use"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "GPT-6 Astra saturates FrontierMath, ARC-AGI-3, and ExploitBench - and is the first OpenAI model to cross the Critical threshold for cybersecurity. The benchmarks are the least interesting part."
 cover:
   image: /assets/images/ai/gpt-6-astra-critical-threshold.jpg
@@ -14,8 +15,8 @@ cover:
 - OpenAI shipped **GPT-6 Astra** on 3 September 2026 - a full retrained frontier model that saturates **FrontierMath Tier 4** (98%) and **ARC-AGI-3** (99.9%), and hits a perfect **100% on ExploitBench**
 - Astra is the first OpenAI model to cross the **Critical threshold for cybersecurity** under the company's Preparedness Framework, and it discovered **two previously unknown zero-days** during its own evaluation
 - Against the current field - **GPT-5.6 Sol**, **Claude Fable 5.1**, **Claude Opus 5**, **Gemini 3.8 Flash** - Astra leads on coding, computer use, and professional-work benchmarks, usually at meaningfully lower token cost
-- OpenAI's response to the cyber jump is **Daybreak**, a gated program that will roll out *less restrictive* safeguards to vetted defenders - the same shape of deployment Anthropic used for Mythos, and the one the US government pulled apart in June
-- API pricing is **$10/$50 per million input/output tokens** (standard), available now via the API, Azure, and Bedrock, rolling out to ChatGPT Plus/Pro/Business/Enterprise over the following days
+- OpenAI's response to the cyber jump is **Daybreak**, a gated program that will roll out *less restrictive* safeguards to vetted defenders - the same shape of deployment Anthropic used for Mythos, which the US government briefly suspended in June
+- API pricing is **$10/$50 per million input/output tokens** (standard); access rolled out first to [a limited set of organisations](https://datanorth.ai/news/openai-launches-gpt-6-astra), with ChatGPT paid plans and the API following over the next days
 
 OpenAI's own headline for GPT-6 Astra is "the world's most intelligent and aligned model." Buried in the safety section, three paragraphs down, is a more consequential sentence: Astra "meets the Critical threshold in cybersecurity under our Preparedness Framework." That's the first time OpenAI has said that about a model it's shipping broadly. The benchmarks are real, but they're not the story. The story is what a lab does once its own model crosses a line it built specifically to be crossed rarely.
 
@@ -58,7 +59,7 @@ That's a real, specific, falsifiable claim, and it's more rigorous than most ali
 
 Astra's release resets the leaderboard OpenAI lost when [Claude Mythos Preview and then Opus 4.7](/ai/claude-opus-4-7/) pulled ahead on agentic coding earlier in the year, and again when Fable 5.1 held the lead through the summer. Astra now leads Fable 5.1 on Terminal-Bench 4.0, BenchCAD, and Terminal-Bench Science, usually by a meaningful margin and usually at lower estimated cost per task. Gemini 3.8 Flash appears in OpenAI's own comparison charts but not at the top of any of them.
 
-Pricing sits at $10/$50 per million input/output tokens standard, with a Fast mode at 2x speed for 2x price. That's a step up from GPT-5.5's $5/$30, priced for a model OpenAI is positioning as strictly more capable rather than a cost-optimized iteration - continuing the pattern I flagged in [Token Economics](/ai/token-economics-why-costs-arent-going-down/): capability keeps climbing, and the per-token price climbs with it rather than falling, even as compute gets cheaper at the margin.
+Pricing sits at $10/$50 per million input/output tokens standard, with a Fast mode at 2x speed for 2x price. That's roughly 2.5x the [$4/$20 of GPT-5.6 Sol](https://www.mindstudio.ai/blog/gpt-6-astra-pricing-access), the model it replaces, priced for a model OpenAI is positioning as strictly more capable rather than a cost-optimized iteration - continuing the pattern I flagged in [Token Economics](/ai/token-economics-why-costs-arent-going-down/): capability keeps climbing, and the per-token price climbs with it rather than falling, even as compute gets cheaper at the margin.
 
 ## What I'm Watching
 

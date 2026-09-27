@@ -1,19 +1,20 @@
 ---
-title: "Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift"
+title: "Reasoning Models in 2026: o3, R1, and the Compute-at-Inference Shift"
 date: 2026-05-08T19:00:00+01:00
 draft: false
 tags: ["ai", "reasoning", "openai", "deepseek", "anthropic", "gemini", "inference", "2026"]
-description: "A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1/R2, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production."
+lastmod: 2026-09-27T09:00:00+01:00
+description: "A grounded look at the reasoning-model wave - what makes o3, DeepSeek R1 and its successors, Gemini Deep Think, and Claude Extended Thinking different from the generation that came before, when to actually reach for one, and what the cost and capability trade-offs look like in production."
 cover:
   image: /assets/images/ai/reasoning-models-2026.png
-  alt: Reasoning Models in 2026 - o3, R2, and the Compute-at-Inference Shift Banner
+  alt: Reasoning Models in 2026 - o3, R1, and the Compute-at-Inference Shift Banner
 ---
 
 Two years ago the way to make a model better was to train a bigger one. By the start of 2026 that recipe has stopped being the most interesting answer. The frontier has moved to a different lever - letting the model think for longer at inference time, generating intermediate reasoning, and only then producing the final answer. The category has a name now (reasoning models) and a family of products built around it. The interesting questions are no longer whether the trick works, because it clearly does, but when to reach for one, where it lands in production, and what the costs actually look like once the demo glow wears off.
 
 ## TL;DR
 
-- The reasoning-model wave began in late 2024 with OpenAI's o1 and went mainstream in 2025-2026 with **OpenAI o3**, **DeepSeek R1** and the R2 successor, **Gemini Deep Think**, and **Claude Extended Thinking**.
+- The reasoning-model wave began in late 2024 with OpenAI's o1 and went mainstream in 2025-2026 with **OpenAI o3**, **DeepSeek R1** and the hybrid-thinking DeepSeek models that followed it, **Gemini Deep Think**, and **Claude Extended Thinking**.
 - The core mechanism is **test-time compute**: the model generates a long chain of intermediate reasoning before the final answer. The chain may consume tens or hundreds of thousands of tokens for a single hard problem.
 - **Reasoning models trade time and tokens for accuracy.** They are slower, more expensive per task, and substantially better on problems that genuinely require multi-step reasoning. Use them for hard problems where being right matters more than being fast - mathematical derivations, complex coding refactors, scientific reasoning, structured argument analysis.
 - **Use non-reasoning models for everything else.** Conversational interactions, simple lookups, content generation, anything where a competent first-pass answer is enough.
@@ -32,19 +33,19 @@ The training is the part that matters. Reasoning models are post-trained, typica
 
 The reason this is a big deal is that the curves are favourable. On a wide range of hard reasoning tasks - mathematics olympiad problems, graduate-level science, competitive programming, novel logic puzzles - adding inference compute keeps improving the score for far longer than was expected. The [o3 high-compute results](https://aiweekly.co/learning-ai/deep-learning/what-test-time-compute-how-ai-models-think-they-answer) on ARC-AGI-1 (87.5%) are one of the most striking public demonstrations of this - a benchmark that was specifically designed to be hard for current models saw a dramatic jump from spending substantial compute on each problem, even without being fully saturated.
 
-The other reason it is a big deal is that it works on much smaller base models than the brute-force scaling approach. DeepSeek R1, released in early 2025, demonstrated that you can get reasoning performance comparable to OpenAI's o1 with a model whose API pricing was roughly [3-5% of o1's](https://magazine.sebastianraschka.com/p/state-of-llms-2025). The R2 successor that followed in late 2025 narrowed the gap with the frontier further. The implication is that the reasoning capability is not locked behind frontier-scale training and that the open-weight ecosystem can compete on this dimension in a way it could not when the only lever was raw model size.
+The other reason it is a big deal is that it works on much smaller base models than the brute-force scaling approach. DeepSeek R1, released in early 2025, demonstrated that you can get reasoning performance comparable to OpenAI's o1 with a model whose API pricing was roughly [3-5% of o1's](https://magazine.sebastianraschka.com/p/state-of-llms-2025). DeepSeek's later hybrid-thinking models narrowed the gap with the frontier further. The implication is that the reasoning capability is not locked behind frontier-scale training and that the open-weight ecosystem can compete on this dimension in a way it could not when the only lever was raw model size.
 
 ## The state of the frontier
 
 The reasoning-model category in 2026 has four serious entrants and a longer tail of credible open-weight alternatives.
 
-**OpenAI o3 and o4** are the current performance leaders on most public benchmarks. The o-series is what most teams reach for when they need state-of-the-art reasoning and are willing to pay for it. The high-compute setting is genuinely strong but very expensive - tens of millions of tokens per hard problem and runtimes measured in minutes. The low-compute setting is much cheaper and is what most production deployments actually use. OpenAI has also shipped **o3-mini** and **o4-mini** as smaller, faster variants for use cases that need reasoning without the full o3 cost structure.
+**OpenAI's o-series** (o1, o3, and the o3-mini and o4-mini variants) defined the category through 2025. OpenAI has since folded reasoning into its main GPT-5 family, where the same model decides how long to think; the o-series names matter mostly as history now. The high-compute settings that produced the headline benchmark results were genuinely strong but very expensive - tens of millions of tokens per hard problem and runtimes measured in minutes. Production deployments use far lower effort settings.
 
 **Anthropic's Claude Extended Thinking** is built into the Claude family rather than being a separate product. The extended-thinking mode gives [Claude](/ai/claude-opus-4-7/) deliberate internal reasoning steps; the same model can be invoked in fast mode for routine work. The Anthropic implementation is unusual in that it exposes the reasoning trace to the user by default, which has implications for both interpretability and how the product is used. The strength is integration with the rest of the Claude ecosystem - tool use, agentic loops, long context all work the same way regardless of thinking mode. The [Claude Opus 4.7](/ai/claude-opus-4-7/) release in early 2026 made significant gains on the agentic-reasoning end of the spectrum.
 
 **Google Gemini Deep Think** is Google DeepMind's entry in the category, integrated into the Gemini Ultra tier. It has carved out the niche of strong reasoning at competitive pricing, with particular strength on multimodal reasoning problems - Gemini's reasoning over images, video, and audio is meaningfully ahead of the text-only reasoning competition. The 2.0 generation, shipped in late 2025, introduced significantly stronger long-horizon reasoning and tool use.
 
-**DeepSeek R1 and R2** are the open-weight benchmark. R1 was released in January 2025 and demonstrated that reasoning performance comparable to o1 was possible at a fraction of the cost. R2 followed later in 2025 with significant improvements on coding and on longer-horizon reasoning. The models are available under permissive licences and have been adopted widely across the open-source ecosystem. The trade-off is that you have to run the inference yourself. Their existence is the single biggest reason the price floor for reasoning models has compressed so quickly.
+**DeepSeek R1 and its successors** are the open-weight benchmark. R1 was released in January 2025 and demonstrated that reasoning performance comparable to o1 was possible at a fraction of the cost. The widely expected R2 never shipped; instead DeepSeek folded reasoning into its main line, starting with V3.1 in August 2025 - one model with both thinking and non-thinking modes - and continuing through V3.2 and the V4 models in 2026. That merge is itself a sign of where the category is heading.
 
 Beyond these four, the open-weight ecosystem has shipped credible reasoning models from Qwen, Mistral, and several smaller research labs. The category is increasingly crowded and the gap between the frontier and the open alternatives is narrower on reasoning than it is on raw capability.
 
@@ -102,7 +103,7 @@ The second is the claim that the reasoning capability is fundamentally different
 
 The third is the claim that test-time compute scales indefinitely. The [test-time compute paradox](https://www.arturmarkus.com/the-test-time-compute-paradox-why-reasoning-models-like-o1-and-deepseek-r1-are-proving-that-more-inference-compute-can-destroy-accuracy/) is real - in some regimes, adding more inference compute starts to hurt accuracy rather than help it. The model gets lost in its own reasoning, talks itself out of correct answers, or wastes compute on dead ends. The current frontier reasoning models have made significant progress on this but it has not been eliminated and the optimal amount of compute per problem is itself a hard tuning question.
 
-The fourth is the claim that DeepSeek R1 and R2 prove that the open-weight ecosystem has caught up with the frontier. The benchmark numbers are real but the production reliability gap is larger than the benchmarks suggest. The frontier models from OpenAI, Anthropic, and Google have advantages in long-tail reliability, in tool integration, and in the surrounding infrastructure that do not show up in the public scores. The gap is closing but it has not yet closed, particularly on the hardest agentic workloads.
+The fourth is the claim that DeepSeek's reasoning models prove that the open-weight ecosystem has caught up with the frontier. The benchmark numbers are real but the production reliability gap is larger than the benchmarks suggest. The frontier models from OpenAI, Anthropic, and Google have advantages in long-tail reliability, in tool integration, and in the surrounding infrastructure that do not show up in the public scores. The gap is closing but it has not yet closed, particularly on the hardest agentic workloads.
 
 ## Where this is heading
 
@@ -110,7 +111,7 @@ The reasoning-model era has split the LLM market into two related but distinct p
 
 The most likely shape of 2027 is that reasoning models become a normal part of the API surface rather than a distinct category, with the routing between reasoning and non-reasoning paths happening transparently at the provider level. The price differential between the modes will compress as the providers compete on cost-to-serve, and the deployment patterns will stabilise around the workload shapes that actually benefit from the capability.
 
-The other prediction worth making is that the open-weight reasoning ecosystem will continue to compress the price floor faster than the frontier labs can keep up with on commercial pricing. The DeepSeek R2 release is the template - a reasoning model that is open-weight, available under permissive licences, and price-competitive with the frontier on most production workloads. The strategic implication for the closed labs is that the moat on reasoning capability is narrower than the moat on raw capability has been, and the differentiation has to come from somewhere other than the model itself.
+The other prediction worth making is that the open-weight reasoning ecosystem will continue to compress the price floor faster than the frontier labs can keep up with on commercial pricing. DeepSeek's releases are the template - a reasoning model that is open-weight, available under permissive licences, and price-competitive with the frontier on most production workloads. The strategic implication for the closed labs is that the moat on reasoning capability is narrower than the moat on raw capability has been, and the differentiation has to come from somewhere other than the model itself.
 
 The third prediction is that agentic deployments are going to drive most of the real-world reasoning-model demand by 2027. The early 2026 picture is that synchronous reasoning - the user asks a question and waits for the answer - is the dominant use case. The 2027 picture is more likely to be agentic reasoning - the model is doing extended work on the user's behalf, taking actions, observing results, and reasoning across long horizons. The compute demand from this shift is one of the things that is going to keep the [AI energy crisis](/ai/ai-energy-crisis-data-center-power/) at the centre of the conversation.
 
@@ -119,7 +120,7 @@ For people building with reasoning models today, the practical guidance is the b
 ## Related Reading
 
 - [The Rise of Small Language Models: Why Size Isn't Everything](/ai/small-language-models/) - the model-size counterpart to the test-time-compute story.
-- [DeepSeek](/ai/deepseek/) - the lab whose R1/R2 releases reset the price floor for reasoning models.
+- [DeepSeek](/ai/deepseek/) - the lab whose R1 release reset the price floor for reasoning models.
 - [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/) - the agentic-reasoning story from the Anthropic side.
 - [The LLM Context Window Arms Race: Does It Actually Matter?](/ai/llm-context-window-arms-race/) - the adjacent capability lever that reasoning models complicate.
 - [Cerebras, Groq, SambaNova: The Inference Hardware Insurgents](/ai/inference-hardware-insurgents/) - the hardware story that reasoning models have made commercially significant.

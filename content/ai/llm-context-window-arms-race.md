@@ -3,6 +3,7 @@ title: "The LLM Context Window Arms Race: Does It Actually Matter?"
 date: 2026-04-11T06:14:00+00:00
 draft: false
 tags: ["llm", "context-engineering", "ai", "coding"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "The obsession with massive context windows misses what actually matters in production LLM systems"
 cover:
   image: /assets/images/ai/ai-intelligence.jpg
@@ -35,7 +36,7 @@ In theory, unlimited context is ideal. In practice, it's solving the wrong probl
 
 Every token processed costs money and time. Not just the obvious financial cost - though larger contexts do cost more per request - but the computational cost of attention mechanisms.
 
-The attention layer in a transformer model scales quadratically with context length. A 200K context requires 4x more compute than a 100K context (roughly). A 1M token context is exponentially more expensive than people realize.
+The attention layer in a transformer model scales quadratically with context length. Doubling the context roughly quadruples the attention compute for processing the prompt. Going from 100K to 1M tokens is a 10x longer input and, for the attention part, roughly 100x the work - quadratic, not exponential, but far steeper than intuition suggests. (Techniques like FlashAttention make this faster, not linear.)
 
 This means:
 
@@ -57,7 +58,7 @@ The canonical use case for large context windows is "put the entire document in 
 
 It doesn't.
 
-Systems built on vector retrieval - finding the 3-5 most relevant chunks and passing those to the LLM - consistently outperform systems that try to process entire documents. Retrieval is cheaper, faster, and often more accurate because the model isn't diluted by irrelevant information.
+Systems built on vector retrieval - finding the most relevant chunks and passing those to the LLM - often outperform systems that try to process entire documents, though research comparing the two finds long context winning on some tasks (especially where the answer depends on the whole document) and retrieval on others. Retrieval is cheaper, faster, and often more accurate because the model isn't diluted by irrelevant information.
 
 A production RAG (Retrieval Augmented Generation) system using Claude with 200K context and intelligent chunking will outperform a naive system that attempts 1M-token requests.
 
@@ -103,7 +104,7 @@ The context window arms race exists because it's easy to measure and market. "Th
 
 But architecture is what determines whether you can build a system that works in production. And the architecture that matters most is *how you integrate retrieval, caching, and streaming with the LLM itself*, not the size of the context window.
 
-Anthropic's native support for prompt caching - processing 90% of a cached prompt at 90% discount - is more valuable for production systems than a larger raw context window. This doesn't make headlines because it's not a single number you can post on social media.
+Anthropic's native support for prompt caching - cached input tokens billed at a 90% discount - is often more valuable for production systems than a larger raw context window. This doesn't make headlines because it's not a single number you can post on social media.
 
 ## Where We're Headed
 

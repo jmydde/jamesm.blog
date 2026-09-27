@@ -3,6 +3,7 @@ title: "SpaceX Starship vs NASA SLS: Two Visions for Deep Space"
 date: 2026-04-07T10:00:00+01:00
 draft: false
 tags: ["spacex", "nasa", "starship", "sls", "space", "rocket", "artemis"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "A detailed comparison of SpaceX's Starship and NASA's Space Launch System - two fundamentally different approaches to returning humans to the Moon and beyond."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg
@@ -60,7 +61,7 @@ The SLS is an evolutionary vehicle. Its engines worked on the Shuttle. Its boost
 
 This is the traditional aerospace approach: simulate everything, test rigorously, launch when confident. The SLS succeeds because we understand solid rockets, cryogenic engines, and stacking boosters. There are no surprises.
 
-There are also no improvements mid-development. The RS-25 engines are 40+ years old designs. You can't easily upgrade them. The solid rocket boosters have their limitations. Changing anything requires starting over.
+There are also few improvements mid-development. The RS-25 is a 1970s design; the first Artemis flights use refurbished Shuttle engines, and a cheaper, expendable production version (RS-25E) is being built for later missions - but it's an evolution of the same engine, not a rethink. The solid rocket boosters have their limitations. Changing anything requires starting over.
 
 **Strengths:**
 - Proven technology reduces risk
@@ -77,9 +78,9 @@ There are also no improvements mid-development. The RS-25 engines are 40+ years 
 
 SpaceX's approach inverts the traditional aerospace model. Instead of testing to launch, Starship tests by launching.
 
-The first Starship integrated flight test (April 2023) exploded. So did the second (November 2023). The third (March 2024) reached new milestones before exploding. The fourth (June 2024) achieved a controlled Super Heavy splashdown and a controlled Starship reentry and splashdown. Each flight captured terabytes of data, and each iteration improved. The fifth flight (October 2024) was the headline moment: Super Heavy returned to the launch site and was caught mid-air by the Mechazilla tower arms - the first time anyone had ever recovered an orbital-class booster that way.
+The first Starship integrated flight test (April 2023) exploded. So did the second (November 2023). The third (March 2024) reached new milestones before exploding. The fourth (June 2024) achieved a controlled Super Heavy splashdown and a controlled Starship reentry and splashdown. Later Version 2 flights had setbacks of their own - several upper stages were lost in early 2025 - before Flights 10 and 11 (August and October 2025) met their objectives, closing out that version ahead of the larger Version 3. Each flight captured terabytes of data, and each iteration improved. The fifth flight (October 2024) was the headline moment: Super Heavy returned to the launch site and was caught mid-air by the Mechazilla tower arms - the first time anyone had ever recovered an orbital-class booster that way.
 
-This is not recklessness - it's empiricism. You learn more from a failed flight test than from a thousand simulations. The actual physics of 29 hypersonic engines, grid fins in plasma, and rapid reusability can't be fully predicted.
+This is not recklessness - it's empiricism. You learn more from a failed flight test than from a thousand simulations. The actual physics of 33 Raptor engines firing together, grid fins in plasma, and rapid reusability can't be fully predicted.
 
 SpaceX accepts explosion risk in development because Starship costs vastly less than SLS. Even with write-offs, total Starship development is cheaper than SLS operations.
 
@@ -116,7 +117,7 @@ The cost difference isn't academic - it's civilizational. SLS can send humans to
 
 ## Reusability: The Fundamental Difference
 
-SLS is expendable by design. After one flight, the core stage, engines, and most hardware are gone (though some boosters are recovered).
+SLS is expendable by design. After one flight, the core stage, its four RS-25 engines, and the solid rocket boosters are all gone - unlike the Shuttle, SLS doesn't recover its boosters.
 
 Starship is reusable by design. SpaceX's long-term vision is:
 
@@ -129,9 +130,9 @@ This isn't science fiction anymore - SpaceX caught the Super Heavy booster with 
 
 The math of reusability is overwhelming:
 
-- If Starship costs $1.5 billion to develop and flies 1,000 times, that's $1.5 million per flight amortized development
+- If Starship costs, say, $10 billion to develop and flies 1,000 times, that's $10 million per flight of amortized development
 - If SLS costs $20 billion in development and flies 10 times, that's $2 billion per flight amortized development
-- The operational cost difference is 100x
+- If SpaceX hits its per-launch targets, the operational cost difference is two orders of magnitude; if it misses them by a factor of ten, it's still one
 
 ---
 
@@ -173,7 +174,7 @@ But this creates a dependency. Artemis III can't launch until:
 - Starship's lunar variant is ready (also delayed)
 - Both are flight-proven
 
-Currently, Artemis II (a crewed flyby of the Moon on SLS, with no landing) is targeting a 2026 launch. Artemis III (humans to the lunar surface, using the Starship lunar HLS) is 2027 at the earliest, and slipping right.
+*Update (September 2026):* Artemis II flew successfully in April 2026. In February 2026 NASA turned Artemis III into a 2027 low-Earth-orbit docking test with both commercial landers (Starship HLS and Blue Origin's Blue Moon), with the first landing now planned for Artemis IV in 2028.
 
 SpaceX has already demonstrated more rapid iteration on Starship than NASA has on SLS in the same timeframe.
 
