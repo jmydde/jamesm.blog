@@ -3,6 +3,7 @@ title: "Artemis III Lander Architecture - What Could Still Go Wrong"
 date: 2026-05-03T10:00:00+01:00
 draft: false
 tags: ['space', 'nasa', 'artemis', 'spacex', 'starship', 'moon', '2026']
+lastmod: 2026-09-27T09:00:00+01:00
 description: "Artemis III is the mission that lands humans on the Moon for the first time in over five decades. The architecture is bold, dependent, and unlike anything Apollo attempted. Here is an honest look at the lander stack and where the risk actually lives."
 cover:
   image: /assets/images/space/artemis-iii-lander-architecture.jpg
@@ -11,15 +12,18 @@ cover:
 
 ## TL;DR
 
+> **Update (September 2026):** In February 2026 NASA restructured Artemis: Artemis III is now a 2027 [low-Earth-orbit rendezvous and docking test](https://spacepolicyonline.com/news/isaacman-extremely-confident-artemis-iii-will-launch-in-2027/) with test versions of both commercial landers (SpaceX's Starship HLS and Blue Origin's Blue Moon), and the first crewed landing moves to **Artemis IV in 2028**. The lander architecture and risks below now apply to that first landing mission rather than to Artemis III itself. Lunar Gateway has also been paused, so the lander no longer needs to work with an orbital station.
+
+
 - [Artemis III](https://www.nasa.gov/mission/artemis-iii/) is supposed to land two astronauts near the lunar south pole using a stripped-down [SpaceX Starship](https://www.spacex.com/vehicles/starship/) as the Human Landing System (HLS).
-- The architecture is genuinely audacious - it requires a new super-heavy rocket to fly several times before the crewed mission, on-orbit cryogenic propellant transfer at a scale that has never been demonstrated, and a lunar surface stay enabled by a vehicle three times taller than the Saturn V's lunar module.
+- The architecture is genuinely audacious - it requires a new super-heavy rocket to fly several times before the crewed mission, on-orbit cryogenic propellant transfer at a scale that has never been demonstrated, and a lunar surface stay enabled by a lander roughly seven times taller than Apollo's lunar module.
 - The technical risk is concentrated in **propellant transfer**, **boil-off management**, **engine relight reliability**, and **crew ingress/egress** from a 50-metre tower on a sloped, unprepared surface.
 - The schedule risk is concentrated in everything that has to happen *before* the crewed flight - and most of it has not happened yet.
 - The mission can succeed. The honest read in mid-2026 is that it will succeed *late*, and the more interesting question is which of these subsystems is actually the long pole.
 
 ## How Artemis III Is Supposed To Work
 
-Artemis III's architecture is not Apollo. Apollo carried everything it needed in one stack on a Saturn V. Artemis III spreads the mission across multiple launches, multiple vehicles, and two distinct propulsion systems, with a crew transfer in lunar orbit.
+Artemis III's architecture is not Apollo. Apollo also transferred crew in lunar orbit, but it launched everything it needed - command module, service module and lander - in one stack on a single Saturn V. Artemis spreads the mission across multiple launches, multiple vehicles, and orbital refuelling before the lander even leaves Earth orbit.
 
 The simplified flow:
 
@@ -31,7 +35,7 @@ The simplified flow:
 6. Two crew members transfer from Orion to the HLS, descend to the surface, perform their EVAs, and ascend back to NRHO.
 7. The crew transfers back to Orion. Orion returns to Earth. The HLS is left in lunar orbit.
 
-This is a very different mission profile from Apollo's "one rocket, one stack, direct ascent and return." It exists because no single rocket - including Starship and SLS - can do the whole job in one shot to the lunar south pole. Distributed launch is the price of going.
+This is a very different mission profile from Apollo's "one rocket, one stack, lunar orbit rendezvous." It exists because no single rocket - including Starship and SLS - can do the whole job in one shot to the lunar south pole. Distributed launch is the price of going.
 
 ## What Has To Work That Has Never Worked Before
 

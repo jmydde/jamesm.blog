@@ -94,6 +94,6 @@ The deeper point is that the AI capability curve depends on something the market
 
 - [AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability](/ai/ai-evals-are-broken/) - the evaluation-side problem that makes detecting collapse harder.
 - [The State of Open-Weight Models in 2026: Llama, Qwen, Mistral, DeepSeek](/ai/state-of-open-weight-models-2026/) - the open-ecosystem context for the data-pipeline cost discussion.
-- [Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - the model category where synthetic reasoning traces matter most.
+- [Reasoning Models in 2026: o3, R1, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - the model category where synthetic reasoning traces matter most.
 - [AI Hallucinations: Understanding and Mitigating False Outputs](/ai/ai-hallucinations-understanding-and-mitigating/) - the failure mode that model collapse can quietly worsen.
 - [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/) - the broader reliability story this risk sits inside.

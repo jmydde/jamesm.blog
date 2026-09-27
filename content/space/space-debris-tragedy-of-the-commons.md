@@ -3,6 +3,7 @@ title: "Space Debris Is a Tragedy of the Commons - Here's the Math"
 date: 2026-05-02T20:00:00+01:00
 draft: false
 tags: ["space", "satellite", "2026"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "Low Earth orbit is filling up. The economics of space debris look exactly like a textbook tragedy of the commons - private benefits, shared costs, no pricing mechanism. A grounded look at the numbers behind Kessler syndrome and what would actually fix it."
 cover:
   image: /assets/images/space/space-debris-tragedy-of-the-commons.jpg
@@ -24,8 +25,8 @@ Order-of-magnitude figures, drawn from [ESA's space debris office](https://www.e
 - **Tracked objects in orbit:** roughly 40,000.
 - **Active satellites:** roughly 11,000 - of which around 7,000 are Starlink and similar megaconstellation members.
 - **Estimated debris 1-10cm:** roughly 1 million.
-- **Estimated debris under 1cm:** in the hundreds of millions.
-- **Mass in orbit:** roughly 12,000 tonnes.
+- **Estimated debris between 1mm and 1cm:** well over a hundred million.
+- **Mass in orbit:** roughly 12,000-13,000 tonnes.
 
 Each of these numbers is meaningful in its own way.
 
@@ -83,7 +84,7 @@ A few specific events define the modern debris picture.
 
 **The 2021 Russian ASAT test** destroyed Cosmos 1408 and forced the ISS crew to shelter in their return capsules. Over 1,500 trackable fragments produced.
 
-**The 2024 Long March 5B reentry incidents** raised concerns about uncontrolled large stage deorbits, even though those events removed mass from orbit rather than adding debris.
+**The 2020-2022 Long March 5B reentries** - uncontrolled returns of a 20-tonne core stage - raised concerns about uncontrolled large stage deorbits, even though those events removed mass from orbit rather than adding debris.
 
 Each of these is a discrete event that contributed disproportionately to the overall picture. Most years do not have an event of this magnitude. But the long tail of routine launches with unrecoverable upper stages, dead satellites, and occasional minor collisions is also continuously adding to the total.
 

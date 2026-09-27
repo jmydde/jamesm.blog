@@ -132,6 +132,6 @@ For multi-step agents specifically, endpoint scoring is not enough. Step-level s
 - [Securing AI Agents: Tool-Calling Risks, MCP Hardening, and the Confused Deputy Problem](/ai/securing-ai-agents/) - the trust problem from the adversary side.
 - [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/) - the closely-related testing-and-quality story for production LLM systems.
 - [The State of Open-Weight Models in 2026: Llama, Qwen, Mistral, DeepSeek](/ai/state-of-open-weight-models-2026/) - the model landscape these evals are supposed to be measuring.
-- [Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - the capability category that has driven much of the recent benchmark saturation.
+- [Reasoning Models in 2026: o3, R1, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - the capability category that has driven much of the recent benchmark saturation.
 - [AI Hallucinations: Understanding and Mitigating False Outputs](/ai/ai-hallucinations-understanding-and-mitigating/) - the failure mode that benchmarks particularly badly capture.
 - [Claude Mythos: The AI Benchmark Breaker That Won't Be Released](/ai/claude-mythos-benchmarks/) - the broader story of how benchmark-leading models do not necessarily become production models.

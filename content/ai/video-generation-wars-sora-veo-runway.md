@@ -101,6 +101,6 @@ For people building with these tools today, the practical implication is the bor
 
 - [Multimodal AI in 2026: Vision + Text + Audio - What's Actually Useful](/ai/multimodal-ai-2026/) - the broader multimodal landscape that the video models sit inside.
 - [Adobe's new Generative Fill is mind-blowing](/ai/adobe-generative-fill/) - the image-generation precedent the video-gen race is rhyming with.
-- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/) - the broader cost story behind the Sora burn-rate and the Veo-inside-Vids bundling.
+- [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/) - the broader cost story behind the Sora burn-rate and the Veo-inside-Vids bundling.
 - [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/) - the counterweight scenario for when generation costs do collapse.
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/) - the consistency-and-curation problem video generation has surfaced more sharply than any earlier modality.

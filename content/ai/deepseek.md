@@ -3,7 +3,8 @@ title: "DeepSeek 🤯"
 date: 2025-01-27T21:39:14+01:00
 draft: false
 tags: ["ai", "deepseek", "model"]
-description: "DeepSeek R1's January 2025 release shook the AI industry - a frontier-grade reasoning model built for a reported $6M that forced a rethink of training costs, open-source strategy, and closed-model pricing."
+lastmod: 2026-09-27T09:00:00+01:00
+description: "DeepSeek R1's January 2025 release shook the AI industry - a frontier-grade reasoning model on a base model with a reported $6M final training run that forced a rethink of training costs, open-source strategy, and closed-model pricing."
 cover:
   image: /assets/images/ai/ai-intelligence.jpg
   alt: DeepSeek R1 - the AI model that shook the industry
@@ -11,7 +12,7 @@ cover:
 
 ## TL;DR
 
-- **DeepSeek**'s January 2025 release of R1 shook markets - a frontier-grade reasoning model trained for a reported $6M, a fraction of US lab budgets
+- **DeepSeek**'s January 2025 release of R1 shook markets - a frontier-grade reasoning model built on a base model (V3) whose final training run reportedly cost about $5.6M in GPU time, a fraction of US lab budgets
 - The app shot to #1 on Apple's App Store inside days, and the open weights forced an industry-wide rethink of what training really costs
 - Subsequent releases (V3 and beyond) cemented DeepSeek as a serious competitor in the open-source and cost-efficient AI category
 - The story is less "China caught up" and more "the cost floor moved" - implications for closed-model pricing, GPU demand, and open-weight strategy
@@ -19,9 +20,9 @@ cover:
 
 ## Overview
 
-In January 2025, a Chinese AI lab most people had never heard of dropped a frontier-grade reasoning model for a reported $6 million and watched it hit the top of the Apple App Store inside days. **DeepSeek** R1 did not just impress researchers - it shook equity markets, forced a hard look at what US labs were actually spending their billions on, and made cheap, capable, open-weight models a credible default rather than an interesting curiosity.
+In January 2025, a Chinese AI lab most people had never heard of dropped a frontier-grade reasoning model built on a base model with a reported $5.6 million final training run, and watched it hit the top of the Apple App Store inside days. **DeepSeek** R1 did not just impress researchers - it shook equity markets, forced a hard look at what US labs were actually spending their billions on, and made cheap, capable, open-weight models a credible default rather than an interesting curiosity.
 
-Venture capitalist Marc Andreessen called it a "**groundbreaking achievement**". The lab claims its models rival industry leaders like ChatGPT at a **fraction of the cost** - and the $6 million training figure, compared to the **billions spent by US AI companies**, made that claim very hard to dismiss.
+Venture capitalist Marc Andreessen called it a "**groundbreaking achievement**". The lab claims its models rival industry leaders like ChatGPT at a **fraction of the cost** - and the roughly $6 million training figure - which covered only the final training run of the V3 base model, not the research, failed runs, or hardware behind it - compared to the **billions spent by US AI companies**, made that claim very hard to dismiss.
 
 DeepSeek had already shipped its V3 base model in late December 2024, but it was the R1 reasoning release in January 2025 that broke into the mainstream. The lab has continued iterating since - V3.1, V3.2, and further reasoning-tuned variants - and has cemented its place as one of the most credible open-weight competitors to the US frontier labs.
 

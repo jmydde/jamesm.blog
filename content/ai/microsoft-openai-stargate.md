@@ -37,4 +37,4 @@ Whether the full $500B materialises on schedule is the question. The first $100B
 - [Amazon Doubles Down: The $25 Billion Anthropic Bet](/ai/amazon-anthropic-25-billion-investment/)
 - [SpaceX Buys the Right to Buy Cursor for $60 Billion](/ai/spacex-cursor-60-billion-option/)
 - [GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?](/ai/gpt-5-5-release/)
-- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)

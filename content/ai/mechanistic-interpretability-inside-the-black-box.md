@@ -102,7 +102,7 @@ Whichever way the mind question eventually falls, the practical case stands on i
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
 - [AI Evals Are Broken: Why Benchmarks Stopped Measuring Real Capability](/ai/ai-evals-are-broken/)
 - [AI Reliability Is Weird: Why Testing LLMs Breaks Everything You Know](/ai/ai-reliability-is-weird/)
-- [Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/)
+- [Reasoning Models in 2026: o3, R1, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/)
 - [The Computational Case for Consciousness](/ai/the-computational-case-for-consciousness/)
 - [Dario Amodei: The Anthropic CEO Betting on Safety as Strategy](/ai/dario-amodei-anthropic-ceo/)
 - [We Built AI We Don't Fully Understand. What Happens When It's Smarter Than Us?](/ai/we-built-ai-we-dont-fully-understand/) - the gap that remains after the circuits, and the control question it raises if capability keeps ahead of understanding

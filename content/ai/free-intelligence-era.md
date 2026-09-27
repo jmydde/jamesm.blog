@@ -121,7 +121,7 @@ The thinking is going free. What we do with that fact is still up to us.
 
 ## Related Reading
 
-- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+- [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
 - [The Year 2126: What the Next Hundred Years Actually Looks Like](/ai/the-year-2126/)
 - [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
 - [The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting](/ai/meaning-of-work-age-of-abundance/)

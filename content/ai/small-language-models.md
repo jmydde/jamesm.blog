@@ -3,6 +3,7 @@ title: "The Rise of Small Language Models: Why Size Isn't Everything"
 date: 2026-04-12T06:03:00+01:00
 draft: false
 tags: ["small-language-model", "performance", "open-source", "local-llm", "mistral"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "Why smaller language models are proving that efficiency, speed, and cost matter more than raw parameter count. A look at the shift redefining AI development."
 cover:
   image: /assets/images/ai/open-weight-models-renaissance.png
@@ -13,7 +14,7 @@ cover:
 
 - **Small language models** (typically under 15B parameters) trained on high-quality data can match or outperform much larger models on many real-world tasks, thanks to distillation, instruction tuning, and quantization
 - The key advantages are speed (milliseconds vs seconds), cost (no per-token API charges), **privacy** (data stays on your hardware), and offline capability
-- Standout models include Mistral 7B for speed, Phi-3 for edge devices, and Qwen2.5 Coder for code and reasoning - all usable locally via Ollama
+- Standout families include Qwen, Gemma, Phi and Mistral, with code-specialised variants like Qwen Coder - all usable locally via Ollama
 - The industry is moving toward a **multi-tier approach**: small models (7-13B) for 80% of workloads, medium models as a step-up, and large models reserved only for complex reasoning tasks where they genuinely outperform
 - Large models still win on deep multi-step reasoning, breadth of knowledge, and few-shot generalization - the shift is about matching model size to task, not replacing large models entirely
 
@@ -31,7 +32,7 @@ The practical reality became undeniable: for most real-world applications, you d
 
 ## Why Small Language Models Matter
 
-**Speed**  -  A 7B model runs inference in milliseconds on consumer hardware. A 70B model takes seconds, even on high-end GPUs. For applications where latency matters - chatbots, real-time analysis, embedded systems - this is everything.
+**Speed**  -  A 7B model generates each token in milliseconds on consumer hardware and can answer short prompts in well under a second. A 70B model is several times slower per token and needs far more memory. For applications where latency matters - chatbots, real-time analysis, embedded systems - this is everything.
 
 **Cost**  -  No API calls to OpenAI. No token charges. No vendor lock-in. A small model running locally or on modest cloud infrastructure costs pennies per million tokens. At scale, that's a difference between millions and thousands of dollars annually.
 
@@ -43,17 +44,17 @@ The practical reality became undeniable: for most real-world applications, you d
 
 ## The Models Redefining the Space
 
-**[Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)**  -  Released in 2024, it became the speed champion. It performs at the level of Llama 13B on many benchmarks while running 2-3x faster. Now the default choice for developers who want "good enough, but fast."
+**[Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)**  -  Released in September 2023, it became the speed champion, outperforming Llama 2 13B on most benchmarks at around half the size. Now the default choice for developers who want "good enough, but fast."
 
 **[Llama 3 and Llama 4 small variants](https://huggingface.co/meta-llama)**  -  Meta's open models have continued to set the bar for what an open-source small model should be. Llama 3.1 8B, the Llama 3.2 multimodal small models, and the smaller Llama 4 MoE variants are now the default starting points for serious local work.
 
-**[Phi-2, Phi-3](https://azure.microsoft.com/en-us/products/phi)**  -  Microsoft's research into scaling laws led to surprisingly capable small models. Phi-3 mini runs on phones and edge devices. The inference quality is disproportionate to the parameter count.
+**[Phi](https://azure.microsoft.com/en-us/products/phi)**  -  Microsoft's small-model line, from Phi-2 and Phi-3 through Phi-4 (14B), built on heavily curated and synthetic training data. The smallest variants run on phones and edge devices. The inference quality is disproportionate to the parameter count.
 
 **[TinyLlama](https://github.com/jzhang38/TinyLlama)**  -  1.1B parameters. Runs on phones, embedded systems, and the very edge. Not a replacement for larger models, but proof that the floor keeps moving.
 
 **[Qwen2.5 Coder](https://github.com/QwenLM/Qwen2.5-Coder)**  -  Alibaba's code-focused small model line, with 7B and 14B variants that punch well above their parameter count on code generation and reasoning benchmarks. A common local pick where OpenClaw-style agent frameworks need something to run on top of.
 
-**[Dolphin](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b)**  -  Fine-tuned on Llama, optimized for instruction-following and reasoning. Popular in open-source communities for its performance relative to size.
+**[Dolphin](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b)**  -  A family of community fine-tunes across several base models (this one is built on Mixtral 8x7B, which at 47B total parameters is not small, though only ~13B are active per token). Popular for instruction-following with fewer built-in refusals.
 
 ## Where Small Models Excel
 

@@ -3,6 +3,7 @@ title: "Artemis II: Breaking the Distance Record"
 date: 2026-04-04T18:00:00+00:00
 draft: false
 tags: ['nasa', 'artemis', 'moon', 'space', 'exploration']
+lastmod: 2026-09-27T09:00:00+01:00
 description: "The crew of Artemis II is journeying further from Earth than any humans in history, surpassing the long-standing record held by the Apollo 13 mission."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg
@@ -11,11 +12,13 @@ cover:
 
 As the Orion spacecraft sweeps around the lunar far side, the four-person crew of Artemis II is doing more than just testing hardware - they are venturing further into the cosmos than any human being has ever traveled.
 
+*Update (April 2026): the record fell on 6 April. Artemis II reached [252,756 miles (406,771 km) from Earth](https://ny1.com/nyc/all-boroughs/space/2026/04/10/artemis-ii-orion-splashdown-day-10), beating Apollo 13 by roughly 4,100 miles, and the crew splashed down safely off San Diego on 10 April.*
+
 ## Surpassing Apollo 13
 
 For over five decades, the record for the farthest distance humans have traveled from Earth was held by the crew of **Apollo 13**. In April 1970, due to an emergency "free-return" trajectory, Jim Lovell, Jack Swigert, and Fred Haise reached a distance of approximately **400,171 kilometers (248,655 miles)** from Earth.
 
-Artemis II is designed to eclipse this milestone. By utilizing a similar free-return trajectory that swings deep behind the Moon, the Orion spacecraft will carry Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen roughly **10,300 kilometers (6,400 miles)** beyond the lunar far side.
+Artemis II is designed to eclipse this milestone. By utilizing a similar free-return trajectory that swings deep behind the Moon, the Orion spacecraft carried Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen around the lunar far side, passing about **6,545 kilometers (4,067 miles)** above the surface at closest approach. That loop behind the Moon is what carried them to a new human distance record.
 
 ## Why the Extra Distance?
 

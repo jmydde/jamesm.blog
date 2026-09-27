@@ -3,6 +3,7 @@ title: "NASA Artemis II"
 date: 2026-04-06T00:01:00+01:00
 draft: false
 tags: ['nasa', 'artemis', 'moon', 'orion', 'sls', 'space']
+lastmod: 2026-09-27T09:00:00+01:00
 description: "An overview of NASA Artemis II, the first crewed Artemis mission, including the crew, mission profile, current status, and why it matters."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg
@@ -29,7 +30,9 @@ The mission uses NASA's Space Launch System (SLS) rocket and Orion spacecraft to
 
 ## Current Status
 
-As of **April 6, 2026**, Artemis II is actively in flight.
+**Mission complete.** Artemis II set a new record for the farthest humans have travelled from Earth - [252,756 miles (406,771 km)](https://ny1.com/nyc/all-boroughs/space/2026/04/10/artemis-ii-orion-splashdown-day-10) - on 6 April 2026, and the crew splashed down safely off San Diego on 10 April.
+
+As of **April 6, 2026** (the original snapshot), Artemis II was actively in flight.
 
 NASA launched the mission from Launch Complex 39B at Kennedy Space Center on **April 1, 2026**, and Orion is performing its lunar flyby on **April 6, 2026** before heading back toward Earth for Pacific splashdown.
 

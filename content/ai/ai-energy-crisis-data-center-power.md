@@ -3,6 +3,7 @@ title: "The AI Energy Crisis: Why Data Center Power Will Define the Next Decade"
 date: 2026-05-11T17:00:00+01:00
 draft: false
 tags: ["ai", "energy", "infrastructure", "data-center", "policy", "2026"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "A grounded look at the energy constraint becoming the binding limit on AI deployment in 2026 - the power demand, the transformer backlogs, the grid interconnect queues, the rising consumer electricity prices, and what it means for the shape of the next decade of compute."
 cover:
   image: /assets/images/ai/ai-energy-crisis-data-center-power.png
@@ -26,7 +27,7 @@ The single most striking fact about the 2025-2026 AI energy story is how fast th
 
 The [IEA's December 2024 forecast](https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions) for data centre electricity consumption was revised upward by approximately 18% in early 2026 to a projected 1,100 TWh for the year. To put that in context, that is roughly the entire annual electricity consumption of Japan, or roughly 4% of global electricity demand attributable to a single workload category. The growth rate is what matters more than the level. Data centre consumption is growing at roughly 15-20% per year in the major markets, against an overall electricity demand growth rate that has historically been close to flat in the developed economies.
 
-In the US specifically, the [Bloom Energy January 2026 report](https://www.morganstanley.com/insights/articles/powering-ai-energy-market-outlook-2026) projects total data centre demand approximately doubling from 80 GW in 2025 to 150 GW by 2028, driven almost entirely by AI training and inference. Morgan Stanley's own forecast is somewhat lower - roughly 74 GW of new US demand by 2028 - but it is the gap between forecast demand and forecast available supply that matters, and that gap is approximately 49 GW. That is more than the total electricity consumption of most European countries, and it is the supply that does not exist on the timetable the AI build-out is assuming.
+In the US specifically, industry forecasts summarised in [Morgan Stanley's 2026 power outlook](https://www.morganstanley.com/insights/articles/powering-ai-energy-market-outlook-2026) project total data centre demand approximately doubling from 80 GW in 2025 to 150 GW by 2028, driven almost entirely by AI training and inference. Morgan Stanley's own forecast is somewhat lower - roughly 74 GW of new US demand by 2028 - but it is the gap between forecast demand and forecast available supply that matters, and that gap is approximately 49 GW. That is more than the total electricity consumption of most European countries, and it is the supply that does not exist on the timetable the AI build-out is assuming.
 
 The reason the forecasts keep moving is that the underlying assumptions about model efficiency, deployment density, and agent workloads have all moved faster than the forecasters expected. A single agentic workload in 2026 consumes orders of magnitude more compute than the equivalent chat workload did in 2023, not because the models are bigger but because they think for longer per task and run many parallel branches. The IEA's [March 2026 update](https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions) is explicit that the inference cost dynamics, not the training cost dynamics, are what drove the upward revision.
 
@@ -94,7 +95,7 @@ The energy story is the story of the next decade because it is the constraint ca
 
 ## Related Reading
 
-- [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/) - the cost-of-compute story the energy constraint sits inside.
+- [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/) - the cost-of-compute story the energy constraint sits inside.
 - [Cerebras, Groq, SambaNova: The Inference Hardware Insurgents](/ai/inference-hardware-insurgents/) - the chip-side response to the same efficiency pressure the energy story creates.
 - [Stargate](/ai/microsoft-openai-stargate/) - the most visible large-scale AI infrastructure programme tied directly to the dynamics this post describes.
 - [Is the $20 AI Subscription Era Over?](/ai/twenty-dollar-ai-era-is-over/) - the consumer-pricing consequence of the cost-of-compute trajectory.

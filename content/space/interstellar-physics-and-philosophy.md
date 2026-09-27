@@ -3,6 +3,7 @@ title: "The Physics and Philosophy of Interstellar"
 date: 2026-05-04T00:01:00+01:00
 draft: false
 tags: ["space", "physics", "entertainment", "science", "philosophy"]
+lastmod: 2026-09-27T09:00:00+01:00
 description: "How Christopher Nolan and Nobel laureate Kip Thorne built a Hollywood film around real general relativity - wormholes, Gargantua, gravitational time dilation, the Tesseract, and the trade-offs between scientific accuracy and storytelling."
 cover:
   image: /assets/images/space/interstellar-physics-and-philosophy.jpg
@@ -72,7 +73,7 @@ Gargantua is the centrepiece of the film's middle act and the reason its visual 
 
 ### Why It Has to Spin So Fast
 
-The plot requires extreme gravitational time dilation on Miller's planet. To make that physically possible without the planet being torn apart or swallowed, Gargantua must spin at a rate astonishingly close to its theoretical maximum. Thorne's calculations put the required spin within roughly one part in ten billion of the limit allowed by the Kerr solution.
+The plot requires extreme gravitational time dilation on Miller's planet. To make that physically possible without the planet being torn apart or swallowed, Gargantua must spin at a rate astonishingly close to its theoretical maximum. In *The Science of Interstellar*, Thorne puts the required spin within roughly one part in a hundred trillion of the maximum the Kerr solution allows.
 
 That near-maximal spin matters because, in a Kerr geometry, the location of the innermost stable circular orbit shifts inward as the black hole spins faster. A maximally spinning Gargantua allows planets to orbit just outside the event horizon without falling in - which is exactly what the story needs.
 
@@ -117,13 +118,13 @@ This is what makes *Interstellar* worth taking seriously as both science and cin
 
 ## The Penrose Slingshot
 
-To leave Gargantua's vicinity and reach the third candidate planet, the crew uses a slingshot manoeuvre around the black hole. This is a cinematic flourish, but it is also rooted in a real piece of relativistic physics: the [Penrose process](https://en.wikipedia.org/wiki/Penrose_process).
+After the disaster at Mann's planet, the crippled Endurance dives close to Gargantua and fires its engines deep in the black hole's gravity well to slingshot towards Edmunds' planet. On screen that is a gravitational slingshot helped by the Oberth effect - a rocket burn is most effective where the craft is moving fastest. But a spinning black hole offers something stranger still, and it's worth knowing about: the [Penrose process](https://en.wikipedia.org/wiki/Penrose_process).
 
 A spinning black hole is surrounded by a region called the ergosphere, between the event horizon and the static limit. Inside the ergosphere, spacetime itself is being dragged around the black hole's spin. A spacecraft on a carefully chosen trajectory can extract some of that rotational energy, leaving the ergosphere with more energy than it carried in.
 
-The energy comes from somewhere - the black hole's spin slows down by a corresponding tiny fraction. In *Interstellar*, this is what allows Endurance to reach Edmund's planet after the detour to Miller's.
+The energy comes from somewhere - the black hole's spin slows down by a corresponding tiny fraction. The film doesn't use the Penrose process explicitly, but it is the real relativistic mechanism that any spacecraft stealing energy from Gargantua's spin would have to rely on.
 
-The film does not explain any of this on screen. It just lets the manoeuvre happen, in a way that corresponds to a real piece of general relativistic mechanics. That is a small but characteristic choice.
+The film does not explain any of this on screen. It just lets the manoeuvre happen, in a way that stays within real gravitational mechanics. That is a small but characteristic choice.
 
 ---
 

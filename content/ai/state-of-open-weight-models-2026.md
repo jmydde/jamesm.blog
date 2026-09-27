@@ -109,6 +109,6 @@ For people building with these models today, the practical guidance is the borin
 
 - [DeepSeek](/ai/deepseek/) - the lab whose 2025 releases reset the price floor for the open ecosystem.
 - [The Rise of Small Language Models: Why Size Isn't Everything](/ai/small-language-models/) - the small-model end of the same story.
-- [Reasoning Models in 2026: o3, R2, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - the capability story the open-weight ecosystem now competes on alongside raw inference.
+- [Reasoning Models in 2026: o3, R1, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - the capability story the open-weight ecosystem now competes on alongside raw inference.
 - [Running AI Models Locally with Ollama: From Setup to OpenClaw](/ai/ollama/) - the practical local-deployment angle for open-weight models.
 - [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/) - the customisation decisions that open weights make possible.

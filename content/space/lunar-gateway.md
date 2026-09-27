@@ -3,7 +3,8 @@ title: "What Comes After Artemis: The Road to a Lunar Gateway"
 date: 2026-04-09T06:50:00+01:00
 draft: false
 tags: ["nasa", "artemis", "moon", "space-station", "infrastructure"]
-description: "Beyond Apollo-style moon landings: how the Lunar Gateway transforms humanity's approach to sustained lunar presence and deep space exploration."
+lastmod: 2026-09-27T09:00:00+01:00
+description: "The case for the Lunar Gateway, and why NASA paused it in March 2026 in favour of a permanent base on the lunar surface."
 cover:
   image: /assets/images/space/human-spaceflight-rockets-2026.jpg
   alt: The Lunar Gateway - humanity's stepping stone to sustained lunar presence
@@ -11,11 +12,12 @@ cover:
 
 ## TL;DR
 
-- The [Lunar Gateway](https://www.nasa.gov/gateway/) is infrastructure, not a destination: a way station in lunar orbit that separates the hard problem (Earth to lunar orbit) from the repeated one (orbit to surface)
-- Without it, each Artemis landing needs at least two SLS launches plus a Starship - roughly four Moon landings per decade; with it, landings can become routine
-- Assembly is modular: the Power and Propulsion Element arrives around 2028-2029, followed by the HALO habitation module, with operations expanding through the 2030s
-- The Gateway is to the Moon what the ISS is to Earth orbit, and it doubles as a staging point for the lunar far side and eventually deeper space
-- The honest risks are funding uncertainty, lander development, and international coordination - the technology is the more solved part
+> **Update (September 2026):** On 24 March 2026, NASA Administrator Jared Isaacman [paused Gateway "in its current form"](https://www.theregister.com/2026/03/24/goodbye_lunar_gateway_nasa_ditches/) and redirected its hardware and partner commitments toward a roughly $20 billion permanent base on the lunar surface. This post was published two weeks later without reflecting that decision. The sections below still explain the case Gateway's supporters made, but they describe a plan NASA is no longer pursuing. The current Artemis sequence is at the end.
+
+- The [Lunar Gateway](https://www.nasa.gov/gateway/) was designed as infrastructure, not a destination: a way station in lunar orbit separating the hard problem (Earth to lunar orbit) from the repeated one (orbit to surface)
+- Assembly was to be modular, starting with the Power and Propulsion Element and the HALO habitation module, which had already been built
+- NASA's 2026 restructuring chose the surface instead: Artemis III became a 2027 low-Earth-orbit docking test, crewed landings move to Artemis IV and V in 2028, and Gateway hardware is to be repurposed
+- The argument for an orbital station hasn't vanished, but for this decade the Moon's "base camp" will be on the ground
 
 ## The Gateway Concept
 
@@ -243,15 +245,16 @@ For crew to work from the Gateway, you need reliable landers. Starship is untest
 
 ---
 
-## Artemis IV and Beyond
+## What NASA Is Actually Doing Now
 
-Artemis III will land humans on the Moon, probably 2026-2027.
+After the March 2026 restructuring, the Artemis sequence looks like this:
 
-Artemis IV might launch to the Gateway instead of the surface - testing the new architecture while SLS still flies.
+- **Artemis II** (April 2026): crewed lunar flyby - completed, setting a new distance record
+- **Artemis III** (2027): a low-Earth-orbit mission in which Orion [rendezvouses and docks with test versions of both commercial landers](https://spacepolicyonline.com/news/isaacman-extremely-confident-artemis-iii-will-launch-in-2027/), SpaceX's Starship HLS and Blue Origin's Blue Moon - an Apollo 9-style rehearsal
+- **Artemis IV and V** (2028): the first crewed landings near the lunar south pole
+- **Beyond:** roughly annual landings and construction of a surface base, using repurposed Gateway hardware and partner contributions
 
-Artemis V and beyond increasingly use the Gateway as their operations base rather than launching separate descent and ascent vehicles.
-
-By 2035, "going to the Moon" means docking at the Gateway, staying weeks or months, and conducting many surface missions from a single orbital base. This is fundamentally different from Apollo.
+The trade NASA made is clear: fewer moving parts in lunar orbit, and investment concentrated where people will actually live and work.
 
 ---
 
@@ -297,7 +300,7 @@ This is worth emphasizing because it's the mental shift the Gateway requires:
 
 **Post-Gateway thinking**: "How do we enable routine, sustained human presence in lunar orbit and on the Moon?"
 
-The first question has been answered (Artemis III). The second question will define space exploration for the next 50 years.
+The first question is about to be answered again (Artemis IV). The second question will define space exploration for the next 50 years - and in 2026 NASA bet on answering it from the surface rather than from orbit.
 
 The Lunar Gateway isn't a destination. It's the beginning of treating the Moon like we treat Earth orbit: as accessible infrastructure for science, commerce, and exploration.
 

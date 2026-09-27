@@ -21,7 +21,7 @@ slug: "ai-economics-hardware"
 
 ## Core essays
 
-1. [Token Economics: Why the Cost of AI Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
+1. [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
 2. [GPU Servers vs AI API Credits: The Real Cost Breakdown](/ai/gpu-servers-vs-api-credits/)
 3. [Local AI vs Cloud AI: The Tradeoff Landscape in 2026](/ai/local-vs-cloud-ai-2026/)
 4. [The AI Energy Crisis: Why Data Center Power Will Define the Next Decade](/ai/ai-energy-crisis-data-center-power/)
