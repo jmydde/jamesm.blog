@@ -446,7 +446,7 @@ A diagram you cannot trust is worse than no diagram, because it actively mislead
 
 ### File layout
 
-```
+```text
 your-repo/
 ├── docs/
 │   └── diagrams/
@@ -467,7 +467,7 @@ Co-locate diagrams with the code or infrastructure they describe. A central arch
 
 Every diagram file gets a header comment with provenance and a review date.
 
-```
+```text
 # ---
 # diagram: ingest-pipeline
 # version: 2.3.0
@@ -496,7 +496,7 @@ A diagram shows the *what*. An ADR explains the *why*. Store ADRs next to diagra
 
 ### Naming conventions
 
-```
+```text
 <system>-<view>-<level>.<ext>
 ```
 

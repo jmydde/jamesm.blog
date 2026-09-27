@@ -3,6 +3,7 @@ title: "Claude Opus 4.7 Lands on Databricks: Enterprise Reasoning Meets the Lake
 date: 2026-04-20T07:45:00+01:00
 draft: false
 tags: ["ai", "claude", "anthropic", "databricks", "agent"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Anthropic's Claude Opus 4.7 is now available inside Databricks, bringing 21% fewer document reasoning errors on OfficeQA Pro and first-class Agent Bricks support to governed enterprise workflows."
 cover:
   image: /assets/images/ai/ai-intelligence.jpg
@@ -14,8 +15,8 @@ cover:
 - [Databricks](https://www.databricks.com/) has made Claude Opus 4.7 available on the platform, days after the model's 16 April 2026 release across the Anthropic API, Bedrock, Vertex AI, and Foundry
 - Databricks' own benchmarking shows 21% fewer errors than Opus 4.6 on [OfficeQA Pro](https://www.tipranks.com/news/private-companies/databricks-expands-enterprise-ai-capabilities-with-anthropic-claude-opus-4-7-integration), its internal benchmark for agentic reasoning over business documents
 - The model is exposed through three surfaces: built-in SQL and Python functions, Lakeflow Declarative Pipelines, and Agent Bricks, where it is now the recommended reasoning model
-- Unity Catalog governance, lineage tracking, and audit logging apply to every call - data never leaves the governed boundary
-- Pricing is unchanged at $5 per million input tokens and $25 per million output tokens
+- Unity Catalog governance, lineage tracking, and audit logging apply to calls made through Databricks, so access control and audit sit in the same place as the data
+- Anthropic's list price is unchanged at $5 per million input tokens and $25 per million output tokens; on Databricks, usage is billed through your Databricks account
 - The bigger story is distribution: Claude is now a first-class model inside all four major enterprise data planes
 
 [Databricks](https://www.databricks.com/) announced this week that [Anthropic's](https://www.anthropic.com/) Claude Opus 4.7 is now live on the platform. The headline from Databricks' own benchmarking is the part worth pausing on - 21% fewer errors than Opus 4.6 on the OfficeQA Pro document-reasoning benchmark when the model is grounded in source information.
@@ -93,7 +94,7 @@ If you are already on Databricks and working with Claude through another route, 
 - A pricing and procurement relationship that sits under your existing Databricks contract
 - Agent Bricks tooling if you want to move beyond one-shot calls into actual agents
 
-If you are on Databricks but using a smaller model for cost reasons, the Opus 4.7 pricing has not changed - $5 per million input tokens and $25 per million output tokens. That is premium pricing, but for the workloads where 21% fewer errors translates into real analyst time saved, the maths tends to work.
+If you are on Databricks but using a smaller model for cost reasons, Anthropic's list price for Opus 4.7 has not changed - $5 per million input tokens and $25 per million output tokens - though on Databricks you'll see it as DBU consumption on your Databricks bill, so check the model serving pricing page for the equivalent rate. That is premium pricing, but for the workloads where 21% fewer errors translates into real analyst time saved, the maths tends to work.
 
 If you are not on Databricks, this announcement is a reminder that the gravity in enterprise AI is increasingly being pulled toward the platforms that already own the data. The model is becoming the commodity. The data plane is becoming the moat.
 
@@ -109,7 +110,6 @@ That combination is harder to assemble from scratch than any individual piece su
 
 **Sources:**
 
-- [Databricks announces Claude Opus 4.7 integration (LinkedIn)](https://www.linkedin.com/company/databricks/)
 - [Databricks Expands Enterprise AI Capabilities With Anthropic Claude Opus 4.7 Integration](https://www.tipranks.com/news/private-companies/databricks-expands-enterprise-ai-capabilities-with-anthropic-claude-opus-4-7-integration)
 - [Introducing Claude Opus 4.7 - Anthropic](https://www.anthropic.com/news/claude-opus-4-7)
 - [Claude Opus 4.5 Is Here - Databricks Blog](https://www.databricks.com/blog/claude-opus-45-here)

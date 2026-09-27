@@ -87,7 +87,7 @@ A replay harness re-executes a captured trace against a new model version, promp
 
 Typical flow:
 
-```
+```text
 Production trace (JSON)
         │
         ▼

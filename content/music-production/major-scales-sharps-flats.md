@@ -50,7 +50,7 @@ Every time you move **up a perfect fifth** (7 semitones), you **add one sharp** 
 
 The **order of sharps** is:
 
-```
+```text
 
 F#, C#, G#, D#, A#, E#, B#
 
@@ -88,7 +88,7 @@ If a scale uses **flats** instead of sharps:
 - Move **down a fifth** each time.
 - Order of flats:
 
-```
+```text
 
 B♭, E♭, A♭, D♭, G♭, C♭, F♭
 
@@ -103,14 +103,14 @@ Mnemonic for flats:
 ## 6. Circle of Fifths Cheat Sheet
 
 **Sharps (Clockwise):**  
-```
+```text
 
 C → G → D → A → E → B → F# → C#
 
 ```
 
 **Flats (Counterclockwise):**  
-```
+```text
 
 C → F → Bb → Eb → Ab → Db → Gb → Cb
 

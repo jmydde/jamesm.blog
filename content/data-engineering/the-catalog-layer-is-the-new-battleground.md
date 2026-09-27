@@ -3,6 +3,7 @@ title: "The Catalog Layer Is the New Battleground - Unity, Polaris, Gravitino, N
 date: 2026-05-02T15:00:00+01:00
 draft: false
 tags: ['data-engineering', 'catalog', 'iceberg', 'unity-catalog', 'lakehouse', 'governance', '2026']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "The open table format wars are over. The fight has moved up to the catalog layer where Unity, Polaris, Gravitino, and Nessie are now competing. A grounded look at what each one is, what they share, and where the battle lines actually run."
 cover:
   image: /assets/images/data-engineering/catalog-layer-battleground.jpg
@@ -94,13 +95,17 @@ That is why the catalog layer is now the strategic battleground. Whoever owns th
 - **Smaller ecosystem.** Engine support is real but narrower than Unity or Polaris.
 - **Not a governance plane.** Nessie focuses on versioning and branching. Audit, lineage, and access control are weaker.
 
+### The Cloud-Native Catalogs
+
+The four open projects get the attention, but a large share of Iceberg tables in production are registered in the hyperscalers' own catalogs: **AWS Glue Data Catalog** (which also fronts S3 Tables and exposes an Iceberg REST endpoint), and **Google's BigLake metastore**. They're less ambitious on governance, but they're the default on their clouds, and "we'll just use Glue" is the most common real-world answer on AWS. Any honest catalog strategy has to include them.
+
 ## Where The Battle Lines Actually Run
 
 Once you stop asking "which catalog is best" and start asking "which catalog wins which job," the picture clarifies.
 
 **For Databricks-centric organisations:** Unity is the obvious answer. The integration is deepest, the operational story is most mature, and the cost of fighting it is high.
 
-**For Snowflake-centric organisations:** Polaris is the natural fit. Snowflake's commitment is real and Polaris is engineered to be a credible open catalog beneath Snowflake's commercial offering.
+**For Snowflake-centric organisations:** Snowflake's Horizon Catalog, which Snowflake [built on Apache Polaris](https://www.snowflake.com/en/news/press-releases/snowflake-pioneers-new-open-framework-for-interoperable-enterprise-data-and-ai/) in 2026, is the natural fit, with Polaris itself (or its managed form, Snowflake Open Catalog) when other engines are primary.
 
 **For multi-engine, multi-cloud organisations that do not want to bet on a vendor:** Polaris or Gravitino. Polaris if you mostly care about tables. Gravitino if you have meaningful non-table assets to catalog as well.
 
@@ -134,7 +139,7 @@ Three problems are still genuinely unsolved across all four projects.
 
 The catalog layer fight in 2026 is more interesting than the format fight ever was, because the catalog layer touches more of the things that actually matter to enterprises - governance, access, audit, lineage, and the integration of data with AI workflows.
 
-The realistic 2026-2027 outcome looks like this: **multiple catalog implementations, all speaking the Iceberg REST protocol, with federation between them, and most organisations running more than one**. Unity will dominate Databricks shops. Polaris will dominate Snowflake shops. Gravitino and Nessie will carve out specific roles. Federation will be table stakes.
+The realistic 2026-2027 outcome looks like this: **multiple catalog implementations, all speaking the Iceberg REST protocol, with federation between them, and most organisations running more than one**. Unity will dominate Databricks shops. Horizon, built on Polaris, will dominate Snowflake shops. Glue will remain the default on AWS. Gravitino and Nessie will carve out specific roles. Federation will be table stakes.
 
 If you are choosing today, the safest move is to optimise for **protocol compliance and federation** rather than for picking a single winner. You probably will not pick a single winner. You will pick a primary catalog and learn to live with two or three.
 

@@ -3,6 +3,7 @@ title: "The eBPF Revolution - What Every Platform Engineer Should Know"
 date: 2026-05-03T17:00:00+01:00
 draft: false
 tags: ['devops', 'ebpf', 'kubernetes', 'observability', 'platform', 'linux', '2026']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "eBPF stopped being a niche kernel curiosity and became the foundation of modern Linux observability, networking, and security. A grounded guide for platform engineers in 2026 - what eBPF actually is, what it has changed, and where it is going."
 cover:
   image: /assets/images/devops/ebpf-revolution.jpg
@@ -68,11 +69,15 @@ The killer feature is that Tetragon can enforce policies (kill a process that sh
 
 [Pixie](https://px.dev/) gives you instant, no-instrumentation observability for Kubernetes workloads. You install it on a cluster, and immediately you can run scripts that show HTTP traces, database queries, function-level CPU usage, and network flows. All of it without modifying any application.
 
-Pixie is the cleanest demonstration of "observability without instrumentation" that exists. The trade-off is that it works best for protocols and runtimes Pixie understands - HTTP, gRPC, Postgres, MySQL, Go, and a few others.
+Pixie is the cleanest demonstration of "observability without instrumentation" that exists, though check the project's recent release activity before standardising on it. The trade-off is that it works best for protocols and runtimes Pixie understands - HTTP, gRPC, Postgres, MySQL, Go, and a few others.
 
 ### Parca and Pyroscope
 
 [Parca](https://www.parca.dev/) and [Pyroscope](https://pyroscope.io/) are continuous profiling tools. They sample CPU and memory profiles continuously across your fleet, with negligible overhead, and let you ask "where was time being spent on this service yesterday." This is a workflow that did not really exist before eBPF made it cheap.
+
+### OpenTelemetry's eBPF Work
+
+The most significant consolidation is happening inside [OpenTelemetry](https://opentelemetry.io/). Elastic donated its eBPF-based continuous profiling agent to the project in 2024, which is steering profiling toward a vendor-neutral standard, and eBPF-based auto-instrumentation for traces and metrics has followed the same path. If you want eBPF-derived signals that flow into whatever backend you already use, this is increasingly where to look first.
 
 ### Falco
 
@@ -93,6 +98,23 @@ You probably will not write eBPF programs. You will absolutely make decisions th
 **Privilege model.** eBPF programs traditionally required CAP_SYS_ADMIN, which is a very large capability to grant. Newer kernels have introduced more granular eBPF capabilities (CAP_BPF, CAP_PERFMON). Platform engineers should care about which capabilities the tools they install actually need.
 
 **Debuggability.** When an eBPF tool misbehaves, the failure modes are weird. A network policy not being enforced, a profile that stops collecting, a security rule that silently fails. Knowing how to inspect loaded eBPF programs (`bpftool`), where the verifier rejected something, and what kernel events your tools are subscribed to is now part of the platform engineer toolkit.
+
+## Seeing It for Yourself
+
+Five minutes on any recent Linux box makes eBPF concrete:
+
+```bash
+# Which eBPF programs are loaded right now? (Cilium, Falco, etc. show up here)
+sudo bpftool prog list
+
+# Trace every new process on the machine, with its arguments
+sudo bpftrace -e 'tracepoint:syscalls:sys_enter_execve { printf("%s -> %s\n", comm, str(args->filename)); }'
+
+# Count syscalls by process for ten seconds
+sudo bpftrace -e 'tracepoint:raw_syscalls:sys_enter { @[comm] = count(); } interval:s:10 { exit(); }'
+```
+
+None of this required installing an agent, changing an application, or restarting anything - which is the whole point.
 
 ## What eBPF Has Genuinely Changed
 

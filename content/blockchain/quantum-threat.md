@@ -3,6 +3,7 @@ title: "Quantum Computing: A Threat to Bitcoin?"
 date: 2026-05-20T09:00:00+01:00
 draft: false
 tags: ["bitcoin", "blockchain", "quantum", "cryptography", "security", "web3"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "How real is the quantum threat to Bitcoin in 2026? A grounded update on the timeline to Q-Day, how much BTC genuinely sits at risk, the recent quantum milestones, and the defences taking shape - BIP-360, BIP-361 and NIST's post-quantum cryptography standards."
 cover:
   image: /assets/images/blockchain/quantum-threat.png
@@ -46,10 +47,10 @@ The distinction matters. The realistic quantum threat is against signatures, not
 
 "Q-Day" is the informal name for the point at which a quantum computer can break the cryptography securing real assets. We are not there, but the trend line has steepened.
 
-- **Hardware milestones** - Google's *Willow* chip (December 2024) and Microsoft's *Majorana 1* (February 2025) showed meaningful progress on error correction, the hardest part of scaling. Today's machines still measure in the low hundreds of qubits.
+- **Hardware milestones** - Google's *Willow* chip (December 2024) showed error rates falling as the error-correcting code grew, the key threshold for scaling. Microsoft's *Majorana 1* (February 2025) claimed a new topological qubit, though that claim remains disputed by other physicists. Machines now have hundreds to over a thousand *physical* qubits, but the number of error-corrected *logical* qubits - what an attack actually needs - is still tiny.
 - **The first real attacks** - In September 2025, researcher Steve Tippeconnic broke a 6-bit elliptic curve key on quantum hardware. In April 2026, Giancarlo Lelli [broke a 15-bit key](https://www.coindesk.com/tech/2026/04/24/researcher-wins-1-bitcoin-bounty-for-largest-quantum-attack-on-underlying-tech) to win Project Eleven's "Q-Day Prize" of 1 BTC - a 512x jump in just seven months. Bitcoin uses 256-bit keys, so this is still a long way from a real break, but the direction of travel is clear.
 - **Falling resource estimates** - Just as important, the cost of a full attack keeps dropping. A 2025 estimate put a break of RSA-2048 at roughly a million qubits; a Google whitepaper in April 2026 estimated under 500,000 physical qubits for a 256-bit elliptic curve attack, and a follow-up from Caltech researchers suggested a neutral-atom architecture could need as few as ~10,000. Algorithms are improving faster than hardware.
-- **The consensus timeline** - Most credible estimates now place the risk window between **2029 and 2035**. Project Eleven puts a greater-than-50% likelihood of a capable machine by 2033. Tellingly, [Google has committed to migrating its own infrastructure](https://www.coindesk.com/tech/2026/03/28/watch-out-bitcoin-devs-google-says-post-quantum-migration-needs-to-happen-by-2029) to post-quantum cryptography by 2029 - a useful signal of how seriously the people building these machines take the deadline.
+- **The consensus timeline** - Most credible estimates now place the risk window between **2029 and 2035**. Project Eleven puts a greater-than-50% likelihood of a capable machine by 2033. Estimates spread this widely - from around 10% by 2032 to better than even odds by 2033 - because they rest on different assumptions about error-correction progress, which is itself a reason to migrate early rather than wait for consensus. Tellingly, [Google has committed to migrating its own infrastructure](https://www.coindesk.com/tech/2026/03/28/watch-out-bitcoin-devs-google-says-post-quantum-migration-needs-to-happen-by-2029) to post-quantum cryptography by 2029 - a useful signal of how seriously the people building these machines take the deadline.
 
 The honest summary: a quantum computer that can break Bitcoin is still at least two major engineering leaps away, but "not imminent" is not the same as "not urgent."
 

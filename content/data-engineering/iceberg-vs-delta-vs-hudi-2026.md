@@ -3,6 +3,7 @@ title: "Iceberg vs Delta vs Hudi in 2026 - The Format Wars Are Over"
 date: 2026-05-03T14:00:00+01:00
 draft: false
 tags: ["data-engineering", "iceberg", "delta-lake", "lakehouse", "data", "2026"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "The open table format wars dominated the lakehouse conversation for five years. In 2026 the picture has settled. A grounded look at where Iceberg, Delta, and Hudi actually stand, who won which battles, and what that means for the people who have to choose."
 cover:
   image: /assets/images/data-engineering/iceberg-vs-delta-vs-hudi-2026.jpg
@@ -39,7 +40,7 @@ Iceberg is the **default open table format** in 2026. That is not a marketing st
 - Snowflake - native Iceberg with full read and write.
 - Google BigQuery - native Iceberg integration.
 - Apache Spark, Trino, Flink, Dremio, ClickHouse, DuckDB, StarRocks - all read and write Iceberg.
-- Databricks - reads Iceberg, writes Iceberg via UniForm.
+- Databricks - managed Iceberg tables in Unity Catalog, plus UniForm to expose Delta tables as (read-only) Iceberg.
 
 The protocol-level commitment from the major engines locked in Iceberg's role as the neutral interchange format. Once your data is in Iceberg, you can pick your engine. That is the property that mattered most to enterprises and they bought it accordingly.
 
@@ -72,6 +73,8 @@ A few specific 2025 events tipped the balance from "still fighting" to "settled.
 
 **Snowflake's deep Iceberg commitment.** Snowflake fully committed to Iceberg as a first-class citizen, including writing through its own engines. That pulled enterprise customers who valued Snowflake away from a Snowflake-only proprietary format.
 
+**Databricks bought Tabular.** In June 2024 Databricks acquired Tabular, the company founded by Iceberg's original creators. It was the clearest possible signal that the Delta camp's owner had decided to embrace Iceberg rather than compete with it, and it led directly to managed Iceberg tables in Unity Catalog.
+
 **S3 Tables.** AWS shipped a managed Iceberg table service that hides most of the operational pain of running Iceberg yourself. Customers who would have hesitated at the operational complexity now have a managed path.
 
 **Delta UniForm reaching production.** UniForm went from a checkbox to a usable feature that real customers ship in production. That ended the awkward conversation where Databricks customers had to choose between native and interchange formats.
@@ -102,7 +105,7 @@ If you bet on one of the three formats years ago, the practical answer in 2026 i
 - **Hudi shops with workloads that fit Hudi** - keep going. The format works.
 - **Hudi shops with general analytics** - migration to Iceberg is worth a serious look. The community gravity has moved.
 
-Migrations between formats are not free, but they are also not as expensive as they were in 2022. Every major engine now has tooling to read multiple formats, which means migrations can happen incrementally rather than as cutover events.
+Migrations between formats are not free, but they are also not as expensive as they were in 2022. Every major engine now has tooling to read multiple formats, which means migrations can happen incrementally rather than as cutover events. Apache XTable (formerly OneTable) is also worth knowing: it translates metadata between Iceberg, Delta and Hudi so one set of data files can be read as any of the three, which is useful during a staged migration or for Hudi tables that need Iceberg readers.
 
 ## What The Format Wars Taught Us
 

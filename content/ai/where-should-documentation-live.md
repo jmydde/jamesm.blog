@@ -70,7 +70,7 @@ If I try to write down what I think I believe, the list looks something like thi
 
 If I force myself to draw a picture of what this might look like, it comes out something like this. I am not claiming it works. I am claiming it is the least bad thing I can currently imagine.
 
-```
+```text
                   ┌──────────────────────────────────────────┐
                   │            DISCOVERY LAYER               │
                   │   unified search + AI agent across all   │

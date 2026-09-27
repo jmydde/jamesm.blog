@@ -3,6 +3,7 @@ title: "AI-Native Pipelines - What Changes When Your Consumer Is an LLM, Not a D
 date: 2026-05-03T16:00:00+01:00
 draft: false
 tags: ['data-engineering', 'ai', 'llm', 'pipeline', 'lakehouse', 'rag', '2026']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Most data pipelines were designed to feed dashboards and analysts. In 2026 a growing share of pipeline output is being consumed by language models, agents, and other non-human readers. The shape of the pipeline changes more than people realise when the consumer is no longer a human."
 cover:
   image: /assets/images/data-engineering/ai-native-pipelines.jpg
@@ -12,7 +13,7 @@ cover:
 ## TL;DR
 
 - Data pipelines were optimised for human consumers - dashboards, BI tools, analysts. In 2026 a growing share of pipeline output flows directly to language models, agents, and retrieval systems.
-- That changes the design constraints in ways that catch teams off guard. Aggregation matters less. **Context fidelity** matters more. **Freshness** behaves differently. **Schema** moves from rigid to negotiated. **Cost** shifts from compute to tokens.
+- That changes the design constraints in ways that catch teams off guard. Aggregation moves out of the dashboard and into tools the model can call. **Context fidelity** matters more. **Freshness** behaves differently. **Schema** moves from rigid to negotiated. **Cost** shifts from compute to tokens.
 - The biggest mistake is treating an LLM consumer as if it were just another dashboard. It is not. It does not skim, it does not interpret charts, it does not have working memory across rows. It needs to be fed.
 - The new patterns - retrieval-aware partitioning, embedding pipelines, structured-document outputs, prompt-shaped views, evaluation harnesses for data quality - are the actual subject of "AI-native data engineering" in 2026.
 
@@ -34,7 +35,7 @@ Dashboards live and die by aggregation. Sums, counts, averages, group-bys. The w
 
 Language models do not need this kind of compression. They need **enough context to answer the actual question being asked**. Sometimes that is an aggregate. More often it is the raw rows, the relevant historical context, and the relationships between entities. Pre-aggregating a fact table for a dashboard quietly destroys the information a model would have used to give a precise answer.
 
-The new design principle: **build the most informative materialisation you can afford, and let the model do the aggregation**. Where a human dashboard would show "average order value by week," an LLM-facing view should expose orders, customers, and products at the right grain so the model can answer arbitrary follow-ups.
+The new design principle: **expose data at the right grain, and let the model compute through tools rather than in its head**. Where a human dashboard would show "average order value by week," an LLM-facing interface should expose orders, customers, and products at a useful grain - usually through a SQL or semantic-layer tool - so the model can answer arbitrary follow-ups. What it should not do is receive thousands of raw rows in its context and add them up itself: models are unreliable at arithmetic over many rows, and every row costs tokens. Pre-aggregated views are still the right answer for the questions you know will be asked.
 
 ### 2. Context Fidelity Becomes The Primary Quality Metric
 
@@ -69,7 +70,7 @@ This is not a license to break contracts. But it does open a different design sp
 
 - **Self-describing outputs.** Pipelines feeding LLMs should output structured data with descriptive names and inline documentation rather than minimal cryptic codes optimised for storage.
 - **Wider schemas.** Where a dashboard needed three columns, an LLM can usefully consume thirty. Including fields the model might not need is cheap.
-- **Graceful schema evolution.** Adding a new field to an LLM-consumed view is a non-event. Renaming one is, surprisingly, also a near-non-event if the description is preserved.
+- **Graceful schema evolution.** Adding a new field to an LLM-consumed view is a non-event. Renaming one is tolerable for free-text context if the description is preserved - but not for fields that appear in tool definitions, structured-output schemas, or SQL the agent has learned to write, where a rename is as breaking as it is for any other API.
 
 The mental shift: schemas for humans are contracts; schemas for models are documentation.
 
@@ -127,7 +128,7 @@ If you are running data pipelines today and adding LLM-facing consumers in the n
 - **Add freshness metadata to anything an LLM reads.** This is the cheapest win on the list.
 - **Build at least one evaluation harness** that measures end-to-end answer quality given pipeline output. Make it part of CI.
 - **Treat embedding generation as a first-class pipeline.** Not as a script that runs once.
-- **Resist the urge to pre-aggregate.** Let the model do its job.
+- **Give the model a query tool rather than a pile of rows.** Pre-aggregate for known questions, and let the model query for the rest.
 
 None of this is exotic. It is just the boring engineering work that the next generation of data platforms is going to be built on, the same way the lakehouse was built on the boring engineering work of the previous generation.
 

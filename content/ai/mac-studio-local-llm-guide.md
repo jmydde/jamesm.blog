@@ -3,6 +3,7 @@ title: "Which Mac Studio Should You Buy for Running LLMs Locally?"
 date: 2026-07-13T21:22:00+01:00
 draft: false
 tags: ["ai", "apple", "llm", "mac-studio", "inference", "local-llm", "qwen", "llama"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "A practical guide to Mac Studio configs for running popular free models locally (Qwen, LLaMA, Mixtral), realistic performance expectations, and which hardware actually makes sense."
 cover:
   image: /assets/images/ai/which-mac-studio-llms.jpg
@@ -11,7 +12,7 @@ cover:
 
 ## TL;DR
 
-- **Best entry point:** M2 Max 32-64 GB (~£1.4k-£2k) for 7B-13B models at 25-40 tok/s
+- **Best entry point:** M2 Max 32-64 GB (~£1.4k-£2k, mostly refurbished now) for 7B-14B models at 25-40 tok/s
 - **Best sweet spot:** M2 Ultra 64-128 GB (~£3k-£4.5k) handles 30B+ models comfortably
 - **Best for 70B models:** M3 Ultra 128 GB+ (~£5.5k+) with 800+ GB/s bandwidth
 - **Newer alternative:** M4 Max (£2k-£4k) - lower bandwidth (410-546 GB/s) than Ultra chips, but still solid for 7B-13B models
@@ -29,30 +30,30 @@ If you're also weighing up NVIDIA's dedicated AI box, see my companion piece: [D
 Different models have wildly different memory demands. Here's what you actually need for the top free models:
 
 ### Small models (great for any Mac)
-- [**LLaMA 3 7B**](https://huggingface.co/meta-llama/Meta-Llama-3-8B): ~4–5 GB (Q4), ~8 GB (Q5)
-- [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1): ~4–5 GB (Q4), ~8 GB (Q5)
+- [**Llama 3 8B**](https://huggingface.co/meta-llama/Meta-Llama-3-8B) (and 3.1 8B): ~4.5–5 GB (Q4), ~5.5–6 GB (Q5)
+- [**Mistral 7B**](https://huggingface.co/mistralai/Mistral-7B-v0.1): ~4–4.5 GB (Q4), ~5–5.5 GB (Q5)
 - [**Phi 2**](https://huggingface.co/microsoft/phi-2): ~2.5 GB (Q4)
 
 **Reality:** Runs on M2 Max easily. 15–40 tok/s depending on chip.
 
 ### Medium models (the practical sweetspot)
-- **LLaMA 3 13B**: ~8–10 GB (Q4), ~13 GB (Q5)
-- **Deepseek Chat 7B / 13B**: ~4–10 GB
-- **Gemma 7B / 13B**: ~4–10 GB
+- **Qwen3 14B**: ~9 GB (Q4), ~10.5 GB (Q5)
+- **Phi-4 14B**: ~9 GB (Q4)
+- **Gemma 3 12B**: ~7.5–8 GB (Q4)
 
 **Reality:** Comfortable on M2 Max, excellent on M2 Ultra. 20–40 tok/s is standard.
 
 ### Large dense models (needs real hardware)
-- [**LLaMA 3 70B**](https://huggingface.co/meta-llama/Meta-Llama-3-70B): ~38–42 GB (Q4), ~65 GB (Q5)
-- [**Mixtral 8x7B MoE**](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1): ~14–16 GB (Q4), ~24 GB (Q5)
+- [**Llama 3 70B**](https://huggingface.co/meta-llama/Meta-Llama-3-70B): ~40–43 GB (Q4), ~50 GB (Q5)
+- [**Mixtral 8x7B MoE**](https://huggingface.co/mistralai/Mixtral-8x7B-v0.1) (47B total, ~13B active): ~26–28 GB (Q4), ~32 GB (Q5)
 
-**Reality:** Mixtral works well on M2 Ultra. 70B needs M3 Ultra or a GPU rig.
+**Reality:** Mixtral 8x7B fits on a 64 GB Max and flies on an Ultra, because only ~13B parameters are read per token. Dense 70B fits in 64 GB at Q4 but runs at single-digit to low-teens tok/s even on Ultra chips.
 
 ### Mixture-of-experts (tricky)
 - [**Qwen 35B MoE**](https://huggingface.co/Qwen) (3B active): ~19–22 GB (Q4), ~36 GB (Q8)
-- [**Mixtral 8x22B**](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1): ~24–28 GB (Q4), ~40 GB (Q5)
+- [**Mixtral 8x22B**](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1) (141B total, ~39B active): ~80–85 GB (Q4), ~100 GB (Q5)
 
-**Reality:** You must load all weights even though only part activates. Needs M2 Ultra minimum.
+**Reality:** You must load all weights even though only part activates. The small-active-parameter models (Qwen 35B-A3B) are fast on almost anything with enough memory; Mixtral 8x22B needs a 128 GB machine.
 
 The key gotcha: active parameters ≠ memory footprint. Qwen 35B with 3B active still needs 35B worth of weights in memory.
 
@@ -81,10 +82,11 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 ### M2 Max (32–64 GB) - Budget entry point
 
 **What runs well:**
-- LLaMA 3 7B–13B: ✅ excellent (25–40 tok/s)
+- 7B–14B models: ✅ excellent (25–40 tok/s)
 - Mistral 7B: ✅ excellent (25–40 tok/s)
-- Mixtral 8x7B: ⚠️ tight but viable (12–18 tok/s at 32GB)
-- Qwen 35B / 70B: ❌ frustrating (8–15 tok/s, memory pressure)
+- Mixtral 8x7B: ⚠️ needs the 64GB model (it doesn't fit comfortably in 32GB); ~15–20 tok/s
+- Qwen 35B-A3B: ✅ fast at 64GB (MoE, ~3B active)
+- 70B dense: ❌ frustrating (fits at 64GB Q4, but ~6–9 tok/s)
 
 **Cost:** £1,400–£2,500 new
 
@@ -93,12 +95,13 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 ### M2 Ultra (64–128 GB) - The sweet spot
 
 **What runs well:**
-- LLaMA 3 7B–13B: ✅ excellent (30–45 tok/s)
+- 7B–14B models: ✅ excellent (30–45 tok/s)
 - Mixtral 8x7B: ✅ very good (18–28 tok/s)
-- Qwen 35B / Mixtral 8x22B: ✅ responsive (15–25 tok/s at 64GB, 18–28 tok/s at 128GB)
-- LLaMA 70B: ⚠️ barely viable (8–12 tok/s at 128GB only)
+- Qwen 35B-A3B: ✅ very fast
+- Mixtral 8x22B: ✅ responsive at 128GB only (~80 GB of weights)
+- Llama 70B: ⚠️ usable (roughly 10–14 tok/s at Q4)
 
-**Specs:** 20 cores CPU, 16 cores GPU, ~800 GB/s bandwidth
+**Specs:** 24-core CPU, 60- or 76-core GPU, 800 GB/s bandwidth
 
 **Cost:** £3,000–£5,500 new; ~£2,400–£3,200 refurbished
 
@@ -111,7 +114,7 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 **What runs well:**
 - All medium models: 🚀 excellent (35–50+ tok/s)
 - Qwen 35B / Mixtral variants: 🚀 very smooth (20–30 tok/s)
-- LLaMA 70B: ✅ smooth (22–30 tok/s at 128GB, faster at 192GB+)
+- Llama 70B: ✅ usable (roughly 12–16 tok/s at Q4; more memory lets you run higher-precision quants or bigger models, not faster ones)
 - Multiple concurrent models: ✅ comfortable headroom
 
 **Cost:** £4,200–£7,500+
@@ -123,9 +126,10 @@ Here's what actually runs well on each Mac, with realistic token speeds.
 **Bandwidth trade-off:** 410–546 GB/s vs 800+ on Ultra chips. Still faster than NVIDIA's DGX Spark (273 GB/s), just lower than Ultra-tier Macs.
 
 **What runs well:**
-- LLaMA 3 7B–13B: ✅ great (25–35 tok/s)
+- 7B–14B models: ✅ great (30–50 tok/s)
 - Mixtral 8x7B: ✅ workable (15–22 tok/s)
-- Qwen 35B: ⚠️ only if maxed to 128GB, then ~15–22 tok/s (M2 Ultra does similar for less)
+- Qwen 35B-A3B: ✅ fast from 64GB
+- 70B dense: ⚠️ roughly 8–11 tok/s on the 546 GB/s chip (M2 Ultra is faster for less)
 
 **Cost:** ~£2,000–£4,000
 
@@ -153,7 +157,7 @@ So "20 tok/s at 4K context" becomes "maybe 12 tok/s at 32K context" on the same 
 
 ## Picking your Mac based on your model choice
 
-**You want to run 7B–13B models (LLaMA 3, Mistral, etc.)**
+**You want to run 7B–14B models (Llama, Mistral, Qwen, Gemma, etc.)**
 
 → **M2 Max with 32–64 GB** (~£1.5k–£2.5k)
 
@@ -161,11 +165,11 @@ So "20 tok/s at 4K context" becomes "maybe 12 tok/s at 32K context" on the same 
 - Great value, these are excellent utility models
 - Plenty of power
 
-**You want to run 30B–35B models (Qwen, Mixtral, etc.)**
+**You want to run 30B-class and MoE models (Qwen 35B-A3B, Mixtral 8x7B, etc.)**
 
 → **M2 Ultra with 64 GB minimum** (~£3k, or £2.4k refurbished)
 
-- 15–25 tok/s depending on model
+- 40+ tok/s for the MoE models, which only read a few billion parameters per token
 - Comfortable performance for interactive use
 - Good refurbished availability
 
@@ -178,8 +182,8 @@ So "20 tok/s at 4K context" becomes "maybe 12 tok/s at 32K context" on the same 
 
 → **M3 Ultra with 128 GB** (~£5.5k)
 
-- 22–30 tok/s on 70B models
-- Newest architecture, better efficiency
+- Roughly 12–16 tok/s on dense 70B models at Q4 (similar to an M2 Ultra, since the bandwidth is almost the same)
+- Faster prompt processing than the M2 Ultra
 - Actually comfortable for production-style use
 
 **You want maximum flexibility (mix of models, large contexts, concurrency)**
@@ -192,17 +196,19 @@ So "20 tok/s at 4K context" becomes "maybe 12 tok/s at 32K context" on the same 
 
 ## The honest comparison table
 
-| Mac Config | Price | LLaMA 13B | Mixtral 8x7B | Qwen 35B | 70B Models | Vibes |
+| Mac Config | Price | 14B dense (~9 GB) | Mixtral 8x7B (~26 GB) | Qwen 35B-A3B (~20 GB) | 70B dense (~42 GB) | Vibes |
 |-------|-------|-----------|------|----------|---------|-------|
-| M2 Max 32GB | £1.4k | 30–40 ✅ | not viable ❌ | not viable ❌ | no ❌ | Budget entry |
-| M2 Max 64GB | £2k | 30–40 ✅ | 12–18 ⚠️ | struggles ❌ | no ❌ | Good for small |
-| M2 Ultra 64GB | £3k | 35–45 ✅ | 18–28 ✅ | 15–22 ✅ | 8–12 ⚠️ | Sweet spot |
-| M2 Ultra 128GB | £4.5k | 35–45 ✅ | 20–30 ✅ | 18–25 ✅ | 10–15 ⚠️ | Comfortable |
-| M3 Ultra 128GB | £5.5k | 40–50 🚀 | 22–32 🚀 | 20–28 🚀 | 22–30 ✅ | Excellent |
-| M3 Ultra 256GB | £8k+ | 40–50 🚀 | 22–32 🚀 | 20–28 🚀 | 25–32 ✅ | Workstation |
-| M4 Max 36GB | £2k | 25–35 ✅ | not viable ❌ | not viable ❌ | no ❌ | Newer, efficient |
-| M4 Max 64GB | £3k | 25–35 ✅ | 15–22 ✅ | struggles ❌ | no ❌ | Decent mid-tier |
-| M4 Max 128GB | £4k | 25–35 ✅ | 15–22 ✅ | 15–22 ⚠️ | no ❌ | Good but Ultra wins |
+| M2 Max 32GB | £1.4k | 25–35 ✅ | doesn't fit ❌ | tight ⚠️ | no ❌ | Budget entry |
+| M2 Max 64GB | £2k | 25–35 ✅ | 20–28 ✅ | 40–55 ✅ | 6–9 ⚠️ | Good for small |
+| M2 Ultra 64GB | £3k | 45–60 ✅ | 40–55 ✅ | 60–90 🚀 | 12–15 ⚠️ | Sweet spot |
+| M2 Ultra 128GB | £4.5k | 45–60 ✅ | 40–55 ✅ | 60–90 🚀 | 12–15 ✅ | Comfortable |
+| M3 Ultra 128GB | £5.5k | 45–60 ✅ | 40–55 ✅ | 60–90 🚀 | 12–16 ✅ | Excellent |
+| M3 Ultra 256GB | £8k+ | 45–60 ✅ | 40–55 ✅ | 60–90 🚀 | 12–16 ✅ | Workstation (room for 8x22B and bigger) |
+| M4 Max 36GB | £2k | 30–40 ✅ | doesn't fit ❌ | tight ⚠️ | no ❌ | Newer, efficient |
+| M4 Max 64GB | £3k | 30–40 ✅ | 28–38 ✅ | 50–70 ✅ | 8–11 ⚠️ | Decent mid-tier |
+| M4 Max 128GB | £4k | 30–40 ✅ | 28–38 ✅ | 50–70 ✅ | 8–11 ⚠️ | Good but Ultra wins on speed |
+
+Figures are rough tok/s estimates at Q4 and short context, derived from each chip's memory bandwidth (M2 Max 400 GB/s, M4 Max 410–546 GB/s, Ultras ~800 GB/s). Capacity decides what fits; bandwidth decides how fast it runs.
 
 **My recommendation:** If you're spending £3k–£4k anyway, M2 Ultra with 64–128 GB is the inflection point where the experience stops feeling constrained. You get real performance without paying for the latest chip.
 
@@ -241,29 +247,31 @@ Both are legitimate choices. Mac Studio is the right call if you value simplicit
 
 Since you're choosing both a Mac and a model, here's what actually matters:
 
-| Model | Size | Memory (Q4) | tok/s (M2 Ultra) | tok/s (M3 Ultra) | Best for |
-|-------|------|------------|--------|--------|----------|
-| LLaMA 3 7B | 7B | 4–5 GB | 30–40 | 40–50 | Fast, responsive, coding |
-| Mistral 7B | 7B | 4–5 GB | 30–40 | 40–50 | Similar to LLaMA, French origin |
-| Mixtral 8x7B | MoE 56B | 14–16 GB | 18–28 | 22–32 | Better quality than 7B, still fast |
-| Deepseek Coder | 6.7B–33B | 4–18 GB | 25–35 | 35–45 | Code generation specialty |
-| LLaMA 3 13B | 13B | 8–10 GB | 25–35 | 35–45 | Better reasoning than 7B |
-| Gemma 13B | 13B | 8–10 GB | 25–35 | 35–45 | Smaller, efficient alternative |
-| Qwen 35B MoE | MoE 35B | 19–22 GB | 15–22 | 20–28 | Strong reasoning, sparse |
-| Mixtral 8x22B | MoE 141B | 24–28 GB | 12–18 | 16–24 | Highest quality dense-equivalent |
-| LLaMA 3 70B | 70B | 38–42 GB | 8–12 | 22–30 | Expert-level, needs headroom |
+| Model | Size | Memory (Q4) | Rough tok/s (M2/M3 Ultra) | Best for |
+|-------|------|------------|--------|----------|
+| Llama 3.1 8B | 8B | ~5 GB | 70–100 | Fast, responsive, coding |
+| Mistral 7B | 7B | ~4.5 GB | 75–105 | Similar to Llama, French origin |
+| Qwen3 14B / Phi-4 14B | 14B | ~9 GB | 45–60 | Better reasoning than 7-8B |
+| Gemma 3 12B | 12B | ~8 GB | 50–65 | Efficient mid-size alternative |
+| DeepSeek Coder | 6.7B–33B | 4–20 GB | 20–100 (by size) | Code generation specialty |
+| Qwen 35B-A3B | MoE, ~3B active | ~20 GB | 60–90 | Strong reasoning, very fast for its size |
+| Mixtral 8x7B | MoE 47B, ~13B active | ~26 GB | 40–55 | Better quality than 7B, still fast |
+| Mixtral 8x22B | MoE 141B, ~39B active | ~80 GB | 18–25 | Needs 128 GB |
+| Llama 3 70B | 70B dense | ~42 GB | 12–16 | Highest quality here, slowest |
+
+These are rough estimates derived from memory bandwidth (the M2 Ultra and M3 Ultra both have about 800 GB/s, so they generate at similar speeds; the M3 Ultra's advantages are memory capacity and prompt processing). Measure your own with `llama-bench` or `mlx_lm` - speeds drop as context grows.
 
 **Patterns:**
-- 7B models: fit anywhere, 30–40+ tok/s even on M2 Max
-- 13B models: good sweet spot, 25–35 tok/s on M2 Ultra
-- MoE models: efficient for their capability, 15–28 tok/s depending on size
-- 70B+: only practical on M3 Ultra or GPU
+- 7-8B models: fit anywhere, fast on every Mac
+- 12-14B models: the quality sweet spot for 32-64 GB machines
+- MoE models: speed depends on *active* parameters, memory on *total* parameters
+- 70B dense: usable on Ultra chips, but a GPU with enough VRAM is much faster
 
 ## Real-world advice
 
-**If you just want something that works:** Grab LLaMA 3 7B or Mistral 7B. They run everywhere, generate good output, and hit 30+ tok/s. You don't need to spend £3k.
+**If you just want something that works:** Grab Llama 3.1 8B or Mistral 7B. They run everywhere, generate good output, and hit 30+ tok/s. You don't need to spend £3k.
 
-**If you want better quality without overspending:** LLaMA 3 13B or Mixtral 8x7B on an M2 Ultra 64GB (£3k). This is where quality meets responsive performance.
+**If you want better quality without overspending:** Qwen3 14B, Gemma 3 12B, or an MoE like Qwen 35B-A3B on an M2 Ultra 64GB (£3k). This is where quality meets responsive performance.
 
 **If you're serious about local AI:** M2 Ultra 128 GB or M3 Ultra 128 GB. You can keep multiple models loaded, experiment freely, and handle longer contexts without compromise.
 

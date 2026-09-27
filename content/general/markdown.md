@@ -55,7 +55,7 @@ That is so funny! :joy:
 | Paragraph   | Text        | And more      |
 
 # Code Block
-```
+```json
 {
   "firstName": "John",
   "lastName": "Smith",

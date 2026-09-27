@@ -3,6 +3,7 @@ title: "Self-Hosted vs Managed in 2026 - The Cost Math Has Changed Again"
 date: 2026-05-02T18:00:00+01:00
 draft: false
 tags: ['devops', 'cloud', 'self-hosted', 'platform', 'cost', '2026']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "The decision to self-host or use a managed service used to be straightforward. In 2026 the math has shifted in three different directions at once - cloud egress costs, AI workload economics, and the maturity of self-hosted tooling have all moved. A grounded look at how to think about it now."
 cover:
   image: /assets/images/devops/self-hosted-vs-managed-2026.jpg
@@ -23,9 +24,9 @@ For most of the 2010s the answer was easy. Managed services were cheaper than se
 
 Three things changed.
 
-**Cloud egress costs became visible.** As more workloads moved to the cloud and as data volumes grew, the egress charges that used to be a footnote on the bill became a meaningful line item. AI inference workloads that send large prompts and receive large outputs over network boundaries amplified this. Data-heavy analytics that pull from one cloud and write to another amplified it further.
+**Cloud egress costs became visible.** As more workloads moved to the cloud and as data volumes grew, the egress charges that used to be a footnote on the bill became a meaningful line item. AI inference workloads that send large prompts and receive large outputs over network boundaries amplified this. Data-heavy analytics that pull from one cloud and write to another amplified it further. (The exception is leaving: since 2024 the major hyperscalers waive egress fees for customers migrating out, and the EU Data Act is phasing out switching charges for European customers. Ongoing egress is still billed.)
 
-**AI workloads pushed cost in unexpected directions.** GPU rental on hyperscalers is, depending on the configuration, two to five times the cost of equivalent capacity in colocation. For inference at scale this difference is enormous. For training, even more so. Teams that were not in the GPU-heavy world in 2022 are now in it, and the math is harsh.
+**AI workloads pushed cost in unexpected directions.** GPU rental on hyperscalers can cost several times more than equivalent owned capacity in colocation at high utilisation, though the gap depends heavily on commitment terms and has narrowed as hyperscalers cut GPU prices and specialist GPU clouds (CoreWeave, Lambda, Nebius and others) compete on price. For inference at scale this difference is enormous. For training, even more so. Teams that were not in the GPU-heavy world in 2022 are now in it, and the math is harsh.
 
 **Self-hosted tooling caught up.** Running Postgres, Kafka, Redis, ClickHouse, Vector databases, observability stacks - all of these are dramatically easier to self-host in 2026 than they were three years ago. Operator patterns matured. Vendor-blessed self-hosted distributions exist. The operational overhead is real but smaller.
 
@@ -71,7 +72,7 @@ This is where the math has actually shifted. The categories worth a second look 
 
 ### AI Inference At Scale
 
-If you are running enough inference traffic to justify a fleet of GPUs, the cost difference between hyperscaler GPU rental and bare-metal in a colo is dramatic. We are talking 50-70% reductions in compute cost for steady-state inference loads.
+If you are running enough inference traffic to justify a fleet of GPUs, the cost difference between hyperscaler GPU rental and bare-metal in a colo is dramatic. Steady-state inference on owned or bare-metal hardware can cut compute cost by half or more versus on-demand hyperscaler GPUs at high utilisation; run your own numbers, including specialist GPU clouds as a middle option, for steady-state inference loads.
 
 The catch is that you have to actually run them. Operating a GPU fleet is non-trivial - drivers, networking, cooling, model deployment, observability. But the tooling has improved (Ollama, vLLM, sglang, NVIDIA Triton, Ray Serve) to the point where competent platform teams can pull it off.
 
@@ -101,7 +102,7 @@ Specific software has crossed the threshold from "hard to self-host" to "honestl
 - **ClickHouse** - the operator and the documentation have caught up.
 - **Vector databases** like [Qdrant](https://qdrant.tech/) and [Weaviate](https://weaviate.io/) - self-hostable with low overhead.
 - **Observability stacks** based on Grafana, Prometheus, Loki, Tempo - mature, well-trodden.
-- **Object storage** with [MinIO](https://min.io/) - now production-grade for many use cases.
+- **Object storage** - with a caveat. MinIO was the default answer for years, but its open-source community edition moved to source-only distribution and the [GitHub repository is now archived and no longer maintained](https://github.com/minio/minio), with MinIO steering users to its commercial AIStor product. For new self-hosted object storage, evaluate maintained alternatives such as Ceph RGW, SeaweedFS, or Garage, or budget for a commercial licence.
 - **CI/CD** with self-hosted GitHub or GitLab runners - the savings on minutes adds up fast at scale.
 
 The pattern: where the managed equivalent is mostly markup over open-source software, self-hosting is increasingly competitive.
@@ -112,7 +113,7 @@ The term "self-hosted" has stretched. It can now mean any of:
 
 - **On-premises in your own datacentre.** Maximum control, maximum overhead.
 - **Colocation with rented bare metal.** The pragmatic middle ground - someone else's datacentre, your hardware. This is where a lot of the AI inference money is going.
-- **Bare-metal cloud providers** like Hetzner, OVH, Equinix Metal, Latitude. Cheaper than hyperscaler VMs by a wide margin, with real trade-offs in network and ecosystem.
+- **Bare-metal cloud providers** like Hetzner, OVH, Latitude. (Equinix Metal, once a common choice here, [was shut down on 30 June 2026](https://docs.equinix.com/metal/).) Cheaper than hyperscaler VMs by a wide margin, with real trade-offs in network and ecosystem.
 - **Sovereign cloud providers** with data residency guarantees.
 - **Self-managed software on hyperscaler infrastructure.** Running your own Postgres on EC2 instead of using RDS. Still "self-hosted" in the operational sense.
 

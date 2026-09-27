@@ -113,13 +113,6 @@ The future of AI is not a moment. It is a direction. And the direction is alread
 
 ---
 
-**Related reading:**
-- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On the commodification of intelligence
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  What becomes valuable when intelligence is cheap
-- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai)  -  The expertise problem in an AI world
-- [The Architect vs The Builder](/ai/architect-vs-builder/)  -  How the human role is shifting
-- [AI Reliability Is Weird](/ai/ai-reliability-is-weird)  -  Why testing non-deterministic systems breaks old assumptions
-- [Local vs Cloud AI 2026](/ai/local-vs-cloud-ai-2026)  -  The hybrid architecture that actually works
 
 **External sources:**
 - [Anthropic's research on agentic systems](https://www.anthropic.com/research)
@@ -133,3 +126,9 @@ The future of AI is not a moment. It is a direction. And the direction is alread
 - [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/)
 - [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)
 - [A Year of Agents, and What is Coming Next](/ai/year-of-agents-and-whats-next/)
+- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence)  -  On the commodification of intelligence
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)  -  What becomes valuable when intelligence is cheap
+- [What Does 'Expertise' Mean When AI Can Pass Any Exam?](/ai/expertise-after-ai)  -  The expertise problem in an AI world
+- [The Architect vs The Builder](/ai/architect-vs-builder/)  -  How the human role is shifting
+- [AI Reliability Is Weird](/ai/ai-reliability-is-weird)  -  Why testing non-deterministic systems breaks old assumptions
+- [Local vs Cloud AI 2026](/ai/local-vs-cloud-ai-2026)  -  The hybrid architecture that actually works

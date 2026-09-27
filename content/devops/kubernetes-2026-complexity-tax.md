@@ -3,6 +3,7 @@ title: "Kubernetes in 2026 - Is It Still Worth the Complexity Tax?"
 date: 2026-05-03T11:00:00+01:00
 draft: false
 tags: ['devops', 'kubernetes', 'platform', 'cloud', 'infrastructure', '2026']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Kubernetes won the orchestration war and then quietly became infrastructure that most teams never wanted. A grounded look in 2026 at when Kubernetes actually pays for its complexity, when it does not, and what the credible alternatives look like now."
 cover:
   image: /assets/images/devops/kubernetes-2026-complexity-tax.jpg
@@ -71,11 +72,11 @@ The clearer picture in 2026 is when Kubernetes is the wrong choice.
 
 The alternatives have improved meaningfully and that is the part of the conversation that has actually changed.
 
-**Managed serverless** - [AWS Lambda](https://aws.amazon.com/lambda/), [Cloudflare Workers](https://workers.cloudflare.com/), [Google Cloud Run](https://cloud.google.com/run) - has continued to mature. Cold starts are largely a solved problem for most workloads. Pricing is competitive for variable traffic. The developer experience is clean.
+**Managed serverless** - [AWS Lambda](https://aws.amazon.com/lambda/), [Cloudflare Workers](https://workers.cloudflare.com/), [Google Cloud Run](https://cloud.google.com/run) - has continued to mature. Cold starts are much less of a problem than they were - snapshotting, provisioned concurrency and isolate-based runtimes help - though latency-sensitive paths on large runtimes still need attention. Pricing is competitive for variable traffic. The developer experience is clean.
 
 **Container platforms** like [Fly.io](https://fly.io/) and [Railway](https://railway.app/) have carved out a real niche between serverless and Kubernetes. You write a Dockerfile, you push, you get a globally distributed runtime with sane defaults. Operations are not zero, but they are roughly an order of magnitude lower than Kubernetes.
 
-**Managed Kubernetes done right** - [GKE Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview), [EKS Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html), and similar - lets you keep the Kubernetes API surface without managing nodes, which removes a meaningful chunk of the operational burden. This is a credible middle path for teams that want Kubernetes' ecosystem without all of its toil.
+**Managed Kubernetes done right** - [GKE Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview), EKS Auto Mode, and similar - lets you keep the Kubernetes API surface without managing nodes, which removes a meaningful chunk of the operational burden. (EKS on [Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) is the older option, but it doesn't support DaemonSets or GPUs, so Auto Mode is usually the better fit today.) This is a credible middle path for teams that want Kubernetes' ecosystem without all of its toil.
 
 **Modern platform-as-a-service** offerings have come back into fashion. Some of them are simply Heroku reimplemented for the 2020s, and that turns out to be a great product for a lot of teams.
 
@@ -83,7 +84,7 @@ The point is that in 2024 a serious mid-sized company defaulting to "we run Kube
 
 ## The AI Wrinkle
 
-One thing that pulled some teams *back* toward Kubernetes in 2025-2026 is AI workloads. GPU scheduling, model serving, training orchestration, and the operational requirements of inference platforms tend to look more like classical infrastructure problems than like serverless workloads. Tools like [KServe](https://kserve.github.io/website/), [Ray on Kubernetes](https://docs.ray.io/en/latest/cluster/kubernetes/index.html), and the various LLM-serving platforms assume Kubernetes underneath.
+One thing that pulled some teams *back* toward Kubernetes in 2025-2026 is AI workloads. GPU scheduling, model serving, training orchestration, and the operational requirements of inference platforms tend to look more like classical infrastructure problems than like serverless workloads. Tools like [KServe](https://kserve.github.io/website/), [Ray on Kubernetes](https://docs.ray.io/en/latest/cluster/kubernetes/index.html), and the various LLM-serving platforms assume Kubernetes underneath. Kubernetes itself has also adapted: Dynamic Resource Allocation (DRA), now generally available, gives the scheduler a proper model for GPUs and other accelerators instead of treating them as opaque counters.
 
 If your roadmap includes hosting your own models or running serious AI infrastructure, the Kubernetes case gets stronger again. If your AI strategy is "call APIs," it does not.
 

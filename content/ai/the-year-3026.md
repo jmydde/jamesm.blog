@@ -34,7 +34,7 @@ What they could have predicted, and got right, were the slow-moving constants. P
 
 That's the frame. Over a thousand years, the substrate of civilisation is likely to change beyond recognition. The human core probably does not.
 
-```
+```text
    1026                       2026                       3026
     │                          │                          │
     ├─ Cnut the Great          ├─ AI emerging             ├─ Ambient intelligence
@@ -130,15 +130,6 @@ The people in 3026, whatever they are, will look back at us the way we look back
 
 ---
 
-**Related reading:**
-
-- [The Next Decade of AI](/ai/the-next-decade-of-ai) - The ten-year view underneath this thousand-year one
-- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/) - Near-term scenarios that cast long shadows
-- [Reading the Signals: Which of the Four Futures Is Actually Emerging?](/ai/reading-the-signals-four-futures) - How current signals weight the scenarios
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity) - What becomes valuable when intelligence is free
-- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs) - The human core that survives automation
-- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence) - The commodification arc these posts sit on
-- [The Exponential Curve: Understanding Human Advancement Acceleration](/general/human-advancement-acceleration) - Why compressed innovation is the default now
 
 **External sources:**
 
@@ -154,3 +145,7 @@ The people in 3026, whatever they are, will look back at us the way we look back
 - [Reading the Signals: Which of the Four Futures Is Actually Emerging?](/ai/reading-the-signals-four-futures/)
 - [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
 - [The Meaning of Work in an Age of Abundance: Finding Purpose When Agents Do the Heavy Lifting](/ai/meaning-of-work-age-of-abundance/)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/) - What becomes valuable when intelligence is free
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/) - The human core that survives automation
+- [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence/) - The commodification arc these posts sit on
+- [The Exponential Curve: Understanding Human Advancement Acceleration](/general/human-advancement-acceleration/) - Why compressed innovation is the default now

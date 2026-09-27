@@ -3,6 +3,7 @@ title: "Own the Agent, Rent the Intelligence: Building My Always-On AI Agent Ser
 date: 2026-09-19T06:20:00+01:00
 draft: false
 tags: ["ai", "agent", "hermes", "deepseek", "claude", "claude-code", "mac-mini", "hardware", "local-llm", "docker", "ollama", "mcp", "postgres", "observability"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Why I ended up choosing a Mac mini M6 (24GB) over a Mac Studio for an always-on AI agent server - and why the deciding factor wasn't local inference power at all, but cheap cloud routing through Hermes, DeepSeek V4.1 Flash, and Claude Sonnet 5."
 cover:
   image: /assets/images/ai/mac-mini-m6-hermes-agent-infographic.jpg
@@ -16,7 +17,7 @@ cover:
 - **What I bought instead:** a **Mac mini M6, 24GB unified memory, 512GB SSD** (~£1,299) - enough headroom for containers, browsers, and small local models, not enough (or intended) to run frontier-class weights locally.
 - **The routing policy:** small local model → [DeepSeek V4.1 Flash](https://api-docs.deepseek.com/quick_start/pricing) → [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5), cheapest capable model first.
 - **The software layer:** Homebrew, GitHub CLI, Docker, Tailscale, tmux, and the usual Unix primitives on day one; Ollama, Playwright, Postgres, Qdrant, and Paperless next; observability and encrypted backups once agents are actually running unattended.
-- **The number that changed my mind:** DeepSeek V4.1 Flash off-peak output is $0.60 per million tokens. Claude Pro is already $20/month (~£20). Electricity is £2-£4. A realistic month is a few dollars of DeepSeek on top of a subscription I already pay for.
+- **The number that changed my mind:** DeepSeek V4.1 Flash off-peak output is $0.60 per million tokens. Claude Pro ($20/month, ~£20) already covers Claude Code; Hermes's own escalations to Sonnet 5 go through a pay-as-you-go API key, because Anthropic's terms don't allow Pro/Max logins in third-party agent harnesses. Electricity is £2-£4. A realistic month is Claude Pro plus around $20 of API usage.
 - **The line I keep coming back to:** own the agent, rent the intelligence.
 
 I've been experimenting with AI agents, coding assistants, and different models for a while now, but one problem kept coming up: my workflows were still tied to my laptop. Close the lid, and every agent, every scheduled job, every long-running task dies with it.
@@ -188,7 +189,7 @@ DeepSeek's peak window is 01:00-04:00 and 06:00-10:00 UTC, Monday to Friday, exc
 
 ### Claude Sonnet 5 (escalation / second opinion)
 
-I already pay for [Claude Pro](https://www.anthropic.com/pricing) at $20/month (~£20), so [Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) becomes the final escalation - for when DeepSeek struggles, a coding problem is genuinely hard, the task is high-risk, or I want a second opinion from a different model family. API list price is $2 / $10 per million input/output tokens; Pro covers the Sonnet 5 usage on this box unless I blow past the subscription limits. Context is up to 1M tokens with a 128K max output.
+I already pay for [Claude Pro](https://www.anthropic.com/pricing) at $20/month (~£20), and [Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) becomes the final escalation - for when DeepSeek struggles, a coding problem is genuinely hard, the task is high-risk, or I want a second opinion from a different model family. API list price is $2 / $10 per million input/output tokens. One important detail: Pro covers Sonnet 5 inside Claude Code and Claude.ai, but [Anthropic's terms](https://code.claude.com/docs/en/legal-and-compliance) don't allow subscription (OAuth) credentials to be used by other tools, and since April 2026 third-party harnesses have been blocked from subscription limits. So when Hermes escalates to Sonnet 5 directly, it uses an API key and pays per token; when the work is delegated to Claude Code, it runs on Pro. Context is up to 1M tokens with a 128K max output.
 
 **Best for:** complex tasks, high risk, independent reasoning.
 
@@ -247,18 +248,19 @@ Output-only, off-peak, per [DeepSeek](https://api-docs.deepseek.com/quick_start/
 | DeepSeek V4.1 Flash | $0.60 | $6.00 | $60.00 |
 | Claude Sonnet 5 (API) | $10.00 | $100.00 | $1,000.00 |
 
-I don't pay Sonnet 5 per token for this machine. Claude Pro at $20/month already includes it. A realistic mix is mostly Flash, with Sonnet 5 as escalation on that subscription:
+Agent workloads are input-heavy - every step re-sends instructions, tool results and file contents - so a realistic month needs both sides of the bill. Assuming roughly five input tokens for every output token, most traffic on Flash, and Sonnet 5 kept for genuine escalations:
 
 ```text
-80% DeepSeek V4.1 Flash → 8M × $0.60  = $4.80
-20% local / Claude Pro  → 2M           = $0.00 extra
-Claude Pro (already paid)              = $20.00
-Electricity (~10-15W, ~£2-£4)          ≈ $3.00
-                                   --------
-                    Total ≈ $28/month  (~£21)
+DeepSeek V4.1 Flash   40M in × $0.15  +  8M out × $0.60   ≈ $10.80
+Local models          ~10M tokens                          = $0.00
+Sonnet 5 via API       2M in × $2.00  + 0.4M out × $10.00  ≈ $8.00
+Claude Pro (Claude Code, already paid)                     = $20.00
+Electricity (~10-15W, ~£2-£4)                              ≈ $3.00
+                                                  --------
+                                   Total ≈ $42/month  (~£31)
 ```
 
-A lighter month - a few million Flash tokens rather than 10M - lands closer to $22, which is essentially Claude Pro plus a couple of dollars of DeepSeek. Input costs are additional, and cached input on Flash is $0.003 per million off-peak. Either way this is well under the cost of a GPU workstation. Electricity for the Mac mini itself is negligible next to running a GPU rig continuously - it's also silent, tiny, and low-heat, which matters more than benchmark numbers for a box that has to live under a desk permanently.
+Off-peak pricing and prompt caching pull the DeepSeek line down (cached input on Flash is $0.003 per million off-peak); running agents during DeepSeek's peak windows or escalating to Sonnet more often pushes it up. A lighter month lands closer to $30. Either way this is well under the cost of a GPU workstation. Electricity for the Mac mini itself is negligible next to running a GPU rig continuously - it's also silent, tiny, and low-heat, which matters more than benchmark numbers for a box that has to live under a desk permanently.
 
 ---
 
@@ -553,11 +555,11 @@ I don't need to own the AI compute. I need to own the orchestration layer. Cloud
 - **Coding agents:** [Claude Code](https://claude.com/claude-code) and [Codex](https://github.com/openai/codex), with Hermes optionally using Codex's [app-server runtime](https://hermes-agent.nousresearch.com/docs/user-guide/features/codex-app-server-runtime)
 - **Local AI:** Qwen 8B/14B and Granite 8B via [Ollama](https://ollama.com/), where appropriate
 - **Default cloud AI:** DeepSeek V4.1 Flash (`deepseek-flash`)
-- **Frontier escalation:** Claude Sonnet 5 (Claude Pro, $20/month / ~£20, already paid for)
+- **Frontier escalation:** Claude Sonnet 5 (via API key for Hermes; Claude Pro covers Claude Code)
 - **Access:** [Tailscale](https://tailscale.com/) and SSH - no router ports opened
 - **Data:** PostgreSQL, Qdrant, and [Paperless-ngx](https://docs.paperless-ngx.com/) in Docker
 - **Secrets / backups:** [1Password CLI](https://developer.1password.com/docs/cli/) and [Restic](https://restic.net/)
-- **Running cost:** Claude Pro $20 + a few dollars of DeepSeek + £2-£4 electricity
+- **Running cost:** Claude Pro $20 + around $20 of API usage + £2-£4 electricity
 
 ---
 

@@ -3,6 +3,7 @@ title: "Modern Data Engineering on Databricks (2026 Guide)"
 date: 2026-04-06T00:19:31+01:00
 draft: false
 tags: ['databricks', 'data-engineering', 'delta-lake', 'unity-catalog', 'serverless', 'lakeflow']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "A 2026 guide to modern data engineering on Databricks, including Unity Catalog, Lakeflow Declarative Pipelines, liquid clustering, predictive optimization, and serverless workflows."
 slug: "modern-data-engineering-databricks-2026"
 cover:
@@ -67,7 +68,7 @@ That includes:
 Volumes are still one of the most important Unity Catalog additions for engineers because they give you a governed path for non-tabular data.
 
 ```sql
-CREATE EXTERNAL VOLUME landing_zone
+CREATE EXTERNAL VOLUME main.ingest.landing_zone
 LOCATION 's3://my-bucket/landing/';
 ```
 
@@ -245,7 +246,7 @@ Databricks increasingly wants data engineering teams to work with governed asset
 - [Predictive optimization](https://docs.databricks.com/aws/en/optimizations/predictive-optimization)
 - [Serverless workflows](https://docs.databricks.com/en/jobs/run-serverless-jobs.html)
 - [Lakehouse Federation](https://docs.databricks.com/en/query-federation/index.html)
-- [ai_query function](https://docs.databricks.com/gcp/pt/sql/language-manual/functions/ai_query)
+- [Query a served model with ai_query()](https://docs.databricks.com/en/large-language-models/how-to-ai-query.html)
 
 ---
 *Last Updated: April 6, 2026*

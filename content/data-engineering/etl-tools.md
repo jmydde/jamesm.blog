@@ -192,6 +192,6 @@ The mature pattern in 2026 is to treat AI features as accelerators inside a stro
 ## Related Reading
 
 - [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
-- [Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure](/data-engineering/snowflake-apache-iceberg-storage/)
+- [Snowflake Storage for Apache Iceberg: Open Tables Without Managing a Bucket](/data-engineering/snowflake-apache-iceberg-storage/)
 - [Lakeflow Declarative Pipelines: From DLT to Production](/data-engineering/lakeflow-declarative-pipelines-2026/)
 - [Data Engineering Blogs](/data-engineering/blogs/)

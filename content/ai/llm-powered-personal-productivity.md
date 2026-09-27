@@ -34,7 +34,7 @@ The combination means you can put a model in front of every email, every note, a
 
 Here is what is actually running on the machine in my study.
 
-```
+```text
                    ┌──────────────┐
    voice / text ──▶│   router     │── classify intent
                    │  (small LLM) │

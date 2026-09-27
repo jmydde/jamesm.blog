@@ -3,6 +3,7 @@ title: "DGX Spark vs Mac Studio: Which Personal AI Supercomputer Should You Buy?
 date: 2026-04-19T05:22:00+00:00
 draft: false
 tags: ["ai", "hardware", "gpu", "llm", "comparison"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "An in-depth comparison of NVIDIA DGX Spark and Apple Mac Studio for local LLM inference. Includes specifications, pricing, performance benchmarks, and cost analysis to help you choose the right personal AI supercomputer."
 cover:
   image: /assets/images/ai/ai-cloud-subscriptions.jpg
@@ -121,22 +122,26 @@ Apple's next Mac Studio refresh has slipped from mid-2026 to an expected October
 | **Cost per GB/s** | $17.21 | $4.88 | $8.24 | $4.88 | $7.33 |
 | **Thunderbolt** | USB-C only | USB-C | USB-C | TB5 (2x) | TB5 (2x) |
 
-## Benchmark Comparison: Tokens Per Second
+## Generation Speed: What the Hardware Allows
 
-Real-world LLM inference speeds across different model sizes. Generation speeds shown; prefill speeds differ significantly (see next section).
+Token generation is memory-bandwidth-bound: for every token, the machine has to read the model's active weights from memory. That gives a hard ceiling that no software update can beat:
 
-| Model | DGX Spark | Mac Studio M4 Max | Mac Studio M3 Ultra |
-|---|---|---|---|
-| **Llama 3.1 8B (Q4)** | ~75 tok/s | ~70 tok/s | ~95 tok/s |
-| **Mistral 7B (Q4)** | ~80 tok/s | ~75 tok/s | ~100 tok/s |
-| **Llama 3.1 70B (Q4)** | ~18 tok/s | ~15 tok/s | ~30 tok/s |
-| **GPT-OSS 20B (mxfp4)** | ~45 tok/s | ~40 tok/s | ~55 tok/s |
-| **GPT-OSS 120B (mxfp4)** | ~41 tok/s | N/A (OOM on 64GB) | ~35 tok/s |
-| **Qwen 2.5 72B (Q4)** | ~17 tok/s | ~14 tok/s | ~28 tok/s |
-| **DeepSeek V3 (Q4)** | Limited | N/A | ~12 tok/s (256GB req) |
-| **Llama 3.1 405B (Q4)** | ~5 tok/s | N/A | ~8 tok/s (256GB req) |
+**ceiling (tokens/second) ≈ memory bandwidth ÷ bytes of weights read per token**
 
-Note: Numbers approximate and depend on quantization, context length, and software stack. N/A indicates insufficient memory.
+The table below applies that formula at Q4 quantisation (about 0.6 bytes per parameter). These are upper bounds, not benchmarks - real throughput lands below them once attention, KV-cache reads, and software overhead are included, and falls further as context grows.
+
+| Model (Q4) | Weights read per token | DGX Spark (273 GB/s) | Mac Studio M4 Max (546 GB/s) | Mac Studio M3 Ultra (819 GB/s) |
+|---|---|---|---|---|
+| **Mistral 7B** | ~4.4 GB | ≤ ~62 tok/s | ≤ ~124 tok/s | ≤ ~186 tok/s |
+| **Llama 3.1 8B** | ~4.9 GB | ≤ ~56 tok/s | ≤ ~111 tok/s | ≤ ~167 tok/s |
+| **Llama 3.1 70B** | ~42 GB | ≤ ~6.5 tok/s | ≤ ~13 tok/s | ≤ ~19.5 tok/s |
+| **Qwen 2.5 72B** | ~44 GB | ≤ ~6 tok/s | ≤ ~12 tok/s | ≤ ~18.5 tok/s |
+| **DeepSeek V3 (MoE, 37B active)** | ~22 GB active, ~400 GB total | Doesn't fit (128 GB) | Doesn't fit (128 GB) | ≤ ~37 tok/s (needs the 512 GB configuration) |
+| **Llama 3.1 405B** | ~245 GB | Doesn't fit (128 GB) | Doesn't fit (128 GB) | ≤ ~3.3 tok/s (needs 256 GB+) |
+
+Two things follow. First, for dense 70B-class models the Spark's 273 GB/s caps you at single-digit tokens per second, whatever the marketing says about compute. Second, mixture-of-experts models like GPT-OSS change the picture: they read only a few billion active parameters per token, which is why the Spark's measured ~41 tok/s on GPT-OSS 120B is plausible even though a dense 70B model runs far slower.
+
+When you benchmark your own machine, use `llama-bench` (llama.cpp) or `mlx_lm` and record the software version, quantisation and context length alongside the number.
 
 ## Head-to-Head Performance Comparison
 
@@ -148,7 +153,7 @@ The comparison reveals interesting complementary strengths.
 
 Prefill is the first stage of LLM inference where the model processes your entire input prompt at once to generate a key-value (KV) cache. Here's how it works:
 
-1. You send a prompt - e.g., "Explain quantum computing in 3 sentences" (20,000 tokens)
+1. You send a prompt - e.g., a 20,000-token document plus "summarise this in 3 sentences"
 2. The model reads through your entire prompt and computes attention scores across all tokens
 3. This generates a KV cache that's used for efficient token generation
 4. Once the cache exists, generation happens one token at a time
@@ -157,11 +162,11 @@ Prefill is heavily compute-bound - it requires massive amounts of matrix multipl
 
 **Performance Advantage:**
 
-The DGX Spark is dramatically faster at prefill because its Blackwell GPU has 1 petaFLOP of compute power - massive tensor throughput for crunching through matrix operations. The Mac Studio's GPU is more balanced for different workloads. DGX Spark's prefill is approximately **3.8× faster** than the Mac Studio M3 Ultra.
+The DGX Spark is dramatically faster at prefill because its Blackwell GPU is rated at up to 1 petaFLOP (at FP4 with sparsity) - massive tensor throughput for crunching through matrix operations. The Mac Studio's GPU is more balanced for different workloads. In EXO Labs' benchmark, DGX Spark's prefill was approximately **3.8× faster** than the Mac Studio M3 Ultra.
 
 ### Token Generation (Memory-Bound)
 
-The Mac Studio M3 Ultra dominates during generation, where each token requires minimal compute but demands high memory bandwidth to move the model weights through the GPU. The M3 Ultra's 819 GB/s bandwidth allows it to generate tokens **3.4× faster** than the DGX Spark.
+The Mac Studio M3 Ultra dominates during generation, where each token requires minimal compute but demands high memory bandwidth to move the model weights through the GPU. With three times the Spark's memory bandwidth (819 vs 273 GB/s), the M3 Ultra generated tokens **3.4× faster** in the same EXO Labs benchmark.
 
 ### Real-World Scenario
 

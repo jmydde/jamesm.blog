@@ -54,10 +54,6 @@ We aren't just building pipelines anymore. We are building the nervous systems o
 
 ---
 
-**Related reading:**
-- [Claude Code Just Got a Serious Code Review Feature](/ai/claude-code-review)
-- [GitHub Spec Kit and the Rise of SDD](/ai/github-spec-kit)
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)
 
 ## Related Reading
 
@@ -65,3 +61,6 @@ We aren't just building pipelines anymore. We are building the nervous systems o
 - [CI/CD Tools](/devops/cicd-tools/)
 - [DevOps Conferences](/devops/devops-conferences/)
 - [List of DevOps Courses](/devops/devops-courses/)
+- [Claude Code Just Got a Serious Code Review Feature](/ai/claude-code-review)
+- [GitHub Spec Kit and the Rise of SDD](/ai/github-spec-kit)
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity)

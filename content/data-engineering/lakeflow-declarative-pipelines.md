@@ -3,6 +3,7 @@ title: "Lakeflow Declarative Pipelines: From DLT to Production"
 date: 2026-04-06T18:00:00+00:00
 draft: false
 tags: ["databricks", "lakeflow", "dlt", "pipeline", "data-engineering", "etl"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "From Delta Live Tables to Lakeflow Declarative Pipelines: how declarative ETL patterns have evolved and how to design production pipelines in 2026."
 slug: "lakeflow-declarative-pipelines-2026"
 cover:
@@ -12,22 +13,22 @@ cover:
 
 ## TL;DR
 
-- Lakeflow Declarative Pipelines is the evolution of Delta Live Tables, and the rename signals a real shift in mental model: from "tables and dependencies" to "data flows and transformations"
-- The three core building blocks are streaming tables (incremental, append-only), materialized views (full recompute, best for aggregations), and AUTO CDC for slowly-changing dimensions without hand-rolled merge logic
-- Physical optimisation is increasingly automatic in 2026 - liquid clustering is the default, predictive optimization handles maintenance, and Z-order is legacy
-- Keep hand-rolled Spark jobs for imperative logic, external API calls, and ML workloads; Lakeflow is for SQL-shaped data movement
+- Lakeflow Declarative Pipelines is Delta Live Tables renamed (June 2025), and the same engine was contributed to Apache Spark as Spark Declarative Pipelines, so the pattern is no longer Databricks-only
+- The three core building blocks are streaming tables (incremental, append-only sources), materialized views (refreshed incrementally where the query allows, fully recomputed otherwise), and AUTO CDC for slowly-changing dimensions without hand-rolled merge logic
+- Physical optimisation is increasingly automatic in 2026 - liquid clustering is the recommended layout, predictive optimization handles maintenance, and Z-order is legacy
+- Keep hand-rolled Spark jobs for imperative control flow, heavy external API enrichment, and ML workloads; Lakeflow is for dataset-shaped data movement
 - Lakeflow and dbt are complementary rather than competitors - some teams use Lakeflow for ingestion to silver and dbt for silver-to-gold
 
-If you've been writing Delta Live Tables (DLT) pipelines, you've been building with Lakeflow without knowing the new name. In 2026, the rebranding matters because it signals how Databricks now wants you to think about declarative pipeline design.
+If you've been writing Delta Live Tables (DLT) pipelines, you've been building with Lakeflow without knowing the new name. Databricks renamed DLT at Data + AI Summit in June 2025, and at the same time [contributed the engine to Apache Spark as Spark Declarative Pipelines](https://www.infoq.com/news/2025/07/databricks-declarative-pipelines), which ships as a native capability in [Apache Spark 4.1](https://www.databricks.com/discover/how-to-get-started-with-spark-declarative-pipelines).
 
-This isn't just a rename. The mental model has shifted from "tables and dependencies" to "data flows and transformations." Let me show you what changed and why it matters. For where Lakeflow fits relative to other orchestration choices and the broader paradigm question, see [The modern lakehouse stack](/data-engineering/modern-lakehouse-stack/) and [Stream vs batch processing](/data-engineering/stream-vs-batch-processing/).
+The syntax you know still works. What changed is the packaging, the tooling around it, and a few newer building blocks worth knowing. Let me show you what changed and why it matters. For where Lakeflow fits relative to other orchestration choices and the broader paradigm question, see [The modern lakehouse stack](/data-engineering/modern-lakehouse-stack/) and [Stream vs batch processing](/data-engineering/stream-vs-batch-processing/).
 
 ## What Lakeflow Actually Is
 
 Lakeflow Declarative Pipelines is the modern Databricks way to say: "I describe what data I want, and Databricks manages how to get it."
 
 You define:
-- **Datasets** (streaming tables, materialized views, or static tables)
+- **Datasets** (streaming tables, materialized views, and temporary or private views)
 - **Dependencies** (what feeds what)
 - **Update semantics** (incremental, CDC, append-only, etc.)
 
@@ -36,52 +37,51 @@ Databricks handles:
 - Incremental execution (only processing new or changed data)
 - Performance optimization (caching, clustering, partitioning)
 - Error handling and recovery
-- Scaling (from local notebook to production pipelines)
+- Scaling (serverless or classic pipeline compute)
 
 This is declarative programming applied to data pipelines. You say *what*, not *how*.
 
 ## Why This Matters: The Evolution from DLT
 
-### The Old DLT Mental Model (2020–2024)
+### The Old DLT Syntax (2022–2024)
 
 ```sql
-CREATE OR REFRESH TABLE bronze_events AS
-  SELECT * FROM STREAM(raw_events);
+CREATE OR REFRESH STREAMING LIVE TABLE bronze_events AS
+  SELECT * FROM cloud_files('s3://raw-bucket/events/', 'json');
 
-CREATE OR REFRESH TABLE silver_events AS
-  SELECT 
-    event_id,
-    event_type,
-    event_ts,
-    user_id
-  FROM STREAM(bronze_events)
+CREATE OR REFRESH LIVE TABLE silver_events AS
+  SELECT event_id, event_type, event_ts, user_id
+  FROM LIVE.bronze_events
   WHERE event_id IS NOT NULL;
 ```
 
-This worked, and it still works. But it had rough edges:
+This still works, but it had rough edges:
 
-- **Naming was confusing.** "Delta Live Tables" doesn't communicate the pattern as clearly as "declarative pipelines."
-- **Scope was table-focused.** The unit of thinking was "tables and their dependencies."
-- **Limited semantics.** Streaming tables worked for append-only data, but CDC was bolted on via `APPLY CHANGES INTO`.
-- **Operator experience was ad hoc.** Monitoring, debugging, and recovery required Databricks-specific tools.
+- **Naming was confusing.** "Delta Live Tables" doesn't communicate the pattern as clearly as "declarative pipelines", and the `LIVE` keyword leaked into every query.
+- **It was Databricks-only.** The pattern couldn't be run or tested outside the platform.
+- **CDC was verbose.** `APPLY CHANGES INTO` worked, but read like a bolt-on.
+- **Outputs were tables only.** Writing to Kafka or an external Delta location meant leaving the pipeline.
 
-### The New Lakeflow Mental Model (2026)
+### What Actually Changed (2025–2026)
 
 ```sql
-CREATE FLOW my_pipeline AS
-  SOURCE events = READ 'path/to/events'
-  STEP silver_events = TRANSFORM (events -> SELECT event_id, user_id, event_ts WHERE event_id IS NOT NULL)
-  SINK WRITE silver_events TO LOCATION 'path/to/silver';
+CREATE OR REFRESH STREAMING TABLE bronze_events AS
+  SELECT * FROM STREAM read_files('s3://raw-bucket/events/', format => 'json');
+
+CREATE OR REFRESH MATERIALIZED VIEW silver_events AS
+  SELECT event_id, event_type, event_ts, user_id
+  FROM bronze_events
+  WHERE event_id IS NOT NULL;
 ```
 
-(This is pseudocode; actual Lakeflow syntax is still SQL-based, but the framing has shifted toward flows.)
+The practical changes:
 
-The reframing means:
-
-- **Unit of work is a "flow," not tables.** You're defining data lineage, not individual tables.
-- **Semantics are explicit.** CDC, incremental, streaming, static - these are first-class options, not workarounds.
-- **Operations are first-class.** Monitoring, debugging, and cost tracking are baked into the flow concept.
-- **Portability hints at the future.** Flows might run on engines other than Spark (though they don't yet).
+- **`STREAMING TABLE` and `MATERIALIZED VIEW` are the vocabulary.** The `LIVE` keyword is no longer needed.
+- **An open-source core.** Spark Declarative Pipelines means the same SQL and Python definitions can run on open-source Spark 4.1, with Databricks adding the managed runtime, serverless compute, and UI.
+- **A new Python module.** Python pipelines use `pyspark.pipelines` (conventionally `from pyspark import pipelines as dp`) rather than the old `dlt` module.
+- **`AUTO CDC`** replaces `APPLY CHANGES INTO` as the recommended CDC API.
+- **Sinks** let a flow write to Kafka, Event Hubs, or external Delta tables, so fan-out no longer means leaving the pipeline.
+- **A dedicated pipeline editor** with a dependency graph, per-dataset previews, and runs of a single table.
 
 ## Key Concepts in Lakeflow 2026
 
@@ -91,21 +91,21 @@ Use when: New data is appended; you never update or delete old records.
 
 ```sql
 CREATE OR REFRESH STREAMING TABLE raw_events AS
-  SELECT * FROM cloud_files('s3://bucket/events/', 'json');
+  SELECT * FROM STREAM read_files('s3://bucket/events/', format => 'json');
 ```
 
-- Lazily processed (waits for new files before running)
+- Each record from the source is processed exactly once
 - Checkpointed for recovery
 - Ideal for event data, logs, telemetry
 
 **When to use:** Events, clicks, API calls, anything that's append-only and time-ordered.
 
-### 2. Materialized Views (Recomputable)
+### 2. Materialized Views (Always Correct, Incremental Where Possible)
 
-Use when: Results can be fully recomputed; correctness matters more than latency.
+Use when: The result must always reflect the current source data, including updates and deletes, and you want the platform to decide how to refresh it.
 
 ```sql
-CREATE MATERIALIZED VIEW user_daily_summary AS
+CREATE OR REFRESH MATERIALIZED VIEW user_daily_summary AS
   SELECT 
     user_id,
     DATE(event_ts) AS event_date,
@@ -114,19 +114,19 @@ CREATE MATERIALIZED VIEW user_daily_summary AS
   GROUP BY user_id, DATE(event_ts);
 ```
 
-- Fully recalculated on refresh (not incremental by default)
-- Great for aggregations and slowly-changing dimensions
-- Lower latency than streaming for complex transformations
-- More CPU-heavy because it's not incremental
+- On serverless, refreshes are **incremental when the query allows it** (aggregations, joins, filters over Delta sources) and fall back to a full recompute otherwise
+- Non-deterministic functions such as `current_date()` force a full recompute, which is worth knowing before you put a rolling window in an MV
+- Correct under source updates and deletes, which streaming tables are not
+- Great for aggregations, joins, and gold-layer tables
 
-**When to use:** Dashboards, aggregations, derived metrics that need to be recalculated nightly or hourly.
+**When to use:** Dashboards, aggregations, joins, and derived metrics refreshed on a schedule or when upstream data changes.
 
 ### 3. AUTO CDC (Change Data Capture)
 
 Use when: Source data is being updated/deleted and you need to track those changes in your lakehouse.
 
 ```sql
-CREATE STREAMING TABLE users_scd2;
+CREATE OR REFRESH STREAMING TABLE users_scd2;
 
 CREATE FLOW user_cdc AS
   AUTO CDC INTO users_scd2
@@ -138,25 +138,25 @@ CREATE FLOW user_cdc AS
 
 - Tracks inserts, updates, deletes from source system
 - Produces SCD Type 2 slowly-changing dimensions
-- Tracks valid_from and valid_to dates automatically
+- Maintains `__START_AT` and `__END_AT` columns automatically
 - Easier than hand-rolling merge logic
 
 **When to use:** Syncing databases, data warehouses, CRM data - anything that mutates at the source.
 
-### 4. Derived Tables and Temp Tables
+### 4. Private Datasets
 
-For intermediate transformations that aren't exposed to users:
+For intermediate transformations that shouldn't be published to the catalog:
 
 ```sql
-DECLARE VARIABLE silver_users TABLE (
-  user_id STRING,
-  user_name STRING,
-  created_ts TIMESTAMP
-);
+CREATE PRIVATE MATERIALIZED VIEW users_deduped AS
+  SELECT * FROM bronze_users
+  QUALIFY ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY updated_at DESC) = 1;
 
+CREATE TEMPORARY VIEW active_users AS
+  SELECT * FROM users_deduped WHERE status = 'active';
 ```
 
-These are local to the flow, don't create physical tables, and help organize complex pipelines.
+Private datasets exist only for the pipeline's use (older docs call them temporary tables), and temporary views aren't materialised at all. Both help organise complex pipelines without cluttering the catalog.
 
 ## Pattern: Building a Production Lakeflow Pipeline
 
@@ -165,9 +165,9 @@ Here's how a modern 2026 pipeline looks:
 ```sql
 -- BRONZE: Raw ingestion
 CREATE OR REFRESH STREAMING TABLE bronze_events AS
-  SELECT * FROM cloud_files(
-    's3://raw-bucket/events/', 
-    'json',
+  SELECT * FROM STREAM read_files(
+    's3://raw-bucket/events/',
+    format => 'json',
     schema => 'event_id STRING, user_id STRING, event_ts TIMESTAMP, properties STRING'
   );
 
@@ -193,22 +193,20 @@ CREATE OR REFRESH MATERIALIZED VIEW gold_daily_events AS
   GROUP BY DATE(event_ts), user_id;
 
 -- CDC Example: Syncing a mutable source
-CREATE OR REFRESH STREAMING TABLE bronze_users_raw AS
-  SELECT * FROM cloud_files(
-    's3://raw-bucket/users/',
-    'json'
-  );
+CREATE OR REFRESH STREAMING TABLE bronze_users_changes AS
+  SELECT * FROM STREAM read_files('s3://raw-bucket/users-cdc/', format => 'json');
+  -- each record carries an operation column (INSERT/UPDATE/DELETE) and a change timestamp
 
-CREATE OR REFRESH STREAMING TABLE silver_users AS
-  SELECT 
-    user_id,
-    user_name,
-    email,
-    created_ts,
-    _change_type,
-    _change_ts
-  FROM stream(bronze_users_raw)
-  WHERE _change_type IN ('insert', 'update_postimage');
+CREATE OR REFRESH STREAMING TABLE silver_users;
+
+CREATE FLOW silver_users_cdc AS
+  AUTO CDC INTO silver_users
+  FROM STREAM(bronze_users_changes)
+  KEYS (user_id)
+  APPLY AS DELETE WHEN operation = 'DELETE'
+  SEQUENCE BY change_ts
+  COLUMNS * EXCEPT (operation, change_ts)
+  STORED AS SCD TYPE 1;
 ```
 
 **Pattern principles:**
@@ -217,7 +215,7 @@ CREATE OR REFRESH STREAMING TABLE silver_users AS
 2. **Silver = Clean** (deduplication, type casting, filtering nulls)
 3. **Gold = Ready** (business aggregations, denormalization for BI)
 4. **Use streaming for immutable appends; materialized views for computed aggregations**
-5. **Version CDC data explicitly** (track _change_type and _change_ts)
+5. **Let AUTO CDC handle ordering and deletes** (sequence by a reliable change timestamp, never by ingestion time)
 
 ## Lakeflow vs Hand-Rolled Spark Jobs
 
@@ -225,32 +223,37 @@ When would you *not* use Lakeflow?
 
 ### Use Spark Jobs (Not Lakeflow) When:
 
-- **Complex imperative logic** (if-then-else branching, stateful transformations)
-- **Multiple outputs from one job** (fan-out to many tables with different logic)
-- **External API calls** (enrichment from external services; Lakeflow isn't designed for this)
-- **Non-tabular outputs** (writing to databases, APIs, files outside Lakeflow)
-- **GPU/ML workloads** (Lakeflow is for data movement; ML pipelines live elsewhere)
+- **Complex imperative control flow** (loops, branching on runtime results, orchestration logic)
+- **Heavy external enrichment** (per-record API calls with rate limits and retries are easier to own in a job you control)
+- **Non-dataset side effects** (sending notifications, calling operational APIs)
+- **GPU/ML training workloads** (Lakeflow is for data movement; training lives elsewhere)
+
+Multiple outputs are no longer a reason to leave: a pipeline can have several flows writing to one target, and sinks can write to Kafka or external Delta tables.
 
 ```python
-# This is a Spark job, not Lakeflow
-from pyspark.sql import SparkSession
+# A Spark job for API enrichment: batch per partition, reuse one HTTP session
+import pandas as pd
 import requests
+from requests.adapters import HTTPAdapter, Retry
 
-spark = SparkSession.builder.appName("enrichment").getOrCreate()
+def enrich(batches):
+    session = requests.Session()
+    session.mount("https://", HTTPAdapter(max_retries=Retry(total=5, backoff_factor=0.5)))
+    for pdf in batches:
+        ids = pdf["user_id"].unique().tolist()
+        resp = session.post("https://api.company.com/users/batch", json={"ids": ids}, timeout=30)
+        resp.raise_for_status()
+        profiles = pd.DataFrame(resp.json())  # user_id, segment
+        yield pdf.merge(profiles, on="user_id", how="left")
 
-events = spark.read.table("silver_events")
-
-def enrich_with_api(user_id):
-    # Call external API - not idiomatic for Lakeflow
-    response = requests.get(f"https://api.company.com/users/{user_id}")
-    return response.json()
-
-# This is why Spark jobs still exist
-enriched = events.rdd.map(lambda row: enrich_with_api(row.user_id)).toDF()
-enriched.write.saveAsTable("enriched_events", mode="overwrite")
+events = spark.read.table("main.silver.events")
+enriched = events.mapInPandas(enrich, schema=events.schema.add("segment", "string"))
+enriched.write.mode("overwrite").saveAsTable("main.silver.enriched_events")
 ```
 
-**Rule of thumb:** If your transformation is SQL or simple Python dataframe operations, use Lakeflow. If it requires code with state, external calls, or complex logic, use Spark jobs.
+`mapInPandas` works on standard and serverless compute (RDD APIs don't), and batching per partition keeps you inside the API's rate limits.
+
+**Rule of thumb:** If your transformation can be expressed as datasets and their dependencies, use Lakeflow. If it needs control flow, side effects, or tight control over external calls, use a Spark job orchestrated alongside it in Lakeflow Jobs.
 
 ## Performance and Cost Considerations
 
@@ -258,19 +261,18 @@ enriched.write.saveAsTable("enriched_events", mode="overwrite")
 
 | Aspect | Streaming Tables | Materialized Views |
 |:---|:---|:---|
-| **Processing** | Incremental (only new data) | Full recompute (all data) |
-| **Latency** | Lower (continuous or frequent) | Higher (depends on refresh schedule) |
-| **CPU cost** | Lower (incremental work) | Higher (full scan) |
-| **Best for** | Event data, logs, immutable sources | Aggregations, BI, reports |
+| **Processing** | Incremental (each new record once) | Incremental where possible, full recompute otherwise |
+| **Handles source updates/deletes** | No (append-only semantics) | Yes |
+| **Latency** | Lower (continuous or frequent) | Depends on refresh schedule or trigger |
+| **Best for** | Ingestion, event data, logs | Aggregations, joins, gold tables, BI |
 | **Example** | Raw events ingestion | Daily user summary |
 
 ### Optimization in Lakeflow (2026)
 
 Lakeflow now handles much of this automatically:
 
-- **Liquid clustering** is default for new tables (no need to design partitions)
+- **Liquid clustering** is the recommended layout for new tables (automatic clustering can pick keys for you)
 - **Predictive optimization** runs maintenance automatically
-- **Query caching** at the materialized view level
 - **Skipping files** based on statistics (Z-order is legacy)
 
 ```sql
@@ -290,7 +292,7 @@ In 2026, Lakeflow pipelines expose cost metrics:
 
 This makes it clear which transformations are expensive:
 
-- Is your materialized view doing a full table scan that could be incremental? (Cost spike)
+- Is your materialized view falling back to a full recompute? (Check the refresh details in the event log; non-deterministic functions are a common cause)
 - Is your streaming table checkpointing massive state? (Check the intermediate storage)
 - Are you recalculating data that could be cached? (Use materialized views + clustering)
 
@@ -298,64 +300,62 @@ This makes it clear which transformations are expensive:
 
 Declarative pipelines are easier to test than Spark jobs because they're mostly SQL. But testing still matters.
 
-### Unit Test Pattern
+### Data Quality Checks With Expectations
+
+Expectations are the built-in way to assert data quality, and they're recorded in the pipeline event log:
 
 ```sql
--- Test: silver_events deduplicates correctly
-SELECT COUNT(*) AS total, COUNT(DISTINCT event_id) AS unique
-FROM silver_events
-HAVING total > unique;  -- Should fail if deduplication works
+CREATE OR REFRESH MATERIALIZED VIEW silver_events (
+  CONSTRAINT valid_ids EXPECT (event_id IS NOT NULL AND user_id IS NOT NULL) ON VIOLATION DROP ROW,
+  CONSTRAINT sane_timestamps EXPECT (event_ts > '2020-01-01') ON VIOLATION FAIL UPDATE
+) AS
+  SELECT * FROM bronze_events;
+```
 
--- Test: null events are filtered
-SELECT COUNT(*) 
-FROM silver_events
-WHERE event_id IS NULL OR user_id IS NULL;  -- Should return 0
+### Assertion Queries
+
+After a refresh, simple queries catch logic errors (each should return zero rows):
+
+```sql
+-- Duplicates survived deduplication
+SELECT event_id, COUNT(*) FROM silver_events GROUP BY event_id HAVING COUNT(*) > 1;
+
+-- Nulls survived filtering
+SELECT * FROM silver_events WHERE event_id IS NULL OR user_id IS NULL;
 ```
 
 ### Integration Test Pattern
 
-```sql
--- Reset to a known state
-TRUNCATE TABLE bronze_events;
-INSERT INTO bronze_events VALUES (1, 'u1', CURRENT_TIMESTAMP, '{}');
+Pipeline-managed tables can't be truncated or written to from outside the pipeline, so test by running the same pipeline definition against fixture data:
 
--- Refresh pipeline
-CALL refresh_pipeline('my_pipeline');
-
--- Assert output
-SELECT COUNT(*) AS result FROM gold_daily_events
-WHERE user_id = 'u1'
-HAVING result = 1;  -- Should pass
-```
+1. Parameterise the source path and target schema in your bundle configuration
+2. Deploy a `test` target that points the source at a small fixture folder in a volume
+3. Run it with `databricks bundle run` and then execute the assertion queries above against the test schema
 
 ## The Operational Picture: From Lakeflow to Production
 
 ### Development → Staging → Production
 
-Lakeflow 2026 supports this cleanly:
+Environments are separate deployments of the same pipeline definition, not separate tables inside one pipeline. Databricks Asset Bundles handle this with targets:
 
-```sql
--- Development: Narrow dataset, fast feedback
-CREATE OR REPLACE STREAMING TABLE bronze_events_dev AS
-  SELECT * FROM bronze_events LIMIT 10000;
-
--- Staging: Full dataset, real-world scale
-CREATE OR REPLACE STREAMING TABLE bronze_events_staging AS
-  SELECT * FROM bronze_events WHERE event_date >= DATE_SUB(CURRENT_DATE, 30);
-
--- Production: All data, full history
-CREATE OR REPLACE STREAMING TABLE bronze_events AS
-  SELECT * FROM cloud_files(
-    's3://raw-events/',
-    'json'
-  );
+```yaml
+# databricks.yml (excerpt)
+targets:
+  dev:
+    variables:
+      catalog: dev
+      source_path: /Volumes/dev/landing/events_sample/
+  prod:
+    variables:
+      catalog: prod
+      source_path: s3://raw-events/
 ```
 
 Pipeline infrastructure supports:
 - **Multi-workspace deployment** (dev workspace, prod workspace)
-- **Git versioning** (Databricks Repos integration)
-- **Notifications** (Slack alerts on pipeline failure)
-- **Manual/scheduled triggers** (run on schedule or on-demand)
+- **Git integration** (Git folders and bundles in CI/CD)
+- **Notifications** (email or webhook alerts on pipeline failure)
+- **Triggered or continuous runs** (on schedule, on file arrival, or always on)
 
 ## Lakeflow vs dbt
 
@@ -366,8 +366,8 @@ In 2026, you might ask: "Should I use Lakeflow or dbt?"
 | Aspect | Lakeflow | dbt |
 |:---|:---|:---|
 | **Native to** | Databricks | Any data warehouse |
-| **Orchestration** | Built-in (Lakeflow service) | Requires external orchestrator (Airflow, dbt Cloud) |
-| **Incremental logic** | Native (streaming, CDC, materialized views) | Plugin-based (requires dbt-incremental macros) |
+| **Orchestration** | Built-in (Lakeflow service) | dbt Cloud, Airflow/Dagster, or a dbt task in Lakeflow Jobs |
+| **Incremental logic** | Managed by the engine (streaming, CDC, incremental MVs) | Native incremental models, but you write the merge/filter logic |
 | **Testing** | SQL assertions and expectations | dbt tests, great dbt ecosystem |
 | **Best for** | Databricks-native workflows | Multi-warehouse, BI-heavy stacks |
 
@@ -383,7 +383,7 @@ What's coming:
 
 - **AI-assisted pipeline generation** (describe your data, Databricks generates the SQL)
 - **Finer cost tracking** (optimize specific transformations)
-- **Cross-warehouse federation** (query Snowflake from Lakeflow pipelines)
+- **Broader federation** (more Lakehouse Federation sources usable inside pipelines)
 - **Better testing frameworks** (built-in data quality tools)
 - **Streaming SQL improvements** (more flexible windowing and stateful operations)
 
@@ -396,7 +396,7 @@ Building a recommendation engine's featurization pipeline:
 ```sql
 -- BRONZE: Raw events
 CREATE OR REFRESH STREAMING TABLE bronze_events AS
-  SELECT * FROM cloud_files('s3://events/', 'parquet');
+  SELECT * FROM STREAM read_files('s3://events/', format => 'parquet');
 
 -- SILVER: Validated events
 CREATE OR REFRESH STREAMING TABLE silver_events AS
@@ -422,7 +422,7 @@ CREATE OR REFRESH MATERIALIZED VIEW gold_user_features AS
     COUNT(CASE WHEN event_type = 'view' THEN 1 END) AS views_30d,
     MAX(event_ts) AS last_event_ts
   FROM silver_events
-  WHERE event_ts >= DATE_SUB(CURRENT_DATE(), 30)
+  WHERE event_ts >= DATE_SUB(CURRENT_DATE(), 30)  -- current_date() means this MV fully recomputes
   GROUP BY user_id;
 
 -- GOLD: Product popularity (hourly)
@@ -439,7 +439,7 @@ CREATE OR REFRESH MATERIALIZED VIEW gold_product_popularity AS
 
 **This entire pipeline is:**
 - Automatically orchestrated (dependencies detected)
-- Incrementally processed (only new events processed)
+- Incrementally processed where possible (streaming tables always; the MVs here recompute because of the rolling window)
 - Monitored (metrics, lineage, cost tracked)
 - Scalable (from notebook to production cluster)
 
@@ -449,7 +449,7 @@ That's the promise of Lakeflow.
 
 ---
 
-*Last Updated: April 7, 2026*
+*Last Updated: September 26, 2026*
 
 ## Related Reading
 

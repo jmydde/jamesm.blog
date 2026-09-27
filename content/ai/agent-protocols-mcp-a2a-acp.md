@@ -115,7 +115,7 @@ Enterprise agent platforms. Regulated environments where audit, observability, a
 
 The three protocols are not competitors. They live at different layers and the cleanest mental model treats them as a stack.
 
-```
+```text
 ┌──────────────────────────────────────────────┐
 │   ACP - agent runtime ⟷ platform/observers   │
 ├──────────────────────────────────────────────┤

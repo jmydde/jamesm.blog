@@ -54,7 +54,6 @@ Zebra 3 isn't just another soft synth; it's a statement. It demonstrates that di
 It's a testament to thoughtful design, meticulous engineering, and a deep understanding of what musicians and sound designers truly need. For anyone serious about pushing the boundaries of their sonic palette, u-he Zebra 3 is not just an option – it's an essential exploration.
 
 ---
-*What are your favorite features of Zebra 3, or what are you most excited to explore? Share your thoughts in the comments below!*
 
 ## Related Reading
 

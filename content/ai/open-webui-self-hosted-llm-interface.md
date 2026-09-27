@@ -86,7 +86,7 @@ The interface is intuitive enough that non-technical users can operate it, but d
 
 Open WebUI is deployed as a Docker container, making it relatively straightforward to spin up. On a basic level:
 
-```
+```bash
 docker run -d -p 8080:8080 --add-host=host.docker.internal:host-gateway ghcr.io/open-webui/open-webui:latest
 ```
 
