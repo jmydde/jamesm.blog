@@ -57,7 +57,7 @@ Configure Cline to load the relevant MCP server in your VS Code settings.
 
 Instead of pasting task details, you might give Cline:
 
-```
+```text
 "Pick up the next task from the Linear board marked 'Ready for Development' 
 and work through it to completion. Update the task status when done."
 ```
@@ -136,11 +136,6 @@ Your team's board and your code repository finally speak the same language.
 - [Kanban Method](https://en.wikipedia.org/wiki/Kanban_%28development%29) - Lean workflow management
 - [VS Code](https://code.visualstudio.com/) - Code editor where Cline runs
 
-**Related Posts:**
-
-- [Cline: The Next Generation AI Coding Assistant](https://jamesm.blog/ai/cline/)
-- [The Automation Paradox](https://jamesm.blog/ai/automation-paradox/)
-- [Spec-Driven Development: When the Brief Becomes the Product](https://jamesm.blog/ai/spec-driven-development/)
 
 ## Related Reading
 
@@ -148,3 +143,5 @@ Your team's board and your code repository finally speak the same language.
 - [GitHub Spec Kit in 2026: SDD Goes Mainstream](/ai/github-spec-kit-2026-update/)
 - [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
 - [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
+- [The Automation Paradox](/ai/automation-paradox/)
+- [Spec-Driven Development: When the Brief Becomes the Product](/ai/spec-driven-development/)

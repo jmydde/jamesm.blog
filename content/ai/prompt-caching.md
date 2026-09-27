@@ -3,6 +3,7 @@ title: "Prompt Caching: The Quiet Performance Win for LLM Applications"
 date: 2026-05-09T08:00:00+01:00
 draft: false
 tags: ["ai", "llm", "performance", "cost", "agentic-engineering"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "What prompt caching actually is, why it is the highest-leverage performance and cost optimisation available to most LLM applications, and the patterns that determine whether you get a 90 percent cost reduction or no benefit at all."
 cover:
   image: /assets/images/ai/prompt-caching.png
@@ -33,7 +34,7 @@ The savings are dramatic. On most providers, cached prompt tokens cost roughly t
 
 The reason prompt caching is high-leverage is that LLM applications tend to have a specific shape. The prompt is mostly static. The system prompt, tool definitions, examples, and instructions can easily be 1500 to 5000 tokens, and they are identical across requests. The dynamic part - the user's question, the conversation history, the current state of the agent's task - is comparatively small.
 
-Without caching, you are paying full price to remind the model of the same instructions on every request. With caching, you pay full price once and then near-zero price for the rest of the day. For an application that has any meaningful traffic, the cost reduction is often eighty to ninety percent of the input token bill. This is one of the few levers that genuinely moves the needle in the broader [token economics picture](/ai/token-economics-why-costs-arent-going-down/), and it is what informs much of the [token efficiency mindset](/ai/claude-token-efficiency-mindset/) I write about elsewhere.
+Without caching, you are paying full price to remind the model of the same instructions on every request. With caching, you pay a small premium once to write the cache and then roughly a tenth of the price on every hit while it stays warm. For an application that has any meaningful traffic, the cost reduction is often eighty to ninety percent of the input token bill. This is one of the few levers that genuinely moves the needle in the broader [token economics picture](/ai/token-economics-why-costs-arent-going-down/), and it is what informs much of the [token efficiency mindset](/ai/claude-token-efficiency-mindset/) I write about elsewhere.
 
 Latency benefits stack on top of this. The cached tokens are not just cheaper, they are also faster, because the model is not actually computing them again. For interactive applications where time-to-first-token matters, prompt caching can move you from feeling laggy to feeling responsive without any other changes.
 
@@ -53,7 +54,7 @@ If you structure your prompt this way, the cache key naturally lines up with the
 
 The single most common mistake I see is variables interpolated into the system prompt. Something like:
 
-```
+```sql
 You are an assistant for {customer_name}'s account, currently in {timezone},
 with these current preferences: {preferences}.
 
@@ -66,7 +67,7 @@ This looks fine on its face, and produces correct outputs. The problem is that e
 
 The fix is mechanical. Move the variables to the end:
 
-```
+```text
 [long static instructions]
 
 Account context: {customer_name}, timezone {timezone}, preferences {preferences}.
@@ -88,6 +89,18 @@ The practical implications are:
 - **Be deliberate about when you bust the cache.** Adding a new tool, updating the system prompt, changing the output schema - these are cache-busting events. Plan them so they happen at low-traffic moments rather than during peak.
 - **Watch your cache hit rate.** Most providers expose metrics for cache hits versus misses. If your hit rate is dropping, something in your prompt construction is changing that you did not expect, and the cost of finding it is small compared to the cost of paying full price.
 - **Use cache breakpoints intentionally.** Anthropic's API exposes explicit cache control points that let you mark specific positions in the prompt as cacheable. This gives you fine-grained control and lets you cache portions of the prompt selectively.
+
+## The numbers that decide whether it pays
+
+The mechanics differ by provider, and the differences matter:
+
+- **Anthropic** caching is explicit: you mark cache breakpoints with `cache_control`. Writing to the cache costs more than normal input - 1.25x the base input price for the default five-minute lifetime, 2x for the one-hour option - and reading from it costs 0.1x. Each hit refreshes the lifetime.
+- **OpenAI** caching is automatic for long prompts, with no write premium; cached input is billed at a discount that varies by model family.
+- **Minimum length.** Providers only cache prompts above a minimum size, typically around a thousand tokens or more depending on the model. Short system prompts don't qualify.
+
+The break-even on Anthropic's five-minute cache is almost immediate. Two requests with an uncached 10,000-token prefix cost 2 × 10,000 = 20,000 token-equivalents; with caching it's 12,500 to write plus 1,000 to read = 13,500. One reuse within the lifetime already saves a third, and every further hit costs a tenth. The one-hour cache (2x write) needs two reuses to come out ahead (20,000 + 2 × 1,000 = 22,000 versus 30,000 uncached for three requests), and wins whenever traffic is too sparse to keep a five-minute cache warm.
+
+Check each provider's current pricing page before building a cost model on these ratios; they have changed before.
 
 ## Where caching does not help
 

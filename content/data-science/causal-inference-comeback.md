@@ -3,6 +3,7 @@ title: "The Causal Inference Comeback: Why Correlation-Era ML Hit a Wall"
 date: 2026-05-12T17:00:00+01:00
 draft: false
 tags: ["data", "statistics", "causal-inference", "machine-learning", "data-science"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Causal inference - the methodological tradition that asks 'why' rather than 'what' - is having a quiet renaissance in 2026 as the limits of correlation-based machine learning have become harder to ignore. A look at what has changed, what the practical methods are, and why this matters for anyone using data to make decisions."
 cover:
   image: /assets/images/data-science/causal-inference-comeback.png
@@ -41,9 +42,9 @@ The distinction between correlation and causation is one of the older ideas in s
 
 **Potential outcomes framing.** Asking "what would have happened if we had made the other choice?" rather than "what tends to happen when this choice is made?" The difference is the counterfactual.
 
-**Directed acyclic graphs (DAGs).** Drawing the assumed causal structure of a problem before doing the analysis. This makes the assumptions explicit and testable rather than hidden in the model.
+**Directed acyclic graphs (DAGs).** Drawing the assumed causal structure of a problem before doing the analysis. This makes the assumptions explicit and reviewable - and partly testable, since a DAG implies conditional independencies you can check in the data, though never all of its assumptions.
 
-**Instrumental variables.** Using a third variable that affects the treatment but not the outcome directly to identify causal effects in observational data.
+**Instrumental variables.** Using a third variable (the instrument) to identify causal effects in observational data. It has to satisfy three conditions: it must actually move the treatment (relevance), it must affect the outcome only through the treatment (exclusion), and it must not share unmeasured causes with the outcome (independence). The last two can't be fully tested from the data, which is where most IV analyses are won or lost.
 
 **Regression discontinuity designs.** Exploiting threshold-based policy decisions or natural cut-offs to estimate causal effects without random assignment.
 
@@ -59,11 +60,36 @@ A few things converged to bring causal inference back into the practitioner conv
 
 **The ML failures got visible.** When the predictive model that worked beautifully in training broke in production, the post-mortems increasingly reached for causal vocabulary to explain what had gone wrong.
 
-**The tooling matured.** Libraries like `DoWhy`, `EconML`, `CausalML`, and Stan's causal extensions made the methods practical for working data scientists. The friction that used to keep causal inference in academia dropped substantially.
+**The tooling matured.** Libraries like `DoWhy`, `EconML`, and `CausalML`, plus Bayesian tools like Stan and PyMC for custom models, made the methods practical for working data scientists. The friction that used to keep causal inference in academia dropped substantially.
 
 **AI assistants changed the cost-benefit.** It is now economically viable for a working data scientist to learn causal methods because the AI assistant can help with the heavy lifting of writing the analysis code. The mathematical content still has to be understood, but the implementation friction is no longer the bottleneck.
 
 **The decisions got higher-stakes.** As more business decisions get automated, the cost of treating correlations as causal has gone up. The same model error that was tolerable when a human reviewed each recommendation is intolerable when 10,000 decisions a day are made automatically.
+
+## A minimal example
+
+Suppose you want to know whether a discount actually increased customer spend, using historical data where discounts weren't randomly assigned. [DoWhy](https://github.com/py-why/dowhy) makes the four steps - model, identify, estimate, refute - explicit:
+
+```python
+from dowhy import CausalModel
+
+model = CausalModel(
+    data=df,
+    treatment="got_discount",
+    outcome="spend_next_90d",
+    common_causes=["tenure_months", "prior_spend", "region"],  # your assumed confounders
+)
+
+estimand = model.identify_effect()
+estimate = model.estimate_effect(estimand, method_name="backdoor.propensity_score_matching")
+print(estimate.value)
+
+# Would the "effect" survive if the treatment were random noise?
+refutation = model.refute_estimate(estimand, estimate, method_name="placebo_treatment_refuter")
+print(refutation)
+```
+
+The code is short. The hard part is the `common_causes` list: if something that drove both who got a discount and how much they spent is missing, the estimate is biased, and no library can detect that for you. That is the judgement the rest of this post is about.
 
 ## What this looks like in practice
 

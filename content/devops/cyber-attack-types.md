@@ -3,6 +3,7 @@ title: "Understanding Types of Cyber Attacks: A DevOps Guide"
 date: 2025-04-20T10:00:00+01:00
 draft: false
 tags: ["security", "devops"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Comprehensive guide to different types of cyber attacks, attack vectors, and defense strategies for DevOps teams."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg
@@ -19,7 +20,7 @@ Cyber attacks are becoming increasingly sophisticated, and DevOps teams must und
 
 ## Malware-Based Attacks
 
-Malicious software takes many forms. **Viruses and worms** self-replicate across systems, while **ransomware** encrypts data and demands payment for restoration. Banking trojans like Emotet distribute through phishing campaigns and establish persistent access to financial systems.
+Malicious software takes many forms. **Viruses and worms** self-replicate across systems, while **ransomware** encrypts data and demands payment for restoration. Loaders like Emotet (which began as a banking trojan) distribute through phishing campaigns and establish persistent access to financial systems.
 
 **Drive-by attacks** install malware when users visit compromised websites, often without user interaction. These attacks exploit unpatched vulnerabilities in browsers or plugins.
 
@@ -37,11 +38,22 @@ Malicious software takes many forms. **Viruses and worms** self-replicate across
 
 ## Emerging and Advanced Threats
 
-**Zero-Day Exploits** target previously unknown vulnerabilities before security patches exist. Organizations have no defense until vendors identify and release fixes.
+**Zero-Day Exploits** target previously unknown vulnerabilities before security patches exist. There's no patch, but there is defence: least privilege and network segmentation limit what an exploited service can reach, WAF rules can virtually patch web-facing flaws, and endpoint and runtime detection catch the behaviour that follows exploitation even when the vulnerability itself is unknown.
 
 **Cryptojacking** hijacks computing resources to mine cryptocurrency without user consent. This often goes unnoticed but can significantly drain system performance and increase operational costs.
 
 **Insider Threats** exploit access from employees or contractors with legitimate system access. These attacks are particularly difficult to detect through network monitoring alone.
+
+## The Vectors DevOps Teams Actually Face
+
+The classic categories above still matter, but most incidents that reach engineering teams today come through the delivery pipeline and the cloud control plane:
+
+- **Software supply chain.** Compromised dependencies, typosquatted packages, and malicious updates to widely used libraries or CI actions. Pin versions, verify provenance, and scan dependencies in CI.
+- **CI/CD compromise.** Pipelines hold deploy credentials for everything. Treat runners, pipeline definitions, and third-party actions as production assets, and prefer short-lived OIDC credentials over long-lived secrets.
+- **Leaked secrets.** API keys and tokens committed to repositories or baked into images. Use secret scanning and a secrets manager, and rotate anything that leaks.
+- **Stolen tokens and SaaS integrations.** Infostealer malware and compromised third-party integrations yield session cookies and OAuth tokens that bypass MFA entirely. Review which apps hold tokens to your SaaS estate and how broad their scopes are.
+- **Cloud misconfiguration.** Public buckets, over-permissive IAM roles, and exposed management interfaces remain among the most common root causes. Policy as code and continuous posture checks catch these before attackers do.
+- **MFA fatigue and phishing-resistant MFA.** Push-notification MFA can be defeated by spamming prompts until someone accepts. Hardware keys and passkeys resist this.
 
 ## Password-Based Attacks
 
@@ -62,7 +74,7 @@ Effective cybersecurity requires a layered approach:
 - Use encryption for data in transit and at rest
 - Deploy firewalls, intrusion detection systems, and network segmentation
 - Regularly scan for vulnerabilities
-- Monitor for unusual behavior with tools like Lepide
+- Monitor for unusual behavior with centralised logging, SIEM, and endpoint detection
 
 **Organizational Practices**:
 - Regular security training for all employees
@@ -95,7 +107,7 @@ No single defense prevents all attacks. Organizations must implement defense-in-
 
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/) - Web application security risks
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - Standards and guidelines
-- CISA Cyber Alerts - Current threat intelligence
+- CISA's alerts and Known Exploited Vulnerabilities catalog - current threat intelligence
 - [CIS Controls](https://www.cisecurity.org/controls) - Critical safeguards
 
 ## Related Reading

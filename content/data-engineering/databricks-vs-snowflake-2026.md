@@ -3,6 +3,7 @@ title: "Databricks vs Snowflake in 2026: An Honest Comparison"
 date: 2026-04-05T09:00:00+00:00
 draft: false
 tags: ['databricks', 'snowflake', 'data-engineering', 'data-warehouse', 'lakehouse', 'comparison']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Head-to-head comparison of Databricks and Snowflake in 2026 - when you should choose each, their actual strengths and weaknesses, and the direction each is moving."
 slug: "databricks-vs-snowflake-2026"
 cover:
@@ -31,7 +32,7 @@ But let me answer it anyway, because sometimes you have to pick one. For the wid
 By 2026, both platforms have converged in surprising ways:
 
 - **Databricks** started as a Spark compute engine and added warehouse features
-- **Snowflake** started as a cloud data warehouse and added Iceberg support for lakehouse semantics
+- **Snowflake** started as a cloud data warehouse and added Iceberg tables, Python compute (Snowpark), and container services
 - Both now claim to be "lakehouses" that combine data lake flexibility with warehouse performance
 
 The difference isn't in capability - it's in **architectural DNA, operational model, and what they expect you to optimize for**.
@@ -85,7 +86,7 @@ Databricks started with the Apache Spark distributed compute engine and built wa
 
 Snowflake started as a purpose-built cloud data warehouse. Its architecture assumes:
 
-- Data lives in a Snowflake-managed storage layer (with an S3 backend)
+- Data traditionally lives in Snowflake-managed storage, with Iceberg tables as the open-format option
 - Compute and storage are decoupled but tightly integrated
 - Query performance is automatically optimized by the warehouse
 - You shouldn't think too hard about physical table design
@@ -97,9 +98,9 @@ Snowflake started as a purpose-built cloud data warehouse. Its architecture assu
 - Minimal tuning required for most use cases
 
 **What it requires:**
-- Data must be loaded into Snowflake (ingestion overhead)
-- Less flexibility in how data is stored or processed
-- All queries run through Snowflake's SQL engine (good for SQL, bad for Pandas/ML)
+- Native tables need data loaded into Snowflake (Iceberg tables and external tables are the alternatives)
+- Less control over physical layout than Databricks gives you
+- Python and ML run through Snowpark and Snowpark Container Services, which work well but are younger ecosystems than Spark
 
 ## 2. Compute Model: Serverless vs Shared Clusters
 
@@ -108,30 +109,30 @@ Both platforms offer "serverless" in 2026, but they work very differently.
 ### Databricks Serverless
 
 - You don't manage clusters; Databricks manages them for you
-- Compute scales instantly to your workload
-- SQL endpoints, notebook sessions, and pipeline jobs all run serverless
-- You pay per compute-second + egress
-- Cold starts are still slightly noticeable (seconds) but improving
+- Compute scales quickly to your workload
+- SQL warehouses, notebooks, jobs, and pipelines can all run serverless
+- You pay in DBUs, with the underlying compute bundled into the serverless DBU rate
+- Startup is typically seconds rather than the minutes classic clusters take
 
 **Gotchas:**
-- Serverless compute is region-specific and not available in all workspaces
-- Some advanced networking and governance features require bringing your own compute
-- Egress costs can surprise you (cross-region queries)
+- Serverless availability and features vary by cloud and region
+- Some networking setups and legacy code patterns still need classic compute
+- Cross-region data access adds egress costs
 
-### Snowflake Serverless
+### Snowflake Virtual Warehouses
 
-- You provision "compute credits" and Snowflake manages scaling within that
-- All queries are distributed across Snowflake's managed infrastructure
-- Automatic query caching at the warehouse level
-- You pay per-credit (simpler mental model than compute-seconds)
-- No infrastructure decisions needed
+- You create virtual warehouses (XS to 6XL) that bill credits per second while running, with a 60-second minimum each time they resume
+- Auto-suspend and auto-resume mean idle warehouses cost nothing
+- Multi-cluster warehouses scale out for concurrency
+- Separate serverless features (Snowpipe, serverless tasks, search optimization, automatic clustering) bill credits on their own
+- Result caching is automatic
 
 **Gotchas:**
-- You can't bring your own compute (all Snowflake-managed)
-- "Serverless" is somewhat of a misnomer - you're still buying credits that may go unused
-- Scaling is rapid but not truly per-job; it's per-warehouse
+- Warehouse sizing is still a decision you make, per workload
+- Capacity contracts are prepaid; unused capacity at the end of a term is a contract question, not a technical one
+- Background serverless features can add credits you didn't plan for
 
-**In practice:** Snowflake's model is simpler if you like fixed costs and don't want to tune. Databricks' model is cheaper for bursty, unpredictable workloads and gives you more control.
+**In practice:** Snowflake's model is simpler to reason about per query. Databricks gives you more knobs and, for large transformation workloads, more ways to make it cheap.
 
 ## 3. Performance: Query Speed vs Transformation Speed
 
@@ -142,18 +143,18 @@ This is where the architectural difference shows up most clearly.
 - **Complex transformations (ETL/ELT):** Fast. Spark is built for this.
 - **Aggregations on large tables:** Fast. Distributed query execution.
 - **Queries on cold data:** Slow if data isn't clustered well; you need to think about data layout.
-- **Small, quick queries:** Medium. Serverless startup + Spark overhead means you won't do 1-second queries reliably.
+- **Small, quick queries:** Good on serverless SQL warehouses with Photon; classic clusters are where the old latency reputation came from.
 - **Pointwise operations (ML inference):** Excellent. Can use Pandas UDFs, GPU compute, etc.
 
 Databricks expects you to optimize data layout (liquid clustering in 2026), but once you do, queries are competitive.
 
 ### Snowflake Performance Profile
 
-- **Complex transformations (ETL/ELT):** Adequate. Not optimized for Spark-like workflows; you'll write SQL instead.
+- **Complex transformations (ETL/ELT):** Good for SQL-shaped work (dynamic tables, tasks, dbt); Snowpark covers Python-shaped work.
 - **Aggregations on large tables:** Excellent. Columnar storage + clustering keys + automatic pruning.
 - **Queries on cold data:** Good. The warehouse handles it transparently; you don't tune.
 - **Small, quick queries:** Excellent. Sub-second even with warehouse overhead.
-- **Pointwise operations (ML inference):** Poor. You need to move data to Python; Snowflake isn't a compute engine.
+- **Pointwise operations (ML inference):** Good and improving. Snowpark UDFs, Snowpark Container Services (including GPUs) and Cortex AI functions run inference next to the data, though Databricks' ML tooling is more mature.
 
 Snowflake's performance advantage is in interactive analytics. Databricks' is in transformation at scale.
 
@@ -175,7 +176,7 @@ Both have mature governance; it's a game of philosophy.
 
 **Weakness:** If you use Snowflake for analytics and Databricks for ML, you now have two separate governance layers.
 
-### Snowflake: Role-Based Access Control (RBAC)
+### Snowflake: RBAC and Horizon
 
 - **Clean, familiar RBAC model** (like traditional databases)
 - Strong audit logging and compliance reporting
@@ -185,7 +186,7 @@ Both have mature governance; it's a game of philosophy.
 
 **Strength:** Extremely familiar if you've managed other databases. Rock-solid for regulatory compliance.
 
-**Weakness:** No built-in lineage tracking or ML model governance. If you need ML, you're adding a separate system.
+**Worth knowing:** Horizon adds lineage, data classification, and access history, and the Snowflake Model Registry governs models. The gap to Unity Catalog on ML assets has narrowed considerably.
 
 ## 5. The Data Format War: Delta Lake vs Iceberg
 
@@ -193,17 +194,17 @@ This is where Databricks and Snowflake diverge most on technical vision.
 
 ### Databricks: Optimizing for Delta Lake
 
-- Databricks created Delta Lake (donated to Linux Foundation; now Apache Delta)
+- Databricks created Delta Lake (donated to the Linux Foundation in 2019)
 - All new Databricks features (streaming tables, materialized views, liquid clustering) are Delta-first
-- Iceberg support exists but feels like an add-on
+- Iceberg is supported through UniForm and managed Iceberg tables in Unity Catalog
 - Delta Lake advantages: ACID transactions, Z-ordering, DML performance
 
 ### Snowflake: Pivoting to Iceberg
 
-- Snowflake added Iceberg support in 2024 and is making it central in 2026
+- Snowflake made Iceberg tables GA in 2024 and in 2026 added Snowflake-managed storage for them
 - Iceberg is table-format agnostic (works with any query engine)
 - Multi-cluster writes are now possible with Iceberg + Snowflake
-- Delta Lake still works, but feels like legacy support
+- Delta tables can be read in place, but Iceberg is clearly the strategic open format
 
 **Who cares?** If you want portability and don't want to be locked into one engine, Iceberg is the open format choice. If you're all-in on Databricks, Delta Lake is fine and arguably better optimized.
 
@@ -233,15 +234,15 @@ This is where Databricks and Snowflake diverge most on technical vision.
 
 ### Databricks Pricing (2026)
 
-- Compute: $0.30–$1.20 per DBU (Databricks Unit) per hour, depending on workload type
-- Serverless: $0.30–$0.40 per compute-second + storage
+- Compute is billed in DBUs (Databricks Units), a per-hour unit of processing; the list price per DBU varies by workload type (jobs, SQL, all-purpose, serverless), tier, cloud and region
+- Classic compute: you pay DBUs to Databricks **plus** the VMs to your cloud provider
+- Serverless: a higher DBU rate with the compute included
 - Storage: You pay your cloud provider (S3, ADLS, GCS), not Databricks
 - **Total cost is mostly transparent:** You know how many DBUs your job consumed
 
 **Gotchas:**
 - DBU pricing varies by region and workload type
 - Egress costs if you query across regions
-- Serverless is new; historical pricing data is limited
 
 ### Snowflake Pricing (2026)
 
@@ -251,12 +252,12 @@ This is where Databricks and Snowflake diverge most on technical vision.
 - **Credits are abstract:** You have to estimate workload → credits
 
 **Gotchas:**
-- Storage is Snowflake-managed; you can't optimize it away
-- Unused credits don't roll over; you lose them
+- Native-table storage is Snowflake-managed (Time Travel and Fail-safe retention add to it)
+- On capacity contracts, prepaid credits are tied to the contract term, so over-committing is a real risk
 - Credit consumption is hard to predict upfront (queries may use more credits than expected)
 - Some features (materialized views, cluster keys, Iceberg) consume extra credits
 
-**Rough comparison:** For a mid-scale team (50 GB–1 TB), Databricks is often 30–50% cheaper if you're already paying for cloud storage. Snowflake has higher base cost but simpler budgeting.
+**Rough comparison:** There's no honest universal percentage. Databricks tends to win on large, well-tuned transformation workloads; Snowflake tends to win on total effort for BI-heavy teams. Price a representative week of your own workload on both before trusting anyone's rule of thumb, including this one.
 
 ## 8. Operational Overhead: Who Does the Work?
 
@@ -300,8 +301,8 @@ Both platforms claim to be lakehouses in 2026. Here's what that actually means:
 
 - Warehouse + Iceberg + Data Cloud = lakehouse
 - Emphasis on **analytics and data sharing**
-- Data is locked into Snowflake's managed storage
-- If you want heavy transformation, you export to Databricks or Spark
+- Native tables live in Snowflake storage; Iceberg tables can live in your bucket or Snowflake's
+- Heavy transformation runs in SQL, dynamic tables, or Snowpark
 
 **The truth:** They're not converging; they're adding features that let them claim lakehouse status. They're still architecturally different:
 
@@ -353,14 +354,15 @@ You're building a new data platform from scratch. No existing investments.
 - **Lakeflow Declarative Pipelines** are the new framing (replacing "Delta Live Tables")
 - **Serverless is accelerating** adoption (now more region-agnostic)
 - **Foundation model inference** (ai_query, endpoint management) is getting cleaner
-- **Iceberg support** is growing (acknowledging multi-engine, multi-cloud future)
+- **Iceberg support** is growing (UniForm and managed Iceberg tables)
+- **Lakebase** adds a managed Postgres for transactional workloads next to the lakehouse
 - **Price competition** is real (cost per DBU is dropping)
 
 ### Snowflake Momentum
 
 - **Iceberg pivot** signals shift toward portability and multi-engine
 - **Dynamic tables** (auto-refreshing materialized views) are maturing
-- **Unistore** (transactional + analytical in one) is gaining adoption
+- **Hybrid tables and Snowflake Postgres** bring transactional workloads onto the platform
 - **Data Cloud** (third-party data sharing marketplace) is growing
 - **Credit inflation** is slowing (but costs remain high)
 
@@ -392,4 +394,4 @@ Everything else is implementation detail.
 
 ---
 
-*Last Updated: April 7, 2026*
+*Last Updated: September 26, 2026*

@@ -3,6 +3,7 @@ title: "System Design Fundamentals: Making Trade-offs You Won't Regret"
 date: 2026-05-19T12:00:00+01:00
 draft: false
 tags: ["software-engineering", "architecture"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "System design is not about knowing the right answer. It is about understanding the trade-offs well enough to choose deliberately. Here are the core axes every design decision moves along, a worked example, and why designing for scale you do not have is the most common self-inflicted wound in software."
 cover:
   image: /assets/images/software-engineering/system-design-fundamentals.png
@@ -32,6 +33,8 @@ The goal is not to avoid trade-offs. That is impossible. The goal is to make the
 Most system design decisions, underneath the specifics, move along a small number of axes. Knowing them gives you a checklist for "what am I actually trading here".
 
 **Consistency against availability.** When data is replicated across machines and the network between them fails - and networks always eventually fail - you must choose. Do you refuse to answer rather than risk returning stale data, or do you stay available and accept that two replicas might disagree for a while? This is the heart of the [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem). A bank balance and a "like" count want opposite answers. There is no universally correct choice, only a choice that fits the data.
+
+The CAP framing only describes what happens during a network partition, which is rare. The PACELC extension adds the trade-off you live with the rest of the time: **Else, when the network is fine, you trade Latency against Consistency.** Synchronous replication across regions keeps replicas consistent and adds a round trip to every write; asynchronous replication is fast and briefly stale. That everyday latency-versus-consistency choice shapes most distributed designs far more than the partition case does.
 
 **Latency against throughput.** Latency is how long one request takes. Throughput is how many requests you handle per unit time. They pull against each other constantly. Batching work improves throughput and worsens latency. Adding a queue smooths load and absorbs spikes, at the cost of end-to-end delay. A caching layer cuts latency and adds a consistency problem. You cannot maximise both; you decide which one the product actually needs.
 
@@ -69,11 +72,9 @@ It does not need to be long. It needs to state the **assumptions** (expected loa
 
 For the diagram that usually accompanies it, the [C4 model](https://c4model.com/) is a sensible, low-ceremony way to draw software at a few levels of zoom without inventing your own notation. But the prose matters more than the picture. The picture shows what was built. The prose explains why - and why is the part that decays from memory first.
 
-## What this section covers
+## Where to go from here
 
-This post is the foundation. The rest of the Software Engineering section goes deeper into the craft: API design and the contract mindset, when a language like [Rust](https://www.rust-lang.org/) earns its complexity and why [Go](https://go.dev/) keeps winning backend work, testing strategy, debugging as a discipline, code review that improves code rather than just catching bugs, the design patterns still worth knowing, concurrency models compared, and how to name and pay down technical debt.
-
-The connecting thread is the one in this post: software engineering is not the accumulation of correct answers. It is the practised judgement to see the trade-offs and choose well.
+The connecting thread of this post applies to everything else in software engineering: it is not the accumulation of correct answers. It is the practised judgement to see the trade-offs and choose well. The same method shows up in [Kubernetes in 2026](/devops/kubernetes-2026-complexity-tax/), which is a long build-versus-buy and simplicity-versus-flexibility argument, and in [Threat Modeling for Engineers](/security/threat-modeling-for-engineers/), which applies the same "name what you're trading" discipline to security.
 
 ## Related Reading
 

@@ -3,6 +3,7 @@ title: "Real-Time Data Processing: Stream Processing vs Batch Processing"
 date: 2026-05-10T08:00:00+01:00
 draft: false
 tags: ["streaming", "batch", "data-engineering", "kafka", "spark", "architecture"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "A direct comparison of stream and batch processing as architectural choices, the operational and cost tradeoffs that the marketing material does not mention, and the patterns that work when you need both."
 cover:
   image: assets/images/data-engineering/stream-vs-batch-processing.png
@@ -12,7 +13,7 @@ cover:
 ## TL;DR
 
 - **Batch** processes bounded data on a schedule; **streaming** processes unbounded data continuously - different operational profiles, not a religious choice
-- Streaming often costs **5-10x more per row** than batch for the same volume; you pay for latency
+- Streaming usually costs **several times more per row** than batch for the same volume, because you pay for always-on compute; you pay for latency
 - Streaming earns its keep when event value decays fast: fraud, ops alerts, live dashboards, inventory sync
 - The **lambda hybrid** (streaming fast path + batch system of record) is what large platforms actually run
 - Default to batch in 2026; add streaming only where latency genuinely matters, and land raw events in object storage from day one
@@ -75,6 +76,18 @@ The far more common case is teams choosing streaming for use cases where batch w
 
 The rule of thumb I use when someone proposes a streaming architecture is: what specifically goes wrong if this runs once an hour instead? If the answer is a vague feeling that real-time is better, batch is probably the right choice.
 
+## The concepts that make streaming hard
+
+If you do adopt streaming, four ideas do most of the work, and most streaming bugs trace back to one of them:
+
+**Event time vs processing time.** An event that happened at 09:00 may arrive at 09:07. Aggregating by arrival time is easy and usually wrong; aggregating by when the event actually happened is right and needs the engine to track time explicitly.
+
+**Watermarks.** A watermark is the engine's running estimate of "I've probably seen everything up to time T". It's what lets a windowed aggregation eventually close and emit a result, and it's a trade-off: a generous watermark waits longer and holds more state, a tight one finalises sooner and drops more late data.
+
+**Late data.** Something will always arrive after the watermark. Decide deliberately whether to drop it, route it to a side output, or let the batch path correct it later - which is one of the strongest arguments for the hybrid pattern below.
+
+**Delivery guarantees.** "Exactly-once" in practice means exactly-once *effect*: the engine checkpoints state and source offsets together, and the sink either supports transactions or writes idempotently. A non-idempotent sink (sending an email, calling an API) quietly downgrades the whole pipeline to at-least-once.
+
 ## The hidden costs of streaming
 
 Streaming systems have operational costs that are not visible when you are evaluating them on the whiteboard. They are worth knowing about, because they show up reliably in production.
@@ -91,6 +104,12 @@ Streaming systems have operational costs that are not visible when you are evalu
 
 None of these are show-stoppers. They are real engineering costs that should be on the balance sheet when you are deciding which paradigm to use.
 
+## The middle ground: incremental batch
+
+The batch-versus-streaming framing hides the option most teams should reach for first. Streaming engines can run a **triggered, incremental** job: start, process everything that arrived since the last run, checkpoint, and stop. In Spark this is `Trigger.AvailableNow`; Lakeflow pipelines and dbt incremental models give you the same shape.
+
+You get streaming's bookkeeping - each record processed once, state checkpointed, no hand-written "since last run" logic - with batch's economics: nothing runs between triggers, you can use cheap compute, and moving to continuous processing later is a configuration change rather than a rewrite. Run it hourly and you have near-real-time without an always-on cluster.
+
 ## The hybrid pattern that works
 
 The architecture that I have seen succeed most often when both latency and correctness matter is the [lambda](https://en.wikipedia.org/wiki/Lambda_architecture)-style hybrid: streaming for the operational fast path, batch for the system of record.
@@ -99,7 +118,7 @@ The shape is something like this. Events flow into a streaming system that produ
 
 The streaming side is allowed to be slightly wrong. The batch side is correct. Downstream consumers that need low latency read the streaming output. Consumers that need correctness read the batch output. Where you need both, you read the batch up to the watermark and the streaming output for events after.
 
-This is not novel. It is the architecture every large-scale data system that needs both real-time and correctness has converged on, in some form. The variations are in how clean the integration is between the two paths and how much shared logic you can avoid duplicating.
+This is not novel. It is the architecture every large-scale data system that needs both real-time and correctness has converged on, in some form. The variations are in how clean the integration is between the two paths and how much shared logic you can avoid duplicating. The price is the one Jay Kreps named when he proposed kappa: two code paths that compute the same thing in two different systems, which drift apart unless you work hard to share logic between them.
 
 The [kappa architecture](https://en.wikipedia.org/wiki/Kappa_architecture) - streaming-only with replay - is the cleaner alternative on paper and has more enthusiasts than working examples in production. It can work, but it requires the streaming system to be authoritative, which puts a higher operational bar on the platform than most teams can sustain. For most organisations in 2026, lambda-shaped hybrids are still the realistic answer.
 

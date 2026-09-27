@@ -3,7 +3,8 @@ title: "Community Detection Algorithms: Finding Clusters and Groups in Network D
 date: 2026-02-09T09:00:00+00:00
 draft: false
 tags: ["data-science", "graph-algorithm", "network-analysis"]
-description: "Deep dive into community detection: how Louvain, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations."
+lastmod: 2026-09-26T09:00:00+01:00
+description: "Deep dive into community detection: how Louvain, Leiden, modularity, and spectral clustering work. Practical guide to finding natural groups in networks and why they matter for fraud, social networks, and product recommendations."
 cover:
   image: /assets/images/data-science/data-science.jpg
   alt: Network graph showing clusters of connected nodes representing community detection
@@ -13,8 +14,8 @@ slug: "community-detection-algorithms"
 ## TL;DR
 
 - A community is a group of nodes with more internal connections than you would expect by chance; community detection finds these groups purely from network structure, not features
-- Modularity is the metric everything uses - 0.3-0.7 is typical for real networks, and 0.9+ usually means you have over-clustered
-- Louvain is the industry standard: fast, greedy, no hyperparameters to tune, and it produces high-modularity divisions; label propagation, spectral clustering, and Girvan-Newman fill the gaps
+- Modularity is the metric most methods optimise - values of 0.3-0.7 are common for real networks - but it has a known resolution limit that can hide small communities
+- Louvain made community detection practical at scale, but it can produce badly connected or even disconnected communities; Leiden fixes that and is now the better default. Label propagation, spectral clustering, and Girvan-Newman fill the gaps
 - The same technique powers friend-group detection, product clustering, fraud-ring identification, and finding functional modules in biological networks
 - Overlapping communities remain the genuinely hard problem - most standard algorithms assign each node to exactly one group
 
@@ -40,21 +41,27 @@ This creates a natural boundary - the group is more connected internally than ex
 
 Before we dive into algorithms, you need to understand modularity - it's the metric that measures "how good is this community division?"
 
+In words: the fraction of edges that fall within communities, minus the fraction you'd expect if edges were placed at random while keeping every node's degree the same. Formally, for a graph with m edges:
+
+```text
+Q = (1 / 2m) * Σ over node pairs (i, j) [ A_ij - γ * (k_i * k_j) / 2m ] * δ(c_i, c_j)
 ```
-Q = (Edges within communities - Expected edges within communities) / Total edges
-```
+
+where A_ij is 1 if i and j are connected, k_i is node i's degree, δ(c_i, c_j) is 1 when both nodes are in the same community, and γ is the resolution parameter (1 in the classic definition).
 
 Higher modularity = better division into communities.
 
 The intuition: If communities were random, you'd expect some edges within groups just by chance. Modularity measures how much better your actual community structure is than random.
 
-A modularity of 0.3 - 0.7 is typical for real networks. A modularity of 0.9+ usually means you've over-clustered.
+A modularity of 0.3 - 0.7 is common for real networks, but there's no universal threshold for "good": very sparse, highly modular graphs legitimately score above 0.9.
+
+The caveat that matters more is the **resolution limit** (Fortunato and Barthélemy, 2007): maximising modularity can merge small, genuine communities into larger ones, especially in big graphs. The resolution parameter γ is how you push back: higher values give more, smaller communities.
 
 ## The Louvain Algorithm: What Most People Actually Use
 
-The Louvain algorithm is the industry standard because it's:
-1. Fast (linear-ish time complexity)
-2. Greedy (no hyperparameters to tune)
+The Louvain algorithm became the standard because it's:
+1. Fast (close to linear time in practice)
+2. Simple (a greedy method; the main knob is the resolution parameter)
 3. Effective (produces high modularity)
 
 ### How It Works (Conceptually)
@@ -76,7 +83,13 @@ This two-phase approach is why Louvain is fast - each phase runs in linear time.
 
 Louvain doesn't require you to specify "how many communities are there?" It discovers the natural number. This is powerful because you don't have to guess.
 
-The downside: The algorithm is non-deterministic. Different random seeds might produce slightly different communities. Run it multiple times and look for communities that appear consistently.
+The downsides: the algorithm is non-deterministic, so different node orderings can produce different communities - run it multiple times and look for communities that appear consistently. And, more seriously, it can produce **badly connected or even disconnected communities**.
+
+### Leiden: Louvain, Fixed
+
+[Traag, Waltman and van Eck (2019)](https://arxiv.org/abs/1810.08473) showed that Louvain can yield arbitrarily badly connected communities; in their experiments, up to 25% of communities were badly connected and up to 16% were disconnected. Their **Leiden algorithm** adds a refinement step between moving nodes and aggregating, which guarantees connected communities, and it also runs faster than Louvain.
+
+If your library offers Leiden, use it. A "community" that is actually two disconnected pieces is a real problem when you're about to hand it to a fraud investigator as a ring.
 
 ## Other Community Detection Approaches
 
@@ -95,7 +108,7 @@ The downside: The algorithm is non-deterministic. Different random seeds might p
 
 ### Spectral Clustering: The Mathematical Approach
 
-Uses the eigenvalues of the graph's adjacency matrix to find community structure.
+Uses the eigenvectors of a matrix derived from the graph - usually the graph Laplacian - to find community structure.
 
 **The intuition:** Graph structure encodes itself in the mathematical properties of the adjacency matrix. Nodes in tight communities have similar eigenvectors.
 
@@ -199,17 +212,17 @@ The tradeoff: Complexity vs realism. For most use cases, Louvain's non-overlappi
 
 When running community detection at scale:
 
-**Memory:** Louvain uses O(V + E) memory, even for billion-node graphs.
+**Memory:** Louvain and Leiden use O(V + E) memory, so the constraint is fitting the graph in memory - which is exactly what Neptune Analytics is sized around.
 
 **Execution time:** 
 - Label Propagation: O(E * iterations) - typically seconds
-- Louvain: O(E * log(V)) typically - typically minutes
+- Louvain / Leiden: close to linear in practice - typically minutes
 - Spectral: O(V²) - slow for very large graphs
 
 **Key consideration:** These algorithms often need to be run on the entire graph to get meaningful results. You can't easily partition a graph and run detection on each partition independently.
 
 **Practical approach:**
-1. Run Louvain on the full graph (once, save the results)
+1. Run Leiden or Louvain on the full graph (check which your engine provides, and save the results)
 2. Query community membership (fast lookups)
 3. Re-run periodically (weekly or monthly, depending on how fast your network changes)
 
@@ -229,6 +242,7 @@ That's a signal you can trust.
 ## Going Deeper
 
 - [The Louvain Method paper](https://arxiv.org/abs/0803.0476) is readable and includes comparison to other methods
+- [From Louvain to Leiden](https://arxiv.org/abs/1810.08473) explains the connectivity problem and the fix
 - Community Detection in Graphs on Wikipedia covers the landscape
 - Neo4j's Community Detection Algorithms has practical implementations
 

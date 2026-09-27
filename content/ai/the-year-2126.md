@@ -34,7 +34,7 @@ With that caveat stated loudly, here is what I think the honest, probability-wei
 
 ## A Rough Timeline
 
-```
+```text
  Year   Milestone
  ────   ──────────────────────────────────────────────────────
  2026 ──┬── You are here. AI era begins in earnest.
@@ -169,15 +169,6 @@ That is enough weight for a decade. It is also enough reason to take the hundred
 
 ---
 
-**Related reading:**
-
-- [The Next Decade of AI](/ai/the-next-decade-of-ai) - The ten-year view this post sits above
-- [The Year 3026: Thinking Seriously About a Thousand Years From Now](/ai/the-year-3026) - The thousand-year companion to this post
-- [Four Futures for the Machine-Speed Economy](/ai/four-futures-machine-speed-economy/) - Near-term scenarios that shape the 2126 outcome
-- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs) - The durable human work categories
-- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity) - What becomes valuable when intelligence is free
-- [AI Reliability Is Weird](/ai/ai-reliability-is-weird) - The engineering discipline that matures over the coming century
-- [The Exponential Curve: Understanding Human Advancement Acceleration](/general/human-advancement-acceleration) - Why the compression of change keeps accelerating
 
 **External sources:**
 
@@ -194,3 +185,7 @@ That is enough weight for a decade. It is also enough reason to take the hundred
 - [Reading the Signals: Which of the Four Futures Is Actually Emerging?](/ai/reading-the-signals-four-futures/)
 - [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
 - [The Free Intelligence Era: What Breaks When Thinking Costs Nothing](/ai/free-intelligence-era/)
+- [Top 5 Human In-Demand Jobs in 10 Years](/ai/human-in-demand-jobs/) - The durable human work categories
+- [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/) - What becomes valuable when intelligence is free
+- [AI Reliability Is Weird](/ai/ai-reliability-is-weird/) - The engineering discipline that matures over the coming century
+- [The Exponential Curve: Understanding Human Advancement Acceleration](/general/human-advancement-acceleration/) - Why the compression of change keeps accelerating

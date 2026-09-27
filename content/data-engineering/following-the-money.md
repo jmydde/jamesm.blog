@@ -3,6 +3,7 @@ title: "Following the Money: Databricks vs Snowflake vs the Open-Source Alternat
 date: 2026-04-08T07:40:00+01:00
 draft: false
 tags: ["databricks", "snowflake", "open-source", "data-engineering", "iceberg", "economics"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Deep dive into the shifting economics of the data landscape in 2026: why the choice between Snowflake and Databricks is increasingly an accounting decision, and where the open-source DIY stack saves money."
 cover:
   image: /assets/images/data-engineering/data.jpg
@@ -33,7 +34,7 @@ While the giants fought, the open-source community spent the last three years bu
 
 The stack usually looks like this:
 1. **Storage:** S3/ADLS/GCS (Raw parquet/Avro).
-2. **Table Format:** **Apache Iceberg**. This won the war. It provides the ACID transactions both Snowflake and Databricks use, but it belongs to no one.
+2. **Table Format:** **Apache Iceberg**. This won the war. Both Snowflake and Databricks can read and write it (alongside their own formats - Delta on Databricks, Snowflake's native tables), but it belongs to no one.
 3. **Catalog:** **Project Nessie** or an open-source **Unity Catalog**.
 4. **Compute:** **Trino** or **StarRocks** for SQL; **Apache Spark** (Open Source) for heavy ETL.
 
@@ -42,7 +43,7 @@ If you are processing petabytes of data:
 - **Databricks/Snowflake:** You are paying for the software margin *and* the compute.
 - **Open Source:** You are paying only for the raw cloud infrastructure (VMs/Spot instances).
 
-For many enterprises, the "margin" paid to Snowflake or Databricks is roughly 2x to 4x the cost of the raw compute. If your annual data bill is $10M, that’s $7.5M you are paying for the "Easy Button." 
+A rough rule of thumb you'll hear is that the vendor "margin" is 2x to 4x the cost of the raw compute underneath it. If that holds for your workload, a $10M annual bill contains somewhere between about $6.7M and $8M of software margin - the price of the "Easy Button." It's a rule of thumb, not a law: check it against your own bill by pricing the same workload on raw instances. 
 
 ## The "Staffing" Paradox
 
@@ -75,16 +76,11 @@ The open-source alternative isn't just a way to save money; it's an insurance po
 **My advice?** Build on **Iceberg**. It’s the only way to ensure that if you follow the money today, you aren't trapped by it tomorrow.
 
 ---
-*How are you balancing vendor convenience against the raw cost of compute this year? Let's discuss in the Data Engineering forum.*
-
-**Related Posts:**
-- [Databricks vs Snowflake in 2026: An Honest Comparison](/data-engineering/databricks-vs-snowflake-2026/)
-- [The Architect vs The Builder: Redefining Engineering Roles](/ai/architect-vs-builder/)
-- [Modern Data Engineering on Databricks (2026 Guide)](/data-engineering/modern-data-engineering-databricks-2026/)
+*How are you balancing vendor convenience against the raw cost of compute this year? Let's discuss on [DevOpsForum.uk](https://DevOpsForum.uk).*
 
 ## Related Reading
 
-- [Snowflake Storage for Apache Iceberg: Enterprise Open Data Comes to AWS and Azure](/data-engineering/snowflake-apache-iceberg-storage/)
+- [Snowflake Storage for Apache Iceberg: Open Tables Without Managing a Bucket](/data-engineering/snowflake-apache-iceberg-storage/)
 - [Data Engineering & Data Science Courses](/data-engineering/data-engineering-science-courses/)
 - [Databricks vs Snowflake in 2026: An Honest Comparison](/data-engineering/databricks-vs-snowflake-2026/)
 - [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)

@@ -38,7 +38,7 @@ On the Spectrum, I'm typing:
 
 On Claude Code, I'm typing:
 
-```
+```text
 @roadmap.md write a blog post about why programming fundamentally hasn't changed
 ```
 
@@ -139,7 +139,7 @@ In 1981:
 Run it. Name misaligned? Change line 30. Run again.
 
 In 2026:
-```
+```text
 "Build a CLI that asks for a name and greets them"
 ```
 

@@ -19,7 +19,7 @@ cover:
 
 When you powered on a Commodore 64 in 1983, the first thing you saw was:
 
-```
+```text
 READY.
 ```
 

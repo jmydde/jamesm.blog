@@ -3,6 +3,7 @@ title: "Unity Catalog in Practice: Lessons From the Field"
 date: 2026-04-03T14:00:00+00:00
 draft: false
 tags: ["databricks", "unity-catalog", "governance", "lakehouse"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Real-world lessons from implementing Unity Catalog: migrations, anti-patterns, governance design, and operational learnings."
 slug: "unity-catalog-in-practice-2026"
 cover:
@@ -16,9 +17,9 @@ cover:
 
 - Unity Catalog is a unified access-control and metadata layer for tables, volumes, models, and notebooks - it is not a data-quality tool, a discovery engine, or a masking system, and teams expecting those will be disappointed
 - Migrating from Hive metastore remains the biggest operational challenge in 2026; the hybrid path (migrate reference data first, stage the rest) is the most common in practice
-- Design catalogs around medallion layers (bronze/silver/gold), not per-environment schema sprawl, and grant permissions only through roles, never directly to users
+- Use catalogs for environment isolation and schemas for medallion layers (bronze/silver/gold), and grant privileges only to account-level groups, never directly to users
 - Budget realistically: $50k-$200k of engineering time for large-organisation migrations, roughly a third to half of one engineer's time ongoing, and under 5% query overhead
-- Skip UC for single-team startups, sandbox data, and some streaming workloads; full adoption typically takes 6-12 months
+- The migration surprises are usually compute access modes and legacy mounts, not the tables themselves; full adoption typically takes 6-12 months
 
 Unity Catalog sounds straightforward: "one governance layer for all your data and AI assets." In theory, it's elegant. In practice, you'll run into gotchas that docs don't prepare you for.
 
@@ -31,9 +32,9 @@ This post collects generic patterns that come up repeatedly in public talks, ven
 A **unified access control and metadata layer** for:
 - Tables (Delta, Iceberg, Hudi)
 - Volumes (files and unstructured data)
-- Models (ML models registered in Model Registry)
-- Notebooks (shareable code assets)
-- Dashboards (Lakeflow dashboards)
+- Models (MLflow models registered in Unity Catalog)
+- Functions (SQL and Python UDFs)
+- External locations and storage credentials (the governed route to cloud storage)
 
 Across **multiple workspaces, teams, and cloud regions**.
 
@@ -42,9 +43,9 @@ Across **multiple workspaces, teams, and cloud regions**.
 - **A data quality tool.** Unity Catalog governs *who can access* data, not *how good* the data is.
 - **A data catalog.** It tracks lineage and has a search API, but it's not a discovery engine like Collibra or Alation.
 - **A data dictionary.** Column-level documentation is a manual add-on, not automatic.
-- **A data masking or redaction system.** Row and column filters exist, but Unity Catalog is not a secrets engine.
+- **A full data masking product.** Row filters and column masks exist and work well, but they are functions you write and attach, not a classification-and-redaction service.
 
-If you're implementing Unity Catalog *because* you need data quality, discovery, or masking, you'll be disappointed. You need UC *and* those tools.
+If you're implementing Unity Catalog *because* you need data quality or business-facing discovery, you'll be disappointed. You need UC *and* those tools.
 
 ## The Migration Problem: Legacy Hive Metastore → UC
 
@@ -66,35 +67,32 @@ The biggest operational challenge in 2026 is still migrating from **Hive metasto
 
 ### Migration Paths (2026 Recommendations)
 
-**Option 1: Lift and Shift (Fastest, Riskiest)**
+**Option 1: Upgrade in Place (Fastest, Riskiest)**
 
-Use Databricks' automated migration tools:
+Databricks gives you two main tools. [UCX](https://github.com/databrickslabs/ucx) (Databricks Labs) assesses a workspace, maps groups, and upgrades tables and jobs in bulk. For individual schemas, the `SYNC` command upgrades Hive metastore tables into Unity Catalog:
 
-```python
-from databricks.sdk import WorkspaceClient
-from databricks.catalog import CatalogClient
+```sql
+-- Preview what would happen
+SYNC SCHEMA main.migrated_legacy FROM hive_metastore.legacy_warehouse DRY RUN;
 
-client = WorkspaceClient()
+-- Upgrade external tables in place (the data stays where it is)
+SYNC SCHEMA main.migrated_legacy FROM hive_metastore.legacy_warehouse;
 
-# Automated table migration
-client.catalogs.migrate_tables(
-    workspace_id=12345,
-    hive_db="legacy_warehouse",
-    uc_catalog="main",
-    uc_schema="migrated_legacy"
-)
+-- Managed Hive tables (stored in the DBFS root) need copying instead
+CREATE TABLE main.migrated_legacy.orders
+DEEP CLONE hive_metastore.legacy_warehouse.orders;
 ```
 
 **Pros:**
-- Fast (hours for most migrations)
+- Fast (hours for most schemas)
 - Low engineering effort
-- Preserves table names and schemas
+- External tables keep their storage location, so upstream writers keep working
 
 **Cons:**
-- Permissions are not carried over (you must re-grant access in UC)
-- External tables become managed tables (storage may move)
+- Hive table ACLs are not carried over; you re-grant in UC (UCX helps map them)
+- Managed Hive tables in the DBFS root have to be copied, not upgraded
 - No validation that downstream jobs still work
-- Downtime may be required
+- Jobs still pointing at `hive_metastore` names need repointing
 
 **Best for:** Small teams, dev/staging environments, low-risk tables.
 
@@ -104,13 +102,13 @@ Run legacy Hive and UC in parallel, gradually migrate workloads:
 
 ```sql
 -- Legacy Hive (still being used)
-SELECT * FROM hive_catalog.legacy_schema.events;
+SELECT * FROM hive_metastore.legacy_schema.events;
 
 -- New Unity Catalog (being populated)
 SELECT * FROM main.silver.events;
 
 -- Dual write during transition (ETL writes to both)
-INSERT INTO hive_catalog.legacy_schema.events VALUES (...)
+INSERT INTO hive_metastore.legacy_schema.events VALUES (...)
 INSERT INTO main.silver.events VALUES (...)
 ```
 
@@ -133,7 +131,7 @@ INSERT INTO main.silver.events VALUES (...)
 - Staged migration for transactional/mutable data (fact tables, events)
 - Keep legacy Hive for low-priority tables (archive data, one-off analyses)
 
-```
+```text
 Timeline:
 Month 1: Migrate dimensions, reference data
 Month 2: Test workloads against UC versions
@@ -141,40 +139,42 @@ Month 3-4: Gradual ETL cutover to UC
 Month 5: Decommission legacy Hive for core workloads
 ```
 
-### Real Migration Gotcha: External Tables
+### Real Migration Gotcha: Storage Access, Not Tables
 
-**The problem:** External tables in Hive point to S3, ADLS, or GCS paths. When you migrate to UC, Databricks wants to move them to managed storage.
+**The problem:** In the Hive world, access to `s3://my-raw-bucket/` usually came from an instance profile or a DBFS mount. Unity Catalog doesn't use either. It governs storage through **storage credentials** and **external locations**, and until those exist the upgraded tables can't be read.
 
 ```sql
--- Old Hive external table
-CREATE EXTERNAL TABLE legacy_events (
-  event_id STRING,
-  user_id STRING
-)
-LOCATION 's3://my-raw-bucket/events/';
+-- Register the path once, with a storage credential an admin has created
+CREATE EXTERNAL LOCATION raw_events
+URL 's3://my-raw-bucket/events/'
+WITH (STORAGE CREDENTIAL raw_bucket_cred);
 
--- After migration to UC
+GRANT READ FILES ON EXTERNAL LOCATION raw_events TO `data-engineering`;
+
+-- The upgraded external table keeps its original path
 CREATE TABLE main.bronze.events (
   event_id STRING,
   user_id STRING
 )
-LOCATION 's3://databricks-uc-bucket/main/bronze/events/';  -- Moved!
+LOCATION 's3://my-raw-bucket/events/';
 ```
 
-**The gotcha:** If you have ETL jobs writing directly to `s3://my-raw-bucket/events/`, those writes won't show up in the UC table. The path changed.
+**The gotcha:** Jobs that read through `/mnt/...` mount paths, or rely on cluster instance profiles, break after cutover even though the table migrated cleanly.
 
 **Solutions:**
-1. **Use volumes instead** (UC's solution for external files)
+1. **Create external locations first**, before you migrate a single table.
+2. **Use volumes for non-tabular files** that used to live under mounts:
    ```sql
-   CREATE EXTERNAL VOLUME my_raw_data
-   LOCATION 's3://my-raw-bucket/';
-   
-   SELECT * FROM VOLUME_FILES('/Volumes/main/ingest/my_raw_data/events/');
+   CREATE EXTERNAL VOLUME main.ingest.my_raw_data
+   LOCATION 's3://my-raw-bucket/landing/';
+
+   SELECT * FROM read_files('/Volumes/main/ingest/my_raw_data/events/', format => 'json');
    ```
+3. **Search your code for `/mnt/` and `dbfs:/`** before cutover. That list is your real migration backlog.
 
-2. **Keep external tables in legacy Hive** if you can't control the upstream write path.
+### Real Migration Gotcha: Compute Access Modes
 
-3. **Repoint upstream ETL jobs** to write to UC's managed location.
+Unity Catalog only works on compute in **standard** (formerly shared) or **dedicated** (formerly single user) access mode, and serverless. Standard mode is the one most teams want for cost, and it is also where legacy code breaks: RDD APIs, some Scala and JAR-based code, init scripts, and direct file-system access behave differently or aren't allowed. Budget time for this; it is usually a bigger job than the tables.
 
 ## Governance Architecture: Designing Your UC Schema
 
@@ -197,7 +197,7 @@ This creates:
 - Unclear ownership (who owns clean_prod?)
 - Difficult permissions (permissions duplicate across schemas)
 
-### Better Pattern: Medalist Architecture (2026 Standard)
+### Better Pattern: Medallion Layers as Schemas, Environments as Catalogs
 
 ```sql
 -- Organize by data layer, not environment
@@ -224,53 +224,49 @@ CREATE SCHEMA prod.bronze;
 - Permissions are attached to roles, not schemas
 - Staging/dev are optional overlays, not core architecture
 
-### Permission Design: Role-Based Access Control
+### Permission Design: Group-Based Access Control
 
-In 2026, the standard pattern is **role-based with team ownership**:
+Unity Catalog has no SQL `CREATE ROLE`. Privileges are granted to **account-level groups**, usually synced from your identity provider (Entra ID, Okta) with SCIM. The standard pattern is **groups per team or function**:
 
 ```sql
--- Define roles (business units)
-CREATE ROLE analytics_team;
-CREATE ROLE ml_team;
-CREATE ROLE finance_team;
+-- Groups (analytics_team, ml_team, finance_team) come from your IdP
 
--- Grant permissions to roles
-GRANT SELECT ON SCHEMA main.gold TO analytics_team;
-GRANT SELECT, MODIFY ON SCHEMA main.silver TO analytics_team;
+-- A principal needs USE CATALOG and USE SCHEMA before any table privilege works
+GRANT USE CATALOG ON CATALOG main TO `analytics_team`;
+GRANT USE SCHEMA, SELECT ON SCHEMA main.gold TO `analytics_team`;
+GRANT USE SCHEMA, SELECT, MODIFY ON SCHEMA main.silver TO `analytics_team`;
 
-GRANT SELECT ON SCHEMA main.ai TO ml_team;
-GRANT MODIFY ON SCHEMA main.ai TO ml_team;
-
--- Assign users to roles
-GRANT ROLE analytics_team TO USER alice@company.com;
-GRANT ROLE analytics_team TO USER bob@company.com;
+GRANT USE CATALOG ON CATALOG main TO `ml_team`;
+GRANT USE SCHEMA, SELECT, MODIFY, CREATE TABLE ON SCHEMA main.ai TO `ml_team`;
 ```
 
-**Pattern principle:** Users are never granted permissions directly. They're always granted via roles. Roles represent teams or functions.
+**Pattern principle:** Users are never granted privileges directly. Group membership is managed in the IdP, so joiners and leavers are handled where HR already handles them.
 
 ### Column-Level Access: Filtering Sensitive Data
 
-For PII or sensitive columns, use **column masking**:
+Column masks and row filters are **SQL functions** that you create once and attach to tables:
 
 ```sql
--- Mask email for non-compliance users
-ALTER TABLE main.silver.users
-MODIFY COLUMN email MASK (
-  CASE WHEN is_account_owner() THEN email
-       ELSE 'REDACTED'
-  END
-);
+-- Mask email for anyone outside the pii_readers group
+CREATE FUNCTION main.governance.mask_email(email STRING)
+RETURN CASE WHEN is_account_group_member('pii_readers') THEN email
+            ELSE 'REDACTED' END;
 
--- Row filtering: only see users in your region
 ALTER TABLE main.silver.users
-SET ROW FILTER (
-  CASE WHEN current_user_role() = 'global_admin' THEN TRUE
-       ELSE region = current_user_region()
-  END
-);
+ALTER COLUMN email SET MASK main.governance.mask_email;
+
+-- Row filter: global admins see everything, EU analysts see EU rows
+CREATE FUNCTION main.governance.region_filter(region STRING)
+RETURN is_account_group_member('global_admin')
+    OR (is_account_group_member('eu_analysts') AND region = 'EU');
+
+ALTER TABLE main.silver.users
+SET ROW FILTER main.governance.region_filter ON (region);
 ```
 
-**Reality check:** Column masks and row filters are powerful but add query overhead. Use sparingly.
+At scale, attaching functions table by table gets tedious. Databricks' attribute-based access control (ABAC) lets you write the policy once against governed tags (for example `pii = email`) and have it apply to every tagged column; check its current availability in your workspace.
+
+**Reality check:** Masks and filters add query overhead and can stop some optimisations applying. Use them where they're needed rather than everywhere.
 
 ## Ownership and Accountability
 
@@ -280,11 +276,8 @@ A governance layer fails if nobody's responsible for it.
 
 Assign a **data owner** (business stakeholder) and **data steward** (engineer) to each dataset:
 
-```sql
--- Metadata tracking (in your data catalog or Git)
--- Tables/bronze/events.md
-
-```
+```yaml
+# Metadata tracking (in your data catalog or Git): tables/bronze/events.yaml
 title: Raw Events
 owner: Ali Chen (Product Analytics)
 steward: Sam Patel (Data Engineering)
@@ -292,7 +285,6 @@ sla: 4-hour freshness
 pii_classification: HIGH
 retention_period: 2 years
 backup_location: s3://backup/events/
-```
 ```
 
 **Responsibilities:**
@@ -361,41 +353,40 @@ Then build a data catalog/wiki on top:
 You have Snowflake for analytics and Databricks for ML. Now you have two governance layers with different permission models.
 
 **Solution:**
-- Use Databricks Unity Catalog as the "source of truth" for what data exists
-- Sync permissions to Snowflake via APIs (Terraform, custom scripts)
-- Use external tables in both systems pointing to the same Delta Lake tables
+- Decide which catalog is the system of record for each table, and write it down
+- Share data through an open interface rather than copies: Unity Catalog exposes tables to external engines through the Iceberg REST catalog API (Delta tables with UniForm, or managed Iceberg tables), and Delta Sharing covers the cross-organisation case
+- Manage grants on both sides as code (Terraform), so drift is at least visible in review
 
-### Gotcha 2: Model Registry in UC Still Feels Bolted On
+### Gotcha 2: Models Are Governed Differently From Tables
 
-Unity Catalog added ML models and experiments as first-class assets, but it still feels like an afterthought.
+Models in Unity Catalog are registered through MLflow, not SQL:
 
-```sql
--- This works but feels clunky
-CREATE MODEL main.ml.customer_churn_v2
-AS SELECT * FROM model_registry.models.churn_models;
+```python
+import mlflow
+
+mlflow.set_registry_uri("databricks-uc")
+
+mlflow.register_model(
+    model_uri=f"runs:/{run_id}/model",
+    name="main.ml.customer_churn",
+)
 ```
 
-**Reality:** Model governance is important, but UC's model support is less mature than table governance. Expect gaps.
+**Reality:** Model governance works (grants, lineage to training tables, aliases like `@champion`), but the workflow lives in MLflow and the model registry UI rather than in SQL. Teams used to table governance should expect a different mental model.
 
 **Solutions:**
-- Use UC for lineage (which features → which model)
-- Use separate MLflow registries for experiment tracking
+- Use UC lineage to connect features to models
+- Use model aliases rather than stage names for promotion
 - Track model SLAs in your documentation layer
 
 ### Gotcha 3: Cross-Workspace Access
 
-Unity Catalog allows tables in one workspace to be read from another. But there are limitations:
-
-```sql
--- Workspace A (prod) can share with Workspace B (dev)
--- But Workspace B cannot write back
--- And volumes don't share across workspaces (yet)
-```
+Unity Catalog lives at the metastore level, so any workspace attached to the same metastore can use the same catalogs, including writes and volumes, subject to grants. The surprise is usually the opposite: people see production data from a dev workspace.
 
 **Solutions:**
-- Use a central Unity Catalog across all workspaces (not per-workspace)
-- Use job clusters in the data workspace (don't read cross-workspace from user notebooks)
-- Plan for single-workspace deployments if cross-workspace is critical to you
+- Use **workspace-catalog binding** to restrict which workspaces can see which catalogs (for example, bind `prod` only to the production workspace)
+- Run production writes from jobs with service principals, not from user notebooks
+- Treat the binding configuration as code alongside your grants
 
 ## Monitoring and Accountability
 
@@ -403,24 +394,26 @@ Unity Catalog allows tables in one workspace to be read from another. But there 
 
 Unity Catalog logs all access:
 
-```python
-# Query audit logs
-SELECT 
-  timestamp,
+```sql
+-- Query audit logs
+SELECT
+  event_time,
   user_identity.email,
-  action_type,
-  request.full_url,
+  service_name,
+  action_name,
+  request_params,
   response.status_code
 FROM system.access.audit
-WHERE action_type IN ('SELECT', 'DESCRIBE', 'GRANT')
-ORDER BY timestamp DESC
+WHERE service_name = 'unityCatalog'
+  AND event_date >= current_date() - INTERVAL 7 DAYS
+ORDER BY event_time DESC
 LIMIT 100;
 ```
 
 **Use this to:**
 - Track who accessed what
 - Find unexpected access patterns
-- Audit compliance (SoC 2, HIPAA, etc.)
+- Audit compliance (SOC 2, HIPAA, etc.)
 - Investigate data breaches
 
 ### Freshness and Quality
@@ -428,14 +421,17 @@ LIMIT 100;
 Define explicit SLAs:
 
 ```sql
--- Table freshness SLA
-SELECT 
+-- Table freshness SLA from the information schema
+SELECT
+  table_catalog,
+  table_schema,
   table_name,
-  MAX(updated_at) AS last_updated,
-  CURRENT_TIMESTAMP() - MAX(updated_at) AS lag_hours,
-  CASE WHEN CURRENT_TIMESTAMP() - MAX(updated_at) > INTERVAL 4 HOURS THEN 'BREACH' ELSE 'OK' END AS sla_status
-FROM main.silver.tables
-GROUP BY table_name;
+  last_altered,
+  timestampdiff(HOUR, last_altered, current_timestamp()) AS lag_hours,
+  CASE WHEN last_altered < current_timestamp() - INTERVAL 4 HOURS
+       THEN 'BREACH' ELSE 'OK' END AS sla_status
+FROM system.information_schema.tables
+WHERE table_catalog = 'main' AND table_schema = 'silver';
 ```
 
 Wire this to alerting (Slack, PagerDuty).
@@ -444,7 +440,7 @@ Wire this to alerting (Slack, PagerDuty).
 
 Unity Catalog itself is free, but it has indirect costs:
 
-1. **Storage migration** (moving from external to managed tables)
+1. **Storage migration** (copying managed Hive tables out of the DBFS root)
 2. **Operational overhead** (maintaining catalogs, roles, documentation)
 3. **Query overhead** (minimal, but row filters/column masks add a few %)
 4. **Workspace sprawl** (managing many workspaces with central UC is complex)
@@ -455,22 +451,21 @@ Unity Catalog itself is free, but it has indirect costs:
 - **Ongoing maintenance:** 1 data engineer FTE (30–50% of their time)
 - **Query performance:** <5% overhead in practice
 
-## When NOT to Use Unity Catalog
+## Where to Go Slower
 
-Some organizations go all-in on UC immediately. That's a mistake for:
+Unity Catalog is the default for new Databricks workspaces, so the question is less "whether" than "how fast". Go slower with:
 
-- **Single-team startups** (UC is overkill if there's no access control complexity)
-- **Sandbox/experimental data** (label it as such and exempt from governance)
-- **Real-time data** (streaming tables with UC have lower throughput than external tables)
-- **Very large files** (UC managed tables have overhead for TBs-scale individual files)
+- **Legacy code that depends on RDDs, init scripts, or mounts** (move it to dedicated access mode first, then refactor)
+- **Sandbox/experimental data** (give it its own catalog with looser grants rather than exempting it from governance)
+- **Hive tables with external writers you don't control** (upgrade them in place with `SYNC` and leave the writers alone)
 
-**Better approach:** Start with UC for shared/production data, keep external tables for sandboxes.
+**Better approach:** Start with shared/production data, give sandboxes their own catalog, and let UCX's assessment tell you where the hard parts are.
 
 ## The 2026 Unity Catalog Stack
 
 This is what a mature UC implementation looks like in 2026:
 
-```
+```text
 ┌─────────────────────────────────────┐
 │ Users & Applications (BI, ML, APIs) │
 └──────────────┬──────────────────────┘
@@ -484,7 +479,7 @@ This is what a mature UC implementation looks like in 2026:
 └──────────────┬──────────────────────┘
                │
 ┌──────────────▼──────────────────────┐
-│  Catalogs: main, dev, staging        │
+│  Catalogs: prod, staging, dev        │
 │  Bronze → Silver → Gold Schemas      │
 └──────────────┬──────────────────────┘
                │
@@ -514,7 +509,7 @@ UC is powerful, but it's not a silver bullet. It's a foundation for governance, 
 
 ---
 
-*Last Updated: April 7, 2026*
+*Last Updated: September 26, 2026*
 
 ## Related Reading
 

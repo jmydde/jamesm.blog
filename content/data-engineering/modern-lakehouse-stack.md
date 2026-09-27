@@ -3,6 +3,7 @@ title: "The Modern Lakehouse Stack: What Actually Belongs in Production"
 date: 2026-05-08T08:00:00+01:00
 draft: false
 tags: ["lakehouse", "data-engineering", "architecture", "iceberg", "databricks", "platform"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "A working data engineer's view of what genuinely belongs in a 2026 lakehouse stack, the layers that have shaken out, and the parts of the marketing landscape that deserve to be ignored."
 cover:
   image: assets/images/data-engineering/modern-lakehouse-stack.png
@@ -61,7 +62,7 @@ This is the layer where most lakehouse platforms in 2026 are actively shifting, 
 
 A catalog is the metadata service that knows where your tables are, who can read them, what their schemas look like, and how to find them across multiple engines. In an Iceberg world, the catalog choice is increasingly the most important architectural decision in the platform, because it determines who can use your data and how.
 
-The serious options in 2026 are [Unity Catalog](https://www.databricks.com/product/unity-catalog) (now open-sourced), [Polaris Catalog](https://www.snowflake.com/en/blog/introducing-polaris-catalog/) from Snowflake, and [Apache Nessie](https://projectnessie.org/) for teams that want a fully open-source git-like catalog with branching semantics. The choice between Unity and Polaris tends to follow your engine choice, since each is a first-class catalog for its own platform and a second-class one for the other. The choice of Nessie is appropriate for teams that genuinely value git-style data versioning enough to manage the additional operational overhead. I wrote about the operational realities of running Unity at scale in [Unity Catalog in practice](/data-engineering/unity-catalog-in-practice-2026/).
+The serious options in 2026 are [Unity Catalog](https://www.databricks.com/product/unity-catalog) (now open-sourced), [Polaris Catalog](https://www.snowflake.com/en/blog/introducing-polaris-catalog/) from Snowflake, and [Project Nessie](https://projectnessie.org/) for teams that want a fully open-source git-like catalog with branching semantics. The choice between Unity and Polaris tends to follow your engine choice, since each is a first-class catalog for its own platform and a second-class one for the other. The choice of Nessie is appropriate for teams that genuinely value git-style data versioning enough to manage the additional operational overhead. I wrote about the operational realities of running Unity at scale in [Unity Catalog in practice](/data-engineering/unity-catalog-in-practice-2026/).
 
 For most teams in 2026, the catalog choice is downstream of which compute engine they have already committed to. Picking your catalog before your engine is usually putting the cart before the horse.
 
@@ -87,6 +88,8 @@ For most teams, the orchestration layer is the part of the platform that enginee
 
 This is where raw data becomes the data products that downstream users actually consume. In 2026, this layer has consolidated heavily around [dbt](https://www.getdbt.com/) and [SQLMesh](https://web.archive.org/web/20260213033021/https://sqlmesh.com/), with dbt being dominant and SQLMesh being the credible alternative for teams that need stronger data warehouse semantics around environments and column-level lineage.
 
+The ownership picture changed in 2026: Fivetran, which had already acquired Tobiko Data (the company behind SQLMesh) in 2025, [completed its merger with dbt Labs on 1 June 2026](https://www.fivetran.com/press/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents). Both leading transformation frameworks now sit under the same company as a major ingestion vendor. The open-source cores remain, but factor the combined company's roadmap into any long-term bet.
+
 The thing to recognise about this layer is that the transformation tool is not really the value. The value is the discipline the tool enforces: code-defined transformations, version-controlled SQL, dependency-aware scheduling, declarative tests. Almost any tool that enforces these properties will be a major step up from hand-rolled scripts. The choice between dbt and SQLMesh is one of degree, not kind.
 
 ### Layer 7: Governance and observability
@@ -100,7 +103,7 @@ Skipping this layer is the single most common mistake I see in newly-built lakeh
 If you are building a new lakehouse in 2026, the default stack is something like:
 
 - Object storage on your existing cloud
-- Iceberg as the table format
+- Iceberg as the table format (or Delta with UniForm if Databricks is your primary engine)
 - Unity or Polaris as the catalog, depending on your primary engine
 - Databricks or Snowflake as the primary engine
 - Dagster or Airflow for orchestration

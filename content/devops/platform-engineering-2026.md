@@ -3,6 +3,7 @@ title: "Platform Engineering in 2026: What It Is and Why DevOps Teams Are Adopti
 date: 2026-04-22T21:30:00+01:00
 draft: false
 tags: ['devops', 'platform-engineering', 'ai', 'ci-cd', 'kubernetes', 'architecture']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "A practical guide to platform engineering in 2026 - what an internal developer platform actually is, why DevOps teams are adopting it, and how AI agents are reshaping the discipline."
 cover:
   image: /assets/images/devops/platform-engineering-2026.jpg
@@ -12,7 +13,7 @@ cover:
 ## TL;DR
 
 - Platform engineering - building an internal developer platform (IDP) of golden paths, self-service environments, a developer portal, policy as code, and paved-road CI/CD - is the default shape of infrastructure teams larger than a dozen people in 2026
-- Four forces drove the convergence: cognitive load (the cloud-native stack is too big for one head), the [DORA evidence](https://dora.dev/research/) linking platforms to elite performance, the regulatory ratchet, and AI agents
+- Four forces drove the convergence: cognitive load (the cloud-native stack is too big for one head), the [DORA evidence](https://dora.dev/report/2024) linking platforms to higher productivity (with real trade-offs), the regulatory ratchet, and AI agents
 - AI agents made 2026 the tipping point: an agent that can open PRs and apply Terraform changes is only safe inside a platform that enforces policy checks, cost caps, and blast-radius limits
 - Platform engineering is not a rebrand of DevOps - the platform team is a product team whose customers are other engineers
 - If you have no platform yet, start with the single most-painful golden path, not a portal
@@ -51,7 +52,9 @@ The book [Team Topologies](https://teamtopologies.com/) made this argument forma
 
 ### 2. The DORA evidence
 
-Each year's [DORA State of DevOps report](https://dora.dev/research/) has found that teams with a well-adopted internal platform ship more frequently, recover faster, and report lower burnout. The 2024 and 2025 reports made the link between platform engineering adoption and elite performance explicit. By 2026, organisations that have not invested in a platform are visibly slower to hire, slower to onboard, and slower to respond to incidents.
+DORA's research is the best evidence available, and it is more interesting than the usual summary. The [2024 DORA report](https://dora.dev/report/2024) found that 89% of respondents used an internal developer platform, and that platform users had higher individual productivity and team performance. But it also found that throughput and change stability *decreased* - by 8% and 14% respectively - for platform users compared with non-users, which the report attributed partly to the extra handoffs a platform adds between a change and production, and which was worst where the platform was mandated for the whole lifecycle.
+
+That's the real argument for platform engineering done well: the productivity gains are real, and the delivery penalties are avoidable if the platform is optional, self-service, and treated as a product developers choose rather than a gate they're forced through.
 
 ### 3. The regulatory ratchet
 
@@ -119,12 +122,6 @@ Building a platform is a multi-year commitment. Starting small, treating it as a
 
 ---
 
-**Related reading:**
-
-- [DevOps in the Age of AI Agents]({{< ref "/devops/devops-in-the-age-of-ai-agents" >}})
-- [DevOps Best Practices]({{< ref "/devops/best-practices" >}})
-- [CI/CD Tools]({{< ref "/devops/cicd-tools" >}})
-- [Monitoring and Observability]({{< ref "/devops/monitoring" >}})
 
 ## Related Reading
 
@@ -133,3 +130,5 @@ Building a platform is a multi-year commitment. Starting small, treating it as a
 - [DevOps Conferences](/devops/devops-conferences/)
 - [CI/CD Tools](/devops/cicd-tools/)
 - [System Design Fundamentals: Making Trade-offs You Won't Regret](/software-engineering/system-design-fundamentals/) - the trade-off framework platform engineering decisions ultimately answer to.
+- [DevOps Best Practices](/devops/best-practices/)
+- [Monitoring and Observability](/devops/monitoring/)

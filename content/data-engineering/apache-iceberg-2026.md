@@ -3,6 +3,7 @@ title: "Apache Iceberg in 2026: The Open Table Format That Won"
 date: 2026-04-22T07:53:00+01:00
 draft: false
 tags: ['iceberg', 'lakehouse', 'open-source', 'data-engineering', 'table-format', 'catalog']
+lastmod: 2026-09-26T09:00:00+01:00
 description: "A technical deep dive into Apache Iceberg in 2026 - how the metadata layer works, catalog choices (Polaris, Nessie, Unity), migration patterns, and why both Snowflake and Databricks now treat it as first-class."
 slug: "apache-iceberg-2026"
 cover:
@@ -41,7 +42,7 @@ Iceberg answers these via a layered metadata tree stored alongside your data fil
 
 ### The Three Metadata Layers
 
-```
+```text
 s3://my-bucket/warehouse/db/table/
  - data/
     - 00000-0-abc.parquet
@@ -64,11 +65,11 @@ All three formats solved roughly the same problems: ACID transactions on object 
 
 ### 1. Governance, Not Databricks
 
-Delta Lake was donated to the Linux Foundation in 2019, but it always had a Databricks center of gravity. New features landed in Databricks first, then trickled into open-source Delta months later. Iceberg was built inside Netflix and Apple, donated to the [Apache Software Foundation](https://iceberg.apache.org/) in 2018, and has never had a single dominant vendor. That neutrality is what convinced Snowflake, AWS, Google, and eventually Databricks to back it.
+Delta Lake was donated to the Linux Foundation in 2019, but it always had a Databricks center of gravity. New features landed in Databricks first, then trickled into open-source Delta months later. Iceberg was created at Netflix (with Apple among its major early contributors), donated to the [Apache Software Foundation](https://iceberg.apache.org/) in 2018, and has never had a single dominant vendor. That neutrality is what convinced Snowflake, AWS, Google, and eventually Databricks to back it.
 
 ### 2. True Engine Portability
 
-An Iceberg table written by Spark can be read by Trino, StarRocks, DuckDB, Flink, Snowflake, and Dremio **without conversion**. Delta had similar ambitions with its UniForm feature, but the semantics are a superset-of-Delta flavor of Iceberg, not pure Iceberg. If you want any engine to write to your tables (not just read), Iceberg is the only format where that works cleanly today.
+An Iceberg table written by Spark can be read by Trino, StarRocks, DuckDB, Flink, Snowflake, and Dremio **without conversion**. Delta had similar ambitions with its UniForm feature, which generates Iceberg metadata for Delta tables - but Iceberg clients can only read those tables, not write them. (Databricks has since added fully managed Iceberg tables in Unity Catalog, which narrows the gap.) If you want any engine to write to your tables (not just read), Iceberg is the only format where that works cleanly today.
 
 ### 3. Hidden Partitioning
 
@@ -100,7 +101,7 @@ An Iceberg table on its own is just files in a bucket. Something has to own the 
 
 ### Polaris Catalog (Snowflake)
 
-Polaris is Snowflake's open-source Iceberg catalog, donated to the Apache Software Foundation in mid-2024. It implements the Iceberg REST catalog spec and supports cross-engine read and write. Snowflake uses it as the substrate for its own Iceberg tables and positions it as vendor-neutral.
+Polaris is the open-source Iceberg REST catalog Snowflake created and donated to the Apache Software Foundation in mid-2024. It supports cross-engine read and write, and Snowflake offers it as a managed service (Snowflake Open Catalog). In 2026 Snowflake also [built its Horizon Catalog capabilities on Polaris](https://www.snowflake.com/en/news/press-releases/snowflake-pioneers-new-open-framework-for-interoperable-enterprise-data-and-ai/), so external engines reach Snowflake's own Iceberg tables through the same REST protocol.
 
 **Strength:** true REST-catalog standardization; no Snowflake lock-in on the catalog layer itself.
 
@@ -128,7 +129,7 @@ AWS Glue Data Catalog has supported Iceberg tables since 2022 and is the default
 
 ### Which to Choose
 
-- You live on Snowflake, and want Iceberg portability - **Polaris**.
+- You live on Snowflake, and want Iceberg portability - **Horizon Catalog** (built on Polaris), or **Polaris/Open Catalog** if other engines are primary.
 - You live on Databricks - **Unity Catalog** (managed).
 - You want Git-style data versioning - **Nessie**.
 - You want a minimal, AWS-native option - **Glue** with Iceberg tables.
@@ -168,9 +169,12 @@ GROUP BY user_id;
 ### From Snowflake
 
 ```sql
+-- Externally managed: the table lives in an external Iceberg REST catalog (e.g. Polaris)
 CREATE ICEBERG TABLE events
-  CATALOG = 'my_polaris_catalog'
-  BASE_LOCATION = 'events';
+  EXTERNAL_VOLUME = 'my_external_volume'
+  CATALOG = 'my_polaris_catalog_integration'
+  CATALOG_TABLE_NAME = 'events'
+  CATALOG_NAMESPACE = 'db';
 
 SELECT user_id, COUNT(*) FROM events
 WHERE event_ts > '2026-04-01'
@@ -186,7 +190,7 @@ LOAD iceberg;
 SELECT * FROM iceberg_scan('s3://my-bucket/warehouse/db/events');
 ```
 
-Same table, same metadata, four engines. That is the portability story that Delta Lake cannot match today.
+Same table, same metadata, four engines. That is the portability story Delta Lake only partly matches, through UniForm's read-only Iceberg view.
 
 ## Schema Evolution Without Rewrites
 
@@ -201,7 +205,8 @@ Schema evolution is one of Iceberg's most underrated features. Because every col
 ```sql
 ALTER TABLE events ADD COLUMN session_id STRING;
 ALTER TABLE events RENAME COLUMN properties TO event_properties;
-ALTER TABLE events ALTER COLUMN event_id TYPE BIGINT;
+-- Type promotion, e.g. a column that started life as INT
+ALTER TABLE events ALTER COLUMN retry_count TYPE BIGINT;
 ```
 
 Each of these is a metadata-only operation. A one-billion-row table evolves its schema in milliseconds.
@@ -219,9 +224,12 @@ SELECT * FROM events VERSION AS OF 7821394123987;
 -- Snapshot by timestamp
 SELECT * FROM events TIMESTAMP AS OF '2026-04-20 09:00:00';
 
--- Diff between two snapshots
-SELECT * FROM events.changes
-WHERE snapshot_id BETWEEN 7821394123987 AND 7821394123988;
+-- Row-level changes between two snapshots (creates a changelog view)
+CALL system.create_changelog_view(
+  table => 'db.events',
+  options => map('start-snapshot-id', '7821394123987', 'end-snapshot-id', '7821394123999')
+);
+SELECT * FROM events_changes;
 
 -- Rollback a bad write
 CALL system.rollback_to_snapshot('db.events', 7821394123987);
@@ -256,7 +264,7 @@ Two options:
 1. **Full rewrite** with `CREATE TABLE ... AS SELECT * FROM delta_table` - safest, slowest.
 2. **Delta UniForm** - write Iceberg metadata alongside Delta metadata so both formats see the same table. Good for staged migrations but doubles your metadata write cost.
 
-In practice, most teams doing a serious Delta-to-Iceberg move rewrite once during a maintenance window. The CAS-based approach is simpler to reason about than maintaining dual metadata.
+In practice, most teams doing a serious Delta-to-Iceberg move rewrite once during a maintenance window. The CTAS approach is simpler to reason about than maintaining dual metadata.
 
 ### Operational Reality
 
@@ -277,7 +285,7 @@ CALL system.rewrite_data_files(
 );
 ```
 
-This rewrites small files into 512 MB chunks. In 2026, most managed services (Databricks predictive optimization, Snowflake's managed Iceberg, Tabular, Estuary) run compaction automatically. If you are self-hosting, schedule it explicitly or your tables will degrade within weeks.
+This rewrites small files into 512 MB chunks. In 2026, most managed services (Databricks predictive optimization, Snowflake-managed Iceberg tables, AWS S3 Tables) run compaction automatically. (Tabular, the company founded by Iceberg's creators, was acquired by Databricks in June 2024.) If you are self-hosting, schedule it explicitly or your tables will degrade within weeks.
 
 ## Row-Level Deletes: Copy-on-Write vs Merge-on-Read
 
@@ -294,7 +302,18 @@ ALTER TABLE events SET TBLPROPERTIES (
 );
 ```
 
-Iceberg v3 (finalized in 2025) introduced **variant encoding** for deletes and **row lineage** tracking, which cut MoR read overhead substantially. If you are on v2, the v3 upgrade is worth prioritizing for update-heavy tables.
+Iceberg v3 (finalized in 2025) introduced **binary deletion vectors**, which replace v2's positional delete files with a compact per-file bitmap and cut MoR read overhead substantially. It also added **row lineage**, a **variant** type for semi-structured data, geospatial types, column default values, and nanosecond timestamps. If you are on v2 and your engines support v3, the upgrade is worth prioritizing for update-heavy tables.
+
+## The Maintenance Checklist
+
+Compaction is the famous one, but self-hosted Iceberg tables need a few more routine jobs:
+
+- **Expire snapshots** (`expire_snapshots`) so old data files can be deleted
+- **Remove orphan files** (`remove_orphan_files`) left behind by failed or aborted writes
+- **Rewrite manifests** (`rewrite_manifests`) when many small commits have fragmented the metadata and planning slows down
+- **Cap metadata history** with `write.metadata.delete-after-commit.enabled` and `write.metadata.previous-versions-max`, otherwise every commit leaves another `metadata.json` behind
+
+And understand the concurrency model: Iceberg commits are optimistic. Two writers that touch the same files will conflict, and one retries. Many small concurrent writers (a common streaming pattern) spend real time retrying unless you partition work so writers don't overlap.
 
 ## When Not to Use Iceberg
 
@@ -309,7 +328,7 @@ Iceberg is the right default for analytical tables on object storage. It is the 
 
 If I were designing an open lakehouse today:
 
-```
+```text
 Storage       - S3 / ADLS / GCS (Parquet)
 Table format  - Apache Iceberg v3
 Catalog       - Polaris (if Snowflake) | Unity OSS (if Databricks) | Nessie (if Git-style)

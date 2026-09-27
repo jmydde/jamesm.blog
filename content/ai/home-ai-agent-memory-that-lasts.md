@@ -71,7 +71,7 @@ The rules are enforced in the memory server, not in the prompt. Prompts drift. A
 
 Everything runs on the same [Mac mini M6](/ai/mac-mini-m6-always-on-ai-agent-server/) as the rest of the agent. No cloud, no third-party vector DB, no managed service.
 
-```
+```text
 ~/agent-memory/
 ├── episodic.sqlite       (events, tool calls, decisions, with FTS5)
 ├── semantic.sqlite       (structured facts: key, value, source, updated_at)
@@ -91,7 +91,7 @@ A few specific choices worth calling out:
 
 The [memory MCP server](/ai/mcp-servers-home-ai-agent/) exposes three tools to the agent. That is all.
 
-```
+```text
 recall(query, layer?, since?, limit?)   -> list of hits
 remember(content, layer, tags?)         -> id
 forget(id | query)                      -> count

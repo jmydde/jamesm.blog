@@ -53,7 +53,7 @@ The term comes from David Ha and Jürgen Schmidhuber's [2018 paper "World Models
 
 The key property is **predictive simulation**. The system can ask "what happens if I do X?" and get an answer from an internal model of the environment, not from retrieving a similar paragraph from training data.
 
-```
+```text
 Observations (images, sensors)
         │
         ▼

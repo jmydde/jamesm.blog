@@ -3,6 +3,7 @@ title: "Giving Your Home AI Agent Real Tools: MCP Servers on a Mac mini M6"
 date: 2026-04-27T00:12:00+01:00
 draft: false
 tags: ["ai", "mcp", "mac-mini", "agent", "local-llm", "claude", "ollama", "agentic-engineering"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "The voice pipeline and the local model are the easy part. The actual power comes from the tools the agent can reach. A walkthrough of the MCP servers I run on my Mac mini M6 to give my home agent filesystem, email, calendar, notes, and home-automation access - and the choices that stopped it from becoming a security liability."
 cover:
   image: /assets/images/ai/mcp-servers-home-agent.jpg
@@ -36,7 +37,7 @@ The [Claude Code source leak](/ai/claude-code-source-leak/) made this concrete f
 
 I run a [Mac mini M6 with 24 GB unified memory](/ai/mac-mini-m6-always-on-ai-agent-server/). Rather than a large local model, most reasoning routes through Hermes to DeepSeek V4 Flash for fast paths, DeepSeek V4 Pro when that isn't enough, and Claude Sonnet as the final escalation. A small local model (Qwen 8B-class) handles trivial routing and classification where a network round trip isn't worth it. Everything below runs on the same machine, supervised by one process.
 
-```
+```text
 Mac mini M6
 ├── agent-host          (LiveKit agent, phone-in + local chat)
 ├── mcp-router          (routes tool calls by policy)
@@ -106,7 +107,7 @@ filesystem:
   read: allow
   write:
     scope: ~/agent-workspace
-    deny_extensions: [".env", ".pem", ".keychain"]
+    deny_globs: ["**/.env*", "**/*.pem", "**/*.keychain*", "**/id_rsa*", "**/id_ed25519*", "**/.ssh/**"]
 mail:
   read: allow
   send: confirm
@@ -120,6 +121,8 @@ shell:
 ```
 
 This is the file I actually reach for when something feels wrong. Tightening a policy is a one-line change. That property is worth more than any clever prompt.
+
+A note on the shell allowlist: `make`, `pytest` and `git` all execute code from the workspace (Makefile targets, `conftest.py`, git hooks), and string deny patterns are easy to sidestep. Running the shell and filesystem servers in a sandbox with an outbound network allowlist is what makes this policy safe to rely on. See [Securing AI Agents](/ai/securing-ai-agents/) for the details.
 
 ## What I Got Wrong First
 

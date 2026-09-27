@@ -3,6 +3,7 @@ title: "Databricks CheatSheet"
 date: 2026-04-04T20:44:25+01:00
 draft: false
 tags: ["databricks", "cheatsheet", "spark", "sql", "delta-lake"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Quick reference guide for Databricks notebooks, SQL DDL/DML, PySpark API, and production patterns"
 cover:
   image: /assets/images/data-engineering/data.jpg
@@ -27,18 +28,12 @@ Magic commands provide shortcuts for common operations in Databricks notebooks:
 | %fs         | Databricks file system operations            | File management, DBFS interactions |
 | %md         | Markdown text formatting                     | Documentation and cell titles |
 | %pip        | Install Python packages                      | Adding Python dependencies |
-| %env        | Set environment variables                    | Configuration and secrets |
-| %config     | Notebook configuration options               | Display settings, execution parameters |
-| %jobs       | Lists all running jobs                       | Job monitoring |
-| %load       | Load external file contents                  | Include external code |
-| %reload     | Reload Python modules                        | Refresh imports |
-| %run        | Execute another notebook                     | Code reuse and modularization |
-| %lsmagic    | List all available magic commands            | Discovery |
-| %who        | List variables in current scope              | Debugging and variable inspection |
-| %matplotlib | Configure matplotlib backend                 | Visualization setup |
+| %run        | Execute another notebook inline              | Code reuse and modularization |
+
+Python cells run on an IPython kernel, so standard IPython magics such as `%env`, `%who`, `%timeit` and `%load_ext autoreload` also work. They are IPython features, not Databricks ones (for example, `%jobs` lists IPython background jobs, not Databricks jobs).
 
 ### Notebook Widgets
-```
+```python
 # Create widgets
 dbutils.widgets.text("param_name", "default_value", "label")
 dbutils.widgets.dropdown("param_name", "default", ["option1", "option2"])
@@ -54,21 +49,18 @@ dbutils.widgets.removeAll()
 ```
 
 ### Secrets Management
+`dbutils.secrets` is read-only. Create scopes and secrets with the Databricks CLI or API:
+```bash
+databricks secrets create-scope my_scope
+databricks secrets put-secret my_scope my_key --string-value "secret_value"
+databricks secrets list-secrets my_scope
+databricks secrets delete-secret my_scope my_key
 ```
-# Create secret scope
-dbutils.secrets.createScope("scope_name")
-
-# Store secret
-dbutils.secrets.put("scope_name", "secret_key", "secret_value")
-
-# Retrieve secret
-secret_value = dbutils.secrets.get("scope_name", "secret_key")
-
-# List secrets
-dbutils.secrets.list("scope_name")
-
-# Delete secret
-dbutils.secrets.delete("scope_name", "secret_key")
+Then read them in a notebook (values are redacted in output):
+```python
+secret_value = dbutils.secrets.get(scope="my_scope", key="my_key")
+dbutils.secrets.list("my_scope")
+dbutils.secrets.listScopes()
 ```
 
 ### Accessing Files
@@ -79,7 +71,7 @@ dbutils.secrets.delete("scope_name", "secret_key")
 - /Volumes/catalog/schema/volume/path (Unity Catalog Volumes)
 
 ### Copying Files
-```
+```text
 %fs cp file:/<path> /Volumes/<catalog>/<schema>/<volume>/<path>
 
 %python dbutils.fs.cp("file:/<path>", "/Volumes/<catalog>/<schema>/<volume>/<path>")
@@ -93,15 +85,16 @@ dbutils.secrets.delete("scope_name", "secret_key")
 ### DDL - Data Definition Language (Schema & Table Operations)
 
 #### Create & Use Schema
-```
+```sql
 CREATE SCHEMA test;
-CREATE SCHEMA custom LOCATION 'dbfs:/custom';
+-- Unity Catalog: point a schema's managed tables at an external location path
+CREATE SCHEMA my_catalog.custom MANAGED LOCATION 's3://my-bucket/custom/';
 
 USE SCHEMA test;
 ```
 
 ### Unity Catalog (UC)
-```
+```sql
 -- Create catalog
 CREATE CATALOG my_catalog COMMENT "Production catalog";
 
@@ -120,12 +113,13 @@ SHOW SCHEMAS IN my_catalog;
 SHOW VOLUMES IN my_catalog.my_schema;
 
 -- Grant permissions
-GRANT USAGE ON CATALOG my_catalog TO `user@company.com`;
+GRANT USE CATALOG ON CATALOG my_catalog TO `user@company.com`;
+GRANT USE SCHEMA ON SCHEMA my_catalog.my_schema TO `user@company.com`;
 GRANT READ_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`;
 ```
 
 #### Create Table
-```
+```sql
 CREATE TABLE test(col1 INT, col2 STRING, col3 STRING, col4 BIGINT, col5 INT, col6 FLOAT);
 CREATE TABLE test AS SELECT * EXCEPT (_rescued_data) FROM read_files('/repo/data/test.csv');
 CREATE TABLE test USING CSV LOCATION '/repo/data/test.csv';
@@ -163,7 +157,7 @@ CREATE OR REPLACE TABLE test AS SELECT * FROM read_files('/repo/data/test.csv');
 ```
 
 #### Create View
-```
+```sql
 CREATE VIEW view_test
 AS SELECT * FROM test WHERE col1 = 'test';
 
@@ -199,7 +193,7 @@ WHERE col1 = 'value1' ORDER BY timestamp DESC LIMIT 1;
 ```
 
 #### Drop & Describe
-```
+```sql
 DROP TABLE test;
 
 SHOW TABLES;
@@ -209,7 +203,7 @@ DESCRIBE EXTENDED test;
 ### DML - Data Manipulation Language (Data Operations)
 
 #### Select
-```
+```sql
 SELECT * FROM csv.`/repo/data/test.csv`;
 SELECT * FROM read_files('/repo/data/test.csv');
 SELECT * FROM read_files('/repo/data/test.csv', format => 'csv', header => 'true', sep => ',')
@@ -261,14 +255,14 @@ WHERE  event_type = 'flow_definition' AND origin.update_id = latest_update.id;
 ```
 
 #### Insert
-```
+```sql
 INSERT OVERWRITE test SELECT * FROM read_files('/repo/data/test.csv');
 
 INSERT INTO test(col1, col2) VALUES ('value1', 'value2');
 ```
 
 #### Merge Into
-```
+```sql
 MERGE INTO test USING test_to_delete
 ON test.col1 = test_to_delete.col1
 WHEN MATCHED THEN DELETE;
@@ -283,7 +277,7 @@ WHEN NOT MATCHED THEN INSERT *;
 ```
 
 #### Copy Into
-```
+```sql
 COPY INTO test
 FROM '/repo/data'
 FILEFORMAT = CSV
@@ -362,8 +356,13 @@ df.orderBy(df.col1.desc())
 
 ### Delta Lake Optimization
 ```sql
--- Optimize table (compacts small files)
-OPTIMIZE my_table;
+-- Preferred for new tables: liquid clustering
+CREATE TABLE my_table (col1 STRING, col2 DATE, col3 INT) CLUSTER BY (col1, col2);
+ALTER TABLE my_table CLUSTER BY (col1, col2);   -- change keys without a rewrite
+ALTER TABLE my_table CLUSTER BY AUTO;           -- let Databricks choose keys
+OPTIMIZE my_table;                              -- clusters incrementally
+
+-- Legacy: Z-ordering on unclustered tables
 OPTIMIZE my_table ZORDER BY col1, col2;
 
 -- Check table stats
@@ -389,21 +388,21 @@ df.write \
 
 ### Query Performance
 ```python
-# Enable adaptive query execution
-spark.conf.set("spark.sql.adaptive.enabled", "true")
+# Adaptive query execution is on by default (Spark 3.2+); it also coalesces shuffle partitions
+spark.conf.get("spark.sql.adaptive.enabled")
 
-# Enable vectorized execution
-spark.conf.set("spark.sql.execution.arrow.enabled", "true")
+# Arrow speeds up Spark <-> pandas conversion (toPandas, createDataFrame from pandas)
+spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", "true")
 
-# Set shuffle partitions
-spark.conf.set("spark.sql.shuffle.partitions", "200")
+# Initial shuffle partitions (with AQE, "auto" is available on Databricks)
+spark.conf.set("spark.sql.shuffle.partitions", "auto")
 
 # Monitor query plans
 df.explain(mode="extended")
 ```
 
 ## Delta Lake Statements
-```
+```sql
 DESCRIBE HISTORY test;
 DESCRIBE HISTORY test LIMIT 1;
 
@@ -421,17 +420,20 @@ SELECT * FROM test@v2;
 VACUUM test;
 VACUUM test RETAIN 240 HOURS;
 
-%fs ls dbfs:/user/hive/warehouse/test/_delta_log
-%python spark.conf.set("spark.databricks.delta.retentionDurationCheck.enabled", "false")
+DESCRIBE DETAIL test;  -- shows the table location; list its _delta_log to see commits
+
+-- Only disable the retention check if you are certain no reader or writer needs older
+-- files; VACUUM with a short retention can break concurrent or time-travel reads
+-- spark.conf.set("spark.databricks.delta.retentionDurationCheck.enabled", "false")
 ```
 
 ## Lakeflow Declarative Pipelines (formerly Delta Live Tables)
 
-In 2026, Databricks rebranded Delta Live Tables to [Lakeflow Declarative Pipelines](https://docs.databricks.com/gcp/en/ldp/concepts). The syntax below still works, but prefer `STREAMING TABLE` and `MATERIALIZED VIEW` over the older `LIVE TABLE` framing for new pipelines.
+In June 2025, Databricks renamed Delta Live Tables to [Lakeflow Declarative Pipelines](https://docs.databricks.com/gcp/en/ldp/concepts). The syntax below still works, but prefer `STREAMING TABLE` and `MATERIALIZED VIEW` over the older `LIVE TABLE` framing for new pipelines.
 
-```
+```sql
 CREATE OR REFRESH STREAMING TABLE test_raw
-AS SELECT * FROM cloud_files('/repo/data/', 'json');
+AS SELECT * FROM STREAM read_files('/Volumes/main/raw/landing/', format => 'json');
 
 CREATE OR REFRESH STREAMING TABLE test
 AS SELECT * FROM STREAM read_files('/repo/data/test*.json');
@@ -448,10 +450,10 @@ AS SELECT * FROM json.`/repo/data/test.json`;
 ```
 
 ## Functions
-```
+```sql
 CREATE OR REPLACE FUNCTION test_function(temp DOUBLE)
 RETURNS DOUBLE
-RETURN (col1 - 10);
+RETURN (temp - 10);
 
 CREATE OR REPLACE FUNCTION add_numbers(a INT, b INT)
 RETURNS INT
@@ -501,39 +503,40 @@ dbutils.notebook.run("./other_notebook", timeout_seconds=3600, arguments={"param
 ```
 
 ## Auto Loader
+```python
+(spark.readStream.format("cloudFiles")
+  .option("cloudFiles.format", "json")
+  .option("cloudFiles.schemaLocation", "/Volumes/main/raw/checkpoints/autoloader_schema")
+  .option("pathGlobFilter", "test*.json")
+  .load("/Volumes/main/raw/landing/")
+  .writeStream
+  .option("mergeSchema", "true")
+  .option("checkpointLocation", "/Volumes/main/raw/checkpoints/autoloader")
+  .trigger(availableNow=True)
+  .toTable("main.bronze.demo"))
 ```
-%python
-
-spark.readStream.format("cloudFiles")\
-  .option("cloudFiles.format", "json")\
-  .option("cloudFiles.schemaLocation", "/autoloader-schema")\
-  .option("pathGlobFilter", "test*.json")\
-  .load("/repo/data")\
-  .writeStream\
-  .option("mergeSchema", "true")\
-  .option("checkpointLocation", "/autoloader-checkpoint")\
-  .start("demo")
-
-%fs head /autoloader-schema/_schemas/0
-
-CREATE OR REFRESH STREAMING TABLE test
-AS SELECT * FROM
-cloud_files(
-'/repo/data',
-'json',
-map("cloudFiles.inferColumnTypes", "true", "pathGlobFilter", "test*.json")
+```sql
+-- The same ingestion as a pipeline streaming table, with expectations
+CREATE OR REFRESH STREAMING TABLE test (
+  CONSTRAINT positive_timestamp EXPECT (creation_time > 0) ON VIOLATION DROP ROW
+)
+AS SELECT * FROM STREAM read_files(
+  '/Volumes/main/raw/landing/',
+  format => 'json',
+  pathGlobFilter => 'test*.json'
 );
 
-CONSTRAINT positive_timestamp EXPECT (creation_time > 0)
-CONSTRAINT positive_timestamp EXPECT (creation_time > 0) ON VIOLATION DROP ROW
-CONSTRAINT positive_timestamp EXPECT (creation_time > 0) ON VIOLATION FAIL UPDATE
+-- Expectation variants:
+--   EXPECT (...)                          keep the row, record the violation
+--   EXPECT (...) ON VIOLATION DROP ROW    drop the row
+--   EXPECT (...) ON VIOLATION FAIL UPDATE fail the update
 ```
 
 ## CDC Statements
 
 In 2026, prefer [`AUTO CDC`](https://docs.databricks.com/gcp/en/ldp/cdc) over the older `APPLY CHANGES INTO` for new pipelines.
 
-```
+```sql
 -- 2026 recommended syntax
 CREATE OR REFRESH STREAMING TABLE target;
 
@@ -556,42 +559,45 @@ APPLY CHANGES INTO live.target
 ```
 
 ## Security Statements
-```
+```sql
 GRANT <privilege> ON <object_type> <object_name> TO <user_or_group>;
 GRANT SELECT ON TABLE test TO `databricks@degols.net`;
 
 REVOKE <privilege> ON <object_type> <object_name> FROM `test@gmail.com`;
 
 -- UC Specific
-GRANT USAGE ON CATALOG my_catalog TO `user@company.com`;
-GRANT CREATE ON SCHEMA my_catalog.my_schema TO `team@company.com`;
+GRANT USE CATALOG ON CATALOG my_catalog TO `user@company.com`;
+GRANT USE SCHEMA ON SCHEMA my_catalog.my_schema TO `user@company.com`;
+GRANT CREATE TABLE ON SCHEMA my_catalog.my_schema TO `team@company.com`;
 GRANT READ_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`;
 GRANT WRITE_VOLUME ON VOLUME my_catalog.my_schema.my_volume TO `user@company.com`;
 ```
 
 ## Jobs and Workflows
 ```python
-# List running jobs
-%jobs
-
-# Submit job via API
+# Create a job with the Databricks SDK for Python
 from databricks.sdk import WorkspaceClient
+from databricks.sdk.service import jobs
+
 w = WorkspaceClient()
 job = w.jobs.create(
     name="my_job",
-    tasks=[{
-        "task_key": "task1",
-        "notebook_task": {"notebook_path": "/Users/me/notebook"},
-        "new_cluster": {"spark_version": "14.3.x-scala2.12", "num_workers": 2, "node_type_id": "i3.xlarge"}
-    }]
+    tasks=[
+        jobs.Task(
+            task_key="task1",
+            notebook_task=jobs.NotebookTask(notebook_path="/Workspace/Users/me/notebook"),
+            # omit compute settings to run on serverless jobs compute, where enabled
+        )
+    ],
 )
+w.jobs.run_now(job_id=job.job_id)
 ```
 
 ## Links
 - **Official Databricks Documentation**
   - [Databricks Docs Home](https://docs.databricks.com/)
   - [SQL Language Reference](https://docs.databricks.com/en/sql/language-manual/index.html)
-  - [Python API Reference (PySpark)](https://docs.databricks.com/en/dev-tools/python-sql-connector.html)
+  - [Databricks SQL Connector for Python](https://docs.databricks.com/en/dev-tools/python-sql-connector.html)
   
 - **Core Features**
   - [Delta Lake Documentation](https://docs.databricks.com/en/delta/index.html)

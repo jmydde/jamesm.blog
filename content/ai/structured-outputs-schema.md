@@ -3,6 +3,7 @@ title: "Structured Outputs: When Your AI Needs to Follow a Schema"
 date: 2026-04-12T06:17:00+00:00
 draft: false
 tags: ["llm", "schema"]
+lastmod: 2026-09-26T09:00:00+01:00
 description: "Why guaranteeing output format matters more than you think, and when to use structured outputs in production"
 cover:
   image: /assets/images/ai/ai-augmented-design-workflow.jpg
@@ -11,8 +12,8 @@ cover:
 
 ## TL;DR
 
-- **Structured outputs** constrain an LLM's response to match a JSON schema during generation, eliminating the entire class of post-processing parse failures (which occur 2-5% of the time with free-form output)
-- They produce simpler code, more reliable pipelines, and modest inference cost savings (typically 5-15% fewer tokens) in high-volume systems
+- **Structured outputs** constrain an LLM's response to match a JSON schema during generation, eliminating the entire class of JSON parse and missing-field failures that free-form output produces
+- They produce simpler code and more reliable pipelines, and the real cost saving is fewer retries rather than cheaper tokens
 - Use structured outputs for data extraction, classification, entity recognition, and API payload generation - not for creative writing or open-ended reasoning
 - Common mistakes include over-constraining schemas with too-strict enums, forgetting that the response format changes, and mistaking schema validity for semantic correctness
 - The trajectory is toward structured outputs becoming the default: schemas will be inferred from English descriptions, and TypeScript types will auto-generate schemas
@@ -27,7 +28,7 @@ Structured outputs sound simple but represent a fundamental shift in how to buil
 
 Structured outputs guarantee that an LLM's response matches a schema you define. Instead of:
 
-```
+```json
 {
   "name": "John Smith",
   "age": 35,
@@ -47,7 +48,7 @@ Before guaranteed output formats, extracting data from LLMs required defensive c
 ```javascript
 try {
   const response = await llm.generate(prompt);
-  const parsed = JSON.parse(response); // This fails 2-5% of the time
+  const parsed = JSON.parse(response); // Fails whenever the model strays from valid JSON
   
   if (!parsed.name || !parsed.email) {
     // Handle missing fields
@@ -89,13 +90,9 @@ In production systems running thousands of requests daily, even a 1% failure rat
 
 Structured outputs eliminate the "silent failure" patterns where data is partially extracted but your validation doesn't catch it until it's caused damage downstream.
 
-**2. Cheaper Inference**
+**2. Fewer Retries**
 
-This is counterintuitive but true: constrained output generation is more efficient than unconstrained generation followed by parsing.
-
-When a model generates free-form text that happens to be JSON, it's computing token-by-token without guidance. When a model generates JSON constrained to a schema, the sampling process can eliminate invalid tokens during generation - it never wastes computation on paths that would violate the schema.
-
-The efficiency gains are modest (typically 5-15% fewer tokens) but consistent. For high-volume systems, this compounds into meaningful cost reductions.
+Constrained decoding doesn't make individual tokens cheaper - every token still costs a forward pass, and masking invalid tokens adds a little overhead. The saving comes from what you stop doing: no retry calls when parsing fails, no "please return valid JSON" repair prompts, and no verbose formatting instructions padding every request. For high-volume extraction, eliminating retries is where the money is.
 
 **3. Deterministic Behavior for Reproducibility**
 
@@ -126,49 +123,51 @@ In these tasks, the output schema is known in advance and non-compliance is a fa
 - **Creative writing**: A schema would be silly for generating blog posts
 - **Open-ended reasoning**: When you don't know the output shape in advance
 - **Exploratory analysis**: When you're iterating and the output format keeps changing
-- **Streaming**: Structured outputs typically require the full response before validation, making streaming less useful
+- **Streaming UIs**: You can stream a structured response, but partial JSON is only useful to a UI that can render it incrementally
 
 ## The Implementation Reality
 
 Using structured outputs is straightforward with modern LLM APIs:
 
+With Anthropic's API, you pass the schema in [`output_config.format`](https://platform.claude.com/docs/en/build-with-claude/structured-outputs), and the response text is JSON that matches it:
+
 ```python
+import json
 from anthropic import Anthropic
 
 client = Anthropic()
 
 schema = {
-  "type": "object",
-  "properties": {
-    "name": {"type": "string"},
-    "email": {"type": "string", "format": "email"},
-    "age": {"type": "integer", "minimum": 0, "maximum": 150},
-    "tags": {
-      "type": "array",
-      "items": {"type": "string"}
-    }
-  },
-  "required": ["name", "email"]
+    "type": "object",
+    "properties": {
+        "name": {"type": "string"},
+        "email": {"type": "string"},
+        "age": {"type": "integer"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+    },
+    "required": ["name", "email"],
+    "additionalProperties": False,
 }
 
 response = client.messages.create(
-  model="claude-sonnet-4-6",
-  max_tokens=1024,
-  thinking={
-    "type": "enabled",
-    "budget_tokens": 10000
-  },
-  messages=[
-    {"role": "user", "content": "Extract contact info from this text..."}
-  ]
+    model="claude-sonnet-4-6",
+    max_tokens=1024,
+    messages=[{"role": "user", "content": "Extract contact info from this text: ..."}],
+    output_config={"format": {"type": "json_schema", "schema": schema}},
 )
 
-# response.content[0].parsed is guaranteed to match the schema
-extracted = response.content[0].parsed
-print(extracted.name)  # Always a string, never None
+contact = json.loads(response.content[0].text)  # parses, and matches the schema's shape
+print(contact["name"])
 ```
 
-The schema uses JSON Schema format (standard across OpenAI, Anthropic, etc.), so it's portable. You define it once and it works across models.
+The SDKs also have a `messages.parse()` helper that takes a Pydantic (Python) or Zod (TypeScript) model and does the schema generation and validation for you.
+
+Two things the guarantee does **not** cover:
+
+- **Every JSON Schema keyword.** Constrained decoding enforces structure: types, required fields, enums, `additionalProperties: false`. Providers support different subsets of JSON Schema, and value constraints such as numeric ranges or string lengths may be unsupported or only partly enforced. Check your provider's supported-features list, and validate those rules in code.
+- **Correctness.** A schema-valid response can still contain the wrong name.
+
+JSON Schema itself is a standard, so the schema is mostly portable, but each provider's supported subset and request shape differ (OpenAI uses `response_format`, for example). Expect small adjustments when you switch.
 
 ## Common Mistakes When Using Structured Outputs
 

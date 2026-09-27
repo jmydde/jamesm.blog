@@ -23,7 +23,7 @@ A child born in 1700 inherited a world barely changed from their grandparents'. 
 
 This isn't hyperbole. It's geometry.
 
-```
+```text
    INNOVATION DENSITY PER DECADE (1700 - 2030)
    ════════════════════════════════════════════════════════════
 

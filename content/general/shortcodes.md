@@ -13,7 +13,7 @@ cover:
 `echo "Hello World"`
 
 ### Code Block
-```
+```text
 # some code
 echo "Hello World"
 ```
