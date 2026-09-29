@@ -83,6 +83,7 @@ What it has not done, as far as I can find as I publish this, is answer Van Holl
 
 ## Related Reading
 
+- [Didn't Quite Meet the Bar: OpenAI Shelves GPT-6.1 Astra](/ai/gpt-6-1-astra-shelved/)
 - [The Critical Threshold: What It Means That OpenAI Shipped a Cyber-Critical Model](/ai/gpt-6-astra-critical-threshold/)
 - [Pulled From The Shelf: The Government Order to Suspend Fable 5 and Mythos 5](/ai/fable-mythos-government-suspension/)
 - [Why the AI Cyber Threat Is Rising](/ai/ai-cyber-threat-is-rising/)

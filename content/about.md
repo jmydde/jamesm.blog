@@ -29,7 +29,7 @@ I write about:
 
 ## The stance
 
-On the technical posts, I try to write what I'd actually want to read: grounded in sources, honest about uncertainty, and willing to say "I don't know" instead of manufacturing a confident take. On the physics and consciousness posts especially, I'm an outsider with a strong interest and no formal training - I say so in every one of them, and I'd rather be corrected than sound more certain than I am.
+On the technical posts, I try to write what I'd actually want to read: grounded in sources, honest about uncertainty, and willing to say "I don't know" instead of manufacturing a confident take. On the physics and consciousness posts especially, I'm an outsider with a strong interest and no formal training - I say so in the essays where I state a view, and I'd rather be corrected than sound more certain than I am.
 
 I use AI tools extensively in researching and drafting this blog. I verify claims, check links, and edit for my own voice and views before anything publishes - but I'd rather be upfront about the process than pretend otherwise.
 

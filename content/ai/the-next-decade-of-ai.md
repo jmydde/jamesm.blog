@@ -19,7 +19,7 @@ cover:
 
 Most predictions about the future of AI fall into two flavours. One camp says we are months away from machines that can do everything a human can do, and we should brace for either paradise or extinction. The other camp says the whole thing is a bubble, the models have plateaued, and in five years we will be talking about something else.
 
-Both are wrong, and both are wrong for the same reason. They are trying to forecast a single headline event - arrival of AGI, collapse of the hype - when the actual future of AI is not an event. It is a slow, uneven transformation of how ordinary work gets done.
+Both are wrong as forecasts of the next decade, and both are wrong for the same reason. (I do take the long-run superintelligence risk seriously - see [Nate Soares](/ai/nate-soares/) - but it is a different question from what the next ten years look like.) They are trying to forecast a single headline event - arrival of AGI, collapse of the hype - when the actual future of AI is not an event. It is a slow, uneven transformation of how ordinary work gets done.
 
 The more interesting question is not "when does AI get scary-smart?" It is "what does the world look like in ten years when the stuff that already works today is everywhere, refined, embedded, and cheap?"
 

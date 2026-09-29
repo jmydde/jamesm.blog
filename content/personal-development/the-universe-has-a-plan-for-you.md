@@ -13,6 +13,8 @@ cover:
 
 ---
 
+*A note before you read: this is a personal essay, not a claim about how the world demonstrably works. The ideas about purpose, timing and consciousness here are my own beliefs as they stand today, held as leans rather than conclusions, and I say more about that at the end.*
+
 Most of us don't find our life's purpose in a single moment of calm reflection. We find it in the wreckage. We find it in the sleepless nights, the boxes we didn't pack, the home we no longer live in. We find it when we are forced - absolutely forced - to stop, strip everything back, and ask: *who am I without all of this?*
 
 This is a post about that process. About what happens when The Universe intervenes in your life not to punish you, but to redirect you. About how the hardest chapters can become the most important ones. About how losing the version of yourself you had become can be the beginning of remembering who you actually are.
@@ -53,7 +55,7 @@ This is easy to dismiss when you are in the middle of something painful. But loo
 
 > *"I’ve just been put on a new, large and complex project at work that I honestly wouldn’t have been able to handle only a few days ago. Interestingly, it seems to have landed on my plate right after a positive turning point in what had been a difficult situation.  Like the Universe knows I am now mentally ready for it."*
 
-This is not magical thinking. This is pattern recognition. When you change your internal state - when you release anxiety and move into a place of greater openness and readiness - opportunities that were always there suddenly become visible. The Universe, as it were, becomes a vibrational match for where you are.
+My own reading is that some of this is pattern recognition. When you change your internal state - when you release anxiety and move into a place of greater openness and readiness - opportunities that were always there suddenly become visible. I also feel a pull towards something more than that, the sense that The Universe is answering where you are, but I can't show that, and I hold it as a belief rather than a fact.
 
 The timing is rarely comfortable. But it is rarely random either.
 
@@ -61,7 +63,7 @@ The timing is rarely comfortable. But it is rarely random either.
 
 ## 4. The People Who Arrive at Exactly the Right Moment
 
-There is something the universe does with particular elegance: it sends the right people at the right time. Not when you ask for them. Not when you think you need them. But when you are finally ready - when you have done enough of the inner work, released enough of the old story, and created enough space - they appear.
+It can feel as though the universe sends the right people at the right time. Not when you ask for them. Not when you think you need them. But when you are finally ready - when you have done enough of the inner work, released enough of the old story, and created enough space - they appear.
 
 This is one of the most quietly miraculous things about a season of rebuilding. You expect to lose people. And sometimes you do. But what you don't expect is who shows up. The friend who calls when you haven't spoken in months. The person who sees exactly who you are - not the version you perform for the world, but the real one, the one that was buried under years of routine and compromise - and chooses you anyway.
 
@@ -115,7 +117,7 @@ The years you spent building your career gave you skills that will serve your ne
 
 > *"I do firmly believe that nothing is ever truly lost and that all knowledge across all time is accessible."*
 
-This is not consolation. It is a genuine principle of how growth works. We do not progress by leaving things behind - we progress by integrating them. The difficult chapter does not erase the good ones. It builds on them. It adds depth, texture, and hard-won wisdom to a story that is still being written.
+I find that more than consolation - it matches how growth seems to work in my own experience. We do not progress by leaving things behind - we progress by integrating them. The difficult chapter does not erase the good ones. It builds on them. It adds depth, texture, and hard-won wisdom to a story that is still being written.
 
 ---
 

@@ -115,7 +115,7 @@ The free intelligence era is not coming. It is here. The price curves are public
 
 We are living in the gap. The new regime exists. The old regime's prices, careers, and assumptions are still standing. The collision between the two is the next decade of work, and it is the part of the AI future that will affect the most lives the most directly.
 
-I do not think it will be a catastrophe. I do not think it will be a utopia. I think it will be the messy, contested, century-long renegotiation that every previous general-purpose technology produced, compressed into a much shorter window than we are used to. The interesting work, for the next ten years, is in being honest about what is happening and trying to land somewhere useful inside it.
+For the economic transition, I do not think it will be a catastrophe, and I do not think it will be a utopia. (The separate risk from building superintelligence before we can control it is one I take seriously - see [Nate Soares](/ai/nate-soares/).) I think it will be the messy, contested, century-long renegotiation that every previous general-purpose technology produced, compressed into a much shorter window than we are used to. The interesting work, for the next ten years, is in being honest about what is happening and trying to land somewhere useful inside it.
 
 The thinking is going free. What we do with that fact is still up to us.
 

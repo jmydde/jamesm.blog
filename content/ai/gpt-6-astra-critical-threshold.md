@@ -73,6 +73,7 @@ Pricing sits at $10/$50 per million input/output tokens standard, with a Fast mo
 
 ## Related Reading
 
+- [Didn't Quite Meet the Bar: OpenAI Shelves GPT-6.1 Astra](/ai/gpt-6-1-astra-shelved/)
 - [Why the AI Cyber Threat Is Rising](/ai/ai-cyber-threat-is-rising/)
 - [The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power](/ai/claude-mythos-restricted/)
 - [Pulled From The Shelf: The Government Order to Suspend Fable 5 and Mythos 5](/ai/fable-mythos-government-suspension/)

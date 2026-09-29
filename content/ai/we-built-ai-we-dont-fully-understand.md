@@ -157,6 +157,7 @@ If the controls are not in place first, the failure will not announce itself as 
 
 ## Related Reading
 
+- [Didn't Quite Meet the Bar: OpenAI Shelves GPT-6.1 Astra](/ai/gpt-6-1-astra-shelved/)
 - [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/) - the conditional I hold: grown, not designed, and a bad plan if we race past the point where we can point it
 - [Mechanistic Interpretability: Reading the Mind of a Model](/ai/mechanistic-interpretability-inside-the-black-box/) - the research programme that tries to close the gap this essay is about
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/) - how to separate product safety, system safety, alignment, and civilisational risk
