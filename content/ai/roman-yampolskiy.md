@@ -2,7 +2,7 @@
 title: "Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled"
 date: 2026-05-02T21:03:00+01:00
 draft: false
-tags: ["ai", "safety", "alignment", "research", "ethics"]
+tags: ["ai", "ai-safety", "alignment", "research", "ethics"]
 description: "A grounded look at Roman Yampolskiy - the computer scientist who coined the term AI safety, why he argues superintelligence is fundamentally uncontrollable, and how seriously to take him."
 cover:
   image: /assets/images/ai/roman-yampolskiy.jpg

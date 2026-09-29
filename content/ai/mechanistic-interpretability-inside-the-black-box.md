@@ -3,7 +3,7 @@ title: "Mechanistic Interpretability: Reading the Mind of a Model"
 date: 2026-07-07T09:00:00+01:00
 draft: false
 series: ["Trust"]
-tags: ["ai", "interpretability", "safety", "llm", "alignment", "research", "agentic-engineering"]
+tags: ["ai", "interpretability", "ai-safety", "llm", "alignment", "research", "agentic-engineering"]
 description: "What mechanistic interpretability actually is, why superposition makes a neural network so hard to read, how sparse autoencoders and circuit tracing cracked open the first real windows into a production model, and why - as a hobbyist looking in from outside - I think this is the most important AI research nobody outside the labs is watching closely enough."
 cover:
   image: /assets/images/ai/mechanistic-interpretability-inside-the-black-box.jpg
