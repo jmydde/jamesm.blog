@@ -137,25 +137,25 @@ If you want to hear physicists and philosophers actually argue this out, the [Cl
 
 A few interviews worth your time:
 
-### Nick Bostrom - Could Our Universe Be a Fake? (31 July 2015)
-
-{{< youtube GV1B33rjh5A >}}
-
-### David Chalmers - Are We Living in a Simulation? (8 April 2021)
-
-{{< youtube UCUeA2eZkto >}}
-
 ### Andrei Linde - Are We Living in a Simulation? (10 February 2024)
 
 {{< youtube e9FCXlmeOmM >}}
+
+### Could Our Universe Be a Fake? - Episode 110 (2 March 2022)
+
+{{< youtube X6lbwcCI8TA >}}
 
 ### Gregory Benford - Are We Living in a Simulation? (17 April 2021)
 
 {{< youtube 991q4oVAQ8E >}}
 
-### Could Our Universe Be a Fake? - Episode 110 (2 March 2022)
+### David Chalmers - Are We Living in a Simulation? (8 April 2021)
 
-{{< youtube X6lbwcCI8TA >}}
+{{< youtube UCUeA2eZkto >}}
+
+### Nick Bostrom - Could Our Universe Be a Fake? (31 July 2015)
+
+{{< youtube GV1B33rjh5A >}}
 
 ## Related Reading
 

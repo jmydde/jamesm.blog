@@ -63,23 +63,23 @@ Most modern soft synths handle MPE well. A few that are particularly worth pairi
 
 ## YouTube Videos
 
+### Seaboard BLOCK M (1 November 2023)
+{{< youtube 4kAr2wnvwO0 >}}
+
+### ERAE Touch (6 June 2023)
+{{< youtube yZot3ykgll0 >}}
+
 ### Seaboard RISE 2 (30 March 2022)
 {{< youtube CAR0_PmGQg0 >}}
 
-### Seaboard BLOCK M (1 November 2023)
-{{< youtube 4kAr2wnvwO0 >}}
+### QuNeo MPE (5 January 2021)
+{{< youtube Hnsd8M-yiuQ >}}
 
 ### LUMI Keys Studio Edition (19 November 2020)
 {{< youtube LAmHvkCt-7g >}}
 
 ### LinnStrument (11 April 2016)
 {{< youtube STz__28Scwc >}}
-
-### ERAE Touch (6 June 2023)
-{{< youtube yZot3ykgll0 >}}
-
-### QuNeo MPE (5 January 2021)
-{{< youtube Hnsd8M-yiuQ >}}
 
 ## Related Reading
 

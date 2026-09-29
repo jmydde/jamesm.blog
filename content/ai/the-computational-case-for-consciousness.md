@@ -100,20 +100,20 @@ Which is, in the end, why I am glad I wrote this. The point was never to pick a 
 
 ## Further Watching
 
+### Seeing the Mind, Educating the Brain | Stanislas Dehaene (14 October 2025)
+{{< youtube "1qoRiYH5jnM" >}}
+
 ### Giulio Tononi: Introduction to Integrated Information Theory (7 March 2025)
 {{< youtube "YkjLpIHBNp8" >}}
 
 ### Christof Koch: Can Consciousness Be Quantified? Integrated Information Theory & Neural Correlates (21 May 2023)
 {{< youtube "GeO5zr1e5lc" >}}
 
-### How Do You Explain Consciousness? | David Chalmers | TED (14 July 2014)
-{{< youtube "uhRhtFFhNzQ" >}}
-
 ### Your Brain Hallucinates Your Conscious Reality | Anil Seth | TED (18 July 2017)
 {{< youtube "lyu7v7nWzfo" >}}
 
-### Seeing the Mind, Educating the Brain | Stanislas Dehaene (14 October 2025)
-{{< youtube "1qoRiYH5jnM" >}}
+### How Do You Explain Consciousness? | David Chalmers | TED (14 July 2014)
+{{< youtube "uhRhtFFhNzQ" >}}
 
 ## Related Reading
 

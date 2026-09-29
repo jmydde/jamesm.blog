@@ -89,13 +89,13 @@ Dario said he is "deeply uncomfortable with these decisions being made by a few 
 
 ## Videos
 
-### Dario Amodei on AI's Power and Risk - Davos 2026 (20 January 2026)
-
-{{< youtube "K7F6ohcBJus" >}}
-
 ### Dario Amodei Testifies to Congress (27 January 2026)
 
 {{< youtube "zeduU9BWHD0" >}}
+
+### Dario Amodei on AI's Power and Risk - Davos 2026 (20 January 2026)
+
+{{< youtube "K7F6ohcBJus" >}}
 
 ### 60 Minutes: Dario and Daniela Amodei on AI's Promise and Risk (14 November 2025)
 

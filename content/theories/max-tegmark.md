@@ -91,20 +91,20 @@ If I try to say something definite about the man rather than the theories: Tegma
 
 ## Further Watching
 
-### Max Tegmark: AI and Physics | Lex Fridman Podcast #155 (17 January 2021)
-{{< youtube "RL4j4KPwNGM" >}}
+### Max Tegmark: The Case for Halting AI Development | Lex Fridman Podcast #371 (13 April 2023)
+{{< youtube "VcVfceTsD0A" >}}
 
 ### The Four Levels Of The Multiverse | Max Tegmark (2 October 2021)
 {{< youtube "NMx_bU1zlFY" >}}
 
-### Our Mathematical Universe | Max Tegmark | Talks at Google (16 February 2015)
-{{< youtube "VlbJoW9Rty0" >}}
-
 ### Max Tegmark: Life 3.0 | Lex Fridman Podcast (9 March 2021)
 {{< youtube "wIGu2WdR880" >}}
 
-### Max Tegmark: The Case for Halting AI Development | Lex Fridman Podcast #371 (13 April 2023)
-{{< youtube "VcVfceTsD0A" >}}
+### Max Tegmark: AI and Physics | Lex Fridman Podcast #155 (17 January 2021)
+{{< youtube "RL4j4KPwNGM" >}}
+
+### Our Mathematical Universe | Max Tegmark | Talks at Google (16 February 2015)
+{{< youtube "VlbJoW9Rty0" >}}
 
 ## Related Reading
 

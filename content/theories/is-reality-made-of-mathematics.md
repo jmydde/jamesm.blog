@@ -117,14 +117,14 @@ The honest sticking point, for me, is consciousness. A universe made of pure str
 
 ## Further Watching
 
+### Our Universe Is A Math Problem! Max Tegmark's Theory of Reality (11 November 2024)
+{{< youtube "EFO5lzA_0Og" >}}
+
 ### Our Mathematical Universe | Max Tegmark | Talks at Google (16 February 2015)
 {{< youtube "VlbJoW9Rty0" >}}
 
 ### Our Mathematical Universe with Max Tegmark (8 October 2014)
 {{< youtube "_3UxvycpqYo" >}}
-
-### Our Universe Is A Math Problem! Max Tegmark's Theory of Reality (11 November 2024)
-{{< youtube "EFO5lzA_0Og" >}}
 
 ## Related Reading
 

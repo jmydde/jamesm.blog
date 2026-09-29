@@ -57,20 +57,20 @@ I go looking for channels like this for the same reason I wrote about Carroll an
 
 ## Further Watching
 
-### Welcome to Unbaffled with Professor Jim Al-Khalili (22 June 2026)
-{{< youtube "AgPKUvOQUnE" >}}
+### What is quantum decoherence? (14 July 2026)
+{{< youtube "B3DH_DGQhmw" >}}
 
 ### Three Ways Physicists Think Reality Works - Quantum Reality with Jim Al-Khalili (13 July 2026)
 {{< youtube "-_8apfiiTR4" >}}
 
-### What is quantum decoherence? (14 July 2026)
-{{< youtube "B3DH_DGQhmw" >}}
+### Brain Q&A - ask us anything! (10 July 2026)
+{{< youtube "n2kRAT0N-S4" >}}
 
 ### Where are all the time travellers? (29 June 2026)
 {{< youtube "A2MYCWHFoUw" >}}
 
-### Brain Q&A - ask us anything! (10 July 2026)
-{{< youtube "n2kRAT0N-S4" >}}
+### Welcome to Unbaffled with Professor Jim Al-Khalili (22 June 2026)
+{{< youtube "AgPKUvOQUnE" >}}
 
 ## Related Reading
 

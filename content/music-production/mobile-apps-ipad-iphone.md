@@ -95,6 +95,10 @@ From there, follow whatever sound is missing rather than collecting apps for the
 
 ## Video tutorials
 
+### My New iPad Music Production Setup 2026 (20 March 2026)
+
+{{< youtube KfO5nLL_RV4 >}}
+
 ### KORG Gadget 3 - Quick Start Guide & Song Construction (1 January 2026)
 
 {{< youtube 7HneyRe-z1U >}}
@@ -106,10 +110,6 @@ From there, follow whatever sound is missing rather than collecting apps for the
 ### Ableton Note - Getting Started (7 May 2024)
 
 {{< youtube -5RJd2sXCf4 >}}
-
-### My New iPad Music Production Setup 2026 (20 March 2026)
-
-{{< youtube KfO5nLL_RV4 >}}
 
 ### How To Set Up AUM To Record Into Cubasis (3 June 2019)
 

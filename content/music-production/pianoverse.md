@@ -28,17 +28,17 @@ I already have a ridiculous amount of piano libraries already and I honestly don
 
 ## YouTube Videos
 
-### Pianoverse - The only piano instrument you'll ever need (28 September 2023)
-{{< youtube eQKsrCCpzHo >}}
-
 ### Jordan Rudess Pianoverse Gran Concerto 278 piano virtual instrument sound demo (21 November 2023)
 {{< youtube HPceZDznbO4 >}}
 
-### IK Multimedia Pianoverse Sound Demo and Walkthrough (28 September 2023)
-{{< youtube Z3AKF7D4D2c >}}
-
 ### Into The PIANOVERSE From IK Multimedia | Is it truly the only virtual piano you will ever need? (30 September 2023)
 {{< youtube soyjeKpU3VY >}}
+
+### Pianoverse - The only piano instrument you'll ever need (28 September 2023)
+{{< youtube eQKsrCCpzHo >}}
+
+### IK Multimedia Pianoverse Sound Demo and Walkthrough (28 September 2023)
+{{< youtube Z3AKF7D4D2c >}}
 
 ## Related Reading
 

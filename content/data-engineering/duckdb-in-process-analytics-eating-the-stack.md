@@ -122,14 +122,14 @@ For people building with data engineering tools today, the practical guidance is
 ### DuckDB in the wild (Hannes Mühleisen, DuckDB Labs) (23 October 2024)
 {{< youtube "NarcDUhHwQw" >}}
 
-### DuckDB and the future of databases | Hannes Mühleisen | Data Science Hangout
-{{< youtube "GvgbcWtHgVY" >}}
-
 ### DuckDB - Overview by Hannes Mühleisen (14 August 2023)
 {{< youtube "qWtc7k6tnVk" >}}
 
 ### Hannes Mühleisen - DuckDB, an in-process analytical DBMS (1 March 2022)
 {{< youtube "Z-6SnP6yzgo" >}}
+
+### DuckDB and the future of databases | Hannes Mühleisen | Data Science Hangout
+{{< youtube "GvgbcWtHgVY" >}}
 
 ## Related Reading
 

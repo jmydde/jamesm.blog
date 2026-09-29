@@ -105,20 +105,20 @@ The most likely outcome is somewhere in between. The enterprise segment that val
 ### Extended interview: Dario Amodei (CBS Sunday Morning) (13 September 2026)
 {{< youtube "hQR_VJF6ukk" >}}
 
-### Anthropic | Sunday on 60 Minutes (14 November 2025)
-{{< youtube "7XpS_T8-YEg" >}}
+### Dario Amodei - "We are near the end of the exponential" (13 February 2026)
+{{< youtube "n1E9IZfvGMA" >}}
+
+### Dario Amodei's message to Congress on AI (27 January 2026)
+{{< youtube "zeduU9BWHD0" >}}
 
 ### Watch: Anthropic CEO Dario Amodei From World Economic Forum | WSJ (20 January 2026)
 {{< youtube "K7F6ohcBJus" >}}
 
-### Dario Amodei - "We are near the end of the exponential" (13 February 2026)
-{{< youtube "n1E9IZfvGMA" >}}
-
 ### FULL DISCUSSION: Google's Demis Hassabis, Anthropic's Dario Amodei Debate the World After AGI (20 January 2026)
 {{< youtube "02YLwsCKUww" >}}
 
-### Dario Amodei's message to Congress on AI (27 January 2026)
-{{< youtube "zeduU9BWHD0" >}}
+### Anthropic | Sunday on 60 Minutes (14 November 2025)
+{{< youtube "7XpS_T8-YEg" >}}
 
 ## Related Reading
 

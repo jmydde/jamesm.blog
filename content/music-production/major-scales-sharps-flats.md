@@ -130,11 +130,11 @@ With this method, you’ll never have to wonder how many sharps are in a major s
 
 ## YouTube Videos
 
-### Circle of Fifths: Everything You Need to Know (10 September 2020)
-{{< youtube O43EBVnwNvo >}}
-
 ### Circle of 5ths: EASIEST Way to Memorize & Understand It (21 June 2021)
 {{< youtube XNwlybb-j_M >}}
+
+### Circle of Fifths: Everything You Need to Know (10 September 2020)
+{{< youtube O43EBVnwNvo >}}
 
 ## Related Reading
 

@@ -86,17 +86,17 @@ In the era of [spec-driven development](/ai/spec-driven-development/), where eve
 
 ## Video Tutorials & Reviews
 
-### Squarp Hapax Review - 4 Pros, 4 Cons & Advanced Sequencing Tutorial (14 March 2022)
-{{< youtube tTLQx2kexNM >}}
-
-### Teenage Engineering OP-XY - The Ultimate Deep Dive (3 December 2024)
-{{< youtube 6ElRS6F5g2c >}}
-
 ### Elektron Digitakt II Review - Still the King of Samplers? (29 December 2025)
 {{< youtube oFmmuhV64WU >}}
 
 ### OXI One MKII - What's New? (30 April 2025)
 {{< youtube ckcGreSIKxY >}}
+
+### Teenage Engineering OP-XY - The Ultimate Deep Dive (3 December 2024)
+{{< youtube 6ElRS6F5g2c >}}
+
+### Squarp Hapax Review - 4 Pros, 4 Cons & Advanced Sequencing Tutorial (14 March 2022)
+{{< youtube tTLQx2kexNM >}}
 
 ### Ultimate MIDI Sequencers Compared - OXI One vs Synthstrom Deluge Shootout (17 March 2024)
 {{< youtube oBb0mXGT5s4 >}}

@@ -101,20 +101,20 @@ The most likely outcome is that this bet pays off in places that look more like 
 
 ## Further Watching
 
-### Demis Hassabis: Why AGI is Bigger than the Industrial Revolution & Where Are The Bottlenecks in AI (7 April 2026)
-{{< youtube "SSya123u9Yk" >}}
-
 ### Demis Hassabis: We're Three Quarters of the Way to AGI (29 April 2026)
 {{< youtube "AFpeWo1GTeg" >}}
 
-### Inside DeepMind's AGI Plan - Demis Hassabis (15 January 2026)
-{{< youtube "q6fq4_uP7aM" >}}
+### Demis Hassabis: Why AGI is Bigger than the Industrial Revolution & Where Are The Bottlenecks in AI (7 April 2026)
+{{< youtube "SSya123u9Yk" >}}
 
 ### India AI Summit 2026: Sir Demis Hassabis on Gemini, AlphaFold & The Future of AI (17 February 2026)
 {{< youtube "DuWdmQ3_Exo" >}}
 
 ### FULL: Demis Hassabis, Dario Amodei Debate What Comes After AGI at World Economic Forum (20 January 2026)
 {{< youtube "9Zz2KrBDXUo" >}}
+
+### Inside DeepMind's AGI Plan - Demis Hassabis (15 January 2026)
+{{< youtube "q6fq4_uP7aM" >}}
 
 ## Related Reading
 

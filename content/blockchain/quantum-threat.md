@@ -90,17 +90,11 @@ Bitcoin does not have to invent new cryptography from scratch. In August 2024, [
 
 ## Video Explainers
 
-### Quantum Computers Explained - Limits of Human Technology (8 December 2015)
+### Bitcoin's Quantum Countdown (1 April 2026)
 
-{{< youtube JhHMJCUmq28 >}}
+{{< youtube Ykwi-3S1bYs >}}
 
-Kurzgesagt's animated primer on how quantum computers work and why they differ fundamentally from classical machines - the best starting point if the concept is new to you.
-
-### What Makes Quantum Computers SO Powerful? (20 March 2023)
-
-{{< youtube -UrdExQW0cs >}}
-
-Veritasium digs into superposition, interference and why a quantum computer is not simply a faster classical one - useful context for understanding why Shor's algorithm is such a leap.
+Coin Bureau breaks down the value at risk, the Q-Day timeline and how different networks are responding - a solid overview of the 2026 state of play.
 
 ### Will Quantum Computing Kill Bitcoin? (22 February 2026)
 
@@ -108,11 +102,11 @@ Veritasium digs into superposition, interference and why a quantum computer is n
 
 Physicist Sabine Hossenfelder gives a clear-eyed, hype-free assessment of whether quantum computers really threaten Bitcoin, and how far away the danger actually is.
 
-### Bitcoin's Quantum Countdown (1 April 2026)
+### What Makes Quantum Computers SO Powerful? (20 March 2023)
 
-{{< youtube Ykwi-3S1bYs >}}
+{{< youtube -UrdExQW0cs >}}
 
-Coin Bureau breaks down the value at risk, the Q-Day timeline and how different networks are responding - a solid overview of the 2026 state of play.
+Veritasium digs into superposition, interference and why a quantum computer is not simply a faster classical one - useful context for understanding why Shor's algorithm is such a leap.
 
 ### Bitcoin Q&A: Is Quantum Computing a Threat? (18 September 2018)
 
@@ -125,6 +119,12 @@ Andreas Antonopoulos explains why hashed addresses provide a buffer and why the 
 {{< youtube dkXKpMku5QY >}}
 
 A companion talk from Andreas on how the Bitcoin protocol can evolve, via soft fork, to adopt quantum-resistant signatures without breaking the network.
+
+### Quantum Computers Explained - Limits of Human Technology (8 December 2015)
+
+{{< youtube JhHMJCUmq28 >}}
+
+Kurzgesagt's animated primer on how quantum computers work and why they differ fundamentally from classical machines - the best starting point if the concept is new to you.
 
 ## Further Reading
 

@@ -45,14 +45,14 @@ Ableton have just released Ableton Live 12
 
 ## YouTube Videos
 
-### Ableton Live 12: Explore what’s new (14 November 2023)
-{{< youtube QFCV6EkqRQs >}}
+### Ableton Live 12: Yes or no? (5 March 2024)
+{{< youtube Sf8J-GRSPAk >}}
 
 ### BIG UPDATE: Ableton Live 12 preview - Our top 5 favorite features (16 February 2024)
 {{< youtube qp8ELKYcu78 >}}
 
-### Ableton Live 12: Yes or no? (5 March 2024)
-{{< youtube Sf8J-GRSPAk >}}
+### Ableton Live 12: Explore what’s new (14 November 2023)
+{{< youtube QFCV6EkqRQs >}}
 
 ### Ableton Live 12 - First Look - Sonic LAB Presentation (14 November 2023)
 {{< youtube Gh3P6SJFyUY >}}

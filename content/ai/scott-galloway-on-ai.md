@@ -96,17 +96,17 @@ For a working engineer, the practical implication is the same one [career-aware 
 ### Scott Galloway: AI Wasn't Built For You. The Rich Don't Need You Anymore! (4 May 2026)
 {{< youtube "NdU6UdUKaYc" >}}
 
-### Provocative Predictions for the Future of Tech with NYU Marketing Professor Scott Galloway (13 July 2023)
-{{< youtube "otyoPiVAicI" >}}
-
 ### Scott Galloway's Predictions for 2026 | Prof G Markets (5 January 2026)
 {{< youtube "uiW41jFKcV8" >}}
+
+### Red Flags at OpenAI - How One Company Could Burst the AI Bubble | Prof G Markets (10 November 2025)
+{{< youtube "pO9L1HRqQLQ" >}}
 
 ### Why Scott Galloway Pulled the Plug on AI Bot | Pivot (3 October 2025)
 {{< youtube "CsoK5h2npB8" >}}
 
-### Red Flags at OpenAI - How One Company Could Burst the AI Bubble | Prof G Markets (10 November 2025)
-{{< youtube "pO9L1HRqQLQ" >}}
+### Provocative Predictions for the Future of Tech with NYU Marketing Professor Scott Galloway (13 July 2023)
+{{< youtube "otyoPiVAicI" >}}
 
 ## Related Reading
 

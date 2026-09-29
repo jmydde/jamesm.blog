@@ -108,17 +108,17 @@ Whatever you think of Yampolskiy's odds on uncontrollability, he is unusually go
 ### Personal Universes and the Simulation Hypothesis | Roman Yampolskiy (20 May 2026)
 {{< youtube "kCQLiJ5GoBA" >}}
 
-### Each human lives inside their own simulation | Roman Yampolskiy and Lex Fridman (3 June 2024)
-{{< youtube "KZhuc8INOWk" >}}
-
 ### We Are Living Inside a Simulation To Test AI | Roman Yampolskiy (12 May 2026)
 {{< youtube "5wQ3JU_IqzU" >}}
+
+### "I Am 99.9% Certain This Is A Simulation" - Dr. Roman Yampolskiy (15 February 2026)
+{{< youtube "iIMRMqhysRE" >}}
 
 ### Hacking our way out of the universe | Roman Yampolskiy (9 August 2025)
 {{< youtube "v7U5QAIUqRw" >}}
 
-### "I Am 99.9% Certain This Is A Simulation" - Dr. Roman Yampolskiy (15 February 2026)
-{{< youtube "iIMRMqhysRE" >}}
+### Each human lives inside their own simulation | Roman Yampolskiy and Lex Fridman (3 June 2024)
+{{< youtube "KZhuc8INOWk" >}}
 
 ## Related Reading
 

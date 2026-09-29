@@ -38,11 +38,11 @@ A celebration of timeless television that shaped British culture and influenced 
 ## Blackadder (1983 - 1989)
 [Blackadder](https://en.wikipedia.org/wiki/Blackadder) is a dark comedy series that reinvented itself across four historical periods, each with the same core cast playing different characters. Created by Richard Curtis and Ben Elton, the show featured sharp wit, period-perfect humor, and an unforgettable ending to its final series.
 
-### Series 2: Blackadder II (21 May 2019)
-{{< youtube n-Zm8H6G108 >}}
-
 ### Series 3: Blackadder the Third (13 May 2020)
 {{< youtube vDVxq76-qOw >}}
+
+### Series 2: Blackadder II (21 May 2019)
+{{< youtube n-Zm8H6G108 >}}
 
 ### Series 4: Blackadder Goes Forth (21 December 2023)
 {{< youtube EgiQU__ql3M >}}
@@ -59,20 +59,20 @@ A celebration of timeless television that shaped British culture and influenced 
 
 I don't understand why we still don't have educational programs like this on TV today ...
 
-### Think Of A Number (1984) - Johnny Ball (19 March 2018)
-{{< youtube UHGPJVw1u1I >}}
-
-### Think of a Number - Light - Johnny Ball
-{{< youtube t6xEl_7t8TM >}}
-
-### Think Again titles & credits - Johnny Ball - BBC 1983 (14 March 2014)
-{{< youtube akSWYlt07JE >}}
+### Johnny Ball Reveals All, Full Intro (13 January 2021)
+{{< youtube qTVjqdp4WX0 >}}
 
 ### 'Think It..Do It' - On The Set Of SUPERMAN IV (27 October 2020)
 {{< youtube aR2XDAxjExs >}}
 
-### Johnny Ball Reveals All, Full Intro (13 January 2021)
-{{< youtube qTVjqdp4WX0 >}}
+### Think Of A Number (1984) - Johnny Ball (19 March 2018)
+{{< youtube UHGPJVw1u1I >}}
+
+### Think Again titles & credits - Johnny Ball - BBC 1983 (14 March 2014)
+{{< youtube akSWYlt07JE >}}
+
+### Think of a Number - Light - Johnny Ball
+{{< youtube t6xEl_7t8TM >}}
 
 ## The Day Today (1994)
 [The Day Today](https://en.wikipedia.org/wiki/The_Day_Today) was a satirical news program that parodied current affairs television. Hosted by Chris Morris, this influential comedy show pushed boundaries with its absurdist humor and became a cult classic that influenced a generation of comedians.

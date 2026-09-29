@@ -62,6 +62,16 @@ Brin in conversation with Logan Kilpatrick (via PodiumVC), discussing how Google
 
 {{< youtube FGK1UhqsTSs >}}
 
+### Why AI is more important than the Internet - Interview with Sergey Brin (23 May 2025)
+A shorter-form interview where Brin makes the case that AI is a bigger inflection than the web itself, with reference to how Google's own product surface is being rewritten around generative interfaces.
+
+{{< youtube 4N9MCa4hCsA >}}
+
+### Sergey Brin: Lessons from Google Glass + Why Every Computer Scientist Should be Working on AI (23 May 2025)
+Long-form conversation with [Alex Kantrowitz](https://www.bigtechnology.com/) covering what Google Glass got wrong (and why it might be right now), and Brin's argument that every computer scientist should be working on AI given the stakes.
+
+{{< youtube rtd_1gxMTZM >}}
+
 ### Sergey Brin, Google Co-Founder | All-In Live from Miami (20 May 2025)
 Live appearance on the [All-In podcast](https://www.allinpodcast.co/), covering his return to Google, AI's true superpower, robotics form factors, foundational models and open-source, and the future of human-computer interaction.
 
@@ -76,20 +86,10 @@ Live appearance on the [All-In podcast](https://www.allinpodcast.co/), covering 
 
 {{< youtube 8g7a0IWKDRE >}}
 
-### Why AI is more important than the Internet - Interview with Sergey Brin (23 May 2025)
-A shorter-form interview where Brin makes the case that AI is a bigger inflection than the web itself, with reference to how Google's own product surface is being rewritten around generative interfaces.
-
-{{< youtube 4N9MCa4hCsA >}}
-
 ### Sergey Brin | All-In Summit 2024 (10 September 2024)
 Brin's first major public appearance after returning to hands-on work at Google. Covers what he is actually building, why he came back, and his early read on where Gemini sits in the frontier model field.
 
 {{< youtube XzK9bx3CSPE >}}
-
-### Sergey Brin: Lessons from Google Glass + Why Every Computer Scientist Should be Working on AI (23 May 2025)
-Long-form conversation with [Alex Kantrowitz](https://www.bigtechnology.com/) covering what Google Glass got wrong (and why it might be right now), and Brin's argument that every computer scientist should be working on AI given the stakes.
-
-{{< youtube rtd_1gxMTZM >}}
 
 _Note: This page will be expanded with additional Sergey Brin interviews as they become available._
 

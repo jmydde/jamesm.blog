@@ -82,20 +82,20 @@ For people building with these tools today, the practical implication is the bor
 
 ## Further Watching
 
-### Introducing Sora 2 (30 September 2025)
-{{< youtube "gzneGhpXwjU" >}}
+### Introducing Gen-4.5 (1 December 2025)
+{{< youtube "ei2PsDpPbB4" >}}
 
 ### Veo 3.1 - Designed to empower creatives (15 October 2025)
 {{< youtube "I06Ef8alr2Y" >}}
 
-### Introducing Runway Gen-4 (31 March 2025)
-{{< youtube "uRkfzKYFOxc" >}}
-
-### Introducing Gen-4.5 (1 December 2025)
-{{< youtube "ei2PsDpPbB4" >}}
+### Introducing Sora 2 (30 September 2025)
+{{< youtube "gzneGhpXwjU" >}}
 
 ### OpenAI's Sora 2 Can Talk - and Follow Physics (30 September 2025)
 {{< youtube "CDAuUHdlKUA" >}}
+
+### Introducing Runway Gen-4 (31 March 2025)
+{{< youtube "uRkfzKYFOxc" >}}
 
 ## Related Reading
 

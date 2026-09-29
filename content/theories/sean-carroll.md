@@ -74,14 +74,14 @@ None of which changes the debt. Sean Carroll is the person who took an idea I wo
 ### Sean Carroll: Einstein's Most Radical Thought (7 November 2025)
 {{< youtube "rT7DMb3ZucU" >}}
 
-### Can All The Universes Fit In The Multiverse? - with Sean Carroll (19 March 2020)
-{{< youtube "7tQiy5iCX4o" >}}
-
 ### Sean Carroll on Physics, the Multiverse, and Quantum Mechanics (15 May 2024)
 {{< youtube "YPb2Zkpx5dA" >}}
 
 ### Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime (14 April 2020)
 {{< youtube "XBQorAnnICs" >}}
+
+### Can All The Universes Fit In The Multiverse? - with Sean Carroll (19 March 2020)
+{{< youtube "7tQiy5iCX4o" >}}
 
 ### Cosmology and the Arrow of Time: Sean Carroll at TEDxCaltech (25 February 2011)
 {{< youtube "WMaTyg8wR4Y" >}}

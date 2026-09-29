@@ -31,11 +31,11 @@ Replace processor, battery and hard drive as technology improves |
 
 ## YouTube Videos
 
-### Introducing Push 3: An expressive standalone instrument (23 May 2023)
-{{< youtube qcGUgp6yo_k >}}
-
 ### 5 Cool Features of ABLETON PUSH 3 (31 May 2023)
 {{< youtube VLxOPnCumjM >}}
+
+### Introducing Push 3: An expressive standalone instrument (23 May 2023)
+{{< youtube qcGUgp6yo_k >}}
 
 ## Related Reading
 

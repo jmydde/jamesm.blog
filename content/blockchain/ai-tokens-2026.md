@@ -163,17 +163,17 @@ A grounded walk-through of what Bittensor is, how subnets work, and why the TAO 
 
 {{< youtube W9s0Rxfdxnk >}}
 
-### What Is Render Token? RNDR Explained With Animations (15 March 2022)
-
-A clean animated explainer of the Render Network's burn-and-mint model and how the GPU marketplace works in practice.
-
-{{< youtube Nb3aROTQeko >}}
-
 ### What is Virtuals Protocol? The Shopify of AI Agents (16 December 2024)
 
 The clearest framing of the Virtuals thesis - tokenised AI agents on Base, the GAME framework, and how the protocol token captures value.
 
 {{< youtube 0OFjYx3sxbo >}}
+
+### NEAR Protocol Explained: Combining AI and Blockchain (13 May 2024)
+
+The agent-economy thesis from NEAR's perspective - chain abstraction, Nightshade sharding, and why NEAR repositioned around AI.
+
+{{< youtube l_BXeR2tJAw >}}
 
 ### Fetch AI, SingularityNET, Ocean Protocol's Historic AI Merger (30 March 2024)
 
@@ -181,11 +181,11 @@ Background on the three-way merger that created the Artificial Superintelligence
 
 {{< youtube 332GrY7tDOg >}}
 
-### NEAR Protocol Explained: Combining AI and Blockchain (13 May 2024)
+### What Is Render Token? RNDR Explained With Animations (15 March 2022)
 
-The agent-economy thesis from NEAR's perspective - chain abstraction, Nightshade sharding, and why NEAR repositioned around AI.
+A clean animated explainer of the Render Network's burn-and-mint model and how the GPU marketplace works in practice.
 
-{{< youtube l_BXeR2tJAw >}}
+{{< youtube Nb3aROTQeko >}}
 
 ## Closing
 

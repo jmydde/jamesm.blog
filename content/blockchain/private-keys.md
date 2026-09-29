@@ -71,15 +71,15 @@ A fascinating exploration of the odds of guessing a private key, explaining why 
 
 ### Wallet Mechanics
 
-**Could Someone Guess Your Bitcoin Private Key?** (16 January 2022)
-{{< youtube wtuMbMVE-io >}}
-
-Explains the mathematical impossibility of guessing Bitcoin private keys.
-
 **How Public and Private Keys Work In Your Crypto Wallets** (21 September 2022)
 {{< youtube bvSJm7fHXto >}}
 
 A clear explanation of the public-key cryptography system that powers cryptocurrency wallets and transactions.
+
+**Could Someone Guess Your Bitcoin Private Key?** (16 January 2022)
+{{< youtube wtuMbMVE-io >}}
+
+Explains the mathematical impossibility of guessing Bitcoin private keys.
 
 ## Related Reading
 

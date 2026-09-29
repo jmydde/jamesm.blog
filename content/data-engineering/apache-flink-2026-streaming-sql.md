@@ -110,20 +110,20 @@ For people building with data engineering tools today, the practical guidance is
 
 ## Further Watching
 
-### A deep dive into Flink SQL - Jark Wu, Kurt Young (28 April 2020)
-{{< youtube "KDD8e4GE12w" >}}
+### DuckDB Co-Creator Hannes Mühleisen on Why Single-Node Beats Distributed (29 May 2025)
+{{< youtube "o53onmgnQDU" >}}
 
 ### What is Apache Flink? (Confluent) (13 December 2023)
 {{< youtube "PVoc5tRr6to" >}}
+
+### A deep dive into Flink SQL - Jark Wu, Kurt Young (28 April 2020)
+{{< youtube "KDD8e4GE12w" >}}
 
 ### scale.bythebay.io: Stephan Ewen, Apache Flink and the Next Wave of Stream Processing Applications (21 November 2017)
 {{< youtube "GB-icNc9QtE" >}}
 
 ### The State of Flink and how to adopt Stream Processing - Stephan Ewen (14 September 2017)
 {{< youtube "EMle4ChUcEk" >}}
-
-### DuckDB Co-Creator Hannes Mühleisen on Why Single-Node Beats Distributed (29 May 2025)
-{{< youtube "o53onmgnQDU" >}}
 
 ## Related Reading
 

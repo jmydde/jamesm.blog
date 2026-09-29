@@ -193,38 +193,38 @@ Honestly, spend an hour with any of these and you'll understand why the future o
 
 ## YouTube Videos
 
-### Chromaphone (31 May 2022)
-{{< youtube AW0BfyWKIRI >}}
-
-### Imagine (9 September 2021)
-{{< youtube pfQbfhBN0oQ >}}
-
-### Modus (11 July 2023)
-{{< youtube 0A3owLswXro >}}
-
-### Piano V (10 May 2022)
-{{< youtube 7qjx2FmMy1I >}}
-
-### Pianoteq (16 November 2022)
-{{< youtube sOIqPTNyyf0 >}}
-
-### Plasmonic (27 November 2021)
-{{< youtube nS04DHdljKk >}}
-
 ### Preparation (8 August 2024)
 {{< youtube X0RHcg89NO4 >}}
-
-### SWAM String Sections (18 October 2023)
-{{< youtube ln_vqLmNGUU >}}
 
 ### SWAM: Orchestra at Your Fingertips-Audio Modeling (14 February 2024)
 {{< youtube G8ktSUcvMmo >}}
 
-### Tension (14 November 2018)
-{{< youtube 2MwHWcj8yH4 >}}
+### SWAM String Sections (18 October 2023)
+{{< youtube ln_vqLmNGUU >}}
+
+### Modus (11 July 2023)
+{{< youtube 0A3owLswXro >}}
+
+### Pianoteq (16 November 2022)
+{{< youtube sOIqPTNyyf0 >}}
+
+### Chromaphone (31 May 2022)
+{{< youtube AW0BfyWKIRI >}}
+
+### Piano V (10 May 2022)
+{{< youtube 7qjx2FmMy1I >}}
+
+### Plasmonic (27 November 2021)
+{{< youtube nS04DHdljKk >}}
+
+### Imagine (9 September 2021)
+{{< youtube pfQbfhBN0oQ >}}
 
 ### Ultra Analog (24 September 2019)
 {{< youtube GK1S-5X7LOk >}}
+
+### Tension (14 November 2018)
+{{< youtube 2MwHWcj8yH4 >}}
 
 ## Related Reading
 
