@@ -263,6 +263,7 @@ Both vehicles are heading to the Moon. Only one philosophy scales to Mars.
 
 ## Related Reading
 
+- [Starship's First Orbit Lasted Three Hours](/space/starship-flight-14-first-orbit/)
 - [Human Spaceflight Rockets in 2026: A New Era Takes Off](/space/human-spaceflight-rockets-2026/)
 - [Artemis III Lander Architecture - What Could Still Go Wrong](/space/artemis-iii-lander-architecture/)
 - [NASA Artemis II](/space/nasa-artemis-ii/)
