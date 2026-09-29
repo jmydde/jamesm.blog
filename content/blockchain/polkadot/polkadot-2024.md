@@ -26,12 +26,12 @@ Key announcements and updates from Polkadot's 2024 roadmap, including the rollou
 
 ## February 2024
 
-**Gavin Wood Was Right About Polkadot DOT** (February 18)
+**Gavin Wood Was Right About Polkadot DOT** (18 February 2024)
 {{< youtube j1ntZ0IxjYY >}}
 
 ## January 2024
 
-**Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet?** (January 25)
+**Polkadot 2.0 Review | The Biggest Protocol Upgrade Yet?** (25 January 2024)
 {{< youtube pShgerl8wGs >}}
 
 **Polkadot Blockchain Academy: Targeted Education for Builders and Founders** (January 24)

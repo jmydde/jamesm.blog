@@ -22,6 +22,7 @@ The opening keynote featured the typical mix of AWS leadership, senior AWS produ
 - **Renee Hunt** - Chief Technology Officer, Compare the Market
 - **Will Cavendish** - Global Digital Services Leader, Arup
 
+### AWS Summit - London 2023: KEYNOTE (7 June 2023)
 {{< youtube MSIJaocxK4s >}}
 
 ## Themes worth noting

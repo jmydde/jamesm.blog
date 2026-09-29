@@ -83,22 +83,22 @@ Here are a few alternative workstation synths to consider
 
 ## YouTube Videos
 
-### [2024-01-26] The glorious Yamaha Montage M8X
+### The glorious Yamaha Montage M8X (26 January 2024)
 {{< youtube C6BAIrv_gfo >}}
 
-### [2024-01-06] Yamaha Montage M8X Acoustic Pianos Demo
+### Yamaha Montage M8X Acoustic Pianos Demo (6 January 2024)
 {{< youtube XCS3c6_f1Ow >}}
 
-### [2023-10-19] Yamaha Montage M8X Synthesizer/Workstation sound test
+### Yamaha Montage M8X Synthesizer/Workstation sound test (19 October 2023)
 {{< youtube 6WfJOqS1HPw >}}
 
-### [2023-10-11] Mike Patrick is Blown Away by the NEW Yamaha Montage M8X!
+### Mike Patrick is Blown Away by the NEW Yamaha Montage M8X! (11 October 2023)
 {{< youtube NrISTHXtlfk >}}
 
 ### [2023-10-11] Yamaha Montage M8x - Their Flagship Synth Is More Powerful Than Ever!
 {{< youtube z-4M8DegHRQ >}}
 
-### [2023-10-10] Yamaha | Montage M Sound Demo
+### Yamaha | Montage M Sound Demo (9 October 2023)
 {{< youtube fN59j2cqwoI >}}
 
 ## Related Reading

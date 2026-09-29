@@ -31,7 +31,7 @@ Al-Khalili is not a YouTuber who wandered into physics - he is a physicist who h
 
 Alongside the research he has built one of the more substantial public-science careers in the UK: fifteen popular science books, regular BBC presenting work including the long-running *[The Life Scientific](https://en.wikipedia.org/wiki/The_Life_Scientific)*, an OBE in 2007, a CBE in 2021, and Fellowship of the [Royal Society](https://royalsociety.org/people/jim-al-khalili-13796/). Unbaffled reads like the natural next step for someone who has already spent decades doing this work in other formats - a channel with his name on it and full control over the pacing, rather than a slot in someone else's schedule.
 
-## The video that pulled me in
+## The video that pulled me in (13 July 2026)
 
 {{< youtube "VOe1EmdTI_s" >}}
 
@@ -43,7 +43,7 @@ Where I land on it personally is close to where I landed after writing about Car
 
 > The standing caveat: this is where my thinking sits today, and today is doing real work in that sentence. I revise these views regularly as I read further or hit an argument that moves me, and I would genuinely rather be shown where a favourite idea breaks than protect it from scrutiny. A theory, including my own half-formed ones, is only useful as something you keep trying to prove wrong.
 
-## It is not only quantum mechanics
+## It is not only quantum mechanics (30 June 2026)
 
 {{< youtube "ybuhqtDVO_A" >}}
 
@@ -57,19 +57,19 @@ I go looking for channels like this for the same reason I wrote about Carroll an
 
 ## Further Watching
 
-### Welcome to Unbaffled with Professor Jim Al-Khalili
+### Welcome to Unbaffled with Professor Jim Al-Khalili (22 June 2026)
 {{< youtube "AgPKUvOQUnE" >}}
 
-### Three Ways Physicists Think Reality Works - Quantum Reality with Jim Al-Khalili
+### Three Ways Physicists Think Reality Works - Quantum Reality with Jim Al-Khalili (13 July 2026)
 {{< youtube "-_8apfiiTR4" >}}
 
-### What is quantum decoherence?
+### What is quantum decoherence? (14 July 2026)
 {{< youtube "B3DH_DGQhmw" >}}
 
-### Where are all the time travellers?
+### Where are all the time travellers? (29 June 2026)
 {{< youtube "A2MYCWHFoUw" >}}
 
-### Brain Q&A - ask us anything!
+### Brain Q&A - ask us anything! (10 July 2026)
 {{< youtube "n2kRAT0N-S4" >}}
 
 ## Related Reading

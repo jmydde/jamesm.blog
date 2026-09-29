@@ -94,36 +94,36 @@ Pick one, spend a month with it, and see whether it earns a place in your studio
 
 ## Featured Videos
 
-### Suno Ai v5.5 Tutorial 2026 (For Complete Beginners)
+### Suno Ai v5.5 Tutorial 2026 (For Complete Beginners) (28 March 2026)
 {{< youtube V9AyWXeUNno >}}
 
-### I Tested the BEST AI Music Generators in 2026 Here is the Winner!
+### I Tested the BEST AI Music Generators in 2026 Here is the Winner! (17 March 2026)
 {{< youtube lJw61Uen0BU >}}
 
-### Can AIVA Be My New AI Composition Assistant?
+### Can AIVA Be My New AI Composition Assistant? (11 March 2025)
 {{< youtube ltWE4V_EMvc >}}
 
-### Riffusion - This FREE AI Music Website Will Blow Your Mind!
+### Riffusion - This FREE AI Music Website Will Blow Your Mind! (28 April 2025)
 {{< youtube ssLZbGWvTi4 >}}
 
-### Suno Ai Tutorial 2026 (For Complete Beginners)
+### Suno Ai Tutorial 2026 (For Complete Beginners) (19 July 2025)
 {{< youtube 72R1NjNaUnE >}}
 
 ## Official Videos and Resources
 
-### How to Use Suno AI Music Generator in 2026
+### How to Use Suno AI Music Generator in 2026 (15 January 2026)
 {{< youtube g6-ct0c-hfQ >}}
 
-### Udio AI Tutorial – How to Make Music with AI
+### Udio AI Tutorial  -  How to Make Music with AI (5 December 2024)
 {{< youtube XXyq_x-7Mfg >}}
 
-### How to Use AIVA AI Music Generator - Ultimate Guide
+### How to Use AIVA AI Music Generator - Ultimate Guide (8 May 2025)
 {{< youtube 2_TVZBbJQGE >}}
 
-### Introducing RIFFUSION - The New Standard In AI Music Generation
+### Introducing RIFFUSION - The New Standard In AI Music Generation (30 January 2025)
 {{< youtube I3W1IydJ_LQ >}}
 
-### Your AI Music Isn't Safe Until You Do This
+### Your AI Music Isn't Safe Until You Do This (8 January 2026)
 {{< youtube fv38_Otkyio >}}
 
 ## Related Reading

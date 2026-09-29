@@ -38,7 +38,7 @@ The cautious rollout is the right call. The same capability that helps a non-ver
 
 ## YouTube
 
-### OpenAI Introducing: A New Era of Human-like AI Voices
+### OpenAI Introducing: A New Era of Human-like AI Voices (31 March 2024)
 {{< youtube BHVoHlpH2og >}}
 
 ## Related Reading

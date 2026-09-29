@@ -49,22 +49,22 @@ Analog & digital synthesizers are both electronic instruments that create sound,
 
 ## YouTube Videos
 
-### Why Modern Digital Synthesis Is More Analog Than Analog
+### Why Modern Digital Synthesis Is More Analog Than Analog (1 March 2024)
 {{< youtube kk-3vXOAtVo >}}
 
-### Is Analog Gear REALLY worth it?
+### Is Analog Gear REALLY worth it? (29 February 2024)
 {{< youtube 0LNZQRI0yr0 >}}
 
-### Analog vs Digital Polysynth - is there really a difference?
+### Analog vs Digital Polysynth - is there really a difference? (14 April 2023)
 {{< youtube PzyJ7AoZdfA >}}
 
-### Analog vs. Digital Synths  -  Which is Right for You?
+### Analog vs. Digital Synths  -  Which is Right for You? (12 July 2020)
 {{< youtube NrCjtVZZLTw >}}
 
-### Analog Synths vs Digital Synths Quiz
+### Analog Synths vs Digital Synths Quiz (26 February 2018)
 {{< youtube yOAKWwrTvho >}}
 
-### Comparing Analogue Vs Digital Synthesis
+### Comparing Analogue Vs Digital Synthesis (17 December 2015)
 {{< youtube BKUfytjA5C4 >}}
 
 ## Related Reading

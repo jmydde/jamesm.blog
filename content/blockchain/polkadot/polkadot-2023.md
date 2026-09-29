@@ -18,12 +18,12 @@ A comprehensive collection of major Polkadot developments, announcements, and in
 **Polkadot 2023 Roundup** (December 24)
 - [Read on Medium](https://medium.com/polkadot-network/polkadot-2023-roundup-7fe77d88f022)
 
-**Polkadot Community Call | December 2023** (December 11)
+**Polkadot Community Call | December 2023** (11 December 2023)
 {{< youtube tbewfQM_19c >}}
 
 ## November 2023
 
-**Is Polkadot’s OpenGov Democratic?**  -  Gavin Wood (November 6)
+**Is Polkadot’s OpenGov Democratic?** (6 November 2023) - Gavin Wood
 {{< youtube RvbsSq1a_8g >}}
 
 ## October 2023
@@ -45,7 +45,7 @@ A comprehensive collection of major Polkadot developments, announcements, and in
 **Elevating Polkadot’s Performance and Scale with Asynchronous Backing** (September 20)
 - [Read on Polkadot Blog](https://polkadot.network/blog/elevating-polkadots-performance-and-scale-with-asynchronous-backing)
 
-**Polkadot Founder Gavin Wood on: Change, Web3, & the World Economy**
+**Polkadot Founder Gavin Wood on: Change, Web3, & the World Economy** (15 August 2023)
 {{< youtube Yw3mQNJ5UJQ >}}
 
 **Polkadot Consensus Part 1: Enhanced Economic Security via NPoS** (September 14)
@@ -64,12 +64,12 @@ A comprehensive collection of major Polkadot developments, announcements, and in
 **Polkadot 1.0: Pioneering Blockspace Composability and Scalability** (July 19)
 - [Read on Polkadot Blog](https://polkadot.network/blog/polkadot-1-0-pioneering-blockspace-composability-and-scalability)
 
-**Introduction to Smoldot & Light Clients** (July 14)
+**Introduction to Smoldot & Light Clients** (14 July 2023)
 {{< youtube YjsLpfM6a7E >}}
 
 ## June 2023
 
-**Gavin Wood Sees Polkadot as a Global Supercomputer**  -  Polkadot Decoded 2023 (June 30)
+**Gavin Wood Sees Polkadot as a Global Supercomputer** (30 June 2023) - Polkadot Decoded 2023
 {{< youtube GIB1WeVuJD0 >}}
 
 ## Related Reading

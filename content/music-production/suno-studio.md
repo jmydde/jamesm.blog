@@ -39,7 +39,7 @@ Suno Studio is available through Suno's $30/month Premier plan. That puts it in 
 
 ## YouTube Videos
 
-### [2025-09-25] Suno Studio Tutorial: A Complete Beginner's Guide (2025)
+### Suno Studio Tutorial: A Complete Beginner's Guide (2025) (25 September 2025)
 A walkthrough of Suno Studio covering track building, editing, mixing, and the workflow for turning a prompt into a finished arrangement. Useful as a first look if you want to see the interface in motion before signing up.
 {{< youtube qR4BefPvSiI >}}
 

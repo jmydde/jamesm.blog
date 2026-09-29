@@ -31,10 +31,10 @@ Full details can be found [here](https://www.arturia.com/products/software-effec
 ### FX Collection 4 | Find your sonic perfection | ARTURIA
 {{< youtube oMFvznb9xI >}}
 
-### Exploring Arturia FX Collection 4
+### Exploring Arturia FX Collection 4 (2 June 2023)
 {{< youtube fP6EVlvjKPE >}}
 
-### The Arturia Fx Collection 4 is a Must-have ! Now with Rotary fx plugin
+### The Arturia Fx Collection 4 is a Must-have ! Now with Rotary fx plugin (1 June 2023)
 {{< youtube Y6Fo4xWN_W8 >}}
 
 ## Related Reading

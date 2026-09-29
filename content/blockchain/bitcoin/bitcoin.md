@@ -30,7 +30,7 @@ A comprehensive introduction to Bitcoin fundamentals and theory.
 
 {{< youtube v5xFIKB99MA >}}
 
-### Introduction to Bitcoin: What is Bitcoin and Why Does It Matter? (September 2016)
+### Introduction to Bitcoin: What is Bitcoin and Why Does It Matter? (24 September 2016)
 
 The foundational explanation of Bitcoin, covering its history, purpose, and significance in the financial landscape.
 - [Full Playlist](https://www.youtube.com/watch?v=l1si5ZWLgy0&list=PLPQwGV1aLnTuN6kdNWlElfr2tzigB9Nnj)

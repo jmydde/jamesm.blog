@@ -45,46 +45,46 @@ I write this as an interested hobbyist rather than a researcher, so take what fo
 
 ## Interviews
 
-### [2026-06-04] AI Pioneer Geoffrey Hinton: AI Is Conscious, Superintelligence is Coming, And We Should Be Worried
+### AI Pioneer Geoffrey Hinton: AI Is Conscious, Superintelligence is Coming, And We Should Be Worried (4 June 2026)
 {{< youtube p7t1Q_p2gZs >}}
 
-### [2026-01-29] 'Godfather of AI' predicts ALL jobs will be in 'wiped out' by AI
+### 'Godfather of AI' predicts ALL jobs will be in 'wiped out' by AI (28 January 2026)
 {{< youtube eddSGoSYnSU >}}
 
-### [2025-10-09] AI: What Could Go Wrong? with Geoffrey Hinton
+### AI: What Could Go Wrong? with Geoffrey Hinton (9 October 2025)
 {{< youtube jrK3PsD3APk >}}
 
-### [2025-04-26] Full interview: "Godfather of AI" shares prediction for future of AI, issues warnings
+### Full interview: "Godfather of AI" shares prediction for future of AI, issues warnings (26 April 2025)
 {{< youtube qyH3NxFz3Aw >}}
 
-### [2025-01-30] ‘Godfather of AI’ predicts it will take over the world
+### ‘Godfather of AI’ predicts it will take over the world (30 January 2025)
 {{< youtube vxkBE23zDmQ >}}
 
 ### [2024-06-15] Discussion on AI safety and future risks
 [View on Twitter/X](https://x.com/elonmusk/status/1801976488251814048)
 
-### [2024-06-07] Keynote interview with Geoffrey Hinton (remote) and Nicholas Thompson (in-person)
+### Keynote interview with Geoffrey Hinton (remote) and Nicholas Thompson (in-person) (7 June 2024)
 {{< youtube dNjClDI6zT4 >}}
 
-### [2024-05-20] Geoffrey Hinton | On working with Ilya, choosing problems, and the power of intuition
+### Geoffrey Hinton | On working with Ilya, choosing problems, and the power of intuition (20 May 2024)
 A long-form conversation in which Hinton reflects on his research instincts, how he picks problems, and his years working with Ilya Sutskever - one of his most consequential students.
 
 {{< youtube n4IQOBka8bc >}}
 
-### [2024-02-29] Prof. Geoffrey Hinton - "Will digital intelligence replace biological intelligence?" Romanes Lecture
+### Prof. Geoffrey Hinton - "Will digital intelligence replace biological intelligence?" Romanes Lecture (29 February 2024)
 Hinton's Romanes Lecture at the University of Oxford, one of his more structured public statements of the case that digital intelligence may end up surpassing - and perhaps superseding - the biological kind.
 
 {{< youtube N1TEjTeQeg0 >}}
 
-### [2023-10-09] "Godfather of AI" Geoffrey Hinton: The 60 Minutes Interview
+### "Godfather of AI" Geoffrey Hinton: The 60 Minutes Interview (9 October 2023)
 Hinton's widely watched CBS 60 Minutes interview with Scott Pelley, recorded not long after he left Google, and for many viewers the first time they heard him lay out his concerns in plain terms.
 
 {{< youtube qrvK_KuIeJk >}}
 
-### [2023-06-22] The Godfather in Conversation: Why Geoffrey Hinton is worried about the future of AI
+### The Godfather in Conversation: Why Geoffrey Hinton is worried about the future of AI (22 June 2023)
 {{< youtube -9cW4Gcn5WY >}}
 
-### [2023-03-25] "Godfather of artificial intelligence" talks impact and potential of AI
+### "Godfather of artificial intelligence" talks impact and potential of AI (25 March 2023)
 {{< youtube qpoRO378qRY >}}
 
 _Note: This page will be expanded with additional Geoffrey Hinton interviews as they become available._

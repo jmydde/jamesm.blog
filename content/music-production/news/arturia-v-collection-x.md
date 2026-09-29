@@ -69,7 +69,7 @@ V Collection X now includes
 - Wurli V
 - Wurli V 3
 
-## Review
+## Review (12 December 2023)
 {{< youtube 9aB3kXS-KZU >}}
 
 ## Price

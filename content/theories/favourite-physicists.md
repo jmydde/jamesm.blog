@@ -15,7 +15,7 @@ cover:
 
 Cosmologist and physicist known for his work on the mathematical universe hypothesis and multiverse theory. His research bridges the gap between quantum mechanics and cosmology, exploring the deepest questions about the nature of reality.
 
-### The Case for Halting AI Development
+### The Case for Halting AI Development (13 April 2023)
 {{< youtube VcVfceTsD0A >}}
 
 Max Tegmark joins Lex Fridman to discuss the urgent need to pause advanced AI development, exploring the existential risks of artificial intelligence and what safeguards humanity needs as we approach transformative technologies.
@@ -26,7 +26,7 @@ Max Tegmark joins Lex Fridman to discuss the urgent need to pause advanced AI de
 
 Theoretical physicist and futurist specializing in string theory and theoretical physics. Known for making complex physics concepts accessible to the general public through engaging presentations and popular science writing.
 
-### Joe Rogan Experience #1828
+### Joe Rogan Experience #1828 (27 June 2024)
 {{< youtube mNPM0yUiyNs >}}
 
 Michio Kaku joins Joe Rogan to discuss the future of physics, artificial intelligence, space exploration, and humanity's potential as a type II or type III civilization capable of harnessing the energy of stars and galaxies.
@@ -37,7 +37,7 @@ Michio Kaku joins Joe Rogan to discuss the future of physics, artificial intelli
 
 Astrophysicist and science communicator who has become one of the most recognizable scientists today. Director of the Hayden Planetarium, he excels at explaining astrophysics and promoting scientific literacy.
 
-### Joe Rogan Experience #1658
+### Joe Rogan Experience #1658 (27 June 2024)
 {{< youtube qiP1E6iAVS8 >}}
 
 Neil deGrasse Tyson discusses astrophysics, cosmology, black holes, the search for extraterrestrial life, and humanity's place in the universe with characteristic passion and clarity.
@@ -48,12 +48,12 @@ Neil deGrasse Tyson discusses astrophysics, cosmology, black holes, the search f
 
 Legendary theoretical physicist who made fundamental contributions to quantum mechanics and quantum electrodynamics, earning him the Nobel Prize in Physics. Known for his curiosity-driven approach and ability to explain physics with clarity and humor.
 
-### Fun to Imagine
+### Fun to Imagine (24 August 2020)
 {{< youtube nYg6jzotiAc >}}
 
 A collection of Richard Feynman's delightful explorations of everyday phenomena, demonstrating his characteristic curiosity and ability to find profound beauty in simple observations about how the world works.
 
-### Cargo Cult Science
+### Cargo Cult Science (16 April 2016)
 {{< youtube tWr39Q9vBgo >}}
 
 Feynman's witty and penetrating critique of pseudoscience and the importance of intellectual honesty in scientific practice. Essential viewing for anyone interested in critical thinking and the scientific method.

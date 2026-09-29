@@ -26,7 +26,7 @@ That single fact captures what makes the film unusual. It is, on the surface, a 
 
 This post walks through the central physics ideas in the film - the wormhole, Gargantua, gravitational time dilation, the Penrose slingshot, and the Tesseract - and looks at where the science was honoured, where it was bent, and what the philosophical implications are when a blockbuster decides to take physics seriously.
 
-### Interstellar Official Trailer
+### Interstellar Official Trailer (12 November 2018)
 {{< youtube AM4w7zYKRIw >}}
 
 ### Infographic
@@ -62,7 +62,7 @@ For visualisation, the team at Double Negative built a three-parameter wormhole 
 
 This is the first of many places where the film makes a deliberate, well-understood compromise rather than papering over physics with hand-waving.
 
-### Will Wormholes Allow Fast Interstellar Travel? - PBS Space Time
+### Will Wormholes Allow Fast Interstellar Travel? - PBS Space Time (22 April 2020)
 {{< youtube ldVDM-v5uz0 >}}
 
 ---
@@ -91,7 +91,7 @@ What came out of that renderer was striking enough to surprise even Thorne. The 
 
 The film does omit two effects that would be present in reality. A real spinning Kerr black hole would show a strong asymmetry due to relativistic Doppler beaming - the side of the disk rotating towards the viewer would be much brighter than the receding side. The film smooths this out. Gravitational frequency shifts also affect the colour of the disk. These were toned down to keep the image readable to a general audience, but the geometric structure of the image is faithful to the physics.
 
-### How to Understand the Black Hole Image - Veritasium
+### How to Understand the Black Hole Image - Veritasium (9 April 2019)
 {{< youtube zUyH3XhpLTo >}}
 
 ---
@@ -178,7 +178,7 @@ Several principles seem to have guided the trade-offs.
 
 **Hard physics was kept intact where possible.** Gravitational time dilation is the engine of the plot. The Penrose slingshot, the Kerr geometry, the rendering of the black hole - these are real general relativity shown to a popcorn-eating audience without dilution.
 
-### The Science of Interstellar - Kip Thorne lecture
+### The Science of Interstellar - Kip Thorne lecture (18 December 2015)
 {{< youtube lM-N0tbwBB4 >}}
 
 ---
@@ -195,7 +195,7 @@ The film's premise is that the universe gives us general relativity, and general
 
 The argument is essentially this: physics is not the enemy of human meaning. It is the substrate on which human meaning can be built, including the meaning carried by a father trying to save his daughter from across a curved spacetime that should make such a thing impossible.
 
-### Kip Thorne - The Physics of the Cult Movie Interstellar - Stanford
+### Kip Thorne - The Physics of the Cult Movie Interstellar - Stanford (15 March 2023)
 {{< youtube vNFBpKm1O9Y >}}
 
 ---

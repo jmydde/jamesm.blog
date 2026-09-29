@@ -9,13 +9,13 @@ cover:
   alt: Top 10 VST Plugins of 2025
 ---
 
-## My Top 10 Plugins of 2025!
+## My Top 10 Plugins of 2025! (29 November 2025)
 {{< youtube -A2iJVVcAYs >}}
 
-## 30 BEST VST Plugins For Music Production In 2025 (Tier List) | FL Studio, Ableton Live, Logic Pro X
+## 30 BEST VST Plugins For Music Production In 2025 (Tier List) | FL Studio, Ableton Live, Logic Pro X (27 November 2025)
 {{< youtube gSr3PCF0TfU >}}
 
-## These Are The Only Plugins Worth Buying in 2026
+## These Are The Only Plugins Worth Buying in 2026 (25 November 2025)
 {{< youtube 2IjGu5urC4U >}}
 
 ## Related Reading

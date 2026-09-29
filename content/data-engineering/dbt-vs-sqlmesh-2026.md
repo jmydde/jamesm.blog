@@ -114,19 +114,19 @@ For teams making decisions today, the practical guidance is to evaluate honestly
 
 ## Further Watching
 
-### Data Talks on the Rocks 8 - Part 1 - Tobiko Data
+### Data Talks on the Rocks 8 - Part 1 - Tobiko Data (19 May 2025)
 {{< youtube "Lwp2GGgag3I" >}}
 
-### Toby Mao - SQLMesh, Simplifying Data Transformations, and more
+### Toby Mao - SQLMesh, Simplifying Data Transformations, and more (12 January 2025)
 {{< youtube "Fk3ey2SQJcQ" >}}
 
-### How dbt Created Analytics Engineering
+### How dbt Created Analytics Engineering (17 November 2023)
 {{< youtube "iLAWepKYOMI" >}}
 
-### Embracing the AI revolution with dbt Cloud
+### Embracing the AI revolution with dbt Cloud (24 May 2024)
 {{< youtube "BV6hMkKKiT8" >}}
 
-### SQLMesh | Streamlining Python & SQL Transformations with Tobias Mao
+### SQLMesh | Streamlining Python & SQL Transformations with Tobias Mao (11 December 2023)
 {{< youtube "bs2aIqxV3l4" >}}
 
 ## Related Reading

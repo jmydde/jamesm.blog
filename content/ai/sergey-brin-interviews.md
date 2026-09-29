@@ -47,22 +47,22 @@ I write this as an interested hobbyist rather than anyone with a seat at the tab
 
 ## Interviews
 
-### [2026-06] Sergey Brin: Where Frontier AI Is Headed - Unscripted Q&A @ AGI House x Google DeepMind
+### Sergey Brin: Where Frontier AI Is Headed - Unscripted Q&A @ AGI House x Google DeepMind (3 June 2026)
 An unscripted fireside Q&A opening Google DeepMind's Build Day at AGI House. Brin lays out his "convergence" view of AGI - capabilities folding into a single multimodal model family - and uses AlphaGo and the game of Go to argue that strong AI tends to lift human performance rather than flatten it.
 
 {{< youtube gsv5o8ANdDo >}}
 
-### [2025-05] Sergey Brin on the Future of AI & Gemini
+### Sergey Brin on the Future of AI & Gemini (23 May 2025)
 A Google I/O 2025 conversation reflecting on a year of Gemini progress, what it took internally to ship at the current pace, and where the model line is heading next. Published on the Google for Developers channel.
 
 {{< youtube o7U4DV9Fkc0 >}}
 
-### [2025-05] Sergey Brin on Google's Shift Back to Startup Mode and AI
+### Sergey Brin on Google's Shift Back to Startup Mode and AI (23 May 2025)
 Brin in conversation with Logan Kilpatrick (via PodiumVC), discussing how Google has restructured internally to move faster, the culture change required to compete with smaller labs, and his read on the current model landscape.
 
 {{< youtube FGK1UhqsTSs >}}
 
-### [2025-05] Sergey Brin, Google Co-Founder | All-In Live from Miami
+### Sergey Brin, Google Co-Founder | All-In Live from Miami (20 May 2025)
 Live appearance on the [All-In podcast](https://www.allinpodcast.co/), covering his return to Google, AI's true superpower, robotics form factors, foundational models and open-source, and the future of human-computer interaction.
 
 **Timestamps:**
@@ -76,17 +76,17 @@ Live appearance on the [All-In podcast](https://www.allinpodcast.co/), covering 
 
 {{< youtube 8g7a0IWKDRE >}}
 
-### [2025-05] Why AI is more important than the Internet - Interview with Sergey Brin
+### Why AI is more important than the Internet - Interview with Sergey Brin (23 May 2025)
 A shorter-form interview where Brin makes the case that AI is a bigger inflection than the web itself, with reference to how Google's own product surface is being rewritten around generative interfaces.
 
 {{< youtube 4N9MCa4hCsA >}}
 
-### [2024-09] Sergey Brin | All-In Summit 2024
+### Sergey Brin | All-In Summit 2024 (10 September 2024)
 Brin's first major public appearance after returning to hands-on work at Google. Covers what he is actually building, why he came back, and his early read on where Gemini sits in the frontier model field.
 
 {{< youtube XzK9bx3CSPE >}}
 
-### [2024] Sergey Brin: Lessons from Google Glass + Why Every Computer Scientist Should be Working on AI
+### Sergey Brin: Lessons from Google Glass + Why Every Computer Scientist Should be Working on AI (23 May 2025)
 Long-form conversation with [Alex Kantrowitz](https://www.bigtechnology.com/) covering what Google Glass got wrong (and why it might be right now), and Brin's argument that every computer scientist should be working on AI given the stakes.
 
 {{< youtube rtd_1gxMTZM >}}

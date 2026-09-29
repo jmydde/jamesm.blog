@@ -29,10 +29,10 @@ Key design properties:
 
 ## YouTube
 
-### [2024-04-21] How 1X Will Beat Tesla!
+### How 1X Will Beat Tesla! (21 April 2024)
 {{< youtube zqrg7brCx-s >}}
 
-### [2024-03-19] End-to-End Autonomy | March 2024 Update | 1X Studio
+### End-to-End Autonomy | March 2024 Update | 1X Studio (19 March 2024)
 {{< youtube XpBWxLg-3bI >}}
 
 ## Related Reading

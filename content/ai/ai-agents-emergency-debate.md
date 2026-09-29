@@ -29,7 +29,7 @@ This debate explores urgent questions about AI's impact on employment and the wo
 
 ## Video
 
-### AI AGENTS EMERGENCY DEBATE: These Jobs Won't Exist In 24 Months!
+### AI AGENTS EMERGENCY DEBATE: These Jobs Won't Exist In 24 Months! (12 May 2025)
 
 {{< youtube JMYQmGfTltY >}}
 

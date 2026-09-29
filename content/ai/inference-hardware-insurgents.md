@@ -91,19 +91,19 @@ For people building with these tools today, the practical implication is the bor
 
 ## Further Watching
 
-### 4,000,000,000,000 Transistors, One Giant Chip (Cerebras WSE-3)
+### 4,000,000,000,000 Transistors, One Giant Chip (Cerebras WSE-3) (13 March 2024)
 {{< youtube "f4Dly8I8lMY" >}}
 
-### Jonathan Ross, Founder & CEO @ Groq: NVIDIA vs Groq - The Future of Training vs Inference
+### Jonathan Ross, Founder & CEO @ Groq: NVIDIA vs Groq - The Future of Training vs Inference (17 February 2025)
 {{< youtube "xBMRL_7msjY" >}}
 
-### Groq Founder, Jonathan Ross: OpenAI & Anthropic Will Build Their Own Chips & Will NVIDIA Hit $10TRN
+### Groq Founder, Jonathan Ross: OpenAI & Anthropic Will Build Their Own Chips & Will NVIDIA Hit $10TRN (29 September 2025)
 {{< youtube "VfIK5LFGnlk" >}}
 
-### Rodrigo Liang on The Information: AI Chips, Power, and Scaling Beyond GPUs
+### Rodrigo Liang on The Information: AI Chips, Power, and Scaling Beyond GPUs (20 August 2025)
 {{< youtube "R5--sxXraHc" >}}
 
-### Rodrigo Liang, SambaNova | theCUBE + NYSE Wired: AI Factories - Data Centers of the Future
+### Rodrigo Liang, SambaNova | theCUBE + NYSE Wired: AI Factories - Data Centers of the Future (24 February 2026)
 {{< youtube "vt25kgPNkYo" >}}
 
 ## Related Reading

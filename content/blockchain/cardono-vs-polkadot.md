@@ -17,7 +17,7 @@ In this episode of Lex Fridman's podcast, Charles Hoskinson discusses the simila
 
 Charles Hoskinson is the founder of Cardano, a co-founder of Ethereum, a mathematician, and entrepreneur passionate about building sustainable blockchain infrastructure.
 
-## Discussion
+## Discussion (17 June 2021)
 
 {{< youtube hM10jjMvpSg >}}
 

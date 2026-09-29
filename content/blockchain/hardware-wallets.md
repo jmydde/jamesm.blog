@@ -55,10 +55,10 @@ Hardware wallets are physical devices designed to securely store cryptocurrency 
 
 ## Educational Resources
 
-**Top 5 BEST Hardware Wallets: Which Are The SAFEST?!** (June 2023) - Comprehensive comparison of leading hardware wallet options and security features
+**Top 5 BEST Hardware Wallets: Which Are The SAFEST?!** (29 June 2022) - Comprehensive comparison of leading hardware wallet options and security features
 {{< youtube 4q8nK4XxmkA >}}
 
-**How I hacked a hardware crypto wallet and recovered $2 million** (January 2022) - Security researcher demonstrates vulnerabilities and exploits, important lesson in secure practices
+**How I hacked a hardware crypto wallet and recovered $2 million** (24 January 2022) - Security researcher demonstrates vulnerabilities and exploits, important lesson in secure practices
 {{< youtube dT9y-KQbqi4 >}}
 
 ## Key Takeaways

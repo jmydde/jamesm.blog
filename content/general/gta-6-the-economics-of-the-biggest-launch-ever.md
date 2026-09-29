@@ -73,11 +73,11 @@ For now, though, I'll do the same thing as everyone else: keep an eye on Novembe
 
 ## Official Trailers
 
-### Grand Theft Auto VI Trailer 1
+### Grand Theft Auto VI Trailer 1 (4 December 2023)
 
 {{< youtube QdBZY2fkU-0 >}}
 
-### Grand Theft Auto VI Trailer 2
+### Grand Theft Auto VI Trailer 2 (6 May 2025)
 
 {{< youtube VQRLujxTm3c >}}
 

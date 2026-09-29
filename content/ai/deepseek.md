@@ -34,10 +34,10 @@ DeepSeek had already shipped its V3 base model in late December 2024, but it was
 
 ## YouTube
 
-### [2025-01-27] OpenAI is Done, China Won (Deepseek Explained)
+### OpenAI is Done, China Won (Deepseek Explained) (27 January 2025)
 {{< youtube tR2azlV7RlQ >}}
 
-### [2025-01-26] I Did 5 DeepSeek-R1 Experiments | Better Than OpenAI o1?
+### I Did 5 DeepSeek-R1 Experiments | Better Than OpenAI o1? (26 January 2025)
 {{< youtube liESRDW7RrE >}}
 
 ## Related Reading

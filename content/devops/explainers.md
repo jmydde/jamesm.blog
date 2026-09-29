@@ -55,7 +55,7 @@ Git's popularity comes down to three things: it is distributed (every clone is a
 
 ## Linux
 
-### How the Linux boot process works
+### How the Linux boot process works (12 December 2023)
 
 BIOS or UEFI hands control to the bootloader (usually GRUB), which loads the kernel and an initial RAM disk. The kernel mounts the root filesystem and launches PID 1 (systemd on most modern distributions), which then starts every other service according to its dependency graph.
 

@@ -102,19 +102,19 @@ For people building with data engineering tools today, the practical guidance is
 
 ## Further Watching
 
-### Future of DataFrames and Data Systems with Wes McKinney
+### Future of DataFrames and Data Systems with Wes McKinney (20 June 2024)
 {{< youtube "vY3QfLCK7ms" >}}
 
-### DC_THURS: Apache Arrow w/ Wes McKinney
+### DC_THURS: Apache Arrow w/ Wes McKinney (10 September 2020)
 {{< youtube "G2ljqxRxqW0" >}}
 
-### Apache Arrow: High-Performance Columnar Data Framework
+### Apache Arrow: High-Performance Columnar Data Framework (7 December 2021)
 {{< youtube "YhF8YR0OEFk" >}}
 
-### "Apache Arrow and the Future of Data Frames" with Wes McKinney
+### "Apache Arrow and the Future of Data Frames" with Wes McKinney (15 July 2020)
 {{< youtube "fyj4FyH3XdU" >}}
 
-### Wes McKinney - Apache Arrow: Present & Future
+### Wes McKinney - Apache Arrow: Present & Future (16 September 2020)
 {{< youtube "SBy1WtA3b6o" >}}
 
 ## Related Reading

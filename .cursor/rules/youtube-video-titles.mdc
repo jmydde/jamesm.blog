@@ -1,0 +1,21 @@
+---
+description: YouTube video titles include the video's upload date in brackets
+globs: content/**/*.md
+alwaysApply: false
+---
+
+# YouTube video titles
+
+The title that introduces a YouTube embed must include that video's upload date in brackets at the end of the title.
+
+Use the day, the full month name, and the year. No ordinals. The date is the video's upload date, not the post date.
+
+```
+❌ ### Extended interview: Dario Amodei (CBS Sunday Morning)
+✅ ### Extended interview: Dario Amodei (CBS Sunday Morning) (13 September 2026)
+
+❌ **How Secure is 256-bit Security?**
+✅ **How Secure is 256-bit Security?** (18 March 2021)
+```
+
+A month and year already in the title is not enough. Use the full date. Do not invent a date. If the upload date cannot be checked, leave the title unchanged.

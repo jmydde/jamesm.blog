@@ -15,7 +15,7 @@ The conversation is worth watching not because it settles the question, but beca
 
 ## Video
 
-### Will AI kill coding jobs? Claude Code's creator reacts to 3 charts
+### Will AI kill coding jobs? Claude Code's creator reacts to 3 charts (20 May 2026)
 
 {{< youtube KRJzonECIY4 >}}
 

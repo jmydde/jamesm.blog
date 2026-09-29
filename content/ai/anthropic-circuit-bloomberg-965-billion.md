@@ -19,7 +19,7 @@ cover:
 
 ---
 
-### The Bloomberg Documentary: Emily Chang Inside Anthropic
+### The Bloomberg Documentary: Emily Chang Inside Anthropic (10 June 2026)
 
 {{< youtube "v1wZwxY3CMg" >}}
 
@@ -89,15 +89,15 @@ Dario said he is "deeply uncomfortable with these decisions being made by a few 
 
 ## Videos
 
-### Dario Amodei on AI's Power and Risk - Davos 2026
+### Dario Amodei on AI's Power and Risk - Davos 2026 (20 January 2026)
 
 {{< youtube "K7F6ohcBJus" >}}
 
-### Dario Amodei Testifies to Congress
+### Dario Amodei Testifies to Congress (27 January 2026)
 
 {{< youtube "zeduU9BWHD0" >}}
 
-### 60 Minutes: Dario and Daniela Amodei on AI's Promise and Risk
+### 60 Minutes: Dario and Daniela Amodei on AI's Promise and Risk (14 November 2025)
 
 {{< youtube "7XpS_T8-YEg" >}}
 

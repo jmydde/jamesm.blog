@@ -110,25 +110,25 @@ For a working engineer, the practical implication is the same regardless of whic
 
 ## Further Watching
 
-### The AI Expert Who Thinks We've Already Lost - Dr Roman Yampolskiy
+### The AI Expert Who Thinks We've Already Lost - Dr Roman Yampolskiy (15 April 2026)
 {{< youtube "3I60uZEqXr0" >}}
 
-### The Man Who Proved We Can't Control AI (And What That Means for Humanity) | Roman Yampolskiy
+### The Man Who Proved We Can't Control AI (And What That Means for Humanity) | Roman Yampolskiy (21 April 2026)
 {{< youtube "U9xygNoXnZQ" >}}
 
-### The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! - Dr. Roman Yampolskiy
+### The AI Safety Expert: These Are The Only 5 Jobs That Will Remain In 2030! - Dr. Roman Yampolskiy (4 September 2025)
 {{< youtube "UclrVWafRAI" >}}
 
-### Is AI Already Conscious? | Roman Yampolskiy
+### Is AI Already Conscious? | Roman Yampolskiy (2 May 2026)
 {{< youtube "LNWWpq3vfSI" >}}
 
-### Joe Rogan Experience #2345 - Roman Yampolskiy
+### Joe Rogan Experience #2345 - Roman Yampolskiy (3 July 2025)
 {{< youtube "j2i9D24KQ5k" >}}
 
-### Roman Yampolskiy: Dangers of Superintelligent AI | Lex Fridman Podcast #431
+### Roman Yampolskiy: Dangers of Superintelligent AI | Lex Fridman Podcast #431 (2 June 2024)
 {{< youtube "NNr6gPelJ3E" >}}
 
-### How Dangerous Is Artificial Intelligence? | Roman Yampolskiy
+### How Dangerous Is Artificial Intelligence? | Roman Yampolskiy (31 March 2026)
 {{< youtube "NvDdSO-H7So" >}}
 
 ## Related Reading

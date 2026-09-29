@@ -22,12 +22,12 @@ The fascinating part? Some numbers are so large that it's physically impossible 
 
 These are numbers humans have actually named and can describe, though that doesn't mean we can truly grasp them.
 
-### Googol and Googolplex
+### Googol and Googolplex (17 February 2012)
 {{< youtube 8GEebx72-qs >}}
 
 A **Googol** is 10^100 - a 1 followed by 100 zeros. That's already larger than the number of atoms in the observable universe. But a **Googolplex** is 10^googol - a 1 followed by a googol zeros. If you tried to write out a Googolplex, there aren't enough atoms in the universe to store the digits.
 
-### Graham's Number
+### Graham's Number (4 April 2012)
 {{< youtube XTeJ64KD5cg >}}
 
 Graham's Number emerged from a problem in Ramsey theory (a branch of combinatorics). It's so incomprehensibly large that even describing it requires special mathematical notation. The number is famous partly because it held the record for the largest number ever used in a mathematical proof for decades. To get a sense of scale: the number of digits in Graham's Number is itself far larger than a Googolplex.
@@ -36,12 +36,12 @@ Graham's Number emerged from a problem in Ramsey theory (a branch of combinatori
 
 Infinity isn't just "really big" - it's a fundamentally different concept. Mathematicians discovered that there are different *sizes* of infinity, an idea that shocked the mathematical community when first formalized.
 
-### A Hierarchy of Infinities
+### A Hierarchy of Infinities (8 December 2016)
 {{< youtube i7c2qz7sO0I >}}
 
 A deep dive into transfinite numbers: aleph-null, aleph-one, and the mathematical structures that describe infinities within infinities. Not all infinities are equal. The set of natural numbers is countably infinite, while the set of real numbers is uncountably infinite. There are infinitely many different sizes of infinity, each larger than the last. This is where mathematics moves beyond human intuition entirely.
 
-### Infinity Is Bigger Than You Think
+### Infinity Is Bigger Than You Think (6 July 2012)
 {{< youtube elvOZm0d4H0 >}}
 
 This Numberphile classic explores what infinity actually means and why our intuitions completely fail us. The hotel problem, Cantor's diagonal argument, and the sheer weirdness of infinities bigger than infinity - all presented with characteristic clarity.
@@ -50,27 +50,29 @@ This Numberphile classic explores what infinity actually means and why our intui
 
 Some numbers are so large that they can only be described recursively or through meta-levels of operation. You can't name them - you can only describe the rule that generates them.
 
-### TREE(3)
+### TREE(3) (19 October 2017)
 {{< youtube 3P6DWAwwViU >}}
+
+### TREE(3) (extra footage) - Numberphile (19 October 2017)
 {{< youtube IihcNa9YAPk >}}
 
 TREE(3) is one of the most extreme numbers in mathematics. It comes from graph theory and the concept of tree sequences. The Numberphile videos on TREE(3) are legendary because even mathematicians struggle to convey its magnitude. TREE(3) is incomparably larger than Graham's Number - so much larger that Graham's Number is practically negligible by comparison.
 
 ## The Infinite Hotel Paradox
 
-### How An Infinite Hotel Ran Out Of Room
+### How An Infinite Hotel Ran Out Of Room (10 May 2021)
 {{< youtube OxGsU8oIWjY >}}
 
 A creative exploration of infinity through the classic "infinite hotel" thought experiment. If a hotel has infinite rooms and all are occupied, can it accommodate new guests? The answer is yes (it's countably infinite), but what if infinitely many buses arrive with infinitely many passengers each? This video plays with these paradoxes to build intuition about different scales of infinity.
 
 ## Modern Surveys and Comparisons
 
-### Ultimate Large Numbers List 2024
+### Ultimate Large Numbers List 2024 (13 November 2023)
 {{< youtube 5hfkzo_ojGE >}}
 
 A comprehensive 2024 survey of the largest numbers discussed in mathematics and theoretical computer science. This is the most up-to-date entry point if you want a broad overview of the landscape of large numbers, from the famous ones to the truly exotic.
 
-### Neil deGrasse Tyson Explains Big Numbers
+### Neil deGrasse Tyson Explains Big Numbers (12 May 2020)
 {{< youtube YPenDUY68rM >}}
 
 A more accessible introduction to why we care about large numbers, how they appear in cosmology and astrophysics, and how to think about scale from a scientist's perspective.

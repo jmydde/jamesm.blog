@@ -131,22 +131,22 @@ If I try to say something definite: I think Hoffman has the most serious attempt
 
 ## Further Watching
 
-### What's Outside The Simulation? w/ Donald Hoffman | Impact Theory
+### What's Outside The Simulation? w/ Donald Hoffman | Impact Theory (14 May 2026)
 {{< youtube "EykaPqzzdQg" >}}
 
-### The Greatest Discovery About Reality & the Consciousness Behind It | Donald Hoffman
+### The Greatest Discovery About Reality & the Consciousness Behind It | Donald Hoffman (14 October 2025)
 {{< youtube "xaeafKPfs1M" >}}
 
-### Fusions of Consciousness | Donald Hoffman Technical Interview
+### Fusions of Consciousness | Donald Hoffman Technical Interview (21 March 2023)
 {{< youtube "cSk5l1BOvts" >}}
 
-### Donald Hoffman: Consciousness May Be Fundamental to Physics
+### Donald Hoffman: Consciousness May Be Fundamental to Physics (18 February 2021)
 {{< youtube "12PZQrDbjlg" >}}
 
-### Donald Hoffman - What is Consciousness?
+### Donald Hoffman - What is Consciousness? (22 November 2020)
 {{< youtube "ynTqCFBhRmw" >}}
 
-### Do we see reality as it is? | Donald Hoffman | TED
+### Do we see reality as it is? | Donald Hoffman | TED (11 June 2015)
 {{< youtube "oYp5XuGYqqY" >}}
 
 ## Related Reading

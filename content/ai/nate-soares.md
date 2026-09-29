@@ -127,19 +127,19 @@ A lot of AI commentary is fatalism dressed up as seriousness. Soares's whole pro
 
 ## Further Watching
 
-### Tucker Carlson Show, September 2026
+### Tucker Carlson Show, September 2026 (11 September 2026)
 {{< youtube "98syxABbUPk" >}}
 
-### Long-form interview
+### Long-form interview (18 April 2026)
 {{< youtube "Yl5DWYNDxpg" >}}
 
-### Soares and Yudkowsky together
+### Soares and Yudkowsky together (7 November 2025)
 {{< youtube "O4XXkO3uo8c" >}}
 
-### Robinson's Podcast
+### Robinson's Podcast (19 April 2026)
 {{< youtube "8Qjt5ZMrRUM" >}}
 
-### Diary of a CEO, alongside Roman Yampolskiy
+### Diary of a CEO, alongside Roman Yampolskiy (17 September 2026)
 {{< youtube "7a6BfbZiDV4" >}}
 
 Also: [Great Simplification](https://www.youtube.com/watch?v=0tjOzQne1LY), [Semafor Tech](https://www.youtube.com/watch?v=WdXYQbT6ueo), [CBS News](https://www.youtube.com/watch?v=mWscaJdDxEU).

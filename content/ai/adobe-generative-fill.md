@@ -23,10 +23,10 @@ The same update also added adjustment presets, a new contextual task bar, gradie
 
 ## YouTube
 
-### Adobes New AI 'FIREFLY Photoshop' Has Everyone Stunned! 
+### Adobes New AI 'FIREFLY Photoshop' Has Everyone Stunned! (24 May 2023)
 {{< youtube 4_ziOUKgfxM >}}
 
-### This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER
+### This new Photoshop tool will CHANGE PHOTOGRAPHY FOREVER (23 May 2023)
 {{< youtube 2iEQ6p9iGng >}}
 
 ## Related Reading

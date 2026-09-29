@@ -68,10 +68,10 @@ The Traktor MX2 isn’t just about mixing tracks. It’s about **performing idea
 
 ## YouTube Videos
 
-### How to use everything with the Traktor MX2 DJ controller | Native Instruments
+### How to use everything with the Traktor MX2 DJ controller | Native Instruments (4 December 2025)
 {{< youtube M-O6hizzlfw >}}
 
-### How to start DJing with Traktor MX2 | Native Instruments
+### How to start DJing with Traktor MX2 | Native Instruments (8 October 2025)
 {{< youtube jWZCB5MFYT4 >}}
 
 ## Related Reading

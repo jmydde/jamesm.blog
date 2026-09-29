@@ -14,37 +14,37 @@ A celebration of timeless television that shaped British culture and influenced 
 ## Tomorrow's World (1965 - 2003)
 [Tomorrow's World](https://en.wikipedia.org/wiki/Tomorrow%27s_World) was a groundbreaking British television series showcasing contemporary developments in science and technology. The show introduced viewers to innovations and futuristic concepts, making it one of the most influential science programs in British television history.
 
-### Tomorrow's World theme tune - 1987
+### Tomorrow's World theme tune - 1987 (7 April 2008)
 {{< youtube yc9v1vfBlHs >}}
 
 ## Fawlty Towers (1975 - 1979)
 [Fawlty Towers](https://en.wikipedia.org/wiki/Fawlty_Towers) is widely considered one of the greatest British comedies ever made. Created by and starring John Cleese, the series follows the misadventures of an irritable hotel manager at a seaside establishment. Despite its brief run of just two series, it remains iconic and has influenced countless comedians and writers.
 
-### Fawlty Towers: All episodes ranked
+### Fawlty Towers: All episodes ranked (7 October 2017)
 {{< youtube uYoX8ltQ4rk >}}
 
 ## Monkey Magic (1978 - 1980)
 [Monkey](https://en.wikipedia.org/wiki/Monkey_(TV_series)) was a Japanese-British television series based on the classic novel "Journey to the West." The show featured imaginative special effects and martial arts sequences that captivated audiences. Its theme song became instantly recognizable and the show developed a dedicated cult following.
 
-### Monkey (1978-80). Journey to the Best.
+### Monkey (1978-80). Journey to the Best. (11 August 2023)
 {{< youtube yYUcGIspzZE >}}
 
 ## Only Fools and Horses (1981 - 2003)
 [Only Fools and Horses](https://en.wikipedia.org/wiki/Only_Fools_and_Horses) is a beloved British sitcom following the misadventures of two working-class brothers trying to make it big. Created by John Sullivan, the show ran for decades and became one of the most-watched Christmas specials in British television history, with a dedicated fanbase that endures today.
 
-### BIGGEST LAUGHS COMPILATION: Only Fools Series 1 | Only Fools and Horses | BBC Comedy Greats
+### BIGGEST LAUGHS COMPILATION: Only Fools Series 1 | Only Fools and Horses | BBC Comedy Greats (27 March 2021)
 {{< youtube 8s28hrH70tg >}}
 
 ## Blackadder (1983 - 1989)
 [Blackadder](https://en.wikipedia.org/wiki/Blackadder) is a dark comedy series that reinvented itself across four historical periods, each with the same core cast playing different characters. Created by Richard Curtis and Ben Elton, the show featured sharp wit, period-perfect humor, and an unforgettable ending to its final series.
 
-### Series 2: Blackadder II
+### Series 2: Blackadder II (21 May 2019)
 {{< youtube n-Zm8H6G108 >}}
 
-### Series 3: Blackadder the Third
+### Series 3: Blackadder the Third (13 May 2020)
 {{< youtube vDVxq76-qOw >}}
 
-### Series 4: Blackadder Goes Forth
+### Series 4: Blackadder Goes Forth (21 December 2023)
 {{< youtube EgiQU__ql3M >}}
 
 ## Johnny Ball
@@ -59,31 +59,31 @@ A celebration of timeless television that shaped British culture and influenced 
 
 I don't understand why we still don't have educational programs like this on TV today ...
 
-### Think Of A Number (1984) - Johnny Ball
+### Think Of A Number (1984) - Johnny Ball (19 March 2018)
 {{< youtube UHGPJVw1u1I >}}
 
 ### Think of a Number - Light - Johnny Ball
 {{< youtube t6xEl_7t8TM >}}
 
-### Think Again titles & credits - Johnny Ball - BBC 1983
+### Think Again titles & credits - Johnny Ball - BBC 1983 (14 March 2014)
 {{< youtube akSWYlt07JE >}}
 
-### 'Think It..Do It' - On The Set Of SUPERMAN IV
+### 'Think It..Do It' - On The Set Of SUPERMAN IV (27 October 2020)
 {{< youtube aR2XDAxjExs >}}
 
-### Johnny Ball Reveals All, Full Intro
+### Johnny Ball Reveals All, Full Intro (13 January 2021)
 {{< youtube qTVjqdp4WX0 >}}
 
 ## The Day Today (1994)
 [The Day Today](https://en.wikipedia.org/wiki/The_Day_Today) was a satirical news program that parodied current affairs television. Hosted by Chris Morris, this influential comedy show pushed boundaries with its absurdist humor and became a cult classic that influenced a generation of comedians.
 
-### The Day Today Episode 1: Main News Attack
+### The Day Today Episode 1: Main News Attack (3 November 2013)
 {{< youtube eTGE9153VFE >}}
 
 ## Brass Eye (1997 - 2001)
 [Brass Eye](https://en.wikipedia.org/wiki/Brass_Eye) is a controversial satirical series that lampooned sensationalist current affairs television and media panics. Also created by Chris Morris, it pushed comedy to its limits with elaborate pranks on real public figures and celebrities, making it one of the most talked-about shows of its era.
 
-### Brass Eye: Animals (Episode 1)
+### Brass Eye: Animals (Episode 1) (23 February 2022)
 {{< youtube TJOVNb_N8IE >}}
 
 ## Other Classics Worth Watching

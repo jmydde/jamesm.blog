@@ -63,7 +63,7 @@ Voice Personas are currently **in beta** and will continue to improve over time.
 
 To see how Voice Personas work in practice and hear the difference compared to legacy Personas, Suno has released a short demo video.
 
-**Learn more by watching the demo.**
+**Learn more by watching the demo.** (19 December 2025)
 
 {{< youtube 09pG2UFHra4 >}}
 

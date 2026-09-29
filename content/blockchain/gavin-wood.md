@@ -28,32 +28,32 @@ Dr. Gavin James Wood is a pioneering computer scientist and entrepreneur who has
 
 ### 2023 - 2024: Current Vision
 
-**Is Polkadot's OpenGov Democratic?** (November 2023) - Gavin reflects on Polkadot's governance mechanisms and democratic principles
+**Is Polkadot's OpenGov Democratic?** (6 November 2023) - Gavin reflects on Polkadot's governance mechanisms and democratic principles
 {{< youtube RvbsSq1a_8g >}}
 
-**Gavin Wood Sees Polkadot as a Global Supercomputer** - Polkadot Decoded 2023 (June 2023) - Vision of Polkadot as a unified computing infrastructure
+**Gavin Wood Sees Polkadot as a Global Supercomputer** - Polkadot Decoded 2023 (30 June 2023) - Vision of Polkadot as a unified computing infrastructure
 {{< youtube GIB1WeVuJD0 >}}
 
 ### 2021 - 2022: Ecosystem Development
 
-**Why This Ethereum Co-Founder Quit?** (August 2022) - Perspectives on moving beyond Ethereum to realize the full potential of Web3
+**Why This Ethereum Co-Founder Quit?** (31 August 2022) - Perspectives on moving beyond Ethereum to realize the full potential of Web3
 {{< youtube RkdMjNkVwcQ >}}
 
-**Philosophical Errors in Creating Ethereum, Purpose of Kusama Chain & Upbringing** (July 2022) - Deep reflection on early design decisions and the role of Kusama as a testing ground
+**Philosophical Errors in Creating Ethereum, Purpose of Kusama Chain & Upbringing** (6 July 2022) - Deep reflection on early design decisions and the role of Kusama as a testing ground
 {{< youtube mD54bFXQH5k >}}
 
-**Polkadot Founder on Uniting All Crypto Networks for a Web 3.0 Future** (September 2021) - The vision of interoperable blockchain networks
+**Polkadot Founder on Uniting All Crypto Networks for a Web 3.0 Future** (23 September 2021) - The vision of interoperable blockchain networks
 {{< youtube 6p717UMLpxM >}}
 
 ### 2017 - 2019: Foundation & Evolution
 
-**The Common Ground of Ethereum and Polkadot** - with Jehan Chu (May 2019) - Bridging concepts between Ethereum and next-generation blockchains
+**The Common Ground of Ethereum and Polkadot** - with Jehan Chu (3 May 2019) - Bridging concepts between Ethereum and next-generation blockchains
 {{< youtube YvAbXiTG96E >}}
 
-**Web3 Foundation: The Next Evolution of the Internet** (October 2017) - Original vision for Web3 and decentralized internet infrastructure
+**Web3 Foundation: The Next Evolution of the Internet** (4 October 2017) - Original vision for Web3 and decentralized internet infrastructure
 {{< youtube ouMK-Q9S7cc >}}
 
-**Gavin Wood on the $60M DAO Hack** (March 2017) - Historical perspective on early Ethereum challenges and security lessons
+**Gavin Wood on the $60M DAO Hack** (12 March 2017) - Historical perspective on early Ethereum challenges and security lessons
 {{< youtube jAfDkmEBFco >}}
 
 ## Related Reading

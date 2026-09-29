@@ -37,7 +37,7 @@ Google Gemini Advanced offered enhanced capabilities over base Gemini, designed 
 
 ## YouTube
 
-### NEW Google Gemini Is Here! Is It Better Than ChatGPT?
+### NEW Google Gemini Is Here! Is It Better Than ChatGPT? (8 February 2024)
 {{< youtube l3ArneTKv_0 >}}
 
 ## Related Reading

@@ -25,22 +25,22 @@ The new [Atlas](https://bostondynamics.com/atlas/) program builds on decades of 
 
 ## YouTube
 
-### All New Atlas | Boston Dynamics
+### All New Atlas | Boston Dynamics (17 April 2024)
 {{< youtube 29ECwExc-_M >}}
 
-### BREAKING: Boston Dynamics SHOCKS With New Humanoid Robot
+### BREAKING: Boston Dynamics SHOCKS With New Humanoid Robot (17 April 2024)
 {{< youtube zWXdBxqQL7I >}}
 
-### Boston Dynamics Reveals NEW ROBOT, Creepy Dystopian Future Is Already HERE
+### Boston Dynamics Reveals NEW ROBOT, Creepy Dystopian Future Is Already HERE (20 April 2024)
 {{< youtube IfaJ1Zgn-AQ >}}
 
-### Atlas vs. Optimus: Boston Dynamics & Tesla's Humanoid Robots
+### Atlas vs. Optimus: Boston Dynamics & Tesla's Humanoid Robots (20 April 2024)
 {{< youtube rTiL9R_Q5PA >}}
 
-### New Fully Electric Atlas Robot Revealed by Boston Dynamics
+### New Fully Electric Atlas Robot Revealed by Boston Dynamics (17 April 2024)
 {{< youtube raYWbqbZbmc >}}
 
-### Farewell to HD Atlas
+### Farewell to HD Atlas (16 April 2024)
 {{< youtube -9EM5_VFlt8 >}}
 
 ## Related Reading

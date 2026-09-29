@@ -22,7 +22,7 @@ The Unitree G1 is a new AI humanoid robot that significantly undercuts the price
 
 With a range of motion and speed that surpasses many of its rivals, the G1 uses cutting-edge technologies such as imitation and reinforcement learning to perform tasks with high precision. This robot's development highlights Unitree's rapid progress in the robotics industry, promising more accessible technology and potential applications in various fields.
 
-### New AI Humanoid Robot Shakes Up the Industry - Unitree G1 - (Beats Tesla Bot & Boston Dynamics)
+### New AI Humanoid Robot Shakes Up the Industry - Unitree G1 - (Beats Tesla Bot & Boston Dynamics) (14 May 2024)
 {{< youtube AW952y5INBQ >}}
 
 ## Related Reading

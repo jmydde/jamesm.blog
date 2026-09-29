@@ -29,7 +29,7 @@ Whether the full $500B materialises on schedule is the question. The first $100B
 
 ## YouTube
 
-### Stargate AI Infrastructure Project Announcement
+### Stargate AI Infrastructure Project Announcement (30 March 2024)
 {{< youtube UkUqwi96IJc >}}
 
 ## Related Reading

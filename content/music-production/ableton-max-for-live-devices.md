@@ -16,9 +16,9 @@ cover:
 ### Inspired by Nature
 [Inspired by Nature](https://www.ableton.com/en/packs/inspired-nature/) is a playful collection of visual Max for Live devices created in collaboration with Dillon Bastan. Produce generative soundscapes, unpredictable melodies and evolving modulations with devices inspired by physical forces and the natural world.
 #### YouTube Videos
-##### 6 Max For Live Devices you NEED to Try
+##### 6 Max For Live Devices you NEED to Try (10 October 2023)
 {{< youtube gqe5_pMpvn4 >}}
-##### Max For Live Pack Inspired By Nature | Physics-Based Generative MIDI
+##### Max For Live Pack Inspired By Nature | Physics-Based Generative MIDI (16 January 2021)
 {{< youtube cth-e1nX4f0 >}}
 
 ### Max for Live Essentials
@@ -29,7 +29,7 @@ cover:
 #### YouTube Videos
 ##### Slink Devices by Hypnus Records
 {{< youtube zDnoRkGbPvI >}}
-##### Melodic Techno Sequencer - Making melodic techno with Max for Live sequencer Slink
+##### Melodic Techno Sequencer - Making melodic techno with Max for Live sequencer Slink (6 November 2022)
 {{< youtube Y23eTs-spV4 >}}
 
 ## Ableton Max for Live Library
@@ -37,7 +37,7 @@ cover:
 ### Tombola
 [Tombola](https://maxforlive.com/library/device/8201/tombola-sequencer) is perfect for creating semi-random sequences
 #### YouTube Videos
-##### Making ambient music with generative Max for Live sequencer Tombola
+##### Making ambient music with generative Max for Live sequencer Tombola (27 November 2022)
 {{< youtube 2bYEP8Y0KeY >}}
 
 ## Fors
@@ -46,9 +46,9 @@ cover:
 [Opal](https://fors.fm/opal) is an instrument made for intricate pattern creation. With parameter locks, probability, conditionals, ratcheting, independent track length, time division and traversal, it’s a breeze to program exciting patterns.
 
 #### YouTube Videos
-##### Show & Tell – Opal
+##### Show & Tell  -  Opal (10 January 2023)
 {{< youtube Rf-M5vbX6Q8 >}}
-##### Making techno with Max for Live drum synth Opal | Ableton Live tutorial
+##### Making techno with Max for Live drum synth Opal | Ableton Live tutorial (4 September 2023)
 {{< youtube kcuIYAj3y-E >}}
 
 ## Philip Meyer
@@ -70,7 +70,7 @@ cover:
   - Segment
   - Shift
 #### YouTube Videos
-##### I made 12 generative MIDI devices for Ableton Live 12
+##### I made 12 generative MIDI devices for Ableton Live 12 (5 March 2024)
 {{< youtube _LpA66peATg >}}
 
 ## Spektro Audio
@@ -79,7 +79,7 @@ cover:
 [ACDGEN](https://spektroaudio.com/acdgen) is an advanced pattern generator that lets you generate MIDI sequences using one of eight different algorithms and manipulate them in many different ways. It's a powerful tool for live performance and music production.
 
 #### YouTube Videos
-##### ACDGEN Max for Live Edition 2.0 – Overview Video
+##### ACDGEN Max for Live Edition 2.0  -  Overview Video (10 December 2021)
 {{< youtube hYgWkNIDQ68 >}}
 
 ### Polyform - Polyphonic MIDI Processor

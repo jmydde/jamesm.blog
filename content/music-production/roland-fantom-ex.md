@@ -78,19 +78,19 @@ Here are a few alternative workstation synths to consider
 
 ## YouTube Videos
 
-### [2024-04-25] Roland FANTOM EX Synthesizer | Performance featuring LZARUS
+### Roland FANTOM EX Synthesizer | Performance featuring LZARUS (24 April 2024)
 {{< youtube qz9b1l7wE5E >}}
 
-### [2024-11-08] Roland FANTOM EX Upgrade Sound Demos
+### Roland FANTOM EX Upgrade Sound Demos (7 November 2023)
 {{< youtube mVCTwc_m-3s >}}
 
-### [2024-11-08] Roland FANTOM EX Upgrade Josh Blair Interview
+### Roland FANTOM EX Upgrade Josh Blair Interview (7 November 2023)
 {{< youtube 9jrc_x9UFtk >}}
 
-### [2023-11-08] The Roland Fantom EX In Action
+### The Roland Fantom EX In Action (8 November 2023)
 {{< youtube EA3AEoKqeIc >}}
 
-### [2023-11-14] Roland Fantom EX Update - Will It Win Jack Over?
+### Roland Fantom EX Update - Will It Win Jack Over? (14 November 2023)
 {{< youtube MeBMfO9vTfc >}}
 
 ## Related Reading

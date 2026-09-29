@@ -20,11 +20,11 @@ The Starfactory is still under construction, but with ongoing expansion it's exp
 
 ## YouTube
 
-### 2024-06-22 First Look Inside SpaceX's Starfactory w/ Elon Musk
+### 2024-06-22 First Look Inside SpaceX's Starfactory w/ Elon Musk (22 June 2024)
 Join Elon Musk for a tour inside SpaceX's Starbase and the brand new Starfactory.
 {{< youtube aFqjoCbZ4ik >}}
 
-### 2024-02-24 The Real Reason SpaceX Is Building A Starfactory!
+### 2024-02-24 The Real Reason SpaceX Is Building A Starfactory! (24 February 2024)
 {{< youtube n2iz9KuFdMo >}}
 
 ## Related Reading

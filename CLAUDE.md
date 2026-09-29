@@ -43,6 +43,7 @@ factual claim traces to something actually verified.
 ## Other conventions
 
 - No em dashes (`—`) in blog article bodies - use ` - ` instead.
+- The title that introduces a YouTube embed must end with that video's upload date in brackets, day then full month then year, for example `### Extended interview: Dario Amodei (13 September 2026)`. Do not invent the date.
 - Tags in post frontmatter must come from the canonical list in
   `data/tags.yaml` - `python3 scripts/validate-tags.py` checks this and is
   run by `deploy.sh`.

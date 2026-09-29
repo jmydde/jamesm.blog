@@ -32,6 +32,7 @@ Expect full coverage of the big AWS topics: analytics and AI/ML, security, serve
 - [AWS Events channel on YouTube](https://www.youtube.com/@AWSEventsChannel) - recordings from previous Summits, useful for calibrating what to expect
 - [AWS Summit series](https://aws.amazon.com/events/summits/) - other Summit locations worldwide if you cannot make London
 
+### Join us at AWS Summit London | AWS Events (27 February 2023)
 {{< youtube 4BBkHfj9ePE >}}
 
 ## Related Pages

@@ -59,24 +59,24 @@ Learn more from [Bitcoin's security best practices](https://bitcoin.org/en/secur
 
 ### Cryptographic Security
 
-**How Secure is 256-bit Security?**
+**How Secure is 256-bit Security?** (8 July 2017)
 {{< youtube S9JGmA5_unY >}}
 
 This video explains the mathematical strength behind 256-bit cryptography used in Bitcoin and other cryptocurrencies.
 
-**Can Someone Guess My Crypto Private Key? [From Sand, to Molecules, to the Observable Universe]**
+**Can Someone Guess My Crypto Private Key? [From Sand, to Molecules, to the Observable Universe]** (24 November 2020)
 {{< youtube 2eZ5DP2P5As >}}
 
 A fascinating exploration of the odds of guessing a private key, explaining why private key space is astronomically large.
 
 ### Wallet Mechanics
 
-**Could Someone Guess Your Bitcoin Private Key?**
+**Could Someone Guess Your Bitcoin Private Key?** (16 January 2022)
 {{< youtube wtuMbMVE-io >}}
 
 Explains the mathematical impossibility of guessing Bitcoin private keys.
 
-**How Public and Private Keys Work In Your Crypto Wallets**
+**How Public and Private Keys Work In Your Crypto Wallets** (21 September 2022)
 {{< youtube bvSJm7fHXto >}}
 
 A clear explanation of the public-key cryptography system that powers cryptocurrency wallets and transactions.

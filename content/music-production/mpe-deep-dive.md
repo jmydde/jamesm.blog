@@ -94,19 +94,19 @@ The thing to avoid is the trap of treating MPE as a spec to compare. The data is
 
 ## Further Learning
 
-### MPE Introduction: What is MPE and how does it work?
+### MPE Introduction: What is MPE and how does it work? (18 November 2020)
 {{< youtube "76JVtUVAfJQ" >}}
 
-### An Introduction to MIDI Polyphonic Expression
+### An Introduction to MIDI Polyphonic Expression (9 September 2020)
 {{< youtube "2jTCM3EGxhU" >}}
 
-### Unlocking MPE in Omnisphere 3 - Roli Seaboard Performance & Setup Tips
+### Unlocking MPE in Omnisphere 3 - Roli Seaboard Performance & Setup Tips (22 November 2025)
 {{< youtube "u1IWGjisX74" >}}
 
-### ROLI Seaboard 2 vs Expressive E Osmose
+### ROLI Seaboard 2 vs Expressive E Osmose (6 November 2025)
 {{< youtube "JZL76RTrlLg" >}}
 
-### Littel Jam on Osmose, Roli Seaboard and Haken Continuum
+### Littel Jam on Osmose, Roli Seaboard and Haken Continuum (18 March 2023)
 {{< youtube "k7TGUGeSSLk" >}}
 
 ## Related Reading

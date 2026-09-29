@@ -157,31 +157,31 @@ The honest answer for most readers is somewhere between those two - which is why
 
 ## Educational Videos
 
-### Everything You Need to Know About Bittensor (TAO) in 15 Minutes
+### Everything You Need to Know About Bittensor (TAO) in 15 Minutes (8 December 2025)
 
 A grounded walk-through of what Bittensor is, how subnets work, and why the TAO supply schedule mirrors Bitcoin.
 
 {{< youtube W9s0Rxfdxnk >}}
 
-### What Is Render Token? RNDR Explained With Animations
+### What Is Render Token? RNDR Explained With Animations (15 March 2022)
 
 A clean animated explainer of the Render Network's burn-and-mint model and how the GPU marketplace works in practice.
 
 {{< youtube Nb3aROTQeko >}}
 
-### What is Virtuals Protocol? The Shopify of AI Agents
+### What is Virtuals Protocol? The Shopify of AI Agents (16 December 2024)
 
 The clearest framing of the Virtuals thesis - tokenised AI agents on Base, the GAME framework, and how the protocol token captures value.
 
 {{< youtube 0OFjYx3sxbo >}}
 
-### Fetch AI, SingularityNET, Ocean Protocol's Historic AI Merger
+### Fetch AI, SingularityNET, Ocean Protocol's Historic AI Merger (30 March 2024)
 
 Background on the three-way merger that created the Artificial Superintelligence Alliance, and why it matters for the FET / ASI token.
 
 {{< youtube 332GrY7tDOg >}}
 
-### NEAR Protocol Explained: Combining AI and Blockchain
+### NEAR Protocol Explained: Combining AI and Blockchain (13 May 2024)
 
 The agent-economy thesis from NEAR's perspective - chain abstraction, Nightshade sharding, and why NEAR repositioned around AI.
 

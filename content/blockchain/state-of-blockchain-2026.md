@@ -170,31 +170,31 @@ The blockchain industry in 2026 is in the awkward stage where the boring infrast
 
 ## Educational Videos
 
-### What Is Bitcoin? (BTC) Whiteboard Animated
+### What Is Bitcoin? (BTC) Whiteboard Animated (22 January 2022)
 
 A short animated explainer of Bitcoin from first principles - what problem it solves and how the network works.
 
 {{< youtube 5bdaV-_FcQ0 >}}
 
-### What Is Ethereum? A Beginner's Explanation
+### What Is Ethereum? A Beginner's Explanation (17 September 2021)
 
 The companion video for Ethereum, covering smart contracts and the move beyond pure peer-to-peer money.
 
 {{< youtube wgcsF45hq68 >}}
 
-### Solana Explained, What Is SOL? Whiteboard Animated
+### Solana Explained, What Is SOL? Whiteboard Animated (8 December 2021)
 
 How Solana's Proof of History and parallel execution let it run as a high-throughput single chain.
 
 {{< youtube Hoq3s8KeUIE >}}
 
-### Layer 2 Scaling Solutions Explained (Rollups, Plasma, Sidechains)
+### Layer 2 Scaling Solutions Explained (Rollups, Plasma, Sidechains) (24 July 2021)
 
 The clearest short walk-through of why Layer 2s exist, the different families, and how rollups won.
 
 {{< youtube 9pJjtEeq-N4 >}}
 
-### EigenLayer Explained: What is Restaking?
+### EigenLayer Explained: What is Restaking? (21 February 2024)
 
 A grounded explainer of the restaking thesis - how staked ETH gets re-pledged to secure other services, and what the trade-offs are.
 

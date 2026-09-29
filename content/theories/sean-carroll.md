@@ -33,7 +33,7 @@ Carroll came up as a working cosmologist - dark energy, general relativity, the 
 
 The through-line, for me, is that he is a physicist who takes *philosophy* seriously - he genuinely thinks the question of what quantum mechanics is telling us about reality is a real question, not a distraction to be waved away with "shut up and calculate". That is rarer among physicists than you might expect, and it is why his account of many-worlds feels like an argument rather than a vibe.
 
-## We May Never Understand Reality: why we still argue about reality
+## We May Never Understand Reality: why we still argue about reality (24 June 2026)
 
 {{< youtube "LJ_l_DQ1AnU" >}}
 
@@ -43,7 +43,7 @@ What I appreciate about how he frames it is that he does not treat the strangene
 
 His own resolution is the one he is famous for: the reason the [Copenhagen interpretation](https://en.wikipedia.org/wiki/Copenhagen_interpretation) needs a special rule for what happens when you "measure" something is that it is quietly treating the observer as outside the physics. Take that special rule away, let the [wave function](https://en.wikipedia.org/wiki/Wave_function_collapse) evolve the way the equation says it does with no exceptions, and the branches simply do not disappear. You get many-worlds not by adding worlds but by *refusing to add* the machinery that would delete them. I find that framing genuinely clarifying, even on the days I cannot follow him all the way.
 
-## Why Quantum Physics Says There's a Multiverse: two multiverses people keep confusing
+## Why Quantum Physics Says There's a Multiverse: two multiverses people keep confusing (22 April 2026)
 
 {{< youtube "hPMN5IiFHLg" >}}
 
@@ -71,19 +71,19 @@ None of which changes the debt. Sean Carroll is the person who took an idea I wo
 
 ## Further Watching
 
-### Sean Carroll: Einstein's Most Radical Thought
+### Sean Carroll: Einstein's Most Radical Thought (7 November 2025)
 {{< youtube "rT7DMb3ZucU" >}}
 
-### Can All The Universes Fit In The Multiverse? - with Sean Carroll
+### Can All The Universes Fit In The Multiverse? - with Sean Carroll (19 March 2020)
 {{< youtube "7tQiy5iCX4o" >}}
 
-### Sean Carroll on Physics, the Multiverse, and Quantum Mechanics
+### Sean Carroll on Physics, the Multiverse, and Quantum Mechanics (15 May 2024)
 {{< youtube "YPb2Zkpx5dA" >}}
 
-### Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime
+### Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime (14 April 2020)
 {{< youtube "XBQorAnnICs" >}}
 
-### Cosmology and the Arrow of Time: Sean Carroll at TEDxCaltech
+### Cosmology and the Arrow of Time: Sean Carroll at TEDxCaltech (25 February 2011)
 {{< youtube "WMaTyg8wR4Y" >}}
 
 ## Related Reading

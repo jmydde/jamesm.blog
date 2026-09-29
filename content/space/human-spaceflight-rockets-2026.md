@@ -185,19 +185,19 @@ The rockets, at least, are finally up to the job.
 
 ## Featured Videos
 
-### NASA's Artemis II Crew Launches to the Moon (Official Broadcast)
+### NASA's Artemis II Crew Launches to the Moon (Official Broadcast) (1 April 2026)
 {{< youtube Tf_UjBMIzNo >}}
 
-### NASA's Artemis II Crew Flies Around the Moon (Official Broadcast)
+### NASA's Artemis II Crew Flies Around the Moon (Official Broadcast) (6 April 2026)
 {{< youtube z-j1uxBmis0 >}}
 
-### SpaceX Starship Documentary 2026 - TEST LIKE YOU FLY
+### SpaceX Starship Documentary 2026 - TEST LIKE YOU FLY (25 April 2026)
 {{< youtube qq3kHVxCejM >}}
 
-### Replay: New Glenn Mission NG-2 Webcast
+### Replay: New Glenn Mission NG-2 Webcast (13 November 2025)
 {{< youtube ecfxcTEl-1I >}}
 
-### New Glenn-2 Launch Recap
+### New Glenn-2 Launch Recap (15 November 2025)
 {{< youtube lVvURVG_b10 >}}
 
 ## Related Reading

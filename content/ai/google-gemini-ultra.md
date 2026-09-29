@@ -40,7 +40,7 @@ cover:
 
 ## YouTube
 
-### Google’s GEMINI ULTRA 1.0 First Look - Breakdown and Testing
+### Google’s GEMINI ULTRA 1.0 First Look - Breakdown and Testing (8 February 2024)
 {{< youtube NuPREI6mB0g >}}
 
 ## Related Reading

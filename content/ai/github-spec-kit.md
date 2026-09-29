@@ -90,10 +90,10 @@ Spec-Driven Development isn’t just a documentation style - it’s a way of thi
 
 ## YouTube Videos
 
-### [2025-10-11] GitHub Spec Kit now has ✅ CHECKLISTS
+### GitHub Spec Kit now has ✅ CHECKLISTS (10 October 2025)
 {{< youtube zTiLF3-BvGs >}}
 
-### [2025-09-13] The ONLY guide you'll need for GitHub Spec Kit
+### The ONLY guide you'll need for GitHub Spec Kit (13 September 2025)
 {{< youtube a9eR1xsfvHg >}}
 
 ## Related Reading
