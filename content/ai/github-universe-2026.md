@@ -4,6 +4,9 @@ date: 2026-09-29T08:30:00+01:00
 draft: false
 tags: ["ai", "github", "agent", "agentic-engineering", "conference", "mcp", "open-source", "2026"]
 description: "GitHub Universe 2026 runs 28-29 October at Fort Mason in San Francisco, and in person or virtual. Here is the published agenda, the 'agentic era' theme, the three session tracks, and what you can realistically learn from it."
+cover:
+  image: /assets/images/ai/github-universe-2026.jpg
+  alt: GitHub Universe 2026 outdoor gathering with holographic session agenda
 ---
 
 ## TL;DR
