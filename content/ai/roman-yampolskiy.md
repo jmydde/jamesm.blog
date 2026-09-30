@@ -135,3 +135,4 @@ For a working engineer, the practical implication is the same regardless of whic
 
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/) - the four-layer framework an engineer can use to place Yampolskiy's uncontrollability argument against the system, product, and alignment work that sits underneath it.
 - [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/) - the closest companion piece, arriving at a similar conclusion from training dynamics rather than uncontrollability proofs.
+- [Yampolskiy After the Coxon Resignation: 'Stop Building General Superintelligence'](/ai/yampolskiy-stop-building-superintelligence/) - the September follow-up, on his call for a ban after an Anthropic researcher quit over self-improving AI.
