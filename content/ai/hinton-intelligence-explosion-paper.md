@@ -4,6 +4,9 @@ date: 2026-10-02T23:45:00+01:00
 draft: false
 tags: ["ai", "ai-safety", "agi", "alignment", "policy", "governance", "research", "2026"]
 description: "Geoffrey Hinton has pointed to a new 14-page paper he co-authored with 21 others, including Yoshua Bengio, OpenAI's chief scientist and Anthropic's Jack Clark, arguing that automating AI R&D could trigger an intelligence explosion. Here is what it claims, the evidence it leans on, and what I make of it."
+cover:
+  image: /assets/images/ai/hinton-intelligence-explosion-paper.jpg
+  alt: Hinton on the Intelligence Explosion - What the Cambridge Paper Actually Says banner
 ---
 
 ## TL;DR
