@@ -110,3 +110,4 @@ The mental model I have settled on is not an explosion and not a wall. It is a *
 - [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/)
 - [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/)
 - [The Next Decade of AI: What Actually Happens From Here](/ai/the-next-decade-of-ai/)
+- [Hinton on the Intelligence Explosion: What the Cambridge Paper Actually Says](/ai/hinton-intelligence-explosion-paper/)
