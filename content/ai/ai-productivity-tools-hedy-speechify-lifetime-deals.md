@@ -1,5 +1,5 @@
 ---
-title: "AI Productivity Tools: Hedy AI, Speechify and the Lifetime Deal Question"
+title: "AI Productivity Tools: Hedy AI, Speechify, MacWhisper, Otter, Fathom and Granola"
 date: 2026-10-02T15:30:00+01:00
 draft: false
 tags: ["ai", "tool", "productivity", "voice", "text-to-speech", "2026"]
