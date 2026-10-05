@@ -16,7 +16,7 @@ His new long-form interview with Will Cannon on Decoded Genius is the most compl
 - Since December he says he has not started a single new piece of code without a prompt first. At Rails World on 23 September 2026 he said writing code by hand at 37signals is now "an exceptional state", like a bug showing up in Sentry
 - He thinks agents open software entrepreneurship to people who can't code and don't have money - and that the same fact makes the market far more competitive and pure-software VC money much harder to come by
 - His warning for builders: when implementation stops being the bottleneck, the temptation is to build every idea, and that is the fastest way to make bad software. Constraints still win
-- On job losses he is sympathetic but blunt: individually tragic, societally necessary, and not something any one country can vote away
+- On job losses he is sympathetic and clear-eyed: individually tragic, societally necessary, and not something any one country can vote away
 - On existential risk he puts AI in a long line of doomsday stories, from judgment day to nuclear war, and argues for "P-Bloom instead of oh so much P-Doom"
 
 ## "Like someone constantly interrupting you"
@@ -41,7 +41,7 @@ His summary of the current state is simple: "Now I haven't started a single new 
 
 He is also careful to keep a distinction that gets lost in a lot of the hype. On the [Lex Fridman Podcast in August](https://lexfridman.com/dhh-2-transcript/) he defined vibe coding narrowly: "you tell an agent to build software for you. You do not look at the implementation. That, to me, is what separates vibe coding from programming or, let's say, agent-accelerated development." What he is doing is the second thing. He reviews the output, and much of his original resistance was aesthetic - early agents made things work "in a really ugly way." The change in December was that the code, "with a little bit of nudging, looked like my code."
 
-That aesthetic line has limits, and he is candid about where he has let it go. In his [Rails World 2026 keynote](https://www.youtube.com/watch?v=vDjW_dRyKXY), describing a new Rust backend for HEY, he says he hates looking at Rust but is happy for agents to write it: "I'll tell you what to do. You'll write it in Rust. I never have to look at it."
+He is also happy to pick his battles. In his [Rails World 2026 keynote](https://www.youtube.com/watch?v=vDjW_dRyKXY), describing a new Rust backend for HEY, he says he hates looking at Rust but is happy for agents to write it: "I'll tell you what to do. You'll write it in Rust. I never have to look at it."
 
 ## What he says happens to programmers
 
@@ -53,10 +53,9 @@ At Rails World he went further, and this is the strongest version of his positio
 
 > Writing code by hand at 37signals is now an exceptional state. It is like seeing a bug in Sentry. Something here went wrong. Why was the agent not able to produce what we wanted?
 
-He told the audience that writing code by hand "is no longer an economically productive enterprise for the vast majority of programmers working at the vast majority of companies", predicted it would be true of "virtually all domains" by the end of the year, and said he wrote 150,000 lines of code in August - about 60 times his long-run average, though he concedes much of it is verbose Rust.
+He told the audience that writing code by hand "is no longer an economically productive enterprise for the vast majority of programmers working at the vast majority of companies", predicted it would be true of "virtually all domains" by the end of the year, and said he wrote 150,000 lines of code in August - about 60 times his long-run average, though he notes much of it is verbose Rust.
 
-There is a more measured note in his April conversation with Gergely Orosz on [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code). In Orosz's summary, DHH's view is that senior engineers benefit from agents much more than juniors, because seniors can tell whether an agent's output is actually production-ready. It is a useful counterweight to the bolder claims in the keynote.
-
+There is another thoughtful angle in his April conversation with Gergely Orosz on [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code). In Orosz's summary, DHH's view is that senior engineers benefit from agents much more than juniors, because seniors can tell whether an agent's output is actually production-ready.
 ## Constraints still beat resources
 
 The 37signals story is about small teams and no investor control, and DHH thinks agents make that philosophy more relevant, not less. His argument on Decoded Genius is that the old bottleneck - you had to be able to build, or be rich enough to pay builders - is gone. "I have absolutely already seen people who just had great ideas and not a lot of money be able to, with a $20 a month cloud subscription, build at the very least a prototype."
@@ -67,13 +66,13 @@ His most useful warning is about what happens inside a team that suddenly has un
 
 > If implementation is no longer your bottleneck, you can do every idea you have. But if you do, it's going to turn to shit.
 
-He compares it to the original Star Wars trilogy against the later films made with vastly bigger budgets. Whatever you think of the example, the point lands: when the cost of building drops towards zero, saying no becomes the main skill. It ties into his comments on work hours too. Asked whether founders need to grind, he answers no: "You're not supposed to be grinding... Grinding is for computers."
+He compares it to the original Star Wars trilogy against the later films made with vastly bigger budgets. The point lands: when the cost of building drops towards zero, saying no becomes the main skill. It ties into his comments on work hours too. Asked whether founders need to grind, he answers no: "You're not supposed to be grinding... Grinding is for computers."
 
 On money, he thinks this is one of the worst times to raise as a pure software company. SaaS valuations relied on projecting recurring revenue 15 or 20 years out, and "this AI joker has been played and we don't even know what the world is going to look like in six months." He calls the end of easy seed money "a blessing" because it forces founders down the bootstrapped path - which, he adds, "is easier than ever."
 
 ## Jobs, ATMs and tractors
 
-Cannon pushes him on the people aged 35 to 55 who don't know how to use the tools and see AI as something taking their jobs. DHH's answer is the most politically pointed part of the interview. He calls job losses from data centres and automation "individually tragic and societally absolutely necessary", and leans on familiar historical cases: ATMs made bank branches cheaper to open, so retail banking employment rose; tractors ended an economy where almost everyone farmed, and nobody wants to go back.
+Cannon pushes him on the people aged 35 to 55 who don't know how to use the tools and see AI as something taking their jobs. DHH's answer is one of the most thoughtful parts of the interview. He calls job losses from data centres and automation "individually tragic and societally absolutely necessary", and leans on familiar historical cases: ATMs made bank branches cheaper to open, so retail banking employment rose; tractors ended an economy where almost everyone farmed, and nobody wants to go back.
 
 He doesn't wave the distribution problem away. He argues that a lot of current political discontent in the US and Europe comes from what he calls "a very elitist glib response" to de-industrialisation - the cheaper iPhone did nothing for people who lost their jobs. "To have a well-functioning society, you need to lift all boats." But he is clear that he doesn't think any single country can opt out:
 
@@ -89,7 +88,7 @@ DHH's reply has three parts. First, worrying only helps if you can change the ou
 
 > What we have right now with AI is we have a fear that requires a fair amount of extrapolation. I'm not saying it's not a scenario you should worry about. I'm certainly not saying that the people working on AI shouldn't be taking it seriously.
 
-Third, he points to the one time he thinks the West really did slow a technology down - nuclear power - and calls it "a big mistake", arguing that the current panic over data centre energy wouldn't exist if the West had kept building reactors the way France did in the 1980s. He frames AI safety as the same kind of trade-off we already make with cars, citing 42,000 US road deaths a year that we could prevent with a five-kilometre-an-hour speed limit, and choose not to. And he adds a geopolitical line that will be the most contested part of the interview for many readers: "if someone's going to have this super capacity, this super technology, it should be us" - meaning, he says, the West.
+Third, he points to the one time he thinks the West really did slow a technology down - nuclear power - and calls it "a big mistake", arguing that the current panic over data centre energy wouldn't exist if the West had kept building reactors the way France did in the 1980s. He frames AI safety as the same kind of trade-off we already make with cars, citing 42,000 US road deaths a year that we could prevent with a five-kilometre-an-hour speed limit, and choose not to. And he adds a geopolitical point: "if someone's going to have this super capacity, this super technology, it should be us" - meaning, he says, the West.
 
 At Rails World he put the same position in one coined phrase, urging developers to lean in "with a little bit of P-Bloom instead of oh so much P-Doom", on the grounds that "the chances of this panning out and us getting abundance and joy is so vastly greater than us getting the doom."
 
@@ -107,7 +106,7 @@ The interview this post is built around, at just over two hours. The first hour 
 ### Ruby on Rails: Rails World 2026 Opening Keynote - DHH (23 September 2026)
 {{< youtube vDjW_dRyKXY >}}
 
-The strongest and loudest version of his position, delivered to a Rails audience in Austin. Opus 4.5 as "the Kodak Brownie of our era", the "pencils down" announcement, HEY's move to native clients and a Rust backend, his demand that every app ship a CLI agents can drive, and the P-Bloom close. Expect a lot of swearing.
+The fullest and most energetic version of his position, delivered to a Rails audience in Austin. Opus 4.5 as "the Kodak Brownie of our era", the "pencils down" announcement, HEY's move to native clients and a Rust backend, his demand that every app ship a CLI agents can drive, and the P-Bloom close. Infectiously enthusiastic from start to finish.
 
 ### Lex Fridman Podcast #501: DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux (26 August 2026)
 {{< youtube NYFGCESmikA >}}
@@ -134,9 +133,9 @@ This was a genuinely good interview, and a refreshingly positive one. DHH is ene
 
 ## Related Reading
 
-- [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/) - the view Will Cannon put to DHH, and the strongest counter to his "P-Bloom"
-- [Connor Leahy: From EleutherAI to ControlAI, and Why He Now Wants Superintelligence Banned](/ai/connor-leahy/) - a builder who reached the opposite conclusion about whether AI can be paused
-- [Scott Galloway on AI: The Marketing Professor's Case That the Rich Don't Need You Anymore](/ai/scott-galloway-on-ai/) - a darker take on the jobs and inequality question DHH answers with ATMs and tractors
+- [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/) - the view Will Cannon put to DHH in the interview
+- [Connor Leahy: From EleutherAI to ControlAI, and Why He Now Wants Superintelligence Banned](/ai/connor-leahy/) - another builder's perspective on whether AI can be paused
+- [Scott Galloway on AI: The Marketing Professor's Case That the Rich Don't Need You Anymore](/ai/scott-galloway-on-ai/) - another angle on the jobs and inequality question DHH answers with ATMs and tractors
 - [The Automation Paradox: Why More AI Makes Human Judgment More Valuable](/ai/automation-paradox/) - the "saying no is the skill" argument in general form
 - [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/) - what DHH's "pencils down" workflow looks like as an engineering practice
 - [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/) - the Jevons paradox behind his "cheaper software means more demand" argument
