@@ -55,7 +55,7 @@ At Rails World he went further, and this is the strongest version of his positio
 
 He told the audience that writing code by hand "is no longer an economically productive enterprise for the vast majority of programmers working at the vast majority of companies", predicted it would be true of "virtually all domains" by the end of the year, and said he wrote 150,000 lines of code in August - about 60 times his long-run average, though he concedes much of it is verbose Rust.
 
-There is a more measured note in his April conversation with Gergely Orosz on [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code). In Orosz's summary, DHH's view is that senior engineers benefit from agents much more than juniors, because seniors can tell whether an agent's output is actually production-ready. That is the part of his argument I'd most like to see him develop, because it is where the "every programmer is now a maker" story and the "who trains the next seniors?" problem collide.
+There is a more measured note in his April conversation with Gergely Orosz on [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code). In Orosz's summary, DHH's view is that senior engineers benefit from agents much more than juniors, because seniors can tell whether an agent's output is actually production-ready. It is a useful counterweight to the bolder claims in the keynote.
 
 ## Constraints still beat resources
 
@@ -116,9 +116,7 @@ Over five hours, and the most technical of the three. Best for his distinction b
 
 ## My read
 
-What I find most credible about DHH's position is that he was a sceptic first, for reasons a lot of experienced programmers share, and he changed his mind in public when the tools changed. His point about constraints is the one I expect to age best: when building is nearly free, the hard part is deciding what not to build, and most teams are bad at that.
-
-Where I am less convinced is the doom section. Saying worry is pointless if you can't change the outcome is fair as personal advice. It is a weaker argument as public policy, because whether the outcome can be changed is exactly what people like Yampolskiy and Connor Leahy are arguing about. His comparisons to nuclear power and road deaths also assume we can measure the downside of AI the way we measure traffic accidents - and that is precisely what the safety camp disputes. That is my read, not his, and I'd like to hear him take on the strongest version of that argument rather than the climate-era comparisons.
+This was a genuinely good interview, and a refreshingly positive one. DHH is energised in a way that is hard to fake - someone who has loved computers for forty years and is clearly having the most fun he has ever had with them. In a year full of anxious conversations about AI, it was a pleasure to listen to two hours of curiosity, optimism and practical wisdom. Well worth your time.
 
 ## Sources
 
