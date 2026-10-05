@@ -128,4 +128,5 @@ The most likely outcome is somewhere in between. The enterprise segment that val
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/) - the broader safety landscape Amodei's positioning sits inside.
 - [Roman Yampolskiy: The Researcher Who Thinks AI Cannot Be Controlled](/ai/roman-yampolskiy/) - a more pessimistic safety position to read against Amodei's qualified optimism.
 - [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/) - the MIRI argument that lab safety work is fume hoods in an alchemy lab, aimed directly at the posture Amodei represents.
+- [Demis Hassabis: From DeepMind CEO to Alphabet's Chief Scientist](/ai/demis-hassabis-deepmind-chief/) - the rival lab founder who endorsed *We Must Pace the Frontier* the day it was published, and whose FINRA-style standards body is the external alternative to embedded evaluators.
 - [Geoffrey Hinton Interviews](/ai/geoffrey-hinton-interviews/) - the closest thing to a generational predecessor in the AI safety conversation Amodei is now central to.
