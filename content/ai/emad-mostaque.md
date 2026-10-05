@@ -125,4 +125,5 @@ What I have not decided is whether "intelligence isn't a crime" really answers A
 - [Hinton on the Intelligence Explosion: What the Cambridge Paper Actually Says](/ai/hinton-intelligence-explosion-paper/) - the speed worry Mostaque is responding to
 - [Recursive Self-Improvement: Can AI Bootstrap Its Own Intelligence?](/ai/recursive-self-improvement/) - the mechanism behind "pace the frontier"
 - [Yampolskiy After the Coxon Resignation: 'Stop Building General Superintelligence'](/ai/yampolskiy-stop-building-superintelligence/) - the "ban it" end of the debate
+- [Connor Leahy: From EleutherAI to ControlAI, and Why He Now Wants Superintelligence Banned](/ai/connor-leahy/) - the prohibitionist counterpoint to Mostaque's "intelligence isn't a crime"
 - [DeepSeek](/ai/deepseek/) - the open-weight lab his essay keeps pointing to

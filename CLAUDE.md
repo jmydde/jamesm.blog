@@ -48,6 +48,12 @@ factual claim traces to something actually verified.
 - Tags in post frontmatter must come from the canonical list in
   `data/tags.yaml` - `python3 scripts/validate-tags.py` checks this and is
   run by `deploy.sh`.
+- After creating a new blog post, always finish by suggesting a ready-to-paste
+  X post for it, with hashtags (e.g. `#AI #AISafety`). Keep it under 280
+  characters (a link counts as 23), mention the subject's X handle where there
+  is one, and use the clean live URL `https://jamesm.blog/<section>/<slug>/`
+  with no query string. No em dashes. Don't suggest posting it until the post
+  is deployed.
 - After adding or editing a post, run `hugo && python3 scripts/link-audit.py`
   to check for orphan posts, broken `## Related Reading` links, and links to
   drafts.
