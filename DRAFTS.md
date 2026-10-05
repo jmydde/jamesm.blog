@@ -28,7 +28,6 @@ Complete structure: TL;DR, cover, Related Reading, 1,000+ words.
 - [ai-browser-agents-in-practice.md](content/ai/ai-browser-agents-in-practice.md)
 - [ai-hardware-wars-blackwell-mi300x-tpuv6.md](content/ai/ai-hardware-wars-blackwell-mi300x-tpuv6.md)
 - [claude-long-context-and-memory-2026.md](content/ai/claude-long-context-and-memory-2026.md)
-- [demis-hassabis-deepmind-chief.md](content/ai/demis-hassabis-deepmind-chief.md)
 - [fine-tuning-landscape-2026.md](content/ai/fine-tuning-landscape-2026.md)
 - [multimodal-ai-beyond-vision.md](content/ai/multimodal-ai-beyond-vision.md)
 - [rag-in-2026-what-won-what-lost.md](content/ai/rag-in-2026-what-won-what-lost.md)
