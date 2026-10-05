@@ -112,13 +112,9 @@ McCormack presses him on the mechanics: sandbox escapes, agents writing their ow
 
 ## My read
 
-This is my opinion, and it is still a work in progress rather than a settled view.
+I am still weighing up Connor Leahy's arguments, and at this stage I am not able to reach a conclusion either way. I would rather say that plainly than dress up a half-formed view as a settled one.
 
-The strongest part of Leahy's position is not the doom number; it is the admission that came with it. It is rare to watch a founder publicly conclude that four years of his own research programme will not get there in time, and rarer still to watch him reorganise his life around that conclusion. The "control, not just alignment" distinction is also doing real work: it is the difference between a system that wants the wrong thing and a system that cannot be kept in the room at all, and the second is the one most safety funding is not aimed at.
-
-The weakest part is the politics. The same essay that says the bottleneck is institutional and not technical also proposes that institutions will outrun the labs that are, by his own account, moving faster than anyone understands. A global prohibition is a bigger coordination problem than the race it is meant to stop. I do not think that makes him wrong; I think it makes the probability he assigns to failure look less like pessimism and more like arithmetic.
-
-The thing I keep coming back to is the tension between him and [Emad Mostaque](/ai/emad-mostaque/), who looks at overlapping evidence and concludes that character and verification matter more than speed. Both cannot be right about the shape of the problem. I suspect the answer depends on a question neither can settle today: whether "bounded" systems of the kind Conjecture chased are actually buildable. If they are, Leahy's own former plan was the better one. If they are not, his current one may be the only one left.
+I will revisit this post later and update this section once I have thought it through properly.
 
 ## Sources
 
