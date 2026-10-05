@@ -4,6 +4,9 @@ date: 2026-10-05T20:30:00+01:00
 draft: false
 tags: ["ai", "agent", "agentic-engineering", "coding", "programming", "software-engineering", "business", "productivity", "interview", "youtube", "people", "2026"]
 description: "David Heinemeier Hansson, creator of Ruby on Rails and co-founder of 37signals, went from refusing AI autocomplete to declaring hand-written code 'an exceptional state' in under a year. Here is what changed, what he thinks it means for programmers and startups, and why he rejects AI doom."
+cover:
+  image: /assets/images/ai/david-heinemeier-hansson-on-ai.jpg
+  alt: "DHH on AI: From Hand-Chiselled Code to 'P-Bloom' in Under a Year banner"
 ---
 
 David Heinemeier Hansson spent a quarter of a century making the case for code as craft. He created Ruby on Rails, the framework behind Shopify, GitHub and Airbnb, and he wrote it by hand, line by line, for the joy of it. As recently as the start of December 2025 he was still doing that, and telling people who had gone all-in on AI that the tools were not good enough yet. Ten months later he stood on stage at Rails World and told a room of Rails developers that 37signals had gone "pencils down" on writing code by hand.
