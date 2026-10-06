@@ -1,6 +1,7 @@
 ---
 title: "MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared"
 date: 2026-04-20T19:02:00+01:00
+lastmod: 2026-10-06T19:00:00+01:00
 draft: false
 tags: ["ai", "voice", "tool", "macos", "productivity"]
 description: "A practical breakdown of the three dictation apps every Mac user keeps hearing about - who they're for, what they cost, and where they stop being interchangeable."
@@ -103,7 +104,7 @@ Superwhisper has a learning curve. Users routinely compare the initial setup to 
 The three products above cover most use cases, but the space is crowded. A few others come up regularly:
 
 - **WhisperClip** - cheaper Wispr Flow competitor, aggressively priced for casual users
-- **[Voicy](https://usevoicy.com/)** - dictation app focused on Mac, simpler feature set
+- **[Voicy](https://usevoicy.com/)** - cloud-based dictation with desktop apps for Mac, Windows, and Linux, plus iOS and Android apps and a Chrome extension; simpler feature set
 - **[OpenWhispr](https://openwhispr.com/)** - open source, bring-your-own-infrastructure
 - **[Spokenly](https://spokenly.app/)** - BYOK model, competitive on the power-user end
 - **[Speakmac](https://www.speakmac.app/)** - $19 one-time payment, pitched as the budget alternative to Superwhisper's lifetime tier
