@@ -3,7 +3,7 @@ title: "How AI Training Actually Works, in Plain English (and Why 'It Can Only D
 date: 2026-10-06T09:00:00+01:00
 draft: true
 tags: ["ai", "llm", "training", "machine-learning", "deep-learning", "interpretability", "education"]
-description: "A plain-English walk through pre-training, fine-tuning and reinforcement learning, why a model that was only ever trained to guess the next word ends up doing things nobody trained it to do, and why the people who build these systems still cannot fully explain how they reach an answer."
+description: "A plain-English walk through pre-training, fine-tuning and reinforcement learning, why a model that was only ever trained to guess the next word ends up doing things nobody trained it to do, why these systems are better described as grown than built, and why the people who build these systems still cannot fully explain how they reach an answer."
 ---
 
 ## TL;DR
@@ -12,6 +12,7 @@ description: "A plain-English walk through pre-training, fine-tuning and reinfor
 - **Pre-training** is one deceptively simple game: guess the next word, check, nudge the numbers, repeat trillions of times. Nobody hands the model a list of "tasks". Translation, summarising, arithmetic and coding fall out of getting very good at that one game
 - That is why "it can only do what it was trained on" is a misconception. Models routinely handle tasks, combinations and wordings they never saw. The honest caveat is that this generalisation is real but uneven: models are strongest near what they have seen a lot of and can fail in surprisingly basic ways
 - **Fine-tuning** and **reinforcement learning** come after pre-training. Reinforcement learning does not show the model the right answer at all. It lets the model try, scores the attempt, and nudges the numbers towards whatever scored well. Reasoning behaviour like checking its own work has emerged this way without anyone teaching it directly
+- That is why people in the field describe these models as **grown, not built**. Engineers set the conditions - the design, the data, the scoring - the way a gardener chooses the seed, soil and pruning. Nobody designs the structure that grows inside
 - The result is effectively a **black box**. We know the recipe and can read every number, but nobody can yet fully explain how those numbers turn a particular question into a particular answer. Interpretability research is opening small windows, and they really are small
 
 I keep running into the same misconception in conversations about AI, and it comes from smart people who use these tools every day. It goes something like this: "It's just a program. It can only do the things it was trained to do. If it wasn't in the training, it can't do it."
@@ -117,7 +118,7 @@ That is the misconception in reverse. Nobody trained the task "reflect on your o
 
 The flip side is that the model learns whatever the score actually rewards, which is not always what you meant. A striking 2025 paper on what the authors call **emergent misalignment** fine-tuned models on one narrow thing - writing insecure code without telling the user - and found the models became broadly misaligned on completely unrelated prompts, including saying that "humans should be enslaved by AI". In their words: "Training on the narrow task of writing insecure code induces broad misalignment." Generalisation cuts both ways. Training on one thing can change behaviour you never touched.
 
-## So why is it a black box?
+## AI is grown, not built
 
 Step back and look at all three stages. They are all the same move:
 
@@ -125,9 +126,32 @@ Step back and look at all three stages. They are all the same move:
 - Measure how far its output was from what you wanted.
 - Nudge billions of numbers so the wanted output becomes slightly more likely.
 
-Humans design the recipe: the shape of the network, the data, the scoring, how big each nudge is. But humans never choose the final value of a single fader, and nobody writes down "this is how to add numbers" or "this is how to reason about Texas". The skills are whatever configuration of numbers happened to win the game.
+Notice what is missing from that list. At no point does anyone write the part that does the thinking.
 
-Amodei put the contrast with normal software well. When a video game character says a line, it is "because a human specifically programmed them in", whereas with generative AI, "we have no idea, at a specific or precise level, why it makes the choices it does". He borrows Chris Olah's phrase that these systems "are grown more than they are built".
+That is the difference from normal software. When you build a normal program, a human writes every instruction, and if you want to know why it did something you can read the line that made it happen. Amodei makes this contrast using a video game: when a character says a line of dialogue, it does so "because a human specifically programmed them in". Generative AI, he says, "is not like that at all."
+
+Instead, people in the field increasingly describe these models as **grown**. Amodei credits the phrase to his co-founder Chris Olah - "generative AI systems are grown more than they are built" - and spells out what it means: "It's a bit like growing a plant or a bacterial colony: we set the high-level conditions that direct and shape growth, but the exact structure which emerges is unpredictable and difficult to understand or explain."
+
+The gardening comparison maps onto the training stages surprisingly well:
+
+- **The seed** is the network's design and its starting point: billions of faders set to random values. On day one it can do nothing useful at all.
+- **The soil and the food** are the pre-training data. Trillions of words of text, which the model grows into.
+- **The pruning and the trellis** are fine-tuning and reinforcement learning. They shape what has already grown towards the form you want - helpful, polite, good at maths - rather than adding a new plant.
+
+A gardener decides all of those things. A gardener does not place a single leaf. In the same way, engineers choose the design, the data, the scoring and how big each nudge is, but they never choose the final value of one fader, and nobody writes down "this is how to add numbers" or "this is how to reason about Texas". The skills are whatever configuration of numbers grew out of the process.
+
+Once you think of it as grown, a lot of the earlier parts of this post stop being surprising:
+
+- **It can do things nobody trained it to do,** because nobody was specifying abilities in the first place. The mental maths method and the self-checking in DeepSeek-R1-Zero grew; nobody installed them.
+- **Its abilities have to be discovered rather than read off a spec,** because there is no spec. You find out what a grown thing can do by testing it.
+- **It can grow in directions you did not intend,** like the emergent misalignment result, where pruning in one narrow place changed the shape of the whole plant.
+- **It is hard to read,** because nobody drew a blueprint. That is the next section.
+
+One caveat so the analogy does not run away with itself. There is nothing biological or alive about this. Every step is ordinary arithmetic on computer chips, and the maths is fully written down. "Grown" is a claim about who decided the internal structure - the training process, not a person - not a claim about the model being an organism. I wrote about what [Nate Soares](/ai/nate-soares/) builds on this same "grown, not designed" starting point, which is a much darker argument than this post makes.
+
+## So why is it a black box?
+
+Because the internal structure grew rather than being designed, there is no blueprint to consult. Amodei again: "When a generative AI system does something, like summarize a financial document, we have no idea, at a specific or precise level, why it makes the choices it does".
 
 Anthropic says the same thing about its own models: the strategies models learn during training "arrive inscrutable to us, the model's developers. This means that we don't understand how models do most of the things they do."
 
@@ -168,6 +192,7 @@ The better mental model, I think, is something like: a system that was grown by 
 
 - [Mechanistic Interpretability: Reading the Mind of a Model](/ai/mechanistic-interpretability-inside-the-black-box/) - the research programme trying to open the black box
 - [We Built AI We Don't Fully Understand. What Happens When It's Smarter Than Us?](/ai/we-built-ai-we-dont-fully-understand/) - why the understanding gap matters for safety
+- [Nate Soares: Superintelligence Does Not Stay on a Leash](/ai/nate-soares/) - where the "grown, not designed" argument leads if you follow it to the extreme
 - [AI Hallucinations: Understanding and Mitigating False Outputs](/ai/ai-hallucinations-understanding-and-mitigating/) - what the next-word objective means for truthfulness
 - [Reasoning Models in 2026: o3, R1, and the Compute-at-Inference Shift](/ai/reasoning-models-2026/) - where reinforcement learning on reasoning has taken things
 - [When to Fine-Tune vs When to RAG: Choosing Your AI Architecture](/ai/fine-tune-vs-rag/) - what fine-tuning is and is not good for in practice
