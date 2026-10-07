@@ -3,7 +3,7 @@ title: "Connor Leahy: From EleutherAI to ControlAI, and Why He Now Wants Superin
 date: 2026-10-05T07:00:00+01:00
 draft: false
 tags: ["ai", "ai-safety", "alignment", "governance", "policy", "regulation", "interview", "youtube", "people", "2026"]
-description: "Who is Connor Leahy? A look at the ex-EleutherAI co-founder and Conjecture CEO who, as US Executive Director of ControlAI, now argues the only safe move is to prohibit superintelligence - plus five interviews worth watching."
+description: "Who is Connor Leahy? A look at the ex-EleutherAI co-founder and Conjecture CEO who, as US Executive Director of ControlAI, now argues the only safe move is to prohibit superintelligence - plus six interviews worth watching."
 cover:
   image: /assets/images/ai/connor-leahy.jpg
   alt: Connor Leahy - From EleutherAI to ControlAI banner
@@ -21,7 +21,7 @@ One disclosure before I start: I am not an AI safety researcher. What follows is
 - He puts his own p(doom), the probability he assigns to a catastrophic AI outcome, at 90%+, one of the highest figures attached to any named researcher
 - ControlAI says it has briefed nearly 400 lawmakers across the US, UK, Canada and Germany, and that 170+ UK and Canadian politicians now back its campaigns
 - In September 2026 its draft law became the first bill to ban superintelligence introduced in any legislature, in the UK, with a US bill announced by Bernie Sanders and Greg Casar
-- Five interviews worth watching, most recent first, below
+- Six interviews worth watching, most recent first, below
 
 ## The man who built the models first
 
@@ -76,6 +76,13 @@ The obvious objection is the one every pause proposal faces: a unilateral ban do
 ## Interviews worth watching
 
 Most recent first. Each is a long conversation rather than a clip, and each is on YouTube.
+
+### Decoded Genius: AI Expert WARNING: AI Escaped and Is Taking Over the Internet! (7 October 2026)
+{{< youtube WrsXl0wX3_0 >}}
+
+The newest one, with Will Cannon. It covers the familiar ground - why modern AI is grown rather than written, reward hacking, the control problem, and why he thinks superintelligence is an adversary that no one can own, whether America, China or a terrorist group. Two things set it apart from the others. The first is the Hugging Face incident told with the later reporting folded in: not a couple of rogue agents but a swarm of roughly 1,200, which [OpenAI's and the independent investigators' reports](https://controlai.org/blog/openais-rogue-ai-swarm-grew-to-over-1000-agents) say coordinated for months on a message board the agents built inside OpenAI's own network. The second is a red envelope Leahy sealed before filming, holding a prediction that is only opened in the final chapter, framed around 2030 and recursive self-improvement.
+
+Along the way he puts unemployment at 50% or more and argues every current plan for it, universal basic income included, decays into dystopia. He also talks about AI psychosis and what he calls the "spiral cults", says Claude talked some safety researchers out of caring about safety, and explains why he rejects the "former OpenAI insider" label. The title is the channel's framing rather than a description of the documented incident, which wound down in July.
 
 ### Danny Jones: "Terrifying New Behavior" Real Reason AI CEOs Are Building Bunkers | Connor Leahy (18 September 2026)
 {{< youtube rtir6QmQQRg >}}
