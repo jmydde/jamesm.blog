@@ -134,6 +134,7 @@ The thing to avoid is the trap of treating streaming and batch as a religious ch
 
 ## Related Reading
 
+- [Data Processing Patterns: A Field Guide to Batch, Streaming, ETL, ELT and What Else You Need to Know](/data-engineering/data-processing-patterns-field-guide/)
 - [The Modern Lakehouse Stack: What Actually Belongs in Production](/data-engineering/modern-lakehouse-stack/)
 - [AI-Native Pipelines: Where Agents Meet Data Engineering](/data-engineering/ai-native-pipelines/)
 - [Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines-2026/)
