@@ -136,6 +136,7 @@ Anthropic's bet is that they can ship the most capable model they have ever rele
 
 - [Claude Mythos: The AI Benchmark Breaker That Won't Be Released](/ai/claude-mythos-benchmarks/)
 - [The Forbidden Frontier: Claude Mythos and the Dawn of Restricted AI Power](/ai/claude-mythos-restricted/)
+- [Claude 5.5: Haiku, Sonnet, and Opus](/ai/claude-5-5-haiku-sonnet-opus/)
 - [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
 - [AI Safety From First Principles: What Actually Matters vs What's Hype](/ai/ai-safety-first-principles/)
 - [Securing AI Agents](/ai/securing-ai-agents/)

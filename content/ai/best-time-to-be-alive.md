@@ -2,7 +2,7 @@
 title: "The Best Time to Be Alive: What AI Tooling Has Given Me"
 date: 2026-10-07T19:12:00+01:00
 draft: false
-tags: ["ai", "agent", "productivity", "workflow", "parenting", "creativity", "ai-music", "image-generation", "learning", "future", "ai-safety"]
+tags: ["ai", "agent", "productivity", "workflow", "parenting", "creativity", "ai-music", "image-generation", "learning", "future", "ai-safety", "knowledge-management", "memory"]
 description: "A personal reflection on why right now feels like the best time to be alive - feeling like I can build anything, finishing songs, making art I can't draw, and stepping back from the keyboard to think about how things should really work."
 cover:
   image: /assets/images/ai/best-time-to-be-alive.jpg
@@ -12,6 +12,7 @@ cover:
 ## TL;DR
 
 - AI tooling has improved how I work and how I live - not in a vague, theoretical way, but in the day-to-day
+- I'm building personal "AI brains" - knowledge bases I brain dump into over time - that surface things I'd forgotten, find links I hadn't noticed, help me prioritise, and leave me far less anxious
 - It helps me run family life too - children, school, health, finances, legal questions, and comparing and shortlisting products
 - I feel like I can now build anything, and I'm finishing songs from melodies that used to stay as voice memos, and making artwork and videos I could never draw
 - The agents have my back for research, weighing up options and writing - and more and more, I can take myself out of the loop entirely
@@ -35,6 +36,20 @@ The first thing I noticed wasn't some grand creative breakthrough. It was the sm
 Both my work life and my personal life are full of friction - repetitive tasks, half-built systems, notes scattered everywhere, things I knew could be better but never had the time to fix. For years, improving my own workflow was always the thing that got pushed to "one day".
 
 Now it actually gets done. I describe what's annoying me, an agent helps me build the fix, and I move on. The improvements compound. Each small automation frees up a bit more time and attention, which goes into the next improvement. I wrote about one version of this in [my AI-augmented design workflow](/ai/ai-augmented-design-workflow/), but it's spread well beyond work now.
+
+Improving and automating my workflow - at work and at home - is one of the things I'm actively digging into right now, and it keeps leading somewhere bigger.
+
+## Building My AI Brains
+
+The other thing I'm deep into at the moment is building personal knowledge bases - my "AI brains". Somewhere I can brain dump into over time, bit by bit, until it becomes a digital representation of my world view: what I know, what I think, what I've done and what I care about.
+
+The honest starting point is that it's impossible for me to remember everything. I can barely remember the specifics of a month ago, let alone years or decades. Most of what I've learned, thought or decided just quietly fades.
+
+My AI brains find the details I'm looking for almost instantly, which on its own is useful. But the part that really surprises me is everything else. The agents tie it all together and find patterns in my knowledge base that I didn't know existed. They surface things I'd completely forgotten about, and they draw links between things I didn't appreciate were related. Stumbling across an old idea, a half-finished thought or a forgotten detail - and seeing how it connects to something I'm working on today - is one of the most rewarding parts of the whole thing.
+
+It's also become incredibly helpful for prioritising. With everything in one place, the agents help me work out what actually matters right now and what can wait.
+
+And that has had an effect I didn't expect: I feel a lot less anxious than I used to. Because the system has my back, there's a methodical approach to everything I do. Nothing important gets lost, so my brain can relax a bit and stop stressing about things that can be dealt with further into the future. I touched on the more technical side of this in [LLM-Powered Personal Productivity](/ai/llm-powered-personal-productivity/), but the emotional side has turned out to matter just as much.
 
 ## Running Family Life
 
@@ -113,6 +128,7 @@ The future looks incredibly bright. Let's make sure we get it right.
 ## Related Reading
 
 - [We Are Learning to Buy Intelligence](/ai/we-are-learning-to-buy-intelligence/)
+- [LLM-Powered Personal Productivity: Building a Private Automation Stack](/ai/llm-powered-personal-productivity/)
 - [Taste Is the New Scarcity](/ai/taste-is-the-new-scarcity/)
 - [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/)
 - [The Meaning of Work in an Age of Abundance](/ai/meaning-of-work-age-of-abundance/)

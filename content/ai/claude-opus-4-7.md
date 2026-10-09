@@ -78,6 +78,7 @@ For the durable take on where reasoning models are heading, see [Reasoning Model
 
 ## Related Reading
 
+- [Claude 5.5: Haiku, Sonnet, and Opus](/ai/claude-5-5-haiku-sonnet-opus/)
 - [Reasoning Models in 2026](/ai/reasoning-models-2026/)
 - [Claude Code vs Cursor: A 6-Month Comparison](/ai/claude-code-vs-cursor/)
 - [The Token Efficiency Mindset - Why Your Claude Conversations Cost More Than They Should](/ai/claude-token-efficiency-mindset/)

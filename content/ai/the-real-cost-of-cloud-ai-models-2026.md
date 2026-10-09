@@ -616,6 +616,7 @@ For developers building AI agents in 2026, understanding that economics may be a
 - [GPU Servers vs AI API Credits](/ai/gpu-servers-vs-api-credits/)
 - [Local AI vs Cloud AI in 2026](/ai/local-vs-cloud-ai-2026/)
 - [Claude Fable 5 and Mythos 5](/ai/claude-fable-5-mythos-5/)
+- [Claude 5.5: Haiku, Sonnet, and Opus](/ai/claude-5-5-haiku-sonnet-opus/)
 - [DeepSeek](/ai/deepseek/)
 - [Composer 2.5: Cursor's In-House Model Grows Up](/ai/cursor-composer-2-5/)
 - [Cursor AI](/ai/cursor-ai/)
