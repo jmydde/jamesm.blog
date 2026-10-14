@@ -45,6 +45,11 @@ I write this as an interested hobbyist rather than a researcher, so take what fo
 
 ## Interviews
 
+### 'Godfather' of AI on the 'really stupid thing' Trump is doing (14 October 2026)
+A CNN interview with Pamela Brown on The Situation Room, covering Anthropic's latest warning, Hinton's view that tech CEOs are going along with the Trump administration's misuse of AI terminology, Jensen Huang's criticisms of him, and his estimate of the odds that AI takes over from humans.
+
+{{< youtube _GLG51SAhrQ >}}
+
 ### AI Pioneer Geoffrey Hinton: AI Is Conscious, Superintelligence is Coming, And We Should Be Worried (4 June 2026)
 {{< youtube p7t1Q_p2gZs >}}
 

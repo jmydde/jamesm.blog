@@ -135,6 +135,8 @@ There will be moments when this feels too slow. Months will pass and you will fe
 
 > *You are not who you were when you hit the crisis. You have moved. You are still moving. Trust the trajectory even when you cannot feel the velocity.*
 
+One more thing I have noticed, and hold as an experience rather than a rule: the reward for the work often lags it. The idea, the solution or the right person tends to turn up weeks or months after the effort, not on the day. I write more about that in [The Universe Rewards the Work](/personal-development/the-universe-rewards-the-work/).
+
 ---
 
 ## 7. When the Universe Sends a Test
@@ -200,6 +202,7 @@ You are. Prove it by building it.
 ## Related Reading
 
 - [The Universe Has a Plan for You](/personal-development/the-universe-has-a-plan-for-you/)
+- [The Universe Rewards the Work](/personal-development/the-universe-rewards-the-work/)
 - [Boosting Productivity: Essential Habits for Personal Growth](/personal-development/boosting-productivity-habits/)
 - [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
 - [Stability in a Storm: Practical Principles for Tough Times](/personal-development/practical-principals-for-tough-times/)

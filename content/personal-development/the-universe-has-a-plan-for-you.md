@@ -57,7 +57,7 @@ This is easy to dismiss when you are in the middle of something painful. But loo
 
 My own reading is that some of this is pattern recognition. When you change your internal state - when you release anxiety and move into a place of greater openness and readiness - opportunities that were always there suddenly become visible. I also feel a pull towards something more than that, the sense that The Universe is answering where you are, but I can't show that, and I hold it as a belief rather than a fact.
 
-The timing is rarely comfortable. But it is rarely random either.
+The timing is rarely comfortable. But it is rarely random either. In my experience it also runs in a particular direction: the more work I put into something, the more likely the answer or the right person is to turn up weeks or months later. I write about that in [The Universe Rewards the Work](/personal-development/the-universe-rewards-the-work/).
 
 ---
 
@@ -123,7 +123,7 @@ I find that more than consolation - it matches how growth seems to work in my ow
 
 ## 8. We Are Here to Learn, and We Go On
 
-The longer I sit with all of this, the more I suspect that a single life is not the whole story. My honest belief is that we do not get just one life - that consciousness goes on, and on, and that each life is something closer to a chapter than to the entire book.
+The longer I sit with all of this, the more I suspect that a single life is not the whole story. My honest belief is that we do not get just one life - that consciousness goes on, and on, and that each life is something closer to a chapter than to the entire book. I increasingly suspect those chapters may not even be in sequence: perhaps we are living many lives at once, and perhaps an infinite number of them. I explore that further in [The Universe Rewards the Work](/personal-development/the-universe-rewards-the-work/).
 
 If that is true, then the difficulties take on a different meaning again. We are not here simply to be comfortable. We are here to learn, to experiment, to wrestle with problems, to invent and create and find solutions we could not have found any other way. Adversity is not a glitch in that design. It is the curriculum.
 
@@ -153,5 +153,6 @@ If you are reading this in the middle of something hard: you are not lost. You a
 
 - [From Awakening to Action: Building the Life You've Discovered](/personal-development/from-awakening-to-action/)
 - [Rebuilding Your Life With Small Systems](/personal-development/rebuilding-life-with-small-systems/)
+- [The Universe Rewards the Work](/personal-development/the-universe-rewards-the-work/)
 - [The Quiet Discipline of Self-Honesty](/personal-development/the-quiet-discipline-of-self-honesty/)
 - [Boosting Productivity: Essential Habits for Personal Growth](/personal-development/boosting-productivity-habits/)

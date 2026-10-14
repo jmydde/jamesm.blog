@@ -127,6 +127,9 @@ A lot of AI commentary is fatalism dressed up as seriousness. Soares's whole pro
 
 ## Further Watching
 
+### American Thought Leaders, The Epoch Times (10 October 2026)
+{{< youtube "1Azhdv_uvE0" >}}
+
 ### Diary of a CEO, alongside Roman Yampolskiy (17 September 2026)
 {{< youtube "7a6BfbZiDV4" >}}
 

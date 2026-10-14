@@ -62,3 +62,4 @@ But when someone does stay with it past the first reflexive no - when the questi
 - [Personal Universes: Yampolskiy's Strangest Answer to the AI Alignment Problem](/ai/yampolskiy-personal-universes/)
 - [Donald Hoffman: The Case That Consciousness Is Fundamental](/ai/donald-hoffman-consciousness-fundamental/)
 - [The Quiet Discipline of Self-Honesty](/personal-development/the-quiet-discipline-of-self-honesty/)
+- [The Universe Rewards the Work](/personal-development/the-universe-rewards-the-work/)
