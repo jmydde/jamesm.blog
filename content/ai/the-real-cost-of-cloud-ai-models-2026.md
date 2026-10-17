@@ -608,6 +608,7 @@ For developers building AI agents in 2026, understanding that economics may be a
 
 ## Related Reading
 
+- [The AI Model Price List, October 2026](/ai/ai-model-price-list-october-2026/)
 - [Token Economics: Why Your AI Bill Isn't Going Down](/ai/token-economics-why-costs-arent-going-down/)
 - [Prompt Caching: The Quiet Performance Win for LLM Applications](/ai/prompt-caching/)
 - [The Token Efficiency Mindset](/ai/claude-token-efficiency-mindset/)
