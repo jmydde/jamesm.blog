@@ -1,6 +1,6 @@
 ---
 title: "DeepSeek Open-Sources DeepInfer, the Engine Behind Its Models"
-date: 2026-10-20T19:30:00+01:00
+date: 2026-10-20T19:00:00+01:00
 draft: false
 tags: ["ai", "deepseek", "inference", "open-source", "infrastructure", "nvidia", "hardware", "cost", "2026"]
 description: "DeepSeek has released DeepInfer, the inference framework it uses to serve its own models, under Apache 2.0. What it does, what it leaves out, and why it matters more than it looks."
