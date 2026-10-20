@@ -1,7 +1,7 @@
 ---
 title: "Best Synth Workstations in 2026: MODX M8 vs Nautilus vs Fantom EX vs Kurzweil K2700"
 date: 2026-10-14T12:00:00+01:00
-draft: true
+draft: false
 tags: ['yamaha', 'korg', 'roland', 'synth', 'workstation', 'keyboard', 'modx', 'montage', 'comparison']
 description: "How the Yamaha MODX M8 stacks up against the Korg Nautilus, Roland Fantom EX and Kurzweil K2700 - sound engines, playability and where each one makes sense."
 cover:

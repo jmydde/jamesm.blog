@@ -1,7 +1,7 @@
 ---
 title: "Top 5 Digital Pianos and Stage Pianos in 2026"
 date: 2026-10-14T13:00:00+01:00
-draft: true
+draft: false
 tags: ['piano', 'keyboard', 'yamaha', 'roland', 'music-production', 'comparison']
 description: "Five digital and stage pianos worth shortlisting in 2026: Nord Piano 6, Yamaha CP88, Roland RD-2000 EX, Kawai ES920 and Yamaha Clavinova CLP-835."
 cover:
