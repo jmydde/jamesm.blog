@@ -42,6 +42,7 @@ DeepSeek had already shipped its V3 base model in late December 2024, but it was
 
 ## Related Reading
 
+- [DeepSeek Open-Sources DeepInfer, the Engine Behind Its Models](/ai/deepseek-deepinfer-open-source-inference-engine/)
 - [GPT-5.5 Is Here: Real Step Forward or Quiet Iteration?](/ai/gpt-5-5-release/)
 - [Claude Opus 4.7: Autonomy and Vision at Scale](/ai/claude-opus-4-7/)
 - [Google Gemini Ultra](/ai/google-gemini-ultra/)
