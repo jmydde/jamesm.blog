@@ -4,6 +4,9 @@ date: 2026-10-14T15:00:00+01:00
 draft: false
 tags: ["personal-development", "philosophy", "mindset", "resilience", "growth", "life-purpose", "simulation"]
 description: "A personal essay on putting the work in, treating life as a test, sitting with the problem of suffering, and quietly withdrawing attention from the things I cannot control."
+cover:
+  image: /assets/images/personal-development/the-universe-rewards-the-work.jpg
+  alt: The Universe Rewards the Work - a lone figure walking a glowing path under a starry sky towards a lit doorway, with the title overhead
 ---
 
 ## *On Effort, Tests, and Choosing What to Pay Attention To*
