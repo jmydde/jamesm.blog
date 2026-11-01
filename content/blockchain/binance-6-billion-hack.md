@@ -4,6 +4,9 @@ date: 2026-11-01T21:30:00+00:00
 draft: false
 tags: ['blockchain', 'cryptocurrency', 'security', 'bitcoin', 'ethereum', 'news']
 description: "Binance says hackers took more than $6 billion on 29 October 2026, likely the largest crypto theft on record. What is confirmed, what is only attributed, what has been frozen, and what is still unknown."
+cover:
+  image: /assets/images/blockchain/binance-6-billion-hack.jpg
+  alt: The $6.3 Billion Binance Hack Banner
 ---
 
 ## TL;DR
