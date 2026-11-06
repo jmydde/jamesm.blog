@@ -4,6 +4,9 @@ date: 2026-11-06T16:10:00+00:00
 draft: false
 tags: ["security", "linux", "docker", "devops", "2026"]
 description: "A 2012 change in musl's crypt(), a 2016 OpenSSH hardening patch and a password longer than 256 bytes combine into an authentication bypass on Alpine and other musl systems. It was exploited within hours of disclosure. Here is how the bug works and what to do about it."
+cover:
+  image: /assets/images/security/sshole-openssh-musl-password-bypass.jpg
+  alt: A glowing asterisk-shaped lock on a giant vault door set into a castle wall, with binary code pouring through the keyhole
 ---
 
 ## TL;DR
