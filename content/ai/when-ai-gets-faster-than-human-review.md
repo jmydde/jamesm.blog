@@ -4,6 +4,9 @@ date: 2026-11-06T15:00:00+00:00
 draft: false
 tags: ["ai", "agent", "inference", "hardware", "devops", "governance", "future", "2026"]
 description: "ChatJimmy, Taalas's demo of a model hardwired into silicon, answers almost instantly. The interesting question is not the chatbot. It is what happens to software engineering when the slowest part of the loop is a human reading a diff."
+cover:
+  image: /assets/images/ai/when-ai-gets-faster-than-human-review.jpg
+  alt: When AI Gets Faster Than Human Review - a person at a desk facing walls of streaming code
 ---
 
 ## TL;DR
