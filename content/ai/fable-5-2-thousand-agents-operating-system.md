@@ -4,6 +4,9 @@ date: 2026-11-11T05:00:00+00:00
 draft: false
 tags: ["ai", "anthropic", "claude", "fable", "agent", "agentic-engineering", "software-engineering", "verification", "future-of-work", "2026"]
 description: "Anthropic says one engineer had Claude Fable 5.2 coordinate over 1,000 subagents for eight days and build an operating system that boots on a laptop. The headline is the OS. I think the more useful lesson is why an OS is such a good test, and what the announcement leaves out."
+cover:
+  image: /assets/images/ai/fable-5-2-thousand-agents-operating-system.jpg
+  alt: A Thousand Agents, One Engineer, Eight Days - a person watching a laptop boot an operating system while a network of glowing agents builds drivers, file system, windows and login around it
 ---
 
 ## TL;DR
