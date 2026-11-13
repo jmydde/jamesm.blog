@@ -4,6 +4,9 @@ date: 2026-11-13T12:00:00+00:00
 draft: false
 tags: ["aws", "cloud", "devops", "agent", "testing", "ai", "claude-code", "software-engineering", "open-source", "2026"]
 description: "On 11 November 2026 AWS released AWS Emulator, a free local emulator of AWS APIs. The more interesting claim is how it was built: AWS says autonomous agents wrote it and no human wrote or reviewed the code. Here is what it does, what it doesn't, and how it sits next to LocalStack."
+cover:
+  image: /assets/images/devops/aws-emulator-local-aws-written-by-agents.jpg
+  alt: AWS Emulator - glowing blue agent figures building a cloud architecture on a laptop, beside a fidelity test runner showing 501 Not Implemented results and an "IAM not evaluated" sign
 ---
 
 ## TL;DR
