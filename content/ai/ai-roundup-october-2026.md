@@ -4,6 +4,9 @@ date: 2026-10-31T18:00:00+00:00
 draft: false
 tags: ["ai", "news", "anthropic", "openai", "google", "gemini", "mistral", "model-release"]
 description: "The biggest AI news of October 2026: Claude Haiku 5.5, Gemini 4 Argon rolling out, OpenAI's parallel agents and its Google Cloud deal, Mistral's one-trillion-parameter open-weights model, and Anthropic's IPO preparations."
+cover:
+  image: /assets/images/ai/ai-roundup-october-2026.jpg
+  alt: "AI Roundup: October 2026 header image"
 ---
 
 ## TL;DR
@@ -54,6 +57,7 @@ Anthropic told investors on 14 October that third-quarter revenue was $16.8 bill
 
 ## Related Reading
 
+- [AI Roundup: September 2026](/ai/ai-roundup-september-2026/)
 - [Anthropic's IPO: What the S-1 Says That Matters If You Build on Claude](/ai/anthropic-ipo-s-1-what-builders-should-read/)
 - [The AI Model Price List, October 2026](/ai/ai-model-price-list-october-2026/)
 - [The State of Open-Weight Models in 2026: Llama, Qwen, Mistral, DeepSeek](/ai/state-of-open-weight-models-2026/)

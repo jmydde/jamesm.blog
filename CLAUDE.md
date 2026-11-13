@@ -67,7 +67,14 @@ factual claim traces to something actually verified.
   item by web search, prefer primary or major-outlet sources, say where
   sources disagree, attribute company claims, and never include an item you
   could not corroborate. Keep it as `draft: true` until James has reviewed it.
-  Link the previous month's roundup in `## Related Reading`.
+  Link the previous month's roundup in `## Related Reading`. Every roundup
+  needs a header image: run `python3 scripts/make-roundup-cover.py <year>
+  <month>` (writes `static/assets/images/ai/ai-roundup-<month>-<year>.jpg`
+  with the title baked in) and set `cover.image` to it in the frontmatter.
+  A roundup's `date` is the last day of its month, but Hugo hides future-dated
+  posts, so the current month's roundup keeps today's date while it is being
+  updated, and is set to the month's last day when finalised on that day.
+  Start the next month's roundup on the 1st.
 - News posts on controversial or sensitive topics (scandals, lawsuits, personal
   conduct) state confirmed facts only: no "My take", no personal opinion, and
   no unconfirmed allegations about named people.
