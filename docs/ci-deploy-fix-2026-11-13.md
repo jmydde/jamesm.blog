@@ -11,9 +11,9 @@ The GitHub Actions workflow (`.github/workflows/deploy.yml`) was failing, so pus
 ## Problem 2: deploy could not reach the server
 
 - **Error:** `ssh: connect to host jamesm.blog port 22: Network is unreachable`, after hanging about 4.5 minutes.
-- **Cause:** `jamesm.blog` is proxied by Cloudflare, which does not pass SSH. Locally this works only because `~/.ssh/config` maps `jamesm.blog` to the origin IP `217.154.16.154`. The CI runner has no such mapping.
+- **Cause:** `jamesm.blog` is proxied by Cloudflare, which does not pass SSH. Locally this works only because `~/.ssh/config` maps `jamesm.blog` to the origin IP. The CI runner has no such mapping.
 - **Fix** (commit `e1e16745f`):
-  - rsync now targets `DEPLOY_HOST`, which defaults to `217.154.16.154` and can be overridden with a repo variable.
+  - rsync now targets the `DEPLOY_HOST` repo secret, which holds the origin IP (kept out of this public repo).
   - `-o HostKeyAlias=jamesm.blog` so host-key checking still uses the `jamesm.blog` name.
   - `-o ConnectTimeout=20` so a blocked connection fails fast.
 
@@ -24,7 +24,7 @@ The GitHub Actions workflow (`.github/workflows/deploy.yml`) was failing, so pus
 - **Fix:**
   1. Scan the server key, check it matches the local `~/.ssh/known_hosts` entry, and set the secret:
      ```
-     ssh-keyscan -t ed25519 217.154.16.154 | sed 's/^217.154.16.154/jamesm.blog/' | gh secret set DEPLOY_KNOWN_HOSTS --repo jmydde/jamesm.blog
+     ssh-keyscan -t ed25519 <ORIGIN_IP> | sed 's/^<ORIGIN_IP>/jamesm.blog/' | gh secret set DEPLOY_KNOWN_HOSTS --repo jmydde/jamesm.blog
      ```
   2. Generate a dedicated deploy key (not the personal key), store the private half as `DEPLOY_SSH_KEY`, and delete the local private key:
      ```
@@ -44,6 +44,6 @@ Run `43514092290` passed: build in 17s, deploy in 8s. Pushes to `main` now deplo
 ## Notes for the future
 
 - **Rotating or revoking:** the deploy key's public line ends with `github-actions-deploy jamesm.blog`. Delete that line from the server's `~/.ssh/authorized_keys` to revoke it, then regenerate and reset `DEPLOY_SSH_KEY`.
-- **If the origin IP changes** (see the comment in `~/.ssh/config`): set the `DEPLOY_HOST` repo variable, and refresh `DEPLOY_KNOWN_HOSTS` if the host key changed too.
+- **If the origin IP changes** (see the comment in `~/.ssh/config`): update the `DEPLOY_HOST` secret, and refresh `DEPLOY_KNOWN_HOSTS` if the host key changed too.
 - **Hugo version:** keep `HUGO_VERSION` in the workflow at or above the local version and PaperMod's minimum.
 - **Pre-deploy checks:** `deploy.sh` runs `validate-tags.py` and `link-audit.py` before rsync. The workflow does not, so run them locally first.

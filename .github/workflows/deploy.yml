@@ -101,8 +101,9 @@ jobs:
       - name: Rsync to the live server
         env:
           DEPLOY_USER: ${{ vars.DEPLOY_USER || 'root' }}
-          # Origin IP: jamesm.blog is proxied by Cloudflare, which does not pass SSH.
-          DEPLOY_HOST: ${{ vars.DEPLOY_HOST || '217.154.16.154' }}
+          # Origin host: jamesm.blog is proxied by Cloudflare, which does not pass SSH.
+          # Kept in a secret so the origin IP is not published in this public repo.
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
           DEPLOY_PATH: ${{ vars.DEPLOY_PATH || '/var/www/vhosts/jamesm.blog/httpdocs/' }}
         run: |
           rsync -avz --delete \
