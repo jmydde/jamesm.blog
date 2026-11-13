@@ -18,7 +18,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - Each entry is a one-line description so you can scan quickly and click into anything interesting
 - Best used as a discovery surface - bookmark the ones that match your work and ignore the rest
 - Heavily skewed toward tools that have actually been useful or notable rather than every product in the space
-- Living list - the tools update as the ecosystem moves, so the categories matter more than any single entry
+- Living list - last link-checked and refreshed 13 November 2026, with dead links fixed, renamed products updated and a few new agents and frameworks added
 
 ## AI Tools
 
@@ -30,9 +30,10 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [Deep Nostalgia](https://www.myheritage.com/deep-nostalgia/) - animate your family photos
 - [FLUX](https://blackforestlabs.ai/) - state-of-the-art open-weights text-to-image models from Black Forest Labs
 - [Ideogram](https://ideogram.ai/) - text-to-image generator known for accurate in-image text rendering
+- [ComfyUI](https://comfy.org/) - node-based workflow tool for running image and video models with fine control
 - [Krea](https://www.krea.ai/) - real-time AI image generation and enhancement
 - [Leonardo](https://leonardo.ai/) - create stunning game assets and concept art with AI
-- [Magnific](https://magnific.ai/) - AI upscaler and image enhancer
+- [Magnific](https://www.magnific.com/) - AI upscaler and image enhancer
 - [Microsoft Designer](https://designer.microsoft.com/) - stunning designs, made lightning fast with AI
 - [Midjourney](https://midjourney.com) - generates images from natural language descriptions, called "prompts"
 - [Playground](https://playgroundai.com/) - create any image from your imagination
@@ -47,7 +48,9 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [DeepSeek](https://www.deepseek.com/) - open-weight Chinese frontier models with competitive reasoning
 - [Google Gemini](https://gemini.google.com/) - conversational generative AI chatbot from Google (formerly Bard), available in free and Pro tiers
 - [Grok](https://grok.com/) - xAI's chatbot integrated with X (Twitter), known for real-time data access
+- [Qwen](https://qwen.ai/) - Alibaba's model family and chat interface
 - [Le Chat](https://chat.mistral.ai/) - Mistral AI's chatbot with open-weight model heritage
+- [Kimi](https://kimi.com/) - Moonshot AI's chatbot, aimed at coding and agentic tasks
 - [Perplexity](https://www.perplexity.ai/) - answer engine combining LLMs with web search and citations
 - [Poe](https://poe.com/) - Quora's unified front-end for many models (Claude, GPT, Gemini, image models, custom bots)
 
@@ -64,19 +67,20 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 
 ### Design
 - [Flair](https://flair.ai/) - AI design tool for branded content
-- [Galileo AI](https://www.usegalileo.ai/) - creates delightful, editable UI designs from a simple text description
+- [Stitch](https://stitch.google.com/) - Google's tool for generating mobile and web UIs from a prompt (the old Galileo AI address now redirects here)
 
 ### Coding Agents & AI IDEs
 - [Aider](https://aider.chat/) - AI pair programmer in your terminal, works with any LLM and your git repo
-- [Claude Code](https://www.anthropic.com/claude-code) - Anthropic's official terminal-based coding agent powered by Claude
+- [Claude Code](https://claude.com/product/claude-code) - Anthropic's official terminal-based coding agent powered by Claude
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source agent that brings Gemini into your terminal
 - [Cline](https://cline.bot/) - open-source autonomous coding agent for VS Code
 - [Continue](https://www.continue.dev/) - open-source AI code assistant for VS Code and JetBrains
 - [Cursor](https://www.cursor.com/) - AI-first code editor (VS Code fork) with chat, edit, and agent modes
+- [OpenAI Codex](https://developers.openai.com/codex) - OpenAI's coding agent, documented for use with ChatGPT
+- [OpenCode](https://opencode.ai/) - open-source coding agent that connects to models from 200+ providers
 - [GitHub Copilot](https://github.com/features/copilot/) - AI pair programmer integrated into VS Code, JetBrains, Neovim and Visual Studio
 - [Replit](https://replit.com/) - browser-based IDE with Replit Agent for building full apps from prompts
-- [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with deep codebase context
-- [Tabnine](https://www.tabnine.com/) - privacy-focused AI code completion
-- [Windsurf](https://windsurf.com/) - agentic IDE (formerly Codeium) with Cascade autonomous workflows
+- [Windsurf](https://windsurf.com/) - agentic IDE (formerly Codeium); the site now brands it Devin Desktop, a command center for managing local and cloud agents
 - [Zed](https://zed.dev/) - high-performance collaborative editor with native AI assistant integration
 
 ### AI App Builders
@@ -102,7 +106,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [Udio](https://www.udio.com/) - high-fidelity AI music generation with strong lyric and style control
 
 ### Project Management
-- [LiquidPlanner](https://www.liquidplanner.com/) - project management solution that dynamically adapts to change and manages uncertainty to help teams plan, predict, and perform with confidence
+- [LiquidPlanner](https://www.tempo.io/products/portfolio-manager) - portfolio management software that optimises team capacity across projects (now part of Tempo)
 
 ### Prompt Engineering
 - [Borriss](https://borriss.gumroad.com/)
@@ -119,16 +123,16 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 ### Video
 - [Descript](https://www.descript.com/) - write, record, transcribe, edit, collaborate, and share your videos and podcasts
 - [HeyGen](https://www.heygen.com/) - AI avatars and video translation for marketing and training
-- [Kling](https://klingai.com/) - high-quality text-to-video model from Kuaishou
+- [Kling](https://kling.ai/) - high-quality text-to-video model from Kuaishou
 - [Pika](https://pika.art/) - text- and image-to-video generation with creative effects
-- [Runway](https://runwayml.com/) - leading AI video platform with the Gen-3 / Gen-4 family of models
+- [Runway](https://runway.com/) - leading AI video platform with the Gen-3 / Gen-4 family of models
 - [Sora](https://openai.com/sora/) - OpenAI's text-to-video model, available via ChatGPT
 - [Synthesia](https://www.synthesia.io/) - AI video creation with realistic avatars for enterprise training
 - [Veo](https://deepmind.google/technologies/veo/) - Google DeepMind's text-to-video model
 
 ### Website Builders
 - [10Web](https://10web.io/) - AI-powered WordPress platform
-- [Durable](https://durable.co/) - AI website builder that generates an entire website with images and copy in seconds
+- [Durable](https://durable.com/) - AI website builder that generates an entire website with images and copy in seconds
 
 ### Writing
 - [AISEO](https://aiseo.ai/) - AI writing assistant that delivers undetectable, human-like content in just a few clicks
@@ -139,7 +143,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [Gamma](https://gamma.app/) - start writing beautiful & engaging content with none of the formatting and design work
 - [Jasper](https://www.jasper.ai/) - AI writer and AI art generator
 - [Kickresume](https://www.kickresume.com/en/) - create a beautiful resume in minutes using AI & customizable templates
-- [Notion](https://www.notion.so/product/ai/) - organizational tools including task management, project tracking, to-do lists, bookmarking, and more
+- [Notion](https://www.notion.com/product/ai) - organizational tools including task management, project tracking, to-do lists, bookmarking, and more
 - [Ocoya](https://www.ocoya.com/) - create and schedule social media, content marketing & copywriting quicker using AI
 - [Paperpal](https://paperpal.com/) - real-time, subject-specific language suggestions that help you write better, faster
 - [Postwise](https://postwise.ai/) - craft engaging posts with AI, schedule effortlessly and watch your followers grow
@@ -163,7 +167,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [Audiense](https://www.audiense.com/) - audience Intelligence platform, helping marketers and consumer researchers to be innovative and develop relevant audience-centric strategies through proprietary social consumer segmentation
 - [Bardeen](https://www.bardeen.ai/) - mission is to help people leverage technology, do more of what they love, and stay in the flow
 - [Brancher](https://brancher.ai/) - connect AI models to build AI apps in minutes, with no-code
-- [Decoherence](https://decoherence.co/) - create what can't be filmed
+- [Decohere](https://www.decohere.co/) - create what can't be filmed
 - [DoNotPay](https://donotpay.com/) - the world's first robot lawyer
 - [Fyle](https://www.fylehq.com/) - real-time expense management
 - [Google Flood AI](https://blog.google/outreach-initiatives/sustainability/flood-hub-ai-flood-forecasting-more-countries/)
@@ -176,7 +180,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [Octane AI](http://octaneai.com) - Shopify app for AI-powered customer engagement
 - [Outfits AI](https://www.outfitsai.com/) - try on any outfits using AI
 - [Regie](http://regie.ai) - AI sales assistant for email
-- [Smart Copy](https://unbounce.com/product/smart-copy/) - Unbounce's AI copywriting tool (formerly Snazzy AI) for social media ads, landing pages and more
+- [Smart Copy](https://unbounce.com/) - Unbounce's AI copywriting tool (formerly Snazzy AI) for social media ads, landing pages and more
 - [Sprout Social](https://sproutsocial.com/) - extract real business value from social
 - [Taskade](http://taskade.com) - AI-powered workspace for productivity
 - [TldV](http://tldv.io) - AI meeting recorder and summarizer
@@ -189,7 +193,7 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 ### Research
 - [Consensus](https://consensus.app/) - search engine that uses AI to extract and distill findings directly from scientific research
 - [Elicit](https://elicit.com/) - research assistant that finds, summarises, and extracts data from academic papers
-- [NotebookLM](https://notebooklm.google/) - Google's research and note-taking tool with grounded sources and audio overviews
+- [NotebookLM](https://notebook.google/) - Google's research and note-taking tool with grounded sources and audio overviews
 - [ResearchRabbit](https://www.researchrabbit.ai/) - citation-graph discovery tool for academic papers
 - [Scholarcy](https://www.scholarcy.com/) - reads research articles, reports, and book chapters and breaks them down into bite-sized sections
 - [SciSpace](https://scispace.com/) - do hours worth of reading and understanding in minutes
@@ -203,13 +207,14 @@ tags: ["ai", "art", "resource", "tool", "design", "llm", "chatbot", "chatgpt", "
 - [vLLM](https://github.com/vllm-project/vllm) - high-throughput, memory-efficient inference engine for LLMs
 
 ### AI Development Frameworks
+- [OpenRouter](https://openrouter.ai/) - one API and billing layer for models from many providers
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's framework for building multi-agent conversations
 - [CrewAI](https://www.crewai.com/) - framework for orchestrating role-playing autonomous AI agents
 - [Hugging Face](https://huggingface.co/) - the open-source hub for models, datasets, and ML tooling
 - [LangChain](https://www.langchain.com/) - framework for building applications with LLMs through composable chains and agents
 - [LangGraph](https://www.langchain.com/langgraph) - LangChain's library for building stateful, multi-actor agent workflows
 - [LlamaIndex](https://www.llamaindex.ai/) - data framework for connecting custom data sources to LLMs
-- [Pydantic AI](https://ai.pydantic.dev/) - type-safe agent framework from the makers of Pydantic
+- [Pydantic AI](https://pydantic.dev/docs/ai/overview/) - type-safe agent framework from the makers of Pydantic
 
 ### Spec-driven Development (SDD)
 - [GitHub Spec Kit](https://github.com/github/spec-kit) - toolkit to help you get started with Spec-Driven Development (SDD) - specifications become executable, directly generating working implementations rather than just guiding them
