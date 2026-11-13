@@ -101,11 +101,13 @@ jobs:
       - name: Rsync to the live server
         env:
           DEPLOY_USER: ${{ vars.DEPLOY_USER || 'root' }}
+          # Origin IP: jamesm.blog is proxied by Cloudflare, which does not pass SSH.
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST || '217.154.16.154' }}
           DEPLOY_PATH: ${{ vars.DEPLOY_PATH || '/var/www/vhosts/jamesm.blog/httpdocs/' }}
         run: |
           rsync -avz --delete \
-            -e "ssh -i ~/.ssh/id_deploy -o StrictHostKeyChecking=yes" \
-            public/ "${DEPLOY_USER}@jamesm.blog:${DEPLOY_PATH}"
+            -e "ssh -i ~/.ssh/id_deploy -o StrictHostKeyChecking=yes -o HostKeyAlias=jamesm.blog -o ConnectTimeout=20" \
+            public/ "${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}"
 
       - name: Remove the key
         if: always()
