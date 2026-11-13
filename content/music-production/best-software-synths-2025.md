@@ -23,7 +23,7 @@ Software synthesizers in 2025 are a study in contrast and creativity - flagship 
 | [Pigments 7](https://www.arturia.com/products/software-instruments/pigments/overview) | Arturia | December 16, 2025 | Redesigned Play View, new tone-shaping tools (Rage, Ripple, Reverb, Corroder), more presets, expanded wavetables, samples, tutorials. |
 | [Serum 2](https://xferrecords.com/products/serum-2) | Xfer Records | March 17, 2025 | Spectral morphing, multisample and granular oscillators, richer modulation; retains original workflow. |
 | [Vital Pro 2](https://vital.audio/) | Matt Tytel | 2025 Update | Deeper wavetable morphing, AI-assisted content generation, light CPU use. |
-| [VPS Avenger 2](https://www.vengeance-sound.com/plugins.php) | Vengeance Sound | 2025 Evolution | Live macro morphing, new oscillators, creative grid for fast sound sculpting; performance-oriented powerhouse. |
+| [VPS Avenger 2](https://www.vengeance-sound.com/) | Vengeance Sound | 2025 Evolution | Live macro morphing, new oscillators, creative grid for fast sound sculpting; performance-oriented powerhouse. |
 
 ---
 

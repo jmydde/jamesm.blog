@@ -128,7 +128,7 @@ This was a genuinely good interview, and a refreshingly positive one. DHH is ene
 - [Promoting AI agents - David Heinemeier Hansson](https://world.hey.com/dhh/promoting-ai-agents-3ee04945) - 7 January 2026
 - [Endless execution - David Heinemeier Hansson](https://world.hey.com/dhh/endless-execution-4157e065) - 9 August 2026
 - [Rails World 2026 Opening Keynote - DHH (YouTube)](https://www.youtube.com/watch?v=vDjW_dRyKXY)
-- [Rails World 2026 Opening Keynote - Hraness summary and transcript](https://hraness.com/reading/rails-world-2026-opening-keynote-dhh)
+- [Rails World 2026 Opening Keynote (DHH, YouTube)](https://www.youtube.com/watch?v=vDjW_dRyKXY)
 - [Rails World 2026 Opening Keynote - RubyEvents.org](https://www.rubyevents.org/talks/opening-keynote-rails-world-2026) - date and location
 - [DHH's Rails World 2026 Keynote: Building Software When Agents Write the Code - Makers' Den](https://makersden.io/blog/dhh-rails-world-2026-ai-agents)
 - [Transcript: Lex Fridman Podcast #501 with DHH](https://lexfridman.com/dhh-2-transcript/) - source of the vibe coding definition

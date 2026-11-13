@@ -90,7 +90,7 @@ As part of my first job as a computer operator (1992) I was responsible for oper
 
 #### Software
 - [AOS/VS II](https://en.wikipedia.org/wiki/AOS/VS_II) - Operating System
-  - [CLI32](http://phrack.org/issues/44/14.html/) - developing automation scripts
+  - [CLI32](http://phrack.org/issues/44/14) - developing automation scripts
 - [Micro Focus COBOL](https://en.wikipedia.org/wiki/Micro_Focus) - developing reports
 - [Cyberscience CyberQuery / CyberScreen (CQCS)](https://www.cyberscience.com/what-is-cyberquery/) - building Business Intelligence & database solutions
 

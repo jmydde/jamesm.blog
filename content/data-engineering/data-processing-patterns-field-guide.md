@@ -87,7 +87,7 @@ The difference is **where the transform runs**.
 | Role | Open source | SaaS | Enterprise |
 |---|---|---|---|
 | Extract + load | [Airbyte](https://airbyte.com/), [dlt](https://dlthub.com/), [Meltano](https://meltano.com/) | [Fivetran](https://www.fivetran.com/), Airbyte Cloud | [Informatica](https://www.informatica.com/), [Qlik Talend](https://www.talend.com/), IBM DataStage |
-| Transform (ELT) | [dbt Core](https://www.getdbt.com/), [SQLMesh](https://sqlmesh.com/), Spark SQL | dbt platform, Snowflake dynamic tables, Databricks Lakeflow | Informatica, Ab Initio |
+| Transform (ELT) | [dbt Core](https://www.getdbt.com/), [SQLMesh](https://web.archive.org/web/20260213033021/https://sqlmesh.com/), Spark SQL | dbt platform, Snowflake dynamic tables, Databricks Lakeflow | Informatica, Ab Initio |
 
 **My first pick:** dlt or Airbyte for loading, dbt or SQLMesh for modelling. I compare the last two in dbt vs SQLMesh, and the wider tool landscape is in the [ETL tools guide](/data-engineering/etl-tools/).
 

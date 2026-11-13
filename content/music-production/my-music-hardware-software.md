@@ -333,7 +333,7 @@ Software instruments, effects and soundware leveraging research-led design.
 |---|---|
 | [Antares](https://www.antarestech.com/) | [Choir](https://web.archive.org/web/20250304082719/https://www.antarestech.com/products/vocal-effects/choir) |
 | [Dear Reality](https://www.dear-reality.com/) | [EXOVERB Micro](https://www.dear-reality.com/products/exoverb-micro) |
-| [GForce Software](https://www.gforcesoftware.com/) | [impOSCar2](https://www.gforcesoftware.com/products/imposcar2/) |
+| [GForce Software](https://www.gforcesoftware.com/) | [impOSCar2](https://www.gforcesoftware.com/) |
 | [Minimal Audio](https://www.minimal.audio/) | [Rift Filter Lite](https://www.minimal.audio/products/rift-filter-lite) |
 | [Moog](https://www.moogmusic.com/) | [Moogerfooger MF-108S Cluster Flux](https://web.archive.org/web/20250207012329/https://www.moogmusic.com/products/moogerfooger-mf-108m-cluster-flux) |
 | [Plugin Boutique](https://www.pluginboutique.com/) | [StereoSavage 2 Elements](https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/9785-StereoSavage-2-Elements) |

@@ -70,7 +70,7 @@ The honest case against Flink in 2026 is also worth being clear about.
 
 **Pure batch workloads.** For workloads that are genuinely batch - daily, weekly, monthly aggregations with no latency requirement - the batch warehouses (Snowflake, BigQuery, Databricks) are still operationally simpler and competitively priced. Flink can do batch work but the framework is optimised for streaming, and the choice is mostly about whether you also have streaming workloads that share the infrastructure.
 
-**Very simple streaming workloads.** For trivial transformations on event streams - filter, route, simple enrichment - a stream processor like [Materialize](https://materialize.com/) or a simpler tool like [Bytewax](https://bytewax.io/) or [Quix Streams](https://quix.io/) may be the right choice. Flink's full power is overkill for these workloads and the simpler tools have lower operational overhead.
+**Very simple streaming workloads.** For trivial transformations on event streams - filter, route, simple enrichment - a stream processor like [Materialize](https://materialize.com/) or a simpler tool like [Bytewax](https://github.com/bytewax/bytewax) or [Quix Streams](https://quix.io/) may be the right choice. Flink's full power is overkill for these workloads and the simpler tools have lower operational overhead.
 
 **Workloads requiring exotic latency.** Flink is fast enough for most "real-time" workloads where "real-time" means seconds or sub-seconds. For workloads requiring sub-millisecond latency - high-frequency trading, certain ad-tech use cases, some IoT applications - more specialised systems remain the right choice.
 

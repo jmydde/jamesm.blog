@@ -24,9 +24,9 @@ cover:
 - [CloudAcademy](https://cloudacademy.com/)
   - [AWS Solutions Architect – Associate (SAA-C03) Certification Preparation for AWS](https://cloudacademy.com/learning-paths/aws-solutions-architect-associate-saa-c03-certification-preparation-for-aws-1-7446/)
 - [Pluralsight](https://www.pluralsight.com/)
-  - [AWS Certified Developer (Associate)](https://www.pluralsight.com/paths/aws-certified-developer-associate)
-  - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate)
-  - [AWS Certified SysOps Administrator (Associate)](https://www.pluralsight.com/paths/aws-certified-sysops-administrator-associate-soa-c02)
+  - [AWS Certified Developer (Associate)](https://www.pluralsight.com/paths/aws-certified-developer-associate-dva-c01)
+  - [AWS Certified Solutions Architect (Associate)](https://www.pluralsight.com/paths/aws-certified-solutions-architect-associate-saa-c03)
+  - [AWS Certified SysOps Administrator (Associate)](https://www.pluralsight.com/paths/aws-certified-sysops-admin-associate)
 - [Whizlabs](https://www.whizlabs.com/)
   - [AWS Certified Developer (Associate)](https://www.whizlabs.com/aws-developer-associate/)
   - [AWS Certified Solutions Architect (Associate)](https://www.whizlabs.com/aws-solutions-architect-associate/)
@@ -37,7 +37,7 @@ cover:
   - [AWS Certified DevOps Engineer (Professional)](https://acloudguru.com/course/aws-certified-devops-engineer-professional/)
   - [AWS Certified Solutions Architect (Professional)](https://acloudguru.com/course/aws-certified-solutions-architect-professional/)
 - [Pluralsight](https://www.pluralsight.com/)
-  - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional-dop-c01/)
+  - [AWS Certified DevOps Engineer (Professional)](https://www.pluralsight.com/paths/aws-certified-devops-engineer-professional)
 
 ### Command-line Interface (CLI)
 - [Pluralsight](https://www.pluralsight.com/)
@@ -64,7 +64,7 @@ cover:
 
 ### General
 - [CBT Nuggets](https://www.cbtnuggets.com/)
-  - [AWS Technical Essentials](https://www.cbtnuggets.com/blog/career/career-progression/new-course-aws-technical-essentials/)
+  - [AWS Technical Essentials](https://www.cbtnuggets.com/it-training/aws)
 - [CloudAcademy](https://cloudacademy.com/)
   - [Introduction to Amazon Web Services (AWS)](https://cloudacademy.com/course/introduction-to-amazon-web-services-aws/course-introduction-and-overview-1/)
   - [How to Move Your Website to AWS with PHP, MySQL, and Apache](https://cloudacademy.com/course/move-your-lamp-stack-to-aws/installing-the-lamp-stack-1/)
@@ -141,7 +141,7 @@ cover:
 
 ## Google Cloud Platform (GCP)
 - [CBT Nuggets](https://www.cbtnuggets.com/)
-  - [Developing Solutions for Google Cloud Platform](https://www.cbtnuggets.com/it-training/skills/cpd200-developing-solutions-for-google-cloud-platform/)
+  - [Developing Solutions for Google Cloud Platform](https://www.cbtnuggets.com/it-training/google-cloud)
 - [CloudAcademy](https://cloudacademy.com/)
   - [Google Cloud Platform Fundamentals](https://cloudacademy.com/learning-paths/google-cloud-platform-fundamentals-54/)
 
@@ -152,7 +152,6 @@ cover:
 ## Infrastructure-as-Code
 - [A Cloud Guru](https://acloudguru.com/)
   - [HashiCorp Certified Terraform Associate](https://acloudguru.com/course/hashicorp-certified-terraform-associate/)
-  - [HashiCorp Packer](https://acloudguru.com/course/hashicorp-packer)
 - [KodeKloud](https://kodekloud.com/)
   - [HashiCorp Certified: Consul Associate Certification](https://kodekloud.com/courses/hashicorp-certified-consul-associate-certification/)
   - [HashiCorp Certified: Terraform Associate Certification](https://kodekloud.com/courses/hashicorp-certified-terraform-associate/)
@@ -232,7 +231,7 @@ cover:
 
 ## Networking
 - [CBT Nuggets](https://www.cbtnuggets.com/)
-  - [Building a Network Design](https://www.cbtnuggets.com/it-training/networking/network-design/)
+  - [Building a Network Design](https://www.cbtnuggets.com/it-training/networking)
 
 ## OpenStack
 - [Pluralsight](https://www.pluralsight.com/)
@@ -255,7 +254,7 @@ cover:
 ## Security
 - [CBT Nuggets](https://www.cbtnuggets.com/)
   - [CompTIA Security+](https://www.cbtnuggets.com/it-training/comptia/security-plus/)
-  - [Security Threats, Attacks & Vulnerabilities](https://www.cbtnuggets.com/it-training/comptia/security-threats-attacks-vulnerabilities/)
+  - [Security Threats, Attacks & Vulnerabilities](https://www.cbtnuggets.com/it-training/comptia)
 
 ## Virtualization
 - [Pluralsight](https://www.pluralsight.com/)
