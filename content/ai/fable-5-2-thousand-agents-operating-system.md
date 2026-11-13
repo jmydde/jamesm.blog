@@ -85,6 +85,7 @@ The question I am left with is not whether agents will replace engineers. It is 
 
 ## Related Reading
 
+- [Claude Fable 5.2: Cheaper, Faster, and Four Ways It Can Break Your Code](/ai/claude-fable-5-2-mythos-5-2/) - the rest of the Fable 5.2 launch, from pricing to API breaking changes
 - [When AI Gets Faster Than Human Review](/ai/when-ai-gets-faster-than-human-review/) - why review capacity becomes the bottleneck
 - [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/) - the shift from writing code to curating agents
 - [Claude Fable 5 and Mythos 5](/ai/claude-fable-5-mythos-5/) - the original Fable and Mythos launch
