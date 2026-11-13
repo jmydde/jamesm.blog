@@ -1,7 +1,7 @@
 ---
 title: "Anthropic's IPO: What the S-1 Says That Matters If You Build on Claude"
 date: 2026-11-13T17:00:00+00:00
-draft: true
+draft: false
 tags: ["anthropic", "claude", "ai", "business", "finance", "ai-safety", "api", "cost", "2026"]
 description: "Anthropic's amended S-1 sets a $70 to $78 price range for 825 million shares, with trading expected on 19 November. Behind the valuation headlines sit a $16.3 billion half-year revenue figure, a mostly non-cash $80.7 billion loss and roughly $895 billion of compute commitments. Here is what I would read first if my product runs on Claude."
 ---
