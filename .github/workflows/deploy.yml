@@ -31,7 +31,7 @@ permissions:
 
 env:
   # Match this to `hugo version` on the machine you build on today.
-  HUGO_VERSION: "0.140.2"
+  HUGO_VERSION: "0.159.2"
   # hugo-PaperMod is a gitlink with no .gitmodules entry, so a normal
   # submodule checkout can't fetch it. Pin the same commit explicitly.
   PAPERMOD_REPO: https://github.com/adityatelange/hugo-PaperMod.git
