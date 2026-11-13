@@ -57,6 +57,20 @@ factual claim traces to something actually verified.
 - After adding or editing a post, run `hugo && python3 scripts/link-audit.py`
   to check for orphan posts, broken `## Related Reading` links, and links to
   drafts.
+- **Monthly AI roundup.** James wants one "biggest AI news" post at the end of
+  every month, at `content/ai/ai-roundup-<month>-<year>.md` titled
+  `AI Roundup: <Month> <Year>` (e.g. `ai-roundup-october-2026.md`). **Reminder
+  rule:** at the start of any session, if today is the 25th of the month or
+  later (or the 1st-3rd, and last month's roundup is missing), check whether
+  that month's roundup exists. If not, remind James it is due and offer to
+  write it. Follow the verify-before-publishing rules above: research each
+  item by web search, prefer primary or major-outlet sources, say where
+  sources disagree, attribute company claims, and never include an item you
+  could not corroborate. Keep it as `draft: true` until James has reviewed it.
+  Link the previous month's roundup in `## Related Reading`.
+- News posts on controversial or sensitive topics (scandals, lawsuits, personal
+  conduct) state confirmed facts only: no "My take", no personal opinion, and
+  no unconfirmed allegations about named people.
 - `deploy.sh` builds with Hugo and rsyncs `public/` straight to the live
   server - it does not go through git, so a post can go live without ever
   being committed. Commit content changes promptly so the repo and the live
