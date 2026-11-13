@@ -4,6 +4,9 @@ date: 2026-11-12T08:00:00+00:00
 draft: false
 tags: ["ai", "anthropic", "claude", "fable", "mythos", "model-release", "benchmark", "api", "cost", "ai-safety", "2026"]
 description: "Anthropic's Claude Fable 5.2 and Mythos 5.2 cut list prices by 20%, run up to 30% faster and top most of Anthropic's own benchmarks. The launch post is about capability. The API docs are where builders should look first: four breaking changes, a 30-day retention requirement, and Anthropic's own advice to start somewhere else."
+cover:
+  image: /assets/images/ai/claude-fable-5-2-mythos-5-2.jpg
+  alt: Claude Fable 5.2 - a glowing crystalline figure standing over a cracked digital landscape, surrounded by benchmark panels, a 400 prefix check warning, a 30-day data retention lock and a "start with Opus 5.5" note
 ---
 
 ## TL;DR
