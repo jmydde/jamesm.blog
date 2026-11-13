@@ -1,7 +1,7 @@
 ---
 title: "AI Roundup: October 2026"
 date: 2026-10-31T18:00:00+00:00
-draft: true
+draft: false
 tags: ["ai", "news", "anthropic", "openai", "google", "gemini", "mistral", "model-release"]
 description: "The biggest AI news of October 2026: Claude Haiku 5.5, Gemini 4 Argon rolling out, OpenAI's parallel agents and its Google Cloud deal, Mistral's one-trillion-parameter open-weights model, and Anthropic's IPO preparations."
 ---

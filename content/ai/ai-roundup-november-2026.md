@@ -1,7 +1,7 @@
 ---
 title: "AI Roundup: November 2026"
 date: 2026-11-13T18:00:00+00:00
-draft: true
+draft: false
 tags: ["ai", "news", "anthropic", "openai", "nvidia", "model-release", "acquisition"]
 description: "The biggest AI news of November 2026 so far: Claude Fable 5.2 and Mythos 5.2, Anthropic's IPO, OpenAI's $1.25 trillion funding round, Marvell's $115 billion Lumentum deal, Jensen Huang's resignation from Nvidia and a lawsuit against five AI developers."
 ---

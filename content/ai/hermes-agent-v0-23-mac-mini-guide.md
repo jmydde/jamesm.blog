@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent v0.23 on a Mac mini: Slack, Telegram, WhatsApp and a Kanban Board in Your Pocket"
 date: 2026-11-13T12:00:00+00:00
-draft: true
+draft: false
 tags: ["ai", "agent", "hermes", "open-source", "mac-mini", "self-hosted", "automation", "ios"]
 description: "What the latest Hermes Agent release (v0.23 'The Hearth') can do, how to run the gateway on a Mac mini under launchd, how to talk to it over Slack, Telegram and WhatsApp, and how to reach its Kanban board from an iPhone."
 ---
