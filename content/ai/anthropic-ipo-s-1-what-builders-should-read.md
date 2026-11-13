@@ -4,6 +4,9 @@ date: 2026-11-13T17:00:00+00:00
 draft: false
 tags: ["anthropic", "claude", "ai", "business", "finance", "ai-safety", "api", "cost", "2026"]
 description: "Anthropic's amended S-1 sets a $70 to $78 price range for 825 million shares, with trading expected on 19 November. Behind the valuation headlines sit a $16.3 billion half-year revenue figure, a mostly non-cash $80.7 billion loss and roughly $895 billion of compute commitments. Here is what I would read first if my product runs on Claude."
+cover:
+  image: /assets/images/ai/anthropic-ipo-s-1-what-builders-should-read.jpg
+  alt: Anthropic IPO - an open Form S-1 prospectus showing the ANT $70-$78 price range, beside a $16.3B revenue chart, a red non-cash fair-value panel, scales, a cracked safety shield and an existential risk warning
 ---
 
 ## TL;DR
