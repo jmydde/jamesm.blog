@@ -27,7 +27,7 @@ slug: "gaming-hub"
 
 ## Coming soon
 
-See [ROADMAP.md](https://github.com/jmydde/jamesm.blog/blob/main/ROADMAP.md) under **Gaming & Game Technology** for planned posts:
+Planned posts under **Gaming & Game Technology**:
 
 - Game Technology in 2026: Inside the Stack Behind a Live Service Game
 - Game Telemetry at Scale

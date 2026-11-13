@@ -76,7 +76,7 @@ The open-source alternative isn't just a way to save money; it's an insurance po
 **My advice?** Build on **Iceberg**. It’s the only way to ensure that if you follow the money today, you aren't trapped by it tomorrow.
 
 ---
-*How are you balancing vendor convenience against the raw cost of compute this year? Let's discuss on [DevOpsForum.uk](https://DevOpsForum.uk).*
+*How are you balancing vendor convenience against the raw cost of compute this year? Let's discuss on [X](https://x.com/jamesmyddelton).*
 
 ## Related Reading
 

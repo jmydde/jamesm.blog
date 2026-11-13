@@ -13,7 +13,7 @@ Most people writing about AI risk in 2026 are recent arrivals. Roman Yampolskiy 
 
 ## TL;DR
 
-- Roman Yampolskiy is an associate professor of computer science at the University of Louisville's [Speed School of Engineering](https://engineering.louisville.edu/faculty/roman-v-yampolskiy/), where he founded and directs the Cyber Security Lab.
+- Roman Yampolskiy is an associate professor of computer science at the University of Louisville's [Speed School of Engineering](https://profiles.louisville.edu/roman.yampolskiy), where he founded and directs the Cyber Security Lab.
 - He is widely credited with coining the term "AI safety" in 2010, formally presenting it at a peer-reviewed conference the following year, and has spent two decades publishing on what he calls the AI control problem.
 - His central thesis is that there is no proof that a sufficiently advanced AI can be safely controlled, and that the burden of proof should sit with developers, not skeptics.
 - He has put concrete numbers on his pessimism: a near-certain probability of catastrophic outcomes from uncontrolled superintelligence within a century, and the prediction that AI will cause large-scale labour displacement long before that.

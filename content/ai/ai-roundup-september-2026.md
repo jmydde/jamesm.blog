@@ -25,7 +25,7 @@ According to [Constellation Research](https://www.constellationr.com/insights/ne
 
 ## Nvidia to Buy Hugging Face (3 September)
 
-Nvidia announced it will buy Hugging Face for about $12.93 billion, according to [Semafor](https://semafor.com/article/09/03/2026/nvidia-to-buy-hugging-face-for-nearly-13-billion) and [ABC News](https://abcnews.com/Technology/wireStory/nvidia-spend-13-billion-hugging-face-leaving-open-136169595):
+Nvidia announced it will buy Hugging Face for about $12.93 billion, according to [Semafor](https://semafor.com/article/09/03/2026/nvidia-to-buy-hugging-face-for-nearly-13-billion) and [ABC News](https://web.archive.org/web/20260904144517/https://abcnews.com/Technology/wireStory/nvidia-spend-13-billion-hugging-face-leaving-open-136169595):
 
 - About $11.9 billion goes to existing investors and shareholders, with roughly $1 billion set aside as an employee retention package
 - Jensen Huang wrote that Hugging Face will remain an open platform and that Nvidia compute will not be required to build on or deploy through it
@@ -57,7 +57,7 @@ Google announced Gemini 4 Argon, which went first to trusted cyber defenders thr
 - [Constellation Research: OpenAI launches GPT-6 Astra](https://www.constellationr.com/insights/news/openai-launches-gpt-6-astra)
 - [TechRepublic: OpenAI launches GPT-6 Astra](https://techrepublic.com/article/news-openai-gpt-6-astra-agi-era-2026)
 - [Semafor: Nvidia to buy Hugging Face for nearly $13 billion](https://semafor.com/article/09/03/2026/nvidia-to-buy-hugging-face-for-nearly-13-billion)
-- [ABC News: Nvidia to spend $13 billion on Hugging Face](https://abcnews.com/Technology/wireStory/nvidia-spend-13-billion-hugging-face-leaving-open-136169595)
+- [ABC News: Nvidia to spend $13 billion on Hugging Face](https://web.archive.org/web/20260904144517/https://abcnews.com/Technology/wireStory/nvidia-spend-13-billion-hugging-face-leaving-open-136169595)
 - [TechCrunch: Anthropic releases Opus 5.5](https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/)
 - [Digital Trends: Claude Opus 5.5](https://www.digitaltrends.com/computing/anthropic-launches-claude-opus-5-5-with-fable-5-1-level-performance-at-a-40-lower-price/)
 - [TheNextWeb: Google unveils Gemini 4 Argon](https://thenextweb.com/news/google-gemini-4-argon-cyber-defenders-fairwind)

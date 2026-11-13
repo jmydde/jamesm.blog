@@ -18,7 +18,7 @@ The [Commodore PET](https://en.wikipedia.org/wiki/Commodore_PET) was the first c
 
 The first program I wrote was an animated Christmas card as part of a  school competition, I was quite proud of it.  We were meant to showcase all of our programs at a public school event however I forgot to take the tape with me to school, I was truly gutted.   I also mislaid the tape at home so have lost all those initial programs I wrote :(
 
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Commodore_2001_Series-IMG_0448b.jpg/1200px-Commodore_2001_Series-IMG_0448b.jpg" title="Commodore PET" height=250 width=250 >}}
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Commodore_2001_Series-IMG_0448b.jpg/1280px-Commodore_2001_Series-IMG_0448b.jpg" title="Commodore PET" height=250 width=250 >}}
 
 ### BBC Micro Model B (1981)
 I didn't own this personally at home but used it in the school computing club

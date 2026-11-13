@@ -15,7 +15,7 @@ cover:
 
 ## The v5.5 model
 
-v5.5 is the headline release of the year so far. Suno is calling it their most expressive model yet, and the practical difference is that vocal performances no longer fall apart on the awkward edge cases - long held notes, intimate dynamics, breath between phrases. The [official help article](https://help.suno.com/en/articles/11362305) lays out the changes in full, but three features are doing most of the work.
+v5.5 is the headline release of the year so far. Suno is calling it their most expressive model yet, and the practical difference is that vocal performances no longer fall apart on the awkward edge cases - long held notes, intimate dynamics, breath between phrases. The [official help article](https://web.archive.org/web/20260901002044/https://help.suno.com/en/articles/11362305) lays out the changes in full, but three features are doing most of the work.
 
 ### Voices
 

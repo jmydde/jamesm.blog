@@ -28,7 +28,7 @@ Start with fundamentals and core concepts:
 
 Build practical development skills:
 
-- **[LearnWeb3](https://learnweb3.io/)**  -  Comprehensive Web3 developer education with hands-on projects, covering smart contracts, DeFi, and decentralized application architecture
+- **[LearnWeb3](https://web.archive.org/web/20260810110809/https://learnweb3.io/)**  -  Comprehensive Web3 developer education with hands-on projects, covering smart contracts, DeFi, and decentralized application architecture
 
 - **[ChainShot](https://www.chainshot.com/bootcamp/)**  -  Interactive bootcamp offering structured lessons and coding challenges for blockchain development with real-world practice scenarios
 
