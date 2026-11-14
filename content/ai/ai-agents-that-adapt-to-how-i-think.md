@@ -13,8 +13,6 @@ This is a personal post about my own setup, not a report on anything happening i
 
 It comes down to having a workflow that adapts to the way I think. The real gain isn't agents writing code faster. It's less cognitive overhead between having an idea and acting on it.
 
-![Illustration of several AI agents working in parallel: a code writer in its own Git worktree, a debugger, a PR creator, an idea organiser and a router sending thoughts to the right agent](/assets/images/ai/ai-agents-that-adapt-to-how-i-think.jpg)
-
 ## TL;DR
 
 - I run several AI agents at once, each with its own context, tasks and responsibilities.
