@@ -1,7 +1,7 @@
 ---
 title: "MacWhisper vs Wispr Flow vs Superwhisper: The 2026 Dictation Stack Compared"
 date: 2026-04-20T19:02:00+01:00
-lastmod: 2026-10-14T12:00:00+01:00
+lastmod: 2026-11-14T12:00:00+00:00
 draft: false
 tags: ["ai", "voice", "tool", "macos", "productivity"]
 description: "A practical breakdown of the three dictation apps every Mac user keeps hearing about - who they're for, what they cost, and where they stop being interchangeable."
@@ -32,13 +32,35 @@ If you record meetings, lectures, or interviews and want the transcript, use Mac
 
 ## Pricing at a Glance
 
+*Disclosure: I'm an affiliate for WhisperJot and earn a commission if you buy through my link to it below. I have no such arrangement with the other tools in this post.*
+
 | Product | Free tier | Monthly | Annual | Lifetime | Model location |
 | --- | --- | --- | --- | --- | --- |
+| WhisperJot | No (no free trial) | $5 (Local plan, on-device only) | $99 (Pro); $30 per quarter | $199 (limited offer, listed as ending 15 November 2026) | Cloud by default, on-device when offline or on the Local plan |
 | MacWhisper | Yes (Tiny/Base/Small) | - | - | $79.99 Pro | On-device |
 | Wispr Flow | Free (Basic, 2,000 words/week) | $15 | $144 ($12/mo) | - | Cloud |
 | Superwhisper | Yes (small local models) | $8.49 | $84.99 | $249.99 | On-device (cloud optional) |
 
 Students get Wispr Flow Pro for $10/month with a .edu email. Superwhisper's lifetime price has been moving around in 2026 - [a few sources](https://www.blazingfasttranscription.com/blog/superwhisper-pricing) report increases beyond the $249.99 sticker, so check the checkout page before assuming.
+
+## WhisperJot
+
+<a href="https://whisperjot.com?ref=jamesmyddexl9c22" rel="sponsored noopener">WhisperJot</a> (affiliate link) is the newest tool here, and it is aimed at the same job as Wispr Flow and Superwhisper: hold a hotkey, speak, and the words are typed into whatever app has focus. It runs on Mac, Windows, and Linux under one account. I have not used it myself yet, so everything below comes from the company's own site and is its claim, not my test result.
+
+**What it's actually good at:**
+
+- One plan covers all platforms: macOS 14+ on Apple Silicon is the reference platform, Windows is stable, and Linux builds are in beta
+- Two engines: Jot Cloud by default for speed on any machine, and Jot Local, an on-device engine (about 500 MB on Mac) that keeps dictation working offline
+- Optional LLM text cleanup that, according to WhisperJot, talks only to your own machine (127.0.0.1)
+- Pro has no word caps or per-minute billing
+
+**What it isn't:**
+
+WhisperJot is not a local-first tool by default. Dictation audio goes to its servers for transcription, and the company says it is discarded and never stored. Optional features such as Identify Speakers and audio imports upload audio too. Cloud use is limited to 10 minutes per request and 2 hours of cloud audio per day. There is no free trial, it is a new product, and Linux is still beta.
+
+**Pricing:** Pro is $99 a year or $30 every three months. The Local plan is $5 a month and drops the cloud features (Jot Cloud, speaker identification, cloud sync, meeting agents). A $199 lifetime offer is listed as ending on 15 November 2026, so check the [pricing page](https://whisperjot.com/pricing/) before assuming it is still there.
+
+**Best for:** My read, not a tested verdict: people who switch between Mac, Windows, and Linux machines and want one dictation tool on all of them, and who are comfortable with cloud transcription by default.
 
 ## MacWhisper
 
@@ -101,16 +123,13 @@ Superwhisper has a learning curve. Users routinely compare the initial setup to 
 
 ## Everything Else Worth Knowing About
 
-The three products above cover most use cases, but the space is crowded. A few others come up regularly:
+The four products above cover most use cases, but the space is crowded. A few others come up regularly:
 
 - **WhisperClip** - cheaper Wispr Flow competitor, aggressively priced for casual users
 - **[Voicy](https://usevoicy.com/)** - cloud-based dictation with desktop apps for Mac, Windows, and Linux, plus iOS and Android apps and a Chrome extension; simpler feature set
 - **[OpenWhispr](https://openwhispr.com/)** - open source, bring-your-own-infrastructure
 - **[Spokenly](https://spokenly.app/)** - BYOK model, competitive on the power-user end
-- **<a href="https://whisperjot.com?ref=jamesmyddexl9c22" rel="sponsored noopener">WhisperJot</a>** (affiliate link) - hotkey dictation for Mac, Windows, and Linux (Linux is in beta) on one account; a cloud engine by default (the company says audio is transcribed and never stored) with an on-device engine for offline use. Pro is $99 a year, and there is no free trial
 - **[Speakmac](https://www.speakmac.app/)** - $29 one-time for one Mac ($39 for two), with a 30-transcription free trial and no account required; pitched as the budget alternative to Superwhisper's lifetime tier
-
-*Disclosure: I'm an affiliate for WhisperJot and earn a commission if you buy through that link. I have no such arrangement with the other tools in this post.*
 
 None of these are dominant yet, but the market is clearly moving toward a two-tier shape: cheap or free on-device tools for privacy-first users, and polished cloud subscriptions for users who value convenience over data residency.
 
