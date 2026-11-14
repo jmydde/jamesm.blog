@@ -16,6 +16,8 @@ It comes down to having a workflow that adapts to the way I think. The real gain
 - I rarely write careful prompts any more. I think out loud, often by voice, and let the agent work out the rest.
 - My agent workflow now routes loose, unrelated thoughts to the right agent instead of treating everything as part of the current conversation.
 - Development work happens in isolated Git worktrees, on separate branches, and ends in a GitHub pull request that I review.
+- I'm enjoying the extra time for brainstorming, problem solving, design and taste, and I like reviewing the finished work.
+- The long-term role of humans in software feels uncertain to me, but for now I still feel like an important part of the process.
 - It is not perfect. Agents still misread context and misroute things, and I still make the decisions.
 
 ## Parallel agents, each with its own job
@@ -62,6 +64,12 @@ Before, I'd often interrupt a train of thought to document something properly, c
 
 I genuinely love that.
 
+## What I'm enjoying most: more time to think
+
+The part I didn't expect is how much I enjoy what I now get to spend time on. I have more room to brainstorm ideas, to work through problems, and to think about design, including my own tastes and preferences. Those are the questions I find most interesting, and they used to get squeezed by the mechanics.
+
+I also like reviewing the work at the end. Looking at what an agent has produced, deciding whether it is right, whether it feels right, and what I'd change is satisfying in its own way. It is where my judgement and taste actually matter.
+
 ## Not replacing developers, changing where the effort goes
 
 I still enjoy the engineering side. I want to understand the architecture, challenge decisions, review implementations and make sure things are built properly.
@@ -69,6 +77,14 @@ I still enjoy the engineering side. I want to understand the architecture, chall
 What I don't want to spend my time on is manually coordinating every little step. I'd rather think about what we could build, which problems are worth solving and what better ideas might look like. The agents take on a growing share of the execution and coordination. I'm still responsible for direction and decisions, but I'm no longer the bottleneck for every individual piece of work.
 
 I think that is where things are heading, though that is my own read rather than a prediction I can point to evidence for.
+
+## Where do humans fit?
+
+Honestly, it feels uncertain what role humans will have in software in the future. For now, though, I still feel like a very important part of the process, and I hope that stays true for at least the next few years.
+
+I'm fairly optimistic about where this goes. My guess is that anyone will be able to build anything, and what will matter is having the ideas and the passion to build them. Again, that is my own speculation, not something I can prove.
+
+I can also imagine a lot of software ending up being built for agents rather than for people, since agents don't need a flashy UI. But for now I'm enjoying building solutions for myself and other humans as well as for agents.
 
 ## Only just getting started
 
