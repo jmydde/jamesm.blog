@@ -4,11 +4,16 @@ date: 2026-11-14T09:13:45+00:00
 draft: false
 tags: ["ai", "agent", "workflow", "productivity", "voice", "git", "github", "idea"]
 description: "A personal account of running several AI agents in parallel, talking to them out loud, and letting the workflow adapt to how I think instead of the other way around."
+cover:
+  image: /assets/images/ai/ai-agents-that-adapt-to-how-i-think.jpg
+  alt: Illustration of several AI agent windows (code writer, debugger, PR creator, idea organiser, router and synthesizer) working in parallel around the title "I've Stopped Organising My Thoughts Around My Tools. My AI Agents Have Adapted to Me."
 ---
 
 This is a personal post about my own setup, not a report on anything happening in the wider industry. Something has changed in the way I work at home over the last few months, and I don't think it comes down to better models or cleverer prompts.
 
 It comes down to having a workflow that adapts to the way I think. The real gain isn't autonomous agents writing code faster. It's less cognitive overhead between having an idea and acting on it.
+
+![Illustration of several AI agents working in parallel: a code writer in its own Git worktree, a debugger, a PR creator, an idea organiser and a router sending thoughts to the right agent](/assets/images/ai/ai-agents-that-adapt-to-how-i-think.jpg)
 
 ## TL;DR
 
