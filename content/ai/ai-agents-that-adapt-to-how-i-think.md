@@ -59,6 +59,22 @@ I can throw something fairly random into a conversation and the system can work 
 
 It's not perfect, and there is plenty left to improve, but it has already made a massive difference.
 
+## The whole flow at a glance
+
+Here is the whole thing on one page.
+
+![Workflow diagram titled "Think freely. Let the agents organise the work." Thoughts are captured by voice, chat and quick notes, pass through a context-aware router, and are sent to parallel specialist agents: idea organiser, research and requirements, builder, debugger, and reviewer or PR creator. Tests, a GitHub pull request, my review and decision, and a merge or next iteration follow, under the line "I steer. I challenge. I review. I decide."](/assets/images/ai/ai-agent-workflow-orchestration.jpg)
+
+Reading it left to right:
+
+1. **Capture from anywhere.** I think out loud by voice with MacWhisper, chat to agents in Claude Code terminals, Telegram, Slack and WhatsApp, or simply drop in a half-formed thought. No carefully constructed prompt required.
+2. **Me.** The input is curiosity, priorities, judgement and taste. Thoughts arrive in any order and at any level of completeness.
+3. **A context-aware router.** It knows my projects, prior conversations, requirements and how I work, so it can understand the intent, organise the rough thought and send it to the right agent or project.
+4. **Parallel specialist agents.** An idea organiser to capture, connect and develop ideas. A research and requirements agent to investigate, challenge and clarify. A builder to implement the feature. A debugger to investigate and fix issues. A reviewer to test, review and raise the GitHub pull request.
+5. **My review and decision.** Tests and self-review come first, then the pull request, then my review, then a merge or the next iteration.
+
+The line along the middle of the diagram is the one I care most about: I steer, I challenge, I review and I decide. The agents take on the coordination, but the direction stays with me. And as the footer of the diagram says, agents can still misunderstand or misroute work, so human oversight matters.
+
 ## I don't need to worry about how everything gets built
 
 The other half of the setup is how the agents handle the engineering. When an agent picks up a development task, it works in its own isolated Git worktree, on a separate branch, so it doesn't interfere with anything else in flight.
