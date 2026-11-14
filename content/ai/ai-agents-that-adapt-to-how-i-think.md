@@ -19,6 +19,7 @@ It comes down to having a workflow that adapts to the way I think. The real gain
 
 - I run several AI agents at once, each in its own window with its own context, tasks and responsibilities.
 - I rarely write careful prompts any more. I think out loud, often by voice, and let the agent work out the rest.
+- I don't only work in Claude Code terminal sessions. I also trigger work through a Hermes agent, Hermes kanban, and custom kanban board apps I've built.
 - My agent workflow now routes loose, unrelated thoughts to the right agent instead of treating everything as part of the current conversation.
 - Development work happens in isolated Git worktrees, on separate branches, and ends in a GitHub pull request that I review.
 - I'm enjoying the extra time for brainstorming, problem solving, design and taste, and I like reviewing the finished work.
@@ -38,6 +39,12 @@ One of the things I enjoy most is opening an agent window and dumping thoughts i
 I also use MacWhisper and other speech-to-text tools to talk to my agents directly. Often it is quicker to say what I'm thinking than to stop and type it out.
 
 I don't sit down with a carefully constructed prompt and a clearly defined objective. I just start talking, and increasingly that is enough.
+
+## Not just terminal windows
+
+I don't only work inside Claude Code terminal sessions and windows. I also trigger prompts and tasks in other ways: through a [Hermes agent](/ai/hermes-agent/), through Hermes kanban, and through custom kanban board apps I've built myself.
+
+That matters for the rest of this post. An idea doesn't have to start in a particular window. It can become a card on a board, a message to an agent, or a conversation in a terminal, and whichever route I take, it can end up with the right agent doing the work.
 
 ## The agents have learned to work around my thought process
 
