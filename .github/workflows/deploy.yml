@@ -32,8 +32,8 @@ permissions:
 env:
   # Match this to `hugo version` on the machine you build on today.
   HUGO_VERSION: "0.159.2"
-  # hugo-PaperMod is a gitlink with no .gitmodules entry, so a normal
-  # submodule checkout can't fetch it. Pin the same commit explicitly.
+  # hugo-PaperMod is declared in .gitmodules, but checkout does not fetch
+  # submodules, so pin the same commit explicitly.
   PAPERMOD_REPO: https://github.com/adityatelange/hugo-PaperMod.git
 
 jobs:
@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the site
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Fetch the PaperMod theme at the pinned commit
         run: |
@@ -70,7 +70,7 @@ jobs:
 
       - name: Keep the built site for the deploy job
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: public
           path: public/
@@ -83,7 +83,7 @@ jobs:
     environment: production
     steps:
       - name: Download the built site
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: public
           path: public/
