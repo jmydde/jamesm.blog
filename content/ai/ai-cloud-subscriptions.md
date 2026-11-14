@@ -91,7 +91,7 @@ Same OpenAI models, delivered through Azure with enterprise controls: data resid
 - **Pricing**: Per-model rates matching OpenAI's, plus Azure compute and networking.
 - **Best for**: Regulated enterprises, Azure-native stacks, teams needing Microsoft's compliance posture.
 
-[Azure OpenAI pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/).
+[Azure OpenAI pricing](https://azure.microsoft.com/en-us/pricing/details/azure-openai/).
 
 ### xAI (Grok API)
 

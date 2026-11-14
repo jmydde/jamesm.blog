@@ -28,7 +28,7 @@ OpenAI launched GPT-5.4, with Thinking and Pro variants for ChatGPT and Codex an
 
 ## OpenAI Shuts Down Sora (24 March)
 
-OpenAI announced on 24 March that it is ending the Sora video app and its developer API, six months after launching the standalone app. As [Engadget](https://engadget.com/ai/openai-is-shutting-down-its-sora-video-generation-app-211023358.html) and [OPB](https://www.opb.org/article/2026/03/24/openai-pulls-the-plug-on-sora-the-viral-ai-video-app-that-sparked-deepfake-concerns) reported:
+OpenAI announced on 24 March that it is ending the Sora video app and its developer API, six months after launching the standalone app. As [Engadget](https://engadget.com/ai/openai-is-shutting-down-its-sora-video-generation-app-211023358.html) and [OPB](https://web.archive.org/web/20260326023943/https://www.opb.org/article/2026/03/24/openai-pulls-the-plug-on-sora-the-viral-ai-video-app-that-sparked-deepfake-concerns/) reported:
 
 - The announcement came from the Sora account and gave no reason
 - Reporting points to the cost of serving video and a shift towards business and coding tools ahead of a possible stock market listing
@@ -55,6 +55,6 @@ OpenAI announced it had closed a funding round with $122 billion of committed ca
 - [SiliconANGLE: OpenAI launches GPT-5.4](https://siliconangle.com/2026/03/05/openai-launches-gpt-5-4-computer-vision-tool-use-enhancements/)
 - [Fortune: OpenAI new model GPT-5.4](https://fortune.com/2026/03/05/openai-new-model-gpt5-4-enterprise-agentic-anthropic/)
 - [Engadget: OpenAI is shutting down Sora](https://engadget.com/ai/openai-is-shutting-down-its-sora-video-generation-app-211023358.html)
-- [OPB: OpenAI pulls the plug on Sora](https://www.opb.org/article/2026/03/24/openai-pulls-the-plug-on-sora-the-viral-ai-video-app-that-sparked-deepfake-concerns)
+- [OPB: OpenAI pulls the plug on Sora](https://web.archive.org/web/20260326023943/https://www.opb.org/article/2026/03/24/openai-pulls-the-plug-on-sora-the-viral-ai-video-app-that-sparked-deepfake-concerns/)
 - [SiliconANGLE: OpenAI closes $122B round](https://siliconangle.com/2026/03/31/openai-just-closed-record-breaking-122b-funding-round-brings-value-852b/)
 - [The Next Web: OpenAI $122 billion round](https://thenextweb.com/news/openai-122-billion-round-852-billion-valuation-retail-investors)

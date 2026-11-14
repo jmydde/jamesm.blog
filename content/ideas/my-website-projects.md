@@ -11,7 +11,7 @@ cover:
 
 | Website                                           | Description              | Status   | Notes                                             |
 | :------------------------------------------------ | :----------------------- | :------: | :------------------------------------------------ |
-| [DevOpsForum.uk](https://devopsforum.uk/)         | UK DevOps forum          | Live     |                                                   |
+| DevOpsForum.uk                                    | UK DevOps forum          | Down (SSL expired) |                                          |
 | [JamesM.blog](https://jamesm.blog/)               | My personal blog         | Live     |                                                   |
 | [PolkaView.io](https://web.archive.org/web/20240621004750/https://polkaview.io/)             | Polkadot dashboards      | Live     |                                                   |
 | [CloudETL.io](https://web.archive.org/web/20250313145247/https://cloudetl.io/)               | Cloud-based ETL tool     | Pending  |                                                   |

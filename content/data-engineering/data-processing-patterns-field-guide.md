@@ -104,7 +104,7 @@ You get the bookkeeping of streaming - each record handled once, progress checkp
 | Tier | Tools |
 |---|---|
 | Open source | Spark Structured Streaming with an available-now style trigger, dbt incremental models, Flink in batch mode, Delta and Iceberg incremental reads |
-| SaaS | [Databricks Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines/), Snowflake dynamic tables and Snowpipe, BigQuery materialized views |
+| SaaS | [Databricks Lakeflow Declarative Pipelines](/data-engineering/lakeflow-declarative-pipelines-2026/), Snowflake dynamic tables and Snowpipe, BigQuery materialized views |
 | Enterprise | Informatica and DataStage incremental loads |
 
 **My first pick:** whatever incremental feature your warehouse or lakehouse already has. It is almost always the lowest-effort route to "fresh enough".

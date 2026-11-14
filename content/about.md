@@ -35,4 +35,4 @@ I use AI tools extensively in researching and drafting this blog. I verify claim
 
 ## Get in touch
 
-The full list is in the footer, but the fastest routes are [email](mailto:jamesmyddelton@gmail.com), [LinkedIn](https://uk.linkedin.com/in/jamesmyddelton/), or [X](https://x.com/jamesmyddelton/). If you spot something wrong in a post, that's exactly the kind of message I want.
+The full list is in the footer, but the fastest routes are [email](mailto:jamesmyddelton@gmail.com) or [X](https://x.com/jamesmyddelton/). If you spot something wrong in a post, that's exactly the kind of message I want.

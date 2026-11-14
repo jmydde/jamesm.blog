@@ -81,7 +81,7 @@ cover:
 - [A Cloud Guru](https://acloudguru.com/)
   - [AWS Certified Advanced Networking Specialty](https://acloudguru.com/course/aws-certified-advanced-networking-specialty-2/)
 - [Pluralsight](https://www.pluralsight.com/)
-  - [AWS Networking](https://www.pluralsight.com/paths/aws-networking/)
+  - [AWS Networking](https://web.archive.org/web/20260311190345/https://www.pluralsight.com/paths/aws-networking)
   - [AWS Networking Deep Dive: Virtual Private Cloud (VPC)](https://www.pluralsight.com/courses/aws-networking-deep-dive-vpc/)
   - [AWS VPC Operations](https://www.pluralsight.com/courses/aws-vpc-operations/)
   - [Introduction to Amazon Virtual Private Cloud (VPC)](https://www.pluralsight.com/courses/introduction-amazon-virtual-private-cloud-vpc/)
@@ -223,7 +223,7 @@ cover:
   - [Getting Started with Ubuntu](https://www.pluralsight.com/courses/ubuntu-getting-started/)
   - [LPIC-1: Linux Administrator (101-500 and 102-500)](https://www.pluralsight.com/paths/lpic-one/)
   - [LPIC-2: Linux Engineer (201-450 and 202-450)](https://www.pluralsight.com/paths/lpic-2/)
-  - [Manage Linux with sed and awk](https://www.pluralsight.com/labs/aws/manage-linux-with-sed-awk/)
+  - Manage Linux with sed and awk
   - [Red Hat Enterprise Linux Shell Fundamentals](https://www.pluralsight.com/courses/red-hat-enterprise-linux-shell-fundamentals/)
   - [RHCSA: Red Hat Certified System Administrator (EX200)](https://www.pluralsight.com/paths/rhcsa-red-hat-certified-system-administrator-ex200/)
 - [Udemy](https://www.udemy.com/)

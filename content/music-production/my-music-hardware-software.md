@@ -30,7 +30,7 @@ cover:
 | Tower | [Dell](https://www.dell.com/en-uk/) T5400 Twin Quad Core Xeon 3.0GHz 16GB RAM |
 | Peripherals | [C64 Music Maker keyboard](https://collection.sciencemuseumgroup.org.uk/objects/co8210535/commodore-64-music-maker-keyboard-1984-keyboard), [Microdeal PRO-MIDI Interface (Amiga)](https://bigbookofamigahardware.com/bboah/product.aspx?id=1540) |
 | Drum Machines | [KORG ElecTribe R (ER-1)](https://www.vintagesynth.com/korg/electribe-r-er-1), [Roland R-8 Human Rhythm Composer](https://www.vintagesynth.com/roland/r8.php) |
-| Keyboards | [Casio PT-50](https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/), [JVC KB-700](https://web.archive.org/web/20250805224652/https://jvckeyboards.tripod.com/kb700.html) |
+| Keyboards | [Casio PT-50](https://web.archive.org/web/20251205021320/https://review.wolfarchitects.design/casio-pt-50-keyboard-1983/), [JVC KB-700](https://web.archive.org/web/20250805224652/https://jvckeyboards.tripod.com/kb700.html) |
 | Sound Modules | [Roland Edirol SD90](https://www.soundonsound.com/reviews/edirol-sd90) |
 | Synthesizers | [Casio CZ-101](https://www.vintagesynth.com/casio/cz101.php), [Yamaha SY85](https://www.vintagesynth.com/yamaha/sy85.php) |
 
@@ -347,7 +347,7 @@ Software instruments, effects and soundware leveraging research-led design.
 | Platform | Software |
 |---|---|
 | Amiga | [OctaMED](https://en.wikipedia.org/wiki/OctaMED), [Protracker](https://en.wikipedia.org/wiki/Protracker) |
-| PC | [ACID Pro](https://en.wikipedia.org/wiki/Acid_Pro), [Cakewalk](https://www.cakewalk.com/), [Reason](https://en.wikipedia.org/wiki/Reason_(software)), [ReBirth RB-338](https://en.wikipedia.org/wiki/ReBirth_RB-338), [SampleTank](https://www.ikmultimedia.com/products/st4/index.php), [Cubase VST](https://en.wikipedia.org/wiki/Steinberg_Cubase), [Wavelab](https://www.steinberg.net/wavelab/) |
+| PC | [ACID Pro](https://en.wikipedia.org/wiki/Acid_Pro), [Cakewalk](https://www.cakewalk.com/), [Reason](https://en.wikipedia.org/wiki/Reason_(software)), [ReBirth RB-338](https://en.wikipedia.org/wiki/ReBirth_RB-338), [SampleTank](https://www.ikmultimedia.com/products/st4/), [Cubase VST](https://en.wikipedia.org/wiki/Steinberg_Cubase), [Wavelab](https://www.steinberg.net/wavelab/) |
 | Music Players | [Winamp](https://en.wikipedia.org/wiki/Winamp) |
 
 ## Sample Libraries
