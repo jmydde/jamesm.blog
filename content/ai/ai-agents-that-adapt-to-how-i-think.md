@@ -2,49 +2,52 @@
 title: "I've Stopped Organising My Thoughts Around My Tools. My AI Agents Have Adapted to Me."
 date: 2026-11-14T09:13:45+00:00
 draft: false
-tags: ["ai", "agent", "workflow", "productivity", "voice", "git", "github", "idea"]
+tags: ["ai", "agent", "hermes", "workflow", "productivity", "voice", "git", "github", "idea"]
 description: "A personal account of running several AI agents in parallel, talking to them out loud, and letting the workflow adapt to how I think instead of the other way around."
 cover:
   image: /assets/images/ai/ai-agents-that-adapt-to-how-i-think.jpg
   alt: Illustration of several AI agent windows (code writer, debugger, PR creator, idea organiser, router and synthesizer) working in parallel around the title "I've Stopped Organising My Thoughts Around My Tools. My AI Agents Have Adapted to Me."
 ---
 
-This is a personal post about my own setup, not a report on anything happening in the wider industry. Something has changed in the way I work at home over the last few months, and I don't think it comes down to better models or cleverer prompts.
+This is a personal post about my own setup, not a report on anything happening in the wider industry. Over the last few months, the way I work at home has changed more than I expected, and I don't think it comes down to better models or cleverer prompts.
 
-It comes down to having a workflow that adapts to the way I think. The real gain isn't autonomous agents writing code faster. It's less cognitive overhead between having an idea and acting on it.
+It comes down to having a workflow that adapts to the way I think. The real gain isn't agents writing code faster. It's less cognitive overhead between having an idea and acting on it.
 
 ![Illustration of several AI agents working in parallel: a code writer in its own Git worktree, a debugger, a PR creator, an idea organiser and a router sending thoughts to the right agent](/assets/images/ai/ai-agents-that-adapt-to-how-i-think.jpg)
 
 ## TL;DR
 
-- I run several AI agents at once, each in its own window with its own context, tasks and responsibilities.
-- I rarely write careful prompts any more. I think out loud, often by voice, and let the agent work out the rest.
-- I don't only work in Claude Code terminal sessions. I also trigger work through a Hermes agent, Hermes kanban, and custom kanban board apps I've built.
-- My agent workflow now routes loose, unrelated thoughts to the right agent instead of treating everything as part of the current conversation.
-- Development work happens in isolated Git worktrees, on separate branches, and ends in a GitHub pull request that I review.
-- I'm enjoying the extra time for brainstorming, problem solving, design and taste, and I like reviewing the finished work.
-- The long-term role of humans in software feels uncertain to me, but for now I still feel like an important part of the process.
+- I run several AI agents at once, each with its own context, tasks and responsibilities.
+- I can reach them from wherever I am: Claude Code terminal sessions, a Hermes agent I chat to on Telegram, Slack and WhatsApp, Hermes kanban, and custom kanban boards I've built.
+- I rarely write careful prompts any more. I think out loud, often by voice, and my workflow works out where each thought belongs.
+- Development work happens in isolated Git worktrees and ends in a GitHub pull request that I review.
+- The best part is the extra time for brainstorming, problem solving and design, and reviewing the finished work.
+- The long-term role of humans in software feels uncertain, but for now I still feel like an important part of the process.
 - It is not perfect. Agents still misread context and misroute things, and I still make the decisions.
 
-## Parallel agents, each with its own job
+## Several agents, one head
 
 I can now have several agents working on completely different things at the same time. One might be building a feature for an application, another investigating an issue, another reviewing requirements. Meanwhile I'm already thinking about something unrelated.
 
-That is where it gets interesting, because the hard part of working this way was never starting the agents. It was keeping track of them.
-
-## I don't really prompt any more. I just think out loud.
-
-One of the things I enjoy most is opening an agent window and dumping thoughts into it as they occur to me. Sometimes it's a fully formed idea. Sometimes it's half a sentence, a random observation, or a problem I've spotted. I go back and forth with the agent, challenge its suggestions, change direction and add context. It feels much closer to talking with a colleague than using a traditional software tool.
-
-I also use MacWhisper and other speech-to-text tools to talk to my agents directly. Often it is quicker to say what I'm thinking than to stop and type it out.
-
-I don't sit down with a carefully constructed prompt and a clearly defined objective. I just start talking, and increasingly that is enough.
+The hard part of working this way was never starting the agents. It was keeping track of them.
 
 ## Not just terminal windows
 
-I don't only work inside Claude Code terminal sessions and windows. I also trigger prompts and tasks in other ways: through a [Hermes agent](/ai/hermes-agent/), through Hermes kanban, and through custom kanban board apps I've built myself.
+I don't only work inside Claude Code terminal sessions. I trigger work in several other ways too:
 
-That matters for the rest of this post. An idea doesn't have to start in a particular window. It can become a card on a board, a message to an agent, or a conversation in a terminal, and whichever route I take, it can end up with the right agent doing the work.
+- **Chatting to a [Hermes agent](/ai/hermes-agent/)** through Telegram, Slack and WhatsApp, so I can send it a thought from my phone as easily as from my desk.
+- **Hermes kanban**, where work lives as cards on a board.
+- **Custom kanban board apps** that I've built myself.
+
+An idea doesn't have to start in a particular window or tool. It can become a message on my phone, a card on a board or a conversation in a terminal. Wherever it starts, it can end up with the right agent doing the work.
+
+## I don't really prompt any more. I just think out loud.
+
+One of the things I enjoy most is dumping thoughts into an agent as they occur to me. Sometimes it's a fully formed idea. Sometimes it's half a sentence, a random observation or a problem I've spotted. I go back and forth with the agent, challenge its suggestions, change direction and add context. It feels closer to talking with a colleague than using a traditional software tool.
+
+I also use MacWhisper and other speech-to-text tools to talk to my agents directly. Often it is quicker to say what I'm thinking than to type it out.
+
+I don't sit down with a carefully constructed prompt and a clearly defined objective. I just start talking, and increasingly that is enough.
 
 ## The agents have learned to work around my thought process
 
@@ -54,7 +57,7 @@ I kept catching myself thinking about one project while prompting an agent worki
 
 So I spent a good amount of time building out my agent workflow to deal with exactly that. The agents now understand much more about how I work: the projects I'm involved in, how I approach problems and, importantly, that my thoughts don't arrive in neat, organised packages.
 
-I can throw something fairly random into a conversation and the system can work out where it belongs, which agent should handle it and what needs to happen next. It redirects the work to the appropriate agent rather than blindly treating everything as part of the current conversation.
+I can throw something fairly random into a conversation and the system can work out where it belongs, which agent should handle it and what needs to happen next. It redirects the work to the right agent rather than treating everything as part of the current conversation.
 
 It's not perfect, and there is plenty left to improve, but it has already made a massive difference.
 
@@ -68,7 +71,7 @@ I still review the work, make the decisions and steer. I'm not suggesting everyt
 
 ## My brain has become an idea-generation engine
 
-Perhaps the biggest change is in my own thinking. I'll explore an idea with one agent, spot an opportunity for something else, open another window and start on that. A few minutes later I'll remember an unrelated problem, drop it into the right conversation and carry on.
+Perhaps the biggest change is in my own thinking. I'll explore an idea with one agent, spot an opportunity for something else and start on that. A few minutes later I'll remember an unrelated problem, drop it in and carry on.
 
 I'm no longer forcing myself through a rigid sequence of tasks. My mind can jump between ideas, problems and opportunities without stopping to organise everything first.
 
@@ -108,6 +111,7 @@ I want to spend my time thinking about what is possible, not managing the mechan
 
 ## Related Reading
 
+- [Hermes Agent: Persistent Autonomy That Learns and Grows](/ai/hermes-agent/)
 - [A Year of Agents, and What is Coming Next](/ai/year-of-agents-and-whats-next/)
 - [AI Agents That Actually Work: Patterns From Real Projects](/ai/ai-agents-that-actually-work/)
 - [Agent-First Architecture: The Engineer as System Curator](/ai/agent-first-architecture-engineer-as-curator/)
