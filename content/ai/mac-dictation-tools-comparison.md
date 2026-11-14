@@ -107,8 +107,10 @@ The three products above cover most use cases, but the space is crowded. A few o
 - **[Voicy](https://usevoicy.com/)** - cloud-based dictation with desktop apps for Mac, Windows, and Linux, plus iOS and Android apps and a Chrome extension; simpler feature set
 - **[OpenWhispr](https://openwhispr.com/)** - open source, bring-your-own-infrastructure
 - **[Spokenly](https://spokenly.app/)** - BYOK model, competitive on the power-user end
-- **[WhisperJot](https://whisperjot.com/)** - hotkey dictation for Mac, Windows, and Linux (Linux is in beta) on one account; a cloud engine by default (the company says audio is transcribed and never stored) with an on-device engine for offline use. Pro is $99 a year, and there is no free trial
+- **<a href="https://whisperjot.com?ref=jamesmyddexl9c22" rel="sponsored noopener">WhisperJot</a>** (affiliate link) - hotkey dictation for Mac, Windows, and Linux (Linux is in beta) on one account; a cloud engine by default (the company says audio is transcribed and never stored) with an on-device engine for offline use. Pro is $99 a year, and there is no free trial
 - **[Speakmac](https://www.speakmac.app/)** - $29 one-time for one Mac ($39 for two), with a 30-transcription free trial and no account required; pitched as the budget alternative to Superwhisper's lifetime tier
+
+*Disclosure: I'm an affiliate for WhisperJot and earn a commission if you buy through that link. I have no such arrangement with the other tools in this post.*
 
 None of these are dominant yet, but the market is clearly moving toward a two-tier shape: cheap or free on-device tools for privacy-first users, and polished cloud subscriptions for users who value convenience over data residency.
 
